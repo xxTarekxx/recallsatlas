@@ -1,17 +1,19 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getDb } from "@/lib/mongodb";
+import { getShortProductName, getShortRecallTitle } from "@/lib/recall-utils";
 
 interface PageProps {
   params: { slug: string };
 }
 
+/** Format YYYYMMDD as MM/DD/YYYY */
 function formatDate(yyyymmdd?: string) {
   if (!yyyymmdd || yyyymmdd.length !== 8) return yyyymmdd || "";
   const year = yyyymmdd.slice(0, 4);
   const month = yyyymmdd.slice(4, 6);
   const day = yyyymmdd.slice(6, 8);
-  return `${year}-${month}-${day}`;
+  return `${month}/${day}/${year}`;
 }
 
 export async function generateMetadata({ params }: PageProps) {
@@ -30,9 +32,10 @@ export async function generateMetadata({ params }: PageProps) {
     typeof recall.report_date === "string"
       ? recall.report_date.slice(0, 4)
       : "";
+  const shortProduct = getShortProductName(product);
 
-  const title = `${product} Recall (${year}) – FDA Safety Alert`;
-  const description = `FDA recall alert for ${product} manufactured by ${brand}. See reason, risk and affected batches.`;
+  const title = `${shortProduct} Recall (${year}) – FDA Safety Alert`;
+  const description = `FDA recall alert for ${shortProduct} manufactured by ${brand}. See reason, risk and affected batches.`;
 
   const canonical = `https://recallsatlas.com/recalls/${params.slug}`;
 
@@ -61,15 +64,22 @@ export default async function RecallDetailPage({ params }: PageProps) {
     notFound();
   }
 
-  const title = recall?.title || "Recall detail";
-  const image = recall?.image;
   const product = recall?.product || "";
+  const year =
+    typeof recall?.report_date === "string"
+      ? recall.report_date.slice(0, 4)
+      : "";
+  const shortTitle = getShortRecallTitle(product, year);
+  const image = recall?.image;
   const brand = recall?.brand || "";
   const reason = recall?.reason || "";
   const reportDate = formatDate(recall?.report_date);
   const classification = recall?.classification || "";
   const distribution = recall?.distribution || "";
   const sourceUrl = recall?.source_url || "";
+  const isGenericFdaUrl =
+    sourceUrl === "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts" ||
+    sourceUrl.startsWith("https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts");
 
   return (
     <div className="recall-detail-page">
@@ -79,23 +89,28 @@ export default async function RecallDetailPage({ params }: PageProps) {
         </Link>
       </header>
       <main className="main-content recall-detail">
-        <h1>{title}</h1>
+        <h1>{shortTitle}</h1>
+        <p className="recall-detail-subtitle">FDA Safety Alert</p>
 
         {dbError && <p className="error-message">{dbError}</p>}
 
-        {image && (
+        {image ? (
           // eslint-disable-next-line @next/next/no-img-element
           <img
             src={image}
-            alt={title}
+            alt={shortTitle}
             className="recall-detail-image"
           />
+        ) : (
+          <div className="recall-detail-placeholder" aria-hidden="true">
+            Image not available
+          </div>
         )}
 
         <div className="recall-fields">
           {product && (
-            <p>
-              <strong>Product:</strong> {product}
+            <p className="recall-field-product">
+              <strong>Product:</strong> <span className="recall-product-full">{product}</span>
             </p>
           )}
           {brand && (
@@ -127,8 +142,15 @@ export default async function RecallDetailPage({ params }: PageProps) {
             <p>
               <strong>FDA Source:</strong>{" "}
               <a href={sourceUrl} target="_blank" rel="noreferrer">
-                View official FDA notice
+                {isGenericFdaUrl
+                  ? "Browse FDA recalls and safety alerts"
+                  : "View official FDA notice"}
               </a>
+              {isGenericFdaUrl && (
+                <span className="recall-source-note">
+                  {" "}(FDA’s API does not provide a direct link to this recall’s page.)
+                </span>
+              )}
             </p>
           )}
         </div>
