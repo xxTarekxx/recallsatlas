@@ -1,13 +1,210 @@
 /* Recall-specific styles – Detail page, cards */
 
-.recall-detail {
-  max-width: 800px;
+/* ----- Redesigned detail page ----- */
+.recall-detail-page {
+  min-height: 100vh;
+  background: var(--color-bg, #f8fafc);
 }
 
-.recall-detail h1 {
-  font-size: 1.5rem;
-  margin-bottom: var(--spacing-xs);
+.site-header-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--spacing-md);
+}
+
+.site-header-back {
+  color: var(--color-white);
+  font-size: 0.9375rem;
+  opacity: 0.95;
+}
+
+.site-header-back:hover {
+  text-decoration: underline;
+}
+
+.recall-detail-main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: var(--spacing-lg);
+}
+
+.recall-detail-error {
+  background: #fef2f2;
+  color: #b91c1c;
+  padding: var(--spacing-md);
+  border-radius: var(--radius-md);
+  margin-bottom: var(--spacing-lg);
+}
+
+.recall-detail-article {
+  background: var(--color-white);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
+}
+
+.recall-detail-hero {
+  padding: var(--spacing-xl) var(--spacing-lg) var(--spacing-lg);
+  border-bottom: 1px solid var(--color-border, #e2e8f0);
+}
+
+.recall-detail-badge {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
   color: var(--color-primary);
+  margin: 0 0 var(--spacing-sm);
+}
+
+.recall-detail-title {
+  font-size: 1.5rem;
+  line-height: 1.3;
+  color: var(--color-primary, #0f172a);
+  margin: 0 0 var(--spacing-sm);
+}
+
+.recall-detail-disclaimer {
+  font-size: 0.875rem;
+  color: var(--color-text-muted);
+  margin: 0;
+  line-height: 1.5;
+}
+
+.recall-detail-media {
+  padding: var(--spacing-lg);
+  background: var(--color-bg, #f8fafc);
+}
+
+.recall-detail-image {
+  width: 100%;
+  max-width: 360px;
+  height: auto;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+}
+
+.recall-detail-placeholder {
+  max-width: 360px;
+  aspect-ratio: 4/3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-border);
+  color: var(--color-text-muted);
+  border-radius: var(--radius-md);
+  font-size: 0.875rem;
+  padding: var(--spacing-md);
+}
+
+.recall-detail-facts {
+  padding: var(--spacing-lg);
+  border-bottom: 1px solid var(--color-border, #e2e8f0);
+}
+
+.recall-detail-facts-title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0 0 var(--spacing-md);
+  color: var(--color-primary);
+}
+
+.recall-detail-dl {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.35rem 1.5rem;
+  margin: 0;
+  font-size: 0.9375rem;
+}
+
+.recall-detail-dl dt {
+  font-weight: 600;
+  color: var(--color-text-muted);
+}
+
+.recall-detail-dl dd {
+  margin: 0;
+  color: var(--color-text);
+}
+
+.recall-detail-content {
+  padding: var(--spacing-lg);
+}
+
+.recall-detail-section {
+  margin-bottom: var(--spacing-xl);
+}
+
+.recall-detail-section:last-child {
+  margin-bottom: 0;
+}
+
+.recall-detail-section-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin: 0 0 var(--spacing-sm);
+  color: var(--color-primary);
+}
+
+.recall-detail-section-body {
+  font-size: 0.9375rem;
+  line-height: 1.6;
+  color: var(--color-text);
+}
+
+.recall-detail-section-body p {
+  margin: 0 0 0.75rem;
+}
+
+.recall-detail-authority-links {
+  margin-top: 0.5rem;
+  font-size: 0.875rem;
+}
+
+.recall-detail-authority-links a {
+  color: var(--color-primary);
+}
+
+.recall-detail-footer {
+  padding: var(--spacing-lg);
+  background: var(--color-bg, #f8fafc);
+  border-top: 1px solid var(--color-border);
+  font-size: 0.9375rem;
+}
+
+.recall-detail-footer p {
+  margin: 0;
+}
+
+.recall-detail-footer .recall-detail-facts-title {
+  margin-bottom: var(--spacing-sm);
+}
+
+.recall-detail-footer-publish {
+  margin-bottom: var(--spacing-sm) !important;
+}
+
+.recall-detail-footer .recall-detail-authority-links {
+  margin-bottom: var(--spacing-sm);
+}
+
+.recall-detail-footer-url {
+  margin-top: var(--spacing-sm) !important;
+  word-break: break-all;
+}
+
+.recall-source-note {
+  color: var(--color-text-muted);
+  font-size: 0.875rem;
+}
+
+/* Legacy detail (kept for any remaining references) */
+.recall-detail {
+  max-width: 800px;
 }
 
 .recall-detail-subtitle {
