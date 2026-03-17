@@ -30,6 +30,10 @@ export async function GET(request: NextRequest) {
       _id: r._id.toString(),
     }));
 
+    if (process.env.NODE_ENV === "development") {
+      console.log("[api/recalls] MongoDB recallsatlas.recalls: total =", total, "page =", page);
+    }
+
     return NextResponse.json({
       recalls: serialized,
       total,

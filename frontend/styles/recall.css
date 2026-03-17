@@ -222,3 +222,31 @@
   color: var(--color-text-muted);
   font-weight: 600;
 }
+
+/* Preview page: HTML in content (tables, lists) */
+.recall-content-html table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0.75rem 0;
+  font-size: 0.9375rem;
+}
+.recall-content-html th,
+.recall-content-html td {
+  border: 1px solid var(--color-border, #e2e8f0);
+  padding: 0.5rem 0.75rem;
+  text-align: left;
+}
+.recall-content-html th {
+  background: var(--color-border, #f1f5f9);
+  font-weight: 600;
+}
+.recall-content-html ul {
+  margin: 0.5rem 0;
+  padding-left: 1.5rem;
+}
+.recall-content-html li {
+  margin: 0.25rem 0;
+}
+.recall-content-html p {
+  margin: 0.5rem 0 1rem;
+}

@@ -3,6 +3,7 @@ require("dotenv").config();
 const { chromium } = require("playwright");
 const fs = require("fs");
 const path = require("path");
+const readline = require("readline");
 const axios = require("axios");
 const sharp = require("sharp");
 const crypto = require("crypto");
@@ -510,19 +511,20 @@ async function rewriteAnnouncementForSEO({
     if (!cleanText(rawAnnouncement) || cleanText(rawAnnouncement).length < 40) return "";
 
     const prompt = `
-Rewrite the following FDA/company recall announcement for an informational article.
+Rewrite the following FDA/company recall announcement for an informational article. Output must be readable and well-structured.
 
-Rules:
-- Neutral, factual tone.
-- Do NOT say the company announcement is ours.
-- Make clear the information comes from the company announcement and/or FDA posting.
-- Preserve facts.
-- Keep it unique for SEO.
-- Use 2 short paragraphs.
-- No bullet points.
-- No markdown.
-- No invented facts.
-- Do NOT include investor language, securities language, forward-looking statements, media boilerplate, or legal disclaimers.
+Format rules:
+- Output must be valid HTML only (no Markdown). Use tags that are valid inside JSON.
+- Use <p>...</p> for each paragraph.
+- When the source lists products, lot numbers, expiration dates, or UPCs: return an HTML <table> with <thead><tr><th>...</th></tr></thead> and <tbody><tr><td>...</td></tr></tbody>. One row per product/variant.
+- When the source lists steps or options (e.g. how to report to MedWatch): use <ul><li>...</li></ul>.
+- Keep 2–4 short <p> paragraphs for the main summary; then add the <table> or <ul> for structured data below.
+- No invented facts. Preserve all important details (lots, dates, UPCs, phone numbers). For links use <a href="URL">text</a>.
+
+Tone and content:
+- Neutral, factual tone. Keep it unique for SEO.
+- Do NOT say the company announcement is ours. Make clear the information comes from the company announcement and/or FDA posting.
+- Preserve facts. Do NOT include investor language, securities language, forward-looking statements, media boilerplate, or legal disclaimers.
 - Focus only on recall facts, risks, and consumer action.
 
 Context:
@@ -623,29 +625,33 @@ async function waitForDatatableReady(page) {
 }
 
 async function clickNextDatatablePage(page) {
-    const next = await page.$("#datatable_next:not(.disabled)");
-    if (!next) return false;
+    try {
+        const next = await page.$("#datatable_next");
+        if (!next) return false;
 
-    await next.click();
+        const hasDisabled = await page.evaluate(() => {
+            const el = document.querySelector("#datatable_next");
+            return el ? el.classList.contains("disabled") : true;
+        }).catch(() => true);
 
-    await page
-        .waitForSelector("#datatable_processing", {
-            state: "visible",
-            timeout: 10000,
-        })
-        .catch(() => { });
+        if (hasDisabled) {
+            console.log("No more pages (Next is disabled)");
+            return false;
+        }
 
-    await page
-        .waitForSelector("#datatable_processing", {
-            state: "hidden",
-            timeout: NAV_TIMEOUT,
-        })
-        .catch(() => { });
+        await page.evaluate(() => {
+            document.querySelector("#datatable_next a")?.click();
+        }).catch(() => {});
 
-    await waitForDatatableReady(page);
-    await randomDelay("after next table page");
+        await page.waitForSelector("#datatable_processing", { state: "visible", timeout: 5000 }).catch(() => {});
+        await page.waitForSelector("#datatable_processing", { state: "hidden", timeout: 10000 }).catch(() => {});
+        await page.waitForSelector("#datatable tbody tr").catch(() => {});
 
-    return true;
+        return true;
+    } catch (err) {
+        log(`Next pagination failed safely: ${err.message || err}`);
+        return false;
+    }
 }
 
 // ======================================================
@@ -668,6 +674,7 @@ async function extractListRows(page) {
             const productType = clean(cells[3]?.innerText || "");
             const reason = clean(cells[4]?.innerText || "");
             const companyName = clean(cells[5]?.innerText || "");
+            const terminatedRecall = clean(cells[6]?.innerText || "");
 
             let href = clean(linkEl?.getAttribute("href") || "");
             if (href && !href.startsWith("http")) {
@@ -682,6 +689,7 @@ async function extractListRows(page) {
                 listProductType: productType,
                 listReason: reason,
                 listCompanyName: companyName,
+                listTerminatedRecall: terminatedRecall,
                 detailUrl: href,
             });
         });
@@ -845,10 +853,39 @@ async function extractDetailPage(detailPage, detailUrl) {
             const keptAnnouncementLinks = [];
             const rejectedParagraphs = [];
 
+            function collectParagraph(el) {
+                const txt = normalizeText(el.innerText);
+                if (!txt) return;
+                if (isLiabilityOrIrrelevantParagraph(txt)) {
+                    rejectedParagraphs.push(txt);
+                } else {
+                    announcementParagraphs.push(txt);
+                }
+                [...el.querySelectorAll("a[href]")].forEach((a) => {
+                    const href = absolute(a.getAttribute("href"));
+                    const text = clean(a.innerText);
+                    if (href) keptAnnouncementLinks.push({ href, text });
+                });
+            }
+            function collectList(ulEl) {
+                const items = [...ulEl.querySelectorAll("li")]
+                    .map((li) => normalizeText(li.innerText))
+                    .filter(Boolean)
+                    .filter((txt) => !isLiabilityOrIrrelevantParagraph(txt));
+                announcementBullets.push(...items);
+                [...ulEl.querySelectorAll("a[href]")].forEach((a) => {
+                    const href = absolute(a.getAttribute("href"));
+                    const text = clean(a.innerText);
+                    if (href) keptAnnouncementLinks.push({ href, text });
+                });
+            }
+
             if (announcementHeading) {
                 let node = announcementHeading.nextElementSibling;
 
                 while (node) {
+                    if (node.id === "recall-photos") break;
+
                     const tag = (node.tagName || "").toLowerCase();
                     const headingText = clean(node.querySelector?.("h2")?.innerText || node.innerText || "");
 
@@ -868,32 +905,17 @@ async function extractDetailPage(detailPage, detailUrl) {
                     }
 
                     if (tag === "p") {
-                        const txt = normalizeText(node.innerText);
-                        if (txt) {
-                            if (isLiabilityOrIrrelevantParagraph(txt)) {
-                                rejectedParagraphs.push(txt);
-                            } else {
-                                announcementParagraphs.push(txt);
-                            }
-                        }
-
-                        [...node.querySelectorAll("a[href]")].forEach((a) => {
-                            const href = absolute(a.getAttribute("href"));
-                            const text = clean(a.innerText);
-                            if (href) keptAnnouncementLinks.push({ href, text });
-                        });
+                        collectParagraph(node);
                     } else if (tag === "ul") {
-                        const items = [...node.querySelectorAll("li")]
-                            .map((li) => normalizeText(li.innerText))
-                            .filter(Boolean)
-                            .filter((txt) => !isLiabilityOrIrrelevantParagraph(txt));
-
-                        announcementBullets.push(...items);
-
-                        [...node.querySelectorAll("a[href]")].forEach((a) => {
-                            const href = absolute(a.getAttribute("href"));
-                            const text = clean(a.innerText);
-                            if (href) keptAnnouncementLinks.push({ href, text });
+                        collectList(node);
+                    } else if (tag === "div") {
+                        // All <p> and <ul> between announcement and #recall-photos (including nested, e.g. lot numbers, MedWatch)
+                        const allPAndUl = node.querySelectorAll("p, ul");
+                        allPAndUl.forEach((el) => {
+                            if (el.closest("#recall-photos")) return;
+                            const t = (el.tagName || "").toLowerCase();
+                            if (t === "p") collectParagraph(el);
+                            else if (t === "ul") collectList(el);
                         });
                     }
 
@@ -1169,6 +1191,7 @@ function mergeListAndDetailData(listRow, detailData) {
         contentCurrentAsOfText: cleanText(detailData.contentCurrentAsOfText),
         contentCurrentAsOfDateTime: cleanText(detailData.contentCurrentAsOfDateTime),
 
+        terminatedRecall: cleanText(listRow.listTerminatedRecall || ""),
         images: uniqueArray(detailData.images || []),
     });
 }
@@ -1342,28 +1365,45 @@ function buildContentSections({
 // MAIN
 // ======================================================
 
+function normalizeSourceUrl(url) {
+    if (!url || typeof url !== "string") return "";
+    const u = url.trim().replace(/\/+$/, "");
+    return u || "";
+}
+
 (async () => {
     const results = safeReadJson(JSON_PATH, []);
     const imageMap = safeReadJson(IMAGE_MAP_PATH, {});
 
-    const processedUrls = new Set(
-        results.map((item) => item.sourceUrl).filter(Boolean)
-    );
+    const processedUrls = new Set();
+    for (const item of results) {
+        const u = normalizeSourceUrl(item.sourceUrl);
+        if (u) processedUrls.add(u);
+    }
     const existingSlugs = new Set(
         results.map((item) => item.id).filter(Boolean)
     );
 
     let currentSortOrder = START_SORT_ORDER;
-    if (results.length > 0) {
-        const minSort = Math.min(
-            ...results.map((item) =>
-                typeof item.sortOrder === "number" ? item.sortOrder : START_SORT_ORDER
-            )
-        );
+    const sortOrders = new Set(
+        results
+            .map((item) => (typeof item.sortOrder === "number" ? item.sortOrder : null))
+            .filter((n) => n != null)
+    );
+    if (sortOrders.size > 0) {
+        const minSort = Math.min(...sortOrders);
         currentSortOrder = minSort - 1;
+        const maxSort = Math.max(...sortOrders);
+        const gaps = [];
+        for (let i = minSort; i <= maxSort; i++) {
+            if (!sortOrders.has(i)) gaps.push(i);
+        }
+        if (gaps.length > 0) {
+            log(`SortOrder gaps (missing, will be redone when encountered): ${gaps.join(", ")}`);
+        }
     }
 
-    log(`Loaded existing recalls: ${results.length}`);
+    log(`Loaded existing recalls: ${results.length}, unique sourceUrls: ${processedUrls.size}`);
     log(`Next descending sortOrder: ${currentSortOrder}`);
 
     const browser = await chromium.launch({
@@ -1393,6 +1433,13 @@ function buildContentSections({
     await waitForDatatableReady(page);
     await randomDelay("after initial listing load");
 
+    await page.selectOption("select.form-control.input-sm", "100");
+    await page.selectOption("#edit-field-terminated-recall", "0");
+    await page.waitForSelector("#datatable_processing", { state: "visible", timeout: 5000 }).catch(() => {});
+    await page.waitForSelector("#datatable_processing", { state: "hidden", timeout: 10000 }).catch(() => {});
+    await page.waitForSelector("#datatable tbody tr");
+    console.log("Set DataTable page size to 100 and Terminated Recall filter to No");
+
     let pageIndex = 1;
     let addedThisRun = 0;
     let hasNext = true;
@@ -1415,7 +1462,8 @@ function buildContentSections({
             const detailUrl = listRow.detailUrl;
             if (!detailUrl) continue;
 
-            if (processedUrls.has(detailUrl)) {
+            const normalizedDetailUrl = normalizeSourceUrl(detailUrl);
+            if (normalizedDetailUrl && processedUrls.has(normalizedDetailUrl)) {
                 log(`Skip already processed: ${detailUrl}`);
                 continue;
             }
@@ -1482,10 +1530,12 @@ function buildContentSections({
                 await randomDelay("after consumer action generation");
 
                 const savedImages = [];
-                for (const imageUrl of merged.images || []) {
-                    const localPath = await processImage(imageUrl, folderName, imageMap);
-                    if (localPath) savedImages.push(localPath);
-                    await randomDelay("between images");
+                if (merged.images && merged.images.length > 0) {
+                    for (const imageUrl of merged.images) {
+                        const localPath = await processImage(imageUrl, folderName, imageMap);
+                        if (localPath) savedImages.push(localPath);
+                        await randomDelay("between images");
+                    }
                 }
 
                 const canonicalUrl = makeCanonicalUrl(slug);
@@ -1573,10 +1623,8 @@ function buildContentSections({
 
                     reason: merged.reason,
 
-                    rawAnnouncement: merged.rawAnnouncement,
-                    announcementBullets: merged.announcementBullets,
-                    announcementParagraphs: merged.announcementParagraphs,
-                    rewrittenAnnouncement: rewrittenSummary,
+                    terminatedRecall: merged.terminatedRecall,
+
                     aboutCompanyText: merged.aboutCompanyText,
 
                     lotCheckUrl: merged.lotCheckUrl,
@@ -1592,12 +1640,19 @@ function buildContentSections({
                     rawImageSources: merged.images,
                 });
 
+                if (!savedImages.length) {
+                    delete article.images;
+                    delete article.rawImageSources;
+                }
+
                 results.push(article);
-                processedUrls.add(detailUrl);
+                if (normalizedDetailUrl) processedUrls.add(normalizedDetailUrl);
                 addedThisRun += 1;
                 currentSortOrder -= 1;
-
                 saveAll(results, imageMap);
+                if (addedThisRun % 5 === 0) {
+                    log(`Checkpoint: saved after ${addedThisRun} recalls.`);
+                }
                 log(`Saved article ${addedThisRun}/${MAX_RECORDS} this run.`);
 
                 await detailPage.close();
@@ -1614,6 +1669,20 @@ function buildContentSections({
         if (addedThisRun >= MAX_RECORDS || currentSortOrder <= 0) {
             hasNext = false;
             break;
+        }
+
+        if (addedThisRun > 0 && addedThisRun % 100 === 0) {
+            saveAll(results, imageMap);
+            log("Reached 100 recalls. Please click Next in the FDA table in the browser, then press Enter here to continue.");
+            await new Promise((resolve) => {
+                const rl = readline.createInterface({ input: process.stdin, output: process.stdout });
+                rl.question("Press Enter after you clicked Next... ", () => {
+                    rl.close();
+                    resolve();
+                });
+            });
+            pageIndex += 1;
+            continue;
         }
 
         const moved = await clickNextDatatablePage(page);
