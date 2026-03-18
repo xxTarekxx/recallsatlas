@@ -4,6 +4,7 @@
 .recalls-grid {
   display: grid;
   gap: var(--spacing-lg);
+  align-items: start;
 }
 
 @media (min-width: 480px) {
@@ -30,7 +31,7 @@
 .recall-card {
   background-color: var(--color-white);
   border-radius: var(--radius-md);
-  padding: var(--spacing-lg);
+  padding: var(--spacing-lg) var(--spacing-lg) var(--spacing-md) var(--spacing-lg);
   box-shadow: var(--shadow-sm);
   border: 1px solid var(--color-border);
 }

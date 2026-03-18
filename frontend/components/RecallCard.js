@@ -12,41 +12,55 @@ function formatDate(yyyymmdd) {
   return `${month}/${day}/${year}`;
 }
 
+/** Strip HTML tags and normalize whitespace. */
+function stripHtml(html) {
+  if (!html || typeof html !== "string") return "";
+  return html.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim();
+}
+
+/** Get summary from recall: first content section text, or reason/product fallback. */
+function getSummary(recall, maxLen) {
+  const content = Array.isArray(recall?.content) ? recall.content : [];
+  const firstSection = content.find((s) => s?.text);
+  const firstText = firstSection?.text;
+  const raw = firstText ? stripHtml(firstText) : recall?.reason || recall?.product || "";
+  if (!raw) return "";
+  return raw.length <= maxLen ? raw : raw.slice(0, maxLen).trim() + "…";
+}
+
 export default function RecallCard({ recall }) {
-  const {
-    slug,
-    brand,
-    product,
-    report_date,
-    image,
-  } = recall;
+  const { slug, brand, product, report_date } = recall;
+  const image = recall?.image && typeof recall.image === "object" ? recall.image.url : recall?.image;
+  const hasImage = Boolean(image);
 
   const year = report_date && String(report_date).length >= 4 ? String(report_date).slice(0, 4) : "";
   const displayTitle = getShortRecallTitle(product || "Product", year);
   const displayBrand = brand || "Unknown brand";
   const displayDate = formatDate(report_date);
+  const summaryShort = getSummary(recall, hasImage ? 200 : 280);
 
   return (
     <article className="recall-card">
       <Link href={`/recalls/${slug}`} className="recall-card-link">
-        <div className="recall-card-image-wrapper">
-          {image ? (
-            // eslint-disable-next-line @next/next/no-img-element
+        {hasImage && (
+          <div className="recall-card-image-wrapper">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src={image}
               alt={displayTitle}
               className="recall-card-image"
               loading="lazy"
             />
-          ) : (
-            <div className="recall-card-image placeholder-image">
-              Image not available
-            </div>
-          )}
-        </div>
+          </div>
+        )}
         <div className="recall-card-body">
           <h3 className="recall-card-title">{displayTitle}</h3>
           <p className="recall-card-brand">{displayBrand}</p>
+          {summaryShort && (
+            <p className={`recall-card-summary ${hasImage ? "recall-card-summary--with-image" : ""}`}>
+              {summaryShort}
+            </p>
+          )}
           {displayDate && (
             <p className="recall-card-date">
               <span>Reported: </span>

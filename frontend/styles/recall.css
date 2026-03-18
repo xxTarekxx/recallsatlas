@@ -342,7 +342,40 @@
   border-bottom: none;
 }
 
-/* Card image area + placeholder when no image */
+/* Card body and summary */
+.recall-card-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.recall-card-brand {
+  font-size: 0.875rem;
+  color: var(--color-text-muted);
+  margin: 0 0 var(--spacing-xs);
+}
+
+.recall-card-summary {
+  font-size: 0.875rem;
+  line-height: 1.45;
+  color: var(--color-text);
+  margin: 0 0 var(--spacing-sm);
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.recall-card-summary--with-image {
+  -webkit-line-clamp: 5;
+}
+
+.recall-card-date {
+  font-size: 0.8125rem;
+  color: var(--color-text-muted);
+  margin: 0;
+}
+
+/* Card image area – only rendered when has image */
 .recall-card-image-wrapper {
   aspect-ratio: 4/3;
   background-color: var(--color-border);
