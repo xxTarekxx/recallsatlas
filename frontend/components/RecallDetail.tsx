@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { getShortRecallTitle } from "@/lib/recall-utils";
+import RecallDetailImageSlider from "./RecallDetailImageSlider";
 
 /** Format YYYYMMDD as MM/DD/YYYY */
 function formatDate(yyyymmdd?: string) {
@@ -31,7 +32,10 @@ export default function RecallDetail({ recall, dbError = null }: RecallDetailPro
     typeof recall?.report_date === "string" ? recall.report_date.slice(0, 4) : "";
   const shortTitle = getShortRecallTitle(product, year);
   const fullTitle = recall?.title || shortTitle;
-  const image = typeof recall?.image === "object" ? recall?.image?.url : recall?.image;
+  const singleImage = typeof recall?.image === "object" ? recall?.image?.url : recall?.image;
+  const imagesArray = Array.isArray(recall?.images) ? recall.images : [];
+  const imageUrls = imagesArray.length > 0 ? imagesArray : (singleImage ? [singleImage] : []);
+  const hasImages = imageUrls.length > 0;
   const brand = recall?.brand || "";
   const reason = recall?.reason || "";
   const reportDate = formatDate(recall?.report_date);
@@ -76,19 +80,9 @@ export default function RecallDetail({ recall, dbError = null }: RecallDetailPro
             )}
           </div>
 
-          <div className="recall-detail-media">
-            {image ? (
-              <img
-                src={image}
-                alt={shortTitle}
-                className="recall-detail-image"
-              />
-            ) : (
-              <div className="recall-detail-placeholder" aria-hidden="true">
-                Image not available
-              </div>
-            )}
-          </div>
+          {hasImages && (
+            <RecallDetailImageSlider imageUrls={imageUrls} alt={shortTitle} />
+          )}
 
           <section className="recall-detail-facts" aria-label="Recall at a glance">
             <h2 className="recall-detail-facts-title">At a glance</h2>

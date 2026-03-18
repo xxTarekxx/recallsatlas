@@ -20,7 +20,7 @@ const FDA_BASE_URL = "https://www.fda.gov";
 const FDA_LIST_URL =
     "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts";
 
-const SITE_BASE_URL = "https://www.dollarsandlife.com";
+const SITE_BASE_URL = process.env.SITE_BASE_URL || "https://recallsatlas.com";
 const SITE_RECALLS_PATH = "/recalls";
 
 const IMAGE_BASE_DIR = path.resolve(
@@ -1582,12 +1582,12 @@ function normalizeSourceUrl(url) {
                     headline: merged.title || `${merged.brandName || merged.companyName || "FDA"} recall`,
                     author: {
                         "@type": "Organization",
-                        name: "Dollars & Life",
+                        name: "RecallsAtlas",
                         url: SITE_BASE_URL,
                     },
                     publisher: {
                         "@type": "Organization",
-                        name: "Dollars & Life",
+                        name: "RecallsAtlas",
                         logo: {
                             "@type": "ImageObject",
                             url: `${SITE_BASE_URL}/logo.png`,
