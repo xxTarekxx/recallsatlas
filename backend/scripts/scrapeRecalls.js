@@ -23,12 +23,9 @@ const FDA_LIST_URL =
 const SITE_BASE_URL = process.env.SITE_BASE_URL || "https://recallsatlas.com";
 const SITE_RECALLS_PATH = "/recalls";
 
-const IMAGE_BASE_DIR = path.resolve(
-    "D:/OneDrive/Projects/recallsatlas/frontend/public/images/recalls"
-);
-const DATA_DIR = path.resolve(
-    "D:/OneDrive/Projects/recallsatlas/backend/data"
-);
+// Repo-relative: backend/scripts → backend/data, frontend/public/images/recalls
+const DATA_DIR = path.resolve(__dirname, "..", "data");
+const IMAGE_BASE_DIR = path.resolve(__dirname, "..", "..", "frontend", "public", "images", "recalls");
 const JSON_PATH = path.join(DATA_DIR, "recalls.json");
 const IMAGE_MAP_PATH = path.join(DATA_DIR, "image-map.json");
 const LOG_PATH = path.join(DATA_DIR, "recalls-log.txt");
