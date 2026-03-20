@@ -64,13 +64,61 @@ if (!fs.existsSync(IMAGE_BASE_DIR)) fs.mkdirSync(IMAGE_BASE_DIR, { recursive: tr
 const openai = new OpenAI({ apiKey: OPENAI_API_KEY });
 
 // ======================================================
+// PROGRESS (terminal)
+// ======================================================
+
+const PROGRESS_BAR_WIDTH = 28;
+const isTTY = process.stdout.isTTY && process.stderr.isTTY;
+
+const progress = {
+    phase: "Init",
+    current: 0,
+    total: MAX_RECORDS,
+    status: "",
+    _lastLine: "",
+    clear() {
+        if (!isTTY) return;
+        process.stdout.write("\r" + " ".repeat(process.stdout.columns || 80) + "\r");
+    },
+    render() {
+        if (!isTTY) return;
+        const pct = this.total > 0 ? Math.min(1, this.current / this.total) : 0;
+        const filled = Math.round(PROGRESS_BAR_WIDTH * pct);
+        const bar = "█".repeat(filled) + "░".repeat(PROGRESS_BAR_WIDTH - filled);
+        const status = this.status ? `  ${this.status.slice(0, 38)}` : "";
+        const line = `  [${this.phase.padEnd(8)}] ${bar}  ${String(this.current).padStart(3)}/${this.total}${status}`;
+        if (line !== this._lastLine) {
+            process.stdout.write("\r" + line);
+            this._lastLine = line;
+        }
+    },
+    update({ phase, current, total, status } = {}) {
+        if (phase !== undefined) this.phase = phase;
+        if (current !== undefined) this.current = current;
+        if (total !== undefined) this.total = total;
+        if (status !== undefined) this.status = status;
+        this.render();
+    },
+    finish(message = "Done") {
+        if (!isTTY) return;
+        this.clear();
+        process.stdout.write(`  ${message}\n`);
+    },
+};
+
+// ======================================================
 // BASIC HELPERS
 // ======================================================
 
 function log(message) {
-    const line = `[${new Date().toISOString()}] ${message}`;
-    console.log(line);
-    fs.appendFileSync(LOG_PATH, line + "\n");
+    const ts = new Date();
+    const fileLine = `[${ts.toISOString()}] ${message}`;
+    const timeShort = ts.toTimeString().slice(0, 8);
+    const consoleLine = `  ${timeShort}  ${message}`;
+    progress.clear();
+    console.log(consoleLine);
+    fs.appendFileSync(LOG_PATH, fileLine + "\n");
+    progress.render();
 }
 
 function sleep(ms) {
@@ -635,7 +683,7 @@ async function clickNextDatatablePage(page) {
         }).catch(() => true);
 
         if (hasDisabled) {
-            console.log("No more pages (Next is disabled)");
+            log("No more pages (Next is disabled)");
             return false;
         }
 
@@ -1405,6 +1453,7 @@ function normalizeSourceUrl(url) {
 
     log(`Loaded existing recalls: ${results.length}, unique sourceUrls: ${processedUrls.size}`);
     log(`Next descending sortOrder: ${currentSortOrder}`);
+    progress.update({ phase: "Start", current: 0, total: MAX_RECORDS, status: "Launching browser..." });
 
     const browser = await chromium.launch({
         headless: HEADLESS,
@@ -1422,10 +1471,12 @@ function normalizeSourceUrl(url) {
     page.setDefaultNavigationTimeout(NAV_TIMEOUT);
     page.setDefaultTimeout(NAV_TIMEOUT);
 
+    progress.update({ phase: "FDA List", status: "Opening listing..." });
     log("Opening FDA recalls listing...");
     const listOk = await gotoWithRetry(page, FDA_LIST_URL, "#datatable");
     if (!listOk) {
         log("Could not load FDA listing page.");
+        progress.finish("Failed to load FDA listing.");
         await browser.close();
         process.exit(1);
     }
@@ -1433,12 +1484,13 @@ function normalizeSourceUrl(url) {
     await waitForDatatableReady(page);
     await randomDelay("after initial listing load");
 
+    progress.update({ phase: "Setup", status: "DataTable 100/page..." });
     await page.selectOption("select.form-control.input-sm", "100");
     await page.selectOption("#edit-field-terminated-recall", "0");
     await page.waitForSelector("#datatable_processing", { state: "visible", timeout: 5000 }).catch(() => {});
     await page.waitForSelector("#datatable_processing", { state: "hidden", timeout: 10000 }).catch(() => {});
     await page.waitForSelector("#datatable tbody tr");
-    console.log("Set DataTable page size to 100 and Terminated Recall filter to No");
+    log("Set DataTable page size to 100 and Terminated Recall filter to No");
 
     let pageIndex = 1;
     let addedThisRun = 0;
@@ -1449,6 +1501,7 @@ function normalizeSourceUrl(url) {
         currentSortOrder > 0 &&
         addedThisRun < MAX_RECORDS
     ) {
+        progress.update({ phase: "Scrape", current: addedThisRun, total: MAX_RECORDS, status: `Page ${pageIndex}...` });
         log(`Reading DataTable page ${pageIndex}...`);
 
         await waitForDatatableReady(page);
@@ -1468,6 +1521,8 @@ function normalizeSourceUrl(url) {
                 continue;
             }
 
+            const shortUrl = detailUrl.replace(/^https?:\/\//, "").slice(0, 35);
+            progress.update({ phase: "Scrape", current: addedThisRun, total: MAX_RECORDS, status: shortUrl + "…" });
             log(`Processing detail page: ${detailUrl}`);
 
             const detailPage = await context.newPage();
@@ -1650,6 +1705,7 @@ function normalizeSourceUrl(url) {
                 addedThisRun += 1;
                 currentSortOrder -= 1;
                 saveAll(results, imageMap);
+                progress.update({ phase: "Scrape", current: addedThisRun, total: MAX_RECORDS, status: `Saved ${slug}` });
                 if (addedThisRun % 5 === 0) {
                     log(`Checkpoint: saved after ${addedThisRun} recalls.`);
                 }
@@ -1673,6 +1729,7 @@ function normalizeSourceUrl(url) {
 
         if (addedThisRun > 0 && addedThisRun % 100 === 0) {
             saveAll(results, imageMap);
+            progress.update({ phase: "Pause", status: "Click Next in browser, then Enter here" });
             log("Reached 100 recalls. Please click Next in the FDA table in the browser, then press Enter here to continue.");
             await new Promise((resolve) => {
                 const rl = readline.createInterface({ input: process.stdin, output: process.stdout });
@@ -1695,7 +1752,8 @@ function normalizeSourceUrl(url) {
         pageIndex += 1;
     }
 
-    log("DONE");
     saveAll(results, imageMap);
     await browser.close();
+    progress.finish(`DONE · ${addedThisRun} recalls this run, ${results.length} total`);
+    log("DONE");
 })();
