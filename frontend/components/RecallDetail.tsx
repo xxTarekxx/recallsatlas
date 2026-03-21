@@ -90,8 +90,8 @@ export default function RecallDetail({ recall, dbError = null }: RecallDetailPro
             <dl className="recall-detail-dl">
               {product && (
                 <>
-                  <dt>Product</dt>
-                  <dd>{product}</dd>
+                  <dt className="recall-fact-label recall-fact-label--product">Product</dt>
+                  <dd className="recall-fact-value recall-fact-value--product">{product}</dd>
                 </>
               )}
               {productType && (
