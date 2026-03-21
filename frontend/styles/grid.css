@@ -29,6 +29,7 @@
 }
 
 .recall-card {
+  position: relative;
   background-color: var(--color-white);
   border-radius: var(--radius-md);
   padding: var(--spacing-lg) var(--spacing-lg) var(--spacing-md) var(--spacing-lg);

@@ -61,6 +61,15 @@ export default function RecallDetail({ recall, dbError = null }: RecallDetailPro
     (s: any) => !(s?.subtitle || "").toLowerCase().includes("official source")
   );
   const disclaimer = recall?.disclaimer || "";
+  const isTerminated = recall?.terminated === true;
+
+  const statusValue = (
+    <span
+      className={`recall-detail-status-value recall-detail-status-value--${isTerminated ? "terminated" : "ongoing"}`}
+    >
+      {isTerminated ? "Terminated" : "Ongoing"}
+    </span>
+  );
 
   return (
     <div className="recall-detail-page">
@@ -98,6 +107,8 @@ export default function RecallDetail({ recall, dbError = null }: RecallDetailPro
           <section className="recall-detail-facts" aria-label="Recall at a glance">
             <h2 className="recall-detail-facts-title">At a glance</h2>
             <dl className="recall-detail-dl">
+              <dt>Status</dt>
+              <dd>{statusValue}</dd>
               {product && (
                 <>
                   <dt className="recall-fact-label recall-fact-label--product">Product</dt>
@@ -202,6 +213,10 @@ export default function RecallDetail({ recall, dbError = null }: RecallDetailPro
 
           {(sourceUrl || officialSourceSection) && (
             <footer className="recall-detail-footer">
+              <div className="recall-detail-footer-status" aria-label="Recall status">
+                <span className="recall-detail-footer-status-label">Status</span>
+                {statusValue}
+              </div>
               <h2 className="recall-detail-facts-title">Official Source</h2>
               {officialSourceSection?.text && (
                 <p className="recall-detail-footer-publish">

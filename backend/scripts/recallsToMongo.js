@@ -20,7 +20,7 @@ const JSON_PATH = path.join(__dirname, "..", "data", "recalls.json");
 const SYNC_KEYS = [
   "product", "brand", "report_date", "image", "images", "reason",
   "classification", "distribution", "source_url", "sortOrder", "content", "title",
-  "product_type"
+  "product_type", "terminated", "terminatedCheckedAt"
 ];
 
 function getMongoConnectionInfo(uri) {
@@ -69,6 +69,8 @@ function articleToMongoDoc(article) {
     content: article.content,
     title: article.title || article.headline,
     product_type: article.productType || "",
+    terminated: article.terminated === true,
+    terminatedCheckedAt: article.terminatedCheckedAt || "",
   };
 }
 

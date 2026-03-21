@@ -38,9 +38,16 @@ export default function RecallCard({ recall }) {
   const displayBrand = brand || "Unknown brand";
   const displayDate = formatDate(report_date);
   const summaryShort = getSummary(recall, hasImage ? 200 : 280);
+  const isTerminated = recall.terminated === true;
 
   return (
     <article className="recall-card">
+      <span
+        className={`recall-card-status recall-card-status--${isTerminated ? "terminated" : "ongoing"}`}
+        aria-label={isTerminated ? "Terminated" : "Ongoing"}
+      >
+        {isTerminated ? "Terminated" : "Ongoing"}
+      </span>
       <Link href={`/recalls/${slug}`} className="recall-card-link">
         {hasImage && (
           <div className="recall-card-image-wrapper">
