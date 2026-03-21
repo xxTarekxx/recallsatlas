@@ -28,10 +28,6 @@ export default function HomePage() {
           </Link>
         </section>
       </main>
-
-      <footer className="site-footer">
-        <p>&copy; RecallsAtlas. Recall data aggregated for public use.</p>
-      </footer>
     </div>
   );
 }

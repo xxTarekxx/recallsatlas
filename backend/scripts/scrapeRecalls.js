@@ -149,7 +149,9 @@ function writeJson(filePath, data) {
 }
 
 function saveAll(results, imageMap) {
-    writeJson(JSON_PATH, results);
+    // Always write newest first (highest sortOrder at index 0)
+    const sorted = [...results].sort((a, b) => (b.sortOrder ?? 0) - (a.sortOrder ?? 0));
+    writeJson(JSON_PATH, sorted);
     writeJson(IMAGE_MAP_PATH, imageMap);
     log(`Progress saved. recalls=${results.length} imageMap=${Object.keys(imageMap).length}`);
 }
@@ -1436,20 +1438,20 @@ function normalizeSourceUrl(url) {
             .filter((n) => n != null)
     );
     if (sortOrders.size > 0) {
-        const minSort = Math.min(...sortOrders);
-        currentSortOrder = minSort - 1;
         const maxSort = Math.max(...sortOrders);
+        currentSortOrder = maxSort + 1;
+        const minSort = Math.min(...sortOrders);
         const gaps = [];
         for (let i = minSort; i <= maxSort; i++) {
             if (!sortOrders.has(i)) gaps.push(i);
         }
         if (gaps.length > 0) {
-            log(`SortOrder gaps (missing, will be redone when encountered): ${gaps.join(", ")}`);
+            log(`SortOrder gaps (missing): ${gaps.join(", ")}`);
         }
     }
 
     log(`Loaded existing recalls: ${results.length}, unique sourceUrls: ${processedUrls.size}`);
-    log(`Next descending sortOrder: ${currentSortOrder}`);
+    log(`Next ascending sortOrder: ${currentSortOrder}`);
     progress.update({ phase: "Start", current: 0, total: MAX_RECORDS, status: "Launching browser..." });
 
     const browser = await chromium.launch({
@@ -1495,7 +1497,6 @@ function normalizeSourceUrl(url) {
 
     while (
         hasNext &&
-        currentSortOrder > 0 &&
         addedThisRun < MAX_RECORDS
     ) {
         progress.update({ phase: "Scrape", current: addedThisRun, total: MAX_RECORDS, status: `Page ${pageIndex}...` });
@@ -1507,7 +1508,7 @@ function normalizeSourceUrl(url) {
         log(`Rows found on page ${pageIndex}: ${rows.length}`);
 
         for (const listRow of rows) {
-            if (addedThisRun >= MAX_RECORDS || currentSortOrder <= 0) break;
+            if (addedThisRun >= MAX_RECORDS) break;
 
             const detailUrl = listRow.detailUrl;
             if (!detailUrl) continue;
@@ -1700,7 +1701,7 @@ function normalizeSourceUrl(url) {
                 results.push(article);
                 if (normalizedDetailUrl) processedUrls.add(normalizedDetailUrl);
                 addedThisRun += 1;
-                currentSortOrder -= 1;
+                currentSortOrder += 1;
                 saveAll(results, imageMap);
                 progress.update({ phase: "Scrape", current: addedThisRun, total: MAX_RECORDS, status: `Saved ${slug}` });
                 if (addedThisRun % 5 === 0) {
@@ -1719,7 +1720,7 @@ function normalizeSourceUrl(url) {
             }
         }
 
-        if (addedThisRun >= MAX_RECORDS || currentSortOrder <= 0) {
+        if (addedThisRun >= MAX_RECORDS) {
             hasNext = false;
             break;
         }

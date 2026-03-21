@@ -41,6 +41,7 @@ export default function RecallDetail({ recall, dbError = null }: RecallDetailPro
   const reportDate = formatDate(recall?.report_date);
   const classification = recall?.classification || "";
   const distribution = recall?.distribution || "";
+  const productType = recall?.product_type || "";
   const sourceUrl = recall?.source_url || "";
   const rawContent = Array.isArray(recall?.content) ? recall.content : [];
   const officialSourceSection = rawContent.find(
@@ -91,6 +92,12 @@ export default function RecallDetail({ recall, dbError = null }: RecallDetailPro
                 <>
                   <dt>Product</dt>
                   <dd>{product}</dd>
+                </>
+              )}
+              {productType && (
+                <>
+                  <dt>Product type</dt>
+                  <dd>{productType}</dd>
                 </>
               )}
               {brand && (

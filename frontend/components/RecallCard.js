@@ -29,7 +29,7 @@ function getSummary(recall, maxLen) {
 }
 
 export default function RecallCard({ recall }) {
-  const { slug, brand, product, report_date } = recall;
+  const { slug, brand, product, report_date, product_type } = recall;
   const image = recall?.image && typeof recall.image === "object" ? recall.image.url : recall?.image;
   const hasImage = Boolean(image);
 
@@ -54,6 +54,9 @@ export default function RecallCard({ recall }) {
           </div>
         )}
         <div className="recall-card-body">
+          {product_type && (
+            <p className="recall-card-type">{product_type}</p>
+          )}
           <h3 className="recall-card-title">{displayTitle}</h3>
           <p className="recall-card-brand">{displayBrand}</p>
           {summaryShort && (

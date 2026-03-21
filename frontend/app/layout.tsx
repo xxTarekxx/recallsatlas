@@ -3,6 +3,7 @@ import "../styles/globals.css";
 import "../styles/layout.css";
 import "../styles/recall.css";
 import "../styles/grid.css";
+import SiteFooter from "@/components/SiteFooter";
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://recallsatlas.com";
 
@@ -19,7 +20,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        {children}
+        <SiteFooter />
+      </body>
     </html>
   );
 }

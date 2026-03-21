@@ -31,10 +31,33 @@
 .site-footer {
   background-color: var(--color-primary);
   color: var(--color-white);
-  padding: var(--spacing-lg);
+  padding: var(--spacing-lg) var(--spacing-xl);
   text-align: center;
   font-size: 0.875rem;
   margin-top: var(--spacing-2xl);
+}
+
+.site-footer-copy {
+  margin: 0 0 var(--spacing-sm);
+  font-weight: 600;
+}
+
+.site-footer-disclaimer {
+  margin: 0 auto;
+  max-width: 780px;
+  line-height: 1.6;
+  opacity: 0.85;
+  font-size: 0.8125rem;
+}
+
+.site-footer-link {
+  color: var(--color-white);
+  text-decoration: underline;
+  opacity: 1;
+}
+
+.site-footer-link:hover {
+  opacity: 0.8;
 }
 
 /* Homepage sections */
