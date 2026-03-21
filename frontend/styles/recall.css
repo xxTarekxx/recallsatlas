@@ -285,32 +285,58 @@
   color: var(--color-primary);
 }
 
-.recall-detail-footer {
+/* FDA / primary links — semantic section name helps structure (SEO + a11y) */
+.recall-detail-sources {
   padding: var(--spacing-lg);
   background: var(--color-bg, #f8fafc);
   border-top: 1px solid var(--color-border);
   font-size: 0.9375rem;
 }
 
-.recall-detail-footer p {
+.recall-detail-sources p {
   margin: 0;
 }
 
-.recall-detail-footer .recall-detail-facts-title {
+.recall-detail-sources .recall-detail-facts-title {
   margin-bottom: var(--spacing-sm);
 }
 
-.recall-detail-footer-publish {
+.recall-detail-sources-publish {
   margin-bottom: var(--spacing-sm) !important;
 }
 
-.recall-detail-footer .recall-detail-authority-links {
+.recall-detail-sources .recall-detail-authority-links {
   margin-bottom: var(--spacing-sm);
 }
 
-.recall-detail-footer-url {
-  margin-top: var(--spacing-sm) !important;
-  word-break: break-all;
+.recall-detail-sources-link-wrap {
+  margin-top: var(--spacing-md) !important;
+}
+
+.recall-detail-sources-primary-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.5rem 1rem;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  color: var(--color-primary, #0f172a);
+  background: var(--color-white, #fff);
+  border: 1px solid var(--color-border, #e2e8f0);
+  border-radius: var(--radius-md, 8px);
+  box-shadow: var(--shadow-sm, 0 1px 2px rgba(15, 23, 42, 0.06));
+  text-decoration: none;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.recall-detail-sources-primary-link:hover {
+  border-color: var(--color-primary, #0f172a);
+  box-shadow: var(--shadow-md, 0 4px 12px rgba(15, 23, 42, 0.08));
+}
+
+.recall-detail-sources-link-icon {
+  font-size: 0.85em;
+  opacity: 0.85;
 }
 
 .recall-source-note {

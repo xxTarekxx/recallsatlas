@@ -212,10 +212,16 @@ export default function RecallDetail({ recall, dbError = null }: RecallDetailPro
           )}
 
           {(sourceUrl || officialSourceSection) && (
-            <footer className="recall-detail-footer">
-              <h2 className="recall-detail-facts-title">Official Source</h2>
+            <section
+              className="recall-detail-sources"
+              id="official-sources"
+              aria-labelledby="recall-official-sources-heading"
+            >
+              <h2 id="recall-official-sources-heading" className="recall-detail-facts-title">
+                Official sources
+              </h2>
               {officialSourceSection?.text && (
-                <p className="recall-detail-footer-publish">
+                <p className="recall-detail-sources-publish">
                   {officialSourceSection.text}
                 </p>
               )}
@@ -228,13 +234,22 @@ export default function RecallDetail({ recall, dbError = null }: RecallDetailPro
                 />
               )}
               {sourceUrl && (
-                <p className="recall-detail-footer-url">
-                  <a href={sourceUrl} target="_blank" rel="noopener noreferrer">
-                    {sourceUrl}
+                <p className="recall-detail-sources-link-wrap">
+                  <a
+                    href={sourceUrl}
+                    className="recall-detail-sources-primary-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    title={sourceUrl}
+                  >
+                    View FDA recall notice
+                    <span className="recall-detail-sources-link-icon" aria-hidden="true">
+                      ↗
+                    </span>
                   </a>
                 </p>
               )}
-            </footer>
+            </section>
           )}
         </article>
       </main>
