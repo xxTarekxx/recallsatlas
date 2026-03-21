@@ -43,7 +43,9 @@
 
 .recall-card-title {
   font-size: 1rem;
-  font-weight: 600;
+  font-weight: 700;
+  line-height: 1.35;
+  letter-spacing: -0.02em;
   margin: 0 0 var(--spacing-sm);
   color: var(--color-primary);
 }
