@@ -213,10 +213,6 @@ export default function RecallDetail({ recall, dbError = null }: RecallDetailPro
 
           {(sourceUrl || officialSourceSection) && (
             <footer className="recall-detail-footer">
-              <div className="recall-detail-footer-status" aria-label="Recall status">
-                <span className="recall-detail-footer-status-label">Status</span>
-                {statusValue}
-              </div>
               <h2 className="recall-detail-facts-title">Official Source</h2>
               {officialSourceSection?.text && (
                 <p className="recall-detail-footer-publish">
