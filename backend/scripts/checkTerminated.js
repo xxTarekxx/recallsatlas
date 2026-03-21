@@ -5,9 +5,11 @@
  * export and marks any matching records as terminated.
  *
  * Match strategy (no AI, fully deterministic):
- *   Primary:   Product-Description (exact, case-insensitive)
- *   Secondary: Date (MM/DD/YYYY in Excel → YYYY-MM-DD in JSON)
- *   Both must match to update a record.
+ *   Product: JSON `content[]` → "What Was Recalled" → `facts.product` when present,
+ *            otherwise top-level `productDescription` (legacy). Compared to Excel
+ *            `Product-Description` (normalized, case-insensitive).
+ *   Date:    Excel `Date` must equal JSON `datePublished` (YYYY-MM-DD first 10 chars).
+ *   Both product and date must match to update a record.
  *
  * How to get the Excel file:
  *   1. Go to https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts
@@ -80,6 +82,27 @@ function toIsoDate(val) {
   return String(val).slice(0, 10);
 }
 
+/** Prefer structured facts.product; else legacy productDescription. */
+function getJsonProductDescription(recall) {
+  if (recall && Array.isArray(recall.content)) {
+    const wwr = recall.content.find(
+      (s) =>
+        s &&
+        s.subtitle === "What Was Recalled" &&
+        s.facts &&
+        typeof s.facts.product === "string" &&
+        s.facts.product.trim()
+    );
+    if (wwr) return wwr.facts.product.trim();
+  }
+  return String(recall?.productDescription || "").trim();
+}
+
+/** JSON publish date used for matching (same day as Excel Date column). */
+function getJsonMatchDate(recall) {
+  return (recall?.datePublished || "").slice(0, 10);
+}
+
 // ─── Validate inputs ──────────────────────────────────────────────────────────
 
 if (!XLSX_PATH || !fs.existsSync(XLSX_PATH)) {
@@ -108,14 +131,13 @@ log(`recalls.json records: ${recalls.length}`);
 
 // ─── Build lookup: (isoDate + normProduct) → record index ────────────────────
 //
-// Key: "YYYY-MM-DD|product description normalized"
-// Both fields are raw FDA text — no AI processing — so they match exactly.
+// Key: "YYYY-MM-DD|normalized product" — product from facts.product or productDescription.
 
 const lookup = new Map();
 
 recalls.forEach((r, i) => {
-  const date    = (r.datePublished || "").slice(0, 10);
-  const product = norm(r.productDescription || "");
+  const date    = getJsonMatchDate(r);
+  const product = norm(getJsonProductDescription(r));
   if (date && product) {
     lookup.set(`${date}|${product}`, i);
   }
@@ -149,10 +171,14 @@ for (const row of rows) {
 
   if (record.terminated === true) continue; // already marked, skip
 
+  // Lookup key = datePublished + normalized facts.product (or productDescription) — same as Excel Date + Product-Description.
+  const jsonProductRaw = getJsonProductDescription(record);
+
   changes.push({
     idx,
     id:          record.id || record.slug,
-    product:     record.productDescription,
+    sortOrder:   typeof record.sortOrder === "number" ? record.sortOrder : null,
+    product:     jsonProductRaw,
     excelBrand,
     excelDate,
   });
@@ -169,10 +195,13 @@ if (changes.length === 0) {
 }
 
 changes.forEach((c) => {
+  const sortStr =
+    c.sortOrder != null ? String(c.sortOrder) : "(no sortOrder in JSON)";
   log(`  [ongoing → TERMINATED]`);
-  log(`    id:      ${c.id}`);
-  log(`    product: ${c.product}`);
-  log(`    date:    ${c.excelDate}  brand: ${c.excelBrand}`);
+  log(`    sortOrder: ${sortStr}`);
+  log(`    id:        ${c.id}`);
+  log(`    product:   ${c.product}`);
+  log(`    date:      ${c.excelDate}  brand: ${c.excelBrand}`);
 });
 
 if (DRY_RUN) {

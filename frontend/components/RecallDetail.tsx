@@ -15,6 +15,16 @@ function hasHtml(text: string) {
   return /<(?:\w+|table|ul|ol|li|p|a\s)/i.test(text || "");
 }
 
+function hasWhatWasRecalledFacts(section: any) {
+  const f = section?.facts;
+  return (
+    section?.subtitle === "What Was Recalled" &&
+    f &&
+    typeof f === "object" &&
+    !!(f.company || f.brand || f.product || f.productType)
+  );
+}
+
 export interface RecallDetailProps {
   recall: any;
   dbError?: string | null;
@@ -138,7 +148,35 @@ export default function RecallDetail({ recall, dbError = null }: RecallDetailPro
               {content.map((section: any, i: number) => (
                 <section key={i} className="recall-detail-section">
                   <h2 className="recall-detail-section-title">{section.subtitle}</h2>
-                  {section.text &&
+                  {hasWhatWasRecalledFacts(section) ? (
+                    <dl className="recall-detail-dl recall-what-was-recalled-facts">
+                      {section.facts.company ? (
+                        <>
+                          <dt>Company</dt>
+                          <dd>{section.facts.company}</dd>
+                        </>
+                      ) : null}
+                      {section.facts.brand ? (
+                        <>
+                          <dt>Brand</dt>
+                          <dd>{section.facts.brand}</dd>
+                        </>
+                      ) : null}
+                      {section.facts.product ? (
+                        <>
+                          <dt>Product</dt>
+                          <dd>{section.facts.product}</dd>
+                        </>
+                      ) : null}
+                      {section.facts.productType ? (
+                        <>
+                          <dt>Product type</dt>
+                          <dd>{section.facts.productType}</dd>
+                        </>
+                      ) : null}
+                    </dl>
+                  ) : null}
+                  {section.text && !hasWhatWasRecalledFacts(section) &&
                     (hasHtml(section.text) ? (
                       <div
                         className="recall-content-html recall-detail-section-body"

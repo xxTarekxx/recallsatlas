@@ -1315,16 +1315,12 @@ function buildContentSections({
     sections.push(
         omitEmptyDeep({
             subtitle: "What Was Recalled",
-            text: cleanText(
-                [
-                    data.companyName ? `Company: ${data.companyName}.` : "",
-                    data.brandName ? `Brand: ${data.brandName}.` : "",
-                    data.productDescription ? `Product: ${data.productDescription}.` : "",
-                    data.productType ? `Product type: ${data.productType}.` : "",
-                ]
-                    .filter(Boolean)
-                    .join(" ")
-            ),
+            facts: omitEmptyDeep({
+                company: cleanText(data.companyName || ""),
+                brand: cleanText(data.brandName || ""),
+                product: cleanText(data.productDescription || ""),
+                productType: cleanText(data.productType || ""),
+            }),
         })
     );
 
