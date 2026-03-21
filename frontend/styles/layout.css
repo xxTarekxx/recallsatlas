@@ -77,6 +77,35 @@
   color: var(--color-text-muted);
 }
 
+.hero-lead {
+  font-size: 1rem;
+}
+
+/* Homepage — crawler- and user-friendly body copy (no magic word count; substance matters) */
+.home-intro {
+  font-size: 0.9375rem;
+  line-height: 1.65;
+  color: var(--color-text);
+  max-width: 42rem;
+  margin: var(--spacing-2xl) auto 0;
+  padding: 0 0 var(--spacing-2xl);
+}
+
+.home-intro-heading {
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: var(--color-primary);
+  margin: 0 0 var(--spacing-md);
+}
+
+.home-intro p {
+  margin: 0 0 var(--spacing-md);
+}
+
+.home-intro p:last-child {
+  margin-bottom: 0;
+}
+
 /* Single-line search + filter bar */
 .filter-bar {
   display: flex;
