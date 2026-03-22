@@ -60,6 +60,69 @@
   opacity: 0.8;
 }
 
+.site-footer-nav {
+  margin: var(--spacing-sm) 0 var(--spacing-sm);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--spacing-sm);
+  flex-wrap: wrap;
+}
+
+.site-footer-nav-sep {
+  opacity: 0.5;
+  font-size: 0.75rem;
+}
+
+/* Policy pages (/privacy, /about) */
+.policy-main {
+  max-width: 760px;
+}
+
+.policy-article {
+  padding: var(--spacing-xl) 0 var(--spacing-2xl);
+}
+
+.policy-heading {
+  font-size: 2rem;
+  color: var(--color-primary);
+  margin: 0 0 var(--spacing-xs);
+}
+
+.policy-meta {
+  font-size: 0.875rem;
+  color: var(--color-text-muted);
+  margin: 0 0 var(--spacing-xl);
+}
+
+.policy-article h2 {
+  font-size: 1.25rem;
+  color: var(--color-primary);
+  margin: var(--spacing-xl) 0 var(--spacing-sm);
+}
+
+.policy-article h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--color-text);
+  margin: var(--spacing-md) 0 var(--spacing-xs);
+}
+
+.policy-article p {
+  margin: 0 0 var(--spacing-md);
+  line-height: 1.7;
+}
+
+.policy-article ul {
+  margin: 0 0 var(--spacing-md);
+  padding-left: 1.5rem;
+  line-height: 1.7;
+}
+
+.policy-article li {
+  margin-bottom: var(--spacing-xs);
+}
+
 /* Homepage sections */
 .hero {
   text-align: center;
