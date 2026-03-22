@@ -4,6 +4,7 @@ import "../styles/globals.css";
 import "../styles/layout.css";
 import "../styles/recall.css";
 import "../styles/grid.css";
+import SiteNav from "@/components/SiteNav";
 import SiteFooter from "@/components/SiteFooter";
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://recallsatlas.com";
@@ -11,7 +12,8 @@ const GA_ID = "G-96QD0HTTH6";
 
 export const metadata: Metadata = {
   title: "RecallsAtlas | FDA Recall Data",
-  description: "Aggregate FDA recall data. Search and browse drug, food, medical device, and supplement recalls.",
+  description:
+    "Search and browse FDA food, drug, medical device, and supplement recalls. Aggregated from official FDA sources.",
   metadataBase: new URL(siteUrl),
 };
 
@@ -37,7 +39,10 @@ export default function RootLayout({
         </Script>
       </head>
       <body>
-        {children}
+        <SiteNav />
+        <main id="main-content" tabIndex={-1}>
+          {children}
+        </main>
         <SiteFooter />
       </body>
     </html>
