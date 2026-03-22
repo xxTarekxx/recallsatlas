@@ -14,7 +14,7 @@ const crypto = require("crypto");
 require("dotenv").config({ path: path.join(__dirname, "..", ".env") });
 const { getDb, close, DB_NAME, COLLECTION_RECALLS } = require("../database/mongodb");
 
-const JSON_PATH = path.join(__dirname, "..", "data", "recalls.json");
+const JSON_PATH = path.join(__dirname, "recalls.json");
 
 /** Top-level fields we sync (order stable for hash). */
 const SYNC_KEYS = [

@@ -23,12 +23,11 @@ const FDA_LIST_URL =
 const SITE_BASE_URL = process.env.SITE_BASE_URL || "https://recallsatlas.com";
 const SITE_RECALLS_PATH = "/recalls";
 
-// Repo-relative: backend/scripts → backend/data, frontend/public/images/recalls
-const DATA_DIR = path.resolve(__dirname, "..", "data");
+// Repo-relative: scripts dir holds recalls.json, image-map.json, recalls-log.txt
 const IMAGE_BASE_DIR = path.resolve(__dirname, "..", "..", "frontend", "public", "images", "recalls");
-const JSON_PATH = path.join(DATA_DIR, "recalls.json");
-const IMAGE_MAP_PATH = path.join(DATA_DIR, "image-map.json");
-const LOG_PATH = path.join(DATA_DIR, "recalls-log.txt");
+const JSON_PATH = path.join(__dirname, "recalls.json");
+const IMAGE_MAP_PATH = path.join(__dirname, "image-map.json");
+const LOG_PATH = path.join(__dirname, "recalls-log.txt");
 
 const START_SORT_ORDER = 1000;
 const MAX_RECORDS = 100;
@@ -55,7 +54,6 @@ if (!OPENAI_API_KEY) {
     process.exit(1);
 }
 
-if (!fs.existsSync(DATA_DIR)) fs.mkdirSync(DATA_DIR, { recursive: true });
 if (!fs.existsSync(IMAGE_BASE_DIR)) fs.mkdirSync(IMAGE_BASE_DIR, { recursive: true });
 
 const openai = new OpenAI({ apiKey: OPENAI_API_KEY });

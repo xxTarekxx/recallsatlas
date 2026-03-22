@@ -31,10 +31,11 @@ const { chromium } = require("playwright");
 
 // ─── Config ───────────────────────────────────────────────────────────────────
 
-const DATA_DIR = path.resolve(__dirname, "..", "data");
-const JSON_PATH = path.join(DATA_DIR, "recalls.json");
-/** Downloaded Excel lives next to this script; JSON stays under backend/data. */
-const FETCHED_XLSX = path.join(__dirname, "fda-terminated-export.xlsx");
+/** recalls.json now lives in the same directory as the scripts. */
+const JSON_PATH = path.join(__dirname, "recalls.json");
+
+/** Timestamped downloads go here — one file per run, keeps history for ~1 week. */
+const DOWNLOADS_DIR = path.join(__dirname, "downloads");
 
 const FDA_LIST_URL =
   "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts";
@@ -49,6 +50,25 @@ const FETCH = flags.includes("--fetch");
 
 const SCRIPTS_DIR = __dirname;
 const DEFAULT_NAME = "recalls-market-withdrawals-safety-alert";
+
+/** Build a timestamped filename for the current run, e.g. fda-terminated-2026-03-21-14-30.xlsx */
+function buildTimestampedXlsxPath() {
+  const now = new Date();
+  const pad = (n) => String(n).padStart(2, "0");
+  const stamp = `${now.getFullYear()}-${pad(now.getMonth() + 1)}-${pad(now.getDate())}-${pad(now.getHours())}-${pad(now.getMinutes())}`;
+  return path.join(DOWNLOADS_DIR, `fda-terminated-${stamp}.xlsx`);
+}
+
+/** Return the most recent .xlsx in downloads/, or null if none. */
+function latestDownloadedXlsx() {
+  if (!fs.existsSync(DOWNLOADS_DIR)) return null;
+  const files = fs
+    .readdirSync(DOWNLOADS_DIR)
+    .filter((f) => f.endsWith(".xlsx"))
+    .sort() // ISO timestamps sort lexicographically = chronologically
+    .reverse();
+  return files.length ? path.join(DOWNLOADS_DIR, files[0]) : null;
+}
 
 const HEADLESS = process.env.HEADLESS !== "false";
 
@@ -161,6 +181,14 @@ async function waitForDatatableReady(page) {
     .catch(() => {});
 }
 
+/** Ensure the downloads directory exists before writing into it. */
+function ensureDownloadsDir() {
+  if (!fs.existsSync(DOWNLOADS_DIR)) {
+    fs.mkdirSync(DOWNLOADS_DIR, { recursive: true });
+    uiOk(`Created downloads dir: ${DOWNLOADS_DIR}`);
+  }
+}
+
 async function downloadFdaTerminatedExcel(destPath) {
   uiHeader("FDA · Download terminated recalls Excel");
   uiPhase(1, 4, "Launching browser…");
@@ -215,13 +243,20 @@ async function downloadFdaTerminatedExcel(destPath) {
 // ─── Resolve Excel path ───────────────────────────────────────────────────────
 
 function resolveXlsxPath() {
-  if (FETCH) return FETCHED_XLSX;
+  // --fetch: always generate a fresh timestamped file in downloads/
+  if (FETCH) return buildTimestampedXlsxPath();
+  // Explicit path passed as argument
   if (args[0]) return path.resolve(args[0]);
-  const scriptDefault = fs.existsSync(path.join(SCRIPTS_DIR, DEFAULT_NAME + ".xlsx"))
-    ? path.join(SCRIPTS_DIR, DEFAULT_NAME + ".xlsx")
-    : null;
-  if (scriptDefault) return scriptDefault;
-  return path.join(SCRIPTS_DIR, DEFAULT_NAME);
+  // Use the most recent file in downloads/ if available
+  const latest = latestDownloadedXlsx();
+  if (latest) {
+    uiInfo(`Using most recent download: ${path.basename(latest)}`);
+    return latest;
+  }
+  // Fall back to legacy filename next to this script
+  const scriptDefault = path.join(SCRIPTS_DIR, DEFAULT_NAME + ".xlsx");
+  if (fs.existsSync(scriptDefault)) return scriptDefault;
+  return scriptDefault; // will fail with clear error below
 }
 
 // ─── Main ─────────────────────────────────────────────────────────────────────
@@ -235,7 +270,9 @@ async function main() {
   let xlsxPath = resolveXlsxPath();
 
   if (FETCH) {
+    ensureDownloadsDir();
     await downloadFdaTerminatedExcel(xlsxPath);
+    uiInfo(`Saved as: ${path.basename(xlsxPath)}`);
   } else if (!fs.existsSync(xlsxPath)) {
     console.error("Excel file not found:", xlsxPath);
     console.error("  Use: node scripts/checkTerminated.js path/to/file.xlsx");
