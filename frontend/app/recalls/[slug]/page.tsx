@@ -16,8 +16,8 @@ export async function generateMetadata({ params }: PageProps) {
     return { title: "Recall not found – RecallsAtlas" };
   }
 
-  const product = recall.product || "Product";
-  const brand = recall.brand || "Unknown brand";
+  const product = recall.productDescription || "Product";
+  const brand = recall.brandName || "Unknown brand";
   const year =
     typeof recall.report_date === "string" ? recall.report_date.slice(0, 4) : "";
   const shortProduct = getShortProductName(product);

@@ -37,7 +37,7 @@ export interface RecallDetailProps {
 export default function RecallDetail({ recall, dbError = null }: RecallDetailProps) {
   if (!recall && !dbError) return null;
 
-  const product = recall?.product || "";
+  const product = recall?.productDescription || "";
   const year =
     typeof recall?.report_date === "string" ? recall.report_date.slice(0, 4) : "";
   const shortTitle = getShortRecallTitle(product, year);
@@ -46,20 +46,41 @@ export default function RecallDetail({ recall, dbError = null }: RecallDetailPro
   const imagesArray = Array.isArray(recall?.images) ? recall.images : [];
   const imageUrls = imagesArray.length > 0 ? imagesArray : (singleImage ? [singleImage] : []);
   const hasImages = imageUrls.length > 0;
-  const brand = recall?.brand || "";
+  const brand = recall?.brandName || "";
+  const company = recall?.companyName || "";
   const reason = recall?.reason || "";
   const reportDate = formatDate(recall?.report_date);
   const classification = recall?.classification || "";
   const distribution = recall?.distribution || "";
-  const productType = recall?.product_type || "";
+  const productType = recall?.productType || "";
   const sourceUrl = recall?.source_url || "";
   const rawContent = Array.isArray(recall?.content) ? recall.content : [];
   const officialSourceSection = rawContent.find(
     (s: any) => (s?.subtitle || "").toLowerCase().includes("official source")
   );
-  const content = rawContent.filter(
+  const contentWithoutOfficial = rawContent.filter(
     (s: any) => !(s?.subtitle || "").toLowerCase().includes("official source")
   );
+
+  // Guarantee "What Was Recalled" always appears as the first content section.
+  // If the stored content already has it, use that. Otherwise synthesise it
+  // from the top-level fields so no recall ever shows an empty section.
+  const hasWwrSection = contentWithoutOfficial.some(
+    (s: any) => (s?.subtitle || "").toLowerCase().includes("what was recalled")
+  );
+  const syntheticWwr = !hasWwrSection && (company || product || brand || productType)
+    ? [{
+        subtitle: "What Was Recalled",
+        facts: {
+          ...(company     ? { company }              : {}),
+          ...(brand       ? { brand }                : {}),
+          ...(product     ? { product }              : {}),
+          ...(productType ? { productType }          : {}),
+        },
+      }]
+    : [];
+
+  const content = [...syntheticWwr, ...contentWithoutOfficial];
   const disclaimer = recall?.disclaimer || "";
   const isTerminated = recall?.terminated === true;
 
