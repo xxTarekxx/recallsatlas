@@ -1,4 +1,4 @@
-require("dotenv").config();
+require("dotenv").config({ path: require("path").join(__dirname, "..", ".env") });
 
 const { chromium } = require("playwright");
 const fs = require("fs");
@@ -23,8 +23,12 @@ const FDA_LIST_URL =
 const SITE_BASE_URL = process.env.SITE_BASE_URL || "https://recallsatlas.com";
 const SITE_RECALLS_PATH = "/recalls";
 
-// Repo-relative: scripts dir holds recalls.json, image-map.json, recalls-log.txt
-const IMAGE_BASE_DIR = path.resolve(__dirname, "..", "..", "frontend", "public", "images", "recalls");
+// Scripts dir holds recalls.json, image-map.json, recalls-log.txt.
+// IMAGE_BASE_DIR: set IMAGE_BASE_DIR in .env for server deployments.
+//   Dev default:    <repo>/frontend/public/images/recalls
+//   Server example: /var/www/html/recallsatlas/public/images/recalls
+const IMAGE_BASE_DIR = process.env.IMAGE_BASE_DIR
+    || path.resolve(__dirname, "..", "..", "frontend", "public", "images", "recalls");
 const JSON_PATH = path.join(__dirname, "recalls.json");
 const IMAGE_MAP_PATH = path.join(__dirname, "image-map.json");
 const LOG_PATH = path.join(__dirname, "recalls-log.txt");
