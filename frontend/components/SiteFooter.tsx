@@ -29,10 +29,10 @@ export default function SiteFooter() {
         always verify recall details directly with the official source. To
         confirm recall information, contact the FDA at{" "}
         <a
-          href="tel:18002679675"
+          href="tel:+18884636332"
           className="site-footer-link"
         >
-          1-800-267-9675
+          888-463-6332
         </a>{" "}
         or visit{" "}
         <a

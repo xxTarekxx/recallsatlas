@@ -72,7 +72,7 @@ export default function AboutPage() {
           <ul>
             <li>
               Phone:{" "}
-              <a href="tel:18002679675">1-800-267-9675</a>
+              <a href="tel:+18884636332">888-463-6332</a>
             </li>
             <li>
               Website:{" "}
