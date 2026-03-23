@@ -467,7 +467,7 @@
 }
 
 .recall-card-summary--with-image {
-  -webkit-line-clamp: 5;
+  -webkit-line-clamp: 3;
 }
 
 .recall-card-date {

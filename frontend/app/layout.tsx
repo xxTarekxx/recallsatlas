@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Script from "next/script";
+import { Inter } from "next/font/google";
 import "../styles/globals.css";
 import "../styles/layout.css";
 import "../styles/recall.css";
@@ -9,12 +10,36 @@ import SiteFooter from "@/components/SiteFooter";
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://recallsatlas.com";
 const GA_ID = "G-96QD0HTTH6";
+const inter = Inter({ subsets: ["latin"], display: "swap" });
 
 export const metadata: Metadata = {
-  title: "RecallsAtlas | FDA Recall Data",
+  title: {
+    default: "RecallsAtlas | FDA & NHTSA Recall Search",
+    template: "%s | RecallsAtlas",
+  },
   description:
-    "Search and browse FDA food, drug, medical device, and supplement recalls. Aggregated from official FDA sources.",
+    "Search and browse U.S. FDA and NHTSA recalls with plain-language summaries and links to official government notices.",
   metadataBase: new URL(siteUrl),
+  alternates: { canonical: siteUrl },
+  robots: {
+    index: true,
+    follow: true,
+  },
+  openGraph: {
+    title: "RecallsAtlas | FDA & NHTSA Recall Search",
+    description:
+      "Search and browse U.S. FDA and NHTSA recalls with plain-language summaries and links to official government notices.",
+    url: siteUrl,
+    siteName: "RecallsAtlas",
+    type: "website",
+    locale: "en_US",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "RecallsAtlas | FDA & NHTSA Recall Search",
+    description:
+      "Search and browse U.S. FDA and NHTSA recalls with plain-language summaries and links to official government notices.",
+  },
 };
 
 export default function RootLayout({
@@ -38,7 +63,7 @@ export default function RootLayout({
           `}
         </Script>
       </head>
-      <body>
+      <body className={inter.className}>
         <SiteNav />
         <main id="main-content" tabIndex={-1}>
           {children}

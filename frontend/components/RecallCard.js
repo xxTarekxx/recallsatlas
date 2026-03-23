@@ -1,14 +1,15 @@
 import Link from "next/link";
 import { getShortRecallTitle } from "@/lib/recall-utils";
 
-/** Format YYYYMMDD as MM/DD/YYYY */
-function formatDate(yyyymmdd) {
-  if (!yyyymmdd || typeof yyyymmdd !== "string" || yyyymmdd.length !== 8) {
-    return yyyymmdd || "";
-  }
-  const year = yyyymmdd.slice(0, 4);
-  const month = yyyymmdd.slice(4, 6);
-  const day = yyyymmdd.slice(6, 8);
+/** Format YYYYMMDD or YYYY-MM-DD as MM/DD/YYYY */
+function formatDate(value) {
+  if (!value || typeof value !== "string") return value || "";
+  const raw = value.trim();
+  const compact = raw.replace(/-/g, "");
+  if (compact.length !== 8) return raw;
+  const year = compact.slice(0, 4);
+  const month = compact.slice(4, 6);
+  const day = compact.slice(6, 8);
   return `${month}/${day}/${year}`;
 }
 
@@ -23,20 +24,27 @@ function getSummary(recall, maxLen) {
   const content = Array.isArray(recall?.content) ? recall.content : [];
   const firstSection = content.find((s) => s?.text);
   const firstText = firstSection?.text;
-  const raw = firstText ? stripHtml(firstText) : recall?.reason || recall?.product || "";
+  const raw = firstText
+    ? stripHtml(firstText)
+    : recall?.reason || recall?.productDescription || recall?.product || "";
   if (!raw) return "";
   return raw.length <= maxLen ? raw : raw.slice(0, maxLen).trim() + "…";
 }
 
 export default function RecallCard({ recall }) {
-  const { slug, brand, product, report_date, product_type } = recall;
+  const { slug } = recall;
   const image = recall?.image && typeof recall.image === "object" ? recall.image.url : recall?.image;
   const hasImage = Boolean(image);
 
-  const year = report_date && String(report_date).length >= 4 ? String(report_date).slice(0, 4) : "";
+  const brand = recall?.brandName || recall?.brand || "";
+  const product = recall?.productDescription || recall?.product || "";
+  const productType = recall?.productType || recall?.product_type || "";
+  const reportDate = recall?.report_date || recall?.datePublished || "";
+
+  const year = reportDate && String(reportDate).length >= 4 ? String(reportDate).slice(0, 4) : "";
   const displayTitle = getShortRecallTitle(product || "Product", year);
   const displayBrand = brand || "Unknown brand";
-  const displayDate = formatDate(report_date);
+  const displayDate = formatDate(reportDate);
   const summaryShort = getSummary(recall, hasImage ? 200 : 280);
   const isTerminated = recall.terminated === true;
 
@@ -61,8 +69,8 @@ export default function RecallCard({ recall }) {
           </div>
         )}
         <div className="recall-card-body">
-          {product_type && (
-            <p className="recall-card-type">{product_type}</p>
+          {productType && (
+            <p className="recall-card-type">{productType}</p>
           )}
           <h3 className="recall-card-title">{displayTitle}</h3>
           <p className="recall-card-brand">{displayBrand}</p>
