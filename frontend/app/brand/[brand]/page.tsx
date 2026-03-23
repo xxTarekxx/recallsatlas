@@ -16,7 +16,7 @@ export default async function BrandPage({ params }: PageProps) {
     const db = await getDb();
     recalls = await db
       .collection("recalls")
-      .find({ brand: brandParam })
+      .find({ brandName: brandParam })
       .sort({ report_date: -1 })
       .limit(200)
       .toArray();

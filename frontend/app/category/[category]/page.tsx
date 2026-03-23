@@ -16,7 +16,7 @@ export default async function CategoryPage({ params }: PageProps) {
     const db = await getDb();
     recalls = await db
       .collection("recalls")
-      .find({ category: categoryParam })
+      .find({ productType: categoryParam })
       .sort({ report_date: -1 })
       .limit(200)
       .toArray();
