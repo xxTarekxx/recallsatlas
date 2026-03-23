@@ -23,6 +23,7 @@
  */
 
 const path = require("path");
+const fs = require("fs");
 
 // ─── Env ──────────────────────────────────────────────────────────────────────
 
@@ -40,8 +41,12 @@ const flags    = process.argv.slice(2).filter(a => a.startsWith("--"));
 const args     = process.argv.slice(2).filter(a => !a.startsWith("--"));
 const DRY_RUN  = flags.includes("--dry-run");
 const RESET    = flags.includes("--reset");
+const ONE      = flags.includes("--one");
+const LIMIT_ARG = Number((flags.find(f => f.startsWith("--limit=")) || "").split("=")[1]);
 const SLUG_ARG = flags.find(f => f.startsWith("--slug="))?.split("=")[1]
               || (args[0] && !args[0].startsWith("--") ? args[0] : null);
+const LIMIT = ONE ? 1 : (Number.isFinite(LIMIT_ARG) && LIMIT_ARG > 0 ? Math.floor(LIMIT_ARG) : null);
+const JSON_PATH = path.join(__dirname, "recalls.json");
 
 // ─── Languages ────────────────────────────────────────────────────────────────
 
@@ -214,7 +219,9 @@ async function translateAuthorityLink(html, langName) {
 // ─── Build English source ─────────────────────────────────────────────────────
 
 function buildEnglishSource(recall) {
-  const content = (Array.isArray(recall.content) ? recall.content : []).map(section => {
+  const content = (Array.isArray(recall.content) ? recall.content : [])
+    .filter((section) => String(section?.subtitle || "").toLowerCase() !== "what was recalled")
+    .map(section => {
     const s = {};
     if (section.subtitle) s.subtitle = section.subtitle;
     if (section.text)     s.text     = section.text;
@@ -240,7 +247,6 @@ function buildEnglishSource(recall) {
                           : (Array.isArray(recall.regulatedProducts)
                               ? recall.regulatedProducts.join(", ")
                               : ""),
-    status: recall.terminated === true ? "Terminated" : "Ongoing",
     content,
   };
 }
@@ -250,7 +256,7 @@ function buildEnglishSource(recall) {
 function countElements(source) {
   const topFields = [
     "title", "description", "productDescription",
-    "reason", "disclaimer", "pageTypeLabel", "label", "regulatedProducts", "status",
+    "reason", "disclaimer", "pageTypeLabel", "label", "regulatedProducts",
   ];
   let n = topFields.filter(k => source[k]).length;
   for (const section of source.content || []) {
@@ -279,7 +285,7 @@ async function translateLangObject(source, langName, onProgress) {
 
   const topFields = [
     "title", "description", "productDescription",
-    "reason", "disclaimer", "pageTypeLabel", "label", "regulatedProducts", "status",
+    "reason", "disclaimer", "pageTypeLabel", "label", "regulatedProducts",
   ];
   for (const key of topFields) {
     if (result[key]) result[key] = await t(result[key]);
@@ -317,6 +323,18 @@ function delay(ms) {
   return new Promise(r => setTimeout(r, ms));
 }
 
+function upsertRecallLanguagesInJson(slug, languages, translatedAt) {
+  if (!slug || !fs.existsSync(JSON_PATH)) return false;
+  const recalls = JSON.parse(fs.readFileSync(JSON_PATH, "utf8"));
+  if (!Array.isArray(recalls)) return false;
+  const idx = recalls.findIndex(r => (r.id || r.slug) === slug);
+  if (idx === -1) return false;
+  recalls[idx].languages = languages;
+  recalls[idx].translatedAt = translatedAt;
+  fs.writeFileSync(JSON_PATH, JSON.stringify(recalls, null, 2), "utf8");
+  return true;
+}
+
 // ─── Main ─────────────────────────────────────────────────────────────────────
 
 async function main() {
@@ -350,7 +368,8 @@ async function main() {
     process.stdout.write(` ${C.green}done${C.reset}\n`);
   }
 
-  const recalls = await coll.find(query).toArray();
+  let recalls = await coll.find(query).toArray();
+  if (LIMIT) recalls = recalls.slice(0, LIMIT);
 
   if (recalls.length === 0) {
     uiOk("All recalls are fully translated — nothing to do.");
@@ -365,6 +384,7 @@ async function main() {
   uiInfo("Target languages:", `${TARGET_LANGS.length}  ${TARGET_LANGS.map(l => l.flag).join(" ")}`);
   uiInfo("Total lang entries:", `${totalLangEntries}`);
   if (SLUG_ARG) uiInfo("Slug filter:", SLUG_ARG);
+  if (LIMIT) uiInfo("Limit:", String(LIMIT));
   console.log("");
 
   const globalStart  = Date.now();
@@ -456,6 +476,23 @@ async function main() {
         { _id: recall._id },
         { $set: { translatedAt: new Date().toISOString() } }
       );
+
+      const fresh = await coll.findOne(
+        { _id: recall._id },
+        { projection: { slug: 1, languages: 1, translatedAt: 1 } }
+      );
+      if (fresh?.slug && fresh?.languages) {
+        const mirrored = upsertRecallLanguagesInJson(
+          fresh.slug,
+          fresh.languages,
+          fresh.translatedAt || new Date().toISOString()
+        );
+        if (mirrored) {
+          console.log(`  ${C.dim}Mirrored translations to recalls.json for slug:${C.reset} ${fresh.slug}`);
+        } else {
+          console.log(`  ${C.yellow}⚠${C.reset} Could not mirror to recalls.json for slug ${fresh.slug}`);
+        }
+      }
     }
 
     recallsDone++;

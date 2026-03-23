@@ -15,16 +15,6 @@ function hasHtml(text: string) {
   return /<(?:\w+|table|ul|ol|li|p|a\s)/i.test(text || "");
 }
 
-function hasWhatWasRecalledFacts(section: any) {
-  const f = section?.facts;
-  return (
-    section?.subtitle === "What Was Recalled" &&
-    f &&
-    typeof f === "object" &&
-    !!(f.company || f.brand || f.product || f.productType)
-  );
-}
-
 export interface RecallDetailProps {
   recall: any;
   dbError?: string | null;
@@ -55,34 +45,31 @@ export default function RecallDetail({ recall, dbError = null }: RecallDetailPro
   const productType = recall?.productType || "";
   const sourceUrl = recall?.source_url || "";
   const rawContent = Array.isArray(recall?.content) ? recall.content : [];
+  const whatWasRecalledSection = rawContent.find(
+    (s: any) => (s?.subtitle || "").toLowerCase().includes("what was recalled")
+  );
   const officialSourceSection = rawContent.find(
     (s: any) => (s?.subtitle || "").toLowerCase().includes("official source")
   );
-  const contentWithoutOfficial = rawContent.filter(
-    (s: any) => !(s?.subtitle || "").toLowerCase().includes("official source")
-  );
-
-  // Guarantee "What Was Recalled" always appears as the first content section.
-  // If the stored content already has it, use that. Otherwise synthesise it
-  // from the top-level fields so no recall ever shows an empty section.
-  const hasWwrSection = contentWithoutOfficial.some(
-    (s: any) => (s?.subtitle || "").toLowerCase().includes("what was recalled")
-  );
-  const syntheticWwr = !hasWwrSection && (company || product || brand || productType)
-    ? [{
-        subtitle: "What Was Recalled",
-        facts: {
-          ...(company     ? { company }              : {}),
-          ...(brand       ? { brand }                : {}),
-          ...(product     ? { product }              : {}),
-          ...(productType ? { productType }          : {}),
-        },
-      }]
-    : [];
-
-  const content = [...syntheticWwr, ...contentWithoutOfficial];
+  const content = rawContent.filter((s: any) => {
+    const subtitle = (s?.subtitle || "").toLowerCase();
+    return (
+      !subtitle.includes("official source") &&
+      !subtitle.includes("what was recalled") &&
+      !subtitle.includes("reason for recall")
+    );
+  });
   const disclaimer = recall?.disclaimer || "";
   const isTerminated = recall?.terminated === true;
+  const wwrFacts =
+    whatWasRecalledSection?.facts && typeof whatWasRecalledSection.facts === "object"
+      ? whatWasRecalledSection.facts
+      : {};
+
+  const detailCompany = wwrFacts.company || company;
+  const detailBrand = wwrFacts.brand || brand;
+  const detailProduct = wwrFacts.product || product;
+  const detailProductType = wwrFacts.productType || productType;
 
   const statusValue = (
     <span
@@ -125,27 +112,37 @@ export default function RecallDetail({ recall, dbError = null }: RecallDetailPro
             <RecallDetailImageSlider imageUrls={imageUrls} alt={shortTitle} />
           )}
 
-          <section className="recall-detail-facts" aria-label="Recall at a glance">
-            <h2 className="recall-detail-facts-title">At a glance</h2>
+          <section className="recall-detail-facts" aria-label="Recall details">
+            <div className="recall-detail-facts-head">
+              <h2 className="recall-detail-facts-title">Recall Details</h2>
+              <p className="recall-detail-status-row">
+                <span className="recall-detail-status-label">Status</span>
+                {statusValue}
+              </p>
+            </div>
             <dl className="recall-detail-dl">
-              <dt>Status</dt>
-              <dd>{statusValue}</dd>
-              {product && (
+              {detailProduct && (
                 <>
                   <dt className="recall-fact-label recall-fact-label--product">Product</dt>
-                  <dd className="recall-fact-value recall-fact-value--product">{product}</dd>
+                  <dd className="recall-fact-value recall-fact-value--product">{detailProduct}</dd>
                 </>
               )}
-              {productType && (
+              {detailProductType && (
                 <>
                   <dt>Product type</dt>
-                  <dd>{productType}</dd>
+                  <dd>{detailProductType}</dd>
                 </>
               )}
-              {brand && (
+              {detailBrand && (
                 <>
                   <dt>Brand</dt>
-                  <dd>{brand}</dd>
+                  <dd>{detailBrand}</dd>
+                </>
+              )}
+              {detailCompany && (
+                <>
+                  <dt>Company</dt>
+                  <dd>{detailCompany}</dd>
                 </>
               )}
               {reportDate && (
@@ -168,7 +165,7 @@ export default function RecallDetail({ recall, dbError = null }: RecallDetailPro
               )}
               {reason && (
                 <>
-                  <dt>Reason</dt>
+                  <dt>The Reason For Recall</dt>
                   <dd>{reason}</dd>
                 </>
               )}
@@ -178,44 +175,16 @@ export default function RecallDetail({ recall, dbError = null }: RecallDetailPro
           {content.length > 0 && (
             <div className="recall-detail-content">
               {content.map((section: any, i: number) => (
-                <section key={i} className="recall-detail-section">
-                  <h2 className="recall-detail-section-title">{section.subtitle}</h2>
-                  {hasWhatWasRecalledFacts(section) ? (
-                    <dl className="recall-detail-dl recall-what-was-recalled-facts">
-                      {section.facts.company ? (
-                        <>
-                          <dt>Company</dt>
-                          <dd>{section.facts.company}</dd>
-                        </>
-                      ) : null}
-                      {section.facts.brand ? (
-                        <>
-                          <dt>Brand</dt>
-                          <dd>{section.facts.brand}</dd>
-                        </>
-                      ) : null}
-                      {section.facts.product ? (
-                        <>
-                          <dt>Product</dt>
-                          <dd>{section.facts.product}</dd>
-                        </>
-                      ) : null}
-                      {section.facts.productType ? (
-                        <>
-                          <dt>Product type</dt>
-                          <dd>{section.facts.productType}</dd>
-                        </>
-                      ) : null}
-                    </dl>
-                  ) : null}
-                  {section.text && !hasWhatWasRecalledFacts(section) &&
+                <section key={i} className="recall-detail-content-section">
+                  <h2 className="recall-detail-content-section-title">{section.subtitle}</h2>
+                  {section.text &&
                     (hasHtml(section.text) ? (
                       <div
-                        className="recall-content-html recall-detail-section-body"
+                        className="recall-content-html recall-detail-content-section-body"
                         dangerouslySetInnerHTML={{ __html: section.text }}
                       />
                     ) : (
-                      <div className="recall-detail-section-body">
+                      <div className="recall-detail-content-section-body">
                         <p>{section.text}</p>
                       </div>
                     ))}
