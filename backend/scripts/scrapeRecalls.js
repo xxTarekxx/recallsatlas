@@ -34,7 +34,8 @@ const IMAGE_MAP_PATH = path.join(__dirname, "image-map.json");
 const LOG_PATH = path.join(__dirname, "recalls-log.txt");
 
 const START_SORT_ORDER = 1000;
-const MAX_RECORDS = 100;
+const MAX_RECORDS      = 100;  // max NEW recalls per run
+const MAX_TOTAL        = 300;  // hard stop: never exceed this many total recalls
 const MAX_RETRIES = 3;
 
 const MIN_DELAY_MS = 5000;
@@ -156,6 +157,78 @@ function saveAll(results, imageMap) {
     writeJson(JSON_PATH, sorted);
     writeJson(IMAGE_MAP_PATH, imageMap);
     log(`Progress saved. recalls=${results.length} imageMap=${Object.keys(imageMap).length}`);
+}
+
+/**
+ * Re-assign sortOrder 1→N across all recalls, sorted by date (oldest first).
+ * Also renames image folders on disk and updates image paths in each recall
+ * so folder names always match the recall's sortOrder.
+ */
+function reassignSortOrders(results) {
+    function getDate(r) {
+        return (
+            r.fdaPublishDateTime ||
+            r.fdaPublishDate     ||
+            r.companyAnnouncementDateTime ||
+            r.datePublished      ||
+            ""
+        );
+    }
+
+    function getFolderName(recall) {
+        const firstPath =
+            recall.images?.[0] ||
+            (typeof recall.image === "object" ? recall.image?.url : recall.image) || "";
+        if (!firstPath) return null;
+        const m = firstPath.match(/\/images\/recalls\/([^/]+)\//);
+        return m ? m[1] : null;
+    }
+
+    function updateImagePaths(recall, oldFolder, newFolder) {
+        const replace = (p) =>
+            typeof p === "string"
+                ? p.replace(`/images/recalls/${oldFolder}/`, `/images/recalls/${newFolder}/`)
+                : p;
+        if (Array.isArray(recall.images)) recall.images = recall.images.map(replace);
+        if (typeof recall.image === "string") recall.image = replace(recall.image);
+        if (recall.image && typeof recall.image === "object" && recall.image.url) {
+            recall.image = { ...recall.image, url: replace(recall.image.url) };
+        }
+    }
+
+    const sorted = [...results].sort((a, b) => {
+        const da = getDate(a);
+        const db = getDate(b);
+        if (da < db) return -1;
+        if (da > db) return  1;
+        const sa = a.id || a.slug || "";
+        const sb = b.id || b.slug || "";
+        return sa < sb ? -1 : sa > sb ? 1 : 0;
+    });
+
+    let changed = 0;
+    sorted.forEach((recall, i) => {
+        const newOrder  = i + 1;
+        const oldFolder = getFolderName(recall);
+        const newFolder = oldFolder
+            ? oldFolder.replace(/^\d+(-|$)/, `${newOrder}$1`)
+            : null;
+
+        if (recall.sortOrder !== newOrder) changed++;
+        recall.sortOrder = newOrder;
+
+        if (oldFolder && newFolder && oldFolder !== newFolder) {
+            const oldPath = path.join(IMAGE_BASE_DIR, oldFolder);
+            const newPath = path.join(IMAGE_BASE_DIR, newFolder);
+            if (fs.existsSync(oldPath) && !fs.existsSync(newPath)) {
+                fs.renameSync(oldPath, newPath);
+                log(`Renamed folder: ${oldFolder} → ${newFolder}`);
+            }
+            updateImagePaths(recall, oldFolder, newFolder);
+        }
+    });
+
+    log(`reassignSortOrders: ${results.length} recalls, ${changed} sortOrder(s) changed`);
 }
 
 process.on("SIGINT", () => {
@@ -1448,7 +1521,16 @@ function normalizeSourceUrl(url) {
         }
     }
 
+    // Newest date among existing recalls — used to decide if a recall is
+    // genuinely new (no cap) vs historical (capped at MAX_TOTAL).
+    const newestExistingDate = results.reduce((best, r) => {
+        const d = r.fdaPublishDateTime || r.fdaPublishDate ||
+                  r.companyAnnouncementDateTime || r.datePublished || "";
+        return d > best ? d : best;
+    }, "");
+
     log(`Loaded existing recalls: ${results.length}, unique sourceUrls: ${processedUrls.size}`);
+    log(`Newest existing date: ${newestExistingDate || "(none)"}`);
     log(`Next ascending sortOrder: ${currentSortOrder}`);
     progress.update({ phase: "Start", current: 0, total: MAX_RECORDS, status: "Launching browser..." });
 
@@ -1507,6 +1589,19 @@ function normalizeSourceUrl(url) {
 
         for (const listRow of rows) {
             if (addedThisRun >= MAX_RECORDS) break;
+
+            // Check if this row is a genuinely new recall (newer than our newest).
+            // List rows have listDateTime from the FDA table — use it for a quick check.
+            const rowDate = listRow.listDateTime || listRow.listDateText || "";
+            const isNewer = newestExistingDate === "" || rowDate > newestExistingDate;
+
+            // Only enforce the historical cap for older recalls.
+            // Newer recalls are always allowed through.
+            if (!isNewer && results.length >= MAX_TOTAL) {
+                log(`MAX_TOTAL (${MAX_TOTAL}) reached for historical recalls. Stopping.`);
+                hasNext = false;
+                break;
+            }
 
             const detailUrl = listRow.detailUrl;
             if (!detailUrl) continue;
@@ -1720,6 +1815,7 @@ function normalizeSourceUrl(url) {
 
         if (addedThisRun >= MAX_RECORDS) {
             hasNext = false;
+            log(`Stopping: MAX_RECORDS (${MAX_RECORDS}) reached this run.`);
             break;
         }
 
@@ -1748,6 +1844,8 @@ function normalizeSourceUrl(url) {
         pageIndex += 1;
     }
 
+    // Re-sort all recalls by date and assign correct sortOrders 1→N
+    reassignSortOrders(results);
     saveAll(results, imageMap);
     await browser.close();
     progress.finish(`DONE · ${addedThisRun} recalls this run, ${results.length} total`);
