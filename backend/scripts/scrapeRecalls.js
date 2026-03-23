@@ -1598,12 +1598,10 @@ function normalizeSourceUrl(url) {
             const rowDate = listRow.listDateTime || listRow.listDateText || "";
             const isNewer = newestExistingDate === "" || rowDate > newestExistingDate;
 
-            // Only enforce the historical cap for older recalls.
-            // Newer recalls are always allowed through.
-            if (!isNewer && results.length >= MAX_TOTAL) {
-                log(`MAX_TOTAL (${MAX_TOTAL}) reached for historical recalls. Stopping.`);
-                hasNext = false;
-                break;
+            // Backfill mode is temporarily disabled:
+            // skip older recalls and ingest only genuinely new recalls.
+            if (!isNewer) {
+                continue;
             }
 
             const detailUrl = listRow.detailUrl;
