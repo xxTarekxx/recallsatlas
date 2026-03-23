@@ -1502,7 +1502,8 @@ function normalizeSourceUrl(url) {
         results.map((item) => item.id).filter(Boolean)
     );
 
-    let currentSortOrder = START_SORT_ORDER;
+    let nextNewerSortOrder = START_SORT_ORDER;
+    let nextOlderSortOrder = START_SORT_ORDER - 1;
     const sortOrders = new Set(
         results
             .map((item) => (typeof item.sortOrder === "number" ? item.sortOrder : null))
@@ -1510,8 +1511,9 @@ function normalizeSourceUrl(url) {
     );
     if (sortOrders.size > 0) {
         const maxSort = Math.max(...sortOrders);
-        currentSortOrder = maxSort + 1;
         const minSort = Math.min(...sortOrders);
+        nextNewerSortOrder = maxSort + 1;
+        nextOlderSortOrder = minSort - 1;
         const gaps = [];
         for (let i = minSort; i <= maxSort; i++) {
             if (!sortOrders.has(i)) gaps.push(i);
@@ -1531,7 +1533,8 @@ function normalizeSourceUrl(url) {
 
     log(`Loaded existing recalls: ${results.length}, unique sourceUrls: ${processedUrls.size}`);
     log(`Newest existing date: ${newestExistingDate || "(none)"}`);
-    log(`Next ascending sortOrder: ${currentSortOrder}`);
+    log(`Next sortOrder for newer recalls: ${nextNewerSortOrder}`);
+    log(`Next sortOrder for older recalls: ${nextOlderSortOrder}`);
     progress.update({ phase: "Start", current: 0, total: MAX_RECORDS, status: "Launching browser..." });
 
     const browser = await chromium.launch({
@@ -1646,7 +1649,10 @@ function normalizeSourceUrl(url) {
                     year,
                 });
                 const slug = ensureUniqueSlug(slugBase, existingSlugs);
-                const folderName = `${currentSortOrder}-${slug}`;
+                const assignedSortOrder = isNewer
+                    ? nextNewerSortOrder++
+                    : nextOlderSortOrder--;
+                const folderName = `${assignedSortOrder}-${slug}`;
 
                 log(`Slug: ${slug}`);
                 log(`Folder: ${folderName}`);
@@ -1722,7 +1728,7 @@ function normalizeSourceUrl(url) {
                     "@type": "Article",
 
                     id: slug,
-                    sortOrder: currentSortOrder,
+                    sortOrder: assignedSortOrder,
                     canonicalUrl,
                     mainEntityOfPage: canonicalUrl,
                     headline: merged.title || `${merged.brandName || merged.companyName || "FDA"} recall`,
@@ -1794,7 +1800,6 @@ function normalizeSourceUrl(url) {
                 results.push(article);
                 if (normalizedDetailUrl) processedUrls.add(normalizedDetailUrl);
                 addedThisRun += 1;
-                currentSortOrder += 1;
                 saveAll(results, imageMap);
                 progress.update({ phase: "Scrape", current: addedThisRun, total: MAX_RECORDS, status: `Saved ${slug}` });
                 if (addedThisRun % 5 === 0) {
@@ -1844,8 +1849,6 @@ function normalizeSourceUrl(url) {
         pageIndex += 1;
     }
 
-    // Re-sort all recalls by date and assign correct sortOrders 1→N
-    reassignSortOrders(results);
     saveAll(results, imageMap);
     await browser.close();
     progress.finish(`DONE · ${addedThisRun} recalls this run, ${results.length} total`);
