@@ -16,23 +16,15 @@
  * Usage (from backend/):
  *   node scripts/recallTranslate.js                  # translate all untranslated recalls
  *   node scripts/recallTranslate.js --dry-run        # preview only, no writes
- *   node scripts/recallTranslate.js --slug some-slug # translate a single recall by slug
+ *   node scripts/recallTranslate.js --slug=some-slug # translate a single recall by slug
  *   node scripts/recallTranslate.js --reset          # clear all translations (re-translate everything)
- *
- * SEO note:
- *   Each language generates a separate URL on the frontend:
- *   /recalls/[slug]        → English (default)
- *   /es/recalls/[slug]     → Spanish
- *   /ar/recalls/[slug]     → Arabic (rtl)
- *   etc.
  *
  * Env: OPENAI_API_KEY, MONGODB_URI (in backend/.env)
  */
 
-const fs   = require("fs");
 const path = require("path");
 
-// ─── Env ─────────────────────────────────────────────────────────────────────
+// ─── Env ──────────────────────────────────────────────────────────────────────
 
 require("dotenv").config({ path: path.join(__dirname, "..", ".env") });
 
@@ -41,26 +33,18 @@ if (!OPENAI_API_KEY) { console.error("Missing OPENAI_API_KEY"); process.exit(1);
 
 // ─── Config ───────────────────────────────────────────────────────────────────
 
-const MODEL        = "gpt-4.1-mini";
-const RATE_LIMIT_MS = 60;   // ms between OpenAI calls — stay well within rate limits
-const BATCH_SIZE    = 5;    // recalls processed concurrently
+const MODEL         = "gpt-4.1-mini";
+const RATE_LIMIT_MS = 60;   // ms between OpenAI calls
 
-const flags     = process.argv.slice(2).filter(a => a.startsWith("--"));
-const args      = process.argv.slice(2).filter(a => !a.startsWith("--"));
-const DRY_RUN   = flags.includes("--dry-run");
-const RESET     = flags.includes("--reset");
-const SLUG_ARG  = flags.find(f => f.startsWith("--slug="))?.split("=")[1]
-               || (args[0] && !args[0].startsWith("--") ? args[0] : null);
+const flags    = process.argv.slice(2).filter(a => a.startsWith("--"));
+const args     = process.argv.slice(2).filter(a => !a.startsWith("--"));
+const DRY_RUN  = flags.includes("--dry-run");
+const RESET    = flags.includes("--reset");
+const SLUG_ARG = flags.find(f => f.startsWith("--slug="))?.split("=")[1]
+              || (args[0] && !args[0].startsWith("--") ? args[0] : null);
 
 // ─── Languages ────────────────────────────────────────────────────────────────
 
-/**
- * Each entry:
- *   code  — BCP-47 language code (used in URLs: /es/recalls/[slug])
- *   name  — passed to OpenAI as the target language name
- *   flag  — emoji shown in the language switcher UI
- *   dir   — text direction; "rtl" for Arabic and Persian
- */
 const LANGUAGES = [
   { code: "en", name: "English",    flag: "🇺🇸", dir: "ltr" },
   { code: "es", name: "Spanish",    flag: "🇪🇸", dir: "ltr" },
@@ -86,7 +70,7 @@ const LANGUAGES = [
 
 const TARGET_LANGS = LANGUAGES.filter(l => l.code !== "en");
 
-// ─── Terminal UI ─────────────────────────────────────────────────────────────
+// ─── Terminal colours ─────────────────────────────────────────────────────────
 
 const C = {
   reset:  "\x1b[0m",
@@ -96,45 +80,66 @@ const C = {
   green:  "\x1b[32m",
   yellow: "\x1b[33m",
   red:    "\x1b[31m",
+  blue:   "\x1b[34m",
 };
 
+// ─── Terminal UI helpers ──────────────────────────────────────────────────────
+
 function uiHeader(title) {
-  const line = "═".repeat(54);
+  const w    = 58;
+  const line = "═".repeat(w);
   console.log(`\n${C.cyan}${C.bold}  ${line}${C.reset}`);
-  console.log(`${C.cyan}${C.bold}  ${title.padEnd(54)}${C.reset}`);
+  console.log(`${C.cyan}${C.bold}  ${title}${C.reset}`);
   console.log(`${C.cyan}${C.bold}  ${line}${C.reset}\n`);
 }
 
+function uiDivider() {
+  console.log(`  ${C.dim}${"─".repeat(58)}${C.reset}`);
+}
+
 function uiPhase(label) {
-  console.log(`  ${C.cyan}▸${C.reset} ${label}`);
+  console.log(`\n  ${C.cyan}▸${C.reset} ${label}`);
 }
 
 function uiOk(msg) {
-  console.log(`     ${C.green}✓${C.reset} ${msg}`);
+  console.log(`  ${C.green}✓${C.reset} ${msg}`);
 }
 
 function uiWarn(msg) {
-  console.log(`     ${C.yellow}⚠${C.reset} ${msg}`);
+  console.log(`  ${C.yellow}⚠${C.reset} ${msg}`);
 }
 
-function uiInfo(msg) {
-  console.log(`     ${C.dim}${msg}${C.reset}`);
+function uiInfo(label, value) {
+  const lPad = label.padEnd(22);
+  console.log(`     ${C.dim}${lPad}${C.reset}${value}`);
 }
 
-function progressBar(current, total, width = 28) {
+function progressBar(current, total, width = 26) {
   if (total <= 0) total = 1;
-  const ratio   = Math.min(current, total) / total;
-  const filled  = Math.round(ratio * width);
-  const bar     = "█".repeat(filled) + "░".repeat(width - filled);
-  return `[${bar}] ${Math.round(ratio * 100)}%`;
+  const ratio  = Math.min(current, total) / total;
+  const filled = Math.round(ratio * width);
+  const bar    = "█".repeat(filled) + "░".repeat(width - filled);
+  const pct    = String(Math.round(ratio * 100)).padStart(3);
+  return `[${bar}] ${pct}%`;
+}
+
+// ─── Time helpers ─────────────────────────────────────────────────────────────
+
+function fmtElapsed(ms) {
+  const s = Math.round(ms / 1000);
+  if (s < 60) return `${s}s`;
+  const m = Math.floor(s / 60);
+  const r = s % 60;
+  return r > 0 ? `${m}m ${r}s` : `${m}m`;
+}
+
+function fmtEta(avgMs, remaining) {
+  if (remaining <= 0 || avgMs <= 0) return "—";
+  return fmtElapsed(avgMs * remaining);
 }
 
 // ─── OpenAI ───────────────────────────────────────────────────────────────────
 
-/**
- * Translate a plain text string into the target language.
- * Returns the original on failure (never throws).
- */
 async function translateText(text, langName) {
   if (!text || typeof text !== "string" || !text.trim()) return text;
 
@@ -181,66 +186,41 @@ async function translateText(text, langName) {
   }
 }
 
-/**
- * Translate only the visible link text in an HTML anchor string.
- * Keeps href, target, rel, and all attributes intact.
- *
- * Input:  'For details see <a href="https://fda.gov/..." ...>FDA Notice</a>.'
- * Output: 'Para más detalles consulte <a href="https://fda.gov/..." ...>Aviso de la FDA</a>.'
- */
 async function translateAuthorityLink(html, langName) {
   if (!html || typeof html !== "string") return html;
 
-  // Replace each anchor's visible text while keeping the tag intact
-  const parts = [];
-  let cursor = 0;
-  const tagRe = /(<a\b[^>]*>)([\s\S]*?)(<\/a>)/gi;
+  const parts  = [];
+  let cursor   = 0;
+  const tagRe  = /(<a\b[^>]*>)([\s\S]*?)(<\/a>)/gi;
   let match;
 
   while ((match = tagRe.exec(html)) !== null) {
-    // Text before this anchor
     if (match.index > cursor) {
-      const before = html.slice(cursor, match.index);
-      parts.push(translateText(before, langName));
+      parts.push(translateText(html.slice(cursor, match.index), langName));
     }
-    // Opening tag stays as-is; only translate the inner text
-    const openTag   = match[1];
-    const innerText = match[2];
-    const closeTag  = match[3];
+    const [, openTag, innerText, closeTag] = match;
     parts.push(
       translateText(innerText, langName).then(t => `${openTag}${t}${closeTag}`)
     );
     cursor = match.index + match[0].length;
   }
 
-  // Remaining text after last anchor
-  if (cursor < html.length) {
-    parts.push(translateText(html.slice(cursor), langName));
-  }
+  if (cursor < html.length) parts.push(translateText(html.slice(cursor), langName));
+  if (parts.length === 0)   return translateText(html, langName);
 
-  // If no anchors found, translate the whole string
-  if (parts.length === 0) return translateText(html, langName);
-
-  const results = await Promise.all(parts);
-  return results.join("");
+  return (await Promise.all(parts)).join("");
 }
 
-// ─── Build English source object ─────────────────────────────────────────────
+// ─── Build English source ─────────────────────────────────────────────────────
 
-/**
- * Extracts all translatable fields from a raw MongoDB recall document
- * and returns them as a clean "en" language object.
- * Non-translatable fields (dates, URLs, sortOrder, etc.) are excluded.
- */
 function buildEnglishSource(recall) {
   const content = (Array.isArray(recall.content) ? recall.content : []).map(section => {
     const s = {};
-    if (section.subtitle)      s.subtitle      = section.subtitle;
-    if (section.text)          s.text          = section.text;
+    if (section.subtitle) s.subtitle = section.subtitle;
+    if (section.text)     s.text     = section.text;
     if (Array.isArray(section.authorityLinks) && section.authorityLinks.length) {
       s.authorityLinks = section.authorityLinks;
     }
-    // facts block (What Was Recalled)
     if (section.facts && typeof section.facts === "object") {
       s.facts = { ...section.facts };
     }
@@ -248,67 +228,77 @@ function buildEnglishSource(recall) {
   });
 
   return {
-    title:             recall.title             || recall.product || "",
-    description:       recall.description       || "",
-    productDescription: recall.product          || recall.productDescription || "",
-    reason:            recall.reason            || "",
-    disclaimer:        recall.disclaimer        || "",
-    pageTypeLabel:     recall.pageTypeLabel      || "",
-    label:             recall.label             || "",
-    regulatedProducts: typeof recall.regulatedProducts === "string"
-                         ? recall.regulatedProducts
-                         : (Array.isArray(recall.regulatedProducts)
-                             ? recall.regulatedProducts.join(", ")
-                             : ""),
-    /** "Ongoing" or "Terminated" — derived from the terminated boolean so it can be translated */
-    status:            recall.terminated === true ? "Terminated" : "Ongoing",
+    title:              recall.title             || "",
+    description:        recall.description       || "",
+    productDescription: recall.productDescription || "",
+    reason:             recall.reason            || "",
+    disclaimer:         recall.disclaimer        || "",
+    pageTypeLabel:      recall.pageTypeLabel     || "",
+    label:              recall.label             || "",
+    regulatedProducts:  typeof recall.regulatedProducts === "string"
+                          ? recall.regulatedProducts
+                          : (Array.isArray(recall.regulatedProducts)
+                              ? recall.regulatedProducts.join(", ")
+                              : ""),
+    status: recall.terminated === true ? "Terminated" : "Ongoing",
     content,
   };
 }
 
-// ─── Translate one language object ───────────────────────────────────────────
+// ─── Count translatable elements ──────────────────────────────────────────────
 
-async function translateLangObject(source, langName, onProgress) {
-  const result = JSON.parse(JSON.stringify(source)); // deep clone
-  let done = 0;
-
-  // Helper that wraps translateText + progress tick
-  async function t(text) {
-    await delay(RATE_LIMIT_MS);
-    const translated = await translateText(text, langName);
-    done++;
-    onProgress(done);
-    return translated;
-  }
-
-  // Top-level string fields
+function countElements(source) {
   const topFields = [
     "title", "description", "productDescription",
-    "reason", "disclaimer", "pageTypeLabel", "label", "regulatedProducts",
-    "status",
+    "reason", "disclaimer", "pageTypeLabel", "label", "regulatedProducts", "status",
+  ];
+  let n = topFields.filter(k => source[k]).length;
+  for (const section of source.content || []) {
+    if (section.subtitle) n++;
+    if (section.text)     n++;
+    if (Array.isArray(section.authorityLinks)) n += section.authorityLinks.length;
+    if (section.facts) {
+      n += Object.values(section.facts).filter(v => typeof v === "string" && v).length;
+    }
+  }
+  return n;
+}
+
+// ─── Translate one language ───────────────────────────────────────────────────
+
+async function translateLangObject(source, langName, onProgress) {
+  const result = JSON.parse(JSON.stringify(source));
+  let done = 0;
+
+  async function t(text) {
+    await delay(RATE_LIMIT_MS);
+    const out = await translateText(text, langName);
+    onProgress(++done);
+    return out;
+  }
+
+  const topFields = [
+    "title", "description", "productDescription",
+    "reason", "disclaimer", "pageTypeLabel", "label", "regulatedProducts", "status",
   ];
   for (const key of topFields) {
     if (result[key]) result[key] = await t(result[key]);
   }
 
-  // content[] sections
   for (const section of result.content || []) {
     if (section.subtitle) section.subtitle = await t(section.subtitle);
     if (section.text)     section.text     = await t(section.text);
 
-    // authorityLinks — translate visible text only
     if (Array.isArray(section.authorityLinks)) {
       for (let i = 0; i < section.authorityLinks.length; i++) {
         await delay(RATE_LIMIT_MS);
         section.authorityLinks[i] = await translateAuthorityLink(
           section.authorityLinks[i], langName
         );
-        done++;
-        onProgress(done);
+        onProgress(++done);
       }
     }
 
-    // facts object (What Was Recalled section)
     if (section.facts && typeof section.facts === "object") {
       for (const fKey of Object.keys(section.facts)) {
         if (typeof section.facts[fKey] === "string" && section.facts[fKey]) {
@@ -319,24 +309,6 @@ async function translateLangObject(source, langName, onProgress) {
   }
 
   return result;
-}
-
-// ─── Count translatable elements ─────────────────────────────────────────────
-
-function countElements(source) {
-  const topFields = [
-    "title", "description", "productDescription",
-    "reason", "disclaimer", "pageTypeLabel", "label", "regulatedProducts",
-    "status",
-  ];
-  let n = topFields.filter(k => source[k]).length;
-  for (const section of source.content || []) {
-    if (section.subtitle) n++;
-    if (section.text)     n++;
-    if (Array.isArray(section.authorityLinks)) n += section.authorityLinks.length;
-    if (section.facts) n += Object.values(section.facts).filter(v => typeof v === "string" && v).length;
-  }
-  return n;
 }
 
 // ─── Delay ───────────────────────────────────────────────────────────────────
@@ -350,115 +322,132 @@ function delay(ms) {
 async function main() {
   const { getDb, close } = require("../database/mongodb");
 
-  uiHeader("RecallsAtlas · Translation Engine");
+  uiHeader("RecallsAtlas  ·  Translation Engine");
 
   if (DRY_RUN) uiWarn("DRY RUN — no writes to MongoDB");
   if (RESET)   uiWarn("RESET — clearing all existing translations");
 
-  uiPhase("Connecting to MongoDB…");
+  process.stdout.write(`  ${C.cyan}▸${C.reset} Connecting to MongoDB…`);
   const db   = await getDb();
   const coll = db.collection("recalls");
-  uiOk("Connected");
+  process.stdout.write(` ${C.green}connected${C.reset}\n`);
 
-  // Build query
+  // ── Build query ─────────────────────────────────────────────────────────────
   let query = {};
   if (SLUG_ARG) {
     query = { slug: SLUG_ARG };
-    uiInfo(`Single slug mode: ${SLUG_ARG}`);
   } else if (RESET) {
     query = {};
   } else {
-    // Find recalls missing at least one target language translation
-    const missingLangQueries = TARGET_LANGS.map(l => ({
-      [`languages.${l.code}`]: { $exists: false },
-    }));
-    query = { $or: missingLangQueries };
+    query = {
+      $or: TARGET_LANGS.map(l => ({ [`languages.${l.code}`]: { $exists: false } })),
+    };
   }
 
   if (RESET && !DRY_RUN) {
-    uiPhase("Clearing all translations…");
+    process.stdout.write(`  ${C.cyan}▸${C.reset} Clearing all translations…`);
     await coll.updateMany({}, { $unset: { languages: "" } });
-    uiOk("Cleared");
+    process.stdout.write(` ${C.green}done${C.reset}\n`);
   }
 
   const recalls = await coll.find(query).toArray();
 
   if (recalls.length === 0) {
-    uiOk("All recalls are fully translated. Nothing to do.");
+    uiOk("All recalls are fully translated — nothing to do.");
     await close();
     return;
   }
 
-  uiInfo(`Recalls to process: ${recalls.length}`);
-  uiInfo(`Target languages: ${TARGET_LANGS.length} (${TARGET_LANGS.map(l => l.flag + " " + l.code).join("  ")})`);
+  // ── Summary ─────────────────────────────────────────────────────────────────
+  const totalLangEntries = recalls.length * TARGET_LANGS.length;
+  console.log("");
+  uiInfo("Recalls to process:", `${recalls.length}`);
+  uiInfo("Target languages:", `${TARGET_LANGS.length}  ${TARGET_LANGS.map(l => l.flag).join(" ")}`);
+  uiInfo("Total lang entries:", `${totalLangEntries}`);
+  if (SLUG_ARG) uiInfo("Slug filter:", SLUG_ARG);
   console.log("");
 
-  let recallsDone = 0;
+  const globalStart  = Date.now();
+  let   recallsDone  = 0;
+  const recallTimes  = []; // ms per recall — used for ETA
 
+  // ── Per-recall loop ─────────────────────────────────────────────────────────
   for (const recall of recalls) {
-    const slug = recall.slug || recall.id || "(unknown)";
-    const shortTitle = (recall.title || recall.product || slug).slice(0, 60);
+    const slug       = recall.slug || "(unknown)";
+    const shortTitle = (recall.title || recall.productDescription || slug).slice(0, 55);
+    const recallStart = Date.now();
 
-    uiPhase(`[${recallsDone + 1}/${recalls.length}] ${shortTitle}`);
+    uiDivider();
+    console.log(
+      `\n  ${C.bold}[${recallsDone + 1}/${recalls.length}]${C.reset}  ${shortTitle}`
+    );
 
-    // Build English source
-    const enSource = buildEnglishSource(recall);
+    // Which languages still need translating for this recall?
+    const langsNeeded = TARGET_LANGS.filter(l => {
+      const existing = recall.languages?.[l.code];
+      return RESET || !existing || !existing.title;
+    });
+    const langsSkipped = TARGET_LANGS.length - langsNeeded.length;
+
+    if (langsSkipped > 0) {
+      console.log(
+        `  ${C.dim}  Already done: ${langsSkipped} lang(s) — skipping those${C.reset}`
+      );
+    }
+    if (langsNeeded.length === 0) {
+      console.log(`  ${C.green}  All languages already translated — skipping recall${C.reset}\n`);
+      recallsDone++;
+      continue;
+    }
+
+    console.log(
+      `  ${C.dim}  Pending: ${langsNeeded.map(l => l.flag).join(" ")}${C.reset}\n`
+    );
+
+    // Build English source + save languages.en
+    const enSource      = buildEnglishSource(recall);
     const totalElements = countElements(enSource);
 
-    // Ensure languages.en is set
     if (!DRY_RUN) {
       const enLang = LANGUAGES.find(l => l.code === "en");
       await coll.updateOne(
         { _id: recall._id },
-        { $set: {
-          "languages.en": {
-            ...enSource,
-            dir:  enLang.dir,
-            flag: enLang.flag,
-            lang: "en",
-          }
-        }}
+        { $set: { "languages.en": { ...enSource, dir: enLang.dir, flag: enLang.flag, lang: "en" } } }
       );
     }
 
-    // Translate into each target language
-    for (const lang of TARGET_LANGS) {
-      const existingTranslation = recall.languages?.[lang.code];
-
-      // Skip if already fully translated (resume safety)
-      if (existingTranslation && existingTranslation.title && !RESET) {
-        uiInfo(`  ${lang.flag} ${lang.code} already done — skipping`);
-        continue;
-      }
-
-      let elemsDone = 0;
+    // ── Per-language loop (saves immediately after each language) ─────────────
+    for (const lang of langsNeeded) {
+      const langStart = Date.now();
 
       process.stdout.write(
-        `     ${lang.flag} ${lang.name.padEnd(12)} ${progressBar(0, totalElements)}\r`
+        `     ${lang.flag}  ${lang.name.padEnd(12)} ${progressBar(0, totalElements)}\r`
       );
 
       const translated = await translateLangObject(enSource, lang.name, (n) => {
-        elemsDone = n;
         process.stdout.write(
-          `     ${lang.flag} ${lang.name.padEnd(12)} ${progressBar(n, totalElements)}\r`
+          `     ${lang.flag}  ${lang.name.padEnd(12)} ${progressBar(n, totalElements)}\r`
         );
       });
 
-      // Add metadata
       translated.dir  = lang.dir;
       translated.flag = lang.flag;
       translated.lang = lang.code;
 
-      process.stdout.write(
-        `     ${lang.flag} ${lang.name.padEnd(12)} ${progressBar(totalElements, totalElements)}  ✓\n`
-      );
+      const langMs = Date.now() - langStart;
 
+      // ── Save this language to MongoDB immediately ─────────────────────────
       if (!DRY_RUN) {
         await coll.updateOne(
           { _id: recall._id },
           { $set: { [`languages.${lang.code}`]: translated } }
         );
       }
+
+      process.stdout.write(
+        `     ${lang.flag}  ${lang.name.padEnd(12)} ${progressBar(totalElements, totalElements)}` +
+        `  ${C.green}✓${C.reset}  ${C.dim}${fmtElapsed(langMs)}${C.reset}\n`
+      );
     }
 
     // Mark recall as fully translated
@@ -470,14 +459,45 @@ async function main() {
     }
 
     recallsDone++;
-    uiOk(`Done (${recallsDone}/${recalls.length})`);
-    console.log("");
+    const recallMs = Date.now() - recallStart;
+    recallTimes.push(recallMs);
+
+    // ETA calculation
+    const avgMs     = recallTimes.reduce((a, b) => a + b, 0) / recallTimes.length;
+    const remaining = recalls.length - recallsDone;
+    const elapsed   = Date.now() - globalStart;
+
+    console.log(
+      `\n  ${C.green}✓${C.reset} Recall saved` +
+      `  ${C.dim}(took ${fmtElapsed(recallMs)})${C.reset}`
+    );
+
+    // ── Overall progress bar ─────────────────────────────────────────────────
+    const overallBar = progressBar(recallsDone, recalls.length, 30);
+    const etaStr     = remaining > 0
+      ? `  ETA ~${fmtEta(avgMs, remaining)}`
+      : "  All done!";
+
+    console.log(
+      `  ${C.blue}${overallBar}${C.reset}` +
+      `  ${C.dim}${recallsDone}/${recalls.length} recalls` +
+      `  ·  elapsed ${fmtElapsed(elapsed)}` +
+      `${etaStr}${C.reset}\n`
+    );
   }
 
-  uiHeader("Complete");
-  console.log(`  ${C.green}${C.bold}Translated: ${recallsDone} recall(s)${C.reset}`);
-  console.log(`  ${C.green}${C.bold}Languages:  ${TARGET_LANGS.length} per recall${C.reset}`);
-  console.log(`  ${C.dim}Total language entries written: ${recallsDone * TARGET_LANGS.length}${C.reset}\n`);
+  // ── Final summary ────────────────────────────────────────────────────────────
+  const totalMs = Date.now() - globalStart;
+  uiDivider();
+  uiHeader("Translation Complete");
+  uiInfo("Recalls translated:", `${recallsDone}`);
+  uiInfo("Languages per recall:", `${TARGET_LANGS.length}`);
+  uiInfo("Lang entries written:", `${recallsDone * TARGET_LANGS.length}`);
+  uiInfo("Total time:", fmtElapsed(totalMs));
+  if (recallsDone > 0) {
+    uiInfo("Avg per recall:", fmtElapsed(Math.round(totalMs / recallsDone)));
+  }
+  console.log("");
 
   await close();
 }
@@ -485,13 +505,15 @@ async function main() {
 // ─── SIGINT ───────────────────────────────────────────────────────────────────
 
 process.on("SIGINT", () => {
-  console.log(`\n${C.yellow}  ⚠ Interrupted. Progress already saved to MongoDB.${C.reset}\n`);
+  console.log(
+    `\n\n  ${C.yellow}⚠${C.reset}  Interrupted — all completed languages already saved to MongoDB.\n`
+  );
   process.exit(0);
 });
 
 // ─── Run ─────────────────────────────────────────────────────────────────────
 
 main().catch(err => {
-  console.error(err);
+  console.error(`\n  ${C.red}✗${C.reset}  Fatal error:`, err.message || err);
   process.exit(1);
 });

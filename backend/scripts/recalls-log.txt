@@ -4161,3 +4161,559 @@ Call log:
 [2026-03-20T21:22:21.761Z] Delay 5362ms → after detail complete
 [2026-03-20T21:22:27.142Z] Progress saved. recalls=239 imageMap=841
 [2026-03-20T21:22:27.279Z] DONE
+[2026-03-23T01:52:21.122Z] Loaded existing recalls: 239, unique sourceUrls: 239
+[2026-03-23T01:52:21.123Z] Next ascending sortOrder: 240
+[2026-03-23T01:52:21.587Z] Opening FDA recalls listing...
+[2026-03-23T01:52:27.195Z] Delay 5980ms → after initial listing load
+[2026-03-23T01:52:35.374Z] Set DataTable page size to 100 and Terminated Recall filter to No
+[2026-03-23T01:52:35.376Z] Reading DataTable page 1...
+[2026-03-23T01:52:40.405Z] Rows found on page 1: 100
+[2026-03-23T01:52:40.406Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/cardinal-health-issues-voluntary-nationwide-recall-webcoltm-large-alcohol-prep-pad
+[2026-03-23T01:52:40.407Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/mama-grande-tortilla-factory-issues-allergy-alert-undeclared-wheat-and-soy-gorditas-de-azucar-and
+[2026-03-23T01:52:40.407Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/pure-vitamins-and-natural-supplements-llc-issues-voluntary-nationwide-recall-honey-products-due
+[2026-03-23T01:52:40.408Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/insulet-initiates-voluntary-medical-device-correction-certain-omnipodr-5-pods-us
+[2026-03-23T01:52:40.408Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/lidl-us-issues-allergy-alert-undeclared-hazelnuts-favorina-chocolate-ladybugs-german-style-nougat
+[2026-03-23T01:52:40.408Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/primal-herbs-issues-voluntary-nationwide-recall-primal-herbs-volume-due-undeclared-sildenafil
+[2026-03-23T01:52:40.409Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/frito-lay-issues-voluntary-allergy-alert-undeclared-milk-miss-vickies-spicy-dill-pickle-potato-chips
+[2026-03-23T01:52:40.409Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/savannah-bee-company-recalls-honey-bbq-sauce-mustard-due-undeclared-wheat-and-soy
+[2026-03-23T01:52:40.409Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/usa-less-co-recalling-rhino-choco-vip-10x-due-undeclared-tadalafil
+[2026-03-23T01:52:40.409Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/go-raw-llc-expands-voluntary-recall-quest-diet-cat-food-products-due-low-thiamine-levels-and-enacts
+[2026-03-23T01:52:40.409Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/lockout-supplements-issues-voluntary-nationwide-recall-boner-bears-chocolate-syrup-due-undeclared
+[2026-03-23T01:52:40.410Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/saputo-usa-recalls-great-value-cottage-cheese-because-possible-health-risk
+[2026-03-23T01:52:40.410Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/elite-treats-llc-recalls-single-lot-chicken-chips-due-salmonella-contamination
+[2026-03-23T01:52:40.410Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/made-fresh-salads-inc-recalls-assorted-flavors-cream-cheese-because-possible-health-risk
+[2026-03-23T01:52:40.410Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/shaman-botanicals-llc-issues-voluntary-nationwide-recall-alkaloids-chewable-tablets-white-vein-due
+[2026-03-23T01:52:40.411Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/go-raw-llc-issues-voluntary-recall-single-lot-quest-cat-food-chicken-recipe-freeze-dried-nuggets-due
+[2026-03-23T01:52:40.411Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/if-copack-llc-dba-initiative-foods-recalls-tippy-toes-brand-apple-pear-banana-because-possible
+[2026-03-23T01:52:40.411Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/ambrosia-brands-llc-recalls-rosabella-moringa-capsules-because-possible-health-risk
+[2026-03-23T01:52:40.411Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/updated-company-announcement-august-28-2025-recall-announcement
+[2026-03-23T01:52:40.412Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/slade-gorton-co-inc-recalls-one-lot-wellsley-farms-farm-raised-atlantic-salmon-sold-bjs-wholesale
+[2026-03-23T01:52:40.412Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/junebar-issues-allergy-alert-undeclared-milk-and-soy-chocolate-cherry-and-peanut-butter-chocolate
+[2026-03-23T01:52:40.412Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/trividia-health-inc-initiates-labeling-correction-all-true-metrixr-blood-glucose-monitoring-systems
+[2026-03-23T01:52:40.413Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/prime-food-processing-llc-issues-safety-warning-regarding-uneviscerated-dried-croaker-fish
+[2026-03-23T01:52:40.413Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/mondelez-global-llc-expands-voluntary-recall-2-skus-chips-ahoy-baked-bites-brookie-usa-previous
+[2026-03-23T01:52:40.413Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/akkarco-llc-recalls-product-due-possible-health-risk
+[2026-03-23T01:52:40.415Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/neogen-issues-voluntary-nationwide-recall-neogenrvet-hycoatr-hyaluronate-sodium-sterile-solution
+[2026-03-23T01:52:40.415Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/gerber-products-company-announces-voluntary-recall-limited-batches-arrowroot-biscuits-out-abundance
+[2026-03-23T01:52:40.415Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/why-not-natural-houston-texas-recalling-its-why-not-natural-organic-moringa-green-superfood-because
+[2026-03-23T01:52:40.415Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/koikoi-trading-inc-issues-allergy-alert-undeclared-wheat-and-sesame-fu-zhou-fish-ball-200g-400g-5lb
+[2026-03-23T01:52:40.415Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/ikm-recalls-product-because-possible-health-risk
+[2026-03-23T01:52:40.416Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/navitas-organics-voluntarily-recalls-select-lots-8oz-organic-chia-seeds-because-possible-health-risk
+[2026-03-23T01:52:40.416Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/superfoods-inc-dba-live-it-recalls-live-it-super-greens-because-possible-health-risk
+[2026-03-23T01:52:40.416Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/tri-union-seafoods-identifies-additional-quantities-recalled-genovar-tuna-limited-retailers-due
+[2026-03-23T01:52:40.416Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/olympus-expands-voluntary-recall-vizishot-2-flex-19g-ebus-tbna-needles
+[2026-03-23T01:52:40.416Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/spring-mulberry-expands-voluntary-recall-select-chocolate-bars-due-possible-salmonella-contamination
+[2026-03-23T01:52:40.416Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/abbott-initiates-medical-device-correction-certain-freestyle-librer-3-and-freestyle-libre-3-plus
+[2026-03-23T01:52:40.417Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/ambriola-company-issues-recall-cheese-products-because-listeria-health-risk
+[2026-03-23T01:52:40.417Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/diva-fam-inc-announces-voluntary-recall-sea-moss-gel-superfood-products-due-possible-health-risk
+[2026-03-23T01:52:40.417Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/vh-foods-inc-dba-outside-breadbox-issues-allergy-alert-undeclared-egg-and-milk-bread-crumbs
+[2026-03-23T01:52:40.417Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/food-business-karison-foods-snacks-inc-recalls-panjiri-alsi-pinni-punjabi-pinni-besan-laddoo-and-no
+[2026-03-23T01:52:40.417Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/spring-mulberry-issues-voluntary-recall-mint-leaf-date-sweetened-chocolate-bar-due-possible
+[2026-03-23T01:52:40.418Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/anthony-trinh-123herbals-llc-123herbalscom-issues-nationwide-recall-silintan-capsules-due-presence
+[2026-03-23T01:52:40.418Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/herbsforever-llc-issues-allergy-alert-undeclared-wheat-herbsforever-brand-dietary-supplements
+[2026-03-23T01:52:40.418Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/modern-warrior-recalls-modern-warrior-ready-dietary-supplement-due-undeclared-14-dmaa-and-aniracetam
+[2026-03-23T01:52:40.418Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/gusto-group-inc-recalls-shrimp-paste-klong-kone-454-g-1-lbs-and-910-g-2-lbs-because-possible-health
+[2026-03-23T01:52:40.419Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/primavera-nueva-inc-issues-voluntary-recall-select-4-count-tamales-because-possible-health-risk-0
+[2026-03-23T01:52:40.419Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/newway-import-inc-issues-allergy-alert-undeclared-wheat-preserved-mustard-soybean-oil-la-puente
+[2026-03-23T01:52:40.419Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/gold-star-distribution-inc-issues-recall-certain-fda-regulated-products-three-states-including-drugs
+[2026-03-23T01:52:40.419Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/recall-notice-willy-petes-chocolate-company-llc-harwinton-issues-recall-chocolate-bars-due-almonds
+[2026-03-23T01:52:40.419Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/atwaters-issues-allergy-alert-undeclared-tree-nut-allergen-cookie-tin-labels
+[2026-03-23T01:52:40.420Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/gregorys-foods-issues-allergy-alert-undeclared-peanuts-bag-full-cookies-white-chocolate-macadamia
+[2026-03-23T01:52:40.420Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/handelnine-global-limited-dba-navafresh-issues-nationwide-recall-rheumacare-capsules-virgo-uap
+[2026-03-23T01:52:40.420Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/direct-source-seafood-llc-recalling-frozen-raw-shrimp-because-product-may-have-become-contaminated
+[2026-03-23T01:52:40.421Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/olympus-announces-voluntary-corrective-action-single-use-ligating-device
+[2026-03-23T01:52:40.421Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/primavera-nueva-inc-issues-voluntary-recall-select-4-count-tamales-because-possible-health-risk
+[2026-03-23T01:52:40.421Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/stuffbynainax-llc-issues-voluntary-nationwide-recall-mr7-super-700000-dietary-supplement-due
+[2026-03-23T01:52:40.421Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/medinatura-new-mexico-inc-expands-voluntary-nationwide-recall-reboost-nasal-spray-and-include
+[2026-03-23T01:52:40.421Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/ukrops-homestyle-foods-announces-recall-due-undeclared-allergen
+[2026-03-23T01:52:40.422Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/town-food-service-equipment-co-inc-recalls-aluminum-saucepans-because-possible-health-risk
+[2026-03-23T01:52:40.422Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/south-asian-food-inc-issues-allergy-alert-undeclared-peanuts-bengal-king-jhal-chanachur
+[2026-03-23T01:52:40.422Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/lunds-byerlys-voluntary-recalls-lb-monster-cookies-due-incorrect-labeling
+[2026-03-23T01:52:40.422Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/cargill-conducts-voluntary-recall-single-lot-nutrenar-country-feedsr-cracked-corn-livestock-due
+[2026-03-23T01:52:40.423Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/medinatura-new-mexico-inc-issues-voluntary-nationwide-recall-reboost-nasal-spray-due-microbial
+[2026-03-23T01:52:40.423Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/bakkavor-usa-issues-allergy-alert-16-ounce-meal-simple-red-lentil-dal-soup-due-undeclared-milk
+[2026-03-23T01:52:40.423Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/lil-turtles-issues-voluntary-recall-due-undeclared-milk-allergen
+[2026-03-23T01:52:40.423Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/tbc-distribution-corporate-recalls-lucky-foods-brand-cinnamon-powder-because-possible-health-risk
+[2026-03-23T01:52:40.423Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/mellace-family-brands-california-inc-recalls-wegmans-deluxe-mixed-nuts-unsalted-34-oz-and-115-oz
+[2026-03-23T01:52:40.423Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/vetoquinol-usa-inc-recalls-six-lots-folltropin-injectable-kits-cattle-due-presence-particulate
+[2026-03-23T01:52:40.424Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/mondelez-global-llc-conducts-limited-voluntary-recall-1-sku-ritz-peanut-butter-cracker-sandwiches
+[2026-03-23T01:52:40.424Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/wegmans-recalls-locatelli-grated-pecorino-romano-cheese-due-possible-health-risk
+[2026-03-23T01:52:40.424Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/prairie-farms-announces-recall-prairie-farms-gallon-fat-free-milk
+[2026-03-23T01:52:40.424Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/mamtakim-inc-recalls-dried-whole-smelts-salted-korushka-because-possible-health-risk
+[2026-03-23T01:52:40.424Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/supreme-deli-llc-voluntarily-recalls-boars-head-pecorino-romano-cheese-because-possible-health-risk
+[2026-03-23T01:52:40.425Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/prime-food-processing-llc-issues-allergy-alert-undeclared-milk-lava-bun-w-salted-egg-yolk-and-lava
+[2026-03-23T01:52:40.425Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/shata-traders-inc-recalls-chef-brand-milk-pan-24cm-because-possible-health-risk
+[2026-03-23T01:52:40.425Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/jenis-splendid-ice-cream-voluntarily-recalls-passion-fruit-dreamsicle-ice-cream-bars-due-undeclared
+[2026-03-23T01:52:40.425Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/mangalm-llc-recalls-tops-mixed-fruit-jam-and-tops-strawberry-jam-product-because-possible-health
+[2026-03-23T01:52:40.425Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/africa-imports-issues-voluntary-recall-organic-moringa-leaf-powder-due-potential-salmonella
+[2026-03-23T01:52:40.426Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/byheart-updates-information-regarding-voluntary-recall-all-batches-byheart-whole-nutrition-infant
+[2026-03-23T01:52:40.426Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/moonlight-companies-voluntarily-recalls-california-grown-conventional-yellow-and-white-peaches
+[2026-03-23T01:52:40.426Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/response-broader-fda-investigation-byheart-initiates-voluntary-recall-two-batches-infant-formula
+[2026-03-23T01:52:40.426Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/fresenius-kabi-issues-voluntary-nationwide-recall-three-lots-famotidine-injection-usp-20-mg-2-ml-10
+[2026-03-23T01:52:40.426Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/african-food-wheels-inc-recalls-oven-dried-fish-scomberomorus-cavalla-because-possible-health-risk
+[2026-03-23T01:52:40.426Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/blue-oven-bakery-inc-issues-voluntary-recall-due-undeclared-milk-allergens-their-english-muffin
+[2026-03-23T01:52:40.427Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/siluetaya-recalls-tejocote-product-because-possible-health-risk
+[2026-03-23T01:52:40.427Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/dreyers-grand-ice-cream-inc-issues-allergy-alert-undeclared-wheat-haagen-dazs-chocolate-dark
+[2026-03-23T01:52:40.427Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/otsuka-icu-medical-llc-issues-voluntary-nationwide-recall-20-meq-potassium-chloride-injection-due
+[2026-03-23T01:52:40.427Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/first-and-last-bakery-llc-recalls-first-and-last-brand-tomato-sauce-products-because-possible-health
+[2026-03-23T01:52:40.427Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/olympus-issues-voluntary-labeling-update-bronchoscopes-used-laser-therapy-equipment
+[2026-03-23T01:52:40.428Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/vanguard-enterprises-llc-dba-bedrock-mfg-recalls-monarch-premium-kratom-powder-because-possible
+[2026-03-23T01:52:40.428Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/new-hoque-sons-inc-issues-alert-uneviscerated-dry-ghoinnya-fish
+[2026-03-23T01:52:40.428Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/purity-products-announces-recall-dietary-supplement-my-bladder-because-possible-health-risk
+[2026-03-23T01:52:40.428Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/teasdale-latin-foods-issues-allergy-alert-potential-undeclared-milk-certain-taco-dinner-kits
+[2026-03-23T01:52:40.428Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/hampton-farms-recalls-mixed-nuts-roasted-unsalted-8-oz-and-mixed-nuts-roasted-and-salted-8-oz
+[2026-03-23T01:52:40.429Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/pacific-international-marketing-recalls-fresh-italian-parsley-because-possible-health-risk
+[2026-03-23T01:52:40.429Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/twin-sisters-creamery-recalls-whatcom-blue-farmhouse-peppercorn-and-mustard-seed-cheese-products
+[2026-03-23T01:52:40.429Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/peterson-company-recalls-twin-sisters-creamery-brand-whatcom-blue-and-farmhouse-cheese-products
+[2026-03-23T01:52:40.429Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/ea-sween-company-announces-product-recall-due-choking-hazard
+[2026-03-23T01:52:40.429Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/haitai-inc-recalls-haetae-ht-brand-cinnamon-powder-8-oz-possible-risk
+[2026-03-23T01:52:40.430Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/nats-nuts-issues-allergy-alert-potential-undeclared-cashews-nats-nuts-brand-cinnamon-whiskey-pecans
+[2026-03-23T01:52:42.815Z] Reading DataTable page 2...
+[2026-03-23T01:52:47.843Z] Rows found on page 2: 100
+[2026-03-23T01:52:47.844Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/kenz-henz-recalls-pastured-raised-eggs-because-possible-health-risk
+[2026-03-23T01:52:47.844Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/jodys-inc-recalls-cabot-creamery-sea-salt-caramel-cheddar-popcorn-due-undeclared-peanuts-corrected
+[2026-03-23T01:52:47.845Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/aquastar-usa-corp-recalls-shrimp-because-possible-health-risk
+[2026-03-23T01:52:47.845Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/bens-originaltm-issues-voluntary-recall-select-bens-original-long-grain-white-whole-grain-brown-and
+[2026-03-23T01:52:47.845Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/correction-foodynamics-recalls-raw-dog-barkery-bellepepper-cats-and-kanu-pets-brand-freeze-dried-pet
+[2026-03-23T01:52:47.845Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/tai-foong-usa-issues-allergy-alert-undeclared-shrimp-fusia-asian-inspirations-veggie-spring-rolls
+[2026-03-23T01:52:47.846Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/durra-ground-cinnamon-100-g-because-possible-health-risk
+[2026-03-23T01:52:47.846Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/trividia-health-inc-initiates-voluntary-recall-limited-number-true-metrixr-blood-glucose-meters
+[2026-03-23T01:52:47.846Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/giant-eagle-recalls-smoked-mozzarella-pasta-salad-due-potential-listeria-monocytogenes-contamination
+[2026-03-23T01:52:47.846Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/best-buy-bones-inc-recalls-natures-own-pet-chews-bully-bites-because-possible-salmonella-health-risk
+[2026-03-23T01:52:47.847Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/update-albertsons-companies-voluntarily-recalls-select-store-made-deli-items-containing-bowtie-pasta
+[2026-03-23T01:52:47.847Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/demers-food-group-voluntarily-recalls-select-scott-jons-shrimp-scampi-linguini-bowls-due-ingredient
+[2026-03-23T01:52:47.847Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/new-age-international-recalls-signature-enoki-mushrooms-due-potential-health-risk
+[2026-03-23T01:52:47.847Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/sea-port-products-corp-recalling-raw-frozen-easy-peel-white-shrimp-because-product-may-have-become
+[2026-03-23T01:52:47.848Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/albertsons-companies-voluntarily-recalls-select-store-made-deli-items-containing-bowtie-pasta
+[2026-03-23T01:52:47.848Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/georgia-nut-company-gnc-third-party-manufacturer-tru-fru-llc-issues-voluntary-recall-specific
+[2026-03-23T01:52:47.848Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/wholesale-produce-supply-minneapolis-minnesota-recalling-fresh-cutprocessed-cantaloupe-because-it
+[2026-03-23T01:52:47.848Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/gansu-zhaofeng-agricultural-development-co-ltd-voluntarily-recalling-its-dried-bean-curd-due
+[2026-03-23T01:52:47.848Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/slr-food-distribution-inc-recalls-wise-wife-brand-ground-cinnamon-because-possible-health-risk
+[2026-03-23T01:52:47.849Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/aquastar-usa-corp-recalls-aquastar-raw-shrimp-skewers-because-possible-health-risk
+[2026-03-23T01:52:47.849Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/goot-essa-recalls-der-mutterschaf-cheese-because-possible-health-risk
+[2026-03-23T01:52:47.849Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/sprout-organics-expands-voluntary-recall-sweet-potato-apple-and-spinach-include-additional-lot-codes
+[2026-03-23T01:52:47.849Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/updated-release-southwind-foods-llc-recalls-frozen-shrimp-because-possible-health-risk-0
+[2026-03-23T01:52:47.850Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/olympus-issues-voluntary-recall-specific-lots-vizishot-2-flex-19g-ebus-tbna-needles
+[2026-03-23T01:52:47.850Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/aquastar-usa-corp-recalls-kroger-frozen-raw-ez-peel-kroger-mercado-frozen-cooked-shrimp-and-aquastar
+[2026-03-23T01:52:47.850Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/haifa-smoked-fish-recalls-cold-smoked-salmon-and-cold-smoked-seabass-due-possible-health-risk
+[2026-03-23T01:52:47.850Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/sprout-organics-voluntarily-recalls-one-lot-sweet-potato-apple-and-spinach-due-possible-health-risk
+[2026-03-23T01:52:47.850Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/bd-provides-update-voluntary-recall-certain-bd-alaristm-pump-infusion-sets
+[2026-03-23T01:52:47.851Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/gooder-foods-issues-allergy-alert-undeclared-milk-and-cashews-goodles-vegan-believin-plant-based
+[2026-03-23T01:52:47.851Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/gina-marie-bakery-waterbury-issues-recall-cookies-due-undeclared-almonds-sesame-and-food-dyes
+[2026-03-23T01:52:47.852Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/chetak-llc-group-expands-voluntary-product-recall-include-additional-frozen-vegetable-and-fruit
+[2026-03-23T01:52:47.852Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/middlefield-original-cheese-co-op-recalls-organic-gouda-colored-cheddar-mozzarellaprovolone-pepper
+[2026-03-23T01:52:47.852Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/ice-cream-factory-issues-allergy-alert-undeclared-almond-vanilla-gnutt-ice-cream
+[2026-03-23T01:52:47.853Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/hans-kissle-llc-issues-allergy-alert-undeclared-wheat-allergen-hans-kissle-red-potato-bliss-salad-0
+[2026-03-23T01:52:47.853Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/updated-release-southwind-foods-llc-recalls-frozen-shrimp-because-possible-health-risk
+[2026-03-23T01:52:47.854Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/green-lumber-holding-llc-issues-consumer-alert-counterfeit-products-following-fda-findings
+[2026-03-23T01:52:47.854Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/aquastar-usa-corp-recalls-kroger-mercado-frozen-cooked-shrimp-because-possible-health-risk
+[2026-03-23T01:52:47.855Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/dermarite-industries-expands-voluntary-nationwide-recall-due-potential-burkholderia-cepacia
+[2026-03-23T01:52:47.855Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/aquastar-usa-corp-recalls-cocktail-shrimp-6oz-because-possible-health-risk
+[2026-03-23T01:52:47.855Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/unichem-pharmaceuticals-usa-inc-issues-voluntary-nationwide-recall-cyclobenzaprine-hydrochloride
+[2026-03-23T01:52:47.855Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/country-eggs-llc-recalls-large-brown-cage-free-sunshine-yolks-because-possible-health-risk
+[2026-03-23T01:52:47.856Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/viva-raw-issues-voluntary-recall-two-lots-dog-and-cat-foods-due-salmonella-and-listeria
+[2026-03-23T01:52:47.856Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/southwind-foods-llc-recalls-frozen-shrimp-because-possible-health-risk
+[2026-03-23T01:52:47.856Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/b-braun-medical-issues-voluntary-nationwide-recall-lactated-ringers-injection-usp-1000-ml-and-09
+[2026-03-23T01:52:47.856Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/middlefield-original-cheese-co-op-recalls-100-grass-fed-pepper-jack-cheese-and-horseradish-flavored
+[2026-03-23T01:52:47.857Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/tandem-diabetes-care-issues-voluntary-medical-device-correction-select-tslim-x2-insulin-pumps
+[2026-03-23T01:52:47.857Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/max-mobility-permobil-announces-worldwide-expanded-recall-and-removal-all-speedcontrol-dials-market
+[2026-03-23T01:52:47.857Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/dollar-general-announces-voluntary-recall-clover-valleyr-instant-coffee-due-potential-presence-glass
+[2026-03-23T01:52:47.857Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/dermarite-industries-issues-voluntary-nationwide-recall-dermakleen-dermasarra-kleenfoam-and
+[2026-03-23T01:52:47.857Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/hans-kissle-llc-issues-allergy-alert-undeclared-wheat-allergen-hans-kissle-red-potato-bliss-salad
+[2026-03-23T01:52:47.858Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/doehler-dry-ingredient-solutions-llc-recalls-members-mark-freeze-dried-fruit-variety-pack-listeria
+[2026-03-23T01:52:47.858Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/high-noon-announces-recall-its-vodka-seltzer-beach-pack-12-pack-due-inclusion-celsiusr-astro-vibe-tm
+[2026-03-23T01:52:47.858Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/albertsons-companies-stores-arkansas-louisiana-oklahoma-and-texas-voluntarily-expands-recall-select
+[2026-03-23T01:52:47.858Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/hillside-orchard-farms-recalls-various-fruit-breads-fritters-due-undeclared-egg
+[2026-03-23T01:52:47.858Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/tropicale-foods-recalls-certain-helados-mexico-and-la-michoacana-products-due-undeclared-milk
+[2026-03-23T01:52:47.859Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/jewel-osco-stores-illinois-indiana-and-iowa-voluntarily-recalls-select-items-containing-tuna-salad
+[2026-03-23T01:52:47.859Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/albertsons-companies-stores-arkansas-louisiana-oklahoma-and-texas-voluntarily-recalls-select-items
+[2026-03-23T01:52:47.859Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/nirwana-foods-issues-allergy-alert-undeclared-sulfites-golden-raisin-28oz-pouch-label
+[2026-03-23T01:52:47.859Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/jalux-americas-inc-dba-jsweets-issues-allergy-alert-undeclared-tree-nuts-and-milk-lespoir-brand
+[2026-03-23T01:52:47.859Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/bd-issues-update-voluntary-global-recall-alaristm-and-bd-alaristm-pump-modules-serviced-legacy-bezel
+[2026-03-23T01:52:47.860Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/chetak-llc-group-recalls-product-because-possible-health-risk
+[2026-03-23T01:52:47.860Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/update-sandoz-inc-issues-voluntary-nationwide-recall-expansion-one-additional-lot-cefazolin
+[2026-03-23T01:52:47.860Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/krasniy-oktyabr-inc-usa-issues-alert-eviscerate-dry-salted-vobla-aral-silver
+[2026-03-23T01:52:47.860Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/nostrum-laboratories-inc-issues-voluntary-nationwide-recall-sucralfate-tablets-usp-1-gram-within
+[2026-03-23T01:52:47.861Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/updated-release-hartford-bakery-inc-issues-allergy-alert-undeclared-hazelnuts-lewis-bake-shop
+[2026-03-23T01:52:47.861Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/yocrunchr-products-voluntarily-recalled-danone-us-due-potential-presence-plastic-pieces-dome-topper
+[2026-03-23T01:52:47.861Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/world-market-recalls-emek-spread-pistachio-cacao-cream-kadayif-due-salmonella-contamination
+[2026-03-23T01:52:47.861Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/llk-trading-inc-recalls-needle-mushrooms-because-possible-health-risk
+[2026-03-23T01:52:47.861Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/wiet-peeters-farm-products-limited-recalls-aunt-mids-fresh-sliced-mushrooms-peeters-mushroom-farm
+[2026-03-23T01:52:47.861Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/hartford-bakery-inc-issues-allergy-alert-undeclared-hazelnuts-lewis-bake-shop-artisan-style-12-loaf
+[2026-03-23T01:52:47.862Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/sheehan-brothers-vending-issues-voluntary-recall-due-undeclared-sesame-allergen
+[2026-03-23T01:52:47.862Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/chs-inc-recalls-payback-champion-lamb-feed-due-elevated-copper-health-risk
+[2026-03-23T01:52:47.862Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/natureen-international-inc-recalls-wei-chuan-dried-black-fungus-slice-25oz-because-possible-health
+[2026-03-23T01:52:47.862Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/mondelez-global-llc-conducts-us-voluntary-recall-four-carton-sizes-ritz-peanut-butter-cracker
+[2026-03-23T01:52:47.862Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/mellace-family-brands-california-inc-issues-allergy-alert-undeclared-milk-allergen-wegmans-semi
+[2026-03-23T01:52:47.863Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/sandoz-inc-issues-voluntary-nationwide-recall-one-lot-cefazolin-injection-due-product-mispackaging
+[2026-03-23T01:52:47.863Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/face-rock-creamery-voluntarily-recalls-vampire-slayer-garlic-cheddar-curds-because-possible-health
+[2026-03-23T01:52:47.863Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/international-foodsource-llc-issues-allergy-alert-nonpareil-semi-sweet-chocolate-christmas-seeds
+[2026-03-23T01:52:47.863Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/lipari-foods-issues-allergy-alert-undeclared-milk-dark-chocolate-nonpareils
+[2026-03-23T01:52:47.863Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/sabores-bakery-dba-sabores-tu-mesa-issues-allergy-alert-undeclared-milk-mousse-desserts
+[2026-03-23T01:52:47.864Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/medtech-products-inc-issues-nationwide-recall-little-remediesr-honey-cough-syrup-due-microbial
+[2026-03-23T01:52:47.864Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/weaver-nut-company-inc-issues-allergy-alert-undeclared-milk-chocolate-nonpareils
+[2026-03-23T01:52:47.864Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/fuentes-farms-llc-recalls-product-because-possible-health-risk
+[2026-03-23T01:52:47.864Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/meijer-issues-recall-frederiks-dark-chocolate-almonds-due-presence-undeclared-cashews
+[2026-03-23T01:52:47.864Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/vita-warehouse-corp-issues-allergy-alert-undeclared-peanut-allergen-aldi-welbyr-berkley-jensenr-and
+[2026-03-23T01:52:47.865Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/turkana-food-inc-recall-flora-dried-apricots-undeclared-sulfites-product-labeling-because-possible
+[2026-03-23T01:52:47.865Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/medtronic-announces-voluntary-recall-select-newporttm-ht70-and-newporttm-ht70-plus-ventilators-and
+[2026-03-23T01:52:47.865Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/p-east-trading-corp-distributors-issues-alert-uneviscerated-salted-smoked-split-herring-due
+[2026-03-23T01:52:47.866Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/bornstein-seafoods-inc-recalls-cooked-peeled-ready-eat-coldwater-shrimp-meat-because-possible-health
+[2026-03-23T01:52:47.866Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/august-egg-company-recalls-shell-eggs-because-possible-health-risk
+[2026-03-23T01:52:47.866Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/church-dwight-co-inc-issues-voluntary-nationwide-recall-zicamr-cold-remedy-nasal-swabs-zicamr-nasal
+[2026-03-23T01:52:47.866Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/tgd-cuts-llc-initiated-voluntary-recall-cucumber-bedner-growers-inc-which-had-potential-be
+[2026-03-23T01:52:47.867Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/firehook-virginia-issues-allergy-alert-undeclared-sesame-classic-sea-salt-crackers
+[2026-03-23T01:52:47.867Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/amneal-pharmaceutical-llc-issues-nationwide-recall-sulfamethoxazole-trimethoprim-tablets-usp-400
+[2026-03-23T01:52:47.867Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/camerican-international-inc-issues-allergy-alert-undeclared-milk-aldi-brand-casa-mamita-churro-bites
+[2026-03-23T01:52:47.867Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/homegrown-family-foods-issues-allergy-alert-undeclared-milk-shore-lunch-oven-style-breader-batter
+[2026-03-23T01:52:47.868Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/isabelles-kitchen-inc-recalls-refrigerated-deli-salads-containing-fresh-cucumbers-because-possible
+[2026-03-23T01:52:47.868Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/supreme-service-solutions-llc-voluntarily-recalls-supreme-vegetable-products-because-possible-health-0
+[2026-03-23T01:52:47.868Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/coastal-companies-issues-voluntary-recall-items-fresh-start-cucumbers-due-potential-salmonella
+[2026-03-23T01:52:47.869Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/santa-monica-seafood-voluntarily-recalls-atlantic-salmon-portions-seafood-stuffing-due-undeclared
+[2026-03-23T01:52:49.759Z] Reading DataTable page 3...
+[2026-03-23T01:52:54.778Z] Rows found on page 3: 100
+[2026-03-23T01:52:54.779Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/walmart-inc-recalls-marketside-fresh-cut-cucumber-slices-select-texas-stores-because-possible-health
+[2026-03-23T01:52:54.780Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/albertsons-companies-voluntarily-recalls-three-store-made-deli-items-containing-recalled-cucumber
+[2026-03-23T01:52:54.782Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/spectrum-brands-pet-llc-recalls-single-lot-tetra-reptomin-reptile-food-aquatic-turtles-because
+[2026-03-23T01:52:54.783Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/jfe-franchising-inc-recalls-limited-number-cucumber-products-because-possible-health-risk-0
+[2026-03-23T01:52:54.786Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/umary-usacom-issues-voluntary-nationwide-recall-unavy-acido-hialuronico-caplets-and-umovy-acido
+[2026-03-23T01:52:54.786Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/big-y-foods-recalls-made-order-subs-wraps-and-paninis-sold-massachusetts-and-connecticut-because
+[2026-03-23T01:52:54.786Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/ukrops-homestyle-foods-announces-recall-due-possible-health-risk
+[2026-03-23T01:52:54.787Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/publix-voluntarily-recalls-greenwise-pear-kiwi-spinach-pea-baby-food-pouches-due-lead
+[2026-03-23T01:52:54.787Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/new-grains-gluten-free-bakery-issues-allergy-alert-undeclared-eggs-tree-nuts-soy-and-milk-bakery
+[2026-03-23T01:52:54.787Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/pennrose-farms-issues-recall-whole-cucumbers-because-possible-health-risk
+[2026-03-23T01:52:54.787Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/element-112-llc-dba-madelines-patisserie-issues-allergy-alert-undeclared-wheat-croissants-and
+[2026-03-23T01:52:54.788Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/bedner-growers-inc-recalls-cucumbers-because-possible-health-risk
+[2026-03-23T01:52:54.788Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/south-asian-food-inc-issues-allergy-alert-undeclared-peanuts-bengal-king-family-pack-vegetable
+[2026-03-23T01:52:54.788Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/ariana-sweets-inc-issues-allergy-alert-undeclared-sesame-and-wheat-afghani-corn-bread-doda
+[2026-03-23T01:52:54.789Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/naturemills-us-inc-issues-allergy-alert-undeclared-wheat-milk-and-sesame-rice-mixes-soups-spice
+[2026-03-23T01:52:54.789Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/knockro-issues-allergy-alert-undeclared-almonds-bonya-yogurt-parfaits
+[2026-03-23T01:52:54.789Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/fresh-ready-foods-voluntarily-recalls-ready-eat-sandwiches-and-snack-items-sold-arizona-california
+[2026-03-23T01:52:54.789Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/new-grains-gluten-free-bakery-issues-allergy-alert-undeclared-eggs-soy-and-milk-bakery-products
+[2026-03-23T01:52:54.790Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/advantage-health-matters-inc-recalls-organic-jumbo-pumpkin-seeds-because-possible-health-risk
+[2026-03-23T01:52:54.790Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/enshishixiangnishangmaoyouxiangongsi-issues-voluntary-nationwide-recall-endurance-boost-horny-goat
+[2026-03-23T01:52:54.790Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/new-england-village-foods-issues-allergy-alert-undeclared-almonds-and-sesame-19th-hole-snack-mix
+[2026-03-23T01:52:54.791Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/east-trading-inc-issues-alert-undeclared-sulfites-licorice-plum
+[2026-03-23T01:52:54.791Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/vietti-food-group-issues-allergy-alert-undeclared-soy-15-oz-yellowstone-brown-sugar-molasses-baked
+[2026-03-23T01:52:54.791Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/ray-mascari-inc-recalls-4-count-vine-ripe-tomatoes-because-possible-health-risk
+[2026-03-23T01:52:54.791Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/williams-farms-repack-llc-recalls-tomatoes-due-possible-salmonella-contamination
+[2026-03-23T01:52:54.792Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/food-co-issues-allergy-alert-undeclared-milk-monkfish-liver-ankimo
+[2026-03-23T01:52:54.792Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/trader-joes-sesame-miso-salad-salmon-voluntarily-recalled-due-undeclared-milk-allergen
+[2026-03-23T01:52:54.792Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/health-fixer-issues-voluntary-nationwide-recall-male-ultra-malextra-electro-buzz-ultra-armor-and
+[2026-03-23T01:52:54.793Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/mauna-loa-macadamia-nut-company-llc-issues-allergy-alert-undeclared-almonds-and-cashews-mauna-loa
+[2026-03-23T01:52:54.793Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/new-england-village-foods-issues-allergy-alert-undeclared-almonds-19th-hole-snack-mix
+[2026-03-23T01:52:54.793Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/cronus-pharma-llc-initiating-voluntary-recall-dexasedtm-aspen-and-dexmedvettm-cronus-pharma-llc
+[2026-03-23T01:52:54.793Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/amneal-pharmaceutical-llc-issues-nationwide-recall-ropivacaine-hydrochloride-injection-usp
+[2026-03-23T01:52:54.794Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/recall-reminder-gerber-products-company-previously-recalled-and-discontinued-all-batches-gerberr
+[2026-03-23T01:52:54.794Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/fda-classifies-qapel-medical-incs-worldwide-medical-device-recall-and-discontinuation-its-072
+[2026-03-23T01:52:54.794Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/harvest-nyc-inc-recalls-enoki-mushroom-due-possible-health-risk
+[2026-03-23T01:52:54.794Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/may-flower-international-inc-issue-allergy-alert-undeclared-wheat-beijing-soybean-paste
+[2026-03-23T01:52:54.795Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/supplement-manufacturing-partner-inc-issues-recall-dorado-nutrition-brand-spermidine-supplement-10mg
+[2026-03-23T01:52:54.795Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/blue-ridge-beef-issues-voluntary-recall-blue-ridge-beef-puppy-mix-and-kitten-mix-due-salmonella
+[2026-03-23T01:52:54.795Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/duda-farm-fresh-foods-inc-emite-aviso-para-1587-cajas-de-marketside-4in16-oz-bundle-pack-por-posible
+[2026-03-23T01:52:54.796Z] Processing detail page: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/duda-farm-fresh-foods-inc-issues-advisory-1587-cases-4-in16-oz-bundle-marketside-celery-sticks
+[2026-03-23T01:52:55.249Z] Slug: celery-sticks-marketside-recall-2025-2
+[2026-03-23T01:52:55.250Z] Folder: 240-celery-sticks-marketside-recall-2025-2
+[2026-03-23T01:53:05.980Z] Delay 7211ms → after rewrite
+[2026-03-23T01:53:16.750Z] Delay 7449ms → after consumer action generation
+[2026-03-23T01:53:24.601Z] Saved image: 240-celery-sticks-marketside-recall-2025-2/04b59f7522d7732838a4614627814a7143a898e06d956317ab90f20dfd73cbb7.webp
+[2026-03-23T01:53:24.602Z] Delay 7871ms → between images
+[2026-03-23T01:53:33.136Z] Saved image: 240-celery-sticks-marketside-recall-2025-2/7f1ea826d34bf9ee839209f5c69f182c0e03289ea095fdd6ca04e3468fb15b4d.webp
+[2026-03-23T01:53:33.137Z] Delay 6071ms → between images
+[2026-03-23T01:53:39.220Z] Progress saved. recalls=240 imageMap=843
+[2026-03-23T01:53:39.221Z] Saved article 1/100 this run.
+[2026-03-23T01:53:39.239Z] Delay 6606ms → after detail complete
+[2026-03-23T01:53:45.854Z] Processing detail page: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/trophy-nut-co-issues-allergy-alert-due-undeclared-cashews-heinens-honey-roasted-peanuts
+[2026-03-23T01:53:46.240Z] Slug: honey-roasted-peanuts-heinen-s-recall-2025
+[2026-03-23T01:53:46.240Z] Folder: 241-honey-roasted-peanuts-heinen-s-recall-2025
+[2026-03-23T01:53:55.644Z] Delay 7435ms → after rewrite
+[2026-03-23T01:54:05.190Z] Delay 6698ms → after consumer action generation
+[2026-03-23T01:54:12.037Z] Saved image: 241-honey-roasted-peanuts-heinen-s-recall-2025/774efb4c55d2263196fe4b7c87383bcb1508aeff8dc5231c16d151b3bf270cb9.webp
+[2026-03-23T01:54:12.038Z] Delay 7579ms → between images
+[2026-03-23T01:54:19.638Z] Progress saved. recalls=241 imageMap=844
+[2026-03-23T01:54:19.639Z] Saved article 2/100 this run.
+[2026-03-23T01:54:19.653Z] Delay 5975ms → after detail complete
+[2026-03-23T01:54:25.635Z] Processing detail page: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/caraluzzis-markets-issues-allergy-alert-undeclared-egg-caraluzzis-italian-style-seafood-burger-8-oz
+[2026-03-23T01:54:26.280Z] Slug: italian-style-seafood-burgers-caraluzzi-s-recall-2025
+[2026-03-23T01:54:26.281Z] Folder: 242-italian-style-seafood-burgers-caraluzzi-s-recall-2025
+[2026-03-23T01:54:35.881Z] Delay 5760ms → after rewrite
+[2026-03-23T01:54:44.366Z] Delay 7189ms → after consumer action generation
+[2026-03-23T01:54:51.690Z] Saved image: 242-italian-style-seafood-burgers-caraluzzi-s-recall-2025/2f54f99ddf532c2fc242c12266ff9b428c1878c3d1b2d173dcb843d96d5b0d48.webp
+[2026-03-23T01:54:51.691Z] Delay 5122ms → between images
+[2026-03-23T01:54:56.466Z] CTRL+C received. Exiting.
+[2026-03-23T01:56:14.115Z] Loaded existing recalls: 241, unique sourceUrls: 241
+[2026-03-23T01:56:14.117Z] Next ascending sortOrder: 242
+[2026-03-23T01:56:14.348Z] Opening FDA recalls listing...
+[2026-03-23T01:56:19.965Z] Delay 5991ms → after initial listing load
+[2026-03-23T01:56:27.157Z] Set DataTable page size to 100 and Terminated Recall filter to No
+[2026-03-23T01:56:27.158Z] Reading DataTable page 1...
+[2026-03-23T01:56:32.189Z] Rows found on page 1: 100
+[2026-03-23T01:56:32.190Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/cardinal-health-issues-voluntary-nationwide-recall-webcoltm-large-alcohol-prep-pad
+[2026-03-23T01:56:32.191Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/mama-grande-tortilla-factory-issues-allergy-alert-undeclared-wheat-and-soy-gorditas-de-azucar-and
+[2026-03-23T01:56:32.191Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/pure-vitamins-and-natural-supplements-llc-issues-voluntary-nationwide-recall-honey-products-due
+[2026-03-23T01:56:32.192Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/insulet-initiates-voluntary-medical-device-correction-certain-omnipodr-5-pods-us
+[2026-03-23T01:56:32.192Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/lidl-us-issues-allergy-alert-undeclared-hazelnuts-favorina-chocolate-ladybugs-german-style-nougat
+[2026-03-23T01:56:32.193Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/primal-herbs-issues-voluntary-nationwide-recall-primal-herbs-volume-due-undeclared-sildenafil
+[2026-03-23T01:56:32.193Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/frito-lay-issues-voluntary-allergy-alert-undeclared-milk-miss-vickies-spicy-dill-pickle-potato-chips
+[2026-03-23T01:56:32.194Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/usa-less-co-recalling-rhino-choco-vip-10x-due-undeclared-tadalafil
+[2026-03-23T01:56:32.194Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/savannah-bee-company-recalls-honey-bbq-sauce-mustard-due-undeclared-wheat-and-soy
+[2026-03-23T01:56:32.194Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/go-raw-llc-expands-voluntary-recall-quest-diet-cat-food-products-due-low-thiamine-levels-and-enacts
+[2026-03-23T01:56:32.194Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/lockout-supplements-issues-voluntary-nationwide-recall-boner-bears-chocolate-syrup-due-undeclared
+[2026-03-23T01:56:32.195Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/saputo-usa-recalls-great-value-cottage-cheese-because-possible-health-risk
+[2026-03-23T01:56:32.195Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/elite-treats-llc-recalls-single-lot-chicken-chips-due-salmonella-contamination
+[2026-03-23T01:56:32.195Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/made-fresh-salads-inc-recalls-assorted-flavors-cream-cheese-because-possible-health-risk
+[2026-03-23T01:56:32.195Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/shaman-botanicals-llc-issues-voluntary-nationwide-recall-alkaloids-chewable-tablets-white-vein-due
+[2026-03-23T01:56:32.196Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/go-raw-llc-issues-voluntary-recall-single-lot-quest-cat-food-chicken-recipe-freeze-dried-nuggets-due
+[2026-03-23T01:56:32.196Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/if-copack-llc-dba-initiative-foods-recalls-tippy-toes-brand-apple-pear-banana-because-possible
+[2026-03-23T01:56:32.197Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/updated-company-announcement-august-28-2025-recall-announcement
+[2026-03-23T01:56:32.197Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/ambrosia-brands-llc-recalls-rosabella-moringa-capsules-because-possible-health-risk
+[2026-03-23T01:56:32.197Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/slade-gorton-co-inc-recalls-one-lot-wellsley-farms-farm-raised-atlantic-salmon-sold-bjs-wholesale
+[2026-03-23T01:56:32.198Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/junebar-issues-allergy-alert-undeclared-milk-and-soy-chocolate-cherry-and-peanut-butter-chocolate
+[2026-03-23T01:56:32.198Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/trividia-health-inc-initiates-labeling-correction-all-true-metrixr-blood-glucose-monitoring-systems
+[2026-03-23T01:56:32.198Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/prime-food-processing-llc-issues-safety-warning-regarding-uneviscerated-dried-croaker-fish
+[2026-03-23T01:56:32.198Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/mondelez-global-llc-expands-voluntary-recall-2-skus-chips-ahoy-baked-bites-brookie-usa-previous
+[2026-03-23T01:56:32.199Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/akkarco-llc-recalls-product-due-possible-health-risk
+[2026-03-23T01:56:32.199Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/neogen-issues-voluntary-nationwide-recall-neogenrvet-hycoatr-hyaluronate-sodium-sterile-solution
+[2026-03-23T01:56:32.199Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/koikoi-trading-inc-issues-allergy-alert-undeclared-wheat-and-sesame-fu-zhou-fish-ball-200g-400g-5lb
+[2026-03-23T01:56:32.199Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/why-not-natural-houston-texas-recalling-its-why-not-natural-organic-moringa-green-superfood-because
+[2026-03-23T01:56:32.199Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/gerber-products-company-announces-voluntary-recall-limited-batches-arrowroot-biscuits-out-abundance
+[2026-03-23T01:56:32.200Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/navitas-organics-voluntarily-recalls-select-lots-8oz-organic-chia-seeds-because-possible-health-risk
+[2026-03-23T01:56:32.200Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/ikm-recalls-product-because-possible-health-risk
+[2026-03-23T01:56:32.200Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/superfoods-inc-dba-live-it-recalls-live-it-super-greens-because-possible-health-risk
+[2026-03-23T01:56:32.200Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/tri-union-seafoods-identifies-additional-quantities-recalled-genovar-tuna-limited-retailers-due
+[2026-03-23T01:56:32.200Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/olympus-expands-voluntary-recall-vizishot-2-flex-19g-ebus-tbna-needles
+[2026-03-23T01:56:32.201Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/spring-mulberry-expands-voluntary-recall-select-chocolate-bars-due-possible-salmonella-contamination
+[2026-03-23T01:56:32.201Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/abbott-initiates-medical-device-correction-certain-freestyle-librer-3-and-freestyle-libre-3-plus
+[2026-03-23T01:56:32.201Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/ambriola-company-issues-recall-cheese-products-because-listeria-health-risk
+[2026-03-23T01:56:32.201Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/spring-mulberry-issues-voluntary-recall-mint-leaf-date-sweetened-chocolate-bar-due-possible
+[2026-03-23T01:56:32.201Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/food-business-karison-foods-snacks-inc-recalls-panjiri-alsi-pinni-punjabi-pinni-besan-laddoo-and-no
+[2026-03-23T01:56:32.202Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/diva-fam-inc-announces-voluntary-recall-sea-moss-gel-superfood-products-due-possible-health-risk
+[2026-03-23T01:56:32.202Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/vh-foods-inc-dba-outside-breadbox-issues-allergy-alert-undeclared-egg-and-milk-bread-crumbs
+[2026-03-23T01:56:32.202Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/anthony-trinh-123herbals-llc-123herbalscom-issues-nationwide-recall-silintan-capsules-due-presence
+[2026-03-23T01:56:32.202Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/herbsforever-llc-issues-allergy-alert-undeclared-wheat-herbsforever-brand-dietary-supplements
+[2026-03-23T01:56:32.202Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/modern-warrior-recalls-modern-warrior-ready-dietary-supplement-due-undeclared-14-dmaa-and-aniracetam
+[2026-03-23T01:56:32.202Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/gusto-group-inc-recalls-shrimp-paste-klong-kone-454-g-1-lbs-and-910-g-2-lbs-because-possible-health
+[2026-03-23T01:56:32.203Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/primavera-nueva-inc-issues-voluntary-recall-select-4-count-tamales-because-possible-health-risk-0
+[2026-03-23T01:56:32.203Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/newway-import-inc-issues-allergy-alert-undeclared-wheat-preserved-mustard-soybean-oil-la-puente
+[2026-03-23T01:56:32.203Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/gold-star-distribution-inc-issues-recall-certain-fda-regulated-products-three-states-including-drugs
+[2026-03-23T01:56:32.203Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/recall-notice-willy-petes-chocolate-company-llc-harwinton-issues-recall-chocolate-bars-due-almonds
+[2026-03-23T01:56:32.204Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/atwaters-issues-allergy-alert-undeclared-tree-nut-allergen-cookie-tin-labels
+[2026-03-23T01:56:32.204Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/gregorys-foods-issues-allergy-alert-undeclared-peanuts-bag-full-cookies-white-chocolate-macadamia
+[2026-03-23T01:56:32.204Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/handelnine-global-limited-dba-navafresh-issues-nationwide-recall-rheumacare-capsules-virgo-uap
+[2026-03-23T01:56:32.204Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/direct-source-seafood-llc-recalling-frozen-raw-shrimp-because-product-may-have-become-contaminated
+[2026-03-23T01:56:32.205Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/olympus-announces-voluntary-corrective-action-single-use-ligating-device
+[2026-03-23T01:56:32.205Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/primavera-nueva-inc-issues-voluntary-recall-select-4-count-tamales-because-possible-health-risk
+[2026-03-23T01:56:32.205Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/stuffbynainax-llc-issues-voluntary-nationwide-recall-mr7-super-700000-dietary-supplement-due
+[2026-03-23T01:56:32.205Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/medinatura-new-mexico-inc-expands-voluntary-nationwide-recall-reboost-nasal-spray-and-include
+[2026-03-23T01:56:32.206Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/ukrops-homestyle-foods-announces-recall-due-undeclared-allergen
+[2026-03-23T01:56:32.206Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/town-food-service-equipment-co-inc-recalls-aluminum-saucepans-because-possible-health-risk
+[2026-03-23T01:56:32.206Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/south-asian-food-inc-issues-allergy-alert-undeclared-peanuts-bengal-king-jhal-chanachur
+[2026-03-23T01:56:32.206Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/lunds-byerlys-voluntary-recalls-lb-monster-cookies-due-incorrect-labeling
+[2026-03-23T01:56:32.206Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/bakkavor-usa-issues-allergy-alert-16-ounce-meal-simple-red-lentil-dal-soup-due-undeclared-milk
+[2026-03-23T01:56:32.206Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/cargill-conducts-voluntary-recall-single-lot-nutrenar-country-feedsr-cracked-corn-livestock-due
+[2026-03-23T01:56:32.206Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/medinatura-new-mexico-inc-issues-voluntary-nationwide-recall-reboost-nasal-spray-due-microbial
+[2026-03-23T01:56:32.207Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/lil-turtles-issues-voluntary-recall-due-undeclared-milk-allergen
+[2026-03-23T01:56:32.207Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/tbc-distribution-corporate-recalls-lucky-foods-brand-cinnamon-powder-because-possible-health-risk
+[2026-03-23T01:56:32.207Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/mellace-family-brands-california-inc-recalls-wegmans-deluxe-mixed-nuts-unsalted-34-oz-and-115-oz
+[2026-03-23T01:56:32.207Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/vetoquinol-usa-inc-recalls-six-lots-folltropin-injectable-kits-cattle-due-presence-particulate
+[2026-03-23T01:56:32.207Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/mondelez-global-llc-conducts-limited-voluntary-recall-1-sku-ritz-peanut-butter-cracker-sandwiches
+[2026-03-23T01:56:32.207Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/prairie-farms-announces-recall-prairie-farms-gallon-fat-free-milk
+[2026-03-23T01:56:32.208Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/wegmans-recalls-locatelli-grated-pecorino-romano-cheese-due-possible-health-risk
+[2026-03-23T01:56:32.208Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/mamtakim-inc-recalls-dried-whole-smelts-salted-korushka-because-possible-health-risk
+[2026-03-23T01:56:32.208Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/supreme-deli-llc-voluntarily-recalls-boars-head-pecorino-romano-cheese-because-possible-health-risk
+[2026-03-23T01:56:32.208Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/prime-food-processing-llc-issues-allergy-alert-undeclared-milk-lava-bun-w-salted-egg-yolk-and-lava
+[2026-03-23T01:56:32.208Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/shata-traders-inc-recalls-chef-brand-milk-pan-24cm-because-possible-health-risk
+[2026-03-23T01:56:32.208Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/jenis-splendid-ice-cream-voluntarily-recalls-passion-fruit-dreamsicle-ice-cream-bars-due-undeclared
+[2026-03-23T01:56:32.208Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/mangalm-llc-recalls-tops-mixed-fruit-jam-and-tops-strawberry-jam-product-because-possible-health
+[2026-03-23T01:56:32.209Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/africa-imports-issues-voluntary-recall-organic-moringa-leaf-powder-due-potential-salmonella
+[2026-03-23T01:56:32.209Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/byheart-updates-information-regarding-voluntary-recall-all-batches-byheart-whole-nutrition-infant
+[2026-03-23T01:56:32.209Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/moonlight-companies-voluntarily-recalls-california-grown-conventional-yellow-and-white-peaches
+[2026-03-23T01:56:32.209Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/response-broader-fda-investigation-byheart-initiates-voluntary-recall-two-batches-infant-formula
+[2026-03-23T01:56:32.210Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/fresenius-kabi-issues-voluntary-nationwide-recall-three-lots-famotidine-injection-usp-20-mg-2-ml-10
+[2026-03-23T01:56:32.210Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/blue-oven-bakery-inc-issues-voluntary-recall-due-undeclared-milk-allergens-their-english-muffin
+[2026-03-23T01:56:32.210Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/african-food-wheels-inc-recalls-oven-dried-fish-scomberomorus-cavalla-because-possible-health-risk
+[2026-03-23T01:56:32.210Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/dreyers-grand-ice-cream-inc-issues-allergy-alert-undeclared-wheat-haagen-dazs-chocolate-dark
+[2026-03-23T01:56:32.211Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/siluetaya-recalls-tejocote-product-because-possible-health-risk
+[2026-03-23T01:56:32.211Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/olympus-issues-voluntary-labeling-update-bronchoscopes-used-laser-therapy-equipment
+[2026-03-23T01:56:32.211Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/otsuka-icu-medical-llc-issues-voluntary-nationwide-recall-20-meq-potassium-chloride-injection-due
+[2026-03-23T01:56:32.211Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/first-and-last-bakery-llc-recalls-first-and-last-brand-tomato-sauce-products-because-possible-health
+[2026-03-23T01:56:32.211Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/vanguard-enterprises-llc-dba-bedrock-mfg-recalls-monarch-premium-kratom-powder-because-possible
+[2026-03-23T01:56:32.211Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/new-hoque-sons-inc-issues-alert-uneviscerated-dry-ghoinnya-fish
+[2026-03-23T01:56:32.212Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/hampton-farms-recalls-mixed-nuts-roasted-unsalted-8-oz-and-mixed-nuts-roasted-and-salted-8-oz
+[2026-03-23T01:56:32.212Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/teasdale-latin-foods-issues-allergy-alert-potential-undeclared-milk-certain-taco-dinner-kits
+[2026-03-23T01:56:32.212Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/pacific-international-marketing-recalls-fresh-italian-parsley-because-possible-health-risk
+[2026-03-23T01:56:32.212Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/purity-products-announces-recall-dietary-supplement-my-bladder-because-possible-health-risk
+[2026-03-23T01:56:32.212Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/twin-sisters-creamery-recalls-whatcom-blue-farmhouse-peppercorn-and-mustard-seed-cheese-products
+[2026-03-23T01:56:32.212Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/peterson-company-recalls-twin-sisters-creamery-brand-whatcom-blue-and-farmhouse-cheese-products
+[2026-03-23T01:56:32.212Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/ea-sween-company-announces-product-recall-due-choking-hazard
+[2026-03-23T01:56:32.213Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/haitai-inc-recalls-haetae-ht-brand-cinnamon-powder-8-oz-possible-risk
+[2026-03-23T01:56:32.213Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/nats-nuts-issues-allergy-alert-potential-undeclared-cashews-nats-nuts-brand-cinnamon-whiskey-pecans
+[2026-03-23T01:56:33.565Z] Reading DataTable page 2...
+[2026-03-23T01:56:38.592Z] Rows found on page 2: 100
+[2026-03-23T01:56:38.594Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/jodys-inc-recalls-cabot-creamery-sea-salt-caramel-cheddar-popcorn-due-undeclared-peanuts-corrected
+[2026-03-23T01:56:38.594Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/kenz-henz-recalls-pastured-raised-eggs-because-possible-health-risk
+[2026-03-23T01:56:38.595Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/aquastar-usa-corp-recalls-shrimp-because-possible-health-risk
+[2026-03-23T01:56:38.595Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/bens-originaltm-issues-voluntary-recall-select-bens-original-long-grain-white-whole-grain-brown-and
+[2026-03-23T01:56:38.595Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/correction-foodynamics-recalls-raw-dog-barkery-bellepepper-cats-and-kanu-pets-brand-freeze-dried-pet
+[2026-03-23T01:56:38.596Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/tai-foong-usa-issues-allergy-alert-undeclared-shrimp-fusia-asian-inspirations-veggie-spring-rolls
+[2026-03-23T01:56:38.596Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/trividia-health-inc-initiates-voluntary-recall-limited-number-true-metrixr-blood-glucose-meters
+[2026-03-23T01:56:38.596Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/durra-ground-cinnamon-100-g-because-possible-health-risk
+[2026-03-23T01:56:38.596Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/giant-eagle-recalls-smoked-mozzarella-pasta-salad-due-potential-listeria-monocytogenes-contamination
+[2026-03-23T01:56:38.597Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/best-buy-bones-inc-recalls-natures-own-pet-chews-bully-bites-because-possible-salmonella-health-risk
+[2026-03-23T01:56:38.597Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/update-albertsons-companies-voluntarily-recalls-select-store-made-deli-items-containing-bowtie-pasta
+[2026-03-23T01:56:38.597Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/demers-food-group-voluntarily-recalls-select-scott-jons-shrimp-scampi-linguini-bowls-due-ingredient
+[2026-03-23T01:56:38.597Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/new-age-international-recalls-signature-enoki-mushrooms-due-potential-health-risk
+[2026-03-23T01:56:38.597Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/sea-port-products-corp-recalling-raw-frozen-easy-peel-white-shrimp-because-product-may-have-become
+[2026-03-23T01:56:38.598Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/albertsons-companies-voluntarily-recalls-select-store-made-deli-items-containing-bowtie-pasta
+[2026-03-23T01:56:38.598Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/georgia-nut-company-gnc-third-party-manufacturer-tru-fru-llc-issues-voluntary-recall-specific
+[2026-03-23T01:56:38.598Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/wholesale-produce-supply-minneapolis-minnesota-recalling-fresh-cutprocessed-cantaloupe-because-it
+[2026-03-23T01:56:38.598Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/gansu-zhaofeng-agricultural-development-co-ltd-voluntarily-recalling-its-dried-bean-curd-due
+[2026-03-23T01:56:38.599Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/slr-food-distribution-inc-recalls-wise-wife-brand-ground-cinnamon-because-possible-health-risk
+[2026-03-23T01:56:38.599Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/aquastar-usa-corp-recalls-aquastar-raw-shrimp-skewers-because-possible-health-risk
+[2026-03-23T01:56:38.600Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/goot-essa-recalls-der-mutterschaf-cheese-because-possible-health-risk
+[2026-03-23T01:56:38.600Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/sprout-organics-expands-voluntary-recall-sweet-potato-apple-and-spinach-include-additional-lot-codes
+[2026-03-23T01:56:38.600Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/updated-release-southwind-foods-llc-recalls-frozen-shrimp-because-possible-health-risk-0
+[2026-03-23T01:56:38.600Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/olympus-issues-voluntary-recall-specific-lots-vizishot-2-flex-19g-ebus-tbna-needles
+[2026-03-23T01:56:38.601Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/aquastar-usa-corp-recalls-kroger-frozen-raw-ez-peel-kroger-mercado-frozen-cooked-shrimp-and-aquastar
+[2026-03-23T01:56:38.601Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/haifa-smoked-fish-recalls-cold-smoked-salmon-and-cold-smoked-seabass-due-possible-health-risk
+[2026-03-23T01:56:38.601Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/sprout-organics-voluntarily-recalls-one-lot-sweet-potato-apple-and-spinach-due-possible-health-risk
+[2026-03-23T01:56:38.601Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/bd-provides-update-voluntary-recall-certain-bd-alaristm-pump-infusion-sets
+[2026-03-23T01:56:38.602Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/gooder-foods-issues-allergy-alert-undeclared-milk-and-cashews-goodles-vegan-believin-plant-based
+[2026-03-23T01:56:38.602Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/gina-marie-bakery-waterbury-issues-recall-cookies-due-undeclared-almonds-sesame-and-food-dyes
+[2026-03-23T01:56:38.602Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/chetak-llc-group-expands-voluntary-product-recall-include-additional-frozen-vegetable-and-fruit
+[2026-03-23T01:56:38.602Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/middlefield-original-cheese-co-op-recalls-organic-gouda-colored-cheddar-mozzarellaprovolone-pepper
+[2026-03-23T01:56:38.602Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/ice-cream-factory-issues-allergy-alert-undeclared-almond-vanilla-gnutt-ice-cream
+[2026-03-23T01:56:38.603Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/hans-kissle-llc-issues-allergy-alert-undeclared-wheat-allergen-hans-kissle-red-potato-bliss-salad-0
+[2026-03-23T01:56:38.603Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/updated-release-southwind-foods-llc-recalls-frozen-shrimp-because-possible-health-risk
+[2026-03-23T01:56:38.603Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/green-lumber-holding-llc-issues-consumer-alert-counterfeit-products-following-fda-findings
+[2026-03-23T01:56:38.603Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/dermarite-industries-expands-voluntary-nationwide-recall-due-potential-burkholderia-cepacia
+[2026-03-23T01:56:38.604Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/aquastar-usa-corp-recalls-cocktail-shrimp-6oz-because-possible-health-risk
+[2026-03-23T01:56:38.604Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/aquastar-usa-corp-recalls-kroger-mercado-frozen-cooked-shrimp-because-possible-health-risk
+[2026-03-23T01:56:38.604Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/country-eggs-llc-recalls-large-brown-cage-free-sunshine-yolks-because-possible-health-risk
+[2026-03-23T01:56:38.604Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/unichem-pharmaceuticals-usa-inc-issues-voluntary-nationwide-recall-cyclobenzaprine-hydrochloride
+[2026-03-23T01:56:38.604Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/viva-raw-issues-voluntary-recall-two-lots-dog-and-cat-foods-due-salmonella-and-listeria
+[2026-03-23T01:56:38.605Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/southwind-foods-llc-recalls-frozen-shrimp-because-possible-health-risk
+[2026-03-23T01:56:38.605Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/b-braun-medical-issues-voluntary-nationwide-recall-lactated-ringers-injection-usp-1000-ml-and-09
+[2026-03-23T01:56:38.605Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/middlefield-original-cheese-co-op-recalls-100-grass-fed-pepper-jack-cheese-and-horseradish-flavored
+[2026-03-23T01:56:38.605Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/tandem-diabetes-care-issues-voluntary-medical-device-correction-select-tslim-x2-insulin-pumps
+[2026-03-23T01:56:38.605Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/dollar-general-announces-voluntary-recall-clover-valleyr-instant-coffee-due-potential-presence-glass
+[2026-03-23T01:56:38.606Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/max-mobility-permobil-announces-worldwide-expanded-recall-and-removal-all-speedcontrol-dials-market
+[2026-03-23T01:56:38.606Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/dermarite-industries-issues-voluntary-nationwide-recall-dermakleen-dermasarra-kleenfoam-and
+[2026-03-23T01:56:38.606Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/hans-kissle-llc-issues-allergy-alert-undeclared-wheat-allergen-hans-kissle-red-potato-bliss-salad
+[2026-03-23T01:56:38.606Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/doehler-dry-ingredient-solutions-llc-recalls-members-mark-freeze-dried-fruit-variety-pack-listeria
+[2026-03-23T01:56:38.607Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/high-noon-announces-recall-its-vodka-seltzer-beach-pack-12-pack-due-inclusion-celsiusr-astro-vibe-tm
+[2026-03-23T01:56:38.607Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/albertsons-companies-stores-arkansas-louisiana-oklahoma-and-texas-voluntarily-expands-recall-select
+[2026-03-23T01:56:38.607Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/hillside-orchard-farms-recalls-various-fruit-breads-fritters-due-undeclared-egg
+[2026-03-23T01:56:38.607Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/tropicale-foods-recalls-certain-helados-mexico-and-la-michoacana-products-due-undeclared-milk
+[2026-03-23T01:56:38.607Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/jewel-osco-stores-illinois-indiana-and-iowa-voluntarily-recalls-select-items-containing-tuna-salad
+[2026-03-23T01:56:38.608Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/albertsons-companies-stores-arkansas-louisiana-oklahoma-and-texas-voluntarily-recalls-select-items
+[2026-03-23T01:56:38.608Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/nirwana-foods-issues-allergy-alert-undeclared-sulfites-golden-raisin-28oz-pouch-label
+[2026-03-23T01:56:38.608Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/bd-issues-update-voluntary-global-recall-alaristm-and-bd-alaristm-pump-modules-serviced-legacy-bezel
+[2026-03-23T01:56:38.608Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/jalux-americas-inc-dba-jsweets-issues-allergy-alert-undeclared-tree-nuts-and-milk-lespoir-brand
+[2026-03-23T01:56:38.609Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/chetak-llc-group-recalls-product-because-possible-health-risk
+[2026-03-23T01:56:38.609Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/update-sandoz-inc-issues-voluntary-nationwide-recall-expansion-one-additional-lot-cefazolin
+[2026-03-23T01:56:38.609Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/krasniy-oktyabr-inc-usa-issues-alert-eviscerate-dry-salted-vobla-aral-silver
+[2026-03-23T01:56:38.609Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/nostrum-laboratories-inc-issues-voluntary-nationwide-recall-sucralfate-tablets-usp-1-gram-within
+[2026-03-23T01:56:38.609Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/yocrunchr-products-voluntarily-recalled-danone-us-due-potential-presence-plastic-pieces-dome-topper
+[2026-03-23T01:56:38.610Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/updated-release-hartford-bakery-inc-issues-allergy-alert-undeclared-hazelnuts-lewis-bake-shop
+[2026-03-23T01:56:38.610Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/world-market-recalls-emek-spread-pistachio-cacao-cream-kadayif-due-salmonella-contamination
+[2026-03-23T01:56:38.610Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/llk-trading-inc-recalls-needle-mushrooms-because-possible-health-risk
+[2026-03-23T01:56:38.611Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/wiet-peeters-farm-products-limited-recalls-aunt-mids-fresh-sliced-mushrooms-peeters-mushroom-farm
+[2026-03-23T01:56:38.611Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/hartford-bakery-inc-issues-allergy-alert-undeclared-hazelnuts-lewis-bake-shop-artisan-style-12-loaf
+[2026-03-23T01:56:38.611Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/sheehan-brothers-vending-issues-voluntary-recall-due-undeclared-sesame-allergen
+[2026-03-23T01:56:38.611Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/chs-inc-recalls-payback-champion-lamb-feed-due-elevated-copper-health-risk
+[2026-03-23T01:56:38.611Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/natureen-international-inc-recalls-wei-chuan-dried-black-fungus-slice-25oz-because-possible-health
+[2026-03-23T01:56:38.612Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/mondelez-global-llc-conducts-us-voluntary-recall-four-carton-sizes-ritz-peanut-butter-cracker
+[2026-03-23T01:56:38.612Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/mellace-family-brands-california-inc-issues-allergy-alert-undeclared-milk-allergen-wegmans-semi
+[2026-03-23T01:56:38.612Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/sandoz-inc-issues-voluntary-nationwide-recall-one-lot-cefazolin-injection-due-product-mispackaging
+[2026-03-23T01:56:38.612Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/face-rock-creamery-voluntarily-recalls-vampire-slayer-garlic-cheddar-curds-because-possible-health
+[2026-03-23T01:56:38.613Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/lipari-foods-issues-allergy-alert-undeclared-milk-dark-chocolate-nonpareils
+[2026-03-23T01:56:38.613Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/international-foodsource-llc-issues-allergy-alert-nonpareil-semi-sweet-chocolate-christmas-seeds
+[2026-03-23T01:56:38.613Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/sabores-bakery-dba-sabores-tu-mesa-issues-allergy-alert-undeclared-milk-mousse-desserts
+[2026-03-23T01:56:38.614Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/medtech-products-inc-issues-nationwide-recall-little-remediesr-honey-cough-syrup-due-microbial
+[2026-03-23T01:56:38.614Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/weaver-nut-company-inc-issues-allergy-alert-undeclared-milk-chocolate-nonpareils
+[2026-03-23T01:56:38.614Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/fuentes-farms-llc-recalls-product-because-possible-health-risk
+[2026-03-23T01:56:38.614Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/meijer-issues-recall-frederiks-dark-chocolate-almonds-due-presence-undeclared-cashews
+[2026-03-23T01:56:38.614Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/vita-warehouse-corp-issues-allergy-alert-undeclared-peanut-allergen-aldi-welbyr-berkley-jensenr-and
+[2026-03-23T01:56:38.615Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/turkana-food-inc-recall-flora-dried-apricots-undeclared-sulfites-product-labeling-because-possible
+[2026-03-23T01:56:38.615Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/medtronic-announces-voluntary-recall-select-newporttm-ht70-and-newporttm-ht70-plus-ventilators-and
+[2026-03-23T01:56:38.615Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/p-east-trading-corp-distributors-issues-alert-uneviscerated-salted-smoked-split-herring-due
+[2026-03-23T01:56:38.615Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/bornstein-seafoods-inc-recalls-cooked-peeled-ready-eat-coldwater-shrimp-meat-because-possible-health
+[2026-03-23T01:56:38.615Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/august-egg-company-recalls-shell-eggs-because-possible-health-risk
+[2026-03-23T01:56:38.615Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/church-dwight-co-inc-issues-voluntary-nationwide-recall-zicamr-cold-remedy-nasal-swabs-zicamr-nasal
+[2026-03-23T01:56:38.616Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/tgd-cuts-llc-initiated-voluntary-recall-cucumber-bedner-growers-inc-which-had-potential-be
+[2026-03-23T01:56:38.616Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/firehook-virginia-issues-allergy-alert-undeclared-sesame-classic-sea-salt-crackers
+[2026-03-23T01:56:38.616Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/amneal-pharmaceutical-llc-issues-nationwide-recall-sulfamethoxazole-trimethoprim-tablets-usp-400
+[2026-03-23T01:56:38.616Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/camerican-international-inc-issues-allergy-alert-undeclared-milk-aldi-brand-casa-mamita-churro-bites
+[2026-03-23T01:56:38.616Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/homegrown-family-foods-issues-allergy-alert-undeclared-milk-shore-lunch-oven-style-breader-batter
+[2026-03-23T01:56:38.616Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/isabelles-kitchen-inc-recalls-refrigerated-deli-salads-containing-fresh-cucumbers-because-possible
+[2026-03-23T01:56:38.616Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/supreme-service-solutions-llc-voluntarily-recalls-supreme-vegetable-products-because-possible-health-0
+[2026-03-23T01:56:38.617Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/coastal-companies-issues-voluntary-recall-items-fresh-start-cucumbers-due-potential-salmonella
+[2026-03-23T01:56:38.617Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/santa-monica-seafood-voluntarily-recalls-atlantic-salmon-portions-seafood-stuffing-due-undeclared
+[2026-03-23T01:56:40.468Z] Reading DataTable page 3...
+[2026-03-23T01:56:45.498Z] Rows found on page 3: 100
+[2026-03-23T01:56:45.499Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/albertsons-companies-voluntarily-recalls-three-store-made-deli-items-containing-recalled-cucumber
+[2026-03-23T01:56:45.499Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/spectrum-brands-pet-llc-recalls-single-lot-tetra-reptomin-reptile-food-aquatic-turtles-because
+[2026-03-23T01:56:45.499Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/walmart-inc-recalls-marketside-fresh-cut-cucumber-slices-select-texas-stores-because-possible-health
+[2026-03-23T01:56:45.500Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/jfe-franchising-inc-recalls-limited-number-cucumber-products-because-possible-health-risk-0
+[2026-03-23T01:56:45.500Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/pennrose-farms-issues-recall-whole-cucumbers-because-possible-health-risk
+[2026-03-23T01:56:45.500Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/new-grains-gluten-free-bakery-issues-allergy-alert-undeclared-eggs-tree-nuts-soy-and-milk-bakery
+[2026-03-23T01:56:45.500Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/big-y-foods-recalls-made-order-subs-wraps-and-paninis-sold-massachusetts-and-connecticut-because
+[2026-03-23T01:56:45.501Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/umary-usacom-issues-voluntary-nationwide-recall-unavy-acido-hialuronico-caplets-and-umovy-acido
+[2026-03-23T01:56:45.501Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/ukrops-homestyle-foods-announces-recall-due-possible-health-risk
+[2026-03-23T01:56:45.501Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/publix-voluntarily-recalls-greenwise-pear-kiwi-spinach-pea-baby-food-pouches-due-lead
+[2026-03-23T01:56:45.501Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/bedner-growers-inc-recalls-cucumbers-because-possible-health-risk
+[2026-03-23T01:56:45.501Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/element-112-llc-dba-madelines-patisserie-issues-allergy-alert-undeclared-wheat-croissants-and
+[2026-03-23T01:56:45.502Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/south-asian-food-inc-issues-allergy-alert-undeclared-peanuts-bengal-king-family-pack-vegetable
+[2026-03-23T01:56:45.502Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/ariana-sweets-inc-issues-allergy-alert-undeclared-sesame-and-wheat-afghani-corn-bread-doda
+[2026-03-23T01:56:45.502Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/naturemills-us-inc-issues-allergy-alert-undeclared-wheat-milk-and-sesame-rice-mixes-soups-spice
+[2026-03-23T01:56:45.502Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/knockro-issues-allergy-alert-undeclared-almonds-bonya-yogurt-parfaits
+[2026-03-23T01:56:45.503Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/fresh-ready-foods-voluntarily-recalls-ready-eat-sandwiches-and-snack-items-sold-arizona-california
+[2026-03-23T01:56:45.503Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/new-grains-gluten-free-bakery-issues-allergy-alert-undeclared-eggs-soy-and-milk-bakery-products
+[2026-03-23T01:56:45.503Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/advantage-health-matters-inc-recalls-organic-jumbo-pumpkin-seeds-because-possible-health-risk
+[2026-03-23T01:56:45.503Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/enshishixiangnishangmaoyouxiangongsi-issues-voluntary-nationwide-recall-endurance-boost-horny-goat
+[2026-03-23T01:56:45.504Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/new-england-village-foods-issues-allergy-alert-undeclared-almonds-and-sesame-19th-hole-snack-mix
+[2026-03-23T01:56:45.504Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/east-trading-inc-issues-alert-undeclared-sulfites-licorice-plum
+[2026-03-23T01:56:45.505Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/vietti-food-group-issues-allergy-alert-undeclared-soy-15-oz-yellowstone-brown-sugar-molasses-baked
+[2026-03-23T01:56:45.505Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/ray-mascari-inc-recalls-4-count-vine-ripe-tomatoes-because-possible-health-risk
+[2026-03-23T01:56:45.505Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/williams-farms-repack-llc-recalls-tomatoes-due-possible-salmonella-contamination
+[2026-03-23T01:56:45.505Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/food-co-issues-allergy-alert-undeclared-milk-monkfish-liver-ankimo
+[2026-03-23T01:56:45.505Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/health-fixer-issues-voluntary-nationwide-recall-male-ultra-malextra-electro-buzz-ultra-armor-and
+[2026-03-23T01:56:45.506Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/trader-joes-sesame-miso-salad-salmon-voluntarily-recalled-due-undeclared-milk-allergen
+[2026-03-23T01:56:45.506Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/mauna-loa-macadamia-nut-company-llc-issues-allergy-alert-undeclared-almonds-and-cashews-mauna-loa
+[2026-03-23T01:56:45.506Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/new-england-village-foods-issues-allergy-alert-undeclared-almonds-19th-hole-snack-mix
+[2026-03-23T01:56:45.506Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/cronus-pharma-llc-initiating-voluntary-recall-dexasedtm-aspen-and-dexmedvettm-cronus-pharma-llc
+[2026-03-23T01:56:45.506Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/harvest-nyc-inc-recalls-enoki-mushroom-due-possible-health-risk
+[2026-03-23T01:56:45.507Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/recall-reminder-gerber-products-company-previously-recalled-and-discontinued-all-batches-gerberr
+[2026-03-23T01:56:45.507Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/fda-classifies-qapel-medical-incs-worldwide-medical-device-recall-and-discontinuation-its-072
+[2026-03-23T01:56:45.507Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/amneal-pharmaceutical-llc-issues-nationwide-recall-ropivacaine-hydrochloride-injection-usp
+[2026-03-23T01:56:45.507Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/may-flower-international-inc-issue-allergy-alert-undeclared-wheat-beijing-soybean-paste
+[2026-03-23T01:56:45.508Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/supplement-manufacturing-partner-inc-issues-recall-dorado-nutrition-brand-spermidine-supplement-10mg
+[2026-03-23T01:56:45.508Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/blue-ridge-beef-issues-voluntary-recall-blue-ridge-beef-puppy-mix-and-kitten-mix-due-salmonella
+[2026-03-23T01:56:45.508Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/duda-farm-fresh-foods-inc-emite-aviso-para-1587-cajas-de-marketside-4in16-oz-bundle-pack-por-posible
+[2026-03-23T01:56:45.508Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/duda-farm-fresh-foods-inc-issues-advisory-1587-cases-4-in16-oz-bundle-marketside-celery-sticks
+[2026-03-23T01:56:45.508Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/trophy-nut-co-issues-allergy-alert-due-undeclared-cashews-heinens-honey-roasted-peanuts
+[2026-03-23T01:56:45.509Z] Processing detail page: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/caraluzzis-markets-issues-allergy-alert-undeclared-egg-caraluzzis-italian-style-seafood-burger-8-oz
+[2026-03-23T01:56:45.948Z] Slug: italian-style-seafood-burgers-caraluzzi-s-recall-2025
+[2026-03-23T01:56:45.949Z] Folder: 242-italian-style-seafood-burgers-caraluzzi-s-recall-2025
+[2026-03-23T01:56:59.718Z] Delay 6953ms → after rewrite
+[2026-03-23T01:57:09.057Z] Delay 5241ms → after consumer action generation
+[2026-03-23T01:57:14.559Z] Image already exists: 242-italian-style-seafood-burgers-caraluzzi-s-recall-2025/2f54f99ddf532c2fc242c12266ff9b428c1878c3d1b2d173dcb843d96d5b0d48.webp
+[2026-03-23T01:57:14.560Z] Delay 5868ms → between images
+[2026-03-23T01:57:20.556Z] Saved image: 242-italian-style-seafood-burgers-caraluzzi-s-recall-2025/2b0a4221521d41388a782f76bb938384e850ff375209c0ee2e112b841c6f9cea.webp
+[2026-03-23T01:57:20.557Z] Delay 6536ms → between images
+[2026-03-23T01:57:27.104Z] Progress saved. recalls=242 imageMap=846
+[2026-03-23T01:57:27.105Z] Saved article 1/100 this run.
+[2026-03-23T01:57:27.118Z] Delay 5053ms → after detail complete
+[2026-03-23T01:57:32.185Z] Processing detail page: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/max-mobility-permobil-expands-nationwide-recall-smartdrive-speed-control-dial-due-motor-being
+[2026-03-23T01:57:32.653Z] Slug: speed-control-dial-component-max-mobility-permobil-recall-2025-2
+[2026-03-23T01:57:32.654Z] Folder: 243-speed-control-dial-component-max-mobility-permobil-recall-2025-2
+[2026-03-23T01:57:47.856Z] Delay 6629ms → after rewrite
+[2026-03-23T01:57:56.621Z] Delay 7678ms → after consumer action generation
+[2026-03-23T01:58:04.318Z] Progress saved. recalls=243 imageMap=846
+[2026-03-23T01:58:04.319Z] Saved article 2/100 this run.
+[2026-03-23T01:58:04.333Z] Delay 5058ms → after detail complete
+[2026-03-23T01:58:09.413Z] Processing detail page: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/bausch-lomb-announces-voluntary-recall-envista-aspiretm-envista-envytm-and-certain-envistar
+[2026-03-23T01:58:09.885Z] Slug: envista-aspire-envista-envy-and-certain-envista-monofocal-envista-aspire-recall
+[2026-03-23T01:58:09.885Z] Folder: 244-envista-aspire-envista-envy-and-certain-envista-monofocal-envista-aspire-recall
+[2026-03-23T01:58:10.394Z] CTRL+C received. Exiting.
