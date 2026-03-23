@@ -34,8 +34,8 @@ const { chromium } = require("playwright");
 /** recalls.json now lives in the same directory as the scripts. */
 const JSON_PATH = path.join(__dirname, "recalls.json");
 
-/** Timestamped downloads go here — one file per run, keeps history for ~1 week. */
-const DOWNLOADS_DIR = path.join(__dirname, "downloads");
+/** Timestamped downloads go here — one file per run, keep history. */
+const DOWNLOADS_DIR = path.join(__dirname, "Terminated-Excel");
 
 const FDA_LIST_URL =
   "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts";
@@ -51,12 +51,31 @@ const FETCH = flags.includes("--fetch");
 const SCRIPTS_DIR = __dirname;
 const DEFAULT_NAME = "recalls-market-withdrawals-safety-alert";
 
-/** Build a timestamped filename for the current run, e.g. fda-terminated-2026-03-21-14-30.xlsx */
+/** Build a serial+timestamp filename, e.g. 1-2026-03-21-02-30PM.xlsx */
 function buildTimestampedXlsxPath() {
+  if (!fs.existsSync(DOWNLOADS_DIR)) {
+    fs.mkdirSync(DOWNLOADS_DIR, { recursive: true });
+  }
+
+  const existing = fs
+    .readdirSync(DOWNLOADS_DIR)
+    .filter((f) => f.toLowerCase().endsWith(".xlsx"));
+  const nextSerial = existing.length + 1;
+
   const now = new Date();
   const pad = (n) => String(n).padStart(2, "0");
-  const stamp = `${now.getFullYear()}-${pad(now.getMonth() + 1)}-${pad(now.getDate())}-${pad(now.getHours())}-${pad(now.getMinutes())}`;
-  return path.join(DOWNLOADS_DIR, `fda-terminated-${stamp}.xlsx`);
+  const year = now.getFullYear();
+  const month = pad(now.getMonth() + 1);
+  const day = pad(now.getDate());
+  const h24 = now.getHours();
+  const minutes = pad(now.getMinutes());
+  const ampm = h24 >= 12 ? "PM" : "AM";
+  const h12 = h24 % 12 || 12;
+  const hour = pad(h12);
+  return path.join(
+    DOWNLOADS_DIR,
+    `${nextSerial}-${year}-${month}-${day}-${hour}-${minutes}${ampm}.xlsx`
+  );
 }
 
 /** Return the most recent .xlsx in downloads/, or null if none. */
@@ -247,16 +266,8 @@ function resolveXlsxPath() {
   if (FETCH) return buildTimestampedXlsxPath();
   // Explicit path passed as argument
   if (args[0]) return path.resolve(args[0]);
-  // Use the most recent file in downloads/ if available
-  const latest = latestDownloadedXlsx();
-  if (latest) {
-    uiInfo(`Using most recent download: ${path.basename(latest)}`);
-    return latest;
-  }
-  // Fall back to legacy filename next to this script
-  const scriptDefault = path.join(SCRIPTS_DIR, DEFAULT_NAME + ".xlsx");
-  if (fs.existsSync(scriptDefault)) return scriptDefault;
-  return scriptDefault; // will fail with clear error below
+  // Default behavior: always use a fresh downloaded file for this run.
+  return buildTimestampedXlsxPath();
 }
 
 // ─── Main ─────────────────────────────────────────────────────────────────────
@@ -269,14 +280,15 @@ async function main() {
 
   let xlsxPath = resolveXlsxPath();
 
-  if (FETCH) {
+  // If no explicit file path is provided, always fetch a fresh export.
+  const shouldFetch = FETCH || !args[0];
+
+  if (shouldFetch) {
     ensureDownloadsDir();
     await downloadFdaTerminatedExcel(xlsxPath);
     uiInfo(`Saved as: ${path.basename(xlsxPath)}`);
   } else if (!fs.existsSync(xlsxPath)) {
     console.error("Excel file not found:", xlsxPath);
-    console.error("  Use: node scripts/checkTerminated.js path/to/file.xlsx");
-    console.error("  Or:  node scripts/checkTerminated.js --fetch");
     process.exit(1);
   }
 
@@ -306,6 +318,7 @@ async function main() {
   let scanned = 0;
   /** Excel row matched date+product in JSON but recall already has terminated: true */
   let matchedAlreadyTerminated = 0;
+  const alreadyTerminatedMatches = [];
 
   for (const row of rows) {
     const excelDate = toIsoDate(row["Date"]);
@@ -321,6 +334,12 @@ async function main() {
     const record = recalls[idx];
     if (record.terminated === true) {
       matchedAlreadyTerminated++;
+      alreadyTerminatedMatches.push({
+        idx,
+        id: record.id || record.slug,
+        sortOrder: typeof record.sortOrder === "number" ? record.sortOrder : null,
+        sourceUrl: String(record.sourceUrl || ""),
+      });
       continue;
     }
 
@@ -329,6 +348,7 @@ async function main() {
       idx,
       id: record.id || record.slug,
       sortOrder: typeof record.sortOrder === "number" ? record.sortOrder : null,
+      sourceUrl: String(record.sourceUrl || ""),
       product: jsonProductRaw,
       excelBrand,
       excelDate,
@@ -341,6 +361,15 @@ async function main() {
     `  ${C.bold}Excel ↔ JSON matches (already marked terminated):${C.reset} ${matchedAlreadyTerminated}`
   );
   console.log(`  ${C.bold}New terminated matches (will update JSON):${C.reset} ${changes.length}\n`);
+
+  if (alreadyTerminatedMatches.length > 0) {
+    log("Matches already marked terminated:");
+    alreadyTerminatedMatches.forEach((m) => {
+      const sortStr = m.sortOrder != null ? String(m.sortOrder) : "(no sortOrder)";
+      log(`  [already TERMINATED] sortOrder ${sortStr}  id ${m.id}`);
+      log(`    sourceUrl: ${m.sourceUrl || "(none)"}`);
+    });
+  }
 
   if (changes.length === 0) {
     if (matchedAlreadyTerminated > 0) {
@@ -356,6 +385,7 @@ async function main() {
   changes.forEach((c) => {
     const sortStr = c.sortOrder != null ? String(c.sortOrder) : "(no sortOrder)";
     log(`  [ongoing → TERMINATED] sortOrder ${sortStr}  id ${c.id}`);
+    log(`    sourceUrl: ${c.sourceUrl || "(none)"}`);
     log(`    product: ${c.product}`);
     log(`    date: ${c.excelDate}  brand: ${c.excelBrand}`);
   });
