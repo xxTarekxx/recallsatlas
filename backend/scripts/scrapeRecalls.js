@@ -1590,6 +1590,7 @@ function normalizeSourceUrl(url) {
         const rows = await extractListRows(page);
         log(`Rows found on page ${pageIndex}: ${rows.length}`);
 
+        let sawOlderOnThisPage = false;
         for (const listRow of rows) {
             if (addedThisRun >= MAX_RECORDS) break;
 
@@ -1601,6 +1602,7 @@ function normalizeSourceUrl(url) {
             // Backfill mode is temporarily disabled:
             // skip older recalls and ingest only genuinely new recalls.
             if (!isNewer) {
+                sawOlderOnThisPage = true;
                 continue;
             }
 
@@ -1814,6 +1816,15 @@ function normalizeSourceUrl(url) {
                 } catch { }
                 await randomDelay("after detail error");
             }
+        }
+
+        // New recalls appear at the top of the listing. Once we encounter older
+        // rows on the current page and didn't add anything new from this page,
+        // stop scanning deeper pages.
+        if (sawOlderOnThisPage && addedThisRun === 0) {
+            log("Encountered only older rows on current page. Stopping scan early.");
+            hasNext = false;
+            break;
         }
 
         if (addedThisRun >= MAX_RECORDS) {

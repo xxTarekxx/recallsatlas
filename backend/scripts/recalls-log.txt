@@ -5694,3 +5694,29 @@ Call log:
 [2026-03-23T06:57:19.759Z] MAX_TOTAL (300) reached for historical recalls. Stopping.
 [2026-03-23T06:57:22.159Z] Progress saved. recalls=300 imageMap=968
 [2026-03-23T06:57:22.266Z] DONE
+[2026-03-23T07:09:38.572Z] Loaded existing recalls: 300, unique sourceUrls: 300
+[2026-03-23T07:09:38.573Z] Newest existing date: 2026-03-20T04:00:00.000Z
+[2026-03-23T07:09:38.574Z] Next sortOrder for newer recalls: 301
+[2026-03-23T07:09:38.574Z] Next sortOrder for older recalls: 0
+[2026-03-23T07:09:38.843Z] Opening FDA recalls listing...
+[2026-03-23T07:09:44.423Z] Delay 6043ms → after initial listing load
+[2026-03-23T07:09:52.704Z] Set DataTable page size to 100 and Terminated Recall filter to No
+[2026-03-23T07:09:52.705Z] Reading DataTable page 1...
+[2026-03-23T07:09:57.746Z] Rows found on page 1: 100
+[2026-03-23T07:09:57.747Z] Skip already processed: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/cardinal-health-issues-voluntary-nationwide-recall-webcoltm-large-alcohol-prep-pad
+[2026-03-23T07:10:00.145Z] Reading DataTable page 2...
+[2026-03-23T07:10:05.173Z] Rows found on page 2: 100
+[2026-03-23T07:10:08.610Z] Reading DataTable page 3...
+[2026-03-23T07:10:13.636Z] Rows found on page 3: 100
+[2026-03-23T07:10:16.038Z] Reading DataTable page 4...
+[2026-03-23T07:10:21.055Z] Rows found on page 4: 100
+[2026-03-23T07:10:23.443Z] Reading DataTable page 5...
+[2026-03-23T07:10:28.472Z] Rows found on page 5: 100
+[2026-03-23T07:10:31.423Z] Reading DataTable page 6...
+[2026-03-23T07:10:36.439Z] Rows found on page 6: 100
+[2026-03-23T07:10:37.800Z] Reading DataTable page 7...
+[2026-03-23T07:10:42.813Z] Rows found on page 7: 7
+[2026-03-23T07:10:42.816Z] No more pages (Next is disabled)
+[2026-03-23T07:10:42.817Z] No more DataTable pages.
+[2026-03-23T07:10:42.828Z] Progress saved. recalls=300 imageMap=968
+[2026-03-23T07:10:42.940Z] DONE
