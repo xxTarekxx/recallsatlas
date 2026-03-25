@@ -35,7 +35,7 @@ if (!OPENAI_API_KEY) { console.error("Missing OPENAI_API_KEY"); process.exit(1);
 // ─── Config ───────────────────────────────────────────────────────────────────
 
 const MODEL         = "gpt-4.1-mini";
-const RATE_LIMIT_MS = 60;   // ms between OpenAI calls
+const RATE_LIMIT_MS = 30;   // ms between OpenAI calls
 
 const flags    = process.argv.slice(2).filter(a => a.startsWith("--"));
 const args     = process.argv.slice(2).filter(a => !a.startsWith("--"));
@@ -47,6 +47,7 @@ const SLUG_ARG = flags.find(f => f.startsWith("--slug="))?.split("=")[1]
               || (args[0] && !args[0].startsWith("--") ? args[0] : null);
 const LIMIT = ONE ? 1 : (Number.isFinite(LIMIT_ARG) && LIMIT_ARG > 0 ? Math.floor(LIMIT_ARG) : null);
 const JSON_PATH = path.join(__dirname, "recalls.json");
+const TRANSLATED_JSON_PATH = path.join(__dirname, "recalltranslated.json");
 
 // ─── Languages ────────────────────────────────────────────────────────────────
 
@@ -272,15 +273,48 @@ function countElements(source) {
 
 // ─── Translate one language ───────────────────────────────────────────────────
 
-async function translateLangObject(source, langName, onProgress) {
+async function translateLangObject(source, langName, existingLang, onProgress, onCheckpoint) {
+  // Start from source shape, then overlay any previously saved in-progress translations.
   const result = JSON.parse(JSON.stringify(source));
-  let done = 0;
+  const prior = existingLang && typeof existingLang === "object" ? existingLang : null;
+  if (prior) {
+    for (const key of Object.keys(result)) {
+      if (prior[key] !== undefined) result[key] = prior[key];
+    }
+  }
 
-  async function t(text) {
+  const doneSet = new Set(Array.isArray(prior?._checkpoint?.doneKeys) ? prior._checkpoint.doneKeys : []);
+  let done = 0;
+  const doneCounted = new Set();
+
+  const markDone = (taskKey) => {
+    if (!doneCounted.has(taskKey)) {
+      doneCounted.add(taskKey);
+      onProgress(++done);
+    }
+  };
+
+  const checkpoint = async () => {
+    result._checkpoint = {
+      doneKeys: Array.from(doneSet),
+      updatedAt: new Date().toISOString(),
+      complete: false,
+    };
+    if (onCheckpoint) await onCheckpoint(result);
+  };
+
+  async function t(taskKey, sourceText, assign) {
+    if (!sourceText || typeof sourceText !== "string" || !sourceText.trim()) return;
+    if (doneSet.has(taskKey)) {
+      markDone(taskKey);
+      return;
+    }
     await delay(RATE_LIMIT_MS);
-    const out = await translateText(text, langName);
-    onProgress(++done);
-    return out;
+    const out = await translateText(sourceText, langName);
+    assign(out);
+    doneSet.add(taskKey);
+    markDone(taskKey);
+    await checkpoint();
   }
 
   const topFields = [
@@ -288,32 +322,45 @@ async function translateLangObject(source, langName, onProgress) {
     "reason", "disclaimer", "pageTypeLabel", "label", "regulatedProducts",
   ];
   for (const key of topFields) {
-    if (result[key]) result[key] = await t(result[key]);
+    await t(`top:${key}`, source[key], (v) => { result[key] = v; });
   }
 
-  for (const section of result.content || []) {
-    if (section.subtitle) section.subtitle = await t(section.subtitle);
-    if (section.text)     section.text     = await t(section.text);
+  const sourceContent = Array.isArray(source.content) ? source.content : [];
+  if (!Array.isArray(result.content)) result.content = [];
 
-    if (Array.isArray(section.authorityLinks)) {
-      for (let i = 0; i < section.authorityLinks.length; i++) {
-        await delay(RATE_LIMIT_MS);
-        section.authorityLinks[i] = await translateAuthorityLink(
-          section.authorityLinks[i], langName
-        );
-        onProgress(++done);
+  for (let sIdx = 0; sIdx < sourceContent.length; sIdx++) {
+    const srcSection = sourceContent[sIdx] || {};
+    const outSection = result.content[sIdx] || {};
+    result.content[sIdx] = outSection;
+
+    await t(`section:${sIdx}:subtitle`, srcSection.subtitle, (v) => { outSection.subtitle = v; });
+    await t(`section:${sIdx}:text`, srcSection.text, (v) => { outSection.text = v; });
+
+    const srcLinks = Array.isArray(srcSection.authorityLinks) ? srcSection.authorityLinks : [];
+    if (!Array.isArray(outSection.authorityLinks)) outSection.authorityLinks = [...srcLinks];
+    for (let i = 0; i < srcLinks.length; i++) {
+      const taskKey = `section:${sIdx}:authority:${i}`;
+      if (doneSet.has(taskKey)) {
+        markDone(taskKey);
+        continue;
       }
+      await delay(RATE_LIMIT_MS);
+      outSection.authorityLinks[i] = await translateAuthorityLink(srcLinks[i], langName);
+      doneSet.add(taskKey);
+      markDone(taskKey);
+      await checkpoint();
     }
 
-    if (section.facts && typeof section.facts === "object") {
-      for (const fKey of Object.keys(section.facts)) {
-        if (typeof section.facts[fKey] === "string" && section.facts[fKey]) {
-          section.facts[fKey] = await t(section.facts[fKey]);
-        }
+    const srcFacts = srcSection.facts && typeof srcSection.facts === "object" ? srcSection.facts : null;
+    if (srcFacts) {
+      if (!outSection.facts || typeof outSection.facts !== "object") outSection.facts = { ...srcFacts };
+      for (const fKey of Object.keys(srcFacts)) {
+        await t(`section:${sIdx}:facts:${fKey}`, srcFacts[fKey], (v) => { outSection.facts[fKey] = v; });
       }
     }
   }
 
+  delete result._checkpoint;
   return result;
 }
 
@@ -323,15 +370,27 @@ function delay(ms) {
   return new Promise(r => setTimeout(r, ms));
 }
 
-function upsertRecallLanguagesInJson(slug, languages, translatedAt) {
-  if (!slug || !fs.existsSync(JSON_PATH)) return false;
-  const recalls = JSON.parse(fs.readFileSync(JSON_PATH, "utf8"));
-  if (!Array.isArray(recalls)) return false;
-  const idx = recalls.findIndex(r => (r.id || r.slug) === slug);
-  if (idx === -1) return false;
-  recalls[idx].languages = languages;
-  recalls[idx].translatedAt = translatedAt;
-  fs.writeFileSync(JSON_PATH, JSON.stringify(recalls, null, 2), "utf8");
+function readJsonArraySafe(filePath) {
+  if (!fs.existsSync(filePath)) return [];
+  try {
+    const v = JSON.parse(fs.readFileSync(filePath, "utf8"));
+    return Array.isArray(v) ? v : [];
+  } catch {
+    return [];
+  }
+}
+
+function writeJsonArray(filePath, arr) {
+  fs.writeFileSync(filePath, JSON.stringify(arr, null, 2), "utf8");
+}
+
+function upsertRecallDocInTranslatedJson(doc) {
+  if (!doc || !doc.slug) return false;
+  const arr = readJsonArraySafe(TRANSLATED_JSON_PATH);
+  const idx = arr.findIndex(r => (r.slug || r.id) === doc.slug);
+  if (idx >= 0) arr[idx] = doc;
+  else arr.push(doc);
+  writeJsonArray(TRANSLATED_JSON_PATH, arr);
   return true;
 }
 
@@ -350,6 +409,13 @@ async function main() {
   const coll = db.collection("recalls");
   process.stdout.write(` ${C.green}connected${C.reset}\n`);
 
+  if (!DRY_RUN) {
+    process.stdout.write(`  ${C.cyan}▸${C.reset} Building local Mongo mirror (recalltranslated.json)…`);
+    const allDocs = await coll.find({}).toArray();
+    writeJsonArray(TRANSLATED_JSON_PATH, allDocs);
+    process.stdout.write(` ${C.green}done${C.reset}\n`);
+  }
+
   // ── Build query ─────────────────────────────────────────────────────────────
   let query = {};
   if (SLUG_ARG) {
@@ -358,7 +424,12 @@ async function main() {
     query = {};
   } else {
     query = {
-      $or: TARGET_LANGS.map(l => ({ [`languages.${l.code}`]: { $exists: false } })),
+      $or: TARGET_LANGS.map(l => ({
+        $or: [
+          { [`languages.${l.code}`]: { $exists: false } },
+          { [`languages.${l.code}._checkpoint.complete`]: { $ne: true } },
+        ],
+      })),
     };
   }
 
@@ -405,7 +476,7 @@ async function main() {
     // Which languages still need translating for this recall?
     const langsNeeded = TARGET_LANGS.filter(l => {
       const existing = recall.languages?.[l.code];
-      return RESET || !existing || !existing.title;
+      return RESET || !existing || existing?._checkpoint?.complete !== true;
     });
     const langsSkipped = TARGET_LANGS.length - langsNeeded.length;
 
@@ -444,15 +515,29 @@ async function main() {
         `     ${lang.flag}  ${lang.name.padEnd(12)} ${progressBar(0, totalElements)}\r`
       );
 
-      const translated = await translateLangObject(enSource, lang.name, (n) => {
+      const translated = await translateLangObject(
+        enSource,
+        lang.name,
+        recall.languages?.[lang.code],
+        (n) => {
         process.stdout.write(
           `     ${lang.flag}  ${lang.name.padEnd(12)} ${progressBar(n, totalElements)}\r`
         );
-      });
+        },
+        async (checkpointed) => {
+          if (!DRY_RUN) {
+            await coll.updateOne(
+              { _id: recall._id },
+              { $set: { [`languages.${lang.code}`]: checkpointed } }
+            );
+          }
+        }
+      );
 
       translated.dir  = lang.dir;
       translated.flag = lang.flag;
       translated.lang = lang.code;
+      translated._checkpoint = { complete: true, doneKeys: [], updatedAt: new Date().toISOString() };
 
       const langMs = Date.now() - langStart;
 
@@ -462,6 +547,14 @@ async function main() {
           { _id: recall._id },
           { $set: { [`languages.${lang.code}`]: translated } }
         );
+
+        const partialFresh = await coll.findOne(
+          { _id: recall._id },
+          { projection: { _id: 1, slug: 1, id: 1, sortOrder: 1, title: 1, languages: 1, translatedAt: 1 } }
+        );
+        if (partialFresh?.slug) {
+          upsertRecallDocInTranslatedJson(partialFresh);
+        }
       }
 
       process.stdout.write(
@@ -479,18 +572,14 @@ async function main() {
 
       const fresh = await coll.findOne(
         { _id: recall._id },
-        { projection: { slug: 1, languages: 1, translatedAt: 1 } }
+        { projection: { _id: 1, slug: 1, id: 1, sortOrder: 1, title: 1, languages: 1, translatedAt: 1 } }
       );
-      if (fresh?.slug && fresh?.languages) {
-        const mirrored = upsertRecallLanguagesInJson(
-          fresh.slug,
-          fresh.languages,
-          fresh.translatedAt || new Date().toISOString()
-        );
+      if (fresh?.slug) {
+        const mirrored = upsertRecallDocInTranslatedJson(fresh);
         if (mirrored) {
-          console.log(`  ${C.dim}Mirrored translations to recalls.json for slug:${C.reset} ${fresh.slug}`);
+          console.log(`  ${C.dim}Mirrored to recalltranslated.json for slug:${C.reset} ${fresh.slug}`);
         } else {
-          console.log(`  ${C.yellow}⚠${C.reset} Could not mirror to recalls.json for slug ${fresh.slug}`);
+          console.log(`  ${C.yellow}⚠${C.reset} Could not mirror to recalltranslated.json for slug ${fresh.slug}`);
         }
       }
     }
