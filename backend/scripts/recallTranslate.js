@@ -52,26 +52,17 @@ const TRANSLATED_JSON_PATH = path.join(__dirname, "recalltranslated.json");
 // ─── Languages ────────────────────────────────────────────────────────────────
 
 const LANGUAGES = [
-  { code: "en", name: "English",    flag: "🇺🇸", dir: "ltr" },
-  { code: "es", name: "Spanish",    flag: "🇪🇸", dir: "ltr" },
-  { code: "de", name: "German",     flag: "🇩🇪", dir: "ltr" },
-  { code: "ja", name: "Japanese",   flag: "🇯🇵", dir: "ltr" },
-  { code: "fr", name: "French",     flag: "🇫🇷", dir: "ltr" },
-  { code: "pt", name: "Portuguese", flag: "🇧🇷", dir: "ltr" },
-  { code: "ru", name: "Russian",    flag: "🇷🇺", dir: "ltr" },
-  { code: "it", name: "Italian",    flag: "🇮🇹", dir: "ltr" },
-  { code: "nl", name: "Dutch",      flag: "🇳🇱", dir: "ltr" },
-  { code: "pl", name: "Polish",     flag: "🇵🇱", dir: "ltr" },
-  { code: "tr", name: "Turkish",    flag: "🇹🇷", dir: "ltr" },
-  { code: "fa", name: "Persian",    flag: "🇮🇷", dir: "rtl" },
-  { code: "zh", name: "Chinese",    flag: "🇨🇳", dir: "ltr" },
+  { code: "en", name: "English", flag: "🇺🇸", dir: "ltr" },
+  { code: "zh", name: "Chinese (Simplified)", flag: "🇨🇳", dir: "ltr" },
+  { code: "es", name: "Spanish", flag: "🇪🇸", dir: "ltr" },
+  { code: "ar", name: "Arabic", flag: "🇸🇦", dir: "rtl" },
+  { code: "hi", name: "Hindi", flag: "🇮🇳", dir: "ltr" },
+  { code: "pt", name: "Portuguese (Brazil)", flag: "🇧🇷", dir: "ltr" },
+  { code: "ru", name: "Russian", flag: "🇷🇺", dir: "ltr" },
+  { code: "fr", name: "French", flag: "🇫🇷", dir: "ltr" },
+  { code: "ja", name: "Japanese", flag: "🇯🇵", dir: "ltr" },
+  { code: "de", name: "German", flag: "🇩🇪", dir: "ltr" },
   { code: "vi", name: "Vietnamese", flag: "🇻🇳", dir: "ltr" },
-  { code: "id", name: "Indonesian", flag: "🇮🇩", dir: "ltr" },
-  { code: "cs", name: "Czech",      flag: "🇨🇿", dir: "ltr" },
-  { code: "ko", name: "Korean",     flag: "🇰🇷", dir: "ltr" },
-  { code: "uk", name: "Ukrainian",  flag: "🇺🇦", dir: "ltr" },
-  { code: "hu", name: "Hungarian",  flag: "🇭🇺", dir: "ltr" },
-  { code: "ar", name: "Arabic",     flag: "🇸🇦", dir: "rtl" },
 ];
 
 const TARGET_LANGS = LANGUAGES.filter(l => l.code !== "en");

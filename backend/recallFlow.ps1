@@ -5,7 +5,7 @@
 #  Runs the full recall pipeline in order:
 #    1. scrapeRecalls.js    - scrape FDA recall pages -> recalls.json
 #    2. recallsToMongo.js   - sync recalls.json -> MongoDB
-#    3. recallTranslate.js  - translate all untranslated recalls (19 languages)
+#    3. recallTranslate.js  - translate all untranslated recalls (10 target languages)
 #    4. checkTerminated.js  - mark terminated recalls in MongoDB
 #
 #  Usage (from backend/ directory):

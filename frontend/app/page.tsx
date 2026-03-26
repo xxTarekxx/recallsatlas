@@ -77,7 +77,7 @@ export default function HomePage() {
               <span className="home-stat-label">Official Source</span>
             </div>
             <div className="home-stat">
-              <span className="home-stat-value">20</span>
+              <span className="home-stat-value">11</span>
               <span className="home-stat-label">Languages</span>
             </div>
             <div className="home-stat">
@@ -156,7 +156,7 @@ export default function HomePage() {
             dates, and instructions on the <strong>FDA or NHTSA source</strong> linked
             directly from each recall page. We are committed to improving accessibility
             (WCAG-minded patterns, keyboard navigation, and readable contrast) and
-            expanding support to <strong>more than 20 languages</strong> so recall
+            expanding support to <strong>11 languages</strong> so recall
             information reaches more people worldwide.
           </p>
           <p>
