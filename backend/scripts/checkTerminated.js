@@ -409,16 +409,30 @@ async function main() {
     const { getDb, close } = require("../database/mongodb");
     const db = await getDb();
     const coll = db.collection("recalls");
+    const mongoFailures = [];
 
     for (const c of changes) {
-      const slug = recalls[c.idx].id || recalls[c.idx].slug;
-      await coll.updateOne(
+      const slug = recalls[c.idx].slug || recalls[c.idx].id;
+      if (!slug) {
+        mongoFailures.push({ id: c.id, reason: "missing slug/id" });
+        continue;
+      }
+
+      const res = await coll.updateOne(
         { slug },
         { $set: { terminated: true, terminatedCheckedAt: checkedAt } }
       );
+      if (res.matchedCount !== 1) {
+        mongoFailures.push({ id: c.id, slug, reason: `matchedCount=${res.matchedCount}` });
+        continue;
+      }
       uiOk(slug);
     }
     await close();
+    if (mongoFailures.length > 0) {
+      console.error("MongoDB sync had unmatched updates:", mongoFailures.slice(0, 10));
+      throw new Error(`MongoDB sync failed for ${mongoFailures.length} record(s).`);
+    }
     log("MongoDB sync done.");
   }
 

@@ -162,12 +162,18 @@ export default function RecallDetail({ recall, dbError = null, currentLang = "en
           <div className="recall-detail-hero">
             <p className="recall-detail-badge">FDA Safety Alert</p>
             <h1 className="recall-detail-title">{fullTitle}</h1>
-            <div style={{ marginTop: 12, marginBottom: 8 }}>
-              <label htmlFor="recall-language" style={{ marginRight: 8 }}>
-                Language
-              </label>
+            <div className="recall-language-switcher">
+              <div className="recall-language-switcher-head">
+                <label htmlFor="recall-language" className="recall-language-label">
+                  Language
+                </label>
+                <span className="recall-language-current">
+                  {LANGUAGE_OPTIONS.find((l) => l.code === selectedLang)?.label || "English"}
+                </span>
+              </div>
               <select
                 id="recall-language"
+                className="recall-language-select"
                 value={selectedLang}
                 onChange={(e) => switchLanguage(e.target.value)}
               >
@@ -179,32 +185,27 @@ export default function RecallDetail({ recall, dbError = null, currentLang = "en
               </select>
             </div>
             {selectedLanguageMissing && (
-              <p style={{ marginBottom: 10, color: "#6b7280" }}>
+              <p className="recall-language-note">
                 This language is not available for this recall yet. Showing English.
               </p>
             )}
-            <div style={{ display: "flex", gap: 8, flexWrap: "wrap", marginBottom: 10 }}>
+            <div className="recall-language-flags" role="group" aria-label="Language options">
               {LANGUAGE_OPTIONS.map((lang) => {
                 const unavailable = !isLanguageAvailable(lang.code);
                 return (
-                <button
-                  key={lang.code}
-                  type="button"
-                  onClick={() => switchLanguage(lang.code)}
-                  disabled={unavailable}
-                  aria-label={`Switch to ${lang.label}`}
-                  title={unavailable ? `${lang.label} (not available yet)` : lang.label}
-                  style={{
-                    border: selectedLang === lang.code ? "2px solid #111" : "1px solid #d1d5db",
-                    borderRadius: 6,
-                    padding: 2,
-                    background: unavailable ? "#f3f4f6" : "#fff",
-                    cursor: unavailable ? "not-allowed" : "pointer",
-                    opacity: unavailable ? 0.55 : 1,
-                  }}
-                >
-                  <img src={lang.flag} alt={`${lang.label} flag`} width={22} height={16} />
-                </button>
+                  <button
+                    key={lang.code}
+                    type="button"
+                    onClick={() => switchLanguage(lang.code)}
+                    disabled={unavailable}
+                    aria-label={`Switch to ${lang.label}`}
+                    title={unavailable ? `${lang.label} (not available yet)` : lang.label}
+                    className={`recall-language-flag-btn${
+                      selectedLang === lang.code ? " recall-language-flag-btn--active" : ""
+                    }${unavailable ? " recall-language-flag-btn--disabled" : ""}`}
+                  >
+                    <img src={lang.flag} alt="" width={22} height={16} />
+                  </button>
               )})}
             </div>
             {disclaimer && (
