@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
+import { getDb } from "@/lib/mongodb";
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://recallsatlas.com";
 
@@ -19,7 +20,16 @@ export const metadata: Metadata = {
   },
 };
 
-export default function HomePage() {
+export default async function HomePage() {
+  let recallsCountText = "239+";
+  try {
+    const db = await getDb();
+    const recallsCount = await db.collection("recalls").countDocuments();
+    recallsCountText = `${new Intl.NumberFormat("en-US").format(recallsCount)}+`;
+  } catch {
+    // Keep fallback value when DB is temporarily unavailable.
+  }
+
   return (
     <div className="homepage">
 
@@ -69,7 +79,7 @@ export default function HomePage() {
           {/* Stats */}
           <div className="home-stats" aria-label="Site statistics">
             <div className="home-stat">
-              <span className="home-stat-value">239+</span>
+              <span className="home-stat-value">{recallsCountText}</span>
               <span className="home-stat-label">Recalls Tracked</span>
             </div>
             <div className="home-stat">
@@ -77,7 +87,7 @@ export default function HomePage() {
               <span className="home-stat-label">Official Source</span>
             </div>
             <div className="home-stat">
-              <span className="home-stat-value">11</span>
+              <span className="home-stat-value">19+</span>
               <span className="home-stat-label">Languages</span>
             </div>
             <div className="home-stat">

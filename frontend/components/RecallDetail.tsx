@@ -58,6 +58,7 @@ export default function RecallDetail({ recall, dbError = null, currentLang = "en
   const router = useRouter();
   const pathname = usePathname();
   const [selectedLang, setSelectedLang] = useState(currentLang);
+  const [isLangMenuOpen, setIsLangMenuOpen] = useState(false);
   const translatedByCode = recall?.languages && typeof recall.languages === "object" ? recall.languages : {};
   const activeLangObj = translatedByCode[selectedLang] || translatedByCode.en || {};
   const activeDir = activeLangObj?.dir || "ltr";
@@ -80,6 +81,7 @@ export default function RecallDetail({ recall, dbError = null, currentLang = "en
 
   const switchLanguage = (langCode: string) => {
     setSelectedLang(langCode);
+    setIsLangMenuOpen(false);
     const nextPath = makeLocalizedPath(langCode);
     router.push(nextPath, { scroll: false });
   };
@@ -137,6 +139,7 @@ export default function RecallDetail({ recall, dbError = null, currentLang = "en
       {isTerminated ? "Terminated" : "Ongoing"}
     </span>
   );
+  const selectedLanguage = LANGUAGE_OPTIONS.find((l) => l.code === selectedLang) || LANGUAGE_OPTIONS[0];
 
   return (
     <div className="recall-detail-page" dir={activeDir}>
@@ -160,54 +163,59 @@ export default function RecallDetail({ recall, dbError = null, currentLang = "en
 
         <article className="recall-detail-article">
           <div className="recall-detail-hero">
+            <span className="recall-language-current recall-language-current--hero">
+              {selectedLanguage.label}
+            </span>
             <p className="recall-detail-badge">FDA Safety Alert</p>
             <h1 className="recall-detail-title">{fullTitle}</h1>
             <div className="recall-language-switcher">
               <div className="recall-language-switcher-head">
-                <label htmlFor="recall-language" className="recall-language-label">
-                  Language
-                </label>
-                <span className="recall-language-current">
-                  {LANGUAGE_OPTIONS.find((l) => l.code === selectedLang)?.label || "English"}
-                </span>
+                <span className="recall-language-label">Language</span>
               </div>
-              <select
-                id="recall-language"
-                className="recall-language-select"
-                value={selectedLang}
-                onChange={(e) => switchLanguage(e.target.value)}
+              <button
+                type="button"
+                className="recall-language-menu-trigger"
+                onClick={() => setIsLangMenuOpen((v) => !v)}
+                aria-haspopup="listbox"
+                aria-expanded={isLangMenuOpen}
               >
-                {LANGUAGE_OPTIONS.map((lang) => (
-                  <option key={lang.code} value={lang.code} disabled={!isLanguageAvailable(lang.code)}>
-                    {lang.label}
-                  </option>
-                ))}
-              </select>
+                <span className="recall-language-trigger-inner">
+                  <img src={selectedLanguage.flag} alt="" width={22} height={16} />
+                  <span>{selectedLanguage.label}</span>
+                </span>
+                <span aria-hidden="true">▾</span>
+              </button>
+              {isLangMenuOpen && (
+                <ul className="recall-language-menu" role="listbox" aria-label="Languages">
+                  {LANGUAGE_OPTIONS.map((lang) => {
+                    const unavailable = !isLanguageAvailable(lang.code);
+                    return (
+                      <li key={lang.code}>
+                        <button
+                          type="button"
+                          role="option"
+                          aria-selected={selectedLang === lang.code}
+                          disabled={unavailable}
+                          onClick={() => switchLanguage(lang.code)}
+                          className={`recall-language-menu-item${
+                            selectedLang === lang.code ? " recall-language-menu-item--active" : ""
+                          }${unavailable ? " recall-language-menu-item--disabled" : ""}`}
+                        >
+                          <img src={lang.flag} alt="" width={22} height={16} />
+                          <span>{lang.label}</span>
+                          {unavailable && <span className="recall-language-menu-tag">Unavailable</span>}
+                        </button>
+                      </li>
+                    );
+                  })}
+                </ul>
+              )}
             </div>
             {selectedLanguageMissing && (
               <p className="recall-language-note">
                 This language is not available for this recall yet. Showing English.
               </p>
             )}
-            <div className="recall-language-flags" role="group" aria-label="Language options">
-              {LANGUAGE_OPTIONS.map((lang) => {
-                const unavailable = !isLanguageAvailable(lang.code);
-                return (
-                  <button
-                    key={lang.code}
-                    type="button"
-                    onClick={() => switchLanguage(lang.code)}
-                    disabled={unavailable}
-                    aria-label={`Switch to ${lang.label}`}
-                    title={unavailable ? `${lang.label} (not available yet)` : lang.label}
-                    className={`recall-language-flag-btn${
-                      selectedLang === lang.code ? " recall-language-flag-btn--active" : ""
-                    }${unavailable ? " recall-language-flag-btn--disabled" : ""}`}
-                  >
-                    <img src={lang.flag} alt="" width={22} height={16} />
-                  </button>
-              )})}
-            </div>
             {disclaimer && (
               <p className="recall-detail-disclaimer">{disclaimer}</p>
             )}
