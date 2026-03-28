@@ -1,5 +1,6 @@
 import Link from "next/link";
 import RecallsListClient from "@/components/RecallsListClient";
+import SearchSuggest from "@/components/SearchSuggest";
 
 const CATEGORIES = ["Drugs", "Food", "Medical Devices", "Supplements"];
 
@@ -14,18 +15,14 @@ export default function RecallsListPage() {
       <main className="main-content" style={{ overflow: "visible" }}>
         <h1>FDA Recalls</h1>
         <section className="filter-bar">
-          <form className="filter-bar-search" action="/recalls" method="get">
-            <input
-              type="search"
-              name="q"
-              placeholder="Search recalls..."
-              className="search-input"
-              aria-label="Search recalls"
-            />
-            <button type="submit" className="search-btn">
-              Search
-            </button>
-          </form>
+          <SearchSuggest
+            action="/recalls"
+            wrapperClassName="filter-bar-search"
+            inputClassName="search-input"
+            buttonClassName="search-btn"
+            placeholder="Search headline or product type..."
+            ariaLabel="Search recalls"
+          />
           <span className="filter-bar-divider" aria-hidden="true">|</span>
           <div className="filter-bar-categories">
             {CATEGORIES.map((cat) => (

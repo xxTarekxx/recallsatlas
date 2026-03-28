@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import { getDb } from "@/lib/mongodb";
+import SearchSuggest from "@/components/SearchSuggest";
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://recallsatlas.com";
 
@@ -52,29 +53,14 @@ export default async function HomePage() {
           </p>
 
           {/* Search — routes to /recalls?q= */}
-          <form
-            className="home-hero-search"
+          <SearchSuggest
             action="/recalls"
-            method="get"
-            role="search"
-            aria-label="Search recalls"
-          >
-            <label htmlFor="hero-search" className="sr-only">
-              Search recalls by product, brand, or keyword
-            </label>
-            <input
-              id="hero-search"
-              type="search"
-              name="q"
-              className="home-hero-search-input"
-              placeholder="Search by product, brand, or keyword…"
-              autoComplete="off"
-              aria-label="Search recalls"
-            />
-            <button type="submit" className="home-hero-search-btn" aria-label="Submit search">
-              Search
-            </button>
-          </form>
+            wrapperClassName="home-hero-search"
+            inputClassName="home-hero-search-input"
+            buttonClassName="home-hero-search-btn"
+            placeholder="Search by headline or product type..."
+            ariaLabel="Search recalls"
+          />
 
           {/* Stats */}
           <div className="home-stats" aria-label="Site statistics">

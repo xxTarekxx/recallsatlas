@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect, useCallback } from "react";
+import { useSearchParams } from "next/navigation";
 import RecallCard from "./RecallCard";
 
 const PAGE_SIZE = 50;
@@ -19,6 +20,8 @@ function getPageNumbers(current: number, total: number): (number | "ellipsis")[]
 }
 
 export default function RecallsListClient() {
+  const searchParams = useSearchParams();
+  const q = (searchParams.get("q") || "").trim();
   const [recalls, setRecalls] = useState<any[]>([]);
   const [page, setPage] = useState(1);
   const [totalPages, setTotalPages] = useState(1);
@@ -30,7 +33,12 @@ export default function RecallsListClient() {
     setLoading(true);
     setError(null);
     try {
-      const res = await fetch(`/api/recalls?page=${pageNum}&limit=${PAGE_SIZE}`);
+      const params = new URLSearchParams({
+        page: String(pageNum),
+        limit: String(PAGE_SIZE),
+      });
+      if (q) params.set("q", q);
+      const res = await fetch(`/api/recalls?${params.toString()}`);
       if (!res.ok) throw new Error("Failed to load recalls");
       const data = await res.json();
       setRecalls(data.recalls || []);
@@ -44,11 +52,11 @@ export default function RecallsListClient() {
     } finally {
       setLoading(false);
     }
-  }, []);
+  }, [q]);
 
   useEffect(() => {
     fetchPage(1);
-  }, []);
+  }, [fetchPage]);
 
   const goToPage = (nextPage: number) => {
     if (nextPage < 1 || nextPage > totalPages) return;
