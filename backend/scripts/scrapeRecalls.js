@@ -1489,6 +1489,12 @@ function normalizeSourceUrl(url) {
     return u || "";
 }
 
+/** True when list row date is strictly before newest date in recalls.json (ISO-like compare). */
+function isRowOlderThanStored(rowDate, newestExistingDate) {
+    if (!newestExistingDate || !rowDate) return false;
+    return rowDate < newestExistingDate;
+}
+
 (async () => {
     const results = safeReadJson(JSON_PATH, []);
     const imageMap = safeReadJson(IMAGE_MAP_PATH, {});
@@ -1502,18 +1508,15 @@ function normalizeSourceUrl(url) {
         results.map((item) => item.id).filter(Boolean)
     );
 
-    let nextNewerSortOrder = START_SORT_ORDER;
-    let nextOlderSortOrder = START_SORT_ORDER - 1;
+    let maxSort = START_SORT_ORDER - 1;
     const sortOrders = new Set(
         results
             .map((item) => (typeof item.sortOrder === "number" ? item.sortOrder : null))
             .filter((n) => n != null)
     );
     if (sortOrders.size > 0) {
-        const maxSort = Math.max(...sortOrders);
+        maxSort = Math.max(...sortOrders);
         const minSort = Math.min(...sortOrders);
-        nextNewerSortOrder = maxSort + 1;
-        nextOlderSortOrder = minSort - 1;
         const gaps = [];
         for (let i = minSort; i <= maxSort; i++) {
             if (!sortOrders.has(i)) gaps.push(i);
@@ -1523,8 +1526,8 @@ function normalizeSourceUrl(url) {
         }
     }
 
-    // Newest date among existing recalls — used to decide if a recall is
-    // genuinely new (no cap) vs historical (capped at MAX_TOTAL).
+    // Newest date among existing recalls — list rows before this are "old" and end the scan.
+    // sourceUrl (detail URL) is the second check: already in JSON → skip.
     const newestExistingDate = results.reduce((best, r) => {
         const d = r.fdaPublishDateTime || r.fdaPublishDate ||
                   r.companyAnnouncementDateTime || r.datePublished || "";
@@ -1532,9 +1535,7 @@ function normalizeSourceUrl(url) {
     }, "");
 
     log(`Loaded existing recalls: ${results.length}, unique sourceUrls: ${processedUrls.size}`);
-    log(`Newest existing date: ${newestExistingDate || "(none)"}`);
-    log(`Next sortOrder for newer recalls: ${nextNewerSortOrder}`);
-    log(`Next sortOrder for older recalls: ${nextOlderSortOrder}`);
+    log(`Newest existing date: ${newestExistingDate || "(none)"} (vs FDA table + sourceUrl)`);
     progress.update({ phase: "Start", current: 0, total: MAX_RECORDS, status: "Launching browser..." });
 
     const browser = await chromium.launch({
@@ -1574,156 +1575,210 @@ function normalizeSourceUrl(url) {
     await page.waitForSelector("#datatable tbody tr");
     log("Set DataTable page size to 100 and Terminated Recall filter to No");
 
+    // Pass 1: walk FDA table (newest → older). Collect rows that are not already in recalls.json
+    // by sourceUrl and are not older than our newest stored date. Pass 2 assigns sortOrder so the
+    // first table row (top) gets maxSort+N, …, last new row gets maxSort+1.
+    const pendingCandidates = [];
     let pageIndex = 1;
-    let addedThisRun = 0;
     let hasNext = true;
 
-    while (
-        hasNext &&
-        addedThisRun < MAX_RECORDS
-    ) {
-        progress.update({ phase: "Scrape", current: addedThisRun, total: MAX_RECORDS, status: `Page ${pageIndex}...` });
-        log(`Reading DataTable page ${pageIndex}...`);
+    while (hasNext && pendingCandidates.length < MAX_RECORDS) {
+        progress.update({
+            phase: "Scan",
+            current: pendingCandidates.length,
+            total: MAX_RECORDS,
+            status: `Page ${pageIndex}…`,
+        });
+        log(`Reading DataTable page ${pageIndex} (enumerate new rows)…`);
 
         await waitForDatatableReady(page);
 
         const rows = await extractListRows(page);
         log(`Rows found on page ${pageIndex}: ${rows.length}`);
 
-        let sawOlderOnThisPage = false;
+        let hitOlderThanDb = false;
         for (const listRow of rows) {
-            if (addedThisRun >= MAX_RECORDS) break;
+            if (pendingCandidates.length >= MAX_RECORDS) break;
 
-            // Check if this row is a genuinely new recall (newer than our newest).
-            // List rows have listDateTime from the FDA table — use it for a quick check.
             const rowDate = listRow.listDateTime || listRow.listDateText || "";
-            const isNewer = newestExistingDate === "" || rowDate > newestExistingDate;
-
-            // Backfill mode is temporarily disabled:
-            // skip older recalls and ingest only genuinely new recalls.
-            if (!isNewer) {
-                sawOlderOnThisPage = true;
-                continue;
-            }
-
             const detailUrl = listRow.detailUrl;
             if (!detailUrl) continue;
 
-            const normalizedDetailUrl = normalizeSourceUrl(detailUrl);
-            if (normalizedDetailUrl && processedUrls.has(normalizedDetailUrl)) {
-                log(`Skip already processed: ${detailUrl}`);
+            if (newestExistingDate && !rowDate) {
+                log("Skip row with empty list date (recalls.json has a newest date).");
                 continue;
             }
 
-            const shortUrl = detailUrl.replace(/^https?:\/\//, "").slice(0, 35);
-            progress.update({ phase: "Scrape", current: addedThisRun, total: MAX_RECORDS, status: shortUrl + "…" });
-            log(`Processing detail page: ${detailUrl}`);
+            const normalizedDetailUrl = normalizeSourceUrl(detailUrl);
+            if (normalizedDetailUrl && processedUrls.has(normalizedDetailUrl)) {
+                log(`Skip already stored (sourceUrl): ${detailUrl}`);
+                continue;
+            }
 
-            const detailPage = await context.newPage();
-            detailPage.setDefaultNavigationTimeout(NAV_TIMEOUT);
-            detailPage.setDefaultTimeout(NAV_TIMEOUT);
+            if (isRowOlderThanStored(rowDate, newestExistingDate)) {
+                hitOlderThanDb = true;
+                break;
+            }
 
-            try {
-                const detailData = await extractDetailPage(detailPage, detailUrl);
-                if (!detailData) {
-                    log(`Failed to extract detail page: ${detailUrl}`);
-                    await detailPage.close();
-                    await randomDelay("after failed detail page");
-                    continue;
+            pendingCandidates.push({ listRow, detailUrl, normalizedDetailUrl });
+        }
+
+        if (hitOlderThanDb) {
+            if (pendingCandidates.length === 0) {
+                log("Reached FDA rows older than newest in recalls.json; nothing new to add.");
+            } else {
+                log("Reached older FDA rows; stopping table scan.");
+            }
+            hasNext = false;
+            break;
+        }
+
+        if (pendingCandidates.length >= MAX_RECORDS) {
+            log(`Stopping scan: MAX_RECORDS (${MAX_RECORDS}) new rows queued.`);
+            hasNext = false;
+            break;
+        }
+
+        const moved = await clickNextDatatablePage(page);
+        if (!moved) {
+            hasNext = false;
+            log("No more DataTable pages.");
+            break;
+        }
+
+        pageIndex += 1;
+    }
+
+    const N = pendingCandidates.length;
+    if (N === 0) {
+        log("No new recalls to ingest (list date + sourceUrl checks).");
+        saveAll(results, imageMap);
+        await browser.close();
+        progress.finish(`DONE · 0 new · ${results.length} total in file`);
+        log("DONE");
+        return;
+    }
+
+    for (let i = 0; i < N; i++) {
+        pendingCandidates[i].assignedSortOrder = maxSort + N - i;
+    }
+    log(
+        `New recalls to ingest: ${N} — sortOrder ${maxSort + N} (FDA table top) … ${maxSort + 1} (oldest in batch)`
+    );
+
+    let savedThisRun = 0;
+    progress.update({ phase: "Scrape", current: 0, total: N, status: "Detail pages…" });
+
+    for (let ci = 0; ci < pendingCandidates.length; ci++) {
+        const cand = pendingCandidates[ci];
+        const { listRow, detailUrl, normalizedDetailUrl, assignedSortOrder } = cand;
+        const step = ci + 1;
+        const shortUrl = detailUrl.replace(/^https?:\/\//, "").slice(0, 35);
+        progress.update({ phase: "Scrape", current: step, total: N, status: shortUrl + "…" });
+        log(`Detail [${step}/${N}] sortOrder=${assignedSortOrder}: ${detailUrl}`);
+
+        const detailPage = await context.newPage();
+        detailPage.setDefaultNavigationTimeout(NAV_TIMEOUT);
+        detailPage.setDefaultTimeout(NAV_TIMEOUT);
+
+        try {
+            const detailData = await extractDetailPage(detailPage, detailUrl);
+            if (!detailData) {
+                log(`Failed to extract detail page: ${detailUrl}`);
+                await detailPage.close();
+                await randomDelay("after failed detail page");
+                continue;
+            }
+
+            const merged = mergeListAndDetailData(listRow, detailData);
+
+            const publishedDate =
+                normalizeDate(merged.fdaPublishDateTime) ||
+                normalizeDate(merged.fdaPublishDateText) ||
+                normalizeDate(merged.companyAnnouncementDateTime) ||
+                normalizeDate(merged.companyAnnouncementDateText) ||
+                todayISODate();
+
+            const year = extractYear(publishedDate, "2026");
+            const slugBase = buildSlugBase({
+                brandName: merged.brandName,
+                companyName: merged.companyName,
+                productDescription: merged.productDescription,
+                year,
+            });
+            const slug = ensureUniqueSlug(slugBase, existingSlugs);
+            const folderName = `${assignedSortOrder}-${slug}`;
+
+            log(`Slug: ${slug}`);
+            log(`Folder: ${folderName}`);
+
+            const rewrittenSummary = await rewriteAnnouncementForSEO({
+                title: merged.title,
+                companyName: merged.companyName,
+                brandName: merged.brandName,
+                productDescription: merged.productDescription,
+                productType: merged.productType,
+                reason: merged.reason,
+                rawAnnouncement: merged.rawAnnouncement,
+            });
+
+            await randomDelay("after rewrite");
+
+            const consumerActionText = await generateConsumerActionText({
+                companyName: merged.companyName,
+                brandName: merged.brandName,
+                productDescription: merged.productDescription,
+                reason: merged.reason,
+                consumerPhone: merged.contacts?.consumers?.phone || "",
+                consumerEmail: merged.contacts?.consumers?.email || "",
+                lotCheckUrl: merged.lotCheckUrl || "",
+            });
+
+            await randomDelay("after consumer action generation");
+
+            const savedImages = [];
+            if (merged.images && merged.images.length > 0) {
+                for (const imageUrl of merged.images) {
+                    const localPath = await processImage(imageUrl, folderName, imageMap);
+                    if (localPath) savedImages.push(localPath);
+                    await randomDelay("between images");
                 }
+            }
 
-                const merged = mergeListAndDetailData(listRow, detailData);
+            const canonicalUrl = makeCanonicalUrl(slug);
+            const authorityLinks = buildAuthorityLinks(
+                detailUrl,
+                merged.consumerWebsite,
+                merged.companyWebsite,
+                merged.lotCheckUrl
+            );
 
-                const publishedDate =
-                    normalizeDate(merged.fdaPublishDateTime) ||
-                    normalizeDate(merged.fdaPublishDateText) ||
-                    normalizeDate(merged.companyAnnouncementDateTime) ||
-                    normalizeDate(merged.companyAnnouncementDateText) ||
-                    todayISODate();
+            const contentSections = buildContentSections({
+                data: merged,
+                rewrittenSummary,
+                consumerActionText,
+                authorityLinks,
+            });
 
-                const year = extractYear(publishedDate, "2026");
-                const slugBase = buildSlugBase({
-                    brandName: merged.brandName,
-                    companyName: merged.companyName,
-                    productDescription: merged.productDescription,
-                    year,
-                });
-                const slug = ensureUniqueSlug(slugBase, existingSlugs);
-                const assignedSortOrder = isNewer
-                    ? nextNewerSortOrder++
-                    : nextOlderSortOrder--;
-                const folderName = `${assignedSortOrder}-${slug}`;
+            const description = makeDescription({
+                companyName: merged.companyName,
+                brandName: merged.brandName,
+                productDescription: merged.productDescription,
+                reason: merged.reason,
+                year,
+            });
 
-                log(`Slug: ${slug}`);
-                log(`Folder: ${folderName}`);
+            const keywords = makeKeywords({
+                companyName: merged.companyName,
+                brandName: merged.brandName,
+                productDescription: merged.productDescription,
+                productType: merged.productType,
+                reason: merged.reason,
+                regulatedProducts: merged.regulatedProducts || [],
+                year,
+            });
 
-                const rewrittenSummary = await rewriteAnnouncementForSEO({
-                    title: merged.title,
-                    companyName: merged.companyName,
-                    brandName: merged.brandName,
-                    productDescription: merged.productDescription,
-                    productType: merged.productType,
-                    reason: merged.reason,
-                    rawAnnouncement: merged.rawAnnouncement,
-                });
-
-                await randomDelay("after rewrite");
-
-                const consumerActionText = await generateConsumerActionText({
-                    companyName: merged.companyName,
-                    brandName: merged.brandName,
-                    productDescription: merged.productDescription,
-                    reason: merged.reason,
-                    consumerPhone: merged.contacts?.consumers?.phone || "",
-                    consumerEmail: merged.contacts?.consumers?.email || "",
-                    lotCheckUrl: merged.lotCheckUrl || "",
-                });
-
-                await randomDelay("after consumer action generation");
-
-                const savedImages = [];
-                if (merged.images && merged.images.length > 0) {
-                    for (const imageUrl of merged.images) {
-                        const localPath = await processImage(imageUrl, folderName, imageMap);
-                        if (localPath) savedImages.push(localPath);
-                        await randomDelay("between images");
-                    }
-                }
-
-                const canonicalUrl = makeCanonicalUrl(slug);
-                const authorityLinks = buildAuthorityLinks(
-                    detailUrl,
-                    merged.consumerWebsite,
-                    merged.companyWebsite,
-                    merged.lotCheckUrl
-                );
-
-                const contentSections = buildContentSections({
-                    data: merged,
-                    rewrittenSummary,
-                    consumerActionText,
-                    authorityLinks,
-                });
-
-                const description = makeDescription({
-                    companyName: merged.companyName,
-                    brandName: merged.brandName,
-                    productDescription: merged.productDescription,
-                    reason: merged.reason,
-                    year,
-                });
-
-                const keywords = makeKeywords({
-                    companyName: merged.companyName,
-                    brandName: merged.brandName,
-                    productDescription: merged.productDescription,
-                    productType: merged.productType,
-                    reason: merged.reason,
-                    regulatedProducts: merged.regulatedProducts || [],
-                    year,
-                });
-
-                const article = omitEmptyDeep({
+            const article = omitEmptyDeep({
                     "@context": "https://schema.org",
                     "@type": "Article",
 
@@ -1790,76 +1845,36 @@ function normalizeSourceUrl(url) {
 
                     images: savedImages,
                     rawImageSources: merged.images,
-                });
-
-                if (!savedImages.length) {
-                    delete article.images;
-                    delete article.rawImageSources;
-                }
-
-                results.push(article);
-                if (normalizedDetailUrl) processedUrls.add(normalizedDetailUrl);
-                addedThisRun += 1;
-                saveAll(results, imageMap);
-                progress.update({ phase: "Scrape", current: addedThisRun, total: MAX_RECORDS, status: `Saved ${slug}` });
-                if (addedThisRun % 5 === 0) {
-                    log(`Checkpoint: saved after ${addedThisRun} recalls.`);
-                }
-                log(`Saved article ${addedThisRun}/${MAX_RECORDS} this run.`);
-
-                await detailPage.close();
-                await randomDelay("after detail complete");
-            } catch (err) {
-                log(`Detail processing error for ${detailUrl} → ${err.message}`);
-                try {
-                    await detailPage.close();
-                } catch { }
-                await randomDelay("after detail error");
-            }
-        }
-
-        // New recalls appear at the top of the listing. Once we encounter older
-        // rows on the current page and didn't add anything new from this page,
-        // stop scanning deeper pages.
-        if (sawOlderOnThisPage && addedThisRun === 0) {
-            log("Encountered only older rows on current page. Stopping scan early.");
-            hasNext = false;
-            break;
-        }
-
-        if (addedThisRun >= MAX_RECORDS) {
-            hasNext = false;
-            log(`Stopping: MAX_RECORDS (${MAX_RECORDS}) reached this run.`);
-            break;
-        }
-
-        if (addedThisRun > 0 && addedThisRun % 100 === 0) {
-            saveAll(results, imageMap);
-            progress.update({ phase: "Pause", status: "Click Next in browser, then Enter here" });
-            log("Reached 100 recalls. Please click Next in the FDA table in the browser, then press Enter here to continue.");
-            await new Promise((resolve) => {
-                const rl = readline.createInterface({ input: process.stdin, output: process.stdout });
-                rl.question("Press Enter after you clicked Next... ", () => {
-                    rl.close();
-                    resolve();
-                });
             });
-            pageIndex += 1;
-            continue;
-        }
 
-        const moved = await clickNextDatatablePage(page);
-        if (!moved) {
-            hasNext = false;
-            log("No more DataTable pages.");
-            break;
-        }
+            if (!savedImages.length) {
+                delete article.images;
+                delete article.rawImageSources;
+            }
 
-        pageIndex += 1;
+            results.push(article);
+            if (normalizedDetailUrl) processedUrls.add(normalizedDetailUrl);
+            savedThisRun += 1;
+            saveAll(results, imageMap);
+            progress.update({ phase: "Scrape", current: step, total: N, status: `Saved ${slug}` });
+            if (savedThisRun % 5 === 0) {
+                log(`Checkpoint: saved after ${savedThisRun} recalls.`);
+            }
+            log(`Saved article ${savedThisRun}/${N} this run.`);
+
+            await detailPage.close();
+            await randomDelay("after detail complete");
+        } catch (err) {
+            log(`Detail processing error for ${detailUrl} → ${err.message}`);
+            try {
+                await detailPage.close();
+            } catch { }
+            await randomDelay("after detail error");
+        }
     }
 
     saveAll(results, imageMap);
     await browser.close();
-    progress.finish(`DONE · ${addedThisRun} recalls this run, ${results.length} total`);
+    progress.finish(`DONE · ${savedThisRun} saved this run, ${results.length} total`);
     log("DONE");
 })();
