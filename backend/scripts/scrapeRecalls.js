@@ -36,6 +36,8 @@ const LOG_PATH = path.join(__dirname, "recalls-log.txt");
 const START_SORT_ORDER = 1000;
 const MAX_RECORDS      = 100;  // max NEW recalls per run
 const MAX_TOTAL        = 300;  // hard stop: never exceed this many total recalls
+/** If the first N FDA rows match the N highest-sortOrder recalls in recalls.json (URLs in order), skip Pass 1 scan. */
+const EARLY_EXIT_TOP_N = 5;
 const MAX_RETRIES = 3;
 
 const MIN_DELAY_MS = 5000;
@@ -50,18 +52,28 @@ const IMAGE_WEBP_EFFORT = 6;
 
 const HEADLESS = false;
 
+/**
+ * Re-number sortOrder 1→N by date, rename `{sortOrder}-{slug}/` image folders, sync paths to Mongo.
+ *   node scripts/scrapeRecalls.js --fix-sort-order           # preview
+ *   node scripts/scrapeRecalls.js --fix-sort-order --apply   # write JSON + disk + Mongo (no scrape, no OpenAI)
+ */
+const FIX_SORT_ORDER = process.argv.includes("--fix-sort-order");
+
 // ======================================================
 // INIT
 // ======================================================
 
-if (!OPENAI_API_KEY) {
+if (!FIX_SORT_ORDER && !OPENAI_API_KEY) {
     console.error("Missing OPENAI_API_KEY in .env");
     process.exit(1);
 }
 
 if (!fs.existsSync(IMAGE_BASE_DIR)) fs.mkdirSync(IMAGE_BASE_DIR, { recursive: true });
 
-const openai = new OpenAI({ apiKey: OPENAI_API_KEY });
+let openai = null;
+if (!FIX_SORT_ORDER) {
+    openai = new OpenAI({ apiKey: OPENAI_API_KEY });
+}
 
 // ======================================================
 // PROGRESS (terminal)
@@ -159,76 +171,166 @@ function saveAll(results, imageMap) {
     log(`Progress saved. recalls=${results.length} imageMap=${Object.keys(imageMap).length}`);
 }
 
+// ─── sortOrder repair (chronological 1→N, folders, Mongo) — run: --fix-sort-order [--apply] ───
+
+function repairGetDate(r) {
+    return (
+        r.fdaPublishDateTime ||
+        r.fdaPublishDate ||
+        r.companyAnnouncementDateTime ||
+        r.datePublished ||
+        ""
+    );
+}
+
+function repairGetFolderName(recall) {
+    const firstPath =
+        recall.images?.[0] ||
+        (typeof recall.image === "object" ? recall.image?.url : recall.image) ||
+        "";
+    if (!firstPath) return null;
+    const m = firstPath.match(/\/images\/recalls\/([^/]+)\//);
+    return m ? m[1] : null;
+}
+
+function repairUpdateImagePaths(recall, oldFolder, newFolder) {
+    const replace = (p) =>
+        typeof p === "string"
+            ? p.replace(`/images/recalls/${oldFolder}/`, `/images/recalls/${newFolder}/`)
+            : p;
+    if (Array.isArray(recall.images)) recall.images = recall.images.map(replace);
+    if (typeof recall.image === "string") recall.image = replace(recall.image);
+    if (recall.image && typeof recall.image === "object" && recall.image.url) {
+        recall.image = { ...recall.image, url: replace(recall.image.url) };
+    }
+}
+
 /**
- * Re-assign sortOrder 1→N across all recalls, sorted by date (oldest first).
- * Also renames image folders on disk and updates image paths in each recall
- * so folder names always match the recall's sortOrder.
+ * Sort oldest→newest, assign sortOrder 1…N, update path strings. Returns { sorted, changes }.
  */
-function reassignSortOrders(results) {
-    function getDate(r) {
-        return (
-            r.fdaPublishDateTime ||
-            r.fdaPublishDate     ||
-            r.companyAnnouncementDateTime ||
-            r.datePublished      ||
-            ""
-        );
-    }
-
-    function getFolderName(recall) {
-        const firstPath =
-            recall.images?.[0] ||
-            (typeof recall.image === "object" ? recall.image?.url : recall.image) || "";
-        if (!firstPath) return null;
-        const m = firstPath.match(/\/images\/recalls\/([^/]+)\//);
-        return m ? m[1] : null;
-    }
-
-    function updateImagePaths(recall, oldFolder, newFolder) {
-        const replace = (p) =>
-            typeof p === "string"
-                ? p.replace(`/images/recalls/${oldFolder}/`, `/images/recalls/${newFolder}/`)
-                : p;
-        if (Array.isArray(recall.images)) recall.images = recall.images.map(replace);
-        if (typeof recall.image === "string") recall.image = replace(recall.image);
-        if (recall.image && typeof recall.image === "object" && recall.image.url) {
-            recall.image = { ...recall.image, url: replace(recall.image.url) };
-        }
-    }
-
+function planSortOrderRepair(results) {
     const sorted = [...results].sort((a, b) => {
-        const da = getDate(a);
-        const db = getDate(b);
+        const da = repairGetDate(a);
+        const db = repairGetDate(b);
         if (da < db) return -1;
-        if (da > db) return  1;
+        if (da > db) return 1;
         const sa = a.id || a.slug || "";
         const sb = b.id || b.slug || "";
         return sa < sb ? -1 : sa > sb ? 1 : 0;
     });
 
-    let changed = 0;
+    const changes = [];
     sorted.forEach((recall, i) => {
-        const newOrder  = i + 1;
-        const oldFolder = getFolderName(recall);
-        const newFolder = oldFolder
-            ? oldFolder.replace(/^\d+(-|$)/, `${newOrder}$1`)
-            : null;
+        const newOrder = i + 1;
+        const oldOrder = recall.sortOrder;
+        const slug = recall.id || recall.slug || "";
+        const oldFolder = repairGetFolderName(recall);
+        const newFolder = oldFolder ? oldFolder.replace(/^\d+(-|$)/, `${newOrder}$1`) : null;
 
-        if (recall.sortOrder !== newOrder) changed++;
+        if (oldOrder !== newOrder || (oldFolder && oldFolder !== newFolder)) {
+            changes.push({ slug, oldOrder, newOrder, oldFolder, newFolder });
+        }
+
         recall.sortOrder = newOrder;
 
         if (oldFolder && newFolder && oldFolder !== newFolder) {
-            const oldPath = path.join(IMAGE_BASE_DIR, oldFolder);
-            const newPath = path.join(IMAGE_BASE_DIR, newFolder);
-            if (fs.existsSync(oldPath) && !fs.existsSync(newPath)) {
-                fs.renameSync(oldPath, newPath);
-                log(`Renamed folder: ${oldFolder} → ${newFolder}`);
-            }
-            updateImagePaths(recall, oldFolder, newFolder);
+            repairUpdateImagePaths(recall, oldFolder, newFolder);
         }
     });
 
-    log(`reassignSortOrders: ${results.length} recalls, ${changed} sortOrder(s) changed`);
+    return { sorted, changes };
+}
+
+async function runFixSortOrderMode(apply) {
+    if (!fs.existsSync(JSON_PATH)) {
+        console.error("recalls.json not found at:", JSON_PATH);
+        process.exit(1);
+    }
+
+    const raw = fs.readFileSync(JSON_PATH, "utf8");
+    const results = JSON.parse(raw);
+    if (!Array.isArray(results)) {
+        console.error("recalls.json must be a JSON array.");
+        process.exit(1);
+    }
+
+    log(`\n[fix-sort-order] Loaded ${results.length} recalls · image dir: ${IMAGE_BASE_DIR}`);
+    const { sorted, changes } = planSortOrderRepair(results);
+
+    log(`[fix-sort-order] Changes needed: ${changes.length}`);
+    for (const c of changes) {
+        const orderStr = `${String(c.oldOrder).padStart(4)} → ${String(c.newOrder).padStart(4)}`;
+        const folderStr =
+            c.oldFolder && c.oldFolder !== c.newFolder
+                ? `  [folder: ${c.oldFolder} → ${c.newFolder}]`
+                : "";
+        log(`  ${orderStr}  ${c.slug}${folderStr}`);
+    }
+
+    if (!apply) {
+        log("\n[fix-sort-order] Dry run — add --apply to write recalls.json, rename folders, update MongoDB.\n");
+        return;
+    }
+
+    let renamedFolders = 0;
+    let missingFolders = 0;
+
+    for (const c of changes) {
+        if (!c.oldFolder || !c.newFolder || c.oldFolder === c.newFolder) continue;
+
+        const oldPath = path.join(IMAGE_BASE_DIR, c.oldFolder);
+        const newPath = path.join(IMAGE_BASE_DIR, c.newFolder);
+
+        if (!fs.existsSync(oldPath)) {
+            missingFolders++;
+            continue;
+        }
+        if (fs.existsSync(newPath)) {
+            log(`  Skip rename (target exists): ${c.newFolder}`);
+            continue;
+        }
+
+        try {
+            fs.renameSync(oldPath, newPath);
+            renamedFolders++;
+            log(`  Renamed: ${c.oldFolder} → ${c.newFolder}`);
+        } catch (err) {
+            if (err.code === "EBUSY") {
+                log(`  EBUSY (folder locked): ${c.oldFolder} — stop Next.js dev server and retry.`);
+                process.exit(1);
+            }
+            throw err;
+        }
+    }
+
+    log(`\n[fix-sort-order] Folders renamed: ${renamedFolders}  (${missingFolders} had no on-disk folder)`);
+
+    const newestFirst = [...sorted].reverse();
+    writeJson(JSON_PATH, newestFirst);
+    log("[fix-sort-order] recalls.json updated (newest-first).");
+
+    const { getDb, close } = require("../database/mongodb");
+    const db = await getDb();
+    const coll = db.collection("recalls");
+    let mongoUpdated = 0;
+    for (const recall of sorted) {
+        const slug = recall.id || recall.slug;
+        if (!slug) continue;
+        await coll.updateOne(
+            { slug },
+            {
+                $set: {
+                    sortOrder: recall.sortOrder,
+                    image: recall.image,
+                    images: recall.images,
+                },
+            }
+        );
+        mongoUpdated++;
+    }
+    await close();
+    log(`[fix-sort-order] MongoDB updated: ${mongoUpdated} document(s).\n`);
+    log("[fix-sort-order] Done. Re-run without --apply to confirm 0 changes if needed.\n");
 }
 
 process.on("SIGINT", () => {
@@ -1495,7 +1597,32 @@ function isRowOlderThanStored(rowDate, newestExistingDate) {
     return rowDate < newestExistingDate;
 }
 
+/**
+ * True when the first `n` FDA list rows (with detail links) match the `n` highest-sortOrder
+ * entries in recalls.json by normalized sourceUrl, same order — implies nothing new at the top.
+ */
+function fdaTopMatchesJsonNewest(fdaRows, results, maxN) {
+    const n = Math.min(maxN, results.length);
+    if (n < 1) return false;
+    const sorted = [...results].sort((a, b) => (b.sortOrder ?? 0) - (a.sortOrder ?? 0));
+    const jsonTop = sorted.slice(0, n);
+    const fdaWithUrl = fdaRows.filter((r) => r.detailUrl);
+    if (fdaWithUrl.length < n) return false;
+    for (let i = 0; i < n; i++) {
+        const ju = normalizeSourceUrl(jsonTop[i].sourceUrl);
+        const fu = normalizeSourceUrl(fdaWithUrl[i].detailUrl);
+        if (!ju || !fu || ju !== fu) return false;
+    }
+    return true;
+}
+
 (async () => {
+    if (FIX_SORT_ORDER) {
+        const apply = process.argv.includes("--apply");
+        await runFixSortOrderMode(apply);
+        return;
+    }
+
     const results = safeReadJson(JSON_PATH, []);
     const imageMap = safeReadJson(IMAGE_MAP_PATH, {});
 
@@ -1595,6 +1722,14 @@ function isRowOlderThanStored(rowDate, newestExistingDate) {
 
         const rows = await extractListRows(page);
         log(`Rows found on page ${pageIndex}: ${rows.length}`);
+
+        if (pageIndex === 1 && fdaTopMatchesJsonNewest(rows, results, EARLY_EXIT_TOP_N)) {
+            log(
+                `FDA top ${Math.min(EARLY_EXIT_TOP_N, results.length)} row(s) match highest sortOrder recalls in recalls.json — nothing new, skipping table scan.`
+            );
+            hasNext = false;
+            break;
+        }
 
         let hitOlderThanDb = false;
         for (const listRow of rows) {

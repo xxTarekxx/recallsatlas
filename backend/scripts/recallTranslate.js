@@ -13,6 +13,9 @@
  * Each language entry is saved to MongoDB as soon as it finishes —
  * so the script is fully resume-safe if interrupted.
  *
+ * Local mirror: recalls.json (same folder) is rewritten from Mongo — full documents including
+ * languages.*, sorted by sortOrder descending (newest first).
+ *
  * Usage (from backend/):
  *   node scripts/recallTranslate.js                  # translate all untranslated recalls
  *   node scripts/recallTranslate.js --dry-run        # preview only, no writes
@@ -46,8 +49,7 @@ const LIMIT_ARG = Number((flags.find(f => f.startsWith("--limit=")) || "").split
 const SLUG_ARG = flags.find(f => f.startsWith("--slug="))?.split("=")[1]
               || (args[0] && !args[0].startsWith("--") ? args[0] : null);
 const LIMIT = ONE ? 1 : (Number.isFinite(LIMIT_ARG) && LIMIT_ARG > 0 ? Math.floor(LIMIT_ARG) : null);
-const JSON_PATH = path.join(__dirname, "recalls.json");
-const TRANSLATED_JSON_PATH = path.join(__dirname, "recalltranslated.json");
+const RECALLS_JSON_PATH = path.join(__dirname, "recalls.json");
 
 // ─── Languages ────────────────────────────────────────────────────────────────
 
@@ -375,13 +377,16 @@ function writeJsonArray(filePath, arr) {
   fs.writeFileSync(filePath, JSON.stringify(arr, null, 2), "utf8");
 }
 
-function upsertRecallDocInTranslatedJson(doc) {
+/** Replace one recall in recalls.json with a full Mongo document (includes languages). */
+async function upsertRecallInRecallsJson(coll, recallId) {
+  const doc = await coll.findOne({ _id: recallId });
   if (!doc || !doc.slug) return false;
-  const arr = readJsonArraySafe(TRANSLATED_JSON_PATH);
-  const idx = arr.findIndex(r => (r.slug || r.id) === doc.slug);
+  const arr = readJsonArraySafe(RECALLS_JSON_PATH);
+  const idx = arr.findIndex((r) => (r.slug || r.id) === doc.slug);
   if (idx >= 0) arr[idx] = doc;
   else arr.push(doc);
-  writeJsonArray(TRANSLATED_JSON_PATH, arr);
+  arr.sort((a, b) => (b.sortOrder ?? 0) - (a.sortOrder ?? 0));
+  writeJsonArray(RECALLS_JSON_PATH, arr);
   return true;
 }
 
@@ -401,9 +406,10 @@ async function main() {
   process.stdout.write(` ${C.green}connected${C.reset}\n`);
 
   if (!DRY_RUN) {
-    process.stdout.write(`  ${C.cyan}▸${C.reset} Building local Mongo mirror (recalltranslated.json)…`);
+    process.stdout.write(`  ${C.cyan}▸${C.reset} Writing full Mongo snapshot to recalls.json…`);
     const allDocs = await coll.find({}).toArray();
-    writeJsonArray(TRANSLATED_JSON_PATH, allDocs);
+    allDocs.sort((a, b) => (b.sortOrder ?? 0) - (a.sortOrder ?? 0));
+    writeJsonArray(RECALLS_JSON_PATH, allDocs);
     process.stdout.write(` ${C.green}done${C.reset}\n`);
   }
 
@@ -539,13 +545,7 @@ async function main() {
           { $set: { [`languages.${lang.code}`]: translated } }
         );
 
-        const partialFresh = await coll.findOne(
-          { _id: recall._id },
-          { projection: { _id: 1, slug: 1, id: 1, sortOrder: 1, title: 1, languages: 1, translatedAt: 1 } }
-        );
-        if (partialFresh?.slug) {
-          upsertRecallDocInTranslatedJson(partialFresh);
-        }
+        await upsertRecallInRecallsJson(coll, recall._id);
       }
 
       process.stdout.write(
@@ -561,17 +561,11 @@ async function main() {
         { $set: { translatedAt: new Date().toISOString() } }
       );
 
-      const fresh = await coll.findOne(
-        { _id: recall._id },
-        { projection: { _id: 1, slug: 1, id: 1, sortOrder: 1, title: 1, languages: 1, translatedAt: 1 } }
-      );
-      if (fresh?.slug) {
-        const mirrored = upsertRecallDocInTranslatedJson(fresh);
-        if (mirrored) {
-          console.log(`  ${C.dim}Mirrored to recalltranslated.json for slug:${C.reset} ${fresh.slug}`);
-        } else {
-          console.log(`  ${C.yellow}⚠${C.reset} Could not mirror to recalltranslated.json for slug ${fresh.slug}`);
-        }
+      const mirrored = await upsertRecallInRecallsJson(coll, recall._id);
+      if (mirrored) {
+        console.log(`  ${C.dim}Mirrored to recalls.json — slug:${C.reset} ${recall.slug}`);
+      } else {
+        console.log(`  ${C.yellow}⚠${C.reset} Could not mirror to recalls.json for slug ${recall.slug}`);
       }
     }
 
