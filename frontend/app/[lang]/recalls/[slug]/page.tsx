@@ -33,14 +33,14 @@ const SUPPORTED_LANGS = new Set([
 export async function generateMetadata({ params }: PageProps) {
   const { slug, lang } = await params;
   if (!SUPPORTED_LANGS.has(lang)) {
-    return { title: "Recall not found – RecallsAtlas" };
+    return { title: "Recall not found – Recalls Atlas" };
   }
 
   const db = await getDb();
   const recall = await db.collection("recalls").findOne({ slug });
 
   if (!recall) {
-    return { title: "Recall not found – RecallsAtlas" };
+    return { title: "Recall not found – Recalls Atlas" };
   }
 
   const product = recall.productDescription || "Product";

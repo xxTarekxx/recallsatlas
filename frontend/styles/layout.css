@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════
-   RecallsAtlas — Layout
+   Recalls Atlas — Layout
    Navbar · Main · Footer · Homepage · Policy pages
    ═══════════════════════════════════════════════════════════ */
 
@@ -47,14 +47,33 @@
   opacity: 0.9;
 }
 
-.sitenav-brand-mark {
-  display: flex;
-  align-items: center;
-  color: #f87171; /* soft red alert icon */
+.sitenav-brand-logo {
+  height: 32px;
+  width: auto;
+  max-width: min(200px, 42vw);
+  object-fit: contain;
+  display: block;
 }
 
-.sitenav-brand-text {
-  color: var(--color-white);
+/* Wordmark in page headers (logo artwork includes site name; no separate text) */
+.site-brand-link {
+  display: inline-flex;
+  align-items: center;
+  line-height: 0;
+  text-decoration: none;
+}
+
+.site-brand-link:hover {
+  text-decoration: none;
+  opacity: 0.92;
+}
+
+.site-brand-logo {
+  height: 36px;
+  width: auto;
+  max-width: min(240px, 72vw);
+  object-fit: contain;
+  display: block;
 }
 
 /* Desktop links */

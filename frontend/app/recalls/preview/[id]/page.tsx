@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import SiteBrandLogoLink from "@/components/SiteBrandLogoLink";
 import path from "path";
 import fs from "fs";
 
@@ -37,9 +38,7 @@ export default async function RecallPreviewPage({ params }: PageProps) {
   return (
     <div className="recall-detail-page">
       <header className="site-header">
-        <Link href="/" className="site-title">
-          RecallsAtlas
-        </Link>
+        <SiteBrandLogoLink />
         <span style={{ marginLeft: "1rem", fontSize: "0.9rem", color: "#666" }}>
           (Preview from recalls.json)
         </span>

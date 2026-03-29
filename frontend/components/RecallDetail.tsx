@@ -1,6 +1,7 @@
  "use client";
 
 import Link from "next/link";
+import SiteBrandLogoLink from "@/components/SiteBrandLogoLink";
 import { useEffect, useMemo, useState } from "react";
 import { usePathname, useRouter } from "next/navigation";
 import { getShortRecallTitle } from "@/lib/recall-utils";
@@ -145,9 +146,7 @@ export default function RecallDetail({ recall, dbError = null, currentLang = "en
     <div className="recall-detail-page" dir={activeDir}>
       <header className="site-header">
         <div className="site-header-inner">
-          <Link href="/" className="site-title">
-            RecallsAtlas
-          </Link>
+          <SiteBrandLogoLink />
           <Link href="/recalls" className="site-header-back">
             ← All recalls
           </Link>

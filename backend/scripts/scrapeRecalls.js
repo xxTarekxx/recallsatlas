@@ -1734,12 +1734,12 @@ function normalizeSourceUrl(url) {
                     headline: merged.title || `${merged.brandName || merged.companyName || "FDA"} recall`,
                     author: {
                         "@type": "Organization",
-                        name: "RecallsAtlas",
+                        name: "Recalls Atlas",
                         url: SITE_BASE_URL,
                     },
                     publisher: {
                         "@type": "Organization",
-                        name: "RecallsAtlas",
+                        name: "Recalls Atlas",
                         logo: {
                             "@type": "ImageObject",
                             url: `${SITE_BASE_URL}/logo.png`,

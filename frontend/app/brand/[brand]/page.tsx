@@ -1,5 +1,6 @@
 import Link from "next/link";
 import RecallCard from "@/components/RecallCard";
+import SiteBrandLogoLink from "@/components/SiteBrandLogoLink";
 import { getDb } from "@/lib/mongodb";
 
 interface PageProps {
@@ -30,9 +31,7 @@ export default async function BrandPage({ params }: PageProps) {
   return (
     <div className="brand-page">
       <header className="site-header">
-        <Link href="/" className="site-title">
-          RecallsAtlas
-        </Link>
+        <SiteBrandLogoLink />
       </header>
       <main className="main-content">
         <h1>Brand: {brandParam}</h1>

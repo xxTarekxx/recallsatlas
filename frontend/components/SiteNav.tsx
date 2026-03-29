@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import SiteBrandLogoLink from "@/components/SiteBrandLogoLink";
 
 const NAV_LINKS = [
   { href: "/recalls", label: "FDA Recalls" },
@@ -37,22 +38,7 @@ export default function SiteNav() {
 
       <div className="sitenav-inner">
         {/* Brand */}
-        <Link href="/" className="sitenav-brand" aria-label="RecallsAtlas — home">
-          <span className="sitenav-brand-mark" aria-hidden="true">
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-              <path
-                d="M12 2L2 19h20L12 2z"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinejoin="round"
-                fill="rgba(255,255,255,0.15)"
-              />
-              <path d="M12 9v5" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
-              <circle cx="12" cy="17" r="1" fill="currentColor"/>
-            </svg>
-          </span>
-          <span className="sitenav-brand-text">RecallsAtlas</span>
-        </Link>
+        <SiteBrandLogoLink linkClassName="sitenav-brand" imgClassName="sitenav-brand-logo" />
 
         {/* Desktop nav links */}
         <nav className="sitenav-links" aria-label="Main navigation">

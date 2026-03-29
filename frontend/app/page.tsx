@@ -6,16 +6,16 @@ import SearchSuggest from "@/components/SearchSuggest";
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://recallsatlas.com";
 
 export const metadata: Metadata = {
-  title: "RecallsAtlas | FDA & NHTSA Recall Search",
+  title: "Recalls Atlas | FDA & NHTSA Recall Search",
   description:
     "Browse FDA food, drug, medical device, and supplement recalls in one place. Public safety data with plain-language summaries and direct links to official FDA.gov notices.",
   alternates: { canonical: siteUrl },
   openGraph: {
-    title: "RecallsAtlas — FDA & vehicle recalls",
+    title: "Recalls Atlas — FDA & vehicle recalls",
     description:
       "Search and browse U.S. food, drug, device, supplement, and vehicle recalls. Aggregated from official FDA and NHTSA sources.",
     url: siteUrl,
-    siteName: "RecallsAtlas",
+    siteName: "Recalls Atlas",
     type: "website",
     locale: "en_US",
   },
@@ -72,8 +72,8 @@ export default async function HomePage() {
               <span className="home-stat-value">FDA</span>
               <span className="home-stat-label">Official Source</span>
             </div>
-            <div className="home-stat">
-              <span className="home-stat-value">19+</span>
+            <div className="home-stat" title="More than 11 languages">
+              <span className="home-stat-value">11+</span>
               <span className="home-stat-label">Languages</span>
             </div>
             <div className="home-stat">
@@ -137,10 +137,10 @@ export default async function HomePage() {
         <div className="home-about-inner">
           <p className="home-section-label" aria-hidden="true">About this site</p>
           <h2 id="about-heading" className="home-section-title">
-            About RecallsAtlas
+            About Recalls Atlas
           </h2>
           <p>
-            RecallsAtlas brings together public recall information from the{" "}
+            Recalls Atlas brings together public recall information from the{" "}
             <strong>U.S. Food and Drug Administration (FDA)</strong> and the{" "}
             <strong>National Highway Traffic Safety Administration (NHTSA)</strong>.
             Whether you are checking a medication, food product, medical device, or a
@@ -152,11 +152,11 @@ export default async function HomePage() {
             dates, and instructions on the <strong>FDA or NHTSA source</strong> linked
             directly from each recall page. We are committed to improving accessibility
             (WCAG-minded patterns, keyboard navigation, and readable contrast) and
-            expanding support to <strong>11 languages</strong> so recall
+            expanding support to <strong>more than 11 languages</strong> so recall
             information reaches more people worldwide.
           </p>
           <p>
-            RecallsAtlas is an{" "}
+            Recalls Atlas is an{" "}
             <strong>independent aggregator</strong> and is not affiliated with or
             endorsed by the FDA or NHTSA. Data is compiled from public feeds and pages
             for informational purposes only.{" "}

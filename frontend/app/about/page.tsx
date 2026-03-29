@@ -1,10 +1,11 @@
 import Link from "next/link";
 import type { Metadata } from "next";
+import SiteBrandLogoLink from "@/components/SiteBrandLogoLink";
 
 export const metadata: Metadata = {
-  title: "About RecallsAtlas – Independent FDA Recall Aggregator",
+  title: "About Recalls Atlas – Independent FDA Recall Aggregator",
   description:
-    "RecallsAtlas is an independent aggregator of FDA and NHTSA recall data. Learn about our mission, data sources, and how to contact us.",
+    "Recalls Atlas is an independent aggregator of FDA and NHTSA recall data. Learn about our mission, data sources, and how to contact us.",
   alternates: { canonical: "https://recallsatlas.com/about" },
 };
 
@@ -12,22 +13,20 @@ export default function AboutPage() {
   return (
     <div className="policy-page">
       <header className="site-header">
-        <Link href="/" className="site-title">
-          RecallsAtlas
-        </Link>
+        <SiteBrandLogoLink />
       </header>
 
       <main className="main-content policy-main">
         <article className="policy-article">
-          <h1 className="policy-heading">About RecallsAtlas</h1>
+          <h1 className="policy-heading">About Recalls Atlas</h1>
 
-          <h2>What is RecallsAtlas?</h2>
+          <h2>What is Recalls Atlas?</h2>
           <p>
-            RecallsAtlas is an independent public-interest website that
+            Recalls Atlas is an independent public-interest website that
             aggregates product recall notices published by the U.S. Food &amp;
             Drug Administration (FDA). Our goal is to make recall information
             easier to search, browse, and understand — in plain language and
-            across multiple languages.
+            across more than 11 languages.
           </p>
           <p>
             We are not affiliated with, endorsed by, or sponsored by the FDA,
@@ -58,14 +57,14 @@ export default function AboutPage() {
 
           <h2>Accuracy &amp; Translations</h2>
           <p>
-            While we strive to present accurate recall information, RecallsAtlas
+            While we strive to present accurate recall information, Recalls Atlas
             is not a substitute for official government sources. Recall details
             — including product descriptions, reasons for recall, affected lots,
             and contact information — are reproduced from FDA notices and may
             have been summarized or reformatted for readability.
           </p>
           <p>
-            Translations into languages other than English are generated using
+            Translations into more than 11 languages (other than English) are generated using
             AI and may not be 100% accurate. Always verify critical recall
             information directly with the FDA:
           </p>
@@ -88,7 +87,7 @@ export default function AboutPage() {
 
           <h2>Accessibility</h2>
           <p>
-            RecallsAtlas is built with accessibility in mind. We aim to conform
+            Recalls Atlas is built with accessibility in mind. We aim to conform
             to WCAG 2.1 Level AA guidelines so that recall information is
             available to all users, including those using assistive technologies.
             If you encounter an accessibility issue, please let us know using
@@ -116,7 +115,7 @@ export default function AboutPage() {
             <Link href="/privacy">Privacy Policy</Link>.
           </p>
           <p>
-            RecallsAtlas is not responsible for any decisions made based on
+            Recalls Atlas is not responsible for any decisions made based on
             information found on this site. Always verify recall information
             with the official issuing authority before taking action.
           </p>

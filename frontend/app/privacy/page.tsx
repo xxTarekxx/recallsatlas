@@ -1,10 +1,11 @@
 import Link from "next/link";
 import type { Metadata } from "next";
+import SiteBrandLogoLink from "@/components/SiteBrandLogoLink";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy – RecallsAtlas",
+  title: "Privacy Policy – Recalls Atlas",
   description:
-    "RecallsAtlas Privacy Policy. Learn how we collect, use, and protect your information when you visit RecallsAtlas.com.",
+    "Recalls Atlas Privacy Policy. Learn how we collect, use, and protect your information when you visit recallsatlas.com.",
   alternates: { canonical: "https://recallsatlas.com/privacy" },
 };
 
@@ -14,9 +15,7 @@ export default function PrivacyPolicyPage() {
   return (
     <div className="policy-page">
       <header className="site-header">
-        <Link href="/" className="site-title">
-          RecallsAtlas
-        </Link>
+        <SiteBrandLogoLink />
       </header>
 
       <main className="main-content policy-main">
@@ -25,7 +24,7 @@ export default function PrivacyPolicyPage() {
           <p className="policy-meta">Effective date: January 1, {year}</p>
 
           <p>
-            RecallsAtlas ("we," "us," or "our") operates RecallsAtlas.com (the
+            Recalls Atlas ("we," "us," or "our") operates recallsatlas.com (the
             "Site"). This Privacy Policy explains what information we collect
             when you visit the Site, how we use it, and your rights regarding
             that information. By using the Site you agree to this policy.
@@ -70,7 +69,7 @@ export default function PrivacyPolicyPage() {
 
           <h2>2. Third-Party Advertising</h2>
           <p>
-            RecallsAtlas may display advertisements served by Google AdSense
+            Recalls Atlas may display advertisements served by Google AdSense
             and other third-party ad networks. These networks may use cookies
             and web beacons to collect information about your visits to this and
             other websites in order to display relevant advertisements. Google's

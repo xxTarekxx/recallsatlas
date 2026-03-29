@@ -13,7 +13,7 @@ export async function generateMetadata({ params }: PageProps) {
   const recall = await db.collection("recalls").findOne({ slug });
 
   if (!recall) {
-    return { title: "Recall not found – RecallsAtlas" };
+    return { title: "Recall not found – Recalls Atlas" };
   }
 
   const product = recall.productDescription || "Product";

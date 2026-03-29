@@ -6,7 +6,7 @@ export default function SiteFooter() {
   return (
     <footer className="site-footer">
       <p className="site-footer-copy">
-        &copy; {year} RecallsAtlas. Recall data aggregated for public use.
+        &copy; {year} Recalls Atlas. Recall data aggregated for public use.
       </p>
       <nav className="site-footer-nav" aria-label="Footer navigation">
         <Link href="/about" className="site-footer-link">About</Link>
@@ -21,10 +21,10 @@ export default function SiteFooter() {
         </a>
       </nav>
       <p className="site-footer-disclaimer">
-        All recall information on RecallsAtlas.com is aggregated from the U.S.
+        All recall information on recallsatlas.com is aggregated from the U.S.
         Food &amp; Drug Administration (FDA) and the National Highway Traffic
         Safety Administration (NHTSA) and is provided for informational purposes
-        only. RecallsAtlas is not affiliated with or endorsed by the FDA or
+        only. Recalls Atlas is not affiliated with or endorsed by the FDA or
         NHTSA. Any translations are AI-generated and may not be 100% accurate —
         always verify recall details directly with the official source. To
         confirm recall information, contact the FDA at{" "}
@@ -43,7 +43,7 @@ export default function SiteFooter() {
         >
           FDA.gov
         </a>
-        . RecallsAtlas is not responsible for any decisions made based on
+        . Recalls Atlas is not responsible for any decisions made based on
         information found on this site.
       </p>
     </footer>

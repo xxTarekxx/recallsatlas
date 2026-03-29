@@ -1,5 +1,6 @@
 import Link from "next/link";
 import RecallsListClient from "@/components/RecallsListClient";
+import SiteBrandLogoLink from "@/components/SiteBrandLogoLink";
 import SearchSuggest from "@/components/SearchSuggest";
 
 const CATEGORIES = ["Drugs", "Food", "Medical Devices", "Supplements"];
@@ -8,9 +9,7 @@ export default function RecallsListPage() {
   return (
     <div className="recalls-page">
       <header className="site-header">
-        <Link href="/" className="site-title">
-          RecallsAtlas
-        </Link>
+        <SiteBrandLogoLink />
       </header>
       <main className="main-content" style={{ overflow: "visible" }}>
         <h1>FDA Recalls</h1>

@@ -390,7 +390,7 @@ function upsertRecallDocInTranslatedJson(doc) {
 async function main() {
   const { getDb, close } = require("../database/mongodb");
 
-  uiHeader("RecallsAtlas  ·  Translation Engine");
+  uiHeader("Recalls Atlas  ·  Translation Engine");
 
   if (DRY_RUN) uiWarn("DRY RUN — no writes to MongoDB");
   if (RESET)   uiWarn("RESET — clearing all existing translations");
