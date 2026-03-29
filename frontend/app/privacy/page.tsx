@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Privacy Policy – Recalls Atlas",
   description:
     "Recalls Atlas Privacy Policy. Learn how we collect, use, and protect your information when you visit recallsatlas.com.",
-  alternates: { canonical: "https://recallsatlas.com/privacy" },
+  alternates: { canonical: "https://www.recallsatlas.com/privacy" },
 };
 
 export default function PrivacyPolicyPage() {

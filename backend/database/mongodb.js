@@ -5,8 +5,14 @@
  * Use connection pooling for production.
  */
 
-// Load environment variables from .env (including MONGODB_URI)
-require("dotenv").config();
+// Prefer backend/scripts/.env, then backend/.env
+const path = require("path");
+const fs = require("fs");
+const envScripts = path.join(__dirname, "..", "scripts", ".env");
+const envBackend = path.join(__dirname, "..", ".env");
+require("dotenv").config({
+  path: fs.existsSync(envScripts) ? envScripts : envBackend,
+});
 
 const { MongoClient } = require("mongodb");
 

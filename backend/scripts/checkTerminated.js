@@ -19,13 +19,16 @@
  *   --mongo     Push updates to MongoDB (needs MONGODB_URI)
  *   --dry-run   Print matches without saving
  *
- * Env: HEADLESS=false to show the browser during --fetch
+ * Env: HEADLESS=false to show the browser during --fetch (scripts/.env or backend/.env)
  */
-
-require("dotenv").config({ path: require("path").join(__dirname, "..", ".env") });
 
 const fs = require("fs");
 const path = require("path");
+require("dotenv").config({
+  path: fs.existsSync(path.join(__dirname, ".env"))
+    ? path.join(__dirname, ".env")
+    : path.join(__dirname, "..", ".env"),
+});
 const xlsx = require("xlsx");
 const { chromium } = require("playwright");
 
@@ -194,10 +197,10 @@ async function waitForDatatableReady(page) {
   await page.waitForSelector("#datatable tbody tr", { timeout: NAV_TIMEOUT });
   await page
     .waitForSelector("#datatable_processing", { state: "visible", timeout: 5000 })
-    .catch(() => {});
+    .catch(() => { });
   await page
     .waitForSelector("#datatable_processing", { state: "hidden", timeout: NAV_TIMEOUT })
-    .catch(() => {});
+    .catch(() => { });
 }
 
 /** Ensure the downloads directory exists before writing into it. */
@@ -234,8 +237,8 @@ async function downloadFdaTerminatedExcel(destPath) {
     uiPhase(3, 4, "Filters: 100 rows · Terminated Recall = Yes…");
     await page.selectOption("select.form-control.input-sm", "100");
     await page.selectOption("#edit-field-terminated-recall", "1");
-    await page.waitForSelector("#datatable_processing", { state: "visible", timeout: 5000 }).catch(() => {});
-    await page.waitForSelector("#datatable_processing", { state: "hidden", timeout: NAV_TIMEOUT }).catch(() => {});
+    await page.waitForSelector("#datatable_processing", { state: "visible", timeout: 5000 }).catch(() => { });
+    await page.waitForSelector("#datatable_processing", { state: "hidden", timeout: NAV_TIMEOUT }).catch(() => { });
     await page.waitForSelector("#datatable tbody tr");
     uiInfo(`Waiting ${POST_FILTER_WAIT_MS}ms for table to settle…`);
     await new Promise((r) => setTimeout(r, POST_FILTER_WAIT_MS));

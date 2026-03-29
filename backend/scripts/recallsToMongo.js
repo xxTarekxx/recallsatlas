@@ -13,10 +13,14 @@
  *   node scripts/recallsToMongo.js
  */
 const path = require("path");
-const fs   = require("fs");
+const fs = require("fs");
 const crypto = require("crypto");
 
-require("dotenv").config({ path: path.join(__dirname, "..", ".env") });
+require("dotenv").config({
+  path: fs.existsSync(path.join(__dirname, ".env"))
+    ? path.join(__dirname, ".env")
+    : path.join(__dirname, "..", ".env"),
+});
 const { getDb, close, DB_NAME, COLLECTION_RECALLS } = require("../database/mongodb");
 
 const JSON_PATH = path.join(__dirname, "recalls.json");
@@ -98,59 +102,59 @@ function articleToMongoDoc(article) {
     slug,
 
     // Core identity
-    title:                       article.title || article.headline || "",
-    headline:                    article.headline || article.title || "",
-    description:                 article.description || "",
-    keywords:                    article.keywords || [],
-    canonicalUrl:                article.canonicalUrl || "",
-    sortOrder:                   article.sortOrder ?? null,
+    title: article.title || article.headline || "",
+    headline: article.headline || article.title || "",
+    description: article.description || "",
+    keywords: article.keywords || [],
+    canonicalUrl: article.canonicalUrl || "",
+    sortOrder: article.sortOrder ?? null,
 
     // Product / company — stored with real field names
-    productDescription:          article.productDescription || "",
-    brandName:                   article.brandName || "",
-    brandNames:                  article.brandNames || [],
-    companyName:                 article.companyName || "",
-    productType:                 article.productType || "",
-    regulatedProducts:           article.regulatedProducts || [],
-    reason:                      article.reason || "",
+    productDescription: article.productDescription || "",
+    brandName: article.brandName || "",
+    brandNames: article.brandNames || [],
+    companyName: article.companyName || "",
+    productType: article.productType || "",
+    regulatedProducts: article.regulatedProducts || [],
+    reason: article.reason || "",
 
     // Dates
-    report_date:                 dateToReportDate(article.datePublished || article.fdaPublishDate) || "",
-    datePublished:               article.datePublished || "",
-    dateModified:                article.dateModified || "",
-    fdaPublishDate:              article.fdaPublishDate || "",
-    fdaPublishDateTime:          article.fdaPublishDateTime || "",
-    companyAnnouncementDate:     article.companyAnnouncementDate || "",
+    report_date: dateToReportDate(article.datePublished || article.fdaPublishDate) || "",
+    datePublished: article.datePublished || "",
+    dateModified: article.dateModified || "",
+    fdaPublishDate: article.fdaPublishDate || "",
+    fdaPublishDateTime: article.fdaPublishDateTime || "",
+    companyAnnouncementDate: article.companyAnnouncementDate || "",
     companyAnnouncementDateTime: article.companyAnnouncementDateTime || "",
-    contentCurrentAsOf:          article.contentCurrentAsOf || "",
-    contentCurrentAsOfDateTime:  article.contentCurrentAsOfDateTime || "",
+    contentCurrentAsOf: article.contentCurrentAsOf || "",
+    contentCurrentAsOfDateTime: article.contentCurrentAsOfDateTime || "",
 
     // Images
-    image:                       singleImage || imageUrls[0] || "",
-    images:                      imageUrls,
-    rawImageSources:             article.rawImageSources || [],
+    image: singleImage || imageUrls[0] || "",
+    images: imageUrls,
+    rawImageSources: article.rawImageSources || [],
 
     // Recall content
-    content:                     article.content || [],
-    pageTypeLabel:               article.pageTypeLabel || "",
-    disclaimer:                  article.disclaimer || "",
-    label:                       article.label || "",
-    classification:              article.classification || "",
-    distribution:                article.distribution || "",
+    content: article.content || [],
+    pageTypeLabel: article.pageTypeLabel || "",
+    disclaimer: article.disclaimer || "",
+    label: article.label || "",
+    classification: article.classification || "",
+    distribution: article.distribution || "",
 
     // URLs / contacts
-    source_url:                  article.sourceUrl || "",
-    sourceUrl:                   article.sourceUrl || "",
-    consumerWebsite:             article.consumerWebsite || "",
-    companyWebsite:              article.companyWebsite || "",
-    contacts:                    article.contacts || null,
+    source_url: article.sourceUrl || "",
+    sourceUrl: article.sourceUrl || "",
+    consumerWebsite: article.consumerWebsite || "",
+    companyWebsite: article.companyWebsite || "",
+    contacts: article.contacts || null,
 
     // Status (terminated comes from checkTerminated.js — default false for new inserts)
-    terminated:                  article.terminated === true,
-    terminatedCheckedAt:         article.terminatedCheckedAt || "",
+    terminated: article.terminated === true,
+    terminatedCheckedAt: article.terminatedCheckedAt || "",
 
     // Meta
-    scrapedAt:                   article.scrapedAt || "",
+    scrapedAt: article.scrapedAt || "",
   };
 }
 
@@ -160,14 +164,14 @@ async function run() {
     process.exit(1);
   }
 
-  const raw      = fs.readFileSync(JSON_PATH, "utf8");
+  const raw = fs.readFileSync(JSON_PATH, "utf8");
   const articles = JSON.parse(raw);
   if (!Array.isArray(articles)) {
     console.error("recalls.json must be a JSON array.");
     process.exit(1);
   }
 
-  const db   = await getDb();
+  const db = await getDb();
   const coll = db.collection(COLLECTION_RECALLS);
   console.log("Target :", DB_NAME + "." + COLLECTION_RECALLS);
   console.log("MongoDB:", getMongoConnectionInfo(process.env.MONGODB_URI));
@@ -188,12 +192,12 @@ async function run() {
   console.log("MongoDB (collection) :", mongoCount, "recall(s)\n");
 
   let inserted = 0;
-  let updated  = 0;
-  let skipped  = 0;
+  let updated = 0;
+  let skipped = 0;
 
   for (const doc of localDocs) {
-    const existing   = await coll.findOne({ slug: doc.slug });
-    const localHash  = contentHash(doc);
+    const existing = await coll.findOne({ slug: doc.slug });
+    const localHash = contentHash(doc);
 
     // ── New recall ────────────────────────────────────────────────────────────
     if (!existing) {

@@ -27,7 +27,7 @@ export async function generateMetadata({ params }: PageProps) {
   return {
     title,
     description,
-    alternates: { canonical: `https://recallsatlas.com/recalls/${slug}` },
+    alternates: { canonical: `https://www.recallsatlas.com/recalls/${slug}` },
   };
 }
 

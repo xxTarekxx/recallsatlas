@@ -9,7 +9,7 @@ import SiteNav from "@/components/SiteNav";
 import SiteFooter from "@/components/SiteFooter";
 import { BRAND_FAVICON_WEBP } from "@/lib/brand-assets";
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://recallsatlas.com";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.recallsatlas.com";
 const GA_ID = "G-96QD0HTTH6";
 const inter = Inter({ subsets: ["latin"], display: "swap" });
 

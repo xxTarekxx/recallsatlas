@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "About Recalls Atlas – Independent FDA Recall Aggregator",
   description:
     "Recalls Atlas is an independent aggregator of FDA and NHTSA recall data. Learn about our mission, data sources, and how to contact us.",
-  alternates: { canonical: "https://recallsatlas.com/about" },
+  alternates: { canonical: "https://www.recallsatlas.com/about" },
 };
 
 export default function AboutPage() {

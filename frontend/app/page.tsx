@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import { getDb } from "@/lib/mongodb";
 import SearchSuggest from "@/components/SearchSuggest";
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://recallsatlas.com";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.recallsatlas.com";
 
 export const metadata: Metadata = {
   title: "Recalls Atlas | FDA & NHTSA Recall Search",

@@ -22,7 +22,7 @@
  *   node scripts/recallTranslate.js --slug=some-slug # translate a single recall by slug
  *   node scripts/recallTranslate.js --reset          # clear all translations (re-translate everything)
  *
- * Env: OPENAI_API_KEY, MONGODB_URI (in backend/.env)
+ * Env: OPENAI_API_KEY, MONGODB_URI — backend/scripts/.env or backend/.env
  */
 
 const path = require("path");
@@ -30,24 +30,28 @@ const fs = require("fs");
 
 // ─── Env ──────────────────────────────────────────────────────────────────────
 
-require("dotenv").config({ path: path.join(__dirname, "..", ".env") });
+require("dotenv").config({
+  path: fs.existsSync(path.join(__dirname, ".env"))
+    ? path.join(__dirname, ".env")
+    : path.join(__dirname, "..", ".env"),
+});
 
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
 if (!OPENAI_API_KEY) { console.error("Missing OPENAI_API_KEY"); process.exit(1); }
 
 // ─── Config ───────────────────────────────────────────────────────────────────
 
-const MODEL         = "gpt-4.1-mini";
+const MODEL = "gpt-4.1-mini";
 const RATE_LIMIT_MS = 30;   // ms between OpenAI calls
 
-const flags    = process.argv.slice(2).filter(a => a.startsWith("--"));
-const args     = process.argv.slice(2).filter(a => !a.startsWith("--"));
-const DRY_RUN  = flags.includes("--dry-run");
-const RESET    = flags.includes("--reset");
-const ONE      = flags.includes("--one");
+const flags = process.argv.slice(2).filter(a => a.startsWith("--"));
+const args = process.argv.slice(2).filter(a => !a.startsWith("--"));
+const DRY_RUN = flags.includes("--dry-run");
+const RESET = flags.includes("--reset");
+const ONE = flags.includes("--one");
 const LIMIT_ARG = Number((flags.find(f => f.startsWith("--limit=")) || "").split("=")[1]);
 const SLUG_ARG = flags.find(f => f.startsWith("--slug="))?.split("=")[1]
-              || (args[0] && !args[0].startsWith("--") ? args[0] : null);
+  || (args[0] && !args[0].startsWith("--") ? args[0] : null);
 const LIMIT = ONE ? 1 : (Number.isFinite(LIMIT_ARG) && LIMIT_ARG > 0 ? Math.floor(LIMIT_ARG) : null);
 const RECALLS_JSON_PATH = path.join(__dirname, "recalls.json");
 
@@ -72,20 +76,20 @@ const TARGET_LANGS = LANGUAGES.filter(l => l.code !== "en");
 // ─── Terminal colours ─────────────────────────────────────────────────────────
 
 const C = {
-  reset:  "\x1b[0m",
-  bold:   "\x1b[1m",
-  dim:    "\x1b[2m",
-  cyan:   "\x1b[36m",
-  green:  "\x1b[32m",
+  reset: "\x1b[0m",
+  bold: "\x1b[1m",
+  dim: "\x1b[2m",
+  cyan: "\x1b[36m",
+  green: "\x1b[32m",
   yellow: "\x1b[33m",
-  red:    "\x1b[31m",
-  blue:   "\x1b[34m",
+  red: "\x1b[31m",
+  blue: "\x1b[34m",
 };
 
 // ─── Terminal UI helpers ──────────────────────────────────────────────────────
 
 function uiHeader(title) {
-  const w    = 58;
+  const w = 58;
   const line = "═".repeat(w);
   console.log(`\n${C.cyan}${C.bold}  ${line}${C.reset}`);
   console.log(`${C.cyan}${C.bold}  ${title}${C.reset}`);
@@ -115,10 +119,10 @@ function uiInfo(label, value) {
 
 function progressBar(current, total, width = 26) {
   if (total <= 0) total = 1;
-  const ratio  = Math.min(current, total) / total;
+  const ratio = Math.min(current, total) / total;
   const filled = Math.round(ratio * width);
-  const bar    = "█".repeat(filled) + "░".repeat(width - filled);
-  const pct    = String(Math.round(ratio * 100)).padStart(3);
+  const bar = "█".repeat(filled) + "░".repeat(width - filled);
+  const pct = String(Math.round(ratio * 100)).padStart(3);
   return `[${bar}] ${pct}%`;
 }
 
@@ -149,7 +153,7 @@ async function translateText(text, langName) {
     const res = await fetch("https://api.openai.com/v1/responses", {
       method: "POST",
       headers: {
-        "Content-Type":  "application/json",
+        "Content-Type": "application/json",
         "Authorization": `Bearer ${OPENAI_API_KEY}`,
       },
       body: JSON.stringify({
@@ -188,9 +192,9 @@ async function translateText(text, langName) {
 async function translateAuthorityLink(html, langName) {
   if (!html || typeof html !== "string") return html;
 
-  const parts  = [];
-  let cursor   = 0;
-  const tagRe  = /(<a\b[^>]*>)([\s\S]*?)(<\/a>)/gi;
+  const parts = [];
+  let cursor = 0;
+  const tagRe = /(<a\b[^>]*>)([\s\S]*?)(<\/a>)/gi;
   let match;
 
   while ((match = tagRe.exec(html)) !== null) {
@@ -205,7 +209,7 @@ async function translateAuthorityLink(html, langName) {
   }
 
   if (cursor < html.length) parts.push(translateText(html.slice(cursor), langName));
-  if (parts.length === 0)   return translateText(html, langName);
+  if (parts.length === 0) return translateText(html, langName);
 
   return (await Promise.all(parts)).join("");
 }
@@ -216,31 +220,31 @@ function buildEnglishSource(recall) {
   const content = (Array.isArray(recall.content) ? recall.content : [])
     .filter((section) => String(section?.subtitle || "").toLowerCase() !== "what was recalled")
     .map(section => {
-    const s = {};
-    if (section.subtitle) s.subtitle = section.subtitle;
-    if (section.text)     s.text     = section.text;
-    if (Array.isArray(section.authorityLinks) && section.authorityLinks.length) {
-      s.authorityLinks = section.authorityLinks;
-    }
-    if (section.facts && typeof section.facts === "object") {
-      s.facts = { ...section.facts };
-    }
-    return s;
-  });
+      const s = {};
+      if (section.subtitle) s.subtitle = section.subtitle;
+      if (section.text) s.text = section.text;
+      if (Array.isArray(section.authorityLinks) && section.authorityLinks.length) {
+        s.authorityLinks = section.authorityLinks;
+      }
+      if (section.facts && typeof section.facts === "object") {
+        s.facts = { ...section.facts };
+      }
+      return s;
+    });
 
   return {
-    title:              recall.title             || "",
-    description:        recall.description       || "",
+    title: recall.title || "",
+    description: recall.description || "",
     productDescription: recall.productDescription || "",
-    reason:             recall.reason            || "",
-    disclaimer:         recall.disclaimer        || "",
-    pageTypeLabel:      recall.pageTypeLabel     || "",
-    label:              recall.label             || "",
-    regulatedProducts:  typeof recall.regulatedProducts === "string"
-                          ? recall.regulatedProducts
-                          : (Array.isArray(recall.regulatedProducts)
-                              ? recall.regulatedProducts.join(", ")
-                              : ""),
+    reason: recall.reason || "",
+    disclaimer: recall.disclaimer || "",
+    pageTypeLabel: recall.pageTypeLabel || "",
+    label: recall.label || "",
+    regulatedProducts: typeof recall.regulatedProducts === "string"
+      ? recall.regulatedProducts
+      : (Array.isArray(recall.regulatedProducts)
+        ? recall.regulatedProducts.join(", ")
+        : ""),
     content,
   };
 }
@@ -255,7 +259,7 @@ function countElements(source) {
   let n = topFields.filter(k => source[k]).length;
   for (const section of source.content || []) {
     if (section.subtitle) n++;
-    if (section.text)     n++;
+    if (section.text) n++;
     if (Array.isArray(section.authorityLinks)) n += section.authorityLinks.length;
     if (section.facts) {
       n += Object.values(section.facts).filter(v => typeof v === "string" && v).length;
@@ -398,10 +402,10 @@ async function main() {
   uiHeader("Recalls Atlas  ·  Translation Engine");
 
   if (DRY_RUN) uiWarn("DRY RUN — no writes to MongoDB");
-  if (RESET)   uiWarn("RESET — clearing all existing translations");
+  if (RESET) uiWarn("RESET — clearing all existing translations");
 
   process.stdout.write(`  ${C.cyan}▸${C.reset} Connecting to MongoDB…`);
-  const db   = await getDb();
+  const db = await getDb();
   const coll = db.collection("recalls");
   process.stdout.write(` ${C.green}connected${C.reset}\n`);
 
@@ -455,13 +459,13 @@ async function main() {
   if (LIMIT) uiInfo("Limit:", String(LIMIT));
   console.log("");
 
-  const globalStart  = Date.now();
-  let   recallsDone  = 0;
-  const recallTimes  = []; // ms per recall — used for ETA
+  const globalStart = Date.now();
+  let recallsDone = 0;
+  const recallTimes = []; // ms per recall — used for ETA
 
   // ── Per-recall loop ─────────────────────────────────────────────────────────
   for (const recall of recalls) {
-    const slug       = recall.slug || "(unknown)";
+    const slug = recall.slug || "(unknown)";
     const shortTitle = (recall.title || recall.productDescription || slug).slice(0, 55);
     const recallStart = Date.now();
 
@@ -493,7 +497,7 @@ async function main() {
     );
 
     // Build English source + save languages.en
-    const enSource      = buildEnglishSource(recall);
+    const enSource = buildEnglishSource(recall);
     const totalElements = countElements(enSource);
 
     if (!DRY_RUN) {
@@ -517,9 +521,9 @@ async function main() {
         lang.name,
         recall.languages?.[lang.code],
         (n) => {
-        process.stdout.write(
-          `     ${lang.flag}  ${lang.name.padEnd(12)} ${progressBar(n, totalElements)}\r`
-        );
+          process.stdout.write(
+            `     ${lang.flag}  ${lang.name.padEnd(12)} ${progressBar(n, totalElements)}\r`
+          );
         },
         async (checkpointed) => {
           if (!DRY_RUN) {
@@ -531,7 +535,7 @@ async function main() {
         }
       );
 
-      translated.dir  = lang.dir;
+      translated.dir = lang.dir;
       translated.flag = lang.flag;
       translated.lang = lang.code;
       translated._checkpoint = { complete: true, doneKeys: [], updatedAt: new Date().toISOString() };
@@ -574,9 +578,9 @@ async function main() {
     recallTimes.push(recallMs);
 
     // ETA calculation
-    const avgMs     = recallTimes.reduce((a, b) => a + b, 0) / recallTimes.length;
+    const avgMs = recallTimes.reduce((a, b) => a + b, 0) / recallTimes.length;
     const remaining = recalls.length - recallsDone;
-    const elapsed   = Date.now() - globalStart;
+    const elapsed = Date.now() - globalStart;
 
     console.log(
       `\n  ${C.green}✓${C.reset} Recall saved` +
@@ -585,7 +589,7 @@ async function main() {
 
     // ── Overall progress bar ─────────────────────────────────────────────────
     const overallBar = progressBar(recallsDone, recalls.length, 30);
-    const etaStr     = remaining > 0
+    const etaStr = remaining > 0
       ? `  ETA ~${fmtEta(avgMs, remaining)}`
       : "  All done!";
 

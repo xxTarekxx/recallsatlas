@@ -1,8 +1,12 @@
-require("dotenv").config({ path: require("path").join(__dirname, "..", ".env") });
+const path = require("path");
+const fs = require("fs");
+require("dotenv").config({
+    path: fs.existsSync(path.join(__dirname, ".env"))
+        ? path.join(__dirname, ".env")
+        : path.join(__dirname, "..", ".env"),
+});
 
 const { chromium } = require("playwright");
-const fs = require("fs");
-const path = require("path");
 const readline = require("readline");
 const axios = require("axios");
 const sharp = require("sharp");
@@ -34,8 +38,8 @@ const IMAGE_MAP_PATH = path.join(__dirname, "image-map.json");
 const LOG_PATH = path.join(__dirname, "recalls-log.txt");
 
 const START_SORT_ORDER = 1000;
-const MAX_RECORDS      = 100;  // max NEW recalls per run
-const MAX_TOTAL        = 300;  // hard stop: never exceed this many total recalls
+const MAX_RECORDS = 100;  // max NEW recalls per run
+const MAX_TOTAL = 300;  // hard stop: never exceed this many total recalls
 /** If the first N FDA rows match the N highest-sortOrder recalls in recalls.json (URLs in order), skip Pass 1 scan. */
 const EARLY_EXIT_TOP_N = 5;
 const MAX_RETRIES = 3;
@@ -50,7 +54,8 @@ const IMAGE_MAX_WIDTH = 700;
 const IMAGE_WEBP_QUALITY = 38;
 const IMAGE_WEBP_EFFORT = 6;
 
-const HEADLESS = false;
+/** Headless Playwright by default; set HEADLESS=false in scripts/.env (or backend/.env) to show the browser. */
+const HEADLESS = process.env.HEADLESS !== "false";
 
 /**
  * Re-number sortOrder 1→N by date, rename `{sortOrder}-{slug}/` image folders, sync paths to Mongo.
@@ -865,11 +870,11 @@ async function clickNextDatatablePage(page) {
 
         await page.evaluate(() => {
             document.querySelector("#datatable_next a")?.click();
-        }).catch(() => {});
+        }).catch(() => { });
 
-        await page.waitForSelector("#datatable_processing", { state: "visible", timeout: 5000 }).catch(() => {});
-        await page.waitForSelector("#datatable_processing", { state: "hidden", timeout: 10000 }).catch(() => {});
-        await page.waitForSelector("#datatable tbody tr").catch(() => {});
+        await page.waitForSelector("#datatable_processing", { state: "visible", timeout: 5000 }).catch(() => { });
+        await page.waitForSelector("#datatable_processing", { state: "hidden", timeout: 10000 }).catch(() => { });
+        await page.waitForSelector("#datatable tbody tr").catch(() => { });
 
         return true;
     } catch (err) {
@@ -1657,7 +1662,7 @@ function fdaTopMatchesJsonNewest(fdaRows, results, maxN) {
     // sourceUrl (detail URL) is the second check: already in JSON → skip.
     const newestExistingDate = results.reduce((best, r) => {
         const d = r.fdaPublishDateTime || r.fdaPublishDate ||
-                  r.companyAnnouncementDateTime || r.datePublished || "";
+            r.companyAnnouncementDateTime || r.datePublished || "";
         return d > best ? d : best;
     }, "");
 
@@ -1697,8 +1702,8 @@ function fdaTopMatchesJsonNewest(fdaRows, results, maxN) {
     progress.update({ phase: "Setup", status: "DataTable 100/page..." });
     await page.selectOption("select.form-control.input-sm", "100");
     await page.selectOption("#edit-field-terminated-recall", "0");
-    await page.waitForSelector("#datatable_processing", { state: "visible", timeout: 5000 }).catch(() => {});
-    await page.waitForSelector("#datatable_processing", { state: "hidden", timeout: 10000 }).catch(() => {});
+    await page.waitForSelector("#datatable_processing", { state: "visible", timeout: 5000 }).catch(() => { });
+    await page.waitForSelector("#datatable_processing", { state: "hidden", timeout: 10000 }).catch(() => { });
     await page.waitForSelector("#datatable tbody tr");
     log("Set DataTable page size to 100 and Terminated Recall filter to No");
 
@@ -1914,72 +1919,72 @@ function fdaTopMatchesJsonNewest(fdaRows, results, maxN) {
             });
 
             const article = omitEmptyDeep({
-                    "@context": "https://schema.org",
-                    "@type": "Article",
+                "@context": "https://schema.org",
+                "@type": "Article",
 
-                    id: slug,
-                    sortOrder: assignedSortOrder,
-                    canonicalUrl,
-                    mainEntityOfPage: canonicalUrl,
-                    headline: merged.title || `${merged.brandName || merged.companyName || "FDA"} recall`,
-                    author: {
-                        "@type": "Organization",
-                        name: "Recalls Atlas",
-                        url: SITE_BASE_URL,
+                id: slug,
+                sortOrder: assignedSortOrder,
+                canonicalUrl,
+                mainEntityOfPage: canonicalUrl,
+                headline: merged.title || `${merged.brandName || merged.companyName || "FDA"} recall`,
+                author: {
+                    "@type": "Organization",
+                    name: "Recalls Atlas",
+                    url: SITE_BASE_URL,
+                },
+                publisher: {
+                    "@type": "Organization",
+                    name: "Recalls Atlas",
+                    logo: {
+                        "@type": "ImageObject",
+                        url: `${SITE_BASE_URL}/logo.png`,
                     },
-                    publisher: {
-                        "@type": "Organization",
-                        name: "Recalls Atlas",
-                        logo: {
-                            "@type": "ImageObject",
-                            url: `${SITE_BASE_URL}/logo.png`,
-                        },
-                    },
-                    datePublished: publishedDate,
-                    dateModified: todayISODate(),
-                    image: buildPrimaryImageObject(savedImages, merged.title),
-                    description,
-                    keywords,
-                    content: contentSections,
+                },
+                datePublished: publishedDate,
+                dateModified: todayISODate(),
+                image: buildPrimaryImageObject(savedImages, merged.title),
+                description,
+                keywords,
+                content: contentSections,
 
-                    sourceUrl: detailUrl,
-                    scrapedAt: nowISO(),
+                sourceUrl: detailUrl,
+                scrapedAt: nowISO(),
 
-                    pageTypeLabel: merged.pageTypeLabel,
-                    disclaimer: merged.disclaimer,
+                pageTypeLabel: merged.pageTypeLabel,
+                disclaimer: merged.disclaimer,
 
-                    title: merged.title,
+                title: merged.title,
 
-                    companyAnnouncementDate: merged.companyAnnouncementDateText,
-                    companyAnnouncementDateTime: normalizeDateTime(merged.companyAnnouncementDateTime),
-                    fdaPublishDate: merged.fdaPublishDateText,
-                    fdaPublishDateTime: normalizeDateTime(merged.fdaPublishDateTime),
+                companyAnnouncementDate: merged.companyAnnouncementDateText,
+                companyAnnouncementDateTime: normalizeDateTime(merged.companyAnnouncementDateTime),
+                fdaPublishDate: merged.fdaPublishDateText,
+                fdaPublishDateTime: normalizeDateTime(merged.fdaPublishDateTime),
 
-                    companyName: merged.companyName,
-                    brandName: merged.brandName,
-                    brandNames: merged.brandNames,
+                companyName: merged.companyName,
+                brandName: merged.brandName,
+                brandNames: merged.brandNames,
 
-                    productDescription: merged.productDescription,
-                    productType: merged.productType,
-                    regulatedProducts: merged.regulatedProducts,
+                productDescription: merged.productDescription,
+                productType: merged.productType,
+                regulatedProducts: merged.regulatedProducts,
 
-                    reason: merged.reason,
+                reason: merged.reason,
 
-                    terminatedRecall: merged.terminatedRecall,
+                terminatedRecall: merged.terminatedRecall,
 
-                    aboutCompanyText: merged.aboutCompanyText,
+                aboutCompanyText: merged.aboutCompanyText,
 
-                    lotCheckUrl: merged.lotCheckUrl,
-                    consumerWebsite: merged.consumerWebsite,
-                    companyWebsite: merged.companyWebsite,
+                lotCheckUrl: merged.lotCheckUrl,
+                consumerWebsite: merged.consumerWebsite,
+                companyWebsite: merged.companyWebsite,
 
-                    contacts: merged.contacts,
+                contacts: merged.contacts,
 
-                    contentCurrentAsOf: merged.contentCurrentAsOfText,
-                    contentCurrentAsOfDateTime: normalizeDateTime(merged.contentCurrentAsOfDateTime),
+                contentCurrentAsOf: merged.contentCurrentAsOfText,
+                contentCurrentAsOfDateTime: normalizeDateTime(merged.contentCurrentAsOfDateTime),
 
-                    images: savedImages,
-                    rawImageSources: merged.images,
+                images: savedImages,
+                rawImageSources: merged.images,
             });
 
             if (!savedImages.length) {

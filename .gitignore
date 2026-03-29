@@ -9,6 +9,9 @@ lucene-index/
 target/
 data/
 
+# Local deploy config (PowerShell)
+frontend/deploy.env.ps1
+
 # Secrets / credentials
 *.pem
 *.key

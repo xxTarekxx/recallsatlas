@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import Link from "next/link";
 import RecallsListClient from "@/components/RecallsListClient";
 import SiteBrandLogoLink from "@/components/SiteBrandLogoLink";
@@ -39,7 +40,9 @@ export default function RecallsListPage() {
           <span className="filter-bar-divider" aria-hidden="true">|</span>
           <Link href="/year" className="filter-bar-link">Year</Link>
         </section>
-        <RecallsListClient />
+        <Suspense fallback={<p className="placeholder-note">Loading recalls…</p>}>
+          <RecallsListClient />
+        </Suspense>
       </main>
     </div>
   );
