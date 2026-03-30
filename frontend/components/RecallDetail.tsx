@@ -65,11 +65,20 @@ export default function RecallDetail({ recall, dbError = null, currentLang = "en
   const activeDir = activeLangObj?.dir || "ltr";
   const supportedCodes = useMemo(() => new Set(LANGUAGE_OPTIONS.map((l) => l.code)), []);
   const isLanguageAvailable = (langCode: string) => langCode === "en" || Boolean(translatedByCode[langCode]);
-  const selectedLanguageMissing = selectedLang !== "en" && !translatedByCode[selectedLang];
+  const visibleLanguageOptions = useMemo(
+    () => LANGUAGE_OPTIONS.filter((lang) => isLanguageAvailable(lang.code)),
+    [translatedByCode]
+  );
 
   useEffect(() => {
     setSelectedLang(currentLang);
   }, [currentLang]);
+
+  useEffect(() => {
+    if (!isLanguageAvailable(selectedLang)) {
+      setSelectedLang("en");
+    }
+  }, [selectedLang, translatedByCode]);
 
   const makeLocalizedPath = (targetLang: string) => {
     const parts = (pathname || "/").split("/").filter(Boolean);
@@ -186,23 +195,20 @@ export default function RecallDetail({ recall, dbError = null, currentLang = "en
               </button>
               {isLangMenuOpen && (
                 <ul className="recall-language-menu" role="listbox" aria-label="Languages">
-                  {LANGUAGE_OPTIONS.map((lang) => {
-                    const unavailable = !isLanguageAvailable(lang.code);
+                  {visibleLanguageOptions.map((lang) => {
                     return (
                       <li key={lang.code}>
                         <button
                           type="button"
                           role="option"
                           aria-selected={selectedLang === lang.code}
-                          disabled={unavailable}
                           onClick={() => switchLanguage(lang.code)}
                           className={`recall-language-menu-item${
                             selectedLang === lang.code ? " recall-language-menu-item--active" : ""
-                          }${unavailable ? " recall-language-menu-item--disabled" : ""}`}
+                          }`}
                         >
                           <img src={lang.flag} alt="" width={22} height={16} />
                           <span>{lang.label}</span>
-                          {unavailable && <span className="recall-language-menu-tag">Unavailable</span>}
                         </button>
                       </li>
                     );
@@ -210,11 +216,6 @@ export default function RecallDetail({ recall, dbError = null, currentLang = "en
                 </ul>
               )}
             </div>
-            {selectedLanguageMissing && (
-              <p className="recall-language-note">
-                This language is not available for this recall yet. Showing English.
-              </p>
-            )}
             {disclaimer && (
               <p className="recall-detail-disclaimer">{disclaimer}</p>
             )}

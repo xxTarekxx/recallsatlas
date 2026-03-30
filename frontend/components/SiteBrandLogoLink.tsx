@@ -16,12 +16,15 @@ export default function SiteBrandLogoLink({
     <Link href="/" className={linkClassName} aria-label="Recalls Atlas — home">
       <img
         src={BRAND_LOGO_SRC}
-        alt=""
-        width={200}
-        height={40}
+        alt="Recalls Atlas globe logo"
+        width={44}
+        height={44}
         className={imgClassName}
         decoding="async"
       />
+      <span className="site-brand-wordmark" aria-hidden="true">
+        <span className="site-brand-wordmark-emphasis">Recalls</span> Atlas
+      </span>
     </Link>
   );
 }

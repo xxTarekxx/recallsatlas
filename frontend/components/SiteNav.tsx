@@ -57,11 +57,6 @@ export default function SiteNav() {
           })}
         </nav>
 
-        {/* CTA button */}
-        <Link href="/recalls" className="sitenav-cta" aria-label="Browse all recalls">
-          Browse Recalls
-        </Link>
-
         {/* Mobile hamburger */}
         <button
           className={`sitenav-hamburger${menuOpen ? " sitenav-hamburger--open" : ""}`}
@@ -98,13 +93,6 @@ export default function SiteNav() {
               </Link>
             );
           })}
-          <Link
-            href="/recalls"
-            className="sitenav-mobile-cta"
-            onClick={() => setMenuOpen(false)}
-          >
-            Browse Recalls
-          </Link>
         </nav>
       )}
     </header>
