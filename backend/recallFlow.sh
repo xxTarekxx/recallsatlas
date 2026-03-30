@@ -7,6 +7,9 @@
 #    ALERT_EMAIL=you@domain.com   (comma-separated for multiple)
 #    RESEND_FROM=Name <on@yourdomain.com>   (optional)
 #
+#  After all 5 steps succeed, runs: pm2 restart ${PM2_APP:-recallsatlas}
+#  (ensure pm2 is on PATH in cron, e.g. nvm: source ~/.nvm/nvm.sh)
+#
 #  chmod +x recallFlow.sh
 #
 #  Daily at 2:00 PM US Central (Chicago):
@@ -61,12 +64,15 @@ run_step() {
   echo "  node scripts/$script"
   echo "======================================================================"
 
+  # Stream output live (tee); stdbuf avoids block-buffering when stdout is a pipe
   set +e
-  "$NODE_BIN" "scripts/$script" >"$tmp" 2>&1
-  local ec=$?
+  if command -v stdbuf >/dev/null 2>&1; then
+    stdbuf -oL -eL "$NODE_BIN" "scripts/$script" 2>&1 | tee "$tmp"
+  else
+    "$NODE_BIN" "scripts/$script" 2>&1 | tee "$tmp"
+  fi
+  local ec=${PIPESTATUS[0]}
   set -e
-
-  cat "$tmp"
 
   end="$(date +%s)"
   elapsed=$((end - start))
@@ -147,7 +153,7 @@ run_step "Sync to MongoDB (after terminated check)"     recallsToMongo.js 5
 
 PIPE_END="$(date +%s)"
 PIPE_ELAPSED=$((PIPE_END - PIPE_START))
-PIPE_ELAPSED_FMT="$(format_elapsed "$PIPE_ELAPSED)"
+PIPE_ELAPSED_FMT="$(format_elapsed "$PIPE_ELAPSED")"
 
 echo ""
 echo "============================================================"
@@ -173,3 +179,16 @@ summary_body="$(mktemp)"
 } >"$summary_body"
 send_resend "[RecallsAtlas] Pipeline complete — $TOTAL_STEPS/$TOTAL_STEPS OK ($PIPE_ELAPSED_FMT)" "$summary_body"
 rm -f "$summary_body"
+
+PM2_APP="${PM2_APP:-recallsatlas}"
+echo ""
+echo "Restarting Next.js (pm2): $PM2_APP"
+if command -v pm2 >/dev/null 2>&1; then
+  if pm2 restart "$PM2_APP" 2>&1; then
+    echo "  [OK]  pm2 restart $PM2_APP"
+  else
+    echo "  [WARN]  pm2 restart failed (exit $?)" >&2
+  fi
+else
+  echo "  [SKIP]  pm2 not in PATH — set PATH or PM2_APP" >&2
+fi

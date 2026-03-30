@@ -28,11 +28,34 @@ const SITE_BASE_URL = process.env.SITE_BASE_URL || "https://recallsatlas.com";
 const SITE_RECALLS_PATH = "/recalls";
 
 // Scripts dir holds recalls.json, image-map.json, recalls-log.txt.
-// IMAGE_BASE_DIR: set IMAGE_BASE_DIR in .env for server deployments.
-//   Dev default:    <repo>/frontend/public/images/recalls
-//   Server example: /var/www/html/recallsatlas/public/images/recalls
-const IMAGE_BASE_DIR = process.env.IMAGE_BASE_DIR
-    || path.resolve(__dirname, "..", "..", "frontend", "public", "images", "recalls");
+// Images must live under the Next.js site "public" folder so URLs like /images/recalls/... work.
+//   Server (backend next to public/):  <site>/public/images/recalls
+//   Dev monorepo:                       <repo>/frontend/public/images/recalls
+function resolveImageBaseDir() {
+    const raw = process.env.IMAGE_BASE_DIR;
+    if (raw && String(raw).trim()) {
+        const t = String(raw).trim();
+        const looksWinAbs = /^[a-zA-Z]:[\\/]/.test(t) || t.startsWith("\\\\");
+        if (process.platform !== "win32" && looksWinAbs) {
+            console.warn(
+                "IMAGE_BASE_DIR looks like a Windows path; ignoring on this OS. Remove it or set a Linux path (e.g. /var/www/html/recallsatlas/public/images/recalls)."
+            );
+        } else {
+            return path.resolve(t);
+        }
+    }
+    const siteRoot = path.join(__dirname, "..", "..");
+    const prodPublic = path.join(siteRoot, "public", "images", "recalls");
+    const devMonorepo = path.join(siteRoot, "frontend", "public", "images", "recalls");
+    try {
+        if (fs.existsSync(path.join(siteRoot, "public"))) {
+            return prodPublic;
+        }
+    } catch (_) {}
+    return devMonorepo;
+}
+
+const IMAGE_BASE_DIR = resolveImageBaseDir();
 const JSON_PATH = path.join(__dirname, "recalls.json");
 const IMAGE_MAP_PATH = path.join(__dirname, "image-map.json");
 const LOG_PATH = path.join(__dirname, "recalls-log.txt");
@@ -40,7 +63,7 @@ const LOG_PATH = path.join(__dirname, "recalls-log.txt");
 const START_SORT_ORDER = 1000;
 const MAX_RECORDS = 100;  // max NEW recalls per run
 const MAX_TOTAL = 300;  // hard stop: never exceed this many total recalls
-/** If the first N FDA rows match the N highest-sortOrder recalls in recalls.json (URLs in order), skip Pass 1 scan. */
+/** First N FDA table rows (with URLs): if all are already in recalls.json, stop Pass 1 immediately. */
 const EARLY_EXIT_TOP_N = 5;
 const MAX_RETRIES = 3;
 
@@ -1603,22 +1626,17 @@ function isRowOlderThanStored(rowDate, newestExistingDate) {
 }
 
 /**
- * True when the first `n` FDA list rows (with detail links) match the `n` highest-sortOrder
- * entries in recalls.json by normalized sourceUrl, same order — implies nothing new at the top.
+ * True when the first `n` FDA list rows (with detail links) are all already in recalls.json
+ * by sourceUrl. If the page has fewer than `n` URL rows, every URL row on the page must be stored.
  */
-function fdaTopMatchesJsonNewest(fdaRows, results, maxN) {
-    const n = Math.min(maxN, results.length);
-    if (n < 1) return false;
-    const sorted = [...results].sort((a, b) => (b.sortOrder ?? 0) - (a.sortOrder ?? 0));
-    const jsonTop = sorted.slice(0, n);
+function fdaFirstNRowsAllAlreadyStored(fdaRows, processedUrls, n) {
     const fdaWithUrl = fdaRows.filter((r) => r.detailUrl);
-    if (fdaWithUrl.length < n) return false;
-    for (let i = 0; i < n; i++) {
-        const ju = normalizeSourceUrl(jsonTop[i].sourceUrl);
-        const fu = normalizeSourceUrl(fdaWithUrl[i].detailUrl);
-        if (!ju || !fu || ju !== fu) return false;
+    if (fdaWithUrl.length === 0) return false;
+    if (fdaWithUrl.length < n) {
+        return fdaWithUrl.every((r) => processedUrls.has(normalizeSourceUrl(r.detailUrl)));
     }
-    return true;
+    const head = fdaWithUrl.slice(0, n);
+    return head.every((r) => processedUrls.has(normalizeSourceUrl(r.detailUrl)));
 }
 
 (async () => {
@@ -1667,6 +1685,7 @@ function fdaTopMatchesJsonNewest(fdaRows, results, maxN) {
     }, "");
 
     log(`Loaded existing recalls: ${results.length}, unique sourceUrls: ${processedUrls.size}`);
+    log(`IMAGE_BASE_DIR: ${IMAGE_BASE_DIR}`);
     log(`Newest existing date: ${newestExistingDate || "(none)"} (vs FDA table + sourceUrl)`);
     progress.update({ phase: "Start", current: 0, total: MAX_RECORDS, status: "Launching browser..." });
 
@@ -1728,9 +1747,9 @@ function fdaTopMatchesJsonNewest(fdaRows, results, maxN) {
         const rows = await extractListRows(page);
         log(`Rows found on page ${pageIndex}: ${rows.length}`);
 
-        if (pageIndex === 1 && fdaTopMatchesJsonNewest(rows, results, EARLY_EXIT_TOP_N)) {
+        if (pageIndex === 1 && fdaFirstNRowsAllAlreadyStored(rows, processedUrls, EARLY_EXIT_TOP_N)) {
             log(
-                `FDA top ${Math.min(EARLY_EXIT_TOP_N, results.length)} row(s) match highest sortOrder recalls in recalls.json — nothing new, skipping table scan.`
+                `FDA first ${EARLY_EXIT_TOP_N} row(s) (or full page if shorter) are already in recalls.json — nothing new, skipping table scan.`
             );
             hasNext = false;
             break;

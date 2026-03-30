@@ -73,7 +73,18 @@ async function main() {
       }
     );
     if (res.status < 200 || res.status >= 300) {
-      console.warn("Resend API error:", res.status, res.data != null ? String(res.data) : "");
+      const detail =
+        res.data && typeof res.data === "object"
+          ? JSON.stringify(res.data)
+          : res.data != null
+            ? String(res.data)
+            : "";
+      console.warn("Resend API error:", res.status, detail || "(no body)");
+      if (res.status === 403) {
+        console.warn(
+          "Resend 403: check RESEND_API_KEY, verify domain in Resend, and set RESEND_FROM to an allowed sender (not onboarding@resend.dev for arbitrary recipients)."
+        );
+      }
     }
   } catch (e) {
     console.warn("Resend request failed:", e.message);
