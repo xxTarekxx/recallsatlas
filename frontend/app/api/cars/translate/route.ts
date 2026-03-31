@@ -39,6 +39,17 @@ export async function POST(req: Request) {
 
     const enSummary = clean(recall.languages?.en?.summary || recall.original?.summary);
     const enRemedy = clean(recall.languages?.en?.remedy || recall.original?.remedy);
+
+    // Re-check right before OpenAI call to reduce race-condition duplicate translations.
+    const latest: any = await getRecallFromDB(campaignNumber);
+    if (latest?.languages?.[lang]) {
+      return NextResponse.json({
+        campaignNumber,
+        summary: latest.languages[lang].summary || "",
+        remedy: latest.languages[lang].remedy || "",
+      });
+    }
+
     const translated = await translateRecall({ summary: enSummary, remedy: enRemedy, lang });
 
     const mergedLanguages = {

@@ -9,6 +9,8 @@ type RecallItem = {
   consequence: string;
   component: string;
   reportDate: string;
+  languages: string[];
+  translations?: Record<string, { summary: string; remedy: string }>;
 };
 
 type LookupResponse = {
@@ -30,7 +32,6 @@ export default function CarsPage() {
   const [results, setResults] = useState<LookupResponse | null>(null);
   const [error, setError] = useState("");
   const [selectedLang, setSelectedLang] = useState("en");
-  const [translations, setTranslations] = useState<Record<string, Record<string, { summary: string; remedy: string }>>>({});
 
   async function onSearch(e: FormEvent) {
     e.preventDefault();
@@ -57,7 +58,6 @@ export default function CarsPage() {
       if (!res.ok) throw new Error(data?.error || "Request failed");
       setResults(data);
       setSelectedLang("en");
-      setTranslations({});
     } catch (err: any) {
       setResults(null);
       setError(err?.message || "Search failed");
@@ -71,13 +71,17 @@ export default function CarsPage() {
 
     let cancelled = false;
     async function runTranslations() {
+      const recallsToFetch = results.recalls.filter((recall) => {
+        const hasTranslation = Boolean(recall.translations?.[selectedLang]);
+        return !hasTranslation;
+      });
+
+      if (recallsToFetch.length === 0) return;
+
       setTranslating(true);
       try {
-        for (const recall of results.recalls) {
+        for (const recall of recallsToFetch) {
           const campaignNumber = recall.campaignNumber;
-          const cached = translations[campaignNumber]?.[selectedLang];
-          if (cached) continue;
-
           // eslint-disable-next-line no-await-in-loop
           const res = await fetch("/api/cars/translate", {
             method: "POST",
@@ -88,17 +92,31 @@ export default function CarsPage() {
           // eslint-disable-next-line no-await-in-loop
           const data = await res.json();
           if (cancelled) return;
+          const updatedCampaignNumber = String(data?.campaignNumber || campaignNumber);
+          const updatedTranslation = {
+            summary: String(data?.summary || ""),
+            remedy: String(data?.remedy || ""),
+          };
 
-          setTranslations((prev) => ({
-            ...prev,
-            [campaignNumber]: {
-              ...(prev[campaignNumber] || {}),
-              [selectedLang]: {
-                summary: String(data?.summary || ""),
-                remedy: String(data?.remedy || ""),
-              },
-            },
-          }));
+          setResults((prev) => {
+            if (!prev) return prev;
+            return {
+              ...prev,
+              recalls: prev.recalls.map((item) => {
+                if (item.campaignNumber !== updatedCampaignNumber) return item;
+                const nextTranslations = {
+                  ...(item.translations || {}),
+                  [selectedLang]: updatedTranslation,
+                };
+                const nextLanguages = Array.from(new Set([...(item.languages || ["en"]), selectedLang]));
+                return {
+                  ...item,
+                  languages: nextLanguages,
+                  translations: nextTranslations,
+                };
+              }),
+            };
+          });
         }
       } finally {
         if (!cancelled) setTranslating(false);
@@ -296,13 +314,9 @@ export default function CarsPage() {
                   }}
                 >
                   {(() => {
-                    const translated = translations[recall.campaignNumber]?.[selectedLang];
-                    const summary = selectedLang === "en"
-                      ? recall.summary
-                      : (translated?.summary || recall.summary);
-                    const remedy = selectedLang === "en"
-                      ? recall.remedy
-                      : (translated?.remedy || recall.remedy);
+                    const translated = recall.translations?.[selectedLang];
+                    const summary = selectedLang === "en" ? recall.summary : (translated?.summary || recall.summary);
+                    const remedy = selectedLang === "en" ? recall.remedy : (translated?.remedy || recall.remedy);
                     return (
                       <>
                   <p style={{ margin: "0 0 8px" }}><strong>Campaign:</strong> {recall.campaignNumber}</p>

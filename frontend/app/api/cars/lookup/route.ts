@@ -63,11 +63,11 @@ async function mergeRecallsWithDb(recalls: any[]) {
         const campaignNumber = clean(recall?.campaignNumber);
         if (!campaignNumber) return recall;
         const existing = await getRecallFromDB(campaignNumber);
-        if (existing) return existing;
+        if (existing) return toLookupRecall(existing);
 
         // Return raw immediately; process/save in background.
         queueBackgroundSave(recall);
-        return recall;
+        return toLookupRecall(recall);
       })
     );
     return merged;
@@ -75,6 +75,45 @@ async function mergeRecallsWithDb(recalls: any[]) {
     // Mongo is additive only. On any DB failure, keep current API behavior.
     return recalls;
   }
+}
+
+function toLookupRecall(recall: any) {
+  const languagesObj =
+    recall?.languages && typeof recall.languages === "object"
+      ? recall.languages
+      : { en: { summary: clean(recall?.summary), remedy: clean(recall?.remedy) } };
+
+  const en = languagesObj.en || {};
+  const summary = clean(en.summary || recall?.summary || recall?.original?.summary);
+  const remedy = clean(en.remedy || recall?.remedy || recall?.original?.remedy);
+  const consequence = clean(recall?.consequence || recall?.original?.consequence);
+  const component = clean(recall?.component);
+  const reportDate = clean(recall?.reportDate);
+
+  const translationMap: Record<string, { summary: string; remedy: string }> = {};
+  for (const [code, value] of Object.entries(languagesObj)) {
+    const v: any = value || {};
+    translationMap[code] = {
+      summary: clean(v.summary),
+      remedy: clean(v.remedy),
+    };
+  }
+  // Always guarantee English baseline in API response.
+  translationMap.en = {
+    summary: translationMap.en?.summary || summary,
+    remedy: translationMap.en?.remedy || remedy,
+  };
+
+  return {
+    campaignNumber: clean(recall?.campaignNumber),
+    summary,
+    remedy,
+    consequence,
+    component,
+    reportDate,
+    languages: Object.keys(translationMap),
+    translations: translationMap,
+  };
 }
 
 function isUrgent(summary: string, consequence: string) {
