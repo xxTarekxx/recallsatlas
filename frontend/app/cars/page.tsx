@@ -1,6 +1,6 @@
 "use client";
 
-import { FormEvent, useState } from "react";
+import { FormEvent, useEffect, useState } from "react";
 
 type RecallItem = {
   campaignNumber: string;
@@ -26,8 +26,11 @@ export default function CarsPage() {
   const [make, setMake] = useState("");
   const [model, setModel] = useState("");
   const [loading, setLoading] = useState(false);
+  const [translating, setTranslating] = useState(false);
   const [results, setResults] = useState<LookupResponse | null>(null);
   const [error, setError] = useState("");
+  const [selectedLang, setSelectedLang] = useState("en");
+  const [translations, setTranslations] = useState<Record<string, Record<string, { summary: string; remedy: string }>>>({});
 
   async function onSearch(e: FormEvent) {
     e.preventDefault();
@@ -53,6 +56,8 @@ export default function CarsPage() {
       const data = await res.json();
       if (!res.ok) throw new Error(data?.error || "Request failed");
       setResults(data);
+      setSelectedLang("en");
+      setTranslations({});
     } catch (err: any) {
       setResults(null);
       setError(err?.message || "Search failed");
@@ -60,6 +65,51 @@ export default function CarsPage() {
       setLoading(false);
     }
   }
+
+  useEffect(() => {
+    if (!results || selectedLang === "en") return;
+
+    let cancelled = false;
+    async function runTranslations() {
+      setTranslating(true);
+      try {
+        for (const recall of results.recalls) {
+          const campaignNumber = recall.campaignNumber;
+          const cached = translations[campaignNumber]?.[selectedLang];
+          if (cached) continue;
+
+          // eslint-disable-next-line no-await-in-loop
+          const res = await fetch("/api/cars/translate", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ campaignNumber, lang: selectedLang }),
+          });
+          if (!res.ok) continue;
+          // eslint-disable-next-line no-await-in-loop
+          const data = await res.json();
+          if (cancelled) return;
+
+          setTranslations((prev) => ({
+            ...prev,
+            [campaignNumber]: {
+              ...(prev[campaignNumber] || {}),
+              [selectedLang]: {
+                summary: String(data?.summary || ""),
+                remedy: String(data?.remedy || ""),
+              },
+            },
+          }));
+        }
+      } finally {
+        if (!cancelled) setTranslating(false);
+      }
+    }
+
+    runTranslations();
+    return () => {
+      cancelled = true;
+    };
+  }, [selectedLang, results]);
 
   return (
     <main
@@ -186,6 +236,29 @@ export default function CarsPage() {
         </button>
       </form>
 
+      <div style={{ marginTop: 12, display: "flex", alignItems: "center", gap: 8 }}>
+        <label htmlFor="lang" style={{ fontWeight: 600, color: "#0f172a" }}>Language:</label>
+        <select
+          id="lang"
+          value={selectedLang}
+          onChange={(e) => setSelectedLang(e.target.value)}
+          style={{ padding: "8px 10px", borderRadius: 8, border: "1px solid #cbd5e1" }}
+        >
+          <option value="en">English</option>
+          <option value="es">Spanish</option>
+          <option value="ar">Arabic</option>
+          <option value="zh">Chinese</option>
+          <option value="fr">French</option>
+          <option value="de">German</option>
+          <option value="ja">Japanese</option>
+          <option value="pt">Portuguese</option>
+          <option value="hi">Hindi</option>
+          <option value="ru">Russian</option>
+          <option value="vi">Vietnamese</option>
+        </select>
+        {translating ? <span style={{ color: "#475569" }}>Translating...</span> : null}
+      </div>
+
       {error ? (
         <p
           style={{
@@ -222,9 +295,22 @@ export default function CarsPage() {
                     boxShadow: "0 3px 14px rgba(15, 23, 42, 0.04)",
                   }}
                 >
+                  {(() => {
+                    const translated = translations[recall.campaignNumber]?.[selectedLang];
+                    const summary = selectedLang === "en"
+                      ? recall.summary
+                      : (translated?.summary || recall.summary);
+                    const remedy = selectedLang === "en"
+                      ? recall.remedy
+                      : (translated?.remedy || recall.remedy);
+                    return (
+                      <>
                   <p style={{ margin: "0 0 8px" }}><strong>Campaign:</strong> {recall.campaignNumber}</p>
-                  <p style={{ margin: "0 0 8px", color: "#1e293b" }}><strong>Summary:</strong> {recall.summary}</p>
-                  <p style={{ margin: 0, color: "#1e293b" }}><strong>Remedy:</strong> {recall.remedy}</p>
+                  <p style={{ margin: "0 0 8px", color: "#1e293b" }}><strong>Summary:</strong> {summary}</p>
+                  <p style={{ margin: 0, color: "#1e293b" }}><strong>Remedy:</strong> {remedy}</p>
+                      </>
+                    );
+                  })()}
                 </article>
               ))}
             </div>
