@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { FormEvent, useEffect, useState } from "react";
 
 type RecallItem = {
@@ -319,7 +320,10 @@ export default function CarsPage() {
                     const remedy = selectedLang === "en" ? recall.remedy : (translated?.remedy || recall.remedy);
                     return (
                       <>
-                  <p style={{ margin: "0 0 8px" }}><strong>Campaign:</strong> {recall.campaignNumber}</p>
+                  <p style={{ margin: "0 0 8px" }}>
+                    <strong>Campaign:</strong>{" "}
+                    <Link href={`/recalls/vehicle/${recall.campaignNumber}`}>{recall.campaignNumber}</Link>
+                  </p>
                   <p style={{ margin: "0 0 8px", color: "#1e293b" }}><strong>Summary:</strong> {summary}</p>
                   <p style={{ margin: 0, color: "#1e293b" }}><strong>Remedy:</strong> {remedy}</p>
                       </>
