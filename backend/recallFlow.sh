@@ -53,7 +53,13 @@ send_resend() {
 
 run_step() {
   local label="$1" script="$2" step_num="$3"
+  shift 3
+  local extra_args=("$@")
   local tmp start end elapsed elapsed_fmt host timestr fail_body ok_body
+  local cmd_display="node scripts/$script"
+  if [[ ${#extra_args[@]} -gt 0 ]]; then
+    cmd_display+=" ${extra_args[*]}"
+  fi
 
   tmp="$(mktemp)"
   start="$(date +%s)"
@@ -61,15 +67,15 @@ run_step() {
   echo ""
   echo "======================================================================"
   echo "  $label"
-  echo "  node scripts/$script"
+  echo "  $cmd_display"
   echo "======================================================================"
 
   # Stream output live (tee); stdbuf avoids block-buffering when stdout is a pipe
   set +e
   if command -v stdbuf >/dev/null 2>&1; then
-    stdbuf -oL -eL "$NODE_BIN" "scripts/$script" 2>&1 | tee "$tmp"
+    stdbuf -oL -eL "$NODE_BIN" "scripts/$script" "${extra_args[@]}" 2>&1 | tee "$tmp"
   else
-    "$NODE_BIN" "scripts/$script" 2>&1 | tee "$tmp"
+    "$NODE_BIN" "scripts/$script" "${extra_args[@]}" 2>&1 | tee "$tmp"
   fi
   local ec=${PIPESTATUS[0]}
   set -e
@@ -89,7 +95,7 @@ run_step() {
 RecallsAtlas pipeline stopped on a failed step.
 
 Step:    $step_num / $TOTAL_STEPS
-Script:  scripts/$script
+Script:  $cmd_display
 Label:   $label
 Exit:    $ec
 Elapsed: $elapsed_fmt
@@ -111,7 +117,7 @@ FAILBODY
   cat >"$ok_body" <<OKBODY
 Step $step_num of $TOTAL_STEPS completed successfully.
 
-Script:  scripts/$script
+Script:  $cmd_display
 Label:   $label
 Elapsed: $elapsed_fmt
 Host:    $host
@@ -127,7 +133,7 @@ OKBODY
   {
     echo "══════════════════════════════════════════════════════════"
     echo "Step $step_num/$TOTAL_STEPS — $label"
-    echo "Script: scripts/$script  |  Elapsed: $elapsed_fmt"
+    echo "Script: $cmd_display  |  Elapsed: $elapsed_fmt"
     echo "══════════════════════════════════════════════════════════"
     cat "$tmp"
     echo ""
@@ -148,7 +154,7 @@ echo ""
 run_step "Scrape FDA recalls"                         scrapeRecalls.js  1
 run_step "Sync to MongoDB (after scrape)"            recallsToMongo.js 2
 run_step "Translate recalls (Mongo + recalls.json)"   recallTranslate.js 3
-run_step "Check terminated recalls (JSON)"             checkTerminated.js 4
+run_step "Check terminated recalls (fetch + JSON)"     checkTerminated.js  4 --fetch
 run_step "Sync to MongoDB (after terminated check)"     recallsToMongo.js 5
 
 PIPE_END="$(date +%s)"
