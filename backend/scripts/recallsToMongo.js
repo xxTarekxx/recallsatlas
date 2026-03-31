@@ -5,8 +5,8 @@
  * - Keyed by slug (article.id or article.slug). No duplicates.
  * - Hash check: skips unchanged recalls (fast re-runs).
  * - Uses $set only — never replaces the whole document.
- *   This means fields added by other scripts (e.g. languages.* from
- *   recallTranslate.js, terminated from checkTerminated.js) are always preserved.
+ *   Other scripts can still add fields not listed in SYNC_KEYS; those are preserved
+ *   unless the same key is updated from JSON.
  * - Stores every field with its real name — no remapping.
  *
  * Run from backend/:
@@ -28,7 +28,7 @@ const JSON_PATH = path.join(__dirname, "recalls.json");
 /**
  * All fields we sync from recalls.json → MongoDB.
  * Order is stable so the hash is deterministic.
- * NOTE: "languages" is intentionally absent — that's owned by recallTranslate.js.
+ * NOTE: "languages" is synced from recalls.json (recallTranslate.js writes there).
  *       "terminated" / "terminatedCheckedAt" are here so checkTerminated.js wins
  *       on next run (it also uses $set so no conflict).
  */
@@ -46,7 +46,7 @@ const SYNC_KEYS = [
   // Images
   "image", "images", "rawImageSources",
   // Recall details
-  "content", "pageTypeLabel", "disclaimer", "label",
+  "content", "languages", "pageTypeLabel", "disclaimer", "label",
   "classification", "distribution",
   // URLs / contacts
   "source_url", "sourceUrl", "consumerWebsite", "companyWebsite", "contacts",
@@ -136,6 +136,10 @@ function articleToMongoDoc(article) {
 
     // Recall content
     content: article.content || [],
+    languages:
+      article.languages && typeof article.languages === "object"
+        ? article.languages
+        : {},
     pageTypeLabel: article.pageTypeLabel || "",
     disclaimer: article.disclaimer || "",
     label: article.label || "",
