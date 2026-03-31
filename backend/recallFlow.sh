@@ -39,11 +39,31 @@ trap 'rm -f "$ACCUM"' EXIT
 
 PIPE_START="$(date +%s)"
 
+# ANSI colors only when stdout is a TTY (plain text in cron → log files / email bodies).
+if [[ -t 1 ]]; then
+  C_RESET=$'\033[0m'
+  C_BOLD=$'\033[1m'
+  C_DIM=$'\033[2m'
+  C_CYAN=$'\033[36m'
+  C_GREEN=$'\033[32m'
+  C_YELLOW=$'\033[33m'
+  C_RED=$'\033[31m'
+  C_WHITE=$'\033[97m'
+else
+  C_RESET="" C_BOLD="" C_DIM="" C_CYAN="" C_GREEN="" C_YELLOW="" C_RED="" C_WHITE=""
+fi
+
+# Human-readable clock: no seconds, 12h + AM/PM, weekday + short date + timezone.
+# Uses GNU date %- modifiers (Ubuntu/VPS). On macOS, swap to %d / %I if needed.
+fmt_now_plain() {
+  date "+%-m-%-d-%Y  |  %-I:%M %p %Z"
+}
+
 format_elapsed() {
   local s=$1
-  if ((s < 60)); then echo "${s}s"; return; fi
+  if ((s < 60)); then echo "${s} sec"; return; fi
   local m=$((s / 60)) r=$((s % 60))
-  if ((r > 0)); then echo "${m}m ${r}s"; else echo "${m}m"; fi
+  if ((r == 0)); then echo "${m} min"; else echo "${m} min ${r} sec"; fi
 }
 
 send_resend() {
@@ -65,10 +85,10 @@ run_step() {
   start="$(date +%s)"
 
   echo ""
-  echo "======================================================================"
-  echo "  $label"
-  echo "  $cmd_display"
-  echo "======================================================================"
+  echo "${C_CYAN}──────────────────────────────────────────────────────────────────────${C_RESET}"
+  echo "  ${C_BOLD}${C_WHITE}${label}${C_RESET}"
+  echo "  ${C_DIM}${cmd_display}${C_RESET}"
+  echo "${C_CYAN}──────────────────────────────────────────────────────────────────────${C_RESET}"
 
   # Stream output live (tee); stdbuf avoids block-buffering when stdout is a pipe
   set +e
@@ -84,11 +104,11 @@ run_step() {
   elapsed=$((end - start))
   elapsed_fmt="$(format_elapsed "$elapsed")"
   host="$(hostname 2>/dev/null || echo unknown)"
-  timestr="$(date "+%Y-%m-%d %H:%M:%S %z")"
+  timestr="$(fmt_now_plain)"
 
   if [[ "$ec" -ne 0 ]]; then
     echo "" >&2
-    echo "  [FAIL]  $label failed (exit code $ec) after $elapsed_fmt" >&2
+    echo "${C_RED}  [FAIL]${C_RESET}  ${C_BOLD}${label}${C_RESET}  ${C_DIM}(exit ${ec} • ${elapsed_fmt})${C_RESET}" >&2
     echo "" >&2
     fail_body="$(mktemp)"
     cat >"$fail_body" <<FAILBODY
@@ -111,7 +131,7 @@ FAILBODY
     exit "$ec"
   fi
 
-  echo "  [OK]  $label completed in $elapsed_fmt"
+  echo "${C_GREEN}  [OK]${C_RESET}  ${C_BOLD}${label}${C_RESET}  ${C_DIM}•  ${elapsed_fmt}${C_RESET}"
 
   ok_body="$(mktemp)"
   cat >"$ok_body" <<OKBODY
@@ -131,10 +151,10 @@ OKBODY
   rm -f "$ok_body"
 
   {
-    echo "══════════════════════════════════════════════════════════"
+    echo "────────────────────────────────────────────────────────────"
     echo "Step $step_num/$TOTAL_STEPS — $label"
-    echo "Script: $cmd_display  |  Elapsed: $elapsed_fmt"
-    echo "══════════════════════════════════════════════════════════"
+    echo "Script: $cmd_display  |  Duration: $elapsed_fmt  |  Finished: $(fmt_now_plain)"
+    echo "────────────────────────────────────────────────────────────"
     cat "$tmp"
     echo ""
   } >>"$ACCUM"
@@ -143,12 +163,12 @@ OKBODY
 }
 
 echo ""
-echo "============================================================"
-echo "  RecallsAtlas - Pipeline Runner"
-echo "============================================================"
-echo "     Steps               $TOTAL_STEPS"
-echo "     Node                $($NODE_BIN --version)"
-echo "     Started             $(date "+%Y-%m-%d %H:%M:%S %z")"
+echo "${C_CYAN}══════════════════════════════════════════════════════════════════════${C_RESET}"
+echo "  ${C_BOLD}${C_WHITE}RecallsAtlas — Pipeline${C_RESET}"
+echo "${C_CYAN}══════════════════════════════════════════════════════════════════════${C_RESET}"
+echo "     ${C_DIM}Steps${C_RESET}          $TOTAL_STEPS"
+echo "     ${C_DIM}Node${C_RESET}           $($NODE_BIN --version)"
+echo "     ${C_DIM}Started${C_RESET}        $(fmt_now_plain)"
 echo ""
 
 run_step "Scrape FDA recalls"                         scrapeRecalls.js  1
@@ -162,15 +182,15 @@ PIPE_ELAPSED=$((PIPE_END - PIPE_START))
 PIPE_ELAPSED_FMT="$(format_elapsed "$PIPE_ELAPSED")"
 
 echo ""
-echo "============================================================"
-echo "  Pipeline Complete"
-echo "============================================================"
-echo "     Steps run           $TOTAL_STEPS"
-echo "     Total time          $PIPE_ELAPSED_FMT"
-echo "     Finished            $(date "+%Y-%m-%d %H:%M:%S %z")"
+echo "${C_GREEN}══════════════════════════════════════════════════════════════════════${C_RESET}"
+echo "  ${C_BOLD}${C_WHITE}Pipeline complete${C_RESET}"
+echo "${C_GREEN}══════════════════════════════════════════════════════════════════════${C_RESET}"
+echo "     ${C_DIM}Steps run${C_RESET}      $TOTAL_STEPS"
+echo "     ${C_DIM}Total time${C_RESET}     $PIPE_ELAPSED_FMT"
+echo "     ${C_DIM}Finished${C_RESET}       $(fmt_now_plain)"
 echo ""
 
-echo "recallFlow.sh: pipeline complete ($(date -Iseconds))"
+echo "${C_DIM}recallFlow.sh: all steps OK | $(fmt_now_plain)${C_RESET}"
 
 summary_body="$(mktemp)"
 {
@@ -179,7 +199,7 @@ summary_body="$(mktemp)"
   echo "Result: $TOTAL_STEPS / $TOTAL_STEPS steps OK"
   echo "Total time: $PIPE_ELAPSED_FMT"
   echo "Host: $(hostname 2>/dev/null || echo unknown)"
-  echo "Finished: $(date "+%Y-%m-%d %H:%M:%S %z")"
+  echo "Finished: $(fmt_now_plain)"
   echo ""
   cat "$ACCUM"
 } >"$summary_body"
@@ -188,13 +208,13 @@ rm -f "$summary_body"
 
 PM2_APP="${PM2_APP:-recallsatlas}"
 echo ""
-echo "Restarting Next.js (pm2): $PM2_APP"
+echo "${C_DIM}Restarting Next.js (pm2):${C_RESET} ${C_BOLD}$PM2_APP${C_RESET}"
 if command -v pm2 >/dev/null 2>&1; then
   if pm2 restart "$PM2_APP" 2>&1; then
-    echo "  [OK]  pm2 restart $PM2_APP"
+    echo "${C_GREEN}  [OK]${C_RESET}  pm2 restart ${C_BOLD}$PM2_APP${C_RESET}"
   else
-    echo "  [WARN]  pm2 restart failed (exit $?)" >&2
+    echo "${C_YELLOW}  [WARN]${C_RESET}  pm2 restart failed (exit $?)" >&2
   fi
 else
-  echo "  [SKIP]  pm2 not in PATH — set PATH or PM2_APP" >&2
+  echo "${C_YELLOW}  [SKIP]${C_RESET}  pm2 not in PATH — set PATH or PM2_APP" >&2
 fi

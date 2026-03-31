@@ -54,7 +54,7 @@ const FETCH = flags.includes("--fetch");
 const SCRIPTS_DIR = __dirname;
 const DEFAULT_NAME = "recalls-market-withdrawals-safety-alert";
 
-/** Build a serial+timestamp filename, e.g. 1-2026-03-21-02-30PM.xlsx */
+/** Build a serial+timestamp filename, e.g. (1) 3-31-2026 2-30PM.xlsx */
 function buildTimestampedXlsxPath() {
   if (!fs.existsSync(DOWNLOADS_DIR)) {
     fs.mkdirSync(DOWNLOADS_DIR, { recursive: true });
@@ -66,18 +66,17 @@ function buildTimestampedXlsxPath() {
   const nextSerial = existing.length + 1;
 
   const now = new Date();
-  const pad = (n) => String(n).padStart(2, "0");
   const year = now.getFullYear();
-  const month = pad(now.getMonth() + 1);
-  const day = pad(now.getDate());
+  const month = now.getMonth() + 1;
+  const day = now.getDate();
   const h24 = now.getHours();
-  const minutes = pad(now.getMinutes());
+  const minutes = String(now.getMinutes()).padStart(2, "0");
   const ampm = h24 >= 12 ? "PM" : "AM";
   const h12 = h24 % 12 || 12;
-  const hour = pad(h12);
+  const hour = h12;
   return path.join(
     DOWNLOADS_DIR,
-    `${nextSerial}-${year}-${month}-${day}-${hour}-${minutes}${ampm}.xlsx`
+    `(${nextSerial}) ${month}-${day}-${year} ${hour}-${minutes}${ampm}.xlsx`
   );
 }
 
@@ -87,9 +86,13 @@ function latestDownloadedXlsx() {
   const files = fs
     .readdirSync(DOWNLOADS_DIR)
     .filter((f) => f.endsWith(".xlsx"))
-    .sort() // ISO timestamps sort lexicographically = chronologically
-    .reverse();
-  return files.length ? path.join(DOWNLOADS_DIR, files[0]) : null;
+    .map((name) => {
+      const full = path.join(DOWNLOADS_DIR, name);
+      const stat = fs.statSync(full);
+      return { name, mtimeMs: stat.mtimeMs };
+    })
+    .sort((a, b) => b.mtimeMs - a.mtimeMs);
+  return files.length ? path.join(DOWNLOADS_DIR, files[0].name) : null;
 }
 
 const HEADLESS = process.env.HEADLESS !== "false";

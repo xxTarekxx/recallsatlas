@@ -27,6 +27,7 @@
 
 const path = require("path");
 const fs = require("fs");
+const crypto = require("crypto");
 
 // ─── Env ──────────────────────────────────────────────────────────────────────
 
@@ -48,6 +49,8 @@ const flags = process.argv.slice(2).filter(a => a.startsWith("--"));
 const args = process.argv.slice(2).filter(a => !a.startsWith("--"));
 const DRY_RUN = flags.includes("--dry-run");
 const RESET = flags.includes("--reset");
+const RESUME_PARTIAL = flags.includes("--resume-partial");
+const MONGO_MODE = flags.includes("--mongo");
 const ONE = flags.includes("--one");
 const LIMIT_ARG = Number((flags.find(f => f.startsWith("--limit=")) || "").split("=")[1]);
 const SLUG_ARG = flags.find(f => f.startsWith("--slug="))?.split("=")[1]
@@ -381,6 +384,34 @@ function writeJsonArray(filePath, arr) {
   fs.writeFileSync(filePath, JSON.stringify(arr, null, 2), "utf8");
 }
 
+function sourceHash(source) {
+  return crypto.createHash("sha256").update(JSON.stringify(source || {})).digest("hex");
+}
+
+function hasMeaningfulLanguageContent(langObj) {
+  if (!langObj || typeof langObj !== "object") return false;
+  if (typeof langObj.title === "string" && langObj.title.trim()) return true;
+  if (typeof langObj.description === "string" && langObj.description.trim()) return true;
+  if (typeof langObj.productDescription === "string" && langObj.productDescription.trim()) return true;
+  if (Array.isArray(langObj.content) && langObj.content.length > 0) return true;
+  return false;
+}
+
+function isLanguageComplete(langObj) {
+  if (!langObj || typeof langObj !== "object") return false;
+  if (langObj?._checkpoint?.complete === true) return true;
+  // Backward compatibility: if older docs have no checkpoint but do have
+  // translated content, treat them as complete to avoid re-translation.
+  return hasMeaningfulLanguageContent(langObj);
+}
+
+function isLanguageUpToDate(langObj, englishHash) {
+  if (!isLanguageComplete(langObj)) return false;
+  const h = typeof langObj?._sourceHash === "string" ? langObj._sourceHash : "";
+  if (!h) return true; // backward-compatible: previously translated content without hash
+  return h === englishHash;
+}
+
 /** Replace one recall in recalls.json with a full Mongo document (includes languages). */
 async function upsertRecallInRecallsJson(coll, recallId) {
   const doc = await coll.findOne({ _id: recallId });
@@ -397,55 +428,86 @@ async function upsertRecallInRecallsJson(coll, recallId) {
 // ─── Main ─────────────────────────────────────────────────────────────────────
 
 async function main() {
-  const { getDb, close } = require("../database/mongodb");
-
   uiHeader("Recalls Atlas  ·  Translation Engine");
 
-  if (DRY_RUN) uiWarn("DRY RUN — no writes to MongoDB");
+  if (DRY_RUN) uiWarn("DRY RUN — no writes");
   if (RESET) uiWarn("RESET — clearing all existing translations");
-
-  process.stdout.write(`  ${C.cyan}▸${C.reset} Connecting to MongoDB…`);
-  const db = await getDb();
-  const coll = db.collection("recalls");
-  process.stdout.write(` ${C.green}connected${C.reset}\n`);
-
-  if (!DRY_RUN) {
-    process.stdout.write(`  ${C.cyan}▸${C.reset} Writing full Mongo snapshot to recalls.json…`);
-    const allDocs = await coll.find({}).toArray();
-    allDocs.sort((a, b) => (b.sortOrder ?? 0) - (a.sortOrder ?? 0));
-    writeJsonArray(RECALLS_JSON_PATH, allDocs);
-    process.stdout.write(` ${C.green}done${C.reset}\n`);
+  if (!MONGO_MODE) uiInfo("Source", "recalls.json only (no MongoDB)");
+  if (!RESET && !SLUG_ARG && !RESUME_PARTIAL) {
+    uiInfo("Mode", "new recalls only (use --resume-partial to backfill)");
+  }
+  let closeDb = null;
+  let recalls = [];
+  let coll = null;
+  if (MONGO_MODE) {
+    const { getDb, close } = require("../database/mongodb");
+    closeDb = close;
+    process.stdout.write(`  ${C.cyan}▸${C.reset} Connecting to MongoDB…`);
+    const db = await getDb();
+    coll = db.collection("recalls");
+    process.stdout.write(` ${C.green}connected${C.reset}\n`);
+    if (!DRY_RUN) {
+      process.stdout.write(`  ${C.cyan}▸${C.reset} Writing full Mongo snapshot to recalls.json…`);
+      const allDocs = await coll.find({}).toArray();
+      allDocs.sort((a, b) => (b.sortOrder ?? 0) - (a.sortOrder ?? 0));
+      writeJsonArray(RECALLS_JSON_PATH, allDocs);
+      process.stdout.write(` ${C.green}done${C.reset}\n`);
+    }
+  } else {
+    recalls = readJsonArraySafe(RECALLS_JSON_PATH);
   }
 
   // ── Build query ─────────────────────────────────────────────────────────────
-  let query = {};
-  if (SLUG_ARG) {
-    query = { slug: SLUG_ARG };
-  } else if (RESET) {
-    query = {};
-  } else {
-    query = {
-      $or: TARGET_LANGS.map(l => ({
+  if (MONGO_MODE) {
+    let query = {};
+    if (SLUG_ARG) {
+      query = { slug: SLUG_ARG };
+    } else if (RESET) {
+      query = {};
+    } else {
+      query = {
         $or: [
-          { [`languages.${l.code}`]: { $exists: false } },
-          { [`languages.${l.code}._checkpoint.complete`]: { $ne: true } },
+          { translatedAt: { $exists: false } },
+          { translatedAt: null },
+          { translatedAt: "" },
         ],
-      })),
-    };
+      };
+    }
+    if (RESET && !DRY_RUN) {
+      process.stdout.write(`  ${C.cyan}▸${C.reset} Clearing all translations…`);
+      await coll.updateMany({}, { $unset: { languages: "" } });
+      process.stdout.write(` ${C.green}done${C.reset}\n`);
+    }
+    recalls = await coll.find(query).toArray();
+  } else {
+    if (RESET && !DRY_RUN) {
+      recalls.forEach((r) => {
+        delete r.languages;
+        delete r.translatedAt;
+      });
+      writeJsonArray(RECALLS_JSON_PATH, recalls);
+    }
+    if (SLUG_ARG) recalls = recalls.filter((r) => r.slug === SLUG_ARG);
+    else if (!RESET && !RESUME_PARTIAL) recalls = recalls.filter((r) => !r.translatedAt);
   }
 
-  if (RESET && !DRY_RUN) {
-    process.stdout.write(`  ${C.cyan}▸${C.reset} Clearing all translations…`);
-    await coll.updateMany({}, { $unset: { languages: "" } });
-    process.stdout.write(` ${C.green}done${C.reset}\n`);
+  if (!SLUG_ARG && !RESET && RESUME_PARTIAL) {
+    recalls = recalls.filter((recall) =>
+      TARGET_LANGS.some((l) => !isLanguageComplete(recall.languages?.[l.code]))
+    );
+  } else if (!SLUG_ARG && !RESET && !RESUME_PARTIAL) {
+    recalls = recalls.filter((recall) => {
+      if (recall.translatedAt) return false;
+      const enSource = buildEnglishSource(recall);
+      const englishHash = sourceHash(enSource);
+      return TARGET_LANGS.some((l) => !isLanguageUpToDate(recall.languages?.[l.code], englishHash));
+    });
   }
-
-  let recalls = await coll.find(query).toArray();
   if (LIMIT) recalls = recalls.slice(0, LIMIT);
 
   if (recalls.length === 0) {
     uiOk("All recalls are fully translated — nothing to do.");
-    await close();
+    if (closeDb) await closeDb();
     return;
   }
 
@@ -474,10 +536,15 @@ async function main() {
       `\n  ${C.bold}[${recallsDone + 1}/${recalls.length}]${C.reset}  ${shortTitle}`
     );
 
+    // Build English source + save languages.en
+    const enSource = buildEnglishSource(recall);
+    const totalElements = countElements(enSource);
+    const englishHash = sourceHash(enSource);
+
     // Which languages still need translating for this recall?
     const langsNeeded = TARGET_LANGS.filter(l => {
       const existing = recall.languages?.[l.code];
-      return RESET || !existing || existing?._checkpoint?.complete !== true;
+      return RESET || !isLanguageUpToDate(existing, englishHash);
     });
     const langsSkipped = TARGET_LANGS.length - langsNeeded.length;
 
@@ -496,16 +563,17 @@ async function main() {
       `  ${C.dim}  Pending: ${langsNeeded.map(l => l.flag).join(" ")}${C.reset}\n`
     );
 
-    // Build English source + save languages.en
-    const enSource = buildEnglishSource(recall);
-    const totalElements = countElements(enSource);
-
-    if (!DRY_RUN) {
+    if (!DRY_RUN && MONGO_MODE) {
       const enLang = LANGUAGES.find(l => l.code === "en");
       await coll.updateOne(
         { _id: recall._id },
         { $set: { "languages.en": { ...enSource, dir: enLang.dir, flag: enLang.flag, lang: "en" } } }
       );
+    } else if (!DRY_RUN) {
+      const enLang = LANGUAGES.find((l) => l.code === "en");
+      if (!recall.languages || typeof recall.languages !== "object") recall.languages = {};
+      recall.languages.en = { ...enSource, dir: enLang.dir, flag: enLang.flag, lang: "en" };
+      writeJsonArray(RECALLS_JSON_PATH, readJsonArraySafe(RECALLS_JSON_PATH).map((r) => ((r.slug || r.id) === (recall.slug || recall.id) ? recall : r)));
     }
 
     // ── Per-language loop (saves immediately after each language) ─────────────
@@ -526,11 +594,16 @@ async function main() {
           );
         },
         async (checkpointed) => {
-          if (!DRY_RUN) {
+          checkpointed._sourceHash = englishHash;
+          if (!DRY_RUN && MONGO_MODE) {
             await coll.updateOne(
               { _id: recall._id },
               { $set: { [`languages.${lang.code}`]: checkpointed } }
             );
+          } else if (!DRY_RUN) {
+            if (!recall.languages || typeof recall.languages !== "object") recall.languages = {};
+            recall.languages[lang.code] = checkpointed;
+            writeJsonArray(RECALLS_JSON_PATH, readJsonArraySafe(RECALLS_JSON_PATH).map((r) => ((r.slug || r.id) === (recall.slug || recall.id) ? recall : r)));
           }
         }
       );
@@ -538,18 +611,23 @@ async function main() {
       translated.dir = lang.dir;
       translated.flag = lang.flag;
       translated.lang = lang.code;
+      translated._sourceHash = englishHash;
       translated._checkpoint = { complete: true, doneKeys: [], updatedAt: new Date().toISOString() };
 
       const langMs = Date.now() - langStart;
 
       // ── Save this language to MongoDB immediately ─────────────────────────
-      if (!DRY_RUN) {
+      if (!DRY_RUN && MONGO_MODE) {
         await coll.updateOne(
           { _id: recall._id },
           { $set: { [`languages.${lang.code}`]: translated } }
         );
 
         await upsertRecallInRecallsJson(coll, recall._id);
+      } else if (!DRY_RUN) {
+        if (!recall.languages || typeof recall.languages !== "object") recall.languages = {};
+        recall.languages[lang.code] = translated;
+        writeJsonArray(RECALLS_JSON_PATH, readJsonArraySafe(RECALLS_JSON_PATH).map((r) => ((r.slug || r.id) === (recall.slug || recall.id) ? recall : r)));
       }
 
       process.stdout.write(
@@ -559,7 +637,7 @@ async function main() {
     }
 
     // Mark recall as fully translated
-    if (!DRY_RUN) {
+    if (!DRY_RUN && MONGO_MODE) {
       await coll.updateOne(
         { _id: recall._id },
         { $set: { translatedAt: new Date().toISOString() } }
@@ -571,6 +649,9 @@ async function main() {
       } else {
         console.log(`  ${C.yellow}⚠${C.reset} Could not mirror to recalls.json for slug ${recall.slug}`);
       }
+    } else if (!DRY_RUN) {
+      recall.translatedAt = new Date().toISOString();
+      writeJsonArray(RECALLS_JSON_PATH, readJsonArraySafe(RECALLS_JSON_PATH).map((r) => ((r.slug || r.id) === (recall.slug || recall.id) ? recall : r)));
     }
 
     recallsDone++;
@@ -614,7 +695,7 @@ async function main() {
   }
   console.log("");
 
-  await close();
+  if (closeDb) await closeDb();
 }
 
 // ─── SIGINT ───────────────────────────────────────────────────────────────────
