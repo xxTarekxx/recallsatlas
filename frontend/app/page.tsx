@@ -111,24 +111,23 @@ export default async function HomePage() {
             </span>
           </Link>
 
-          {/* NHTSA — coming soon */}
-          <div
-            className="home-category-card home-category-card--disabled"
-            aria-label="Vehicle Recalls — coming soon"
-            role="note"
+          {/* Vehicle Recalls */}
+          <Link
+            href="/cars"
+            className="home-category-card"
+            aria-label="Check vehicle recalls by VIN or vehicle details"
           >
             <span className="home-category-icon home-category-icon--nhtsa" aria-hidden="true">
               NHTSA
             </span>
             <h3>Vehicle Recalls</h3>
             <p>
-              Cars, trucks, motorcycles, and related equipment recalled by the
-              National Highway Traffic Safety Administration. Coming soon.
+              Check recalls using VIN or vehicle details
             </p>
-            <span className="home-category-pill home-category-pill--disabled" aria-hidden="true">
-              Coming soon
+            <span className="home-category-pill" aria-hidden="true">
+              Check Now
             </span>
-          </div>
+          </Link>
         </div>
       </section>
 
