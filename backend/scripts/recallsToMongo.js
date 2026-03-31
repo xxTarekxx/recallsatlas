@@ -2,7 +2,7 @@
  * Sync recalls from backend/scripts/recalls.json to MongoDB (recallsatlas.recalls).
  *
  * Behaviour:
- * - Keyed by slug (article.id). No duplicates.
+ * - Keyed by slug (article.id or article.slug). No duplicates.
  * - Hash check: skips unchanged recalls (fast re-runs).
  * - Uses $set only — never replaces the whole document.
  *   This means fields added by other scripts (e.g. languages.* from
@@ -87,7 +87,7 @@ function dateToReportDate(dateStr) {
  * Field names match the JSON exactly — no renaming.
  */
 function articleToMongoDoc(article) {
-  const slug = article.id;
+  const slug = article.id || article.slug;
   if (!slug) return null;
 
   const singleImage =

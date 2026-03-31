@@ -101,4 +101,10 @@ foreach ($it in $items) {
   if ($LASTEXITCODE -ne 0) { throw "scp $name failed (exit $LASTEXITCODE)" }
 }
 
+if (Test-Path -LiteralPath (Join-Path $PSScriptRoot "recallFlow.sh")) {
+  Write-Host "Setting execute permission for recallFlow.sh..."
+  & ssh @SshBase $SshTarget "chmod +x '$rb/recallFlow.sh'"
+  if ($LASTEXITCODE -ne 0) { throw "chmod recallFlow.sh failed (exit $LASTEXITCODE)" }
+}
+
 Write-Host "Done."

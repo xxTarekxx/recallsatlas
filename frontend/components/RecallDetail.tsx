@@ -112,7 +112,11 @@ export default function RecallDetail({ recall, dbError = null, currentLang = "en
   const classification = recall?.classification || "";
   const distribution = recall?.distribution || "";
   const productType = activeLangObj?.productType || recall?.productType || "";
-  const sourceUrl = recall?.source_url || "";
+  const sourceUrl =
+    (typeof activeLangObj?.sourceUrl === "string" && activeLangObj.sourceUrl.trim()) ||
+    recall?.source_url ||
+    (typeof recall?.sourceUrl === "string" && recall.sourceUrl.trim()) ||
+    "";
   const rawContent = Array.isArray(activeLangObj?.content)
     ? activeLangObj.content
     : (Array.isArray(recall?.content) ? recall.content : []);
