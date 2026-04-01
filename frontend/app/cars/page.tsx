@@ -260,7 +260,22 @@ function CarsPageInner() {
       });
 
       const data = await res.json();
-      if (!res.ok) throw new Error(data?.error || ui.errorSearchFailed);
+      if (!res.ok) {
+        if (
+          data?.code === "VIN_LOOKUP_NOT_FOUND" &&
+          typeof data?.vin === "string"
+        ) {
+          setError(ui.vinLookupNotFound(normalizeVinInput(data.vin)));
+          setResults(null);
+          try {
+            sessionStorage.removeItem(SS_RESULTS);
+          } catch {
+            /* ignore */
+          }
+          return;
+        }
+        throw new Error(data?.error || ui.errorSearchFailed);
+      }
 
       const recalls = Array.isArray(data?.recalls) ? data.recalls : [];
       if (hasVin && recalls.length === 0) {

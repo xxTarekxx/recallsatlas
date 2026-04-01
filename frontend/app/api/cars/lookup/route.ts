@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server";
+import { VinLookupNotFoundError } from "@/lib/cars/decodeVin";
 import { getCarRecalls } from "@/lib/cars/recallService";
 import { getRecallFromDB, saveRecallToDB } from "@/lib/cars/carDb";
 import { rewriteRecall } from "@/lib/cars/rewriteRecall";
@@ -49,6 +50,12 @@ export async function POST(req: Request) {
       recalls,
     });
   } catch (err: any) {
+    if (err instanceof VinLookupNotFoundError) {
+      return NextResponse.json(
+        { code: "VIN_LOOKUP_NOT_FOUND", vin: err.vin },
+        { status: 422 }
+      );
+    }
     return NextResponse.json(
       { error: err?.message || "Failed to lookup vehicle recalls." },
       { status: 500 }

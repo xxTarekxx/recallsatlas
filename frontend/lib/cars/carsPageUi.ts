@@ -28,6 +28,8 @@ export type CarsPageUi = {
   errorSearchFailed: string;
   /** Successful VIN lookup with zero open recalls */
   vinNoRecalls: (vin: string) => string;
+  /** VPIC could not decode VIN or NHTSA returned no vehicle data */
+  vinLookupNotFound: (vin: string) => string;
   emptyNoRecalls: string;
   badgeOpenCampaign: string;
   /** Teaser row on result cards (link to full vehicle recall page). */
@@ -69,6 +71,8 @@ const en: CarsPageUi = {
   errorSearchFailed: "Search failed",
   vinNoRecalls: (vin) =>
     `We did not find any recalls for VIN ${vin}.`,
+  vinLookupNotFound: (vin) =>
+    `We did not find any recalls on this VIN ${vin}. Please try again later.`,
   emptyNoRecalls:
     "No active recalls reported for this vehicle in NHTSA data.",
   badgeOpenCampaign: "Open campaign · NHTSA",
@@ -110,6 +114,8 @@ const es: CarsPageUi = {
   errorSearchFailed: "La búsqueda falló",
   vinNoRecalls: (vin) =>
     `No encontramos retiros para el VIN ${vin}.`,
+  vinLookupNotFound: (vin) =>
+    `No encontramos retiros para este VIN ${vin}. Vuelva a intentarlo más tarde.`,
   emptyNoRecalls:
     "No hay retiros activos para este vehículo en los datos de NHTSA.",
   badgeOpenCampaign: "Campaña abierta · NHTSA",
@@ -151,6 +157,8 @@ const ar: CarsPageUi = {
   errorSearchFailed: "فشل البحث",
   vinNoRecalls: (vin) =>
     `لم نعثر على استدعاءات لرقم VIN ‎${vin}.`,
+  vinLookupNotFound: (vin) =>
+    `لم نعثر على استدعاءات لهذا VIN ‎${vin}. يُرجى المحاولة لاحقًا.`,
   emptyNoRecalls: "لا توجد استدعاءات نشطة لهذه المركبة في بيانات NHTSA.",
   badgeOpenCampaign: "حملة مفتوحة · NHTSA",
   cardViewDetails: "عرض التفاصيل الكاملة",
@@ -189,6 +197,8 @@ const zh: CarsPageUi = {
   errorNeedVinOrYmm: "请输入 VIN，或年款、品牌与车型。",
   errorSearchFailed: "搜索失败",
   vinNoRecalls: (vin) => `未找到 VIN ${vin} 的相关召回。`,
+  vinLookupNotFound: (vin) =>
+    `未找到此 VIN ${vin} 的相关召回。请稍后再试。`,
   emptyNoRecalls: "NHTSA 数据中未报告此车辆有活跃召回。",
   badgeOpenCampaign: "开放活动 · NHTSA",
   cardViewDetails: "查看完整详情",
@@ -229,6 +239,8 @@ const fr: CarsPageUi = {
   errorSearchFailed: "Échec de la recherche",
   vinNoRecalls: (vin) =>
     `Aucun rappel trouvé pour le NIV ${vin}.`,
+  vinLookupNotFound: (vin) =>
+    `Aucun rappel trouvé pour ce NIV ${vin}. Veuillez réessayer plus tard.`,
   emptyNoRecalls:
     "Aucun rappel actif signalé pour ce véhicule dans les données NHTSA.",
   badgeOpenCampaign: "Campagne ouverte · NHTSA",
@@ -270,6 +282,8 @@ const de: CarsPageUi = {
   errorSearchFailed: "Suche fehlgeschlagen",
   vinNoRecalls: (vin) =>
     `Für die VIN ${vin} wurden keine Rückrufe gefunden.`,
+  vinLookupNotFound: (vin) =>
+    `Für diese VIN ${vin} wurden keine Rückrufe gefunden. Bitte später erneut versuchen.`,
   emptyNoRecalls:
     "Für dieses Fahrzeug sind in den NHTSA-Daten keine aktiven Rückrufe gemeldet.",
   badgeOpenCampaign: "Offene Kampagne · NHTSA",
@@ -311,6 +325,8 @@ const ja: CarsPageUi = {
   errorSearchFailed: "検索に失敗しました",
   vinNoRecalls: (vin) =>
     `VIN ${vin} のリコールは見つかりませんでした。`,
+  vinLookupNotFound: (vin) =>
+    `この VIN ${vin} のリコールは見つかりませんでした。後でもう一度お試しください。`,
   emptyNoRecalls:
     "NHTSAデータに、この車両の有効なリコールはありません。",
   badgeOpenCampaign: "公開中のキャンペーン · NHTSA",
@@ -352,6 +368,8 @@ const pt: CarsPageUi = {
   errorSearchFailed: "Falha na busca",
   vinNoRecalls: (vin) =>
     `Não encontramos recalls para o VIN ${vin}.`,
+  vinLookupNotFound: (vin) =>
+    `Não encontramos recalls para este VIN ${vin}. Tente novamente mais tarde.`,
   emptyNoRecalls:
     "Nenhum recall ativo registrado para este veículo nos dados da NHTSA.",
   badgeOpenCampaign: "Campanha aberta · NHTSA",
@@ -393,6 +411,8 @@ const hi: CarsPageUi = {
   errorSearchFailed: "खोज विफल",
   vinNoRecalls: (vin) =>
     `VIN ${vin} के लिए कोई रिकॉल नहीं मिला।`,
+  vinLookupNotFound: (vin) =>
+    `इस VIN ${vin} के लिए कोई रिकॉल नहीं मिला। बाद में पुनः प्रयास करें।`,
   emptyNoRecalls:
     "NHTSA डेटा में इस वाहन के लिए कोई सक्रिय रिकॉल रिपोर्ट नहीं।",
   badgeOpenCampaign: "खुला अभियान · NHTSA",
@@ -434,6 +454,8 @@ const ru: CarsPageUi = {
   errorSearchFailed: "Ошибка поиска",
   vinNoRecalls: (vin) =>
     `По VIN ${vin} отзывов не найдено.`,
+  vinLookupNotFound: (vin) =>
+    `По этому VIN ${vin} отзывов не найдено. Попробуйте позже.`,
   emptyNoRecalls:
     "В данных NHTSA нет активных отзывов для этого транспортного средства.",
   badgeOpenCampaign: "Открытая кампания · NHTSA",
@@ -482,6 +504,8 @@ const vi: CarsPageUi = {
   errorSearchFailed: "Tìm kiếm thất bại",
   vinNoRecalls: (vin) =>
     `Không tìm thấy thu hồi nào cho VIN ${vin}.`,
+  vinLookupNotFound: (vin) =>
+    `Không tìm thấy thu hồi nào cho VIN ${vin} này. Vui lòng thử lại sau.`,
   emptyNoRecalls:
     "Không có thu hồi đang hiệu lực cho xe này trong dữ liệu NHTSA.",
   badgeOpenCampaign: "Chiến dịch đang mở · NHTSA",
