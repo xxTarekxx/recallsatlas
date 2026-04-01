@@ -606,6 +606,92 @@
   letter-spacing: 0.055em;
 }
 
+/* Mobile: slightly shorter than full viewport; inner column gap for even spacing — desktop unchanged above */
+@media (max-width: 639px) {
+  .home-hero {
+    /* A little less than full screen — less empty band above/below the content block */
+    min-height: 88svh;
+    min-height: 88dvh;
+    padding: max(0.75rem, env(safe-area-inset-top, 0px))
+      max(0.875rem, env(safe-area-inset-right, 0px))
+      max(0.875rem, env(safe-area-inset-bottom, 0px))
+      max(0.875rem, env(safe-area-inset-left, 0px));
+    box-sizing: border-box;
+    align-items: stretch;
+  }
+
+  .home-hero-inner {
+    max-width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.875rem;
+    min-height: 0;
+  }
+
+  .home-hero-badges {
+    margin-bottom: 0;
+    gap: 0.35rem 0.5rem;
+  }
+
+  .home-hero-badge {
+    padding: 0.3rem 0.65rem;
+    font-size: 0.75rem;
+  }
+
+  .home-hero-title {
+    font-size: clamp(1.45rem, 7.5vw, 1.85rem);
+    line-height: 1.15;
+    margin-bottom: 0;
+  }
+
+  .home-hero-subtitle {
+    font-size: 0.8125rem;
+    line-height: 1.45;
+    margin: 0;
+    max-width: 100%;
+  }
+
+  .home-hero-quick {
+    margin: 0;
+    font-size: 0.8125rem;
+    gap: 0.25rem 0.45rem;
+  }
+
+  .home-hero-search {
+    margin: 0;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .home-hero-search-input {
+    padding: 0.55rem 0.75rem;
+    font-size: 0.9375rem;
+  }
+
+  .home-hero-search-btn {
+    padding: 0.55rem 0.9rem;
+    font-size: 0.875rem;
+  }
+
+  .home-stats {
+    margin-top: 0.125rem;
+    gap: 0.5rem 0.65rem;
+    row-gap: 0.35rem;
+  }
+
+  .home-stat-value {
+    font-size: 1.15rem;
+  }
+
+  .home-stat-label {
+    font-size: 0.65rem;
+    letter-spacing: 0.04em;
+  }
+}
+
 /* ── Category section ────────────────────────────────────── */
 
 .home-categories {
