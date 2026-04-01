@@ -118,6 +118,20 @@ export function withLocalePath(path: string, lang: string): string {
   return `/${l}${p}`;
 }
 
+/** `/recalls` or `/ar/recalls` with optional `category`, `q`, etc. (GET search form + filters). */
+export function recallsListPathWithQuery(
+  lang: SiteUiLang,
+  query: Record<string, string | undefined | null>
+): string {
+  const base = withLangPath("/recalls", lang);
+  const sp = new URLSearchParams();
+  for (const [k, v] of Object.entries(query)) {
+    if (v != null && String(v).trim() !== "") sp.set(k, String(v).trim());
+  }
+  const qs = sp.toString();
+  return qs ? `${base}?${qs}` : base;
+}
+
 /** Navigate from current pathname to equivalent path in `newLang`. */
 export function pathForLang(pathname: string, newLang: SiteUiLang): string {
   const current = parseLangFromPathname(pathname);

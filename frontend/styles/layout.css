@@ -880,6 +880,21 @@
   transition: all var(--transition-fast);
 }
 
+button.filter-bar-pill {
+  font: inherit;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  cursor: pointer;
+  text-align: center;
+}
+
+.filter-bar-pill--active {
+  background: color-mix(in srgb, var(--color-blue) 12%, var(--color-background));
+  border-color: var(--color-blue);
+  color: var(--color-blue);
+  font-weight: 600;
+}
+
 .filter-bar-pill:hover {
   background: var(--color-blue);
   color: var(--color-white);

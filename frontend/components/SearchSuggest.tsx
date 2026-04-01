@@ -30,6 +30,8 @@ type SearchSuggestProps = {
   vehicleSearchUrl?: string;
   vehicleSearchHint?: string;
   vehicleSearchMeta?: string;
+  /** Prefill from `?q=` on the recalls list (server + client navigations). */
+  initialQuery?: string;
 };
 
 function recallDetailHref(base: string | undefined, slug: string) {
@@ -54,9 +56,14 @@ export default function SearchSuggest({
   vehicleSearchUrl,
   vehicleSearchHint,
   vehicleSearchMeta = "VIN · NHTSA",
+  initialQuery = "",
 }: SearchSuggestProps) {
   const router = useRouter();
-  const [q, setQ] = useState("");
+  const [q, setQ] = useState(() => String(initialQuery ?? "").trim());
+
+  useEffect(() => {
+    setQ(String(initialQuery ?? "").trim());
+  }, [initialQuery]);
   const [open, setOpen] = useState(false);
   const [loading, setLoading] = useState(false);
   const [suggestions, setSuggestions] = useState<Suggestion[]>([]);

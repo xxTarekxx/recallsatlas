@@ -23,9 +23,11 @@ function getPageNumbers(current: number, total: number): (number | "ellipsis")[]
 type Props = {
   /** Localized recall detail URLs (`/es/recalls/...`). */
   uiLang?: SiteUiLang;
+  /** From filter bar; empty string = all categories (no URL navigation). */
+  activeCategory: string;
 };
 
-export default function RecallsListClient({ uiLang = "en" }: Props) {
+export default function RecallsListClient({ uiLang = "en", activeCategory }: Props) {
   const searchParams = useSearchParams();
   const q = (searchParams.get("q") || "").trim();
   const [recalls, setRecalls] = useState<any[]>([]);
@@ -44,6 +46,7 @@ export default function RecallsListClient({ uiLang = "en" }: Props) {
         limit: String(PAGE_SIZE),
       });
       if (q) params.set("q", q);
+      if (activeCategory) params.set("category", activeCategory);
       const res = await fetch(`/api/recalls?${params.toString()}`);
       if (!res.ok) throw new Error("Failed to load recalls");
       const data = await res.json();
@@ -58,7 +61,7 @@ export default function RecallsListClient({ uiLang = "en" }: Props) {
     } finally {
       setLoading(false);
     }
-  }, [q]);
+  }, [q, activeCategory]);
 
   useEffect(() => {
     fetchPage(1);

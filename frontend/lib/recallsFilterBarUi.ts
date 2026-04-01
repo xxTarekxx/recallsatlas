@@ -3,14 +3,24 @@
  */
 
 import { HOME_COPY } from "@/lib/homeCopy";
+import type { RecallCategorySlug } from "@/lib/recallCategoryFilter";
+import { VALID_CATEGORY_SLUGS } from "@/lib/recallCategoryFilter";
 import type { SiteUiLang } from "@/lib/siteLocale";
 
-export const FILTER_BAR_CATEGORY_SLUGS = [
-  { slug: "drugs", field: "categoryDrugs" as const },
-  { slug: "food", field: "categoryFood" as const },
-  { slug: "medical-devices", field: "categoryMedicalDevices" as const },
-  { slug: "supplements", field: "categorySupplements" as const },
-];
+const SLUG_TO_FIELD: Record<
+  RecallCategorySlug,
+  "categoryDrugs" | "categoryFood" | "categoryMedicalDevices" | "categorySupplements"
+> = {
+  drugs: "categoryDrugs",
+  food: "categoryFood",
+  "medical-devices": "categoryMedicalDevices",
+  supplements: "categorySupplements",
+};
+
+export const FILTER_BAR_CATEGORY_SLUGS = VALID_CATEGORY_SLUGS.map((slug) => ({
+  slug,
+  field: SLUG_TO_FIELD[slug],
+}));
 
 export type RecallsFilterBarUi = {
   searchPlaceholder: string;
