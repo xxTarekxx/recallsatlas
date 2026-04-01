@@ -141,7 +141,13 @@ function queueBackgroundSave(rawRecall: any) {
       const remedy = clean(rawRecall?.remedy);
       const consequence = clean(rawRecall?.consequence);
 
-      const rewritten = await rewriteRecall({ summary, remedy });
+      const rewritten = await rewriteRecall({
+        summary,
+        remedy,
+        campaignNumber,
+        component: clean(rawRecall?.component),
+        consequence,
+      });
       const now = new Date().toISOString();
 
       await saveRecallToDB({
@@ -159,6 +165,10 @@ function queueBackgroundSave(rawRecall: any) {
             remedy: rewritten.remedy_rewritten,
           },
         },
+        seoTitle: rewritten.seoTitle,
+        seoDescription: rewritten.seoDescription,
+        canonicalPath: rewritten.canonicalPath,
+        canonicalUrl: rewritten.canonicalUrl,
         urgent: isUrgent(summary, consequence),
         createdAt: now,
         updatedAt: now,

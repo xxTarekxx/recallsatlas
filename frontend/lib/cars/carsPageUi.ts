@@ -13,6 +13,8 @@ export type CarsPageUi = {
   metaNoCampaignsEn: string;
   metaCampaigns: (n: number) => string;
   metaCampaignsEn: (n: number) => string;
+  /** Date pill prefix + NHTSA report date string */
+  pillReport: (reportDate: string) => string;
 };
 
 const en: CarsPageUi = {
@@ -28,6 +30,7 @@ const en: CarsPageUi = {
   metaNoCampaignsEn: "No open campaigns",
   metaCampaigns: (n) => `${n} campaign${n === 1 ? "" : "s"}`,
   metaCampaignsEn: (n) => `${n} campaign${n === 1 ? "" : "s"}`,
+  pillReport: (d) => `Report ${d}`,
 };
 
 const es: CarsPageUi = {
@@ -44,6 +47,7 @@ const es: CarsPageUi = {
   metaCampaigns: (n) =>
     n === 1 ? "1 campaña" : `${n} campañas`,
   metaCampaignsEn: (n) => `${n} campaign${n === 1 ? "" : "s"}`,
+  pillReport: (d) => `Informe ${d}`,
 };
 
 const ar: CarsPageUi = {
@@ -59,6 +63,7 @@ const ar: CarsPageUi = {
   metaNoCampaignsEn: "No open campaigns",
   metaCampaigns: (n) => (n === 1 ? "حملة واحدة" : `${n} حملات`),
   metaCampaignsEn: (n) => `${n} campaign${n === 1 ? "" : "s"}`,
+  pillReport: (d) => `تقرير ${d}`,
 };
 
 const zh: CarsPageUi = {
@@ -74,6 +79,7 @@ const zh: CarsPageUi = {
   metaNoCampaignsEn: "No open campaigns",
   metaCampaigns: (n) => (n === 1 ? "1 项活动" : `${n} 项活动`),
   metaCampaignsEn: (n) => `${n} campaign${n === 1 ? "" : "s"}`,
+  pillReport: (d) => `报告 ${d}`,
 };
 
 const fr: CarsPageUi = {
@@ -89,6 +95,7 @@ const fr: CarsPageUi = {
   metaNoCampaignsEn: "No open campaigns",
   metaCampaigns: (n) => (n === 1 ? "1 campagne" : `${n} campagnes`),
   metaCampaignsEn: (n) => `${n} campaign${n === 1 ? "" : "s"}`,
+  pillReport: (d) => `Rapport ${d}`,
 };
 
 const de: CarsPageUi = {
@@ -104,6 +111,7 @@ const de: CarsPageUi = {
   metaNoCampaignsEn: "No open campaigns",
   metaCampaigns: (n) => (n === 1 ? "1 Kampagne" : `${n} Kampagnen`),
   metaCampaignsEn: (n) => `${n} campaign${n === 1 ? "" : "s"}`,
+  pillReport: (d) => `報告日 ${d}`,
 };
 
 const ja: CarsPageUi = {
@@ -119,6 +127,7 @@ const ja: CarsPageUi = {
   metaNoCampaignsEn: "No open campaigns",
   metaCampaigns: (n) => (n === 1 ? "1件のキャンペーン" : `${n}件のキャンペーン`),
   metaCampaignsEn: (n) => `${n} campaign${n === 1 ? "" : "s"}`,
+  pillReport: (d) => `報告 ${d}`,
 };
 
 const pt: CarsPageUi = {
@@ -134,6 +143,7 @@ const pt: CarsPageUi = {
   metaNoCampaignsEn: "No open campaigns",
   metaCampaigns: (n) => (n === 1 ? "1 campanha" : `${n} campanhas`),
   metaCampaignsEn: (n) => `${n} campaign${n === 1 ? "" : "s"}`,
+  pillReport: (d) => `Relatório ${d}`,
 };
 
 const hi: CarsPageUi = {
@@ -149,6 +159,7 @@ const hi: CarsPageUi = {
   metaNoCampaignsEn: "No open campaigns",
   metaCampaigns: (n) => (n === 1 ? "1 अभियान" : `${n} अभियान`),
   metaCampaignsEn: (n) => `${n} campaign${n === 1 ? "" : "s"}`,
+  pillReport: (d) => `रिपोर्ट ${d}`,
 };
 
 const ru: CarsPageUi = {
@@ -171,6 +182,7 @@ const ru: CarsPageUi = {
     return `${n} кампаний`;
   },
   metaCampaignsEn: (n) => `${n} campaign${n === 1 ? "" : "s"}`,
+  pillReport: (d) => `Отчёт ${d}`,
 };
 
 const vi: CarsPageUi = {
@@ -186,6 +198,7 @@ const vi: CarsPageUi = {
   metaNoCampaignsEn: "No open campaigns",
   metaCampaigns: (n) => (n === 1 ? "1 chiến dịch" : `${n} chiến dịch`),
   metaCampaignsEn: (n) => `${n} campaign${n === 1 ? "" : "s"}`,
+  pillReport: (d) => `Báo cáo ${d}`,
 };
 
 const byLang: Record<string, CarsPageUi> = {

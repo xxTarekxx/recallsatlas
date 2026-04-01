@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { getRecallFromDB } from "@/lib/cars/carDb";
 
 /** Vehicle recall SEO languages (hreflang + routes). */
 const VEHICLE_LANG_CODES = ["en", "zh", "es", "ar", "hi", "pt", "ru", "fr", "ja", "de", "vi"] as const;
@@ -10,6 +11,18 @@ export function getVehicleRecallSiteBaseUrl(): string {
 
 export function vehicleRecallDescription(campaignNumber: string): string {
   return `Safety recall ${campaignNumber}. Read risks, affected components, and official remedy.`;
+}
+
+/** Default meta + URLs when OpenAI SEO fields are missing (new saves include AI-generated copy). */
+export function defaultVehicleRecallSeo(campaignNumber: string) {
+  const baseUrl = getVehicleRecallSiteBaseUrl();
+  const canonicalPath = `/recalls/vehicle/${campaignNumber}`;
+  return {
+    seoTitle: `Vehicle Recall ${campaignNumber} | Safety Alert`,
+    seoDescription: vehicleRecallDescription(campaignNumber),
+    canonicalPath,
+    canonicalUrl: `${baseUrl}${canonicalPath}`,
+  };
 }
 
 /**
@@ -39,4 +52,31 @@ export function vehicleRecallAlternates(
   }
 
   return { canonical, languages };
+}
+
+/** Title/description from Mongo when present (OpenAI rewrite); else defaults. */
+export async function buildVehicleRecallMetadata(
+  campaignNumber: string,
+  lang: string
+): Promise<Metadata> {
+  const cn = String(campaignNumber ?? "").trim();
+  const base = defaultVehicleRecallSeo(cn || "unknown");
+  let title = base.seoTitle;
+  let description = base.seoDescription;
+  if (cn) {
+    try {
+      const doc = (await getRecallFromDB(cn)) as Record<string, unknown> | null;
+      const st = String(doc?.seoTitle ?? "").trim();
+      const sd = String(doc?.seoDescription ?? "").trim();
+      if (st) title = st;
+      if (sd) description = sd;
+    } catch {
+      /* Mongo optional at build/runtime */
+    }
+  }
+  return {
+    title,
+    description,
+    alternates: vehicleRecallAlternates(cn || campaignNumber, lang),
+  };
 }

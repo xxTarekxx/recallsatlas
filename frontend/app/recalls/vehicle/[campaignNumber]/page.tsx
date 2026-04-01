@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import VehicleRecallPage from "@/components/vehicle/VehicleRecallPage";
-import { vehicleRecallAlternates, vehicleRecallDescription } from "@/lib/cars/vehicleRecallSeo";
+import { buildVehicleRecallMetadata } from "@/lib/cars/vehicleRecallSeo";
 
 interface PageProps {
   params: Promise<{ campaignNumber: string }>;
@@ -8,11 +8,7 @@ interface PageProps {
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { campaignNumber } = await params;
-  return {
-    title: `Vehicle Recall ${campaignNumber} | Safety Alert`,
-    description: vehicleRecallDescription(campaignNumber),
-    alternates: vehicleRecallAlternates(campaignNumber, "en"),
-  };
+  return buildVehicleRecallMetadata(campaignNumber, "en");
 }
 
 export default async function Page({ params }: PageProps) {

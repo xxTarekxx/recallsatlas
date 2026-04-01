@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { redirect } from "next/navigation";
 import VehicleRecallPage from "@/components/vehicle/VehicleRecallPage";
-import { vehicleRecallAlternates, vehicleRecallDescription } from "@/lib/cars/vehicleRecallSeo";
+import { buildVehicleRecallMetadata } from "@/lib/cars/vehicleRecallSeo";
 
 interface PageProps {
   params: Promise<{ lang: string; campaignNumber: string }>;
@@ -16,11 +16,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   if (!SUPPORTED_LANG_SET.has(lang)) {
     return { title: "Recall not found – Recalls Atlas" };
   }
-  return {
-    title: `Vehicle Recall ${campaignNumber} | Safety Alert`,
-    description: vehicleRecallDescription(campaignNumber),
-    alternates: vehicleRecallAlternates(campaignNumber, lang),
-  };
+  return buildVehicleRecallMetadata(campaignNumber, lang);
 }
 
 export default async function VehicleRecallLangPage({ params }: PageProps) {

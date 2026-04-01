@@ -545,7 +545,9 @@ export default function CarsPage() {
                       </div>
                       <div className={styles.pills}>
                         {recall.reportDate ? (
-                          <span className={styles.pill}>Report {recall.reportDate}</span>
+                          <span className={styles.pill}>
+                            {ui.pillReport(recall.reportDate)}
+                          </span>
                         ) : null}
                         {recall.component ? (
                           <span className={styles.pill}>{recall.component}</span>
