@@ -1,7 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { FormEvent, useEffect, useRef, useState } from "react";
+import { FormEvent, useEffect, useMemo, useRef, useState } from "react";
+import { getCarsPageUi } from "@/lib/cars/carsPageUi";
 import styles from "./cars.module.css";
 
 const LS_VIN = "recallsatlas_cars_vin";
@@ -47,7 +48,10 @@ type RecallItem = {
   component: string;
   reportDate: string;
   languages: string[];
-  translations?: Record<string, { summary: string; remedy: string }>;
+  translations?: Record<
+    string,
+    { summary: string; remedy: string; consequence?: string }
+  >;
 };
 
 type LookupResponse = {
@@ -72,6 +76,21 @@ export default function CarsPage() {
   const [vinHistory, setVinHistory] = useState<string[]>([]);
   const vinInputRef = useRef<HTMLInputElement>(null);
   const hydratedRef = useRef(false);
+
+  const ui = useMemo(() => getCarsPageUi(selectedLang), [selectedLang]);
+
+  function recallNeedsTranslation(recall: RecallItem, lang: string) {
+    if (lang === "en") return false;
+    const t = recall.translations?.[lang];
+    if (!t?.summary?.trim() || !t.remedy?.trim()) return true;
+    const enConsequence = (
+      recall.consequence ||
+      recall.translations?.en?.consequence ||
+      ""
+    ).trim();
+    if (!enConsequence) return false;
+    return !t.consequence?.trim();
+  }
 
   useEffect(() => {
     try {
@@ -237,10 +256,9 @@ export default function CarsPage() {
 
     let cancelled = false;
     async function runTranslations() {
-      const recallsToFetch = snapshot.recalls.filter((recall) => {
-        const hasTranslation = Boolean(recall.translations?.[selectedLang]);
-        return !hasTranslation;
-      });
+      const recallsToFetch = snapshot.recalls.filter((recall) =>
+        recallNeedsTranslation(recall, selectedLang)
+      );
 
       if (recallsToFetch.length === 0) return;
 
@@ -251,6 +269,8 @@ export default function CarsPage() {
           const summary =
             recall.translations?.en?.summary || recall.summary || "";
           const remedy = recall.translations?.en?.remedy || recall.remedy || "";
+          const consequence =
+            recall.translations?.en?.consequence || recall.consequence || "";
           // eslint-disable-next-line no-await-in-loop
           const res = await fetch("/api/cars/translate", {
             method: "POST",
@@ -260,6 +280,7 @@ export default function CarsPage() {
               lang: selectedLang,
               summary,
               remedy,
+              consequence,
             }),
           });
           if (!res.ok) continue;
@@ -270,6 +291,7 @@ export default function CarsPage() {
           const updatedTranslation = {
             summary: String(data?.summary || ""),
             remedy: String(data?.remedy || ""),
+            consequence: String(data?.consequence || ""),
           };
 
           setResults((prev) => {
@@ -424,7 +446,7 @@ export default function CarsPage() {
 
       <div className={styles.toolbar}>
         <label className={styles.label} htmlFor="lang">
-          Display language
+          {ui.displayLanguage}
         </label>
         <select
           id="lang"
@@ -445,7 +467,7 @@ export default function CarsPage() {
           <option value="vi">Vietnamese</option>
         </select>
         {translating ? (
-          <span className={styles.translating}>Translating…</span>
+          <span className={styles.translating}>{ui.translating}</span>
         ) : null}
       </div>
 
@@ -454,14 +476,38 @@ export default function CarsPage() {
       {results ? (
         <section className={styles.resultsSection} aria-live="polite">
           <div className={styles.resultsHead}>
-            <h2 className={styles.resultsTitle}>
-              {results.vehicle.year} {results.vehicle.make} {results.vehicle.model}
-            </h2>
-            <span className={styles.resultsMeta}>
-              {results.recalls.length === 0
-                ? "No open campaigns"
-                : `${results.recalls.length} campaign${results.recalls.length === 1 ? "" : "s"}`}
-            </span>
+            <div className={styles.resultsTitleWrap}>
+              <h2 className={styles.resultsTitle}>
+                {ui.openRecallsFor(
+                  results.vehicle.year,
+                  results.vehicle.make,
+                  results.vehicle.model
+                )}
+              </h2>
+              {selectedLang !== "en" ? (
+                <p className={styles.resultsTitleEn}>
+                  {ui.openRecallsForEn(
+                    results.vehicle.year,
+                    results.vehicle.make,
+                    results.vehicle.model
+                  )}
+                </p>
+              ) : null}
+            </div>
+            <div className={styles.resultsMetaWrap}>
+              <span className={styles.resultsMeta}>
+                {results.recalls.length === 0
+                  ? ui.metaNoCampaigns
+                  : ui.metaCampaigns(results.recalls.length)}
+              </span>
+              {selectedLang !== "en" ? (
+                <span className={styles.resultsMetaEn}>
+                  {results.recalls.length === 0
+                    ? ui.metaNoCampaignsEn
+                    : ui.metaCampaignsEn(results.recalls.length)}
+                </span>
+              ) : null}
+            </div>
           </div>
 
           {results.recalls.length === 0 ? (
@@ -483,17 +529,20 @@ export default function CarsPage() {
                 const consequence =
                   selectedLang === "en"
                     ? recall.consequence
-                    : recall.consequence;
+                    : translated?.consequence || recall.consequence;
 
                 return (
                   <article key={recall.campaignNumber} className={styles.card}>
                     <div className={styles.cardTop}>
-                      <Link
-                        className={styles.campaignLink}
-                        href={`/recalls/vehicle/${recall.campaignNumber}`}
-                      >
-                        {recall.campaignNumber}
-                      </Link>
+                      <div className={styles.cardTopMain}>
+                        <span className={styles.campaignIdLabel}>{ui.campaignId}</span>
+                        <Link
+                          className={styles.campaignLink}
+                          href={`/recalls/vehicle/${recall.campaignNumber}`}
+                        >
+                          {recall.campaignNumber}
+                        </Link>
+                      </div>
                       <div className={styles.pills}>
                         {recall.reportDate ? (
                           <span className={styles.pill}>Report {recall.reportDate}</span>
@@ -504,18 +553,20 @@ export default function CarsPage() {
                       </div>
                     </div>
                     <div className={styles.cardBody}>
+                      <div className={styles.block}>
+                        <span className={styles.blockLabel}>{ui.blockSummary}</span>
+                        <p className={styles.blockText}>{summary || "—"}</p>
+                      </div>
                       {consequence ? (
                         <div className={styles.block}>
-                          <span className={styles.blockLabel}>Consequence</span>
+                          <span className={styles.blockLabel}>
+                            {ui.blockConsequence}
+                          </span>
                           <p className={styles.blockText}>{consequence}</p>
                         </div>
                       ) : null}
                       <div className={styles.block}>
-                        <span className={styles.blockLabel}>Summary</span>
-                        <p className={styles.blockText}>{summary || "—"}</p>
-                      </div>
-                      <div className={styles.block}>
-                        <span className={styles.blockLabel}>Remedy</span>
+                        <span className={styles.blockLabel}>{ui.blockRemedy}</span>
                         <div className={styles.remedyBox}>
                           <p className={styles.blockText}>{remedy || "—"}</p>
                         </div>

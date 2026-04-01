@@ -90,18 +90,23 @@ function toLookupRecall(recall: any) {
   const component = clean(recall?.component);
   const reportDate = clean(recall?.reportDate);
 
-  const translationMap: Record<string, { summary: string; remedy: string }> = {};
+  const translationMap: Record<
+    string,
+    { summary: string; remedy: string; consequence: string }
+  > = {};
   for (const [code, value] of Object.entries(languagesObj)) {
     const v: any = value || {};
     translationMap[code] = {
       summary: clean(v.summary),
       remedy: clean(v.remedy),
+      consequence: clean(v.consequence),
     };
   }
   // Always guarantee English baseline in API response.
   translationMap.en = {
     summary: translationMap.en?.summary || summary,
     remedy: translationMap.en?.remedy || remedy,
+    consequence: translationMap.en?.consequence || consequence,
   };
 
   return {

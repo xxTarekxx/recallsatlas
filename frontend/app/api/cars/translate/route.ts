@@ -8,10 +8,38 @@ type TranslateBody = {
   /** English fallback when the campaign is not in Mongo yet (e.g. background save pending). */
   summary?: string;
   remedy?: string;
+  consequence?: string;
 };
 
 function clean(v: unknown) {
   return String(v ?? "").trim();
+}
+
+function englishConsequence(recall: any, fallback: string) {
+  return clean(
+    recall?.languages?.en?.consequence ??
+      recall?.original?.consequence ??
+      fallback
+  );
+}
+
+/** True when cached translation has summary+remedy and consequence if English has one. */
+function hasCompleteTranslation(recall: any, lang: string) {
+  const t = recall?.languages?.[lang];
+  if (!t) return false;
+  if (!clean(t.summary) || !clean(t.remedy)) return false;
+  const enC = englishConsequence(recall, "");
+  if (!enC) return true;
+  return Boolean(clean(t.consequence));
+}
+
+function translationResponse(campaignNumber: string, entry: any) {
+  return NextResponse.json({
+    campaignNumber,
+    summary: clean(entry?.summary),
+    remedy: clean(entry?.remedy),
+    consequence: clean(entry?.consequence),
+  });
 }
 
 export async function POST(req: Request) {
@@ -36,6 +64,7 @@ export async function POST(req: Request) {
     }
     const fallbackSummary = clean(body?.summary);
     const fallbackRemedy = clean(body?.remedy);
+    const fallbackConsequence = clean(body?.consequence);
 
     if (!recall) {
       if (!fallbackSummary && !fallbackRemedy) {
@@ -50,24 +79,31 @@ export async function POST(req: Request) {
       recall = {
         campaignNumber,
         languages: {
-          en: { summary: fallbackSummary, remedy: fallbackRemedy },
+          en: {
+            summary: fallbackSummary,
+            remedy: fallbackRemedy,
+            consequence: fallbackConsequence,
+          },
         },
-        original: { summary: fallbackSummary, remedy: fallbackRemedy },
+        original: {
+          summary: fallbackSummary,
+          remedy: fallbackRemedy,
+          consequence: fallbackConsequence,
+        },
       };
     }
 
-    if (recall.languages?.[lang]) {
-      return NextResponse.json({
-        campaignNumber,
-        summary: recall.languages[lang].summary || "",
-        remedy: recall.languages[lang].remedy || "",
-      });
+    if (hasCompleteTranslation(recall, lang)) {
+      return translationResponse(campaignNumber, recall.languages[lang]);
     }
 
     const enSummary = clean(
       recall.languages?.en?.summary || recall.original?.summary || fallbackSummary
     );
-    const enRemedy = clean(recall.languages?.en?.remedy || recall.original?.remedy || fallbackRemedy);
+    const enRemedy = clean(
+      recall.languages?.en?.remedy || recall.original?.remedy || fallbackRemedy
+    );
+    const enConsequence = englishConsequence(recall, fallbackConsequence);
 
     if (!enSummary && !enRemedy) {
       return NextResponse.json(
@@ -83,28 +119,40 @@ export async function POST(req: Request) {
       );
     }
 
-    // Re-check right before OpenAI call to reduce race-condition duplicate translations.
     let latest: any = null;
     try {
       latest = await getRecallFromDB(campaignNumber);
     } catch {
       latest = null;
     }
-    if (latest?.languages?.[lang]) {
-      return NextResponse.json({
-        campaignNumber,
-        summary: latest.languages[lang].summary || "",
-        remedy: latest.languages[lang].remedy || "",
-      });
+    if (latest && hasCompleteTranslation(latest, lang)) {
+      return translationResponse(campaignNumber, latest.languages[lang]);
+    }
+    if (latest) {
+      recall = latest;
     }
 
-    const translated = await translateRecall({ summary: enSummary, remedy: enRemedy, lang });
+    const enSummaryFinal = clean(
+      recall.languages?.en?.summary || recall.original?.summary || fallbackSummary
+    );
+    const enRemedyFinal = clean(
+      recall.languages?.en?.remedy || recall.original?.remedy || fallbackRemedy
+    );
+    const enConsequenceFinal = englishConsequence(recall, fallbackConsequence);
+
+    const translated = await translateRecall({
+      summary: enSummaryFinal,
+      remedy: enRemedyFinal,
+      consequence: enConsequenceFinal,
+      lang,
+    });
 
     const mergedLanguages = {
       ...(recall.languages || {}),
       [lang]: {
         summary: translated.summary,
         remedy: translated.remedy,
+        consequence: translated.consequence,
       },
     };
 
@@ -121,6 +169,7 @@ export async function POST(req: Request) {
       campaignNumber,
       summary: translated.summary,
       remedy: translated.remedy,
+      consequence: translated.consequence,
     });
   } catch (err: any) {
     console.error("[api/cars/translate]", err);
@@ -130,4 +179,3 @@ export async function POST(req: Request) {
     );
   }
 }
-

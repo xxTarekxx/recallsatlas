@@ -30,14 +30,17 @@ const langMap: Record<string, string> = {
 export async function translateRecall({
   summary,
   remedy,
+  consequence,
   lang,
 }: {
   summary: string;
   remedy: string;
+  consequence: string;
   lang: string;
 }) {
   const s = String(summary ?? "").trim();
   const r = String(remedy ?? "").trim();
+  const c = String(consequence ?? "").trim();
   if (!s && !r) {
     throw new Error("Missing summary and remedy");
   }
@@ -49,11 +52,12 @@ export async function translateRecall({
   }
 
   if (lang === "en") {
-    return { summary: s, remedy: r };
+    return { summary: s, remedy: r, consequence: c };
   }
 
   const summaryForModel = s || "(No summary provided.)";
   const remedyForModel = r || "(No remedy provided.)";
+  const consequenceForModel = c || "(No consequence provided.)";
 
   const systemPrompt = `
 You are a professional automotive safety translator.
@@ -83,8 +87,10 @@ OUTPUT FORMAT:
 Return ONLY valid JSON:
 {
   "summary": "...",
-  "remedy": "..."
+  "remedy": "...",
+  "consequence": "..."
 }
+If the English consequence is empty or marked as none, set "consequence" to an empty string.
 `;
 
   const userPrompt = `
@@ -95,6 +101,9 @@ ${summaryForModel}
 
 Remedy:
 ${remedyForModel}
+
+Consequence:
+${consequenceForModel}
 `;
 
   const response = await getOpenAIClient().chat.completions.create({
@@ -118,9 +127,13 @@ ${remedyForModel}
     throw new Error("Invalid OpenAI response format");
   }
 
+  const outConsequence =
+    typeof parsed.consequence === "string" ? parsed.consequence : "";
+
   return {
     summary: parsed.summary,
     remedy: parsed.remedy,
+    consequence: outConsequence,
   };
 }
 

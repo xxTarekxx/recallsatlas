@@ -159,10 +159,17 @@
 .resultsHead {
   display: flex;
   flex-wrap: wrap;
-  align-items: baseline;
+  align-items: flex-start;
   justify-content: space-between;
-  gap: 12px;
+  gap: 16px;
   margin-bottom: 18px;
+}
+
+.resultsTitleWrap {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: min(100%, 22rem);
 }
 
 .resultsTitle {
@@ -170,11 +177,34 @@
   font-size: 1.35rem;
   font-weight: 700;
   color: #0f172a;
+  line-height: 1.25;
+}
+
+.resultsTitleEn {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 500;
+  color: #64748b;
+  line-height: 1.35;
+}
+
+.resultsMetaWrap {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 2px;
+  text-align: right;
 }
 
 .resultsMeta {
   font-size: 13px;
   color: #64748b;
+  font-weight: 500;
+}
+
+.resultsMetaEn {
+  font-size: 11px;
+  color: #94a3b8;
   font-weight: 500;
 }
 
@@ -209,14 +239,28 @@
 }
 
 .cardTop {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
   align-items: center;
-  justify-content: space-between;
-  gap: 10px;
-  padding: 14px 18px;
+  gap: 12px 20px;
+  padding: 16px 18px;
   background: linear-gradient(180deg, #f8fafc 0%, #f1f5f9 100%);
   border-bottom: 1px solid #e2e8f0;
+}
+
+.cardTopMain {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+}
+
+.campaignIdLabel {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #64748b;
 }
 
 .campaignLink {
@@ -225,6 +269,7 @@
   color: #0f172a;
   text-decoration: none;
   letter-spacing: 0.02em;
+  word-break: break-all;
 }
 
 .campaignLink:hover {
@@ -236,6 +281,22 @@
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
+  justify-content: flex-end;
+}
+
+@media (max-width: 540px) {
+  .cardTop {
+    grid-template-columns: 1fr;
+  }
+
+  .pills {
+    justify-content: flex-start;
+  }
+
+  .resultsMetaWrap {
+    align-items: flex-start;
+    text-align: left;
+  }
 }
 
 .pill {
