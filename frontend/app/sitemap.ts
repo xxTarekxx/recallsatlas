@@ -7,6 +7,8 @@ const SITEMAP_LANGS = ["en", "zh", "es", "ar", "hi", "pt", "ru", "fr", "ja", "de
 
 const FDA_SITEMAP_PRIORITY = 0.8;
 const VEHICLE_SITEMAP_PRIORITY = 0.7;
+const STATIC_HOME_PRIORITY = 1;
+const STATIC_SECTION_PRIORITY = 0.85;
 
 /**
  * Never use distinct("slug") / distinct("campaignNumber") without these guards.
@@ -166,6 +168,25 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   const entries: MetadataRoute.Sitemap = [];
   const seen = new Set<string>();
+
+  const staticNow = new Date();
+  for (const lang of SITEMAP_LANGS) {
+    const home = lang === "en" ? base : `${base}/${lang}`;
+    const about = lang === "en" ? `${base}/about` : `${base}/${lang}/about`;
+    const recallsList = lang === "en" ? `${base}/recalls` : `${base}/${lang}/recalls`;
+    const carsList = lang === "en" ? `${base}/cars` : `${base}/${lang}/cars`;
+    const staticPairs: { url: string; priority: number }[] = [
+      { url: home, priority: STATIC_HOME_PRIORITY },
+      { url: about, priority: STATIC_SECTION_PRIORITY },
+      { url: recallsList, priority: STATIC_SECTION_PRIORITY },
+      { url: carsList, priority: STATIC_SECTION_PRIORITY },
+    ];
+    for (const { url, priority } of staticPairs) {
+      if (seen.has(url)) continue;
+      seen.add(url);
+      entries.push({ url, lastModified: staticNow, priority });
+    }
+  }
 
   const fdaSlugs = sortedMapKeys(fdaBySlug);
   for (const slug of fdaSlugs) {

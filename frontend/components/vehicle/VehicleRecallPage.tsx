@@ -1,9 +1,10 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { getCarsPageUi } from "@/lib/cars/carsPageUi";
 import { getRecallFromDB } from "@/lib/cars/carDb";
-
-const SUPPORTED_LANGS = ["en", "zh", "es", "ar", "hi", "pt", "ru", "fr", "ja", "de", "vi"] as const;
-const SUPPORTED_LANG_SET = new Set<string>(SUPPORTED_LANGS);
+import { VEHICLE_RECALL_PAGE_UI } from "@/lib/cars/vehicleRecallPageUi";
+import { isSiteUiLang, withLangPath, type SiteUiLang } from "@/lib/siteLocale";
+import styles from "./VehicleRecallPage.module.css";
 
 type Props = {
   campaignNumber: string;
@@ -17,52 +18,93 @@ function clean(value: unknown): string {
 export default async function VehicleRecallPage({ campaignNumber, lang = "en" }: Props) {
   const normalizedCampaign = String(campaignNumber || "").trim();
   if (!normalizedCampaign) notFound();
-  if (!SUPPORTED_LANG_SET.has(lang)) notFound();
+  if (!isSiteUiLang(lang)) notFound();
 
-  const recall: any = await getRecallFromDB(normalizedCampaign);
+  const l = lang as SiteUiLang;
+  const ui = getCarsPageUi(l);
+  const pageUi = VEHICLE_RECALL_PAGE_UI[l];
+
+  const recall: Record<string, unknown> | null = await getRecallFromDB(normalizedCampaign);
   if (!recall) notFound();
 
-  const languages = recall?.languages && typeof recall.languages === "object" ? recall.languages : {};
+  const languages =
+    recall?.languages && typeof recall.languages === "object"
+      ? (recall.languages as Record<string, Record<string, string>>)
+      : {};
   const base = languages?.en || {};
-  const hasTranslation = lang !== "en" && Boolean(languages?.[lang]);
-  const active = hasTranslation ? languages?.[lang] || {} : base;
+  const hasTranslation = l !== "en" && Boolean(languages?.[l]);
+  const active = hasTranslation ? languages?.[l] || {} : base;
 
-  // English baseline always comes from languages.en, never raw source fields.
   const summary = clean(active.summary) || clean(base.summary);
   const remedy = clean(active.remedy) || clean(base.remedy);
   const component = clean(recall?.component);
   const reportDate = clean(recall?.reportDate);
 
-  return (
-    <main className="container py-5" style={{ maxWidth: 900, margin: "0 auto", padding: "28px 16px 56px" }}>
-      <nav style={{ display: "flex", flexWrap: "wrap", gap: 10, marginBottom: 16 }}>
-        <Link href={`/recalls/vehicle/${normalizedCampaign}`}>en</Link>
-        {SUPPORTED_LANGS.filter((code) => code !== "en").map((code) => (
-          <Link key={code} href={`/${code}/recalls/vehicle/${normalizedCampaign}`}>
-            {code}
-          </Link>
-        ))}
-      </nav>
+  const carsHref = withLangPath("/cars", l);
 
-      <h1 style={{ margin: "0 0 14px" }}>Vehicle Recall {normalizedCampaign}</h1>
-      {!hasTranslation && lang !== "en" ? (
-        <p style={{ marginTop: 0, color: "#475569" }}>Showing English version</p>
+  return (
+    <main className={styles.page} lang={l} dir={l === "ar" ? "rtl" : "ltr"}>
+      <Link href={carsHref} className={styles.back}>
+        {pageUi.back}
+      </Link>
+
+      <section
+        className={styles.hero}
+        aria-labelledby="vehicle-recall-title"
+        dir={l === "ar" ? "rtl" : "ltr"}
+        lang={l}
+      >
+        <p className={styles.eyebrow}>{pageUi.eyebrow}</p>
+        <h1 id="vehicle-recall-title" className={styles.title}>
+          <span className={styles.campaignMono} dir="ltr" lang="en">
+            {normalizedCampaign}
+          </span>
+        </h1>
+        {reportDate ? (
+          <div className={styles.datePill}>{ui.pillReport(reportDate)}</div>
+        ) : null}
+      </section>
+
+      {!hasTranslation && l !== "en" ? (
+        <p className={styles.fallback} role="status">
+          {pageUi.fallbackEn}
+        </p>
       ) : null}
 
-      <section style={{ display: "grid", gap: 10 }}>
-        <p style={{ margin: 0 }}>
-          <strong>Summary:</strong> {summary || "N/A"}
-        </p>
-        <p style={{ margin: 0 }}>
-          <strong>Remedy:</strong> {remedy || "N/A"}
-        </p>
-        <p style={{ margin: 0 }}>
-          <strong>Component:</strong> {component || "N/A"}
-        </p>
-        <p style={{ margin: 0 }}>
-          <strong>Report Date:</strong> {reportDate || "N/A"}
-        </p>
-      </section>
+      <div className={styles.blocks}>
+        <section className={styles.block} aria-labelledby="vrs-summary">
+          <span id="vrs-summary" className={styles.blockLabel}>
+            {ui.blockSummary}
+          </span>
+          <p
+            className={`${styles.blockBody}${!summary ? ` ${styles.blockBodyMuted}` : ""}`}
+          >
+            {summary || "—"}
+          </p>
+        </section>
+
+        <section className={styles.block} aria-labelledby="vrs-remedy">
+          <span id="vrs-remedy" className={styles.blockLabel}>
+            {ui.blockRemedy}
+          </span>
+          <p
+            className={`${styles.blockBody}${!remedy ? ` ${styles.blockBodyMuted}` : ""}`}
+          >
+            {remedy || "—"}
+          </p>
+        </section>
+
+        <section className={styles.block} aria-labelledby="vrs-component">
+          <span id="vrs-component" className={styles.blockLabel}>
+            {ui.blockComponent}
+          </span>
+          <p
+            className={`${styles.blockBody}${!component ? ` ${styles.blockBodyMuted}` : ""}`}
+          >
+            {component || "—"}
+          </p>
+        </section>
+      </div>
     </main>
   );
 }

@@ -1,5 +1,7 @@
 import Link from "next/link";
+import { RECALL_CARD_UI } from "@/lib/recallCardUi";
 import { getShortRecallTitle } from "@/lib/recall-utils";
+import { isRtlUiLang, withLangPath } from "@/lib/siteLocale";
 
 /** Format YYYYMMDD or YYYY-MM-DD as MM/DD/YYYY */
 function formatDate(value) {
@@ -19,44 +21,76 @@ function stripHtml(html) {
   return html.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim();
 }
 
-/** Get summary from recall: first content section text, or reason/product fallback. */
-function getSummary(recall, maxLen) {
-  const content = Array.isArray(recall?.content) ? recall.content : [];
+/** Resolve `recall.languages[code]` with fallback to English (same as detail page). */
+function getActiveLangSlice(recall, uiLang) {
+  const languages =
+    recall?.languages && typeof recall.languages === "object" ? recall.languages : {};
+  return languages[uiLang] || languages.en || {};
+}
+
+/** Summary line from translated or English content / reason. */
+function getSummary(recall, active, maxLen) {
+  const content =
+    Array.isArray(active?.content) && active.content.length > 0
+      ? active.content
+      : Array.isArray(recall?.content)
+        ? recall.content
+        : [];
   const firstSection = content.find((s) => s?.text);
   const firstText = firstSection?.text;
   const raw = firstText
     ? stripHtml(firstText)
-    : recall?.reason || recall?.productDescription || recall?.product || "";
+    : active?.reason ||
+      recall?.reason ||
+      active?.productDescription ||
+      recall?.productDescription ||
+      recall?.product ||
+      "";
   if (!raw) return "";
   return raw.length <= maxLen ? raw : raw.slice(0, maxLen).trim() + "…";
 }
 
-export default function RecallCard({ recall }) {
+export default function RecallCard({ recall, uiLang = "en" }) {
   const { slug } = recall;
+  const labels = RECALL_CARD_UI[uiLang] || RECALL_CARD_UI.en;
+  const active = getActiveLangSlice(recall, uiLang);
+  const cardDir = isRtlUiLang(uiLang) ? "rtl" : "ltr";
+
   const image = recall?.image && typeof recall.image === "object" ? recall.image.url : recall?.image;
   const hasImage = Boolean(image);
 
-  const brand = recall?.brandName || recall?.brand || "";
-  const product = recall?.productDescription || recall?.product || "";
-  const productType = recall?.productType || recall?.product_type || "";
+  const brand = active.brandName || recall?.brandName || recall?.brand || "";
+  const product =
+    active.productDescription ||
+    recall?.productDescription ||
+    active.title ||
+    recall?.title ||
+    recall?.product ||
+    "";
+  const productType = active.productType || recall?.productType || recall?.product_type || "";
   const reportDate = recall?.report_date || recall?.datePublished || "";
 
   const year = reportDate && String(reportDate).length >= 4 ? String(reportDate).slice(0, 4) : "";
   const displayTitle = getShortRecallTitle(product || "Product", year);
-  const displayBrand = brand || "Unknown brand";
+  const displayBrand = brand || labels.unknownBrand;
   const displayDate = formatDate(reportDate);
-  const summaryShort = getSummary(recall, hasImage ? 200 : 280);
+  const summaryShort = getSummary(recall, active, hasImage ? 200 : 280);
   const isTerminated = recall.terminated === true;
 
+  const statusLabel = isTerminated ? labels.terminated : labels.ongoing;
+
   return (
-    <article className="recall-card">
+    <article className="recall-card" dir={cardDir} lang={uiLang}>
       <span
         className={`recall-card-status recall-card-status--${isTerminated ? "terminated" : "ongoing"}`}
-        aria-label={isTerminated ? "Terminated" : "Ongoing"}
+        aria-label={statusLabel}
       >
-        {isTerminated ? "Terminated" : "Ongoing"}
+        {statusLabel}
       </span>
-      <Link href={`/recalls/${slug}`} className="recall-card-link">
+      <Link
+        href={withLangPath(`/recalls/${slug}`, uiLang)}
+        className="recall-card-link"
+      >
         {hasImage && (
           <div className="recall-card-image-wrapper">
             {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -81,7 +115,7 @@ export default function RecallCard({ recall }) {
           )}
           {displayDate && (
             <p className="recall-card-date">
-              <span>Reported: </span>
+              <span>{labels.reported} </span>
               {displayDate}
             </p>
           )}
@@ -90,4 +124,3 @@ export default function RecallCard({ recall }) {
     </article>
   );
 }
-

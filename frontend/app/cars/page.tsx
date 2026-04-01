@@ -1,9 +1,11 @@
 "use client";
 
 import Link from "next/link";
-import { FormEvent, useEffect, useMemo, useRef, useState } from "react";
-import { formatComponentLines } from "@/lib/cars/formatComponentLines";
+import { usePathname, useSearchParams } from "next/navigation";
+import { FormEvent, Suspense, useEffect, useMemo, useRef, useState } from "react";
 import { getCarsPageUi } from "@/lib/cars/carsPageUi";
+import { parseLangFromPathname, withLangPath } from "@/lib/siteLocale";
+import { isLikelyVin17, normalizeVinInput } from "@/lib/vin";
 import styles from "./cars.module.css";
 
 const LS_VIN = "recallsatlas_cars_vin";
@@ -66,7 +68,10 @@ type LookupResponse = {
   recalls: RecallItem[];
 };
 
-export default function CarsPage() {
+function CarsPageInner() {
+  const pathname = usePathname() || "/";
+  const searchParams = useSearchParams();
+  const selectedLang = parseLangFromPathname(pathname);
   const [vin, setVin] = useState("");
   const [year, setYear] = useState("");
   const [make, setMake] = useState("");
@@ -75,7 +80,6 @@ export default function CarsPage() {
   const [translating, setTranslating] = useState(false);
   const [results, setResults] = useState<LookupResponse | null>(null);
   const [error, setError] = useState("");
-  const [selectedLang, setSelectedLang] = useState("en");
   const [vinHistory, setVinHistory] = useState<string[]>([]);
   const vinInputRef = useRef<HTMLInputElement>(null);
   const hydratedRef = useRef(false);
@@ -102,6 +106,36 @@ export default function CarsPage() {
   }
 
   useEffect(() => {
+    const param = searchParams.get("vin");
+    if (param?.trim()) {
+      const n = normalizeVinInput(param);
+      if (isLikelyVin17(n)) {
+        setVin(n);
+        try {
+          setResults(null);
+          sessionStorage.removeItem(SS_RESULTS);
+        } catch {
+          /* ignore */
+        }
+        let hist = loadVinHistoryFromStorage();
+        hist = addVinToHistory(hist, n);
+        saveVinHistoryToStorage(hist);
+        setVinHistory(hist);
+        try {
+          const sy = localStorage.getItem(LS_YEAR);
+          const sm = localStorage.getItem(LS_MAKE);
+          const smod = localStorage.getItem(LS_MODEL);
+          if (sy) setYear(sy);
+          if (sm) setMake(sm);
+          if (smod) setModel(smod);
+        } catch {
+          /* ignore */
+        }
+        hydratedRef.current = true;
+        return;
+      }
+    }
+
     try {
       const sv = localStorage.getItem(LS_VIN);
       const sy = localStorage.getItem(LS_YEAR);
@@ -131,7 +165,7 @@ export default function CarsPage() {
     } finally {
       hydratedRef.current = true;
     }
-  }, []);
+  }, [searchParams]);
 
   useEffect(() => {
     const el = vinInputRef.current;
@@ -212,7 +246,7 @@ export default function CarsPage() {
     try {
       const hasVin = vin.trim().length > 0;
       if (!hasVin && (!year.trim() || !make.trim() || !model.trim())) {
-        throw new Error("Enter VIN, or Year + Make + Model.");
+        throw new Error(ui.errorNeedVinOrYmm);
       }
 
       const body = hasVin
@@ -226,7 +260,7 @@ export default function CarsPage() {
       });
 
       const data = await res.json();
-      if (!res.ok) throw new Error(data?.error || "Request failed");
+      if (!res.ok) throw new Error(data?.error || ui.errorSearchFailed);
       persistAllFormFieldsAfterSearch();
       if (hasVin) {
         setVinHistory((h) => {
@@ -245,10 +279,9 @@ export default function CarsPage() {
         /* ignore */
       }
       setResults(data);
-      setSelectedLang("en");
     } catch (err: any) {
       setResults(null);
-      setError(err?.message || "Search failed");
+      setError(err?.message || ui.errorSearchFailed);
       try {
         sessionStorage.removeItem(SS_RESULTS);
       } catch {
@@ -353,19 +386,16 @@ export default function CarsPage() {
 
   return (
     <main className={styles.page} dir={pageDir} lang={selectedLang}>
-      <section className={styles.hero} dir="ltr" lang="en">
-        <p className={styles.heroKicker}>NHTSA safety lookup</p>
-        <h1 className={styles.heroTitle}>Vehicle recalls</h1>
-        <p className={styles.heroSub}>
-          Decode a VIN or enter year, make, and model to see open campaigns. Open a
-          campaign for the full page; switch language to translate on demand.
-        </p>
+      <section className={styles.hero} dir={pageDir} lang={selectedLang}>
+        <p className={styles.heroKicker}>{ui.heroKicker}</p>
+        <h1 className={styles.heroTitle}>{ui.heroTitle}</h1>
+        <p className={styles.heroSub}>{ui.heroSub}</p>
       </section>
 
       <form
         className={styles.formCard}
-        dir="ltr"
-        lang="en"
+        dir={pageDir}
+        lang={selectedLang}
         onSubmit={onSearch}
         autoComplete="on"
         name="vehicle_recall_lookup"
@@ -373,7 +403,7 @@ export default function CarsPage() {
         <div className={styles.formGrid}>
           <div className={styles.field}>
             <label className={styles.label} htmlFor="vin">
-              VIN
+              {ui.labelVin}
             </label>
             <datalist id={VIN_DATALIST_ID}>
               {vinHistory.map((v) => (
@@ -389,25 +419,27 @@ export default function CarsPage() {
               value={vin}
               onChange={(e) => setVin(e.target.value.toUpperCase())}
               onBlur={persistVinOnly}
-              placeholder="17-character VIN"
+              placeholder={ui.placeholderVin}
               list={VIN_DATALIST_ID}
               autoComplete="on"
               inputMode="text"
               maxLength={17}
               spellCheck={false}
               aria-describedby="vin-suggestions-hint"
+              dir="ltr"
+              lang="en"
             />
             <p id="vin-suggestions-hint" className={styles.fieldHint}>
-              Tap the field or start typing to pick from VINs you searched before on this device.
+              {ui.vinHint}
             </p>
           </div>
 
-          <div className={styles.divider}>or year / make / model</div>
+          <div className={styles.divider}>{ui.dividerOr}</div>
 
           <div className={styles.row3}>
             <div className={styles.field}>
               <label className={styles.label} htmlFor="year">
-                Year
+                {ui.labelYear}
               </label>
               <input
                 id="year"
@@ -416,14 +448,14 @@ export default function CarsPage() {
                 type="number"
                 value={year}
                 onChange={(e) => setYear(e.target.value)}
-                placeholder="e.g. 2019"
+                placeholder={ui.placeholderYear}
                 autoComplete="on"
                 onBlur={persistYearOnly}
               />
             </div>
             <div className={styles.field}>
               <label className={styles.label} htmlFor="make">
-                Make
+                {ui.labelMake}
               </label>
               <input
                 id="make"
@@ -432,14 +464,14 @@ export default function CarsPage() {
                 type="text"
                 value={make}
                 onChange={(e) => setMake(e.target.value)}
-                placeholder="e.g. Honda"
+                placeholder={ui.placeholderMake}
                 autoComplete="on"
                 onBlur={persistMakeOnly}
               />
             </div>
             <div className={styles.field}>
               <label className={styles.label} htmlFor="model">
-                Model
+                {ui.labelModel}
               </label>
               <input
                 id="model"
@@ -448,7 +480,7 @@ export default function CarsPage() {
                 type="text"
                 value={model}
                 onChange={(e) => setModel(e.target.value)}
-                placeholder="e.g. Civic"
+                placeholder={ui.placeholderModel}
                 autoComplete="on"
                 onBlur={persistModelOnly}
               />
@@ -456,37 +488,10 @@ export default function CarsPage() {
           </div>
 
           <button className={styles.submit} type="submit" disabled={loading}>
-            {loading ? "Searching…" : "Search recalls"}
+            {loading ? ui.searchButtonSearching : ui.searchButton}
           </button>
         </div>
       </form>
-
-      <div className={styles.toolbar}>
-        <label className={styles.label} htmlFor="lang">
-          {ui.displayLanguage}
-        </label>
-        <select
-          id="lang"
-          className={styles.select}
-          value={selectedLang}
-          onChange={(e) => setSelectedLang(e.target.value)}
-        >
-          <option value="en">English</option>
-          <option value="es">Spanish</option>
-          <option value="ar">Arabic</option>
-          <option value="zh">Chinese</option>
-          <option value="fr">French</option>
-          <option value="de">German</option>
-          <option value="ja">Japanese</option>
-          <option value="pt">Portuguese</option>
-          <option value="hi">Hindi</option>
-          <option value="ru">Russian</option>
-          <option value="vi">Vietnamese</option>
-        </select>
-        {translating ? (
-          <span className={styles.translating}>{ui.translating}</span>
-        ) : null}
-      </div>
 
       {error ? <p className={styles.error}>{error}</p> : null}
 
@@ -534,10 +539,15 @@ export default function CarsPage() {
               ) : null}
             </div>
           </div>
+          {translating ? (
+            <p className={styles.translating} aria-live="polite">
+              {ui.translating}
+            </p>
+          ) : null}
 
           {results.recalls.length === 0 ? (
-            <div className={`${styles.empty} ${styles.embedLtr}`} dir="ltr" lang="en">
-              No active recalls reported for this vehicle in NHTSA data.
+            <div className={styles.empty} dir={pageDir} lang={selectedLang}>
+              {ui.emptyNoRecalls}
             </div>
           ) : (
             <div className={styles.cardList}>
@@ -547,91 +557,61 @@ export default function CarsPage() {
                   selectedLang === "en"
                     ? recall.summary
                     : translated?.summary || recall.summary;
-                const remedy =
-                  selectedLang === "en"
-                    ? recall.remedy
-                    : translated?.remedy || recall.remedy;
-                const consequence =
-                  selectedLang === "en"
-                    ? recall.consequence
-                    : translated?.consequence || recall.consequence;
-                const componentText =
-                  selectedLang === "en"
-                    ? recall.component
-                    : translated?.component || recall.component;
-                const hasComponentTranslation =
-                  selectedLang !== "en" &&
-                  Boolean(translated?.component?.trim());
-                const componentDir =
-                  hasComponentTranslation && RTL_LANGS.has(selectedLang)
-                    ? "rtl"
-                    : "ltr";
-                const componentLang = hasComponentTranslation
-                  ? selectedLang
-                  : "en";
+                const detailHref = withLangPath(
+                  `/recalls/vehicle/${recall.campaignNumber}`,
+                  selectedLang
+                );
 
                 return (
-                  <article key={recall.campaignNumber} className={styles.card}>
-                    <div className={styles.cardTop}>
-                      {recall.reportDate ? (
-                        <div className={styles.pillsRowTop}>
-                          <span className={styles.pill}>
-                            {ui.pillReport(recall.reportDate)}
-                          </span>
-                        </div>
-                      ) : null}
-                      <div className={styles.cardTopMain}>
-                        <span className={styles.campaignIdLabel}>{ui.campaignId}</span>
-                        <Link
-                          className={`${styles.campaignLink} ${styles.embedLtr}`}
-                          dir="ltr"
-                          lang="en"
-                          href={`/recalls/vehicle/${recall.campaignNumber}`}
-                        >
-                          {recall.campaignNumber}
-                        </Link>
-                      </div>
-                      {componentText ? (
-                        <div className={styles.componentSection}>
-                          <span className={styles.blockLabel}>{ui.blockComponent}</span>
+                  <Link
+                    key={recall.campaignNumber}
+                    href={detailHref}
+                    className={styles.cardLink}
+                    aria-label={`${ui.campaignId} ${recall.campaignNumber}. ${ui.cardViewDetails}`}
+                  >
+                    <article className={styles.card}>
+                      <div className={styles.cardTeaser}>
+                        <div className={styles.cardTeaserMeta}>
+                          {recall.reportDate ? (
+                            <span className={styles.pill}>
+                              {ui.pillReport(recall.reportDate)}
+                            </span>
+                          ) : null}
                           <div
-                            className={styles.componentLines}
-                            dir={componentDir}
-                            lang={componentLang}
+                            className={`${styles.cardTeaserCampaign} ${styles.embedLtr}`}
+                            dir="ltr"
+                            lang="en"
                           >
-                            {formatComponentLines(componentText).map((line, i) => (
-                              <div key={i} className={styles.componentLine}>
-                                {line}
-                              </div>
-                            ))}
+                            <span className={styles.campaignIdLabel}>
+                              {ui.campaignId}
+                            </span>
+                            <span className={styles.campaignNumber}>
+                              {recall.campaignNumber}
+                            </span>
                           </div>
                         </div>
-                      ) : null}
-                    </div>
-                    <div className={styles.cardBody}>
-                      <div className={styles.block}>
-                        <span className={styles.blockLabel}>{ui.blockSummary}</span>
-                        <p className={styles.blockText}>{summary || "—"}</p>
-                      </div>
-                      {consequence ? (
-                        <div className={styles.block}>
-                          <span className={styles.blockLabel}>
-                            {ui.blockConsequence}
+                        <div className={styles.cardTeaserBody}>
+                          <span className={styles.cardTeaserSummaryLabel}>
+                            {ui.blockSummary}
                           </span>
-                          <p className={styles.blockText}>{consequence}</p>
+                          <p className={styles.cardTeaserSummary}>
+                            {(summary || "—").trim() || "—"}
+                          </p>
                         </div>
-                      ) : null}
-                      <div className={styles.block}>
-                        <span className={styles.blockLabel}>{ui.blockRemedy}</span>
-                        <div className={styles.remedyBox}>
-                          <p className={styles.blockText}>{remedy || "—"}</p>
+                        <div className={styles.cardTeaserFoot}>
+                          <span className={styles.cardTeaserCta}>
+                            {ui.cardViewDetails}
+                          </span>
+                          <span
+                            className={styles.cardTeaserCtaArrow}
+                            aria-hidden="true"
+                          >
+                            →
+                          </span>
                         </div>
                       </div>
-                      <span className={`${styles.badge} ${styles.embedLtr}`} dir="ltr" lang="en">
-                        Open campaign · NHTSA
-                      </span>
-                    </div>
-                  </article>
+                    </article>
+                  </Link>
                 );
               })}
             </div>
@@ -639,5 +619,19 @@ export default function CarsPage() {
         </section>
       ) : null}
     </main>
+  );
+}
+
+export default function CarsPage() {
+  return (
+    <Suspense
+      fallback={
+        <div className={styles.page}>
+          <p>Loading…</p>
+        </div>
+      }
+    >
+      <CarsPageInner />
+    </Suspense>
   );
 }

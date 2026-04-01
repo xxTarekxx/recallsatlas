@@ -26,7 +26,7 @@ export interface RecallDetailProps {
   currentLang?: string;
 }
 
-const LANGUAGE_OPTIONS = [
+const LANGUAGE_OPTIONS_RAW = [
   { code: "en", label: "English", flag: "/images/flags/us.svg" },
   { code: "es", label: "Spanish", flag: "/images/flags/es.svg" },
   { code: "de", label: "German", flag: "/images/flags/de.svg" },
@@ -47,7 +47,11 @@ const LANGUAGE_OPTIONS = [
   { code: "uk", label: "Ukrainian", flag: "/images/flags/ua.svg" },
   { code: "hu", label: "Hungarian", flag: "/images/flags/hu.svg" },
   { code: "ar", label: "Arabic", flag: "/images/flags/sa.svg" },
-];
+] as const;
+
+const LANGUAGE_OPTIONS = [...LANGUAGE_OPTIONS_RAW].sort((a, b) =>
+  a.label.localeCompare(b.label, "en", { sensitivity: "base" })
+);
 
 /**
  * Renders a single recall detail view. Works for any recall from MongoDB

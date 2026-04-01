@@ -4,16 +4,25 @@ import Link from "next/link";
 import { BRAND_LOGO_SRC } from "@/lib/brand-assets";
 
 type Props = {
+  /** Defaults to `/` (English home). Use `withLangPath("/", lang)` for localized home. */
+  href?: string;
   linkClassName?: string;
   imgClassName?: string;
 };
 
 export default function SiteBrandLogoLink({
+  href = "/",
   linkClassName = "site-title site-brand-link",
   imgClassName = "site-brand-logo",
 }: Props) {
   return (
-    <Link href="/" className={linkClassName} aria-label="Recalls Atlas — home">
+    <Link
+      href={href}
+      className={linkClassName}
+      dir="ltr"
+      lang="en"
+      aria-label="Recalls Atlas — home"
+    >
       <img
         src={BRAND_LOGO_SRC}
         alt="Recalls Atlas globe logo"

@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useCallback } from "react";
 import { useSearchParams } from "next/navigation";
+import { isRtlUiLang, type SiteUiLang } from "@/lib/siteLocale";
 import RecallCard from "./RecallCard";
 
 const PAGE_SIZE = 50;
@@ -19,7 +20,12 @@ function getPageNumbers(current: number, total: number): (number | "ellipsis")[]
   return out;
 }
 
-export default function RecallsListClient() {
+type Props = {
+  /** Localized recall detail URLs (`/es/recalls/...`). */
+  uiLang?: SiteUiLang;
+};
+
+export default function RecallsListClient({ uiLang = "en" }: Props) {
   const searchParams = useSearchParams();
   const q = (searchParams.get("q") || "").trim();
   const [recalls, setRecalls] = useState<any[]>([]);
@@ -179,12 +185,18 @@ export default function RecallsListClient() {
     );
   }
 
+  const listDir = isRtlUiLang(uiLang) ? "rtl" : "ltr";
+
   return (
     <>
       <PaginationBar />
-      <section className={`recalls-grid ${loading ? "recalls-grid--loading" : ""}`}>
+      <section
+        className={`recalls-grid ${loading ? "recalls-grid--loading" : ""}`}
+        dir={listDir}
+        lang={uiLang}
+      >
         {recalls.map((recall) => (
-          <RecallCard key={recall._id} recall={recall} />
+          <RecallCard key={recall._id} recall={recall} uiLang={uiLang} />
         ))}
       </section>
       <PaginationBar />

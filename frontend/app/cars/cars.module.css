@@ -21,7 +21,7 @@
 
 .heroKicker {
   margin: 0;
-  font-size: 11px;
+  font-size: 18px;
   letter-spacing: 0.2em;
   text-transform: uppercase;
   color: #94a3b8;
@@ -214,100 +214,71 @@
   font-weight: 500;
 }
 
-.badge {
-  display: inline-flex;
-  align-items: center;
-  padding: 4px 10px;
-  border-radius: 999px;
-  font-size: 12px;
-  font-weight: 600;
-  background: #eff6ff;
-  color: #1d4ed8;
-}
-
 .cardList {
   display: grid;
-  gap: 16px;
+  gap: 14px;
+}
+
+.cardLink {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  border-radius: 16px;
+  outline: none;
+}
+
+.cardLink:focus-visible .card {
+  box-shadow: 0 0 0 3px #fff, 0 0 0 5px #2563eb;
 }
 
 .card {
   border: 1px solid #e2e8f0;
-  border-radius: 14px;
+  border-radius: 16px;
   overflow: hidden;
   background: #fff;
-  box-shadow: 0 2px 12px rgba(15, 23, 42, 0.04);
-  transition: box-shadow 0.2s, border-color 0.2s;
+  box-shadow: 0 2px 10px rgba(15, 23, 42, 0.05);
+  transition:
+    box-shadow 0.2s ease,
+    border-color 0.2s ease,
+    transform 0.2s ease;
+  cursor: pointer;
 }
 
-.card:hover {
-  border-color: #cbd5e1;
-  box-shadow: 0 8px 28px rgba(15, 23, 42, 0.08);
+.cardLink:hover .card {
+  border-color: #93c5fd;
+  box-shadow:
+    0 10px 32px rgba(37, 99, 235, 0.12),
+    0 2px 8px rgba(15, 23, 42, 0.06);
+  transform: translateY(-2px);
 }
 
-.cardTop {
+.cardTeaser {
+  padding: 16px 18px 14px;
   display: flex;
   flex-direction: column;
-  align-items: stretch;
   gap: 12px;
-  padding: 16px 18px;
-  background: linear-gradient(180deg, #f8fafc 0%, #f1f5f9 100%);
-  border-bottom: 1px solid #e2e8f0;
 }
 
-/* Report date only — LTR left, RTL right */
-.pillsRowTop {
+.cardTeaserMeta {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
-  width: 100%;
-  justify-content: flex-start;
-}
-
-.page[dir="rtl"] .pillsRowTop {
-  justify-content: flex-end;
-}
-
-.cardTopMain {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
   align-items: center;
+  gap: 10px 12px;
+  justify-content: space-between;
+}
+
+.cardTeaserCampaign {
+  display: inline-flex;
+  align-items: baseline;
+  flex-wrap: wrap;
   gap: 0.35rem 0.65rem;
-  width: max-content;
-  max-width: 100%;
-  align-self: start;
-}
-
-.componentSection {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  width: 100%;
-  padding-top: 4px;
-  border-top: 1px solid #e2e8f0;
-}
-
-.componentLines {
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-}
-
-.componentLine {
-  margin: 0;
-  font-size: 13px;
-  font-weight: 600;
-  line-height: 1.45;
-  color: #334155;
-  text-transform: none;
-  letter-spacing: 0.01em;
 }
 
 .campaignIdLabel {
-  font-size: 18px;
+  font-size: 11px;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.12em;
   color: #64748b;
   flex-shrink: 0;
   white-space: nowrap;
@@ -318,32 +289,11 @@
   letter-spacing: normal;
 }
 
-.campaignLink {
-  display: inline-block;
-  font-weight: 700;
-  font-size: 17px;
+.campaignNumber {
+  font-weight: 800;
+  font-size: 1.05rem;
   color: #0f172a;
-  text-decoration: none;
   letter-spacing: 0.02em;
-  white-space: nowrap;
-  word-break: normal;
-  flex-shrink: 0;
-}
-
-.campaignLink:hover {
-  color: #2563eb;
-  text-decoration: underline;
-}
-
-@media (max-width: 540px) {
-  .cardTopMain {
-    flex-wrap: wrap;
-  }
-
-  .resultsMetaWrap {
-    align-items: start;
-    text-align: start;
-  }
 }
 
 .pill {
@@ -351,48 +301,79 @@
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.06em;
-  padding: 4px 8px;
-  border-radius: 6px;
-  background: #fff;
+  padding: 5px 9px;
+  border-radius: 8px;
+  background: #f1f5f9;
   border: 1px solid #e2e8f0;
   color: #475569;
   max-width: 100%;
   overflow-wrap: anywhere;
   word-break: break-word;
-  text-align: start;
 }
 
-.cardBody {
-  padding: 16px 18px 18px;
-  display: grid;
-  gap: 14px;
-}
-
-.block {
-  display: grid;
+.cardTeaserBody {
+  display: flex;
+  flex-direction: column;
   gap: 6px;
 }
 
-.blockLabel {
-  font-size: 16px;
+.cardTeaserSummaryLabel {
+  font-size: 11px;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.08em;
   color: #64748b;
 }
 
-.blockText {
+.cardTeaserSummary {
   margin: 0;
   font-size: 15px;
-  line-height: 1.6;
-  color: #1e293b;
+  line-height: 1.55;
+  color: #334155;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
 }
 
-.remedyBox {
-  padding: 12px 14px;
-  border-radius: 10px;
-  background: #f8fafc;
-  border-inline-start: 3px solid #3b82f6;
+.cardTeaserFoot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding-top: 12px;
+  margin-top: 2px;
+  border-top: 1px solid #f1f5f9;
+}
+
+.cardTeaserCta {
+  font-size: 14px;
+  font-weight: 700;
+  color: #2563eb;
+}
+
+.cardTeaserCtaArrow {
+  flex-shrink: 0;
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #2563eb;
+  line-height: 1;
+  transition: transform 0.2s ease;
+}
+
+.cardLink:hover .cardTeaserCtaArrow {
+  transform: translateX(4px);
+}
+
+.page[dir="rtl"] .cardLink:hover .cardTeaserCtaArrow {
+  transform: translateX(-4px);
+}
+
+@media (max-width: 540px) {
+  .resultsMetaWrap {
+    align-items: start;
+    text-align: start;
+  }
 }
 
 .empty {

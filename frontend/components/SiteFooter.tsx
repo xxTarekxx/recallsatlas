@@ -1,7 +1,15 @@
+"use client";
+
 import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { parseLangFromPathname, withLangPath } from "@/lib/siteLocale";
 
 export default function SiteFooter() {
   const year = new Date().getFullYear();
+  const pathname = usePathname() || "/";
+  const lang = parseLangFromPathname(pathname);
+  const aboutHref = withLangPath("/about", lang);
+  const privacyHref = withLangPath("/privacy", lang);
 
   return (
     <footer className="site-footer">
@@ -9,10 +17,18 @@ export default function SiteFooter() {
         &copy; {year} Recalls Atlas. Recall data aggregated for public use.
       </p>
       <nav className="site-footer-nav" aria-label="Footer navigation">
-        <Link href="/about" className="site-footer-link">About</Link>
-        <span className="site-footer-nav-sep" aria-hidden="true">·</span>
-        <Link href="/privacy" className="site-footer-link">Privacy Policy</Link>
-        <span className="site-footer-nav-sep" aria-hidden="true">·</span>
+        <Link href={aboutHref} className="site-footer-link">
+          About
+        </Link>
+        <span className="site-footer-nav-sep" aria-hidden="true">
+          ·
+        </span>
+        <Link href={privacyHref} className="site-footer-link">
+          Privacy Policy
+        </Link>
+        <span className="site-footer-nav-sep" aria-hidden="true">
+          ·
+        </span>
         <a
           href="mailto:contact@recallsatlas.com"
           className="site-footer-link"

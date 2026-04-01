@@ -1,7 +1,9 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useMemo, useState } from "react";
+import { useRouter } from "next/navigation";
+import { FormEvent, useEffect, useMemo, useState } from "react";
+import { isLikelyVin17, normalizeVinInput } from "@/lib/vin";
 
 type Suggestion = {
   slug: string;
@@ -16,6 +18,9 @@ type SearchSuggestProps = {
   wrapperClassName?: string;
   placeholder?: string;
   ariaLabel?: string;
+  /** When set, a valid 17-char VIN submits here instead of FDA search. */
+  vehicleSearchUrl?: string;
+  vehicleSearchHint?: string;
 };
 
 export default function SearchSuggest({
@@ -36,6 +41,10 @@ export default function SearchSuggest({
       setSuggestions([]);
       setOpen(false);
       return;
+    }
+
+    if (vehicleSearchUrl && isLikelyVin17(q)) {
+      setOpen(true);
     }
 
     const timer = setTimeout(async () => {
@@ -62,8 +71,24 @@ export default function SearchSuggest({
     [wrapperClassName]
   );
 
+  function onSubmit(e: FormEvent<HTMLFormElement>) {
+    const trimmed = q.trim();
+    if (vehicleSearchUrl && isLikelyVin17(trimmed)) {
+      e.preventDefault();
+      const v = normalizeVinInput(trimmed);
+      router.push(`${vehicleSearchUrl}?vin=${encodeURIComponent(v)}`);
+    }
+  }
+
   return (
-    <form className={hostClass} action={action} method="get" role="search" aria-label={ariaLabel}>
+    <form
+      className={hostClass}
+      action={action}
+      method="get"
+      role="search"
+      aria-label={ariaLabel}
+      onSubmit={onSubmit}
+    >
       <label htmlFor="search-suggest-input" className="sr-only">
         Search recalls by headline or product type
       </label>
@@ -86,6 +111,17 @@ export default function SearchSuggest({
 
       {open && (
         <div className="search-suggest-dropdown" role="listbox" aria-label="Suggestions">
+          {showVehicleVinRow && vehicleSearchUrl && (
+            <Link
+              href={`${vehicleSearchUrl}?vin=${encodeURIComponent(normalizeVinInput(q))}`}
+              className="search-suggest-item search-suggest-item--vehicle"
+            >
+              <span className="search-suggest-title">
+                {vehicleSearchHint ?? "Vehicle recalls"}
+              </span>
+              <span className="search-suggest-meta">VIN · NHTSA</span>
+            </Link>
+          )}
           {loading && <div className="search-suggest-empty">Loading...</div>}
           {!loading &&
             suggestions.map((s) => (

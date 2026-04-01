@@ -81,6 +81,9 @@
   gap: 0.5rem;
   line-height: 0;
   text-decoration: none;
+  /* English name + mark: keep LTR even when the navbar is RTL (Arabic, etc.). */
+  direction: ltr;
+  unicode-bidi: isolate;
 }
 
 .site-brand-link:hover {
@@ -104,6 +107,122 @@
   gap: 0.35rem;
   flex: 1;
   justify-content: flex-end;
+}
+
+.sitenav-tools {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.sitenav-lang-picker {
+  position: relative;
+}
+
+.sitenav-lang-trigger {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.35rem;
+  min-width: 0;
+  padding: 0.35rem 0.55rem;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: rgba(15, 23, 42, 0.88);
+  background: #fff;
+  border: 1px solid rgba(15, 23, 42, 0.12);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.sitenav-lang-trigger:hover {
+  border-color: rgba(37, 99, 235, 0.35);
+  box-shadow: 0 1px 4px rgba(15, 23, 42, 0.08);
+}
+
+.sitenav-lang-trigger-inner {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  min-width: 0;
+}
+
+.sitenav-lang-flag-img {
+  width: 22px;
+  height: 16px;
+  object-fit: cover;
+  border-radius: 2px;
+  flex-shrink: 0;
+  box-shadow: 0 0 0 1px rgba(15, 23, 42, 0.08);
+}
+
+.sitenav-lang-trigger-text {
+  max-width: 7.5rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.sitenav-lang-chevron {
+  flex-shrink: 0;
+  font-size: 0.65rem;
+  opacity: 0.65;
+  line-height: 1;
+}
+
+.sitenav-lang-menu {
+  position: absolute;
+  right: 0;
+  top: calc(100% + 0.4rem);
+  z-index: 200;
+  margin: 0;
+  padding: 0.35rem;
+  list-style: none;
+  min-width: 220px;
+  max-height: min(70vh, 320px);
+  overflow: auto;
+  border: 1px solid rgba(15, 23, 42, 0.12);
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 10px 28px rgba(15, 23, 42, 0.16);
+}
+
+.sitenav-lang-item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.45rem 0.55rem;
+  font-size: 0.875rem;
+  text-align: left;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  background: #fff;
+  cursor: pointer;
+  color: inherit;
+}
+
+.sitenav-lang-item:hover {
+  background: #f8fafc;
+  border-color: #e2e8f0;
+}
+
+.sitenav-lang-item--active {
+  background: #eef2ff;
+  border-color: #c7d2fe;
+}
+
+.sitenav-mobile-lang {
+  padding: 0.75rem 1rem;
+  border-top: 1px solid rgba(15, 23, 42, 0.08);
+}
+
+.sitenav-mobile-lang .sitenav-lang-menu {
+  position: static;
+  right: auto;
+  margin-top: 0.5rem;
+  max-width: 100%;
 }
 
 .sitenav-link {
@@ -310,6 +429,15 @@
   margin: 0 auto;
 }
 
+.home-hero-badges {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem 0.75rem;
+  margin-bottom: var(--spacing-lg);
+}
+
 .home-hero-badge {
   display: inline-flex;
   align-items: center;
@@ -322,7 +450,12 @@
   font-size: 0.9375rem;
   font-weight: 500;
   letter-spacing: 0.02em;
-  margin-bottom: var(--spacing-lg);
+  margin-bottom: 0;
+}
+
+.home-hero-badge--nhtsa {
+  background: rgba(56, 189, 248, 0.12);
+  border-color: rgba(125, 211, 252, 0.35);
 }
 
 .home-hero-badge-dot {
@@ -332,6 +465,11 @@
   border-radius: 50%;
   flex-shrink: 0;
   animation: pulse-dot 2s ease-in-out infinite;
+}
+
+.home-hero-badge-dot--nhtsa {
+  background: #38bdf8;
+  animation: pulse-dot 2.2s ease-in-out infinite;
 }
 
 @keyframes pulse-dot {
@@ -356,8 +494,39 @@
   font-size: clamp(1.125rem, 1.8vw, 1.375rem);
   color: rgba(255, 255, 255, 0.78);
   max-width: 42rem;
-  margin: 0 auto var(--spacing-xl);
+  margin: 0 auto var(--spacing-md);
   line-height: 1.6;
+}
+
+.home-hero-quick {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0.35rem 0.65rem;
+  margin: 0 auto var(--spacing-xl);
+  max-width: min(42rem, 100%);
+  font-size: 0.9375rem;
+}
+
+.home-hero-quick-link {
+  color: rgba(255, 255, 255, 0.95);
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  padding-bottom: 1px;
+  transition: color var(--transition-fast), border-color var(--transition-fast);
+}
+
+.home-hero-quick-link:hover {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+.home-hero-quick-sep {
+  color: rgba(255, 255, 255, 0.45);
+  user-select: none;
+  font-weight: 700;
 }
 
 /* Hero search */
@@ -628,6 +797,10 @@
 .search-suggest-item:hover {
   background: #f8fafc;
   text-decoration: none;
+}
+
+.search-suggest-item--vehicle {
+  border-left: 3px solid #38bdf8;
 }
 
 .search-suggest-title {

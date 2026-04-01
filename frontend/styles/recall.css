@@ -565,7 +565,7 @@
 .recall-card-status {
   position: absolute;
   top: var(--spacing-sm);
-  right: var(--spacing-md);
+  inset-inline-end: var(--spacing-md);
   z-index: 2;
   font-size: 0.6875rem;
   font-weight: 700;

@@ -4,46 +4,60 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import SiteBrandLogoLink from "@/components/SiteBrandLogoLink";
-
-const NAV_LINKS = [
-  { href: "/recalls", label: "FDA Recalls" },
-  { href: "/about",   label: "About" },
-];
+import NavLanguageSelect from "@/components/NavLanguageSelect";
+import { NAV_COPY } from "@/lib/navCopy";
+import {
+  isRtlUiLang,
+  parseLangFromPathname,
+  withLangPath,
+} from "@/lib/siteLocale";
 
 export default function SiteNav() {
-  const pathname = usePathname();
+  const pathname = usePathname() || "/";
+  const lang = parseLangFromPathname(pathname);
+  const t = NAV_COPY[lang];
+  const homeHref = withLangPath("/", lang);
+
+  const links = [
+    { href: withLangPath("/recalls", lang), label: t.fda },
+    { href: withLangPath("/cars", lang), label: t.cars },
+    { href: withLangPath("/about", lang), label: t.about },
+  ];
+
   const [menuOpen, setMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
-  // Add shadow on scroll
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 8);
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  // Close mobile menu on route change
   useEffect(() => {
     setMenuOpen(false);
   }, [pathname]);
+
+  const navDir = isRtlUiLang(lang) ? "rtl" : "ltr";
 
   return (
     <header
       className={`sitenav${scrolled ? " sitenav--scrolled" : ""}`}
       role="banner"
+      dir={navDir}
+      lang={lang}
     >
       <a href="#main-content" className="skip-link">
         Skip to main content
       </a>
 
       <div className="sitenav-inner">
-        {/* Brand */}
-        <SiteBrandLogoLink linkClassName="sitenav-brand" imgClassName="sitenav-brand-logo" />
+        <SiteBrandLogoLink href={homeHref} />
 
-        {/* Desktop nav links */}
         <nav className="sitenav-links" aria-label="Main navigation">
-          {NAV_LINKS.map((link) => {
-            const active = pathname === link.href || pathname?.startsWith(link.href + "/");
+          {links.map((link) => {
+            const active =
+              pathname === link.href ||
+              (link.href !== homeHref && pathname.startsWith(link.href + "/"));
             return (
               <Link
                 key={link.href}
@@ -57,7 +71,10 @@ export default function SiteNav() {
           })}
         </nav>
 
-        {/* Mobile hamburger */}
+        <div className="sitenav-tools">
+          <NavLanguageSelect />
+        </div>
+
         <button
           className={`sitenav-hamburger${menuOpen ? " sitenav-hamburger--open" : ""}`}
           aria-expanded={menuOpen}
@@ -72,15 +89,16 @@ export default function SiteNav() {
         </button>
       </div>
 
-      {/* Mobile menu */}
       {menuOpen && (
         <nav
           id="sitenav-mobile-menu"
           className="sitenav-mobile"
           aria-label="Mobile navigation"
         >
-          {NAV_LINKS.map((link) => {
-            const active = pathname === link.href || pathname?.startsWith(link.href + "/");
+          {links.map((link) => {
+            const active =
+              pathname === link.href ||
+              (link.href !== homeHref && pathname.startsWith(link.href + "/"));
             return (
               <Link
                 key={link.href}
@@ -93,6 +111,9 @@ export default function SiteNav() {
               </Link>
             );
           })}
+          <div className="sitenav-mobile-lang">
+            <NavLanguageSelect />
+          </div>
         </nav>
       )}
     </header>
