@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { FormEvent, useEffect, useState } from "react";
+import styles from "./cars.module.css";
 
 type RecallItem = {
   campaignNumber: string;
@@ -69,10 +70,11 @@ export default function CarsPage() {
 
   useEffect(() => {
     if (!results || selectedLang === "en") return;
+    const snapshot = results;
 
     let cancelled = false;
     async function runTranslations() {
-      const recallsToFetch = results.recalls.filter((recall) => {
+      const recallsToFetch = snapshot.recalls.filter((recall) => {
         const hasTranslation = Boolean(recall.translations?.[selectedLang]);
         return !hasTranslation;
       });
@@ -83,11 +85,19 @@ export default function CarsPage() {
       try {
         for (const recall of recallsToFetch) {
           const campaignNumber = recall.campaignNumber;
+          const summary =
+            recall.translations?.en?.summary || recall.summary || "";
+          const remedy = recall.translations?.en?.remedy || recall.remedy || "";
           // eslint-disable-next-line no-await-in-loop
           const res = await fetch("/api/cars/translate", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ campaignNumber, lang: selectedLang }),
+            body: JSON.stringify({
+              campaignNumber,
+              lang: selectedLang,
+              summary,
+              remedy,
+            }),
           });
           if (!res.ok) continue;
           // eslint-disable-next-line no-await-in-loop
@@ -109,7 +119,9 @@ export default function CarsPage() {
                   ...(item.translations || {}),
                   [selectedLang]: updatedTranslation,
                 };
-                const nextLanguages = Array.from(new Set([...(item.languages || ["en"]), selectedLang]));
+                const nextLanguages = Array.from(
+                  new Set([...(item.languages || ["en"]), selectedLang])
+                );
                 return {
                   ...item,
                   languages: nextLanguages,
@@ -131,137 +143,100 @@ export default function CarsPage() {
   }, [selectedLang, results]);
 
   return (
-    <main
-      className="container py-5"
-      style={{
-        maxWidth: 980,
-        margin: "0 auto",
-        padding: "28px 16px 56px",
-      }}
-    >
-      <section
-        style={{
-          border: "1px solid #e5e7eb",
-          borderRadius: 16,
-          padding: 24,
-          background: "linear-gradient(180deg, #ffffff 0%, #f8fafc 100%)",
-          boxShadow: "0 6px 24px rgba(15, 23, 42, 0.06)",
-        }}
-      >
-        <p style={{ margin: 0, fontSize: 12, letterSpacing: 1.1, color: "#475569" }}>NHTSA LOOKUP</p>
-        <h1 style={{ margin: "8px 0 6px", fontSize: 34, lineHeight: 1.1 }}>Vehicle Recalls</h1>
-        <p style={{ margin: 0, color: "#334155" }}>
-          Check recalls by VIN or by year, make, and model.
+    <main className={styles.page}>
+      <section className={styles.hero}>
+        <p className={styles.heroKicker}>NHTSA safety lookup</p>
+        <h1 className={styles.heroTitle}>Vehicle recalls</h1>
+        <p className={styles.heroSub}>
+          Decode a VIN or enter year, make, and model to see open campaigns. Open a
+          campaign for the full page; switch language to translate on demand.
         </p>
       </section>
 
-      <form
-        onSubmit={onSearch}
-        style={{
-          marginTop: 18,
-          display: "grid",
-          gap: 12,
-          border: "1px solid #e5e7eb",
-          borderRadius: 16,
-          padding: 20,
-          background: "#ffffff",
-        }}
-      >
-        <div style={{ display: "grid", gap: 6 }}>
-          <label htmlFor="vin" style={{ fontWeight: 600, color: "#0f172a" }}>VIN</label>
-          <input
-            id="vin"
-            type="text"
-            value={vin}
-            onChange={(e) => setVin(e.target.value)}
-            placeholder="Enter VIN"
-            style={{ padding: 11, borderRadius: 10, border: "1px solid #cbd5e1" }}
-          />
-        </div>
-
-        <div
-          style={{
-            opacity: 0.8,
-            textAlign: "center",
-            fontWeight: 600,
-            color: "#334155",
-            borderTop: "1px dashed #cbd5e1",
-            borderBottom: "1px dashed #cbd5e1",
-            padding: "8px 0",
-          }}
-        >
-          OR
-        </div>
-
-        <div
-          style={{
-            display: "grid",
-            gap: 12,
-            gridTemplateColumns: "repeat(auto-fit, minmax(180px, 1fr))",
-          }}
-        >
-          <div style={{ display: "grid", gap: 6 }}>
-            <label htmlFor="year" style={{ fontWeight: 600, color: "#0f172a" }}>Year</label>
+      <form className={styles.formCard} onSubmit={onSearch}>
+        <div className={styles.formGrid}>
+          <div className={styles.field}>
+            <label className={styles.label} htmlFor="vin">
+              VIN
+            </label>
             <input
-              id="year"
-              type="number"
-              value={year}
-              onChange={(e) => setYear(e.target.value)}
-              placeholder="Year"
-              style={{ padding: 11, borderRadius: 10, border: "1px solid #cbd5e1" }}
-            />
-          </div>
-
-          <div style={{ display: "grid", gap: 6 }}>
-            <label htmlFor="make" style={{ fontWeight: 600, color: "#0f172a" }}>Make</label>
-            <input
-              id="make"
+              id="vin"
+              name="vehicle_vin"
+              className={styles.input}
               type="text"
-              value={make}
-              onChange={(e) => setMake(e.target.value)}
-              placeholder="Make"
-              style={{ padding: 11, borderRadius: 10, border: "1px solid #cbd5e1" }}
+              value={vin}
+              onChange={(e) => setVin(e.target.value)}
+              placeholder="17-character VIN"
+              autoComplete="on"
+              inputMode="text"
             />
           </div>
 
-          <div style={{ display: "grid", gap: 6 }}>
-            <label htmlFor="model" style={{ fontWeight: 600, color: "#0f172a" }}>Model</label>
-            <input
-              id="model"
-              type="text"
-              value={model}
-              onChange={(e) => setModel(e.target.value)}
-              placeholder="Model"
-              style={{ padding: 11, borderRadius: 10, border: "1px solid #cbd5e1" }}
-            />
+          <div className={styles.divider}>or year / make / model</div>
+
+          <div className={styles.row3}>
+            <div className={styles.field}>
+              <label className={styles.label} htmlFor="year">
+                Year
+              </label>
+              <input
+                id="year"
+                name="vehicle_year"
+                className={styles.input}
+                type="number"
+                value={year}
+                onChange={(e) => setYear(e.target.value)}
+                placeholder="e.g. 2019"
+                autoComplete="on"
+              />
+            </div>
+            <div className={styles.field}>
+              <label className={styles.label} htmlFor="make">
+                Make
+              </label>
+              <input
+                id="make"
+                name="vehicle_make"
+                className={styles.input}
+                type="text"
+                value={make}
+                onChange={(e) => setMake(e.target.value)}
+                placeholder="e.g. Honda"
+                autoComplete="on"
+              />
+            </div>
+            <div className={styles.field}>
+              <label className={styles.label} htmlFor="model">
+                Model
+              </label>
+              <input
+                id="model"
+                name="vehicle_model"
+                className={styles.input}
+                type="text"
+                value={model}
+                onChange={(e) => setModel(e.target.value)}
+                placeholder="e.g. Civic"
+                autoComplete="on"
+              />
+            </div>
           </div>
+
+          <button className={styles.submit} type="submit" disabled={loading}>
+            {loading ? "Searching…" : "Search recalls"}
+          </button>
         </div>
-
-        <button
-          type="submit"
-          disabled={loading}
-          style={{
-            width: 180,
-            padding: "11px 14px",
-            borderRadius: 10,
-            border: "none",
-            background: "#0f172a",
-            color: "#fff",
-            fontWeight: 600,
-            cursor: "pointer",
-          }}
-        >
-          {loading ? "Loading..." : "Search Recalls"}
-        </button>
       </form>
 
-      <div style={{ marginTop: 12, display: "flex", alignItems: "center", gap: 8 }}>
-        <label htmlFor="lang" style={{ fontWeight: 600, color: "#0f172a" }}>Language:</label>
+      <div className={styles.toolbar}>
+        <label className={styles.label} htmlFor="lang">
+          Display language
+        </label>
         <select
           id="lang"
+          className={styles.select}
           value={selectedLang}
           onChange={(e) => setSelectedLang(e.target.value)}
-          style={{ padding: "8px 10px", borderRadius: 8, border: "1px solid #cbd5e1" }}
         >
           <option value="en">English</option>
           <option value="es">Spanish</option>
@@ -275,62 +250,87 @@ export default function CarsPage() {
           <option value="ru">Russian</option>
           <option value="vi">Vietnamese</option>
         </select>
-        {translating ? <span style={{ color: "#475569" }}>Translating...</span> : null}
+        {translating ? (
+          <span className={styles.translating}>Translating…</span>
+        ) : null}
       </div>
 
-      {error ? (
-        <p
-          style={{
-            color: "#b00020",
-            marginTop: 14,
-            padding: "10px 12px",
-            border: "1px solid #fecaca",
-            background: "#fef2f2",
-            borderRadius: 10,
-          }}
-        >
-          {error}
-        </p>
-      ) : null}
+      {error ? <p className={styles.error}>{error}</p> : null}
 
       {results ? (
-        <section style={{ marginTop: 24, display: "grid", gap: 12 }}>
-          <h2 style={{ margin: 0, fontSize: 24 }}>
-            Results for {results.vehicle.year} {results.vehicle.make} {results.vehicle.model}
-          </h2>
+        <section className={styles.resultsSection} aria-live="polite">
+          <div className={styles.resultsHead}>
+            <h2 className={styles.resultsTitle}>
+              {results.vehicle.year} {results.vehicle.make} {results.vehicle.model}
+            </h2>
+            <span className={styles.resultsMeta}>
+              {results.recalls.length === 0
+                ? "No open campaigns"
+                : `${results.recalls.length} campaign${results.recalls.length === 1 ? "" : "s"}`}
+            </span>
+          </div>
 
           {results.recalls.length === 0 ? (
-            <p style={{ marginTop: 4 }}>No recalls found</p>
+            <div className={styles.empty}>
+              No active recalls reported for this vehicle in NHTSA data.
+            </div>
           ) : (
-            <div style={{ display: "grid", gap: 12, marginTop: 12 }}>
-              {results.recalls.map((recall) => (
-                <article
-                  key={recall.campaignNumber}
-                  style={{
-                    border: "1px solid #e2e8f0",
-                    borderRadius: 12,
-                    padding: 14,
-                    background: "#ffffff",
-                    boxShadow: "0 3px 14px rgba(15, 23, 42, 0.04)",
-                  }}
-                >
-                  {(() => {
-                    const translated = recall.translations?.[selectedLang];
-                    const summary = selectedLang === "en" ? recall.summary : (translated?.summary || recall.summary);
-                    const remedy = selectedLang === "en" ? recall.remedy : (translated?.remedy || recall.remedy);
-                    return (
-                      <>
-                  <p style={{ margin: "0 0 8px" }}>
-                    <strong>Campaign:</strong>{" "}
-                    <Link href={`/recalls/vehicle/${recall.campaignNumber}`}>{recall.campaignNumber}</Link>
-                  </p>
-                  <p style={{ margin: "0 0 8px", color: "#1e293b" }}><strong>Summary:</strong> {summary}</p>
-                  <p style={{ margin: 0, color: "#1e293b" }}><strong>Remedy:</strong> {remedy}</p>
-                      </>
-                    );
-                  })()}
-                </article>
-              ))}
+            <div className={styles.cardList}>
+              {results.recalls.map((recall) => {
+                const translated = recall.translations?.[selectedLang];
+                const summary =
+                  selectedLang === "en"
+                    ? recall.summary
+                    : translated?.summary || recall.summary;
+                const remedy =
+                  selectedLang === "en"
+                    ? recall.remedy
+                    : translated?.remedy || recall.remedy;
+                const consequence =
+                  selectedLang === "en"
+                    ? recall.consequence
+                    : recall.consequence;
+
+                return (
+                  <article key={recall.campaignNumber} className={styles.card}>
+                    <div className={styles.cardTop}>
+                      <Link
+                        className={styles.campaignLink}
+                        href={`/recalls/vehicle/${recall.campaignNumber}`}
+                      >
+                        {recall.campaignNumber}
+                      </Link>
+                      <div className={styles.pills}>
+                        {recall.reportDate ? (
+                          <span className={styles.pill}>Report {recall.reportDate}</span>
+                        ) : null}
+                        {recall.component ? (
+                          <span className={styles.pill}>{recall.component}</span>
+                        ) : null}
+                      </div>
+                    </div>
+                    <div className={styles.cardBody}>
+                      {consequence ? (
+                        <div className={styles.block}>
+                          <span className={styles.blockLabel}>Consequence</span>
+                          <p className={styles.blockText}>{consequence}</p>
+                        </div>
+                      ) : null}
+                      <div className={styles.block}>
+                        <span className={styles.blockLabel}>Summary</span>
+                        <p className={styles.blockText}>{summary || "—"}</p>
+                      </div>
+                      <div className={styles.block}>
+                        <span className={styles.blockLabel}>Remedy</span>
+                        <div className={styles.remedyBox}>
+                          <p className={styles.blockText}>{remedy || "—"}</p>
+                        </div>
+                      </div>
+                      <span className={styles.badge}>Open campaign · NHTSA</span>
+                    </div>
+                  </article>
+                );
+              })}
             </div>
           )}
         </section>
@@ -338,4 +338,3 @@ export default function CarsPage() {
     </main>
   );
 }
-

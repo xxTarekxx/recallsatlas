@@ -1,7 +1,8 @@
 #Requires -Version 5.1
 <#
   Local: remove .next, npm run build.
-  Remote: remove .next and next.config.mjs, then upload fresh copies.
+  Remote: remove .next, node_modules, next.config.mjs, package.json, package-lock.json;
+         upload package.json, package-lock.json, next.config.mjs; npm install; upload .next.
 
   Preferred: create deploy.env.ps1 (see deploy.env.ps1.example) with:
     $VPS_HOST = "user@host"
@@ -61,7 +62,7 @@ elseif ($env:DEPLOY_SSH_IDENTITY) { $SshBase += @("-i", $env:DEPLOY_SSH_IDENTITY
 if ($env:DEPLOY_SSH_EXTRA) { $SshBase += ($env:DEPLOY_SSH_EXTRA -split '\s+') }
 
 function Invoke-RemoteClean {
-  $bash = "rm -rf '$RemotePath/.next' && rm -f '$RemotePath/next.config.mjs'"
+  $bash = "rm -rf '$RemotePath/.next' '$RemotePath/node_modules' && rm -f '$RemotePath/next.config.mjs' '$RemotePath/package.json' '$RemotePath/package-lock.json'"
   & ssh @SshBase $SshTarget $bash
   if ($LASTEXITCODE -ne 0) { throw "ssh remote clean failed (exit $LASTEXITCODE)" }
 }
@@ -81,17 +82,31 @@ if (-not (Test-Path -LiteralPath ".next")) {
 if (-not (Test-Path -LiteralPath "next.config.mjs")) {
   throw "next.config.mjs not found in frontend folder."
 }
+if (-not (Test-Path -LiteralPath "package.json")) {
+  throw "package.json not found in frontend folder."
+}
+if (-not (Test-Path -LiteralPath "package-lock.json")) {
+  throw "package-lock.json not found in frontend folder. Run npm install locally first."
+}
 
-Write-Host "Remote clean: $RemotePath on $SshTarget"
+Write-Host "Remote clean (.next, node_modules, next.config.mjs, package.json, package-lock.json): $RemotePath on $SshTarget"
 Invoke-RemoteClean
 
-Write-Host "Uploading .next (this may take a while)..."
-& scp @SshBase -r .next "${SshTarget}:${RemotePath}/"
-if ($LASTEXITCODE -ne 0) { throw "scp .next failed (exit $LASTEXITCODE)" }
+Write-Host "Uploading package.json and package-lock.json..."
+& scp @SshBase package.json package-lock.json "${SshTarget}:${RemotePath}/"
+if ($LASTEXITCODE -ne 0) { throw "scp package files failed (exit $LASTEXITCODE)" }
 
 Write-Host "Uploading next.config.mjs..."
 & scp @SshBase next.config.mjs "${SshTarget}:${RemotePath}/"
 if ($LASTEXITCODE -ne 0) { throw "scp next.config.mjs failed (exit $LASTEXITCODE)" }
+
+Write-Host "npm install on server (omit devDependencies)..."
+& ssh @SshBase $SshTarget "cd '$RemotePath' && npm install --omit=dev"
+if ($LASTEXITCODE -ne 0) { throw "ssh npm install failed (exit $LASTEXITCODE)" }
+
+Write-Host "Uploading .next (this may take a while)..."
+& scp @SshBase -r .next "${SshTarget}:${RemotePath}/"
+if ($LASTEXITCODE -ne 0) { throw "scp .next failed (exit $LASTEXITCODE)" }
 
 Write-Host "PM2 restart $Pm2App on $SshTarget..."
 & ssh @SshBase $SshTarget "pm2 restart $Pm2App"

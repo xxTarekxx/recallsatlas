@@ -1,4 +1,5 @@
 import { getMongoDb } from "@/lib/mongo";
+import { mergeCarIntoCarsJsonFile } from "@/lib/cars/carsJson";
 
 const COLLECTION = "cars";
 let indexReady: Promise<void> | null = null;
@@ -29,7 +30,7 @@ export async function saveRecallToDB(recall: Record<string, unknown>) {
 
   await ensureCarsIndex();
   const db = await getMongoDb();
-  return db.collection(COLLECTION).updateOne(
+  const result = await db.collection(COLLECTION).updateOne(
     { campaignNumber },
     {
       $set: { ...recall, campaignNumber, updatedAt: new Date().toISOString() },
@@ -37,5 +38,16 @@ export async function saveRecallToDB(recall: Record<string, unknown>) {
     },
     { upsert: true }
   );
+
+  try {
+    const fresh = await db.collection(COLLECTION).findOne({ campaignNumber });
+    if (fresh) {
+      await mergeCarIntoCarsJsonFile(fresh as Record<string, unknown>);
+    }
+  } catch (e) {
+    console.error("[carDb] cars.json mirror failed (Mongo save still ok):", e);
+  }
+
+  return result;
 }
 

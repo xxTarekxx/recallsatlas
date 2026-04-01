@@ -1,8 +1,17 @@
 import OpenAI from "openai";
 
-const client = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY,
-});
+let openaiClient: OpenAI | null = null;
+
+function getOpenAIClient(): OpenAI {
+  if (!openaiClient) {
+    const apiKey = process.env.OPENAI_API_KEY;
+    if (!apiKey) {
+      throw new Error("OPENAI_API_KEY is not set");
+    }
+    openaiClient = new OpenAI({ apiKey });
+  }
+  return openaiClient;
+}
 
 const langMap: Record<string, string> = {
   en: "English",
@@ -27,8 +36,10 @@ export async function translateRecall({
   remedy: string;
   lang: string;
 }) {
-  if (!summary || !remedy) {
-    throw new Error("Missing summary or remedy");
+  const s = String(summary ?? "").trim();
+  const r = String(remedy ?? "").trim();
+  if (!s && !r) {
+    throw new Error("Missing summary and remedy");
   }
 
   const languageName = langMap[lang];
@@ -38,8 +49,11 @@ export async function translateRecall({
   }
 
   if (lang === "en") {
-    return { summary, remedy };
+    return { summary: s, remedy: r };
   }
+
+  const summaryForModel = s || "(No summary provided.)";
+  const remedyForModel = r || "(No remedy provided.)";
 
   const systemPrompt = `
 You are a professional automotive safety translator.
@@ -77,13 +91,13 @@ Return ONLY valid JSON:
 Translate the following vehicle recall:
 
 Summary:
-${summary}
+${summaryForModel}
 
 Remedy:
-${remedy}
+${remedyForModel}
 `;
 
-  const response = await client.chat.completions.create({
+  const response = await getOpenAIClient().chat.completions.create({
     model: "gpt-4.1-mini",
     messages: [
       { role: "system", content: systemPrompt },
