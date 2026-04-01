@@ -1,4 +1,9 @@
 import { NextResponse } from "next/server";
+import {
+  enforceRateLimit,
+  jsonBodyTooLarge,
+  payloadTooLargeResponse,
+} from "@/lib/apiSecurity";
 import { VinLookupNotFoundError } from "@/lib/cars/decodeVin";
 import { getCarRecalls } from "@/lib/cars/recallService";
 import { getRecallFromDB, saveRecallToDB } from "@/lib/cars/carDb";
@@ -19,6 +24,10 @@ const inFlightCampaigns = new Set<string>();
 const URGENT_TERMS = ["fire", "injury", "crash", "death"];
 
 export async function POST(req: Request) {
+  const limited = enforceRateLimit(req, "cars-lookup");
+  if (limited) return limited;
+  if (jsonBodyTooLarge(req)) return payloadTooLargeResponse();
+
   try {
     const body = (await req.json()) as LookupBody;
     const vin = clean(body?.vin);

@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
+import { enforceRateLimit } from "@/lib/apiSecurity";
 import { getDb } from "@/lib/mongodb";
 
 export const dynamic = "force-dynamic";
@@ -12,6 +13,9 @@ function escapeRegex(input: string) {
 }
 
 export async function GET(request: NextRequest) {
+  const limited = enforceRateLimit(request, "recalls-list");
+  if (limited) return limited;
+
   try {
     const { searchParams } = new URL(request.url);
     const page = Math.max(1, parseInt(searchParams.get("page") || String(DEFAULT_PAGE), 10) || 1);

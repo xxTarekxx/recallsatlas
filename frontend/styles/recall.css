@@ -99,7 +99,7 @@
   background: #eef2ff;
   border: 1px solid #c7d2fe;
   border-radius: 999px;
-  padding: 0.2rem 0.55rem;
+  padding: 0.2rem 0.9rem;
 }
 
 .recall-language-current--hero {
@@ -383,7 +383,7 @@
 /* Section labels: At a glance, Official sources */
 .recall-detail-facts-title {
   display: block;
-  font-size: 0.75rem;
+  font-size: 1.1875rem;
   font-weight: 700;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -812,23 +812,28 @@
   margin: 0.75rem 0;
   font-size: 0.9375rem;
 }
+
 .recall-content-html th,
 .recall-content-html td {
   border: 1px solid var(--color-border, #e2e8f0);
   padding: 0.5rem 0.75rem;
   text-align: left;
 }
+
 .recall-content-html th {
   background: var(--color-border, #f1f5f9);
   font-weight: 600;
 }
+
 .recall-content-html ul {
   margin: 0.5rem 0;
   padding-left: 1.5rem;
 }
+
 .recall-content-html li {
   margin: 0.25rem 0;
 }
+
 .recall-content-html p {
   margin: 0.5rem 0 1rem;
 }

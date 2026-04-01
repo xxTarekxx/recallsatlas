@@ -1,12 +1,26 @@
-import { NextResponse } from "next/server";
+import { NextRequest, NextResponse } from "next/server";
 import path from "path";
 import fs from "fs";
+import { enforceRateLimit } from "@/lib/apiSecurity";
 
 export const dynamic = "force-dynamic";
 export const runtime = "nodejs";
 
-/** Serves backend/data/recalls.json for testing (scrapeRecalls output with content[], HTML in text). */
-export async function GET() {
+/**
+ * Serves backend/data/recalls.json for local/testing only.
+ * Disabled in production unless ALLOW_RECALLS_JSON_API=1.
+ */
+export async function GET(request: NextRequest) {
+  if (
+    process.env.NODE_ENV === "production" &&
+    process.env.ALLOW_RECALLS_JSON_API !== "1"
+  ) {
+    return NextResponse.json({ error: "Not found" }, { status: 404 });
+  }
+
+  const limited = enforceRateLimit(request, "recalls-json");
+  if (limited) return limited;
+
   try {
     const base = process.cwd();
     const candidates = [

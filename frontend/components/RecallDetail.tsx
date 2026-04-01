@@ -4,16 +4,39 @@ import Link from "next/link";
 import SiteBrandLogoLink from "@/components/SiteBrandLogoLink";
 import { useEffect, useMemo, useState } from "react";
 import { usePathname, useRouter } from "next/navigation";
+import { getRecallDetailFactsUi } from "@/lib/recallDetailFactsUi";
 import { getShortRecallTitle } from "@/lib/recall-utils";
 import RecallDetailImageSlider from "./RecallDetailImageSlider";
 
-/** Format YYYYMMDD as MM/DD/YYYY */
+/** Format YYYYMMDD as MM/DD/YYYY (fallback). */
 function formatDate(yyyymmdd?: string) {
   if (!yyyymmdd || typeof yyyymmdd !== "string" || yyyymmdd.length !== 8) return yyyymmdd || "";
   const y = yyyymmdd.slice(0, 4);
   const m = yyyymmdd.slice(4, 6);
   const d = yyyymmdd.slice(6, 8);
   return `${m}/${d}/${y}`;
+}
+
+/** Locale-aware display for recall report_date (YYYYMMDD). */
+function formatReportDateForLocale(yyyymmdd: string | undefined, lang: string) {
+  if (!yyyymmdd || typeof yyyymmdd !== "string" || yyyymmdd.length !== 8) return yyyymmdd || "";
+  const y = Number(yyyymmdd.slice(0, 4));
+  const mo = Number(yyyymmdd.slice(4, 6));
+  const day = Number(yyyymmdd.slice(6, 8));
+  if (!Number.isFinite(y) || mo < 1 || mo > 12 || day < 1 || day > 31) {
+    return formatDate(yyyymmdd);
+  }
+  try {
+    const d = new Date(y, mo - 1, day);
+    const tag = lang === "en" ? "en-US" : lang;
+    return d.toLocaleDateString(tag, {
+      year: "numeric",
+      month: "short",
+      day: "numeric",
+    });
+  } catch {
+    return formatDate(yyyymmdd);
+  }
 }
 
 function hasHtml(text: string) {
@@ -77,6 +100,8 @@ export default function RecallDetail({ recall, dbError = null, currentLang = "en
     [translatedByCode]
   );
 
+  const factsUi = useMemo(() => getRecallDetailFactsUi(selectedLang), [selectedLang]);
+
   useEffect(() => {
     setSelectedLang(currentLang);
   }, [currentLang]);
@@ -115,7 +140,7 @@ export default function RecallDetail({ recall, dbError = null, currentLang = "en
   const brand = activeLangObj?.brandName || recall?.brandName || "";
   const company = recall?.companyName || "";
   const reason = activeLangObj?.reason || recall?.reason || "";
-  const reportDate = formatDate(recall?.report_date);
+  const reportDate = formatReportDateForLocale(recall?.report_date, selectedLang);
   const classification = recall?.classification || "";
   const distribution = recall?.distribution || "";
   const productType = activeLangObj?.productType || recall?.productType || "";
@@ -157,7 +182,7 @@ export default function RecallDetail({ recall, dbError = null, currentLang = "en
     <span
       className={`recall-detail-status-value recall-detail-status-value--${isTerminated ? "terminated" : "ongoing"}`}
     >
-      {isTerminated ? "Terminated" : "Ongoing"}
+      {isTerminated ? factsUi.terminated : factsUi.ongoing}
     </span>
   );
   const selectedLanguage = LANGUAGE_OPTIONS.find((l) => l.code === selectedLang) || LANGUAGE_OPTIONS[0];
@@ -236,60 +261,65 @@ export default function RecallDetail({ recall, dbError = null, currentLang = "en
             <RecallDetailImageSlider imageUrls={imageUrls} alt={shortTitle} />
           )}
 
-          <section className="recall-detail-facts" aria-label="Recall details">
+          <section
+            className="recall-detail-facts"
+            aria-label={factsUi.recallDetailsTitle}
+          >
             <div className="recall-detail-facts-head">
-              <h2 className="recall-detail-facts-title">Recall Details</h2>
+              <h2 className="recall-detail-facts-title">{factsUi.recallDetailsTitle}</h2>
               <p className="recall-detail-status-row">
-                <span className="recall-detail-status-label">Status</span>
+                <span className="recall-detail-status-label">{factsUi.status}</span>
                 {statusValue}
               </p>
             </div>
             <dl className="recall-detail-dl">
               {detailProduct && (
                 <>
-                  <dt className="recall-fact-label recall-fact-label--product">Product</dt>
+                  <dt className="recall-fact-label recall-fact-label--product">
+                    {factsUi.product}
+                  </dt>
                   <dd className="recall-fact-value recall-fact-value--product">{detailProduct}</dd>
                 </>
               )}
               {detailProductType && (
                 <>
-                  <dt>Product type</dt>
+                  <dt>{factsUi.productType}</dt>
                   <dd>{detailProductType}</dd>
                 </>
               )}
               {detailBrand && (
                 <>
-                  <dt>Brand</dt>
+                  <dt>{factsUi.brand}</dt>
                   <dd>{detailBrand}</dd>
                 </>
               )}
               {detailCompany && (
                 <>
-                  <dt>Company</dt>
+                  <dt>{factsUi.company}</dt>
                   <dd>{detailCompany}</dd>
                 </>
               )}
               {reportDate && (
                 <>
-                  <dt>Recall date</dt>
+                  <dt>{factsUi.recallDate}</dt>
                   <dd>{reportDate}</dd>
                 </>
               )}
               {classification && (
                 <>
-                  <dt>Classification</dt>
+                  <dt>{factsUi.classification}</dt>
                   <dd>{classification}</dd>
                 </>
               )}
               {distribution && (
                 <>
-                  <dt>Distribution</dt>
+                  <dt>{factsUi.distribution}</dt>
                   <dd>{distribution}</dd>
                 </>
               )}
               {reason && (
                 <>
-                  <dt>The Reason For Recall</dt>
+                  <dt>{factsUi.reasonForRecall}</dt>
                   <dd>{reason}</dd>
                 </>
               )}

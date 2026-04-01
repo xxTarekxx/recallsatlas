@@ -1,4 +1,9 @@
 import { NextResponse } from "next/server";
+import {
+  enforceRateLimit,
+  jsonBodyTooLarge,
+  payloadTooLargeResponse,
+} from "@/lib/apiSecurity";
 import { getRecallFromDB, saveRecallToDB } from "@/lib/cars/carDb";
 import { translateRecall } from "@/lib/cars/translateRecall";
 
@@ -56,6 +61,10 @@ function translationResponse(campaignNumber: string, entry: any) {
 }
 
 export async function POST(req: Request) {
+  const limited = enforceRateLimit(req, "cars-translate");
+  if (limited) return limited;
+  if (jsonBodyTooLarge(req)) return payloadTooLargeResponse();
+
   try {
     const body = (await req.json()) as TranslateBody;
     const campaignNumber = clean(body?.campaignNumber);
