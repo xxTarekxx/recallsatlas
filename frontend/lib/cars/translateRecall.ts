@@ -31,16 +31,19 @@ export async function translateRecall({
   summary,
   remedy,
   consequence,
+  component,
   lang,
 }: {
   summary: string;
   remedy: string;
   consequence: string;
+  component: string;
   lang: string;
 }) {
   const s = String(summary ?? "").trim();
   const r = String(remedy ?? "").trim();
   const c = String(consequence ?? "").trim();
+  const comp = String(component ?? "").trim();
   if (!s && !r) {
     throw new Error("Missing summary and remedy");
   }
@@ -52,12 +55,13 @@ export async function translateRecall({
   }
 
   if (lang === "en") {
-    return { summary: s, remedy: r, consequence: c };
+    return { summary: s, remedy: r, consequence: c, component: comp };
   }
 
   const summaryForModel = s || "(No summary provided.)";
   const remedyForModel = r || "(No remedy provided.)";
   const consequenceForModel = c || "(No consequence provided.)";
+  const componentForModel = comp || "(No component provided.)";
 
   const systemPrompt = `
 You are a professional automotive safety translator.
@@ -88,9 +92,13 @@ Return ONLY valid JSON:
 {
   "summary": "...",
   "remedy": "...",
-  "consequence": "..."
+  "consequence": "...",
+  "component": "..."
 }
-If the English consequence is empty or marked as none, set "consequence" to an empty string.
+If the English consequence is empty, set "consequence" to an empty string.
+If the English component is empty, set "component" to an empty string.
+If the component text uses colons (e.g. "A:B:C"), keep the same colon-separated structure in
+${languageName} but translate each segment; you may use spaces instead of colons if required by that language.
 `;
 
   const userPrompt = `
@@ -104,6 +112,9 @@ ${remedyForModel}
 
 Consequence:
 ${consequenceForModel}
+
+Affected component (system / part name, may be NHTSA-style uppercase):
+${componentForModel}
 `;
 
   const response = await getOpenAIClient().chat.completions.create({
@@ -129,11 +140,14 @@ ${consequenceForModel}
 
   const outConsequence =
     typeof parsed.consequence === "string" ? parsed.consequence : "";
+  const outComponent =
+    typeof parsed.component === "string" ? parsed.component : "";
 
   return {
     summary: parsed.summary,
     remedy: parsed.remedy,
     consequence: outConsequence,
+    component: outComponent,
   };
 }
 

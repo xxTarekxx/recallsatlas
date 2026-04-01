@@ -9,6 +9,7 @@ type TranslateBody = {
   summary?: string;
   remedy?: string;
   consequence?: string;
+  component?: string;
 };
 
 function clean(v: unknown) {
@@ -23,14 +24,25 @@ function englishConsequence(recall: any, fallback: string) {
   );
 }
 
-/** True when cached translation has summary+remedy and consequence if English has one. */
+function englishComponent(recall: any, fallback: string) {
+  return clean(
+    recall?.languages?.en?.component ??
+      recall?.original?.component ??
+      recall?.component ??
+      fallback
+  );
+}
+
+/** Cached translation is complete including consequence/component when English has them. */
 function hasCompleteTranslation(recall: any, lang: string) {
   const t = recall?.languages?.[lang];
   if (!t) return false;
   if (!clean(t.summary) || !clean(t.remedy)) return false;
   const enC = englishConsequence(recall, "");
-  if (!enC) return true;
-  return Boolean(clean(t.consequence));
+  if (enC && !clean(t.consequence)) return false;
+  const enComp = englishComponent(recall, "");
+  if (enComp && !clean(t.component)) return false;
+  return true;
 }
 
 function translationResponse(campaignNumber: string, entry: any) {
@@ -39,6 +51,7 @@ function translationResponse(campaignNumber: string, entry: any) {
     summary: clean(entry?.summary),
     remedy: clean(entry?.remedy),
     consequence: clean(entry?.consequence),
+    component: clean(entry?.component),
   });
 }
 
@@ -65,6 +78,7 @@ export async function POST(req: Request) {
     const fallbackSummary = clean(body?.summary);
     const fallbackRemedy = clean(body?.remedy);
     const fallbackConsequence = clean(body?.consequence);
+    const fallbackComponent = clean(body?.component);
 
     if (!recall) {
       if (!fallbackSummary && !fallbackRemedy) {
@@ -139,11 +153,13 @@ export async function POST(req: Request) {
       recall.languages?.en?.remedy || recall.original?.remedy || fallbackRemedy
     );
     const enConsequenceFinal = englishConsequence(recall, fallbackConsequence);
+    const enComponentFinal = englishComponent(recall, fallbackComponent);
 
     const translated = await translateRecall({
       summary: enSummaryFinal,
       remedy: enRemedyFinal,
       consequence: enConsequenceFinal,
+      component: enComponentFinal,
       lang,
     });
 
@@ -153,6 +169,7 @@ export async function POST(req: Request) {
         summary: translated.summary,
         remedy: translated.remedy,
         consequence: translated.consequence,
+        component: translated.component,
       },
     };
 
@@ -170,6 +187,7 @@ export async function POST(req: Request) {
       summary: translated.summary,
       remedy: translated.remedy,
       consequence: translated.consequence,
+      component: translated.component,
     });
   } catch (err: any) {
     console.error("[api/cars/translate]", err);

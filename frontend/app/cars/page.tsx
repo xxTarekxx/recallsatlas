@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { FormEvent, useEffect, useMemo, useRef, useState } from "react";
+import { formatComponentLines } from "@/lib/cars/formatComponentLines";
 import { getCarsPageUi } from "@/lib/cars/carsPageUi";
 import styles from "./cars.module.css";
 
@@ -13,6 +14,8 @@ const SS_RESULTS = "recallsatlas_cars_last_results";
 const LS_VIN_HISTORY = "recallsatlas_cars_vin_history";
 const MAX_VIN_HISTORY = 30;
 const VIN_DATALIST_ID = "recallsatlas-vin-datalist";
+/** Bidi: Arabic (extend here if you add Hebrew, etc.) */
+const RTL_LANGS = new Set(["ar"]);
 
 function loadVinHistoryFromStorage(): string[] {
   try {
@@ -50,7 +53,7 @@ type RecallItem = {
   languages: string[];
   translations?: Record<
     string,
-    { summary: string; remedy: string; consequence?: string }
+    { summary: string; remedy: string; consequence?: string; component?: string }
   >;
 };
 
@@ -88,8 +91,14 @@ export default function CarsPage() {
       recall.translations?.en?.consequence ||
       ""
     ).trim();
-    if (!enConsequence) return false;
-    return !t.consequence?.trim();
+    if (enConsequence && !t.consequence?.trim()) return true;
+    const enComponent = (
+      recall.component ||
+      recall.translations?.en?.component ||
+      ""
+    ).trim();
+    if (enComponent && !t.component?.trim()) return true;
+    return false;
   }
 
   useEffect(() => {
@@ -271,6 +280,8 @@ export default function CarsPage() {
           const remedy = recall.translations?.en?.remedy || recall.remedy || "";
           const consequence =
             recall.translations?.en?.consequence || recall.consequence || "";
+          const component =
+            recall.translations?.en?.component || recall.component || "";
           // eslint-disable-next-line no-await-in-loop
           const res = await fetch("/api/cars/translate", {
             method: "POST",
@@ -281,6 +292,7 @@ export default function CarsPage() {
               summary,
               remedy,
               consequence,
+              component,
             }),
           });
           if (!res.ok) continue;
@@ -292,6 +304,7 @@ export default function CarsPage() {
             summary: String(data?.summary || ""),
             remedy: String(data?.remedy || ""),
             consequence: String(data?.consequence || ""),
+            component: String(data?.component || ""),
           };
 
           setResults((prev) => {
@@ -336,9 +349,11 @@ export default function CarsPage() {
     }
   }, [results]);
 
+  const pageDir = RTL_LANGS.has(selectedLang) ? "rtl" : "ltr";
+
   return (
-    <main className={styles.page}>
-      <section className={styles.hero}>
+    <main className={styles.page} dir={pageDir} lang={selectedLang}>
+      <section className={styles.hero} dir="ltr" lang="en">
         <p className={styles.heroKicker}>NHTSA safety lookup</p>
         <h1 className={styles.heroTitle}>Vehicle recalls</h1>
         <p className={styles.heroSub}>
@@ -349,6 +364,8 @@ export default function CarsPage() {
 
       <form
         className={styles.formCard}
+        dir="ltr"
+        lang="en"
         onSubmit={onSearch}
         autoComplete="on"
         name="vehicle_recall_lookup"
@@ -485,7 +502,11 @@ export default function CarsPage() {
                 )}
               </h2>
               {selectedLang !== "en" ? (
-                <p className={styles.resultsTitleEn}>
+                <p
+                  className={`${styles.resultsTitleEn} ${styles.embedLtr}`}
+                  dir="ltr"
+                  lang="en"
+                >
                   {ui.openRecallsForEn(
                     results.vehicle.year,
                     results.vehicle.make,
@@ -501,7 +522,11 @@ export default function CarsPage() {
                   : ui.metaCampaigns(results.recalls.length)}
               </span>
               {selectedLang !== "en" ? (
-                <span className={styles.resultsMetaEn}>
+                <span
+                  className={`${styles.resultsMetaEn} ${styles.embedLtr}`}
+                  dir="ltr"
+                  lang="en"
+                >
                   {results.recalls.length === 0
                     ? ui.metaNoCampaignsEn
                     : ui.metaCampaignsEn(results.recalls.length)}
@@ -511,7 +536,7 @@ export default function CarsPage() {
           </div>
 
           {results.recalls.length === 0 ? (
-            <div className={styles.empty}>
+            <div className={`${styles.empty} ${styles.embedLtr}`} dir="ltr" lang="en">
               No active recalls reported for this vehicle in NHTSA data.
             </div>
           ) : (
@@ -530,29 +555,58 @@ export default function CarsPage() {
                   selectedLang === "en"
                     ? recall.consequence
                     : translated?.consequence || recall.consequence;
+                const componentText =
+                  selectedLang === "en"
+                    ? recall.component
+                    : translated?.component || recall.component;
+                const hasComponentTranslation =
+                  selectedLang !== "en" &&
+                  Boolean(translated?.component?.trim());
+                const componentDir =
+                  hasComponentTranslation && RTL_LANGS.has(selectedLang)
+                    ? "rtl"
+                    : "ltr";
+                const componentLang = hasComponentTranslation
+                  ? selectedLang
+                  : "en";
 
                 return (
                   <article key={recall.campaignNumber} className={styles.card}>
                     <div className={styles.cardTop}>
+                      {recall.reportDate ? (
+                        <div className={styles.pillsRowTop}>
+                          <span className={styles.pill}>
+                            {ui.pillReport(recall.reportDate)}
+                          </span>
+                        </div>
+                      ) : null}
                       <div className={styles.cardTopMain}>
                         <span className={styles.campaignIdLabel}>{ui.campaignId}</span>
                         <Link
-                          className={styles.campaignLink}
+                          className={`${styles.campaignLink} ${styles.embedLtr}`}
+                          dir="ltr"
+                          lang="en"
                           href={`/recalls/vehicle/${recall.campaignNumber}`}
                         >
                           {recall.campaignNumber}
                         </Link>
                       </div>
-                      <div className={styles.pills}>
-                        {recall.reportDate ? (
-                          <span className={styles.pill}>
-                            {ui.pillReport(recall.reportDate)}
-                          </span>
-                        ) : null}
-                        {recall.component ? (
-                          <span className={styles.pill}>{recall.component}</span>
-                        ) : null}
-                      </div>
+                      {componentText ? (
+                        <div className={styles.componentSection}>
+                          <span className={styles.blockLabel}>{ui.blockComponent}</span>
+                          <div
+                            className={styles.componentLines}
+                            dir={componentDir}
+                            lang={componentLang}
+                          >
+                            {formatComponentLines(componentText).map((line, i) => (
+                              <div key={i} className={styles.componentLine}>
+                                {line}
+                              </div>
+                            ))}
+                          </div>
+                        </div>
+                      ) : null}
                     </div>
                     <div className={styles.cardBody}>
                       <div className={styles.block}>
@@ -573,7 +627,9 @@ export default function CarsPage() {
                           <p className={styles.blockText}>{remedy || "—"}</p>
                         </div>
                       </div>
-                      <span className={styles.badge}>Open campaign · NHTSA</span>
+                      <span className={`${styles.badge} ${styles.embedLtr}`} dir="ltr" lang="en">
+                        Open campaign · NHTSA
+                      </span>
                     </div>
                   </article>
                 );

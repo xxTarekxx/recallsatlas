@@ -92,7 +92,7 @@ function toLookupRecall(recall: any) {
 
   const translationMap: Record<
     string,
-    { summary: string; remedy: string; consequence: string }
+    { summary: string; remedy: string; consequence: string; component: string }
   > = {};
   for (const [code, value] of Object.entries(languagesObj)) {
     const v: any = value || {};
@@ -100,6 +100,7 @@ function toLookupRecall(recall: any) {
       summary: clean(v.summary),
       remedy: clean(v.remedy),
       consequence: clean(v.consequence),
+      component: clean(v.component),
     };
   }
   // Always guarantee English baseline in API response.
@@ -107,6 +108,7 @@ function toLookupRecall(recall: any) {
     summary: translationMap.en?.summary || summary,
     remedy: translationMap.en?.remedy || remedy,
     consequence: translationMap.en?.consequence || consequence,
+    component: translationMap.en?.component || component,
   };
 
   return {

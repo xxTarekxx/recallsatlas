@@ -1,5 +1,10 @@
 /** Client UI copy for /cars (labels + results head). */
 
+/** Plain English order: year make model (subtitle under localized title). */
+function vehicleLineEn(y: string, m: string, mo: string) {
+  return `${y} ${m} ${mo}`.replace(/\s+/g, " ").trim();
+}
+
 export type CarsPageUi = {
   displayLanguage: string;
   translating: string;
@@ -7,6 +12,8 @@ export type CarsPageUi = {
   blockConsequence: string;
   blockSummary: string;
   blockRemedy: string;
+  /** NHTSA component / system (below campaign row) */
+  blockComponent: string;
   openRecallsFor: (year: string, make: string, model: string) => string;
   openRecallsForEn: (year: string, make: string, model: string) => string;
   metaNoCampaigns: string;
@@ -24,8 +31,9 @@ const en: CarsPageUi = {
   blockConsequence: "Consequence",
   blockSummary: "Summary",
   blockRemedy: "Remedy",
-  openRecallsFor: (y, m, mo) => `${y} ${m} ${mo}`,
-  openRecallsForEn: (y, m, mo) => `${y} ${m} ${mo}`,
+  blockComponent: "Component",
+  openRecallsFor: vehicleLineEn,
+  openRecallsForEn: vehicleLineEn,
   metaNoCampaigns: "No open campaigns",
   metaNoCampaignsEn: "No open campaigns",
   metaCampaigns: (n) => `${n} campaign${n === 1 ? "" : "s"}`,
@@ -40,8 +48,9 @@ const es: CarsPageUi = {
   blockConsequence: "Consecuencia",
   blockSummary: "Resumen",
   blockRemedy: "Remedio",
-  openRecallsFor: (y, m, mo) => `Retiros abiertos: ${y} ${m} ${mo}`,
-  openRecallsForEn: (y, m, mo) => `Open recalls: ${y} ${m} ${mo}`,
+  blockComponent: "Componente",
+  openRecallsFor: (y, m, mo) => `Año ${y} · Marca ${m} · Modelo ${mo}`,
+  openRecallsForEn: vehicleLineEn,
   metaNoCampaigns: "Sin campañas abiertas",
   metaNoCampaignsEn: "No open campaigns",
   metaCampaigns: (n) =>
@@ -57,8 +66,9 @@ const ar: CarsPageUi = {
   blockConsequence: "النتيجة",
   blockSummary: "ملخص",
   blockRemedy: "الإجراء التصحيحي",
-  openRecallsFor: (y, m, mo) => `استدعاءات مفتوحة: ${y} ${m} ${mo}`,
-  openRecallsForEn: (y, m, mo) => `Open recalls: ${y} ${m} ${mo}`,
+  blockComponent: "المكوّن",
+  openRecallsFor: (y, m, mo) => `السنة ${y} · الصنع ${m} · الطراز ${mo}`,
+  openRecallsForEn: vehicleLineEn,
   metaNoCampaigns: "لا توجد حملات مفتوحة",
   metaNoCampaignsEn: "No open campaigns",
   metaCampaigns: (n) => (n === 1 ? "حملة واحدة" : `${n} حملات`),
@@ -73,8 +83,9 @@ const zh: CarsPageUi = {
   blockConsequence: "后果",
   blockSummary: "摘要",
   blockRemedy: "补救措施",
-  openRecallsFor: (y, m, mo) => `开放召回：${y} ${m} ${mo}`,
-  openRecallsForEn: (y, m, mo) => `Open recalls: ${y} ${m} ${mo}`,
+  blockComponent: "部件",
+  openRecallsFor: (y, m, mo) => `年份 ${y} · 品牌 ${m} · 车型 ${mo}`,
+  openRecallsForEn: vehicleLineEn,
   metaNoCampaigns: "无开放活动",
   metaNoCampaignsEn: "No open campaigns",
   metaCampaigns: (n) => (n === 1 ? "1 项活动" : `${n} 项活动`),
@@ -89,8 +100,9 @@ const fr: CarsPageUi = {
   blockConsequence: "Conséquence",
   blockSummary: "Résumé",
   blockRemedy: "Remède",
-  openRecallsFor: (y, m, mo) => `Rappels ouverts : ${y} ${m} ${mo}`,
-  openRecallsForEn: (y, m, mo) => `Open recalls: ${y} ${m} ${mo}`,
+  blockComponent: "Composant",
+  openRecallsFor: (y, m, mo) => `Année ${y} · Marque ${m} · Modèle ${mo}`,
+  openRecallsForEn: vehicleLineEn,
   metaNoCampaigns: "Aucune campagne ouverte",
   metaNoCampaignsEn: "No open campaigns",
   metaCampaigns: (n) => (n === 1 ? "1 campagne" : `${n} campagnes`),
@@ -105,13 +117,14 @@ const de: CarsPageUi = {
   blockConsequence: "Folge",
   blockSummary: "Zusammenfassung",
   blockRemedy: "Abhilfe",
-  openRecallsFor: (y, m, mo) => `Offene Rückrufe: ${y} ${m} ${mo}`,
-  openRecallsForEn: (y, m, mo) => `Open recalls: ${y} ${m} ${mo}`,
+  blockComponent: "Bauteil",
+  openRecallsFor: (y, m, mo) => `Jahr ${y} · Marke ${m} · Modell ${mo}`,
+  openRecallsForEn: vehicleLineEn,
   metaNoCampaigns: "Keine offenen Kampagnen",
   metaNoCampaignsEn: "No open campaigns",
   metaCampaigns: (n) => (n === 1 ? "1 Kampagne" : `${n} Kampagnen`),
   metaCampaignsEn: (n) => `${n} campaign${n === 1 ? "" : "s"}`,
-  pillReport: (d) => `報告日 ${d}`,
+  pillReport: (d) => `Bericht ${d}`,
 };
 
 const ja: CarsPageUi = {
@@ -121,8 +134,9 @@ const ja: CarsPageUi = {
   blockConsequence: "影響",
   blockSummary: "概要",
   blockRemedy: "対策",
-  openRecallsFor: (y, m, mo) => `対象リコール: ${y} ${m} ${mo}`,
-  openRecallsForEn: (y, m, mo) => `Open recalls: ${y} ${m} ${mo}`,
+  blockComponent: "対象部品",
+  openRecallsFor: (y, m, mo) => `年式 ${y} · メーカー ${m} · 車種 ${mo}`,
+  openRecallsForEn: vehicleLineEn,
   metaNoCampaigns: "対象キャンペーンなし",
   metaNoCampaignsEn: "No open campaigns",
   metaCampaigns: (n) => (n === 1 ? "1件のキャンペーン" : `${n}件のキャンペーン`),
@@ -137,8 +151,9 @@ const pt: CarsPageUi = {
   blockConsequence: "Consequência",
   blockSummary: "Resumo",
   blockRemedy: "Remediação",
-  openRecallsFor: (y, m, mo) => `Recall aberto: ${y} ${m} ${mo}`,
-  openRecallsForEn: (y, m, mo) => `Open recalls: ${y} ${m} ${mo}`,
+  blockComponent: "Componente",
+  openRecallsFor: (y, m, mo) => `Ano ${y} · Marca ${m} · Modelo ${mo}`,
+  openRecallsForEn: vehicleLineEn,
   metaNoCampaigns: "Nenhuma campanha aberta",
   metaNoCampaignsEn: "No open campaigns",
   metaCampaigns: (n) => (n === 1 ? "1 campanha" : `${n} campanhas`),
@@ -153,8 +168,9 @@ const hi: CarsPageUi = {
   blockConsequence: "परिणाम",
   blockSummary: "सारांश",
   blockRemedy: "उपचार",
-  openRecallsFor: (y, m, mo) => `खुली रिकॉल: ${y} ${m} ${mo}`,
-  openRecallsForEn: (y, m, mo) => `Open recalls: ${y} ${m} ${mo}`,
+  blockComponent: "घटक",
+  openRecallsFor: (y, m, mo) => `वर्ष ${y} · निर्माता ${m} · मॉडल ${mo}`,
+  openRecallsForEn: vehicleLineEn,
   metaNoCampaigns: "कोई खुला अभियान नहीं",
   metaNoCampaignsEn: "No open campaigns",
   metaCampaigns: (n) => (n === 1 ? "1 अभियान" : `${n} अभियान`),
@@ -169,8 +185,9 @@ const ru: CarsPageUi = {
   blockConsequence: "Последствия",
   blockSummary: "Кратко",
   blockRemedy: "Устранение",
-  openRecallsFor: (y, m, mo) => `Открытые отзывы: ${y} ${m} ${mo}`,
-  openRecallsForEn: (y, m, mo) => `Open recalls: ${y} ${m} ${mo}`,
+  blockComponent: "Компонент",
+  openRecallsFor: (y, m, mo) => `Год ${y} · Марка ${m} · Модель ${mo}`,
+  openRecallsForEn: vehicleLineEn,
   metaNoCampaigns: "Нет открытых кампаний",
   metaNoCampaignsEn: "No open campaigns",
   metaCampaigns: (n) => {
@@ -192,8 +209,9 @@ const vi: CarsPageUi = {
   blockConsequence: "Hậu quả",
   blockSummary: "Tóm tắt",
   blockRemedy: "Biện pháp khắc phục",
-  openRecallsFor: (y, m, mo) => `Thu hồi đang mở: ${y} ${m} ${mo}`,
-  openRecallsForEn: (y, m, mo) => `Open recalls: ${y} ${m} ${mo}`,
+  blockComponent: "Bộ phận",
+  openRecallsFor: (y, m, mo) => `Năm ${y} · Hãng ${m} · Dòng xe ${mo}`,
+  openRecallsForEn: vehicleLineEn,
   metaNoCampaigns: "Không có chiến dịch nào",
   metaNoCampaignsEn: "No open campaigns",
   metaCampaigns: (n) => (n === 1 ? "1 chiến dịch" : `${n} chiến dịch`),

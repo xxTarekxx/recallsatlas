@@ -4,6 +4,12 @@
   padding: 28px 16px 64px;
 }
 
+/* Keep English snippets readable inside RTL (Arabic, etc.) */
+.embedLtr {
+  direction: ltr;
+  unicode-bidi: isolate;
+}
+
 .hero {
   border: 1px solid #e2e8f0;
   border-radius: 18px;
@@ -193,7 +199,7 @@
   flex-direction: column;
   align-items: flex-end;
   gap: 2px;
-  text-align: right;
+  text-align: end;
 }
 
 .resultsMeta {
@@ -239,37 +245,89 @@
 }
 
 .cardTop {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
-  align-items: center;
-  gap: 12px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 12px;
   padding: 16px 18px;
   background: linear-gradient(180deg, #f8fafc 0%, #f1f5f9 100%);
   border-bottom: 1px solid #e2e8f0;
 }
 
+/* Report date only — LTR left, RTL right */
+.pillsRowTop {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.page[dir="rtl"] .pillsRowTop {
+  justify-content: flex-end;
+}
+
 .cardTopMain {
   display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 0.35rem 0.65rem;
+  width: max-content;
+  max-width: 100%;
+  align-self: start;
+}
+
+.componentSection {
+  display: flex;
   flex-direction: column;
-  gap: 4px;
-  min-width: 0;
+  gap: 8px;
+  width: 100%;
+  padding-top: 4px;
+  border-top: 1px solid #e2e8f0;
+}
+
+.componentLines {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.componentLine {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.45;
+  color: #334155;
+  text-transform: none;
+  letter-spacing: 0.01em;
 }
 
 .campaignIdLabel {
-  font-size: 10px;
+  font-size: 18px;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.06em;
   color: #64748b;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+.page[dir="rtl"] .campaignIdLabel {
+  text-transform: none;
+  letter-spacing: normal;
 }
 
 .campaignLink {
+  display: inline-block;
   font-weight: 700;
-  font-size: 15px;
+  font-size: 17px;
   color: #0f172a;
   text-decoration: none;
   letter-spacing: 0.02em;
-  word-break: break-all;
+  white-space: nowrap;
+  word-break: normal;
+  flex-shrink: 0;
 }
 
 .campaignLink:hover {
@@ -277,25 +335,14 @@
   text-decoration: underline;
 }
 
-.pills {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  justify-content: flex-end;
-}
-
 @media (max-width: 540px) {
-  .cardTop {
-    grid-template-columns: 1fr;
-  }
-
-  .pills {
-    justify-content: flex-start;
+  .cardTopMain {
+    flex-wrap: wrap;
   }
 
   .resultsMetaWrap {
-    align-items: flex-start;
-    text-align: left;
+    align-items: start;
+    text-align: start;
   }
 }
 
@@ -309,6 +356,10 @@
   background: #fff;
   border: 1px solid #e2e8f0;
   color: #475569;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  text-align: start;
 }
 
 .cardBody {
@@ -323,10 +374,10 @@
 }
 
 .blockLabel {
-  font-size: 11px;
+  font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.05em;
   color: #64748b;
 }
 
@@ -341,7 +392,7 @@
   padding: 12px 14px;
   border-radius: 10px;
   background: #f8fafc;
-  border-left: 3px solid #3b82f6;
+  border-inline-start: 3px solid #3b82f6;
 }
 
 .empty {
