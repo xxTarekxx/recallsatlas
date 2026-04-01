@@ -1,8 +1,43 @@
 "use client";
 
 import Link from "next/link";
-import { FormEvent, useEffect, useState } from "react";
+import { FormEvent, useEffect, useRef, useState } from "react";
 import styles from "./cars.module.css";
+
+const LS_VIN = "recallsatlas_cars_vin";
+const LS_YEAR = "recallsatlas_cars_year";
+const LS_MAKE = "recallsatlas_cars_make";
+const LS_MODEL = "recallsatlas_cars_model";
+const SS_RESULTS = "recallsatlas_cars_last_results";
+const LS_VIN_HISTORY = "recallsatlas_cars_vin_history";
+const MAX_VIN_HISTORY = 30;
+const VIN_DATALIST_ID = "recallsatlas-vin-datalist";
+
+function loadVinHistoryFromStorage(): string[] {
+  try {
+    const raw = localStorage.getItem(LS_VIN_HISTORY);
+    if (!raw) return [];
+    const arr = JSON.parse(raw) as unknown;
+    if (!Array.isArray(arr)) return [];
+    return arr.filter(
+      (x): x is string => typeof x === "string" && x.trim().length >= 8
+    );
+  } catch {
+    return [];
+  }
+}
+
+function saveVinHistoryToStorage(list: string[]) {
+  localStorage.setItem(LS_VIN_HISTORY, JSON.stringify(list.slice(0, MAX_VIN_HISTORY)));
+}
+
+/** Dedupe, newest first; min length 8 so short test values still list. */
+function addVinToHistory(list: string[], rawVin: string): string[] {
+  const v = rawVin.trim().toUpperCase();
+  if (v.length < 8) return list;
+  const without = list.filter((x) => x !== v);
+  return [v, ...without].slice(0, MAX_VIN_HISTORY);
+}
 
 type RecallItem = {
   campaignNumber: string;
@@ -34,6 +69,112 @@ export default function CarsPage() {
   const [results, setResults] = useState<LookupResponse | null>(null);
   const [error, setError] = useState("");
   const [selectedLang, setSelectedLang] = useState("en");
+  const [vinHistory, setVinHistory] = useState<string[]>([]);
+  const vinInputRef = useRef<HTMLInputElement>(null);
+  const hydratedRef = useRef(false);
+
+  useEffect(() => {
+    try {
+      const sv = localStorage.getItem(LS_VIN);
+      const sy = localStorage.getItem(LS_YEAR);
+      const sm = localStorage.getItem(LS_MAKE);
+      const smod = localStorage.getItem(LS_MODEL);
+      if (sv) setVin(sv);
+      if (sy) setYear(sy);
+      if (sm) setMake(sm);
+      if (smod) setModel(smod);
+
+      let hist = loadVinHistoryFromStorage();
+      if (sv) {
+        hist = addVinToHistory(hist, sv);
+        saveVinHistoryToStorage(hist);
+      }
+      setVinHistory(hist);
+
+      const raw = sessionStorage.getItem(SS_RESULTS);
+      if (raw) {
+        const parsed = JSON.parse(raw) as LookupResponse;
+        if (parsed?.vehicle && Array.isArray(parsed.recalls)) {
+          setResults(parsed);
+        }
+      }
+    } catch {
+      /* ignore */
+    } finally {
+      hydratedRef.current = true;
+    }
+  }, []);
+
+  useEffect(() => {
+    const el = vinInputRef.current;
+    if (!el) return;
+    const syncFromDom = () => {
+      const raw = el.value ?? "";
+      if (raw.trim()) setVin(raw);
+    };
+    el.addEventListener("change", syncFromDom);
+    const timeouts = [0, 100, 300, 800].map((ms) => window.setTimeout(syncFromDom, ms));
+    return () => {
+      el.removeEventListener("change", syncFromDom);
+      timeouts.forEach(clearTimeout);
+    };
+  }, []);
+
+  /** Only update the VIN key — avoids wiping VIN when another field blurs before hydration. */
+  function persistVinOnly() {
+    if (!hydratedRef.current) return;
+    try {
+      if (vin.trim()) localStorage.setItem(LS_VIN, vin.trim());
+      else localStorage.removeItem(LS_VIN);
+    } catch {
+      /* ignore */
+    }
+  }
+
+  function persistYearOnly() {
+    if (!hydratedRef.current) return;
+    try {
+      if (year.trim()) localStorage.setItem(LS_YEAR, year.trim());
+      else localStorage.removeItem(LS_YEAR);
+    } catch {
+      /* ignore */
+    }
+  }
+
+  function persistMakeOnly() {
+    if (!hydratedRef.current) return;
+    try {
+      if (make.trim()) localStorage.setItem(LS_MAKE, make.trim());
+      else localStorage.removeItem(LS_MAKE);
+    } catch {
+      /* ignore */
+    }
+  }
+
+  function persistModelOnly() {
+    if (!hydratedRef.current) return;
+    try {
+      if (model.trim()) localStorage.setItem(LS_MODEL, model.trim());
+      else localStorage.removeItem(LS_MODEL);
+    } catch {
+      /* ignore */
+    }
+  }
+
+  function persistAllFormFieldsAfterSearch() {
+    try {
+      if (vin.trim()) localStorage.setItem(LS_VIN, vin.trim());
+      else localStorage.removeItem(LS_VIN);
+      if (year.trim()) localStorage.setItem(LS_YEAR, year.trim());
+      else localStorage.removeItem(LS_YEAR);
+      if (make.trim()) localStorage.setItem(LS_MAKE, make.trim());
+      else localStorage.removeItem(LS_MAKE);
+      if (model.trim()) localStorage.setItem(LS_MODEL, model.trim());
+      else localStorage.removeItem(LS_MODEL);
+    } catch {
+      /* ignore */
+    }
+  }
 
   async function onSearch(e: FormEvent) {
     e.preventDefault();
@@ -58,11 +199,33 @@ export default function CarsPage() {
 
       const data = await res.json();
       if (!res.ok) throw new Error(data?.error || "Request failed");
+      persistAllFormFieldsAfterSearch();
+      if (hasVin) {
+        setVinHistory((h) => {
+          const next = addVinToHistory(h, vin.trim());
+          try {
+            saveVinHistoryToStorage(next);
+          } catch {
+            /* ignore */
+          }
+          return next;
+        });
+      }
+      try {
+        sessionStorage.setItem(SS_RESULTS, JSON.stringify(data));
+      } catch {
+        /* ignore */
+      }
       setResults(data);
       setSelectedLang("en");
     } catch (err: any) {
       setResults(null);
       setError(err?.message || "Search failed");
+      try {
+        sessionStorage.removeItem(SS_RESULTS);
+      } catch {
+        /* ignore */
+      }
     } finally {
       setLoading(false);
     }
@@ -142,6 +305,15 @@ export default function CarsPage() {
     };
   }, [selectedLang, results]);
 
+  useEffect(() => {
+    if (!results) return;
+    try {
+      sessionStorage.setItem(SS_RESULTS, JSON.stringify(results));
+    } catch {
+      /* ignore */
+    }
+  }, [results]);
+
   return (
     <main className={styles.page}>
       <section className={styles.hero}>
@@ -153,23 +325,42 @@ export default function CarsPage() {
         </p>
       </section>
 
-      <form className={styles.formCard} onSubmit={onSearch}>
+      <form
+        className={styles.formCard}
+        onSubmit={onSearch}
+        autoComplete="on"
+        name="vehicle_recall_lookup"
+      >
         <div className={styles.formGrid}>
           <div className={styles.field}>
             <label className={styles.label} htmlFor="vin">
               VIN
             </label>
+            <datalist id={VIN_DATALIST_ID}>
+              {vinHistory.map((v) => (
+                <option key={v} value={v} />
+              ))}
+            </datalist>
             <input
+              ref={vinInputRef}
               id="vin"
-              name="vehicle_vin"
+              name="vin"
               className={styles.input}
               type="text"
               value={vin}
-              onChange={(e) => setVin(e.target.value)}
+              onChange={(e) => setVin(e.target.value.toUpperCase())}
+              onBlur={persistVinOnly}
               placeholder="17-character VIN"
+              list={VIN_DATALIST_ID}
               autoComplete="on"
               inputMode="text"
+              maxLength={17}
+              spellCheck={false}
+              aria-describedby="vin-suggestions-hint"
             />
+            <p id="vin-suggestions-hint" className={styles.fieldHint}>
+              Tap the field or start typing to pick from VINs you searched before on this device.
+            </p>
           </div>
 
           <div className={styles.divider}>or year / make / model</div>
@@ -188,6 +379,7 @@ export default function CarsPage() {
                 onChange={(e) => setYear(e.target.value)}
                 placeholder="e.g. 2019"
                 autoComplete="on"
+                onBlur={persistYearOnly}
               />
             </div>
             <div className={styles.field}>
@@ -203,6 +395,7 @@ export default function CarsPage() {
                 onChange={(e) => setMake(e.target.value)}
                 placeholder="e.g. Honda"
                 autoComplete="on"
+                onBlur={persistMakeOnly}
               />
             </div>
             <div className={styles.field}>
@@ -218,6 +411,7 @@ export default function CarsPage() {
                 onChange={(e) => setModel(e.target.value)}
                 placeholder="e.g. Civic"
                 autoComplete="on"
+                onBlur={persistModelOnly}
               />
             </div>
           </div>
