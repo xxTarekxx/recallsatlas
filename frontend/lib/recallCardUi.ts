@@ -36,6 +36,7 @@ export const RECALL_CARD_UI: Record<SiteUiLang, RecallCardUi> = {
     terminated: "Terminé",
     ongoing: "En cours",
     reported: "Signalé :",
+    unknownBrand: "Marque inconnue",
   },
   de: {
     terminated: "Beendet",
@@ -53,6 +54,7 @@ export const RECALL_CARD_UI: Record<SiteUiLang, RecallCardUi> = {
     terminated: "Encerrado",
     ongoing: "Em andamento",
     reported: "Publicado:",
+    unknownBrand: "Marca desconhecida",
   },
   hi: {
     terminated: "समाप्त",

@@ -1,4 +1,4 @@
-import { defaultVehicleRecallSeo } from "@/lib/cars/vehicleRecallSeo";
+import { defaultVehicleRecallSeo } from "@/lib/cars/vehicleRecallSeoDefaults";
 
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY || "";
 

@@ -261,6 +261,29 @@ function CarsPageInner() {
 
       const data = await res.json();
       if (!res.ok) throw new Error(data?.error || ui.errorSearchFailed);
+
+      const recalls = Array.isArray(data?.recalls) ? data.recalls : [];
+      if (hasVin && recalls.length === 0) {
+        persistAllFormFieldsAfterSearch();
+        setVinHistory((h) => {
+          const next = addVinToHistory(h, vin.trim());
+          try {
+            saveVinHistoryToStorage(next);
+          } catch {
+            /* ignore */
+          }
+          return next;
+        });
+        setError(ui.vinNoRecalls(normalizeVinInput(vin.trim())));
+        setResults(null);
+        try {
+          sessionStorage.removeItem(SS_RESULTS);
+        } catch {
+          /* ignore */
+        }
+        return;
+      }
+
       persistAllFormFieldsAfterSearch();
       if (hasVin) {
         setVinHistory((h) => {

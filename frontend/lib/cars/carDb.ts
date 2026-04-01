@@ -1,5 +1,6 @@
 import { getMongoDb } from "@/lib/mongo";
 import { mergeCarIntoCarsJsonFile } from "@/lib/cars/carsJson";
+import { ensureVehicleRecallSeoOnRecord } from "@/lib/cars/vehicleRecallSeoDefaults";
 
 const COLLECTION = "cars";
 let indexReady: Promise<void> | null = null;
@@ -30,10 +31,19 @@ export async function saveRecallToDB(recall: Record<string, unknown>) {
 
   await ensureCarsIndex();
   const db = await getMongoDb();
+  const existing = await db.collection(COLLECTION).findOne({ campaignNumber });
+  const merged: Record<string, unknown> = {
+    ...(existing ? { ...existing } : {}),
+    ...recall,
+  };
+  delete merged._id;
+  const withSeo = ensureVehicleRecallSeoOnRecord(merged);
+  delete withSeo._id;
+
   const result = await db.collection(COLLECTION).updateOne(
     { campaignNumber },
     {
-      $set: { ...recall, campaignNumber, updatedAt: new Date().toISOString() },
+      $set: { ...withSeo, campaignNumber, updatedAt: new Date().toISOString() },
       $setOnInsert: { createdAt: new Date().toISOString() },
     },
     { upsert: true }

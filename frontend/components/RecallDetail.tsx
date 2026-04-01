@@ -67,7 +67,10 @@ export default function RecallDetail({ recall, dbError = null, currentLang = "en
   const translatedByCode = recall?.languages && typeof recall.languages === "object" ? recall.languages : {};
   const activeLangObj = translatedByCode[selectedLang] || translatedByCode.en || {};
   const activeDir = activeLangObj?.dir || "ltr";
-  const supportedCodes = useMemo(() => new Set(LANGUAGE_OPTIONS.map((l) => l.code)), []);
+  const supportedCodes = useMemo(
+    () => new Set<string>(LANGUAGE_OPTIONS.map((l) => l.code)),
+    []
+  );
   const isLanguageAvailable = (langCode: string) => langCode === "en" || Boolean(translatedByCode[langCode]);
   const visibleLanguageOptions = useMemo(
     () => LANGUAGE_OPTIONS.filter((lang) => isLanguageAvailable(lang.code)),

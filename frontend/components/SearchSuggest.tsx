@@ -30,11 +30,17 @@ export default function SearchSuggest({
   wrapperClassName,
   placeholder = "Search recalls...",
   ariaLabel = "Search recalls",
+  vehicleSearchUrl,
+  vehicleSearchHint,
 }: SearchSuggestProps) {
+  const router = useRouter();
   const [q, setQ] = useState("");
   const [open, setOpen] = useState(false);
   const [loading, setLoading] = useState(false);
   const [suggestions, setSuggestions] = useState<Suggestion[]>([]);
+
+  const showVehicleVinRow =
+    Boolean(vehicleSearchUrl) && isLikelyVin17(q);
 
   useEffect(() => {
     if (!q.trim()) {
@@ -54,17 +60,18 @@ export default function SearchSuggest({
         const data = await res.json();
         const items = Array.isArray(data?.suggestions) ? data.suggestions : [];
         setSuggestions(items);
-        setOpen(items.length > 0);
+        const vinRow = Boolean(vehicleSearchUrl) && isLikelyVin17(q);
+        setOpen(items.length > 0 || vinRow);
       } catch {
         setSuggestions([]);
-        setOpen(false);
+        setOpen(Boolean(vehicleSearchUrl) && isLikelyVin17(q));
       } finally {
         setLoading(false);
       }
     }, 180);
 
     return () => clearTimeout(timer);
-  }, [q]);
+  }, [q, vehicleSearchUrl]);
 
   const hostClass = useMemo(
     () => `${wrapperClassName || ""} search-suggest-host`.trim(),

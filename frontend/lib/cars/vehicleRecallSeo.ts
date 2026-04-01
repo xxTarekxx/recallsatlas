@@ -1,29 +1,14 @@
 import type { Metadata } from "next";
 import { getRecallFromDB } from "@/lib/cars/carDb";
+import {
+  defaultVehicleRecallSeo,
+  getVehicleRecallSiteBaseUrl,
+} from "@/lib/cars/vehicleRecallSeoDefaults";
 
 /** Vehicle recall SEO languages (hreflang + routes). */
 const VEHICLE_LANG_CODES = ["en", "zh", "es", "ar", "hi", "pt", "ru", "fr", "ja", "de", "vi"] as const;
 
-export function getVehicleRecallSiteBaseUrl(): string {
-  const raw = process.env.NEXT_PUBLIC_SITE_URL || "https://www.recallsatlas.com";
-  return raw.replace(/\/+$/, "");
-}
-
-export function vehicleRecallDescription(campaignNumber: string): string {
-  return `Safety recall ${campaignNumber}. Read risks, affected components, and official remedy.`;
-}
-
-/** Default meta + URLs when OpenAI SEO fields are missing (new saves include AI-generated copy). */
-export function defaultVehicleRecallSeo(campaignNumber: string) {
-  const baseUrl = getVehicleRecallSiteBaseUrl();
-  const canonicalPath = `/recalls/vehicle/${campaignNumber}`;
-  return {
-    seoTitle: `Vehicle Recall ${campaignNumber} | Safety Alert`,
-    seoDescription: vehicleRecallDescription(campaignNumber),
-    canonicalPath,
-    canonicalUrl: `${baseUrl}${canonicalPath}`,
-  };
-}
+export { getVehicleRecallSiteBaseUrl } from "@/lib/cars/vehicleRecallSeoDefaults";
 
 /**
  * Canonical + hreflang alternates for vehicle recall pages.

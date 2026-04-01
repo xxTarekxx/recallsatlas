@@ -1,5 +1,6 @@
 import fs from "fs/promises";
 import path from "path";
+import { ensureVehicleRecallSeoOnRecord } from "@/lib/cars/vehicleRecallSeoDefaults";
 
 /**
  * CARS_JSON_PATH: absolute or relative path to either:
@@ -54,7 +55,7 @@ export async function mergeCarIntoCarsJsonFile(doc: Record<string, unknown>): Pr
   const campaignNumber = String(doc.campaignNumber ?? "").trim();
   if (!campaignNumber) return;
 
-  const payload = stripMongoFields(doc);
+  const payload = ensureVehicleRecallSeoOnRecord(stripMongoFields(doc));
 
   const run = async () => {
     await fs.mkdir(path.dirname(filePath), { recursive: true });

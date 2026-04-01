@@ -22,6 +22,11 @@ param(
 $ErrorActionPreference = "Stop"
 Set-Location $PSScriptRoot
 
+Write-Host "Removing local .next..."
+if (Test-Path -LiteralPath ".next") {
+  Remove-Item -LiteralPath ".next" -Recurse -Force
+}
+
 $VPS_HOST = $null
 $VPS_ROOT = $null
 $VPS_SSH_KEY = $null
@@ -65,11 +70,6 @@ function Invoke-RemoteClean {
   $bash = "rm -rf '$RemotePath/.next' '$RemotePath/node_modules' && rm -f '$RemotePath/next.config.mjs' '$RemotePath/package.json' '$RemotePath/package-lock.json'"
   & ssh @SshBase $SshTarget $bash
   if ($LASTEXITCODE -ne 0) { throw "ssh remote clean failed (exit $LASTEXITCODE)" }
-}
-
-Write-Host "Removing local .next..."
-if (Test-Path -LiteralPath ".next") {
-  Remove-Item -LiteralPath ".next" -Recurse -Force
 }
 
 Write-Host "npm run build..."
