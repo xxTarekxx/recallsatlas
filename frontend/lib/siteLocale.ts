@@ -22,7 +22,7 @@ export function isRtlUiLang(lang: SiteUiLang): boolean {
   return RTL_UI_LANGS.has(lang);
 }
 
-/** Flag SVGs under `public/images/flags/` (same set as recall detail UI). */
+/** Flag SVGs under `public/images/flags/` (navbar language picker). Hindi uses `hi.svg`. */
 export const SITE_UI_LANG_FLAG_SRC: Record<SiteUiLang, string> = {
   en: "/images/flags/us.svg",
   es: "/images/flags/es.svg",
@@ -32,13 +32,13 @@ export const SITE_UI_LANG_FLAG_SRC: Record<SiteUiLang, string> = {
   de: "/images/flags/de.svg",
   ja: "/images/flags/jp.svg",
   pt: "/images/flags/br.svg",
-  hi: "/images/flags/in.svg",
+  hi: "/images/flags/hi.svg",
   ru: "/images/flags/ru.svg",
   vi: "/images/flags/vn.svg",
 };
 
-/** English display names for language pickers (alphabetical sort key). */
-export const SITE_UI_LANG_LABELS_EN: Record<SiteUiLang, string> = {
+/** English name — only for stable A–Z sort order in menus. */
+const SITE_UI_LANG_SORT_EN: Record<SiteUiLang, string> = {
   en: "English",
   es: "Spanish",
   ar: "Arabic",
@@ -52,9 +52,24 @@ export const SITE_UI_LANG_LABELS_EN: Record<SiteUiLang, string> = {
   vi: "Vietnamese",
 };
 
-/** Same codes as `SITE_UI_LANGS`, ordered A–Z by English label. */
+/** Endonym (language name in that language) for pickers. */
+export const SITE_UI_LANG_LABELS: Record<SiteUiLang, string> = {
+  en: "English",
+  es: "Español",
+  ar: "العربية",
+  zh: "中文",
+  fr: "Français",
+  de: "Deutsch",
+  ja: "日本語",
+  pt: "Português",
+  hi: "हिन्दी",
+  ru: "Русский",
+  vi: "Tiếng Việt",
+};
+
+/** Same codes as `SITE_UI_LANGS`, ordered A–Z by English sort key. */
 export const SITE_UI_LANGS_ALPHABETICAL: SiteUiLang[] = [...SITE_UI_LANGS].sort((a, b) =>
-  SITE_UI_LANG_LABELS_EN[a].localeCompare(SITE_UI_LANG_LABELS_EN[b], "en", {
+  SITE_UI_LANG_SORT_EN[a].localeCompare(SITE_UI_LANG_SORT_EN[b], "en", {
     sensitivity: "base",
   })
 );

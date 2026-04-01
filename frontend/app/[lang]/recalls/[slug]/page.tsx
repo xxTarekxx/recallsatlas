@@ -7,6 +7,7 @@ interface PageProps {
   params: Promise<{ lang: string; slug: string }>;
 }
 
+/** Must match Mongo `recalls.languages` keys (e.g. FDA `recalls.json` uses `hi` for Hindi). */
 const SUPPORTED_LANGS = new Set([
   "en",
   "es",
@@ -27,6 +28,7 @@ const SUPPORTED_LANGS = new Set([
   "ko",
   "uk",
   "hu",
+  "hi",
   "ar",
 ]);
 

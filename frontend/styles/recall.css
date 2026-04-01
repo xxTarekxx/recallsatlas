@@ -48,7 +48,7 @@
 
 .recall-detail-hero {
   position: relative;
-  padding: var(--spacing-xl) var(--spacing-lg) var(--spacing-lg);
+  padding: calc(var(--spacing-xl) + 4px) var(--spacing-lg) var(--spacing-lg);
   border-bottom: 1px solid var(--color-border, #e2e8f0);
 }
 
@@ -104,7 +104,7 @@
 
 .recall-language-current--hero {
   position: absolute;
-  top: 1rem;
+  top: 0.35rem;
   right: 1rem;
 }
 

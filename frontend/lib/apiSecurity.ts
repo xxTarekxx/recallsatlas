@@ -52,11 +52,11 @@ function pruneWindow(timestamps: number[], now: number, windowMs: number) {
 
 function sweepStale(now: number) {
   const globalCut = now - 120_000;
-  for (const [k, ts] of hits.entries()) {
+  hits.forEach((ts, k) => {
     const kept = ts.filter((t) => t > globalCut);
     if (kept.length === 0) hits.delete(k);
     else hits.set(k, kept);
-  }
+  });
 }
 
 /**

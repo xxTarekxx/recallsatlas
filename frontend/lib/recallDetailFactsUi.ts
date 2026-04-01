@@ -1,6 +1,6 @@
 /**
  * Chrome labels for FDA recall detail facts sidebar (`recall-detail-facts`).
- * Keys match `LANGUAGE_OPTIONS_RAW` in RecallDetail.tsx.
+ * Keys match Mongo `recalls.languages` / FDA JSON language codes (`hi` = Hindi).
  */
 
 export type RecallDetailFactsUi = {
@@ -303,6 +303,21 @@ const hu: RecallDetailFactsUi = {
   reasonForRecall: "A visszahívás oka",
 };
 
+const hi: RecallDetailFactsUi = {
+  recallDetailsTitle: "रिकॉल विवरण",
+  status: "स्थिति",
+  terminated: "समाप्त",
+  ongoing: "जारी",
+  product: "उत्पाद",
+  productType: "उत्पाद प्रकार",
+  brand: "ब्रांड",
+  company: "कंपनी",
+  recallDate: "रिकॉल तिथि",
+  classification: "वर्गीकरण",
+  distribution: "वितरण",
+  reasonForRecall: "रिकॉल का कारण",
+};
+
 const ar: RecallDetailFactsUi = {
   recallDetailsTitle: "تفاصيل الاستدعاء",
   status: "الحالة",
@@ -338,6 +353,7 @@ const BY_CODE: Record<string, RecallDetailFactsUi> = {
   ko,
   uk,
   hu,
+  hi,
   ar,
 };
 

@@ -5,7 +5,7 @@ import { useCallback, useEffect, useId, useRef, useState } from "react";
 import { NAV_COPY } from "@/lib/navCopy";
 import {
   SITE_UI_LANG_FLAG_SRC,
-  SITE_UI_LANG_LABELS_EN,
+  SITE_UI_LANG_LABELS,
   SITE_UI_LANGS_ALPHABETICAL,
   parseLangFromPathname,
   pathForLang,
@@ -74,7 +74,7 @@ export default function NavLanguageSelect({ className = "" }: Props) {
       <button
         type="button"
         className="sitenav-lang-trigger"
-        aria-label={`${t.language}: ${SITE_UI_LANG_LABELS_EN[current]}`}
+        aria-label={`${t.language}: ${SITE_UI_LANG_LABELS[current]}`}
         aria-haspopup="listbox"
         aria-expanded={open}
         aria-controls={`${listId}-menu`}
@@ -83,7 +83,7 @@ export default function NavLanguageSelect({ className = "" }: Props) {
         <span className="sitenav-lang-trigger-inner">
           <LangFlag lang={current} className="sitenav-lang-flag-img" />
           <span className="sitenav-lang-trigger-text">
-            {SITE_UI_LANG_LABELS_EN[current]}
+            {SITE_UI_LANG_LABELS[current]}
           </span>
         </span>
         <span className="sitenav-lang-chevron" aria-hidden="true">
@@ -109,7 +109,7 @@ export default function NavLanguageSelect({ className = "" }: Props) {
                 onClick={() => pick(code)}
               >
                 <LangFlag lang={code} className="sitenav-lang-flag-img" />
-                <span>{SITE_UI_LANG_LABELS_EN[code]}</span>
+                <span>{SITE_UI_LANG_LABELS[code]}</span>
               </button>
             </li>
           ))}
