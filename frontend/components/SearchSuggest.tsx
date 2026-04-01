@@ -18,10 +18,24 @@ type SearchSuggestProps = {
   wrapperClassName?: string;
   placeholder?: string;
   ariaLabel?: string;
+  buttonLabel?: string;
+  loadingLabel?: string;
+  suggestionsAriaLabel?: string;
+  fieldSrLabel?: string;
+  submitAriaLabel?: string;
+  /** e.g. `/ar/recalls` so suggestion links stay on the same locale */
+  recallsDetailBase?: string;
+  inputDir?: "ltr" | "rtl" | "auto";
   /** When set, a valid 17-char VIN submits here instead of FDA search. */
   vehicleSearchUrl?: string;
   vehicleSearchHint?: string;
+  vehicleSearchMeta?: string;
 };
+
+function recallDetailHref(base: string | undefined, slug: string) {
+  const b = (base ?? "/recalls").replace(/\/$/, "");
+  return `${b}/${encodeURIComponent(slug)}`;
+}
 
 export default function SearchSuggest({
   action,
@@ -30,8 +44,16 @@ export default function SearchSuggest({
   wrapperClassName,
   placeholder = "Search recalls...",
   ariaLabel = "Search recalls",
+  buttonLabel = "Search",
+  loadingLabel = "Loading...",
+  suggestionsAriaLabel = "Suggestions",
+  fieldSrLabel = "Search recalls by headline or product type",
+  submitAriaLabel = "Submit search",
+  recallsDetailBase,
+  inputDir = "auto",
   vehicleSearchUrl,
   vehicleSearchHint,
+  vehicleSearchMeta = "VIN · NHTSA",
 }: SearchSuggestProps) {
   const router = useRouter();
   const [q, setQ] = useState("");
@@ -97,7 +119,7 @@ export default function SearchSuggest({
       onSubmit={onSubmit}
     >
       <label htmlFor="search-suggest-input" className="sr-only">
-        Search recalls by headline or product type
+        {fieldSrLabel}
       </label>
       <input
         id="search-suggest-input"
@@ -107,17 +129,22 @@ export default function SearchSuggest({
         placeholder={placeholder}
         autoComplete="off"
         aria-label={ariaLabel}
+        dir={inputDir}
         value={q}
         onChange={(e) => setQ(e.target.value)}
         onFocus={() => suggestions.length > 0 && setOpen(true)}
         onBlur={() => setTimeout(() => setOpen(false), 120)}
       />
-      <button type="submit" className={buttonClassName} aria-label="Submit search">
-        Search
+      <button type="submit" className={buttonClassName} aria-label={submitAriaLabel}>
+        {buttonLabel}
       </button>
 
       {open && (
-        <div className="search-suggest-dropdown" role="listbox" aria-label="Suggestions">
+        <div
+          className="search-suggest-dropdown"
+          role="listbox"
+          aria-label={suggestionsAriaLabel}
+        >
           {showVehicleVinRow && vehicleSearchUrl && (
             <Link
               href={`${vehicleSearchUrl}?vin=${encodeURIComponent(normalizeVinInput(q))}`}
@@ -126,15 +153,15 @@ export default function SearchSuggest({
               <span className="search-suggest-title">
                 {vehicleSearchHint ?? "Vehicle recalls"}
               </span>
-              <span className="search-suggest-meta">VIN · NHTSA</span>
+              <span className="search-suggest-meta">{vehicleSearchMeta}</span>
             </Link>
           )}
-          {loading && <div className="search-suggest-empty">Loading...</div>}
+          {loading && <div className="search-suggest-empty">{loadingLabel}</div>}
           {!loading &&
             suggestions.map((s) => (
               <Link
                 key={s.slug}
-                href={`/recalls/${s.slug}`}
+                href={recallDetailHref(recallsDetailBase, s.slug)}
                 className="search-suggest-item"
               >
                 <span className="search-suggest-title">{s.headline || s.slug}</span>

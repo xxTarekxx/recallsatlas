@@ -3,7 +3,15 @@
 import Link from "next/link";
 import SiteBrandLogoLink from "@/components/SiteBrandLogoLink";
 import { useEffect, useMemo, useState } from "react";
+import { getRecallDetailChromeUi } from "@/lib/recallDetailChromeUi";
+import {
+  filterMainContentSections,
+  getEnglishContentRef,
+  pickOfficialSourceSection,
+  pickWhatWasRecalledSection,
+} from "@/lib/recallDetailContentSections";
 import { getRecallDetailFactsUi } from "@/lib/recallDetailFactsUi";
+import { withLocalePath } from "@/lib/siteLocale";
 import { getShortRecallTitle } from "@/lib/recall-utils";
 import RecallDetailImageSlider from "./RecallDetailImageSlider";
 
@@ -62,6 +70,11 @@ export default function RecallDetail({ recall, dbError = null, currentLang = "en
   const isLanguageAvailable = (langCode: string) => langCode === "en" || Boolean(translatedByCode[langCode]);
 
   const factsUi = useMemo(() => getRecallDetailFactsUi(selectedLang), [selectedLang]);
+  const chromeUi = useMemo(() => getRecallDetailChromeUi(selectedLang), [selectedLang]);
+  const recallsListHref = useMemo(
+    () => withLocalePath("/recalls", selectedLang),
+    [selectedLang]
+  );
 
   useEffect(() => {
     setSelectedLang(currentLang);
@@ -97,20 +110,22 @@ export default function RecallDetail({ recall, dbError = null, currentLang = "en
   const rawContent = Array.isArray(activeLangObj?.content)
     ? activeLangObj.content
     : (Array.isArray(recall?.content) ? recall.content : []);
-  const whatWasRecalledSection = rawContent.find(
-    (s: any) => (s?.subtitle || "").toLowerCase().includes("what was recalled")
+  const enContent = useMemo(
+    () => getEnglishContentRef(translatedByCode, recall),
+    [translatedByCode, recall]
   );
-  const officialSourceSection = rawContent.find(
-    (s: any) => (s?.subtitle || "").toLowerCase().includes("official source")
+  const whatWasRecalledSection = useMemo(
+    () => pickWhatWasRecalledSection(rawContent, enContent),
+    [rawContent, enContent]
   );
-  const content = rawContent.filter((s: any) => {
-    const subtitle = (s?.subtitle || "").toLowerCase();
-    return (
-      !subtitle.includes("official source") &&
-      !subtitle.includes("what was recalled") &&
-      !subtitle.includes("reason for recall")
-    );
-  });
+  const officialSourceSection = useMemo(
+    () => pickOfficialSourceSection(rawContent, enContent),
+    [rawContent, enContent]
+  );
+  const content = useMemo(
+    () => filterMainContentSections(rawContent, enContent),
+    [rawContent, enContent]
+  );
   const disclaimer = activeLangObj?.disclaimer || recall?.disclaimer || "";
   const isTerminated = recall?.terminated === true;
   const wwrFacts =
@@ -135,8 +150,8 @@ export default function RecallDetail({ recall, dbError = null, currentLang = "en
       <header className="site-header">
         <div className="site-header-inner">
           <SiteBrandLogoLink />
-          <Link href="/recalls" className="site-header-back">
-            ← All recalls
+          <Link href={recallsListHref} className="site-header-back">
+            {chromeUi.allRecallsBack}
           </Link>
         </div>
       </header>
@@ -150,7 +165,7 @@ export default function RecallDetail({ recall, dbError = null, currentLang = "en
 
         <article className="recall-detail-article">
           <div className="recall-detail-hero">
-            <p className="recall-detail-badge">FDA Safety Alert</p>
+            <p className="recall-detail-badge">{chromeUi.fdaBadge}</p>
             <h1 className="recall-detail-title">{fullTitle}</h1>
             {disclaimer && (
               <p className="recall-detail-disclaimer">{disclaimer}</p>
@@ -262,7 +277,7 @@ export default function RecallDetail({ recall, dbError = null, currentLang = "en
               aria-labelledby="recall-official-sources-heading"
             >
               <h2 id="recall-official-sources-heading" className="recall-detail-facts-title">
-                Official sources
+                {chromeUi.officialSourcesHeading}
               </h2>
               {officialSourceSection?.text && (
                 <p className="recall-detail-sources-publish">
@@ -286,7 +301,7 @@ export default function RecallDetail({ recall, dbError = null, currentLang = "en
                     rel="noopener noreferrer"
                     title={sourceUrl}
                   >
-                    View FDA recall notice
+                    {chromeUi.viewFdaNotice}
                     <span className="recall-detail-sources-link-icon" aria-hidden="true">
                       ↗
                     </span>

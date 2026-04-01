@@ -800,7 +800,7 @@
 }
 
 .search-suggest-item--vehicle {
-  border-left: 3px solid #38bdf8;
+  border-inline-start: 3px solid #38bdf8;
 }
 
 .search-suggest-title {

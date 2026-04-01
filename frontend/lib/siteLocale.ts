@@ -109,6 +109,15 @@ export function withLangPath(path: string, lang: SiteUiLang): string {
   return `/${lang}${p}`;
 }
 
+/** Any URL language segment (FDA detail codes like `pl`, or navbar `SiteUiLang`). */
+export function withLocalePath(path: string, lang: string): string {
+  const p = path === "" ? "/" : path.startsWith("/") ? path : `/${path}`;
+  const l = String(lang || "en").toLowerCase();
+  if (!l || l === "en") return p;
+  if (p === "/") return `/${l}`;
+  return `/${l}${p}`;
+}
+
 /** Navigate from current pathname to equivalent path in `newLang`. */
 export function pathForLang(pathname: string, newLang: SiteUiLang): string {
   const current = parseLangFromPathname(pathname);

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import SearchSuggest from "@/components/SearchSuggest";
 import { HOME_COPY } from "@/lib/homeCopy";
+import { getRecallsFilterBarUi } from "@/lib/recallsFilterBarUi";
 import { isRtlUiLang, withLangPath, type SiteUiLang } from "@/lib/siteLocale";
 
 type Props = {
@@ -10,6 +11,7 @@ type Props = {
 
 export default function HomePageContent({ lang, recallsCountText }: Props) {
   const t = HOME_COPY[lang];
+  const fb = getRecallsFilterBarUi(lang);
   const recallsAction = withLangPath("/recalls", lang);
   const carsHref = withLangPath("/cars", lang);
   const heroDir = isRtlUiLang(lang) ? "rtl" : "ltr";
@@ -54,13 +56,21 @@ export default function HomePageContent({ lang, recallsCountText }: Props) {
 
           <SearchSuggest
             action={recallsAction}
+            recallsDetailBase={recallsAction}
             vehicleSearchUrl={carsHref}
             vehicleSearchHint={t.heroQuickVehicle}
+            vehicleSearchMeta={fb.vinMeta}
             wrapperClassName="home-hero-search"
             inputClassName="home-hero-search-input"
             buttonClassName="home-hero-search-btn"
-            placeholder={t.searchPlaceholder}
-            ariaLabel="Search recalls"
+            placeholder={fb.searchPlaceholder}
+            ariaLabel={fb.searchAriaLabel}
+            buttonLabel={fb.searchButton}
+            loadingLabel={fb.loadingSuggestions}
+            suggestionsAriaLabel={fb.suggestionsAriaLabel}
+            fieldSrLabel={fb.searchFieldSrLabel}
+            submitAriaLabel={fb.searchSubmitAriaLabel}
+            inputDir="auto"
           />
 
           <div className="home-stats" aria-label="Site statistics">

@@ -37,7 +37,9 @@ export default async function VehicleRecallPage({ campaignNumber, lang = "en" }:
 
   const summary = clean(active.summary) || clean(base.summary);
   const remedy = clean(active.remedy) || clean(base.remedy);
-  const component = clean(recall?.component);
+  const consequence = clean(active.consequence) || clean(base.consequence);
+  const component =
+    clean(active.component) || clean(base.component) || clean(recall?.component);
   const reportDate = clean(recall?.reportDate);
 
   const carsHref = withLangPath("/cars", l);
@@ -91,6 +93,17 @@ export default async function VehicleRecallPage({ campaignNumber, lang = "en" }:
             className={`${styles.blockBody}${!remedy ? ` ${styles.blockBodyMuted}` : ""}`}
           >
             {remedy || "—"}
+          </p>
+        </section>
+
+        <section className={styles.block} aria-labelledby="vrs-consequence">
+          <span id="vrs-consequence" className={styles.blockLabel}>
+            {ui.blockConsequence}
+          </span>
+          <p
+            className={`${styles.blockBody}${!consequence ? ` ${styles.blockBodyMuted}` : ""}`}
+          >
+            {consequence || "—"}
           </p>
         </section>
 
