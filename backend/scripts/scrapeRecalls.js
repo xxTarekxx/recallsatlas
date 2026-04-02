@@ -1942,6 +1942,7 @@ function fdaFirstNRowsAllAlreadyStored(fdaRows, processedUrls, n) {
                 "@type": "Article",
 
                 id: slug,
+                slug,
                 sortOrder: assignedSortOrder,
                 canonicalUrl,
                 mainEntityOfPage: canonicalUrl,

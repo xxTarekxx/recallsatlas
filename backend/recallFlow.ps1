@@ -81,7 +81,7 @@ function Send-ResendEmail {
 
   $toList = @(
     $toRaw.Split(",") |
-      ForEach-Object { $_.Trim() } |
+      ForEach-Object { $_.Trim().Trim('"').Trim("'") } |
       Where-Object { $_ }
   )
   if ($toList.Count -eq 0) {
@@ -96,23 +96,27 @@ function Send-ResendEmail {
     $Body = $tail + $Body.Substring($Body.Length - $max)
   }
 
-  $payload = @{
-    from    = $from
-    to      = $toList
-    subject = $Subject
-    text    = $Body
-  } | ConvertTo-Json -Depth 6 -Compress
-
+  # Resend expects each `to` as a JSON string. Hashtable + ConvertTo-Json in PS 5.1
+  # can emit `to` in a shape the API rejects (422). PSCustomObject per recipient is reliable.
   try {
-    Invoke-RestMethod `
-      -Uri "https://api.resend.com/emails" `
-      -Method Post `
-      -Headers @{
-        Authorization = "Bearer $($env:RESEND_API_KEY)"
-        "Content-Type"  = "application/json"
-      } `
-      -Body $payload `
-      -ErrorAction Stop | Out-Null
+    foreach ($toAddr in $toList) {
+      $payload = [PSCustomObject]@{
+        from    = $from
+        to      = [string]$toAddr
+        subject = $Subject
+        text    = $Body
+      } | ConvertTo-Json -Depth 6 -Compress
+
+      Invoke-RestMethod `
+        -Uri "https://api.resend.com/emails" `
+        -Method Post `
+        -Headers @{
+          Authorization = "Bearer $($env:RESEND_API_KEY)"
+          "Content-Type"  = "application/json"
+        } `
+        -Body $payload `
+        -ErrorAction Stop | Out-Null
+    }
     return $true
   }
   catch {
@@ -205,13 +209,13 @@ Label:   $Label
 Exit:    $exit
 Elapsed: $elapsedFmt
 Host:    $env:COMPUTERNAME
-Time:    $(Get-Date -Format "yyyy-MM-dd HH:mm:ss zzz")
+Time:    $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss zzz')
 
------ script output (stdout/stderr) -----
+--- script output (stdout/stderr) ---
 
 $outputText
 "@
-    Send-ResendEmail -Subject "[RecallsAtlas] FAILED step $StepNum/$TotalSteps — $Label (exit $exit)" -Body $failBody | Out-Null
+    Send-ResendEmail -Subject "[RecallsAtlas] FAILED step $StepNum/$TotalSteps - $Label (exit $exit)" -Body $failBody | Out-Null
     exit $exit
   }
 
@@ -225,13 +229,13 @@ Script:  scripts\$Script
 Label:   $Label
 Elapsed: $elapsedFmt
 Host:    $env:COMPUTERNAME
-Time:    $(Get-Date -Format "yyyy-MM-dd HH:mm:ss zzz")
+Time:    $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss zzz')
 
------ script output -----
+--- script output ---
 
 $outputText
 "@
-    Send-ResendEmail -Subject "[RecallsAtlas] Step $StepNum/$TotalSteps OK — $Label" -Body $okBody | Out-Null
+    Send-ResendEmail -Subject "[RecallsAtlas] Step $StepNum/$TotalSteps OK - $Label" -Body $okBody | Out-Null
   }
 
   return $result
@@ -264,10 +268,10 @@ Write-Info "Node"     (& node --version)
 Write-Info "Started"  (Get-Date -Format "yyyy-MM-dd HH:mm:ss")
 if (Get-ResendEnabled) {
   if ([string]::IsNullOrWhiteSpace($env:ALERT_EMAIL)) {
-    Write-Info "Resend" "API key set — set ALERT_EMAIL to enable emails"
+    Write-Info "Resend" "API key set - set ALERT_EMAIL to enable emails"
   }
   else {
-    Write-Info "Resend" "enabled → $($env:ALERT_EMAIL)"
+    Write-Info "Resend" "enabled -> $($env:ALERT_EMAIL)"
   }
 }
 else {
@@ -304,16 +308,17 @@ if (Get-ResendEnabled -and -not [string]::IsNullOrWhiteSpace($env:ALERT_EMAIL)) 
   $summaryParts += "Result: $totalSteps / $totalSteps steps OK"
   $summaryParts += "Total time: $totalElapsed"
   $summaryParts += "Host: $env:COMPUTERNAME"
-  $summaryParts += "Finished: $(Get-Date -Format "yyyy-MM-dd HH:mm:ss zzz")"
+  $summaryParts += "Finished: $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss zzz')"
   $summaryParts += ""
   foreach ($r in $completed) {
-    $summaryParts += "══════════════════════════════════════════════════════════"
-    $summaryParts += "Step $($r.StepNum)/$totalSteps — $($r.Label)"
+    $summaryParts += "=========================================================="
+    $summaryParts += "Step $($r.StepNum)/$totalSteps - $($r.Label)"
     $summaryParts += "Script: scripts\$($r.Script)  |  Elapsed: $($r.ElapsedFmt)"
-    $summaryParts += "══════════════════════════════════════════════════════════"
+    $summaryParts += "=========================================================="
     $summaryParts += $r.OutputText
     $summaryParts += ""
   }
-  $summaryBody = $summaryParts -join "`n"
-  Send-ResendEmail -Subject "[RecallsAtlas] Pipeline complete — $totalSteps/$totalSteps OK ($totalElapsed)" -Body $summaryBody | Out-Null
+  $summaryBody = $summaryParts -join [Environment]::NewLine
+  $summarySubj = '[RecallsAtlas] Pipeline complete - {0}/{1} OK ({2})' -f $totalSteps, $totalSteps, $totalElapsed
+  Send-ResendEmail -Subject $summarySubj -Body $summaryBody | Out-Null
 }

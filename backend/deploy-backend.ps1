@@ -10,6 +10,10 @@
     optional: $VPS_SSH_KEY = "C:\path\to\private_key"  (omit if default ssh key works — passwordless)
 
   Does not upload local .env or deploy.env.ps1 (server .env is preserved by the clean step).
+
+  Skips these subfolders (VPS keeps its own copies / local-only tooling):
+    - scripts/cars  (downloads, category scripts run locally)
+    - database/cars (e.g. cars.json updated on VPS from VIN lookups — do not overwrite on deploy)
 #>
 [CmdletBinding()]
 param(
@@ -75,11 +79,19 @@ function Invoke-RemoteBackendClean {
 }
 
 $skipUpload = @{
-  'node_modules'    = $true
-  '.git'            = $true
-  '.env'            = $true
-  'deploy.env.ps1'  = $true
+  'node_modules'       = $true
+  '.git'               = $true
+  '.env'               = $true
+  'deploy.env.ps1'     = $true
   'deploy-backend.ps1' = $true
+}
+
+# Subfolder names to omit when uploading scripts/ or database/ (scp -r would include them otherwise).
+$skipScriptsChildren = @{
+  'cars' = $true
+}
+$skipDatabaseChildren = @{
+  'cars' = $true
 }
 
 Write-Host "Remote clean: $rb on $SshTarget (keeping node_modules, package.json, package-lock.json, .env)"
@@ -95,6 +107,38 @@ if (-not $items -or $items.Count -eq 0) {
 
 foreach ($it in $items) {
   $name = $it.Name
+  if ($name -eq 'scripts' -and (Test-Path -LiteralPath $it.FullName -PathType Container)) {
+    Write-Host "Uploading scripts/ (skipping: $($skipScriptsChildren.Keys -join ', '))..."
+    $remoteScripts = "$rb/scripts"
+    & ssh @SshBase $SshTarget "mkdir -p '$remoteScripts'"
+    if ($LASTEXITCODE -ne 0) { throw "ssh mkdir scripts failed (exit $LASTEXITCODE)" }
+    $scriptKids = Get-ChildItem -LiteralPath $it.FullName -Force | Where-Object {
+      -not $skipScriptsChildren.ContainsKey($_.Name)
+    }
+    foreach ($ch in $scriptKids) {
+      Write-Host "  -> $($ch.Name)"
+      & scp @SshBase -r $ch.FullName "${SshTarget}:${remoteScripts}/"
+      if ($LASTEXITCODE -ne 0) { throw "scp scripts/$($ch.Name) failed (exit $LASTEXITCODE)" }
+    }
+    continue
+  }
+
+  if ($name -eq 'database' -and (Test-Path -LiteralPath $it.FullName -PathType Container)) {
+    Write-Host "Uploading database/ (skipping: $($skipDatabaseChildren.Keys -join ', '))..."
+    $remoteDb = "$rb/database"
+    & ssh @SshBase $SshTarget "mkdir -p '$remoteDb'"
+    if ($LASTEXITCODE -ne 0) { throw "ssh mkdir database failed (exit $LASTEXITCODE)" }
+    $dbKids = Get-ChildItem -LiteralPath $it.FullName -Force | Where-Object {
+      -not $skipDatabaseChildren.ContainsKey($_.Name)
+    }
+    foreach ($ch in $dbKids) {
+      Write-Host "  -> $($ch.Name)"
+      & scp @SshBase -r $ch.FullName "${SshTarget}:${remoteDb}/"
+      if ($LASTEXITCODE -ne 0) { throw "scp database/$($ch.Name) failed (exit $LASTEXITCODE)" }
+    }
+    continue
+  }
+
   Write-Host "Uploading $name..."
   $src = $it.FullName
   & scp @SshBase -r $src "${SshTarget}:${rb}/"

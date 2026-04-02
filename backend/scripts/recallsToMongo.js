@@ -2,7 +2,9 @@
  * Sync recalls from backend/scripts/recalls.json to MongoDB (recallsatlas.recalls).
  *
  * Behaviour:
- * - Keyed by slug (article.id or article.slug). No duplicates.
+ * - Keyed by slug (article.id or article.slug, trimmed). No duplicates.
+ * - If canonicalUrl is missing/blank, sets https://SITE_BASE_URL/recalls/{slug} (env SITE_BASE_URL).
+ * - "slug" is synced like other SYNC_KEYS so JSON ↔ Mongo stay aligned.
  * - Hash check: skips unchanged recalls (fast re-runs).
  * - Uses $set only — never replaces the whole document.
  *   Other scripts can still add fields not listed in SYNC_KEYS; those are preserved
@@ -25,6 +27,16 @@ const { getDb, close, DB_NAME, COLLECTION_RECALLS } = require("../database/mongo
 
 const JSON_PATH = path.join(__dirname, "recalls.json");
 
+/** Match scrapeRecalls.js / site — used only when JSON omits canonicalUrl. */
+const SITE_BASE_URL = (process.env.SITE_BASE_URL || "https://recallsatlas.com").replace(
+  /\/$/,
+  ""
+);
+
+function defaultCanonicalUrl(slug) {
+  return `${SITE_BASE_URL}/recalls/${slug}`;
+}
+
 /**
  * All fields we sync from recalls.json → MongoDB.
  * Order is stable so the hash is deterministic.
@@ -34,6 +46,7 @@ const JSON_PATH = path.join(__dirname, "recalls.json");
  */
 const SYNC_KEYS = [
   // Core identity
+  "slug",
   "title", "headline", "description", "keywords", "canonicalUrl", "sortOrder",
   // Product / company
   "productDescription", "brandName", "brandNames", "companyName",
@@ -87,8 +100,11 @@ function dateToReportDate(dateStr) {
  * Field names match the JSON exactly — no renaming.
  */
 function articleToMongoDoc(article) {
-  const slug = article.id || article.slug;
+  const slug = String(article.id ?? article.slug ?? "").trim();
   if (!slug) return null;
+
+  const canonIn = article.canonicalUrl != null ? String(article.canonicalUrl).trim() : "";
+  const canonicalUrl = canonIn || defaultCanonicalUrl(slug);
 
   const singleImage =
     article.image && typeof article.image === "object"
@@ -106,7 +122,7 @@ function articleToMongoDoc(article) {
     headline: article.headline || article.title || "",
     description: article.description || "",
     keywords: article.keywords || [],
-    canonicalUrl: article.canonicalUrl || "",
+    canonicalUrl,
     sortOrder: article.sortOrder ?? null,
 
     // Product / company — stored with real field names

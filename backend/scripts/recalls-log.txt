@@ -5720,3 +5720,27 @@ Call log:
 [2026-03-23T07:10:42.817Z] No more DataTable pages.
 [2026-03-23T07:10:42.828Z] Progress saved. recalls=300 imageMap=968
 [2026-03-23T07:10:42.940Z] DONE
+[2026-04-02T05:17:24.854Z] Loaded existing recalls: 307, unique sourceUrls: 307
+[2026-04-02T05:17:24.855Z] IMAGE_BASE_DIR: C:\var\www\html\recallsatlas\public\images\recalls
+[2026-04-02T05:17:24.855Z] Newest existing date: 2026-04-01T04:00:00.000Z (vs FDA table + sourceUrl)
+[2026-04-02T05:17:25.001Z] Opening FDA recalls listing...
+[2026-04-02T05:17:33.375Z] Delay 5188ms → after initial listing load
+[2026-04-02T05:17:39.739Z] Set DataTable page size to 100 and Terminated Recall filter to No
+[2026-04-02T05:17:39.739Z] Reading DataTable page 1 (enumerate new rows)…
+[2026-04-02T05:17:44.764Z] Rows found on page 1: 100
+[2026-04-02T05:17:44.765Z] FDA first 5 row(s) (or full page if shorter) are already in recalls.json — nothing new, skipping table scan.
+[2026-04-02T05:17:44.765Z] No new recalls to ingest (list date + sourceUrl checks).
+[2026-04-02T05:17:44.920Z] Progress saved. recalls=307 imageMap=968
+[2026-04-02T05:17:44.953Z] DONE
+[2026-04-02T05:20:40.130Z] Loaded existing recalls: 307, unique sourceUrls: 307
+[2026-04-02T05:20:40.131Z] IMAGE_BASE_DIR: C:\var\www\html\recallsatlas\public\images\recalls
+[2026-04-02T05:20:40.131Z] Newest existing date: 2026-04-01T04:00:00.000Z (vs FDA table + sourceUrl)
+[2026-04-02T05:20:40.216Z] Opening FDA recalls listing...
+[2026-04-02T05:20:45.788Z] Delay 7465ms → after initial listing load
+[2026-04-02T05:20:54.483Z] Set DataTable page size to 100 and Terminated Recall filter to No
+[2026-04-02T05:20:54.484Z] Reading DataTable page 1 (enumerate new rows)…
+[2026-04-02T05:20:59.522Z] Rows found on page 1: 100
+[2026-04-02T05:20:59.522Z] FDA first 5 row(s) (or full page if shorter) are already in recalls.json — nothing new, skipping table scan.
+[2026-04-02T05:20:59.523Z] No new recalls to ingest (list date + sourceUrl checks).
+[2026-04-02T05:20:59.764Z] Progress saved. recalls=307 imageMap=968
+[2026-04-02T05:20:59.806Z] DONE

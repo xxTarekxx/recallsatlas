@@ -2,6 +2,9 @@ import type { MetadataRoute } from "next";
 import { getDb } from "@/lib/mongodb";
 import { getVehicleRecallSiteBaseUrl } from "@/lib/cars/vehicleRecallSeo";
 
+/** Always read current Mongo slugs (avoid stale build/CDN cache after sync). */
+export const dynamic = "force-dynamic";
+
 /** Must match vehicle + FDA localized routes; English has no /en/ prefix. */
 const SITEMAP_LANGS = ["en", "zh", "es", "ar", "hi", "pt", "ru", "fr", "ja", "de", "vi"] as const;
 
