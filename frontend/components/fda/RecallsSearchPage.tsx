@@ -1,5 +1,5 @@
 import { Suspense } from "react";
-import RecallsFilterAndGridClient from "@/components/RecallsFilterAndGridClient";
+import RecallsFilterAndGridClient from "@/components/fda/RecallsFilterAndGridClient";
 import SiteBrandLogoLink from "@/components/SiteBrandLogoLink";
 import { NAV_COPY } from "@/lib/navCopy";
 import { getRecallsFilterBarUi } from "@/lib/recallsFilterBarUi";

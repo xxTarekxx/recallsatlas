@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import { getDb } from "@/lib/mongodb";
 import { getShortProductName, getShortRecallTitle } from "@/lib/recall-utils";
-import RecallDetail from "@/components/RecallDetail";
+import RecallDetail from "@/components/fda/RecallDetail";
 
 interface PageProps {
   params: Promise<{ slug: string }>;

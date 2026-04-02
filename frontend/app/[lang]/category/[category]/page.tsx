@@ -1,4 +1,4 @@
-import CategoryRecallsPage from "@/components/CategoryRecallsPage";
+import CategoryRecallsPage from "@/components/fda/CategoryRecallsPage";
 import { isSiteUiLang, type SiteUiLang } from "@/lib/siteLocale";
 import { notFound } from "next/navigation";
 

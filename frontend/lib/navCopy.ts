@@ -10,7 +10,7 @@ export type NavStrings = {
 export const NAV_COPY: Record<SiteUiLang, NavStrings> = {
   en: {
     fda: "FDA Recalls",
-    cars: "Cars",
+    cars: "Vehicle Recalls",
     about: "About",
     language: "Language",
   },

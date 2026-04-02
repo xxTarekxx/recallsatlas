@@ -1,4 +1,4 @@
-import BrandIndexPage from "@/components/BrandIndexPage";
+import BrandIndexPage from "@/components/fda/BrandIndexPage";
 import { isSiteUiLang, type SiteUiLang } from "@/lib/siteLocale";
 import { notFound } from "next/navigation";
 

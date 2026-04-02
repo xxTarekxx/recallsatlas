@@ -1,4 +1,4 @@
-import YearIndexPage from "@/components/YearIndexPage";
+import YearIndexPage from "@/components/fda/YearIndexPage";
 import { isSiteUiLang, type SiteUiLang } from "@/lib/siteLocale";
 import { notFound } from "next/navigation";
 

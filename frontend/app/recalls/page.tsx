@@ -1,4 +1,4 @@
-import RecallsSearchPage from "@/components/RecallsSearchPage";
+import RecallsSearchPage from "@/components/fda/RecallsSearchPage";
 
 export default function RecallsListPage({
   searchParams,

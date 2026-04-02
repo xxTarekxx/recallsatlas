@@ -2,8 +2,8 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import RecallsListClient from "@/components/RecallsListClient";
-import SearchSuggest from "@/components/SearchSuggest";
+import SearchSuggest from "@/components/recallcommon/SearchSuggest";
+import RecallsListClient from "@/components/fda/RecallsListClient";
 import { NAV_COPY } from "@/lib/navCopy";
 import {
   FILTER_BAR_CATEGORY_SLUGS,

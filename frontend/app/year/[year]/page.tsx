@@ -1,4 +1,4 @@
-import YearRecallsPage from "@/components/YearRecallsPage";
+import YearRecallsPage from "@/components/fda/YearRecallsPage";
 
 interface PageProps {
   params: { year: string };

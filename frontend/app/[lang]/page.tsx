@@ -1,4 +1,4 @@
-import HomePageContent from "@/components/HomePageContent";
+import HomePageContent from "@/components/recallcommon/HomePageContent";
 import { getDb } from "@/lib/mongodb";
 import type { Metadata } from "next";
 import { isSiteUiLang, type SiteUiLang } from "@/lib/siteLocale";

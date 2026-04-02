@@ -1,4 +1,4 @@
-import BrandRecallsPage from "@/components/BrandRecallsPage";
+import BrandRecallsPage from "@/components/fda/BrandRecallsPage";
 import { isSiteUiLang, type SiteUiLang } from "@/lib/siteLocale";
 import { notFound } from "next/navigation";
 

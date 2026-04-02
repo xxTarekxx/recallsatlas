@@ -1,4 +1,4 @@
-import RecallsSearchPage from "@/components/RecallsSearchPage";
+import RecallsSearchPage from "@/components/fda/RecallsSearchPage";
 import { isSiteUiLang, type SiteUiLang } from "@/lib/siteLocale";
 import { notFound } from "next/navigation";
 

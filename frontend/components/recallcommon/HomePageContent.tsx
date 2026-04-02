@@ -1,5 +1,5 @@
 import Link from "next/link";
-import SearchSuggest from "@/components/SearchSuggest";
+import SearchSuggest from "./SearchSuggest";
 import { HOME_COPY } from "@/lib/homeCopy";
 import { getRecallsFilterBarUi } from "@/lib/recallsFilterBarUi";
 import { isRtlUiLang, withLangPath, type SiteUiLang } from "@/lib/siteLocale";

@@ -1,4 +1,4 @@
-import BrandIndexPage from "@/components/BrandIndexPage";
+import BrandIndexPage from "@/components/fda/BrandIndexPage";
 
 export default function BrandIndexRoute() {
   return <BrandIndexPage uiLang="en" />;

@@ -1,4 +1,4 @@
-import YearRecallsPage from "@/components/YearRecallsPage";
+import YearRecallsPage from "@/components/fda/YearRecallsPage";
 import { isSiteUiLang, type SiteUiLang } from "@/lib/siteLocale";
 import { notFound } from "next/navigation";
 

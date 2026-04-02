@@ -1,4 +1,4 @@
-import BrandRecallsPage from "@/components/BrandRecallsPage";
+import BrandRecallsPage from "@/components/fda/BrandRecallsPage";
 
 interface PageProps {
   params: { brand: string };

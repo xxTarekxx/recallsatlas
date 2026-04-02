@@ -1,4 +1,4 @@
-import CategoryRecallsPage from "@/components/CategoryRecallsPage";
+import CategoryRecallsPage from "@/components/fda/CategoryRecallsPage";
 
 interface PageProps {
   params: { category: string };

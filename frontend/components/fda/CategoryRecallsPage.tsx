@@ -1,4 +1,4 @@
-import RecallCard from "@/components/RecallCard";
+import RecallCard from "@/components/fda/RecallCard";
 import SiteBrandLogoLink from "@/components/SiteBrandLogoLink";
 import { getDb } from "@/lib/mongodb";
 import {
