@@ -12,8 +12,9 @@
   Does not upload local .env or deploy.env.ps1 (server .env is preserved by the clean step).
 
   Skips these subfolders (VPS keeps its own copies / local-only tooling):
-    - scripts/cars  (downloads, category scripts run locally)
-    - database/cars (e.g. cars.json updated on VPS from VIN lookups — do not overwrite on deploy)
+    - scripts/cars          (downloads, category scripts run locally)
+    - scripts/generalRecalls (large CSV downloads — run locally; do not deploy)
+    - database/cars         (e.g. cars.json updated on VPS from VIN lookups — do not overwrite on deploy)
 #>
 [CmdletBinding()]
 param(
@@ -88,7 +89,8 @@ $skipUpload = @{
 
 # Subfolder names to omit when uploading scripts/ or database/ (scp -r would include them otherwise).
 $skipScriptsChildren = @{
-  'cars' = $true
+  'cars'           = $true
+  'generalRecalls' = $true
 }
 $skipDatabaseChildren = @{
   'cars' = $true

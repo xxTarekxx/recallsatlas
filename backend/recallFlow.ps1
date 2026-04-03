@@ -89,11 +89,11 @@ function Send-ResendEmail {
     return $false
   }
 
-  # Resend body size — keep reasonable for mail clients
-  $max = 95000
-  if ($Body.Length -gt $max) {
-    $tail = "`n`n[... truncated, showing last $max characters ...]`n`n"
-    $Body = $tail + $Body.Substring($Body.Length - $max)
+  # Per-script output is already limited to last N lines; optional hard cap for API limits
+  $maxChars = 500000
+  if ($Body.Length -gt $maxChars) {
+    $tail = "`n`n[... truncated, showing last $maxChars characters ...]`n`n"
+    $Body = $tail + $Body.Substring($Body.Length - $maxChars)
   }
 
   # Resend expects each `to` as a JSON string. Hashtable + ConvertTo-Json in PS 5.1
@@ -166,6 +166,19 @@ function Format-Elapsed($seconds) {
   if ($s -gt 0) { return "${m}m ${s}s" } else { return "${m}m" }
 }
 
+function Get-TextLastLines {
+  param(
+    [string]$Text,
+    [int]$MaxLines = 100
+  )
+  if ([string]::IsNullOrEmpty($Text)) { return $Text }
+  $lines = [regex]::Split($Text, '\r\n|\r|\n')
+  if ($lines.Count -le $MaxLines) { return $Text }
+  $nl = [Environment]::NewLine
+  $suffix = ($lines | Select-Object -Last $MaxLines) -join $nl
+  return "[... truncated, showing last $MaxLines lines of script output ...]$nl$nl$suffix"
+}
+
 function Run-Step {
   param(
     [string]$Label,
@@ -186,6 +199,7 @@ function Run-Step {
   $elapsedSec = [math]::Round(((Get-Date) - $start).TotalSeconds)
   $elapsedFmt = Format-Elapsed $elapsedSec
   $outputText = ($rawOutput | Out-String).Trim()
+  $outputText = Get-TextLastLines -Text $outputText -MaxLines 100
 
   $result = @{
     Label        = $Label

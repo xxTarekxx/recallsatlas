@@ -66,6 +66,22 @@ format_elapsed() {
   if ((r == 0)); then echo "${m} min"; else echo "${m} min ${r} sec"; fi
 }
 
+# Email bodies: only the last N lines of captured script stdout/stderr (same idea as recallFlow.ps1).
+last_n_script_output_lines() {
+  local f="$1" n="${2:-100}"
+  [[ -f "$f" ]] || { echo "(no output)"; return; }
+  local linecount
+  linecount="$(wc -l <"$f" 2>/dev/null | tr -d ' ')"
+  linecount="${linecount:-0}"
+  if [[ "$linecount" -le "$n" ]]; then
+    cat "$f"
+    return
+  fi
+  echo "[... truncated, showing last ${n} lines of script output ...]"
+  echo ""
+  tail -n "$n" "$f"
+}
+
 send_resend() {
   local subject="$1" body_file="$2"
   "$NODE_BIN" "$ROOT/scripts/pipelineSendResend.js" --subject "$subject" --body-file "$body_file" || true
@@ -124,7 +140,7 @@ Time:    $timestr
 
 ----- script output (stdout/stderr) -----
 
-$(cat "$tmp")
+$(last_n_script_output_lines "$tmp" 100)
 FAILBODY
     send_resend "[RecallsAtlas] FAILED step $step_num/$TOTAL_STEPS — $label (exit $ec)" "$fail_body"
     rm -f "$fail_body" "$tmp"
@@ -145,7 +161,7 @@ Time:    $timestr
 
 ----- script output -----
 
-$(cat "$tmp")
+$(last_n_script_output_lines "$tmp" 100)
 OKBODY
   send_resend "[RecallsAtlas] Step $step_num/$TOTAL_STEPS OK — $label" "$ok_body"
   rm -f "$ok_body"
@@ -155,7 +171,7 @@ OKBODY
     echo "Step $step_num/$TOTAL_STEPS — $label"
     echo "Script: $cmd_display  |  Duration: $elapsed_fmt  |  Finished: $(fmt_now_plain)"
     echo "────────────────────────────────────────────────────────────"
-    cat "$tmp"
+    last_n_script_output_lines "$tmp" 100
     echo ""
   } >>"$ACCUM"
 

@@ -49,10 +49,11 @@ async function main() {
   }
 
   let body = fs.readFileSync(bodyFile, "utf8");
-  const max = 95000;
-  if (body.length > max) {
-    const tail = "\n\n[... truncated, showing last " + max + " characters ...]\n\n";
-    body = tail + body.slice(body.length - max);
+  // Callers limit each script's output to last N lines; hard cap only for API / huge edge cases
+  const maxChars = 500000;
+  if (body.length > maxChars) {
+    const tail = "\n\n[... truncated, showing last " + maxChars + " characters ...]\n\n";
+    body = tail + body.slice(body.length - maxChars);
   }
 
   const from =
