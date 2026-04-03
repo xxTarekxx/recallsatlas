@@ -1,20 +1,21 @@
 /**
- * Reads generalRecallsJson/*.json, rewrites recall copy + SEO via OpenAI,
+ * Reads generalRecallsJson/*.json, rewrites recall copy via OpenAI,
  * downloads Images to frontend/public/images/generalRecalls as WebP (quality 85),
- * replaces each Images[].URL with the site-relative path served from frontend/public
- *   (e.g. /images/generalRecalls/<categorySlug>/<hash>.webp — one subfolder per source JSON / meta.slug),
- * keeps original CPSC URL in Images[].SourceImageURL,
- * seo.ogImage / twitterImage stay absolute (https://www.recallsatlas.com/...) for crawlers,
- * writes parallel files to generalRecallsTranslated/ (same filenames).
+ * replaces each Images[].URL with the site-relative path:
+ *   /images/generalRecalls/<categorySlug>/<1-basedIndex>-<slugified-Products[0].Name>/<hash>.webp
+ * keeps original CPSC URL in Images[].SourceImageURL.
+ * Output recall fields: `slug` (stable URL key), optional `metaDescription` (≤160). No full `seo` object.
+ * Next.js derives OG/Twitter from JSON at runtime (see frontend/lib/general-recalls-seo.ts).
  *
- * Env: OPENAI_API_KEY (required). Optional: OPENAI_MODEL (default gpt-4o-mini)
+ * Env: OPENAI_API_KEY (required for translate / retailers-only). Optional: OPENAI_MODEL (default gpt-4o-mini)
  *
  * Run from backend/:  npm run translate-general-recalls
- * Resume: skips recalls already in generalRecallsTranslated/<same>.json with seo.canonicalUrl (no redo OpenAI/images).
+ * Resume: skips recalls that already have `slug` and finished image processing (local /images/... or ImageFetchFailed).
  * Saves after each recall so crash/exit can continue later. Use --force to reprocess everything.
  *
- * Failed downloads: Images get ImageFetchFailed; see <slug>.txt in each images subfolder ("<url> FAILED <status>").
+ * Failed downloads: Images get ImageFetchFailed; see <jsonBase>.txt per recall image folder ("<url> FAILED <status>").
  * Retry failed images only (no OpenAI): node ... --retry-failed  or npm run retry-failed-general-recalls-images
+ * Retailers-only (translated JSON in place): node ... --retailers-only
  */
 const fs = require("fs");
 const path = require("path");
@@ -36,7 +37,6 @@ const MAP_PATH = path.join(OUT_DIR, "imageUrlMap.json");
 const IMG_DIR = path.join(REPO_ROOT, "frontend", "public", "images", "generalRecalls");
 
 const BASE_URL = "https://www.recallsatlas.com";
-const PATH_PREFIX = "/general-recalls";
 
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
 const MODEL = process.env.OPENAI_MODEL || "gpt-4o-mini";
@@ -111,22 +111,32 @@ function safeImageFolderSlug(s) {
   return t || "misc";
 }
 
-function imageMapKey(folderSlug, url) {
-  return `${folderSlug}::${url}`;
+function imageMapKey(categorySlug, recallRelFolder, url) {
+  const cat = safeImageFolderSlug(categorySlug);
+  const rel = safeImageFolderSlug(recallRelFolder);
+  return `${cat}/${rel}::${url}`;
 }
 
-/** Same basename as the source JSON (e.g. automotive-chemicals.txt next to WebPs). */
-function failedImageLogPath(dirSlug, jsonBaseName) {
-  const d = safeImageFolderSlug(dirSlug);
-  const base = safeImageFolderSlug(jsonBaseName || d);
-  return path.join(IMG_DIR, d, `${base}.txt`);
+/** Per-recall folder: 1-based index in category file + slugified first product name. */
+function recallImageSubfolder(index1Based, recall) {
+  const raw = (recall.Products && recall.Products[0] && recall.Products[0].Name) || "product";
+  const part = safeImageFolderSlug(raw);
+  return `${index1Based}-${part || "product"}`;
+}
+
+/** Same basename as the source JSON (e.g. accessories.txt next to WebPs in that recall folder). */
+function failedImageLogPath(categorySlug, recallRelFolder, jsonBaseName) {
+  const cat = safeImageFolderSlug(categorySlug);
+  const rel = safeImageFolderSlug(recallRelFolder);
+  const base = safeImageFolderSlug(jsonBaseName || cat);
+  return path.join(IMG_DIR, cat, rel, `${base}.txt`);
 }
 
 /** Append one line: "<url> FAILED <status>" (deduped by URL). */
-function recordFailedImageUrl(dirSlug, jsonBaseName, url, status) {
+function recordFailedImageUrl(categorySlug, recallRelFolder, jsonBaseName, url, status) {
   const u = String(url || "").trim();
   if (!u) return;
-  const p = failedImageLogPath(dirSlug, jsonBaseName);
+  const p = failedImageLogPath(categorySlug, recallRelFolder, jsonBaseName);
   fs.mkdirSync(path.dirname(p), { recursive: true });
   let existing = "";
   if (fs.existsSync(p)) existing = fs.readFileSync(p, "utf8");
@@ -137,10 +147,10 @@ function recordFailedImageUrl(dirSlug, jsonBaseName, url, status) {
 }
 
 /** Remove the line for this URL (format: "<url> FAILED <status>"). */
-function removeFailedImageUrlLine(dirSlug, jsonBaseName, url) {
+function removeFailedImageUrlLine(categorySlug, recallRelFolder, jsonBaseName, url) {
   const u = String(url || "").trim();
   if (!u) return;
-  const p = failedImageLogPath(dirSlug, jsonBaseName);
+  const p = failedImageLogPath(categorySlug, recallRelFolder, jsonBaseName);
   if (!fs.existsSync(p)) return;
   const lines = fs
     .readFileSync(p, "utf8")
@@ -157,16 +167,30 @@ function normRecallNumber(n) {
   return String(n == null ? "" : n).trim();
 }
 
-/** A finished translated recall (safe to skip on resume). */
+function getRecallSlug(r) {
+  if (!r || typeof r !== "object") return "";
+  if (typeof r.slug === "string" && r.slug.trim()) return r.slug.trim();
+  if (r.seo && typeof r.seo.slug === "string" && r.seo.slug.trim()) return r.seo.slug.trim();
+  return "";
+}
+
+/** Every image URL is either local (/images/...) or a failed fetch (still https + ImageFetchFailed). */
+function imagesProcessingComplete(r) {
+  if (!r || typeof r !== "object") return false;
+  const imgs = r.Images || [];
+  for (const im of imgs) {
+    const u = String(im.URL || "").trim();
+    if (!u) continue;
+    if (u.startsWith("/images/")) continue;
+    if (/^https?:\/\//i.test(u) && im.ImageFetchFailed) continue;
+    return false;
+  }
+  return true;
+}
+
+/** Finished translated recall (safe to skip on resume): stable slug + images pass done. */
 function isTranslatedRecall(r) {
-  return (
-    r &&
-    typeof r === "object" &&
-    r.seo &&
-    typeof r.seo === "object" &&
-    typeof r.seo.canonicalUrl === "string" &&
-    r.seo.canonicalUrl.trim().length > 0
-  );
+  return Boolean(r && typeof r === "object" && getRecallSlug(r) && imagesProcessingComplete(r));
 }
 
 /** Load prior output: RecallNumber -> recall (last wins if duplicates). */
@@ -238,6 +262,7 @@ async function callOpenAiJson(recall) {
   const products = recall.Products || [];
   const hazards = recall.Hazards || [];
   const remedies = recall.Remedies || [];
+  const retailers = recall.Retailers || [];
 
   const payload = {
     Title: recall.Title || "",
@@ -246,6 +271,7 @@ async function callOpenAiJson(recall) {
     Products: products.map((p) => ({ Name: p.Name || "", Model: p.Model || "", Type: p.Type || "" })),
     Hazards: hazards.map((h) => h.Name || ""),
     Remedies: remedies.map((r) => r.Name || ""),
+    Retailers: retailers.map((x) => x.Name || ""),
     ExistingUPCs: upcStringsFromRecall(recall),
   };
 
@@ -261,6 +287,7 @@ Keep phone numbers, emails, URLs exactly as given when present.`;
   "ProductNames": string[] (same length as input Products — one rewritten display name per product, order preserved),
   "HazardNames": string[] (same length as input Hazards),
   "RemedyNames": string[] (same length as input Remedies),
+  "RetailerNames": string[] (same length as input Retailers; rewrite "sold at" lines for clarity),
   "MetaDescription": string (≤160 chars, compelling, unique),
   "ExtractedUPCs": string[] (all UPC/EAN/GTIN codes you find in the source text; dedupe; empty if none),
   "ExtractedIdentifiers": string[] (model numbers, SKU, FNSKU, batch phrases not in UPC list; empty if none)
@@ -314,6 +341,14 @@ function applyAiToRecall(recall, ai) {
     }));
   }
 
+  const rtns = Array.isArray(ai.RetailerNames) ? ai.RetailerNames : [];
+  if (out.Retailers && out.Retailers.length) {
+    out.Retailers = out.Retailers.map((ret, i) => ({
+      ...ret,
+      Name: rtns[i] != null && String(rtns[i]).trim() ? String(rtns[i]).trim() : ret.Name,
+    }));
+  }
+
   const upcs = [...upcStringsFromRecall(out)];
   if (Array.isArray(ai.ExtractedUPCs)) {
     for (const u of ai.ExtractedUPCs) {
@@ -331,70 +366,66 @@ function applyAiToRecall(recall, ai) {
   return out;
 }
 
-function buildSeo(recall, slug, absoluteImageUrl) {
-  const title = recall.Title || "Product recall";
-  const desc = recall.Description || "";
-  const meta =
-    typeof recall._metaDescription === "string" && recall._metaDescription.trim()
-      ? recall._metaDescription.trim()
-      : desc.slice(0, 160);
-  const canonicalUrl = `${BASE_URL}${PATH_PREFIX}/${slug}`;
-  const ogImage = absoluteImageUrl || `${BASE_URL}/images/og-default.png`;
+async function callOpenAiRetailersOnly(recall) {
+  const retailers = recall.Retailers || [];
+  const payload = { Retailers: retailers.map((x) => x.Name || "") };
 
-  return {
-    slug,
-    canonicalUrl,
-    metaDescription: meta,
-    ogTitle: title,
-    ogDescription: meta,
-    ogImage,
-    ogUrl: canonicalUrl,
-    ogType: "article",
-    twitterCard: "summary_large_image",
-    twitterTitle: title,
-    twitterDescription: meta,
-    twitterImage: ogImage,
-  };
+  const system = `You rewrite CPSC recall "sold at" / retailer lines for RecallsAtlas. Output a single JSON object only, no markdown. Facts must stay accurate.`;
+
+  const user = `Return JSON with exactly this key:
+{ "RetailerNames": string[] } — same length and order as input Retailers.
+
+Input:
+${JSON.stringify(payload, null, 2)}`;
+
+  const completion = await getOpenAI().chat.completions.create({
+    model: MODEL,
+    messages: [
+      { role: "system", content: system },
+      { role: "user", content: user },
+    ],
+    response_format: { type: "json_object" },
+    temperature: 0.35,
+  });
+
+  const raw = completion.choices[0]?.message?.content;
+  if (!raw) throw new Error("Empty OpenAI message");
+  return JSON.parse(raw);
 }
 
-/** After retry fixes Images, refresh og/twitter image URLs from first local /images/... path. */
-function refreshRecallSeoOgFromImages(recall) {
-  let firstAbs = null;
-  for (const im of recall.Images || []) {
-    const u = im.URL;
-    if (u && String(u).startsWith("/images/")) {
-      firstAbs = `${BASE_URL}${u}`;
-      break;
-    }
+function applyRetailersAiOnly(recall, ai) {
+  const out = JSON.parse(JSON.stringify(recall));
+  const rtns = Array.isArray(ai.RetailerNames) ? ai.RetailerNames : [];
+  if (out.Retailers && out.Retailers.length) {
+    out.Retailers = out.Retailers.map((ret, i) => ({
+      ...ret,
+      Name: rtns[i] != null && String(rtns[i]).trim() ? String(rtns[i]).trim() : ret.Name,
+    }));
   }
-  if (!recall.seo || typeof recall.seo.slug !== "string") return;
-  recall._metaDescription =
-    recall.seo.metaDescription || (recall.Description || "").slice(0, 160);
-  recall.seo = buildSeo(recall, recall.seo.slug, firstAbs);
-  delete recall._metaDescription;
+  return out;
 }
 
-async function retryFailedImagesInRecall(recall, imageMap, folderSlug, fileName, jsonBaseName) {
+async function retryFailedImagesInRecall(recall, imageMap, categorySlug, recallRelFolder, fileName, jsonBaseName) {
   const merged = recall;
   let changed = false;
   for (const img of merged.Images || []) {
     if (!img.ImageFetchFailed) continue;
     const src = String(img.SourceImageURL || img.URL || "").trim();
     if (!/^https?:\/\//i.test(src)) continue;
-    const result = await ensureWebpForUrl(src, imageMap, folderSlug, merged.URL, fileName);
+    const result = await ensureWebpForUrl(src, imageMap, categorySlug, recallRelFolder, merged.URL, fileName);
     if (result.ok) {
       const info = result.entry;
       img.SourceImageURL = src;
       img.URL = info.publicPath;
       delete img.ImageFetchFailed;
       delete img.ImageFetchHttpStatus;
-      removeFailedImageUrlLine(folderSlug, jsonBaseName, src);
+      removeFailedImageUrlLine(categorySlug, recallRelFolder, jsonBaseName, src);
       changed = true;
     } else {
-      recordFailedImageUrl(folderSlug, jsonBaseName, src, result.status);
+      recordFailedImageUrl(categorySlug, recallRelFolder, jsonBaseName, src, result.status);
     }
   }
-  if (changed) refreshRecallSeoOgFromImages(merged);
+  return changed;
 }
 
 async function retryFailedImagesMain() {
@@ -410,7 +441,7 @@ async function retryFailedImagesMain() {
 
   logLine(`${c.bold}Retry failed images only${c.reset} (no OpenAI)`);
   logLine(`${c.dim}Reading:${c.reset} ${OUT_DIR}`);
-  logLine(`${c.dim}Logs:${c.reset}    ${IMG_DIR}/<slug>/<slug>.txt\n`);
+  logLine(`${c.dim}Logs:${c.reset}    ${IMG_DIR}/<category>/<index-product>/<jsonBase>.txt\n`);
 
   const imageMap = loadImageMap();
   firstNetworkImage = true;
@@ -430,10 +461,11 @@ async function retryFailedImagesMain() {
       const r = recalls[i];
       const hasFailed = (r.Images || []).some((im) => im.ImageFetchFailed);
       if (!hasFailed) continue;
+      const relFolder = recallImageSubfolder(i + 1, r);
       statusBar(`Retry ${fi + 1}/${files.length}`, i, recalls.length, `${fileName} #${r.RecallNumber || ""}`);
-      await retryFailedImagesInRecall(r, imageMap, folderSlug, fileName, jsonBase);
-      fileChanged = true;
       totalRetried++;
+      const changed = await retryFailedImagesInRecall(r, imageMap, folderSlug, relFolder, fileName, jsonBase);
+      if (changed) fileChanged = true;
     }
 
     if (isTTY) process.stdout.write("\r\x1b[K");
@@ -482,14 +514,23 @@ function imageFetchHeaders(imageUrl, cpscRecallPageUrl) {
 }
 
 /** @returns {{ ok: true, entry: object } | { ok: false, status: string|number, url: string }} */
-async function ensureWebpForUrl(imageUrl, imageMap, folderSlug, cpscRecallPageUrl, sourceJsonFile) {
+async function ensureWebpForUrl(
+  imageUrl,
+  imageMap,
+  categorySlug,
+  recallRelFolder,
+  cpscRecallPageUrl,
+  sourceJsonFile
+) {
   const url = String(imageUrl || "").trim();
   if (!url || !/^https?:\/\//i.test(url)) {
     return { ok: false, status: "INVALID", url: String(imageUrl || "") };
   }
 
-  const dir = safeImageFolderSlug(folderSlug);
-  const key = imageMapKey(dir, url);
+  const cat = safeImageFolderSlug(categorySlug);
+  const rel = safeImageFolderSlug(recallRelFolder);
+  const mapRel = `${cat}/${rel}`;
+  const key = imageMapKey(categorySlug, recallRelFolder, url);
   const label = sourceJsonFile ? `[${sourceJsonFile}] ` : "";
 
   if (imageMap[key]) {
@@ -533,27 +574,36 @@ async function ensureWebpForUrl(imageUrl, imageMap, folderSlug, cpscRecallPageUr
   }
 
   const hash = crypto.createHash("sha256").update(webpBuffer).digest("hex").slice(0, 32);
-  const fileName = `${hash}.webp`;
-  const categoryDir = path.join(IMG_DIR, dir);
+  const outFile = `${hash}.webp`;
+  const outDir = path.join(IMG_DIR, cat, rel);
 
-  fs.mkdirSync(categoryDir, { recursive: true });
-  const fullPath = path.join(categoryDir, fileName);
+  fs.mkdirSync(outDir, { recursive: true });
+  const fullPath = path.join(outDir, outFile);
   if (!fs.existsSync(fullPath)) {
     fs.writeFileSync(fullPath, webpBuffer);
   }
 
   const entry = {
-    folder: dir,
-    fileName,
-    publicPath: `/images/generalRecalls/${dir}/${fileName}`,
-    absoluteUrl: `${BASE_URL}/images/generalRecalls/${dir}/${fileName}`,
+    folder: mapRel,
+    fileName: outFile,
+    publicPath: `/images/generalRecalls/${mapRel}/${outFile}`,
+    absoluteUrl: `${BASE_URL}/images/generalRecalls/${mapRel}/${outFile}`,
     sourceUrl: url,
   };
   imageMap[key] = entry;
   return { ok: true, entry };
 }
 
-async function processRecall(recall, imageMap, usedSlugs, onImage, folderSlug, sourceJsonFile, jsonBaseName) {
+async function processRecall(
+  recall,
+  imageMap,
+  usedSlugs,
+  onImage,
+  categorySlug,
+  sourceJsonFile,
+  jsonBaseName,
+  recallIndex1Based
+) {
   let ai;
   try {
     ai = await callOpenAiJson(recall);
@@ -566,6 +616,7 @@ async function processRecall(recall, imageMap, usedSlugs, onImage, folderSlug, s
       ProductNames: (recall.Products || []).map((p) => p.Name),
       HazardNames: (recall.Hazards || []).map((h) => h.Name),
       RemedyNames: (recall.Remedies || []).map((r) => r.Name),
+      RetailerNames: (recall.Retailers || []).map((x) => x.Name),
       MetaDescription: (recall.Description || "").slice(0, 160),
       ExtractedUPCs: [],
       ExtractedIdentifiers: [],
@@ -576,15 +627,15 @@ async function processRecall(recall, imageMap, usedSlugs, onImage, folderSlug, s
   merged._metaDescription = ai.MetaDescription || merged.Description?.slice(0, 160);
 
   const slug = buildSeoSlug(merged.Title, merged.RecallNumber, usedSlugs);
+  const relFolder = recallImageSubfolder(recallIndex1Based, merged);
 
   const images = Array.isArray(merged.Images) ? merged.Images : [];
-  let firstAbs = null;
   const baseName = jsonBaseName || path.basename(sourceJsonFile || "", ".json");
   for (let i = 0; i < images.length; i++) {
     const img = images[i];
     const src = String(img.URL || img.url || img.Url || "").trim();
     onImage?.(i + 1, images.length, src);
-    const result = await ensureWebpForUrl(src, imageMap, folderSlug, merged.URL, sourceJsonFile);
+    const result = await ensureWebpForUrl(src, imageMap, categorySlug, relFolder, merged.URL, sourceJsonFile);
     delete img.ImageFetchFailed;
     delete img.ImageFetchHttpStatus;
     if (result.ok) {
@@ -593,8 +644,7 @@ async function processRecall(recall, imageMap, usedSlugs, onImage, folderSlug, s
       img.URL = info.publicPath;
       delete img.url;
       delete img.Url;
-      removeFailedImageUrlLine(folderSlug, baseName, src);
-      if (!firstAbs) firstAbs = info.absoluteUrl;
+      removeFailedImageUrlLine(categorySlug, relFolder, baseName, src);
     } else {
       img.SourceImageURL = src;
       img.URL = src;
@@ -602,12 +652,18 @@ async function processRecall(recall, imageMap, usedSlugs, onImage, folderSlug, s
       delete img.Url;
       img.ImageFetchFailed = true;
       img.ImageFetchHttpStatus = result.status;
-      recordFailedImageUrl(folderSlug, baseName, src, result.status);
+      recordFailedImageUrl(categorySlug, relFolder, baseName, src, result.status);
     }
   }
 
-  merged.seo = buildSeo(merged, slug, firstAbs);
+  merged.slug = slug;
+  const meta =
+    typeof merged._metaDescription === "string" && merged._metaDescription.trim()
+      ? merged._metaDescription.trim().slice(0, 160)
+      : (merged.Description || "").slice(0, 160);
+  if (meta) merged.metaDescription = meta;
   delete merged._metaDescription;
+  delete merged.seo;
   return merged;
 }
 
@@ -633,7 +689,8 @@ async function processJsonFile(fileName, imageMap, fileIndex, fileTotal, force) 
 
   const existingByNum = force ? new Map() : loadExistingTranslatedByRecallNumber(outPath);
   for (const r of existingByNum.values()) {
-    if (r.seo && typeof r.seo.slug === "string" && r.seo.slug) usedSlugs.add(r.seo.slug);
+    const s = getRecallSlug(r);
+    if (s) usedSlugs.add(s);
   }
 
   if (canSkipAllRecalls(recalls, existingByNum, force)) {
@@ -676,7 +733,8 @@ async function processJsonFile(fileName, imageMap, fileIndex, fileTotal, force) 
           },
           folderSlug,
           fileName,
-          path.basename(fileName, ".json")
+          path.basename(fileName, ".json"),
+          i + 1
         );
       } catch (e) {
         writeTranslatedFile(outPath, meta, fileName, outRecalls, true);
@@ -704,6 +762,7 @@ function parseFlags() {
   return {
     force: argv.includes("--force") || argv.includes("-f"),
     retryFailed: argv.includes("--retry-failed") || argv.includes("--retry"),
+    retailersOnly: argv.includes("--retailers-only"),
   };
 }
 
@@ -732,8 +791,12 @@ async function mainTranslate() {
   logLine(`${c.bold}RecallsAtlas — general recalls SEO + images${c.reset}`);
   logLine(`${c.dim}Source:${c.reset} ${SRC_DIR}`);
   logLine(`${c.dim}Out:${c.reset}    ${OUT_DIR}`);
-  logLine(`${c.dim}Images:${c.reset} ${IMG_DIR}/<category>/ (WebP q=85, 1–8s between downloads)`);
-  logLine(`${c.dim}Resume:${c.reset} skips recalls that already have ${c.dim}seo.canonicalUrl${c.reset} in output (use --force to redo)`);
+  logLine(
+    `${c.dim}Images:${c.reset} ${IMG_DIR}/<category>/<index-product>/ (WebP q=85, 1–8s between downloads)`
+  );
+  logLine(
+    `${c.dim}Resume:${c.reset} skips recalls with ${c.dim}slug${c.reset} + finished images (use --force to redo)`
+  );
   logLine(`${c.dim}Files:${c.reset}  ${files.length}${force ? `  ${c.yellow}--force${c.reset}` : ""}\n`);
 
   const imageMap = loadImageMap();
@@ -746,9 +809,61 @@ async function mainTranslate() {
   logLine(`\n${c.green}All done.${c.reset} Image URL map: ${MAP_PATH}`);
 }
 
+async function retailersOnlyMain() {
+  if (!OPENAI_API_KEY) {
+    console.error("Set OPENAI_API_KEY in backend/.env");
+    process.exit(1);
+  }
+  if (!fs.existsSync(OUT_DIR)) {
+    console.error("Missing output folder:", OUT_DIR);
+    process.exit(1);
+  }
+  const files = fs.readdirSync(OUT_DIR).filter((n) => n.endsWith(".json")).sort();
+  if (files.length === 0) {
+    console.error("No JSON files in", OUT_DIR);
+    process.exit(1);
+  }
+
+  logLine(`${c.bold}Retailers-only pass${c.reset} (OpenAI, generalRecallsTranslated/*.json)`);
+
+  for (let fi = 0; fi < files.length; fi++) {
+    const fileName = files[fi];
+    const outPath = path.join(OUT_DIR, fileName);
+    let raw;
+    try {
+      raw = JSON.parse(fs.readFileSync(outPath, "utf8"));
+    } catch (e) {
+      logLine(`${c.yellow}Skip corrupt ${fileName}${c.reset}`);
+      continue;
+    }
+    const recalls = raw.recalls || [];
+    let changed = false;
+    for (let i = 0; i < recalls.length; i++) {
+      const r = recalls[i];
+      if (!r.Retailers || !r.Retailers.length) continue;
+      statusBar(`Retailers ${fi + 1}/${files.length}`, i, recalls.length, fileName);
+      try {
+        const ai = await callOpenAiRetailersOnly(r);
+        recalls[i] = applyRetailersAiOnly(r, ai);
+        changed = true;
+      } catch (e) {
+        logLine(`${c.yellow}OpenAI retailers failed ${fileName} #${r.RecallNumber}: ${e.message}${c.reset}`);
+      }
+    }
+    if (isTTY) process.stdout.write("\r\x1b[K");
+    if (changed) {
+      fs.writeFileSync(outPath, JSON.stringify({ ...raw, recalls }, null, 2), "utf8");
+      logLine(`${c.green}✓${c.reset} updated ${fileName}`);
+    }
+  }
+  logLine(`\n${c.green}Retailers-only pass done.${c.reset}`);
+}
+
 async function run() {
   const flags = parseFlags();
-  if (flags.retryFailed) {
+  if (flags.retailersOnly) {
+    await retailersOnlyMain();
+  } else if (flags.retryFailed) {
     await retryFailedImagesMain();
   } else {
     await mainTranslate();

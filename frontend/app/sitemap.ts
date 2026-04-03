@@ -1,6 +1,8 @@
 import type { MetadataRoute } from "next";
 import { getDb } from "@/lib/mongodb";
 import { getVehicleRecallSiteBaseUrl } from "@/lib/cars/vehicleRecallSeo";
+import { getGeneralRecallSlugDateMap } from "@/lib/general-recalls-data";
+import { withLocalePath, type SiteUiLang } from "@/lib/siteLocale";
 
 /** Always read current Mongo slugs (avoid stale build/CDN cache after sync). */
 export const dynamic = "force-dynamic";
@@ -10,6 +12,7 @@ const SITEMAP_LANGS = ["en", "zh", "es", "ar", "hi", "pt", "ru", "fr", "ja", "de
 
 const FDA_SITEMAP_PRIORITY = 0.8;
 const VEHICLE_SITEMAP_PRIORITY = 0.7;
+const GENERAL_RECALLS_SITEMAP_PRIORITY = 0.72;
 const STATIC_HOME_PRIORITY = 1;
 const STATIC_SECTION_PRIORITY = 0.85;
 
@@ -216,6 +219,20 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       if (seen.has(url)) continue;
       seen.add(url);
       entries.push({ url, lastModified, priority: VEHICLE_SITEMAP_PRIORITY });
+    }
+  }
+
+  const generalBySlug = getGeneralRecallSlugDateMap();
+  const generalSlugs = sortedMapKeys(generalBySlug);
+  for (const slug of generalSlugs) {
+    const lastModified = generalBySlug.get(slug) ?? new Date();
+    const enc = encodeURIComponent(slug);
+    for (const lang of SITEMAP_LANGS) {
+      const path = withLocalePath(`/general-recalls/${enc}`, lang as SiteUiLang);
+      const url = `${base}${path}`;
+      if (seen.has(url)) continue;
+      seen.add(url);
+      entries.push({ url, lastModified, priority: GENERAL_RECALLS_SITEMAP_PRIORITY });
     }
   }
 
