@@ -1,0 +1,221 @@
+{
+  "meta": {
+    "slug": "air-conditioners",
+    "sourceCsvFile": "air-conditioners_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:36.788Z",
+    "recallCount": 3
+  },
+  "recalls": [
+    {
+      "RecallID": 10332,
+      "RecallNumber": "25369",
+      "RecallDate": "2025-07-03T00:00:00",
+      "Description": "This recall involves five different models of Gas/Electric Packaged Units sold under Trane and American Standard brand names. The model and serial number ranges can be found on the outside of the back of the unit. Trane or American Standard is printed on the front of the units. MODEL NUMBER SERIAL NUMBER RANGE 4YCZ5024F1060A 24061381FA - 24453189FA 4YCZ5036F1070A 24013024FA - 24482966FA 4YCZ5036F1090A 24061367FA - 24442702FA 4YCZ5048E1090A 24061326FA - 24492348FA 4YCZ5048E1115A 24106164FA - 24415095FA",
+      "URL": "https://www.cpsc.gov/Recalls/2025/Trane-Recalls-Gas-Electric-Packaged-Units-Due-to-Risk-of-Gas-Leak-Fire-Hazard",
+      "Title": "Trane Recalls Gas/Electric Packaged Units Due to Risk of Gas Leak, Fire Hazard",
+      "ConsumerContact": "Both Trane and American Standard toll-free at 800-889-0129 Monday through Friday 8 a.m. to 6 p.m. ET, or online at https://www.trane.com/residential/gas-electric-packaged-unit-recall/ or www.trane.com/residential and click on \"Product Recall\" at the bottom of the page for more information, or at https://www.americanstandardair.com/gas-electric-packaged-unit-recall/ and click on \"Product Recall\" at the bottom of the page for more information.",
+      "LastPublishDate": "2025-07-03T00:00:00",
+      "Products": [
+        {
+          "Name": "Trane and American Standard Gas/Electric Packaged Units",
+          "NumberOfUnits": "About 4,790"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/trane-1.jpg",
+          "Caption": "Recalled American Standard Gas/Electric Packaged Unit"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/trane-2.jpg",
+          "Caption": "Recalled Trane Two-Stage Gas/Electric Packaged Unit"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/trane-3.jpg",
+          "Caption": "Recalled Two-Stage Gas/Electric Packaged Unit"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/trane-4.jpg",
+          "Caption": "Model and serial number location"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received one report of gas leaking from the recalled two-stage gas furnace/air conditioners. No injuries have been reported."
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "Trane U.S. Inc., of Davidson, North Carolina"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "HVAC distributors and dealers nationwide from January 2024 through March 2025 for between $8,250 and $12,900."
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "Mexico"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "The fuel gas valve can open unexpectedly, allowing a gas leak and posing a fire hazard."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should immediately stop using the heating mode of the recalled units and contact their dealer who installed the unit to schedule an appointment for a free inspection and repair, by replacing the ignition board of the unit. Consumers with Trane products can locate their nearest dealer at www.trane.com/residential/en/dealer-locator/. Consumers with American Standard products can locate their nearest dealer at www.americanstandardair.com/find-your-dealer/. Consumers can also contact Trane or American Standard directly for support."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ]
+    },
+    {
+      "RecallID": 10300,
+      "RecallNumber": "25320",
+      "RecallDate": "2025-06-05T00:00:00",
+      "Description": "This recall involves U and U+ Window Air Conditioners made by Midea and sold in brand names including Midea, Comfort Aire, Danby, Frigidaire, Insignia, Keystone, LBG Products, Mr. Cool, Perfect Aire and Sea Breeze. The air conditioners are designed to fit in windows. They were sold in three sizes of cooling power: 8,000, 10,000 and 12,000 BTU. The air conditioners are white and measure about 22 inches wide and 14 inches high. The brand name is printed on the units. The model number can be found on a label on the front right side of the unit when facing the air conditioner. They were sold with remote controls and can be controlled by a mobile app. The following brands and model numbers are included in this recall: Midea Model Numbers MAW08AV1QWT MAW08AV1QWT-C MAW08U1QWT MAW08V1QWT MAW08V1QWT-S MAW08V1QWT-T MAW08W1QWT MAW10U1QWT MAW10V1QWT MAW10W1QWT MAW12AV1QWT MAW12AV1QWT-C MAW12U1QWT MAW12V1QWT MAW12V1QWT-M MAW12V1QWT-S MAW12W1QWT Comfort Aire Model Numbers RXTS-101A RXTS-121A RXTS-81A Danby Model Numbers DAC080B6IWDB-6 DAC080B7IWDB-6 DAC100B6IWDB-6 Frigidaire Model Numbers GHWQ085WD1 GHWQ105WD1 GHWQ125WD1 Insignia Model Numbers NS-AC8WU3 NS-AC8WU3-C Keystone Model Numbers KSTAW08UA KSTAW10UA KSTAW12UA LBG Products Model Number QB-8K CO Mr. Cool Model Numbers MWUC08T115 MWUC10T115 MWUC12T115 Perfect Aire Model Numbers 1PACU10000 1PACU12000 1PACU8000 Sea Breeze Model Numbers MWAUQB-12CRFN8-BCN10 WAU310YREX WAU312YREX WAU38YREX",
+      "URL": "https://www.cpsc.gov/Recalls/2025/Midea-Recalls-About-1-7-Million-U-and-U-Window-Air-Conditioners-Due-to-Risk-of-Mold-Exposure",
+      "Title": "Midea Recalls About 1.7 Million U and U+ Window Air Conditioners Due to Risk of Mold Exposure",
+      "ConsumerContact": "Midea toll-free at 888-345-0256 from 8 a.m. to 5 p.m. ET Monday through Friday, email at midea4028@midea.com, online at www.MideaUrecall.expertinquiry.com or www.midea.com/us and click on \"RECALL INFORMATION\" for more information.",
+      "LastPublishDate": "2025-06-05T00:00:00",
+      "Products": [
+        {
+          "Name": "U and U+ Window Air Conditioners",
+          "NumberOfUnits": "About 1.7 million (In addition, about 45,900 were sold in Canada)"
+        }
+      ],
+      "Inconjunctions": [
+        {
+          "URL": "https://recalls-rappels.canada.ca/en/alert-recall/u-and-u-window-air-conditioners-recalled-due-risk-mold-exposure"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/UWindow-1.png",
+          "Caption": "Recalled U Window Air Conditioner"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/UWindow-2.jpg",
+          "Caption": "Recalled U+ Window Air Conditioner"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm is aware of at least 152 reports of mold in the air conditioners, including 17 reports of consumers experiencing symptoms such as respiratory infections, allergic reactions, coughing, sneezing and/or sore throats from mold exposure."
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "GD Midea Air-Conditioning Equipment Co. Ltd., of China"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Costco, Menards, Home Depot, Best Buy and other stores nationwide and online at Midea.com, Amazon.com, Costco.com, Menards.com, HomeDepot.com, Lowes.com, Walmart.com, BJs.com, BestBuy.com and other websites from March 2020 through May 2025 for between $280 and $500."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Midea America Corp., of Parsippany, New Jersey"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        },
+        {
+          "Country": "Thailand"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Pooled water in the air conditioners can fail to drain quickly enough, which can lead to mold growth. Mold exposure poses risks of respiratory issues or other infections to some consumers."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers with the recalled air conditioners should immediately contact Midea for a free repair or a full or prorated refund, which will be based on the purchase date or date of manufacture. Consumers who want a refund will be requested to send the unit back to Midea using a free shipping label or submit a photograph showing that they cut the unplugged power cord of the unit to receive a refund. Consumers who continue using the air conditioners while awaiting a repair should visit www.MideaUrecall.expertinquiry.com for instructions on how to inspect their unit prior to continuing use."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        },
+        {
+          "Option": "Repair"
+        }
+      ]
+    },
+    {
+      "RecallID": 9968,
+      "RecallNumber": "24260",
+      "RecallDate": "2024-06-13T00:00:00",
+      "Description": "This recall involves Amana, Daikin, and Goodman branded packaged air conditioners and heat pumps. The recalled units are gray or green in color, and can be identified by the model number located on the electrical connection side of the unit on the outside panel. To see if your product is subject to this recall, visit www.goodmanmfg.com/package-recall.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/Daikin-Comfort-Technologies-Manufacturing-Recalls-Amana-Daikin-Goodman-Branded-Air-Conditioning-and-Heat-Pump-Packaged-Units-Due-to-Fire-Hazard",
+      "Title": "Daikin Comfort Technologies Manufacturing Recalls Amana, Daikin, Goodman-Branded Air Conditioning and Heat Pump Packaged Units Due to Fire Hazard",
+      "ConsumerContact": "DCT toll-free at 833-324-5460 from 8 a.m. to 4:30 p.m. CT Monday through Friday, or online at www.goodmanmfg.com/package-recall or www.goodmanmfg.com and click on \"PRODUCT RECALL\" for more information.",
+      "LastPublishDate": "2024-06-13T00:00:00",
+      "Products": [
+        {
+          "Name": "Amana, Daikin, and Goodman branded air conditioning and heat pump packaged units",
+          "NumberOfUnits": "About 12,100"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/goodman-ac-heat.JPG",
+          "Caption": "Recalled Goodman branded air conditioning and heat pump"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/goodman-model-no.JPG",
+          "Caption": "Recalled air conditioning and heat pump model number label location"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "Daikin Comfort Technologies Manufacturing L.P. (f/k/a Goodman Manufacturing Company L.P.), of Houston, Texas"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Heating and cooling equipment independent dealers nationwide from January 2024 through March 2024 for between $4,500 to $7,500."
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "United States"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "The unit's serial plate can have incorrect electrical ratings which can lead to incorrect wirings being used, posing a fire hazard."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should not attempt to open the outside electrical panel of the recalled air conditioning and heat pump units, and immediately contact Daikin Comfort Technologies Manufacturing L.P. (DCT) for a free repair and inspection. DCT is contacting all known purchasers directly."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ]
+    }
+  ]
+}

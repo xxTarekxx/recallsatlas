@@ -1,0 +1,343 @@
+{
+  "meta": {
+    "slug": "paint-thinners-or-varnish-thinners",
+    "sourceCsvFile": "paint-thinners-or-varnish-thinners_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T04:43:57.281Z",
+    "recallCount": 2
+  },
+  "recalls": [
+    {
+      "merged": {
+        "RecallID": 10356,
+        "RecallNumber": "25399",
+        "RecallDate": "2025-07-24T00:00:00",
+        "Description": "This recall involves Creekwood Naturals Gum Spirits of Turpentine bottles. The Gum Spirits of Turpentine comes in a clear glass bottle that has a brown label with red, black and white lettering. The front panel of the label on the bottle features \"Turpentine\" in large lettering, along with \"Pure Gum Spirits\" or \"Quality Gum Spirits.\"",
+        "URL": "https://www.cpsc.gov/Recalls/2025/Creekwood-Naturals-Recalls-100-Natural-Pure-Gum-Spirits-of-Turpentine-Bottles-Due-to-Risk-of-Serious-Injury-or-Death-from-Child-Poisoning-Violates-Mandatory-Standard-for-Child-Resistant-Packaging",
+        "Title": "Creekwood Naturals Recalls 100% Natural Pure Gum Spirits of Turpentine Bottles Due to Risk of Serious Injury or Death from Child Poisoning; Violates Mandatory Standard for Child Resistant Packaging",
+        "ConsumerContact": "Creekwood Naturals toll-free at 877-754-1776 from 10 a.m. to 5 p.m. PT Monday through Friday, email at Sales@CreekwoodNaturals.com, or online at https://CreekwoodNaturals.com/pages/recall or https://CreekwoodNaturals.com and click \"Recall\" at the top of the page for more information.",
+        "LastPublishDate": "2025-07-24T00:00:00",
+        "Products": [
+          {
+            "Name": "100% Natural Pure Gum Spirits of Turpentine Bottles",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 9,000"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Creekwood.png",
+            "Caption": "Recalled Creekwood Naturals 100% Natural Pure Gum Spirits Turpentine bottle"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [
+          {
+            "Name": "Creekwood Naturals, of Corona, California",
+            "CompanyID": ""
+          }
+        ],
+        "Retailers": [
+          {
+            "Name": "Amazon, Etsy, Ebay and Creekwood Naturals from June 2023 through May 2025 for between $20 and $40.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [],
+        "Distributors": [],
+        "SoldAtLabel": "Sold Online At",
+        "ManufacturerCountries": [
+          {
+            "Country": "United States"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The recalled bottles contain turpentine, which must be in child-resistant packaging, as required by the Poison Prevention Packaging Act. The turpentine bottles violate the mandatory standard for child-resistant packaging, posing a deadly poisoning hazard to young children.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately secure the recalled turpentine bottles out of the sight and reach of children. Consumers should contact Creekwood Naturals for a free replacement child-resistant closure. Consumers must complete a form online at https://creekwoodnaturals.com/pages/recall to receive the replacement."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Replace"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 10356,
+        "RecallNumber": "25399",
+        "RecallDate": "2025-07-24T00:00:00",
+        "Description": "This recall involves Creekwood Naturals Gum Spirits of Turpentine bottles. The Gum Spirits of Turpentine comes in a clear glass bottle that has a brown label with red, black and white lettering. The front panel of the label on the bottle features \"Turpentine\" in large lettering, along with \"Pure Gum Spirits\" or \"Quality Gum Spirits.\"",
+        "URL": "https://www.cpsc.gov/Recalls/2025/Creekwood-Naturals-Recalls-100-Natural-Pure-Gum-Spirits-of-Turpentine-Bottles-Due-to-Risk-of-Serious-Injury-or-Death-from-Child-Poisoning-Violates-Mandatory-Standard-for-Child-Resistant-Packaging",
+        "Title": "Creekwood Naturals Recalls 100% Natural Pure Gum Spirits of Turpentine Bottles Due to Risk of Serious Injury or Death from Child Poisoning; Violates Mandatory Standard for Child Resistant Packaging",
+        "ConsumerContact": "Creekwood Naturals toll-free at 877-754-1776 from 10 a.m. to 5 p.m. PT Monday through Friday, email at Sales@CreekwoodNaturals.com, or online at https://CreekwoodNaturals.com/pages/recall or https://CreekwoodNaturals.com and click \"Recall\" at the top of the page for more information.",
+        "LastPublishDate": "2025-07-24T00:00:00",
+        "Products": [
+          {
+            "Name": "100% Natural Pure Gum Spirits of Turpentine Bottles",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 9,000"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Creekwood.png",
+            "Caption": "Recalled Creekwood Naturals 100% Natural Pure Gum Spirits Turpentine bottle"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [
+          {
+            "Name": "Creekwood Naturals, of Corona, California",
+            "CompanyID": ""
+          }
+        ],
+        "Retailers": [
+          {
+            "Name": "Amazon, Etsy, Ebay and Creekwood Naturals from June 2023 through May 2025 for between $20 and $40.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [],
+        "Distributors": [],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "United States"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The recalled bottles contain turpentine, which must be in child-resistant packaging, as required by the Poison Prevention Packaging Act. The turpentine bottles violate the mandatory standard for child-resistant packaging, posing a deadly poisoning hazard to young children.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately secure the recalled turpentine bottles out of the sight and reach of children. Consumers should contact Creekwood Naturals for a free replacement child-resistant closure. Consumers must complete a form online at https://creekwoodnaturals.com/pages/recall to receive the replacement."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Replace"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "25399",
+        "Product Safety Warning Number": "",
+        "Date": "July 24, 2025",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "Creekwood Naturals Recalls 100% Natural Pure Gum Spirits of Turpentine Bottles Due to Risk of Serious Injury or Death from Child Poisoning; Violates Mandatory Standard for Child Resistant Packaging",
+        "Name of product": "100% Natural Pure Gum Spirits of Turpentine Bottles",
+        "Description": "This recall involves Creekwood Naturals Gum Spirits of Turpentine bottles. The Gum Spirits of Turpentine comes in a clear glass bottle that has a brown label with red, black and white lettering. The front panel of the label on the bottle features \"Turpentine\" in large lettering, along with \"Pure Gum Spirits\" or \"Quality Gum Spirits.\"",
+        "Hazard Description": "The recalled bottles contain turpentine, which must be in child-resistant packaging, as required by the Poison Prevention Packaging Act. The turpentine bottles violate the mandatory standard for child-resistant packaging, posing a deadly poisoning hazard to young children.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Replace",
+        "Units": "About 9,000",
+        "Incidents": "None reported",
+        "Remedy": "Consumers should immediately secure the recalled turpentine bottles out of the sight and reach of children. Consumers should contact Creekwood Naturals for a free replacement child-resistant closure. Consumers must complete a form online at&nbsp;https://creekwoodnaturals.com/pages/recall to receive the replacement.",
+        "Sold At Label": "Sold Online At",
+        "Sold At": "Amazon, Etsy, Ebay and Creekwood Naturals from June 2023 through May 2025 for between $20 and $40.",
+        "Importers": "",
+        "Manufacturers": "Creekwood Naturals, of Corona, California",
+        "Distributors": "",
+        "Manufactured In": "United States",
+        "Custom Label": "",
+        "Custom Field": ""
+      }
+    },
+    {
+      "merged": {
+        "RecallID": 10354,
+        "RecallNumber": "25397",
+        "RecallDate": "2025-07-24T00:00:00",
+        "Description": "This recall involves 100% pure gum spirits of turpentine bottles. The 4-ounce, clear glass bottles are round and have a label with \"Georgia Pine Gum Spirits of Turpentine\" and \"Diamond G Forest Products\" printed on it.",
+        "URL": "https://www.cpsc.gov/Recalls/2025/Diamond-G-Forest-Products-Recalls-Turpentine-Bottles-Due-to-Risk-of-Serious-Injury-or-Death-from-Child-Poisoning-Violates-Mandatory-Standard-for-Child-Resistant-Packaging",
+        "Title": "Diamond G Forest Products Recalls Turpentine Bottles Due to Risk of Serious Injury or Death from Child Poisoning; Violates Mandatory Standard for Child Resistant Packaging",
+        "ConsumerContact": "Diamond G Forest Products at 912-647-7463 from 8 a.m. to 5 p.m. ET Monday through Friday, email at diamondgforestproducts@hotmail.com, or online at www.diamondgforestproducts.com/recall-information or at www.diamondgforestproducts.com and click \"Recall\" in the dropdown menu for more information.",
+        "LastPublishDate": "2025-07-24T00:00:00",
+        "Products": [
+          {
+            "Name": "Georgia Pine Gum Spirits of Turpentine Bottles",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 20,000"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Diamond-G.png",
+            "Caption": "Recalled Diamond G Forest Products Georgia Pine Gum Spirits of Turpentine Bottle"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [
+          {
+            "Name": "Diamond G Forest Products LLC, of Patterson, Georgia",
+            "CompanyID": ""
+          }
+        ],
+        "Retailers": [
+          {
+            "Name": "Nature's Corner Market stores in Marietta, Georgia; Cornerstone Retreat stores in Gap, Pennsylvania; Nickel Mine Health Foods stores in Paradise, Pennsylvania; Leaves of The Trees in Memphis, Tennessee; Country Boy's Mini Mall in Bristol, Georgia and online at Amazon from January 2021 through April 2025 for about $17.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [],
+        "Distributors": [],
+        "SoldAtLabel": "Sold At",
+        "ManufacturerCountries": [
+          {
+            "Country": "United States"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The bottles contain turpentine, which must be in child-resistant packaging as required by the Poison Prevention Packaging Act. The packaging is not child-resistant, posing a risk of serious injury or death from poisoning if the contents are ingested by young children.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately secure the recalled turpentine bottles out of the sight and reach of children and contact Diamond G Forest Products for information on how to obtain a free replacement child-resistant closure."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Replace"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 10354,
+        "RecallNumber": "25397",
+        "RecallDate": "2025-07-24T00:00:00",
+        "Description": "This recall involves 100% pure gum spirits of turpentine bottles. The 4-ounce, clear glass bottles are round and have a label with \"Georgia Pine Gum Spirits of Turpentine\" and \"Diamond G Forest Products\" printed on it.",
+        "URL": "https://www.cpsc.gov/Recalls/2025/Diamond-G-Forest-Products-Recalls-Turpentine-Bottles-Due-to-Risk-of-Serious-Injury-or-Death-from-Child-Poisoning-Violates-Mandatory-Standard-for-Child-Resistant-Packaging",
+        "Title": "Diamond G Forest Products Recalls Turpentine Bottles Due to Risk of Serious Injury or Death from Child Poisoning; Violates Mandatory Standard for Child Resistant Packaging",
+        "ConsumerContact": "Diamond G Forest Products at 912-647-7463 from 8 a.m. to 5 p.m. ET Monday through Friday, email at diamondgforestproducts@hotmail.com, or online at www.diamondgforestproducts.com/recall-information or at www.diamondgforestproducts.com and click \"Recall\" in the dropdown menu for more information.",
+        "LastPublishDate": "2025-07-24T00:00:00",
+        "Products": [
+          {
+            "Name": "Georgia Pine Gum Spirits of Turpentine Bottles",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 20,000"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Diamond-G.png",
+            "Caption": "Recalled Diamond G Forest Products Georgia Pine Gum Spirits of Turpentine Bottle"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [
+          {
+            "Name": "Diamond G Forest Products LLC, of Patterson, Georgia",
+            "CompanyID": ""
+          }
+        ],
+        "Retailers": [
+          {
+            "Name": "Nature's Corner Market stores in Marietta, Georgia; Cornerstone Retreat stores in Gap, Pennsylvania; Nickel Mine Health Foods stores in Paradise, Pennsylvania; Leaves of The Trees in Memphis, Tennessee; Country Boy's Mini Mall in Bristol, Georgia and online at Amazon from January 2021 through April 2025 for about $17.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [],
+        "Distributors": [],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "United States"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The bottles contain turpentine, which must be in child-resistant packaging as required by the Poison Prevention Packaging Act. The packaging is not child-resistant, posing a risk of serious injury or death from poisoning if the contents are ingested by young children.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately secure the recalled turpentine bottles out of the sight and reach of children and contact Diamond G Forest Products for information on how to obtain a free replacement child-resistant closure."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Replace"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "25397",
+        "Product Safety Warning Number": "",
+        "Date": "July 24, 2025",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "Diamond G Forest Products Recalls Turpentine Bottles Due to Risk of Serious Injury or Death from Child Poisoning; Violates Mandatory Standard for Child Resistant Packaging",
+        "Name of product": "Georgia Pine Gum Spirits of Turpentine Bottles",
+        "Description": "This recall involves 100% pure gum spirits of turpentine bottles. The 4-ounce, clear glass bottles are round and have a label with “Georgia Pine Gum Spirits of Turpentine” and “Diamond G Forest Products” printed on it.",
+        "Hazard Description": "The bottles contain turpentine, which must be in child-resistant packaging as required by the Poison Prevention Packaging Act. The packaging is not child-resistant, posing a risk of serious injury or death from poisoning if the contents are ingested by young children.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Replace",
+        "Units": "About 20,000",
+        "Incidents": "None reported",
+        "Remedy": "Consumers should immediately secure the recalled turpentine bottles out of the sight and reach of children and contact Diamond G Forest Products for information on how to obtain a free replacement child-resistant closure.&nbsp;",
+        "Sold At Label": "Sold At",
+        "Sold At": "Nature’s Corner Market stores in Marietta, Georgia; Cornerstone Retreat stores in Gap, Pennsylvania; Nickel Mine Health Foods stores in Paradise, Pennsylvania; Leaves of The Trees in Memphis, Tennessee; Country Boy’s Mini Mall in Bristol, Georgia and online at Amazon from January 2021 through April 2025 for about $17.",
+        "Importers": "",
+        "Manufacturers": "Diamond G Forest Products LLC, of Patterson, Georgia",
+        "Distributors": "",
+        "Manufactured In": "United States",
+        "Custom Label": "",
+        "Custom Field": ""
+      }
+    }
+  ]
+}

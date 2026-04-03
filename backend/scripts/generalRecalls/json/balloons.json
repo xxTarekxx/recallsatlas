@@ -1,0 +1,375 @@
+{
+  "meta": {
+    "slug": "balloons",
+    "sourceCsvFile": "balloons_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T04:43:57.019Z",
+    "recallCount": 2
+  },
+  "recalls": [
+    {
+      "merged": {
+        "RecallID": 10620,
+        "RecallNumber": "26274",
+        "RecallDate": "2026-02-19T00:00:00",
+        "Description": "This recall involves JJGoo- branded balloon lights. The recalled, submersible lights were sold in packs of 100 LED color-changing lights. Each multi-color, blinking light measures about 0.6 inches in diameter and has 200 preinstalled LR41 batteries. \"MY1005E-Colorfu1-100\" is printed on a label on the product packaging.",
+        "URL": "https://www.cpsc.gov/Recalls/2026/JJGoo-LED-Balloon-Lights-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violates-Mandatory-Standard-for-Consumer-Products-with-Button-Cell-Batteries",
+        "Title": "JJGoo LED Balloon Lights Recalled Due to Risk of Serious Injury or Death from Battery Ingestion; Violates Mandatory Standard for Consumer Products with Button Cell Batteries",
+        "ConsumerContact": "JJGoo by email at JJGooLEDBalloonLightsrecall@outlook.com.",
+        "LastPublishDate": "2026-02-19T00:00:00",
+        "Products": [
+          {
+            "Name": "JJGoo LED Balloon Lights",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 3,400"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/jjgoo-1.png",
+            "Caption": "Recalled JJGoo LED Balloon Lights"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/jjgoo-2.png",
+            "Caption": "The recalled JJGoo balloon lights were sold in packs of 100 LED color-changing lights"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/jjgoo-3.gif",
+            "Caption": "Each of the multi-color recalled JJGoo balloon lights has 200 preinstalled LR41 batteries"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/jjgoo-4.jpg",
+            "Caption": "\"MY1005E-Colorfu1-100\" is printed on a label on the product packaging of the recalled JJGoo LED balloon lights"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Online at Amazon.com from May 2025 through November 2025 for about $23.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [],
+        "Distributors": [
+          {
+            "Name": "Shenzhen Yimu Technology Co., Ltd. dba JJGoo, of China",
+            "CompanyID": ""
+          }
+        ],
+        "SoldAtLabel": "Sold Online At",
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The recalled lights violate the mandatory standard for consumer products containing button cell or coin batteries because they contain button cell batteries that can be accessed easily by children, posing an ingestion hazard. Additionally, the LED lights do not have the warnings required by Reese's Law. When button cell batteries are swallowed, the ingested batteries can cause serious injuries, internal chemical burns and death.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should stop using the recalled LED lights immediately, place them in an area that children cannot access and properly dispose of the batteries. Contact JJGoo for a full refund. Consumers should throw the balloon lights away and send a photo of the product in the trash to JJGooLEDBalloonLightsrecall@outlook.com. Note: Button cell and coin batteries are hazardous. Batteries should be disposed of or recycled by following local hazardous waste procedures."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 10620,
+        "RecallNumber": "26274",
+        "RecallDate": "2026-02-19T00:00:00",
+        "Description": "This recall involves JJGoo- branded balloon lights. The recalled, submersible lights were sold in packs of 100 LED color-changing lights. Each multi-color, blinking light measures about 0.6 inches in diameter and has 200 preinstalled LR41 batteries. \"MY1005E-Colorfu1-100\" is printed on a label on the product packaging.",
+        "URL": "https://www.cpsc.gov/Recalls/2026/JJGoo-LED-Balloon-Lights-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violates-Mandatory-Standard-for-Consumer-Products-with-Button-Cell-Batteries",
+        "Title": "JJGoo LED Balloon Lights Recalled Due to Risk of Serious Injury or Death from Battery Ingestion; Violates Mandatory Standard for Consumer Products with Button Cell Batteries",
+        "ConsumerContact": "JJGoo by email at JJGooLEDBalloonLightsrecall@outlook.com.",
+        "LastPublishDate": "2026-02-19T00:00:00",
+        "Products": [
+          {
+            "Name": "JJGoo LED Balloon Lights",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 3,400"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/jjgoo-1.png",
+            "Caption": "Recalled JJGoo LED Balloon Lights"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/jjgoo-2.png",
+            "Caption": "The recalled JJGoo balloon lights were sold in packs of 100 LED color-changing lights"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/jjgoo-3.gif",
+            "Caption": "Each of the multi-color recalled JJGoo balloon lights has 200 preinstalled LR41 batteries"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/jjgoo-4.jpg",
+            "Caption": "\"MY1005E-Colorfu1-100\" is printed on a label on the product packaging of the recalled JJGoo LED balloon lights"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Online at Amazon.com from May 2025 through November 2025 for about $23.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [],
+        "Distributors": [
+          {
+            "Name": "Shenzhen Yimu Technology Co., Ltd. dba JJGoo, of China",
+            "CompanyID": ""
+          }
+        ],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The recalled lights violate the mandatory standard for consumer products containing button cell or coin batteries because they contain button cell batteries that can be accessed easily by children, posing an ingestion hazard. Additionally, the LED lights do not have the warnings required by Reese's Law. When button cell batteries are swallowed, the ingested batteries can cause serious injuries, internal chemical burns and death.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should stop using the recalled LED lights immediately, place them in an area that children cannot access and properly dispose of the batteries. Contact JJGoo for a full refund. Consumers should throw the balloon lights away and send a photo of the product in the trash to JJGooLEDBalloonLightsrecall@outlook.com. Note: Button cell and coin batteries are hazardous. Batteries should be disposed of or recycled by following local hazardous waste procedures."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "26274",
+        "Product Safety Warning Number": "26-190",
+        "Date": "February 19, 2026",
+        "Product Safety Warning Date": "January 15, 2026",
+        "Recall Heading": "JJGoo LED Balloon Lights Recalled Due to Risk of Serious Injury or Death from Battery Ingestion; Violates Mandatory Standard for Consumer Products with Button Cell Batteries",
+        "Name of product": "JJGoo LED Balloon Lights",
+        "Description": "This recall involves JJGoo- branded balloon lights. The recalled, submersible lights were sold in packs of 100 LED color-changing lights. Each multi-color, blinking light measures about 0.6 inches in diameter and has 200 preinstalled LR41 batteries.\"MY1005E-Colorfu1-100\" is printed on a label on the product packaging.",
+        "Hazard Description": "The recalled lights violate the https://www.cpsc.gov/Business--Manufacturing/Business-Education/Busines… standard for consumer products containing button cell or coin batteries&nbsp;because they contain button cell batteries that can be accessed easily by children, posing an ingestion hazard. Additionally, the LED lights do not have the warnings required by&nbsp;https://www.cpsc.gov/Business--Manufacturing/Business-Education/Busines…’s Law. When button cell batteries are swallowed, the ingested batteries can cause serious injuries, internal chemical burns and death.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "WASHINGTON, D.C. – The U.S. Consumer Product Safety Commission (CPSC) is warning consumers to immediately stop using JJGoo Submersible LED Lights because the products violate the mandatory standard for consumer products containing button cell or coin batteries. The LED lights contain button cell batteries that can be accessed easily by children, posing an ingestion hazard. Additionally, the LED lights do not have the required warnings.Reese’s Law and CPSC’s implementing regulations establish performance and warning label requirements for consumer products with button cell batteries to protect children from life threatening ingestion. If a child swallows a button cell battery, it can cause serious injuries, internal chemical burns or death.&nbsp;CPSC issued a Notice of Violation to the seller,&nbsp;Shenzhen Yimu Technology Co., Ltd., doing business as JJGoo, of China. JJGoo has not agreed to recall these LED lights or offer a remedy to consumers. &nbsp;About 103,000 LED lights were sold online at Amazon.com from February 2020 through November 2025 for about $16. The LED lights may have also been sold by various third-party sellers and on other websites.&nbsp;The LED mini, round waterproof ball lights were sold in packs of 100 color-changing lights. Each ball light measures about 0.67 inches in diameter and has two preinstalled LR41 button cell batteries.&nbsp;These products were manufactured in China.CPSC urges consumers to stop using the&nbsp;LED lights immediately and dispose of them. Do not sell or give away these hazardous LED lights.&nbsp;Button cell and coin batteries are hazardous. The batteries in the submersible LED lights should be disposed of or recycled following local hazardous waste procedures.&nbsp;&nbsp;Report any incidents involving injury or product defect to CPSC at&nbsp;www.SaferProducts.gov.",
+        "Remedy Type": "Refund",
+        "Units": "About 3,400",
+        "Incidents": "None reported",
+        "Remedy": "Consumers should stop using the recalled LED lights immediately, place them in an area that children cannot access&nbsp;and properly dispose of the batteries. Contact JJGoo for a full refund. Consumers should throw the balloon lights away and send a photo of the product in the trash to&nbsp;JJGooLEDBalloonLightsrecall@outlook.com.Note:&nbsp;Button cell and coin batteries are hazardous. Batteries should be disposed of or recycled by following local hazardous waste procedures.",
+        "Sold At Label": "Sold Online At",
+        "Sold At": "Amazon.com from October 2025 through November 2025 for about $10.",
+        "Importers": "",
+        "Manufacturers": "",
+        "Distributors": "",
+        "Manufactured In": "China",
+        "Custom Label": "Retailer:",
+        "Custom Field": "Shenzhen Yimu Technology Co., Ltd. dba JJGoo, of China"
+      }
+    },
+    {
+      "merged": {
+        "RecallID": 10507,
+        "RecallNumber": "26124",
+        "RecallDate": "2025-12-04T00:00:00",
+        "Description": "This recall involves Primark Water Balloon Pumps, which were sold in blue and pink. The pumps are shaped like a water bottle with a spray head. The product code 5252801 is printed on the price tag located on the back of the water balloon pump bottle.",
+        "URL": "https://www.cpsc.gov/Recalls/2026/Primark-US-Recalls-Primark-Water-Balloon-Pumps-Due-to-Injury-Hazard",
+        "Title": "Primark US Recalls Primark Water Balloon Pumps Due to Injury Hazard",
+        "ConsumerContact": "Primark at 617-946-3236 from 8 a.m. to 5 p.m. ET Monday through Friday, or go online to www.primark.com/recall, or www.primark.com and click \"Recall\" at the bottom of the page or fill out the Primark Contact Us form to receive answers to your questions or request a call from Primark Customer Service for more information.",
+        "LastPublishDate": "2025-12-04T00:00:00",
+        "Products": [
+          {
+            "Name": "Primark Water Balloon Pump",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 3,170"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Picture1_152.png",
+            "Caption": "Recalled Primark Water Balloon Pump (front)"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Picture2_119.png",
+            "Caption": "Recalled Primark Water Balloon Pump (back)"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "The firm has received two reports in the United States (and nine reports internationally) of the water balloon pumps rupturing, resulting in two reports of cuts on users' hands and fingers in the United States (and nine reports of cuts internationally)."
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Primark stores in the northeast and in Florida, Maryland and Illinois from March 2023 through July 2023 for about $6.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Primark US Corp., of Boston, Massachusetts",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": "Sold At",
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The water balloon pump can generate excessive pressure during use, causing the product to rupture, posing a risk of physical injury to the user or bystanders.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled water balloon pumps and return them to a Primark store for a full refund in the form of the original payment."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 10507,
+        "RecallNumber": "26124",
+        "RecallDate": "2025-12-04T00:00:00",
+        "Description": "This recall involves Primark Water Balloon Pumps, which were sold in blue and pink. The pumps are shaped like a water bottle with a spray head. The product code 5252801 is printed on the price tag located on the back of the water balloon pump bottle.",
+        "URL": "https://www.cpsc.gov/Recalls/2026/Primark-US-Recalls-Primark-Water-Balloon-Pumps-Due-to-Injury-Hazard",
+        "Title": "Primark US Recalls Primark Water Balloon Pumps Due to Injury Hazard",
+        "ConsumerContact": "Primark at 617-946-3236 from 8 a.m. to 5 p.m. ET Monday through Friday, or go online to www.primark.com/recall, or www.primark.com and click \"Recall\" at the bottom of the page or fill out the Primark Contact Us form to receive answers to your questions or request a call from Primark Customer Service for more information.",
+        "LastPublishDate": "2025-12-04T00:00:00",
+        "Products": [
+          {
+            "Name": "Primark Water Balloon Pump",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 3,170"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Picture1_152.png",
+            "Caption": "Recalled Primark Water Balloon Pump (front)"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Picture2_119.png",
+            "Caption": "Recalled Primark Water Balloon Pump (back)"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "The firm has received two reports in the United States (and nine reports internationally) of the water balloon pumps rupturing, resulting in two reports of cuts on users' hands and fingers in the United States (and nine reports of cuts internationally)."
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Primark stores in the northeast and in Florida, Maryland and Illinois from March 2023 through July 2023 for about $6.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Primark US Corp., of Boston, Massachusetts",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The water balloon pump can generate excessive pressure during use, causing the product to rupture, posing a risk of physical injury to the user or bystanders.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled water balloon pumps and return them to a Primark store for a full refund in the form of the original payment."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "26124",
+        "Product Safety Warning Number": "",
+        "Date": "December 04, 2025",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "Primark US Recalls Primark Water Balloon Pumps Due to Injury Hazard",
+        "Name of product": "Primark Water Balloon Pump",
+        "Description": "This recall involves Primark Water Balloon Pumps, which were sold in blue and pink. The pumps are shaped like a water bottle with a spray head. The product code 5252801 is printed on the price tag located on the back of the water balloon pump bottle.&nbsp;",
+        "Hazard Description": "The water balloon pump can generate excessive pressure during use, causing the product to rupture, posing a risk of physical injury to the user or bystanders.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Refund",
+        "Units": "About 3,170",
+        "Incidents": "The firm has received two reports in the United States (and nine reports internationally) of the water balloon pumps rupturing, resulting in two reports of cuts on users’ hands and fingers in the United States (and nine reports of cuts internationally). ",
+        "Remedy": "Consumers should immediately stop using the recalled water balloon pumps and return them to a Primark store for a full refund in the form of the original payment.",
+        "Sold At Label": "Sold At",
+        "Sold At": "Primark stores in the northeast and in Florida, Maryland and Illinois from March 2023 through July 2023 for about $6.",
+        "Importers": "Primark US Corp. of Boston, Massachusetts ",
+        "Manufacturers": "",
+        "Distributors": "",
+        "Manufactured In": "China",
+        "Custom Label": "",
+        "Custom Field": ""
+      }
+    }
+  ]
+}

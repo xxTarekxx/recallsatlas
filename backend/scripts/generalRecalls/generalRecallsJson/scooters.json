@@ -1,0 +1,276 @@
+{
+  "meta": {
+    "slug": "scooters",
+    "sourceCsvFile": "scooters_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:37.058Z",
+    "recallCount": 4
+  },
+  "recalls": [
+    {
+      "RecallID": 10470,
+      "RecallNumber": "26070",
+      "RecallDate": "2025-11-06T00:00:00",
+      "Description": "This recall involves a three-wheeled child's scooter with a foot brake. It is beige and has a T-shaped handle. The aluminum frame scooters were sold as two models. Model number KS101544-P00005 features a cherry print and model number KS101544-P00038 features a lemon print. Both models have batch number 062024, which can be found on the information sticker located on the bottom of the scooter.",
+      "URL": "https://www.cpsc.gov/Recalls/2026/Three-Wheeled-Childrens-Scooters-Recalled-Due-to-Fall-Hazard-Imported-by-Konges-Sl%C3%B8jd",
+      "Title": "Three-Wheeled Children's Scooters Recalled Due to Fall Hazard; Imported by Konges Sløjd",
+      "ConsumerContact": "Konges Sløjd via email at webshop@kongessloejd.com (for consumers) or Recall@kongessloejd.com (for businesses) or online at https://kongessloejd.com/en-us/pages/product-recall or https://kongessloejd.com/ and on \"product recall\" at the bottom of the page for more information.",
+      "LastPublishDate": "2025-11-06T00:00:00",
+      "Products": [
+        {
+          "Name": "Three-Wheeled Children's Scooter with Foot Brake",
+          "NumberOfUnits": "About 50"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/slojd-1.png",
+          "Caption": "Recalled Konges Sløjd Scooter - Cherry, model KS101544-P00005"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/slojd-2.png",
+          "Caption": "Close-up of Cherry print on the Recalled Konges Sløjd Scooter – model KS101544-P00005"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/slojd-3.png",
+          "Caption": "Recalled Konges Sløjd Scooter – Lemon, model KS101544-P00038"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/slojd-4.png",
+          "Caption": "Close-up of Lemon print on the Recalled Konges Sløjd Scooter – model KS101544-P00038"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "Konges Sløjd has received 18 reports of the left front wheel detaching, resulting in three injuries, including one report of a broken arm and a child's lost tooth."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Specialty stores nationwide and online at kongessloejd.com from September 2024 through July 2025 for $115."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Konges Sløjd, of Copenhagen, Denmark"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "The left front wheel can detach during use, posing a fall hazard."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should stop using the scooter immediately and contact Konges Sløjd for a full refund or voucher, by either providing a photo of the scooter disassembled by removing the scooter stem from the base of the scooter or returning the unit to the store where it was purchased."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ]
+    },
+    {
+      "RecallID": 10096,
+      "RecallNumber": "25052",
+      "RecallDate": "2024-11-21T00:00:00",
+      "Description": "This recall involves Segway Ninebot KickScooters with model number P100S and a manufacture date in 2023. The affected units have serial numbers containing the date codes 2308 or greater (e.g., xxxxx2308xxxxx, xxxx2310xxxxx, xxxxx2311xxxxx). The serial number is located on the left side of the KickScooter. The 6th and 7th digits represent the year of manufacture, and the 8th and 9th digits represent the week of manufacture. The product is black and gray with red accents, and the Segway label is on the rear fender. The KickScooter is 46 inches long, 25 inches wide and 50 inches high, and weighs about 72.5 pounds.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/Segway-Recalls-Segway-Ninebot-P100-KickScooters-Due-to-Fall-and-Injury-Hazards",
+      "Title": "Segway Recalls Segway Ninebot P100 KickScooters Due to Fall and Injury Hazards",
+      "ConsumerContact": "Segway toll-free at 866-473-4929 from 5:30 a.m. to 5 p.m. PT Monday through Friday, by email at recall@segway.com, or online at https://service.segway.com/recall, or www.segway.com and click on \"Recall Center\" at the bottom of the page for more information.",
+      "LastPublishDate": "2024-11-21T00:00:00",
+      "Products": [
+        {
+          "Name": "Segway Ninebot P100 KickScooters",
+          "NumberOfUnits": "About 1,400"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/segway-1.png",
+          "Caption": "Recalled Segway Ninebot P100 KickScooter"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/segway-2.png",
+          "Caption": "Location of Serial Number"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/segway-3.png",
+          "Caption": "Sample Serial Number"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received 31 reports of broken front forks, including six reports of injuries, including a fracture, cuts, scrapes, bruises and shoulder pain."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Broward Motorsport, of Fort Lauderdale, Hollywood, Hobe Sound and West Palm Beach, Florida; Mad Dog Cycles, of Orem, Utah; NYC Bike and Scooter, of New York; Scooter Mutter, of Belmont, Massachusetts; and Urban Motion, of Culver City, California and online at Amazon.com, BestBuy.com, store.segway.com, Indiegogo.com (Longham Tech Co. Limited) and https://www.ebay.com/str/skytechgaming?_trksid=p4429486.m3561.l161211(SupTech) from October 2022 through June 2024 for about $2,000."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Segway Inc., of Los Angeles"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "The front fork of the recalled KickScooters can break, posing fall and injury hazards to the rider."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should immediately stop using the recalled KickScooters and contact Segway for a free repair. Segway will direct consumers to a local store for the repair (where available) or provide a pre-paid shipping label to ship the product to a national service center for repair. Segway is contacting all known purchasers directly."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ]
+    },
+    {
+      "RecallID": 10017,
+      "RecallNumber": "24321",
+      "RecallDate": "2024-07-25T00:00:00",
+      "Description": "This recall involves Hover-1 Dynamo e-scooters with certain serial numbers. Only scooters with the letters \"WY\" as the seventh and eighth letter in the serial number are included in this recall. The serial number can be found on a label located on the underside of the scooter. The two-wheeled recalled scooters are matte black and have a kick stand and reflective lights at the front and back of the stand board. The Hover-1 logo appears on the stand board and on the bottom of the stem. Hover-1 is printed on the middle of the stem.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/DGL-Group-Recalls-Hover-1-Dynamo-E-Scooters-Due-to-Risk-of-Serious-Injury-and-Crash-Hazard-Sold-Exclusively-at-Walmart-com",
+      "Title": "DGL Group Recalls Hover-1 Dynamo E-Scooters Due to Risk of Serious Injury and Crash Hazard; Sold Exclusively at Walmart.com",
+      "ConsumerContact": "DGL Group toll-free at 844-451-7300 from 11 a.m. to 4 p.m. ET Monday through Friday, or online at www.hover-1.com/pages/dynamo_recall or www.hover-1.com and click on \"Important Recall Information\" at the top of the page.",
+      "LastPublishDate": "2024-07-25T00:00:00",
+      "Products": [
+        {
+          "Name": "Hover-1 Dynamo E-scooters",
+          "NumberOfUnits": "About 4,200"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/Hover-1-Dynamo.png",
+          "Caption": "Recalled Hover-1 Dynamo e-scooter"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/Hover-1-label.jpg",
+          "Caption": "Serial number with the letters \"WY\" as the seventh and eighth letter appears on a label on the underside of the recalled e-scooter"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "DGL Group has received 22 reports of the e-scooter's brakes failing, which resulted in seven injuries, including abrasions, contusions, a dislocated shoulder, fractured teeth, lacerations and strains."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Online at Walmart.com from November 2021 through July 2022 for about $200."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "DGL Group Ltd., of Edison, New Jersey"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "The e-scooter's brakes can fail, posing a risk of serious injury and crash hazard."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should stop using the recalled e-scooters immediately and contact DGL Group for instructions on how to receive a full refund. To receive a refund, consumers will be required to provide photographs of their e-scooter's serial number and severed motor cable."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ]
+    },
+    {
+      "RecallID": 10011,
+      "RecallNumber": "24313",
+      "RecallDate": "2024-07-25T00:00:00",
+      "Description": "This recall involves all Razor Icon electric scooters with the following model and serial numbers. The model number is printed in the lower right corner of the label located on the bottom of the deck. The serial number is printed below the bar code on the same label with \"31\", and on the back of the charger. Model Numbers Serial Numbers (first 8 digits) 13110003 31EK30-01 or 31EK30-02 13110005 31EK30-01 or 31EK30-02 13110040 31EK20-01 or 31EK20-02 13110042 31EK20-01 or 31EK20-02 13110060 31EK60-01 13110061 31EK60-01 13110062 31EK90-01 13110063 31EK90-01 13110084 31EK10-01 The Razor Icons were sold in the following colors: black, blue, orange, pink and red. Razor is printed in large lettering on the stem of the handlebars and the floorboard.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/Razor-Recalls-Icon-Electric-Scooters-Due-to-Fall-Hazard",
+      "Title": "Razor Recalls Icon Electric Scooters Due to Fall Hazard",
+      "ConsumerContact": "Razor toll-free at 866-467-2967 from 8 a.m. to 5 p.m. PT Monday through Friday, or online at www.razor.com/iconrecall or at www.razor.com and click on \"Recall Information\" at the bottom of the page for more information.",
+      "LastPublishDate": "2024-07-25T00:00:00",
+      "Products": [
+        {
+          "Name": "Razor Icon electric scooters",
+          "NumberOfUnits": "About 7,300"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/razor-icon.jpg",
+          "Caption": "Recalled Razor Icon electric scooter"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/razor-icon-sticker.jpg",
+          "Caption": "Serial Number sticker located on front left side of the deck with serial number beginning with \"31\""
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received 34 reports of partial or complete downtube separation with two reported injuries, including bruising."
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "Razor USA LLC, of Cerritos, Calif."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Target, Walmart, Best Buy, and other stores nationwide and online at Amazon.com, Walmart.com, Razor.com and other websites from September 2022 through March 2024 for about $600."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Razor USA LLC, of Cerritos, Calif."
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "The downtube of the recalled electric scooter can separate from the floorboard during use, posing a fall hazard."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should immediately stop using the recalled scooters and contact Razor to receive a refund or coupon. Consumers with proof of purchase for recalled scooters bought on or after March 11, 2023, can receive a full refund. All other consumers can request a $700 coupon for a future purchase on razor.com or a $300 refund. Consumers will be asked to remove the handlebar and return only the handlebar to Razor. Razor will send consumers a prepaid shipping label and pouch for the return. The scooter's lithium-ion batteries must be disposed of in accordance with any local and state laws, and not in the trash. The rest of the scooter should be disposed of separately in accordance with any local and state laws."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ]
+    }
+  ]
+}

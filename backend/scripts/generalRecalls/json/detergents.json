@@ -1,0 +1,193 @@
+{
+  "meta": {
+    "slug": "detergents",
+    "sourceCsvFile": "detergents_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T04:43:57.097Z",
+    "recallCount": 1
+  },
+  "recalls": [
+    {
+      "merged": {
+        "RecallID": 10207,
+        "RecallNumber": "25189",
+        "RecallDate": "2025-03-20T00:00:00",
+        "Description": "This recall involves 50-fluid-ounce bottles of Woolite Delicates detergent (SKU 62338-72724) with lot codes S24364, S24365 and S24366, sold exclusively on Amazon.com. The lot code is printed at the top of the back of the bottle. The bottles are white with a light pink label and cap. ",
+        "URL": "https://www.cpsc.gov/Recalls/2025/Woolite-Delicates-Detergent-Recalled-by-Reckitt-Due-to-Risk-of-Exposure-to-Bacteria-Sold-Exclusively-on-Amazon-com",
+        "Title": "Woolite Delicates Detergent Recalled by Reckitt Due to Risk of Exposure to Bacteria; Sold Exclusively on Amazon.com",
+        "ConsumerContact": "Reckitt at 800-228-4722 from 9 a.m. to 5 p.m. ET Monday through Friday, by email at ConsumerCare_USA@reckitt.com, or online at https://www.woolite.us/Voluntary-Recall/ or at https://www.woolite.us/ and click on “Voluntary Recall” at the top of the page for more information.",
+        "LastPublishDate": "2025-03-20T00:00:00",
+        "Products": [
+          {
+            "Name": "Woolite Delicates detergent in 50-fluid-ounce bottles",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 16,200"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Woolite-Delicates-1.jpg",
+            "Caption": "Recalled Woolite Delicates detergent, 50 fluid ounces"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Woolite-Delicates-2.png",
+            "Caption": "Recalled Woolite Delicates detergent, 50 fluid ounces and location of lot code and SKU"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [
+          {
+            "Name": "Reckitt Benckiser LLC, of Parsippany, New Jersey",
+            "CompanyID": ""
+          }
+        ],
+        "Retailers": [
+          {
+            "Name": "Sold exclusively on Amazon.com in January 2025 for between $14 and $17.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [],
+        "Distributors": [],
+        "SoldAtLabel": "Sold At",
+        "ManufacturerCountries": [
+          {
+            "Country": "United States"
+          }
+        ],
+        "ProductUPCs": [
+          {
+            "UPC": "062338727240"
+          }
+        ],
+        "Hazards": [
+          {
+            "Name": "The recalled products can contain Pseudomonas species bacteria, including Pseudomonas oleovorans, an environmental organism found widely in soil and water. People with weakened immune systems or external medical devices who are exposed to the bacteria face a risk of serious infection that may require medical treatment. The bacteria can enter the body through the eyes or through a break in the skin. People with healthy immune systems are usually not affected by the bacteria.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled Woolite Delicates detergent with lot codes S24364, S24365 and S24366 and contact Reckitt for a full refund. To receive a refund, consumers should write their name and \"Recalled\" in permanent marker on the back of the product, then take a photo with the UPC and lot code visible, and email the photo to ConsumerCare_USA@reckitt.com. Once consumers receive their refund, they should dispose of the product by closing the bottle tightly and placing it in household trash. Do not empty the product prior to disposal. Do not attempt to recycle the product bottle."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 10207,
+        "RecallNumber": "25189",
+        "RecallDate": "2025-03-20T00:00:00",
+        "Description": "This recall involves 50-fluid-ounce bottles of Woolite Delicates detergent (SKU 62338-72724) with lot codes S24364, S24365 and S24366, sold exclusively on Amazon.com. The lot code is printed at the top of the back of the bottle. The bottles are white with a light pink label and cap. ",
+        "URL": "https://www.cpsc.gov/Recalls/2025/Woolite-Delicates-Detergent-Recalled-by-Reckitt-Due-to-Risk-of-Exposure-to-Bacteria-Sold-Exclusively-on-Amazon-com",
+        "Title": "Woolite Delicates Detergent Recalled by Reckitt Due to Risk of Exposure to Bacteria; Sold Exclusively on Amazon.com",
+        "ConsumerContact": "Reckitt at 800-228-4722 from 9 a.m. to 5 p.m. ET Monday through Friday, by email at ConsumerCare_USA@reckitt.com, or online at https://www.woolite.us/Voluntary-Recall/ or at https://www.woolite.us/ and click on “Voluntary Recall” at the top of the page for more information.",
+        "LastPublishDate": "2025-03-20T00:00:00",
+        "Products": [
+          {
+            "Name": "Woolite Delicates detergent in 50-fluid-ounce bottles",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 16,200"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Woolite-Delicates-1.jpg",
+            "Caption": "Recalled Woolite Delicates detergent, 50 fluid ounces"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Woolite-Delicates-2.png",
+            "Caption": "Recalled Woolite Delicates detergent, 50 fluid ounces and location of lot code and SKU"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [
+          {
+            "Name": "Reckitt Benckiser LLC, of Parsippany, New Jersey",
+            "CompanyID": ""
+          }
+        ],
+        "Retailers": [
+          {
+            "Name": "Sold exclusively on Amazon.com in January 2025 for between $14 and $17.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [],
+        "Distributors": [],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "United States"
+          }
+        ],
+        "ProductUPCs": [
+          {
+            "UPC": "062338727240"
+          }
+        ],
+        "Hazards": [
+          {
+            "Name": "The recalled products can contain Pseudomonas species bacteria, including Pseudomonas oleovorans, an environmental organism found widely in soil and water. People with weakened immune systems or external medical devices who are exposed to the bacteria face a risk of serious infection that may require medical treatment. The bacteria can enter the body through the eyes or through a break in the skin. People with healthy immune systems are usually not affected by the bacteria.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled Woolite Delicates detergent with lot codes S24364, S24365 and S24366 and contact Reckitt for a full refund. To receive a refund, consumers should write their name and \"Recalled\" in permanent marker on the back of the product, then take a photo with the UPC and lot code visible, and email the photo to ConsumerCare_USA@reckitt.com. Once consumers receive their refund, they should dispose of the product by closing the bottle tightly and placing it in household trash. Do not empty the product prior to disposal. Do not attempt to recycle the product bottle."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "25189",
+        "Product Safety Warning Number": "",
+        "Date": "March 20, 2025",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "Woolite Delicates Detergent Recalled by Reckitt Due to Risk of Exposure to Bacteria; Sold Exclusively on Amazon.com",
+        "Name of product": "Woolite Delicates detergent in 50-fluid-ounce bottles",
+        "Description": "This recall involves 50-fluid-ounce bottles of Woolite Delicates detergent (SKU 62338-72724) with lot codes S24364, S24365 and S24366, sold exclusively on Amazon.com. The lot code is printed at the top of the back of the bottle. The bottles are white with a light pink label and cap.&nbsp;",
+        "Hazard Description": "The recalled products can contain Pseudomonas species bacteria, including Pseudomonas oleovorans, an environmental organism found widely in soil and water. People with weakened immune systems or external medical devices who are exposed to the bacteria face a risk of serious infection that may require medical treatment. The bacteria can enter the body through the eyes or through a break in the skin. People with healthy immune systems are usually not affected by the bacteria.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Refund",
+        "Units": "About 16,200",
+        "Incidents": "None reported",
+        "Remedy": "Consumers should immediately stop using the recalled Woolite Delicates detergent with lot codes S24364, S24365 and S24366 and contact Reckitt for a full refund. To receive a refund, consumers should write their name and “Recalled” in permanent marker on the back of the product, then take a photo with the UPC and lot code visible, and email the photo to&nbsp;ConsumerCare_USA@reckitt.com. Once consumers receive their refund, they should dispose of the product by closing the bottle tightly and placing it in household trash. Do not empty the product prior to disposal. Do not attempt to recycle the product bottle.",
+        "Sold At Label": "Sold At",
+        "Sold At": "Sold exclusively on Amazon.com in January 2025 for between $14 and $17.",
+        "Importers": "",
+        "Manufacturers": "Reckitt Benckiser LLC, of Parsippany, New Jersey",
+        "Distributors": "",
+        "Manufactured In": "United States",
+        "Custom Label": "",
+        "Custom Field": ""
+      }
+    }
+  ]
+}

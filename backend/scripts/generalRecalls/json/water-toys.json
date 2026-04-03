@@ -1,0 +1,357 @@
+{
+  "meta": {
+    "slug": "water-toys",
+    "sourceCsvFile": "water-toys_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T04:43:57.379Z",
+    "recallCount": 2
+  },
+  "recalls": [
+    {
+      "merged": {
+        "RecallID": 10638,
+        "RecallNumber": "26295",
+        "RecallDate": "2026-02-26T00:00:00",
+        "Description": "This recall involves TheKiddoSpace-branded reusable water balloons. The recalled refillable multi-colored water balloons are silicon balls that have small magnets to keep them closed when filled and come with a black mesh storage bag. TheKiddoSpace logo, \"Reusable Water Ballons\" and an image of child holding a water balloon are printed on the product's resealable blue packaging.",
+        "URL": "https://www.cpsc.gov/Recalls/2026/TheKiddoSpace-Recalls-Reusable-Water-Balloons-Due-to-Risk-of-Injury-from-Phthalate-Exposure-Violate-Federal-Phthalates-Ban",
+        "Title": "TheKiddoSpace Recalls Reusable Water Balloons Due to Risk of Injury from Phthalate Exposure; Violate Federal Phthalates Ban",
+        "ConsumerContact": "TheKiddoSpace by email at info@thekiddospace.com, or online at www.thekiddospacestore.com/pages/product-recalls/water-balloons or www.thekiddospacestore.com and click \"Product Safety Recalls\" at the bottom of the page for more information.",
+        "LastPublishDate": "2026-02-27T00:00:00",
+        "Products": [
+          {
+            "Name": "TheKiddoSpace Reusable Water Balloons",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 4,300"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Picture4_0.gif",
+            "Caption": "Recalled TheKiddoSpace Reusable Water Balloons"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Online at TheKiddoSpaceStore.com from April 2024 through February 2025 for between $15 and $30.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "SN Commerce LLC, dba TheKiddoSpaceStore, of Dover, Delaware",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": "Sold Online At",
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The cord lock on the recalled water ballons' storage bags contain a regulated phthalate, which violate the federal phthalate ban. Phthalates are toxic if ingested by young children and can cause adverse health effects.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should stop using the recalled reusable water balloons immediately, take the storage bag away from children and contact TheKiddoSpace to receive a free replacement bag, including shipping. Consumers will be asked to cut the storage bag in half and send a photo of the destroyed bag to info@thekiddospace.com. Consumers should then dispose of the destroyed bags in accordance with their local waste disposal requirements."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Replace"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 10638,
+        "RecallNumber": "26295",
+        "RecallDate": "2026-02-26T00:00:00",
+        "Description": "This recall involves TheKiddoSpace-branded reusable water balloons. The recalled refillable multi-colored water balloons are silicon balls that have small magnets to keep them closed when filled and come with a black mesh storage bag. TheKiddoSpace logo, \"Reusable Water Ballons\" and an image of child holding a water balloon are printed on the product's resealable blue packaging.",
+        "URL": "https://www.cpsc.gov/Recalls/2026/TheKiddoSpace-Recalls-Reusable-Water-Balloons-Due-to-Risk-of-Injury-from-Phthalate-Exposure-Violate-Federal-Phthalates-Ban",
+        "Title": "TheKiddoSpace Recalls Reusable Water Balloons Due to Risk of Injury from Phthalate Exposure; Violate Federal Phthalates Ban",
+        "ConsumerContact": "TheKiddoSpace by email at info@thekiddospace.com, or online at www.thekiddospacestore.com/pages/product-recalls/water-balloons or www.thekiddospacestore.com and click \"Product Safety Recalls\" at the bottom of the page for more information.",
+        "LastPublishDate": "2026-02-27T00:00:00",
+        "Products": [
+          {
+            "Name": "TheKiddoSpace Reusable Water Balloons",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 4,300"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Picture4_0.gif",
+            "Caption": "Recalled TheKiddoSpace Reusable Water Balloons"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Online at TheKiddoSpaceStore.com from April 2024 through February 2025 for between $15 and $30.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "SN Commerce LLC, dba TheKiddoSpaceStore, of Dover, Delaware",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The cord lock on the recalled water ballons' storage bags contain a regulated phthalate, which violate the federal phthalate ban. Phthalates are toxic if ingested by young children and can cause adverse health effects.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should stop using the recalled reusable water balloons immediately, take the storage bag away from children and contact TheKiddoSpace to receive a free replacement bag, including shipping. Consumers will be asked to cut the storage bag in half and send a photo of the destroyed bag to info@thekiddospace.com. Consumers should then dispose of the destroyed bags in accordance with their local waste disposal requirements."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Replace"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "26295",
+        "Product Safety Warning Number": "",
+        "Date": "February 26, 2026",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "TheKiddoSpace Recalls Reusable Water Balloons Due to Risk of Injury from Phthalate Exposure; Violate Federal Phthalates Ban",
+        "Name of product": "TheKiddoSpace Reusable Water Balloons",
+        "Description": "This recall involves TheKiddoSpace-branded reusable water balloons. The recalled refillable multi-colored water balloons are silicon balls that have small magnets to keep them closed when filled and come with a black mesh storage bag. TheKiddoSpace logo, “Reusable Water Ballons” and an image of child holding a water balloon are printed on the product’s resealable blue packaging.",
+        "Hazard Description": "The cord lock on the recalled water ballons’ storage bags contain a regulated phthalate, which violate the federal&nbsp;https://cpsc.gov/Business--Manufacturing/Business-Education/Business-Gu… ban. Phthalates are toxic if ingested by young children and can cause adverse health effects.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Replace",
+        "Units": "About 4,300",
+        "Incidents": "None reported",
+        "Remedy": "Consumers should stop using the recalled reusable water balloons immediately, take the storage bag away from children and contact TheKiddoSpace to receive a free replacement bag, including shipping. Consumers will be asked to cut the storage bag in half and send a photo of the destroyed bag to&nbsp;info@thekiddospace.com. Consumers should then dispose of the destroyed bags in accordance with their local waste disposal requirements.",
+        "Sold At Label": "Sold Online At",
+        "Sold At": "TheKiddoSpaceStore.com from April 2024 through February 2025 for between $15 and $30.",
+        "Importers": "SN Commerce LLC, dba TheKiddoSpaceStore, of Dover, Delaware",
+        "Manufacturers": "",
+        "Distributors": "",
+        "Manufactured In": "China",
+        "Custom Label": "",
+        "Custom Field": ""
+      }
+    },
+    {
+      "merged": {
+        "RecallID": 10552,
+        "RecallNumber": "26178",
+        "RecallDate": "2026-01-08T00:00:00",
+        "Description": "This recall involves Kori Gey-branded water elf toy kits. The recalled kits are a children's craft toy that uses colored gel dropped into water to form soft, squishy jelly-like figures. The toy kit consists of 22 bottles of water gel (12 non-sparkly and 10 sparkly), 22 molds in various shapes, a plastic strainer, a plastic jar labeled magic powder, extra magic powder packet, a paint brush, disposable gloves and a LED light with a button cell battery. The toy sets come in a plastic jar with lid. \"Kori Gey\" and \"Water Elf Kit\" are printed on the front of the toy kits.",
+        "URL": "https://www.cpsc.gov/Recalls/2026/Kori-Gey-Water-Toy-Kits-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violates-Mandatory-Standard-for-Toys-Sold-on-Amazon-by-Qaniy",
+        "Title": "Kori Gey Water Toy Kits Recalled Due to Risk of Serious Injury or Death from Battery Ingestion; Violates Mandatory Standard for Toys; Sold on Amazon by Qaniy",
+        "ConsumerContact": "Qaniy by email at changshaaoyuan@outlook.com.",
+        "LastPublishDate": "2026-01-09T00:00:00",
+        "Products": [
+          {
+            "Name": "Kori Gey Water Elf Toy Kits",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 2,240"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/KoriGey-1.png",
+            "Caption": "Recalled Kori Gey Water Elf Toy Kit"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/KoriGey-2.png",
+            "Caption": "\"Kori Gey\" and \"Water Elf Kit\" are printed on the front of the outer packaging of the recalled toy kits"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/KoriGey-3.png",
+            "Caption": "Recalled Kori Gey Water Elf Toy Kit Set – contents"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/KoriGey-4.png",
+            "Caption": "Recalled Kori Gey Water Elf Toy Kit Set – LED Light (front and back)"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported."
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Online at Amazon.com from March 2025 to July 2025 for about $30.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [],
+        "Distributors": [],
+        "SoldAtLabel": "Sold Online At",
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The recalled toy kits violate the mandatory standard for toys containing button cell batteries because the compartment that holds the batteries can be easily accessed and opened by children, posing a deadly ingestion hazard to children. When button cell and coin batteries are swallowed, the ingested batteries can cause serious injuries, internal chemical burns and death.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled toy's light up luminous gasket (a LED light containing a button cell battery), take it away from children, and remove and properly dispose of the battery. Contact Qaniy for a full refund. Consumers should throw the toy's gasket away and send a photo of the product in the trash to changshaaoyuan@outlook.com. Note: Button cell batteries are hazardous. Batteries should be disposed of or recycled by following local hazardous waste procedures."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 10552,
+        "RecallNumber": "26178",
+        "RecallDate": "2026-01-08T00:00:00",
+        "Description": "This recall involves Kori Gey-branded water elf toy kits. The recalled kits are a children's craft toy that uses colored gel dropped into water to form soft, squishy jelly-like figures. The toy kit consists of 22 bottles of water gel (12 non-sparkly and 10 sparkly), 22 molds in various shapes, a plastic strainer, a plastic jar labeled magic powder, extra magic powder packet, a paint brush, disposable gloves and a LED light with a button cell battery. The toy sets come in a plastic jar with lid. \"Kori Gey\" and \"Water Elf Kit\" are printed on the front of the toy kits.",
+        "URL": "https://www.cpsc.gov/Recalls/2026/Kori-Gey-Water-Toy-Kits-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violates-Mandatory-Standard-for-Toys-Sold-on-Amazon-by-Qaniy",
+        "Title": "Kori Gey Water Toy Kits Recalled Due to Risk of Serious Injury or Death from Battery Ingestion; Violates Mandatory Standard for Toys; Sold on Amazon by Qaniy",
+        "ConsumerContact": "Qaniy by email at changshaaoyuan@outlook.com.",
+        "LastPublishDate": "2026-01-09T00:00:00",
+        "Products": [
+          {
+            "Name": "Kori Gey Water Elf Toy Kits",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 2,240"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/KoriGey-1.png",
+            "Caption": "Recalled Kori Gey Water Elf Toy Kit"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/KoriGey-2.png",
+            "Caption": "\"Kori Gey\" and \"Water Elf Kit\" are printed on the front of the outer packaging of the recalled toy kits"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/KoriGey-3.png",
+            "Caption": "Recalled Kori Gey Water Elf Toy Kit Set – contents"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/KoriGey-4.png",
+            "Caption": "Recalled Kori Gey Water Elf Toy Kit Set – LED Light (front and back)"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported."
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Online at Amazon.com from March 2025 to July 2025 for about $30.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [],
+        "Distributors": [],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The recalled toy kits violate the mandatory standard for toys containing button cell batteries because the compartment that holds the batteries can be easily accessed and opened by children, posing a deadly ingestion hazard to children. When button cell and coin batteries are swallowed, the ingested batteries can cause serious injuries, internal chemical burns and death.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled toy's light up luminous gasket (a LED light containing a button cell battery), take it away from children, and remove and properly dispose of the battery. Contact Qaniy for a full refund. Consumers should throw the toy's gasket away and send a photo of the product in the trash to changshaaoyuan@outlook.com. Note: Button cell batteries are hazardous. Batteries should be disposed of or recycled by following local hazardous waste procedures."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "26178",
+        "Product Safety Warning Number": "",
+        "Date": "January 08, 2026",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "Kori Gey Water Toy Kits Recalled Due to Risk of Serious Injury or Death from Battery Ingestion; Violates Mandatory Standard for Toys; Sold on Amazon by Qaniy",
+        "Name of product": "Kori Gey Water Elf Toy Kits",
+        "Description": "This recall involves Kori Gey-branded water elf toy kits. The recalled kits are a children’s craft toy that uses colored gel dropped into water to form soft, squishy jelly-like figures. The toy kit consists of 22 bottles of water gel (12 non-sparkly and 10 sparkly), 22 molds in various shapes, a plastic strainer, a plastic jar labeled magic powder, extra magic powder packet, a paint brush, disposable gloves and a LED light with a button cell battery. The toy sets come in a plastic jar with lid. “Kori Gey” and “Water Elf Kit” are printed on the front of the toy kits.&nbsp;",
+        "Hazard Description": "The recalled toy kits violate the mandatory standard for toys containing button cell batteries because the compartment that holds the batteries can be easily accessed and opened by children, posing a deadly ingestion hazard to children. When button cell and coin batteries are swallowed, the ingested batteries can cause serious injuries, internal chemical burns and death.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Refund",
+        "Units": "About 2,240",
+        "Incidents": "None Reported",
+        "Remedy": "Consumers should immediately stop using the recalled toy’s light up luminous gasket (a LED light containing a button cell battery), take it away from children, and remove and properly dispose of the battery. Contact Qaniy for a full refund. Consumers should throw the toy’s gasket away and send a photo of the product in the trash to changshaaoyuan@outlook.com.&nbsp;Note: Button cell batteries are hazardous. Batteries should be disposed of or recycled by following local hazardous waste procedures.&nbsp;",
+        "Sold At Label": "Sold Online At",
+        "Sold At": "Amazon.com from March 2025 to July 2025 for about $30.",
+        "Importers": "",
+        "Manufacturers": "",
+        "Distributors": "",
+        "Manufactured In": "China",
+        "Custom Label": "",
+        "Custom Field": ""
+      }
+    }
+  ]
+}

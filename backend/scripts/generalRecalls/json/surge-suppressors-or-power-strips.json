@@ -1,0 +1,559 @@
+{
+  "meta": {
+    "slug": "surge-suppressors-or-power-strips",
+    "sourceCsvFile": "surge-suppressors-or-power-strips_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T04:43:57.353Z",
+    "recallCount": 3
+  },
+  "recalls": [
+    {
+      "merged": {
+        "RecallID": 10676,
+        "RecallNumber": "26346",
+        "RecallDate": "2026-03-26T00:00:00",
+        "Description": "This recall involves CCCEI-branded power strips with 6ft, 10ft, and 15 ft power cords. The power strips have a black metal enclosure with six receptacles made of black plastic and individual on/off switches for each receptacle. The back of the power strip has a white label that says: \"Relocatable Power Taps. Caution keep children away. To reduce the risk of electric shock, use only indoors, risk of electrical shock. Do not plug into another relocatable power taps or an extension cord. Use only in dry location. Made in China\"",
+        "URL": "https://www.cpsc.gov/Recalls/2026/CCCEI-Brand-Power-Strips-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Fire-Sold-by-Middle-Way-Electronics",
+        "Title": "CCCEI Brand Power Strips Recalled Due to Risk of Serious Injury or Death from Fire; Sold by Middle Way Electronics",
+        "ConsumerContact": "Middle Way Electronics email at CCCEIpowerstrips@outlook.com.",
+        "LastPublishDate": "2026-03-27T00:00:00",
+        "Products": [
+          {
+            "Name": "CCCEI Power Strips",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 5,543"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/ccceiPS-1.png",
+            "Caption": "Recalled CCCEI Power Strip front"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/ccceiPS-2.jpg",
+            "Caption": "Recalled CCCEI Power Strip back with white warning label"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/ccceiPS-3.jpg",
+            "Caption": "Recalled CCCEI Power Strip side"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/ccceiPS-4.jpg",
+            "Caption": "Recalled CCCEI Power Strip packaging"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "Middle Way Electronics has received two reports of the power strips sparking and melting. No fires or injuries have been reported."
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Online at Amazon.com from April 2024 to January 2026 for between $23 and $30.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [],
+        "Distributors": [
+          {
+            "Name": "Middle Way Electronics, of China",
+            "CompanyID": ""
+          }
+        ],
+        "SoldAtLabel": "Sold Online At",
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The power strips do not contain supplementary overcurrent protection, which creates a risk of fire if the power strips are overloaded. The resulting fire can cause serious injury or death from smoke inhalation and burns.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the CCCEI power strips and contact Middle Way Electronics to receive a full refund."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 10676,
+        "RecallNumber": "26346",
+        "RecallDate": "2026-03-26T00:00:00",
+        "Description": "This recall involves CCCEI-branded power strips with 6ft, 10ft, and 15 ft power cords. The power strips have a black metal enclosure with six receptacles made of black plastic and individual on/off switches for each receptacle. The back of the power strip has a white label that says: \"Relocatable Power Taps. Caution keep children away. To reduce the risk of electric shock, use only indoors, risk of electrical shock. Do not plug into another relocatable power taps or an extension cord. Use only in dry location. Made in China\"",
+        "URL": "https://www.cpsc.gov/Recalls/2026/CCCEI-Brand-Power-Strips-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Fire-Sold-by-Middle-Way-Electronics",
+        "Title": "CCCEI Brand Power Strips Recalled Due to Risk of Serious Injury or Death from Fire; Sold by Middle Way Electronics",
+        "ConsumerContact": "Middle Way Electronics email at CCCEIpowerstrips@outlook.com.",
+        "LastPublishDate": "2026-03-27T00:00:00",
+        "Products": [
+          {
+            "Name": "CCCEI Power Strips",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 5,543"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/ccceiPS-1.png",
+            "Caption": "Recalled CCCEI Power Strip front"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/ccceiPS-2.jpg",
+            "Caption": "Recalled CCCEI Power Strip back with white warning label"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/ccceiPS-3.jpg",
+            "Caption": "Recalled CCCEI Power Strip side"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/ccceiPS-4.jpg",
+            "Caption": "Recalled CCCEI Power Strip packaging"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "Middle Way Electronics has received two reports of the power strips sparking and melting. No fires or injuries have been reported."
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Online at Amazon.com from April 2024 to January 2026 for between $23 and $30.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [],
+        "Distributors": [
+          {
+            "Name": "Middle Way Electronics, of China",
+            "CompanyID": ""
+          }
+        ],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The power strips do not contain supplementary overcurrent protection, which creates a risk of fire if the power strips are overloaded. The resulting fire can cause serious injury or death from smoke inhalation and burns.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the CCCEI power strips and contact Middle Way Electronics to receive a full refund."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "26346",
+        "Product Safety Warning Number": "26-313",
+        "Date": "March 26, 2026",
+        "Product Safety Warning Date": "March 5, 2026",
+        "Recall Heading": "CCCEI Brand Power Strips Recalled Due to Risk of Serious Injury or Death from Fire; Sold by Middle Way Electronics",
+        "Name of product": "CCCEI Power Strips",
+        "Description": "This recall involves CCCEI-branded power strips with 6ft, 10ft, and 15 ft power cords. The power strips have a black metal enclosure with six receptacles made of black plastic and individual on/off switches for each receptacle. The back of the power strip has a white label that says: “Relocatable Power Taps. Caution keep children away. To reduce the risk of electric shock, use only indoors, risk of electrical shock. Do not plug into another relocatable power taps or an extension cord. Use only in dry location. Made in China”",
+        "Hazard Description": "The power strips do not contain supplementary overcurrent protection, which creates a risk of fire if the power strips are overloaded. The resulting fire can cause serious injury or death from smoke inhalation and burns.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "WASHINGTON, D.C. – The U.S. Consumer Product Safety Commission (CPSC) is warning consumers to stop using CCCEI Power Strips with 6ft, 10ft, or 15ft power cords immediately because they pose a risk of serious injury or death.&nbsp;The power strips do not contain supplementary overcurrent protection which creates a risk of fire if the power strips are overloaded. The resulting fire can cause serious injury or death from smoke inhalation and burns.&nbsp;&nbsp;The retailer, Middle Way Electronics, has not agreed to an acceptable recall.&nbsp;The defective power strips come with 6ft, 10ft, or 15ft power cords. The power strips have a black metal enclosure with six receptacles made of black plastic and individual on/off switches for each receptacle. The products were sold on Amazon.com from April 2024 through January 2026 for between $25 and $30.&nbsp;&nbsp;The defective power strips were manufactured in China.&nbsp;",
+        "Remedy Type": "Refund",
+        "Units": "About 5,543",
+        "Incidents": "Middle Way Electronics has received two reports of the power strips sparking and melting. No fires or injuries have been reported.",
+        "Remedy": "Consumers should immediately stop using the CCCEI power strips and contact Middle Way Electronics to receive a full refund.",
+        "Sold At Label": "Sold Online At",
+        "Sold At": "Amazon.com from April 2024 to January 2026 for between $23 and $30.",
+        "Importers": "",
+        "Manufacturers": "",
+        "Distributors": "",
+        "Manufactured In": "China",
+        "Custom Label": "Retailer:",
+        "Custom Field": "Middle Way Electronics, of China"
+      }
+    },
+    {
+      "merged": {
+        "RecallID": 10563,
+        "RecallNumber": "26194",
+        "RecallDate": "2026-01-15T00:00:00",
+        "Description": "This recall involves HEZI brand power strips. The HEZI power strip has either a gray or yellow metal enclosure with eight receptacles made of black plastic. There are a power and a circuit breaker switch located at the end of the metal enclosure closest to the power cord.",
+        "URL": "https://www.cpsc.gov/Recalls/2026/HEZI-Brand-Power-Strips-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Electrocution-Sold-by-HEZI-HOME",
+        "Title": "HEZI Brand Power Strips Recalled Due to Risk of Serious Injury or Death from Electrocution; Sold by HEZI HOME",
+        "ConsumerContact": "HEZI HOME toll-free at 602-804-6830 from 8 a.m. to 5 p.m. ET Monday through Friday, email at recall_hezi@163.com, or online at amazon.com/hezi and click \"Product Recalls\" at the top of the page for more information.",
+        "LastPublishDate": "2026-01-16T00:00:00",
+        "Products": [
+          {
+            "Name": "HEZI Branded Power Strips",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 1,320"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/RecalledHEZIbrandpowerstripgray.png",
+            "Caption": "Recalled HEZI brand power strip (gray)"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/RecalledHEZIbrandpowerstripyellow.png",
+            "Caption": "Recalled HEZI brand power strip (yellow)"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [
+          {
+            "Name": "Dongguan Keben Electrical Appliance Co Ltd, of China",
+            "CompanyID": ""
+          }
+        ],
+        "Retailers": [
+          {
+            "Name": "Online at Amazon.com, Ebay.com, Kmart.com and Sears.com from May 2024 through October 2025 for about $35 to $56.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Shenzhenshihezijiajuyongpinyouxiangongsi dba HEZI HOME, of China",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": "Sold Online At",
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The power strips have an ungrounded metal enclosure that poses an electrocution hazard if energized, resulting in serious injury or death.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should stop using the recalled power strips immediately and contact HEZI HOME for a full refund."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 10563,
+        "RecallNumber": "26194",
+        "RecallDate": "2026-01-15T00:00:00",
+        "Description": "This recall involves HEZI brand power strips. The HEZI power strip has either a gray or yellow metal enclosure with eight receptacles made of black plastic. There are a power and a circuit breaker switch located at the end of the metal enclosure closest to the power cord.",
+        "URL": "https://www.cpsc.gov/Recalls/2026/HEZI-Brand-Power-Strips-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Electrocution-Sold-by-HEZI-HOME",
+        "Title": "HEZI Brand Power Strips Recalled Due to Risk of Serious Injury or Death from Electrocution; Sold by HEZI HOME",
+        "ConsumerContact": "HEZI HOME toll-free at 602-804-6830 from 8 a.m. to 5 p.m. ET Monday through Friday, email at recall_hezi@163.com, or online at amazon.com/hezi and click \"Product Recalls\" at the top of the page for more information.",
+        "LastPublishDate": "2026-01-16T00:00:00",
+        "Products": [
+          {
+            "Name": "HEZI Branded Power Strips",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 1,320"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/RecalledHEZIbrandpowerstripgray.png",
+            "Caption": "Recalled HEZI brand power strip (gray)"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/RecalledHEZIbrandpowerstripyellow.png",
+            "Caption": "Recalled HEZI brand power strip (yellow)"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [
+          {
+            "Name": "Dongguan Keben Electrical Appliance Co Ltd, of China",
+            "CompanyID": ""
+          }
+        ],
+        "Retailers": [
+          {
+            "Name": "Online at Amazon.com, Ebay.com, Kmart.com and Sears.com from May 2024 through October 2025 for about $35 to $56.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Shenzhenshihezijiajuyongpinyouxiangongsi dba HEZI HOME, of China",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The power strips have an ungrounded metal enclosure that poses an electrocution hazard if energized, resulting in serious injury or death.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should stop using the recalled power strips immediately and contact HEZI HOME for a full refund."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "26194",
+        "Product Safety Warning Number": "",
+        "Date": "January 15, 2026",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "HEZI Brand Power Strips Recalled Due to Risk of Serious Injury or Death from Electrocution; Sold by HEZI HOME",
+        "Name of product": "HEZI Branded Power Strips",
+        "Description": "This recall involves HEZI brand power strips. The HEZI power strip has either a gray or yellow metal enclosure with eight receptacles made of black plastic. There are a power and a circuit breaker switch located at the end of the metal enclosure closest to the power cord.",
+        "Hazard Description": "The power strips have an ungrounded metal enclosure that poses an electrocution hazard if energized, resulting in serious injury or death.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Refund",
+        "Units": "About 1,320",
+        "Incidents": "None reported",
+        "Remedy": "Consumers should stop using the recalled power strips immediately and contact HEZI HOME for a full refund.",
+        "Sold At Label": "Sold Online At",
+        "Sold At": "Amazon.com, Ebay.com, Kmart.com and Sears.com from May 2024 through October 2025 for about $35 to $56.",
+        "Importers": "Shenzhenshihezijiajuyongpinyouxiangongsi dba HEZI HOME, of China",
+        "Manufacturers": "Dongguan Keben Electrical Appliance Co Ltd, of China",
+        "Distributors": "",
+        "Manufactured In": "China",
+        "Custom Label": "",
+        "Custom Field": ""
+      }
+    },
+    {
+      "merged": {
+        "RecallID": 10536,
+        "RecallNumber": "26161",
+        "RecallDate": "2025-12-18T00:00:00",
+        "Description": "This recall involves ANNQUAN-branded power strips models EX-D112-05 and EX-D106-25. Power strip model EX-D112-05 has a black metal enclosure with 12 receptacles made of yellow plastic. There is one on/off switch located at the end of the housing closest to the power cord. Power strip model EX-D106-25 has a yellow metal enclosure with six receptacles made of black plastic and individual on/off switches for each receptacle. The model numbers are found on the order invoice.",
+        "URL": "https://www.cpsc.gov/Recalls/2026/ANNQUAN-Brand-Power-Strips-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Fire-Sold-on-Amazon-by-Hefei-Juyuan-Sporting-Development",
+        "Title": "ANNQUAN Brand Power Strips Recalled Due to Risk of Serious Injury or Death from Fire; Sold on Amazon by Hefei Juyuan Sporting Development",
+        "ConsumerContact": "Hefei Juyuan Sporting Development at 401-998-3366 from 9 a.m. to 5 p.m. ET Monday through Friday, email at recall_annquan@163.com or online at https://annquanrecall.com/ for more information.",
+        "LastPublishDate": "2025-12-18T00:00:00",
+        "Products": [
+          {
+            "Name": "ANNQUAN Power Strips, Models EX-D112-05 and EX-D106-25",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 11,200"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/ANNQUAN-PS-1.png",
+            "Caption": "Recalled ANNQUAN Power Strip Model EX-D112-05"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/ANNQUAN-PS-2.png",
+            "Caption": "Recalled ANNQUAN Power Strip Model EX-D106-25"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "Hefei Juyuan Sporting Development has received seven reports of the power strips blowing a fuse. No fires or injuries have been reported."
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Online at Amazon.com from December 2023 through October 2025 for between $15 and $40.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [],
+        "Distributors": [
+          {
+            "Name": "Hefei Juyuan Sporting Development Co., Ltd., of China",
+            "CompanyID": ""
+          }
+        ],
+        "SoldAtLabel": "Sold Online At",
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The power strips do not contain supplementary overcurrent protection, which creates a risk of fire if the power strips are overloaded. The resulting fire can cause serious injury or death from smoke inhalation and burns.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the ANNQUAN power strips and contact Hefei Juyuan Sporting Development to receive a full refund."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 10536,
+        "RecallNumber": "26161",
+        "RecallDate": "2025-12-18T00:00:00",
+        "Description": "This recall involves ANNQUAN-branded power strips models EX-D112-05 and EX-D106-25. Power strip model EX-D112-05 has a black metal enclosure with 12 receptacles made of yellow plastic. There is one on/off switch located at the end of the housing closest to the power cord. Power strip model EX-D106-25 has a yellow metal enclosure with six receptacles made of black plastic and individual on/off switches for each receptacle. The model numbers are found on the order invoice.",
+        "URL": "https://www.cpsc.gov/Recalls/2026/ANNQUAN-Brand-Power-Strips-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Fire-Sold-on-Amazon-by-Hefei-Juyuan-Sporting-Development",
+        "Title": "ANNQUAN Brand Power Strips Recalled Due to Risk of Serious Injury or Death from Fire; Sold on Amazon by Hefei Juyuan Sporting Development",
+        "ConsumerContact": "Hefei Juyuan Sporting Development at 401-998-3366 from 9 a.m. to 5 p.m. ET Monday through Friday, email at recall_annquan@163.com or online at https://annquanrecall.com/ for more information.",
+        "LastPublishDate": "2025-12-18T00:00:00",
+        "Products": [
+          {
+            "Name": "ANNQUAN Power Strips, Models EX-D112-05 and EX-D106-25",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 11,200"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/ANNQUAN-PS-1.png",
+            "Caption": "Recalled ANNQUAN Power Strip Model EX-D112-05"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/ANNQUAN-PS-2.png",
+            "Caption": "Recalled ANNQUAN Power Strip Model EX-D106-25"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "Hefei Juyuan Sporting Development has received seven reports of the power strips blowing a fuse. No fires or injuries have been reported."
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Online at Amazon.com from December 2023 through October 2025 for between $15 and $40.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [],
+        "Distributors": [
+          {
+            "Name": "Hefei Juyuan Sporting Development Co., Ltd., of China",
+            "CompanyID": ""
+          }
+        ],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The power strips do not contain supplementary overcurrent protection, which creates a risk of fire if the power strips are overloaded. The resulting fire can cause serious injury or death from smoke inhalation and burns.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the ANNQUAN power strips and contact Hefei Juyuan Sporting Development to receive a full refund."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "26161",
+        "Product Safety Warning Number": "",
+        "Date": "December 18, 2025",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "ANNQUAN Brand Power Strips Recalled Due to Risk of Serious Injury or Death from Fire; Sold on Amazon by Hefei Juyuan Sporting Development",
+        "Name of product": "ANNQUAN Power Strips, Models EX-D112-05 and EX-D106-25",
+        "Description": "This recall involves&nbsp;ANNQUAN-branded power strips models EX-D112-05 and EX-D106-25. Power strip model EX-D112-05 has a black metal enclosure with 12 receptacles made of yellow plastic. There is one on/off switch located at the end of the housing closest to the power cord. Power strip model EX-D106-25 has a yellow metal enclosure with six receptacles made of black plastic and individual on/off switches for each receptacle. The model numbers are found on the order invoice.",
+        "Hazard Description": "The power strips do not contain supplementary overcurrent protection, which creates a risk of fire if the power strips are overloaded. The resulting fire can cause serious injury or death from smoke inhalation and burns.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Refund",
+        "Units": "About 11,200",
+        "Incidents": "Hefei Juyuan Sporting Development has received seven reports of the power strips blowing a fuse. No fires or injuries have been reported.",
+        "Remedy": "Consumers should immediately stop using the ANNQUAN power strips and contact Hefei Juyuan Sporting Development to receive a full refund.",
+        "Sold At Label": "Sold Online At",
+        "Sold At": "Amazon.com from December 2023 through October 2025 for between $15 and $40.",
+        "Importers": "",
+        "Manufacturers": "",
+        "Distributors": "",
+        "Manufactured In": "China",
+        "Custom Label": "Retailer:",
+        "Custom Field": "Hefei Juyuan Sporting Development Co., Ltd., of China"
+      }
+    }
+  ]
+}

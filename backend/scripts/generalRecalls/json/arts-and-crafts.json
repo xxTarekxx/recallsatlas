@@ -1,0 +1,739 @@
+{
+  "meta": {
+    "slug": "arts-and-crafts",
+    "sourceCsvFile": "arts-and-crafts_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T04:43:56.995Z",
+    "recallCount": 4
+  },
+  "recalls": [
+    {
+      "merged": {
+        "RecallID": 10637,
+        "RecallNumber": "26294",
+        "RecallDate": "2026-02-26T00:00:00",
+        "Description": "This recall involves KiddoSpace-branded fingerpainting kits. The recalled children's fingerpainting kits consist of one round paint palette with 12, 25 or 36 colors and one or more coloring books with between 14 and 40 pages each. TheKiddoSpace logo, \"Finger Painting Kit,\" an image of a child with painted hands and the color quantity are printed on the product's light-blue box.",
+        "URL": "https://www.cpsc.gov/Recalls/2026/TheKiddoSpace-Recalls-Childrens-Fingerpainting-Kits-Due-to-Risk-of-Injury-from-Hazardous-Substances-and-Phthalate-Exposure-Violates-Federal-Hazardous-Substances-Act-and-Phthalates-Ban",
+        "Title": "TheKiddoSpace Recalls Children's Fingerpainting Kits Due to Risk of Injury from Hazardous Substances and Phthalate Exposure; Violates Federal Hazardous Substances Act and Phthalates Ban",
+        "ConsumerContact": "TheKiddoSpace by email at info@thekiddospace.com, or online at www.thekiddospacestore.com/pages/product-recalls/finger-painting-kit or www.thekiddospacestore.com and click \"Product Safety Recalls\" at the bottom of the page for more information.",
+        "LastPublishDate": "2026-02-27T00:00:00",
+        "Products": [
+          {
+            "Name": "TheKiddoSpace Fingerpainting Kits",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 9,400"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Picture1_158.png",
+            "Caption": "Recalled TheKiddoSpace Finger Painting Kit - 25-color Paint Palette"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Picture2_48.jpg",
+            "Caption": "Recalled TheKiddoSpace Finger Painting Kit - 12-color Paint Palette"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Picture3_91.png",
+            "Caption": "Recalled TheKiddoSpace Finger Painting Kit - 36-color Paint Palette"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "TheKiddoSpace has received 18 reports worldwide, including one in the United States, of strong paint odor, skin irritation and swollen lymph nodes."
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Online at TheKiddoSpaceStore.com and Amazon.com from June 2023 through February 2025 for between $20 and $30.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "SN Commerce LLC, dba TheKiddoSpaceStore, of Dover, Delaware",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": "Sold Online At",
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The recalled children’s fingerpainting kits contain the hazardous substances methanol and ethylene glycol and are intended for children under 12 years of age, which violate the Federal Hazardous Substances Act. The products also contain a regulated phthalate, which violate the federal phthalate ban; phthalates are toxic if ingested by young children and can cause adverse health effects.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should stop using the recalled handwriting kits immediately, take the pens and refills away from children and contact The KiddoSpace to receive free replacement pens and refills, including shipping. Consumers will be asked to dispose of the pens and refills according to local and state regulations and send a photo of the disposed products to info@thekiddospace.com."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 10637,
+        "RecallNumber": "26294",
+        "RecallDate": "2026-02-26T00:00:00",
+        "Description": "This recall involves KiddoSpace-branded fingerpainting kits. The recalled children's fingerpainting kits consist of one round paint palette with 12, 25 or 36 colors and one or more coloring books with between 14 and 40 pages each. TheKiddoSpace logo, \"Finger Painting Kit,\" an image of a child with painted hands and the color quantity are printed on the product's light-blue box.",
+        "URL": "https://www.cpsc.gov/Recalls/2026/TheKiddoSpace-Recalls-Childrens-Fingerpainting-Kits-Due-to-Risk-of-Injury-from-Hazardous-Substances-and-Phthalate-Exposure-Violates-Federal-Hazardous-Substances-Act-and-Phthalates-Ban",
+        "Title": "TheKiddoSpace Recalls Children's Fingerpainting Kits Due to Risk of Injury from Hazardous Substances and Phthalate Exposure; Violates Federal Hazardous Substances Act and Phthalates Ban",
+        "ConsumerContact": "TheKiddoSpace by email at info@thekiddospace.com, or online at www.thekiddospacestore.com/pages/product-recalls/finger-painting-kit or www.thekiddospacestore.com and click \"Product Safety Recalls\" at the bottom of the page for more information.",
+        "LastPublishDate": "2026-02-27T00:00:00",
+        "Products": [
+          {
+            "Name": "TheKiddoSpace Fingerpainting Kits",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 9,400"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Picture1_158.png",
+            "Caption": "Recalled TheKiddoSpace Finger Painting Kit - 25-color Paint Palette"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Picture2_48.jpg",
+            "Caption": "Recalled TheKiddoSpace Finger Painting Kit - 12-color Paint Palette"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Picture3_91.png",
+            "Caption": "Recalled TheKiddoSpace Finger Painting Kit - 36-color Paint Palette"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "TheKiddoSpace has received 18 reports worldwide, including one in the United States, of strong paint odor, skin irritation and swollen lymph nodes."
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Online at TheKiddoSpaceStore.com and Amazon.com from June 2023 through February 2025 for between $20 and $30.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "SN Commerce LLC, dba TheKiddoSpaceStore, of Dover, Delaware",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The recalled children’s fingerpainting kits contain the hazardous substances methanol and ethylene glycol and are intended for children under 12 years of age, which violate the Federal Hazardous Substances Act. The products also contain a regulated phthalate, which violate the federal phthalate ban; phthalates are toxic if ingested by young children and can cause adverse health effects.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should stop using the recalled handwriting kits immediately, take the pens and refills away from children and contact The KiddoSpace to receive free replacement pens and refills, including shipping. Consumers will be asked to dispose of the pens and refills according to local and state regulations and send a photo of the disposed products to info@thekiddospace.com."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "26294",
+        "Product Safety Warning Number": "",
+        "Date": "February 26, 2026",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "TheKiddoSpace Recalls Children’s Fingerpainting Kits Due to Risk of Injury from Hazardous Substances and Phthalate Exposure; Violates Federal Hazardous Substances Act and Phthalates Ban",
+        "Name of product": "TheKiddoSpace Fingerpainting Kits",
+        "Description": "This recall involves KiddoSpace-branded fingerpainting kits. The recalled children’s fingerpainting kits consist of one round paint palette with 12, 25 or 36 colors and one or more coloring books with between 14 and 40 pages each. TheKiddoSpace logo, “Finger Painting Kit,” an image of a child with painted hands and the color quantity are printed on the product’s light-blue box.&nbsp;",
+        "Hazard Description": "The recalled children’s fingerpainting kits contain the hazardous substances methanol and ethylene glycol and are intended for children under 12 years of age, which violate the https://cpsc.gov/Business--Manufacturing/Business-Education/Business-Gu… lang=\"EN-US\">Federal Hazardous Substances Act. The products also contain a regulated phthalate, which violate the https://cpsc.gov/Business--Manufacturing/Business-Education/Business-Gu… lang=\"EN-US\">federal phthalate ban; phthalates are toxic if ingested by young children and can cause adverse health effects.&nbsp;",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Refund",
+        "Units": "About 9,400",
+        "Incidents": "TheKiddoSpace has received 18 reports worldwide, including one in the United States, of strong paint odor, skin irritation and swollen lymph nodes.",
+        "Remedy": "Consumers should stop using the recalled fingerpainting kits immediately, take them away from children and contact TheKiddoSpace for a full refund. Consumers will be asked to write “RECALL” on the back and lid of the paint pad and send a photo of the marked product to info@thekiddospace.com. Consumers should then dispose of kits in accordance with their local waste disposal requirements.&nbsp;",
+        "Sold At Label": "Sold Online At",
+        "Sold At": "TheKiddoSpaceStore.com and Amazon.com from June 2023 through February 2025 for between $20 and $30.",
+        "Importers": "SN Commerce LLC, dba TheKiddoSpaceStore, of Dover, Delaware",
+        "Manufacturers": "",
+        "Distributors": "",
+        "Manufactured In": "China",
+        "Custom Label": "",
+        "Custom Field": ""
+      }
+    },
+    {
+      "merged": {
+        "RecallID": 10586,
+        "RecallNumber": "26230",
+        "RecallDate": "2026-01-29T00:00:00",
+        "Description": "This recall involves Primark The Nightmare Before Christmas Glow-in-the-Dark Coloring Set, which included five coloring sheets and five glow-in-the-dark crayons in purple, yellow, pink, blue, and orange. The crayons are wrapped in black paper that read \"GLOW IN THE DARK\" with images of the head of Jack Skellington and snowflakes. The product code \"0309401\" is printed on the price tag located on the back of the packaging. \"Primark\" is printed on the top left corner on the front of the packaging and above the Mickey Mouse logo on the back of the packaging. The book measures about 11.5 x 8 inches.",
+        "URL": "https://www.cpsc.gov/Recalls/2026/Primark-Recalls-The-Nightmare-Before-Christmas-Glow-in-the-Dark-Coloring-Sets-Due-to-Ingestion-Hazard",
+        "Title": "Primark Recalls The Nightmare Before Christmas Glow-in-the-Dark Coloring Sets Due to Ingestion Hazard",
+        "ConsumerContact": "Primark at 617-946-3236 from 8 a.m. to 5 p.m. ET Monday through Friday or go online to www.primark.com/recall or www.primark.com and click \"Recall\" at the bottom of the page.",
+        "LastPublishDate": "2026-01-29T00:00:00",
+        "Products": [
+          {
+            "Name": "Primark The Nightmare Before Christmas Glow-in-the-Dark Coloring Set",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 600"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Primark-1.jpg",
+            "Caption": "Recalled Primark Glow Colouring Set (front)"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Primark-2.jpg",
+            "Caption": "Recalled Primark Glow Coloring Set (Back)"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Primark stores in the northeast and in Florida, Maryland, and Illinois from October 2024 through July 2025 for between $1.45 and $4.50.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Primark US Corp. of Boston, Massachusetts",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": "Sold At",
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The crayons in the coloring set have high levels of strontium and aluminum, and this may present a risk if ingested, posing a poisoning hazard if ingested by young children.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled Coloring Set and return it to a Primark store for a full refund in the form of the original payment."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 10586,
+        "RecallNumber": "26230",
+        "RecallDate": "2026-01-29T00:00:00",
+        "Description": "This recall involves Primark The Nightmare Before Christmas Glow-in-the-Dark Coloring Set, which included five coloring sheets and five glow-in-the-dark crayons in purple, yellow, pink, blue, and orange. The crayons are wrapped in black paper that read \"GLOW IN THE DARK\" with images of the head of Jack Skellington and snowflakes. The product code \"0309401\" is printed on the price tag located on the back of the packaging. \"Primark\" is printed on the top left corner on the front of the packaging and above the Mickey Mouse logo on the back of the packaging. The book measures about 11.5 x 8 inches.",
+        "URL": "https://www.cpsc.gov/Recalls/2026/Primark-Recalls-The-Nightmare-Before-Christmas-Glow-in-the-Dark-Coloring-Sets-Due-to-Ingestion-Hazard",
+        "Title": "Primark Recalls The Nightmare Before Christmas Glow-in-the-Dark Coloring Sets Due to Ingestion Hazard",
+        "ConsumerContact": "Primark at 617-946-3236 from 8 a.m. to 5 p.m. ET Monday through Friday or go online to www.primark.com/recall or www.primark.com and click \"Recall\" at the bottom of the page.",
+        "LastPublishDate": "2026-01-29T00:00:00",
+        "Products": [
+          {
+            "Name": "Primark The Nightmare Before Christmas Glow-in-the-Dark Coloring Set",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 600"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Primark-1.jpg",
+            "Caption": "Recalled Primark Glow Colouring Set (front)"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Primark-2.jpg",
+            "Caption": "Recalled Primark Glow Coloring Set (Back)"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Primark stores in the northeast and in Florida, Maryland, and Illinois from October 2024 through July 2025 for between $1.45 and $4.50.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Primark US Corp. of Boston, Massachusetts",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The crayons in the coloring set have high levels of strontium and aluminum, and this may present a risk if ingested, posing a poisoning hazard if ingested by young children.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled Coloring Set and return it to a Primark store for a full refund in the form of the original payment."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "26230",
+        "Product Safety Warning Number": "",
+        "Date": "January 29, 2026",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "Primark Recalls The Nightmare Before Christmas Glow-in-the-Dark Coloring Sets Due to Ingestion Hazard",
+        "Name of product": "Primark The Nightmare Before Christmas Glow-in-the-Dark Coloring Set",
+        "Description": "This recall involves Primark The Nightmare Before Christmas Glow-in-the-Dark Coloring Set, which included five coloring sheets and five glow-in-the-dark crayons in purple, yellow, pink, blue, and orange. The crayons are wrapped in black paper that read “GLOW IN THE DARK” with images of the head of Jack Skellington and snowflakes. The product code “0309401” is printed on the price tag located on the back of the packaging. “Primark” is printed on the top left corner on the front of the packaging and above the Mickey Mouse logo on the back of the packaging. The book measures about 11.5 x 8 inches.",
+        "Hazard Description": "The crayons in the coloring set have high levels of strontium and aluminum, and this may present a risk if ingested, posing a poisoning hazard if ingested by young children.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Refund",
+        "Units": "About 600",
+        "Incidents": "None reported",
+        "Remedy": "Consumers should immediately stop using the recalled Coloring Set and return it to a Primark store for a full refund in the form of the original payment.",
+        "Sold At Label": "Sold At",
+        "Sold At": "Primark stores in the northeast and in Florida, Maryland, and Illinois from October 2024 through July 2025 for between $1.45 and $4.50.",
+        "Importers": "Primark US Corp. of Boston, Massachusetts",
+        "Manufacturers": "",
+        "Distributors": "",
+        "Manufactured In": "China",
+        "Custom Label": "",
+        "Custom Field": ""
+      }
+    },
+    {
+      "merged": {
+        "RecallID": 10345,
+        "RecallNumber": "25388",
+        "RecallDate": "2025-07-17T00:00:00",
+        "Description": "This recall involves the DTR Stitch Scented Highlighters 4-pack in yellow, blue, pink and green colors. The highlighters are shaped like slushie containers with a drinking straw. Each highlighter portrays a Stitch character. The product's Kimball Number is 0688701 and can be found on the price tag located at the back of the packaging.",
+        "URL": "https://www.cpsc.gov/Recalls/2025/Primark-Recalls-DTR-Stitch-4-pack-Scented-Highlighters-Due-to-Risk-of-Phthalate-Exposure-Violates-Federal-Phthalates-Ban-Sold-by-Primark",
+        "Title": "Primark Recalls DTR Stitch 4-pack Scented Highlighters Due to Risk of Phthalate Exposure; Violates Federal Phthalates Ban; Sold by Primark",
+        "ConsumerContact": "Primark at 617-946-3236 from 8 a.m. to 5 p.m. ET Monday through Friday, or online at www.primark.com/recall or at www.primark.com and click \"Recall\" at the bottom of the page for more information.",
+        "LastPublishDate": "2025-07-17T00:00:00",
+        "Products": [
+          {
+            "Name": "Primark DTR (direct-to-retail) Stitch Scented Highlighters (4-pack)",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 2,600"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/highlighters-1.jpg",
+            "Caption": "Recalled Primark DTR Stitch 4-pack Scented Highlighters (Front)"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/highlighters-2.PNG",
+            "Caption": "Recalled Primark DTR Stitch 4-pack Scented Highlighters (Back)"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/highlighters-3.jpg",
+            "Caption": "Location of the Product Code"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Primark stores located in the northeast and in Florida, Maryland and Illinois from May 2024 through May 2025 for $5.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Primark US Corp., of Boston, Massachusetts",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": "Sold Exclusively At",
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The scented highlighters, which resemble cups with straws, contain phthalates; a violation of the federal phthalates ban. Phthalates are toxic if ingested by young children and can cause adverse health effects.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled scented highlighters and return them to a Primark store for a full refund in the form of the original payment."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 10345,
+        "RecallNumber": "25388",
+        "RecallDate": "2025-07-17T00:00:00",
+        "Description": "This recall involves the DTR Stitch Scented Highlighters 4-pack in yellow, blue, pink and green colors. The highlighters are shaped like slushie containers with a drinking straw. Each highlighter portrays a Stitch character. The product's Kimball Number is 0688701 and can be found on the price tag located at the back of the packaging.",
+        "URL": "https://www.cpsc.gov/Recalls/2025/Primark-Recalls-DTR-Stitch-4-pack-Scented-Highlighters-Due-to-Risk-of-Phthalate-Exposure-Violates-Federal-Phthalates-Ban-Sold-by-Primark",
+        "Title": "Primark Recalls DTR Stitch 4-pack Scented Highlighters Due to Risk of Phthalate Exposure; Violates Federal Phthalates Ban; Sold by Primark",
+        "ConsumerContact": "Primark at 617-946-3236 from 8 a.m. to 5 p.m. ET Monday through Friday, or online at www.primark.com/recall or at www.primark.com and click \"Recall\" at the bottom of the page for more information.",
+        "LastPublishDate": "2025-07-17T00:00:00",
+        "Products": [
+          {
+            "Name": "Primark DTR (direct-to-retail) Stitch Scented Highlighters (4-pack)",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 2,600"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/highlighters-1.jpg",
+            "Caption": "Recalled Primark DTR Stitch 4-pack Scented Highlighters (Front)"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/highlighters-2.PNG",
+            "Caption": "Recalled Primark DTR Stitch 4-pack Scented Highlighters (Back)"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/highlighters-3.jpg",
+            "Caption": "Location of the Product Code"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Primark stores located in the northeast and in Florida, Maryland and Illinois from May 2024 through May 2025 for $5.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Primark US Corp., of Boston, Massachusetts",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The scented highlighters, which resemble cups with straws, contain phthalates; a violation of the federal phthalates ban. Phthalates are toxic if ingested by young children and can cause adverse health effects.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled scented highlighters and return them to a Primark store for a full refund in the form of the original payment."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "25388",
+        "Product Safety Warning Number": "",
+        "Date": "July 17, 2025",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "Primark Recalls DTR Stitch 4-pack Scented Highlighters Due to Risk of Phthalate Exposure; Violates Federal Phthalates Ban; Sold by Primark",
+        "Name of product": "Primark DTR (direct-to-retail) Stitch Scented Highlighters (4-pack)",
+        "Description": "This recall involves the DTR Stitch Scented Highlighters 4-pack in yellow, blue, pink and green colors. The highlighters are shaped like slushie containers with a drinking straw. Each highlighter portrays a Stitch character. The product’s Kimball Number is 0688701 and can be found on the price tag located at the back of the packaging.&nbsp;",
+        "Hazard Description": "The scented highlighters, which resemble cups with straws, contain phthalates; a violation of the federal phthalates ban. Phthalates are toxic if ingested by young children and can cause adverse health effects.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Refund",
+        "Units": "About 2,600",
+        "Incidents": "None reported",
+        "Remedy": "Consumers should immediately stop using the recalled scented highlighters and return them to a Primark store for a full refund in the form of the original payment.&nbsp;",
+        "Sold At Label": "Sold Exclusively At",
+        "Sold At": "Primark stores located in the northeast and in Florida, Maryland and Illinois from May 2024 through May 2025 for $5.",
+        "Importers": "Primark US Corp., of Boston, Massachusetts",
+        "Manufacturers": "",
+        "Distributors": "",
+        "Manufactured In": "China",
+        "Custom Label": "",
+        "Custom Field": ""
+      }
+    },
+    {
+      "merged": {
+        "RecallID": 9942,
+        "RecallNumber": "24221",
+        "RecallDate": "2024-05-02T00:00:00",
+        "Description": "This recall involves Creativity Street Foam Pattern Rollers with model PAC5170, which are intended for children to use when painting. Lot codes \"02142080423\" and \"02142230523\" are included in the recall and are printed on the back of the packaging. The foam pattern rollers come in four assorted patterns, with yellow, green, blue, and red handles.",
+        "URL": "https://www.cpsc.gov/Recalls/2024/Dixon-Ticonderoga-Recalls-Creativity-Street-Foam-Pattern-Rollers-Due-to-Violation-of-Federal-Lead-Content-Ban",
+        "Title": "Dixon Ticonderoga Recalls Creativity Street Foam Pattern Rollers Due to Violation of Federal Lead Content Ban",
+        "ConsumerContact": "Dixon Ticonderoga at 800-333-2545 from 7 a.m. to 4:30 p.m. CT Monday through Friday, email at compliance@dixonusa.com, or online at https://dixonticonderogacompany.com/creativity-street-foam-pattern-rollers/ or www.dixonticonderogacompany.com and click \"Recall\" at the bottom of the page for more information.",
+        "LastPublishDate": "2024-05-02T00:00:00",
+        "Products": [
+          {
+            "Name": "Creativity Street Foam Pattern Rollers",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 2,880 (In addition, 24 in Canada)"
+          }
+        ],
+        "Inconjunctions": [
+          {
+            "URL": "https://recalls-rappels.canada.ca/en/alert-recall/creativity-street-foam-rollers-recalled-due-lead-excess-allowable-limits"
+          }
+        ],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/foam-rollers.png",
+            "Caption": "Recalled Creativity Street Foam Pattern Rollers in packaging"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/foam-rollers-model.png",
+            "Caption": "Location of model number and lot code on packaging"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Online at Amazon.com, StaplesAdvantage.com, MacPhersonsArt.com, ADASales.com and Walmart.com, and at the Teacher's Edition store in Brooklyn, New York, from September 2023 through January 2024 for about $15.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Dixon Ticonderoga Company, of Appleton, Wisconsin",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": "Sold At",
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [
+          {
+            "UPC": "021196051706"
+          }
+        ],
+        "Hazards": [
+          {
+            "Name": "The recalled foam pattern rollers are intended for children and contain levels of lead that exceed the federal lead content ban in the rollers' handles. Lead is toxic if ingested by young children and can cause adverse health effects.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled foam pattern rollers and take them away from children. Contact Dixon Ticonderoga to receive a pre-paid label to return the recalled product. When the foam pattern rollers are received, consumers will receive a full refund. All known purchasers are being contacted directly by the firm or retailer."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 9942,
+        "RecallNumber": "24221",
+        "RecallDate": "2024-05-02T00:00:00",
+        "Description": "This recall involves Creativity Street Foam Pattern Rollers with model PAC5170, which are intended for children to use when painting. Lot codes \"02142080423\" and \"02142230523\" are included in the recall and are printed on the back of the packaging. The foam pattern rollers come in four assorted patterns, with yellow, green, blue, and red handles.",
+        "URL": "https://www.cpsc.gov/Recalls/2024/Dixon-Ticonderoga-Recalls-Creativity-Street-Foam-Pattern-Rollers-Due-to-Violation-of-Federal-Lead-Content-Ban",
+        "Title": "Dixon Ticonderoga Recalls Creativity Street Foam Pattern Rollers Due to Violation of Federal Lead Content Ban",
+        "ConsumerContact": "Dixon Ticonderoga at 800-333-2545 from 7 a.m. to 4:30 p.m. CT Monday through Friday, email at compliance@dixonusa.com, or online at https://dixonticonderogacompany.com/creativity-street-foam-pattern-rollers/ or www.dixonticonderogacompany.com and click \"Recall\" at the bottom of the page for more information.",
+        "LastPublishDate": "2024-05-02T00:00:00",
+        "Products": [
+          {
+            "Name": "Creativity Street Foam Pattern Rollers",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 2,880 (In addition, 24 in Canada)"
+          }
+        ],
+        "Inconjunctions": [
+          {
+            "URL": "https://recalls-rappels.canada.ca/en/alert-recall/creativity-street-foam-rollers-recalled-due-lead-excess-allowable-limits"
+          }
+        ],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/foam-rollers.png",
+            "Caption": "Recalled Creativity Street Foam Pattern Rollers in packaging"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/foam-rollers-model.png",
+            "Caption": "Location of model number and lot code on packaging"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Online at Amazon.com, StaplesAdvantage.com, MacPhersonsArt.com, ADASales.com and Walmart.com, and at the Teacher's Edition store in Brooklyn, New York, from September 2023 through January 2024 for about $15.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Dixon Ticonderoga Company, of Appleton, Wisconsin",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [
+          {
+            "UPC": "021196051706"
+          }
+        ],
+        "Hazards": [
+          {
+            "Name": "The recalled foam pattern rollers are intended for children and contain levels of lead that exceed the federal lead content ban in the rollers' handles. Lead is toxic if ingested by young children and can cause adverse health effects.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled foam pattern rollers and take them away from children. Contact Dixon Ticonderoga to receive a pre-paid label to return the recalled product. When the foam pattern rollers are received, consumers will receive a full refund. All known purchasers are being contacted directly by the firm or retailer."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "24221",
+        "Product Safety Warning Number": "",
+        "Date": "May 02, 2024",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "Dixon Ticonderoga Recalls Creativity Street Foam Pattern Rollers Due to Violation of Federal Lead Content Ban",
+        "Name of product": "Creativity Street Foam Pattern Rollers",
+        "Description": "This recall involves Creativity Street Foam Pattern Rollers with model PAC5170, which are intended for children to use when painting. Lot codes “02142080423” and “02142230523” are included in the recall and are printed on the back of the packaging. The foam pattern rollers come in four assorted patterns, with yellow, green, blue, and red handles.",
+        "Hazard Description": "The recalled foam pattern rollers are intended for children and contain levels of lead that exceed the federal lead content ban in the rollers’ handles. Lead is toxic if ingested by young children and can cause adverse health effects.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Refund",
+        "Units": "About 2,880 (In addition, 24 in Canada)",
+        "Incidents": "None reported.",
+        "Remedy": "Consumers should immediately stop using the recalled foam pattern rollers and take them away from children. Contact Dixon Ticonderoga to receive a pre-paid label to return the recalled product. When the foam pattern rollers are received, consumers will receive a full refund. All known purchasers are being contacted directly by the firm or retailer.",
+        "Sold At Label": "Sold At",
+        "Sold At": "Online at Amazon.com, StaplesAdvantage.com, MacPhersonsArt.com, ADASales.com and Walmart.com, and at the Teacher’s Edition store in Brooklyn, New York, from September 2023 through January 2024 for about $15.",
+        "Importers": "Dixon Ticonderoga Company, of Appleton, Wisconsin",
+        "Manufacturers": "",
+        "Distributors": "",
+        "Manufactured In": "China",
+        "Custom Label": "",
+        "Custom Field": ""
+      }
+    }
+  ]
+}

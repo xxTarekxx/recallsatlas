@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "slug": "candles-or-candlesticks",
+    "sourceCsvFile": "candles-or-candlesticks_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:36.862Z",
+    "recallCount": 2
+  },
+  "recalls": [
+    {
+      "RecallID": 10465,
+      "RecallNumber": "26065",
+      "RecallDate": "2025-10-30T00:00:00",
+      "Description": "This recall involves a Halloween-themed Skeleton Wax Candle, which is a white candle in a black plastic bowl that includes skeleton and pumpkin ornaments and a duck candle. The plastic container bears a misspelled warning label that reads: \"WANING: PLASTIC CONTAINER AND ONAMENTS ARE FLAMMABLE\". Other labeling on the container includes a red $7 price sticker and a warning label that reads \"This product not intended for use by or accessible to children 12 years of age or younger. MADE IN CHINA\" with model number D310800CN01.",
+      "URL": "https://www.cpsc.gov/Recalls/2026/The-Kroger-Co-Recalls-Halloween-Themed-Skeleton-Wax-Candles-Due-to-Fire-Hazard",
+      "Title": "The Kroger Co. Recalls Halloween-Themed Skeleton Wax Candles Due to Fire Hazard",
+      "ConsumerContact": "The Kroger Co. toll-free at 800-576-4377 from 7 a.m. to Midnight ET Monday through Friday and 7 a.m. to 9:30 p.m. ET Saturday and Sunday, leave a message at https://www.kroger.com/hc/help/contact-us/customer-comments or online at www.kroger.com/i/recall-alerts or www.kroger.com and click on \"Recall Alerts\" at the bottom of the page for more information.",
+      "LastPublishDate": "2025-10-31T00:00:00",
+      "Products": [
+        {
+          "Name": "Halloween-themed Skeleton Wax Candle",
+          "NumberOfUnits": "About 3,680"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/Kroger-Wax.jpg",
+          "Caption": "Recalled Halloween-themed Skeleton Wax Candle"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "The products were sold at Kroger stores nationwide, including Dillons, Fred Meyer, Fry's, Smith's and King Soopers from September 2025 to October 2025 for about $7."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Carole Accessories, Inc., of Los Angeles, California"
+        }
+      ],
+      "Distributors": [
+        {
+          "Name": "The Kroger Co., of Cincinnati, Ohio"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "The candle contains ornaments that are flammable, posing fire and burn hazards."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should stop using the recalled candle and return them to any Kroger store for a full refund in the original form of payment."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ]
+    },
+    {
+      "RecallID": 9984,
+      "RecallNumber": "24278",
+      "RecallDate": "2024-06-20T00:00:00",
+      "Description": "This recall involves lavender scented candles in a round wooden bread bowl. These three-wick candles weigh about 8 ounces and contain three strands of lavender on top. \"CBOCS Distribution, Inc.\" and UPC 197712076826 are reflected on the label printed on the underside of the candle, as well as a warning on how to prevent fires.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/Orly-Recalls-Lavender-Scented-Candles-in-a-Round-Wooden-Bread-Bowl-Due-to-Fire-and-Burn-Hazards-Sold-Exclusively-at-Cracker-Barrel-Old-Country-Store",
+      "Title": "Orly Recalls Lavender Scented Candles in a Round Wooden Bread Bowl Due to Fire and Burn Hazards; Sold Exclusively at Cracker Barrel Old Country Store",
+      "ConsumerContact": "Orly Corporation at 800-917-2573, email at candlerecall@orly-corp.com or online at https://www.orly-corp.com/cracker-barrel-candle-recall and www.orly-corp.com and click on \"Candle Recall\" for more information.",
+      "LastPublishDate": "2024-06-20T00:00:00",
+      "Products": [
+        {
+          "Name": "Lavender scented candles in a round wooden bread bowl",
+          "NumberOfUnits": "About 3,600"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/RecalledLavender.png",
+          "Caption": "Recalled Lavender scented candle in a round wooden bread bowl"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/RecalledLavenderUnderside.png",
+          "Caption": "Label located on the underside of the recalled candle"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received eight reports of flames reaching excessive heights, including three reports of minor burns."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Cracker Barrel Old Country Store® retail stores from November 2023 through May 2024 for about $13."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "CBOCS Distribution Inc., of Lebanon, Tennessee"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "Vietnam"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "The candle's flames can reach excessive heights and can ignite the bowl, posing fire and burn hazards."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should immediately stop using the recalled lavender scented candle in a round wooden bread bowl, and return the product to any Cracker Barrel Old Country Store® location for a full refund."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ]
+    }
+  ]
+}

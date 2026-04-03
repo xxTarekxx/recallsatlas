@@ -1,0 +1,147 @@
+{
+  "meta": {
+    "slug": "printers",
+    "sourceCsvFile": "printers_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:37.046Z",
+    "recallCount": 2
+  },
+  "recalls": [
+    {
+      "RecallID": 10125,
+      "RecallNumber": "25090",
+      "RecallDate": "2025-01-16T00:00:00",
+      "Description": "This recall involves Lexmark specialty printers, models MS725dvn and MX725adve, used to print on paper, vinyl signs, banners and other plastics. The model numbers are located on the top cover and door of the printers. Model MX725dvn has a large multifunction sorter on the top of the printer. The printers have a white front and black top and sides. The front of the printers is marked with \"Lexmark\" in black and the green Lexmark logo.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/Lexmark-International-Recalls-Specialty-Printers-Due-to-Fire-Hazard",
+      "Title": "Lexmark International Recalls Specialty Printers Due to Fire Hazard",
+      "ConsumerContact": "Contact Lexmark toll-free at 866-470-1574 from 9 a.m. to 9 p.m. ET Monday through Friday, by email at safety@lexmark.com, or online at http://www.lexmark.com/recall or http://www.lexmark.com and click on \"Recall\" at the bottom of the page for more information.",
+      "LastPublishDate": "2025-01-16T00:00:00",
+      "Products": [
+        {
+          "Name": "MS725dvn and MX725adve Specialty Printers",
+          "NumberOfUnits": "About 43,510 (In addition, about 4,000 were sold in Canada)"
+        }
+      ],
+      "Inconjunctions": [
+        {
+          "URL": "https://recalls-rappels.canada.ca/en/alert-recall/lexmark-specialty-printers-recalled-due-fire-hazard"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/Lexmark-1.png",
+          "Caption": "Recalled MS725dvn Specialty Printer"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/Lexmark-2.png",
+          "Caption": "Recalled MX725adve Specialty Printer"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received two reports of the printers overheating including one reported fire. No damage or injuries have been reported."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Online at lexmark.com, CDW Logistics, Tech Data Product Management Inc. and Insight Direct USA Inc. from June 2018 through November 2024 for between $1,000 and $4,200."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Lexmark International Inc., of Lexington, Kentucky"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "A metal part inside the printer can dislodge, posing a risk of fire."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should immediately stop using the recalled printers and contact Lexmark to receive a free repair part. The repair part snaps into the unit inside the rear access panel."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ]
+    },
+    {
+      "RecallID": 9972,
+      "RecallNumber": "24264",
+      "RecallDate": "2024-06-13T00:00:00",
+      "Description": "This recall involves Bambu Lab model A1 3D printers. The sixth digit of the serial numbers of affected units, located on the QR code sticker on the rear of the printer, is \"A\". The recalled printers measure approximately 18 inches by 16 inches by 17 inches, and were sold for personal use. The company name and model, \"Bambu Lab A1\", are located on the printer's x-axis motor cover.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/Bambu-Lab-Recalls-A1-3D-Printers-Due-to-Electric-Shock-and-Fire-Hazards",
+      "Title": "Bambu Lab Recalls A1 3D Printers Due to Electric Shock and Fire Hazards",
+      "ConsumerContact": "Bambu Lab by email at a1recall@bambulab.com, or online at https://bambulab.com/en-us/support/A1recall or at https://bambulab.com/en-us and click on \"A1 Recall\" at the top of page for more information.",
+      "LastPublishDate": "2024-06-13T00:00:00",
+      "Products": [
+        {
+          "Name": "Bambu Lab A1 3D printers",
+          "NumberOfUnits": "About 12,800"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/0BambuA1.png",
+          "Caption": "Recalled Bambu Lab A1 Printer"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/1BambuA1x-axis.jpg",
+          "Caption": "Bambu Lab and \"A1\" are located on the x-axis motor"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/3Bambucodesticker.jpg",
+          "Caption": "QR code sticker on the rear of recalled 3D printer has \"A\" in the sixth digit"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received a total of 19 reports of damaged cables, including one cable sparking. No injuries have been reported."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Micro Center stores nationwide and online at us.store.bambulab.com from December 2023 through January 2024 for between $400 and $560."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Bambu Lab USA Inc., of Austin, Texas"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "When the recalled 3D printer's heatbed cable is bent or damaged, it can short-circuit and spark or burn through the insulation layer, posing electric shock and fire hazards."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should immediately stop using the recalled 3D printers, and contact Bambu Lab to arrange either (1) return of their A1 3D printers for a full refund, or (2) for free replacement of the heatbed and cable by a local electronics repair facility. Consumers requesting a full refund will be sent a prepaid shipping label to return the printer. Consumers should not attempt to fix the recalled product themselves. Bambu Lab has contacted all known purchasers."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        },
+        {
+          "Option": "Replace"
+        }
+      ]
+    }
+  ]
+}

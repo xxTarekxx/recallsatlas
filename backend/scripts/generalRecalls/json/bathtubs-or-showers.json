@@ -1,0 +1,375 @@
+{
+  "meta": {
+    "slug": "bathtubs-or-showers",
+    "sourceCsvFile": "bathtubs-or-showers_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T04:43:57.022Z",
+    "recallCount": 2
+  },
+  "recalls": [
+    {
+      "merged": {
+        "RecallID": 10060,
+        "RecallNumber": "24378",
+        "RecallDate": "2024-09-26T00:00:00",
+        "Description": "The recall involves Multi-Grip Tub Safety Bars sold under the brands Peerless, model PL585; Safety First, models SF585 and S1F585; and Delta, model DF585. The recalled Multi-Grip Tub Safety Bars are powder-coated aluminum, were sold in the color white, and feature a one-inch diameter tube with two gripping surfaces at about 8 inches and 15 inches. The model number and brand name are listed on a label on the product's packaging.",
+        "URL": "https://www.cpsc.gov/Recalls/2024/Liberty-Hardware-Recalls-Multi-Grip-Tub-Safety-Bars-Due-to-Fall-Hazard",
+        "Title": "Liberty Hardware Recalls Multi-Grip Tub Safety Bars Due to Fall Hazard",
+        "ConsumerContact": "Liberty Hardware toll-free at 844-811-4541 from 9 a.m. to 5 p.m. ET from Monday through Friday, email at recall@libertyhardware.com, or online at www.libertyhardware.com/recall-notices/tub-safety-bar or www.libertyhardware.com and click on \"RECALL NOTICE\" on the bottom right of the website.",
+        "LastPublishDate": "2024-09-26T00:00:00",
+        "Products": [
+          {
+            "Name": "Multi-Grip Tub Safety Bars",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 174,500"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/tubsafetybar.png",
+            "Caption": "Recalled Multi-Grip Tub Safety Bar"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "Liberty Hardware has received fourteen reports of the plastic sticker grip pads becoming dislodged after installation or otherwise needing replacement, including one fall with a minor injury reported."
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Ace Hardware, The Home Depot, Lowe's, Menards, Walmart, and other hardware and plumbing stores and suppliers nationwide, and online at Amazon.com and FlyingBulldogs.com from January 2011 through May 2024 for between $16 and $55.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Liberty Hardware Manufacturing Corp., of Winston-Salem, North Carolina",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": "Sold At",
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The plastic sticker grip pads can become dislodged after installation on tubs with tapered side walls, making the recalled Multi-Grip Tub Safety Bars unstable during use, posing a fall hazard.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled Multi-Grip Tub Safety Bars and contact Liberty Hardware. Consumers can request to receive a pre-paid label and free packaging to return the Multi-Grip Tub Safety Bars for a $35 refund."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 10060,
+        "RecallNumber": "24378",
+        "RecallDate": "2024-09-26T00:00:00",
+        "Description": "The recall involves Multi-Grip Tub Safety Bars sold under the brands Peerless, model PL585; Safety First, models SF585 and S1F585; and Delta, model DF585. The recalled Multi-Grip Tub Safety Bars are powder-coated aluminum, were sold in the color white, and feature a one-inch diameter tube with two gripping surfaces at about 8 inches and 15 inches. The model number and brand name are listed on a label on the product's packaging.",
+        "URL": "https://www.cpsc.gov/Recalls/2024/Liberty-Hardware-Recalls-Multi-Grip-Tub-Safety-Bars-Due-to-Fall-Hazard",
+        "Title": "Liberty Hardware Recalls Multi-Grip Tub Safety Bars Due to Fall Hazard",
+        "ConsumerContact": "Liberty Hardware toll-free at 844-811-4541 from 9 a.m. to 5 p.m. ET from Monday through Friday, email at recall@libertyhardware.com, or online at www.libertyhardware.com/recall-notices/tub-safety-bar or www.libertyhardware.com and click on \"RECALL NOTICE\" on the bottom right of the website.",
+        "LastPublishDate": "2024-09-26T00:00:00",
+        "Products": [
+          {
+            "Name": "Multi-Grip Tub Safety Bars",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 174,500"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/tubsafetybar.png",
+            "Caption": "Recalled Multi-Grip Tub Safety Bar"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "Liberty Hardware has received fourteen reports of the plastic sticker grip pads becoming dislodged after installation or otherwise needing replacement, including one fall with a minor injury reported."
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Ace Hardware, The Home Depot, Lowe's, Menards, Walmart, and other hardware and plumbing stores and suppliers nationwide, and online at Amazon.com and FlyingBulldogs.com from January 2011 through May 2024 for between $16 and $55.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Liberty Hardware Manufacturing Corp., of Winston-Salem, North Carolina",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The plastic sticker grip pads can become dislodged after installation on tubs with tapered side walls, making the recalled Multi-Grip Tub Safety Bars unstable during use, posing a fall hazard.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled Multi-Grip Tub Safety Bars and contact Liberty Hardware. Consumers can request to receive a pre-paid label and free packaging to return the Multi-Grip Tub Safety Bars for a $35 refund."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "24378",
+        "Product Safety Warning Number": "",
+        "Date": "September 26, 2024",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "Liberty Hardware Recalls Multi-Grip Tub Safety Bars Due to Fall Hazard",
+        "Name of product": "Multi-Grip Tub Safety Bars",
+        "Description": "The recall involves Multi-Grip Tub Safety Bars sold under the brands Peerless, model PL585; Safety First, models SF585 and S1F585; and Delta, model DF585. The recalled Multi-Grip Tub Safety Bars are&nbsp;powder-coated aluminum, were sold in the color white, and feature a one-inch diameter tube with two gripping surfaces at about 8 inches and 15 inches. The model number and brand name are listed on a label on the product’s packaging.",
+        "Hazard Description": "The plastic sticker grip pads can become dislodged after installation on tubs with tapered side walls, making the recalled Multi-Grip Tub Safety Bars unstable during use, posing a fall hazard.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Refund",
+        "Units": "About 174,500",
+        "Incidents": "Liberty Hardware has received fourteen reports of the plastic sticker grip pads becoming dislodged after installation or otherwise needing replacement, including one fall with a minor injury reported.",
+        "Remedy": "Consumers should immediately stop using the recalled Multi-Grip Tub Safety Bars and contact Liberty Hardware. Consumers can request to receive a pre-paid label and free packaging to return the Multi-Grip Tub Safety Bars for a $35 refund.",
+        "Sold At Label": "Sold At",
+        "Sold At": "Ace Hardware, The Home Depot, Lowe’s, Menards, Walmart, and other hardware and plumbing stores and suppliers nationwide, and online at Amazon.com and FlyingBulldogs.com from January 2011 through May 2024 for between $16 and $55.",
+        "Importers": "Liberty Hardware Manufacturing Corp., of Winston-Salem, North Carolina",
+        "Manufacturers": "",
+        "Distributors": "",
+        "Manufactured In": "China",
+        "Custom Label": "",
+        "Custom Field": ""
+      }
+    },
+    {
+      "merged": {
+        "RecallID": 9826,
+        "RecallNumber": "24086",
+        "RecallDate": "2024-01-18T00:00:00",
+        "Description": "This recall involves wall-mounted, folding shower seats made of teak wood slats joined together by support rods that extend from two wall-mounting brackets. The recalled Tilt-Up Bath & Shower Seats have model numbers SBS-101BN, SBS-101PN, SBS-101PC or SBS-101ORB and have brushed nickel, polished nickel, polished chrome or oil-rubbed bronze finishes on the support rods and bracket covers. The recalled Tilt-Up Bath & Shower Seats measure 20 inches wide by 13 inches deep.",
+        "URL": "https://www.cpsc.gov/Recalls/2024/Steamist-Recalls-Wall-Mounted-Tilt-Up-Bath-Shower-Seats-Due-to-Fall-and-Laceration-Hazards",
+        "Title": "Steamist Recalls Wall-Mounted Tilt-Up Bath & Shower Seats Due to Fall and Laceration Hazards",
+        "ConsumerContact": "Steamist toll-free at 866-968-2250 from 8 a.m. to 5 p.m. ET Monday through Friday, recall@steamist.com, or online at www.steamist.com/recall-notices or www.steamist.com and click on \"Recall Notices\" at the bottom of the website for more information.",
+        "LastPublishDate": "2024-01-18T00:00:00",
+        "Products": [
+          {
+            "Name": "Tilt-Up Bath & Shower Seats",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 3,900 (In addition, about 733 were sold in Canada and about 126 were sold in Mexico)"
+          }
+        ],
+        "Inconjunctions": [
+          {
+            "URL": "https://recalls-rappels.canada.ca/en/alert-recall/steamist-tilt-bath-shower-seat-recalled-due-potential-fall-and-laceration-hazard"
+          }
+        ],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/image3_40.png",
+            "Caption": "Recalled Tilt-Up Bath & Shower Seat with brushed nickel finish"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/image2_38.png",
+            "Caption": "Recalled Tilt-Up Bath & Shower Seat with polished nickel finish"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/image5_13.png",
+            "Caption": "Recalled Tilt-Up Bath & Shower Seat with polished chrome finish"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/image4_26.png",
+            "Caption": "Recalled Tilt-Up Bath & Shower Seat with oil-rubbed bronze finish"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "The firm has received 62 reports of the shower seats breaking, including 4 reports of injuries."
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Specialty plumbing supply outlets in the United States, Canada and Mexico from June 2009 through February 2015 for between $490 and $660.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Steamist Inc., of East Rutherford, New Jersey",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": "Sold At",
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The wall mounting bracket and seat rods supporting the Tilt-Up Bath & Shower Seat can corrode and break, posing fall and laceration hazards.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled shower seats and contact Steamist to determine if their product is included in the recall and for instructions for how to participate in the recall."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 9826,
+        "RecallNumber": "24086",
+        "RecallDate": "2024-01-18T00:00:00",
+        "Description": "This recall involves wall-mounted, folding shower seats made of teak wood slats joined together by support rods that extend from two wall-mounting brackets. The recalled Tilt-Up Bath & Shower Seats have model numbers SBS-101BN, SBS-101PN, SBS-101PC or SBS-101ORB and have brushed nickel, polished nickel, polished chrome or oil-rubbed bronze finishes on the support rods and bracket covers. The recalled Tilt-Up Bath & Shower Seats measure 20 inches wide by 13 inches deep.",
+        "URL": "https://www.cpsc.gov/Recalls/2024/Steamist-Recalls-Wall-Mounted-Tilt-Up-Bath-Shower-Seats-Due-to-Fall-and-Laceration-Hazards",
+        "Title": "Steamist Recalls Wall-Mounted Tilt-Up Bath & Shower Seats Due to Fall and Laceration Hazards",
+        "ConsumerContact": "Steamist toll-free at 866-968-2250 from 8 a.m. to 5 p.m. ET Monday through Friday, recall@steamist.com, or online at www.steamist.com/recall-notices or www.steamist.com and click on \"Recall Notices\" at the bottom of the website for more information.",
+        "LastPublishDate": "2024-01-18T00:00:00",
+        "Products": [
+          {
+            "Name": "Tilt-Up Bath & Shower Seats",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 3,900 (In addition, about 733 were sold in Canada and about 126 were sold in Mexico)"
+          }
+        ],
+        "Inconjunctions": [
+          {
+            "URL": "https://recalls-rappels.canada.ca/en/alert-recall/steamist-tilt-bath-shower-seat-recalled-due-potential-fall-and-laceration-hazard"
+          }
+        ],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/image3_40.png",
+            "Caption": "Recalled Tilt-Up Bath & Shower Seat with brushed nickel finish"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/image2_38.png",
+            "Caption": "Recalled Tilt-Up Bath & Shower Seat with polished nickel finish"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/image5_13.png",
+            "Caption": "Recalled Tilt-Up Bath & Shower Seat with polished chrome finish"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/image4_26.png",
+            "Caption": "Recalled Tilt-Up Bath & Shower Seat with oil-rubbed bronze finish"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "The firm has received 62 reports of the shower seats breaking, including 4 reports of injuries."
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Specialty plumbing supply outlets in the United States, Canada and Mexico from June 2009 through February 2015 for between $490 and $660.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Steamist Inc., of East Rutherford, New Jersey",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The wall mounting bracket and seat rods supporting the Tilt-Up Bath & Shower Seat can corrode and break, posing fall and laceration hazards.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled shower seats and contact Steamist to determine if their product is included in the recall and for instructions for how to participate in the recall."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "24086",
+        "Product Safety Warning Number": "",
+        "Date": "January 18, 2024",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "Steamist Recalls Wall-Mounted Tilt-Up Bath & Shower Seats Due to Fall and Laceration Hazards",
+        "Name of product": "Tilt-Up Bath & Shower Seats",
+        "Description": "This recall involves wall-mounted, folding shower seats made of teak wood slats joined together by support rods that extend from two wall-mounting brackets. The recalled Tilt-Up Bath &amp; Shower Seats have model numbers SBS-101BN, SBS-101PN, SBS-101PC or SBS-101ORB and have brushed nickel, polished nickel, polished chrome or oil-rubbed bronze finishes on the support rods and bracket covers. The recalled Tilt-Up Bath &amp; Shower Seats measure 20 inches wide by 13 inches deep.",
+        "Hazard Description": "The wall mounting bracket and seat rods supporting the Tilt-Up Bath &amp; Shower Seat can corrode and break, posing fall and laceration hazards.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Refund",
+        "Units": "About 3,900 (In addition, about 733 were sold in Canada and about 126 were sold in Mexico)",
+        "Incidents": "The firm has received 62 reports of the shower seats breaking, including 4 reports of injuries.",
+        "Remedy": "Consumers should immediately stop using the recalled shower seats and contact Steamist to determine if their product is included in the recall and for instructions for how to participate in the recall.",
+        "Sold At Label": "Sold At",
+        "Sold At": "Specialty plumbing supply outlets in the United States, Canada and Mexico from June 2009 through February 2015 for between $490 and $660.",
+        "Importers": "Steamist Inc., of East Rutherford, New Jersey",
+        "Manufacturers": "",
+        "Distributors": "",
+        "Manufactured In": "China",
+        "Custom Label": "",
+        "Custom Field": ""
+      }
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "meta": {
+    "slug": "food-grinders",
+    "sourceCsvFile": "food-grinders_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T04:43:57.132Z",
+    "recallCount": 1
+  },
+  "recalls": [
+    {
+      "merged": {
+        "RecallID": 9907,
+        "RecallNumber": "24178",
+        "RecallDate": "2024-04-04T00:00:00",
+        "Description": "This recall involves Mainstays Electric Mini Choppers with model number MS14100094536S1. The choppers are rechargeable and cordless, and have a green lid, white body, and clear plastic bowl. They have one blade attachment, which consists of three curved blades on one white plastic spindle. Model number MS14100094536S1 is on the label attached to the bottom of the clear plastic bowl.",
+        "URL": "https://www.cpsc.gov/Recalls/2024/Walmart-Recalls-Mainstays-Electric-Mini-Choppers-Due-to-Laceration-Hazard-Sold-Exclusively-at-Walmart",
+        "Title": "Walmart Recalls Mainstays Electric Mini Choppers Due to Laceration Hazard; Sold Exclusively at Walmart",
+        "ConsumerContact": "Walmart at 800-925-6278 from 7 a.m. through 9 p.m. CT any day, or online at https://corporate.walmart.com/recalls or https://corporate.walmart.com/ and click on \"Recalls\" at the bottom of the page for more information.",
+        "LastPublishDate": "2024-04-04T00:00:00",
+        "Products": [
+          {
+            "Name": "Mainstays Electric Mini Choppers",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 51,750"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/chopper-blade-lid.jpg",
+            "Caption": "Recalled Mainstays Electric Mini Chopper container with blade and lid"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/chopper-assembled-1.png",
+            "Caption": "Recalled Mainstays Electric Mini Chopper assembled"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/chopper-assembled-2.jpg",
+            "Caption": "Recalled Mainstays Electric Mini Chopper assembled"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "Walmart has received five reports of lacerations, two of which required medical attention, including stitches. Injuries occurred during assembly of the product or during cleaning/handling of the product."
+          }
+        ],
+        "Manufacturers": [
+          {
+            "Name": "Shuangma Plastic Manufacturing Inc., of China",
+            "CompanyID": ""
+          }
+        ],
+        "Retailers": [
+          {
+            "Name": "Walmart stores nationwide and online at Walmart.com from August 2022 through October 2023 for between $10 and $15.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Walmart Stores Inc., of Bentonville, Arkansas",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": "Sold Exclusively At",
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The chopper's blade can operate unexpectedly during assembly or when not enclosed in the container, posing a laceration hazard to consumers.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled choppers, and contact Walmart to receive a full refund. Consumers can bring the chopper to their nearest Walmart store for a refund."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 9907,
+        "RecallNumber": "24178",
+        "RecallDate": "2024-04-04T00:00:00",
+        "Description": "This recall involves Mainstays Electric Mini Choppers with model number MS14100094536S1. The choppers are rechargeable and cordless, and have a green lid, white body, and clear plastic bowl. They have one blade attachment, which consists of three curved blades on one white plastic spindle. Model number MS14100094536S1 is on the label attached to the bottom of the clear plastic bowl.",
+        "URL": "https://www.cpsc.gov/Recalls/2024/Walmart-Recalls-Mainstays-Electric-Mini-Choppers-Due-to-Laceration-Hazard-Sold-Exclusively-at-Walmart",
+        "Title": "Walmart Recalls Mainstays Electric Mini Choppers Due to Laceration Hazard; Sold Exclusively at Walmart",
+        "ConsumerContact": "Walmart at 800-925-6278 from 7 a.m. through 9 p.m. CT any day, or online at https://corporate.walmart.com/recalls or https://corporate.walmart.com/ and click on \"Recalls\" at the bottom of the page for more information.",
+        "LastPublishDate": "2024-04-04T00:00:00",
+        "Products": [
+          {
+            "Name": "Mainstays Electric Mini Choppers",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 51,750"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/chopper-blade-lid.jpg",
+            "Caption": "Recalled Mainstays Electric Mini Chopper container with blade and lid"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/chopper-assembled-1.png",
+            "Caption": "Recalled Mainstays Electric Mini Chopper assembled"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/chopper-assembled-2.jpg",
+            "Caption": "Recalled Mainstays Electric Mini Chopper assembled"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "Walmart has received five reports of lacerations, two of which required medical attention, including stitches. Injuries occurred during assembly of the product or during cleaning/handling of the product."
+          }
+        ],
+        "Manufacturers": [
+          {
+            "Name": "Shuangma Plastic Manufacturing Inc., of China",
+            "CompanyID": ""
+          }
+        ],
+        "Retailers": [
+          {
+            "Name": "Walmart stores nationwide and online at Walmart.com from August 2022 through October 2023 for between $10 and $15.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Walmart Stores Inc., of Bentonville, Arkansas",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The chopper's blade can operate unexpectedly during assembly or when not enclosed in the container, posing a laceration hazard to consumers.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled choppers, and contact Walmart to receive a full refund. Consumers can bring the chopper to their nearest Walmart store for a refund."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "24178",
+        "Product Safety Warning Number": "",
+        "Date": "April 04, 2024",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "Walmart Recalls Mainstays Electric Mini Choppers Due to Laceration Hazard; Sold Exclusively at Walmart",
+        "Name of product": "Mainstays Electric Mini Choppers",
+        "Description": "This recall involves Mainstays Electric Mini Choppers with model number MS14100094536S1. The choppers are rechargeable and cordless, and have a green lid, white body, and clear plastic bowl. They have one blade attachment, which consists of three curved blades on one white plastic spindle. Model number MS14100094536S1 is on the label attached to the bottom of the clear plastic bowl.",
+        "Hazard Description": "The chopper’s blade can operate unexpectedly during assembly or when not enclosed in the container, posing a laceration hazard to consumers.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Refund",
+        "Units": "About 51,750",
+        "Incidents": "Walmart has received five reports of lacerations, two of which required medical attention, including stitches. Injuries occurred during assembly of the product or during cleaning/handling of the product.",
+        "Remedy": "Consumers should immediately stop using the recalled choppers, and contact Walmart to receive a full refund. Consumers can bring the chopper to their nearest Walmart store for a refund.",
+        "Sold At Label": "Sold Exclusively At",
+        "Sold At": "Walmart stores nationwide and online at Walmart.com from August 2022 through October 2023 for between $10 and $15.",
+        "Importers": "Walmart Stores Inc., of Bentonville, Arkansas",
+        "Manufacturers": "Shuangma Plastic Manufacturing Inc., of China",
+        "Distributors": "",
+        "Manufactured In": "China",
+        "Custom Label": "",
+        "Custom Field": ""
+      }
+    }
+  ]
+}

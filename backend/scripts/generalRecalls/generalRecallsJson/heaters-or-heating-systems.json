@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "slug": "heaters-or-heating-systems",
+    "sourceCsvFile": "heaters-or-heating-systems_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:36.955Z",
+    "recallCount": 1
+  },
+  "recalls": [
+    {
+      "RecallID": 10679,
+      "RecallNumber": "26349",
+      "RecallDate": "2026-03-26T00:00:00",
+      "Description": "This recall involves the DIY Sauna Heater Kit. The product is a do-it-yourself kit for consumers to assemble a heating fixture with four heat-lamp bulbs (sold separately) and a metal enclosure intended for use in a separate do-it-yourself sauna enclosure, for which carpentry plans are sold separately. The Sauna Heater Kit includes a stainless steel cage (which weighs about 16 lbs., and measures 12\"H x 12\"W x 8\"D when assembled), screws/bolts for assembly, four ceramic bulb sockets, three wire connectors, two ground pigtails, and a three-prong power cord. The recalled Sauna Heater Kit is intended to attach to a customer-built wood frame.",
+      "URL": "https://www.cpsc.gov/Recalls/2026/DIY-Cold-Plunge-Recalls-Sauna-Heater-Kits-Due-to-Risk-of-Serious-Injury-or-Death-from-Fire-Hazard",
+      "Title": "DIY Cold Plunge Recalls Sauna Heater Kits Due to Risk of Serious Injury or Death from Fire Hazard",
+      "ConsumerContact": "DIY Cold Plunge by email at orders@diycoldplunge.com or online at www.diycoldplunge.com/pages/recall or www.diycoldplunge.com and click on \"Recall Information\" at the bottom of the page for more information.",
+      "LastPublishDate": "2026-03-27T00:00:00",
+      "Products": [
+        {
+          "Name": "DIY Sauna Heater Kits",
+          "NumberOfUnits": "About 675 (In addition, about 14 were sold in Canada)"
+        }
+      ],
+      "Inconjunctions": [
+        {
+          "URL": "https://recalls-rappels.canada.ca/en/alert-recall/diy-sauna-heater-kits-recalled-due-fire-hazard"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/diy-1.png",
+          "Caption": "Recalled DIY Sauna Heater Kit (shown assembled in sauna)"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/diy-2.png",
+          "Caption": "Recalled DIY Sauna Heater Kit (product photo from diycoldplunge.com)"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received 12 reports of units overheating. No fires or injuries have been reported."
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "Plunge Buddy LLC, doing business as DIY Cold Plunge, of North Mankato, Minnesota"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Online at www.diycoldplunge.com from March 2025 through February 2026 for between $400 and $500."
+        }
+      ],
+      "SoldAtLabel": "Sold Online At",
+      "ManufacturerCountries": [
+        {
+          "Country": "United States"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Electrical conductors within the sauna heater kits can overheat, posing a fire hazard and risk of serious injury or death."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should stop using the recalled Sauna Heater Kit immediately and register at www.diycoldplunge.com/pages/recall for a full refund. Consumers will be asked to submit written and photo proof that the product has been destroyed/disposed of or request a prepaid shipping label to return the product."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ]
+    }
+  ]
+}

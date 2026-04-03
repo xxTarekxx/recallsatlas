@@ -1,0 +1,191 @@
+{
+  "meta": {
+    "slug": "oral-hygiene-products",
+    "sourceCsvFile": "oral-hygiene-products_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T04:43:57.263Z",
+    "recallCount": 1
+  },
+  "recalls": [
+    {
+      "merged": {
+        "RecallID": 9878,
+        "RecallNumber": "24142",
+        "RecallDate": "2024-02-29T00:00:00",
+        "Description": "This recall involves Heritage Store Hydrogen Peroxide Mouthwash in Wintermint and Eucalyptus Mint flavors. The bottles are a dark opaque brown with a white lid. The pink and white label on the front of the bottles displays the Heritage Store logo, product name and flavor. All lots are included in the recall.",
+        "URL": "https://www.cpsc.gov/Recalls/2024/Nutraceutical-Recalls-Heritage-Store-Hydrogen-Peroxide-Mouthwash-Due-to-Risk-of-Poisoning-Violation-of-Child-Resistant-Packaging-Requirement",
+        "Title": "Nutraceutical Recalls Heritage Store Hydrogen Peroxide Mouthwash Due to Risk of Poisoning; Violation of Child Resistant Packaging Requirement",
+        "ConsumerContact": "Nutraceutical at 800-227-6063 from 7 a.m. to 5 p.m. MT Monday through Friday, email at info@nutracorp.com, or online at https://heritagestore.com/pages/recall, www.betterbeing.com/recall or www.Nutraceutical.com and click on \"Product Recall\" at the bottom right of the page for more information.",
+        "LastPublishDate": "2024-02-29T00:00:00",
+        "Products": [
+          {
+            "Name": "Heritage Store Hydrogen Peroxide Mouthwash",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 102,100"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Wintermint-mouthwash.png",
+            "Caption": "Recalled Heritage Store Hydrogen Peroxide Mouthwash - Wintermint"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/eucalyptus-mouthwash.png",
+            "Caption": "Recalled Heritage Store Hydrogen Peroxide Mouthwash - Eucalyptus Mint"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [
+          {
+            "Name": "Nutraceutical Corporation, of Salt Lake City, Utah",
+            "CompanyID": ""
+          }
+        ],
+        "Retailers": [
+          {
+            "Name": "Whole Foods, Fresh Thyme Farmers Market, Mom's Organic Market, New Season's Market and Mother's Market & Kitchen, and other stores nationwide and online at Amazon, iHerb, HeritageStore.com and other websites from October 2010 through December 2023 for about $10.50.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [],
+        "Distributors": [],
+        "SoldAtLabel": "Sold At",
+        "ManufacturerCountries": [
+          {
+            "Country": "United States"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The recalled mouthwash contains ethanol in a concentration which must be in child-resistant packaging, as required by the Poison Prevention Packaging Act (PPPA). The packaging of the products is not child-resistant, posing a risk of poisoning if the contents are swallowed by young children.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately store the recalled mouthwash in a safe location out of reach and sight of children, and contact Nutraceutical Corporation for a full refund or free replacement product, including shipping, depending on availability. Consumers will be asked to dispose of the product. Nutraceutical is contacting all known purchasers directly."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          },
+          {
+            "Option": "Replace"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 9878,
+        "RecallNumber": "24142",
+        "RecallDate": "2024-02-29T00:00:00",
+        "Description": "This recall involves Heritage Store Hydrogen Peroxide Mouthwash in Wintermint and Eucalyptus Mint flavors. The bottles are a dark opaque brown with a white lid. The pink and white label on the front of the bottles displays the Heritage Store logo, product name and flavor. All lots are included in the recall.",
+        "URL": "https://www.cpsc.gov/Recalls/2024/Nutraceutical-Recalls-Heritage-Store-Hydrogen-Peroxide-Mouthwash-Due-to-Risk-of-Poisoning-Violation-of-Child-Resistant-Packaging-Requirement",
+        "Title": "Nutraceutical Recalls Heritage Store Hydrogen Peroxide Mouthwash Due to Risk of Poisoning; Violation of Child Resistant Packaging Requirement",
+        "ConsumerContact": "Nutraceutical at 800-227-6063 from 7 a.m. to 5 p.m. MT Monday through Friday, email at info@nutracorp.com, or online at https://heritagestore.com/pages/recall, www.betterbeing.com/recall or www.Nutraceutical.com and click on \"Product Recall\" at the bottom right of the page for more information.",
+        "LastPublishDate": "2024-02-29T00:00:00",
+        "Products": [
+          {
+            "Name": "Heritage Store Hydrogen Peroxide Mouthwash",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 102,100"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Wintermint-mouthwash.png",
+            "Caption": "Recalled Heritage Store Hydrogen Peroxide Mouthwash - Wintermint"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/eucalyptus-mouthwash.png",
+            "Caption": "Recalled Heritage Store Hydrogen Peroxide Mouthwash - Eucalyptus Mint"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [
+          {
+            "Name": "Nutraceutical Corporation, of Salt Lake City, Utah",
+            "CompanyID": ""
+          }
+        ],
+        "Retailers": [
+          {
+            "Name": "Whole Foods, Fresh Thyme Farmers Market, Mom's Organic Market, New Season's Market and Mother's Market & Kitchen, and other stores nationwide and online at Amazon, iHerb, HeritageStore.com and other websites from October 2010 through December 2023 for about $10.50.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [],
+        "Distributors": [],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "United States"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The recalled mouthwash contains ethanol in a concentration which must be in child-resistant packaging, as required by the Poison Prevention Packaging Act (PPPA). The packaging of the products is not child-resistant, posing a risk of poisoning if the contents are swallowed by young children.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately store the recalled mouthwash in a safe location out of reach and sight of children, and contact Nutraceutical Corporation for a full refund or free replacement product, including shipping, depending on availability. Consumers will be asked to dispose of the product. Nutraceutical is contacting all known purchasers directly."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          },
+          {
+            "Option": "Replace"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "24142",
+        "Product Safety Warning Number": "",
+        "Date": "February 29, 2024",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "Nutraceutical Recalls Heritage Store Hydrogen Peroxide Mouthwash Due to Risk of Poisoning; Violation of Child Resistant Packaging Requirement",
+        "Name of product": "Heritage Store Hydrogen Peroxide Mouthwash",
+        "Description": "This recall involves Heritage Store Hydrogen Peroxide Mouthwash in Wintermint and Eucalyptus Mint flavors. The bottles are a dark opaque brown with a white lid. The pink and white label on the front of the bottles displays the Heritage Store logo, product name and flavor. All lots are included in the recall.",
+        "Hazard Description": "The recalled mouthwash contains ethanol in a concentration which must be in child-resistant packaging, as required by the Poison Prevention Packaging Act (PPPA). The packaging of the products is not child-resistant, posing a risk of poisoning if the contents are swallowed by young children.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Refund, Replace",
+        "Units": "About 102,100",
+        "Incidents": "None reported",
+        "Remedy": "Consumers should immediately store the recalled mouthwash in a safe location out of reach and sight of children, and contact Nutraceutical Corporation for a full refund or free replacement product, including shipping, depending on availability. Consumers will be asked to dispose of the product. Nutraceutical is contacting all known purchasers directly.",
+        "Sold At Label": "Sold At",
+        "Sold At": "Whole Foods, Fresh Thyme Farmers Market, Mom’s Organic Market, New Season’s Market and Mother’s Market &amp; Kitchen, and other stores nationwide and online at Amazon, iHerb, HeritageStore.com and other websites from October 2010 through December 2023 for about $10.50.",
+        "Importers": "",
+        "Manufacturers": "Nutraceutical Corporation, of Salt Lake City, Utah",
+        "Distributors": "",
+        "Manufactured In": "United States",
+        "Custom Label": "",
+        "Custom Field": ""
+      }
+    }
+  ]
+}

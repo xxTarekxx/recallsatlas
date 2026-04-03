@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "slug": "infant-toddler-rockers",
+    "sourceCsvFile": "infant-toddler-rockers_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:36.979Z",
+    "recallCount": 1
+  },
+  "recalls": [
+    {
+      "RecallID": 10349,
+      "RecallNumber": "25392",
+      "RecallDate": "2025-07-17T00:00:00",
+      "Description": "This recall involves Babyletto Kiwi Electronic Recliner and Glider fabric-covered chairs with two USB device charging ports. The chair is covered in various color fabrics and is approximately 29 inches wide by 36 inches deep and 41 inches high and weighs approximately 125 pounds. Units included in the recall include the following production colors, SKUs, and batch numbers. Batch numbers are printed on a white label found underneath the footrest. Color SKU Batch Number Located Under the Footrest Almond Teddy Loop with Light Wood Base M11288ATLB WC0234712405 WC0238412406 WC0238412407 WC0241142406 Latte Teddy Loop with Dark Wood Base M11288LTDB WC0229042401 WC0229052405 WC0234712405 Olive Boucle with Light Wood Base M11288OBLB WC0220062307 WC0220082308 WC0229042401 WC0229052401 WC0234712405 WC0238412407 Performance Beach Eco-Weave M11288PBEW WC0220082308 WC0223842309 WC0223842310 WC0229042401 WC0229052401 WC0229422402 WC0234712405 Performance Cream Eco-Weave M11288PCMEW WC0223842309 WC0227982312 WC0229042401 WC0229042405 WC0229052405 WC0229422405 WC0234552406 Performance Frost Eco-Twill with Light Wood Base M11288PFETLB WC0239882407 Performance Grey Eco-Weave M11288PGEW WC0220082308 WC0223842310 WC0227982312 WC0229042404 WC0229422404 WC0239122407 Performance Natural Eco-Twill with Light Wood Base M11288PNETLB WC0215282305 WC0239882407 WC0223832309 WC0229042401 Ivory Boucle with Gold Base M11288WBG WC0220062307 WC0223832309 WC0223842309 WC0223842310 WC0227982312 WC0229052401 WC0229422402 WC0229422404 WC0234712405 WC0238412406 WC0238412407",
+      "URL": "https://www.cpsc.gov/Recalls/2025/Bexco-Enterprises-Recalls-Kiwi-Electronic-Recliner-and-Swivel-Gliders-with-USB-Port-Due-to-Overheating-Hazard",
+      "Title": "Bexco Enterprises Recalls Kiwi Electronic Recliner and Swivel Gliders with USB Port Due to Overheating Hazard",
+      "ConsumerContact": "Babyletto toll-free at 866-621-9483 from 11 a.m. to 4 p.m. PT Monday through Friday, email at kiwi.recall@babyletto.com, or online at babylettorecall.com/ or www.babyletto.com and click \"Product Recalls\" at the bottom of the page.",
+      "LastPublishDate": "2025-07-17T00:00:00",
+      "Products": [
+        {
+          "Name": "Babyletto Kiwi Electronic Recliner and Swivel Gliders with USB port",
+          "NumberOfUnits": "About 9,030 (Additionally, about six were sold in Canada)"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/Bexco-1.jpg",
+          "Caption": "Recalled Kiwi Electronic Recliner and Swivel Glider with USB port module shown in chair arm (Performance Cream Eco-Weave)"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/Bexco-2.png",
+          "Caption": "Closeup of USB port module"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/Bexco-3.PNG",
+          "Caption": "Batch/Lot number is found on the label under the footrest"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received 37 reports of incidents of overheating, smoking or sparking including one minor injury. No fires or property damage have been reported."
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "Guangzhou Plenty Bicycle Co., Ltd., of China"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Bikes with the recalled batteries were sold online at amazon.com, walmart.com, ebay.com, viviebikes.com, wish.com, sears.com, wayfair.com and aliexpress.com from December 2020 through November 2023 for between $365 and $950."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Bexco Enterprises, Inc. of Pico Rivera, California"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "The USB module in the recliner arm can overheat and spark, posing an overheating hazard."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should immediately stop using the recalled recliners and contact Babyletto to receive a free repair kit. Consumers should register at babylettorecall.com/ to receive their free repair kit and installation instructions. Once consumers have completed the repair, consumers should dispose of the original USB module in their household trash."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ]
+    }
+  ]
+}

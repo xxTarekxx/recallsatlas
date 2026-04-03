@@ -1,0 +1,547 @@
+{
+  "meta": {
+    "slug": "horseback-riding",
+    "sourceCsvFile": "horseback-riding_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T04:43:57.208Z",
+    "recallCount": 3
+  },
+  "recalls": [
+    {
+      "merged": {
+        "RecallID": 10323,
+        "RecallNumber": "25358",
+        "RecallDate": "2025-06-26T00:00:00",
+        "Description": "This recall involves Swivel Port mouthpiece versions of equine bits from the Bob Avila collection. The bits include the following models: Avila Santa Maria Swivel Port (model no. AVB-171), a 7 ¼\" shank with a decorative silver design and swivel port mouthpiece; Avila Byron Swivel Port (model no. AVB-612), an 8\" Gunmetal shank, swivel port mouthpiece; Avila Phoenix Swivel Port (model no. AVB-621), an 8\" cheek with a silver and copper decorative sunflower at the top of the shank, and silver bar design on remainder of cheek; and Avila Sunflower Swivel Port (model no. AVB-222), a 7\" shank with a decorative silver and copper floral design, swivel port mouthpiece.",
+        "URL": "https://www.cpsc.gov/Recalls/2025/Professionals-Choice-Sports-Medicine-Products-Recalls-Equine-Bits-Due-to-Fall-Hazard",
+        "Title": "Professional's Choice Sports Medicine Products Recalls Equine Bits Due to Fall Hazard",
+        "ConsumerContact": "Professional's Choice Sports Medicine Products Inc. toll-free at 800-331-9421 from 8 a.m. to 4 p.m. CT Monday through Friday, email at info@profchoice.com or online at https://profchoice.com/recalls or https://profchoice.com and select \"Recalls\" from the Customer Care menu.",
+        "LastPublishDate": "2025-06-26T00:00:00",
+        "Products": [
+          {
+            "Name": "Swivel Port equine bits from Bob Avila collection",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 1,135"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/equine-bit-1.png",
+            "Caption": "Recalled Avila Santa Maria Swivel Port equine bit model number AVB-171"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/equine-bit-2.png",
+            "Caption": "Recalled Avila Sunflower Swivel Port equine bit model number AVB-222"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/equine-bit-3.png",
+            "Caption": "Recalled Avila Byron Swivel Port equine bit model number AVB-612"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/equine-bit-4.png",
+            "Caption": "Recalled Avila Phoenix Swivel Port equine bit with model number AVB-621"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "The company has received five reports of bits breaking.No injuries have been reported."
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Horse-riding supply stores nationwide and online at profchoice.com from January 2022 through March 2025 for between $120 and $160.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Professional's Choice Sports Medicine Products Inc., of Oklahoma City, Oklahoma",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": "Sold At",
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The bit can break during use, posing a fall hazard to a rider.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled bits and contact Professional's Choice Sports Medicine Products to receive a full refund or free replacement. Upon receipt of the product, Professional's Choice will send a refund payment by check or ship a replacement product, whichever the consumer prefers. Professional's Choice will provide a pre-paid shipping label to consumers. Consumers can also contact the retailer from which the product was originally purchased for a refund."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          },
+          {
+            "Option": "Replace"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 10323,
+        "RecallNumber": "25358",
+        "RecallDate": "2025-06-26T00:00:00",
+        "Description": "This recall involves Swivel Port mouthpiece versions of equine bits from the Bob Avila collection. The bits include the following models: Avila Santa Maria Swivel Port (model no. AVB-171), a 7 ¼\" shank with a decorative silver design and swivel port mouthpiece; Avila Byron Swivel Port (model no. AVB-612), an 8\" Gunmetal shank, swivel port mouthpiece; Avila Phoenix Swivel Port (model no. AVB-621), an 8\" cheek with a silver and copper decorative sunflower at the top of the shank, and silver bar design on remainder of cheek; and Avila Sunflower Swivel Port (model no. AVB-222), a 7\" shank with a decorative silver and copper floral design, swivel port mouthpiece.",
+        "URL": "https://www.cpsc.gov/Recalls/2025/Professionals-Choice-Sports-Medicine-Products-Recalls-Equine-Bits-Due-to-Fall-Hazard",
+        "Title": "Professional's Choice Sports Medicine Products Recalls Equine Bits Due to Fall Hazard",
+        "ConsumerContact": "Professional's Choice Sports Medicine Products Inc. toll-free at 800-331-9421 from 8 a.m. to 4 p.m. CT Monday through Friday, email at info@profchoice.com or online at https://profchoice.com/recalls or https://profchoice.com and select \"Recalls\" from the Customer Care menu.",
+        "LastPublishDate": "2025-06-26T00:00:00",
+        "Products": [
+          {
+            "Name": "Swivel Port equine bits from Bob Avila collection",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 1,135"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/equine-bit-1.png",
+            "Caption": "Recalled Avila Santa Maria Swivel Port equine bit model number AVB-171"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/equine-bit-2.png",
+            "Caption": "Recalled Avila Sunflower Swivel Port equine bit model number AVB-222"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/equine-bit-3.png",
+            "Caption": "Recalled Avila Byron Swivel Port equine bit model number AVB-612"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/equine-bit-4.png",
+            "Caption": "Recalled Avila Phoenix Swivel Port equine bit with model number AVB-621"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "The company has received five reports of bits breaking.No injuries have been reported."
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Horse-riding supply stores nationwide and online at profchoice.com from January 2022 through March 2025 for between $120 and $160.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Professional's Choice Sports Medicine Products Inc., of Oklahoma City, Oklahoma",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The bit can break during use, posing a fall hazard to a rider.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled bits and contact Professional's Choice Sports Medicine Products to receive a full refund or free replacement. Upon receipt of the product, Professional's Choice will send a refund payment by check or ship a replacement product, whichever the consumer prefers. Professional's Choice will provide a pre-paid shipping label to consumers. Consumers can also contact the retailer from which the product was originally purchased for a refund."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          },
+          {
+            "Option": "Replace"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "25358",
+        "Product Safety Warning Number": "",
+        "Date": "June 26, 2025",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "Professional’s Choice Sports Medicine Products Recalls Equine Bits Due to Fall Hazard",
+        "Name of product": "Swivel Port equine bits from Bob Avila collection",
+        "Description": "This recall involves Swivel Port mouthpiece versions of equine bits from the Bob Avila collection.&nbsp;The bits include the following models: Avila Santa Maria Swivel Port (model no. AVB-171), a 7 ¼” shank with a decorative silver design and swivel port mouthpiece; Avila Byron Swivel Port (model no. AVB-612), an 8” Gunmetal shank, swivel port mouthpiece; Avila Phoenix Swivel Port (model no. AVB-621), an 8” cheek with a silver and copper decorative sunflower at the top of the shank, and silver bar design on remainder of cheek; and Avila Sunflower Swivel Port (model no. AVB-222), a 7” shank with a decorative silver and copper floral design, swivel port mouthpiece.&nbsp;",
+        "Hazard Description": "The bit can break during use, posing a fall hazard to a rider.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Refund, Replace",
+        "Units": "About 1,135",
+        "Incidents": "The company has received five reports of bits breaking.  No injuries have been reported.",
+        "Remedy": "Consumers should immediately stop using the recalled bits and contact Professional’s Choice Sports Medicine Products to receive a full refund or free replacement. Upon receipt of the product, Professional’s Choice will send a refund payment by check or ship a replacement product, whichever the consumer prefers. Professional’s Choice will provide a pre-paid shipping label to consumers. Consumers can also contact the retailer from which the product was originally purchased for a refund.&nbsp;",
+        "Sold At Label": "Sold At",
+        "Sold At": "Horse-riding supply stores nationwide and online at profchoice.com from January 2022 through March 2025 for between $120 and $160.",
+        "Importers": "Professional's Choice Sports Medicine Products Inc., of Oklahoma City, Oklahoma",
+        "Manufacturers": "",
+        "Distributors": "",
+        "Manufactured In": "China",
+        "Custom Label": "",
+        "Custom Field": ""
+      }
+    },
+    {
+      "merged": {
+        "RecallID": 10322,
+        "RecallNumber": "25357",
+        "RecallDate": "2025-06-26T00:00:00",
+        "Description": "This recall includes Shoulder Relief Cinches which are designed to hold the saddle in place on the horse. The leather cinch comes in black and brown colors and measures between 24 and 36 inches. The Total Saddle Fit name is located near the buckle on the cinch. This recall only includes cinches sold prior to August 2021, which can be identified by a Shoulder Relief Cinch with a round buckle and no center elastic on the cinch.",
+        "URL": "https://www.cpsc.gov/Recalls/2025/Total-Saddle-Fit-Recalls-Western-Saddle-Cinches-Due-to-Fall-and-Injury-Hazards",
+        "Title": "Total Saddle Fit Recalls Western Saddle Cinches Due to Fall and Injury Hazards",
+        "ConsumerContact": "Total Saddle Fit by email at care@totalsaddlefit.com or https:// www.totalsaddlefit.com/recall or at https://www.totalsaddlefit.com and click on \"Safety Recall\" at the bottom of the page for more information.",
+        "LastPublishDate": "2025-06-26T00:00:00",
+        "Products": [
+          {
+            "Name": "Shoulder Relief Saddle Cinches",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 10,000"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/saddle-cinch-1.jpg",
+            "Caption": "Recalled Shoulder Relief Cinch"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/saddle-cinch-2.png",
+            "Caption": "Recalled Shoulder Relief Cinch in brown and black color"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "The firm has received 19 reports of the cinch coming apart and the saddle falling off, including one report of a rider fracturing their ribs."
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Online at totalsaddlefit.com as well as Hitching Post Tack Shop, Tack & Western Wear and Saddlery Direct nationwide from August 2015 through August 2021 for about $140.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Total Saddle Fit, LLC, of Jamul, California",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": "Sold At",
+        "ManufacturerCountries": [
+          {
+            "Country": "India"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The cinch can come apart and cause the saddle to fall off, posing fall and injury hazards to the rider.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled Shoulder Relief Cinch and contact Total Saddle Fit for a free replacement, and instructions on how to return the original cinch (pre-paid shipping label will be provided). Total Saddle Fit is contacting all known purchasers."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Replace"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 10322,
+        "RecallNumber": "25357",
+        "RecallDate": "2025-06-26T00:00:00",
+        "Description": "This recall includes Shoulder Relief Cinches which are designed to hold the saddle in place on the horse. The leather cinch comes in black and brown colors and measures between 24 and 36 inches. The Total Saddle Fit name is located near the buckle on the cinch. This recall only includes cinches sold prior to August 2021, which can be identified by a Shoulder Relief Cinch with a round buckle and no center elastic on the cinch.",
+        "URL": "https://www.cpsc.gov/Recalls/2025/Total-Saddle-Fit-Recalls-Western-Saddle-Cinches-Due-to-Fall-and-Injury-Hazards",
+        "Title": "Total Saddle Fit Recalls Western Saddle Cinches Due to Fall and Injury Hazards",
+        "ConsumerContact": "Total Saddle Fit by email at care@totalsaddlefit.com or https:// www.totalsaddlefit.com/recall or at https://www.totalsaddlefit.com and click on \"Safety Recall\" at the bottom of the page for more information.",
+        "LastPublishDate": "2025-06-26T00:00:00",
+        "Products": [
+          {
+            "Name": "Shoulder Relief Saddle Cinches",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 10,000"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/saddle-cinch-1.jpg",
+            "Caption": "Recalled Shoulder Relief Cinch"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/saddle-cinch-2.png",
+            "Caption": "Recalled Shoulder Relief Cinch in brown and black color"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "The firm has received 19 reports of the cinch coming apart and the saddle falling off, including one report of a rider fracturing their ribs."
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Online at totalsaddlefit.com as well as Hitching Post Tack Shop, Tack & Western Wear and Saddlery Direct nationwide from August 2015 through August 2021 for about $140.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Total Saddle Fit, LLC, of Jamul, California",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "India"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The cinch can come apart and cause the saddle to fall off, posing fall and injury hazards to the rider.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled Shoulder Relief Cinch and contact Total Saddle Fit for a free replacement, and instructions on how to return the original cinch (pre-paid shipping label will be provided). Total Saddle Fit is contacting all known purchasers."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Replace"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "25357",
+        "Product Safety Warning Number": "",
+        "Date": "June 26, 2025",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "Total Saddle Fit Recalls Western Saddle Cinches Due to Fall and Injury Hazards",
+        "Name of product": "Shoulder Relief Saddle Cinches",
+        "Description": "This recall includes Shoulder Relief Cinches which are designed to hold the saddle in place on the horse. The leather cinch comes in black and brown colors and measures between 24 and 36 inches. The Total Saddle Fit name is located near the buckle on the cinch. This recall only includes cinches sold prior to August 2021, which can be identified by a Shoulder Relief Cinch with a round buckle and no center elastic on the cinch.",
+        "Hazard Description": "The cinch can come apart and cause the saddle to fall off, posing fall and injury hazards to the rider.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Replace",
+        "Units": "About 10,000",
+        "Incidents": "The firm has received 19 reports of the cinch coming apart and the saddle falling off, including one report of a rider fracturing their ribs.",
+        "Remedy": "Consumers should immediately stop using the recalled Shoulder Relief Cinch and contact Total Saddle Fit for a free replacement, and instructions on how to return the original cinch (pre-paid shipping label will be provided). Total Saddle Fit is contacting all known purchasers. &nbsp;&nbsp;",
+        "Sold At Label": "Sold At",
+        "Sold At": "Online at totalsaddlefit.com as well as Hitching Post Tack Shop, Tack &amp; Western Wear and Saddlery Direct nationwide from August 2015 through August 2021 for about $140.",
+        "Importers": "Total Saddle Fit, LLC, of Jamul, California",
+        "Manufacturers": "",
+        "Distributors": "",
+        "Manufactured In": "India",
+        "Custom Label": "",
+        "Custom Field": ""
+      }
+    },
+    {
+      "merged": {
+        "RecallID": 9802,
+        "RecallNumber": "24734",
+        "RecallDate": "2023-12-14T00:00:00",
+        "Description": "This recall involves nine models of Collegiate English horse-riding saddles: Degree Mono Event, Graduate Close Contact, Honour Close Contact, Integrity Mono Dressage, Lectern Dressage and Warwick Close Contact. All of the saddles are branded Collegiate and have a Collegiate nail head in the head of the saddle and Collegiate brand printed on the stirrup keeper. The saddles measure between 15 and 18 inches and were sold in black or brown leather or synthetic depending on the model. All Lectern saddles are included in this recall. For all other models, only saddles manufactured between March 2019 through July 2023 are included in this recall. The manufacturing date, in MM-YYYY format, is the last six digits of the serial number. The serial number is stamped on the underflap of the saddle, below \"Made in India.\"",
+        "URL": "https://www.cpsc.gov/Recalls/2024/Weatherbeeta-USA-Recalls-Collegiate-Horse-Riding-Saddles-Due-to-Injury-Hazard-Recall-Alert",
+        "Title": "Weatherbeeta USA Recalls Collegiate Horse-Riding Saddles Due to Injury Hazard (Recall Alert)",
+        "ConsumerContact": "Weatherbeeta USA at 800-526-6310 from 8:30 a.m. to 5 p.m. ET Monday through Friday, email at collegiaterecallusa@weatherbeeta.com, or online at www.weatherbeeta.com/collegiate-recall or www.Collegiatesaddlery.com and click on \"Saddle Recall Information\" for more information.",
+        "LastPublishDate": "2023-12-14T00:00:00",
+        "Products": [
+          {
+            "Name": "Collegiate English Horse-Riding Saddles",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 2,300"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/saddles.png",
+            "Caption": "Recalled Weatherbeeta USA Collegiate Horse-Riding Saddles"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "The firm has received 12 reports of saddle's rivet or stirrup bar breaking. One fall injury has been reported."
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Dover Saddlery, Equss Now, Strafford Saddlery Shop, The Carousel Horse Tack and other stores nationwide and online at www.doversaddlery.com, www.smartpakequine.com, www.statelinetack.com and www.weatherbeeta.com from May 2019 through October 2023 for between $430 and $1,300, depending on the mode.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "WeatherBeeta USA Inc., of Easton, Pennsylvania",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": "Sold At",
+        "ManufacturerCountries": [
+          {
+            "Country": "India"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The saddle's rivet or stirrup bar can break, causing the rider to fall, posing an injury hazard.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled saddles and contact Weatherbeeta for instructions to return the recalled saddle to receive a free replacement saddle, including free shipping, similar to theirs. Weatherbeeta is contacting all known purchasers directly."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Replace"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 9802,
+        "RecallNumber": "24734",
+        "RecallDate": "2023-12-14T00:00:00",
+        "Description": "This recall involves nine models of Collegiate English horse-riding saddles: Degree Mono Event, Graduate Close Contact, Honour Close Contact, Integrity Mono Dressage, Lectern Dressage and Warwick Close Contact. All of the saddles are branded Collegiate and have a Collegiate nail head in the head of the saddle and Collegiate brand printed on the stirrup keeper. The saddles measure between 15 and 18 inches and were sold in black or brown leather or synthetic depending on the model. All Lectern saddles are included in this recall. For all other models, only saddles manufactured between March 2019 through July 2023 are included in this recall. The manufacturing date, in MM-YYYY format, is the last six digits of the serial number. The serial number is stamped on the underflap of the saddle, below \"Made in India.\"",
+        "URL": "https://www.cpsc.gov/Recalls/2024/Weatherbeeta-USA-Recalls-Collegiate-Horse-Riding-Saddles-Due-to-Injury-Hazard-Recall-Alert",
+        "Title": "Weatherbeeta USA Recalls Collegiate Horse-Riding Saddles Due to Injury Hazard (Recall Alert)",
+        "ConsumerContact": "Weatherbeeta USA at 800-526-6310 from 8:30 a.m. to 5 p.m. ET Monday through Friday, email at collegiaterecallusa@weatherbeeta.com, or online at www.weatherbeeta.com/collegiate-recall or www.Collegiatesaddlery.com and click on \"Saddle Recall Information\" for more information.",
+        "LastPublishDate": "2023-12-14T00:00:00",
+        "Products": [
+          {
+            "Name": "Collegiate English Horse-Riding Saddles",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 2,300"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/saddles.png",
+            "Caption": "Recalled Weatherbeeta USA Collegiate Horse-Riding Saddles"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "The firm has received 12 reports of saddle's rivet or stirrup bar breaking. One fall injury has been reported."
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Dover Saddlery, Equss Now, Strafford Saddlery Shop, The Carousel Horse Tack and other stores nationwide and online at www.doversaddlery.com, www.smartpakequine.com, www.statelinetack.com and www.weatherbeeta.com from May 2019 through October 2023 for between $430 and $1,300, depending on the mode.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "WeatherBeeta USA Inc., of Easton, Pennsylvania",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "India"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The saddle's rivet or stirrup bar can break, causing the rider to fall, posing an injury hazard.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled saddles and contact Weatherbeeta for instructions to return the recalled saddle to receive a free replacement saddle, including free shipping, similar to theirs. Weatherbeeta is contacting all known purchasers directly."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Replace"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "24734",
+        "Product Safety Warning Number": "",
+        "Date": "December 14, 2023",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "Weatherbeeta USA Recalls Collegiate Horse-Riding Saddles Due to Injury Hazard (Recall Alert)",
+        "Name of product": "Collegiate English Horse-Riding Saddles",
+        "Description": "This recall involves nine models of Collegiate English horse-riding saddles:&nbsp;Degree Mono Event, Graduate Close Contact, Honour Close Contact, Integrity Mono Dressage, Lectern Dressage and Warwick Close Contact. All of the saddles are branded Collegiate and have a Collegiate nail head in the head of the saddle and Collegiate brand printed on the stirrup keeper. The saddles measure between 15 and 18 inches and were sold in black or brown leather or synthetic depending on the model. All Lectern saddles are included in this recall. For all other models, only saddles manufactured between March 2019 through July 2023 are included in this recall. The manufacturing date, in MM-YYYY format, is the last six digits of the serial number. The serial number is stamped on the underflap of the saddle, below “Made in India.”",
+        "Hazard Description": "The saddle’s rivet or stirrup bar can break, causing the rider to fall, posing an injury hazard.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Replace",
+        "Units": "About 2,300",
+        "Incidents": "The firm has received 12 reports of saddle’s rivet or stirrup bar breaking. One fall injury has been reported.",
+        "Remedy": "Consumers should immediately stop using the recalled saddles and contact Weatherbeeta for instructions to return the recalled saddle to receive a free replacement saddle, including free shipping, similar to theirs. Weatherbeeta is contacting all known purchasers directly.",
+        "Sold At Label": "Sold At",
+        "Sold At": "Dover Saddlery, Equss Now, Strafford Saddlery Shop, The Carousel Horse Tack and other stores nationwide and online at www.doversaddlery.com, www.smartpakequine.com, www.statelinetack.com and www.weatherbeeta.com from May 2019 through October 2023 for between $430 and $1,300, depending on the model.",
+        "Importers": "WeatherBeeta USA Inc., of Easton, Pennsylvania",
+        "Manufacturers": "",
+        "Distributors": "",
+        "Manufactured In": "India",
+        "Custom Label": "",
+        "Custom Field": ""
+      }
+    }
+  ]
+}

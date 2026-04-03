@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "slug": "glass-doors-or-doors-with-glass-panels",
+    "sourceCsvFile": "glass-doors-or-doors-with-glass-panels_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:36.944Z",
+    "recallCount": 1
+  },
+  "recalls": [
+    {
+      "RecallID": 10146,
+      "RecallNumber": "25120",
+      "RecallDate": "2025-02-06T00:00:00",
+      "Description": "This recall involves the following Pella's sliding patio doors and windows with automated shades: The Pella Reserve and Pella Lifestyle sliding doors with Insynctive technology, models 2-panel, 3-panel, and 4-panel sliding doors. These doors have a sensor housing where the cell battery is located. Date codes for doors range from 031924 to 060524. The date code is etched on the lower corner of the glass The Pella Lifestyle windows and sliding doors with Insynctive remote control, models: 206A0000 (Generation 2) and 206A0001 (Generation 3). The Pella logo is printed on the lower 1/3 of the front panel of the remote. The UPC code on the packaging is 748171618722. The battery-operated remote controls were also sold individually.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/Pella-Recalls-Sliding-Patio-Doors-and-Windows-Due-to-Battery-Ingestion-Hazard-Violation-of-Reeses-Law-Federal-Safety-Regulations-for-Consumer-Products-with-Button-Cell-Batteries",
+      "Title": "Pella Recalls Sliding Patio Doors and Windows Due to Battery Ingestion Hazard; Violation of Reese's Law Federal Safety Regulations for Consumer Products with Button Cell Batteries",
+      "ConsumerContact": "Pella toll-free at 844-807-2219 between 8 a.m. and 5 p.m. ET Monday through Friday, or online at www.pella.com and click on \"Recall Notice\" for more information, or at https://www.pella.com/recall-notice for more information.",
+      "LastPublishDate": "2025-02-06T00:00:00",
+      "Products": [
+        {
+          "Name": "Pella Reserve and Lifestyle Sliding Patio Doors and Lifestyle Windows",
+          "NumberOfUnits": "About 340"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/pella-1.JPG",
+          "Caption": "Recalled Pella Reserve and Pella Lifestyle sliding door"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/pella-2.JPG",
+          "Caption": "Door's locking panel sensor location"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/pella-3.png",
+          "Caption": "Front and back of the remote control for the recalled Pella Lifestyle Series products with motorized integrated blinds and shades model 206A0000 (Gen 2)"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/pella-4.png",
+          "Caption": "Front and back of the remote control for the recalled Pella Lifestyle Series products with motorized integrated blinds and shades model 206A0001 (Gen 3)"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/pella-5.jpg",
+          "Caption": "Motorized shades on Pella Lifestyle sliding door"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/pella-6.jpg",
+          "Caption": "Motorized blinds on Pella Lifestyle windows"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Pella direct, Lowe's and Builders FirstSource stores nationwide and online from March 2024 through June 2024 for between $5,000 and $20,000 for the doors, depending on the model, about $1,900 for the uninstalled windows, and between $60 and $110, for the remote when sold individually."
+        }
+      ],
+      "Distributors": [
+        {
+          "Name": "Pella Corporation, of Pella, Iowa"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "United States"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "The recalled products violate the mandatory federal regulations for consumer products containing button cell or coin batteries, because the sliding doors' sensor panel and the windows' remote control have button cell batteries that can be easily accessed by children. This poses an ingestion hazard. In addition, the recalled products do not have the required warnings. When button cell batteries are swallowed, the ingested batteries can cause serious injuries, internal chemical burns, and death."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should immediately remove the battery in the sensor from the sliding door panels and in the windows' remote control and place them in an area that children cannot access. Contact Pella for instructions on how to receive a free replacement remote, including shipping, or to schedule a door repair by a qualified technician, free of cost. Pella is contacting all known purchasers directly."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        },
+        {
+          "Option": "Replace"
+        }
+      ]
+    }
+  ]
+}

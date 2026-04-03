@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "slug": "glass-soft-drink-bottles",
+    "sourceCsvFile": "glass-soft-drink-bottles_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:36.944Z",
+    "recallCount": 1
+  },
+  "recalls": [
+    {
+      "RecallID": 10202,
+      "RecallNumber": "25183",
+      "RecallDate": "2025-03-13T00:00:00",
+      "Description": "This recall involves Gerolsteiner 750ml sparkling water bottles from two specific lots. The water was sold in large 750ml glass bottles or in cases containing 15 bottles. There is a white, blue and red label on the front of the bottle with the name \"Gerolsteiner\". The lot number is located on the lower part of the label. Affected bottles have a lot number 11/28/2024 L or 11/27/2024 L.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/Gerolsteiner-Sparkling-Water-Bottles-Recalled-Due-to-Laceration-Hazard-Manufactured-by-Gerolsteiner",
+      "Title": "Gerolsteiner Sparkling Water Bottles Recalled Due to Laceration Hazard; Manufactured by Gerolsteiner",
+      "ConsumerContact": "Gerolsteiner at 800-777-0633 from 8:30 a.m. to 5 p.m. ET Monday through Friday, email at customerservice@consup.us, or online at https://www.gerolsteiner.de/en/recall or at www.gerolsteiner.de/en/ and click on \"Recalls\" at the bottom of the page.",
+      "LastPublishDate": "2025-03-13T00:00:00",
+      "Products": [
+        {
+          "Name": "Gerolsteiner 750ml Sparkling Water Bottles",
+          "NumberOfUnits": "About 61,500 bottles"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/gerol-1.png",
+          "Caption": "Recalled Gerolsteiner Sparkling Water (750ml)"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/gerol-2.png",
+          "Caption": "Recalled Gerolsteiner Sparkling Water (750ml) lot number location"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "Gerolsteiner Brunnen GmbH & Co. KG, of Germany"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Trader Joe's stores in Alabama, Arkansas, Colorado, Florida, Georgia, Kansas, Louisiana, New Mexico, Oklahoma, South Carolina, Tennessee and Texas from December 2024 through January 2025 for about $3 per bottle."
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "Germany"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "The recalled water bottles can crack, causing a laceration hazard."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should immediately stop using the recalled Gerolsteiner sparkling water bottles, and return the bottles from the affected lots to the store where they were purchased for a full refund. Consumers will not be asked for proof of purchase, but will need to return the recalled bottle to receive a refund (in the form of cash or credit)."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ]
+    }
+  ]
+}

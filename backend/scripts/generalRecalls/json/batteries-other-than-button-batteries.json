@@ -1,0 +1,1423 @@
+{
+  "meta": {
+    "slug": "batteries-other-than-button-batteries",
+    "sourceCsvFile": "batteries-other-than-button-batteries_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T04:43:57.028Z",
+    "recallCount": 7
+  },
+  "recalls": [
+    {
+      "merged": {
+        "RecallID": 10600,
+        "RecallNumber": "26249",
+        "RecallDate": "2026-02-05T00:00:00",
+        "Description": "This recall involves Dresbe LED Christmas Headbands. The headbands were sold as a two-pack of novelty headbands, one red headband with candy cane attachments and a green headband with a Christmas tree attachment, each containing three button cell batteries to power LED lights. The headbands have \"HB-052\" and \"DRESBE LED Christmas Headband (2pc)\" printed on labels located on the package.",
+        "URL": "https://www.cpsc.gov/Recalls/2026/Dresbe-LED-Christmas-Headbands-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violate-Mandatory-Standard-for-Consumer-Products-with-Button-Cell-Batteries",
+        "Title": "Dresbe LED Christmas Headbands Recalled Due to Risk of Serious Injury or Death from Battery Ingestion; Violate Mandatory Standard for Consumer Products with Button Cell Batteries",
+        "ConsumerContact": "Dresbe by email at dresberecall@shineprom.com.",
+        "LastPublishDate": "2026-02-06T00:00:00",
+        "Products": [
+          {
+            "Name": "Dresbe LED Christmas Headbands",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 250 units"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Picture5_13.jpg",
+            "Caption": "Recalled Dresbe Christmas Headbands (with candy cane and Christmas tree attachments)"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Picture6_11.jpg",
+            "Caption": "Recalled Dresbe Christmas Headbands (with lights)"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Picture7_23.png",
+            "Caption": "Label affixed to the recalled headband package"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Amazon.com from March 2024 through June 2025 for about $13.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [],
+        "Distributors": [
+          {
+            "Name": "Wenxi Xuefeng Technology Co., Ltd, dba Dresbe, of China",
+            "CompanyID": ""
+          }
+        ],
+        "SoldAtLabel": "Sold At",
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The recalled headbands violate the mandatory standard for consumer products with button cell and coin batteries because the button cell batteries in the headbands can be accessed easily by children, posing an ingestion hazard.?Additionally, the packaging and product do not have the warnings required under Reese's Law. When button cell or coin batteries are swallowed, the ingested batteries can cause serious injuries, internal chemical burns, and death.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should stop using the recalled headbands immediately and contact Dresbe for information on how to properly dispose of the product. Consumers will need to email a photograph of disposal to?dresberecall@shineprom.com?to receive the refund. Note: Button cell batteries are hazardous. Batteries should be disposed of or recycled by following local hazardous waste procedures."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 10600,
+        "RecallNumber": "26249",
+        "RecallDate": "2026-02-05T00:00:00",
+        "Description": "This recall involves Dresbe LED Christmas Headbands. The headbands were sold as a two-pack of novelty headbands, one red headband with candy cane attachments and a green headband with a Christmas tree attachment, each containing three button cell batteries to power LED lights. The headbands have \"HB-052\" and \"DRESBE LED Christmas Headband (2pc)\" printed on labels located on the package.",
+        "URL": "https://www.cpsc.gov/Recalls/2026/Dresbe-LED-Christmas-Headbands-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violate-Mandatory-Standard-for-Consumer-Products-with-Button-Cell-Batteries",
+        "Title": "Dresbe LED Christmas Headbands Recalled Due to Risk of Serious Injury or Death from Battery Ingestion; Violate Mandatory Standard for Consumer Products with Button Cell Batteries",
+        "ConsumerContact": "Dresbe by email at dresberecall@shineprom.com.",
+        "LastPublishDate": "2026-02-06T00:00:00",
+        "Products": [
+          {
+            "Name": "Dresbe LED Christmas Headbands",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 250 units"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Picture5_13.jpg",
+            "Caption": "Recalled Dresbe Christmas Headbands (with candy cane and Christmas tree attachments)"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Picture6_11.jpg",
+            "Caption": "Recalled Dresbe Christmas Headbands (with lights)"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Picture7_23.png",
+            "Caption": "Label affixed to the recalled headband package"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Amazon.com from March 2024 through June 2025 for about $13.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [],
+        "Distributors": [
+          {
+            "Name": "Wenxi Xuefeng Technology Co., Ltd, dba Dresbe, of China",
+            "CompanyID": ""
+          }
+        ],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The recalled headbands violate the mandatory standard for consumer products with button cell and coin batteries because the button cell batteries in the headbands can be accessed easily by children, posing an ingestion hazard.?Additionally, the packaging and product do not have the warnings required under Reese's Law. When button cell or coin batteries are swallowed, the ingested batteries can cause serious injuries, internal chemical burns, and death.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should stop using the recalled headbands immediately and contact Dresbe for information on how to properly dispose of the product. Consumers will need to email a photograph of disposal to?dresberecall@shineprom.com?to receive the refund. Note: Button cell batteries are hazardous. Batteries should be disposed of or recycled by following local hazardous waste procedures."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "26249",
+        "Product Safety Warning Number": "",
+        "Date": "February 05, 2026",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "Dresbe LED Christmas Headbands Recalled Due to Risk of Serious Injury or Death from Battery Ingestion; Violate Mandatory Standard for Consumer Products with Button Cell Batteries",
+        "Name of product": "Dresbe LED Christmas Headbands",
+        "Description": "This recall involves Dresbe LED Christmas Headbands. The headbands were sold as a two-pack of novelty headbands, one red headband with candy cane attachments and a green headband with a Christmas tree attachment, each containing three button cell batteries to power LED lights. The headbands have “HB-052” and “DRESBE LED Christmas Headband (2pc)” printed on labels located on the package.&nbsp;&nbsp;",
+        "Hazard Description": "The recalled headbands violate the mandatory standard for consumer products with button cell and coin batteries because the button cell batteries in the headbands can be accessed easily by children, posing an ingestion hazard. Additionally, the packaging and product do not have the warnings required under https://www.cpsc.gov/Newsroom/News-Releases/2023/Making-Families-Safer-… lang=\"EN-US\">Reese’s Law. When button cell or coin batteries are swallowed, the ingested batteries can cause serious injuries, internal chemical burns, and death.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Refund",
+        "Units": "About 250 units",
+        "Incidents": "None reported",
+        "Remedy": "Consumers should stop using the recalled headbands immediately and contact Dresbe for information on how to properly dispose of the product. Consumers will need to email a photograph of disposal to dresberecall@shineprom.com to receive the refund.Note: Button cell batteries are hazardous. Batteries should be disposed of or recycled by following local hazardous waste procedures.&nbsp;&nbsp;",
+        "Sold At Label": "Sold At",
+        "Sold At": "Amazon.com from March 2024 through June 2025 for about $13.",
+        "Importers": "",
+        "Manufacturers": "",
+        "Distributors": "",
+        "Manufactured In": "China",
+        "Custom Label": "Retailer:",
+        "Custom Field": "Wenxi Xuefeng Technology Co., Ltd, dba Dresbe, of China"
+      }
+    },
+    {
+      "merged": {
+        "RecallID": 10597,
+        "RecallNumber": "26246",
+        "RecallDate": "2026-02-05T00:00:00",
+        "Description": "This recall involves Kitosun Submersible LED Lights. The LED lights include 10 color-changing LED lights, two remote controls, 20 preinstalled CR2450 lithium batteries in the lights and four preinstalled CR2032 lithium batteries in the remote controls. Each light is about 3.5 cm in diameter. Note: Button cell and coin batteries are hazardous. Batteries should be disposed of or recycled by following local hazardous waste procedures.",
+        "URL": "https://www.cpsc.gov/Recalls/2026/Kitosun-Submersible-LED-Light-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violates-Mandatory-Standard-for-Consumer-Products-with-Coin-Batteries",
+        "Title": "Kitosun Submersible LED Lights Recalled Due to Risk of Serious Injury or Death from Battery Ingestion; Violates Mandatory Standard for Consumer Products with Coin Batteries",
+        "ConsumerContact": "Kitosun by email at sales@kitosun.com.",
+        "LastPublishDate": "2026-02-06T00:00:00",
+        "Products": [
+          {
+            "Name": "Kitosun Submersible LED Lights",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 8,100"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Picture3-3_4.png",
+            "Caption": "Recalled Kitosun Submersible LED Lights"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Picture4-4_0.png",
+            "Caption": "Recalled Kitosun Submersible LED Lights"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Online at Amazon.com from March 2024 through November 2025 for about $23.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [],
+        "Distributors": [
+          {
+            "Name": "Kitosun Original Company Limited, dba Kitosun, of China",
+            "CompanyID": ""
+          }
+        ],
+        "SoldAtLabel": "Sold Online At",
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The recalled LED lights violate the mandatory standard for consumer products containing button cell or coin batteries because they contain lithium coin batteries that can be accessed easily by children, posing an ingestion hazard. Additionally, the LED lights do not have the warnings as required by Reese's Law. When children swallow button cell or coin batteries, the ingested batteries can cause serious injuries, internal chemical burns, and death, posing an ingestion hazard to children.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately secure the recalled essential oil out of the sight and reach of children and contact the firm to receive a full refund or free replacement bottle of essential oil. Consumers will be asked to take a photo of their product in the trash in order to receive a refund or replacement and email the photo to gumilius@outlook.com."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 10597,
+        "RecallNumber": "26246",
+        "RecallDate": "2026-02-05T00:00:00",
+        "Description": "This recall involves Kitosun Submersible LED Lights. The LED lights include 10 color-changing LED lights, two remote controls, 20 preinstalled CR2450 lithium batteries in the lights and four preinstalled CR2032 lithium batteries in the remote controls. Each light is about 3.5 cm in diameter. Note: Button cell and coin batteries are hazardous. Batteries should be disposed of or recycled by following local hazardous waste procedures.",
+        "URL": "https://www.cpsc.gov/Recalls/2026/Kitosun-Submersible-LED-Light-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violates-Mandatory-Standard-for-Consumer-Products-with-Coin-Batteries",
+        "Title": "Kitosun Submersible LED Lights Recalled Due to Risk of Serious Injury or Death from Battery Ingestion; Violates Mandatory Standard for Consumer Products with Coin Batteries",
+        "ConsumerContact": "Kitosun by email at sales@kitosun.com.",
+        "LastPublishDate": "2026-02-06T00:00:00",
+        "Products": [
+          {
+            "Name": "Kitosun Submersible LED Lights",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 8,100"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Picture3-3_4.png",
+            "Caption": "Recalled Kitosun Submersible LED Lights"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Picture4-4_0.png",
+            "Caption": "Recalled Kitosun Submersible LED Lights"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Online at Amazon.com from March 2024 through November 2025 for about $23.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [],
+        "Distributors": [
+          {
+            "Name": "Kitosun Original Company Limited, dba Kitosun, of China",
+            "CompanyID": ""
+          }
+        ],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The recalled LED lights violate the mandatory standard for consumer products containing button cell or coin batteries because they contain lithium coin batteries that can be accessed easily by children, posing an ingestion hazard. Additionally, the LED lights do not have the warnings as required by Reese's Law. When children swallow button cell or coin batteries, the ingested batteries can cause serious injuries, internal chemical burns, and death, posing an ingestion hazard to children.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately secure the recalled essential oil out of the sight and reach of children and contact the firm to receive a full refund or free replacement bottle of essential oil. Consumers will be asked to take a photo of their product in the trash in order to receive a refund or replacement and email the photo to gumilius@outlook.com."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "26246",
+        "Product Safety Warning Number": "",
+        "Date": "February 05, 2026",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "Kitosun Submersible LED Lights Recalled Due to Risk of Serious Injury or Death from Battery Ingestion; Violates Mandatory Standard for Consumer Products with Coin Batteries",
+        "Name of product": "Kitosun Submersible LED Lights",
+        "Description": "This recall involves Kitosun Submersible LED Lights. The LED lights include 10 color-changing LED lights, two remote controls, 20 preinstalled CR2450 lithium batteries in the lights and four preinstalled CR2032 lithium batteries in the remote controls. Each light is about 3.5 cm in diameter.&nbsp;&nbsp;",
+        "Hazard Description": "The recalled LED lights violate the mandatory standard for consumer products containing button cell or coin batteries because they contain lithium coin batteries that can be accessed easily by children, posing an ingestion hazard. Additionally, the LED lights do not have the warnings as required by https://www.cpsc.gov/Business--Manufacturing/Business-Education/Busines… lang=\"EN-US\">Reese’s Law. When children swallow button cell or coin batteries, the ingested batteries can cause serious injuries, internal chemical burns, and death, posing an ingestion hazard to children.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Refund",
+        "Units": "About 8,100",
+        "Incidents": "None reported",
+        "Remedy": "Consumers should immediately stop using the recalled LED lights and contact Kitosun by email with “Recall” in the subject line for disposal instructions. To receive a full refund, email a photo of the disposed product to sales@kitosun.com.&nbsp;Note: Button cell and coin batteries are hazardous. Batteries should be disposed of or recycled by following local hazardous waste procedures.&nbsp;",
+        "Sold At Label": "Sold Online At",
+        "Sold At": "Amazon.com from March 2024 through November 2025 for about $23.",
+        "Importers": "",
+        "Manufacturers": "",
+        "Distributors": "",
+        "Manufactured In": "China",
+        "Custom Label": "Retailer:",
+        "Custom Field": "Kitosun Original Company Limited, dba Kitosun, of China&nbsp;"
+      }
+    },
+    {
+      "merged": {
+        "RecallID": 10321,
+        "RecallNumber": "25355",
+        "RecallDate": "2025-06-26T00:00:00",
+        "Description": "This recall involves 62-volt 5.0 Ah LiPRO rechargeable lithium-ion battery packs for use with DR Power brand battery-powered products, such as lawnmowers, trimmers and snow throwers. The products include stand-alone battery packs with model number 414240, and removeable battery packs included with DR Power outdoor yard equipment items with model numbers 524340, SB11022XEN, T4X3026XEN, T4X3062XENR, CE75021XEN0 and CE77021XEN0. Information containing the model number for the battery pack (\"41424\") is located on the battery pack's label. The LiPRO and DR Power logo are on the front and side panels of the battery pack. Note: Do not throw this recalled lithium-ion battery or device in the trash, the general recycling stream (e.g., street-level or curbside recycling bins), or used battery recycling boxes found at various retail and home improvement stores. Recalled lithium-ion batteries must be disposed of differently than other batteries, because they present a greater risk of fire. Your municipal household hazardous waste (HHW) collection center may accept this recalled lithium-ion battery or device for disposal. Before taking your battery or device to a HHW collection center, contact that office ahead of time and ask whether it accepts recalled lithium-ion batteries. If it does not, contact your municipality for further guidance.",
+        "URL": "https://www.cpsc.gov/Recalls/2025/DR-Power-Recalls-Lithium-Ion-Battery-Packs-Due-to-Fire-and-Burn-Hazards",
+        "Title": "DR Power Recalls Lithium-Ion Battery Packs Due to Fire and Burn Hazards",
+        "ConsumerContact": "DR Power toll-free at 800-454-8643 from 8:30 a.m. to 5 p.m. ET Monday through Friday, email at recall@drpower.com, or online at https://drpower.com/recalls and https://www.drpower.com/ and click on \"Product Recalls\" for more information.",
+        "LastPublishDate": "2025-06-26T00:00:00",
+        "Products": [
+          {
+            "Name": "DR Power LiPRO rechargeable lithium-ion battery packs (5.0 Ah)",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 13,200"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/DR-Power-1.png",
+            "Caption": "Recalled DR Power Model 414240 Battery Pack (5 Ah)"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/DR-Power-2.png",
+            "Caption": "DR Power Model 524340, DR Trimmer Mower"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/DR-Power-3.png",
+            "Caption": "DR Power Model SB11022XEN, DR Pulse 62V Snow Thrower"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/DR-Power-4.png",
+            "Caption": "DR Power Model T4X3062XEN, DR Trimmer Pulse"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/DR-Power-5.png",
+            "Caption": "DR Power Model CE75021XEN0, DR Pulse 62V Mower 21\""
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/DR-Power-6.png",
+            "Caption": "DR Power Model CE77021XEN0, DR Pulse 62V Mower 21\" SP"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "The firm has received two reports of incidents of fire and/or overheating. No injuries have been reported."
+          }
+        ],
+        "Manufacturers": [
+          {
+            "Name": "Ningbo New Team Import & Export Co. Ltd. (\"Lera\"), of China",
+            "CompanyID": ""
+          }
+        ],
+        "Retailers": [
+          {
+            "Name": "Home improvement and hardware stores nationwide and online at DRPower.com and CountryHomeProducts.com from April 2018 through July 2024 for between $300 and $700 for outdoor equipment that includes battery packs, and for $250 for battery packs sold individually.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Generac Power Systems Inc., of Waukesha, Wisconsin",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": "Sold At",
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The recalled battery packs can short-circuit and ignite, posing fire and burn hazards to consumers.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled battery packs and contact DR Power for a pro-rated refund, based on the battery's age. Consumers will need to show proof of the battery pack's destruction by uploading two photographs in accordance with the destruction instructions (provided on the firm's recall website), and filling out the recall form online at https://www.drpower.com/5AHB-recall. If consumers choose to dispose of the recalled battery pack's lithium-ion battery, it should be done in accordance with local and state regulations."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 10321,
+        "RecallNumber": "25355",
+        "RecallDate": "2025-06-26T00:00:00",
+        "Description": "This recall involves 62-volt 5.0 Ah LiPRO rechargeable lithium-ion battery packs for use with DR Power brand battery-powered products, such as lawnmowers, trimmers and snow throwers. The products include stand-alone battery packs with model number 414240, and removeable battery packs included with DR Power outdoor yard equipment items with model numbers 524340, SB11022XEN, T4X3026XEN, T4X3062XENR, CE75021XEN0 and CE77021XEN0. Information containing the model number for the battery pack (\"41424\") is located on the battery pack's label. The LiPRO and DR Power logo are on the front and side panels of the battery pack. Note: Do not throw this recalled lithium-ion battery or device in the trash, the general recycling stream (e.g., street-level or curbside recycling bins), or used battery recycling boxes found at various retail and home improvement stores. Recalled lithium-ion batteries must be disposed of differently than other batteries, because they present a greater risk of fire. Your municipal household hazardous waste (HHW) collection center may accept this recalled lithium-ion battery or device for disposal. Before taking your battery or device to a HHW collection center, contact that office ahead of time and ask whether it accepts recalled lithium-ion batteries. If it does not, contact your municipality for further guidance.",
+        "URL": "https://www.cpsc.gov/Recalls/2025/DR-Power-Recalls-Lithium-Ion-Battery-Packs-Due-to-Fire-and-Burn-Hazards",
+        "Title": "DR Power Recalls Lithium-Ion Battery Packs Due to Fire and Burn Hazards",
+        "ConsumerContact": "DR Power toll-free at 800-454-8643 from 8:30 a.m. to 5 p.m. ET Monday through Friday, email at recall@drpower.com, or online at https://drpower.com/recalls and https://www.drpower.com/ and click on \"Product Recalls\" for more information.",
+        "LastPublishDate": "2025-06-26T00:00:00",
+        "Products": [
+          {
+            "Name": "DR Power LiPRO rechargeable lithium-ion battery packs (5.0 Ah)",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 13,200"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/DR-Power-1.png",
+            "Caption": "Recalled DR Power Model 414240 Battery Pack (5 Ah)"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/DR-Power-2.png",
+            "Caption": "DR Power Model 524340, DR Trimmer Mower"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/DR-Power-3.png",
+            "Caption": "DR Power Model SB11022XEN, DR Pulse 62V Snow Thrower"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/DR-Power-4.png",
+            "Caption": "DR Power Model T4X3062XEN, DR Trimmer Pulse"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/DR-Power-5.png",
+            "Caption": "DR Power Model CE75021XEN0, DR Pulse 62V Mower 21\""
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/DR-Power-6.png",
+            "Caption": "DR Power Model CE77021XEN0, DR Pulse 62V Mower 21\" SP"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "The firm has received two reports of incidents of fire and/or overheating. No injuries have been reported."
+          }
+        ],
+        "Manufacturers": [
+          {
+            "Name": "Ningbo New Team Import & Export Co. Ltd. (\"Lera\"), of China",
+            "CompanyID": ""
+          }
+        ],
+        "Retailers": [
+          {
+            "Name": "Home improvement and hardware stores nationwide and online at DRPower.com and CountryHomeProducts.com from April 2018 through July 2024 for between $300 and $700 for outdoor equipment that includes battery packs, and for $250 for battery packs sold individually.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Generac Power Systems Inc., of Waukesha, Wisconsin",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The recalled battery packs can short-circuit and ignite, posing fire and burn hazards to consumers.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled battery packs and contact DR Power for a pro-rated refund, based on the battery's age. Consumers will need to show proof of the battery pack's destruction by uploading two photographs in accordance with the destruction instructions (provided on the firm's recall website), and filling out the recall form online at https://www.drpower.com/5AHB-recall. If consumers choose to dispose of the recalled battery pack's lithium-ion battery, it should be done in accordance with local and state regulations."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "25355",
+        "Product Safety Warning Number": "",
+        "Date": "June 26, 2025",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "DR Power Recalls Lithium-Ion Battery Packs Due to Fire and Burn Hazards",
+        "Name of product": "DR Power LiPRO rechargeable lithium-ion battery packs (5.0 Ah)",
+        "Description": "This recall involves&nbsp;62-volt 5.0 Ah LiPRO rechargeable lithium-ion battery packs for use with DR Power brand battery-powered products, such as lawnmowers, trimmers and snow throwers. The products include stand-alone battery packs with model number 414240, and removeable battery packs included with DR Power outdoor yard equipment items with model numbers 524340, SB11022XEN, T4X3026XEN, T4X3062XENR, CE75021XEN0 and CE77021XEN0. Information containing the model number for the battery pack (“41424”) is located on the battery pack’s label. The LiPRO and DR Power logo are on the front and side panels of the battery pack.Note:&nbsp;Do not throw this recalled lithium-ion battery or device in the trash, the general recycling stream (e.g., street-level or curbside recycling bins), or used battery recycling boxes found at various retail and home improvement stores. Recalled lithium-ion batteries must be disposed of differently than other batteries, because they present a greater risk of fire. Your municipal household hazardous waste (HHW) collection center may accept this recalled lithium-ion battery or device for disposal. Before taking your battery or device to a HHW collection center, contact that office ahead of time and ask whether it accepts recalled lithium-ion batteries. If it does not, contact your municipality for further guidance.",
+        "Hazard Description": "The recalled battery packs can short-circuit and ignite, posing fire and burn hazards to consumers.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Refund",
+        "Units": "About 13,200",
+        "Incidents": "The firm has received two reports of incidents of fire and/or overheating. No injuries have been reported.",
+        "Remedy": "Consumers should immediately stop using the recalled battery packs and contact DR Power for a pro-rated refund, based on the battery’s age. Consumers will need to show proof of the battery pack’s destruction by uploading two photographs in accordance with the destruction instructions (provided on the firm’s recall website), and filling out the recall form online at&nbsp;https://www.drpower.com/5AHB-recall. If consumers choose to dispose of the recalled battery pack’s lithium-ion battery, it should be done in accordance with local and state regulations.&nbsp;",
+        "Sold At Label": "Sold At",
+        "Sold At": "Home improvement and hardware stores nationwide and online at DRPower.com and CountryHomeProducts.com from April 2018 through July 2024 for between $300 and $700 for outdoor equipment that includes battery packs, and for $250 for battery packs sold individually.&nbsp;",
+        "Importers": "Generac Power Systems Inc., of Waukesha, Wisconsin",
+        "Manufacturers": "Ningbo New Team Import &amp; Export Co. Ltd. (“Lera”), of China",
+        "Distributors": "",
+        "Manufactured In": "China",
+        "Custom Label": "",
+        "Custom Field": ""
+      }
+    },
+    {
+      "merged": {
+        "RecallID": 10246,
+        "RecallNumber": "25232",
+        "RecallDate": "2025-04-24T00:00:00",
+        "Description": "This recall involves RGB-branded LED strip lights powered with button batteries. The color-changing, dimmable lights measure about 0.4 inches long and were sold in white, warm white, blue, ice blue, green, red, yellow, purple and pink.",
+        "URL": "https://www.cpsc.gov/Recalls/2025/AliExpress-Recalls-LED-Strip-Lights-Due-to-Risk-of-Serious-Injury-or-Death-from-Ingestion-Hazard-Violations-of-Reeses-Law-Federal-Safety-Regulations-for-Consumer-Products-with-Coin-Batteries-Sold-on-AliExpress-com",
+        "Title": "AliExpress Recalls LED Strip Lights Due to Risk of Serious Injury or Death from Ingestion Hazard; Violations of Reese's Law Federal Safety Regulations for Consumer Products with Coin Batteries; Sold on AliExpress.com",
+        "ConsumerContact": "AliExpress online service at https://helpcenter.aliexpress.com/s/BuyerHelp/home?language=en_US&m_station=BuyerHelp and click on \"Online Services\" at the bottom of the page, email at us_product_recall@aliexpress.com, or online at https://helpcenter.aliexpress.com/s/BuyerHelp/knowledge?categoryId=1000110454&language=en_US&m_station=BuyerHelp&questionId=1061297473&regulation=US-product-recall or www.aliexpress.com and click on \"Recalls\" at the bottom of the page for more information.",
+        "LastPublishDate": "2025-04-24T00:00:00",
+        "Products": [
+          {
+            "Name": "LED Strip Lights",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 390"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/AliExpress-LED-1.png",
+            "Caption": "Recalled AliExpress LED strip light - purple"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/AliExpress-LED-2.png",
+            "Caption": "Recalled AliExpress LED strip lights"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/AliExpress-LED-3.png",
+            "Caption": "Recalled AliExpress LED strip light - green"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Aliexpress.com from March 2024 through November 2024 for about $3.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [],
+        "Distributors": [
+          {
+            "Name": "Dongguan Changsheng Heng Electronic Commerce Co. Ltd., of China",
+            "CompanyID": ""
+          }
+        ],
+        "SoldAtLabel": "Sold At",
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The recalled lights violate the mandatory federal regulations for consumer products designed to use button cell or coin batteries because the strip lights allow easy access by children to the lithium coin batteries, posing an ingestion hazard. In addition, the recalled products do not have the required warnings. When button cell or coin batteries are swallowed, the ingested batteries can cause serious injuries, internal chemical burns and death.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should stop using the recalled LED strip lights immediately and contact AliExpress to receive a full refund. Consumers should destroy the lights by cutting them in half and disposing of them. Consumers must send a photo of the destroyed lights to us_product_recall@aliexpress.com or by replying to the recall email sent by AliExpress. AliExpress is contacting all known purchasers directly. Note: Button cell and coin batteries are hazardous. Batteries should be disposed of or recycled by following local hazardous waste procedures."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 10246,
+        "RecallNumber": "25232",
+        "RecallDate": "2025-04-24T00:00:00",
+        "Description": "This recall involves RGB-branded LED strip lights powered with button batteries. The color-changing, dimmable lights measure about 0.4 inches long and were sold in white, warm white, blue, ice blue, green, red, yellow, purple and pink.",
+        "URL": "https://www.cpsc.gov/Recalls/2025/AliExpress-Recalls-LED-Strip-Lights-Due-to-Risk-of-Serious-Injury-or-Death-from-Ingestion-Hazard-Violations-of-Reeses-Law-Federal-Safety-Regulations-for-Consumer-Products-with-Coin-Batteries-Sold-on-AliExpress-com",
+        "Title": "AliExpress Recalls LED Strip Lights Due to Risk of Serious Injury or Death from Ingestion Hazard; Violations of Reese's Law Federal Safety Regulations for Consumer Products with Coin Batteries; Sold on AliExpress.com",
+        "ConsumerContact": "AliExpress online service at https://helpcenter.aliexpress.com/s/BuyerHelp/home?language=en_US&m_station=BuyerHelp and click on \"Online Services\" at the bottom of the page, email at us_product_recall@aliexpress.com, or online at https://helpcenter.aliexpress.com/s/BuyerHelp/knowledge?categoryId=1000110454&language=en_US&m_station=BuyerHelp&questionId=1061297473&regulation=US-product-recall or www.aliexpress.com and click on \"Recalls\" at the bottom of the page for more information.",
+        "LastPublishDate": "2025-04-24T00:00:00",
+        "Products": [
+          {
+            "Name": "LED Strip Lights",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 390"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/AliExpress-LED-1.png",
+            "Caption": "Recalled AliExpress LED strip light - purple"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/AliExpress-LED-2.png",
+            "Caption": "Recalled AliExpress LED strip lights"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/AliExpress-LED-3.png",
+            "Caption": "Recalled AliExpress LED strip light - green"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Aliexpress.com from March 2024 through November 2024 for about $3.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [],
+        "Distributors": [
+          {
+            "Name": "Dongguan Changsheng Heng Electronic Commerce Co. Ltd., of China",
+            "CompanyID": ""
+          }
+        ],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The recalled lights violate the mandatory federal regulations for consumer products designed to use button cell or coin batteries because the strip lights allow easy access by children to the lithium coin batteries, posing an ingestion hazard. In addition, the recalled products do not have the required warnings. When button cell or coin batteries are swallowed, the ingested batteries can cause serious injuries, internal chemical burns and death.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should stop using the recalled LED strip lights immediately and contact AliExpress to receive a full refund. Consumers should destroy the lights by cutting them in half and disposing of them. Consumers must send a photo of the destroyed lights to us_product_recall@aliexpress.com or by replying to the recall email sent by AliExpress. AliExpress is contacting all known purchasers directly. Note: Button cell and coin batteries are hazardous. Batteries should be disposed of or recycled by following local hazardous waste procedures."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "25232",
+        "Product Safety Warning Number": "",
+        "Date": "April 24, 2025",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "AliExpress Recalls LED Strip Lights Due to Risk of Serious Injury or Death from Ingestion Hazard; Violations of Reese’s Law Federal Safety Regulations for Consumer Products with Coin Batteries; Sold on AliExpress.com",
+        "Name of product": "LED Strip Lights",
+        "Description": "This recall involves RGB-branded LED strip lights powered with button batteries. The color-changing, dimmable lights measure about 0.4 inches long and were sold in white, warm white, blue, ice blue, green, red, yellow, purple and pink.&nbsp;&nbsp;",
+        "Hazard Description": "The recalled lights violate the mandatory federal regulations for consumer products designed to use button cell or coin batteries because the strip lights allow easy access by children to the lithium coin batteries, posing an ingestion hazard. In addition, the recalled products do not have the required warnings. When button cell or coin batteries are swallowed, the ingested batteries can cause serious injuries, internal chemical burns and death.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Refund",
+        "Units": "About 390",
+        "Incidents": "None reported",
+        "Remedy": "Consumers should stop using the recalled LED strip lights immediately and contact AliExpress to receive a full refund. Consumers should destroy the lights by cutting them in half and disposing of them. Consumers must send a photo of the destroyed lights to us_product_recall@aliexpress.com or&nbsp;by replying to the recall email sent by AliExpress. AliExpress is contacting all known purchasers directly.Note:&nbsp;Button cell and coin batteries are hazardous. Batteries should be disposed of or recycled by following local hazardous waste procedures.",
+        "Sold At Label": "Sold At",
+        "Sold At": "Aliexpress.com from March 2024 through November 2024 for about $3.",
+        "Importers": "",
+        "Manufacturers": "",
+        "Distributors": "",
+        "Manufactured In": "China",
+        "Custom Label": "Recalling Firm:",
+        "Custom Field": "AliExpress, of San Mateo, California"
+      }
+    },
+    {
+      "merged": {
+        "RecallID": 10140,
+        "RecallNumber": "25111",
+        "RecallDate": "2025-01-30T00:00:00",
+        "Description": "This recall involves Greater Goods Digital Kitchen Scales, models: 0480, 0455, 0456, 0458, 0473, 0479, 0481, 0747, 0748, 0749, 0751, 0752, 0754. They are labeled with a sticker with the brand and model printed on the back and come in gray, black, blue, green, pink, red, silver and white colors. The Greater Goods logo is located on the top of the front panel of the scale. The scales come with a lithium CR3032 coin battery pre-installed and a spare CR3032 battery in the packaging.",
+        "URL": "https://www.cpsc.gov/Recalls/2025/Greater-Goods-Recalls-Digital-Kitchen-Scales-Due-to-Ingestion-Hazard-Violations-of-Reeses-Law-Federal-Safety-Regulations-for-Consumer-Products-with-Coin-Batteries-and-Child-Resistant-Coin-Battery-Packaging",
+        "Title": "Greater Goods Recalls Digital Kitchen Scales Due to Ingestion Hazard; Violations of Reese's Law Federal Safety Regulations for Consumer Products with Coin Batteries and Child Resistant Coin Battery Packaging",
+        "ConsumerContact": "Greater Goods toll-free at 866-991-0397 from 9 a.m. to 5 p.m. CT Monday through Friday, email at recall@greatergoods.com, or online at www.greatergoods.com and click the recall banner at the top of the page or https://shop.greatergoods.com/pages/replaceyourbatterydoor for more information.",
+        "LastPublishDate": "2025-01-30T00:00:00",
+        "Products": [
+          {
+            "Name": "Greater Goods Digital Kitchen Scales",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 349,500"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/kitchen-scale-1.jpg",
+            "Caption": "Recalled Gray Digital Kitchen Scale"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/kitchen-scale-2.jpg",
+            "Caption": "Recalled Black Digital Kitchen Scale"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/kitchen-scale-3.jpg",
+            "Caption": "Recalled Cherry Red Digital Kitchen Scale"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/kitchen-scale-4.jpg",
+            "Caption": "Recalled Black Glass Digital Kitchen Scale"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/kitchen-scale-5.jpg",
+            "Caption": "Recalled Silver Digital Kitchen Scale"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/kitchen-scale-6.jpg",
+            "Caption": "Recalled Blue Digital Kitchen Scale"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/kitchen-scale-7.jpg",
+            "Caption": "Recalled Mint Green Digital Kitchen Scale"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/kitchen-scale-8.jpg",
+            "Caption": "Recalled Pink Digital Kitchen Scale"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/kitchen-scale-9.jpg",
+            "Caption": "Recalled White Digital Kitchen Scale"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/kitchen-scale-10.jpg",
+            "Caption": "Recalled Green Digital Kitchen Scale"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/kitchen-scale-11.jpg",
+            "Caption": "Recalled Digital Kitchen Scale Packaging – Back (Sticker color will match Scale color)"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/kitchen-scale-12.jpg",
+            "Caption": "Recalled Digital Kitchen Scale Packaging – Front (Sticker color will match Scale color"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/kitchen-scale-13.jpg",
+            "Caption": "Recalled Digital Kitchen Scale without battery door - Bottom"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/kitchen-scale-14.jpg",
+            "Caption": "Recalled Digital Kitchen Scale - Bottom"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/kitchen-scale-15.png",
+            "Caption": "Recalled battery door and updated battery door"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Alexandra's Kitchen store located in Niskayuna, New York and online at Amazon, Walmart and Greater Goods from May 2023 through September 2024 for about $10.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Greater Goods LLC, of Saint Louis, Missouri",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": "Sold At",
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The recalled digital kitchen scales violate the mandatory federal regulations for consumer products containing button cell or coin batteries, because the scale has a lithium coin battery that can be easily accessed by children, and a spare coin battery provided with the product not in child resistant packaging, as required by Reese's Law. These violations pose an ingestion hazard. The recalled scales also do not have the required warnings. When button cell or coin batteries are swallowed, the ingested batteries can cause serious injuries, internal chemical burns, and death.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately remove the battery in the digital kitchen scale and place it in an area that children cannot access. Contact Greater Goods for information on how to receive a free recall kit, which includes a new replacement battery door that can be secured to the scale, the required labeling, and an updated instruction manual. Greater Goods, Amazon and Walmart are contacting all known purchasers directly."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Repair"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 10140,
+        "RecallNumber": "25111",
+        "RecallDate": "2025-01-30T00:00:00",
+        "Description": "This recall involves Greater Goods Digital Kitchen Scales, models: 0480, 0455, 0456, 0458, 0473, 0479, 0481, 0747, 0748, 0749, 0751, 0752, 0754. They are labeled with a sticker with the brand and model printed on the back and come in gray, black, blue, green, pink, red, silver and white colors. The Greater Goods logo is located on the top of the front panel of the scale. The scales come with a lithium CR3032 coin battery pre-installed and a spare CR3032 battery in the packaging.",
+        "URL": "https://www.cpsc.gov/Recalls/2025/Greater-Goods-Recalls-Digital-Kitchen-Scales-Due-to-Ingestion-Hazard-Violations-of-Reeses-Law-Federal-Safety-Regulations-for-Consumer-Products-with-Coin-Batteries-and-Child-Resistant-Coin-Battery-Packaging",
+        "Title": "Greater Goods Recalls Digital Kitchen Scales Due to Ingestion Hazard; Violations of Reese's Law Federal Safety Regulations for Consumer Products with Coin Batteries and Child Resistant Coin Battery Packaging",
+        "ConsumerContact": "Greater Goods toll-free at 866-991-0397 from 9 a.m. to 5 p.m. CT Monday through Friday, email at recall@greatergoods.com, or online at www.greatergoods.com and click the recall banner at the top of the page or https://shop.greatergoods.com/pages/replaceyourbatterydoor for more information.",
+        "LastPublishDate": "2025-01-30T00:00:00",
+        "Products": [
+          {
+            "Name": "Greater Goods Digital Kitchen Scales",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 349,500"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/kitchen-scale-1.jpg",
+            "Caption": "Recalled Gray Digital Kitchen Scale"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/kitchen-scale-2.jpg",
+            "Caption": "Recalled Black Digital Kitchen Scale"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/kitchen-scale-3.jpg",
+            "Caption": "Recalled Cherry Red Digital Kitchen Scale"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/kitchen-scale-4.jpg",
+            "Caption": "Recalled Black Glass Digital Kitchen Scale"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/kitchen-scale-5.jpg",
+            "Caption": "Recalled Silver Digital Kitchen Scale"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/kitchen-scale-6.jpg",
+            "Caption": "Recalled Blue Digital Kitchen Scale"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/kitchen-scale-7.jpg",
+            "Caption": "Recalled Mint Green Digital Kitchen Scale"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/kitchen-scale-8.jpg",
+            "Caption": "Recalled Pink Digital Kitchen Scale"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/kitchen-scale-9.jpg",
+            "Caption": "Recalled White Digital Kitchen Scale"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/kitchen-scale-10.jpg",
+            "Caption": "Recalled Green Digital Kitchen Scale"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/kitchen-scale-11.jpg",
+            "Caption": "Recalled Digital Kitchen Scale Packaging – Back (Sticker color will match Scale color)"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/kitchen-scale-12.jpg",
+            "Caption": "Recalled Digital Kitchen Scale Packaging – Front (Sticker color will match Scale color"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/kitchen-scale-13.jpg",
+            "Caption": "Recalled Digital Kitchen Scale without battery door - Bottom"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/kitchen-scale-14.jpg",
+            "Caption": "Recalled Digital Kitchen Scale - Bottom"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/kitchen-scale-15.png",
+            "Caption": "Recalled battery door and updated battery door"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Alexandra's Kitchen store located in Niskayuna, New York and online at Amazon, Walmart and Greater Goods from May 2023 through September 2024 for about $10.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Greater Goods LLC, of Saint Louis, Missouri",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The recalled digital kitchen scales violate the mandatory federal regulations for consumer products containing button cell or coin batteries, because the scale has a lithium coin battery that can be easily accessed by children, and a spare coin battery provided with the product not in child resistant packaging, as required by Reese's Law. These violations pose an ingestion hazard. The recalled scales also do not have the required warnings. When button cell or coin batteries are swallowed, the ingested batteries can cause serious injuries, internal chemical burns, and death.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately remove the battery in the digital kitchen scale and place it in an area that children cannot access. Contact Greater Goods for information on how to receive a free recall kit, which includes a new replacement battery door that can be secured to the scale, the required labeling, and an updated instruction manual. Greater Goods, Amazon and Walmart are contacting all known purchasers directly."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Repair"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "25111",
+        "Product Safety Warning Number": "",
+        "Date": "January 30, 2025",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "Greater Goods Recalls Digital Kitchen Scales Due to Ingestion Hazard; Violations of Reese’s Law Federal Safety Regulations for Consumer Products with Coin Batteries and Child Resistant Coin Battery Packaging",
+        "Name of product": "Greater Goods Digital Kitchen Scales",
+        "Description": "This recall involves Greater Goods Digital Kitchen Scales, models: 0480, 0455, 0456, 0458, 0473, 0479, 0481, 0747, 0748, 0749, 0751, 0752, 0754.&nbsp;They are labeled with a sticker with the brand and model printed on the back and come in gray, black, blue, green, pink, red, silver and white colors. The Greater Goods logo is located on the top of the front panel of the scale.&nbsp;The scales come with a lithium CR3032 coin battery pre-installed and a spare CR3032 battery in the packaging.",
+        "Hazard Description": "The recalled digital kitchen scales violate the mandatory federal regulations for consumer products containing button cell or coin batteries, because the scale has a lithium coin battery that can be easily accessed by children, and a spare coin battery provided with the product not in child resistant packaging, as required by Reese’s Law. These violations pose an ingestion hazard. The recalled scales also do not have the required warnings. When button cell or coin batteries are swallowed, the ingested batteries can cause serious injuries, internal chemical burns, and death.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Repair",
+        "Units": "About 349,500",
+        "Incidents": "None reported",
+        "Remedy": "Consumers should immediately remove the battery in the digital kitchen scale and place it in an area that children cannot access. Contact Greater Goods for information on how to receive a free recall kit, which includes a new replacement battery door that can be secured to the scale, the required labeling, and an updated instruction manual. Greater Goods, Amazon and Walmart are contacting all known purchasers directly.Note:&nbsp;Button cell and coin batteries are hazardous. Batteries should be disposed of or recycled by following local hazardous waste procedures.",
+        "Sold At Label": "Sold At",
+        "Sold At": "Online at Amazon, Walmart and Greater Goods from May 2023 through September 2024 for about $10.",
+        "Importers": "Greater Goods LLC, of Saint Louis, Missouri ",
+        "Manufacturers": "",
+        "Distributors": "",
+        "Manufactured In": "China",
+        "Custom Label": "",
+        "Custom Field": ""
+      }
+    },
+    {
+      "merged": {
+        "RecallID": 10114,
+        "RecallNumber": "25071",
+        "RecallDate": "2024-12-19T00:00:00",
+        "Description": "This recall involves SKIL brand 40V 5.0Ah Lithium-Ion Batteries that were manufactured before May 1, 2021. \"SKIL\" and \"PWRCORE 40\" are printed on the batteries. The recalled batteries were sold individually under the model number BY8708-00 for use with all SKIL 40V tools and were also sold in a combination kit with SKIL 40V Brushless 20-in Push Mowers (Model #PM 4910-10) or SKIL 40V Brushless 20-in Self-Propelled Mowers (Model #SM4910-10). Only the battery is recalled. The model number BY8708-00 and manufacturing date code, which is the first three digits of the 9-digit serial number, are located on a nameplate on the top of the battery pack near the battery terminals. The following manufacturing date codes are included Date Code (in Serial Number) Manufacturing Date 911XXXXXX Nov-19 912XXXXXX Dec-19 026XXXXXX Jun-20 027XXXXXX Jul-20 028XXXXXX Aug-20 029XXXXXX Sep-20 030XXXXXX Oct-20 031XXXXXX Nov-20 121XXXXXX Jan-21 122XXXXXX Feb-21 123XXXXXX Mar-21 124XXXXXX Apr-21",
+        "URL": "https://www.cpsc.gov/Recalls/2025/Chervon-North-America-Recalls-SKIL-40V-50Ah-Lithium-Ion-Batteries-for-SKIL-Lawnmowers-and-Outdoor-Tools-Due-to-Fire-and-Burn-Hazard",
+        "Title": "Chervon North America Recalls SKIL 40V 5.0Ah Lithium-Ion Batteries for SKIL Lawnmowers and Outdoor Tools Due to Fire and Burn Hazard",
+        "ConsumerContact": "Chervon North America toll-free at 833-476-5325 from 8 a.m. to 8 p.m. ET Monday through Friday, email at BY8708-00recall@na.chervongroup.com, or online at www.skil.com/recalls or www.skil.com and click on \"PRODUCT RECALLS\" at the top of the page for more information.",
+        "LastPublishDate": "2024-12-19T00:00:00",
+        "Products": [
+          {
+            "Name": "SKIL 40V 5.0 Ah Lithium-Ion Batteries",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 63,000 (In addition, about 359 in Canada)"
+          }
+        ],
+        "Inconjunctions": [
+          {
+            "URL": "https://recalls-rappels.canada.ca/en/alert-recall/skil-pwr-core-40tm-lithium-50ah-40v-battery-packs-recalled-due-potential-fire-and-burn"
+          }
+        ],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/skil-1.jpg",
+            "Caption": "Recalled SKIL 40V 5.0Ah Battery, model BY8708-00"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/skil-2.png",
+            "Caption": "Nameplate located on housing of the recalled battery shows model number and manufacturing date code (first 3 digits of serial number)"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "The firm has received 100 reports of thermal incidents involving the batteries including overheating, melting, smoking and fire. These included eight reports of minor burns and/or smoke inhalation and 49 reports of related property damage."
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Lowe's and other hardware and home improvement stores nationwide and online at Amazon.com, Walmart.com and Lowes.com from October 2019 through December 2024 for about $170 (for batteries sold individually) and about $400 (for combination kits with lawnmowers).",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Chervon North America Inc., of Naperville, Illinois",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": "Sold At",
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The lithium-ion batteries can overheat, posing fire and burn hazards.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled lithium-ion batteries and contact Chervon for a free replacement or refund for the price of the battery. Consumers should register for the recall online at www.skil.com/recalls. Chervon will provide a battery collection kit for the consumer to return the recalled battery and will provide the requested remedy upon return of the recalled battery."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          },
+          {
+            "Option": "Replace"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 10114,
+        "RecallNumber": "25071",
+        "RecallDate": "2024-12-19T00:00:00",
+        "Description": "This recall involves SKIL brand 40V 5.0Ah Lithium-Ion Batteries that were manufactured before May 1, 2021. \"SKIL\" and \"PWRCORE 40\" are printed on the batteries. The recalled batteries were sold individually under the model number BY8708-00 for use with all SKIL 40V tools and were also sold in a combination kit with SKIL 40V Brushless 20-in Push Mowers (Model #PM 4910-10) or SKIL 40V Brushless 20-in Self-Propelled Mowers (Model #SM4910-10). Only the battery is recalled. The model number BY8708-00 and manufacturing date code, which is the first three digits of the 9-digit serial number, are located on a nameplate on the top of the battery pack near the battery terminals. The following manufacturing date codes are included Date Code (in Serial Number) Manufacturing Date 911XXXXXX Nov-19 912XXXXXX Dec-19 026XXXXXX Jun-20 027XXXXXX Jul-20 028XXXXXX Aug-20 029XXXXXX Sep-20 030XXXXXX Oct-20 031XXXXXX Nov-20 121XXXXXX Jan-21 122XXXXXX Feb-21 123XXXXXX Mar-21 124XXXXXX Apr-21",
+        "URL": "https://www.cpsc.gov/Recalls/2025/Chervon-North-America-Recalls-SKIL-40V-50Ah-Lithium-Ion-Batteries-for-SKIL-Lawnmowers-and-Outdoor-Tools-Due-to-Fire-and-Burn-Hazard",
+        "Title": "Chervon North America Recalls SKIL 40V 5.0Ah Lithium-Ion Batteries for SKIL Lawnmowers and Outdoor Tools Due to Fire and Burn Hazard",
+        "ConsumerContact": "Chervon North America toll-free at 833-476-5325 from 8 a.m. to 8 p.m. ET Monday through Friday, email at BY8708-00recall@na.chervongroup.com, or online at www.skil.com/recalls or www.skil.com and click on \"PRODUCT RECALLS\" at the top of the page for more information.",
+        "LastPublishDate": "2024-12-19T00:00:00",
+        "Products": [
+          {
+            "Name": "SKIL 40V 5.0 Ah Lithium-Ion Batteries",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 63,000 (In addition, about 359 in Canada)"
+          }
+        ],
+        "Inconjunctions": [
+          {
+            "URL": "https://recalls-rappels.canada.ca/en/alert-recall/skil-pwr-core-40tm-lithium-50ah-40v-battery-packs-recalled-due-potential-fire-and-burn"
+          }
+        ],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/skil-1.jpg",
+            "Caption": "Recalled SKIL 40V 5.0Ah Battery, model BY8708-00"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/skil-2.png",
+            "Caption": "Nameplate located on housing of the recalled battery shows model number and manufacturing date code (first 3 digits of serial number)"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "The firm has received 100 reports of thermal incidents involving the batteries including overheating, melting, smoking and fire. These included eight reports of minor burns and/or smoke inhalation and 49 reports of related property damage."
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Lowe's and other hardware and home improvement stores nationwide and online at Amazon.com, Walmart.com and Lowes.com from October 2019 through December 2024 for about $170 (for batteries sold individually) and about $400 (for combination kits with lawnmowers).",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Chervon North America Inc., of Naperville, Illinois",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The lithium-ion batteries can overheat, posing fire and burn hazards.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled lithium-ion batteries and contact Chervon for a free replacement or refund for the price of the battery. Consumers should register for the recall online at www.skil.com/recalls. Chervon will provide a battery collection kit for the consumer to return the recalled battery and will provide the requested remedy upon return of the recalled battery."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          },
+          {
+            "Option": "Replace"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "25071",
+        "Product Safety Warning Number": "",
+        "Date": "December 19, 2024",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "Chervon North America Recalls SKIL 40V 5.0Ah Lithium-Ion Batteries for SKIL Lawnmowers and Outdoor Tools Due to Fire and Burn Hazard",
+        "Name of product": "SKIL 40V 5.0 Ah Lithium-Ion Batteries",
+        "Description": "This recall involves SKIL brand&nbsp;40V 5.0Ah&nbsp;Lithium-Ion Batteries that were manufactured before May 1, 2021. “SKIL” and “PWRCORE 40” are printed on the batteries. The recalled batteries were sold individually under the model number BY8708-00 for use with all SKIL 40V tools and were also sold in a combination kit with&nbsp;SKIL 40V Brushless 20-in Push Mowers (Model #PM 4910-10) or SKIL 40V Brushless 20-in Self-Propelled Mowers (Model #SM4910-10).&nbsp;Only the battery&nbsp;is recalled. The model number BY8708-00 and manufacturing date code, which is the first three digits of the 9-digit serial number, are located on a nameplate on the top of the battery pack near the battery terminals. The following manufacturing date codes are included:Date Code (in Serial Number)Manufacturing Date&nbsp;911XXXXXXNov-19912XXXXXXDec-19026XXXXXXJun-20027XXXXXXJul-20028XXXXXXAug-20029XXXXXXSep-20030XXXXXXOct-20031XXXXXXNov-20121XXXXXXJan-21122XXXXXXFeb-21123XXXXXXMar-21124XXXXXXApr-21",
+        "Hazard Description": "The lithium-ion batteries can overheat, posing fire and burn hazards.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Refund, Replace",
+        "Units": "About 63,000 (In addition, about 359 in Canada)",
+        "Incidents": "The firm has received 100 reports of thermal incidents involving the batteries including overheating, melting, smoking and fire. These included eight reports of minor burns and/or smoke inhalation and 49 reports of related property damage.",
+        "Remedy": "Consumers should immediately stop using the recalled lithium-ion batteries and contact Chervon for a free replacement or refund for the price of the battery. Consumers should register for the recall online at&nbsp;www.skil.com/recalls.&nbsp;Chervon will provide a battery collection kit for the consumer to return the recalled battery and will provide the requested remedy upon return of the recalled battery.&nbsp;",
+        "Sold At Label": "Sold At",
+        "Sold At": "Lowe’s and other hardware and home improvement stores nationwide and online at Amazon.com, Walmart.com and Lowes.com from October 2019 through December 2024 for about $170 (for batteries sold individually) and about $400 (for combination kits with lawnmowers).",
+        "Importers": "Chervon North America Inc., of Naperville, Illinois",
+        "Manufacturers": "",
+        "Distributors": "",
+        "Manufactured In": "China",
+        "Custom Label": "",
+        "Custom Field": ""
+      }
+    },
+    {
+      "merged": {
+        "RecallID": 9884,
+        "RecallNumber": "24149",
+        "RecallDate": "2024-03-07T00:00:00",
+        "Description": "This recall involves Yamaha's PA-10 AC Power Adaptors with date codes ranging from 2126 to 2319. Yamaha is printed on the front of the black power adapter. The date code is printed on the back. Yamaha's PA-10 AC Power Adapter was bundled with five Yamaha analog mixing console models - MG10, MG10X CV, MG10XU, MG10XUF, and MG12XUK - and sold as a stand-alone replacement part. Only Yamaha's PA-10 AC Power Adapter is being recalled.",
+        "URL": "https://www.cpsc.gov/Recalls/2024/Yamaha-Corporation-of-America-Recalls-Power-Adaptors-Due-to-Electrical-Shock-and-Electrocution-Hazards",
+        "Title": "Yamaha Corporation of America Recalls Power Adaptors Due to Electrical Shock and Electrocution Hazards",
+        "ConsumerContact": "Yamaha toll-free at 844-703-5446 from 8:30 a.m. to 5 p.m. PT Monday through Friday; email at pa10recall@yamaha.com; or online at www.yamaha.com/us/support/pa10recall/ or at www.usa.yamaha.com and click on \"Product Safety Information\" at the bottom of the page for more information.",
+        "LastPublishDate": "2024-03-07T00:00:00",
+        "Products": [
+          {
+            "Name": "Yamaha PA-10 AC Power Adaptors",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 34,500"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/pa-10-adaptor.png",
+            "Caption": "Recalled PA-10 AC Power Adaptor"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/pa-10-back.png",
+            "Caption": "Back of the Recalled PA-10 AC Power Adaptor Showing Date Code"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/pa-10-crack.png",
+            "Caption": "A crack can occur between the recalled PA-10 AC Power Adapter's upper and lower cases"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [
+          {
+            "Name": "Yamaha Corporation, of Japan",
+            "CompanyID": ""
+          }
+        ],
+        "Retailers": [
+          {
+            "Name": "Guitar Center, Amazon.com, Sweetwater Sound, Sam Ash, Musicians Friend, B & H Foto & Electronics, American Musical Supply, and other independent, authorized Yamaha professional audio stores nationwide; and directly by Yamaha online at www.usa.yamaha.com and www.shop.usa.yamaha.com/ from June 2021 through November 2023 for about $60.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Yamaha Corporation of America, of Buena Park, California",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": "Sold At",
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "A crack can occur between the PA-10 AC Power Adapter's upper and lower cases. The upper and lower cases can separate completely and expose electrical wiring, posing electrical shock and electrocution hazards to consumer.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the PA-10 AC Power Adaptor and contact Yamaha for a free replacement. Yamaha will provide a free replacement AC Power Adapter to any consumer who purchased a Yamaha mixing console that contained a defective PA-10 AC Power Adapter and/or purchased a defective PA-10 AC Power Adapter as a stand-alone replacement part."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Replace"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 9884,
+        "RecallNumber": "24149",
+        "RecallDate": "2024-03-07T00:00:00",
+        "Description": "This recall involves Yamaha's PA-10 AC Power Adaptors with date codes ranging from 2126 to 2319. Yamaha is printed on the front of the black power adapter. The date code is printed on the back. Yamaha's PA-10 AC Power Adapter was bundled with five Yamaha analog mixing console models - MG10, MG10X CV, MG10XU, MG10XUF, and MG12XUK - and sold as a stand-alone replacement part. Only Yamaha's PA-10 AC Power Adapter is being recalled.",
+        "URL": "https://www.cpsc.gov/Recalls/2024/Yamaha-Corporation-of-America-Recalls-Power-Adaptors-Due-to-Electrical-Shock-and-Electrocution-Hazards",
+        "Title": "Yamaha Corporation of America Recalls Power Adaptors Due to Electrical Shock and Electrocution Hazards",
+        "ConsumerContact": "Yamaha toll-free at 844-703-5446 from 8:30 a.m. to 5 p.m. PT Monday through Friday; email at pa10recall@yamaha.com; or online at www.yamaha.com/us/support/pa10recall/ or at www.usa.yamaha.com and click on \"Product Safety Information\" at the bottom of the page for more information.",
+        "LastPublishDate": "2024-03-07T00:00:00",
+        "Products": [
+          {
+            "Name": "Yamaha PA-10 AC Power Adaptors",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 34,500"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/pa-10-adaptor.png",
+            "Caption": "Recalled PA-10 AC Power Adaptor"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/pa-10-back.png",
+            "Caption": "Back of the Recalled PA-10 AC Power Adaptor Showing Date Code"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/pa-10-crack.png",
+            "Caption": "A crack can occur between the recalled PA-10 AC Power Adapter's upper and lower cases"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [
+          {
+            "Name": "Yamaha Corporation, of Japan",
+            "CompanyID": ""
+          }
+        ],
+        "Retailers": [
+          {
+            "Name": "Guitar Center, Amazon.com, Sweetwater Sound, Sam Ash, Musicians Friend, B & H Foto & Electronics, American Musical Supply, and other independent, authorized Yamaha professional audio stores nationwide; and directly by Yamaha online at www.usa.yamaha.com and www.shop.usa.yamaha.com/ from June 2021 through November 2023 for about $60.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Yamaha Corporation of America, of Buena Park, California",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "A crack can occur between the PA-10 AC Power Adapter's upper and lower cases. The upper and lower cases can separate completely and expose electrical wiring, posing electrical shock and electrocution hazards to consumer.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the PA-10 AC Power Adaptor and contact Yamaha for a free replacement. Yamaha will provide a free replacement AC Power Adapter to any consumer who purchased a Yamaha mixing console that contained a defective PA-10 AC Power Adapter and/or purchased a defective PA-10 AC Power Adapter as a stand-alone replacement part."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Replace"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "24149",
+        "Product Safety Warning Number": "",
+        "Date": "March 07, 2024",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "Yamaha Corporation of America Recalls Power Adapters Due to Electrical Shock and Electrocution Hazards",
+        "Name of product": "Yamaha PA-10B AC Power Adapters",
+        "Description": "This recall involves Yamaha’s PA-10B AC Power Adapters with date codes ranging from 2126 to 2319. Yamaha is printed on the front of the black power adapter. The date code is printed on the back. Yamaha’s PA-10B AC Power Adapter was bundled with five Yamaha analog mixing console models – MG10, MG10X CV, MG10XU, MG10XUF, and MG12XUK – and sold as a stand-alone replacement part.&nbsp; Only Yamaha’s PA-10B AC Power Adapter is being recalled",
+        "Hazard Description": "A crack can occur between the PA-10B AC Power Adapter’s upper and lower cases.&nbsp; The upper and lower cases can separate completely and expose electrical wiring, posing electrical shock and electrocution hazards to consumers.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Replace",
+        "Units": "About 34,500",
+        "Incidents": "None reported",
+        "Remedy": "Consumers should immediately stop using the PA-10B AC Power Adapter and contact Yamaha for a free replacement. Yamaha will provide a free replacement AC Power Adapter to any consumer who purchased a Yamaha mixing console that contained a defective PA-10B AC Power Adapter and/or purchased a defective PA-10B AC Power Adapter as a stand-alone replacement part.",
+        "Sold At Label": "Sold At",
+        "Sold At": "Guitar Center, Amazon.com, Sweetwater Sound, Sam Ash, Musicians Friend, B &amp; H Foto &amp; Electronics, American Musical Supply, and other independent, authorized Yamaha professional audio stores nationwide; and directly by Yamaha online at www.usa.yamaha.com and www.shop.usa.yamaha.com/ from June 2021 through November 2023 for about $60.",
+        "Importers": "Yamaha Corporation of America, of Buena Park, California",
+        "Manufacturers": "Yamaha Corporation, of Japan",
+        "Distributors": "",
+        "Manufactured In": "China",
+        "Custom Label": "",
+        "Custom Field": ""
+      }
+    }
+  ]
+}

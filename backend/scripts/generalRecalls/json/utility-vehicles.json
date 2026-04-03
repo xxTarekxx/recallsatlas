@@ -1,0 +1,1473 @@
+{
+  "meta": {
+    "slug": "utility-vehicles",
+    "sourceCsvFile": "utility-vehicles_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T04:43:57.376Z",
+    "recallCount": 7
+  },
+  "recalls": [
+    {
+      "merged": {
+        "RecallID": 10259,
+        "RecallNumber": "25249",
+        "RecallDate": "2025-05-01T00:00:00",
+        "Description": "This recall involves Kubota Utility Vehicles under the \"RTV-series.\" The chart below identifies the models and serial number ranges of the recalled products. The model numbers can be found on the side of the utility vehicle. The serial numbers can be generally found on the left side, behind the driver. The plate is facing backwards where the bed meets the cab. The utility vehicles were sold in various colors, including orange, black and camo. Model Range of Last 5 Serial Numbers RTV520 10004-25434 and X0005-X0507 RTV-X1120 41413-41489 RTV-X1130 10003-11962 RTV-X1140 RTV-X RTV-X900 RTV-X1100C",
+        "URL": "https://www.cpsc.gov/Recalls/2025/Kubota-Tractor-Corporation-Recalls-RTV-Series-Utility-Vehicles-Due-to-Crash-Hazard",
+        "Title": "Kubota Tractor Corporation Recalls RTV-Series Utility Vehicles Due to Crash Hazard",
+        "ConsumerContact": "Kubota Tractor Corporation toll-free at 888-458-2682 from 7 a.m. to 7 p.m. CT Monday through Friday, or online at https://www.kubotausa.com/recall/service-support/safety/safety-notices or www.kubotausa.com and click on \"Safety & Recall\" at the bottom of the webpage. Consumers can also fill out a contact form at https://www.kubotausa.com/recall/contact/form.",
+        "LastPublishDate": "2025-05-01T00:00:00",
+        "Products": [
+          {
+            "Name": "Kubota Utility Vehicles",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 49,640"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/kubota-1.PNG",
+            "Caption": "Recalled Kubota Model RTV-X900"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/kubota-2.PNG",
+            "Caption": "Recalled Kubota Model RTV520"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/kubota-3.PNG",
+            "Caption": "Recalled Kubota Model RTV-X1120"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/kubota-4.PNG",
+            "Caption": "Recalled Kubota Model RTV-X1140"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "The firm has received four reports of loosened or separated ball joints. No injuries have been reported."
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Authorized Kubota dealers nationwide from January 2021 through December 2024 for between $11,000 and $27,000.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [],
+        "Distributors": [
+          {
+            "Name": "Kubota Tractor Corporation, of Grapevine, Texas",
+            "CompanyID": ""
+          }
+        ],
+        "SoldAtLabel": "Sold At",
+        "ManufacturerCountries": [
+          {
+            "Country": "United States"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The ball joint connected to the front suspension arm can loosen and separate from the front suspension arm, resulting in the driver losing wheel support of the utility vehicle, posing a crash hazard to consumers.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled utility vehicles and contact an authorized Kubota dealer to schedule a free inspection and repair at the dealer's location. Kubota is contacting registered owners directly."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Repair"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 10259,
+        "RecallNumber": "25249",
+        "RecallDate": "2025-05-01T00:00:00",
+        "Description": "This recall involves Kubota Utility Vehicles under the \"RTV-series.\" The chart below identifies the models and serial number ranges of the recalled products. The model numbers can be found on the side of the utility vehicle. The serial numbers can be generally found on the left side, behind the driver. The plate is facing backwards where the bed meets the cab. The utility vehicles were sold in various colors, including orange, black and camo. Model Range of Last 5 Serial Numbers RTV520 10004-25434 and X0005-X0507 RTV-X1120 41413-41489 RTV-X1130 10003-11962 RTV-X1140 RTV-X RTV-X900 RTV-X1100C",
+        "URL": "https://www.cpsc.gov/Recalls/2025/Kubota-Tractor-Corporation-Recalls-RTV-Series-Utility-Vehicles-Due-to-Crash-Hazard",
+        "Title": "Kubota Tractor Corporation Recalls RTV-Series Utility Vehicles Due to Crash Hazard",
+        "ConsumerContact": "Kubota Tractor Corporation toll-free at 888-458-2682 from 7 a.m. to 7 p.m. CT Monday through Friday, or online at https://www.kubotausa.com/recall/service-support/safety/safety-notices or www.kubotausa.com and click on \"Safety & Recall\" at the bottom of the webpage. Consumers can also fill out a contact form at https://www.kubotausa.com/recall/contact/form.",
+        "LastPublishDate": "2025-05-01T00:00:00",
+        "Products": [
+          {
+            "Name": "Kubota Utility Vehicles",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 49,640"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/kubota-1.PNG",
+            "Caption": "Recalled Kubota Model RTV-X900"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/kubota-2.PNG",
+            "Caption": "Recalled Kubota Model RTV520"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/kubota-3.PNG",
+            "Caption": "Recalled Kubota Model RTV-X1120"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/kubota-4.PNG",
+            "Caption": "Recalled Kubota Model RTV-X1140"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "The firm has received four reports of loosened or separated ball joints. No injuries have been reported."
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Authorized Kubota dealers nationwide from January 2021 through December 2024 for between $11,000 and $27,000.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [],
+        "Distributors": [
+          {
+            "Name": "Kubota Tractor Corporation, of Grapevine, Texas",
+            "CompanyID": ""
+          }
+        ],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "United States"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The ball joint connected to the front suspension arm can loosen and separate from the front suspension arm, resulting in the driver losing wheel support of the utility vehicle, posing a crash hazard to consumers.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled utility vehicles and contact an authorized Kubota dealer to schedule a free inspection and repair at the dealer's location. Kubota is contacting registered owners directly."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Repair"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "25249",
+        "Product Safety Warning Number": "",
+        "Date": "May 01, 2025",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "Kubota Tractor Corporation Recalls RTV-Series Utility Vehicles Due to Crash Hazard",
+        "Name of product": "Kubota Utility Vehicles",
+        "Description": "This recall involves Kubota Utility Vehicles under the “RTV-series.” The chart below identifies the models and serial number ranges of the recalled products.&nbsp;The model numbers can be found on the side of the utility vehicle.&nbsp; The serial numbers can be generally found on the left side, behind the driver.&nbsp;The plate is facing backwards where the bed meets the cab. The utility vehicles were sold in various colors, including orange, black and camo.ModelRange of Last 5 Serial NumbersRTV52010004-25434 and X0005-X0507RTV-X112041413-41489RTV-X113010003-11962RTV-X114055080-80440RTV-X10001-16796RTV-X90079863-80047RTV-X1100C77675-97306",
+        "Hazard Description": "The ball joint connected to the front suspension arm can loosen and separate from the front suspension arm, resulting in the driver losing wheel support of the utility vehicle, posing a crash hazard to consumers.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Repair",
+        "Units": "About 49,640",
+        "Incidents": "The firm has received four reports of loosened or separated ball joints.  No injuries have been reported. ",
+        "Remedy": "Consumers should immediately stop using the recalled utility vehicles and contact an authorized Kubota dealer to schedule a free inspection and repair at the dealer’s location. Kubota is contacting registered owners directly.",
+        "Sold At Label": "Sold At",
+        "Sold At": "Authorized Kubota dealers nationwide from January 2021 through December 2024 for between $11,000 and $27,000.",
+        "Importers": "",
+        "Manufacturers": "",
+        "Distributors": "Kubota Tractor Corporation, of Grapevine, Texas",
+        "Manufactured In": "United States",
+        "Custom Label": "",
+        "Custom Field": ""
+      }
+    },
+    {
+      "merged": {
+        "RecallID": 10224,
+        "RecallNumber": "25207",
+        "RecallDate": "2025-04-03T00:00:00",
+        "Description": "This recall involves accessory heaters that are compatible with model years 2023-2025 Honda Pioneer 700 (SXS700), 2022-2024 Pioneer 1000 (SXS1000), and 2022-2024 Talon 1000 (SXS1000S) vehicles. The accessory heaters were sold separately from the vehicles. Affected vehicles have been fitted with the Honda accessory heater system, which has a mounted control panel on the vehicle's dash with controls for air speed, air flow direction and temperature. Customers can enter the vehicle's VIN at https://powersports.honda.com/recalls to see if the vehicle is compatible with the recalled accessory heater. Refer to the Technical Information - Vehicle Identification section in the owner's manual to locate the vehicle's VIN.",
+        "URL": "https://www.cpsc.gov/Recalls/2025/Honda-Recalls-Accessory-Heaters-for-Side-by-Side-Vehicles-Due-to-Fire-and-Burn-Hazards",
+        "Title": "Honda Recalls Accessory Heaters for Side-by-Side Vehicles Due to Fire and Burn Hazards",
+        "ConsumerContact": "American Honda toll-free at 866-784-1870 from 8:30 a.m. to 4:30 p.m. PT Monday through Friday or online at https://powersports.honda.com and click on \"Recall Information\" at the top of the page for more information or at https://powersports.honda.com/recalls.",
+        "LastPublishDate": "2025-04-03T00:00:00",
+        "Products": [
+          {
+            "Name": "Accessory Heaters for Model Years 2022-2024 Honda Pioneer 1000, 2023-2025 Pioneer 700, and 2022-2024 Honda Talon 1000 Side-by-Side vehicles",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 2,340 Accessory Heaters"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Honda-1.jpg",
+            "Caption": "Recalled accessory heater system and control panel"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Honda-2.png",
+            "Caption": "Compatible Honda Pioneer and Honda Talon vehicles"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "Honda has received three reports of the recalled accessory heaters overheating, including two incidents resulting in fires and vehicle damage. No injuries have been reported."
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Authorized Honda Powersports dealers nationwide from January 2022 through September 2024 for between $900 and $1,040.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [],
+        "Distributors": [
+          {
+            "Name": "American Honda Motor Co. Inc, of Torrance, California",
+            "CompanyID": ""
+          }
+        ],
+        "SoldAtLabel": "Sold At",
+        "ManufacturerCountries": [
+          {
+            "Country": "United States"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The recalled accessory heaters can overheat and catch fire, posing fire and burn hazards to consumers.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should stop using the recalled accessory heaters immediately and contact an authorized Honda Powersports dealer to schedule an appointment for a free repair. Honda is contacting all known purchasers directly."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Repair"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 10224,
+        "RecallNumber": "25207",
+        "RecallDate": "2025-04-03T00:00:00",
+        "Description": "This recall involves accessory heaters that are compatible with model years 2023-2025 Honda Pioneer 700 (SXS700), 2022-2024 Pioneer 1000 (SXS1000), and 2022-2024 Talon 1000 (SXS1000S) vehicles. The accessory heaters were sold separately from the vehicles. Affected vehicles have been fitted with the Honda accessory heater system, which has a mounted control panel on the vehicle's dash with controls for air speed, air flow direction and temperature. Customers can enter the vehicle's VIN at https://powersports.honda.com/recalls to see if the vehicle is compatible with the recalled accessory heater. Refer to the Technical Information - Vehicle Identification section in the owner's manual to locate the vehicle's VIN.",
+        "URL": "https://www.cpsc.gov/Recalls/2025/Honda-Recalls-Accessory-Heaters-for-Side-by-Side-Vehicles-Due-to-Fire-and-Burn-Hazards",
+        "Title": "Honda Recalls Accessory Heaters for Side-by-Side Vehicles Due to Fire and Burn Hazards",
+        "ConsumerContact": "American Honda toll-free at 866-784-1870 from 8:30 a.m. to 4:30 p.m. PT Monday through Friday or online at https://powersports.honda.com and click on \"Recall Information\" at the top of the page for more information or at https://powersports.honda.com/recalls.",
+        "LastPublishDate": "2025-04-03T00:00:00",
+        "Products": [
+          {
+            "Name": "Accessory Heaters for Model Years 2022-2024 Honda Pioneer 1000, 2023-2025 Pioneer 700, and 2022-2024 Honda Talon 1000 Side-by-Side vehicles",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 2,340 Accessory Heaters"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Honda-1.jpg",
+            "Caption": "Recalled accessory heater system and control panel"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Honda-2.png",
+            "Caption": "Compatible Honda Pioneer and Honda Talon vehicles"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "Honda has received three reports of the recalled accessory heaters overheating, including two incidents resulting in fires and vehicle damage. No injuries have been reported."
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Authorized Honda Powersports dealers nationwide from January 2022 through September 2024 for between $900 and $1,040.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [],
+        "Distributors": [
+          {
+            "Name": "American Honda Motor Co. Inc, of Torrance, California",
+            "CompanyID": ""
+          }
+        ],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "United States"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The recalled accessory heaters can overheat and catch fire, posing fire and burn hazards to consumers.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should stop using the recalled accessory heaters immediately and contact an authorized Honda Powersports dealer to schedule an appointment for a free repair. Honda is contacting all known purchasers directly."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Repair"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "25207",
+        "Product Safety Warning Number": "",
+        "Date": "April 03, 2025",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "Honda Recalls Accessory Heaters for Side-by-Side Vehicles Due to Fire and Burn Hazards",
+        "Name of product": "Accessory Heaters for Model Years 2022-2024 Honda Pioneer 1000, 2023-2025 Pioneer 700, and 2022-2024 Honda Talon 1000 Side-by-Side vehicles",
+        "Description": "This recall involves accessory heaters that are compatible with model years 2023-2025 Honda Pioneer 700 (SXS700), 2022-2024 Pioneer 1000 (SXS1000), and 2022-2024 Talon 1000 (SXS1000S) vehicles. The accessory heaters were sold separately from the vehicles.&nbsp;Affected vehicles have been fitted with the Honda accessory heater system, which has a mounted control panel on the vehicle’s dash with controls for air speed, air flow direction and temperature. Customers can enter the vehicle’s VIN at&nbsp;https://powersports.honda.com/recalls to see if the vehicle is compatible with the recalled accessory heater. Refer to the Technical Information - Vehicle Identification section in the owner’s manual to locate the vehicle’s VIN.",
+        "Hazard Description": "The recalled accessory heaters can overheat and catch fire, posing fire and burn hazards to consumers.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Repair",
+        "Units": "About 2,340 Accessory Heaters",
+        "Incidents": "Honda has received three reports of the recalled accessory heaters overheating, including two incidents resulting in fires and vehicle damage. No injuries have been reported. ",
+        "Remedy": "Consumers should stop using the recalled accessory heaters immediately and contact an authorized Honda Powersports dealer to schedule an appointment for a free repair. Honda is contacting all known purchasers directly.&nbsp;",
+        "Sold At Label": "Sold At",
+        "Sold At": "Authorized Honda Powersports dealers nationwide from January 2022 through September 2024 for between $900 and $1,040.",
+        "Importers": "",
+        "Manufacturers": "",
+        "Distributors": "American Honda Motor Co. Inc, of Torrance, California",
+        "Manufactured In": "United States",
+        "Custom Label": "",
+        "Custom Field": ""
+      }
+    },
+    {
+      "merged": {
+        "RecallID": 10010,
+        "RecallNumber": "24312",
+        "RecallDate": "2024-07-25T00:00:00",
+        "Description": "This recall involves 2024 Mule PRO-FX™ 1000, PRO-FXR™1000 and PRO-FXT™ 1000 utility vehicles. The four wheel, off-highway utility vehicles were sold in Metallic Sierra Blue, Metallic Onyx Black, Firecracker Red, Ice Gray, TRUETIMBER® Strata, Metallic Titanium, and Metallic Stardust White colors. The Vehicle Identification Number (VIN) is located on the forward frame rail below the seat. The model name and model code are printed on the owner's manual. Model Numbers Model Name VIN UPC / Date Codes Assembly Date Retail Price KAT1000ARFNN / ARFNL MULE PRO-FXT 1000 LE JKAATCA12RB500001 5/10/2023 18799 KAF1000LRFNN/LRFNL MULE PRO-FX 1000 HD Edition JKAAFCL17RB500001 5/16/2023 16799 KAF1000MRFNN/MRFNL MULE PRO-FXR 1000 JKAAFCM19RB500001 5/23/2023 15099 KAF1000NRFNN/NRFNL MULE PRO-FXR 1000 LE JKAAFCN10RB500001 5/23/2023 16199 KAT1000BRFNN/BRFNL MULE PRO-FXT 1000 LE Camo JKAATCB14RB500001 5/10/2023 18899 KAT1000CRFNN/CRFNL MULE PRO-FXT 1000 LE Ranch Edition JKAATCC16RB500001 5/9/2023 20399 KAT1000DRFNN/DRFNL MULE PRO-FXT 1000 Platinum Ranch Edition JKAATCD18RB500001 5/9/2023 21899",
+        "URL": "https://www.cpsc.gov/Recalls/2024/Kawasaki-USA-Recalls-Mule-PRO-1000-Off-Highway-Utility-Vehicles-Due-to-Fire-Hazard",
+        "Title": "Kawasaki USA Recalls Mule PRO 1000 Off-Highway Utility Vehicles Due to Fire Hazard",
+        "ConsumerContact": "Kawasaki toll-free at 866-802-9381 from 7 a.m. to 4 p.m. PT Monday through Friday, or online at www.kawasaki.com/en-us/owner-center/recalls or online at www.kawasaki.com and click on \"Recalls\" for more information.",
+        "LastPublishDate": "2024-07-25T00:00:00",
+        "Products": [
+          {
+            "Name": "2024 Kawasaki Mule PRO 1000 Off-Highway Utility Vehicles",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 19,100"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Mule-Pro-1.png",
+            "Caption": "Recalled MULE PRO-FXT 1000 LE in Metallic Sierra Blue"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Mule-Pro-2.png",
+            "Caption": "Recalled MULE PRO-FXT 1000 LE in Metallic Onyx Black"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Mule-Pro-3.png",
+            "Caption": "Recalled MULE PRO-FX 1000 HD Edition in Firecracker Red"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Mule-Pro-4.png",
+            "Caption": "Recalled MULE PRO-FXR 1000 in Metallic Sierra Blue"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Mule-Pro-5.png",
+            "Caption": "Recalled MULE PRO-FXR 1000 LE in Ice Gray"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Mule-Pro-6.png",
+            "Caption": "Recalled MULE PRO-FXT 1000 LE Camo in TRUETIMBER Strata"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Mule-Pro-7.png",
+            "Caption": "Recalled MULE PRO-FXT 1000 LE Ranch Edition in Metallic Titanium"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Mule-Pro-8.png",
+            "Caption": "Recalled MULE PRO-FXT 1000 Platinum Ranch Edition in Metallic Stardust White"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "Kawasaki has received three reports of fires occurring during engine start up. No injuries have been reported."
+          }
+        ],
+        "Manufacturers": [
+          {
+            "Name": "Kawasaki Motors Manufacturing Corp., U.S.A., of Lincoln, Neb.",
+            "CompanyID": ""
+          }
+        ],
+        "Retailers": [
+          {
+            "Name": "Kawasaki dealers nationwide from June 2023 through April 2024 for between $15,100 and $21,900.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [],
+        "Distributors": [
+          {
+            "Name": "Kawasaki Motors Corp. U.S.A., of Foothill Ranch, Calif.",
+            "CompanyID": ""
+          }
+        ],
+        "SoldAtLabel": "Sold At",
+        "ManufacturerCountries": [
+          {
+            "Country": "United States"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "When starting the engine, improper combustion can occur, posing a fire hazard.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled utility vehicles and contact a Kawasaki dealer to schedule a free repair. A technician will reprogram the ECU and install a sub-harness on the vehicle. Kawasaki is contacting all known purchasers directly."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Repair"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 10010,
+        "RecallNumber": "24312",
+        "RecallDate": "2024-07-25T00:00:00",
+        "Description": "This recall involves 2024 Mule PRO-FX™ 1000, PRO-FXR™1000 and PRO-FXT™ 1000 utility vehicles. The four wheel, off-highway utility vehicles were sold in Metallic Sierra Blue, Metallic Onyx Black, Firecracker Red, Ice Gray, TRUETIMBER® Strata, Metallic Titanium, and Metallic Stardust White colors. The Vehicle Identification Number (VIN) is located on the forward frame rail below the seat. The model name and model code are printed on the owner's manual. Model Numbers Model Name VIN UPC / Date Codes Assembly Date Retail Price KAT1000ARFNN / ARFNL MULE PRO-FXT 1000 LE JKAATCA12RB500001 5/10/2023 18799 KAF1000LRFNN/LRFNL MULE PRO-FX 1000 HD Edition JKAAFCL17RB500001 5/16/2023 16799 KAF1000MRFNN/MRFNL MULE PRO-FXR 1000 JKAAFCM19RB500001 5/23/2023 15099 KAF1000NRFNN/NRFNL MULE PRO-FXR 1000 LE JKAAFCN10RB500001 5/23/2023 16199 KAT1000BRFNN/BRFNL MULE PRO-FXT 1000 LE Camo JKAATCB14RB500001 5/10/2023 18899 KAT1000CRFNN/CRFNL MULE PRO-FXT 1000 LE Ranch Edition JKAATCC16RB500001 5/9/2023 20399 KAT1000DRFNN/DRFNL MULE PRO-FXT 1000 Platinum Ranch Edition JKAATCD18RB500001 5/9/2023 21899",
+        "URL": "https://www.cpsc.gov/Recalls/2024/Kawasaki-USA-Recalls-Mule-PRO-1000-Off-Highway-Utility-Vehicles-Due-to-Fire-Hazard",
+        "Title": "Kawasaki USA Recalls Mule PRO 1000 Off-Highway Utility Vehicles Due to Fire Hazard",
+        "ConsumerContact": "Kawasaki toll-free at 866-802-9381 from 7 a.m. to 4 p.m. PT Monday through Friday, or online at www.kawasaki.com/en-us/owner-center/recalls or online at www.kawasaki.com and click on \"Recalls\" for more information.",
+        "LastPublishDate": "2024-07-25T00:00:00",
+        "Products": [
+          {
+            "Name": "2024 Kawasaki Mule PRO 1000 Off-Highway Utility Vehicles",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 19,100"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Mule-Pro-1.png",
+            "Caption": "Recalled MULE PRO-FXT 1000 LE in Metallic Sierra Blue"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Mule-Pro-2.png",
+            "Caption": "Recalled MULE PRO-FXT 1000 LE in Metallic Onyx Black"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Mule-Pro-3.png",
+            "Caption": "Recalled MULE PRO-FX 1000 HD Edition in Firecracker Red"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Mule-Pro-4.png",
+            "Caption": "Recalled MULE PRO-FXR 1000 in Metallic Sierra Blue"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Mule-Pro-5.png",
+            "Caption": "Recalled MULE PRO-FXR 1000 LE in Ice Gray"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Mule-Pro-6.png",
+            "Caption": "Recalled MULE PRO-FXT 1000 LE Camo in TRUETIMBER Strata"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Mule-Pro-7.png",
+            "Caption": "Recalled MULE PRO-FXT 1000 LE Ranch Edition in Metallic Titanium"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Mule-Pro-8.png",
+            "Caption": "Recalled MULE PRO-FXT 1000 Platinum Ranch Edition in Metallic Stardust White"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "Kawasaki has received three reports of fires occurring during engine start up. No injuries have been reported."
+          }
+        ],
+        "Manufacturers": [
+          {
+            "Name": "Kawasaki Motors Manufacturing Corp., U.S.A., of Lincoln, Neb.",
+            "CompanyID": ""
+          }
+        ],
+        "Retailers": [
+          {
+            "Name": "Kawasaki dealers nationwide from June 2023 through April 2024 for between $15,100 and $21,900.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [],
+        "Distributors": [
+          {
+            "Name": "Kawasaki Motors Corp. U.S.A., of Foothill Ranch, Calif.",
+            "CompanyID": ""
+          }
+        ],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "United States"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "When starting the engine, improper combustion can occur, posing a fire hazard.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled utility vehicles and contact a Kawasaki dealer to schedule a free repair. A technician will reprogram the ECU and install a sub-harness on the vehicle. Kawasaki is contacting all known purchasers directly."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Repair"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "24312",
+        "Product Safety Warning Number": "",
+        "Date": "July 25, 2024",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "Kawasaki USA Recalls Mule PRO 1000 Off-Highway Utility Vehicles Due to Fire Hazard",
+        "Name of product": "2024 Kawasaki Mule PRO 1000 Off-Highway Utility Vehicles",
+        "Description": "This recall involves 2024&nbsp;Mule PRO-FX™ 1000, PRO-FXR™1000 and PRO-FXT™ 1000 utility&nbsp;vehicles. The four wheel, off-highway utility vehicles were sold in Metallic Sierra Blue, Metallic Onyx Black, Firecracker Red, Ice Gray, TRUETIMBER® Strata, Metallic Titanium, and Metallic Stardust White colors. The Vehicle Identification Number (VIN) is located on the forward frame rail below the seat. The model name and model code are printed on the&nbsp;owner’s manual.Model NumbersModel NameVINUPC / Date Codes Assembly DateRetail PriceKAT1000ARFNN / ARFNLMULE PRO-FXT 1000 LE&nbsp;JKAATCA12RB500001&nbsp;5/10/2023$18,799&nbsp;KAF1000LRFNN/LRFNLMULE PRO-FX 1000 HD Edition&nbsp;JKAAFCL17RB500001&nbsp;5/16/2023$16,799&nbsp;KAF1000MRFNN/MRFNLMULE PRO-FXR 1000&nbsp;JKAAFCM19RB500001&nbsp;5/23/2023$15,099&nbsp;KAF1000NRFNN/NRFNLMULE PRO-FXR 1000 LE&nbsp;JKAAFCN10RB500001&nbsp;5/23/2023$16,199&nbsp;KAT1000BRFNN/BRFNLMULE PRO-FXT 1000 LE CamoJKAATCB14RB500001&nbsp;5/10/2023$18,899&nbsp;KAT1000CRFNN/CRFNLMULE PRO-FXT 1000 LE Ranch Edition&nbsp;JKAATCC16RB500001&nbsp;5/9/2023$20,399&nbsp;KAT1000DRFNN/DRFNLMULE PRO-FXT 1000 Platinum Ranch Edition&nbsp;JKAATCD18RB500001&nbsp;5/9/2023$21,899&nbsp;",
+        "Hazard Description": "When starting the engine, improper combustion can occur, posing a fire hazard.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Repair",
+        "Units": "About 19,100",
+        "Incidents": "Kawasaki has received three reports of fires occurring during engine start up. No injuries have been reported.",
+        "Remedy": "Consumers should immediately stop using the recalled utility vehicles and contact a Kawasaki dealer to schedule a free repair. A technician will reprogram the ECU and install a sub-harness on the vehicle. Kawasaki is contacting all known purchasers directly.",
+        "Sold At Label": "Sold At",
+        "Sold At": "Kawasaki dealers nationwide from June 2023 through April 2024 for between $15,100 and $21,900.",
+        "Importers": "",
+        "Manufacturers": "Kawasaki Motors Manufacturing Corp., U.S.A., of Lincoln, Neb.",
+        "Distributors": "Kawasaki Motors Corp. U.S.A., of Foothill Ranch, Calif.",
+        "Manufactured In": "United States",
+        "Custom Label": "",
+        "Custom Field": ""
+      }
+    },
+    {
+      "merged": {
+        "RecallID": 9949,
+        "RecallNumber": "24229",
+        "RecallDate": "2024-05-09T00:00:00",
+        "Description": "This recall involves model years 2022 and 2023 Prowler Pro, Prowler Pro Crew, Tracker 800SX, and Tracker 800SX Crew utility vehicles. They were sold in various colors, including green, gray, red, fossil, and timber. \"Prowler\" or \"Tracker\" is stamped on the side of the cargo box. The 10th digit of the vehicle identification number (VIN), which is printed on the operator side of the frame under the cargo box, includes an \"N\" for model year 2022 and a \"P\" for model year 2023.",
+        "URL": "https://www.cpsc.gov/Recalls/2024/Textron-Specialized-Vehicles-Recalls-Prowler-Pro-and-Tracker-Utility-Vehicles-UTVs-Due-to-Fire-Hazard",
+        "Title": "Textron Specialized Vehicles Recalls Prowler Pro and Tracker Utility Vehicles (UTVs) Due to Fire Hazard",
+        "ConsumerContact": "Textron Specialized Vehicles at 800-279-2281 from 8 a.m. to 5 p.m. CT, Monday through Friday, email at arcticcatwarranty@textron.com, or online at https://arcticcat.txtsv.com/owners/recalls or https://www.trackeroffroad.com/recalls.html or at https://arcticcat.txtsv.com or https://www.trackeroffroad.com click on \"Recalls\" at the bottom of the page.",
+        "LastPublishDate": "2024-05-09T00:00:00",
+        "Products": [
+          {
+            "Name": "Prowler Pro and Tracker 800SX Utility Vehicles (UTVs)",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 10,300 (In addition, about 1,000 were sold in Canada)"
+          }
+        ],
+        "Inconjunctions": [
+          {
+            "URL": "https://wwwapps.tc.gc.ca/Saf-Sec-Sur/7/VRDB-BDRV/search-recherche/detail.aspx?rn=2024142"
+          }
+        ],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Prowler-Pro-UTV.jpg",
+            "Caption": "Recalled Prowler Pro UTV"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Prowler-Pro-Crew-UTV.png",
+            "Caption": "Recalled Prowler Pro Crew UTV"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Tracker-800-SX-UTV.jpg",
+            "Caption": "Recalled Tracker 800 SX UTV"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Tracker-800-SX-Crew-UTV.jpg",
+            "Caption": "Recalled Tracker 800 SX Crew UTV"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/VIN-location.png",
+            "Caption": "VIN Location under cargo box"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "The firm has received 48 reports of incidents of fuel leakage around the cap. No injuries have been reported."
+          }
+        ],
+        "Manufacturers": [
+          {
+            "Name": "Textron Specialized Vehicles, of Augusta, Georgia",
+            "CompanyID": ""
+          }
+        ],
+        "Retailers": [
+          {
+            "Name": "Arctic Cat and Tracker dealers nationwide, including Bass Pro Shops, Cabela's, and independent dealerships from April 2021 through September 2023 for between $14,000 and $22,000.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [],
+        "Distributors": [],
+        "SoldAtLabel": "Sold At",
+        "ManufacturerCountries": [
+          {
+            "Country": "United States"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The fuel tank cap does not fit correctly, causing a fuel leak around the filler neck, posing a fire hazard.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Customers should immediately stop using the recalled utility vehicles, and contact an authorized dealer for a free inspection and repair. Textron Specialized Vehicles is contacting all known purchasers directly."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Repair"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 9949,
+        "RecallNumber": "24229",
+        "RecallDate": "2024-05-09T00:00:00",
+        "Description": "This recall involves model years 2022 and 2023 Prowler Pro, Prowler Pro Crew, Tracker 800SX, and Tracker 800SX Crew utility vehicles. They were sold in various colors, including green, gray, red, fossil, and timber. \"Prowler\" or \"Tracker\" is stamped on the side of the cargo box. The 10th digit of the vehicle identification number (VIN), which is printed on the operator side of the frame under the cargo box, includes an \"N\" for model year 2022 and a \"P\" for model year 2023.",
+        "URL": "https://www.cpsc.gov/Recalls/2024/Textron-Specialized-Vehicles-Recalls-Prowler-Pro-and-Tracker-Utility-Vehicles-UTVs-Due-to-Fire-Hazard",
+        "Title": "Textron Specialized Vehicles Recalls Prowler Pro and Tracker Utility Vehicles (UTVs) Due to Fire Hazard",
+        "ConsumerContact": "Textron Specialized Vehicles at 800-279-2281 from 8 a.m. to 5 p.m. CT, Monday through Friday, email at arcticcatwarranty@textron.com, or online at https://arcticcat.txtsv.com/owners/recalls or https://www.trackeroffroad.com/recalls.html or at https://arcticcat.txtsv.com or https://www.trackeroffroad.com click on \"Recalls\" at the bottom of the page.",
+        "LastPublishDate": "2024-05-09T00:00:00",
+        "Products": [
+          {
+            "Name": "Prowler Pro and Tracker 800SX Utility Vehicles (UTVs)",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 10,300 (In addition, about 1,000 were sold in Canada)"
+          }
+        ],
+        "Inconjunctions": [
+          {
+            "URL": "https://wwwapps.tc.gc.ca/Saf-Sec-Sur/7/VRDB-BDRV/search-recherche/detail.aspx?rn=2024142"
+          }
+        ],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Prowler-Pro-UTV.jpg",
+            "Caption": "Recalled Prowler Pro UTV"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Prowler-Pro-Crew-UTV.png",
+            "Caption": "Recalled Prowler Pro Crew UTV"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Tracker-800-SX-UTV.jpg",
+            "Caption": "Recalled Tracker 800 SX UTV"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Tracker-800-SX-Crew-UTV.jpg",
+            "Caption": "Recalled Tracker 800 SX Crew UTV"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/VIN-location.png",
+            "Caption": "VIN Location under cargo box"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "The firm has received 48 reports of incidents of fuel leakage around the cap. No injuries have been reported."
+          }
+        ],
+        "Manufacturers": [
+          {
+            "Name": "Textron Specialized Vehicles, of Augusta, Georgia",
+            "CompanyID": ""
+          }
+        ],
+        "Retailers": [
+          {
+            "Name": "Arctic Cat and Tracker dealers nationwide, including Bass Pro Shops, Cabela's, and independent dealerships from April 2021 through September 2023 for between $14,000 and $22,000.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [],
+        "Distributors": [],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "United States"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The fuel tank cap does not fit correctly, causing a fuel leak around the filler neck, posing a fire hazard.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Customers should immediately stop using the recalled utility vehicles, and contact an authorized dealer for a free inspection and repair. Textron Specialized Vehicles is contacting all known purchasers directly."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Repair"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "24229",
+        "Product Safety Warning Number": "",
+        "Date": "May 09, 2024",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "Textron Specialized Vehicles Recalls Prowler Pro and Tracker Utility Vehicles (UTVs) Due to Fire Hazard",
+        "Name of product": "Prowler Pro and Tracker 800SX Utility Vehicles (UTVs)",
+        "Description": "This recall involves model years 2022 and 2023 Prowler Pro, Prowler Pro Crew, Tracker 800SX, and Tracker 800SX Crew utility vehicles. They were sold in various colors, including green, gray, red, fossil, and timber. “Prowler” or “Tracker” is stamped on the side of the cargo box. The 10th digit of the vehicle identification number (VIN), which is printed on the operator side of the frame under the cargo box, includes an “N” for model year 2022 and a “P” for model year 2023.",
+        "Hazard Description": "The fuel tank cap does not fit correctly, causing a fuel leak around the filler neck, posing a fire hazard.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Repair",
+        "Units": "About 10,300 (In addition, about 1,000 were sold in Canada)",
+        "Incidents": "The firm has received 48 reports of incidents of fuel leakage around the cap. No injuries have been reported.",
+        "Remedy": "Customers should immediately stop using the recalled utility vehicles, and contact an authorized dealer for a free inspection and repair. Textron Specialized Vehicles is contacting all known purchasers directly.",
+        "Sold At Label": "Sold At",
+        "Sold At": "Arctic Cat and Tracker dealers nationwide, including Bass Pro Shops, Cabela's, and independent dealerships from April 2021 through September 2023 for between $14,000 and $22,000.",
+        "Importers": "",
+        "Manufacturers": "Textron Specialized Vehicles, of Augusta, Georgia",
+        "Distributors": "",
+        "Manufactured In": "United States",
+        "Custom Label": "",
+        "Custom Field": ""
+      }
+    },
+    {
+      "merged": {
+        "RecallID": 9922,
+        "RecallNumber": "24196",
+        "RecallDate": "2024-04-11T00:00:00",
+        "Description": "This recall involves Intimidator and Mahindra branded models 750, 800, 1000, TGB, GC1K and electric utility vehicles (UTVs). The recalled UTVs were sold in a variety of colors. \"Intimidator\" or \"Mahindra\" is displayed on the front grill and the model series is printed on the rear-side panels. The serial number can be found on a label inside the glove box, inside the hood compartment and below the driver's seat. The serial range of the recalled Intimidator UTVs is 000000 to 014034. The serial range of the recalled Mahindra UTVs is 000000 to 010545. The following UTVs are included in this recall: Make & Model Model Years: Intimidator GC1K Classic 2018-2023 Intimidator GC1K Crew 2019-2023 Intimidator GC1K Truck 2019-2023 Intimidator 750 Classic 2013-2023 Intimidator 750 Crew 2014-2022 Intimidator 750 Truck 2013-2022 Intimidator 800 Classic 2015-2018 Intimidator 800 Crew Intimidator 800 Enforcer 2016-2018 Intimidator 1000 Diesel Classic 2013-2023 Intimidator 1000 Diesel Crew 2013-2022 Intimidator 1000 Diesel Truck 2013-2023 Intimidator Electric Classic 2013-2023 Mahindra Retriever 750 Classic 2015-2020 Mahindra Retriever 750 Crew 2015-2020 Mahindra Retriever 750 Truck 2015-2020 Mahindra TGB Classic 2015-2020 Mahindra TGB Crew 2015-2020 Mahindra Retriever 1000 Diesel Classic 2015-2020 Mahindra Retriever 1000 Diesel Crew 2015-2020 Mahindra Retriever 1000 Diesel Truck 2015-2020",
+        "URL": "https://www.cpsc.gov/Recalls/2024/Intimidator-Recalls-Intimidator-and-Mahindra-Utility-Vehicles-UTVs-Due-to-Crash-Hazard",
+        "Title": "Intimidator Recalls Intimidator and Mahindra Utility Vehicles (UTVs) Due to Crash Hazard",
+        "ConsumerContact": "Intimidator toll-free at 888-215-8121 from 8 a.m. to 4 p.m. CT, Monday through Friday, email at recall@intimidatorutv.com, or online at http://www.intimidatorutv.com and click on \"RECALL INFORMATION\" at the top of the website's main landing page for more information. For Mahindra-branded UTVs, visit www.mahindrausa.com/--recall-notices or www.mahindrausa.com and click on \"Recall Notices\" at the bottom of the page for more information. Intimidator is contacting all registered purchasers by mail.",
+        "LastPublishDate": "2024-04-11T00:00:00",
+        "Products": [
+          {
+            "Name": "Intimidator and Mahindra branded utility vehicles (UTVs)",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 19,264"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/image3_14.jpg",
+            "Caption": "Recalled Intimidator & Mahindra Classic 750 UTV"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/image2_20.jpg",
+            "Caption": "Recalled Intimidator & Mahindra Classic 750cc UTV"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/image5_12.jpg",
+            "Caption": "Recalled Intimidator & Mahindra Classic 1000 UTV"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/image4_14.jpg",
+            "Caption": "Recalled Intimidator & Mahindra Crew 750 UTV"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/image7_3.jpg",
+            "Caption": "Recalled Intimidator & Mahindra Crew 1000 UTV"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/image6_9.jpg",
+            "Caption": "Recalled Intimidator & Mahindra GC1K Crew UTV"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/image9_1.jpg",
+            "Caption": "Recalled Intimidator GC1K Classic UTV"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/image8_3.jpg",
+            "Caption": "Recalled Intimidator GC1K Truck UTV"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/image12_1.jpg",
+            "Caption": "Recalled Intimidator & Mahindra Truck 1000 UTV"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/image10_1.jpg",
+            "Caption": "Recalled Intimidator & Mahindra Truck 750 UTV"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/image11_1.jpg",
+            "Caption": "Recalled Intimidator Enforcer 800 UTV"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/image13_0.jpg",
+            "Caption": "Recalled Intimidator Classic 800 UTV"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/image14_0.jpg",
+            "Caption": "Recalled Intimidator Crew 800 UTV"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/image15_0.jpg",
+            "Caption": "Recalled Mahindra TGB Classic"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/image16_0.jpg",
+            "Caption": "Recalled Mahindra TGB Crew"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/image17.jpg",
+            "Caption": "Recalled Intimidator Electric UTV"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "The firm has received 40 reports of incidents, including 12 involving a brake line impact. No injuries have been reported."
+          }
+        ],
+        "Manufacturers": [
+          {
+            "Name": "Intimidator, of Batesville, Ark.",
+            "CompanyID": ""
+          }
+        ],
+        "Retailers": [
+          {
+            "Name": "Intimidator and Mahindra authorized dealers nationwide from August 2013 through November 2023 for between $11,000 and $21,500.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [],
+        "Distributors": [],
+        "SoldAtLabel": "Sold At",
+        "ManufacturerCountries": [
+          {
+            "Country": "United States"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The universal joint can fail and pierce and sever the brake line, posing a crash hazard.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled utility vehicles and contact an Intimidator or Mahindra authorized dealer to schedule a free repair."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Repair"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 9922,
+        "RecallNumber": "24196",
+        "RecallDate": "2024-04-11T00:00:00",
+        "Description": "This recall involves Intimidator and Mahindra branded models 750, 800, 1000, TGB, GC1K and electric utility vehicles (UTVs). The recalled UTVs were sold in a variety of colors. \"Intimidator\" or \"Mahindra\" is displayed on the front grill and the model series is printed on the rear-side panels. The serial number can be found on a label inside the glove box, inside the hood compartment and below the driver's seat. The serial range of the recalled Intimidator UTVs is 000000 to 014034. The serial range of the recalled Mahindra UTVs is 000000 to 010545. The following UTVs are included in this recall: Make & Model Model Years: Intimidator GC1K Classic 2018-2023 Intimidator GC1K Crew 2019-2023 Intimidator GC1K Truck 2019-2023 Intimidator 750 Classic 2013-2023 Intimidator 750 Crew 2014-2022 Intimidator 750 Truck 2013-2022 Intimidator 800 Classic 2015-2018 Intimidator 800 Crew Intimidator 800 Enforcer 2016-2018 Intimidator 1000 Diesel Classic 2013-2023 Intimidator 1000 Diesel Crew 2013-2022 Intimidator 1000 Diesel Truck 2013-2023 Intimidator Electric Classic 2013-2023 Mahindra Retriever 750 Classic 2015-2020 Mahindra Retriever 750 Crew 2015-2020 Mahindra Retriever 750 Truck 2015-2020 Mahindra TGB Classic 2015-2020 Mahindra TGB Crew 2015-2020 Mahindra Retriever 1000 Diesel Classic 2015-2020 Mahindra Retriever 1000 Diesel Crew 2015-2020 Mahindra Retriever 1000 Diesel Truck 2015-2020",
+        "URL": "https://www.cpsc.gov/Recalls/2024/Intimidator-Recalls-Intimidator-and-Mahindra-Utility-Vehicles-UTVs-Due-to-Crash-Hazard",
+        "Title": "Intimidator Recalls Intimidator and Mahindra Utility Vehicles (UTVs) Due to Crash Hazard",
+        "ConsumerContact": "Intimidator toll-free at 888-215-8121 from 8 a.m. to 4 p.m. CT, Monday through Friday, email at recall@intimidatorutv.com, or online at http://www.intimidatorutv.com and click on \"RECALL INFORMATION\" at the top of the website's main landing page for more information. For Mahindra-branded UTVs, visit www.mahindrausa.com/--recall-notices or www.mahindrausa.com and click on \"Recall Notices\" at the bottom of the page for more information. Intimidator is contacting all registered purchasers by mail.",
+        "LastPublishDate": "2024-04-11T00:00:00",
+        "Products": [
+          {
+            "Name": "Intimidator and Mahindra branded utility vehicles (UTVs)",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 19,264"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/image3_14.jpg",
+            "Caption": "Recalled Intimidator & Mahindra Classic 750 UTV"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/image2_20.jpg",
+            "Caption": "Recalled Intimidator & Mahindra Classic 750cc UTV"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/image5_12.jpg",
+            "Caption": "Recalled Intimidator & Mahindra Classic 1000 UTV"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/image4_14.jpg",
+            "Caption": "Recalled Intimidator & Mahindra Crew 750 UTV"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/image7_3.jpg",
+            "Caption": "Recalled Intimidator & Mahindra Crew 1000 UTV"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/image6_9.jpg",
+            "Caption": "Recalled Intimidator & Mahindra GC1K Crew UTV"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/image9_1.jpg",
+            "Caption": "Recalled Intimidator GC1K Classic UTV"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/image8_3.jpg",
+            "Caption": "Recalled Intimidator GC1K Truck UTV"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/image12_1.jpg",
+            "Caption": "Recalled Intimidator & Mahindra Truck 1000 UTV"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/image10_1.jpg",
+            "Caption": "Recalled Intimidator & Mahindra Truck 750 UTV"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/image11_1.jpg",
+            "Caption": "Recalled Intimidator Enforcer 800 UTV"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/image13_0.jpg",
+            "Caption": "Recalled Intimidator Classic 800 UTV"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/image14_0.jpg",
+            "Caption": "Recalled Intimidator Crew 800 UTV"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/image15_0.jpg",
+            "Caption": "Recalled Mahindra TGB Classic"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/image16_0.jpg",
+            "Caption": "Recalled Mahindra TGB Crew"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/image17.jpg",
+            "Caption": "Recalled Intimidator Electric UTV"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "The firm has received 40 reports of incidents, including 12 involving a brake line impact. No injuries have been reported."
+          }
+        ],
+        "Manufacturers": [
+          {
+            "Name": "Intimidator, of Batesville, Ark.",
+            "CompanyID": ""
+          }
+        ],
+        "Retailers": [
+          {
+            "Name": "Intimidator and Mahindra authorized dealers nationwide from August 2013 through November 2023 for between $11,000 and $21,500.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [],
+        "Distributors": [],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "United States"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The universal joint can fail and pierce and sever the brake line, posing a crash hazard.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled utility vehicles and contact an Intimidator or Mahindra authorized dealer to schedule a free repair."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Repair"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "24196",
+        "Product Safety Warning Number": "",
+        "Date": "April 11, 2024",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "Intimidator Recalls Intimidator and Mahindra Utility Vehicles (UTVs) Due to Crash Hazard",
+        "Name of product": "Intimidator and Mahindra branded utility vehicles (UTVs)",
+        "Description": "This recall involves Intimidator and Mahindra branded models 750, 800, 1000, TGB, GC1K and electric utility vehicles (UTVs). The recalled UTVs were sold in a variety of colors. “Intimidator” or “Mahindra” is displayed on the front grill and the model series is printed on the rear-side panels. The serial number can be found on a label inside the glove box, inside the hood compartment and below the driver’s seat. The serial range of the recalled Intimidator UTVs is 000000 to 014034. The serial range of the recalled Mahindra UTVs is 000000 to 010545.The following UTVs are included in this recall:Make &amp; Model:Model Years:Intimidator GC1K Classic2018-2023Intimidator GC1K Crew2019-2023Intimidator GC1K Truck2019-2023Intimidator 750 Classic2013-2023Intimidator 750 Crew2014-2022Intimidator 750 Truck2013-2022Intimidator 800 Classic2015-2018Intimidator 800 Crew2015-2018Intimidator 800 Enforcer2016-2018Intimidator 1000 Diesel Classic2013-2023Intimidator 1000 Diesel Crew2013-2022Intimidator 1000 Diesel Truck2013-2023Intimidator Electric Classic2013-2023Mahindra Retriever 750 Classic2015-2020Mahindra Retriever 750 Crew2015-2020Mahindra Retriever 750 Truck2015-2020Mahindra TGB Classic2015-2020Mahindra TGB Crew2015-2020Mahindra Retriever 1000 Diesel Classic2015-2020Mahindra Retriever 1000 Diesel Crew2015-2020Mahindra Retriever 1000 Diesel Truck2015-2020",
+        "Hazard Description": "The universal joint can fail and pierce and sever the brake line, posing a crash hazard.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Repair",
+        "Units": "About 19,075",
+        "Incidents": "The firm has received 40 reports of incidents, including 12 involving a brake line impact. No injuries have been reported.",
+        "Remedy": "Consumers should immediately stop using the recalled utility vehicles and contact an Intimidator or Mahindra authorized dealer to schedule a free repair.",
+        "Sold At Label": "Sold At",
+        "Sold At": "Intimidator and Mahindra authorized dealers nationwide from August 2013 through November 2023 for between $11,000 and $21,500.",
+        "Importers": "",
+        "Manufacturers": "Intimidator, of Batesville, Ark.",
+        "Distributors": "",
+        "Manufactured In": "United States",
+        "Custom Label": "",
+        "Custom Field": ""
+      }
+    },
+    {
+      "merged": {
+        "RecallID": 9804,
+        "RecallNumber": "24736",
+        "RecallDate": "2023-12-14T00:00:00",
+        "Description": "This recall involves Kubota Utility Vehicles with model number RTV-XG850, known as the \"Sidekick.\" \"Sidekick\" and/or the model number are on the side of the utility vehicles, which were sold in various colors. Data plates on the side of the recalled vehicles have the model number and serial numbers ranging from 31706-35058, Y1025-Y1310, 50011-50012, and 50075-52920.",
+        "URL": "https://www.cpsc.gov/Recalls/2024/Kubota-Tractor-Recalls-Utility-Vehicles-Due-to-Crash-and-Collision-Hazards-Recall-Alert",
+        "Title": "Kubota Tractor Recalls Utility Vehicles Due to Crash and Collision Hazards (Recall Alert)",
+        "ConsumerContact": "Kubota Tractor Corporation toll-free at 888-458-2682 from 8 a.m. to 5 p.m. CT Monday through Friday, or online at https://www.kubotausa.com/recall/contact/form. Additional information can be found online at www.kubotausa.com; click Parts & Service, then scroll down and click the \"Safety & Recall Notices\" tab to view the Safety & Recall Notice, or go directly to https://www.kubotausa.com/recall/service-support/safety/safety-notices.",
+        "LastPublishDate": "2023-12-14T00:00:00",
+        "Products": [
+          {
+            "Name": "Utility Vehicles",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 3,170 (In addition, about 119 were sold in Canada)"
+          }
+        ],
+        "Inconjunctions": [
+          {
+            "URL": "https://wwwapps.tc.gc.ca/Saf-Sec-Sur/7/VRDB-BDRV/search-recherche/detail.aspx?rn=2023565"
+          }
+        ],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/kubota-sidekick-1.jpg",
+            "Caption": "Recalled Kubota Utility Vehicle Model RTV-XG850, Sidekick"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/kubota-sidekick-2.jpg",
+            "Caption": "Recalled Kubota Utility Vehicle Model RTV-XG850, Sidekick"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Authorized Kubota dealers nationwide from March 2023 through September 2023 for between $14,500 and $18,200.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [],
+        "Distributors": [
+          {
+            "Name": "Kubota Tractor Corporation, of Grapevine, Texas",
+            "CompanyID": ""
+          }
+        ],
+        "SoldAtLabel": "Sold At",
+        "ManufacturerCountries": [
+          {
+            "Country": "United States"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "Components of the steering shaft/steering system could have been improperly assembled which can lead to loss of control, posing crash and collision hazards.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled utility vehicles and contact an authorized Kubota dealer to schedule a free inspection and free repair. Kubota is contacting all known purchasers directly."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Repair"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 9804,
+        "RecallNumber": "24736",
+        "RecallDate": "2023-12-14T00:00:00",
+        "Description": "This recall involves Kubota Utility Vehicles with model number RTV-XG850, known as the \"Sidekick.\" \"Sidekick\" and/or the model number are on the side of the utility vehicles, which were sold in various colors. Data plates on the side of the recalled vehicles have the model number and serial numbers ranging from 31706-35058, Y1025-Y1310, 50011-50012, and 50075-52920.",
+        "URL": "https://www.cpsc.gov/Recalls/2024/Kubota-Tractor-Recalls-Utility-Vehicles-Due-to-Crash-and-Collision-Hazards-Recall-Alert",
+        "Title": "Kubota Tractor Recalls Utility Vehicles Due to Crash and Collision Hazards (Recall Alert)",
+        "ConsumerContact": "Kubota Tractor Corporation toll-free at 888-458-2682 from 8 a.m. to 5 p.m. CT Monday through Friday, or online at https://www.kubotausa.com/recall/contact/form. Additional information can be found online at www.kubotausa.com; click Parts & Service, then scroll down and click the \"Safety & Recall Notices\" tab to view the Safety & Recall Notice, or go directly to https://www.kubotausa.com/recall/service-support/safety/safety-notices.",
+        "LastPublishDate": "2023-12-14T00:00:00",
+        "Products": [
+          {
+            "Name": "Utility Vehicles",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 3,170 (In addition, about 119 were sold in Canada)"
+          }
+        ],
+        "Inconjunctions": [
+          {
+            "URL": "https://wwwapps.tc.gc.ca/Saf-Sec-Sur/7/VRDB-BDRV/search-recherche/detail.aspx?rn=2023565"
+          }
+        ],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/kubota-sidekick-1.jpg",
+            "Caption": "Recalled Kubota Utility Vehicle Model RTV-XG850, Sidekick"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/kubota-sidekick-2.jpg",
+            "Caption": "Recalled Kubota Utility Vehicle Model RTV-XG850, Sidekick"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Authorized Kubota dealers nationwide from March 2023 through September 2023 for between $14,500 and $18,200.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [],
+        "Distributors": [
+          {
+            "Name": "Kubota Tractor Corporation, of Grapevine, Texas",
+            "CompanyID": ""
+          }
+        ],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "United States"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "Components of the steering shaft/steering system could have been improperly assembled which can lead to loss of control, posing crash and collision hazards.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled utility vehicles and contact an authorized Kubota dealer to schedule a free inspection and free repair. Kubota is contacting all known purchasers directly."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Repair"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "24736",
+        "Product Safety Warning Number": "",
+        "Date": "December 14, 2023",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "Kubota Tractor Recalls Utility Vehicles Due to Crash and Collision Hazards (Recall Alert)",
+        "Name of product": "Utility Vehicles",
+        "Description": "This recall involves Kubota Utility Vehicles with model number RTV-XG850, known as the “Sidekick.” “Sidekick” and/or the model number are on the side of the utility vehicles, which were sold in various colors. Data plates on the side of the recalled vehicles have the model number and serial numbers ranging from 31706-35058, Y1025-Y1310, 50011-50012, and 50075-52920.",
+        "Hazard Description": "Components of the steering shaft/steering system could have been improperly assembled which can lead to loss of control, posing crash and collision hazards.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Repair",
+        "Units": "About 3,170 (In addition, about 119 were sold in Canada)",
+        "Incidents": "None reported",
+        "Remedy": "Consumers should immediately stop using the recalled utility vehicles and contact an authorized Kubota dealer to schedule a free inspection and free repair. Kubota is contacting all known purchasers directly.",
+        "Sold At Label": "Sold At",
+        "Sold At": "Authorized Kubota dealers nationwide from March 2023 through September 2023 for between $14,500 and $18,200.",
+        "Importers": "",
+        "Manufacturers": "",
+        "Distributors": "Kubota Tractor Corporation, of Grapevine, Texas",
+        "Manufactured In": "United States",
+        "Custom Label": "",
+        "Custom Field": ""
+      }
+    },
+    {
+      "merged": {
+        "RecallID": 9789,
+        "RecallNumber": "24727",
+        "RecallDate": "2023-12-07T00:00:00",
+        "Description": "This recall involves model year 2022 Fugleman Utility -Terrain Vehicles (UTVs) with model numbers UT10E or UT10X. These vehicles were sold in various colors including white, black, gray and camo. \"FUGLEMAN\" decals are printed on the right and left rear side panels. The Segway logo is on the hood. The model number is located on the right and left rear side panels next to the Fugleman logo.",
+        "URL": "https://www.cpsc.gov/Recalls/2024/Segway-Powersports-Recalls-2022-Fugleman-UT10E-and-UT10X-Utility-Terrain-Vehicles-Due-to-Fire-Hazard-Recall-Alert",
+        "Title": "Segway Powersports Recalls 2022 Fugleman UT10E and UT10X Utility-Terrain Vehicles Due to Fire Hazard (Recall Alert)",
+        "ConsumerContact": "Segway Powersports toll-free at 877-628-0202 from 8 a.m. to 5 p.m. CT Monday through Friday, online at https://www.segwaypowersports.us/recalls/ or at https://segwaypowersports.us and click on \"Safety Recalls\" at the bottom of the page for more information.",
+        "LastPublishDate": "2023-12-07T00:00:00",
+        "Products": [
+          {
+            "Name": "2022 Fugleman UT10E and UT10X Utility-Terrain Vehicles",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 1,100 (In addition, about 480 were sold in Canada)"
+          }
+        ],
+        "Inconjunctions": [
+          {
+            "URL": "https://wwwapps.tc.gc.ca/Saf-Sec-Sur/7/VRDB-BDRV/search-recherche/detail.aspx?rn=2023418"
+          }
+        ],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Fugleman-UT10E.png",
+            "Caption": "Recalled Segway Powersports 2022 Fugleman UT10E Utility-Terrain Vehicles"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Fugleman-UT10X.png",
+            "Caption": "Recalled Segway Powersports 2022 Fugleman UT10X Utility-Terrain Vehicle"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "The firm has received one report of a vehicle fire with property damage. No injuries have been reported."
+          }
+        ],
+        "Manufacturers": [
+          {
+            "Name": "Segway Technology Co. Ltd., of China",
+            "CompanyID": ""
+          }
+        ],
+        "Retailers": [
+          {
+            "Name": "Segway Powersports authorized dealers (sellers of off-road vehicles) from December 2021 through July 2023 for between $14,400 and $16,700.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Segway Powersports Inc., of McKinney, Texas",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": "Sold At",
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The ignition coil can fail to ignite one of the engine cylinders, allowing uncombusted fuel to enter the exhaust pipe where it could ignite, posing a fire hazard.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled UTVs and bring the vehicles to an authorized Segway Powersports dealer for a free repair, which includes the installation of an upgrade kit. The firm has contacted all known purchasers."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Repair"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 9789,
+        "RecallNumber": "24727",
+        "RecallDate": "2023-12-07T00:00:00",
+        "Description": "This recall involves model year 2022 Fugleman Utility -Terrain Vehicles (UTVs) with model numbers UT10E or UT10X. These vehicles were sold in various colors including white, black, gray and camo. \"FUGLEMAN\" decals are printed on the right and left rear side panels. The Segway logo is on the hood. The model number is located on the right and left rear side panels next to the Fugleman logo.",
+        "URL": "https://www.cpsc.gov/Recalls/2024/Segway-Powersports-Recalls-2022-Fugleman-UT10E-and-UT10X-Utility-Terrain-Vehicles-Due-to-Fire-Hazard-Recall-Alert",
+        "Title": "Segway Powersports Recalls 2022 Fugleman UT10E and UT10X Utility-Terrain Vehicles Due to Fire Hazard (Recall Alert)",
+        "ConsumerContact": "Segway Powersports toll-free at 877-628-0202 from 8 a.m. to 5 p.m. CT Monday through Friday, online at https://www.segwaypowersports.us/recalls/ or at https://segwaypowersports.us and click on \"Safety Recalls\" at the bottom of the page for more information.",
+        "LastPublishDate": "2023-12-07T00:00:00",
+        "Products": [
+          {
+            "Name": "2022 Fugleman UT10E and UT10X Utility-Terrain Vehicles",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 1,100 (In addition, about 480 were sold in Canada)"
+          }
+        ],
+        "Inconjunctions": [
+          {
+            "URL": "https://wwwapps.tc.gc.ca/Saf-Sec-Sur/7/VRDB-BDRV/search-recherche/detail.aspx?rn=2023418"
+          }
+        ],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Fugleman-UT10E.png",
+            "Caption": "Recalled Segway Powersports 2022 Fugleman UT10E Utility-Terrain Vehicles"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Fugleman-UT10X.png",
+            "Caption": "Recalled Segway Powersports 2022 Fugleman UT10X Utility-Terrain Vehicle"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "The firm has received one report of a vehicle fire with property damage. No injuries have been reported."
+          }
+        ],
+        "Manufacturers": [
+          {
+            "Name": "Segway Technology Co. Ltd., of China",
+            "CompanyID": ""
+          }
+        ],
+        "Retailers": [
+          {
+            "Name": "Segway Powersports authorized dealers (sellers of off-road vehicles) from December 2021 through July 2023 for between $14,400 and $16,700.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Segway Powersports Inc., of McKinney, Texas",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The ignition coil can fail to ignite one of the engine cylinders, allowing uncombusted fuel to enter the exhaust pipe where it could ignite, posing a fire hazard.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled UTVs and bring the vehicles to an authorized Segway Powersports dealer for a free repair, which includes the installation of an upgrade kit. The firm has contacted all known purchasers."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Repair"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "24727",
+        "Product Safety Warning Number": "",
+        "Date": "December 07, 2023",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "Segway Powersports Recalls 2022 Fugleman UT10E and UT10X Utility-Terrain Vehicles Due to Fire Hazard (Recall Alert)",
+        "Name of product": "2022 Fugleman UT10E and UT10X Utility-Terrain Vehicles",
+        "Description": "This recall involves model year 2022 Fugleman Utility -Terrain Vehicles (UTVs) with model numbers UT10E or UT10X. These vehicles were sold in various colors including white, black, gray and camo. “FUGLEMAN” decals are printed on the right and left rear side panels. The Segway logo is on the hood. The model number is located on the right and left rear side panels next to the Fugleman logo.",
+        "Hazard Description": "The ignition coil can fail to ignite one of the engine cylinders, allowing uncombusted fuel to enter the exhaust pipe where it could ignite, posing a fire hazard.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Repair",
+        "Units": "About 1,100 (In addition, about 480 were sold in Canada)",
+        "Incidents": "The firm has received one report of a vehicle fire with property damage. No injuries have been reported.",
+        "Remedy": "Consumers should immediately stop using the recalled UTVs and bring the vehicles to an authorized Segway Powersports dealer for a free repair, which includes the installation of an upgrade kit. The firm has contacted all known purchasers.&nbsp;",
+        "Sold At Label": "Sold At",
+        "Sold At": "Segway Powersports authorized dealers (sellers of off-road vehicles) from December 2021 through July 2023 for between $14,400 and $16,700.&nbsp;",
+        "Importers": "Segway Powersports Inc., of McKinney, Texas",
+        "Manufacturers": "Segway Technology Co. Ltd., of China",
+        "Distributors": "",
+        "Manufactured In": "China",
+        "Custom Label": "",
+        "Custom Field": ""
+      }
+    }
+  ]
+}

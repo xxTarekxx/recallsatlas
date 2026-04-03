@@ -1,0 +1,2471 @@
+{
+  "meta": {
+    "slug": "mountain-climbing",
+    "sourceCsvFile": "mountain-climbing_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T04:43:57.247Z",
+    "recallCount": 13
+  },
+  "recalls": [
+    {
+      "merged": {
+        "RecallID": 10677,
+        "RecallNumber": "26347",
+        "RecallDate": "2026-03-26T00:00:00",
+        "Description": "This recall involves the Petzl Nomic ice climbing axes (model U021AA00, serial numbers 17L 0000000 000 to 20F 9999999 999) and Ergonomic ice climbing axes (model U022AA00, serial numbers 18F 0000000 000 to 21L 9999999 999). The axes are made from an aluminum shaft, steel pick and reinforced plastic grip. Nomic axes are black and Ergonomic axes are orange. The serial number for both models is printed on a label on the upper portion of the shaft.",
+        "URL": "https://www.cpsc.gov/Recalls/2026/Petzl-America-Recalls-Nomic-and-Ergonomic-Ice-Climbing-Axes-Due-to-Fall-Hazard-Risk-of-Serious-Injury-or-Death",
+        "Title": "Petzl America Recalls Nomic and Ergonomic Ice Climbing Axes Due to Fall Hazard; Risk of Serious Injury or Death",
+        "ConsumerContact": "Petzl America toll-free at 877-807-3805 from 8 a.m. to 4 p.m. MT Monday through Friday, email at Returns@petzl.com, or online at https://qr.petzl.com/a/recall-nomic and click on \"Safety Recall\" at the top of the page for more information.",
+        "LastPublishDate": "2026-03-27T00:00:00",
+        "Products": [
+          {
+            "Name": "Nomic and Ergonomic Ice Climbing Axes",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 4,200 (In addition, about 1,160 were sold in Canada)"
+          }
+        ],
+        "Inconjunctions": [
+          {
+            "URL": "https://recalls-rappels.canada.ca/en/alert-recall/petzl-nomic-and-ergonomic-ice-axes-recalled-due-fall-hazard"
+          }
+        ],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Updated_U021AA00-NOMIC_HighRes.jpg",
+            "Caption": "Recalled Nomic Ice Climbing Axe"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Updated_U022AA00-ERGONOMIC_HighRes.jpg",
+            "Caption": "Recalled Ergonomic Ice Climbing Axe"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/nomic-3.gif",
+            "Caption": "Location of serial number"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/nomic-4.gif",
+            "Caption": "Recalled Nomic and Ergonomic ice climbing axes"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "The firm has received 26 reports of the ice axe shafts breaking at the handle. No injuries have been reported."
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "REI, Moosejaw Mountaineering and other specialty stores nationwide and online at petzl.com, REI.com and Backcountry.com from December 2017 through March 2022 for between $380 and $440.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Petzl America, Inc., of Salt Lake City, Utah",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": "Sold At",
+        "ManufacturerCountries": [
+          {
+            "Country": "France"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The ice axe shaft can break at the handle during use, posing a fall hazard, which can result in serious injury or death.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled ice axes and contact Petzl America for a free repair kit. Consumers should register at https://www.petzl.com/US/en/Sport/Contact?request=product-recall to request a pre-paid shipping label to return the shaft. Petzl America will send a repair kit with a new shaft, hardware for the grip rest and assembly instructions."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Repair"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 10677,
+        "RecallNumber": "26347",
+        "RecallDate": "2026-03-26T00:00:00",
+        "Description": "This recall involves the Petzl Nomic ice climbing axes (model U021AA00, serial numbers 17L 0000000 000 to 20F 9999999 999) and Ergonomic ice climbing axes (model U022AA00, serial numbers 18F 0000000 000 to 21L 9999999 999). The axes are made from an aluminum shaft, steel pick and reinforced plastic grip. Nomic axes are black and Ergonomic axes are orange. The serial number for both models is printed on a label on the upper portion of the shaft.",
+        "URL": "https://www.cpsc.gov/Recalls/2026/Petzl-America-Recalls-Nomic-and-Ergonomic-Ice-Climbing-Axes-Due-to-Fall-Hazard-Risk-of-Serious-Injury-or-Death",
+        "Title": "Petzl America Recalls Nomic and Ergonomic Ice Climbing Axes Due to Fall Hazard; Risk of Serious Injury or Death",
+        "ConsumerContact": "Petzl America toll-free at 877-807-3805 from 8 a.m. to 4 p.m. MT Monday through Friday, email at Returns@petzl.com, or online at https://qr.petzl.com/a/recall-nomic and click on \"Safety Recall\" at the top of the page for more information.",
+        "LastPublishDate": "2026-03-27T00:00:00",
+        "Products": [
+          {
+            "Name": "Nomic and Ergonomic Ice Climbing Axes",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 4,200 (In addition, about 1,160 were sold in Canada)"
+          }
+        ],
+        "Inconjunctions": [
+          {
+            "URL": "https://recalls-rappels.canada.ca/en/alert-recall/petzl-nomic-and-ergonomic-ice-axes-recalled-due-fall-hazard"
+          }
+        ],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Updated_U021AA00-NOMIC_HighRes.jpg",
+            "Caption": "Recalled Nomic Ice Climbing Axe"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Updated_U022AA00-ERGONOMIC_HighRes.jpg",
+            "Caption": "Recalled Ergonomic Ice Climbing Axe"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/nomic-3.gif",
+            "Caption": "Location of serial number"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/nomic-4.gif",
+            "Caption": "Recalled Nomic and Ergonomic ice climbing axes"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "The firm has received 26 reports of the ice axe shafts breaking at the handle. No injuries have been reported."
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "REI, Moosejaw Mountaineering and other specialty stores nationwide and online at petzl.com, REI.com and Backcountry.com from December 2017 through March 2022 for between $380 and $440.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Petzl America, Inc., of Salt Lake City, Utah",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "France"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The ice axe shaft can break at the handle during use, posing a fall hazard, which can result in serious injury or death.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled ice axes and contact Petzl America for a free repair kit. Consumers should register at https://www.petzl.com/US/en/Sport/Contact?request=product-recall to request a pre-paid shipping label to return the shaft. Petzl America will send a repair kit with a new shaft, hardware for the grip rest and assembly instructions."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Repair"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "26347",
+        "Product Safety Warning Number": "",
+        "Date": "March 26, 2026",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "Petzl America Recalls Nomic and Ergonomic Ice Climbing Axes Due to Fall Hazard; Risk of Serious Injury or Death",
+        "Name of product": "Nomic and Ergonomic Ice Climbing Axes",
+        "Description": "This recall involves the Petzl Nomic ice climbing axes (model U021AA00, serial numbers 17L 0000000 000 to 20F 9999999 999) and Ergonomic ice climbing axes (model U022AA00, serial numbers 18F 0000000 000 to 21L 9999999 999). The axes are made from an aluminum shaft, steel pick and reinforced plastic grip. Nomic axes are black and Ergonomic axes are orange.&nbsp;The serial number for both models is printed on a label on the upper portion of the shaft.",
+        "Hazard Description": "The ice axe shaft can break at the handle during use, posing a fall hazard, which can result in serious injury or death.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Repair",
+        "Units": "About 4,200 (In addition, about 1,160 were sold in Canada)",
+        "Incidents": "The firm has received 26 reports of the ice axe shafts breaking at the handle. No injuries have been reported.",
+        "Remedy": "Consumers should immediately stop using the recalled ice axes and contact Petzl America for a free repair kit. Consumers should register at https://www.petzl.com/US/en/Sport/Contact?request=product-recall to request a pre-paid shipping label to return the shaft. Petzl America will send a repair kit with a new shaft, hardware for the grip rest and assembly instructions.&nbsp;",
+        "Sold At Label": "Sold At",
+        "Sold At": "REI, Moosejaw Mountaineering and other specialty stores nationwide and online at petzl.com, REI.com and Backcountry.com from December 2017 through March 2022 for between $380 and $440.",
+        "Importers": "Petzl America, Inc., of Salt Lake City, Utah",
+        "Manufacturers": "",
+        "Distributors": "",
+        "Manufactured In": "France",
+        "Custom Label": "",
+        "Custom Field": ""
+      }
+    },
+    {
+      "merged": {
+        "RecallID": 10389,
+        "RecallNumber": "25444",
+        "RecallDate": "2025-08-28T00:00:00",
+        "Description": "This recall involves Nimbus Lock Carabiners sold in Gun Metal/Green, Gun Metal/Fuchsia and Gun Metal/Blue. The affected carabiners were sold individually or as part of the Nimbus Lock 3 Pack, the Locker Draw KS, the Energy CR3 Pack and the Energy Nova Pack. Only the carabiners are included in this recall. The affected carabiners have the following batch numbers 10 23, 12 23, 02 24, 09 24, 10 24, 12 24, 01 25, 02 25 and 06 25. The batch number is found on the side of the bottom of the carabiner.",
+        "URL": "https://www.cpsc.gov/Recalls/2025/CAMP-Recalls-Nimbus-Lock-Carabiners-Due-to-Risk-of-Serious-Injury-or-Death-from-Fall",
+        "Title": "C.A.M.P. Recalls Nimbus Lock Carabiners Due to Risk of Serious Injury or Death from Fall",
+        "ConsumerContact": "C.A.M.P. toll free at 877-421-2267 from 9 a.m. to 5 p.m. PT Monday through Friday, email at warranties@camp-usa.com, or online at www.camp-usa.com/nimbus-lock-safety-recall-information or www.camp-usa.com and click on \"Safety Recalls\" at the bottom of the page.",
+        "LastPublishDate": "2025-08-29T00:00:00",
+        "Products": [
+          {
+            "Name": "Nimbus Lock Carabiners",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 12,600 (In addition, about 2,100 were sold in Canada)"
+          }
+        ],
+        "Inconjunctions": [
+          {
+            "URL": "https://recalls-rappels.canada.ca/en/alert-recall/camp-nimbus-lock-carabiners-recalled-due-serious-injury-or-death-fall"
+          }
+        ],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Nimbus-1.png",
+            "Caption": "Recalled Nimbus Lock Carabiners"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Nimbus-2.png",
+            "Caption": "Recalled Nimbus Lock Carabiner with location of batch number"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Nimbus-3.png",
+            "Caption": "Recalled Nimbus Lock Carabiners in the Nimbus Lock 3 Pack and the Locker Draw KS"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Nimbus-4.png",
+            "Caption": "Recalled Nimbus Lock Carabiners in the Energy CR3 Pack and the Energy Nova Pack"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "The firm has received 21 reports of the closing mechanism breaking. No injuries have been reported."
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "The firm has received 21 reports of the closing mechanism breaking. No injuries have been reported.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "C.A.M.P. USA Inc., of Golden, Colorado",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": "Sold At",
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The carabiner's automatic closing mechanism can break and prevent the gate from closing, posing a risk of serious injury or death due to falling.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled Nimbus Lock Carabiners and contact C.A.M.P. Consumers will be asked to fill out the recall form at www.camp-usa.com/nimbus-lock-safety-recall-registration-form, print a prepaid return shipping label and return the recalled product. C.A.M.P will inspect returned units and ship them back to consumers, if they pass inspection. Any units that do not pass inspection will be replaced free of charge."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Repair"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 10389,
+        "RecallNumber": "25444",
+        "RecallDate": "2025-08-28T00:00:00",
+        "Description": "This recall involves Nimbus Lock Carabiners sold in Gun Metal/Green, Gun Metal/Fuchsia and Gun Metal/Blue. The affected carabiners were sold individually or as part of the Nimbus Lock 3 Pack, the Locker Draw KS, the Energy CR3 Pack and the Energy Nova Pack. Only the carabiners are included in this recall. The affected carabiners have the following batch numbers 10 23, 12 23, 02 24, 09 24, 10 24, 12 24, 01 25, 02 25 and 06 25. The batch number is found on the side of the bottom of the carabiner.",
+        "URL": "https://www.cpsc.gov/Recalls/2025/CAMP-Recalls-Nimbus-Lock-Carabiners-Due-to-Risk-of-Serious-Injury-or-Death-from-Fall",
+        "Title": "C.A.M.P. Recalls Nimbus Lock Carabiners Due to Risk of Serious Injury or Death from Fall",
+        "ConsumerContact": "C.A.M.P. toll free at 877-421-2267 from 9 a.m. to 5 p.m. PT Monday through Friday, email at warranties@camp-usa.com, or online at www.camp-usa.com/nimbus-lock-safety-recall-information or www.camp-usa.com and click on \"Safety Recalls\" at the bottom of the page.",
+        "LastPublishDate": "2025-08-29T00:00:00",
+        "Products": [
+          {
+            "Name": "Nimbus Lock Carabiners",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 12,600 (In addition, about 2,100 were sold in Canada)"
+          }
+        ],
+        "Inconjunctions": [
+          {
+            "URL": "https://recalls-rappels.canada.ca/en/alert-recall/camp-nimbus-lock-carabiners-recalled-due-serious-injury-or-death-fall"
+          }
+        ],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Nimbus-1.png",
+            "Caption": "Recalled Nimbus Lock Carabiners"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Nimbus-2.png",
+            "Caption": "Recalled Nimbus Lock Carabiner with location of batch number"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Nimbus-3.png",
+            "Caption": "Recalled Nimbus Lock Carabiners in the Nimbus Lock 3 Pack and the Locker Draw KS"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Nimbus-4.png",
+            "Caption": "Recalled Nimbus Lock Carabiners in the Energy CR3 Pack and the Energy Nova Pack"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "The firm has received 21 reports of the closing mechanism breaking. No injuries have been reported."
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "The firm has received 21 reports of the closing mechanism breaking. No injuries have been reported.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "C.A.M.P. USA Inc., of Golden, Colorado",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The carabiner's automatic closing mechanism can break and prevent the gate from closing, posing a risk of serious injury or death due to falling.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled Nimbus Lock Carabiners and contact C.A.M.P. Consumers will be asked to fill out the recall form at www.camp-usa.com/nimbus-lock-safety-recall-registration-form, print a prepaid return shipping label and return the recalled product. C.A.M.P will inspect returned units and ship them back to consumers, if they pass inspection. Any units that do not pass inspection will be replaced free of charge."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Repair"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "25444",
+        "Product Safety Warning Number": "",
+        "Date": "August 28, 2025",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "C.A.M.P. Recalls Nimbus Lock Carabiners Due to Risk of Serious Injury or Death from Fall",
+        "Name of product": "Nimbus Lock Carabiners",
+        "Description": "This recall involves Nimbus Lock Carabiners sold in Gun Metal/Green, Gun Metal/Fuchsia and Gun Metal/Blue. The affected carabiners were sold individually or as part of the Nimbus Lock 3 Pack, the Locker Draw KS, the Energy CR3 Pack and the Energy Nova Pack. Only the carabiners are included in this recall. The affected carabiners have the following batch numbers 10 23, 12 23, 02 24, 09 24, 10 24, 12 24, 01 25, 02 25 and 06 25. The batch number is found on the side of the bottom of the carabiner.&nbsp;",
+        "Hazard Description": "The carabiner’s automatic closing mechanism can break and prevent the gate from closing, posing a risk of serious injury or death due to falling.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Repair",
+        "Units": "About 12,600 (In addition, about 2,100 were sold in Canada)",
+        "Incidents": "The firm has received 21 reports of the closing mechanism breaking. No injuries have been reported.",
+        "Remedy": "Consumers should immediately stop using the recalled Nimbus Lock Carabiners and contact C.A.M.P. Consumers will be asked to fill out the recall form at&nbsp;www.camp-usa.com/nimbus-lock-safety-recall-registration-form, print a prepaid return shipping label and return the recalled product. C.A.M.P will inspect returned units and ship them back to consumers, if they pass inspection. Any units that do not pass inspection will be replaced free of charge.&nbsp;",
+        "Sold At Label": "Sold At",
+        "Sold At": "REI, Portland Mountain Shop, How Not 2 and other stores nationwide and online at Camp-usa.com, Backcountry.com, Amazon.com, REI.com, Mountainshop.net, Hownot2.com and other websites from January 2024 through July 2025 for between $16 and $86.&nbsp;",
+        "Importers": "C.A.M.P. USA Inc., of Golden, Colorado",
+        "Manufacturers": "",
+        "Distributors": "",
+        "Manufactured In": "China",
+        "Custom Label": "",
+        "Custom Field": ""
+      }
+    },
+    {
+      "merged": {
+        "RecallID": 10308,
+        "RecallNumber": "25335",
+        "RecallDate": "2025-06-12T00:00:00",
+        "Description": "This recall involves Skywalker Pro Via Ferrata Sets used to assist during mountain and rock climbing. The product has a blue cord with an orange and gray colored carabiner. Only model numbers 2040-02840, 2040-02850 and 2040-02870 are included in this recall. The model numbers can be found on a tag inside the pouch.",
+        "URL": "https://www.cpsc.gov/Recalls/2025/Mammut-Sports-Group-Recalls-Skywalker-Pro-Via-Ferrata-Sets-Due-to-Risk-of-Serious-Injury-or-Death-from-Fall-Hazard",
+        "Title": "Mammut Sports Group Recalls Skywalker Pro Via Ferrata Sets Due to Risk of Serious Injury or Death from Fall Hazard",
+        "ConsumerContact": "Mammut Sports Group collect at 802-800-2593 from 8 a.m. to 6 p.m. ET Monday through Friday, email at warranty.usa@mammut.com, or online at https://www.mammut.com/us/en and click on the \"Recall for Skywalker Pro Via Ferrata\" banner at the top of the page, or at https://mammut.dani-o.com/voluntary-recall-mammut-skywalker-pro-via-ferrata-set for more information.",
+        "LastPublishDate": "2025-06-12T00:00:00",
+        "Products": [
+          {
+            "Name": "Skywalker Pro Via Ferrata Sets, Skywalker Pro Turn Via Ferrata Sets and Skywalker Pro Via Ferrata Packages",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 580 (In addition, about 42 were sold in Canada)"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Mammut-1.jpg",
+            "Caption": "Recalled Skywalker Pro Via Ferrata"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Mammut-2.jpg",
+            "Caption": "Recalled Skywalker Pro Turn Via Ferrata"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Mammut-3.jpg",
+            "Caption": "Recalled Skywalker Pro Via Ferrata Package"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Mammut-4.jpg",
+            "Caption": "Style Number Location"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Jackson Hole Mountain Resort, Jackson Hole, Wyoming, Campsaver, Millville, Utah and other outdoor and recreation stores nationwide from February 2023 through March 2025 for between $150 and $280.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Mammut Sports Group Inc., of Williston, Vermont",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": "Sold At",
+        "ManufacturerCountries": [
+          {
+            "Country": "Switzerland"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The carabiner can be opened without engaging the safety latch, posing a risk of serious injury or death due to fall hazard.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the Via Ferrata Sets and contact Mammut Sports Group for a full refund. Mammut Sports Group will provide return labels for consumers to return their recalled products to receive their refund. Consumers should email warranty.usa@mammut.com to request the prepaid return labels."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 10308,
+        "RecallNumber": "25335",
+        "RecallDate": "2025-06-12T00:00:00",
+        "Description": "This recall involves Skywalker Pro Via Ferrata Sets used to assist during mountain and rock climbing. The product has a blue cord with an orange and gray colored carabiner. Only model numbers 2040-02840, 2040-02850 and 2040-02870 are included in this recall. The model numbers can be found on a tag inside the pouch.",
+        "URL": "https://www.cpsc.gov/Recalls/2025/Mammut-Sports-Group-Recalls-Skywalker-Pro-Via-Ferrata-Sets-Due-to-Risk-of-Serious-Injury-or-Death-from-Fall-Hazard",
+        "Title": "Mammut Sports Group Recalls Skywalker Pro Via Ferrata Sets Due to Risk of Serious Injury or Death from Fall Hazard",
+        "ConsumerContact": "Mammut Sports Group collect at 802-800-2593 from 8 a.m. to 6 p.m. ET Monday through Friday, email at warranty.usa@mammut.com, or online at https://www.mammut.com/us/en and click on the \"Recall for Skywalker Pro Via Ferrata\" banner at the top of the page, or at https://mammut.dani-o.com/voluntary-recall-mammut-skywalker-pro-via-ferrata-set for more information.",
+        "LastPublishDate": "2025-06-12T00:00:00",
+        "Products": [
+          {
+            "Name": "Skywalker Pro Via Ferrata Sets, Skywalker Pro Turn Via Ferrata Sets and Skywalker Pro Via Ferrata Packages",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 580 (In addition, about 42 were sold in Canada)"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Mammut-1.jpg",
+            "Caption": "Recalled Skywalker Pro Via Ferrata"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Mammut-2.jpg",
+            "Caption": "Recalled Skywalker Pro Turn Via Ferrata"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Mammut-3.jpg",
+            "Caption": "Recalled Skywalker Pro Via Ferrata Package"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Mammut-4.jpg",
+            "Caption": "Style Number Location"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Jackson Hole Mountain Resort, Jackson Hole, Wyoming, Campsaver, Millville, Utah and other outdoor and recreation stores nationwide from February 2023 through March 2025 for between $150 and $280.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Mammut Sports Group Inc., of Williston, Vermont",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "Switzerland"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The carabiner can be opened without engaging the safety latch, posing a risk of serious injury or death due to fall hazard.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the Via Ferrata Sets and contact Mammut Sports Group for a full refund. Mammut Sports Group will provide return labels for consumers to return their recalled products to receive their refund. Consumers should email warranty.usa@mammut.com to request the prepaid return labels."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "25335",
+        "Product Safety Warning Number": "",
+        "Date": "June 12, 2025",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "Mammut Sports Group Recalls Skywalker Pro Via Ferrata Sets Due to Risk of Serious Injury or Death from Fall Hazard",
+        "Name of product": "Skywalker Pro Via Ferrata Sets, Skywalker Pro Turn Via Ferrata Sets and Skywalker Pro Via Ferrata Packages",
+        "Description": "This recall involves Skywalker Pro Via Ferrata Sets used to assist during mountain and rock climbing. The product has a blue cord with an orange and gray colored carabiner. Only model numbers 2040-02840, 2040-02850 and 2040-02870 are included in this recall. The model numbers can be found on a tag inside the pouch.",
+        "Hazard Description": "The carabiner can be opened without engaging the safety latch, posing a risk of serious injury or death due to fall hazard.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Refund",
+        "Units": "About 580 (In addition, about 42 were sold in Canada)",
+        "Incidents": "None reported",
+        "Remedy": "Consumers should immediately stop using the Via Ferrata Sets and contact Mammut Sports Group for a full refund. Mammut Sports Group will provide return labels for consumers to return their recalled products to receive their refund. Consumers should email&nbsp;warranty.usa@mammut.com to request the prepaid return labels.",
+        "Sold At Label": "Sold At",
+        "Sold At": "Jackson Hole Mountain Resort, Jackson Hole, Wyoming, Campsaver, Millville, Utah and other outdoor and recreation stores nationwide from February 2023 through March 2025 for between $150 and $280.",
+        "Importers": "Mammut Sports Group Inc., of Williston, Vermont ",
+        "Manufacturers": "",
+        "Distributors": "",
+        "Manufactured In": "Switzerland",
+        "Custom Label": "",
+        "Custom Field": ""
+      }
+    },
+    {
+      "merged": {
+        "RecallID": 10200,
+        "RecallNumber": "25181",
+        "RecallDate": "2025-03-13T00:00:00",
+        "Description": "This recall involves all BD Vision Harnesses. This lightweight harness is designed for technical alpine and ice climbs. All sizes are included in this recall. The harness has fixed leg loops and was sold in black and white colors. \"Black Diamond\" is printed on one of the leg loops. \"Vision\" is printed on the other leg loop.",
+        "URL": "https://www.cpsc.gov/Recalls/2025/Black-Diamond-Equipment-Recalls-BD-Vision-Climbing-Harnesses-Due-to-Fall-Hazard-Risk-of-Serious-Injury-and-Death",
+        "Title": "Black Diamond Equipment Recalls BD Vision Climbing Harnesses Due to Fall Hazard; Risk of Serious Injury and Death",
+        "ConsumerContact": "Black Diamond toll-free at 866-306-0865 from 9 a.m. to 4:30 p.m. MT Monday through Friday, email at VisionHarnessRecall@bdel.com, or online at https://www.blackdiamondequipment.com/en_US/content/product-recalls/ or www.blackdiamondequipment.com and click on \"Product Recalls\" located at the bottom of the webpage for more information.",
+        "LastPublishDate": "2025-03-13T00:00:00",
+        "Products": [
+          {
+            "Name": "BD Vision Climbing Harness",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 1,580 (In addition, about 130 were sold in Canada)"
+          }
+        ],
+        "Inconjunctions": [
+          {
+            "URL": "https://recalls-rappels.canada.ca/en/alert-recall/black-diamond-vision-harness-recalled-due-injury-hazard"
+          }
+        ],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/harness-1.png",
+            "Caption": "Recalled Black Diamond Vision Harness"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/harness-2.png",
+            "Caption": "Recalled Black Diamond Vision Harness (label on side of leg loop)"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "Black Diamond has received one report involving the harness waist belt failing. No injuries have been reported."
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Liberty Mountain, Recreational Equipment Inc. (REI) and other specialty outdoor stores nationwide, and online at www.blackdiamondequipment.com, www.backcountry.com and www.evo.com from January 2018 through February 2025 for about $175.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Black Diamond Equipment Ltd., of Salt Lake City, Utah",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": "Sold At",
+        "ManufacturerCountries": [
+          {
+            "Country": "Philippines"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The recalled BD Vision harnesses can degrade over time and fail to support the climber, posing a fall hazard resulting in serious injury or death.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled BD Vision harnesses and contact Black Diamond for a full refund (in the form of a credit card reimbursement) or a one-time-use $200 credit, which can be used at a Black Diamond store or on the Black Diamond website. Contact Black Diamond for a pre-paid shipping label to return the recalled harness. Black Diamond is contacting all known purchasers."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 10200,
+        "RecallNumber": "25181",
+        "RecallDate": "2025-03-13T00:00:00",
+        "Description": "This recall involves all BD Vision Harnesses. This lightweight harness is designed for technical alpine and ice climbs. All sizes are included in this recall. The harness has fixed leg loops and was sold in black and white colors. \"Black Diamond\" is printed on one of the leg loops. \"Vision\" is printed on the other leg loop.",
+        "URL": "https://www.cpsc.gov/Recalls/2025/Black-Diamond-Equipment-Recalls-BD-Vision-Climbing-Harnesses-Due-to-Fall-Hazard-Risk-of-Serious-Injury-and-Death",
+        "Title": "Black Diamond Equipment Recalls BD Vision Climbing Harnesses Due to Fall Hazard; Risk of Serious Injury and Death",
+        "ConsumerContact": "Black Diamond toll-free at 866-306-0865 from 9 a.m. to 4:30 p.m. MT Monday through Friday, email at VisionHarnessRecall@bdel.com, or online at https://www.blackdiamondequipment.com/en_US/content/product-recalls/ or www.blackdiamondequipment.com and click on \"Product Recalls\" located at the bottom of the webpage for more information.",
+        "LastPublishDate": "2025-03-13T00:00:00",
+        "Products": [
+          {
+            "Name": "BD Vision Climbing Harness",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 1,580 (In addition, about 130 were sold in Canada)"
+          }
+        ],
+        "Inconjunctions": [
+          {
+            "URL": "https://recalls-rappels.canada.ca/en/alert-recall/black-diamond-vision-harness-recalled-due-injury-hazard"
+          }
+        ],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/harness-1.png",
+            "Caption": "Recalled Black Diamond Vision Harness"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/harness-2.png",
+            "Caption": "Recalled Black Diamond Vision Harness (label on side of leg loop)"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "Black Diamond has received one report involving the harness waist belt failing. No injuries have been reported."
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Liberty Mountain, Recreational Equipment Inc. (REI) and other specialty outdoor stores nationwide, and online at www.blackdiamondequipment.com, www.backcountry.com and www.evo.com from January 2018 through February 2025 for about $175.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Black Diamond Equipment Ltd., of Salt Lake City, Utah",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "Philippines"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The recalled BD Vision harnesses can degrade over time and fail to support the climber, posing a fall hazard resulting in serious injury or death.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled BD Vision harnesses and contact Black Diamond for a full refund (in the form of a credit card reimbursement) or a one-time-use $200 credit, which can be used at a Black Diamond store or on the Black Diamond website. Contact Black Diamond for a pre-paid shipping label to return the recalled harness. Black Diamond is contacting all known purchasers."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "25181",
+        "Product Safety Warning Number": "",
+        "Date": "March 13, 2025",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "Black Diamond Equipment Recalls BD Vision Climbing Harnesses Due to Fall Hazard; Risk of Serious Injury and Death",
+        "Name of product": "BD Vision Climbing Harness",
+        "Description": "This recall involves all BD Vision Harnesses. This lightweight harness is designed for technical alpine and ice climbs. All sizes are included in this recall. The harness has fixed leg loops and was sold in black and white colors. “Black Diamond” is printed on one of the leg loops. “Vision” is printed on the other leg loop.",
+        "Hazard Description": "The recalled BD Vision harnesses can degrade over time and fail to support the climber, posing a fall hazard resulting in serious injury or death.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Refund",
+        "Units": "About 1,580 (In addition, about 130 were sold in Canada)",
+        "Incidents": "Black Diamond has received one report involving the harness waist belt failing. No injuries have been reported.",
+        "Remedy": "Consumers should immediately stop using the recalled BD Vision harnesses and contact Black Diamond for a full refund (in the form of a credit card reimbursement) or a one-time-use $200 credit, which can be used at a Black Diamond store or on the Black Diamond website. Contact Black Diamond for a pre-paid shipping label to return the recalled harness. Black Diamond is contacting all known purchasers.",
+        "Sold At Label": "Sold At",
+        "Sold At": "Liberty Mountain, Recreational Equipment Inc. (REI) and other specialty outdoor stores nationwide, and online at www.blackdiamondequipment.com, www.backcountry.com and www.evo.com from January 2018 through February 2025 for about $175.",
+        "Importers": "Black Diamond Equipment Ltd., of Salt Lake City, Utah",
+        "Manufacturers": "",
+        "Distributors": "",
+        "Manufactured In": "Philippines",
+        "Custom Label": "",
+        "Custom Field": ""
+      }
+    },
+    {
+      "merged": {
+        "RecallID": 10186,
+        "RecallNumber": "25165",
+        "RecallDate": "2025-02-27T00:00:00",
+        "Description": "This recall involves TRUBLUE iQ Auto Belay Devices, which enable climbers to safely descend while climbing. The TRUBLUE iQ is gray with blue handles and a gray sash on the front cover. The TRUBLUE iQ+ has an added catch-and-hold brake on the front. The LT versions of the iQ and iQ+ have blue tags above the blue webbing hand grip; the XL versions have a purple tag. The recalled auto belay devices have a serial number within the following serial number ranges printed on the device's handle, as well on the bottom of the device: Products Models Serial Number Range TRUBLUE iQ LT TBiQ LT (12.5m) iQ0041591 through iQ0044486 TRUBLUE iQ+LT TBiQ+ LT (12.5m) iQP000401 through iQP000422 TRUBLUE iQ XL TBiQ XL (20m) iQXL01283 through iQXL03425 TRUBLUE iQ+XL TBiQ+ XL (20m) iQXLP0104 through iQXLP0215",
+        "URL": "https://www.cpsc.gov/Recalls/2025/Head-Rush-Technologies-Recalls-TRUBLUE-iQ-and-TRUBLUE-iQ-Auto-Belays-Due-to-Fall-Hazard",
+        "Title": "Head Rush Technologies Recalls TRUBLUE iQ and TRUBLUE iQ+ Auto Belays Due to Fall Hazard",
+        "ConsumerContact": "Head Rush Technologies collect at 720-565-6885 from 8 a.m. to 5 p.m. MT Monday through Friday, email at info@headrushtech.com, or online at https://info.headrushtech.com/hubfs/Product_Recalls/SA-0005-v01-en.pdf, or www.headrushtech.com and click on the \"Recall\" banner for more information.",
+        "LastPublishDate": "2025-02-27T00:00:00",
+        "Products": [
+          {
+            "Name": "TRUBLUE iQ and TRUBLUE iQ+ Auto Belays",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 410"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/trublu-1.jpg",
+            "Caption": "Recalled TruBlue iQ Auto Belay System"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/trublu-2.jpg",
+            "Caption": "Recalled TruBlue iQ+ Auto Belay System"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/trublu-3.jpg",
+            "Caption": "Serial Number Location"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/trublu-4.jpg",
+            "Caption": "Serial Number Location"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "The firm has received 109 reports of incidents of slow retraction, including one injury involving the auto belay not retracting, resulting in a fractured leg."
+          }
+        ],
+        "Manufacturers": [
+          {
+            "Name": "Head Rush Technologies, of Louisville, Colorado",
+            "CompanyID": ""
+          }
+        ],
+        "Retailers": [
+          {
+            "Name": "Online at www.headrushtech.com from May 2023 through December 2024 for between $2,800 to $4,600.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [],
+        "Distributors": [],
+        "SoldAtLabel": "Sold Online At",
+        "ManufacturerCountries": [
+          {
+            "Country": "United States"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The recalled auto belay device can fail to retract, posing a fall hazard and risk of serious injury or death.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using recalled auto belay devices and contact Head Rush Technologies for a free onsite inspection and repair."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Repair"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 10186,
+        "RecallNumber": "25165",
+        "RecallDate": "2025-02-27T00:00:00",
+        "Description": "This recall involves TRUBLUE iQ Auto Belay Devices, which enable climbers to safely descend while climbing. The TRUBLUE iQ is gray with blue handles and a gray sash on the front cover. The TRUBLUE iQ+ has an added catch-and-hold brake on the front. The LT versions of the iQ and iQ+ have blue tags above the blue webbing hand grip; the XL versions have a purple tag. The recalled auto belay devices have a serial number within the following serial number ranges printed on the device's handle, as well on the bottom of the device: Products Models Serial Number Range TRUBLUE iQ LT TBiQ LT (12.5m) iQ0041591 through iQ0044486 TRUBLUE iQ+LT TBiQ+ LT (12.5m) iQP000401 through iQP000422 TRUBLUE iQ XL TBiQ XL (20m) iQXL01283 through iQXL03425 TRUBLUE iQ+XL TBiQ+ XL (20m) iQXLP0104 through iQXLP0215",
+        "URL": "https://www.cpsc.gov/Recalls/2025/Head-Rush-Technologies-Recalls-TRUBLUE-iQ-and-TRUBLUE-iQ-Auto-Belays-Due-to-Fall-Hazard",
+        "Title": "Head Rush Technologies Recalls TRUBLUE iQ and TRUBLUE iQ+ Auto Belays Due to Fall Hazard",
+        "ConsumerContact": "Head Rush Technologies collect at 720-565-6885 from 8 a.m. to 5 p.m. MT Monday through Friday, email at info@headrushtech.com, or online at https://info.headrushtech.com/hubfs/Product_Recalls/SA-0005-v01-en.pdf, or www.headrushtech.com and click on the \"Recall\" banner for more information.",
+        "LastPublishDate": "2025-02-27T00:00:00",
+        "Products": [
+          {
+            "Name": "TRUBLUE iQ and TRUBLUE iQ+ Auto Belays",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 410"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/trublu-1.jpg",
+            "Caption": "Recalled TruBlue iQ Auto Belay System"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/trublu-2.jpg",
+            "Caption": "Recalled TruBlue iQ+ Auto Belay System"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/trublu-3.jpg",
+            "Caption": "Serial Number Location"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/trublu-4.jpg",
+            "Caption": "Serial Number Location"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "The firm has received 109 reports of incidents of slow retraction, including one injury involving the auto belay not retracting, resulting in a fractured leg."
+          }
+        ],
+        "Manufacturers": [
+          {
+            "Name": "Head Rush Technologies, of Louisville, Colorado",
+            "CompanyID": ""
+          }
+        ],
+        "Retailers": [
+          {
+            "Name": "Online at www.headrushtech.com from May 2023 through December 2024 for between $2,800 to $4,600.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [],
+        "Distributors": [],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "United States"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The recalled auto belay device can fail to retract, posing a fall hazard and risk of serious injury or death.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using recalled auto belay devices and contact Head Rush Technologies for a free onsite inspection and repair."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Repair"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "25165",
+        "Product Safety Warning Number": "",
+        "Date": "February 27, 2025",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "Head Rush Technologies Recalls TRUBLUE iQ and TRUBLUE iQ+ Auto Belays Due to Fall Hazard",
+        "Name of product": "TRUBLUE iQ and TRUBLUE iQ+ Auto Belays",
+        "Description": "This recall involves TRUBLUE iQ Auto Belay Devices, which enable climbers to safely descend while climbing.&nbsp;The TRUBLUE iQ is gray with blue handles and a gray sash on the front cover. The TRUBLUE iQ+ has an added catch-and-hold brake on the front. The LT versions of the iQ and iQ+ have blue tags above the blue webbing hand grip; the XL versions have a purple tag. The recalled auto belay devices have a serial number within the following serial number ranges printed on the device’s handle, as well on the bottom of the device:ProductsModelsSerial Number RangeTRUBLUE iQ LTTBiQ LT (12.5m)iQ0041591 through iQ0044486TRUBLUE iQ+LTTBiQ+ LT (12.5m)iQP000401 through iQP000422TRUBLUE iQ XLTBiQ XL (20m)iQXL01283 through iQXL03425TRUBLUE iQ+XLTBiQ+ XL (20m)iQXLP0104 through iQXLP0215",
+        "Hazard Description": "The recalled auto belay device can fail to retract, posing a fall hazard and risk of serious injury or death.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Repair",
+        "Units": "About 410",
+        "Incidents": "The firm has received 109 reports of incidents of slow retraction, including one injury involving the auto belay not retracting, resulting in a fractured leg.",
+        "Remedy": "Consumers should immediately stop using recalled auto belay devices and contact Head Rush Technologies for a free onsite inspection and repair.",
+        "Sold At Label": "Sold Online At",
+        "Sold At": "www.headrushtech.com from May 2023 through December 2024 for between $2,800 to $4,600.",
+        "Importers": "",
+        "Manufacturers": "Head Rush Technologies, of Louisville, Colorado",
+        "Distributors": "",
+        "Manufactured In": "United States",
+        "Custom Label": "",
+        "Custom Field": ""
+      }
+    },
+    {
+      "merged": {
+        "RecallID": 10185,
+        "RecallNumber": "25164",
+        "RecallDate": "2025-02-27T00:00:00",
+        "Description": "This recall involves ARVA Neo BT Pro Avalanche Transceivers. The transceivers are black plastic with an LCD screen below a red mark button. NEO BT PRO is written on the left side of the device. The affected beacons have serial numbers NBP00052-1027 to NBP00287-1127 and NB00300-1127 to NB11675-0329. The serial number is located inside the battery compartment on the underside of the battery compartment lid.",
+        "URL": "https://www.cpsc.gov/Recalls/2025/ARVA-Recalls-NEO-BT-PRO-Avalanche-Transceivers-Due-to-Risk-of-Loss-of-Emergency-Transmission-Risk-of-Serious-Injury-or-Death",
+        "Title": "ARVA Recalls NEO BT PRO Avalanche Transceivers Due to Risk of Loss of Emergency Transmission; Risk of Serious Injury or Death",
+        "ConsumerContact": "ARVA toll-free at 844-636-2782 from 9 a.m. to 5 p.m. MT Monday through Friday or online at https://us.arva-equipment.com/content/1488-recall and click on \"USA\" or at https://us.arva-equipment.com/module/arvaextra/productrecall for more information.",
+        "LastPublishDate": "2025-02-27T00:00:00",
+        "Products": [
+          {
+            "Name": "ARVA Neo BT Pro Avalanche Transceivers",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 1,067"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/arva-1.png",
+            "Caption": "Recalled ARVA NEO BT PRO Avalanche Transceiver"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/arva-2.png",
+            "Caption": "Recalled ARVA NEO BT PRO Avalanche Transceiver"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/arva-3.png",
+            "Caption": "Recalled ARVA NEO BT PRO Avalanche Transceiver"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Winter outdoor sporting goods and ski and snowboard stores nationwide and online at arva-equipment.com, backcountry.com and Evo.com from September 2022 through January 2025 for about $430.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Nic Impex ARVA Corp., of Orem, Utah",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": "Sold At",
+        "ManufacturerCountries": [
+          {
+            "Country": "France"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "A fuse within the avalanche transceiver can be defective and cause power to drain from the battery, posing a risk of loss of emergency communication which could result in serious injury or death.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled device and contact NIC IMPEX ARVA CORP. for a free inspection and repair. The firm will give consumers a shipping label to return the recalled transceiver."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Repair"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 10185,
+        "RecallNumber": "25164",
+        "RecallDate": "2025-02-27T00:00:00",
+        "Description": "This recall involves ARVA Neo BT Pro Avalanche Transceivers. The transceivers are black plastic with an LCD screen below a red mark button. NEO BT PRO is written on the left side of the device. The affected beacons have serial numbers NBP00052-1027 to NBP00287-1127 and NB00300-1127 to NB11675-0329. The serial number is located inside the battery compartment on the underside of the battery compartment lid.",
+        "URL": "https://www.cpsc.gov/Recalls/2025/ARVA-Recalls-NEO-BT-PRO-Avalanche-Transceivers-Due-to-Risk-of-Loss-of-Emergency-Transmission-Risk-of-Serious-Injury-or-Death",
+        "Title": "ARVA Recalls NEO BT PRO Avalanche Transceivers Due to Risk of Loss of Emergency Transmission; Risk of Serious Injury or Death",
+        "ConsumerContact": "ARVA toll-free at 844-636-2782 from 9 a.m. to 5 p.m. MT Monday through Friday or online at https://us.arva-equipment.com/content/1488-recall and click on \"USA\" or at https://us.arva-equipment.com/module/arvaextra/productrecall for more information.",
+        "LastPublishDate": "2025-02-27T00:00:00",
+        "Products": [
+          {
+            "Name": "ARVA Neo BT Pro Avalanche Transceivers",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 1,067"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/arva-1.png",
+            "Caption": "Recalled ARVA NEO BT PRO Avalanche Transceiver"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/arva-2.png",
+            "Caption": "Recalled ARVA NEO BT PRO Avalanche Transceiver"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/arva-3.png",
+            "Caption": "Recalled ARVA NEO BT PRO Avalanche Transceiver"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Winter outdoor sporting goods and ski and snowboard stores nationwide and online at arva-equipment.com, backcountry.com and Evo.com from September 2022 through January 2025 for about $430.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Nic Impex ARVA Corp., of Orem, Utah",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "France"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "A fuse within the avalanche transceiver can be defective and cause power to drain from the battery, posing a risk of loss of emergency communication which could result in serious injury or death.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled device and contact NIC IMPEX ARVA CORP. for a free inspection and repair. The firm will give consumers a shipping label to return the recalled transceiver."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Repair"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "25164",
+        "Product Safety Warning Number": "",
+        "Date": "February 27, 2025",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "ARVA Recalls NEO BT PRO Avalanche Transceivers Due to Risk of Loss of Emergency Transmission; Risk of Serious Injury or Death",
+        "Name of product": "ARVA Neo BT Pro Avalanche Transceivers",
+        "Description": "This recall involves ARVA Neo BT Pro Avalanche Transceivers. The transceivers are black plastic with an LCD screen below a red mark button. NEO BT PRO is written on the left side of the device. The affected beacons have serial numbers NBP00052-1027 to NBP00287-1127 and NB00300-1127 to NB11675-0329. The serial number is located&nbsp;inside the battery compartment on the underside of the battery compartment lid.",
+        "Hazard Description": "A fuse within the avalanche transceiver can be defective and cause power to drain from the battery, posing a risk of loss of emergency communication which could result in serious injury or death.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Repair",
+        "Units": "About 1,067",
+        "Incidents": "None reported",
+        "Remedy": "Consumers should immediately stop using the recalled device and contact NIC IMPEX ARVA CORP. for a free inspection and repair. The firm will give consumers a shipping label to return the recalled transceiver.",
+        "Sold At Label": "Sold At",
+        "Sold At": "Winter outdoor sporting goods and ski and snowboard stores nationwide and online at arva-equipment.com, backcountry.com and Evo.com from September 2022 through January 2025 for about $430.",
+        "Importers": "Nic Impex ARVA Corp., of Orem, Utah",
+        "Manufacturers": "",
+        "Distributors": "",
+        "Manufactured In": "France",
+        "Custom Label": "",
+        "Custom Field": ""
+      }
+    },
+    {
+      "merged": {
+        "RecallID": 10156,
+        "RecallNumber": "25130",
+        "RecallDate": "2025-02-13T00:00:00",
+        "Description": "The recalled climbing ropes are made of hemp and were sold in 10, 15, 20, 25, 30 and 50 feet lengths. The LoGest Climbing Rope with Carabiner has a silver \"D\" ring and a silver climbing carabiner attached. The LoGest Climbing Rope with Heavy-Duty Metal Hook has a blue stripe running through the brown hemp rope and has one end with a black metal hook attached with two silver bolts and nuts. Both ropes have \"LoGest\" written in large white text on the black plastic on the ends of the ropes.",
+        "URL": "https://www.cpsc.gov/Recalls/2025/Setsmart-Recalls-LoGest-Climbing-Ropes-Due-to-Fall-Hazard",
+        "Title": "Setsmart Recalls LoGest Climbing Ropes Due to Fall Hazard",
+        "ConsumerContact": "Setsmart by email at LoGestRecall@gmail.com or at www.LoGestRopeRecall.com.",
+        "LastPublishDate": "2025-02-13T00:00:00",
+        "Products": [
+          {
+            "Name": "LoGest Climbing Ropes with Carabiners and LoGest Climbing Ropes with Heavy-Duty Metal Hooks",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 22,500 (In addition, about 350 were sold in Canada and about 25 were sold in Mexico)"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/LoGest-1.jpg",
+            "Caption": "Recalled LoGest Climbing Rope with Carabiner"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/LoGest-2.jpg",
+            "Caption": "Recalled LoGest Climbing Rope with Heavy-Duty Metal Hook"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "LoGest has received 13 reports of the recalled ropes breaking, including one report of a fall that resulted in a severe spinal cord injury."
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Online at Amazon.com from March 2021 through November 2024 for between $20 and $70.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Setsmart LLC, of Brooklyn, New York",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": "Sold At",
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The climbing ropes can weaken and break, posing a fall hazard to consumers.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the climbing ropes, uninstall them, and register for a full refund at www.LoGestRopeRecall.com. Consumers will receive a form to sign as part of the disposal of the climbing ropes. Consumers must follow the disposal directions on the form and email a photo of the disposed rope to LoGestRecall@gmail.com to receive their refund. Full refunds will be issued via Amazon to the original form of payment associated with the order. Amazon is contacting all known purchasers directly."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 10156,
+        "RecallNumber": "25130",
+        "RecallDate": "2025-02-13T00:00:00",
+        "Description": "The recalled climbing ropes are made of hemp and were sold in 10, 15, 20, 25, 30 and 50 feet lengths. The LoGest Climbing Rope with Carabiner has a silver \"D\" ring and a silver climbing carabiner attached. The LoGest Climbing Rope with Heavy-Duty Metal Hook has a blue stripe running through the brown hemp rope and has one end with a black metal hook attached with two silver bolts and nuts. Both ropes have \"LoGest\" written in large white text on the black plastic on the ends of the ropes.",
+        "URL": "https://www.cpsc.gov/Recalls/2025/Setsmart-Recalls-LoGest-Climbing-Ropes-Due-to-Fall-Hazard",
+        "Title": "Setsmart Recalls LoGest Climbing Ropes Due to Fall Hazard",
+        "ConsumerContact": "Setsmart by email at LoGestRecall@gmail.com or at www.LoGestRopeRecall.com.",
+        "LastPublishDate": "2025-02-13T00:00:00",
+        "Products": [
+          {
+            "Name": "LoGest Climbing Ropes with Carabiners and LoGest Climbing Ropes with Heavy-Duty Metal Hooks",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 22,500 (In addition, about 350 were sold in Canada and about 25 were sold in Mexico)"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/LoGest-1.jpg",
+            "Caption": "Recalled LoGest Climbing Rope with Carabiner"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/LoGest-2.jpg",
+            "Caption": "Recalled LoGest Climbing Rope with Heavy-Duty Metal Hook"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "LoGest has received 13 reports of the recalled ropes breaking, including one report of a fall that resulted in a severe spinal cord injury."
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Online at Amazon.com from March 2021 through November 2024 for between $20 and $70.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Setsmart LLC, of Brooklyn, New York",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The climbing ropes can weaken and break, posing a fall hazard to consumers.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the climbing ropes, uninstall them, and register for a full refund at www.LoGestRopeRecall.com. Consumers will receive a form to sign as part of the disposal of the climbing ropes. Consumers must follow the disposal directions on the form and email a photo of the disposed rope to LoGestRecall@gmail.com to receive their refund. Full refunds will be issued via Amazon to the original form of payment associated with the order. Amazon is contacting all known purchasers directly."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "25130",
+        "Product Safety Warning Number": "",
+        "Date": "February 13, 2025",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "Setsmart Recalls LoGest Climbing Ropes Due to Fall Hazard",
+        "Name of product": "LoGest Climbing Ropes with Carabiners and LoGest Climbing Ropes with Heavy-Duty Metal Hooks",
+        "Description": "The recalled climbing ropes are made of hemp and were sold in 10, 15, 20, 25, 30 and 50 feet lengths. The LoGest Climbing Rope with Carabiner has a silver “D” ring and a silver climbing carabiner attached. The LoGest Climbing Rope with Heavy-Duty Metal Hook has a blue stripe running through the brown hemp rope and has one end with a black metal hook attached with two silver bolts and nuts. Both ropes have “LoGest” written in large white text on the black plastic on the ends of the ropes.",
+        "Hazard Description": "The climbing ropes can weaken and break, posing a fall hazard to consumers.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Refund",
+        "Units": "About 22,500 (In addition, about 350 were sold in Canada and about 25 were sold in Mexico)",
+        "Incidents": "LoGest has received 13 reports of the recalled ropes breaking, including one report of a fall that resulted in a severe spinal cord injury. ",
+        "Remedy": "Consumers should immediately stop using the climbing ropes, uninstall them, and register for a full refund at&nbsp;www.LoGestRopeRecall.com. Consumers will receive a form to sign as part of the disposal of the climbing ropes. Consumers must follow the disposal directions on the form and email a photo of the disposed rope to&nbsp;LoGestRecall@gmail.com to receive their refund. Full refunds will be issued via Amazon to the original form of payment associated with the order. Amazon is contacting all known purchasers directly.",
+        "Sold At Label": "Sold At",
+        "Sold At": "Online at Amazon.com from March 2021 through November 2024 for between $20 and $70.",
+        "Importers": "Setsmart LLC, of Brooklyn, New York",
+        "Manufacturers": "",
+        "Distributors": "",
+        "Manufactured In": "China",
+        "Custom Label": "",
+        "Custom Field": ""
+      }
+    },
+    {
+      "merged": {
+        "RecallID": 10116,
+        "RecallNumber": "25077",
+        "RecallDate": "2024-12-26T00:00:00",
+        "Description": "This recall involves all Black Diamond Equipment PIEPS Pro IPS Avalanche Transceivers. The transceivers are black plastic with an LCD screen below a yellow mark button. They measure about 5 inches long by 3 inches wide. PIEPS appears in yellow lettering and PRO IPS in white lettering on the front of the unit. The first four numbers in the transceivers' serial number range from 2326 through 2445 for recalled units and can be found on the label on the inside of the battery compartment door.",
+        "URL": "https://www.cpsc.gov/Recalls/2025/Black-Diamond-Equipment-Recalls-PIEPS-Pro-IPS-Avalanche-Transceivers-Due-to-Risk-of-Loss-of-Emergency-Communications",
+        "Title": "Black Diamond Equipment Recalls PIEPS Pro IPS Avalanche Transceivers Due to Risk of Loss of Emergency Communications",
+        "ConsumerContact": "Black Diamond toll-free at 866-306-0865 from 9 a.m. to 4:30 p.m. MT Monday through Friday, email at 2024ProIPSrecall@bdel.com, or online at https://www.blackdiamondequipment.com/en_US/content/product-recalls/ or www.blackdiamondequipment.com and click on \"Product Recalls\" located at the top of the webpage or for more information.",
+        "LastPublishDate": "2024-12-26T00:00:00",
+        "Products": [
+          {
+            "Name": "PIEPS Pro IPS Avalanche Transceivers",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 770 (In addition, about 70 were sold in Canada)"
+          }
+        ],
+        "Inconjunctions": [
+          {
+            "URL": "https://recalls-rappels.canada.ca/en/alert-recall/pieps-pro-ips-avalanche-transceivers-recalled-due-risk-signal-transmission-failure"
+          }
+        ],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Avalanche-Transceiver-1.png",
+            "Caption": "Recalled PIEPS PRO IPS Avalanche Transceiver - front"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Avalanche-Transceiver-2.png",
+            "Caption": "Recalled PIEPS PRO IPS Avalanche Transceiver - back"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Avalanche-Transceiver-3.png",
+            "Caption": "Transceiver's serial number location"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "Black Diamond has received one report of the battery compartment not operating correctly. No injuries have been reported."
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Alpenglow Sports, Cripple Creek Backcountry, EVO Gear, Liberty Mountain, Mountain Chalet, Mammoth Mountaineering and other specialty outdoor stores nationwide, and online at www.backcountry.com, www.polaris.com and www.blackdiamondequipment.com from February 2024 through November 2024 for between $530 and $620.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Black Diamond Equipment Ltd., of Salt Lake City, Utah",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": "Sold At",
+        "ManufacturerCountries": [
+          {
+            "Country": "Austria"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The battery compartment within the avalanche transceiver could not have enough contact force to supply power. In some cases, the transceiver will fail to power on or cease operating during use. It would make it impossible to locate a victim in an avalanche emergency situation, which could result in serious injury or death.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the avalanche transceivers and contact Black Diamond for a full refund or free repair, including shipping. Consumers will not be asked for proof of purchase and will receive a pre-paid shipping label to return the recalled transceivers. Black Diamond is contacting all known purchasers."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          },
+          {
+            "Option": "Repair"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 10116,
+        "RecallNumber": "25077",
+        "RecallDate": "2024-12-26T00:00:00",
+        "Description": "This recall involves all Black Diamond Equipment PIEPS Pro IPS Avalanche Transceivers. The transceivers are black plastic with an LCD screen below a yellow mark button. They measure about 5 inches long by 3 inches wide. PIEPS appears in yellow lettering and PRO IPS in white lettering on the front of the unit. The first four numbers in the transceivers' serial number range from 2326 through 2445 for recalled units and can be found on the label on the inside of the battery compartment door.",
+        "URL": "https://www.cpsc.gov/Recalls/2025/Black-Diamond-Equipment-Recalls-PIEPS-Pro-IPS-Avalanche-Transceivers-Due-to-Risk-of-Loss-of-Emergency-Communications",
+        "Title": "Black Diamond Equipment Recalls PIEPS Pro IPS Avalanche Transceivers Due to Risk of Loss of Emergency Communications",
+        "ConsumerContact": "Black Diamond toll-free at 866-306-0865 from 9 a.m. to 4:30 p.m. MT Monday through Friday, email at 2024ProIPSrecall@bdel.com, or online at https://www.blackdiamondequipment.com/en_US/content/product-recalls/ or www.blackdiamondequipment.com and click on \"Product Recalls\" located at the top of the webpage or for more information.",
+        "LastPublishDate": "2024-12-26T00:00:00",
+        "Products": [
+          {
+            "Name": "PIEPS Pro IPS Avalanche Transceivers",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 770 (In addition, about 70 were sold in Canada)"
+          }
+        ],
+        "Inconjunctions": [
+          {
+            "URL": "https://recalls-rappels.canada.ca/en/alert-recall/pieps-pro-ips-avalanche-transceivers-recalled-due-risk-signal-transmission-failure"
+          }
+        ],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Avalanche-Transceiver-1.png",
+            "Caption": "Recalled PIEPS PRO IPS Avalanche Transceiver - front"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Avalanche-Transceiver-2.png",
+            "Caption": "Recalled PIEPS PRO IPS Avalanche Transceiver - back"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Avalanche-Transceiver-3.png",
+            "Caption": "Transceiver's serial number location"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "Black Diamond has received one report of the battery compartment not operating correctly. No injuries have been reported."
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Alpenglow Sports, Cripple Creek Backcountry, EVO Gear, Liberty Mountain, Mountain Chalet, Mammoth Mountaineering and other specialty outdoor stores nationwide, and online at www.backcountry.com, www.polaris.com and www.blackdiamondequipment.com from February 2024 through November 2024 for between $530 and $620.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Black Diamond Equipment Ltd., of Salt Lake City, Utah",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "Austria"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The battery compartment within the avalanche transceiver could not have enough contact force to supply power. In some cases, the transceiver will fail to power on or cease operating during use. It would make it impossible to locate a victim in an avalanche emergency situation, which could result in serious injury or death.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the avalanche transceivers and contact Black Diamond for a full refund or free repair, including shipping. Consumers will not be asked for proof of purchase and will receive a pre-paid shipping label to return the recalled transceivers. Black Diamond is contacting all known purchasers."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          },
+          {
+            "Option": "Repair"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "25077",
+        "Product Safety Warning Number": "",
+        "Date": "December 26, 2024",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "Black Diamond Equipment Recalls PIEPS Pro IPS Avalanche Transceivers Due to Risk of Loss of Emergency Communications",
+        "Name of product": "PIEPS Pro IPS Avalanche Transceivers",
+        "Description": "This recall involves all Black Diamond Equipment PIEPS Pro IPS Avalanche Transceivers. The transceivers are black plastic with an LCD screen below a yellow mark button. They measure about 5 inches long by 3 inches wide. PIEPS appears in yellow lettering and PRO IPS in white lettering on the front of the unit. The first four numbers in the transceivers’ serial number range from 2326 through 2445 for recalled units and can be found on the label on the inside of the battery compartment door.&nbsp;",
+        "Hazard Description": "The battery compartment within the avalanche transceiver could not have enough contact force to supply power. In some cases, the transceiver will fail to power on or cease operating during use. It would make it impossible to locate a victim in an avalanche emergency situation, which could result in serious injury or death.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Refund, Repair",
+        "Units": "About 770 (In addition, about 70 were sold in Canada) ",
+        "Incidents": "Black Diamond has received one report of the battery compartment not operating correctly. No injuries have been reported.",
+        "Remedy": "Consumers should immediately stop using the avalanche transceivers and contact Black Diamond for a full refund or free repair, including shipping. Consumers will not be asked for proof of purchase and will receive a pre-paid shipping label to return the recalled transceivers. Black Diamond is&nbsp;contacting all known purchasers.",
+        "Sold At Label": "Sold At",
+        "Sold At": "Alpenglow Sports, Cripple Creek Backcountry, EVO Gear, Liberty Mountain, Mountain Chalet, Mammoth Mountaineering and other specialty outdoor stores nationwide, and online at www.backcountry.com, www.polaris.com and www.blackdiamondequipment.com from February 2024 through November 2024 for between $530 and $620.&nbsp;",
+        "Importers": "Black Diamond Equipment Ltd., of Salt Lake City, Utah",
+        "Manufacturers": "",
+        "Distributors": "",
+        "Manufactured In": "Austria",
+        "Custom Label": "",
+        "Custom Field": ""
+      }
+    },
+    {
+      "merged": {
+        "RecallID": 10045,
+        "RecallNumber": "24358",
+        "RecallDate": "2024-09-12T00:00:00",
+        "Description": "This recall involves three Petzl climbing harnesses: the GYM harness (Model No. C032AA00), the PANDION harness (Model Nos. C029AA00 and C029AA01), and the PANJI harness (Model No. C028AA00). The recalled harnesses were used by operators of climbing gyms, adventure parks, guide companies, and consumers. Serial numbers are printed on a label inside the harnesses. Recalled Harnesses Serial Numbers GYM harness (Model C032AA00) 18319xxxxxx through 19264xxxxxx, 19Jxxxxxxxxxx through 24Axxxxxxxxxx PANDION harness (Model C029AA00) 18321xxxxxx through 19264xxxxxx 19Jxxxxxxxxxx through 24Axxxxxxxxxx PANDION harness (Model C029AA01) 1827xxxxxx through 19262xxxxxx, 19Jxxxxxxxxxx through 23Axxxxxxxxxx PANJI harness (Model C028AA00) 18326xxxxxx through 19253xxxxxx, 19Jxxxxxxxxxx and 23Jxxxxxxxxxx",
+        "URL": "https://www.cpsc.gov/Recalls/2024/Petzl-America-Recalls-GYM-PANDION-and-PANJI-Climbing-Harnesses-Due-to-Fall-Hazard",
+        "Title": "Petzl America Recalls GYM, PANDION and PANJI Climbing Harnesses Due to Fall Hazard",
+        "ConsumerContact": "Petzl America, Inc. toll-free at 877-807-3805 from 8 a.m. to 4 p.m. MT, Monday through Friday, email at Returns@petzl.com, or online at https://www.petzl.com/US/en/Operators/safety-alerts or www.petzl.com/US/en/Operators at the top of the page for more information.",
+        "LastPublishDate": "2024-09-12T00:00:00",
+        "Products": [
+          {
+            "Name": "Petzl GYM, PANDION and PANJI climbing harnesses",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 22,000 (In addition, about 5,800 were sold in Canada)"
+          }
+        ],
+        "Inconjunctions": [
+          {
+            "URL": "https://recalls-rappels.canada.ca/en/alert-recall/petzl-gym-pandion-and-panji-harnesses-recalled-due-fall-hazard"
+          }
+        ],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/gym-harness.png",
+            "Caption": "Recalled Petzl GYM Climbing Harness (Model No. C032AA00)"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/pandion-harness.png",
+            "Caption": "Recalled Petzl PANDION Climbing Harness (Model Nos. C029AA00 and C029AA01)"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/panji-harness.png",
+            "Caption": "Recalled Petzl PANJI Climbing Harness (Model No. C028AA00)"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/harness-serial-numbers.png",
+            "Caption": "Format of serial numbers located on a label inside of the recalled harnesses"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "There has been one report of a user in the United States suffering serious injuries from a fall."
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Online and in stores at KarstSports, PeakTrading, Backcountry, OmniProGear, Moosejaw and other outdoor equipment stores from January 2019 through May 2024 for between $59.95 and $69.95.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Petzl America, Inc., of Salt Lake City, Utah",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": "Sold At",
+        "ManufacturerCountries": [
+          {
+            "Country": "Malaysia"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The recalled harness can be put on backwards and the rope or carabiner can be attached to a non-weight-bearing leg loop elastic band, placing the user at risk of falling from height and sustaining serious injury, including paraplegia or death.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers and operators of climbing gyms, adventure parks, search and rescue operations, and adventure guide companies should immediately stop using the recalled harnesses and contact Petzl America for a free repair."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Repair"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 10045,
+        "RecallNumber": "24358",
+        "RecallDate": "2024-09-12T00:00:00",
+        "Description": "This recall involves three Petzl climbing harnesses: the GYM harness (Model No. C032AA00), the PANDION harness (Model Nos. C029AA00 and C029AA01), and the PANJI harness (Model No. C028AA00). The recalled harnesses were used by operators of climbing gyms, adventure parks, guide companies, and consumers. Serial numbers are printed on a label inside the harnesses. Recalled Harnesses Serial Numbers GYM harness (Model C032AA00) 18319xxxxxx through 19264xxxxxx, 19Jxxxxxxxxxx through 24Axxxxxxxxxx PANDION harness (Model C029AA00) 18321xxxxxx through 19264xxxxxx 19Jxxxxxxxxxx through 24Axxxxxxxxxx PANDION harness (Model C029AA01) 1827xxxxxx through 19262xxxxxx, 19Jxxxxxxxxxx through 23Axxxxxxxxxx PANJI harness (Model C028AA00) 18326xxxxxx through 19253xxxxxx, 19Jxxxxxxxxxx and 23Jxxxxxxxxxx",
+        "URL": "https://www.cpsc.gov/Recalls/2024/Petzl-America-Recalls-GYM-PANDION-and-PANJI-Climbing-Harnesses-Due-to-Fall-Hazard",
+        "Title": "Petzl America Recalls GYM, PANDION and PANJI Climbing Harnesses Due to Fall Hazard",
+        "ConsumerContact": "Petzl America, Inc. toll-free at 877-807-3805 from 8 a.m. to 4 p.m. MT, Monday through Friday, email at Returns@petzl.com, or online at https://www.petzl.com/US/en/Operators/safety-alerts or www.petzl.com/US/en/Operators at the top of the page for more information.",
+        "LastPublishDate": "2024-09-12T00:00:00",
+        "Products": [
+          {
+            "Name": "Petzl GYM, PANDION and PANJI climbing harnesses",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 22,000 (In addition, about 5,800 were sold in Canada)"
+          }
+        ],
+        "Inconjunctions": [
+          {
+            "URL": "https://recalls-rappels.canada.ca/en/alert-recall/petzl-gym-pandion-and-panji-harnesses-recalled-due-fall-hazard"
+          }
+        ],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/gym-harness.png",
+            "Caption": "Recalled Petzl GYM Climbing Harness (Model No. C032AA00)"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/pandion-harness.png",
+            "Caption": "Recalled Petzl PANDION Climbing Harness (Model Nos. C029AA00 and C029AA01)"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/panji-harness.png",
+            "Caption": "Recalled Petzl PANJI Climbing Harness (Model No. C028AA00)"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/harness-serial-numbers.png",
+            "Caption": "Format of serial numbers located on a label inside of the recalled harnesses"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "There has been one report of a user in the United States suffering serious injuries from a fall."
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Online and in stores at KarstSports, PeakTrading, Backcountry, OmniProGear, Moosejaw and other outdoor equipment stores from January 2019 through May 2024 for between $59.95 and $69.95.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Petzl America, Inc., of Salt Lake City, Utah",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "Malaysia"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The recalled harness can be put on backwards and the rope or carabiner can be attached to a non-weight-bearing leg loop elastic band, placing the user at risk of falling from height and sustaining serious injury, including paraplegia or death.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers and operators of climbing gyms, adventure parks, search and rescue operations, and adventure guide companies should immediately stop using the recalled harnesses and contact Petzl America for a free repair."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Repair"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "24358",
+        "Product Safety Warning Number": "",
+        "Date": "September 12, 2024",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "Petzl America Recalls GYM, PANDION and PANJI Climbing Harnesses Due to Fall Hazard",
+        "Name of product": "Petzl GYM, PANDION and PANJI climbing harnesses",
+        "Description": "This recall involves three Petzl climbing harnesses: the GYM harness (Model No. C032AA00), the PANDION harness (Model Nos. C029AA00 and C029AA01), and the PANJI harness (Model No. C028AA00). The recalled harnesses were used by operators of climbing gyms, adventure parks, guide companies, and consumers. Serial numbers are printed on a label inside the harnesses.Recalled HarnessesSerial NumbersGYM harness&nbsp;(Model C032AA00)18319xxxxxx through 19264xxxxxx, 19Jxxxxxxxxxx through 24AxxxxxxxxxxPANDION harness&nbsp;(Model C029AA00)18321xxxxxx through 19264xxxxxx 19Jxxxxxxxxxx through 24AxxxxxxxxxxPANDION harness&nbsp;(Model C029AA01)1827xxxxxx through 19262xxxxxx, 19Jxxxxxxxxxx through 23AxxxxxxxxxxPANJI harness&nbsp;(Model C028AA00)18326xxxxxx through 19253xxxxxx, 19Jxxxxxxxxxx and 23Jxxxxxxxxxx",
+        "Hazard Description": "The recalled harness can be put on backwards and the rope or carabiner can be attached to a non-weight-bearing leg loop elastic band, placing the user at risk of falling from height and sustaining serious injury, including paraplegia or death.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Repair",
+        "Units": "About 22,000 (In addition, about 5,800 were sold in Canada)",
+        "Incidents": "There has been one report of a user in the United States suffering serious injuries from a fall.",
+        "Remedy": "Consumers and operators of climbing gyms, adventure parks, search and rescue operations, and adventure guide companies should immediately stop using the recalled harnesses and contact Petzl America for a free repair.",
+        "Sold At Label": "Sold At",
+        "Sold At": "Online and in stores at KarstSports, PeakTrading, Backcountry, OmniProGear, Moosejaw and other outdoor equipment stores from January 2019 through May 2024 for between $59.95 and $69.95.",
+        "Importers": "Petzl America, Inc., of Salt Lake City, Utah",
+        "Manufacturers": "",
+        "Distributors": "",
+        "Manufactured In": "Malaysia",
+        "Custom Label": "",
+        "Custom Field": ""
+      }
+    },
+    {
+      "merged": {
+        "RecallID": 10038,
+        "RecallNumber": "24347",
+        "RecallDate": "2024-08-22T00:00:00",
+        "Description": "This recall involves Head Rush Technologies TRUBLUE Speed Auto Belay Devices, 12.5m and 16m versions. The device enables climbers to safely descend after a speed climbing event. The device is gray with blue handles, the 12.5m version has black webbing handgrip above the carabiner, and the 16m version has blue webbing handgrip. The model TRUBLUE Speed TBSD150-20 and serial number are on a label located on the handle. The auto belay devices have a serial number within the serial number range: TBSD00098 through TBSD01180.",
+        "URL": "https://www.cpsc.gov/Recalls/2024/Head-Rush-Technologies-Recalls-TRUBLUE-Speed-Auto-Belay-Devices-Due-to-Fall-Hazard",
+        "Title": "Head Rush Technologies Recalls TRUBLUE Speed Auto Belay Devices Due to Fall Hazard",
+        "ConsumerContact": "Head Rush Technologies collect at 720-565-6885 from 8:30 a.m. to 5 p.m. MT Monday through Friday, email at inf@headrushtech.com, or online at https://info.headrushtech.com/hubfs/Product_Recalls/2024_TRUBLUESpeed_Limited_Recall.pdf or www.headrushtech.com and click on the \"Recall\" banner for more information.",
+        "LastPublishDate": "2024-08-22T00:00:00",
+        "Products": [
+          {
+            "Name": "TRUBLUE Speed Auto Belay Devices",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 220"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/trublue-1.png",
+            "Caption": "Recalled Head Rush Technologies TRUBLUE Speed Auto Belay Device (12.5 Meter Version)"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/trublue-2.png.jpg",
+            "Caption": "Recalled Head Rush Technologies TRUBLUE Speed Auto Belay Device (16 Meter Version)"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/trublue-3.jpg",
+            "Caption": "Location of Model Number and Serial Number"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "The firm has received one incident report involving brake failure, causing the user to fall, resulting in a broken ankle."
+          }
+        ],
+        "Manufacturers": [
+          {
+            "Name": "Head Rush Technologies, of Louisville, Colorado",
+            "CompanyID": ""
+          }
+        ],
+        "Retailers": [
+          {
+            "Name": "Online at www.headrushtech.com from May 2017 through July 2021 for between $2,800 and $2,900.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [],
+        "Distributors": [],
+        "SoldAtLabel": "Sold At",
+        "ManufacturerCountries": [
+          {
+            "Country": "United States"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The auto belay device backup brake can fail to activate, posing a fall hazard and risk of serious injury or death.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled auto belay devices and contact Head Rush Technologies for a free inspection and repair. Head Rush Technologies is contacting all known purchasers directly."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Repair"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 10038,
+        "RecallNumber": "24347",
+        "RecallDate": "2024-08-22T00:00:00",
+        "Description": "This recall involves Head Rush Technologies TRUBLUE Speed Auto Belay Devices, 12.5m and 16m versions. The device enables climbers to safely descend after a speed climbing event. The device is gray with blue handles, the 12.5m version has black webbing handgrip above the carabiner, and the 16m version has blue webbing handgrip. The model TRUBLUE Speed TBSD150-20 and serial number are on a label located on the handle. The auto belay devices have a serial number within the serial number range: TBSD00098 through TBSD01180.",
+        "URL": "https://www.cpsc.gov/Recalls/2024/Head-Rush-Technologies-Recalls-TRUBLUE-Speed-Auto-Belay-Devices-Due-to-Fall-Hazard",
+        "Title": "Head Rush Technologies Recalls TRUBLUE Speed Auto Belay Devices Due to Fall Hazard",
+        "ConsumerContact": "Head Rush Technologies collect at 720-565-6885 from 8:30 a.m. to 5 p.m. MT Monday through Friday, email at inf@headrushtech.com, or online at https://info.headrushtech.com/hubfs/Product_Recalls/2024_TRUBLUESpeed_Limited_Recall.pdf or www.headrushtech.com and click on the \"Recall\" banner for more information.",
+        "LastPublishDate": "2024-08-22T00:00:00",
+        "Products": [
+          {
+            "Name": "TRUBLUE Speed Auto Belay Devices",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 220"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/trublue-1.png",
+            "Caption": "Recalled Head Rush Technologies TRUBLUE Speed Auto Belay Device (12.5 Meter Version)"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/trublue-2.png.jpg",
+            "Caption": "Recalled Head Rush Technologies TRUBLUE Speed Auto Belay Device (16 Meter Version)"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/trublue-3.jpg",
+            "Caption": "Location of Model Number and Serial Number"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "The firm has received one incident report involving brake failure, causing the user to fall, resulting in a broken ankle."
+          }
+        ],
+        "Manufacturers": [
+          {
+            "Name": "Head Rush Technologies, of Louisville, Colorado",
+            "CompanyID": ""
+          }
+        ],
+        "Retailers": [
+          {
+            "Name": "Online at www.headrushtech.com from May 2017 through July 2021 for between $2,800 and $2,900.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [],
+        "Distributors": [],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "United States"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The auto belay device backup brake can fail to activate, posing a fall hazard and risk of serious injury or death.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled auto belay devices and contact Head Rush Technologies for a free inspection and repair. Head Rush Technologies is contacting all known purchasers directly."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Repair"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "24347",
+        "Product Safety Warning Number": "",
+        "Date": "August 22, 2024",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "Head Rush Technologies Recalls TRUBLUE Speed Auto Belay Devices Due to Fall Hazard",
+        "Name of product": "TRUBLUE Speed Auto Belay Devices",
+        "Description": "This recall involves Head Rush Technologies TRUBLUE Speed Auto Belay Devices, 12.5m and 16m versions. The device enables climbers to safely descend after a speed climbing event. The device is gray with blue handles, the 12.5m version has black webbing handgrip above the carabiner, and the 16m version has blue webbing handgrip. The model TRUBLUE Speed TBSD150-20 and serial number are on a label located on the handle. The auto belay devices have a serial number within the serial number range: TBSD00098 through TBSD01180.",
+        "Hazard Description": "The auto belay device backup brake can fail to activate, posing a fall hazard and risk of serious injury or death.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Repair",
+        "Units": "About 220",
+        "Incidents": "The firm has received one incident report involving brake failure, causing the user to fall, resulting in a broken ankle.",
+        "Remedy": "Consumers should immediately stop using the recalled auto belay devices and contact Head Rush Technologies for a free inspection and repair. Head Rush Technologies is contacting all known purchasers directly.",
+        "Sold At Label": "Sold At",
+        "Sold At": "Online at www.headrushtech.com from May 2017 through July 2021 for between $2,800 and $2,900.",
+        "Importers": "",
+        "Manufacturers": "Head Rush Technologies, of Louisville, Colorado",
+        "Distributors": "",
+        "Manufactured In": "United States",
+        "Custom Label": "",
+        "Custom Field": ""
+      }
+    },
+    {
+      "merged": {
+        "RecallID": 9983,
+        "RecallNumber": "24277",
+        "RecallDate": "2024-06-20T00:00:00",
+        "Description": "This recall involves TRUBLUE iQ Auto Belay Devices, which enable climbers to safely descend while climbing. The TRUBLUE iQ is gray with blue handles and a gray sash on the front cover. The TRUBLUE IQ+ has an added catch-and-hold brake on the front. The LT versions of the iQ and iQ+ have blue tags above the blue webbing hand grip; the XL versions have a purple tag. The recalled auto belay devices have a serial number within the following serial number ranges printed on the device's handle, as well on the bottom of the device: Model Serial Number Range Mounting Height TRUBLUE iQ LT (12.5m) iQ0014492 through iQ0036407 <9m (29.5ft) TRUBLUE iQ XL (20m) iQXL01283 through iQXL02678 <17.5m (57.4ft) TRUBLUE iQ+ LT (12.5m) iQP00110 through iQP00161 <9m (29.5ft) TRUBLUE iQ+ LT (12.5m) iQP000164 through iQP000356 <9m (29.5ft) TRUBLUE iQ+ XL (20m) iQXLP0104 through iQXLP0182 <17.5m (57.4ft)",
+        "URL": "https://www.cpsc.gov/Recalls/2024/Head-Rush-Technologies-Recalls-TRUBLUE-iQ-Auto-Belay-Devices-Due-to-Fall-Hazard",
+        "Title": "Head Rush Technologies Recalls TRUBLUE iQ Auto Belay Devices Due to Fall Hazard",
+        "ConsumerContact": "Head Rush Technologies collect at 720-565-6885 from 8:30 a.m. to 5 p.m. MT Monday through Friday, email at info@headrushtech.com, or online at https://info.headrushtech.com/hubfs/Product_Recalls/2024_TRUBLUEiQ_Voluntary_Recall.pdf or www.headrushtech.com and click on the \"2024 TruBlue iQ Voluntary Recall\" banner for more information.",
+        "LastPublishDate": "2024-06-20T00:00:00",
+        "Products": [
+          {
+            "Name": "TRUBLUE iQ Auto Belay Devices",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 2,200 (In addition, about 254 were sold in Canada)"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/1TRUBLUE-grey.png",
+            "Caption": "Recalled TRUBLU iQ LT Length Version with Gray Strip on Front Cover"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/2TRUBLUEPURPLE.png",
+            "Caption": "Recalled TRUBLU iQ XL Length Version with Purple Tag"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/3TRUBLUECATCHANDHOLD.png",
+            "Caption": "Recalled TRUBLU iQ+ LT Length with Catch-and-Hold Brake"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/5TRUBLUEiQXL.png",
+            "Caption": "Recalled TRUBLU iQ+ XL Length with Catch-and-Hold Brake"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/6TRUBLUESerialNum.jpg",
+            "Caption": "Location of Serial Number on Handle of the Recalled TRUBLUE iQ Auto Belay"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/7TRUBLUEserialbottom.jpg",
+            "Caption": "Location of Serial Number on Bottom of the Recalled TRUBLUE iQ Auto Belay"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "The firm has received 31 reports of incidents involving impaired retraction, including one consumer fall. No injuries have been reported."
+          }
+        ],
+        "Manufacturers": [
+          {
+            "Name": "Head Rush Technologies, of Louisville, Colorado",
+            "CompanyID": ""
+          }
+        ],
+        "Retailers": [
+          {
+            "Name": "Online at www.headrushtech.com from November 2022 through February 2024 for between $2,800 and $4,600.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [],
+        "Distributors": [],
+        "SoldAtLabel": "Sold At",
+        "ManufacturerCountries": [
+          {
+            "Country": "United States"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The recalled auto belay device can fail to retract, posing a fall hazard and risk of serious injury or death.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using recalled auto belay devices, and contact Head Rush Technologies for a free inspection and repair."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Repair"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 9983,
+        "RecallNumber": "24277",
+        "RecallDate": "2024-06-20T00:00:00",
+        "Description": "This recall involves TRUBLUE iQ Auto Belay Devices, which enable climbers to safely descend while climbing. The TRUBLUE iQ is gray with blue handles and a gray sash on the front cover. The TRUBLUE IQ+ has an added catch-and-hold brake on the front. The LT versions of the iQ and iQ+ have blue tags above the blue webbing hand grip; the XL versions have a purple tag. The recalled auto belay devices have a serial number within the following serial number ranges printed on the device's handle, as well on the bottom of the device: Model Serial Number Range Mounting Height TRUBLUE iQ LT (12.5m) iQ0014492 through iQ0036407 <9m (29.5ft) TRUBLUE iQ XL (20m) iQXL01283 through iQXL02678 <17.5m (57.4ft) TRUBLUE iQ+ LT (12.5m) iQP00110 through iQP00161 <9m (29.5ft) TRUBLUE iQ+ LT (12.5m) iQP000164 through iQP000356 <9m (29.5ft) TRUBLUE iQ+ XL (20m) iQXLP0104 through iQXLP0182 <17.5m (57.4ft)",
+        "URL": "https://www.cpsc.gov/Recalls/2024/Head-Rush-Technologies-Recalls-TRUBLUE-iQ-Auto-Belay-Devices-Due-to-Fall-Hazard",
+        "Title": "Head Rush Technologies Recalls TRUBLUE iQ Auto Belay Devices Due to Fall Hazard",
+        "ConsumerContact": "Head Rush Technologies collect at 720-565-6885 from 8:30 a.m. to 5 p.m. MT Monday through Friday, email at info@headrushtech.com, or online at https://info.headrushtech.com/hubfs/Product_Recalls/2024_TRUBLUEiQ_Voluntary_Recall.pdf or www.headrushtech.com and click on the \"2024 TruBlue iQ Voluntary Recall\" banner for more information.",
+        "LastPublishDate": "2024-06-20T00:00:00",
+        "Products": [
+          {
+            "Name": "TRUBLUE iQ Auto Belay Devices",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 2,200 (In addition, about 254 were sold in Canada)"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/1TRUBLUE-grey.png",
+            "Caption": "Recalled TRUBLU iQ LT Length Version with Gray Strip on Front Cover"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/2TRUBLUEPURPLE.png",
+            "Caption": "Recalled TRUBLU iQ XL Length Version with Purple Tag"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/3TRUBLUECATCHANDHOLD.png",
+            "Caption": "Recalled TRUBLU iQ+ LT Length with Catch-and-Hold Brake"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/5TRUBLUEiQXL.png",
+            "Caption": "Recalled TRUBLU iQ+ XL Length with Catch-and-Hold Brake"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/6TRUBLUESerialNum.jpg",
+            "Caption": "Location of Serial Number on Handle of the Recalled TRUBLUE iQ Auto Belay"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/7TRUBLUEserialbottom.jpg",
+            "Caption": "Location of Serial Number on Bottom of the Recalled TRUBLUE iQ Auto Belay"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "The firm has received 31 reports of incidents involving impaired retraction, including one consumer fall. No injuries have been reported."
+          }
+        ],
+        "Manufacturers": [
+          {
+            "Name": "Head Rush Technologies, of Louisville, Colorado",
+            "CompanyID": ""
+          }
+        ],
+        "Retailers": [
+          {
+            "Name": "Online at www.headrushtech.com from November 2022 through February 2024 for between $2,800 and $4,600.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [],
+        "Distributors": [],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "United States"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The recalled auto belay device can fail to retract, posing a fall hazard and risk of serious injury or death.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using recalled auto belay devices, and contact Head Rush Technologies for a free inspection and repair."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Repair"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "24277",
+        "Product Safety Warning Number": "",
+        "Date": "June 20, 2024",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "Head Rush Technologies Recalls TRUBLUE iQ Auto Belay Devices Due to Fall Hazard",
+        "Name of product": "TRUBLUE iQ Auto Belay Devices",
+        "Description": "This recall involves TRUBLUE iQ Auto Belay Devices, which enable climbers to safely descend while climbing.&nbsp;The TRUBLUE iQ is gray with blue handles and a gray sash on the front cover. The TRUBLUE IQ+ has an added catch-and-hold brake on the front. The LT versions of the iQ and iQ+ have blue tags above the blue webbing hand grip; the XL versions have a purple tag. The recalled auto belay devices have a serial number within the following serial number ranges printed on the device’s handle, as well on the bottom of the device:ModelSerial Number RangeMounting HeightTRUBLUE iQ LT (12.5m)iQ0014492 through iQ0036407&lt;9m (29.5ft)TRUBLUE iQ XL (20m)iQXL01283 through iQXL02678&lt;17.5m (57.4ft)TRUBLUE iQ+ LT (12.5m)iQP00110 through iQP00161&lt;9m (29.5ft)TRUBLUE iQ+ LT (12.5m)iQP000164 through iQP000356&lt;9m (29.5ft)TRUBLUE iQ+ XL (20m)iQXLP0104 through iQXLP0182&lt;17.5m (57.4ft)",
+        "Hazard Description": "The recalled auto belay device can fail to retract, posing a fall hazard and risk of serious injury or death.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Repair",
+        "Units": "About 2,200 (In addition, about 254 were sold in Canada)",
+        "Incidents": "The firm has received 31 reports of incidents involving impaired retraction, including one consumer fall. No injuries have been reported.",
+        "Remedy": "Consumers should immediately stop using recalled auto belay devices, and contact Head Rush Technologies for a free inspection and repair.",
+        "Sold At Label": "Sold At",
+        "Sold At": "Online at www.headrushtech.com from November 2022 through February 2024 for between $2,800 and $4,600.",
+        "Importers": "",
+        "Manufacturers": "Head Rush Technologies, of Louisville, Colorado",
+        "Distributors": "",
+        "Manufactured In": "United States",
+        "Custom Label": "",
+        "Custom Field": ""
+      }
+    },
+    {
+      "merged": {
+        "RecallID": 9969,
+        "RecallNumber": "24261",
+        "RecallDate": "2024-06-13T00:00:00",
+        "Description": "This recall involves Neve Strap Crampons and Accessory Kits, Style No. 400073, with date codes 01-2021, 05-2022, 07-2023, 01-2024 and SS1271. The date codes are located on the rubber heel strap pull-tab and on the underside of the toe piece under the anti-balling plate. The products are made of aluminum plates with spikes that attach to boots for ice climbing. The metal plates have a bright green color, and a black plastic toe and heel bail with a black webbing strap that fastens around the ankle. This recall also includes the Neve Strap Binding Accessory Kit, Style No. 400683, and Neve Strap Heel Cup Screw & Nuts, Style No. 400687, which were sold separately as spare parts/accessories.",
+        "URL": "https://www.cpsc.gov/Recalls/2024/Black-Diamond-Equipment-Recalls-Neve-Strap-Crampons-and-Accessory-Kits-Due-to-Fall-Hazard",
+        "Title": "Black Diamond Equipment Recalls Neve Strap Crampons and Accessory Kits Due to Fall Hazard",
+        "ConsumerContact": "Black Diamond Equipment toll-free at 866-306-0865 from 10 a.m. to 4 p.m. MT Monday through Friday, email at NeveStrapRecall@bdel.com, or online at https://www.blackdiamondequipment.com/en_US/content/neve-strap-recall/ or www.blackdiamondequipment.com and click on \"Recalls\" at the top of the page for more information.",
+        "LastPublishDate": "2024-06-13T00:00:00",
+        "Products": [
+          {
+            "Name": "Neve Strap Crampons and Accessory Kits",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 350 (In addition, about 28 were sold in Canada)"
+          }
+        ],
+        "Inconjunctions": [
+          {
+            "URL": "https://recalls-rappels.canada.ca/en/alert-recall/neve-strap-crampons-recalled-due-fall-hazard"
+          }
+        ],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/neve-strap.png",
+            "Caption": "Recalled Neve Strap Crampon"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/neve-strap-date-code.png",
+            "Caption": "Date code located on the underside of the toe piece of the recalled Neve Strap Crampon"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "The firm has received three reports of incidents of the crampons becoming loose or the heel cup becoming detached by hikers. No injuries have been reported."
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Black Diamond stores, REI and other stores nationwide, and online at blackdiamond.com, backcountry.com and REI.com from January 2024 through May 2024 for about $180.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Black Diamond Equipment, of Salt Lake City, Utah",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": "Sold At",
+        "ManufacturerCountries": [
+          {
+            "Country": "Taiwan"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The screws that connect the plastic heel cup to the aluminum heel unit of the crampon can loosen and allow the heel cup to detach from the crampon, posing a fall hazard.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled Neve Strap Crampons and accessory kits, and contact Black Diamond Equipment to receive a full refund. Consumers will receive a prepaid return label to mail them back to Black Diamond Equipment, after which they will be issued a refund. The firm is contacting all known purchasers."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 9969,
+        "RecallNumber": "24261",
+        "RecallDate": "2024-06-13T00:00:00",
+        "Description": "This recall involves Neve Strap Crampons and Accessory Kits, Style No. 400073, with date codes 01-2021, 05-2022, 07-2023, 01-2024 and SS1271. The date codes are located on the rubber heel strap pull-tab and on the underside of the toe piece under the anti-balling plate. The products are made of aluminum plates with spikes that attach to boots for ice climbing. The metal plates have a bright green color, and a black plastic toe and heel bail with a black webbing strap that fastens around the ankle. This recall also includes the Neve Strap Binding Accessory Kit, Style No. 400683, and Neve Strap Heel Cup Screw & Nuts, Style No. 400687, which were sold separately as spare parts/accessories.",
+        "URL": "https://www.cpsc.gov/Recalls/2024/Black-Diamond-Equipment-Recalls-Neve-Strap-Crampons-and-Accessory-Kits-Due-to-Fall-Hazard",
+        "Title": "Black Diamond Equipment Recalls Neve Strap Crampons and Accessory Kits Due to Fall Hazard",
+        "ConsumerContact": "Black Diamond Equipment toll-free at 866-306-0865 from 10 a.m. to 4 p.m. MT Monday through Friday, email at NeveStrapRecall@bdel.com, or online at https://www.blackdiamondequipment.com/en_US/content/neve-strap-recall/ or www.blackdiamondequipment.com and click on \"Recalls\" at the top of the page for more information.",
+        "LastPublishDate": "2024-06-13T00:00:00",
+        "Products": [
+          {
+            "Name": "Neve Strap Crampons and Accessory Kits",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 350 (In addition, about 28 were sold in Canada)"
+          }
+        ],
+        "Inconjunctions": [
+          {
+            "URL": "https://recalls-rappels.canada.ca/en/alert-recall/neve-strap-crampons-recalled-due-fall-hazard"
+          }
+        ],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/neve-strap.png",
+            "Caption": "Recalled Neve Strap Crampon"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/neve-strap-date-code.png",
+            "Caption": "Date code located on the underside of the toe piece of the recalled Neve Strap Crampon"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "The firm has received three reports of incidents of the crampons becoming loose or the heel cup becoming detached by hikers. No injuries have been reported."
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Black Diamond stores, REI and other stores nationwide, and online at blackdiamond.com, backcountry.com and REI.com from January 2024 through May 2024 for about $180.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Black Diamond Equipment, of Salt Lake City, Utah",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "Taiwan"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The screws that connect the plastic heel cup to the aluminum heel unit of the crampon can loosen and allow the heel cup to detach from the crampon, posing a fall hazard.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled Neve Strap Crampons and accessory kits, and contact Black Diamond Equipment to receive a full refund. Consumers will receive a prepaid return label to mail them back to Black Diamond Equipment, after which they will be issued a refund. The firm is contacting all known purchasers."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "24261",
+        "Product Safety Warning Number": "",
+        "Date": "June 13, 2024",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "Black Diamond Equipment Recalls Neve Strap Crampons and Accessory Kits Due to Fall Hazard",
+        "Name of product": "Neve Strap Crampons and Accessory Kits",
+        "Description": "This recall involves Neve Strap Crampons and Accessory Kits, Style No. 400073, with date codes 01-2021, 05-2022, 07-2023, 01-2024 and SS1271. The date codes are located on the rubber heel strap pull-tab and on the underside of the toe piece under the anti-balling plate. The products are made of aluminum plates with spikes that attach to boots for ice climbing. The metal plates have a bright green color, and a black plastic toe and heel bail with a black webbing strap that fastens around the ankle. This recall also includes the Neve Strap Binding Accessory Kit, Style No. 400683, and Neve Strap Heel Cup Screw &amp; Nuts, Style No. 400687, which were sold separately as spare parts/accessories.",
+        "Hazard Description": "The screws that connect the plastic heel cup to the aluminum heel unit of the crampon can loosen and allow the heel cup to detach from the crampon, posing a fall hazard.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Refund",
+        "Units": "About 350 (In addition, about 28 were sold in Canada)",
+        "Incidents": "The firm has received three reports of incidents of the crampons becoming loose or the heel cup becoming detached by hikers. No injuries have been reported.",
+        "Remedy": "Consumers should immediately stop using the recalled Neve Strap Crampons and accessory kits, and contact Black Diamond Equipment to receive a full refund. Consumers will receive a prepaid return label to mail them back to Black Diamond Equipment, after which they will be issued a refund. The firm is contacting all known purchasers.",
+        "Sold At Label": "Sold At",
+        "Sold At": "Black Diamond stores, REI and other stores nationwide, and online at blackdiamond.com, backcountry.com and REI.com from January 2024 through May 2024 for about $180.",
+        "Importers": "Black Diamond Equipment, of Salt Lake City, Utah",
+        "Manufacturers": "",
+        "Distributors": "",
+        "Manufactured In": "Taiwan",
+        "Custom Label": "",
+        "Custom Field": ""
+      }
+    },
+    {
+      "merged": {
+        "RecallID": 9967,
+        "RecallNumber": "24259",
+        "RecallDate": "2024-06-06T00:00:00",
+        "Description": "This recall involves orange colored Wild Country \"Ropeman 1\" ascenders used in mountaineering and rock climbing. The recalled ascenders were manufactured in July 2022 and are marked with batch 05A0722. \"ROPE MAN 1\" and the batch number are printed in white on the side of the product.",
+        "URL": "https://www.cpsc.gov/Recalls/2024/Salewa-USA-Recalls-Wild-Country-Ropeman-1-Ascenders-Due-to-a-Failure-to-Ascend",
+        "Title": "Salewa USA Recalls Wild Country Ropeman 1 Ascenders Due to a Failure to Ascend",
+        "ConsumerContact": "Wild Country toll-free at 844-412-7013 from 11 a.m. to 7 p.m. ET, Monday through Friday, email at Ropeman1Recall@wildcountry.com, online at https://www.wildcountry.com/en-us/product-recalls, or https://www.wildcountry.com/en-us/ and click on \"Ropeman 1 Voluntary Recall\" at the top of the page for more information.",
+        "LastPublishDate": "2024-06-06T00:00:00",
+        "Products": [
+          {
+            "Name": "Wild Country Ropeman 1 ascenders",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 7,700 (In addition, about 297 were sold in Canada)"
+          }
+        ],
+        "Inconjunctions": [
+          {
+            "URL": "https://recalls-rappels.canada.ca/en/alert-recall/wild-country-ropeman-1s-rope-clamp-recalled-due-potential-physical-hazard"
+          }
+        ],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/ascender-1.jpg",
+            "Caption": "Recalled Wild Country Ropeman 1 Ascender"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/ascender-2.png",
+            "Caption": "Recalled Wild Country Ropeman 1 Ascender"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "REI and other specialty outdoor stores nationwide and online at www.wildcountry.com, www.backcountry.com, and www.campsaver.com from December 2022 through April 2024 for about $55.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Salewa USA LLC, of Boulder, Colorado",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": "Sold At",
+        "ManufacturerCountries": [
+          {
+            "Country": "Taiwan"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The teeth of the recalled ascenders can fail to engage, making it difficult or impossible for the user to ascend.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled Ropeman 1 ascenders, and contact Wild Country to coordinate return of the recalled product and shipment of a free replacement ascender. Consumers can also return the recalled Ropeman 1 ascenders to Wild Country directly or at any authorized Wild Country Dealer for a free replacement."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Replace"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 9967,
+        "RecallNumber": "24259",
+        "RecallDate": "2024-06-06T00:00:00",
+        "Description": "This recall involves orange colored Wild Country \"Ropeman 1\" ascenders used in mountaineering and rock climbing. The recalled ascenders were manufactured in July 2022 and are marked with batch 05A0722. \"ROPE MAN 1\" and the batch number are printed in white on the side of the product.",
+        "URL": "https://www.cpsc.gov/Recalls/2024/Salewa-USA-Recalls-Wild-Country-Ropeman-1-Ascenders-Due-to-a-Failure-to-Ascend",
+        "Title": "Salewa USA Recalls Wild Country Ropeman 1 Ascenders Due to a Failure to Ascend",
+        "ConsumerContact": "Wild Country toll-free at 844-412-7013 from 11 a.m. to 7 p.m. ET, Monday through Friday, email at Ropeman1Recall@wildcountry.com, online at https://www.wildcountry.com/en-us/product-recalls, or https://www.wildcountry.com/en-us/ and click on \"Ropeman 1 Voluntary Recall\" at the top of the page for more information.",
+        "LastPublishDate": "2024-06-06T00:00:00",
+        "Products": [
+          {
+            "Name": "Wild Country Ropeman 1 ascenders",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 7,700 (In addition, about 297 were sold in Canada)"
+          }
+        ],
+        "Inconjunctions": [
+          {
+            "URL": "https://recalls-rappels.canada.ca/en/alert-recall/wild-country-ropeman-1s-rope-clamp-recalled-due-potential-physical-hazard"
+          }
+        ],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/ascender-1.jpg",
+            "Caption": "Recalled Wild Country Ropeman 1 Ascender"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/ascender-2.png",
+            "Caption": "Recalled Wild Country Ropeman 1 Ascender"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "REI and other specialty outdoor stores nationwide and online at www.wildcountry.com, www.backcountry.com, and www.campsaver.com from December 2022 through April 2024 for about $55.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Salewa USA LLC, of Boulder, Colorado",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "Taiwan"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The teeth of the recalled ascenders can fail to engage, making it difficult or impossible for the user to ascend.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled Ropeman 1 ascenders, and contact Wild Country to coordinate return of the recalled product and shipment of a free replacement ascender. Consumers can also return the recalled Ropeman 1 ascenders to Wild Country directly or at any authorized Wild Country Dealer for a free replacement."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Replace"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "24259",
+        "Product Safety Warning Number": "",
+        "Date": "June 06, 2024",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "Salewa USA Recalls Wild Country Ropeman 1 Ascenders Due to a Failure to Ascend",
+        "Name of product": "Wild Country Ropeman 1 ascenders",
+        "Description": "This recall involves orange colored Wild Country “Ropeman 1” ascenders used in mountaineering and rock climbing. The recalled ascenders were manufactured in July 2022 and are marked with batch 05A0722. &nbsp;“ROPE MAN 1” and the batch number are printed in white on the side of the product. &nbsp;",
+        "Hazard Description": "The teeth of the recalled ascenders can fail to engage, making it difficult or impossible for the user to ascend.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Replace",
+        "Units": "About 7,700 (In addition, about 297 were sold in Canada)",
+        "Incidents": "None reported.",
+        "Remedy": "Consumers should immediately stop using the recalled Ropeman 1 ascenders, and contact Wild Country to coordinate return of the recalled product and shipment of a free replacement ascender. Consumers can also return the recalled Ropeman 1 ascenders to Wild Country directly or at any authorized Wild Country Dealer for a free replacement.",
+        "Sold At Label": "Sold At",
+        "Sold At": "REI and other specialty outdoor stores nationwide and online at www.wildcountry.com, www.backcountry.com, and www.campsaver.com from December 2022 through April 2024 for about $55.",
+        "Importers": "Salewa USA LLC, of Boulder, Colorado",
+        "Manufacturers": "",
+        "Distributors": "",
+        "Manufactured In": "Taiwan",
+        "Custom Label": "",
+        "Custom Field": ""
+      }
+    }
+  ]
+}

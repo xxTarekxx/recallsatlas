@@ -1,0 +1,187 @@
+{
+  "meta": {
+    "slug": "knickknacks-or-statues-or-vases-or-urns",
+    "sourceCsvFile": "knickknacks-or-statues-or-vases-or-urns_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T04:43:57.229Z",
+    "recallCount": 1
+  },
+  "recalls": [
+    {
+      "merged": {
+        "RecallID": 9843,
+        "RecallNumber": "24106",
+        "RecallDate": "2024-02-01T00:00:00",
+        "Description": "This recall involves glass snow globes, with a plastic artwork figurine \"Little Wanderer\" inside the snow globe. The snow globes measure 4.5 inches high x 3.3 inches wide with a wood base, and have a yellow, blue, or red figurine inside.",
+        "URL": "https://www.cpsc.gov/Recalls/2024/The-Museum-of-Modern-Art-Recalls-Glass-Little-Wanderer-Snow-Globes-Due-to-Laceration-Hazard-Sold-Exclusively-at-MoMA-Design-Stores",
+        "Title": "The Museum of Modern Art Recalls Glass Little Wanderer Snow Globes Due to Laceration Hazard; Sold Exclusively at MoMA Design Stores",
+        "ConsumerContact": "MoMA Design Store at 800-793-3167 from 9:30 a.m. to 5 p.m. ET Monday through Friday, or email at order_services@moma.org with the subject line \"RECALL\" or online at https://storehelpcenter.moma.org/hc/en-us/articles/22508238195853-Recall or at www.store.moma.org, and click on Help Center at the bottom of the page for more information.",
+        "LastPublishDate": "2024-02-01T00:00:00",
+        "Products": [
+          {
+            "Name": "Snow globes (Little Wanderer)",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 1,915"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/lttl-wndr-snow.png",
+            "Caption": "Recalled \"Little Wanderer\" Snow Globes"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "The firm has received 39 reports of the snow globe cracking or fracturing. No injuries have been reported."
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "MoMA Design Stores and online at store.moma.org during November 2023 for about $85.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Design Ideas Ltd, of Springfield, Illinois",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [
+          {
+            "Name": "The Museum of Modern Art, of New York",
+            "CompanyID": ""
+          }
+        ],
+        "SoldAtLabel": "Sold At",
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The snow globes can crack or fracture, posing a laceration hazard.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using and discard the recalled snow globes. Contact the Museum of Modern Art for a full refund. The museum is contacting all known purchasers."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 9843,
+        "RecallNumber": "24106",
+        "RecallDate": "2024-02-01T00:00:00",
+        "Description": "This recall involves glass snow globes, with a plastic artwork figurine \"Little Wanderer\" inside the snow globe. The snow globes measure 4.5 inches high x 3.3 inches wide with a wood base, and have a yellow, blue, or red figurine inside.",
+        "URL": "https://www.cpsc.gov/Recalls/2024/The-Museum-of-Modern-Art-Recalls-Glass-Little-Wanderer-Snow-Globes-Due-to-Laceration-Hazard-Sold-Exclusively-at-MoMA-Design-Stores",
+        "Title": "The Museum of Modern Art Recalls Glass Little Wanderer Snow Globes Due to Laceration Hazard; Sold Exclusively at MoMA Design Stores",
+        "ConsumerContact": "MoMA Design Store at 800-793-3167 from 9:30 a.m. to 5 p.m. ET Monday through Friday, or email at order_services@moma.org with the subject line \"RECALL\" or online at https://storehelpcenter.moma.org/hc/en-us/articles/22508238195853-Recall or at www.store.moma.org, and click on Help Center at the bottom of the page for more information.",
+        "LastPublishDate": "2024-02-01T00:00:00",
+        "Products": [
+          {
+            "Name": "Snow globes (Little Wanderer)",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 1,915"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/lttl-wndr-snow.png",
+            "Caption": "Recalled \"Little Wanderer\" Snow Globes"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "The firm has received 39 reports of the snow globe cracking or fracturing. No injuries have been reported."
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "MoMA Design Stores and online at store.moma.org during November 2023 for about $85.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Design Ideas Ltd, of Springfield, Illinois",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [
+          {
+            "Name": "The Museum of Modern Art, of New York",
+            "CompanyID": ""
+          }
+        ],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The snow globes can crack or fracture, posing a laceration hazard.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using and discard the recalled snow globes. Contact the Museum of Modern Art for a full refund. The museum is contacting all known purchasers."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "24106",
+        "Product Safety Warning Number": "",
+        "Date": "February 01, 2024",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "The Museum of Modern Art Recalls Glass Little Wanderer Snow Globes Due to Laceration Hazard; Sold Exclusively at MoMA Design Stores",
+        "Name of product": "Snow globes (Little Wanderer)",
+        "Description": "This recall involves glass snow globes, with a plastic artwork figurine “Little Wanderer” inside the snow globe. The snow globes measure 4.5 inches high x 3.3 inches wide with a wood base, and have a yellow, blue, or red figurine inside.",
+        "Hazard Description": "The snow globes can crack or fracture, posing a laceration hazard.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Refund",
+        "Units": "About 1,915",
+        "Incidents": "The firm has received 39 reports of the snow globe cracking or fracturing. No injuries have been reported.",
+        "Remedy": "Consumers should immediately stop using and discard the recalled snow globes. Contact the Museum of Modern Art for a full refund. The museum is contacting all known purchasers.",
+        "Sold At Label": "Sold At",
+        "Sold At": "Exclusively at MoMA Design Stores and online at store.moma.org during November 2023 for about $85.",
+        "Importers": "Design Ideas Ltd, of Springfield, Illinois",
+        "Manufacturers": "",
+        "Distributors": "The Museum of Modern Art, of New York",
+        "Manufactured In": "China",
+        "Custom Label": "",
+        "Custom Field": ""
+      }
+    }
+  ]
+}

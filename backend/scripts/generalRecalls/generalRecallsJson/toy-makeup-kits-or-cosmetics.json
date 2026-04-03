@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "slug": "toy-makeup-kits-or-cosmetics",
+    "sourceCsvFile": "toy-makeup-kits-or-cosmetics_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:37.088Z",
+    "recallCount": 1
+  },
+  "recalls": [
+    {
+      "RecallID": 10539,
+      "RecallNumber": "26164",
+      "RecallDate": "2025-12-18T00:00:00",
+      "Description": "This recall involves Meaicezli Play Purse Sets. The Play Purse Sets come in pink and contain a bag with toy sunglasses, toy camera, toy money, toy make up kit, toy lipstick, wallet, hair bow, eye mask, toy passport, plastic toy credit cards, toy cell phone, and toy writing tablet. Both the toy phone and toy writing tablet come with a button or coin cell battery installed.",
+      "URL": "https://www.cpsc.gov/Recalls/2026/Meaicezli-Play-Purse-Sets-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violates-Mandatory-Standard-for-Toys-Sold-on-Amazon-by-Angeer-US",
+      "Title": "Meaicezli Play Purse Sets Recalled Due to Risk of Serious Injury or Death from Battery Ingestion; Violates Mandatory Standard for Toys; Sold on Amazon by Angeer-US",
+      "ConsumerContact": "Angeer-US by email at meaicezli-services@outlook.com.",
+      "LastPublishDate": "2025-12-24T00:00:00",
+      "Products": [
+        {
+          "Name": "Meaicezli Play Purse Sets",
+          "NumberOfUnits": "About 3,090"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/playpurse-1.jpg",
+          "Caption": "Recalled Meaicezli Play Purse Set Packaging"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/playpurse-2.png",
+          "Caption": "Recalled Meaicezli Play Purse Set"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/playpurse-3.jpg",
+          "Caption": "Recalled Meaicezli Toy Cell Phone and Writing Tablet (front view)"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/playpurse-4.jpg",
+          "Caption": "Recalled Meaicezli Toy Cell Phone and Writing Tablet (back view)"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Online at Amazon.com from August 2025 through October 2025 for about $15."
+        }
+      ],
+      "Distributors": [
+        {
+          "Name": "Qianshanshiangeerdianzishangwuyouxiangongsi doing business as Angeer-US, of China"
+        }
+      ],
+      "SoldAtLabel": "Sold Online At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "The children's toy violates the mandatory standard for toys because the toy cell phone contains button cell batteries and the toy tablet contains a lithium coin battery that can be easily accessed by children. When button cell or coin batteries are swallowed, the ingested batteries can cause serious injuries, internal chemical burns and death."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should stop using the toy purse set immediately, take the toy cell phone and writing tablet away from children and contact Angeer-US for a full refund. Consumers will need to email a photograph confirming disposal of the toy cell phone and the writing tablet and send a photo to meaicezli-services@outlook.com. Note: Button cell and coin batteries are hazardous. Batteries should be disposed of or recycled by following local hazardous waste procedures."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,823 @@
+{
+  "meta": {
+    "slug": "cribs",
+    "sourceCsvFile": "cribs_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T04:43:57.091Z",
+    "recallCount": 4
+  },
+  "recalls": [
+    {
+      "merged": {
+        "RecallID": 10469,
+        "RecallNumber": "26069",
+        "RecallDate": "2025-11-06T00:00:00",
+        "Description": "This recall involves Criblike aftermarket play yard and non-full sized crib mattresses. The Criblike Pack and Play mattresses, models XCD-001 and XCD-002, come in white and are approximately 38 inches by 26 inches. The Criblike Mini-crib mattresses, model MNCL-001, come in white and are approximately 38 inches by 24 inches. \"Criblike\" and the model number are printed on labels located on the end of the product.",
+        "URL": "https://www.cpsc.gov/Recalls/2026/Criblike-Mattresses-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Entrapment-or-Suffocation-Violates-Mandatory-Standards-for-Mattresses-Sold-on-Amazon-by-Mengna",
+        "Title": "F&F Fine Wines Recalls Kirkland Signature Valdobbiadene Prosecco Entrapment or Suffocation; Violates Mandatory Standards for Mattresses; Sold on Amazon by Mengna Criblike Mattresses Recalled Due to Risk of Serious Injury or Death from Entrapment",
+        "ConsumerContact": "Mengna via email at Criblike-service_2025@outlook.com.",
+        "LastPublishDate": "2025-11-06T00:00:00",
+        "Products": [
+          {
+            "Name": "Criblike aftermarket play yard and non-full sized crib mattresses",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 117,900"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/criblike-1.jpg",
+            "Caption": "Recalled Criblike Pack and Play Mattress XCD-002"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/criblike-2.png",
+            "Caption": "Recalled Criblike Pack and Play Mattress Label XCD-002"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/criblike-3.png",
+            "Caption": "Criblike Mini-crib Mattress MNCL-001"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/criblike-4.png",
+            "Caption": "Recalled Criblike Mini-Crib Mattress Label MNCL-001"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/criblike-5.jpg",
+            "Caption": "Recalled Criblike Pack and Play Mattress XCD-001"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/criblike-6.png",
+            "Caption": "Recalled Criblike Pack and Play Mattress Label XCD-001"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Amazon from May 2023 through September 2025 for between $20 and $60.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [],
+        "Distributors": [
+          {
+            "Name": "Zhujisibeixuxinxizixunfuwubu dba Mengna, of China",
+            "CompanyID": ""
+          }
+        ],
+        "SoldAtLabel": "Sold At",
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The aftermarket mattresses violate the mandatory standard for crib mattresses, as the mattresses may not adequately fit certain play yards or non-full-sized cribs, posing a deadly entrapment hazard. Babies can suffocate in gaps between an undersized mattress, or extra padding, and side walls of a product, especially when the infant's face becomes trapped against the side and the mattress, preventing the infant from breathing. The non-full-sized crib mattress also fails to meet the mandatory standard for mattress set flammability.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the crib mattresses and contact Criblike for instructions on requesting a full refund. Consumers should destroy the mattresses by cutting them in half, take a photo of the destroyed mattress and email the photo to Criblike-service_2025@outlook.com with \"Recall Proof\" and your name in the subject line."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 10469,
+        "RecallNumber": "26069",
+        "RecallDate": "2025-11-06T00:00:00",
+        "Description": "This recall involves Criblike aftermarket play yard and non-full sized crib mattresses. The Criblike Pack and Play mattresses, models XCD-001 and XCD-002, come in white and are approximately 38 inches by 26 inches. The Criblike Mini-crib mattresses, model MNCL-001, come in white and are approximately 38 inches by 24 inches. \"Criblike\" and the model number are printed on labels located on the end of the product.",
+        "URL": "https://www.cpsc.gov/Recalls/2026/Criblike-Mattresses-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Entrapment-or-Suffocation-Violates-Mandatory-Standards-for-Mattresses-Sold-on-Amazon-by-Mengna",
+        "Title": "F&F Fine Wines Recalls Kirkland Signature Valdobbiadene Prosecco Entrapment or Suffocation; Violates Mandatory Standards for Mattresses; Sold on Amazon by Mengna Criblike Mattresses Recalled Due to Risk of Serious Injury or Death from Entrapment",
+        "ConsumerContact": "Mengna via email at Criblike-service_2025@outlook.com.",
+        "LastPublishDate": "2025-11-06T00:00:00",
+        "Products": [
+          {
+            "Name": "Criblike aftermarket play yard and non-full sized crib mattresses",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 117,900"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/criblike-1.jpg",
+            "Caption": "Recalled Criblike Pack and Play Mattress XCD-002"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/criblike-2.png",
+            "Caption": "Recalled Criblike Pack and Play Mattress Label XCD-002"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/criblike-3.png",
+            "Caption": "Criblike Mini-crib Mattress MNCL-001"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/criblike-4.png",
+            "Caption": "Recalled Criblike Mini-Crib Mattress Label MNCL-001"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/criblike-5.jpg",
+            "Caption": "Recalled Criblike Pack and Play Mattress XCD-001"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/criblike-6.png",
+            "Caption": "Recalled Criblike Pack and Play Mattress Label XCD-001"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Amazon from May 2023 through September 2025 for between $20 and $60.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [],
+        "Distributors": [
+          {
+            "Name": "Zhujisibeixuxinxizixunfuwubu dba Mengna, of China",
+            "CompanyID": ""
+          }
+        ],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The aftermarket mattresses violate the mandatory standard for crib mattresses, as the mattresses may not adequately fit certain play yards or non-full-sized cribs, posing a deadly entrapment hazard. Babies can suffocate in gaps between an undersized mattress, or extra padding, and side walls of a product, especially when the infant's face becomes trapped against the side and the mattress, preventing the infant from breathing. The non-full-sized crib mattress also fails to meet the mandatory standard for mattress set flammability.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the crib mattresses and contact Criblike for instructions on requesting a full refund. Consumers should destroy the mattresses by cutting them in half, take a photo of the destroyed mattress and email the photo to Criblike-service_2025@outlook.com with \"Recall Proof\" and your name in the subject line."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "26069",
+        "Product Safety Warning Number": "",
+        "Date": "November 06, 2025",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "Criblike Mattresses Recalled Due to Risk of Serious Injury or Death from Entrapment or Suffocation; Violates Mandatory Standards for Mattresses; Sold on Amazon by Mengna",
+        "Name of product": "Criblike aftermarket play yard and non-full sized crib mattresses",
+        "Description": "This recall involves Criblike aftermarket play yard and non-full sized crib mattresses. The Criblike Pack and Play mattresses, models XCD-001 and XCD-002, come in white and are approximately 38 inches by 26 inches. The Criblike Mini-crib mattresses, model MNCL-001, come in white and are approximately 38 inches by 24 inches. “Criblike” and the model number are printed on labels located on the end of the product.",
+        "Hazard Description": "The aftermarket mattresses violate the mandatory standard for&nbsp;https://www.federalregister.gov/documents/2022/02/15/2022-02414/safety-… mattresses, as the mattresses may not adequately fit certain play yards or non-full-sized cribs, posing a deadly entrapment hazard. Babies can suffocate in gaps between an undersized mattress, or extra padding, and side walls of a product, especially when the infant’s face becomes trapped against the side and the mattress, preventing the infant from breathing.&nbsp;The non-full-sized crib mattress also fails to meet the mandatory standard for mattress set flammability.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Refund",
+        "Units": "",
+        "Incidents": "None reported",
+        "Remedy": "Consumers should immediately stop using the crib mattresses and contact Criblike for instructions on requesting a full refund. Consumers should destroy the mattresses by cutting them in half, take a photo of the destroyed mattress and email the photo to&nbsp;Criblike-service_2025@outlook.com with “Recall Proof” and your name in the subject line.&nbsp;",
+        "Sold At Label": "Sold At",
+        "Sold At": "Amazon from June 2025 through September 2025 for between $20 and $43.",
+        "Importers": "",
+        "Manufacturers": "",
+        "Distributors": "",
+        "Manufactured In": "China",
+        "Custom Label": "Retailer:",
+        "Custom Field": "Zhujisibeixuxinxizixunfuwubu dba Mengna, of China"
+      }
+    },
+    {
+      "merged": {
+        "RecallID": 10098,
+        "RecallNumber": "25054",
+        "RecallDate": "2024-11-21T00:00:00",
+        "Description": "This recall involves South Shore brand Balka & Olena cribs sold in white and natural wood colors. The cribs are made of wood and measure about 37 inches high, 54 inches long and 30 inches deep. The model number is printed on an adhesive label on one end of the crib. Model Number Description Color 13825 Balka Baby Crib with Adjustable Height Pure White 13824 Balka Baby Crib with Adjustable Height Pure White and Natural Wood 12937 Balka Baby Crib with Adjustable Height Pure White and Natural Wood 12938 Balka Baby Crib with Adjustable Height Pure White 14408 Olena Baby Crib with Adjustable Height Pure White",
+        "URL": "https://www.cpsc.gov/Recalls/2025/South-Shore-Cribs-Recalled-Due-to-Entrapment-Hazard-Violation-of-Federal-Regulation-for-Full-Sized-Cribs-Imported-by-South-Shore-Industries",
+        "Title": "South Shore Cribs Recalled Due to Entrapment Hazard; Violation of Federal Regulation for Full Sized Cribs; Imported by South Shore Industries",
+        "ConsumerContact": "South Shore at 800-290-0465 from 8:30 a.m. to 5 p.m. ET Monday through Friday, email at service@southshorefurniture.com, or online at www.southshorefurniture.com/us-en/recall or www.southshorefurniture.com/us-en and click \"Recall information\" at the top of the page for more information.",
+        "LastPublishDate": "2024-11-21T00:00:00",
+        "Products": [
+          {
+            "Name": "South Shore Cribs",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 1,200"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/crib-1_0.jpg",
+            "Caption": "Recalled South Shore Balka Baby Crib with Adjustable Height (13825) and (14408)"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/crib-2_0.jpg",
+            "Caption": "Recalled South Shore Balka Baby Crib with Adjustable Height (13824)"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/crib-3_0.jpg",
+            "Caption": "Recalled South Shore Balka Baby Crib with Adjustable Height (12937)"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/crib-4.jpg",
+            "Caption": "Recalled South Shore Balka Baby Crib with Adjustable Height (12938)"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/crib-5.jpg",
+            "Caption": "Recalled South Shore Crib Label"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Amazon.com, Cymax.com, Walmart.com, Southshorefurniture.com, and other websites from July 2020 through February 2024 for about $415 to $475.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "South Shore Industries LTD, of Canada",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": "Sold At",
+        "ManufacturerCountries": [
+          {
+            "Country": "Malaysia"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The spacing between some of the crib's slats is wider than allowed under the federal safety standard, posing an entrapment hazard to children.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled cribs and contact South Shore for information on how to disassemble the product. To receive a full refund, take a photo of the disassembled crib in an outdoor waste container and email the photo to service@southshorefurniture.com. South Shore, Amazon.com and Walmart.com are contacting all known purchasers directly."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 10098,
+        "RecallNumber": "25054",
+        "RecallDate": "2024-11-21T00:00:00",
+        "Description": "This recall involves South Shore brand Balka & Olena cribs sold in white and natural wood colors. The cribs are made of wood and measure about 37 inches high, 54 inches long and 30 inches deep. The model number is printed on an adhesive label on one end of the crib. Model Number Description Color 13825 Balka Baby Crib with Adjustable Height Pure White 13824 Balka Baby Crib with Adjustable Height Pure White and Natural Wood 12937 Balka Baby Crib with Adjustable Height Pure White and Natural Wood 12938 Balka Baby Crib with Adjustable Height Pure White 14408 Olena Baby Crib with Adjustable Height Pure White",
+        "URL": "https://www.cpsc.gov/Recalls/2025/South-Shore-Cribs-Recalled-Due-to-Entrapment-Hazard-Violation-of-Federal-Regulation-for-Full-Sized-Cribs-Imported-by-South-Shore-Industries",
+        "Title": "South Shore Cribs Recalled Due to Entrapment Hazard; Violation of Federal Regulation for Full Sized Cribs; Imported by South Shore Industries",
+        "ConsumerContact": "South Shore at 800-290-0465 from 8:30 a.m. to 5 p.m. ET Monday through Friday, email at service@southshorefurniture.com, or online at www.southshorefurniture.com/us-en/recall or www.southshorefurniture.com/us-en and click \"Recall information\" at the top of the page for more information.",
+        "LastPublishDate": "2024-11-21T00:00:00",
+        "Products": [
+          {
+            "Name": "South Shore Cribs",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 1,200"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/crib-1_0.jpg",
+            "Caption": "Recalled South Shore Balka Baby Crib with Adjustable Height (13825) and (14408)"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/crib-2_0.jpg",
+            "Caption": "Recalled South Shore Balka Baby Crib with Adjustable Height (13824)"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/crib-3_0.jpg",
+            "Caption": "Recalled South Shore Balka Baby Crib with Adjustable Height (12937)"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/crib-4.jpg",
+            "Caption": "Recalled South Shore Balka Baby Crib with Adjustable Height (12938)"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/crib-5.jpg",
+            "Caption": "Recalled South Shore Crib Label"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Amazon.com, Cymax.com, Walmart.com, Southshorefurniture.com, and other websites from July 2020 through February 2024 for about $415 to $475.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "South Shore Industries LTD, of Canada",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "Malaysia"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The spacing between some of the crib's slats is wider than allowed under the federal safety standard, posing an entrapment hazard to children.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled cribs and contact South Shore for information on how to disassemble the product. To receive a full refund, take a photo of the disassembled crib in an outdoor waste container and email the photo to service@southshorefurniture.com. South Shore, Amazon.com and Walmart.com are contacting all known purchasers directly."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "25054",
+        "Product Safety Warning Number": "",
+        "Date": "November 21, 2024",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "South Shore Cribs Recalled Due to Entrapment Hazard; Violation of Federal Regulation for Full Sized Cribs; Imported by South Shore Industries",
+        "Name of product": "South Shore Cribs",
+        "Description": "This recall involves&nbsp;South Shore brand Balka &amp; Olena cribs sold in white and natural wood colors.&nbsp;The cribs are made of wood and measure about 37 inches high, 54 inches long and 30 inches deep. The model number is printed on an adhesive label on one end of the crib.&nbsp;Model NumberDescriptionColor13825Balka Baby Crib with Adjustable HeightPure White13824Balka Baby Crib with Adjustable HeightPure White and Natural Wood12937Balka Baby Crib with Adjustable HeightPure White and Natural Wood12938Balka Baby Crib with Adjustable HeightPure White14408Olena Baby Crib with Adjustable HeightPure White",
+        "Hazard Description": "The spacing between some of the crib’s slats is wider than allowed under the federal safety standard, posing an entrapment hazard to children.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Refund",
+        "Units": "About 1,200",
+        "Incidents": "None reported",
+        "Remedy": "Consumers should immediately stop using the recalled cribs and contact South Shore for information on how to disassemble the product. To receive a full refund, take a photo of the disassembled crib in an outdoor waste container and email the photo to&nbsp;service@southshorefurniture.com. South Shore, Amazon.com and Walmart.com are contacting all known purchasers directly.",
+        "Sold At Label": "Sold At",
+        "Sold At": "Amazon.com, Cymax.com, Walmart.com, Southshorefurniture.com, and other websites from July 2020 through February 2024 for about $415 to $475.",
+        "Importers": "South Shore Industries LTD, of Canada",
+        "Manufacturers": "",
+        "Distributors": "",
+        "Manufactured In": "Malaysia",
+        "Custom Label": "",
+        "Custom Field": ""
+      }
+    },
+    {
+      "merged": {
+        "RecallID": 10026,
+        "RecallNumber": "24331",
+        "RecallDate": "2024-08-01T00:00:00",
+        "Description": "This recall involves RH Baby & Child Jeune French Contemporary Upholstered Panel Cribs, with the following first six digits in the SKU number: 113210, 113313 and 113754. The wooden crib measures about 30 inches wide, 55½ inches long and 42 inches high, and were sold in brushed gray oak, brushed light oak, and brushed white oak finishes. The crib has upholstered end and lower panels and three adjustable mattress height settings and can convert into a toddler bed. The SKU numbers are printed on the receipt, and on a label located on the inner-lower portion of the upholstered panel.",
+        "URL": "https://www.cpsc.gov/Recalls/2024/RH-Baby-Child-Recalls-Jeune-French-Contemporary-Upholstered-Panel-Cribs-Due-to-Choking-Hazard",
+        "Title": "RH Baby & Child Recalls Jeune French Contemporary Upholstered Panel Cribs Due to Choking Hazard",
+        "ConsumerContact": "RH toll-free at 833-611-1775 from 6 a.m. to 7 p.m. PT Monday through Friday, 8 a.m. to 5 p.m. PT Saturday and Sunday, email at recall@rh.com, or online at https://rhbabyandchild.rh.com/us/en/customer-experience/safety-recalls or https://rhbabyandchild.rh.com/us/en/ and click on \"Safety Recalls\" at the bottom of the page.",
+        "LastPublishDate": "2024-08-01T00:00:00",
+        "Products": [
+          {
+            "Name": "Jeune French Contemporary Upholstered Panel Cribs",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 480 (In addition, about 10 were sold in Canada)"
+          }
+        ],
+        "Inconjunctions": [
+          {
+            "URL": "https://recalls-rappels.canada.ca/en/alert-recall/jeune-french-contemporary-upholstered-panel-crib-recalled-due-potential-risk-choking"
+          }
+        ],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Jeune-crib.png",
+            "Caption": "Recalled RH Baby & Child's Jeune French Contemporary Upholstered Panel Crib"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Jeune-crib-SKU.png",
+            "Caption": "The SKU numbers are printed on the receipt, and on a label located on the inner-lower portion of the upholstered panel"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "The firm has received two reports of a metal insert loosening and detaching. No injuries have been reported."
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "RH Baby & Child stores, RH outlets nationwide, and online at https://rhbabyandchild.rh.com from January 2021 through March 2024 for between $600 and $2,900.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "RH US LLC, of Corte Madera, California",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": "Sold At",
+        "ManufacturerCountries": [
+          {
+            "Country": "Vietnam"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The cylindrical metal inserts in the crib's wooden frame can become loose and detach, posing a choking hazard.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled cribs and contact RH to receive a full refund of the purchase price, or a new replacement crib with shipping at no charge. If no receipt is available, the consumer will receive a $1,260 cash refund, credit, or a new replacement crib with shipping at no charge. RH will provide free pickup of the recalled crib, and is contacting all known purchasers directly."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          },
+          {
+            "Option": "Replace"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 10026,
+        "RecallNumber": "24331",
+        "RecallDate": "2024-08-01T00:00:00",
+        "Description": "This recall involves RH Baby & Child Jeune French Contemporary Upholstered Panel Cribs, with the following first six digits in the SKU number: 113210, 113313 and 113754. The wooden crib measures about 30 inches wide, 55½ inches long and 42 inches high, and were sold in brushed gray oak, brushed light oak, and brushed white oak finishes. The crib has upholstered end and lower panels and three adjustable mattress height settings and can convert into a toddler bed. The SKU numbers are printed on the receipt, and on a label located on the inner-lower portion of the upholstered panel.",
+        "URL": "https://www.cpsc.gov/Recalls/2024/RH-Baby-Child-Recalls-Jeune-French-Contemporary-Upholstered-Panel-Cribs-Due-to-Choking-Hazard",
+        "Title": "RH Baby & Child Recalls Jeune French Contemporary Upholstered Panel Cribs Due to Choking Hazard",
+        "ConsumerContact": "RH toll-free at 833-611-1775 from 6 a.m. to 7 p.m. PT Monday through Friday, 8 a.m. to 5 p.m. PT Saturday and Sunday, email at recall@rh.com, or online at https://rhbabyandchild.rh.com/us/en/customer-experience/safety-recalls or https://rhbabyandchild.rh.com/us/en/ and click on \"Safety Recalls\" at the bottom of the page.",
+        "LastPublishDate": "2024-08-01T00:00:00",
+        "Products": [
+          {
+            "Name": "Jeune French Contemporary Upholstered Panel Cribs",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 480 (In addition, about 10 were sold in Canada)"
+          }
+        ],
+        "Inconjunctions": [
+          {
+            "URL": "https://recalls-rappels.canada.ca/en/alert-recall/jeune-french-contemporary-upholstered-panel-crib-recalled-due-potential-risk-choking"
+          }
+        ],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Jeune-crib.png",
+            "Caption": "Recalled RH Baby & Child's Jeune French Contemporary Upholstered Panel Crib"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Jeune-crib-SKU.png",
+            "Caption": "The SKU numbers are printed on the receipt, and on a label located on the inner-lower portion of the upholstered panel"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "The firm has received two reports of a metal insert loosening and detaching. No injuries have been reported."
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "RH Baby & Child stores, RH outlets nationwide, and online at https://rhbabyandchild.rh.com from January 2021 through March 2024 for between $600 and $2,900.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "RH US LLC, of Corte Madera, California",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "Vietnam"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The cylindrical metal inserts in the crib's wooden frame can become loose and detach, posing a choking hazard.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled cribs and contact RH to receive a full refund of the purchase price, or a new replacement crib with shipping at no charge. If no receipt is available, the consumer will receive a $1,260 cash refund, credit, or a new replacement crib with shipping at no charge. RH will provide free pickup of the recalled crib, and is contacting all known purchasers directly."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          },
+          {
+            "Option": "Replace"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "24331",
+        "Product Safety Warning Number": "",
+        "Date": "August 01, 2024",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "RH Baby & Child Recalls Jeune French Contemporary Upholstered Panel Cribs Due to Choking Hazard",
+        "Name of product": "Jeune French Contemporary Upholstered Panel Cribs",
+        "Description": "This recall involves RH Baby &amp; Child Jeune French Contemporary Upholstered Panel Cribs, with the following first six digits in the SKU number: 113210, 113313 and 113754. The wooden crib measures about 30 inches wide, 55 ½ inches long and 42 inches high, and were sold in brushed gray oak, brushed light oak, and brushed white oak finishes. The crib has upholstered end and lower panels and three adjustable mattress height settings, and can convert into a toddler bed. The SKU numbers are printed on the receipt, and on a label located on the inner-lower portion of the upholstered panel.",
+        "Hazard Description": "The cylindrical metal inserts in the crib’s wooden frame can become loose and detach, posing a choking hazard.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Refund, Replace",
+        "Units": "About 480 (In addition, about 10 were sold in Canada)",
+        "Incidents": "The firm has received two reports of a metal insert loosening and detaching. No injuries have been reported.",
+        "Remedy": "Consumers should immediately stop using the recalled cribs and contact RH to receive a full refund of the purchase price, or a new replacement crib with shipping at no charge. If no receipt is available, the consumer will receive a $1,260 cash refund, credit, or a new replacement crib with shipping at no charge. RH will provide free pickup of the recalled crib, and is contacting all known purchasers directly.",
+        "Sold At Label": "Sold At",
+        "Sold At": "RH Baby &amp; Child stores, RH outlets nationwide, and online at https://rhbabyandchild.rh.com from January 2021 through March 2024 for between $600 and $2,900.",
+        "Importers": "RH US LLC, of Corte Madera, California",
+        "Manufacturers": "",
+        "Distributors": "",
+        "Manufactured In": "Vietnam",
+        "Custom Label": "",
+        "Custom Field": ""
+      }
+    },
+    {
+      "merged": {
+        "RecallID": 9932,
+        "RecallNumber": "24209",
+        "RecallDate": "2024-04-25T00:00:00",
+        "Description": "This recall involves Crate & Barrel Hampshire Cribs. The cribs were sold in blush, olive, white, gray and natural brown colors. The cribs have one of the following SKU numbers 246898, 534758, 534987, 535020 and 405394 along with the brand \"Crate&Barrel\" listed on a label located on the mattress support board.",
+        "URL": "https://www.cpsc.gov/Recalls/2024/Crate-Barrel-Recalls-Hampshire-Cribs-Due-to-Fall-Hazard",
+        "Title": "Crate & Barrel Recalls Hampshire Cribs Due to Fall Hazard",
+        "ConsumerContact": "Crate & Barrel at 800-967-6696 from 8 a.m. to 7 p.m. CT Monday through Friday, or 8 a.m. to 6 p.m. CT Saturday and Sunday, or visit online at www.crateandbarrel.com/customer-service/product-recalls or www.crateandkids.com and click on \"Recalls\" located at the bottom of the page for more information.",
+        "LastPublishDate": "2024-04-25T00:00:00",
+        "Products": [
+          {
+            "Name": "Crate & Barrel Hampshire Cribs",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 3,200 (In addition, about 120 were sold in Canada)"
+          }
+        ],
+        "Inconjunctions": [
+          {
+            "URL": "https://recalls-rappels.canada.ca/en/alert-recall/crate-barrel-hampshire-cribs-recalled-due-fall-and-entrapment-hazards"
+          }
+        ],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/crib-blush.png",
+            "Caption": "Recalled Crate & Barrel Hampshire Crib - Blush"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/crib-gray.png",
+            "Caption": "Recalled Crate & Barrel Hampshire Crib - Gray"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/crib-white.png",
+            "Caption": "Recalled Crate & Barrel Hampshire Crib - White"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/crib-olive.png",
+            "Caption": "Recalled Crate & Barrel Hampshire Crib - Olive"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/crib-nat_brown.png",
+            "Caption": "Recalled Crate & Barrel Hampshire Crib - Natural Brown"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/crib-label.png",
+            "Caption": "Recalled Crate & Barrel Hampshire Cribs – label on the mattress support board with SKU number"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "The firm has received 12 reports of incidents of the mattress support pins becoming loose. No injuries have been reported."
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Online only at Crateandbarrel.com from June 2022 through November 2023 for between $600 and $800.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Euromarket Designs Inc., d/b/a Crate & Barrel, of Northbrook, Illinois",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": "Sold At",
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The recalled log splitter's hydraulic cylinder rod can separate from the piston, preventing the wedge from retracting. Reengaging the rod to the piston can cause the rod and wedge to move unexpectedly, posing injury hazards.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled cribs and contact Crate & Barrel for a free repair or full refund. Crate & Barrel is contacting all known purchasers directly."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          },
+          {
+            "Option": "Repair"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 9932,
+        "RecallNumber": "24209",
+        "RecallDate": "2024-04-25T00:00:00",
+        "Description": "This recall involves Crate & Barrel Hampshire Cribs. The cribs were sold in blush, olive, white, gray and natural brown colors. The cribs have one of the following SKU numbers 246898, 534758, 534987, 535020 and 405394 along with the brand \"Crate&Barrel\" listed on a label located on the mattress support board.",
+        "URL": "https://www.cpsc.gov/Recalls/2024/Crate-Barrel-Recalls-Hampshire-Cribs-Due-to-Fall-Hazard",
+        "Title": "Crate & Barrel Recalls Hampshire Cribs Due to Fall Hazard",
+        "ConsumerContact": "Crate & Barrel at 800-967-6696 from 8 a.m. to 7 p.m. CT Monday through Friday, or 8 a.m. to 6 p.m. CT Saturday and Sunday, or visit online at www.crateandbarrel.com/customer-service/product-recalls or www.crateandkids.com and click on \"Recalls\" located at the bottom of the page for more information.",
+        "LastPublishDate": "2024-04-25T00:00:00",
+        "Products": [
+          {
+            "Name": "Crate & Barrel Hampshire Cribs",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 3,200 (In addition, about 120 were sold in Canada)"
+          }
+        ],
+        "Inconjunctions": [
+          {
+            "URL": "https://recalls-rappels.canada.ca/en/alert-recall/crate-barrel-hampshire-cribs-recalled-due-fall-and-entrapment-hazards"
+          }
+        ],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/crib-blush.png",
+            "Caption": "Recalled Crate & Barrel Hampshire Crib - Blush"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/crib-gray.png",
+            "Caption": "Recalled Crate & Barrel Hampshire Crib - Gray"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/crib-white.png",
+            "Caption": "Recalled Crate & Barrel Hampshire Crib - White"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/crib-olive.png",
+            "Caption": "Recalled Crate & Barrel Hampshire Crib - Olive"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/crib-nat_brown.png",
+            "Caption": "Recalled Crate & Barrel Hampshire Crib - Natural Brown"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/crib-label.png",
+            "Caption": "Recalled Crate & Barrel Hampshire Cribs – label on the mattress support board with SKU number"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "The firm has received 12 reports of incidents of the mattress support pins becoming loose. No injuries have been reported."
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Online only at Crateandbarrel.com from June 2022 through November 2023 for between $600 and $800.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Euromarket Designs Inc., d/b/a Crate & Barrel, of Northbrook, Illinois",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The recalled log splitter's hydraulic cylinder rod can separate from the piston, preventing the wedge from retracting. Reengaging the rod to the piston can cause the rod and wedge to move unexpectedly, posing injury hazards.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled cribs and contact Crate & Barrel for a free repair or full refund. Crate & Barrel is contacting all known purchasers directly."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          },
+          {
+            "Option": "Repair"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "24209",
+        "Product Safety Warning Number": "",
+        "Date": "April 25, 2024",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "Crate & Barrel Recalls Hampshire Cribs Due to Fall Hazard",
+        "Name of product": "Crate & Barrel Hampshire Cribs",
+        "Description": "This recall involves Crate &amp; Barrel Hampshire Cribs. The cribs were sold in blush, olive, white, gray and natural brown colors. The cribs have one of the following SKU numbers 246898, 534758, 534987, 535020 and 405394 along with the brand “Crate&amp;Barrel” listed on a label located on the mattress support board.",
+        "Hazard Description": "The mattress support pins can become loose and allow the mattress to fall, posing a fall hazard to children.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Refund, Repair",
+        "Units": "About 3,200 (In addition, about 120 were sold in Canada)",
+        "Incidents": "The firm has received 12 reports of incidents of the mattress support pins becoming loose. No injuries have been reported.",
+        "Remedy": "Consumers should immediately stop using the recalled cribs and contact Crate &amp; Barrel for a free repair or full refund. Crate &amp; Barrel is contacting all known purchasers directly.",
+        "Sold At Label": "Sold At",
+        "Sold At": "Online only at Crateandbarrel.com from June 2022 through November 2023 for between $600 and $800.",
+        "Importers": "Euromarket Designs Inc., d/b/a Crate & Barrel, of Northbrook, Illinois",
+        "Manufacturers": "",
+        "Distributors": "",
+        "Manufactured In": "China",
+        "Custom Label": "",
+        "Custom Field": ""
+      }
+    }
+  ]
+}

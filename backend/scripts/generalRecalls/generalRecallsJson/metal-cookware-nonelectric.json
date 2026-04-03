@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "slug": "metal-cookware-nonelectric",
+    "sourceCsvFile": "metal-cookware-nonelectric_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:36.998Z",
+    "recallCount": 1
+  },
+  "recalls": [
+    {
+      "RecallID": 9861,
+      "RecallNumber": "24126",
+      "RecallDate": "2024-02-22T00:00:00",
+      "Description": "This recall involves select Cascade Designs camping cooking pots. The anodized aluminum pots are various 1- to 2-liter pots sold individually and as a part of stove systems and kits. The recalled models include Reactor, Trail Lite and PocketRocket Stove Kits. MSR is written on the side of the pots.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/Cascade-Designs-Recalls-Camping-Cooking-Pots-Due-to-Burn-and-Scald-Hazards",
+      "Title": "Cascade Designs Recalls Camping Cooking Pots Due to Burn and Scald Hazards",
+      "ConsumerContact": "Cascade Designs Inc. at 800-531-9531 from 8 a.m. to 4 p.m. PT Monday through Friday or online at https://www.msrgear.com/pot-recall.html or https://www.msrgear.com and then click on the \"Recall Header\" at the top of the page.",
+      "LastPublishDate": "2024-02-22T00:00:00",
+      "Products": [
+        {
+          "Name": "MSR camping cooking pots",
+          "NumberOfUnits": "About 60,655 (In addition, about 22,320 were sold in Canada and about 35 were sold in Mexico)"
+        }
+      ],
+      "Inconjunctions": [
+        {
+          "URL": "https://recalls-rappels.canada.ca/en/alert-recall/msr-camping-cooking-pots-cascade-designs-recalled-due-burn-and-scald-hazards"
+        },
+        {
+          "URL": "https://alertas.gob.mx/detallealerta.php?site=RAR&alerta=947"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/MSR-reactor-accessory.png",
+          "Caption": "Recalled MSR Reactor Accessory cooking pot (1 liter)"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/MSR-trail-lite.png",
+          "Caption": "Recalled MSR Trail Lite pot (2 liter)"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/MSR-reactor.png",
+          "Caption": "Recalled MSR Reactor Stove System (1.7 liter)"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/MSR-pocketrocket.jpg",
+          "Caption": "Recalled MSR PocketRocket Stove Kit"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The company has received 22 reports of the pot handle either detaching or becoming loose, including two reports of burn injuries."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Outdoor equipment stores nationwide from January 2008 through October 2023 for between $40 and $290."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Cascade Designs Inc., of Seattle, Washington"
+        }
+      ],
+      "Distributors": [
+        {
+          "Name": "Cascade Designs Inc., of Seattle, Washington"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "Thailand"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "The pot handle can detach or become loose, posing burn and scald risks to consumers from hot food and liquids spilling from the product."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should immediately stop using the recalled camping cooking pot, and contact Cascade Designs for instructions on submitting a photo of the product to receive a free replacement pot handle/lifter. The replacement pot handle/lifter does not require tools to install."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Replace"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "meta": {
+    "slug": "other-home-maintenance-and-structures",
+    "sourceCsvFile": "other-home-maintenance-and-structures_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T04:43:57.269Z",
+    "recallCount": 1
+  },
+  "recalls": [
+    {
+      "merged": {
+        "RecallID": 10037,
+        "RecallNumber": "24346",
+        "RecallDate": "2024-08-22T00:00:00",
+        "Description": "This recall involves SolarReady Meter Combos with catalog numbers MC2442S1200SC and MC2442S1200FC, manufactured from August 2021 through August 2022. The catalog number and date stamp are located on a label on the inside of the front panel of the solar meter. This product serves as the connection point between the utility power supply, a rooftop solar system, and the main electrical panel serving a home. Depending on the installation, the panel within this product could contain the branch breaker circuits (breaker box) for the entire home or part of the home. This panel also contains the main breaker service disconnect for the whole home's power.",
+        "URL": "https://www.cpsc.gov/Recalls/2024/Siemens-Industry-Recalls-SolarReady-Meter-Combos-Due-to-Fire-Hazard",
+        "Title": "Siemens Industry Recalls SolarReady™ Meter Combos Due to Fire Hazard",
+        "ConsumerContact": "Siemens Industry at 800-756-6996 from 9 a.m. to 6 p.m. ET Monday through Friday, by email at psn.industry@siemens.com, or online at https://www.siemens.com/us/en/products/energy/low-voltage/solarready-meter-combo-safety-recall.html or at https://www.siemens.com/us/en/products/energy/low-voltage.html and click on the \"Email us for Further Information for Recall\" button for more information.",
+        "LastPublishDate": "2024-08-22T00:00:00",
+        "Products": [
+          {
+            "Name": "Siemens SolarReady Meter Combos",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 3,910"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/solarready-1.png",
+            "Caption": "Recalled Siemens SolarReady Meter Combo and inside panel label"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/solarready-2.png",
+            "Caption": "Location of Catalog Number and Date Stamp"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "The firm has received eight reports of overheating, including one report of a localized fire. No injuries have been reported."
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Electrical distributors nationwide from August 2021 through April 2024 for between about $640 and $990, depending on the model.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Siemens Industry Inc., of Alpharetta, Georgia",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": "Sold At",
+        "ManufacturerCountries": [
+          {
+            "Country": "Mexico"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "An interior connection in the recalled Siemens SolarReady Meter Combos can overheat, posing a fire hazard.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Contact Siemens to determine if your SolarReady Meter Combo is included in this recall. Siemens will arrange for an on-site inspection, and repair or replacement of recalled meter combos by a licensed contractor at no cost to the consumer. Siemens is contacting distributors directly."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Repair"
+          },
+          {
+            "Option": "Replace"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 10037,
+        "RecallNumber": "24346",
+        "RecallDate": "2024-08-22T00:00:00",
+        "Description": "This recall involves SolarReady Meter Combos with catalog numbers MC2442S1200SC and MC2442S1200FC, manufactured from August 2021 through August 2022. The catalog number and date stamp are located on a label on the inside of the front panel of the solar meter. This product serves as the connection point between the utility power supply, a rooftop solar system, and the main electrical panel serving a home. Depending on the installation, the panel within this product could contain the branch breaker circuits (breaker box) for the entire home or part of the home. This panel also contains the main breaker service disconnect for the whole home's power.",
+        "URL": "https://www.cpsc.gov/Recalls/2024/Siemens-Industry-Recalls-SolarReady-Meter-Combos-Due-to-Fire-Hazard",
+        "Title": "Siemens Industry Recalls SolarReady™ Meter Combos Due to Fire Hazard",
+        "ConsumerContact": "Siemens Industry at 800-756-6996 from 9 a.m. to 6 p.m. ET Monday through Friday, by email at psn.industry@siemens.com, or online at https://www.siemens.com/us/en/products/energy/low-voltage/solarready-meter-combo-safety-recall.html or at https://www.siemens.com/us/en/products/energy/low-voltage.html and click on the \"Email us for Further Information for Recall\" button for more information.",
+        "LastPublishDate": "2024-08-22T00:00:00",
+        "Products": [
+          {
+            "Name": "Siemens SolarReady Meter Combos",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 3,910"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/solarready-1.png",
+            "Caption": "Recalled Siemens SolarReady Meter Combo and inside panel label"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/solarready-2.png",
+            "Caption": "Location of Catalog Number and Date Stamp"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "The firm has received eight reports of overheating, including one report of a localized fire. No injuries have been reported."
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Electrical distributors nationwide from August 2021 through April 2024 for between about $640 and $990, depending on the model.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Siemens Industry Inc., of Alpharetta, Georgia",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "Mexico"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "An interior connection in the recalled Siemens SolarReady Meter Combos can overheat, posing a fire hazard.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Contact Siemens to determine if your SolarReady Meter Combo is included in this recall. Siemens will arrange for an on-site inspection, and repair or replacement of recalled meter combos by a licensed contractor at no cost to the consumer. Siemens is contacting distributors directly."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Repair"
+          },
+          {
+            "Option": "Replace"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "24346",
+        "Product Safety Warning Number": "",
+        "Date": "August 22, 2024",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "Siemens Industry Recalls SolarReady™ Meter Combos Due to Fire Hazard",
+        "Name of product": "Siemens SolarReady Meter Combos",
+        "Description": "This recall involves SolarReady Meter Combos with catalog numbers MC2442S1200SC and MC2442S1200FC, manufactured from August 2021 through August 2022. The catalog number and date stamp are located on a label on the inside of the front panel of the solar meter.&nbsp;This product serves as the connection point between the utility power supply, a rooftop solar system, and the main electrical panel serving a home. Depending on the installation, the panel within this product could contain the branch breaker circuits (breaker box) for the entire home or part of the home. This panel also contains the main breaker service disconnect for the whole home’s power.",
+        "Hazard Description": "An interior connection in the recalled Siemens SolarReady Meter Combos can overheat, posing a fire hazard.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Replace, Repair",
+        "Units": "About 3,910",
+        "Incidents": "The firm has received eight reports of overheating, including one report of a localized fire. No injuries have been reported.",
+        "Remedy": "Contact Siemens to determine if your SolarReady Meter Combo is included in this recall. Siemens will arrange for an on-site inspection, and repair or replacement of recalled meter combos by a licensed contractor at no cost to the consumer.&nbsp;Siemens is contacting distributors directly.",
+        "Sold At Label": "Sold At",
+        "Sold At": "Electrical distributors nationwide from August 2021 through April 2024 for between about $640 and $990, depending on the model.",
+        "Importers": "Siemens Industry Inc., of Alpharetta, Georgia",
+        "Manufacturers": "",
+        "Distributors": "",
+        "Manufactured In": "Mexico",
+        "Custom Label": "",
+        "Custom Field": ""
+      }
+    }
+  ]
+}

@@ -1,0 +1,209 @@
+{
+  "meta": {
+    "slug": "clocks",
+    "sourceCsvFile": "clocks_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T04:43:57.069Z",
+    "recallCount": 1
+  },
+  "recalls": [
+    {
+      "merged": {
+        "RecallID": 10270,
+        "RecallNumber": "25280",
+        "RecallDate": "2025-05-15T00:00:00",
+        "Description": "This recall involves digital wall clocks with model number PH-05. The digital wall clocks are rectangular and black in color. A yellow label on the rear of the clock states \"Contact for warranty! support@te-rich.com.\" The clocks come with a black nine-button remote control. \"MODEL: PH-05\" is printed on the white product packaging.",
+        "URL": "https://www.cpsc.gov/Recalls/2025/Leon-Rading-Recalls-Digital-Wall-Clocks-Due-to-Risk-of-Serious-Injury-or-Death-from-Ingestion-Hazard-Violations-of-Federal-Regulations-for-Consumer-Products-with-Coin-Batteries-Sold-Exclusively-on-Amazon-com",
+        "Title": "Leon Rading Recalls Digital Wall Clocks Due to Risk of Serious Injury or Death from Ingestion Hazard; Violations of Federal Regulations for Consumer Products with Coin Batteries; Sold Exclusively on Amazon.com",
+        "ConsumerContact": "Leon Rading by email at recall@lianaocoltd.com.",
+        "LastPublishDate": "2025-05-15T00:00:00",
+        "Products": [
+          {
+            "Name": "Digital Wall Clocks",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 2,016"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Leon-Rading-clock-1.jpg",
+            "Caption": "Recalled Digital Wall Clock (front) with remote control"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Leon-Rading-clock-2.jpg",
+            "Caption": "Recalled Digital Wall Clock (back)"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Leon-Rading-clock-3.jpg",
+            "Caption": "\"Contact for warranty! support@te-rich.com\" printed on yellow label on back of clock"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Leon-Rading-clock-4.jpg",
+            "Caption": "Back of remote control with battery removed"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Leon-Rading-clock-5.jpg",
+            "Caption": "Product packaging showing MODEL: PH-05"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Exclusively at www.Amazon.com from November 2024 through January 2025 for about $23.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Leon Rading Co. Ltd., of Owatonna, Minnesota",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": "Sold At",
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The recalled digital wall clocks violate the mandatory federal regulations for consumer products containing button cell or coin batteries. The remote control for the clock has a lithium coin battery that can be easily accessed by children, posing an ingestion hazard. In addition, the recalled products do not have the warnings required under Reese's Law. When button cell or coin batteries are swallowed, the ingested batteries can cause serious injuries, internal chemical burns and death.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled digital wall clock's remote control, remove the lithium coin battery from the remote and dispose of or recycle it in accordance with local hazardous waste procedures. Consumers should write \"RECALLED\" in permanent marker on the remote and then email a photo of the remote being disposed of in the trash to recall@lianaocoltd.com to receive a full refund for the recalled digital clock. Leon Rading and Amazon are contacting all known purchasers directly. Note: Button cell batteries are hazardous. Batteries should be disposed of or recycled by following local hazardous waste procedures."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 10270,
+        "RecallNumber": "25280",
+        "RecallDate": "2025-05-15T00:00:00",
+        "Description": "This recall involves digital wall clocks with model number PH-05. The digital wall clocks are rectangular and black in color. A yellow label on the rear of the clock states \"Contact for warranty! support@te-rich.com.\" The clocks come with a black nine-button remote control. \"MODEL: PH-05\" is printed on the white product packaging.",
+        "URL": "https://www.cpsc.gov/Recalls/2025/Leon-Rading-Recalls-Digital-Wall-Clocks-Due-to-Risk-of-Serious-Injury-or-Death-from-Ingestion-Hazard-Violations-of-Federal-Regulations-for-Consumer-Products-with-Coin-Batteries-Sold-Exclusively-on-Amazon-com",
+        "Title": "Leon Rading Recalls Digital Wall Clocks Due to Risk of Serious Injury or Death from Ingestion Hazard; Violations of Federal Regulations for Consumer Products with Coin Batteries; Sold Exclusively on Amazon.com",
+        "ConsumerContact": "Leon Rading by email at recall@lianaocoltd.com.",
+        "LastPublishDate": "2025-05-15T00:00:00",
+        "Products": [
+          {
+            "Name": "Digital Wall Clocks",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 2,016"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Leon-Rading-clock-1.jpg",
+            "Caption": "Recalled Digital Wall Clock (front) with remote control"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Leon-Rading-clock-2.jpg",
+            "Caption": "Recalled Digital Wall Clock (back)"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Leon-Rading-clock-3.jpg",
+            "Caption": "\"Contact for warranty! support@te-rich.com\" printed on yellow label on back of clock"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Leon-Rading-clock-4.jpg",
+            "Caption": "Back of remote control with battery removed"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Leon-Rading-clock-5.jpg",
+            "Caption": "Product packaging showing MODEL: PH-05"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Exclusively at www.Amazon.com from November 2024 through January 2025 for about $23.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Leon Rading Co. Ltd., of Owatonna, Minnesota",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The recalled digital wall clocks violate the mandatory federal regulations for consumer products containing button cell or coin batteries. The remote control for the clock has a lithium coin battery that can be easily accessed by children, posing an ingestion hazard. In addition, the recalled products do not have the warnings required under Reese's Law. When button cell or coin batteries are swallowed, the ingested batteries can cause serious injuries, internal chemical burns and death.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled digital wall clock's remote control, remove the lithium coin battery from the remote and dispose of or recycle it in accordance with local hazardous waste procedures. Consumers should write \"RECALLED\" in permanent marker on the remote and then email a photo of the remote being disposed of in the trash to recall@lianaocoltd.com to receive a full refund for the recalled digital clock. Leon Rading and Amazon are contacting all known purchasers directly. Note: Button cell batteries are hazardous. Batteries should be disposed of or recycled by following local hazardous waste procedures."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "25280",
+        "Product Safety Warning Number": "",
+        "Date": "May 15, 2025",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "Leon Rading Recalls Digital Wall Clocks Due to Risk of Serious Injury or Death from Ingestion Hazard; Violations of Federal Regulations for Consumer Products with Coin Batteries; Sold Exclusively on Amazon.com",
+        "Name of product": "Digital Wall Clocks",
+        "Description": "This recall involves digital wall clocks with model number PH-05. The digital wall clocks are rectangular and black in color. A yellow label on the rear of the clock states “Contact for warranty! support@te-rich.com.” The clocks come with a black nine-button remote control. “MODEL: PH-05” is printed on the white product packaging. &nbsp;",
+        "Hazard Description": "The recalled digital wall clocks violate the mandatory federal regulations for consumer products containing button cell or coin batteries. The remote control for the clock has a lithium coin battery that can be easily accessed by children, posing an ingestion hazard.&nbsp;In addition, the recalled products do not have the warnings required under&nbsp;https://www.cpsc.gov/Newsroom/News-Releases/2023/Making-Families-Safer-…’s Law. When button cell or coin batteries are swallowed, the ingested batteries can cause serious injuries, internal chemical burns and death.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Refund",
+        "Units": "About 2,016",
+        "Incidents": "None reported",
+        "Remedy": "Consumers should immediately stop using the recalled digital wall clock’s remote control, remove the lithium coin battery from the remote and dispose of or recycle it in accordance with local hazardous waste procedures. Consumers should write “RECALLED” in permanent marker on the remote and then email a photo of the remote being disposed of in the trash to&nbsp;recall@lianaocoltd.com to receive a full refund for the recalled digital clock. Leon Rading&nbsp;and Amazon are contacting all known purchasers directly.Note:&nbsp;Button cell batteries are hazardous. Batteries should be disposed of or recycled by following local hazardous waste procedures.&nbsp;",
+        "Sold At Label": "Sold At",
+        "Sold At": "Exclusively at www.Amazon.com from November 2024 through January 2025 for about $23.",
+        "Importers": "Leon Rading Co. Ltd., of Owatonna, Minnesota",
+        "Manufacturers": "",
+        "Distributors": "",
+        "Manufactured In": "China",
+        "Custom Label": "",
+        "Custom Field": ""
+      }
+    }
+  ]
+}

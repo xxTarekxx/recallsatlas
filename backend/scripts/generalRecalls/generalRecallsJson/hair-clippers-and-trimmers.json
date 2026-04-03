@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "slug": "hair-clippers-and-trimmers",
+    "sourceCsvFile": "hair-clippers-and-trimmers_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:36.951Z",
+    "recallCount": 1
+  },
+  "recalls": [
+    {
+      "RecallID": 9975,
+      "RecallNumber": "24269",
+      "RecallDate": "2024-06-20T00:00:00",
+      "Description": "This recall involves StyleCraft Instinct Cordless Clippers with model number SC607M. The model number and lot number are printed on the back of the recalled clippers. Only the following lot numbers are included in this recall: 35-22, 40-22, 15-23, 20-23, 25-23, 30-23, 35-23, and 40-23. The products were sold in blue, red, and black. The letters \"SC\" and the name \"INSTINCT\" are printed on the front cover.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/StyleCraft-Recalls-Instinct-Cordless-Hair-Clippers-Due-to-Fire-and-Burn-Hazards",
+      "Title": "StyleCraft Recalls Instinct Cordless Hair Clippers Due to Fire and Burn Hazards",
+      "ConsumerContact": "StyleCraft toll-free at 888-864-6409 from 8:30 a.m. to 5:30 p.m. ET Monday through Friday, by email at CSteam@stylecraftus.com, online at www.stylecraftus.com/recall or www.stylecraftus.com and click on \"Recall\" at the bottom of the page.",
+      "LastPublishDate": "2024-06-20T00:00:00",
+      "Products": [
+        {
+          "Name": "Instinct Professional Vector Motor Cordless Hair Clippers",
+          "NumberOfUnits": "About 50,000 (In addition, about 1,320 were sold in Canada)"
+        }
+      ],
+      "Inconjunctions": [
+        {
+          "URL": "https://recalls-rappels.canada.ca/en/alert-recall/stylecraft-instinct-cordless-hair-clipper-recalled-due-burn-hazard"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/StyleCraft-clippers-1.jpg",
+          "Caption": "Recalled StyleCraft Instinct Professional Vector Motor Cordless Hair Clippers (blue)"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/StyleCraft-clippers-2.jpg",
+          "Caption": "Recalled StyleCraft Instinct Professional Vector Motor Cordless Hair Clippers (blue)"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/StyleCraft-clippers-model-lot.png",
+          "Caption": "Model and Lot number location on the recalled clippers"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "StyleCraft has received six reports of the batteries overheating or causing a fire, including one minor burn."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Professional beauty supply stores nationwide and online at www.stylecraftus.com and www.amazon.com from January 2023 through May 2024 for about $250."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "StyleCraft LLC, of Boca Raton, Florida"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "The lithium-ion battery in the recalled clippers can overheat, posing fire and burn hazards."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should immediately stop using and charging the recalled clippers, and visit StyleCraft for instructions to remove the battery and to receive a free battery replacement. Batteries can be replaced by visiting one of StyleCraft's authorized service centers, or by returning the unit to StyleCraft by mail in a pre-paid shipping package. Consumers should dispose of the battery in accordance with local and state regulations."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ]
+    }
+  ]
+}

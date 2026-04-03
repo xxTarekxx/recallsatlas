@@ -1,0 +1,385 @@
+{
+  "meta": {
+    "slug": "watches",
+    "sourceCsvFile": "watches_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T04:43:57.378Z",
+    "recallCount": 2
+  },
+  "recalls": [
+    {
+      "merged": {
+        "RecallID": 10379,
+        "RecallNumber": "25428",
+        "RecallDate": "2025-08-07T00:00:00",
+        "Description": "This recall involves Altafit af28 smartwatches. The recalled smartwatch was sold in gold and silver tones and has a 1.68-inch color touchscreen and two bands, one bejeweled and one mesh. It came in a golden case with a wireless charging pad and cable. \"ALTAFIT FCC ID 2BHG8-AF28\" is on the back of the watch.",
+        "URL": "https://www.cpsc.gov/Recalls/2025/Deale-International-Recalls-Altafit-Smartwatches-Due-to-Risk-of-Serious-Burn-Injury-and-Fire-Hazard-Sold-by-HSN",
+        "Title": "Deale International Recalls Altafit Smartwatches Due to Risk of Serious Burn Injury and Fire Hazard; Sold by HSN",
+        "ConsumerContact": "Deale International toll-free at 877-880-6137 from 9 a.m. to 4 p.m. ET Monday through Friday, email at altafitrecall@thedeale.com, or online at www.thedeale.com/pages/altafit-safety-recall or at www.thedeale.com and click on \"RECALL INFORMATION\" at the top of the page for more information.",
+        "LastPublishDate": "2025-08-07T00:00:00",
+        "Products": [
+          {
+            "Name": "Altafit af28 Smartwatches",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 2,900"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/altafit-1.jpg",
+            "Caption": "Recalled Altafit af28 Smartwatch"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/altafit-2.jpg",
+            "Caption": "Recalled Altafit af28 Smartwatch wireless charging pad"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "Deale International has received 39 reports of smartwatches melting, burning and catching on fire while charging, including six reports of burns to hands and property damage."
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "HSN.com from March 2025 through May 2025 for about $50.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Deale International LLC, of Fort Lauderdale, Florida",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": "Sold Online At",
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The smartwatch's wireless charging pad can overheat and ignite, posing a risk of serious burn injury and fire hazard.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately unplug the smartwatch's charging pad and stop charging the recalled smartwatch. Consumers can contact Deale International for instructions on how to receive a free replacement. Consumers will be asked to cut the unplugged charging pad's power cable and email a photo of the charging pad with the cut cable to altafitrecall@thedeale.com."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Replace"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 10379,
+        "RecallNumber": "25428",
+        "RecallDate": "2025-08-07T00:00:00",
+        "Description": "This recall involves Altafit af28 smartwatches. The recalled smartwatch was sold in gold and silver tones and has a 1.68-inch color touchscreen and two bands, one bejeweled and one mesh. It came in a golden case with a wireless charging pad and cable. \"ALTAFIT FCC ID 2BHG8-AF28\" is on the back of the watch.",
+        "URL": "https://www.cpsc.gov/Recalls/2025/Deale-International-Recalls-Altafit-Smartwatches-Due-to-Risk-of-Serious-Burn-Injury-and-Fire-Hazard-Sold-by-HSN",
+        "Title": "Deale International Recalls Altafit Smartwatches Due to Risk of Serious Burn Injury and Fire Hazard; Sold by HSN",
+        "ConsumerContact": "Deale International toll-free at 877-880-6137 from 9 a.m. to 4 p.m. ET Monday through Friday, email at altafitrecall@thedeale.com, or online at www.thedeale.com/pages/altafit-safety-recall or at www.thedeale.com and click on \"RECALL INFORMATION\" at the top of the page for more information.",
+        "LastPublishDate": "2025-08-07T00:00:00",
+        "Products": [
+          {
+            "Name": "Altafit af28 Smartwatches",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 2,900"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/altafit-1.jpg",
+            "Caption": "Recalled Altafit af28 Smartwatch"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/altafit-2.jpg",
+            "Caption": "Recalled Altafit af28 Smartwatch wireless charging pad"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "Deale International has received 39 reports of smartwatches melting, burning and catching on fire while charging, including six reports of burns to hands and property damage."
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "HSN.com from March 2025 through May 2025 for about $50.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Deale International LLC, of Fort Lauderdale, Florida",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The smartwatch's wireless charging pad can overheat and ignite, posing a risk of serious burn injury and fire hazard.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately unplug the smartwatch's charging pad and stop charging the recalled smartwatch. Consumers can contact Deale International for instructions on how to receive a free replacement. Consumers will be asked to cut the unplugged charging pad's power cable and email a photo of the charging pad with the cut cable to altafitrecall@thedeale.com."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Replace"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "25428",
+        "Product Safety Warning Number": "",
+        "Date": "August 07, 2025",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "Deale International Recalls Altafit Smartwatches Due to Risk of Serious Burn Injury and Fire Hazard; Sold by HSN",
+        "Name of product": "Altafit af28 Smartwatches",
+        "Description": "This recall involves Altafit af28 smartwatches. The recalled smartwatch was sold in gold and silver tones and has a 1.68-inch color touchscreen and two bands, one bejeweled and one mesh. It came in a golden case with a wireless charging pad and cable. “ALTAFIT FCC ID 2BHG8-AF28” is on the back of the watch.",
+        "Hazard Description": "The smartwatch's wireless charging pad can overheat and ignite, posing a risk of serious burn injury and fire hazard.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Replace",
+        "Units": "About 2,900",
+        "Incidents": "Deale International has received 39 reports of smartwatches melting, burning and catching on fire while charging, including six reports of burns to hands and property damage.",
+        "Remedy": "Consumers should immediately unplug the smartwatch’s charging pad and stop charging the recalled smartwatch. Consumers can contact Deale International for instructions on how to receive a free replacement. Consumers will be asked to cut the unplugged charging pad’s power cable and email a photo of the charging pad with the cut cable to&nbsp;altafitrecall@thedeale.com.",
+        "Sold At Label": "Sold Online At",
+        "Sold At": "HSN.com from March 2025 through May 2025 for about $50.",
+        "Importers": "Deale International LLC, of Fort Lauderdale, Florida",
+        "Manufacturers": "",
+        "Distributors": "",
+        "Manufactured In": "China",
+        "Custom Label": "",
+        "Custom Field": ""
+      }
+    },
+    {
+      "merged": {
+        "RecallID": 9886,
+        "RecallNumber": "24151",
+        "RecallDate": "2024-03-07T00:00:00",
+        "Description": "This recall involves the braided black bracelet that is a part of the Skechers watch/bracelet gift set. The bracelet is black and features a braided pattern with a metal clasp on each end. The watch in the gift set has a code number \"IF2812307\" printed on the back of the watch as well as \"Sketchers\" and model number \"SR9082\".",
+        "URL": "https://www.cpsc.gov/Recalls/2024/Fossil-Group-Recalls-Bracelet-Sold-with-Skechers-Jewelry-Gift-Sets-Due-to-High-Levels-of-Lead-and-Cadmium",
+        "Title": "Fossil Group Recalls Bracelet Sold with Skechers Jewelry Gift Sets Due to High Levels of Lead and Cadmium",
+        "ConsumerContact": "Fossil Group at 800-842-8621 from 8 a.m. to 8 p.m. CT Monday through Friday and from 9:30 a.m. to 7 p.m. CT Saturday and Sunday, email at info@fgservices.com or online at www.fossilgroup.com/recalls/ or www.fossilgroup.com and click on \"Recalls\" for more information.",
+        "LastPublishDate": "2024-03-07T00:00:00",
+        "Products": [
+          {
+            "Name": "Bracelet sold with Skechers Watch and Jewelry Gift Sets",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 260"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/giftset.png",
+            "Caption": "Recalled Skechers Jewelry Gift Set"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/fossil-bracelet.png",
+            "Caption": "Recalled Bracelet"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/fossil-bracelet-clasp.png",
+            "Caption": "Recalled Bracelet Clasp"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/back-watch.png",
+            "Caption": "Back of Watch in Recalled Skechers Jewelry Gift Set With Model Number and Code"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [
+          {
+            "Name": "Fossil Group Inc., of Richardson, Texas",
+            "CompanyID": ""
+          }
+        ],
+        "Retailers": [
+          {
+            "Name": "Skechers stores nationwide and online at Amazon.com, Watchstation.com and Skechers.com from August 2023 through January 2024 for about $45.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Fossil Partners, L.P. of Richardson, Texas",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": "Sold At",
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The clasp on the braided black bracelet sold as part of the gift set contains high levels of lead and cadmium. Lead and cadmium are toxic and can cause adverse health effects in children.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled bracelet in the gift set, dispose of it in the trash and contact the website or store where purchased for a full refund of the gift set's purchase price."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 9886,
+        "RecallNumber": "24151",
+        "RecallDate": "2024-03-07T00:00:00",
+        "Description": "This recall involves the braided black bracelet that is a part of the Skechers watch/bracelet gift set. The bracelet is black and features a braided pattern with a metal clasp on each end. The watch in the gift set has a code number \"IF2812307\" printed on the back of the watch as well as \"Sketchers\" and model number \"SR9082\".",
+        "URL": "https://www.cpsc.gov/Recalls/2024/Fossil-Group-Recalls-Bracelet-Sold-with-Skechers-Jewelry-Gift-Sets-Due-to-High-Levels-of-Lead-and-Cadmium",
+        "Title": "Fossil Group Recalls Bracelet Sold with Skechers Jewelry Gift Sets Due to High Levels of Lead and Cadmium",
+        "ConsumerContact": "Fossil Group at 800-842-8621 from 8 a.m. to 8 p.m. CT Monday through Friday and from 9:30 a.m. to 7 p.m. CT Saturday and Sunday, email at info@fgservices.com or online at www.fossilgroup.com/recalls/ or www.fossilgroup.com and click on \"Recalls\" for more information.",
+        "LastPublishDate": "2024-03-07T00:00:00",
+        "Products": [
+          {
+            "Name": "Bracelet sold with Skechers Watch and Jewelry Gift Sets",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 260"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/giftset.png",
+            "Caption": "Recalled Skechers Jewelry Gift Set"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/fossil-bracelet.png",
+            "Caption": "Recalled Bracelet"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/fossil-bracelet-clasp.png",
+            "Caption": "Recalled Bracelet Clasp"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/back-watch.png",
+            "Caption": "Back of Watch in Recalled Skechers Jewelry Gift Set With Model Number and Code"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [
+          {
+            "Name": "Fossil Group Inc., of Richardson, Texas",
+            "CompanyID": ""
+          }
+        ],
+        "Retailers": [
+          {
+            "Name": "Skechers stores nationwide and online at Amazon.com, Watchstation.com and Skechers.com from August 2023 through January 2024 for about $45.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Fossil Partners, L.P. of Richardson, Texas",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The clasp on the braided black bracelet sold as part of the gift set contains high levels of lead and cadmium. Lead and cadmium are toxic and can cause adverse health effects in children.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled bracelet in the gift set, dispose of it in the trash and contact the website or store where purchased for a full refund of the gift set's purchase price."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "24151",
+        "Product Safety Warning Number": "",
+        "Date": "March 07, 2024",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "Fossil Group Recalls Bracelet Sold with Skechers Jewelry Gift Sets Due to High Levels of Lead and Cadmium",
+        "Name of product": "Bracelet sold with Skechers Watch and Jewelry Gift Sets",
+        "Description": "This recall involves the braided black bracelet that is a part of the Skechers watch/bracelet gift set. The bracelet is black and features a braided pattern with a metal clasp on each end.&nbsp;The watch in the gift set has a code number “IF2812307” printed on the back of the watch as well as “Sketchers” and model number “SR9082”.",
+        "Hazard Description": "The clasp on the braided black bracelet sold as part of the gift set contains high levels of lead and cadmium. Lead and cadmium are toxic and can cause adverse health effects in children.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Refund",
+        "Units": "About 260",
+        "Incidents": "None reported",
+        "Remedy": "Consumers should immediately stop using the recalled bracelet in the gift set, dispose of it in the trash and contact the website or store where purchased for a full refund of the gift set’s purchase price.",
+        "Sold At Label": "Sold At",
+        "Sold At": "Skechers stores nationwide and online at Amazon.com, Watchstation.com and Skechers.com from August 2023 through January 2024 for about $45.",
+        "Importers": "Fossil Partners, L.P. of Richardson, Texas",
+        "Manufacturers": "Fossil Group Inc., of Richardson, Texas",
+        "Distributors": "",
+        "Manufactured In": "China",
+        "Custom Label": "",
+        "Custom Field": ""
+      }
+    }
+  ]
+}

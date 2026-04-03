@@ -1,0 +1,193 @@
+{
+  "meta": {
+    "slug": "archery",
+    "sourceCsvFile": "archery_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T04:43:56.991Z",
+    "recallCount": 1
+  },
+  "recalls": [
+    {
+      "merged": {
+        "RecallID": 9909,
+        "RecallNumber": "24180",
+        "RecallDate": "2024-04-04T00:00:00",
+        "Description": "This recall involves Excalibur Crossbow's C2 Crank sold as a cocking aid for crossbows. The C2 Crank has two plastic cocking hooks attached to the string of the C2 Crank. The C2 Crank was sold in black. The \"Excalibur Crossbow\" logo is on the front of the unit. The part number 2199 and the UPC number 626192021991 are located on the packaging.",
+        "URL": "https://www.cpsc.gov/Recalls/2024/C2-Crank-Cocking-Aids-for-Excalibur-Crossbows-Recalled-Due-to-Impact-Injury-and-Laceration-Hazards-Manufactured-by-Excalibur-Crossbow",
+        "Title": "C2 Crank Cocking Aids for Excalibur Crossbows Recalled Due to Impact Injury and Laceration Hazards; Manufactured by Excalibur Crossbow",
+        "ConsumerContact": "Excalibur Crossbow toll-free at 888-689-1289 Monday through Thursday from 8 a.m. to 5 p.m. ET, email at warranty@excaliburcrossbow.com, online at www.excaliburcrossbow.com and click on \"Recalls\" or https://excaliburcrossbow.com/c2-crank-recall/ for more information.",
+        "LastPublishDate": "2024-04-04T00:00:00",
+        "Products": [
+          {
+            "Name": "C2 Crank Cocking Aid for Crossbows",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 15,000 (In addition, about 3,920 were sold in Canada)"
+          }
+        ],
+        "Inconjunctions": [
+          {
+            "URL": "https://recalls-rappels.canada.ca/en/alert-recall/c2-detachable-crank-cocking-aid-excalibur-crossbow-inc-recalled-due-potential-impact"
+          }
+        ],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/crossbow.png",
+            "Caption": "Recalled Excalibur Crossbow C2 Crank with cocking hooks"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "Excalibur has received 538 reports of the C2 Crank cocking aid hooks breaking during use, resulting in plastic projectiles flying and hitting consumers, including one injury where a consumer reportedly suffered a permanent eye injury."
+          }
+        ],
+        "Manufacturers": [
+          {
+            "Name": "Excalibur Crossbow US LLC, of Canada",
+            "CompanyID": ""
+          }
+        ],
+        "Retailers": [
+          {
+            "Name": "Bass Pro Shops, Cabela's, and other stores nationwide and online at excaliburcrossbow.com, ebay.com and amazon.com from January 2008 through December 2021 for about $190.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [],
+        "Distributors": [],
+        "SoldAtLabel": "Sold At",
+        "ManufacturerCountries": [
+          {
+            "Country": "Canada"
+          }
+        ],
+        "ProductUPCs": [
+          {
+            "UPC": "626192021991"
+          }
+        ],
+        "Hazards": [
+          {
+            "Name": "The C2 Crank's cocking hooks can break during use, causing flying plastic hook projectiles, posing impact injury and laceration hazards to the user and bystanders.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled C2 Crank and contact Excalibur Crossbow to receive instructions on receiving free replacement rope and hooks."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Replace"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 9909,
+        "RecallNumber": "24180",
+        "RecallDate": "2024-04-04T00:00:00",
+        "Description": "This recall involves Excalibur Crossbow's C2 Crank sold as a cocking aid for crossbows. The C2 Crank has two plastic cocking hooks attached to the string of the C2 Crank. The C2 Crank was sold in black. The \"Excalibur Crossbow\" logo is on the front of the unit. The part number 2199 and the UPC number 626192021991 are located on the packaging.",
+        "URL": "https://www.cpsc.gov/Recalls/2024/C2-Crank-Cocking-Aids-for-Excalibur-Crossbows-Recalled-Due-to-Impact-Injury-and-Laceration-Hazards-Manufactured-by-Excalibur-Crossbow",
+        "Title": "C2 Crank Cocking Aids for Excalibur Crossbows Recalled Due to Impact Injury and Laceration Hazards; Manufactured by Excalibur Crossbow",
+        "ConsumerContact": "Excalibur Crossbow toll-free at 888-689-1289 Monday through Thursday from 8 a.m. to 5 p.m. ET, email at warranty@excaliburcrossbow.com, online at www.excaliburcrossbow.com and click on \"Recalls\" or https://excaliburcrossbow.com/c2-crank-recall/ for more information.",
+        "LastPublishDate": "2024-04-04T00:00:00",
+        "Products": [
+          {
+            "Name": "C2 Crank Cocking Aid for Crossbows",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 15,000 (In addition, about 3,920 were sold in Canada)"
+          }
+        ],
+        "Inconjunctions": [
+          {
+            "URL": "https://recalls-rappels.canada.ca/en/alert-recall/c2-detachable-crank-cocking-aid-excalibur-crossbow-inc-recalled-due-potential-impact"
+          }
+        ],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/crossbow.png",
+            "Caption": "Recalled Excalibur Crossbow C2 Crank with cocking hooks"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "Excalibur has received 538 reports of the C2 Crank cocking aid hooks breaking during use, resulting in plastic projectiles flying and hitting consumers, including one injury where a consumer reportedly suffered a permanent eye injury."
+          }
+        ],
+        "Manufacturers": [
+          {
+            "Name": "Excalibur Crossbow US LLC, of Canada",
+            "CompanyID": ""
+          }
+        ],
+        "Retailers": [
+          {
+            "Name": "Bass Pro Shops, Cabela's, and other stores nationwide and online at excaliburcrossbow.com, ebay.com and amazon.com from January 2008 through December 2021 for about $190.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [],
+        "Distributors": [],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "Canada"
+          }
+        ],
+        "ProductUPCs": [
+          {
+            "UPC": "626192021991"
+          }
+        ],
+        "Hazards": [
+          {
+            "Name": "The C2 Crank's cocking hooks can break during use, causing flying plastic hook projectiles, posing impact injury and laceration hazards to the user and bystanders.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled C2 Crank and contact Excalibur Crossbow to receive instructions on receiving free replacement rope and hooks."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Replace"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "24180",
+        "Product Safety Warning Number": "",
+        "Date": "April 04, 2024",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "C2 Crank Cocking Aids for Excalibur Crossbows Recalled Due to Impact Injury and Laceration Hazards; Manufactured by Excalibur Crossbow",
+        "Name of product": "C2 Crank Cocking Aid for Crossbows",
+        "Description": "This recall involves Excalibur Crossbow’s C2 Crank sold as a cocking aid for crossbows. The C2 Crank has two plastic cocking hooks attached to the string of the C2 Crank. The C2 Crank was sold in black. The “Excalibur Crossbow” logo is on the front of the unit. The part number 2199 and the UPC number 626192021991 are located on the packaging.",
+        "Hazard Description": "The C2 Crank’s cocking hooks can break during use, causing flying plastic hook projectiles, posing impact injury and laceration hazards to the user and bystanders.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Replace",
+        "Units": "About 15,000 (In addition, about 3,920 were sold in Canada)",
+        "Incidents": "Excalibur has received 538 reports of the C2 Crank cocking aid hooks breaking during use, resulting in plastic projectiles flying and hitting consumers, including one injury where a consumer reportedly suffered a permanent eye injury.",
+        "Remedy": "Consumers should immediately stop using the recalled C2 Crank and contact Excalibur Crossbow to receive instructions on receiving free replacement rope and hooks.",
+        "Sold At Label": "Sold At",
+        "Sold At": "Bass Pro Shops, Cabela’s, and other stores nationwide and online at excaliburcrossbow.com, ebay.com and amazon.com from January 2008 through December 2021 for about $190.",
+        "Importers": "",
+        "Manufacturers": "Excalibur Crossbow US LLC, of Canada",
+        "Distributors": "",
+        "Manufactured In": "Canada",
+        "Custom Label": "",
+        "Custom Field": ""
+      }
+    }
+  ]
+}

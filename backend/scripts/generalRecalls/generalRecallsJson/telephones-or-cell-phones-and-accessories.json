@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "slug": "telephones-or-cell-phones-and-accessories",
+    "sourceCsvFile": "telephones-or-cell-phones-and-accessories_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:37.085Z",
+    "recallCount": 1
+  },
+  "recalls": [
+    {
+      "RecallID": 10168,
+      "RecallNumber": "25142",
+      "RecallDate": "2025-02-20T00:00:00",
+      "Description": "This recall involves the Fjorden iPhone Camera Grip. The black rectangular grips attach to an iPhone to feel like a real camera and aid with taking photographs.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/Fjorden-iPhone-Camera-Grips-Recalled-Due-to-Battery-Ingestion-Hazard-Violation-of-Reeses-Law-Federal-Safety-Regulations-for-Consumer-Products-with-Coin-Batteries-Sold-Exclusively-on-shop-fjorden-co-by-Fjorden-Electra-AS",
+      "Title": "Fjorden iPhone Camera Grips Recalled Due to Battery Ingestion Hazard; Violation of Reese's Law Federal Safety Regulations for Consumer Products with Coin Batteries; Sold Exclusively on shop.fjorden.co by Fjorden Electra AS",
+      "ConsumerContact": "Fjorden Electra AS via email at hello@fjorden.co, or online at shop.fjorden.co/us-recall or shop.fjorden.co/en-us and click \"Recall\" at the bottom of the page for more information.",
+      "LastPublishDate": "2025-02-20T00:00:00",
+      "Products": [
+        {
+          "Name": "Fjorden iPhone Camera Grips",
+          "NumberOfUnits": "About 546"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/Fjorden-1.jpg",
+          "Caption": "Recalled Fjorden iPhone Camera Grip"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/Fjorden-2.jpg",
+          "Caption": "Recalled Fjorden iPhone Camera Grip with Battery Tray"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Exclusively online at shop.fjorden.co from March 2024 through May 2024 for about $122."
+        }
+      ],
+      "Distributors": [
+        {
+          "Name": "Fjorden Electra AS, of Norway"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "The recalled camera grips violate the mandatory federal regulation for consumer products containing button cell and coin batteries because, when the product is dropped, the battery tray can separate from its compartment, making the lithium coin battery easily accessible by children. If button cell or coin batteries are swallowed, the ingested batteries can cause serious injuries, internal chemical burns, and death."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should stop using the recalled camera grip immediately and place it in an area that children cannot access. Contact Fjorden Electra AS to obtain a free replacement of the button cell battery tray and instructions. Fjorden Electra AS is notifying all known purchasers directly."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Replace"
+        }
+      ]
+    }
+  ]
+}

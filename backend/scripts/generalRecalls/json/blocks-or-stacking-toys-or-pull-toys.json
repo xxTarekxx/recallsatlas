@@ -1,0 +1,745 @@
+{
+  "meta": {
+    "slug": "blocks-or-stacking-toys-or-pull-toys",
+    "sourceCsvFile": "blocks-or-stacking-toys-or-pull-toys_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T04:43:57.050Z",
+    "recallCount": 4
+  },
+  "recalls": [
+    {
+      "merged": {
+        "RecallID": 10570,
+        "RecallNumber": "26204",
+        "RecallDate": "2026-01-22T00:00:00",
+        "Description": "This recall involves the Yetonamr Pull String Teething Toy. The teething toy is an off-white disc shape with either a red ball or blue ball in the middle and six long, silicone pull string \"tentacles\" of various colors running through the ball. There are also three free-spinning rings and soft push buttons on the disc. \"Model no. 688-59\" is printed on the product packaging.",
+        "URL": "https://www.cpsc.gov/Recalls/2026/Yetonamr-Pull-String-Teething-Toys-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Choking-Violate-Mandatory-Standard-for-Toys-Sold-on-Amazon-by-Longyanguiheng",
+        "Title": "Yetonamr Pull String Teething Toys Recalled Due to Risk of Serious Injury or Death from Choking; Violate Mandatory Standard for Toys; Sold on Amazon by Longyanguiheng",
+        "ConsumerContact": "Longyanguiheng by email at yetonamr_recall@163.com.",
+        "LastPublishDate": "2026-01-22T00:00:00",
+        "Products": [
+          {
+            "Name": "Yetonamr Pull String Teething Toys",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 6,800"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/yetnamr-1.png",
+            "Caption": "Recalled Yetonamr Pull String Teething Toy – blue"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/yetnamr-2.png",
+            "Caption": "Recalled Yetonamr Pull String Teething Toy – blue"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/yetnamr-3.png",
+            "Caption": "Recalled Yetonamr Pull String Teething Toy – red"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/yetnamr-4.png",
+            "Caption": "Recalled Yetonamr Pull String Teething Toy – red"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "CPSC is aware of 32 choking incidents."
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Online at Amazon.com from June 2025 through October 2025 for between $10 and $16.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Longyan Xinluo District Guiheng E-Commerce Co. Ltd., dba Longyanguiheng, of China",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": "Sold Online At",
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The recalled teething toys violate the mandatory standard for toys because the silicone strings are smaller than permitted. The silicone strings can reach the back of the throat and become lodged, posing a risk of respiratory distress, serious choking hazard and death.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should stop using the teething toy immediately, take it away from children and contact Longyanguiheng to receive a full refund. Consumers should cut and discard all silicone string tentacles, write \"DESTROYED\" on the main body of the toy using a permanent marker, and email a photograph of the destroyed product to yetonamr_recall@163.com."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 10570,
+        "RecallNumber": "26204",
+        "RecallDate": "2026-01-22T00:00:00",
+        "Description": "This recall involves the Yetonamr Pull String Teething Toy. The teething toy is an off-white disc shape with either a red ball or blue ball in the middle and six long, silicone pull string \"tentacles\" of various colors running through the ball. There are also three free-spinning rings and soft push buttons on the disc. \"Model no. 688-59\" is printed on the product packaging.",
+        "URL": "https://www.cpsc.gov/Recalls/2026/Yetonamr-Pull-String-Teething-Toys-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Choking-Violate-Mandatory-Standard-for-Toys-Sold-on-Amazon-by-Longyanguiheng",
+        "Title": "Yetonamr Pull String Teething Toys Recalled Due to Risk of Serious Injury or Death from Choking; Violate Mandatory Standard for Toys; Sold on Amazon by Longyanguiheng",
+        "ConsumerContact": "Longyanguiheng by email at yetonamr_recall@163.com.",
+        "LastPublishDate": "2026-01-22T00:00:00",
+        "Products": [
+          {
+            "Name": "Yetonamr Pull String Teething Toys",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 6,800"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/yetnamr-1.png",
+            "Caption": "Recalled Yetonamr Pull String Teething Toy – blue"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/yetnamr-2.png",
+            "Caption": "Recalled Yetonamr Pull String Teething Toy – blue"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/yetnamr-3.png",
+            "Caption": "Recalled Yetonamr Pull String Teething Toy – red"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/yetnamr-4.png",
+            "Caption": "Recalled Yetonamr Pull String Teething Toy – red"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "CPSC is aware of 32 choking incidents."
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Online at Amazon.com from June 2025 through October 2025 for between $10 and $16.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Longyan Xinluo District Guiheng E-Commerce Co. Ltd., dba Longyanguiheng, of China",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The recalled teething toys violate the mandatory standard for toys because the silicone strings are smaller than permitted. The silicone strings can reach the back of the throat and become lodged, posing a risk of respiratory distress, serious choking hazard and death.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should stop using the teething toy immediately, take it away from children and contact Longyanguiheng to receive a full refund. Consumers should cut and discard all silicone string tentacles, write \"DESTROYED\" on the main body of the toy using a permanent marker, and email a photograph of the destroyed product to yetonamr_recall@163.com."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "26204",
+        "Product Safety Warning Number": "",
+        "Date": "January 22, 2026",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "Yetonamr Pull String Teething Toys Recalled Due to Risk of Serious Injury or Death from Choking; Violate Mandatory Standard for Toys; Sold on Amazon by Longyanguiheng",
+        "Name of product": "Yetonamr Pull String Teething Toys",
+        "Description": "This recall involves the Yetonamr Pull String Teething Toy. The teething toy is an off-white disc shape with either a red ball or blue ball in the middle and six long, silicone pull string “tentacles” of various colors running through the ball. There are also three free-spinning rings and soft push buttons on the disc. “Model no. 688-59” is printed on the product packaging.",
+        "Hazard Description": "The recalled teething toys violate the mandatory standard for toys because the silicone strings are smaller than permitted. The silicone strings can reach the back of the throat and become lodged, posing a risk of respiratory distress, serious choking hazard and death.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Refund",
+        "Units": "About 6,800",
+        "Incidents": "CPSC is aware of 32 choking incidents.",
+        "Remedy": "Consumers should stop using the teething toy immediately, take it away from children and contact Longyanguiheng to receive a full refund. Consumers should cut and discard all silicone string tentacles, write “DESTROYED” on the main body of the toy using a permanent marker, and email a photograph of the destroyed product to&nbsp;yetonamr_recall@163.com.",
+        "Sold At Label": "Sold Online At",
+        "Sold At": "Amazon.com from June 2025 through October 2025 for between $10 and $16.",
+        "Importers": "Longyan Xinluo District Guiheng E-Commerce Co. Ltd., dba Longyanguiheng, of China",
+        "Manufacturers": "",
+        "Distributors": "",
+        "Manufactured In": "China",
+        "Custom Label": "",
+        "Custom Field": ""
+      }
+    },
+    {
+      "merged": {
+        "RecallID": 10365,
+        "RecallNumber": "25413",
+        "RecallDate": "2025-07-31T00:00:00",
+        "Description": "This recall involves Tegu Magnetic Floating Stackers with model numbers STA-BGY-801T (Rainbow) and STA-BTP-806T (Big Top). The wooden toys consist of a wooden base, six stacking pieces of various colors, two posts, and two figures on top, which all connect with magnets. There are no markings on the products.",
+        "URL": "https://www.cpsc.gov/Recalls/2025/Tegu-Recalls-Magnetic-Floating-Stackers-Toys-Due-to-Magnet-Ingestion-Hazard-Risk-of-Serious-Injury-or-Death-Violates-Mandatory-Standard-for-Toy-Magnets",
+        "Title": "Tegu Recalls Magnetic Floating Stackers Toys Due to Magnet Ingestion Hazard; Risk of Serious Injury or Death; Violates Mandatory Standard for Toy Magnets",
+        "ConsumerContact": "Tegu toll-free at 877-Tegu-Toy (877-834-8869) from 10 a.m. to 7 p.m. ET Monday through Friday, email at service@tegu.com, or online at https://tegu.com/pages/recall or www.tegu.com and click \"Recall\" at the top of the page for more information.",
+        "LastPublishDate": "2025-07-31T00:00:00",
+        "Products": [
+          {
+            "Name": "Magnetic Floating Stackers toys",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "22,850 (In addition, about 1,977 in Canada and about 190 in Mexico)"
+          }
+        ],
+        "Inconjunctions": [
+          {
+            "URL": "https://recalls-rappels.canada.ca/en/alert-recall/tegu-floating-stacker-toy-rainbow-and-big-top-models-recalled-due-choking-and"
+          },
+          {
+            "URL": "https://alertas.gob.mx/detallealerta.php?site=RAR&alerta=1177"
+          }
+        ],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Tegu-1.jpg",
+            "Caption": "Recalled Magnetic Floating Stackers toy, model STA-BGY-801T (Rainbow)"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Tegu-2.jpg",
+            "Caption": "Recalled Magnetic Floating Stackers toy, model STA-BTP-806T (Big Top)"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "The firm has received 31 reports of magnets separating from the toy stacker. No injuries have been reported."
+          }
+        ],
+        "Manufacturers": [
+          {
+            "Name": "Tegu Holdings Inc., of Naples, Florida",
+            "CompanyID": ""
+          }
+        ],
+        "Retailers": [
+          {
+            "Name": "Toy, children's and specialty stores nationwide and online at Tegu.com and Amazon.com from August 2018 through April 2025 for about $40.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [],
+        "Distributors": [],
+        "SoldAtLabel": "Sold At",
+        "ManufacturerCountries": [
+          {
+            "Country": "Honduras"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The recalled magnetic floating stackers toys violate the mandatory standard for toy magnets because they contain magnets that can loosen and detach from the toy, posing an ingestion hazard to children. When high-powered magnets are swallowed, the ingested magnets can attract each other, or other metal objects, and become lodged in the digestive system. This can result in perforations, twisting, and/or blockage of the intestines, blood poisoning and death.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should take the product away from children immediately and contact Tegu for instructions on receiving a free replacement stacker toy."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Replace"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 10365,
+        "RecallNumber": "25413",
+        "RecallDate": "2025-07-31T00:00:00",
+        "Description": "This recall involves Tegu Magnetic Floating Stackers with model numbers STA-BGY-801T (Rainbow) and STA-BTP-806T (Big Top). The wooden toys consist of a wooden base, six stacking pieces of various colors, two posts, and two figures on top, which all connect with magnets. There are no markings on the products.",
+        "URL": "https://www.cpsc.gov/Recalls/2025/Tegu-Recalls-Magnetic-Floating-Stackers-Toys-Due-to-Magnet-Ingestion-Hazard-Risk-of-Serious-Injury-or-Death-Violates-Mandatory-Standard-for-Toy-Magnets",
+        "Title": "Tegu Recalls Magnetic Floating Stackers Toys Due to Magnet Ingestion Hazard; Risk of Serious Injury or Death; Violates Mandatory Standard for Toy Magnets",
+        "ConsumerContact": "Tegu toll-free at 877-Tegu-Toy (877-834-8869) from 10 a.m. to 7 p.m. ET Monday through Friday, email at service@tegu.com, or online at https://tegu.com/pages/recall or www.tegu.com and click \"Recall\" at the top of the page for more information.",
+        "LastPublishDate": "2025-07-31T00:00:00",
+        "Products": [
+          {
+            "Name": "Magnetic Floating Stackers toys",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "22,850 (In addition, about 1,977 in Canada and about 190 in Mexico)"
+          }
+        ],
+        "Inconjunctions": [
+          {
+            "URL": "https://recalls-rappels.canada.ca/en/alert-recall/tegu-floating-stacker-toy-rainbow-and-big-top-models-recalled-due-choking-and"
+          },
+          {
+            "URL": "https://alertas.gob.mx/detallealerta.php?site=RAR&alerta=1177"
+          }
+        ],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Tegu-1.jpg",
+            "Caption": "Recalled Magnetic Floating Stackers toy, model STA-BGY-801T (Rainbow)"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Tegu-2.jpg",
+            "Caption": "Recalled Magnetic Floating Stackers toy, model STA-BTP-806T (Big Top)"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "The firm has received 31 reports of magnets separating from the toy stacker. No injuries have been reported."
+          }
+        ],
+        "Manufacturers": [
+          {
+            "Name": "Tegu Holdings Inc., of Naples, Florida",
+            "CompanyID": ""
+          }
+        ],
+        "Retailers": [
+          {
+            "Name": "Toy, children's and specialty stores nationwide and online at Tegu.com and Amazon.com from August 2018 through April 2025 for about $40.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [],
+        "Distributors": [],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "Honduras"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The recalled magnetic floating stackers toys violate the mandatory standard for toy magnets because they contain magnets that can loosen and detach from the toy, posing an ingestion hazard to children. When high-powered magnets are swallowed, the ingested magnets can attract each other, or other metal objects, and become lodged in the digestive system. This can result in perforations, twisting, and/or blockage of the intestines, blood poisoning and death.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should take the product away from children immediately and contact Tegu for instructions on receiving a free replacement stacker toy."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Replace"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "25413",
+        "Product Safety Warning Number": "",
+        "Date": "July 31, 2025",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "Tegu Recalls Magnetic Floating Stackers Toys Due to Magnet Ingestion Hazard; Risk of Serious Injury or Death; Violates Mandatory Standard for Toy Magnets",
+        "Name of product": "Magnetic Floating Stackers toys",
+        "Description": "This recall involves Tegu Magnetic Floating Stackers with model numbers STA-BGY-801T (Rainbow) and STA-BTP-806T (Big Top). The wooden toys consist of a wooden base, six stacking pieces of various colors, two posts, and two figures on top, which all connect with magnets. There are no markings on the products.",
+        "Hazard Description": "The recalled magnetic floating stackers toys violate the mandatory standard for toy magnets because they contain magnets that can loosen and detach from the toy, posing an ingestion hazard to children. When high-powered magnets are swallowed, the ingested magnets can attract each other, or other metal objects, and become lodged in the digestive system. This can result in perforations, twisting, and/or blockage of the intestines, blood poisoning and death.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Replace",
+        "Units": "22,850 (In addition, about 1,977 in Canada and about 190 in Mexico)",
+        "Incidents": "The firm has received 31 reports of magnets separating from the toy stacker. No injuries have been reported.",
+        "Remedy": "Consumers should take the product away from children immediately and contact Tegu for instructions on receiving a free replacement stacker toy.",
+        "Sold At Label": "Sold At",
+        "Sold At": "Toy, children’s and specialty stores nationwide and online at Tegu.com and Amazon.com from August 2018 through April 2025 for about $40.",
+        "Importers": "",
+        "Manufacturers": "Tegu Holdings Inc., of Naples, Florida",
+        "Distributors": "",
+        "Manufactured In": "Honduras",
+        "Custom Label": "",
+        "Custom Field": ""
+      }
+    },
+    {
+      "merged": {
+        "RecallID": 10262,
+        "RecallNumber": "25252",
+        "RecallDate": "2025-05-08T00:00:00",
+        "Description": "This recall involves Xylolin peg doll with pedestal sets. The toy sets consist of nine rainbow-colored peg dolls in various sizes and a natural wood-colored base that has holes to match with the size of the peg dolls. \"Model SD13\" is printed on a white label on the side of the product packaging.",
+        "URL": "https://www.cpsc.gov/Recalls/2025/Xylolin-Peg-Doll-Toy-Sets-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Choking-Hazard-Violation-of-Federal-Regulations-for-Toys-Sold-Exclusively-on-Amazon-com-by-Babywants",
+        "Title": "Xylolin Peg Doll Toy Sets Recalled Due to Risk of Serious Injury or Death from Choking Hazard; Violation of Federal Regulations for Toys; Sold Exclusively on Amazon.com by Babywants",
+        "ConsumerContact": "Babywants by email at recall@twoodtoy.com or online at www.xylolintoys.com/pages/recall-page.",
+        "LastPublishDate": "2025-05-08T00:00:00",
+        "Products": [
+          {
+            "Name": "Xylolin Peg Doll Toy Sets",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 3,400"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Xylolin-1.jpg",
+            "Caption": "Recalled Xylolin peg dolls and pedestal toy set"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Xylolin-2.jpg",
+            "Caption": "Recalled Xylolin peg dolls with pedestal toy set - packaging"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Xylolin-3.jpg",
+            "Caption": "\"Model SD13\" is printed on a white label located on the side of the product packaging"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Amazon.com from May 2021 through January 2025 for about $20.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Taizhoushi Ermu Jinchukou Co., Ltd., dba Babywants, and owner of the Xylolin brand, of China",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": "Sold Exclusively Online",
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The peg dolls' spherical ends can block the child's airway, posing a risk of choking and death to children.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should take the product away from children immediately, dispose of the product and send a picture to Babywants for a full refund. Amazon is contacting all known purchasers directly."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 10262,
+        "RecallNumber": "25252",
+        "RecallDate": "2025-05-08T00:00:00",
+        "Description": "This recall involves Xylolin peg doll with pedestal sets. The toy sets consist of nine rainbow-colored peg dolls in various sizes and a natural wood-colored base that has holes to match with the size of the peg dolls. \"Model SD13\" is printed on a white label on the side of the product packaging.",
+        "URL": "https://www.cpsc.gov/Recalls/2025/Xylolin-Peg-Doll-Toy-Sets-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Choking-Hazard-Violation-of-Federal-Regulations-for-Toys-Sold-Exclusively-on-Amazon-com-by-Babywants",
+        "Title": "Xylolin Peg Doll Toy Sets Recalled Due to Risk of Serious Injury or Death from Choking Hazard; Violation of Federal Regulations for Toys; Sold Exclusively on Amazon.com by Babywants",
+        "ConsumerContact": "Babywants by email at recall@twoodtoy.com or online at www.xylolintoys.com/pages/recall-page.",
+        "LastPublishDate": "2025-05-08T00:00:00",
+        "Products": [
+          {
+            "Name": "Xylolin Peg Doll Toy Sets",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 3,400"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Xylolin-1.jpg",
+            "Caption": "Recalled Xylolin peg dolls and pedestal toy set"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Xylolin-2.jpg",
+            "Caption": "Recalled Xylolin peg dolls with pedestal toy set - packaging"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Xylolin-3.jpg",
+            "Caption": "\"Model SD13\" is printed on a white label located on the side of the product packaging"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Amazon.com from May 2021 through January 2025 for about $20.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Taizhoushi Ermu Jinchukou Co., Ltd., dba Babywants, and owner of the Xylolin brand, of China",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The peg dolls' spherical ends can block the child's airway, posing a risk of choking and death to children.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should take the product away from children immediately, dispose of the product and send a picture to Babywants for a full refund. Amazon is contacting all known purchasers directly."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "25252",
+        "Product Safety Warning Number": "",
+        "Date": "May 08, 2025",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "Xylolin Peg Doll Toy Sets Recalled Due to Risk of Serious Injury or Death from Choking Hazard; Violation of Federal Regulations for Toys; Sold Exclusively on Amazon.com by Babywants",
+        "Name of product": "Xylolin Peg Doll Toy Sets",
+        "Description": "This recall involves Xylolin peg doll with pedestal sets. The toy sets consist of nine rainbow-colored peg dolls in various sizes and a natural wood-colored base that has holes to match with the size of the peg dolls. “Model SD13” is printed on a white label on the side of the product packaging.",
+        "Hazard Description": "The peg dolls’ spherical ends can block the child’s airway, posing a risk of choking and death to children.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Refund",
+        "Units": "About 3,400",
+        "Incidents": "None reported",
+        "Remedy": "Consumers should take the product away from children immediately, dispose of the product and send a picture to Babywants for a full refund. Amazon is contacting all known purchasers directly.",
+        "Sold At Label": "Sold Exclusively Online",
+        "Sold At": "Amazon.com from May 2021 through January 2025 for about $20.",
+        "Importers": "Taizhoushi Ermu Jinchukou Co., Ltd., dba Babywants, and owner of the Xylolin brand, of China",
+        "Manufacturers": "",
+        "Distributors": "",
+        "Manufactured In": "China",
+        "Custom Label": "",
+        "Custom Field": ""
+      }
+    },
+    {
+      "merged": {
+        "RecallID": 10251,
+        "RecallNumber": "25237",
+        "RecallDate": "2025-04-24T00:00:00",
+        "Description": "This recall involves Kids Thrill Shape Sorter Cars Hammer Toys with model number MZL-038. The shape sorter cars are sold in a box with the words \"Kids Thrill 2 in 1 Shape Sorter Car.\" The wooden shape sorter cars include two wooden mallets and wooden pieces in various shapes, including balls, stars and hearts. The bottom of the car has a label with the words \"BEDLEE BARGAIN, INC. BROOKLYN, NY BATCH NO. BEDLEE220801 PRODUCTION DATE: AUG 2022 MADE IN SHANGOU, CHINA.\"",
+        "URL": "https://www.cpsc.gov/Recalls/2025/Deals-Oasis-Recalls-Shape-Sorter-Car-Toys-Due-to-Choking-Hazard-Violation-of-Small-Parts-Requirements-Risk-of-Serious-Injury-or-Death",
+        "Title": "Deals Oasis Recalls Shape Sorter Car Toys Due to Choking Hazard; Violation of Small Parts Requirements; Risk of Serious Injury or Death",
+        "ConsumerContact": "Deals Oasis at shapesorterrecall@gmail.com for instructions on obtaining a shipping label for product return and a full refund.",
+        "LastPublishDate": "2025-04-24T00:00:00",
+        "Products": [
+          {
+            "Name": "Kids Thrill Shape Sorter Car Toys",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 5,950"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/shape-sort-1.jpg",
+            "Caption": "Recalled Shape Sorter Toy"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/shape-sort-2.jpg",
+            "Caption": "Bottom Label on Recalled Shape Sorter Toy"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Online at www.amazon.com from October 2023 through January 2025 for about $12.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Deals Oasis of New York, New York",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": "Sold At",
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The recalled shape sorter car toys contain balls that violate regulations banning small parts in toys intended for children under three years of age because they are a choking hazard, and can cause serious injury or death.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should stop using the recalled shape sorter car toys immediately and contact Deals Oasis for information on how to return the product for a full refund. Amazon is contacting all known purchasers directly."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 10251,
+        "RecallNumber": "25237",
+        "RecallDate": "2025-04-24T00:00:00",
+        "Description": "This recall involves Kids Thrill Shape Sorter Cars Hammer Toys with model number MZL-038. The shape sorter cars are sold in a box with the words \"Kids Thrill 2 in 1 Shape Sorter Car.\" The wooden shape sorter cars include two wooden mallets and wooden pieces in various shapes, including balls, stars and hearts. The bottom of the car has a label with the words \"BEDLEE BARGAIN, INC. BROOKLYN, NY BATCH NO. BEDLEE220801 PRODUCTION DATE: AUG 2022 MADE IN SHANGOU, CHINA.\"",
+        "URL": "https://www.cpsc.gov/Recalls/2025/Deals-Oasis-Recalls-Shape-Sorter-Car-Toys-Due-to-Choking-Hazard-Violation-of-Small-Parts-Requirements-Risk-of-Serious-Injury-or-Death",
+        "Title": "Deals Oasis Recalls Shape Sorter Car Toys Due to Choking Hazard; Violation of Small Parts Requirements; Risk of Serious Injury or Death",
+        "ConsumerContact": "Deals Oasis at shapesorterrecall@gmail.com for instructions on obtaining a shipping label for product return and a full refund.",
+        "LastPublishDate": "2025-04-24T00:00:00",
+        "Products": [
+          {
+            "Name": "Kids Thrill Shape Sorter Car Toys",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 5,950"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/shape-sort-1.jpg",
+            "Caption": "Recalled Shape Sorter Toy"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/shape-sort-2.jpg",
+            "Caption": "Bottom Label on Recalled Shape Sorter Toy"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Online at www.amazon.com from October 2023 through January 2025 for about $12.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Deals Oasis of New York, New York",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The recalled shape sorter car toys contain balls that violate regulations banning small parts in toys intended for children under three years of age because they are a choking hazard, and can cause serious injury or death.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should stop using the recalled shape sorter car toys immediately and contact Deals Oasis for information on how to return the product for a full refund. Amazon is contacting all known purchasers directly."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "25237",
+        "Product Safety Warning Number": "",
+        "Date": "April 24, 2025",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "Deals Oasis Recalls Shape Sorter Car Toys Due to Choking Hazard; Violation of Small Parts Requirements; Risk of Serious Injury or Death",
+        "Name of product": "Kids Thrill Shape Sorter Car Toys",
+        "Description": "This recall involves Kids Thrill Shape Sorter Cars Hammer Toys with model number&nbsp;MZL-038. The shape sorter cars are sold in a box with the words “Kids Thrill 2 in 1 Shape Sorter Car.” The wooden shape sorter cars include two wooden mallets and wooden pieces in various shapes, including balls, stars and hearts. The bottom of the car has a label with the words “BEDLEE BARGAIN, INC. BROOKLYN, NY BATCH NO. BEDLEE220801 PRODUCTION DATE: AUG 2022 MADE IN SHANGOU, CHINA.”",
+        "Hazard Description": "The recalled shape sorter car toys contain balls that violate regulations banning small parts in toys intended for children under three years of age because they are a choking hazard, and can cause serious injury or death.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Refund",
+        "Units": "About 5,950",
+        "Incidents": "None reported",
+        "Remedy": "Consumers should stop using the recalled shape sorter car toys immediately and contact Deals Oasis for information on how to return the product for a full refund. Amazon is contacting all known purchasers directly.",
+        "Sold At Label": "Sold At",
+        "Sold At": "Online at www.amazon.com from October 2023 through January 2025 for about $12.",
+        "Importers": "Deals Oasis of New York, New York",
+        "Manufacturers": "",
+        "Distributors": "",
+        "Manufactured In": "China",
+        "Custom Label": "",
+        "Custom Field": ""
+      }
+    }
+  ]
+}

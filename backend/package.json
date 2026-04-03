@@ -4,12 +4,14 @@
   "private": true,
   "type": "commonjs",
   "scripts": {
-    "test": "node -e \"require('./database/mongodb').getDb().then(() => console.log('MongoDB OK')).catch(e => { console.error(e); process.exit(1); })\""
+    "test": "node -e \"require('./database/mongodb').getDb().then(() => console.log('MongoDB OK')).catch(e => { console.error(e); process.exit(1); })\"",
+    "merge-general-recalls": "node scripts/generalRecalls/mergeDownloadsToJson.js"
   },
   "dependencies": {
     "axios": "^1.13.6",
     "cheerio": "^1.2.0",
     "crypto": "^1.0.1",
+    "csv-parse": "^5.6.0",
     "dotenv": "^17.3.1",
     "fs-extra": "^11.3.4",
     "mongodb": "^6.10.0",

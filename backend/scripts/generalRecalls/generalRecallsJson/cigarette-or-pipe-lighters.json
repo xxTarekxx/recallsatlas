@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "slug": "cigarette-or-pipe-lighters",
+    "sourceCsvFile": "cigarette-or-pipe-lighters_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:36.867Z",
+    "recallCount": 1
+  },
+  "recalls": [
+    {
+      "RecallID": 9847,
+      "RecallNumber": "24111",
+      "RecallDate": "2024-02-08T00:00:00",
+      "Description": "This recall involves Slim Soft and Slim Jet disposable lighters imported by VPR Brands. The products have \"DISSIM\" imprinted on one side and are 3.5 inches by 1 inch in size. They were sold in black, blue, clear, gray, red, white, and yellow colors, and have a molded circular grip at the bottom.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/VPR-Brands-Recalls-Lighters-Due-to-Missing-Child-Safety-Feature-Posing-Burn-and-Fire-Hazards-Violation-of-the-Federal-Regulation-for-Cigarette-Lighters",
+      "Title": "VPR Brands Recalls Lighters Due to Missing Child Safety Feature, Posing Burn and Fire Hazards; Violation of the Federal Regulation for Cigarette Lighters",
+      "ConsumerContact": "VPR Brands toll-free at 888-420-8858 from 9 a.m. to 5 p.m. ET Monday through Friday, email at info@vprbrands.com, or online at https://vprbrands.com/contact-recall/ or https://vprbrands.com and click on \"Recall\" at the top of the page for more information.",
+      "LastPublishDate": "2024-02-08T00:00:00",
+      "Products": [
+        {
+          "Name": "Disposable Lighters",
+          "NumberOfUnits": "About 62,200"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/VPR-lighters-1.png",
+          "Caption": "Recalled VPR Brands Lighters"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/VPR-lighters-2.png",
+          "Caption": "Recalled VPR Brands Lighters"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Small independent stores nationwide and online at vprbrands.com from September 2022 through November 2023 for about $18."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "VPR Brands, of Sunrise, Florida"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "The lighters do not have child-resistant mechanisms and were not tested to the federal regulatory requirements for child resistance. Young children under 5 years old could ignite the lighters, posing fire and burn hazards."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should stop using the recalled lighters immediately and contact VPR Brands for instructions on how to destroy the device and submit proof of destruction to receive a full refund."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ]
+    }
+  ]
+}

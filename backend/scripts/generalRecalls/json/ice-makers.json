@@ -1,0 +1,407 @@
+{
+  "meta": {
+    "slug": "ice-makers",
+    "sourceCsvFile": "ice-makers_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T04:43:57.213Z",
+    "recallCount": 2
+  },
+  "recalls": [
+    {
+      "merged": {
+        "RecallID": 10523,
+        "RecallNumber": "26147",
+        "RecallDate": "2025-12-11T00:00:00",
+        "Description": "This recall involves Vevor's ice crushing machines designed for consumer use. The ice crusher has a handle that consumers press down to feed ice into a shoot; the handle activates a cutter within the feed shoot. The products were advertised as Ice Shavers, Ice Crushers, and Snow Cone Makers. The ice crushing machines were all sold under model number BY-300 and BY-300 FS and came in yellow, red, silver and blue. \"Vevor\" and the model number are printed on a label on the top of the product.",
+        "URL": "https://www.cpsc.gov/Recalls/2026/Sanven-Technology-Recalls-Vevor-Ice-Crushers-Due-to-Fire-Hazard",
+        "Title": "Sanven Technology Recalls Vevor Ice Crushers Due to Fire Hazard",
+        "ConsumerContact": "Sanven Technology toll-free at 855-599-6320 from 9 a.m. to 5 p.m. PT Monday through Friday, email at recalling@vevor.com, or online at https://www.vevor.com/pages/vevor-ice-shaver-recall or at www.vevor.com and click on \"Product Recall\" for more information.",
+        "LastPublishDate": "2025-12-11T00:00:00",
+        "Products": [
+          {
+            "Name": "Vevor Ice Crushers",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 11,650 (In addition, about 1,060 were sold in Canada)"
+          }
+        ],
+        "Inconjunctions": [
+          {
+            "URL": "https://recalls-rappels.canada.ca/en/alert-recall/vevor-ice-crusher-recalled-due-fire-hazard"
+          }
+        ],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/vevorice-1.jpg",
+            "Caption": "Recalled Vevor Ice Crusher, model number BY-300 in yellow (SBY-300FD110V3ZIQV1)"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/vevorice-2.jpg",
+            "Caption": "Recalled Vevor Ice Crusher, model number BY-300 in red (SBY-300FD110VE784V1)"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/vevorice-3.jpg",
+            "Caption": "Recalled Vevor Ice Crusher, model number BY-300 in silver (SBY-300FD110VLDK1V1)"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/vevorice-4.jpg",
+            "Caption": "Recalled Vevor Ice Crusher, model number BY-300FS in blue (SBJBXS220300WRVKAV1)"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/vevorice-5.jpg",
+            "Caption": "Recalled Vevor Ice Crusher, model number BY-300FS in silver (SBJBXS220300WSNSVV1)"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/vevorice-6.jpg",
+            "Caption": "Recalled Vevor Ice Crusher, model number BY-300FS in red (SBJBXS220300W1L2RV1)"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/vevorice-7.jpg",
+            "Caption": "Label on top of Recalled Vevor Ice Crusher"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "Sanven has received two reports of thermal events, including one fire."
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Online at Vevor.com, Amazon.com, Walmart.com, Wayfair.com, HomeDepot.com and Lowes.com from July 2021 through July 2025 for between $40 and $86.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [],
+        "Distributors": [
+          {
+            "Name": "Sanven Technology Ltd., dba Vevor, of Rancho Cucamonga, California",
+            "CompanyID": ""
+          }
+        ],
+        "SoldAtLabel": "Sold Online At",
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The ice crusher can experience a thermal event and ignite, posing a fire hazard.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled ice crusher and contact Sanven for a full refund. Consumers should email a photograph of the ice crusher with the unplugged power cord cut in half to recalling@vevor.com."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 10523,
+        "RecallNumber": "26147",
+        "RecallDate": "2025-12-11T00:00:00",
+        "Description": "This recall involves Vevor's ice crushing machines designed for consumer use. The ice crusher has a handle that consumers press down to feed ice into a shoot; the handle activates a cutter within the feed shoot. The products were advertised as Ice Shavers, Ice Crushers, and Snow Cone Makers. The ice crushing machines were all sold under model number BY-300 and BY-300 FS and came in yellow, red, silver and blue. \"Vevor\" and the model number are printed on a label on the top of the product.",
+        "URL": "https://www.cpsc.gov/Recalls/2026/Sanven-Technology-Recalls-Vevor-Ice-Crushers-Due-to-Fire-Hazard",
+        "Title": "Sanven Technology Recalls Vevor Ice Crushers Due to Fire Hazard",
+        "ConsumerContact": "Sanven Technology toll-free at 855-599-6320 from 9 a.m. to 5 p.m. PT Monday through Friday, email at recalling@vevor.com, or online at https://www.vevor.com/pages/vevor-ice-shaver-recall or at www.vevor.com and click on \"Product Recall\" for more information.",
+        "LastPublishDate": "2025-12-11T00:00:00",
+        "Products": [
+          {
+            "Name": "Vevor Ice Crushers",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 11,650 (In addition, about 1,060 were sold in Canada)"
+          }
+        ],
+        "Inconjunctions": [
+          {
+            "URL": "https://recalls-rappels.canada.ca/en/alert-recall/vevor-ice-crusher-recalled-due-fire-hazard"
+          }
+        ],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/vevorice-1.jpg",
+            "Caption": "Recalled Vevor Ice Crusher, model number BY-300 in yellow (SBY-300FD110V3ZIQV1)"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/vevorice-2.jpg",
+            "Caption": "Recalled Vevor Ice Crusher, model number BY-300 in red (SBY-300FD110VE784V1)"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/vevorice-3.jpg",
+            "Caption": "Recalled Vevor Ice Crusher, model number BY-300 in silver (SBY-300FD110VLDK1V1)"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/vevorice-4.jpg",
+            "Caption": "Recalled Vevor Ice Crusher, model number BY-300FS in blue (SBJBXS220300WRVKAV1)"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/vevorice-5.jpg",
+            "Caption": "Recalled Vevor Ice Crusher, model number BY-300FS in silver (SBJBXS220300WSNSVV1)"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/vevorice-6.jpg",
+            "Caption": "Recalled Vevor Ice Crusher, model number BY-300FS in red (SBJBXS220300W1L2RV1)"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/vevorice-7.jpg",
+            "Caption": "Label on top of Recalled Vevor Ice Crusher"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "Sanven has received two reports of thermal events, including one fire."
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Online at Vevor.com, Amazon.com, Walmart.com, Wayfair.com, HomeDepot.com and Lowes.com from July 2021 through July 2025 for between $40 and $86.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [],
+        "Distributors": [
+          {
+            "Name": "Sanven Technology Ltd., dba Vevor, of Rancho Cucamonga, California",
+            "CompanyID": ""
+          }
+        ],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The ice crusher can experience a thermal event and ignite, posing a fire hazard.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled ice crusher and contact Sanven for a full refund. Consumers should email a photograph of the ice crusher with the unplugged power cord cut in half to recalling@vevor.com."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "26147",
+        "Product Safety Warning Number": "",
+        "Date": "December 11, 2025",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "Sanven Technology Recalls Vevor Ice Crushers Due to Fire Hazard",
+        "Name of product": "Vevor Ice Crushers",
+        "Description": "This recall involves Vevor’s ice crushing machines designed for consumer use. The ice crusher has a handle that consumers press down to feed ice into a shoot; the handle activates a cutter within the feed shoot. The products were advertised as Ice Shavers, Ice Crushers, and Snow Cone Makers. The ice crushing machines were all sold under model number BY-300 and BY-300 FS and came in yellow, red, silver and blue. “Vevor” and the model number are printed on a label on the top of the product.",
+        "Hazard Description": "The ice crusher can experience a thermal event and ignite, posing a fire hazard.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Refund",
+        "Units": "About 11,650 (In addition, about 1,060 were sold in Canada)",
+        "Incidents": "Sanven has received two reports of thermal events, including one fire.",
+        "Remedy": "Consumers should immediately stop using the recalled ice crusher and contact Sanven for a full refund. Consumers should email a photograph of the ice crusher with the unplugged power cord cut in half to&nbsp;recalling@vevor.com.",
+        "Sold At Label": "Sold Online At",
+        "Sold At": "Vevor.com, Amazon.com, Walmart.com, Wayfair.com, HomeDepot.com and Lowes.com from July 2021 through July 2025 for between $40 and $86",
+        "Importers": "",
+        "Manufacturers": "",
+        "Distributors": "Sanven Technology Ltd., dba Vevor, of Rancho Cucamonga, California",
+        "Manufactured In": "China",
+        "Custom Label": "",
+        "Custom Field": ""
+      }
+    },
+    {
+      "merged": {
+        "RecallID": 9846,
+        "RecallNumber": "24110",
+        "RecallDate": "2024-02-08T00:00:00",
+        "Description": "This recall involves certain Frigidaire branded side by side refrigerators with Slim Ice buckets manufactured between 2015 and 2019, with model numbers DGHK2355TF, DGHX2655TF, FFSC2323TS, FGSC2335TD, FGSC2335TF, FGSS2635TD, FGSS2635TE, FGSS2635TF, FGSS2635TP, FPSC2277RF, FPSC2278UF, FPSS2677RF, LFSC2324VF, LGHK2336TD, LGHK2336TF, LGHX2636TD, and LGHX2636TF. Consumers can also visit https://www.frigidaire.com/en/frigidaire-recall-information to see if their specific serial number is included in this recall. The model and serial numbers are printed on a serial plate located inside the refrigerator compartment. Model numbers include: Model Numbers DGHK2355TF DGHX2655TF FFSC2323TS FGSC2335TD FGSC2335TF FGSS2635TD FGSS2635TE FGSS2635TF FGSS2635TP FPSC2277RF FPSC2278UF FPSS2677RF LFSC2324VF LGHK2336TD LGHK2336TF LGHX2636TD LGHX2636TF Color Guide The last letter of each model number denotes the various colors: F and S: Stainless Steel D: Dark Stainless Steel E: Black Painted P: White Painted",
+        "URL": "https://www.cpsc.gov/Recalls/2024/Electrolux-Group-Recalls-Frigidaire-Side-by-Side-Refrigerators-with-Slim-Ice-Buckets-Due-to-Choking-and-Laceration-Hazards",
+        "Title": "Electrolux Group Recalls Frigidaire Side by Side Refrigerators with Slim Ice Buckets Due to Choking and Laceration Hazards",
+        "ConsumerContact": "Electrolux Group toll-free at 888-377-7563 from 8:30 a.m. to 8 p.m. ET Monday through Friday, by email at IceBucketRecall@electrolux.com or online at www.icebucketrecall.com or at www.frigidaire.com and click on \"Recall Information\" at the top of the page for more information.",
+        "LastPublishDate": "2024-02-08T00:00:00",
+        "Products": [
+          {
+            "Name": "Frigidaire Branded Side by Side Refrigerators with Slim Ice Buckets",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 383,240"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Frigidaire-1.png",
+            "Caption": "Recalled Production Year 2015-2019 Frigidaire Branded Side by Side Refrigerators with Slim Ice Buckets"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Frigidaire-2.png",
+            "Caption": "Recalled Production Year 2015-2019 Frigidaire Branded Side by Side Refrigerators with Slim Ice Buckets"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "Electrolux Group has received 343 reports of plastic pieces breaking off, including two incidents resulting in laceration and ingestion injuries when the pieces were dispensed out of the recalled ice bucket."
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Lowe's, Home Depot and other stores nationwide and online at Frigidaire.com from November 2015 through September 2019 for between $1,400 and $2,400.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Electrolux Home Products Inc., of Charlotte, North Carolina",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": "Sold At",
+        "ManufacturerCountries": [
+          {
+            "Country": "Mexico"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The recalled refrigerators contain an ice bucket assembly component that can break, resulting in plastic pieces entering the ice bucket, posing choking and laceration hazards to consumers if the pieces are dispensed out of the ice bucket.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the ice makers and contact Electrolux Group to request a replacement ice bucket assembly component, free of charge."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Repair"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 9846,
+        "RecallNumber": "24110",
+        "RecallDate": "2024-02-08T00:00:00",
+        "Description": "This recall involves certain Frigidaire branded side by side refrigerators with Slim Ice buckets manufactured between 2015 and 2019, with model numbers DGHK2355TF, DGHX2655TF, FFSC2323TS, FGSC2335TD, FGSC2335TF, FGSS2635TD, FGSS2635TE, FGSS2635TF, FGSS2635TP, FPSC2277RF, FPSC2278UF, FPSS2677RF, LFSC2324VF, LGHK2336TD, LGHK2336TF, LGHX2636TD, and LGHX2636TF. Consumers can also visit https://www.frigidaire.com/en/frigidaire-recall-information to see if their specific serial number is included in this recall. The model and serial numbers are printed on a serial plate located inside the refrigerator compartment. Model numbers include: Model Numbers DGHK2355TF DGHX2655TF FFSC2323TS FGSC2335TD FGSC2335TF FGSS2635TD FGSS2635TE FGSS2635TF FGSS2635TP FPSC2277RF FPSC2278UF FPSS2677RF LFSC2324VF LGHK2336TD LGHK2336TF LGHX2636TD LGHX2636TF Color Guide The last letter of each model number denotes the various colors: F and S: Stainless Steel D: Dark Stainless Steel E: Black Painted P: White Painted",
+        "URL": "https://www.cpsc.gov/Recalls/2024/Electrolux-Group-Recalls-Frigidaire-Side-by-Side-Refrigerators-with-Slim-Ice-Buckets-Due-to-Choking-and-Laceration-Hazards",
+        "Title": "Electrolux Group Recalls Frigidaire Side by Side Refrigerators with Slim Ice Buckets Due to Choking and Laceration Hazards",
+        "ConsumerContact": "Electrolux Group toll-free at 888-377-7563 from 8:30 a.m. to 8 p.m. ET Monday through Friday, by email at IceBucketRecall@electrolux.com or online at www.icebucketrecall.com or at www.frigidaire.com and click on \"Recall Information\" at the top of the page for more information.",
+        "LastPublishDate": "2024-02-08T00:00:00",
+        "Products": [
+          {
+            "Name": "Frigidaire Branded Side by Side Refrigerators with Slim Ice Buckets",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 383,240"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Frigidaire-1.png",
+            "Caption": "Recalled Production Year 2015-2019 Frigidaire Branded Side by Side Refrigerators with Slim Ice Buckets"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Frigidaire-2.png",
+            "Caption": "Recalled Production Year 2015-2019 Frigidaire Branded Side by Side Refrigerators with Slim Ice Buckets"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "Electrolux Group has received 343 reports of plastic pieces breaking off, including two incidents resulting in laceration and ingestion injuries when the pieces were dispensed out of the recalled ice bucket."
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Lowe's, Home Depot and other stores nationwide and online at Frigidaire.com from November 2015 through September 2019 for between $1,400 and $2,400.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Electrolux Home Products Inc., of Charlotte, North Carolina",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "Mexico"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The recalled refrigerators contain an ice bucket assembly component that can break, resulting in plastic pieces entering the ice bucket, posing choking and laceration hazards to consumers if the pieces are dispensed out of the ice bucket.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the ice makers and contact Electrolux Group to request a replacement ice bucket assembly component, free of charge."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Repair"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "24110",
+        "Product Safety Warning Number": "",
+        "Date": "February 08, 2024",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "Electrolux Group Recalls Frigidaire Side by Side Refrigerators with Slim Ice Buckets Due to Choking and Laceration Hazards",
+        "Name of product": "Frigidaire Branded Side by Side Refrigerators with Slim Ice Buckets",
+        "Description": "This recall involves certain Frigidaire branded side by side refrigerators with Slim Ice buckets manufactured between 2015 and 2019, with model numbers DGHK2355TF, DGHX2655TF, FFSC2323TS, FGSC2335TD, FGSC2335TF, FGSS2635TD, FGSS2635TE, FGSS2635TF, FGSS2635TP, FPSC2277RF, FPSC2278UF, FPSS2677RF, LFSC2324VF, LGHK2336TD, LGHK2336TF, LGHX2636TD, and LGHX2636TF. Consumers can also visit&nbsp;https://www.frigidaire.com/en/frigidaire-recall-information to see if their specific serial number is included in this recall. The model and serial numbers are printed on a serial plate located inside the refrigerator compartment. Model numbers include:Model NumbersColor GuideDGHK2355TFDGHX2655TFFFSC2323TSFGSC2335TDFGSC2335TFFGSS2635TDFGSS2635TEFGSS2635TFFGSS2635TPFPSC2277RFFPSC2278UFFPSS2677RFLFSC2324VFLGHK2336TDLGHK2336TFLGHX2636TDLGHX2636TF&nbsp;&nbsp;The last letter of each model number denotes the various colors:F and S: Stainless SteelD: Dark Stainless SteelE: Black PaintedP: White Painted&nbsp;&nbsp;",
+        "Hazard Description": "The recalled refrigerators contain an ice bucket assembly component that can break, resulting in plastic pieces entering the ice bucket, posing choking and laceration hazards to consumers if the pieces are dispensed out of the ice bucket.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Repair",
+        "Units": "About 383,240 (In addition, about 5,785 units were sold in Canada) ",
+        "Incidents": "Electrolux Group has received 343 reports of plastic pieces breaking off, including two incidents resulting in laceration and ingestion injuries when the pieces were dispensed out of the recalled ice bucket.",
+        "Remedy": "Consumers should immediately stop using the ice makers and contact Electrolux Group to request a replacement ice bucket assembly component, free of charge.",
+        "Sold At Label": "Sold At",
+        "Sold At": "Lowe’s, Home Depot and other stores nationwide and online at Frigidaire.com from November 2015 through September 2019 for between $1,400 and $2,400.",
+        "Importers": "Electrolux Home Products Inc., of Charlotte, North Carolina",
+        "Manufacturers": "",
+        "Distributors": "",
+        "Manufactured In": "Mexico",
+        "Custom Label": "",
+        "Custom Field": ""
+      }
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "meta": {
+    "slug": "swings-or-swing-sets",
+    "sourceCsvFile": "swings-or-swing-sets_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T04:43:57.356Z",
+    "recallCount": 1
+  },
+  "recalls": [
+    {
+      "merged": {
+        "RecallID": 10660,
+        "RecallNumber": "26324",
+        "RecallDate": "2026-03-12T00:00:00",
+        "Description": "This recall involves the Playground Swing Set Seats sold as part of assembled playground sets. The swing belt seat was sold in black, blue, green, red, tan, and yellow colors. The product is marked with the code \"LF-65708\" on the seat pad part. Only swings with model number 999604 are included in this recall. ",
+        "URL": "https://www.cpsc.gov/Recalls/2026/LFTE-USA-Recalls-Playground-Swing-Set-Seats-Due-to-Fall-Hazard",
+        "Title": "LFTE USA Recalls Playground Swing Set Seats Due to Fall Hazard",
+        "ConsumerContact": "LFTE USA by email at recall@lfteusa.com.",
+        "LastPublishDate": "2026-03-13T00:00:00",
+        "Products": [
+          {
+            "Name": "Playground Swing Set Seats",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 7,200"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/playgroundss-1.jpg",
+            "Caption": "Recalled playground swing set"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/playgroundss-2.jpg",
+            "Caption": "Recalled Swing Seat"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "The firm received one report of a swing breaking and a child falling, resulting in a minor injury."
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Miracle Recreation Equipment and Little Tikes Commercial nationwide from January 2025 through September 2025 for between $80 and $95. The swing belt seat was only sold directly to playground manufacturers and not to individual consumers.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "LFTE USA Inc., of Cary, North Carolina",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": "Sold At",
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The rivets used to support the swing seat can fail, posing a fall hazard to children.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should stop using the recalled playground swings immediately and contact LFTE USA for a free replacement swing seat. Little Tikes Commercial and Miracle Recreation Equipment have contacted all known purchasers directly."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Replace"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 10660,
+        "RecallNumber": "26324",
+        "RecallDate": "2026-03-12T00:00:00",
+        "Description": "This recall involves the Playground Swing Set Seats sold as part of assembled playground sets. The swing belt seat was sold in black, blue, green, red, tan, and yellow colors. The product is marked with the code \"LF-65708\" on the seat pad part. Only swings with model number 999604 are included in this recall. ",
+        "URL": "https://www.cpsc.gov/Recalls/2026/LFTE-USA-Recalls-Playground-Swing-Set-Seats-Due-to-Fall-Hazard",
+        "Title": "LFTE USA Recalls Playground Swing Set Seats Due to Fall Hazard",
+        "ConsumerContact": "LFTE USA by email at recall@lfteusa.com.",
+        "LastPublishDate": "2026-03-13T00:00:00",
+        "Products": [
+          {
+            "Name": "Playground Swing Set Seats",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 7,200"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/playgroundss-1.jpg",
+            "Caption": "Recalled playground swing set"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/playgroundss-2.jpg",
+            "Caption": "Recalled Swing Seat"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "The firm received one report of a swing breaking and a child falling, resulting in a minor injury."
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Miracle Recreation Equipment and Little Tikes Commercial nationwide from January 2025 through September 2025 for between $80 and $95. The swing belt seat was only sold directly to playground manufacturers and not to individual consumers.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "LFTE USA Inc., of Cary, North Carolina",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The rivets used to support the swing seat can fail, posing a fall hazard to children.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should stop using the recalled playground swings immediately and contact LFTE USA for a free replacement swing seat. Little Tikes Commercial and Miracle Recreation Equipment have contacted all known purchasers directly."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Replace"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "26324",
+        "Product Safety Warning Number": "",
+        "Date": "March 12, 2026",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "LFTE USA Recalls Playground Swing Set Seats Due to Fall Hazard",
+        "Name of product": "Playground Swing Set Seats",
+        "Description": "This recall involves the Playground Swing Set Seats sold as part of assembled playground sets. The swing belt seat was sold in black, blue, green, red, tan, and yellow colors. The product is marked with the code “LF-65708” on the seat pad part. Only swings with model number 999604 are included in this recall.&nbsp;&nbsp;",
+        "Hazard Description": "The rivets used to support the swing seat can fail, posing a fall hazard to children.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Replace",
+        "Units": "About 7,200",
+        "Incidents": "The firm received one report of a swing breaking and a child falling, resulting in a minor injury.",
+        "Remedy": "Consumers should stop using the recalled playground swings immediately and contact LFTE USA for a free replacement swing seat. Little Tikes Commercial and Miracle Recreation Equipment have contacted all known purchasers directly.",
+        "Sold At Label": "Sold At",
+        "Sold At": "Miracle Recreation Equipment and Little Tikes Commercial nationwide from January 2025 through September 2025 for between $80 and $95. The swing belt seat was only sold directly to playground manufacturers and not to individual consumers.",
+        "Importers": "LFTE USA Inc., of Cary, North Carolina",
+        "Manufacturers": "",
+        "Distributors": "",
+        "Manufactured In": "China",
+        "Custom Label": "",
+        "Custom Field": ""
+      }
+    }
+  ]
+}

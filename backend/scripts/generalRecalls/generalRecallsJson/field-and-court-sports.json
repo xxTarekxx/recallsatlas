@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "slug": "field-and-court-sports",
+    "sourceCsvFile": "field-and-court-sports_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:36.913Z",
+    "recallCount": 1
+  },
+  "recalls": [
+    {
+      "RecallID": 9877,
+      "RecallNumber": "24141",
+      "RecallDate": "2024-02-29T00:00:00",
+      "Description": "This recall involves Sandford Family 6-Player Croquet Sets branded with either Garden Games or Big Game Hunters on the storage bag. The set includes four adult mallets; two winning posts; one red and blue children's mallet; six balls, clips and hoops, and a storage bag. The storage bag is branded with either a Big Game Hunters logo on a blue bag or a Garden Games logo on a green bag.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/Sandford-Family-Croquet-Sets-Recalled-Due-to-Violations-of-the-Federal-Lead-Paint-and-Phthalates-Bans-Sold-Exclusively-on-Amazon-by-DOM-Sports",
+      "Title": "Sandford Family Croquet Sets Recalled Due to Violations of the Federal Lead Paint and Phthalates Bans; Sold Exclusively on Amazon by DOM Sports",
+      "ConsumerContact": "DOM Sports toll-free at 877-725-5056 from 8:30 a.m. to 4:30 p.m. ET Monday through Friday, email at support@domsports.com or online at www.domsports.com/recalls.html or www.domsports.com and click on \"Recalls\" at the top of the page for more information.",
+      "LastPublishDate": "2024-02-29T00:00:00",
+      "Products": [
+        {
+          "Name": "Sandford Family 6-Player Croquet Sets",
+          "NumberOfUnits": "About 113"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/big-game-hunters-croquet.png",
+          "Caption": "Recalled Sandford Family 6-Player Croquet Set - Big Game Hunters branded"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/garden-games-croquet.png",
+          "Caption": "Recalled Sandford Family 6-Player Croquet Set - Garden Games branded"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "Garden Games Ltd, of United Kingdom"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Amazon.com from May 2015 through June 2021 for about $225."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "DOM Enterprises & Mfg. Ltd, dba DOM Sports, of Canada"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "India"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "The paint or surface coating on the red mallet, blue mallet, red hoop, and winning post contain levels of lead that exceed the federal lead paint ban, posing a lead poisoning hazard. In addition, the coating on the red and blue mallets contains levels of regulated phthalates that exceed the prohibition of specific phthalates. Lead and phthalates are toxic if ingested by young children and can cause adverse health issues."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should immediately stop using the recalled family croquet sets, and contact DOM Sports for information on how to email a photo of the recalled product being disposed of to support@domsports.com to receive the free replacement parts. DOM Sports and Amazon are contacting all known purchasers."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Replace"
+        }
+      ]
+    }
+  ]
+}

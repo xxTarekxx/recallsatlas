@@ -1,0 +1,387 @@
+{
+  "meta": {
+    "slug": "other-stools",
+    "sourceCsvFile": "other-stools_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T04:43:57.273Z",
+    "recallCount": 2
+  },
+  "recalls": [
+    {
+      "merged": {
+        "RecallID": 10489,
+        "RecallNumber": "26096",
+        "RecallDate": "2025-11-20T00:00:00",
+        "Description": "This recall involves children's Grow 'N Stow Folding Learning Tower with model number LP01711 and date codes, in YYYYMM format, from 202409 to 202501. The model number and date code are located on a label on the underside of the platform. The product is made of wood with a natural finish. \"Learning Tower\" is printed on the top rail of the tower.",
+        "URL": "https://www.cpsc.gov/Recalls/2026/Little-Partners-Recalls-Childrens-Grow-N-Stow-Folding-Learning-Towers-Due-to-Fall-Hazard",
+        "Title": "Little Partners Recalls Children's Grow 'N Stow Folding Learning Towers Due to Fall Hazard",
+        "ConsumerContact": "Little Partners toll-free at 800-704-9058 from 9 a.m. to 7 p.m. ET Monday through Friday and 12 p.m. to 5 p.m. ET Saturday, by email at recall@LittlePartners.com or online at https://littlepartners.com/pages/product-recalls or https://littlepartners.com/ and click on \"Product Recalls\" at the bottom of the page for more information.",
+        "LastPublishDate": "2025-11-20T00:00:00",
+        "Products": [
+          {
+            "Name": "Grow 'N Stow Folding Learning Tower",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 9,780"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/RecalledGrowNStowFoldingLearningTower_frontfoldedview.png",
+            "Caption": "Recalled Grow 'N Stow Folding Learning Tower (front and folded views)"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/RecalledGrowNStowFoldingLearningTower_modelanddatecodelocation.png",
+            "Caption": "Recalled Grow 'N Stow Folding Learning Tower (model and date code location)"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "The firm has received 14 reports of the folding towers collapsing, including one report of a child with bruises."
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Walmart stores nationwide and online at Walmart.com, Amazon.com, Littlepartners.com, Etsy.com, Wayfair.com, Goodbyegear.com, Buybuybaby.com and Bedbathandbeyond.com from December 2024 through September 2025 for about $100.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "LPA1, LLC dba Little Partners, of Exton, Pennsylvania",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": "Sold At",
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The platform inside the tower can collapse, posing a fall hazard to young children.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled Grow 'N Stow Folding Learning Tower, keep it away from children and contact Little Partners, to receive a free repair kit, that includes a new crossbar with pin tabs and installation instructions. The new crossbar will have a sticker indicating that it is no longer part of the recall. Consumers should remove the old crossbar and dispose of it."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Repair"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 10489,
+        "RecallNumber": "26096",
+        "RecallDate": "2025-11-20T00:00:00",
+        "Description": "This recall involves children's Grow 'N Stow Folding Learning Tower with model number LP01711 and date codes, in YYYYMM format, from 202409 to 202501. The model number and date code are located on a label on the underside of the platform. The product is made of wood with a natural finish. \"Learning Tower\" is printed on the top rail of the tower.",
+        "URL": "https://www.cpsc.gov/Recalls/2026/Little-Partners-Recalls-Childrens-Grow-N-Stow-Folding-Learning-Towers-Due-to-Fall-Hazard",
+        "Title": "Little Partners Recalls Children's Grow 'N Stow Folding Learning Towers Due to Fall Hazard",
+        "ConsumerContact": "Little Partners toll-free at 800-704-9058 from 9 a.m. to 7 p.m. ET Monday through Friday and 12 p.m. to 5 p.m. ET Saturday, by email at recall@LittlePartners.com or online at https://littlepartners.com/pages/product-recalls or https://littlepartners.com/ and click on \"Product Recalls\" at the bottom of the page for more information.",
+        "LastPublishDate": "2025-11-20T00:00:00",
+        "Products": [
+          {
+            "Name": "Grow 'N Stow Folding Learning Tower",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 9,780"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/RecalledGrowNStowFoldingLearningTower_frontfoldedview.png",
+            "Caption": "Recalled Grow 'N Stow Folding Learning Tower (front and folded views)"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/RecalledGrowNStowFoldingLearningTower_modelanddatecodelocation.png",
+            "Caption": "Recalled Grow 'N Stow Folding Learning Tower (model and date code location)"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "The firm has received 14 reports of the folding towers collapsing, including one report of a child with bruises."
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Walmart stores nationwide and online at Walmart.com, Amazon.com, Littlepartners.com, Etsy.com, Wayfair.com, Goodbyegear.com, Buybuybaby.com and Bedbathandbeyond.com from December 2024 through September 2025 for about $100.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "LPA1, LLC dba Little Partners, of Exton, Pennsylvania",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The platform inside the tower can collapse, posing a fall hazard to young children.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled Grow 'N Stow Folding Learning Tower, keep it away from children and contact Little Partners, to receive a free repair kit, that includes a new crossbar with pin tabs and installation instructions. The new crossbar will have a sticker indicating that it is no longer part of the recall. Consumers should remove the old crossbar and dispose of it."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Repair"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "26096",
+        "Product Safety Warning Number": "",
+        "Date": "November 20, 2025",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "Little Partners Recalls Children’s Grow 'N Stow Folding Learning Towers Due to Fall Hazard",
+        "Name of product": "Grow 'N Stow Folding Learning Tower",
+        "Description": "This recall involves children’s Grow 'N Stow Folding Learning Tower with model number LP01711 and date codes, in YYYYMM format, from 202409 to 202501. The model number and date code are located on a label on the underside of the platform. The product is made of wood with a natural finish. “Learning Tower” is printed on the top rail of the tower.",
+        "Hazard Description": "The platform inside the tower can collapse, posing a fall hazard to young children.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Repair",
+        "Units": "About 9,780",
+        "Incidents": "The firm has received 14 reports of the folding towers collapsing, including one report of a child with bruises.",
+        "Remedy": "Consumers should immediately stop using the recalled Grow 'N Stow Folding Learning Tower, keep it away from children and contact Little Partners, to receive a free repair kit, that includes a new crossbar with pin tabs and installation instructions. The new crossbar will have a sticker indicating that it is no longer part of the recall. Consumers should remove the old crossbar and dispose of it.",
+        "Sold At Label": "Sold At",
+        "Sold At": "Walmart stores nationwide and online at Walmart.com, Amazon.com, Littlepartners.com, Etsy.com, Wayfair.com, Goodbyegear.com, Buybuybaby.com and Bedbathandbeyond.com from December 2024 through September 2025 for about $100.",
+        "Importers": "LPA1, LLC dba Little Partners, of Exton, Pennsylvania",
+        "Manufacturers": "",
+        "Distributors": "",
+        "Manufactured In": "China",
+        "Custom Label": "",
+        "Custom Field": ""
+      }
+    },
+    {
+      "merged": {
+        "RecallID": 10126,
+        "RecallNumber": "25091",
+        "RecallDate": "2025-01-16T00:00:00",
+        "Description": "This recall involves Northern Tool + Equipment Adjustable Swivel Shop Stools with Backrests. The \"NT\" logo is on the seat of the recalled shop stool. \"Model No. 20230\" and \"Intradin Co., Ltd.\" are printed on separate labels located underneath the stool's seat. Only stools manufactured by Intradin Co. Ltd. are included in this recall.",
+        "URL": "https://www.cpsc.gov/Recalls/2025/Northern-Tool-Equipment-Recalls-Adjustable-Swivel-Shop-Stools-with-Backrests-Due-to-Fall-Hazard",
+        "Title": "Northern Tool + Equipment Recalls Adjustable Swivel Shop Stools with Backrests Due to Fall Hazard",
+        "ConsumerContact": "Northern Tool + Equipment toll-free at 888-518-0342 from 8 a.m. to 5 p.m. CT Monday through Friday, email Northern Tool + Equipment at inquiry@northerntool.com, visit online at https://www.northerntool.com/recall-details-20230 or www.northerntool.com and click on \"Product Recalls\" on the bottom of the homepage, or visit a Northern Tool + Equipment store for more information.",
+        "LastPublishDate": "2025-01-16T00:00:00",
+        "Products": [
+          {
+            "Name": "Northern Tool + Equipment Adjustable Swivel Shop Stools with Backrests",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 51,770 (In addition, 34 sold in Canada)"
+          }
+        ],
+        "Inconjunctions": [
+          {
+            "URL": "https://recalls-rappels.canada.ca/en/alert-recall/northern-tool-adjustable-swivel-shop-stools-backrests-recalled-due-fall-hazard"
+          }
+        ],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/swivel-stool-1.png",
+            "Caption": "Recalled Northern Tool Adjustable Swivel Shop Stool with Backrest"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/swivel-stool-2.png",
+            "Caption": "Manufacturer's name and model number labels located underneath recalled Adjustable Swivel Shop Stool seat"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/swivel-stool-3.png",
+            "Caption": "Manufacturer's name on label located underneath stool seat"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "Northern Tool + Equipment has received reports of 271 incidents related to the recalled stools, including 18 reports of injuries from falls, and 20 reports of falls without injury."
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Northern Tool + Equipment stores nationwide and online at NorthernTool.com, Walmart.com, Amazon.com and Ebay.com from September 2020 through June 2023 for about $80.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Northern Tool + Equipment Company Inc., of Burnsville, Minnesota",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": "Sold At",
+        "ManufacturerCountries": [
+          {
+            "Country": "Vietnam"
+          },
+          {
+            "Country": "China"
+          },
+          {
+            "Country": "Taiwan"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The welded connection point between the seat base and the stool post can break, presenting a fall hazard.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled stools and contact Northern Tool + Equipment to receive a free replacement stool by completing the form at https://www.northerntool.com/recall-details-20230. The stool should be disposed of in accordance with any local and state laws."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Replace"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 10126,
+        "RecallNumber": "25091",
+        "RecallDate": "2025-01-16T00:00:00",
+        "Description": "This recall involves Northern Tool + Equipment Adjustable Swivel Shop Stools with Backrests. The \"NT\" logo is on the seat of the recalled shop stool. \"Model No. 20230\" and \"Intradin Co., Ltd.\" are printed on separate labels located underneath the stool's seat. Only stools manufactured by Intradin Co. Ltd. are included in this recall.",
+        "URL": "https://www.cpsc.gov/Recalls/2025/Northern-Tool-Equipment-Recalls-Adjustable-Swivel-Shop-Stools-with-Backrests-Due-to-Fall-Hazard",
+        "Title": "Northern Tool + Equipment Recalls Adjustable Swivel Shop Stools with Backrests Due to Fall Hazard",
+        "ConsumerContact": "Northern Tool + Equipment toll-free at 888-518-0342 from 8 a.m. to 5 p.m. CT Monday through Friday, email Northern Tool + Equipment at inquiry@northerntool.com, visit online at https://www.northerntool.com/recall-details-20230 or www.northerntool.com and click on \"Product Recalls\" on the bottom of the homepage, or visit a Northern Tool + Equipment store for more information.",
+        "LastPublishDate": "2025-01-16T00:00:00",
+        "Products": [
+          {
+            "Name": "Northern Tool + Equipment Adjustable Swivel Shop Stools with Backrests",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 51,770 (In addition, 34 sold in Canada)"
+          }
+        ],
+        "Inconjunctions": [
+          {
+            "URL": "https://recalls-rappels.canada.ca/en/alert-recall/northern-tool-adjustable-swivel-shop-stools-backrests-recalled-due-fall-hazard"
+          }
+        ],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/swivel-stool-1.png",
+            "Caption": "Recalled Northern Tool Adjustable Swivel Shop Stool with Backrest"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/swivel-stool-2.png",
+            "Caption": "Manufacturer's name and model number labels located underneath recalled Adjustable Swivel Shop Stool seat"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/swivel-stool-3.png",
+            "Caption": "Manufacturer's name on label located underneath stool seat"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "Northern Tool + Equipment has received reports of 271 incidents related to the recalled stools, including 18 reports of injuries from falls, and 20 reports of falls without injury."
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Northern Tool + Equipment stores nationwide and online at NorthernTool.com, Walmart.com, Amazon.com and Ebay.com from September 2020 through June 2023 for about $80.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Northern Tool + Equipment Company Inc., of Burnsville, Minnesota",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "Vietnam"
+          },
+          {
+            "Country": "China"
+          },
+          {
+            "Country": "Taiwan"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The welded connection point between the seat base and the stool post can break, presenting a fall hazard.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled stools and contact Northern Tool + Equipment to receive a free replacement stool by completing the form at https://www.northerntool.com/recall-details-20230. The stool should be disposed of in accordance with any local and state laws."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Replace"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "25091",
+        "Product Safety Warning Number": "",
+        "Date": "January 16, 2025",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "Northern Tool + Equipment Recalls Adjustable Swivel Shop Stools with Backrests Due to Fall Hazard",
+        "Name of product": "Northern Tool + Equipment Adjustable Swivel Shop Stools with Backrests",
+        "Description": "This recall involves Northern Tool + Equipment Adjustable Swivel Shop Stools with Backrests. The “NT” logo is on the seat of the recalled shop stool. “Model No. 20230” and “Intradin Co., Ltd.” are printed on separate labels located underneath the stool’s seat. Only stools manufactured by Intradin Co. Ltd. are included in this recall.&nbsp;",
+        "Hazard Description": "The welded connection point between the seat base and the stool post can break, presenting a fall hazard.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Replace",
+        "Units": "About 51,770 (In addition, 34 sold in Canada)",
+        "Incidents": "Northern Tool + Equipment has received reports of 271 incidents related to the recalled stools, including 18 reports of injuries from falls, and 20 reports of falls without injury.",
+        "Remedy": "Consumers should immediately stop using the recalled stools and contact Northern Tool + Equipment to receive a free replacement stool by completing the form at&nbsp;https://www.northerntool.com/recall-details-20230. The stool should be disposed of in accordance with any local and state laws.&nbsp;",
+        "Sold At Label": "Sold At",
+        "Sold At": "Northern Tool + Equipment stores nationwide and online at NorthernTool.com, Walmart.com, Amazon.com and Ebay.com from September 2020 through June 2023 for about $80.&nbsp;",
+        "Importers": "Northern Tool + Equipment Company Inc., of Burnsville, Minnesota",
+        "Manufacturers": "",
+        "Distributors": "",
+        "Manufactured In": "Vietnam, China, and Taiwan",
+        "Custom Label": "",
+        "Custom Field": ""
+      }
+    }
+  ]
+}

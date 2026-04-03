@@ -1,0 +1,77 @@
+{
+  "meta": {
+    "slug": "dollies-or-handtrucks-or-luggage-carriers",
+    "sourceCsvFile": "dollies-or-handtrucks-or-luggage-carriers_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:36.893Z",
+    "recallCount": 1
+  },
+  "recalls": [
+    {
+      "RecallID": 10344,
+      "RecallNumber": "25387",
+      "RecallDate": "2025-07-17T00:00:00",
+      "Description": "This recall involves the Traveller 3,000 lb. 12\" x 90\" Aluminum Sheet Arched Ramp, the Traveller 1,800 lb. 77\" Straight Ramp, and the Traveller 1,500 lb. 12\" x 84\" Aluminum Sheet Arched Ramp. The ramps are used by consumers to load equipment, such as riding lawn mowers, ATVs, golf carts, or other vehicles to elevated surfaces on trailers or pick up beds.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/Tractor-Supply-Recalls-Traveller-Aluminum-Loading-Ramps-Due-to-Fall-Hazard",
+      "Title": "Tractor Supply Recalls Traveller Aluminum Loading Ramps Due to Fall Hazard",
+      "ConsumerContact": "Tractor Supply Company toll-free at 877-718-6750 from 7 a.m. to 9 p.m. CT Monday through Saturday or from 8 a.m. to 8 p.m. CT on Sunday, or online at https://www.tractorsupply.com/tsc/cms/policies-information/customer-solutions/recall-notices or www.tractorsupply.com and click on \"Recall Notices\" at the bottom of the page for more information.",
+      "LastPublishDate": "2025-07-17T00:00:00",
+      "Products": [
+        {
+          "Name": "Traveller Aluminum Loading Ramps",
+          "NumberOfUnits": "About 18,000"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/Traveller-Ramp-1.gif",
+          "Caption": "Recalled Traveller 3,000 lb. 12\" x 90\" Aluminum Sheet Arched Ramp"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/Traveller-Ramp-2.gif",
+          "Caption": "Recalled Traveller 1,800 lb. 77\" Straight Ramp"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/Traveller-Ramp-3.gif",
+          "Caption": "Recalled Traveller 1,500 lb. 12\" x 84\" Aluminum Sheet Arched Ramp"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received 35 reports of ramps bending or breaking, including two reports of ramps breaking and causing knee and other injuries."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Tractor Supply Company stores nationwide and online at www.tractorsupply.com from October 2024 through July 2025 for between $180 and $220."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Tractor Supply Company, of Brentwood, Tennessee"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "The ramps cannot withstand the weight of equipment within the limits that are specified on the ramps and can bend or break while in use, posing a fall hazard."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should immediately stop using the recalled ramps. Consumers will be asked to return the ramps to any Tractor Supply store or call the firm for instructions on how to send a photo of the product with the word \"Recalled\" using permanent paint to customersolutions@tractorsupply.com for a full refund."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ]
+    }
+  ]
+}

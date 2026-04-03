@@ -1,0 +1,1611 @@
+{
+  "meta": {
+    "slug": "powered-scooters-or-skateboards",
+    "sourceCsvFile": "powered-scooters-or-skateboards_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T04:43:57.300Z",
+    "recallCount": 8
+  },
+  "recalls": [
+    {
+      "merged": {
+        "RecallID": 10359,
+        "RecallNumber": "25402",
+        "RecallDate": "2025-07-24T00:00:00",
+        "Description": "This recall involves certain serial numbers of Apollo City 2024 model year electric scooters. The dual-motor scooters have top speeds of 32 miles per hour. The scooters have a gray exterior with a headlight and rear brake light. \"Apollo\" is printed on the stem of the scooter and \"Apollo City\" is displayed on the rear left side of the grip tape on the deck of the scooter. The affected serial numbers range from 4202240300001 to 4202240301236 and 4202240400001 to 4202240400764. The serial number is located on the bottom of the scooter deck. Consumers can also find their serial number using the Apollo App.",
+        "URL": "https://www.cpsc.gov/Recalls/2025/Apollo-Recalls-Electric-Scooters-Due-to-Fall-and-Injury-Hazards",
+        "Title": "Apollo Recalls Electric Scooters Due to Fall and Injury Hazards",
+        "ConsumerContact": "Apollo toll-free at 888-501-8862 from 9 a.m. to 5 p.m. ET Monday through Friday, email at support@apolloscooters.co or online at https://apolloscooters.co/pages/apollo-city/recall or at www.apolloscooters.co and click on \"Apollo City 2024 Recall\" located at the bottom of the page.",
+        "LastPublishDate": "2025-07-24T00:00:00",
+        "Products": [
+          {
+            "Name": "Apollo City Model Year 2024 Electric Scooters",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 790"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Apollo.png",
+            "Caption": "Recalled Apollo Electric Scooter"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "The firm has received 10 reports of the weld cracking on the stem of the scooter, including four riders who reported coming off the scooter; one reported injury including abrasions."
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Best Buy stores nationwide and online at Apolloscooters.co, Amazon.com and BestBuy.com between June 2024 through April 2025 for about $1,800.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Apollo Imports Inc., of Newark, Delaware",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": "Sold At",
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The weld line on the electric scooter can crack, causing the stem to break and posing fall and injury hazards.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled scooters and contact Apollo for a free replacement stem. To participate in the recall, please go to https://apolloscooters.co/pages/apollo-city/recall and fill out the online form. Apollo is recommending that all consumers take their scooters to a service repair location so they can replace the stem on the recalled scooter free of charge. Consumers can go to https://apolloscooters.co/pages/locations-near-you to find the closest service repair location."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Replace"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 10359,
+        "RecallNumber": "25402",
+        "RecallDate": "2025-07-24T00:00:00",
+        "Description": "This recall involves certain serial numbers of Apollo City 2024 model year electric scooters. The dual-motor scooters have top speeds of 32 miles per hour. The scooters have a gray exterior with a headlight and rear brake light. \"Apollo\" is printed on the stem of the scooter and \"Apollo City\" is displayed on the rear left side of the grip tape on the deck of the scooter. The affected serial numbers range from 4202240300001 to 4202240301236 and 4202240400001 to 4202240400764. The serial number is located on the bottom of the scooter deck. Consumers can also find their serial number using the Apollo App.",
+        "URL": "https://www.cpsc.gov/Recalls/2025/Apollo-Recalls-Electric-Scooters-Due-to-Fall-and-Injury-Hazards",
+        "Title": "Apollo Recalls Electric Scooters Due to Fall and Injury Hazards",
+        "ConsumerContact": "Apollo toll-free at 888-501-8862 from 9 a.m. to 5 p.m. ET Monday through Friday, email at support@apolloscooters.co or online at https://apolloscooters.co/pages/apollo-city/recall or at www.apolloscooters.co and click on \"Apollo City 2024 Recall\" located at the bottom of the page.",
+        "LastPublishDate": "2025-07-24T00:00:00",
+        "Products": [
+          {
+            "Name": "Apollo City Model Year 2024 Electric Scooters",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 790"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Apollo.png",
+            "Caption": "Recalled Apollo Electric Scooter"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "The firm has received 10 reports of the weld cracking on the stem of the scooter, including four riders who reported coming off the scooter; one reported injury including abrasions."
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Best Buy stores nationwide and online at Apolloscooters.co, Amazon.com and BestBuy.com between June 2024 through April 2025 for about $1,800.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Apollo Imports Inc., of Newark, Delaware",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The weld line on the electric scooter can crack, causing the stem to break and posing fall and injury hazards.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled scooters and contact Apollo for a free replacement stem. To participate in the recall, please go to https://apolloscooters.co/pages/apollo-city/recall and fill out the online form. Apollo is recommending that all consumers take their scooters to a service repair location so they can replace the stem on the recalled scooter free of charge. Consumers can go to https://apolloscooters.co/pages/locations-near-you to find the closest service repair location."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Replace"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "25402",
+        "Product Safety Warning Number": "",
+        "Date": "July 24, 2025",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "Apollo Recalls Electric Scooters Due to Fall and Injury Hazards",
+        "Name of product": "Apollo City Model Year 2024 Electric Scooters",
+        "Description": "This recall involves certain serial numbers of Apollo City 2024 model year electric scooters. The dual-motor scooters have top speeds of 32 miles per hour. The scooters have a gray exterior with a headlight and rear brake light.&nbsp; “Apollo” is printed on the stem of the scooter and “Apollo City” is displayed on the rear left side of the grip tape on the deck of the scooter. The affected serial numbers range from 4202240300001 to 4202240301236 and 4202240400001 to 4202240400764. The serial number is located on the bottom of the scooter deck. Consumers can also find their serial number using the Apollo App.&nbsp;Download Android AppDownload iOS App",
+        "Hazard Description": "The weld line on the electric scooter can crack, causing the stem to break and posing fall and injury hazards.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Replace",
+        "Units": "About 790",
+        "Incidents": "The firm has received 10 reports of the weld cracking on the stem of the scooter, including four riders who reported coming off the scooter; one reported injury including abrasions.",
+        "Remedy": "Consumers should immediately stop using the recalled scooters and contact Apollo for a free replacement stem. To participate in the recall, please go to&nbsp;https://apolloscooters.co/pages/apollo-city/recall and fill out the online form. Apollo is recommending that all consumers take their scooters to a service repair location so they can replace the stem on the recalled scooter free of charge. Consumers can go to&nbsp;https://apolloscooters.co/pages/locations-near-you to find the closest service repair location.&nbsp;",
+        "Sold At Label": "Sold At",
+        "Sold At": "Best Buy stores nationwide and online at Apolloscooters.co, Amazon.com and BestBuy.com between June 2024 through April 2025 for about $1,800.",
+        "Importers": "Apollo Imports Inc., of Newark, Delaware",
+        "Manufacturers": "",
+        "Distributors": "",
+        "Manufactured In": "China",
+        "Custom Label": "",
+        "Custom Field": ""
+      }
+    },
+    {
+      "merged": {
+        "RecallID": 10360,
+        "RecallNumber": "25403",
+        "RecallDate": "2025-07-24T00:00:00",
+        "Description": "This recall involves FENGQS F7 Pro electric bikes with batteries manufactured on April 21, 2024. The e-bikes were sold in blue. \"FENGQS\" is printed on the downtube and the model number \"F7 Pro\" is printed on the chain stay, near the rear wheel. The battery's capacity (21.5Ah) and the production date (2024/4/21) are printed on a label on the front of the battery.",
+        "URL": "https://www.cpsc.gov/Recalls/2025/FENGQS-Electric-Bikes-Recalled-Due-to-Fire-and-Burn-Hazards-Risk-of-Serious-Injury-or-Death-Sold-on-Amazon",
+        "Title": "FENGQS Electric Bikes Recalled Due to Fire and Burn Hazards; Risk of Serious Injury or Death; Sold on Amazon",
+        "ConsumerContact": "FENGQS at 607-307-2127 from 9 a.m. to 5 p.m. ET Monday through Friday, email at recall@fengqs.work, or visit www.fengqs.com/pages/recalls or www.fengqs.com and click on \"Recalls\" at the top of the page.",
+        "LastPublishDate": "2025-07-24T00:00:00",
+        "Products": [
+          {
+            "Name": "FENGQS F7 Pro E-bikes",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 100"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/FENG-1.jpg",
+            "Caption": "Recalled FENGQS F7 Pro E-bike"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/FENG-2.jpg",
+            "Caption": "The battery's capacity (21.5Ah) and the production date (2024/4/21) are printed on a label on the front of the battery"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "FENGQS has received 13 reports of e-bikes igniting, two resulting in fires with property damage totaling $4,000."
+          }
+        ],
+        "Manufacturers": [
+          {
+            "Name": "Shenzhen Fengqisi Car Industry Co., Ltd., dba FENGQS, of China",
+            "CompanyID": ""
+          }
+        ],
+        "Retailers": [
+          {
+            "Name": "Amazon from May 2024 through December 2024 for between $700 and $1,200.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [],
+        "Distributors": [],
+        "SoldAtLabel": "Sold Online At",
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The e-bikes' lithium-ion battery can overheat and ignite, posing serious fire and burn hazards to consumers.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should stop using the recalled e-bikes immediately and contact FENGQS for a full refund. Consumers will be asked to write their name, the word \"recalled,\" and the current date next to the battery's production date, with a permanent marker. Consumers must then submit a photo clearly showing this information and confirm disposal of the battery in accordance with applicable laws and regulations. Consumers should submit the photo to recall@fengqs.work. Note: Do not throw this recalled lithium-ion battery or device in the trash, the general recycling stream (e.g., street-level or curbside recycling bins), or used battery recycling boxes found at various retail and home improvement stores. Recalled lithium-ion batteries must be disposed of differently than other batteries, because they present a greater risk of fire. Your municipal household hazardous waste (HHW) collection center may accept this recalled lithium-ion battery or device for disposal. Before taking your battery or device to a HHW collection center, contact that office ahead of time and ask whether it accepts recalled lithium-ion batteries. If it does not, contact your municipality for further guidance."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 10360,
+        "RecallNumber": "25403",
+        "RecallDate": "2025-07-24T00:00:00",
+        "Description": "This recall involves FENGQS F7 Pro electric bikes with batteries manufactured on April 21, 2024. The e-bikes were sold in blue. \"FENGQS\" is printed on the downtube and the model number \"F7 Pro\" is printed on the chain stay, near the rear wheel. The battery's capacity (21.5Ah) and the production date (2024/4/21) are printed on a label on the front of the battery.",
+        "URL": "https://www.cpsc.gov/Recalls/2025/FENGQS-Electric-Bikes-Recalled-Due-to-Fire-and-Burn-Hazards-Risk-of-Serious-Injury-or-Death-Sold-on-Amazon",
+        "Title": "FENGQS Electric Bikes Recalled Due to Fire and Burn Hazards; Risk of Serious Injury or Death; Sold on Amazon",
+        "ConsumerContact": "FENGQS at 607-307-2127 from 9 a.m. to 5 p.m. ET Monday through Friday, email at recall@fengqs.work, or visit www.fengqs.com/pages/recalls or www.fengqs.com and click on \"Recalls\" at the top of the page.",
+        "LastPublishDate": "2025-07-24T00:00:00",
+        "Products": [
+          {
+            "Name": "FENGQS F7 Pro E-bikes",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 100"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/FENG-1.jpg",
+            "Caption": "Recalled FENGQS F7 Pro E-bike"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/FENG-2.jpg",
+            "Caption": "The battery's capacity (21.5Ah) and the production date (2024/4/21) are printed on a label on the front of the battery"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "FENGQS has received 13 reports of e-bikes igniting, two resulting in fires with property damage totaling $4,000."
+          }
+        ],
+        "Manufacturers": [
+          {
+            "Name": "Shenzhen Fengqisi Car Industry Co., Ltd., dba FENGQS, of China",
+            "CompanyID": ""
+          }
+        ],
+        "Retailers": [
+          {
+            "Name": "Amazon from May 2024 through December 2024 for between $700 and $1,200.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [],
+        "Distributors": [],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The e-bikes' lithium-ion battery can overheat and ignite, posing serious fire and burn hazards to consumers.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should stop using the recalled e-bikes immediately and contact FENGQS for a full refund. Consumers will be asked to write their name, the word \"recalled,\" and the current date next to the battery's production date, with a permanent marker. Consumers must then submit a photo clearly showing this information and confirm disposal of the battery in accordance with applicable laws and regulations. Consumers should submit the photo to recall@fengqs.work. Note: Do not throw this recalled lithium-ion battery or device in the trash, the general recycling stream (e.g., street-level or curbside recycling bins), or used battery recycling boxes found at various retail and home improvement stores. Recalled lithium-ion batteries must be disposed of differently than other batteries, because they present a greater risk of fire. Your municipal household hazardous waste (HHW) collection center may accept this recalled lithium-ion battery or device for disposal. Before taking your battery or device to a HHW collection center, contact that office ahead of time and ask whether it accepts recalled lithium-ion batteries. If it does not, contact your municipality for further guidance."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "25403",
+        "Product Safety Warning Number": "",
+        "Date": "July 24, 2025",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "FENGQS Electric Bikes Recalled Due to Fire and Burn Hazards; Risk of Serious Injury or Death; Sold on Amazon",
+        "Name of product": "FENGQS F7 Pro E-bikes",
+        "Description": "This recall involves FENGQS F7 Pro electric bikes with batteries manufactured on April 21, 2024. The e-bikes were sold in blue. “FENGQS” is printed on the downtube and the model number “F7 Pro” is printed on the chain stay, near the rear wheel. The battery’s capacity (21.5Ah) and the production date (2024/4/21) are printed on a label on the front of the battery.",
+        "Hazard Description": "The e-bikes’ lithium-ion battery can overheat and ignite, posing serious fire and burn hazards to consumers.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Refund",
+        "Units": "About 100",
+        "Incidents": "FENGQS has received 13 reports of e-bikes igniting, two resulting in fires with property damage totaling $4,000.",
+        "Remedy": "Consumers should stop using the recalled e-bikes immediately and contact FENGQS for a full refund. Consumers will be asked to write their name, the word “recalled,” and the current date next to the battery’s production date, with a permanent marker. Consumers must then submit a photo clearly showing this information and confirm disposal of the battery in accordance with applicable laws and regulations. Consumers should submit the photo to&nbsp;recall@fengqs.work.Note: Do not throw this recalled lithium-ion battery or device in the trash, the general recycling stream (e.g., street-level or curbside recycling bins), or used battery recycling boxes found at various retail and home improvement stores. Recalled lithium-ion batteries must be disposed of differently than other batteries, because they present a greater risk of fire. Your municipal household hazardous waste (HHW) collection center may accept this recalled lithium-ion battery or device for disposal. Before taking your battery or device to a HHW collection center, contact that office ahead of time and ask whether it accepts recalled lithium-ion batteries. If it does not, contact your municipality for further guidance.",
+        "Sold At Label": "Sold Online At",
+        "Sold At": "Amazon from May 2024 through December 2024 for between $700 and $1,200.",
+        "Importers": "",
+        "Manufacturers": "Shenzhen Fengqisi Car Industry Co., Ltd., dba FENGQS, of China",
+        "Distributors": "",
+        "Manufactured In": "China",
+        "Custom Label": "",
+        "Custom Field": ""
+      }
+    },
+    {
+      "merged": {
+        "RecallID": 10362,
+        "RecallNumber": "25405",
+        "RecallDate": "2025-07-24T00:00:00",
+        "Description": "This recall involves Transpro brand A3 Hub Motor, A11F Spark, and R1 Commuter electric scooters. The scooters are powered by lithium-ion batteries. They were sold in black or gray colors. The lithium-ion battery is located beneath the scooter deck. Note: Do not throw this recalled lithium-ion battery or device in the trash, the general recycling stream (e.g., street-level or curbside recycling bins), or used battery recycling boxes found at various retail and home improvement stores. Recalled lithium-ion batteries must be disposed of differently than other batteries, because they present a greater risk of fire. Your municipal household hazardous waste (HHW) collection center may accept this recalled lithium-ion battery or device for disposal. Before taking your battery or device to a HHW collection center, contact that office ahead of time and ask whether it accepts recalled lithium-ion batteries. If it does not, contact your municipality for further guidance.",
+        "URL": "https://www.cpsc.gov/Recalls/2025/Transpro-US-Recalls-Electric-Scooters-with-Unauthorized-Lithium-Ion-Battery-UL-Certification-Labels-Due-to-Fire-and-Burn-Hazards-Risk-of-Serious-Injury-and-Death-200000-in-Property-Damage-Reported",
+        "Title": "Transpro US Recalls Electric Scooters with Unauthorized Lithium-Ion Battery UL Certification Labels Due to Fire and Burn Hazards; Risk of Serious Injury and Death; $200,000 in Property Damage Reported",
+        "ConsumerContact": "Transpro toll-free at 888-616-0328 from 9 a.m. to 5 p.m. ET Monday through Friday, email at sales@transprous.com, or online at https://transprous.com/recall-escooters or https://transprous.com and click on \"RECALL\" at the bottom of the page for more information.",
+        "LastPublishDate": "2025-07-24T00:00:00",
+        "Products": [
+          {
+            "Name": "Transpro Electric Scooters",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "700 units"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Transpro-1.jpg",
+            "Caption": "Recalled Transpro A3 Hub Motor Electric Scooter"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Transpro-2.jpg",
+            "Caption": "Recalled Transpro A11F Spark Electric Scooter"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Transpro-3.jpg",
+            "Caption": "Recalled Transpro R1 Commuter Electric Scooter"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "Transpro US Inc. has received one report of a scooter catching fire, causing at least $200,000 in property damage. No injuries have been reported."
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Bike and electronics stores in the Northeast from August 2024 through April 2025 for between $250 and $400.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Transpro US Inc., of Paterson, New Jersey",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": "Sold At",
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The battery compartment of the recalled light-up ruler bracelets can be opened easily by children allowing access to the button cell batteries, violating the battery-operated toys requirements under the mandatory standard for toys. If a child swallows a button cell or coin battery, it can cause serious injuries, internal chemical burns or death.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using and charging the recalled scooters and contact Transpro to receive a full refund or a free replacement scooter. Visit https://transprous.com/recall-escooters for instructions to disable the scooter. Consumers will need to submit their information through an online claim form or by email and will need to submit evidence of product destruction with their claim. Consumers should dispose of the entire scooter following local and state hazardous waste disposal procedures. Transpro is contacting all known purchasers directly."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          },
+          {
+            "Option": "Replace"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 10362,
+        "RecallNumber": "25405",
+        "RecallDate": "2025-07-24T00:00:00",
+        "Description": "This recall involves Transpro brand A3 Hub Motor, A11F Spark, and R1 Commuter electric scooters. The scooters are powered by lithium-ion batteries. They were sold in black or gray colors. The lithium-ion battery is located beneath the scooter deck. Note: Do not throw this recalled lithium-ion battery or device in the trash, the general recycling stream (e.g., street-level or curbside recycling bins), or used battery recycling boxes found at various retail and home improvement stores. Recalled lithium-ion batteries must be disposed of differently than other batteries, because they present a greater risk of fire. Your municipal household hazardous waste (HHW) collection center may accept this recalled lithium-ion battery or device for disposal. Before taking your battery or device to a HHW collection center, contact that office ahead of time and ask whether it accepts recalled lithium-ion batteries. If it does not, contact your municipality for further guidance.",
+        "URL": "https://www.cpsc.gov/Recalls/2025/Transpro-US-Recalls-Electric-Scooters-with-Unauthorized-Lithium-Ion-Battery-UL-Certification-Labels-Due-to-Fire-and-Burn-Hazards-Risk-of-Serious-Injury-and-Death-200000-in-Property-Damage-Reported",
+        "Title": "Transpro US Recalls Electric Scooters with Unauthorized Lithium-Ion Battery UL Certification Labels Due to Fire and Burn Hazards; Risk of Serious Injury and Death; $200,000 in Property Damage Reported",
+        "ConsumerContact": "Transpro toll-free at 888-616-0328 from 9 a.m. to 5 p.m. ET Monday through Friday, email at sales@transprous.com, or online at https://transprous.com/recall-escooters or https://transprous.com and click on \"RECALL\" at the bottom of the page for more information.",
+        "LastPublishDate": "2025-07-24T00:00:00",
+        "Products": [
+          {
+            "Name": "Transpro Electric Scooters",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "700 units"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Transpro-1.jpg",
+            "Caption": "Recalled Transpro A3 Hub Motor Electric Scooter"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Transpro-2.jpg",
+            "Caption": "Recalled Transpro A11F Spark Electric Scooter"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Transpro-3.jpg",
+            "Caption": "Recalled Transpro R1 Commuter Electric Scooter"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "Transpro US Inc. has received one report of a scooter catching fire, causing at least $200,000 in property damage. No injuries have been reported."
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Bike and electronics stores in the Northeast from August 2024 through April 2025 for between $250 and $400.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Transpro US Inc., of Paterson, New Jersey",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The battery compartment of the recalled light-up ruler bracelets can be opened easily by children allowing access to the button cell batteries, violating the battery-operated toys requirements under the mandatory standard for toys. If a child swallows a button cell or coin battery, it can cause serious injuries, internal chemical burns or death.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using and charging the recalled scooters and contact Transpro to receive a full refund or a free replacement scooter. Visit https://transprous.com/recall-escooters for instructions to disable the scooter. Consumers will need to submit their information through an online claim form or by email and will need to submit evidence of product destruction with their claim. Consumers should dispose of the entire scooter following local and state hazardous waste disposal procedures. Transpro is contacting all known purchasers directly."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          },
+          {
+            "Option": "Replace"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "25405",
+        "Product Safety Warning Number": "",
+        "Date": "July 24, 2025",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "Transpro US Recalls Electric Scooters with Unauthorized Lithium-Ion Battery UL Certification Labels Due to Fire and Burn Hazards; Risk of Serious Injury and Death; $200,000 in Property Damage Reported",
+        "Name of product": "Transpro Electric Scooters",
+        "Description": "This recall involves Transpro brand A3 Hub Motor, A11F Spark, and R1 Commuter electric scooters. The scooters are powered by lithium-ion batteries. They were sold in black or gray colors. The lithium-ion battery is located beneath the scooter deck. The model names and numbers are affixed to the bottom of the scooter deck.&nbsp;Note: Do not throw this recalled lithium-ion battery or device in the trash, the general recycling stream (e.g., street-level or curbside recycling bins), or used battery recycling boxes found at various retail and home improvement stores. Recalled lithium-ion batteries must be disposed of differently than other batteries, because they present a greater risk of fire. Your municipal household hazardous waste (HHW) collection center may accept this recalled lithium-ion battery or device for disposal. Before taking your battery or device to a HHW collection center, contact that office ahead of time and ask whether it accepts recalled lithium-ion batteries. If it does not, contact your municipality for further guidance.",
+        "Hazard Description": "The recalled scooters can overheat and ignite, posing a fire hazard and risk of serious injury and death. They were sold with unauthorized lithium-ion battery UL certification labels.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Refund, Replace",
+        "Units": "700 units",
+        "Incidents": "Transpro US Inc. has received one report of a scooter catching fire, causing at least $200,000 in property damage. No injuries have been reported.",
+        "Remedy": "Consumers should immediately stop using and charging the recalled scooters and contact Transpro to receive a full refund or a free replacement scooter. Visit&nbsp;https://transprous.com/recall-escooters for instructions to disable the scooter. Consumers will need to submit their information through an online claim form or by email and will need to submit evidence of product destruction with their claim. Consumers should dispose of the entire scooter following local and state hazardous waste disposal procedures. Transpro is contacting all known purchasers directly.",
+        "Sold At Label": "Sold At",
+        "Sold At": "Bike and electronics stores in the Northeast from August 2024 through April 2025 for between $250 and $400.",
+        "Importers": "Transpro US Inc., of Paterson, New Jersey",
+        "Manufacturers": "",
+        "Distributors": "",
+        "Manufactured In": "China",
+        "Custom Label": "",
+        "Custom Field": ""
+      }
+    },
+    {
+      "merged": {
+        "RecallID": 10348,
+        "RecallNumber": "25391",
+        "RecallDate": "2025-07-17T00:00:00",
+        "Description": "This recall involves 36-volt lithium-ion rechargeable batteries included with certain \"VIVI\" brand e-bikes. E-bike model information can be found on a consumer's sales order documentation and on certain bicycle frames. Battery model information is located on the battery itself. \"VIVI is printed on the bicycle downtube. The following e-bike model numbers and battery model numbers are included in this recall: Affected E-Bike Model Number Recalled Battery Model Number C26 WT0261, 36V-8AH-288WH, ZBL-36V8AH ZK, SKD015, EB3608C0B MT20 WT0261, SKD014, ZBL-36V10.4Ah LH Z3 TCRFD111005YY M026SH 36V-8Ah-288Wh, ZBL-36V8Ah288Wh, ZBL-36V8Ah288Wh ZK, EB360817E, SKD036008016A H6 EB3610D0B, ZBL-36V10Ah, SKD011, 36V-10.4AH-374.4Wh, SKD036010003A H7 EB3610C5B, 36V-10.4AH-374.4Wh MT26H ZBL-36V8Ah ZK 26LGB EB360808L, 36V-8AH-300WH, 36V-8AH-288WH, WT0260, SKD036008009A, ZBL-36V8AH, ZBL-36V8AH ZK, ZBL10SP36V8AH M026TGB EB360808L, 36V-8AH-300WH, 36V-8AH-288WH, WT0260, SKD036008009A, ZBL-36V8AH, ZBL-36V8AH ZK, ZBL10SP36V8AH MT26G EB360808L, 36V-8AH-300WH, 36V-8AH-288WH, WT0260, SKD036008009A, ZBL-36V8AH, ZBL-36V8AH ZK, ZBL10SP36V8AH FM20 WT0289, EB3608B2S, 36V-8AH-288WH F20 36V-8AH-288WH, EB3608B4S S3 TCRFD021004006, TCRFD031004006, TTTT07F01, TCRFD181004JB, TCRFD011004JB, TC-TT011005B Z1 TT09F01 Z2 TT09F01",
+        "URL": "https://www.cpsc.gov/Recalls/2025/VIVI-E-Bikes-Lithium-ion-Batteries-Sold-with-VIVI-E-Bikes-Recalled-Due-to-Fire-and-Burn-Hazards-Risk-of-Serious-Injury-or-Death-Sold-by-VIVI",
+        "Title": "VIVI E-Bikes Lithium-ion Batteries Sold with VIVI E-Bikes Recalled Due to Fire and Burn Hazards; Risk of Serious Injury or Death; Sold by VIVI",
+        "ConsumerContact": "VIVI toll-free at 800-375-6103 from 9 a.m. to 5 p.m. ET, or online at https://viviebikes.com/pages/recall or https://viviebikes.com and click on \"Important Recall Information\" for more information.",
+        "LastPublishDate": "2025-07-17T00:00:00",
+        "Products": [
+          {
+            "Name": "36-volt lithium-ion batteries used with VIVI E-bikes",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 24,000"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/VIVI-1.PNG",
+            "Caption": "Affected VIVI e-bike model number C26"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/VIVI-2.PNG",
+            "Caption": "Affected VIVI e-bike model number MT20"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/VIVI-3.PNG",
+            "Caption": "Affected VIVI e-bike model number Z3"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/VIVI-4.PNG",
+            "Caption": "Affected VIVI e-bike model number M026SH"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/VIVI-5.PNG",
+            "Caption": "Affected VIVI e-bike model number H6"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/VIVI-6.PNG",
+            "Caption": "Affected VIVI e-bike model number H7"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/VIVI-7.PNG",
+            "Caption": "Affected VIVI e-bike model number MT26H"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/VIVI-8.PNG",
+            "Caption": "Affected VIVI e-bike model number 26LGB"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/VIVI-9.PNG",
+            "Caption": "Affected VIVI e-bike model number M026TGB"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/VIVI-10.PNG",
+            "Caption": "Affected VIVI e-bike model number MT26G"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/VIVI-11.PNG",
+            "Caption": "Affected VIVI e-bike model number FM20"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/VIVI-12.PNG",
+            "Caption": "Affected VIVI e-bike model number F20"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/VIVI-13.PNG",
+            "Caption": "Affected VIVI e-bike model number S3"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/VIVI-14.PNG",
+            "Caption": "Affected VIVI e-bike model number Z1"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/VIVI-15.PNG",
+            "Caption": "Affected VIVI e-bike model number Z2"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/VIVI-16.PNG",
+            "Caption": "Affected VIVI e-bike models label (located on the frame of e-bikes sold in 2022 and after)"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/VIVI-17.PNG",
+            "Caption": "Recalled VIVI e-bike 36-volt lithium-ion battery number label (located on the top or bottom of the battery casing depending on the battery model)"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "VIVI is aware of 14 reports of incidents of batteries overheating, including three reports of fires. No injuries reported."
+          }
+        ],
+        "Manufacturers": [
+          {
+            "Name": "Guangzhou Plenty Bicycle Co., Ltd., of China",
+            "CompanyID": ""
+          }
+        ],
+        "Retailers": [
+          {
+            "Name": "Bikes with the recalled batteries were sold online at amazon.com, walmart.com, ebay.com, viviebikes.com, wish.com, sears.com, wayfair.com and aliexpress.com from December 2020 through November 2023 for between $365 and $950.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [],
+        "Distributors": [
+          {
+            "Name": "Shenzhen Binxin Household Co., Ltd., d/b/a VIVI E-bikes, of China",
+            "CompanyID": ""
+          }
+        ],
+        "SoldAtLabel": "Sold At",
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The recalled lithium-ion batteries can overheat, posing fire and burn hazards.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using e-bikes with the recalled lithium-ion batteries and contact VIVI to receive a free replacement battery and battery charger. Consumers must dispose of the recalled battery at a household hazardous waste (HHW) collection center or follow the instructions of their municipality and confirm that this was done by sending an email to vivirecall@163.com. Note: Do not throw the recalled lithium-ion battery in the trash, in the general recycling stream (e.g., street-level or curbside recycling bins), or in used battery recycling boxes found at various retail and home improvement stores. Recalled lithium-ion batteries must be disposed of differently than other batteries, because they present a greater risk of fire. Your municipal HHW collection center may accept this recalled lithium-ion battery or device for disposal. Before taking your battery or device to an HHW collection center, contact it ahead of time and ask whether it accepts recalled lithium-ion batteries. If it doesn't, contact your municipality for further guidance."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Replace"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 10348,
+        "RecallNumber": "25391",
+        "RecallDate": "2025-07-17T00:00:00",
+        "Description": "This recall involves 36-volt lithium-ion rechargeable batteries included with certain \"VIVI\" brand e-bikes. E-bike model information can be found on a consumer's sales order documentation and on certain bicycle frames. Battery model information is located on the battery itself. \"VIVI is printed on the bicycle downtube. The following e-bike model numbers and battery model numbers are included in this recall: Affected E-Bike Model Number Recalled Battery Model Number C26 WT0261, 36V-8AH-288WH, ZBL-36V8AH ZK, SKD015, EB3608C0B MT20 WT0261, SKD014, ZBL-36V10.4Ah LH Z3 TCRFD111005YY M026SH 36V-8Ah-288Wh, ZBL-36V8Ah288Wh, ZBL-36V8Ah288Wh ZK, EB360817E, SKD036008016A H6 EB3610D0B, ZBL-36V10Ah, SKD011, 36V-10.4AH-374.4Wh, SKD036010003A H7 EB3610C5B, 36V-10.4AH-374.4Wh MT26H ZBL-36V8Ah ZK 26LGB EB360808L, 36V-8AH-300WH, 36V-8AH-288WH, WT0260, SKD036008009A, ZBL-36V8AH, ZBL-36V8AH ZK, ZBL10SP36V8AH M026TGB EB360808L, 36V-8AH-300WH, 36V-8AH-288WH, WT0260, SKD036008009A, ZBL-36V8AH, ZBL-36V8AH ZK, ZBL10SP36V8AH MT26G EB360808L, 36V-8AH-300WH, 36V-8AH-288WH, WT0260, SKD036008009A, ZBL-36V8AH, ZBL-36V8AH ZK, ZBL10SP36V8AH FM20 WT0289, EB3608B2S, 36V-8AH-288WH F20 36V-8AH-288WH, EB3608B4S S3 TCRFD021004006, TCRFD031004006, TTTT07F01, TCRFD181004JB, TCRFD011004JB, TC-TT011005B Z1 TT09F01 Z2 TT09F01",
+        "URL": "https://www.cpsc.gov/Recalls/2025/VIVI-E-Bikes-Lithium-ion-Batteries-Sold-with-VIVI-E-Bikes-Recalled-Due-to-Fire-and-Burn-Hazards-Risk-of-Serious-Injury-or-Death-Sold-by-VIVI",
+        "Title": "VIVI E-Bikes Lithium-ion Batteries Sold with VIVI E-Bikes Recalled Due to Fire and Burn Hazards; Risk of Serious Injury or Death; Sold by VIVI",
+        "ConsumerContact": "VIVI toll-free at 800-375-6103 from 9 a.m. to 5 p.m. ET, or online at https://viviebikes.com/pages/recall or https://viviebikes.com and click on \"Important Recall Information\" for more information.",
+        "LastPublishDate": "2025-07-17T00:00:00",
+        "Products": [
+          {
+            "Name": "36-volt lithium-ion batteries used with VIVI E-bikes",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 24,000"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/VIVI-1.PNG",
+            "Caption": "Affected VIVI e-bike model number C26"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/VIVI-2.PNG",
+            "Caption": "Affected VIVI e-bike model number MT20"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/VIVI-3.PNG",
+            "Caption": "Affected VIVI e-bike model number Z3"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/VIVI-4.PNG",
+            "Caption": "Affected VIVI e-bike model number M026SH"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/VIVI-5.PNG",
+            "Caption": "Affected VIVI e-bike model number H6"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/VIVI-6.PNG",
+            "Caption": "Affected VIVI e-bike model number H7"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/VIVI-7.PNG",
+            "Caption": "Affected VIVI e-bike model number MT26H"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/VIVI-8.PNG",
+            "Caption": "Affected VIVI e-bike model number 26LGB"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/VIVI-9.PNG",
+            "Caption": "Affected VIVI e-bike model number M026TGB"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/VIVI-10.PNG",
+            "Caption": "Affected VIVI e-bike model number MT26G"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/VIVI-11.PNG",
+            "Caption": "Affected VIVI e-bike model number FM20"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/VIVI-12.PNG",
+            "Caption": "Affected VIVI e-bike model number F20"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/VIVI-13.PNG",
+            "Caption": "Affected VIVI e-bike model number S3"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/VIVI-14.PNG",
+            "Caption": "Affected VIVI e-bike model number Z1"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/VIVI-15.PNG",
+            "Caption": "Affected VIVI e-bike model number Z2"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/VIVI-16.PNG",
+            "Caption": "Affected VIVI e-bike models label (located on the frame of e-bikes sold in 2022 and after)"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/VIVI-17.PNG",
+            "Caption": "Recalled VIVI e-bike 36-volt lithium-ion battery number label (located on the top or bottom of the battery casing depending on the battery model)"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "VIVI is aware of 14 reports of incidents of batteries overheating, including three reports of fires. No injuries reported."
+          }
+        ],
+        "Manufacturers": [
+          {
+            "Name": "Guangzhou Plenty Bicycle Co., Ltd., of China",
+            "CompanyID": ""
+          }
+        ],
+        "Retailers": [
+          {
+            "Name": "Bikes with the recalled batteries were sold online at amazon.com, walmart.com, ebay.com, viviebikes.com, wish.com, sears.com, wayfair.com and aliexpress.com from December 2020 through November 2023 for between $365 and $950.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [],
+        "Distributors": [
+          {
+            "Name": "Shenzhen Binxin Household Co., Ltd., d/b/a VIVI E-bikes, of China",
+            "CompanyID": ""
+          }
+        ],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The recalled lithium-ion batteries can overheat, posing fire and burn hazards.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using e-bikes with the recalled lithium-ion batteries and contact VIVI to receive a free replacement battery and battery charger. Consumers must dispose of the recalled battery at a household hazardous waste (HHW) collection center or follow the instructions of their municipality and confirm that this was done by sending an email to vivirecall@163.com. Note: Do not throw the recalled lithium-ion battery in the trash, in the general recycling stream (e.g., street-level or curbside recycling bins), or in used battery recycling boxes found at various retail and home improvement stores. Recalled lithium-ion batteries must be disposed of differently than other batteries, because they present a greater risk of fire. Your municipal HHW collection center may accept this recalled lithium-ion battery or device for disposal. Before taking your battery or device to an HHW collection center, contact it ahead of time and ask whether it accepts recalled lithium-ion batteries. If it doesn't, contact your municipality for further guidance."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Replace"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "25391",
+        "Product Safety Warning Number": "",
+        "Date": "July 17, 2025",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "VIVI E-Bikes Lithium-ion Batteries Sold with VIVI E-Bikes Recalled Due to Fire and Burn Hazards; Risk of Serious Injury or Death; Sold by VIVI",
+        "Name of product": "36-volt lithium-ion batteries used with VIVI E-bikes",
+        "Description": "This recall involves 36-volt lithium-ion rechargeable batteries included with certain “VIVI” brand e-bikes. E-bike model information can be found on a consumer’s sales order documentation and on certain bicycle frames. Battery model information is located on the battery itself. “VIVI is printed on the bicycle downtube.The following e-bike model numbers and battery model numbers are included in this recall:Affected E-Bike Model NumberRecalled Battery Model NumberC26WT0261, 36V-8AH-288WH, ZBL-36V8AH ZK, SKD015, EB3608C0BMT20WT0261, SKD014, ZBL-36V10.4Ah LHZ3TCRFD111005YYM026SH36V-8Ah-288Wh, ZBL-36V8Ah288Wh, ZBL-36V8Ah288Wh ZK, EB360817E, SKD036008016AH6EB3610D0B, ZBL-36V10Ah, SKD011, 36V-10.4AH-374.4Wh, SKD036010003AH7EB3610C5B, 36V-10.4AH-374.4WhMT26HZBL-36V8Ah ZK26LGBEB360808L, 36V-8AH-300WH, 36V-8AH-288WH, WT0260, SKD036008009A, ZBL-36V8AH, &nbsp;ZBL-36V8AH ZK, ZBL10SP36V8AHM026TGBEB360808L, 36V-8AH-300WH, 36V-8AH-288WH, WT0260, SKD036008009A, ZBL-36V8AH, &nbsp;ZBL-36V8AH ZK, ZBL10SP36V8AHMT26GEB360808L, 36V-8AH-300WH, 36V-8AH-288WH, WT0260, SKD036008009A, ZBL-36V8AH, &nbsp;ZBL-36V8AH ZK, ZBL10SP36V8AHFM20WT0289, EB3608B2S, 36V-8AH-288WHF2036V-8AH-288WH, EB3608B4SS3TCRFD021004006, TCRFD031004006, TTTT07F01, TCRFD181004JB, TCRFD011004JB, TC-TT011005BZ1TT09F01Z2TT09F01&nbsp;",
+        "Hazard Description": "The recalled lithium-ion batteries can overheat, posing fire and burn hazards.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Replace",
+        "Units": "About 24,000",
+        "Incidents": "VIVI is aware of 14 reports of incidents of batteries overheating, including three reports of fires. No injuries reported.",
+        "Remedy": "Consumers should immediately stop using e-bikes with the recalled lithium-ion batteries and contact VIVI to receive a free replacement battery and battery charger.&nbsp;Consumers must dispose of the recalled battery at a household hazardous waste (HHW) collection center or follow the instructions of their municipality and confirm that this was done by sending an email to&nbsp;vivirecall@163.com.Note: Do not throw the recalled lithium-ion battery in the trash, in the general recycling stream (e.g., street-level or curbside recycling bins), or in used battery recycling boxes found at various retail and home improvement stores. Recalled lithium-ion batteries must be disposed of differently than other batteries, because they present a greater risk of fire. Your municipal HHW collection center may accept this recalled lithium-ion battery or device for disposal. Before taking your battery or device to an HHW collection center, contact it ahead of time and ask whether it accepts recalled lithium-ion batteries. If it doesn’t, contact your municipality for further guidance.&nbsp;",
+        "Sold At Label": "Sold At",
+        "Sold At": "Bikes with the recalled batteries were sold online at amazon.com, walmart.com, ebay.com, viviebikes.com, wish.com, sears.com, wayfair.com and aliexpress.com from December 2020 through November 2023 for between $365 and $950.",
+        "Importers": "",
+        "Manufacturers": "Guangzhou Plenty Bicycle Co., Ltd., of China",
+        "Distributors": "Shenzhen Binxin Household Co., Ltd., d/b/a VIVI E-bikes, of China",
+        "Manufactured In": "China",
+        "Custom Label": "",
+        "Custom Field": ""
+      }
+    },
+    {
+      "merged": {
+        "RecallID": 10211,
+        "RecallNumber": "25193",
+        "RecallDate": "2025-03-20T00:00:00",
+        "Description": "This recall involves all Segway Ninebot Max G30P and Max G30LP KickScooters. The Max G30LP KickScooter is gray in color with yellow accents and the Max G30P is black in color with yellow accents. The brand name \"ninebot\" appears on the foot platform and the top of the handlebars. The model number is located on a label on the side of the foot deck. The Max G30P model is 46 inches long, 19 inches wide, 47 inches high and weighs 42 pounds. The Max G30LP model is 44 inches long, 19 inches wide, 45 inches high and weighs 39 pounds.",
+        "URL": "https://www.cpsc.gov/Recalls/2025/Segway-Recalls-Segway-Ninebot-Max-G30P-and-Max-G30LP-KickScooters-Due-to-Fall-Hazard-and-Risk-of-Serious-Injury",
+        "Title": "Segway Recalls Segway Ninebot Max G30P and Max G30LP KickScooters Due to Fall Hazard and Risk of Serious Injury",
+        "ConsumerContact": "Segway at 800-914-6110 from 9 a.m. to 5 p.m. Monday through Friday, email at recall@segway.com, or online at https://service.segway.com/recall or www.segway.com, and click on \"Recall Center\" at the bottom of the page for more information.",
+        "LastPublishDate": "2025-03-20T00:00:00",
+        "Products": [
+          {
+            "Name": "Segway Ninebot Max G30P and Max G30LP KickScooters",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 220,000"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/segway-1_0.png",
+            "Caption": "Recalled Segway Max G30P KickScooter"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/segway-2_0.png",
+            "Caption": "Recalled Segway Max G30LP KickScooter"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "Segway has received 68 reports of folding mechanism failures, including 20 injuries to include abrasions, bruises, lacerations and broken bones."
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Best Buy, Costco, Walmart, Target and Sam's Club nationwide and online at Segway.com and Amazon.com from January 2020 through February 2025 for between $600 and $1,000.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Segway Inc., of Los Angeles, California",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": "Sold At",
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          },
+          {
+            "Country": "Malaysia"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The folding mechanism can fail and cause the handlebars or stem to fold while the scooter is in use, posing a fall hazard to consumers.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled scooters and contact Segway to receive information to determine whether the folding mechanism needs adjustment and to receive a free maintenance kit. The kit includes tools and instructions for checking and tightening the folding mechanism and keeping it properly maintained."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Repair"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 10211,
+        "RecallNumber": "25193",
+        "RecallDate": "2025-03-20T00:00:00",
+        "Description": "This recall involves all Segway Ninebot Max G30P and Max G30LP KickScooters. The Max G30LP KickScooter is gray in color with yellow accents and the Max G30P is black in color with yellow accents. The brand name \"ninebot\" appears on the foot platform and the top of the handlebars. The model number is located on a label on the side of the foot deck. The Max G30P model is 46 inches long, 19 inches wide, 47 inches high and weighs 42 pounds. The Max G30LP model is 44 inches long, 19 inches wide, 45 inches high and weighs 39 pounds.",
+        "URL": "https://www.cpsc.gov/Recalls/2025/Segway-Recalls-Segway-Ninebot-Max-G30P-and-Max-G30LP-KickScooters-Due-to-Fall-Hazard-and-Risk-of-Serious-Injury",
+        "Title": "Segway Recalls Segway Ninebot Max G30P and Max G30LP KickScooters Due to Fall Hazard and Risk of Serious Injury",
+        "ConsumerContact": "Segway at 800-914-6110 from 9 a.m. to 5 p.m. Monday through Friday, email at recall@segway.com, or online at https://service.segway.com/recall or www.segway.com, and click on \"Recall Center\" at the bottom of the page for more information.",
+        "LastPublishDate": "2025-03-20T00:00:00",
+        "Products": [
+          {
+            "Name": "Segway Ninebot Max G30P and Max G30LP KickScooters",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 220,000"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/segway-1_0.png",
+            "Caption": "Recalled Segway Max G30P KickScooter"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/segway-2_0.png",
+            "Caption": "Recalled Segway Max G30LP KickScooter"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "Segway has received 68 reports of folding mechanism failures, including 20 injuries to include abrasions, bruises, lacerations and broken bones."
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Best Buy, Costco, Walmart, Target and Sam's Club nationwide and online at Segway.com and Amazon.com from January 2020 through February 2025 for between $600 and $1,000.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Segway Inc., of Los Angeles, California",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          },
+          {
+            "Country": "Malaysia"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The folding mechanism can fail and cause the handlebars or stem to fold while the scooter is in use, posing a fall hazard to consumers.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled scooters and contact Segway to receive information to determine whether the folding mechanism needs adjustment and to receive a free maintenance kit. The kit includes tools and instructions for checking and tightening the folding mechanism and keeping it properly maintained."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Repair"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "25193",
+        "Product Safety Warning Number": "",
+        "Date": "March 20, 2025",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "Segway Recalls Segway Ninebot Max G30P and Max G30LP KickScooters Due to Fall Hazard and Risk of Serious Injury",
+        "Name of product": "Segway Ninebot Max G30P and Max G30LP KickScooters",
+        "Description": "This recall involves all Segway Ninebot Max G30P and Max G30LP KickScooters. The Max G30LP KickScooter is gray in color with yellow accents and the Max G30P is black in color with yellow accents. The brand name “ninebot” appears on the foot platform and the top of the handlebars. The model number is located on a label on the side of the foot deck. The Max G30P model is 46 inches long, 19 inches wide, 47 inches high and weighs 42 pounds. The Max G30LP model is 44 inches long, 19 inches wide, 45 inches high and weighs 39 pounds.",
+        "Hazard Description": "The folding mechanism can fail and cause the handlebars or stem to fold while the scooter is in use, posing a fall hazard to consumers.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Repair",
+        "Units": "About 220,000",
+        "Incidents": "Segway has received 68 reports of folding mechanism failures, including 20 injuries to include abrasions, bruises, lacerations and broken bones.",
+        "Remedy": "Consumers should immediately stop using the recalled scooters and contact Segway to receive information to determine whether the folding mechanism needs adjustment and to receive a free maintenance kit. The kit includes tools and instructions for checking and tightening the folding mechanism and keeping it properly maintained.",
+        "Sold At Label": "Sold At",
+        "Sold At": "Best Buy, Costco, Walmart, and Target nationwide and online at Segway.com and Amazon.com from January 2020 through February 2025 for between $600 and $1,000.",
+        "Importers": "Segway Inc., of Los Angeles, California",
+        "Manufacturers": "",
+        "Distributors": "",
+        "Manufactured In": "China and Malaysia",
+        "Custom Label": "",
+        "Custom Field": ""
+      }
+    },
+    {
+      "merged": {
+        "RecallID": 10164,
+        "RecallNumber": "25138",
+        "RecallDate": "2025-02-20T00:00:00",
+        "Description": "This recall involves SG-5 Swagger 5 Boost Commuter Electric Scooters sold at Walmart and Sam's Club. The electric scooters are powered by lithium-ion batteries. They were sold in black or silver colors. \"SWAGGER 5\" is printed in large lettering on the stem of the handlebars. The lithium-ion battery is located beneath the scooter deck. The model numbers are SWGR5-V2-SLV, SWGR5-V2-2, SG5 Boost, SG-5S, 96262-2, 96262-9, SG-5S, and 96560-2. The model numbers are affixed to the side of the scooter deck. Note: Recalled lithium-ion batteries should be disposed of in accordance with any local and state ordinances, following the procedures established by your municipal recycling center for damaged/defective/recalled lithium batteries, because these potentially hazardous batteries must be handled differently than other batteries. Do not throw this recalled battery in the trash. Do not deposit this recalled battery in used battery recycling boxes found at various retail and home improvement stores. The manufacturer, Swagtron, of South Bend, Indiana, has not been responsive to CPSC's request for information about this product or to CPSC's request for a recall. However, Walmart as the retailer has agreed to recall electric scooters that were purchased at Walmart or Sam's Club either at its stores or on its websites.",
+        "URL": "https://www.cpsc.gov/Recalls/2025/Walmart-Recalls-Swagtron-SG-5-Boost-Commuter-Electric-Scooters-with-Lithium-Ion-Batteries-Due-to-Fire-and-Burn-Hazards-Risk-of-Serious-Injury-and-Death",
+        "Title": "Walmart Recalls Swagtron SG-5 Swagger 5 Boost Commuter Electric Scooters with Lithium-Ion Batteries Due to Fire and Burn Hazards; Risk of Serious Injury and Death",
+        "ConsumerContact": "Walmart at 800-925-6278 from 7 a.m. through 9 p.m. CT any day or online at www.walmart.com/help. For additional information about the recall, visit https://corporate.walmart.com/recalls.",
+        "LastPublishDate": "2025-02-20T00:00:00",
+        "Products": [
+          {
+            "Name": "Swagtron SG-5 Swagger 5 Boost Commuter Electric Scooters",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 17,970"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/swagtron-1.png",
+            "Caption": "Recalled Black Swagtron SG-5 Swagger 5 Boost Commuter Electric Scooter (side view)"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/swagtron-2.png",
+            "Caption": "Recalled Black Swagtron SG-5 Swagger 5 Boost Commuter Electric Scooter (folded)"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/swagtron-3.png",
+            "Caption": "Recalled Silver Swagtron SG-5 Swagger 5 Boost Commuter Electric Scooter (side view)"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/swagtron-4.png",
+            "Caption": "Recalled Silver Swagtron SG-5 Swagger 5 Boost Commuter Electric Scooter (folded)"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/swagtron-5.png",
+            "Caption": "Location of model and serial number"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/swagtron-6.png",
+            "Caption": "Close-up of model and serial number"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/swagtron-7.png",
+            "Caption": "Location of battery pack beneath scooter deck"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "There have been seven reports of the lithium-ion batteries in the electric scooters overheating, smoking, melting or igniting, with one ignition resulting in a fire, causing a burn injury and substantial property damage to a residential apartment building."
+          }
+        ],
+        "Manufacturers": [
+          {
+            "Name": "Swagtron, of South Bend, Indiana",
+            "CompanyID": ""
+          }
+        ],
+        "Retailers": [
+          {
+            "Name": "Walmart and Sam's Club stores nationwide and online at Walmart.com and SamsClub.com from May 2018 through October 2024 for between $175 and $450.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [],
+        "Distributors": [
+          {
+            "Name": "Walmart, of Bentonville, Arkansas",
+            "CompanyID": ""
+          }
+        ],
+        "SoldAtLabel": "Sold At",
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The electric scooters' lithium-ion batteries can overheat, smoke, melt and ignite, posing fire and burn hazards, posing a risk of serious injury and death.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using and charging the recalled electric scooters, cut the throttle cord, and dispose of the entire product following local and state hazardous waste disposal procedures. Consumers who purchased their electric scooters from Walmart or Sam's Club will receive an email with instructions on how to receive a full refund."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 10164,
+        "RecallNumber": "25138",
+        "RecallDate": "2025-02-20T00:00:00",
+        "Description": "This recall involves SG-5 Swagger 5 Boost Commuter Electric Scooters sold at Walmart and Sam's Club. The electric scooters are powered by lithium-ion batteries. They were sold in black or silver colors. \"SWAGGER 5\" is printed in large lettering on the stem of the handlebars. The lithium-ion battery is located beneath the scooter deck. The model numbers are SWGR5-V2-SLV, SWGR5-V2-2, SG5 Boost, SG-5S, 96262-2, 96262-9, SG-5S, and 96560-2. The model numbers are affixed to the side of the scooter deck. Note: Recalled lithium-ion batteries should be disposed of in accordance with any local and state ordinances, following the procedures established by your municipal recycling center for damaged/defective/recalled lithium batteries, because these potentially hazardous batteries must be handled differently than other batteries. Do not throw this recalled battery in the trash. Do not deposit this recalled battery in used battery recycling boxes found at various retail and home improvement stores. The manufacturer, Swagtron, of South Bend, Indiana, has not been responsive to CPSC's request for information about this product or to CPSC's request for a recall. However, Walmart as the retailer has agreed to recall electric scooters that were purchased at Walmart or Sam's Club either at its stores or on its websites.",
+        "URL": "https://www.cpsc.gov/Recalls/2025/Walmart-Recalls-Swagtron-SG-5-Boost-Commuter-Electric-Scooters-with-Lithium-Ion-Batteries-Due-to-Fire-and-Burn-Hazards-Risk-of-Serious-Injury-and-Death",
+        "Title": "Walmart Recalls Swagtron SG-5 Swagger 5 Boost Commuter Electric Scooters with Lithium-Ion Batteries Due to Fire and Burn Hazards; Risk of Serious Injury and Death",
+        "ConsumerContact": "Walmart at 800-925-6278 from 7 a.m. through 9 p.m. CT any day or online at www.walmart.com/help. For additional information about the recall, visit https://corporate.walmart.com/recalls.",
+        "LastPublishDate": "2025-02-20T00:00:00",
+        "Products": [
+          {
+            "Name": "Swagtron SG-5 Swagger 5 Boost Commuter Electric Scooters",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 17,970"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/swagtron-1.png",
+            "Caption": "Recalled Black Swagtron SG-5 Swagger 5 Boost Commuter Electric Scooter (side view)"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/swagtron-2.png",
+            "Caption": "Recalled Black Swagtron SG-5 Swagger 5 Boost Commuter Electric Scooter (folded)"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/swagtron-3.png",
+            "Caption": "Recalled Silver Swagtron SG-5 Swagger 5 Boost Commuter Electric Scooter (side view)"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/swagtron-4.png",
+            "Caption": "Recalled Silver Swagtron SG-5 Swagger 5 Boost Commuter Electric Scooter (folded)"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/swagtron-5.png",
+            "Caption": "Location of model and serial number"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/swagtron-6.png",
+            "Caption": "Close-up of model and serial number"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/swagtron-7.png",
+            "Caption": "Location of battery pack beneath scooter deck"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "There have been seven reports of the lithium-ion batteries in the electric scooters overheating, smoking, melting or igniting, with one ignition resulting in a fire, causing a burn injury and substantial property damage to a residential apartment building."
+          }
+        ],
+        "Manufacturers": [
+          {
+            "Name": "Swagtron, of South Bend, Indiana",
+            "CompanyID": ""
+          }
+        ],
+        "Retailers": [
+          {
+            "Name": "Walmart and Sam's Club stores nationwide and online at Walmart.com and SamsClub.com from May 2018 through October 2024 for between $175 and $450.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [],
+        "Distributors": [
+          {
+            "Name": "Walmart, of Bentonville, Arkansas",
+            "CompanyID": ""
+          }
+        ],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The electric scooters' lithium-ion batteries can overheat, smoke, melt and ignite, posing fire and burn hazards, posing a risk of serious injury and death.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using and charging the recalled electric scooters, cut the throttle cord, and dispose of the entire product following local and state hazardous waste disposal procedures. Consumers who purchased their electric scooters from Walmart or Sam's Club will receive an email with instructions on how to receive a full refund."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "25138",
+        "Product Safety Warning Number": "",
+        "Date": "February 20, 2025",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "Walmart Recalls Swagtron SG-5 Swagger 5 Boost Commuter Electric Scooters with Lithium-Ion Batteries Due to Fire and Burn Hazards; Risk of Serious Injury and Death",
+        "Name of product": "Swagtron SG-5 Swagger 5 Boost Commuter Electric Scooters",
+        "Description": "This recall involves SG-5 Swagger 5 Boost Commuter Electric Scooters sold at Walmart and Sam’s Club. The electric scooters are powered by lithium-ion batteries. They were sold in black or silver colors. “SWAGGER 5” is printed in large lettering on the stem of the handlebars. The lithium-ion battery is located beneath the scooter deck. The model numbers are SWGR5-V2-SLV, SWGR5-V2-2, SG5 Boost, SG-5S, 96262-2, 96262-9, SG-5S, and 96560-2. The model numbers are affixed to the side of the scooter deck.Note:&nbsp;Recalled lithium-ion batteries should be disposed of in accordance with any local and state ordinances, following the procedures established by your municipal recycling center for damaged/defective/recalled lithium batteries, because these potentially hazardous batteries must be handled differently than other batteries. Do not throw this recalled battery in the trash. Do not deposit this recalled battery in used battery recycling boxes found at various retail and home improvement stores.The manufacturer, Swagtron, of South Bend, Indiana, has not been responsive to CPSC’s request for information about this product or to CPSC’s request for a recall. However, Walmart as the retailer has agreed to recall electric scooters that were purchased at Walmart or Sam’s Club either at its stores or on its websites.",
+        "Hazard Description": "The electric scooters’ lithium-ion batteries can overheat, smoke, melt and ignite, posing fire and burn hazards, posing a risk of serious injury and death.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Refund",
+        "Units": "About 17,970",
+        "Incidents": "There have been seven reports of the lithium-ion batteries in the electric scooters overheating, smoking, melting or igniting, with one ignition resulting in a fire, causing a burn injury and substantial property damage to a residential apartment building.",
+        "Remedy": "Consumers should immediately stop using and charging the recalled electric scooters, cut the throttle cord, and dispose of the entire product following local and state hazardous waste disposal procedures. Consumers who purchased their electric scooters from Walmart or Sam’s Club will receive an email with instructions on how to receive a full refund.",
+        "Sold At Label": "Sold At",
+        "Sold At": "Walmart and Sam’s Club stores nationwide and online at Walmart.com and SamsClub.com from May 2018 through October 2024 for between $175 and $450.",
+        "Importers": "",
+        "Manufacturers": "Swagtron, of South Bend, Indiana",
+        "Distributors": "",
+        "Manufactured In": "China",
+        "Custom Label": "Retailer:",
+        "Custom Field": "Walmart, of Bentonville, Arkansas"
+      }
+    },
+    {
+      "merged": {
+        "RecallID": 10017,
+        "RecallNumber": "24321",
+        "RecallDate": "2024-07-25T00:00:00",
+        "Description": "This recall involves Hover-1 Dynamo e-scooters with certain serial numbers. Only scooters with the letters \"WY\" as the seventh and eighth letter in the serial number are included in this recall. The serial number can be found on a label located on the underside of the scooter. The two-wheeled recalled scooters are matte black and have a kick stand and reflective lights at the front and back of the stand board. The Hover-1 logo appears on the stand board and on the bottom of the stem. Hover-1 is printed on the middle of the stem.",
+        "URL": "https://www.cpsc.gov/Recalls/2024/DGL-Group-Recalls-Hover-1-Dynamo-E-Scooters-Due-to-Risk-of-Serious-Injury-and-Crash-Hazard-Sold-Exclusively-at-Walmart-com",
+        "Title": "DGL Group Recalls Hover-1 Dynamo E-Scooters Due to Risk of Serious Injury and Crash Hazard; Sold Exclusively at Walmart.com",
+        "ConsumerContact": "DGL Group toll-free at 844-451-7300 from 11 a.m. to 4 p.m. ET Monday through Friday, or online at www.hover-1.com/pages/dynamo_recall or www.hover-1.com and click on \"Important Recall Information\" at the top of the page.",
+        "LastPublishDate": "2024-07-25T00:00:00",
+        "Products": [
+          {
+            "Name": "Hover-1 Dynamo E-scooters",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 4,200"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Hover-1-Dynamo.png",
+            "Caption": "Recalled Hover-1 Dynamo e-scooter"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Hover-1-label.jpg",
+            "Caption": "Serial number with the letters \"WY\" as the seventh and eighth letter appears on a label on the underside of the recalled e-scooter"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "DGL Group has received 22 reports of the e-scooter's brakes failing, which resulted in seven injuries, including abrasions, contusions, a dislocated shoulder, fractured teeth, lacerations and strains."
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Online at Walmart.com from November 2021 through July 2022 for about $200.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "DGL Group Ltd., of Edison, New Jersey",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": "Sold At",
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The e-scooter's brakes can fail, posing a risk of serious injury and crash hazard.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should stop using the recalled e-scooters immediately and contact DGL Group for instructions on how to receive a full refund. To receive a refund, consumers will be required to provide photographs of their e-scooter's serial number and severed motor cable."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 10017,
+        "RecallNumber": "24321",
+        "RecallDate": "2024-07-25T00:00:00",
+        "Description": "This recall involves Hover-1 Dynamo e-scooters with certain serial numbers. Only scooters with the letters \"WY\" as the seventh and eighth letter in the serial number are included in this recall. The serial number can be found on a label located on the underside of the scooter. The two-wheeled recalled scooters are matte black and have a kick stand and reflective lights at the front and back of the stand board. The Hover-1 logo appears on the stand board and on the bottom of the stem. Hover-1 is printed on the middle of the stem.",
+        "URL": "https://www.cpsc.gov/Recalls/2024/DGL-Group-Recalls-Hover-1-Dynamo-E-Scooters-Due-to-Risk-of-Serious-Injury-and-Crash-Hazard-Sold-Exclusively-at-Walmart-com",
+        "Title": "DGL Group Recalls Hover-1 Dynamo E-Scooters Due to Risk of Serious Injury and Crash Hazard; Sold Exclusively at Walmart.com",
+        "ConsumerContact": "DGL Group toll-free at 844-451-7300 from 11 a.m. to 4 p.m. ET Monday through Friday, or online at www.hover-1.com/pages/dynamo_recall or www.hover-1.com and click on \"Important Recall Information\" at the top of the page.",
+        "LastPublishDate": "2024-07-25T00:00:00",
+        "Products": [
+          {
+            "Name": "Hover-1 Dynamo E-scooters",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 4,200"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Hover-1-Dynamo.png",
+            "Caption": "Recalled Hover-1 Dynamo e-scooter"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Hover-1-label.jpg",
+            "Caption": "Serial number with the letters \"WY\" as the seventh and eighth letter appears on a label on the underside of the recalled e-scooter"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "DGL Group has received 22 reports of the e-scooter's brakes failing, which resulted in seven injuries, including abrasions, contusions, a dislocated shoulder, fractured teeth, lacerations and strains."
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Online at Walmart.com from November 2021 through July 2022 for about $200.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "DGL Group Ltd., of Edison, New Jersey",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The e-scooter's brakes can fail, posing a risk of serious injury and crash hazard.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should stop using the recalled e-scooters immediately and contact DGL Group for instructions on how to receive a full refund. To receive a refund, consumers will be required to provide photographs of their e-scooter's serial number and severed motor cable."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "24321",
+        "Product Safety Warning Number": "",
+        "Date": "July 25, 2024",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "DGL Group Recalls Hover-1 Dynamo E-Scooters Due to Risk of Serious Injury and Crash Hazard; Sold Exclusively at Walmart.com",
+        "Name of product": "Hover-1 Dynamo E-scooters",
+        "Description": "This recall involves Hover-1 Dynamo e-scooters with certain serial numbers. Only scooters with the letters “WY” as the seventh and eighth letter in the serial number are included in this recall. The serial number can be found on a label located on the underside of the scooter. The two-wheeled recalled scooters are matte black and have a kick stand and reflective lights at the front and back of the stand board. The Hover-1 logo appears on the stand board and on the bottom of the stem. Hover-1 is printed on the middle of the stem.",
+        "Hazard Description": "The e-scooter’s brakes can fail, posing a risk of serious injury and crash hazard.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Refund",
+        "Units": "About 4,200",
+        "Incidents": "DGL Group has received 22 reports of the e-scooter’s brakes failing, which resulted in seven injuries, including abrasions, contusions, a dislocated shoulder, fractured teeth, lacerations and strains.",
+        "Remedy": "Consumers should stop using the recalled e-scooters immediately and contact DGL Group for instructions on how to receive a full refund. To receive a refund, consumers will be required to provide photographs of their e-scooter’s serial number and severed motor cable.",
+        "Sold At Label": "Sold At",
+        "Sold At": "Online at Walmart.com from November 2021 through July 2022 for about $200.",
+        "Importers": "DGL Group Ltd., of Edison, New Jersey",
+        "Manufacturers": "",
+        "Distributors": "",
+        "Manufactured In": "China",
+        "Custom Label": "",
+        "Custom Field": ""
+      }
+    },
+    {
+      "merged": {
+        "RecallID": 9806,
+        "RecallNumber": "24065",
+        "RecallDate": "2023-12-21T00:00:00",
+        "Description": "This recall involves certain Hover-1 Helix hoverboards. The recalled hoverboards have serial numbers containing 15914, 19203, or 19988 as the fifth code in the six-code serial number affixed to the bottom of the board. The hoverboards were sold in camouflage and galaxy colors. \"Hover-1\" is printed on the front of the hoverboard. The model \"Hover-1 Helix\" and the serial number are printed on separate labels on the bottom of the hoverboard.",
+        "URL": "https://www.cpsc.gov/Recalls/2024/DGL-Group-Recalls-Hover-1-Helix-Hoverboards-Due-to-Fire-Hazard",
+        "Title": "DGL Group Recalls Hover-1 Helix Hoverboards Due to Fire Hazard",
+        "ConsumerContact": "DGL toll-free at 888-556-8426 from 11 a.m. to 4 p.m. ET Monday through Friday, or online at https://www.hover-1.com/pages/important-safety-information or www.hover-1.com and click on \"Important Recall Information\" at the top of the page.",
+        "LastPublishDate": "2023-12-21T00:00:00",
+        "Products": [
+          {
+            "Name": "Hover-1 Helix hoverboards (Camouflage and Galaxy colors only)",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 25,000"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/hover-camo.jpg",
+            "Caption": "Recalled Hover-1 Helix hoverboard in Camouflage"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/hover-galaxy.jpg",
+            "Caption": "Recalled Hover-1 Helix hoverboard in Galaxy"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/hover-label.jpg",
+            "Caption": "Hover-1 Helix label on the bottom of the hoverboard"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/hover1-serial-number.jpg",
+            "Caption": "Hover-1 Helix serial number label on the bottom of the hoverboard"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "DGL has received three reports of fire, which are associated with five reports of people experiencing headaches, nausea, or coughs from smoke inhalation and approximately $25,000 in reported property damage."
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Online at www.walmart.com and www.amazon.com from September 2020 through December 2021 for between about $170 and $200.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "DGL Group Ltd., of Edison, New Jersey",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": "Sold At",
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The recalled hoverboard's lithium-ion battery can overheat, posing a fire hazard.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should stop using the recalled hoverboards immediately and contact Hover-1 for instructions as to how to receive a free replacement hoverboard."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Replace"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 9806,
+        "RecallNumber": "24065",
+        "RecallDate": "2023-12-21T00:00:00",
+        "Description": "This recall involves certain Hover-1 Helix hoverboards. The recalled hoverboards have serial numbers containing 15914, 19203, or 19988 as the fifth code in the six-code serial number affixed to the bottom of the board. The hoverboards were sold in camouflage and galaxy colors. \"Hover-1\" is printed on the front of the hoverboard. The model \"Hover-1 Helix\" and the serial number are printed on separate labels on the bottom of the hoverboard.",
+        "URL": "https://www.cpsc.gov/Recalls/2024/DGL-Group-Recalls-Hover-1-Helix-Hoverboards-Due-to-Fire-Hazard",
+        "Title": "DGL Group Recalls Hover-1 Helix Hoverboards Due to Fire Hazard",
+        "ConsumerContact": "DGL toll-free at 888-556-8426 from 11 a.m. to 4 p.m. ET Monday through Friday, or online at https://www.hover-1.com/pages/important-safety-information or www.hover-1.com and click on \"Important Recall Information\" at the top of the page.",
+        "LastPublishDate": "2023-12-21T00:00:00",
+        "Products": [
+          {
+            "Name": "Hover-1 Helix hoverboards (Camouflage and Galaxy colors only)",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 25,000"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/hover-camo.jpg",
+            "Caption": "Recalled Hover-1 Helix hoverboard in Camouflage"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/hover-galaxy.jpg",
+            "Caption": "Recalled Hover-1 Helix hoverboard in Galaxy"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/hover-label.jpg",
+            "Caption": "Hover-1 Helix label on the bottom of the hoverboard"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/hover1-serial-number.jpg",
+            "Caption": "Hover-1 Helix serial number label on the bottom of the hoverboard"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "DGL has received three reports of fire, which are associated with five reports of people experiencing headaches, nausea, or coughs from smoke inhalation and approximately $25,000 in reported property damage."
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Online at www.walmart.com and www.amazon.com from September 2020 through December 2021 for between about $170 and $200.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "DGL Group Ltd., of Edison, New Jersey",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The recalled hoverboard's lithium-ion battery can overheat, posing a fire hazard.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should stop using the recalled hoverboards immediately and contact Hover-1 for instructions as to how to receive a free replacement hoverboard."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Replace"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "24065",
+        "Product Safety Warning Number": "",
+        "Date": "December 21, 2023",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "DGL Group Recalls Hover-1 Helix Hoverboards Due to Fire Hazard",
+        "Name of product": "Hover-1 Helix hoverboards (Camouflage and Galaxy colors only)",
+        "Description": "This recall involves certain Hover-1 Helix hoverboards. The recalled hoverboards have serial numbers containing 15914, 19203, or 19988 as the fifth code in the six-code serial number affixed to the bottom of the board. The hoverboards were sold in camouflage and galaxy colors. “Hover-1” is printed on the front of the hoverboard. The model “Hover-1 Helix” and the serial number are printed on separate labels on the bottom of the hoverboard.",
+        "Hazard Description": "The recalled hoverboard’s lithium-ion battery can overheat, posing a fire hazard.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Replace",
+        "Units": "About 25,000",
+        "Incidents": "DGL has received three reports of fire, which are associated with five reports of people experiencing headaches, nausea, or coughs from smoke inhalation and approximately $25,000 in reported property damage.",
+        "Remedy": "Consumers should stop using the recalled hoverboards immediately and contact Hover-1 for instructions as to how to receive a free replacement hoverboard.",
+        "Sold At Label": "Sold At",
+        "Sold At": "Online at www.walmart.com and www.amazon.com from September 2020 through December 2021 for between about $170 and $200.",
+        "Importers": "DGL Group Ltd., of Edison, New Jersey",
+        "Manufacturers": "",
+        "Distributors": "",
+        "Manufactured In": "China",
+        "Custom Label": "",
+        "Custom Field": ""
+      }
+    }
+  ]
+}

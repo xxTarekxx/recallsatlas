@@ -1,0 +1,993 @@
+{
+  "meta": {
+    "slug": "clothing",
+    "sourceCsvFile": "clothing_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T04:43:57.070Z",
+    "recallCount": 5
+  },
+  "recalls": [
+    {
+      "merged": {
+        "RecallID": 10593,
+        "RecallNumber": "26240",
+        "RecallDate": "2026-02-05T00:00:00",
+        "Description": "This recall involves five styles of Lola + The Boys hooded clothing with drawstrings: -The Candy Heart Tie Dye set consists of pink and white pants and a sweatshirt. Both have a yellow drawstring with beads, and the sweatshirt has a heart on the front. -The Hoodie Unicorn Tutu set consist of a rainbow organza skirt and a purple hoodie sweatshirt with a unicorn on the front. -The Justice League Hero hoodie is gray and has a front pocket and superhero decals along the right sleeve. -The Emoji Love hoodie sweatshirt is white and has a pocket and three smiley emojis on the front. -The Crystal Rainbow Rain hoodie is gray and has a front pocket and rainbow-colored beads at both ends of the drawstrings. The clothing was sold in youth sizes 1 through 12. \"Lola + The Boys\" and the size are printed on the neck label.",
+        "URL": "https://www.cpsc.gov/Recalls/2026/Lola-Plus-The-Boys-Recalls-Youth-Clothing-with-Drawstrings-Due-to-Risk-of-Serious-Injury-or-Death-from-Strangulation-Hazard-Violates-Federal-Rule-for-Childrens-Upper-Outerwear",
+        "Title": "Lola Plus The Boys Recalls Youth Clothing with Drawstrings Due to Risk of Serious Injury or Death from Strangulation Hazard; Violates Federal Rule for Children's Upper Outerwear",
+        "ConsumerContact": "Lola Plus The Boys collect at 312-285-6053 from 10 a.m. to 5 p.m. CT Monday through Friday, email at customerservice@lolaandtheboys.com or online at https://lolaandtheboys.com/pages/recall or https://lolaandtheboys.com/ and click on \"Recall Policy\" at the bottom of the homepage for more information.",
+        "LastPublishDate": "2026-02-06T00:00:00",
+        "Products": [
+          {
+            "Name": "Lola + The Boys Youth Clothing with Drawstrings",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 620"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/lola-1.jpg",
+            "Caption": "Recalled Lola + The Boys Candy Heart Tie Dye Set"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/lola-2.jpg",
+            "Caption": "Recalled Lola + The Boys Hoodie Unicorn Tutu Set"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/lola-3.jpg",
+            "Caption": "Recalled Lola + The Boys Justice League Hero Gray Hoodie"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/lola-4.jpg",
+            "Caption": "Recalled Lola + The Boys Emoji Love Hoodie"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/lola-5.png",
+            "Caption": "Recalled Lola + The Boys Crystal Rainbow Rain Hoodie"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Lola Plus The Boys stores nationwide and online at Lolaandtheboys.com from November 2022 through September 2025 for between $45 and $80.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Lola Plus The Boys Inc., of Chicago, Illinois",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": "Sold At",
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The drawstrings in the recalled clothing can get caught on objects and cause death or serious injury to children due to the strangulation hazard. The clothes are in violation of the federal rule for children's upper outerwear and present a substantial product hazard.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately take the recalled clothing away from children, remove the drawstrings to eliminate the hazard and contact Lola Plus The Boys for a full refund. Consumers should send a photo of the clothing without a drawstring, along with their name and the date, to customerservice@lolaandtheboys.com."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 10593,
+        "RecallNumber": "26240",
+        "RecallDate": "2026-02-05T00:00:00",
+        "Description": "This recall involves five styles of Lola + The Boys hooded clothing with drawstrings: -The Candy Heart Tie Dye set consists of pink and white pants and a sweatshirt. Both have a yellow drawstring with beads, and the sweatshirt has a heart on the front. -The Hoodie Unicorn Tutu set consist of a rainbow organza skirt and a purple hoodie sweatshirt with a unicorn on the front. -The Justice League Hero hoodie is gray and has a front pocket and superhero decals along the right sleeve. -The Emoji Love hoodie sweatshirt is white and has a pocket and three smiley emojis on the front. -The Crystal Rainbow Rain hoodie is gray and has a front pocket and rainbow-colored beads at both ends of the drawstrings. The clothing was sold in youth sizes 1 through 12. \"Lola + The Boys\" and the size are printed on the neck label.",
+        "URL": "https://www.cpsc.gov/Recalls/2026/Lola-Plus-The-Boys-Recalls-Youth-Clothing-with-Drawstrings-Due-to-Risk-of-Serious-Injury-or-Death-from-Strangulation-Hazard-Violates-Federal-Rule-for-Childrens-Upper-Outerwear",
+        "Title": "Lola Plus The Boys Recalls Youth Clothing with Drawstrings Due to Risk of Serious Injury or Death from Strangulation Hazard; Violates Federal Rule for Children's Upper Outerwear",
+        "ConsumerContact": "Lola Plus The Boys collect at 312-285-6053 from 10 a.m. to 5 p.m. CT Monday through Friday, email at customerservice@lolaandtheboys.com or online at https://lolaandtheboys.com/pages/recall or https://lolaandtheboys.com/ and click on \"Recall Policy\" at the bottom of the homepage for more information.",
+        "LastPublishDate": "2026-02-06T00:00:00",
+        "Products": [
+          {
+            "Name": "Lola + The Boys Youth Clothing with Drawstrings",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 620"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/lola-1.jpg",
+            "Caption": "Recalled Lola + The Boys Candy Heart Tie Dye Set"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/lola-2.jpg",
+            "Caption": "Recalled Lola + The Boys Hoodie Unicorn Tutu Set"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/lola-3.jpg",
+            "Caption": "Recalled Lola + The Boys Justice League Hero Gray Hoodie"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/lola-4.jpg",
+            "Caption": "Recalled Lola + The Boys Emoji Love Hoodie"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/lola-5.png",
+            "Caption": "Recalled Lola + The Boys Crystal Rainbow Rain Hoodie"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Lola Plus The Boys stores nationwide and online at Lolaandtheboys.com from November 2022 through September 2025 for between $45 and $80.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Lola Plus The Boys Inc., of Chicago, Illinois",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The drawstrings in the recalled clothing can get caught on objects and cause death or serious injury to children due to the strangulation hazard. The clothes are in violation of the federal rule for children's upper outerwear and present a substantial product hazard.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately take the recalled clothing away from children, remove the drawstrings to eliminate the hazard and contact Lola Plus The Boys for a full refund. Consumers should send a photo of the clothing without a drawstring, along with their name and the date, to customerservice@lolaandtheboys.com."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "26240",
+        "Product Safety Warning Number": "",
+        "Date": "February 05, 2026",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "Lola Plus The Boys Recalls Youth Clothing with Drawstrings Due to Risk of Serious Injury or Death from Strangulation Hazard; Violates Federal Rule for Children’s Upper Outerwear",
+        "Name of product": "Lola + The Boys Youth Clothing with Drawstrings",
+        "Description": "This recall involves five styles of Lola + The Boys hooded clothing with drawstrings:-The Candy Heart Tie Dye set consists of pink and white pants and a sweatshirt. Both have a yellow drawstring with beads, and the sweatshirt has a heart on the front.&nbsp;-The Hoodie Unicorn Tutu set consist of a rainbow organza skirt and a purple hoodie sweatshirt with a unicorn on the front.&nbsp;-The Justice League Hero hoodie is gray and has a front pocket and superhero decals along the right sleeve.&nbsp;-The Emoji Love hoodie sweatshirt is white and has a pocket and three smiley emojis on the front.&nbsp;-The Crystal Rainbow Rain hoodie is gray and has a front pocket and rainbow-colored beads at both ends of the drawstrings.&nbsp;The clothing was sold in youth sizes 1 through 12. “Lola + The Boys” and the size are printed on the neck label.",
+        "Hazard Description": "The drawstrings in the recalled clothing can get caught on objects and cause death or serious injury to children due to the strangulation hazard. The clothes are in violation of the federal rule for children’s upper outerwear and present a substantial product hazard.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Refund",
+        "Units": "About 620",
+        "Incidents": "None reported",
+        "Remedy": "Consumers should immediately take the recalled clothing away from children, remove the drawstrings to eliminate the hazard and contact Lola Plus The Boys for a full refund. Consumers should send a photo of the clothing without a drawstring, along with their name and the date, to&nbsp;customerservice@lolaandtheboys.com.&nbsp;",
+        "Sold At Label": "Sold At",
+        "Sold At": "Lola Plus The Boys stores nationwide and online at Lolaandtheboys.com from November 2022 through September 2025 for between $45 and $80.",
+        "Importers": "Lola Plus The Boys Inc., of Chicago, Illinois",
+        "Manufacturers": "",
+        "Distributors": "",
+        "Manufactured In": "China",
+        "Custom Label": "",
+        "Custom Field": ""
+      }
+    },
+    {
+      "merged": {
+        "RecallID": 10473,
+        "RecallNumber": "26073",
+        "RecallDate": "2025-11-06T00:00:00",
+        "Description": "This recall involves Umeyda children's 100% cotton short-sleeve nightgowns. The nightgowns were sold in black, purple, mint green, baby pink, red, baby pink stripe, hot pink, dark pink, dark green and blue grey in children's sizes 4-5T, 5-6 years, 7-8 years, 9-10 years, 11-12 years, and 13-14 years. The recalled nightgowns have a pocket and buttons down the dress front. The batch number, \"Distributor: StreamBytes LLC\" and \"Made in Xing Tai He Bei China\" are printed on a sewn-in side-seam label.",
+        "URL": "https://www.cpsc.gov/Recalls/2026/Umeyda-Nightgowns-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Burns-Violate-Mandatory-Standards-for-Childrens-Sleepwear-Sold-on-Amazon-by-Umeyda-Company",
+        "Title": "Umeyda Nightgowns Recalled Due to Risk of Serious Injury or Death from Burns; Violate Mandatory Standards for Children's Sleepwear; Sold on Amazon by Umeyda Company",
+        "ConsumerContact": "Umeyda Company by email at ameyda123@163.com.",
+        "LastPublishDate": "2025-11-06T00:00:00",
+        "Products": [
+          {
+            "Name": "Umeyda Nightgowns",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 200"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Picture1_147.png",
+            "Caption": "Recalled Umeyda Shortsleeve Nightgown – Baby Pink Stripe"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Picture2_115.png",
+            "Caption": "Recalled Umeyda Shortsleeve Nightgown – Baby Pink"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Picture3_81.png",
+            "Caption": "Recalled Umeyda Shortsleeve Nightgown – Black"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Picture4_17.jpg",
+            "Caption": "Recalled Umeyda Shortsleeve Nightgown – Blue Grey"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Picture5_9.jpg",
+            "Caption": "Recalled Umeyda Shortsleeve Nightgown – Dark Green"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Picture6_6.jpg",
+            "Caption": "Recalled Umeyda Shortsleeve Nightgown – Dark Pink"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Picture7_4.jpg",
+            "Caption": "Recalled Umeyda Shortsleeve Nightgown – Hot Pink"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Picture8_3.jpg",
+            "Caption": "Recalled Umeyda Shortsleeve Nightgown – Mint Green"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Picture9_4.jpg",
+            "Caption": "Recalled Umeyda Shortsleeve Nightgown – Purple"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Picture10_3.jpg",
+            "Caption": "Recalled Umeyda Shortsleeve Nightgown – Red"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Picture11_4.jpg",
+            "Caption": "Label on side seam of nightgown"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Amazon from June 2025 through October 2025 for about $19.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [],
+        "Distributors": [
+          {
+            "Name": "Xindu District Miuwola Clothing Store dba Umeyda Company, of China",
+            "CompanyID": ""
+          }
+        ],
+        "SoldAtLabel": "Sold At",
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The recalled nightgowns violate the mandatory flammability standards for children's sleepwear, posing a risk of burn injuries to children.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should stop using the nightgowns immediately and contact Umeyda Company for a full refund. Consumers should cut the nightgowns in half and email a photo of the destroyed garments to ameyda123@163.com to receive the refund. Consumers should dispose of the destroyed garments."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 10473,
+        "RecallNumber": "26073",
+        "RecallDate": "2025-11-06T00:00:00",
+        "Description": "This recall involves Umeyda children's 100% cotton short-sleeve nightgowns. The nightgowns were sold in black, purple, mint green, baby pink, red, baby pink stripe, hot pink, dark pink, dark green and blue grey in children's sizes 4-5T, 5-6 years, 7-8 years, 9-10 years, 11-12 years, and 13-14 years. The recalled nightgowns have a pocket and buttons down the dress front. The batch number, \"Distributor: StreamBytes LLC\" and \"Made in Xing Tai He Bei China\" are printed on a sewn-in side-seam label.",
+        "URL": "https://www.cpsc.gov/Recalls/2026/Umeyda-Nightgowns-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Burns-Violate-Mandatory-Standards-for-Childrens-Sleepwear-Sold-on-Amazon-by-Umeyda-Company",
+        "Title": "Umeyda Nightgowns Recalled Due to Risk of Serious Injury or Death from Burns; Violate Mandatory Standards for Children's Sleepwear; Sold on Amazon by Umeyda Company",
+        "ConsumerContact": "Umeyda Company by email at ameyda123@163.com.",
+        "LastPublishDate": "2025-11-06T00:00:00",
+        "Products": [
+          {
+            "Name": "Umeyda Nightgowns",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 200"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Picture1_147.png",
+            "Caption": "Recalled Umeyda Shortsleeve Nightgown – Baby Pink Stripe"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Picture2_115.png",
+            "Caption": "Recalled Umeyda Shortsleeve Nightgown – Baby Pink"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Picture3_81.png",
+            "Caption": "Recalled Umeyda Shortsleeve Nightgown – Black"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Picture4_17.jpg",
+            "Caption": "Recalled Umeyda Shortsleeve Nightgown – Blue Grey"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Picture5_9.jpg",
+            "Caption": "Recalled Umeyda Shortsleeve Nightgown – Dark Green"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Picture6_6.jpg",
+            "Caption": "Recalled Umeyda Shortsleeve Nightgown – Dark Pink"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Picture7_4.jpg",
+            "Caption": "Recalled Umeyda Shortsleeve Nightgown – Hot Pink"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Picture8_3.jpg",
+            "Caption": "Recalled Umeyda Shortsleeve Nightgown – Mint Green"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Picture9_4.jpg",
+            "Caption": "Recalled Umeyda Shortsleeve Nightgown – Purple"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Picture10_3.jpg",
+            "Caption": "Recalled Umeyda Shortsleeve Nightgown – Red"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Picture11_4.jpg",
+            "Caption": "Label on side seam of nightgown"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Amazon from June 2025 through October 2025 for about $19.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [],
+        "Distributors": [
+          {
+            "Name": "Xindu District Miuwola Clothing Store dba Umeyda Company, of China",
+            "CompanyID": ""
+          }
+        ],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The recalled nightgowns violate the mandatory flammability standards for children's sleepwear, posing a risk of burn injuries to children.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should stop using the nightgowns immediately and contact Umeyda Company for a full refund. Consumers should cut the nightgowns in half and email a photo of the destroyed garments to ameyda123@163.com to receive the refund. Consumers should dispose of the destroyed garments."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "26073",
+        "Product Safety Warning Number": "",
+        "Date": "November 06, 2025",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "Umeyda Nightgowns Recalled Due to Risk of Serious Injury or Death from Burns; Violate Mandatory Standards for Children’s Sleepwear; Sold on Amazon by Umeyda Company",
+        "Name of product": "Umeyda Nightgowns",
+        "Description": "This recall involves Umeyda children’s 100% cotton short-sleeve nightgowns. The nightgowns were sold in black, purple, mint green, baby pink, red, baby pink stripe, hot pink, dark pink, dark green and blue grey in children’s sizes 4-5T, 5-6 years, 7-8 years, 9-10 years, 11-12 years, and 13-14 years. The recalled nightgowns have a pocket and buttons down the dress front. The batch number, “Distributor: StreamBytes LLC” and “Made in Xing Tai He Bei China” are printed on a sewn-in side-seam label.",
+        "Hazard Description": "The recalled nightgowns violate the mandatory flammability standards for children’s sleepwear, posing a risk of burn injuries to children.&nbsp;",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Refund",
+        "Units": "About 200",
+        "Incidents": "None reported",
+        "Remedy": "Consumers should stop using the nightgowns immediately and contact Umeyda Company for a full refund. Consumers should cut the nightgowns in half and email a photo of the destroyed garments to ameyda123@163.com to receive the refund. Consumers should dispose of the destroyed garments.&nbsp;",
+        "Sold At Label": "Sold At",
+        "Sold At": "Amazon from June 2025 through October 2025 for about $19.",
+        "Importers": "",
+        "Manufacturers": "",
+        "Distributors": "",
+        "Manufactured In": "China",
+        "Custom Label": "Retailer:",
+        "Custom Field": "Xindu District Miuwola Clothing Store dba Umeyda Company, of China"
+      }
+    },
+    {
+      "merged": {
+        "RecallID": 10430,
+        "RecallNumber": "26016",
+        "RecallDate": "2025-10-09T00:00:00",
+        "Description": "This recall involves Bmrwtg LED Tutu Skirts. The recalled skirts were sold in pink, purple, yellow, red, blue, green, white and black, and have silver circles and stars that light up. The lights' battery compartment has two CR2032 lithium coin batteries. The skirts were marketed for children ages 2 through 8.",
+        "URL": "https://www.cpsc.gov/Recalls/2026/Childrens-LED-Tutu-Skirts-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violates-Mandatory-Standard-for-Consumer-Products-with-Coin-Batteries-Sold-on-Amazon-by-Bmrwtg",
+        "Title": "Children's LED Tutu Skirts Recalled Due to Risk of Serious Injury or Death from Battery Ingestion; Violates Mandatory Standard for Consumer Products with Coin Batteries; Sold on Amazon by Bmrwtg",
+        "ConsumerContact": "Bmrwtg by email at bmrwtgrecall@outlook.com.",
+        "LastPublishDate": "2025-10-09T00:00:00",
+        "Products": [
+          {
+            "Name": "Bmrwtg LED Tutu Skirts",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 740"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/bmrtwg-1.jpg",
+            "Caption": "Recalled Bmrwtg Children's Tutu Skirt in Pink"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/bmrtwg-2.jpg",
+            "Caption": "The recalled Bmrwtg children's tutu skirts have a battery compartment with lithium coin batteries"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Amazon from March 2025 through August 2025 for about $10.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [],
+        "Distributors": [
+          {
+            "Name": "Bmrwtg, of China",
+            "CompanyID": ""
+          }
+        ],
+        "SoldAtLabel": "Sold At",
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The recalled LED tutu skirts violate the mandatory standard for consumer products containing button cell or coin batteries because the LED lights connected to the skirts contain lithium coin batteries that can be accessed easily by children. Additionally, the tutu skirts do not have the warnings required by Reese's Law. When button cell or coin batteries are swallowed, the ingested batteries can cause serious injuries, internal chemical burns and death.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled skirt and remove and properly dispose of the batteries. Contact Bmrwtg for a full refund. Consumers should cut the skirt and send a photo of the destroyed skirt in the trash to bmrwtgrecall@outlook.com. Note: Button cell and coin batteries are hazardous. Batteries should be disposed of or recycled by following local hazardous waste procedures."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 10430,
+        "RecallNumber": "26016",
+        "RecallDate": "2025-10-09T00:00:00",
+        "Description": "This recall involves Bmrwtg LED Tutu Skirts. The recalled skirts were sold in pink, purple, yellow, red, blue, green, white and black, and have silver circles and stars that light up. The lights' battery compartment has two CR2032 lithium coin batteries. The skirts were marketed for children ages 2 through 8.",
+        "URL": "https://www.cpsc.gov/Recalls/2026/Childrens-LED-Tutu-Skirts-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violates-Mandatory-Standard-for-Consumer-Products-with-Coin-Batteries-Sold-on-Amazon-by-Bmrwtg",
+        "Title": "Children's LED Tutu Skirts Recalled Due to Risk of Serious Injury or Death from Battery Ingestion; Violates Mandatory Standard for Consumer Products with Coin Batteries; Sold on Amazon by Bmrwtg",
+        "ConsumerContact": "Bmrwtg by email at bmrwtgrecall@outlook.com.",
+        "LastPublishDate": "2025-10-09T00:00:00",
+        "Products": [
+          {
+            "Name": "Bmrwtg LED Tutu Skirts",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 740"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/bmrtwg-1.jpg",
+            "Caption": "Recalled Bmrwtg Children's Tutu Skirt in Pink"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/bmrtwg-2.jpg",
+            "Caption": "The recalled Bmrwtg children's tutu skirts have a battery compartment with lithium coin batteries"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Amazon from March 2025 through August 2025 for about $10.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [],
+        "Distributors": [
+          {
+            "Name": "Bmrwtg, of China",
+            "CompanyID": ""
+          }
+        ],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The recalled LED tutu skirts violate the mandatory standard for consumer products containing button cell or coin batteries because the LED lights connected to the skirts contain lithium coin batteries that can be accessed easily by children. Additionally, the tutu skirts do not have the warnings required by Reese's Law. When button cell or coin batteries are swallowed, the ingested batteries can cause serious injuries, internal chemical burns and death.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled skirt and remove and properly dispose of the batteries. Contact Bmrwtg for a full refund. Consumers should cut the skirt and send a photo of the destroyed skirt in the trash to bmrwtgrecall@outlook.com. Note: Button cell and coin batteries are hazardous. Batteries should be disposed of or recycled by following local hazardous waste procedures."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "26016",
+        "Product Safety Warning Number": "",
+        "Date": "October 09, 2025",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "Children’s LED Tutu Skirts Recalled Due to Risk of Serious Injury or Death from Battery Ingestion; Violates Mandatory Standard for Consumer Products with Coin Batteries; Sold on Amazon by Bmrwtg",
+        "Name of product": "Bmrwtg LED Tutu Skirts",
+        "Description": "This recall involves&nbsp;Bmrwtg LED Tutu Skirts. The recalled skirts were sold in pink, purple, yellow, red, blue, green, white and black, and have silver circles and stars that light up. The lights’ battery compartment has two CR2032 lithium coin batteries. The skirts were marketed for children ages 2 through 8.",
+        "Hazard Description": "The recalled LED tutu skirts violate the mandatory standard for consumer products containing button cell or coin batteries because the LED lights connected to the skirts contain lithium coin batteries that can be accessed easily by children. Additionally, the tutu skirts do not have the warnings required by&nbsp;https://www.cpsc.gov/Newsroom/News-Releases/2023/Making-Families-Safer-…’s Law. When button cell or coin batteries are swallowed, the ingested batteries can cause serious injuries, internal chemical burns and death.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Refund",
+        "Units": "About 740",
+        "Incidents": "None reported",
+        "Remedy": "Consumers should immediately stop using the recalled skirt and remove and properly dispose of the batteries. Contact Bmrwtg for a full refund. Consumers should cut the skirt and send a photo of the destroyed skirt in the trash to bmrwtgrecall@outlook.com.Note:&nbsp;Button cell and coin batteries are hazardous. Batteries should be disposed of or recycled by following local hazardous waste procedures.&nbsp;",
+        "Sold At Label": "Sold At",
+        "Sold At": "Amazon from March 2025 through August 2025 for about $10.",
+        "Importers": "",
+        "Manufacturers": "",
+        "Distributors": "",
+        "Manufactured In": "China",
+        "Custom Label": "Retailer:",
+        "Custom Field": "Bmrwtg, of China"
+      }
+    },
+    {
+      "merged": {
+        "RecallID": 9872,
+        "RecallNumber": "24135",
+        "RecallDate": "2024-02-29T00:00:00",
+        "Description": "This recall involves Oso & Me's 100% cotton children's long sleeve, two-piece pajama sets. The \"Animal Party\" style pajama sets are light blue with dark blue velvet piping, and have a print of lions, zebras, flamingos, monkeys, and bears. The recalled pajama sets were sold in sizes 3Y, 4Y, 5Y, 6Y, 7Y and 8Y and come with a reusable cotton gift bag with matching fabric. \"Oso & Me\" and the size are printed on the neck label and waist band label. \"RN15567\", \"Made in Sri Lanka\", and the care instructions appear on the side seam.",
+        "URL": "https://www.cpsc.gov/Recalls/2024/Oso-and-Me-Recalls-Childrens-Pajama-Sets-Due-to-Burn-Hazard-Violation-of-the-Federal-Flammability-Regulations-for-Childrens-Sleepwear",
+        "Title": "Oso & Me Recalls Children's Pajama Sets Due to Burn Hazard; Violation of the Federal Flammability Regulations for Children's Sleepwear",
+        "ConsumerContact": "Oso & Me collect at 415-742-5168 from 9 a.m. to 5 p.m. PT Monday through Friday, email at ProductRecall@osoandme.com; or online at https://www.osoandme.com/pages/product-recall or www.osoandme.com and click on \"Product Recalls\" at the bottom of the page under \"Support\" for more information.",
+        "LastPublishDate": "2024-02-29T00:00:00",
+        "Products": [
+          {
+            "Name": "Children's Pajama Sets",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 170"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Recalled Oso & Me “Animal Party” Pajama Set.png",
+            "Caption": "Recalled Oso & Me \"Animal Party\" Pajama Set"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Stores nationwide and online at Oso & Me, The Little, Mud Pie, Marigold Modern, Nellie George, Pitt Street Kids, Swaddle AL, and Bea Colette from January 2020 through November 2023 for about $98. Products were also gifted to influencers and friends of the brand directly by Oso & Me.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Oso Children LLC, of San Francisco, California",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": "Sold At",
+        "ManufacturerCountries": [
+          {
+            "Country": "Sri Lanka"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The recalled children's pajama sets violate the flammability regulations for children's sleepwear, posing a risk of burn injuries to children.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should stop using the children's pajamas immediately and contact Oso & Me for a full refund. Consumers who purchased the product will be asked to destroy the garment by cutting the top and bottom in half, and sending the recalling firm a photo of the destroyed garment to ProductRecall@osoandme.com. Upon receipt of the photo, consumers will be issued a full refund of the purchase price."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 9872,
+        "RecallNumber": "24135",
+        "RecallDate": "2024-02-29T00:00:00",
+        "Description": "This recall involves Oso & Me's 100% cotton children's long sleeve, two-piece pajama sets. The \"Animal Party\" style pajama sets are light blue with dark blue velvet piping, and have a print of lions, zebras, flamingos, monkeys, and bears. The recalled pajama sets were sold in sizes 3Y, 4Y, 5Y, 6Y, 7Y and 8Y and come with a reusable cotton gift bag with matching fabric. \"Oso & Me\" and the size are printed on the neck label and waist band label. \"RN15567\", \"Made in Sri Lanka\", and the care instructions appear on the side seam.",
+        "URL": "https://www.cpsc.gov/Recalls/2024/Oso-and-Me-Recalls-Childrens-Pajama-Sets-Due-to-Burn-Hazard-Violation-of-the-Federal-Flammability-Regulations-for-Childrens-Sleepwear",
+        "Title": "Oso & Me Recalls Children's Pajama Sets Due to Burn Hazard; Violation of the Federal Flammability Regulations for Children's Sleepwear",
+        "ConsumerContact": "Oso & Me collect at 415-742-5168 from 9 a.m. to 5 p.m. PT Monday through Friday, email at ProductRecall@osoandme.com; or online at https://www.osoandme.com/pages/product-recall or www.osoandme.com and click on \"Product Recalls\" at the bottom of the page under \"Support\" for more information.",
+        "LastPublishDate": "2024-02-29T00:00:00",
+        "Products": [
+          {
+            "Name": "Children's Pajama Sets",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 170"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Recalled Oso & Me “Animal Party” Pajama Set.png",
+            "Caption": "Recalled Oso & Me \"Animal Party\" Pajama Set"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Stores nationwide and online at Oso & Me, The Little, Mud Pie, Marigold Modern, Nellie George, Pitt Street Kids, Swaddle AL, and Bea Colette from January 2020 through November 2023 for about $98. Products were also gifted to influencers and friends of the brand directly by Oso & Me.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Oso Children LLC, of San Francisco, California",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "Sri Lanka"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The recalled children's pajama sets violate the flammability regulations for children's sleepwear, posing a risk of burn injuries to children.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should stop using the children's pajamas immediately and contact Oso & Me for a full refund. Consumers who purchased the product will be asked to destroy the garment by cutting the top and bottom in half, and sending the recalling firm a photo of the destroyed garment to ProductRecall@osoandme.com. Upon receipt of the photo, consumers will be issued a full refund of the purchase price."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "24135",
+        "Product Safety Warning Number": "",
+        "Date": "February 29, 2024",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "Oso & Me Recalls Children’s Pajama Sets Due to Burn Hazard; Violation of the Federal Flammability Regulations for Children’s Sleepwear",
+        "Name of product": "Children’s Pajama Sets",
+        "Description": "This recall involves Oso &amp; Me’s 100% cotton children’s long sleeve, two-piece pajama sets. The “Animal Party” style pajama sets are light blue with dark blue velvet piping, and have a print of lions, zebras, flamingos, monkeys, and bears. The recalled pajama sets were sold in sizes 3Y, 4Y, 5Y, 6Y, 7Y and 8Y and come with a reusable cotton gift bag with matching fabric. “Oso &amp; Me” and the size are printed on the neck label and waist band label. “RN15567”, “Made in Sri Lanka”, and the care instructions appear on the side seam.",
+        "Hazard Description": "The recalled children’s pajama sets violate the flammability regulations for children’s sleepwear, posing a risk of burn injuries to children.&nbsp;",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Refund",
+        "Units": "About 170",
+        "Incidents": "None reported ",
+        "Remedy": "Consumers should stop using the children’s pajamas immediately and contact Oso &amp; Me for a full refund. Consumers who purchased the product will be asked to destroy the garment by cutting the top and bottom in half, and sending the recalling firm a photo of the destroyed garment to&nbsp;ProductRecall@osoandme.com. Upon receipt of the photo, consumers will be issued a full refund of the purchase price.&nbsp;",
+        "Sold At Label": "Sold At",
+        "Sold At": "Stores nationwide and online at Oso &amp; Me, The Little, Mud Pie, Marigold Modern, Nellie George, Pitt Street Kids, Swaddle AL, and Bea Colette from January 2020 through November 2023 for about $98. Products were also gifted to influencers and friends of the brand directly by Oso &amp; Me.&nbsp;",
+        "Importers": "Oso Children LLC, of San Francisco, California",
+        "Manufacturers": "",
+        "Distributors": "",
+        "Manufactured In": "Sri Lanka",
+        "Custom Label": "",
+        "Custom Field": ""
+      }
+    },
+    {
+      "merged": {
+        "RecallID": 9870,
+        "RecallNumber": "24133",
+        "RecallDate": "2024-02-29T00:00:00",
+        "Description": "The \"Minecraft All Over Creeper TNT\" garment is a hooded one-piece pajama with a soft, raised fabric printed with green Creepers and TNTs from the Minecraft video game. There are bright green cuffs on the wrists and ankles, a bright green zipper that extends from the neck to the waist, and a hood. On the front of the neck label is the word \"Minecraft\" and on the back of the label is \"2023 Mojang AB. TM Microsoft Corporation\". On the front of the side-seam label is Vanilla Underground's logo, \"Vanilla Underground\", \"vanillaunderground.com\" and Vanilla Underground's address. The back of the side-seam label lists the washing instructions, \"Made in China\", \"100% Polyester\" and \"Keep away from fire\".",
+        "URL": "https://www.cpsc.gov/Recalls/2024/Vanilla-Underground-Minecraft-TNT-Childrens-Pajamas-Recalled-Due-to-Burn-Hazard-and-Violation-of-Federal-Flammability-Regulations-Imported-by-Premier-P",
+        "Title": "Vanilla Underground Minecraft TNT Children's Pajamas Recalled Due to Burn Hazard and Violation of Federal Flammability Regulations; Imported by Premier P",
+        "ConsumerContact": "Vanilla Underground at 800-918-5294 from 3 a.m. to 12:30 p.m. ET Monday through Friday, email at customercare@vanillaunderground.com, or visit https://www.vanillaunderground.com/ and click on \"Product Recall\" in the footer of the page, or https://www.vanillaunderground.com/pages/product-recall.",
+        "LastPublishDate": "2024-02-29T00:00:00",
+        "Products": [
+          {
+            "Name": "Vanilla Underground \"Minecraft TNT\" One-Piece Pajamas",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 1,570"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Recalled Vanilla Underground “Minecraft TNT” One-Piece Pajama.png",
+            "Caption": "Recalled Vanilla Underground \"Minecraft TNT\" One-Piece Pajama"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Recalled Vanilla Underground “Minecraft TNT” One-Piece Pajama 2.png",
+            "Caption": "Recalled Vanilla Underground \"Minecraft TNT\" One-Piece Pajama"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Front of Neck Label.png",
+            "Caption": "Front of Neck Label"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Back of Neck Label.jpg",
+            "Caption": "Back of Neck Label"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Side Seam Label Front and Back.jpg",
+            "Caption": "Side Seam Label Front and Back"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Online on amazon.com and vanillaunderground.com from October 2022 through January 2024 for between $42 and $44.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Premier P. LTD, of United Kingdom",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": "Sold At",
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The recalled children's pajamas fail to meet the federal flammability regulations for children's sleepwear, posing a risk of burn injuries to children.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately take the recalled pajamas away from children, stop using them and contact Vanilla Underground for a full refund. Consumers should destroy the garments by cutting them in half and disposing of them in accordance with local and state recycling laws. Consumers should send a photo of the destroyed garment to customercare@vanillaunderground.com. Upon receipt of the photo, consumers will be issued a full refund of the purchase price."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 9870,
+        "RecallNumber": "24133",
+        "RecallDate": "2024-02-29T00:00:00",
+        "Description": "The \"Minecraft All Over Creeper TNT\" garment is a hooded one-piece pajama with a soft, raised fabric printed with green Creepers and TNTs from the Minecraft video game. There are bright green cuffs on the wrists and ankles, a bright green zipper that extends from the neck to the waist, and a hood. On the front of the neck label is the word \"Minecraft\" and on the back of the label is \"2023 Mojang AB. TM Microsoft Corporation\". On the front of the side-seam label is Vanilla Underground's logo, \"Vanilla Underground\", \"vanillaunderground.com\" and Vanilla Underground's address. The back of the side-seam label lists the washing instructions, \"Made in China\", \"100% Polyester\" and \"Keep away from fire\".",
+        "URL": "https://www.cpsc.gov/Recalls/2024/Vanilla-Underground-Minecraft-TNT-Childrens-Pajamas-Recalled-Due-to-Burn-Hazard-and-Violation-of-Federal-Flammability-Regulations-Imported-by-Premier-P",
+        "Title": "Vanilla Underground Minecraft TNT Children's Pajamas Recalled Due to Burn Hazard and Violation of Federal Flammability Regulations; Imported by Premier P",
+        "ConsumerContact": "Vanilla Underground at 800-918-5294 from 3 a.m. to 12:30 p.m. ET Monday through Friday, email at customercare@vanillaunderground.com, or visit https://www.vanillaunderground.com/ and click on \"Product Recall\" in the footer of the page, or https://www.vanillaunderground.com/pages/product-recall.",
+        "LastPublishDate": "2024-02-29T00:00:00",
+        "Products": [
+          {
+            "Name": "Vanilla Underground \"Minecraft TNT\" One-Piece Pajamas",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 1,570"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Recalled Vanilla Underground “Minecraft TNT” One-Piece Pajama.png",
+            "Caption": "Recalled Vanilla Underground \"Minecraft TNT\" One-Piece Pajama"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Recalled Vanilla Underground “Minecraft TNT” One-Piece Pajama 2.png",
+            "Caption": "Recalled Vanilla Underground \"Minecraft TNT\" One-Piece Pajama"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Front of Neck Label.png",
+            "Caption": "Front of Neck Label"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Back of Neck Label.jpg",
+            "Caption": "Back of Neck Label"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Side Seam Label Front and Back.jpg",
+            "Caption": "Side Seam Label Front and Back"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Online on amazon.com and vanillaunderground.com from October 2022 through January 2024 for between $42 and $44.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Premier P. LTD, of United Kingdom",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The recalled children's pajamas fail to meet the federal flammability regulations for children's sleepwear, posing a risk of burn injuries to children.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately take the recalled pajamas away from children, stop using them and contact Vanilla Underground for a full refund. Consumers should destroy the garments by cutting them in half and disposing of them in accordance with local and state recycling laws. Consumers should send a photo of the destroyed garment to customercare@vanillaunderground.com. Upon receipt of the photo, consumers will be issued a full refund of the purchase price."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "24133",
+        "Product Safety Warning Number": "",
+        "Date": "February 29, 2024",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "Vanilla Underground Minecraft TNT Children’s Pajamas Recalled Due to Burn Hazard and Violation of Federal Flammability Regulations; Imported by Premier P",
+        "Name of product": "Vanilla Underground “Minecraft TNT” One-Piece Pajamas",
+        "Description": "The “Minecraft All Over Creeper TNT” garment is a hooded one-piece pajama with a soft, raised fabric printed with green Creepers and TNTs from the Minecraft video game. There are bright green cuffs on the wrists and ankles, a bright green zipper that extends from the neck to the waist, and a hood. On the front of the neck label is the word “Minecraft” and on the back of the label is “2023 Mojang AB. TM Microsoft Corporation”. On the front of the side-seam label is Vanilla Underground’s logo, “Vanilla Underground”, “vanillaunderground.com” and Vanilla Underground’s address. The back of the side-seam label lists the washing instructions, “Made in China”, “100% Polyester” and “Keep away from fire”.&nbsp;",
+        "Hazard Description": "The recalled children’s pajamas fail to meet the federal flammability regulations for children’s sleepwear, posing a risk of burn injuries to children.&nbsp;&nbsp;",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Refund",
+        "Units": "About 1,570 ",
+        "Incidents": "None reported",
+        "Remedy": "Consumers should immediately take the recalled pajamas away from children, stop using them and contact Vanilla Underground for a full refund. Consumers should destroy the garments by cutting them in half and disposing of them in accordance with local and state recycling laws. Consumers should send a photo of the destroyed garment to&nbsp;customercare@vanillaunderground.com. Upon receipt of the photo, consumers will be issued a full refund of the purchase price.&nbsp;",
+        "Sold At Label": "Sold At",
+        "Sold At": "Online on amazon.com and vanillaunderground.com from October 2022 through January 2024 for between $42 and $44.",
+        "Importers": "Premier P. LTD, of United Kingdom ",
+        "Manufacturers": "",
+        "Distributors": "",
+        "Manufactured In": "China",
+        "Custom Label": "",
+        "Custom Field": ""
+      }
+    }
+  ]
+}

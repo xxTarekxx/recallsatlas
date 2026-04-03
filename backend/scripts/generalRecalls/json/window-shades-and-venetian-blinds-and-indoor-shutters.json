@@ -1,0 +1,1997 @@
+{
+  "meta": {
+    "slug": "window-shades-and-venetian-blinds-and-indoor-shutters",
+    "sourceCsvFile": "window-shades-and-venetian-blinds-and-indoor-shutters_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T04:43:57.380Z",
+    "recallCount": 12
+  },
+  "recalls": [
+    {
+      "merged": {
+        "RecallID": 10415,
+        "RecallNumber": "25479",
+        "RecallDate": "2025-09-25T00:00:00",
+        "Description": "This recall involves Persilux-branded zebra blinds. The recalled stock blinds were sold in beige, black, dark gray, light gray and white, with sizes ranging from 22 to 73 inches wide and 64 to 72 inches high. \"Persilux and \"Zebra Blinds\" is printed on the product packaging. \"X003FFPT63\" is printed on the barcode label.",
+        "URL": "https://www.cpsc.gov/Recalls/2025/Persilux-Brand-Zebra-Blinds-Recalled-Due-to-Strangulation-and-Entanglement-Hazards-and-Risk-of-Serious-Injury-or-Death-Violates-Federal-Rule-for-Window-Coverings-Sold-on-Amazon",
+        "Title": "Persilux Brand Zebra Blinds Recalled Due to Strangulation and Entanglement Hazards and Risk of Serious Injury or Death; Violates Federal Rule for Window Coverings; Sold on Amazon",
+        "ConsumerContact": "Persilux by email at recall@persiluxhome.com or online at https://recall.persiluxhome.com or at https://persiluxhome.com and click \"Recall Policy\" at the bottom of the page for more information.",
+        "LastPublishDate": "2025-09-25T00:00:00",
+        "Products": [
+          {
+            "Name": "Persilux Zebra Blinds",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 133,000"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/persilux-1.png",
+            "Caption": "Recalled Persilux Zebra Blinds"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/persilux-2.jpg",
+            "Caption": "\"Persilux and Zebra Blinds\" is printed on the packaging of the recalled blinds. \"X003FFPT63\" is printed on the barcode label."
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Amazon from June 2023 through June 2025 for between $40 and $124.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Zhejiang Xidamen New Material Co. Ltd., of China, doing business as Amazon seller Persilu",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": "Sold At",
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The recalled blinds have long operating cords that can cause death or serious injury to children, due to strangulation and entanglement hazards. The blinds violate the federal rule for window coverings and present a substantial product hazard. In addition, the blinds also violate labeling requirements for window coverings.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled blinds and contact Persilux for a free repair kit, including shipping. The repair kit consists of a replacement operating cord wand and installation instructions. Consumers should remove the blind, cut and remove the operating cord and send a photograph of the blinds, with the operating cord removed, to recall@persiluxhome.com."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Repair"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 10415,
+        "RecallNumber": "25479",
+        "RecallDate": "2025-09-25T00:00:00",
+        "Description": "This recall involves Persilux-branded zebra blinds. The recalled stock blinds were sold in beige, black, dark gray, light gray and white, with sizes ranging from 22 to 73 inches wide and 64 to 72 inches high. \"Persilux and \"Zebra Blinds\" is printed on the product packaging. \"X003FFPT63\" is printed on the barcode label.",
+        "URL": "https://www.cpsc.gov/Recalls/2025/Persilux-Brand-Zebra-Blinds-Recalled-Due-to-Strangulation-and-Entanglement-Hazards-and-Risk-of-Serious-Injury-or-Death-Violates-Federal-Rule-for-Window-Coverings-Sold-on-Amazon",
+        "Title": "Persilux Brand Zebra Blinds Recalled Due to Strangulation and Entanglement Hazards and Risk of Serious Injury or Death; Violates Federal Rule for Window Coverings; Sold on Amazon",
+        "ConsumerContact": "Persilux by email at recall@persiluxhome.com or online at https://recall.persiluxhome.com or at https://persiluxhome.com and click \"Recall Policy\" at the bottom of the page for more information.",
+        "LastPublishDate": "2025-09-25T00:00:00",
+        "Products": [
+          {
+            "Name": "Persilux Zebra Blinds",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 133,000"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/persilux-1.png",
+            "Caption": "Recalled Persilux Zebra Blinds"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/persilux-2.jpg",
+            "Caption": "\"Persilux and Zebra Blinds\" is printed on the packaging of the recalled blinds. \"X003FFPT63\" is printed on the barcode label."
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Amazon from June 2023 through June 2025 for between $40 and $124.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Zhejiang Xidamen New Material Co. Ltd., of China, doing business as Amazon seller Persilu",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The recalled blinds have long operating cords that can cause death or serious injury to children, due to strangulation and entanglement hazards. The blinds violate the federal rule for window coverings and present a substantial product hazard. In addition, the blinds also violate labeling requirements for window coverings.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled blinds and contact Persilux for a free repair kit, including shipping. The repair kit consists of a replacement operating cord wand and installation instructions. Consumers should remove the blind, cut and remove the operating cord and send a photograph of the blinds, with the operating cord removed, to recall@persiluxhome.com."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Repair"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "25479",
+        "Product Safety Warning Number": "",
+        "Date": "September 25, 2025",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "Persilux Brand Zebra Blinds Recalled Due to Strangulation and Entanglement Hazards and Risk of Serious Injury or Death; Violates Federal Rule for Window Coverings; Sold on Amazon",
+        "Name of product": "Persilux Zebra Blinds",
+        "Description": "This recall involves Persilux-branded zebra blinds. The recalled stock blinds were sold in beige, black, dark gray, light gray and white, with sizes ranging from 22 to 73 inches wide and&nbsp;64 to 72 inches high. “Persilux and “Zebra Blinds” is printed on the product packaging. “X003FFPT63” is printed on the barcode label.&nbsp;",
+        "Hazard Description": "The recalled blinds have long operating cords that can cause death or serious injury to children, due to strangulation and entanglement hazards. The blinds violate the federal rule for window coverings and present a substantial product hazard. In addition, the blinds also violate labeling requirements for window coverings.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Repair",
+        "Units": "About 133,000",
+        "Incidents": "None reported",
+        "Remedy": "Consumers should immediately stop using the recalled blinds and contact Persilux for a free repair kit, including shipping. The repair kit consists of a replacement operating cord wand and installation instructions. Consumers should remove the blind, cut and remove the operating cord and send a photograph of the blinds, with the operating cord removed, to&nbsp;recall@persiluxhome.com.&nbsp;",
+        "Sold At Label": "Sold At",
+        "Sold At": "Amazon from June 2023 through June 2025 for between $40 and $124.",
+        "Importers": "Zhejiang Xidamen New Material Co. Ltd., of China, doing business as Amazon seller Persilux",
+        "Manufacturers": "",
+        "Distributors": "",
+        "Manufactured In": "China",
+        "Custom Label": "",
+        "Custom Field": ""
+      }
+    },
+    {
+      "merged": {
+        "RecallID": 10414,
+        "RecallNumber": "25478",
+        "RecallDate": "2025-09-25T00:00:00",
+        "Description": "This recall involves Autoez-branded bamboo shades. The recalled bamboo shades were sold in brown, with sizes ranging from 24 to 72 inches wide and 64 to 72 inches high. \"Autoez\" is printed on the sticker label on the top rail of the shade.",
+        "URL": "https://www.cpsc.gov/Recalls/2025/Autoez-Brand-Bamboo-Shades-Recalled-Due-to-Strangulation-and-Entanglement-Hazards-and-Risk-of-Serious-Injury-or-Death-Violates-Federal-Rule-for-Window-Coverings-Sold-on-Walmart-com",
+        "Title": "Autoez Brand Bamboo Shades Recalled Due to Strangulation and Entanglement Hazards and Risk of Serious Injury or Death; Violates Federal Rule for Window Coverings; Sold on Walmart.com",
+        "ConsumerContact": "Autoez by email at Autoez_recall@163.com or online at https://sites.google.com/view/recall-autoez.",
+        "LastPublishDate": "2025-09-25T00:00:00",
+        "Products": [
+          {
+            "Name": "Autoez Bamboo Shades",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 550"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/autoez-1.jpg",
+            "Caption": "Recalled Autoez Bamboo Shades"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Walmart.com from September 2023 through May 2025 for between $21 and $50.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Sichuan Yunduan Renjia Trading Co. Ltd., of China, doing business as Walmart seller Autoez",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": "Sold At",
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The recalled shades have long operating cords and accessible inner cords that can cause death or serious injury to children, due to strangulation and entanglement hazards. The shades violate the federal rule for window coverings and present a substantial product hazard. In addition, the shades also violate labeling requirements for window coverings.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled shades and contact Autoez for a full refund. Consumers should remove the shades, cut the operating cord, write the word \"Recalled\" on the shades and dispose of the product in the garbage. Consumers should send a photograph of the destroyed window shades in the garbage to Autoez_recall@163.com."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 10414,
+        "RecallNumber": "25478",
+        "RecallDate": "2025-09-25T00:00:00",
+        "Description": "This recall involves Autoez-branded bamboo shades. The recalled bamboo shades were sold in brown, with sizes ranging from 24 to 72 inches wide and 64 to 72 inches high. \"Autoez\" is printed on the sticker label on the top rail of the shade.",
+        "URL": "https://www.cpsc.gov/Recalls/2025/Autoez-Brand-Bamboo-Shades-Recalled-Due-to-Strangulation-and-Entanglement-Hazards-and-Risk-of-Serious-Injury-or-Death-Violates-Federal-Rule-for-Window-Coverings-Sold-on-Walmart-com",
+        "Title": "Autoez Brand Bamboo Shades Recalled Due to Strangulation and Entanglement Hazards and Risk of Serious Injury or Death; Violates Federal Rule for Window Coverings; Sold on Walmart.com",
+        "ConsumerContact": "Autoez by email at Autoez_recall@163.com or online at https://sites.google.com/view/recall-autoez.",
+        "LastPublishDate": "2025-09-25T00:00:00",
+        "Products": [
+          {
+            "Name": "Autoez Bamboo Shades",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 550"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/autoez-1.jpg",
+            "Caption": "Recalled Autoez Bamboo Shades"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Walmart.com from September 2023 through May 2025 for between $21 and $50.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Sichuan Yunduan Renjia Trading Co. Ltd., of China, doing business as Walmart seller Autoez",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The recalled shades have long operating cords and accessible inner cords that can cause death or serious injury to children, due to strangulation and entanglement hazards. The shades violate the federal rule for window coverings and present a substantial product hazard. In addition, the shades also violate labeling requirements for window coverings.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled shades and contact Autoez for a full refund. Consumers should remove the shades, cut the operating cord, write the word \"Recalled\" on the shades and dispose of the product in the garbage. Consumers should send a photograph of the destroyed window shades in the garbage to Autoez_recall@163.com."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "25478",
+        "Product Safety Warning Number": "",
+        "Date": "September 25, 2025",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "Autoez Brand Bamboo Shades Recalled Due to Strangulation and Entanglement Hazards and Risk of Serious Injury or Death; Violates Federal Rule for Window Coverings; Sold on Walmart.com",
+        "Name of product": "Autoez Bamboo Shades",
+        "Description": "This recall involves Autoez-branded bamboo shades. The recalled bamboo shades were sold in brown, with sizes ranging from 24 to 72 inches wide and&nbsp;64 to 72 inches high. “Autoez” is printed on the sticker label on the top rail of the shades.",
+        "Hazard Description": "The recalled shades have long operating cords and accessible inner cords that can cause death or serious injury to children, due to strangulation and entanglement hazards. The shades violate the federal rule for window coverings and present a substantial product hazard. In addition, the shades also violate labeling requirements for window coverings.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Refund",
+        "Units": "About 550",
+        "Incidents": "None reported",
+        "Remedy": "Consumers should immediately stop using the recalled shades and contact Autoez for a full refund. Consumers should remove the shades, cut the operating cord, write the word “Recalled” on the shades and dispose of the product in the garbage. Consumers should send a photograph of the destroyed window shades in the garbage to&nbsp;Autoez_recall@163.com.",
+        "Sold At Label": "Sold At",
+        "Sold At": "Walmart.com from September 2023 through May 2025 for between $21 and $50.",
+        "Importers": "Sichuan Yunduan Renjia Trading Co. Ltd., of China, doing business as Walmart seller Autoez.",
+        "Manufacturers": "",
+        "Distributors": "",
+        "Manufactured In": "China",
+        "Custom Label": "",
+        "Custom Field": ""
+      }
+    },
+    {
+      "merged": {
+        "RecallID": 10247,
+        "RecallNumber": "25233",
+        "RecallDate": "2025-04-24T00:00:00",
+        "Description": "This recall involves LuckupShein window roll up shades. The shades were sold in white, gray and black, and in sizes ranging between 20 and 44 inches wide and 72 inches high. \"Desheng\" is printed on the label on the top of valance cover.",
+        "URL": "https://www.cpsc.gov/Recalls/2025/Window-Roll-Up-Shades-Recalled-Due-to-Strangulation-and-Entanglement-Hazards-and-Risk-of-Serious-Injury-or-Death-Violation-of-Federal-Regulations-for-Window-Coverings-Sold-Exclusively-on-SHEIN-com-by-LuckupShein",
+        "Title": "Window Roll Up Shades Recalled Due to Strangulation and Entanglement Hazards and Risk of Serious Injury or Death; Violation of Federal Regulations for Window Coverings; Sold Exclusively on SHEIN.com by LuckupShein",
+        "ConsumerContact": "LuckupShein by email at luckupshein@163.com, or online at http://luckupshein.com/recall for more information.",
+        "LastPublishDate": "2025-04-24T00:00:00",
+        "Products": [
+          {
+            "Name": "LuckupShein Window Roll Up Shades",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 545"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/LuckupShein-1.jpg",
+            "Caption": "Recalled Window Roll Up Shades"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/LuckupShein-2.jpg",
+            "Caption": "Recalled Window Roll Up Shades"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "us.SHEIN.com from May 2023 through December 2024 for between $34 and $52.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [],
+        "Distributors": [
+          {
+            "Name": "LuckUpShein, of China",
+            "CompanyID": ""
+          }
+        ],
+        "SoldAtLabel": "Sold Exclusively Online",
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The recalled window shades have long operating cords that can cause death or serious injury to children, due to strangulation and entanglement hazards. The window shades are in violation of the federal regulations for window coverings and present a substantial product hazard. The window shades also violate federal regulations for labeling of window coverings.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled window shades, cut the operating cord and contact LuckupShein to receive a free repair, consisting of a replacement operating cord device. Consumers will be asked to send a photo of the recalled product with the operating cord cut to luckupshein@163.com. Once the firm receives the picture of the product with the original cord cut, consumers will be sent a replacement operating cord wand device with installation instructions."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Repair"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 10247,
+        "RecallNumber": "25233",
+        "RecallDate": "2025-04-24T00:00:00",
+        "Description": "This recall involves LuckupShein window roll up shades. The shades were sold in white, gray and black, and in sizes ranging between 20 and 44 inches wide and 72 inches high. \"Desheng\" is printed on the label on the top of valance cover.",
+        "URL": "https://www.cpsc.gov/Recalls/2025/Window-Roll-Up-Shades-Recalled-Due-to-Strangulation-and-Entanglement-Hazards-and-Risk-of-Serious-Injury-or-Death-Violation-of-Federal-Regulations-for-Window-Coverings-Sold-Exclusively-on-SHEIN-com-by-LuckupShein",
+        "Title": "Window Roll Up Shades Recalled Due to Strangulation and Entanglement Hazards and Risk of Serious Injury or Death; Violation of Federal Regulations for Window Coverings; Sold Exclusively on SHEIN.com by LuckupShein",
+        "ConsumerContact": "LuckupShein by email at luckupshein@163.com, or online at http://luckupshein.com/recall for more information.",
+        "LastPublishDate": "2025-04-24T00:00:00",
+        "Products": [
+          {
+            "Name": "LuckupShein Window Roll Up Shades",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 545"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/LuckupShein-1.jpg",
+            "Caption": "Recalled Window Roll Up Shades"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/LuckupShein-2.jpg",
+            "Caption": "Recalled Window Roll Up Shades"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "us.SHEIN.com from May 2023 through December 2024 for between $34 and $52.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [],
+        "Distributors": [
+          {
+            "Name": "LuckUpShein, of China",
+            "CompanyID": ""
+          }
+        ],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The recalled window shades have long operating cords that can cause death or serious injury to children, due to strangulation and entanglement hazards. The window shades are in violation of the federal regulations for window coverings and present a substantial product hazard. The window shades also violate federal regulations for labeling of window coverings.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled window shades, cut the operating cord and contact LuckupShein to receive a free repair, consisting of a replacement operating cord device. Consumers will be asked to send a photo of the recalled product with the operating cord cut to luckupshein@163.com. Once the firm receives the picture of the product with the original cord cut, consumers will be sent a replacement operating cord wand device with installation instructions."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Repair"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "25233",
+        "Product Safety Warning Number": "",
+        "Date": "April 24, 2025",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "Window Roll Up Shades Recalled Due to Strangulation and Entanglement Hazards and Risk of Serious Injury or Death; Violation of Federal Regulations for Window Coverings; Sold Exclusively on SHEIN.com by LuckupShein",
+        "Name of product": "LuckupShein Window Roll Up Shades",
+        "Description": "This recall involves&nbsp;LuckupShein window roll up&nbsp;shades. The&nbsp;shades were sold in white,&nbsp;gray and black, and in sizes ranging between 20 and 44 inches wide and&nbsp;72 inches high.&nbsp;“Desheng” is printed on the label on the&nbsp;top&nbsp;of valance cover.",
+        "Hazard Description": "The recalled window shades have long operating cords that can cause death or serious injury to children, due to strangulation and entanglement hazards. The window shades are in violation of the federal regulations for window coverings and present a substantial product hazard. The window shades also violate federal regulations for labeling of window coverings.&nbsp;",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Repair",
+        "Units": "About 545",
+        "Incidents": "None reported",
+        "Remedy": "Consumers should immediately stop using the recalled window shades, cut the operating cord and contact LuckupShein to receive a free repair, consisting of a replacement operating cord device. Consumers will be asked to send a photo of the recalled product with the operating cord cut&nbsp;to&nbsp;luckupshein@163.com.&nbsp;Once the firm receives the picture of the product with the original cord cut, consumers will be sent a replacement operating cord wand device with installation instructions.&nbsp;",
+        "Sold At Label": "Sold Exclusively Online",
+        "Sold At": "us.SHEIN.com from May 2023 through December 2024 for between $34 and $52.",
+        "Importers": "",
+        "Manufacturers": "",
+        "Distributors": "",
+        "Manufactured In": "China",
+        "Custom Label": "Retailer:",
+        "Custom Field": "LuckUpShein, of China"
+      }
+    },
+    {
+      "merged": {
+        "RecallID": 10248,
+        "RecallNumber": "25234",
+        "RecallDate": "2025-04-24T00:00:00",
+        "Description": "This recall involves corded BTAMREE roll up window blinds. The bamboo blinds were sold in brown and natural (tan) and in sizes ranging between 24 and 72 inches wide and 72 inches high. \"BTAMREE\" is printed on the label sticker.",
+        "URL": "https://www.cpsc.gov/Recalls/2025/Roll-Up-Window-Blinds-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Strangulation-and-Entanglement-Hazards-Violation-of-Federal-Regulations-for-Window-Coverings-Sold-Exclusively-on-Amazon-com-by-BTAMREE",
+        "Title": "Roll Up Window Blinds Recalled Due to Risk of Serious Injury or Death from Strangulation and Entanglement Hazards; Violation of Federal Regulations for Window Coverings; Sold Exclusively on Amazon.com by BTAMREE",
+        "ConsumerContact": "BTAMREE email at sales@cy-bamboo.com.",
+        "LastPublishDate": "2025-04-24T00:00:00",
+        "Products": [
+          {
+            "Name": "Roll Up Window Blinds",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 20,380"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/rollup-1.png",
+            "Caption": "Recalled BTAMREE Roll Up Window Blinds"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/rollup-2.png",
+            "Caption": "Recalled BTAMREE Roll Up Window Blinds"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/rollup-3.jpg",
+            "Caption": "Recalled BTAMREE Roll Up Window Blinds"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/rollup-4.png",
+            "Caption": "Recalled BTAMREE Roll Up Window Blinds"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Amazon.com from May 2021 through December 2024 for between $30 and $100.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "AnJi ChenYiZhuMuZhiPin YouXianGongSi, cy.curtain bright, d/b/a BTMAREE, of China",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": "Sold At",
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The recalled window blinds have long operating cords that can cause death or serious injury to children, due to strangulation and entanglement hazards. The window blinds are in violation of the federal regulations for window coverings and present a substantial product hazard.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled window blinds and contact BTAMREE for a full refund. Consumers should remove the window blind, mark it with the word \"Recalled\" and dispose of the product in the garbage. Consumers should take a photograph of the window blinds destroyed in the garbage and upload the photo to sales@cy-bamboo.com to register their product and to receive a refund. BTAMREE is contacting all known purchasers directly."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 10248,
+        "RecallNumber": "25234",
+        "RecallDate": "2025-04-24T00:00:00",
+        "Description": "This recall involves corded BTAMREE roll up window blinds. The bamboo blinds were sold in brown and natural (tan) and in sizes ranging between 24 and 72 inches wide and 72 inches high. \"BTAMREE\" is printed on the label sticker.",
+        "URL": "https://www.cpsc.gov/Recalls/2025/Roll-Up-Window-Blinds-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Strangulation-and-Entanglement-Hazards-Violation-of-Federal-Regulations-for-Window-Coverings-Sold-Exclusively-on-Amazon-com-by-BTAMREE",
+        "Title": "Roll Up Window Blinds Recalled Due to Risk of Serious Injury or Death from Strangulation and Entanglement Hazards; Violation of Federal Regulations for Window Coverings; Sold Exclusively on Amazon.com by BTAMREE",
+        "ConsumerContact": "BTAMREE email at sales@cy-bamboo.com.",
+        "LastPublishDate": "2025-04-24T00:00:00",
+        "Products": [
+          {
+            "Name": "Roll Up Window Blinds",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 20,380"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/rollup-1.png",
+            "Caption": "Recalled BTAMREE Roll Up Window Blinds"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/rollup-2.png",
+            "Caption": "Recalled BTAMREE Roll Up Window Blinds"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/rollup-3.jpg",
+            "Caption": "Recalled BTAMREE Roll Up Window Blinds"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/rollup-4.png",
+            "Caption": "Recalled BTAMREE Roll Up Window Blinds"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Amazon.com from May 2021 through December 2024 for between $30 and $100.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "AnJi ChenYiZhuMuZhiPin YouXianGongSi, cy.curtain bright, d/b/a BTMAREE, of China",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The recalled window blinds have long operating cords that can cause death or serious injury to children, due to strangulation and entanglement hazards. The window blinds are in violation of the federal regulations for window coverings and present a substantial product hazard.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled window blinds and contact BTAMREE for a full refund. Consumers should remove the window blind, mark it with the word \"Recalled\" and dispose of the product in the garbage. Consumers should take a photograph of the window blinds destroyed in the garbage and upload the photo to sales@cy-bamboo.com to register their product and to receive a refund. BTAMREE is contacting all known purchasers directly."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "25234",
+        "Product Safety Warning Number": "",
+        "Date": "April 24, 2025",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "Roll Up Window Blinds Recalled Due to Risk of Serious Injury or Death from Strangulation and Entanglement Hazards; Violation of Federal Regulations for Window Coverings; Sold Exclusively on Amazon.com by BTAMREE",
+        "Name of product": "Roll Up Window Blinds",
+        "Description": "This recall involves corded BTAMREE roll up window blinds. The bamboo blinds were sold in brown and natural (tan) and in sizes ranging between&nbsp;24 and&nbsp;72 inches wide and&nbsp;72 inches high. “BTAMREE” is printed on the label sticker.",
+        "Hazard Description": "The recalled window blinds have long operating cords that can cause death or serious injury to children, due to strangulation and entanglement hazards.&nbsp;The window blinds are in violation of the federal regulations for window coverings and present a substantial product hazard.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Refund",
+        "Units": "About 20,380",
+        "Incidents": "None reported",
+        "Remedy": "Consumers should immediately stop using the recalled window blinds and contact BTAMREE for a full refund. Consumers should remove the window blind, mark it with the word “Recalled” and dispose of the product in the garbage. Consumers should take a photograph of the window blinds destroyed in the garbage and upload the photo to&nbsp;sales@cy-bamboo.com to register their product and to receive a refund.&nbsp;BTAMREE is contacting all known purchasers directly.",
+        "Sold At Label": "Sold At",
+        "Sold At": "Amazon.com from May 2021 through December 2024 for between $30 and $100.",
+        "Importers": "AnJi ChenYiZhuMuZhiPin YouXianGongSi, cy.curtain bright, d/b/a BTMAREE, of China",
+        "Manufacturers": "",
+        "Distributors": "",
+        "Manufactured In": "China",
+        "Custom Label": "",
+        "Custom Field": ""
+      }
+    },
+    {
+      "merged": {
+        "RecallID": 10244,
+        "RecallNumber": "25230",
+        "RecallDate": "2025-04-17T00:00:00",
+        "Description": "This recall involves Joydeco Roller Window Shades sold exclusively on Amazon.com. The roller shades were sold in multiple colors, including beige, light gray and white with sizes ranging from a width of 20-70 inches and height of 75 inches. Joydeco is printed on the label sticker on the headrail.",
+        "URL": "https://www.cpsc.gov/Recalls/2025/Joydeco-Roller-Window-Shades-Recalled-Due-to-Strangulation-and-Entanglement-Hazards-and-Risk-of-Serious-Injury-or-Death-Violation-of-Federal-Regulations-for-Window-Coverings-Sold-on-Amazon-com-by-Shanghai-Chushuo-Electronic-Commerce-Co",
+        "Title": "Joydeco Roller Window Shades Recalled Due to Strangulation and Entanglement Hazards and Risk of Serious Injury or Death; Violation of Federal Regulations for Window Coverings; Sold on Amazon.com by Shanghai Chushuo Electronic Commerce Co.",
+        "ConsumerContact": "Shanghai Chushuo Electronic Commerce Co. Ltd by email at amazonservice@joydeco.com or online at https://recall-joydeco.com or www.joydeco.com and click on “Recall Notice” at the bottom of the page under “Help & Support” for more information.",
+        "LastPublishDate": "2025-04-17T00:00:00",
+        "Products": [
+          {
+            "Name": "Joydeco Roller Window Shades",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 73,000"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/joydeco.jpg",
+            "Caption": "Recalled Joydeco Roller Window Shade"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Amazon.com from September 2021 through September 2024 for between $26 and $80.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Shanghai Chushuo Electronic Commerce Co. Ltd., of China",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": "Sold Exclusively At",
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The recalled roller shades have long operating cords that can cause death or serious injury to children, due to strangulation and entanglement hazards. The window coverings are in violation of the federal regulations for window coverings and present a substantial product hazard. The shades also violate labeling requirements for window coverings.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately put the window shade's cords up and away from children and contact Shanghai Chushuo Electronic Commerce Co. Ltd to receive a full refund or free replacement operating cord wand. Consumers must send a photo of the recalled product with the operating cord cut to amazonservice@joydeco.com. Once the firm receives the photo, consumers will receive a repair kit with installation instructions through Shunfeng Express or UPS. The firm is contacting all known purchasers directly."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          },
+          {
+            "Option": "Repair"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 10244,
+        "RecallNumber": "25230",
+        "RecallDate": "2025-04-17T00:00:00",
+        "Description": "This recall involves Joydeco Roller Window Shades sold exclusively on Amazon.com. The roller shades were sold in multiple colors, including beige, light gray and white with sizes ranging from a width of 20-70 inches and height of 75 inches. Joydeco is printed on the label sticker on the headrail.",
+        "URL": "https://www.cpsc.gov/Recalls/2025/Joydeco-Roller-Window-Shades-Recalled-Due-to-Strangulation-and-Entanglement-Hazards-and-Risk-of-Serious-Injury-or-Death-Violation-of-Federal-Regulations-for-Window-Coverings-Sold-on-Amazon-com-by-Shanghai-Chushuo-Electronic-Commerce-Co",
+        "Title": "Joydeco Roller Window Shades Recalled Due to Strangulation and Entanglement Hazards and Risk of Serious Injury or Death; Violation of Federal Regulations for Window Coverings; Sold on Amazon.com by Shanghai Chushuo Electronic Commerce Co.",
+        "ConsumerContact": "Shanghai Chushuo Electronic Commerce Co. Ltd by email at amazonservice@joydeco.com or online at https://recall-joydeco.com or www.joydeco.com and click on “Recall Notice” at the bottom of the page under “Help & Support” for more information.",
+        "LastPublishDate": "2025-04-17T00:00:00",
+        "Products": [
+          {
+            "Name": "Joydeco Roller Window Shades",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 73,000"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/joydeco.jpg",
+            "Caption": "Recalled Joydeco Roller Window Shade"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Amazon.com from September 2021 through September 2024 for between $26 and $80.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Shanghai Chushuo Electronic Commerce Co. Ltd., of China",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The recalled roller shades have long operating cords that can cause death or serious injury to children, due to strangulation and entanglement hazards. The window coverings are in violation of the federal regulations for window coverings and present a substantial product hazard. The shades also violate labeling requirements for window coverings.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately put the window shade's cords up and away from children and contact Shanghai Chushuo Electronic Commerce Co. Ltd to receive a full refund or free replacement operating cord wand. Consumers must send a photo of the recalled product with the operating cord cut to amazonservice@joydeco.com. Once the firm receives the photo, consumers will receive a repair kit with installation instructions through Shunfeng Express or UPS. The firm is contacting all known purchasers directly."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          },
+          {
+            "Option": "Repair"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "25230",
+        "Product Safety Warning Number": "",
+        "Date": "April 17, 2025",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "Joydeco Roller Window Shades Recalled Due to Strangulation and Entanglement Hazards and Risk of Serious Injury or Death; Violation of Federal Regulations for Window Coverings; Sold on Amazon.com by Shanghai Chushuo Electronic Commerce Co.",
+        "Name of product": "Joydeco Roller Window Shades",
+        "Description": "This recall involves Joydeco Roller Window Shades sold exclusively on Amazon.com. The roller shades were sold in multiple colors, including beige, light gray and white&nbsp;with sizes ranging from a width of&nbsp;20-70 inches and&nbsp;height of&nbsp;75 inches. Joydeco is printed on the label sticker on the headrail.",
+        "Hazard Description": "The recalled roller shades have long operating cords that can cause death or serious injury to children, due to strangulation and entanglement hazards. The window coverings are in violation of the federal regulations for window coverings and present a substantial product hazard. The shades also violate labeling requirements for window coverings.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Refund, Repair",
+        "Units": "About 73,000",
+        "Incidents": "None reported",
+        "Remedy": "Consumers should immediately put the window shade’s cords up and away from children and contact Shanghai Chushuo Electronic Commerce Co.&nbsp;Ltd to receive a full refund or free replacement operating cord wand. Consumers must send a photo of the recalled product with the operating cord cut to&nbsp;amazonservice@joydeco.com. Once the firm receives the photo, consumers will receive a repair kit with installation instructions through&nbsp;Shunfeng Express or UPS. The firm is contacting all known purchasers directly.",
+        "Sold At Label": "Sold Exclusively At",
+        "Sold At": "Amazon.com from September 2021 through September 2024 for between $26 and $80.",
+        "Importers": "Shanghai Chushuo Electronic Commerce Co. Ltd., of China",
+        "Manufacturers": "",
+        "Distributors": "",
+        "Manufactured In": "China",
+        "Custom Label": "",
+        "Custom Field": ""
+      }
+    },
+    {
+      "merged": {
+        "RecallID": 10214,
+        "RecallNumber": "25198",
+        "RecallDate": "2025-03-27T00:00:00",
+        "Description": "This recall involves LINKCOO corded window shades. The roller shades were sold in white, gray and black, and in sizes ranging between 10 and 75 inches wide and 79 inches high. \"LINKCOO\" is printed on the label sticker on the shades' lower pole.",
+        "URL": "https://www.cpsc.gov/Recalls/2025/LINKCOO-Blackout-Roller-Window-Shades-Recalled-Due-to-Strangulation-and-Entanglement-Hazards-and-Risk-of-Serious-Injury-or-Death-Violation-of-Federal-Regulations-for-Window-Coverings-Sold-Exclusively-on-Amazon-com-by-LINKCOO",
+        "Title": "LINKCOO Blackout Roller Window Shades Recalled Due to Strangulation and Entanglement Hazards and Risk of Serious Injury or Death; Violation of Federal Regulations for Window Coverings; Sold Exclusively on Amazon.com by LINKCOO",
+        "ConsumerContact": "LINKCOO by email at recalllinkcoo@163.com or online at http://recall-linkcoo.com/ for more information.",
+        "LastPublishDate": "2025-03-27T00:00:00",
+        "Products": [
+          {
+            "Name": "LINKCOO Blackout Roller Window Shades",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 16,300"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/LINKCOO-shades.jpg",
+            "Caption": "Recalled LINKCOO blackout roller window shades"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Amazon.com from December 2022 through September 2024 for between $20 and $88.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [],
+        "Distributors": [
+          {
+            "Name": "Wenzhou Lingtuo Shangmao Youxiangongsi, dba LINKCOO, of China",
+            "CompanyID": ""
+          }
+        ],
+        "SoldAtLabel": "Sold Exclusively Online",
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The recalled window shades have long operating cords that can cause death or serious injury to children, due to strangulation and entanglement hazards. The window shades are in violation of the federal regulations for window coverings and present a substantial product hazard. The window shades also violate federal regulations for labeling of window coverings.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled window coverings, cut their cord and contact LINKCOO to receive a free repair, consisting of a replacement operating cord device. Consumers will be asked to send a photo of the recalled product with the operating cord cut to recalllinkcoo@163.com. Once the firm receives the photo, consumers will be sent a replacement short operating cord with installation instructions. Amazon is contacting all known purchasers directly."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Repair"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 10214,
+        "RecallNumber": "25198",
+        "RecallDate": "2025-03-27T00:00:00",
+        "Description": "This recall involves LINKCOO corded window shades. The roller shades were sold in white, gray and black, and in sizes ranging between 10 and 75 inches wide and 79 inches high. \"LINKCOO\" is printed on the label sticker on the shades' lower pole.",
+        "URL": "https://www.cpsc.gov/Recalls/2025/LINKCOO-Blackout-Roller-Window-Shades-Recalled-Due-to-Strangulation-and-Entanglement-Hazards-and-Risk-of-Serious-Injury-or-Death-Violation-of-Federal-Regulations-for-Window-Coverings-Sold-Exclusively-on-Amazon-com-by-LINKCOO",
+        "Title": "LINKCOO Blackout Roller Window Shades Recalled Due to Strangulation and Entanglement Hazards and Risk of Serious Injury or Death; Violation of Federal Regulations for Window Coverings; Sold Exclusively on Amazon.com by LINKCOO",
+        "ConsumerContact": "LINKCOO by email at recalllinkcoo@163.com or online at http://recall-linkcoo.com/ for more information.",
+        "LastPublishDate": "2025-03-27T00:00:00",
+        "Products": [
+          {
+            "Name": "LINKCOO Blackout Roller Window Shades",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 16,300"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/LINKCOO-shades.jpg",
+            "Caption": "Recalled LINKCOO blackout roller window shades"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Amazon.com from December 2022 through September 2024 for between $20 and $88.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [],
+        "Distributors": [
+          {
+            "Name": "Wenzhou Lingtuo Shangmao Youxiangongsi, dba LINKCOO, of China",
+            "CompanyID": ""
+          }
+        ],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The recalled window shades have long operating cords that can cause death or serious injury to children, due to strangulation and entanglement hazards. The window shades are in violation of the federal regulations for window coverings and present a substantial product hazard. The window shades also violate federal regulations for labeling of window coverings.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled window coverings, cut their cord and contact LINKCOO to receive a free repair, consisting of a replacement operating cord device. Consumers will be asked to send a photo of the recalled product with the operating cord cut to recalllinkcoo@163.com. Once the firm receives the photo, consumers will be sent a replacement short operating cord with installation instructions. Amazon is contacting all known purchasers directly."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Repair"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "25198",
+        "Product Safety Warning Number": "",
+        "Date": "March 27, 2025",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "LINKCOO Blackout Roller Window Shades Recalled Due to Strangulation and Entanglement Hazards and Risk of Serious Injury or Death; Violation of Federal Regulations for Window Coverings; Sold Exclusively on Amazon.com by LINKCOO",
+        "Name of product": "LINKCOO Blackout Roller Window Shades",
+        "Description": "This recall involves LINKCOO corded window shades. The roller shades were sold in white, gray and black, and in sizes ranging between&nbsp;10 and&nbsp;75 inches wide and&nbsp;79 inches high. “LINKCOO” is printed on the label sticker on the shades’ lower pole.&nbsp;",
+        "Hazard Description": "The recalled window shades have long operating cords that can cause death or serious injury to children, due to strangulation and entanglement hazards. The window shades are in violation of the federal regulations for window coverings and present a substantial product hazard. The window shades also violate federal regulations for labeling of window coverings.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Repair",
+        "Units": "About 16,300",
+        "Incidents": "None reported",
+        "Remedy": "Consumers should immediately stop using the recalled window coverings, cut their cord and contact LINKCOO to receive a free repair, consisting of a replacement operating cord device. Consumers will be asked to send a photo of the recalled product with the operating cord cut to&nbsp;recalllinkcoo@163.com. Once the firm receives the photo, consumers will be sent a replacement short operating cord with installation instructions. Amazon is contacting all known purchasers directly.",
+        "Sold At Label": "Sold Exclusively Online",
+        "Sold At": "Amazon.com from December 2022 through September 2024 for between $20 and $88.",
+        "Importers": "",
+        "Manufacturers": "",
+        "Distributors": "",
+        "Manufactured In": "China",
+        "Custom Label": "Retailer:",
+        "Custom Field": "Wenzhou Lingtuo Shangmao Youxiangongsi, dba LINKCOO, of China"
+      }
+    },
+    {
+      "merged": {
+        "RecallID": null,
+        "RecallNumber": "25163",
+        "RecallDate": "2025-02-27T06:00:00.000Z",
+        "Description": "This recall involves Allesin corded window shades. The roller shades were sold in white, gray and dark gray, and in sizes ranging between&nbsp;20 and&nbsp;58 inches wide and&nbsp;72 inches high. “Allesin” is printed on the label sticker on the shades’ headrail.",
+        "URL": "",
+        "Title": "Allesin Blackout Roller Window Shades Recalled Due to Strangulation and Entanglement Hazards and Risk of Serious Injury or Death; Violation of Federal Regulations for Window Coverings; Sold Exclusively on Amazon.com by Allesin",
+        "ConsumerContact": "",
+        "LastPublishDate": null,
+        "Products": [
+          {
+            "Name": "Allesin Blackout Roller Window Shades",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 3,800"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [
+          {
+            "Name": "Allesin US Store Ltd., of China",
+            "CompanyID": ""
+          }
+        ],
+        "Retailers": [
+          {
+            "Name": "Amazon.com from September 2023 through September 2024 for between $29 and $58.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [],
+        "Distributors": [],
+        "SoldAtLabel": "Sold Exclusively Online",
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The recalled window shades have long operating cords that can cause death or serious injury to children due to strangulation and entanglement hazards. The window shades are in violation of the federal regulations for window coverings and present a substantial product hazard.&nbsp;The window shades also violate federal regulations for labeling of window coverings.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled window coverings, cut their cord and contact Allesin to receive a full refund. Consumers will be asked to upload a photo of the recalled product with the operating cord cut to&nbsp;chinahert_fighting@outlook.com. Once the firm receives the photo, consumers will receive a refund through the original form of purchase payment. Amazon is contacting all known purchasers directly."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "cpscApi": null,
+      "csv": {
+        "Recall Number": "25163",
+        "Product Safety Warning Number": "",
+        "Date": "February 27, 2025",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "Allesin Blackout Roller Window Shades Recalled Due to Strangulation and Entanglement Hazards and Risk of Serious Injury or Death; Violation of Federal Regulations for Window Coverings; Sold Exclusively on Amazon.com by Allesin",
+        "Name of product": "Allesin Blackout Roller Window Shades",
+        "Description": "This recall involves Allesin corded window shades. The roller shades were sold in white, gray and dark gray, and in sizes ranging between&nbsp;20 and&nbsp;58 inches wide and&nbsp;72 inches high. “Allesin” is printed on the label sticker on the shades’ headrail.",
+        "Hazard Description": "The recalled window shades have long operating cords that can cause death or serious injury to children due to strangulation and entanglement hazards. The window shades are in violation of the federal regulations for window coverings and present a substantial product hazard.&nbsp;The window shades also violate federal regulations for labeling of window coverings.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Refund",
+        "Units": "About 3,800",
+        "Incidents": "None reported",
+        "Remedy": "Consumers should immediately stop using the recalled window coverings, cut their cord and contact Allesin to receive a full refund. Consumers will be asked to upload a photo of the recalled product with the operating cord cut to&nbsp;chinahert_fighting@outlook.com. Once the firm receives the photo, consumers will receive a refund through the original form of purchase payment. Amazon is contacting all known purchasers directly.",
+        "Sold At Label": "Sold Exclusively Online",
+        "Sold At": "Amazon.com from September 2023 through September 2024 for between $29 and $58.",
+        "Importers": "",
+        "Manufacturers": "Allesin US Store Ltd., of China",
+        "Distributors": "",
+        "Manufactured In": "China",
+        "Custom Label": "",
+        "Custom Field": ""
+      }
+    },
+    {
+      "merged": {
+        "RecallID": 10176,
+        "RecallNumber": "25151",
+        "RecallDate": "2025-02-20T00:00:00",
+        "Description": "This recall involves ShadesU Roller Window Shades sold exclusively on Amazon.com. The roller blinds were sold in multiple colors with sizes ranging from a width of 20 to 90 inches and height of 72 inches. \"ShadesU\" is printed on the label sticker on the right side of the bottom rail of the blinds.",
+        "URL": "https://www.cpsc.gov/Recalls/2025/Shadeks-Recalls-ShadesU-Roller-Window-Shades-Due-to-Strangulation-and-Entanglement-Hazards-and-Risk-of-Serious-Injury-or-Death-Violation-of-Federal-Regulations-for-Window-Coverings-Sold-Exclusively-on-Amazon-com",
+        "Title": "Shadeks Recalls ShadesU Roller Window Shades Due to Strangulation and Entanglement Hazards and Risk of Serious Injury or Death; Violation of Federal Regulations for Window Coverings; Sold Exclusively on Amazon.com",
+        "ConsumerContact": "Shadeks toll-free at 866-267-4233 from 9 a.m. to 4 p.m. ET Monday through Friday, email at info@shadesu.com, or online at www.shadesu.com/recall for more information.",
+        "LastPublishDate": "2025-02-20T00:00:00",
+        "Products": [
+          {
+            "Name": "ShadesU Roller Window Shades",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 15,500"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/roller-1.jpg",
+            "Caption": "Recalled ShadesU Roller Window Shades"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/roller-2.jpg",
+            "Caption": "Recalled ShadesU Roller Window Shades"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Online at Amazon.com from June 2024 through September 2024 for between $34 and $170.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Shadeks LLC, of Bensalem, Pennsylvania",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": "Sold Exclusively At",
+        "ManufacturerCountries": [
+          {
+            "Country": "Turkey"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The recalled window blinds have long operating cords that can cause death or serious injury to children, due to strangulation and entanglement hazards. The window blinds are in violation of the federal regulations for window coverings and present a substantial product hazard. The window blinds also violate federal regulations for labeling of window coverings.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately put the window blind cords up and away from children and contact Shadeks for instructions to return the shades for a free repair. Shadeks will remove the long operating cord and update the shades to a cordless design. Consumers will need to provide their contact information and address to receive a free shipping label. Amazon is contacting all known purchasers directly."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Repair"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 10176,
+        "RecallNumber": "25151",
+        "RecallDate": "2025-02-20T00:00:00",
+        "Description": "This recall involves ShadesU Roller Window Shades sold exclusively on Amazon.com. The roller blinds were sold in multiple colors with sizes ranging from a width of 20 to 90 inches and height of 72 inches. \"ShadesU\" is printed on the label sticker on the right side of the bottom rail of the blinds.",
+        "URL": "https://www.cpsc.gov/Recalls/2025/Shadeks-Recalls-ShadesU-Roller-Window-Shades-Due-to-Strangulation-and-Entanglement-Hazards-and-Risk-of-Serious-Injury-or-Death-Violation-of-Federal-Regulations-for-Window-Coverings-Sold-Exclusively-on-Amazon-com",
+        "Title": "Shadeks Recalls ShadesU Roller Window Shades Due to Strangulation and Entanglement Hazards and Risk of Serious Injury or Death; Violation of Federal Regulations for Window Coverings; Sold Exclusively on Amazon.com",
+        "ConsumerContact": "Shadeks toll-free at 866-267-4233 from 9 a.m. to 4 p.m. ET Monday through Friday, email at info@shadesu.com, or online at www.shadesu.com/recall for more information.",
+        "LastPublishDate": "2025-02-20T00:00:00",
+        "Products": [
+          {
+            "Name": "ShadesU Roller Window Shades",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 15,500"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/roller-1.jpg",
+            "Caption": "Recalled ShadesU Roller Window Shades"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/roller-2.jpg",
+            "Caption": "Recalled ShadesU Roller Window Shades"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Online at Amazon.com from June 2024 through September 2024 for between $34 and $170.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Shadeks LLC, of Bensalem, Pennsylvania",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "Turkey"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The recalled window blinds have long operating cords that can cause death or serious injury to children, due to strangulation and entanglement hazards. The window blinds are in violation of the federal regulations for window coverings and present a substantial product hazard. The window blinds also violate federal regulations for labeling of window coverings.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately put the window blind cords up and away from children and contact Shadeks for instructions to return the shades for a free repair. Shadeks will remove the long operating cord and update the shades to a cordless design. Consumers will need to provide their contact information and address to receive a free shipping label. Amazon is contacting all known purchasers directly."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Repair"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "25151",
+        "Product Safety Warning Number": "",
+        "Date": "February 20, 2025",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "Shadeks Recalls ShadesU Roller Window Shades Due to Strangulation and Entanglement Hazards and Risk of Serious Injury or Death; Violation of Federal Regulations for Window Coverings; Sold Exclusively on Amazon.com",
+        "Name of product": "ShadesU Roller Window Shades",
+        "Description": "This recall involves ShadesU Roller Window Shades sold exclusively on Amazon.com. The roller blinds were sold in multiple colors with sizes ranging from a width of 20 to 90 inches and&nbsp;height of 72 inches. “ShadesU” is printed on the label sticker on the right side of the bottom rail of the blinds.",
+        "Hazard Description": "The recalled window blinds have long operating cords that can cause death or serious injury to children, due to strangulation and entanglement hazards. The window blinds are in violation of the federal regulations for window coverings and present a substantial product hazard. The window blinds also violate federal regulations for labeling of window coverings.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Repair",
+        "Units": "About 15,500",
+        "Incidents": "None reported",
+        "Remedy": "Consumers should immediately put the window blind cords up and away from children and contact Shadeks for instructions to return the shades for a free repair. Shadeks will remove the long operating cord and update the shades to a cordless design. Consumers will need to provide their contact information and address to receive a free shipping label. Amazon is contacting all known purchasers directly.",
+        "Sold At Label": "Sold Exclusively At",
+        "Sold At": "Online at Amazon.com from June 2024 through September 2024 for between $34 and $170.",
+        "Importers": "Shadeks LLC, of Bensalem, Pennsylvania",
+        "Manufacturers": "",
+        "Distributors": "",
+        "Manufactured In": "Turkey",
+        "Custom Label": "",
+        "Custom Field": ""
+      }
+    },
+    {
+      "merged": {
+        "RecallID": 10173,
+        "RecallNumber": "25147",
+        "RecallDate": "2025-02-20T00:00:00",
+        "Description": "This recall involves Homebox Blackout Roller Window Shades with metal cords hanging from the right side. The roller blinds were sold in multiple colors including black, white and sage with sizes ranging from a width of 10-70 inches and height of 64-72 inches. \"Homebox\" is printed on the label sticker on the headrail.",
+        "URL": "https://www.cpsc.gov/Recalls/2025/Homebox-Blackout-Roller-Window-Shades-Recalled-Due-to-Strangulation-and-Entanglement-Hazards-and-Risk-of-Serious-Injury-or-Death-Violation-of-Federal-Regulations-for-Window-Coverings-Sold-Exclusively-on-Amazon-com-by-Zhejiang-Mingjing-Textile-Co",
+        "Title": "Homebox Blackout Roller Window Shades Recalled Due to Strangulation and Entanglement Hazards and Risk of Serious Injury or Death; Violation of Federal Regulations for Window Coverings; Sold Exclusively on Amazon.com by Zhejiang Mingjing Textile Co.",
+        "ConsumerContact": "Zhejiang Mingjing Textile by email at recall@homebox.net.cn or online at http://www.recall.hoteamtex.net for more information.",
+        "LastPublishDate": "2025-02-20T00:00:00",
+        "Products": [
+          {
+            "Name": "Homebox Blackout Roller Window Shades",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 4,900"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Shades.jpg",
+            "Caption": "Recalled Homebox Blackout Roller Window Shades"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [
+          {
+            "Name": "Zhejiang Mingjing Textile Co. Ltd, of China",
+            "CompanyID": ""
+          }
+        ],
+        "Retailers": [
+          {
+            "Name": "Amazon.com from December 2022 through September 2024 for between $20 and $110.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [],
+        "Distributors": [],
+        "SoldAtLabel": "Sold Exclusively At",
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The recalled window blinds have long operating cords that can cause death or serious injury to children, due to strangulation and entanglement hazards. The window blinds are in violation of the federal regulations for window coverings and present a substantial product hazard. The window blinds also violate federal regulations for labeling of window coverings.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately put the window blind's cords up and away from children and contact Zhejiang Mingjing Textile to receive a free repair, consisting of a replacement operating cord device or a free replacement cordless blind. Consumers must upload a photo of the recalled product with the operating cord and curtain fabric cut at http://www.hoteamtex.net/por.jsp?id=2&_jcp=5_2. Once the firm receives a video or picture of the product with the original pull cord cut, consumers will be sent a replacement operating cord wand device with installation instructions or replacement cordless blinds through Amazon. Amazon is contacting all known purchasers directly."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Repair"
+          },
+          {
+            "Option": "Replace"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 10173,
+        "RecallNumber": "25147",
+        "RecallDate": "2025-02-20T00:00:00",
+        "Description": "This recall involves Homebox Blackout Roller Window Shades with metal cords hanging from the right side. The roller blinds were sold in multiple colors including black, white and sage with sizes ranging from a width of 10-70 inches and height of 64-72 inches. \"Homebox\" is printed on the label sticker on the headrail.",
+        "URL": "https://www.cpsc.gov/Recalls/2025/Homebox-Blackout-Roller-Window-Shades-Recalled-Due-to-Strangulation-and-Entanglement-Hazards-and-Risk-of-Serious-Injury-or-Death-Violation-of-Federal-Regulations-for-Window-Coverings-Sold-Exclusively-on-Amazon-com-by-Zhejiang-Mingjing-Textile-Co",
+        "Title": "Homebox Blackout Roller Window Shades Recalled Due to Strangulation and Entanglement Hazards and Risk of Serious Injury or Death; Violation of Federal Regulations for Window Coverings; Sold Exclusively on Amazon.com by Zhejiang Mingjing Textile Co.",
+        "ConsumerContact": "Zhejiang Mingjing Textile by email at recall@homebox.net.cn or online at http://www.recall.hoteamtex.net for more information.",
+        "LastPublishDate": "2025-02-20T00:00:00",
+        "Products": [
+          {
+            "Name": "Homebox Blackout Roller Window Shades",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 4,900"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/Shades.jpg",
+            "Caption": "Recalled Homebox Blackout Roller Window Shades"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [
+          {
+            "Name": "Zhejiang Mingjing Textile Co. Ltd, of China",
+            "CompanyID": ""
+          }
+        ],
+        "Retailers": [
+          {
+            "Name": "Amazon.com from December 2022 through September 2024 for between $20 and $110.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [],
+        "Distributors": [],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The recalled window blinds have long operating cords that can cause death or serious injury to children, due to strangulation and entanglement hazards. The window blinds are in violation of the federal regulations for window coverings and present a substantial product hazard. The window blinds also violate federal regulations for labeling of window coverings.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately put the window blind's cords up and away from children and contact Zhejiang Mingjing Textile to receive a free repair, consisting of a replacement operating cord device or a free replacement cordless blind. Consumers must upload a photo of the recalled product with the operating cord and curtain fabric cut at http://www.hoteamtex.net/por.jsp?id=2&_jcp=5_2. Once the firm receives a video or picture of the product with the original pull cord cut, consumers will be sent a replacement operating cord wand device with installation instructions or replacement cordless blinds through Amazon. Amazon is contacting all known purchasers directly."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Repair"
+          },
+          {
+            "Option": "Replace"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "25147",
+        "Product Safety Warning Number": "",
+        "Date": "February 20, 2025",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "Homebox Blackout Roller Window Shades Recalled Due to Strangulation and Entanglement Hazards and Risk of Serious Injury or Death; Violation of Federal Regulations for Window Coverings; Sold Exclusively on Amazon.com by Zhejiang Mingjing Textile Co.",
+        "Name of product": "Homebox Blackout Roller Window Shades",
+        "Description": "This recall involves Homebox Blackout Roller Window Shades with metal cords hanging from the right side. The roller blinds were sold in multiple colors, including black, white and sage, with sizes ranging from a width of&nbsp;10-70 inches and&nbsp;height of&nbsp;64-72 inches. “Homebox” is printed on the label sticker on the headrail.",
+        "Hazard Description": "The recalled window blinds have long operating cords that can cause death or serious injury to children, due to strangulation and entanglement hazards. The window blinds are in violation of the federal regulations for window coverings and present a substantial product hazard. The window blinds also violate federal regulations for labeling of window coverings.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Replace, Repair",
+        "Units": "About 4,900",
+        "Incidents": "None reported",
+        "Remedy": "Consumers should immediately put the window blind’s cords up and away from children and contact Zhejiang Mingjing Textile to receive a free repair, consisting of a replacement operating cord device or a free replacement cordless blind. Consumers must upload a photo of the recalled product with the operating cord and curtain fabric cut at http://www.hoteamtex.net/por.jsp?id=2&amp;_jcp=5_2. Once the firm receives a&nbsp;video or picture of the product with the original pull cord cut, consumers will be sent a replacement operating cord wand device with installation instructions or replacement cordless blinds through Amazon. Amazon is contacting all known purchasers directly.",
+        "Sold At Label": "Sold Exclusively At",
+        "Sold At": "Amazon.com from December 2022 through September 2024 for between $20 and $110.",
+        "Importers": "",
+        "Manufacturers": "Zhejiang Mingjing Textile Co. Ltd, of China",
+        "Distributors": "",
+        "Manufactured In": "China",
+        "Custom Label": "",
+        "Custom Field": ""
+      }
+    },
+    {
+      "merged": {
+        "RecallID": 10154,
+        "RecallNumber": "25128",
+        "RecallDate": "2025-02-06T00:00:00",
+        "Description": "This recall involves Thy Trading's bamboo roll up window blinds. The semi-sheer blinds measure about 24\" wide by 84\" high and 72\" wide and were sold in light brown, brown, camel, dark brown, blue, burgundy and white colors. The window blinds have one of the following SKU numbers located on the product packaging: SKU Number Name of Product Color SKU TYCO1012 Window Blind Semi-Sheer Brown Outdoor Roll Up Shade Brown & Tan SKU TYCO1013 Semi-Sheer Natural Outdoor Roll-Up Shade Light brown SKU TYCO1014 Semi-Sheer Tan/Black Roll-Up Shade Brown SKU TYCO1015 Semi-Sheer Tan Outdoor Roll-Up Shade Camel SKU TYCO1017 Semi-Sheer Roll-Up Shade Dark brown SKU TYCO1022 Semi-Sheer Blue/White Roll-Up Shade Blue SKU TYCO1024 Semi-Sheer Brown Roll-Up Shade Light bamboo SKU TYCO1025 Semi-Sheer Roll-Up Shade Burgundy SKU TYCO1026 Semi-Sheer Red/Brown Roll-Up Shade Burgundy SKU TYCO1027 Bamboo Semi-Sheer Natural Outdoor Roll-Up Shade Brown SKU TYCO1034 Bamboo Semi-Sheer Red Roll-Up Shade Burgundy SKU TYCO1035 Semi-Sheer Carbonized Brown Roll-Up Shade Brown SKU TYCO1039 Semi-Sheer White Roll-Up Shade White The recalled window blinds present a substantial product hazard posing a risk of serious injury or death.",
+        "URL": "https://www.cpsc.gov/Recalls/2025/Thy-Trading-Company-Recalls-Roll-Up-Win-Blinds-Due-to-Strangulation-and-Entanglement-Hazards-Violation-of-Federal-Regulations-for-Window-Coverings-Sold-Exclusively-at-Wayfair-com",
+        "Title": "Thy Trading Company Recalls Roll Up Window Blinds Due to Strangulation and Entanglement Hazards; Violation of Federal Regulations for Window Coverings; Sold Exclusively at Wayfair.com",
+        "ConsumerContact": "Thy Trading Company collect at 484-831-5010 from 9 a.m. to 5 p.m. ET Monday through Friday, email at thytradingllc@outlook.com, or online at https://thytrading.com/recall.html or www.thytrading.com and click on \"Recalls\" at the bottom of the page.",
+        "LastPublishDate": "2025-02-06T00:00:00",
+        "Products": [
+          {
+            "Name": "Roll Up Window Blinds",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 720"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/thy-trading_0.jpg",
+            "Caption": "Recalled Thy Trading Semi-Sheer Roll-up Blinds"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Wayfair.com from June 2024 through September 2024 for between $11 and $194.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Thy Trading Company, of Phoenixville, Pennsylvania",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": "Sold Exclusively Online",
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The recalled window blinds have long operating cords that can cause death or serious injury to children, due to strangulation and entanglement hazards. The window blinds are in violation of the federal regulations for window coverings and present a substantial product hazard.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled window coverings and contact Thy Trading Company for a full refund. Consumers should remove the window blind, mark it with the word \"Recalled\", and dispose of the product in the garbage. Consumers should take a photograph of the window blind destroyed in the garbage and upload the photo to thytradingllc@outlook.com to register their product to receive a refund. Thy Trading Company is contacting all known purchasers directly."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 10154,
+        "RecallNumber": "25128",
+        "RecallDate": "2025-02-06T00:00:00",
+        "Description": "This recall involves Thy Trading's bamboo roll up window blinds. The semi-sheer blinds measure about 24\" wide by 84\" high and 72\" wide and were sold in light brown, brown, camel, dark brown, blue, burgundy and white colors. The window blinds have one of the following SKU numbers located on the product packaging: SKU Number Name of Product Color SKU TYCO1012 Window Blind Semi-Sheer Brown Outdoor Roll Up Shade Brown & Tan SKU TYCO1013 Semi-Sheer Natural Outdoor Roll-Up Shade Light brown SKU TYCO1014 Semi-Sheer Tan/Black Roll-Up Shade Brown SKU TYCO1015 Semi-Sheer Tan Outdoor Roll-Up Shade Camel SKU TYCO1017 Semi-Sheer Roll-Up Shade Dark brown SKU TYCO1022 Semi-Sheer Blue/White Roll-Up Shade Blue SKU TYCO1024 Semi-Sheer Brown Roll-Up Shade Light bamboo SKU TYCO1025 Semi-Sheer Roll-Up Shade Burgundy SKU TYCO1026 Semi-Sheer Red/Brown Roll-Up Shade Burgundy SKU TYCO1027 Bamboo Semi-Sheer Natural Outdoor Roll-Up Shade Brown SKU TYCO1034 Bamboo Semi-Sheer Red Roll-Up Shade Burgundy SKU TYCO1035 Semi-Sheer Carbonized Brown Roll-Up Shade Brown SKU TYCO1039 Semi-Sheer White Roll-Up Shade White The recalled window blinds present a substantial product hazard posing a risk of serious injury or death.",
+        "URL": "https://www.cpsc.gov/Recalls/2025/Thy-Trading-Company-Recalls-Roll-Up-Win-Blinds-Due-to-Strangulation-and-Entanglement-Hazards-Violation-of-Federal-Regulations-for-Window-Coverings-Sold-Exclusively-at-Wayfair-com",
+        "Title": "Thy Trading Company Recalls Roll Up Window Blinds Due to Strangulation and Entanglement Hazards; Violation of Federal Regulations for Window Coverings; Sold Exclusively at Wayfair.com",
+        "ConsumerContact": "Thy Trading Company collect at 484-831-5010 from 9 a.m. to 5 p.m. ET Monday through Friday, email at thytradingllc@outlook.com, or online at https://thytrading.com/recall.html or www.thytrading.com and click on \"Recalls\" at the bottom of the page.",
+        "LastPublishDate": "2025-02-06T00:00:00",
+        "Products": [
+          {
+            "Name": "Roll Up Window Blinds",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 720"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/thy-trading_0.jpg",
+            "Caption": "Recalled Thy Trading Semi-Sheer Roll-up Blinds"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Wayfair.com from June 2024 through September 2024 for between $11 and $194.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Thy Trading Company, of Phoenixville, Pennsylvania",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The recalled window blinds have long operating cords that can cause death or serious injury to children, due to strangulation and entanglement hazards. The window blinds are in violation of the federal regulations for window coverings and present a substantial product hazard.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled window coverings and contact Thy Trading Company for a full refund. Consumers should remove the window blind, mark it with the word \"Recalled\", and dispose of the product in the garbage. Consumers should take a photograph of the window blind destroyed in the garbage and upload the photo to thytradingllc@outlook.com to register their product to receive a refund. Thy Trading Company is contacting all known purchasers directly."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "25128",
+        "Product Safety Warning Number": "",
+        "Date": "February 06, 2025",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "Thy Trading Company Recalls Roll Up Window Blinds Due to Strangulation and Entanglement Hazards; Violation of Federal Regulations for Window Coverings; Sold Exclusively at Wayfair.com",
+        "Name of product": "Roll Up Window Blinds",
+        "Description": "This recall involves Thy Trading’s bamboo roll up window blinds. The semi-sheer blinds measure about 24” wide by 84” high and 72” wide, and were sold in light brown, brown, camel, dark brown, blue, burgundy and white colors. The window blinds have one of the following SKU numbers located on the product packaging:SKU NumberName of ProductColorSKU TYCO1012Window Blind Semi-Sheer Brown Outdoor Roll Up ShadeBrown &amp; TanSKU TYCO1013Semi-Sheer Natural Outdoor Roll-Up ShadeLight brownSKU TYCO1014Semi-Sheer Tan/Black Roll-Up Shade&nbsp;BrownSKU TYCO1015Semi-Sheer Tan Outdoor Roll-Up Shade&nbsp;CamelSKU TYCO1017Semi-Sheer Roll-Up ShadeDark brownSKU TYCO1022Semi-Sheer Blue/White Roll-Up Shade&nbsp;BlueSKU TYCO1024Semi-Sheer Brown Roll-Up ShadeLight bambooSKU TYCO1025Semi-Sheer Roll-Up Shade&nbsp;BurgundySKU TYCO1026Semi-Sheer Red/Brown Roll-Up Shade&nbsp;BurgundySKU TYCO1027Bamboo Semi-Sheer Natural Outdoor Roll-Up ShadeBrownSKU TYCO1034Bamboo Semi-Sheer Red Roll-Up ShadeBurgundySKU TYCO1035Semi-Sheer Carbonized Brown Roll-Up ShadeBrownSKU TYCO1039Semi-Sheer White Roll-Up ShadeWhiteThe recalled window blinds present a substantial product hazard posing a risk of serious injury or death.",
+        "Hazard Description": "The recalled window blinds have long operating cords that can cause death or serious injury to children, due to strangulation and entanglement hazards. The window blinds are in violation of the federal regulations for window coverings and present a substantial product hazard.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Refund",
+        "Units": "About 720",
+        "Incidents": "None reported",
+        "Remedy": "Consumers should immediately stop using the recalled window coverings and contact Thy Trading Company for a full refund. Consumers should remove the window blind, mark it with the word “Recalled”, and dispose of the product in the garbage. Consumers should take a photograph of the window blind destroyed in the garbage and upload the photo to thytradingllc@outlook.com to register their product to receive a refund. Thy Trading Company is contacting all known purchasers directly.",
+        "Sold At Label": "Sold Exclusively Online",
+        "Sold At": "Wayfair.com from June 2024 through September 2024 for between $11 and $194.",
+        "Importers": "Thy Trading Company, of Phoenixville, Pennsylvania ",
+        "Manufacturers": "",
+        "Distributors": "",
+        "Manufactured In": "China",
+        "Custom Label": "",
+        "Custom Field": ""
+      }
+    },
+    {
+      "merged": {
+        "RecallID": 10136,
+        "RecallNumber": "25105",
+        "RecallDate": "2025-01-23T00:00:00",
+        "Description": "This recall involves ChrisDowa Roller Window Shades sold exclusively on Amazon.com. The roller blinds were sold in multiple colors, with sizes ranging from a width of 20-27 inches and height of 72 inches. ChrisDowa is printed on the label sticker on the headrail.",
+        "URL": "https://www.cpsc.gov/Recalls/2025/ChrisDowa-Roller-Window-Shades-Recalled-Due-to-Strangulation-and-Entanglement-Hazards-Violation-of-Federal-Regulations-for-Window-Coverings-Sold-Exclusively-on-Amazon-com-by-Shaoxingkeqiao-Nenghaozhenfang",
+        "Title": "ChrisDowa Roller Window Shades Recalled Due to Strangulation and Entanglement Hazards; Violation of Federal Regulations for Window Coverings; Sold Exclusively on Amazon.com by Shaoxingkeqiao Nenghaozhenfang",
+        "ConsumerContact": "Shaoxingkeqiao Nenghaozhenfang by email at recallchrisdowa@163.com or online at https://recall-chrisdowa.com/ for more information.",
+        "LastPublishDate": "2025-01-23T00:00:00",
+        "Products": [
+          {
+            "Name": "ChrisDowa Roller Window Shades",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 19,500"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/CDowa-1.jpg",
+            "Caption": "Recalled ChrisDowa Roller Window Shade (White)"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [
+          {
+            "Name": "Shaoxingkeqiao Nenghaozhenfang Co. Ltd., of China",
+            "CompanyID": ""
+          }
+        ],
+        "Retailers": [
+          {
+            "Name": "Online atAmazon.com from December 2022 through September 2024 for between $11 and $344.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [],
+        "Distributors": [],
+        "SoldAtLabel": "Sold Exclusively At",
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The recalled roller shades have long operating cords that pose strangulation and entanglement hazards to children, in violation of the federal regulations for window coverings. The shades also violate labeling requirements for window coverings.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately put the window blind's cords up and away from children and contact Shaoxingkeqiao Nenghaozhenfang to receive a free operating cord wand. Consumers must send a photo of the recalled product with the cord cut to recallchrisdowa@163.com. Once the firm receives the photo, consumers will receive a repair kit with installation instructions via Amazon or FedEx. The firm is contacting all known purchasers directly."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Repair"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 10136,
+        "RecallNumber": "25105",
+        "RecallDate": "2025-01-23T00:00:00",
+        "Description": "This recall involves ChrisDowa Roller Window Shades sold exclusively on Amazon.com. The roller blinds were sold in multiple colors, with sizes ranging from a width of 20-27 inches and height of 72 inches. ChrisDowa is printed on the label sticker on the headrail.",
+        "URL": "https://www.cpsc.gov/Recalls/2025/ChrisDowa-Roller-Window-Shades-Recalled-Due-to-Strangulation-and-Entanglement-Hazards-Violation-of-Federal-Regulations-for-Window-Coverings-Sold-Exclusively-on-Amazon-com-by-Shaoxingkeqiao-Nenghaozhenfang",
+        "Title": "ChrisDowa Roller Window Shades Recalled Due to Strangulation and Entanglement Hazards; Violation of Federal Regulations for Window Coverings; Sold Exclusively on Amazon.com by Shaoxingkeqiao Nenghaozhenfang",
+        "ConsumerContact": "Shaoxingkeqiao Nenghaozhenfang by email at recallchrisdowa@163.com or online at https://recall-chrisdowa.com/ for more information.",
+        "LastPublishDate": "2025-01-23T00:00:00",
+        "Products": [
+          {
+            "Name": "ChrisDowa Roller Window Shades",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 19,500"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/CDowa-1.jpg",
+            "Caption": "Recalled ChrisDowa Roller Window Shade (White)"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [
+          {
+            "Name": "Shaoxingkeqiao Nenghaozhenfang Co. Ltd., of China",
+            "CompanyID": ""
+          }
+        ],
+        "Retailers": [
+          {
+            "Name": "Online atAmazon.com from December 2022 through September 2024 for between $11 and $344.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [],
+        "Distributors": [],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The recalled roller shades have long operating cords that pose strangulation and entanglement hazards to children, in violation of the federal regulations for window coverings. The shades also violate labeling requirements for window coverings.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately put the window blind's cords up and away from children and contact Shaoxingkeqiao Nenghaozhenfang to receive a free operating cord wand. Consumers must send a photo of the recalled product with the cord cut to recallchrisdowa@163.com. Once the firm receives the photo, consumers will receive a repair kit with installation instructions via Amazon or FedEx. The firm is contacting all known purchasers directly."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Repair"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "25105",
+        "Product Safety Warning Number": "",
+        "Date": "January 23, 2025",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "ChrisDowa Roller Window Shades Recalled Due to Strangulation and Entanglement Hazards; Violation of Federal Regulations for Window Coverings; Sold Exclusively on Amazon.com by Shaoxingkeqiao Nenghaozhenfang",
+        "Name of product": "ChrisDowa Roller Window Shades",
+        "Description": "This recall involves ChrisDowa Roller Window Shades sold exclusively on Amazon.com. The roller blinds were sold in multiple colors, with sizes ranging from a width of 20-27 inches and&nbsp;height of 72 inches. ChrisDowa is printed on the label sticker on the headrail.",
+        "Hazard Description": "The recalled roller shades have long operating cords that pose strangulation and entanglement hazards to children, in violation of the federal regulations for window coverings. The shades also violate labeling requirements for window coverings.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Repair",
+        "Units": "About 19,500",
+        "Incidents": "None reported",
+        "Remedy": "Consumers should immediately put the window blind’s cords up and away from children and contact Shaoxingkeqiao Nenghaozhenfang to receive a free operating cord wand. Consumers must send a photo of the recalled product with the cord cut to&nbsp;recallchrisdowa@163.com. Once the firm receives the photo, consumers will receive a repair kit with installation instructions via Amazon or FedEx. The firm is contacting all known purchasers directly.",
+        "Sold At Label": "Sold Exclusively At",
+        "Sold At": "Online at Amazon.com from December 2022 through September 2024 for between $11 and $344.",
+        "Importers": "",
+        "Manufacturers": "Shaoxingkeqiao Nenghaozhenfang Co. Ltd., of China",
+        "Distributors": "",
+        "Manufactured In": "China",
+        "Custom Label": "",
+        "Custom Field": ""
+      }
+    },
+    {
+      "merged": {
+        "RecallID": 9780,
+        "RecallNumber": "24726",
+        "RecallDate": "2023-12-05T00:00:00",
+        "Description": "This recall involves Foiresoft Basic Zebra Roller Blinds sold exclusively on Amazon.com. The roller blinds were sold in multiple colors with sizes ranging from width 10-110 inches, and height 64 inches. Foiresoft is printed on the label sticker on the headrail.",
+        "URL": "https://www.cpsc.gov/Recalls/2024/Foiresoft-Zebra-Roller-Blinds-Recalled-Due-to-Strangulation-and-Entanglement-Hazards-Sold-Exclusively-on-Amazon-com-by-Softfunch-Recall-Alert",
+        "Title": "Foiresoft Zebra Roller Blinds Recalled Due to Strangulation and Entanglement Hazards; Sold Exclusively on Amazon.com by Softfunch (Recall Alert)",
+        "ConsumerContact": "Softfunch Inc. at 800-518-4391 from 8 a.m. to 12 p.m. ET Monday through Thursday, email at recall.foiresoft@gmail.com or online at https://www.foiresoft.co.kr/recall for more information.",
+        "LastPublishDate": "2023-12-05T00:00:00",
+        "Products": [
+          {
+            "Name": "Foiresoft Zebra Roller Blinds",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 9,500"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/blinds-white.jpg",
+            "Caption": "Recalled Foiresoft Zebra Roller Blinds (White)"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/blinds-beige.jpg",
+            "Caption": "Recalled Foiresoft Zebra Roller Blinds (Beige)"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Amazon.com from December 2022 through July 2023 for between $50 and $175.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Softfunch, of South Korea",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": "Sold At",
+        "ManufacturerCountries": [
+          {
+            "Country": "South Korea"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The recalled roller blinds have looped operating cords that pose a strangulation hazard to children.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled roller blinds and contact Softfunch Inc. for instructions to receive a full refund. Consumers will need to provide proof of destruction by sending a photo of the cut product with cut cords to the firm. The consumer should then throw away the unit in their trash. Softfunch is contacting all known purchasers directly."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 9780,
+        "RecallNumber": "24726",
+        "RecallDate": "2023-12-05T00:00:00",
+        "Description": "This recall involves Foiresoft Basic Zebra Roller Blinds sold exclusively on Amazon.com. The roller blinds were sold in multiple colors with sizes ranging from width 10-110 inches, and height 64 inches. Foiresoft is printed on the label sticker on the headrail.",
+        "URL": "https://www.cpsc.gov/Recalls/2024/Foiresoft-Zebra-Roller-Blinds-Recalled-Due-to-Strangulation-and-Entanglement-Hazards-Sold-Exclusively-on-Amazon-com-by-Softfunch-Recall-Alert",
+        "Title": "Foiresoft Zebra Roller Blinds Recalled Due to Strangulation and Entanglement Hazards; Sold Exclusively on Amazon.com by Softfunch (Recall Alert)",
+        "ConsumerContact": "Softfunch Inc. at 800-518-4391 from 8 a.m. to 12 p.m. ET Monday through Thursday, email at recall.foiresoft@gmail.com or online at https://www.foiresoft.co.kr/recall for more information.",
+        "LastPublishDate": "2023-12-05T00:00:00",
+        "Products": [
+          {
+            "Name": "Foiresoft Zebra Roller Blinds",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 9,500"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/blinds-white.jpg",
+            "Caption": "Recalled Foiresoft Zebra Roller Blinds (White)"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/blinds-beige.jpg",
+            "Caption": "Recalled Foiresoft Zebra Roller Blinds (Beige)"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Amazon.com from December 2022 through July 2023 for between $50 and $175.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Softfunch, of South Korea",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "South Korea"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The recalled roller blinds have looped operating cords that pose a strangulation hazard to children.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled roller blinds and contact Softfunch Inc. for instructions to receive a full refund. Consumers will need to provide proof of destruction by sending a photo of the cut product with cut cords to the firm. The consumer should then throw away the unit in their trash. Softfunch is contacting all known purchasers directly."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "24726",
+        "Product Safety Warning Number": "",
+        "Date": "December 05, 2023",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "Foiresoft Zebra Roller Blinds Recalled Due to Strangulation and Entanglement Hazards; Sold Exclusively on Amazon.com by Softfunch (Recall Alert)",
+        "Name of product": "Foiresoft Zebra Roller Blinds",
+        "Description": "This recall involves Foiresoft Basic Zebra Roller Blinds sold exclusively on Amazon.com. The roller blinds were sold in multiple colors with sizes ranging from width 10-110 inches, and height 64 inches. Foiresoft is printed on the label sticker on the headrail.",
+        "Hazard Description": "The recalled roller blinds have looped operating cords that pose a strangulation hazard to children.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Refund",
+        "Units": "About 9,500",
+        "Incidents": "None reported",
+        "Remedy": "Consumers should immediately stop using the recalled roller blinds and contact Softfunch Inc. for instructions to receive a full refund. Consumers will need to provide proof of destruction by sending a photo of the cut product with cut cords to the firm. The consumer should then throw away the unit in their trash. Softfunch is contacting all known purchasers directly.",
+        "Sold At Label": "Sold At",
+        "Sold At": "Amazon.com from December 2022 through July 2023 for between $50 and $175.",
+        "Importers": "Softfunch, of South Korea",
+        "Manufacturers": "",
+        "Distributors": "",
+        "Manufactured In": "South Korea",
+        "Custom Label": "",
+        "Custom Field": ""
+      }
+    }
+  ]
+}

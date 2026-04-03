@@ -1,0 +1,277 @@
+{
+  "meta": {
+    "slug": "flashlights-or-batterypowered-lanterns",
+    "sourceCsvFile": "flashlights-or-batterypowered-lanterns_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T04:43:57.129Z",
+    "recallCount": 2
+  },
+  "recalls": [
+    {
+      "merged": {
+        "RecallID": 10269,
+        "RecallNumber": "25279",
+        "RecallDate": "2025-05-15T00:00:00",
+        "Description": "This recall involves NICREW Submersible RGB LED Lights with model number N21743. The lights were sold in a 15-inch black tube and have a black remote control with 21 buttons and a CR2032 lithium coin battery.",
+        "URL": "https://www.cpsc.gov/Recalls/2025/NICREW-Submersible-RGB-LED-Lights-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Ingestion-Hazard-Violations-of-Federal-Regulations-for-Consumer-Products-with-Coin-Batteries-Sold-on-Amazon-by-Nicrew",
+        "Title": "NICREW Submersible RGB LED Lights Recalled Due to Risk of Serious Injury or Death from Ingestion Hazard; Violations of Federal Regulations for Consumer Products with Coin Batteries; Sold on Amazon by Nicrew",
+        "ConsumerContact": "Nicrew at nicrew@support.com, or online at www.nicrew.com/n21743-recall/ or www.nicrew.com and click on Product Recalls at the bottom of the page for more information.",
+        "LastPublishDate": "2025-05-15T00:00:00",
+        "Products": [
+          {
+            "Name": "NICREW 15\" Submersible RGB LED Lights with remote controls",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 1,150"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/NICREW-LED-1.png",
+            "Caption": "Recalled Submersible RGB LED Light with Remote Control"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/NICREW-LED-2.png",
+            "Caption": "Recalled Submersible RGB LED Light with Remote Control packaging"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Online at www.Amazon.com from May 2024 through August 2024 for about $17.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [],
+        "Distributors": [
+          {
+            "Name": "Nicrew Technology Co. Limited, of China",
+            "CompanyID": ""
+          }
+        ],
+        "SoldAtLabel": "Sold At",
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The Submersible RGB LED Light's remote control has a lithium coin battery that can be easily accessed by children, posing an ingestion hazard. This violates the mandatory federal regulations for consumer products containing button cell or coin batteries. In addition, the recalled products do not have the required warnings. When button cell or coin batteries are swallowed, the ingested batteries can cause serious injuries, internal chemical burns and death.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled product, remove the battery from the remote control and place it in an area that children cannot access. Contact Nicrew for a free replacement of the remote and information on how to properly dispose of the product. Consumers need to email the Amazon order number and a photo showing the remote was destroyed by the consumer to nicrew@support.com to obtain the replacement. Nicrew and Amazon are contacting all known purchasers directly. Note: Button cell and coin batteries are hazardous. These batteries should be disposed of or recycled by following local hazardous waste procedures."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Replace"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 10269,
+        "RecallNumber": "25279",
+        "RecallDate": "2025-05-15T00:00:00",
+        "Description": "This recall involves NICREW Submersible RGB LED Lights with model number N21743. The lights were sold in a 15-inch black tube and have a black remote control with 21 buttons and a CR2032 lithium coin battery.",
+        "URL": "https://www.cpsc.gov/Recalls/2025/NICREW-Submersible-RGB-LED-Lights-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Ingestion-Hazard-Violations-of-Federal-Regulations-for-Consumer-Products-with-Coin-Batteries-Sold-on-Amazon-by-Nicrew",
+        "Title": "NICREW Submersible RGB LED Lights Recalled Due to Risk of Serious Injury or Death from Ingestion Hazard; Violations of Federal Regulations for Consumer Products with Coin Batteries; Sold on Amazon by Nicrew",
+        "ConsumerContact": "Nicrew at nicrew@support.com, or online at www.nicrew.com/n21743-recall/ or www.nicrew.com and click on Product Recalls at the bottom of the page for more information.",
+        "LastPublishDate": "2025-05-15T00:00:00",
+        "Products": [
+          {
+            "Name": "NICREW 15\" Submersible RGB LED Lights with remote controls",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 1,150"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/NICREW-LED-1.png",
+            "Caption": "Recalled Submersible RGB LED Light with Remote Control"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/NICREW-LED-2.png",
+            "Caption": "Recalled Submersible RGB LED Light with Remote Control packaging"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Online at www.Amazon.com from May 2024 through August 2024 for about $17.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [],
+        "Distributors": [
+          {
+            "Name": "Nicrew Technology Co. Limited, of China",
+            "CompanyID": ""
+          }
+        ],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The Submersible RGB LED Light's remote control has a lithium coin battery that can be easily accessed by children, posing an ingestion hazard. This violates the mandatory federal regulations for consumer products containing button cell or coin batteries. In addition, the recalled products do not have the required warnings. When button cell or coin batteries are swallowed, the ingested batteries can cause serious injuries, internal chemical burns and death.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled product, remove the battery from the remote control and place it in an area that children cannot access. Contact Nicrew for a free replacement of the remote and information on how to properly dispose of the product. Consumers need to email the Amazon order number and a photo showing the remote was destroyed by the consumer to nicrew@support.com to obtain the replacement. Nicrew and Amazon are contacting all known purchasers directly. Note: Button cell and coin batteries are hazardous. These batteries should be disposed of or recycled by following local hazardous waste procedures."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Replace"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "25279",
+        "Product Safety Warning Number": "",
+        "Date": "May 15, 2025",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "NICREW Submersible RGB LED Lights Recalled Due to Risk of Serious Injury or Death from Ingestion Hazard; Violations of Federal Regulations for Consumer Products with Coin Batteries; Sold on Amazon by Nicrew",
+        "Name of product": "NICREW 15” Submersible RGB LED Lights with remote controls",
+        "Description": "This recall involves NICREW Submersible RGB LED Lights with model number N21743. The lights were sold in a 15-inch black tube and have a black remote control with 21 buttons and a CR2032 lithium coin battery.",
+        "Hazard Description": "The Submersible RGB LED Light’s remote control has a lithium coin battery that can be easily accessed by children, posing an ingestion hazard. This violates the mandatory federal regulations for consumer products containing button cell or coin batteries. In addition, the recalled products do not have the required warnings. When button cell or coin batteries are swallowed, the ingested batteries can cause serious injuries, internal chemical burns and death.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Replace",
+        "Units": "About 1,150",
+        "Incidents": "None reported",
+        "Remedy": "Consumers should immediately stop using the recalled product, remove the battery from the remote control and place it in an area that children cannot access. Contact Nicrew for a free replacement of the remote and information on how to properly dispose of the product. Consumers need to email the Amazon order number and a photo showing the remote was destroyed by the consumer to&nbsp;nicrew@support.com to obtain the replacement. Nicrew and Amazon are contacting all known purchasers directly.Note: Button cell and coin batteries are hazardous. These batteries should be disposed of or recycled by following local hazardous waste procedures.",
+        "Sold At Label": "Sold At",
+        "Sold At": "Online at www.Amazon.com from May 2024 through August 2024 for about $17.",
+        "Importers": "",
+        "Manufacturers": "",
+        "Distributors": "Nicrew Technology Co. Limited, of China",
+        "Manufactured In": "China",
+        "Custom Label": "",
+        "Custom Field": ""
+      }
+    },
+    {
+      "merged": {
+        "RecallID": null,
+        "RecallNumber": "25016",
+        "RecallDate": "2024-10-10T05:00:00.000Z",
+        "Description": "This recall involves NPW Halloween Projector Flashlights. The flashlight is orange with white stripes and a black end piece and measures about six inches long by one inch wide. The product comes with three Halloween themed projector covers, including pumpkin, ghost and skull patterns that fit over the black end piece to change the pattern of the flashlight. The flashlight uses two AA batteries.",
+        "URL": "",
+        "Title": "NPW Group Recalls Halloween Projector Flashlights Due to Fire and Burn Hazards; Sold Exclusively at Target",
+        "ConsumerContact": "",
+        "LastPublishDate": null,
+        "Products": [
+          {
+            "Name": "Halloween Projector Flashlights",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 4,700"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [],
+        "Injuries": [
+          {
+            "Name": "The firm has received nine reports of overheating including six reports of smoke or fire, resulting in four reports of minor burn injuries."
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Target stores nationwide and online at www.target.com during September 2024 for about $3.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "NPW Group, of Cincinnati, Ohio",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": "Sold At",
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The flashlights can overheat and melt the outer casing, posing fire and burn hazards.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled flashlights and return them to any Target store for a full refund. Consumers should turn off the product, remove the batteries, mark the product with “recalled” in permanent marker prior to returning the flashlight to Target. Target is contacting all known purchasers directly."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "cpscApi": null,
+      "csv": {
+        "Recall Number": "25016",
+        "Product Safety Warning Number": "",
+        "Date": "October 10, 2024",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "NPW Group Recalls Halloween Projector Flashlights Due to Fire and Burn Hazards; Sold Exclusively at Target",
+        "Name of product": "Halloween Projector Flashlights",
+        "Description": "This recall involves NPW Halloween Projector Flashlights. The flashlight is orange with white stripes and a black end piece and measures about six inches long by one inch wide. The product comes with three Halloween themed projector covers, including pumpkin, ghost and skull patterns that fit over the black end piece to change the pattern of the flashlight. The flashlight uses two AA batteries.",
+        "Hazard Description": "The flashlights can overheat and melt the outer casing, posing fire and burn hazards.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Refund",
+        "Units": "About 4,700",
+        "Incidents": "The firm has received nine reports of overheating including six reports of smoke or fire, resulting in four reports of minor burn injuries.",
+        "Remedy": "Consumers should immediately stop using the recalled flashlights and return them to any Target store for a full refund. Consumers should turn off the product, remove the batteries, mark the product with “recalled” in permanent marker prior to returning the flashlight to Target. Target is contacting all known purchasers directly.",
+        "Sold At Label": "Sold At",
+        "Sold At": "Target stores nationwide and online at www.target.com during September 2024 for about $3.",
+        "Importers": "NPW Group, of Cincinnati, Ohio",
+        "Manufacturers": "",
+        "Distributors": "",
+        "Manufactured In": "China",
+        "Custom Label": "",
+        "Custom Field": ""
+      }
+    }
+  ]
+}

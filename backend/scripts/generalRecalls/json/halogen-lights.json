@@ -1,0 +1,185 @@
+{
+  "meta": {
+    "slug": "halogen-lights",
+    "sourceCsvFile": "halogen-lights_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T04:43:57.181Z",
+    "recallCount": 1
+  },
+  "recalls": [
+    {
+      "merged": {
+        "RecallID": 10648,
+        "RecallNumber": "26305",
+        "RecallDate": "2026-02-26T00:00:00",
+        "Description": "This recall involves SumDirect-branded LED mini lights. The recalled blinking lights rotate and have a built-in loop for hanging. Each of the 24 multicolored lights includes three preinstalled LR41 button cell batteries.",
+        "URL": "https://www.cpsc.gov/Recalls/2026/SumDirect-LED-Mini-Lights-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violates-Mandatory-Standard-for-Consumer-Products-with-Button-Cell-Batteries",
+        "Title": "SumDirect LED Mini Lights Recalled Due to Risk of Serious Injury or Death from Battery Ingestion; Violates Mandatory Standard for Consumer Products with Button Cell Batteries",
+        "ConsumerContact": "SumDirect by email at recall@dgfuxin.cn or online at www.SumDirect.cn and click on Refund & Exchange for more information.",
+        "LastPublishDate": "2026-02-27T00:00:00",
+        "Products": [
+          {
+            "Name": "SumDirect LED Mini Lights",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 1,600"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/RecalledSumDirectLEDMiniBlinkingLights.png",
+            "Caption": "Recalled SumDirect LED Mini Blinking Lights"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/LR41 button cell batteries..png",
+            "Caption": "Each of the 24 multicolored, blinking lights includes three preinstalled LR41 button cell batteries"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Online at Amazon.com from January 2016 through November 2025 for about $23.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [],
+        "Distributors": [
+          {
+            "Name": "Dongguan Fuxin E-Commerce Co., Ltd., dba SumDirect, of China",
+            "CompanyID": ""
+          }
+        ],
+        "SoldAtLabel": "Sold Online At",
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The recalled LED lights violate the mandatory standard for consumer products containing button cell or coin batteries because they contain button cell batteries that can be accessed easily by children, posing an ingestion hazard. Additionally, the LED lights do not have the warnings as required by Reese's Law. When button cell and coin batteries are swallowed, the ingested batteries can cause serious injuries, internal chemical burns and death.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled LED lights, place them in an area that children cannot access and properly dispose of the batteries. Contact SumDirect for a full refund. Consumers will be asked to send a photo of the product in the trash to recall@dgfuxin.cn. Note: Button cell and coin batteries are hazardous. Batteries should be disposed of or recycled by following local hazardous waste procedures."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 10648,
+        "RecallNumber": "26305",
+        "RecallDate": "2026-02-26T00:00:00",
+        "Description": "This recall involves SumDirect-branded LED mini lights. The recalled blinking lights rotate and have a built-in loop for hanging. Each of the 24 multicolored lights includes three preinstalled LR41 button cell batteries.",
+        "URL": "https://www.cpsc.gov/Recalls/2026/SumDirect-LED-Mini-Lights-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violates-Mandatory-Standard-for-Consumer-Products-with-Button-Cell-Batteries",
+        "Title": "SumDirect LED Mini Lights Recalled Due to Risk of Serious Injury or Death from Battery Ingestion; Violates Mandatory Standard for Consumer Products with Button Cell Batteries",
+        "ConsumerContact": "SumDirect by email at recall@dgfuxin.cn or online at www.SumDirect.cn and click on Refund & Exchange for more information.",
+        "LastPublishDate": "2026-02-27T00:00:00",
+        "Products": [
+          {
+            "Name": "SumDirect LED Mini Lights",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 1,600"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/RecalledSumDirectLEDMiniBlinkingLights.png",
+            "Caption": "Recalled SumDirect LED Mini Blinking Lights"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/LR41 button cell batteries..png",
+            "Caption": "Each of the 24 multicolored, blinking lights includes three preinstalled LR41 button cell batteries"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Online at Amazon.com from January 2016 through November 2025 for about $23.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [],
+        "Distributors": [
+          {
+            "Name": "Dongguan Fuxin E-Commerce Co., Ltd., dba SumDirect, of China",
+            "CompanyID": ""
+          }
+        ],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The recalled LED lights violate the mandatory standard for consumer products containing button cell or coin batteries because they contain button cell batteries that can be accessed easily by children, posing an ingestion hazard. Additionally, the LED lights do not have the warnings as required by Reese's Law. When button cell and coin batteries are swallowed, the ingested batteries can cause serious injuries, internal chemical burns and death.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled LED lights, place them in an area that children cannot access and properly dispose of the batteries. Contact SumDirect for a full refund. Consumers will be asked to send a photo of the product in the trash to recall@dgfuxin.cn. Note: Button cell and coin batteries are hazardous. Batteries should be disposed of or recycled by following local hazardous waste procedures."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "26305",
+        "Product Safety Warning Number": "",
+        "Date": "February 26, 2026",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "SumDirect LED Mini Lights Recalled Due to Risk of Serious Injury or Death from Battery Ingestion; Violates Mandatory Standard for Consumer Products with Button Cell Batteries",
+        "Name of product": "SumDirect LED Mini Lights",
+        "Description": "This recall involves SumDirect-branded LED mini lights. The recalled blinking lights rotate and have a built-in loop for hanging. Each of the 24 multicolored lights includes three preinstalled LR41 button cell batteries.",
+        "Hazard Description": "The recalled LED lights violate the mandatory standard for consumer products containing button cell or coin batteries because they contain button cell batteries that can be accessed easily by children, posing an ingestion hazard. Additionally, the LED lights do not have the warnings as required by https://www.cpsc.gov/Business--Manufacturing/Business-Education/Busines… lang=\"EN-US\">Reese’s Law. When button cell and coin batteries are swallowed, the ingested batteries can cause serious injuries, internal chemical burns and death.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Refund",
+        "Units": "About 1,600",
+        "Incidents": "None reported",
+        "Remedy": "Consumers should immediately stop using the recalled LED lights, place them in an area that children cannot access and properly dispose of the batteries. Contact SumDirect for a full refund. Consumers will be asked to send a photo of the product in the trash to recall@dgfuxin.cn.Note: Button cell and coin batteries are hazardous. Batteries should be disposed of or recycled by following local hazardous waste procedures.&nbsp;",
+        "Sold At Label": "Sold Online At",
+        "Sold At": "Amazon.com from January 2016 through November 2025 for about $23.",
+        "Importers": "",
+        "Manufacturers": "",
+        "Distributors": "",
+        "Manufactured In": "China",
+        "Custom Label": "Retailer:",
+        "Custom Field": "Dongguan Fuxin E-Commerce Co., Ltd., dba SumDirect, of China"
+      }
+    }
+  ]
+}

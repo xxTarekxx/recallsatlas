@@ -1,0 +1,547 @@
+{
+  "meta": {
+    "slug": "baby-rattles",
+    "sourceCsvFile": "baby-rattles_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T04:43:57.017Z",
+    "recallCount": 3
+  },
+  "recalls": [
+    {
+      "merged": {
+        "RecallID": 10144,
+        "RecallNumber": "25115",
+        "RecallDate": "2025-01-30T00:00:00",
+        "Description": "This recall involves Pearhead Learning Sets with model number 87150. The Learning Sets are sold in a box with the words \"learning set developmental toys for babies 0-6 months.\" The eight-piece Learning Sets include a cow stroller toy, crinkle sheep toy, black and white tummy time book with flashcards, plush activity cube and a wooden egg shaker rattle. The model number is printed on the side of the package under the bar code.",
+        "URL": "https://www.cpsc.gov/Recalls/2025/Pearhead-Recalls-Infant-Learning-Toy-Sets-Due-to-Choking-Hazard-Violation-of-Federal-Regulations-for-Rattles",
+        "Title": "Pearhead Recalls Infant Learning Toy Sets Due to Choking Hazard; Violation of Federal Regulations for Rattles",
+        "ConsumerContact": "Pearhead toll-free at 888-308-4928 from 9:30 a.m. to 6 p.m. ET Monday through Friday, email at service@pearhead.com, or online at https://www.pearhead.com/pages/product-recall or www.pearhead.com and click \"Recall\" at the bottom of the page for more information.",
+        "LastPublishDate": "2025-01-30T00:00:00",
+        "Products": [
+          {
+            "Name": "Pearhead Infant Learning Toy Sets",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 2,700 (In addition, 288 in Canada)"
+          }
+        ],
+        "Inconjunctions": [
+          {
+            "URL": "https://recalls-rappels.canada.ca/en/alert-recall/pearhead-learning-kit-recalled-due-choking-hazard"
+          }
+        ],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/pear-1.jpg",
+            "Caption": "Recalled Pearhead, Inc. Learning Set"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/pear-2.jpg",
+            "Caption": "Recalled Pearhead Learning Set Model Number"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [
+          {
+            "Name": "Pearhead, of Brooklyn, New York",
+            "CompanyID": ""
+          }
+        ],
+        "Retailers": [
+          {
+            "Name": "Kohls stores nationwide and online at Kohls.com, Oyaco.com, Faire.com, Pearhead.com and Amazon.com from August 2024 through October 2024 for about $30.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [],
+        "Distributors": [],
+        "SoldAtLabel": "Sold At",
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [
+          {
+            "UPC": "698904871507"
+          }
+        ],
+        "Hazards": [
+          {
+            "Name": "Due to its size and shape, the wooden egg-shaped rattle in the recalled learning sets can get lodged in a child's throat, posing a choking hazard. This violates the federal regulations for infant rattles.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should stop using the egg shaker immediately and contact Pearhead for information on how to return the product to obtain a free replacement and refund. Pearhead is contacting all known purchasers directly."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          },
+          {
+            "Option": "Replace"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 10144,
+        "RecallNumber": "25115",
+        "RecallDate": "2025-01-30T00:00:00",
+        "Description": "This recall involves Pearhead Learning Sets with model number 87150. The Learning Sets are sold in a box with the words \"learning set developmental toys for babies 0-6 months.\" The eight-piece Learning Sets include a cow stroller toy, crinkle sheep toy, black and white tummy time book with flashcards, plush activity cube and a wooden egg shaker rattle. The model number is printed on the side of the package under the bar code.",
+        "URL": "https://www.cpsc.gov/Recalls/2025/Pearhead-Recalls-Infant-Learning-Toy-Sets-Due-to-Choking-Hazard-Violation-of-Federal-Regulations-for-Rattles",
+        "Title": "Pearhead Recalls Infant Learning Toy Sets Due to Choking Hazard; Violation of Federal Regulations for Rattles",
+        "ConsumerContact": "Pearhead toll-free at 888-308-4928 from 9:30 a.m. to 6 p.m. ET Monday through Friday, email at service@pearhead.com, or online at https://www.pearhead.com/pages/product-recall or www.pearhead.com and click \"Recall\" at the bottom of the page for more information.",
+        "LastPublishDate": "2025-01-30T00:00:00",
+        "Products": [
+          {
+            "Name": "Pearhead Infant Learning Toy Sets",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 2,700 (In addition, 288 in Canada)"
+          }
+        ],
+        "Inconjunctions": [
+          {
+            "URL": "https://recalls-rappels.canada.ca/en/alert-recall/pearhead-learning-kit-recalled-due-choking-hazard"
+          }
+        ],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/pear-1.jpg",
+            "Caption": "Recalled Pearhead, Inc. Learning Set"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/pear-2.jpg",
+            "Caption": "Recalled Pearhead Learning Set Model Number"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [
+          {
+            "Name": "Pearhead, of Brooklyn, New York",
+            "CompanyID": ""
+          }
+        ],
+        "Retailers": [
+          {
+            "Name": "Kohls stores nationwide and online at Kohls.com, Oyaco.com, Faire.com, Pearhead.com and Amazon.com from August 2024 through October 2024 for about $30.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [],
+        "Distributors": [],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [
+          {
+            "UPC": "698904871507"
+          }
+        ],
+        "Hazards": [
+          {
+            "Name": "Due to its size and shape, the wooden egg-shaped rattle in the recalled learning sets can get lodged in a child's throat, posing a choking hazard. This violates the federal regulations for infant rattles.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should stop using the egg shaker immediately and contact Pearhead for information on how to return the product to obtain a free replacement and refund. Pearhead is contacting all known purchasers directly."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          },
+          {
+            "Option": "Replace"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "25115",
+        "Product Safety Warning Number": "",
+        "Date": "January 30, 2025",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "Pearhead Recalls Infant Learning Toy Sets Due to Choking Hazard; Violation of Federal Regulations for Rattles",
+        "Name of product": "Pearhead Infant Learning Toy Sets",
+        "Description": "This recall involves&nbsp;Pearhead Learning Sets with model number 87150.&nbsp;The Learning Sets are sold in a box with the words “learning set developmental toys for babies 0-6 months.” The eight-piece Learning Sets include a cow stroller toy, crinkle sheep toy, black and white tummy time book with flashcards, plush activity cube and a wooden egg shaker rattle.&nbsp;The model number is printed on the side of the package under the bar code.",
+        "Hazard Description": "Due to its size and shape, the wooden egg-shaped rattle in the recalled learning sets can get lodged in a child’s throat, posing a choking hazard.&nbsp;This violates the federal regulations for infant rattles.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Refund, Replace",
+        "Units": "About 2,700 (In addition, 288 in Canada)",
+        "Incidents": "None reported",
+        "Remedy": "Consumers should stop using the egg shaker immediately and contact Pearhead for information on how to return the product to obtain a free replacement and refund. Pearhead is contacting all known purchasers directly.",
+        "Sold At Label": "Sold At",
+        "Sold At": "Kohls stores nationwide and online at Kohls.com, Oyaco.com, Faire.com, Pearhead.com and Amazon.com from August 2024 through October 2024 for about $30.",
+        "Importers": "",
+        "Manufacturers": "Pearhead, of Brooklyn, New York",
+        "Distributors": "",
+        "Manufactured In": "China",
+        "Custom Label": "",
+        "Custom Field": ""
+      }
+    },
+    {
+      "merged": {
+        "RecallID": 10006,
+        "RecallNumber": "24308",
+        "RecallDate": "2024-07-18T00:00:00",
+        "Description": "This recall involves the Manhattan Toy Brilliant Bee Rattle. The toy has a plastic light-up bee attached to a wooden rod and wooden base. There are three plastic rings on the rod and a baby-safe mirror on the bottom of the base. The bee rattle has non-removable batteries, and the model number \"166700 CQ\" is printed on the base. The toy measures about seven inches tall and four inches wide.",
+        "URL": "https://www.cpsc.gov/Recalls/2024/Sassy-Baby-Recalls-Manhattan-Toy-Brilliant-Bee-Rattles-Due-to-Choking-Hazard",
+        "Title": "Sassy Baby Recalls Manhattan Toy Brilliant Bee Rattles Due to Choking Hazard",
+        "ConsumerContact": "Manhattan Toy at 800-541-1345 from 8 a.m. to 5 p.m. CT Monday through Thursday and 8 a.m. to 12 p.m. CT on Friday, email at help@manhattantoy.com, or online at www.manhattantoy.com/pages/recall-information or www.manhattantoy.com and click on \"Recall Information\" at the bottom of the page for more information.",
+        "LastPublishDate": "2024-07-18T00:00:00",
+        "Products": [
+          {
+            "Name": "Brilliant Bee Rattles",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 3,000"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/BeeRattle.png",
+            "Caption": "Recalled Manhattan Toy Brilliant Bee Rattle"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Independent specialty toy stores nationwide and online at www.manhattantoy.com from May 2024 through June 2024 for about $16.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Sassy Baby Inc., of Gonzales, Louisiana",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": "Sold At",
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The wooden base can detach from the wooden rod and release the three plastic rings, posing a choking hazard to young children.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled rattles, take them away from children, and return the product to the place of purchase to receive a full refund, or contact Manhattan Toy for instructions on how to return the product to receive a full refund. Proof of purchase is not required to receive a full refund."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 10006,
+        "RecallNumber": "24308",
+        "RecallDate": "2024-07-18T00:00:00",
+        "Description": "This recall involves the Manhattan Toy Brilliant Bee Rattle. The toy has a plastic light-up bee attached to a wooden rod and wooden base. There are three plastic rings on the rod and a baby-safe mirror on the bottom of the base. The bee rattle has non-removable batteries, and the model number \"166700 CQ\" is printed on the base. The toy measures about seven inches tall and four inches wide.",
+        "URL": "https://www.cpsc.gov/Recalls/2024/Sassy-Baby-Recalls-Manhattan-Toy-Brilliant-Bee-Rattles-Due-to-Choking-Hazard",
+        "Title": "Sassy Baby Recalls Manhattan Toy Brilliant Bee Rattles Due to Choking Hazard",
+        "ConsumerContact": "Manhattan Toy at 800-541-1345 from 8 a.m. to 5 p.m. CT Monday through Thursday and 8 a.m. to 12 p.m. CT on Friday, email at help@manhattantoy.com, or online at www.manhattantoy.com/pages/recall-information or www.manhattantoy.com and click on \"Recall Information\" at the bottom of the page for more information.",
+        "LastPublishDate": "2024-07-18T00:00:00",
+        "Products": [
+          {
+            "Name": "Brilliant Bee Rattles",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 3,000"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/BeeRattle.png",
+            "Caption": "Recalled Manhattan Toy Brilliant Bee Rattle"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "None reported"
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Independent specialty toy stores nationwide and online at www.manhattantoy.com from May 2024 through June 2024 for about $16.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Sassy Baby Inc., of Gonzales, Louisiana",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The wooden base can detach from the wooden rod and release the three plastic rings, posing a choking hazard to young children.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately stop using the recalled rattles, take them away from children, and return the product to the place of purchase to receive a full refund, or contact Manhattan Toy for instructions on how to return the product to receive a full refund. Proof of purchase is not required to receive a full refund."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "24308",
+        "Product Safety Warning Number": "",
+        "Date": "July 18, 2024",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "Sassy Baby Recalls Manhattan Toy Brilliant Bee Rattles Due to Choking Hazard",
+        "Name of product": "Brilliant Bee Rattles",
+        "Description": "This recall involves the Manhattan Toy Brilliant Bee Rattle. The toy has a plastic light-up bee attached to a wooden rod and wooden base. There are three plastic rings on the rod and a baby-safe mirror on the bottom of the base. The bee rattle has non-removable batteries, and the model number “166700 CQ” is printed on the base. The toy measures about seven inches tall and four inches wide.",
+        "Hazard Description": "The wooden base can detach from the wooden rod and release the three plastic rings, posing a choking hazard to young children.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Refund",
+        "Units": "About 3,000",
+        "Incidents": "None reported",
+        "Remedy": "Consumers should immediately stop using the recalled rattles, take them away from children, and return the product to the place of purchase to receive a full refund, or contact Manhattan Toy for instructions on how to return the product to receive a full refund. Proof of purchase is not required to receive a full refund.",
+        "Sold At Label": "Sold At",
+        "Sold At": "Independent specialty toy stores nationwide and online at www.manhattantoy.com from May 2024 through June 2024 for about $16.",
+        "Importers": "Sassy Baby Inc., of Gonzales, Louisiana",
+        "Manufacturers": "",
+        "Distributors": "",
+        "Manufactured In": "China",
+        "Custom Label": "",
+        "Custom Field": ""
+      }
+    },
+    {
+      "merged": {
+        "RecallID": 9788,
+        "RecallNumber": "24049",
+        "RecallDate": "2023-12-07T00:00:00",
+        "Description": "This recall involves the Primark baby rattles, \"Wooden Music Shaker\" and \"DTR M&M Maracas\". The baby rattles were sold in yellow, red, light green and light blue colors. The red baby rattle has a \"Minnie Mouse\" image on it, and the yellow baby rattle has a \"Mickey Mouse\" image on it. The numbers 7495201 (Wooden Music Shaker) or 5311101 (DTR M&M Maracas) are printed on the product packaging.",
+        "URL": "https://www.cpsc.gov/Recalls/2024/Primark-Recalls-Baby-Rattles-Due-to-Risk-of-Choking-and-Ingestion-Hazards",
+        "Title": "Primark Recalls Baby Rattles Due to Risk of Choking and Ingestion Hazards",
+        "ConsumerContact": "Primark U.S. collect at 617-946-3236 from 8 a.m. to 5 p.m. ET Monday through Friday, or online at https://www.primark.com/en-us/help/recall-wooden-shaker or at www.primark.com and click on \"Recall\" at the bottom of the page for more information.",
+        "LastPublishDate": "2023-12-07T00:00:00",
+        "Products": [
+          {
+            "Name": "Wooden Music Shaker and \"DTR M&M Maracas\" Baby Rattles",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 1,380"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/m-m-maracas.png",
+            "Caption": "Recalled Primark \"DTR M&M Maracas\" baby rattles"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/wooden-maracas.png",
+            "Caption": "Recalled Primark \"Wooden Music Shaker\" baby rattles"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "The firm has received five reports of the rattles breaking apart in the United Kingdom. No injuries have been reported."
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Primark U.S. stores located in the northeast region, Florida, Maryland and Chicago from March 2021 through August 2023 for between $3.50 and $4.50.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Primark U.S. Corp., of Boston",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": "Sold At",
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The bottom portion of the recalled baby rattles can detach, posing choking and/or ingestion hazards.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately take the recalled baby rattles away from children, stop using them and return them to a Primark store for a full refund."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "cpscApi": {
+        "RecallID": 9788,
+        "RecallNumber": "24049",
+        "RecallDate": "2023-12-07T00:00:00",
+        "Description": "This recall involves the Primark baby rattles, \"Wooden Music Shaker\" and \"DTR M&M Maracas\". The baby rattles were sold in yellow, red, light green and light blue colors. The red baby rattle has a \"Minnie Mouse\" image on it, and the yellow baby rattle has a \"Mickey Mouse\" image on it. The numbers 7495201 (Wooden Music Shaker) or 5311101 (DTR M&M Maracas) are printed on the product packaging.",
+        "URL": "https://www.cpsc.gov/Recalls/2024/Primark-Recalls-Baby-Rattles-Due-to-Risk-of-Choking-and-Ingestion-Hazards",
+        "Title": "Primark Recalls Baby Rattles Due to Risk of Choking and Ingestion Hazards",
+        "ConsumerContact": "Primark U.S. collect at 617-946-3236 from 8 a.m. to 5 p.m. ET Monday through Friday, or online at https://www.primark.com/en-us/help/recall-wooden-shaker or at www.primark.com and click on \"Recall\" at the bottom of the page for more information.",
+        "LastPublishDate": "2023-12-07T00:00:00",
+        "Products": [
+          {
+            "Name": "Wooden Music Shaker and \"DTR M&M Maracas\" Baby Rattles",
+            "Description": "",
+            "Model": "",
+            "Type": "",
+            "CategoryID": "",
+            "NumberOfUnits": "About 1,380"
+          }
+        ],
+        "Inconjunctions": [],
+        "Images": [
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/m-m-maracas.png",
+            "Caption": "Recalled Primark \"DTR M&M Maracas\" baby rattles"
+          },
+          {
+            "URL": "https://www.cpsc.gov/s3fs-public/wooden-maracas.png",
+            "Caption": "Recalled Primark \"Wooden Music Shaker\" baby rattles"
+          }
+        ],
+        "Injuries": [
+          {
+            "Name": "The firm has received five reports of the rattles breaking apart in the United Kingdom. No injuries have been reported."
+          }
+        ],
+        "Manufacturers": [],
+        "Retailers": [
+          {
+            "Name": "Primark U.S. stores located in the northeast region, Florida, Maryland and Chicago from March 2021 through August 2023 for between $3.50 and $4.50.",
+            "CompanyID": ""
+          }
+        ],
+        "Importers": [
+          {
+            "Name": "Primark U.S. Corp., of Boston",
+            "CompanyID": ""
+          }
+        ],
+        "Distributors": [],
+        "SoldAtLabel": null,
+        "ManufacturerCountries": [
+          {
+            "Country": "China"
+          }
+        ],
+        "ProductUPCs": [],
+        "Hazards": [
+          {
+            "Name": "The bottom portion of the recalled baby rattles can detach, posing choking and/or ingestion hazards.",
+            "HazardType": "",
+            "HazardTypeID": ""
+          }
+        ],
+        "Remedies": [
+          {
+            "Name": "Consumers should immediately take the recalled baby rattles away from children, stop using them and return them to a Primark store for a full refund."
+          }
+        ],
+        "RemedyOptions": [
+          {
+            "Option": "Refund"
+          }
+        ]
+      },
+      "csv": {
+        "Recall Number": "24049",
+        "Product Safety Warning Number": "",
+        "Date": "December 07, 2023",
+        "Product Safety Warning Date": "",
+        "Recall Heading": "Primark Recalls Baby Rattles Due to Risk of Choking and Ingestion Hazards",
+        "Name of product": "“Wooden Music Shaker” and “DTR M&M Maracas” Baby Rattles",
+        "Description": "This recall involves the Primark baby rattles, “Wooden Music Shaker” and “DTR M&amp;M Maracas”. The baby rattles were sold in yellow, red, light green and light blue colors. The red baby rattle has a “Minnie Mouse” image on it, and the yellow baby rattle has a “Mickey Mouse” image on it. The numbers 7495201 (Wooden Music Shaker) or 5311101 (DTR M&amp;M Maracas) are printed on the product packaging.",
+        "Hazard Description": "The bottom portion of the recalled baby rattles can detach, posing choking and/or ingestion hazards.",
+        "Consumer Action": "",
+        "Original Product Safety Warning Announcement": "",
+        "Remedy Type": "Refund",
+        "Units": "About 1,380",
+        "Incidents": "The firm has received five reports of the rattles breaking apart in the United Kingdom. No injuries have been reported.",
+        "Remedy": "Consumers should immediately take the recalled baby rattles away from children, stop using them and return them to a Primark store for a full refund.",
+        "Sold At Label": "Sold At",
+        "Sold At": "Primark U.S. stores located in the northeast region, Florida, Maryland and Chicago from March 2021 through August 2023 for between $3.50 and $4.50.",
+        "Importers": "Primark U.S. Corp., of Boston",
+        "Manufacturers": "",
+        "Distributors": "",
+        "Manufactured In": "China",
+        "Custom Label": "",
+        "Custom Field": ""
+      }
+    }
+  ]
+}
