@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "slug": "baby-monitors",
+    "sourceCsvFile": "baby-monitors_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:36.827Z",
+    "recallCount": 1,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "baby-monitors.json",
+    "seoTranslatedAt": "2026-04-03T08:05:29.155Z",
+    "resumePartial": false
+  },
+  "recalls": [
+    {
+      "RecallID": 10650,
+      "RecallNumber": "26307",
+      "RecallDate": "2026-02-26T00:00:00",
+      "Description": "The Babysense Max View Baby Monitor, model VBM55, is being recalled due to a potential fire hazard associated with its display unit, commonly known as the parent unit. This unit features '5.5\" HD 1080P' on the upper left of the screen and the 'babysense' logo at the bottom. The model number 'VBM55RX' can be found on the product identification label on the back of the unit. It is crucial to handle the disposal of this recalled device properly, as lithium-ion batteries require special care to prevent fire risks. Check with your local hazardous waste collection center for proper disposal options.",
+      "URL": "https://www.cpsc.gov/Recalls/2026/Babysense-Max-View-Baby-Monitors-Recalled-Due-to-Fire-Hazard-Manufactured-by-Hisense",
+      "Title": "Recall of Babysense Max View Baby Monitors Due to Fire Risk",
+      "ConsumerContact": "For assistance, consumers can reach Hisense at (833) 689-2652 from 9 a.m. to 5 p.m. ET, Monday through Friday, via email at support@recallsecure.com, or visit www.recallsecure.com or www.babysensemonitors.com and navigate to 'Product Recalls' for further details.",
+      "LastPublishDate": "2026-02-27T00:00:00",
+      "Products": [
+        {
+          "Name": "Babysense Max View Baby Monitor",
+          "NumberOfUnits": "About 81,800"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/baby-monitors/1ad56ba43bee5c7789ea9452282000f8.webp",
+          "Caption": "Recalled Babysense Max View 5.5\" Baby Monitor display/parent unit",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/BabysenseMax1.png"
+        },
+        {
+          "URL": "/images/generalRecalls/baby-monitors/f4545e0e1649e977e6e27e9465261608.webp",
+          "Caption": "Recalled Babysense Max View 5.5\" Baby Monitor display/parent unit - back view",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/BabysenseMax2.png"
+        },
+        {
+          "URL": "/images/generalRecalls/baby-monitors/891a2aa676f3dcb278ec088cccaa55aa.webp",
+          "Caption": "Recalled Babysense Max View Baby Monitor with included cameras",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/BabysenseMax3.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "Hisense has received 11 reports of incidents involving the display unit for the Babysense Max View Baby Monitors. No injuries have been reported."
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "Hisense Ltd., of Israel"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Online at Amazon.com, Walmart.com, and babylist.com from January 2023 through December 2025 for between $90 and $180."
+        }
+      ],
+      "SoldAtLabel": "Sold Online At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of overheating and sparking from the display unit when charging, leading to fire hazards."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Cease use of the display unit immediately and contact Hisense for a complimentary replacement unit that is safe."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Replace"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "VBM55",
+        "VBM55RX"
+      ],
+      "seo": {
+        "slug": "recall-of-babysense-max-view-baby-monitors-due-to-fire-risk-recall",
+        "canonicalUrl": "https://www.recallsatlas.com/general-recalls/recall-of-babysense-max-view-baby-monitors-due-to-fire-risk-recall",
+        "metaDescription": "Babysense Max View Baby Monitors recalled due to fire hazards. Contact Hisense for a free replacement and safe disposal guidance.",
+        "ogTitle": "Recall of Babysense Max View Baby Monitors Due to Fire Risk",
+        "ogDescription": "Babysense Max View Baby Monitors recalled due to fire hazards. Contact Hisense for a free replacement and safe disposal guidance.",
+        "ogImage": "https://www.recallsatlas.com/images/generalRecalls/baby-monitors/1ad56ba43bee5c7789ea9452282000f8.webp",
+        "ogUrl": "https://www.recallsatlas.com/general-recalls/recall-of-babysense-max-view-baby-monitors-due-to-fire-risk-recall",
+        "ogType": "article",
+        "twitterCard": "summary_large_image",
+        "twitterTitle": "Recall of Babysense Max View Baby Monitors Due to Fire Risk",
+        "twitterDescription": "Babysense Max View Baby Monitors recalled due to fire hazards. Contact Hisense for a free replacement and safe disposal guidance.",
+        "twitterImage": "https://www.recallsatlas.com/images/generalRecalls/baby-monitors/1ad56ba43bee5c7789ea9452282000f8.webp"
+      }
+    }
+  ]
+}

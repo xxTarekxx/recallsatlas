@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "slug": "archery",
+    "sourceCsvFile": "archery_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:36.804Z",
+    "recallCount": 1,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "archery.json",
+    "seoTranslatedAt": "2026-04-03T06:09:57.488Z",
+    "resumePartial": false
+  },
+  "recalls": [
+    {
+      "RecallID": 9909,
+      "RecallNumber": "24180",
+      "RecallDate": "2024-04-04T00:00:00",
+      "Description": "Excalibur Crossbow is recalling its C2 Crank cocking aids due to potential risks of impact injuries and lacerations. This product features two plastic cocking hooks that attach to the crossbow string and is identifiable by the black color and the 'Excalibur Crossbow' logo on the front. The part number 2199 and UPC 626192021991 can be found on the packaging.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/C2-Crank-Cocking-Aids-for-Excalibur-Crossbows-Recalled-Due-to-Impact-Injury-and-Laceration-Hazards-Manufactured-by-Excalibur-Crossbow",
+      "Title": "Excalibur Crossbow C2 Crank Cocking Aids Recalled for Injury Risks",
+      "ConsumerContact": "For further details, consumers can reach Excalibur Crossbow at 888-689-1289, Monday through Thursday from 8 a.m. to 5 p.m. ET, or via email at warranty@excaliburcrossbow.com. More information is available online at www.excaliburcrossbow.com under the 'Recalls' section or directly at https://excaliburcrossbow.com/c2-crank-recall/. ",
+      "LastPublishDate": "2024-04-04T00:00:00",
+      "Products": [
+        {
+          "Name": "Excalibur C2 Crank Cocking Aid",
+          "NumberOfUnits": "About 15,000 (In addition, about 3,920 were sold in Canada)"
+        }
+      ],
+      "Inconjunctions": [
+        {
+          "URL": "https://recalls-rappels.canada.ca/en/alert-recall/c2-detachable-crank-cocking-aid-excalibur-crossbow-inc-recalled-due-potential-impact"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/archery/69fe25f60bcdb6e8b3f72b34f145dd76.webp",
+          "Caption": "Recalled Excalibur Crossbow C2 Crank with cocking hooks",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/crossbow.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "Excalibur has received 538 reports of the C2 Crank cocking aid hooks breaking during use, resulting in plastic projectiles flying and hitting consumers, including one injury where a consumer reportedly suffered a permanent eye injury."
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "Excalibur Crossbow US LLC, of Canada"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Bass Pro Shops, Cabela's, and other stores nationwide and online at excaliburcrossbow.com, ebay.com and amazon.com from January 2008 through December 2021 for about $190."
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "Canada"
+        }
+      ],
+      "ProductUPCs": [
+        {
+          "UPC": "626192021991"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of impact injury and laceration from breaking cocking hooks"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Free replacement rope and hooks upon contacting Excalibur Crossbow"
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Replace"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "2199"
+      ],
+      "seo": {
+        "slug": "excalibur-crossbow-c2-crank-cocking-aids-recalled-for-injury-risks-recall",
+        "canonicalUrl": "https://www.recallsatlas.com/general-recalls/excalibur-crossbow-c2-crank-cocking-aids-recalled-for-injury-risks-recall",
+        "metaDescription": "Excalibur Crossbow recalls C2 Crank cocking aids due to injury risks. Stop using immediately and contact for free replacements.",
+        "ogTitle": "Excalibur Crossbow C2 Crank Cocking Aids Recalled for Injury Risks",
+        "ogDescription": "Excalibur Crossbow recalls C2 Crank cocking aids due to injury risks. Stop using immediately and contact for free replacements.",
+        "ogImage": "https://www.recallsatlas.com/images/generalRecalls/archery/69fe25f60bcdb6e8b3f72b34f145dd76.webp",
+        "ogUrl": "https://www.recallsatlas.com/general-recalls/excalibur-crossbow-c2-crank-cocking-aids-recalled-for-injury-risks-recall",
+        "ogType": "article",
+        "twitterCard": "summary_large_image",
+        "twitterTitle": "Excalibur Crossbow C2 Crank Cocking Aids Recalled for Injury Risks",
+        "twitterDescription": "Excalibur Crossbow recalls C2 Crank cocking aids due to injury risks. Stop using immediately and contact for free replacements.",
+        "twitterImage": "https://www.recallsatlas.com/images/generalRecalls/archery/69fe25f60bcdb6e8b3f72b34f145dd76.webp"
+      }
+    }
+  ]
+}

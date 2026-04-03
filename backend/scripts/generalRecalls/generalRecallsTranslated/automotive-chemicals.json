@@ -1,0 +1,100 @@
+{
+  "meta": {
+    "slug": "automotive-chemicals",
+    "sourceCsvFile": "automotive-chemicals_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:36.810Z",
+    "recallCount": 1,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "automotive-chemicals.json",
+    "seoTranslatedAt": "2026-04-03T06:15:58.399Z",
+    "resumePartial": false
+  },
+  "recalls": [
+    {
+      "RecallID": 9956,
+      "RecallNumber": "24237",
+      "RecallDate": "2024-05-16T00:00:00",
+      "Description": "Kano Laboratories has announced a recall of several Super Lube products, including the Syncopen Synthetic Penetrant, Fire Resistant Hydraulic Fluid, and Metal Protectant & Corrosion Inhibitor. These products are designed to prevent corrosion in various machinery and are sold in different sizes and packaging. However, they do not comply with the Poison Prevention Packaging Act, posing a risk of poisoning to young children if ingested. Additionally, exposure to petroleum distillates may lead to serious respiratory issues.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/Kano-Laboratories-Recalls-Super-Lube-Products-Due-to-Risk-of-Poisoning-Violation-of-the-Poison-Prevention-Packaging-Act",
+      "Title": "Kano Laboratories Issues Recall for Super Lube® Products Due to Poisoning Hazard",
+      "ConsumerContact": "For more information, consumers should contact Kano Laboratories at 800-253-5823 from 8:30 a.m. to 5 p.m. ET Monday through Friday, via email at info@super-lube.com, or visit www.super-lube.com/recall. Alternatively, consumers can go to www.super-lube.com, click on Technical Resources, and select 'Recall' from the menu.",
+      "LastPublishDate": "2024-05-16T00:00:00",
+      "Products": [
+        {
+          "Name": "Super Lube Syncopen Synthetic Penetrant",
+          "NumberOfUnits": "About 3,700"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/super-lube-front.jpg",
+          "Caption": "Front Labels of Recalled Super Lube Syncopen Synthetic Penetrant"
+        },
+        {
+          "URL": "/images/generalRecalls/automotive-chemicals/1394954d9a2b31d99018aafcc27437c4.webp",
+          "Caption": "Rear Labels of Recalled Super Lube Syncopen Synthetic Penetrant",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/super-lube-back.JPG"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "Kano Laboratories LLC, of Bohemia, New York"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Grainger Parts, E & R Industrial Sales, Home Depot, and other stores nationwide, and online at Amazon.com and other websites from January 2018 through January 2024 for between $5.50 and $445."
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "United States"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of poisoning due to non-child-resistant packaging and potential for respiratory harm from petroleum distillates."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Secure the recalled Super Lube® products away from children and contact Kano Laboratories for a full refund by providing proof of possession through a photo."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "85004",
+        "85032",
+        "85010",
+        "86010",
+        "83032",
+        "83032A"
+      ],
+      "seo": {
+        "slug": "kano-laboratories-issues-recall-for-super-lube-products-due-to-poisoning-hazard-recall",
+        "canonicalUrl": "https://www.recallsatlas.com/general-recalls/kano-laboratories-issues-recall-for-super-lube-products-due-to-poisoning-hazard-recall",
+        "metaDescription": "Kano Laboratories recalls Super Lube® products due to poisoning risks. Learn how to secure a refund and protect your family.",
+        "ogTitle": "Kano Laboratories Issues Recall for Super Lube® Products Due to Poisoning Hazard",
+        "ogDescription": "Kano Laboratories recalls Super Lube® products due to poisoning risks. Learn how to secure a refund and protect your family.",
+        "ogImage": "https://www.recallsatlas.com/images/generalRecalls/automotive-chemicals/1394954d9a2b31d99018aafcc27437c4.webp",
+        "ogUrl": "https://www.recallsatlas.com/general-recalls/kano-laboratories-issues-recall-for-super-lube-products-due-to-poisoning-hazard-recall",
+        "ogType": "article",
+        "twitterCard": "summary_large_image",
+        "twitterTitle": "Kano Laboratories Issues Recall for Super Lube® Products Due to Poisoning Hazard",
+        "twitterDescription": "Kano Laboratories recalls Super Lube® products due to poisoning risks. Learn how to secure a refund and protect your family.",
+        "twitterImage": "https://www.recallsatlas.com/images/generalRecalls/automotive-chemicals/1394954d9a2b31d99018aafcc27437c4.webp"
+      }
+    }
+  ]
+}

@@ -5,7 +5,10 @@
   "type": "commonjs",
   "scripts": {
     "test": "node -e \"require('./database/mongodb').getDb().then(() => console.log('MongoDB OK')).catch(e => { console.error(e); process.exit(1); })\"",
-    "merge-general-recalls": "node scripts/generalRecalls/mergeDownloadsToJson.js"
+    "merge-general-recalls": "node scripts/generalRecalls/mergeDownloadsToJson.js",
+    "translate-general-recalls": "node scripts/generalRecalls/translateGeneralRecallsSeo.js",
+    "translate-general-recalls:force": "node scripts/generalRecalls/translateGeneralRecallsSeo.js --force",
+    "retry-failed-general-recalls-images": "node scripts/generalRecalls/translateGeneralRecallsSeo.js --retry-failed"
   },
   "dependencies": {
     "axios": "^1.13.6",

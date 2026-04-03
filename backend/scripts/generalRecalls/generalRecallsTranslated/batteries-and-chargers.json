@@ -1,0 +1,955 @@
+{
+  "meta": {
+    "slug": "batteries-and-chargers",
+    "sourceCsvFile": "batteries-and-chargers_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:36.834Z",
+    "recallCount": 41,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "batteries-and-chargers.json",
+    "resumePartial": true
+  },
+  "recalls": [
+    {
+      "RecallID": 10620,
+      "RecallNumber": "26274",
+      "RecallDate": "2026-02-19T00:00:00",
+      "Description": "JJGoo has issued a recall for its LED balloon lights due to safety concerns. These submersible lights, sold in packs of 100, feature color-changing LEDs and contain 200 preinstalled LR41 batteries. Each light is approximately 0.6 inches in diameter and is labeled with \"MY1005E-Colorfu1-100\" on the packaging. The design allows easy access to the batteries, posing a significant ingestion risk to children.\n\nThe recalled lights do not meet the safety requirements outlined by Reese's Law, which mandates specific warnings for products containing button cell batteries. Swallowing these batteries can lead to severe injuries, including internal chemical burns and even death. It is crucial for consumers to take immediate action regarding this recall.",
+      "URL": "https://www.cpsc.gov/Recalls/2026/JJGoo-LED-Balloon-Lights-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violates-Mandatory-Standard-for-Consumer-Products-with-Button-Cell-Batteries",
+      "Title": "Recall of JJGoo LED Balloon Lights Due to Serious Injury Risk from Battery Ingestion",
+      "ConsumerContact": "For assistance, contact JJGoo via email at JJGooLEDBalloonLightsrecall@outlook.com.",
+      "LastPublishDate": "2026-02-19T00:00:00",
+      "Products": [
+        {
+          "Name": "JJGoo LED Balloon Lights",
+          "NumberOfUnits": "About 3,400"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/batteries-and-chargers/317ef9c3b3bf31be7fd05a2118c9a75b.webp",
+          "Caption": "Recalled JJGoo LED Balloon Lights",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/jjgoo-1.png"
+        },
+        {
+          "URL": "/images/generalRecalls/batteries-and-chargers/1db31783470c658dfa38e907e75de702.webp",
+          "Caption": "The recalled JJGoo balloon lights were sold in packs of 100 LED color-changing lights",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/jjgoo-2.png"
+        },
+        {
+          "URL": "/images/generalRecalls/batteries-and-chargers/a700c904646a34895bfaac2fdb7ed92e.webp",
+          "Caption": "Each of the multi-color recalled JJGoo balloon lights has 200 preinstalled LR41 batteries",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/jjgoo-3.gif"
+        },
+        {
+          "URL": "/images/generalRecalls/batteries-and-chargers/ab64e26c8bdaa6961e45309ba175243b.webp",
+          "Caption": "\"MY1005E-Colorfu1-100\" is printed on a label on the product packaging of the recalled JJGoo LED balloon lights",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/jjgoo-4.jpg"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Online at Amazon.com from May 2025 through November 2025 for about $23."
+        }
+      ],
+      "Distributors": [
+        {
+          "Name": "Shenzhen Yimu Technology Co., Ltd. dba JJGoo, of China"
+        }
+      ],
+      "SoldAtLabel": "Sold Online At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Ingestion hazard due to accessible button cell batteries"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Stop using the lights, keep them away from children, and dispose of batteries properly; contact JJGoo for a full refund."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "MY1005E-Colorfu1-100"
+      ],
+      "seo": {
+        "slug": "recall-of-jjgoo-led-balloon-lights-due-to-serious-injury-risk-from-battery-ingestion-recall",
+        "canonicalUrl": "https://www.recallsatlas.com/general-recalls/recall-of-jjgoo-led-balloon-lights-due-to-serious-injury-risk-from-battery-ingestion-recall",
+        "metaDescription": "JJGoo recalls LED balloon lights due to ingestion risks from accessible batteries. Immediate action required for consumer safety.",
+        "ogTitle": "Recall of JJGoo LED Balloon Lights Due to Serious Injury Risk from Battery Ingestion",
+        "ogDescription": "JJGoo recalls LED balloon lights due to ingestion risks from accessible batteries. Immediate action required for consumer safety.",
+        "ogImage": "https://www.recallsatlas.com/images/generalRecalls/batteries-and-chargers/317ef9c3b3bf31be7fd05a2118c9a75b.webp",
+        "ogUrl": "https://www.recallsatlas.com/general-recalls/recall-of-jjgoo-led-balloon-lights-due-to-serious-injury-risk-from-battery-ingestion-recall",
+        "ogType": "article",
+        "twitterCard": "summary_large_image",
+        "twitterTitle": "Recall of JJGoo LED Balloon Lights Due to Serious Injury Risk from Battery Ingestion",
+        "twitterDescription": "JJGoo recalls LED balloon lights due to ingestion risks from accessible batteries. Immediate action required for consumer safety.",
+        "twitterImage": "https://www.recallsatlas.com/images/generalRecalls/batteries-and-chargers/317ef9c3b3bf31be7fd05a2118c9a75b.webp"
+      }
+    },
+    {
+      "RecallID": 10600,
+      "RecallNumber": "26249",
+      "RecallDate": "2026-02-05T00:00:00",
+      "Description": "Dresbe is recalling its LED Christmas Headbands due to a serious safety hazard. These novelty headbands, sold in a two-pack featuring a red candy cane design and a green Christmas tree design, contain three button cell batteries that can be easily accessed by children. This poses a significant risk of ingestion, which can lead to severe injuries or even death. The product packaging is labeled with \"HB-052\" and \"DRESBE LED Christmas Headband (2pc).\"",
+      "URL": "https://www.cpsc.gov/Recalls/2026/Dresbe-LED-Christmas-Headbands-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violate-Mandatory-Standard-for-Consumer-Products-with-Button-Cell-Batteries",
+      "Title": "Dresbe LED Christmas Headbands Recalled Due to Battery Ingestion Risk",
+      "ConsumerContact": "For assistance, consumers should reach out to Dresbe via email at dresberecall@shineprom.com.",
+      "LastPublishDate": "2026-02-06T00:00:00",
+      "Products": [
+        {
+          "Name": "Dresbe LED Christmas Headbands",
+          "NumberOfUnits": "About 250 units"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/batteries-and-chargers/7ee6fb219b13ab92f9c1b1c3c18d54a7.webp",
+          "Caption": "Recalled Dresbe Christmas Headbands (with candy cane and Christmas tree attachments)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Picture5_13.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/batteries-and-chargers/a2861343fef055311044f9c7801fc4aa.webp",
+          "Caption": "Recalled Dresbe Christmas Headbands (with lights)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Picture6_11.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/batteries-and-chargers/60cb9bd6ea20dccd250825e9094429e7.webp",
+          "Caption": "Label affixed to the recalled headband package",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Picture7_23.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Amazon.com from March 2024 through June 2025 for about $13."
+        }
+      ],
+      "Distributors": [
+        {
+          "Name": "Wenxi Xuefeng Technology Co., Ltd, dba Dresbe, of China"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "The headbands present a risk of ingestion due to easily accessible button cell batteries, violating safety standards and lacking necessary warnings."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers must cease using the headbands and contact Dresbe for disposal instructions. A photo of the disposal must be emailed to dresberecall@shineprom.com to process a refund. Note: Dispose of button cell batteries according to local hazardous waste guidelines."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "HB-052",
+        "DRESBE LED Christmas Headband (2pc)"
+      ],
+      "seo": {
+        "slug": "dresbe-led-christmas-headbands-recalled-due-to-battery-ingestion-risk-recall",
+        "canonicalUrl": "https://www.recallsatlas.com/general-recalls/dresbe-led-christmas-headbands-recalled-due-to-battery-ingestion-risk-recall",
+        "metaDescription": "Dresbe recalls LED Christmas Headbands due to battery ingestion risks. Immediate action required for safety and refunds.",
+        "ogTitle": "Dresbe LED Christmas Headbands Recalled Due to Battery Ingestion Risk",
+        "ogDescription": "Dresbe recalls LED Christmas Headbands due to battery ingestion risks. Immediate action required for safety and refunds.",
+        "ogImage": "https://www.recallsatlas.com/images/generalRecalls/batteries-and-chargers/7ee6fb219b13ab92f9c1b1c3c18d54a7.webp",
+        "ogUrl": "https://www.recallsatlas.com/general-recalls/dresbe-led-christmas-headbands-recalled-due-to-battery-ingestion-risk-recall",
+        "ogType": "article",
+        "twitterCard": "summary_large_image",
+        "twitterTitle": "Dresbe LED Christmas Headbands Recalled Due to Battery Ingestion Risk",
+        "twitterDescription": "Dresbe recalls LED Christmas Headbands due to battery ingestion risks. Immediate action required for safety and refunds.",
+        "twitterImage": "https://www.recallsatlas.com/images/generalRecalls/batteries-and-chargers/7ee6fb219b13ab92f9c1b1c3c18d54a7.webp"
+      }
+    },
+    {
+      "RecallID": 10597,
+      "RecallNumber": "26246",
+      "RecallDate": "2026-02-05T00:00:00",
+      "Description": "Kitosun is recalling its Submersible LED Lights due to a serious risk of battery ingestion that could lead to severe injury or death. These lights feature 10 color-changing LEDs and come with two remote controls, containing a total of 20 preinstalled CR2450 lithium batteries in the lights and four CR2032 lithium batteries in the remotes. Each light measures approximately 3.5 cm in diameter. It is important to note that button cell and coin batteries are dangerous, and consumers should dispose of them following local hazardous waste guidelines.",
+      "URL": "https://www.cpsc.gov/Recalls/2026/Kitosun-Submersible-LED-Light-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violates-Mandatory-Standard-for-Consumer-Products-with-Coin-Batteries",
+      "Title": "Kitosun Submersible LED Lights Recalled Due to Battery Ingestion Hazard",
+      "ConsumerContact": "For more information, contact Kitosun via email at sales@kitosun.com.",
+      "LastPublishDate": "2026-02-06T00:00:00",
+      "Products": [
+        {
+          "Name": "Kitosun Submersible LED Lights",
+          "NumberOfUnits": "About 8,100"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/batteries-and-chargers/fd99b1c3c50eac410f50a2eea6136a73.webp",
+          "Caption": "Recalled Kitosun Submersible LED Lights",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Picture3-3_4.png"
+        },
+        {
+          "URL": "/images/generalRecalls/batteries-and-chargers/86b7333f3f207f9314b7f2a337882460.webp",
+          "Caption": "Recalled Kitosun Submersible LED Lights",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Picture4-4_0.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Online at Amazon.com from March 2024 through November 2025 for about $23."
+        }
+      ],
+      "Distributors": [
+        {
+          "Name": "Kitosun Original Company Limited, dba Kitosun, of China"
+        }
+      ],
+      "SoldAtLabel": "Sold Online At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Ingestion hazard from accessible lithium coin batteries, violating safety standards for consumer products."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should secure the lights out of children's reach and contact Kitosun for a full refund or a replacement. A photo of the product in the trash will be required to process the refund or replacement, which can be emailed to gumilius@outlook.com."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "seo": {
+        "slug": "kitosun-submersible-led-lights-recalled-due-to-battery-ingestion-hazard-recall",
+        "canonicalUrl": "https://www.recallsatlas.com/general-recalls/kitosun-submersible-led-lights-recalled-due-to-battery-ingestion-hazard-recall",
+        "metaDescription": "Kitosun recalls Submersible LED Lights due to battery ingestion risks. Contact for refunds or replacements.",
+        "ogTitle": "Kitosun Submersible LED Lights Recalled Due to Battery Ingestion Hazard",
+        "ogDescription": "Kitosun recalls Submersible LED Lights due to battery ingestion risks. Contact for refunds or replacements.",
+        "ogImage": "https://www.recallsatlas.com/images/generalRecalls/batteries-and-chargers/fd99b1c3c50eac410f50a2eea6136a73.webp",
+        "ogUrl": "https://www.recallsatlas.com/general-recalls/kitosun-submersible-led-lights-recalled-due-to-battery-ingestion-hazard-recall",
+        "ogType": "article",
+        "twitterCard": "summary_large_image",
+        "twitterTitle": "Kitosun Submersible LED Lights Recalled Due to Battery Ingestion Hazard",
+        "twitterDescription": "Kitosun recalls Submersible LED Lights due to battery ingestion risks. Contact for refunds or replacements.",
+        "twitterImage": "https://www.recallsatlas.com/images/generalRecalls/batteries-and-chargers/fd99b1c3c50eac410f50a2eea6136a73.webp"
+      }
+    },
+    {
+      "RecallID": 10557,
+      "RecallNumber": "26183",
+      "RecallDate": "2026-01-15T00:00:00",
+      "Description": "Energizer is recalling its Large Power Indicator Lantern due to a potential overheating issue. This portable lantern features a cone shape with an opaque lens and prominently displays the \"Energizer\" brand. It has a gray top with a large power button and a red handle. The affected model number is BGAAL9, and the SKU numbers are 039800143341 and 039800143334. Only lanterns with a date code of June 2024, indicated on the base of the unit, are included in this recall.",
+      "URL": "https://www.cpsc.gov/Recalls/2026/Energizer-Recalls-Rechargeable-Lanterns-Due-to-Overheating",
+      "Title": "Energizer Recalls Large Power Indicator Lanterns Due to Overheating Risk",
+      "ConsumerContact": "For assistance, consumers can reach Energizer at 800-383-7323, available from 8 a.m. to 5 p.m. ET, Monday through Friday. They can also email customersupport@energizer.com or visit https://energizer.com/lightings/lanternrecall or www.energizer.com and select the \"Lantern Recall\" tab.",
+      "LastPublishDate": "2026-01-16T00:00:00",
+      "Products": [
+        {
+          "Name": "Energizer® Large Power Indicator Lantern",
+          "NumberOfUnits": "About 4,100"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/batteries-and-chargers/b0b2daeb5b2f5477a0aaa05045279285.webp",
+          "Caption": "Recalled Energizer® Large Power Indicator Lantern, model BGAAL9",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/energizer-1.png"
+        },
+        {
+          "URL": "/images/generalRecalls/batteries-and-chargers/a3690985cf40e5f4e3559dcb2e539f92.webp",
+          "Caption": "Date code located on the base of recalled lantern",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/energizer-2.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm reported one incident of the lithium-ion battery in a lantern overheating. No injuries have been reported."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Meijer, Blain, and Fleet Wholesale stores nationwide and online at Amazon.com between January and November 2025 for between $35 to $45. In addition, approximately 100 lanterns were distributed to reviewers through the Bazaarvoice marketing program."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Energizer Holdings, Inc., of Clayton, Missouri"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Overheating of lithium-ion batteries posing burn risks"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Stop using the lantern and contact Energizer for a full refund"
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "BGAAL9",
+        "039800143341",
+        "039800143334"
+      ],
+      "seo": {
+        "slug": "energizer-recalls-large-power-indicator-lanterns-due-to-overheating-risk-recall",
+        "canonicalUrl": "https://www.recallsatlas.com/general-recalls/energizer-recalls-large-power-indicator-lanterns-due-to-overheating-risk-recall",
+        "metaDescription": "Energizer recalls Large Power Indicator Lanterns due to overheating risks. Stop using immediately and contact for a refund.",
+        "ogTitle": "Energizer Recalls Large Power Indicator Lanterns Due to Overheating Risk",
+        "ogDescription": "Energizer recalls Large Power Indicator Lanterns due to overheating risks. Stop using immediately and contact for a refund.",
+        "ogImage": "https://www.recallsatlas.com/images/generalRecalls/batteries-and-chargers/b0b2daeb5b2f5477a0aaa05045279285.webp",
+        "ogUrl": "https://www.recallsatlas.com/general-recalls/energizer-recalls-large-power-indicator-lanterns-due-to-overheating-risk-recall",
+        "ogType": "article",
+        "twitterCard": "summary_large_image",
+        "twitterTitle": "Energizer Recalls Large Power Indicator Lanterns Due to Overheating Risk",
+        "twitterDescription": "Energizer recalls Large Power Indicator Lanterns due to overheating risks. Stop using immediately and contact for a refund.",
+        "twitterImage": "https://www.recallsatlas.com/images/generalRecalls/batteries-and-chargers/b0b2daeb5b2f5477a0aaa05045279285.webp"
+      }
+    },
+    {
+      "RecallID": 10553,
+      "RecallNumber": "26179",
+      "RecallDate": "2026-01-08T00:00:00",
+      "Description": "The Isla Rae brand magnetic wireless chargers have been recalled due to potential fire and burn hazards. These chargers, which attach magnetically to the back of compatible phones, were sold in white, pink, and purple colors. The model number 'RM5PBM' is located on the side of the charger, beneath the label '5000 mAh 3.7V.' It is crucial to handle the disposal of these lithium-ion batteries properly to prevent fire risks, as they cannot be discarded in regular trash or recycling bins. Instead, check with your local household hazardous waste collection center for proper disposal options.",
+      "URL": "https://www.cpsc.gov/Recalls/2026/Isla-Rae-Magnetic-Wireless-Chargers-Recalled-Due-to-Fire-and-Burn-Hazards-Sold-by-TJX-at-TJ-Maxx-and-Marshalls-Stores",
+      "Title": "Isla Rae Magnetic Wireless Chargers Recalled Due to Fire and Burn Risks; Available at T.J. Maxx and Marshalls",
+      "ConsumerContact": "For more information, consumers can contact TJX at 888-256-1564 from 7:30 a.m. to 5 p.m. CT, Monday through Friday, email powerbank@realtimeresults.net, or visit https://www.recallrtr.com/powerbank. For Marshalls, visit https://m.marshalls.com/us/m/jump/topic/Product-Recalls/2400019 or Marshalls.com and scroll to the bottom for 'Product Recalls.' For T.J. Maxx, go to https://m.tjmaxx.tjx.com/m/jump/topic/product-recalls/2400019 or TJmaxx.com and check the bottom of the page for 'Product Recalls.'",
+      "LastPublishDate": "2026-01-09T00:00:00",
+      "Products": [
+        {
+          "Name": "Isla Rae Magnetic Wireless Charger",
+          "NumberOfUnits": "About 13,200 (In addition, about 7,000 units were sold in Canada)"
+        }
+      ],
+      "Inconjunctions": [
+        {
+          "URL": "https://recalls-rappels.canada.ca/en/alert-recall/isla-rae-magnetic-wireless-charger-recalled-due-fire-and-burn-hazards"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/batteries-and-chargers/e4c192c65c808e142e6b1b2ef84dbf46.webp",
+          "Caption": "Recalled Isla Rae Magnetic Wireless Charger (white)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/islarae-1.png"
+        },
+        {
+          "URL": "/images/generalRecalls/batteries-and-chargers/26dc4706a340075fb4184f07b137bb05.webp",
+          "Caption": "Recalled Isla Rae Magnetic Wireless Charger (pink)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/islarae-2.png"
+        },
+        {
+          "URL": "/images/generalRecalls/batteries-and-chargers/2aaf0565f2020448285c824792a63e55.webp",
+          "Caption": "Recalled Isla Rae Magnetic Wireless Charger (purple)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/islarae-3.png"
+        },
+        {
+          "URL": "/images/generalRecalls/batteries-and-chargers/fa3e027cc3a9da8aab6638b3493260d0.webp",
+          "Caption": "Recalled Isla Rae Magnetic Wireless Charger Model: RM5PBM",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/islarae-4.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Marshalls and T.J. Maxx stores nationwide between June 2024 and November 2025 for $15."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Hello to Green dba Press Play Products of Bell, California"
+        }
+      ],
+      "Distributors": [
+        {
+          "Name": "The TJX Companies Inc., of Framingham, Massachusetts"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Explosion risk during use leading to fire and burn hazards."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers must stop using the chargers immediately and visit https://www.recallrtr.com/powerbank to register for the recall and receive a full refund. After registration, dispose of the charger according to local regulations and do not throw it in the household trash."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "RM5PBM"
+      ],
+      "seo": {
+        "slug": "isla-rae-magnetic-wireless-chargers-recalled-due-to-fire-and-burn-risks-available-at-t-j-maxx-and-marshalls-recall",
+        "canonicalUrl": "https://www.recallsatlas.com/general-recalls/isla-rae-magnetic-wireless-chargers-recalled-due-to-fire-and-burn-risks-available-at-t-j-maxx-and-marshalls-recall",
+        "metaDescription": "Isla Rae Magnetic Wireless Chargers recalled due to fire and burn hazards. Stop using immediately and register for a refund.",
+        "ogTitle": "Isla Rae Magnetic Wireless Chargers Recalled Due to Fire and Burn Risks; Available at T.J. Maxx and Marshalls",
+        "ogDescription": "Isla Rae Magnetic Wireless Chargers recalled due to fire and burn hazards. Stop using immediately and register for a refund.",
+        "ogImage": "https://www.recallsatlas.com/images/generalRecalls/batteries-and-chargers/e4c192c65c808e142e6b1b2ef84dbf46.webp",
+        "ogUrl": "https://www.recallsatlas.com/general-recalls/isla-rae-magnetic-wireless-chargers-recalled-due-to-fire-and-burn-risks-available-at-t-j-maxx-and-marshalls-recall",
+        "ogType": "article",
+        "twitterCard": "summary_large_image",
+        "twitterTitle": "Isla Rae Magnetic Wireless Chargers Recalled Due to Fire and Burn Risks; Available at T.J. Maxx and Marshalls",
+        "twitterDescription": "Isla Rae Magnetic Wireless Chargers recalled due to fire and burn hazards. Stop using immediately and register for a refund.",
+        "twitterImage": "https://www.recallsatlas.com/images/generalRecalls/batteries-and-chargers/e4c192c65c808e142e6b1b2ef84dbf46.webp"
+      }
+    },
+    {
+      "RecallID": 10516,
+      "RecallNumber": "26135",
+      "RecallDate": "2025-12-05T00:00:00",
+      "Description": "INIU is recalling its 10,000mAh portable power banks, specifically model BI-B41, due to potential fire and burn hazards. These power banks come in black or blue and feature the INIU logo along with a paw-print LED light on the front. Only those units with serial numbers 000G21, 000H21, 000I21, and 000L21 are affected by this recall. It is crucial to handle the disposal of these lithium-ion batteries properly, as they pose a higher fire risk compared to standard batteries. Do not dispose of them in regular trash or recycling bins. Instead, check with your local municipal household hazardous waste (HHW) center for proper disposal options.",
+      "URL": "https://www.cpsc.gov/Recalls/2026/INIU-Recalls-Power-Banks-Due-to-Fire-and-Burn-Hazards-Sold-on-Amazon",
+      "Title": "INIU Recalls BI-B41 Power Banks Due to Fire and Burn Risks; Available on Amazon",
+      "ConsumerContact": "For assistance, consumers can reach INIU at 888-886-3606 from 8 a.m. to 5 p.m. ET, Monday through Friday, email recall@iniu.shop, or visit https://iniushop.com/pages/recall-b41# for more information.",
+      "LastPublishDate": "2025-12-05T00:00:00",
+      "Products": [
+        {
+          "Name": "INIU 10,000mAh BI-B41 Power Banks",
+          "NumberOfUnits": "About 210,000"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/batteries-and-chargers/47c8021e68a31f793fe6737e42432f4b.webp",
+          "Caption": "Recalled INIU Power Bank – model BI-B41",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/INIUPower.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "INIU has received 15 reports of power banks overheating, including 11 reports of fires that resulted in three minor burn injuries and property damage totaling over $380,000."
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "Shenzhen Topstar Industry Co., Ltd., of China"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Online at Amazon.com from August 2021 and April 2022 for about $18."
+        }
+      ],
+      "Distributors": [
+        {
+          "Name": "INIU, of Seattle, Washington"
+        }
+      ],
+      "SoldAtLabel": "Sold Online At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of overheating and ignition from lithium-ion battery"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Proper disposal guidance for recalled power banks"
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "Model BI-B41",
+        "Serial numbers: 000G21, 000H21, 000I21, 000L21"
+      ],
+      "seo": {
+        "slug": "iniu-recalls-bi-b41-power-banks-due-to-fire-and-burn-risks-available-on-amazon-recall",
+        "canonicalUrl": "https://www.recallsatlas.com/general-recalls/iniu-recalls-bi-b41-power-banks-due-to-fire-and-burn-risks-available-on-amazon-recall",
+        "metaDescription": "INIU recalls BI-B41 power banks due to fire hazards. Learn how to dispose of them safely and get consumer support.",
+        "ogTitle": "INIU Recalls BI-B41 Power Banks Due to Fire and Burn Risks; Available on Amazon",
+        "ogDescription": "INIU recalls BI-B41 power banks due to fire hazards. Learn how to dispose of them safely and get consumer support.",
+        "ogImage": "https://www.recallsatlas.com/images/generalRecalls/batteries-and-chargers/47c8021e68a31f793fe6737e42432f4b.webp",
+        "ogUrl": "https://www.recallsatlas.com/general-recalls/iniu-recalls-bi-b41-power-banks-due-to-fire-and-burn-risks-available-on-amazon-recall",
+        "ogType": "article",
+        "twitterCard": "summary_large_image",
+        "twitterTitle": "INIU Recalls BI-B41 Power Banks Due to Fire and Burn Risks; Available on Amazon",
+        "twitterDescription": "INIU recalls BI-B41 power banks due to fire hazards. Learn how to dispose of them safely and get consumer support.",
+        "twitterImage": "https://www.recallsatlas.com/images/generalRecalls/batteries-and-chargers/47c8021e68a31f793fe6737e42432f4b.webp"
+      }
+    },
+    {
+      "RecallID": 10512,
+      "RecallNumber": "26131",
+      "RecallDate": "2025-12-04T00:00:00",
+      "Description": "KTEBO has issued a recall for its Writing Tablet Toys due to a serious safety hazard. These toys, sold in pairs and available in four color combinations (pink/blue, green/yellow, orange/blue, purple/red), come in two sizes: 8.5 inches and 10 inches, each accompanied by a stylus. The toys fail to meet safety standards due to a faulty battery compartment screw, which can pose a risk of battery ingestion. Ingested button cell batteries can lead to severe injuries, internal burns, or even death.",
+      "URL": "https://www.cpsc.gov/Recalls/2026/KTEBO-Writing-Tablet-Toys-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violates-Mandatory-Standard-for-Toys-Sold-on-Amazon-by-KTEBO",
+      "Title": "KTEBO Writing Tablet Toys Recalled Due to Battery Ingestion Risk; Sold on Amazon",
+      "ConsumerContact": "For assistance, consumers should reach out to KTEBO via email at writing-tablet-recall@ktebo.com.",
+      "LastPublishDate": "2025-12-04T00:00:00",
+      "Products": [
+        {
+          "Name": "KTEBO Writing Tablet Toy",
+          "NumberOfUnits": "About 10,380"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/batteries-and-chargers/40eb267b00d28a228b66fa0a42dd2c12.webp",
+          "Caption": "Recalled KTEBO Writing Tablet Toys in Blue/Pink (front)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/RecalledKTEBOWritingTabletToysBlue_Pink_front.png"
+        },
+        {
+          "URL": "/images/generalRecalls/batteries-and-chargers/c146caac5293a0fffe049772c427d541.webp",
+          "Caption": "Recalled KTEBO Writing Tablet Toys in Blue/Pink (back)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/RecalledKTEBOWritingTabletToysBlue_Pink_back.png"
+        },
+        {
+          "URL": "/images/generalRecalls/batteries-and-chargers/50f2e0838e583294bfa9b378e5af4b2c.webp",
+          "Caption": "Recalled KTEBO Writing Tablet Toys in Yellow/Green (front)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/RecalledKTEBOWritingTabletToysYellow_Green_front.png"
+        },
+        {
+          "URL": "/images/generalRecalls/batteries-and-chargers/06fcdab8d8ad763335d4fb80d5f8ef6c.webp",
+          "Caption": "Recalled KTEBO Writing Tablet Toys in Green/Yellow (back)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/RecalledKTEBOWritingTabletToysYellow_Green_back.png"
+        },
+        {
+          "URL": "/images/generalRecalls/batteries-and-chargers/a4a144fab2b1a218958fed05a8c54e2e.webp",
+          "Caption": "Recalled KTEBO Writing Tablet Toys in Blue/Orange (front)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/RecalledKTEBOWritingTabletToysBlue_Orange_front.png"
+        },
+        {
+          "URL": "/images/generalRecalls/batteries-and-chargers/914109a3068de5f237c8c8e0ca92b4be.webp",
+          "Caption": "Recalled KTEBO Writing Tablet Toys in Blue/Orange (back)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/RecalledKTEBOWritingTabletToysBlue_Orange_back.png"
+        },
+        {
+          "URL": "/images/generalRecalls/batteries-and-chargers/725acbbfde240c6e0e1be1e41e94362b.webp",
+          "Caption": "Recalled KTEBO Writing Tablet Toys in Red/Purple (front)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/RecalledKTEBOWritingTabletToysRed_Purple_front.png"
+        },
+        {
+          "URL": "/images/generalRecalls/batteries-and-chargers/da284616cf18a4777729096139311dc5.webp",
+          "Caption": "Recalled KTEBO Writing Tablet Toys in Purple/Red (back)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/RecalledKTEBOWritingTabletToysRed_Purple_back.png"
+        },
+        {
+          "URL": "/images/generalRecalls/batteries-and-chargers/0360fa1b060aa009796ea9465d07e9ce.webp",
+          "Caption": "Recalled KTEBO Writing Tablet Toys Packaging",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/RecalledKTEBOWritingTabletToysPackaging.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Online at Amazon.com from September 2025 through October 2025 for between $8 and $30."
+        }
+      ],
+      "Distributors": [
+        {
+          "Name": "Banghe Guangzhou International Trade Co., Ltd., dba KTEBO, of China"
+        }
+      ],
+      "SoldAtLabel": "Sold Online At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of serious injury or death from battery ingestion due to inadequate battery compartment security."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Stop using the toys immediately and contact KTEBO for a free replacement. Mark the recalled toys with 'RECALLED', photograph them, and email the images to writing-tablet-recall@ktebo.com with 'Recall Proof' in the subject line. Properly dispose of button cell batteries following local hazardous waste guidelines."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Replace"
+        }
+      ],
+      "seo": {
+        "slug": "ktebo-writing-tablet-toys-recalled-due-to-battery-ingestion-risk-sold-on-amazon-recall",
+        "canonicalUrl": "https://www.recallsatlas.com/general-recalls/ktebo-writing-tablet-toys-recalled-due-to-battery-ingestion-risk-sold-on-amazon-recall",
+        "metaDescription": "KTEBO recalls Writing Tablet Toys due to battery ingestion risks. Immediate action required for safety.",
+        "ogTitle": "KTEBO Writing Tablet Toys Recalled Due to Battery Ingestion Risk; Sold on Amazon",
+        "ogDescription": "KTEBO recalls Writing Tablet Toys due to battery ingestion risks. Immediate action required for safety.",
+        "ogImage": "https://www.recallsatlas.com/images/generalRecalls/batteries-and-chargers/40eb267b00d28a228b66fa0a42dd2c12.webp",
+        "ogUrl": "https://www.recallsatlas.com/general-recalls/ktebo-writing-tablet-toys-recalled-due-to-battery-ingestion-risk-sold-on-amazon-recall",
+        "ogType": "article",
+        "twitterCard": "summary_large_image",
+        "twitterTitle": "KTEBO Writing Tablet Toys Recalled Due to Battery Ingestion Risk; Sold on Amazon",
+        "twitterDescription": "KTEBO recalls Writing Tablet Toys due to battery ingestion risks. Immediate action required for safety.",
+        "twitterImage": "https://www.recallsatlas.com/images/generalRecalls/batteries-and-chargers/40eb267b00d28a228b66fa0a42dd2c12.webp"
+      }
+    },
+    {
+      "RecallID": 10484,
+      "RecallNumber": "26090",
+      "RecallDate": "2025-11-13T00:00:00",
+      "Description": "Belkin is recalling specific models of portable power banks and wireless charging stands due to potential fire and burn hazards. The affected charging stands are identified by model number MMA008, while the power banks include models BPB002 and PB0003. Serial numbers for the charging stands begin with '57X' and are located on the bottom, while the power banks have serial numbers starting with '35S' printed on the back. Both the charging stands and BPB002 power banks were sold in black, and the PB0003 model was available in black or white.",
+      "URL": "https://www.cpsc.gov/Recalls/2026/Belkin-Recalls-Portable-Power-Banks-and-Wireless-Charging-Stands-Due-to-Fire-and-Burn-Hazards",
+      "Title": "Belkin Recalls Portable Power Banks and Wireless Charging Stands Due to Fire and Burn Risks",
+      "ConsumerContact": "For assistance, consumers can reach Belkin at 800-223-5546 from 9 a.m. to 9 p.m. ET, Monday through Friday, or visit http://www.belkin.com/MMA008recall and http://www.belkin.com/BPB002recall for more information. Additional details can be found on the Belkin website under 'Product Recalls.'",
+      "LastPublishDate": "2025-11-13T00:00:00",
+      "Products": [
+        {
+          "Name": "Wireless Charging Stand MMA008",
+          "NumberOfUnits": "About 83,500 (In addition, about 2,385 were sold in Canada)"
+        }
+      ],
+      "Inconjunctions": [
+        {
+          "URL": "https://recalls-rappels.canada.ca/en/alert-recall/belkin-boost-charge-usb-c-pd-power-bank-20k-recalled-due-fire-hazard"
+        },
+        {
+          "URL": "https://recalls-rappels.canada.ca/en/alert-recall/belkin-auto-tracking-stand-pro-recalled-due-fire-hazard"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/batteries-and-chargers/760bbd15dadb726086dfbfeb56f6736a.webp",
+          "Caption": "Recalled MMA008 Portable Wireless Charging Stand",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/belkin-01.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/batteries-and-chargers/654eff1f2a01141822602d6126a63d35.webp",
+          "Caption": "Location of model number on the recalled MMA008 Portable Wireless Charging Stand (in red box)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/belkin-02.png"
+        },
+        {
+          "URL": "/images/generalRecalls/batteries-and-chargers/77af55d29a42b113de05324358212496.webp",
+          "Caption": "Recalled BPB002 Portable Power Bank",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/belkin-03.png"
+        },
+        {
+          "URL": "/images/generalRecalls/batteries-and-chargers/09939b85cd8e157e602e265167f5a5d5.webp",
+          "Caption": "Location of model number on the recalled BPB002 Portable Power Bank (in red box)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/belkin-04.png"
+        },
+        {
+          "URL": "/images/generalRecalls/batteries-and-chargers/97e2c2d5028aee50c4bb5c8a86ce72e6.webp",
+          "Caption": "Recalled PB003 Portable Power Bank",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/belkin-05.jpg"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received one report of a fire incident in the U.S. (and 15 reports internationally). Two minor burn injuries and property damage totaling $37,765 have been reported outside of the U.S."
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "Belkin International Inc., of El Segundo, California"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Best Buy, Target, Walmart and other stores nationwide and online at Belkin.com, Amazon.com and on Tiktok from August 2020 through August 2025 for between $29 and $180."
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "Vietnam (MMA008)"
+        },
+        {
+          "Country": "China (BPB002 and PB0003)"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Fire and burn hazards from overheating lithium-ion batteries"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Stop using the recalled products and contact Belkin for a full refund or store credit. Submit photos of the product with your recall form. Refunds are available with or without a receipt, and proper disposal instructions for lithium-ion batteries must be followed."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "MMA008",
+        "BPB002",
+        "PB0003"
+      ],
+      "seo": {
+        "slug": "belkin-recalls-portable-power-banks-and-wireless-charging-stands-due-to-fire-and-burn-risks-recall",
+        "canonicalUrl": "https://www.recallsatlas.com/general-recalls/belkin-recalls-portable-power-banks-and-wireless-charging-stands-due-to-fire-and-burn-risks-recall",
+        "metaDescription": "Belkin recalls portable power banks and charging stands due to fire hazards. Learn how to get a refund and safe disposal instructions.",
+        "ogTitle": "Belkin Recalls Portable Power Banks and Wireless Charging Stands Due to Fire and Burn Risks",
+        "ogDescription": "Belkin recalls portable power banks and charging stands due to fire hazards. Learn how to get a refund and safe disposal instructions.",
+        "ogImage": "https://www.recallsatlas.com/images/generalRecalls/batteries-and-chargers/760bbd15dadb726086dfbfeb56f6736a.webp",
+        "ogUrl": "https://www.recallsatlas.com/general-recalls/belkin-recalls-portable-power-banks-and-wireless-charging-stands-due-to-fire-and-burn-risks-recall",
+        "ogType": "article",
+        "twitterCard": "summary_large_image",
+        "twitterTitle": "Belkin Recalls Portable Power Banks and Wireless Charging Stands Due to Fire and Burn Risks",
+        "twitterDescription": "Belkin recalls portable power banks and charging stands due to fire hazards. Learn how to get a refund and safe disposal instructions.",
+        "twitterImage": "https://www.recallsatlas.com/images/generalRecalls/batteries-and-chargers/760bbd15dadb726086dfbfeb56f6736a.webp"
+      }
+    },
+    {
+      "RecallID": 10483,
+      "RecallNumber": "26089",
+      "RecallDate": "2025-11-13T00:00:00",
+      "Description": "Great Lakes Wholesale International is recalling specific battery packs due to safety concerns related to battery ingestion. The affected products are labeled with \"Great Lakes Select\" on the back and include various item numbers and battery types. These packs pose a risk as they lack child-resistant packaging and necessary warning labels, making them dangerous for children. Ingesting these batteries can lead to severe injuries, including internal burns and even fatalities.",
+      "URL": "https://www.cpsc.gov/Recalls/2026/Great-Lakes-Wholesale-International-Recalls-Select-Battery-Packs-Due-to-Battery-Ingestion-Violates-Federal-Statute-for-Child-Resistant-Packaging-of-Button-Cell-and-Coin-Batteries",
+      "Title": "Great Lakes Wholesale International Recalls Select Battery Packs Due to Ingestion Hazard",
+      "ConsumerContact": "Consumers should immediately stop using the recalled Great Lakes Select Battery Packs and keep them out of children's reach. For more information and to request a full refund, contact Great Lakes Wholesale International at 708-597-6000 from 8 a.m. to 4 p.m. CT Monday through Friday, or email Recall@Glwholesale.com. Additional details can be found at www.glwholesale.com under the \"Recall\" section.",
+      "LastPublishDate": "2025-11-13T00:00:00",
+      "Products": [
+        {
+          "Name": "Great Lakes Select Battery Pack CR2032",
+          "NumberOfUnits": "About 32,600"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/batteries-and-chargers/2fdfd00c60f43f201ddd64b7dd64dd56.webp",
+          "Caption": "Recalled CR2032 Lithium Coin Batteries, Item 00263",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Lit-Coin-1.png"
+        },
+        {
+          "URL": "/images/generalRecalls/batteries-and-chargers/523f446159cbd7f04976909eea290d62.webp",
+          "Caption": "Recalled CR2016/ CR2032/ CR2025 Lithium Coin Batteries, Item 00264",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Lit-Coin-2.png"
+        },
+        {
+          "URL": "/images/generalRecalls/batteries-and-chargers/b2cce3414395c08850420895d6da47a2.webp",
+          "Caption": "Recalled CR2032 Lithium Coin Batteries, Item 00265",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Lit-Coin-3.png"
+        },
+        {
+          "URL": "/images/generalRecalls/batteries-and-chargers/00d0b7bc3b1040a662d490ae41be0d9b.webp",
+          "Caption": "Recalled Mixed Button Cell Batteries, Item 00271",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Lit-Coin-4.png"
+        },
+        {
+          "URL": "/images/generalRecalls/batteries-and-chargers/056a669832dca48c0c0cccd734c6c5ff.webp",
+          "Caption": "Recalled Mixed Super Alkaline Button Cell Batteries, Item 00272",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Lit-Coin-5.png"
+        },
+        {
+          "URL": "/images/generalRecalls/batteries-and-chargers/ad94c45bbc686471faf91c8ceef6b860.webp",
+          "Caption": "Recalled LR44 Button Cell Batteries, Item 00276",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Lit-Coin-6.jpg"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Downeast Wholesalers Renys, International Wholesale, Lots & More, Northwoods Wholesale Outlet, a Ben Franklin store in Tennessee, and other stores nationwide from September 2024 through August 2025 for between $0.65 and $2.25."
+        }
+      ],
+      "Distributors": [
+        {
+          "Name": "Great Lakes Wholesale International of Lockport, Illinois"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of serious injuries from battery ingestion due to lack of child-resistant packaging and warning labels."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Stop using the battery packs, keep them away from children, and contact Great Lakes Wholesale International for a refund. Dispose of batteries following local hazardous waste guidelines."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "seo": {
+        "slug": "great-lakes-wholesale-international-recalls-select-battery-packs-due-to-ingestion-hazard-recall",
+        "canonicalUrl": "https://www.recallsatlas.com/general-recalls/great-lakes-wholesale-international-recalls-select-battery-packs-due-to-ingestion-hazard-recall",
+        "metaDescription": "Great Lakes Wholesale recalls battery packs due to ingestion hazards. Immediate action required for consumer safety. Contact for refunds.",
+        "ogTitle": "Great Lakes Wholesale International Recalls Select Battery Packs Due to Ingestion Hazard",
+        "ogDescription": "Great Lakes Wholesale recalls battery packs due to ingestion hazards. Immediate action required for consumer safety. Contact for refunds.",
+        "ogImage": "https://www.recallsatlas.com/images/generalRecalls/batteries-and-chargers/2fdfd00c60f43f201ddd64b7dd64dd56.webp",
+        "ogUrl": "https://www.recallsatlas.com/general-recalls/great-lakes-wholesale-international-recalls-select-battery-packs-due-to-ingestion-hazard-recall",
+        "ogType": "article",
+        "twitterCard": "summary_large_image",
+        "twitterTitle": "Great Lakes Wholesale International Recalls Select Battery Packs Due to Ingestion Hazard",
+        "twitterDescription": "Great Lakes Wholesale recalls battery packs due to ingestion hazards. Immediate action required for consumer safety. Contact for refunds.",
+        "twitterImage": "https://www.recallsatlas.com/images/generalRecalls/batteries-and-chargers/2fdfd00c60f43f201ddd64b7dd64dd56.webp"
+      }
+    },
+    {
+      "RecallID": 10425,
+      "RecallNumber": "26011",
+      "RecallDate": "2025-10-09T00:00:00",
+      "Description": "The recall now includes additional ESR HaloLock wireless power banks, specifically model 2G505, alongside previously recalled models 2G520, 2G505B, and 2G512B. These pocket-sized power banks feature the brand name \"ESR\" on the back and model numbers on the right side. Model 2G505 is available in black and white, while the other models come in various colors including dark blue, light blue, gray, white, and black. All recalled units have five circular LED lights on one side.\n\nConsumers should be aware that the lithium-ion batteries in these power banks can overheat and pose serious fire and burn risks. Immediate action is necessary for safety.",
+      "URL": "https://www.cpsc.gov/Recalls/2026/ESR-HaloLock-Wireless-Power-Banks-Recall-Expanded-to-Include-Additional-Model-Due-to-Fire-and-Burn-Hazards-Distributed-by-Waymeet",
+      "Title": "Expanded Recall of ESR HaloLock Wireless Power Banks Due to Fire and Burn Hazards",
+      "ConsumerContact": "For assistance, contact Waymeet at 888-990-0280 from 9 a.m. to 5 p.m. PT, Monday through Friday, email support@esrtech.com, or visit https://www.esrtech.com/pages/recall or www.esrtech.com and select \"Product Recalls\" at the top of the page.",
+      "LastPublishDate": "2025-10-09T00:00:00",
+      "Products": [
+        {
+          "Name": "ESR HaloLock Wireless Power Bank Model 2G505",
+          "NumberOfUnits": "About 19,500 (In addition, about 2,015 were sold in Canada). Waymeet previously recalled 24,000 power banks on August 14, 2025 (In addition, 9,900 were sold in Canada that were covered in the August recall)"
+        }
+      ],
+      "Inconjunctions": [
+        {
+          "URL": "https://recalls-rappels.canada.ca/en/alert-recall/expanded-recall-esr-halolock-wireless-power-bank-recalled-due-fire-hazard"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/batteries-and-chargers/5b025223b94b1fc502750597baabde73.webp",
+          "Caption": "Recalled ESR HaloLock Kickstand Wireless Power Bank Model 2G505",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/halolock-1.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/batteries-and-chargers/218a08d9a2b9fcfc5b21cd7abbaed99a.webp",
+          "Caption": "Recalled ESR HaloLock Kickstand Wireless Power Bank Model 2G520",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/halolock-2.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/batteries-and-chargers/f3a7946979945a43851d55dcf8a735b8.webp",
+          "Caption": "Recalled ESR HaloLock Kickstand Wireless Power Bank Model 2G505B",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/halolock-3.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/batteries-and-chargers/bba27d51dbdf033ab7bab0f2c4cc68e2.webp",
+          "Caption": "Recalled ESR HaloLock Wireless Power Bank Model 2G512B",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/halolock-4.jpg"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received 20 reports of the lithium-ion battery catching fire and exploding, resulting in property damage of about $30,000. No injuries have been reported."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Amazon.com (all models), Esrtech.com (all models) and Homedepot.com (models 2G520, 2G505B and 2G512B only), from September 2022 through July 2025 for between $32 and $50."
+        }
+      ],
+      "Distributors": [
+        {
+          "Name": "Waymeet Limited, of Hong Kong"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Fire and burn hazards due to overheating lithium-ion batteries"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Stop using the recalled power banks and contact Waymeet for a full refund. Send a photo of the recalled power bank with the model number marked as \"Recalled\" to support@esrtech.com. Dispose of the power banks according to local hazardous waste regulations."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "Model 2G505",
+        "Model 2G520",
+        "Model 2G505B",
+        "Model 2G512B"
+      ],
+      "seo": {
+        "slug": "expanded-recall-of-esr-halolock-wireless-power-banks-due-to-fire-and-burn-hazards-recall",
+        "canonicalUrl": "https://www.recallsatlas.com/general-recalls/expanded-recall-of-esr-halolock-wireless-power-banks-due-to-fire-and-burn-hazards-recall",
+        "metaDescription": "Important recall notice for ESR HaloLock power banks due to fire hazards. Immediate action required for safety.",
+        "ogTitle": "Expanded Recall of ESR HaloLock Wireless Power Banks Due to Fire and Burn Hazards",
+        "ogDescription": "Important recall notice for ESR HaloLock power banks due to fire hazards. Immediate action required for safety.",
+        "ogImage": "https://www.recallsatlas.com/images/generalRecalls/batteries-and-chargers/5b025223b94b1fc502750597baabde73.webp",
+        "ogUrl": "https://www.recallsatlas.com/general-recalls/expanded-recall-of-esr-halolock-wireless-power-banks-due-to-fire-and-burn-hazards-recall",
+        "ogType": "article",
+        "twitterCard": "summary_large_image",
+        "twitterTitle": "Expanded Recall of ESR HaloLock Wireless Power Banks Due to Fire and Burn Hazards",
+        "twitterDescription": "Important recall notice for ESR HaloLock power banks due to fire hazards. Immediate action required for safety.",
+        "twitterImage": "https://www.recallsatlas.com/images/generalRecalls/batteries-and-chargers/5b025223b94b1fc502750597baabde73.webp"
+      }
+    }
+  ]
+}
