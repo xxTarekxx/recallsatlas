@@ -1,0 +1,167 @@
+{
+  "meta": {
+    "slug": "fans",
+    "sourceCsvFile": "fans_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:36.911Z",
+    "recallCount": 2,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "fans.json",
+    "seoTranslatedAt": "2026-04-04T01:34:33.029Z",
+    "resumePartial": false
+  },
+  "recalls": [
+    {
+      "RecallID": 10394,
+      "RecallNumber": "25451",
+      "RecallDate": "2025-08-28T00:00:00",
+      "Description": "A recall has been issued for electric motors used in gable and roof-mounted attic fans, sold between August 2003 and December 2013. The affected models include DOW-136-0-34-XIN, DOW-136-0-26-XIN, DOW-136-0-40-XIN, DOW-136-0-40-XIN-3/4\", and D-RE-PSC-127/20-4P1SP. These motors can be recognized by their unique vent pattern on the motor end bells, which is a key identifier for the recall.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/Electric-Motors-for-Gable-and-Roof-Mounted-Attic-Fans-Recalled-Due-to-Fire-Hazard-Distributed-by-Air-Vent",
+      "Title": "Recall of Electric Motors for Attic Fans Due to Fire Risk",
+      "ConsumerContact": "For assistance, contact Air Vent at 877-247-4878 from 8 a.m. to 5 p.m. ET, Monday through Friday, or visit https://powermaxmotorrecall.expertinquiry.com or https://gibraltarbuildingproducts.com/ventilation-category/ and select 'Important Safety Information' for further details.",
+      "LastPublishDate": "2025-08-29T00:00:00",
+      "Products": [
+        {
+          "Name": "Electric Motors for Attic Fans",
+          "NumberOfUnits": "About 2.9 million"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/fans/1-Electric-Motors-for-Attic-Fans/256b4ab17c264105196baad73efca387.webp",
+          "Caption": "Sample Roof-Mounted Attic Fan with Recalled Electric Motor",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/fan01.png"
+        },
+        {
+          "URL": "/images/generalRecalls/fans/1-Electric-Motors-for-Attic-Fans/5b18c80b0ebb24bf0905d6395e50f257.webp",
+          "Caption": "Sample Gable-Mounted Attic Fan with Recalled Electric Motor",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/fan02.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/fans/1-Electric-Motors-for-Attic-Fans/ff840d8d3a081c2fda14bfc8b54dba15.webp",
+          "Caption": "Recalled Electric Motor Vent Patterns and Unaffected Motor Vent Patterns (Recalled electric motor vents (depicted on the left) align on the outer ring of the motor end bell, as highlighted in yellow. Recalled electric motor vents use an alternating pattern of two long vents then two short vents. Unaffected motor vents (depicted on the right) align on the inner ring of the motor end bell, as highlighted in yellow. Unaffected motor vents use an alternating vent pattern of one long, then one short vent)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/fan03.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received 159 reports of incidents related to the recalled attic fan motors involving burning or fire. No injuries have been reported."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available at various retailers nationwide, including ABC Supply, Lowe's, and Beacon, both in-store and online from August 2003 to December 2013, priced between $74 and $92."
+        }
+      ],
+      "Distributors": [
+        {
+          "Name": "Air Vent Inc., of Dallas, Texas"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Potential short circuit and fire hazard due to safety cutoff failure"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Stop using the motors and contact Air Vent for a refund after verifying the recall"
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "DOW-136-0-34-XIN",
+        "DOW-136-0-26-XIN",
+        "DOW-136-0-40-XIN",
+        "DOW-136-0-40-XIN-3/4\"",
+        "D-RE-PSC-127/20-4P1SP"
+      ],
+      "slug": "recall-of-electric-motors-for-attic-fans-due-to-fire-risk-recall",
+      "metaDescription": "Electric motors for attic fans recalled due to fire hazards. Contact Air Vent for refunds and safety information."
+    },
+    {
+      "RecallID": 9831,
+      "RecallNumber": "24094",
+      "RecallDate": "2024-01-25T00:00:00",
+      "Description": "Visual Comfort & Co. is recalling its Maverick Coastal 60-inch outdoor ceiling fans due to a potential safety hazard. These fans, featuring three blades, were available in both white and black finishes. The model number 3MGMR60XXX can be found on a white label on the top of the fan motor. Consumers should be aware that the fan blades may crack or break, leading to an impact injury risk.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/Visual-Comfort-Co.-Recalls-Maverick-Coastal-Outdoor-Ceiling-Fans-Due-to-Impact-Injury-Hazard",
+      "Title": "Visual Comfort & Co. Recalls Maverick Coastal Outdoor Ceiling Fans Due to Injury Risk",
+      "ConsumerContact": "For assistance, consumers can reach Visual Comfort at 888-475-1136 from 9 a.m. to 5 p.m. CT, Monday through Friday. Alternatively, they can email techlightingcs@visualcomfortco.com or visit www.visualcomfort.com/recall for further details.",
+      "LastPublishDate": "2024-01-25T00:00:00",
+      "Products": [
+        {
+          "Name": "Maverick Coastal 60-inch Outdoor Ceiling Fan",
+          "NumberOfUnits": "About 6,400 (In addition, about 200 were sold in Canada)"
+        }
+      ],
+      "Inconjunctions": [
+        {
+          "URL": "https://recalls-rappels.canada.ca/en/alert-recall/maverick-coastal-60-inch-outdoor-ceiling-fan-recalled-due-impact-hazard"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/fans/2-Maverick-Coastal-60-inch-Outdoor-Ceiling-Fan/cb1b95eb094e81d6786574e825eb0c07.webp",
+          "Caption": "Recalled Maverick Coastal Outdoor Fan in Black",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/blk-coastal.png"
+        },
+        {
+          "URL": "/images/generalRecalls/fans/2-Maverick-Coastal-60-inch-Outdoor-Ceiling-Fan/daf875cff91d794f1d6e5b54f55c6c88.webp",
+          "Caption": "Recalled Maverick Coastal Outdoor Fan in White",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/wht-coastal.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received nine reports of fan blades cracking or breaking. No injuries or property damage have been reported."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Home Depot, Circa Lighting, and various other retailers, as well as online at Amazon.com, Build.com, Wayfair.com, and more"
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Visual Comfort & Co., of Skokie, Illinois"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "Taiwan"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Blade cracking or breaking, posing an impact injury risk"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Free replacement blades and installation assistance from a certified electrician"
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "3MGMR60XXX"
+      ],
+      "slug": "visual-comfort-co-recalls-maverick-coastal-outdoor-ceiling-fans-due-to-injury-risk-recall",
+      "metaDescription": "Visual Comfort recalls Maverick Coastal outdoor ceiling fans due to injury risks. Stop using and contact for free replacement blades."
+    }
+  ]
+}

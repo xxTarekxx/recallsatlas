@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "slug": "food-grinders",
+    "sourceCsvFile": "food-grinders_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:36.917Z",
+    "recallCount": 1,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "food-grinders.json",
+    "seoTranslatedAt": "2026-04-04T01:46:59.615Z",
+    "resumePartial": false
+  },
+  "recalls": [
+    {
+      "RecallID": 9907,
+      "RecallNumber": "24178",
+      "RecallDate": "2024-04-04T00:00:00",
+      "Description": "Walmart is recalling the Mainstays Electric Mini Choppers, model number MS14100094536S1, due to a potential laceration hazard. These rechargeable, cordless choppers feature a green lid, white body, and a clear plastic bowl, equipped with a blade attachment that has three curved blades on a white plastic spindle. The model number is located on a label at the bottom of the bowl.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/Walmart-Recalls-Mainstays-Electric-Mini-Choppers-Due-to-Laceration-Hazard-Sold-Exclusively-at-Walmart",
+      "Title": "Walmart Issues Recall for Mainstays Electric Mini Choppers Due to Laceration Risk",
+      "ConsumerContact": "For assistance, contact Walmart at 800-925-6278 from 7 a.m. to 9 p.m. CT daily, or visit https://corporate.walmart.com/recalls for further details.",
+      "LastPublishDate": "2024-04-04T00:00:00",
+      "Products": [
+        {
+          "Name": "Mainstays Electric Mini Chopper",
+          "NumberOfUnits": "About 51,750"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/food-grinders/1-Mainstays-Electric-Mini-Chopper/d475fab6e3b48ad1f9458ca09faf0595.webp",
+          "Caption": "Recalled Mainstays Electric Mini Chopper container with blade and lid",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/chopper-blade-lid.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/food-grinders/1-Mainstays-Electric-Mini-Chopper/99d5a907bdc8ae7fb1a04bf88afd5aed.webp",
+          "Caption": "Recalled Mainstays Electric Mini Chopper assembled",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/chopper-assembled-1.png"
+        },
+        {
+          "URL": "/images/generalRecalls/food-grinders/1-Mainstays-Electric-Mini-Chopper/d5119c61da2bd07b80dce8079e46d7ec.webp",
+          "Caption": "Recalled Mainstays Electric Mini Chopper assembled",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/chopper-assembled-2.jpg"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "Walmart has received five reports of lacerations, two of which required medical attention, including stitches. Injuries occurred during assembly of the product or during cleaning/handling of the product."
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "Shuangma Plastic Manufacturing Inc., of China"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available at Walmart locations across the U.S. and online at Walmart.com from August 2022 to October 2023, priced between $10 and $15."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Walmart Stores Inc., of Bentonville, Arkansas"
+        }
+      ],
+      "SoldAtLabel": "Sold Exclusively At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Unexpected blade operation during assembly or when not enclosed, leading to a laceration risk."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Stop using the recalled choppers immediately and contact Walmart for a full refund. Return the chopper to any Walmart store for a refund."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "MS14100094536S1"
+      ],
+      "slug": "walmart-issues-recall-for-mainstays-electric-mini-choppers-due-to-laceration-risk-recall",
+      "metaDescription": "Walmart recalls Mainstays Electric Mini Choppers due to laceration risks. Stop using and contact Walmart for a refund."
+    }
+  ]
+}

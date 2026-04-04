@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "slug": "blankets",
+    "sourceCsvFile": "blankets_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:36.851Z",
+    "recallCount": 1,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "blankets.json",
+    "seoTranslatedAt": "2026-04-03T22:11:44.889Z",
+    "resumePartial": false
+  },
+  "recalls": [
+    {
+      "RecallID": 9919,
+      "RecallNumber": "24193",
+      "RecallDate": "2024-04-11T00:00:00",
+      "Description": "Red Land Cotton is recalling their quilts and quilted shams due to a potential laceration hazard. The Classic quilts are available in various colors including white, natural, ticking stripe, blue, and gray, and come in twin, full/queen, and king/California king sizes. The Classic quilted euro shams are offered in white, natural, and ticking stripe, while king and standard shams are available in white, natural, blue, gray, and ticking stripe. Baby quilts are also included in this recall, featuring white, natural, and charcoal ticking print designs.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/Red-Land-Cotton-Recalls-Quilts-and-Shams-Due-to-Laceration-Hazard",
+      "Title": "Red Land Cotton Recalls Quilts and Shams Due to Laceration Risk",
+      "ConsumerContact": "For assistance, contact Red Land Cotton toll-free at 877-478-3467 from 10 a.m. to 5 p.m. CT, Monday through Friday. You can also reach their customer service via email at info@redlandcotton.com or visit www.redlandcotton.com/pages/voluntary-quilt-recall for more information.",
+      "LastPublishDate": "2024-04-11T00:00:00",
+      "Products": [
+        {
+          "Name": "Red Land Cotton Quilts",
+          "NumberOfUnits": "About 17,400"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/blankets/1-Red-Land-Cotton-Quilts/9eae0d27a9290e45c81af8643eb45b03.webp",
+          "Caption": "Recalled \"Bankhead Basic Classic Quilt\" white",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/bankhead-basic.png"
+        },
+        {
+          "URL": "/images/generalRecalls/blankets/1-Red-Land-Cotton-Quilts/cca579070001ef47bdfd39fcb3ced9c6.webp",
+          "Caption": "Recalled \"Euro Sham\" natural",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/euro-sham.png"
+        },
+        {
+          "URL": "/images/generalRecalls/blankets/1-Red-Land-Cotton-Quilts/5c8bb1ec5b21b0dd94c0256b52311766.webp",
+          "Caption": "Recalled \"Ticking Stripe Classic Quilt\"",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/ticking-stripe.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received three reports of consumers being jabbed by a sharp metal needle from the product, including one breaking the skin on a consumer's hand."
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "Red Land Cotton, Moulton, Alabama"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available on Amazon.com from October 2018 through December 2023, priced around $15."
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "United States"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Laceration hazard from broken needle pieces"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Replacement product or store credit/refund"
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        },
+        {
+          "Option": "Replace"
+        }
+      ],
+      "slug": "red-land-cotton-recalls-quilts-and-shams-due-to-laceration-risk-recall",
+      "metaDescription": "Red Land Cotton recalls quilts and shams due to laceration hazards. Stop using and contact for replacements or refunds."
+    }
+  ]
+}

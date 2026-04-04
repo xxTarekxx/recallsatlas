@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import { getDb } from "@/lib/mongodb";
-import { getShortProductName } from "@/lib/recall-utils";
 import RecallDetail from "@/components/fda/RecallDetail";
+import { buildFdaRecallMetadata } from "@/lib/fdaRecallSeo";
 
 interface PageProps {
   params: Promise<{ lang: string; slug: string }>;
@@ -45,19 +45,7 @@ export async function generateMetadata({ params }: PageProps) {
     return { title: "Recall not found – Recalls Atlas" };
   }
 
-  const product = recall.productDescription || "Product";
-  const brand = recall.brandName || "Unknown brand";
-  const year =
-    typeof recall.report_date === "string" ? recall.report_date.slice(0, 4) : "";
-  const shortProduct = getShortProductName(product);
-  const title = `${shortProduct} Recall (${year}) – FDA Safety Alert`;
-  const description = `FDA recall alert for ${shortProduct} manufactured by ${brand}. See reason, risk and affected batches.`;
-
-  return {
-    title,
-    description,
-    alternates: { canonical: `https://www.recallsatlas.com/${lang}/recalls/${slug}` },
-  };
+  return buildFdaRecallMetadata(recall as Record<string, unknown>, slug, lang);
 }
 
 export default async function RecallDetailLangPage({ params }: PageProps) {

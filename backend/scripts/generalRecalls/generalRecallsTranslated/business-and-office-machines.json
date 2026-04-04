@@ -1,0 +1,147 @@
+{
+  "meta": {
+    "slug": "business-and-office-machines",
+    "sourceCsvFile": "business-and-office-machines_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:36.858Z",
+    "recallCount": 2,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "business-and-office-machines.json",
+    "seoTranslatedAt": "2026-04-03T22:22:43.894Z",
+    "resumePartial": false
+  },
+  "recalls": [
+    {
+      "RecallID": 10451,
+      "RecallNumber": "26050",
+      "RecallDate": "2025-10-23T00:00:00",
+      "Description": "3M Company has announced a recall for the Scotch™ Thermal Laminator, model TL909-50, which is light gray with gray accents. The laminator features a 9-inch wide laminating slot, and the model and serial numbers can be found on a sticker located on the bottom. Only units with serial numbers ranging from 2406000001 to 2501001920 are affected by this recall.",
+      "URL": "https://www.cpsc.gov/Recalls/2026/3M-Company-Recalls-Thermal-Laminators-Due-to-Overheating",
+      "Title": "3M Company Issues Recall for Scotch™ TL909-50 Thermal Laminators Due to Overheating Risk",
+      "ConsumerContact": "For assistance, contact 3M Company at 800-772-4337, available Monday through Friday from 8 a.m. to 4:30 p.m. CT. You can also reach out via email through the \"Contact Us\" link on the Scotch Brand Website at https://www.scotchbrand.com/3M/en_US/scotch-brand/contact-us/ or visit https://www.scotchbrand.com/laminatorrecallTL909-50/ for more details.",
+      "LastPublishDate": "2025-10-23T00:00:00",
+      "Products": [
+        {
+          "Name": "Scotch™ TL909-50 Thermal Laminator",
+          "NumberOfUnits": "About 13,440"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/business-and-office-machines/1-Scotch-TL909-50-Thermal-Laminator/4d5393957930a34ff32584861de330f7.webp",
+          "Caption": "Recalled Scotch™ brand TL909-50 thermal laminator",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/laminator-1.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "No incidents or injuries have been reported."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available in-store and online at Office Depot, Office Smart, and School Specialty, Inc. from August 2024 through September 2025, priced between $100 and $130."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "3M Company, of St. Paul, Minnesota"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "Vietnam"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of overheating that may lead to burns."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers must stop using the laminators immediately, unplug them, and contact 3M Company for a full refund. A short form must be completed, confirming the laminator's inclusion in the recall, and a photo of the unplugged machine with the cut power cord must be uploaded. Refunds will be issued via check once the form is processed and the power cord confirmation is received."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "slug": "3m-company-issues-recall-for-scotch-tl909-50-thermal-laminators-due-to-overheating-risk-recall",
+      "metaDescription": "3M recalls Scotch™ TL909-50 Thermal Laminators due to overheating hazards. Contact 3M for refunds and safety details."
+    },
+    {
+      "RecallID": 10125,
+      "RecallNumber": "25090",
+      "RecallDate": "2025-01-16T00:00:00",
+      "Description": "Lexmark is recalling its specialty printers, specifically the MS725dvn and MX725adve models, which are designed for printing on various materials including paper and vinyl. These printers are identifiable by their model numbers located on the top cover and door. The MX725dvn model features a large multifunction sorter on top, and both models have a white front with black sides and top, prominently displaying the Lexmark logo.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/Lexmark-International-Recalls-Specialty-Printers-Due-to-Fire-Hazard",
+      "Title": "Lexmark Recalls Specialty Printers Due to Fire Risk",
+      "ConsumerContact": "For assistance, consumers can reach Lexmark at 866-470-1574 from 9 a.m. to 9 p.m. ET, Monday through Friday. You can also email them at safety@lexmark.com or visit http://www.lexmark.com/recall for more details.",
+      "LastPublishDate": "2025-01-16T00:00:00",
+      "Products": [
+        {
+          "Name": "Lexmark MS725dvn Specialty Printer",
+          "NumberOfUnits": "About 43,510 (In addition, about 4,000 were sold in Canada)"
+        }
+      ],
+      "Inconjunctions": [
+        {
+          "URL": "https://recalls-rappels.canada.ca/en/alert-recall/lexmark-specialty-printers-recalled-due-fire-hazard"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/business-and-office-machines/2-Lexmark-MS725dvn-Specialty-Printer/baa5b26150b8ece74d8e264269e50b5b.webp",
+          "Caption": "Recalled MS725dvn Specialty Printer",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Lexmark-1.png"
+        },
+        {
+          "URL": "/images/generalRecalls/business-and-office-machines/2-Lexmark-MS725dvn-Specialty-Printer/c565f2702b5b019d7696b33148df29ad.webp",
+          "Caption": "Recalled MX725adve Specialty Printer",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Lexmark-2.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received two reports of the printers overheating including one reported fire. No damage or injuries have been reported."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available online at lexmark.com, CDW Logistics, Tech Data Product Management Inc., and Insight Direct USA Inc. from June 2018 to November 2024, priced between $1,000 and $4,200."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Lexmark International Inc., of Lexington, Kentucky"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Potential fire hazard due to dislodging metal part inside the printer"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should cease using the printers and contact Lexmark for a free repair part that installs easily inside the rear access panel."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ],
+      "slug": "lexmark-recalls-specialty-printers-due-to-fire-risk-recall",
+      "metaDescription": "Lexmark recalls specialty printers due to a fire hazard. Contact Lexmark for a free repair part and stop using the affected models immediately."
+    }
+  ]
+}

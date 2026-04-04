@@ -1,0 +1,121 @@
+{
+  "meta": {
+    "slug": "electric-grills",
+    "sourceCsvFile": "electric-grills_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:36.901Z",
+    "recallCount": 1,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "electric-grills.json",
+    "seoTranslatedAt": "2026-04-04T00:57:59.038Z",
+    "resumePartial": false
+  },
+  "recalls": [
+    {
+      "RecallID": 9851,
+      "RecallNumber": "24116",
+      "RecallDate": "2024-02-15T00:00:00",
+      "Description": "Char-Broil is recalling several models of its digital electric smokers due to a potential risk of electric shock. The affected models include the Digital Electric Smoker, Digital Electric Smoker with Window, Digital Electric Smoker in Black with Window, Digital Electric Smoker Medallion, Digital Electric Smoker Connected, and Digital Electric Smoker XL. These smokers, designed exclusively for outdoor cooking without charcoal, are available in black and stainless-steel finishes and feature the Char-Broil logo on the front. The product label, which includes model and serial numbers, can be found on the back of the unit.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/Char-Broil-Recalls-Digital-Electric-Smokers-Due-to-Risk-of-Electric-Shock",
+      "Title": "Char-Broil Digital Electric Smokers Recalled Due to Electric Shock Hazard",
+      "ConsumerContact": "For assistance, consumers should contact Char-Broil at 833-206-4647 from 9 a.m. to 7 p.m. ET, Monday through Saturday, or email recall@charbroil.com. More information is available on their website at www.charbroil.com under the 'Product Recalls' section or directly at www.charbroil.com/recalls.",
+      "LastPublishDate": "2024-02-15T00:00:00",
+      "Products": [
+        {
+          "Name": "Digital Electric Smoker",
+          "NumberOfUnits": "About 211,700 (In addition, 3,440 were sold in Canada)"
+        }
+      ],
+      "Inconjunctions": [
+        {
+          "URL": "https://recalls-rappels.canada.ca/en/alert-recall/char-broil-digital-electric-smokers-recalled-due-potential-electric-shock-hazard"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/electric-grills/1-Digital-Electric-Smoker/fdf5c095615dac4fabd39447709dc708.webp",
+          "Caption": "Recalled Char-Broil Digital Electric Smoker",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Elec-smoker.png"
+        },
+        {
+          "URL": "/images/generalRecalls/electric-grills/1-Digital-Electric-Smoker/74ec617fd9a14ae723787adda56c0db4.webp",
+          "Caption": "Recalled Char-Broil Digital Electric Smoker w/Window",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/smokerw-window.png"
+        },
+        {
+          "URL": "/images/generalRecalls/electric-grills/1-Digital-Electric-Smoker/25c3e5d2f39df544ccf67126101568c0.webp",
+          "Caption": "Recalled Char-Broil Digital Electric Smoker, Black w/Window",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/blacw-window.png"
+        },
+        {
+          "URL": "/images/generalRecalls/electric-grills/1-Digital-Electric-Smoker/3a64aabae539ee006c8bd0c288cac893.webp",
+          "Caption": "Recalled Char-Broil Digital Electric Smoker, XL",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/digitalXLsmoker.png"
+        },
+        {
+          "URL": "/images/generalRecalls/electric-grills/1-Digital-Electric-Smoker/5660c1cd2e40ac81a3ab16266f28944a.webp",
+          "Caption": "Recalled Char-Broil Digital Electric Smoker, Medallion",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/medallionsmoker.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "Char-Broil received 79 reports of consumers who experienced a minor electric shock from touching the smokers while in use, including one report of a consumer developing a finger blister after the shock."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Lowe's"
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Char-Broil LLC, of Columbus, Georgia"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "ProductUPCs": [
+        {
+          "UPC": "047362324665"
+        },
+        {
+          "UPC": "099143020020"
+        },
+        {
+          "UPC": "099143020044"
+        },
+        {
+          "UPC": "099143020051"
+        },
+        {
+          "UPC": "099143020433"
+        },
+        {
+          "UPC": "099143021010"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of electric shock due to potential electrical current leakage"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should cease using the recalled smokers and reach out to Char-Broil for a complimentary repair kit, which includes a Ground Fault Circuit Interrupter (GFCI) plug, a clamshell enclosure, and a cable clamp, along with installation instructions."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ],
+      "slug": "char-broil-digital-electric-smokers-recalled-due-to-electric-shock-hazard-recall",
+      "metaDescription": "Char-Broil recalls digital electric smokers due to electric shock risks. Contact for free repair kit and stop using immediately."
+    }
+  ]
+}

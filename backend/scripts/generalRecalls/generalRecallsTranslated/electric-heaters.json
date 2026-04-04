@@ -1,0 +1,496 @@
+{
+  "meta": {
+    "slug": "electric-heaters",
+    "sourceCsvFile": "electric-heaters_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:36.902Z",
+    "recallCount": 6,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "electric-heaters.json",
+    "seoTranslatedAt": "2026-04-04T01:01:08.345Z",
+    "resumePartial": false
+  },
+  "recalls": [
+    {
+      "RecallID": 10332,
+      "RecallNumber": "25369",
+      "RecallDate": "2025-07-03T00:00:00",
+      "Description": "Trane and American Standard have issued a recall for several models of their Gas/Electric Packaged Units due to a potential gas leak and fire hazard. The affected models include specific serial number ranges, which can be found on the back of the unit. The brand name is displayed prominently on the front of the units, making identification straightforward for consumers.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/Trane-Recalls-Gas-Electric-Packaged-Units-Due-to-Risk-of-Gas-Leak-Fire-Hazard",
+      "Title": "Trane and American Standard Gas/Electric Packaged Units Recalled Due to Gas Leak and Fire Risks",
+      "ConsumerContact": "Consumers should immediately cease using the heating function of the recalled units and reach out to their installation dealer for a complimentary inspection and repair. For assistance, contact Trane or American Standard at 800-889-0129, Monday through Friday, 8 a.m. to 6 p.m. ET, or visit https://www.trane.com/residential/gas-electric-packaged-unit-recall/ or https://www.americanstandardair.com/gas-electric-packaged-unit-recall/ for further details.",
+      "LastPublishDate": "2025-07-03T00:00:00",
+      "Products": [
+        {
+          "Name": "Trane Gas/Electric Packaged Unit",
+          "NumberOfUnits": "About 4,790"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/electric-heaters/1-Trane-Gas-Electric-Packaged-Unit/89fe4d611248aa3f2f9a1c9f09cacd5b.webp",
+          "Caption": "Recalled American Standard Gas/Electric Packaged Unit",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/trane-1.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/electric-heaters/1-Trane-Gas-Electric-Packaged-Unit/d782d5948c955bad9204053ea46b72d0.webp",
+          "Caption": "Recalled Trane Two-Stage Gas/Electric Packaged Unit",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/trane-2.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/electric-heaters/1-Trane-Gas-Electric-Packaged-Unit/ac3b23ec79cbcd7e5150fbef4f585e6a.webp",
+          "Caption": "Recalled Two-Stage Gas/Electric Packaged Unit",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/trane-3.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/electric-heaters/1-Trane-Gas-Electric-Packaged-Unit/68921d63d5a69e95a45afa70403a70c3.webp",
+          "Caption": "Model and serial number location",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/trane-4.jpg"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received one report of gas leaking from the recalled two-stage gas furnace/air conditioners. No injuries have been reported."
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "Trane U.S. Inc., of Davidson, North Carolina"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "HVAC distributors and dealers across the country, available from January 2024 to March 2025, priced between $8,250 and $12,900."
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "Mexico"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Unexpected gas valve opening leading to gas leaks and fire hazards"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Stop using the heating mode and contact the installation dealer for a free inspection and repair by replacing the ignition board."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "4YCZ5024F1060A",
+        "4YCZ5036F1070A",
+        "4YCZ5036F1090A",
+        "4YCZ5048E1090A",
+        "4YCZ5048E1115A",
+        "24061381FA - 24453189FA",
+        "24013024FA - 24482966FA",
+        "24061367FA - 24442702FA",
+        "24061326FA - 24492348FA",
+        "24106164FA - 24415095FA"
+      ],
+      "slug": "trane-and-american-standard-gas-electric-packaged-units-recalled-due-to-gas-leak-and-fire-risks-recall",
+      "metaDescription": "Trane and American Standard recall Gas/Electric Packaged Units due to gas leak and fire hazards. Immediate action required for safety."
+    },
+    {
+      "RecallID": 10128,
+      "RecallNumber": "25093",
+      "RecallDate": "2025-01-16T00:00:00",
+      "Description": "Vornado is recalling its VH2 Whole Room Heaters due to potential fire and electric shock hazards. This recall affects units marked with a \"JUL24\" or \"AUG24\" date code found on the silver rating label located on the underside of the heater. The heaters are off-white, feature thermostatic temperature control, and have both automatic and continuous fan operation with two heat settings. The front of the unit displays the \"Vornado\" logo with a red \"V\". Only heaters with the specified date codes are included in this recall.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/Vornado-Air-Recalls-VH2-Whole-Room-Heaters-Due-to-Electric-Shock-and-Fire-Hazards-Sold-Exclusively-on-Amazon-com",
+      "Title": "Vornado Recalls VH2 Whole Room Heaters Due to Fire and Electric Shock Risks",
+      "ConsumerContact": "Consumers should immediately stop using the recalled heaters and contact Vornado at 844-205-7978 from 8 a.m. to 5 p.m. CT Monday through Friday, or via email at vh2recall@vornado.com. More information is available online at www.vornado.com/recalls/vh2 or by visiting www.vornado.com and selecting \"Product Recalls\" at the top of the page to verify if their heater is affected.",
+      "LastPublishDate": "2025-01-16T00:00:00",
+      "Products": [
+        {
+          "Name": "Vornado VH2 Whole Room Heater",
+          "NumberOfUnits": "About 7,780"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/electric-heaters/2-Vornado-VH2-Whole-Room-Heater/31ce8b107d0b6e74440a6b6b4dbc0a7c.webp",
+          "Caption": "Recalled VH2Whole Room Heater",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Vornado-1.png"
+        },
+        {
+          "URL": "/images/generalRecalls/electric-heaters/2-Vornado-VH2-Whole-Room-Heater/537bdac8cdcb815a9752f0870066dab0.webp",
+          "Caption": "Silver rating label on the underside of the heater",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Vornado-2.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "Vornado Air LLC, of Andover, Kansas"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available online at Amazon.com from August 2024 through October 2024 for approximately $90"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "United States"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of electric shock and fire due to potential cord detachment"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should stop using the heaters and contact Vornado for a free replacement"
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Replace"
+        }
+      ],
+      "slug": "vornado-recalls-vh2-whole-room-heaters-due-to-fire-and-electric-shock-risks-recall",
+      "metaDescription": "Vornado recalls VH2 Whole Room Heaters due to fire and electric shock hazards. Check if your heater is affected and learn how to get a replacement."
+    },
+    {
+      "RecallID": 10086,
+      "RecallNumber": "25036",
+      "RecallDate": "2024-11-07T00:00:00",
+      "Description": "GoveeLife and Govee smart electric space heaters are being recalled due to potential fire and burn hazards. This recall affects models H7130 (including H7130101), H7131, H7132, H7133, H7134, and H7135. Each unit features the brand name 'GoveeLife' or 'Govee' on its front or side, and they are available in black and white, ranging in height from 9 to 26 inches depending on the specific model. The model number can be found on the manufacturer's label located on the bottom of the heater.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/GoveeLife-and-Govee-Smart-Electric-Space-Heaters-Recalled-Due-to-Fire-and-Burn-Hazards-Imported-by-Govee",
+      "Title": "GoveeLife and Govee Smart Electric Space Heaters Recalled for Fire and Burn Risks",
+      "ConsumerContact": "For assistance, consumers should contact GoveeLife or Govee at 833-772-5360 from 9 a.m. to 5 p.m. ET, Monday to Friday, or visit https://us.govee.com or www.goveelife.com and select 'Recall Information' at the top of the page. More details can be found at https://recall.goveelife.com/heater-recall.",
+      "LastPublishDate": "2024-11-07T00:00:00",
+      "Products": [
+        {
+          "Name": "GoveeLife Smart Electric Space Heater",
+          "NumberOfUnits": "About 512,500 (In addition, about 48,600 in Canada)"
+        }
+      ],
+      "Inconjunctions": [
+        {
+          "URL": "https://recalls-rappels.canada.ca/en/alert-recall/goveelife-and-govee-smart-electric-space-heaters-recalled-due-fire-hazard"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/electric-heaters/3-GoveeLife-Smart-Electric-Space-Heater/3d5123b53059450794cc8f4c66a938a2.webp",
+          "Caption": "Recalled Model H7130",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/space-1.png"
+        },
+        {
+          "URL": "/images/generalRecalls/electric-heaters/3-GoveeLife-Smart-Electric-Space-Heater/f1797eac04b865a3b1a29f0455a2b350.webp",
+          "Caption": "Recalled Model H7131",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/space-2.png"
+        },
+        {
+          "URL": "/images/generalRecalls/electric-heaters/3-GoveeLife-Smart-Electric-Space-Heater/b812528d432af0185885d2365b3efc10.webp",
+          "Caption": "Recalled Model H7132",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/space-3.png"
+        },
+        {
+          "URL": "/images/generalRecalls/electric-heaters/3-GoveeLife-Smart-Electric-Space-Heater/4626966ca8672dc39c44e5a062bdc04f.webp",
+          "Caption": "Recalled Model H7133",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/space-4.png"
+        },
+        {
+          "URL": "/images/generalRecalls/electric-heaters/3-GoveeLife-Smart-Electric-Space-Heater/a31f7cb575ca71bc0c4cadcbafb3d742.webp",
+          "Caption": "Recalled Model H7134",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/space-5.png"
+        },
+        {
+          "URL": "/images/generalRecalls/electric-heaters/3-GoveeLife-Smart-Electric-Space-Heater/5311f195fcf7d3a35871e3d1c13475cb.webp",
+          "Caption": "Recalled Model H7135",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/space-6.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firms have received 113 reports of overheating, including seven reports of fires and one report of a minor burn injury."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available online at Amazon.com, https://us.govee.com, the Govee Home App, and TikTok Shop from September 2021 to September 2024, priced between $30 and $150."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Govee Moments Trading Limited, of China and Govee Moments Limited, of China"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Fire and burn hazards due to overheating"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Stop using the heaters, cut the power cord, and submit a photo of the destroyed unit for a refund"
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "slug": "goveelife-and-govee-smart-electric-space-heaters-recalled-for-fire-and-burn-risks-recall",
+      "metaDescription": "GoveeLife and Govee smart electric space heaters recalled for fire and burn hazards. Immediate action required for refunds."
+    },
+    {
+      "RecallID": 10055,
+      "RecallNumber": "24371",
+      "RecallDate": "2024-09-19T00:00:00",
+      "Description": "Caframo Limited has issued a recall for the model 9421 Cabinet Heaters, designed to maintain warmth in cabinets and parking ticket dispensers. These heaters feature a black steel enclosure and measure approximately 5-3/4 inches wide, 9 inches long, and 3-1/3 inches high. Key identifying elements include a serial plate, an on/off switch, and a label indicating 'Model 9421' located near the power cord on the top of the unit.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/Caframo-Cabinet-Heaters-Recalled-Due-to-Electrocution-Hazard-Manufactured-by-Caframo-Limited",
+      "Title": "Caframo 9421 Cabinet Heaters Recalled Due to Electrocution Risk",
+      "ConsumerContact": "For assistance, consumers can reach Caframo Limited at 800-567-3556 from 8 a.m. to 4:30 p.m. ET, Monday through Friday, or email contactus@caframo.com. More details can be found online at https://www.caframo.com/recall/ or by visiting www.caframo.com and clicking on 'RECALL' at the top of the homepage.",
+      "LastPublishDate": "2024-09-19T00:00:00",
+      "Products": [
+        {
+          "Name": "Caframo 9421 Cabinet Heater",
+          "NumberOfUnits": "About 2,140 (In addition, 200 units were sold in Canada)"
+        }
+      ],
+      "Inconjunctions": [
+        {
+          "URL": "https://recalls-rappels.canada.ca/en/alert-recall/caframo-cabinet-heater-recalled-due-potential-electric-shock-hazard"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/electric-heaters/4-Caframo-9421-Cabinet-Heater/802b3a31ee2910f28dfc9ba9db0e5856.webp",
+          "Caption": "Recalled Caframo 9421 Cabinet Heater",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Caframo1.png"
+        },
+        {
+          "URL": "/images/generalRecalls/electric-heaters/4-Caframo-9421-Cabinet-Heater/6a024119ef7c63b10a7d24321326dd71.webp",
+          "Caption": "Top view showing location of Product Model & Serial number",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Caframo2.png"
+        },
+        {
+          "URL": "/images/generalRecalls/electric-heaters/4-Caframo-9421-Cabinet-Heater/b1497ca4dc48cc99f5afb48d928b1cf2.webp",
+          "Caption": "Detailed view showing serial number and model number locations",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Caframo3.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "Caframo Limited, of Canada"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Graybar Electric Co., St Louis, Missouri; Keystone Automotive Operations Inc., Exeter, Pennsylvania; Hamilton Manufacturing Corp., Holland, Ohio; Controlled Access of the Midwest, Pleasant Hill, Iowa; and available online at comfortsolutions.caframobrands.com and Amazon.com from October 2023 through May 2024 for approximately $150."
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "Canada"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Potential electrocution risk due to improperly finished wire crimping."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers must stop using the recalled heaters, unplug them, and contact Caframo Limited for free repair or replacement instructions. Caframo will provide a pre-paid shipping label for product returns. If repair is not possible, a replacement will be sent. Caframo is reaching out to all known purchasers."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        },
+        {
+          "Option": "Replace"
+        }
+      ],
+      "slug": "caframo-9421-cabinet-heaters-recalled-due-to-electrocution-risk-recall",
+      "metaDescription": "Caframo recalls model 9421 Cabinet Heaters due to electrocution hazards. Stop using and contact Caframo for repairs or replacements."
+    },
+    {
+      "RecallID": 10047,
+      "RecallNumber": "24360",
+      "RecallDate": "2024-09-12T00:00:00",
+      "Description": "Glen Dimplex Americas is recalling its Cadet-branded Apex72 high wall electric heaters, which range from 1200 to 1600 Watts. These fan-forced heaters are designed to be installed at least six feet above the ground and feature a white dust cover. The model number, 'Cadet,' along with the manufacturing date in DD-MM-YY format, can be found on the rating label located at the bottom of the air outlet grill. The recall affects specific models and their manufacturing dates, including HW128, HW132, HW151, and HW162, among others, with various cut-off dates for the latter models.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/Glen-Dimplex-Americas-Recalls-Cadet-Apex72-Electric-Heaters-Due-to-Fire-Hazard",
+      "Title": "Glen Dimplex Americas Issues Recall for Cadet Apex72 Electric Heaters Due to Fire Risk",
+      "ConsumerContact": "Consumers should immediately cease using the recalled heaters and reach out to Glen Dimplex Americas at 866-673-9880 from 8 a.m. to 6:30 p.m. ET, Monday through Friday. They can also email apex@glendimplexamericas.zendesk.com or visit https://www.glendimplexamericas.com/en-us/product-safety-notices/2024-APEX72-Important-Recall-Information for further details.",
+      "LastPublishDate": "2024-09-12T00:00:00",
+      "Products": [
+        {
+          "Name": "Cadet Apex72 Electric Heater",
+          "NumberOfUnits": "About 12,900"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/electric-heaters/5-Cadet-Apex72-Electric-Heater/7888fed9758e066aeb3082bef0977d2b.webp",
+          "Caption": "Recalled Cadet Apex Electric Heater",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/cadet-apex-heater.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/electric-heaters/5-Cadet-Apex72-Electric-Heater/4633af82bad96098cb39d5ada61edea9.webp",
+          "Caption": "Model and manufacturing date location",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/cadet-apex-model-no.png"
+        },
+        {
+          "URL": "/images/generalRecalls/electric-heaters/5-Cadet-Apex72-Electric-Heater/9b3a072d0d61f4ec23a9b50df0d2e5e0.webp",
+          "Caption": "Cadet, the model and the manufacturing date, in DD-MM-YY format, appear on the rating label visible through the bottom of the air outlet grill",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/image007_0.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received one report of a heater fan malfunctioning and causing the unit to ignite. No injuries have been reported."
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "Glen Dimplex Americas Ltd., of Vancouver, Washington"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available through Platt, Crescent Electric, CED, and other electrical distributors nationwide from February 2014 to February 2024, priced around $190."
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "United States"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Potential fire hazard due to overheating from fan malfunction"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Free replacement heater and installation provided by Glen Dimplex"
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Replace"
+        }
+      ],
+      "slug": "glen-dimplex-americas-issues-recall-for-cadet-apex72-electric-heaters-due-to-fire-risk-recall",
+      "metaDescription": "Glen Dimplex recalls Cadet Apex72 electric heaters due to fire hazards. Learn how to get a free replacement and installation."
+    },
+    {
+      "RecallID": 9999,
+      "RecallNumber": "24298",
+      "RecallDate": "2024-07-11T00:00:00",
+      "Description": "Atomi has issued a recall for several models of its Smart Heaters due to potential fire and burn hazards. The affected products include tower models AT1323, AT1481, AT1520, and AT1632; tabletop models AT1482 and AT1521; and the wall heater model AT1635. These portable electric heaters are available in black, silver, or white, with varying dimensions based on the model. The model number is located on a product identification sticker on the bottom of each unit.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/Atomi-Recalls-Smart-Heaters-Due-to-Fire-and-Burn-Hazards",
+      "Title": "Atomi Smart Heaters Recalled for Fire and Burn Risks",
+      "ConsumerContact": "For assistance, consumers can contact Atomi at 888-770-7140 from 7:30 a.m. to 5 p.m. CT, Monday through Friday, or visit www.atomiheaterrecall.com or www.atomismart.com and click on 'Recalls' at the bottom of the page for further details.",
+      "LastPublishDate": "2024-07-11T00:00:00",
+      "Products": [
+        {
+          "Name": "Atomi Smart Tower Heater Model AT1323",
+          "NumberOfUnits": "About 99,400 (In addition, about 10,700 were sold in Canada)"
+        }
+      ],
+      "Inconjunctions": [
+        {
+          "URL": "https://recalls-rappels.canada.ca/en/alert-recall/atomi-smart-heaters-recalled-due-fire-hazard"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/electric-heaters/6-Atomi-Smart-Tower-Heater-Model-AT1323/39ada44f275bc445b16be6812b179f0c.webp",
+          "Caption": "Recalled Atomi Smart Tower Heater model AT1323",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Atomi-heater-AT1323.png"
+        },
+        {
+          "URL": "/images/generalRecalls/electric-heaters/6-Atomi-Smart-Tower-Heater-Model-AT1323/9aaeb74c73a85ba528f6fb3a2b08e07b.webp",
+          "Caption": "Recalled Atomi Smart Tower Heater models AT1481 and AT1520",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Atomi-heater-AT1481-AT1520.png"
+        },
+        {
+          "URL": "/images/generalRecalls/electric-heaters/6-Atomi-Smart-Tower-Heater-Model-AT1323/c8c324618f040b77ca0d6a3bd836ce2d.webp",
+          "Caption": "Recalled Atomi Smart Tabletop Heater models AT1482 and AT152",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Atomi-heater-AT1482-AT1521.png"
+        },
+        {
+          "URL": "/images/generalRecalls/electric-heaters/6-Atomi-Smart-Tower-Heater-Model-AT1323/43f02748ce13aabc29f368df5652684a.webp",
+          "Caption": "Recalled Atomi Smart Tower Heater model AT1632",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Atomi-heater-AT1632.png"
+        },
+        {
+          "URL": "/images/generalRecalls/electric-heaters/6-Atomi-Smart-Tower-Heater-Model-AT1323/6d9cfafdf46efecfd4890cea2eff896a.webp",
+          "Caption": "Recalled Atomi Smart Wall Heater model AT1635",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Atomi-wall-heater-AT1635.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received one report of the heater turning on without user input. No injuries have been reported."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available at Amazon, Ace Hardware, Atomiusa.com, Best Buy, BJ’s Wholesale Club, Costco, Hammacher Schlemmer, Home Depot, Lowes.com, Menards, Sam's Club, and Walmart from October 2019 to April 2024, priced between $80 and $150 based on the model."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Atomi Smart, of New York"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Fire and burn hazards due to unexpected activation"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers must stop using the heaters, unplug them, and follow online instructions at www.atomiheaterrecall.com to obtain a full refund. They will need to cut the power cord of the unplugged unit and upload photos of the cut cord and the manufacturer's label during the registration process."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "slug": "atomi-smart-heaters-recalled-for-fire-and-burn-risks-recall",
+      "metaDescription": "Atomi recalls Smart Heaters due to fire and burn hazards. Stop using immediately and follow instructions for a full refund."
+    }
+  ]
+}

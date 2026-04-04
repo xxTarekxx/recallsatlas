@@ -1,0 +1,1899 @@
+{
+  "meta": {
+    "slug": "furniture",
+    "sourceCsvFile": "furniture_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:36.923Z",
+    "recallCount": 56,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "furniture.json",
+    "resumePartial": true
+  },
+  "recalls": [
+    {
+      "RecallID": 10662,
+      "RecallNumber": "26329",
+      "RecallDate": "2026-03-19T00:00:00",
+      "Description": "Tainoki Fine Furniture has issued a recall for height-adjustable swivel office chairs intended for desk use. These chairs come with a padded seat, backrest, headrest, and two padded armrests, all supported by chrome-finished metal bars. The recall includes specific models: the Noah Office Chair (model M7016O) available in Cream, Jiffy, French Roast, and Black; the Owen Office Chair (model M7004O) in Cream, Black, Merlin, Jiffy, and Wade; and the Warren Office Chair (model M7074O) in Taupe and Justin's. Model numbers can be found on a label located on the underside of the chair seat. Each chair is mounted on a five-star chrome metal base with five black rolling casters.",
+      "URL": "https://www.cpsc.gov/Recalls/2026/Tainoki-Fine-Furniture-Recalls-Office-Chairs-Due-to-Risk-of-Serious-Injury-and-Fall-Hazard",
+      "Title": "Tainoki Fine Furniture Recalls Office Chairs Due to Fall Hazard Risk",
+      "ConsumerContact": "For more information, consumers can contact Tainoki Fine Furniture at 888-698-2466 from 10 a.m. to 7 p.m. PT, Monday through Friday, via email at hello@tainoki.com, or visit https://www.tainoki.com/recall. Alternatively, consumers can go to https://www.tainoki.com and click on 'Recall' at the bottom of the page.",
+      "LastPublishDate": "2026-03-19T00:00:00",
+      "Products": [
+        {
+          "Name": "Noah Office Chair",
+          "NumberOfUnits": "About 2,200"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/furniture/1-Noah-Office-Chair/ddaba209792f8ff12bcac7b2d6860474.webp",
+          "Caption": "Recalled Noah Office Chair (Model number: M70160)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/officechair-1.png"
+        },
+        {
+          "URL": "/images/generalRecalls/furniture/1-Noah-Office-Chair/3e4c7c5a3c375c66fb348c35628a4106.webp",
+          "Caption": "Recalled Owen Office Chair (Model number: M70040)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/officechair-2.png"
+        },
+        {
+          "URL": "/images/generalRecalls/furniture/1-Noah-Office-Chair/0e8423657cf4f011b28945efa7907e20.webp",
+          "Caption": "Recalled Warren Office Chair (Model number: M70740)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/officechair-3.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available at HomeGoods stores nationwide from August 2025 through December 2025, priced between $180 and $200."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Tainoki Fine Furniture, of Brea, California"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Fall hazard due to potential bending of the chair's base"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Stop using the chairs immediately and visit https://www.tainoki.com/recall for recall participation instructions. Consumers will need to provide photos of the chairs, the model number, and proof of destruction to receive a full refund."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "M7016O",
+        "M7004O",
+        "M7074O"
+      ],
+      "slug": "tainoki-fine-furniture-recalls-office-chairs-due-to-fall-hazard-risk-recall",
+      "metaDescription": "Tainoki recalls office chairs due to a fall hazard. Stop using them and follow the recall instructions for a full refund."
+    },
+    {
+      "RecallID": 10659,
+      "RecallNumber": "26323",
+      "RecallDate": "2026-03-12T00:00:00",
+      "Description": "The 17 Stories Furniture 14-Drawer Dressers have been recalled due to significant safety concerns. These dressers, available in black, white, and brown, feature 14 fabric drawers and measure 11.8 inches in length, 37.4 inches in width, and 52.2 inches in height. They consist of a sturdy metal frame topped with wood and include collapsible fabric drawers. Model numbers associated with this recall include 55SCDR14KDBRDL, 55SCDR14KDCHDL, 55SCDR14KDPDL, 55SCDR14KDWPVCDL, and 55SCDR14KDGDL, which can be found on the packaging or in your Wayfair order details.",
+      "URL": "https://www.cpsc.gov/Recalls/2026/17-Stories-Furniture-14-Drawer-Dressers-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Tip-Over-and-Entrapment-Hazards-Violates-Mandatory-Standard-for-Clothing-Storage-Units-Imported-by-Hong-Kong-Baojia-International",
+      "Title": "Recall of 17 Stories Furniture 14-Drawer Dressers Due to Tip-Over and Entrapment Risks",
+      "ConsumerContact": "For assistance, please reach out to Hong Kong Baojia International via email at Baojia_recall@outlook.com.",
+      "LastPublishDate": "2026-03-12T00:00:00",
+      "Products": [
+        {
+          "Name": "17 Stories Furniture 14-Drawer Dressers",
+          "NumberOfUnits": "About 3,000"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/furniture/2-17-Stories-Furniture-14-Drawer-Dressers/fbda5460b1cab9985197b6fbe46c1142.webp",
+          "Caption": "Recalled 17 Stories Furniture 14-Drawer Dresser (front)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/17stories-1.gif"
+        },
+        {
+          "URL": "/images/generalRecalls/furniture/2-17-Stories-Furniture-14-Drawer-Dressers/bb921d1c6b8a4ce0301e336e86817008.webp",
+          "Caption": "Recalled 17 Stories Furniture 14-Drawer Dresser (back)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/17stories-2.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/furniture/2-17-Stories-Furniture-14-Drawer-Dressers/e5e114ac4abc62cf177e670b4be7fce6.webp",
+          "Caption": "Recalled 17 Stories Furniture 14-Drawer Dresser (side)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/17stories-3.gif"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available online at Wayfair.com from September 2023 through January 2026, priced around $135."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Hong Kong Baojia International Limited, of China"
+        }
+      ],
+      "SoldAtLabel": "Sold Online At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of tip-over and entrapment, potentially leading to serious injuries or fatalities, particularly for children. These dressers do not comply with the mandatory safety standard outlined in the STURDY Act."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Immediately cease use of the dressers if they are not securely anchored to the wall and relocate them to an area inaccessible to children. Contact Hong Kong Baojia International for guidance on identifying affected units and for instructions on disposal to obtain a full refund. A photo demonstrating the disposal of the product will be required at Baojia_recall@outlook.com."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "55SCDR14KDBRDL",
+        "55SCDR14KDCHDL",
+        "55SCDR14KDPDL",
+        "55SCDR14KDWPVCDL",
+        "55SCDR14KDGDL"
+      ],
+      "slug": "recall-of-17-stories-furniture-14-drawer-dressers-due-to-tip-over-and-entrapment-risks-recall",
+      "metaDescription": "17 Stories Furniture recalls 14-Drawer Dressers due to tip-over risks. Contact for refunds and safety instructions."
+    },
+    {
+      "RecallID": 10658,
+      "RecallNumber": "26321",
+      "RecallDate": "2026-03-12T00:00:00",
+      "Description": "LIVEHOM has issued a recall for their 11-Drawer Dressers due to serious safety hazards. These fabric dressers, available in black, white, pink, rustic brown, and charcoal black, measure approximately 11.8 inches long, 39 inches wide, and 46 inches tall, featuring 11 fabric drawers. The brand name can be found on the purchase receipt. If not properly anchored to a wall, these dressers can tip over, posing significant risks of injury or death, especially to children, and do not meet the safety standards mandated by the STURDY Act.",
+      "URL": "https://www.cpsc.gov/Recalls/2026/LIVEHOM-11-Drawer-Dressers-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Tip-Over-and-Entrapment-Hazards-Violates-Mandatory-Standard-for-Clothing-Storage-Units-Sold-on-Amazon-by-Simplehome",
+      "Title": "Recall of LIVEHOM 11-Drawer Dressers Due to Tip-Over and Entrapment Risks",
+      "ConsumerContact": "For assistance, please contact Simplehome via email at livehomerecall@163.com.",
+      "LastPublishDate": "2026-03-12T00:00:00",
+      "Products": [
+        {
+          "Name": "LIVEHOM 11-Drawer Dressers",
+          "NumberOfUnits": "About 370"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/furniture/3-LIVEHOM-11-Drawer-Dressers/d1d1f266991e851681333af87d3d3b8b.webp",
+          "Caption": "Recalled LIVEHOM 11-Drawer Dresser – brown",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/livehom-1.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/furniture/3-LIVEHOM-11-Drawer-Dressers/249995ebe5bd92593e025e0335025611.webp",
+          "Caption": "Recalled LIVEHOM 11-Drawer Dresser – white",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/livehom-2.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/furniture/3-LIVEHOM-11-Drawer-Dressers/a75b2ade0e2ec7c285224194b766cb1b.webp",
+          "Caption": "Recalled LIVEHOM 11-Drawer Dresser – black",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/livehom-3.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/furniture/3-LIVEHOM-11-Drawer-Dressers/dfcd4946186f5252ebace4a33bfb5cb2.webp",
+          "Caption": "Recalled LIVEHOM 11-Drawer Dresser – gray",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/livehom-4.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/furniture/3-LIVEHOM-11-Drawer-Dressers/ecae8c1d3bdebe12709f2056927a8e9d.webp",
+          "Caption": "Recalled LIVEHOM 11-Drawer Dresser – pink",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/livehom-5.jpg"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available online at Amazon.com from December 2025 to January 2026 for approximately $110."
+        }
+      ],
+      "Distributors": [
+        {
+          "Name": "Shenzhen Lvmukeji Co., Ltd., dba Simplehome, of China"
+        }
+      ],
+      "SoldAtLabel": "Sold Online At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of tip-over and entrapment hazards due to instability if not anchored to the wall, potentially leading to serious injuries or death."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should cease use of the dressers if they are not wall-mounted, keep them away from children, and reach out to Simplehome for a full refund. They will need to write 'RECALL' on the dressers with a permanent marker, send a photo of the marked dressers to livehomerecall@163.com, and then dispose of the product."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "slug": "recall-of-livehom-11-drawer-dressers-due-to-tip-over-and-entrapment-risks-recall",
+      "metaDescription": "Important recall for LIVEHOM 11-Drawer Dressers due to serious tip-over risks. Contact Simplehome for a refund and safety instructions."
+    },
+    {
+      "RecallID": 10611,
+      "RecallNumber": "26261",
+      "RecallDate": "2026-02-12T00:00:00",
+      "Description": "SOOWERY is recalling its 6-Drawer Dressers due to significant safety concerns. These dressers, available in black, feature a metal frame with a wooden top and six collapsible fabric drawers. The dimensions are approximately 47.2 inches in length, 11.8 inches in width, and 33.3 inches in height. If not securely anchored to the wall, these dressers can become unstable, posing serious tip-over and entrapment hazards, particularly for children. This recall is in violation of the STURDY Act's mandatory safety standards.",
+      "URL": "https://www.cpsc.gov/Recalls/2026/SOOWERY-6-Drawer-Dressers-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Tip-Over-and-Entrapment-Hazards-Violates-Mandatory-Standard-for-Clothing-Storage-Units",
+      "Title": "SOOWERY 6-Drawer Dressers Recalled Due to Tip-Over and Entrapment Risks",
+      "ConsumerContact": "For assistance, please email SOOWERY at SOOWERYrecall@outlook.com.",
+      "LastPublishDate": "2026-02-12T00:00:00",
+      "Products": [
+        {
+          "Name": "SOOWERY 6-Drawer Dressers",
+          "NumberOfUnits": "About 166"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/furniture/4-SOOWERY-6-Drawer-Dressers/a362c62656d05e74f9b1a9b74a3af172.webp",
+          "Caption": "Recalled SOOWERY 6-Drawer dresser (front)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Picture1_50.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/furniture/4-SOOWERY-6-Drawer-Dressers/53f71a3522ffd7709f1c6b77d21122a1.webp",
+          "Caption": "Recalled SOOWERY 6-Drawer dresser (side)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Picture2_47.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/furniture/4-SOOWERY-6-Drawer-Dressers/7fd52c0e098187e8ab9dc1b2f626f544.webp",
+          "Caption": "Recalled SOOWERY 6-Drawer dresser (back)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Picture3_33.jpg"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available online at Amazon.com from December 2025 through January 2026 for approximately $130."
+        }
+      ],
+      "Distributors": [
+        {
+          "Name": "Shenzhen Zhongyuantong Technology Co., Ltd., dba SOOWERY of China"
+        }
+      ],
+      "SoldAtLabel": "Sold Online At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Tip-over and entrapment hazards"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Stop using the dressers if they are not wall-anchored, keep them out of children's reach, mark them as 'recalled', and contact SOOWERY for disposal instructions and a full refund."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "slug": "soowery-6-drawer-dressers-recalled-due-to-tip-over-and-entrapment-risks-recall",
+      "metaDescription": "Important recall: SOOWERY 6-Drawer Dressers pose tip-over risks. Learn how to ensure safety and obtain a refund."
+    },
+    {
+      "RecallID": 10606,
+      "RecallNumber": "26255",
+      "RecallDate": "2026-02-05T00:00:00",
+      "Description": "EnHomee is recalling its 10-Drawer Dressers due to significant safety concerns related to tip-over and entrapment hazards. These dressers, available in black, white, grey, and brown, feature a metal frame, a wooden top, ten collapsible fabric drawers, and two metal drawers. They measure 38 inches in length, 11.8 inches in width, and 48.1 inches in height. The model number '55SCWMSCXLBR' can be found in your Amazon order details.",
+      "URL": "https://www.cpsc.gov/Recalls/2026/EnHomee-10-Drawer-Dressers-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Tip-Over-and-Entrapment-Hazards-Violates-Mandatory-Standard-for-Clothing-Storage-Units",
+      "Title": "EnHomee 10-Drawer Dressers Recalled Due to Serious Tip-Over and Entrapment Risks",
+      "ConsumerContact": "For assistance, contact EnHomee at 833-668-8899 from 9 a.m. to 5 p.m. PT, Monday through Friday. You can also reach them via email at enhomeestore@gmail.com or visit https://enhomee.store/recall.html for more details.",
+      "LastPublishDate": "2026-02-06T00:00:00",
+      "Products": [
+        {
+          "Name": "EnHomee 10-Drawer Dressers",
+          "NumberOfUnits": "About 5,000"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/furniture/5-EnHomee-10-Drawer-Dressers/04886df72c4525fcec910ade930c1df4.webp",
+          "Caption": "Recalled EnHomee 10 drawer dresser (front)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/enhommee-1.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/furniture/5-EnHomee-10-Drawer-Dressers/bb9c99cd97c43b14786ad63b9c138d92.webp",
+          "Caption": "Recalled EnHomee 10 drawer dresser (back)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/enhommee-2.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/furniture/5-EnHomee-10-Drawer-Dressers/709e6b040ce912557ada19448dc4ea56.webp",
+          "Caption": "Recalled EnHomee 10 drawer dresser (side)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/enhommee-3.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "Xuzhou Mingquanhe Home Furnishing Co., Ltd., of China"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available online at Amazon.com from September 2023 through December 2025 for approximately $115."
+        }
+      ],
+      "Distributors": [
+        {
+          "Name": "HunanSan Tang International Trading Co., Ltd. dba EnHomee Direct, of China"
+        }
+      ],
+      "SoldAtLabel": "Sold Online At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of tip-over and entrapment hazards due to instability if not anchored to the wall, posing serious injury or death risks to children."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Stop using the dressers if they are not wall-anchored and keep them out of children's reach. Contact EnHomee for guidance on identifying affected units and disposing of the dressers for a full refund. A photo of the disposed product must be sent to enhomeestore@gmail.com."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "55SCWMSCXLBR"
+      ],
+      "slug": "enhomee-10-drawer-dressers-recalled-due-to-serious-tip-over-and-entrapment-risks-recall",
+      "metaDescription": "EnHomee recalls 10-Drawer Dressers due to serious tip-over risks. Learn how to get a refund and ensure safety."
+    },
+    {
+      "RecallID": 10604,
+      "RecallNumber": "26253",
+      "RecallDate": "2026-02-05T00:00:00",
+      "Description": "Clark Associates is recalling specific models of Lancaster Table & Seating Powder-Coated Aluminum Outdoor Chairs and Barstools, available in arm chair, side chair, and barstool styles. These products were sold under 180 different item numbers and came in a variety of colors including blue, brown, dark gray, light gray/silver, red, white, aqua, black, green, sangria/burgundy, yellow, and orange. While some chairs were sold with outdoor tables, the tables themselves are not included in this recall. A comprehensive list of affected item numbers can be found on the official website.",
+      "URL": "https://www.cpsc.gov/Recalls/2026/Clark-Associates-Recalls-Lancaster-Table-Seating-Powder-Coated-Aluminum-Outdoor-Restaurant-Chairs-and-Barstools-Due-to-Fall-Hazard",
+      "Title": "Clark Associates Issues Recall for Lancaster Table & Seating Outdoor Chairs and Barstools Due to Fall Risk",
+      "ConsumerContact": "For assistance, consumers can reach Clark Associates at 800-285-8172 from 9 a.m. to 5 p.m. ET, Monday through Friday. They can also email pcachairsandbarstools@lancastertableandseating.com or visit www.lancastertableandseating.com/recalls/powder-coated-aluminum-chairs for more details.",
+      "LastPublishDate": "2026-02-06T00:00:00",
+      "Products": [
+        {
+          "Name": "Lancaster Table & Seating Outdoor Arm Chairs",
+          "NumberOfUnits": "About 158,486"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/furniture/6-Lancaster-Table-Seating-Outdoor-Arm-Chairs/a161df937df2fbb62bf68f68bdf87b5e.webp",
+          "Caption": "Recalled arm chair - gray",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Picture1_49.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/furniture/6-Lancaster-Table-Seating-Outdoor-Arm-Chairs/c6a354a5e942d7e0a4f696c8dcb5091e.webp",
+          "Caption": "Recalled side chair - black",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Picture2.gif"
+        },
+        {
+          "URL": "/images/generalRecalls/furniture/6-Lancaster-Table-Seating-Outdoor-Arm-Chairs/cd443826b2f4b99adcca3ee76a8ba196.webp",
+          "Caption": "Recalled bar stool - silver",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Picture3_32.jpg"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received 36 reports of broken or bent chair legs, resulting in four falls and three injuries."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available through Clark Pro and Clark National Accounts across the country, as well as online at webstaurantstore.com, therestaurantstore.com, and quicksupply.com from April 2020 to October 2025, priced between $55 and $133."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Clark Core Services LLC, dba Clark Associates, of Lancaster, Pennsylvania"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of legs bending or breaking, leading to potential falls."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should cease using the recalled products immediately and contact Clark Associates for a full refund or store credit. It is advised to register the product online, mark it as 'Recalled' visibly, and dispose of it according to local regulations."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "slug": "clark-associates-issues-recall-for-lancaster-table-seating-outdoor-chairs-and-barstools-due-to-fall-risk-recall",
+      "metaDescription": "Clark Associates recalls Lancaster Table & Seating outdoor chairs and barstools due to a fall hazard. Learn how to get a refund."
+    },
+    {
+      "RecallID": 10602,
+      "RecallNumber": "26251",
+      "RecallDate": "2026-02-05T00:00:00",
+      "Description": "YITA has announced a recall for dressers sold under five different brands: Dextrus, ModFusion, Uforic, Yintatech, and Yitahome. These 16-drawer dressers, available in gray, black, white, pink, and brown, feature a metal frame with a wooden top and collapsible fabric drawers. They measure approximately 37.4 inches in length, 11.8 inches in width, and 57.1 inches in height. SKU numbers FTBFSD-0161, FTBFSD-0162, FTBFSD-0212, FTBFSD-0246, and FTBFSD-0465 can be found on labels on the dresser's top panel and packaging, while the brand name is visible on the product's online listing.",
+      "URL": "https://www.cpsc.gov/Recalls/2026/YITA-Recalls-Multiple-Brands-of-Dressers-Due-to-Risk-of-Serious-Injury-or-Death-from-Tip-Over-and-Entrapment-Hazards-Violates-Mandatory-Standard-for-Clothing-Storage-Units",
+      "Title": "YITA Issues Recall for Dressers from Multiple Brands Due to Tip-Over and Entrapment Risks",
+      "ConsumerContact": "For assistance, consumers can reach YITA at 877-672-0878 from 8 a.m. to 12 p.m. ET, Monday through Friday, email yitamotor@outlook.com, or visit https://www.yitahome.com/article/voluntary-safety-recall-16-drawer-dresser-fabric-dresser.html?aid=152 or https://www.yitahome.com/ and click on 'Recall' at the top of the page for further details.",
+      "LastPublishDate": "2026-02-06T00:00:00",
+      "Products": [
+        {
+          "Name": "Dextrus Dressers",
+          "NumberOfUnits": "About 6,800"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/furniture/7-Dextrus-Dressers/f0d26debe560615150397a2be8a2199f.webp",
+          "Caption": "Recalled YITA dresser – gray",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Picture8_4.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/furniture/7-Dextrus-Dressers/c64c9d4a1b746ebeec3035b51e457796.webp",
+          "Caption": "Recalled YITA dresser - white",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Picture9_5.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/furniture/7-Dextrus-Dressers/aaef64ec1ae9249a6db52db9a18adcee.webp",
+          "Caption": "Recalled YITA dresser - brown",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Picture10_6.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/furniture/7-Dextrus-Dressers/a49dfd54645e5f0e5c5bcf42ab102059.webp",
+          "Caption": "Recalled YITA dresser - pink",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Picture11_8.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/furniture/7-Dextrus-Dressers/19d4f0bbe6c7c4099f4e84a79011dc8e.webp",
+          "Caption": "Recalled YITA dresser - black",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Picture12_4.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/furniture/7-Dextrus-Dressers/6c4f8d13634e824ecc8185668485c56b.webp",
+          "Caption": "SKU number \"FTBFSD-0161,\" \"FTBFSD-0162,\" \"FTBFSD-0212,\" \"FTBFSD-0246\" or \"FTBFSD-0465\" is printed labels located on the dresser's top panel and on the product packaging of the YITA dressers",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Picture13_5.jpg"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available online at Amazon.com"
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Yita LLC, dba Yitahome, Uforic, Dextrus, Yintatech and ModFusion, of Kent, Washington"
+        }
+      ],
+      "SoldAtLabel": "Sold Online At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of tip-over and entrapment posing serious injury or death to children due to instability if not anchored."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Stop using the dressers if not anchored, keep them out of children's reach, and contact YITA for a full refund. Mark 'RECALL' on the dressers, disassemble them, and send a photo of the disposed unit to yitamotor@outlook.com."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "FTBFSD-0161",
+        "FTBFSD-0162",
+        "FTBFSD-0212",
+        "FTBFSD-0246",
+        "FTBFSD-0465"
+      ],
+      "slug": "yita-issues-recall-for-dressers-from-multiple-brands-due-to-tip-over-and-entrapment-risks-recall",
+      "metaDescription": "YITA recalls dressers from multiple brands due to serious tip-over risks. Learn how to get a refund and keep your children safe."
+    },
+    {
+      "RecallID": 10599,
+      "RecallNumber": "26248",
+      "RecallDate": "2026-02-05T00:00:00",
+      "Description": "The Fixwal 7-Drawer Dressers have been recalled due to safety concerns regarding their stability. These dressers, available in black and white, feature a metal frame, a wooden top, and seven collapsible fabric drawers. They measure 55.1 inches in length, 11.8 inches in width, and 31.5 inches in height, posing significant risks if not properly secured to a wall. Failure to anchor these dressers can lead to tip-over incidents, particularly endangering children, which contravenes safety regulations under the STURDY Act.",
+      "URL": "https://www.cpsc.gov/Recalls/2026/Fixwal-7-Drawer-Dressers-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Tip-Over-and-Entrapment-Hazards-Violates-Mandatory-Standard-for-Clothing-Storage-Units",
+      "Title": "Recall of Fixwal 7-Drawer Dressers Due to Serious Tip-Over and Entrapment Risks",
+      "ConsumerContact": "For assistance, reach out to Momok via email at fixwaldresserrecall@outlook.com.",
+      "LastPublishDate": "2026-02-06T00:00:00",
+      "Products": [
+        {
+          "Name": "Fixwal 7-Drawer Dressers",
+          "NumberOfUnits": "About 2,900"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/furniture/8-Fixwal-7-Drawer-Dressers/2d36e8db0e853e4b61b8201c382f4350.webp",
+          "Caption": "Recalled Fixwal 7- drawer dresser (front)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Picture234.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/furniture/8-Fixwal-7-Drawer-Dressers/eff32420f3d893bd69bbbf1bb81a3ee8.webp",
+          "Caption": "Recalled Fixwal 7- drawer dresser (side)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Picture235.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/furniture/8-Fixwal-7-Drawer-Dressers/22425384ecf7db57e6a3b011dd280396.webp",
+          "Caption": "Recalled Fixwal 7 drawer dresser (back)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Picture236.jpg"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available online at Amazon.com from September 2023 through December 2025 for approximately $100."
+        }
+      ],
+      "Distributors": [
+        {
+          "Name": "Changzhou Xunchuang Home Furnishing Co., Ltd., dba Momok of China"
+        }
+      ],
+      "SoldAtLabel": "Sold Online At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of tip-over and entrapment hazards leading to potential serious injuries or fatalities, especially to children."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers are advised to cease using the dressers if they are not anchored, relocate them out of children's reach, and contact Momok for a full refund. Additionally, mark the dresser with 'RECALLED' using a permanent marker on all sides, take photographs, and send them to fixwaldresserrecall@outlook.com."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "slug": "recall-of-fixwal-7-drawer-dressers-due-to-serious-tip-over-and-entrapment-risks-recall",
+      "metaDescription": "Fixwal 7-Drawer Dressers recalled due to tip-over risks. Immediate action required for safety. Contact for refunds."
+    },
+    {
+      "RecallID": 10598,
+      "RecallNumber": "26247",
+      "RecallDate": "2026-02-05T00:00:00",
+      "Description": "Furnulem is recalling its five-drawer dressers due to a significant risk of tip-over and entrapment, which can lead to serious injuries or fatalities, particularly for children. These dressers, measuring approximately 31.5 inches tall, 15.75 inches wide, and 50.2 inches long, feature a top with recessed power outlets and two round pull knobs on each drawer. This recall specifically affects units that were sold without feet extensions. The model number \"HK-DS-017-CL-5D-1-W\" can be found on the packaging.",
+      "URL": "https://www.cpsc.gov/Recalls/2026/Furnulem-5-Drawer-Dressers-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Tip-Over-and-Entrapment-Violates-Mandatory-Standard-for-Clothing-Storage-Units",
+      "Title": "Furnulem 5-Drawer Dressers Recalled for Tip-Over Risk Posing Serious Injury or Death",
+      "ConsumerContact": "For assistance, consumers can reach Furnulem at 310-227-9560 from 9 a.m. to 4 p.m. PT, Monday through Friday, email support@furnulem.com, or visit https://furnulem.com/pages/voluntary-safety-recall or www.furnulem.com and click on \"Recall\" for further details.",
+      "LastPublishDate": "2026-02-06T00:00:00",
+      "Products": [
+        {
+          "Name": "Furnulem Five-Drawer Dressers",
+          "NumberOfUnits": "About 50"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/furniture/9-Furnulem-Five-Drawer-Dressers/386a51af09612dcff72cd6211e48960d.webp",
+          "Caption": "Recalled Furnulem 5-drawer dresser (front)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Screenshot%202026-02-05%20090518.png"
+        },
+        {
+          "URL": "/images/generalRecalls/furniture/9-Furnulem-Five-Drawer-Dressers/923891c671cc63566ceeafb3bbc55c54.webp",
+          "Caption": "Recalled Furnulem 5-drawer dresser (back)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Picture2-2-2_1.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available online at Amazon.com in July 2025 for approximately $140."
+        }
+      ],
+      "Distributors": [
+        {
+          "Name": "Shanghai Taiye Furniture Co., Ltd., dba Furnulem, of China"
+        }
+      ],
+      "SoldAtLabel": "Sold Online At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of tip-over and entrapment leading to serious injury or death, especially to children."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should stop using the dressers if they are not anchored to the wall, keep them out of children's reach, and contact Furnulem for disposal instructions to receive a full refund. A photo showing the product's disposal should be sent to support@furnulem.com."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "HK-DS-017-CL-5D-1-W"
+      ],
+      "slug": "furnulem-5-drawer-dressers-recalled-for-tip-over-risk-posing-serious-injury-or-death-recall",
+      "metaDescription": "Furnulem recalls five-drawer dressers due to serious tip-over risks. Contact them for refund details and safety instructions."
+    },
+    {
+      "RecallID": 10591,
+      "RecallNumber": "26238",
+      "RecallDate": "2026-02-05T00:00:00",
+      "Description": "Shintenchi has issued a recall for their white 6-drawer dressers, which feature wooden drawers and golden metal feet. These dressers measure approximately 15.7 inches deep, 47.2 inches wide, and 30.5 inches high. The model number \"SHX12077-WH\" can be found embossed on the underside of one of the metal feet and on the product packaging.",
+      "URL": "https://www.cpsc.gov/Recalls/2026/Shintenchi-6-Drawer-Dressers-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Tip-Over-and-Entrapment-Hazards-Violate-Mandatory-Standard-for-Clothing-Storage-Units",
+      "Title": "Shintenchi 6-Drawer Dressers Recalled Due to Tip-Over and Entrapment Risks",
+      "ConsumerContact": "For assistance, consumers can reach out to Shintenchi via email at ShintenchiRecall@hotmail.com or visit their website at http://www.shintenchi.com.cn/recall.html. Additionally, information can be accessed by clicking on the \"Recall\" link at the top of their homepage.",
+      "LastPublishDate": "2026-02-06T00:00:00",
+      "Products": [
+        {
+          "Name": "Shintenchi 6-Drawer Dressers",
+          "NumberOfUnits": "About 600"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/furniture/10-Shintenchi-6-Drawer-Dressers/52953be9cd4a6bf6bcfb74d9881b1bbc.webp",
+          "Caption": "Recalled Shintenchi 6-Drawer Dresser, model SHX12077-WH (front)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Picture1-1_1.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/furniture/10-Shintenchi-6-Drawer-Dressers/0e505974f47809b0b9fc1f3f4ebb172c.webp",
+          "Caption": "Recalled Shintenchi 6-Drawer Dresser, model SHX12077-WH (side)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Picture2-2_1.jpg"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "Huizhou Sunhouse Home Furnishings Co., Ltd., of China"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available on Amazon.com from July 2025 to August 2025, priced around $130."
+        }
+      ],
+      "Distributors": [
+        {
+          "Name": "Shanghai Kase International Trade Co., Ltd., dba Shintenchi, of China"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "The dressers may tip over if not secured to a wall, creating serious entrapment and injury risks, particularly for children. This product does not comply with the mandatory safety standards outlined by the STURDY Act."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should stop using the dressers if they are not wall-anchored and keep them out of children's reach. Contact Shintenchi for disposal instructions to receive a full refund. A photo of the disposed product must be sent to ShintenchiRecall@hotmail.com."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "SHX12077-WH"
+      ],
+      "slug": "shintenchi-6-drawer-dressers-recalled-due-to-tip-over-and-entrapment-risks-recall",
+      "metaDescription": "Shintenchi recalls 6-drawer dressers due to serious tip-over hazards. Immediate action required for safety and refunds."
+    },
+    {
+      "RecallID": 10568,
+      "RecallNumber": "26202",
+      "RecallDate": "2026-01-22T00:00:00",
+      "Description": "Academy Sports + Outdoors has issued a recall for their Magellan-branded Odyssey Rocker Chairs, identified by date codes 07/2025 or 08/2025, which were available for purchase from September to October 2025. These folding chairs come in colors including charcoal, navy, olive green, and teal, and have dimensions of approximately 25.2\" long by 5.5\" deep by 37.4\" high when folded, and 25.4\" long by 25.2\" deep by 37.4\" high when opened. Featuring a metal frame, mesh backrest, carrying handle, and a side drink holder, the chairs display the Magellan Outdoors logo on the front of the backrest. Only chairs produced between July and August 2025 are affected by this recall.",
+      "URL": "https://www.cpsc.gov/Recalls/2026/Academy-Sports-Outdoors-Recalls-Magellan-Odyssey-Rocker-Chairs-Due-to-Injury-and-Fall-Hazards",
+      "Title": "Recall of Magellan Odyssey Rocker Chairs by Academy Sports + Outdoors Due to Injury Risks",
+      "ConsumerContact": "For assistance, consumers can reach Academy Sports + Outdoors toll-free at 888-922-2336 from 7 a.m. to 10 p.m. CT, email customerservice@academy.com, or visit www.academy.com/product-recalls. More information is also available by navigating to \"Product Recalls\" at the bottom of the Academy website.",
+      "LastPublishDate": "2026-01-22T00:00:00",
+      "Products": [
+        {
+          "Name": "Magellan Odyssey Rocker Chairs",
+          "NumberOfUnits": "About 35,300"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/furniture/11-Magellan-Odyssey-Rocker-Chairs/61787a6f9e9965f7f9a0f217a8f6a010.webp",
+          "Caption": "Recalled Academy Magellan Odyssey Rocker Chair - charcoal",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/magellan-1.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/furniture/11-Magellan-Odyssey-Rocker-Chairs/58e05035e5154c7902b11a94d963b1c7.webp",
+          "Caption": "Recalled Academy Magellan Odyssey Rocker Chair – olive green",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/magellan-2.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/furniture/11-Magellan-Odyssey-Rocker-Chairs/2e6c8f0ee733e54c5be9513aa3829838.webp",
+          "Caption": "Recalled Academy Magellan Odyssey Rocker Chair - navy",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/magellan-3.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/furniture/11-Magellan-Odyssey-Rocker-Chairs/1f69e61128de24e78788bfc4ba1dbc9c.webp",
+          "Caption": "Recalled Academy Magellan Odyssey Rocker Chair - teal",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/magellan-4.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/furniture/11-Magellan-Odyssey-Rocker-Chairs/51d3acd431d095529f553d27afd77568.webp",
+          "Caption": "\"ACADEMY, LTD,\" \"177296\" and the manufacture date 07/2025 or 08/2025 are printed on the tracking label sewn onto the arm of the chair",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/magellan-5.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "Academy Sports + Outdoors has received one report of the chair's legs breaking. No injuries have been reported."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available at Academy Sports + Outdoors locations nationwide and online at academy.com from September to October 2025 for approximately $50."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Academy Ltd., dba Academy Sports + Outdoors, of Katy, Texas"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "Cambodia"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of injury and falls due to potential leg breakage."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers are advised to stop using the recalled chairs immediately and return them to any Academy Sports + Outdoors store for a full refund. Alternatively, they can contact Academy's Customer Care for a free mail return."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "ACADEMY, LTD",
+        "177296",
+        "MM/YYYY"
+      ],
+      "slug": "recall-of-magellan-odyssey-rocker-chairs-by-academy-sports-outdoors-due-to-injury-risks-recall",
+      "metaDescription": "Academy Sports + Outdoors recalls Magellan Odyssey Rocker Chairs due to injury risks. Stop using and return for a full refund."
+    },
+    {
+      "RecallID": 10548,
+      "RecallNumber": "26174",
+      "RecallDate": "2026-01-08T00:00:00",
+      "Description": "Vasicar is recalling its 18-Drawer Dressers due to safety concerns related to tip-over and entrapment, which can lead to serious injury or death, especially for children. These dressers are available in various colors including black, white, gray, and mixed options. They feature a metal frame, a wooden top, and 18 collapsible fabric drawers, measuring 37.8 inches long, 11.8 inches wide, and 57.1 inches tall. Some units may have model identifiers such as 'VR-US18D-Black,' 'VR-US18D-White,' 'VR-US18D-Gray,' and 'VR-US18D-Mixed' on their packaging.",
+      "URL": "https://www.cpsc.gov/Recalls/2026/Vasicar-18-Drawer-Dressers-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Tip-Over-and-Entrapment-Violates-Mandatory-Standard-for-Clothing-Storage-Units",
+      "Title": "Vasicar 18-Drawer Dressers Recalled Due to Tip-Over and Entrapment Risks",
+      "ConsumerContact": "For further assistance, consumers should reach out to Vasicar via email at vasicarus2025@outlook.com.",
+      "LastPublishDate": "2026-01-09T00:00:00",
+      "Products": [
+        {
+          "Name": "Vasicar 18-Drawer Dressers",
+          "NumberOfUnits": "About 4,155"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/furniture/12-Vasicar-18-Drawer-Dressers/8ec45c922939f7fb55d22773eed017de.webp",
+          "Caption": "Recalled Vasicar 18-Drawer Dresser in black",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/vasicar-1.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/furniture/12-Vasicar-18-Drawer-Dressers/6625a39af6bb4fb82474aade35af4083.webp",
+          "Caption": "Recalled Vasicar 18-Drawer Dresser black label",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/vasicar-2.png"
+        },
+        {
+          "URL": "/images/generalRecalls/furniture/12-Vasicar-18-Drawer-Dressers/2f08a1b3bfa7bf0c078adb0d11589767.webp",
+          "Caption": "Recalled Vasicar 18-Drawer Dresser in white",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/vasicar-3.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/furniture/12-Vasicar-18-Drawer-Dressers/d2b590bbffd79d50ce69859fe4d69475.webp",
+          "Caption": "Recalled Vasicar 18-Drawer Dresser white label",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/vasicar-4.png"
+        },
+        {
+          "URL": "/images/generalRecalls/furniture/12-Vasicar-18-Drawer-Dressers/a5ae1df1f4959fe8f5da579f63bf9636.webp",
+          "Caption": "Recalled Vasicar 18-Drawer Dresser in gray",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/vasicar-5.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/furniture/12-Vasicar-18-Drawer-Dressers/7369457b79a1ccbb48c8252a2dabe55e.webp",
+          "Caption": "Recalled Vasicar 18-Drawer Dresser gray label",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/vasicar-6.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available online at Amazon.com from September 2025 through November 2025, priced around $120."
+        }
+      ],
+      "Distributors": [
+        {
+          "Name": "Shanghai Jingtin Technology Co., Ltd., doing business as Vasicar of China"
+        }
+      ],
+      "SoldAtLabel": "Sold Online At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of tip-over and entrapment if not anchored to the wall, posing serious injury or death risks to children."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should cease use of the dressers if they are not secured to the wall and keep them out of children's reach. Contact Vasicar for disposal instructions to obtain a full refund, and provide a photo of the disposed product to vasicarus2025@outlook.com."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "slug": "vasicar-18-drawer-dressers-recalled-due-to-tip-over-and-entrapment-risks-recall",
+      "metaDescription": "Vasicar recalls 18-Drawer Dressers due to tip-over risks. Immediate action required for consumer safety."
+    },
+    {
+      "RecallID": 10546,
+      "RecallNumber": "26172",
+      "RecallDate": "2026-01-08T00:00:00",
+      "Description": "Rattan has issued a recall for its 6-Drawer Dressers, model YD001, due to serious safety concerns. These dressers, featuring a natural wood finish and woven rattan drawer fronts, measure 43.3 inches in width, 15.7 inches in depth, and 29.5 inches in height. The model number can be found on the product packaging. If not properly anchored to a wall, these dressers pose a significant risk of tipping over, which can lead to severe injuries or even fatalities, particularly among children. This recall is in violation of the mandatory safety standards outlined in the STURDY Act.",
+      "URL": "https://www.cpsc.gov/Recalls/2026/Rattan-6-Drawer-Dressers-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Tip-Over-and-Entrapment;-Violate-Mandatory-Standard-for-Clothing-Storage-Units-Sold-on-Amazon-by-Rattan",
+      "Title": "Rattan 6-Drawer Dressers Recalled for Tip-Over and Entrapment Risks",
+      "ConsumerContact": "For assistance, please contact Rattan via email at FUQARHYrecall@outlook.com.",
+      "LastPublishDate": "2026-01-09T00:00:00",
+      "Products": [
+        {
+          "Name": "Rattan 6-Drawer Dressers",
+          "NumberOfUnits": "About 870"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/furniture/13-Rattan-6-Drawer-Dressers/a7a361473e61fb0e83d9005f43cec0a3.webp",
+          "Caption": "Recalled Rattan 6-Drawer Dresser - Front",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/rattan-1.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/furniture/13-Rattan-6-Drawer-Dressers/a2a858310035b54c7d78051758a901b0.webp",
+          "Caption": "Recalled Rattan 6-Drawer Dresser - Back",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/rattan-2.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/furniture/13-Rattan-6-Drawer-Dressers/4840bf5f02331afc991fb78b787673fa.webp",
+          "Caption": "Recalled Rattan 6-Drawer Dresser - Side",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/rattan-3.jpg"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported."
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "Fuzhou Sunrise Creation Corporation Co., Ltd., of China"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available online at Amazon.com from September 2025 to November 2025 for approximately $150."
+        }
+      ],
+      "Distributors": [
+        {
+          "Name": "Ningbo Honghui E-Commerce Co., Ltd., dba Rattan, of China"
+        }
+      ],
+      "SoldAtLabel": "Sold Online At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of tip-over and entrapment, particularly dangerous for children."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Stop using the dressers if they are not wall-anchored, keep them out of children's reach, mark them as 'RECALLED', and dispose of them properly."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "YD001"
+      ],
+      "slug": "rattan-6-drawer-dressers-recalled-for-tip-over-and-entrapment-risks-recall",
+      "metaDescription": "Rattan recalls 6-Drawer Dressers due to tip-over risks. Immediate action required for safety. Contact Rattan for details."
+    },
+    {
+      "RecallID": 10534,
+      "RecallNumber": "26159",
+      "RecallDate": "2025-12-18T00:00:00",
+      "Description": "KKL Fabric 9-Drawer Dressers are being recalled due to serious safety concerns related to tip-over and entrapment hazards. These dressers, available in black, brown, and white, feature a metal frame, a wooden top with recessed power outlets, and nine collapsible fabric drawers. They measure 37.8 inches in length, 11.8 inches in width, and 53.9 inches in height.",
+      "URL": "https://www.cpsc.gov/Recalls/2026/KKL-Fabric-9-Drawer-Dressers-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Tip-Over-and-Entrapment-Hazards-Violate-Mandatory-Standard-for-Clothing-Storage-Units-Sold-on-Amazon-by-HK-Brilliant",
+      "Title": "KKL Fabric 9-Drawer Dressers Recalled for Tip-Over and Entrapment Risks",
+      "ConsumerContact": "For further assistance, reach out to HK Brilliant via email at support-us@kkl-home.com or visit https://kkl-home.com/ and select the \"Recall\" option at the top of the page.",
+      "LastPublishDate": "2025-12-18T00:00:00",
+      "Products": [
+        {
+          "Name": "KKL Fabric 9-Drawer Dressers",
+          "NumberOfUnits": "About 4,740"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/furniture/14-KKL-Fabric-9-Drawer-Dressers/54355fa088dff03c83b2d96941f64046.webp",
+          "Caption": "Recalled KKL Fabric 9-Drawer Dresser in brown (front)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Picture10_5.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/furniture/14-KKL-Fabric-9-Drawer-Dressers/65a05aa79156351c2e923616a0c01e15.webp",
+          "Caption": "Recalled KKL Fabric 9-Drawer Dresser in brown (side)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Picture11_7.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/furniture/14-KKL-Fabric-9-Drawer-Dressers/5efef083a4a647203447a4d14c4a0119.webp",
+          "Caption": "Recalled KKL Fabric 9-Drawer Dresser in brown (back)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Picture12_3.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/furniture/14-KKL-Fabric-9-Drawer-Dressers/5a379f5f51e16b08a1e5d730119cb758.webp",
+          "Caption": "Recalled KKL Fabric 9-Drawer Dresser in white (front)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Picture13_4.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/furniture/14-KKL-Fabric-9-Drawer-Dressers/835379376d5b8e1423d1c2e3c9cf42bc.webp",
+          "Caption": "Recalled KKL Fabric 9-Drawer Dresser in white (front)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Picture14_2.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/furniture/14-KKL-Fabric-9-Drawer-Dressers/d64a2134381378e682376c49282804f0.webp",
+          "Caption": "Recalled KKL Fabric 9-Drawer Dresser in white (back)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Picture15_3.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/furniture/14-KKL-Fabric-9-Drawer-Dressers/5b9d2440a95f60b7d521dd9607b7a78a.webp",
+          "Caption": "Recalled KKL Fabric 9-Drawer Dresser in black (front)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Picture16_2.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/furniture/14-KKL-Fabric-9-Drawer-Dressers/8c8433f71b6dbfbc94e0d015c9dcc732.webp",
+          "Caption": "Recalled KKL Fabric 9-Drawer Dresser in black (side)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Picture17_2.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/furniture/14-KKL-Fabric-9-Drawer-Dressers/795c54e8c7cf0116995f33edd35fa012.webp",
+          "Caption": "Recalled KKL Fabric 9-Drawer Dresser in black (back)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Picture18_2.jpg"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "Changzhou Municipal Sea Metal Products Co. Ltd., of China"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available online at Amazon.com from September 2023 to November 2025, priced around $100."
+        }
+      ],
+      "Distributors": [
+        {
+          "Name": "HK Brilliant dba KKL, of China"
+        }
+      ],
+      "SoldAtLabel": "Sold Online At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Unstable design leading to tip-over and entrapment risks, especially for children, violating the STURDY Act safety standards."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Immediately stop using the dressers if they are not anchored to the wall and keep them out of children's reach. Contact HK Brilliant for disposal instructions to obtain a full refund, including submitting a photo of the disposed product to support-us@kkl-home.com."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "slug": "kkl-fabric-9-drawer-dressers-recalled-for-tip-over-and-entrapment-risks-recall",
+      "metaDescription": "KKL Fabric 9-Drawer Dressers recalled due to serious tip-over hazards. Stop using immediately and contact HK Brilliant for a refund."
+    },
+    {
+      "RecallID": 10531,
+      "RecallNumber": "26156",
+      "RecallDate": "2025-12-18T00:00:00",
+      "Description": "17 Stories Furniture is recalling their 18-Drawer Dressers due to significant safety concerns related to tip-over and entrapment hazards. These dressers, available in black, brown, and gray, feature a metal frame, a wooden top, and 18 collapsible fabric drawers. Model numbers HI1382_13, HI1382_01, or HI1382_09 can be found on the product's outer packaging label. Failure to anchor these dressers to the wall increases the risk of serious injury or death, especially for children, which violates safety standards set by the STURDY Act.",
+      "URL": "https://www.cpsc.gov/Recalls/2026/17-Stories-Furniture-18-Drawer-Dressers-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Tip-Over-and-Entrapment-Hazards-Violates-Mandatory-Standard-for-Clothing-Storage-Units-Imported-by-Shenzhen-Jinhongzhen-Technology-Co",
+      "Title": "Recall of 17 Stories Furniture 18-Drawer Dressers Due to Tip-Over and Entrapment Risks",
+      "ConsumerContact": "For further assistance, consumers can reach out to 17 Stories Furniture via email at Drawer18Recall@outlook.com.",
+      "LastPublishDate": "2025-12-18T00:00:00",
+      "Products": [
+        {
+          "Name": "17 Stories Furniture 18-Drawer Dressers",
+          "NumberOfUnits": "About 2,800"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/furniture/15-17-Stories-Furniture-18-Drawer-Dressers/65f562b8e47dbdc870a22c7d8980adb7.webp",
+          "Caption": "Recalled 17 Stories Furniture Dresser in black (front)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Picture1_44.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/furniture/15-17-Stories-Furniture-18-Drawer-Dressers/d5e924235c704b99ef2ed76dc1c16abe.webp",
+          "Caption": "Recalled 17 Stories Furniture Dresser in black (side)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Picture2_42.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/furniture/15-17-Stories-Furniture-18-Drawer-Dressers/012cd5fa7d56215902781830aea405b2.webp",
+          "Caption": "Recalled 17 Stories Furniture Dresser in black (back)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Picture3_27.jpg"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "Jiangsu Quanronghe Smart Home Co., Ltd., of China"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available at Wayfair.com from September 2023 to November 2025 for approximately $100."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Shenzhen Jinhongzhen Technology Co., Ltd., of China"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of tip-over and entrapment if not anchored to the wall, posing serious injury or death risks to children."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Immediately stop using the dressers if they are unanchored, relocate them out of children's reach, and contact 17 Stories Furniture for disposal instructions to obtain a full refund. A disposal photo must be sent to Drawer18Recall@outlook.com."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "HI1382_13",
+        "HI1382_01",
+        "HI1382_09"
+      ],
+      "slug": "recall-of-17-stories-furniture-18-drawer-dressers-due-to-tip-over-and-entrapment-risks-recall",
+      "metaDescription": "17 Stories Furniture recalls 18-Drawer Dressers due to serious tip-over risks. Immediate action required for safety."
+    },
+    {
+      "RecallID": 10528,
+      "RecallNumber": "26153",
+      "RecallDate": "2025-12-18T00:00:00",
+      "Description": "Furnulem is recalling its 8-Drawer Dressers due to serious safety concerns. These dressers, available in black, brown, and white, measure approximately 13.8 inches in length, 45 inches in width, and 29.7 inches in height. They feature a metal frame, a wooden top with built-in power outlets, and eight collapsible fabric drawers. The model number \"DS-0148D003\" can be found on the packaging.",
+      "URL": "https://www.cpsc.gov/Recalls/2026/Furnulem-8-Drawer-Dressers-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Tip-Over-and-Entrapment-Violate-Mandator-Standard-for-Clothing-Storage-Units-Sold-on-Amazon-by-Furnulem",
+      "Title": "Furnulem 8-Drawer Dressers Recalled Due to Tip-Over and Entrapment Risks",
+      "ConsumerContact": "For assistance, contact Furnulem at 310-227-9560 between 9 a.m. and 4 p.m. PT, Monday to Friday, email support@furnulem.com, or visit https://furnulem.com/pages/voluntary-safety-recall or www.furnulem.com and select \"Recall\" for further details.",
+      "LastPublishDate": "2025-12-18T00:00:00",
+      "Products": [
+        {
+          "Name": "Furnulem 8-Drawer Dressers",
+          "NumberOfUnits": "About 16,800"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/furniture/16-Furnulem-8-Drawer-Dressers/6d6c9dee7ea52b5c2e443eff4f928e1d.webp",
+          "Caption": "Recalled Furnulem Fabric 8-Drawer Dresser in white (front)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/furnulem-1.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/furniture/16-Furnulem-8-Drawer-Dressers/4036d2e36bc8f4170f464c9cf3d15e65.webp",
+          "Caption": "Recalled Furnulem Fabric 8-Drawer Dresser in white (side)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/furnulem-2.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/furniture/16-Furnulem-8-Drawer-Dressers/3f4d0aff108bd2ab84842aa22c46e079.webp",
+          "Caption": "Recalled Furnulem Fabric 8-Drawer Dresser in white (back)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/furnulem-3.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/furniture/16-Furnulem-8-Drawer-Dressers/e804952d7f1bd44e236daf8d72717062.webp",
+          "Caption": "Recalled Furnulem Fabric 8-Drawer Dresser in brown (front)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/furnulem-4.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/furniture/16-Furnulem-8-Drawer-Dressers/bd91af5ed8138b64647c3eea7134873c.webp",
+          "Caption": "Recalled Furnulem Fabric 8-Drawer Dresser in brown (side)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/furnulem-5.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/furniture/16-Furnulem-8-Drawer-Dressers/4a94d3818d4b1ce2c323251c64fa00f6.webp",
+          "Caption": "Recalled Furnulem Fabric 8-Drawer Dresser in brown (back)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/furnulem-6.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/furniture/16-Furnulem-8-Drawer-Dressers/593f3037fc55dfa01765ba35a0274b55.webp",
+          "Caption": "Recalled Furnulem Fabric 8-Drawer Dresser in black (front)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/furnulem-7.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/furniture/16-Furnulem-8-Drawer-Dressers/06e0f3c02ad8d78297bac1aa916b4b1a.webp",
+          "Caption": "Recalled Furnulem Fabric 8-Drawer Dresser in black (side)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/furnulem-8.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/furniture/16-Furnulem-8-Drawer-Dressers/1e6f8e0707ec3df3744a4f24b7430477.webp",
+          "Caption": "Recalled Furnulem Fabric 8-Drawer Dresser in black (back)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/furnulem-9.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/furniture/16-Furnulem-8-Drawer-Dressers/38b7ea0d47875736587030ef57e97fea.webp",
+          "Caption": "Recalled Furnulem Fabric 8-Drawer Dresser Packaging with Model Number DS-0148D00",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/furnulem-10.jpg"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available online at Amazon.com from September 2023 to November 2025 for approximately $80."
+        }
+      ],
+      "Distributors": [
+        {
+          "Name": "Shanghai Taiye Furniture Co., Ltd., dba Furnulem, of China"
+        }
+      ],
+      "SoldAtLabel": "Sold Online At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "The dressers may tip over if not secured to the wall, creating risks of entrapment and serious injury or death, especially to children. They do not meet the safety standards mandated by the STURDY Act."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should cease using the dressers if they are not wall-anchored and move them to an inaccessible area for children. Contact Furnulem for disposal instructions to obtain a full refund. A photo demonstrating the disposal must be sent to support@furnulem.com."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "DS-0148D003"
+      ],
+      "slug": "furnulem-8-drawer-dressers-recalled-due-to-tip-over-and-entrapment-risks-recall",
+      "metaDescription": "Furnulem recalls 8-Drawer Dressers due to serious tip-over risks. Learn how to safely dispose of the product for a full refund."
+    },
+    {
+      "RecallID": 10509,
+      "RecallNumber": "26127",
+      "RecallDate": "2025-12-04T00:00:00",
+      "Description": "Casaottima is recalling its 13-Drawer Dressers due to serious safety concerns related to tip-over and entrapment hazards. These dressers, available in black, black and vintage, gray, and pink, feature a metal frame, a wooden top, and 13 collapsible fabric drawers. They measure approximately 55 inches in width, 11.8 inches in depth, and 39.8 inches in height. The affected dressers are identified by the following model numbers: B0D62S9H39, B0D62TCKD7, B0D62SQC6Q, B0D62VBGZG.",
+      "URL": "https://www.cpsc.gov/Recalls/2026/Casaottima-13-Drawer-Dressers-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Tip-Over-and-Entrapment-Hazards-Violates-Mandatory-Standard-for-Clothing-Storage-Units-Sold-on-Amazon-by-Casaottima",
+      "Title": "Casaottima 13-Drawer Dressers Recalled for Tip-Over and Entrapment Risks",
+      "ConsumerContact": "For further assistance, consumers can reach out to Casaottima via email at support@casaottima.store or visit their website at https://casaottima-store.com/ and select 'Recall' at the top of the page.",
+      "LastPublishDate": "2025-12-04T00:00:00",
+      "Products": [
+        {
+          "Name": "Casaottima 13-Drawer Dressers",
+          "NumberOfUnits": "About 4,120"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/furniture/17-Casaottima-13-Drawer-Dressers/e4f844ff9573331fc54e37409c772f05.webp",
+          "Caption": "Recalled Casaottima 13-Drawer Dresser (front view)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Picture11_6.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/furniture/17-Casaottima-13-Drawer-Dressers/675f8f47e04e82c78c205d349641b738.webp",
+          "Caption": "Recalled Casaottima 13-Drawer Dresser (back view)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Picture12_2.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/furniture/17-Casaottima-13-Drawer-Dressers/2cf746954df46c7bc11c05bf110a4e51.webp",
+          "Caption": "Recalled Casaottima 13-Drawer Dresser (side view)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Picture13_3.jpg"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "Changzhou Municipal Sea Metal Products Co. Ltd., of China"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available online at Amazon.com from September 2024 to October 2025 for approximately $90."
+        }
+      ],
+      "Distributors": [
+        {
+          "Name": "Ningbo Xinsuda Trading Co., Ltd., dba Casaottima"
+        }
+      ],
+      "SoldAtLabel": "Sold Online At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of tip-over and entrapment, posing serious injury or death risks, especially to children. Non-compliance with STURDY Act standards."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should cease use of the dressers if they are not secured to the wall and relocate them out of children's reach. Contact Casaottima for disposal instructions to obtain a full refund, and submit a disposal photo to support@casaottima.store."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "B0D62S9H39",
+        "B0D62TCKD7",
+        "B0D62SQC6Q",
+        "B0D62VBGZG"
+      ],
+      "slug": "casaottima-13-drawer-dressers-recalled-for-tip-over-and-entrapment-risks-recall",
+      "metaDescription": "Casaottima recalls 13-Drawer Dressers due to serious tip-over hazards. Learn how to get a refund and ensure safety."
+    },
+    {
+      "RecallID": 10496,
+      "RecallNumber": "26107",
+      "RecallDate": "2025-11-26T00:00:00",
+      "Description": "Ebern Designs is recalling their Ojaswi 12-Drawer Dressers due to significant safety concerns. These dressers, available in gray and white, feature a metal frame, a wooden top, and 12 collapsible fabric drawers. Measuring approximately 39 inches by 43 inches by 12 inches and weighing around 31.7 pounds, they are at risk of tipping over if not properly anchored to a wall, posing serious dangers, especially to children. This product does not meet the safety standards mandated by the STURDY Act.\n\nConsumers are advised to cease using these dressers immediately if they are not secured to a wall and to keep them out of reach of children. For disposal instructions and to obtain a full refund, please contact Ebern Designs. A photo demonstrating the disposal of the dresser must be submitted to Ojaswi12Drecall@outlook.com as part of the refund process.",
+      "URL": "https://www.cpsc.gov/Recalls/2026/Ebern-Designs-Ojaswi-12-Drawer-Dressers-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Tip-Over-and-Entrapment-Violates-Mandatory-Standard-for-Clothing-Storage-Units;-Manufactured-and-Sold-by-Ebern-Designs",
+      "Title": "Recall of Ebern Designs Ojaswi 12-Drawer Dressers Due to Tip-Over and Entrapment Risks",
+      "ConsumerContact": "Contact Ebern Designs via email at Ojaswi12Drecall@outlook.com.",
+      "LastPublishDate": "2025-11-26T00:00:00",
+      "Products": [
+        {
+          "Name": "Ojaswi 12-Drawer Dressers",
+          "NumberOfUnits": "About 285"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/furniture/18-Ojaswi-12-Drawer-Dressers/c704f679335d0ba99958a47057ce1b9c.webp",
+          "Caption": "Recalled Ojaswi 12-Drawer Dressers in gray (front)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Picture1_43.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/furniture/18-Ojaswi-12-Drawer-Dressers/87a350d29d92925f1c0a32bc10874792.webp",
+          "Caption": "Recalled Ojaswi 12-Drawer Dressers in gray (back)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Picture2_40.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/furniture/18-Ojaswi-12-Drawer-Dressers/b180b84a2114418d2305d979a8ae0a00.webp",
+          "Caption": "Recalled Ojaswi 12-Drawer Dressers in gray (side)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Picture3_26.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/furniture/18-Ojaswi-12-Drawer-Dressers/8f7ae19dd9113b2ffd764c4a5c88bb52.webp",
+          "Caption": "Recalled Ojaswi 12-Drawer Dressers in white (front)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Picture4_18.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/furniture/18-Ojaswi-12-Drawer-Dressers/7eb8d131ac504163ca695cdb717afbed.webp",
+          "Caption": "Recalled Ojaswi 12-Drawer Dressers in white (back)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Picture5_10.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/furniture/18-Ojaswi-12-Drawer-Dressers/cf7e6373f216cf6d0841929aa4f104f0.webp",
+          "Caption": "Recalled Ojaswi 12-Drawer Dressers in white (side)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Picture6_8.jpg"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "Ji Nan BinCai E-Commerce Co., Ltd. dba Ebern Designs, of China"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available online at Wayfair.com from January 2025 through October 2025 for approximately $75."
+        }
+      ],
+      "SoldAtLabel": "Sold Online At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of tip-over and entrapment, potentially leading to serious injury or death."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Stop using the dressers, secure them out of children's reach, and contact Ebern Designs for disposal instructions and a refund."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "HD011BL-SL",
+        "HD011WH-SL"
+      ],
+      "slug": "recall-of-ebern-designs-ojaswi-12-drawer-dressers-due-to-tip-over-and-entrapment-risks-recall",
+      "metaDescription": "Ebern Designs recalls Ojaswi 12-Drawer Dressers due to tip-over risks, posing serious hazards to children. Learn how to get a refund."
+    },
+    {
+      "RecallID": 10489,
+      "RecallNumber": "26096",
+      "RecallDate": "2025-11-20T00:00:00",
+      "Description": "Little Partners has issued a recall for the Grow 'N Stow Folding Learning Tower, model number LP01711, with date codes ranging from 202409 to 202501. The model number and date code can be found on a label located on the underside of the platform. This wooden tower features a natural finish and has 'Learning Tower' printed on its top rail.",
+      "URL": "https://www.cpsc.gov/Recalls/2026/Little-Partners-Recalls-Childrens-Grow-N-Stow-Folding-Learning-Towers-Due-to-Fall-Hazard",
+      "Title": "Little Partners Recalls Grow 'N Stow Folding Learning Towers Due to Fall Risk",
+      "ConsumerContact": "For assistance, contact Little Partners at 800-704-9058 from 9 a.m. to 7 p.m. ET Monday through Friday, and 12 p.m. to 5 p.m. ET Saturday. You can also reach them via email at recall@LittlePartners.com or visit https://littlepartners.com/pages/product-recalls for more information.",
+      "LastPublishDate": "2025-11-20T00:00:00",
+      "Products": [
+        {
+          "Name": "Grow 'N Stow Folding Learning Tower",
+          "NumberOfUnits": "About 9,780"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/furniture/19-Grow-N-Stow-Folding-Learning-Tower/f56f6ab75c72c102df7f72fe718471fc.webp",
+          "Caption": "Recalled Grow 'N Stow Folding Learning Tower (front and folded views)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/RecalledGrowNStowFoldingLearningTower_frontfoldedview.png"
+        },
+        {
+          "URL": "/images/generalRecalls/furniture/19-Grow-N-Stow-Folding-Learning-Tower/ddb38abbc379705f00d8115d19e6d528.webp",
+          "Caption": "Recalled Grow 'N Stow Folding Learning Tower (model and date code location)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/RecalledGrowNStowFoldingLearningTower_modelanddatecodelocation.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received 14 reports of the folding towers collapsing, including one report of a child with bruises."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available at Walmart stores nationwide and online at Walmart.com, Amazon.com, Littlepartners.com, Etsy.com, Wayfair.com, Goodbyegear.com, Buybuybaby.com, and Bedbathandbeyond.com from December 2024 through September 2025, priced around $100."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "LPA1, LLC dba Little Partners, of Exton, Pennsylvania"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Potential for platform collapse, leading to fall risks for young children."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should cease use of the recalled tower immediately, keep it away from children, and contact Little Partners to obtain a free repair kit. The kit includes a new crossbar with pin tabs and installation instructions. The replacement crossbar will have a sticker indicating it is not part of the recall. The old crossbar should be removed and disposed of."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ],
+      "slug": "little-partners-recalls-grow-n-stow-folding-learning-towers-due-to-fall-risk-recall",
+      "metaDescription": "Little Partners recalls Grow 'N Stow Folding Learning Towers due to fall hazards. Learn how to get a free repair kit."
+    },
+    {
+      "RecallID": 10495,
+      "RecallNumber": "26106",
+      "RecallDate": "2025-11-20T00:00:00",
+      "Description": "Romorgniz is recalling its Fabric 12- and 13-Drawer Dressers due to potential safety hazards. These dressers, available in rustic brown, black, pink, and white, feature a metal frame with a wooden top. The 12-drawer model measures approximately 52 inches by 12 inches by 35 inches, while the 13-drawer version measures around 35 inches by 11 inches by 55 inches. Each model has specific identifiers printed on the back for reference.",
+      "URL": "https://www.cpsc.gov/Recalls/2026/Romorgniz-Fabric-12-and-13-Drawer-Dressers-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Tip-Over-and-Entrapment-Violates-Mandatory-Standard-for-Clothing-Storage-Units-Sold-on-Amazon-by-Romorgniz",
+      "Title": "Romorgniz Fabric Dressers Recalled Due to Serious Tip-Over and Entrapment Risks",
+      "ConsumerContact": "For assistance, reach out to Romorgniz at Romorgnizrecall@outlook.com.",
+      "LastPublishDate": "2025-11-20T00:00:00",
+      "Products": [
+        {
+          "Name": "Romorgniz Fabric 12-Drawer Dresser",
+          "NumberOfUnits": "About 1,980 13-Drawer Dressers and 35 12-Drawer Dressers"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/furniture/20-Romorgniz-Fabric-12-Drawer-Dresser/e61eab1d8f746ab5705addaea352b6f2.webp",
+          "Caption": "Recalled Romorgniz Fabric 12-Drawer Dresser in black (front)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/romo-1.gif"
+        },
+        {
+          "URL": "/images/generalRecalls/furniture/20-Romorgniz-Fabric-12-Drawer-Dresser/5bf30f2bde09a86c6d64c95b23918993.webp",
+          "Caption": "Recalled Romorgniz Fabric 12-Drawer Dresser in black (side)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/romo-2.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/furniture/20-Romorgniz-Fabric-12-Drawer-Dresser/c98040a0a53aa2c577e3af205e5e8809.webp",
+          "Caption": "Recalled Romorgniz Fabric 12-Drawer Dresser Label (back)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/romo-3.png"
+        },
+        {
+          "URL": "/images/generalRecalls/furniture/20-Romorgniz-Fabric-12-Drawer-Dresser/3f022b56d400aa248f097b1bde833c95.webp",
+          "Caption": "Recalled Romorgniz 13-Drawer Dresser in rustic brown (front)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/romo-4.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/furniture/20-Romorgniz-Fabric-12-Drawer-Dresser/41729f74869960eb5b38b55347d0baa8.webp",
+          "Caption": "Recalled Romorgniz 13-Drawer Dresser in rustic brown (side)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/romo-5.jpg"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "Baituo Innovation Technology Co. Ltd., dba Romorgniz, of China"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available on Amazon.com from July 2025 to October 2025, priced around $140 for the 13-drawer dresser and approximately $80 for the 12-drawer dresser."
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Unstable dressers pose serious tip-over and entrapment risks, especially to children, violating mandatory safety standards."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Immediately stop using the dressers if not secured to the wall, keep them away from children, and contact Romorgniz for disposal instructions to receive a full refund."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "Model No.: R99MWM12CHMW",
+        "Model No.: R99M9C4CLHW"
+      ],
+      "slug": "romorgniz-fabric-dressers-recalled-due-to-serious-tip-over-and-entrapment-risks-recall",
+      "metaDescription": "Romorgniz recalls Fabric Dressers due to tip-over risks. Stop using immediately and contact for refund details."
+    },
+    {
+      "RecallID": 10466,
+      "RecallNumber": "26066",
+      "RecallDate": "2025-10-30T00:00:00",
+      "Description": "The recall now includes WLIVE Fabric 16-drawer dressers, which are available in various colors including charcoal black, black rustic brown, and white. These dressers feature a metal frame, a wooden top, and 16 collapsible fabric drawers. The model number \"ASNG093\" can be found on the product packaging labels. It is crucial to note that these dressers can be unstable if not properly anchored to a wall, posing significant risks of tip-over and potential entrapment, especially for children. This situation violates safety standards mandated by the STURDY Act.",
+      "URL": "https://www.cpsc.gov/Recalls/2026/WLIVE-Fabric-Drawer-Dressers-Recall-Expanded-to-Include-16-Drawer-Dressers-Due-to-Risk-of-Serious-Injury-or-Death-from-Tip-Over-and-Entrapment-Violates-Mandatory-Standard-for-Clothing-Storage-Units-Sold-on-Amazon-by-WLIVE",
+      "Title": "Expanded Recall of WLIVE Fabric 16-Drawer Dressers Due to Tip-Over and Entrapment Risks",
+      "ConsumerContact": "For further assistance, consumers can reach WLIVE at 833-367-7572 from 9 a.m. to 6 p.m. PT, Monday through Friday, or email wliveproductrecall@wlivehome.com. More details can be found at http://wlivehome.com by clicking on the 'Recall' section at the top of the page.",
+      "LastPublishDate": "2025-10-31T00:00:00",
+      "Products": [
+        {
+          "Name": "WLIVE Fabric 16-Drawer Dressers",
+          "NumberOfUnits": "About 34,730 16-drawer dressers. (About 76,500 12-drawer dressers were previously recalled)"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/furniture/21-WLIVE-Fabric-16-Drawer-Dressers/9b068659696e2f477e733f86897f4fdb.webp",
+          "Caption": "Recalled WLIVE Fabric 16-Drawer Dresser in Rustic Brown Wood Grain Prin",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/RecalledWLIVEFabric16DrawerDresserRusticBrownWoodGrainPrint.png"
+        },
+        {
+          "URL": "/images/generalRecalls/furniture/21-WLIVE-Fabric-16-Drawer-Dressers/e0f50ada703cc8b2292fd62e51fc2cff.webp",
+          "Caption": "Recalled WLIVE Fabric 16-Drawer Dresser in Charcoal Black",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/RecalledWLIVEFabric16DrawerDresserCharcoal Black .png"
+        },
+        {
+          "URL": "/images/generalRecalls/furniture/21-WLIVE-Fabric-16-Drawer-Dressers/3924633ec7bc4cc376e0a42788d60c4a.webp",
+          "Caption": "Recalled WLIVE Fabric 16-Drawer Dresser in Charcoal Black Wood Grain",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/RecalledWLIVEFabric16DrawerDresserCharcoalBlackWoodGrain.png"
+        },
+        {
+          "URL": "/images/generalRecalls/furniture/21-WLIVE-Fabric-16-Drawer-Dressers/e3c6bde872a9de9c154c188932f2dc05.webp",
+          "Caption": "Recalled WLIVE Fabric 16-Drawer Dresser in Dark Gray",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/RecalledWLIVEFabric16DrawerDresserCharcoalDarkGrey.png"
+        },
+        {
+          "URL": "/images/generalRecalls/furniture/21-WLIVE-Fabric-16-Drawer-Dressers/7c8999b453c0024b0aeec68d13845a7b.webp",
+          "Caption": "Recalled WLIVE Fabric 16-Drawer Dresser in Light Gray",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/RecalledWLIVEFabric16DrawerDresserLightGrey.png"
+        },
+        {
+          "URL": "/images/generalRecalls/furniture/21-WLIVE-Fabric-16-Drawer-Dressers/f3042752390ba29551e4d1aa2993ff2a.webp",
+          "Caption": "Recalled WLIVE Fabric 16-Drawer Dresser in White",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/RecalledWLIVEFabric16DrawerDresserWhite.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "Jiangsu Zhi Pai Furniture Manufacturing Co., Ltd., of China"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available on Amazon from September 2023 through August 2025 for approximately $100."
+        }
+      ],
+      "Distributors": [
+        {
+          "Name": "WLIVE, of China"
+        }
+      ],
+      "SoldAtLabel": "Sold Online At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of tip-over and entrapment due to instability if not anchored to the wall."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should immediately stop using the dressers if they are not anchored, keep them out of children's reach, and contact WLIVE for disposal instructions and a full refund. A photo showing the disposal of the product must be sent to wliveproductrecall@wlivehome.com."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "ASNG093"
+      ],
+      "slug": "expanded-recall-of-wlive-fabric-16-drawer-dressers-due-to-tip-over-and-entrapment-risks-recall",
+      "metaDescription": "WLIVE recalls 16-drawer dressers due to serious tip-over risks. Immediate action required for safety. Contact WLIVE for refund details."
+    },
+    {
+      "RecallID": 10456,
+      "RecallNumber": "26055",
+      "RecallDate": "2025-10-30T00:00:00",
+      "Description": "YaFiti is recalling its Fabric 12-Drawer Dressers due to serious safety concerns. These dressers, available in colors such as black, grey, pink, and rustic brown, feature a metal frame, a wooden top, and 12 collapsible fabric drawers. They are marked with model numbers printed on the outer packaging, including \"HI1381_13\" and \"DD-02-BP\" among others. Without proper anchoring, these units can tip over, posing significant hazards, particularly to children.\n\nConsumers are urged to stop using these dressers immediately if they are not secured to the wall. It is vital to keep them out of reach of children and to contact YaFiti for guidance on safe disposal to obtain a full refund. A photo showing the disposal must be sent to the provided email for processing.",
+      "URL": "https://www.cpsc.gov/Recalls/2026/YaFiti-Fabric-12-Drawer-Dressers-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Tip-Over-and-Entrapment-Violates-Mandatory-Standard-for-Clothing-Storage-Units-Sold-on-Amazon-by-YaFiti",
+      "Title": "YaFiti Fabric 12-Drawer Dressers Recalled Due to Tip-Over and Entrapment Risks",
+      "ConsumerContact": "For assistance, reach out to YaFiti at 877-452-4067 from 9 a.m. to 6 p.m. PT, Monday through Friday, or email Yafitiservice@outlook.com. Visit www.yafiti.com and click on \"Recall\" for further details.",
+      "LastPublishDate": "2025-10-31T00:00:00",
+      "Products": [
+        {
+          "Name": "YaFiti Fabric 12-Drawer Dressers",
+          "NumberOfUnits": "About 6,880"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/furniture/22-YaFiti-Fabric-12-Drawer-Dressers/b0117bedcceaec580eea39c533cfb61d.webp",
+          "Caption": "Recalled YaFiti 12-Drawer Rustic Brown Dresser (front view)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/brown-yafiti-1.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/furniture/22-YaFiti-Fabric-12-Drawer-Dressers/2587d271f3e7195691842dca0fc83ef4.webp",
+          "Caption": "Recalled YaFiti 12-Drawer Rustic Brown Dresser (side view)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/brown-yafiti-2.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/furniture/22-YaFiti-Fabric-12-Drawer-Dressers/b49ea407c0bb48fd72ee1159298442b6.webp",
+          "Caption": "Recalled YaFiti 12-Drawer Rustic Brown Dresser (back view)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/brown-yafiti-3.jpg"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "Xuzhou Mingquanhe Household Co., Ltd., of China"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available on Amazon from September 2023 to September 2025, priced around $95."
+        }
+      ],
+      "Distributors": [
+        {
+          "Name": "YaFiti Store, of China"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of tip-over and entrapment, especially for children, due to lack of wall anchoring; non-compliance with STURDY Act standards."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Stop using the dressers if not anchored, keep them away from children, and contact YaFiti for disposal instructions to receive a full refund."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "HI1381_13",
+        "DD-02-BP",
+        "HI1381_09",
+        "DD-02-O",
+        "DD-02-P",
+        "DD-02-B"
+      ],
+      "slug": "yafiti-fabric-12-drawer-dressers-recalled-due-to-tip-over-and-entrapment-risks-recall",
+      "metaDescription": "YaFiti recalls Fabric 12-Drawer Dressers due to tip-over risks. Immediate action required for consumer safety. Contact for refund details."
+    },
+    {
+      "RecallID": 10459,
+      "RecallNumber": "26059",
+      "RecallDate": "2025-10-30T00:00:00",
+      "Description": "Crate & Barrel is recalling its Ana Dining Chairs due to a potential fall risk caused by breaking legs. This recall affects chairs with SKU numbers including 108-976, 109-100, 109-117, 109-123, 121-287, 436-035, 436-074, 436-096, 436-123, 686-763, 686-774, 387-127, 387-135, 387-141, and 387-166, which can be found on the underside of the chair seat. Chairs sold after January 23, 2025, are not included in this recall. The affected chairs come in various colors such as charcoal, gray, ivory, navy, gray velvet, camel velvet, and olive-green velvet.",
+      "URL": "https://www.cpsc.gov/Recalls/2026/Crate-and-Barrel-Recalls-Ana-Dining-Chairs-Due-to-Fall-Hazard",
+      "Title": "Crate & Barrel Recalls Ana Dining Chairs Due to Fall Risk",
+      "ConsumerContact": "Consumers should immediately stop using the recalled chairs and reach out to Crate & Barrel at 800-451-8217 from 8 a.m. to 7 p.m. CT Monday through Friday, or 8 a.m. to 6 p.m. CT on weekends. They can also email recall@crateandbarrel.com or visit https://www.crateandbarrel.com/customer-service/product-recalls for further assistance.",
+      "LastPublishDate": "2025-10-31T00:00:00",
+      "Products": [
+        {
+          "Name": "Ana Dining Chair",
+          "NumberOfUnits": "About 54,930 (In addition, about 3,160 were sold in Canada)"
+        }
+      ],
+      "Inconjunctions": [
+        {
+          "URL": "https://recalls-rappels.canada.ca/en/alert-recall/crate-barrel-ana-dining-chairs-recalled-due-fall-hazard"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/furniture/23-Ana-Dining-Chair/3e36519fe1cc758ea7c9aef4a3951769.webp",
+          "Caption": "Recalled Crate & Barrel Ana Dining Chairs",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Picture3_79.png"
+        },
+        {
+          "URL": "/images/generalRecalls/furniture/23-Ana-Dining-Chair/6eddd146a677bacb33bfd527cd7e2b70.webp",
+          "Caption": "SKU Label location",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Picture4.gif"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received 149 reports of chair legs breaking, including 10 reports of injuries to the head, back, arms and face."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available at Crate & Barrel stores and online at Crateandbarrel.com from January 2021 through January 2025, priced between $300 and $350."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Euromarket Designs, Inc., dba Crate & Barrel, of Northbrook, Illinois"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Fall risk due to chair legs breaking"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Free replacement chair and free pickup of the recalled chair"
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Replace"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "SKU numbers: 108-976, 109-100, 109-117, 109-123, 121-287, 436-035, 436-074, 436-096, 436-123, 686-763, 686-774, 387-127, 387-135, 387-141, 387-166"
+      ],
+      "slug": "crate-barrel-recalls-ana-dining-chairs-due-to-fall-risk-recall",
+      "metaDescription": "Crate & Barrel recalls Ana Dining Chairs due to fall hazards. Contact them for a free replacement and pickup."
+    }
+  ]
+}

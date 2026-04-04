@@ -1,0 +1,468 @@
+{
+  "meta": {
+    "slug": "cables-and-surge-and-power-protection",
+    "sourceCsvFile": "cables-and-surge-and-power-protection_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:36.859Z",
+    "recallCount": 6,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "cables-and-surge-and-power-protection.json",
+    "seoTranslatedAt": "2026-04-03T22:24:40.568Z",
+    "resumePartial": false
+  },
+  "recalls": [
+    {
+      "RecallID": 10676,
+      "RecallNumber": "26346",
+      "RecallDate": "2026-03-26T00:00:00",
+      "Description": "CCCEI-branded power strips, available in 6ft, 10ft, and 15ft cord lengths, have been recalled due to a serious fire hazard. These power strips feature a black metal casing with six black plastic receptacles, each equipped with individual on/off switches. A warning label on the back advises users to keep them away from children and to use them only indoors to prevent electric shock.",
+      "URL": "https://www.cpsc.gov/Recalls/2026/CCCEI-Brand-Power-Strips-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Fire-Sold-by-Middle-Way-Electronics",
+      "Title": "CCCEI Power Strips Recalled Due to Fire Hazard Risk",
+      "ConsumerContact": "For assistance, please contact Middle Way Electronics via email at CCCEIpowerstrips@outlook.com.",
+      "LastPublishDate": "2026-03-27T00:00:00",
+      "Products": [
+        {
+          "Name": "CCCEI Power Strips",
+          "NumberOfUnits": "About 5,543"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/cables-and-surge-and-power-protection/1-CCCEI-Power-Strips/d1cc2a8e709c5daa5e3f1c914f531732.webp",
+          "Caption": "Recalled CCCEI Power Strip front",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/ccceiPS-1.png"
+        },
+        {
+          "URL": "/images/generalRecalls/cables-and-surge-and-power-protection/1-CCCEI-Power-Strips/54aaff7dc55c29f6a790567fc1dc5ced.webp",
+          "Caption": "Recalled CCCEI Power Strip back with white warning label",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/ccceiPS-2.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/cables-and-surge-and-power-protection/1-CCCEI-Power-Strips/62ab80e0c8482c6a9886f0d29ac4e15c.webp",
+          "Caption": "Recalled CCCEI Power Strip side",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/ccceiPS-3.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/cables-and-surge-and-power-protection/1-CCCEI-Power-Strips/901fe1e5282996b1e86861d9833c4c9a.webp",
+          "Caption": "Recalled CCCEI Power Strip packaging",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/ccceiPS-4.jpg"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "Middle Way Electronics has received two reports of the power strips sparking and melting. No fires or injuries have been reported."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available online at Amazon.com from April 2024 to January 2026, priced between $23 and $30."
+        }
+      ],
+      "Distributors": [
+        {
+          "Name": "Middle Way Electronics, of China"
+        }
+      ],
+      "SoldAtLabel": "Sold Online At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of fire due to lack of overcurrent protection, potentially leading to serious injury or death."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Stop using the power strips immediately and contact Middle Way Electronics for a full refund."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "slug": "cccei-power-strips-recalled-due-to-fire-hazard-risk-recall",
+      "metaDescription": "CCCEI power strips recalled due to fire risk; stop using them and contact for a refund."
+    },
+    {
+      "RecallID": 10563,
+      "RecallNumber": "26194",
+      "RecallDate": "2026-01-15T00:00:00",
+      "Description": "HEZI brand power strips are being recalled due to a serious electrocution hazard. These power strips feature a gray or yellow metal casing with eight black plastic receptacles, and include a power switch and circuit breaker located near the power cord. The design lacks proper grounding, increasing the risk of electric shock if the device is energized.",
+      "URL": "https://www.cpsc.gov/Recalls/2026/HEZI-Brand-Power-Strips-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Electrocution-Sold-by-HEZI-HOME",
+      "Title": "HEZI Power Strips Recalled for Electrocution Risk; Available at HEZI HOME",
+      "ConsumerContact": "For more information, consumers can reach HEZI HOME at 602-804-6830 from 8 a.m. to 5 p.m. ET, Monday through Friday, email recall_hezi@163.com, or visit amazon.com/hezi and select 'Product Recalls' at the top of the page.",
+      "LastPublishDate": "2026-01-16T00:00:00",
+      "Products": [
+        {
+          "Name": "HEZI Power Strips",
+          "NumberOfUnits": "About 1,320"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/cables-and-surge-and-power-protection/2-HEZI-Power-Strips/40a5ab465d47572e2e354cabca0afe24.webp",
+          "Caption": "Recalled HEZI brand power strip (gray)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/RecalledHEZIbrandpowerstripgray.png"
+        },
+        {
+          "URL": "/images/generalRecalls/cables-and-surge-and-power-protection/2-HEZI-Power-Strips/44526941491cb44a069ccee1de51e1f7.webp",
+          "Caption": "Recalled HEZI brand power strip (yellow)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/RecalledHEZIbrandpowerstripyellow.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "Dongguan Keben Electrical Appliance Co Ltd, of China"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available online at Amazon.com, Ebay.com, Kmart.com, and Sears.com from May 2024 to October 2025, priced between $35 and $56."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Shenzhenshihezijiajuyongpinyouxiangongsi dba HEZI HOME, of China"
+        }
+      ],
+      "SoldAtLabel": "Sold Online At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Electrocution hazard due to ungrounded metal enclosure"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Stop using the power strips and contact HEZI HOME for a full refund"
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "slug": "hezi-power-strips-recalled-for-electrocution-risk-available-at-hezi-home-recall",
+      "metaDescription": "HEZI power strips recalled due to electrocution risk. Stop using and contact HEZI HOME for a refund."
+    },
+    {
+      "RecallID": 10536,
+      "RecallNumber": "26161",
+      "RecallDate": "2025-12-18T00:00:00",
+      "Description": "ANNQUAN has issued a recall for two models of power strips: the EX-D112-05 and EX-D106-25. The EX-D112-05 features a black metal casing with 12 yellow plastic receptacles and an on/off switch located near the power cord. In contrast, the EX-D106-25 has a yellow metal casing with six black plastic receptacles, each equipped with individual on/off switches. Model numbers can be found on the order invoice.",
+      "URL": "https://www.cpsc.gov/Recalls/2026/ANNQUAN-Brand-Power-Strips-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Fire-Sold-on-Amazon-by-Hefei-Juyuan-Sporting-Development",
+      "Title": "Recall of ANNQUAN Power Strips Due to Fire Hazard Risk; Sold on Amazon",
+      "ConsumerContact": "For more information, contact Hefei Juyuan Sporting Development at 401-998-3366, Monday through Friday, from 9 a.m. to 5 p.m. ET, or email recall_annquan@163.com. Additional details are available online at https://annquanrecall.com/. ",
+      "LastPublishDate": "2025-12-18T00:00:00",
+      "Products": [
+        {
+          "Name": "ANNQUAN Power Strip Model EX-D112-05",
+          "NumberOfUnits": "About 11,200"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/cables-and-surge-and-power-protection/3-ANNQUAN-Power-Strip-Model-EX-D112-05/6b9b9b5015c195a0c1c0a70a46baaed7.webp",
+          "Caption": "Recalled ANNQUAN Power Strip Model EX-D112-05",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/ANNQUAN-PS-1.png"
+        },
+        {
+          "URL": "/images/generalRecalls/cables-and-surge-and-power-protection/3-ANNQUAN-Power-Strip-Model-EX-D112-05/df246fe2fadfa1b618b19c07b003a886.webp",
+          "Caption": "Recalled ANNQUAN Power Strip Model EX-D106-25",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/ANNQUAN-PS-2.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "Hefei Juyuan Sporting Development has received seven reports of the power strips blowing a fuse. No fires or injuries have been reported."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available online at Amazon.com from December 2023 to October 2025, priced between $15 and $40."
+        }
+      ],
+      "Distributors": [
+        {
+          "Name": "Hefei Juyuan Sporting Development Co., Ltd., of China"
+        }
+      ],
+      "SoldAtLabel": "Sold Online At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of fire due to lack of overcurrent protection, potentially leading to serious injury or death."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Stop using the power strips immediately and contact Hefei Juyuan Sporting Development for a full refund."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "slug": "recall-of-annquan-power-strips-due-to-fire-hazard-risk-sold-on-amazon-recall",
+      "metaDescription": "ANNQUAN recalls power strips due to fire hazards. Stop using them and contact for a refund."
+    },
+    {
+      "RecallID": 10424,
+      "RecallNumber": "26010",
+      "RecallDate": "2025-10-09T00:00:00",
+      "Description": "EcoFlow Technology has issued a recall for the Delta Max 2000 Model EFD310 Power Stations due to a potential overheating issue that could lead to serious burns or fire hazards. These power stations feature a black and silver design with a rectangular LCD display and six electrical outlets. The product name \"ECOFLOW MAX\" is located on the right side, while the nameplate on the underside displays both \"EFD310\" and \"EcoFlow DELTA Max (2000).\"",
+      "URL": "https://www.cpsc.gov/Recalls/2026/EcoFlow-Technology-Recalls-Delta-Max-2000-Power-Stations-Due-to-Risk-of-Serious-Burn-Injury-and-Fire-Hazard",
+      "Title": "EcoFlow Delta Max 2000 Power Stations Recalled Due to Burn and Fire Risks",
+      "ConsumerContact": "For assistance, consumers can reach EcoFlow Technology at 833-424-4137 from 9 a.m. to 4 p.m. ET, Monday through Friday, or via email at deltamax2000@ecoflow.com. More details can be found online at https://www.ecoflow.com/us/blog/ecoflow-delta-max-2000-recall-firmware-update or by visiting https://us.ecoflow.com and selecting \"IMPORTANT RECALL INFORMATION and Firmware Update\" at the top of the page.",
+      "LastPublishDate": "2025-10-09T00:00:00",
+      "Products": [
+        {
+          "Name": "EcoFlow Delta Max 2000 Power Station",
+          "NumberOfUnits": "About 25,030"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/cables-and-surge-and-power-protection/4-EcoFlow-Delta-Max-2000-Power-Station/3587bd60d8a1365f12782dd1f310e172.webp",
+          "Caption": "Recalled EcoFlow Delta Max 2000 Model EFD310 Power Station",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/ecoflow-1.png"
+        },
+        {
+          "URL": "/images/generalRecalls/cables-and-surge-and-power-protection/4-EcoFlow-Delta-Max-2000-Power-Station/4739e1a2f62f8ca7057d839b268beb14.webp",
+          "Caption": "Nameplate on underside of recalled EcoFlow Delta Max 2000 Model EFD310 Power Station",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/ecoflow-2.jpg"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "EcoFlow Technology has received six reports of the recalled Power Stations catching fire, with property damage totaling over $850,000."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available at Costco.com, Amazon.com, and Ecoflow.com from July 2022 to May 2025, priced around $1,600."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "EcoFlow Technology, Inc., of San Francisco, California"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of overheating, burn injuries, and fire hazards."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should cease use of the recalled power stations and contact EcoFlow Technology for guidance on a free firmware update repair."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "R"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "Model EFD310"
+      ],
+      "slug": "ecoflow-delta-max-2000-power-stations-recalled-due-to-burn-and-fire-risks-recall",
+      "metaDescription": "EcoFlow recalls Delta Max 2000 Power Stations due to serious burn and fire risks. Contact EcoFlow for a free firmware update."
+    },
+    {
+      "RecallID": 9996,
+      "RecallNumber": "24291",
+      "RecallDate": "2024-07-03T00:00:00",
+      "Description": "Hatch Baby has issued a recall for AC power adapters that were included with certain Rest 1st Generation Sound Machines. These power adapters, identified by model number CYAP05 050100U, feature a white rectangular design that plugs directly into wall outlets. Important details such as the model number, amperage (1.0A), and manufacturer information are printed near the prongs on the adapter. Note that these adapters were not available for individual sale.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/Hatch-Baby-Recalls-Power-Adapters-Sold-with-Rest-1st-Generation-Sound-Machines-Due-to-Shock-Hazard",
+      "Title": "Hatch Baby Recalls Power Adapters for Rest 1st Generation Sound Machines Due to Shock Risk",
+      "ConsumerContact": "For assistance, consumers can reach out to Hatch Baby Inc. at 888-918-4614 from 9 a.m. to 5 p.m. PT, Monday through Friday, via email at recall@hatch.co, or visit www.hatch.co/adapterrecall for further details.",
+      "LastPublishDate": "2024-07-03T00:00:00",
+      "Products": [
+        {
+          "Name": "Power Adapters for Rest 1st Generation Sound Machines",
+          "NumberOfUnits": "About 919,400 (In addition, about 44,352 were sold in Canada)"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/cables-and-surge-and-power-protection/5-Power-Adapters-for-Rest-1st-Generation-Sound-Machines/b24e715305b9d6e6dec6e023370de2c1.webp",
+          "Caption": "Rest 1st Generation Sound Machine sold with recalled Power Adapter",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Rest1st-0.png"
+        },
+        {
+          "URL": "/images/generalRecalls/cables-and-surge-and-power-protection/5-Power-Adapters-for-Rest-1st-Generation-Sound-Machines/6897e6727b6bec55e5463cd138632fa7.webp",
+          "Caption": "Recalled Power Adapter for Rest 1st Generation Sound Machines",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Rest1st-1.png"
+        },
+        {
+          "URL": "/images/generalRecalls/cables-and-surge-and-power-protection/5-Power-Adapters-for-Rest-1st-Generation-Sound-Machines/aeed6185a42c21e2d4a4902ed1ec34b1.webp",
+          "Caption": "Location of model number on recalled adapter",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Rest1st-2.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received 19 reports of the plastic housing surrounding the AC power adapter coming off, including two reports of consumers who experienced a minor electrical shock."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available online at Hatch.co and Amazon.com, as well as in-store at BuyBuyBaby, Target, Walmart, Nordstrom, Pottery Barn Kids, and BestBuy locations nationwide from January 2019 to September 2022, priced between $60 and $70 for certain Rest 1st Generation sound machines. Additionally, sold on Amazon.com from January 2019 to May 2024 for $60 to $200 with specific Rest 1st Generation sound machines."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Hatch Baby Inc., of Palo Alto, California"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "The plastic casing of the AC power adapter may detach when unplugged, exposing the prongs and creating a shock hazard."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should cease using the recalled power adapters and contact Hatch for a complimentary replacement. They need to unplug the adapter, cut the cord, take a photo showing the model number and cut cord, and upload this photo along with their name and mailing address at www.hatch.co/adapterrecall. Hatch will also reach out to all registered owners."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Replace"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "CYAP05 050100U"
+      ],
+      "slug": "hatch-baby-recalls-power-adapters-for-rest-1st-generation-sound-machines-due-to-shock-risk-recall",
+      "metaDescription": "Hatch Baby recalls power adapters for Rest 1st Generation Sound Machines due to a shock hazard. Learn more about the recall and how to get a replacement."
+    },
+    {
+      "RecallID": 9976,
+      "RecallNumber": "24270",
+      "RecallDate": "2024-06-20T00:00:00",
+      "Description": "Goal Zero has issued a recall for Yeti Link Expansion Modules and EC8 power cables due to potential fire and burn hazards. These products were sold as part of kits and individually, intended for use in homes and vehicles. In vehicles, the modules connect to the alternator to charge batteries while the engine is running. For home use, they enable the addition of extra batteries to Yeti Power Stations or Generators. The affected modules are identified by model numbers 98200 and 98210, with Goal Zero branding present.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/Goal-Zero-Recalls-Yeti-Link-Modules-with-EC8-Cables-Due-to-Fire-and-Burn-Hazards",
+      "Title": "Goal Zero Recalls Yeti Link Modules and EC8 Cables Due to Fire Risks",
+      "ConsumerContact": "Consumers should cease using the recalled Yeti Link modules and cables immediately. For assistance, contact Goal Zero at 888-794-6250 from 8 a.m. to 5 p.m. CT, Monday through Friday, email support@goalzero.com, or visit www.goalzero.com and navigate to the \"Notices/Recalls\" section under Support for further details.",
+      "LastPublishDate": "2024-06-20T00:00:00",
+      "Products": [
+        {
+          "Name": "Yeti Link Expansion Module",
+          "NumberOfUnits": "About 34,460 (In addition, about 815 were sold in Canada) (The EC8 cables were previously recalled in April 2021)"
+        }
+      ],
+      "Inconjunctions": [
+        {
+          "URL": "https://recalls-rappels.canada.ca/en/alert-recall/goal-zero-yeti-link-expansion-module-and-associated-ec8-cables-recalled-due-fire"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/cables-and-surge-and-power-protection/6-Yeti-Link-Expansion-Module/1c58d62156d7baed6e88c7f7b325f53d.webp",
+          "Caption": "Recalled Yeti Link Expansion Module",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/yeti-expansion.png"
+        },
+        {
+          "URL": "/images/generalRecalls/cables-and-surge-and-power-protection/6-Yeti-Link-Expansion-Module/4e519e4ff98a5a5cadce4720af787af3.webp",
+          "Caption": "Recalled 12' EC8 Extension Cable",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/EC8-extention-cable.png"
+        },
+        {
+          "URL": "/images/generalRecalls/cables-and-surge-and-power-protection/6-Yeti-Link-Expansion-Module/d5572da03aa2a113575f9034b07b8834.webp",
+          "Caption": "Recalled Male EC8 to Ring Cable",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/male-EC8-ring.png"
+        },
+        {
+          "URL": "/images/generalRecalls/cables-and-surge-and-power-protection/6-Yeti-Link-Expansion-Module/978d679f62f8a8f3d6d3410d5c8a63cf.webp",
+          "Caption": "Recalled Female EC8 to Ring Cable",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/female-EC8-ring.png"
+        },
+        {
+          "URL": "/images/generalRecalls/cables-and-surge-and-power-protection/6-Yeti-Link-Expansion-Module/0c34c9e179d4cfbad9dde214d42199b3.webp",
+          "Caption": "Recalled MPPTx to Tank Cable with EC8 Connector",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/MPPTx-to-tank.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received two reports of the cables melting inside a vehicle, causing minor property damage. No injuries have been reported."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "REI, Bass Pro, Batteries Plus, Scheels, Sportsman's Warehouse, and online at GoalZero.com, Amazon.com, Walmart.com, and Backcountry.com"
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Goal Zero LLC, of Draper, Utah"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Overheating and melting connections posing fire and burn hazards"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Free replacement kit including a new Yeti Link module and necessary cables with updated connectors and instructions"
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Replace"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "98200",
+        "98210",
+        "98203",
+        "98204",
+        "98202",
+        "98205",
+        "98410",
+        "98201",
+        "98206"
+      ],
+      "slug": "goal-zero-recalls-yeti-link-modules-and-ec8-cables-due-to-fire-risks-recall",
+      "metaDescription": "Goal Zero recalls Yeti Link Modules and EC8 Cables due to fire hazards. Stop using immediately and contact for a free replacement."
+    }
+  ]
+}

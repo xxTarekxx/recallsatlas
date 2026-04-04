@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "slug": "detergents",
+    "sourceCsvFile": "detergents_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:36.890Z",
+    "recallCount": 1,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "detergents.json",
+    "seoTranslatedAt": "2026-04-04T00:25:11.400Z",
+    "resumePartial": false
+  },
+  "recalls": [
+    {
+      "RecallID": 10207,
+      "RecallNumber": "25189",
+      "RecallDate": "2025-03-20T00:00:00",
+      "Description": "Reckitt has issued a recall for 50-fluid-ounce bottles of Woolite Delicates detergent due to potential contamination with Pseudomonas species bacteria. The affected products have lot codes S24364, S24365, and S24366, which can be found printed on the back of the bottle. These bottles feature a white design with a light pink label and cap. Consumers are urged to check their supplies immediately.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/Woolite-Delicates-Detergent-Recalled-by-Reckitt-Due-to-Risk-of-Exposure-to-Bacteria-Sold-Exclusively-on-Amazon-com",
+      "Title": "Recalled Woolite Delicates Detergent Due to Bacterial Contamination Risk",
+      "ConsumerContact": "For assistance, contact Reckitt at 800-228-4722 between 9 a.m. and 5 p.m. ET, Monday through Friday, or email ConsumerCare_USA@reckitt.com. More information is available at https://www.woolite.us/Voluntary-Recall/ or by visiting https://www.woolite.us/ and selecting “Voluntary Recall” at the top of the page.",
+      "LastPublishDate": "2025-03-20T00:00:00",
+      "Products": [
+        {
+          "Name": "Woolite Delicates 50-fluid-ounce detergent",
+          "NumberOfUnits": "About 16,200"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/detergents/1-Woolite-Delicates-50-fluid-ounce-detergent/9ca581fc4765ce0984eedec7b8ad747a.webp",
+          "Caption": "Recalled Woolite Delicates detergent, 50 fluid ounces",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Woolite-Delicates-1.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/detergents/1-Woolite-Delicates-50-fluid-ounce-detergent/b364bdcd7ce33e61d1686e45a1206bb9.webp",
+          "Caption": "Recalled Woolite Delicates detergent, 50 fluid ounces and location of lot code and SKU",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Woolite-Delicates-2.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "Reckitt Benckiser LLC, of Parsippany, New Jersey"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available exclusively on Amazon.com in January 2025 for $14 to $17."
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "United States"
+        }
+      ],
+      "ProductUPCs": [
+        {
+          "UPC": "062338727240"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of exposure to Pseudomonas species bacteria"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Full refund for recalled Woolite Delicates detergent"
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "SKU 62338-72724"
+      ],
+      "slug": "recalled-woolite-delicates-detergent-due-to-bacterial-contamination-risk-recall",
+      "metaDescription": "Reckitt recalls Woolite Delicates detergent due to bacterial contamination risk. Check lot codes and follow refund instructions."
+    }
+  ]
+}

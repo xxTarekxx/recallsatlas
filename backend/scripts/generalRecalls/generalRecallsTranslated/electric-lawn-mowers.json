@@ -1,0 +1,186 @@
+{
+  "meta": {
+    "slug": "electric-lawn-mowers",
+    "sourceCsvFile": "electric-lawn-mowers_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:36.902Z",
+    "recallCount": 2,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "electric-lawn-mowers.json",
+    "seoTranslatedAt": "2026-04-04T01:02:04.730Z",
+    "resumePartial": false
+  },
+  "recalls": [
+    {
+      "RecallID": 10321,
+      "RecallNumber": "25355",
+      "RecallDate": "2025-06-26T00:00:00",
+      "Description": "DR Power has issued a recall for its 62-volt 5.0 Ah LiPRO rechargeable lithium-ion battery packs, which are used in various DR Power battery-operated products, including lawnmowers, trimmers, and snow throwers. The recall affects standalone battery packs with model number 414240, as well as removable battery packs included with outdoor yard equipment models 524340, SB11022XEN, T4X3026XEN, T4X3062XENR, CE75021XEN0, and CE77021XEN0. The model number can be found on the label of the battery pack, which also displays the LiPRO and DR Power logos on its front and side panels. Proper disposal of these batteries is crucial, as they pose a significant fire risk and should not be discarded in regular trash or recycling bins. Contact your local household hazardous waste center for guidance on safe disposal options.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/DR-Power-Recalls-Lithium-Ion-Battery-Packs-Due-to-Fire-and-Burn-Hazards",
+      "Title": "DR Power Recalls Lithium-Ion Battery Packs Due to Fire and Burn Risks",
+      "ConsumerContact": "For more information, consumers can reach DR Power at 800-454-8643, Monday through Friday from 8:30 a.m. to 5 p.m. ET, email recall@drpower.com, or visit https://drpower.com/recalls and https://www.drpower.com/ and select 'Product Recalls'.",
+      "LastPublishDate": "2025-06-26T00:00:00",
+      "Products": [
+        {
+          "Name": "DR Power LiPRO 5.0 Ah Lithium-Ion Battery Packs",
+          "NumberOfUnits": "About 13,200"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/electric-lawn-mowers/1-DR-Power-LiPRO-5-0-Ah-Lithium-Ion-Battery-Packs/6f0800ad0e7ed7ffa2bfbfc8b6cfdbbb.webp",
+          "Caption": "Recalled DR Power Model 414240 Battery Pack (5 Ah)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/DR-Power-1.png"
+        },
+        {
+          "URL": "/images/generalRecalls/electric-lawn-mowers/1-DR-Power-LiPRO-5-0-Ah-Lithium-Ion-Battery-Packs/19e9a0523b1d09a9ec07430474966715.webp",
+          "Caption": "DR Power Model 524340, DR Trimmer Mower",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/DR-Power-2.png"
+        },
+        {
+          "URL": "/images/generalRecalls/electric-lawn-mowers/1-DR-Power-LiPRO-5-0-Ah-Lithium-Ion-Battery-Packs/99e13cc3392c91641a00a4c776cf0cd7.webp",
+          "Caption": "DR Power Model SB11022XEN, DR Pulse 62V Snow Thrower",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/DR-Power-3.png"
+        },
+        {
+          "URL": "/images/generalRecalls/electric-lawn-mowers/1-DR-Power-LiPRO-5-0-Ah-Lithium-Ion-Battery-Packs/82f87868b17f34d329c74d7ca2beea59.webp",
+          "Caption": "DR Power Model T4X3062XEN, DR Trimmer Pulse",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/DR-Power-4.png"
+        },
+        {
+          "URL": "/images/generalRecalls/electric-lawn-mowers/1-DR-Power-LiPRO-5-0-Ah-Lithium-Ion-Battery-Packs/ea0c4142ff38263085aa1ebdec086c94.webp",
+          "Caption": "DR Power Model CE75021XEN0, DR Pulse 62V Mower 21\"",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/DR-Power-5.png"
+        },
+        {
+          "URL": "/images/generalRecalls/electric-lawn-mowers/1-DR-Power-LiPRO-5-0-Ah-Lithium-Ion-Battery-Packs/41132d25c2837d8f2d20d864629effda.webp",
+          "Caption": "DR Power Model CE77021XEN0, DR Pulse 62V Mower 21\" SP",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/DR-Power-6.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received two reports of incidents of fire and/or overheating. No injuries have been reported."
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "Ningbo New Team Import & Export Co. Ltd. (\"Lera\"), of China"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available at home improvement and hardware stores nationwide, as well as online at DRPower.com and CountryHomeProducts.com from April 2018 through July 2024, priced between $300 and $700 for outdoor equipment that includes battery packs, and $250 for individual battery packs."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Generac Power Systems Inc., of Waukesha, Wisconsin"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Fire and burn hazards due to potential short-circuiting"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Stop using the battery packs immediately and contact DR Power for a pro-rated refund. Proof of destruction is required, including two photographs uploaded as per instructions on the recall website."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "414240",
+        "524340",
+        "SB11022XEN",
+        "T4X3026XEN",
+        "T4X3062XENR",
+        "CE75021XEN0",
+        "CE77021XEN0"
+      ],
+      "slug": "dr-power-recalls-lithium-ion-battery-packs-due-to-fire-and-burn-risks-recall",
+      "metaDescription": "DR Power recalls lithium-ion battery packs due to fire hazards. Learn how to safely dispose and claim your refund."
+    },
+    {
+      "RecallID": 10166,
+      "RecallNumber": "25140",
+      "RecallDate": "2025-02-20T00:00:00",
+      "Description": "DR Power is recalling its Tow Behind Field and Brush Mowers due to a potential laceration risk. The affected mowers are black and orange, with model and serial numbers located on a white label on the front frame. Only units manufactured between April 1, 2024, and August 20, 2024, are part of this recall. The manufacture date can be found on the serial number label on the rear frame, formatted as YYYYMMDD. Models affected include TB21044BEN, TB23244BEN, TB25344BEN, and TB27052BEN with specific serial number ranges.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/DR-Power-Equipment-Recalls-Tow-Behind-Field-Brush-Mowers-Due-to-Laceration-Hazard",
+      "Title": "DR Power Equipment Recalls Tow Behind Field & Brush Mowers Due to Laceration Risk",
+      "ConsumerContact": "Consumers should immediately stop using the recalled mowers and contact DR Power at 800-458-4362 from 8:30 a.m. to 5 p.m. ET, Monday through Friday. Additional information can be obtained via email at recalls@DRPower.com or online at http://drpower.com/recalls.",
+      "LastPublishDate": "2025-02-20T00:00:00",
+      "Products": [
+        {
+          "Name": "DR Brush Mower Premier 44T",
+          "NumberOfUnits": "About 890"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/electric-lawn-mowers/2-DR-Brush-Mower-Premier-44T/8b1fd4352a9b8623085a7fc40ad9965a.webp",
+          "Caption": "Recalled DR Power Equipment Tow Behind Field and Brush Mower",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/DR-Power.JPG"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received 10 reports of blade carrier detachments. No injuries have been reported."
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "DR Power Equipment, of South Burlington, Vermont, a subsidiary of Generac Power Systems Inc., of Waukesha, Wisconsin"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available at various retailers nationwide"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "United States"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Laceration risk due to detachment of blade assembly"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Free repair of the blade carrier assembly"
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "TB21044BEN",
+        "TB23244BEN",
+        "TB25344BEN",
+        "TB27052BEN",
+        "3014835626 to 3015507481",
+        "3014860338 to 3015403241",
+        "3014916847 to 3015451110",
+        "3014839204 to 3015534243"
+      ],
+      "slug": "dr-power-equipment-recalls-tow-behind-field-brush-mowers-due-to-laceration-risk-recall",
+      "metaDescription": "DR Power recalls Tow Behind Field & Brush Mowers due to laceration hazards. Stop using immediately and contact for a free repair."
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "slug": "bunk-beds",
+    "sourceCsvFile": "bunk-beds_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:36.858Z",
+    "recallCount": 1,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "bunk-beds.json",
+    "seoTranslatedAt": "2026-04-03T22:22:20.819Z",
+    "resumePartial": false
+  },
+  "recalls": [
+    {
+      "RecallID": 9800,
+      "RecallNumber": "24060",
+      "RecallDate": "2023-12-14T00:00:00",
+      "Description": "Room & Board is recalling its Griffin Duo Bunk Beds due to potential safety hazards. These bunk beds, crafted from cherry or maple wood, may not have been properly assembled, leading to a risk of collapse and injury. Each bed features a label on the footboard identifying it as the Griffin Duo Bunk Bed.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/Room-Board-Recalls-Griffin-Duo-Bunk-Beds-Due-to-Risk-of-Collapse-Fall-and-Injury-Hazards-Sold-Exclusively-at-Room-Board",
+      "Title": "Room & Board Recalls Griffin Duo Bunk Beds Due to Collapse and Injury Risks",
+      "ConsumerContact": "For assistance, contact Room & Board at 800-301-9720 from 8 a.m. to 7 p.m. CT Monday through Friday, and from 10 a.m. to 5 p.m. CT on weekends. You can also reach them via email at shop@roomandboard.com or visit www.roomandboard.com/product-recalls for further information.",
+      "LastPublishDate": "2023-12-14T00:00:00",
+      "Products": [
+        {
+          "Name": "Griffin Duo Bunk Beds",
+          "NumberOfUnits": "About 500"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/bunk-beds/1-Griffin-Duo-Bunk-Beds/3ec719140d1c54818776339b1e0536e7.webp",
+          "Caption": "Recalled Griffin Duo Bunk Bed (Cherry)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/cherrygriffin.png"
+        },
+        {
+          "URL": "/images/generalRecalls/bunk-beds/1-Griffin-Duo-Bunk-Beds/9d8f7a209ddd4c10261ac91bc319a4ce.webp",
+          "Caption": "Recalled Griffin Duo Bunk Bed (Maple)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/mplebed.png"
+        },
+        {
+          "URL": "/images/generalRecalls/bunk-beds/1-Griffin-Duo-Bunk-Beds/75cc1f448e0cc86b0d9a1e25bb4a23f3.webp",
+          "Caption": "Griffin Duo Bunk Bed Product Label Located on Footboard",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/griffinprodlabel.png"
+        },
+        {
+          "URL": "/images/generalRecalls/bunk-beds/1-Griffin-Duo-Bunk-Beds/d864f6a2091782e1ac74eeda2e7fa685.webp",
+          "Caption": "Diagram Showing Location of Set Screw",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/diagramsetscrew.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "Two incidents of the bunk bed collapsing have been reported. No injuries have been reported."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available at Room & Board stores nationwide and online from May 2013 to May 2017, priced between $2,000 and $2,200."
+        }
+      ],
+      "Distributors": [
+        {
+          "Name": "Room & Board Inc., of Golden Valley, Minnesota"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "United States"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of collapse, fall, and injury due to improper assembly."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Inspect the bunk beds for set screws; Room & Board will provide repair kits and assistance as needed."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ],
+      "slug": "room-board-recalls-griffin-duo-bunk-beds-due-to-collapse-and-injury-risks-recall",
+      "metaDescription": "Room & Board recalls Griffin Duo Bunk Beds due to safety hazards. Learn how to inspect and repair your bunk bed today."
+    }
+  ]
+}

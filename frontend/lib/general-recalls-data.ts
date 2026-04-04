@@ -88,7 +88,12 @@ export function loadGeneralRecallBySlug(slug: string): GeneralRecall | null {
 }
 
 export function getAllGeneralRecallSlugs(): string[] {
-  return [...getGeneralRecallSlugDateMap().keys()].sort((a, b) => a.localeCompare(b));
+  const m = getGeneralRecallSlugDateMap();
+  const out: string[] = [];
+  m.forEach((_date, slug) => {
+    out.push(slug);
+  });
+  return out.sort((a, b) => a.localeCompare(b));
 }
 
 /** Slug → lastModified for sitemap (dedupes duplicate slugs across files — latest wins). */

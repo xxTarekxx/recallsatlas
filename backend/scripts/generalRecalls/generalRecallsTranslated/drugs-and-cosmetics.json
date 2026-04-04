@@ -1,0 +1,383 @@
+{
+  "meta": {
+    "slug": "drugs-and-cosmetics",
+    "sourceCsvFile": "drugs-and-cosmetics_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:36.899Z",
+    "recallCount": 5,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "drugs-and-cosmetics.json",
+    "seoTranslatedAt": "2026-04-04T00:55:36.619Z",
+    "resumePartial": false
+  },
+  "recalls": [
+    {
+      "RecallID": 10413,
+      "RecallNumber": "25477",
+      "RecallDate": "2025-09-25T00:00:00",
+      "Description": "Mad Rabbit is recalling its \"RELIEVE\" numbing cream due to safety concerns. The product is packaged in a short, wide-mouthed white container featuring a label with the product name prominently displayed in black lettering, along with the company logo and additional details in smaller text. The lack of child-resistant packaging violates the Poison Prevention Packaging Act, creating a serious risk of poisoning if ingested by young children.\n\nConsumers are urged to keep the recalled numbing cream out of children's reach and contact Mad Rabbit for a free child-resistant lid to ensure safe storage. Once the product is secured, it can still be used as directed. This recall highlights the importance of child safety in product packaging.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/Mad-Rabbit-Recalls-RELIEVE-Lidocaine-Numbing-Cream-Due-to-Risk-of-Serious-Injury-or-Death-from-Poisoning-to-Young-Children-Violates-Mandatory-Standard-for-Child-Resistant-Packaging",
+      "Title": "Mad Rabbit Issues Recall for \"RELIEVE\" Lidocaine Numbing Cream Due to Poisoning Risk for Young Children",
+      "ConsumerContact": "For more information, reach out to Mad Rabbit via email at product@madrabbit.com or visit their website at https://www.madrabbit.com/pages/product-recalls. You can also contact them through https://www.madrabbit.com/pages/contact-us and select \"Product Recall\".",
+      "LastPublishDate": "2025-09-25T00:00:00",
+      "Products": [
+        {
+          "Name": "RELIEVE Numbing Cream",
+          "NumberOfUnits": "About 28,000"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/drugs-and-cosmetics/1-RELIEVE-Numbing-Cream/fbabc004369247c04ace22c196652295.webp",
+          "Caption": "Recalled RELIEVE Numbing Cream – Outer Packaging",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/relieve-1.png"
+        },
+        {
+          "URL": "/images/generalRecalls/drugs-and-cosmetics/1-RELIEVE-Numbing-Cream/2003d4acce31bc49b6bcf3d4be3d0c5a.webp",
+          "Caption": "Recalled RELIEVE Numbing Cream",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/relieve-2.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available at trade shows, tattoo shops, and online at MadRabbit.com from October 2024 through August 2025 for approximately $26."
+        }
+      ],
+      "Distributors": [
+        {
+          "Name": "Mad Rabbit Inc., of Los Angeles, California"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "United States"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Non-child-resistant packaging of lidocaine numbing cream poses poisoning risk to young children."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should secure the product and contact Mad Rabbit for a free child-resistant lid."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ],
+      "slug": "mad-rabbit-issues-recall-for-relieve-lidocaine-numbing-cream-due-to-poisoning-risk-for-young-children-recall",
+      "metaDescription": "Mad Rabbit recalls \"RELIEVE\" numbing cream due to serious poisoning risks for children. Contact for a free child-resistant lid."
+    },
+    {
+      "RecallID": 10217,
+      "RecallNumber": "25201",
+      "RecallDate": "2025-03-27T00:00:00",
+      "Description": "Nutritional Fundamentals for Health (NFH) is recalling several dietary supplement bottles including Iron SAP, Heme Iron SAP, and Prenatal SAP due to a violation of the Poison Prevention Packaging Act. The bottles, which are white with the NFH brand logo, lack the required child-resistant packaging, increasing the risk of poisoning if ingested by children. The recalled products come in various sizes and have specific date codes printed on the bottom of the bottles.\n\nConsumers are urged to keep these supplements out of children's reach and to contact NFH for instructions on obtaining a free replacement bottle that meets safety standards. NFH is proactively reaching out to all known purchasers regarding this recall.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/NFH-Iron-Dietary-Supplement-Bottles-Recalled-Due-to-Risk-of-Poisoning-Violation-of-Federal-Regulation-for-Child-Resistant-Packaging-Imported-by-Nutritional-Fundamentals-for-Health-NFH",
+      "Title": "Recall of NFH Iron Dietary Supplements Due to Non-Child Resistant Packaging and Poisoning Risk",
+      "ConsumerContact": "For assistance, contact NFH at 866-510-3123 from 9 a.m. to 5 p.m. ET, Monday through Friday, or email info@nfh.ca. More details can be found on their website at https://nfh.ca/ by clicking on the 'Recall' section.",
+      "LastPublishDate": "2025-03-27T00:00:00",
+      "Products": [
+        {
+          "Name": "NFH Iron SAP",
+          "NumberOfUnits": "About 17,660"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/drugs-and-cosmetics/2-NFH-Iron-SAP/64ad1137409d9a04f0247964255f8213.webp",
+          "Caption": "Recalled Iron SAP Iron Glycinate (120 capsules 1167U)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/iron-1.png"
+        },
+        {
+          "URL": "/images/generalRecalls/drugs-and-cosmetics/2-NFH-Iron-SAP/3228b8c91a9c3e7bda04500bab60cc73.webp",
+          "Caption": "Recalled Iron SAP Iron Glycinate (60 Capsules 1029U)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/iron-2.png"
+        },
+        {
+          "URL": "/images/generalRecalls/drugs-and-cosmetics/2-NFH-Iron-SAP/aabd0dfb86c29baa2119aaa21bacd5b2.webp",
+          "Caption": "Recalled Heme Iron SAP Superior Absorption and bioavailability (60 capsules 1124U)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/iron-3.png"
+        },
+        {
+          "URL": "/images/generalRecalls/drugs-and-cosmetics/2-NFH-Iron-SAP/99038226b059cbb4b6b296c3f52ea6b3.webp",
+          "Caption": "Recalled Prenatal SAP Multivitamin (180 capsules 1034U)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/iron-4.png"
+        },
+        {
+          "URL": "/images/generalRecalls/drugs-and-cosmetics/2-NFH-Iron-SAP/6c64c737ae0718c6f2c38fc5644dd938.webp",
+          "Caption": "Please see bottom of bottle for lot and expiration: (Example)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/iron-5.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "Nutritional Fundamentals for Health (dba NFH), of Canada"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Various naturopathic and homeopathic clinics nationwide, A Woman's Time, Doctor Supplement stores, and online at WholescriptsInc.com and Fullscript.com, sold from March 2022 to December 2024 for $20 to $95."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Nutritional Fundamentals for Health (dba NFH), of Canada"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "Canada"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of poisoning due to non-child resistant packaging"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Free replacement child-resistant bottles available through NFH"
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Replace"
+        }
+      ],
+      "slug": "recall-of-nfh-iron-dietary-supplements-due-to-non-child-resistant-packaging-and-poisoning-risk-recall",
+      "metaDescription": "NFH recalls Iron SAP, Heme Iron SAP, and Prenatal SAP supplements due to non-child resistant packaging posing a poisoning risk."
+    },
+    {
+      "RecallID": 10139,
+      "RecallNumber": "25110",
+      "RecallDate": "2025-01-30T00:00:00",
+      "Description": "Cabinet Health is recalling specific 4 oz. Refillable Medicine Bottles due to a potential failure in child-resistance. These bottles, made of clear glass with colored ABS plastic lids, were sold either filled with over-the-counter medications or as empty containers. The recall affects bottles purchased between March 2023 and July 2024, identifiable by their purchase date and specific date codes printed on the bottom. Parents should be aware that the closure on these lids may degrade over time, increasing the risk of accidental poisoning if children access the contents.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/Cabinet-Health-Recalls-4-oz-Refillable-Medicine-Bottles-Due-to-Failure-to-Retain-Child-Resistance-Risk-of-Child-Poisoning",
+      "Title": "Cabinet Health Recalls 4 oz. Refillable Medicine Bottles Due to Child Safety Hazard",
+      "ConsumerContact": "For assistance, consumers can reach Cabinet Health at 908-242-6108 from 9 a.m. to 5 p.m. ET, Monday through Friday, or email recall@wearecabinet.com. More information is available at https://cabinethealth.com/voluntaryrecall or by visiting https://cabinethealth.com and clicking on \"Recall\" at the bottom of the page.",
+      "LastPublishDate": "2025-01-30T00:00:00",
+      "Products": [
+        {
+          "Name": "Cabinet Health 4 oz. Refillable Medicine Bottles",
+          "NumberOfUnits": "About 65,000"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/drugs-and-cosmetics/3-Cabinet-Health-4-oz-Refillable-Medicine-Bottles/aeb05356f40bbd4c3def05a44b7b363b.webp",
+          "Caption": "Recalled Cabinet Health 4 oz. Refillable Medicine Bottle",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/cabinet-health-1.png"
+        },
+        {
+          "URL": "/images/generalRecalls/drugs-and-cosmetics/3-Cabinet-Health-4-oz-Refillable-Medicine-Bottles/cd85485776de07eafbde753106fdf34a.webp",
+          "Caption": "Recalled Cabinet Health 4 oz. Refillable Medicine Bottle",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/cabinet-health-2.png"
+        },
+        {
+          "URL": "/images/generalRecalls/drugs-and-cosmetics/3-Cabinet-Health-4-oz-Refillable-Medicine-Bottles/f7cb4338b3bd6e0528698dd12499d797.webp",
+          "Caption": "Recalled Cabinet Health 4 oz. Refillable Medicine Bottle",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/cabinet-health-3.png"
+        },
+        {
+          "URL": "/images/generalRecalls/drugs-and-cosmetics/3-Cabinet-Health-4-oz-Refillable-Medicine-Bottles/8d80b21afe50111972badf0cd33fc277.webp",
+          "Caption": "Recalled Cabinet Health 4 oz. Refillable Medicine Bottle",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/cabinet-health-4.png"
+        },
+        {
+          "URL": "/images/generalRecalls/drugs-and-cosmetics/3-Cabinet-Health-4-oz-Refillable-Medicine-Bottles/6e2a9b6b401bea730007a772d2353147.webp",
+          "Caption": "Recalled Cabinet Health 4 oz. Refillable Medicine Bottle",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/cabinet-health-5.png"
+        },
+        {
+          "URL": "/images/generalRecalls/drugs-and-cosmetics/3-Cabinet-Health-4-oz-Refillable-Medicine-Bottles/ca65527e5011641dd4d255e4c4f16cba.webp",
+          "Caption": "Recalled Cabinet Health 4 oz. Refillable Medicine Bottle",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/cabinet-health-6.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "Cabinet Health Inc., of Washington, D.C."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available online at cabinethealth.com, Amazon.com, and Grove.co, as well as at CVS stores from March 2023 through July 2024, priced between $10 and $20."
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Child safety risk due to potential failure of lid closure"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should secure the recalled bottles away from children and contact Cabinet Health for a free replacement lid. A photo of the destroyed lid will be required. Cabinet Health and Amazon are reaching out to all known purchasers. The recall does not affect the medication inside the bottles."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Replace"
+        }
+      ],
+      "slug": "cabinet-health-recalls-4-oz-refillable-medicine-bottles-due-to-child-safety-hazard-recall",
+      "metaDescription": "Cabinet Health recalls 4 oz. refillable medicine bottles due to child safety concerns. Contact for free replacement lids and safety information."
+    },
+    {
+      "RecallID": 10120,
+      "RecallNumber": "25081",
+      "RecallDate": "2025-01-02T00:00:00",
+      "Description": "Euqee Wintergreen Essential Oil is being recalled due to a serious risk of poisoning, as it does not comply with the Poison Prevention Packaging Act. The product comes in 118 ml amber glass bottles with a black screw-on cap, labeled as \"Euqee, Essential Oil, Premium Grade, 100% Pure Plant Extract and Wintergreen.\" Important safety information is provided on the back label, including storage instructions and manufacturer details.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/Euqee-Wintergreen-Essential-Oils-Recalled-Due-to-Risk-of-Poisoning-Violation-of-the-Poison-Prevention-Packaging-Act-Sold-Exclusively-on-Amazon-com-by-DLWL-US",
+      "Title": "Euqee Wintergreen Essential Oil Recall Due to Poisoning Risk and Packaging Violation",
+      "ConsumerContact": "For more information, contact DLWL-US via email at gzzlhus@163.com or visit www.euqee.net/page9. Click on the \"Recall\" section at the top of the page.",
+      "LastPublishDate": "2025-01-02T00:00:00",
+      "Products": [
+        {
+          "Name": "Euqee Wintergreen Essential Oil",
+          "NumberOfUnits": "About 3,750"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/drugs-and-cosmetics/4-Euqee-Wintergreen-Essential-Oil/067e9a57068e40db693908be41778953.webp",
+          "Caption": "Recalled Euqee Wintergreen Essential Oil",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/euqee.JPG"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available on Amazon.com from December 2023 through August 2024 for approximately $8."
+        }
+      ],
+      "Distributors": [
+        {
+          "Name": "DingLinWangLuoKeJiGuang ZhouYouXianGongSi, dba DLWL-US, of China"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "The essential oil contains methyl salicylate and lacks child-resistant packaging, increasing the risk of poisoning if ingested by children."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should immediately keep the recalled essential oil out of children's reach and contact DLWL-US for a full refund. A pre-paid label and free packaging will be provided for the return of the product. DLWL-US and Amazon.com are reaching out to all known purchasers."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "slug": "euqee-wintergreen-essential-oil-recall-due-to-poisoning-risk-and-packaging-violation-recall",
+      "metaDescription": "Recall of Euqee Wintergreen Essential Oil due to poisoning risk; contact DLWL-US for refunds and safety information."
+    },
+    {
+      "RecallID": 9878,
+      "RecallNumber": "24142",
+      "RecallDate": "2024-02-29T00:00:00",
+      "Description": "Heritage Store Hydrogen Peroxide Mouthwash in Wintermint and Eucalyptus Mint flavors is being recalled due to a serious safety concern. The mouthwash comes in dark opaque brown bottles with a white lid, featuring a pink and white label that includes the Heritage Store logo and flavor information. All production lots are affected by this recall.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/Nutraceutical-Recalls-Heritage-Store-Hydrogen-Peroxide-Mouthwash-Due-to-Risk-of-Poisoning-Violation-of-Child-Resistant-Packaging-Requirement",
+      "Title": "Recall of Heritage Store Hydrogen Peroxide Mouthwash Due to Poisoning Risk and Child Safety Violations",
+      "ConsumerContact": "For assistance, contact Nutraceutical at 800-227-6063 from 7 a.m. to 5 p.m. MT Monday through Friday, email info@nutracorp.com, or visit https://heritagestore.com/pages/recall, www.betterbeing.com/recall, or www.Nutraceutical.com and select \"Product Recall\" at the bottom right for further details.",
+      "LastPublishDate": "2024-02-29T00:00:00",
+      "Products": [
+        {
+          "Name": "Heritage Store Hydrogen Peroxide Mouthwash",
+          "NumberOfUnits": "About 102,100"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/drugs-and-cosmetics/5-Heritage-Store-Hydrogen-Peroxide-Mouthwash/d60e044a316204bedf1135f193653ea5.webp",
+          "Caption": "Recalled Heritage Store Hydrogen Peroxide Mouthwash - Wintermint",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Wintermint-mouthwash.png"
+        },
+        {
+          "URL": "/images/generalRecalls/drugs-and-cosmetics/5-Heritage-Store-Hydrogen-Peroxide-Mouthwash/6851e2fefc52e9a5c3510097cb76fa90.webp",
+          "Caption": "Recalled Heritage Store Hydrogen Peroxide Mouthwash - Eucalyptus Mint",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/eucalyptus-mouthwash.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "Nutraceutical Corporation, of Salt Lake City, Utah"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available at Whole Foods, Fresh Thyme Farmers Market, Mom's Organic Market, New Season's Market, Mother's Market & Kitchen, and various other stores nationwide, as well as online at Amazon, iHerb, HeritageStore.com, and additional websites from October 2010 through December 2023 for approximately $10.50."
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "United States"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "The mouthwash contains ethanol at a concentration that requires child-resistant packaging under the Poison Prevention Packaging Act (PPPA). The current packaging does not meet this requirement, creating a risk of poisoning if ingested by children."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should immediately keep the recalled mouthwash out of reach of children and contact Nutraceutical Corporation for a full refund or a replacement product, including shipping, based on availability. Consumers will be instructed to dispose of the product safely. Nutraceutical will reach out to all known purchasers directly."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        },
+        {
+          "Option": "Replace"
+        }
+      ],
+      "slug": "recall-of-heritage-store-hydrogen-peroxide-mouthwash-due-to-poisoning-risk-and-child-safety-violations-recall",
+      "metaDescription": "Heritage Store Hydrogen Peroxide Mouthwash recalled due to poisoning risk; contact Nutraceutical for refunds or replacements."
+    }
+  ]
+}
