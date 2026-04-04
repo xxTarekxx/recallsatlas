@@ -1,0 +1,86 @@
+{
+  "meta": {
+    "slug": "hats-and-scarves",
+    "sourceCsvFile": "hats-and-scarves_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:36.954Z",
+    "recallCount": 1,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "hats-and-scarves.json",
+    "seoTranslatedAt": "2026-04-04T04:12:23.110Z",
+    "resumePartial": false
+  },
+  "recalls": [
+    {
+      "RecallID": 10000,
+      "RecallNumber": "24299",
+      "RecallDate": "2024-07-11T00:00:00",
+      "Description": "Claire's and Icing have issued a recall for their Halloween witch hats made entirely of polyester. These black hats feature a blue mesh scarf adorned with sparkling stars, and the tag inside reads 'CBI Distributing Corporation.' Consumers should be aware that these hats do not meet federal flammability standards, which could result in burn injuries.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/Claires-and-Icing-Stores-Recalls-Halloween-Witch-Hats-Due-to-Burn-Hazard-and-Violation-of-Federal-Flammability-Requirement",
+      "Title": "Claire's and Icing Recall Halloween Witch Hats Due to Fire Risk",
+      "ConsumerContact": "For more information, contact Claire's at 888-252-4737, available from 8:30 a.m. to 6 p.m. CT, Monday through Friday. You can also email NAProductRecall@claires.com or visit www.claires.com/us/recall-notices/ and click on 'Product Recalls' at the bottom of the page under the Help section.",
+      "LastPublishDate": "2024-07-11T00:00:00",
+      "Products": [
+        {
+          "Name": "Halloween Witch Hats",
+          "NumberOfUnits": "About 5,700 (In addition, about 450 were sold in Canada)"
+        }
+      ],
+      "Inconjunctions": [
+        {
+          "URL": "https://recalls-rappels.canada.ca/en/alert-recall/claire-s-and-icing-stores-halloween-witch-hat-recalled-due-flammability-hazard"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/hats-and-scarves/1-Halloween-Witch-Hats/1446d1e5c354a244fbc5a89f43e5af3e.webp",
+          "Caption": "Recalled Halloween Witch Hat",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/witch-hat.gif"
+        },
+        {
+          "URL": "/images/generalRecalls/hats-and-scarves/1-Halloween-Witch-Hats/279fdc8c77569e177d1709efd82e1b3b.webp",
+          "Caption": "\"CBI Distributing Corporation\" is printed on the sewn-in tag inside the hat",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/CBI-hat-tag.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Claire's and Icing stores across the U.S. from July 2023 to December 2023 for approximately $15"
+        }
+      ],
+      "Distributors": [
+        {
+          "Name": "Claire's and Icing Stores, of Hoffman Estates, Illinois"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Violation of federal flammability standards posing burn injury risks"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Stop using the hats and return them to any Claire's or Icing store for a full refund"
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "slug": "claire-s-and-icing-recall-halloween-witch-hats-due-to-fire-risk-recall",
+      "metaDescription": "Claire's and Icing recall Halloween witch hats due to fire hazard. Return for a full refund. Learn more about the recall here."
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "slug": "knives",
+    "sourceCsvFile": "knives_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:36.986Z",
+    "recallCount": 1,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "knives.json",
+    "seoTranslatedAt": "2026-04-04T06:23:25.239Z",
+    "resumePartial": false
+  },
+  "recalls": [
+    {
+      "RecallID": 10135,
+      "RecallNumber": "25104",
+      "RecallDate": "2025-01-23T00:00:00",
+      "Description": "GiantMouse is recalling its GM12 and GMP12 button-lock folding knives due to a potential laceration risk caused by a failure in the locking mechanism. These knives feature milled scales made from titanium or bronze and are individually numbered inside the back spacer. The brand logo and country of origin can be found etched on the inside of one of the handle scales.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/GiantMouse-Recalls-GM12-and-GMP12-Folding-Knives-Due-to-Laceration-Hazard",
+      "Title": "GiantMouse Recalls GM12 and GMP12 Folding Knives Due to Laceration Risk",
+      "ConsumerContact": "For assistance, consumers can reach GiantMouse LLC at 833-665-6777, available 24/7, via email at support@giantmouse.com, or by visiting www.giantmouse.com/recall. Additional details can be found by clicking on the \"Learn More\" section on the \"Recall Notice\" banner on their website.",
+      "LastPublishDate": "2025-01-23T00:00:00",
+      "Products": [
+        {
+          "Name": "GM12 Folding Knife",
+          "NumberOfUnits": "About 600"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/knives/1-GM12-Folding-Knife/06967c9dbdb6f72f75ca6b3eed396cf6.webp",
+          "Caption": "Recalled GiantMouse Folding Knife GM12 (top) Recalled GiantMouse Folding Knife GMP12 (bottom)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Gmouse-1.png"
+        },
+        {
+          "URL": "/images/generalRecalls/knives/1-GM12-Folding-Knife/1b6e582c33e0e5fbab2c983c348e9d4f.webp",
+          "Caption": "Recalled GiantMouse Folding Knife GM12",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Gmouse-2.png"
+        },
+        {
+          "URL": "/images/generalRecalls/knives/1-GM12-Folding-Knife/03698809af33887e59c08a46befff706.webp",
+          "Caption": "Recalled GiantMouse Folding Knife GMP12",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Gmouse-3.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received eight reports of the lock failing during use. No injuries have been reported."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available online at www.giantmouse.com from November 14 to November 15, 2024, priced between $385 and $425."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "GiantMouse LLC, of East Lansing, Michigan"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "Italy"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Laceration Risk from Locking Mechanism Failure"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Full Refund or Free Repair with Pre-Paid Shipping Label"
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        },
+        {
+          "Option": "Repair"
+        }
+      ],
+      "slug": "giantmouse-recalls-gm12-and-gmp12-folding-knives-due-to-laceration-risk-recall",
+      "metaDescription": "GiantMouse recalls GM12 and GMP12 folding knives due to a laceration risk. Learn how to get a refund or repair."
+    }
+  ]
+}

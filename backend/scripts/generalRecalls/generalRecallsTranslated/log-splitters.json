@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "slug": "log-splitters",
+    "sourceCsvFile": "log-splitters_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:36.994Z",
+    "recallCount": 1,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "log-splitters.json",
+    "seoTranslatedAt": "2026-04-04T06:44:27.234Z",
+    "resumePartial": false
+  },
+  "recalls": [
+    {
+      "RecallID": 9931,
+      "RecallNumber": "24208",
+      "RecallDate": "2024-04-25T00:00:00",
+      "Description": "Oregon Tool has issued a recall for various log splitters and cylinder kits under the brands Oregon, PowerPro, Country Tuff, and Speeco. The affected models include a range of 25 to 35-ton log splitters, identifiable by their brand names and model numbers located on the equipment. Consumers should be aware of the potential hazards associated with these products, particularly related to the hydraulic cylinder rod's functionality.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/Oregon-Tool-Recalls-Log-Splitters-and-Cylinder-Kits-Due-to-Injury-Hazards",
+      "Title": "Oregon Tool Recalls Log Splitters and Cylinder Kits Due to Injury Risks",
+      "ConsumerContact": "For assistance, consumers can reach Oregon Tool at 833-948-2590 from 6 a.m. to 7 p.m. ET, Monday through Friday, or via email at logsplitter@oregontool.com. Additional details can be found online at https://www.oregontool.com/product-recalls/ or by visiting www.oregonproducts.com and selecting 'Product Recalls.'",
+      "LastPublishDate": "2024-04-25T00:00:00",
+      "Products": [
+        {
+          "Name": "Country Tuff 25 Ton Log Splitter CT25TKO-1",
+          "NumberOfUnits": "About 29,560 (In addition, about 4,690 were sold in Canada)"
+        }
+      ],
+      "Inconjunctions": [
+        {
+          "URL": "https://recalls-rappels.canada.ca/en/alert-recall/log-splitters-and-cylinder-kits-recalled-due-physical-hazard"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/log-splitter.jpg",
+          "Caption": "Recalled Country Tuff 25 Ton Log Splitter",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/log-splitter.jpg",
+          "ImageFetchFailed": true,
+          "ImageFetchHttpStatus": 403
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received seven reports of forward movement of the rod and attached splitting wedge at an unexpected increased speed. No injuries have been reported."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available at Lowe's, Tractor Supply Company, and various other retailers across the nation, both in-store and online, from July 2020 through December 2023, priced between $1,500 and $2,745."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Oregon Tool Inc., of Portland, Oregon"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of injury due to hydraulic cylinder rod detachment from the piston, causing unexpected movement of the wedge."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should cease using the product immediately if the wedge fails to retract and contact Oregon Tool or their dealer for a free replacement cylinder installation. Self-repair is not recommended. Find the nearest dealer at www.oregonproducts.com/en/dealer-locator."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ],
+      "slug": "oregon-tool-recalls-log-splitters-and-cylinder-kits-due-to-injury-risks-recall",
+      "metaDescription": "Oregon Tool recalls log splitters and cylinder kits due to injury risks. Contact them for a free replacement if affected."
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "slug": "gas-furnaces",
+    "sourceCsvFile": "gas-furnaces_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:36.939Z",
+    "recallCount": 1,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "gas-furnaces.json",
+    "seoTranslatedAt": "2026-04-04T03:42:55.744Z",
+    "resumePartial": false
+  },
+  "recalls": [
+    {
+      "RecallID": 9821,
+      "RecallNumber": "24080",
+      "RecallDate": "2024-01-11T00:00:00",
+      "Description": "Daikin Comfort Technologies Manufacturing (formerly Goodman Manufacturing Company L.P.) has broadened its recall of evaporator coil drain pans to include additional units produced between January 2019 and February 2020. These units were mistakenly labeled with a 2018 serial number, leading to confusion about their manufacturing date. The expanded recall now encompasses approximately 3,600 more units with specific configurations and coil serial numbers. Consumers should check the serial numbers to see if their units are affected.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/Daikin-Comfort-Technologies-Manufacturing-formerly-Goodman-Manufacturing-Company-LP-Expands-Recall-of-Evaporator-Coil-Drain-Pans-to-Include-Additional-Units",
+      "Title": "Daikin Comfort Technologies Expands Recall of Evaporator Coil Drain Pans Due to Fire Hazard",
+      "ConsumerContact": "For assistance, consumers can reach DCT toll-free at 888-520-0579 from 7 a.m. to 6 p.m. CT, Monday through Friday, or visit www.recallrtr.com/drainpan or www.goodmanmfg.com and select \"PRODUCT RECALL\" for further details.",
+      "LastPublishDate": "2024-01-11T00:00:00",
+      "Products": [
+        {
+          "Name": "Evaporator Coil Drain Pans",
+          "NumberOfUnits": "About 3,600 additional units (In addition, about 12 were sold in Canada) (298,300 evaporator coil drain pans, and 44,000 in Canada, were previously recalled in November 2021 and in July 2022)"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/gas-furnaces/1-Evaporator-Coil-Drain-Pans/80138d55cc1bc2f9f9b7257cd4477f30.webp",
+          "Caption": "Furnace configurations for recalled evaporator coil drain pans showing an up-flow coil configuration",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/image3_38.png"
+        },
+        {
+          "URL": "/images/generalRecalls/gas-furnaces/1-Evaporator-Coil-Drain-Pans/368fae1ae8ca5c7f86bfbb790fcaaa84.webp",
+          "Caption": "Recalled evaporator coil drain pans installed with condensing (white pipe) or non-condensing (metal pipe) gas furnaces that are not in an “up-flow” coil configuration",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/image2_36.png"
+        },
+        {
+          "URL": "/images/generalRecalls/gas-furnaces/1-Evaporator-Coil-Drain-Pans/1f2a25d904ac1415c0c51ac9fa429c6e.webp",
+          "Caption": "Location of label showing serial number on cased evaporator coils",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/image5_11.png"
+        },
+        {
+          "URL": "/images/generalRecalls/gas-furnaces/1-Evaporator-Coil-Drain-Pans/701539ba4a09c26ef7702bcb18c91423.webp",
+          "Caption": "Location of label showing serial number on uncased evaporator coils",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/image4_24.png"
+        },
+        {
+          "URL": "/images/generalRecalls/gas-furnaces/1-Evaporator-Coil-Drain-Pans/d3a2168151c059fb8f5ca3f7dc5d39f2.webp",
+          "Caption": "Location of Energy Guide label showing furnace brand and model number",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/image7_4.png"
+        },
+        {
+          "URL": "/images/generalRecalls/gas-furnaces/1-Evaporator-Coil-Drain-Pans/b204ce9487ff5c3d25dadb9e97418e40.webp",
+          "Caption": "Location of model number on outdoor condenser",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/image6_3.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "DCT has received a total of 31 reports of fire involving the drain pans, including five reports since the recall was reannounced in July 2022. The incidents resulted in one reported smoke inhalation and several reports of significant fire and smoke damage to residences."
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "Daikin Comfort Technologies Manufacturing L.P. (f/k/a Goodman Manufacturing Company L.P.) of Houston, Texas"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Sold by independent heating and cooling equipment dealers across the nation from January 2019 to November 2021, priced between $200 and $1,200 per unit."
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "United States"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Fire hazard due to overheating and deformation of the molded plastic drain pan"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Contact DCT to check if your unit is recalled and to arrange for a free repair by a qualified technician."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ],
+      "slug": "daikin-comfort-technologies-expands-recall-of-evaporator-coil-drain-pans-due-to-fire-hazard-recall",
+      "metaDescription": "Daikin Comfort Technologies recalls evaporator coil drain pans due to fire risks. Check your unit's serial number for safety."
+    }
+  ]
+}

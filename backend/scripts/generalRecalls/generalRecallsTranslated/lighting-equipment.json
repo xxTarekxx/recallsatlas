@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "slug": "lighting-equipment",
+    "sourceCsvFile": "lighting-equipment_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:36.994Z",
+    "recallCount": 1,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "lighting-equipment.json",
+    "seoTranslatedAt": "2026-04-04T06:44:08.754Z",
+    "resumePartial": false
+  },
+  "recalls": [
+    {
+      "RecallID": 10297,
+      "RecallNumber": "25317",
+      "RecallDate": "2025-06-05T00:00:00",
+      "Description": "Lutron is recalling its power interfaces, model LU-PH3-B, designed for LED tape lights. These 96W hard-wired interfaces were sold individually and as part of Lumaris RGB+ tunable white LED tape light starter kits for RadioRA 3 systems (model RRL-MTK-RT-IN) and HomeWorks systems (model HWL-MTK-RT-IN). The recall is due to a potential shock hazard that can occur if the device fails during a significant power surge, such as a lightning strike.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/Lutron-Recalls-Power-Interfaces-for-LED-Tape-Lights-Due-to-Shock-Hazard",
+      "Title": "Lutron Recalls Power Interfaces for LED Tape Lights Due to Shock Risk",
+      "ConsumerContact": "For assistance, consumers can reach Lutron at 800-239-0495 from 8 a.m. to 5:30 p.m. ET, Monday through Friday, via email at productrecall@lutron.com, or visit https://residential.lutron.com/us/en/safety/safety-recall for more details.",
+      "LastPublishDate": "2025-06-05T00:00:00",
+      "Products": [
+        {
+          "Name": "Lutron Power Interfaces for LED Tape Lights",
+          "NumberOfUnits": "About 1,944"
+        }
+      ],
+      "Inconjunctions": [
+        {
+          "URL": "https://recalls-rappels.canada.ca/en/alert-recall/lutron-power-interface-led-tape-lights-recalled-due-potential-shock-hazard"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/lighting-equipment/1-Lutron-Power-Interfaces-for-LED-Tape-Lights/6930528b9fc678b2198a292e37b03b61.webp",
+          "Caption": "Recalled Lutron Power Interface (model LU-PH3-B)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Lutron-1.png"
+        },
+        {
+          "URL": "/images/generalRecalls/lighting-equipment/1-Lutron-Power-Interfaces-for-LED-Tape-Lights/57acc73caafc40e71d3a7ccde3a12b4b.webp",
+          "Caption": "Close up of product label on recalled Lutron Power Interface",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Lutron-2.png"
+        },
+        {
+          "URL": "/images/generalRecalls/lighting-equipment/1-Lutron-Power-Interfaces-for-LED-Tape-Lights/eff0e194ec104b505ccffecbc528a59d.webp",
+          "Caption": "RadioRA 3 LED tape light starter kit package label lists the recalled power interface",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Lutron-3.png"
+        },
+        {
+          "URL": "/images/generalRecalls/lighting-equipment/1-Lutron-Power-Interfaces-for-LED-Tape-Lights/5c5465f89814e74941323bc4473dfebb.webp",
+          "Caption": "HomeWorks LED tape light starter kit package label lists the recalled power interface",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Lutron-4.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available through dealers and distributors of audiovisual equipment and electrical supplies nationwide from September 2024 to April 2025, priced around $300 for the power interfaces and between $1,250 and $1,400 for the Lumaris LED tape light starter kits and HomeWorks systems."
+        }
+      ],
+      "Distributors": [
+        {
+          "Name": "Lutron Electronics Co. Inc., of Coopersburg, Pennsylvania"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Shock hazard due to potential power interface failure during power surges"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Stop using the recalled power interfaces and connected lighting; contact Lutron for a free replacement and installation"
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Replace"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "LU-PH3-B",
+        "RRL-MTK-RT-IN",
+        "HWL-MTK-RT-IN"
+      ],
+      "slug": "lutron-recalls-power-interfaces-for-led-tape-lights-due-to-shock-risk-recall",
+      "metaDescription": "Lutron recalls power interfaces for LED tape lights due to shock risk. Stop using and contact Lutron for a free replacement."
+    }
+  ]
+}

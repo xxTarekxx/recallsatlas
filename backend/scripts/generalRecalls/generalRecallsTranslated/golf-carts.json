@@ -1,0 +1,175 @@
+{
+  "meta": {
+    "slug": "golf-carts",
+    "sourceCsvFile": "golf-carts_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:36.946Z",
+    "recallCount": 2,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "golf-carts.json",
+    "seoTranslatedAt": "2026-04-04T03:54:07.673Z",
+    "resumePartial": false
+  },
+  "recalls": [
+    {
+      "RecallID": 10431,
+      "RecallNumber": "26021",
+      "RecallDate": "2025-10-16T00:00:00",
+      "Description": "Textron E-Z-GO has issued a recall for specific models of their personal transportation vehicles (PTVs) due to potential fuel leaks that may lead to serious injuries or fire hazards. This recall includes RXV Freedom models from 2020 to 2025 and Valor PTVs from 2023 to 2025, with serial numbers ranging from 5538278 to 5920722. Additionally, TXT Freedom and Valor models from 2020 to 2022 with serial numbers from 3455024 to 3582057 are affected. Serial numbers can be found near the steering column for RXV models and below the operator seat for TXT models.",
+      "URL": "https://www.cpsc.gov/Recalls/2026/Textron-E-Z-GO-Recalls-Personal-Transportation-Vehicles-Due-to-Risk-of-Serious-Injury-and-Fire-Hazard",
+      "Title": "Textron E-Z-GO Recalls Personal Transportation Vehicles Over Fire and Injury Risks",
+      "ConsumerContact": "For assistance, consumers should contact Textron E-Z-GO at 888-438-3946, available Monday through Friday from 8 a.m. to 6 p.m. ET. They can also reach out via email at ezgowarranty@textron.com or visit https://ezgo.txtsv.com/personal/owners/recall-information for more details.",
+      "LastPublishDate": "2025-10-17T00:00:00",
+      "Products": [
+        {
+          "Name": "E-Z-GO RXV Freedom PTV",
+          "NumberOfUnits": "About 90,800 (In addition, about 7,300 were sold in Canada)"
+        }
+      ],
+      "Inconjunctions": [
+        {
+          "URL": "https://wwwapps.tc.gc.ca/Saf-Sec-Sur/7/VRDB-BDRV/search-recherche/detail.aspx?lang=eng&rn=2025299"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/golf-carts/1-E-Z-GO-RXV-Freedom-PTV/e93e1a923e3612e928c4800abd598dd4.webp",
+          "Caption": "Recalled E-Z-GO Valor PTV",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/recalledgolfcart.png"
+        },
+        {
+          "URL": "/images/generalRecalls/golf-carts/1-E-Z-GO-RXV-Freedom-PTV/58f3ec2e6f14334d08bbe71d52fca2e5.webp",
+          "Caption": "Recalled E-Z-GO TXT Freedom PTV",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/recalledgolfcart2.png"
+        },
+        {
+          "URL": "/images/generalRecalls/golf-carts/1-E-Z-GO-RXV-Freedom-PTV/62fa857ef96d77f15f0833456ba89492.webp",
+          "Caption": "Recalled E-Z-GO RXV Freedom PTV",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/recalledgolfcart3.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "Textron E-Z-GO LLC, of Augusta, Georgia"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available at Textron dealerships and distributors across the country from September 2019 to June 2025, priced between $8,400 and $14,000."
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "United States"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Potential fuel leakage at the quick-connect fitting, creating a fire hazard and risk of serious injury."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers must cease use of the affected vehicles and arrange for inspection and necessary repairs. Inspection can be done through Textron E-Z-GO or an authorized dealer at no charge. If fuel leakage is found, repairs will be made free of charge."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ],
+      "slug": "textron-e-z-go-recalls-personal-transportation-vehicles-over-fire-and-injury-risks-recall",
+      "metaDescription": "Textron E-Z-GO recalls certain personal transportation vehicles due to fire hazards. Learn about the risks and how to get your vehicle inspected."
+    },
+    {
+      "RecallID": 10301,
+      "RecallNumber": "25321",
+      "RecallDate": "2025-06-05T00:00:00",
+      "Description": "Yamaha has broadened its recall to encompass approximately 352,000 golf car vehicles due to a potential crash hazard stemming from a faulty accelerator pedal spring assembly. This recall now includes additional models from the years 2016 to 2024, including various Yamaha Drive, Adventurer, and UMAX models. Previously, recalls affected 11,000 units in July 2023, 5,000 in February 2022, and 145,000 in October 2018, among others. The affected golf cars come in multiple colors and are identified by specific model names and serial number prefixes. Consumers are urged to check their vehicles against the recall list for safety.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/Yamaha-Expands-Recall-of-Golf-Car-Vehicles-Due-to-Crash-Hazard-Additional-Models-and-New-Repair-to-Replace-Accelerator-Pedal-Spring-Assembly",
+      "Title": "Yamaha Expands Recall of Golf Car Vehicles Due to Crash Risk; New Models and Repair for Accelerator Pedal Spring Assembly",
+      "ConsumerContact": "For more information, consumers can reach Yamaha at their toll-free number 866-747-4027 anytime or visit https://www.yamahamotorsports.com/Content.php?content=cpsc-recalls or https://yamaha-motor.com/ and click on 'CPSC Recalls' at the bottom of the page.",
+      "LastPublishDate": "2025-06-05T00:00:00",
+      "Products": [
+        {
+          "Name": "Yamaha Golf Car Vehicles",
+          "NumberOfUnits": "About 352,000 (Yamaha previously recalled 11,000 golf cars on July 6, 2023; 5,000 on February 17, 2022; 145,000 on October 3, 2018 and 161,000 on February 22, 2018.)"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/golf-carts/2-Yamaha-Golf-Car-Vehicles/d54ca1489d6b75857b3d557b47d7d202.webp",
+          "Caption": "Recalled Adventurer Two",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/adventurer-1.png"
+        },
+        {
+          "URL": "/images/generalRecalls/golf-carts/2-Yamaha-Golf-Car-Vehicles/ee1fd70e6e416a2f83810d3885d5bb8a.webp",
+          "Caption": "Recalled Concierge 4",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/adventurer-2.png"
+        },
+        {
+          "URL": "/images/generalRecalls/golf-carts/2-Yamaha-Golf-Car-Vehicles/ac4d33ae1989da7f2bb0cff0bfee2232.webp",
+          "Caption": "Recalled Drive2 Fleet",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/adventurer-3.png"
+        },
+        {
+          "URL": "/images/generalRecalls/golf-carts/2-Yamaha-Golf-Car-Vehicles/fdb1f4c371ed8da4e69d54502a4f0162.webp",
+          "Caption": "Recalled UMAX Rally 2 + 2",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/adventurer-4.png"
+        },
+        {
+          "URL": "/images/generalRecalls/golf-carts/2-Yamaha-Golf-Car-Vehicles/4b73ba3b8fbe31d38709dc981c19315e.webp",
+          "Caption": "Recalled UMAX Two",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/adventurer-5.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "Yamaha has received at least 2,200 reports of incidents involving accelerator pedal return spring failures. No injuries have been reported."
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "Yamaha Motor Corporation U.S.A., of Cypress, California"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available at Yamaha dealers across the country from July 2015 through December 2024, priced between $5,970 and $13,220."
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "United States"
+        },
+        {
+          "Country": "Japan"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Failure of the accelerator pedal spring to return to idle, creating a crash risk."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Yamaha is offering a free replacement of the accelerator pedal return spring assembly. Consumers should cease using the recalled golf cars and contact an authorized Yamaha dealer for the replacement. Those who previously received repairs will be contacted by Yamaha with further instructions. Yamaha dealers can provide mobile service or transportation as needed."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ],
+      "slug": "yamaha-expands-recall-of-golf-car-vehicles-due-to-crash-risk-new-models-and-repair-for-accelerator-pedal-spring-assembly-recall",
+      "metaDescription": "Yamaha recalls additional golf car models due to crash hazards. Free repairs offered for affected vehicles. Check your model now!"
+    }
+  ]
+}

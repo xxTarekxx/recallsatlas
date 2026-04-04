@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "slug": "glass-doors-or-doors-with-glass-panels",
+    "sourceCsvFile": "glass-doors-or-doors-with-glass-panels_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:36.944Z",
+    "recallCount": 1,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "glass-doors-or-doors-with-glass-panels.json",
+    "seoTranslatedAt": "2026-04-04T03:48:14.302Z",
+    "resumePartial": false
+  },
+  "recalls": [
+    {
+      "RecallID": 10146,
+      "RecallNumber": "25120",
+      "RecallDate": "2025-02-06T00:00:00",
+      "Description": "Pella is recalling its sliding patio doors and windows equipped with automated shades due to a serious ingestion hazard posed by accessible button cell batteries. This recall affects the Pella Reserve and Pella Lifestyle sliding doors featuring Insynctive technology, available in 2-panel, 3-panel, and 4-panel configurations, as well as Pella Lifestyle windows and sliding doors with Insynctive remote controls, specifically models 206A0000 (Generation 2) and 206A0001 (Generation 3). The date codes for the doors range from 031924 to 060524, which can be found etched on the lower corner of the glass. The remote control bears the Pella logo on the lower third of its front panel and has a UPC of 748171618722. Additionally, the battery-operated remotes were sold separately.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/Pella-Recalls-Sliding-Patio-Doors-and-Windows-Due-to-Battery-Ingestion-Hazard-Violation-of-Reeses-Law-Federal-Safety-Regulations-for-Consumer-Products-with-Button-Cell-Batteries",
+      "Title": "Pella Recalls Sliding Patio Doors and Windows Due to Battery Ingestion Risk and Safety Regulation Violations",
+      "ConsumerContact": "For more information, consumers can reach Pella at 844-807-2219 from 8 a.m. to 5 p.m. ET, Monday through Friday, or visit www.pella.com and select \"Recall Notice\" for further details. More information is also available at https://www.pella.com/recall-notice.",
+      "LastPublishDate": "2025-02-06T00:00:00",
+      "Products": [
+        {
+          "Name": "Pella Reserve Sliding Patio Doors",
+          "NumberOfUnits": "About 340"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/glass-doors-or-doors-with-glass-panels/1-Pella-Reserve-Sliding-Patio-Doors/24e4eb1b161d8c70964ea9297ef530dc.webp",
+          "Caption": "Recalled Pella Reserve and Pella Lifestyle sliding door",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/pella-1.JPG"
+        },
+        {
+          "URL": "/images/generalRecalls/glass-doors-or-doors-with-glass-panels/1-Pella-Reserve-Sliding-Patio-Doors/a631198e04702fc3d16b646e2c58fa08.webp",
+          "Caption": "Door's locking panel sensor location",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/pella-2.JPG"
+        },
+        {
+          "URL": "/images/generalRecalls/glass-doors-or-doors-with-glass-panels/1-Pella-Reserve-Sliding-Patio-Doors/a5d5c7c19546d10fbde8acc5bcb8407e.webp",
+          "Caption": "Front and back of the remote control for the recalled Pella Lifestyle Series products with motorized integrated blinds and shades model 206A0000 (Gen 2)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/pella-3.png"
+        },
+        {
+          "URL": "/images/generalRecalls/glass-doors-or-doors-with-glass-panels/1-Pella-Reserve-Sliding-Patio-Doors/bc65d7ad7354d25b8780b1b45ffcfb64.webp",
+          "Caption": "Front and back of the remote control for the recalled Pella Lifestyle Series products with motorized integrated blinds and shades model 206A0001 (Gen 3)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/pella-4.png"
+        },
+        {
+          "URL": "/images/generalRecalls/glass-doors-or-doors-with-glass-panels/1-Pella-Reserve-Sliding-Patio-Doors/7a54be6eb37ccef7e55ef19b5bcb9759.webp",
+          "Caption": "Motorized shades on Pella Lifestyle sliding door",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/pella-5.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/glass-doors-or-doors-with-glass-panels/1-Pella-Reserve-Sliding-Patio-Doors/b6bf79b8b2416553d085a91149c5b04e.webp",
+          "Caption": "Motorized blinds on Pella Lifestyle windows",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/pella-6.jpg"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Pella directly, Lowe's, and Builders FirstSource stores nationwide, as well as online from March 2024 through June 2024."
+        }
+      ],
+      "Distributors": [
+        {
+          "Name": "Pella Corporation, of Pella, Iowa"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "United States"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Ingestion hazard due to accessible button cell batteries in the sensor panel and remote control, violating federal safety regulations."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Remove the battery from the sensor and remote control immediately. Contact Pella for instructions on obtaining a free replacement remote or to arrange a complimentary door repair by a qualified technician."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        },
+        {
+          "Option": "Replace"
+        }
+      ],
+      "ProductUPCs": [
+        {
+          "UPC": "748171618722"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "206A0000",
+        "206A0001"
+      ],
+      "slug": "pella-recalls-sliding-patio-doors-and-windows-due-to-battery-ingestion-risk-and-safety-regulation-violations-recall",
+      "metaDescription": "Pella recalls sliding patio doors and windows due to ingestion risk from accessible batteries. Contact Pella for free replacements and repairs."
+    }
+  ]
+}

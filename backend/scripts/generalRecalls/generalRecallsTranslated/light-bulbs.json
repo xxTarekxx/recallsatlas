@@ -1,0 +1,105 @@
+{
+  "meta": {
+    "slug": "light-bulbs",
+    "sourceCsvFile": "light-bulbs_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:36.992Z",
+    "recallCount": 1,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "light-bulbs.json",
+    "seoTranslatedAt": "2026-04-04T06:41:58.791Z",
+    "resumePartial": false
+  },
+  "recalls": [
+    {
+      "RecallID": 9836,
+      "RecallNumber": "24099",
+      "RecallDate": "2024-02-01T00:00:00",
+      "Description": "Meijer is recalling December Home branded candelabra style incandescent replacement light bulbs due to a serious safety concern. These bulbs feature a metallic threaded base and a glass shell, and are packaged in sets of one, two, or three. The product packaging clearly displays the December Home brand name.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/Meijer-Recalls-December-Home-Branded-Candelabra-Style-Light-Bulbs-Due-to-Laceration-Hazard",
+      "Title": "Meijer Recalls December Home Candelabra Light Bulbs Due to Laceration Risk",
+      "ConsumerContact": "For more information, consumers can reach Meijer at 800-927-8699 at any time or visit www.meijer.com/product-recalls. Alternatively, visit www.meijer.com and click on 'Product Recalls' at the bottom of the page.",
+      "LastPublishDate": "2024-02-01T00:00:00",
+      "Products": [
+        {
+          "Name": "December Home Candelabra Replacement Light Bulbs",
+          "NumberOfUnits": "About 19,200"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/light-bulbs/1-December-Home-Candelabra-Replacement-Light-Bulbs/44febfbdb446117a14a95d527444eb42.webp",
+          "Caption": "Recalled DECEMBER HOME replacement bulbs UPC 70882069258",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Dec-Home-bulbs-2.png"
+        },
+        {
+          "URL": "/images/generalRecalls/light-bulbs/1-December-Home-Candelabra-Replacement-Light-Bulbs/8a6237aa04c10ba1da8f83c260307298.webp",
+          "Caption": "Recalled DECEMBER HOME replacement bulb UPC 76023636133",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Dec-Home-bulbs-1.png"
+        },
+        {
+          "URL": "/images/generalRecalls/light-bulbs/1-December-Home-Candelabra-Replacement-Light-Bulbs/7b10367eda8b019605e3fb65a163aff1.webp",
+          "Caption": "Recalled DECEMBER HOME replacement bulbs UPC 76023636134",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Dec-Home-bulbs-flame.png"
+        },
+        {
+          "URL": "/images/generalRecalls/light-bulbs/1-December-Home-Candelabra-Replacement-Light-Bulbs/3f44ecd275761589ad592491f195e1b1.webp",
+          "Caption": "Recalled DECEMBER HOME replacement bulbs UPC 76023636135",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Dec-Home-bulbs-3.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received one report of an incident involving a 3V bulb used in a 120V fixture resulting in a \"short out\" in the fixture. No injuries have been reported."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available at Meijer stores across Illinois, Indiana, Ohio, Michigan, Kentucky, and Wisconsin from October 2023 through November 2023, priced at approximately $1.50 for one or two bulb packages and $2 for three bulb packages."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Meijer Distribution Inc., of Grand Rapids, Michigan"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "Vietnam"
+        }
+      ],
+      "ProductUPCs": [
+        {
+          "UPC": "70882069258"
+        },
+        {
+          "UPC": "76023636133"
+        },
+        {
+          "UPC": "76023636134"
+        },
+        {
+          "UPC": "76023636135"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Some packages may contain 3V bulbs meant for battery-operated fixtures instead of the labeled 120V bulbs, which can burst if used in a 120V fixture, leading to a laceration hazard."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should cease using the recalled light bulbs immediately and return them to Meijer for a full refund."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "slug": "meijer-recalls-december-home-candelabra-light-bulbs-due-to-laceration-risk-recall",
+      "metaDescription": "Meijer recalls December Home candelabra light bulbs due to laceration hazards. Return for a full refund. Stay safe!"
+    }
+  ]
+}

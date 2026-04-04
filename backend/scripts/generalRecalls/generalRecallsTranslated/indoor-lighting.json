@@ -1,0 +1,1585 @@
+{
+  "meta": {
+    "slug": "indoor-lighting",
+    "sourceCsvFile": "indoor-lighting_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:36.976Z",
+    "recallCount": 19,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "indoor-lighting.json",
+    "seoTranslatedAt": "2026-04-04T05:47:30.765Z",
+    "resumePartial": false
+  },
+  "recalls": [
+    {
+      "RecallID": 10674,
+      "RecallNumber": "26344",
+      "RecallDate": "2026-03-26T00:00:00",
+      "Description": "Sunnyyes has issued a recall for its LED mini lights due to serious safety concerns related to battery ingestion. These color-changing lights, featuring 13 different colors, come with 10 multicolored lights powered by two CR2032 lithium coin batteries each. Additionally, the lights are accompanied by two remote controls, each containing a CR2025 coin lithium battery. Each light measures 1.18 inches in diameter, posing a significant risk if accessed by children.\n\nThe recall is prompted by the easy accessibility of the lithium coin batteries, which can lead to ingestion. The remote controls' battery compartments are not securely fastened, and the product packaging lacks the necessary warnings mandated by Reese's Law. Ingesting these batteries can result in severe injuries, internal chemical burns, or even death.",
+      "URL": "https://www.cpsc.gov/Recalls/2026/Sunnyyes-LED-Mini-Lights-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violates-Mandatory-Standard-for-Consumer-Products-with-Coin-Batteries",
+      "Title": "Recall of Sunnyyes LED Mini Lights Due to Battery Ingestion Hazard",
+      "ConsumerContact": "For assistance, contact Sunnyyes via email at usa@sunnyyes.com.",
+      "LastPublishDate": "2026-03-27T00:00:00",
+      "Products": [
+        {
+          "Name": "Sunnyyes Color Changing LED Mini Lights",
+          "NumberOfUnits": "About 26,000"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/indoor-lighting/1-Sunnyyes-Color-Changing-LED-Mini-Lights/4e3ae521b7ed6536b328e0991716aa67.webp",
+          "Caption": "Recalled Sunnyyes LED Lights with remote controls",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/sunnyyes-1.png"
+        },
+        {
+          "URL": "/images/generalRecalls/indoor-lighting/1-Sunnyyes-Color-Changing-LED-Mini-Lights/a9c9214dbb85a65aa7b799bcd7711cc1.webp",
+          "Caption": "LED Lights with lithium coin batteries",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/sunnyyes-2.png"
+        },
+        {
+          "URL": "/images/generalRecalls/indoor-lighting/1-Sunnyyes-Color-Changing-LED-Mini-Lights/a074c06bf63c1c75278117dd491e5659.webp",
+          "Caption": "Remote control without a captive screw",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/sunnyyes-3.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available online at Amazon.com from March 2024 to March 2026 for approximately $20"
+        }
+      ],
+      "Distributors": [
+        {
+          "Name": "Huizhoushi Chuanglianxin Technology Co., Ltd, dba Sunnyyes, of China"
+        }
+      ],
+      "SoldAtLabel": "Sold Online At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of ingestion of lithium coin batteries by children"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Stop using the lights, secure them away from children, and disassemble all components for a refund"
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "slug": "recall-of-sunnyyes-led-mini-lights-due-to-battery-ingestion-hazard-recall",
+      "metaDescription": "Sunnyyes recalls LED mini lights due to battery ingestion risks. Immediate action required for consumer safety."
+    },
+    {
+      "RecallID": 10648,
+      "RecallNumber": "26305",
+      "RecallDate": "2026-02-26T00:00:00",
+      "Description": "SumDirect is recalling its LED mini lights due to a serious safety risk. These lights, designed to blink and hang, contain three LR41 button cell batteries that can be easily accessed by children, posing a risk of ingestion. The product does not meet the required safety standards outlined by Reese's Law, which mandates specific warnings for products containing such batteries. Ingesting these batteries can lead to severe injuries, internal burns, or even fatal outcomes.",
+      "URL": "https://www.cpsc.gov/Recalls/2026/SumDirect-LED-Mini-Lights-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violates-Mandatory-Standard-for-Consumer-Products-with-Button-Cell-Batteries",
+      "Title": "SumDirect LED Mini Lights Recalled Due to Potential Ingestion Hazard from Button Cell Batteries",
+      "ConsumerContact": "For more information, consumers can reach out to SumDirect via email at recall@dgfuxin.cn or visit www.SumDirect.cn and navigate to the Refund & Exchange section.",
+      "LastPublishDate": "2026-02-27T00:00:00",
+      "Products": [
+        {
+          "Name": "SumDirect LED Mini Lights",
+          "NumberOfUnits": "About 1,600"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/indoor-lighting/2-SumDirect-LED-Mini-Lights/4e3f1273e11a37f1d26e74b133d05ce4.webp",
+          "Caption": "Recalled SumDirect LED Mini Blinking Lights",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/RecalledSumDirectLEDMiniBlinkingLights.png"
+        },
+        {
+          "URL": "/images/generalRecalls/indoor-lighting/2-SumDirect-LED-Mini-Lights/a645e2e3696c94288eb16177d52005c4.webp",
+          "Caption": "Each of the 24 multicolored, blinking lights includes three preinstalled LR41 button cell batteries",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/LR41 button cell batteries..png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available for purchase on Amazon.com from January 2016 through November 2025 at approximately $23."
+        }
+      ],
+      "Distributors": [
+        {
+          "Name": "Dongguan Fuxin E-Commerce Co., Ltd., dba SumDirect, of China"
+        }
+      ],
+      "SoldAtLabel": "Sold Online At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Ingestion hazard due to accessible button cell batteries"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Stop using the lights immediately, keep them away from children, and dispose of the batteries properly. Contact SumDirect for a full refund, including sending a photo of the product in the trash to recall@dgfuxin.cn. Follow local hazardous waste procedures for battery disposal."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "slug": "sumdirect-led-mini-lights-recalled-due-to-potential-ingestion-hazard-from-button-cell-batteries-recall",
+      "metaDescription": "Recall alert: SumDirect LED mini lights pose a serious ingestion risk due to accessible button cell batteries. Learn how to get a refund."
+    },
+    {
+      "RecallID": 10625,
+      "RecallNumber": "26278",
+      "RecallDate": "2026-02-26T00:00:00",
+      "Description": "PQL is recalling its High Bay Linear LED light fixtures due to a potential fire hazard. These fixtures are rectangular and come in white metal, available in both 2-foot and 4-foot lengths. The 2-foot models include numbers such as 55202, 55203, and many others, while the 4-foot models feature numbers like 55213, 55214, and more. You can find the model numbers on the back of each fixture.",
+      "URL": "https://www.cpsc.gov/Recalls/2026/PQL-Recalls-High-Bay-Linear-LED-Light-Fixtures-Due-to-Fire-Hazard",
+      "Title": "PQL Recalls High Bay Linear LED Light Fixtures Due to Fire Risk",
+      "ConsumerContact": "For assistance, consumers can reach PQL at 805-416-5251 from 8:30 a.m. to 5 p.m. CT, Monday through Friday, email safety@pqlighting.com, or visit https://pqlighting.com/product-recall-notice for further details. Additionally, consumers can access the Safety Recall Form under the 'Resources' section on https://pqlighting.com.",
+      "LastPublishDate": "2026-02-27T00:00:00",
+      "Products": [
+        {
+          "Name": "High Bay Linear LED Light Fixtures",
+          "NumberOfUnits": "About 186,520"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/indoor-lighting/3-High-Bay-Linear-LED-Light-Fixtures/3f707733e1380661bd3ffd3b341ed4df.webp",
+          "Caption": "Recalled High Bay Linear LED light fixture",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/highbay-1.png"
+        },
+        {
+          "URL": "/images/generalRecalls/indoor-lighting/3-High-Bay-Linear-LED-Light-Fixtures/fa5118b29a5cd2cccefd5b5703cade8b.webp",
+          "Caption": "Recalled High Bay Linear LED light fixture",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/highbay-2.png"
+        },
+        {
+          "URL": "/images/generalRecalls/indoor-lighting/3-High-Bay-Linear-LED-Light-Fixtures/7f1a2505888d3528694d9fcb140d7640.webp",
+          "Caption": "Recalled High Bay Linear LED light fixture",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/highbay-3.png"
+        },
+        {
+          "URL": "/images/generalRecalls/indoor-lighting/3-High-Bay-Linear-LED-Light-Fixtures/080fc927a5b7e88a3453f9f1955f118d.webp",
+          "Caption": "Recalled High Bay Linear LED light fixture",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/highbay-4.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received one report of a LED light fixture catching fire. No injuries have been reported."
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "Jiangsu Ever-Tie Lighting Co., Ltd, of China"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available at various retailers nationwide, including LED Indy, Universal Lighting of America, Inc., and Independent Lighting, as well as online from January 2016 through June 2025, priced between $50 and $350."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "PQL, Inc., of Simi Valley, California"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "Hong Kong"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Potential fire hazard due to degrading retaining pins that may cause the LED board to loosen inside the fixture."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should stop using the fixtures immediately and contact PQL for free replacement retaining pins. Registration for the product can be done at https://pqlighting.com/product-recall-notice."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "55202",
+        "55203",
+        "55208",
+        "55209",
+        "55209-WC",
+        "55213",
+        "55214",
+        "55222",
+        "55223",
+        "55225",
+        "55226",
+        "55227",
+        "55228",
+        "55360",
+        "55361",
+        "55362",
+        "55363",
+        "55477",
+        "55478",
+        "55480",
+        "55481",
+        "55482",
+        "55483",
+        "55484",
+        "55485",
+        "55504",
+        "55505",
+        "55506",
+        "55507",
+        "55508",
+        "55511",
+        "55512",
+        "55514",
+        "55515",
+        "55518",
+        "55534",
+        "55535",
+        "55536",
+        "55537",
+        "55538",
+        "55539",
+        "55710",
+        "55711",
+        "55712",
+        "55713",
+        "55714",
+        "55715",
+        "55215",
+        "55230",
+        "55231",
+        "55232",
+        "55364",
+        "55365",
+        "55366",
+        "55367",
+        "55487",
+        "55491",
+        "55492",
+        "55510",
+        "55521",
+        "55716",
+        "55717",
+        "55720",
+        "55722"
+      ],
+      "slug": "pql-recalls-high-bay-linear-led-light-fixtures-due-to-fire-risk-recall",
+      "metaDescription": "PQL recalls High Bay Linear LED light fixtures due to fire hazards. Contact for free replacement pins and safety information."
+    },
+    {
+      "RecallID": 10551,
+      "RecallNumber": "26177",
+      "RecallDate": "2026-01-08T00:00:00",
+      "Description": "RH is recalling its 48\" and 60\" diameter Natural Antler Chandeliers, which were made to order between September 2021 and October 2024. These chandeliers, crafted from naturally shed elk antlers, were offered in natural, sun-bleached, and black finishes. The 48\" chandelier stands approximately 48\" tall and weighs around 40 pounds, while the 60\" chandelier is about 36\" tall and weighs approximately 45 pounds. SKU numbers for the 48\" model include 10036671NAT, 10036671SUNB, and 10036671BLK, while the 60\" model includes 10035099NAT, 10035099SUNB, and 10035099BLK, found on the order confirmation and receipt.",
+      "URL": "https://www.cpsc.gov/Recalls/2026/RH-Recalls-Natural-Antler-Chandeliers-Due-to-Impact-Hazard",
+      "Title": "RH Recalls Natural Antler Chandeliers Due to Fall Risk",
+      "ConsumerContact": "Customers can reach RH at 833-784-1852 from 6 a.m. to 7 p.m. PT Monday through Friday, and 8 a.m. to 5 p.m. PT on weekends. For email inquiries, contact recall@rh.com. More information is available online at https://rh.com/us/en/customer-experience/safety-recalls or by visiting https://rh.com/us/en/ and selecting 'Safety Recalls' at the bottom of the page.",
+      "LastPublishDate": "2026-01-09T00:00:00",
+      "Products": [
+        {
+          "Name": "48\" Natural Antler Chandelier",
+          "NumberOfUnits": "About 320"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/indoor-lighting/4-48-Natural-Antler-Chandelier/f87c01995f2b4d6a15680022f015ed1d.webp",
+          "Caption": "Recalled RH 48” Natural Antler Chandelier",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/RHAntler-1.png"
+        },
+        {
+          "URL": "/images/generalRecalls/indoor-lighting/4-48-Natural-Antler-Chandelier/825d1130dfe306a6aa284d5ff679555b.webp",
+          "Caption": "Recalled RH 60” Natural Antler Chandelier",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/RHAntler-2.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received four reports of canopy hardware components breaking and chandeliers detaching, including one report in which the chandelier fell to the floor. No injuries have been reported."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available at RH galleries and online at https://rh.com/us/en/ from September 2021 through October 2024, and at RH Outlets nationwide from September 2021 through September 2025, priced between $1,700 and $7,700."
+        }
+      ],
+      "Distributors": [
+        {
+          "Name": "RH US, LLC, of Corte Madera, California"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "United States"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of chandelier detachment and impact if hung at an angle on a vaulted ceiling or sloped beam."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should avoid the area beneath the chandelier and contact RH for a complimentary in-home repair, where a technician will replace the canopy hardware."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "10036671NAT",
+        "10036671SUNB",
+        "10036671BLK",
+        "10035099NAT",
+        "10035099SUNB",
+        "10035099BLK"
+      ],
+      "slug": "rh-recalls-natural-antler-chandeliers-due-to-fall-risk-recall",
+      "metaDescription": "RH recalls Natural Antler Chandeliers due to fall risk. Contact RH for a free repair and safety information."
+    },
+    {
+      "RecallID": 10530,
+      "RecallNumber": "26155",
+      "RecallDate": "2025-12-18T00:00:00",
+      "Description": "Currey & Company has issued a recall for all Electra Chandelier and Electra Three Tier Chandelier light fixtures due to a safety concern. These fixtures, crafted from glass and iron with a brass frame, may have a faulty connection to the ceiling mount, which can lead to unexpected falls and potential injuries. The Electra Chandelier measures 18 inches by 29 inches and weighs 51 pounds, while the Electra Three Tier Chandelier measures 47 inches by 29 inches and weighs 131 pounds. Both models feature the 'Currey & Company' branding and model numbers on the ceiling canopy.",
+      "URL": "https://www.cpsc.gov/Recalls/2026/Currey-Company-Recalls-Electra-Chandeliers-Due-to-Impact-Injury-Hazard",
+      "Title": "Currey & Company Recalls Electra Chandeliers Due to Injury Risk from Falling",
+      "ConsumerContact": "For assistance, consumers should reach out to Currey & Company at 800-899-7047 from 8:30 a.m. to 5:30 p.m. ET, Monday through Friday, or via email at recall@curreyco.com. More details can be found online at https://www.curreyandcompany.com/legalities/recall/ or by visiting https://www.curreyandcompany.com and clicking on 'Recall' at the bottom of the page.",
+      "LastPublishDate": "2025-12-18T00:00:00",
+      "Products": [
+        {
+          "Name": "Electra Chandelier",
+          "NumberOfUnits": "About 260"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/indoor-lighting/5-Electra-Chandelier/f8e0f6e25bcf5edfb7a58a071fc3d9c3.webp",
+          "Caption": "Recalled Electra Chandelier, Model No. 9000-1234",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/electra-chan-1.png"
+        },
+        {
+          "URL": "/images/generalRecalls/indoor-lighting/5-Electra-Chandelier/c7561b7cc38ec945ba19e0df810e16c3.webp",
+          "Caption": "Recalled Electra Three Tier Chandelier, Model No. 9000-1235",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/electra-chan-2.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received two reports of the chandelier light fixtures falling from the ceiling, with one incident involving property damage. No injuries have been reported."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Currey & Company showrooms, various lighting stores nationwide, and online at www.curreyandcompany.com and other e-commerce home retailers"
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Currey & Company, Inc., of Atlanta, Georgia"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "India"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of injury from falling due to improper ceiling mount connection"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Free in-home repair kit and installation reimbursement"
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "9000-1234",
+        "9000-1235"
+      ],
+      "slug": "currey-company-recalls-electra-chandeliers-due-to-injury-risk-from-falling-recall",
+      "metaDescription": "Currey & Company recalls Electra Chandeliers due to a risk of falling. Contact for a free repair kit and installation reimbursement."
+    },
+    {
+      "RecallID": 10325,
+      "RecallNumber": "25360",
+      "RecallDate": "2025-06-26T00:00:00",
+      "Description": "Green Pastures Wholesale has announced a recall of their LED Fireplace Lanterns, specifically models SP-14, SP-55, SP-66, and SP-78. These battery-operated lanterns feature a black metal frame and may include a metal fence, be free-standing, or have four legs. Each product comes with a USB power cable, a remote control, and a preinstalled CR2025 lithium battery. The model number can be found on the top of the packaging.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/LED-Fireplace-Lanterns-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Ingestion-Hazard-Violations-of-Federal-Standard-for-Consumer-Products-with-Coin-Batteries-Imported-by-Green-Pastures-Wholesale",
+      "Title": "LED Fireplace Lanterns Recalled Due to Ingestion Hazard and Federal Compliance Violations",
+      "ConsumerContact": "For assistance, consumers can reach out to Green Pastures Wholesale at 855-787-7429 from 9 a.m. to 3 p.m. ET, Monday through Friday. Alternatively, they can email info@greenpastureswholesale.com or visit https://greenpastureswholesale.com/product-recall for more details.",
+      "LastPublishDate": "2025-06-26T00:00:00",
+      "Products": [
+        {
+          "Name": "LED Fireplace Lantern SP-14",
+          "NumberOfUnits": "About 1,250"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/indoor-lighting/6-LED-Fireplace-Lantern-SP-14/457c1f328ff41b370a92386cd58408f3.webp",
+          "Caption": "Recalled LED Fireplace Lantern – Model SP-14",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/LED-fireplace-1.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/indoor-lighting/6-LED-Fireplace-Lantern-SP-14/d14c4be7bb787a8078ef050113d4847f.webp",
+          "Caption": "Recalled LED Fireplace Lantern – Model SP-55",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/LED-fireplace-2.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/indoor-lighting/6-LED-Fireplace-Lantern-SP-14/186a4015a26fbcdf96711ff6a767f18b.webp",
+          "Caption": "Recalled LED Fireplace Lantern – Model SP-66",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/LED-fireplace-3.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/indoor-lighting/6-LED-Fireplace-Lantern-SP-14/793c82617b4587fad32436bb9e2f14a0.webp",
+          "Caption": "Recalled LED Fireplace Lantern – Model SP-78",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/LED-fireplace-4.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/indoor-lighting/6-LED-Fireplace-Lantern-SP-14/29c1e4d9dcd2a7cc65a76268eb3068a2.webp",
+          "Caption": "Recalled LED Fireplace Lantern – Product Packaging",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/LED-fireplace-5.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/indoor-lighting/6-LED-Fireplace-Lantern-SP-14/4a5bdf8de2ce4c3b5c004a9881d47b52.webp",
+          "Caption": "Recalled LED Fireplace Lantern – Product Packaging",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/LED-fireplace-6.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/indoor-lighting/6-LED-Fireplace-Lantern-SP-14/2b499c2a5787bd71b4d97efd07f01b46.webp",
+          "Caption": "Recalled Remote Control",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/LED-fireplace-7.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/indoor-lighting/6-LED-Fireplace-Lantern-SP-14/4061dcdd50b98f9a28b323ce135ef5a2.webp",
+          "Caption": "Recalled Remote Control",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/LED-fireplace-8.jpg"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "AmericasMart Atlanta Green Pastures Wholesale Showroom, Atlanta, GA"
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Green Pastures Wholesale, of Baltimore, Maryland"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "These lanterns do not comply with federal safety standards for products containing button cell batteries, posing a risk of ingestion by children. If swallowed, these batteries can lead to severe injuries, internal burns, or even death."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers are urged to stop using the lanterns immediately, remove the battery from the remote control, and store it out of children's reach. Green Pastures Wholesale will provide a free UPS shipping label for product returns and issue full refunds. They are also directly contacting all known purchasers. Note: Dispose of button cell batteries safely according to local hazardous waste guidelines."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "slug": "led-fireplace-lanterns-recalled-due-to-ingestion-hazard-and-federal-compliance-violations-recall",
+      "metaDescription": "Recall of LED Fireplace Lanterns due to ingestion hazards. Stop using immediately and contact Green Pastures Wholesale for refunds."
+    },
+    {
+      "RecallID": 10297,
+      "RecallNumber": "25317",
+      "RecallDate": "2025-06-05T00:00:00",
+      "Description": "Lutron has issued a recall for its power interfaces, model LU-PH3-B, designed for LED tape lights. These 96W hard-wired power interfaces were sold individually and included in Lumaris RGB+ tunable white LED tape light starter kits for RadioRA 3 systems (model RRL-MTK-RT-IN) and HomeWorks systems (model HWL-MTK-RT-IN).",
+      "URL": "https://www.cpsc.gov/Recalls/2025/Lutron-Recalls-Power-Interfaces-for-LED-Tape-Lights-Due-to-Shock-Hazard",
+      "Title": "Lutron Recalls Power Interfaces for LED Tape Lights Due to Shock Risk",
+      "ConsumerContact": "Consumers should contact Lutron at 800-239-0495 from 8 a.m. to 5:30 p.m. ET, Monday through Friday, or via email at productrecall@lutron.com. More information is available online at https://residential.lutron.com/us/en/safety/safety-recall or by visiting https://www.lutron.com/us/en and selecting 'Safety Notices' at the bottom of the page.",
+      "LastPublishDate": "2025-06-05T00:00:00",
+      "Products": [
+        {
+          "Name": "Lutron Power Interfaces for LED Tape Lights",
+          "NumberOfUnits": "About 1,944"
+        }
+      ],
+      "Inconjunctions": [
+        {
+          "URL": "https://recalls-rappels.canada.ca/en/alert-recall/lutron-power-interface-led-tape-lights-recalled-due-potential-shock-hazard"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/indoor-lighting/7-Lutron-Power-Interfaces-for-LED-Tape-Lights/6930528b9fc678b2198a292e37b03b61.webp",
+          "Caption": "Recalled Lutron Power Interface (model LU-PH3-B)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Lutron-1.png"
+        },
+        {
+          "URL": "/images/generalRecalls/indoor-lighting/7-Lutron-Power-Interfaces-for-LED-Tape-Lights/57acc73caafc40e71d3a7ccde3a12b4b.webp",
+          "Caption": "Close up of product label on recalled Lutron Power Interface",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Lutron-2.png"
+        },
+        {
+          "URL": "/images/generalRecalls/indoor-lighting/7-Lutron-Power-Interfaces-for-LED-Tape-Lights/eff0e194ec104b505ccffecbc528a59d.webp",
+          "Caption": "RadioRA 3 LED tape light starter kit package label lists the recalled power interface",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Lutron-3.png"
+        },
+        {
+          "URL": "/images/generalRecalls/indoor-lighting/7-Lutron-Power-Interfaces-for-LED-Tape-Lights/5c5465f89814e74941323bc4473dfebb.webp",
+          "Caption": "HomeWorks LED tape light starter kit package label lists the recalled power interface",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Lutron-4.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available through dealers and distributors of audiovisual equipment and electrical supplies nationwide from September 2024 to April 2025, priced around $300 for the power interfaces and between $1,250 and $1,400 for the Lumaris LED tape light starter kits and HomeWorks systems."
+        }
+      ],
+      "Distributors": [
+        {
+          "Name": "Lutron Electronics Co. Inc., of Coopersburg, Pennsylvania"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Potential shock hazard from power interface failure during power surges"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Stop using the recalled power interfaces and connected lighting, turn off the circuit breaker, and contact Lutron for a free replacement and installation."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Replace"
+        }
+      ],
+      "slug": "lutron-recalls-power-interfaces-for-led-tape-lights-due-to-shock-risk-recall",
+      "metaDescription": "Lutron recalls power interfaces for LED tape lights due to shock risk. Contact Lutron for a free replacement and installation."
+    },
+    {
+      "RecallID": 10283,
+      "RecallNumber": "25301",
+      "RecallDate": "2025-05-29T00:00:00",
+      "Description": "Minka Lighting has issued a recall for all Vortic Flow light fixtures made of steel with dark bronze and mosaic gold finishes. This includes model numbers 3679, 4677, and 4679. The 3679 model is a 10-light pendant measuring 30 by 21 inches and weighing 25.7 pounds. The 4677 model is an eight-light pendant, measuring 11 by 30 inches and weighing 16 pounds. Lastly, the 4679 model is an 18-light chandelier, measuring 37.5 by 27 inches and weighing 28.6 pounds. The packaging or purchase records will include the brand name ",
+      "URL": "https://www.cpsc.gov/Recalls/2025/Minka-Lighting-Recalls-Vortic-Flow-Series-Lights-Due-to-Impact-Injury-Hazard",
+      "Title": "Minka Lighting Recalls Vortic Flow Series Fixtures Due to Injury Risk",
+      "ConsumerContact": "For assistance, consumers can reach Minka Lighting at 888-770-7027 from 7:30 a.m. to 5 p.m. CT, Monday through Friday. They can also email vortic@realtimeresults.net or visit https://www.recallrtr.com/vortic or https://www.minkagroup.net and click on 'Recall' at the bottom of the page for further details.",
+      "LastPublishDate": "2025-05-29T00:00:00",
+      "Products": [
+        {
+          "Name": "Minka Vortic Flow 10-Light Pendant",
+          "NumberOfUnits": "About 2,350"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/indoor-lighting/8-Minka-Vortic-Flow-10-Light-Pendant/0d17418184400b3a86a4491fa69d294f.webp",
+          "Caption": "Recalled Minka Vortic Flow 10-Light Pendant, Model No. 3679",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Minka-1.png"
+        },
+        {
+          "URL": "/images/generalRecalls/indoor-lighting/8-Minka-Vortic-Flow-10-Light-Pendant/707c76021aaf09981fcdc3f8429d8e06.webp",
+          "Caption": "Recalled Minka Vortic Flow 8-Light Pendant, Model No. 4677",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Minka-2.png"
+        },
+        {
+          "URL": "/images/generalRecalls/indoor-lighting/8-Minka-Vortic-Flow-10-Light-Pendant/c3edb23fd74dddbfd359a44861f13da6.webp",
+          "Caption": "Recalled Minka Vortic Flow 18-Light Chandelier, Model No. 4679",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Minka-3.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received two reports of the light fixtures partially detaching. No fallen light fixtures or injuries have been reported."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available at lighting and home improvement stores nationwide, and online at www.Ferguson.com, www.wayfair.com, and www.lamps.com from August 2019 through October 2024, priced between $850 and $1,500."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Minka Lighting LLC, of Corona, California"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of injury from falling due to weakened ceiling mount connection."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Schedule a free inspection and on-site repair with Minka Lighting."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Replace"
+        }
+      ],
+      "slug": "minka-lighting-recalls-vortic-flow-series-fixtures-due-to-injury-risk-recall",
+      "metaDescription": "Minka Lighting recalls Vortic Flow Series fixtures due to potential injury risks. Contact Minka for free inspections and repairs."
+    },
+    {
+      "RecallID": 10246,
+      "RecallNumber": "25232",
+      "RecallDate": "2025-04-24T00:00:00",
+      "Description": "AliExpress has issued a recall for RGB-branded LED strip lights powered by button batteries. These color-changing and dimmable lights, measuring approximately 0.4 inches, were available in various colors including white, warm white, blue, ice blue, green, red, yellow, purple, and pink. The design of these lights poses a significant risk as they allow easy access to the lithium coin batteries, which can be ingested by children, leading to serious injuries or even death. Furthermore, these products do not comply with federal safety regulations regarding warning labels.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/AliExpress-Recalls-LED-Strip-Lights-Due-to-Risk-of-Serious-Injury-or-Death-from-Ingestion-Hazard-Violations-of-Reeses-Law-Federal-Safety-Regulations-for-Consumer-Products-with-Coin-Batteries-Sold-on-AliExpress-com",
+      "Title": "AliExpress Recalls RGB LED Strip Lights Due to Serious Ingestion Hazard and Safety Regulation Violations",
+      "ConsumerContact": "For assistance, consumers should visit AliExpress's online service at https://helpcenter.aliexpress.com/s/BuyerHelp/home?language=en_US&m_station=BuyerHelp, email us_product_recall@aliexpress.com, or access more information at https://helpcenter.aliexpress.com/s/BuyerHelp/knowledge?categoryId=1000110454&language=en_US&m_station=BuyerHelp&questionId=1061297473&regulation=US-product-recall. Additional details can be found by visiting www.aliexpress.com and selecting \"Recalls\" at the bottom of the page.",
+      "LastPublishDate": "2025-04-24T00:00:00",
+      "Products": [
+        {
+          "Name": "RGB LED Strip Lights",
+          "NumberOfUnits": "About 390"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/indoor-lighting/9-RGB-LED-Strip-Lights/3da45d3eec9b400f90b7d85792969e85.webp",
+          "Caption": "Recalled AliExpress LED strip light - purple",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/AliExpress-LED-1.png"
+        },
+        {
+          "URL": "/images/generalRecalls/indoor-lighting/9-RGB-LED-Strip-Lights/0201c44284978602443cf900f7b12a7e.webp",
+          "Caption": "Recalled AliExpress LED strip lights",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/AliExpress-LED-2.png"
+        },
+        {
+          "URL": "/images/generalRecalls/indoor-lighting/9-RGB-LED-Strip-Lights/db33905587f0b80722960cdca8ddc521.webp",
+          "Caption": "Recalled AliExpress LED strip light - green",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/AliExpress-LED-3.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available on AliExpress.com from March 2024 to November 2024 for approximately $3."
+        }
+      ],
+      "Distributors": [
+        {
+          "Name": "Dongguan Changsheng Heng Electronic Commerce Co. Ltd., of China"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "The recalled lights pose an ingestion hazard as they allow easy access to lithium coin batteries, which can cause serious injuries, internal chemical burns, or death if swallowed."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers must stop using the recalled LED strip lights immediately and contact AliExpress for a full refund. They should destroy the lights by cutting them in half and disposing of them properly. A photo of the destroyed lights must be sent to us_product_recall@aliexpress.com or in response to the recall email from AliExpress. The company will reach out to all known purchasers directly. Note: Button cell and coin batteries are hazardous and should be disposed of according to local hazardous waste guidelines."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "slug": "aliexpress-recalls-rgb-led-strip-lights-due-to-serious-ingestion-hazard-and-safety-regulation-violations-recall",
+      "metaDescription": "AliExpress recalls RGB LED strip lights due to ingestion hazards from button batteries. Immediate action required for safety."
+    },
+    {
+      "RecallID": 10221,
+      "RecallNumber": "25204",
+      "RecallDate": "2025-04-03T00:00:00",
+      "Description": "Five Below is recalling the Room2Room LED iridescent bear lights due to potential fire and burn hazards. These lights stand approximately 7.5 inches tall and 9.3 inches wide, featuring a USB plug and an on/off switch. The product is identifiable by the model number LD-0030, which can be found on a label on the bottom of the bear. The UPC code 1922340368444 is also located on the packaging.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/Five-Below-Recalls-Room2Room-LED-Iridescent-Bear-Lights-Due-to-Fire-and-Burn-Hazards",
+      "Title": "Five Below Recalls Room2Room LED Iridescent Bear Lights Due to Fire and Burn Risks",
+      "ConsumerContact": "For assistance, consumers can reach Five Below at 844-452-3569 from 9 a.m. to 9 p.m. ET, Monday through Friday, via email at Recalls@FiveBelow.com, or visit https://www.fivebelow.com/info/five-below-recalls-led-iridescent-bear-light. More details are available at https://www.fivebelow.com/ under the 'Product Recalls' section.",
+      "LastPublishDate": "2025-04-03T00:00:00",
+      "Products": [
+        {
+          "Name": "Room2Room LED Iridescent Bear Lights",
+          "NumberOfUnits": "About 29,000"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/indoor-lighting/10-Room2Room-LED-Iridescent-Bear-Lights/9f1d2a42d6191403b16b4b96333b45ec.webp",
+          "Caption": "Recalled Room2Room LED Iridescent Bear Light",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/LED-bear.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/indoor-lighting/10-Room2Room-LED-Iridescent-Bear-Lights/65dc86d38a930aa145ab5fcacf48afe3.webp",
+          "Caption": "Location of label under the recalled Room2Room LED Iridescent Bear Light",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/LED-bear-label.jpg"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received 28 reports of the USB cord overheating and melting, including six reports of burns to fingers. There were also two reports of property damage, including burns to a wall and a headboard."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available at Five Below stores nationwide and online at fivebelow.com from September 2024 through February 2025 for approximately $12."
+        }
+      ],
+      "Distributors": [
+        {
+          "Name": "1616 Holdings Inc., of Philadelphia, Pennsylvania"
+        },
+        {
+          "Name": "Five Below Inc., of Philadelphia, Pennsylvania"
+        }
+      ],
+      "SoldAtLabel": "Sold Exclusively At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "ProductUPCs": [
+        {
+          "UPC": "1922340368444"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Overheating power switch on the USB cord posing fire and burn risks."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should stop using the lights immediately and return them to any Five Below location for a full refund. Refund options include the original payment method, cash, or store credit. Alternatively, customers can contact Five Below customer service for a refund by submitting a photo of the light with the cord cut. Disposal of the light should be done in household trash. No proof of purchase is necessary for a full refund."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "LD-0030"
+      ],
+      "slug": "five-below-recalls-room2room-led-iridescent-bear-lights-due-to-fire-and-burn-risks-recall",
+      "metaDescription": "Five Below recalls LED Iridescent Bear Lights due to fire hazards. Stop using and return for a full refund. Learn more here."
+    },
+    {
+      "RecallID": 10184,
+      "RecallNumber": "25162",
+      "RecallDate": "2025-02-27T00:00:00",
+      "Description": "Kichler Lighting is recalling their Ellerbeck Wall Sconces due to a potential electric shock risk. These sconces feature adjustable jointed arms and can be installed as plug-in fixtures or directly to an electrical box. They are available in various finishes including black, natural brass, polished nickel, and classic pewter, with model numbers 43115BK, 43115NBR, 43115PN, and 43115CLP. Only sconces made on or after June 16, 2023, that are used as plug-in fixtures are affected by this recall.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/Kichler-Lighting-Recalls-Wall-Sconces-Due-to-Risk-of-Electric-Shock",
+      "Title": "Kichler Lighting Recalls Ellerbeck Wall Sconces Due to Electric Shock Hazard",
+      "ConsumerContact": "For more information, consumers can contact Kichler at 866-558-5706 from 8 a.m. to 4:30 p.m. ET, Monday through Friday, or visit www.kichler.com/legal/safety-information/recall-information-43115. They can also access the 'Contact Us' webform at www.kichler.com/customer-care/contact-us to submit inquiries regarding the product.",
+      "LastPublishDate": "2025-02-27T00:00:00",
+      "Products": [
+        {
+          "Name": "Ellerbeck Wall Sconces",
+          "NumberOfUnits": "About 2,760 (In addition, about 215 were sold in Canada)"
+        }
+      ],
+      "Inconjunctions": [
+        {
+          "URL": "https://recalls-rappels.canada.ca/en/alert-recall/kichler-ellerbeck-wall-sconces-recalled-due-potential-shock-hazard"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/indoor-lighting/11-Ellerbeck-Wall-Sconces/fc6b74974d85859a41a24c3e488d397a.webp",
+          "Caption": "Recalled Ellerbeck Wall Sconce Light",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/eller-1.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/indoor-lighting/11-Ellerbeck-Wall-Sconces/fe758a30beb5fb61e9f62effc6e51cf0.webp",
+          "Caption": "Location of the Production date code underside of the sconce wall plate",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/eller-2.jpg"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available at lighting showrooms across the country and online at Amazon.com and Lowes.com from June 2023 to December 2024, priced between $165 and $240."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Kichler Lighting LLC, of Solon, Ohio"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of electric shock due to potential damage to electrical wires at adjustable joints."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Inspect the wall sconce to ensure it is installed as a plug-in fixture without an electrical box. If confirmed, immediately unplug the unit and cease use. Visit www.kichler.com/legal/safety-information/recall-information-43115 to check if your sconce is included in the recall. If so, complete the Contact Us webform at www.kichler.com/customer-care/contact-us, selecting 'Product Question' for further instructions on how to destroy the recalled product and receive a free replacement."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Replace"
+        }
+      ],
+      "slug": "kichler-lighting-recalls-ellerbeck-wall-sconces-due-to-electric-shock-hazard-recall",
+      "metaDescription": "Kichler Lighting recalls Ellerbeck Wall Sconces due to electric shock risks. Check if your sconce is affected and learn how to get a replacement."
+    },
+    {
+      "RecallID": 10158,
+      "RecallNumber": "25132",
+      "RecallDate": "2025-02-13T00:00:00",
+      "Description": "BlockBlueLight is recalling its Multi-Mode Sleep Lamp, model BBL-MM-LAMP, due to potential fire and burn hazards associated with its lithium-ion battery. This lamp features three color modes: Noblue Amber (yellow), Sunset Mixed (orange), and Twilight Red (red). It measures approximately 6.3 inches by 5.5 inches by 3 inches. Consumers are advised to properly dispose of the recalled batteries in accordance with local regulations, as they require special handling and should not be discarded in regular trash or recycling bins.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/Rechargeable-Portable-Lamps-with-Lithium-Ion-Batteries-Recalled-Due-to-Fire-and-Burn-Hazards-Imported-by-BlockBlueLight",
+      "Title": "BlockBlueLight Recalls Multi-Mode Sleep Lamps Due to Fire and Burn Risks",
+      "ConsumerContact": "For further details, consumers can reach BlockBlueLight Limited at 917-277-8422 from 2 p.m. to 10 p.m. ET, Sunday through Thursday, email product@blockbluelight.com, or visit https://www.blockbluelight.com/pages/multi-lamp-recall.",
+      "LastPublishDate": "2025-02-13T00:00:00",
+      "Products": [
+        {
+          "Name": "Multi-Mode Sleep Lamp",
+          "NumberOfUnits": "About 1,280"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/indoor-lighting/12-Multi-Mode-Sleep-Lamp/74d54e1b8c3f1b298b0ef25bcffe91d1.webp",
+          "Caption": "Recalled BlockBlueLight Multi-Mode Sleep Lamp",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/light-1.png"
+        },
+        {
+          "URL": "/images/generalRecalls/indoor-lighting/12-Multi-Mode-Sleep-Lamp/994e3588216ce98304f6fc6266af5d05.webp",
+          "Caption": "Model number printed on base of the recalled lamp",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/light-2.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available online at https://www.blockbluelight.com from December 2023 to November 2024 for approximately $80."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "BlockBlueLight Limited, of New Zealand"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Fire and burn hazards from overheating lithium-ion battery"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Stop using the lamps and request a full refund, store credit, or replacement from BlockBlueLight. Dispose of the lamps according to local regulations."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        },
+        {
+          "Option": "Replace"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "BBL-MM-LAMP"
+      ],
+      "slug": "blockbluelight-recalls-multi-mode-sleep-lamps-due-to-fire-and-burn-risks-recall",
+      "metaDescription": "BlockBlueLight recalls Multi-Mode Sleep Lamps due to fire hazards. Learn how to get a refund or replacement."
+    },
+    {
+      "RecallID": 10101,
+      "RecallNumber": "25058",
+      "RecallDate": "2024-12-05T00:00:00",
+      "Description": "NetZero USA is recalling High Bay LED light fixtures that are primarily used in commercial environments like warehouses and facilities with elevated ceilings. These fixtures are available in white and come in various wattages, including 110, 160, 220, and 320 watts. The recall includes several model numbers: NZ 9110.3, NZ 9110.4, NZ-9110.5, NZ 9160.3, 9160.4, NZ 9220.3, NZ 9220.4, NZ 9220.5, NZ 9321.3, NZ9321.3, NZ 9321.4, and NZ 9321.5, which can be located on a label on the back of the fixtures.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/NetZero-USA-Recalls-High-Bay-LED-Light-Fixtures-Due-to-Fire-Hazard",
+      "Title": "NetZero USA Recalls High Bay LED Light Fixtures Due to Fire Risk",
+      "ConsumerContact": "For assistance, consumers should contact NetZero USA at 888-326-2220 from 9 a.m. to 5 p.m. ET, Monday through Friday, email recall@netzero-usa.com, or visit https://netzero-usa.com/recall or http://www.netzero-usa.com and select 'Recalls' for further details.",
+      "LastPublishDate": "2024-12-05T00:00:00",
+      "Products": [
+        {
+          "Name": "High Bay LED Light Fixtures",
+          "NumberOfUnits": "About 13,000"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/indoor-lighting/13-High-Bay-LED-Light-Fixtures/a87644e8c35c17c3d3143b874fa6d76b.webp",
+          "Caption": "Recalled High Bay LED light fixture",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/high-bay-1.png"
+        },
+        {
+          "URL": "/images/generalRecalls/indoor-lighting/13-High-Bay-LED-Light-Fixtures/ae5a84f5c1015128729380136e544f94.webp",
+          "Caption": "The model number can be found on the back of High Bay LED light fixture",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/high-bay-2.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received seven reports of loose LED boards burning. No injuries have been reported."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available through NetZero USA, Citory Solutions, Red Sail Developments, and other commercial distributors from August 2018 to October 2024, priced between $100 and $415."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "NetZero USA Holdings Inc., of Alpharetta, Georgia"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Fire hazard due to potential degradation of plastic pins securing the LED board."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should stop using affected fixtures and contact NetZero USA for a free inspection and repair."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        },
+        {
+          "Option": "Replace"
+        }
+      ],
+      "slug": "netzero-usa-recalls-high-bay-led-light-fixtures-due-to-fire-risk-recall",
+      "metaDescription": "NetZero USA recalls High Bay LED light fixtures due to fire hazards. Immediate action recommended for affected products."
+    },
+    {
+      "RecallID": 10087,
+      "RecallNumber": "25038",
+      "RecallDate": "2024-11-07T00:00:00",
+      "Description": "Tala North America is recalling its Muse Portable Lamps, which are identified by batch codes 01/21, 01/22, 01/23, and 01/24. These lamps, powered by lithium batteries, come in various colors including brass, green, white, blue, red, black, and pink, and measure approximately 13 inches by 5 inches by 5.5 inches. The batch codes can be found on the base of each lamp.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/Tala-North-America-Recalls-Battery-Powered-Portable-Lamps-Due-to-Fire-Hazard",
+      "Title": "Tala North America Issues Recall for Battery-Powered Muse Portable Lamps Due to Fire Risk",
+      "ConsumerContact": "For assistance, consumers can reach out to Tala North America at 800-408-2226 from 4 a.m. to 1 p.m. ET, Monday through Friday, via email at productquality@tala.co.uk, or visit talalighting.com/pages/the-muse-bulb-replacement-program-safety-recalls for more details. Alternatively, visit https://talalighting.com/ and click on 'Safety Recalls' at the bottom of the page.",
+      "LastPublishDate": "2024-11-07T00:00:00",
+      "Products": [
+        {
+          "Name": "Tala Muse Portable Lamps",
+          "NumberOfUnits": "About 5,300"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/indoor-lighting/14-Tala-Muse-Portable-Lamps/baead8b4d2033ace78dc4f0037ab272e.webp",
+          "Caption": "Recalled Tala Muse Portable Lamp – Brass",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/tala-1.png"
+        },
+        {
+          "URL": "/images/generalRecalls/indoor-lighting/14-Tala-Muse-Portable-Lamps/07a72892e1507f7d6f1465b1c332dcfd.webp",
+          "Caption": "Recalled Tala Muse Portable Lamp – Blue",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/tala-2.png"
+        },
+        {
+          "URL": "/images/generalRecalls/indoor-lighting/14-Tala-Muse-Portable-Lamps/6c72a334d0074b062969abbc6bed22cb.webp",
+          "Caption": "Recalled Tala Muse Portable Lamp – White",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/tala-3.png"
+        },
+        {
+          "URL": "/images/generalRecalls/indoor-lighting/14-Tala-Muse-Portable-Lamps/5751459bf6b2e1fd96f08002bef94980.webp",
+          "Caption": "Recalled Tala Muse Portable Lamp – Black",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/tala-4.png"
+        },
+        {
+          "URL": "/images/generalRecalls/indoor-lighting/14-Tala-Muse-Portable-Lamps/fefb24f62ca94299d43a2baa5290e558.webp",
+          "Caption": "Recalled Tala Muse Portable Lamp – Red",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/tala-5.png"
+        },
+        {
+          "URL": "/images/generalRecalls/indoor-lighting/14-Tala-Muse-Portable-Lamps/1db47ca5f8a6833fba2f7609f77f57ff.webp",
+          "Caption": "Recalled Tala Muse Portable Lamp – Pink",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/tala-6.png"
+        },
+        {
+          "URL": "/images/generalRecalls/indoor-lighting/14-Tala-Muse-Portable-Lamps/5b914622deaff4a0c342b7a88e9b8d0a.webp",
+          "Caption": "Recalled Tala Muse Portable Lamp – Green",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/tala-7.png"
+        },
+        {
+          "URL": "/images/generalRecalls/indoor-lighting/14-Tala-Muse-Portable-Lamps/5d698b5ba60e8339267a36afa8bc3602.webp",
+          "Caption": "Batch code can be found on the base of the product",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/tala-8.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received one report of a battery overheating, causing a fire that resulted in property damage to a side table and bed. No injuries have been reported."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available online at West Elm, One Kings Lane, Lumens, Lulu & Georgia, Lightology, and Anthropologie from September 2021 to July 2024, priced between $275 and $495."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Tala North America Inc., of New York"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Fire hazard due to potential overheating of the lithium battery and lightbulb failure."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should stop using the recalled lamps immediately and contact Tala North America for a complimentary replacement bulb. A replacement request form must be completed, along with a photo of the product and the number of recalled bulbs. Consumers should dispose of the recalled bulbs safely. Replacement bulbs will be sent at no cost, and Tala will reach out to purchasers directly."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Replace"
+        }
+      ],
+      "slug": "tala-north-america-issues-recall-for-battery-powered-muse-portable-lamps-due-to-fire-risk-recall",
+      "metaDescription": "Tala North America recalls Muse Portable Lamps due to fire hazards. Contact for free replacements and safety information."
+    },
+    {
+      "RecallID": 10057,
+      "RecallNumber": "24373",
+      "RecallDate": "2024-09-19T00:00:00",
+      "Description": "Jo-Ann Stores is recalling Place & Time® battery-operated desk lamps that come with a USB charging cord. These lamps are available in three colors: green (model number 4843351B), pink (model number 4843351A), and cream (model number 4843351D). The model number can be located on the label at the bottom of the lamp. Each lamp stands approximately 12 inches tall when fully extended and has a base width of about 4 inches.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/Jo-Ann-Stores-Recalls-Place-Time-Battery-Operated-Desk-Lamps-Due-to-Fire-Hazard",
+      "Title": "Jo-Ann Stores Recalls Place & Time Battery-Operated Desk Lamps Due to Fire Risk",
+      "ConsumerContact": "Consumers can reach Jo-Ann Stores at 833-931-0230 from 9 a.m. to 6 p.m. ET, Monday through Friday, or email customer.service@joann.com. Additional information is available online at www.joann.com/product-recalls or by visiting www.joann.com and selecting 'Product Recalls' at the bottom of the page.",
+      "LastPublishDate": "2024-09-19T00:00:00",
+      "Products": [
+        {
+          "Name": "Place & Time Battery-Operated Desk Lamp (Green)",
+          "NumberOfUnits": "About 9,700"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/indoor-lighting/15-Place-Time-Battery-Operated-Desk-Lamp-Green/4d8bd653b33c0be1cdce5865d1938083.webp",
+          "Caption": "Recalled Place & Time battery-operated desk lamp with USB cord (green)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/lamp1.png"
+        },
+        {
+          "URL": "/images/generalRecalls/indoor-lighting/15-Place-Time-Battery-Operated-Desk-Lamp-Green/9e8bb57ca0a7a8d0030b5956a34514f3.webp",
+          "Caption": "Recalled Place & Time battery-operated desk lamp with USB cord (pink)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/lamp2.png"
+        },
+        {
+          "URL": "/images/generalRecalls/indoor-lighting/15-Place-Time-Battery-Operated-Desk-Lamp-Green/8185d68556e768720712c47fc6e35d9e.webp",
+          "Caption": "Recalled Place & Time battery-operated desk lamp with USB cord (cream)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/lamp3.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received three reports of the battery compartment melting or popping while the lamp was charging with the USB cord. No injuries have been reported."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available at Jo-Ann Stores nationwide and online at www.joann.com from May 2024 through July 2024 for approximately $23."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Jo-Ann Stores LLC, of Hudson, Ohio"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Overheating battery compartment posing a fire risk"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Stop using the recalled lamps and return them to Jo-Ann Stores for a full refund. Without a receipt, a $23 store credit will be issued. For those unable to return the lamp in-store, email a photo of the receipt to customer.service@joann.com with the subject 'Desk Lamp Recall Refund' for an electronic gift card or a $23 store credit if no receipt is available."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "4843351B",
+        "4843351A",
+        "4843351D"
+      ],
+      "slug": "jo-ann-stores-recalls-place-time-battery-operated-desk-lamps-due-to-fire-risk-recall",
+      "metaDescription": "Jo-Ann Stores recalls Place & Time battery-operated desk lamps due to fire hazards. Learn how to get a refund or store credit."
+    },
+    {
+      "RecallID": 10003,
+      "RecallNumber": "24302",
+      "RecallDate": "2024-07-11T00:00:00",
+      "Description": "Best Lighting Products is recalling its LEDFHB series of high bay light fixtures, which come in wattages of 90, 105, 135, 178, 180, 215, 265, 320, and 425. These fixtures, typically used in commercial environments like warehouses, are available in white. The models affected include LEDFHB90, LEDFHB105, LEDFHB135, LEDFHB178, LEDFHB180, LEDFHB215, LEDFHB265, LEDFHB320, and LEDFHB425, with identification labels located on the back of the units.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/Best-Lighting-Products-Recalls-High-Bay-LED-Light-Fixtures-Due-to-Fire-Hazard",
+      "Title": "Best Lighting Products Recalls High Bay LED Light Fixtures Due to Fire Risk",
+      "ConsumerContact": "For assistance, consumers can reach Best Lighting Products at 888-204-9905 at any time or visit www.highbayrecall.net or www.bestlighting.net and select the 'Recall' link at the bottom of the page for further details.",
+      "LastPublishDate": "2024-07-11T00:00:00",
+      "Products": [
+        {
+          "Name": "LED High Bay Light Fixtures",
+          "NumberOfUnits": "About 710,600 (In addition, about 19,100 were sold in Canada)"
+        }
+      ],
+      "Inconjunctions": [
+        {
+          "URL": "https://recalls-rappels.canada.ca/en/alert-recall/best-lighting-products-high-bay-led-light-fixtures-recalled-due-fire-hazard"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/indoor-lighting/16-LED-High-Bay-Light-Fixtures/663ecdb027bd10944f1aaedd76ea750c.webp",
+          "Caption": "Recalled Best Lighting Products LED High Bay Light Fixture",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/highBay.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received three reports of fires involving the recalled fixtures. No injuries have been reported."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Sold exclusively through Best Lighting Products distributors from May 2017 to May 2024, priced between $60 and $180 based on size, wattage, and features."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Best Lighting Products Inc. (BLP), of Pataskala, Ohio"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        },
+        {
+          "Country": "Vietnam"
+        },
+        {
+          "Country": "Malaysia"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Degraded plastic pins can cause the LED board to detach, leading to potential fire hazards."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should check for any signs of pin damage, a loose LED board, or lens discoloration. If any issues are found, stop using the fixture immediately and turn off the circuit. For further assistance, contact BLP and register at www.highbayrecall.net for a complimentary inspection and on-site repair, which will replace plastic pins with metal ones."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ],
+      "slug": "best-lighting-products-recalls-high-bay-led-light-fixtures-due-to-fire-risk-recall",
+      "metaDescription": "Best Lighting Products recalls LED high bay light fixtures due to fire hazards. Check for safety and get a free inspection today."
+    },
+    {
+      "RecallID": 9962,
+      "RecallNumber": "24254",
+      "RecallDate": "2024-06-06T00:00:00",
+      "Description": "Good Earth Lighting has issued a recall for rechargeable lights identified by model numbers beginning with RE1122, RE1145, RE1362, and RE1250. Approximately 37,800 of these lights were also sold in Canada. The model number can be found on a white sticker located on the back of each unit. Designed for use in areas where traditional wiring is impractical, these lithium-ion battery-powered lights are about 12 inches long and come in various colors, including white, silver, almond, black, and rose gold. They are available in single or double unit packages and may include a charging cable, remote control, and/or power adapter.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/Good-Earth-Lighting-Recalls-More-than-1-2-Million-Rechargeable-Integrated-Lights-to-Due-to-Fire-and-Burn-Hazards-One-Death-Reported",
+      "Title": "Good Earth Lighting Recalls Over 1.2 Million Rechargeable Integrated Lights Due to Fire and Burn Risks; One Fatal Incident Reported",
+      "ConsumerContact": "For assistance, consumers can reach Good Earth Lighting at 800-291-8838 from 8:30 a.m. to 5 p.m. CT, Monday through Friday, or via email at productrecall@goodearthlighting.com. More information is available online at https://goodearthlighting.com/productrecall or by visiting https://goodearthlighting.com and clicking on the 'Product Recall' link.",
+      "LastPublishDate": "2024-06-06T00:00:00",
+      "Products": [
+        {
+          "Name": "Good Earth Rechargeable Integrated Lights",
+          "NumberOfUnits": "More than 1.2 million (In addition, about 37,800 lights were sold in Canada)"
+        }
+      ],
+      "Inconjunctions": [
+        {
+          "URL": "https://recalls-rappels.canada.ca/en/alert-recall/good-earth-lighting-12-inch-rechargeable-led-motion-activated-light-bar-recalled-due"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/indoor-lighting/17-Good-Earth-Rechargeable-Integrated-Lights/05673c9dd2e62e02f784425b99f9c4cf.webp",
+          "Caption": "Recalled Good Earth Lighting Light - RE1122 – WHG-12LF0-G",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/good-earth-light-1.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/indoor-lighting/17-Good-Earth-Rechargeable-Integrated-Lights/35f5b07302e30d999d610c4e9650db1b.webp",
+          "Caption": "Recalled Good Earth Lighting Light - RE1122-WHG-12LF2-G as part of RE1145-WHG-12LF2-Q bundle",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/good-earth-light-2.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/indoor-lighting/17-Good-Earth-Rechargeable-Integrated-Lights/876db09e343f57dc56e6cc4aa6976f4d.webp",
+          "Caption": "Recalled Good Earth Lighting Light - RE1122 – WHG-12LF0-F",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/good-earth-light-3.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/indoor-lighting/17-Good-Earth-Rechargeable-Integrated-Lights/356392e93fa3e5c1240a40baeeab4587.webp",
+          "Caption": "Recalled Good Earth Lighting Light - RE1122 – SIL-12LF0-G",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/good-earth-light-4.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/indoor-lighting/17-Good-Earth-Rechargeable-Integrated-Lights/689729de89af51959810a919bda6d3c4.webp",
+          "Caption": "Recalled Good Earth Lighting Light - RE1122-SIL-12LF2-G as part of RE1145-SIL-12LF2-Q bundle",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/good-earth-light-5.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/indoor-lighting/17-Good-Earth-Rechargeable-Integrated-Lights/0fdbb961ed4aef79316c1d628f68267c.webp",
+          "Caption": "Recalled Good Earth Lighting Light - RE1122 – ALM-12LF2-G as part of RE1145-ALM-12LF2-Q bundle",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/good-earth-light-6.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/indoor-lighting/17-Good-Earth-Rechargeable-Integrated-Lights/479cef7ae27560560541a4a7df80e5e5.webp",
+          "Caption": "Recalled Good Earth Lighting Light - RE1362-RGB-12LF2-G",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/good-earth-light-7.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/indoor-lighting/17-Good-Earth-Rechargeable-Integrated-Lights/d9c2ff1398ec730c243331d3914e894b.webp",
+          "Caption": "Recalled Good Earth Lighting Light - RE1250-WHG-12LFR-G",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/good-earth-light-8.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/indoor-lighting/17-Good-Earth-Rechargeable-Integrated-Lights/c2ebbe3c961607638ec94ccdd3f6f3e3.webp",
+          "Caption": "Recalled Good Earth Lighting Light - RE1250-WHG-12LF1-G as part of RE1250-WHG-12LF2-Q bundle",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/good-earth-light-9.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/indoor-lighting/17-Good-Earth-Rechargeable-Integrated-Lights/b935e8025cbb5caad294ebdae0b797b6.webp",
+          "Caption": "Recalled Good Earth Lighting Light - RE1250-SIL-12LF1-G as part of RE1250-SIL-12LF2-Q bundle",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/good-earth-light-10.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/indoor-lighting/17-Good-Earth-Rechargeable-Integrated-Lights/3d7def02161a6734f1334d6cef647b05.webp",
+          "Caption": "Recalled Good Earth Lighting Light - RE1250-BKG-12LF1-G as part of RE1250-BKG-12LF2-Q bundle",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/good-earth-light-11.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/indoor-lighting/17-Good-Earth-Rechargeable-Integrated-Lights/63f01805d4aed8c356fc52768c8c8520.webp",
+          "Caption": "Recalled Good Earth Lighting Light - RE1250-RGP-12LF1-G as part of RE1250-RGP-12LF2-Q bundle",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/good-earth-light-12.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/indoor-lighting/17-Good-Earth-Rechargeable-Integrated-Lights/2fd2696655c97fca7677b0cdad483557.webp",
+          "Caption": "Recalled Good Earth Lighting Light - RE1250-ALM-12LF1-G as part of RE1250-ALM-12LF2-Q bundle",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/good-earth-light-13.jpg"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "There is a report of one customer who died, and another who was treated for smoke inhalation when the product overheated and caused a fire in their home. Good Earth Lighting is aware of nine additional reports of lights overheating, including six that resulted in fires and property damage."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available at various hardware and home improvement stores nationwide, such as Lowe's, Ace Hardware, Meijer, and Menards, as well as online at Goodearthlighting.com, Amazon.com, Lowes.com, and QVC from October 2017 through January 2024, priced around $20 for a single unit and approximately $35 for a bundle."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Good Earth Lighting Inc., of Mount Prospect, Illinois"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "Cambodia"
+        },
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of battery overheating, leading to fire and burn hazards."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should stop using the recalled lights immediately and contact Good Earth Lighting for a free replacement of equal or greater value, including shipping at no cost. Users will need to write the date and their initials next to the model number on the back of the light and label the front with 'Recalled.' Additionally, they will be required to upload photos at https://goodearthlighting.com/productrecall."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Replace"
+        }
+      ],
+      "slug": "good-earth-lighting-recalls-over-1-2-million-rechargeable-integrated-lights-due-to-fire-and-burn-risks-one-fatal-incident-reported-recall",
+      "metaDescription": "Good Earth Lighting recalls over 1.2 million rechargeable lights due to fire hazards. One death reported. Immediate action required."
+    },
+    {
+      "RecallID": 9836,
+      "RecallNumber": "24099",
+      "RecallDate": "2024-02-01T00:00:00",
+      "Description": "Meijer has issued a recall for December Home branded candelabra style incandescent light bulbs. These bulbs feature a metallic threaded base and a glass shell, with 'December Home' clearly marked on the packaging. They were sold in single, double, or triple bulb packages. The recall is due to a potential mix-up where some packages may contain 3V bulbs designed for battery-operated fixtures instead of the labeled 120V bulbs. Using a 3V bulb in a 120V fixture could lead to bursting, posing a serious laceration hazard.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/Meijer-Recalls-December-Home-Branded-Candelabra-Style-Light-Bulbs-Due-to-Laceration-Hazard",
+      "Title": "Meijer Recalls December Home Candelabra Light Bulbs Due to Laceration Risk",
+      "ConsumerContact": "For more details, consumers can contact Meijer at 800-927-8699 anytime or visit www.meijer.com/product-recalls. Alternatively, visit www.meijer.com and click on 'Product Recalls' at the bottom of the page.",
+      "LastPublishDate": "2024-02-01T00:00:00",
+      "Products": [
+        {
+          "Name": "December Home Candelabra Replacement Light Bulbs",
+          "NumberOfUnits": "About 19,200"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/indoor-lighting/18-December-Home-Candelabra-Replacement-Light-Bulbs/44febfbdb446117a14a95d527444eb42.webp",
+          "Caption": "Recalled DECEMBER HOME replacement bulbs UPC 70882069258",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Dec-Home-bulbs-2.png"
+        },
+        {
+          "URL": "/images/generalRecalls/indoor-lighting/18-December-Home-Candelabra-Replacement-Light-Bulbs/8a6237aa04c10ba1da8f83c260307298.webp",
+          "Caption": "Recalled DECEMBER HOME replacement bulb UPC 76023636133",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Dec-Home-bulbs-1.png"
+        },
+        {
+          "URL": "/images/generalRecalls/indoor-lighting/18-December-Home-Candelabra-Replacement-Light-Bulbs/7b10367eda8b019605e3fb65a163aff1.webp",
+          "Caption": "Recalled DECEMBER HOME replacement bulbs UPC 76023636134",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Dec-Home-bulbs-flame.png"
+        },
+        {
+          "URL": "/images/generalRecalls/indoor-lighting/18-December-Home-Candelabra-Replacement-Light-Bulbs/3f44ecd275761589ad592491f195e1b1.webp",
+          "Caption": "Recalled DECEMBER HOME replacement bulbs UPC 76023636135",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Dec-Home-bulbs-3.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received one report of an incident involving a 3V bulb used in a 120V fixture resulting in a \"short out\" in the fixture. No injuries have been reported."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Meijer stores across Illinois, Indiana, Ohio, Michigan, Kentucky, and Wisconsin from October 2023 to November 2023, priced at approximately $1.50 for one or two bulbs and $2 for three bulbs."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Meijer Distribution Inc., of Grand Rapids, Michigan"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "Vietnam"
+        }
+      ],
+      "ProductUPCs": [
+        {
+          "UPC": "70882069258"
+        },
+        {
+          "UPC": "76023636133"
+        },
+        {
+          "UPC": "76023636134"
+        },
+        {
+          "UPC": "76023636135"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Laceration Hazard from Bursting Bulbs"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Full Refund for Returned Light Bulbs"
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "slug": "meijer-recalls-december-home-candelabra-light-bulbs-due-to-laceration-risk-recall",
+      "metaDescription": "Meijer recalls December Home candelabra light bulbs due to laceration hazards. Learn how to return for a refund."
+    },
+    {
+      "RecallID": 9794,
+      "RecallNumber": "24733",
+      "RecallDate": "2023-12-07T00:00:00",
+      "Description": "The Bunkhouse and Lotsa LITES! Connectable Mini String Lights have been recalled due to potential fire and burn hazards. These lights consist of a nine-foot strand featuring 20 LED clear bulbs that emit white light and can be powered by batteries or USB. They were available in three packaging options: Everyday (SKU: BHSTL24), Christmas (SKU: XSTL24), and Halloween (SKU: HSTL24), with the SKU located on the back of the package.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/Bunkhouse-and-Lotsa-LITES-Mini-String-Lights-Recalled-Due-to-Burn-and-Fire-Hazards-Imported-by-DM-Merchandising-Recall-Alert",
+      "Title": "Recall of Bunkhouse and Lotsa LITES! Mini String Lights Due to Fire and Burn Risks",
+      "ConsumerContact": "For assistance, consumers can reach DM Merchandising at 800-548-6784 from 8 a.m. to 5 p.m. CT, Monday through Friday, or via email at customerservice@dmmerch.com. Additional details can be found online at https://247dm.com/globalassets/episerver-forms/0923-recall_string-lights.pdf or by visiting https://247dm.com and selecting 'Important Recall Information.'",
+      "LastPublishDate": "2023-12-07T00:00:00",
+      "Products": [
+        {
+          "Name": "Bunkhouse and Lotsa LITES! Connectable Mini String Lights",
+          "NumberOfUnits": "About 34,600"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/indoor-lighting/19-Bunkhouse-and-Lotsa-LITES-Connectable-Mini-String-Lights/74e939db174d1e04ad21cb2446ea5f9d.webp",
+          "Caption": "Recalled Bunkhouse Connectable Mini String Lights",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/bunkhouse-lights.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received three reports of the recalled string lights overheating. No injuries have been reported."
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "SLIS, of China"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available at gift stores, boutiques nationwide, and online from August 2023 to September 2023, priced between $10 and $13."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "DM Merchandising Inc., of Elmhurst, Illinois"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Overheating bulbs leading to burn and fire hazards"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Stop using the lights immediately, unplug them, and contact DM Merchandising for a full refund and further instructions on the recall."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "BHSTL24",
+        "XSTL24",
+        "HSTL24"
+      ],
+      "slug": "recall-of-bunkhouse-and-lotsa-lites-mini-string-lights-due-to-fire-and-burn-risks-recall",
+      "metaDescription": "Bunkhouse and Lotsa LITES! Mini String Lights recalled due to fire hazards. Stop using immediately for a full refund."
+    }
+  ]
+}

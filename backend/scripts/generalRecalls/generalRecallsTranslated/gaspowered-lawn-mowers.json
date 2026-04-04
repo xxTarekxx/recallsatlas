@@ -1,0 +1,86 @@
+{
+  "meta": {
+    "slug": "gaspowered-lawn-mowers",
+    "sourceCsvFile": "gaspowered-lawn-mowers_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:36.942Z",
+    "recallCount": 1,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "gaspowered-lawn-mowers.json",
+    "seoTranslatedAt": "2026-04-04T03:47:00.592Z",
+    "resumePartial": false
+  },
+  "recalls": [
+    {
+      "RecallID": 9941,
+      "RecallNumber": "24220",
+      "RecallDate": "2024-05-02T00:00:00",
+      "Description": "Honda is recalling specific models of lawnmowers and pressure washer engines due to safety concerns. The affected products include the Honda HRN216 and HRX217K6 lawnmowers, as well as GCV170/200 G5B engines used in power washers and as replacement engines for these lawnmowers. These gas-powered walk-behind mowers are identifiable by their red and black color scheme and the 'HONDA' logo on the clipping collection bag. Model and serial numbers can be found on a label on the upper rear of the mower deck, while the engines feature serial numbers engraved on a flat surface.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/American-Honda-Motor-Expands-Recall-of-Lawnmowers-and-Pressure-Washer-Engines-to-include-Lawnmower-Replacement-Engines-Due-to-Injury-Hazard-Additional-Units-Injuries-Reported",
+      "Title": "Honda Expands Recall of Lawnmowers and Pressure Washer Engines Due to Injury Risks",
+      "ConsumerContact": "For more information, consumers can reach American Honda Motor at 888-888-3139 from 9 a.m. to 7:30 p.m. ET Monday through Friday, or email https://crmshonda.my.salesforce-sites.com/service/pew2c. Additional details can be found online at https://powerequipment.honda.com/ by selecting 'Recalls and Updates' at the bottom, or by visiting https://cdn.powerequipment.honda.com/pe/pdf/Recalls/kp4.pdf.",
+      "LastPublishDate": "2024-05-02T00:00:00",
+      "Products": [
+        {
+          "Name": "Honda HRN216 Lawnmower",
+          "NumberOfUnits": "About 200 additional lawnmower replacement engines (About 391,800 Lawnmowers and Pressure Washers Engines were previously recalled in September 2023)"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/gaspowered-lawn-mowers/1-Honda-HRN216-Lawnmower/582d4f76c5cbab0fda6b3363964593ec.webp",
+          "Caption": "Recalled Honda Lawnmower Replacement Engine",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Honda-replacement.png"
+        },
+        {
+          "URL": "/images/generalRecalls/gaspowered-lawn-mowers/1-Honda-HRN216-Lawnmower/480208bfa19d2a5e9034e5163e73fb23.webp",
+          "Caption": "Recalled Honda HRN216 Lawnmower",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Honda-HRN216.png"
+        },
+        {
+          "URL": "/images/generalRecalls/gaspowered-lawn-mowers/1-Honda-HRN216-Lawnmower/dff44408357d48c500bcafce324b2460.webp",
+          "Caption": "Recalled Honda HRX217K6 Lawnmower",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Honda-HRX217K6.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "Honda has received 2,966 reports of incidents related to camshaft failures since the last recall, in addition to the 2,197 reported incidents in the September 2023 recall, including 38 reports of minor injuries."
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "American Honda Motor Co. Inc., of Torrance, California"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Honda Power Equipment dealers, Ace Hardware, Home Depot, Lowe's, Northern Tool, and various agricultural and rental stores nationwide."
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "United States"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of injury from starter rope retracting unexpectedly due to faulty camshafts."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Stop using the recalled lawnmowers and pressure washers, and contact an authorized Honda dealer for a free inspection and repair."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ],
+      "slug": "honda-expands-recall-of-lawnmowers-and-pressure-washer-engines-due-to-injury-risks-recall",
+      "metaDescription": "Honda recalls specific lawnmowers and pressure washer engines due to injury hazards. Immediate action recommended for consumers."
+    }
+  ]
+}

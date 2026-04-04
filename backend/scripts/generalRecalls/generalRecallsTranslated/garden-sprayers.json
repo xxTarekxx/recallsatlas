@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "slug": "garden-sprayers",
+    "sourceCsvFile": "garden-sprayers_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:36.937Z",
+    "recallCount": 1,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "garden-sprayers.json",
+    "seoTranslatedAt": "2026-04-04T03:36:12.746Z",
+    "resumePartial": false
+  },
+  "recalls": [
+    {
+      "RecallID": 10077,
+      "RecallNumber": "25027",
+      "RecallDate": "2024-10-31T00:00:00",
+      "Description": "Harbor Freight Tools is recalling the Bauer 20V Cordless 4-Gallon Backpack Sprayer due to a potential fire hazard. This sprayer, designed for chemical application, is powered by a 20V rechargeable lithium-ion battery (sold separately) and features a backpack design for ease of use. It measures approximately 21 inches tall, 13 inches deep, and 15 inches wide, and is identifiable by its red, white, and black color scheme with 'Bauer' printed on the back. The item number and UPC can be found on a label inside the battery compartment. The affected item number is 58671 with UPC 193175443663.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/Harbor-Freight-Tools-Recalls-Bauer-4-Gallon-Battery-Powered-Backpack-Sprayers-Due-to-Fire-Hazard",
+      "Title": "Harbor Freight Tools Recalls Bauer 20V 4-Gallon Backpack Sprayers Due to Fire Risk",
+      "ConsumerContact": "For more information, consumers can reach Harbor Freight Tools at 800-444-3353 from 8 a.m. to 4:30 p.m. PT, Monday through Friday, email recall@harborfreight.com, or visit www.harborfreight.com/recalls. Additional details can be found by clicking on 'Recall Safety Information' at the bottom of their homepage.",
+      "LastPublishDate": "2024-10-31T00:00:00",
+      "Products": [
+        {
+          "Name": "Bauer 20V Cordless 4-Gallon Backpack Sprayer",
+          "NumberOfUnits": "About 53,000"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/garden-sprayers/1-Bauer-20V-Cordless-4-Gallon-Backpack-Sprayer/61908d0a11ad9422c73530b6c3b9aa34.webp",
+          "Caption": "Recalled Bauer 20V Battery-Powered 4-Gallon Backpack Sprayer",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Sprayer-1.png"
+        },
+        {
+          "URL": "/images/generalRecalls/garden-sprayers/1-Bauer-20V-Cordless-4-Gallon-Backpack-Sprayer/47fed7b270a3106372eeb816901fb267.webp",
+          "Caption": "Location of the product label on the bottom of the recalled Bauer 20V Battery-Powered 4-Gallon Backpack Sprayer",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Sprayer-2.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "Harbor Freight Tools has received eight reports of the battery overheating, including reports of smoking, melting and fire. No injuries have been reported."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available at Harbor Freight Tools locations nationwide and online at www.harborfreight.com from March 2022 through September 2024, priced between $80 and $120."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Harbor Freight Tools, of Calabasas, California"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "ProductUPCs": [
+        {
+          "UPC": "193175443663"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Chemical leakage from the sprayer pump can lead to battery overheating and fire risk."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should stop using the recalled sprayers immediately and contact Harbor Freight Tools for return instructions. They can return the sprayer hose and wand to the nearest store for a full refund via a Harbor Freight Tools gift card. Additionally, consumers should flush the sprayer with water and cut off the hose and wand with scissors. If returning to a store is not possible, they can request a prepaid return shipping label by contacting Harbor Freight Tools."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "Item number: 58671"
+      ],
+      "slug": "harbor-freight-tools-recalls-bauer-20v-4-gallon-backpack-sprayers-due-to-fire-risk-recall",
+      "metaDescription": "Harbor Freight Tools recalls Bauer 20V 4-Gallon Backpack Sprayers due to fire hazards. Stop using and contact for a refund."
+    }
+  ]
+}
