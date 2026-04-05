@@ -5,13 +5,13 @@
   "type": "commonjs",
   "scripts": {
     "test": "node -e \"require('./database/mongodb').getDb().then(() => console.log('MongoDB OK')).catch(e => { console.error(e); process.exit(1); })\"",
-    "merge-general-recalls": "node scripts/generalRecalls/mergeDownloadsToJson.js",
-    "translate-general-recalls": "node scripts/generalRecalls/translateGeneralRecallsSeo.js",
-    "translate-general-recalls:force": "node scripts/generalRecalls/translateGeneralRecallsSeo.js --force",
-    "retry-failed-general-recalls-images": "node scripts/generalRecalls/translateGeneralRecallsSeo.js --retry-failed",
-    "translate-general-recalls:retailers-only": "node scripts/generalRecalls/translateGeneralRecallsSeo.js --retailers-only",
-    "migrate-general-recall-images": "node scripts/generalRecalls/migrateGeneralRecallImageLayout.js",
-    "migrate-general-recall-images:dry-run": "node scripts/generalRecalls/migrateGeneralRecallImageLayout.js --dry-run"
+    "merge-general-recalls": "node scripts/rewritingWtihOpenAi/mergeDownloadsToJson.js",
+    "translate-general-recalls": "node scripts/rewritingWtihOpenAi/translateGeneralRecallsSeo.js",
+    "translate-general-recalls:force": "node scripts/rewritingWtihOpenAi/translateGeneralRecallsSeo.js --force",
+    "retry-failed-general-recalls-images": "node scripts/rewritingWtihOpenAi/translateGeneralRecallsSeo.js --retry-failed",
+    "translate-general-recalls:retailers-only": "node scripts/rewritingWtihOpenAi/translateGeneralRecallsSeo.js --retailers-only",
+    "migrate-general-recall-images": "node scripts/rewritingWtihOpenAi/migrateGeneralRecallImageLayout.js",
+    "migrate-general-recall-images:dry-run": "node scripts/rewritingWtihOpenAi/migrateGeneralRecallImageLayout.js --dry-run"
   },
   "dependencies": {
     "axios": "^1.13.6",

@@ -5,7 +5,7 @@ const path = require('path');
 const BASE_URL = 'https://www.cpsc.gov/Recalls?search_combined_fields=&field_rc_date_value=2023-12-01&field_rc_date_value_1=2026-04-01&field_rc_hazards_target_id=All&field_rc_recall_by_product_target_id=All&field_rc_manufactured_in_value=&tab=csv';
 
 const DATE_RANGE = '2023-12-01_2026-04-01';
-const DOWNLOAD_DIR = path.join(__dirname, 'downloads');
+const DOWNLOAD_DIR = path.join(__dirname, '..', 'generalRecalls', 'downloads');
 
 /** Delay between actions: random from min to max (milliseconds). */
 const RANDOM_WAIT_MIN_MS = 3000;

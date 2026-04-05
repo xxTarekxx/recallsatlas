@@ -5,15 +5,15 @@
  *   public/images/generalRecalls/<category>/<index>-<slugified-product>/<hash>.webp
  * and update URLs in generalRecallsTranslated/*.json plus imageUrlMap.json keys.
  *
- * Dry run: node migrateGeneralRecallImageLayout.js --dry-run
- * Apply:   node migrateGeneralRecallImageLayout.js
+ * Dry run: node scripts/rewritingWtihOpenAi/migrateGeneralRecallImageLayout.js --dry-run
+ * Apply:   node scripts/rewritingWtihOpenAi/migrateGeneralRecallImageLayout.js
  */
 const fs = require("fs");
 const path = require("path");
 
 const ROOT = __dirname;
 const REPO_ROOT = path.join(ROOT, "..", "..", "..");
-const OUT_DIR = path.join(ROOT, "generalRecallsTranslated");
+const OUT_DIR = path.join(ROOT, "..", "generalRecalls", "generalRecallsTranslated");
 const MAP_PATH = path.join(OUT_DIR, "imageUrlMap.json");
 const IMG_DIR = path.join(REPO_ROOT, "frontend", "public", "images", "generalRecalls");
 

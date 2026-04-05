@@ -9,7 +9,7 @@
  *
  * Env: OPENAI_API_KEY (required for translate / retailers-only). Optional: OPENAI_MODEL (default gpt-4o-mini)
  *
- * Run from backend/:  npm run translate-general-recalls
+ * Run from backend/:  npm run translate-general-recalls  (scripts/rewritingWtihOpenAi/)
  * Resume: skips recalls that already have `slug` and finished image processing (local /images/... or ImageFetchFailed).
  * Saves after each recall so crash/exit can continue later. Use --force to reprocess everything.
  *
@@ -31,8 +31,9 @@ require("dotenv").config({
 
 const ROOT = __dirname;
 const REPO_ROOT = path.join(ROOT, "..", "..", "..");
-const SRC_DIR = path.join(ROOT, "generalRecallsJson");
-const OUT_DIR = path.join(ROOT, "generalRecallsTranslated");
+const GR_ROOT = path.join(ROOT, "..", "generalRecalls");
+const SRC_DIR = path.join(GR_ROOT, "generalRecallsJson");
+const OUT_DIR = path.join(GR_ROOT, "generalRecallsTranslated");
 const MAP_PATH = path.join(OUT_DIR, "imageUrlMap.json");
 const IMG_DIR = path.join(REPO_ROOT, "frontend", "public", "images", "generalRecalls");
 

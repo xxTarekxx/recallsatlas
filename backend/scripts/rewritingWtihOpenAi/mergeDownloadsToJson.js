@@ -4,8 +4,9 @@
  * Merges testing2.json (CPSC API shape) with CSV rows by Recall Number.
  * JSON wins when present; CSV fills gaps. Each recall is one pruned object (no separate csv/cpscApi).
  *
- * Run from repo root or backend:
- *   node scripts/generalRecalls/mergeDownloadsToJson.js
+ * Run from backend/:
+ *   npm run merge-general-recalls
+ *   node scripts/rewritingWtihOpenAi/mergeDownloadsToJson.js
  *
  * Requires: backend/node_modules (npm install), testing2.json + CSVs in scripts/generalRecalls/downloads/
  */
@@ -14,8 +15,9 @@ const path = require("path");
 const { parse } = require("csv-parse/sync");
 
 const ROOT = __dirname;
-const DOWNLOADS = path.join(ROOT, "downloads");
-const JSON_DIR = path.join(ROOT, "generalRecallsJson");
+const GR_ROOT = path.join(ROOT, "..", "generalRecalls");
+const DOWNLOADS = path.join(GR_ROOT, "downloads");
+const JSON_DIR = path.join(GR_ROOT, "generalRecallsJson");
 const TESTING2 = path.join(DOWNLOADS, "testing2.json");
 
 /** files named <slug>_YYYY-MM-DD_YYYY-MM-DD.csv */
