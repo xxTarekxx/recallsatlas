@@ -11,8 +11,11 @@ export type GeneralRecallImage = {
 
 export type GeneralRecall = {
   slug?: string;
+  /** @deprecated Removed from JSON after strip-legacy-seo; optional read fallback only */
   seo?: { slug?: string; metaDescription?: string };
   metaDescription?: string;
+  /** ISO timestamp when translate / retailers-only / image-retry last wrote this recall */
+  lastTranslatedAt?: string;
   RecallNumber?: string;
   RecallDate?: string;
   Title?: string;
@@ -121,7 +124,7 @@ export function getGeneralRecallSlugDateMap(): Map<string, Date> {
 }
 
 export function getGeneralRecallLastModified(recall: GeneralRecall): Date {
-  const candidates = [recall.LastPublishDate, recall.RecallDate];
+  const candidates = [recall.lastTranslatedAt, recall.LastPublishDate, recall.RecallDate];
   for (const c of candidates) {
     if (typeof c === "string" && c.trim()) {
       const d = new Date(c);

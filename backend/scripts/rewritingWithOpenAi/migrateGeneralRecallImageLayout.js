@@ -5,8 +5,8 @@
  *   public/images/generalRecalls/<category>/<index>-<slugified-product>/<hash>.webp
  * and update URLs in generalRecallsTranslated/*.json plus imageUrlMap.json keys.
  *
- * Dry run: node scripts/rewritingWtihOpenAi/migrateGeneralRecallImageLayout.js --dry-run
- * Apply:   node scripts/rewritingWtihOpenAi/migrateGeneralRecallImageLayout.js
+ * Dry run: node scripts/rewritingWithOpenAi/migrateGeneralRecallImageLayout.js --dry-run
+ * Apply:   node scripts/rewritingWithOpenAi/migrateGeneralRecallImageLayout.js
  */
 const fs = require("fs");
 const path = require("path");

@@ -14,7 +14,7 @@
   Skips these subfolders (VPS keeps its own copies / local-only tooling):
     - scripts/cars               (downloads, category scripts run locally)
     - scripts/generalRecalls     (large CSV downloads + merged JSON — run locally; do not deploy)
-    - scripts/rewritingWtihOpenAi (OpenAI translate / merge scripts — run locally; do not deploy)
+    - scripts/rewritingWithOpenAi (OpenAI translate / merge scripts — run locally; do not deploy)
     - database/cars         (e.g. cars.json updated on VPS from VIN lookups — do not overwrite on deploy)
 #>
 [CmdletBinding()]
@@ -92,7 +92,7 @@ $skipUpload = @{
 $skipScriptsChildren = @{
   'cars'                 = $true
   'generalRecalls'       = $true
-  'rewritingWtihOpenAi'  = $true
+  'rewritingWithOpenAi'  = $true
 }
 $skipDatabaseChildren = @{
   'cars' = $true

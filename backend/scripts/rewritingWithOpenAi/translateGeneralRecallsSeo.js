@@ -4,12 +4,14 @@
  * replaces each Images[].URL with the site-relative path:
  *   /images/generalRecalls/<categorySlug>/<1-basedIndex>-<slugified-Products[0].Name>/<hash>.webp
  * keeps original CPSC URL in Images[].SourceImageURL.
- * Output recall fields: `slug` (stable URL key), optional `metaDescription` (≤160). No full `seo` object.
+ * Output recall fields: `slug` (stable URL key), optional `metaDescription` (≤160), `lastTranslatedAt` (ISO).
+ * No `seo` object (legacy stripped via npm run strip-legacy-general-recall-seo if needed).
  * Next.js derives OG/Twitter from JSON at runtime (see frontend/lib/general-recalls-seo.ts).
  *
  * Env: OPENAI_API_KEY (required for translate / retailers-only). Optional: OPENAI_MODEL (default gpt-4o-mini)
  *
- * Run from backend/:  npm run translate-general-recalls  (scripts/rewritingWtihOpenAi/)
+ * Run from backend/:  npm run translate-general-recalls  (scripts/rewritingWithOpenAi/)
+ * Each completed recall gets `lastTranslatedAt` (ISO) when OpenAI+images finish (or retailers-only touch).
  * Resume: skips recalls that already have `slug` and finished image processing (local /images/... or ImageFetchFailed).
  * Saves after each recall so crash/exit can continue later. Use --force to reprocess everything.
  *
@@ -466,7 +468,10 @@ async function retryFailedImagesMain() {
       statusBar(`Retry ${fi + 1}/${files.length}`, i, recalls.length, `${fileName} #${r.RecallNumber || ""}`);
       totalRetried++;
       const changed = await retryFailedImagesInRecall(r, imageMap, folderSlug, relFolder, fileName, jsonBase);
-      if (changed) fileChanged = true;
+      if (changed) {
+        r.lastTranslatedAt = new Date().toISOString();
+        fileChanged = true;
+      }
     }
 
     if (isTTY) process.stdout.write("\r\x1b[K");
@@ -665,6 +670,7 @@ async function processRecall(
   if (meta) merged.metaDescription = meta;
   delete merged._metaDescription;
   delete merged.seo;
+  merged.lastTranslatedAt = new Date().toISOString();
   return merged;
 }
 
@@ -845,7 +851,9 @@ async function retailersOnlyMain() {
       statusBar(`Retailers ${fi + 1}/${files.length}`, i, recalls.length, fileName);
       try {
         const ai = await callOpenAiRetailersOnly(r);
-        recalls[i] = applyRetailersAiOnly(r, ai);
+        const next = applyRetailersAiOnly(r, ai);
+        next.lastTranslatedAt = new Date().toISOString();
+        recalls[i] = next;
         changed = true;
       } catch (e) {
         logLine(`${c.yellow}OpenAI retailers failed ${fileName} #${r.RecallNumber}: ${e.message}${c.reset}`);

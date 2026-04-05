@@ -6,7 +6,7 @@
  *
  * Run from backend/:
  *   npm run merge-general-recalls
- *   node scripts/rewritingWtihOpenAi/mergeDownloadsToJson.js
+ *   node scripts/rewritingWithOpenAi/mergeDownloadsToJson.js
  *
  * Requires: backend/node_modules (npm install), testing2.json + CSVs in scripts/generalRecalls/downloads/
  */
