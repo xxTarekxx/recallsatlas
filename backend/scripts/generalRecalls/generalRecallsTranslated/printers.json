@@ -1,0 +1,160 @@
+{
+  "meta": {
+    "slug": "printers",
+    "sourceCsvFile": "printers_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:37.046Z",
+    "recallCount": 2,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "printers.json",
+    "seoTranslatedAt": "2026-04-05T03:14:35.543Z",
+    "resumePartial": false
+  },
+  "recalls": [
+    {
+      "RecallID": 10125,
+      "RecallNumber": "25090",
+      "RecallDate": "2025-01-16T00:00:00",
+      "Description": "Lexmark has issued a recall for its specialty printers, specifically the MS725dvn and MX725adve models. These printers, designed for printing on various materials including paper and vinyl, may pose a fire hazard due to a potential dislodging of a metal component inside the unit. The model numbers can be found on the top cover and door, with the MX725dvn featuring a large multifunction sorter on top. The printers are identifiable by their white front and black top and sides, prominently displaying the Lexmark logo.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/Lexmark-International-Recalls-Specialty-Printers-Due-to-Fire-Hazard",
+      "Title": "Lexmark Specialty Printers Recalled Due to Fire Risk",
+      "ConsumerContact": "Consumers are urged to stop using the affected printers immediately and reach out to Lexmark at 866-470-1574 from 9 a.m. to 9 p.m. ET, Monday through Friday. Alternatively, they can email safety@lexmark.com or visit http://www.lexmark.com/recall for further details.",
+      "LastPublishDate": "2025-01-16T00:00:00",
+      "Products": [
+        {
+          "Name": "MS725dvn Specialty Printer",
+          "NumberOfUnits": "About 43,510 (In addition, about 4,000 were sold in Canada)"
+        }
+      ],
+      "Inconjunctions": [
+        {
+          "URL": "https://recalls-rappels.canada.ca/en/alert-recall/lexmark-specialty-printers-recalled-due-fire-hazard"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/printers/1-MS725dvn-Specialty-Printer/baa5b26150b8ece74d8e264269e50b5b.webp",
+          "Caption": "Recalled MS725dvn Specialty Printer",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Lexmark-1.png"
+        },
+        {
+          "URL": "/images/generalRecalls/printers/1-MS725dvn-Specialty-Printer/c565f2702b5b019d7696b33148df29ad.webp",
+          "Caption": "Recalled MX725adve Specialty Printer",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Lexmark-2.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received two reports of the printers overheating including one reported fire. No damage or injuries have been reported."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available online at lexmark.com, CDW Logistics, Tech Data Product Management Inc., and Insight Direct USA Inc. from June 2018 to November 2024, priced between $1,000 and $4,200."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Lexmark International Inc., of Lexington, Kentucky"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Fire Risk from Dislodged Metal Part"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Free Repair Part Available"
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ],
+      "slug": "lexmark-specialty-printers-recalled-due-to-fire-risk-recall",
+      "metaDescription": "Lexmark recalls MS725dvn and MX725adve printers due to fire hazards. Contact Lexmark for a free repair part."
+    },
+    {
+      "RecallID": 9972,
+      "RecallNumber": "24264",
+      "RecallDate": "2024-06-13T00:00:00",
+      "Description": "Bambu Lab is recalling its A1 3D printers due to potential electric shock and fire hazards. The affected units have a serial number where the sixth digit is \"A\", identifiable on the QR code sticker located at the back of the printer. These printers, designed for personal use, measure approximately 18 inches by 16 inches by 17 inches and feature the brand name and model on the x-axis motor cover.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/Bambu-Lab-Recalls-A1-3D-Printers-Due-to-Electric-Shock-and-Fire-Hazards",
+      "Title": "Bambu Lab A1 3D Printers Recalled for Electric Shock and Fire Risks",
+      "ConsumerContact": "For assistance, consumers can reach Bambu Lab via email at a1recall@bambulab.com or visit their website at https://bambulab.com/en-us/support/A1recall. Additional information is available by clicking on \"A1 Recall\" at the top of https://bambulab.com/en-us.",
+      "LastPublishDate": "2024-06-13T00:00:00",
+      "Products": [
+        {
+          "Name": "Bambu Lab A1 3D Printer",
+          "NumberOfUnits": "About 12,800"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/printers/2-Bambu-Lab-A1-3D-Printer/7ddf9d637ad4fe1cd25ece5b99386a7e.webp",
+          "Caption": "Recalled Bambu Lab A1 Printer",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/0BambuA1.png"
+        },
+        {
+          "URL": "/images/generalRecalls/printers/2-Bambu-Lab-A1-3D-Printer/b72b14a5471e90918c2f541d5d76ca0a.webp",
+          "Caption": "Bambu Lab and \"A1\" are located on the x-axis motor",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/1BambuA1x-axis.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/printers/2-Bambu-Lab-A1-3D-Printer/791b1d54bebcf6213ce10c297298e950.webp",
+          "Caption": "QR code sticker on the rear of recalled 3D printer has \"A\" in the sixth digit",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/3Bambucodesticker.jpg"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received a total of 19 reports of damaged cables, including one cable sparking. No injuries have been reported."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available at Micro Center stores nationwide and online at us.store.bambulab.com from December 2023 through January 2024, priced between $400 and $560."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Bambu Lab USA Inc., of Austin, Texas"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of electric shock and fire due to short-circuiting from damaged heatbed cables."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Stop using the printer and contact Bambu Lab for a full refund or a free heatbed and cable replacement. A prepaid shipping label will be provided for returns."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        },
+        {
+          "Option": "Replace"
+        }
+      ],
+      "slug": "bambu-lab-a1-3d-printers-recalled-for-electric-shock-and-fire-risks-recall",
+      "metaDescription": "Bambu Lab recalls A1 3D printers over electric shock and fire hazards. Learn how to get a refund or replacement."
+    }
+  ]
+}

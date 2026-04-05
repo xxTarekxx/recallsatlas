@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "slug": "swings-or-swing-sets",
+    "sourceCsvFile": "swings-or-swing-sets_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:37.084Z",
+    "recallCount": 1,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "swings-or-swing-sets.json",
+    "seoTranslatedAt": "2026-04-05T05:52:53.846Z",
+    "resumePartial": false
+  },
+  "recalls": [
+    {
+      "RecallID": 10660,
+      "RecallNumber": "26324",
+      "RecallDate": "2026-03-12T00:00:00",
+      "Description": "LFTE USA has issued a recall for Playground Swing Set Seats that were part of assembled playground sets. These swing seats, available in black, blue, green, red, tan, and yellow, feature the code 'LF-65708' on the seat pad. Only swings with the model number 999604 are affected by this recall. The rivets that support these swing seats may fail, creating a potential fall hazard for children.",
+      "URL": "https://www.cpsc.gov/Recalls/2026/LFTE-USA-Recalls-Playground-Swing-Set-Seats-Due-to-Fall-Hazard",
+      "Title": "LFTE USA Recalls Playground Swing Set Seats Due to Fall Risk",
+      "ConsumerContact": "Consumers are advised to stop using the recalled swing seats immediately and reach out to LFTE USA via email at recall@lfteusa.com for a free replacement.",
+      "LastPublishDate": "2026-03-13T00:00:00",
+      "Products": [
+        {
+          "Name": "Playground Swing Set Seats",
+          "NumberOfUnits": "About 7,200"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/swings-or-swing-sets/1-Playground-Swing-Set-Seats/e0fe1046e6167cf564f5fb4db1e3ad9f.webp",
+          "Caption": "Recalled playground swing set",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/playgroundss-1.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/swings-or-swing-sets/1-Playground-Swing-Set-Seats/50edcacabdaa82ccbd0b6d3f57e53601.webp",
+          "Caption": "Recalled Swing Seat",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/playgroundss-2.jpg"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm received one report of a swing breaking and a child falling, resulting in a minor injury."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Sold by Miracle Recreation Equipment and Little Tikes Commercial nationwide from January 2025 through September 2025, priced between $80 and $95. These swing seats were sold exclusively to playground manufacturers."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "LFTE USA Inc., of Cary, North Carolina"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Fall hazard due to potential rivet failure"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Free replacement swing seat"
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Replace"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "Model number 999604",
+        "Code LF-65708"
+      ],
+      "slug": "lfte-usa-recalls-playground-swing-set-seats-due-to-fall-risk-recall",
+      "metaDescription": "LFTE USA recalls Playground Swing Set Seats due to fall hazards. Contact for a free replacement swing seat today."
+    }
+  ]
+}

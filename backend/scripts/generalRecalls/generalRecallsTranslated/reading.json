@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "slug": "reading",
+    "sourceCsvFile": "reading_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:37.047Z",
+    "recallCount": 1,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "reading.json",
+    "seoTranslatedAt": "2026-04-05T03:18:03.788Z",
+    "resumePartial": false
+  },
+  "recalls": [
+    {
+      "RecallID": 10636,
+      "RecallNumber": "26293",
+      "RecallDate": "2026-02-26T00:00:00",
+      "Description": "TheKiddoSpace has issued a recall for its handwriting practice kits due to the presence of lead in the pens, which exceeds federal safety standards. The recall affects two types of kits: block handwriting kits featuring reusable books with animal-themed covers, and cursive handwriting kits with books focused on letters, words, and sentences. Both kits include various colored pen grips and refills, all marked with the TheKiddoSpace logo.",
+      "URL": "https://www.cpsc.gov/Recalls/2026/TheKiddoSpace-Recalls-Childrens-Handwriting-Practice-Kits-Due-to-Risk-of-Injury-from-Lead-Exposure-Violates-Federal-Lead-Content-Ban",
+      "Title": "TheKiddoSpace Recalls Handwriting Practice Kits Due to Lead Exposure Risk",
+      "ConsumerContact": "For assistance, consumers can reach out to TheKiddoSpace via email at info@thekiddospace.com or visit www.thekiddospacestore.com/pages/product-recalls/handwriting-kit. More information is also available by clicking \"Product Safety Recalls\" at the bottom of their website.",
+      "LastPublishDate": "2026-02-27T00:00:00",
+      "Products": [
+        {
+          "Name": "TheKiddoSpace Block Handwriting Kit",
+          "NumberOfUnits": "About 19,700"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/reading/1-TheKiddoSpace-Block-Handwriting-Kit/561fcd5f30b4e8003ff74bb3c40c5412.webp",
+          "Caption": "Recalled TheKiddoSpace Block Handwriting Practice Kit",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/RecalledTheKiddoSpaceBlockHandwritingPracticeKit_0.png"
+        },
+        {
+          "URL": "/images/generalRecalls/reading/1-TheKiddoSpace-Block-Handwriting-Kit/4460a5e16cf66d77602e5c0630999b4f.webp",
+          "Caption": "Recalled TheKiddoSpace Cursive Handwriting Practice Kit",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/RecalledTheKiddoSpaceCursiveHandwritingPracticeKit_0.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available online at TheKiddoSpaceStore.com and Amazon.com from February 2024 to February 2025, priced between $25 and $50."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "SN Commerce LLC, dba TheKiddoSpaceStore, of Dover, Delaware"
+        }
+      ],
+      "SoldAtLabel": "Sold Online At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Lead exposure from pens in the handwriting kits"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Free replacement pens and refills provided by TheKiddoSpace"
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Replace"
+        }
+      ],
+      "slug": "thekiddospace-recalls-handwriting-practice-kits-due-to-lead-exposure-risk-recall",
+      "metaDescription": "TheKiddoSpace recalls handwriting kits due to lead exposure risk. Contact them for free replacements and safety information."
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "slug": "pianos",
+    "sourceCsvFile": "pianos_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:37.032Z",
+    "recallCount": 1,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "pianos.json",
+    "seoTranslatedAt": "2026-04-05T02:36:23.484Z",
+    "resumePartial": false
+  },
+  "recalls": [
+    {
+      "RecallID": 10264,
+      "RecallNumber": "25254",
+      "RecallDate": "2025-05-08T00:00:00",
+      "Description": "Yamaha Corporation is recalling its PA-300C AC power adaptors due to potential burn and fire hazards. These adaptors, which were sold with various Yamaha digital pianos, arranger workstations, and Steinberg audio interfaces, were manufactured between July 2010 and May 2012. The adaptors are identifiable by their black color and specific model details printed on the rating label. The serial number indicates the manufacturing date, with the fifth character representing the year and the sixth character indicating the month. For instance, a serial number beginning with 'XXXX24XXXXX' signifies a production date of April 2012.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/Yamaha-Corporation-of-America-Recalls-Power-Adaptors-for-Digital-Pianos-and-Music-Workstations-Due-to-Burn-and-Fire-Hazards",
+      "Title": "Yamaha Recalls PA-300C AC Power Adaptors for Digital Pianos and Workstations Due to Fire Risks",
+      "ConsumerContact": "Consumers are urged to stop using the affected PA-300C adaptors immediately and can contact Yamaha at 844-703-5446 from 9 a.m. to 5 p.m. PT, Monday through Friday. For further assistance, they can email PA300CRECALL@yamaha.com or visit www.yamaha.com/us/support/pa300crecall/ for detailed recall instructions.",
+      "LastPublishDate": "2025-05-08T00:00:00",
+      "Products": [
+        {
+          "Name": "Yamaha PA-300C AC Power Adaptors",
+          "NumberOfUnits": "About 37,400"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/pianos/1-Yamaha-PA-300C-AC-Power-Adaptors/6f9a64b4eb712a85d32bb4c87031fdba.webp",
+          "Caption": "Recalled Yamaha PA-300C AC Adaptor",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/yamaha-1.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/pianos/1-Yamaha-PA-300C-AC-Power-Adaptors/a9bcc645359a846a9af5b90eb97d333e.webp",
+          "Caption": "Recalled AC Adaptor rating label",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/yamaha-2.jpg"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received four reports of adaptors burning or smoking. No injuries have been reported."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available at music stores nationwide and online at www.shop.usa.yamaha.com from September 2010 to November 2014, and also sold separately as a service part for approximately $70."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Yamaha Corporation of America, of Buena Park, California"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Potential for overheating and ignition, leading to burn and fire hazards"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Stop using the adaptor and contact Yamaha for a free replacement. Follow the online instructions for submitting claims and evidence of product destruction."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        },
+        {
+          "Option": "Replace"
+        }
+      ],
+      "slug": "yamaha-recalls-pa-300c-ac-power-adaptors-for-digital-pianos-and-workstations-due-to-fire-risks-recall",
+      "metaDescription": "Yamaha recalls PA-300C AC power adaptors due to fire risks. Stop using immediately and contact Yamaha for a free replacement."
+    }
+  ]
+}

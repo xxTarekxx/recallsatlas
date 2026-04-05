@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "slug": "other-sound-recording-or-reproducing-or-receiving-equipment",
+    "sourceCsvFile": "other-sound-recording-or-reproducing-or-receiving-equipment_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:37.021Z",
+    "recallCount": 1,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "other-sound-recording-or-reproducing-or-receiving-equipment.json",
+    "seoTranslatedAt": "2026-04-05T02:07:00.860Z",
+    "resumePartial": false
+  },
+  "recalls": [
+    {
+      "RecallID": 10109,
+      "RecallNumber": "25065",
+      "RecallDate": "2024-12-12T00:00:00",
+      "Description": "Yoto Ltd. has issued a recall for the Yoto Mini, a portable, screen-free speaker designed for children aged three to twelve. This speaker, which plays audiobooks, music, radio, and podcasts, features a pale gray body with orange controls and a pixel display. The model name Yoto Mini, along with SKU PRPLXX00860, can be found on the bottom of the unit. The recalled speakers were sold with a charging cable but did not include an adaptor or charger.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/Yoto-Reannounces-Recall-of-Yoto-Mini-Speakers-for-Children-Due-to-Burn-and-Fire-Hazards-New-Full-Battery-Replacement-Kit-Now-Available",
+      "Title": "Yoto Mini Speakers for Kids Recalled Due to Fire and Burn Risks; New Battery Replacement Kit Available",
+      "ConsumerContact": "For assistance, consumers can reach out to Yoto Ltd. via email at minihelp@yotoplay.com or visit us.yotoplay.com/recall. More information is also available at us.yotoplay.com by clicking on 'RECALL INFORMATION' at the top of the page.",
+      "LastPublishDate": "2024-12-12T00:00:00",
+      "Products": [
+        {
+          "Name": "Yoto Mini Speaker",
+          "NumberOfUnits": "About 251,165 (In addition, about 18,932 were sold in Canada) (The speakers were previously recalled in April 2024.)"
+        }
+      ],
+      "Inconjunctions": [
+        {
+          "URL": "https://recalls-rappels.canada.ca/en/alert-recall/yoto-mini-speaker-recalled-due-burn-and-fire-hazard"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/other-sound-recording-or-reproducing-or-receiving-equipment/1-Yoto-Mini-Speaker/e37d835d851452a9ce49438b3dd07a90.webp",
+          "Caption": "Recalled Yoto Mini Speaker",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/yoto.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "Yoto has received nine reports from U.S. consumers and three from a UK consumer of the speaker overheating or melting. No injuries have been reported."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available online at us.yotoplay.com, Amazon.com, Target.com, and maisonette.com, as well as in toy and gift stores across the country from November 2021 to April 2024 for approximately $70."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Yoto Inc., of New York"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Overheating lithium-ion battery posing burn and fire hazards"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Stop using the speakers immediately, keep them away from children, and contact Yoto for a free battery replacement kit. Dispose of lithium-ion batteries according to local regulations."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "SKU PRPLXX00860"
+      ],
+      "slug": "yoto-mini-speakers-for-kids-recalled-due-to-fire-and-burn-risks-new-battery-replacement-kit-available-recall",
+      "metaDescription": "Yoto recalls Mini Speakers for kids due to fire risks. Free battery replacement kit available. Contact Yoto for details."
+    }
+  ]
+}

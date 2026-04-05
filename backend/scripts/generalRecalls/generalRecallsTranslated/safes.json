@@ -1,0 +1,469 @@
+{
+  "meta": {
+    "slug": "safes",
+    "sourceCsvFile": "safes_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:37.056Z",
+    "recallCount": 6,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "safes.json",
+    "seoTranslatedAt": "2026-04-05T03:58:14.657Z",
+    "resumePartial": false
+  },
+  "recalls": [
+    {
+      "RecallID": 10103,
+      "RecallNumber": "25060",
+      "RecallDate": "2024-12-05T00:00:00",
+      "Description": "Academy Sports + Outdoors has announced a recall of the Redfield 12-Gun and 18-Gun Fireproof Safes due to a significant risk of injury or death. These safes, designed for secure storage of firearms and valuables, are identifiable by the 'Redfield' name displayed on the front door above the number pad. The model and serial numbers can be found on a red label located at the bottom right corner of the safe door. The 12-gun model measures 53 inches high, 15 inches wide, and 16 inches deep, while the 18-gun model measures 55 inches high, 18 inches wide, and 18 inches deep.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/Academy-Sports-Outdoors-Recalls-Redfield-12-and-18-Gun-Fireproof-Safes-Due-to-Serious-Injury-Hazard-and-Risk-of-Death",
+      "Title": "Academy Sports + Outdoors Issues Recall for Redfield 12-Gun and 18-Gun Fireproof Safes Due to Serious Safety Risks",
+      "ConsumerContact": "Consumers are urged to stop using the affected safes immediately and return them to any Academy Sports + Outdoors location for a free replacement or refund. For further assistance, contact Academy Sports + Outdoors at 888-922-2336 from 7 a.m. to 10 p.m. CT, via email at customerservice@academy.com, or visit www.academy.com/product-recalls.",
+      "LastPublishDate": "2024-12-05T00:00:00",
+      "Products": [
+        {
+          "Name": "Redfield 12-Gun Fireproof Safe",
+          "NumberOfUnits": "About 6,100"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/safes/1-Redfield-12-Gun-Fireproof-Safe/795435ed97ddeedb263ab215fb3eebfe.webp",
+          "Caption": "Recalled Academy Sports + Outdoors Redfield 12-Gun Fireproof Safe",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/academy-safe-1.png"
+        },
+        {
+          "URL": "/images/generalRecalls/safes/1-Redfield-12-Gun-Fireproof-Safe/5bc5a7aa148f5ae6300ffb123ff86bba.webp",
+          "Caption": "Recalled Academy Sports + Outdoors Redfield 18-Gun Fireproof Safe",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/academy-safe-2.png"
+        },
+        {
+          "URL": "/images/generalRecalls/safes/1-Redfield-12-Gun-Fireproof-Safe/18712a929a0ef2a4dc809b53d81f8a54.webp",
+          "Caption": "Recalled Academy Sports + Outdoors Redfield Gun Fireproof Safe serial number location",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/academy-safe-3.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available at Academy Sports + Outdoors stores and online at academy.com from February 2024 to August 2024, priced between $350 and $600."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Academy Ltd., d/b/a Academy Sports + Outdoors, of Katy, Texas"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "Vietnam"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of unauthorized access due to misaligned mechanical locking plates"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Free replacement or refund upon return of the safes"
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        },
+        {
+          "Option": "Replace"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "Model 179498",
+        "Model 179499",
+        "G02BXXXXXXXXXX",
+        "G03BXXXXXXXXXX",
+        "G10AXXXXXXXXXX",
+        "G11AXXXXXXXXXX",
+        "G12AXXXXXXXXXX",
+        "G01BXXXXXXXXXX"
+      ],
+      "slug": "academy-sports-outdoors-issues-recall-for-redfield-12-gun-and-18-gun-fireproof-safes-due-to-serious-safety-risks-recall",
+      "metaDescription": "Academy Sports + Outdoors recalls Redfield 12-Gun and 18-Gun Fireproof Safes due to serious injury risks. Immediate action recommended."
+    },
+    {
+      "RecallID": 9963,
+      "RecallNumber": "24255",
+      "RecallDate": "2024-06-06T00:00:00",
+      "Description": "SA Consumer Products has issued a recall for the Sanctuary Quick Access Biometric Home Safe and the Sports Afield Home Defense 4-Gun Biometric Safe. These black steel safes are designed for securely storing firearms and valuables. The Sanctuary safe measures 10 inches high, 14 inches wide, and 10 inches deep, accommodating approximately two firearms, while the Sports Afield safe, which can hold four firearms, measures 55 inches high, 12 inches wide, and 11 inches deep. The Sports Afield model features the brand logo on its front.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/SA-Consumer-Products-Recalls-Sanctuary-Quick-Access-and-Sports-Afield-Biometric-Gun-Safes-Due-to-Serious-Injury-Hazard-and-Risk-of-Death",
+      "Title": "SA Consumer Products Recalls Sanctuary Quick Access and Sports Afield Biometric Gun Safes Due to Serious Injury Risks",
+      "ConsumerContact": "For assistance, consumers can reach SA Consumer Products at 855-215-5822 from 8 a.m. to 5 p.m. ET, Monday through Friday, or via email at saconsumer6983@sedgwick.com. More information is available online at sabiometricsaferecall.expertinquiry.com or www.saproducts.com by clicking the 'Recall' tab.",
+      "LastPublishDate": "2024-06-06T00:00:00",
+      "Products": [
+        {
+          "Name": "Sanctuary Quick Access Biometric Home Safe",
+          "NumberOfUnits": "About 133,370"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/safes/2-Sanctuary-Quick-Access-Biometric-Home-Safe/ffb1d7b3d7df85ba2237631033a73124.webp",
+          "Caption": "Recalled Sanctuary Quick Access Biometric Home Safe",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/sanctuary-safe.png"
+        },
+        {
+          "URL": "/images/generalRecalls/safes/2-Sanctuary-Quick-Access-Biometric-Home-Safe/321835fb1d4bce2f267edd9d7b6f6367.webp",
+          "Caption": "Recalled Sports Afield Home Defense 4-Gun Biometric Safe",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/sports-afield.jpg"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm is aware of 77 reports of the safe being opened by unauthorized users. No injuries have been reported."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Sanctuary Quick Access Biometric Home Safes were available at Costco and other retailers nationwide, as well as online at Costco.com, priced between $75 and $100. Sports Afield Home Defense 4-Gun Biometric Safes were sold at firearm and sporting goods stores nationwide and online, ranging from $500 to $600. The safes were on sale from July 2020 to November 2023."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "SA Consumer Products Inc., of Rolling Meadows, Illinois"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Unauthorized access to the biometric lock can lead to serious injury or death."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should cease using the biometric function, remove the batteries, and rely on the key for firearm storage. Contact SA Consumer Products for a free repair kit."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ],
+      "slug": "sa-consumer-products-recalls-sanctuary-quick-access-and-sports-afield-biometric-gun-safes-due-to-serious-injury-risks-recall",
+      "metaDescription": "SA Consumer Products recalls Sanctuary and Sports Afield biometric gun safes due to serious injury risks. Learn more about the recall."
+    },
+    {
+      "RecallID": 9865,
+      "RecallNumber": "24130",
+      "RecallDate": "2024-02-22T00:00:00",
+      "Description": "Bulldog Cases is recalling several models of their biometric gun safes, including the Magnum Biometric Pistol Vault, Magnum Biometric Pistol Vault with Shelf, and Magnum Biometric Top Load Pistol Vault. These black steel safes are designed for securing firearms and valuables. The dimensions for the models are as follows: the Magnum Biometric Pistol Vault (BD4030B) measures 11.5 x 8 x 5.5 inches, the model with shelf (BD4040B) measures 11.5 x 10 x 8 inches, and the top load variant (BD4055B) measures 11.5 x 9.8 x 2.5 inches. The model number is located on a label on a silver sticker on the back right corner of the safe, with the brand name 'Bulldog' visible on the front.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/Bulldog-Cases-Recalls-Biometric-Gun-Safes-Due-to-Serious-Injury-Hazard-and-Risk-of-Death",
+      "Title": "Bulldog Cases Recalls Biometric Gun Safes Due to Serious Injury and Death Risks",
+      "ConsumerContact": "For assistance, consumers can reach Bulldog at 888-799-8001 from 9 a.m. to 4 p.m. ET, Monday through Friday. Alternatively, inquiries can be sent via email to recall@bulldogcases.net or through their website at https://bulldogcases.com/recall. For more details, visit https://bulldogcases.com and select 'Recall Form' at the top of the page.",
+      "LastPublishDate": "2024-02-22T00:00:00",
+      "Products": [
+        {
+          "Name": "Magnum Biometric Pistol Vault",
+          "NumberOfUnits": "About 33,500"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/safes/3-Magnum-Biometric-Pistol-Vault/490b495606b2cdc2c2e34327c1cfc0d4.webp",
+          "Caption": "Recalled Bulldog Magnum Biometric Pistol Vault, Model No. BD4030B",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/magnum-vault.png"
+        },
+        {
+          "URL": "/images/generalRecalls/safes/3-Magnum-Biometric-Pistol-Vault/f03e0a6cf9d94f0dbcddb7d6081f90cc.webp",
+          "Caption": "Recalled Bulldog Magnum Biometric Pistol Vault with Shelf, Model No. BD4040B",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/magnum-vault-shelf.png"
+        },
+        {
+          "URL": "/images/generalRecalls/safes/3-Magnum-Biometric-Pistol-Vault/7ca5fe6c6442973c40037bb49b5f9832.webp",
+          "Caption": "Recalled Bulldog Magnum Biometric Top Load Pistol Vault, Model No. BD4055B",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/magnum-top-load.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm received four reports of the safe being opened by an unauthorized user. No injuries have been reported."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available at Bass Pro Shops, Walmart, firearm retailers nationwide, and online at www.Amazon.com from July 2016 through January 2024, priced between $194 and $216."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Bulldog Cases, of Danville, Virginia"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Biometric lock failure allowing unauthorized access, leading to serious injury or death risks when firearms are stored."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Stop using the biometric feature, remove batteries, and use the key for storage. Contact Bulldog for a repair kit or free replacement safe."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        },
+        {
+          "Option": "Replace"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "BD4030B",
+        "BD4040B",
+        "BD4055B"
+      ],
+      "slug": "bulldog-cases-recalls-biometric-gun-safes-due-to-serious-injury-and-death-risks-recall",
+      "metaDescription": "Bulldog Cases recalls biometric gun safes due to safety risks. Learn how to get a repair kit or replacement safe."
+    },
+    {
+      "RecallID": 9864,
+      "RecallNumber": "24129",
+      "RecallDate": "2024-02-22T00:00:00",
+      "Description": "Machir is recalling specific biometric personal safes designed for the secure storage of personal belongings. These safes measure approximately 10 inches by 14 inches by 10 inches and have serial numbers located on the lower right corner of the front door. The recall affects various serial number ranges, including SW190035551 to SW190038050 and several others listed in the official notice.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/Machir-Recalls-Biometric-Personal-Safes-Due-to-Serious-Injury-Hazard-and-Risk-of-Death",
+      "Title": "Machir Recalls Biometric Personal Safes Due to Serious Injury and Death Risks",
+      "ConsumerContact": "For assistance, consumers can reach Machir at 888-505-5195 from 9 a.m. to 5 p.m. CT, Monday through Friday, via email at Info@machir.com, or visit https://machir.com/biorecall/ for further details.",
+      "LastPublishDate": "2024-02-22T00:00:00",
+      "Products": [
+        {
+          "Name": "Machir Biometric Personal Safes",
+          "NumberOfUnits": "About 24,820"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/safes/4-Machir-Biometric-Personal-Safes/e11ea99890523b6ac7376ebbd93d409f.webp",
+          "Caption": "Recalled Machir Biometric Personal Safe",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/machir-safe.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/safes/4-Machir-Biometric-Personal-Safes/cc39b9cd28d71caf117105190cc32625.webp",
+          "Caption": "Recalled Machir Biometric Personal Safe with key inserted",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/machir-safe-key.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/safes/4-Machir-Biometric-Personal-Safes/707585db5af96fcfb537c1adccb8cae6.webp",
+          "Caption": "Recalled Machir Biometric Personal Safe packaging",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/machir-safe-packaging.jpg"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received 15 reports of the recalled safes being opened by unauthorized users when the biometric lock failed to secure the safe. No injuries have been reported."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available on Amazon.com between September 2021 and February 2023, priced between $170 and $400."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Machir LLC, of Springfield, Missouri"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of unauthorized access due to biometric lock failure, leading to potential serious injury or death, especially if firearms are stored inside."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should cease using the biometric lock, remove the batteries, and utilize the key for access until a free replacement is obtained. Instructions for disabling the biometric lock and obtaining a replacement safe are available from Machir. A photo of the disabled biometric reader must be emailed to Info@machir.com to receive the replacement. Detailed destruction instructions for the biometric reader can be found at http://machir.com/biorecall/."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Replace"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "SW190035551 - SW190038050",
+        "SW190070151 - SW190072650",
+        "SW190175401 - SW190175857",
+        "SW190262061 - SW190264301",
+        "SVA2001200005001 - SVA2001200007000",
+        "SVA2001200014632 - SVA2001200014995",
+        "SVA2001200015001 - SVA2001200017577",
+        "SVA2001200086685 - SVA2001200089624",
+        "SVA2001200164001 - SVA2001200165000",
+        "SVA2001200115471 - SVA2001200119880",
+        "SVA2001200122399 - SVA2001200124758",
+        "SVA2001200172611 - SVA2001200174080"
+      ],
+      "slug": "machir-recalls-biometric-personal-safes-due-to-serious-injury-and-death-risks-recall",
+      "metaDescription": "Machir recalls biometric personal safes due to serious injury risks. Learn how to disable the lock and get a free replacement."
+    },
+    {
+      "RecallID": 9863,
+      "RecallNumber": "24128",
+      "RecallDate": "2024-02-22T00:00:00",
+      "Description": "BBRKIN is recalling its Biometric Gun Safe, model QCJJ01, which is designed for firearm and valuable storage. This gray steel safe measures approximately 13 inches by 14 inches by 15 inches and features one shelf, accommodating around five firearms. The brand name 'MouTec' is displayed on the front, and the serial number can be found on a label in the lower right corner of the safe, within the range of SQC202121000 to SQC202247603.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/Biometric-Gun-Safes-Recalled-Due-to-Serious-Injury-Hazard-and-Risk-of-Death-Sold-Exclusively-on-Amazon-com-by-BBRKIN",
+      "Title": "BBRKIN Biometric Gun Safes Recalled Due to Serious Injury Risks; Sold Exclusively on Amazon",
+      "ConsumerContact": "For assistance, consumers can reach BBRKIN via email at support@bbrkin.com or visit www.securitysafe.store/recallreplacement. Additionally, they can find more information on the recall by navigating to www.securitysafe.store and selecting 'Recall Form' at the top of the page.",
+      "LastPublishDate": "2024-02-22T00:00:00",
+      "Products": [
+        {
+          "Name": "MouTec Biometric Gun Safe",
+          "NumberOfUnits": "About 2,200"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/safes/5-MouTec-Biometric-Gun-Safe/9c12a83b548fc7a438e10f8ff900b242.webp",
+          "Caption": "Recalled BBRKIN Biometric Firearm Safe model number QCJJ01",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/BBRKIN-safe.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm received one report of the safe opened by an unauthorized user, a 6-year-old boy. No injuries have been reported."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available exclusively on Amazon.com from September 2021 to February 2023, priced between $170 and $400."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Jomani International Inc., of Monterey Park, California"
+        }
+      ],
+      "Distributors": [
+        {
+          "Name": "Ningbo Moyumaoyi Co. Ltd., dba BBRKIN, of China"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Unauthorized access to the biometric lock can lead to serious injury or death."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Immediately cease using the biometric feature, remove batteries, and use the key for firearm storage. Contact BBRKIN for a repair kit or free replacement safe. To obtain a replacement, consumers must disable the biometric reader and send a photo of it to support@bbrkin.com, following the provided instructions at www.securitysafe.store/recallreplacement."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        },
+        {
+          "Option": "Replace"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "QCJJ01",
+        "SQC202121000",
+        "SQC202247603"
+      ],
+      "slug": "bbrkin-biometric-gun-safes-recalled-due-to-serious-injury-risks-sold-exclusively-on-amazon-recall",
+      "metaDescription": "BBRKIN recalls Biometric Gun Safes due to safety risks. Learn how to disable the biometric feature and obtain a replacement."
+    },
+    {
+      "RecallID": 9862,
+      "RecallNumber": "24127",
+      "RecallDate": "2024-02-22T00:00:00",
+      "Description": "Awesafe has issued a recall for specific biometric gun safes that pose a serious injury risk due to a failure in the biometric lock. These black safes are designed to hold two pistols and prominently feature the Awesafe brand on the front. Unauthorized users may gain access, leading to potential harm or even death.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/Biometric-Gun-Safes-Recalled-Due-to-Serious-Injury-Hazard-and-Risk-of-Death-Imported-by-Awesafe",
+      "Title": "Awesafe Biometric Gun Safes Recalled Due to Serious Injury Risk",
+      "ConsumerContact": "For more information, consumers can reach Awesafe via email at Recall@awesafeus.com or visit https://awesafeus.com/RECALL. Instructions for disabling the biometric feature can also be found at http://awesafeus.com/.",
+      "LastPublishDate": "2024-02-22T00:00:00",
+      "Products": [
+        {
+          "Name": "Awesafe Biometric Gun Safe",
+          "NumberOfUnits": "About 60,000"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/safes/6-Awesafe-Biometric-Gun-Safe/f36be688172186450e2f5ea5c0e9a2ed.webp",
+          "Caption": "Recalled Awesafe Gun Safe - closed",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/awesafe-closed.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/safes/6-Awesafe-Biometric-Gun-Safe/51e9a474ecbbbd6d9d2e572a87b856dc.webp",
+          "Caption": "Recalled Awesafe Gun Safe - open",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/awesafe-open.jpg"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received reports of 71 incidents of the recalled gun safes being opened by unauthorized users when the biometric lock failed to secure the safe. No injuries have been reported."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available at Walmart stores nationwide and online through Amazon.com and Walmart.com from August 2019 until December 7, 2022, priced around $130."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Shenghaina Technology Co. Ltd., d/b/a Awesafe, of China"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of unauthorized access due to biometric lock failure"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Stop using the biometric feature, remove batteries, and use the key until a replacement is received. Contact Awesafe for instructions and to obtain a free replacement safe."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Replace"
+        }
+      ],
+      "slug": "awesafe-biometric-gun-safes-recalled-due-to-serious-injury-risk-recall",
+      "metaDescription": "Awesafe recalls biometric gun safes due to serious injury risks. Learn how to disable the feature and obtain a free replacement."
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "slug": "other-musical-instruments",
+    "sourceCsvFile": "other-musical-instruments_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:37.019Z",
+    "recallCount": 1,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "other-musical-instruments.json",
+    "seoTranslatedAt": "2026-04-05T02:06:10.692Z",
+    "resumePartial": false
+  },
+  "recalls": [
+    {
+      "RecallID": 10151,
+      "RecallNumber": "25125",
+      "RecallDate": "2025-02-06T00:00:00",
+      "Description": "Jazwares has announced a recall of the America's Got Talent (AGT) microphone, marketed under the First Act brand. This microphone, designed to amplify voice with treble, bass, and echo controls, features a black exterior adorned with the AGT logo. Measuring 10.5 inches and weighing around one pound, it includes an integrated speaker with a power and control button located at the back. The device is powered by a non-removable lithium-ion battery that can pose a fire hazard if overcharged.\n\nConsumers are urged to stop using these microphones immediately. The affected models include SKU numbers AGT0002 (microphone only) and TMS0002 (microphone with poster), which can be found on the bottom of the speaker. For safety, users should follow disposal guidelines according to local regulations after registering for the recall.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/Jazwares-Recalls-Americas-Got-Talent-Microphones-with-Lithium-Ion-Batteries-Due-to-Fire-Hazard",
+      "Title": "Jazwares Recalls America's Got Talent Microphones Due to Fire Risk from Lithium-Ion Batteries",
+      "ConsumerContact": "For more information, contact Jazwares at 888-341-0881 from 9 a.m. to 4 p.m. PT, Monday through Friday, email micrecall@jazwares.com, or visit https://jazwares.com/recalls/agt-microphone or www.jazwares.com and click on 'Product Recall' at the bottom of the page.",
+      "LastPublishDate": "2025-02-06T00:00:00",
+      "Products": [
+        {
+          "Name": "America's Got Talent Microphone",
+          "NumberOfUnits": "About 125,000 (In addition, about six were sold in Canada)"
+        }
+      ],
+      "Inconjunctions": [
+        {
+          "URL": "https://recalls-rappels.canada.ca/en/alert-recall/first-act-america-s-got-talent-agt-microphone-recalled-due-fire-hazard"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/other-musical-instruments/1-America-s-Got-Talent-Microphone/2876fef701d5dfae82a804cff0a5247c.webp",
+          "Caption": "Recalled America's Got Talent microphone",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/AGT-1.png"
+        },
+        {
+          "URL": "/images/generalRecalls/other-musical-instruments/1-America-s-Got-Talent-Microphone/9f55d811f7b8b9598d7a4046296d4ec4.webp",
+          "Caption": "Recalled America's Got Talent microphone",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/AGT-2.jpg"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received three reports of the lithium-ion batteries igniting, resulting in smoke and fire damage to walls and floors. No injuries have been reported."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available at Meijer, DD's Discounts/Ross, Target stores nationwide, and Nebraska Furniture Mart locations in Nebraska, Iowa, Texas, and Kansas, as well as online at www.Amazon.com and www.Target.com from October 2020 through October 2022, priced between $20 and $25."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Jazwares LLC, of Sunrise, Florida"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Fire hazard due to potential overcharging of lithium-ion batteries"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Full refund via pre-paid gift card; dispose of the microphone according to local regulations"
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "AGT0002",
+        "TMS0002"
+      ],
+      "slug": "jazwares-recalls-america-s-got-talent-microphones-due-to-fire-risk-from-lithium-ion-batteries-recall",
+      "metaDescription": "Jazwares recalls America's Got Talent microphones due to fire hazards from lithium-ion batteries. Stop using and contact for a refund."
+    }
+  ]
+}

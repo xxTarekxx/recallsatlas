@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "slug": "power-tillers-or-cultivators",
+    "sourceCsvFile": "power-tillers-or-cultivators_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:37.041Z",
+    "recallCount": 1,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "power-tillers-or-cultivators.json",
+    "seoTranslatedAt": "2026-04-05T03:04:35.167Z",
+    "resumePartial": false
+  },
+  "recalls": [
+    {
+      "RecallID": 9961,
+      "RecallNumber": "24249",
+      "RecallDate": "2024-05-30T00:00:00",
+      "Description": "Black & Decker has announced a recall for the CRAFTSMAN Model CMCTL320B V20 Cordless Tillers/Cultivators due to a potential laceration hazard. The model number can be found on the underside of the upper handle, and the tillers/cultivators feature a red and black design. Only products with the UPC 885911843430 are affected by this recall.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/Black-Decker-Recalls-CRAFTSMAN-V20-Cordless-Tillers-Cultivators-Due-to-Laceration-Hazard",
+      "Title": "CRAFTSMAN V20 Cordless Tillers/Cultivators Recalled by Black & Decker Due to Laceration Risk",
+      "ConsumerContact": "Consumers should immediately stop using the recalled tillers/cultivators and contact CRAFTSMAN at 855-237-6848 from 8 a.m. to 6 p.m. ET, Monday through Friday. They can also email recall@sbdinc.com for updated assembly instructions or visit https://www.craftsman.com/pages/safety-notices-and-recalls-cmctl320b for more details.",
+      "LastPublishDate": "2024-05-30T00:00:00",
+      "Products": [
+        {
+          "Name": "CRAFTSMAN V20 Cordless Tiller/Cultivator",
+          "NumberOfUnits": "About 44,400"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/power-tillers-or-cultivators/1-CRAFTSMAN-V20-Cordless-Tiller-Cultivator/d15353c23fe29baf8eee511bbb83a1be.webp",
+          "Caption": "Recalled CRAFTSMAN Model CMCTL320B V20 Cordless Tiller/Cultivator",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/styles/recall_product/public/1A.png"
+        },
+        {
+          "URL": "/images/generalRecalls/power-tillers-or-cultivators/1-CRAFTSMAN-V20-Cordless-Tiller-Cultivator/68be11996463fe60da8a14b5827213bb.webp",
+          "Caption": "Recalled CRAFTSMAN Model CMCTL320B V20 Cordless Tiller/Cultivator",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/1B.png"
+        },
+        {
+          "URL": "/images/generalRecalls/power-tillers-or-cultivators/1-CRAFTSMAN-V20-Cordless-Tiller-Cultivator/d2978b741bca8d404db843cfc1df23f7.webp",
+          "Caption": "Model Number on the underside of upper handle",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/1C.png"
+        },
+        {
+          "URL": "/images/generalRecalls/power-tillers-or-cultivators/1-CRAFTSMAN-V20-Cordless-Tiller-Cultivator/e82bf8f44fc4b10ed5bcfd55221f82ba.webp",
+          "Caption": "UPC Code on product packaging",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/1D.png"
+        },
+        {
+          "URL": "/images/generalRecalls/power-tillers-or-cultivators/1-CRAFTSMAN-V20-Cordless-Tiller-Cultivator/c32cddafe9e813d55e05cf4ca6007eaf.webp",
+          "Caption": "UPC Code",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/1E.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received one report of incorrect attachment of the bottom portion of the unit. No injuries have been reported."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available at Lowe's, Ace Hardware, Blain's Farm & Fleet, select Army & Air Force Exchanges, and online through Amazon.com from October 2022 to April 2024, priced between $129 and $179."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Black & Decker (U.S.) Inc., of Towson, Maryland"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "ProductUPCs": [
+        {
+          "UPC": "885911843430"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Incorrect assembly may lead to tines rotating towards the user, resulting in a laceration hazard."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers are advised to stop using the tillers/cultivators and reach out to CRAFTSMAN for revised assembly instructions. Updated instructions are also available on CRAFTSMAN's website at https://www.craftsman.com/pages/safety-notices-and-recalls-cmctl320b. CRAFTSMAN and retailers are providing these instructions to known purchasers."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "New Instructions"
+        }
+      ],
+      "slug": "craftsman-v20-cordless-tillers-cultivators-recalled-by-black-decker-due-to-laceration-risk-recall",
+      "metaDescription": "CRAFTSMAN V20 Cordless Tillers/Cultivators recalled due to laceration risk. Contact CRAFTSMAN for updated assembly instructions."
+    }
+  ]
+}

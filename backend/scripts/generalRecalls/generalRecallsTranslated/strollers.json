@@ -1,0 +1,448 @@
+{
+  "meta": {
+    "slug": "strollers",
+    "sourceCsvFile": "strollers_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:37.080Z",
+    "recallCount": 6,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "strollers.json",
+    "seoTranslatedAt": "2026-04-05T05:47:17.206Z",
+    "resumePartial": false
+  },
+  "recalls": [
+    {
+      "RecallID": 10487,
+      "RecallNumber": "26094",
+      "RecallDate": "2025-11-20T00:00:00",
+      "Description": "AliExpress has issued a recall for the 4-in-1 Baby Safety Cart Carriage, a stroller that can also function as a hand-held infant carrier. This product was available in various colors including pink, light pink, blue, dark blue, green, red, teal, gray, and black, and includes a gray or black infant insert. The stroller features larger wheels with yellow accents but lacks any identifying markings.",
+      "URL": "https://www.cpsc.gov/Recalls/2026/AliExpress-Recalls-Convertible-Strollers-Due-to-Risk-of-Serious-Injury-or-Death-from-Fall-Hazard-Violates-Mandatory-Standard-for-Strollers",
+      "Title": "AliExpress Recalls 4-in-1 Baby Safety Cart Carriage Due to Fall Hazard Risk",
+      "ConsumerContact": "For assistance, consumers can reach out to AliExpress via email at us_product_recall@aliexpress.com or visit the AliExpress Buyer Help Center at www.aliexpress.com. Click on 'Recalls' at the bottom of the page for further details.",
+      "LastPublishDate": "2025-11-20T00:00:00",
+      "Products": [
+        {
+          "Name": "4-in-1 Baby Safety Cart Carriage",
+          "NumberOfUnits": "About 15"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/strollers/1-4-in-1-Baby-Safety-Cart-Carriage/93babcc244396213a16c0ec75dfd85e4.webp",
+          "Caption": "Recalled 4-in-1 Baby Stroller - Black",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Picture1_149.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available online at AliExpress.com from September 2024 to October 2025, priced between $215 and $415."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "AliExpress, of San Mateo, California"
+        }
+      ],
+      "Distributors": [
+        {
+          "Name": "Yanggu Caroline Electronic Commerce Co., Ltd. dba SX-BB Store, of China"
+        }
+      ],
+      "SoldAtLabel": "Sold Online At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of serious injury or fatal falls due to a failing restraint system."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Stop using the stroller immediately and contact AliExpress for a full refund. Consumers must cut the restraints and send a photo of the destroyed stroller to us_product_recall@aliexpress.com."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "slug": "aliexpress-recalls-4-in-1-baby-safety-cart-carriage-due-to-fall-hazard-risk-recall",
+      "metaDescription": "AliExpress recalls the 4-in-1 Baby Safety Cart Carriage due to serious fall hazards. Contact for refunds and safety instructions."
+    },
+    {
+      "RecallID": 10446,
+      "RecallNumber": "26044",
+      "RecallDate": "2025-10-23T00:00:00",
+      "Description": "Olympia Tools is recalling the Pack-N-Stroll Premium Folding Utility Wagon due to serious safety concerns. The wagon, available in black with blue accents, features a removable organizational tray and two cup holders on the handle. It can be folded for convenient storage, and is marked with 'Pack-N-Stroll' in blue on a black label. The design poses risks of entrapment and falls for children, violating mandatory stroller safety standards.",
+      "URL": "https://www.cpsc.gov/Recalls/2026/Olympia-Tools-International-Recalls-Pack-N-Stroll-Utility-Wagons-Due-to-Risk-of-Serious-Injury-or-Death-from-Entrapment-and-Falls-Violates-Mandatory-Standard-for-Strollers",
+      "Title": "Olympia Tools Recalls Pack-N-Stroll Utility Wagons Due to Entrapment and Fall Hazards",
+      "ConsumerContact": "For further assistance, consumers can contact Olympia Tools at 877-461-8665 from 9 a.m. to 4 p.m. PT, Monday to Friday, email info@olympiatools.com, or visit www.cohooutdoors.com and click on 'Recall' at the bottom of the page.",
+      "LastPublishDate": "2025-10-23T00:00:00",
+      "Products": [
+        {
+          "Name": "Pack-N-Stroll Premium Folding Utility Wagon",
+          "NumberOfUnits": "About 530"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/strollers/2-Pack-N-Stroll-Premium-Folding-Utility-Wagon/dee93a8264f82a8c2ec9452787b8f83b.webp",
+          "Caption": "Recalled Pack-N-Stroll Premium Folding Utility Wagon",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/packnstroll.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available at Costco.com and cohooutdoors.com from June 2025 to July 2025, priced between $200 and $400."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Olympia Tools International, Inc. of Covina, California"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of serious injury or death due to potential entrapment and falls."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers are advised to stop using the wagon and return it to Costco for a full refund."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "slug": "olympia-tools-recalls-pack-n-stroll-utility-wagons-due-to-entrapment-and-fall-hazards-recall",
+      "metaDescription": "Olympia Tools recalls Pack-N-Stroll Utility Wagons due to serious safety risks. Learn how to get a refund."
+    },
+    {
+      "RecallID": 10092,
+      "RecallNumber": "25044",
+      "RecallDate": "2024-11-14T00:00:00",
+      "Description": "Stokke is recalling YOYO³ strollers with serial numbers beginning with '142AA' and ending below '0062239.' This recall affects only those specific strollers. Designed for children aged 0 to 48 months, these compact, foldable strollers feature a black or black and white frame, with seats and canopies available in various colors including black, Bonpoint beige, and Air France blue. The serial number can be found on a label underneath the stroller seat.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/Stokke-Recalls-YOYO3-Strollers-Due-to-Injury-Hazard",
+      "Title": "Stokke Issues Recall for YOYO³ Strollers Due to Potential Injury Risk",
+      "ConsumerContact": "For assistance, contact Stokke at 877-978-6553 from 9 a.m. to 8 p.m. Monday through Friday, email info-usa@stokke.com, or visit https://recall.stokke.com/yoyo3 or www.stokke.com and click on 'Product Safety and Recall Information' for more details.",
+      "LastPublishDate": "2024-11-14T00:00:00",
+      "Products": [
+        {
+          "Name": "YOYO³ Stroller",
+          "NumberOfUnits": "About 2,890"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/strollers/3-YOYO-Stroller/bec50e3a3419af2274982dffffaa47f6.webp",
+          "Caption": "Recalled YOYO³ Stroller (olive)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/yoyo.JPG"
+        },
+        {
+          "URL": "/images/generalRecalls/strollers/3-YOYO-Stroller/30a41a7122d6bc7f393ff0c22457ef3b.webp",
+          "Caption": "Location of Tracking Label with Serial Number on Recalled YOYO³ Stroller",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/yoyo2.JPG"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available in-store and online at Bloomingdale's, Crate and Barrel, Nordstrom, Albee Baby, Macro Baby, as well as online at stokke.com, Amazon.com, and Babylist.com from September 2024 to October 2024, priced around $450."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Stokke LLC, of Stamford, Connecticut"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of injury due to potential brake disengagement."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should cease using the recalled strollers and visit https://recall.stokke.com/yoyo3 to register for a full refund via check."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "slug": "stokke-issues-recall-for-yoyo3-strollers-due-to-potential-injury-risk-recall",
+      "metaDescription": "Stokke recalls YOYO³ strollers due to injury risk. Check if your stroller is affected and learn how to get a refund."
+    },
+    {
+      "RecallID": 10082,
+      "RecallNumber": "25032",
+      "RecallDate": "2024-11-07T00:00:00",
+      "Description": "Guava Family has announced a recall for the Roam First Generation three-wheel foldable strollers, which were produced between July 2020 and December 2021. These strollers feature a black frame with a gray 'Guava' logo and have dimensions of approximately 39 inches in length, 25 inches in width, and 43 inches in height, weighing around 28.5 pounds. Only those strollers manufactured during the specified period are affected by this recall. The model name and manufacturing details can be found on a black label on the crossbar beneath the seat.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/Guava-Family-Recalls-Roam-Strollers-Due-to-Fall-and-Injury-Hazards",
+      "Title": "Guava Family Issues Recall for Roam Strollers Due to Safety Risks",
+      "ConsumerContact": "For assistance, consumers can reach out to Guava Family Inc. at 833-408-0493 from 7:30 a.m. to 5 p.m. CT, Monday through Friday, email at rs@realtimeresults.net, or visit https://www.guavafamily.com and select 'Product Recall' for further details or go directly to https://www.guavafamily.com/pages/stroller-recall.",
+      "LastPublishDate": "2024-11-07T00:00:00",
+      "Products": [
+        {
+          "Name": "Guava Roam Stroller",
+          "NumberOfUnits": "About 8,500"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/strollers/4-Guava-Roam-Stroller/c17e02db57cc0be0cb5fc8ae84f18ba5.webp",
+          "Caption": "Recalled Guava Roam Stroller",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/guava-stroller.png"
+        },
+        {
+          "URL": "/images/generalRecalls/strollers/4-Guava-Roam-Stroller/a49be8ea460b33a5aaa6cd63abd9338a.webp",
+          "Caption": "Recalled strollers tracking label location on the cross bar below seat",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/guava-stroller-label.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received 67 reports of the brake lock disengaging. The firm has also received 152 reports of the brake pedal not engaging when pushed down. No injuries have been reported."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available online at www.guavafamily.com and www.babylist.com from August 2020 through October 2023, priced between $500 and $550."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Guava Family Inc., of Solana Beach, California"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Brake failure leading to potential falls and injuries for children."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers must cease using the recalled strollers and contact Guava Family for guidance on obtaining a free repair kit and new installation instructions."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ],
+      "slug": "guava-family-issues-recall-for-roam-strollers-due-to-safety-risks-recall",
+      "metaDescription": "Guava Family recalls Roam Strollers due to fall hazards. Immediate action required for safety. Contact Guava for repair instructions."
+    },
+    {
+      "RecallID": 10014,
+      "RecallNumber": "24316",
+      "RecallDate": "2024-07-25T00:00:00",
+      "Description": "Stiger has announced a recall of the Besrey Twins Strollers, model BR-C708S, due to serious safety concerns. These strollers, featuring gray and black fabric with black frames and wheels, may pose entrapment risks in the front seat configuration. Additionally, issues with the restraint system and rear seat enclosure can lead to falls, while the foam padding on the grab bar may present a choking hazard if bitten by children. The model number and manufacturer name can be found on a label above the back right wheel.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/Stiger-Recalls-Besrey-Twins-Strollers-Due-to-Entrapment-Fall-and-Choking-Hazards-Violation-of-Federal-Regulation-for-Strollers-Sold-Exclusively-on-Amazon-com",
+      "Title": "Stiger Issues Recall for Besrey Twins Strollers Due to Safety Hazards Including Entrapment and Choking Risks",
+      "ConsumerContact": "For assistance, consumers should reach out to Besrey at 888-310-6255 from 9 a.m. to 5 p.m. ET, Monday through Friday. They can also email support@besrey.com or stigerstg@outlook.com, or visit https://www.besrey.com/pages/product-recalls-safety-alerts for further details.",
+      "LastPublishDate": "2024-07-25T00:00:00",
+      "Products": [
+        {
+          "Name": "Besrey Twins Stroller",
+          "NumberOfUnits": "About 3,045"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/strollers/5-Besrey-Twins-Stroller/58c0060084402bedd641bf77e576dd99.webp",
+          "Caption": "Recalled Besrey Twins Stroller in Gray and Black, Side View with Canopies Down",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Besrey-stroller-1.png"
+        },
+        {
+          "URL": "/images/generalRecalls/strollers/5-Besrey-Twins-Stroller/6c6858d4c379c0b1155ca48243221629.webp",
+          "Caption": "Recalled Besrey Twins Stroller in Gray, Side View with Canopies Down",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Besrey-stroller-2.png"
+        },
+        {
+          "URL": "/images/generalRecalls/strollers/5-Besrey-Twins-Stroller/390ada5b04e303d2f657b614ba45327a.webp",
+          "Caption": "Recalled Besrey Twins Stroller in Gray and Black, Side View with Canopies Up",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Besrey-stroller-3.png"
+        },
+        {
+          "URL": "/images/generalRecalls/strollers/5-Besrey-Twins-Stroller/f939ac7ac8db24a35abaa466e57fd5c1.webp",
+          "Caption": "Recalled Besrey Twins Stroller in Gray and Black, Front View",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Besrey-stroller-4.png"
+        },
+        {
+          "URL": "/images/generalRecalls/strollers/5-Besrey-Twins-Stroller/09b36c485e8bc0a01747c3ae67aba855.webp",
+          "Caption": "Recalled Besrey Twins Stroller in Gray, Front View",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Besrey-stroller-5.png"
+        },
+        {
+          "URL": "/images/generalRecalls/strollers/5-Besrey-Twins-Stroller/b70daab6ac428a2fa95a101198527d2c.webp",
+          "Caption": "Recalled Besrey Twins Stroller, Label Location",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Besrey-stroller-6.png"
+        },
+        {
+          "URL": "/images/generalRecalls/strollers/5-Besrey-Twins-Stroller/e5ff6c91345c9695d045829461ac70ff.webp",
+          "Caption": "Recalled Besrey Twins Stroller, Label Location",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Besrey-stroller-7.png"
+        },
+        {
+          "URL": "/images/generalRecalls/strollers/5-Besrey-Twins-Stroller/271c8834ea7f60f30ba723ea35bbe4d8.webp",
+          "Caption": "Recalled Besrey Twins Stroller, Label With Date of Manufacture and Model Number",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Besrey-stroller-8.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Exclusively available online at Amazon.com from July 2018 through September 2023, priced around $200."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Stiger Inc., of Diamond Bar, California"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Entrapment, fall, and choking hazards due to safety regulation violations."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers are advised to stop using the stroller immediately and contact Stiger for disposal instructions to receive a full refund."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "Model BR-C708S"
+      ],
+      "slug": "stiger-issues-recall-for-besrey-twins-strollers-due-to-safety-hazards-including-entrapment-and-choking-risks-recall",
+      "metaDescription": "Stiger recalls Besrey Twins Strollers for safety hazards including entrapment and choking risks. Contact for refunds and disposal guidance."
+    },
+    {
+      "RecallID": 9792,
+      "RecallNumber": "24730",
+      "RecallDate": "2023-12-07T00:00:00",
+      "Description": "Bugaboo has issued a recall for the seat component of the Dragonfly Seat Strollers due to a potential injury hazard. The affected seats, measuring approximately 11.8 inches wide and 22.8 inches long, are available in black, gray, and forest green. Only seats with serial numbers starting with S46012302, S46012303, S46012307, S460123010, S460123013, S460123015, and S46012320 are included in this recall. The serial number can be found on labels located on the underside of the seat and the stroller chassis. Consumers can verify if their seat is affected by visiting https://service.bugaboo.com/s/dragonfly-seat-replacement.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/Bugaboo-Recalls-Dragonfly-Seat-Strollers-Due-to-Injury-Hazard-Recall-Alert",
+      "Title": "Bugaboo Dragonfly Seat Strollers Recalled Due to Injury Risk",
+      "ConsumerContact": "For assistance, contact Bugaboo at 800-460-2922 Monday to Thursday from 7 a.m. to 4 p.m. PT, and Friday from 7 a.m. to 1 p.m. PT. You can also reach them via email at service.us@bugaboo.com or visit www.bugaboo.com and click on 'Recalls' at the bottom or top of the page, or go to www.bugaboo.com/us-en/productrecalls for further details.",
+      "LastPublishDate": "2023-12-07T00:00:00",
+      "Products": [
+        {
+          "Name": "Bugaboo Dragonfly Seat Stroller",
+          "NumberOfUnits": "About 1,000 (In addition, about 200 were sold in Canada)"
+        }
+      ],
+      "Inconjunctions": [
+        {
+          "URL": "https://recalls-rappels.canada.ca/en/alert-recall/bugaboo-dragonfly-stroller-seat-recalled-due-injury-hazard"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/strollers/6-Bugaboo-Dragonfly-Seat-Stroller/f4d4c9a9c89bd9d8e3015536a885e79b.webp",
+          "Caption": "Recalled Dragonfly Seat Stroller",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/dragonfly-stroller.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "Bugaboo has received one report in the United States and seven reports in South Korea of the backrest of the seat moving downward during use when in parent-facing mode. No injuries have been reported in the U.S."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available at children's specialty stores nationwide and online at www.bugaboo.com from May 2023 through June 2023, priced around $900 for the seat strollers and approximately $1,100 for the bassinet strollers with seats."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Bugaboo North America Inc., of New York"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of injury due to unrestrained infants falling from the seat in parent-facing mode"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Stop using the recalled seats and contact Bugaboo for a free replacement"
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "S46012302xxxxxx",
+        "S46012303xxxxxx",
+        "S46012307xxxxxx",
+        "S460123010xxxxx",
+        "S460123013xxxxx",
+        "S460123015xxxxx",
+        "S46012320xxxxxx"
+      ],
+      "slug": "bugaboo-dragonfly-seat-strollers-recalled-due-to-injury-risk-recall",
+      "metaDescription": "Bugaboo recalls Dragonfly Seat Strollers due to a risk of injury. Check if your seat is affected and learn how to get a free replacement."
+    }
+  ]
+}

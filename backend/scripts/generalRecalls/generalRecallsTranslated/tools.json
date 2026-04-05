@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "slug": "tools",
+    "sourceCsvFile": "tools_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:37.086Z",
+    "recallCount": 1,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "tools.json",
+    "seoTranslatedAt": "2026-04-05T05:58:51.101Z",
+    "resumePartial": false
+  },
+  "recalls": [
+    {
+      "RecallID": 9790,
+      "RecallNumber": "24728",
+      "RecallDate": "2023-12-07T00:00:00",
+      "Description": "Ergodyne has announced a recall of the Squids 3705 Wire Tool Attachments, specifically the Screw Gate Tool Tail model. These attachments are designed to securely fasten tools, preventing them from falling while working at heights. The product features a 5 ¾-inch-long orange wire loop with a distinctive black and green tag that displays 'Ergodyne' and 'Model 3705'. The back of the tag is green. This recall is limited to model number 3705, which was sold in packs of six or included in kits numbered 3170, 3183, 3188, and 3189.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/Ergodyne-Recalls-Squids-Wire-Tool-Attachments-with-Screw-Gate-Tool-Tails-Due-to-Injury-Hazard-Recall-Alert",
+      "Title": "Ergodyne Issues Recall for Squids 3705 Wire Tool Attachments Due to Potential Injury Risk",
+      "ConsumerContact": "Consumers should cease using the recalled wire tool attachment immediately and reach out to Ergodyne at 800-522-0520 from 8 a.m. to 5 p.m. CT, Monday through Friday. Alternatively, they can email returns@ergodyne.com or visit https://www.ergodyne.com/product-recalls for further details.",
+      "LastPublishDate": "2023-12-07T00:00:00",
+      "Products": [
+        {
+          "Name": "Squids 3705 Wire Tool Attachments",
+          "NumberOfUnits": "About 16,570 (In addition, about 790 were sold in Canada)"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/tools/1-Squids-3705-Wire-Tool-Attachments/ed21a7b7d6890881e35e01cbd881c7e2.webp",
+          "Caption": "Recalled Ergodyne Squids 3705 with Model Number",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/squids.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available through industrial and safety product distributors nationwide and online at https://www.ergodyne.com/ as well as on platforms like Amazon.com from September 2018 to July 2023, priced around $20 for a pack of six or up to $400 as part of kits."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Tenacious Holdings Inc., dba Ergodyne, of St. Paul, Minnesota"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "Taiwan"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of injury from wire tool attachment breaking when tethered to a tool over two pounds."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers can obtain a prepaid shipping label to return the product and receive a $4 refund per wire tool (up to $24 for a six-pack) as credit towards another Ergodyne product."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "slug": "ergodyne-issues-recall-for-squids-3705-wire-tool-attachments-due-to-potential-injury-risk-recall",
+      "metaDescription": "Ergodyne recalls Squids 3705 Wire Tool Attachments due to injury risks. Stop using immediately and contact for refunds."
+    }
+  ]
+}

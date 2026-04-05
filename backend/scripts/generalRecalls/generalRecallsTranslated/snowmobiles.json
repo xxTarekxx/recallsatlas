@@ -1,0 +1,839 @@
+{
+  "meta": {
+    "slug": "snowmobiles",
+    "sourceCsvFile": "snowmobiles_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:37.063Z",
+    "recallCount": 9,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "snowmobiles.json",
+    "seoTranslatedAt": "2026-04-05T04:17:00.029Z",
+    "resumePartial": false
+  },
+  "recalls": [
+    {
+      "RecallID": 10206,
+      "RecallNumber": "25188",
+      "RecallDate": "2025-03-20T00:00:00",
+      "Description": "Bombardier Recreational Products (BRP) has issued a recall for specific 2025 Ski-Doo and Lynx snowmobiles that feature a 600R E-TEC, 850 E-TEC, or 850 E-TEC Turbo R engine. The affected models can be identified by the brand name 'Ski-Doo' and the engine type printed on their side panels. The vehicle identification number (VIN) is located on a decal on the right side of the tunnel beneath the seat, and dealers can verify which VINs are part of this recall. These snowmobiles were available in various color options.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/Bombardier-Recreational-Products-BRP-Recalls-Ski-Doo-and-Lynx-Snowmobiles-Due-to-Crash-Hazard",
+      "Title": "BRP Recalls 2025 Ski-Doo and Lynx Snowmobiles for Crash Risk",
+      "ConsumerContact": "For assistance, contact BRP at 888-272-9222 from 8 a.m. to 8 p.m. ET, seven days a week, or visit https://ski-doo.brp.com/ca/en/owner-zone/responsible-rider/safety/safety-recalls/potential-loose-part-in-throttle-body-area-risk-of-stuck-throttle.html or https://ski-doo.brp.com/us/en/ and select 'Safety Recalls' at the bottom of the homepage. For Lynx models, visit https://www.brplynx.com/ca/en/owner-zone/safety/safety-recalls/potential-loose-part-in-throttle-body-area-risk-of-stuck-throttle.html or https://www.brplynx.com/ca/en/owner-zone/safety/safety-recalls.html.",
+      "LastPublishDate": "2025-03-20T00:00:00",
+      "Products": [
+        {
+          "Name": "2025 Ski-Doo and Lynx Snowmobiles with 600R E-TEC, 850 E-TEC, or 850 E-TEC Turbo R Engines",
+          "NumberOfUnits": "About 4,144 (In addition, about 2,205 were sold in Canada)"
+        }
+      ],
+      "Inconjunctions": [
+        {
+          "URL": "https://wwwapps.tc.gc.ca/Saf-Sec-Sur/7/VRDB-BDRV/search-recherche/detail.aspx?rn=2025062"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/snowmobiles/1-2025-Ski-Doo-and-Lynx-Snowmobiles-with-600R-E-TEC-850-E-TEC-or-850-E-TEC-Turbo-R-Engines/0aa2e59265c30eaa88d2be2b9f180f31.webp",
+          "Caption": "The model name and engine type are printed on the side panels of the recalled vehicles",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Bombardier-snow-1.png"
+        },
+        {
+          "URL": "/images/generalRecalls/snowmobiles/1-2025-Ski-Doo-and-Lynx-Snowmobiles-with-600R-E-TEC-850-E-TEC-or-850-E-TEC-Turbo-R-Engines/22c46d2fda3a046a1108d6a44e25b9ab.webp",
+          "Caption": "Recalled MY2025 Ski-Doo Backcountry model equipped with a 600 E-TEC engine",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Bombardier-snow-2.png"
+        },
+        {
+          "URL": "/images/generalRecalls/snowmobiles/1-2025-Ski-Doo-and-Lynx-Snowmobiles-with-600R-E-TEC-850-E-TEC-or-850-E-TEC-Turbo-R-Engines/22c6e40eca822e27504a0ad708455976.webp",
+          "Caption": "Recalled MY2025 Ski-Doo Expedition model equipped with a 600 E-TEC engine",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Bombardier-snow-3.png"
+        },
+        {
+          "URL": "/images/generalRecalls/snowmobiles/1-2025-Ski-Doo-and-Lynx-Snowmobiles-with-600R-E-TEC-850-E-TEC-or-850-E-TEC-Turbo-R-Engines/8695bb3bc8a0d0fde24cd532f87f986c.webp",
+          "Caption": "Recalled MY2025 Ski-Doo MXZ model equipped with a 600 E-TEC engine",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Bombardier-snow-4.png"
+        },
+        {
+          "URL": "/images/generalRecalls/snowmobiles/1-2025-Ski-Doo-and-Lynx-Snowmobiles-with-600R-E-TEC-850-E-TEC-or-850-E-TEC-Turbo-R-Engines/f490ec8981e01916f429e7455bcd586d.webp",
+          "Caption": "Recalled MY2025 Ski-Doo Renegade model equipped with a 600 E-TEC engine",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Bombardier-snow-5.png"
+        },
+        {
+          "URL": "/images/generalRecalls/snowmobiles/1-2025-Ski-Doo-and-Lynx-Snowmobiles-with-600R-E-TEC-850-E-TEC-or-850-E-TEC-Turbo-R-Engines/f0eab48f3306ba9ddb663d295b7c9902.webp",
+          "Caption": "Recalled MY2025 Ski-Doo Skandic model equipped with a 600 E-TEC engine",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Bombardier-snow-6.png"
+        },
+        {
+          "URL": "/images/generalRecalls/snowmobiles/1-2025-Ski-Doo-and-Lynx-Snowmobiles-with-600R-E-TEC-850-E-TEC-or-850-E-TEC-Turbo-R-Engines/84f1c53bc2bc8901574314869ac8ba99.webp",
+          "Caption": "Recalled MY2025 Ski-Doo Summit model equipped with a 600 E-TEC engine",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Bombardier-snow-7.png"
+        },
+        {
+          "URL": "/images/generalRecalls/snowmobiles/1-2025-Ski-Doo-and-Lynx-Snowmobiles-with-600R-E-TEC-850-E-TEC-or-850-E-TEC-Turbo-R-Engines/58b52f5b8979bfa3cf8c08e88af5414a.webp",
+          "Caption": "Recalled MY2025 Ski-Doo Backcountry model equipped with a 850 E-TEC engine",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Bombardier-snow-8.png"
+        },
+        {
+          "URL": "/images/generalRecalls/snowmobiles/1-2025-Ski-Doo-and-Lynx-Snowmobiles-with-600R-E-TEC-850-E-TEC-or-850-E-TEC-Turbo-R-Engines/aa6a6ff248d074f3cf2d8062996bd39f.webp",
+          "Caption": "Recalled MY2025 Ski-Doo Expedition model equipped with a 850 E-TEC engine",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Bombardier-snow-9.png"
+        },
+        {
+          "URL": "/images/generalRecalls/snowmobiles/1-2025-Ski-Doo-and-Lynx-Snowmobiles-with-600R-E-TEC-850-E-TEC-or-850-E-TEC-Turbo-R-Engines/41412348022312db0c1b03cb56895884.webp",
+          "Caption": "Recalled MY2025 Ski-Doo Freeride model equipped with a 850 E-TEC engine",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Bombardier-snow-10.png"
+        },
+        {
+          "URL": "/images/generalRecalls/snowmobiles/1-2025-Ski-Doo-and-Lynx-Snowmobiles-with-600R-E-TEC-850-E-TEC-or-850-E-TEC-Turbo-R-Engines/204d9f75195acfb7f3aafd599a884163.webp",
+          "Caption": "Recalled MY2025 Ski-Doo MXZ model equipped with a 850 E-TEC engine",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Bombardier-snow-11.png"
+        },
+        {
+          "URL": "/images/generalRecalls/snowmobiles/1-2025-Ski-Doo-and-Lynx-Snowmobiles-with-600R-E-TEC-850-E-TEC-or-850-E-TEC-Turbo-R-Engines/66b1bf1a0ace2dcbaad2a7356a334c7d.webp",
+          "Caption": "Recalled MY2025 Ski-Doo Renegade model equipped with a 850 E-TEC engine",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Bombardier-snow-12.png"
+        },
+        {
+          "URL": "/images/generalRecalls/snowmobiles/1-2025-Ski-Doo-and-Lynx-Snowmobiles-with-600R-E-TEC-850-E-TEC-or-850-E-TEC-Turbo-R-Engines/d2f71501a62a524f6d7b53f40c774d28.webp",
+          "Caption": "Recalled MY2025 Ski-Doo Summit model equipped with a 600 E-TEC engine",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Bombardier-snow-13.png"
+        },
+        {
+          "URL": "/images/generalRecalls/snowmobiles/1-2025-Ski-Doo-and-Lynx-Snowmobiles-with-600R-E-TEC-850-E-TEC-or-850-E-TEC-Turbo-R-Engines/4081fe028cad7ae64738d97c1ffaab1d.webp",
+          "Caption": "Recalled MY2025 Ski-Doo Backcountry model equipped with a 850 E-TEC Turbo R engine",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Bombardier-snow-14.png"
+        },
+        {
+          "URL": "/images/generalRecalls/snowmobiles/1-2025-Ski-Doo-and-Lynx-Snowmobiles-with-600R-E-TEC-850-E-TEC-or-850-E-TEC-Turbo-R-Engines/b429012ee2195b2f420cd73ad816ce36.webp",
+          "Caption": "Recalled MY2025 Ski-Doo Freeride model equipped with a 850 E-TEC Turbo R engine",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Bombardier-snow-15.png"
+        },
+        {
+          "URL": "/images/generalRecalls/snowmobiles/1-2025-Ski-Doo-and-Lynx-Snowmobiles-with-600R-E-TEC-850-E-TEC-or-850-E-TEC-Turbo-R-Engines/2e5104ad6233aa80142adb9df2aa703b.webp",
+          "Caption": "Recalled MY2025 Ski-Doo MXZ model equipped with a 850 E-TEC Turbo R engine",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Bombardier-snow-16.png"
+        },
+        {
+          "URL": "/images/generalRecalls/snowmobiles/1-2025-Ski-Doo-and-Lynx-Snowmobiles-with-600R-E-TEC-850-E-TEC-or-850-E-TEC-Turbo-R-Engines/41f7d18342161bdd38d0fe331f95a717.webp",
+          "Caption": "Recalled MY2025 Ski-Doo Summit model equipped with a 850 E-TEC Turbo R engine",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Bombardier-snow-17.png"
+        },
+        {
+          "URL": "/images/generalRecalls/snowmobiles/1-2025-Ski-Doo-and-Lynx-Snowmobiles-with-600R-E-TEC-850-E-TEC-or-850-E-TEC-Turbo-R-Engines/2810e5854cbc8f96cda2f4eee5f66711.webp",
+          "Caption": "Recalled MY2025 Lynx Rave model equipped with a 600 E-TEC or 850 E-TEC engine",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Bombardier-snow-18.png"
+        },
+        {
+          "URL": "/images/generalRecalls/snowmobiles/1-2025-Ski-Doo-and-Lynx-Snowmobiles-with-600R-E-TEC-850-E-TEC-or-850-E-TEC-Turbo-R-Engines/d38e5338d63524f6ec8dc1263595ec52.webp",
+          "Caption": "Recalled MY2025 Lynx Shredder model equipped with a 850 E-TEC or 850 E-TEC Turbo R engine",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Bombardier-snow-19.png"
+        },
+        {
+          "URL": "/images/generalRecalls/snowmobiles/1-2025-Ski-Doo-and-Lynx-Snowmobiles-with-600R-E-TEC-850-E-TEC-or-850-E-TEC-Turbo-R-Engines/f1f9672215a4865670e6cf4048127fa9.webp",
+          "Caption": "Recalled MY2025 Lynx Xterrain model equipped with a 850 E-TEC engine",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Bombardier-snow-20.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received four reports of a stuck throttle. No injuries have been reported."
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "Bombardier Recreational Products Inc., of Canada"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Authorized BRP Ski-Doo/Lynx dealers across the country, available from February 2024 to November 2024, priced between $10,000 and $20,000."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "BRP US Inc. (Bombardier Recreational Products), of Sturtevant, Wisconsin"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "Canada"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Potential for a stuck throttle due to a loose part in the engine compartment, posing a crash risk and serious injury or death."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers are advised to cease use of the recalled snowmobiles and contact a BRP dealer for a complimentary inspection. Dealers will check the ECM and throttle body area for any broken parts. If identified, the detached part will be removed and the ECM replaced at no cost. BRP is reaching out to all known customers."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ],
+      "slug": "brp-recalls-2025-ski-doo-and-lynx-snowmobiles-for-crash-risk-recall",
+      "metaDescription": "BRP recalls select 2025 Ski-Doo and Lynx snowmobiles due to a crash hazard. Immediate action required for safety."
+    },
+    {
+      "RecallID": 10015,
+      "RecallNumber": "24317",
+      "RecallDate": "2024-07-25T00:00:00",
+      "Description": "Textron Specialized Vehicles is recalling the 2024 Arctic Cat Mountain 600 Snowmobiles, available in various colors. The model is identifiable by an 'M' symbol resembling a mountain, located on the side panels. The 10th character of the Vehicle Identification Number (VIN) is 'R', which can be found stamped on the tunnel or on the decal at the rear of the tunnel.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/Textron-Specialized-Vehicles-Recalls-2024-Arctic-Cat-Mountain-600-Snowmobiles-Due-to-Crash-Hazard",
+      "Title": "Textron Specialized Vehicles Issues Recall for 2024 Arctic Cat Mountain 600 Snowmobiles Due to Potential Crash Risk",
+      "ConsumerContact": "For assistance, contact Textron Specialized Vehicles at 800-279-2281, available Monday through Friday from 8 a.m. to 5 p.m. CT. You can also reach out via email at arcticcatwarranty@textron.com or visit https://arcticcat.txtsv.com/owners/recalls for further details.",
+      "LastPublishDate": "2024-07-25T00:00:00",
+      "Products": [
+        {
+          "Name": "2024 Arctic Cat Mountain 600 Snowmobiles",
+          "NumberOfUnits": "About 600"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/snowmobiles/2-2024-Arctic-Cat-Mountain-600-Snowmobiles/df6c6254554e01c282609624c35834e9.webp",
+          "Caption": "Recalled Artic Cat Mountain 600 Snowmobile (black)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/arctic-cat-600-black.png"
+        },
+        {
+          "URL": "/images/generalRecalls/snowmobiles/2-2024-Arctic-Cat-Mountain-600-Snowmobiles/5e66c73c627d070267afc64b328c8f48.webp",
+          "Caption": "Recalled Artic Cat Mountain 600 Snowmobile (white)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/arctic-cat-600-white.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received six reports of cross pins that have become loose or have fallen out. No injuries have been reported."
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "Textron Specialized Vehicles, of Augusta, Georgia"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available at Arctic Cat dealers across the country from September 2023 to June 2024, priced between $14,500 and $16,100."
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "United States"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Improperly swagged pin on the steering knuckle u-joint, which may lead to loss of steering control and increase the risk of a crash."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers are advised to stop using the 2024 Arctic Cat Mountain 600 Snowmobile immediately and contact an authorized Arctic Cat dealer for a complimentary inspection and repair of the steering column u-joint. If the pin is correctly swagged, no repair is necessary. Otherwise, the entire steering post assembly will be replaced."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ],
+      "slug": "textron-specialized-vehicles-issues-recall-for-2024-arctic-cat-mountain-600-snowmobiles-due-to-potential-crash-risk-recall",
+      "metaDescription": "Textron recalls 2024 Arctic Cat Mountain 600 Snowmobiles due to a steering control hazard. Immediate action recommended for consumers."
+    },
+    {
+      "RecallID": 9948,
+      "RecallNumber": "24228",
+      "RecallDate": "2024-05-09T00:00:00",
+      "Description": "Textron Specialized Vehicles is recalling Arctic Cat 2024 Catalyst 600 snowmobiles, including the ZR, Riot, and Mountain models, available in various colors. The model names are displayed on the side panels, and the 10th character of the VIN will be an 'R', which can be found on the tunnel section or the decal at the top/rear of the tunnel.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/Textron-Specialized-Vehicles-Recalls-Arctic-Cat-Model-Year-2024-Catalyst-Snowmobiles-Due-to-Crash-Hazard",
+      "Title": "Recall of Arctic Cat 2024 Catalyst Snowmobiles Due to Potential Crash Risk",
+      "ConsumerContact": "For assistance, contact Textron Specialized Vehicles at 800-279-2281 from 8 a.m. to 5 p.m. CT, Monday to Friday, or email arcticcatwarranty@textron.com. More details can be found online at https://arcticcat.txtsv.com/owners/recalls or https://arcticcat.txtsv.com/ and select 'Recall'.",
+      "LastPublishDate": "2024-05-09T00:00:00",
+      "Products": [
+        {
+          "Name": "Arctic Cat 2024 Catalyst 600 Snowmobiles",
+          "NumberOfUnits": "About 2,670 (In addition, about 891 were sold in Canada)"
+        }
+      ],
+      "Inconjunctions": [
+        {
+          "URL": "https://wwwapps.tc.gc.ca/Saf-Sec-Sur/7/VRDB-BDRV/search-recherche/detail.aspx?rn=2024136"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/snowmobiles/3-Arctic-Cat-2024-Catalyst-600-Snowmobiles/7a858db0eed4ba84757a3becad002fcf.webp",
+          "Caption": "Recalled Arctic Cat MY24 Catalyst 600 snowmobile",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/MY24-Catalyst-600.jpg"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received 95 reports of incidents from dealers during initial snowmobile setups of steering caps cracking while being torqued. No injuries have been reported."
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "Textron Specialized Vehicles, of Augusta, Georgia"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available at Arctic Cat dealers across the country from September 2023 to April 2024, priced between $13,800 and $16,100."
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "United States"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Cracked steering caps can lead to unstable handlebars, increasing the risk of a crash."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers must cease using the recalled snowmobiles and contact an authorized Arctic Cat dealer for a complimentary repair of the steering caps."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ],
+      "slug": "recall-of-arctic-cat-2024-catalyst-snowmobiles-due-to-potential-crash-risk-recall",
+      "metaDescription": "Textron recalls Arctic Cat 2024 Catalyst snowmobiles due to potential crash hazards. Immediate action required for safety."
+    },
+    {
+      "RecallID": 9944,
+      "RecallNumber": "24223",
+      "RecallDate": "2024-05-02T00:00:00",
+      "Description": "Arctic Cat is recalling all 2017-2021 model year 8000 and 9000 series snowmobiles, as well as select 2022 model year 8000 series snowmobiles with specific VINs ranging from NT808000 to NT808150 and NT100101 to NT101060. These snowmobiles come in various color combinations and feature the \"Arctic Cat\" branding on the sides and rear snow-flap area.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/Arctic-Cat-Recalls-Snowmobiles-Due-to-Laceration-Hazard",
+      "Title": "Recall of Arctic Cat Snowmobiles Due to Laceration Risk",
+      "ConsumerContact": "For assistance, contact Arctic Cat at 800-279-2281 from 8 a.m. to 5 p.m. CT, Monday through Friday, via email at arcticcatwarranty@textron.com, or visit https://arcticcat.txtsv.com/owners/recalls. Consumers should verify if their snowmobile is affected by checking the VIN located on the right side of the snowmobile tunnel near the right footrest.",
+      "LastPublishDate": "2024-05-02T00:00:00",
+      "Products": [
+        {
+          "Name": "Arctic Cat 8000 Series Snowmobiles",
+          "NumberOfUnits": "About 16,200"
+        }
+      ],
+      "Inconjunctions": [
+        {
+          "URL": "https://recalls-rappels.canada.ca/en/alert-recall/transport-canada-recall-2023663-textron"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/snowmobiles/4-Arctic-Cat-8000-Series-Snowmobiles/42f075c778abbcd1bc369ce48530a59f.webp",
+          "Caption": "Recalled Trail Models: ZR LXR, ZR Sno Pro, ZR LTD, ZR RR, ZR El Tigre, Thundercat",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/trail-models.png"
+        },
+        {
+          "URL": "/images/generalRecalls/snowmobiles/4-Arctic-Cat-8000-Series-Snowmobiles/1c84efa3c86fccd0642d4cc203592a6d.webp",
+          "Caption": "Recalled Crossover Models: XF Cross Country, XF Crosstrek, XF Crosstour, RIOT",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/crossover-models.png"
+        },
+        {
+          "URL": "/images/generalRecalls/snowmobiles/4-Arctic-Cat-8000-Series-Snowmobiles/6a5a430e5c629a9f83889215894ce53a.webp",
+          "Caption": "Recalled Mountain Models: M King Cat, M SE, M Sno Pro, M Alpha, M Mountain Cat, M Hardcore, XF High Country, XF High Country LTD, and Riot X",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/mountain-models.png"
+        },
+        {
+          "URL": "/images/generalRecalls/snowmobiles/4-Arctic-Cat-8000-Series-Snowmobiles/2474c4457a9bf4ebaeccf847b34e2624.webp",
+          "Caption": "Recalled Sport Utility Models: Norseman, and Norseman X",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/sport-utility-models.png"
+        },
+        {
+          "URL": "/images/generalRecalls/snowmobiles/4-Arctic-Cat-8000-Series-Snowmobiles/6ddc02258229d4bc6a319dc319e3b0ac.webp",
+          "Caption": "VIN Location: The Vehicle Identification Number (VIN) is stamped into the tunnel near the right-side footrest and on a decal beneath the seat",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/snowmobile-vin.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "Arctic Cat has received more than 200 reports of clutch failures, including six where clutch fragments hit consumers. Four of those included reports of minor foot and toe injuries."
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "Arctic Cat, of Thief River Falls, Minnesota"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available at Arctic Cat dealerships across the country from September 2016 to January 2024, priced between $8,000 and $22,000."
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "United States"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of laceration due to potential drive clutch failure"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Free installation of an additional clutch guard and inspection; replacement of cracked primary clutches at no cost"
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ],
+      "slug": "recall-of-arctic-cat-snowmobiles-due-to-laceration-risk-recall",
+      "metaDescription": "Arctic Cat recalls select snowmobiles due to a laceration hazard. Check your VIN for eligibility and contact Arctic Cat for a free remedy."
+    },
+    {
+      "RecallID": 9939,
+      "RecallNumber": "24218",
+      "RecallDate": "2024-05-02T00:00:00",
+      "Description": "Polaris is recalling specific VINs of the 2024 Prostar S4 Titan Adventure 155 ES Snowmobiles due to a potential fire hazard. These snowmobiles are available in black and various custom color combinations, with \"POLARIS\" marked on the front side panel. You can find the VIN and model number on the right side of the vehicle's frame.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/Polaris-Recalls-Prostar-S4-Titan-Adventure-Snowmobiles-Due-to-Fire-Hazard",
+      "Title": "Polaris Recalls 2024 Prostar S4 Titan Adventure Snowmobiles Due to Fire Risk",
+      "ConsumerContact": "For assistance, contact Polaris Industries at 800-765-2747 from 7 a.m. to 7 p.m. CT, Monday through Friday. Visit www.polaris.com and navigate to the \"Product Safety News\" section under the \"Safety\" column, or go to https://www.polaris.com/en-us/off-road-recalls/ to verify if your VIN is affected. You can also reach out to Polaris' owner connections team at Owner.Connections@polaris.com or through their online help center at https://www.polaris.com/en-us/off-road/owner-resources/help-center/email.",
+      "LastPublishDate": "2024-05-02T00:00:00",
+      "Products": [
+        {
+          "Name": "2024 Prostar S4 Titan Adventure 155 ES Snowmobiles",
+          "NumberOfUnits": "About 240 (In addition, about 290 were sold in Canada)"
+        }
+      ],
+      "Inconjunctions": [
+        {
+          "URL": "https://wwwapps.tc.gc.ca/Saf-Sec-Sur/7/VRDB-BDRV/search-recherche/detail.aspx?rn=2024182"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/snowmobiles/5-2024-Prostar-S4-Titan-Adventure-155-ES-Snowmobiles/f24c9080096290ad0e5b5265a8b68322.webp",
+          "Caption": "Recalled Polaris Model Year 2024 Prostar S4 Titan Adventure 155 ES Snowmobile",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/polaris-prostar.png"
+        },
+        {
+          "URL": "/images/generalRecalls/snowmobiles/5-2024-Prostar-S4-Titan-Adventure-155-ES-Snowmobiles/7b92bf3c6720e6d7d69a3a4332320f4d.webp",
+          "Caption": "Recalled Polaris Snowmobile VIN/Model Number Location",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/polaris-prostar-vin-model.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received three reports of fuel leaking from the recalled snowmobiles. No injuries have been reported."
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "Polaris Industries Inc., of Medina, Minnesota"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available at Polaris dealers nationwide from August 2023 through March 2024, priced around $16,100."
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "United States"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Fuel leakage at the pump flange assembly creating a fire hazard."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Stop using the snowmobiles immediately and contact an authorized Polaris dealer for a free repair to replace the pump flange assembly gasket. Polaris has issued a Stop Ride notice and is reaching out to registered owners regarding the remedy."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ],
+      "slug": "polaris-recalls-2024-prostar-s4-titan-adventure-snowmobiles-due-to-fire-risk-recall",
+      "metaDescription": "Polaris recalls 2024 Prostar S4 Titan Adventure Snowmobiles due to fire risk. Immediate action required for owner safety."
+    },
+    {
+      "RecallID": 9905,
+      "RecallNumber": "24741",
+      "RecallDate": "2024-03-28T00:00:00",
+      "Description": "Polaris has issued a recall for its 2022-2023 snowmobiles that feature PATRIOT BOOST engines, including models such as Pro RMK Slash, RMK Khaos Slash, INDY VR1, and Switchback Assault. These snowmobiles, available in black and various custom colors, have 'POLARIS' marked on the front side panel. The vehicle identification number (VIN) and model number can be found on the right side of the frame.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/Polaris-Recalls-Snowmobiles-Equipped-with-PATRIOT-BOOST-Engines-Due-to-Fire-Hazard-Recall-Alert",
+      "Title": "Polaris Recalls 2022-2023 Snowmobiles with PATRIOT BOOST Engines Due to Fire Risk",
+      "ConsumerContact": "For assistance, consumers should reach out to Polaris Industries at 800-765-2747 from 7 a.m. to 7 p.m. CT, Monday through Friday. They can also visit www.polaris.com and navigate to 'Product Safety News' under the 'Safety' section or check their VIN at https://www.polaris.com/en-us/off-road-recalls/. Additionally, Polaris' owner connections team can be contacted at Owner.Connections@polaris.com or through their online help center at https://www.polaris.com/en-us/off-road/owner-resources/help-center/email.",
+      "LastPublishDate": "2024-03-28T00:00:00",
+      "Products": [
+        {
+          "Name": "2022-2023 Snowmobiles with PATRIOT BOOST Engines",
+          "NumberOfUnits": "About 7,000 (In addition, about 3,100 were sold in Canada) (Polaris MATRYX snowmobiles have been previously recalled in February 2022, August 2022, November 2022, May 2023, and August 2023)"
+        }
+      ],
+      "Inconjunctions": [
+        {
+          "URL": "https://wwwapps.tc.gc.ca/Saf-Sec-Sur/7/VRDB-BDRV/search-recherche/detail.aspx?rn=2023460"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/snowmobiles/6-2022-2023-Snowmobiles-with-PATRIOT-BOOST-Engines/fd53d14e14c1bac6e53ae78ac0fe4ee0.webp",
+          "Caption": "Recalled Polaris Model Year 2022 Patriot BOOST Pro RMK Slash Snowmobile",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Polaris-Pro-RMK-Slash.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/snowmobiles/6-2022-2023-Snowmobiles-with-PATRIOT-BOOST-Engines/1b8734a8f96861dcc15e577ef7f29f5f.webp",
+          "Caption": "Recalled Polaris Model Year 2022 Patriot BOOST RMK KHAOS Slash Snowmobile",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Polaris-RMK-KHAOS-Slash.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/snowmobiles/6-2022-2023-Snowmobiles-with-PATRIOT-BOOST-Engines/a5b6c83628d6d05b6b123ca6613b39fc.webp",
+          "Caption": "Recalled Polaris Model Year 2023 Patriot BOOST Pro RMK Slash Snowmobile",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Polaris-Pro-RMK.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/snowmobiles/6-2022-2023-Snowmobiles-with-PATRIOT-BOOST-Engines/5bfaf7a57608aa01028a49e8dbdd21c7.webp",
+          "Caption": "Recalled Polaris Model Year 2023 Patriot BOOST RMK KHAOS Slash Snowmobile",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Polaris-RMK-KHAOS_0.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/snowmobiles/6-2022-2023-Snowmobiles-with-PATRIOT-BOOST-Engines/91ac7b5ec3157725c612614b966560eb.webp",
+          "Caption": "Recalled Polaris Model Year 2023 Patriot BOOST INDY VR1 Snowmobile",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Polaris-INDY-VR1.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/snowmobiles/6-2022-2023-Snowmobiles-with-PATRIOT-BOOST-Engines/bc0f7b56e4de3d6ef4bb90108dcf69f8.webp",
+          "Caption": "Recalled Polaris Model Year 2023 Patriot BOOST Switchback Assault Snowmobile",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Polaris-switchbackassault.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/snowmobiles/6-2022-2023-Snowmobiles-with-PATRIOT-BOOST-Engines/d3a1ddbceede5e9ad4ffd0fc0d49c23c.webp",
+          "Caption": "Recalled Polaris Snowmobile VIN/Model Number Location",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Polaris-VIN.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received 17 reports of fuel leaks. No injuries have been reported."
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "Polaris Industries Inc., of Medina, Minnesota"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Polaris dealers across the country from October 2021 to August 2023, priced between $19,300 and $22,000."
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "United States"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Fuel line leakage posing a fire risk"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers must cease using the recalled snowmobiles and contact Polaris or an authorized dealer for a complimentary repair to replace the fuel line. Polaris has informed consumers to stop riding and is in the process of notifying dealers and registered owners."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ],
+      "slug": "polaris-recalls-2022-2023-snowmobiles-with-patriot-boost-engines-due-to-fire-risk-recall",
+      "metaDescription": "Polaris recalls 2022-2023 snowmobiles with PATRIOT BOOST engines due to fire hazards. Learn how to get a free repair."
+    },
+    {
+      "RecallID": 9889,
+      "RecallNumber": "24154",
+      "RecallDate": "2024-03-07T00:00:00",
+      "Description": "Textron Specialized Vehicles has announced a recall for all 2024 Arctic Cat Catalyst 600 series snowmobiles. These models feature the names \"ZR,\" \"Riot,\" or \"Mountain\" displayed on the engine cowling and were available in various colors. The recall is prompted by a safety concern regarding the brake line's interaction with the brake disc, which could lead to brake failure and pose a risk of injury to riders.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/Textron-Specialized-Vehicles-Recalls-Arctic-Cat-Catalyst-600-Snowmobiles-Due-to-Injury-Hazard",
+      "Title": "Textron Specialized Vehicles Issues Recall for 2024 Arctic Cat Catalyst 600 Snowmobiles Due to Potential Injury Risk",
+      "ConsumerContact": "For assistance, consumers can reach Textron Specialized Vehicles at 800-279-2281, Monday through Friday, from 8 a.m. to 5 p.m. CT. They can also email arcticcatwarranty@textron.com or visit https://arcticcat.txtsv.com/owners/recalls for further details.",
+      "LastPublishDate": "2024-03-07T00:00:00",
+      "Products": [
+        {
+          "Name": "2024 Arctic Cat Catalyst 600 Series Snowmobiles",
+          "NumberOfUnits": "About 2,700 (In addition, about 900 were sold in Canada)"
+        }
+      ],
+      "Inconjunctions": [
+        {
+          "URL": "https://wwwapps.tc.gc.ca/Saf-Sec-Sur/7/VRDB-BDRV/search-recherche/detail.aspx?rn=2024010"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/snowmobiles/7-2024-Arctic-Cat-Catalyst-600-Series-Snowmobiles/672ca254e4d446a3cad9c1484d8c7a19.webp",
+          "Caption": "Recalled Textron Specialized Vehicles Artic Cat Catalyst 600 Series Snowmobile",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/catcatalyst-600.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received three reports of brake line damage. No injuries have been reported."
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "Textron Specialized Vehicles, of Augusta, Georgia"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Authorized Arctic Cat dealers across the nation from November 2022 to January 2024, priced between $13,800 and $16,100."
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "United States"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Potential brake loss due to brake line contact with brake disc"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should cease using the recalled snowmobiles and contact Textron Specialized for a complimentary inspection and repair service at a dealer, or to obtain a free repair kit. The kit includes a cable tie, installation instructions, and a turn card for self-repair. Textron Specialized Vehicles will also reach out directly to all purchasers."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ],
+      "slug": "textron-specialized-vehicles-issues-recall-for-2024-arctic-cat-catalyst-600-snowmobiles-due-to-potential-injury-risk-recall",
+      "metaDescription": "Textron recalls 2024 Arctic Cat Catalyst 600 snowmobiles due to a brake hazard. Contact Textron for inspections and repairs."
+    },
+    {
+      "RecallID": 9876,
+      "RecallNumber": "24140",
+      "RecallDate": "2024-02-29T00:00:00",
+      "Description": "Bombardier Recreational Products (BRP) has issued a recall for all 2024 Ski-Doo MXZ and Renegade snowmobiles that come with Pilot X skis. These snowmobiles were available in various colors, with the Ski-Doo branding and model name displayed on the side panels. The Pilot X designation can be found engraved on the upper side of the ski. To determine if your vehicle is affected, locate the vehicle identification number (VIN) on the decal situated on the right side of the tunnel beneath the seat; dealers can assist in verifying VINs included in this recall.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/Bombardier-Recreational-Products-BRP-Recalls-Ski-Doo-Snowmobiles-Due-to-Risk-of-Serious-Injury-and-Crash-Hazard",
+      "Title": "BRP Recalls 2024 Ski-Doo MXZ and Renegade Snowmobiles Due to Serious Injury Risk",
+      "ConsumerContact": "For assistance, contact BRP at 888-272-9222 from 8 a.m. to 8 p.m. ET, Monday through Sunday, or visit https://ski-doo.brp.com/us/en/owner-zone/responsible-rider/safety/safety-recalls/left-pilot-x-ski-may-break-loss-of-control.html, www.ski-doo.com/us/en/owner-zone/maintenance/safety-recalls, or https://ski-doo.brp.com/us/en/ and click on 'Safety Recall' at the bottom of the page.",
+      "LastPublishDate": "2024-02-29T00:00:00",
+      "Products": [
+        {
+          "Name": "2024 Ski-Doo MXZ Snowmobiles with Pilot X Skis",
+          "NumberOfUnits": "About 8,100 (In addition, about 5,600 were sold in Canada)"
+        }
+      ],
+      "Inconjunctions": [
+        {
+          "URL": "https://wwwapps.tc.gc.ca/Saf-Sec-Sur/7/VRDB-BDRV/search-recherche/detail.aspx?rn=2024045"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/snowmobiles/8-2024-Ski-Doo-MXZ-Snowmobiles-with-Pilot-X-Skis/1c137b0f8746f65f70e4e9cbf2b765a0.webp",
+          "Caption": "Recalled MY 2024 Ski-Doo MXZ Snowmobile",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/ski-doo-mxz.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/snowmobiles/8-2024-Ski-Doo-MXZ-Snowmobiles-with-Pilot-X-Skis/24342d39b7e1cfe70c3e436ee3a0d13c.webp",
+          "Caption": "Recalled MY 2024 Ski-Doo Renegade Snowmobile",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/ski-doo-snowmobile.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/snowmobiles/8-2024-Ski-Doo-MXZ-Snowmobiles-with-Pilot-X-Skis/14da412e731d026b20dca41226bcccf2.webp",
+          "Caption": "Pilot X is engraved at the back of the snowmobile’s ski",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/plot-x-skidoo.JPG"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received 27 reports in the United States of the snowmobile's left ski breaking. There are no reports of injuries in the United States. The firm is aware of one incident in Canada resulting in an injury."
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "Bombardier Recreational Products Inc., of Canada"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Authorized Ski-Doo dealers across the country from June 2023 to January 2024, priced between $10,000 and $18,000."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "BRP US Inc., of Sturtevant, Wisconsin"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "Canada"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of serious injury due to potential left ski breakage"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Stop using the snowmobiles immediately and contact BRP for a complimentary inspection and repair, which includes replacing the left ski at no charge."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ],
+      "slug": "brp-recalls-2024-ski-doo-mxz-and-renegade-snowmobiles-due-to-serious-injury-risk-recall",
+      "metaDescription": "BRP recalls 2024 Ski-Doo MXZ and Renegade snowmobiles due to serious injury risks from Pilot X skis. Immediate action required."
+    },
+    {
+      "RecallID": 9868,
+      "RecallNumber": "24740",
+      "RecallDate": "2024-02-22T00:00:00",
+      "Description": "Polaris is recalling specific MATRYX snowmobiles from the 2022-2024 model years that are equipped with PATRIOT 650 and 850 engines. The affected models include the MATRYX Voyageur, Indy, Switchback, RMK, and SKS, which were available in black and various custom colors. Additionally, primary clutches sold as service parts with part numbers 1323613 (e-start) and 1323614 (manual start) are included in this recall. The vehicle identification number (VIN) and model number can be found on the right side of the vehicle's frame.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/Polaris-Recalls-MATRYX-Snowmobiles-Equipped-with-PATRIOT-650-and-850-Engines-Due-to-Injury-Hazard-Recall-Alert",
+      "Title": "Polaris Issues Recall for MATRYX Snowmobiles with PATRIOT 650 and 850 Engines Due to Injury Risk",
+      "ConsumerContact": "For assistance, consumers can reach out to Polaris Industries at 800-765-2747 from 7 a.m. to 7 p.m. CT, Monday through Friday. More information is available online at www.polaris.com under \"Product Safety News\" in the \"Safety\" section, or visit www.polaris.com/en-us/off-road-recalls/ to check if your VIN is affected. Consumers may also contact Polaris' owner connections team at Owner.Connections@polaris.com or through an online forum at www.polaris.com/en-us/off-road/owner-resources/help-center/email.",
+      "LastPublishDate": "2024-02-22T00:00:00",
+      "Products": [
+        {
+          "Name": "MATRYX Voyageur 650 (2022)",
+          "NumberOfUnits": "About 9,200 (In addition, about 3,800 were sold in Canada) (Polaris MATRYX snowmobiles have been previously recalled in May 2023, August 2023, and November 2023)"
+        }
+      ],
+      "Inconjunctions": [
+        {
+          "URL": "https://wwwapps.tc.gc.ca/Saf-Sec-Sur/7/VRDB-BDRV/search-recherche/detail.aspx?rn=2024024"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/snowmobiles/9-MATRYX-Voyageur-650-2022/2f576acb091cc3a8037649fe6cfe4df3.webp",
+          "Caption": "Recalled Polaris Model Year 2023 650 MATRYX SKS 146 Snowmobile",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/sks146.png"
+        },
+        {
+          "URL": "/images/generalRecalls/snowmobiles/9-MATRYX-Voyageur-650-2022/7b87b0d3110c6dd78b8407ceda03b530.webp",
+          "Caption": "Recalled Polaris Model Year 2023 650 MATRYX VOYAGEUR 146 Snowmobile",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/voyage146.png"
+        },
+        {
+          "URL": "/images/generalRecalls/snowmobiles/9-MATRYX-Voyageur-650-2022/33909dd38ae48802e5cc6979a317ed8b.webp",
+          "Caption": "Recalled Polaris Model Year 2023 650/850 MATRYX SWITCHBACK Snowmobile",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/switch850.png"
+        },
+        {
+          "URL": "/images/generalRecalls/snowmobiles/9-MATRYX-Voyageur-650-2022/06d2bc1b0ca42844975a4a2ffeed29f6.webp",
+          "Caption": "Recalled Polaris Model Year 2023 650/850 MATRYX INDY Snowmobile",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/matrindy23.png"
+        },
+        {
+          "URL": "/images/generalRecalls/snowmobiles/9-MATRYX-Voyageur-650-2022/90a7e256ccf88fc733531f17048e08bb.webp",
+          "Caption": "Recalled Polaris Model Year 2022 650/850 MATRYX RMK Snowmobile",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/rmk.png"
+        },
+        {
+          "URL": "/images/generalRecalls/snowmobiles/9-MATRYX-Voyageur-650-2022/67efe2e1a11d31e73cd64828d9dc4210.webp",
+          "Caption": "Recalled Polaris Model Year 2022 650/850 MATRYX SWITCHBACK Snowmobile",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/matryxswtchback.png"
+        },
+        {
+          "URL": "/images/generalRecalls/snowmobiles/9-MATRYX-Voyageur-650-2022/2103226672cc6fdea827892b196e3817.webp",
+          "Caption": "Recalled Polaris Model Year 2022 650 MATRYX VOYAGEUR 146 Snowmobile",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/voy146.png"
+        },
+        {
+          "URL": "/images/generalRecalls/snowmobiles/9-MATRYX-Voyageur-650-2022/57b1bdc764094cad4e1358f2467f71c9.webp",
+          "Caption": "Recalled Polaris Model Year 2022 650/850 MATRYX INDY Snowmobile",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/matryxindy.png"
+        },
+        {
+          "URL": "/images/generalRecalls/snowmobiles/9-MATRYX-Voyageur-650-2022/af9341cf0e80c97642ffac3bafc4243b.webp",
+          "Caption": "Recalled Service Part 1323614 (Manual Start)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/part2.png"
+        },
+        {
+          "URL": "/images/generalRecalls/snowmobiles/9-MATRYX-Voyageur-650-2022/8d173c8d3f6c13499393a42b9138b370.webp",
+          "Caption": "Recalled Service Part 1323613 (Electric Start)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/part1.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/snowmobiles/9-MATRYX-Voyageur-650-2022/d3a1ddbceede5e9ad4ffd0fc0d49c23c.webp",
+          "Caption": "Recalled Polaris Snowmobile VIN/Model Number Location",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/vin.png"
+        },
+        {
+          "URL": "/images/generalRecalls/snowmobiles/9-MATRYX-Voyageur-650-2022/fe9414b3c88d8dba1dbc68c781104f6d.webp",
+          "Caption": "Recalled Polaris Model Year 2024 850 MATRYX RMK Snowmobile",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/24rmk.png"
+        },
+        {
+          "URL": "/images/generalRecalls/snowmobiles/9-MATRYX-Voyageur-650-2022/c39e39d8b6d55393fa37277ee7756ce9.webp",
+          "Caption": "Recalled Polaris Model Year 2023 650/850 MATRYX RMK Snowmobile",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/rmk650850.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "Polaris has received 109 reports of clutch failure, including nine reports where the clutch components separated from the unit and one incident that resulted in a laceration injury."
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "Polaris Industries Inc., of Medina, Minnesota"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available at Polaris dealers across the country from October 2021 to June 2023, priced between $13,000 and $17,600."
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "United States"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of injury due to potential failure of the primary (drive) clutch, which may detach from the vehicle."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers are advised to cease using the recalled snowmobiles immediately and contact Polaris or an authorized dealer for a complimentary repair to replace the primary (drive) clutch. Polaris has informed consumers to stop riding the vehicles and is actively notifying dealers and registered owners."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ],
+      "slug": "polaris-issues-recall-for-matryx-snowmobiles-with-patriot-650-and-850-engines-due-to-injury-risk-recall",
+      "metaDescription": "Polaris recalls MATRYX snowmobiles with PATRIOT engines due to injury risks. Contact Polaris for repairs and safety information."
+    }
+  ]
+}

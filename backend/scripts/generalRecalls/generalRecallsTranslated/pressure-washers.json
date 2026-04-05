@@ -1,0 +1,269 @@
+{
+  "meta": {
+    "slug": "pressure-washers",
+    "sourceCsvFile": "pressure-washers_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:37.044Z",
+    "recallCount": 3,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "pressure-washers.json",
+    "seoTranslatedAt": "2026-04-05T03:11:30.195Z",
+    "resumePartial": false
+  },
+  "recalls": [
+    {
+      "RecallID": 10583,
+      "RecallNumber": "26224",
+      "RecallDate": "2026-01-29T00:00:00",
+      "Description": "Northern Tool + Equipment has issued a recall for three models of NorthStar pressure washers due to a potential fire hazard. The affected models include the NorthStar Gas Wet Steam and Hot Water Pressure Washer (item number 157310), NorthStar Gas Hot Water Commercial Pressure Washer (item number 157594), and NorthStar Trailer-Mounted Hot Water Commercial Pressure Washer (item number 157595). Only units with specific serial and burner date codes are included in this recall. The relevant codes can be found on labels located on the engine and other parts of the washers.\n\nConsumers are advised to check their pressure washers for a MONTHYEAR code between 0125 (January 2025) and 0825 (August 2025) and a WEEKYEAR burner date code between 0125 and 2625. If your unit falls within these parameters, it is crucial to stop using it immediately and seek repair to prevent any fire incidents.",
+      "URL": "https://www.cpsc.gov/Recalls/2026/Northern-Tool-Equipment-Recalls-Hot-Water-Pressure-Washers-Due-to-Fire-Hazard",
+      "Title": "Northern Tool + Equipment Recalls NorthStar Hot Water Pressure Washers Due to Fire Risk",
+      "ConsumerContact": "For more information, contact Northern Tool + Equipment at 888-518-0342 from 8 a.m. to 5 p.m. CT, Monday through Friday, via email at inquiry@northerntool.com, or visit www.northerntool.com/recall-details-pw. You can also find details under 'Product Recalls' on their website.",
+      "LastPublishDate": "2026-01-29T00:00:00",
+      "Products": [
+        {
+          "Name": "NorthStar Gas Wet Steam and Hot Water Pressure Washer",
+          "NumberOfUnits": "About 1,416"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/pressure-washers/1-NorthStar-Gas-Wet-Steam-and-Hot-Water-Pressure-Washer/335d00c82eeabee056823f8647bac6be.webp",
+          "Caption": "NorthStar Gas Wet Steam and Hot Water Pressure Washer (Item #157310)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/NorthStar-1.png"
+        },
+        {
+          "URL": "/images/generalRecalls/pressure-washers/1-NorthStar-Gas-Wet-Steam-and-Hot-Water-Pressure-Washer/c8d1d12f83210622b9e4489a805300c0.webp",
+          "Caption": "NorthStar Gas Wet Steam and Hot Water Pressure Washer (Item #157310) - Serial number location on engine and burner date code location under battery box",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/NorthStar-2.png"
+        },
+        {
+          "URL": "/images/generalRecalls/pressure-washers/1-NorthStar-Gas-Wet-Steam-and-Hot-Water-Pressure-Washer/b0088f72faaa33f956019eae3714b077.webp",
+          "Caption": "NorthStar Gas Hot Water Commercial Pressure Washer Skid (Item # 157594)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/NorthStar-3.png"
+        },
+        {
+          "URL": "/images/generalRecalls/pressure-washers/1-NorthStar-Gas-Wet-Steam-and-Hot-Water-Pressure-Washer/b3d5361580f0196657ca674398b907da.webp",
+          "Caption": "NorthStar Gas Hot Water Commercial Pressure Washer Skid (Item # 157594) - Serial number location on engine and burner date code location under ball valve assembly",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/NorthStar-4.png"
+        },
+        {
+          "URL": "/images/generalRecalls/pressure-washers/1-NorthStar-Gas-Wet-Steam-and-Hot-Water-Pressure-Washer/998cb03c9e2eb2b748c5f0d162efdee0.webp",
+          "Caption": "NorthStar Trailer-Mounted Hot Water Commercial Pressure Washer (Item #157595)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/NorthStar-5.png"
+        },
+        {
+          "URL": "/images/generalRecalls/pressure-washers/1-NorthStar-Gas-Wet-Steam-and-Hot-Water-Pressure-Washer/ff85b97fe00fb6f5583e42eb5c815e74.webp",
+          "Caption": "NorthStar Trailer-Mounted Hot Water Commercial Pressure Washer (Item #157595) - Serial number location on engine and burner date code location under NorthStar logo",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/NorthStar-6.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "Northern Tool + Equipment Manufacturing, of Faribault, Minnesota"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available at Northern Tool + Equipment stores nationwide and online at NorthernTool.com, Amazon.com, Ebay.com, and GNEDI.com from January 2025 through August 2025, priced between $5,000 and $10,000."
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "United States"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of fire due to fan wheel failure causing abnormal burner operation"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Request a free repair from an authorized technician at a Northern Tool + Equipment service center or an authorized third-party servicer."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ],
+      "slug": "northern-tool-equipment-recalls-northstar-hot-water-pressure-washers-due-to-fire-risk-recall",
+      "metaDescription": "Northern Tool recalls NorthStar Hot Water Pressure Washers due to fire hazards. Check your model and stop using it immediately."
+    },
+    {
+      "RecallID": 10395,
+      "RecallNumber": "25452",
+      "RecallDate": "2025-08-28T00:00:00",
+      "Description": "TTI Outdoor Power Equipment has issued a recall for specific models of RYOBI brushless electric pressure washers, namely the RY142300 and RY142711VNM. These units are identifiable by their green color, a spray nozzle, a blue-capped detergent tank, and accessory storage. The model number and serial numbers can be found on the data plate located on the side of the motor housing. The affected serial numbers for the RY142300 range from EU17121D010001 to RG23182N140999, while the RY142711VNM serial numbers range from LT21411D090001 to RG23182N140999.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/TTI-Outdoor-Power-Equipment-Recalls-RYOBI-Pressure-Washers-Due-to-Projectile-Hazard-Risk-of-Serious-Injury",
+      "Title": "RYOBI Electric Pressure Washers Recalled Due to Potential Projectile Hazard",
+      "ConsumerContact": "For more information, consumers can contact TTI Outdoor Power Equipment at 800-597-9624 from 9 a.m. to 5 p.m. ET, Monday through Friday, or visit https://www.ryobitools.com/recall. Additional details can be found by clicking on \"Important Recall Information\" at the bottom of the RYOBI website.",
+      "LastPublishDate": "2025-08-29T00:00:00",
+      "Products": [
+        {
+          "Name": "RYOBI Brushless Electric Pressure Washer Model RY142300",
+          "NumberOfUnits": "About 764,000 (In addition, about 16,000 were sold in Canada)"
+        }
+      ],
+      "Inconjunctions": [
+        {
+          "URL": "https://recalls-rappels.canada.ca/en/alert-recall/certain-ryobi-2300-psi-12gpm-and-2700-psi-11gpm-electric-pressure-washers-recalled-due"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/pressure-washers/2-RYOBI-Brushless-Electric-Pressure-Washer-Model-RY142300/3c309b0abfeab1dac8cf90e9d1544730.webp",
+          "Caption": "Recalled Ryobi Electric Pressure Washer, model RY14230",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/pressure-1.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/pressure-washers/2-RYOBI-Brushless-Electric-Pressure-Washer-Model-RY142300/aa8e43eba9a7cc3e449e444f6e933c31.webp",
+          "Caption": "Recalled Ryobi Electric Pressure Washer, model RY142711VNM",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/pressure-2.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/pressure-washers/2-RYOBI-Brushless-Electric-Pressure-Washer-Model-RY142300/c12488e5e6760d204f6a64c22e5c50d9.webp",
+          "Caption": "The model and serial number can be found on the data plate located on the side of the motor housing",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/pressure-3.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "TTI Outdoor Power Equipment has received 135 reports of capacitors overheating, including 41 reports of explosions, resulting in 32 injuries and/or fractures to the fingers, hands, face, and eyes."
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "TTI Outdoor Power Equipment, Inc. (TTIOPE), of Anderson, South Carolina"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available at Home Depot and Direct Tools Factory Outlet stores nationwide, as well as online at homedepot.com and directtoolsoutlet.com, from July 2017 through June 2024, priced between $300 and $400."
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "Vietnam"
+        },
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Capacitor overheating and bursting, leading to ejected parts that may cause serious injury."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers must cease use of the recalled pressure washers and check https://www.ryobitools.com/recall to see if their unit is affected. A free repair kit, including a replacement capacitor and installation instructions, will be provided. No proof of purchase is necessary."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ],
+      "slug": "ryobi-electric-pressure-washers-recalled-due-to-potential-projectile-hazard-recall",
+      "metaDescription": "RYOBI recalls electric pressure washers due to a serious projectile hazard. Check if your model is affected and learn how to get a free repair kit."
+    },
+    {
+      "RecallID": 9813,
+      "RecallNumber": "24070",
+      "RecallDate": "2023-12-28T00:00:00",
+      "Description": "FNA Group has announced a recall of Simpson Gas Pressure Washers, specifically model PS61264. These units are characterized by their black color, featuring the Simpson logo, 'Pro Series,' and a pressure rating of 4400 PSI displayed on the handle. The model number can be found on a silver label affixed to the frame of the washer.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/FNA-Group-Recalls-Simpson-Pressure-Washers-Due-to-Burn-Hazard-Sold-Exclusively-at-Lowes",
+      "Title": "FNA Group Issues Recall for Simpson Gas Pressure Washers Due to Burn Risk; Available Exclusively at Lowe's",
+      "ConsumerContact": "Consumers can reach FNA Group Inc. at their toll-free number 866-733-8468 from 11 a.m. to 6 p.m. ET, Monday to Friday. Alternatively, they can email voluntaryrecall@simpsoncleaning.com or visit https://simpsoncleaning.com/voluntaryrecall for further details.",
+      "LastPublishDate": "2023-12-28T00:00:00",
+      "Products": [
+        {
+          "Name": "Simpson Gas Pressure Washer Model PS61264",
+          "NumberOfUnits": "About 2,930"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/pressure-washers/3-Simpson-Gas-Pressure-Washer-Model-PS61264/c0fe1beec7010ee4c76151afb0e1f8c1.webp",
+          "Caption": "Recalled Simpson pressure washer (Model PS61264)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/image3_34.png"
+        },
+        {
+          "URL": "/images/generalRecalls/pressure-washers/3-Simpson-Gas-Pressure-Washer-Model-PS61264/7d6a0edd7de0a6831954885bdebd2189.webp",
+          "Caption": "Recalled Simpson pressure washer (Model PS61264)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/image2_33.png"
+        },
+        {
+          "URL": "/images/generalRecalls/pressure-washers/3-Simpson-Gas-Pressure-Washer-Model-PS61264/f5f170a910672770b828595ff117e3cb.webp",
+          "Caption": "Recalled Simpson pressure washer Model PS61264 - front view",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/image5_7.png"
+        },
+        {
+          "URL": "/images/generalRecalls/pressure-washers/3-Simpson-Gas-Pressure-Washer-Model-PS61264/a2a6ef60c831c2059381e7673617007f.webp",
+          "Caption": "Recalled Simpson pressure washer Model PS61264 - top view",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/image4_20.png"
+        },
+        {
+          "URL": "/images/generalRecalls/pressure-washers/3-Simpson-Gas-Pressure-Washer-Model-PS61264/cb73fd4732cb30972fa3c3e0fb1a58db.webp",
+          "Caption": "Recalled Simpson pressure washer Model PS61264 - side view",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/image7_3.png"
+        },
+        {
+          "URL": "/images/generalRecalls/pressure-washers/3-Simpson-Gas-Pressure-Washer-Model-PS61264/cea8a9c1c2c3f3f11d7e5deddebfdf51.webp",
+          "Caption": "Recalled Simpson pressure washer Model PS61264 - side view",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/image6_2.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "FNA has received two reports of batteries in the pressure washer's electric start feature overheating and damaging the units. No injuries have been reported."
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "FNA Group Inc., of Pleasant Prairie, Wisconsin"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available at Lowe's stores nationwide and online at lowes.com from March 2023 to July 2023 for approximately $1,100."
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "United States"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Overheating lithium battery in electric start system posing burn risk"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Stop using the recalled pressure washer and contact FNA Group Inc. for free repair instructions, which include replacing the lithium battery with a sealed lead acid battery."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "Model PS61264"
+      ],
+      "slug": "fna-group-issues-recall-for-simpson-gas-pressure-washers-due-to-burn-risk-available-exclusively-at-lowe-s-recall",
+      "metaDescription": "FNA Group recalls Simpson Gas Pressure Washers due to burn hazards. Contact FNA for repair instructions and stop using the product immediately."
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "slug": "spoons",
+    "sourceCsvFile": "spoons_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:37.064Z",
+    "recallCount": 1,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "spoons.json",
+    "seoTranslatedAt": "2026-04-05T04:18:09.908Z",
+    "resumePartial": false
+  },
+  "recalls": [
+    {
+      "RecallID": 10113,
+      "RecallNumber": "25070",
+      "RecallDate": "2024-12-19T00:00:00",
+      "Description": "Melii Baby has issued a recall for their Silicone Spoons designed for infants, featuring animal-shaped handles. These spoons were available in packs of three or four, as well as in a five-piece silicone feeding set that includes designs like cat, dino, dog, shark, and unicorn. Each spoon measures approximately six inches in length. The recall affects spoons with specific date codes: the three-pack marked 2024-01 and the four-pack labeled 2023-12 to 2024-05, along with all spoons included in the Baby 5-Piece Silicone Feeding Sets.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/Melii-Baby-Silicone-Spoons-for-Babies-Recalled-Due-to-Choking-Hazard-Imported-by-Melii-Baby",
+      "Title": "Melii Baby Silicone Spoons Recall Due to Choking Hazard",
+      "ConsumerContact": "For assistance, contact Melii Baby Inc. toll-free at 855-492-4470 from 8 a.m. to 5 p.m. ET, Monday through Friday. More information can be found online at https://meliibaby.com/pages/recall or by visiting https://meliibaby.com and clicking on the 'Recall' section on the homepage.",
+      "LastPublishDate": "2024-12-19T00:00:00",
+      "Products": [
+        {
+          "Name": "Melii Baby Silicone Spoons",
+          "NumberOfUnits": "About 85,100"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/spoons/1-Melii-Baby-Silicone-Spoons/87eb152f576a7a591a1caeaa3356fd49.webp",
+          "Caption": "Recalled Melii Baby Silicone Spoons (3-Pack)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Melii-1.png"
+        },
+        {
+          "URL": "/images/generalRecalls/spoons/1-Melii-Baby-Silicone-Spoons/d6a725a142ab68893ff0dc688601d024.webp",
+          "Caption": "Recalled Melii Baby Silicone Spoons (4-Pack)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Melii-2.png"
+        },
+        {
+          "URL": "/images/generalRecalls/spoons/1-Melii-Baby-Silicone-Spoons/7768c408fc6f9f07c7e74c8411d78781.webp",
+          "Caption": "Recalled Melii Baby 5-Piece Silicone Feeding Set (Cat and Dino) – spoons only",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Melii-3.png"
+        },
+        {
+          "URL": "/images/generalRecalls/spoons/1-Melii-Baby-Silicone-Spoons/a5ceb5859b8d9425d234d0988127eb3b.webp",
+          "Caption": "Recalled Melii Baby 5-Piece Silicone Feeding Set (Dog and Shark) – spoons only",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Melii-4.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received two reports of the spoon tip breaking. No injuries have been reported."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available at Aldi Grocery Stores, Ross, and online retailers including buybuyBaby.com, Amazon.com, Sierra.com, MotherandDaughterCreations.com, Just Between Friends (jbfsale.com), MacroBaby.com, TrendyLilTreats.com, TheBrickKitchenStore.com, and AdventureSnacks.com from April 2024 through August 2024, priced between $8 and $9."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Melii Baby Inc., of Canada"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Choking hazard due to potential breakage of the silicone spoon during use"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Stop using the affected spoons immediately, keep them away from children, and contact Melii Baby Inc. for a free replacement set. Consumers should photograph the spoons, dispose of them in household waste, and email the images to care@meliibaby.com to receive the replacement."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Replace"
+        }
+      ],
+      "slug": "melii-baby-silicone-spoons-recall-due-to-choking-hazard-recall",
+      "metaDescription": "Recall alert for Melii Baby Silicone Spoons due to choking hazard. Contact Melii Baby for a free replacement set."
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "slug": "portable-electric-heaters",
+    "sourceCsvFile": "portable-electric-heaters_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:37.039Z",
+    "recallCount": 1,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "portable-electric-heaters.json",
+    "seoTranslatedAt": "2026-04-05T03:00:11.585Z",
+    "resumePartial": false
+  },
+  "recalls": [
+    {
+      "RecallID": 10198,
+      "RecallNumber": "25179",
+      "RecallDate": "2025-03-13T00:00:00",
+      "Description": "Meijer has announced a recall of Konwin desktop heaters, identified by model number BHN2133. These heaters feature a white plastic casing with a black fan and grill covers, measuring approximately 12 inches in height and 10 inches in width. The brand name 'Konwin' along with the model number is displayed on a label located at the bottom of the unit.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/Meijer-Recalls-Konwin-Desktop-Heaters-Due-to-Fire-and-Burn-Hazards",
+      "Title": "Meijer Issues Recall for Konwin Desktop Heaters Due to Fire and Burn Risks",
+      "ConsumerContact": "For assistance, consumers can reach Meijer at 800-927-8699, use the contact form available at Web Form, or visit https://help.meijer.com/csp?id=m_kb_recall or https://www.meijer.com/ and navigate to 'Product Recalls' at the bottom of the page for further details.",
+      "LastPublishDate": "2025-03-13T00:00:00",
+      "Products": [
+        {
+          "Name": "Konwin Desktop Heater",
+          "NumberOfUnits": "About 6,050"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/portable-electric-heaters/1-Konwin-Desktop-Heater/d7e98a947ae516a9683a2168db562acd.webp",
+          "Caption": "Recalled Konwin Desktop Heater",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Konwin-1.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/portable-electric-heaters/1-Konwin-Desktop-Heater/611f422059c0c9bce648dc9635533cf9.webp",
+          "Caption": "Recalled Konwin Desktop Heater label",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Konwin-2.jpg"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm received eight reports of fans burning and melting. No injuries have been reported."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available at Meijer locations across Michigan, Ohio, Indiana, Illinois, Wisconsin, and Kentucky from September 2024 through January 2025, priced between $25 and $40."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Meijer Distribution Inc., of Grand Rapids, Michigan"
+        }
+      ],
+      "SoldAtLabel": "Sold Exclusively At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of overheating and fire due to fan failure"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Return the heater to any Meijer store for a full refund"
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "BHN2133"
+      ],
+      "slug": "meijer-issues-recall-for-konwin-desktop-heaters-due-to-fire-and-burn-risks-recall",
+      "metaDescription": "Meijer recalls Konwin desktop heaters due to potential fire and burn hazards. Learn how to return for a full refund."
+    }
+  ]
+}
