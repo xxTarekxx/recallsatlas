@@ -1,0 +1,416 @@
+{
+  "meta": {
+    "slug": "archery",
+    "sourceCsvFile": "archery_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:36.804Z",
+    "recallCount": 1,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "archery.json",
+    "seoTranslatedAt": "2026-04-03T06:09:57.488Z",
+    "resumePartial": false,
+    "i18nSource": "generalRecallsTranslated",
+    "i18nSourceFile": "archery.json",
+    "i18nUiLangs": [
+      "en",
+      "es",
+      "ar",
+      "zh",
+      "fr",
+      "de",
+      "ja",
+      "pt",
+      "hi",
+      "ru",
+      "vi"
+    ],
+    "i18nProgressByLang": {
+      "es": 1,
+      "ar": 1,
+      "zh": 1,
+      "fr": 1,
+      "de": 0,
+      "ja": 0,
+      "pt": 0,
+      "hi": 0,
+      "ru": 0,
+      "vi": 0
+    },
+    "i18nInProgress": true,
+    "i18nTranslatedAt": "2026-04-06T04:26:10.268Z",
+    "i18nOpenaiModel": "gpt-4o-mini"
+  },
+  "recalls": [
+    {
+      "RecallID": 9909,
+      "RecallNumber": "24180",
+      "RecallDate": "2024-04-04T00:00:00",
+      "Description": "Excalibur Crossbow is recalling its C2 Crank cocking aids due to potential risks of impact injuries and lacerations. This product features two plastic cocking hooks that attach to the crossbow string and is identifiable by the black color and the 'Excalibur Crossbow' logo on the front. The part number 2199 and UPC 626192021991 can be found on the packaging.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/C2-Crank-Cocking-Aids-for-Excalibur-Crossbows-Recalled-Due-to-Impact-Injury-and-Laceration-Hazards-Manufactured-by-Excalibur-Crossbow",
+      "Title": "Excalibur Crossbow C2 Crank Cocking Aids Recalled for Injury Risks",
+      "ConsumerContact": "For further details, consumers can reach Excalibur Crossbow at 888-689-1289, Monday through Thursday from 8 a.m. to 5 p.m. ET, or via email at warranty@excaliburcrossbow.com. More information is available online at www.excaliburcrossbow.com under the 'Recalls' section or directly at https://excaliburcrossbow.com/c2-crank-recall/. ",
+      "LastPublishDate": "2024-04-04T00:00:00",
+      "Products": [
+        {
+          "Name": "Excalibur C2 Crank Cocking Aid",
+          "NumberOfUnits": "About 15,000 (In addition, about 3,920 were sold in Canada)"
+        }
+      ],
+      "Inconjunctions": [
+        {
+          "URL": "https://recalls-rappels.canada.ca/en/alert-recall/c2-detachable-crank-cocking-aid-excalibur-crossbow-inc-recalled-due-potential-impact"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/archery/1-Excalibur-C2-Crank-Cocking-Aid/69fe25f60bcdb6e8b3f72b34f145dd76.webp",
+          "Caption": "Recalled Excalibur Crossbow C2 Crank with cocking hooks",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/crossbow.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "Excalibur has received 538 reports of the C2 Crank cocking aid hooks breaking during use, resulting in plastic projectiles flying and hitting consumers, including one injury where a consumer reportedly suffered a permanent eye injury."
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "Excalibur Crossbow US LLC, of Canada"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Bass Pro Shops, Cabela's, and other stores nationwide and online at excaliburcrossbow.com, ebay.com and amazon.com from January 2008 through December 2021 for about $190."
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "Canada"
+        }
+      ],
+      "ProductUPCs": [
+        {
+          "UPC": "626192021991"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of impact injury and laceration from breaking cocking hooks"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Free replacement rope and hooks upon contacting Excalibur Crossbow"
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Replace"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "2199"
+      ],
+      "slug": "excalibur-crossbow-c2-crank-cocking-aids-recalled-for-injury-risks-recall",
+      "metaDescription": "Excalibur Crossbow recalls C2 Crank cocking aids due to injury risks. Stop using immediately and contact for free replacements.",
+      "languages": {
+        "en": {
+          "Title": "Excalibur Crossbow C2 Crank Cocking Aids Recalled for Injury Risks",
+          "Description": "Excalibur Crossbow is recalling its C2 Crank cocking aids due to potential risks of impact injuries and lacerations. This product features two plastic cocking hooks that attach to the crossbow string and is identifiable by the black color and the 'Excalibur Crossbow' logo on the front. The part number 2199 and UPC 626192021991 can be found on the packaging.",
+          "ConsumerContact": "For further details, consumers can reach Excalibur Crossbow at 888-689-1289, Monday through Thursday from 8 a.m. to 5 p.m. ET, or via email at warranty@excaliburcrossbow.com. More information is available online at www.excaliburcrossbow.com under the 'Recalls' section or directly at https://excaliburcrossbow.com/c2-crank-recall/. ",
+          "metaDescription": "Excalibur Crossbow recalls C2 Crank cocking aids due to injury risks. Stop using immediately and contact for free replacements.",
+          "Products": [
+            {
+              "Name": "Excalibur C2 Crank Cocking Aid",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 15,000 (In addition, about 3,920 were sold in Canada)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled Excalibur Crossbow C2 Crank with cocking hooks"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Excalibur has received 538 reports of the C2 Crank cocking aid hooks breaking during use, resulting in plastic projectiles flying and hitting consumers, including one injury where a consumer reportedly suffered a permanent eye injury."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Bass Pro Shops, Cabela's, and other stores nationwide and online at excaliburcrossbow.com, ebay.com and amazon.com from January 2008 through December 2021 for about $190."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Excalibur Crossbow US LLC, of Canada"
+            }
+          ],
+          "SoldAtLabel": "Sold At",
+          "ManufacturerCountries": [
+            {
+              "Country": "Canada"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risk of impact injury and laceration from breaking cocking hooks"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Free replacement rope and hooks upon contacting Excalibur Crossbow"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Replace"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "Excalibur Crossbow C2 Crank Ayudas de Carga Retiradas por Riesgos de Lesiones",
+          "Description": "Excalibur Crossbow está retirando sus ayudas de carga C2 Crank debido a posibles riesgos de lesiones por impacto y laceraciones. Este producto cuenta con dos ganchos de carga de plástico que se conectan a la cuerda de la ballesta y es identificable por su color negro y el logo de 'Excalibur Crossbow' en la parte frontal. El número de parte 2199 y el UPC 626192021991 se pueden encontrar en el empaque.",
+          "ConsumerContact": "Para más detalles, los consumidores pueden comunicarse con Excalibur Crossbow al 888-689-1289, de lunes a jueves de 8 a.m. a 5 p.m. ET, o por correo electrónico a warranty@excaliburcrossbow.com. Más información está disponible en línea en www.excaliburcrossbow.com en la sección 'Recalls' o directamente en https://excaliburcrossbow.com/c2-crank-recall/. ",
+          "metaDescription": "Excalibur Crossbow retira ayudas de carga C2 Crank debido a riesgos de lesiones. Deje de usar inmediatamente y contáctenos para obtener reemplazos gratuitos.",
+          "Products": [
+            {
+              "Name": "Excalibur C2 Crank Ayuda de Carga",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 15,000 (Además, se vendieron aproximadamente 3,920 en Canadá)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Excalibur Crossbow C2 Crank retirado con ganchos de carga"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Excalibur ha recibido 538 informes de los ganchos de carga C2 Crank rompiéndose durante el uso, lo que resulta en proyectiles de plástico volando e impactando a los consumidores, incluyendo una lesión donde un consumidor supuestamente sufrió una lesión ocular permanente."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Bass Pro Shops, Cabela's y otras tiendas en todo el país y en línea en excaliburcrossbow.com, ebay.com y amazon.com desde enero de 2008 hasta diciembre de 2021 por aproximadamente $190."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Excalibur Crossbow US LLC, de Canadá"
+            }
+          ],
+          "SoldAtLabel": "Vendido En",
+          "ManufacturerCountries": [
+            {
+              "Country": "Canadá"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Riesgo de lesión por impacto y laceración por ganchos de carga rotos"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Reemplazo gratuito de cuerda y ganchos al contactar a Excalibur Crossbow"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reemplazar"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "استدعاء مساعدات التثبيت C2 Crank من Excalibur Crossbow بسبب مخاطر الإصابة",
+          "Description": "تقوم Excalibur Crossbow باستدعاء مساعدات التثبيت C2 Crank بسبب مخاطر الإصابة المحتملة الناتجة عن الصدمات والجروح. يتميز هذا المنتج بوجود خطافين من البلاستيك للتثبيت يتم تثبيتهما على وتر القوس، ويمكن التعرف عليهما من خلال اللون الأسود وشعار 'Excalibur Crossbow' الموجود في الأمام. يمكن العثور على رقم الجزء 2199 ورمز UPC 626192021991 على العبوة.",
+          "ConsumerContact": "للحصول على مزيد من التفاصيل، يمكن للمستهلكين التواصل مع Excalibur Crossbow على الرقم 888-689-1289، من الاثنين إلى الخميس من الساعة 8 صباحًا حتى 5 مساءً بتوقيت شرق الولايات المتحدة، أو عبر البريد الإلكتروني على warranty@excaliburcrossbow.com. تتوفر مزيد من المعلومات عبر الإنترنت على www.excaliburcrossbow.com في قسم 'الاستدعاءات' أو مباشرة على https://excaliburcrossbow.com/c2-crank-recall/. ",
+          "metaDescription": "تستدعي Excalibur Crossbow مساعدات التثبيت C2 Crank بسبب مخاطر الإصابة. توقف عن الاستخدام فورًا وتواصل للحصول على بدائل مجانية.",
+          "Products": [
+            {
+              "Name": "مساعد تثبيت Excalibur C2 Crank",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 15,000 (بالإضافة إلى حوالي 3,920 تم بيعها في كندا)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "استدعاء Excalibur Crossbow C2 Crank مع خطافات التثبيت"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "تلقت Excalibur 538 تقريرًا عن كسر خطافات مساعد التثبيت C2 Crank أثناء الاستخدام، مما أدى إلى طيران مقذوفات بلاستيكية وضرب المستهلكين، بما في ذلك إصابة واحدة حيث أفيد أن مستهلكًا تعرض لإصابة دائمة في العين."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "متاجر Bass Pro Shops وCabela's ومتاجر أخرى على مستوى البلاد وعبر الإنترنت على excaliburcrossbow.com وebay.com وamazon.com من يناير 2008 حتى ديسمبر 2021 بسعر حوالي 190 دولار."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Excalibur Crossbow US LLC، من كندا"
+            }
+          ],
+          "SoldAtLabel": "تم البيع في",
+          "ManufacturerCountries": [
+            {
+              "Country": "كندا"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "خطر الإصابة الناتجة عن الصدمات والجروح من كسر خطافات التثبيت"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "حبل وخطافات بديلة مجانية عند التواصل مع Excalibur Crossbow"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "استبدال"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "Excalibur 弩 C2 曲柄装填辅助器因受伤风险被召回",
+          "Description": "Excalibur 弩因潜在的冲击伤害和割伤风险召回其 C2 曲柄装填辅助器。该产品具有两个塑料装填钩，连接到弩弦上，黑色和前面的 'Excalibur 弩' 标志可用于识别。部件编号 2199 和 UPC 626192021991 可在包装上找到。",
+          "ConsumerContact": "有关更多详细信息，消费者可以在东部时间周一至周四上午 8 点至下午 5 点拨打 888-689-1289 联系 Excalibur 弩，或通过电子邮件联系 warranty@excaliburcrossbow.com。更多信息可在 www.excaliburcrossbow.com 的 '召回' 部分或直接访问 https://excaliburcrossbow.com/c2-crank-recall/ 获取。",
+          "metaDescription": "Excalibur 弩因受伤风险召回 C2 曲柄装填辅助器。请立即停止使用并联系以获取免费更换。",
+          "Products": [
+            {
+              "Name": "Excalibur C2 曲柄装填辅助器",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约 15,000（此外，约 3,920 个在加拿大销售）"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "召回的 Excalibur 弩 C2 曲柄及装填钩"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Excalibur 收到了 538 份关于 C2 曲柄装填辅助器钩在使用过程中断裂的报告，导致塑料飞行物飞出并击中消费者，其中一例伤害报告称消费者遭受了永久性眼伤。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Bass Pro Shops、Cabela's 及全国其他商店，以及在 excaliburcrossbow.com、ebay.com 和 amazon.com 在线销售，销售时间为 2008 年 1 月至 2021 年 12 月，价格约为 190 美元。"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Excalibur 弩美国有限责任公司，加拿大"
+            }
+          ],
+          "SoldAtLabel": "销售地点",
+          "ManufacturerCountries": [
+            {
+              "Country": "加拿大"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "装填钩断裂导致的冲击伤害和割伤风险"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "联系 Excalibur 弩可获得免费更换绳索和钩子"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "更换"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "Aides de mise en tension C2 Crank d'Excalibur Crossbow rappelées en raison de risques de blessures",
+          "Description": "Excalibur Crossbow rappelle ses aides de mise en tension C2 Crank en raison de risques potentiels de blessures par impact et de lacérations. Ce produit comprend deux crochets en plastique qui se fixent à la corde de l'arbalète et est identifiable par sa couleur noire et le logo 'Excalibur Crossbow' à l'avant. Le numéro de pièce 2199 et le code UPC 626192021991 se trouvent sur l'emballage.",
+          "ConsumerContact": "Pour plus de détails, les consommateurs peuvent contacter Excalibur Crossbow au 888-689-1289, du lundi au jeudi de 8 h à 17 h HNE, ou par e-mail à warranty@excaliburcrossbow.com. Plus d'informations sont disponibles en ligne sur www.excaliburcrossbow.com dans la section 'Rappels' ou directement à https://excaliburcrossbow.com/c2-crank-recall/. ",
+          "metaDescription": "Excalibur Crossbow rappelle les aides de mise en tension C2 Crank en raison de risques de blessures. Cessez immédiatement de les utiliser et contactez-nous pour des remplacements gratuits.",
+          "Products": [
+            {
+              "Name": "Aide de mise en tension C2 Crank d'Excalibur",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 15 000 (De plus, environ 3 920 ont été vendues au Canada)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Excalibur Crossbow C2 Crank rappelé avec crochets de mise en tension"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Excalibur a reçu 538 rapports de crochets d'aide de mise en tension C2 Crank se cassant pendant l'utilisation, entraînant des projectiles en plastique volant et frappant les consommateurs, y compris une blessure où un consommateur aurait subi une blessure oculaire permanente."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Bass Pro Shops, Cabela's et d'autres magasins à l'échelle nationale et en ligne sur excaliburcrossbow.com, ebay.com et amazon.com de janvier 2008 à décembre 2021 pour environ 190 $."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Excalibur Crossbow US LLC, du Canada"
+            }
+          ],
+          "SoldAtLabel": "Vendu À",
+          "ManufacturerCountries": [
+            {
+              "Country": "Canada"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risque de blessure par impact et de lacération due à la rupture des crochets de mise en tension"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Remplacement gratuit de la corde et des crochets en contactant Excalibur Crossbow"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Remplacer"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        }
+      }
+    }
+  ]
+}
