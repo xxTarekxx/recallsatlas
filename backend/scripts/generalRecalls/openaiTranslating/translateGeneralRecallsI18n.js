@@ -7,12 +7,16 @@
  * plus dir + lang on each block (like recalls.json language entries).
  * Top-level recall fields stay English from source (IDs, URLs, dates, image paths, etc.).
  *
- * Progress: batched parallel OpenAI calls (default concurrency 4); writes after each batch.
+ * Progress: batched parallel OpenAI calls (default concurrency 8); writes after each batch.
  * Resume via meta.i18nProgressByLang (consecutive recalls done per locale).
  *
+ * Rough wall time (~26k completions): batches ≈ ceil(26360 / concurrency). If each batch
+ * waits ~3–8s on the API, concurrency 8 → ~3–7h; concurrency 4 → ~6–14h (plus JSON writes).
+ * Use --concurrency=12–16 if your tier rarely 429s; lower if you see rate-limit errors.
+ *
  * Env: OPENAI_API_KEY (required). OPENAI_MODEL (default gpt-4o-mini).
- *      I18N_TRANSLATE_CONCURRENCY (default 4, max 24) — parallel requests per batch.
- *      I18N_TRANSLATE_DELAY_MS (default 35) — pause between batches (0 to disable).
+ *      I18N_TRANSLATE_CONCURRENCY (default 8, max 24) — parallel requests per batch.
+ *      I18N_TRANSLATE_DELAY_MS (default 12) — pause between batches (0 to disable).
  *      NO_COLOR=1 — plain text. FORCE_COLOR=1 — color even when not a TTY.
  *      I18N_TRANSLATE_TOKEN_LOG=0 — disable append to ./i18nTokenLog.jsonl
  *
@@ -153,13 +157,13 @@ function parseFlags() {
 
 function getConcurrency(flags) {
   const fromEnv = parseInt(process.env.I18N_TRANSLATE_CONCURRENCY || "", 10);
-  const raw = flags.concurrency ?? (Number.isNaN(fromEnv) ? 4 : fromEnv);
+  const raw = flags.concurrency ?? (Number.isNaN(fromEnv) ? 8 : fromEnv);
   return Math.max(1, Math.min(24, raw));
 }
 
 function getBatchDelayMs() {
   const raw = process.env.I18N_TRANSLATE_DELAY_MS;
-  const n = raw == null || raw === "" ? 35 : parseInt(raw, 10);
+  const n = raw == null || raw === "" ? 12 : parseInt(raw, 10);
   if (Number.isNaN(n) || n < 0) return 0;
   return n;
 }
