@@ -13,7 +13,8 @@
     "migrate-general-recall-images": "node scripts/rewritingWithOpenAi/migrateGeneralRecallImageLayout.js",
     "migrate-general-recall-images:dry-run": "node scripts/rewritingWithOpenAi/migrateGeneralRecallImageLayout.js --dry-run",
     "strip-legacy-general-recall-seo": "node scripts/rewritingWithOpenAi/stripLegacySeoFromTranslated.js",
-    "strip-legacy-general-recall-seo:dry-run": "node scripts/rewritingWithOpenAi/stripLegacySeoFromTranslated.js --dry-run"
+    "strip-legacy-general-recall-seo:dry-run": "node scripts/rewritingWithOpenAi/stripLegacySeoFromTranslated.js --dry-run",
+    "translate-general-recalls-i18n": "node scripts/generalRecalls/openaiTranslating/translateGeneralRecallsI18n.js"
   },
   "dependencies": {
     "axios": "^1.13.6",
