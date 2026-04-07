@@ -1,0 +1,925 @@
+{
+  "meta": {
+    "slug": "electrical-cords",
+    "sourceCsvFile": "electrical-cords_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:36.903Z",
+    "recallCount": 1,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "electrical-cords.json",
+    "seoTranslatedAt": "2026-04-04T01:02:33.112Z",
+    "resumePartial": false,
+    "i18nSource": "generalRecallsTranslated",
+    "i18nSourceFile": "electrical-cords.json",
+    "i18nUiLangs": [
+      "en",
+      "es",
+      "ar",
+      "zh",
+      "fr",
+      "de",
+      "ja",
+      "pt",
+      "hi",
+      "ru",
+      "vi"
+    ],
+    "i18nProgressByLang": {
+      "es": 1,
+      "ar": 1,
+      "zh": 1,
+      "fr": 1,
+      "de": 1,
+      "ja": 1,
+      "pt": 1,
+      "hi": 1,
+      "ru": 1,
+      "vi": 1
+    },
+    "i18nInProgress": false,
+    "i18nTranslatedAt": "2026-04-07T04:01:14.939Z",
+    "i18nOpenaiModel": "gpt-4o-mini"
+  },
+  "recalls": [
+    {
+      "RecallID": 9976,
+      "RecallNumber": "24270",
+      "RecallDate": "2024-06-20T00:00:00",
+      "Description": "Goal Zero has announced a recall of its Yeti Link Expansion Modules and EC8 power cables due to potential fire and burn hazards. These products were sold both as kits and individually, intended for use in homes and vehicles. In vehicles, these modules connect to the alternator for charging the battery while the engine runs, while in homes, they facilitate the addition of batteries to the Yeti Power Station/Generator. The recalled modules are identified by model numbers 98200 and 98210, with Goal Zero branding on them. The associated cables include various models such as 98203, 98204, and others.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/Goal-Zero-Recalls-Yeti-Link-Modules-with-EC8-Cables-Due-to-Fire-and-Burn-Hazards",
+      "Title": "Goal Zero Issues Recall for Yeti Link Expansion Modules and EC8 Cables Due to Fire and Burn Risks",
+      "ConsumerContact": "For assistance, consumers should contact Goal Zero at 888-794-6250 from 8 a.m. to 5 p.m. CT, Monday through Friday, email support@goalzero.com, or visit www.goalzero.com and click on 'Notices/Recalls' in the Support section for further details.",
+      "LastPublishDate": "2024-06-20T00:00:00",
+      "Products": [
+        {
+          "Name": "Yeti Link Expansion Module",
+          "NumberOfUnits": "About 34,460 (In addition, about 815 were sold in Canada) (The EC8 cables were previously recalled in April 2021)"
+        }
+      ],
+      "Inconjunctions": [
+        {
+          "URL": "https://recalls-rappels.canada.ca/en/alert-recall/goal-zero-yeti-link-expansion-module-and-associated-ec8-cables-recalled-due-fire"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/electrical-cords/1-Yeti-Link-Expansion-Module/1c58d62156d7baed6e88c7f7b325f53d.webp",
+          "Caption": "Recalled Yeti Link Expansion Module",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/yeti-expansion.png"
+        },
+        {
+          "URL": "/images/generalRecalls/electrical-cords/1-Yeti-Link-Expansion-Module/4e519e4ff98a5a5cadce4720af787af3.webp",
+          "Caption": "Recalled 12' EC8 Extension Cable",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/EC8-extention-cable.png"
+        },
+        {
+          "URL": "/images/generalRecalls/electrical-cords/1-Yeti-Link-Expansion-Module/d5572da03aa2a113575f9034b07b8834.webp",
+          "Caption": "Recalled Male EC8 to Ring Cable",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/male-EC8-ring.png"
+        },
+        {
+          "URL": "/images/generalRecalls/electrical-cords/1-Yeti-Link-Expansion-Module/978d679f62f8a8f3d6d3410d5c8a63cf.webp",
+          "Caption": "Recalled Female EC8 to Ring Cable",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/female-EC8-ring.png"
+        },
+        {
+          "URL": "/images/generalRecalls/electrical-cords/1-Yeti-Link-Expansion-Module/0c34c9e179d4cfbad9dde214d42199b3.webp",
+          "Caption": "Recalled MPPTx to Tank Cable with EC8 Connector",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/MPPTx-to-tank.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received two reports of the cables melting inside a vehicle, causing minor property damage. No injuries have been reported."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "REI"
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Goal Zero LLC, of Draper, Utah"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Overheating and melting connections leading to fire and burn hazards"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Stop using the recalled products and request a free replacement kit from Goal Zero"
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Replace"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "98200",
+        "98210",
+        "98203",
+        "98204",
+        "98202",
+        "98205",
+        "98410",
+        "98201",
+        "98206"
+      ],
+      "slug": "goal-zero-issues-recall-for-yeti-link-expansion-modules-and-ec8-cables-due-to-fire-and-burn-risks-recall",
+      "metaDescription": "Goal Zero recalls Yeti Link Modules and EC8 Cables due to fire hazards. Learn how to get a free replacement kit.",
+      "languages": {
+        "en": {
+          "Title": "Goal Zero Issues Recall for Yeti Link Expansion Modules and EC8 Cables Due to Fire and Burn Risks",
+          "Description": "Goal Zero has announced a recall of its Yeti Link Expansion Modules and EC8 power cables due to potential fire and burn hazards. These products were sold both as kits and individually, intended for use in homes and vehicles. In vehicles, these modules connect to the alternator for charging the battery while the engine runs, while in homes, they facilitate the addition of batteries to the Yeti Power Station/Generator. The recalled modules are identified by model numbers 98200 and 98210, with Goal Zero branding on them. The associated cables include various models such as 98203, 98204, and others.",
+          "ConsumerContact": "For assistance, consumers should contact Goal Zero at 888-794-6250 from 8 a.m. to 5 p.m. CT, Monday through Friday, email support@goalzero.com, or visit www.goalzero.com and click on 'Notices/Recalls' in the Support section for further details.",
+          "metaDescription": "Goal Zero recalls Yeti Link Modules and EC8 Cables due to fire hazards. Learn how to get a free replacement kit.",
+          "Products": [
+            {
+              "Name": "Yeti Link Expansion Module",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 34,460 (In addition, about 815 were sold in Canada) (The EC8 cables were previously recalled in April 2021)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled Yeti Link Expansion Module"
+            },
+            {
+              "Caption": "Recalled 12' EC8 Extension Cable"
+            },
+            {
+              "Caption": "Recalled Male EC8 to Ring Cable"
+            },
+            {
+              "Caption": "Recalled Female EC8 to Ring Cable"
+            },
+            {
+              "Caption": "Recalled MPPTx to Tank Cable with EC8 Connector"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "The firm has received two reports of the cables melting inside a vehicle, causing minor property damage. No injuries have been reported."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "REI"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Goal Zero LLC, of Draper, Utah"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Sold At",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Overheating and melting connections leading to fire and burn hazards"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Stop using the recalled products and request a free replacement kit from Goal Zero"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Replace"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "Goal Zero Emite un Recall para los Módulos de Expansión Yeti Link y Cables EC8 Debido a Riesgos de Incendio y Quemaduras",
+          "Description": "Goal Zero ha anunciado un recall de sus Módulos de Expansión Yeti Link y cables de alimentación EC8 debido a posibles riesgos de incendio y quemaduras. Estos productos se vendieron tanto en kits como individualmente, destinados para su uso en hogares y vehículos. En los vehículos, estos módulos se conectan al alternador para cargar la batería mientras el motor está en marcha, mientras que en los hogares, facilitan la adición de baterías a la Estación de Energía/Generador Yeti. Los módulos retirados se identifican por los números de modelo 98200 y 98210, con la marca Goal Zero en ellos. Los cables asociados incluyen varios modelos como 98203, 98204, y otros.",
+          "ConsumerContact": "Para asistencia, los consumidores deben contactar a Goal Zero al 888-794-6250 de 8 a.m. a 5 p.m. CT, de lunes a viernes, enviar un correo electrónico a support@goalzero.com, o visitar www.goalzero.com y hacer clic en 'Notificaciones/Retiradas' en la sección de Soporte para más detalles.",
+          "metaDescription": "Goal Zero retira los Módulos Yeti Link y Cables EC8 debido a riesgos de incendio. Aprenda cómo obtener un kit de reemplazo gratuito.",
+          "Products": [
+            {
+              "Name": "Módulo de Expansión Yeti Link",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 34,460 (Además, aproximadamente 815 se vendieron en Canadá) (Los cables EC8 fueron retirados previamente en abril de 2021)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Módulo de Expansión Yeti Link Retirado"
+            },
+            {
+              "Caption": "Cable de Extensión EC8 de 12' Retirado"
+            },
+            {
+              "Caption": "Cable EC8 Macho a Anillo Retirado"
+            },
+            {
+              "Caption": "Cable EC8 Hembra a Anillo Retirado"
+            },
+            {
+              "Caption": "Cable MPPTx a Tanque con Conector EC8 Retirado"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "La empresa ha recibido dos informes de cables derritiéndose dentro de un vehículo, causando daños materiales menores. No se han reportado lesiones."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "REI"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Goal Zero LLC, de Draper, Utah"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendido En",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Sobrecalentamiento y conexiones que se derriten que conducen a riesgos de incendio y quemaduras"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Deje de usar los productos retirados y solicite un kit de reemplazo gratuito a Goal Zero"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reemplazar"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "شركة Goal Zero تعلن عن سحب وحدات توسيع Yeti Link وكابلات EC8 بسبب مخاطر الحريق والحروق",
+          "Description": "أعلنت شركة Goal Zero عن سحب وحدات توسيع Yeti Link وكابلات الطاقة EC8 بسبب مخاطر الحريق والحروق المحتملة. تم بيع هذه المنتجات كأطقم وأيضًا بشكل فردي، وكانت مخصصة للاستخدام في المنازل والمركبات. في المركبات، تتصل هذه الوحدات بالمولد لشحن البطارية أثناء تشغيل المحرك، بينما في المنازل، تسهل إضافة البطاريات إلى محطة/مولد Yeti للطاقة. الوحدات المسحوبة محددة بأرقام الطراز 98200 و98210، مع علامة Goal Zero التجارية عليها. تشمل الكابلات المرتبطة نماذج مختلفة مثل 98203 و98204 وغيرها.\n",
+          "ConsumerContact": "للمساعدة، يجب على المستهلكين الاتصال بشركة Goal Zero على الرقم 888-794-6250 من الساعة 8 صباحًا حتى 5 مساءً بتوقيت وسط أمريكا، من الاثنين إلى الجمعة، أو عبر البريد الإلكتروني support@goalzero.com، أو زيارة www.goalzero.com والنقر على 'الإشعارات/السحوبات' في قسم الدعم لمزيد من التفاصيل.",
+          "metaDescription": "تسحب شركة Goal Zero وحدات Yeti Link وكابلات EC8 بسبب مخاطر الحريق. تعرف على كيفية الحصول على طقم استبدال مجاني.",
+          "Products": [
+            {
+              "Name": "وحدة توسيع Yeti Link",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 34,460 (بالإضافة إلى أنه تم بيع حوالي 815 في كندا) (تم سحب كابلات EC8 سابقًا في أبريل 2021)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "وحدة توسيع Yeti Link المسحوبة"
+            },
+            {
+              "Caption": "كابل تمديد EC8 بطول 12 قدم المسحوب"
+            },
+            {
+              "Caption": "كابل EC8 ذكر إلى حلقة المسحوب"
+            },
+            {
+              "Caption": "كابل EC8 أنثى إلى حلقة المسحوب"
+            },
+            {
+              "Caption": "كابل MPPTx إلى خزان مع موصل EC8 المسحوب"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "تلقت الشركة تقريرين عن ذوبان الكابلات داخل مركبة، مما تسبب في أضرار طفيفة للممتلكات. لم يتم الإبلاغ عن أي إصابات."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "REI"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "شركة Goal Zero LLC، من درابر، يوتا"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "تم البيع في",
+          "ManufacturerCountries": [
+            {
+              "Country": "الصين"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "ارتفاع درجة الحرارة وذوبان الاتصالات مما يؤدي إلى مخاطر الحريق والحروق"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "توقف عن استخدام المنتجات المسحوبة واطلب طقم استبدال مجاني من Goal Zero"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "استبدال"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "Goal Zero 发布 Yeti Link 扩展模块和 EC8 电缆的召回，因火灾和烧伤风险",
+          "Description": "Goal Zero 已宣布召回其 Yeti Link 扩展模块和 EC8 电源电缆，因潜在的火灾和烧伤危险。这些产品既作为套件销售，也单独销售，旨在用于家庭和车辆。在车辆中，这些模块连接到发电机，以便在发动机运行时为电池充电，而在家庭中，它们便于将电池添加到 Yeti 电源站/发电机中。被召回的模块的型号为 98200 和 98210，上面有 Goal Zero 的品牌标识。相关的电缆包括多种型号，如 98203、98204 等。",
+          "ConsumerContact": "如需帮助，消费者应在周一至周五的中部时间上午 8 点至下午 5 点之间拨打 888-794-6250 联系 Goal Zero，或发送电子邮件至 support@goalzero.com，或访问 www.goalzero.com 并在支持部分点击“通知/召回”以获取更多详细信息。",
+          "metaDescription": "Goal Zero 因火灾危险召回 Yeti Link 模块和 EC8 电缆。了解如何获得免费更换套件。",
+          "Products": [
+            {
+              "Name": "Yeti Link 扩展模块",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约 34,460（此外，约 815 个在加拿大销售）（EC8 电缆在 2021 年 4 月已被召回）"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "被召回的 Yeti Link 扩展模块"
+            },
+            {
+              "Caption": "被召回的 12 英尺 EC8 延长电缆"
+            },
+            {
+              "Caption": "被召回的公 EC8 到环电缆"
+            },
+            {
+              "Caption": "被召回的母 EC8 到环电缆"
+            },
+            {
+              "Caption": "被召回的带 EC8 连接器的 MPPTx 到水箱电缆"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "公司已收到两份报告，称电缆在车辆内熔化，造成轻微财产损失。未报告任何受伤情况。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "REI"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Goal Zero LLC，位于犹他州德雷珀"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "销售地点",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "过热和连接熔化导致火灾和烧伤危险"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "停止使用被召回的产品，并向 Goal Zero 请求免费更换套件"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "更换"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "Goal Zero rappelle les modules d'expansion Yeti Link et les câbles EC8 en raison de risques d'incendie et de brûlures",
+          "Description": "Goal Zero a annoncé un rappel de ses modules d'expansion Yeti Link et de ses câbles d'alimentation EC8 en raison de risques potentiels d'incendie et de brûlures. Ces produits ont été vendus à la fois en kits et individuellement, destinés à un usage domestique et dans les véhicules. Dans les véhicules, ces modules se connectent à l'alternateur pour charger la batterie pendant que le moteur fonctionne, tandis que dans les maisons, ils facilitent l'ajout de batteries à la station/générateur Yeti. Les modules rappelés sont identifiés par les numéros de modèle 98200 et 98210, avec la marque Goal Zero. Les câbles associés incluent divers modèles tels que 98203, 98204, et d'autres.",
+          "ConsumerContact": "Pour assistance, les consommateurs doivent contacter Goal Zero au 888-794-6250 de 8 h à 17 h CT, du lundi au vendredi, par email à support@goalzero.com, ou visiter www.goalzero.com et cliquer sur 'Avis/Rappels' dans la section Support pour plus de détails.",
+          "metaDescription": "Goal Zero rappelle les modules Yeti Link et les câbles EC8 en raison de risques d'incendie. Découvrez comment obtenir un kit de remplacement gratuit.",
+          "Products": [
+            {
+              "Name": "Module d'expansion Yeti Link",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 34 460 (De plus, environ 815 ont été vendus au Canada) (Les câbles EC8 avaient déjà été rappelés en avril 2021)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Module d'expansion Yeti Link rappelé"
+            },
+            {
+              "Caption": "Câble d'extension EC8 de 12' rappelé"
+            },
+            {
+              "Caption": "Câble EC8 mâle vers anneau rappelé"
+            },
+            {
+              "Caption": "Câble EC8 femelle vers anneau rappelé"
+            },
+            {
+              "Caption": "Câble MPPTx vers réservoir avec connecteur EC8 rappelé"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "La société a reçu deux rapports de câbles fondus à l'intérieur d'un véhicule, causant des dommages matériels mineurs. Aucune blessure n'a été signalée."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "REI"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Goal Zero LLC, de Draper, Utah"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendu chez",
+          "ManufacturerCountries": [
+            {
+              "Country": "Chine"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Surchauffe et connexions fondantes entraînant des risques d'incendie et de brûlures"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Cesser d'utiliser les produits rappelés et demander un kit de remplacement gratuit auprès de Goal Zero"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Remplacer"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "Goal Zero ruft Yeti Link Erweiterungsmodule und EC8 Kabel aufgrund von Brand- und Verbrennungsrisiken zurück",
+          "Description": "Goal Zero hat einen Rückruf seiner Yeti Link Erweiterungsmodule und EC8 Stromkabel aufgrund potenzieller Brand- und Verbrennungsgefahren angekündigt. Diese Produkte wurden sowohl als Kits als auch einzeln verkauft und sind für den Einsatz in Haushalten und Fahrzeugen vorgesehen. In Fahrzeugen verbinden sich diese Module mit dem Generator, um die Batterie während des Motorbetriebs aufzuladen, während sie in Haushalten die Hinzufügung von Batterien zur Yeti Power Station/Generator erleichtern. Die zurückgerufenen Module sind durch die Modellnummern 98200 und 98210 gekennzeichnet, mit der Marke Goal Zero. Die zugehörigen Kabel umfassen verschiedene Modelle wie 98203, 98204 und andere.",
+          "ConsumerContact": "Für Unterstützung sollten Verbraucher Goal Zero unter 888-794-6250 von 8 bis 17 Uhr CT, Montag bis Freitag, kontaktieren, eine E-Mail an support@goalzero.com senden oder www.goalzero.com besuchen und im Support-Bereich auf 'Hinweise/Rückrufe' klicken, um weitere Details zu erhalten.",
+          "metaDescription": "Goal Zero ruft Yeti Link Module und EC8 Kabel aufgrund von Brandgefahren zurück. Erfahren Sie, wie Sie ein kostenloses Ersatzkit erhalten.",
+          "Products": [
+            {
+              "Name": "Yeti Link Erweiterungsmodul",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 34.460 (Zusätzlich wurden etwa 815 in Kanada verkauft) (Die EC8 Kabel wurden zuvor im April 2021 zurückgerufen)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Zurückgerufenes Yeti Link Erweiterungsmodul"
+            },
+            {
+              "Caption": "Zurückgerufenes 12' EC8 Verlängerungskabel"
+            },
+            {
+              "Caption": "Zurückgerufenes männliches EC8 zu Ringkabel"
+            },
+            {
+              "Caption": "Zurückgerufenes weibliches EC8 zu Ringkabel"
+            },
+            {
+              "Caption": "Zurückgerufenes MPPTx zu Tankkabel mit EC8 Anschluss"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Das Unternehmen hat zwei Berichte über Kabel erhalten, die in einem Fahrzeug geschmolzen sind, was zu geringfügigen Sachschäden führte. Es wurden keine Verletzungen gemeldet."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "REI"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Goal Zero LLC, aus Draper, Utah"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Verkauft bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Überhitzung und schmelzende Verbindungen, die zu Brand- und Verbrennungsgefahren führen"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Hören Sie auf, die zurückgerufenen Produkte zu verwenden, und fordern Sie ein kostenloses Ersatzkit von Goal Zero an"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Ersetzen"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "Goal ZeroがYeti Link拡張モジュールとEC8ケーブルのリコールを発表、火災および火傷のリスクに関して",
+          "Description": "Goal Zeroは、火災および火傷の危険性があるため、Yeti Link拡張モジュールとEC8電源ケーブルのリコールを発表しました。これらの製品は、キットおよび個別に販売され、家庭や車両での使用を目的としています。車両では、これらのモジュールはエンジンが動いている間にバッテリーを充電するためにオルタネーターに接続され、家庭ではYetiパワーステーション/発電機にバッテリーを追加するのを容易にします。リコール対象のモジュールは、モデル番号98200および98210で識別され、Goal Zeroのブランドが付いています。関連するケーブルには、98203、98204などのさまざまなモデルが含まれています。",
+          "ConsumerContact": "サポートが必要な場合、消費者は月曜日から金曜日の午前8時から午後5時（中央標準時）まで、888-794-6250でGoal Zeroに連絡するか、support@goalzero.comにメールを送信するか、www.goalzero.comを訪れてサポートセクションの「通知/リコール」をクリックして詳細を確認してください。",
+          "metaDescription": "Goal Zeroは火災の危険性によりYeti LinkモジュールとEC8ケーブルをリコールします。無料の交換キットを入手する方法を学びましょう。",
+          "Products": [
+            {
+              "Name": "Yeti Link拡張モジュール",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約34,460台（さらに、約815台がカナダで販売されました）（EC8ケーブルは2021年4月に以前リコールされました）"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコールされたYeti Link拡張モジュール"
+            },
+            {
+              "Caption": "リコールされた12フィートEC8延長ケーブル"
+            },
+            {
+              "Caption": "リコールされたオスEC8からリングケーブル"
+            },
+            {
+              "Caption": "リコールされたメスEC8からリングケーブル"
+            },
+            {
+              "Caption": "リコールされたEC8コネクタ付きMPPTxからタンクケーブル"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "同社は、車両内でケーブルが溶けて軽微な財産損害を引き起こしたという2件の報告を受けています。負傷者は報告されていません。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "REI"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Goal Zero LLC（ユタ州ドレイパー）"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "販売場所",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "過熱および溶融接続による火災および火傷の危険"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "リコールされた製品の使用を中止し、Goal Zeroから無料の交換キットをリクエストしてください"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "交換"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "Goal Zero Anuncia Recall de Módulos de Expansão Yeti Link e Cabos EC8 Devido a Riscos de Incêndio e Queimaduras",
+          "Description": "A Goal Zero anunciou um recall de seus Módulos de Expansão Yeti Link e cabos de energia EC8 devido a potenciais riscos de incêndio e queimaduras. Esses produtos foram vendidos tanto em kits quanto individualmente, destinados ao uso em casas e veículos. Em veículos, esses módulos se conectam ao alternador para carregar a bateria enquanto o motor está funcionando, enquanto em casas, facilitam a adição de baterias à Estação/Gerador de Energia Yeti. Os módulos recallados são identificados pelos números de modelo 98200 e 98210, com a marca Goal Zero neles. Os cabos associados incluem vários modelos, como 98203, 98204 e outros.",
+          "ConsumerContact": "Para assistência, os consumidores devem entrar em contato com a Goal Zero pelo telefone 888-794-6250 das 8h às 17h CT, de segunda a sexta-feira, enviar um e-mail para support@goalzero.com ou visitar www.goalzero.com e clicar em 'Notificações/Recall' na seção de Suporte para mais detalhes.",
+          "metaDescription": "A Goal Zero faz recall dos Módulos Yeti Link e Cabos EC8 devido a riscos de incêndio. Aprenda como obter um kit de substituição gratuito.",
+          "Products": [
+            {
+              "Name": "Módulo de Expansão Yeti Link",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 34.460 (Além disso, cerca de 815 foram vendidos no Canadá) (Os cabos EC8 foram recallados anteriormente em abril de 2021)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Módulo de Expansão Yeti Link Recallado"
+            },
+            {
+              "Caption": "Cabo de Extensão EC8 de 12' Recallado"
+            },
+            {
+              "Caption": "Cabo EC8 Masculino para Anel Recallado"
+            },
+            {
+              "Caption": "Cabo EC8 Feminino para Anel Recallado"
+            },
+            {
+              "Caption": "Cabo MPPTx para Tanque com Conector EC8 Recallado"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "A empresa recebeu dois relatos de cabos derretendo dentro de um veículo, causando danos materiais menores. Nenhum ferimento foi relatado."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "REI"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Goal Zero LLC, de Draper, Utah"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendido Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Superaquecimento e derretimento de conexões levando a riscos de incêndio e queimaduras"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Pare de usar os produtos recallados e solicite um kit de substituição gratuito da Goal Zero"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Substituir"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "गोल ज़ीरो ने आग और जलने के जोखिमों के कारण Yeti लिंक एक्सपेंशन मॉड्यूल और EC8 केबल्स का रीकॉल किया",
+          "Description": "गोल ज़ीरो ने संभावित आग और जलने के खतरों के कारण अपने Yeti लिंक एक्सपेंशन मॉड्यूल और EC8 पावर केबल्स का रीकॉल करने की घोषणा की है। ये उत्पाद किट के रूप में और व्यक्तिगत रूप से बेचे गए थे, जो घरों और वाहनों में उपयोग के लिए बनाए गए थे। वाहनों में, ये मॉड्यूल बैटरी को चार्ज करने के लिए जनरेटर से जुड़े होते हैं जबकि इंजन चलता है, जबकि घरों में, ये Yeti पावर स्टेशन/जनरेटर में बैटरी जोड़ने की सुविधा प्रदान करते हैं। रीकॉल किए गए मॉड्यूल को मॉडल नंबर 98200 और 98210 द्वारा पहचाना जाता है, जिन पर गोल ज़ीरो का ब्रांडिंग है। संबंधित केबल्स में विभिन्न मॉडल शामिल हैं जैसे 98203, 98204, और अन्य।",
+          "ConsumerContact": "सहायता के लिए, उपभोक्ताओं को गोल ज़ीरो से 888-794-6250 पर सुबह 8 बजे से शाम 5 बजे CT, सोमवार से शुक्रवार, ईमेल support@goalzero.com पर संपर्क करना चाहिए, या www.goalzero.com पर जाकर समर्थन अनुभाग में 'सूचनाएँ/रीकॉल' पर क्लिक करके अधिक जानकारी प्राप्त करनी चाहिए।",
+          "metaDescription": "गोल ज़ीरो Yeti लिंक मॉड्यूल और EC8 केबल्स का रीकॉल करता है आग के खतरों के कारण। जानें कि मुफ्त प्रतिस्थापन किट कैसे प्राप्त करें।",
+          "Products": [
+            {
+              "Name": "Yeti लिंक एक्सपेंशन मॉड्यूल",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 34,460 (इसके अतिरिक्त, लगभग 815 कनाडा में बेचे गए) (EC8 केबल्स का पहले अप्रैल 2021 में रीकॉल किया गया था)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "रीकॉल किया गया Yeti लिंक एक्सपेंशन मॉड्यूल"
+            },
+            {
+              "Caption": "रीकॉल किया गया 12' EC8 एक्सटेंशन केबल"
+            },
+            {
+              "Caption": "रीकॉल किया गया पुरुष EC8 से रिंग केबल"
+            },
+            {
+              "Caption": "रीकॉल किया गया महिला EC8 से रिंग केबल"
+            },
+            {
+              "Caption": "रीकॉल किया गया MPPTx से टैंक केबल EC8 कनेक्टर के साथ"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "कंपनी को वाहन के अंदर केबल के पिघलने की दो रिपोर्ट मिली हैं, जिससे मामूली संपत्ति का नुकसान हुआ है। कोई चोट की रिपोर्ट नहीं हुई है।"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "REI"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "गोल ज़ीरो LLC, ड्रैपर, यूटा"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "चीन"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "अत्यधिक गर्मी और पिघलने वाले कनेक्शन जो आग और जलने के खतरों का कारण बनते हैं"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "रीकॉल किए गए उत्पादों का उपयोग करना बंद करें और गोल ज़ीरो से मुफ्त प्रतिस्थापन किट का अनुरोध करें"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "बदलें"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "Компания Goal Zero объявила о отзыве модулей расширения Yeti Link и кабелей EC8 из-за риска пожара и ожогов",
+          "Description": "Компания Goal Zero объявила о отзыве своих модулей расширения Yeti Link и силовых кабелей EC8 из-за потенциальных опасностей пожара и ожогов. Эти продукты продавались как наборами, так и по отдельности, предназначенные для использования в домах и автомобилях. В автомобилях эти модули подключаются к генератору для зарядки аккумулятора во время работы двигателя, в то время как в домах они облегчают добавление аккумуляторов к электростанции/генератору Yeti. Отозванные модули идентифицируются по номерам моделей 98200 и 98210, с брендингом Goal Zero. Связанные кабели включают различные модели, такие как 98203, 98204 и другие.",
+          "ConsumerContact": "Для получения помощи потребители должны обратиться в компанию Goal Zero по телефону 888-794-6250 с 8:00 до 17:00 по центральному времени, с понедельника по пятницу, по электронной почте support@goalzero.com или посетить www.goalzero.com и нажать на 'Уведомления/Отзыв' в разделе поддержки для получения дополнительной информации.",
+          "metaDescription": "Компания Goal Zero отзывает модули Yeti Link и кабели EC8 из-за опасностей пожара. Узнайте, как получить бесплатный комплект для замены.",
+          "Products": [
+            {
+              "Name": "Модуль расширения Yeti Link",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 34,460 (Кроме того, около 815 были проданы в Канаде) (Кабели EC8 были ранее отозваны в апреле 2021 года)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванный модуль расширения Yeti Link"
+            },
+            {
+              "Caption": "Отозванный 12-футовый удлинительный кабель EC8"
+            },
+            {
+              "Caption": "Отозванный кабель Male EC8 to Ring"
+            },
+            {
+              "Caption": "Отозванный кабель Female EC8 to Ring"
+            },
+            {
+              "Caption": "Отозванный кабель MPPTx to Tank с разъемом EC8"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Компания получила два сообщения о том, что кабели плавились внутри автомобиля, вызывая незначительный ущерб имуществу. О травмах не сообщалось."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "REI"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Goal Zero LLC, Дрейпер, Юта"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Продавалось в",
+          "ManufacturerCountries": [
+            {
+              "Country": "Китай"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Перегрев и плавление соединений, что приводит к риску пожара и ожогов"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Прекратите использование отозванных продуктов и запросите бесплатный комплект для замены у компании Goal Zero"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Заменить"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "Goal Zero Thông Báo Thu Hồi Các Mô-đun Mở Rộng Yeti Link và Cáp EC8 Do Nguy Cơ Cháy Nổ và Bỏng",
+          "Description": "Goal Zero đã thông báo thu hồi các Mô-đun Mở Rộng Yeti Link và cáp điện EC8 do nguy cơ cháy nổ và bỏng tiềm ẩn. Các sản phẩm này được bán cả theo bộ và riêng lẻ, dành cho việc sử dụng trong nhà và xe cộ. Trong xe, các mô-đun này kết nối với máy phát điện để sạc pin khi động cơ đang hoạt động, trong khi ở nhà, chúng hỗ trợ việc thêm pin vào Trạm Năng Lượng/ Máy Phát Điện Yeti. Các mô-đun bị thu hồi được xác định bằng các số mô hình 98200 và 98210, với thương hiệu Goal Zero trên đó. Các cáp liên quan bao gồm nhiều mô hình khác nhau như 98203, 98204, và các mô hình khác.",
+          "ConsumerContact": "Để được hỗ trợ, người tiêu dùng nên liên hệ với Goal Zero qua số điện thoại 888-794-6250 từ 8 giờ sáng đến 5 giờ chiều CT, từ thứ Hai đến thứ Sáu, gửi email đến support@goalzero.com, hoặc truy cập www.goalzero.com và nhấp vào 'Thông Báo/Thu Hồi' trong phần Hỗ Trợ để biết thêm chi tiết.",
+          "metaDescription": "Goal Zero thu hồi các Mô-đun Yeti Link và Cáp EC8 do nguy cơ cháy nổ. Tìm hiểu cách nhận bộ thay thế miễn phí.",
+          "Products": [
+            {
+              "Name": "Mô-đun Mở Rộng Yeti Link",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 34,460 (Ngoài ra, khoảng 815 cái đã được bán ở Canada) (Các cáp EC8 đã được thu hồi trước đó vào tháng 4 năm 2021)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Mô-đun Mở Rộng Yeti Link bị thu hồi"
+            },
+            {
+              "Caption": "Cáp Mở Rộng EC8 dài 12' bị thu hồi"
+            },
+            {
+              "Caption": "Cáp EC8 Đực đến Cáp Nhẫn bị thu hồi"
+            },
+            {
+              "Caption": "Cáp EC8 Cái đến Cáp Nhẫn bị thu hồi"
+            },
+            {
+              "Caption": "Cáp MPPTx đến Cáp Bể với Kết Nối EC8 bị thu hồi"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Công ty đã nhận được hai báo cáo về việc các cáp bị chảy trong xe, gây ra thiệt hại tài sản nhỏ. Không có thương tích nào được báo cáo."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "REI"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Goal Zero LLC, ở Draper, Utah"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Bán Tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Trung Quốc"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Quá nhiệt và chảy các kết nối dẫn đến nguy cơ cháy nổ và bỏng"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Ngừng sử dụng các sản phẩm bị thu hồi và yêu cầu bộ thay thế miễn phí từ Goal Zero"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Thay thế"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    }
+  ]
+}

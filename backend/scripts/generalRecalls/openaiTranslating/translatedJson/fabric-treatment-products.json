@@ -1,0 +1,803 @@
+{
+  "meta": {
+    "slug": "fabric-treatment-products",
+    "sourceCsvFile": "fabric-treatment-products_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:36.911Z",
+    "recallCount": 1,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "fabric-treatment-products.json",
+    "seoTranslatedAt": "2026-04-04T01:33:56.463Z",
+    "resumePartial": false,
+    "i18nSource": "generalRecallsTranslated",
+    "i18nSourceFile": "fabric-treatment-products.json",
+    "i18nUiLangs": [
+      "en",
+      "es",
+      "ar",
+      "zh",
+      "fr",
+      "de",
+      "ja",
+      "pt",
+      "hi",
+      "ru",
+      "vi"
+    ],
+    "i18nProgressByLang": {
+      "es": 1,
+      "ar": 1,
+      "zh": 1,
+      "fr": 1,
+      "de": 1,
+      "ja": 1,
+      "pt": 1,
+      "hi": 1,
+      "ru": 1,
+      "vi": 1
+    },
+    "i18nInProgress": false,
+    "i18nTranslatedAt": "2026-04-07T04:47:27.809Z",
+    "i18nOpenaiModel": "gpt-4o-mini"
+  },
+  "recalls": [
+    {
+      "RecallID": 10207,
+      "RecallNumber": "25189",
+      "RecallDate": "2025-03-20T00:00:00",
+      "Description": "Reckitt has issued a recall for 50-fluid-ounce bottles of Woolite Delicates detergent due to potential contamination with Pseudomonas species bacteria. The affected products, identified by lot codes S24364, S24365, and S24366, were exclusively sold on Amazon.com. The lot code can be found printed on the top of the back of the bottle, which features a white design with a light pink label and cap.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/Woolite-Delicates-Detergent-Recalled-by-Reckitt-Due-to-Risk-of-Exposure-to-Bacteria-Sold-Exclusively-on-Amazon-com",
+      "Title": "Reckitt Recalls Woolite Delicates Detergent Due to Bacterial Contamination Risk",
+      "ConsumerContact": "For assistance, consumers can reach out to Reckitt at 800-228-4722 from 9 a.m. to 5 p.m. ET, Monday through Friday, via email at ConsumerCare_USA@reckitt.com, or visit https://www.woolite.us/Voluntary-Recall/ for further details.",
+      "LastPublishDate": "2025-03-20T00:00:00",
+      "Products": [
+        {
+          "Name": "Woolite Delicates detergent (50-fluid-ounce bottle)",
+          "NumberOfUnits": "About 16,200"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/fabric-treatment-products/1-Woolite-Delicates-detergent-50-fluid-ounce-bottle/9ca581fc4765ce0984eedec7b8ad747a.webp",
+          "Caption": "Recalled Woolite Delicates detergent, 50 fluid ounces",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Woolite-Delicates-1.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/fabric-treatment-products/1-Woolite-Delicates-detergent-50-fluid-ounce-bottle/b364bdcd7ce33e61d1686e45a1206bb9.webp",
+          "Caption": "Recalled Woolite Delicates detergent, 50 fluid ounces and location of lot code and SKU",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Woolite-Delicates-2.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "Reckitt Benckiser LLC, of Parsippany, New Jersey"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available exclusively on Amazon.com in January 2025, priced between $14 and $17."
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "United States"
+        }
+      ],
+      "ProductUPCs": [
+        {
+          "UPC": "062338727240"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of exposure to Pseudomonas species bacteria"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Full refund process for recalled Woolite Delicates detergent"
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "SKU 62338-72724"
+      ],
+      "slug": "reckitt-recalls-woolite-delicates-detergent-due-to-bacterial-contamination-risk-recall",
+      "metaDescription": "Reckitt recalls Woolite Delicates detergent due to bacterial contamination risk. Learn how to get a refund and dispose of the product safely.",
+      "languages": {
+        "en": {
+          "Title": "Reckitt Recalls Woolite Delicates Detergent Due to Bacterial Contamination Risk",
+          "Description": "Reckitt has issued a recall for 50-fluid-ounce bottles of Woolite Delicates detergent due to potential contamination with Pseudomonas species bacteria. The affected products, identified by lot codes S24364, S24365, and S24366, were exclusively sold on Amazon.com. The lot code can be found printed on the top of the back of the bottle, which features a white design with a light pink label and cap.",
+          "ConsumerContact": "For assistance, consumers can reach out to Reckitt at 800-228-4722 from 9 a.m. to 5 p.m. ET, Monday through Friday, via email at ConsumerCare_USA@reckitt.com, or visit https://www.woolite.us/Voluntary-Recall/ for further details.",
+          "metaDescription": "Reckitt recalls Woolite Delicates detergent due to bacterial contamination risk. Learn how to get a refund and dispose of the product safely.",
+          "Products": [
+            {
+              "Name": "Woolite Delicates detergent (50-fluid-ounce bottle)",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 16,200"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled Woolite Delicates detergent, 50 fluid ounces"
+            },
+            {
+              "Caption": "Recalled Woolite Delicates detergent, 50 fluid ounces and location of lot code and SKU"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "None reported"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Available exclusively on Amazon.com in January 2025, priced between $14 and $17."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Reckitt Benckiser LLC, of Parsippany, New Jersey"
+            }
+          ],
+          "SoldAtLabel": "Sold At",
+          "ManufacturerCountries": [
+            {
+              "Country": "United States"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risk of exposure to Pseudomonas species bacteria"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Full refund process for recalled Woolite Delicates detergent"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Refund"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "Reckitt Retira el Detergente Woolite Delicates Debido al Riesgo de Contaminación Bacteriana",
+          "Description": "Reckitt ha emitido un retiro de 50 onzas líquidas de botellas de detergente Woolite Delicates debido a una posible contaminación con bacterias del género Pseudomonas. Los productos afectados, identificados por los códigos de lote S24364, S24365 y S24366, se vendieron exclusivamente en Amazon.com. El código de lote se puede encontrar impreso en la parte superior de la parte posterior de la botella, que presenta un diseño blanco con una etiqueta y tapa de color rosa claro.\n",
+          "ConsumerContact": "Para obtener asistencia, los consumidores pueden comunicarse con Reckitt al 800-228-4722 de 9 a.m. a 5 p.m. ET, de lunes a viernes, por correo electrónico a ConsumerCare_USA@reckitt.com, o visitar https://www.woolite.us/Voluntary-Recall/ para más detalles.",
+          "metaDescription": "Reckitt retira el detergente Woolite Delicates debido al riesgo de contaminación bacteriana. Aprenda cómo obtener un reembolso y desechar el producto de manera segura.",
+          "Products": [
+            {
+              "Name": "Detergente Woolite Delicates (botella de 50 onzas líquidas)",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 16,200"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Detergente Woolite Delicates retirado, 50 onzas líquidas"
+            },
+            {
+              "Caption": "Detergente Woolite Delicates retirado, 50 onzas líquidas y ubicación del código de lote y SKU"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Ninguna reportada"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible exclusivamente en Amazon.com en enero de 2025, con un precio entre $14 y $17."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Reckitt Benckiser LLC, de Parsippany, Nueva Jersey"
+            }
+          ],
+          "SoldAtLabel": "Vendido En",
+          "ManufacturerCountries": [
+            {
+              "Country": "Estados Unidos"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Riesgo de exposición a bacterias del género Pseudomonas"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Proceso de reembolso completo para el detergente Woolite Delicates retirado"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reembolso"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "ريكيت تستدعي منظف ووليت دليكيتس بسبب خطر التلوث البكتيري",
+          "Description": "أصدرت ريكيت استدعاء لزجاجات منظف ووليت دليكيتس سعة 50 أونصة سائلة بسبب احتمال التلوث ببكتيريا من نوع الزائفة. المنتجات المتأثرة، التي تم تحديدها بواسطة رموز الدفعة S24364 و S24365 و S24366، تم بيعها حصريًا على Amazon.com. يمكن العثور على رمز الدفعة مطبوعًا على الجزء العلوي من ظهر الزجاجة، التي تتميز بتصميم أبيض مع ملصق وغطاء بلون وردي فاتح.",
+          "ConsumerContact": "للمساعدة، يمكن للمستهلكين التواصل مع ريكيت على الرقم 800-228-4722 من الساعة 9 صباحًا حتى 5 مساءً بتوقيت شرق الولايات المتحدة، من الاثنين إلى الجمعة، عبر البريد الإلكتروني على ConsumerCare_USA@reckitt.com، أو زيارة https://www.woolite.us/Voluntary-Recall/ لمزيد من التفاصيل.",
+          "metaDescription": "ريكيت تستدعي منظف ووليت دليكيتس بسبب خطر التلوث البكتيري. تعرف على كيفية استرداد الأموال والتخلص من المنتج بأمان.",
+          "Products": [
+            {
+              "Name": "منظف ووليت دليكيتس (زجاجة سعة 50 أونصة سائلة)",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 16,200"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "منظف ووليت دليكيتس المستدعى، 50 أونصة سائلة"
+            },
+            {
+              "Caption": "منظف ووليت دليكيتس المستدعى، 50 أونصة سائلة وموقع رمز الدفعة ورمز SKU"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "لا توجد إصابات مسجلة"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "متوفر حصريًا على Amazon.com في يناير 2025، بسعر يتراوح بين 14 و 17 دولارًا."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "ريكيت بنكيزر LLC، من بارسيباني، نيو جيرسي"
+            }
+          ],
+          "SoldAtLabel": "تم البيع في",
+          "ManufacturerCountries": [
+            {
+              "Country": "الولايات المتحدة"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "خطر التعرض لبكتيريا من نوع الزائفة"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "عملية استرداد كاملة لمنظف ووليت دليكيتس المستدعى"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "استرداد"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "Reckitt召回Woolite Delicates洗涤剂因细菌污染风险",
+          "Description": "Reckitt已对50盎司的Woolite Delicates洗涤剂发起召回，原因是可能受到假单胞菌属细菌的污染。受影响的产品标识为批号S24364、S24365和S24366，专门在Amazon.com上销售。批号印刷在瓶子背面的顶部，瓶子设计为白色，带有浅粉色标签和瓶盖。\n",
+          "ConsumerContact": "如需帮助，消费者可以通过拨打800-228-4722与Reckitt联系，服务时间为周一至周五，东部时间上午9点至下午5点，或通过电子邮件联系ConsumerCare_USA@reckitt.com，或访问https://www.woolite.us/Voluntary-Recall/获取更多信息。",
+          "metaDescription": "Reckitt召回Woolite Delicates洗涤剂因细菌污染风险。了解如何申请退款并安全处理产品。",
+          "Products": [
+            {
+              "Name": "Woolite Delicates洗涤剂（50盎司瓶）",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约16,200"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "召回的Woolite Delicates洗涤剂，50盎司"
+            },
+            {
+              "Caption": "召回的Woolite Delicates洗涤剂，50盎司及批号和SKU的位置"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "没有报告受伤"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "2025年1月仅在Amazon.com上销售，价格在14美元至17美元之间。"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "新泽西州帕西帕尼的Reckitt Benckiser LLC"
+            }
+          ],
+          "SoldAtLabel": "销售地点",
+          "ManufacturerCountries": [
+            {
+              "Country": "美国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "接触假单胞菌属细菌的风险"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "召回Woolite Delicates洗涤剂的全额退款流程"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "退款"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "Reckitt rappelle le détergent Woolite Delicates en raison d'un risque de contamination bactérienne",
+          "Description": "Reckitt a émis un rappel pour des bouteilles de 50 onces liquides de détergent Woolite Delicates en raison d'une contamination potentielle par des bactéries de l'espèce Pseudomonas. Les produits concernés, identifiés par les codes de lot S24364, S24365 et S24366, ont été vendus exclusivement sur Amazon.com. Le code de lot se trouve imprimé sur le haut de l'arrière de la bouteille, qui présente un design blanc avec une étiquette et un bouchon rose clair.\n",
+          "ConsumerContact": "Pour obtenir de l'aide, les consommateurs peuvent contacter Reckitt au 800-228-4722 de 9 h à 17 h HE, du lundi au vendredi, par e-mail à ConsumerCare_USA@reckitt.com, ou visiter https://www.woolite.us/Voluntary-Recall/ pour plus de détails.",
+          "metaDescription": "Reckitt rappelle le détergent Woolite Delicates en raison d'un risque de contamination bactérienne. Apprenez comment obtenir un remboursement et éliminer le produit en toute sécurité.",
+          "Products": [
+            {
+              "Name": "Détergent Woolite Delicates (bouteille de 50 onces liquides)",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 16 200"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Détergent Woolite Delicates rappelé, 50 onces liquides"
+            },
+            {
+              "Caption": "Détergent Woolite Delicates rappelé, 50 onces liquides et emplacement du code de lot et du SKU"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Aucun rapporté"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible exclusivement sur Amazon.com en janvier 2025, au prix compris entre 14 $ et 17 $."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Reckitt Benckiser LLC, de Parsippany, New Jersey"
+            }
+          ],
+          "SoldAtLabel": "Vendu À",
+          "ManufacturerCountries": [
+            {
+              "Country": "États-Unis"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risque d'exposition aux bactéries de l'espèce Pseudomonas"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Processus de remboursement complet pour le détergent Woolite Delicates rappelé"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Remboursement"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "Reckitt ruft Woolite Delicates Waschmittel wegen Risiko einer bakteriellen Kontamination zurück",
+          "Description": "Reckitt hat einen Rückruf für 50-Unzen-Flaschen Woolite Delicates Waschmittel aufgrund einer möglichen Kontamination mit Pseudomonas-Bakterien herausgegeben. Die betroffenen Produkte, identifiziert durch die Chargencodes S24364, S24365 und S24366, wurden ausschließlich auf Amazon.com verkauft. Der Chargencode ist auf der Oberseite der Rückseite der Flasche aufgedruckt, die ein weißes Design mit einem hellrosa Etikett und Deckel aufweist.",
+          "ConsumerContact": "Für Unterstützung können Verbraucher Reckitt unter 800-228-4722 von 9 bis 17 Uhr ET, Montag bis Freitag, per E-Mail an ConsumerCare_USA@reckitt.com oder unter https://www.woolite.us/Voluntary-Recall/ für weitere Details kontaktieren.",
+          "metaDescription": "Reckitt ruft Woolite Delicates Waschmittel wegen Risiko einer bakteriellen Kontamination zurück. Erfahren Sie, wie Sie eine Rückerstattung erhalten und das Produkt sicher entsorgen können.",
+          "Products": [
+            {
+              "Name": "Woolite Delicates Waschmittel (50-Unzen-Flasche)",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 16.200"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Rückgerufenes Woolite Delicates Waschmittel, 50 Unzen"
+            },
+            {
+              "Caption": "Rückgerufenes Woolite Delicates Waschmittel, 50 Unzen und Standort des Chargencodes und SKU"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Keine gemeldet"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Exklusiv auf Amazon.com im Januar 2025 erhältlich, Preis zwischen 14 und 17 US-Dollar."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Reckitt Benckiser LLC, Parsippany, New Jersey"
+            }
+          ],
+          "SoldAtLabel": "Verkauft bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "Vereinigte Staaten"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risiko einer Exposition gegenüber Pseudomonas-Bakterien"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Vollständiger Rückerstattungsprozess für zurückgerufenes Woolite Delicates Waschmittel"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Rückerstattung"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "レキット、バイ菌汚染リスクによりウーリート・デリケート洗剤をリコール",
+          "Description": "レキットは、Pseudomonas種のバイ菌による汚染の可能性があるため、ウーリート・デリケート洗剤の50液量オンスボトルをリコールしました。影響を受けた製品は、ロットコードS24364、S24365、S24366で特定され、Amazon.comでのみ販売されました。ロットコードはボトルの背面上部に印刷されており、白いデザインに淡いピンクのラベルとキャップが特徴です。",
+          "ConsumerContact": "サポートが必要な場合、消費者はレキットに電話800-228-4722（東部標準時の月曜日から金曜日の午前9時から午後5時まで）で連絡するか、メールConsumerCare_USA@reckitt.comに送信するか、詳細についてはhttps://www.woolite.us/Voluntary-Recall/を訪問してください。",
+          "metaDescription": "レキットがバイ菌汚染リスクによりウーリート・デリケート洗剤をリコール。返金を受ける方法と製品を安全に処分する方法を学びましょう。",
+          "Products": [
+            {
+              "Name": "ウーリート・デリケート洗剤（50液量オンスボトル）",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約16,200"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコールされたウーリート・デリケート洗剤、50液量オンス"
+            },
+            {
+              "Caption": "リコールされたウーリート・デリケート洗剤、50液量オンスとロットコードおよびSKUの位置"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "報告された怪我はなし"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "2025年1月にAmazon.comでのみ入手可能、価格は14ドルから17ドルの間。"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "レキット・ベンキーザーLLC（ニュージャージー州パーシッパニー）"
+            }
+          ],
+          "SoldAtLabel": "販売場所",
+          "ManufacturerCountries": [
+            {
+              "Country": "アメリカ合衆国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Pseudomonas種のバイ菌への曝露リスク"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "リコールされたウーリート・デリケート洗剤の全額返金プロセス"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "返金"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "Reckitt Recalls Woolite Delicates Detergent Due to Bacterial Contamination Risk",
+          "Description": "A Reckitt emitiu um recall para frascos de 50 onças fluidas do detergente Woolite Delicates devido ao potencial de contaminação com bactérias do gênero Pseudomonas. Os produtos afetados, identificados pelos códigos de lote S24364, S24365 e S24366, foram vendidos exclusivamente no Amazon.com. O código do lote pode ser encontrado impresso na parte superior da parte de trás do frasco, que apresenta um design branco com um rótulo e tampa rosa claro.",
+          "ConsumerContact": "Para assistência, os consumidores podem entrar em contato com a Reckitt pelo telefone 800-228-4722 das 9h às 17h ET, de segunda a sexta-feira, pelo e-mail ConsumerCare_USA@reckitt.com, ou visitar https://www.woolite.us/Voluntary-Recall/ para mais detalhes.",
+          "metaDescription": "A Reckitt faz recall do detergente Woolite Delicates devido ao risco de contaminação bacteriana. Aprenda como obter um reembolso e descartar o produto com segurança.",
+          "Products": [
+            {
+              "Name": "Detergente Woolite Delicates (frasco de 50 onças fluidas)",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 16.200"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Detergente Woolite Delicates recallado, 50 onças fluidas"
+            },
+            {
+              "Caption": "Detergente Woolite Delicates recallado, 50 onças fluidas e localização do código de lote e SKU"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Nenhum relatado"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponível exclusivamente no Amazon.com em janeiro de 2025, com preços entre $14 e $17."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Reckitt Benckiser LLC, de Parsippany, Nova Jersey"
+            }
+          ],
+          "SoldAtLabel": "Vendidos Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "Estados Unidos"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risco de exposição a bactérias do gênero Pseudomonas"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Processo de reembolso total para o detergente Woolite Delicates recallado"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reembolso"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "रेकिट ने बैक्टीरियल संदूषण जोखिम के कारण वूलाइट डेलिकेट्स डिटर्जेंट की वापसी की",
+          "Description": "रेकिट ने वूलाइट डेलिकेट्स डिटर्जेंट के 50-फ्लुइड-औंस की बोतलों की वापसी की है क्योंकि इनमें पीseudomonas प्रजातियों के बैक्टीरिया से संदूषण का संभावित खतरा है। प्रभावित उत्पाद, जिनकी पहचान लॉट कोड S24364, S24365, और S24366 द्वारा की गई है, केवल Amazon.com पर बेचे गए थे। लॉट कोड बोतल के पीछे के शीर्ष पर मुद्रित पाया जा सकता है, जिसमें हल्के गुलाबी लेबल और ढक्कन के साथ सफेद डिज़ाइन है।",
+          "ConsumerContact": "सहायता के लिए, उपभोक्ता रेकिट से 800-228-4722 पर सुबह 9 बजे से शाम 5 बजे ईटी, सोमवार से शुक्रवार, पर संपर्क कर सकते हैं, या ConsumerCare_USA@reckitt.com पर ईमेल कर सकते हैं, या आगे की जानकारी के लिए https://www.woolite.us/Voluntary-Recall/ पर जा सकते हैं।",
+          "metaDescription": "रेकिट ने बैक्टीरियल संदूषण जोखिम के कारण वूलाइट डेलिकेट्स डिटर्जेंट की वापसी की। जानें कि रिफंड कैसे प्राप्त करें और उत्पाद को सुरक्षित रूप से नष्ट करें।",
+          "Products": [
+            {
+              "Name": "वूलाइट डेलिकेट्स डिटर्जेंट (50-फ्लुइड-औंस की बोतल)",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 16,200"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "वापसी की गई वूलाइट डेलिकेट्स डिटर्जेंट, 50 फ्लुइड औंस"
+            },
+            {
+              "Caption": "वापसी की गई वूलाइट डेलिकेट्स डिटर्जेंट, 50 फ्लुइड औंस और लॉट कोड और SKU का स्थान"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "कोई रिपोर्ट नहीं की गई"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "जनवरी 2025 में केवल Amazon.com पर उपलब्ध, कीमत $14 से $17 के बीच।"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "रेकिट बेंकिसर एलएलसी, पार्सिप्पनी, न्यू जर्सी"
+            }
+          ],
+          "SoldAtLabel": "बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "संयुक्त राज्य अमेरिका"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "पीseudomonas प्रजातियों के बैक्टीरिया के संपर्क का जोखिम"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "वापसी की गई वूलाइट डेलिकेट्स डिटर्जेंट के लिए पूर्ण रिफंड प्रक्रिया"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "रिफंड"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "Reckitt отзывает средство для стирки Woolite Delicates из-за риска бактериального загрязнения",
+          "Description": "Reckitt объявила об отзыве 50-унцевых бутылок средства для стирки Woolite Delicates из-за потенциального загрязнения бактериями рода Pseudomonas. Затронутые продукты, идентифицированные по кодам партий S24364, S24365 и S24366, продавались исключительно на Amazon.com. Код партии можно найти, напечатанным на верхней части задней стороны бутылки, которая имеет белый дизайн с светло-розовой этикеткой и крышкой.",
+          "ConsumerContact": "Для получения помощи потребители могут обратиться в Reckitt по телефону 800-228-4722 с 9:00 до 17:00 по восточному времени, с понедельника по пятницу, по электронной почте по адресу ConsumerCare_USA@reckitt.com или посетить https://www.woolite.us/Voluntary-Recall/ для получения дополнительной информации.",
+          "metaDescription": "Reckitt отзывает средство для стирки Woolite Delicates из-за риска бактериального загрязнения. Узнайте, как получить возврат и безопасно утилизировать продукт.",
+          "Products": [
+            {
+              "Name": "Средство для стирки Woolite Delicates (бутылка 50 унций)",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 16,200"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванное средство для стирки Woolite Delicates, 50 унций"
+            },
+            {
+              "Caption": "Отозванное средство для стирки Woolite Delicates, 50 унций и местоположение кода партии и SKU"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Не сообщалось"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Доступно исключительно на Amazon.com в январе 2025 года, по цене от 14 до 17 долларов."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Reckitt Benckiser LLC, Пэрисиппани, Нью-Джерси"
+            }
+          ],
+          "SoldAtLabel": "Продавалось в",
+          "ManufacturerCountries": [
+            {
+              "Country": "Соединенные Штаты"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Риск воздействия бактерий рода Pseudomonas"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Процесс полного возврата для отозванного средства для стирки Woolite Delicates"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Возврат"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "Reckitt thu hồi bột giặt Woolite Delicates do nguy cơ ô nhiễm vi khuẩn",
+          "Description": "Reckitt đã phát động thu hồi các chai bột giặt Woolite Delicates 50 ounce do có khả năng ô nhiễm với vi khuẩn Pseudomonas. Các sản phẩm bị ảnh hưởng, được xác định bằng mã lô S24364, S24365 và S24366, chỉ được bán trên Amazon.com. Mã lô có thể được tìm thấy in trên đỉnh mặt sau của chai, với thiết kế màu trắng và nhãn cùng nắp màu hồng nhạt.",
+          "ConsumerContact": "Để được hỗ trợ, người tiêu dùng có thể liên hệ với Reckitt qua số điện thoại 800-228-4722 từ 9 giờ sáng đến 5 giờ chiều ET, từ thứ Hai đến thứ Sáu, qua email tại ConsumerCare_USA@reckitt.com, hoặc truy cập https://www.woolite.us/Voluntary-Recall/ để biết thêm chi tiết.",
+          "metaDescription": "Reckitt thu hồi bột giặt Woolite Delicates do nguy cơ ô nhiễm vi khuẩn. Tìm hiểu cách nhận hoàn tiền và xử lý sản phẩm một cách an toàn.",
+          "Products": [
+            {
+              "Name": "Bột giặt Woolite Delicates (chai 50 ounce)",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 16.200"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Bột giặt Woolite Delicates bị thu hồi, 50 ounce"
+            },
+            {
+              "Caption": "Bột giặt Woolite Delicates bị thu hồi, 50 ounce và vị trí của mã lô và SKU"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Không có báo cáo"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Chỉ có sẵn trên Amazon.com vào tháng 1 năm 2025, giá từ 14 đến 17 đô la."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Reckitt Benckiser LLC, ở Parsippany, New Jersey"
+            }
+          ],
+          "SoldAtLabel": "Bán Tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Hoa Kỳ"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Nguy cơ tiếp xúc với vi khuẩn Pseudomonas"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Quy trình hoàn tiền đầy đủ cho bột giặt Woolite Delicates bị thu hồi"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Hoàn tiền"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    }
+  ]
+}

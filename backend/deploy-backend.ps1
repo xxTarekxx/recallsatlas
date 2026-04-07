@@ -2,6 +2,8 @@
 <#
   Remote: under /var/www/html/recallsatlas/backend, delete everything except:
     node_modules/, package-lock.json, package.json, .env
+  For scripts/: wipe and re-upload only the deployable children; on the VPS, preserve
+    scripts/generalRecalls and scripts/rewritingWithOpenAi (not deleted, not uploaded).
   Then upload this folder from local (no node_modules — server keeps its install).
 
   Config: same as frontend — prefer backend/deploy.env.ps1, else ../frontend/deploy.env.ps1
@@ -11,12 +13,11 @@
 
   Does not upload local .env or deploy.env.ps1 (server .env is preserved by the clean step).
 
-  Skips these subfolders (VPS keeps its own copies / local-only tooling):
-    - scripts/cars               (downloads, category scripts run locally)
-    - scripts/generalRecalls       (large CSV downloads + merged JSON — run locally; do not deploy)
-    - scripts/generalRecalls/openaiTranslating (i18n JSON output — run locally; do not deploy)
-    - scripts/rewritingWithOpenAi (OpenAI translate / merge scripts — run locally; do not deploy)
-    - database/cars         (e.g. cars.json updated on VPS from VIN lookups — do not overwrite on deploy)
+  Skips these subfolders (no scp; remote clean leaves VPS copies untouched):
+    - scripts/cars
+    - scripts/generalRecalls       (incl. openaiTranslating, CSV/JSON — VPS copy preserved across deploys)
+    - scripts/rewritingWithOpenAi
+    - database/cars
 #>
 [CmdletBinding()]
 param(
@@ -75,8 +76,9 @@ if ($env:DEPLOY_SSH_EXTRA) { $SshBase += ($env:DEPLOY_SSH_EXTRA -split '\s+') }
 $rb = $RemoteBackend.Replace('\', '/')
 
 function Invoke-RemoteBackendClean {
+  # Preserve scripts/generalRecalls and scripts/rewritingWithOpenAi on the VPS (move aside, wipe scripts, restore).
   # Same pattern as frontend/deploy-next.ps1: one remote shell string (no stdin / no multiline CRLF).
-  $bash = 'cd ''' + $rb + "'" + ' && for item in $(ls -A); do case "$item" in node_modules|package-lock.json|package.json|.env) ;; *) rm -rf "$item" ;; esac; done'
+  $bash = 'cd ''' + $rb + "'" + ' && for item in $(ls -A); do case "$item" in node_modules|package-lock.json|package.json|.env) ;; scripts) if [ -d scripts ]; then t=$(mktemp -d); [ -d scripts/generalRecalls ] && mv scripts/generalRecalls "$t/"; [ -d scripts/rewritingWithOpenAi ] && mv scripts/rewritingWithOpenAi "$t/"; rm -rf scripts; mkdir -p scripts; [ -d "$t/generalRecalls" ] && mv "$t/generalRecalls" scripts/; [ -d "$t/rewritingWithOpenAi" ] && mv "$t/rewritingWithOpenAi" scripts/; rm -rf "$t"; fi ;; *) rm -rf "$item" ;; esac; done'
   & ssh @SshBase $SshTarget $bash
   if ($LASTEXITCODE -ne 0) { throw "ssh remote clean failed (exit $LASTEXITCODE)" }
 }
@@ -99,7 +101,7 @@ $skipDatabaseChildren = @{
   'cars' = $true
 }
 
-Write-Host "Remote clean: $rb on $SshTarget (keeping node_modules, package.json, package-lock.json, .env)"
+Write-Host "Remote clean: $rb on $SshTarget (keeping node_modules, package.json, package-lock.json, .env; preserving scripts/generalRecalls + scripts/rewritingWithOpenAi on server)"
 Invoke-RemoteBackendClean
 
 $items = Get-ChildItem -LiteralPath $PSScriptRoot -Force | Where-Object {

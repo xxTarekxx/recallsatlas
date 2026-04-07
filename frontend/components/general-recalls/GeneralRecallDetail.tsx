@@ -1,4 +1,5 @@
 import Link from "next/link";
+import GeneralRecallCategoryTag from "@/components/general-recalls/GeneralRecallCategoryTag";
 import RecallDetailImageSlider from "@/components/fda/RecallDetailImageSlider";
 import type { GeneralRecall } from "@/lib/general-recalls-data";
 import { getGeneralRecallContentDir, mergeGeneralRecallForUiLang } from "@/lib/general-recalls-data";
@@ -33,7 +34,15 @@ export default function GeneralRecallDetail({ recall, lang }: Props) {
       <main className="recall-detail-main">
         <article className="recall-detail-article" dir={contentDir} lang={lang}>
           <div className="recall-detail-hero">
-            <span className="recall-detail-badge">CPSC product recall</span>
+            <div className="recall-detail-hero-badges">
+              <span className="recall-detail-badge">CPSC product recall</span>
+              {recall.sourceCategoryKey ? (
+                <GeneralRecallCategoryTag
+                  categoryKey={recall.sourceCategoryKey}
+                  className="recall-detail-category-tag"
+                />
+              ) : null}
+            </div>
             {recall.RecallNumber && (
               <p style={{ margin: "0 0 0.5rem", fontSize: "0.875rem", color: "#64748b" }}>
                 Recall #{recall.RecallNumber}

@@ -8,4 +8,6 @@ export type GeneralRecallListItem = {
   brand: string;
   imageUrl: string | null;
   recallNumber: string;
+  /** Source JSON basename without `.json`, e.g. `accessories`. */
+  categoryKey: string;
 };

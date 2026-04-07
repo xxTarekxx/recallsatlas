@@ -1,4 +1,5 @@
 import Link from "next/link";
+import GeneralRecallCategoryTag from "@/components/general-recalls/GeneralRecallCategoryTag";
 import { RECALL_CARD_UI } from "@/lib/recallCardUi";
 import type { GeneralRecallListItem } from "@/lib/generalRecallListTypes";
 import { getShortRecallTitle } from "@/lib/recall-utils";
@@ -47,6 +48,12 @@ export default function GeneralRecallCard({ item, uiLang = "en" }: Props) {
 
   return (
     <article className="recall-card" dir={cardDir} lang={uiLang}>
+      {item.categoryKey ? (
+        <GeneralRecallCategoryTag
+          categoryKey={item.categoryKey}
+          className="recall-card-category-tag"
+        />
+      ) : null}
       <span
         className="recall-card-status recall-card-status--ongoing"
         aria-label={labels.consumerProduct}

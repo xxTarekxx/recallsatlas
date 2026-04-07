@@ -52,6 +52,18 @@
   border-bottom: 1px solid var(--color-border, #e2e8f0);
 }
 
+.recall-detail-hero-badges {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35rem 0.5rem;
+  margin: 0 0 var(--spacing-sm);
+}
+
+.recall-detail-hero-badges .recall-detail-badge {
+  margin: 0;
+}
+
 .recall-detail-badge {
   display: inline-block;
   font-size: 0.75rem;
@@ -60,6 +72,42 @@
   letter-spacing: 0.05em;
   color: var(--color-primary);
   margin: 0 0 var(--spacing-sm);
+}
+
+/* Consumer recall category (source JSON file stem) — hue set inline via --gr-cat-hue */
+.general-recall-category-tag {
+  display: inline-block;
+  max-width: 100%;
+  font-size: 0.625rem;
+  font-weight: 600;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 0.2rem 0.45rem;
+  border-radius: 999px;
+  border: 1px solid hsl(var(--gr-cat-hue, 210) 36% 78%);
+  background-color: hsl(var(--gr-cat-hue, 210) 38% 94%);
+  color: hsl(var(--gr-cat-hue, 210) 42% 22%);
+  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.05);
+}
+
+.recall-card-category-tag.general-recall-category-tag {
+  position: absolute;
+  top: var(--spacing-sm);
+  inset-inline-start: var(--spacing-md);
+  z-index: 2;
+  max-width: min(11rem, calc(100% - 5.5rem));
+  pointer-events: none;
+}
+
+.recall-detail-category-tag.general-recall-category-tag {
+  font-size: 0.6875rem;
+  padding: 0.22rem 0.5rem;
+  white-space: normal;
+  max-width: min(100%, 20rem);
+  line-height: 1.3;
 }
 
 .recall-detail-title {

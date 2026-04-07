@@ -7,6 +7,9 @@
  * plus dir + lang on each block (like recalls.json language entries).
  * Top-level recall fields stay English from source (IDs, URLs, dates, image paths, etc.).
  *
+ * Same CPSC recall can appear in multiple category JSON files (different slugs); the site dedupes
+ * by RecallNumber when listing. This script also drops duplicate rows *within* one source file.
+ *
  * Progress: batched parallel OpenAI calls (default concurrency 8); writes after each batch.
  * Resume via meta.i18nProgressByLang (consecutive recalls done per locale).
  *
@@ -106,6 +109,43 @@ function hr() {
 
 function tag(label, colorFn) {
   return colorFn(` ${label} `);
+}
+
+/** Same key as frontend getGeneralRecallDedupeKey — collapse bad merges inside one file. */
+function dedupeRecallRowsInFile(recalls, fileName) {
+  const seen = new Map();
+  const out = [];
+  let dropped = 0;
+  for (const r of recalls) {
+    const n = String(r.RecallNumber ?? "").trim();
+    const k = n
+      ? `rn:${n}`
+      : typeof r.RecallID === "number" && Number.isFinite(r.RecallID)
+        ? `id:${r.RecallID}`
+        : typeof r.URL === "string" && r.URL.trim()
+          ? `url:${r.URL.trim()}`
+          : typeof r.slug === "string" && r.slug.trim()
+            ? `slug:${r.slug.trim()}`
+            : "";
+    if (!k) {
+      out.push(r);
+      continue;
+    }
+    if (seen.has(k)) {
+      dropped++;
+      continue;
+    }
+    seen.set(k, true);
+    out.push(r);
+  }
+  if (dropped > 0) {
+    console.warn(
+      tag("DEDUPE", t.yellow),
+      t.white(fileName),
+      t.dim(`removed ${dropped} duplicate row(s) in this file (same RecallNumber / RecallID / URL / slug)`)
+    );
+  }
+  return out;
 }
 
 const TOKEN_LOG_PATH = path.join(ROOT, "i18nTokenLog.jsonl");
@@ -389,7 +429,7 @@ async function main() {
     const outPath = path.join(OUT_ROOT, fileName);
 
     const raw = JSON.parse(fs.readFileSync(srcPath, "utf8"));
-    const recalls = raw.recalls || [];
+    const recalls = dedupeRecallRowsInFile(raw.recalls || [], fileName);
     const N = recalls.length;
 
     let outRecalls = initOutRecallsFromSource(recalls);

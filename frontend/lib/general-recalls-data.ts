@@ -34,6 +34,8 @@ export type GeneralRecall = {
   Injuries?: { Name?: string }[];
   /** Per-UI-lang copy from OpenAI i18n (same shape as top-level fields; Images are usually caption-only). */
   languages?: Record<string, Record<string, unknown>>;
+  /** Set when loading from disk: `translatedJson` / source file basename without `.json`. */
+  sourceCategoryKey?: string;
   [key: string]: unknown;
 };
 
@@ -71,6 +73,21 @@ export function getGeneralRecallSlug(recall: GeneralRecall): string | null {
   const legacy = recall.seo?.slug;
   if (typeof legacy === "string" && legacy.trim()) return legacy.trim();
   return null;
+}
+
+/**
+ * One key per real-world recall so category JSON duplicates (same CPSC recall in multiple files
+ * with different `slug`) collapse to a single list row / sitemap entry.
+ */
+export function getGeneralRecallDedupeKey(recall: GeneralRecall): string {
+  const n = typeof recall.RecallNumber === "string" ? recall.RecallNumber.trim() : "";
+  if (n) return `rn:${n}`;
+  const id = recall.RecallID;
+  if (typeof id === "number" && Number.isFinite(id)) return `id:${id}`;
+  const u = typeof recall.URL === "string" ? recall.URL.trim() : "";
+  if (u) return `url:${u}`;
+  const slug = getGeneralRecallSlug(recall);
+  return slug ? `slug:${slug}` : "";
 }
 
 function langPackForUi(recall: GeneralRecall, lang: SiteUiLang): Record<string, unknown> | null {
@@ -142,10 +159,45 @@ function listTranslatedJsonFiles(dir: string): string[] {
     .sort();
 }
 
+function jsonFileCategoryStem(fileName: string): string {
+  return path.basename(fileName, path.extname(fileName));
+}
+
+type GeneralRecallDedupeEntry = { recall: GeneralRecall; categoryKey: string };
+
+/** Merge rows across category files; `categoryKey` follows the winning row’s source file. */
+function buildGeneralRecallDedupeMap(dir: string): Map<string, GeneralRecallDedupeEntry> {
+  const byDedupe = new Map<string, GeneralRecallDedupeEntry>();
+  for (const file of listTranslatedJsonFiles(dir)) {
+    const stem = jsonFileCategoryStem(file);
+    let doc: GeneralRecallDoc;
+    try {
+      const raw = fs.readFileSync(path.join(dir, file), "utf8");
+      doc = JSON.parse(raw) as GeneralRecallDoc;
+    } catch {
+      continue;
+    }
+    for (const r of doc.recalls || []) {
+      const key = getGeneralRecallDedupeKey(r);
+      if (!key) continue;
+      const prev = byDedupe.get(key);
+      if (!prev) {
+        byDedupe.set(key, { recall: r, categoryKey: stem });
+      } else {
+        const winner = pickNewerGeneralRecallRow(prev.recall, r);
+        const categoryKey = winner === r ? stem : prev.categoryKey;
+        byDedupe.set(key, { recall: winner, categoryKey });
+      }
+    }
+  }
+  return byDedupe;
+}
+
 export function loadGeneralRecallBySlug(slug: string): GeneralRecall | null {
   const dir = getGeneralRecallsTranslatedDir();
   if (!dir) return null;
   for (const file of listTranslatedJsonFiles(dir)) {
+    const stem = jsonFileCategoryStem(file);
     const raw = fs.readFileSync(path.join(dir, file), "utf8");
     let doc: GeneralRecallDoc;
     try {
@@ -154,7 +206,9 @@ export function loadGeneralRecallBySlug(slug: string): GeneralRecall | null {
       continue;
     }
     for (const r of doc.recalls || []) {
-      if (getGeneralRecallSlug(r) === slug) return r;
+      if (getGeneralRecallSlug(r) === slug) {
+        return { ...r, sourceCategoryKey: stem };
+      }
     }
   }
   return null;
@@ -169,26 +223,18 @@ export function getAllGeneralRecallSlugs(): string[] {
   return out.sort((a, b) => a.localeCompare(b));
 }
 
-/** Slug → lastModified for sitemap (dedupes duplicate slugs across files — latest wins). */
+/** Slug → lastModified for sitemap (one slug per CPSC recall; duplicate category files deduped). */
 export function getGeneralRecallSlugDateMap(): Map<string, Date> {
   const dir = getGeneralRecallsTranslatedDir();
   const map = new Map<string, Date>();
   if (!dir) return map;
-  for (const file of listTranslatedJsonFiles(dir)) {
-    let doc: GeneralRecallDoc;
-    try {
-      const raw = fs.readFileSync(path.join(dir, file), "utf8");
-      doc = JSON.parse(raw) as GeneralRecallDoc;
-    } catch {
-      continue;
-    }
-    for (const r of doc.recalls || []) {
-      const s = getGeneralRecallSlug(r);
-      if (!s) continue;
-      const lm = getGeneralRecallLastModified(r);
-      const prev = map.get(s);
-      if (!prev || lm.getTime() > prev.getTime()) map.set(s, lm);
-    }
+  const byDedupe = buildGeneralRecallDedupeMap(dir);
+  for (const { recall: r } of byDedupe.values()) {
+    const s = getGeneralRecallSlug(r);
+    if (!s) continue;
+    const lm = getGeneralRecallLastModified(r);
+    const prev = map.get(s);
+    if (!prev || lm.getTime() > prev.getTime()) map.set(s, lm);
   }
   return map;
 }
@@ -202,6 +248,24 @@ export function getGeneralRecallLastModified(recall: GeneralRecall): Date {
     }
   }
   return new Date();
+}
+
+function countGeneralRecallLangKeys(recall: GeneralRecall): number {
+  if (!recall.languages || typeof recall.languages !== "object") return 0;
+  return Object.keys(recall.languages).length;
+}
+
+/** When two JSON rows are the same CPSC recall, keep the freshest / most-complete row for canonical URL. */
+function pickNewerGeneralRecallRow(a: GeneralRecall, b: GeneralRecall): GeneralRecall {
+  const ta = getGeneralRecallLastModified(a).getTime();
+  const tb = getGeneralRecallLastModified(b).getTime();
+  if (ta !== tb) return ta > tb ? a : b;
+  const la = countGeneralRecallLangKeys(a);
+  const lb = countGeneralRecallLangKeys(b);
+  if (la !== lb) return la > lb ? a : b;
+  const sa = getGeneralRecallSlug(a) || "";
+  const sb = getGeneralRecallSlug(b) || "";
+  return sa <= sb ? a : b;
 }
 
 function stripHtml(html: string): string {
@@ -222,7 +286,8 @@ function itemDateMs(item: GeneralRecallListItem): number {
 }
 
 /**
- * All general recalls for listing, deduped by slug (latest date wins), newest first.
+ * All general recalls for listing, deduped by CPSC identity (RecallNumber, else RecallID/URL/slug),
+ * then one canonical slug per recall (newest / most-translated row wins). Newest first.
  * Cached per process; restart the server to pick up JSON changes on disk.
  */
 export function loadGeneralRecallListIndex(lang: SiteUiLang = "en"): GeneralRecallListItem[] {
@@ -235,58 +300,46 @@ export function loadGeneralRecallListIndex(lang: SiteUiLang = "en"): GeneralReca
     listIndexCache.set(lang, []);
     return [];
   }
-  const bySlug = new Map<string, GeneralRecallListItem>();
+  const byDedupe = buildGeneralRecallDedupeMap(dir);
 
-  for (const file of listTranslatedJsonFiles(dir)) {
-    let doc: GeneralRecallDoc;
-    try {
-      const raw = fs.readFileSync(path.join(dir, file), "utf8");
-      doc = JSON.parse(raw) as GeneralRecallDoc;
-    } catch {
-      continue;
-    }
-    for (const r of doc.recalls || []) {
-      const slug = getGeneralRecallSlug(r);
-      if (!slug) continue;
+  const items: GeneralRecallListItem[] = [];
+  for (const { recall: r, categoryKey } of byDedupe.values()) {
+    const slug = getGeneralRecallSlug(r);
+    if (!slug) continue;
 
-      const m = mergeGeneralRecallForUiLang(r, lang);
-      const titleRaw = typeof m.Title === "string" && m.Title.trim() ? m.Title.trim() : slug.replace(/-/g, " ");
-      const desc = typeof m.Description === "string" ? stripHtml(m.Description) : "";
-      const summary = desc.length > 280 ? `${desc.slice(0, 280).trim()}…` : desc;
+    const m = mergeGeneralRecallForUiLang(r, lang);
+    const titleRaw = typeof m.Title === "string" && m.Title.trim() ? m.Title.trim() : slug.replace(/-/g, " ");
+    const desc = typeof m.Description === "string" ? stripHtml(m.Description) : "";
+    const summary = desc.length > 280 ? `${desc.slice(0, 280).trim()}…` : desc;
 
-      const productType =
-        (typeof m.Products?.[0]?.Type === "string" && m.Products[0].Type.trim()) ||
-        (typeof m.Hazards?.[0]?.Name === "string" && m.Hazards[0].Name.trim()) ||
-        "";
-      const brand =
-        (typeof m.Products?.[0]?.Name === "string" && m.Products[0].Name.trim()) || "";
-      const img0 = r.Images?.[0]?.URL;
-      const imageUrl = typeof img0 === "string" && img0.trim() ? img0.trim() : null;
-      const rd =
-        (typeof r.RecallDate === "string" && r.RecallDate.trim()) ||
-        (typeof r.lastTranslatedAt === "string" && r.lastTranslatedAt.trim()) ||
-        "";
-      const recallNumber = typeof r.RecallNumber === "string" ? r.RecallNumber.trim() : "";
+    const productType =
+      (typeof m.Products?.[0]?.Type === "string" && m.Products[0].Type.trim()) ||
+      (typeof m.Hazards?.[0]?.Name === "string" && m.Hazards[0].Name.trim()) ||
+      "";
+    const brand =
+      (typeof m.Products?.[0]?.Name === "string" && m.Products[0].Name.trim()) || "";
+    const img0 = r.Images?.[0]?.URL;
+    const imageUrl = typeof img0 === "string" && img0.trim() ? img0.trim() : null;
+    const rd =
+      (typeof r.RecallDate === "string" && r.RecallDate.trim()) ||
+      (typeof r.lastTranslatedAt === "string" && r.lastTranslatedAt.trim()) ||
+      "";
+    const recallNumber = typeof r.RecallNumber === "string" ? r.RecallNumber.trim() : "";
 
-      const item: GeneralRecallListItem = {
-        slug,
-        title: titleRaw,
-        recallDate: rd,
-        summary,
-        productType,
-        brand,
-        imageUrl,
-        recallNumber,
-      };
-
-      const prev = bySlug.get(slug);
-      if (!prev || itemDateMs(item) >= itemDateMs(prev)) {
-        bySlug.set(slug, item);
-      }
-    }
+    items.push({
+      slug,
+      title: titleRaw,
+      recallDate: rd,
+      summary,
+      productType,
+      brand,
+      imageUrl,
+      recallNumber,
+      categoryKey,
+    });
   }
 
-  const sorted = Array.from(bySlug.values()).sort((a, b) => itemDateMs(b) - itemDateMs(a));
+  const sorted = items.sort((a, b) => itemDateMs(b) - itemDateMs(a));
   listIndexCache.set(lang, sorted);
   return sorted;
 }
