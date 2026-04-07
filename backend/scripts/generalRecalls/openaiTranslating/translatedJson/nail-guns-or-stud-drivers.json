@@ -1,0 +1,806 @@
+{
+  "meta": {
+    "slug": "nail-guns-or-stud-drivers",
+    "sourceCsvFile": "nail-guns-or-stud-drivers_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:37.001Z",
+    "recallCount": 1,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "nail-guns-or-stud-drivers.json",
+    "seoTranslatedAt": "2026-04-04T06:59:59.597Z",
+    "resumePartial": false,
+    "i18nSource": "generalRecallsTranslated",
+    "i18nSourceFile": "nail-guns-or-stud-drivers.json",
+    "i18nUiLangs": [
+      "en",
+      "es",
+      "ar",
+      "zh",
+      "fr",
+      "de",
+      "ja",
+      "pt",
+      "hi",
+      "ru",
+      "vi"
+    ],
+    "i18nProgressByLang": {
+      "es": 1,
+      "ar": 1,
+      "zh": 1,
+      "fr": 1,
+      "de": 1,
+      "ja": 1,
+      "pt": 1,
+      "hi": 1,
+      "ru": 1,
+      "vi": 1
+    },
+    "i18nInProgress": false,
+    "i18nTranslatedAt": "2026-04-07T14:22:54.650Z",
+    "i18nOpenaiModel": "gpt-4o-mini"
+  },
+  "recalls": [
+    {
+      "RecallID": 10368,
+      "RecallNumber": "25416",
+      "RecallDate": "2025-07-31T00:00:00",
+      "Description": "TTI Consumer Power Tools has announced a recall for the RIDGID 18Volt Brushless 21-Degree and 30-Degree Framing Nailers. The affected units may have a malfunctioning dual action engagement system that can cause nails to discharge unexpectedly, creating a serious laceration risk. Consumers should check the data plate on the side of the nail tray or on the bottom of the nailer to identify if their product is part of this recall. Only nailers without a black ink mark or a punched hole next to the serial number are included in this recall.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/TTI-Consumer-Power-Tools-Recalls-RIDGID-Framing-Nailers-Due-to-Laceration-Hazard",
+      "Title": "TTI Consumer Power Tools Issues Recall for RIDGID Framing Nailers Due to Injury Risk",
+      "ConsumerContact": "For more information, contact TTI Consumer Power Tools at 800-597-9624 from 9 a.m. to 5 p.m. ET, Monday through Friday, or visit powertools.ridgid.com/recall for detailed instructions.",
+      "LastPublishDate": "2025-07-31T00:00:00",
+      "Products": [
+        {
+          "Name": "RIDGID 18Volt Brushless 21-Degree Framing Nailer",
+          "NumberOfUnits": "About 64,000 (In addition, about 6,575 were sold in Canada)"
+        }
+      ],
+      "Inconjunctions": [
+        {
+          "URL": "https://recalls-rappels.canada.ca/en/alert-recall/ridgid-18v-brushless-21-degree-and-30-degree-framing-nailers-recalled-due-laceration"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/nail-guns-or-stud-drivers/1-RIDGID-18Volt-Brushless-21-Degree-Framing-Nailer/28621792166cf26cd5aedbe1f49fff20.webp",
+          "Caption": "Recalled RIDGID 18Volt Brushless 21-Degree Framing Nailer",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/ridgid-1_0.png"
+        },
+        {
+          "URL": "/images/generalRecalls/nail-guns-or-stud-drivers/1-RIDGID-18Volt-Brushless-21-Degree-Framing-Nailer/2e202734820acf8b0ff6b147b73c0d07.webp",
+          "Caption": "Recalled RIDGID 18Volt Brushless 30-Degree Framing Nailer",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/rigid-2.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available at Home Depot and Direct Tools Factory Outlet stores across the U.S. and online at www.homedepot.com and www.directtoolsoutlet.com from July 2021 to May 2025, priced between $329 and $389."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "TTI Consumer Power Tools, Inc., of Anderson, South Carolina"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of laceration due to potential malfunction causing unexpected nail discharge"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Stop using the nailers immediately and check for recall eligibility online. A prepaid return label will be provided for the recalled nailers, which will be repaired and returned."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "R09894",
+        "R09895",
+        "CS21146D220001 - CS24165N220001",
+        "CS21275D220001 - CS24165N220001"
+      ],
+      "slug": "tti-consumer-power-tools-issues-recall-for-ridgid-framing-nailers-due-to-injury-risk-recall",
+      "metaDescription": "TTI recalls RIDGID Framing Nailers due to laceration hazards. Check if your nailer is affected and learn how to get a free repair.",
+      "languages": {
+        "en": {
+          "Title": "TTI Consumer Power Tools Issues Recall for RIDGID Framing Nailers Due to Injury Risk",
+          "Description": "TTI Consumer Power Tools has announced a recall for the RIDGID 18Volt Brushless 21-Degree and 30-Degree Framing Nailers. The affected units may have a malfunctioning dual action engagement system that can cause nails to discharge unexpectedly, creating a serious laceration risk. Consumers should check the data plate on the side of the nail tray or on the bottom of the nailer to identify if their product is part of this recall. Only nailers without a black ink mark or a punched hole next to the serial number are included in this recall.",
+          "ConsumerContact": "For more information, contact TTI Consumer Power Tools at 800-597-9624 from 9 a.m. to 5 p.m. ET, Monday through Friday, or visit powertools.ridgid.com/recall for detailed instructions.",
+          "metaDescription": "TTI recalls RIDGID Framing Nailers due to laceration hazards. Check if your nailer is affected and learn how to get a free repair.",
+          "Products": [
+            {
+              "Name": "RIDGID 18Volt Brushless 21-Degree Framing Nailer",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 64,000 (In addition, about 6,575 were sold in Canada)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled RIDGID 18Volt Brushless 21-Degree Framing Nailer"
+            },
+            {
+              "Caption": "Recalled RIDGID 18Volt Brushless 30-Degree Framing Nailer"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "None reported"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Available at Home Depot and Direct Tools Factory Outlet stores across the U.S. and online at www.homedepot.com and www.directtoolsoutlet.com from July 2021 to May 2025, priced between $329 and $389."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "TTI Consumer Power Tools, Inc., of Anderson, South Carolina"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Sold At",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risk of laceration due to potential malfunction causing unexpected nail discharge"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Stop using the nailers immediately and check for recall eligibility online. A prepaid return label will be provided for the recalled nailers, which will be repaired and returned."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Repair"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "TTI Consumer Power Tools emite un retiro para las clavadoras de enmarcar RIDGID debido al riesgo de lesiones",
+          "Description": "TTI Consumer Power Tools ha anunciado un retiro para las clavadoras de enmarcar RIDGID de 18 Voltios sin escobillas de 21 grados y 30 grados. Las unidades afectadas pueden tener un sistema de activación de doble acción que puede fallar, lo que puede causar que los clavos se disparen inesperadamente, creando un serio riesgo de laceración. Los consumidores deben verificar la placa de datos en el lado de la bandeja de clavos o en la parte inferior de la clavadora para identificar si su producto forma parte de este retiro. Solo las clavadoras sin una marca de tinta negra o un agujero perforado junto al número de serie están incluidas en este retiro.",
+          "ConsumerContact": "Para más información, contacte a TTI Consumer Power Tools al 800-597-9624 de 9 a.m. a 5 p.m. ET, de lunes a viernes, o visite powertools.ridgid.com/recall para obtener instrucciones detalladas.",
+          "metaDescription": "TTI retira las clavadoras de enmarcar RIDGID debido a riesgos de laceración. Verifique si su clavadora está afectada y aprenda cómo obtener una reparación gratuita.",
+          "Products": [
+            {
+              "Name": "Clavadora de enmarcar RIDGID de 18 Voltios sin escobillas de 21 grados",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 64,000 (Además, aproximadamente 6,575 se vendieron en Canadá)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Clavadora de enmarcar RIDGID de 18 Voltios sin escobillas de 21 grados retirada"
+            },
+            {
+              "Caption": "Clavadora de enmarcar RIDGID de 18 Voltios sin escobillas de 30 grados retirada"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Ninguna reportada"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible en Home Depot y tiendas Direct Tools Factory Outlet en todo EE. UU. y en línea en www.homedepot.com y www.directtoolsoutlet.com desde julio de 2021 hasta mayo de 2025, con precios entre $329 y $389."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "TTI Consumer Power Tools, Inc., de Anderson, Carolina del Sur"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendido en",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Riesgo de laceración debido a un posible mal funcionamiento que causa la descarga inesperada de clavos"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Deje de usar las clavadoras de inmediato y verifique la elegibilidad para el retiro en línea. Se proporcionará una etiqueta de devolución prepagada para las clavadoras retiradas, que serán reparadas y devueltas."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparar"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "TTI أدوات الطاقة الاستهلاكية تصدر استدعاء لمسدسات تثبيت RIDGID بسبب خطر الإصابة",
+          "Description": "أعلنت TTI أدوات الطاقة الاستهلاكية عن استدعاء لمسدسات تثبيت RIDGID 18Volt بدون فرش 21 درجة و30 درجة. قد تحتوي الوحدات المتأثرة على نظام تفاعل مزدوج معطل يمكن أن يتسبب في إطلاق المسامير بشكل غير متوقع، مما يخلق خطرًا خطيرًا من الجروح. يجب على المستهلكين التحقق من لوحة البيانات على جانب صينية المسامير أو على قاع المسدس لتحديد ما إذا كان منتجهم جزءًا من هذا الاستدعاء. فقط المسدسات التي لا تحتوي على علامة حبر سوداء أو ثقب مثقوب بجوار رقم السلسلة مشمولة في هذا الاستدعاء.",
+          "ConsumerContact": "للمزيد من المعلومات، اتصل بـ TTI أدوات الطاقة الاستهلاكية على الرقم 800-597-9624 من الساعة 9 صباحًا حتى 5 مساءً بتوقيت شرق الولايات المتحدة، من الاثنين إلى الجمعة، أو قم بزيارة powertools.ridgid.com/recall للحصول على تعليمات مفصلة.",
+          "metaDescription": "TTI تستدعي مسدسات تثبيت RIDGID بسبب مخاطر الجروح. تحقق مما إذا كان مسدسك متأثرًا وتعلم كيفية الحصول على إصلاح مجاني.",
+          "Products": [
+            {
+              "Name": "مسدس تثبيت RIDGID 18Volt بدون فرش 21 درجة",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 64,000 (بالإضافة إلى ذلك، تم بيع حوالي 6,575 في كندا)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "مسدس تثبيت RIDGID 18Volt بدون فرش 21 درجة المستدعى"
+            },
+            {
+              "Caption": "مسدس تثبيت RIDGID 18Volt بدون فرش 30 درجة المستدعى"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "لا توجد إصابات مسجلة"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "متوفر في متاجر Home Depot وDirect Tools Factory Outlet في جميع أنحاء الولايات المتحدة وعبر الإنترنت على www.homedepot.com وwww.directtoolsoutlet.com من يوليو 2021 إلى مايو 2025، بسعر يتراوح بين 329 دولارًا و389 دولارًا."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "TTI أدوات الطاقة الاستهلاكية، Inc.، من أندرسون، كارولاينا الجنوبية"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "تم البيع في",
+          "ManufacturerCountries": [
+            {
+              "Country": "الصين"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "خطر الإصابة بسبب عطل محتمل يسبب إطلاق المسامير بشكل غير متوقع"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "توقف عن استخدام المسدسات على الفور وتحقق من أهليتها للاستدعاء عبر الإنترنت. سيتم توفير ملصق عودة مدفوع مسبقًا للمسدسات المستدعاة، والتي سيتم إصلاحها وإعادتها."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "إصلاح"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "TTI消费者电动工具因受伤风险召回RIDGID框架钉枪",
+          "Description": "TTI消费者电动工具已宣布召回RIDGID 18伏无刷21度和30度框架钉枪。受影响的设备可能存在双重动作接合系统故障，可能导致钉子意外发射，从而造成严重的割伤风险。消费者应检查钉盘侧面或钉枪底部的数据标签，以确定其产品是否属于此次召回。仅未在序列号旁边有黑色墨水标记或打孔的钉枪包含在此次召回中。",
+          "ConsumerContact": "如需更多信息，请联系TTI消费者电动工具，电话：800-597-9624，工作时间为周一至周五，东部时间上午9点至下午5点，或访问powertools.ridgid.com/recall获取详细说明。",
+          "metaDescription": "TTI因割伤危险召回RIDGID框架钉枪。检查您的钉枪是否受影响，并了解如何获得免费维修。",
+          "Products": [
+            {
+              "Name": "RIDGID 18伏无刷21度框架钉枪",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约64,000台（此外，约6,575台在加拿大销售）"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "召回的RIDGID 18伏无刷21度框架钉枪"
+            },
+            {
+              "Caption": "召回的RIDGID 18伏无刷30度框架钉枪"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "无报告"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "在美国的家得宝和直接工具工厂直销店以及www.homedepot.com和www.directtoolsoutlet.com在线销售，销售时间为2021年7月至2025年5月，价格在329美元至389美元之间。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "南卡罗来纳州安德森的TTI消费者电动工具公司"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "销售地点",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "由于潜在故障导致意外钉子发射的割伤风险"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "立即停止使用钉枪，并在线检查召回资格。将为召回的钉枪提供预付回邮标签，进行维修后将其归还。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "维修"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "TTI Outils Électroportatifs Annonce un Rappel pour les Cloueuses de Charpente RIDGID en Raison d'un Risque de Blessure",
+          "Description": "TTI Outils Électroportatifs a annoncé un rappel pour les Cloueuses de Charpente RIDGID 18Volt Sans Balai de 21 Degrés et 30 Degrés. Les unités concernées peuvent avoir un système d'engagement à double action défectueux qui peut provoquer un tirage inattendu des clous, créant un risque de lacération sérieux. Les consommateurs doivent vérifier la plaque de données sur le côté du plateau à clous ou au bas de la cloueuse pour identifier si leur produit fait partie de ce rappel. Seules les cloueuses sans marque d'encre noire ou trou perforé à côté du numéro de série sont incluses dans ce rappel.",
+          "ConsumerContact": "Pour plus d'informations, contactez TTI Outils Électroportatifs au 800-597-9624 de 9 h à 17 h HNE, du lundi au vendredi, ou visitez powertools.ridgid.com/recall pour des instructions détaillées.",
+          "metaDescription": "TTI rappelle les Cloueuses de Charpente RIDGID en raison de risques de lacération. Vérifiez si votre cloueuse est concernée et apprenez comment obtenir une réparation gratuite.",
+          "Products": [
+            {
+              "Name": "Cloueuse de Charpente RIDGID 18Volt Sans Balai de 21 Degrés",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 64 000 (De plus, environ 6 575 ont été vendues au Canada)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Cloueuse de Charpente RIDGID 18Volt Sans Balai de 21 Degrés rappelée"
+            },
+            {
+              "Caption": "Cloueuse de Charpente RIDGID 18Volt Sans Balai de 30 Degrés rappelée"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Aucune rapportée"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible chez Home Depot et dans les magasins Direct Tools Factory Outlet à travers les États-Unis et en ligne sur www.homedepot.com et www.directtoolsoutlet.com de juillet 2021 à mai 2025, au prix compris entre 329 $ et 389 $."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "TTI Outils Électroportatifs, Inc., d'Anderson, Caroline du Sud"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendu À",
+          "ManufacturerCountries": [
+            {
+              "Country": "Chine"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risque de lacération en raison d'un dysfonctionnement potentiel provoquant un tirage inattendu des clous"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Cessez d'utiliser les cloueuses immédiatement et vérifiez l'éligibilité au rappel en ligne. Une étiquette de retour prépayée sera fournie pour les cloueuses rappelées, qui seront réparées et retournées."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Réparation"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "TTI Consumer Power Tools gibt Rückruf für RIDGID Rahmennagler wegen Verletzungsrisiko bekannt",
+          "Description": "TTI Consumer Power Tools hat einen Rückruf für die RIDGID 18Volt Bürstenlosen 21-Grad und 30-Grad Rahmennagler angekündigt. Die betroffenen Geräte können ein fehlerhaftes Dual-Action-Betätigungssystem haben, das dazu führen kann, dass Nägel unerwartet abgeschossen werden, was ein ernsthaftes Schnittverletzungsrisiko darstellt. Verbraucher sollten das Typenschild an der Seite des Nagelbehälters oder an der Unterseite des Naglers überprüfen, um festzustellen, ob ihr Produkt Teil dieses Rückrufs ist. Nur Nagler ohne einen schwarzen Tintenfleck oder ein gestanztes Loch neben der Seriennummer sind in diesem Rückruf enthalten.",
+          "ConsumerContact": "Für weitere Informationen kontaktieren Sie TTI Consumer Power Tools unter 800-597-9624 von 9 bis 17 Uhr ET, Montag bis Freitag, oder besuchen Sie powertools.ridgid.com/recall für detaillierte Anweisungen.",
+          "metaDescription": "TTI ruft RIDGID Rahmennagler wegen Schnittverletzungsgefahren zurück. Überprüfen Sie, ob Ihr Nagler betroffen ist, und erfahren Sie, wie Sie eine kostenlose Reparatur erhalten.",
+          "Products": [
+            {
+              "Name": "RIDGID 18Volt Bürstenloser 21-Grad Rahmennagler",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 64.000 (Zusätzlich wurden etwa 6.575 in Kanada verkauft)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Rückgerufener RIDGID 18Volt Bürstenloser 21-Grad Rahmennagler"
+            },
+            {
+              "Caption": "Rückgerufener RIDGID 18Volt Bürstenloser 30-Grad Rahmennagler"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Keine gemeldet"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Erhältlich bei Home Depot und Direct Tools Factory Outlet Geschäften in den USA sowie online unter www.homedepot.com und www.directtoolsoutlet.com von Juli 2021 bis Mai 2025, preislich zwischen 329 und 389 US-Dollar."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "TTI Consumer Power Tools, Inc., aus Anderson, South Carolina"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Verkauft Bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Schnittverletzungsrisiko aufgrund möglicher Fehlfunktionen, die unerwartetes Nagelabschießen verursachen"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Hören Sie sofort auf, die Nagler zu verwenden, und überprüfen Sie online die Rückrufberechtigung. Ein vorfrankiertes Rücksendeetikett wird für die zurückgerufenen Nagler bereitgestellt, die repariert und zurückgesendet werden."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparatur"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "TTIコンシューマーパワーツールがRIDGIDフレーミングネイラーのリコールを発表 - 負傷リスクについて",
+          "Description": "TTIコンシューマーパワーツールは、RIDGID 18ボルトブラシレス21度および30度フレーミングネイラーのリコールを発表しました。影響を受けるユニットは、釘が予期せず発射される原因となる不具合のある二重アクションエンゲージメントシステムを持っている可能性があり、深刻な切創リスクを引き起こす可能性があります。消費者は、自分の製品がこのリコールの対象であるかどうかを確認するために、釘トレイの側面またはネイラーの底にあるデータプレートを確認する必要があります。シリアル番号の隣に黒インクのマークや穴が開いていないネイラーのみがこのリコールに含まれます。\n",
+          "ConsumerContact": "詳細については、月曜日から金曜日の午前9時から午後5時（ET）まで、800-597-9624までTTIコンシューマーパワーツールにお問い合わせいただくか、powertools.ridgid.com/recallを訪れて詳細な指示を確認してください。",
+          "metaDescription": "TTIが切創の危険性によりRIDGIDフレーミングネイラーをリコールします。あなたのネイラーが影響を受けているか確認し、無料修理を受ける方法を学びましょう。",
+          "Products": [
+            {
+              "Name": "RIDGID 18ボルトブラシレス21度フレーミングネイラー",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約64,000台（さらに、約6,575台がカナダで販売されました）"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコールされたRIDGID 18ボルトブラシレス21度フレーミングネイラー"
+            },
+            {
+              "Caption": "リコールされたRIDGID 18ボルトブラシレス30度フレーミングネイラー"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "報告された負傷はなし"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "2021年7月から2025年5月まで、米国全土のホームデポおよびダイレクトツールファクトリーアウトレットストア、ならびにwww.homedepot.comおよびwww.directtoolsoutlet.comで販売され、価格は329ドルから389ドルの範囲です。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "サウスカロライナ州アンダーソンのTTIコンシューマーパワーツール社"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "販売場所",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "予期せぬ釘の発射を引き起こす可能性のある不具合による切創のリスク"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "ネイラーの使用を直ちに中止し、オンラインでリコールの適格性を確認してください。リコールされたネイラーには、修理されて返送されるための prepaid return label が提供されます。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "修理"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "TTI Ferramentas Elétricas do Consumidor Emite Recall para Pregadores de Estrutura RIDGID Devido ao Risco de Lesão",
+          "Description": "A TTI Ferramentas Elétricas do Consumidor anunciou um recall para os Pregadores de Estrutura RIDGID 18Volt Sem Escovas de 21 Graus e 30 Graus. As unidades afetadas podem ter um sistema de engajamento de ação dupla com mau funcionamento que pode fazer com que os pregos sejam disparados inesperadamente, criando um sério risco de laceração. Os consumidores devem verificar a placa de dados na lateral da bandeja de pregos ou na parte inferior do pregador para identificar se seu produto faz parte deste recall. Apenas os pregadores sem uma marca de tinta preta ou um buraco perfurado ao lado do número de série estão incluídos neste recall.",
+          "ConsumerContact": "Para mais informações, entre em contato com a TTI Ferramentas Elétricas do Consumidor pelo telefone 800-597-9624 das 9h às 17h ET, de segunda a sexta-feira, ou visite powertools.ridgid.com/recall para instruções detalhadas.",
+          "metaDescription": "TTI faz recall dos Pregadores de Estrutura RIDGID devido a riscos de laceração. Verifique se seu pregador está afetado e aprenda como obter um reparo gratuito.",
+          "Products": [
+            {
+              "Name": "Pregador de Estrutura RIDGID 18Volt Sem Escovas de 21 Graus",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 64.000 (Além disso, cerca de 6.575 foram vendidos no Canadá)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Pregador de Estrutura RIDGID 18Volt Sem Escovas de 21 Graus Recall"
+            },
+            {
+              "Caption": "Pregador de Estrutura RIDGID 18Volt Sem Escovas de 30 Graus Recall"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Nenhuma relatada"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponível nas lojas Home Depot e Direct Tools Factory Outlet em todo os EUA e online em www.homedepot.com e www.directtoolsoutlet.com de julho de 2021 a maio de 2025, com preços entre $329 e $389."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "TTI Ferramentas Elétricas do Consumidor, Inc., de Anderson, Carolina do Sul"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendido Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risco de laceração devido a possível mau funcionamento causando disparo inesperado de pregos"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Pare de usar os pregadores imediatamente e verifique a elegibilidade para recall online. Uma etiqueta de retorno pré-paga será fornecida para os pregadores recallados, que serão reparados e devolvidos."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparo"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "टीटीआई उपभोक्ता पावर टूल्स ने चोट के जोखिम के कारण RIDGID फ्रेमिंग नेलर्स के लिए रिकॉल जारी किया",
+          "Description": "टीटीआई उपभोक्ता पावर टूल्स ने RIDGID 18Volt ब्रशलेस 21-डिग्री और 30-डिग्री फ्रेमिंग नेलर्स के लिए एक रिकॉल की घोषणा की है। प्रभावित इकाइयों में एक दोषपूर्ण डुअल एक्शन एंगेजमेंट सिस्टम हो सकता है जो नाखूनों को अप्रत्याशित रूप से डिस्चार्ज कर सकता है, जिससे गंभीर कटने का जोखिम पैदा होता है। उपभोक्ताओं को यह पहचानने के लिए नाखून ट्रे के किनारे या नेलर के नीचे डेटा प्लेट की जांच करनी चाहिए कि उनका उत्पाद इस रिकॉल का हिस्सा है या नहीं। केवल वे नेलर्स जिन पर काले स्याही का निशान या सीरियल नंबर के बगल में छिद्रित छिद्र नहीं है, इस रिकॉल में शामिल हैं।",
+          "ConsumerContact": "अधिक जानकारी के लिए, टीटीआई उपभोक्ता पावर टूल्स से 800-597-9624 पर सुबह 9 बजे से शाम 5 बजे ईटी, सोमवार से शुक्रवार तक संपर्क करें, या विस्तृत निर्देशों के लिए powertools.ridgid.com/recall पर जाएं।",
+          "metaDescription": "टीटीआई ने कटने के खतरों के कारण RIDGID फ्रेमिंग नेलर्स का रिकॉल किया। जांचें कि क्या आपका नेलर प्रभावित है और मुफ्त मरम्मत प्राप्त करने के तरीके के बारे में जानें।",
+          "Products": [
+            {
+              "Name": "RIDGID 18Volt ब्रशलेस 21-डिग्री फ्रेमिंग नेलर",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 64,000 (इसके अलावा, लगभग 6,575 कनाडा में बेचे गए)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "रिकॉल किया गया RIDGID 18Volt ब्रशलेस 21-डिग्री फ्रेमिंग नेलर"
+            },
+            {
+              "Caption": "रिकॉल किया गया RIDGID 18Volt ब्रशलेस 30-डिग्री फ्रेमिंग नेलर"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "कोई रिपोर्ट नहीं की गई"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "यू.एस. में होम डिपो और डायरेक्ट टूल्स फैक्ट्री आउटलेट स्टोर्स पर और www.homedepot.com तथा www.directtoolsoutlet.com पर जुलाई 2021 से मई 2025 तक उपलब्ध, कीमत $329 से $389 के बीच।"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "टीटीआई उपभोक्ता पावर टूल्स, इंक., एंडरसन, साउथ कैरोलिना"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "चीन"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "अप्रत्याशित नाखून डिस्चार्ज करने के कारण संभावित खराबी के कारण कटने का जोखिम"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "नेलर्स का उपयोग तुरंत बंद करें और ऑनलाइन रिकॉल पात्रता की जांच करें। रिकॉल किए गए नेलर्स के लिए एक प्रीपेड रिटर्न लेबल प्रदान किया जाएगा, जिसे मरम्मत करके वापस किया जाएगा।"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "मरम्मत"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "TTI Consumer Power Tools объявляет отзыв RIDGID для фрезеровочных гвоздезабивателей из-за риска травм",
+          "Description": "TTI Consumer Power Tools объявила отзыв RIDGID 18Volt Brushless 21-Degree и 30-Degree фрезеровочных гвоздезабивателей. Затронутые устройства могут иметь неисправную систему двойного действия, которая может привести к неожиданному выбросу гвоздей, создавая серьезный риск порезов. Потребители должны проверить табличку с данными на стороне лотка для гвоздей или на дне гвоздезабивателя, чтобы определить, входит ли их продукт в этот отзыв. В этот отзыв включены только гвоздезабиватели без черной чернильной метки или пробитого отверстия рядом с серийным номером.",
+          "ConsumerContact": "Для получения дополнительной информации свяжитесь с TTI Consumer Power Tools по телефону 800-597-9624 с 9:00 до 17:00 по восточному времени, с понедельника по пятницу, или посетите powertools.ridgid.com/recall для получения подробных инструкций.",
+          "metaDescription": "TTI отзывает RIDGID фрезеровочные гвоздезабиватели из-за опасностей порезов. Проверьте, затронут ли ваш гвоздезабиватель, и узнайте, как получить бесплатный ремонт.",
+          "Products": [
+            {
+              "Name": "RIDGID 18Volt Brushless 21-Degree фрезеровочный гвоздезабиватель",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 64,000 (Кроме того, около 6,575 были проданы в Канаде)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванный RIDGID 18Volt Brushless 21-Degree фрезеровочный гвоздезабиватель"
+            },
+            {
+              "Caption": "Отозванный RIDGID 18Volt Brushless 30-Degree фрезеровочный гвоздезабиватель"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Не сообщалось"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Доступно в магазинах Home Depot и Direct Tools Factory Outlet по всей территории США и онлайн на www.homedepot.com и www.directtoolsoutlet.com с июля 2021 года по май 2025 года, по цене от $329 до $389."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "TTI Consumer Power Tools, Inc., из Андерсона, Южная Каролина"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Продается в",
+          "ManufacturerCountries": [
+            {
+              "Country": "Китай"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Риск порезов из-за потенциальной неисправности, вызывающей неожиданный выброс гвоздей"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Немедленно прекратите использование гвоздезабивателей и проверьте право на отзыв онлайн. Будет предоставлена предоплаченная этикетка для возврата для отозванных гвоздезабивателей, которые будут отремонтированы и возвращены."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Ремонт"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "Công cụ điện tiêu dùng TTI thông báo thu hồi máy bắn đinh khung RIDGID do nguy cơ gây thương tích",
+          "Description": "Công cụ điện tiêu dùng TTI đã thông báo thu hồi máy bắn đinh khung RIDGID 18Volt không chổi than 21 độ và 30 độ. Các đơn vị bị ảnh hưởng có thể có hệ thống kích hoạt hành động kép bị lỗi, có thể khiến đinh bắn ra bất ngờ, tạo ra nguy cơ cắt đứt nghiêm trọng. Người tiêu dùng nên kiểm tra bảng dữ liệu ở bên hông khay đinh hoặc ở dưới đáy máy bắn đinh để xác định xem sản phẩm của họ có nằm trong đợt thu hồi này hay không. Chỉ những máy bắn đinh không có dấu mực đen hoặc lỗ đục bên cạnh số sê-ri mới được bao gồm trong đợt thu hồi này.",
+          "ConsumerContact": "Để biết thêm thông tin, hãy liên hệ với Công cụ điện tiêu dùng TTI qua số 800-597-9624 từ 9 giờ sáng đến 5 giờ chiều ET, từ thứ Hai đến thứ Sáu, hoặc truy cập powertools.ridgid.com/recall để biết hướng dẫn chi tiết.",
+          "metaDescription": "TTI thu hồi máy bắn đinh khung RIDGID do nguy cơ cắt đứt. Kiểm tra xem máy bắn đinh của bạn có bị ảnh hưởng và tìm hiểu cách nhận sửa chữa miễn phí.",
+          "Products": [
+            {
+              "Name": "Máy bắn đinh khung RIDGID 18Volt không chổi than 21 độ",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 64,000 (Ngoài ra, khoảng 6,575 chiếc đã được bán ở Canada)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Máy bắn đinh khung RIDGID 18Volt không chổi than 21 độ bị thu hồi"
+            },
+            {
+              "Caption": "Máy bắn đinh khung RIDGID 18Volt không chổi than 30 độ bị thu hồi"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Không có báo cáo nào"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Có mặt tại các cửa hàng Home Depot và Direct Tools Factory Outlet trên toàn nước Mỹ và trực tuyến tại www.homedepot.com và www.directtoolsoutlet.com từ tháng 7 năm 2021 đến tháng 5 năm 2025, với giá từ 329 đến 389 đô la."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Công cụ điện tiêu dùng TTI, Inc., ở Anderson, South Carolina"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Bán Tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Trung Quốc"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Nguy cơ cắt đứt do khả năng lỗi gây ra sự phát nổ đinh bất ngờ"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Ngừng sử dụng máy bắn đinh ngay lập tức và kiểm tra tính đủ điều kiện thu hồi trực tuyến. Một nhãn trả hàng đã thanh toán trước sẽ được cung cấp cho các máy bắn đinh bị thu hồi, sẽ được sửa chữa và trả lại."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Sửa chữa"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    }
+  ]
+}

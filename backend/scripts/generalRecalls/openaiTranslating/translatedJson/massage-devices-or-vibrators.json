@@ -30,14 +30,14 @@
       "zh": 1,
       "fr": 1,
       "de": 1,
-      "ja": 0,
-      "pt": 0,
-      "hi": 0,
-      "ru": 0,
-      "vi": 0
+      "ja": 1,
+      "pt": 1,
+      "hi": 1,
+      "ru": 1,
+      "vi": 1
     },
-    "i18nInProgress": true,
-    "i18nTranslatedAt": "2026-04-07T13:17:34.726Z",
+    "i18nInProgress": false,
+    "i18nTranslatedAt": "2026-04-07T13:47:55.773Z",
     "i18nOpenaiModel": "gpt-4o-mini"
   },
   "recalls": [
@@ -529,6 +529,346 @@
           ],
           "dir": "ltr",
           "lang": "de"
+        },
+        "ja": {
+          "Title": "HoMedicsが火災および火傷のリスクによりTherapist Selectマッサージ器をリコール",
+          "Description": "HoMedicsは、火災および火傷の危険性があるため、モデル番号HHP-715のTherapist Selectマッサージ器をリコールしています。これらのマッサージ器は、ハンドルと4つの交換可能なマッサージヘッドを備えた黒いデザインです。影響を受けるユニットは、120 VAC、60 HZの定格電源コードを持ち、2022年末までの製造日を含みます。消費者は、製品の底面にあるステッカーに記載された日付コードを確認することで製造日を特定できます。このコードはWWYY形式で、WWは年の週を示し、YYは年の最後の2桁を表します。YYコードが20、21、または22の製品のみがこのリコールに含まれます。",
+          "ConsumerContact": "消費者は、リコールされたマッサージ器の使用または充電を直ちに中止し、月曜日から金曜日の午前8時30分から午後5時（ET）までHoMedicsに800-466-3342で連絡することをお勧めします。追加情報は、https://recall.homedics.com/HHP-715でオンラインで入手できるほか、www.homedics.comを訪れてページの下部にある「リコール情報」を選択することでも入手できます。",
+          "metaDescription": "HoMedicsは火災および火傷の危険性によりTherapist Selectマッサージ器をリコールします。直ちに使用を中止し、返金のために連絡してください。",
+          "Products": [
+            {
+              "Name": "Therapist Selectマッサージ器",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約46,000台（さらに、約41,000台がカナダで販売されました）"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコールされたHoMedics Therapist Selectパーカッションマッサージ器HHP-715"
+            },
+            {
+              "Caption": "リコールされたHoMedics Therapist Selectパーカッションマッサージ器HHP-715のパッケージ"
+            },
+            {
+              "Caption": "モデル番号HHP-715と例の日付コード4521が記載された製品バレルの底面のステッカー"
+            },
+            {
+              "Caption": "モデル番号HHP-715とWWYY日付コードが記載された製品バレルの底面のステッカー"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "HoMedicsは、マッサージ器が過熱したとの報告を17件受けており、その中には消費者の親指に火傷を負ったとの報告が1件含まれています。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Macy's、BJ's Wholesale Club、Lowe's、JCPenney、The Home Depot、全国のさまざまな小売店、ならびにHomedics.com、Macys.com、BJs.com、Lowes.com、HomeDepot.com、Amazon.comで、2020年9月から2023年11月まで約100ドルで販売されていました。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "FKA Distributing Co. LLC、商号Homedics、ミシガン州コマースタウンシップ"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "販売場所",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "充電中の過熱による火災および火傷のリスク。"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "消費者は、マッサージ器の使用を中止し、HoMedicsに連絡して全額返金またはHoMedics製品へのクレジットを受けることをお勧めします。20%のボーナスも含まれます。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "返金"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "HoMedics Recalls Therapist Select Massagers Devido a Riscos de Incêndio e Queimaduras",
+          "Description": "A HoMedics está recolhendo seus Massageadores Therapist Select, número do modelo HHP-715, devido a potenciais riscos de incêndio e queimaduras. Esses massageadores apresentam um design preto com um cabo e quatro cabeçotes de massagem intercambiáveis. As unidades afetadas têm um cabo de alimentação classificado em 120 VAC, 60 HZ e incluem datas de fabricação até o final de 2022. Os consumidores podem identificar a data de fabricação por um código de data localizado em um adesivo na parte inferior do produto, formatado como WWYY, onde WW indica a semana do ano e YY representa os dois últimos dígitos do ano. Apenas produtos com códigos YY de 20, 21 ou 22 estão incluídos neste recall.",
+          "ConsumerContact": "Os consumidores devem parar de usar ou carregar os massageadores recolhidos imediatamente e entrar em contato com a HoMedics pelo telefone 800-466-3342, das 8h30 às 17h ET, de segunda a sexta-feira. Informações adicionais estão disponíveis online em https://recall.homedics.com/HHP-715 ou visitando www.homedics.com e selecionando 'Informações sobre Recall' na parte inferior da página.",
+          "metaDescription": "HoMedics recolhe Massageadores Therapist Select devido a riscos de incêndio e queimaduras. Pare de usar imediatamente e entre em contato para reembolsos.",
+          "Products": [
+            {
+              "Name": "Massageadores Therapist Select",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 46.000 (Além disso, cerca de 41.000 foram vendidos no Canadá)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Massageador de Percussão HoMedics Therapist Select HHP-715 recolhido"
+            },
+            {
+              "Caption": "Embalagem do Massageador de Percussão HoMedics Therapist Select HHP-715 recolhido"
+            },
+            {
+              "Caption": "Adesivo na parte inferior do cilindro do produto com o número do modelo HHP-715 e exemplo de código de data 4521"
+            },
+            {
+              "Caption": "Adesivo na parte inferior do cilindro do produto com o número do modelo HHP-715 e código de data WWYY"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "A HoMedics recebeu 17 relatos de sobreaquecimento dos massageadores, incluindo um relato de queimadura no polegar do consumidor."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponível na Macy's, BJ's Wholesale Club, Lowe's, JCPenney, The Home Depot e vários outros varejistas em todo o país, bem como online em Homedics.com, Macys.com, BJs.com, Lowes.com, HomeDepot.com e Amazon.com de setembro de 2020 até novembro de 2023 por aproximadamente $100."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "FKA Distributing Co. LLC, d/b/a Homedics, de Commerce Township, Michigan"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendido Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Sobre-aquecimento durante o carregamento levando a riscos de incêndio e queimaduras."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Os consumidores são aconselhados a interromper o uso dos massageadores e entrar em contato com a HoMedics para um reembolso total ou um crédito para qualquer produto HoMedics, incluindo um bônus de 20%."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reembolso"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "होमेडिक्स ने आग और जलने के जोखिम के कारण थेरेपिस्ट सेलेक्ट मसाजर्स को वापस बुलाया",
+          "Description": "होमेडिक्स अपने थेरेपिस्ट सेलेक्ट मसाजर्स, मॉडल नंबर HHP-715, को संभावित आग और जलने के खतरों के कारण वापस बुला रहा है। इन मसाजर्स में एक काले रंग का डिज़ाइन है जिसमें एक हैंडल और चार इंटरचेंज करने योग्य मसाज हेड हैं। प्रभावित इकाइयों में 120 VAC, 60 HZ की रेटिंग वाला पावर कॉर्ड है और इनमें 2022 के अंत तक के निर्माण तिथियाँ शामिल हैं। उपभोक्ता उत्पाद के निचले हिस्से पर एक स्टिकर पर स्थित तिथि कोड द्वारा निर्माण तिथि की पहचान कर सकते हैं, जिसे WWYY के रूप में फॉर्मेट किया गया है, जहाँ WW वर्ष का सप्ताह और YY वर्ष के अंतिम दो अंकों का प्रतिनिधित्व करता है। केवल उन उत्पादों को इस रिकॉल में शामिल किया गया है जिनके YY कोड 20, 21, या 22 हैं।",
+          "ConsumerContact": "उपभोक्ताओं को तुरंत वापस बुलाए गए मसाजर्स का उपयोग या चार्ज करना बंद कर देना चाहिए और होमेडिक्स से 800-466-3342 पर संपर्क करना चाहिए, सुबह 8:30 बजे से शाम 5 बजे ET, सोमवार से शुक्रवार। अतिरिक्त जानकारी ऑनलाइन https://recall.homedics.com/HHP-715 पर उपलब्ध है या www.homedics.com पर जाकर पृष्ठ के नीचे 'रिकॉल जानकारी' का चयन करके प्राप्त की जा सकती है।",
+          "metaDescription": "होमेडिक्स आग और जलने के खतरों के कारण थेरेपिस्ट सेलेक्ट मसाजर्स को वापस बुलाता है। तुरंत उपयोग करना बंद करें और रिफंड के लिए संपर्क करें।",
+          "Products": [
+            {
+              "Name": "थेरेपिस्ट सेलेक्ट मसाजर्स",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 46,000 (इसके अतिरिक्त, लगभग 41,000 कनाडा में बेचे गए)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "वापस बुलाया गया होमेडिक्स थेरेपिस्ट सेलेक्ट पर्कशन मसाजर HHP-715"
+            },
+            {
+              "Caption": "वापस बुलाया गया होमेडिक्स थेरेपिस्ट सेलेक्ट पर्कशन मसाजर HHP-715 पैकेजिंग"
+            },
+            {
+              "Caption": "उत्पाद के बैरल के निचले हिस्से पर स्टिकर जिसमें मॉडल नंबर HHP-715 और तिथि कोड 4521 का उदाहरण है"
+            },
+            {
+              "Caption": "उत्पाद के बैरल के निचले हिस्से पर स्टिकर जिसमें मॉडल नंबर HHP-715 और WWYY तिथि कोड है"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "होमेडिक्स को मसाजर्स के अधिक गर्म होने की 17 रिपोर्ट मिली हैं, जिसमें उपभोक्ता की अंगूठी पर जलने की एक रिपोर्ट शामिल है।"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "मैसीज़, बीजे के होलसेल क्लब, लोव्स, जेसीपेननी, द होम डिपो, और विभिन्न अन्य खुदरा विक्रेताओं के माध्यम से उपलब्ध, साथ ही होमेडिक्स.com, मैसीज़.com, बीजेएस.com, लोव्स.com, होमडिपो.com, और अमेज़न.com पर सितंबर 2020 से नवंबर 2023 तक लगभग $100 में।"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "FKA डिस्ट्रीब्यूटिंग कंपनी LLC, d/b/a होमेडिक्स, कॉमर्स टाउनशिप, मिशिगन"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "चीन"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "चार्जिंग के दौरान अधिक गर्म होना जिससे आग और जलने के जोखिम होते हैं।"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "उपभोक्ताओं को मसाजर्स का उपयोग बंद करने और होमेडिक्स से पूर्ण रिफंड या किसी भी होमेडिक्स उत्पाद के लिए क्रेडिट के लिए संपर्क करने की सलाह दी जाती है, जिसमें 20% बोनस शामिल है।"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "रिफंड"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "HoMedics отзывает массажеры Therapist Select из-за риска возгорания и ожогов",
+          "Description": "HoMedics отзывает свои массажеры Therapist Select, модель HHP-715, из-за потенциальных рисков возгорания и ожогов. Эти массажеры имеют черный дизайн с ручкой и четырьмя сменными массажными головками. Затронутые устройства имеют шнур питания с номиналом 120 В переменного тока, 60 Гц и включают даты производства до конца 2022 года. Потребители могут определить дату производства по коду даты, расположенному на наклейке на нижней стороне продукта, в формате WWYY, где WW указывает на неделю года, а YY представляет последние две цифры года. В отзыв включены только продукты с кодами YY 20, 21 или 22.",
+          "ConsumerContact": "Потребители должны немедленно прекратить использование или зарядку отозванных массажеров и обратиться в HoMedics по телефону 800-466-3342 с 8:30 до 17:00 по восточному времени, с понедельника по пятницу. Дополнительная информация доступна онлайн по адресу https://recall.homedics.com/HHP-715 или на сайте www.homedics.com, выбрав 'Информация о отзыве' внизу страницы.",
+          "metaDescription": "HoMedics отзывает массажеры Therapist Select из-за рисков возгорания и ожогов. Немедленно прекратите использование и свяжитесь для получения возврата.",
+          "Products": [
+            {
+              "Name": "Массажеры Therapist Select",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 46,000 (Кроме того, около 41,000 были проданы в Канаде)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванный массажер HoMedics Therapist Select HHP-715"
+            },
+            {
+              "Caption": "Упаковка отозванного массажера HoMedics Therapist Select HHP-715"
+            },
+            {
+              "Caption": "Наклейка на нижней стороне корпуса продукта с номером модели HHP-715 и примером кода даты 4521"
+            },
+            {
+              "Caption": "Наклейка на нижней стороне корпуса продукта с номером модели HHP-715 и кодом даты WWYY"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "HoMedics получила 17 сообщений о перегреве массажеров, включая одно сообщение об ожоге на большом пальце потребителя."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Доступно в Macy's, BJ's Wholesale Club, Lowe's, JCPenney, The Home Depot и различных других розничных магазинах по всей стране, а также онлайн на Homedics.com, Macys.com, BJs.com, Lowes.com, HomeDepot.com и Amazon.com с сентября 2020 года по ноябрь 2023 года примерно за 100 долларов."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "FKA Distributing Co. LLC, действующая под брендом Homedics, из Commerce Township, Michigan"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Продавалось в",
+          "ManufacturerCountries": [
+            {
+              "Country": "Китай"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Перегрев во время зарядки, что приводит к рискам возгорания и ожогов."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Потребителям рекомендуется прекратить использование массажеров и обратиться в HoMedics для получения полного возврата или кредита на любой продукт HoMedics, включая 20% бонус."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Возврат"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "HoMedics thu hồi các máy massage Therapist Select do nguy cơ cháy nổ và bỏng",
+          "Description": "HoMedics đang thu hồi các máy massage Therapist Select, số model HHP-715, do nguy cơ cháy nổ và bỏng tiềm ẩn. Các máy massage này có thiết kế màu đen với tay cầm và bốn đầu massage có thể thay thế. Các đơn vị bị ảnh hưởng có dây nguồn được đánh giá ở mức 120 VAC, 60 HZ và bao gồm ngày sản xuất đến cuối năm 2022. Người tiêu dùng có thể xác định ngày sản xuất bằng mã ngày nằm trên nhãn dán ở dưới đáy sản phẩm, được định dạng là WWYY, trong đó WW chỉ tuần trong năm và YY đại diện cho hai chữ số cuối của năm. Chỉ những sản phẩm có mã YY là 20, 21 hoặc 22 mới được bao gồm trong đợt thu hồi này.",
+          "ConsumerContact": "Người tiêu dùng nên ngừng sử dụng hoặc sạc các máy massage bị thu hồi ngay lập tức và liên hệ với HoMedics qua số 800-466-3342 từ 8:30 sáng đến 5:00 chiều ET, từ thứ Hai đến thứ Sáu. Thông tin bổ sung có sẵn trực tuyến tại https://recall.homedics.com/HHP-715 hoặc bằng cách truy cập www.homedics.com và chọn 'Thông tin thu hồi' ở dưới cùng của trang.",
+          "metaDescription": "HoMedics thu hồi các máy massage Therapist Select do nguy cơ cháy nổ và bỏng. Ngừng sử dụng ngay lập tức và liên hệ để được hoàn tiền.",
+          "Products": [
+            {
+              "Name": "Máy massage Therapist Select",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 46,000 (Ngoài ra, khoảng 41,000 đã được bán ở Canada)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Máy massage HoMedics Therapist Select HHP-715 bị thu hồi"
+            },
+            {
+              "Caption": "Bao bì máy massage HoMedics Therapist Select HHP-715 bị thu hồi"
+            },
+            {
+              "Caption": "Nhãn dán ở dưới đáy ống sản phẩm với số model HHP-715 và mã ngày ví dụ 4521"
+            },
+            {
+              "Caption": "Nhãn dán ở dưới đáy ống sản phẩm với số model HHP-715 và mã ngày WWYY"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Homedics đã nhận được 17 báo cáo về việc các máy massage bị quá nhiệt, bao gồm một báo cáo về việc bị bỏng ngón tay cái của người tiêu dùng."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Có mặt tại Macy's, BJ's Wholesale Club, Lowe's, JCPenney, The Home Depot và nhiều nhà bán lẻ khác trên toàn quốc, cũng như trực tuyến tại Homedics.com, Macys.com, BJs.com, Lowes.com, HomeDepot.com và Amazon.com từ tháng 9 năm 2020 đến tháng 11 năm 2023 với giá khoảng 100 đô la."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "FKA Distributing Co. LLC, d/b/a Homedics, tại Commerce Township, Michigan"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Bán Tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Trung Quốc"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Quá nhiệt trong quá trình sạc dẫn đến nguy cơ cháy nổ và bỏng."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Người tiêu dùng được khuyên nên ngừng sử dụng các máy massage và liên hệ với HoMedics để được hoàn tiền đầy đủ hoặc tín dụng cho bất kỳ sản phẩm nào của HoMedics, bao gồm cả 20% tiền thưởng."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Hoàn tiền"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
         }
       }
     }

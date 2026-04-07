@@ -1,0 +1,2304 @@
+{
+  "meta": {
+    "slug": "nonpowder-guns",
+    "sourceCsvFile": "nonpowder-guns_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:37.007Z",
+    "recallCount": 3,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "nonpowder-guns.json",
+    "seoTranslatedAt": "2026-04-04T07:28:45.251Z",
+    "resumePartial": false,
+    "i18nSource": "generalRecallsTranslated",
+    "i18nSourceFile": "nonpowder-guns.json",
+    "i18nUiLangs": [
+      "en",
+      "es",
+      "ar",
+      "zh",
+      "fr",
+      "de",
+      "ja",
+      "pt",
+      "hi",
+      "ru",
+      "vi"
+    ],
+    "i18nProgressByLang": {
+      "es": 3,
+      "ar": 3,
+      "zh": 3,
+      "fr": 3,
+      "de": 3,
+      "ja": 3,
+      "pt": 3,
+      "hi": 3,
+      "ru": 3,
+      "vi": 3
+    },
+    "i18nInProgress": false,
+    "i18nTranslatedAt": "2026-04-07T14:52:26.436Z",
+    "i18nOpenaiModel": "gpt-4o-mini"
+  },
+  "recalls": [
+    {
+      "RecallID": 10155,
+      "RecallNumber": "25119",
+      "RecallDate": "2025-02-13T00:00:00",
+      "Description": "Umarex USA is recalling the T4E TR50 Air Pistol, a CO2-powered device that accommodates six .50 caliber rounds and is constructed from black plastic polymer. This air pistol, designed for recreational and training purposes, fires non-lethal ammunition such as rubber, plastic, or powder balls. Measuring approximately nine inches in length, it resembles a standard revolver. The affected model numbers include 2292112, 2280182, and 2280199, with the T4E logo and 'TR50' engraved on the left side of the muzzle, while the serial number is located on the right side.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/Umarex-USA-Recalls-T4E-TR50-Air-Pistols-Due-to-Impact-Hazard",
+      "Title": "Umarex USA Issues Recall for T4E TR50 Air Pistols Due to Potential Impact Risk",
+      "ConsumerContact": "For assistance, consumers can reach Umarex at 877-212-1036 from 8 a.m. to 5 p.m. ET, Monday through Friday, email service@umarex.com, or visit http://t4eguns.com/recall or https://www.t4eguns.com/ and select 'Recall' at the bottom of the page for further details.",
+      "LastPublishDate": "2025-02-13T00:00:00",
+      "Products": [
+        {
+          "Name": "T4E TR50 Air Pistol",
+          "NumberOfUnits": "About 26,500"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/nonpowder-guns/1-T4E-TR50-Air-Pistol/454ece9a2b8cca2e464491b04916433a.webp",
+          "Caption": "Recalled T4E TR50 Air Pistol",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Umarex.JPG"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received 30 reports of the CO2 cartridge unintentionally ejecting with force, including seven reports of injury, such as fractured hands, broken fingers and contusions."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available at Big 5 stores across the Western United States, Modern Combat Sports in Vista, California, and online at https://mcsus.com, Amazon.com, and Valken.com from May 2022 to July 2023, priced around $110."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Umarex USA, of Fort Smith, Arkansas"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "Taiwan"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of CO2 cartridge being forcefully ejected from the handle, creating an impact hazard."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should cease use of the recalled air pistols and contact Umarex for a complimentary replacement and free return shipping for the recalled item."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Replace"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "2292112",
+        "2280182",
+        "2280199"
+      ],
+      "slug": "umarex-usa-issues-recall-for-t4e-tr50-air-pistols-due-to-potential-impact-risk-recall",
+      "metaDescription": "Umarex recalls T4E TR50 Air Pistols due to impact hazard. Contact for free replacement and details.",
+      "languages": {
+        "en": {
+          "Title": "Umarex USA Issues Recall for T4E TR50 Air Pistols Due to Potential Impact Risk",
+          "Description": "Umarex USA is recalling the T4E TR50 Air Pistol, a CO2-powered device that accommodates six .50 caliber rounds and is constructed from black plastic polymer. This air pistol, designed for recreational and training purposes, fires non-lethal ammunition such as rubber, plastic, or powder balls. Measuring approximately nine inches in length, it resembles a standard revolver. The affected model numbers include 2292112, 2280182, and 2280199, with the T4E logo and 'TR50' engraved on the left side of the muzzle, while the serial number is located on the right side.",
+          "ConsumerContact": "For assistance, consumers can reach Umarex at 877-212-1036 from 8 a.m. to 5 p.m. ET, Monday through Friday, email service@umarex.com, or visit http://t4eguns.com/recall or https://www.t4eguns.com/ and select 'Recall' at the bottom of the page for further details.",
+          "metaDescription": "Umarex recalls T4E TR50 Air Pistols due to impact hazard. Contact for free replacement and details.",
+          "Products": [
+            {
+              "Name": "T4E TR50 Air Pistol",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 26,500"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled T4E TR50 Air Pistol"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "The firm has received 30 reports of the CO2 cartridge unintentionally ejecting with force, including seven reports of injury, such as fractured hands, broken fingers and contusions."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Available at Big 5 stores across the Western United States, Modern Combat Sports in Vista, California, and online at https://mcsus.com, Amazon.com, and Valken.com from May 2022 to July 2023, priced around $110."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Umarex USA, of Fort Smith, Arkansas"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Sold At",
+          "ManufacturerCountries": [
+            {
+              "Country": "Taiwan"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risk of CO2 cartridge being forcefully ejected from the handle, creating an impact hazard."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Consumers should cease use of the recalled air pistols and contact Umarex for a complimentary replacement and free return shipping for the recalled item."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Replace"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "Umarex USA Emite un Recall para las Pistolas de Aire T4E TR50 Debido a un Riesgo Potencial de Impacto",
+          "Description": "Umarex USA está retirando del mercado la pistola de aire T4E TR50, un dispositivo alimentado por CO2 que acomoda seis balas de calibre .50 y está construido de polímero plástico negro. Esta pistola de aire, diseñada para fines recreativos y de entrenamiento, dispara munición no letal como bolas de goma, plástico o de polvo. Midiendo aproximadamente nueve pulgadas de largo, se asemeja a un revólver estándar. Los números de modelo afectados incluyen 2292112, 2280182 y 2280199, con el logo T4E y 'TR50' grabados en el lado izquierdo del cañón, mientras que el número de serie se encuentra en el lado derecho.",
+          "ConsumerContact": "Para asistencia, los consumidores pueden comunicarse con Umarex al 877-212-1036 de 8 a.m. a 5 p.m. ET, de lunes a viernes, enviar un correo electrónico a service@umarex.com, o visitar http://t4eguns.com/recall o https://www.t4eguns.com/ y seleccionar 'Recall' en la parte inferior de la página para más detalles.",
+          "metaDescription": "Umarex retira las pistolas de aire T4E TR50 debido a un peligro de impacto. Contacto para reemplazo gratuito y detalles.",
+          "Products": [
+            {
+              "Name": "Pistola de Aire T4E TR50",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 26,500"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Pistola de Aire T4E TR50 Retirada"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "La empresa ha recibido 30 informes de la expulsión no intencionada de la cartucho de CO2 con fuerza, incluyendo siete informes de lesiones, como manos fracturadas, dedos rotos y contusiones."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible en las tiendas Big 5 en el oeste de los Estados Unidos, Modern Combat Sports en Vista, California, y en línea en https://mcsus.com, Amazon.com y Valken.com desde mayo de 2022 hasta julio de 2023, con un precio alrededor de $110."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Umarex USA, de Fort Smith, Arkansas"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendido En",
+          "ManufacturerCountries": [
+            {
+              "Country": "Taiwán"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Riesgo de que el cartucho de CO2 sea expulsado con fuerza del mango, creando un peligro de impacto."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Los consumidores deben cesar el uso de las pistolas de aire retiradas y contactar a Umarex para un reemplazo gratuito y envío de retorno gratuito para el artículo retirado."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reemplazar"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "شركة أوماريكس الولايات المتحدة تصدر استدعاء لمسدسات الهواء T4E TR50 بسبب خطر التأثير المحتمل",
+          "Description": "تقوم شركة أوماريكس الولايات المتحدة باستدعاء مسدس الهواء T4E TR50، وهو جهاز يعمل بالغاز CO2 ويتسع لست جولات من عيار .50 ومصنوع من بوليمر بلاستيكي أسود. تم تصميم هذا المسدس الهوائي لأغراض الترفيه والتدريب، ويطلق ذخيرة غير قاتلة مثل كرات مطاطية أو بلاستيكية أو كرات مسحوق. يبلغ طوله حوالي تسع بوصات، ويشبه المسدس الدوار القياسي. تشمل أرقام الطراز المتأثرة 2292112 و 2280182 و 2280199، مع شعار T4E و 'TR50' المنقوش على الجانب الأيسر من الفوهة، بينما يقع الرقم التسلسلي على الجانب الأيمن.",
+          "ConsumerContact": "للحصول على المساعدة، يمكن للمستهلكين الاتصال بشركة أوماريكس على الرقم 877-212-1036 من الساعة 8 صباحًا حتى 5 مساءً بتوقيت شرق الولايات المتحدة، من الاثنين إلى الجمعة، أو عبر البريد الإلكتروني service@umarex.com، أو زيارة http://t4eguns.com/recall أو https://www.t4eguns.com/ واختيار 'استدعاء' في أسفل الصفحة لمزيد من التفاصيل.",
+          "metaDescription": "تستدعي أوماريكس مسدسات الهواء T4E TR50 بسبب خطر التأثير. اتصل للحصول على استبدال مجاني وتفاصيل.",
+          "Products": [
+            {
+              "Name": "مسدس الهواء T4E TR50",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 26,500"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "مسدس الهواء T4E TR50 المستدعى"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "تلقت الشركة 30 تقريرًا عن طرد خرطوشة CO2 بشكل غير متعمد بقوة، بما في ذلك سبعة تقارير عن إصابات، مثل كسور في اليدين، أصابع مكسورة وكدمات."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "متوفر في متاجر Big 5 عبر غرب الولايات المتحدة، Modern Combat Sports في فيستا، كاليفورنيا، وعبر الإنترنت على https://mcsus.com، Amazon.com، وValken.com من مايو 2022 إلى يوليو 2023، بسعر حوالي 110 دولارات."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "أوماريكس الولايات المتحدة، من فورت سميث، أركنساس"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "تم البيع في",
+          "ManufacturerCountries": [
+            {
+              "Country": "تايوان"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "خطر طرد خرطوشة CO2 من المقبض بقوة، مما يخلق خطر التأثير."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "يجب على المستهلكين التوقف عن استخدام مسدسات الهواء المستدعاة والاتصال بأوماريكس للحصول على استبدال مجاني وشحن مجاني للعنصر المستدعى."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "استبدال"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "Umarex USA 发布 T4E TR50 气手枪召回，因潜在撞击风险",
+          "Description": "Umarex USA 正在召回 T4E TR50 气手枪，这是一种 CO2 驱动的设备，可容纳六发 .50 口径子弹，采用黑色塑料聚合物制造。这款气手枪旨在用于娱乐和训练，发射非致命性弹药，如橡胶、塑料或粉末球。其长度约为九英寸，外形类似于标准左轮手枪。受影响的型号包括 2292112、2280182 和 2280199，T4E 标志和 'TR50' 刻印在枪口左侧，序列号位于右侧。",
+          "ConsumerContact": "如需帮助，消费者可以在周一至周五的东部时间上午 8 点至下午 5 点拨打 Umarex 电话 877-212-1036，或发送电子邮件至 service@umarex.com，或访问 http://t4eguns.com/recall 或 https://www.t4eguns.com/，并在页面底部选择 '召回' 以获取更多详细信息。",
+          "metaDescription": "Umarex 因撞击危险召回 T4E TR50 气手枪。联系以获取免费更换和详细信息。",
+          "Products": [
+            {
+              "Name": "T4E TR50 气手枪",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约 26,500"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "召回的 T4E TR50 气手枪"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "该公司已收到 30 起 CO2 瓶意外强力弹出的报告，包括七起受伤报告，如手骨折、手指骨折和挫伤。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "在美国西部的 Big 5 商店、加利福尼亚州 Vista 的 Modern Combat Sports 以及 https://mcsus.com、Amazon.com 和 Valken.com 在线销售，销售时间为 2022 年 5 月至 2023 年 7 月，价格约为 110 美元。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Umarex USA，位于阿肯色州福特史密斯"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "销售地点",
+          "ManufacturerCountries": [
+            {
+              "Country": "台湾"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "CO2 瓶可能会从手柄强力弹出，造成撞击危险。"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "消费者应停止使用召回的气手枪，并联系 Umarex 获取免费更换和召回物品的免费退货运费。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "更换"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "Umarex USA rappelle les pistolets à air T4E TR50 en raison d'un risque d'impact potentiel",
+          "Description": "Umarex USA rappelle le pistolet à air T4E TR50, un dispositif alimenté par CO2 qui peut accueillir six balles de calibre .50 et est construit en polymère plastique noir. Ce pistolet à air, conçu pour des fins récréatives et d'entraînement, tire des munitions non létales telles que des billes en caoutchouc, en plastique ou en poudre. Mesurant environ neuf pouces de long, il ressemble à un revolver standard. Les numéros de modèle concernés incluent 2292112, 2280182 et 2280199, avec le logo T4E et 'TR50' gravés sur le côté gauche du canon, tandis que le numéro de série est situé sur le côté droit.",
+          "ConsumerContact": "Pour assistance, les consommateurs peuvent contacter Umarex au 877-212-1036 de 8 h à 17 h HNE, du lundi au vendredi, envoyer un courriel à service@umarex.com, ou visiter http://t4eguns.com/recall ou https://www.t4eguns.com/ et sélectionner 'Rappel' en bas de la page pour plus de détails.",
+          "metaDescription": "Umarex rappelle les pistolets à air T4E TR50 en raison d'un danger d'impact. Contactez pour un remplacement gratuit et des détails.",
+          "Products": [
+            {
+              "Name": "Pistolet à air T4E TR50",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 26 500"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Pistolet à air T4E TR50 rappelé"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "L'entreprise a reçu 30 rapports de cartouches de CO2 éjectées involontairement avec force, y compris sept rapports de blessures, telles que des mains fracturées, des doigts cassés et des contusions."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible dans les magasins Big 5 à travers l'ouest des États-Unis, Modern Combat Sports à Vista, Californie, et en ligne sur https://mcsus.com, Amazon.com, et Valken.com de mai 2022 à juillet 2023, au prix d'environ 110 $."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Umarex USA, de Fort Smith, Arkansas"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendu chez",
+          "ManufacturerCountries": [
+            {
+              "Country": "Taïwan"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risque d'éjection forcée de la cartouche de CO2 depuis la poignée, créant un danger d'impact."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Les consommateurs doivent cesser d'utiliser les pistolets à air rappelés et contacter Umarex pour un remplacement gratuit et un retour gratuit de l'article rappelé."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Remplacer"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "Umarex USA ruft T4E TR50 Luftgewehre aufgrund potenzieller Verletzungsgefahr zurück",
+          "Description": "Umarex USA ruft das T4E TR50 Luftgewehr zurück, ein CO2-betriebenes Gerät, das sechs .50 Kaliber Patronen aufnehmen kann und aus schwarzem Kunststoffpolymer gefertigt ist. Dieses Luftgewehr, das für Freizeit- und Trainingszwecke konzipiert wurde, feuert nicht-tödliche Munition wie Gummi-, Kunststoff- oder Pulverkugeln ab. Es misst etwa neun Zoll in der Länge und ähnelt einem Standardrevolver. Die betroffenen Modellnummern sind 2292112, 2280182 und 2280199, mit dem T4E-Logo und 'TR50' auf der linken Seite des Mündungsbereichs eingraviert, während die Seriennummer auf der rechten Seite zu finden ist.",
+          "ConsumerContact": "Für Unterstützung können Verbraucher Umarex unter 877-212-1036 von 8 bis 17 Uhr ET, Montag bis Freitag, kontaktieren, eine E-Mail an service@umarex.com senden oder die Website http://t4eguns.com/recall oder https://www.t4eguns.com/ besuchen und unten auf der Seite 'Rückruf' auswählen, um weitere Details zu erhalten.",
+          "metaDescription": "Umarex ruft T4E TR50 Luftgewehre aufgrund von Verletzungsgefahr zurück. Kontakt für kostenlosen Ersatz und Details.",
+          "Products": [
+            {
+              "Name": "T4E TR50 Luftgewehr",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 26.500"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Rückgerufenes T4E TR50 Luftgewehr"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Das Unternehmen hat 30 Berichte über die unabsichtliche gewaltsame Auswurf der CO2-Kartusche erhalten, darunter sieben Berichte über Verletzungen, wie gebrochene Hände, gebrochene Finger und Prellungen."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Erhältlich in Big 5 Geschäften in den westlichen Vereinigten Staaten, Modern Combat Sports in Vista, Kalifornien, und online unter https://mcsus.com, Amazon.com und Valken.com von Mai 2022 bis Juli 2023, zu einem Preis von etwa 110 $."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Umarex USA, Fort Smith, Arkansas"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Verkauft bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "Taiwan"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risiko, dass die CO2-Kartusche gewaltsam aus dem Griff ausgeworfen wird, was eine Verletzungsgefahr darstellt."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Verbraucher sollten die Verwendung der zurückgerufenen Luftgewehre einstellen und Umarex für einen kostenlosen Ersatz sowie kostenlosen Rückversand des zurückgerufenen Artikels kontaktieren."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Ersatz"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "Umarex USAがT4E TR50エアピストルのリコールを発表 - 潜在的な衝撃リスク",
+          "Description": "Umarex USAは、6発の.50口径弾を装填できるCO2駆動のデバイスであるT4E TR50エアピストルをリコールしています。このエアピストルは、レクリエーションおよび訓練目的で設計されており、ゴム、プラスチック、または粉末ボールなどの非致死性弾薬を発射します。全長約9インチで、標準的なリボルバーに似ています。影響を受けるモデル番号には、2292112、2280182、2280199が含まれ、T4Eロゴと「TR50」が銃口の左側に刻印されており、シリアル番号は右側に位置しています。",
+          "ConsumerContact": "サポートが必要な場合、消費者は月曜日から金曜日の午前8時から午後5時（ET）まで、877-212-1036でUmarexに連絡するか、service@umarex.comにメールを送信するか、http://t4eguns.com/recallまたはhttps://www.t4eguns.com/を訪れてページの下部にある「リコール」を選択して詳細を確認できます。",
+          "metaDescription": "Umarexが衝撃の危険性によりT4E TR50エアピストルをリコール。無料の交換と詳細についての連絡先。",
+          "Products": [
+            {
+              "Name": "T4E TR50エアピストル",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約26,500"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコールされたT4E TR50エアピストル"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "同社は、CO2カートリッジが意図せず力強く排出されるという30件の報告を受けており、その中には手の骨折、指の骨折、打撲などの怪我に関する7件の報告が含まれています。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "2022年5月から2023年7月まで、アメリカ西部のBig 5店舗、カリフォルニア州ビスタのModern Combat Sports、オンラインのhttps://mcsus.com、Amazon.com、Valken.comで約110ドルで販売されています。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "アーカンソー州フォートスミスのUmarex USA"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "販売場所",
+          "ManufacturerCountries": [
+            {
+              "Country": "台湾"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "ハンドルからCO2カートリッジが力強く排出されるリスクがあり、衝撃の危険を引き起こします。"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "消費者はリコールされたエアピストルの使用を中止し、Umarexに連絡して無料の交換とリコールされた商品の無料返品を依頼するべきです。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "交換"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "Umarex USA Emite Recall para Pistolas de Ar T4E TR50 Devido a Risco Potencial de Impacto",
+          "Description": "A Umarex USA está recalling a Pistola de Ar T4E TR50, um dispositivo alimentado por CO2 que acomoda seis projéteis de calibre .50 e é construído em polímero plástico preto. Esta pistola de ar, projetada para fins recreativos e de treinamento, dispara munições não letais, como bolas de borracha, plástico ou pó. Medindo aproximadamente nove polegadas de comprimento, ela se assemelha a um revólver padrão. Os números dos modelos afetados incluem 2292112, 2280182 e 2280199, com o logotipo T4E e 'TR50' gravados no lado esquerdo do cano, enquanto o número de série está localizado no lado direito.",
+          "ConsumerContact": "Para assistência, os consumidores podem entrar em contato com a Umarex pelo telefone 877-212-1036, das 8h às 17h ET, de segunda a sexta-feira, enviar um e-mail para service@umarex.com ou visitar http://t4eguns.com/recall ou https://www.t4eguns.com/ e selecionar 'Recall' na parte inferior da página para mais detalhes.",
+          "metaDescription": "A Umarex faz recall das Pistolas de Ar T4E TR50 devido a risco de impacto. Contato para substituição gratuita e detalhes.",
+          "Products": [
+            {
+              "Name": "Pistola de Ar T4E TR50",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 26.500"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Pistola de Ar T4E TR50 Recall"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "A empresa recebeu 30 relatos de cartuchos de CO2 sendo ejetados involuntariamente com força, incluindo sete relatos de lesões, como mãos fraturadas, dedos quebrados e contusões."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponível nas lojas Big 5 em todo o Oeste dos Estados Unidos, Modern Combat Sports em Vista, Califórnia, e online em https://mcsus.com, Amazon.com e Valken.com de maio de 2022 a julho de 2023, com preço em torno de $110."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Umarex USA, de Fort Smith, Arkansas"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendido Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "Taiwan"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risco de cartucho de CO2 ser ejetado com força do cabo, criando um risco de impacto."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Os consumidores devem interromper o uso das pistolas de ar recalladas e entrar em contato com a Umarex para uma substituição gratuita e envio de retorno gratuito para o item recallado."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Substituir"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "उमरेक्स यूएसए ने संभावित प्रभाव जोखिम के कारण T4E TR50 एयर पिस्टल का रीकॉल किया",
+          "Description": "उमरेक्स यूएसए T4E TR50 एयर पिस्टल का रीकॉल कर रहा है, जो एक CO2-संचालित उपकरण है जो छह .50 कैलिबर राउंड को समायोजित करता है और काले प्लास्टिक पॉलिमर से निर्मित है। यह एयर पिस्टल, जिसे मनोरंजन और प्रशिक्षण उद्देश्यों के लिए डिज़ाइन किया गया है, गैर-घातक गोला-बारूद जैसे रबर, प्लास्टिक, या पाउडर गेंदों को फायर करता है। इसकी लंबाई लगभग नौ इंच है, और यह एक मानक रिवॉल्वर के समान है। प्रभावित मॉडल नंबरों में 2292112, 2280182, और 2280199 शामिल हैं, जिन पर T4E लोगो और 'TR50' बाईं ओर की मuzzle पर उकेरा गया है, जबकि सीरियल नंबर दाईं ओर स्थित है।",
+          "ConsumerContact": "सहायता के लिए, उपभोक्ता उमरेक्स से 877-212-1036 पर सुबह 8 बजे से शाम 5 बजे ET, सोमवार से शुक्रवार, ईमेल service@umarex.com पर संपर्क कर सकते हैं, या http://t4eguns.com/recall या https://www.t4eguns.com/ पर जा सकते हैं और पृष्ठ के नीचे 'रीकाल' का चयन कर सकते हैं।",
+          "metaDescription": "उमरेक्स T4E TR50 एयर पिस्टल का रीकॉल प्रभाव जोखिम के कारण करता है। मुफ्त प्रतिस्थापन और विवरण के लिए संपर्क करें।",
+          "Products": [
+            {
+              "Name": "T4E TR50 एयर पिस्टल",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 26,500"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "रीकॉल किया गया T4E TR50 एयर पिस्टल"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "कंपनी को CO2 कारतूस के अनजाने में बलपूर्वक बाहर निकलने के 30 रिपोर्ट प्राप्त हुए हैं, जिसमें हाथों में फ्रैक्चर, टूटे हुए अंगूठे और चोटों की सात रिपोर्ट शामिल हैं।"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "पश्चिमी संयुक्त राज्य अमेरिका में बिग 5 स्टोर, कैलिफोर्निया के विस्टा में मॉडर्न कॉम्बैट स्पोर्ट्स, और ऑनलाइन https://mcsus.com, Amazon.com, और Valken.com पर मई 2022 से जुलाई 2023 तक उपलब्ध है, जिसकी कीमत लगभग $110 है।"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "उमरेक्स यूएसए, फोर्ट स्मिथ, अर्कांसस"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "ताइवान"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "हैंडल से CO2 कारतूस के बलपूर्वक बाहर निकलने का जोखिम, जो प्रभाव जोखिम उत्पन्न करता है।"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "उपभोक्ताओं को रीकॉल किए गए एयर पिस्टल का उपयोग बंद करना चाहिए और रीकॉल किए गए आइटम के लिए मुफ्त प्रतिस्थापन और मुफ्त रिटर्न शिपिंग के लिए उमरेक्स से संपर्क करना चाहिए।"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "बदलें"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "Umarex USA объявляет отзыв T4E TR50 пневматических пистолетов из-за потенциального риска удара",
+          "Description": "Umarex USA отзывает пневматический пистолет T4E TR50, работающий на CO2, который вмещает шесть патронов калибра .50 и изготовлен из черного пластикового полимера. Этот пневматический пистолет, предназначенный для рекреационных и тренировочных целей, стреляет неубийственной боеприпасом, таким как резиновые, пластиковые или порошковые шарики. Длина составляет примерно девять дюймов, он напоминает стандартный револьвер. Затронутые номера моделей включают 2292112, 2280182 и 2280199, с логотипом T4E и 'TR50', выгравированным на левой стороне дульного среза, в то время как серийный номер находится с правой стороны.",
+          "ConsumerContact": "Для получения помощи потребители могут обратиться в Umarex по телефону 877-212-1036 с 8:00 до 17:00 по восточному времени, с понедельника по пятницу, по электронной почте service@umarex.com или посетить http://t4eguns.com/recall или https://www.t4eguns.com/ и выбрать 'Recall' внизу страницы для получения дополнительной информации.",
+          "metaDescription": "Umarex отзывает пневматические пистолеты T4E TR50 из-за опасности удара. Свяжитесь для бесплатной замены и подробностей.",
+          "Products": [
+            {
+              "Name": "Пневматический пистолет T4E TR50",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 26,500"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванный пневматический пистолет T4E TR50"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Компания получила 30 сообщений о том, что картридж CO2 непреднамеренно выбрасывается с силой, включая семь сообщений о травмах, таких как переломы рук, сломанные пальцы и ушибы."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Доступно в магазинах Big 5 по всему Западному побережью США, Modern Combat Sports в Висте, Калифорния, и онлайн на https://mcsus.com, Amazon.com и Valken.com с мая 2022 года по июль 2023 года, по цене около 110 долларов."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Umarex USA, Форт-Смит, Арканзас"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Продается в",
+          "ManufacturerCountries": [
+            {
+              "Country": "Тайвань"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Риск того, что картридж CO2 будет выброшен с силой из рукоятки, создавая опасность удара."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Потребители должны прекратить использование отозванных пневматических пистолетов и обратиться в Umarex для получения бесплатной замены и бесплатной обратной доставки отозванного товара."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Заменить"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "Umarex USA Thông Báo Thu Hồi Súng Nén Khí T4E TR50 Do Nguy Cơ Va Chạm",
+          "Description": "Umarex USA đang thu hồi súng nén khí T4E TR50, một thiết bị sử dụng CO2 có thể chứa sáu viên đạn .50 caliber và được làm từ nhựa polymer màu đen. Súng nén khí này, được thiết kế cho mục đích giải trí và đào tạo, bắn đạn không gây chết người như viên bi cao su, nhựa hoặc viên bột. Kích thước khoảng chín inch chiều dài, nó giống như một khẩu súng lục tiêu chuẩn. Các số hiệu mẫu bị ảnh hưởng bao gồm 2292112, 2280182 và 2280199, với logo T4E và 'TR50' được khắc ở bên trái của nòng súng, trong khi số sê-ri nằm ở bên phải.",
+          "ConsumerContact": "Để được hỗ trợ, người tiêu dùng có thể liên hệ với Umarex qua số 877-212-1036 từ 8 giờ sáng đến 5 giờ chiều ET, từ thứ Hai đến thứ Sáu, gửi email đến service@umarex.com, hoặc truy cập http://t4eguns.com/recall hoặc https://www.t4eguns.com/ và chọn 'Recall' ở cuối trang để biết thêm chi tiết.",
+          "metaDescription": "Umarex thu hồi súng nén khí T4E TR50 do nguy cơ va chạm. Liên hệ để được thay thế miễn phí và chi tiết.",
+          "Products": [
+            {
+              "Name": "Súng Nén Khí T4E TR50",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 26,500"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Súng Nén Khí T4E TR50 Đã Thu Hồi"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Công ty đã nhận được 30 báo cáo về việc viên nén CO2 bị bắn ra ngoài một cách không mong muốn, bao gồm bảy báo cáo về thương tích, như gãy tay, gãy ngón tay và bầm tím."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Có mặt tại các cửa hàng Big 5 trên toàn miền Tây Hoa Kỳ, Modern Combat Sports ở Vista, California, và trực tuyến tại https://mcsus.com, Amazon.com, và Valken.com từ tháng 5 năm 2022 đến tháng 7 năm 2023, với giá khoảng 110 đô la."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Umarex USA, tại Fort Smith, Arkansas"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Bán Tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Đài Loan"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Nguy cơ viên nén CO2 bị bắn ra mạnh mẽ từ tay cầm, tạo ra nguy cơ va chạm."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Người tiêu dùng nên ngừng sử dụng súng nén khí đã thu hồi và liên hệ với Umarex để được thay thế miễn phí và miễn phí vận chuyển trả lại cho sản phẩm đã thu hồi."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Thay thế"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    },
+    {
+      "RecallID": 9935,
+      "RecallNumber": "24212",
+      "RecallDate": "2024-04-25T00:00:00",
+      "Description": "Crosman is recalling its Icon .177 and .22 Caliber Air Rifles due to a risk of injury. These PCP-powered, bolt-action air rifles are identified by model numbers CPI77S and CPI22S, which can be found on the left side of the rifle. The model name appears on the right side.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/Crosman-Recalls-Icon-Air-Rifles-Due-to-Injury-Hazard",
+      "Title": "Crosman Recalls Icon Air Rifles Due to Potential Injury Risk",
+      "ConsumerContact": "For assistance, consumers can reach Crosman at 800-724-7486 from 9 a.m. to 4:30 p.m. ET, Monday through Friday. Additional details can be found online at www.crosman.com/iconrecall or by clicking on 'Recall' at the top of the Crosman homepage. You may also email iconrecall@crosman.com.",
+      "LastPublishDate": "2024-04-25T00:00:00",
+      "Products": [
+        {
+          "Name": "Crosman Icon .177 Air Rifle",
+          "NumberOfUnits": "About 2,500"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/nonpowder-guns/2-Crosman-Icon-177-Air-Rifle/b9c46a2d9fbee59251db2c3af591d100.webp",
+          "Caption": "Recalled Crosman Icon .177 Caliber Air Rifle (CPI77S)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/crosman-177.png"
+        },
+        {
+          "URL": "/images/generalRecalls/nonpowder-guns/2-Crosman-Icon-177-Air-Rifle/e5e6440c48155f744df1320f9b76dc72.webp",
+          "Caption": "Recalled Crosman Icon .22 Caliber Air Rifle (CPI22S)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/crosman-22.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/nonpowder-guns/2-Crosman-Icon-177-Air-Rifle/93671d07a01a557670e68dbb827f4570.webp",
+          "Caption": "Recalled Crosman Model Number location on air rifle",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/crosman-modelno.png"
+        },
+        {
+          "URL": "/images/generalRecalls/nonpowder-guns/2-Crosman-Icon-177-Air-Rifle/51fe60e2005755caf62501f14ea0eab4.webp",
+          "Caption": "The name of the model \"icon\" on the right-hand side of the rifle",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/crosman-modelicon.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received one report of an unintended discharge. No injuries have been reported."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available at Do It Best Hardware, True Value, Service Star, and Sportsman's Guide stores nationwide, as well as online at www.Crosman.com, www.pyramydair.com, and www.Amazon.com from March 2022 through March 2024 for approximately $310."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Crosman Corp., of Bloomfield, New York"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of unexpected discharge if the air rifle is jolted or dropped"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers must stop using the recalled air rifles immediately and contact Crosman for a refund, which can be issued as store credit or a refund check after returning the air rifle. Crosman will provide a box with instructions and prepaid postage to those who register at www.crosman.com/iconrecall. The company is also reaching out to all known purchasers."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "CPI77S",
+        "CPI22S"
+      ],
+      "slug": "crosman-recalls-icon-air-rifles-due-to-potential-injury-risk-recall",
+      "metaDescription": "Crosman recalls Icon Air Rifles due to injury risk. Stop using immediately and contact for refunds.",
+      "languages": {
+        "en": {
+          "Title": "Crosman Recalls Icon Air Rifles Due to Potential Injury Risk",
+          "Description": "Crosman is recalling its Icon .177 and .22 Caliber Air Rifles due to a risk of injury. These PCP-powered, bolt-action air rifles are identified by model numbers CPI77S and CPI22S, which can be found on the left side of the rifle. The model name appears on the right side.",
+          "ConsumerContact": "For assistance, consumers can reach Crosman at 800-724-7486 from 9 a.m. to 4:30 p.m. ET, Monday through Friday. Additional details can be found online at www.crosman.com/iconrecall or by clicking on 'Recall' at the top of the Crosman homepage. You may also email iconrecall@crosman.com.",
+          "metaDescription": "Crosman recalls Icon Air Rifles due to injury risk. Stop using immediately and contact for refunds.",
+          "Products": [
+            {
+              "Name": "Crosman Icon .177 Air Rifle",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 2,500"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled Crosman Icon .177 Caliber Air Rifle (CPI77S)"
+            },
+            {
+              "Caption": "Recalled Crosman Icon .22 Caliber Air Rifle (CPI22S)"
+            },
+            {
+              "Caption": "Recalled Crosman Model Number location on air rifle"
+            },
+            {
+              "Caption": "The name of the model \"icon\" on the right-hand side of the rifle"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "The firm has received one report of an unintended discharge. No injuries have been reported."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Available at Do It Best Hardware, True Value, Service Star, and Sportsman's Guide stores nationwide, as well as online at www.Crosman.com, www.pyramydair.com, and www.Amazon.com from March 2022 through March 2024 for approximately $310."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Crosman Corp., of Bloomfield, New York"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Sold At",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risk of unexpected discharge if the air rifle is jolted or dropped"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Consumers must stop using the recalled air rifles immediately and contact Crosman for a refund, which can be issued as store credit or a refund check after returning the air rifle. Crosman will provide a box with instructions and prepaid postage to those who register at www.crosman.com/iconrecall. The company is also reaching out to all known purchasers."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Refund"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "Crosman Retira Rifles de Aire Icon debido a Riesgo Potencial de Lesiones",
+          "Description": "Crosman está retirando sus Rifles de Aire Icon .177 y .22 Calibres debido a un riesgo de lesiones. Estos rifles de aire de acción de cerrojo, impulsados por PCP, se identifican por los números de modelo CPI77S y CPI22S, que se pueden encontrar en el lado izquierdo del rifle. El nombre del modelo aparece en el lado derecho.",
+          "ConsumerContact": "Para asistencia, los consumidores pueden comunicarse con Crosman al 800-724-7486 de 9 a.m. a 4:30 p.m. ET, de lunes a viernes. Se pueden encontrar detalles adicionales en línea en www.crosman.com/iconrecall o haciendo clic en 'Retiro' en la parte superior de la página principal de Crosman. También puede enviar un correo electrónico a iconrecall@crosman.com.",
+          "metaDescription": "Crosman retira Rifles de Aire Icon debido a riesgo de lesiones. Deje de usarlos inmediatamente y comuníquese para obtener reembolsos.",
+          "Products": [
+            {
+              "Name": "Rifle de Aire Crosman Icon .177",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 2,500"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Rifle de Aire Crosman Icon .177 Calibre Retirado (CPI77S)"
+            },
+            {
+              "Caption": "Rifle de Aire Crosman Icon .22 Calibre Retirado (CPI22S)"
+            },
+            {
+              "Caption": "Ubicación del número de modelo Crosman en el rifle de aire"
+            },
+            {
+              "Caption": "El nombre del modelo \"icon\" en el lado derecho del rifle"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "La empresa ha recibido un informe de un disparo no intencionado. No se han reportado lesiones."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible en las tiendas Do It Best Hardware, True Value, Service Star y Sportsman's Guide en todo el país, así como en línea en www.Crosman.com, www.pyramydair.com y www.Amazon.com desde marzo de 2022 hasta marzo de 2024 por aproximadamente $310."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Crosman Corp., de Bloomfield, Nueva York"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendido En",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Riesgo de descarga inesperada si el rifle de aire es sacudido o caído"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Los consumidores deben dejar de usar los rifles de aire retirados inmediatamente y comunicarse con Crosman para obtener un reembolso, que puede emitirse como crédito en la tienda o un cheque de reembolso después de devolver el rifle de aire. Crosman proporcionará una caja con instrucciones y franqueo pagado a aquellos que se registren en www.crosman.com/iconrecall. La empresa también está contactando a todos los compradores conocidos."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reembolso"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "شركة كروسمن تستدعي بنادق الهواء أيقونة بسبب خطر الإصابة المحتمل",
+          "Description": "تستدعي شركة كروسمن بنادق الهواء أيقونة عيار .177 و .22 بسبب خطر الإصابة. هذه البنادق الهوائية التي تعمل بالطاقة الهوائية وتستخدم نظام السحب هي معروفة بأرقام الطراز CPI77S و CPI22S، والتي يمكن العثور عليها على الجانب الأيسر من البندقية. يظهر اسم الطراز على الجانب الأيمن.\n",
+          "ConsumerContact": "للمساعدة، يمكن للمستهلكين الاتصال بشركة كروسمن على الرقم 800-724-7486 من الساعة 9 صباحًا حتى 4:30 مساءً بتوقيت شرق الولايات المتحدة، من الاثنين إلى الجمعة. يمكن العثور على تفاصيل إضافية عبر الإنترنت على www.crosman.com/iconrecall أو من خلال النقر على 'استدعاء' في أعلى الصفحة الرئيسية لكروسمن. يمكنك أيضًا إرسال بريد إلكتروني إلى iconrecall@crosman.com.",
+          "metaDescription": "تستدعي كروسمن بنادق الهواء أيقونة بسبب خطر الإصابة. توقف عن الاستخدام فورًا واتصل للحصول على استرداد.",
+          "Products": [
+            {
+              "Name": "بندقية الهواء كروسمن أيقونة عيار .177",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 2500"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "بندقية الهواء كروسمن أيقونة عيار .177 المستدعاة (CPI77S)"
+            },
+            {
+              "Caption": "بندقية الهواء كروسمن أيقونة عيار .22 المستدعاة (CPI22S)"
+            },
+            {
+              "Caption": "موقع رقم الطراز كروسمن على بندقية الهواء"
+            },
+            {
+              "Caption": "اسم الطراز \"أيقونة\" على الجانب الأيمن من البندقية"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "تلقت الشركة تقريرًا واحدًا عن إطلاق غير مقصود. لم يتم الإبلاغ عن أي إصابات."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "متاحة في متاجر Do It Best Hardware و True Value و Service Star و Sportsman's Guide في جميع أنحاء البلاد، بالإضافة إلى الإنترنت على www.Crosman.com و www.pyramydair.com و www.Amazon.com من مارس 2022 حتى مارس 2024 بسعر حوالي 310 دولارات."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "شركة كروسمن، من بلومفيلد، نيويورك"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "تم البيع في",
+          "ManufacturerCountries": [
+            {
+              "Country": "الصين"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "خطر الإطلاق غير المتوقع إذا تم اهتزاز بندقية الهواء أو إسقاطها"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "يجب على المستهلكين التوقف عن استخدام بنادق الهواء المستدعاة فورًا والاتصال بكروسمن للحصول على استرداد، والذي يمكن أن يتم كرصيد في المتجر أو شيك استرداد بعد إعادة بندقية الهواء. ستوفر كروسمن صندوقًا مع تعليمات وطوابع مدفوعة مسبقًا لأولئك الذين يسجلون في www.crosman.com/iconrecall. كما تتواصل الشركة مع جميع المشترين المعروفين."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "استرداد"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "Crosman召回Icon气步枪因潜在伤害风险",
+          "Description": "Crosman因伤害风险召回其Icon .177和.22口径气步枪。这些PCP驱动的栓动气步枪的型号为CPI77S和CPI22S，可以在步枪的左侧找到。型号名称出现在右侧。\n",
+          "ConsumerContact": "如需帮助，消费者可以在东部时间周一至周五上午9点至下午4:30拨打Crosman电话800-724-7486。更多详细信息可以在www.crosman.com/iconrecall在线找到，或通过点击Crosman主页顶部的“召回”链接获取。您也可以发送电子邮件至iconrecall@crosman.com。",
+          "metaDescription": "Crosman因伤害风险召回Icon气步枪。请立即停止使用并联系以获取退款。",
+          "Products": [
+            {
+              "Name": "Crosman Icon .177气步枪",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约2500"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "召回的Crosman Icon .177口径气步枪（CPI77S）"
+            },
+            {
+              "Caption": "召回的Crosman Icon .22口径气步枪（CPI22S）"
+            },
+            {
+              "Caption": "气步枪上型号位置的召回Crosman"
+            },
+            {
+              "Caption": "步枪右侧的型号名称“icon”"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "该公司已收到一起意外发射的报告。尚未报告任何伤害。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "在全国范围内的Do It Best Hardware、True Value、Service Star和Sportsman's Guide商店有售，以及在www.Crosman.com、www.pyramydair.com和www.Amazon.com上，从2022年3月到2024年3月，价格约为310美元。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "位于纽约布隆菲尔德的Crosman公司"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "销售地点",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "如果气步枪被撞击或掉落，存在意外发射的风险"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "消费者必须立即停止使用召回的气步枪，并联系Crosman以获取退款，退款可以在退回气步枪后以商店信用或退款支票的形式发放。Crosman将为注册用户提供带有说明和预付邮资的盒子，注册网址为www.crosman.com/iconrecall。该公司还将联系所有已知的购买者。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "退款"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "Crosman rappelle les carabines à air Icon en raison d'un risque potentiel de blessure",
+          "Description": "Crosman rappelle ses carabines à air Icon .177 et .22 Calibre en raison d'un risque de blessure. Ces carabines à air à action à verrou alimentées par PCP sont identifiées par les numéros de modèle CPI77S et CPI22S, qui se trouvent sur le côté gauche de la carabine. Le nom du modèle apparaît sur le côté droit.",
+          "ConsumerContact": "Pour assistance, les consommateurs peuvent contacter Crosman au 800-724-7486 de 9 h à 16 h 30 HE, du lundi au vendredi. Des détails supplémentaires peuvent être trouvés en ligne sur www.crosman.com/iconrecall ou en cliquant sur 'Rappel' en haut de la page d'accueil de Crosman. Vous pouvez également envoyer un e-mail à iconrecall@crosman.com.",
+          "metaDescription": "Crosman rappelle les carabines à air Icon en raison d'un risque de blessure. Cessez de les utiliser immédiatement et contactez pour des remboursements.",
+          "Products": [
+            {
+              "Name": "Carabine à air Crosman Icon .177",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 2 500"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Carabine à air Crosman Icon .177 Calibre rappelée (CPI77S)"
+            },
+            {
+              "Caption": "Carabine à air Crosman Icon .22 Calibre rappelée (CPI22S)"
+            },
+            {
+              "Caption": "Emplacement du numéro de modèle Crosman sur la carabine à air"
+            },
+            {
+              "Caption": "Le nom du modèle \"icon\" sur le côté droit de la carabine"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "L'entreprise a reçu un rapport d'un tir involontaire. Aucune blessure n'a été signalée."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible dans les magasins Do It Best Hardware, True Value, Service Star et Sportsman's Guide à l'échelle nationale, ainsi qu'en ligne sur www.Crosman.com, www.pyramydair.com et www.Amazon.com de mars 2022 à mars 2024 pour environ 310 $."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Crosman Corp., de Bloomfield, New York"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendu chez",
+          "ManufacturerCountries": [
+            {
+              "Country": "Chine"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risque de décharge inattendue si la carabine à air est secouée ou tombée"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Les consommateurs doivent cesser d'utiliser immédiatement les carabines à air rappelées et contacter Crosman pour un remboursement, qui peut être émis sous forme de crédit en magasin ou de chèque de remboursement après le retour de la carabine à air. Crosman fournira une boîte avec des instructions et un affranchissement prépayé à ceux qui s'inscrivent sur www.crosman.com/iconrecall. L'entreprise contacte également tous les acheteurs connus."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Remboursement"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "Crosman ruft Icon Luftgewehre aufgrund potenzieller Verletzungsgefahr zurück",
+          "Description": "Crosman ruft seine Icon .177 und .22 Kaliber Luftgewehre aufgrund eines Verletzungsrisikos zurück. Diese PCP-betriebenen, wiederladefähigen Luftgewehre sind durch die Modellnummern CPI77S und CPI22S gekennzeichnet, die auf der linken Seite des Gewehrs zu finden sind. Der Modellname erscheint auf der rechten Seite.",
+          "ConsumerContact": "Für Unterstützung können Verbraucher Crosman unter 800-724-7486 von 9:00 bis 16:30 Uhr ET, Montag bis Freitag, erreichen. Weitere Einzelheiten sind online unter www.crosman.com/iconrecall oder durch Klicken auf 'Rückruf' oben auf der Crosman-Startseite zu finden. Sie können auch eine E-Mail an iconrecall@crosman.com senden.",
+          "metaDescription": "Crosman ruft Icon Luftgewehre aufgrund von Verletzungsrisiken zurück. Sofortige Nutzung einstellen und für Rückerstattungen kontaktieren.",
+          "Products": [
+            {
+              "Name": "Crosman Icon .177 Luftgewehr",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 2.500"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Zurückgerufenes Crosman Icon .177 Kaliber Luftgewehr (CPI77S)"
+            },
+            {
+              "Caption": "Zurückgerufenes Crosman Icon .22 Kaliber Luftgewehr (CPI22S)"
+            },
+            {
+              "Caption": "Standort der Modellnummer auf dem Luftgewehr"
+            },
+            {
+              "Caption": "Der Name des Modells \"icon\" auf der rechten Seite des Gewehrs"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Das Unternehmen hat einen Bericht über einen unbeabsichtigten Schuss erhalten. Es wurden keine Verletzungen gemeldet."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Erhältlich bei Do It Best Hardware, True Value, Service Star und Sportsman's Guide Geschäften landesweit sowie online unter www.Crosman.com, www.pyramydair.com und www.Amazon.com von März 2022 bis März 2024 für etwa 310 $."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Crosman Corp., aus Bloomfield, New York"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Verkauft bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risiko eines unerwarteten Schusses, wenn das Luftgewehr erschüttert oder fallen gelassen wird"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Verbraucher müssen die zurückgerufenen Luftgewehre sofort nicht mehr verwenden und Crosman für eine Rückerstattung kontaktieren, die als Gutschein oder Rückerstattungsscheck nach Rückgabe des Luftgewehrs ausgestellt werden kann. Crosman wird eine Box mit Anweisungen und frankierter Post an diejenigen bereitstellen, die sich unter www.crosman.com/iconrecall registrieren. Das Unternehmen kontaktiert auch alle bekannten Käufer."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Rückerstattung"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "クロスマンが潜在的な怪我のリスクによりアイコンエアライフルをリコール",
+          "Description": "クロスマンは、怪我のリスクによりアイコン .177 および .22 カリバーエアライフルをリコールしています。これらのPCP駆動のボルトアクションエアライフルは、ライフルの左側にあるモデル番号 CPI77S および CPI22S で識別されます。モデル名は右側に表示されています。\n",
+          "ConsumerContact": "サポートが必要な場合、消費者は月曜日から金曜日の午前9時から午後4時30分（ET）まで、800-724-7486でクロスマンに連絡できます。追加の詳細は、www.crosman.com/iconrecallでオンラインで確認するか、クロスマンのホームページの上部にある「リコール」をクリックしてください。また、iconrecall@crosman.comにメールを送信することもできます。",
+          "metaDescription": "クロスマンが怪我のリスクによりアイコンエアライフルをリコール。直ちに使用を中止し、返金のために連絡してください。",
+          "Products": [
+            {
+              "Name": "クロスマン アイコン .177 エアライフル",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約2,500"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコールされたクロスマン アイコン .177 カリバーエアライフル (CPI77S)"
+            },
+            {
+              "Caption": "リコールされたクロスマン アイコン .22 カリバーエアライフル (CPI22S)"
+            },
+            {
+              "Caption": "エアライフルのモデル番号の位置"
+            },
+            {
+              "Caption": "ライフルの右側にあるモデル名「アイコン」"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "企業は意図しない発射の報告を1件受けています。怪我の報告はありません。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "全国のDo It Best Hardware、True Value、Service Star、Sportsman's Guide店舗およびwww.Crosman.com、www.pyramydair.com、www.Amazon.comで、2022年3月から2024年3月まで約310ドルで販売されています。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "ニューヨーク州ブルームフィールドのクロスマン社"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "販売場所",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "エアライフルが揺さぶられたり落とされたりした場合の予期しない発射のリスク"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "消費者はリコールされたエアライフルの使用を直ちに中止し、クロスマンに連絡して返金を受ける必要があります。返金は、エアライフルを返却後にストアクレジットまたは返金小切手として発行されます。クロスマンは、www.crosman.com/iconrecallで登録した人に指示と prepaid postage を含む箱を提供します。会社は、すべての既知の購入者にも連絡を取っています。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "返金"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "Crosman Recalls Icon Air Rifles Due to Potential Injury Risk",
+          "Description": "A Crosman está recallando seus Rifles de Ar Icon .177 e .22 Caliber devido a um risco de lesão. Esses rifles de ar com ação por ferrolho, acionados por PCP, são identificados pelos números de modelo CPI77S e CPI22S, que podem ser encontrados no lado esquerdo do rifle. O nome do modelo aparece no lado direito.",
+          "ConsumerContact": "Para assistência, os consumidores podem entrar em contato com a Crosman pelo telefone 800-724-7486 das 9h às 16h30 ET, de segunda a sexta-feira. Detalhes adicionais podem ser encontrados online em www.crosman.com/iconrecall ou clicando em 'Recall' no topo da página inicial da Crosman. Você também pode enviar um e-mail para iconrecall@crosman.com.",
+          "metaDescription": "Crosman recall os Rifles de Ar Icon devido ao risco de lesão. Pare de usar imediatamente e entre em contato para reembolsos.",
+          "Products": [
+            {
+              "Name": "Rifle de Ar Crosman Icon .177",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 2.500"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Rifle de Ar Crosman Icon .177 Caliber Recallado (CPI77S)"
+            },
+            {
+              "Caption": "Rifle de Ar Crosman Icon .22 Caliber Recallado (CPI22S)"
+            },
+            {
+              "Caption": "Localização do número do modelo Crosman no rifle de ar"
+            },
+            {
+              "Caption": "O nome do modelo \"icon\" no lado direito do rifle"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "A empresa recebeu um relatório de um disparo não intencional. Nenhuma lesão foi relatada."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponível nas lojas Do It Best Hardware, True Value, Service Star e Sportsman's Guide em todo o país, bem como online em www.Crosman.com, www.pyramydair.com e www.Amazon.com de março de 2022 até março de 2024 por aproximadamente $310."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Crosman Corp., de Bloomfield, Nova York"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendido Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risco de disparo inesperado se o rifle de ar for sacudido ou derrubado"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Os consumidores devem parar de usar os rifles de ar recallados imediatamente e entrar em contato com a Crosman para um reembolso, que pode ser emitido como crédito na loja ou um cheque de reembolso após a devolução do rifle de ar. A Crosman fornecerá uma caixa com instruções e postagem pré-paga para aqueles que se registrarem em www.crosman.com/iconrecall. A empresa também está entrando em contato com todos os compradores conhecidos."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reembolso"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "क्रॉसमैन ने संभावित चोट के जोखिम के कारण आइकन एयर राइफलों को वापस बुलाया",
+          "Description": "क्रॉसमैन अपने आइकन .177 और .22 कैलिबर एयर राइफलों को चोट के जोखिम के कारण वापस बुला रहा है। ये पीसीपी-शक्ति वाली, बोल्ट-एक्शन एयर राइफलें मॉडल नंबर CPI77S और CPI22S द्वारा पहचानी जाती हैं, जो राइफल के बाईं ओर पाई जा सकती हैं। मॉडल का नाम दाईं ओर दिखाई देता है।",
+          "ConsumerContact": "सहायता के लिए, उपभोक्ता क्रॉसमैन से 800-724-7486 पर सुबह 9 बजे से शाम 4:30 बजे ईटी, सोमवार से शुक्रवार तक संपर्क कर सकते हैं। अतिरिक्त विवरण www.crosman.com/iconrecall पर ऑनलाइन या क्रॉसमैन की होमपेज के शीर्ष पर 'Recall' पर क्लिक करके पाया जा सकता है। आप iconrecall@crosman.com पर भी ईमेल कर सकते हैं।",
+          "metaDescription": "क्रॉसमैन चोट के जोखिम के कारण आइकन एयर राइफलों को वापस बुलाता है। तुरंत उपयोग करना बंद करें और रिफंड के लिए संपर्क करें।",
+          "Products": [
+            {
+              "Name": "क्रॉसमैन आइकन .177 एयर राइफल",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 2,500"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "वापस बुलाई गई क्रॉसमैन आइकन .177 कैलिबर एयर राइफल (CPI77S)"
+            },
+            {
+              "Caption": "वापस बुलाई गई क्रॉसमैन आइकन .22 कैलिबर एयर राइफल (CPI22S)"
+            },
+            {
+              "Caption": "एयर राइफल पर क्रॉसमैन मॉडल नंबर का स्थान"
+            },
+            {
+              "Caption": "राइफल के दाहिने हाथ की ओर मॉडल का नाम \"आइकन\""
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "कंपनी को एक अनपेक्षित डिस्चार्ज की रिपोर्ट मिली है। कोई चोट की रिपोर्ट नहीं की गई है।"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "देश भर में Do It Best Hardware, True Value, Service Star, और Sportsman's Guide स्टोर्स पर उपलब्ध, साथ ही www.Crosman.com, www.pyramydair.com, और www.Amazon.com पर मार्च 2022 से मार्च 2024 तक लगभग $310 में।"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "क्रॉसमैन कॉर्प, ब्लूमफील्ड, न्यू यॉर्क"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "चीन"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "यदि एयर राइफल को झटका दिया जाए या गिराया जाए तो अनपेक्षित डिस्चार्ज का जोखिम"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "उपभोक्ताओं को तुरंत वापस बुलाए गए एयर राइफलों का उपयोग करना बंद करना चाहिए और रिफंड के लिए क्रॉसमैन से संपर्क करना चाहिए, जो एयर राइफल लौटाने के बाद स्टोर क्रेडिट या रिफंड चेक के रूप में जारी किया जा सकता है। क्रॉसमैन उन लोगों को निर्देशों और प्रीपेड डाक के साथ एक बॉक्स प्रदान करेगा जो www.crosman.com/iconrecall पर पंजीकरण करते हैं। कंपनी सभी ज्ञात खरीदारों से भी संपर्क कर रही है।"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "रिफंड"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "Crosman отзывает винтовки Icon из-за потенциального риска травмы",
+          "Description": "Crosman отзывает свои винтовки Icon калибра .177 и .22 из-за риска травмы. Эти PCP-управляемые, с затвором винтовки идентифицируются по номерам моделей CPI77S и CPI22S, которые можно найти на левой стороне винтовки. Название модели отображается на правой стороне.",
+          "ConsumerContact": "Для получения помощи потребители могут обратиться в Crosman по телефону 800-724-7486 с 9:00 до 16:30 по восточному времени, с понедельника по пятницу. Дополнительные сведения можно найти онлайн на сайте www.crosman.com/iconrecall или нажав на 'Отзыв' в верхней части главной страницы Crosman. Вы также можете отправить электронное письмо на адрес iconrecall@crosman.com.",
+          "metaDescription": "Crosman отзывает винтовки Icon из-за риска травмы. Немедленно прекратите использование и свяжитесь для получения возврата.",
+          "Products": [
+            {
+              "Name": "Винтовка Crosman Icon .177",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 2500"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванная винтовка Crosman Icon калибра .177 (CPI77S)"
+            },
+            {
+              "Caption": "Отозванная винтовка Crosman Icon калибра .22 (CPI22S)"
+            },
+            {
+              "Caption": "Место расположения номера модели Crosman на винтовке"
+            },
+            {
+              "Caption": "Название модели \"icon\" на правой стороне винтовки"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Компания получила один отчет о непреднамеренном выстреле. Травмы не были зафиксированы."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Доступно в магазинах Do It Best Hardware, True Value, Service Star и Sportsman's Guide по всей стране, а также онлайн на www.Crosman.com, www.pyramydair.com и www.Amazon.com с марта 2022 года по март 2024 года примерно за 310 долларов."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Crosman Corp., Блумфилд, Нью-Йорк"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Продается в",
+          "ManufacturerCountries": [
+            {
+              "Country": "Китай"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Риск неожиданного выстрела, если винтовка будет трясена или уронена"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Потребители должны немедленно прекратить использование отозванных винтовок и обратиться в Crosman для получения возврата, который может быть выдан в виде кредитной суммы в магазине или чека после возврата винтовки. Crosman предоставит коробку с инструкциями и предоплаченным почтовым отправлением тем, кто зарегистрируется на сайте www.crosman.com/iconrecall. Компания также связывается со всеми известными покупателями."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Возврат"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "Crosman thu hồi súng hơi Icon do nguy cơ chấn thương tiềm ẩn",
+          "Description": "Crosman đang thu hồi súng hơi Icon .177 và .22 Caliber do nguy cơ chấn thương. Những khẩu súng hơi này được cung cấp năng lượng bằng PCP, có cơ chế khóa, được xác định bằng số mẫu CPI77S và CPI22S, có thể được tìm thấy ở bên trái của khẩu súng. Tên mẫu xuất hiện ở bên phải.\n",
+          "ConsumerContact": "Để được hỗ trợ, người tiêu dùng có thể liên hệ với Crosman qua số 800-724-7486 từ 9 giờ sáng đến 4:30 chiều ET, từ thứ Hai đến thứ Sáu. Thông tin chi tiết có thể được tìm thấy trực tuyến tại www.crosman.com/iconrecall hoặc bằng cách nhấp vào 'Recall' ở đầu trang chủ của Crosman. Bạn cũng có thể gửi email đến iconrecall@crosman.com.",
+          "metaDescription": "Crosman thu hồi súng hơi Icon do nguy cơ chấn thương. Ngừng sử dụng ngay lập tức và liên hệ để được hoàn tiền.",
+          "Products": [
+            {
+              "Name": "Súng hơi Crosman Icon .177",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 2,500"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Súng hơi Crosman Icon .177 Caliber bị thu hồi (CPI77S)"
+            },
+            {
+              "Caption": "Súng hơi Crosman Icon .22 Caliber bị thu hồi (CPI22S)"
+            },
+            {
+              "Caption": "Vị trí số mẫu Crosman trên súng hơi"
+            },
+            {
+              "Caption": "Tên mẫu \"icon\" ở bên phải của khẩu súng"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Công ty đã nhận được một báo cáo về việc xả súng không mong muốn. Không có chấn thương nào được báo cáo."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Có mặt tại các cửa hàng Do It Best Hardware, True Value, Service Star và Sportsman's Guide trên toàn quốc, cũng như trực tuyến tại www.Crosman.com, www.pyramydair.com và www.Amazon.com từ tháng 3 năm 2022 đến tháng 3 năm 2024 với giá khoảng 310 đô la."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Crosman Corp., ở Bloomfield, New York"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Bán Tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Trung Quốc"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Nguy cơ xả súng bất ngờ nếu súng hơi bị rung hoặc rơi"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Người tiêu dùng phải ngừng sử dụng ngay lập tức các khẩu súng hơi bị thu hồi và liên hệ với Crosman để được hoàn tiền, có thể được phát hành dưới dạng tín dụng cửa hàng hoặc séc hoàn tiền sau khi trả lại súng hơi. Crosman sẽ cung cấp một hộp với hướng dẫn và bưu phí đã trả cho những ai đăng ký tại www.crosman.com/iconrecall. Công ty cũng đang liên hệ với tất cả những người mua đã biết."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Hoàn tiền"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    },
+    {
+      "RecallID": 9901,
+      "RecallNumber": "24174",
+      "RecallDate": "2024-03-21T00:00:00",
+      "Description": "Ravin Crossbows is recalling eight models of the R500 series due to a safety concern. These crossbows measure approximately 8 inches wide when un-cocked and 28 inches long. Each model features a split limb design with cams positioned between the upper and lower limbs. Available in slate gray and camo, the crossbows come with a scope, quiver, cocking handle, quiver bracket, and six arrows. The Ravin logo and model names can be found on decals on the upper limbs, while the serial number is located on the left side of the rail above the trigger.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/Ravin-Crossbows-Recalls-Ravin-R500-Series-Crossbows-Due-to-Injury-Hazard",
+      "Title": "Ravin R500 Series Crossbows Recalled Due to Potential Injury Risk",
+      "ConsumerContact": "For assistance, contact Ravin Crossbows at 888-298-6335 from 9 a.m. to 5 p.m. CT, email R500recall@ravincrossbows.com, or visit https://www.ravincrossbows.com/r500recall or www.ravincrossbows.com and navigate to \"Safety & Instruction\" then \"Recall Notices\" for further details.",
+      "LastPublishDate": "2024-03-21T00:00:00",
+      "Products": [
+        {
+          "Name": "Ravin R500 Crossbow",
+          "NumberOfUnits": "About 13,300 (In addition, about 425 were sold in Canada)"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/nonpowder-guns/3-Ravin-R500-Crossbow/b25c04674ff28042472e5b2a31df8dad.webp",
+          "Caption": "Recalled Ravin R500 Model Crossbow",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/RavinR500.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received one report of the crossbow unexpectedly discharging. No injuries have been reported."
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "Ravin Crossbows LLC, of Superior, Wisconsin"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Ravin, Bass Pro Shops, Cabela's, Dick's Sporting Goods, and various other retailers nationwide, as well as online at www.ravincrossbows.com from September 2021 through October 2023, priced between $2,550 and $4,025."
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "United States"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of unexpected discharge when nearly cocked, posing an injury hazard."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should cease using the recalled crossbows and reach out to Ravin Crossbows for a complimentary repair."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ],
+      "slug": "ravin-r500-series-crossbows-recalled-due-to-potential-injury-risk-recall",
+      "metaDescription": "Ravin recalls R500 series crossbows due to injury risk. Stop using immediately and contact for free repair.",
+      "languages": {
+        "en": {
+          "Title": "Ravin R500 Series Crossbows Recalled Due to Potential Injury Risk",
+          "Description": "Ravin Crossbows is recalling eight models of the R500 series due to a safety concern. These crossbows measure approximately 8 inches wide when un-cocked and 28 inches long. Each model features a split limb design with cams positioned between the upper and lower limbs. Available in slate gray and camo, the crossbows come with a scope, quiver, cocking handle, quiver bracket, and six arrows. The Ravin logo and model names can be found on decals on the upper limbs, while the serial number is located on the left side of the rail above the trigger.",
+          "ConsumerContact": "For assistance, contact Ravin Crossbows at 888-298-6335 from 9 a.m. to 5 p.m. CT, email R500recall@ravincrossbows.com, or visit https://www.ravincrossbows.com/r500recall or www.ravincrossbows.com and navigate to \"Safety & Instruction\" then \"Recall Notices\" for further details.",
+          "metaDescription": "Ravin recalls R500 series crossbows due to injury risk. Stop using immediately and contact for free repair.",
+          "Products": [
+            {
+              "Name": "Ravin R500 Crossbow",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 13,300 (In addition, about 425 were sold in Canada)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled Ravin R500 Model Crossbow"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "The firm has received one report of the crossbow unexpectedly discharging. No injuries have been reported."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Ravin, Bass Pro Shops, Cabela's, Dick's Sporting Goods, and various other retailers nationwide, as well as online at www.ravincrossbows.com from September 2021 through October 2023, priced between $2,550 and $4,025."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Ravin Crossbows LLC, of Superior, Wisconsin"
+            }
+          ],
+          "SoldAtLabel": "Sold At",
+          "ManufacturerCountries": [
+            {
+              "Country": "United States"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risk of unexpected discharge when nearly cocked, posing an injury hazard."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Consumers should cease using the recalled crossbows and reach out to Ravin Crossbows for a complimentary repair."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Repair"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "Se Retiran del Mercado los Arcos Crossbow R500 de Ravin Debido a un Riesgo Potencial de Lesiones",
+          "Description": "Ravin Crossbows está retirando ocho modelos de la serie R500 debido a una preocupación de seguridad. Estos arcos miden aproximadamente 8 pulgadas de ancho cuando no están tensados y 28 pulgadas de largo. Cada modelo cuenta con un diseño de extremidad dividida con poleas posicionadas entre las extremidades superior e inferior. Disponibles en gris pizarra y camuflaje, los arcos vienen con una mira, un carcaj, un mango de tensión, un soporte para el carcaj y seis flechas. El logo de Ravin y los nombres de los modelos se pueden encontrar en calcomanías en las extremidades superiores, mientras que el número de serie se ubica en el lado izquierdo del riel sobre el gatillo.",
+          "ConsumerContact": "Para asistencia, comuníquese con Ravin Crossbows al 888-298-6335 de 9 a.m. a 5 p.m. CT, envíe un correo electrónico a R500recall@ravincrossbows.com, o visite https://www.ravincrossbows.com/r500recall o www.ravincrossbows.com y navegue a \"Seguridad e Instrucción\" luego \"Avisos de Retiro\" para más detalles.",
+          "metaDescription": "Ravin retira los arcos crossbow de la serie R500 debido a riesgo de lesiones. Deje de usarlos inmediatamente y comuníquese para una reparación gratuita.",
+          "Products": [
+            {
+              "Name": "Arco Crossbow R500 de Ravin",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 13,300 (Además, se vendieron alrededor de 425 en Canadá)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Arco Crossbow R500 de Ravin retirado del mercado"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "La empresa ha recibido un informe de que el arco se disparó inesperadamente. No se han reportado lesiones."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Ravin, Bass Pro Shops, Cabela's, Dick's Sporting Goods y varios otros minoristas en todo el país, así como en línea en www.ravincrossbows.com desde septiembre de 2021 hasta octubre de 2023, con precios entre $2,550 y $4,025."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Ravin Crossbows LLC, de Superior, Wisconsin"
+            }
+          ],
+          "SoldAtLabel": "Vendidos En",
+          "ManufacturerCountries": [
+            {
+              "Country": "Estados Unidos"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Riesgo de disparo inesperado cuando está casi tensado, lo que representa un peligro de lesiones."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Los consumidores deben dejar de usar los arcos retirados del mercado y comunicarse con Ravin Crossbows para una reparación gratuita."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparación"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "استدعاء أقواس رافين R500 بسبب خطر الإصابة المحتمل",
+          "Description": "تقوم شركة رافين لأقواس القنص باستدعاء ثمانية نماذج من سلسلة R500 بسبب مخاوف تتعلق بالسلامة. تقيس هذه الأقواس حوالي 8 بوصات عرضًا عندما تكون غير مشدودة و28 بوصة طولًا. يتميز كل نموذج بتصميم طرف مقسم مع كامات موضوعة بين الأطراف العليا والسفلى. متاحة باللون الرمادي الداكن والتمويه، تأتي الأقواس مع منظار، وحقيبة سهام، ومقبض شد، وحامل حقيبة، وستة سهام. يمكن العثور على شعار رافين وأسماء النماذج على ملصقات على الأطراف العليا، بينما يقع الرقم التسلسلي على الجانب الأيسر من السكة فوق الزناد.",
+          "ConsumerContact": "للمساعدة، اتصل بشركة رافين لأقواس القنص على الرقم 888-298-6335 من الساعة 9 صباحًا حتى 5 مساءً بتوقيت وسط أمريكا، أو أرسل بريدًا إلكترونيًا إلى R500recall@ravincrossbows.com، أو قم بزيارة https://www.ravincrossbows.com/r500recall أو www.ravincrossbows.com وانتقل إلى \"السلامة والتعليم\" ثم \"إشعارات الاستدعاء\" لمزيد من التفاصيل.",
+          "metaDescription": "رافين تستدعي أقواس R500 بسبب خطر الإصابة. توقف عن الاستخدام فورًا واتصل للحصول على إصلاح مجاني.",
+          "Products": [
+            {
+              "Name": "قوس رافين R500",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 13,300 (بالإضافة إلى ذلك، تم بيع حوالي 425 في كندا)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "قوس رافين R500 المستدعى"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "تلقت الشركة تقريرًا واحدًا عن إطلاق القوس بشكل غير متوقع. لم يتم الإبلاغ عن أي إصابات."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "رافين، متاجر باس برو، كابلا، ديك's سبورتينغ غودز، والعديد من تجار التجزئة الآخرين في جميع أنحاء البلاد، بالإضافة إلى البيع عبر الإنترنت على www.ravincrossbows.com من سبتمبر 2021 حتى أكتوبر 2023، بأسعار تتراوح بين 2,550 دولار و4,025 دولار."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "رافين لأقواس القنص ذ.م.م، من سوبرير، ويسكونسن"
+            }
+          ],
+          "SoldAtLabel": "تم البيع في",
+          "ManufacturerCountries": [
+            {
+              "Country": "الولايات المتحدة"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "خطر الإطلاق غير المتوقع عندما يكون القوس شبه مشدود، مما يشكل خطر الإصابة."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "يجب على المستهلكين التوقف عن استخدام الأقواس المستدعاة والتواصل مع رافين لأقواس القنص للحصول على إصلاح مجاني."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "إصلاح"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "Ravin R500系列十字弓因潜在伤害风险被召回",
+          "Description": "Ravin十字弓因安全问题召回八款R500系列产品。这些十字弓在未上弦时宽约8英寸，长28英寸。每款型号都采用分叉臂设计，轮轴位于上臂和下臂之间。十字弓有石板灰和迷彩色可供选择，配有瞄准镜、箭袋、上弦手柄、箭袋支架和六支箭。Ravin标志和型号名称可以在上臂的贴纸上找到，而序列号位于扳机上方轨道的左侧。",
+          "ConsumerContact": "如需帮助，请联系Ravin十字弓，电话888-298-6335，工作时间为中部时间上午9点至下午5点，电子邮件R500recall@ravincrossbows.com，或访问https://www.ravincrossbows.com/r500recall或www.ravincrossbows.com，导航到“安全与说明”，然后“召回通知”以获取更多详细信息。",
+          "metaDescription": "Ravin因伤害风险召回R500系列十字弓。请立即停止使用并联系以获得免费维修。",
+          "Products": [
+            {
+              "Name": "Ravin R500十字弓",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约13,300（此外，约有425台在加拿大销售）"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "被召回的Ravin R500型号十字弓"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "该公司已收到一份十字弓意外发射的报告。没有报告受伤情况。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Ravin、Bass Pro Shops、Cabela's、Dick's Sporting Goods及全国各地的其他零售商，以及在www.ravincrossbows.com上在线销售，销售时间为2021年9月至2023年10月，价格在$2,550至$4,025之间。"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "位于威斯康星州Superior的Ravin十字弓公司"
+            }
+          ],
+          "SoldAtLabel": "销售地点",
+          "ManufacturerCountries": [
+            {
+              "Country": "美国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "在接近上弦时意外发射的风险，构成伤害危险。"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "消费者应停止使用被召回的十字弓，并联系Ravin十字弓以获得免费维修。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "维修"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "Arbalètes de la série R500 de Ravin rappelées en raison d'un risque potentiel de blessure",
+          "Description": "Ravin Crossbows rappelle huit modèles de la série R500 en raison d'un problème de sécurité. Ces arbalètes mesurent environ 20 cm de large lorsqu'elles ne sont pas armées et 71 cm de long. Chaque modèle présente un design à branches séparées avec des cames positionnées entre les branches supérieures et inférieures. Disponibles en gris ardoise et en camouflage, les arbalètes sont fournies avec une lunette, un carquois, une poignée d'armement, un support de carquois et six flèches. Le logo Ravin et les noms des modèles se trouvent sur des autocollants sur les branches supérieures, tandis que le numéro de série est situé sur le côté gauche du rail au-dessus de la gâchette.",
+          "ConsumerContact": "Pour assistance, contactez Ravin Crossbows au 888-298-6335 de 9 h à 17 h CT, par e-mail à R500recall@ravincrossbows.com, ou visitez https://www.ravincrossbows.com/r500recall ou www.ravincrossbows.com et naviguez vers \"Sécurité & Instructions\" puis \"Avis de rappel\" pour plus de détails.",
+          "metaDescription": "Ravin rappelle les arbalètes de la série R500 en raison d'un risque de blessure. Cessez immédiatement de les utiliser et contactez pour une réparation gratuite.",
+          "Products": [
+            {
+              "Name": "Arbalète Ravin R500",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 13 300 (De plus, environ 425 ont été vendues au Canada)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Arbalète Ravin R500 rappelée"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "L'entreprise a reçu un rapport concernant l'arbalète se déchargeant de manière inattendue. Aucune blessure n'a été signalée."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Ravin, Bass Pro Shops, Cabela's, Dick's Sporting Goods, et divers autres détaillants à l'échelle nationale, ainsi qu'en ligne sur www.ravincrossbows.com de septembre 2021 à octobre 2023, au prix compris entre 2 550 $ et 4 025 $."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Ravin Crossbows LLC, de Superior, Wisconsin"
+            }
+          ],
+          "SoldAtLabel": "Vendu À",
+          "ManufacturerCountries": [
+            {
+              "Country": "États-Unis"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risque de décharge inattendue lorsque presque armée, posant un risque de blessure."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Les consommateurs doivent cesser d'utiliser les arbalètes rappelées et contacter Ravin Crossbows pour une réparation gratuite."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Réparation"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "Ravin R500-Serie Armbrüste zurückgerufen aufgrund potenzieller Verletzungsgefahr",
+          "Description": "Ravin Armbrüste ruft acht Modelle der R500-Serie aufgrund eines Sicherheitsproblems zurück. Diese Armbrüste messen etwa 20 cm in der Breite, wenn sie nicht gespannt sind, und 71 cm in der Länge. Jedes Modell verfügt über ein geteiltes Wurfarmdesign mit Nocken, die zwischen den oberen und unteren Wurfarmen positioniert sind. Erhältlich in schiefergrau und Tarnmuster, werden die Armbrüste mit einem Zielfernrohr, einem Köcher, einem Spannhebel, einer Köcherhalterung und sechs Pfeilen geliefert. Das Ravin-Logo und die Modellnamen sind auf Aufklebern an den oberen Wurfarmen zu finden, während die Seriennummer auf der linken Seite der Schiene über dem Abzug angebracht ist.",
+          "ConsumerContact": "Für Unterstützung kontaktieren Sie Ravin Armbrüste unter 888-298-6335 von 9 bis 17 Uhr CT, per E-Mail an R500recall@ravincrossbows.com oder besuchen Sie https://www.ravincrossbows.com/r500recall oder www.ravincrossbows.com und navigieren Sie zu \"Sicherheit & Anleitung\" und dann \"Rückrufhinweise\" für weitere Details.",
+          "metaDescription": "Ravin ruft R500-Serie Armbrüste aufgrund von Verletzungsgefahr zurück. Sofortige Nutzung einstellen und für kostenlose Reparatur kontaktieren.",
+          "Products": [
+            {
+              "Name": "Ravin R500 Armbrust",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 13.300 (Zusätzlich wurden etwa 425 in Kanada verkauft)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Zurückgerufene Ravin R500 Modell Armbrust"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Das Unternehmen hat einen Bericht über die unerwartete Auslösung der Armbrust erhalten. Es wurden keine Verletzungen gemeldet."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Ravin, Bass Pro Shops, Cabela's, Dick's Sporting Goods und verschiedene andere Einzelhändler landesweit sowie online unter www.ravincrossbows.com von September 2021 bis Oktober 2023, preislich zwischen 2.550 und 4.025 US-Dollar."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Ravin Crossbows LLC, aus Superior, Wisconsin"
+            }
+          ],
+          "SoldAtLabel": "Verkauft bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "Vereinigte Staaten"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risiko einer unerwarteten Auslösung, wenn sie fast gespannt ist, was eine Verletzungsgefahr darstellt."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Die Verbraucher sollten die zurückgerufenen Armbrüste nicht mehr verwenden und sich an Ravin Armbrüste für eine kostenlose Reparatur wenden."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparatur"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "Ravin R500シリーズクロスボウが潜在的な怪我のリスクによりリコール",
+          "Description": "Ravin Crossbowsは、安全上の懸念からR500シリーズの8モデルをリコールしています。これらのクロスボウは、未装填時に約8インチの幅と28インチの長さがあります。各モデルは、上部と下部のリムの間にカムが配置されたスプリットリムデザインを特徴としています。スレートグレーとカモ柄で提供され、クロスボウにはスコープ、クイバー、コッキングハンドル、クイバーブラケット、6本の矢が付属しています。Ravinのロゴとモデル名は上部リムのデカールにあり、シリアル番号はトリガーの上のレールの左側にあります。",
+          "ConsumerContact": "サポートが必要な場合は、Ravin Crossbowsに888-298-6335（中央標準時の午前9時から午後5時まで）に連絡するか、R500recall@ravincrossbows.comにメールを送信するか、https://www.ravincrossbows.com/r500recallまたはwww.ravincrossbows.comを訪れて「安全と指示」から「リコール通知」に進んで詳細を確認してください。",
+          "metaDescription": "Ravinは怪我のリスクによりR500シリーズのクロスボウをリコールします。直ちに使用を中止し、無料修理のために連絡してください。",
+          "Products": [
+            {
+              "Name": "Ravin R500 クロスボウ",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約13,300台（さらに、約425台がカナダで販売されました）"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコールされたRavin R500モデルのクロスボウ"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "同社は、クロスボウが予期せず発射されたとの報告を1件受けています。怪我の報告はありません。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Ravin、Bass Pro Shops、Cabela's、Dick's Sporting Goods、全国のさまざまな小売業者、および2021年9月から2023年10月までwww.ravincrossbows.comでオンライン販売され、価格は$2,550から$4,025の間です。"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Ravin Crossbows LLC、ウィスコンシン州スーペリア"
+            }
+          ],
+          "SoldAtLabel": "販売場所",
+          "ManufacturerCountries": [
+            {
+              "Country": "アメリカ合衆国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "ほぼ装填された状態での予期せぬ発射のリスクがあり、怪我の危険を引き起こします。"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "消費者はリコールされたクロスボウの使用を中止し、Ravin Crossbowsに連絡して無料修理を受けるべきです。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "修理"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "Recolhimento das Arcos e Flechas Ravin R500 devido ao risco potencial de lesão",
+          "Description": "A Ravin Crossbows está recolhendo oito modelos da série R500 devido a uma preocupação de segurança. Esses arcos e flechas medem aproximadamente 20 centímetros de largura quando não armados e 71 centímetros de comprimento. Cada modelo apresenta um design de braço dividido com polias posicionadas entre os braços superior e inferior. Disponíveis nas cores cinza ardósia e camuflada, os arcos e flechas vêm com uma mira, aljava, manivela de armamento, suporte para aljava e seis flechas. O logotipo da Ravin e os nomes dos modelos podem ser encontrados em adesivos nos braços superiores, enquanto o número de série está localizado no lado esquerdo do trilho acima do gatilho.",
+          "ConsumerContact": "Para assistência, entre em contato com a Ravin Crossbows pelo telefone 888-298-6335 das 9h às 17h CT, envie um e-mail para R500recall@ravincrossbows.com ou visite https://www.ravincrossbows.com/r500recall ou www.ravincrossbows.com e navegue até \"Segurança & Instruções\" e depois \"Avisos de Recolhimento\" para mais detalhes.",
+          "metaDescription": "A Ravin recolhe arcos e flechas da série R500 devido ao risco de lesão. Pare de usar imediatamente e entre em contato para reparo gratuito.",
+          "Products": [
+            {
+              "Name": "Arco e Flecha Ravin R500",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 13.300 (Além disso, cerca de 425 foram vendidos no Canadá)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Arco e Flecha Ravin R500 Modelo Recolhido"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "A empresa recebeu um relato de que o arco e flecha disparou inesperadamente. Nenhuma lesão foi relatada."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Ravin, Bass Pro Shops, Cabela's, Dick's Sporting Goods e vários outros varejistas em todo o país, bem como online em www.ravincrossbows.com de setembro de 2021 até outubro de 2023, com preços entre $2.550 e $4.025."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Ravin Crossbows LLC, de Superior, Wisconsin"
+            }
+          ],
+          "SoldAtLabel": "Vendido Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "Estados Unidos"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risco de disparo inesperado quando quase armado, representando um risco de lesão."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Os consumidores devem parar de usar os arcos e flechas recolhidos e entrar em contato com a Ravin Crossbows para um reparo gratuito."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparo"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "रविन R500 श्रृंखला के क्रॉसबो को संभावित चोट के जोखिम के कारण वापस बुलाया गया",
+          "Description": "रविन क्रॉसबो आठ मॉडल के R500 श्रृंखला को सुरक्षा चिंता के कारण वापस बुला रहा है। ये क्रॉसबो बिना कॉक किए लगभग 8 इंच चौड़े और 28 इंच लंबे होते हैं। प्रत्येक मॉडल में एक विभाजित अंग डिजाइन होता है जिसमें कैम ऊपरी और निचले अंगों के बीच स्थित होते हैं। स्लेट ग्रे और कैमो में उपलब्ध, क्रॉसबो में एक स्कोप, क्विवर, कॉकिंग हैंडल, क्विवर ब्रैकेट, और छह तीर शामिल हैं। रविन लोगो और मॉडल नाम ऊपरी अंगों पर डिकल्स पर पाए जा सकते हैं, जबकि सीरियल नंबर ट्रिगर के ऊपर रेल के बाईं ओर स्थित है।",
+          "ConsumerContact": "सहायता के लिए, रविन क्रॉसबो से 888-298-6335 पर सुबह 9 बजे से शाम 5 बजे सीटी तक संपर्क करें, ईमेल करें R500recall@ravincrossbows.com, या https://www.ravincrossbows.com/r500recall पर जाएं या www.ravincrossbows.com पर जाएं और \"सुरक्षा और निर्देश\" फिर \"रिस्कॉल नोटिस\" पर नेविगेट करें और आगे की जानकारी के लिए।",
+          "metaDescription": "रविन R500 श्रृंखला के क्रॉसबो को चोट के जोखिम के कारण वापस बुला रहा है। तुरंत उपयोग करना बंद करें और मुफ्त मरम्मत के लिए संपर्क करें।",
+          "Products": [
+            {
+              "Name": "रविन R500 क्रॉसबो",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 13,300 (इसके अलावा, लगभग 425 कनाडा में बेचे गए)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "वापस बुलाया गया रविन R500 मॉडल क्रॉसबो"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "कंपनी को क्रॉसबो के अप्रत्याशित रूप से डिस्चार्ज होने की एक रिपोर्ट मिली है। कोई चोट की रिपोर्ट नहीं की गई है।"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "रविन, बैस प्रो शॉप्स, कैबेला's, डिक's स्पोर्टिंग गुड्स, और विभिन्न अन्य खुदरा विक्रेता देश भर में, साथ ही www.ravincrossbows.com पर सितंबर 2021 से अक्टूबर 2023 के बीच, $2,550 से $4,025 के बीच कीमत पर।"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "रविन क्रॉसबो LLC, सुपीरियर, विस्कॉन्सिन"
+            }
+          ],
+          "SoldAtLabel": "बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "संयुक्त राज्य अमेरिका"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "लगभग कॉक किए जाने पर अप्रत्याशित डिस्चार्ज का जोखिम, जो चोट का खतरा पैदा करता है।"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "उपभोक्ताओं को वापस बुलाए गए क्रॉसबो का उपयोग करना बंद कर देना चाहिए और मुफ्त मरम्मत के लिए रविन क्रॉसबो से संपर्क करना चाहिए।"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "मरम्मत"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "Арбалеты Ravin R500 серии отозваны из-за потенциального риска травм",
+          "Description": "Компания Ravin Crossbows отзывает восемь моделей серии R500 из-за проблемы с безопасностью. Эти арбалеты имеют ширину примерно 8 дюймов в неcocked состоянии и длину 28 дюймов. Каждая модель имеет конструкцию с разделенными плечами и кулачками, расположенными между верхними и нижними плечами. Доступные в цветах сланцево-серый и камуфляж, арбалеты поставляются с прицелом, колчаном, ручкой для взведения, креплением для колчана и шестью стрелами. Логотип Ravin и названия моделей можно найти на наклейках на верхних плечах, в то время как серийный номер расположен на левой стороне направляющей над спусковым крючком.",
+          "ConsumerContact": "Для получения помощи свяжитесь с Ravin Crossbows по телефону 888-298-6335 с 9:00 до 17:00 по центральному времени, по электронной почте R500recall@ravincrossbows.com или посетите https://www.ravincrossbows.com/r500recall или www.ravincrossbows.com и перейдите в раздел \"Безопасность и инструкции\", затем \"Уведомления об отзыве\" для получения дополнительной информации.",
+          "metaDescription": "Ravin отзывает арбалеты серии R500 из-за риска травм. Немедленно прекратите использование и свяжитесь для бесплатного ремонта.",
+          "Products": [
+            {
+              "Name": "Арбалет Ravin R500",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 13,300 (Кроме того, около 425 были проданы в Канаде)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванный арбалет модели Ravin R500"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Компания получила один отчет о том, что арбалет неожиданно выстрелил. Травмы не были зафиксированы."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Ravin, Bass Pro Shops, Cabela's, Dick's Sporting Goods и различные другие розничные продавцы по всей стране, а также онлайн на www.ravincrossbows.com с сентября 2021 года по октябрь 2023 года, по цене от 2,550 до 4,025 долларов."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Ravin Crossbows LLC, из Супериора, штат Висконсин"
+            }
+          ],
+          "SoldAtLabel": "Продавалось в",
+          "ManufacturerCountries": [
+            {
+              "Country": "Соединенные Штаты"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Риск неожиданного выстрела при почти взведенном состоянии, что создает риск травм."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Потребители должны прекратить использование отозванных арбалетов и обратиться в Ravin Crossbows для бесплатного ремонта."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Ремонт"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "Ravin R500 Series Crossbows Bị Triệu Hồi Do Nguy Cơ Chấn Thương",
+          "Description": "Ravin Crossbows đang triệu hồi tám mẫu của dòng R500 do mối quan tâm về an toàn. Những cây cung này có kích thước khoảng 8 inch chiều rộng khi chưa được kéo và 28 inch chiều dài. Mỗi mẫu có thiết kế tay cầm chia đôi với các bánh xe được đặt giữa các tay cầm trên và dưới. Có sẵn màu xám đá và ngụy trang, các cây cung đi kèm với một ống ngắm, túi đựng tên lửa, tay cầm kéo, giá đỡ túi đựng tên lửa và sáu mũi tên. Logo Ravin và tên mẫu có thể được tìm thấy trên nhãn dán ở các tay cầm trên, trong khi số sê-ri nằm ở bên trái của đường ray phía trên cò.",
+          "ConsumerContact": "Để được hỗ trợ, hãy liên hệ với Ravin Crossbows qua số 888-298-6335 từ 9 giờ sáng đến 5 giờ chiều CT, email R500recall@ravincrossbows.com, hoặc truy cập https://www.ravincrossbows.com/r500recall hoặc www.ravincrossbows.com và điều hướng đến \"An toàn & Hướng dẫn\" sau đó \"Thông báo Triệu hồi\" để biết thêm chi tiết.",
+          "metaDescription": "Ravin triệu hồi các cây cung dòng R500 do nguy cơ chấn thương. Ngừng sử dụng ngay lập tức và liên hệ để được sửa chữa miễn phí.",
+          "Products": [
+            {
+              "Name": "Cung Ravin R500",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 13,300 (Ngoài ra, khoảng 425 đã được bán ở Canada)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Cung Ravin R500 Mẫu Bị Triệu Hồi"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Công ty đã nhận được một báo cáo về việc cây cung bất ngờ xả đạn. Không có chấn thương nào được báo cáo."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Ravin, Bass Pro Shops, Cabela's, Dick's Sporting Goods, và nhiều nhà bán lẻ khác trên toàn quốc, cũng như trực tuyến tại www.ravincrossbows.com từ tháng 9 năm 2021 đến tháng 10 năm 2023, có giá từ 2,550 đến 4,025 đô la."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Ravin Crossbows LLC, ở Superior, Wisconsin"
+            }
+          ],
+          "SoldAtLabel": "Được Bán Tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Hoa Kỳ"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Nguy cơ xả đạn bất ngờ khi gần được kéo, gây ra nguy cơ chấn thương."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Người tiêu dùng nên ngừng sử dụng các cây cung bị triệu hồi và liên hệ với Ravin Crossbows để được sửa chữa miễn phí."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Sửa chữa"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    }
+  ]
+}

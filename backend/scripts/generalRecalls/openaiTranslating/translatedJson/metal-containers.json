@@ -1,0 +1,871 @@
+{
+  "meta": {
+    "slug": "metal-containers",
+    "sourceCsvFile": "metal-containers_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:36.998Z",
+    "recallCount": 1,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "metal-containers.json",
+    "seoTranslatedAt": "2026-04-04T06:50:33.648Z",
+    "resumePartial": false,
+    "i18nSource": "generalRecallsTranslated",
+    "i18nSourceFile": "metal-containers.json",
+    "i18nUiLangs": [
+      "en",
+      "es",
+      "ar",
+      "zh",
+      "fr",
+      "de",
+      "ja",
+      "pt",
+      "hi",
+      "ru",
+      "vi"
+    ],
+    "i18nProgressByLang": {
+      "es": 1,
+      "ar": 1,
+      "zh": 1,
+      "fr": 1,
+      "de": 1,
+      "ja": 1,
+      "pt": 1,
+      "hi": 1,
+      "ru": 1,
+      "vi": 1
+    },
+    "i18nInProgress": false,
+    "i18nTranslatedAt": "2026-04-07T13:58:58.616Z",
+    "i18nOpenaiModel": "gpt-4o-mini"
+  },
+  "recalls": [
+    {
+      "RecallID": 9900,
+      "RecallNumber": "24172",
+      "RecallDate": "2024-03-21T00:00:00",
+      "Description": "BRS and BULin portable liquid fuel bottles are being recalled due to safety concerns. The BRS bottle is identifiable by its orange color and black cap, while the BULin bottle is red with a matching cap. Both bottles have a capacity of 1000mL and feature text in Chinese, including the brand name and safety warnings in white lettering. These products do not meet child-resistant closure standards, increasing the risk of burns and poisoning for children.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/BRS-and-BULin-Liquid-Fuel-Bottles-Recalled-Due-to-Risk-of-Burn-and-Poisoning-Violation of the Childrens-Burn-Prevention-Safety-Act-Sold-Exclusively-on-Amazon-com-by-Tentock",
+      "Title": "Recall of BRS and BULin Liquid Fuel Bottles Due to Burn and Poisoning Hazards",
+      "ConsumerContact": "For assistance, contact Tentock via email at squarebird@aliyun.com or visit their Amazon seller profile at https://www.amazon.com/s?me=A1778LF2VCKZ0J&marketplaceID=ATVPDKIKX0DER.",
+      "LastPublishDate": "2024-03-21T00:00:00",
+      "Products": [
+        {
+          "Name": "BRS Liquid Fuel Bottle",
+          "NumberOfUnits": "About 290"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/metal-containers/1-BRS-Liquid-Fuel-Bottle/149045c871618e4c9b71bcd370871e37.webp",
+          "Caption": "Recalled BRS liquid fuel bottle – front",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/BRS-front_0.png"
+        },
+        {
+          "URL": "/images/generalRecalls/metal-containers/1-BRS-Liquid-Fuel-Bottle/85a8e57a0de6402bbe9e99688eb362e6.webp",
+          "Caption": "Recalled BRS liquid fuel bottle – back",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/BRS-back_0.png"
+        },
+        {
+          "URL": "/images/generalRecalls/metal-containers/1-BRS-Liquid-Fuel-Bottle/f1b447dfd10573c9cbf5bc758b48453e.webp",
+          "Caption": "Recalled BULin liquid fuel bottle –front",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/BUL-front.png"
+        },
+        {
+          "URL": "/images/generalRecalls/metal-containers/1-BRS-Liquid-Fuel-Bottle/d43f36501b7e2e53b0618ea99d4064c2.webp",
+          "Caption": "Recalled BULin liquid fuel bottle – back",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/BUL-back.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available exclusively on Amazon.com from January 2023 to December 2023, priced between $10 and $13."
+        }
+      ],
+      "Distributors": [
+        {
+          "Name": "Tentock, of China"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Non-compliant child-resistant closures leading to burn and poisoning risks for children"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Stop using the recalled bottles, keep them away from children, and contact Tentock for disposal instructions and a full refund."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "slug": "recall-of-brs-and-bulin-liquid-fuel-bottles-due-to-burn-and-poisoning-hazards-recall",
+      "metaDescription": "BRS and BULin liquid fuel bottles recalled for safety risks. Learn how to return for a refund and keep children safe.",
+      "languages": {
+        "en": {
+          "Title": "Recall of BRS and BULin Liquid Fuel Bottles Due to Burn and Poisoning Hazards",
+          "Description": "BRS and BULin portable liquid fuel bottles are being recalled due to safety concerns. The BRS bottle is identifiable by its orange color and black cap, while the BULin bottle is red with a matching cap. Both bottles have a capacity of 1000mL and feature text in Chinese, including the brand name and safety warnings in white lettering. These products do not meet child-resistant closure standards, increasing the risk of burns and poisoning for children.",
+          "ConsumerContact": "For assistance, contact Tentock via email at squarebird@aliyun.com or visit their Amazon seller profile at https://www.amazon.com/s?me=A1778LF2VCKZ0J&marketplaceID=ATVPDKIKX0DER.",
+          "metaDescription": "BRS and BULin liquid fuel bottles recalled for safety risks. Learn how to return for a refund and keep children safe.",
+          "Products": [
+            {
+              "Name": "BRS Liquid Fuel Bottle",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 290"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled BRS liquid fuel bottle – front"
+            },
+            {
+              "Caption": "Recalled BRS liquid fuel bottle – back"
+            },
+            {
+              "Caption": "Recalled BULin liquid fuel bottle –front"
+            },
+            {
+              "Caption": "Recalled BULin liquid fuel bottle – back"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "None reported"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Available exclusively on Amazon.com from January 2023 to December 2023, priced between $10 and $13."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Tentock, of China"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Sold At",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Non-compliant child-resistant closures leading to burn and poisoning risks for children"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Stop using the recalled bottles, keep them away from children, and contact Tentock for disposal instructions and a full refund."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Refund"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "Retiro de botellas de combustible líquido BRS y BULin debido a riesgos de quemaduras y envenenamiento",
+          "Description": "Las botellas de combustible líquido portátiles BRS y BULin están siendo retiradas debido a preocupaciones de seguridad. La botella BRS se identifica por su color naranja y tapa negra, mientras que la botella BULin es roja con una tapa a juego. Ambas botellas tienen una capacidad de 1000 mL y presentan texto en chino, incluyendo el nombre de la marca y advertencias de seguridad en letras blancas. Estos productos no cumplen con los estándares de cierre a prueba de niños, aumentando el riesgo de quemaduras y envenenamiento para los niños.",
+          "ConsumerContact": "Para asistencia, contacte a Tentock por correo electrónico a squarebird@aliyun.com o visite su perfil de vendedor en Amazon en https://www.amazon.com/s?me=A1778LF2VCKZ0J&marketplaceID=ATVPDKIKX0DER.",
+          "metaDescription": "Botellas de combustible líquido BRS y BULin retiradas por riesgos de seguridad. Aprenda cómo devolver para un reembolso y mantener a los niños seguros.",
+          "Products": [
+            {
+              "Name": "Botella de combustible líquido BRS",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 290"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Botella de combustible líquido BRS retirada – frente"
+            },
+            {
+              "Caption": "Botella de combustible líquido BRS retirada – atrás"
+            },
+            {
+              "Caption": "Botella de combustible líquido BULin retirada – frente"
+            },
+            {
+              "Caption": "Botella de combustible líquido BULin retirada – atrás"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Ninguna reportada"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible exclusivamente en Amazon.com desde enero de 2023 hasta diciembre de 2023, con precios entre $10 y $13."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Tentock, de China"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendido en",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Cierres a prueba de niños no conformes que conducen a riesgos de quemaduras y envenenamiento para los niños"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Deje de usar las botellas retiradas, manténgalas alejadas de los niños y contacte a Tentock para instrucciones de eliminación y un reembolso completo."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reembolso"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "استرجاع زجاجات الوقود السائل BRS و BULin بسبب مخاطر الحروق والتسمم",
+          "Description": "يتم استرجاع زجاجات الوقود السائل المحمولة BRS و BULin بسبب مخاوف تتعلق بالسلامة. يمكن التعرف على زجاجة BRS بلونها البرتقالي وغطائها الأسود، بينما زجاجة BULin حمراء مع غطاء مطابق. كلا الزجاجتين سعة 1000 مل وتحتويان على نص باللغة الصينية، بما في ذلك اسم العلامة التجارية وتحذيرات السلامة بحروف بيضاء. هذه المنتجات لا تفي بمعايير إغلاق مقاومة للأطفال، مما يزيد من خطر الحروق والتسمم للأطفال.",
+          "ConsumerContact": "للمساعدة، اتصل بـ Tentock عبر البريد الإلكتروني على squarebird@aliyun.com أو قم بزيارة ملف بائعهم على أمازون على https://www.amazon.com/s?me=A1778LF2VCKZ0J&marketplaceID=ATVPDKIKX0DER.",
+          "metaDescription": "تم استرجاع زجاجات الوقود السائل BRS و BULin بسبب مخاطر السلامة. تعرف على كيفية إرجاعها لاسترداد الأموال وحماية الأطفال.",
+          "Products": [
+            {
+              "Name": "زجاجة الوقود السائل BRS",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 290"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "زجاجة الوقود السائل BRS المسترجعة – من الأمام"
+            },
+            {
+              "Caption": "زجاجة الوقود السائل BRS المسترجعة – من الخلف"
+            },
+            {
+              "Caption": "زجاجة الوقود السائل BULin المسترجعة – من الأمام"
+            },
+            {
+              "Caption": "زجاجة الوقود السائل BULin المسترجعة – من الخلف"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "لا توجد إصابات مسجلة"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "متاحة حصريًا على Amazon.com من يناير 2023 إلى ديسمبر 2023، بسعر يتراوح بين 10 دولارات و 13 دولارًا."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Tentock، من الصين"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "تم البيع في",
+          "ManufacturerCountries": [
+            {
+              "Country": "الصين"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "إغلاقات غير متوافقة مقاومة للأطفال تؤدي إلى مخاطر الحروق والتسمم للأطفال"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "توقف عن استخدام الزجاجات المسترجعة، ابقها بعيدًا عن الأطفال، واتصل بـ Tentock للحصول على تعليمات التخلص واسترداد كامل المبلغ."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "استرداد"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "因烧伤和中毒危险而召回BRS和BULin液体燃料瓶",
+          "Description": "由于安全问题，BRS和BULin便携式液体燃料瓶正在被召回。BRS瓶子以其橙色和黑色瓶盖为特征，而BULin瓶子则是红色的，配有匹配的瓶盖。这两种瓶子的容量为1000毫升，瓶身上有中文文字，包括品牌名称和白色字母的安全警告。这些产品不符合儿童安全闭合标准，增加了儿童烧伤和中毒的风险。",
+          "ConsumerContact": "如需帮助，请通过电子邮件联系Tentock，邮箱为squarebird@aliyun.com，或访问他们的亚马逊卖家资料，网址为https://www.amazon.com/s?me=A1778LF2VCKZ0J&marketplaceID=ATVPDKIKX0DER。",
+          "metaDescription": "因安全风险召回BRS和BULin液体燃料瓶。了解如何退货以获得退款，并保护儿童安全。",
+          "Products": [
+            {
+              "Name": "BRS液体燃料瓶",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约290个"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "召回的BRS液体燃料瓶 - 正面"
+            },
+            {
+              "Caption": "召回的BRS液体燃料瓶 - 背面"
+            },
+            {
+              "Caption": "召回的BULin液体燃料瓶 - 正面"
+            },
+            {
+              "Caption": "召回的BULin液体燃料瓶 - 背面"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "无报告伤害"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "仅在Amazon.com上出售，时间为2023年1月至2023年12月，价格在10美元至13美元之间。"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Tentock，中国"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "销售地点",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "不符合儿童安全闭合标准，导致儿童烧伤和中毒风险"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "停止使用召回的瓶子，将其远离儿童，并联系Tentock以获取处理说明和全额退款。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "退款"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "Rappel des bouteilles de carburant liquide BRS et BULin en raison de risques de brûlures et d'empoisonnement",
+          "Description": "Les bouteilles de carburant liquide portables BRS et BULin sont rappelées en raison de préoccupations de sécurité. La bouteille BRS est identifiable par sa couleur orange et son capuchon noir, tandis que la bouteille BULin est rouge avec un capuchon assorti. Les deux bouteilles ont une capacité de 1000 mL et comportent du texte en chinois, y compris le nom de la marque et des avertissements de sécurité en lettres blanches. Ces produits ne respectent pas les normes de fermeture résistante aux enfants, augmentant le risque de brûlures et d'empoisonnement pour les enfants.",
+          "ConsumerContact": "Pour obtenir de l'aide, contactez Tentock par e-mail à squarebird@aliyun.com ou visitez leur profil de vendeur Amazon à https://www.amazon.com/s?me=A1778LF2VCKZ0J&marketplaceID=ATVPDKIKX0DER.",
+          "metaDescription": "Bouteilles de carburant liquide BRS et BULin rappelées pour des risques de sécurité. Apprenez comment retourner pour un remboursement et garder les enfants en sécurité.",
+          "Products": [
+            {
+              "Name": "Bouteille de carburant liquide BRS",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 290"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Bouteille de carburant liquide BRS rappelée – devant"
+            },
+            {
+              "Caption": "Bouteille de carburant liquide BRS rappelée – arrière"
+            },
+            {
+              "Caption": "Bouteille de carburant liquide BULin rappelée – devant"
+            },
+            {
+              "Caption": "Bouteille de carburant liquide BULin rappelée – arrière"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Aucune rapportée"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible exclusivement sur Amazon.com de janvier 2023 à décembre 2023, au prix compris entre 10 $ et 13 $."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Tentock, de Chine"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendu À",
+          "ManufacturerCountries": [
+            {
+              "Country": "Chine"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Fermetures non conformes résistantes aux enfants entraînant des risques de brûlures et d'empoisonnement pour les enfants"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Cesser d'utiliser les bouteilles rappelées, les tenir éloignées des enfants et contacter Tentock pour des instructions d'élimination et un remboursement complet."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Remboursement"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "Rückruf von BRS- und BULin-Flüssigkraftstoffflaschen aufgrund von Brand- und Vergiftungsgefahren",
+          "Description": "BRS- und BULin tragbare Flüssigkraftstoffflaschen werden aufgrund von Sicherheitsbedenken zurückgerufen. Die BRS-Flasche ist durch ihre orange Farbe und den schwarzen Deckel erkennbar, während die BULin-Flasche rot mit passendem Deckel ist. Beide Flaschen haben ein Volumen von 1000 ml und tragen Text in Chinesisch, einschließlich des Markennamens und Sicherheitswarnungen in weißer Schrift. Diese Produkte entsprechen nicht den Standards für kindersichere Verschlüsse, was das Risiko von Verbrennungen und Vergiftungen bei Kindern erhöht.",
+          "ConsumerContact": "Für Unterstützung kontaktieren Sie Tentock per E-Mail unter squarebird@aliyun.com oder besuchen Sie ihr Amazon-Verkäuferprofil unter https://www.amazon.com/s?me=A1778LF2VCKZ0J&marketplaceID=ATVPDKIKX0DER.",
+          "metaDescription": "BRS- und BULin-Flüssigkraftstoffflaschen wegen Sicherheitsrisiken zurückgerufen. Erfahren Sie, wie Sie eine Rückerstattung erhalten und Kinder schützen können.",
+          "Products": [
+            {
+              "Name": "BRS Flüssigkraftstoffflasche",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 290"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Rückgerufene BRS Flüssigkraftstoffflasche – Vorderseite"
+            },
+            {
+              "Caption": "Rückgerufene BRS Flüssigkraftstoffflasche – Rückseite"
+            },
+            {
+              "Caption": "Rückgerufene BULin Flüssigkraftstoffflasche – Vorderseite"
+            },
+            {
+              "Caption": "Rückgerufene BULin Flüssigkraftstoffflasche – Rückseite"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Keine gemeldeten"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Exklusiv erhältlich auf Amazon.com von Januar 2023 bis Dezember 2023, Preis zwischen 10 und 13 US-Dollar."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Tentock, aus China"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Verkauft bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Nicht konforme kindersichere Verschlüsse, die zu Brand- und Vergiftungsrisiken für Kinder führen"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Verwenden Sie die zurückgerufenen Flaschen nicht mehr, halten Sie sie von Kindern fern und kontaktieren Sie Tentock für Entsorgungsanweisungen und eine vollständige Rückerstattung."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Rückerstattung"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "BRSおよびBULin液体燃料ボトルのリコール - 火傷および中毒の危険性",
+          "Description": "BRSおよびBULinのポータブル液体燃料ボトルは、安全上の懸念からリコールされています。BRSボトルはオレンジ色と黒いキャップで識別でき、BULinボトルは赤色で同色のキャップがあります。両方のボトルは容量1000mLで、ブランド名や安全警告が白い文字で書かれた中国語のテキストが特徴です。これらの製品は子供用の安全閉鎖基準を満たしておらず、子供に対する火傷や中毒のリスクが高まります。",
+          "ConsumerContact": "サポートが必要な場合は、Tentockにメールでsquarebird@aliyun.comまでご連絡いただくか、彼らのAmazonセラープロフィールを訪問してください：https://www.amazon.com/s?me=A1778LF2VCKZ0J&marketplaceID=ATVPDKIKX0DER。",
+          "metaDescription": "BRSおよびBULin液体燃料ボトルが安全リスクのためリコールされました。返金の手続きと子供を安全に保つ方法を学びましょう。",
+          "Products": [
+            {
+              "Name": "BRS液体燃料ボトル",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約290"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコールされたBRS液体燃料ボトル - 前面"
+            },
+            {
+              "Caption": "リコールされたBRS液体燃料ボトル - 背面"
+            },
+            {
+              "Caption": "リコールされたBULin液体燃料ボトル - 前面"
+            },
+            {
+              "Caption": "リコールされたBULin液体燃料ボトル - 背面"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "報告された怪我はありません"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "2023年1月から2023年12月までAmazon.comで独占販売され、価格は10ドルから13ドルの間です。"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "中国のTentock"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "販売場所",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "子供に対する火傷および中毒のリスクを引き起こす不適合な子供用安全閉鎖"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "リコールされたボトルの使用を中止し、子供から遠ざけ、廃棄方法と全額返金の指示についてTentockに連絡してください。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "返金"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "Recall de Garrafas de Combustível Líquido BRS e BULin Devido a Riscos de Queimaduras e Intoxicação",
+          "Description": "As garrafas de combustível líquido portáteis BRS e BULin estão sendo recolhidas devido a preocupações de segurança. A garrafa BRS é identificável pela sua cor laranja e tampa preta, enquanto a garrafa BULin é vermelha com uma tampa correspondente. Ambas as garrafas têm uma capacidade de 1000mL e apresentam texto em chinês, incluindo o nome da marca e avisos de segurança em letras brancas. Esses produtos não atendem aos padrões de fechamento à prova de crianças, aumentando o risco de queimaduras e intoxicação para crianças.",
+          "ConsumerContact": "Para assistência, entre em contato com a Tentock pelo e-mail squarebird@aliyun.com ou visite o perfil de vendedor deles na Amazon em https://www.amazon.com/s?me=A1778LF2VCKZ0J&marketplaceID=ATVPDKIKX0DER.",
+          "metaDescription": "Garrafas de combustível líquido BRS e BULin recolhidas por riscos de segurança. Aprenda como devolver para um reembolso e manter as crianças seguras.",
+          "Products": [
+            {
+              "Name": "Garrafa de Combustível Líquido BRS",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 290"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Garrafa de combustível líquido BRS recolhida – frente"
+            },
+            {
+              "Caption": "Garrafa de combustível líquido BRS recolhida – verso"
+            },
+            {
+              "Caption": "Garrafa de combustível líquido BULin recolhida – frente"
+            },
+            {
+              "Caption": "Garrafa de combustível líquido BULin recolhida – verso"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Nenhuma relatada"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponível exclusivamente na Amazon.com de janeiro de 2023 a dezembro de 2023, com preços entre $10 e $13."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Tentock, da China"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendido Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Fechos não conformes à prova de crianças levando a riscos de queimaduras e intoxicação para crianças"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Pare de usar as garrafas recolhidas, mantenha-as longe das crianças e entre em contato com a Tentock para instruções de descarte e um reembolso total."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reembolso"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "BRS और BULin तरल ईंधन बोतलों की वापसी जलने और विषाक्तता के खतरों के कारण",
+          "Description": "BRS और BULin पोर्टेबल तरल ईंधन बोतलों को सुरक्षा चिंताओं के कारण वापस बुलाया जा रहा है। BRS बोतल अपनी नारंगी रंग और काले ढक्कन से पहचानी जाती है, जबकि BULin बोतल लाल है और इसका ढक्कन मेल खाता है। दोनों बोतलों की क्षमता 1000mL है और इनमें चीनी में पाठ है, जिसमें ब्रांड का नाम और सफेद अक्षरों में सुरक्षा चेतावनियाँ शामिल हैं। ये उत्पाद बच्चों के लिए जलने और विषाक्तता के जोखिम को बढ़ाते हुए बाल-प्रतिरोधी बंद होने के मानकों को पूरा नहीं करते हैं।",
+          "ConsumerContact": "सहायता के लिए, Tentock से squarebird@aliyun.com पर ईमेल के माध्यम से संपर्क करें या उनके Amazon विक्रेता प्रोफ़ाइल पर जाएँ https://www.amazon.com/s?me=A1778LF2VCKZ0J&marketplaceID=ATVPDKIKX0DER।",
+          "metaDescription": "BRS और BULin तरल ईंधन बोतलों को सुरक्षा जोखिमों के लिए वापस बुलाया गया। रिफंड के लिए लौटाने का तरीका जानें और बच्चों को सुरक्षित रखें।",
+          "Products": [
+            {
+              "Name": "BRS तरल ईंधन बोतल",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 290"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "वापस बुलाई गई BRS तरल ईंधन बोतल - सामने"
+            },
+            {
+              "Caption": "वापस बुलाई गई BRS तरल ईंधन बोतल - पीछे"
+            },
+            {
+              "Caption": "वापस बुलाई गई BULin तरल ईंधन बोतल - सामने"
+            },
+            {
+              "Caption": "वापस बुलाई गई BULin तरल ईंधन बोतल - पीछे"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "कोई रिपोर्ट नहीं की गई"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "जनवरी 2023 से दिसंबर 2023 तक केवल Amazon.com पर उपलब्ध, कीमत $10 से $13 के बीच।"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Tentock, चीन का"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "बिक्री पर",
+          "ManufacturerCountries": [
+            {
+              "Country": "चीन"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "बच्चों के लिए जलने और विषाक्तता के जोखिम को बढ़ाने वाले गैर-अनुपालन बाल-प्रतिरोधी बंद"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "वापस बुलाई गई बोतलों का उपयोग करना बंद करें, उन्हें बच्चों से दूर रखें, और निपटान के निर्देशों और पूर्ण रिफंड के लिए Tentock से संपर्क करें।"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "रिफंड"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "Отзыв бутылок с жидким топливом BRS и BULin из-за опасностей ожогов и отравлений",
+          "Description": "Бутылки с жидким топливом BRS и BULin отзываются из-за проблем с безопасностью. Бутылка BRS идентифицируется по оранжевому цвету и черной крышке, в то время как бутылка BULin красная с соответствующей крышкой. Обе бутылки имеют объем 1000 мл и содержат текст на китайском языке, включая название бренда и предупреждения о безопасности белыми буквами. Эти продукты не соответствуют стандартам закрытия, устойчивым к детям, что увеличивает риск ожогов и отравлений для детей.",
+          "ConsumerContact": "Для получения помощи свяжитесь с Tentock по электронной почте squarebird@aliyun.com или посетите их профиль продавца на Amazon по адресу https://www.amazon.com/s?me=A1778LF2VCKZ0J&marketplaceID=ATVPDKIKX0DER.",
+          "metaDescription": "Бутылки с жидким топливом BRS и BULin отозваны из-за рисков для безопасности. Узнайте, как вернуть товар для получения возврата и обеспечить безопасность детей.",
+          "Products": [
+            {
+              "Name": "Бутылка с жидким топливом BRS",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 290"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванная бутылка с жидким топливом BRS – спереди"
+            },
+            {
+              "Caption": "Отозванная бутылка с жидким топливом BRS – сзади"
+            },
+            {
+              "Caption": "Отозванная бутылка с жидким топливом BULin – спереди"
+            },
+            {
+              "Caption": "Отозванная бутылка с жидким топливом BULin – сзади"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Не сообщалось"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Доступно исключительно на Amazon.com с января 2023 года по декабрь 2023 года, по цене от 10 до 13 долларов."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Tentock, Китай"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Продавалось в",
+          "ManufacturerCountries": [
+            {
+              "Country": "Китай"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Несоответствующие закрытия, устойчивые к детям, что приводит к рискам ожогов и отравлений для детей"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Прекратите использовать отозванные бутылки, держите их подальше от детей и свяжитесь с Tentock для получения инструкций по утилизации и полного возврата."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Возврат"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "Thu hồi chai nhiên liệu lỏng BRS và BULin do nguy cơ bỏng và ngộ độc",
+          "Description": "Chai nhiên liệu lỏng di động BRS và BULin đang được thu hồi do lo ngại về an toàn. Chai BRS có thể nhận diện qua màu cam và nắp đen, trong khi chai BULin có màu đỏ với nắp phù hợp. Cả hai chai đều có dung tích 1000mL và có chữ viết bằng tiếng Trung, bao gồm tên thương hiệu và cảnh báo an toàn bằng chữ trắng. Những sản phẩm này không đáp ứng tiêu chuẩn đóng nắp chống trẻ em, làm tăng nguy cơ bỏng và ngộ độc cho trẻ em.",
+          "ConsumerContact": "Để được hỗ trợ, hãy liên hệ với Tentock qua email tại squarebird@aliyun.com hoặc truy cập hồ sơ người bán Amazon của họ tại https://www.amazon.com/s?me=A1778LF2VCKZ0J&marketplaceID=ATVPDKIKX0DER.",
+          "metaDescription": "Chai nhiên liệu lỏng BRS và BULin bị thu hồi do rủi ro an toàn. Tìm hiểu cách trả lại để được hoàn tiền và giữ an toàn cho trẻ em.",
+          "Products": [
+            {
+              "Name": "Chai Nhiên Liệu Lỏng BRS",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 290"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Chai nhiên liệu lỏng BRS bị thu hồi – mặt trước"
+            },
+            {
+              "Caption": "Chai nhiên liệu lỏng BRS bị thu hồi – mặt sau"
+            },
+            {
+              "Caption": "Chai nhiên liệu lỏng BULin bị thu hồi – mặt trước"
+            },
+            {
+              "Caption": "Chai nhiên liệu lỏng BULin bị thu hồi – mặt sau"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Không có báo cáo"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Chỉ có sẵn trên Amazon.com từ tháng 1 năm 2023 đến tháng 12 năm 2023, giá từ 10 đến 13 đô la."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Tentock, của Trung Quốc"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Bán Tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Trung Quốc"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Đóng nắp không tuân thủ tiêu chuẩn chống trẻ em dẫn đến nguy cơ bỏng và ngộ độc cho trẻ em"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Ngừng sử dụng các chai bị thu hồi, giữ chúng xa trẻ em, và liên hệ với Tentock để biết hướng dẫn xử lý và hoàn tiền đầy đủ."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Hoàn tiền"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    }
+  ]
+}

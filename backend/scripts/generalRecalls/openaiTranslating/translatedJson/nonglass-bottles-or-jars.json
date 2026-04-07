@@ -1,0 +1,888 @@
+{
+  "meta": {
+    "slug": "nonglass-bottles-or-jars",
+    "sourceCsvFile": "nonglass-bottles-or-jars_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:37.006Z",
+    "recallCount": 1,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "nonglass-bottles-or-jars.json",
+    "seoTranslatedAt": "2026-04-04T07:27:44.436Z",
+    "resumePartial": false,
+    "i18nSource": "generalRecallsTranslated",
+    "i18nSourceFile": "nonglass-bottles-or-jars.json",
+    "i18nUiLangs": [
+      "en",
+      "es",
+      "ar",
+      "zh",
+      "fr",
+      "de",
+      "ja",
+      "pt",
+      "hi",
+      "ru",
+      "vi"
+    ],
+    "i18nProgressByLang": {
+      "es": 1,
+      "ar": 1,
+      "zh": 1,
+      "fr": 1,
+      "de": 1,
+      "ja": 1,
+      "pt": 1,
+      "hi": 1,
+      "ru": 1,
+      "vi": 1
+    },
+    "i18nInProgress": false,
+    "i18nTranslatedAt": "2026-04-07T14:49:09.250Z",
+    "i18nOpenaiModel": "gpt-4o-mini"
+  },
+  "recalls": [
+    {
+      "RecallID": 10400,
+      "RecallNumber": "25460",
+      "RecallDate": "2025-09-11T00:00:00",
+      "Description": "Blueroot Health has announced a recall of two varieties of Bariatric Fusion dietary supplements: high ADEK multivitamin capsules available in 90 and 270-count bottles, and One Per Day bariatric multivitamin capsules in 90-count bottles. These products contain 45mg of iron and are identified by their white and orange packaging. Only bottles featuring smooth caps without the \"push down & turn\" embossed lettering are affected. Lot numbers 0066J4, 0065J4, 0453B5, or 0370B5 can be found on the bottom of the bottles.\n\nThe recall is prompted by safety concerns as the packaging does not meet the mandatory child-resistant standards set by the Poison Prevention Packaging Act. This poses a serious risk of poisoning to young children if the contents are ingested. Consumers are urged to take immediate action regarding these products.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/Blueroot-Health-Recalls-Bottles-of-Bariatric-Fusion-Iron-Multivitamins-Due-to-Risk-of-Serious-Injury-or-Death-from-Child-Poisoning-Violates-Mandatory-Standard-for-Child-Resistant-Packaging-Manufactured-by-VitaQuest-International",
+      "Title": "Blueroot Health Issues Recall for Bariatric Fusion Iron Multivitamins Due to Child Safety Risks",
+      "ConsumerContact": "For assistance, consumers can reach Blueroot Health at 866-259-0602 from 8 a.m. to 6 p.m. ET Monday through Friday, email support@bariatricfusion.com, or visit bariatricfusion.com/product-safety or www.bariatricfusion.com and click on \"Recall\" at the bottom of the page for further details.",
+      "LastPublishDate": "2025-09-11T00:00:00",
+      "Products": [
+        {
+          "Name": "Bariatric Fusion High ADEK Multivitamin Capsules (90-count)",
+          "NumberOfUnits": "About 4,700"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/nonglass-bottles-or-jars/1-Bariatric-Fusion-High-ADEK-Multivitamin-Capsules-90-count/151bc47a198f46758c9c6ef292877097.webp",
+          "Caption": "Recalled Bottle of Bariatric Fusion High ADEK Multivitamin",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/fusion-1.png"
+        },
+        {
+          "URL": "/images/generalRecalls/nonglass-bottles-or-jars/1-Bariatric-Fusion-High-ADEK-Multivitamin-Capsules-90-count/90b0b5eed4258e83f90715aaaf457fdd.webp",
+          "Caption": "Recalled Bottle of Bariatric Fusion One Per Day Bariatric Multivitamin",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/fusion-2.png"
+        },
+        {
+          "URL": "/images/generalRecalls/nonglass-bottles-or-jars/1-Bariatric-Fusion-High-ADEK-Multivitamin-Capsules-90-count/89a7eae3980bb2e58effdcb6619c4485.webp",
+          "Caption": "Lot number 0066J4, 0065J4, 0453B5 or 0370B5 is printed on the bottom of the bottle",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/fusion-3.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "VitaQuest International, LLC of Caldwell, New Jersey"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available on Amazon.com, bariatricfusion.com, and other online retailers from January 2025 to June 2025, priced between $23 and $57."
+        }
+      ],
+      "Distributors": [
+        {
+          "Name": "Blueroot Health, Inc., of Middletown, Connecticut"
+        }
+      ],
+      "SoldAtLabel": "Sold Online At",
+      "ManufacturerCountries": [
+        {
+          "Country": "United States"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of serious poisoning due to non-child-resistant packaging of iron-containing multivitamins."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should secure the recalled bottles away from children and contact Blueroot Health for a free child-resistant cap replacement."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Replace"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "Lot number 0066J4",
+        "Lot number 0065J4",
+        "Lot number 0453B5",
+        "Lot number 0370B5"
+      ],
+      "slug": "blueroot-health-issues-recall-for-bariatric-fusion-iron-multivitamins-due-to-child-safety-risks-recall",
+      "metaDescription": "Blueroot Health recalls Bariatric Fusion Iron Multivitamins due to child safety risks. Learn how to secure your product and get a replacement cap.",
+      "languages": {
+        "en": {
+          "Title": "Blueroot Health Issues Recall for Bariatric Fusion Iron Multivitamins Due to Child Safety Risks",
+          "Description": "Blueroot Health has announced a recall of two varieties of Bariatric Fusion dietary supplements: high ADEK multivitamin capsules available in 90 and 270-count bottles, and One Per Day bariatric multivitamin capsules in 90-count bottles. These products contain 45mg of iron and are identified by their white and orange packaging. Only bottles featuring smooth caps without the \"push down & turn\" embossed lettering are affected. Lot numbers 0066J4, 0065J4, 0453B5, or 0370B5 can be found on the bottom of the bottles.\n\nThe recall is prompted by safety concerns as the packaging does not meet the mandatory child-resistant standards set by the Poison Prevention Packaging Act. This poses a serious risk of poisoning to young children if the contents are ingested. Consumers are urged to take immediate action regarding these products.",
+          "ConsumerContact": "For assistance, consumers can reach Blueroot Health at 866-259-0602 from 8 a.m. to 6 p.m. ET Monday through Friday, email support@bariatricfusion.com, or visit bariatricfusion.com/product-safety or www.bariatricfusion.com and click on \"Recall\" at the bottom of the page for further details.",
+          "metaDescription": "Blueroot Health recalls Bariatric Fusion Iron Multivitamins due to child safety risks. Learn how to secure your product and get a replacement cap.",
+          "Products": [
+            {
+              "Name": "Bariatric Fusion High ADEK Multivitamin Capsules (90-count)",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 4,700"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled Bottle of Bariatric Fusion High ADEK Multivitamin"
+            },
+            {
+              "Caption": "Recalled Bottle of Bariatric Fusion One Per Day Bariatric Multivitamin"
+            },
+            {
+              "Caption": "Lot number 0066J4, 0065J4, 0453B5 or 0370B5 is printed on the bottom of the bottle"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "None reported"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Available on Amazon.com, bariatricfusion.com, and other online retailers from January 2025 to June 2025, priced between $23 and $57."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Blueroot Health, Inc., of Middletown, Connecticut"
+            }
+          ],
+          "Manufacturers": [
+            {
+              "Name": "VitaQuest International, LLC of Caldwell, New Jersey"
+            }
+          ],
+          "SoldAtLabel": "Sold Online At",
+          "ManufacturerCountries": [
+            {
+              "Country": "United States"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risk of serious poisoning due to non-child-resistant packaging of iron-containing multivitamins."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Consumers should secure the recalled bottles away from children and contact Blueroot Health for a free child-resistant cap replacement."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Replace"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "Retiro de Blueroot Health por problemas de salud en Multivitaminas de Hierro Bariatric Fusion debido a riesgos de seguridad infantil",
+          "Description": "Blueroot Health ha anunciado un retiro de dos variedades de suplementos dietéticos Bariatric Fusion: cápsulas multivitamínicas de alto ADEK disponibles en botellas de 90 y 270 conteos, y cápsulas multivitamínicas bariátricas One Per Day en botellas de 90 conteos. Estos productos contienen 45 mg de hierro y se identifican por su empaque blanco y naranja. Solo las botellas con tapas lisas sin la inscripción en relieve \"presionar hacia abajo y girar\" están afectadas. Los números de lote 0066J4, 0065J4, 0453B5 o 0370B5 se pueden encontrar en la parte inferior de las botellas.\n\nEl retiro se debe a preocupaciones de seguridad, ya que el empaque no cumple con los estándares obligatorios de resistencia a los niños establecidos por la Ley de Prevención de Envenenamiento por Empaque. Esto representa un grave riesgo de envenenamiento para los niños pequeños si se ingieren los contenidos. Se insta a los consumidores a tomar medidas inmediatas con respecto a estos productos.",
+          "ConsumerContact": "Para asistencia, los consumidores pueden comunicarse con Blueroot Health al 866-259-0602 de 8 a.m. a 6 p.m. ET de lunes a viernes, enviar un correo electrónico a support@bariatricfusion.com, o visitar bariatricfusion.com/product-safety o www.bariatricfusion.com y hacer clic en \"Retiro\" en la parte inferior de la página para más detalles.",
+          "metaDescription": "Blueroot Health retira Multivitaminas de Hierro Bariatric Fusion debido a riesgos de seguridad infantil. Aprenda cómo asegurar su producto y obtener una tapa de reemplazo.",
+          "Products": [
+            {
+              "Name": "Cápsulas Multivitamínicas de Alto ADEK Bariatric Fusion (90 conteos)",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 4,700"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Botella retirada de Cápsulas Multivitamínicas de Alto ADEK Bariatric Fusion"
+            },
+            {
+              "Caption": "Botella retirada de Cápsulas Multivitamínicas Bariátricas One Per Day"
+            },
+            {
+              "Caption": "El número de lote 0066J4, 0065J4, 0453B5 o 0370B5 está impreso en la parte inferior de la botella"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Ninguno reportado"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible en Amazon.com, bariatricfusion.com y otros minoristas en línea desde enero de 2025 hasta junio de 2025, con precios entre $23 y $57."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Blueroot Health, Inc., de Middletown, Connecticut"
+            }
+          ],
+          "Manufacturers": [
+            {
+              "Name": "VitaQuest International, LLC de Caldwell, Nueva Jersey"
+            }
+          ],
+          "SoldAtLabel": "Vendidos en línea en",
+          "ManufacturerCountries": [
+            {
+              "Country": "Estados Unidos"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Riesgo de envenenamiento grave debido al empaque no resistente a los niños de multivitaminas que contienen hierro."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Los consumidores deben asegurar las botellas retiradas lejos de los niños y contactar a Blueroot Health para un reemplazo gratuito de tapa resistente a los niños."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reemplazar"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "استدعاء مشكلات صحة بلوروت لصالح مكملات الحديد المتعددة الفيتامينات باريايتريك فيوجن بسبب مخاطر سلامة الأطفال",
+          "Description": "أعلنت شركة بلوروت للصحة عن استدعاء نوعين من مكملات باريايتريك فيوجن الغذائية: كبسولات متعددة الفيتامينات عالية ADEK المتاحة في زجاجات تحتوي على 90 و 270 كبسولة، وكبسولات متعددة الفيتامينات باريايتريك \"واحد في اليوم\" في زجاجات تحتوي على 90 كبسولة. تحتوي هذه المنتجات على 45 ملغ من الحديد وتتميز بتغليفها الأبيض والبرتقالي. الزجاجات التي تحتوي على أغطية ناعمة بدون كتابة \"ادفع لأسفل ولف\" المنقوشة فقط هي المتأثرة. يمكن العثور على أرقام الدفعة 0066J4 و 0065J4 و 0453B5 أو 0370B5 في أسفل الزجاجات.\n\nتم استدعاء هذه المنتجات بسبب مخاوف تتعلق بالسلامة حيث أن التغليف لا يفي بالمعايير الإلزامية المقاومة للأطفال التي وضعتها قانون تغليف الوقاية من التسمم. وهذا يشكل خطرًا جديًا للتسمم للأطفال الصغار إذا تم ابتلاع المحتويات. يُحث المستهلكون على اتخاذ إجراءات فورية بشأن هذه المنتجات.",
+          "ConsumerContact": "للمساعدة، يمكن للمستهلكين التواصل مع بلوروت للصحة على الرقم 866-259-0602 من الساعة 8 صباحًا حتى 6 مساءً بتوقيت شرق الولايات المتحدة من الاثنين إلى الجمعة، أو عبر البريد الإلكتروني support@bariatricfusion.com، أو زيارة bariatricfusion.com/product-safety أو www.bariatricfusion.com والنقر على \"استدعاء\" في أسفل الصفحة لمزيد من التفاصيل.",
+          "metaDescription": "تستدعي بلوروت للصحة مكملات الحديد المتعددة الفيتامينات باريايتريك فيوجن بسبب مخاطر سلامة الأطفال. تعرف على كيفية تأمين منتجك والحصول على غطاء بديل.",
+          "Products": [
+            {
+              "Name": "كبسولات متعددة الفيتامينات باريايتريك فيوجن عالية ADEK (90 كبسولة)",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 4,700"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "زجاجة مستدعاة من كبسولات متعددة الفيتامينات باريايتريك فيوجن عالية ADEK"
+            },
+            {
+              "Caption": "زجاجة مستدعاة من كبسولات متعددة الفيتامينات باريايتريك \"واحد في اليوم\""
+            },
+            {
+              "Caption": "رقم الدفعة 0066J4 أو 0065J4 أو 0453B5 أو 0370B5 مطبوع في أسفل الزجاجة"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "لا توجد إصابات مُبلغ عنها"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "متاحة على Amazon.com و bariatricfusion.com وغيرها من بائعي التجزئة عبر الإنترنت من يناير 2025 إلى يونيو 2025، بسعر يتراوح بين 23 دولارًا و 57 دولارًا."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "بلوروت للصحة، إنك، من ميدلتون، كونيتيكت"
+            }
+          ],
+          "Manufacturers": [
+            {
+              "Name": "فيتاكويست إنترناشيونال، ذ.م.م من كالدويل، نيو جيرسي"
+            }
+          ],
+          "SoldAtLabel": "تباع عبر الإنترنت في",
+          "ManufacturerCountries": [
+            {
+              "Country": "الولايات المتحدة"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "خطر التسمم الجدي بسبب التغليف غير المقاوم للأطفال لمكملات الحديد المتعددة الفيتامينات."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "يجب على المستهلكين تأمين الزجاجات المستدعاة بعيدًا عن الأطفال والتواصل مع بلوروت للصحة للحصول على غطاء بديل مقاوم للأطفال مجانًا."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "استبدال"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "Blueroot Health 因儿童安全风险召回 Bariatric Fusion 铁多种维生素",
+          "Description": "Blueroot Health 宣布召回两种 Bariatric Fusion 膳食补充剂：高 ADEK 多种维生素胶囊，分别以 90 和 270 颗装瓶出售，以及每日一颗的 Bariatric 多种维生素胶囊，90 颗装瓶。这些产品含有 45 毫克铁，包装为白色和橙色。只有没有“按下并旋转”浮雕字母的光滑瓶盖的瓶子受到影响。瓶底可以找到批号 0066J4、0065J4、0453B5 或 0370B5。\n\n此次召回是由于安全隐患，因为包装不符合《毒品预防包装法》规定的强制儿童安全标准。如果儿童误食，可能会造成严重的中毒风险。消费者被敦促立即采取行动处理这些产品。",
+          "ConsumerContact": "如需帮助，消费者可以在周一至周五的东部时间上午 8 点至下午 6 点拨打 866-259-0602 联系 Blueroot Health，或发送电子邮件至 support@bariatricfusion.com，或访问 bariatricfusion.com/product-safety 或 www.bariatricfusion.com，并点击页面底部的“召回”以获取更多详细信息。",
+          "metaDescription": "Blueroot Health 因儿童安全风险召回 Bariatric Fusion 铁多种维生素。了解如何保护您的产品并获取替换瓶盖。",
+          "Products": [
+            {
+              "Name": "Bariatric Fusion 高 ADEK 多种维生素胶囊（90 颗装）",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约 4,700"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "召回的 Bariatric Fusion 高 ADEK 多种维生素瓶"
+            },
+            {
+              "Caption": "召回的 Bariatric Fusion 每日一颗 Bariatric 多种维生素瓶"
+            },
+            {
+              "Caption": "批号 0066J4、0065J4、0453B5 或 0370B5 印刷在瓶底"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "无报告"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "自 2025 年 1 月至 2025 年 6 月在 Amazon.com、bariatricfusion.com 和其他在线零售商处销售，价格在 $23 到 $57 之间。"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Connecticut Middletown 的 Blueroot Health, Inc."
+            }
+          ],
+          "Manufacturers": [
+            {
+              "Name": "New Jersey Caldwell 的 VitaQuest International, LLC"
+            }
+          ],
+          "SoldAtLabel": "在线销售",
+          "ManufacturerCountries": [
+            {
+              "Country": "美国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "由于含铁多种维生素的非儿童安全包装，存在严重中毒的风险。"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "消费者应将召回的瓶子放置在儿童无法接触的地方，并联系 Blueroot Health 获取免费的儿童安全瓶盖替换。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "替换"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "Rappel de Blueroot Health pour les Multivitamines au Fer Bariatric Fusion en raison de Risques pour la Sécurité des Enfants",
+          "Description": "Blueroot Health a annoncé un rappel de deux variétés de suppléments alimentaires Bariatric Fusion : des capsules multivitamines ADEK élevées disponibles en flacons de 90 et 270 capsules, et des capsules multivitamines bariatriques One Per Day en flacons de 90 capsules. Ces produits contiennent 45 mg de fer et sont identifiés par leur emballage blanc et orange. Seuls les flacons avec des bouchons lisses sans l'inscription en relief \"pousser et tourner\" sont concernés. Les numéros de lot 0066J4, 0065J4, 0453B5 ou 0370B5 se trouvent au fond des flacons.\n\nLe rappel est motivé par des préoccupations de sécurité, car l'emballage ne respecte pas les normes de sécurité pour enfants obligatoires établies par la Loi sur l'emballage préventif des poisons. Cela pose un risque sérieux d'intoxication pour les jeunes enfants si le contenu est ingéré. Les consommateurs sont invités à agir immédiatement concernant ces produits.",
+          "ConsumerContact": "Pour assistance, les consommateurs peuvent contacter Blueroot Health au 866-259-0602 de 8 h à 18 h HNE du lundi au vendredi, envoyer un courriel à support@bariatricfusion.com, ou visiter bariatricfusion.com/product-safety ou www.bariatricfusion.com et cliquer sur \"Rappel\" en bas de la page pour plus de détails.",
+          "metaDescription": "Blueroot Health rappelle les Multivitamines au Fer Bariatric Fusion en raison de risques pour la sécurité des enfants. Apprenez comment sécuriser votre produit et obtenir un bouchon de remplacement.",
+          "Products": [
+            {
+              "Name": "Capsules Multivitamines Bariatric Fusion Haute ADEK (90 capsules)",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 4 700"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Flacon rappelé de Capsules Multivitamines Bariatric Fusion Haute ADEK"
+            },
+            {
+              "Caption": "Flacon rappelé de Capsules Multivitamines Bariatric Fusion One Per Day"
+            },
+            {
+              "Caption": "Le numéro de lot 0066J4, 0065J4, 0453B5 ou 0370B5 est imprimé au fond du flacon"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Aucun rapporté"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible sur Amazon.com, bariatricfusion.com, et d'autres détaillants en ligne de janvier 2025 à juin 2025, au prix compris entre 23 $ et 57 $."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Blueroot Health, Inc., de Middletown, Connecticut"
+            }
+          ],
+          "Manufacturers": [
+            {
+              "Name": "VitaQuest International, LLC de Caldwell, New Jersey"
+            }
+          ],
+          "SoldAtLabel": "Vendu en ligne sur",
+          "ManufacturerCountries": [
+            {
+              "Country": "États-Unis"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risque d'intoxication grave en raison de l'emballage non résistant aux enfants des multivitamines contenant du fer."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Les consommateurs doivent sécuriser les flacons rappelés hors de portée des enfants et contacter Blueroot Health pour un remplacement gratuit du bouchon résistant aux enfants."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Remplacer"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "Rückruf von Blueroot Health für Bariatric Fusion Eisen-Multivitamine aufgrund von Sicherheitsrisiken für Kinder",
+          "Description": "Blueroot Health hat einen Rückruf von zwei Varianten der Bariatric Fusion Nahrungsergänzungsmittel angekündigt: hochdosierte ADEK-Multivitamin-Kapseln, erhältlich in 90- und 270er-Packungen, und One Per Day bariatrische Multivitamin-Kapseln in 90er-Packungen. Diese Produkte enthalten 45 mg Eisen und sind an ihrer weißen und orangefarbenen Verpackung zu erkennen. Nur Flaschen mit glatten Kappen ohne die geprägte Aufschrift \"drücken und drehen\" sind betroffen. Die Chargennummern 0066J4, 0065J4, 0453B5 oder 0370B5 sind auf dem Boden der Flaschen zu finden.\n\nDer Rückruf erfolgt aufgrund von Sicherheitsbedenken, da die Verpackung nicht den vorgeschriebenen kindersicheren Standards des Poison Prevention Packaging Act entspricht. Dies stellt ein ernsthaftes Vergiftungsrisiko für kleine Kinder dar, wenn der Inhalt eingenommen wird. Verbraucher werden aufgefordert, sofortige Maßnahmen in Bezug auf diese Produkte zu ergreifen.",
+          "ConsumerContact": "Für Unterstützung können Verbraucher Blueroot Health unter 866-259-0602 von 8 bis 18 Uhr ET von Montag bis Freitag erreichen, eine E-Mail an support@bariatricfusion.com senden oder die Website bariatricfusion.com/product-safety oder www.bariatricfusion.com besuchen und unten auf der Seite auf \"Rückruf\" klicken, um weitere Details zu erhalten.",
+          "metaDescription": "Blueroot Health ruft Bariatric Fusion Eisen-Multivitamine aufgrund von Sicherheitsrisiken für Kinder zurück. Erfahren Sie, wie Sie Ihr Produkt sichern und eine Ersatzkappe erhalten können.",
+          "Products": [
+            {
+              "Name": "Bariatric Fusion Hoch ADEK Multivitamin-Kapseln (90er-Packung)",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 4.700"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Rückgerufene Flasche von Bariatric Fusion Hoch ADEK Multivitamin"
+            },
+            {
+              "Caption": "Rückgerufene Flasche von Bariatric Fusion One Per Day Bariatrisches Multivitamin"
+            },
+            {
+              "Caption": "Chargennummer 0066J4, 0065J4, 0453B5 oder 0370B5 ist auf dem Boden der Flasche aufgedruckt"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Keine gemeldet"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Erhältlich auf Amazon.com, bariatricfusion.com und anderen Online-Händlern von Januar 2025 bis Juni 2025, preislich zwischen 23 und 57 Dollar."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Blueroot Health, Inc., aus Middletown, Connecticut"
+            }
+          ],
+          "Manufacturers": [
+            {
+              "Name": "VitaQuest International, LLC aus Caldwell, New Jersey"
+            }
+          ],
+          "SoldAtLabel": "Online verkauft bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "Vereinigte Staaten"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risiko einer schweren Vergiftung aufgrund der nicht kindersicheren Verpackung von eisenhaltigen Multivitaminen."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Verbraucher sollten die zurückgerufenen Flaschen von Kindern fernhalten und Blueroot Health für einen kostenlosen Ersatz der kindersicheren Kappe kontaktieren."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Ersetzen"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "Blueroot Healthによるバリアトリックフュージョン鉄マルチビタミンのリコール（子供の安全リスクによる）",
+          "Description": "Blueroot Healthは、2種類のバリアトリックフュージョン栄養補助食品のリコールを発表しました：90カウントおよび270カウントのボトルで販売されている高ADEKマルチビタミンカプセルと、90カウントのボトルで販売されているOne Per Dayバリアトリックマルチビタミンカプセルです。これらの製品には45mgの鉄が含まれており、白とオレンジのパッケージで識別されます。「押して回す」というエンボス文字のないスムーズなキャップを特徴とするボトルのみが影響を受けます。ロット番号0066J4、0065J4、0453B5、または0370B5はボトルの底に印刷されています。\n\nこのリコールは、パッケージが毒物防止包装法によって定められた必須の子供用耐性基準を満たしていないため、安全上の懸念から引き起こされています。これは、内容物が摂取された場合、幼い子供に深刻な中毒のリスクをもたらします。消費者は、これらの製品に関して直ちに行動を起こすよう促されています。",
+          "ConsumerContact": "サポートが必要な場合、消費者は月曜日から金曜日の午前8時から午後6時（ET）まで、866-259-0602でBlueroot Healthに連絡するか、support@bariatricfusion.comにメールを送信するか、bariatricfusion.com/product-safetyまたはwww.bariatricfusion.comを訪れて、ページの下部にある「リコール」をクリックして詳細を確認してください。",
+          "metaDescription": "Blueroot Healthは、子供の安全リスクによりバリアトリックフュージョン鉄マルチビタミンをリコールします。製品を確保し、交換キャップを取得する方法を学びましょう。",
+          "Products": [
+            {
+              "Name": "バリアトリックフュージョン高ADEKマルチビタミンカプセル（90カウント）",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約4,700"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコールされたバリアトリックフュージョン高ADEKマルチビタミンのボトル"
+            },
+            {
+              "Caption": "リコールされたバリアトリックフュージョンOne Per Dayマルチビタミンのボトル"
+            },
+            {
+              "Caption": "ロット番号0066J4、0065J4、0453B5または0370B5はボトルの底に印刷されています"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "報告された怪我はありません"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "2025年1月から2025年6月まで、Amazon.com、bariatricfusion.com、およびその他のオンライン小売業者で入手可能で、価格は23ドルから57ドルの間です。"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "コネチカット州ミドルタウンのBlueroot Health, Inc."
+            }
+          ],
+          "Manufacturers": [
+            {
+              "Name": "ニュージャージー州コールドウェルのVitaQuest International, LLC"
+            }
+          ],
+          "SoldAtLabel": "オンラインで販売",
+          "ManufacturerCountries": [
+            {
+              "Country": "アメリカ合衆国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "鉄を含むマルチビタミンの子供用耐性パッケージがないため、深刻な中毒のリスクがあります。"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "消費者はリコールされたボトルを子供から遠ざけ、Blueroot Healthに連絡して無料の子供用耐性キャップの交換を依頼するべきです。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "交換"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "Recall de Problemas de Saúde da Blueroot para Multivitaminas de Ferro Bariatric Fusion Devido a Riscos de Segurança Infantil",
+          "Description": "A Blueroot Health anunciou um recall de duas variedades de suplementos dietéticos Bariatric Fusion: cápsulas multivitamínicas de alto ADEK disponíveis em frascos de 90 e 270 unidades, e cápsulas multivitamínicas bariátricas One Per Day em frascos de 90 unidades. Esses produtos contêm 45mg de ferro e são identificados por suas embalagens brancas e laranjas. Apenas frascos com tampas lisas sem a inscrição em relevo \"pressione para baixo e gire\" são afetados. Os números de lote 0066J4, 0065J4, 0453B5 ou 0370B5 podem ser encontrados na parte inferior dos frascos.\n\nO recall é motivado por preocupações de segurança, uma vez que a embalagem não atende aos padrões obrigatórios de resistência infantil estabelecidos pela Lei de Prevenção de Envenenamento. Isso representa um sério risco de envenenamento para crianças pequenas se o conteúdo for ingerido. Os consumidores são aconselhados a tomar medidas imediatas em relação a esses produtos.",
+          "ConsumerContact": "Para assistência, os consumidores podem entrar em contato com a Blueroot Health pelo telefone 866-259-0602 das 8h às 18h ET de segunda a sexta-feira, enviar um e-mail para support@bariatricfusion.com ou visitar bariatricfusion.com/product-safety ou www.bariatricfusion.com e clicar em \"Recall\" na parte inferior da página para mais detalhes.",
+          "metaDescription": "A Blueroot Health faz recall das Multivitaminas de Ferro Bariatric Fusion devido a riscos de segurança infantil. Saiba como garantir seu produto e obter uma tampa de reposição.",
+          "Products": [
+            {
+              "Name": "Cápsulas Multivitamínicas Bariatric Fusion Alto ADEK (90 unidades)",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 4.700"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Frasco Recall de Cápsulas Multivitamínicas Bariatric Fusion Alto ADEK"
+            },
+            {
+              "Caption": "Frasco Recall de Cápsulas Multivitamínicas Bariatric Fusion One Per Day"
+            },
+            {
+              "Caption": "O número do lote 0066J4, 0065J4, 0453B5 ou 0370B5 está impresso na parte inferior do frasco"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Nenhum relatado"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponível em Amazon.com, bariatricfusion.com e outros varejistas online de janeiro de 2025 a junho de 2025, com preços entre $23 e $57."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Blueroot Health, Inc., de Middletown, Connecticut"
+            }
+          ],
+          "Manufacturers": [
+            {
+              "Name": "VitaQuest International, LLC de Caldwell, New Jersey"
+            }
+          ],
+          "SoldAtLabel": "Vendido Online Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "Estados Unidos"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risco de envenenamento grave devido à embalagem não resistente a crianças de multivitaminas contendo ferro."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Os consumidores devem manter os frascos recall longe das crianças e entrar em contato com a Blueroot Health para uma substituição gratuita da tampa resistente a crianças."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Substituir"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "ब्लू रूट स्वास्थ्य मुद्दों के कारण बैरियाट्रिक फ्यूजन आयरन मल्टीविटामिन की वापसी बच्चों की सुरक्षा जोखिमों के लिए",
+          "Description": "ब्लू रूट स्वास्थ्य ने बैरियाट्रिक फ्यूजन आहार पूरक के दो प्रकारों की वापसी की घोषणा की है: 90 और 270-काउंट की बोतलों में उपलब्ध उच्च ADEK मल्टीविटामिन कैप्सूल, और 90-काउंट की बोतलों में वन पर डे बैरियाट्रिक मल्टीविटामिन कैप्सूल। इन उत्पादों में 45mg आयरन होता है और इन्हें उनके सफेद और नारंगी पैकेजिंग द्वारा पहचाना जाता है। केवल उन बोतलों पर प्रभाव पड़ता है जिनमें \"पुश डाउन & टर्न\" उभरे हुए अक्षरों के बिना चिकनी कैप होती है। बोतलों के नीचे लॉट नंबर 0066J4, 0065J4, 0453B5, या 0370B5 पाया जा सकता है।\n\nयह वापसी सुरक्षा चिंताओं के कारण की गई है क्योंकि पैकेजिंग विषाक्तता रोकथाम पैकेजिंग अधिनियम द्वारा निर्धारित अनिवार्य बच्चों के प्रतिरोधी मानकों को पूरा नहीं करती है। यदि सामग्री का सेवन किया जाता है तो यह छोटे बच्चों के लिए गंभीर विषाक्तता का जोखिम पैदा करता है। उपभोक्ताओं से अनुरोध किया जाता है कि वे इन उत्पादों के संबंध में तुरंत कार्रवाई करें।",
+          "ConsumerContact": "सहायता के लिए, उपभोक्ता 866-259-0602 पर सोमवार से शुक्रवार, सुबह 8 बजे से शाम 6 बजे ET तक ब्लू रूट स्वास्थ्य से संपर्क कर सकते हैं, ईमेल support@bariatricfusion.com पर भेज सकते हैं, या bariatricfusion.com/product-safety या www.bariatricfusion.com पर जा सकते हैं और पृष्ठ के नीचे \"वापसी\" पर क्लिक करके और विवरण प्राप्त कर सकते हैं।",
+          "metaDescription": "ब्लू रूट स्वास्थ्य बच्चों की सुरक्षा जोखिमों के कारण बैरियाट्रिक फ्यूजन आयरन मल्टीविटामिन की वापसी करता है। जानें कि अपने उत्पाद को कैसे सुरक्षित करें और एक प्रतिस्थापन कैप प्राप्त करें।",
+          "Products": [
+            {
+              "Name": "बैरियाट्रिक फ्यूजन उच्च ADEK मल्टीविटामिन कैप्सूल (90-काउंट)",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 4,700"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "बैरियाट्रिक फ्यूजन उच्च ADEK मल्टीविटामिन की वापसी की गई बोतल"
+            },
+            {
+              "Caption": "बैरियाट्रिक फ्यूजन वन पर डे बैरियाट्रिक मल्टीविटामिन की वापसी की गई बोतल"
+            },
+            {
+              "Caption": "बोतल के नीचे लॉट नंबर 0066J4, 0065J4, 0453B5 या 0370B5 मुद्रित है"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "कोई रिपोर्ट नहीं की गई"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "जनवरी 2025 से जून 2025 तक Amazon.com, bariatricfusion.com और अन्य ऑनलाइन रिटेलर्स पर उपलब्ध, कीमत $23 से $57 के बीच।"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "ब्लू रूट स्वास्थ्य, इंक., मिडलटाउन, कनेक्टिकट"
+            }
+          ],
+          "Manufacturers": [
+            {
+              "Name": "विटाक्वेस्ट इंटरनेशनल, LLC, कैल्डवेल, न्यू जर्सी"
+            }
+          ],
+          "SoldAtLabel": "ऑनलाइन बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "संयुक्त राज्य अमेरिका"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "आयरन युक्त मल्टीविटामिन के गैर-बच्चों के प्रतिरोधी पैकेजिंग के कारण गंभीर विषाक्तता का जोखिम।"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "उपभोक्ताओं को वापसी की गई बोतलों को बच्चों से दूर सुरक्षित रखना चाहिए और मुफ्त बच्चों के प्रतिरोधी कैप प्रतिस्थापन के लिए ब्लू रूट स्वास्थ्य से संपर्क करना चाहिए।"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "प्रतिस्थापित करें"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "Отзыв продукции Blueroot Health по поводу мультивитаминов Bariatric Fusion Iron из-за рисков для безопасности детей",
+          "Description": "Blueroot Health объявила об отзыве двух видов диетических добавок Bariatric Fusion: капсул с высокими ADEK мультивитаминами, доступных в бутылках по 90 и 270 штук, и капсул мультивитаминов One Per Day в бутылках по 90 штук. Эти продукты содержат 45 мг железа и идентифицируются по своей бело-оранжевой упаковке. Подвержены отзыву только бутылки с гладкими крышками без тиснения \"нажать и повернуть\". Номера партий 0066J4, 0065J4, 0453B5 или 0370B5 можно найти на дне бутылок.\n\nОтзыв вызван проблемами безопасности, так как упаковка не соответствует обязательным стандартам защиты от детей, установленным Законом о предотвращении отравлений. Это создает серьезный риск отравления для маленьких детей, если содержимое будет проглочено. Потребителей призывают немедленно принять меры в отношении этих продуктов.",
+          "ConsumerContact": "Для получения помощи потребители могут обратиться в Blueroot Health по телефону 866-259-0602 с 8:00 до 18:00 по восточному времени с понедельника по пятницу, отправить электронное письмо на адрес support@bariatricfusion.com или посетить bariatricfusion.com/product-safety или www.bariatricfusion.com и нажать на \"Отзыв\" внизу страницы для получения дополнительной информации.",
+          "metaDescription": "Blueroot Health отзывает мультивитамины Bariatric Fusion Iron из-за рисков для безопасности детей. Узнайте, как обезопасить свой продукт и получить замену крышки.",
+          "Products": [
+            {
+              "Name": "Капсулы Bariatric Fusion High ADEK Multivitamin (90 штук)",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 4,700"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванная бутылка мультивитаминов Bariatric Fusion High ADEK"
+            },
+            {
+              "Caption": "Отозванная бутылка мультивитаминов Bariatric Fusion One Per Day"
+            },
+            {
+              "Caption": "Номер партии 0066J4, 0065J4, 0453B5 или 0370B5 напечатан на дне бутылки"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Не сообщалось о травмах"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Доступно на Amazon.com, bariatricfusion.com и других онлайн-ритейлерах с января 2025 года по июнь 2025 года, по цене от 23 до 57 долларов."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Blueroot Health, Inc., из Миддлтауна, Коннектикут"
+            }
+          ],
+          "Manufacturers": [
+            {
+              "Name": "VitaQuest International, LLC из Кальдвелла, Нью-Джерси"
+            }
+          ],
+          "SoldAtLabel": "Продается онлайн на",
+          "ManufacturerCountries": [
+            {
+              "Country": "Соединенные Штаты"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Риск серьезного отравления из-за упаковки, не защищающей от детей, содержащей железосодержащие мультивитамины."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Потребители должны убрать отозванные бутылки подальше от детей и обратиться в Blueroot Health для бесплатной замены крышки, защищающей от детей."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Заменить"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "Blueroot Health thông báo thu hồi Vitamin tổng hợp sắt Bariatric Fusion do rủi ro an toàn cho trẻ em",
+          "Description": "Blueroot Health đã thông báo thu hồi hai loại thực phẩm chức năng Bariatric Fusion: viên nang vitamin tổng hợp ADEK cao có sẵn trong chai 90 và 270 viên, và viên nang vitamin tổng hợp bariatric One Per Day trong chai 90 viên. Các sản phẩm này chứa 45mg sắt và được nhận diện bởi bao bì màu trắng và cam. Chỉ những chai có nắp trơn mà không có chữ nổi \"nhấn xuống & xoay\" mới bị ảnh hưởng. Số lô 0066J4, 0065J4, 0453B5 hoặc 0370B5 có thể được tìm thấy ở đáy chai.\n\nViệc thu hồi này được thúc đẩy bởi những lo ngại về an toàn vì bao bì không đáp ứng tiêu chuẩn chống trẻ em bắt buộc theo Đạo luật Bao bì Ngăn ngừa Ngộ độc. Điều này gây ra nguy cơ ngộ độc nghiêm trọng cho trẻ nhỏ nếu nội dung bị nuốt phải. Người tiêu dùng được khuyến cáo nên hành động ngay lập tức liên quan đến các sản phẩm này.",
+          "ConsumerContact": "Để được hỗ trợ, người tiêu dùng có thể liên hệ với Blueroot Health qua số 866-259-0602 từ 8 giờ sáng đến 6 giờ chiều ET từ thứ Hai đến thứ Sáu, gửi email đến support@bariatricfusion.com, hoặc truy cập bariatricfusion.com/product-safety hoặc www.bariatricfusion.com và nhấp vào \"Thu hồi\" ở dưới cùng của trang để biết thêm chi tiết.",
+          "metaDescription": "Blueroot Health thu hồi Vitamin tổng hợp sắt Bariatric Fusion do rủi ro an toàn cho trẻ em. Tìm hiểu cách bảo vệ sản phẩm của bạn và nhận nắp thay thế.",
+          "Products": [
+            {
+              "Name": "Viên nang Vitamin tổng hợp ADEK cao Bariatric Fusion (90 viên)",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 4,700"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Chai Vitamin tổng hợp ADEK cao Bariatric Fusion bị thu hồi"
+            },
+            {
+              "Caption": "Chai Vitamin tổng hợp bariatric One Per Day bị thu hồi"
+            },
+            {
+              "Caption": "Số lô 0066J4, 0065J4, 0453B5 hoặc 0370B5 được in ở đáy chai"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Không có báo cáo nào"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Có sẵn trên Amazon.com, bariatricfusion.com, và các nhà bán lẻ trực tuyến khác từ tháng 1 năm 2025 đến tháng 6 năm 2025, có giá từ 23 đến 57 đô la."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Blueroot Health, Inc., ở Middletown, Connecticut"
+            }
+          ],
+          "Manufacturers": [
+            {
+              "Name": "VitaQuest International, LLC ở Caldwell, New Jersey"
+            }
+          ],
+          "SoldAtLabel": "Bán trực tuyến tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Hoa Kỳ"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Nguy cơ ngộ độc nghiêm trọng do bao bì không chống trẻ em của vitamin tổng hợp chứa sắt."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Người tiêu dùng nên bảo quản các chai bị thu hồi xa tầm tay trẻ em và liên hệ với Blueroot Health để nhận nắp thay thế chống trẻ em miễn phí."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Thay thế"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    }
+  ]
+}

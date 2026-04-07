@@ -1,0 +1,1660 @@
+{
+  "meta": {
+    "slug": "metal",
+    "sourceCsvFile": "metal_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:36.997Z",
+    "recallCount": 2,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "metal.json",
+    "seoTranslatedAt": "2026-04-04T06:51:46.010Z",
+    "resumePartial": false,
+    "i18nSource": "generalRecallsTranslated",
+    "i18nSourceFile": "metal.json",
+    "i18nUiLangs": [
+      "en",
+      "es",
+      "ar",
+      "zh",
+      "fr",
+      "de",
+      "ja",
+      "pt",
+      "hi",
+      "ru",
+      "vi"
+    ],
+    "i18nProgressByLang": {
+      "es": 2,
+      "ar": 2,
+      "zh": 2,
+      "fr": 2,
+      "de": 2,
+      "ja": 2,
+      "pt": 2,
+      "hi": 2,
+      "ru": 2,
+      "vi": 2
+    },
+    "i18nInProgress": false,
+    "i18nTranslatedAt": "2026-04-07T14:04:25.668Z",
+    "i18nOpenaiModel": "gpt-4o-mini"
+  },
+  "recalls": [
+    {
+      "RecallID": 10336,
+      "RecallNumber": "25377",
+      "RecallDate": "2025-07-10T00:00:00",
+      "Description": "Walmart has announced a recall of the Ozark Trail 64 oz Stainless Steel Insulated Water Bottles, identified by model number 83-662 on the packaging. These silver bottles feature a black one-piece screwcap lid and measure approximately 4.41 x 4.41 x 11.5 inches, with the Ozark Trail logo displayed on the side. The model number is not visible on the product itself.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/Walmart-Recalls-Ozark-Trail-64-oz-Water-Bottles-Due-to-Serious-Impact-and-Laceration-Hazards",
+      "Title": "Walmart Issues Recall for Ozark Trail 64 oz Water Bottles Due to Risk of Injury",
+      "ConsumerContact": "Consumers should stop using the recalled water bottles immediately and reach out to Walmart at 800-925-6278 from 7 a.m. to 9 p.m. CT daily, or visit www.walmart.com/help or https://corporate.walmart.com/recalls for further assistance.",
+      "LastPublishDate": "2025-07-10T00:00:00",
+      "Products": [
+        {
+          "Name": "Ozark Trail 64 oz Stainless Steel Insulated Water Bottle",
+          "NumberOfUnits": "About 850,000"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/metal/1-Ozark-Trail-64-oz-Stainless-Steel-Insulated-Water-Bottle/1d9b49a82b210d06093dd04dd6cbdac2.webp",
+          "Caption": "Recalled Ozark Trail 64 oz Stainless-Steel Insulated Water Bottle, model 83-662",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/ozark-1.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/metal/1-Ozark-Trail-64-oz-Stainless-Steel-Insulated-Water-Bottle/6b472b482a1011116fc61e85f1f2f76b.webp",
+          "Caption": "One-Piece Screwcap Lid",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/ozark-2.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "Walmart has received three reports of consumers who were injured when struck in the face by a lid forcefully ejected from these bottles upon opening. Two consumers suffered permanent vision loss after being struck in the eye."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available at Walmart locations nationwide and online at Walmart.com since 2017 for approximately $15."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Olympia Tools International Inc., of Covina, California"
+        },
+        {
+          "Name": "Walmart Inc., of Bentonville, Arkansas"
+        }
+      ],
+      "SoldAtLabel": "Sold Exclusively At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of serious impact and laceration due to lid ejection"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Full refund available upon return of the bottle"
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "Model number 83-662"
+      ],
+      "slug": "walmart-issues-recall-for-ozark-trail-64-oz-water-bottles-due-to-risk-of-injury-recall",
+      "metaDescription": "Walmart recalls Ozark Trail 64 oz water bottles due to serious injury risks. Stop using immediately and contact Walmart for a refund.",
+      "languages": {
+        "en": {
+          "Title": "Walmart Issues Recall for Ozark Trail 64 oz Water Bottles Due to Risk of Injury",
+          "Description": "Walmart has announced a recall of the Ozark Trail 64 oz Stainless Steel Insulated Water Bottles, identified by model number 83-662 on the packaging. These silver bottles feature a black one-piece screwcap lid and measure approximately 4.41 x 4.41 x 11.5 inches, with the Ozark Trail logo displayed on the side. The model number is not visible on the product itself.",
+          "ConsumerContact": "Consumers should stop using the recalled water bottles immediately and reach out to Walmart at 800-925-6278 from 7 a.m. to 9 p.m. CT daily, or visit www.walmart.com/help or https://corporate.walmart.com/recalls for further assistance.",
+          "metaDescription": "Walmart recalls Ozark Trail 64 oz water bottles due to serious injury risks. Stop using immediately and contact Walmart for a refund.",
+          "Products": [
+            {
+              "Name": "Ozark Trail 64 oz Stainless Steel Insulated Water Bottle",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 850,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled Ozark Trail 64 oz Stainless-Steel Insulated Water Bottle, model 83-662"
+            },
+            {
+              "Caption": "One-Piece Screwcap Lid"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Walmart has received three reports of consumers who were injured when struck in the face by a lid forcefully ejected from these bottles upon opening. Two consumers suffered permanent vision loss after being struck in the eye."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Available at Walmart locations nationwide and online at Walmart.com since 2017 for approximately $15."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Olympia Tools International Inc., of Covina, California"
+            },
+            {
+              "Name": "Walmart Inc., of Bentonville, Arkansas"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Sold Exclusively At",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risk of serious impact and laceration due to lid ejection"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Full refund available upon return of the bottle"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Refund"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "Walmart Emite un Retiro de Botellas de Agua Ozark Trail de 64 oz Debido al Riesgo de Lesiones",
+          "Description": "Walmart ha anunciado un retiro de las Botellas de Agua Aisladas de Acero Inoxidable Ozark Trail de 64 oz, identificadas por el número de modelo 83-662 en el empaque. Estas botellas plateadas cuentan con una tapa de rosca de una sola pieza negra y miden aproximadamente 4.41 x 4.41 x 11.5 pulgadas, con el logo de Ozark Trail exhibido en el costado. El número de modelo no es visible en el producto en sí.",
+          "ConsumerContact": "Los consumidores deben dejar de usar las botellas de agua retiradas de inmediato y comunicarse con Walmart al 800-925-6278 de 7 a.m. a 9 p.m. CT diariamente, o visitar www.walmart.com/help o https://corporate.walmart.com/recalls para obtener más ayuda.",
+          "metaDescription": "Walmart retira las botellas de agua Ozark Trail de 64 oz debido a riesgos de lesiones graves. Deje de usarlas de inmediato y contacte a Walmart para un reembolso.",
+          "Products": [
+            {
+              "Name": "Botella de Agua Aislada de Acero Inoxidable Ozark Trail de 64 oz",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 850,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Botella de Agua Aislada de Acero Inoxidable Ozark Trail de 64 oz retirada, modelo 83-662"
+            },
+            {
+              "Caption": "Tapa de Rosca de Una Sola Pieza"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Walmart ha recibido tres informes de consumidores que resultaron heridos al ser golpeados en la cara por una tapa expulsada con fuerza de estas botellas al abrirse. Dos consumidores sufrieron pérdida permanente de visión tras ser golpeados en el ojo."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible en las ubicaciones de Walmart en todo el país y en línea en Walmart.com desde 2017 por aproximadamente $15."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Olympia Tools International Inc., de Covina, California"
+            },
+            {
+              "Name": "Walmart Inc., de Bentonville, Arkansas"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendida Exclusivamente En",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Riesgo de impacto grave y laceración debido a la expulsión de la tapa"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Reembolso completo disponible al devolver la botella"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reembolso"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "وول مارت تصدر استدعاء لزجاجات المياه أوزارك تريل سعة 64 أونصة بسبب خطر الإصابة",
+          "Description": "أعلنت وول مارت عن استدعاء زجاجات المياه المعزولة المصنوعة من الفولاذ المقاوم للصدأ سعة 64 أونصة من أوزارك تريل، والتي تم تحديدها برقم الطراز 83-662 على العبوة. تتميز هذه الزجاجات الفضية بغطاء لولبي أسود قطعة واحدة وتبلغ أبعادها حوالي 4.41 × 4.41 × 11.5 بوصة، مع شعار أوزارك تريل المعروض على الجانب. رقم الطراز غير مرئي على المنتج نفسه.",
+          "ConsumerContact": "يجب على المستهلكين التوقف عن استخدام زجاجات المياه المستدعاة على الفور والتواصل مع وول مارت على الرقم 800-925-6278 من الساعة 7 صباحًا حتى 9 مساءً بتوقيت وسط أمريكا يوميًا، أو زيارة www.walmart.com/help أو https://corporate.walmart.com/recalls للحصول على مزيد من المساعدة.",
+          "metaDescription": "وول مارت تستدعي زجاجات المياه أوزارك تريل سعة 64 أونصة بسبب مخاطر الإصابة الخطيرة. توقف عن الاستخدام على الفور وتواصل مع وول مارت لاسترداد الأموال.",
+          "Products": [
+            {
+              "Name": "زجاجة مياه معزولة من الفولاذ المقاوم للصدأ سعة 64 أونصة من أوزارك تريل",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 850,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "زجاجة مياه معزولة من الفولاذ المقاوم للصدأ سعة 64 أونصة المستدعاة، الطراز 83-662"
+            },
+            {
+              "Caption": "غطاء لولبي قطعة واحدة"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "تلقت وول مارت ثلاث تقارير عن مستهلكين أصيبوا عندما ضربهم غطاء تم طرده بقوة من هذه الزجاجات عند فتحها. عانى مستهلكان من فقدان دائم للرؤية بعد أن أصيبا في العين."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "متاحة في مواقع وول مارت في جميع أنحاء البلاد وعبر الإنترنت على Walmart.com منذ عام 2017 بسعر حوالي 15 دولار."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "أوليمبيا تولز إنترناشيونال إنك، من كوفينا، كاليفورنيا"
+            },
+            {
+              "Name": "وول مارت إنك، من بنتونفيل، أركنساس"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "تباع حصريًا في",
+          "ManufacturerCountries": [
+            {
+              "Country": "الصين"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "خطر الإصابة الجسيمة والتمزق بسبب طرد الغطاء"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "استرداد كامل متاح عند إعادة الزجاجة"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "استرداد"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "沃尔玛因受伤风险召回Ozark Trail 64盎司水瓶",
+          "Description": "沃尔玛已宣布召回Ozark Trail 64盎司不锈钢保温水瓶，包装上的型号为83-662。这些银色水瓶配有黑色一体式螺旋盖，尺寸约为4.41 x 4.41 x 11.5英寸，侧面印有Ozark Trail标志。型号在产品本身上不可见。",
+          "ConsumerContact": "消费者应立即停止使用被召回的水瓶，并在每天上午7点至晚上9点中央时间拨打800-925-6278与沃尔玛联系，或访问www.walmart.com/help或https://corporate.walmart.com/recalls以获取进一步帮助。",
+          "metaDescription": "沃尔玛因严重受伤风险召回Ozark Trail 64盎司水瓶。请立即停止使用并联系沃尔玛以获取退款。",
+          "Products": [
+            {
+              "Name": "Ozark Trail 64盎司不锈钢保温水瓶",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约850,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "被召回的Ozark Trail 64盎司不锈钢保温水瓶，型号83-662"
+            },
+            {
+              "Caption": "一体式螺旋盖"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "沃尔玛收到三起消费者报告，称在打开这些水瓶时，被强行弹出的盖子击中面部而受伤。两名消费者在眼睛被击中后遭受永久性视力损失。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "自2017年以来在全国沃尔玛门店和Walmart.com在线销售，价格约为15美元。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "位于加利福尼亚州科维纳的Olympia Tools International Inc."
+            },
+            {
+              "Name": "位于阿肯色州本顿维尔的沃尔玛公司"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "仅在以下地点销售",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "因盖子弹出而导致严重撞击和割伤的风险"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "退还水瓶后可获得全额退款"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "退款"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "Walmart rappelle des bouteilles d'eau Ozark Trail de 64 oz en raison d'un risque de blessure",
+          "Description": "Walmart a annoncé un rappel des bouteilles d'eau isolées en acier inoxydable Ozark Trail de 64 oz, identifiées par le numéro de modèle 83-662 sur l'emballage. Ces bouteilles argentées disposent d'un couvercle à vis en une seule pièce noir et mesurent environ 4,41 x 4,41 x 11,5 pouces, avec le logo Ozark Trail affiché sur le côté. Le numéro de modèle n'est pas visible sur le produit lui-même.",
+          "ConsumerContact": "Les consommateurs doivent cesser d'utiliser immédiatement les bouteilles d'eau rappelées et contacter Walmart au 800-925-6278 de 7 h à 21 h CT tous les jours, ou visiter www.walmart.com/help ou https://corporate.walmart.com/recalls pour plus d'assistance.",
+          "metaDescription": "Walmart rappelle des bouteilles d'eau Ozark Trail de 64 oz en raison de risques de blessures graves. Cessez de les utiliser immédiatement et contactez Walmart pour un remboursement.",
+          "Products": [
+            {
+              "Name": "Bouteille d'eau isolée en acier inoxydable Ozark Trail de 64 oz",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 850 000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Bouteille d'eau isolée en acier inoxydable Ozark Trail de 64 oz rappelée, modèle 83-662"
+            },
+            {
+              "Caption": "Couvercle à vis en une seule pièce"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Walmart a reçu trois rapports de consommateurs qui ont été blessés lorsqu'ils ont été frappés au visage par un couvercle éjecté avec force de ces bouteilles lors de leur ouverture. Deux consommateurs ont subi une perte de vision permanente après avoir été frappés à l'œil."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible dans les magasins Walmart à travers le pays et en ligne sur Walmart.com depuis 2017 pour environ 15 $."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Olympia Tools International Inc., de Covina, Californie"
+            },
+            {
+              "Name": "Walmart Inc., de Bentonville, Arkansas"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendu Exclusivement Chez",
+          "ManufacturerCountries": [
+            {
+              "Country": "Chine"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risque d'impact grave et de lacération en raison de l'éjection du couvercle"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Remboursement complet disponible lors du retour de la bouteille"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Remboursement"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "Walmart ruft Ozark Trail 64 oz Wasserflaschen wegen Verletzungsgefahr zurück",
+          "Description": "Walmart hat einen Rückruf der Ozark Trail 64 oz Edelstahl-Isolierwasserflaschen angekündigt, die auf der Verpackung mit der Modellnummer 83-662 gekennzeichnet sind. Diese silbernen Flaschen verfügen über einen schwarzen einteiligen Schraubverschluss und messen etwa 4,41 x 4,41 x 11,5 Zoll, mit dem Ozark Trail-Logo an der Seite. Die Modellnummer ist auf dem Produkt selbst nicht sichtbar.",
+          "ConsumerContact": "Verbraucher sollten die zurückgerufenen Wasserflaschen sofort nicht mehr verwenden und Walmart unter 800-925-6278 täglich von 7 bis 21 Uhr CT kontaktieren oder www.walmart.com/help oder https://corporate.walmart.com/recalls besuchen, um weitere Unterstützung zu erhalten.",
+          "metaDescription": "Walmart ruft Ozark Trail 64 oz Wasserflaschen wegen ernsthafter Verletzungsrisiken zurück. Sofort nicht mehr verwenden und Walmart für eine Rückerstattung kontaktieren.",
+          "Products": [
+            {
+              "Name": "Ozark Trail 64 oz Edelstahl-Isolierwasserflasche",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 850.000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Zurückgerufene Ozark Trail 64 oz Edelstahl-Isolierwasserflasche, Modell 83-662"
+            },
+            {
+              "Caption": "Einteiliger Schraubverschluss"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Walmart hat drei Berichte von Verbrauchern erhalten, die verletzt wurden, als sie im Gesicht von einem Deckel getroffen wurden, der beim Öffnen gewaltsam aus diesen Flaschen herausgeschleudert wurde. Zwei Verbraucher erlitten dauerhaften Sehverlust, nachdem sie ins Auge getroffen wurden."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Erhältlich in Walmart-Filialen landesweit und online bei Walmart.com seit 2017 für etwa 15 $."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Olympia Tools International Inc., aus Covina, Kalifornien"
+            },
+            {
+              "Name": "Walmart Inc., aus Bentonville, Arkansas"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Exklusiv verkauft bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risiko von schweren Stößen und Schnittverletzungen durch Deckelauswurf"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Vollständige Rückerstattung bei Rückgabe der Flasche verfügbar"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Rückerstattung"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "ウォルマート、怪我のリスクによりオザークトレイル64オンス水筒のリコールを発表",
+          "Description": "ウォルマートは、パッケージにモデル番号83-662で識別されるオザークトレイル64オンスステンレススチール断熱水筒のリコールを発表しました。これらの銀色のボトルは、黒の一体型スクリューキャップの蓋を特徴としており、約4.41 x 4.41 x 11.5インチのサイズで、側面にはオザークトレイルのロゴが表示されています。モデル番号は製品自体には表示されていません。\n消費者は、リコールされた水筒の使用を直ちに中止し、毎日午前7時から午後9時まで中央標準時に800-925-6278のウォルマートに連絡するか、www.walmart.com/helpまたはhttps://corporate.walmart.com/recallsを訪れてさらなる支援を受けるべきです。",
+          "ConsumerContact": "消費者は、リコールされた水筒の使用を直ちに中止し、毎日午前7時から午後9時まで中央標準時に800-925-6278のウォルマートに連絡するか、www.walmart.com/helpまたはhttps://corporate.walmart.com/recallsを訪れてさらなる支援を受けるべきです。",
+          "metaDescription": "ウォルマートは、深刻な怪我のリスクによりオザークトレイル64オンス水筒をリコールします。直ちに使用を中止し、返金のためにウォルマートに連絡してください。",
+          "Products": [
+            {
+              "Name": "オザークトレイル64オンスステンレススチール断熱水筒",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約850,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコールされたオザークトレイル64オンスステンレススチール断熱水筒、モデル83-662"
+            },
+            {
+              "Caption": "一体型スクリューキャップの蓋"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "ウォルマートは、これらのボトルを開ける際に強制的に飛び出した蓋に顔を打たれて怪我をした消費者からの3件の報告を受けています。2人の消費者は目を打たれた後、永久的な視力喪失を被りました。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "2017年から全国のウォルマート店舗およびWalmart.comで約15ドルで販売されています。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "オリンピアツールズインターナショナル社、カリフォルニア州コビナ"
+            },
+            {
+              "Name": "ウォルマート社、アーカンソー州ベントンビル"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "独占的に販売",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "蓋の飛び出しによる深刻な衝撃および切り傷のリスク"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "ボトルの返却により全額返金が可能"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "返金"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "Walmart Emite Recall para Garrafas de Água Ozark Trail de 64 oz Devido ao Risco de Lesão",
+          "Description": "Walmart anunciou um recall das Garrafas de Água Isoladas de Aço Inoxidável Ozark Trail de 64 oz, identificadas pelo número do modelo 83-662 na embalagem. Essas garrafas prateadas possuem uma tampa de rosca preta em uma peça e medem aproximadamente 4,41 x 4,41 x 11,5 polegadas, com o logo Ozark Trail exibido na lateral. O número do modelo não é visível no próprio produto.",
+          "ConsumerContact": "Os consumidores devem parar de usar as garrafas de água recolhidas imediatamente e entrar em contato com o Walmart pelo telefone 800-925-6278, das 7h às 21h CT diariamente, ou visitar www.walmart.com/help ou https://corporate.walmart.com/recalls para mais assistência.",
+          "metaDescription": "Walmart recolhe garrafas de água Ozark Trail de 64 oz devido a riscos sérios de lesão. Pare de usar imediatamente e entre em contato com o Walmart para um reembolso.",
+          "Products": [
+            {
+              "Name": "Garrafa de Água Isolada de Aço Inoxidável Ozark Trail de 64 oz",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 850.000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Garrafa de Água Isolada de Aço Inoxidável Ozark Trail de 64 oz, modelo 83-662"
+            },
+            {
+              "Caption": "Tampa de Rosca em Uma Peça"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Walmart recebeu três relatos de consumidores que se feriram ao serem atingidos no rosto por uma tampa ejetada com força dessas garrafas ao serem abertas. Dois consumidores sofreram perda permanente da visão após serem atingidos no olho."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponível nas lojas Walmart em todo o país e online em Walmart.com desde 2017 por aproximadamente R$15."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Olympia Tools International Inc., de Covina, Califórnia"
+            },
+            {
+              "Name": "Walmart Inc., de Bentonville, Arkansas"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendido Exclusivamente Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risco de impacto sério e laceração devido à ejeção da tampa"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Reembolso total disponível mediante devolução da garrafa"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reembolso"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "वॉलमार्ट ने चोट के जोखिम के कारण ओज़ार्क ट्रेल 64 औंस पानी की बोतलों की रिकॉल की घोषणा की",
+          "Description": "वॉलमार्ट ने ओज़ार्क ट्रेल 64 औंस स्टेनलेस स्टील इंसुलेटेड पानी की बोतलों की रिकॉल की घोषणा की है, जिसे पैकेजिंग पर मॉडल नंबर 83-662 द्वारा पहचाना गया है। ये चांदी की बोतलें एक काले एक-टुकड़ा स्क्रूकैप ढक्कन के साथ आती हैं और लगभग 4.41 x 4.41 x 11.5 इंच मापती हैं, जिसमें ओज़ार्क ट्रेल का लोगो साइड पर प्रदर्शित है। मॉडल नंबर उत्पाद पर स्वयं दिखाई नहीं देता।",
+          "ConsumerContact": "उपभोक्ताओं को तुरंत रिकॉल की गई पानी की बोतलों का उपयोग बंद कर देना चाहिए और वॉलमार्ट से 800-925-6278 पर संपर्क करना चाहिए, जो प्रतिदिन सुबह 7 बजे से रात 9 बजे तक सीटी में उपलब्ध है, या सहायता के लिए www.walmart.com/help या https://corporate.walmart.com/recalls पर जाएं।",
+          "metaDescription": "वॉलमार्ट ने गंभीर चोट के जोखिमों के कारण ओज़ार्क ट्रेल 64 औंस पानी की बोतलों की रिकॉल की। तुरंत उपयोग बंद करें और धनवापसी के लिए वॉलमार्ट से संपर्क करें।",
+          "Products": [
+            {
+              "Name": "ओज़ार्क ट्रेल 64 औंस स्टेनलेस स्टील इंसुलेटेड पानी की बोतल",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 850,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "रिकॉल की गई ओज़ार्क ट्रेल 64 औंस स्टेनलेस-स्टील इंसुलेटेड पानी की बोतल, मॉडल 83-662"
+            },
+            {
+              "Caption": "एक-टुकड़ा स्क्रूकैप ढक्कन"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "वॉलमार्ट को तीन रिपोर्ट मिली हैं कि उपभोक्ता तब घायल हुए जब इन बोतलों को खोलने पर ढक्कन जोर से बाहर निकला और उनके चेहरे पर लगा। दो उपभोक्ताओं को आंख में चोट लगने के बाद स्थायी दृष्टि हानि हुई।"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "2017 से वॉलमार्ट स्थानों पर और Walmart.com पर लगभग $15 में उपलब्ध।"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "ओलंपिया टूल्स इंटरनेशनल इंक., कोविना, कैलिफोर्निया"
+            },
+            {
+              "Name": "वॉलमार्ट इंक., बेंटनविले, अर्कांसस"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "विशेष रूप से बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "चीन"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "ढक्कन के बाहर निकलने के कारण गंभीर प्रभाव और कटने का जोखिम"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "बोतल लौटाने पर पूर्ण धनवापसी उपलब्ध"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "धनवापसी"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "Walmart объявляет отзыв 64 унций бутылок с водой Ozark Trail из-за риска травм",
+          "Description": "Walmart объявил о отзыве 64 унций изолированных бутылок с водой из нержавеющей стали Ozark Trail, идентифицированных по номеру модели 83-662 на упаковке. Эти серебристые бутылки имеют черную крышку с одним винтом и имеют размеры примерно 4.41 x 4.41 x 11.5 дюймов, с логотипом Ozark Trail, отображенным на стороне. Номер модели не виден на самом продукте.",
+          "ConsumerContact": "Потребители должны немедленно прекратить использование отозванных бутылок с водой и обратиться в Walmart по телефону 800-925-6278 с 7:00 до 21:00 по центральному времени ежедневно, или посетить www.walmart.com/help или https://corporate.walmart.com/recalls для получения дополнительной помощи.",
+          "metaDescription": "Walmart отзывает бутылки с водой Ozark Trail 64 унции из-за серьезных рисков травм. Прекратите использование немедленно и свяжитесь с Walmart для получения возврата.",
+          "Products": [
+            {
+              "Name": "Изолированная бутылка с водой из нержавеющей стали Ozark Trail 64 унции",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 850,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванная изолированная бутылка с водой из нержавеющей стали Ozark Trail 64 унции, модель 83-662"
+            },
+            {
+              "Caption": "Крышка с одним винтом"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Walmart получил три сообщения от потребителей, которые получили травмы, когда крышка была сильно выброшена из этих бутылок при открытии и ударила их в лицо. Два потребителя потеряли зрение навсегда после удара в глаз."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Доступно в магазинах Walmart по всей стране и онлайн на Walmart.com с 2017 года примерно за 15 долларов."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Olympia Tools International Inc., Ковина, Калифорния"
+            },
+            {
+              "Name": "Walmart Inc., Бентонвилл, Арканзас"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Продается исключительно в",
+          "ManufacturerCountries": [
+            {
+              "Country": "Китай"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Риск серьезного удара и пореза из-за выброса крышки"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Полный возврат доступен при возврате бутылки"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Возврат"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "Walmart Thông Báo Thu Hồi Bình Nước 64 oz Ozark Trail Do Nguy Cơ Chấn Thương",
+          "Description": "Walmart đã thông báo thu hồi các bình nước cách nhiệt bằng thép không gỉ Ozark Trail 64 oz, được xác định bằng số mô hình 83-662 trên bao bì. Những bình nước màu bạc này có nắp vặn một khối màu đen và có kích thước khoảng 4.41 x 4.41 x 11.5 inch, với logo Ozark Trail hiển thị ở bên cạnh. Số mô hình không hiển thị trên sản phẩm.",
+          "ConsumerContact": "Người tiêu dùng nên ngừng sử dụng ngay lập tức các bình nước bị thu hồi và liên hệ với Walmart qua số 800-925-6278 từ 7 giờ sáng đến 9 giờ tối theo giờ CT hàng ngày, hoặc truy cập www.walmart.com/help hoặc https://corporate.walmart.com/recalls để được hỗ trợ thêm.",
+          "metaDescription": "Walmart thu hồi bình nước Ozark Trail 64 oz do nguy cơ chấn thương nghiêm trọng. Ngừng sử dụng ngay lập tức và liên hệ với Walmart để được hoàn tiền.",
+          "Products": [
+            {
+              "Name": "Bình Nước Cách Nhiệt Bằng Thép Không Gỉ Ozark Trail 64 oz",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 850,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Bình Nước Cách Nhiệt Bằng Thép Không Gỉ Ozark Trail 64 oz bị thu hồi, mô hình 83-662"
+            },
+            {
+              "Caption": "Nắp Vặn Một Khối"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Walmart đã nhận được ba báo cáo về người tiêu dùng bị thương khi bị nắp bật ra mạnh mẽ từ các bình này khi mở. Hai người tiêu dùng đã bị mất thị lực vĩnh viễn sau khi bị trúng mắt."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Có sẵn tại các cửa hàng Walmart trên toàn quốc và trực tuyến tại Walmart.com từ năm 2017 với giá khoảng 15 đô la."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Olympia Tools International Inc., ở Covina, California"
+            },
+            {
+              "Name": "Walmart Inc., ở Bentonville, Arkansas"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Chỉ Bán Tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Trung Quốc"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Nguy cơ chấn thương nghiêm trọng và cắt do nắp bật ra"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Hoàn tiền đầy đủ khi trả lại bình nước"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Hoàn tiền"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    },
+    {
+      "RecallID": 9900,
+      "RecallNumber": "24172",
+      "RecallDate": "2024-03-21T00:00:00",
+      "Description": "BRS and BULin portable liquid fuel bottles are being recalled due to safety concerns. The BRS bottle is identifiable by its orange color with a black cap, while the BULin bottle is red with a matching red cap. Both bottles were sold exclusively in a 1000mL size and feature text in Chinese. Important safety information is displayed in white lettering on the bottles, including the brand name and volume details.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/BRS-and-BULin-Liquid-Fuel-Bottles-Recalled-Due-to-Risk-of-Burn-and-Poisoning-Violation of the Childrens-Burn-Prevention-Safety-Act-Sold-Exclusively-on-Amazon-com-by-Tentock",
+      "Title": "Recall of BRS and BULin Liquid Fuel Bottles Due to Burn and Poisoning Risks",
+      "ConsumerContact": "For assistance, please email squarebird@aliyun.com or visit their Amazon seller profile at https://www.amazon.com/s?me=A1778LF2VCKZ0J&marketplaceID=ATVPDKIKX0DER.",
+      "LastPublishDate": "2024-03-21T00:00:00",
+      "Products": [
+        {
+          "Name": "BRS Liquid Fuel Bottle",
+          "NumberOfUnits": "About 290"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/metal/2-BRS-Liquid-Fuel-Bottle/149045c871618e4c9b71bcd370871e37.webp",
+          "Caption": "Recalled BRS liquid fuel bottle – front",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/BRS-front_0.png"
+        },
+        {
+          "URL": "/images/generalRecalls/metal/2-BRS-Liquid-Fuel-Bottle/85a8e57a0de6402bbe9e99688eb362e6.webp",
+          "Caption": "Recalled BRS liquid fuel bottle – back",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/BRS-back_0.png"
+        },
+        {
+          "URL": "/images/generalRecalls/metal/2-BRS-Liquid-Fuel-Bottle/f1b447dfd10573c9cbf5bc758b48453e.webp",
+          "Caption": "Recalled BULin liquid fuel bottle –front",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/BUL-front.png"
+        },
+        {
+          "URL": "/images/generalRecalls/metal/2-BRS-Liquid-Fuel-Bottle/d43f36501b7e2e53b0618ea99d4064c2.webp",
+          "Caption": "Recalled BULin liquid fuel bottle – back",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/BUL-back.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available exclusively on Amazon.com from January 2023 through December 2023, priced between $10 and $13."
+        }
+      ],
+      "Distributors": [
+        {
+          "Name": "Tentock, of China"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Non-compliance with child-resistant closure requirements under the Children's Gasoline Burn Prevention Act, posing burn and poisoning risks to children."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers must stop using the recalled bottles immediately, keep them away from children, and contact Tentock for disposal instructions to obtain a full refund."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "slug": "recall-of-brs-and-bulin-liquid-fuel-bottles-due-to-burn-and-poisoning-risks-recall",
+      "metaDescription": "BRS and BULin liquid fuel bottles recalled due to burn and poisoning hazards. Immediate action required for consumer safety.",
+      "languages": {
+        "en": {
+          "Title": "Recall of BRS and BULin Liquid Fuel Bottles Due to Burn and Poisoning Risks",
+          "Description": "BRS and BULin portable liquid fuel bottles are being recalled due to safety concerns. The BRS bottle is identifiable by its orange color with a black cap, while the BULin bottle is red with a matching red cap. Both bottles were sold exclusively in a 1000mL size and feature text in Chinese. Important safety information is displayed in white lettering on the bottles, including the brand name and volume details.",
+          "ConsumerContact": "For assistance, please email squarebird@aliyun.com or visit their Amazon seller profile at https://www.amazon.com/s?me=A1778LF2VCKZ0J&marketplaceID=ATVPDKIKX0DER.",
+          "metaDescription": "BRS and BULin liquid fuel bottles recalled due to burn and poisoning hazards. Immediate action required for consumer safety.",
+          "Products": [
+            {
+              "Name": "BRS Liquid Fuel Bottle",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 290"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled BRS liquid fuel bottle – front"
+            },
+            {
+              "Caption": "Recalled BRS liquid fuel bottle – back"
+            },
+            {
+              "Caption": "Recalled BULin liquid fuel bottle –front"
+            },
+            {
+              "Caption": "Recalled BULin liquid fuel bottle – back"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "None reported"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Available exclusively on Amazon.com from January 2023 through December 2023, priced between $10 and $13."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Tentock, of China"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Sold At",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Non-compliance with child-resistant closure requirements under the Children's Gasoline Burn Prevention Act, posing burn and poisoning risks to children."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Consumers must stop using the recalled bottles immediately, keep them away from children, and contact Tentock for disposal instructions to obtain a full refund."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Refund"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "Retiro de botellas de combustible líquido BRS y BULin debido a riesgos de quemaduras y envenenamiento",
+          "Description": "Las botellas de combustible líquido portátiles BRS y BULin están siendo retiradas debido a preocupaciones de seguridad. La botella BRS se identifica por su color naranja con una tapa negra, mientras que la botella BULin es roja con una tapa roja a juego. Ambas botellas se vendieron exclusivamente en un tamaño de 1000 mL y presentan texto en chino. Se muestra información de seguridad importante en letras blancas en las botellas, incluyendo el nombre de la marca y detalles del volumen.",
+          "ConsumerContact": "Para asistencia, envíe un correo electrónico a squarebird@aliyun.com o visite su perfil de vendedor en Amazon en https://www.amazon.com/s?me=A1778LF2VCKZ0J&marketplaceID=ATVPDKIKX0DER.",
+          "metaDescription": "Botellas de combustible líquido BRS y BULin retiradas debido a riesgos de quemaduras y envenenamiento. Se requiere acción inmediata para la seguridad del consumidor.",
+          "Products": [
+            {
+              "Name": "Botella de combustible líquido BRS",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 290"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Botella de combustible líquido BRS retirada – frente"
+            },
+            {
+              "Caption": "Botella de combustible líquido BRS retirada – reverso"
+            },
+            {
+              "Caption": "Botella de combustible líquido BULin retirada – frente"
+            },
+            {
+              "Caption": "Botella de combustible líquido BULin retirada – reverso"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Ninguna reportada"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible exclusivamente en Amazon.com desde enero de 2023 hasta diciembre de 2023, con precios entre $10 y $13."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Tentock, de China"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendido en",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "No cumplimiento con los requisitos de cierre a prueba de niños bajo la Ley de Prevención de Quemaduras de Gasolina para Niños, lo que plantea riesgos de quemaduras y envenenamiento para los niños."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Los consumidores deben dejar de usar las botellas retiradas de inmediato, mantenerlas alejadas de los niños y contactar a Tentock para obtener instrucciones de disposición y obtener un reembolso completo."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reembolso"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "استرجاع زجاجات الوقود السائل BRS و BULin بسبب مخاطر الحروق والتسمم",
+          "Description": "يتم استرجاع زجاجات الوقود السائل المحمولة BRS و BULin بسبب مخاوف تتعلق بالسلامة. يمكن التعرف على زجاجة BRS من خلال لونها البرتقالي مع غطاء أسود، بينما زجاجة BULin حمراء مع غطاء أحمر مطابق. تم بيع كلا الزجاجتين حصريًا بحجم 1000 مل وتحتويان على نص باللغة الصينية. يتم عرض معلومات السلامة الهامة بحروف بيضاء على الزجاجات، بما في ذلك اسم العلامة التجارية وتفاصيل الحجم.",
+          "ConsumerContact": "للمساعدة، يرجى إرسال بريد إلكتروني إلى squarebird@aliyun.com أو زيارة ملف البائع الخاص بهم على أمازون على https://www.amazon.com/s?me=A1778LF2VCKZ0J&marketplaceID=ATVPDKIKX0DER.",
+          "metaDescription": "تم استرجاع زجاجات الوقود السائل BRS و BULin بسبب مخاطر الحروق والتسمم. يتطلب الأمر اتخاذ إجراء فوري لسلامة المستهلك.",
+          "Products": [
+            {
+              "Name": "زجاجة الوقود السائل BRS",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 290"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "زجاجة الوقود السائل BRS المسترجعة – الأمام"
+            },
+            {
+              "Caption": "زجاجة الوقود السائل BRS المسترجعة – الخلف"
+            },
+            {
+              "Caption": "زجاجة الوقود السائل BULin المسترجعة – الأمام"
+            },
+            {
+              "Caption": "زجاجة الوقود السائل BULin المسترجعة – الخلف"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "لا توجد إصابات مسجلة"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "متاحة حصريًا على Amazon.com من يناير 2023 حتى ديسمبر 2023، بسعر يتراوح بين 10 دولارات و 13 دولارًا."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Tentock، من الصين"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "تم البيع في",
+          "ManufacturerCountries": [
+            {
+              "Country": "الصين"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "عدم الامتثال لمتطلبات الإغلاق المقاوم للأطفال بموجب قانون منع حروق البنزين للأطفال، مما يعرض الأطفال لمخاطر الحروق والتسمم."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "يجب على المستهلكين التوقف عن استخدام الزجاجات المسترجعة على الفور، وإبعادها عن الأطفال، والاتصال بـ Tentock للحصول على تعليمات التخلص للحصول على استرداد كامل."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "استرداد"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "因烧伤和中毒风险召回BRS和BULin液体燃料瓶",
+          "Description": "由于安全隐患，BRS和BULin便携式液体燃料瓶被召回。BRS瓶子以其橙色和黑色瓶盖为特征，而BULin瓶子则是红色的，配有相同颜色的红色瓶盖。这两种瓶子均以1000毫升的规格独家销售，并且瓶身上有中文文字。瓶子上以白色字母显示重要的安全信息，包括品牌名称和容量详情。",
+          "ConsumerContact": "如需帮助，请发送电子邮件至squarebird@aliyun.com或访问他们的亚马逊卖家资料，网址为https://www.amazon.com/s?me=A1778LF2VCKZ0J&marketplaceID=ATVPDKIKX0DER。",
+          "metaDescription": "因烧伤和中毒危险召回BRS和BULin液体燃料瓶。为消费者安全，需立即采取行动。",
+          "Products": [
+            {
+              "Name": "BRS液体燃料瓶",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约290个"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "召回的BRS液体燃料瓶 - 正面"
+            },
+            {
+              "Caption": "召回的BRS液体燃料瓶 - 背面"
+            },
+            {
+              "Caption": "召回的BULin液体燃料瓶 - 正面"
+            },
+            {
+              "Caption": "召回的BULin液体燃料瓶 - 背面"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "无报告"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "仅在Amazon.com上销售，时间为2023年1月至2023年12月，价格在10美元至13美元之间。"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Tentock，中国"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "销售地点",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "不符合《儿童汽油烧伤预防法》下的儿童安全闭合要求，给儿童带来烧伤和中毒风险。"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "消费者必须立即停止使用被召回的瓶子，远离儿童，并联系Tentock获取处理说明以获得全额退款。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "退款"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "Rappel des bouteilles de carburant liquide BRS et BULin en raison des risques de brûlures et d'empoisonnement",
+          "Description": "Les bouteilles de carburant liquide portables BRS et BULin sont rappelées en raison de préoccupations de sécurité. La bouteille BRS est identifiable par sa couleur orange avec un capuchon noir, tandis que la bouteille BULin est rouge avec un capuchon rouge assorti. Les deux bouteilles étaient vendues exclusivement en taille 1000mL et comportent du texte en chinois. Des informations de sécurité importantes sont affichées en lettres blanches sur les bouteilles, y compris le nom de la marque et les détails du volume.",
+          "ConsumerContact": "Pour toute assistance, veuillez envoyer un e-mail à squarebird@aliyun.com ou visiter leur profil de vendeur Amazon à l'adresse https://www.amazon.com/s?me=A1778LF2VCKZ0J&marketplaceID=ATVPDKIKX0DER.",
+          "metaDescription": "Bouteilles de carburant liquide BRS et BULin rappelées en raison de risques de brûlures et d'empoisonnement. Action immédiate requise pour la sécurité des consommateurs.",
+          "Products": [
+            {
+              "Name": "Bouteille de carburant liquide BRS",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 290"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Bouteille de carburant liquide BRS rappelée – devant"
+            },
+            {
+              "Caption": "Bouteille de carburant liquide BRS rappelée – arrière"
+            },
+            {
+              "Caption": "Bouteille de carburant liquide BULin rappelée – devant"
+            },
+            {
+              "Caption": "Bouteille de carburant liquide BULin rappelée – arrière"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Aucun rapporté"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible exclusivement sur Amazon.com de janvier 2023 à décembre 2023, au prix compris entre 10 $ et 13 $."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Tentock, de Chine"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendu à",
+          "ManufacturerCountries": [
+            {
+              "Country": "Chine"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Non-conformité aux exigences de fermeture résistante aux enfants en vertu de la loi sur la prévention des brûlures de l'essence chez les enfants, posant des risques de brûlures et d'empoisonnement pour les enfants."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Les consommateurs doivent cesser d'utiliser immédiatement les bouteilles rappelées, les tenir éloignées des enfants et contacter Tentock pour des instructions d'élimination afin d'obtenir un remboursement complet."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Remboursement"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "Rückruf von BRS- und BULin-Flüssigkraftstoffflaschen aufgrund von Brand- und Vergiftungsrisiken",
+          "Description": "BRS- und BULin tragbare Flüssigkraftstoffflaschen werden aufgrund von Sicherheitsbedenken zurückgerufen. Die BRS-Flasche ist durch ihre orange Farbe mit einem schwarzen Deckel erkennbar, während die BULin-Flasche rot mit einem passenden roten Deckel ist. Beide Flaschen wurden ausschließlich in einer Größe von 1000 ml verkauft und tragen Text in Chinesisch. Wichtige Sicherheitsinformationen sind in weißer Schrift auf den Flaschen aufgedruckt, einschließlich des Markennamens und der Volumendetails.",
+          "ConsumerContact": "Für Unterstützung senden Sie bitte eine E-Mail an squarebird@aliyun.com oder besuchen Sie ihr Amazon-Verkäuferprofil unter https://www.amazon.com/s?me=A1778LF2VCKZ0J&marketplaceID=ATVPDKIKX0DER.",
+          "metaDescription": "BRS- und BULin-Flüssigkraftstoffflaschen zurückgerufen aufgrund von Brand- und Vergiftungsgefahren. Sofortige Maßnahmen erforderlich für die Sicherheit der Verbraucher.",
+          "Products": [
+            {
+              "Name": "BRS Flüssigkraftstoffflasche",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 290"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Rückgerufene BRS-Flüssigkraftstoffflasche – Vorderseite"
+            },
+            {
+              "Caption": "Rückgerufene BRS-Flüssigkraftstoffflasche – Rückseite"
+            },
+            {
+              "Caption": "Rückgerufene BULin-Flüssigkraftstoffflasche – Vorderseite"
+            },
+            {
+              "Caption": "Rückgerufene BULin-Flüssigkraftstoffflasche – Rückseite"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Keine gemeldeten Verletzungen"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Exklusiv erhältlich auf Amazon.com von Januar 2023 bis Dezember 2023, Preis zwischen 10 und 13 US-Dollar."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Tentock, aus China"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Verkauft bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Nichteinhaltung der Anforderungen an kindersichere Verschlüsse gemäß dem Gesetz zur Verhinderung von Benzinverbrennungen bei Kindern, was Brand- und Vergiftungsrisiken für Kinder darstellt."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Verbraucher müssen die zurückgerufenen Flaschen sofort nicht mehr verwenden, sie von Kindern fernhalten und Tentock für Entsorgungsanweisungen kontaktieren, um eine vollständige Rückerstattung zu erhalten."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Rückerstattung"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "BRSおよびBULin液体燃料ボトルのリコール - 火傷および中毒のリスク",
+          "Description": "BRSおよびBULinのポータブル液体燃料ボトルは、安全上の懸念からリコールされています。BRSボトルはオレンジ色で黒いキャップが特徴で、BULinボトルは赤色で赤いキャップが付いています。両方のボトルは1000mLサイズのみで販売され、中国語のテキストが記載されています。重要な安全情報はボトルに白い文字で表示されており、ブランド名や容量の詳細が含まれています。",
+          "ConsumerContact": "サポートが必要な場合は、squarebird@aliyun.comまでメールを送信するか、https://www.amazon.com/s?me=A1778LF2VCKZ0J&marketplaceID=ATVPDKIKX0DERのAmazonセラープロフィールを訪問してください。",
+          "metaDescription": "BRSおよびBULin液体燃料ボトルが火傷および中毒の危険性によりリコールされました。消費者の安全のために即時の対応が必要です。",
+          "Products": [
+            {
+              "Name": "BRS液体燃料ボトル",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約290"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコールされたBRS液体燃料ボトル - 前面"
+            },
+            {
+              "Caption": "リコールされたBRS液体燃料ボトル - 背面"
+            },
+            {
+              "Caption": "リコールされたBULin液体燃料ボトル - 前面"
+            },
+            {
+              "Caption": "リコールされたBULin液体燃料ボトル - 背面"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "報告された怪我はありません"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "2023年1月から2023年12月までAmazon.comでのみ入手可能、価格は$10から$13の間です。"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "中国のTentock"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "販売場所",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "子供用のガソリン火傷防止法に基づく子供用安全閉鎖要件に不適合であり、子供に火傷や中毒のリスクをもたらします。"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "消費者はリコールされたボトルの使用を直ちに中止し、子供の手の届かない場所に保管し、Tentockに連絡して廃棄指示を受け、全額返金を受ける必要があります。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "返金"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "Recall de Garrafas de Combustível Líquido BRS e BULin Devido a Riscos de Queimaduras e Intoxicação",
+          "Description": "As garrafas de combustível líquido portáteis BRS e BULin estão sendo recolhidas devido a preocupações de segurança. A garrafa BRS é identificável pela sua cor laranja com uma tampa preta, enquanto a garrafa BULin é vermelha com uma tampa vermelha correspondente. Ambas as garrafas foram vendidas exclusivamente em um tamanho de 1000mL e apresentam texto em chinês. Informações importantes de segurança estão exibidas em letras brancas nas garrafas, incluindo o nome da marca e detalhes do volume.",
+          "ConsumerContact": "Para assistência, envie um e-mail para squarebird@aliyun.com ou visite o perfil do vendedor na Amazon em https://www.amazon.com/s?me=A1778LF2VCKZ0J&marketplaceID=ATVPDKIKX0DER.",
+          "metaDescription": "Garrafas de combustível líquido BRS e BULin recolhidas devido a riscos de queimaduras e intoxicação. Ação imediata necessária para a segurança do consumidor.",
+          "Products": [
+            {
+              "Name": "Garrafas de Combustível Líquido BRS",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 290"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Garrafas de combustível líquido BRS recolhida – frente"
+            },
+            {
+              "Caption": "Garrafas de combustível líquido BRS recolhida – verso"
+            },
+            {
+              "Caption": "Garrafas de combustível líquido BULin recolhida – frente"
+            },
+            {
+              "Caption": "Garrafas de combustível líquido BULin recolhida – verso"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Nenhuma relatada"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponível exclusivamente na Amazon.com de janeiro de 2023 até dezembro de 2023, com preços entre $10 e $13."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Tentock, da China"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendidos Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Não conformidade com os requisitos de fechamento à prova de crianças sob a Lei de Prevenção de Queimaduras de Gasolina para Crianças, apresentando riscos de queimaduras e intoxicação para crianças."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Os consumidores devem parar de usar as garrafas recolhidas imediatamente, mantê-las longe das crianças e entrar em contato com a Tentock para obter instruções de descarte para receber um reembolso total."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reembolso"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "BRS और BULin तरल ईंधन बोतलों की जलने और विषाक्तता के जोखिमों के कारण वापसी",
+          "Description": "BRS और BULin पोर्टेबल तरल ईंधन बोतलों को सुरक्षा चिंताओं के कारण वापस बुलाया जा रहा है। BRS बोतल की पहचान उसके नारंगी रंग और काले ढक्कन से होती है, जबकि BULin बोतल लाल है और इसका ढक्कन भी लाल है। दोनों बोतलें विशेष रूप से 1000mL आकार में बेची गई थीं और इनमें चीनी में पाठ है। बोतलों पर महत्वपूर्ण सुरक्षा जानकारी सफेद अक्षरों में प्रदर्शित की गई है, जिसमें ब्रांड नाम और मात्रा विवरण शामिल हैं।",
+          "ConsumerContact": "सहायता के लिए, कृपया squarebird@aliyun.com पर ईमेल करें या उनके Amazon विक्रेता प्रोफ़ाइल पर जाएं https://www.amazon.com/s?me=A1778LF2VCKZ0J&marketplaceID=ATVPDKIKX0DER।",
+          "metaDescription": "BRS और BULin तरल ईंधन बोतलें जलने और विषाक्तता के खतरों के कारण वापस बुलाई गईं। उपभोक्ता सुरक्षा के लिए तत्काल कार्रवाई की आवश्यकता है।",
+          "Products": [
+            {
+              "Name": "BRS तरल ईंधन बोतल",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 290"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "वापस बुलाई गई BRS तरल ईंधन बोतल – सामने"
+            },
+            {
+              "Caption": "वापस बुलाई गई BRS तरल ईंधन बोतल – पीछे"
+            },
+            {
+              "Caption": "वापस बुलाई गई BULin तरल ईंधन बोतल – सामने"
+            },
+            {
+              "Caption": "वापस बुलाई गई BULin तरल ईंधन बोतल – पीछे"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "कोई रिपोर्ट नहीं"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "जनवरी 2023 से दिसंबर 2023 तक Amazon.com पर विशेष रूप से उपलब्ध, कीमत $10 से $13 के बीच।"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Tentock, चीन से"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "चीन"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "बच्चों के गैसोलीन जलने की रोकथाम अधिनियम के तहत बच्चे-प्रतिरोधी बंद करने की आवश्यकताओं का अनुपालन न करना, बच्चों के लिए जलने और विषाक्तता के जोखिम पैदा करना।"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "उपभोक्ताओं को तुरंत वापस बुलाए गए बोतलों का उपयोग बंद करना चाहिए, उन्हें बच्चों से दूर रखना चाहिए, और पूर्ण धनवापसी प्राप्त करने के लिए निपटान निर्देशों के लिए Tentock से संपर्क करना चाहिए।"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "धनवापसी"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "Отзыв бутылок с жидким топливом BRS и BULin из-за рисков ожогов и отравлений",
+          "Description": "Бутылки с жидким топливом BRS и BULin отзываются из-за проблем с безопасностью. Бутылка BRS идентифицируется по оранжевому цвету с черной крышкой, в то время как бутылка BULin красная с соответствующей красной крышкой. Обе бутылки продавались исключительно в размере 1000 мл и имеют текст на китайском языке. Важная информация о безопасности отображается белыми буквами на бутылках, включая название бренда и информацию о объеме.",
+          "ConsumerContact": "Для получения помощи, пожалуйста, напишите на squarebird@aliyun.com или посетите их профиль продавца на Amazon по адресу https://www.amazon.com/s?me=A1778LF2VCKZ0J&marketplaceID=ATVPDKIKX0DER.",
+          "metaDescription": "Бутылки с жидким топливом BRS и BULin отозваны из-за рисков ожогов и отравлений. Необходимы срочные действия для обеспечения безопасности потребителей.",
+          "Products": [
+            {
+              "Name": "Бутылка с жидким топливом BRS",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 290"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванная бутылка с жидким топливом BRS – спереди"
+            },
+            {
+              "Caption": "Отозванная бутылка с жидким топливом BRS – сзади"
+            },
+            {
+              "Caption": "Отозванная бутылка с жидким топливом BULin – спереди"
+            },
+            {
+              "Caption": "Отозванная бутылка с жидким топливом BULin – сзади"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Не сообщалось"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Доступно исключительно на Amazon.com с января 2023 года по декабрь 2023 года, по цене от 10 до 13 долларов."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Tentock, Китай"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Продавалось в",
+          "ManufacturerCountries": [
+            {
+              "Country": "Китай"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Несоответствие требованиям к замкам, устойчивым к детям, согласно Закону о предотвращении ожогов от бензина у детей, что создает риски ожогов и отравлений для детей."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Потребители должны немедленно прекратить использование отозванных бутылок, держать их подальше от детей и связаться с Tentock для получения инструкций по утилизации, чтобы получить полный возврат."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Возврат"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "Thu hồi chai nhiên liệu lỏng BRS và BULin do nguy cơ bỏng và ngộ độc",
+          "Description": "Chai nhiên liệu lỏng BRS và BULin di động đang được thu hồi do lo ngại về an toàn. Chai BRS có thể nhận diện bằng màu cam với nắp đen, trong khi chai BULin có màu đỏ với nắp đỏ phù hợp. Cả hai chai đều được bán độc quyền với kích thước 1000mL và có chữ viết bằng tiếng Trung. Thông tin an toàn quan trọng được hiển thị bằng chữ trắng trên các chai, bao gồm tên thương hiệu và chi tiết thể tích.",
+          "ConsumerContact": "Để được hỗ trợ, vui lòng gửi email đến squarebird@aliyun.com hoặc truy cập hồ sơ người bán của họ trên Amazon tại https://www.amazon.com/s?me=A1778LF2VCKZ0J&marketplaceID=ATVPDKIKX0DER.",
+          "metaDescription": "Chai nhiên liệu lỏng BRS và BULin bị thu hồi do nguy cơ bỏng và ngộ độc. Cần hành động ngay lập tức để đảm bảo an toàn cho người tiêu dùng.",
+          "Products": [
+            {
+              "Name": "Chai Nhiên Liệu Lỏng BRS",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 290"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Chai nhiên liệu lỏng BRS bị thu hồi – mặt trước"
+            },
+            {
+              "Caption": "Chai nhiên liệu lỏng BRS bị thu hồi – mặt sau"
+            },
+            {
+              "Caption": "Chai nhiên liệu lỏng BULin bị thu hồi – mặt trước"
+            },
+            {
+              "Caption": "Chai nhiên liệu lỏng BULin bị thu hồi – mặt sau"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Không có báo cáo"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Có sẵn độc quyền trên Amazon.com từ tháng 1 năm 2023 đến tháng 12 năm 2023, giá từ 10 đến 13 đô la."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Tentock, của Trung Quốc"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Được Bán Tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Trung Quốc"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Không tuân thủ yêu cầu về nắp chống trẻ em theo Đạo luật Ngăn ngừa Bỏng Xăng cho Trẻ em, gây ra nguy cơ bỏng và ngộ độc cho trẻ em."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Người tiêu dùng phải ngừng sử dụng ngay lập tức các chai bị thu hồi, giữ chúng xa trẻ em và liên hệ với Tentock để biết hướng dẫn xử lý để nhận hoàn tiền đầy đủ."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Hoàn tiền"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    }
+  ]
+}

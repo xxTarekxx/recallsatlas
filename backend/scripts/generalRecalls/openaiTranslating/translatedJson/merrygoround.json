@@ -1,0 +1,810 @@
+{
+  "meta": {
+    "slug": "merrygoround",
+    "sourceCsvFile": "merrygoround_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:36.997Z",
+    "recallCount": 1,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "merrygoround.json",
+    "seoTranslatedAt": "2026-04-04T06:50:09.733Z",
+    "resumePartial": false,
+    "i18nSource": "generalRecallsTranslated",
+    "i18nSourceFile": "merrygoround.json",
+    "i18nUiLangs": [
+      "en",
+      "es",
+      "ar",
+      "zh",
+      "fr",
+      "de",
+      "ja",
+      "pt",
+      "hi",
+      "ru",
+      "vi"
+    ],
+    "i18nProgressByLang": {
+      "es": 1,
+      "ar": 1,
+      "zh": 1,
+      "fr": 1,
+      "de": 1,
+      "ja": 1,
+      "pt": 1,
+      "hi": 1,
+      "ru": 1,
+      "vi": 1
+    },
+    "i18nInProgress": false,
+    "i18nTranslatedAt": "2026-04-07T13:56:44.229Z",
+    "i18nOpenaiModel": "gpt-4o-mini"
+  },
+  "recalls": [
+    {
+      "RecallID": 10119,
+      "RecallNumber": "25080",
+      "RecallDate": "2024-12-26T00:00:00",
+      "Description": "BCI Burke is recalling the Inclusive Orbit, a spinning playground component resembling a merry-go-round. This product features three handrails and a seating capacity for six children, with a platform that is level with the surrounding ground. The affected model numbers are 560-0042 and 560-0051. Owners can reach out to BCI Burke to verify if their unit is part of the recall.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/BCI-Burke-Recalls-Playground-Merry-Go-Rounds-Due-to-Crush-Hazard",
+      "Title": "BCI Burke Recalls Inclusive Orbit Playground Merry-Go-Rounds Due to Crush Hazard",
+      "ConsumerContact": "For assistance, contact BCI Burke Company at 800-266-1250 from 7:30 a.m. to 4:30 p.m. CT, Monday through Friday, email orbit@bciburke.com, or visit https://www.bciburke.com/recall for further details.",
+      "LastPublishDate": "2024-12-26T00:00:00",
+      "Products": [
+        {
+          "Name": "Inclusive Orbit Playground Merry-Go-Round",
+          "NumberOfUnits": "About 415 (In addition, about 6 were sold in Canada)"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/merrygoround/1-Inclusive-Orbit-Playground-Merry-Go-Round/9cae1717a0ca18ce16f274ae9b69cc69.webp",
+          "Caption": "Recalled Inclusive Orbit merry-go-round",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/inclusive-orbit.JPG"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received reports of two incidents of fingers getting trapped in the gap between the rotating platform and the outer rim, resulting in two finger crushing injuries."
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "Playdale Playgrounds LTD, of United Kingdom"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available through factory representatives directly to municipalities, schools, and churches from April 2019 until October 2024, priced between $11,900 and $14,550."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "BCI Burke Company Inc., of Fond Du Lac, Wisconsin"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "United Kingdom"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Crush hazard due to a gap between the rotating platform and the stationary outer rim."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Immediately cease use of the recalled merry-go-rounds and consult the equipment owner, such as a park director or school principal, to check if the equipment has been inspected and repaired. Contact BCI Burke to arrange for an inspection and free onsite repair."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "560-0042",
+        "560-0051"
+      ],
+      "slug": "bci-burke-recalls-inclusive-orbit-playground-merry-go-rounds-due-to-crush-hazard-recall",
+      "metaDescription": "BCI Burke recalls Inclusive Orbit merry-go-rounds due to crush hazards. Learn how to check your unit and arrange repairs.",
+      "languages": {
+        "en": {
+          "Title": "BCI Burke Recalls Inclusive Orbit Playground Merry-Go-Rounds Due to Crush Hazard",
+          "Description": "BCI Burke is recalling the Inclusive Orbit, a spinning playground component resembling a merry-go-round. This product features three handrails and a seating capacity for six children, with a platform that is level with the surrounding ground. The affected model numbers are 560-0042 and 560-0051. Owners can reach out to BCI Burke to verify if their unit is part of the recall.",
+          "ConsumerContact": "For assistance, contact BCI Burke Company at 800-266-1250 from 7:30 a.m. to 4:30 p.m. CT, Monday through Friday, email orbit@bciburke.com, or visit https://www.bciburke.com/recall for further details.",
+          "metaDescription": "BCI Burke recalls Inclusive Orbit merry-go-rounds due to crush hazards. Learn how to check your unit and arrange repairs.",
+          "Products": [
+            {
+              "Name": "Inclusive Orbit Playground Merry-Go-Round",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 415 (In addition, about 6 were sold in Canada)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled Inclusive Orbit merry-go-round"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "The firm has received reports of two incidents of fingers getting trapped in the gap between the rotating platform and the outer rim, resulting in two finger crushing injuries."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Available through factory representatives directly to municipalities, schools, and churches from April 2019 until October 2024, priced between $11,900 and $14,550."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "BCI Burke Company Inc., of Fond Du Lac, Wisconsin"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Playdale Playgrounds LTD, of United Kingdom"
+            }
+          ],
+          "SoldAtLabel": "Sold At",
+          "ManufacturerCountries": [
+            {
+              "Country": "United Kingdom"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Crush hazard due to a gap between the rotating platform and the stationary outer rim."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Immediately cease use of the recalled merry-go-rounds and consult the equipment owner, such as a park director or school principal, to check if the equipment has been inspected and repaired. Contact BCI Burke to arrange for an inspection and free onsite repair."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Repair"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "BCI Burke recuerda los carruseles inclusivos Orbit del parque infantil debido a un riesgo de aplastamiento",
+          "Description": "BCI Burke está recordando el Orbit Inclusivo, un componente giratorio del parque infantil que se asemeja a un carrusel. Este producto cuenta con tres pasamanos y una capacidad de asientos para seis niños, con una plataforma que está al nivel del suelo circundante. Los números de modelo afectados son 560-0042 y 560-0051. Los propietarios pueden comunicarse con BCI Burke para verificar si su unidad es parte del retiro.",
+          "ConsumerContact": "Para asistencia, comuníquese con BCI Burke Company al 800-266-1250 de 7:30 a.m. a 4:30 p.m. CT, de lunes a viernes, envíe un correo electrónico a orbit@bciburke.com, o visite https://www.bciburke.com/recall para más detalles.",
+          "metaDescription": "BCI Burke retira los carruseles Orbit inclusivos debido a riesgos de aplastamiento. Aprenda cómo verificar su unidad y organizar reparaciones.",
+          "Products": [
+            {
+              "Name": "Carrusel Inclusivo Orbit del parque infantil",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 415 (Además, se vendieron aproximadamente 6 en Canadá)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Carrusel Orbit inclusivo retirado"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "La empresa ha recibido informes de dos incidentes de dedos atrapados en el espacio entre la plataforma giratoria y el borde exterior, resultando en dos lesiones por aplastamiento de dedos."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible a través de representantes de fábrica directamente a municipios, escuelas y iglesias desde abril de 2019 hasta octubre de 2024, con precios entre $11,900 y $14,550."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "BCI Burke Company Inc., de Fond Du Lac, Wisconsin"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Playdale Playgrounds LTD, del Reino Unido"
+            }
+          ],
+          "SoldAtLabel": "Vendidos en",
+          "ManufacturerCountries": [
+            {
+              "Country": "Reino Unido"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Riesgo de aplastamiento debido a un espacio entre la plataforma giratoria y el borde exterior estacionario."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Cese inmediatamente el uso de los carruseles retirados y consulte al propietario del equipo, como un director de parque o un director de escuela, para verificar si el equipo ha sido inspeccionado y reparado. Comuníquese con BCI Burke para organizar una inspección y reparación gratuita en el sitio."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparar"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "شركة BCI Burke تستدعي دواليب اللعب الدوارة الشاملة بسبب خطر السحق",
+          "Description": "تقوم شركة BCI Burke باستدعاء دواليب اللعب الدوارة الشاملة، وهي مكون دوار في الملعب يشبه دولاب الهواء. يتميز هذا المنتج بثلاثة درابزين وسعة جلوس لستة أطفال، مع منصة مستوية مع الأرض المحيطة. أرقام الطراز المتأثرة هي 560-0042 و 560-0051. يمكن للمالكين التواصل مع شركة BCI Burke للتحقق مما إذا كانت وحدتهم جزءًا من الاستدعاء.",
+          "ConsumerContact": "للمساعدة، اتصل بشركة BCI Burke على الرقم 800-266-1250 من الساعة 7:30 صباحًا حتى 4:30 مساءً بتوقيت وسط أمريكا، من الاثنين إلى الجمعة، أو أرسل بريدًا إلكترونيًا إلى orbit@bciburke.com، أو قم بزيارة https://www.bciburke.com/recall لمزيد من التفاصيل.",
+          "metaDescription": "شركة BCI Burke تستدعي دواليب اللعب الدوارة الشاملة بسبب مخاطر السحق. تعرف على كيفية التحقق من وحدتك وترتيب الإصلاحات.",
+          "Products": [
+            {
+              "Name": "دولاب اللعب الدوار الشامل",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 415 (بالإضافة إلى حوالي 6 تم بيعها في كندا)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "دولاب اللعب الدوار الشامل المستدعى"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "تلقت الشركة تقارير عن حادثتين تم فيها احتجاز أصابع في الفجوة بين المنصة الدوارة والحافة الخارجية، مما أدى إلى إصابتين بسحق الأصابع."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "متاح من خلال ممثلي المصنع مباشرة للبلديات والمدارس والكنائس من أبريل 2019 حتى أكتوبر 2024، بسعر يتراوح بين 11,900 دولار و 14,550 دولار."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "شركة BCI Burke Inc.، من فوند دو لاك، ويسكونسن"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Playdale Playgrounds LTD، من المملكة المتحدة"
+            }
+          ],
+          "SoldAtLabel": "تم البيع في",
+          "ManufacturerCountries": [
+            {
+              "Country": "المملكة المتحدة"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "خطر السحق بسبب الفجوة بين المنصة الدوارة والحافة الخارجية الثابتة."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "توقف عن استخدام دواليب اللعب الدوارة المستدعاة على الفور واستشر مالك المعدات، مثل مدير الحديقة أو مدير المدرسة، للتحقق مما إذا كانت المعدات قد تم فحصها وإصلاحها. اتصل بشركة BCI Burke لترتيب فحص وإصلاح مجاني في الموقع."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "إصلاح"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "BCI Burke召回包容性轨道游乐场旋转木马因压伤危险",
+          "Description": "BCI Burke正在召回包容性轨道，这是一种旋转的游乐场组件，类似于旋转木马。该产品设有三个扶手，能够容纳六名儿童，平台与周围地面平齐。受影响的型号为560-0042和560-0051。业主可以联系BCI Burke以确认他们的设备是否在召回范围内。",
+          "ConsumerContact": "如需帮助，请联系BCI Burke公司，电话800-266-1250，工作时间为周一至周五中部时间上午7:30至下午4:30，电子邮件orbit@bciburke.com，或访问https://www.bciburke.com/recall以获取更多详情。",
+          "metaDescription": "BCI Burke因压伤危险召回包容性轨道旋转木马。了解如何检查您的设备并安排维修。",
+          "Products": [
+            {
+              "Name": "包容性轨道游乐场旋转木马",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约415台（此外，约6台在加拿大销售）"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "召回的包容性轨道旋转木马"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "公司已收到两起手指被困在旋转平台与外缘之间缝隙中的报告，导致两起手指压伤事故。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "通过工厂代表直接向市政当局、学校和教堂销售，销售时间为2019年4月至2024年10月，价格在$11,900至$14,550之间。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "位于威斯康星州丰杜拉克的BCI Burke公司"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "位于英国的Playdale Playgrounds LTD"
+            }
+          ],
+          "SoldAtLabel": "销售地点",
+          "ManufacturerCountries": [
+            {
+              "Country": "英国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "由于旋转平台与固定外缘之间的缝隙造成的压伤危险。"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "立即停止使用召回的旋转木马，并咨询设备所有者，如公园主任或学校校长，检查设备是否已被检查和修理。联系BCI Burke安排检查和免费的现场维修。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "维修"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "BCI Burke rappelle les manèges inclusifs Orbit en raison d'un risque d'écrasement",
+          "Description": "BCI Burke rappelle l'Inclusive Orbit, un composant de terrain de jeu tournant ressemblant à un manège. Ce produit dispose de trois rampes et d'une capacité d'accueil de six enfants, avec une plateforme au même niveau que le sol environnant. Les numéros de modèle concernés sont 560-0042 et 560-0051. Les propriétaires peuvent contacter BCI Burke pour vérifier si leur unité fait partie du rappel.",
+          "ConsumerContact": "Pour assistance, contactez BCI Burke Company au 800-266-1250 de 7h30 à 16h30 CT, du lundi au vendredi, par email à orbit@bciburke.com, ou visitez https://www.bciburke.com/recall pour plus de détails.",
+          "metaDescription": "BCI Burke rappelle des manèges inclusifs Orbit en raison de risques d'écrasement. Apprenez à vérifier votre unité et à organiser des réparations.",
+          "Products": [
+            {
+              "Name": "Manège inclusif Orbit",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 415 (De plus, environ 6 ont été vendus au Canada)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Manège inclusif Orbit rappelé"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "La société a reçu des rapports de deux incidents où des doigts se sont retrouvés coincés dans l'espace entre la plateforme tournante et le bord extérieur, entraînant deux blessures par écrasement des doigts."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible par l'intermédiaire de représentants d'usine directement aux municipalités, écoles et églises d'avril 2019 à octobre 2024, au prix compris entre 11 900 $ et 14 550 $."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "BCI Burke Company Inc., de Fond Du Lac, Wisconsin"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Playdale Playgrounds LTD, du Royaume-Uni"
+            }
+          ],
+          "SoldAtLabel": "Vendu À",
+          "ManufacturerCountries": [
+            {
+              "Country": "Royaume-Uni"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risque d'écrasement en raison d'un espace entre la plateforme tournante et le bord extérieur fixe."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Cesser immédiatement l'utilisation des manèges rappelés et consulter le propriétaire de l'équipement, tel qu'un directeur de parc ou un principal d'école, pour vérifier si l'équipement a été inspecté et réparé. Contacter BCI Burke pour organiser une inspection et une réparation gratuite sur site."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Réparation"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "BCI Burke ruft inklusive Orbit-Spielplatz-Wippgeräte aufgrund von Quetschgefahr zurück",
+          "Description": "BCI Burke ruft das inklusive Orbit, ein drehendes Spielplatzkomponente, das einem Wippgerät ähnelt, zurück. Dieses Produkt verfügt über drei Handläufe und eine Sitzkapazität für sechs Kinder, mit einer Plattform, die auf gleicher Höhe mit dem umgebenden Boden ist. Die betroffenen Modellnummern sind 560-0042 und 560-0051. Eigentümer können sich an BCI Burke wenden, um zu überprüfen, ob ihre Einheit Teil des Rückrufs ist.",
+          "ConsumerContact": "Für Unterstützung kontaktieren Sie die BCI Burke Company unter 800-266-1250 von 7:30 bis 16:30 Uhr CT, Montag bis Freitag, per E-Mail an orbit@bciburke.com oder besuchen Sie https://www.bciburke.com/recall für weitere Details.",
+          "metaDescription": "BCI Burke ruft inklusive Orbit-Wippgeräte aufgrund von Quetschgefahren zurück. Erfahren Sie, wie Sie Ihre Einheit überprüfen und Reparaturen arrangieren können.",
+          "Products": [
+            {
+              "Name": "Inklusives Orbit-Spielplatz-Wippgerät",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 415 (Zusätzlich wurden etwa 6 in Kanada verkauft)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Zurückgerufenes inklusives Orbit-Wippgerät"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Das Unternehmen hat Berichte über zwei Vorfälle erhalten, bei denen Finger in der Lücke zwischen der drehenden Plattform und dem äußeren Rand eingeklemmt wurden, was zu zwei Quetschverletzungen der Finger führte."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Verfügbar über Werksvertreter direkt an Gemeinden, Schulen und Kirchen von April 2019 bis Oktober 2024, preislich zwischen 11.900 und 14.550 US-Dollar."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "BCI Burke Company Inc., aus Fond Du Lac, Wisconsin"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Playdale Playgrounds LTD, aus dem Vereinigten Königreich"
+            }
+          ],
+          "SoldAtLabel": "Verkauft Bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "Vereinigtes Königreich"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Quetschgefahr aufgrund einer Lücke zwischen der drehenden Plattform und dem stationären äußeren Rand."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Verwenden Sie die zurückgerufenen Wippgeräte sofort nicht mehr und konsultieren Sie den Gerätebesitzer, wie einen Parkdirektor oder Schulleiter, um zu überprüfen, ob die Ausrüstung inspiziert und repariert wurde. Kontaktieren Sie BCI Burke, um eine Inspektion und kostenlose Vor-Ort-Reparatur zu arrangieren."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparatur"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "BCI Burkeが圧迫の危険性によりインクルーシブオービット遊具メリーゴーラウンドをリコール",
+          "Description": "BCI Burkeは、メリーゴーラウンドに似た回転式遊具コンポーネントであるインクルーシブオービットをリコールしています。この製品は、3つの手すりと6人の子供が座れる座席を備えており、周囲の地面と平らなプラットフォームを持っています。影響を受けるモデル番号は560-0042と560-0051です。所有者は、BCI Burkeに連絡して自分のユニットがリコールの対象かどうかを確認できます。",
+          "ConsumerContact": "サポートが必要な場合は、BCI Burke Companyに電話800-266-1250（中央標準時の月曜日から金曜日の午前7時30分から午後4時30分まで）で連絡するか、メールorbit@bciburke.comに送信するか、詳細についてはhttps://www.bciburke.com/recallを訪れてください。",
+          "metaDescription": "BCI Burkeが圧迫の危険性によりインクルーシブオービットメリーゴーラウンドをリコールしています。ユニットを確認し、修理を手配する方法を学びましょう。",
+          "Products": [
+            {
+              "Name": "インクルーシブオービット遊具メリーゴーラウンド",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約415台（さらに、約6台がカナダで販売されました）"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコールされたインクルーシブオービットメリーゴーラウンド"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "同社は、回転プラットフォームと外周の間の隙間に指が挟まる2件の事故の報告を受けており、2件の指の圧迫傷害が発生しています。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "2019年4月から2024年10月まで、工場の代表者を通じて自治体、学校、教会に直接販売され、価格は11,900ドルから14,550ドルの間です。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "ウィスコンシン州フォン・デュ・ラックのBCI Burke Company Inc."
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "イギリスのPlaydale Playgrounds LTD"
+            }
+          ],
+          "SoldAtLabel": "販売場所",
+          "ManufacturerCountries": [
+            {
+              "Country": "イギリス"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "回転プラットフォームと固定された外周の間の隙間による圧迫の危険性。"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "リコールされたメリーゴーラウンドの使用を直ちに中止し、公園のディレクターや学校の校長などの機器所有者に相談して、機器が検査され修理されたかどうかを確認してください。BCI Burkeに連絡して、検査と無料の現地修理を手配してください。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "修理"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "BCI Burke Recalls Merry-Go-Rounds Inclusivos Orbit devido ao Risco de Esmagamento",
+          "Description": "A BCI Burke está recolhendo o Orbit Inclusivo, um componente giratório de playground que se assemelha a um carrossel. Este produto possui três corrimãos e capacidade para seis crianças, com uma plataforma que está nivelada com o solo ao redor. Os números dos modelos afetados são 560-0042 e 560-0051. Os proprietários podem entrar em contato com a BCI Burke para verificar se sua unidade faz parte do recall.",
+          "ConsumerContact": "Para assistência, entre em contato com a BCI Burke Company pelo telefone 800-266-1250 das 7:30 às 16:30 CT, de segunda a sexta-feira, envie um e-mail para orbit@bciburke.com ou visite https://www.bciburke.com/recall para mais detalhes.",
+          "metaDescription": "A BCI Burke recolhe carrosséis Inclusivos Orbit devido a riscos de esmagamento. Aprenda como verificar sua unidade e organizar reparos.",
+          "Products": [
+            {
+              "Name": "Carrossel Inclusivo Orbit",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 415 (Além disso, cerca de 6 foram vendidos no Canadá)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Carrossel Orbit recolhido"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "A empresa recebeu relatos de dois incidentes de dedos ficando presos na fenda entre a plataforma giratória e a borda externa, resultando em duas lesões por esmagamento de dedos."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponível através de representantes da fábrica diretamente para municípios, escolas e igrejas de abril de 2019 até outubro de 2024, com preços entre $11,900 e $14,550."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "BCI Burke Company Inc., de Fond Du Lac, Wisconsin"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Playdale Playgrounds LTD, do Reino Unido"
+            }
+          ],
+          "SoldAtLabel": "Vendido Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "Reino Unido"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risco de esmagamento devido a uma fenda entre a plataforma giratória e a borda externa estacionária."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Cessar imediatamente o uso dos carrosséis recolhidos e consultar o proprietário do equipamento, como um diretor de parque ou diretor de escola, para verificar se o equipamento foi inspecionado e reparado. Entre em contato com a BCI Burke para organizar uma inspeção e reparo gratuito no local."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparo"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "BCI बर्क ने क्रश खतरे के कारण इंक्लूसिव ऑर्बिट प्लेग्राउंड मैरी-गो-राउंड्स को वापस बुलाया",
+          "Description": "BCI बर्क इंक्लूसिव ऑर्बिट को वापस बुला रहा है, जो एक घूर्णन करने वाला प्लेग्राउंड घटक है जो मैरी-गो-राउंड के समान है। इस उत्पाद में तीन हैंडरेल और छह बच्चों के लिए बैठने की क्षमता है, जिसमें एक प्लेटफॉर्म है जो आसपास की जमीन के स्तर पर है। प्रभावित मॉडल नंबर 560-0042 और 560-0051 हैं। मालिक BCI बर्क से संपर्क कर सकते हैं यह सत्यापित करने के लिए कि उनका यूनिट वापस बुलाए जाने वाले उत्पाद का हिस्सा है।",
+          "ConsumerContact": "सहायता के लिए, BCI बर्क कंपनी से 800-266-1250 पर सुबह 7:30 बजे से शाम 4:30 बजे CT, सोमवार से शुक्रवार, ईमेल orbit@bciburke.com पर संपर्क करें, या आगे की जानकारी के लिए https://www.bciburke.com/recall पर जाएं।",
+          "metaDescription": "BCI बर्क ने क्रश खतरों के कारण इंक्लूसिव ऑर्बिट मैरी-गो-राउंड्स को वापस बुलाया। जानें कि अपने यूनिट की जांच कैसे करें और मरम्मत की व्यवस्था कैसे करें।",
+          "Products": [
+            {
+              "Name": "इंक्लूसिव ऑर्बिट प्लेग्राउंड मैरी-गो-राउंड",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 415 (इसके अतिरिक्त, लगभग 6 कनाडा में बेचे गए)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "वापस बुलाया गया इंक्लूसिव ऑर्बिट मैरी-गो-राउंड"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "कंपनी को घूर्णन करने वाले प्लेटफॉर्म और बाहरी रिम के बीच के गैप में फingers फंसने की दो घटनाओं की रिपोर्ट मिली है, जिसके परिणामस्वरूप दो फिंगर क्रशिंग चोटें हुईं।"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "अप्रैल 2019 से अक्टूबर 2024 तक नगरपालिका, स्कूलों और चर्चों के लिए सीधे फैक्ट्री प्रतिनिधियों के माध्यम से उपलब्ध, कीमत $11,900 से $14,550 के बीच।"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "BCI बर्क कंपनी इंक., फोंड डु लैक, विस्कॉन्सिन"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "प्ले डेल प्लेग्राउंड्स LTD, यूनाइटेड किंगडम"
+            }
+          ],
+          "SoldAtLabel": "बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "यूनाइटेड किंगडम"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "घूर्णन करने वाले प्लेटफॉर्म और स्थिर बाहरी रिम के बीच के गैप के कारण क्रश खतरा।"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "वापस बुलाए गए मैरी-गो-राउंड्स का उपयोग तुरंत बंद करें और उपकरण के मालिक, जैसे पार्क निदेशक या स्कूल के प्रिंसिपल से परामर्श करें, यह जांचने के लिए कि क्या उपकरण का निरीक्षण और मरम्मत की गई है। निरीक्षण और मुफ्त ऑनसाइट मरम्मत की व्यवस्था के लिए BCI बर्क से संपर्क करें।"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "मरम्मत"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "BCI Burke отзывает инклюзивные карусели Inclusive Orbit из-за опасности зажатия",
+          "Description": "BCI Burke отзывает инклюзивный компонент игрового площадки Inclusive Orbit, который представляет собой вращающуюся карусель. Этот продукт имеет три поручня и вмещает шесть детей, с платформой, которая находится на одном уровне с окружающей землей. Затронутые номера моделей: 560-0042 и 560-0051. Владельцы могут обратиться в BCI Burke, чтобы проверить, является ли их устройство частью отзыва.",
+          "ConsumerContact": "Для получения помощи свяжитесь с компанией BCI Burke по телефону 800-266-1250 с 7:30 до 16:30 по центральному времени, с понедельника по пятницу, по электронной почте orbit@bciburke.com или посетите https://www.bciburke.com/recall для получения дополнительной информации.",
+          "metaDescription": "BCI Burke отзывает карусели Inclusive Orbit из-за опасностей зажатия. Узнайте, как проверить ваше устройство и организовать ремонт.",
+          "Products": [
+            {
+              "Name": "Инклюзивная карусель игровой площадки Inclusive Orbit",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 415 (Кроме того, около 6 были проданы в Канаде)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванная карусель Inclusive Orbit"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Компания получила сообщения о двух инцидентах, когда пальцы застревали в зазоре между вращающейся платформой и неподвижным внешним ободом, что привело к двум травмам пальцев."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Доступно через представителей завода напрямую для муниципалитетов, школ и церквей с апреля 2019 года до октября 2024 года, по цене от 11,900 до 14,550 долларов."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "BCI Burke Company Inc., Фонд Дю Лак, Висконсин"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Playdale Playgrounds LTD, Великобритания"
+            }
+          ],
+          "SoldAtLabel": "Продавалось в",
+          "ManufacturerCountries": [
+            {
+              "Country": "Великобритания"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Опасность зажатия из-за зазора между вращающейся платформой и неподвижным внешним ободом."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Немедленно прекратите использование отозванных каруселей и проконсультируйтесь с владельцем оборудования, таким как директор парка или директор школы, чтобы проверить, было ли оборудование проверено и отремонтировано. Свяжитесь с BCI Burke, чтобы организовать проверку и бесплатный ремонт на месте."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Ремонт"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "BCI Burke thu hồi các vòng xoay sân chơi Inclusive Orbit do nguy cơ bị kẹt",
+          "Description": "BCI Burke đang thu hồi sản phẩm Inclusive Orbit, một thành phần sân chơi xoay giống như vòng xoay. Sản phẩm này có ba tay vịn và sức chứa cho sáu trẻ em, với một nền tảng bằng phẳng với mặt đất xung quanh. Các số mô hình bị ảnh hưởng là 560-0042 và 560-0051. Chủ sở hữu có thể liên hệ với BCI Burke để xác minh xem đơn vị của họ có nằm trong danh sách thu hồi hay không.",
+          "ConsumerContact": "Để được hỗ trợ, hãy liên hệ với Công ty BCI Burke qua số 800-266-1250 từ 7:30 sáng đến 4:30 chiều CT, từ thứ Hai đến thứ Sáu, email orbit@bciburke.com, hoặc truy cập https://www.bciburke.com/recall để biết thêm chi tiết.",
+          "metaDescription": "BCI Burke thu hồi các vòng xoay Inclusive Orbit do nguy cơ bị kẹt. Tìm hiểu cách kiểm tra đơn vị của bạn và sắp xếp sửa chữa.",
+          "Products": [
+            {
+              "Name": "Vòng xoay sân chơi Inclusive Orbit",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 415 (Ngoài ra, khoảng 6 chiếc đã được bán ở Canada)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Vòng xoay Inclusive Orbit bị thu hồi"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Công ty đã nhận được báo cáo về hai sự cố ngón tay bị kẹt trong khoảng trống giữa nền tảng xoay và vành ngoài, dẫn đến hai chấn thương ngón tay bị kẹt."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Có sẵn thông qua các đại diện nhà máy trực tiếp đến các chính quyền địa phương, trường học và nhà thờ từ tháng 4 năm 2019 đến tháng 10 năm 2024, với giá từ 11.900 đến 14.550 đô la."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Công ty BCI Burke Inc., ở Fond Du Lac, Wisconsin"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Playdale Playgrounds LTD, của Vương quốc Anh"
+            }
+          ],
+          "SoldAtLabel": "Bán Tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Vương quốc Anh"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Nguy cơ bị kẹt do khoảng trống giữa nền tảng xoay và vành ngoài cố định."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Ngừng ngay việc sử dụng các vòng xoay bị thu hồi và tham khảo ý kiến của chủ sở hữu thiết bị, chẳng hạn như giám đốc công viên hoặc hiệu trưởng trường học, để kiểm tra xem thiết bị đã được kiểm tra và sửa chữa chưa. Liên hệ với BCI Burke để sắp xếp kiểm tra và sửa chữa miễn phí tại chỗ."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Sửa chữa"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    }
+  ]
+}
