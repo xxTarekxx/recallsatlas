@@ -1,6 +1,7 @@
-import AboutPageContent from "@/components/AboutPageContent";
-import type { Metadata } from "next";
+import GeneralRecallsSearchPage from "@/components/general-recalls/GeneralRecallsSearchPage";
+import { HOME_COPY } from "@/lib/homeCopy";
 import { isSiteUiLang, type SiteUiLang } from "@/lib/siteLocale";
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.recallsatlas.com";
@@ -12,18 +13,27 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   if (!isSiteUiLang(params.lang) || params.lang === "en") notFound();
   const lang = params.lang as SiteUiLang;
-  const canonical = `${siteUrl}/${lang}/about`;
+  const t = HOME_COPY[lang];
+  const canonical = `${siteUrl}/${lang}/general-recalls`;
   return {
-    title: "About Recalls Atlas – FDA, NHTSA & CPSC Recall Information",
+    title: t.generalTitle,
+    description: t.generalBody,
     alternates: { canonical },
   };
 }
 
-export default function LocalizedAboutPage({
+export default function LangGeneralRecallsIndexPage({
   params,
+  searchParams,
 }: {
   params: { lang: string };
+  searchParams: { q?: string };
 }) {
   if (!isSiteUiLang(params.lang) || params.lang === "en") notFound();
-  return <AboutPageContent lang={params.lang as SiteUiLang} />;
+  return (
+    <GeneralRecallsSearchPage
+      lang={params.lang as SiteUiLang}
+      initialQuery={searchParams?.q}
+    />
+  );
 }

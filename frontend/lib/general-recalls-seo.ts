@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import type { GeneralRecall } from "./general-recalls-data";
-import { getGeneralRecallSlug } from "./general-recalls-data";
+import { getGeneralRecallSlug, mergeGeneralRecallForUiLang } from "./general-recalls-data";
 import { isSiteUiLang, withLocalePath, type SiteUiLang } from "./siteLocale";
 
 const SITE = "https://www.recallsatlas.com";
@@ -44,8 +44,9 @@ export function buildGeneralRecallMetadata(
   }
 
   const uiLang: SiteUiLang = isSiteUiLang(lang) ? lang : "en";
-  const titleText = recall.Title?.trim() || "Product recall";
-  const description = recallDescriptionForMeta(recall);
+  const display = mergeGeneralRecallForUiLang(recall, uiLang);
+  const titleText = display.Title?.trim() || "Product recall";
+  const description = recallDescriptionForMeta(display);
   const canonical = `${SITE}${canonicalPathForLang(slug, uiLang)}`;
   const ogImage = absoluteOgImageFromRecall(recall);
 

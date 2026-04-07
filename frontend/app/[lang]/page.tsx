@@ -15,7 +15,7 @@ export async function generateMetadata({
   const lang = params.lang as SiteUiLang;
   const canonical = `${siteUrl}/${lang}`;
   return {
-    title: "Recalls Atlas | FDA & NHTSA Recall Search",
+    title: "Recalls Atlas | FDA, NHTSA & CPSC Recall Search",
     alternates: { canonical },
     openGraph: { url: canonical },
   };

@@ -2,9 +2,9 @@ import AboutPageContent from "@/components/AboutPageContent";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About Recalls Atlas – Independent FDA Recall Aggregator",
+  title: "About Recalls Atlas – FDA, NHTSA & CPSC Recall Information",
   description:
-    "Recalls Atlas is an independent aggregator of FDA and NHTSA recall data. Learn about our mission, data sources, and how to contact us.",
+    "Recalls Atlas aggregates public recall data from the FDA, NHTSA, and CPSC. Learn about our mission, sources, disclaimers, and how to contact us.",
   alternates: { canonical: "https://www.recallsatlas.com/about" },
 };
 

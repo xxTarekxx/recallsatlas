@@ -14,6 +14,7 @@ export default function HomePageContent({ lang, recallsCountText }: Props) {
   const fb = getRecallsFilterBarUi(lang);
   const recallsAction = withLangPath("/recalls", lang);
   const carsHref = withLangPath("/cars", lang);
+  const generalHref = withLangPath("/general-recalls", lang);
   const heroDir = isRtlUiLang(lang) ? "rtl" : "ltr";
 
   return (
@@ -31,6 +32,13 @@ export default function HomePageContent({ lang, recallsCountText }: Props) {
                 aria-hidden="true"
               />
               {t.badgeNhtsa}
+            </div>
+            <div className="home-hero-badge home-hero-badge--cpsc" aria-label="CPSC">
+              <span
+                className="home-hero-badge-dot home-hero-badge-dot--cpsc"
+                aria-hidden="true"
+              />
+              {t.badgeCpsc}
             </div>
           </div>
 
@@ -51,6 +59,12 @@ export default function HomePageContent({ lang, recallsCountText }: Props) {
             </span>
             <Link className="home-hero-quick-link" href={carsHref}>
               {t.heroQuickVehicle}
+            </Link>
+            <span className="home-hero-quick-sep" aria-hidden="true">
+              ·
+            </span>
+            <Link className="home-hero-quick-link" href={generalHref}>
+              {t.heroQuickGeneral}
             </Link>
           </div>
 
@@ -79,8 +93,8 @@ export default function HomePageContent({ lang, recallsCountText }: Props) {
               <span className="home-stat-label">{t.statRecalls}</span>
             </div>
             <div className="home-stat">
-              <span className="home-stat-value">FDA</span>
-              <span className="home-stat-label">{t.statSource}</span>
+              <span className="home-stat-value">{t.statSourcesValue}</span>
+              <span className="home-stat-label">{t.statSources}</span>
             </div>
             <div className="home-stat" title="More than 11 languages">
               <span className="home-stat-value">11+</span>
@@ -130,6 +144,21 @@ export default function HomePageContent({ lang, recallsCountText }: Props) {
             <p>{t.vehicleBody}</p>
             <span className="home-category-pill" aria-hidden="true">
               {t.vehicleCta}
+            </span>
+          </Link>
+
+          <Link
+            href={generalHref}
+            className="home-category-card"
+            aria-label={t.generalTitle}
+          >
+            <span className="home-category-icon home-category-icon--cpsc" aria-hidden="true">
+              CPSC
+            </span>
+            <h3>{t.generalTitle}</h3>
+            <p>{t.generalBody}</p>
+            <span className="home-category-pill" aria-hidden="true">
+              {t.generalCta}
             </span>
           </Link>
         </div>

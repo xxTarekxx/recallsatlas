@@ -2,19 +2,21 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { FOOTER_COPY } from "@/lib/footerCopy";
 import { parseLangFromPathname, withLangPath } from "@/lib/siteLocale";
 
 export default function SiteFooter() {
   const year = new Date().getFullYear();
   const pathname = usePathname() || "/";
   const lang = parseLangFromPathname(pathname);
+  const t = FOOTER_COPY[lang];
   const aboutHref = withLangPath("/about", lang);
   const privacyHref = withLangPath("/privacy", lang);
 
   return (
     <footer className="site-footer">
       <p className="site-footer-copy">
-        &copy; {year} Recalls Atlas. Recall data aggregated for public use.
+        &copy; {year} Recalls Atlas. {t.copyright}
       </p>
       <nav className="site-footer-nav" aria-label="Footer navigation">
         <Link href={aboutHref} className="site-footer-link">
@@ -36,32 +38,10 @@ export default function SiteFooter() {
           Contact
         </a>
       </nav>
-      <p className="site-footer-disclaimer">
-        All recall information on recallsatlas.com is aggregated from the U.S.
-        Food &amp; Drug Administration (FDA) and the National Highway Traffic
-        Safety Administration (NHTSA) and is provided for informational purposes
-        only. Recalls Atlas is not affiliated with or endorsed by the FDA or
-        NHTSA. Any translations are AI-generated and may not be 100% accurate —
-        always verify recall details directly with the official source. To
-        confirm recall information, contact the FDA at{" "}
-        <a
-          href="tel:+18884636332"
-          className="site-footer-link"
-        >
-          888-463-6332
-        </a>{" "}
-        or visit{" "}
-        <a
-          href="https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="site-footer-link"
-        >
-          FDA.gov
-        </a>
-        . Recalls Atlas is not responsible for any decisions made based on
-        information found on this site.
-      </p>
+      <div className="site-footer-disclaimer">
+        <p>{t.disclaimerP1}</p>
+        <p>{t.disclaimerP2}</p>
+      </div>
     </footer>
   );
 }

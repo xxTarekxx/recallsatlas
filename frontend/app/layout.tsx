@@ -16,11 +16,11 @@ const inter = Inter({ subsets: ["latin"], display: "swap" });
 
 export const metadata: Metadata = {
   title: {
-    default: "Recalls Atlas | FDA & NHTSA Recall Search",
+    default: "Recalls Atlas | FDA, NHTSA & CPSC Recall Search",
     template: "%s | Recalls Atlas",
   },
   description:
-    "Search and browse U.S. FDA and NHTSA recalls with plain-language summaries and links to official government notices.",
+    "Search and browse U.S. FDA, NHTSA, and CPSC recalls with plain-language summaries and links to official government notices.",
   metadataBase: new URL(siteUrl),
   icons: {
     icon: [{ url: BRAND_FAVICON_WEBP, type: "image/webp", sizes: "any" }],
@@ -31,9 +31,9 @@ export const metadata: Metadata = {
     follow: true,
   },
   openGraph: {
-    title: "Recalls Atlas | FDA & NHTSA Recall Search",
+    title: "Recalls Atlas | FDA, NHTSA & CPSC Recall Search",
     description:
-      "Search and browse U.S. FDA and NHTSA recalls with plain-language summaries and links to official government notices.",
+      "Search and browse U.S. FDA, NHTSA, and CPSC recalls with plain-language summaries and links to official government notices.",
     url: siteUrl,
     siteName: "Recalls Atlas",
     type: "website",

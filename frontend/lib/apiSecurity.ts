@@ -35,6 +35,14 @@ const ROUTES: Record<string, LimitConfig> = {
     max: Math.max(1, parseInt(process.env.RATE_LIMIT_RECALLS_JSON_MAX || "12", 10) || 12),
     windowMs: 60_000,
   },
+  "general-recalls-list": {
+    max: Math.max(1, parseInt(process.env.RATE_LIMIT_GENERAL_RECALLS_LIST_MAX || "150", 10) || 150),
+    windowMs: 60_000,
+  },
+  "general-recalls-suggest": {
+    max: Math.max(1, parseInt(process.env.RATE_LIMIT_GENERAL_RECALLS_SUGGEST_MAX || "100", 10) || 100),
+    windowMs: 60_000,
+  },
 };
 
 const DEFAULT_API: LimitConfig = {

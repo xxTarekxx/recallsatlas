@@ -1,7 +1,11 @@
 import Link from "next/link";
-import Image from "next/image";
+import RecallDetailImageSlider from "@/components/fda/RecallDetailImageSlider";
 import type { GeneralRecall } from "@/lib/general-recalls-data";
+import { getGeneralRecallContentDir, mergeGeneralRecallForUiLang } from "@/lib/general-recalls-data";
+import { GENERAL_RECALL_DETAIL_SECTIONS_UI } from "@/lib/generalRecallDetailSectionsUi";
 import { withLangPath, type SiteUiLang } from "@/lib/siteLocale";
+
+const listStyle = { paddingInlineStart: "1.25rem", color: "#334155" } as const;
 
 type Props = {
   recall: GeneralRecall;
@@ -9,8 +13,12 @@ type Props = {
 };
 
 export default function GeneralRecallDetail({ recall, lang }: Props) {
-  const title = recall.Title || "Product recall";
+  const r = mergeGeneralRecallForUiLang(recall, lang);
+  const contentDir = getGeneralRecallContentDir(recall, lang);
+  const sec = GENERAL_RECALL_DETAIL_SECTIONS_UI[lang] ?? GENERAL_RECALL_DETAIL_SECTIONS_UI.en;
+  const title = r.Title || "Product recall";
   const cpscUrl = typeof recall.URL === "string" ? recall.URL : "";
+  const localImages = r.Images?.filter((im) => im.URL?.startsWith("/images/")) ?? [];
 
   return (
     <div className="recall-detail-page">
@@ -23,7 +31,7 @@ export default function GeneralRecallDetail({ recall, lang }: Props) {
       </header>
 
       <main className="recall-detail-main">
-        <article className="recall-detail-article">
+        <article className="recall-detail-article" dir={contentDir} lang={lang}>
           <div className="recall-detail-hero">
             <span className="recall-detail-badge">CPSC product recall</span>
             {recall.RecallNumber && (
@@ -41,9 +49,9 @@ export default function GeneralRecallDetail({ recall, lang }: Props) {
           </div>
 
           <div style={{ padding: "var(--spacing-lg)" }}>
-            {recall.Description && (
+            {r.Description && (
               <section style={{ marginBottom: "1.5rem" }}>
-                {recall.Description.split(/\n\n+/).map((para, i) => (
+                {r.Description.split(/\n\n+/).map((para, i) => (
                   <p key={i} style={{ lineHeight: 1.6, marginBottom: "1rem", color: "#334155" }}>
                     {para}
                   </p>
@@ -51,82 +59,82 @@ export default function GeneralRecallDetail({ recall, lang }: Props) {
               </section>
             )}
 
-            {recall.Products && recall.Products.length > 0 && (
+            {r.Products && r.Products.length > 0 && (
               <section style={{ marginBottom: "1.5rem" }}>
-                <h2 style={{ fontSize: "1.1rem", marginBottom: "0.75rem" }}>Products</h2>
-                <ul style={{ paddingLeft: "1.25rem", color: "#334155" }}>
-                  {recall.Products.map((p, i) => (
+                <h2 style={{ fontSize: "1.1rem", marginBottom: "0.75rem" }}>{sec.products}</h2>
+                <ul style={listStyle}>
+                  {r.Products.map((p, i) => (
                     <li key={i} style={{ marginBottom: "0.35rem" }}>
-                      <strong>{p.Name || "Product"}</strong>
+                      <strong>{p.Name || sec.productFallback}</strong>
                       {p.NumberOfUnits && ` — ${p.NumberOfUnits}`}
-                      {p.Model && ` (Model: ${p.Model})`}
+                      {p.Model && ` (${sec.modelPrefix}${p.Model})`}
                     </li>
                   ))}
                 </ul>
               </section>
             )}
 
-            {recall.Images && recall.Images.some((im) => im.URL?.startsWith("/images/")) && (
+            {localImages.length > 0 && (
               <section style={{ marginBottom: "1.5rem" }}>
-                <h2 style={{ fontSize: "1.1rem", marginBottom: "0.75rem" }}>Images</h2>
-                <div style={{ display: "flex", flexWrap: "wrap", gap: "1rem" }}>
-                  {recall.Images.filter((im) => im.URL?.startsWith("/images/")).map((im, i) => (
-                    <figure key={i} style={{ margin: 0, maxWidth: "280px" }}>
-                      <Image
-                        src={im.URL!}
-                        alt={im.Caption || title}
-                        width={280}
-                        height={280}
-                        style={{ width: "100%", height: "auto", borderRadius: 8 }}
-                      />
-                      {im.Caption && (
-                        <figcaption style={{ fontSize: "0.8rem", color: "#64748b", marginTop: "0.35rem" }}>
-                          {im.Caption}
-                        </figcaption>
-                      )}
-                    </figure>
-                  ))}
-                </div>
+                <h2 style={{ fontSize: "1.1rem", marginBottom: "0.75rem" }}>{sec.images}</h2>
+                <RecallDetailImageSlider
+                  imageUrls={localImages.map((im) => im.URL!)}
+                  alt={title}
+                />
+                {localImages.some((im) => im.Caption) && (
+                  <div style={{ marginTop: "0.75rem", fontSize: "0.875rem", color: "#64748b" }}>
+                    {localImages.length === 1 && localImages[0].Caption ? (
+                      <p style={{ margin: 0 }}>{localImages[0].Caption}</p>
+                    ) : (
+                      <ul style={{ margin: 0, paddingInlineStart: "1.25rem" }}>
+                        {localImages.map(
+                          (im, i) =>
+                            im.Caption && <li key={i}>{im.Caption}</li>
+                        )}
+                      </ul>
+                    )}
+                  </div>
+                )}
               </section>
             )}
 
-            {recall.Hazards && recall.Hazards.length > 0 && (
+            {r.Hazards && r.Hazards.length > 0 && (
               <section style={{ marginBottom: "1.5rem" }}>
-                <h2 style={{ fontSize: "1.1rem", marginBottom: "0.75rem" }}>Hazards</h2>
-                <ul style={{ paddingLeft: "1.25rem", color: "#334155" }}>
-                  {recall.Hazards.map((h, i) => (
+                <h2 style={{ fontSize: "1.1rem", marginBottom: "0.75rem" }}>{sec.hazards}</h2>
+                <ul style={listStyle}>
+                  {r.Hazards.map((h, i) => (
                     <li key={i}>{h.Name}</li>
                   ))}
                 </ul>
               </section>
             )}
 
-            {recall.Remedies && recall.Remedies.length > 0 && (
+            {r.Remedies && r.Remedies.length > 0 && (
               <section style={{ marginBottom: "1.5rem" }}>
-                <h2 style={{ fontSize: "1.1rem", marginBottom: "0.75rem" }}>Remedy</h2>
-                <ul style={{ paddingLeft: "1.25rem", color: "#334155" }}>
-                  {recall.Remedies.map((r, i) => (
-                    <li key={i}>{r.Name}</li>
+                <h2 style={{ fontSize: "1.1rem", marginBottom: "0.75rem" }}>{sec.remedy}</h2>
+                <ul style={listStyle}>
+                  {r.Remedies.map((rem, i) => (
+                    <li key={i}>{rem.Name}</li>
                   ))}
                 </ul>
               </section>
             )}
 
-            {recall.Retailers && recall.Retailers.length > 0 && (
+            {r.Retailers && r.Retailers.length > 0 && (
               <section style={{ marginBottom: "1.5rem" }}>
-                <h2 style={{ fontSize: "1.1rem", marginBottom: "0.75rem" }}>Sold at</h2>
-                <ul style={{ paddingLeft: "1.25rem", color: "#334155" }}>
-                  {recall.Retailers.map((r, i) => (
-                    <li key={i}>{r.Name}</li>
+                <h2 style={{ fontSize: "1.1rem", marginBottom: "0.75rem" }}>{sec.soldAt}</h2>
+                <ul style={listStyle}>
+                  {r.Retailers.map((ret, i) => (
+                    <li key={i}>{ret.Name}</li>
                   ))}
                 </ul>
               </section>
             )}
 
-            {recall.ConsumerContact && (
+            {r.ConsumerContact && (
               <section style={{ marginBottom: "1.5rem" }}>
-                <h2 style={{ fontSize: "1.1rem", marginBottom: "0.75rem" }}>Consumer contact</h2>
-                <p style={{ lineHeight: 1.6, color: "#334155" }}>{recall.ConsumerContact}</p>
+                <h2 style={{ fontSize: "1.1rem", marginBottom: "0.75rem" }}>{sec.consumerContact}</h2>
+                <p style={{ lineHeight: 1.6, color: "#334155" }}>{r.ConsumerContact}</p>
               </section>
             )}
 

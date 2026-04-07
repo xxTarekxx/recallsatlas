@@ -132,6 +132,20 @@ export function recallsListPathWithQuery(
   return qs ? `${base}?${qs}` : base;
 }
 
+/** Consumer (CPSC) general-recalls list with optional `q` (and other) query params. */
+export function generalRecallsListPathWithQuery(
+  lang: SiteUiLang,
+  query: Record<string, string | undefined | null>
+): string {
+  const base = withLangPath("/general-recalls", lang);
+  const sp = new URLSearchParams();
+  for (const [k, v] of Object.entries(query)) {
+    if (v != null && String(v).trim() !== "") sp.set(k, String(v).trim());
+  }
+  const qs = sp.toString();
+  return qs ? `${base}?${qs}` : base;
+}
+
 /** Navigate from current pathname to equivalent path in `newLang`. */
 export function pathForLang(pathname: string, newLang: SiteUiLang): string {
   const current = parseLangFromPathname(pathname);

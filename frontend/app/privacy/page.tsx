@@ -5,7 +5,7 @@ import SiteBrandLogoLink from "@/components/SiteBrandLogoLink";
 export const metadata: Metadata = {
   title: "Privacy Policy – Recalls Atlas",
   description:
-    "Recalls Atlas Privacy Policy. Learn how we collect, use, and protect your information when you visit recallsatlas.com.",
+    "Recalls Atlas Privacy Policy: analytics, cookies, and how we handle information when you browse FDA, NHTSA, and CPSC recall content on recallsatlas.com.",
   alternates: { canonical: "https://www.recallsatlas.com/privacy" },
 };
 
@@ -25,9 +25,14 @@ export default function PrivacyPolicyPage() {
 
           <p>
             Recalls Atlas ("we," "us," or "our") operates recallsatlas.com (the
-            "Site"). This Privacy Policy explains what information we collect
-            when you visit the Site, how we use it, and your rights regarding
-            that information. By using the Site you agree to this policy.
+            "Site"), which displays recall information aggregated from public
+            data published by U.S. agencies such as the FDA, NHTSA, and CPSC.
+            Those agencies post recall announcements as a public service and do
+            not endorse any product or company; Recalls Atlas is independent and
+            does not endorse them either. This Privacy Policy explains what
+            information we collect when you visit the Site, how we use it, and
+            your rights regarding that information. By using the Site you agree
+            to this policy.
           </p>
 
           <h2>1. Information We Collect</h2>
@@ -147,9 +152,10 @@ export default function PrivacyPolicyPage() {
 
           <h2>7. Links to External Sites</h2>
           <p>
-            The Site contains links to FDA.gov, NHTSA.gov, and other official
-            government sources. These sites have their own privacy policies and
-            we are not responsible for their content or practices.
+            The Site contains links to official government sources, including
+            FDA.gov, NHTSA.gov, CPSC.gov (and recalls.gov), and similar agency
+            pages. Those sites have their own privacy policies and practices; we
+            are not responsible for their content, cookies, or data collection.
           </p>
 
           <h2>8. Your Rights</h2>

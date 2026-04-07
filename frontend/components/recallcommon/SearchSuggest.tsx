@@ -32,6 +32,8 @@ type SearchSuggestProps = {
   vehicleSearchMeta?: string;
   /** Prefill from `?q=` on the recalls list (server + client navigations). */
   initialQuery?: string;
+  /** Suggestions API (default FDA `/api/recalls/suggest`). */
+  suggestApiPath?: string;
 };
 
 function recallDetailHref(base: string | undefined, slug: string) {
@@ -57,6 +59,7 @@ export default function SearchSuggest({
   vehicleSearchHint,
   vehicleSearchMeta = "VIN · NHTSA",
   initialQuery = "",
+  suggestApiPath = "/api/recalls/suggest",
 }: SearchSuggestProps) {
   const router = useRouter();
   const [q, setQ] = useState(() => String(initialQuery ?? "").trim());
@@ -85,7 +88,10 @@ export default function SearchSuggest({
     const timer = setTimeout(async () => {
       setLoading(true);
       try {
-        const res = await fetch(`/api/recalls/suggest?q=${encodeURIComponent(q)}&limit=8`);
+        const sep = suggestApiPath.includes("?") ? "&" : "?";
+        const res = await fetch(
+          `${suggestApiPath}${sep}q=${encodeURIComponent(q)}&limit=8`
+        );
         const data = await res.json();
         const items = Array.isArray(data?.suggestions) ? data.suggestions : [];
         setSuggestions(items);
@@ -100,7 +106,7 @@ export default function SearchSuggest({
     }, 180);
 
     return () => clearTimeout(timer);
-  }, [q, vehicleSearchUrl]);
+  }, [q, vehicleSearchUrl, suggestApiPath]);
 
   const hostClass = useMemo(
     () => `${wrapperClassName || ""} search-suggest-host`.trim(),
