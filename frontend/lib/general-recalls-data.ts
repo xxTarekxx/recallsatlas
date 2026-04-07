@@ -229,7 +229,7 @@ export function getGeneralRecallSlugDateMap(): Map<string, Date> {
   const map = new Map<string, Date>();
   if (!dir) return map;
   const byDedupe = buildGeneralRecallDedupeMap(dir);
-  for (const { recall: r } of byDedupe.values()) {
+  for (const { recall: r } of Array.from(byDedupe.values())) {
     const s = getGeneralRecallSlug(r);
     if (!s) continue;
     const lm = getGeneralRecallLastModified(r);
@@ -303,7 +303,7 @@ export function loadGeneralRecallListIndex(lang: SiteUiLang = "en"): GeneralReca
   const byDedupe = buildGeneralRecallDedupeMap(dir);
 
   const items: GeneralRecallListItem[] = [];
-  for (const { recall: r, categoryKey } of byDedupe.values()) {
+  for (const { recall: r, categoryKey } of Array.from(byDedupe.values())) {
     const slug = getGeneralRecallSlug(r);
     if (!slug) continue;
 

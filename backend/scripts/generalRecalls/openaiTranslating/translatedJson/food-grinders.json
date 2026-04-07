@@ -1,0 +1,747 @@
+{
+  "meta": {
+    "slug": "food-grinders",
+    "sourceCsvFile": "food-grinders_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:36.917Z",
+    "recallCount": 1,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "food-grinders.json",
+    "seoTranslatedAt": "2026-04-04T01:46:59.615Z",
+    "resumePartial": false,
+    "i18nSource": "generalRecallsTranslated",
+    "i18nSourceFile": "food-grinders.json",
+    "i18nUiLangs": [
+      "en",
+      "es",
+      "ar",
+      "zh",
+      "fr",
+      "de",
+      "ja",
+      "pt",
+      "hi",
+      "ru",
+      "vi"
+    ],
+    "i18nProgressByLang": {
+      "es": 1,
+      "ar": 1,
+      "zh": 1,
+      "fr": 1,
+      "de": 1,
+      "ja": 1,
+      "pt": 1,
+      "hi": 1,
+      "ru": 0,
+      "vi": 0
+    },
+    "i18nInProgress": true,
+    "i18nTranslatedAt": "2026-04-07T05:18:06.680Z",
+    "i18nOpenaiModel": "gpt-4o-mini"
+  },
+  "recalls": [
+    {
+      "RecallID": 9907,
+      "RecallNumber": "24178",
+      "RecallDate": "2024-04-04T00:00:00",
+      "Description": "Walmart is recalling the Mainstays Electric Mini Choppers, model number MS14100094536S1, due to a potential laceration hazard. These rechargeable, cordless choppers feature a green lid, white body, and a clear plastic bowl, equipped with a blade attachment that has three curved blades on a white plastic spindle. The model number is located on a label at the bottom of the bowl.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/Walmart-Recalls-Mainstays-Electric-Mini-Choppers-Due-to-Laceration-Hazard-Sold-Exclusively-at-Walmart",
+      "Title": "Walmart Issues Recall for Mainstays Electric Mini Choppers Due to Laceration Risk",
+      "ConsumerContact": "For assistance, contact Walmart at 800-925-6278 from 7 a.m. to 9 p.m. CT daily, or visit https://corporate.walmart.com/recalls for further details.",
+      "LastPublishDate": "2024-04-04T00:00:00",
+      "Products": [
+        {
+          "Name": "Mainstays Electric Mini Chopper",
+          "NumberOfUnits": "About 51,750"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/food-grinders/1-Mainstays-Electric-Mini-Chopper/d475fab6e3b48ad1f9458ca09faf0595.webp",
+          "Caption": "Recalled Mainstays Electric Mini Chopper container with blade and lid",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/chopper-blade-lid.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/food-grinders/1-Mainstays-Electric-Mini-Chopper/99d5a907bdc8ae7fb1a04bf88afd5aed.webp",
+          "Caption": "Recalled Mainstays Electric Mini Chopper assembled",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/chopper-assembled-1.png"
+        },
+        {
+          "URL": "/images/generalRecalls/food-grinders/1-Mainstays-Electric-Mini-Chopper/d5119c61da2bd07b80dce8079e46d7ec.webp",
+          "Caption": "Recalled Mainstays Electric Mini Chopper assembled",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/chopper-assembled-2.jpg"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "Walmart has received five reports of lacerations, two of which required medical attention, including stitches. Injuries occurred during assembly of the product or during cleaning/handling of the product."
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "Shuangma Plastic Manufacturing Inc., of China"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available at Walmart locations across the U.S. and online at Walmart.com from August 2022 to October 2023, priced between $10 and $15."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Walmart Stores Inc., of Bentonville, Arkansas"
+        }
+      ],
+      "SoldAtLabel": "Sold Exclusively At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Unexpected blade operation during assembly or when not enclosed, leading to a laceration risk."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Stop using the recalled choppers immediately and contact Walmart for a full refund. Return the chopper to any Walmart store for a refund."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "MS14100094536S1"
+      ],
+      "slug": "walmart-issues-recall-for-mainstays-electric-mini-choppers-due-to-laceration-risk-recall",
+      "metaDescription": "Walmart recalls Mainstays Electric Mini Choppers due to laceration risks. Stop using and contact Walmart for a refund.",
+      "languages": {
+        "en": {
+          "Title": "Walmart Issues Recall for Mainstays Electric Mini Choppers Due to Laceration Risk",
+          "Description": "Walmart is recalling the Mainstays Electric Mini Choppers, model number MS14100094536S1, due to a potential laceration hazard. These rechargeable, cordless choppers feature a green lid, white body, and a clear plastic bowl, equipped with a blade attachment that has three curved blades on a white plastic spindle. The model number is located on a label at the bottom of the bowl.",
+          "ConsumerContact": "For assistance, contact Walmart at 800-925-6278 from 7 a.m. to 9 p.m. CT daily, or visit https://corporate.walmart.com/recalls for further details.",
+          "metaDescription": "Walmart recalls Mainstays Electric Mini Choppers due to laceration risks. Stop using and contact Walmart for a refund.",
+          "Products": [
+            {
+              "Name": "Mainstays Electric Mini Chopper",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 51,750"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled Mainstays Electric Mini Chopper container with blade and lid"
+            },
+            {
+              "Caption": "Recalled Mainstays Electric Mini Chopper assembled"
+            },
+            {
+              "Caption": "Recalled Mainstays Electric Mini Chopper assembled"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Walmart has received five reports of lacerations, two of which required medical attention, including stitches. Injuries occurred during assembly of the product or during cleaning/handling of the product."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Available at Walmart locations across the U.S. and online at Walmart.com from August 2022 to October 2023, priced between $10 and $15."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Walmart Stores Inc., of Bentonville, Arkansas"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Shuangma Plastic Manufacturing Inc., of China"
+            }
+          ],
+          "SoldAtLabel": "Sold Exclusively At",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Unexpected blade operation during assembly or when not enclosed, leading to a laceration risk."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Stop using the recalled choppers immediately and contact Walmart for a full refund. Return the chopper to any Walmart store for a refund."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Refund"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "Walmart Emite un Retiro de los Mini Picadores Eléctricos Mainstays Debido al Riesgo de Laceración",
+          "Description": "Walmart está retirando del mercado los Mini Picadores Eléctricos Mainstays, número de modelo MS14100094536S1, debido a un posible peligro de laceración. Estos picadores recargables y sin cable cuentan con una tapa verde, un cuerpo blanco y un tazón de plástico transparente, equipados con un accesorio de cuchilla que tiene tres cuchillas curvas en un husillo de plástico blanco. El número de modelo se encuentra en una etiqueta en la parte inferior del tazón.",
+          "ConsumerContact": "Para asistencia, comuníquese con Walmart al 800-925-6278 de 7 a.m. a 9 p.m. CT todos los días, o visite https://corporate.walmart.com/recalls para más detalles.",
+          "metaDescription": "Walmart retira los Mini Picadores Eléctricos Mainstays debido a riesgos de laceración. Deje de usar y comuníquese con Walmart para un reembolso.",
+          "Products": [
+            {
+              "Name": "Mini Picador Eléctrico Mainstays",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 51,750"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Contenedor del Mini Picador Eléctrico Mainstays retirado con cuchilla y tapa"
+            },
+            {
+              "Caption": "Mini Picador Eléctrico Mainstays retirado ensamblado"
+            },
+            {
+              "Caption": "Mini Picador Eléctrico Mainstays retirado ensamblado"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Walmart ha recibido cinco informes de laceraciones, dos de los cuales requirieron atención médica, incluyendo puntos de sutura. Las lesiones ocurrieron durante el ensamblaje del producto o durante la limpieza/manejo del producto."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible en las ubicaciones de Walmart en los EE. UU. y en línea en Walmart.com desde agosto de 2022 hasta octubre de 2023, con precios entre $10 y $15."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Walmart Stores Inc., de Bentonville, Arkansas"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Shuangma Plastic Manufacturing Inc., de China"
+            }
+          ],
+          "SoldAtLabel": "Vendido Exclusivamente En",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Operación inesperada de la cuchilla durante el ensamblaje o cuando no está encerrada, lo que lleva a un riesgo de laceración."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Deje de usar los picadores retirados de inmediato y comuníquese con Walmart para un reembolso completo. Devuelva el picador a cualquier tienda Walmart para un reembolso."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reembolso"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "وول مارت تصدر استدعاء لمفرمات ميني الكهربائية من Mainstays بسبب خطر القطع",
+          "Description": "تقوم وول مارت باستدعاء مفرمات ميني الكهربائية من Mainstays، رقم الطراز MS14100094536S1، بسبب خطر محتمل للقطع. تتميز هذه المفرمات القابلة لإعادة الشحن والتي تعمل بدون سلك بغطاء أخضر وجسم أبيض ووعاء بلاستيكي شفاف، مزودة بملحق شفرة يحتوي على ثلاث شفرات منحنية على عمود بلاستيكي أبيض. يقع رقم الطراز على ملصق في أسفل الوعاء.",
+          "ConsumerContact": "للمساعدة، اتصل بوول مارت على الرقم 800-925-6278 من الساعة 7 صباحًا حتى 9 مساءً بتوقيت وسط أمريكا يوميًا، أو قم بزيارة https://corporate.walmart.com/recalls لمزيد من التفاصيل.",
+          "metaDescription": "تستدعي وول مارت مفرمات ميني الكهربائية من Mainstays بسبب مخاطر القطع. توقف عن الاستخدام واتصل بوول مارت لاسترداد الأموال.",
+          "Products": [
+            {
+              "Name": "مفرمة ميني الكهربائية من Mainstays",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 51,750"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "وعاء مفرمة ميني الكهربائية المستدعاة من Mainstays مع شفرة وغطاء"
+            },
+            {
+              "Caption": "مفرمة ميني الكهربائية المستدعاة من Mainstays مجمعة"
+            },
+            {
+              "Caption": "مفرمة ميني الكهربائية المستدعاة من Mainstays مجمعة"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "تلقت وول مارت خمس تقارير عن إصابات بالقطع، اثنان منها تطلبت رعاية طبية، بما في ذلك الغرز. وقعت الإصابات أثناء تجميع المنتج أو أثناء تنظيفه/التعامل معه."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "متاحة في مواقع وول مارت عبر الولايات المتحدة وعبر الإنترنت على Walmart.com من أغسطس 2022 إلى أكتوبر 2023، بسعر يتراوح بين 10 دولارات و15 دولارًا."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "شركة وول مارت ستورز، إنك، من بنتونفيل، أركنساس"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "شركة شوانغما لتصنيع البلاستيك، من الصين"
+            }
+          ],
+          "SoldAtLabel": "تباع حصريًا في",
+          "ManufacturerCountries": [
+            {
+              "Country": "الصين"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "تشغيل غير متوقع للشفرات أثناء التجميع أو عندما لا تكون مغلقة، مما يؤدي إلى خطر القطع."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "توقف عن استخدام المفرمات المستدعاة على الفور واتصل بوول مارت لاسترداد كامل المبلغ. أعد المفرمة إلى أي متجر وول مارت لاسترداد الأموال."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "استرداد الأموال"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "沃尔玛因割伤风险召回Mainstays电动迷你切碎机",
+          "Description": "沃尔玛因潜在的割伤危险召回Mainstays电动迷你切碎机，型号为MS14100094536S1。这些可充电的无绳切碎机具有绿色盖子、白色机身和透明塑料碗，配备有刀片附件，刀片上有三个弯曲的刀片，安装在白色塑料轴上。型号位于碗底的标签上。",
+          "ConsumerContact": "如需帮助，请拨打沃尔玛客服电话800-925-6278，服务时间为每天上午7点至晚上9点（中部时间），或访问https://corporate.walmart.com/recalls获取更多信息。",
+          "metaDescription": "沃尔玛因割伤风险召回Mainstays电动迷你切碎机。请停止使用并联系沃尔玛申请退款。",
+          "Products": [
+            {
+              "Name": "Mainstays电动迷你切碎机",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约51,750个"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "召回的Mainstays电动迷你切碎机容器，带刀片和盖子"
+            },
+            {
+              "Caption": "召回的Mainstays电动迷你切碎机组装完成"
+            },
+            {
+              "Caption": "召回的Mainstays电动迷你切碎机组装完成"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "沃尔玛已收到五起割伤报告，其中两起需要医疗救助，包括缝合。伤害发生在产品组装或清洁/处理产品时。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "在美国各地的沃尔玛门店和Walmart.com在线销售，销售时间为2022年8月至2023年10月，价格在10美元至15美元之间。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "沃尔玛商店公司，位于阿肯色州本顿维尔"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "中国双马塑料制造公司"
+            }
+          ],
+          "SoldAtLabel": "仅在此处销售",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "在组装过程中或未封闭时刀片意外操作，导致割伤风险。"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "立即停止使用召回的切碎机，并联系沃尔玛申请全额退款。将切碎机退回任何沃尔玛门店以获得退款。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "退款"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "Walmart rappelle les mini hachoirs électriques Mainstays en raison d'un risque de lacération",
+          "Description": "Walmart rappelle les mini hachoirs électriques Mainstays, numéro de modèle MS14100094536S1, en raison d'un potentiel danger de lacération. Ces hachoirs rechargeables et sans fil disposent d'un couvercle vert, d'un corps blanc et d'un bol en plastique transparent, équipé d'un accessoire de lame qui a trois lames incurvées sur un axe en plastique blanc. Le numéro de modèle se trouve sur une étiquette au fond du bol.",
+          "ConsumerContact": "Pour assistance, contactez Walmart au 800-925-6278 de 7 h à 21 h CT tous les jours, ou visitez https://corporate.walmart.com/recalls pour plus de détails.",
+          "metaDescription": "Walmart rappelle les mini hachoirs électriques Mainstays en raison de risques de lacération. Cessez de les utiliser et contactez Walmart pour un remboursement.",
+          "Products": [
+            {
+              "Name": "Mini hachoir électrique Mainstays",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 51 750"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Conteneur de mini hachoir électrique Mainstays rappelé avec lame et couvercle"
+            },
+            {
+              "Caption": "Mini hachoir électrique Mainstays rappelé assemblé"
+            },
+            {
+              "Caption": "Mini hachoir électrique Mainstays rappelé assemblé"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Walmart a reçu cinq rapports de lacérations, dont deux ont nécessité des soins médicaux, y compris des points de suture. Les blessures se sont produites lors de l'assemblage du produit ou lors du nettoyage/manipulation du produit."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible dans les magasins Walmart à travers les États-Unis et en ligne sur Walmart.com d'août 2022 à octobre 2023, au prix compris entre 10 $ et 15 $."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Walmart Stores Inc., de Bentonville, Arkansas"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Shuangma Plastic Manufacturing Inc., de Chine"
+            }
+          ],
+          "SoldAtLabel": "Vendu Exclusivement Chez",
+          "ManufacturerCountries": [
+            {
+              "Country": "Chine"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Fonctionnement inattendu de la lame lors de l'assemblage ou lorsqu'elle n'est pas enfermée, entraînant un risque de lacération."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Cessez d'utiliser immédiatement les hachoirs rappelés et contactez Walmart pour un remboursement complet. Retournez le hachoir dans n'importe quel magasin Walmart pour un remboursement."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Remboursement"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "Walmart ruft Mainstays Electric Mini Chopper aufgrund von Schnittgefahr zurück",
+          "Description": "Walmart ruft die Mainstays Electric Mini Chopper, Modellnummer MS14100094536S1, aufgrund einer potenziellen Schnittgefahr zurück. Diese wiederaufladbaren, kabellosen Chopper verfügen über einen grünen Deckel, einen weißen Körper und eine klare Kunststoffschüssel, ausgestattet mit einem Klingenaufsatz, der drei gebogene Klingen auf einer weißen Kunststoffachse hat. Die Modellnummer befindet sich auf einem Etikett am Boden der Schüssel.",
+          "ConsumerContact": "Für Unterstützung kontaktieren Sie Walmart unter 800-925-6278 von 7 bis 21 Uhr CT täglich oder besuchen Sie https://corporate.walmart.com/recalls für weitere Details.",
+          "metaDescription": "Walmart ruft Mainstays Electric Mini Chopper aufgrund von Schnittgefahren zurück. Stellen Sie die Nutzung ein und kontaktieren Sie Walmart für eine Rückerstattung.",
+          "Products": [
+            {
+              "Name": "Mainstays Electric Mini Chopper",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 51.750"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Rückgerufener Mainstays Electric Mini Chopper Behälter mit Klinge und Deckel"
+            },
+            {
+              "Caption": "Rückgerufener Mainstays Electric Mini Chopper montiert"
+            },
+            {
+              "Caption": "Rückgerufener Mainstays Electric Mini Chopper montiert"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Walmart hat fünf Berichte über Schnittverletzungen erhalten, von denen zwei medizinische Hilfe benötigten, einschließlich Stichen. Verletzungen traten während der Montage des Produkts oder während der Reinigung/Handhabung des Produkts auf."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Erhältlich in Walmart-Filialen in den USA und online bei Walmart.com von August 2022 bis Oktober 2023, zu Preisen zwischen 10 und 15 Dollar."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Walmart Stores Inc., Bentonville, Arkansas"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Shuangma Plastic Manufacturing Inc., China"
+            }
+          ],
+          "SoldAtLabel": "Exklusiv verkauft bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Unerwartete Klingenbetätigung während der Montage oder wenn nicht eingeschlossen, was zu einer Schnittgefahr führt."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Hören Sie sofort auf, die zurückgerufenen Chopper zu verwenden, und kontaktieren Sie Walmart für eine vollständige Rückerstattung. Geben Sie den Chopper in einem beliebigen Walmart-Geschäft für eine Rückerstattung zurück."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Rückerstattung"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "ウォルマート、切傷のリスクによりメインステイズ電動ミニチョッパーをリコール",
+          "Description": "ウォルマートは、切傷の危険性があるため、モデル番号MS14100094536S1のメインステイズ電動ミニチョッパーをリコールしています。これらの充電式コードレスチョッパーは、緑色の蓋、白い本体、透明なプラスチック製のボウルを特徴としており、白いプラスチック製のスピンドルに3つの曲がった刃を備えた刃のアタッチメントが付いています。モデル番号はボウルの底にあるラベルに記載されています。",
+          "ConsumerContact": "サポートが必要な場合は、毎日午前7時から午後9時（中央標準時）まで、800-925-6278までウォルマートにお問い合わせいただくか、詳細についてはhttps://corporate.walmart.com/recallsをご覧ください。",
+          "metaDescription": "ウォルマートが切傷リスクのためにメインステイズ電動ミニチョッパーをリコール。使用を中止し、返金のためにウォルマートに連絡してください。",
+          "Products": [
+            {
+              "Name": "メインステイズ電動ミニチョッパー",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約51,750"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "刃と蓋が付いたリコールされたメインステイズ電動ミニチョッパーの容器"
+            },
+            {
+              "Caption": "組み立てられたリコールされたメインステイズ電動ミニチョッパー"
+            },
+            {
+              "Caption": "組み立てられたリコールされたメインステイズ電動ミニチョッパー"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "ウォルマートは5件の切傷の報告を受けており、そのうち2件は縫合を含む医療処置を必要としました。怪我は製品の組み立て中または製品の清掃/取り扱い中に発生しました。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "2022年8月から2023年10月まで、米国のウォルマート店舗およびWalmart.comで入手可能で、価格は10ドルから15ドルの間です。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "アーカンソー州ベントンビルのウォルマートストアーズ社"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "中国の双馬プラスチック製造株式会社"
+            }
+          ],
+          "SoldAtLabel": "専売販売",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "組み立て中または閉じられていないときの予期しない刃の動作により、切傷のリスクが生じる。"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "リコールされたチョッパーの使用を直ちに中止し、ウォルマートに連絡して全額返金を受けてください。チョッパーを任意のウォルマート店舗に返却して返金を受けてください。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "返金"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "Walmart Emite Recall para Mini Picadores Elétricos Mainstays Devido ao Risco de Laceração",
+          "Description": "Walmart está recolhendo os Mini Picadores Elétricos Mainstays, número do modelo MS14100094536S1, devido a um potencial risco de laceração. Esses picadores recarregáveis e sem fio possuem uma tampa verde, corpo branco e uma tigela de plástico transparente, equipados com um acessório de lâmina que tem três lâminas curvas em um eixo de plástico branco. O número do modelo está localizado em um rótulo na parte inferior da tigela.",
+          "ConsumerContact": "Para assistência, entre em contato com o Walmart pelo telefone 800-925-6278, das 7h às 21h CT diariamente, ou visite https://corporate.walmart.com/recalls para mais detalhes.",
+          "metaDescription": "Walmart recolhe Mini Picadores Elétricos Mainstays devido a riscos de laceração. Pare de usar e entre em contato com o Walmart para um reembolso.",
+          "Products": [
+            {
+              "Name": "Mini Picador Elétrico Mainstays",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 51.750"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recipiente do Mini Picador Elétrico Mainstays recolhido com lâmina e tampa"
+            },
+            {
+              "Caption": "Mini Picador Elétrico Mainstays recolhido montado"
+            },
+            {
+              "Caption": "Mini Picador Elétrico Mainstays recolhido montado"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "O Walmart recebeu cinco relatos de lacerações, duas das quais exigiram atendimento médico, incluindo pontos. As lesões ocorreram durante a montagem do produto ou durante a limpeza/manuseio do produto."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponível nas lojas Walmart em todo os EUA e online em Walmart.com de agosto de 2022 a outubro de 2023, com preços entre $10 e $15."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Walmart Stores Inc., de Bentonville, Arkansas"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Shuangma Plastic Manufacturing Inc., da China"
+            }
+          ],
+          "SoldAtLabel": "Vendido Exclusivamente Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Operação inesperada da lâmina durante a montagem ou quando não está fechada, levando a um risco de laceração."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Pare de usar os picadores recolhidos imediatamente e entre em contato com o Walmart para um reembolso total. Devolva o picador a qualquer loja Walmart para um reembolso."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reembolso"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "वॉलमार्ट ने लaceration जोखिम के कारण मेनस्टेज इलेक्ट्रिक मिनी चॉपर का रीकॉल किया",
+          "Description": "वॉलमार्ट मेनस्टेज इलेक्ट्रिक मिनी चॉपर, मॉडल नंबर MS14100094536S1, को संभावित लaceration खतरे के कारण रीकॉल कर रहा है। ये रिचार्जेबल, बिना तार के चॉपर हरे ढक्कन, सफेद शरीर और एक स्पष्ट प्लास्टिक कटोरे के साथ आते हैं, जिसमें एक ब्लेड अटैचमेंट होता है जिसमें एक सफेद प्लास्टिक स्पिंडल पर तीन घुमावदार ब्लेड होते हैं। मॉडल नंबर कटोरे के नीचे एक लेबल पर स्थित है।",
+          "ConsumerContact": "सहायता के लिए, वॉलमार्ट से 800-925-6278 पर सुबह 7 बजे से रात 9 बजे CT तक संपर्क करें, या आगे की जानकारी के लिए https://corporate.walmart.com/recalls पर जाएं।",
+          "metaDescription": "वॉलमार्ट लaceration जोखिम के कारण मेनस्टेज इलेक्ट्रिक मिनी चॉपर का रीकॉल करता है। उपयोग करना बंद करें और धनवापसी के लिए वॉलमार्ट से संपर्क करें।",
+          "Products": [
+            {
+              "Name": "मेनस्टेज इलेक्ट्रिक मिनी चॉपर",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 51,750"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "रीकॉल किया गया मेनस्टेज इलेक्ट्रिक मिनी चॉपर कंटेनर जिसमें ब्लेड और ढक्कन है"
+            },
+            {
+              "Caption": "रीकॉल किया गया मेनस्टेज इलेक्ट्रिक मिनी चॉपर असेंबल किया गया"
+            },
+            {
+              "Caption": "रीकॉल किया गया मेनस्टेज इलेक्ट्रिक मिनी चॉपर असेंबल किया गया"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "वॉलमार्ट को लacerations की पांच रिपोर्ट मिली हैं, जिनमें से दो को चिकित्सा सहायता की आवश्यकता थी, जिसमें टांके शामिल हैं। चोटें उत्पाद के असेंबली के दौरान या उत्पाद की सफाई/हैंडलिंग के दौरान हुईं।"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "अगस्त 2022 से अक्टूबर 2023 तक अमेरिका में वॉलमार्ट स्थानों पर और Walmart.com पर उपलब्ध, कीमत $10 से $15 के बीच।"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "वॉलमार्ट स्टोर्स इंक., बेंटनविल, अर्कांसस"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "शुआंगमा प्लास्टिक मैन्युफैक्चरिंग इंक., चीन"
+            }
+          ],
+          "SoldAtLabel": "विशेष रूप से बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "चीन"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "असेंबली के दौरान या जब बंद न हो, तब अप्रत्याशित ब्लेड संचालन, जिससे लaceration का जोखिम होता है।"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "रीकॉल किए गए चॉपर का उपयोग तुरंत बंद करें और पूर्ण धनवापसी के लिए वॉलमार्ट से संपर्क करें। धनवापसी के लिए किसी भी वॉलमार्ट स्टोर में चॉपर लौटाएं।"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "धनवापसी"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        }
+      }
+    }
+  ]
+}

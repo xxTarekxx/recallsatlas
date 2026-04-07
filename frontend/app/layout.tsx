@@ -7,6 +7,7 @@ import "../styles/recall.css";
 import "../styles/grid.css";
 import DocumentLang from "@/components/DocumentLang";
 import SiteNav from "@/components/SiteNav";
+import SiteBreadcrumbs from "@/components/SiteBreadcrumbs";
 import SiteFooter from "@/components/SiteFooter";
 import { BRAND_FAVICON_WEBP } from "@/lib/brand-assets";
 
@@ -71,6 +72,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <DocumentLang />
         <SiteNav />
+        <SiteBreadcrumbs />
         <main id="main-content" tabIndex={-1}>
           {children}
         </main>
