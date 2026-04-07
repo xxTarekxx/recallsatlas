@@ -1,0 +1,1512 @@
+{
+  "meta": {
+    "slug": "business-and-office-machines",
+    "sourceCsvFile": "business-and-office-machines_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:36.858Z",
+    "recallCount": 2,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "business-and-office-machines.json",
+    "seoTranslatedAt": "2026-04-03T22:22:43.894Z",
+    "resumePartial": false,
+    "i18nSource": "generalRecallsTranslated",
+    "i18nSourceFile": "business-and-office-machines.json",
+    "i18nUiLangs": [
+      "en",
+      "es",
+      "ar",
+      "zh",
+      "fr",
+      "de",
+      "ja",
+      "pt",
+      "hi",
+      "ru",
+      "vi"
+    ],
+    "i18nProgressByLang": {
+      "es": 2,
+      "ar": 2,
+      "zh": 2,
+      "fr": 2,
+      "de": 2,
+      "ja": 2,
+      "pt": 2,
+      "hi": 2,
+      "ru": 2,
+      "vi": 2
+    },
+    "i18nInProgress": false,
+    "i18nTranslatedAt": "2026-04-06T23:45:52.831Z",
+    "i18nOpenaiModel": "gpt-4o-mini"
+  },
+  "recalls": [
+    {
+      "RecallID": 10451,
+      "RecallNumber": "26050",
+      "RecallDate": "2025-10-23T00:00:00",
+      "Description": "3M Company has announced a recall for the Scotch™ Thermal Laminator, model TL909-50, which is light gray with gray accents. The laminator features a 9-inch wide laminating slot, and the model and serial numbers can be found on a sticker located on the bottom. Only units with serial numbers ranging from 2406000001 to 2501001920 are affected by this recall.",
+      "URL": "https://www.cpsc.gov/Recalls/2026/3M-Company-Recalls-Thermal-Laminators-Due-to-Overheating",
+      "Title": "3M Company Issues Recall for Scotch™ TL909-50 Thermal Laminators Due to Overheating Risk",
+      "ConsumerContact": "For assistance, contact 3M Company at 800-772-4337, available Monday through Friday from 8 a.m. to 4:30 p.m. CT. You can also reach out via email through the \"Contact Us\" link on the Scotch Brand Website at https://www.scotchbrand.com/3M/en_US/scotch-brand/contact-us/ or visit https://www.scotchbrand.com/laminatorrecallTL909-50/ for more details.",
+      "LastPublishDate": "2025-10-23T00:00:00",
+      "Products": [
+        {
+          "Name": "Scotch™ TL909-50 Thermal Laminator",
+          "NumberOfUnits": "About 13,440"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/business-and-office-machines/1-Scotch-TL909-50-Thermal-Laminator/4d5393957930a34ff32584861de330f7.webp",
+          "Caption": "Recalled Scotch™ brand TL909-50 thermal laminator",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/laminator-1.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "No incidents or injuries have been reported."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available in-store and online at Office Depot, Office Smart, and School Specialty, Inc. from August 2024 through September 2025, priced between $100 and $130."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "3M Company, of St. Paul, Minnesota"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "Vietnam"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of overheating that may lead to burns."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers must stop using the laminators immediately, unplug them, and contact 3M Company for a full refund. A short form must be completed, confirming the laminator's inclusion in the recall, and a photo of the unplugged machine with the cut power cord must be uploaded. Refunds will be issued via check once the form is processed and the power cord confirmation is received."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "slug": "3m-company-issues-recall-for-scotch-tl909-50-thermal-laminators-due-to-overheating-risk-recall",
+      "metaDescription": "3M recalls Scotch™ TL909-50 Thermal Laminators due to overheating hazards. Contact 3M for refunds and safety details.",
+      "languages": {
+        "en": {
+          "Title": "3M Company Issues Recall for Scotch™ TL909-50 Thermal Laminators Due to Overheating Risk",
+          "Description": "3M Company has announced a recall for the Scotch™ Thermal Laminator, model TL909-50, which is light gray with gray accents. The laminator features a 9-inch wide laminating slot, and the model and serial numbers can be found on a sticker located on the bottom. Only units with serial numbers ranging from 2406000001 to 2501001920 are affected by this recall.",
+          "ConsumerContact": "For assistance, contact 3M Company at 800-772-4337, available Monday through Friday from 8 a.m. to 4:30 p.m. CT. You can also reach out via email through the \"Contact Us\" link on the Scotch Brand Website at https://www.scotchbrand.com/3M/en_US/scotch-brand/contact-us/ or visit https://www.scotchbrand.com/laminatorrecallTL909-50/ for more details.",
+          "metaDescription": "3M recalls Scotch™ TL909-50 Thermal Laminators due to overheating hazards. Contact 3M for refunds and safety details.",
+          "Products": [
+            {
+              "Name": "Scotch™ TL909-50 Thermal Laminator",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 13,440"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled Scotch™ brand TL909-50 thermal laminator"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "No incidents or injuries have been reported."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Available in-store and online at Office Depot, Office Smart, and School Specialty, Inc. from August 2024 through September 2025, priced between $100 and $130."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "3M Company, of St. Paul, Minnesota"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Sold At",
+          "ManufacturerCountries": [
+            {
+              "Country": "Vietnam"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risk of overheating that may lead to burns."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Consumers must stop using the laminators immediately, unplug them, and contact 3M Company for a full refund. A short form must be completed, confirming the laminator's inclusion in the recall, and a photo of the unplugged machine with the cut power cord must be uploaded. Refunds will be issued via check once the form is processed and the power cord confirmation is received."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Refund"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "3M Company Emite un Retiro para Laminadoras Térmicas Scotch™ TL909-50 Debido al Riesgo de Sobrecalentamiento",
+          "Description": "3M Company ha anunciado un retiro para la Laminadora Térmica Scotch™, modelo TL909-50, que es de color gris claro con acentos grises. La laminadora cuenta con una ranura de laminado de 9 pulgadas de ancho, y el modelo y los números de serie se pueden encontrar en una etiqueta ubicada en la parte inferior. Solo las unidades con números de serie que van desde 2406000001 hasta 2501001920 se ven afectadas por este retiro.",
+          "ConsumerContact": "Para asistencia, comuníquese con 3M Company al 800-772-4337, disponible de lunes a viernes de 8 a.m. a 4:30 p.m. CT. También puede comunicarse por correo electrónico a través del enlace \"Contáctenos\" en el sitio web de Scotch Brand en https://www.scotchbrand.com/3M/en_US/scotch-brand/contact-us/ o visitar https://www.scotchbrand.com/laminatorrecallTL909-50/ para más detalles.",
+          "metaDescription": "3M retira las Laminadoras Térmicas Scotch™ TL909-50 debido a riesgos de sobrecalentamiento. Contacte a 3M para reembolsos y detalles de seguridad.",
+          "Products": [
+            {
+              "Name": "Laminadora Térmica Scotch™ TL909-50",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 13,440"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Laminadora térmica TL909-50 de la marca Scotch™ retirada"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "No se han reportado incidentes ni lesiones."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible en tienda y en línea en Office Depot, Office Smart y School Specialty, Inc. desde agosto de 2024 hasta septiembre de 2025, con precios entre $100 y $130."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "3M Company, de St. Paul, Minnesota"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendido En",
+          "ManufacturerCountries": [
+            {
+              "Country": "Vietnam"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Riesgo de sobrecalentamiento que puede provocar quemaduras."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Los consumidores deben dejar de usar las laminadoras de inmediato, desenchufarlas y contactar a 3M Company para un reembolso completo. Se debe completar un formulario corto, confirmando la inclusión de la laminadora en el retiro, y se debe subir una foto de la máquina desenchufada con el cable de alimentación cortado. Los reembolsos se emitirán por cheque una vez que se procese el formulario y se reciba la confirmación del cable de alimentación."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reembolso"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "شركة 3M تصدر استدعاء لجهاز laminator الحراري Scotch™ TL909-50 بسبب خطر السخونة الزائدة",
+          "Description": "أعلنت شركة 3M عن استدعاء لجهاز laminator الحراري Scotch™، الطراز TL909-50، الذي يأتي بلون رمادي فاتح مع لمسات رمادية. يتميز الجهاز بفتحة تغليف بعرض 9 بوصات، ويمكن العثور على رقم الطراز ورقم السيريال على ملصق موجود في الأسفل. فقط الوحدات التي تحمل أرقام سيريال تتراوح من 2406000001 إلى 2501001920 هي المتأثرة بهذا الاستدعاء.",
+          "ConsumerContact": "للمساعدة، اتصل بشركة 3M على الرقم 800-772-4337، المتاح من الاثنين إلى الجمعة من الساعة 8 صباحًا حتى 4:30 مساءً بتوقيت وسط أمريكا. يمكنك أيضًا التواصل عبر البريد الإلكتروني من خلال رابط \"اتصل بنا\" على موقع Scotch Brand على https://www.scotchbrand.com/3M/en_US/scotch-brand/contact-us/ أو زيارة https://www.scotchbrand.com/laminatorrecallTL909-50/ لمزيد من التفاصيل.",
+          "metaDescription": "تستدعي 3M أجهزة laminator الحراري Scotch™ TL909-50 بسبب مخاطر السخونة الزائدة. اتصل بشركة 3M للحصول على استردادات وتفاصيل السلامة.",
+          "Products": [
+            {
+              "Name": "جهاز laminator الحراري Scotch™ TL909-50",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 13,440"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "جهاز laminator الحراري المستدعى من علامة Scotch™"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "لم يتم الإبلاغ عن أي حوادث أو إصابات."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "متوفر في المتاجر وعبر الإنترنت في Office Depot وOffice Smart وSchool Specialty, Inc. من أغسطس 2024 حتى سبتمبر 2025، بسعر يتراوح بين 100 دولار و130 دولار."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "شركة 3M، من سانت بول، مينيسوتا"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "تم البيع في",
+          "ManufacturerCountries": [
+            {
+              "Country": "فيتنام"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "خطر السخونة الزائدة الذي قد يؤدي إلى حروق."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "يجب على المستهلكين التوقف عن استخدام أجهزة laminator على الفور، وفصلها عن الكهرباء، والتواصل مع شركة 3M للحصول على استرداد كامل. يجب ملء نموذج قصير، يؤكد إدراج الجهاز في الاستدعاء، ويجب تحميل صورة للجهاز المفصول مع سلك الطاقة المقطوع. سيتم إصدار الاستردادات عبر شيك بمجرد معالجة النموذج واستلام تأكيد سلك الطاقة."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "استرداد"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "3M公司因过热风险召回Scotch™ TL909-50热压机",
+          "Description": "3M公司已宣布召回Scotch™热压机，型号为TL909-50，颜色为浅灰色，配有灰色装饰。该热压机具有9英寸宽的压膜槽，型号和序列号可以在底部的贴纸上找到。只有序列号范围在2406000001到2501001920之间的设备受到此次召回的影响。",
+          "ConsumerContact": "如需帮助，请联系3M公司，电话800-772-4337，工作时间为周一至周五，上午8点至下午4:30（中部时间）。您也可以通过Scotch品牌网站上的“联系我们”链接发送电子邮件，网址为https://www.scotchbrand.com/3M/en_US/scotch-brand/contact-us/，或访问https://www.scotchbrand.com/laminatorrecallTL909-50/以获取更多详细信息。",
+          "metaDescription": "3M因过热危险召回Scotch™ TL909-50热压机。请联系3M以获取退款和安全详情。",
+          "Products": [
+            {
+              "Name": "Scotch™ TL909-50热压机",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约13,440台"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "召回的Scotch™品牌TL909-50热压机"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "未报告任何事件或伤害。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "在Office Depot、Office Smart和School Specialty, Inc.的实体店和在线商店有售，销售时间为2024年8月至2025年9月，价格在100美元至130美元之间。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "3M公司，位于明尼苏达州圣保罗"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "销售地点",
+          "ManufacturerCountries": [
+            {
+              "Country": "越南"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "存在过热风险，可能导致烧伤。"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "消费者必须立即停止使用热压机，拔掉电源，并联系3M公司申请全额退款。必须填写一份简短的表格，确认热压机包含在召回中，并上传一张拔掉电源的机器和切断电源线的照片。一旦表格处理完毕并收到电源线确认，将通过支票发放退款。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "退款"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "3M Company Annonce un Rappel pour les Laminators Thermiques Scotch™ TL909-50 en Raison d'un Risque de Surchauffe",
+          "Description": "3M Company a annoncé un rappel pour le Laminator Thermique Scotch™, modèle TL909-50, qui est gris clair avec des accents gris. Le laminator dispose d'une fente de laminage de 9 pouces de large, et le modèle ainsi que les numéros de série se trouvent sur un autocollant situé au bas de l'appareil. Seules les unités avec des numéros de série allant de 2406000001 à 2501001920 sont concernées par ce rappel.",
+          "ConsumerContact": "Pour assistance, contactez 3M Company au 800-772-4337, disponible du lundi au vendredi de 8 h à 16 h 30 CT. Vous pouvez également nous contacter par e-mail via le lien \"Contactez-nous\" sur le site Web de la marque Scotch à https://www.scotchbrand.com/3M/en_US/scotch-brand/contact-us/ ou visitez https://www.scotchbrand.com/laminatorrecallTL909-50/ pour plus de détails.",
+          "metaDescription": "3M rappelle les Laminators Thermiques Scotch™ TL909-50 en raison de risques de surchauffe. Contactez 3M pour des remboursements et des détails de sécurité.",
+          "Products": [
+            {
+              "Name": "Laminator Thermique Scotch™ TL909-50",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 13 440"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Laminator thermique de marque Scotch™ rappelé"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Aucun incident ni blessure n'ont été signalés."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible en magasin et en ligne chez Office Depot, Office Smart et School Specialty, Inc. d'août 2024 à septembre 2025, au prix compris entre 100 $ et 130 $."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "3M Company, de St. Paul, Minnesota"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendu À",
+          "ManufacturerCountries": [
+            {
+              "Country": "Vietnam"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risque de surchauffe pouvant entraîner des brûlures."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Les consommateurs doivent cesser d'utiliser les laminators immédiatement, les débrancher et contacter 3M Company pour un remboursement complet. Un formulaire court doit être rempli, confirmant l'inclusion du laminator dans le rappel, et une photo de la machine débranchée avec le cordon d'alimentation coupé doit être téléchargée. Les remboursements seront émis par chèque une fois le formulaire traité et la confirmation du cordon d'alimentation reçue."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Remboursement"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "3M Company gibt Rückruf für Scotch™ TL909-50 Thermolaminatoren wegen Überhitzungsrisiko bekannt",
+          "Description": "Die 3M Company hat einen Rückruf für den Scotch™ Thermolaminator, Modell TL909-50, angekündigt, der hellgrau mit grauen Akzenten ist. Der Laminator verfügt über einen 9 Zoll breiten Laminierbereich, und die Modell- und Seriennummern sind auf einem Aufkleber auf der Unterseite zu finden. Nur Geräte mit Seriennummern von 2406000001 bis 2501001920 sind von diesem Rückruf betroffen.",
+          "ConsumerContact": "Für Unterstützung kontaktieren Sie bitte die 3M Company unter 800-772-4337, erreichbar von Montag bis Freitag von 8:00 bis 16:30 Uhr CT. Sie können auch über die E-Mail-Funktion im \"Kontaktieren Sie uns\"-Link auf der Scotch-Website unter https://www.scotchbrand.com/3M/en_US/scotch-brand/contact-us/ oder besuchen Sie https://www.scotchbrand.com/laminatorrecallTL909-50/ für weitere Details.",
+          "metaDescription": "3M ruft Scotch™ TL909-50 Thermolaminatoren wegen Überhitzungsgefahren zurück. Kontaktieren Sie 3M für Rückerstattungen und Sicherheitsdetails.",
+          "Products": [
+            {
+              "Name": "Scotch™ TL909-50 Thermolaminator",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 13.440"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Rückgerufener Scotch™ TL909-50 Thermolaminator"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Es wurden keine Vorfälle oder Verletzungen gemeldet."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Erhältlich in Geschäften und online bei Office Depot, Office Smart und School Specialty, Inc. von August 2024 bis September 2025, preislich zwischen 100 und 130 US-Dollar."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "3M Company, St. Paul, Minnesota"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Verkauft bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "Vietnam"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risiko der Überhitzung, das zu Verbrennungen führen kann."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Die Verbraucher müssen die Laminatoren sofort einstellen, sie vom Stromnetz trennen und die 3M Company für eine vollständige Rückerstattung kontaktieren. Ein kurzes Formular muss ausgefüllt werden, das die Einbeziehung des Laminators in den Rückruf bestätigt, und ein Foto der vom Stromnetz getrennten Maschine mit dem durchtrennten Stromkabel muss hochgeladen werden. Rückerstattungen werden per Scheck ausgegeben, sobald das Formular bearbeitet und die Bestätigung des Stromkabels erhalten wurde."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Rückerstattung"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "3M社がスコッチ™ TL909-50サーマルラミネーターのリコールを発表、過熱リスクのため",
+          "Description": "3M社は、モデルTL909-50のスコッチ™サーマルラミネーターのリコールを発表しました。このラミネーターはライトグレーにグレーのアクセントが施されています。ラミネーターには9インチ幅のラミネートスロットがあり、モデル番号とシリアル番号は底面にあるステッカーに記載されています。このリコールの対象となるのは、シリアル番号が2406000001から2501001920の範囲にあるユニットのみです。",
+          "ConsumerContact": "サポートが必要な場合は、3M社に800-772-4337までご連絡ください。営業時間は月曜日から金曜日の午前8時から午後4時30分（CT）です。また、スコッチブランドウェブサイトの「お問い合わせ」リンクを通じて、https://www.scotchbrand.com/3M/en_US/scotch-brand/contact-us/ にメールで連絡することもできます。詳細については、https://www.scotchbrand.com/laminatorrecallTL909-50/ をご覧ください。",
+          "metaDescription": "3Mが過熱の危険性によりスコッチ™ TL909-50サーマルラミネーターをリコール。返金および安全に関する詳細については3Mにお問い合わせください。",
+          "Products": [
+            {
+              "Name": "スコッチ™ TL909-50サーマルラミネーター",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約13,440"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコールされたスコッチ™ブランドTL909-50サーマルラミネーター"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "事故や怪我の報告はありません。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "2024年8月から2025年9月まで、Office Depot、Office Smart、School Specialty, Inc.で店頭およびオンラインで購入可能。価格は100ドルから130ドルの間。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "ミネソタ州セントポールの3M社"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "販売場所",
+          "ManufacturerCountries": [
+            {
+              "Country": "ベトナム"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "火傷を引き起こす可能性のある過熱リスク。"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "消費者は直ちにラミネーターの使用を中止し、電源を抜き、3M社に連絡して全額返金を受ける必要があります。リコールにラミネーターが含まれていることを確認する短いフォームを記入し、電源を切った状態の機械の写真をアップロードする必要があります。フォームが処理され、電源コードの確認が受け取られた後、返金は小切手で発行されます。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "返金"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "3M Company Anuncia Recall para Laminadoras Térmicas Scotch™ TL909-50 Devido ao Risco de Superaquecimento",
+          "Description": "A 3M Company anunciou um recall para a Laminadora Térmica Scotch™, modelo TL909-50, que é cinza claro com detalhes cinzas. A laminadora possui uma fenda de laminação de 9 polegadas de largura, e o modelo e os números de série podem ser encontrados em um adesivo localizado na parte inferior. Apenas unidades com números de série variando de 2406000001 a 2501001920 são afetadas por este recall.",
+          "ConsumerContact": "Para assistência, entre em contato com a 3M Company pelo telefone 800-772-4337, disponível de segunda a sexta-feira, das 8h às 16h30 CT. Você também pode entrar em contato por e-mail através do link \"Fale Conosco\" no site da marca Scotch em https://www.scotchbrand.com/3M/en_US/scotch-brand/contact-us/ ou visitar https://www.scotchbrand.com/laminatorrecallTL909-50/ para mais detalhes.",
+          "metaDescription": "A 3M faz recall das Laminadoras Térmicas Scotch™ TL909-50 devido a riscos de superaquecimento. Entre em contato com a 3M para reembolsos e detalhes de segurança.",
+          "Products": [
+            {
+              "Name": "Laminadora Térmica Scotch™ TL909-50",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 13.440"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Laminadora térmica TL909-50 da marca Scotch™ em recall"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Nenhum incidente ou lesão foi relatado."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponível nas lojas e online na Office Depot, Office Smart e School Specialty, Inc. de agosto de 2024 a setembro de 2025, com preços entre $100 e $130."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "3M Company, de St. Paul, Minnesota"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendidos Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "Vietnã"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risco de superaquecimento que pode levar a queimaduras."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Os consumidores devem parar de usar as laminadoras imediatamente, desconectá-las da tomada e entrar em contato com a 3M Company para um reembolso total. Um formulário curto deve ser preenchido, confirmando a inclusão da laminadora no recall, e uma foto da máquina desconectada com o cabo de energia cortado deve ser enviada. Os reembolsos serão emitidos por cheque assim que o formulário for processado e a confirmação do cabo de energia for recebida."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reembolso"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "3M कंपनी ने स्कॉच™ TL909-50 थर्मल लैमिनेटर्स की ओवरहीटिंग जोखिम के कारण रिकॉल की घोषणा की",
+          "Description": "3M कंपनी ने स्कॉच™ थर्मल लैमिनेटर, मॉडल TL909-50, का रिकॉल घोषित किया है, जो हल्के भूरे रंग का है जिसमें भूरे रंग के एक्सेंट हैं। लैमिनेटर में 9 इंच चौड़ा लैमिनेटिंग स्लॉट है, और मॉडल और सीरियल नंबर नीचे स्थित स्टिकर पर पाए जा सकते हैं। केवल उन यूनिट्स को इस रिकॉल से प्रभावित किया गया है जिनके सीरियल नंबर 2406000001 से 2501001920 के बीच हैं।",
+          "ConsumerContact": "सहायता के लिए, 3M कंपनी से 800-772-4337 पर संपर्क करें, जो सोमवार से शुक्रवार तक सुबह 8 बजे से शाम 4:30 बजे CT तक उपलब्ध है। आप स्कॉच ब्रांड वेबसाइट पर \"हमसे संपर्क करें\" लिंक के माध्यम से ईमेल के जरिए भी संपर्क कर सकते हैं https://www.scotchbrand.com/3M/en_US/scotch-brand/contact-us/ या अधिक जानकारी के लिए https://www.scotchbrand.com/laminatorrecallTL909-50/ पर जाएं।",
+          "metaDescription": "3M ने ओवरहीटिंग खतरों के कारण स्कॉच™ TL909-50 थर्मल लैमिनेटर्स का रिकॉल किया। रिफंड और सुरक्षा विवरण के लिए 3M से संपर्क करें।",
+          "Products": [
+            {
+              "Name": "स्कॉच™ TL909-50 थर्मल लैमिनेटर",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 13,440"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "रिकॉल किया गया स्कॉच™ ब्रांड TL909-50 थर्मल लैमिनेटर"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "कोई घटना या चोट की सूचना नहीं मिली है।"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "ऑफिस डिपो, ऑफिस स्मार्ट, और स्कूल स्पेशल्टी, इंक. में अगस्त 2024 से सितंबर 2025 तक स्टोर और ऑनलाइन उपलब्ध, कीमत $100 से $130 के बीच।"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "3M कंपनी, सेंट पॉल, मिनेसोटा"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "वियतनाम"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "ओवरहीटिंग का जोखिम जो जलने का कारण बन सकता है।"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "उपभोक्ताओं को तुरंत लैमिनेटर्स का उपयोग बंद करना चाहिए, उन्हें अनप्लग करना चाहिए, और पूर्ण रिफंड के लिए 3M कंपनी से संपर्क करना चाहिए। एक छोटा फॉर्म भरना होगा, जिसमें लैमिनेटर के रिकॉल में शामिल होने की पुष्टि करनी होगी, और अनप्लग की गई मशीन की फोटो जिसमें कटे हुए पावर कॉर्ड का होना चाहिए, अपलोड करनी होगी। फॉर्म प्रोसेस होने और पावर कॉर्ड की पुष्टि प्राप्त होने पर चेक के माध्यम से रिफंड जारी किए जाएंगे।"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "रिफंड"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "Компания 3M объявляет отзыв термоламинирующих аппаратов Scotch™ TL909-50 из-за риска перегрева",
+          "Description": "Компания 3M объявила отзыв термоламинирующего аппарата Scotch™, модель TL909-50, который светло-серого цвета с серыми акцентами. Ламиниратор имеет 9-дюймовый ламинаторный слот, а модель и серийные номера можно найти на наклейке, расположенной на дне. Отзыв касается только устройств с серийными номерами от 2406000001 до 2501001920.",
+          "ConsumerContact": "Для получения помощи свяжитесь с компанией 3M по телефону 800-772-4337, доступному с понедельника по пятницу с 8:00 до 16:30 по центральному времени. Вы также можете обратиться по электронной почте через ссылку \"Свяжитесь с нами\" на сайте бренда Scotch по адресу https://www.scotchbrand.com/3M/en_US/scotch-brand/contact-us/ или посетить https://www.scotchbrand.com/laminatorrecallTL909-50/ для получения дополнительной информации.",
+          "metaDescription": "3M отзывает термоламинирующие аппараты Scotch™ TL909-50 из-за опасностей перегрева. Свяжитесь с 3M для получения возвратов и информации о безопасности.",
+          "Products": [
+            {
+              "Name": "Термоламинирующий аппарат Scotch™ TL909-50",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 13,440"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванный термоламинирующий аппарат марки Scotch™ TL909-50"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Инцидентов или травм не было зафиксировано."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Доступно в магазинах и онлайн в Office Depot, Office Smart и School Specialty, Inc. с августа 2024 года по сентябрь 2025 года, по цене от 100 до 130 долларов."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Компания 3M, г. Сент-Пол, штат Миннесота"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Продается в",
+          "ManufacturerCountries": [
+            {
+              "Country": "Вьетнам"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Риск перегрева, который может привести к ожогам."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Потребители должны немедленно прекратить использование ламинираторов, отключить их от сети и обратиться в компанию 3M для получения полного возврата. Необходимо заполнить короткую форму, подтверждающую участие ламиниратора в отзыве, и загрузить фотографию отключенного устройства с перерезанным шнуром питания. Возвраты будут выданы чеком после обработки формы и получения подтверждения о шнуре питания."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Возврат"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "Công ty 3M thông báo thu hồi máy ép nhiệt Scotch™ TL909-50 do nguy cơ quá nhiệt",
+          "Description": "Công ty 3M đã thông báo thu hồi máy ép nhiệt Scotch™, mẫu TL909-50, có màu xám nhạt với các điểm nhấn màu xám. Máy ép có khe ép rộng 9 inch, và số mẫu cùng số sê-ri có thể được tìm thấy trên một nhãn dán ở phía dưới. Chỉ những thiết bị có số sê-ri từ 2406000001 đến 2501001920 bị ảnh hưởng bởi đợt thu hồi này.",
+          "ConsumerContact": "Để được hỗ trợ, hãy liên hệ với công ty 3M qua số 800-772-4337, có sẵn từ thứ Hai đến thứ Sáu, từ 8 giờ sáng đến 4:30 chiều theo giờ CT. Bạn cũng có thể liên hệ qua email thông qua liên kết \"Liên hệ với chúng tôi\" trên trang web của thương hiệu Scotch tại https://www.scotchbrand.com/3M/en_US/scotch-brand/contact-us/ hoặc truy cập https://www.scotchbrand.com/laminatorrecallTL909-50/ để biết thêm chi tiết.",
+          "metaDescription": "3M thu hồi máy ép nhiệt Scotch™ TL909-50 do nguy cơ quá nhiệt. Liên hệ với 3M để được hoàn tiền và biết thêm chi tiết về an toàn.",
+          "Products": [
+            {
+              "Name": "Máy ép nhiệt Scotch™ TL909-50",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 13,440"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Máy ép nhiệt thương hiệu Scotch™ TL909-50 bị thu hồi"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Không có sự cố hoặc chấn thương nào được báo cáo."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Có sẵn tại cửa hàng và trực tuyến tại Office Depot, Office Smart và School Specialty, Inc. từ tháng 8 năm 2024 đến tháng 9 năm 2025, có giá từ 100 đến 130 đô la."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Công ty 3M, tại St. Paul, Minnesota"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Bán Tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Việt Nam"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Nguy cơ quá nhiệt có thể dẫn đến bỏng."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Người tiêu dùng phải ngừng sử dụng máy ép ngay lập tức, rút phích cắm và liên hệ với công ty 3M để được hoàn tiền đầy đủ. Một mẫu đơn ngắn phải được hoàn thành, xác nhận máy ép có trong đợt thu hồi, và một bức ảnh của máy đã rút phích cắm với dây điện bị cắt phải được tải lên. Hoàn tiền sẽ được phát hành qua séc khi mẫu đơn được xử lý và xác nhận dây điện được nhận."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Hoàn tiền"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    },
+    {
+      "RecallID": 10125,
+      "RecallNumber": "25090",
+      "RecallDate": "2025-01-16T00:00:00",
+      "Description": "Lexmark is recalling its specialty printers, specifically the MS725dvn and MX725adve models, which are designed for printing on various materials including paper and vinyl. These printers are identifiable by their model numbers located on the top cover and door. The MX725dvn model features a large multifunction sorter on top, and both models have a white front with black sides and top, prominently displaying the Lexmark logo.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/Lexmark-International-Recalls-Specialty-Printers-Due-to-Fire-Hazard",
+      "Title": "Lexmark Recalls Specialty Printers Due to Fire Risk",
+      "ConsumerContact": "For assistance, consumers can reach Lexmark at 866-470-1574 from 9 a.m. to 9 p.m. ET, Monday through Friday. You can also email them at safety@lexmark.com or visit http://www.lexmark.com/recall for more details.",
+      "LastPublishDate": "2025-01-16T00:00:00",
+      "Products": [
+        {
+          "Name": "Lexmark MS725dvn Specialty Printer",
+          "NumberOfUnits": "About 43,510 (In addition, about 4,000 were sold in Canada)"
+        }
+      ],
+      "Inconjunctions": [
+        {
+          "URL": "https://recalls-rappels.canada.ca/en/alert-recall/lexmark-specialty-printers-recalled-due-fire-hazard"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/business-and-office-machines/2-Lexmark-MS725dvn-Specialty-Printer/baa5b26150b8ece74d8e264269e50b5b.webp",
+          "Caption": "Recalled MS725dvn Specialty Printer",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Lexmark-1.png"
+        },
+        {
+          "URL": "/images/generalRecalls/business-and-office-machines/2-Lexmark-MS725dvn-Specialty-Printer/c565f2702b5b019d7696b33148df29ad.webp",
+          "Caption": "Recalled MX725adve Specialty Printer",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Lexmark-2.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received two reports of the printers overheating including one reported fire. No damage or injuries have been reported."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available online at lexmark.com, CDW Logistics, Tech Data Product Management Inc., and Insight Direct USA Inc. from June 2018 to November 2024, priced between $1,000 and $4,200."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Lexmark International Inc., of Lexington, Kentucky"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Potential fire hazard due to dislodging metal part inside the printer"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should cease using the printers and contact Lexmark for a free repair part that installs easily inside the rear access panel."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ],
+      "slug": "lexmark-recalls-specialty-printers-due-to-fire-risk-recall",
+      "metaDescription": "Lexmark recalls specialty printers due to a fire hazard. Contact Lexmark for a free repair part and stop using the affected models immediately.",
+      "languages": {
+        "en": {
+          "Title": "Lexmark Recalls Specialty Printers Due to Fire Risk",
+          "Description": "Lexmark is recalling its specialty printers, specifically the MS725dvn and MX725adve models, which are designed for printing on various materials including paper and vinyl. These printers are identifiable by their model numbers located on the top cover and door. The MX725dvn model features a large multifunction sorter on top, and both models have a white front with black sides and top, prominently displaying the Lexmark logo.",
+          "ConsumerContact": "For assistance, consumers can reach Lexmark at 866-470-1574 from 9 a.m. to 9 p.m. ET, Monday through Friday. You can also email them at safety@lexmark.com or visit http://www.lexmark.com/recall for more details.",
+          "metaDescription": "Lexmark recalls specialty printers due to a fire hazard. Contact Lexmark for a free repair part and stop using the affected models immediately.",
+          "Products": [
+            {
+              "Name": "Lexmark MS725dvn Specialty Printer",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 43,510 (In addition, about 4,000 were sold in Canada)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled MS725dvn Specialty Printer"
+            },
+            {
+              "Caption": "Recalled MX725adve Specialty Printer"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "The firm has received two reports of the printers overheating including one reported fire. No damage or injuries have been reported."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Available online at lexmark.com, CDW Logistics, Tech Data Product Management Inc., and Insight Direct USA Inc. from June 2018 to November 2024, priced between $1,000 and $4,200."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Lexmark International Inc., of Lexington, Kentucky"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Sold At",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Potential fire hazard due to dislodging metal part inside the printer"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Consumers should cease using the printers and contact Lexmark for a free repair part that installs easily inside the rear access panel."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Repair"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "Lexmark Retira Impresoras Especiales Debido al Riesgo de Incendio",
+          "Description": "Lexmark está retirando sus impresoras especiales, específicamente los modelos MS725dvn y MX725adve, que están diseñadas para imprimir en varios materiales, incluyendo papel y vinilo. Estas impresoras son identificables por sus números de modelo ubicados en la tapa superior y la puerta. El modelo MX725dvn cuenta con un gran clasificador multifuncional en la parte superior, y ambos modelos tienen un frente blanco con lados y parte superior negros, mostrando prominentemente el logo de Lexmark.",
+          "ConsumerContact": "Para asistencia, los consumidores pueden comunicarse con Lexmark al 866-470-1574 de 9 a.m. a 9 p.m. ET, de lunes a viernes. También pueden enviar un correo electrónico a safety@lexmark.com o visitar http://www.lexmark.com/recall para más detalles.",
+          "metaDescription": "Lexmark retira impresoras especiales debido a un riesgo de incendio. Contacte a Lexmark para obtener una pieza de reparación gratuita y deje de usar los modelos afectados de inmediato.",
+          "Products": [
+            {
+              "Name": "Impresora Especial Lexmark MS725dvn",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 43,510 (Además, se vendieron alrededor de 4,000 en Canadá)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Impresora Especial MS725dvn Retirada"
+            },
+            {
+              "Caption": "Impresora Especial MX725adve Retirada"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "La empresa ha recibido dos informes de las impresoras sobrecalentándose, incluyendo un incendio reportado. No se han reportado daños ni lesiones."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible en línea en lexmark.com, CDW Logistics, Tech Data Product Management Inc., e Insight Direct USA Inc. desde junio de 2018 hasta noviembre de 2024, con precios entre $1,000 y $4,200."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Lexmark International Inc., de Lexington, Kentucky"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendido En",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Potencial riesgo de incendio debido a una parte metálica que se desaloja dentro de la impresora"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Los consumidores deben dejar de usar las impresoras y contactar a Lexmark para obtener una pieza de reparación gratuita que se instala fácilmente dentro del panel de acceso trasero."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparar"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "شركة ليكسمارك تستدعي الطابعات المتخصصة بسبب خطر الحريق",
+          "Description": "تستدعي شركة ليكسمارك طابعاتها المتخصصة، وبالتحديد طرازات MS725dvn و MX725adve، المصممة للطباعة على مواد متنوعة بما في ذلك الورق والفينيل. يمكن التعرف على هذه الطابعات من خلال أرقام الطراز الموجودة على الغطاء العلوي والباب. يتميز طراز MX725dvn بوجود فرز متعدد الوظائف كبير في الأعلى، وكلا الطرازين لهما واجهة بيضاء مع جوانب وعلو أسود، مما يعرض شعار ليكسمارك بشكل بارز.",
+          "ConsumerContact": "للمساعدة، يمكن للمستهلكين التواصل مع ليكسمارك على الرقم 866-470-1574 من الساعة 9 صباحًا حتى 9 مساءً بتوقيت شرق الولايات المتحدة، من الاثنين إلى الجمعة. يمكنك أيضًا مراسلتهم عبر البريد الإلكتروني على safety@lexmark.com أو زيارة http://www.lexmark.com/recall لمزيد من التفاصيل.",
+          "metaDescription": "تستدعي ليكسمارك الطابعات المتخصصة بسبب خطر الحريق. اتصل بشركة ليكسمارك للحصول على قطعة إصلاح مجانية وتوقف عن استخدام الطرازات المتأثرة على الفور.",
+          "Products": [
+            {
+              "Name": "طابعة ليكسمارك MS725dvn المتخصصة",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 43,510 (بالإضافة إلى ذلك، تم بيع حوالي 4,000 في كندا)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "طابعة MS725dvn المتخصصة المستدعاة"
+            },
+            {
+              "Caption": "طابعة MX725adve المتخصصة المستدعاة"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "تلقت الشركة تقريرين عن ارتفاع درجة حرارة الطابعات بما في ذلك حريق واحد تم الإبلاغ عنه. لم يتم الإبلاغ عن أي أضرار أو إصابات."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "متاحة عبر الإنترنت على lexmark.com، CDW Logistics، Tech Data Product Management Inc.، و Insight Direct USA Inc. من يونيو 2018 إلى نوفمبر 2024، بأسعار تتراوح بين 1,000 و 4,200 دولار."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "شركة ليكسمارك الدولية، من ليكسينغتون، كنتاكي"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "تم البيع في",
+          "ManufacturerCountries": [
+            {
+              "Country": "الصين"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "خطر حريق محتمل بسبب انزلاق جزء معدني داخل الطابعة"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "يجب على المستهلكين التوقف عن استخدام الطابعات والتواصل مع ليكسمارك للحصول على قطعة إصلاح مجانية يمكن تثبيتها بسهولة داخل لوحة الوصول الخلفية."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "إصلاح"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "莱克斯马克因火灾风险召回特殊打印机",
+          "Description": "莱克斯马克正在召回其特殊打印机，特别是 MS725dvn 和 MX725adve 型号，这些打印机设计用于在包括纸张和乙烯基在内的各种材料上打印。这些打印机可以通过位于顶部盖子和门上的型号来识别。MX725dvn 型号在顶部配有一个大型多功能分拣器，两种型号的前面都是白色，侧面和顶部为黑色，明显显示莱克斯马克的标志。",
+          "ConsumerContact": "如需帮助，消费者可以在东部时间周一至周五上午 9 点至晚上 9 点拨打 866-470-1574 联系莱克斯马克。您也可以通过 safety@lexmark.com 发送电子邮件或访问 http://www.lexmark.com/recall 获取更多详细信息。",
+          "metaDescription": "莱克斯马克因火灾隐患召回特殊打印机。请立即停止使用受影响的型号，并联系莱克斯马克获取免费维修零件。",
+          "Products": [
+            {
+              "Name": "莱克斯马克 MS725dvn 特殊打印机",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约 43,510 台（此外，约 4,000 台在加拿大销售）"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "召回的 MS725dvn 特殊打印机"
+            },
+            {
+              "Caption": "召回的 MX725adve 特殊打印机"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "该公司已收到两起打印机过热的报告，包括一起报告的火灾。未报告任何损坏或伤害。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "在 lexmark.com、CDW Logistics、Tech Data 产品管理公司和 Insight Direct USA Inc. 在线销售，销售时间为 2018 年 6 月至 2024 年 11 月，价格在 $1,000 到 $4,200 之间。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "莱克斯马克国际公司，位于肯塔基州列克星敦"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "销售地点",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "由于打印机内部金属部件脱落的潜在火灾隐患"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "消费者应停止使用打印机，并联系莱克斯马克获取可轻松安装在后面接入面板内的免费维修零件。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "维修"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "Lexmark rappelle des imprimantes spécialisées en raison d'un risque d'incendie",
+          "Description": "Lexmark rappelle ses imprimantes spécialisées, en particulier les modèles MS725dvn et MX725adve, qui sont conçues pour imprimer sur divers matériaux, y compris le papier et le vinyle. Ces imprimantes sont identifiables par leurs numéros de modèle situés sur le couvercle supérieur et la porte. Le modèle MX725dvn dispose d'un grand trieur multifonction sur le dessus, et les deux modèles ont un devant blanc avec des côtés et un dessus noirs, affichant en évidence le logo Lexmark.",
+          "ConsumerContact": "Pour assistance, les consommateurs peuvent contacter Lexmark au 866-470-1574 de 9 h à 21 h HNE, du lundi au vendredi. Vous pouvez également leur envoyer un courriel à safety@lexmark.com ou visiter http://www.lexmark.com/recall pour plus de détails.",
+          "metaDescription": "Lexmark rappelle des imprimantes spécialisées en raison d'un risque d'incendie. Contactez Lexmark pour une pièce de réparation gratuite et cessez d'utiliser les modèles concernés immédiatement.",
+          "Products": [
+            {
+              "Name": "Imprimante spécialisée Lexmark MS725dvn",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 43 510 (De plus, environ 4 000 ont été vendues au Canada)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Imprimante spécialisée MS725dvn rappelée"
+            },
+            {
+              "Caption": "Imprimante spécialisée MX725adve rappelée"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "L'entreprise a reçu deux rapports de surchauffe des imprimantes, dont un incendie signalé. Aucun dommage ni blessure n'ont été signalés."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible en ligne sur lexmark.com, CDW Logistics, Tech Data Product Management Inc., et Insight Direct USA Inc. de juin 2018 à novembre 2024, au prix compris entre 1 000 $ et 4 200 $."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Lexmark International Inc., de Lexington, Kentucky"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendu À",
+          "ManufacturerCountries": [
+            {
+              "Country": "Chine"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risque d'incendie potentiel en raison d'une pièce métallique délogée à l'intérieur de l'imprimante"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Les consommateurs doivent cesser d'utiliser les imprimantes et contacter Lexmark pour une pièce de réparation gratuite qui s'installe facilement à l'intérieur du panneau d'accès arrière."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Réparation"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "Lexmark ruft Spezialdrucker wegen Brandgefahr zurück",
+          "Description": "Lexmark ruft seine Spezialdrucker zurück, insbesondere die Modelle MS725dvn und MX725adve, die für das Drucken auf verschiedenen Materialien, einschließlich Papier und Vinyl, konzipiert sind. Diese Drucker sind an ihren Modellnummern zu erkennen, die sich auf der oberen Abdeckung und Tür befinden. Das Modell MX725dvn verfügt über einen großen Multifunktionssortierer oben, und beide Modelle haben eine weiße Vorderseite mit schwarzen Seiten und oben, die das Lexmark-Logo deutlich anzeigen.",
+          "ConsumerContact": "Für Unterstützung können Verbraucher Lexmark unter 866-470-1574 von 9 bis 21 Uhr ET, Montag bis Freitag, erreichen. Sie können ihnen auch eine E-Mail an safety@lexmark.com senden oder die Website http://www.lexmark.com/recall besuchen, um weitere Details zu erhalten.",
+          "metaDescription": "Lexmark ruft Spezialdrucker wegen Brandgefahr zurück. Kontaktieren Sie Lexmark für ein kostenloses Reparaturteil und verwenden Sie die betroffenen Modelle sofort nicht mehr.",
+          "Products": [
+            {
+              "Name": "Lexmark MS725dvn Spezialdrucker",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 43.510 (Zusätzlich wurden etwa 4.000 in Kanada verkauft)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Zurückgerufener MS725dvn Spezialdrucker"
+            },
+            {
+              "Caption": "Zurückgerufener MX725adve Spezialdrucker"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Das Unternehmen hat zwei Berichte über überhitzte Drucker erhalten, darunter einen gemeldeten Brand. Es wurden keine Schäden oder Verletzungen gemeldet."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Online erhältlich bei lexmark.com, CDW Logistics, Tech Data Product Management Inc. und Insight Direct USA Inc. von Juni 2018 bis November 2024, zu Preisen zwischen 1.000 und 4.200 US-Dollar."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Lexmark International Inc., aus Lexington, Kentucky"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Verkauft bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Potenzielle Brandgefahr durch lose Metallteile im Inneren des Druckers"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Verbraucher sollten die Drucker nicht mehr verwenden und Lexmark für ein kostenloses Reparaturteil kontaktieren, das einfach im hinteren Zugangspanel installiert werden kann."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparatur"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "レックスマーク、火災リスクのため特別プリンターをリコール",
+          "Description": "レックスマークは、MS725dvnおよびMX725adveモデルの特別プリンターをリコールしています。これらのプリンターは、紙やビニールを含むさまざまな材料に印刷するために設計されています。これらのプリンターは、上部カバーとドアにあるモデル番号で識別できます。MX725dvnモデルは上部に大きな多機能ソーターを備えており、両モデルは白い前面と黒い側面および上部を持ち、レックスマークのロゴが目立っています。",
+          "ConsumerContact": "サポートが必要な場合、消費者は月曜日から金曜日の午前9時から午後9時（ET）まで、866-470-1574でレックスマークに連絡できます。安全に関する詳細は、safety@lexmark.comにメールを送信するか、http://www.lexmark.com/recallを訪れてください。",
+          "metaDescription": "レックスマークは火災の危険性のため特別プリンターをリコールしています。影響を受けたモデルの使用を直ちに中止し、レックスマークに無料の修理部品を請求してください。",
+          "Products": [
+            {
+              "Name": "レックスマーク MS725dvn 特別プリンター",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約43,510台（さらに、約4,000台がカナダで販売されました）"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコールされたMS725dvn特別プリンター"
+            },
+            {
+              "Caption": "リコールされたMX725adve特別プリンター"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "同社は、プリンターの過熱に関する2件の報告を受けており、そのうち1件は火災が報告されています。損害や怪我の報告はありません。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "2018年6月から2024年11月まで、lexmark.com、CDW Logistics、Tech Data Product Management Inc.、およびInsight Direct USA Inc.でオンライン販売されており、価格は1,000ドルから4,200ドルの間です。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "レックスマークインターナショナル株式会社、ケンタッキー州レキシントン"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "販売場所",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "プリンター内部の金属部品が外れることによる火災の危険性"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "消費者はプリンターの使用を中止し、レックスマークに連絡して、後部アクセスパネル内に簡単に取り付けられる無料の修理部品を請求するべきです。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "修理"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "Lexmark Recalls Impressoras Especiais Devido ao Risco de Incêndio",
+          "Description": "A Lexmark está recallando suas impressoras especiais, especificamente os modelos MS725dvn e MX725adve, que são projetados para impressão em vários materiais, incluindo papel e vinil. Essas impressoras são identificáveis pelos números dos modelos localizados na tampa superior e na porta. O modelo MX725dvn apresenta um grande classificador multifuncional na parte superior, e ambos os modelos têm uma frente branca com lados e parte superior pretos, exibindo proeminentemente o logotipo da Lexmark.",
+          "ConsumerContact": "Para assistência, os consumidores podem entrar em contato com a Lexmark pelo telefone 866-470-1574, das 9h às 21h ET, de segunda a sexta-feira. Você também pode enviar um e-mail para safety@lexmark.com ou visitar http://www.lexmark.com/recall para mais detalhes.",
+          "metaDescription": "A Lexmark recall suas impressoras especiais devido a um risco de incêndio. Entre em contato com a Lexmark para obter uma peça de reparo gratuita e pare de usar os modelos afetados imediatamente.",
+          "Products": [
+            {
+              "Name": "Impressora Especial Lexmark MS725dvn",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 43.510 (Além disso, cerca de 4.000 foram vendidas no Canadá)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Impressora Especial MS725dvn Recallada"
+            },
+            {
+              "Caption": "Impressora Especial MX725adve Recallada"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "A empresa recebeu dois relatos de superaquecimento das impressoras, incluindo um incêndio relatado. Nenhum dano ou ferimentos foram relatados."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponível online em lexmark.com, CDW Logistics, Tech Data Product Management Inc. e Insight Direct USA Inc. de junho de 2018 a novembro de 2024, com preços entre $1.000 e $4.200."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Lexmark International Inc., de Lexington, Kentucky"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendido Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Potencial risco de incêndio devido ao deslocamento de peça metálica dentro da impressora"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Os consumidores devem parar de usar as impressoras e entrar em contato com a Lexmark para obter uma peça de reparo gratuita que se instala facilmente dentro do painel de acesso traseiro."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparo"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "लेक्समार्क ने आग के जोखिम के कारण विशेष प्रिंटर वापस बुलाए",
+          "Description": "लेक्समार्क अपने विशेष प्रिंटर, विशेष रूप से MS725dvn और MX725adve मॉडल, को वापस बुला रहा है, जो विभिन्न सामग्रियों पर प्रिंटिंग के लिए डिज़ाइन किए गए हैं, जिसमें कागज और विनाइल शामिल हैं। इन प्रिंटरों की पहचान उनके मॉडल नंबर से की जा सकती है जो शीर्ष कवर और दरवाजे पर स्थित हैं। MX725dvn मॉडल के शीर्ष पर एक बड़ा मल्टीफंक्शन सॉर्टर है, और दोनों मॉडल का सफेद फ्रंट है जिसमें काले किनारे और शीर्ष हैं, जो लेक्समार्क लोगो को प्रमुखता से प्रदर्शित करते हैं।",
+          "ConsumerContact": "सहायता के लिए, उपभोक्ता लेक्समार्क से 866-470-1574 पर सुबह 9 बजे से रात 9 बजे तक ET, सोमवार से शुक्रवार तक संपर्क कर सकते हैं। आप उन्हें safety@lexmark.com पर ईमेल भी कर सकते हैं या अधिक जानकारी के लिए http://www.lexmark.com/recall पर जा सकते हैं।",
+          "metaDescription": "लेक्समार्क आग के खतरे के कारण विशेष प्रिंटर वापस बुलाता है। प्रभावित मॉडलों का उपयोग तुरंत बंद करें और मुफ्त मरम्मत भाग के लिए लेक्समार्क से संपर्क करें।",
+          "Products": [
+            {
+              "Name": "लेक्समार्क MS725dvn विशेष प्रिंटर",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 43,510 (इसके अतिरिक्त, लगभग 4,000 कनाडा में बेचे गए)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "वापस बुलाया गया MS725dvn विशेष प्रिंटर"
+            },
+            {
+              "Caption": "वापस बुलाया गया MX725adve विशेष प्रिंटर"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "कंपनी को प्रिंटर के अधिक गर्म होने की दो रिपोर्ट मिली हैं, जिसमें एक रिपोर्ट की गई आग शामिल है। कोई नुकसान या चोट की सूचना नहीं मिली है।"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "जून 2018 से नवंबर 2024 तक lexmark.com, CDW लॉजिस्टिक्स, टेक डेटा प्रोडक्ट मैनेजमेंट इंक., और इनसाइट डायरेक्ट यूएसए इंक. पर ऑनलाइन उपलब्ध, कीमत $1,000 से $4,200 के बीच।"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "लेक्समार्क इंटरनेशनल इंक., लेक्सिंगटन, केंटकी"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "चीन"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "प्रिंटर के अंदर धातु के भाग के स्थानांतरित होने के कारण संभावित आग का खतरा"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "उपभोक्ताओं को प्रिंटर का उपयोग बंद कर देना चाहिए और मुफ्त मरम्मत भाग के लिए लेक्समार्क से संपर्क करना चाहिए जो पीछे के एक्सेस पैनल के अंदर आसानी से स्थापित होता है।"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "मरम्मत"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "Lexmark отзывает специализированные принтеры из-за риска возгорания",
+          "Description": "Lexmark отзывает свои специализированные принтеры, в частности модели MS725dvn и MX725adve, которые предназначены для печати на различных материалах, включая бумагу и винил. Эти принтеры можно идентифицировать по их номерам моделей, расположенным на верхней крышке и двери. Модель MX725dvn имеет большой многофункциональный сортировщик сверху, а обе модели имеют белый перед с черными боками и верхом, на которых ярко отображается логотип Lexmark.",
+          "ConsumerContact": "Для получения помощи потребители могут обратиться в Lexmark по телефону 866-470-1574 с 9:00 до 21:00 по восточному времени с понедельника по пятницу. Вы также можете написать им на электронную почту safety@lexmark.com или посетить http://www.lexmark.com/recall для получения дополнительной информации.",
+          "metaDescription": "Lexmark отзывает специализированные принтеры из-за риска возгорания. Свяжитесь с Lexmark для получения бесплатной запчасти для ремонта и немедленно прекратите использование затронутых моделей.",
+          "Products": [
+            {
+              "Name": "Специализированный принтер Lexmark MS725dvn",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 43,510 (Кроме того, около 4,000 были проданы в Канаде)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванный специализированный принтер MS725dvn"
+            },
+            {
+              "Caption": "Отозванный специализированный принтер MX725adve"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Компания получила два сообщения о перегреве принтеров, включая один случай возгорания. Повреждений или травм не сообщалось."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Доступно онлайн на lexmark.com, CDW Logistics, Tech Data Product Management Inc. и Insight Direct USA Inc. с июня 2018 года по ноябрь 2024 года, по цене от 1,000 до 4,200 долларов."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Lexmark International Inc., Лексингтон, Кентукки"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Продавалось в",
+          "ManufacturerCountries": [
+            {
+              "Country": "Китай"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Потенциальная угроза возгорания из-за смещения металлической детали внутри принтера"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Потребители должны прекратить использование принтеров и обратиться в Lexmark для получения бесплатной запчасти для ремонта, которая легко устанавливается внутри задней панели доступа."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Ремонт"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "Lexmark Thu Hồi Máy In Đặc Biệt Do Nguy Cơ Cháy",
+          "Description": "Lexmark đang thu hồi các máy in đặc biệt của mình, cụ thể là các mẫu MS725dvn và MX725adve, được thiết kế để in trên nhiều loại vật liệu bao gồm giấy và vinyl. Các máy in này có thể nhận diện qua số mẫu nằm trên nắp trên và cửa. Mẫu MX725dvn có một bộ phân loại đa chức năng lớn ở trên cùng, và cả hai mẫu đều có mặt trước màu trắng với các bên và mặt trên màu đen, hiển thị rõ ràng logo Lexmark.",
+          "ConsumerContact": "Để được hỗ trợ, người tiêu dùng có thể liên hệ với Lexmark qua số 866-470-1574 từ 9 giờ sáng đến 9 giờ tối theo giờ ET, từ thứ Hai đến thứ Sáu. Bạn cũng có thể gửi email cho họ tại safety@lexmark.com hoặc truy cập http://www.lexmark.com/recall để biết thêm chi tiết.",
+          "metaDescription": "Lexmark thu hồi máy in đặc biệt do nguy cơ cháy. Liên hệ với Lexmark để nhận một bộ phận sửa chữa miễn phí và ngừng sử dụng các mẫu bị ảnh hưởng ngay lập tức.",
+          "Products": [
+            {
+              "Name": "Máy In Đặc Biệt Lexmark MS725dvn",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 43,510 (Ngoài ra, khoảng 4,000 đã được bán ở Canada)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Máy In Đặc Biệt MS725dvn Được Thu Hồi"
+            },
+            {
+              "Caption": "Máy In Đặc Biệt MX725adve Được Thu Hồi"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Công ty đã nhận được hai báo cáo về việc máy in quá nhiệt, bao gồm một báo cáo về cháy. Không có thiệt hại hoặc thương tích nào được báo cáo."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Có sẵn trực tuyến tại lexmark.com, CDW Logistics, Tech Data Product Management Inc., và Insight Direct USA Inc. từ tháng 6 năm 2018 đến tháng 11 năm 2024, với giá từ 1,000 đến 4,200 đô la."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Lexmark International Inc., tại Lexington, Kentucky"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Bán Tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Trung Quốc"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Nguy cơ cháy tiềm ẩn do bộ phận kim loại bên trong máy in bị lỏng"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Người tiêu dùng nên ngừng sử dụng các máy in và liên hệ với Lexmark để nhận một bộ phận sửa chữa miễn phí dễ dàng lắp đặt bên trong bảng truy cập phía sau."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Sửa Chữa"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    }
+  ]
+}

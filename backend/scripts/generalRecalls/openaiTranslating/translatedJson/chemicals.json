@@ -1,0 +1,2384 @@
+{
+  "meta": {
+    "slug": "chemicals",
+    "sourceCsvFile": "chemicals_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:36.865Z",
+    "recallCount": 3,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "chemicals.json",
+    "seoTranslatedAt": "2026-04-03T22:38:14.916Z",
+    "resumePartial": false,
+    "i18nSource": "generalRecallsTranslated",
+    "i18nSourceFile": "chemicals.json",
+    "i18nUiLangs": [
+      "en",
+      "es",
+      "ar",
+      "zh",
+      "fr",
+      "de",
+      "ja",
+      "pt",
+      "hi",
+      "ru",
+      "vi"
+    ],
+    "i18nProgressByLang": {
+      "es": 3,
+      "ar": 3,
+      "zh": 3,
+      "fr": 3,
+      "de": 3,
+      "ja": 3,
+      "pt": 3,
+      "hi": 3,
+      "ru": 3,
+      "vi": 3
+    },
+    "i18nInProgress": false,
+    "i18nTranslatedAt": "2026-04-07T00:24:24.139Z",
+    "i18nOpenaiModel": "gpt-4o-mini"
+  },
+  "recalls": [
+    {
+      "RecallID": 10194,
+      "RecallNumber": "25173",
+      "RecallDate": "2025-03-06T00:00:00",
+      "Description": "Taylor Water Technologies is recalling Phosphate Reagent #1 bottles included in the Taylor Phosphate Test Kits #K-1106, as well as those sold separately. These kits are designed for testing phosphate levels in water for pools, spas, and aquariums. The affected bottles contain sulfuric acid and are labeled as Phosphate Reagent #1, with part number R-0980 and a volume of 22 mL (.75 oz). The shelf-life of Phosphate Reagent #1 is 24 months.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/Taylor-Water-Technologies-Recalls-Phosphate-Reagent-Bottles-Sold-with-Test-Kits-Due-to-Risk-of-Severe-Chemical-Burns-Violation-of-Federal-Regulation-for-Child-Resistant-Packaging",
+      "Title": "Taylor Water Technologies Recalls Phosphate Reagent #1 Bottles Due to Chemical Burn Risk and Non-Compliant Packaging",
+      "ConsumerContact": "For assistance, consumers can reach Taylor Water Technologies at 800-837-8548 from 8 a.m. to 5 p.m. ET, Monday through Friday, or visit their website at https://www.taylortechnologies.com for more information on the recall.",
+      "LastPublishDate": "2025-03-06T00:00:00",
+      "Products": [
+        {
+          "Name": "Phosphate Reagent #1 Bottles from Taylor Phosphate Test Kits",
+          "NumberOfUnits": "About 10,000"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/chemicals/1-Phosphate-Reagent-1-Bottles-from-Taylor-Phosphate-Test-Kits/cd1df4673b21bc8be793b8c89141d1d0.webp",
+          "Caption": "Recalled Phosphate Reagent #1 bottle sold within the Taylor Phosphate Test Kits",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Phosphate-Reagent-1.png"
+        },
+        {
+          "URL": "/images/generalRecalls/chemicals/1-Phosphate-Reagent-1-Bottles-from-Taylor-Phosphate-Test-Kits/3e129b088b467238085ab217e8102ab6.webp",
+          "Caption": "Taylor Phosphate Test Kit with recalled Phosphate Reagent #1 bottle",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Phosphate-Reagent-2.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "Taylor Water Technologies LLC, of Sparks, Maryland"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available online at www.taylortechnologies.com and in pool and aquarium retail stores across the country from August 2022 through August 2024, priced around $13 for the reagent bottles and $56 for the complete kits."
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "United States"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of chemical burns due to sulfuric acid in non-child-resistant packaging"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Stop using the recalled bottles, secure them away from children, and contact Taylor Water Technologies for disposal instructions and a free replacement."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Replace"
+        }
+      ],
+      "slug": "taylor-water-technologies-recalls-phosphate-reagent-1-bottles-due-to-chemical-burn-risk-and-non-compliant-packaging-recall",
+      "metaDescription": "Taylor Water Technologies recalls Phosphate Reagent #1 bottles due to chemical burn risk and non-compliance with safety packaging regulations.",
+      "languages": {
+        "en": {
+          "Title": "Taylor Water Technologies Recalls Phosphate Reagent #1 Bottles Due to Chemical Burn Risk and Non-Compliant Packaging",
+          "Description": "Taylor Water Technologies is recalling Phosphate Reagent #1 bottles included in the Taylor Phosphate Test Kits #K-1106, as well as those sold separately. These kits are designed for testing phosphate levels in water for pools, spas, and aquariums. The affected bottles contain sulfuric acid and are labeled as Phosphate Reagent #1, with part number R-0980 and a volume of 22 mL (.75 oz). The shelf-life of Phosphate Reagent #1 is 24 months.",
+          "ConsumerContact": "For assistance, consumers can reach Taylor Water Technologies at 800-837-8548 from 8 a.m. to 5 p.m. ET, Monday through Friday, or visit their website at https://www.taylortechnologies.com for more information on the recall.",
+          "metaDescription": "Taylor Water Technologies recalls Phosphate Reagent #1 bottles due to chemical burn risk and non-compliance with safety packaging regulations.",
+          "Products": [
+            {
+              "Name": "Phosphate Reagent #1 Bottles from Taylor Phosphate Test Kits",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 10,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled Phosphate Reagent #1 bottle sold within the Taylor Phosphate Test Kits"
+            },
+            {
+              "Caption": "Taylor Phosphate Test Kit with recalled Phosphate Reagent #1 bottle"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "None reported"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Available online at www.taylortechnologies.com and in pool and aquarium retail stores across the country from August 2022 through August 2024, priced around $13 for the reagent bottles and $56 for the complete kits."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Taylor Water Technologies LLC, of Sparks, Maryland"
+            }
+          ],
+          "SoldAtLabel": "Sold At",
+          "ManufacturerCountries": [
+            {
+              "Country": "United States"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risk of chemical burns due to sulfuric acid in non-child-resistant packaging"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Stop using the recalled bottles, secure them away from children, and contact Taylor Water Technologies for disposal instructions and a free replacement."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Replace"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "Taylor Water Technologies retira del mercado botellas de Reactivo de Fosfato #1 debido al riesgo de quemaduras químicas y empaque no conforme",
+          "Description": "Taylor Water Technologies está retirando del mercado las botellas de Reactivo de Fosfato #1 incluidas en los Kits de Prueba de Fosfato de Taylor #K-1106, así como las vendidas por separado. Estos kits están diseñados para medir los niveles de fosfato en el agua para piscinas, spas y acuarios. Las botellas afectadas contienen ácido sulfúrico y están etiquetadas como Reactivo de Fosfato #1, con el número de parte R-0980 y un volumen de 22 mL (0.75 oz). La vida útil del Reactivo de Fosfato #1 es de 24 meses.",
+          "ConsumerContact": "Para asistencia, los consumidores pueden comunicarse con Taylor Water Technologies al 800-837-8548 de 8 a.m. a 5 p.m. ET, de lunes a viernes, o visitar su sitio web en https://www.taylortechnologies.com para obtener más información sobre el retiro.",
+          "metaDescription": "Taylor Water Technologies retira del mercado botellas de Reactivo de Fosfato #1 debido al riesgo de quemaduras químicas y no conformidad con las regulaciones de empaque de seguridad.",
+          "Products": [
+            {
+              "Name": "Botellas de Reactivo de Fosfato #1 de los Kits de Prueba de Fosfato de Taylor",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Alrededor de 10,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Botella de Reactivo de Fosfato #1 retirada vendida dentro de los Kits de Prueba de Fosfato de Taylor"
+            },
+            {
+              "Caption": "Kit de Prueba de Fosfato de Taylor con botella de Reactivo de Fosfato #1 retirada"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Ninguna reportada"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible en línea en www.taylortechnologies.com y en tiendas minoristas de piscinas y acuarios en todo el país desde agosto de 2022 hasta agosto de 2024, con un precio de alrededor de $13 para las botellas de reactivo y $56 para los kits completos."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Taylor Water Technologies LLC, de Sparks, Maryland"
+            }
+          ],
+          "SoldAtLabel": "Vendido En",
+          "ManufacturerCountries": [
+            {
+              "Country": "Estados Unidos"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Riesgo de quemaduras químicas debido al ácido sulfúrico en empaque no resistente a niños"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Deje de usar las botellas retiradas, manténgalas fuera del alcance de los niños y comuníquese con Taylor Water Technologies para obtener instrucciones de eliminación y un reemplazo gratuito."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reemplazar"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "تذكير تكنولوجيا المياه تايلور بسحب زجاجات كاشف الفوسفات #1 بسبب خطر الحروق الكيميائية وتغليف غير متوافق",
+          "Description": "تقوم تكنولوجيا المياه تايلور بسحب زجاجات كاشف الفوسفات #1 المدرجة في مجموعات اختبار الفوسفات تايلور #K-1106، بالإضافة إلى تلك المباعة بشكل منفصل. تم تصميم هذه المجموعات لاختبار مستويات الفوسفات في المياه للحمامات، والمنتجعات، والأحواض السمكية. تحتوي الزجاجات المتأثرة على حمض الكبريتيك وموسومة ككاشف فوسفات #1، برقم جزء R-0980 وحجم 22 مل (.75 أونصة). مدة صلاحية كاشف الفوسفات #1 هي 24 شهرًا.",
+          "ConsumerContact": "للمساعدة، يمكن للمستهلكين التواصل مع تكنولوجيا المياه تايلور على الرقم 800-837-8548 من الساعة 8 صباحًا حتى 5 مساءً بتوقيت شرق الولايات المتحدة، من الاثنين إلى الجمعة، أو زيارة موقعهم على الإنترنت على https://www.taylortechnologies.com لمزيد من المعلومات حول السحب.",
+          "metaDescription": "تقوم تكنولوجيا المياه تايلور بسحب زجاجات كاشف الفوسفات #1 بسبب خطر الحروق الكيميائية وعدم الامتثال للوائح تغليف السلامة.",
+          "Products": [
+            {
+              "Name": "زجاجات كاشف الفوسفات #1 من مجموعات اختبار الفوسفات تايلور",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 10,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "زجاجة كاشف الفوسفات #1 المسحوبة المباعة ضمن مجموعات اختبار الفوسفات تايلور"
+            },
+            {
+              "Caption": "مجموعة اختبار الفوسفات تايلور مع زجاجة كاشف الفوسفات #1 المسحوبة"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "لا توجد إصابات مسجلة"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "متاحة عبر الإنترنت على www.taylortechnologies.com وفي متاجر بيع أحواض السباحة والأحواض السمكية في جميع أنحاء البلاد من أغسطس 2022 حتى أغسطس 2024، بسعر حوالي 13 دولارًا لزجاجات الكاشف و56 دولارًا للمجموعات الكاملة."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "تكنولوجيا المياه تايلور ذ.م.م، من سباركس، ماريلاند"
+            }
+          ],
+          "SoldAtLabel": "تم البيع في",
+          "ManufacturerCountries": [
+            {
+              "Country": "الولايات المتحدة"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "خطر الحروق الكيميائية بسبب حمض الكبريتيك في تغليف غير مقاوم للأطفال"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "توقف عن استخدام الزجاجات المسحوبة، واحتفظ بها بعيدًا عن الأطفال، وتواصل مع تكنولوجيا المياه تايلور للحصول على تعليمات التخلص واستبدال مجاني."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "استبدال"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "泰勒水技术公司召回磷酸试剂#1瓶，因化学烧伤风险和不合规包装",
+          "Description": "泰勒水技术公司正在召回包含在泰勒磷酸测试套件#K-1106中的磷酸试剂#1瓶，以及单独销售的瓶子。这些套件旨在测试游泳池、水疗中心和水族馆中的磷酸盐水平。受影响的瓶子含有硫酸，并标记为磷酸试剂#1，部件号为R-0980，容量为22毫升（0.75盎司）。磷酸试剂#1的保质期为24个月。",
+          "ConsumerContact": "如需帮助，消费者可以在东部时间周一至周五上午8点至下午5点拨打800-837-8548联系泰勒水技术公司，或访问他们的网站https://www.taylortechnologies.com以获取有关召回的更多信息。",
+          "metaDescription": "泰勒水技术公司召回磷酸试剂#1瓶，因化学烧伤风险和不符合安全包装规定。",
+          "Products": [
+            {
+              "Name": "来自泰勒磷酸测试套件的磷酸试剂#1瓶",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约10,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "在泰勒磷酸测试套件中销售的召回磷酸试剂#1瓶"
+            },
+            {
+              "Caption": "带有召回磷酸试剂#1瓶的泰勒磷酸测试套件"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "未报告伤害"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "自2022年8月至2024年8月在www.taylortechnologies.com在线和全国各地的游泳池和水族馆零售店有售，试剂瓶价格约为13美元，完整套件价格为56美元。"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "泰勒水技术公司，位于马里兰州斯帕克斯"
+            }
+          ],
+          "SoldAtLabel": "销售地点",
+          "ManufacturerCountries": [
+            {
+              "Country": "美国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "因硫酸在非儿童安全包装中的风险导致化学烧伤"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "停止使用召回的瓶子，将其放置在儿童无法接触的地方，并联系泰勒水技术公司获取处理说明和免费更换。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "更换"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "Taylor Water Technologies rappelle les bouteilles de réactif phosphate n° 1 en raison du risque de brûlures chimiques et d'un emballage non conforme",
+          "Description": "Taylor Water Technologies rappelle les bouteilles de réactif phosphate n° 1 incluses dans les kits de test phosphate Taylor n° K-1106, ainsi que celles vendues séparément. Ces kits sont conçus pour tester les niveaux de phosphate dans l'eau pour les piscines, les spas et les aquariums. Les bouteilles concernées contiennent de l'acide sulfurique et sont étiquetées comme réactif phosphate n° 1, avec le numéro de pièce R-0980 et un volume de 22 mL (0,75 oz). La durée de conservation du réactif phosphate n° 1 est de 24 mois.",
+          "ConsumerContact": "Pour toute assistance, les consommateurs peuvent contacter Taylor Water Technologies au 800-837-8548 de 8 h à 17 h HE, du lundi au vendredi, ou visiter leur site Web à l'adresse https://www.taylortechnologies.com pour plus d'informations sur le rappel.",
+          "metaDescription": "Taylor Water Technologies rappelle les bouteilles de réactif phosphate n° 1 en raison du risque de brûlures chimiques et de non-conformité aux réglementations sur l'emballage de sécurité.",
+          "Products": [
+            {
+              "Name": "Bouteilles de réactif phosphate n° 1 des kits de test phosphate Taylor",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 10 000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Bouteille de réactif phosphate n° 1 rappelée vendue dans les kits de test phosphate Taylor"
+            },
+            {
+              "Caption": "Kit de test phosphate Taylor avec bouteille de réactif phosphate n° 1 rappelée"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Aucune rapportée"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible en ligne sur www.taylortechnologies.com et dans les magasins de détail de piscines et d'aquariums à travers le pays d'août 2022 à août 2024, au prix d'environ 13 $ pour les bouteilles de réactif et 56 $ pour les kits complets."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Taylor Water Technologies LLC, de Sparks, Maryland"
+            }
+          ],
+          "SoldAtLabel": "Vendu À",
+          "ManufacturerCountries": [
+            {
+              "Country": "États-Unis"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risque de brûlures chimiques en raison de l'acide sulfurique dans un emballage non résistant aux enfants"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Cesser d'utiliser les bouteilles rappelées, les sécuriser hors de portée des enfants et contacter Taylor Water Technologies pour des instructions d'élimination et un remplacement gratuit."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Remplacer"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "Taylor Water Technologies ruft Phosphat-Reagenz #1 Flaschen aufgrund von Chemikalienbrandrisiko und nicht konformer Verpackung zurück",
+          "Description": "Taylor Water Technologies ruft Phosphat-Reagenz #1 Flaschen zurück, die in den Taylor Phosphat-Testkits #K-1106 enthalten sind, sowie solche, die separat verkauft wurden. Diese Kits sind zum Testen der Phosphatwerte im Wasser für Pools, Spas und Aquarien konzipiert. Die betroffenen Flaschen enthalten Schwefelsäure und sind als Phosphat-Reagenz #1 gekennzeichnet, mit der Teilenummer R-0980 und einem Volumen von 22 mL (0,75 oz). Die Haltbarkeit von Phosphat-Reagenz #1 beträgt 24 Monate.",
+          "ConsumerContact": "Für Unterstützung können Verbraucher Taylor Water Technologies unter 800-837-8548 von 8 bis 17 Uhr ET, Montag bis Freitag, kontaktieren oder ihre Website unter https://www.taylortechnologies.com besuchen, um weitere Informationen zum Rückruf zu erhalten.",
+          "metaDescription": "Taylor Water Technologies ruft Phosphat-Reagenz #1 Flaschen aufgrund von Chemikalienbrandrisiko und Nichteinhaltung der Sicherheitsverpackungsverordnungen zurück.",
+          "Products": [
+            {
+              "Name": "Phosphat-Reagenz #1 Flaschen aus Taylor Phosphat-Testkits",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 10.000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Zurückgerufene Phosphat-Reagenz #1 Flasche, die innerhalb der Taylor Phosphat-Testkits verkauft wurde"
+            },
+            {
+              "Caption": "Taylor Phosphat-Testkit mit zurückgerufener Phosphat-Reagenz #1 Flasche"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Keine gemeldeten"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Online erhältlich unter www.taylortechnologies.com und in Pool- und Aquarienfachgeschäften im ganzen Land von August 2022 bis August 2024, Preis etwa 13 $ für die Reagenzflaschen und 56 $ für die kompletten Kits."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Taylor Water Technologies LLC, aus Sparks, Maryland"
+            }
+          ],
+          "SoldAtLabel": "Verkauft bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "Vereinigte Staaten"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risiko von chemischen Verbrennungen aufgrund von Schwefelsäure in nicht kindersicheren Verpackungen"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Verwenden Sie die zurückgerufenen Flaschen nicht mehr, sichern Sie sie außerhalb der Reichweite von Kindern und kontaktieren Sie Taylor Water Technologies für Entsorgungsanweisungen und einen kostenlosen Ersatz."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Ersetzen"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "テイラーウォーターテクノロジーズが化学火傷のリスクと不適合な包装のためにリン酸試薬#1ボトルをリコール",
+          "Description": "テイラーウォーターテクノロジーズは、テイラーリン酸試験キット#K-1106に含まれるリン酸試薬#1ボトルおよび単独で販売されたボトルをリコールしています。これらのキットは、プール、スパ、アクアリウムの水中のリン酸レベルをテストするために設計されています。影響を受けるボトルには硫酸が含まれており、リン酸試薬#1としてラベル付けされており、部品番号はR-0980、容量は22 mL（0.75 oz）です。リン酸試薬#1の賞味期限は24ヶ月です。",
+          "ConsumerContact": "サポートが必要な場合、消費者はテイラーウォーターテクノロジーズに800-837-8548までお電話いただくか、月曜日から金曜日の午前8時から午後5時（ET）までに、リコールに関する詳細情報を得るためにウェブサイトhttps://www.taylortechnologies.comを訪問できます。",
+          "metaDescription": "テイラーウォーターテクノロジーズが化学火傷のリスクと安全包装規制の不遵守のためにリン酸試薬#1ボトルをリコール。",
+          "Products": [
+            {
+              "Name": "テイラーリン酸試験キットからのリン酸試薬#1ボトル",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約10,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "テイラーリン酸試験キット内で販売されているリコールされたリン酸試薬#1ボトル"
+            },
+            {
+              "Caption": "リコールされたリン酸試薬#1ボトルを含むテイラーリン酸試験キット"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "報告された怪我はなし"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "2022年8月から2024年8月まで、www.taylortechnologies.comでオンラインおよび全国のプールとアクアリウムの小売店で入手可能、試薬ボトルは約$13、完全なキットは$56で販売されています。"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "メリーランド州スパークスのテイラーウォーターテクノロジーズLLC"
+            }
+          ],
+          "SoldAtLabel": "販売場所",
+          "ManufacturerCountries": [
+            {
+              "Country": "アメリカ合衆国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "子供に優しくない包装に含まれる硫酸による化学火傷のリスク"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "リコールされたボトルの使用を中止し、子供から遠ざけ、廃棄指示と無料の交換のためにテイラーウォーターテクノロジーズに連絡してください。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "交換"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "Taylor Water Technologies recolhe frascos de Reagente de Fosfato #1 devido ao risco de queimaduras químicas e embalagem não conforme",
+          "Description": "A Taylor Water Technologies está recolhendo frascos de Reagente de Fosfato #1 incluídos nos Kits de Teste de Fosfato da Taylor #K-1106, bem como aqueles vendidos separadamente. Esses kits são projetados para testar os níveis de fosfato na água de piscinas, spas e aquários. Os frascos afetados contêm ácido sulfúrico e estão rotulados como Reagente de Fosfato #1, com o número da peça R-0980 e um volume de 22 mL (0,75 oz). A vida útil do Reagente de Fosfato #1 é de 24 meses.",
+          "ConsumerContact": "Para assistência, os consumidores podem entrar em contato com a Taylor Water Technologies pelo telefone 800-837-8548, das 8h às 17h ET, de segunda a sexta-feira, ou visitar o site deles em https://www.taylortechnologies.com para mais informações sobre o recall.",
+          "metaDescription": "Taylor Water Technologies recolhe frascos de Reagente de Fosfato #1 devido ao risco de queimaduras químicas e não conformidade com as regulamentações de embalagem de segurança.",
+          "Products": [
+            {
+              "Name": "Frascos de Reagente de Fosfato #1 dos Kits de Teste de Fosfato da Taylor",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 10.000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Frasco de Reagente de Fosfato #1 recolhido vendido dentro dos Kits de Teste de Fosfato da Taylor"
+            },
+            {
+              "Caption": "Kit de Teste de Fosfato da Taylor com frasco de Reagente de Fosfato #1 recolhido"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Nenhuma relatada"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponível online em www.taylortechnologies.com e em lojas de varejo de piscinas e aquários em todo o país de agosto de 2022 até agosto de 2024, com preços em torno de $13 pelos frascos de reagente e $56 pelos kits completos."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Taylor Water Technologies LLC, de Sparks, Maryland"
+            }
+          ],
+          "SoldAtLabel": "Vendidos em",
+          "ManufacturerCountries": [
+            {
+              "Country": "Estados Unidos"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risco de queimaduras químicas devido ao ácido sulfúrico em embalagem não resistente a crianças"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Pare de usar os frascos recolhidos, mantenha-os fora do alcance de crianças e entre em contato com a Taylor Water Technologies para instruções de descarte e uma substituição gratuita."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Substituir"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "टेलर वॉटर टेक्नोलॉजीज ने रासायनिक जलन के जोखिम और गैर-अनुपालन पैकेजिंग के कारण फॉस्फेट रेजेंट #1 बोतलें वापस मंगाई हैं",
+          "Description": "टेलर वॉटर टेक्नोलॉजीज फॉस्फेट टेस्ट किट #K-1106 में शामिल फॉस्फेट रेजेंट #1 बोतलें वापस मंगवा रहा है, साथ ही वे बोतलें जो अलग से बेची गई थीं। ये किट पूल, स्पा और एक्वेरियम में पानी के फॉस्फेट स्तरों का परीक्षण करने के लिए डिज़ाइन की गई हैं। प्रभावित बोतलों में सल्फ्यूरिक एसिड होता है और इन्हें फॉस्फेट रेजेंट #1 के रूप में लेबल किया गया है, जिसमें भाग संख्या R-0980 और 22 मील (0.75 औंस) की मात्रा है। फॉस्फेट रेजेंट #1 की शेल्फ-लाइफ 24 महीने है।",
+          "ConsumerContact": "सहायता के लिए, उपभोक्ता टेलर वॉटर टेक्नोलॉजीज से 800-837-8548 पर सुबह 8 बजे से शाम 5 बजे ईटी, सोमवार से शुक्रवार तक संपर्क कर सकते हैं, या अधिक जानकारी के लिए उनकी वेबसाइट https://www.taylortechnologies.com पर जा सकते हैं।",
+          "metaDescription": "टेलर वॉटर टेक्नोलॉजीज ने रासायनिक जलन के जोखिम और सुरक्षा पैकेजिंग नियमों के अनुपालन में कमी के कारण फॉस्फेट रेजेंट #1 बोतलें वापस मंगाई हैं।",
+          "Products": [
+            {
+              "Name": "टेलर फॉस्फेट टेस्ट किट से फॉस्फेट रेजेंट #1 बोतलें",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 10,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "टेलर फॉस्फेट टेस्ट किट के भीतर बेची गई फॉस्फेट रेजेंट #1 बोतल"
+            },
+            {
+              "Caption": "फॉस्फेट रेजेंट #1 बोतल के साथ टेलर फॉस्फेट टेस्ट किट"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "कोई रिपोर्ट नहीं"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "ऑनलाइन www.taylortechnologies.com पर उपलब्ध और अगस्त 2022 से अगस्त 2024 तक देश भर में पूल और एक्वेरियम खुदरा दुकानों में, रेजेंट बोतलों के लिए लगभग $13 और पूर्ण किट के लिए $56 की कीमत पर।"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "टेलर वॉटर टेक्नोलॉजीज LLC, स्पार्क्स, मैरीलैंड"
+            }
+          ],
+          "SoldAtLabel": "बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "संयुक्त राज्य अमेरिका"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "गैर-शिशु-प्रतिरोधी पैकेजिंग में सल्फ्यूरिक एसिड के कारण रासायनिक जलन का जोखिम"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "वापस मंगाई गई बोतलों का उपयोग करना बंद करें, उन्हें बच्चों से दूर सुरक्षित रखें, और निपटान के निर्देशों और मुफ्त प्रतिस्थापन के लिए टेलर वॉटर टेक्नोलॉजीज से संपर्क करें।"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "बदलें"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "Компания Taylor Water Technologies отзывает бутылки с реагентом фосфата #1 из-за риска химических ожогов и несоответствующей упаковки",
+          "Description": "Компания Taylor Water Technologies отзывает бутылки с реагентом фосфата #1, входящие в состав наборов для тестирования фосфата Taylor #K-1106, а также те, что продавались отдельно. Эти наборы предназначены для тестирования уровней фосфата в воде для бассейнов, спа и аквариумов. Затронутые бутылки содержат серную кислоту и помечены как реагент фосфата #1, с номером детали R-0980 и объемом 22 мл (0,75 унции). Срок годности реагента фосфата #1 составляет 24 месяца.",
+          "ConsumerContact": "Для получения помощи потребители могут связаться с компанией Taylor Water Technologies по телефону 800-837-8548 с 8:00 до 17:00 по восточному времени с понедельника по пятницу или посетить их веб-сайт по адресу https://www.taylortechnologies.com для получения дополнительной информации о отзыве.",
+          "metaDescription": "Компания Taylor Water Technologies отзывает бутылки с реагентом фосфата #1 из-за риска химических ожогов и несоответствия требованиям безопасности упаковки.",
+          "Products": [
+            {
+              "Name": "Бутылки с реагентом фосфата #1 из наборов для тестирования фосфата Taylor",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 10,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванная бутылка с реагентом фосфата #1, проданная в наборах для тестирования фосфата Taylor"
+            },
+            {
+              "Caption": "Набор для тестирования фосфата Taylor с отозванной бутылкой с реагентом фосфата #1"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Не сообщалось"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Доступно онлайн на www.taylortechnologies.com и в магазинах бассейнов и аквариумов по всей стране с августа 2022 года по август 2024 года, цена около 13 долларов за бутылки с реагентом и 56 долларов за полные наборы."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Taylor Water Technologies LLC, Спаркс, Мэриленд"
+            }
+          ],
+          "SoldAtLabel": "Продается в",
+          "ManufacturerCountries": [
+            {
+              "Country": "Соединенные Штаты"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Риск химических ожогов из-за серной кислоты в упаковке, не защищенной от детей"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Прекратите использование отозванных бутылок, уберите их подальше от детей и свяжитесь с компанией Taylor Water Technologies для получения инструкций по утилизации и бесплатной замене."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Заменить"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "Công ty Taylor Water Technologies thu hồi chai Phosphate Reagent #1 do nguy cơ bỏng hóa chất và bao bì không tuân thủ",
+          "Description": "Công ty Taylor Water Technologies đang thu hồi các chai Phosphate Reagent #1 được bao gồm trong bộ kiểm tra phosphate Taylor #K-1106, cũng như những chai được bán riêng lẻ. Các bộ này được thiết kế để kiểm tra mức độ phosphate trong nước cho bể bơi, spa và bể cá. Các chai bị ảnh hưởng chứa axit sulfuric và được dán nhãn là Phosphate Reagent #1, với số bộ phận R-0980 và thể tích 22 mL (.75 oz). Thời gian sử dụng của Phosphate Reagent #1 là 24 tháng.",
+          "ConsumerContact": "Để được hỗ trợ, người tiêu dùng có thể liên hệ với Taylor Water Technologies qua số 800-837-8548 từ 8 giờ sáng đến 5 giờ chiều ET, từ thứ Hai đến thứ Sáu, hoặc truy cập trang web của họ tại https://www.taylortechnologies.com để biết thêm thông tin về việc thu hồi.",
+          "metaDescription": "Công ty Taylor Water Technologies thu hồi chai Phosphate Reagent #1 do nguy cơ bỏng hóa chất và không tuân thủ quy định về bao bì an toàn.",
+          "Products": [
+            {
+              "Name": "Chai Phosphate Reagent #1 từ bộ kiểm tra phosphate Taylor",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 10.000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Chai Phosphate Reagent #1 bị thu hồi được bán trong bộ kiểm tra phosphate Taylor"
+            },
+            {
+              "Caption": "Bộ kiểm tra phosphate Taylor với chai Phosphate Reagent #1 bị thu hồi"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Không có báo cáo nào"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Có sẵn trực tuyến tại www.taylortechnologies.com và trong các cửa hàng bán lẻ bể bơi và bể cá trên toàn quốc từ tháng 8 năm 2022 đến tháng 8 năm 2024, giá khoảng 13 đô la cho các chai thuốc thử và 56 đô la cho các bộ hoàn chỉnh."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Công ty Taylor Water Technologies LLC, có trụ sở tại Sparks, Maryland"
+            }
+          ],
+          "SoldAtLabel": "Bán Tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Hoa Kỳ"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Nguy cơ bỏng hóa chất do axit sulfuric trong bao bì không chống trẻ em"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Ngừng sử dụng các chai bị thu hồi, bảo quản chúng xa tầm tay trẻ em và liên hệ với Taylor Water Technologies để biết hướng dẫn xử lý và thay thế miễn phí."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Thay thế"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    },
+    {
+      "RecallID": 10018,
+      "RecallNumber": "24322",
+      "RecallDate": "2024-07-25T00:00:00",
+      "Description": "Torquay eTrading LLC is recalling Essential Values Golf Grip Solvent and Grip & Rip re-gripping kits due to a potential poisoning hazard. These products, packaged in 8-ounce white bottles with blue labels, were marketed with misleading safety claims, stating they are 'Safe & Non-Toxic' without the necessary cautionary warnings for petroleum distillates. This poses a significant risk to consumers, especially children.\nThe recalled items were available individually or in multi-packs, including 2-pack, 4-pack, 6-pack, and a bundle with 28 golf strips. Consumers are urged to stop using these products immediately and reach out to Torquay eTrading for a free corrected label to ensure safe usage.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/Torquay eTrading Recalls Essential Values Golf Grip Solvent and-Golf-Grip-Kits-Due-to-Risk-of-Poisoning-Violation-of-the-Federal-Hazardous-Substances-Act",
+      "Title": "Recall of Essential Values Golf Grip Solvent and Grip Kits Due to Poisoning Risk",
+      "ConsumerContact": "For assistance, contact Torquay eTrading LLC at 347-587-8964 from 8 a.m. to 4 p.m. ET, Monday through Friday, or email recall@essentialvalues.us. Additional information can be found online at https://www.essentialvalues.us/pages/recall or by visiting https://www.essentialvalues.us and clicking 'Recall' at the top of the page.",
+      "LastPublishDate": "2024-07-25T00:00:00",
+      "Products": [
+        {
+          "Name": "Essential Values Golf Grip Solvent and Grip Kits",
+          "NumberOfUnits": "About 26,000 (In addition, about 3,400 were sold in Canada)"
+        }
+      ],
+      "Inconjunctions": [
+        {
+          "URL": "https://recalls-rappels.canada.ca/en/alert-recall/essential-values-golf-grip-solvent-and-golf-grip-kits-recalled-due-lack-required"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/chemicals/2-Essential-Values-Golf-Grip-Solvent-and-Grip-Kits/a6ac12eca0d3f21b04b98cba5a0fa897.webp",
+          "Caption": "Recalled Golf Grip Solvent, 8-Ounce",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/golf-grip.png"
+        },
+        {
+          "URL": "/images/generalRecalls/chemicals/2-Essential-Values-Golf-Grip-Solvent-and-Grip-Kits/b7a29a53fe6b7ee320836eacd2fc3b26.webp",
+          "Caption": "Recalled Grip and Rip Re-Gripping Solution Kit with 14 Strips of Grip Tape",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/golf-grip-tape.png"
+        },
+        {
+          "URL": "/images/generalRecalls/chemicals/2-Essential-Values-Golf-Grip-Solvent-and-Grip-Kits/6093a6d45095aaa9c2b5b4952920fb09.webp",
+          "Caption": "Back of the Recalled Golf Grip Solution",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/golf-grip-back.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available online at Amazon.com, eBay.com, Walmart.com, and www.essentialvalues.com from December 2017 through May 2024, priced around $9, with kits including golf grip tape priced at approximately $13."
+        }
+      ],
+      "Distributors": [
+        {
+          "Name": "Torquay eTrading LLC (dba Essential Values), of New York (formerly sold by Mocer LLC and Bright Ventures LLC)"
+        }
+      ],
+      "SoldAtLabel": "Sold Online At",
+      "ManufacturerCountries": [
+        {
+          "Country": "United States"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of poisoning due to misleading safety labeling"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Stop using the products and contact Torquay eTrading for a free corrected label"
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Label"
+        }
+      ],
+      "slug": "recall-of-essential-values-golf-grip-solvent-and-grip-kits-due-to-poisoning-risk-recall",
+      "metaDescription": "Essential Values Golf Grip Solvent and Grip Kits recalled due to poisoning risk. Contact Torquay eTrading for a free corrected label.",
+      "languages": {
+        "en": {
+          "Title": "Recall of Essential Values Golf Grip Solvent and Grip Kits Due to Poisoning Risk",
+          "Description": "Torquay eTrading LLC is recalling Essential Values Golf Grip Solvent and Grip & Rip re-gripping kits due to a potential poisoning hazard. These products, packaged in 8-ounce white bottles with blue labels, were marketed with misleading safety claims, stating they are 'Safe & Non-Toxic' without the necessary cautionary warnings for petroleum distillates. This poses a significant risk to consumers, especially children.\nThe recalled items were available individually or in multi-packs, including 2-pack, 4-pack, 6-pack, and a bundle with 28 golf strips. Consumers are urged to stop using these products immediately and reach out to Torquay eTrading for a free corrected label to ensure safe usage.",
+          "ConsumerContact": "For assistance, contact Torquay eTrading LLC at 347-587-8964 from 8 a.m. to 4 p.m. ET, Monday through Friday, or email recall@essentialvalues.us. Additional information can be found online at https://www.essentialvalues.us/pages/recall or by visiting https://www.essentialvalues.us and clicking 'Recall' at the top of the page.",
+          "metaDescription": "Essential Values Golf Grip Solvent and Grip Kits recalled due to poisoning risk. Contact Torquay eTrading for a free corrected label.",
+          "Products": [
+            {
+              "Name": "Essential Values Golf Grip Solvent and Grip Kits",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 26,000 (In addition, about 3,400 were sold in Canada)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled Golf Grip Solvent, 8-Ounce"
+            },
+            {
+              "Caption": "Recalled Grip and Rip Re-Gripping Solution Kit with 14 Strips of Grip Tape"
+            },
+            {
+              "Caption": "Back of the Recalled Golf Grip Solution"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "None reported."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Available online at Amazon.com, eBay.com, Walmart.com, and www.essentialvalues.com from December 2017 through May 2024, priced around $9, with kits including golf grip tape priced at approximately $13."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Torquay eTrading LLC (dba Essential Values), of New York (formerly sold by Mocer LLC and Bright Ventures LLC)"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Sold Online At",
+          "ManufacturerCountries": [
+            {
+              "Country": "United States"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risk of poisoning due to misleading safety labeling"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Stop using the products and contact Torquay eTrading for a free corrected label"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Label"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "Retiro de los Kits de Solvente y Agarre de Golf de Essential Values Debido al Riesgo de Intoxicación",
+          "Description": "Torquay eTrading LLC está retirando los Kits de Solvente y Agarre de Golf de Essential Values debido a un posible peligro de intoxicación. Estos productos, empaquetados en botellas blancas de 8 onzas con etiquetas azules, se comercializaron con afirmaciones de seguridad engañosas, afirmando que son 'Seguros y No Tóxicos' sin las advertencias de precaución necesarias para los destilados de petróleo. Esto representa un riesgo significativo para los consumidores, especialmente los niños.\nLos artículos retirados estaban disponibles individualmente o en paquetes múltiples, incluyendo paquetes de 2, 4, 6 y un paquete con 28 tiras de golf. Se insta a los consumidores a dejar de usar estos productos de inmediato y comunicarse con Torquay eTrading para obtener una etiqueta corregida gratuita para garantizar un uso seguro.",
+          "ConsumerContact": "Para asistencia, comuníquese con Torquay eTrading LLC al 347-587-8964 de 8 a.m. a 4 p.m. ET, de lunes a viernes, o envíe un correo electrónico a recall@essentialvalues.us. Se puede encontrar información adicional en línea en https://www.essentialvalues.us/pages/recall o visitando https://www.essentialvalues.us y haciendo clic en 'Recall' en la parte superior de la página.",
+          "metaDescription": "Kits de Solvente y Agarre de Golf de Essential Values retirados debido al riesgo de intoxicación. Contacte a Torquay eTrading para obtener una etiqueta corregida gratuita.",
+          "Products": [
+            {
+              "Name": "Kits de Solvente y Agarre de Golf de Essential Values",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Alrededor de 26,000 (Además, alrededor de 3,400 se vendieron en Canadá)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Solvente de Agarre de Golf Retirado, 8 Onzas"
+            },
+            {
+              "Caption": "Kit de Solución de Re-Agarre Grip and Rip Retirado con 14 Tiras de Cinta de Agarre"
+            },
+            {
+              "Caption": "Parte Posterior de la Solución de Agarre de Golf Retirada"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Ninguna reportada."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible en línea en Amazon.com, eBay.com, Walmart.com y www.essentialvalues.com desde diciembre de 2017 hasta mayo de 2024, con un precio alrededor de $9, con kits que incluyen cinta de agarre para golf a un precio de aproximadamente $13."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Torquay eTrading LLC (dba Essential Values), de Nueva York (anteriormente vendido por Mocer LLC y Bright Ventures LLC)"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendidos en Línea En",
+          "ManufacturerCountries": [
+            {
+              "Country": "Estados Unidos"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Riesgo de intoxicación debido a etiquetado de seguridad engañoso"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Deje de usar los productos y comuníquese con Torquay eTrading para obtener una etiqueta corregida gratuita"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Etiqueta"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "استرجاع مواد تنظيف قبضة الجولف من Essential Values ومجموعات القبضة بسبب خطر التسمم",
+          "Description": "تقوم شركة Torquay eTrading LLC باسترجاع مواد تنظيف قبضة الجولف من Essential Values ومجموعات إعادة القبضة Grip & Rip بسبب خطر محتمل للتسمم. تم تسويق هذه المنتجات، المعبأة في زجاجات بيضاء سعة 8 أونصات مع ملصقات زرقاء، بمزاعم أمان مضللة، حيث تم الادعاء بأنها 'آمنة وغير سامة' دون التحذيرات اللازمة للمواد المشتقة من البترول. يشكل هذا خطرًا كبيرًا على المستهلكين، وخاصة الأطفال.\nكانت العناصر المسترجعة متاحة بشكل فردي أو في عبوات متعددة، بما في ذلك عبوة من 2، 4، 6، وحزمة تحتوي على 28 شريط جولف. يُحث المستهلكون على التوقف عن استخدام هذه المنتجات على الفور والتواصل مع Torquay eTrading للحصول على ملصق مصحح مجاني لضمان الاستخدام الآمن.",
+          "ConsumerContact": "للمساعدة، اتصل بشركة Torquay eTrading LLC على الرقم 347-587-8964 من الساعة 8 صباحًا حتى 4 مساءً بتوقيت شرق الولايات المتحدة، من الاثنين إلى الجمعة، أو عبر البريد الإلكتروني recall@essentialvalues.us. يمكن العثور على معلومات إضافية عبر الإنترنت على https://www.essentialvalues.us/pages/recall أو من خلال زيارة https://www.essentialvalues.us والنقر على 'استرجاع' في أعلى الصفحة.",
+          "metaDescription": "تم استرجاع مواد تنظيف قبضة الجولف من Essential Values ومجموعات القبضة بسبب خطر التسمم. اتصل بشركة Torquay eTrading للحصول على ملصق مصحح مجاني.",
+          "Products": [
+            {
+              "Name": "مواد تنظيف قبضة الجولف من Essential Values ومجموعات القبضة",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 26,000 (بالإضافة إلى أنه تم بيع حوالي 3,400 في كندا)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "مواد تنظيف قبضة الجولف المسترجعة، 8 أونصات"
+            },
+            {
+              "Caption": "مجموعة حل إعادة القبضة Grip and Rip المسترجعة مع 14 شريط من شريط القبضة"
+            },
+            {
+              "Caption": "الجزء الخلفي من حل قبضة الجولف المسترجعة"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "لا توجد إصابات تم الإبلاغ عنها."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "متاحة عبر الإنترنت على Amazon.com و eBay.com و Walmart.com و www.essentialvalues.com من ديسمبر 2017 حتى مايو 2024، بسعر حوالي 9 دولارات، مع مجموعات تشمل شريط قبضة الجولف بسعر حوالي 13 دولارًا."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Torquay eTrading LLC (تحت اسم Essential Values)، من نيويورك (تم بيعها سابقًا بواسطة Mocer LLC و Bright Ventures LLC)"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "تم البيع عبر الإنترنت في",
+          "ManufacturerCountries": [
+            {
+              "Country": "الولايات المتحدة"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "خطر التسمم بسبب ملصقات الأمان المضللة"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "توقف عن استخدام المنتجات واتصل بشركة Torquay eTrading للحصول على ملصق مصحح مجاني"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "ملصق"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "因中毒风险召回Essential Values高尔夫握把溶剂和握把套件",
+          "Description": "Torquay eTrading LLC因潜在的中毒危险召回Essential Values高尔夫握把溶剂和Grip & Rip重新握把套件。这些产品装在8盎司的白色瓶子里，带有蓝色标签，宣传时包含误导性的安全声明，声称它们是“安全和无毒的”，但没有必要的石油馏分警告。这对消费者，尤其是儿童，构成了重大风险。\n召回的物品可以单独购买或以多包装形式提供，包括2包装、4包装、6包装和包含28条高尔夫条的捆绑包。消费者被敦促立即停止使用这些产品，并联系Torquay eTrading以获取免费的更正标签，以确保安全使用。",
+          "ConsumerContact": "如需帮助，请在周一至周五的东部时间上午8点至下午4点之间拨打347-587-8964联系Torquay eTrading LLC，或发送电子邮件至recall@essentialvalues.us。更多信息可以在线找到，网址为https://www.essentialvalues.us/pages/recall，或访问https://www.essentialvalues.us并点击页面顶部的“召回”。",
+          "metaDescription": "因中毒风险召回Essential Values高尔夫握把溶剂和握把套件。联系Torquay eTrading以获取免费的更正标签。",
+          "Products": [
+            {
+              "Name": "Essential Values高尔夫握把溶剂和握把套件",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约26,000（此外，约3,400个在加拿大销售）"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "召回的高尔夫握把溶剂，8盎司"
+            },
+            {
+              "Caption": "召回的Grip and Rip重新握把解决方案套件，包含14条握把胶带"
+            },
+            {
+              "Caption": "召回的高尔夫握把溶剂背面"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "没有报告伤害。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "自2017年12月至2024年5月在Amazon.com、eBay.com、Walmart.com和www.essentialvalues.com在线销售，价格约为9美元，包含高尔夫握把胶带的套件价格约为13美元。"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Torquay eTrading LLC（以Essential Values名义经营），位于纽约（以前由Mocer LLC和Bright Ventures LLC销售）"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "在线销售于",
+          "ManufacturerCountries": [
+            {
+              "Country": "美国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "由于误导性的安全标签而存在中毒风险"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "停止使用这些产品并联系Torquay eTrading以获取免费的更正标签"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "标签"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "Rappel des kits de solvant et de prise de golf Essential Values en raison d'un risque d'empoisonnement",
+          "Description": "Torquay eTrading LLC rappelle les kits de solvant et de prise de golf Essential Values en raison d'un risque potentiel d'empoisonnement. Ces produits, conditionnés dans des bouteilles blanches de 8 onces avec des étiquettes bleues, ont été commercialisés avec des allégations de sécurité trompeuses, affirmant qu'ils sont 'Sûrs et Non Toxiques' sans les avertissements de prudence nécessaires pour les distillats de pétrole. Cela représente un risque significatif pour les consommateurs, en particulier les enfants.\nLes articles rappelés étaient disponibles individuellement ou en multi-pack, y compris en pack de 2, pack de 4, pack de 6, et un ensemble avec 28 bandes de golf. Les consommateurs sont invités à cesser immédiatement d'utiliser ces produits et à contacter Torquay eTrading pour obtenir une étiquette corrigée gratuite afin d'assurer une utilisation sécurisée.",
+          "ConsumerContact": "Pour assistance, contactez Torquay eTrading LLC au 347-587-8964 de 8 h à 16 h HNE, du lundi au vendredi, ou par e-mail à recall@essentialvalues.us. Des informations supplémentaires peuvent être trouvées en ligne sur https://www.essentialvalues.us/pages/recall ou en visitant https://www.essentialvalues.us et en cliquant sur 'Rappel' en haut de la page.",
+          "metaDescription": "Kits de solvant et de prise de golf Essential Values rappelés en raison d'un risque d'empoisonnement. Contactez Torquay eTrading pour une étiquette corrigée gratuite.",
+          "Products": [
+            {
+              "Name": "Kits de solvant et de prise de golf Essential Values",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 26 000 (De plus, environ 3 400 ont été vendus au Canada)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Solvant de prise de golf rappelé, 8 onces"
+            },
+            {
+              "Caption": "Kit de solution de re-grippage Grip and Rip rappelé avec 14 bandes de ruban de prise"
+            },
+            {
+              "Caption": "Dos de la solution de prise de golf rappelée"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Aucune rapportée."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible en ligne sur Amazon.com, eBay.com, Walmart.com et www.essentialvalues.com de décembre 2017 à mai 2024, au prix d'environ 9 $, avec des kits incluant du ruban de prise de golf au prix d'environ 13 $."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Torquay eTrading LLC (faisant affaire sous le nom d'Essential Values), de New York (anciennement vendu par Mocer LLC et Bright Ventures LLC)"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendu en ligne à",
+          "ManufacturerCountries": [
+            {
+              "Country": "États-Unis"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risque d'empoisonnement en raison d'un étiquetage de sécurité trompeur"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Cesser d'utiliser les produits et contacter Torquay eTrading pour une étiquette corrigée gratuite"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Étiquette"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "Rückruf von Essential Values Golf Grip Lösung und Grip Kits aufgrund von Vergiftungsrisiko",
+          "Description": "Torquay eTrading LLC ruft Essential Values Golf Grip Lösung und Grip & Rip Nachrüstkits aufgrund eines potenziellen Vergiftungsrisikos zurück. Diese Produkte, verpackt in 8-Unzen weißen Flaschen mit blauen Etiketten, wurden mit irreführenden Sicherheitsansprüchen vermarktet, die besagen, sie seien 'Sicher & Ungiftig', ohne die notwendigen Warnhinweise für Erdöldestillate. Dies stellt ein erhebliches Risiko für Verbraucher, insbesondere für Kinder, dar.\nDie zurückgerufenen Artikel waren einzeln oder in Mehrfachpackungen erhältlich, einschließlich 2-Pack, 4-Pack, 6-Pack und einem Bundle mit 28 Golfstreifen. Verbraucher werden aufgefordert, die Verwendung dieser Produkte sofort einzustellen und sich an Torquay eTrading zu wenden, um ein kostenloses korrigiertes Etikett zu erhalten, um eine sichere Verwendung zu gewährleisten.",
+          "ConsumerContact": "Für Unterstützung kontaktieren Sie Torquay eTrading LLC unter 347-587-8964 von 8 bis 16 Uhr ET, Montag bis Freitag, oder per E-Mail an recall@essentialvalues.us. Weitere Informationen finden Sie online unter https://www.essentialvalues.us/pages/recall oder indem Sie https://www.essentialvalues.us besuchen und oben auf der Seite auf 'Rückruf' klicken.",
+          "metaDescription": "Essential Values Golf Grip Lösung und Grip Kits zurückgerufen aufgrund von Vergiftungsrisiko. Kontaktieren Sie Torquay eTrading für ein kostenloses korrigiertes Etikett.",
+          "Products": [
+            {
+              "Name": "Essential Values Golf Grip Lösung und Grip Kits",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 26.000 (Zusätzlich wurden etwa 3.400 in Kanada verkauft)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Zurückgerufene Golf Grip Lösung, 8-Unzen"
+            },
+            {
+              "Caption": "Zurückgerufenes Grip and Rip Nachrüstkit mit 14 Streifen Grip Tape"
+            },
+            {
+              "Caption": "Rückseite der zurückgerufenen Golf Grip Lösung"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Keine gemeldet."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Online erhältlich bei Amazon.com, eBay.com, Walmart.com und www.essentialvalues.com von Dezember 2017 bis Mai 2024, preislich bei etwa 9 $, mit Kits, die Golf Grip Tape enthalten, für etwa 13 $."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Torquay eTrading LLC (dba Essential Values), aus New York (früher verkauft von Mocer LLC und Bright Ventures LLC)"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Online erhältlich bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "Vereinigte Staaten"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risiko der Vergiftung aufgrund irreführender Sicherheitskennzeichnung"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Verwendung der Produkte einstellen und Torquay eTrading für ein kostenloses korrigiertes Etikett kontaktieren"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Etikett"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "中毒のリスクによるエッセンシャルバリューズゴルフグリップ溶剤およびグリップキットのリコール",
+          "Description": "トーキーベイ eTrading LLCは、潜在的な中毒の危険性によりエッセンシャルバリューズゴルフグリップ溶剤およびグリップ＆リップ再グリッピングキットをリコールしています。これらの製品は、青いラベルの付いた8オンスの白いボトルにパッケージされており、石油蒸留物に関する必要な警告なしに「安全で無毒」と誤解を招く安全主張で販売されていました。これは、特に子供にとって消費者に重大なリスクをもたらします。\nリコールされたアイテムは、個別または2パック、4パック、6パック、28本のゴルフストリップを含むバンドルで販売されていました。消費者は、これらの製品の使用を直ちに中止し、安全な使用を確保するためにトーキーベイ eTradingに連絡して無料の修正ラベルを取得するように促されています。",
+          "ConsumerContact": "サポートが必要な場合は、月曜日から金曜日の午前8時から午後4時（ET）まで、347-587-8964までトーキーベイ eTrading LLCに連絡するか、recall@essentialvalues.usまでメールしてください。追加情報は、https://www.essentialvalues.us/pages/recall でオンラインで見つけることができるか、https://www.essentialvalues.us を訪れてページ上部の「リコール」をクリックしてください。",
+          "metaDescription": "中毒のリスクによりリコールされたエッセンシャルバリューズゴルフグリップ溶剤およびグリップキット。無料の修正ラベルを取得するためにトーキーベイ eTradingに連絡してください。",
+          "Products": [
+            {
+              "Name": "エッセンシャルバリューズゴルフグリップ溶剤およびグリップキット",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約26,000（さらに、約3,400がカナダで販売されました）"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコールされたゴルフグリップ溶剤、8オンス"
+            },
+            {
+              "Caption": "リコールされたグリップ＆リップ再グリッピングソリューションキット、グリップテープのストリップ14本付き"
+            },
+            {
+              "Caption": "リコールされたゴルフグリップソリューションの裏面"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "報告された怪我はありません。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "2017年12月から2024年5月まで、Amazon.com、eBay.com、Walmart.com、www.essentialvalues.comでオンラインで販売され、価格は約$9、ゴルフグリップテープを含むキットは約$13で販売されていました。"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "トーキーベイ eTrading LLC（エッセンシャルバリューズとして営業）、ニューヨーク（以前はMocer LLCおよびBright Ventures LLCによって販売されていました）"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "オンラインで販売",
+          "ManufacturerCountries": [
+            {
+              "Country": "アメリカ合衆国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "誤解を招く安全ラベルによる中毒のリスク"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "製品の使用を中止し、トーキーベイ eTradingに連絡して無料の修正ラベルを取得してください"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "ラベル"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "Recall de Solventes e Kits de Empunhadura de Golfe Essential Values Devido ao Risco de Intoxicação",
+          "Description": "A Torquay eTrading LLC está recalling os Solventes e Kits de Empunhadura de Golfe Essential Values devido a um potencial risco de intoxicação. Esses produtos, embalados em frascos brancos de 8 onças com rótulos azuis, foram comercializados com alegações de segurança enganosas, afirmando que são 'Seguros e Não Tóxicos' sem os avisos cautelares necessários para destilados de petróleo. Isso representa um risco significativo para os consumidores, especialmente crianças.\nOs itens recallados estavam disponíveis individualmente ou em pacotes múltiplos, incluindo pacotes de 2, 4, 6 e um pacote com 28 tiras de golfe. Os consumidores são aconselhados a parar de usar esses produtos imediatamente e entrar em contato com a Torquay eTrading para obter um rótulo corrigido gratuito para garantir o uso seguro.",
+          "ConsumerContact": "Para assistência, entre em contato com a Torquay eTrading LLC pelo telefone 347-587-8964 das 8h às 16h ET, de segunda a sexta-feira, ou envie um e-mail para recall@essentialvalues.us. Informações adicionais podem ser encontradas online em https://www.essentialvalues.us/pages/recall ou visitando https://www.essentialvalues.us e clicando em 'Recall' no topo da página.",
+          "metaDescription": "Solventes e Kits de Empunhadura de Golfe Essential Values recallados devido ao risco de intoxicação. Entre em contato com a Torquay eTrading para um rótulo corrigido gratuito.",
+          "Products": [
+            {
+              "Name": "Solventes e Kits de Empunhadura de Golfe Essential Values",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 26.000 (Além disso, cerca de 3.400 foram vendidos no Canadá)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Solvente de Empunhadura de Golfe Recallado, 8 Onças"
+            },
+            {
+              "Caption": "Kit de Solução de Reempunhadura Grip and Rip Recallado com 14 Tiras de Fita de Empunhadura"
+            },
+            {
+              "Caption": "Verso da Solução de Empunhadura de Golfe Recallada"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Nenhuma reportada."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponível online em Amazon.com, eBay.com, Walmart.com e www.essentialvalues.com de dezembro de 2017 até maio de 2024, com preços em torno de $9, com kits incluindo fita de empunhadura de golfe com preços aproximados de $13."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Torquay eTrading LLC (dba Essential Values), de Nova York (anteriormente vendido pela Mocer LLC e Bright Ventures LLC)"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendido Online Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "Estados Unidos"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risco de intoxicação devido à rotulagem de segurança enganosa"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Pare de usar os produtos e entre em contato com a Torquay eTrading para um rótulo corrigido gratuito"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Rótulo"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "Essential Values गोल्फ ग्रिप सॉल्वेंट और ग्रिप किट्स की वापसी विषाक्तता के जोखिम के कारण",
+          "Description": "Torquay eTrading LLC Essential Values गोल्फ ग्रिप सॉल्वेंट और ग्रिप & रिप री-ग्रिपिंग किट्स को संभावित विषाक्तता के खतरे के कारण वापस बुला रहा है। ये उत्पाद, नीले लेबल वाले 8-औंस के सफेद बोतलों में पैक किए गए थे, भ्रामक सुरक्षा दावों के साथ विपणन किए गए थे, जिसमें कहा गया था कि वे 'सुरक्षित और गैर- विषाक्त' हैं, बिना पेट्रोलियम डिस्टिलेट्स के लिए आवश्यक चेतावनी के। यह उपभोक्ताओं, विशेष रूप से बच्चों के लिए एक महत्वपूर्ण जोखिम पैदा करता है।\nवापस बुलाए गए आइटम व्यक्तिगत रूप से या मल्टी-पैक्स में उपलब्ध थे, जिसमें 2-पैक, 4-पैक, 6-पैक, और 28 गोल्फ स्ट्रिप्स के साथ एक बंडल शामिल है। उपभोक्ताओं से आग्रह किया जाता है कि वे तुरंत इन उत्पादों का उपयोग करना बंद करें और सुरक्षित उपयोग सुनिश्चित करने के लिए Torquay eTrading से एक मुफ्त सही लेबल प्राप्त करें।",
+          "ConsumerContact": "सहायता के लिए, Torquay eTrading LLC से 347-587-8964 पर सुबह 8 बजे से शाम 4 बजे ET, सोमवार से शुक्रवार, पर संपर्क करें, या recall@essentialvalues.us पर ईमेल करें। अतिरिक्त जानकारी ऑनलाइन https://www.essentialvalues.us/pages/recall पर या https://www.essentialvalues.us पर जाकर और पृष्ठ के शीर्ष पर 'Recall' पर क्लिक करके प्राप्त की जा सकती है।",
+          "metaDescription": "Essential Values गोल्फ ग्रिप सॉल्वेंट और ग्रिप किट्स विषाक्तता के जोखिम के कारण वापस बुलाए गए। मुफ्त सही लेबल के लिए Torquay eTrading से संपर्क करें।",
+          "Products": [
+            {
+              "Name": "Essential Values गोल्फ ग्रिप सॉल्वेंट और ग्रिप किट्स",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 26,000 (इसके अलावा, लगभग 3,400 कनाडा में बेचे गए)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "वापस बुलाया गया गोल्फ ग्रिप सॉल्वेंट, 8-औंस"
+            },
+            {
+              "Caption": "वापस बुलाया गया ग्रिप और रिप री-ग्रिपिंग सॉल्यूशन किट जिसमें 14 स्ट्रिप्स ग्रिप टेप की हैं"
+            },
+            {
+              "Caption": "वापस बुलाए गए गोल्फ ग्रिप सॉल्यूशन का पिछला भाग"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "कोई रिपोर्ट नहीं की गई।"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Amazon.com, eBay.com, Walmart.com, और www.essentialvalues.com पर दिसंबर 2017 से मई 2024 तक उपलब्ध, कीमत लगभग $9, जिसमें गोल्फ ग्रिप टेप वाली किट्स की कीमत लगभग $13 है।"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Torquay eTrading LLC (dba Essential Values), न्यू यॉर्क से (पूर्व में Mocer LLC और Bright Ventures LLC द्वारा बेचा गया)"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "ऑनलाइन बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "संयुक्त राज्य अमेरिका"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "भ्रामक सुरक्षा लेबलिंग के कारण विषाक्तता का जोखिम"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "उत्पादों का उपयोग करना बंद करें और मुफ्त सही लेबल के लिए Torquay eTrading से संपर्क करें"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "लेबल"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "Отзыв средств для гольфа Essential Values Grip Solvent и Grip Kits из-за риска отравления",
+          "Description": "Компания Torquay eTrading LLC отзывает средства для гольфа Essential Values Grip Solvent и наборы Grip & Rip для повторного наклеивания из-за потенциальной опасности отравления. Эти продукты, упакованные в белые бутылки объемом 8 унций с синими этикетками, продавались с вводящими в заблуждение заявлениями о безопасности, утверждая, что они 'Безопасны и нетоксичны', без необходимых предостережений о нефтяных дистиллятах. Это представляет собой значительный риск для потребителей, особенно для детей.\nОтозванные товары были доступны по отдельности или в многоупаковках, включая упаковки по 2, 4, 6 штук и комплект с 28 полосками для гольфа. Потребителей настоятельно призывают немедленно прекратить использование этих продуктов и обратиться в Torquay eTrading за бесплатной исправленной этикеткой для обеспечения безопасного использования.",
+          "ConsumerContact": "Для получения помощи свяжитесь с Torquay eTrading LLC по телефону 347-587-8964 с 8:00 до 16:00 по восточному времени с понедельника по пятницу или отправьте электронное письмо на адрес recall@essentialvalues.us. Дополнительную информацию можно найти в интернете по адресу https://www.essentialvalues.us/pages/recall или посетив https://www.essentialvalues.us и нажав 'Recall' в верхней части страницы.",
+          "metaDescription": "Средства для гольфа Essential Values Grip Solvent и Grip Kits отозваны из-за риска отравления. Свяжитесь с Torquay eTrading для получения бесплатной исправленной этикетки.",
+          "Products": [
+            {
+              "Name": "Средства для гольфа Essential Values Grip Solvent и Grip Kits",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 26,000 (Кроме того, около 3,400 были проданы в Канаде)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванный Golf Grip Solvent, 8 унций"
+            },
+            {
+              "Caption": "Отозванный набор Grip and Rip для повторного наклеивания с 14 полосками клейкой ленты"
+            },
+            {
+              "Caption": "Задняя сторона отозванного Golf Grip Solution"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Не сообщалось о травмах."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Доступно онлайн на Amazon.com, eBay.com, Walmart.com и www.essentialvalues.com с декабря 2017 года по май 2024 года, цена около $9, наборы с клейкой лентой для гольфа стоят примерно $13."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Torquay eTrading LLC (торговая марка Essential Values), Нью-Йорк (ранее продавалось Mocer LLC и Bright Ventures LLC)"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Продается онлайн на",
+          "ManufacturerCountries": [
+            {
+              "Country": "Соединенные Штаты"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Риск отравления из-за вводящей в заблуждение маркировки безопасности"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Прекратите использование продуктов и свяжитесь с Torquay eTrading для получения бесплатной исправленной этикетки"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Этикетка"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "Thu hồi bộ dụng cụ và dung môi cầm gậy golf Essential Values do nguy cơ ngộ độc",
+          "Description": "Torquay eTrading LLC đang thu hồi dung môi cầm gậy golf Essential Values và bộ dụng cụ cầm & rip do nguy cơ ngộ độc tiềm ẩn. Những sản phẩm này, được đóng gói trong chai trắng 8 ounce với nhãn màu xanh, đã được tiếp thị với các tuyên bố an toàn gây hiểu lầm, nói rằng chúng 'An toàn & Không độc hại' mà không có các cảnh báo cần thiết cho các chất chưng cất từ dầu mỏ. Điều này gây ra rủi ro đáng kể cho người tiêu dùng, đặc biệt là trẻ em.\nCác mặt hàng bị thu hồi có sẵn riêng lẻ hoặc trong các gói đa, bao gồm gói 2 cái, 4 cái, 6 cái và một gói với 28 dải golf. Người tiêu dùng được khuyến cáo ngừng sử dụng những sản phẩm này ngay lập tức và liên hệ với Torquay eTrading để nhận nhãn đã được sửa đổi miễn phí nhằm đảm bảo sử dụng an toàn.",
+          "ConsumerContact": "Để được hỗ trợ, hãy liên hệ với Torquay eTrading LLC theo số 347-587-8964 từ 8 giờ sáng đến 4 giờ chiều ET, từ thứ Hai đến thứ Sáu, hoặc gửi email đến recall@essentialvalues.us. Thông tin bổ sung có thể được tìm thấy trực tuyến tại https://www.essentialvalues.us/pages/recall hoặc bằng cách truy cập https://www.essentialvalues.us và nhấp vào 'Recall' ở đầu trang.",
+          "metaDescription": "Bộ dụng cụ và dung môi cầm gậy golf Essential Values bị thu hồi do nguy cơ ngộ độc. Liên hệ với Torquay eTrading để nhận nhãn đã được sửa đổi miễn phí.",
+          "Products": [
+            {
+              "Name": "Bộ dụng cụ và dung môi cầm gậy golf Essential Values",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 26,000 (Ngoài ra, khoảng 3,400 đã được bán tại Canada)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Dung môi cầm gậy golf bị thu hồi, 8 ounce"
+            },
+            {
+              "Caption": "Bộ dung dịch cầm và rip bị thu hồi với 14 dải băng cầm"
+            },
+            {
+              "Caption": "Mặt sau của dung dịch cầm gậy golf bị thu hồi"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Không có báo cáo."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Có sẵn trực tuyến tại Amazon.com, eBay.com, Walmart.com và www.essentialvalues.com từ tháng 12 năm 2017 đến tháng 5 năm 2024, giá khoảng 9 đô la, với các bộ bao gồm băng cầm gậy golf có giá khoảng 13 đô la."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Torquay eTrading LLC (dba Essential Values), của New York (trước đây được bán bởi Mocer LLC và Bright Ventures LLC)"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Bán trực tuyến tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Hoa Kỳ"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Nguy cơ ngộ độc do nhãn an toàn gây hiểu lầm"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Ngừng sử dụng các sản phẩm và liên hệ với Torquay eTrading để nhận nhãn đã được sửa đổi miễn phí"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Nhãn"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    },
+    {
+      "RecallID": 9785,
+      "RecallNumber": "24043",
+      "RecallDate": "2023-12-07T00:00:00",
+      "Description": "Wet & Forget is recalling its \"Xtreme Reach\" Outdoor Mold & Mildew Stain Remover, available in 48 oz. and 68 oz. bottles with hose end nozzles. The product, packaged in a blue plastic bottle, has UPCs 879288000077 for the 48 oz. size and 879288000084 for the 68 oz. size, located on the label's bottom right corner. The hose end nozzle is marked with the \"Wet & Forget\" brand name.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/Wet-Forget-USA-Recalls-2-7-Million-Bottles-of-Xtreme-Reach-Outdoor-Mold-Mildew-Stain-Remover-with-Hose-End-Nozzle-Due-to-Risk-of-Skin-and-Eye-Irritation",
+      "Title": "Wet & Forget USA Issues Recall for 2.7 Million Bottles of \"Xtreme Reach\" Mold & Mildew Stain Remover Due to Skin and Eye Irritation Risk",
+      "ConsumerContact": "Consumers should immediately stop using the recalled product and reach out to Wet & Forget at 888-359-4623 from 7 a.m. to 6 p.m. CT, Monday to Friday, or via email at nozzle@realtimeresults.net. More information is available online at www.recallrtr.com/nozzle under the \"Safety Recalls\" section.",
+      "LastPublishDate": "2023-12-07T00:00:00",
+      "Products": [
+        {
+          "Name": "Wet & Forget \"Xtreme Reach\" Outdoor Mold & Mildew Stain Remover",
+          "NumberOfUnits": "About 2.7 million"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/chemicals/3-Wet-Forget-Xtreme-Reach-Outdoor-Mold-Mildew-Stain-Remover/b7302e3fc3d10f2fd244296ea0836175.webp",
+          "Caption": "Recalled Wet & Forget \"Xtreme Reach\" Mold & Mildew Stain Remover – 48 oz. Bottle",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/wet-forget-48.png"
+        },
+        {
+          "URL": "/images/generalRecalls/chemicals/3-Wet-Forget-Xtreme-Reach-Outdoor-Mold-Mildew-Stain-Remover/31c6966288a8bb187b8561d0f5c1a086.webp",
+          "Caption": "Recalled Wet & Forget \"Xtreme Reach\" Mold & Mildew Stain Remover – 68 oz. bottle",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/wet-forget-64.png"
+        },
+        {
+          "URL": "/images/generalRecalls/chemicals/3-Wet-Forget-Xtreme-Reach-Outdoor-Mold-Mildew-Stain-Remover/be9b1d57672534f1103187f4563eeef8.webp",
+          "Caption": "Recalled hose-end nozzle sold with Wet & Forget \"Xtreme Reach\" Mold & Mildew Stain Remover",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/wet-forget-hose.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received 3,188 reports of dislodgement of the nozzle insert, including 157 reports of exposure to the cleaning solution and 28 reports that include complaints of skin or eye irritation."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available at Ace Hardware, Costco, Home Depot, Lowe's, True Value, Walmart, and various home goods stores nationwide, as well as online at www.amazon.com, www.SamsClubs.com, www.walmart.com from February 2018 through November 2023, priced between $30 and $35."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Wet & Forget (USA) Inc., of Elgin, Illinois"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "New Zealand"
+        }
+      ],
+      "ProductUPCs": [
+        {
+          "UPC": "879288000077"
+        },
+        {
+          "UPC": "879288000084"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of skin and eye irritation due to dislodging hose end nozzle clip"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Free replacement nozzle for the recalled stain remover; do not use until replacement is installed"
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ],
+      "slug": "wet-forget-usa-issues-recall-for-2-7-million-bottles-of-xtreme-reach-mold-mildew-stain-remover-due-to-skin-and-eye-irritation-risk-recall",
+      "metaDescription": "Wet & Forget recalls 2.7 million bottles of \"Xtreme Reach\" stain remover due to skin and eye irritation risk. Learn more about the recall.",
+      "languages": {
+        "en": {
+          "Title": "Wet & Forget USA Issues Recall for 2.7 Million Bottles of \"Xtreme Reach\" Mold & Mildew Stain Remover Due to Skin and Eye Irritation Risk",
+          "Description": "Wet & Forget is recalling its \"Xtreme Reach\" Outdoor Mold & Mildew Stain Remover, available in 48 oz. and 68 oz. bottles with hose end nozzles. The product, packaged in a blue plastic bottle, has UPCs 879288000077 for the 48 oz. size and 879288000084 for the 68 oz. size, located on the label's bottom right corner. The hose end nozzle is marked with the \"Wet & Forget\" brand name.",
+          "ConsumerContact": "Consumers should immediately stop using the recalled product and reach out to Wet & Forget at 888-359-4623 from 7 a.m. to 6 p.m. CT, Monday to Friday, or via email at nozzle@realtimeresults.net. More information is available online at www.recallrtr.com/nozzle under the \"Safety Recalls\" section.",
+          "metaDescription": "Wet & Forget recalls 2.7 million bottles of \"Xtreme Reach\" stain remover due to skin and eye irritation risk. Learn more about the recall.",
+          "Products": [
+            {
+              "Name": "Wet & Forget \"Xtreme Reach\" Outdoor Mold & Mildew Stain Remover",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 2.7 million"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled Wet & Forget \"Xtreme Reach\" Mold & Mildew Stain Remover – 48 oz. Bottle"
+            },
+            {
+              "Caption": "Recalled Wet & Forget \"Xtreme Reach\" Mold & Mildew Stain Remover – 68 oz. bottle"
+            },
+            {
+              "Caption": "Recalled hose-end nozzle sold with Wet & Forget \"Xtreme Reach\" Mold & Mildew Stain Remover"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "The firm has received 3,188 reports of dislodgement of the nozzle insert, including 157 reports of exposure to the cleaning solution and 28 reports that include complaints of skin or eye irritation."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Available at Ace Hardware, Costco, Home Depot, Lowe's, True Value, Walmart, and various home goods stores nationwide, as well as online at www.amazon.com, www.SamsClubs.com, www.walmart.com from February 2018 through November 2023, priced between $30 and $35."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Wet & Forget (USA) Inc., of Elgin, Illinois"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Sold At",
+          "ManufacturerCountries": [
+            {
+              "Country": "New Zealand"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risk of skin and eye irritation due to dislodging hose end nozzle clip"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Free replacement nozzle for the recalled stain remover; do not use until replacement is installed"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Repair"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "Wet & Forget USA emite un retiro del mercado de 2.7 millones de botellas de \"Xtreme Reach\" removedor de manchas de moho y hongos debido al riesgo de irritación en la piel y los ojos",
+          "Description": "Wet & Forget está retirando del mercado su removedor de manchas de moho y hongos \"Xtreme Reach\" para exteriores, disponible en botellas de 48 oz. y 68 oz. con boquillas de extremo de manguera. El producto, empaquetado en una botella de plástico azul, tiene UPCs 879288000077 para el tamaño de 48 oz. y 879288000084 para el tamaño de 68 oz., ubicados en la esquina inferior derecha de la etiqueta. La boquilla de extremo de manguera está marcada con el nombre de la marca \"Wet & Forget\".",
+          "ConsumerContact": "Los consumidores deben dejar de usar inmediatamente el producto retirado y comunicarse con Wet & Forget al 888-359-4623 de 7 a.m. a 6 p.m. CT, de lunes a viernes, o por correo electrónico a nozzle@realtimeresults.net. Más información está disponible en línea en www.recallrtr.com/nozzle en la sección de \"Retiro de Seguridad\".",
+          "metaDescription": "Wet & Forget retira 2.7 millones de botellas de removedor de manchas \"Xtreme Reach\" debido al riesgo de irritación en la piel y los ojos. Aprenda más sobre el retiro.",
+          "Products": [
+            {
+              "Name": "Wet & Forget \"Xtreme Reach\" removedor de manchas de moho y hongos para exteriores",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 2.7 millones"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Removedor de manchas de moho y hongos Wet & Forget \"Xtreme Reach\" retirado – Botella de 48 oz."
+            },
+            {
+              "Caption": "Removedor de manchas de moho y hongos Wet & Forget \"Xtreme Reach\" retirado – Botella de 68 oz."
+            },
+            {
+              "Caption": "Boquilla de extremo de manguera retirada vendida con el removedor de manchas de moho y hongos Wet & Forget \"Xtreme Reach\""
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "La empresa ha recibido 3,188 informes de desalojo del inserto de la boquilla, incluidos 157 informes de exposición a la solución de limpieza y 28 informes que incluyen quejas de irritación en la piel o los ojos."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible en Ace Hardware, Costco, Home Depot, Lowe's, True Value, Walmart y varias tiendas de artículos para el hogar en todo el país, así como en línea en www.amazon.com, www.SamsClubs.com, www.walmart.com desde febrero de 2018 hasta noviembre de 2023, con precios entre $30 y $35."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Wet & Forget (USA) Inc., de Elgin, Illinois"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendido en",
+          "ManufacturerCountries": [
+            {
+              "Country": "Nueva Zelanda"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Riesgo de irritación en la piel y los ojos debido al desalojo del clip de la boquilla de extremo de manguera"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Boquilla de reemplazo gratuita para el removedor de manchas retirado; no use hasta que se instale el reemplazo"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparar"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "شركة ويت آند فورغيت الأمريكية تصدر استدعاء لـ 2.7 مليون زجاجة من مزيل بقع العفن والعفن \"إكستريم ريتش\" بسبب خطر تهيج الجلد والعين",
+          "Description": "تقوم شركة ويت آند فورغيت باستدعاء مزيل بقع العفن والعفن الخارجي \"إكستريم ريتش\"، المتوفر في زجاجات سعة 48 أونصة و68 أونصة مع فوهات نهاية خرطوم. المنتج، المعبأ في زجاجة بلاستيكية زرقاء، يحمل رموز UPC 879288000077 لحجم 48 أونصة و879288000084 لحجم 68 أونصة، الموجودة في الزاوية السفلى اليمنى من الملصق. فوهة نهاية الخرطوم تحمل اسم العلامة التجارية \"ويت آند فورغيت\".",
+          "ConsumerContact": "يجب على المستهلكين التوقف عن استخدام المنتج المستدعى على الفور والتواصل مع ويت آند فورغيت على الرقم 888-359-4623 من الساعة 7 صباحًا حتى 6 مساءً بتوقيت وسط الولايات المتحدة، من الاثنين إلى الجمعة، أو عبر البريد الإلكتروني على nozzle@realtimeresults.net. مزيد من المعلومات متاحة عبر الإنترنت على www.recallrtr.com/nozzle في قسم \"استدعاءات السلامة\".",
+          "metaDescription": "تستدعي ويت آند فورغيت 2.7 مليون زجاجة من مزيل البقع \"إكستريم ريتش\" بسبب خطر تهيج الجلد والعين. تعرف على المزيد حول الاستدعاء.",
+          "Products": [
+            {
+              "Name": "مزيل بقع العفن والعفن الخارجي \"إكستريم ريتش\" من ويت آند فورغيت",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 2.7 مليون"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "مزيل بقع العفن والعفن \"إكستريم ريتش\" من ويت آند فورغيت المستدعى – زجاجة سعة 48 أونصة"
+            },
+            {
+              "Caption": "مزيل بقع العفن والعفن \"إكستريم ريتش\" من ويت آند فورغيت المستدعى – زجاجة سعة 68 أونصة"
+            },
+            {
+              "Caption": "فوهة نهاية الخرطوم المستدعاة المباعة مع مزيل بقع العفن والعفن \"إكستريم ريتش\" من ويت آند فورغيت"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "تلقت الشركة 3,188 تقريرًا عن انفصال إدخال الفوهة، بما في ذلك 157 تقريرًا عن التعرض لمحلول التنظيف و28 تقريرًا تتضمن شكاوى من تهيج الجلد أو العين."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "متوفر في متاجر آيس هاردوير، وكوستكو، وهوم ديبوت، ولوي، وترو فالو، وول مارت، ومختلف متاجر السلع المنزلية في جميع أنحاء البلاد، بالإضافة إلى الإنترنت على www.amazon.com، www.SamsClubs.com، www.walmart.com من فبراير 2018 حتى نوفمبر 2023، بسعر يتراوح بين 30 و35 دولارًا."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "ويت آند فورغيت (الولايات المتحدة) إنك، من إلجين، إلينوي"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "تم البيع في",
+          "ManufacturerCountries": [
+            {
+              "Country": "نيوزيلندا"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "خطر تهيج الجلد والعين بسبب انفصال مشبك فوهة نهاية الخرطوم"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "فوهة بديلة مجانية لمزيل البقع المستدعى؛ لا تستخدم حتى يتم تثبيت البديل"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "إصلاح"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "Wet & Forget USA 发布召回 270 万瓶 \"Xtreme Reach\" 霉菌和霉斑去除剂，因皮肤和眼睛刺激风险",
+          "Description": "Wet & Forget 正在召回其 \"Xtreme Reach\" 户外霉菌和霉斑去除剂，提供 48 盎司和 68 盎司的瓶装，配有软管末端喷嘴。该产品包装在蓝色塑料瓶中，48 盎司的 UPC 为 879288000077，68 盎司的 UPC 为 879288000084，位于标签的右下角。软管末端喷嘴上标有 \"Wet & Forget\" 品牌名称。",
+          "ConsumerContact": "消费者应立即停止使用召回的产品，并在周一至周五的上午 7 点至下午 6 点（中部时间）拨打 888-359-4623 联系 Wet & Forget，或通过电子邮件联系 nozzle@realtimeresults.net。更多信息可在线访问 www.recallrtr.com/nozzle 的 \"安全召回\" 部分。",
+          "metaDescription": "Wet & Forget 召回 270 万瓶 \"Xtreme Reach\" 去污剂，因皮肤和眼睛刺激风险。了解更多关于召回的信息。",
+          "Products": [
+            {
+              "Name": "Wet & Forget \"Xtreme Reach\" 户外霉菌和霉斑去除剂",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约 270 万"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "召回的 Wet & Forget \"Xtreme Reach\" 霉菌和霉斑去除剂 – 48 盎司瓶"
+            },
+            {
+              "Caption": "召回的 Wet & Forget \"Xtreme Reach\" 霉菌和霉斑去除剂 – 68 盎司瓶"
+            },
+            {
+              "Caption": "与 Wet & Forget \"Xtreme Reach\" 霉菌和霉斑去除剂一起销售的软管末端喷嘴"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "该公司已收到 3,188 起喷嘴插入物脱落的报告，包括 157 起接触清洁溶液的报告和 28 起包括皮肤或眼睛刺激投诉的报告。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "在 Ace Hardware、Costco、Home Depot、Lowe's、True Value、Walmart 和全国各地的各种家居用品商店均有销售，以及在 www.amazon.com、www.SamsClubs.com、www.walmart.com 在线销售，销售时间为 2018 年 2 月至 2023 年 11 月，价格在 30 到 35 美元之间。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Wet & Forget (USA) Inc., 位于伊利诺伊州埃尔金"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "销售地点",
+          "ManufacturerCountries": [
+            {
+              "Country": "新西兰"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "因软管末端喷嘴夹脱落而导致的皮肤和眼睛刺激风险"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "召回的去污剂免费更换喷嘴；在更换安装之前请勿使用"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "修理"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "Wet & Forget USA rappelle 2,7 millions de bouteilles de \"Xtreme Reach\" nettoyant pour moisissure et taches de moisissure en raison du risque d'irritation de la peau et des yeux",
+          "Description": "Wet & Forget rappelle son nettoyant pour moisissure et taches de moisissure extérieur \"Xtreme Reach\", disponible en bouteilles de 48 oz. et 68 oz. avec buses de tuyau. Le produit, conditionné dans une bouteille en plastique bleue, a des UPC 879288000077 pour la taille de 48 oz. et 879288000084 pour la taille de 68 oz., situés dans le coin inférieur droit de l'étiquette. La buse de tuyau est marquée du nom de marque \"Wet & Forget\".",
+          "ConsumerContact": "Les consommateurs doivent immédiatement cesser d'utiliser le produit rappelé et contacter Wet & Forget au 888-359-4623 de 7 h à 18 h CT, du lundi au vendredi, ou par e-mail à nozzle@realtimeresults.net. Plus d'informations sont disponibles en ligne sur www.recallrtr.com/nozzle dans la section \"Rappels de sécurité\".",
+          "metaDescription": "Wet & Forget rappelle 2,7 millions de bouteilles de nettoyant \"Xtreme Reach\" en raison du risque d'irritation de la peau et des yeux. En savoir plus sur le rappel.",
+          "Products": [
+            {
+              "Name": "Wet & Forget \"Xtreme Reach\" nettoyant pour moisissure et taches de moisissure extérieur",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 2,7 millions"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Wet & Forget \"Xtreme Reach\" nettoyant pour moisissure et taches de moisissure rappelé – Bouteille de 48 oz."
+            },
+            {
+              "Caption": "Wet & Forget \"Xtreme Reach\" nettoyant pour moisissure et taches de moisissure rappelé – Bouteille de 68 oz."
+            },
+            {
+              "Caption": "Buse de tuyau rappelée vendue avec Wet & Forget \"Xtreme Reach\" nettoyant pour moisissure et taches de moisissure"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "L'entreprise a reçu 3 188 rapports de délogement de l'insert de la buse, y compris 157 rapports d'exposition à la solution de nettoyage et 28 rapports incluant des plaintes d'irritation de la peau ou des yeux."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible chez Ace Hardware, Costco, Home Depot, Lowe's, True Value, Walmart et divers magasins de biens pour la maison à l'échelle nationale, ainsi qu'en ligne sur www.amazon.com, www.SamsClubs.com, www.walmart.com de février 2018 à novembre 2023, au prix compris entre 30 $ et 35 $."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Wet & Forget (USA) Inc., d'Elgin, Illinois"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendu chez",
+          "ManufacturerCountries": [
+            {
+              "Country": "Nouvelle-Zélande"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risque d'irritation de la peau et des yeux en raison du délogement de la clip de la buse de tuyau"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Buse de remplacement gratuite pour le nettoyant rappelé ; ne pas utiliser jusqu'à ce que le remplacement soit installé"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Réparation"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "Wet & Forget USA ruft 2,7 Millionen Flaschen des \"Xtreme Reach\" Schimmel- und Mehltauentferners aufgrund von Haut- und Augenreizungsrisiko zurück",
+          "Description": "Wet & Forget ruft seinen \"Xtreme Reach\" Outdoor Schimmel- und Mehltauentferner zurück, erhältlich in 48 oz. und 68 oz. Flaschen mit Schlauchdüsen. Das Produkt, verpackt in einer blauen Kunststoffflasche, hat die UPCs 879288000077 für die 48 oz. Größe und 879288000084 für die 68 oz. Größe, die sich in der unteren rechten Ecke des Etiketts befinden. Die Schlauchdüse ist mit dem Markennamen \"Wet & Forget\" gekennzeichnet.",
+          "ConsumerContact": "Verbraucher sollten die zurückgerufene Ware sofort nicht mehr verwenden und sich an Wet & Forget unter 888-359-4623 von 7 bis 18 Uhr CT, Montag bis Freitag, oder per E-Mail an nozzle@realtimeresults.net wenden. Weitere Informationen sind online unter www.recallrtr.com/nozzle im Abschnitt \"Sicherheitsrückrufe\" verfügbar.",
+          "metaDescription": "Wet & Forget ruft 2,7 Millionen Flaschen des \"Xtreme Reach\" Fleckenentferners aufgrund von Haut- und Augenreizungsrisiko zurück. Erfahren Sie mehr über den Rückruf.",
+          "Products": [
+            {
+              "Name": "Wet & Forget \"Xtreme Reach\" Outdoor Schimmel- und Mehltauentferner",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 2,7 Millionen"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Zurückgerufener Wet & Forget \"Xtreme Reach\" Schimmel- und Mehltauentferner – 48 oz. Flasche"
+            },
+            {
+              "Caption": "Zurückgerufener Wet & Forget \"Xtreme Reach\" Schimmel- und Mehltauentferner – 68 oz. Flasche"
+            },
+            {
+              "Caption": "Zurückgerufene Schlauchdüse, die mit Wet & Forget \"Xtreme Reach\" Schimmel- und Mehltauentferner verkauft wurde"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Das Unternehmen hat 3.188 Berichte über das Lösen des Düseneinsatzes erhalten, darunter 157 Berichte über Kontakt mit der Reinigungslösung und 28 Berichte, die Beschwerden über Haut- oder Augenreizungen enthalten."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Erhältlich bei Ace Hardware, Costco, Home Depot, Lowe's, True Value, Walmart und verschiedenen Haushaltsgeschäften im ganzen Land sowie online unter www.amazon.com, www.SamsClubs.com, www.walmart.com von Februar 2018 bis November 2023, preislich zwischen 30 und 35 Dollar."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Wet & Forget (USA) Inc., aus Elgin, Illinois"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Verkauft bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "Neuseeland"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risiko von Haut- und Augenreizungen aufgrund des Lösen des Clips der Schlauchdüse"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Kostenlose Ersatzdüse für den zurückgerufenen Fleckenentferner; nicht verwenden, bis der Ersatz installiert ist"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparatur"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "Wet & Forget USAが皮膚および目の刺激リスクにより「Xtreme Reach」カビおよびカビ汚れ除去剤270万本をリコール",
+          "Description": "Wet & Forgetは、ホースエンドノズル付きの48オンスおよび68オンスのボトルで販売されている「Xtreme Reach」屋外カビおよびカビ汚れ除去剤をリコールしています。青いプラスチックボトルにパッケージされており、48オンスサイズのUPCは879288000077、68オンスサイズのUPCは879288000084で、ラベルの右下隅に位置しています。ホースエンドノズルには「Wet & Forget」ブランド名が記載されています。\n",
+          "ConsumerContact": "消費者は、リコールされた製品の使用を直ちに中止し、月曜日から金曜日の午前7時から午後6時（中央標準時）まで888-359-4623までWet & Forgetに連絡するか、メールでnozzle@realtimeresults.netまでご連絡ください。詳細情報は、www.recallrtr.com/nozzleの「安全リコール」セクションでオンラインで入手できます。",
+          "metaDescription": "Wet & Forgetは皮膚および目の刺激リスクにより「Xtreme Reach」汚れ除去剤270万本をリコールします。リコールについての詳細を学びましょう。",
+          "Products": [
+            {
+              "Name": "Wet & Forget \"Xtreme Reach\"屋外カビおよびカビ汚れ除去剤",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約270万"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコールされたWet & Forget \"Xtreme Reach\"カビおよびカビ汚れ除去剤 – 48オンスボトル"
+            },
+            {
+              "Caption": "リコールされたWet & Forget \"Xtreme Reach\"カビおよびカビ汚れ除去剤 – 68オンスボトル"
+            },
+            {
+              "Caption": "Wet & Forget \"Xtreme Reach\"カビおよびカビ汚れ除去剤と共に販売されたホースエンドノズル"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "同社はノズルインサートの脱落に関する3,188件の報告を受けており、その中には清掃溶液への曝露に関する157件の報告と、皮膚または目の刺激に関する苦情を含む28件の報告があります。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Ace Hardware、Costco、Home Depot、Lowe's、True Value、Walmart、全国のさまざまな家庭用品店で入手可能で、www.amazon.com、www.SamsClubs.com、www.walmart.comで2018年2月から2023年11月まで販売され、価格は30ドルから35ドルの間です。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Wet & Forget (USA) Inc.、イリノイ州エルジン"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "販売場所",
+          "ManufacturerCountries": [
+            {
+              "Country": "ニュージーランド"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "ホースエンドノズルクリップの脱落による皮膚および目の刺激リスク"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "リコールされた汚れ除去剤用の無料交換ノズル; 交換が取り付けられるまで使用しないでください"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "修理"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "Wet & Forget EUA emite recall de 2,7 milhões de frascos de removedor de manchas de mofo e bolor \"Xtreme Reach\" devido ao risco de irritação na pele e nos olhos",
+          "Description": "Wet & Forget está recallando seu removedor de manchas de mofo e bolor \"Xtreme Reach\" para uso externo, disponível em frascos de 48 oz. e 68 oz. O produto, embalado em um frasco plástico azul, possui UPCs 879288000077 para o tamanho de 48 oz. e 879288000084 para o tamanho de 68 oz., localizados no canto inferior direito do rótulo. O bico de mangueira é marcado com o nome da marca \"Wet & Forget\".\n\n",
+          "ConsumerContact": "Os consumidores devem parar imediatamente de usar o produto recallado e entrar em contato com Wet & Forget pelo telefone 888-359-4623 das 7h às 18h CT, de segunda a sexta-feira, ou por e-mail em nozzle@realtimeresults.net. Mais informações estão disponíveis online em www.recallrtr.com/nozzle na seção \"Recall de Segurança\".",
+          "metaDescription": "Wet & Forget recalla 2,7 milhões de frascos de removedor de manchas \"Xtreme Reach\" devido ao risco de irritação na pele e nos olhos. Saiba mais sobre o recall.",
+          "Products": [
+            {
+              "Name": "Wet & Forget \"Xtreme Reach\" Removedor de Manchas de Mofo e Bolor para Uso Externo",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 2,7 milhões"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Removedor de manchas de mofo e bolor \"Xtreme Reach\" Wet & Forget recallado – Frasco de 48 oz."
+            },
+            {
+              "Caption": "Removedor de manchas de mofo e bolor \"Xtreme Reach\" Wet & Forget recallado – Frasco de 68 oz."
+            },
+            {
+              "Caption": "Bico de mangueira recallado vendido com o removedor de manchas de mofo e bolor \"Xtreme Reach\" Wet & Forget"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "A empresa recebeu 3.188 relatos de deslizamento do inserto do bico, incluindo 157 relatos de exposição à solução de limpeza e 28 relatos que incluem queixas de irritação na pele ou nos olhos."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponível em Ace Hardware, Costco, Home Depot, Lowe's, True Value, Walmart e várias lojas de produtos para o lar em todo o país, bem como online em www.amazon.com, www.SamsClubs.com, www.walmart.com de fevereiro de 2018 até novembro de 2023, com preços entre $30 e $35."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Wet & Forget (USA) Inc., de Elgin, Illinois"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendido em",
+          "ManufacturerCountries": [
+            {
+              "Country": "Nova Zelândia"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risco de irritação na pele e nos olhos devido ao deslizamento do clipe do bico de mangueira"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Bico de reposição gratuito para o removedor de manchas recallado; não use até que a substituição esteja instalada"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparo"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "वेट & फॉरगेट यूएसए ने त्वचा और आंखों में जलन के जोखिम के कारण \"एक्सट्रीम रीच\" मोल्ड और फफूंदी दाग हटाने वाले के 2.7 मिलियन बोतलों की रिकॉल की घोषणा की",
+          "Description": "वेट & फॉरगेट अपने \"एक्सट्रीम रीच\" आउटडोर मोल्ड और फफूंदी दाग हटाने वाले को रिकॉल कर रहा है, जो 48 औंस और 68 औंस की बोतलों में होज़ अंत नोजल के साथ उपलब्ध है। उत्पाद, जो नीली प्लास्टिक की बोतल में पैक किया गया है, के लिए 48 औंस आकार का UPC 879288000077 और 68 औंस आकार का UPC 879288000084 है, जो लेबल के नीचे दाएं कोने पर स्थित है। होज़ अंत नोजल \"वेट & फॉरगेट\" ब्रांड नाम से चिह्नित है।",
+          "ConsumerContact": "उपभोक्ताओं को तुरंत रिकॉल किए गए उत्पाद का उपयोग बंद कर देना चाहिए और वेट & फॉरगेट से 888-359-4623 पर सुबह 7 बजे से शाम 6 बजे CT, सोमवार से शुक्रवार तक संपर्क करना चाहिए, या ईमेल के माध्यम से nozzle@realtimeresults.net पर। अधिक जानकारी ऑनलाइन www.recallrtr.com/nozzle पर \"सुरक्षा रिकॉल\" अनुभाग के तहत उपलब्ध है।",
+          "metaDescription": "वेट & फॉरगेट त्वचा और आंखों में जलन के जोखिम के कारण \"एक्सट्रीम रीच\" दाग हटाने वाले के 2.7 मिलियन बोतलों को रिकॉल करता है। रिकॉल के बारे में अधिक जानें।",
+          "Products": [
+            {
+              "Name": "वेट & फॉरगेट \"एक्सट्रीम रीच\" आउटडोर मोल्ड और फफूंदी दाग हटाने वाला",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 2.7 मिलियन"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "रिकॉल किया गया वेट & फॉरगेट \"एक्सट्रीम रीच\" मोल्ड और फफूंदी दाग हटाने वाला – 48 औंस की बोतल"
+            },
+            {
+              "Caption": "रिकॉल किया गया वेट & फॉरगेट \"एक्सट्रीम रीच\" मोल्ड और फफूंदी दाग हटाने वाला – 68 औंस की बोतल"
+            },
+            {
+              "Caption": "रिकॉल किया गया होज़-एंड नोजल जो वेट & फॉरगेट \"एक्सट्रीम रीच\" मोल्ड और फफूंदी दाग हटाने वाले के साथ बेचा गया"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "कंपनी को नोजल इंसर्ट के डिस्लॉजमेंट के 3,188 रिपोर्ट मिले हैं, जिनमें से 157 रिपोर्टें सफाई समाधान के संपर्क में आने की हैं और 28 रिपोर्टें हैं जिनमें त्वचा या आंखों में जलन की शिकायतें शामिल हैं।"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "एस हार्डवेयर, कॉस्टको, होम डिपो, लोव्स, ट्रू वैल्यू, वॉलमार्ट और विभिन्न घरेलू सामान की दुकानों पर उपलब्ध है, साथ ही www.amazon.com, www.SamsClubs.com, www.walmart.com पर फरवरी 2018 से नवंबर 2023 तक, $30 से $35 के बीच की कीमत पर।"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "वेट & फॉरगेट (यूएसए) इंक., एल्गिन, इलिनोइस"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "न्यूजीलैंड"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "होज़ अंत नोजल क्लिप के डिस्लॉजमेंट के कारण त्वचा और आंखों में जलन का जोखिम"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "रिकॉल किए गए दाग हटाने वाले के लिए मुफ्त प्रतिस्थापन नोजल; प्रतिस्थापन स्थापित होने तक उपयोग न करें"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "मरम्मत"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "Wet & Forget USA объявляет отзыв 2,7 миллиона бутылок средства для удаления плесени и грибка \"Xtreme Reach\" из-за риска раздражения кожи и глаз",
+          "Description": "Wet & Forget отзывает свое средство для удаления плесени и грибка \"Xtreme Reach\" для использования на улице, доступное в бутылках объемом 48 унций и 68 унций с насадками для шланга. Продукт, упакованный в синюю пластиковую бутылку, имеет штрих-коды 879288000077 для размера 48 унций и 879288000084 для размера 68 унций, расположенные в нижнем правом углу этикетки. Насадка для шланга помечена брендом \"Wet & Forget\".\n\nПотребители должны немедленно прекратить использование отозванного продукта и обратиться в Wet & Forget по телефону 888-359-4623 с 7:00 до 18:00 по центральному времени с понедельника по пятницу или по электронной почте на адрес nozzle@realtimeresults.net. Дополнительная информация доступна онлайн на www.recallrtr.com/nozzle в разделе \"Безопасные отзывы\".",
+          "ConsumerContact": "Потребители должны немедленно прекратить использование отозванного продукта и обратиться в Wet & Forget по телефону 888-359-4623 с 7:00 до 18:00 по центральному времени с понедельника по пятницу или по электронной почте на адрес nozzle@realtimeresults.net. Дополнительная информация доступна онлайн на www.recallrtr.com/nozzle в разделе \"Безопасные отзывы\".",
+          "metaDescription": "Wet & Forget отзывает 2,7 миллиона бутылок средства для удаления пятен \"Xtreme Reach\" из-за риска раздражения кожи и глаз. Узнайте больше о отзыве.",
+          "Products": [
+            {
+              "Name": "Wet & Forget \"Xtreme Reach\" средство для удаления плесени и грибка для использования на улице",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 2,7 миллиона"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванное средство для удаления плесени и грибка Wet & Forget \"Xtreme Reach\" – бутылка 48 унций"
+            },
+            {
+              "Caption": "Отозванное средство для удаления плесени и грибка Wet & Forget \"Xtreme Reach\" – бутылка 68 унций"
+            },
+            {
+              "Caption": "Отозванная насадка для шланга, продаваемая с средством для удаления плесени и грибка Wet & Forget \"Xtreme Reach\""
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Компания получила 3,188 сообщений о смещении вставки насадки, включая 157 сообщений о контакте с чистящим раствором и 28 сообщений, в которых содержатся жалобы на раздражение кожи или глаз."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Доступно в Ace Hardware, Costco, Home Depot, Lowe's, True Value, Walmart и различных магазинах товаров для дома по всей стране, а также онлайн на www.amazon.com, www.SamsClubs.com, www.walmart.com с февраля 2018 года по ноябрь 2023 года, по цене от 30 до 35 долларов."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Wet & Forget (USA) Inc., Эльгин, штат Иллинойс"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Продается в",
+          "ManufacturerCountries": [
+            {
+              "Country": "Новая Зеландия"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Риск раздражения кожи и глаз из-за смещения зажима насадки для шланга"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Бесплатная замена насадки для отозванного средства для удаления пятен; не используйте до установки замены"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Ремонт"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "Wet & Forget USA thông báo thu hồi 2,7 triệu chai \"Xtreme Reach\" chất tẩy vết nấm mốc và rêu do nguy cơ kích ứng da và mắt",
+          "Description": "Wet & Forget đang thu hồi sản phẩm \"Xtreme Reach\" chất tẩy vết nấm mốc và rêu ngoài trời, có sẵn trong các chai 48 oz. và 68 oz. với vòi đầu ống. Sản phẩm, được đóng gói trong chai nhựa màu xanh, có mã UPC 879288000077 cho kích thước 48 oz. và 879288000084 cho kích thước 68 oz., nằm ở góc dưới bên phải của nhãn. Vòi đầu ống được đánh dấu với tên thương hiệu \"Wet & Forget\".\n\nNgười tiêu dùng nên ngay lập tức ngừng sử dụng sản phẩm bị thu hồi và liên hệ với Wet & Forget theo số 888-359-4623 từ 7 giờ sáng đến 6 giờ chiều CT, từ thứ Hai đến thứ Sáu, hoặc qua email tại nozzle@realtimeresults.net. Thêm thông tin có sẵn trực tuyến tại www.recallrtr.com/nozzle trong phần \"Thông báo thu hồi an toàn\".",
+          "ConsumerContact": "Người tiêu dùng nên ngay lập tức ngừng sử dụng sản phẩm bị thu hồi và liên hệ với Wet & Forget theo số 888-359-4623 từ 7 giờ sáng đến 6 giờ chiều CT, từ thứ Hai đến thứ Sáu, hoặc qua email tại nozzle@realtimeresults.net. Thêm thông tin có sẵn trực tuyến tại www.recallrtr.com/nozzle trong phần \"Thông báo thu hồi an toàn\".",
+          "metaDescription": "Wet & Forget thu hồi 2,7 triệu chai chất tẩy vết \"Xtreme Reach\" do nguy cơ kích ứng da và mắt. Tìm hiểu thêm về thông báo thu hồi.",
+          "Products": [
+            {
+              "Name": "Wet & Forget \"Xtreme Reach\" chất tẩy vết nấm mốc và rêu ngoài trời",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 2,7 triệu"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Chất tẩy vết nấm mốc và rêu Wet & Forget \"Xtreme Reach\" bị thu hồi – Chai 48 oz."
+            },
+            {
+              "Caption": "Chất tẩy vết nấm mốc và rêu Wet & Forget \"Xtreme Reach\" bị thu hồi – Chai 68 oz."
+            },
+            {
+              "Caption": "Vòi đầu ống bị thu hồi bán kèm với chất tẩy vết nấm mốc và rêu Wet & Forget \"Xtreme Reach\""
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Công ty đã nhận được 3.188 báo cáo về việc rời khỏi vị trí của chèn vòi, bao gồm 157 báo cáo về việc tiếp xúc với dung dịch tẩy rửa và 28 báo cáo có khiếu nại về kích ứng da hoặc mắt."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Có sẵn tại Ace Hardware, Costco, Home Depot, Lowe's, True Value, Walmart và nhiều cửa hàng đồ gia dụng khác trên toàn quốc, cũng như trực tuyến tại www.amazon.com, www.SamsClubs.com, www.walmart.com từ tháng 2 năm 2018 đến tháng 11 năm 2023, có giá từ 30 đến 35 đô la."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Wet & Forget (USA) Inc., tại Elgin, Illinois"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Bán Tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "New Zealand"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Nguy cơ kích ứng da và mắt do rời khỏi vị trí của chèn vòi đầu ống"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Vòi thay thế miễn phí cho chất tẩy vết bị thu hồi; không sử dụng cho đến khi vòi thay thế được lắp đặt"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Sửa chữa"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    }
+  ]
+}

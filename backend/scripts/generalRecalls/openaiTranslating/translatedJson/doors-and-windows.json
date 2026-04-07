@@ -1,0 +1,3292 @@
+{
+  "meta": {
+    "slug": "doors-and-windows",
+    "sourceCsvFile": "doors-and-windows_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:36.894Z",
+    "recallCount": 4,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "doors-and-windows.json",
+    "seoTranslatedAt": "2026-04-04T00:33:01.752Z",
+    "resumePartial": false,
+    "i18nSource": "generalRecallsTranslated",
+    "i18nSourceFile": "doors-and-windows.json",
+    "i18nUiLangs": [
+      "en",
+      "es",
+      "ar",
+      "zh",
+      "fr",
+      "de",
+      "ja",
+      "pt",
+      "hi",
+      "ru",
+      "vi"
+    ],
+    "i18nProgressByLang": {
+      "es": 4,
+      "ar": 4,
+      "zh": 4,
+      "fr": 4,
+      "de": 4,
+      "ja": 4,
+      "pt": 4,
+      "hi": 4,
+      "ru": 4,
+      "vi": 4
+    },
+    "i18nInProgress": false,
+    "i18nTranslatedAt": "2026-04-07T03:13:56.085Z",
+    "i18nOpenaiModel": "gpt-4o-mini"
+  },
+  "recalls": [
+    {
+      "RecallID": 10649,
+      "RecallNumber": "26306",
+      "RecallDate": "2026-02-26T00:00:00",
+      "Description": "Andersen Windows is recalling window opening control devices that were either sold as kits or installed on 100 Series casement windows manufactured before November 19, 2025. These devices may break or detach upon impact, creating a risk of falls and serious injuries. Consumers are urged to check the Product ID number located on the label at the upper right corner of their windows to see if their unit is affected by this recall.",
+      "URL": "https://www.cpsc.gov/Recalls/2026/Andersen-Windows-Recalls-Window-Opening-Control-Devices-Sold-as-Kits-or-Installed-on-100-Series-Casement-Windows-Due-to-Fall-and-Serious-Injury-Hazards",
+      "Title": "Andersen Windows Recalls 100 Series Casement Window Control Devices Due to Fall Risk",
+      "ConsumerContact": "For assistance, contact Andersen Windows at 844-815-7332 from 7:30 a.m. to 4:30 p.m. CT, Monday through Friday. You can also email 100Seriescasementwocdrecall@andersencorp.com or visit www.andersenwindows.com/100seriescasementwocdrecall for more details.",
+      "LastPublishDate": "2026-02-27T00:00:00",
+      "Products": [
+        {
+          "Name": "Window opening control devices for 100 Series casement windows",
+          "NumberOfUnits": "About 91,000 (In addition, about 180 were sold in Canada)"
+        }
+      ],
+      "Inconjunctions": [
+        {
+          "URL": "https://recalls-rappels.canada.ca/en/alert-recall/window-opening-control-devices-applied-andersen-100-series-casement-windows-recalled"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/doors-and-windows/1-Window-opening-control-devices-for-100-Series-casement-windows/3589dcfc57e2f6cebc2424d9b8136fa5.webp",
+          "Caption": "Recalled window opening control device installed on 100 Series casement windows",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Picture22_1.png"
+        },
+        {
+          "URL": "/images/generalRecalls/doors-and-windows/1-Window-opening-control-devices-for-100-Series-casement-windows/248c9d9912671e34f847cc744670767b.webp",
+          "Caption": "Label with product ID number on 100 Series casement windows",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Picture23_0.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/doors-and-windows/1-Window-opening-control-devices-for-100-Series-casement-windows/77cf3ef38a97921aed656bdbe79dc10e.webp",
+          "Caption": "Location of the label - upper right corner (circle 1) and \"AW\" and \"Andersen\" - lower right corner of the window",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Picture24_0.png"
+        },
+        {
+          "URL": "/images/generalRecalls/doors-and-windows/1-Window-opening-control-devices-for-100-Series-casement-windows/7bde11b49ef36aa1c81fc06d2cd38c76.webp",
+          "Caption": "Recalled window opening control device kit (packaging",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Picture25_0.jpg"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received eight reports of the devices breaking, detaching or malfunctioning. No injuries have been reported."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available through independent window distributors and online at parts.andersenwindows.com from October 2015 to December 2025, priced between $9 for individual kits and $220 for factory-installed units."
+        }
+      ],
+      "Distributors": [
+        {
+          "Name": "Andersen Windows, Inc., of Bayport, Minnesota"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "United States"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of falls and serious injuries due to potential breakage or detachment of control devices"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should keep the affected windows closed and locked, and contact Andersen Windows to arrange a free in-home repair by an authorized technician. Repair requests can be submitted at www.andersenwindows.com/100seriescasementwocdrecall."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ],
+      "slug": "andersen-windows-recalls-100-series-casement-window-control-devices-due-to-fall-risk-recall",
+      "metaDescription": "Andersen Windows recalls 100 Series casement window control devices due to fall hazards. Check if your unit is affected and get a free repair.",
+      "languages": {
+        "en": {
+          "Title": "Andersen Windows Recalls 100 Series Casement Window Control Devices Due to Fall Risk",
+          "Description": "Andersen Windows is recalling window opening control devices that were either sold as kits or installed on 100 Series casement windows manufactured before November 19, 2025. These devices may break or detach upon impact, creating a risk of falls and serious injuries. Consumers are urged to check the Product ID number located on the label at the upper right corner of their windows to see if their unit is affected by this recall.",
+          "ConsumerContact": "For assistance, contact Andersen Windows at 844-815-7332 from 7:30 a.m. to 4:30 p.m. CT, Monday through Friday. You can also email 100Seriescasementwocdrecall@andersencorp.com or visit www.andersenwindows.com/100seriescasementwocdrecall for more details.",
+          "metaDescription": "Andersen Windows recalls 100 Series casement window control devices due to fall hazards. Check if your unit is affected and get a free repair.",
+          "Products": [
+            {
+              "Name": "Window opening control devices for 100 Series casement windows",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 91,000 (In addition, about 180 were sold in Canada)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled window opening control device installed on 100 Series casement windows"
+            },
+            {
+              "Caption": "Label with product ID number on 100 Series casement windows"
+            },
+            {
+              "Caption": "Location of the label - upper right corner (circle 1) and \"AW\" and \"Andersen\" - lower right corner of the window"
+            },
+            {
+              "Caption": "Recalled window opening control device kit (packaging"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "The firm has received eight reports of the devices breaking, detaching or malfunctioning. No injuries have been reported."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Available through independent window distributors and online at parts.andersenwindows.com from October 2015 to December 2025, priced between $9 for individual kits and $220 for factory-installed units."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Andersen Windows, Inc., of Bayport, Minnesota"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Sold At",
+          "ManufacturerCountries": [
+            {
+              "Country": "United States"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risk of falls and serious injuries due to potential breakage or detachment of control devices"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Consumers should keep the affected windows closed and locked, and contact Andersen Windows to arrange a free in-home repair by an authorized technician. Repair requests can be submitted at www.andersenwindows.com/100seriescasementwocdrecall."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Repair"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "Andersen Windows recuerda dispositivos de control de apertura de ventanas de la serie 100 debido al riesgo de caídas",
+          "Description": "Andersen Windows está recordando dispositivos de control de apertura de ventanas que se vendieron como kits o que fueron instalados en ventanas de guillotina de la serie 100 fabricadas antes del 19 de noviembre de 2025. Estos dispositivos pueden romperse o desprenderse al impactar, creando un riesgo de caídas y lesiones graves. Se insta a los consumidores a verificar el número de identificación del producto ubicado en la etiqueta en la esquina superior derecha de sus ventanas para ver si su unidad se ve afectada por este retiro.",
+          "ConsumerContact": "Para obtener asistencia, comuníquese con Andersen Windows al 844-815-7332 de 7:30 a.m. a 4:30 p.m. CT, de lunes a viernes. También puede enviar un correo electrónico a 100Seriescasementwocdrecall@andersencorp.com o visitar www.andersenwindows.com/100seriescasementwocdrecall para más detalles.",
+          "metaDescription": "Andersen Windows recuerda dispositivos de control de apertura de ventanas de la serie 100 debido a riesgos de caída. Verifique si su unidad se ve afectada y obtenga una reparación gratuita.",
+          "Products": [
+            {
+              "Name": "Dispositivos de control de apertura de ventanas para ventanas de guillotina de la serie 100",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 91,000 (Además, se vendieron aproximadamente 180 en Canadá)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Dispositivo de control de apertura de ventana retirado instalado en ventanas de guillotina de la serie 100"
+            },
+            {
+              "Caption": "Etiqueta con el número de identificación del producto en ventanas de guillotina de la serie 100"
+            },
+            {
+              "Caption": "Ubicación de la etiqueta - esquina superior derecha (círculo 1) y \"AW\" y \"Andersen\" - esquina inferior derecha de la ventana"
+            },
+            {
+              "Caption": "Kit de dispositivo de control de apertura de ventana retirado (empaquetado)"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "La empresa ha recibido ocho informes de dispositivos que se rompen, desprenden o funcionan mal. No se han reportado lesiones."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible a través de distribuidores de ventanas independientes y en línea en parts.andersenwindows.com desde octubre de 2015 hasta diciembre de 2025, con precios entre $9 por kits individuales y $220 por unidades instaladas en fábrica."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Andersen Windows, Inc., de Bayport, Minnesota"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Se Vendió En",
+          "ManufacturerCountries": [
+            {
+              "Country": "Estados Unidos"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Riesgo de caídas y lesiones graves debido a la posible rotura o desprendimiento de los dispositivos de control"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Los consumidores deben mantener las ventanas afectadas cerradas y aseguradas, y contactar a Andersen Windows para organizar una reparación gratuita en el hogar por un técnico autorizado. Las solicitudes de reparación se pueden enviar a www.andersenwindows.com/100seriescasementwocdrecall."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparación"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "أندرسن ويندوز تستدعي أجهزة التحكم في نوافذ الكاسيت من السلسلة 100 بسبب خطر السقوط",
+          "Description": "تقوم أندرسن ويندوز باستدعاء أجهزة التحكم في فتح النوافذ التي تم بيعها كأطقم أو تم تركيبها على نوافذ الكاسيت من السلسلة 100 المصنعة قبل 19 نوفمبر 2025. قد تنكسر هذه الأجهزة أو تنفصل عند الاصطدام، مما يخلق خطر السقوط وإصابات خطيرة. يُحث المستهلكون على التحقق من رقم تعريف المنتج الموجود على الملصق في الزاوية العلوية اليمنى من نوافذهم لمعرفة ما إذا كانت وحدتهم متأثرة بهذا الاستدعاء.",
+          "ConsumerContact": "للمساعدة، اتصل بأندرسن ويندوز على الرقم 844-815-7332 من الساعة 7:30 صباحًا حتى 4:30 مساءً بتوقيت وسط أمريكا، من الاثنين إلى الجمعة. يمكنك أيضًا إرسال بريد إلكتروني إلى 100Seriescasementwocdrecall@andersencorp.com أو زيارة www.andersenwindows.com/100seriescasementwocdrecall لمزيد من التفاصيل.",
+          "metaDescription": "تستدعي أندرسن ويندوز أجهزة التحكم في نوافذ الكاسيت من السلسلة 100 بسبب مخاطر السقوط. تحقق مما إذا كانت وحدتك متأثرة واحصل على إصلاح مجاني.",
+          "Products": [
+            {
+              "Name": "أجهزة التحكم في فتح النوافذ لنوافذ الكاسيت من السلسلة 100",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 91,000 (بالإضافة إلى ذلك، تم بيع حوالي 180 في كندا)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "جهاز التحكم في فتح النوافذ المستدعى المثبت على نوافذ الكاسيت من السلسلة 100"
+            },
+            {
+              "Caption": "ملصق يحتوي على رقم تعريف المنتج على نوافذ الكاسيت من السلسلة 100"
+            },
+            {
+              "Caption": "موقع الملصق - الزاوية العلوية اليمنى (الدائرة 1) و\"AW\" و\"أندرسن\" - الزاوية السفلية اليمنى من النافذة"
+            },
+            {
+              "Caption": "طقم جهاز التحكم في فتح النوافذ المستدعى (التغليف)"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "تلقت الشركة ثماني تقارير عن كسر أو انفصال أو خلل في الأجهزة. لم يتم الإبلاغ عن أي إصابات."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "متوفر من خلال موزعي النوافذ المستقلين وعبر الإنترنت على parts.andersenwindows.com من أكتوبر 2015 إلى ديسمبر 2025، بأسعار تتراوح بين 9 دولارات للأطقم الفردية و220 دولارًا للوحدات المثبتة في المصنع."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "أندرسن ويندوز، إنك، من باي بورت، مينيسوتا"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "تم البيع في",
+          "ManufacturerCountries": [
+            {
+              "Country": "الولايات المتحدة"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "خطر السقوط وإصابات خطيرة بسبب احتمال كسر أو انفصال أجهزة التحكم"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "يجب على المستهلكين إبقاء النوافذ المتأثرة مغلقة ومقفلة، والتواصل مع أندرسن ويندوز لترتيب إصلاح مجاني في المنزل بواسطة فني معتمد. يمكن تقديم طلبات الإصلاح على www.andersenwindows.com/100seriescasementwocdrecall."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "إصلاح"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "安德森窗户召回100系列开窗控制装置因跌落风险",
+          "Description": "安德森窗户正在召回在2025年11月19日之前制造的100系列开窗窗户上销售的或安装的窗户开启控制装置。这些装置在受到冲击时可能会破裂或脱落，造成跌落和严重伤害的风险。消费者被敦促检查位于窗户右上角标签上的产品ID号码，以查看其单位是否受到此次召回的影响。",
+          "ConsumerContact": "如需帮助，请在周一至周五的中部时间上午7:30至下午4:30拨打844-815-7332联系安德森窗户。您也可以发送电子邮件至100Seriescasementwocdrecall@andersencorp.com，或访问www.andersenwindows.com/100seriescasementwocdrecall获取更多详细信息。",
+          "metaDescription": "安德森窗户因跌落危险召回100系列开窗控制装置。检查您的单位是否受到影响并获得免费维修。",
+          "Products": [
+            {
+              "Name": "100系列开窗窗户的窗户开启控制装置",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约91,000个（此外，约180个在加拿大销售）"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "安装在100系列开窗窗户上的召回窗户开启控制装置"
+            },
+            {
+              "Caption": "100系列开窗窗户上的产品ID号码标签"
+            },
+            {
+              "Caption": "标签位置 - 右上角（圆圈1）和\"AW\"及\"Andersen\" - 窗户右下角"
+            },
+            {
+              "Caption": "召回的窗户开启控制装置套件（包装）"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "该公司已收到八份关于装置破裂、脱落或故障的报告。未报告任何伤害。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "通过独立窗户分销商和在线parts.andersenwindows.com销售，从2015年10月到2025年12月，价格在单个套件9美元到工厂安装单位220美元之间。"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "安德森窗户公司，位于明尼苏达州贝波特"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "销售地点",
+          "ManufacturerCountries": [
+            {
+              "Country": "美国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "由于控制装置可能破裂或脱落而导致跌落和严重伤害的风险"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "消费者应保持受影响的窗户关闭并上锁，并联系安德森窗户安排由授权技术人员进行免费的上门维修。维修请求可以在www.andersenwindows.com/100seriescasementwocdrecall提交。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "维修"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "Andersen Windows rappelle des dispositifs de contrôle d'ouverture de fenêtres de la série 100 en raison du risque de chute",
+          "Description": "Andersen Windows rappelle des dispositifs de contrôle d'ouverture de fenêtres qui ont été soit vendus en kits, soit installés sur des fenêtres à battant de la série 100 fabriquées avant le 19 novembre 2025. Ces dispositifs peuvent se casser ou se détacher lors d'un impact, créant un risque de chutes et de blessures graves. Les consommateurs sont invités à vérifier le numéro d'identification du produit situé sur l'étiquette dans le coin supérieur droit de leurs fenêtres pour voir si leur unité est concernée par ce rappel.",
+          "ConsumerContact": "Pour obtenir de l'aide, contactez Andersen Windows au 844-815-7332 de 7h30 à 16h30 CT, du lundi au vendredi. Vous pouvez également envoyer un e-mail à 100Seriescasementwocdrecall@andersencorp.com ou visiter www.andersenwindows.com/100seriescasementwocdrecall pour plus de détails.",
+          "metaDescription": "Andersen Windows rappelle des dispositifs de contrôle d'ouverture de fenêtres de la série 100 en raison de risques de chute. Vérifiez si votre unité est concernée et obtenez une réparation gratuite.",
+          "Products": [
+            {
+              "Name": "Dispositifs de contrôle d'ouverture de fenêtres pour fenêtres à battant de la série 100",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 91 000 (De plus, environ 180 ont été vendus au Canada)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Dispositif de contrôle d'ouverture de fenêtre rappelé installé sur des fenêtres à battant de la série 100"
+            },
+            {
+              "Caption": "Étiquette avec le numéro d'identification du produit sur les fenêtres à battant de la série 100"
+            },
+            {
+              "Caption": "Emplacement de l'étiquette - coin supérieur droit (cercle 1) et \"AW\" et \"Andersen\" - coin inférieur droit de la fenêtre"
+            },
+            {
+              "Caption": "Kit de dispositif de contrôle d'ouverture de fenêtre rappelé (emballage)"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "L'entreprise a reçu huit rapports de dispositifs se cassant, se détachant ou ne fonctionnant pas. Aucune blessure n'a été signalée."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible auprès de distributeurs de fenêtres indépendants et en ligne sur parts.andersenwindows.com d'octobre 2015 à décembre 2025, au prix de 9 $ pour des kits individuels et de 220 $ pour des unités installées en usine."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Andersen Windows, Inc., de Bayport, Minnesota"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendu À",
+          "ManufacturerCountries": [
+            {
+              "Country": "États-Unis"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risque de chutes et de blessures graves en raison de la rupture ou du détachement potentiel des dispositifs de contrôle"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Les consommateurs doivent garder les fenêtres concernées fermées et verrouillées, et contacter Andersen Windows pour organiser une réparation gratuite à domicile par un technicien autorisé. Les demandes de réparation peuvent être soumises sur www.andersenwindows.com/100seriescasementwocdrecall."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Réparation"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "Andersen Windows ruft Steuergeräte für Fensteröffnungen der 100er-Serie aufgrund von Sturzrisiken zurück",
+          "Description": "Andersen Windows ruft Fensteröffnungssteuergeräte zurück, die entweder als Kits verkauft oder an Fenstern der 100er-Serie installiert wurden, die vor dem 19. November 2025 hergestellt wurden. Diese Geräte können bei einem Aufprall brechen oder sich lösen, was ein Risiko für Stürze und schwere Verletzungen darstellt. Verbraucher werden aufgefordert, die Produkt-ID-Nummer auf dem Etikett in der oberen rechten Ecke ihrer Fenster zu überprüfen, um festzustellen, ob ihr Gerät von diesem Rückruf betroffen ist.",
+          "ConsumerContact": "Für Unterstützung kontaktieren Sie Andersen Windows unter 844-815-7332 von 7:30 bis 16:30 Uhr CT, Montag bis Freitag. Sie können auch eine E-Mail an 100Seriescasementwocdrecall@andersencorp.com senden oder www.andersenwindows.com/100seriescasementwocdrecall besuchen, um weitere Details zu erhalten.",
+          "metaDescription": "Andersen Windows ruft Steuergeräte für Fensteröffnungen der 100er-Serie aufgrund von Sturzgefahren zurück. Überprüfen Sie, ob Ihr Gerät betroffen ist, und erhalten Sie eine kostenlose Reparatur.",
+          "Products": [
+            {
+              "Name": "Fensteröffnungssteuergeräte für Fenster der 100er-Serie",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 91.000 (Zusätzlich wurden etwa 180 in Kanada verkauft)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Zurückgerufenes Fensteröffnungssteuergerät, das an Fenstern der 100er-Serie installiert ist"
+            },
+            {
+              "Caption": "Etikett mit Produkt-ID-Nummer an Fenstern der 100er-Serie"
+            },
+            {
+              "Caption": "Standort des Etiketts - obere rechte Ecke (Kreis 1) und \"AW\" und \"Andersen\" - untere rechte Ecke des Fensters"
+            },
+            {
+              "Caption": "Zurückgerufenes Fensteröffnungssteuergerät-Kit (Verpackung)"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Das Unternehmen hat acht Meldungen über das Brechen, Lösen oder Fehlfunktionen der Geräte erhalten. Es wurden keine Verletzungen gemeldet."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Erhältlich über unabhängige Fensterdistributoren und online unter parts.andersenwindows.com von Oktober 2015 bis Dezember 2025, mit Preisen zwischen 9 $ für einzelne Kits und 220 $ für werkseitig installierte Einheiten."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Andersen Windows, Inc., aus Bayport, Minnesota"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Verkauft bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "Vereinigte Staaten"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Sturzrisiko und schwere Verletzungen aufgrund möglicher Brüche oder Ablösungen der Steuergeräte"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Verbraucher sollten die betroffenen Fenster geschlossen und verriegelt halten und Andersen Windows kontaktieren, um eine kostenlose Reparatur zu Hause durch einen autorisierten Techniker zu arrangieren. Reparaturanfragen können unter www.andersenwindows.com/100seriescasementwocdrecall eingereicht werden."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparatur"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "アンダーセンウィンドウズが転落のリスクにより100シリーズの窓開閉制御装置をリコール",
+          "Description": "アンダーセンウィンドウズは、2025年11月19日以前に製造された100シリーズの窓にキットとして販売されたか、取り付けられた窓開閉制御装置をリコールしています。これらの装置は衝撃により破損または脱落する可能性があり、転落や重傷のリスクを引き起こします。消費者は、自分の窓の右上隅にあるラベルに記載された製品ID番号を確認し、自分のユニットがこのリコールの対象かどうかを確認するよう促されています。",
+          "ConsumerContact": "サポートが必要な場合は、月曜日から金曜日の午前7時30分から午後4時30分（CT）までアンダーセンウィンドウズに844-815-7332までご連絡ください。また、100Seriescasementwocdrecall@andersencorp.comにメールを送るか、www.andersenwindows.com/100seriescasementwocdrecallを訪れて詳細を確認することもできます。",
+          "metaDescription": "アンダーセンウィンドウズが転落の危険性により100シリーズの窓開閉制御装置をリコール。自分のユニットが影響を受けているか確認し、無料修理を受けてください。",
+          "Products": [
+            {
+              "Name": "100シリーズの窓用開閉制御装置",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約91,000台（さらに、約180台がカナダで販売されました）"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "100シリーズの窓に取り付けられたリコール対象の窓開閉制御装置"
+            },
+            {
+              "Caption": "100シリーズの窓にある製品ID番号のラベル"
+            },
+            {
+              "Caption": "ラベルの位置 - 右上隅（円1）および「AW」と「アンダーセン」 - 窓の右下隅"
+            },
+            {
+              "Caption": "リコール対象の窓開閉制御装置キット（パッケージ）"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "同社は、装置が破損、脱落、または故障したという8件の報告を受けています。負傷者の報告はありません。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "独立した窓のディストリビューターを通じて、または2015年10月から2025年12月までparts.andersenwindows.comでオンライン販売されており、個別のキットは$9、工場取り付けユニットは$220の価格です。"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "ミネソタ州ベイポートのアンダーセンウィンドウズ社"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "販売場所",
+          "ManufacturerCountries": [
+            {
+              "Country": "アメリカ合衆国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "制御装置の破損または脱落の可能性による転落や重傷のリスク"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "消費者は影響を受けた窓を閉じて施錠し、アンダーセンウィンドウズに連絡して認定技術者による無料の自宅修理を手配する必要があります。修理リクエストはwww.andersenwindows.com/100seriescasementwocdrecallで提出できます。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "修理"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "Andersen Windows Recalls Dispositivos de Controle de Abertura de Janelas da Série 100 Devido ao Risco de Queda",
+          "Description": "A Andersen Windows está recalling dispositivos de controle de abertura de janelas que foram vendidos como kits ou instalados em janelas de guilhotina da Série 100 fabricadas antes de 19 de novembro de 2025. Esses dispositivos podem quebrar ou se soltar ao impacto, criando um risco de quedas e ferimentos graves. Os consumidores são aconselhados a verificar o número de ID do Produto localizado no rótulo no canto superior direito de suas janelas para ver se sua unidade é afetada por este recall.",
+          "ConsumerContact": "Para assistência, entre em contato com a Andersen Windows pelo telefone 844-815-7332 das 7:30 às 16:30 CT, de segunda a sexta-feira. Você também pode enviar um e-mail para 100Seriescasementwocdrecall@andersencorp.com ou visitar www.andersenwindows.com/100seriescasementwocdrecall para mais detalhes.",
+          "metaDescription": "A Andersen Windows está recalling dispositivos de controle de abertura de janelas da Série 100 devido a riscos de queda. Verifique se sua unidade é afetada e obtenha um reparo gratuito.",
+          "Products": [
+            {
+              "Name": "Dispositivos de controle de abertura de janelas para janelas de guilhotina da Série 100",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 91.000 (Além disso, cerca de 180 foram vendidos no Canadá)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Dispositivo de controle de abertura de janela recallado instalado em janelas de guilhotina da Série 100"
+            },
+            {
+              "Caption": "Rótulo com número de ID do produto em janelas de guilhotina da Série 100"
+            },
+            {
+              "Caption": "Localização do rótulo - canto superior direito (círculo 1) e \"AW\" e \"Andersen\" - canto inferior direito da janela"
+            },
+            {
+              "Caption": "Kit de dispositivo de controle de abertura de janela recallado (embalagem)"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "A empresa recebeu oito relatos de dispositivos quebrando, se soltando ou apresentando mau funcionamento. Nenhum ferimento foi relatado."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponível através de distribuidores independentes de janelas e online em parts.andersenwindows.com de outubro de 2015 a dezembro de 2025, com preços entre $9 para kits individuais e $220 para unidades instaladas de fábrica."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Andersen Windows, Inc., de Bayport, Minnesota"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendidos Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "Estados Unidos"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risco de quedas e ferimentos graves devido à possível quebra ou desprendimento dos dispositivos de controle"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Os consumidores devem manter as janelas afetadas fechadas e trancadas, e entrar em contato com a Andersen Windows para agendar um reparo gratuito em casa por um técnico autorizado. Os pedidos de reparo podem ser enviados em www.andersenwindows.com/100seriescasementwocdrecall."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparo"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "आंडरसन विंडोज़ 100 सीरीज कैसमेंट विंडो कंट्रोल डिवाइस को गिरने के जोखिम के कारण वापस बुलाता है",
+          "Description": "आंडरसन विंडोज़ उन विंडो ओपनिंग कंट्रोल डिवाइस को वापस बुला रहा है जो या तो किट के रूप में बेचे गए थे या 19 नवंबर 2025 से पहले निर्मित 100 सीरीज कैसमेंट विंडो पर स्थापित किए गए थे। ये डिवाइस प्रभाव के समय टूट सकते हैं या अलग हो सकते हैं, जिससे गिरने और गंभीर चोटों का जोखिम पैदा होता है। उपभोक्ताओं से अनुरोध किया जाता है कि वे अपने विंडोज़ के ऊपरी दाएं कोने पर लेबल पर स्थित उत्पाद आईडी नंबर की जांच करें कि क्या उनका यूनिट इस रिकॉल से प्रभावित है।",
+          "ConsumerContact": "सहायता के लिए, आंडरसन विंडोज़ से 844-815-7332 पर सुबह 7:30 बजे से शाम 4:30 बजे सीटी, सोमवार से शुक्रवार तक संपर्क करें। आप 100Seriescasementwocdrecall@andersencorp.com पर ईमेल भी कर सकते हैं या अधिक जानकारी के लिए www.andersenwindows.com/100seriescasementwocdrecall पर जा सकते हैं।",
+          "metaDescription": "आंडरसन विंडोज़ गिरने के खतरों के कारण 100 सीरीज कैसमेंट विंडो कंट्रोल डिवाइस को वापस बुलाता है। जांचें कि क्या आपका यूनिट प्रभावित है और मुफ्त मरम्मत प्राप्त करें।",
+          "Products": [
+            {
+              "Name": "100 सीरीज कैसमेंट विंडो के लिए विंडो ओपनिंग कंट्रोल डिवाइस",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 91,000 (इसके अतिरिक्त, लगभग 180 कनाडा में बेचे गए थे)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "100 सीरीज कैसमेंट विंडो पर स्थापित वापस बुलाया गया विंडो ओपनिंग कंट्रोल डिवाइस"
+            },
+            {
+              "Caption": "100 सीरीज कैसमेंट विंडो पर उत्पाद आईडी नंबर वाला लेबल"
+            },
+            {
+              "Caption": "लेबल का स्थान - ऊपरी दाएं कोने (गोल 1) और \"AW\" और \"आंडरसन\" - विंडो के निचले दाएं कोने"
+            },
+            {
+              "Caption": "वापस बुलाया गया विंडो ओपनिंग कंट्रोल डिवाइस किट (पैकेजिंग)"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "कंपनी को डिवाइस के टूटने, अलग होने या खराब होने के आठ रिपोर्ट मिली हैं। कोई चोट की सूचना नहीं मिली है।"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "स्वतंत्र विंडो वितरकों के माध्यम से और अक्टूबर 2015 से दिसंबर 2025 तक ऑनलाइन parts.andersenwindows.com पर उपलब्ध, व्यक्तिगत किट के लिए $9 और फैक्ट्री-स्थापित यूनिट के लिए $220 के बीच कीमत पर।"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "आंडरसन विंडोज़, इंक., बेपोर्ट, मिनेसोटा"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "संयुक्त राज्य अमेरिका"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "कंट्रोल डिवाइस के संभावित टूटने या अलग होने के कारण गिरने और गंभीर चोटों का जोखिम"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "उपभोक्ताओं को प्रभावित विंडो को बंद और लॉक रखना चाहिए, और आंडरसन विंडोज़ से संपर्क करना चाहिए ताकि एक अधिकृत तकनीशियन द्वारा मुफ्त घर में मरम्मत की व्यवस्था की जा सके। मरम्मत के अनुरोध www.andersenwindows.com/100seriescasementwocdrecall पर प्रस्तुत किए जा सकते हैं।"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "मरम्मत"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "Компания Andersen Windows отзывает устройства управления окнами серии 100 из-за риска падения",
+          "Description": "Компания Andersen Windows отзывает устройства управления открытием окон, которые были проданы как комплекты или установлены на окнах серии 100, произведенных до 19 ноября 2025 года. Эти устройства могут сломаться или отсоединиться при ударе, создавая риск падений и серьезных травм. Потребителей призывают проверить номер идентификации продукта, расположенный на этикетке в верхнем правом углу их окон, чтобы узнать, затрагивает ли этот отзыв их устройство.",
+          "ConsumerContact": "Для получения помощи свяжитесь с компанией Andersen Windows по телефону 844-815-7332 с 7:30 до 16:30 по центральному времени с понедельника по пятницу. Вы также можете отправить электронное письмо на адрес 100Seriescasementwocdrecall@andersencorp.com или посетить www.andersenwindows.com/100seriescasementwocdrecall для получения дополнительной информации.",
+          "metaDescription": "Компания Andersen Windows отзывает устройства управления окнами серии 100 из-за опасностей падения. Проверьте, затрагивает ли ваш прибор отзыв, и получите бесплатный ремонт.",
+          "Products": [
+            {
+              "Name": "Устройства управления открытием окон для окон серии 100",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 91,000 (Кроме того, около 180 были проданы в Канаде)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванное устройство управления открытием окна, установленное на окнах серии 100"
+            },
+            {
+              "Caption": "Этикетка с номером идентификации продукта на окнах серии 100"
+            },
+            {
+              "Caption": "Место расположения этикетки - верхний правый угол (круг 1) и \"AW\" и \"Andersen\" - нижний правый угол окна"
+            },
+            {
+              "Caption": "Комплект отозванного устройства управления открытием окна (упаковка)"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Компания получила восемь сообщений о том, что устройства ломаются, отсоединяются или неисправны. Травмы не были зафиксированы."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Доступно через независимых дистрибьюторов окон и онлайн на parts.andersenwindows.com с октября 2015 года по декабрь 2025 года, по цене от 9 долларов за отдельные комплекты до 220 долларов за заводские установки."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Andersen Windows, Inc., из Бэйпорта, Миннесота"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Продавалось в",
+          "ManufacturerCountries": [
+            {
+              "Country": "Соединенные Штаты"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Риск падений и серьезных травм из-за потенциального разрушения или отсоединения устройств управления"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Потребители должны держать затронутые окна закрытыми и запертыми, а также связаться с компанией Andersen Windows, чтобы организовать бесплатный ремонт на дому квалифицированным специалистом. Запросы на ремонт можно отправить на www.andersenwindows.com/100seriescasementwocdrecall."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Ремонт"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "Andersen Windows thu hồi thiết bị điều khiển cửa sổ mở 100 Series do nguy cơ ngã",
+          "Description": "Andersen Windows đang thu hồi các thiết bị điều khiển cửa sổ mở đã được bán dưới dạng bộ hoặc lắp đặt trên các cửa sổ mở 100 Series được sản xuất trước ngày 19 tháng 11 năm 2025. Các thiết bị này có thể bị vỡ hoặc tách ra khi va chạm, tạo ra nguy cơ ngã và chấn thương nghiêm trọng. Người tiêu dùng được khuyến cáo kiểm tra số ID sản phẩm nằm trên nhãn ở góc trên bên phải của cửa sổ để xem liệu đơn vị của họ có bị ảnh hưởng bởi đợt thu hồi này hay không.",
+          "ConsumerContact": "Để được hỗ trợ, hãy liên hệ với Andersen Windows theo số 844-815-7332 từ 7:30 sáng đến 4:30 chiều CT, từ thứ Hai đến thứ Sáu. Bạn cũng có thể gửi email đến 100Seriescasementwocdrecall@andersencorp.com hoặc truy cập www.andersenwindows.com/100seriescasementwocdrecall để biết thêm chi tiết.",
+          "metaDescription": "Andersen Windows thu hồi thiết bị điều khiển cửa sổ mở 100 Series do nguy cơ ngã. Kiểm tra xem đơn vị của bạn có bị ảnh hưởng và nhận sửa chữa miễn phí.",
+          "Products": [
+            {
+              "Name": "Thiết bị điều khiển cửa sổ mở cho cửa sổ mở 100 Series",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 91,000 (Ngoài ra, khoảng 180 cái đã được bán ở Canada)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Thiết bị điều khiển cửa sổ mở bị thu hồi lắp đặt trên cửa sổ mở 100 Series"
+            },
+            {
+              "Caption": "Nhãn với số ID sản phẩm trên cửa sổ mở 100 Series"
+            },
+            {
+              "Caption": "Vị trí của nhãn - góc trên bên phải (hình tròn 1) và \"AW\" và \"Andersen\" - góc dưới bên phải của cửa sổ"
+            },
+            {
+              "Caption": "Bộ thiết bị điều khiển cửa sổ mở bị thu hồi (bao bì)"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Công ty đã nhận được tám báo cáo về việc các thiết bị bị vỡ, tách ra hoặc hoạt động không đúng. Không có chấn thương nào được báo cáo."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Có sẵn thông qua các nhà phân phối cửa sổ độc lập và trực tuyến tại parts.andersenwindows.com từ tháng 10 năm 2015 đến tháng 12 năm 2025, có giá từ 9 đô la cho các bộ đơn lẻ và 220 đô la cho các đơn vị lắp đặt tại nhà máy."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Andersen Windows, Inc., tại Bayport, Minnesota"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Bán Tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Hoa Kỳ"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Nguy cơ ngã và chấn thương nghiêm trọng do khả năng vỡ hoặc tách ra của các thiết bị điều khiển"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Người tiêu dùng nên giữ các cửa sổ bị ảnh hưởng đóng và khóa, và liên hệ với Andersen Windows để sắp xếp sửa chữa miễn phí tại nhà bởi một kỹ thuật viên được ủy quyền. Các yêu cầu sửa chữa có thể được gửi tại www.andersenwindows.com/100seriescasementwocdrecall."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Sửa chữa"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    },
+    {
+      "RecallID": 10229,
+      "RecallNumber": "25212",
+      "RecallDate": "2025-04-03T00:00:00",
+      "Description": "AmesburyTruth is recalling Ashland casement window hinge tracks, available in 10-inch and 14-inch sizes, due to a potential risk of impact injuries. The affected hinge tracks, which are designed to allow windows to open and close smoothly, are identified by part numbers 2003558, 2003559, 2004271, and 2004272. You can find the identifiers \"R10,\" \"L10,\" \"R14,\" or \"L14\" on the face of the tracks. These products were distributed to window manufacturers between April 2024 and December 2024.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/AmesburyTruth-Recalls-Ashland-Casement-Window-Hinge-Tracks-Due-to-Impact-Injury-Hazard",
+      "Title": "AmesburyTruth Recalls Ashland Casement Window Hinge Tracks Due to Fall Risk",
+      "ConsumerContact": "For assistance, consumers can reach AmesburyTruth at 844-329-9697 from 8 a.m. to 5 p.m. CT, Monday through Friday, email HingeTrackRecall@AmesburyTruth.com, or visit www.amesburytruth.com/recall for further details.",
+      "LastPublishDate": "2025-04-03T00:00:00",
+      "Products": [
+        {
+          "Name": "Ashland 10-inch Casement Window Hinge Track",
+          "NumberOfUnits": "About 200,000"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/doors-and-windows/2-Ashland-10-inch-Casement-Window-Hinge-Track/b731b7c4c71d24a64f09a7ce63080194.webp",
+          "Caption": "Recalled Hinge Track with hinge arm attached",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/hinge-1_0.png"
+        },
+        {
+          "URL": "/images/generalRecalls/doors-and-windows/2-Ashland-10-inch-Casement-Window-Hinge-Track/7a88d44cba79ab4cd80ef064f2132147.webp",
+          "Caption": "Recalled Hinge Track with the location of the size designation",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/hinge-2_0.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received two reported incidents involving a window sliding arm becoming disengaged from the hinge tracks. No injuries have been reported."
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "Amesbury Industries Inc., d/b/a AmesburyTruth, of Houston, Texas"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Distributed by AmesburyTruth to window manufacturers and service parts providers nationwide from April 2024 through January 2025, priced around $2."
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "Mexico"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of window sash falling due to disengagement of the metal sliding arm from the hinge track"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Contact AmesburyTruth for a free professional inspection and replacement of defective hinge tracks"
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Replace"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "2003558",
+        "2003559",
+        "2004271",
+        "2004272"
+      ],
+      "slug": "amesburytruth-recalls-ashland-casement-window-hinge-tracks-due-to-fall-risk-recall",
+      "metaDescription": "AmesburyTruth recalls Ashland casement window hinge tracks due to injury risk. Contact for a free inspection and replacement.",
+      "languages": {
+        "en": {
+          "Title": "AmesburyTruth Recalls Ashland Casement Window Hinge Tracks Due to Fall Risk",
+          "Description": "AmesburyTruth is recalling Ashland casement window hinge tracks, available in 10-inch and 14-inch sizes, due to a potential risk of impact injuries. The affected hinge tracks, which are designed to allow windows to open and close smoothly, are identified by part numbers 2003558, 2003559, 2004271, and 2004272. You can find the identifiers \"R10,\" \"L10,\" \"R14,\" or \"L14\" on the face of the tracks. These products were distributed to window manufacturers between April 2024 and December 2024.",
+          "ConsumerContact": "For assistance, consumers can reach AmesburyTruth at 844-329-9697 from 8 a.m. to 5 p.m. CT, Monday through Friday, email HingeTrackRecall@AmesburyTruth.com, or visit www.amesburytruth.com/recall for further details.",
+          "metaDescription": "AmesburyTruth recalls Ashland casement window hinge tracks due to injury risk. Contact for a free inspection and replacement.",
+          "Products": [
+            {
+              "Name": "Ashland 10-inch Casement Window Hinge Track",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 200,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled Hinge Track with hinge arm attached"
+            },
+            {
+              "Caption": "Recalled Hinge Track with the location of the size designation"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "The firm has received two reported incidents involving a window sliding arm becoming disengaged from the hinge tracks. No injuries have been reported."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Distributed by AmesburyTruth to window manufacturers and service parts providers nationwide from April 2024 through January 2025, priced around $2."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Amesbury Industries Inc., d/b/a AmesburyTruth, of Houston, Texas"
+            }
+          ],
+          "SoldAtLabel": "Sold At",
+          "ManufacturerCountries": [
+            {
+              "Country": "Mexico"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risk of window sash falling due to disengagement of the metal sliding arm from the hinge track"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Contact AmesburyTruth for a free professional inspection and replacement of defective hinge tracks"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Replace"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "AmesburyTruth recuerda rieles de bisagra de ventana de casement Ashland debido al riesgo de caída",
+          "Description": "AmesburyTruth está recordando los rieles de bisagra de ventana de casement Ashland, disponibles en tamaños de 10 pulgadas y 14 pulgadas, debido a un posible riesgo de lesiones por impacto. Los rieles de bisagra afectados, que están diseñados para permitir que las ventanas se abran y cierren suavemente, se identifican por los números de parte 2003558, 2003559, 2004271 y 2004272. Puede encontrar los identificadores \"R10,\" \"L10,\" \"R14,\" o \"L14\" en la cara de los rieles. Estos productos fueron distribuidos a fabricantes de ventanas entre abril de 2024 y diciembre de 2024.",
+          "ConsumerContact": "Para asistencia, los consumidores pueden comunicarse con AmesburyTruth al 844-329-9697 de 8 a.m. a 5 p.m. CT, de lunes a viernes, enviar un correo electrónico a HingeTrackRecall@AmesburyTruth.com, o visitar www.amesburytruth.com/recall para más detalles.",
+          "metaDescription": "AmesburyTruth recuerda rieles de bisagra de ventana de casement Ashland debido al riesgo de lesiones. Contacte para una inspección y reemplazo gratuitos.",
+          "Products": [
+            {
+              "Name": "Riel de bisagra de ventana de casement Ashland de 10 pulgadas",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Alrededor de 200,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Riel de bisagra recordado con el brazo de bisagra adjunto"
+            },
+            {
+              "Caption": "Riel de bisagra recordado con la ubicación de la designación de tamaño"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "La empresa ha recibido dos incidentes reportados que involucran un brazo deslizante de ventana que se desacopló de los rieles de bisagra. No se han reportado lesiones."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Distribuido por AmesburyTruth a fabricantes de ventanas y proveedores de piezas de servicio en todo el país desde abril de 2024 hasta enero de 2025, con un precio de alrededor de $2."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Amesbury Industries Inc., d/b/a AmesburyTruth, de Houston, Texas"
+            }
+          ],
+          "SoldAtLabel": "Vendido En",
+          "ManufacturerCountries": [
+            {
+              "Country": "México"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Riesgo de caída del marco de la ventana debido al desacoplamiento del brazo deslizante de metal del riel de bisagra"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Contacte a AmesburyTruth para una inspección profesional gratuita y reemplazo de rieles de bisagra defectuosos"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reemplazar"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "AmesburyTruth تستدعي مسارات مفصلات نوافذ Ashland بسبب خطر السقوط",
+          "Description": "تقوم AmesburyTruth باستدعاء مسارات مفصلات نوافذ Ashland، المتاحة بأحجام 10 بوصات و 14 بوصة، بسبب خطر محتمل للإصابات الناتجة عن الصدمات. تم تحديد مسارات المفصلات المتأثرة، التي تم تصميمها للسماح للنوافذ بالفتح والإغلاق بسلاسة، بأرقام الأجزاء 2003558، 2003559، 2004271، و 2004272. يمكنك العثور على المعرفات \"R10\"، \"L10\"، \"R14\"، أو \"L14\" على وجه المسارات. تم توزيع هذه المنتجات على مصنعي النوافذ بين أبريل 2024 وديسمبر 2024.",
+          "ConsumerContact": "للحصول على المساعدة، يمكن للمستهلكين الاتصال بـ AmesburyTruth على الرقم 844-329-9697 من الساعة 8 صباحًا حتى 5 مساءً بتوقيت وسط أمريكا، من الاثنين إلى الجمعة، أو عبر البريد الإلكتروني HingeTrackRecall@AmesburyTruth.com، أو زيارة www.amesburytruth.com/recall لمزيد من التفاصيل.",
+          "metaDescription": "AmesburyTruth تستدعي مسارات مفصلات نوافذ Ashland بسبب خطر الإصابة. اتصل للحصول على فحص مجاني واستبدال.",
+          "Products": [
+            {
+              "Name": "مسار مفصل نافذة Ashland 10 بوصات",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 200,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "مسار المفصل المستدعى مع ذراع المفصل متصل"
+            },
+            {
+              "Caption": "مسار المفصل المستدعى مع موقع تحديد الحجم"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "تلقت الشركة حالتين تم الإبلاغ عنهما تتعلقان بانفصال ذراع الانزلاق من مسارات المفصلات. لم يتم الإبلاغ عن أي إصابات."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "تم توزيعه بواسطة AmesburyTruth لمصنعي النوافذ ومقدمي قطع الغيار في جميع أنحاء البلاد من أبريل 2024 حتى يناير 2025، بسعر حوالي 2 دولار."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Amesbury Industries Inc.، المعروفة باسم AmesburyTruth، من هيوستن، تكساس"
+            }
+          ],
+          "SoldAtLabel": "تم البيع في",
+          "ManufacturerCountries": [
+            {
+              "Country": "المكسيك"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "خطر سقوط إطار النافذة بسبب انفصال ذراع الانزلاق المعدني عن مسار المفصل"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "اتصل بـ AmesburyTruth للحصول على فحص احترافي مجاني واستبدال مسارات المفصلات المعيبة"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "استبدال"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "AmesburyTruth召回Ashland窗户铰链轨道因跌落风险",
+          "Description": "AmesburyTruth正在召回Ashland窗户铰链轨道，提供10英寸和14英寸两种尺寸，因存在潜在的撞击伤害风险。受影响的铰链轨道旨在使窗户顺利开合，识别的部件编号为2003558、2003559、2004271和2004272。您可以在轨道的正面找到标识“R10”、“L10”、“R14”或“L14”。这些产品在2024年4月至2024年12月间分发给窗户制造商。",
+          "ConsumerContact": "如需帮助，消费者可以在周一至周五的中部时间上午8点至下午5点拨打AmesburyTruth的电话844-329-9697，或发送电子邮件至HingeTrackRecall@AmesburyTruth.com，或访问www.amesburytruth.com/recall以获取更多详细信息。",
+          "metaDescription": "AmesburyTruth召回Ashland窗户铰链轨道因伤害风险。联系以获取免费检查和更换。",
+          "Products": [
+            {
+              "Name": "Ashland 10英寸窗户铰链轨道",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约200,000个"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "召回的铰链轨道与铰链臂连接"
+            },
+            {
+              "Caption": "召回的铰链轨道及尺寸标识位置"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "该公司已收到两起报告事件，涉及窗户滑动臂与铰链轨道脱离。未报告任何伤害。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "由AmesburyTruth分发给全国的窗户制造商和服务零件提供商，时间为2024年4月至2025年1月，价格约为2美元。"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Amesbury Industries Inc.，以AmesburyTruth名义经营，位于德克萨斯州休斯顿"
+            }
+          ],
+          "SoldAtLabel": "销售地点",
+          "ManufacturerCountries": [
+            {
+              "Country": "墨西哥"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "由于金属滑动臂与铰链轨道脱离，窗户窗框掉落的风险"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "联系AmesburyTruth进行免费专业检查和更换缺陷铰链轨道"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "更换"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "AmesburyTruth rappelle les rails de charnière de fenêtre à battant Ashland en raison d'un risque de chute",
+          "Description": "AmesburyTruth rappelle les rails de charnière de fenêtre à battant Ashland, disponibles en tailles de 10 pouces et 14 pouces, en raison d'un risque potentiel de blessures par impact. Les rails de charnière concernés, qui sont conçus pour permettre aux fenêtres de s'ouvrir et de se fermer en douceur, sont identifiés par les numéros de pièce 2003558, 2003559, 2004271 et 2004272. Vous pouvez trouver les identifiants \"R10,\" \"L10,\" \"R14,\" ou \"L14\" sur la face des rails. Ces produits ont été distribués aux fabricants de fenêtres entre avril 2024 et décembre 2024.",
+          "ConsumerContact": "Pour assistance, les consommateurs peuvent contacter AmesburyTruth au 844-329-9697 de 8 h à 17 h CT, du lundi au vendredi, envoyer un e-mail à HingeTrackRecall@AmesburyTruth.com, ou visiter www.amesburytruth.com/recall pour plus de détails.",
+          "metaDescription": "AmesburyTruth rappelle les rails de charnière de fenêtre à battant Ashland en raison d'un risque de blessure. Contactez pour une inspection gratuite et un remplacement.",
+          "Products": [
+            {
+              "Name": "Rail de charnière de fenêtre à battant Ashland de 10 pouces",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 200 000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Rail de charnière rappelé avec bras de charnière attaché"
+            },
+            {
+              "Caption": "Rail de charnière rappelé avec l'emplacement de la désignation de taille"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "L'entreprise a reçu deux incidents signalés impliquant un bras de glissement de fenêtre se déconnectant des rails de charnière. Aucune blessure n'a été signalée."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Distribué par AmesburyTruth aux fabricants de fenêtres et aux fournisseurs de pièces de service à l'échelle nationale d'avril 2024 à janvier 2025, au prix d'environ 2 $."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Amesbury Industries Inc., faisant affaire sous le nom d'AmesburyTruth, de Houston, Texas"
+            }
+          ],
+          "SoldAtLabel": "Vendu à",
+          "ManufacturerCountries": [
+            {
+              "Country": "Mexique"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risque de chute de la fenêtre en raison du désengagement du bras de glissement en métal du rail de charnière"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Contactez AmesburyTruth pour une inspection professionnelle gratuite et le remplacement des rails de charnière défectueux"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Remplacer"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "AmesburyTruth ruft Ashland Fensterbeschläge zurück aufgrund von Sturzgefahr",
+          "Description": "AmesburyTruth ruft Ashland Fensterbeschläge zurück, die in Größen von 10 Zoll und 14 Zoll erhältlich sind, aufgrund eines potenziellen Risikos von Verletzungen durch Aufprall. Die betroffenen Beschläge, die dafür ausgelegt sind, dass Fenster reibungslos öffnen und schließen, sind durch die Teilenummern 2003558, 2003559, 2004271 und 2004272 gekennzeichnet. Sie finden die Kennzeichnungen \"R10,\" \"L10,\" \"R14,\" oder \"L14\" auf der Vorderseite der Beschläge. Diese Produkte wurden zwischen April 2024 und Dezember 2024 an Fensterhersteller verteilt.",
+          "ConsumerContact": "Für Unterstützung können Verbraucher AmesburyTruth unter 844-329-9697 von 8 bis 17 Uhr CT, Montag bis Freitag, kontaktieren, eine E-Mail an HingeTrackRecall@AmesburyTruth.com senden oder www.amesburytruth.com/recall besuchen für weitere Details.",
+          "metaDescription": "AmesburyTruth ruft Ashland Fensterbeschläge aufgrund von Verletzungsrisiken zurück. Kontaktieren Sie uns für eine kostenlose Inspektion und den Austausch.",
+          "Products": [
+            {
+              "Name": "Ashland 10-Zoll Fensterbeschlag",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 200.000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Zurückgerufener Beschlag mit angebrachtem Schwenkarm"
+            },
+            {
+              "Caption": "Zurückgerufener Beschlag mit der Position der Größenbezeichnung"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Das Unternehmen hat zwei gemeldete Vorfälle erhalten, bei denen ein Fenster-Schwenkarm sich von den Beschlägen gelöst hat. Es wurden keine Verletzungen gemeldet."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Vertrieben von AmesburyTruth an Fensterhersteller und Ersatzteilanbieter landesweit von April 2024 bis Januar 2025, Preis etwa 2 $."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Amesbury Industries Inc., d/b/a AmesburyTruth, aus Houston, Texas"
+            }
+          ],
+          "SoldAtLabel": "Verkauft bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "Mexiko"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Gefahr, dass der Fensterrahmen aufgrund der Ablösung des metallischen Schwenkarms vom Beschlag fällt"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Kontaktieren Sie AmesburyTruth für eine kostenlose professionelle Inspektion und den Austausch defekter Beschläge"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Austauschen"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "AmesburyTruthが落下リスクのためAshland窓ヒンジトラックをリコール",
+          "Description": "AmesburyTruthは、衝撃による怪我のリスクがあるため、10インチおよび14インチサイズのAshland窓ヒンジトラックをリコールしています。影響を受けるヒンジトラックは、窓がスムーズに開閉できるように設計されており、部品番号2003558、2003559、2004271、および2004272で識別されます。トラックの表面には「R10」、「L10」、「R14」、または「L14」という識別子があります。これらの製品は、2024年4月から2024年12月の間に窓メーカーに配布されました。",
+          "ConsumerContact": "サポートが必要な場合、消費者はAmesburyTruthに844-329-9697（中央標準時の月曜日から金曜日の午前8時から午後5時まで）で連絡するか、HingeTrackRecall@AmesburyTruth.comにメールを送信するか、www.amesburytruth.com/recallを訪れて詳細を確認できます。",
+          "metaDescription": "AmesburyTruthが怪我のリスクのためAshland窓ヒンジトラックをリコール。無料の検査と交換のために連絡してください。",
+          "Products": [
+            {
+              "Name": "Ashland 10インチ窓ヒンジトラック",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約200,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "ヒンジアームが取り付けられたリコールされたヒンジトラック"
+            },
+            {
+              "Caption": "サイズ指定の位置が示されたリコールされたヒンジトラック"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "同社は、窓のスライディングアームがヒンジトラックから外れるという2件の報告を受けています。怪我の報告はありません。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "2024年4月から2025年1月まで、全国の窓メーカーおよびサービス部品提供者にAmesburyTruthによって配布され、価格は約$2です。"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "テキサス州ヒューストンのAmesbury Industries Inc.（AmesburyTruthとして営業）"
+            }
+          ],
+          "SoldAtLabel": "販売場所",
+          "ManufacturerCountries": [
+            {
+              "Country": "メキシコ"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "ヒンジトラックから金属スライディングアームが外れることによる窓サッシの落下リスク"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "AmesburyTruthに連絡して、欠陥のあるヒンジトラックの無料専門検査と交換を受けてください"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "交換"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "AmesburyTruth Recalls Ashland Casement Window Hinge Tracks Due to Fall Risk",
+          "Description": "A AmesburyTruth está recallando trilhos de dobradiça de janela de guilhotina Ashland, disponíveis em tamanhos de 10 polegadas e 14 polegadas, devido a um potencial risco de lesões por impacto. Os trilhos de dobradiça afetados, que são projetados para permitir que as janelas abram e fechem suavemente, são identificados pelos números de peça 2003558, 2003559, 2004271 e 2004272. Você pode encontrar os identificadores \"R10,\" \"L10,\" \"R14,\" ou \"L14\" na face dos trilhos. Esses produtos foram distribuídos para fabricantes de janelas entre abril de 2024 e dezembro de 2024.",
+          "ConsumerContact": "Para assistência, os consumidores podem entrar em contato com a AmesburyTruth pelo telefone 844-329-9697 das 8h às 17h CT, de segunda a sexta-feira, enviar um e-mail para HingeTrackRecall@AmesburyTruth.com, ou visitar www.amesburytruth.com/recall para mais detalhes.",
+          "metaDescription": "A AmesburyTruth recall os trilhos de dobradiça de janela de guilhotina Ashland devido ao risco de lesões. Contate para uma inspeção e substituição gratuitas.",
+          "Products": [
+            {
+              "Name": "Trilho de Dobradiça de Janela de Guilhotina Ashland de 10 polegadas",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 200.000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Trilho de Dobradiça Recallado com braço de dobradiça anexado"
+            },
+            {
+              "Caption": "Trilho de Dobradiça Recallado com a localização da designação de tamanho"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "A empresa recebeu dois incidentes relatados envolvendo um braço deslizante de janela se desconectando dos trilhos de dobradiça. Nenhuma lesão foi relatada."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Distribuído pela AmesburyTruth para fabricantes de janelas e fornecedores de peças de serviço em todo o país de abril de 2024 até janeiro de 2025, com preço em torno de $2."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Amesbury Industries Inc., d/b/a AmesburyTruth, de Houston, Texas"
+            }
+          ],
+          "SoldAtLabel": "Vendido Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "México"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risco de queda da folha da janela devido ao desengate do braço deslizante de metal do trilho de dobradiça"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Entre em contato com a AmesburyTruth para uma inspeção profissional gratuita e substituição dos trilhos de dobradiça defeituosos"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Substituir"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "AmesburyTruth ने गिरने के जोखिम के कारण Ashland खिड़की के हिंग ट्रैक को वापस बुलाया",
+          "Description": "AmesburyTruth Ashland खिड़की के हिंग ट्रैक को वापस बुला रहा है, जो 10-इंच और 14-इंच के आकार में उपलब्ध हैं, संभावित प्रभाव चोटों के जोखिम के कारण। प्रभावित हिंग ट्रैक, जिन्हें खिड़कियों को सुचारू रूप से खोलने और बंद करने के लिए डिज़ाइन किया गया है, भाग नंबर 2003558, 2003559, 2004271, और 2004272 द्वारा पहचाने जाते हैं। आप ट्रैक के चेहरे पर \"R10,\" \"L10,\" \"R14,\" या \"L14\" पहचानकर्ता पा सकते हैं। ये उत्पाद अप्रैल 2024 से दिसंबर 2024 के बीच खिड़की निर्माताओं को वितरित किए गए थे।",
+          "ConsumerContact": "सहायता के लिए, उपभोक्ता AmesburyTruth से 844-329-9697 पर सुबह 8 बजे से शाम 5 बजे CT, सोमवार से शुक्रवार, ईमेल HingeTrackRecall@AmesburyTruth.com, या www.amesburytruth.com/recall पर जाकर संपर्क कर सकते हैं।",
+          "metaDescription": "AmesburyTruth चोट के जोखिम के कारण Ashland खिड़की के हिंग ट्रैक को वापस बुलाता है। मुफ्त निरीक्षण और प्रतिस्थापन के लिए संपर्क करें।",
+          "Products": [
+            {
+              "Name": "Ashland 10-इंच खिड़की का हिंग ट्रैक",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 200,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "हिंग आर्म के साथ वापस बुलाया गया हिंग ट्रैक"
+            },
+            {
+              "Caption": "आकार के नामकरण के स्थान के साथ वापस बुलाया गया हिंग ट्रैक"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "कंपनी को एक खिड़की के स्लाइडिंग आर्म के हिंग ट्रैक से अलग होने से संबंधित दो रिपोर्ट किए गए मामले मिले हैं। कोई चोट की रिपोर्ट नहीं हुई है।"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "AmesburyTruth द्वारा अप्रैल 2024 से जनवरी 2025 तक देशभर में खिड़की निर्माताओं और सेवा भाग प्रदाताओं को वितरित किया गया, कीमत लगभग $2।"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Amesbury Industries Inc., d/b/a AmesburyTruth, ह्यूस्टन, टेक्सास से"
+            }
+          ],
+          "SoldAtLabel": "बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "मैक्सिको"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "हिंग ट्रैक से धातु के स्लाइडिंग आर्म के अलग होने के कारण खिड़की के साश के गिरने का जोखिम"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "खराब हिंग ट्रैक के मुफ्त पेशेवर निरीक्षण और प्रतिस्थापन के लिए AmesburyTruth से संपर्क करें"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "प्रतिस्थापित करें"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "AmesburyTruth отзывает направляющие петель для окон Ashland из-за риска падения",
+          "Description": "AmesburyTruth отзывает направляющие петель для окон Ashland, доступные в размерах 10 дюймов и 14 дюймов, из-за потенциального риска травм от удара. Затронутые направляющие петель, которые предназначены для обеспечения плавного открытия и закрытия окон, идентифицируются по номерам деталей 2003558, 2003559, 2004271 и 2004272. Вы можете найти идентификаторы \"R10,\" \"L10,\" \"R14,\" или \"L14\" на лицевой стороне направляющих. Эти продукты были распределены среди производителей окон с апреля 2024 года по декабрь 2024 года.",
+          "ConsumerContact": "Для получения помощи потребители могут обратиться в AmesburyTruth по телефону 844-329-9697 с 8:00 до 17:00 по центральному времени, с понедельника по пятницу, по электронной почте HingeTrackRecall@AmesburyTruth.com или посетить www.amesburytruth.com/recall для получения дополнительной информации.",
+          "metaDescription": "AmesburyTruth отзывает направляющие петель для окон Ashland из-за риска травм. Свяжитесь для бесплатной проверки и замены.",
+          "Products": [
+            {
+              "Name": "Направляющая петель для окон Ashland 10 дюймов",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 200,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванная направляющая петель с прикрепленной петлей"
+            },
+            {
+              "Caption": "Отозванная направляющая петель с указанием размера"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Компания получила два сообщения о случаях, когда оконная скользящая рука отсоединялась от направляющих петель. Травмы не были зафиксированы."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Распределено AmesburyTruth среди производителей окон и поставщиков запасных частей по всей стране с апреля 2024 года по январь 2025 года, цена около 2 долларов."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Amesbury Industries Inc., действующая под названием AmesburyTruth, Хьюстон, Техас"
+            }
+          ],
+          "SoldAtLabel": "Продается в",
+          "ManufacturerCountries": [
+            {
+              "Country": "Мексика"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Риск падения оконной рамы из-за отсоединения металлической скользящей руки от направляющей петель"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Свяжитесь с AmesburyTruth для бесплатной профессиональной проверки и замены дефектных направляющих петель"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Заменить"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "AmesburyTruth thu hồi các thanh bản lề cửa sổ Ashland do nguy cơ rơi",
+          "Description": "AmesburyTruth đang thu hồi các thanh bản lề cửa sổ Ashland, có sẵn với kích thước 10 inch và 14 inch, do nguy cơ chấn thương do va chạm. Các thanh bản lề bị ảnh hưởng, được thiết kế để cho phép cửa sổ mở và đóng một cách trơn tru, được xác định bằng các số bộ phận 2003558, 2003559, 2004271 và 2004272. Bạn có thể tìm thấy các mã nhận dạng \"R10,\" \"L10,\" \"R14,\" hoặc \"L14\" trên bề mặt của các thanh. Các sản phẩm này đã được phân phối cho các nhà sản xuất cửa sổ từ tháng 4 năm 2024 đến tháng 12 năm 2024.",
+          "ConsumerContact": "Để được hỗ trợ, người tiêu dùng có thể liên hệ với AmesburyTruth qua số 844-329-9697 từ 8 giờ sáng đến 5 giờ chiều CT, từ thứ Hai đến thứ Sáu, gửi email đến HingeTrackRecall@AmesburyTruth.com, hoặc truy cập www.amesburytruth.com/recall để biết thêm chi tiết.",
+          "metaDescription": "AmesburyTruth thu hồi các thanh bản lề cửa sổ Ashland do nguy cơ chấn thương. Liên hệ để được kiểm tra và thay thế miễn phí.",
+          "Products": [
+            {
+              "Name": "Thanh bản lề cửa sổ Ashland 10 inch",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 200.000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Thanh bản lề đã thu hồi với tay bản lề gắn kèm"
+            },
+            {
+              "Caption": "Thanh bản lề đã thu hồi với vị trí của ký hiệu kích thước"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Công ty đã nhận được hai báo cáo về việc tay trượt cửa sổ bị tách rời khỏi các thanh bản lề. Không có chấn thương nào được báo cáo."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Được phân phối bởi AmesburyTruth cho các nhà sản xuất cửa sổ và nhà cung cấp phụ tùng dịch vụ trên toàn quốc từ tháng 4 năm 2024 đến tháng 1 năm 2025, giá khoảng 2 đô la."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Amesbury Industries Inc., d/b/a AmesburyTruth, có trụ sở tại Houston, Texas"
+            }
+          ],
+          "SoldAtLabel": "Bán Tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Mexico"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Nguy cơ cửa sổ bị rơi do tay trượt kim loại bị tách rời khỏi thanh bản lề"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Liên hệ với AmesburyTruth để được kiểm tra chuyên nghiệp miễn phí và thay thế các thanh bản lề bị lỗi"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Thay thế"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    },
+    {
+      "RecallID": 10146,
+      "RecallNumber": "25120",
+      "RecallDate": "2025-02-06T00:00:00",
+      "Description": "Pella is recalling its sliding patio doors and windows equipped with automated shades due to a serious ingestion hazard posed by accessible button cell batteries. The affected products include the Pella Reserve and Pella Lifestyle sliding doors featuring Insynctive technology, available in 2-panel, 3-panel, and 4-panel configurations. The date codes for these doors range from 031924 to 060524, which can be found etched on the lower corner of the glass. Additionally, the Pella Lifestyle windows and sliding doors with Insynctive remote controls, models 206A0000 (Generation 2) and 206A0001 (Generation 3), are included in this recall. The UPC code for the packaging is 748171618722. The battery-operated remotes were also sold separately.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/Pella-Recalls-Sliding-Patio-Doors-and-Windows-Due-to-Battery-Ingestion-Hazard-Violation-of-Reeses-Law-Federal-Safety-Regulations-for-Consumer-Products-with-Button-Cell-Batteries",
+      "Title": "Pella Recalls Sliding Patio Doors and Windows Due to Battery Ingestion Risk",
+      "ConsumerContact": "Consumers are urged to contact Pella at 844-807-2219 from 8 a.m. to 5 p.m. ET, Monday through Friday, or visit www.pella.com and click on 'Recall Notice' for further details. For more information, you can also go to https://www.pella.com/recall-notice.",
+      "LastPublishDate": "2025-02-06T00:00:00",
+      "Products": [
+        {
+          "Name": "Pella Reserve Sliding Patio Doors",
+          "NumberOfUnits": "About 340"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/doors-and-windows/3-Pella-Reserve-Sliding-Patio-Doors/24e4eb1b161d8c70964ea9297ef530dc.webp",
+          "Caption": "Recalled Pella Reserve and Pella Lifestyle sliding door",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/pella-1.JPG"
+        },
+        {
+          "URL": "/images/generalRecalls/doors-and-windows/3-Pella-Reserve-Sliding-Patio-Doors/a631198e04702fc3d16b646e2c58fa08.webp",
+          "Caption": "Door's locking panel sensor location",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/pella-2.JPG"
+        },
+        {
+          "URL": "/images/generalRecalls/doors-and-windows/3-Pella-Reserve-Sliding-Patio-Doors/a5d5c7c19546d10fbde8acc5bcb8407e.webp",
+          "Caption": "Front and back of the remote control for the recalled Pella Lifestyle Series products with motorized integrated blinds and shades model 206A0000 (Gen 2)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/pella-3.png"
+        },
+        {
+          "URL": "/images/generalRecalls/doors-and-windows/3-Pella-Reserve-Sliding-Patio-Doors/bc65d7ad7354d25b8780b1b45ffcfb64.webp",
+          "Caption": "Front and back of the remote control for the recalled Pella Lifestyle Series products with motorized integrated blinds and shades model 206A0001 (Gen 3)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/pella-4.png"
+        },
+        {
+          "URL": "/images/generalRecalls/doors-and-windows/3-Pella-Reserve-Sliding-Patio-Doors/7a54be6eb37ccef7e55ef19b5bcb9759.webp",
+          "Caption": "Motorized shades on Pella Lifestyle sliding door",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/pella-5.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/doors-and-windows/3-Pella-Reserve-Sliding-Patio-Doors/b6bf79b8b2416553d085a91149c5b04e.webp",
+          "Caption": "Motorized blinds on Pella Lifestyle windows",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/pella-6.jpg"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Pella direct sales, Lowe's, Builders FirstSource stores nationwide, and online"
+        }
+      ],
+      "Distributors": [
+        {
+          "Name": "Pella Corporation, of Pella, Iowa"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "United States"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Ingestion hazard due to accessible button cell batteries"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Remove batteries from the sensor and remote control; contact Pella for a free replacement remote or door repair"
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        },
+        {
+          "Option": "Replace"
+        }
+      ],
+      "ProductUPCs": [
+        {
+          "UPC": "748171618722"
+        }
+      ],
+      "slug": "pella-recalls-sliding-patio-doors-and-windows-due-to-battery-ingestion-risk-recall",
+      "metaDescription": "Pella recalls sliding patio doors and windows due to serious ingestion hazards from accessible button cell batteries. Learn more about the recall.",
+      "languages": {
+        "en": {
+          "Title": "Pella Recalls Sliding Patio Doors and Windows Due to Battery Ingestion Risk",
+          "Description": "Pella is recalling its sliding patio doors and windows equipped with automated shades due to a serious ingestion hazard posed by accessible button cell batteries. The affected products include the Pella Reserve and Pella Lifestyle sliding doors featuring Insynctive technology, available in 2-panel, 3-panel, and 4-panel configurations. The date codes for these doors range from 031924 to 060524, which can be found etched on the lower corner of the glass. Additionally, the Pella Lifestyle windows and sliding doors with Insynctive remote controls, models 206A0000 (Generation 2) and 206A0001 (Generation 3), are included in this recall. The UPC code for the packaging is 748171618722. The battery-operated remotes were also sold separately.",
+          "ConsumerContact": "Consumers are urged to contact Pella at 844-807-2219 from 8 a.m. to 5 p.m. ET, Monday through Friday, or visit www.pella.com and click on 'Recall Notice' for further details. For more information, you can also go to https://www.pella.com/recall-notice.",
+          "metaDescription": "Pella recalls sliding patio doors and windows due to serious ingestion hazards from accessible button cell batteries. Learn more about the recall.",
+          "Products": [
+            {
+              "Name": "Pella Reserve Sliding Patio Doors",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 340"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled Pella Reserve and Pella Lifestyle sliding door"
+            },
+            {
+              "Caption": "Door's locking panel sensor location"
+            },
+            {
+              "Caption": "Front and back of the remote control for the recalled Pella Lifestyle Series products with motorized integrated blinds and shades model 206A0000 (Gen 2)"
+            },
+            {
+              "Caption": "Front and back of the remote control for the recalled Pella Lifestyle Series products with motorized integrated blinds and shades model 206A0001 (Gen 3)"
+            },
+            {
+              "Caption": "Motorized shades on Pella Lifestyle sliding door"
+            },
+            {
+              "Caption": "Motorized blinds on Pella Lifestyle windows"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "None reported"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Pella direct sales, Lowe's, Builders FirstSource stores nationwide, and online"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Pella Corporation, of Pella, Iowa"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Sold At",
+          "ManufacturerCountries": [
+            {
+              "Country": "United States"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Ingestion hazard due to accessible button cell batteries"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Remove batteries from the sensor and remote control; contact Pella for a free replacement remote or door repair"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Repair"
+            },
+            {
+              "Option": "Replace"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "Pella recuerda puertas y ventanas corredizas de patio debido al riesgo de ingestión de baterías",
+          "Description": "Pella está recordando sus puertas y ventanas corredizas de patio equipadas con persianas automatizadas debido a un grave peligro de ingestión que representan las baterías de botón accesibles. Los productos afectados incluyen las puertas corredizas Pella Reserve y Pella Lifestyle que cuentan con tecnología Insynctive, disponibles en configuraciones de 2 paneles, 3 paneles y 4 paneles. Los códigos de fecha para estas puertas varían desde 031924 hasta 060524, que se pueden encontrar grabados en la esquina inferior del vidrio. Además, las ventanas y puertas corredizas Pella Lifestyle con controles remotos Insynctive, modelos 206A0000 (Generación 2) y 206A0001 (Generación 3), están incluidas en este retiro. El código UPC para el empaque es 748171618722. Los controles remotos a batería también se vendieron por separado.",
+          "ConsumerContact": "Se insta a los consumidores a contactar a Pella al 844-807-2219 de 8 a.m. a 5 p.m. ET, de lunes a viernes, o visitar www.pella.com y hacer clic en 'Aviso de Retiro' para más detalles. Para más información, también puede ir a https://www.pella.com/recall-notice.",
+          "metaDescription": "Pella recuerda puertas y ventanas corredizas de patio debido a graves peligros de ingestión por baterías de botón accesibles. Aprenda más sobre el retiro.",
+          "Products": [
+            {
+              "Name": "Puertas Corredizas Pella Reserve",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 340"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Puerta corrediza Pella Reserve y Pella Lifestyle retiradas"
+            },
+            {
+              "Caption": "Ubicación del sensor del panel de bloqueo de la puerta"
+            },
+            {
+              "Caption": "Frente y reverso del control remoto para los productos retirados de la serie Pella Lifestyle con persianas y cortinas integradas motorizadas modelo 206A0000 (Gen 2)"
+            },
+            {
+              "Caption": "Frente y reverso del control remoto para los productos retirados de la serie Pella Lifestyle con persianas y cortinas integradas motorizadas modelo 206A0001 (Gen 3)"
+            },
+            {
+              "Caption": "Persianas motorizadas en la puerta corrediza Pella Lifestyle"
+            },
+            {
+              "Caption": "Persianas motorizadas en las ventanas Pella Lifestyle"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Ninguna reportada"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Ventas directas de Pella, Lowe's, tiendas Builders FirstSource en todo el país y en línea"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Pella Corporation, de Pella, Iowa"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendidos En",
+          "ManufacturerCountries": [
+            {
+              "Country": "Estados Unidos"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Peligro de ingestión debido a baterías de botón accesibles"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Retire las baterías del sensor y del control remoto; contacte a Pella para obtener un control remoto de reemplazo gratuito o reparación de la puerta"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparar"
+            },
+            {
+              "Option": "Reemplazar"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "شركة بيلا تستدعي أبواب وشبابيك الشرفة المنزلقة بسبب خطر ابتلاع البطاريات",
+          "Description": "تستدعي شركة بيلا أبواب وشبابيك الشرفة المنزلقة المزودة بستائر آلية بسبب خطر جدي يتمثل في ابتلاع البطاريات القابلة للوصول. تشمل المنتجات المتأثرة أبواب بيلا ريزيرف وأبواب بيلا لايف ستايل المنزلقة التي تتميز بتقنية إنساكتيف، المتاحة في تكوينات من 2-لوحة، 3-لوحات، و4-لوحات. تتراوح رموز التاريخ لهذه الأبواب من 031924 إلى 060524، والتي يمكن العثور عليها محفورة في الزاوية السفلية من الزجاج. بالإضافة إلى ذلك، فإن نوافذ أبواب بيلا لايف ستايل المنزلقة المزودة بأجهزة تحكم عن بعد بتقنية إنساكتيف، النماذج 206A0000 (الجيل 2) و206A0001 (الجيل 3)، مشمولة في هذا الاستدعاء. رمز UPC للتغليف هو 748171618722. تم بيع أجهزة التحكم عن بعد التي تعمل بالبطارية بشكل منفصل.",
+          "ConsumerContact": "يُحث المستهلكون على الاتصال بشركة بيلا على الرقم 844-807-2219 من الساعة 8 صباحًا حتى 5 مساءً بتوقيت شرق الولايات المتحدة، من الاثنين إلى الجمعة، أو زيارة www.pella.com والنقر على 'إشعار الاستدعاء' لمزيد من التفاصيل. لمزيد من المعلومات، يمكنك أيضًا زيارة https://www.pella.com/recall-notice.",
+          "metaDescription": "تستدعي شركة بيلا أبواب وشبابيك الشرفة المنزلقة بسبب مخاطر ابتلاع خطيرة من البطاريات القابلة للوصول. تعرف على المزيد حول الاستدعاء.",
+          "Products": [
+            {
+              "Name": "أبواب الشرفة المنزلقة بيلا ريزيرف",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 340"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "باب الشرفة المنزلقة بيلا ريزيرف وبيلا لايف ستايل المستدعى"
+            },
+            {
+              "Caption": "موقع مستشعر لوحة قفل الباب"
+            },
+            {
+              "Caption": "الجهة الأمامية والخلفية لجهاز التحكم عن بعد لمنتجات سلسلة بيلا لايف ستايل المستدعاة مع الستائر المدمجة المدفوعة بمحرك، النموذج 206A0000 (الجيل 2)"
+            },
+            {
+              "Caption": "الجهة الأمامية والخلفية لجهاز التحكم عن بعد لمنتجات سلسلة بيلا لايف ستايل المستدعاة مع الستائر المدمجة المدفوعة بمحرك، النموذج 206A0001 (الجيل 3)"
+            },
+            {
+              "Caption": "الستائر المدفوعة بمحرك على باب الشرفة المنزلقة بيلا لايف ستايل"
+            },
+            {
+              "Caption": "الستائر المدفوعة بمحرك على نوافذ بيلا لايف ستايل"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "لا توجد إصابات مسجلة"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "مبيعات بيلا المباشرة، لوي، متاجر بيلدرز فيرست سورس في جميع أنحاء البلاد، وعبر الإنترنت"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "شركة بيلا، من بيلا، آيوا"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "تم البيع في",
+          "ManufacturerCountries": [
+            {
+              "Country": "الولايات المتحدة"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "خطر الابتلاع بسبب البطاريات القابلة للوصول"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "إزالة البطاريات من المستشعر وجهاز التحكم عن بعد؛ الاتصال بشركة بيلا للحصول على جهاز تحكم عن بعد بديل مجاني أو إصلاح الباب"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "إصلاح"
+            },
+            {
+              "Option": "استبدال"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "Pella召回滑动露台门和窗户，因电池误食风险",
+          "Description": "Pella正在召回其配备自动遮阳帘的滑动露台门和窗户，因可接触的钮扣电池存在严重的误食危险。受影响的产品包括采用Insynctive技术的Pella Reserve和Pella Lifestyle滑动门，提供2面板、3面板和4面板配置。这些门的日期代码范围为031924至060524，可以在玻璃的下角找到。此外，Pella Lifestyle窗户和配备Insynctive遥控器的滑动门，型号为206A0000（第二代）和206A0001（第三代），也包含在此次召回中。包装的UPC代码为748171618722。电池供电的遥控器也单独出售。",
+          "ConsumerContact": "消费者被敦促在东部时间周一至周五上午8点至下午5点之间拨打844-807-2219联系Pella，或访问www.pella.com并点击“召回通知”以获取更多详细信息。如需更多信息，您还可以访问https://www.pella.com/recall-notice。",
+          "metaDescription": "Pella因可接触的钮扣电池带来的严重误食危险而召回滑动露台门和窗户。了解更多关于此次召回的信息。",
+          "Products": [
+            {
+              "Name": "Pella Reserve滑动露台门",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约340"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "召回的Pella Reserve和Pella Lifestyle滑动门"
+            },
+            {
+              "Caption": "门的锁定面板传感器位置"
+            },
+            {
+              "Caption": "召回的Pella Lifestyle系列产品的遥控器正面和背面，型号为206A0000（第二代）"
+            },
+            {
+              "Caption": "召回的Pella Lifestyle系列产品的遥控器正面和背面，型号为206A0001（第三代）"
+            },
+            {
+              "Caption": "Pella Lifestyle滑动门上的电动遮阳帘"
+            },
+            {
+              "Caption": "Pella Lifestyle窗户上的电动百叶窗"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "无报告"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Pella直销、Lowe's、全国Builders FirstSource商店及在线"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "位于爱荷华州Pella的Pella Corporation"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "销售地点",
+          "ManufacturerCountries": [
+            {
+              "Country": "美国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "因可接触的钮扣电池而导致的误食危险"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "从传感器和遥控器中取出电池；联系Pella以获取免费的替换遥控器或门修理"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "修理"
+            },
+            {
+              "Option": "更换"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "Pella rappelle des portes-fenêtres coulissantes et des fenêtres en raison du risque d'ingestion de batteries",
+          "Description": "Pella rappelle ses portes-fenêtres coulissantes et ses fenêtres équipées de stores automatisés en raison d'un grave danger d'ingestion posé par des batteries bouton accessibles. Les produits concernés incluent les portes coulissantes Pella Reserve et Pella Lifestyle dotées de la technologie Insynctive, disponibles en configurations de 2 panneaux, 3 panneaux et 4 panneaux. Les codes de date pour ces portes vont de 031924 à 060524, qui peuvent être trouvés gravés dans le coin inférieur du verre. De plus, les fenêtres et portes coulissantes Pella Lifestyle avec télécommandes Insynctive, modèles 206A0000 (Génération 2) et 206A0001 (Génération 3), sont incluses dans ce rappel. Le code UPC pour l'emballage est 748171618722. Les télécommandes à piles étaient également vendues séparément.",
+          "ConsumerContact": "Les consommateurs sont invités à contacter Pella au 844-807-2219 de 8 h à 17 h HE, du lundi au vendredi, ou à visiter www.pella.com et cliquer sur 'Avis de rappel' pour plus de détails. Pour plus d'informations, vous pouvez également vous rendre sur https://www.pella.com/recall-notice.",
+          "metaDescription": "Pella rappelle des portes-fenêtres coulissantes et des fenêtres en raison de graves dangers d'ingestion liés à des batteries bouton accessibles. En savoir plus sur le rappel.",
+          "Products": [
+            {
+              "Name": "Portes-fenêtres coulissantes Pella Reserve",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 340"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Porte coulissante Pella Reserve et Pella Lifestyle rappelées"
+            },
+            {
+              "Caption": "Emplacement du capteur du panneau de verrouillage de la porte"
+            },
+            {
+              "Caption": "Recto et verso de la télécommande pour les produits rappelés de la série Pella Lifestyle avec stores et volets intégrés motorisés modèle 206A0000 (Gen 2)"
+            },
+            {
+              "Caption": "Recto et verso de la télécommande pour les produits rappelés de la série Pella Lifestyle avec stores et volets intégrés motorisés modèle 206A0001 (Gen 3)"
+            },
+            {
+              "Caption": "Stores motorisés sur la porte coulissante Pella Lifestyle"
+            },
+            {
+              "Caption": "Volets motorisés sur les fenêtres Pella Lifestyle"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Aucun rapporté"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Ventes directes Pella, Lowe's, magasins Builders FirstSource à l'échelle nationale et en ligne"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Pella Corporation, de Pella, Iowa"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendu À",
+          "ManufacturerCountries": [
+            {
+              "Country": "États-Unis"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Danger d'ingestion en raison de batteries bouton accessibles"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Retirer les batteries du capteur et de la télécommande ; contacter Pella pour obtenir une télécommande de remplacement gratuite ou une réparation de porte"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Réparer"
+            },
+            {
+              "Option": "Remplacer"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "Pella ruft Schiebetüren und Fenster wegen Risiko der Batterieverdauung zurück",
+          "Description": "Pella ruft seine Schiebetüren und Fenster mit automatisierten Jalousien aufgrund einer ernsthaften Gefährdung durch zugängliche Knopfzellenbatterien zurück. Die betroffenen Produkte umfassen die Pella Reserve und Pella Lifestyle Schiebetüren mit Insynctive-Technologie, erhältlich in 2-Panel-, 3-Panel- und 4-Panel-Konfigurationen. Die Datencodes für diese Türen reichen von 031924 bis 060524, die auf der unteren Ecke des Glases eingraviert sind. Darüber hinaus sind die Pella Lifestyle Fenster und Schiebetüren mit Insynctive-Fernbedienungen, Modelle 206A0000 (Generation 2) und 206A0001 (Generation 3), in diesem Rückruf enthalten. Der UPC-Code für die Verpackung lautet 748171618722. Die batteriebetriebenen Fernbedienungen wurden ebenfalls separat verkauft.",
+          "ConsumerContact": "Verbraucher werden aufgefordert, Pella unter 844-807-2219 von 8 bis 17 Uhr ET, Montag bis Freitag, zu kontaktieren oder www.pella.com zu besuchen und auf 'Rückrufmitteilung' zu klicken, um weitere Details zu erhalten. Für weitere Informationen können Sie auch zu https://www.pella.com/recall-notice gehen.",
+          "metaDescription": "Pella ruft Schiebetüren und Fenster aufgrund ernsthafter Gefahren durch zugängliche Knopfzellenbatterien zurück. Erfahren Sie mehr über den Rückruf.",
+          "Products": [
+            {
+              "Name": "Pella Reserve Schiebetüren",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 340"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Zurückgerufene Pella Reserve und Pella Lifestyle Schiebetür"
+            },
+            {
+              "Caption": "Standort des Sensors im Verriegelungsbereich der Tür"
+            },
+            {
+              "Caption": "Vorder- und Rückseite der Fernbedienung für die zurückgerufenen Pella Lifestyle Series Produkte mit motorisierten integrierten Jalousien und Jalousien Modell 206A0000 (Gen 2)"
+            },
+            {
+              "Caption": "Vorder- und Rückseite der Fernbedienung für die zurückgerufenen Pella Lifestyle Series Produkte mit motorisierten integrierten Jalousien und Jalousien Modell 206A0001 (Gen 3)"
+            },
+            {
+              "Caption": "Motorisierte Jalousien an der Pella Lifestyle Schiebetür"
+            },
+            {
+              "Caption": "Motorisierte Jalousien an Pella Lifestyle Fenstern"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Keine gemeldet"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Pella Direktvertrieb, Lowe's, Builders FirstSource Geschäfte landesweit und online"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Pella Corporation, Pella, Iowa"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Verkauft bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "Vereinigte Staaten"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Erstickungsgefahr durch zugängliche Knopfzellenbatterien"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Batterien aus dem Sensor und der Fernbedienung entfernen; kontaktieren Sie Pella für eine kostenlose Ersatzfernbedienung oder Türreparatur"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparatur"
+            },
+            {
+              "Option": "Ersatz"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "ペラ、バッテリー摂取リスクによりスライディングパティオドアと窓をリコール",
+          "Description": "ペラは、アクセス可能なボタン電池による深刻な摂取危険性のため、自動シェードを装備したスライディングパティオドアと窓をリコールしています。影響を受ける製品には、2パネル、3パネル、4パネル構成のインシンクティブ技術を特徴とするペラリザーブおよびペラライフスタイルのスライディングドアが含まれます。これらのドアの日付コードは031924から060524までで、ガラスの下隅に刻印されています。さらに、インシンクティブリモコンを備えたペラライフスタイルの窓とスライディングドア、モデル206A0000（第2世代）および206A0001（第3世代）もこのリコールに含まれています。パッケージのUPCコードは748171618722です。バッテリー駆動のリモコンも別売りされていました。",
+          "ConsumerContact": "消費者は、月曜日から金曜日の午前8時から午後5時（ET）まで、844-807-2219にてペラに連絡するか、www.pella.comを訪れて「リコール通知」をクリックして詳細を確認することをお勧めします。さらに情報が必要な場合は、https://www.pella.com/recall-noticeにもアクセスできます。",
+          "metaDescription": "ペラは、アクセス可能なボタン電池からの深刻な摂取危険性によりスライディングパティオドアと窓をリコールしています。リコールについて詳しく学びましょう。",
+          "Products": [
+            {
+              "Name": "ペラリザーブ スライディングパティオドア",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約340"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコールされたペラリザーブおよびペラライフスタイルのスライディングドア"
+            },
+            {
+              "Caption": "ドアのロックパネルセンサーの位置"
+            },
+            {
+              "Caption": "リコールされたペラライフスタイルシリーズ製品のリモコンの前面と背面（モーター内蔵ブラインドおよびシェードモデル206A0000（第2世代））"
+            },
+            {
+              "Caption": "リコールされたペラライフスタイルシリーズ製品のリモコンの前面と背面（モーター内蔵ブラインドおよびシェードモデル206A0001（第3世代））"
+            },
+            {
+              "Caption": "ペラライフスタイルのスライディングドアのモーター内蔵シェード"
+            },
+            {
+              "Caption": "ペラライフスタイルの窓のモーター内蔵ブラインド"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "報告された怪我はなし"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "ペラ直販、ローズ、ビルダーズファーストソースの店舗全国およびオンライン"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "アイオワ州ペラのペラコーポレーション"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "販売場所",
+          "ManufacturerCountries": [
+            {
+              "Country": "アメリカ合衆国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "アクセス可能なボタン電池による摂取危険"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "センサーとリモコンからバッテリーを取り外す; ペラに連絡して無料の交換リモコンまたはドア修理を依頼する"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "修理"
+            },
+            {
+              "Option": "交換"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "Pella Recalling Portas e Janelas de Patio Deslizantes Devido ao Risco de Ingestão de Baterias",
+          "Description": "A Pella está recallando suas portas e janelas de patio deslizantes equipadas com cortinas automatizadas devido a um sério risco de ingestão causado por baterias de botão acessíveis. Os produtos afetados incluem as portas deslizantes Pella Reserve e Pella Lifestyle com tecnologia Insynctive, disponíveis nas configurações de 2 painéis, 3 painéis e 4 painéis. Os códigos de data para essas portas variam de 031924 a 060524, que podem ser encontrados gravados no canto inferior do vidro. Além disso, as janelas e portas deslizantes Pella Lifestyle com controles remotos Insynctive, modelos 206A0000 (Geração 2) e 206A0001 (Geração 3), estão incluídos neste recall. O código UPC para a embalagem é 748171618722. Os controles remotos operados por bateria também foram vendidos separadamente.",
+          "ConsumerContact": "Os consumidores são aconselhados a entrar em contato com a Pella pelo telefone 844-807-2219, das 8h às 17h ET, de segunda a sexta-feira, ou visitar www.pella.com e clicar em 'Aviso de Recall' para mais detalhes. Para mais informações, você também pode acessar https://www.pella.com/recall-notice.",
+          "metaDescription": "A Pella recall portas e janelas de patio deslizantes devido a sérios riscos de ingestão de baterias de botão acessíveis. Saiba mais sobre o recall.",
+          "Products": [
+            {
+              "Name": "Portas de Patio Deslizantes Pella Reserve",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 340"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Porta deslizante Pella Reserve e Pella Lifestyle recalladas"
+            },
+            {
+              "Caption": "Localização do sensor do painel de travamento da porta"
+            },
+            {
+              "Caption": "Frente e verso do controle remoto para os produtos da série Pella Lifestyle recallados com persianas e cortinas integradas motorizadas modelo 206A0000 (Gen 2)"
+            },
+            {
+              "Caption": "Frente e verso do controle remoto para os produtos da série Pella Lifestyle recallados com persianas e cortinas integradas motorizadas modelo 206A0001 (Gen 3)"
+            },
+            {
+              "Caption": "Cortinas motorizadas na porta deslizante Pella Lifestyle"
+            },
+            {
+              "Caption": "Persianas motorizadas nas janelas Pella Lifestyle"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Nenhuma relatada"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Vendas diretas da Pella, Lowe's, lojas Builders FirstSource em todo o país e online"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Pella Corporation, de Pella, Iowa"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendidos Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "Estados Unidos"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risco de ingestão devido a baterias de botão acessíveis"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Remover as baterias do sensor e do controle remoto; entrar em contato com a Pella para um controle remoto ou reparo de porta gratuito"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparar"
+            },
+            {
+              "Option": "Substituir"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "पेला ने बैटरी निगलने के जोखिम के कारण स्लाइडिंग पैटियो दरवाजे और खिड़कियाँ वापस मंगवाईं",
+          "Description": "पेला अपने स्लाइडिंग पैटियो दरवाजों और खिड़कियों को स्वचालित शेड्स के साथ वापस मंगवा रहा है, जो कि उपलब्ध बटन सेल बैटरी द्वारा उत्पन्न गंभीर निगलने के खतरे के कारण है। प्रभावित उत्पादों में पेला रिजर्व और पेला लाइफस्टाइल स्लाइडिंग दरवाजे शामिल हैं, जिनमें इंसिंक्टिव तकनीक है, जो 2-पैनल, 3-पैनल और 4-पैनल कॉन्फ़िगरेशन में उपलब्ध हैं। इन दरवाजों के लिए दिनांक कोड 031924 से 060524 तक हैं, जो कांच के निचले कोने पर उकेरे गए हैं। इसके अतिरिक्त, पेला लाइफस्टाइल खिड़कियाँ और इंसिंक्टिव रिमोट कंट्रोल के साथ स्लाइडिंग दरवाजे, मॉडल 206A0000 (जनरेशन 2) और 206A0001 (जनरेशन 3), इस रिकॉल में शामिल हैं। पैकेजिंग के लिए UPC कोड 748171618722 है। बैटरी चालित रिमोट भी अलग से बेचे गए थे।",
+          "ConsumerContact": "उपभोक्ताओं से अनुरोध है कि वे पेला से 844-807-2219 पर सुबह 8 बजे से शाम 5 बजे ET, सोमवार से शुक्रवार तक संपर्क करें, या www.pella.com पर जाएं और आगे की जानकारी के लिए 'रिकॉल नोटिस' पर क्लिक करें। अधिक जानकारी के लिए, आप https://www.pella.com/recall-notice पर भी जा सकते हैं।",
+          "metaDescription": "पेला ने उपलब्ध बटन सेल बैटरी से उत्पन्न गंभीर निगलने के खतरों के कारण स्लाइडिंग पैटियो दरवाजे और खिड़कियाँ वापस मंगवाईं। रिकॉल के बारे में अधिक जानें।",
+          "Products": [
+            {
+              "Name": "पेला रिजर्व स्लाइडिंग पैटियो दरवाजे",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 340"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "वापस मंगवाए गए पेला रिजर्व और पेला लाइफस्टाइल स्लाइडिंग दरवाजा"
+            },
+            {
+              "Caption": "दरवाजे के लॉकिंग पैनल सेंसर का स्थान"
+            },
+            {
+              "Caption": "वापस मंगवाए गए पेला लाइफस्टाइल सीरीज उत्पादों के लिए रिमोट कंट्रोल का आगे और पीछे, जिसमें मोटराइज्ड इंटीग्रेटेड ब्लाइंड्स और शेड्स मॉडल 206A0000 (जनरेशन 2) है"
+            },
+            {
+              "Caption": "वापस मंगवाए गए पेला लाइफस्टाइल सीरीज उत्पादों के लिए रिमोट कंट्रोल का आगे और पीछे, जिसमें मोटराइज्ड इंटीग्रेटेड ब्लाइंड्स और शेड्स मॉडल 206A0001 (जनरेशन 3) है"
+            },
+            {
+              "Caption": "पेला लाइफस्टाइल स्लाइडिंग दरवाजे पर मोटराइज्ड शेड्स"
+            },
+            {
+              "Caption": "पेला लाइफस्टाइल खिड़कियों पर मोटराइज्ड ब्लाइंड्स"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "कोई रिपोर्ट नहीं"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "पेला डायरेक्ट सेल्स, लोव्स, बिल्डर्स फर्स्टसोर्स स्टोर्स देशभर में, और ऑनलाइन"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "पेला कॉर्पोरेशन, पेला, आयोवा"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "संयुक्त राज्य अमेरिका"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "उपलब्ध बटन सेल बैटरी के कारण निगलने का खतरा"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "सेंसर और रिमोट कंट्रोल से बैटरी निकालें; मुफ्त प्रतिस्थापन रिमोट या दरवाजे की मरम्मत के लिए पेला से संपर्क करें"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "मरम्मत"
+            },
+            {
+              "Option": "प्रतिस्थापित करें"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "Pella отзывает раздвижные двери и окна для патио из-за риска проглатывания батареек",
+          "Description": "Pella отзывает свои раздвижные двери и окна для патио, оснащенные автоматическими шторами, из-за серьезной опасности проглатывания, вызванной доступными батарейками типа 'кнопка'. К затронутым продуктам относятся раздвижные двери Pella Reserve и Pella Lifestyle с технологией Insynctive, доступные в конфигурациях на 2, 3 и 4 панели. Дата-коды для этих дверей варьируются от 031924 до 060524, которые можно найти, выгравированными в нижнем углу стекла. Кроме того, в этот отзыв включены окна и раздвижные двери Pella Lifestyle с дистанционными управлениями Insynctive, модели 206A0000 (поколение 2) и 206A0001 (поколение 3). UPC-код упаковки составляет 748171618722. Дистанционные управления на батарейках также продавались отдельно.",
+          "ConsumerContact": "Потребителей призывают связаться с Pella по телефону 844-807-2219 с 8:00 до 17:00 по восточному времени, с понедельника по пятницу, или посетить www.pella.com и нажать на 'Уведомление об отзыве' для получения дополнительной информации. Для получения дополнительной информации вы также можете перейти на https://www.pella.com/recall-notice.",
+          "metaDescription": "Pella отзывает раздвижные двери и окна для патио из-за серьезных опасностей проглатывания от доступных батареек типа 'кнопка'. Узнайте больше об отзыве.",
+          "Products": [
+            {
+              "Name": "Раздвижные двери Pella Reserve",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 340"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванные раздвижные двери Pella Reserve и Pella Lifestyle"
+            },
+            {
+              "Caption": "Место расположения датчика блокировки двери"
+            },
+            {
+              "Caption": "Лицевая и обратная стороны дистанционного управления для отозванных продуктов Pella Lifestyle Series с моторизованными встроенными шторами и жалюзи модели 206A0000 (поколение 2)"
+            },
+            {
+              "Caption": "Лицевая и обратная стороны дистанционного управления для отозванных продуктов Pella Lifestyle Series с моторизованными встроенными шторами и жалюзи модели 206A0001 (поколение 3)"
+            },
+            {
+              "Caption": "Моторизованные шторы на раздвижной двери Pella Lifestyle"
+            },
+            {
+              "Caption": "Моторизованные жалюзи на окнах Pella Lifestyle"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Не сообщалось"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Прямые продажи Pella, Lowe's, магазины Builders FirstSource по всей стране и онлайн"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Корпорация Pella, Пелла, Айова"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Продается в",
+          "ManufacturerCountries": [
+            {
+              "Country": "Соединенные Штаты"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Опасность проглатывания из-за доступных батареек типа 'кнопка'"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Удалите батарейки из датчика и дистанционного управления; свяжитесь с Pella для получения бесплатного замены дистанционного управления или ремонта двери"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Ремонт"
+            },
+            {
+              "Option": "Замена"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "Pella thu hồi cửa trượt sân và cửa sổ do nguy cơ nuốt phải pin",
+          "Description": "Pella đang thu hồi cửa trượt sân và cửa sổ được trang bị rèm tự động do nguy cơ nuốt phải nghiêm trọng từ các pin nút có thể tiếp cận. Các sản phẩm bị ảnh hưởng bao gồm cửa trượt Pella Reserve và Pella Lifestyle có công nghệ Insynctive, có sẵn trong các cấu hình 2-panel, 3-panel và 4-panel. Các mã ngày cho những cánh cửa này dao động từ 031924 đến 060524, có thể được tìm thấy khắc ở góc dưới của kính. Ngoài ra, các cửa sổ và cửa trượt Pella Lifestyle với điều khiển từ xa Insynctive, mẫu 206A0000 (Thế hệ 2) và 206A0001 (Thế hệ 3), cũng nằm trong đợt thu hồi này. Mã UPC cho bao bì là 748171618722. Các điều khiển từ xa sử dụng pin cũng được bán riêng.",
+          "ConsumerContact": "Người tiêu dùng được khuyến cáo liên hệ với Pella theo số 844-807-2219 từ 8 giờ sáng đến 5 giờ chiều ET, từ thứ Hai đến thứ Sáu, hoặc truy cập www.pella.com và nhấp vào 'Thông báo thu hồi' để biết thêm chi tiết. Để biết thêm thông tin, bạn cũng có thể truy cập https://www.pella.com/recall-notice.",
+          "metaDescription": "Pella thu hồi cửa trượt sân và cửa sổ do nguy cơ nuốt phải nghiêm trọng từ các pin nút có thể tiếp cận. Tìm hiểu thêm về đợt thu hồi.",
+          "Products": [
+            {
+              "Name": "Cửa trượt sân Pella Reserve",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 340"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Cửa trượt Pella Reserve và Pella Lifestyle bị thu hồi"
+            },
+            {
+              "Caption": "Vị trí cảm biến của panel khóa cửa"
+            },
+            {
+              "Caption": "Mặt trước và mặt sau của điều khiển từ xa cho các sản phẩm Pella Lifestyle Series bị thu hồi với rèm và màn tích hợp động cơ mẫu 206A0000 (Thế hệ 2)"
+            },
+            {
+              "Caption": "Mặt trước và mặt sau của điều khiển từ xa cho các sản phẩm Pella Lifestyle Series bị thu hồi với rèm và màn tích hợp động cơ mẫu 206A0001 (Thế hệ 3)"
+            },
+            {
+              "Caption": "Rèm động cơ trên cửa trượt Pella Lifestyle"
+            },
+            {
+              "Caption": "Màn động cơ trên cửa sổ Pella Lifestyle"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Không có báo cáo"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Bán trực tiếp bởi Pella, Lowe's, các cửa hàng Builders FirstSource trên toàn quốc và trực tuyến"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Công ty Pella, có trụ sở tại Pella, Iowa"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Bán Tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Hoa Kỳ"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Nguy cơ nuốt phải do pin nút có thể tiếp cận"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Gỡ pin khỏi cảm biến và điều khiển từ xa; liên hệ với Pella để được thay thế điều khiển từ xa miễn phí hoặc sửa chữa cửa"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Sửa chữa"
+            },
+            {
+              "Option": "Thay thế"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    },
+    {
+      "RecallID": 9810,
+      "RecallNumber": "24732",
+      "RecallDate": "2023-12-21T00:00:00",
+      "Description": "Pella has issued a recall for its Architect Series venting wood and aluminum-clad casement windows due to a potential injury risk. This recall affects several custom-made window types, including all venting hurricane impact products with side pivot hardware, casements with a frame height exceeding 96 inches, those with a frame width greater than 35 inches, and casements with a width over 29 inches and a vent height over 47 inches that also feature side pivot hardware. Consumers can verify the serial numbers etched in the lower corner of the window glass at www.PellaHingeRecall.expertinquiry.com.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/Pella-Recalls-Casement-Windows-Due-to-Injury-Hazard-Recall-Alert",
+      "Title": "Pella Recalls Architect Series Casement Windows Due to Injury Risk",
+      "ConsumerContact": "For assistance, consumers can reach Pella at 888-276-7624 from 8 a.m. to 5 p.m. ET, Monday through Friday. More information is available at www.pella.com under \"Recall Notice,\" or at www.PellaHingeRecall.expertinquiry.com to check if their window's serial number is affected.",
+      "LastPublishDate": "2023-12-21T00:00:00",
+      "Products": [
+        {
+          "Name": "Pella Architect Series Venting Casement Windows",
+          "NumberOfUnits": "About 12,000 (In addition, about 305 were sold in Canada and about 10 were sold in Mexico)"
+        }
+      ],
+      "Inconjunctions": [
+        {
+          "URL": "https://recalls-rappels.canada.ca/en/alert-recall/pella-architect-series-casement-windows-recalled-due-injury-hazard"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/doors-and-windows/4-Pella-Architect-Series-Venting-Casement-Windows/bee779a8764810fa1388f4be50d1ec4b.webp",
+          "Caption": "Recalled Pella Casement Window – exterior view",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/pella-window.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received one report of a window sash detaching from the frame and falling. No injuries have been reported."
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "Pella Corporation, of Pella, Iowa"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available through authorized distributors nationwide, including Pella Window and Door stores, Lowe's, ABC Supply, Allied Building Products, Builders First Source, Builders Supply Co, Inc., Hammond Lumber Company, McCoy's Building Supply, National Lumber, and The Carter Companies from January 2021 to July 2023, priced between $700 and $10,000 per window."
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "United States"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of window sash detachment leading to potential injuries."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Keep the recalled windows closed and locked, and contact Pella for a complimentary repair by an authorized service technician."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ],
+      "slug": "pella-recalls-architect-series-casement-windows-due-to-injury-risk-recall",
+      "metaDescription": "Pella recalls Architect Series casement windows due to injury risks. Check if your window is affected and learn how to get a free repair.",
+      "languages": {
+        "en": {
+          "Title": "Pella Recalls Architect Series Casement Windows Due to Injury Risk",
+          "Description": "Pella has issued a recall for its Architect Series venting wood and aluminum-clad casement windows due to a potential injury risk. This recall affects several custom-made window types, including all venting hurricane impact products with side pivot hardware, casements with a frame height exceeding 96 inches, those with a frame width greater than 35 inches, and casements with a width over 29 inches and a vent height over 47 inches that also feature side pivot hardware. Consumers can verify the serial numbers etched in the lower corner of the window glass at www.PellaHingeRecall.expertinquiry.com.",
+          "ConsumerContact": "For assistance, consumers can reach Pella at 888-276-7624 from 8 a.m. to 5 p.m. ET, Monday through Friday. More information is available at www.pella.com under \"Recall Notice,\" or at www.PellaHingeRecall.expertinquiry.com to check if their window's serial number is affected.",
+          "metaDescription": "Pella recalls Architect Series casement windows due to injury risks. Check if your window is affected and learn how to get a free repair.",
+          "Products": [
+            {
+              "Name": "Pella Architect Series Venting Casement Windows",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 12,000 (In addition, about 305 were sold in Canada and about 10 were sold in Mexico)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled Pella Casement Window – exterior view"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "The firm has received one report of a window sash detaching from the frame and falling. No injuries have been reported."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Available through authorized distributors nationwide, including Pella Window and Door stores, Lowe's, ABC Supply, Allied Building Products, Builders First Source, Builders Supply Co, Inc., Hammond Lumber Company, McCoy's Building Supply, National Lumber, and The Carter Companies from January 2021 to July 2023, priced between $700 and $10,000 per window."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Pella Corporation, of Pella, Iowa"
+            }
+          ],
+          "SoldAtLabel": "Sold At",
+          "ManufacturerCountries": [
+            {
+              "Country": "United States"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risk of window sash detachment leading to potential injuries."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Keep the recalled windows closed and locked, and contact Pella for a complimentary repair by an authorized service technician."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Repair"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "Pella recuerda las ventanas de guillotina de la serie Architect debido al riesgo de lesiones",
+          "Description": "Pella ha emitido un retiro de sus ventanas de guillotina de madera y aluminio de la serie Architect debido a un posible riesgo de lesiones. Este retiro afecta a varios tipos de ventanas personalizadas, incluyendo todos los productos de impacto de huracanes con hardware de pivote lateral, guillotinas con una altura de marco que excede las 96 pulgadas, aquellas con un ancho de marco mayor de 35 pulgadas, y guillotinas con un ancho superior a 29 pulgadas y una altura de ventilación superior a 47 pulgadas que también cuentan con hardware de pivote lateral. Los consumidores pueden verificar los números de serie grabados en la esquina inferior del vidrio de la ventana en www.PellaHingeRecall.expertinquiry.com.",
+          "ConsumerContact": "Para asistencia, los consumidores pueden comunicarse con Pella al 888-276-7624 de 8 a.m. a 5 p.m. ET, de lunes a viernes. Más información está disponible en www.pella.com bajo \"Aviso de Retiro\", o en www.PellaHingeRecall.expertinquiry.com para verificar si el número de serie de su ventana está afectado.",
+          "metaDescription": "Pella retira las ventanas de guillotina de la serie Architect debido a riesgos de lesiones. Verifique si su ventana está afectada y aprenda cómo obtener una reparación gratuita.",
+          "Products": [
+            {
+              "Name": "Ventanas de guillotina de ventilación de la serie Architect de Pella",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 12,000 (Además, se vendieron aproximadamente 305 en Canadá y aproximadamente 10 en México)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Ventana de guillotina de Pella retirada – vista exterior"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "La empresa ha recibido un informe de un marco de ventana que se desprendió del marco y cayó. No se han reportado lesiones."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible a través de distribuidores autorizados en todo el país, incluyendo tiendas de ventanas y puertas Pella, Lowe's, ABC Supply, Allied Building Products, Builders First Source, Builders Supply Co, Inc., Hammond Lumber Company, McCoy's Building Supply, National Lumber y The Carter Companies desde enero de 2021 hasta julio de 2023, con precios entre $700 y $10,000 por ventana."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Pella Corporation, de Pella, Iowa"
+            }
+          ],
+          "SoldAtLabel": "Vendidos En",
+          "ManufacturerCountries": [
+            {
+              "Country": "Estados Unidos"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Riesgo de desprendimiento del marco de la ventana que puede llevar a lesiones potenciales."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Mantenga las ventanas retiradas cerradas y aseguradas, y comuníquese con Pella para una reparación gratuita por un técnico de servicio autorizado."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparación"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "بلا يستدعي نوافذ كاسيت من سلسلة المهندسين بسبب خطر الإصابة",
+          "Description": "أصدرت بلا استدعاء لنوافذ كاسيت الخشبية والمعدنية المغلفة من سلسلة المهندسين بسبب خطر الإصابة المحتمل. يؤثر هذا الاستدعاء على عدة أنواع من النوافذ المصنوعة حسب الطلب، بما في ذلك جميع منتجات النوافذ المعرضة للإعصار مع أجهزة دوران جانبية، والنوافذ ذات ارتفاع الإطار الذي يتجاوز 96 بوصة، وتلك ذات عرض الإطار الذي يزيد عن 35 بوصة، والنوافذ ذات عرض يزيد عن 29 بوصة وارتفاع تهوية يزيد عن 47 بوصة والتي تحتوي أيضًا على أجهزة دوران جانبية. يمكن للمستهلكين التحقق من أرقام التسلسل المنقوشة في الزاوية السفلية من زجاج النافذة على www.PellaHingeRecall.expertinquiry.com.",
+          "ConsumerContact": "للمساعدة، يمكن للمستهلكين الاتصال ببلا على الرقم 888-276-7624 من الساعة 8 صباحًا حتى 5 مساءً بتوقيت شرق الولايات المتحدة، من الاثنين إلى الجمعة. تتوفر مزيد من المعلومات على www.pella.com تحت \"إشعار الاستدعاء\"، أو على www.PellaHingeRecall.expertinquiry.com للتحقق مما إذا كان رقم تسلسل نافذتهم متأثرًا.",
+          "metaDescription": "بلا تستدعي نوافذ كاسيت من سلسلة المهندسين بسبب مخاطر الإصابة. تحقق مما إذا كانت نافذتك متأثرة وتعلم كيفية الحصول على إصلاح مجاني.",
+          "Products": [
+            {
+              "Name": "نوافذ كاسيت تهوية من سلسلة بلا المهندسين",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 12,000 (بالإضافة إلى ذلك، تم بيع حوالي 305 في كندا وحوالي 10 في المكسيك)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "نافذة كاسيت بلا المستدعاة - عرض خارجي"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "تلقت الشركة تقريرًا واحدًا عن انفصال إطار النافذة عن الإطار وسقوطه. لم يتم الإبلاغ عن أي إصابات."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "متاحة من خلال الموزعين المعتمدين في جميع أنحاء البلاد، بما في ذلك متاجر بلا للنوافذ والأبواب، ولوز، وABC Supply، وAllied Building Products، وBuilders First Source، وBuilders Supply Co, Inc.، وHammond Lumber Company، وMcCoy's Building Supply، وNational Lumber، وThe Carter Companies من يناير 2021 إلى يوليو 2023، بأسعار تتراوح بين 700 دولار و10,000 دولار لكل نافذة."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "شركة بلا، من بلا، آيوا"
+            }
+          ],
+          "SoldAtLabel": "تم البيع في",
+          "ManufacturerCountries": [
+            {
+              "Country": "الولايات المتحدة"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "خطر انفصال إطار النافذة مما يؤدي إلى إصابات محتملة."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "احتفظ بالنوافذ المستدعاة مغلقة ومقفلة، واتصل ببلا للحصول على إصلاح مجاني بواسطة فني خدمة معتمد."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "إصلاح"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "Pella召回建筑系列开窗由于受伤风险",
+          "Description": "Pella已对其建筑系列通风木质和铝包开窗发出召回，原因是存在潜在的受伤风险。此次召回涉及几种定制窗型，包括所有带侧铰链硬件的通风飓风冲击产品、框架高度超过96英寸的开窗、框架宽度大于35英寸的开窗，以及宽度超过29英寸且通风高度超过47英寸的开窗，这些开窗也具有侧铰链硬件。消费者可以在www.PellaHingeRecall.expertinquiry.com上验证窗户玻璃下角刻印的序列号。",
+          "ConsumerContact": "如需帮助，消费者可以在东部时间周一至周五上午8点至下午5点拨打Pella电话888-276-7624。更多信息可在www.pella.com的“召回通知”下找到，或访问www.PellaHingeRecall.expertinquiry.com检查他们窗户的序列号是否受影响。",
+          "metaDescription": "Pella因受伤风险召回建筑系列开窗。检查您的窗户是否受影响，并了解如何获得免费维修。",
+          "Products": [
+            {
+              "Name": "Pella建筑系列通风开窗",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约12,000（此外，约305个在加拿大销售，约10个在墨西哥销售）"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "召回的Pella开窗 - 外观"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "该公司已收到一份窗扇从框架上脱落并掉落的报告。没有报告受伤。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "通过全国授权分销商销售，包括Pella窗户和门店、Lowe's、ABC Supply、Allied Building Products、Builders First Source、Builders Supply Co, Inc.、Hammond Lumber Company、McCoy's Building Supply、National Lumber和The Carter Companies，从2021年1月到2023年7月，价格在每个窗户700美元到10,000美元之间。"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Pella Corporation，位于爱荷华州Pella"
+            }
+          ],
+          "SoldAtLabel": "销售地点",
+          "ManufacturerCountries": [
+            {
+              "Country": "美国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "窗扇脱落导致潜在受伤的风险。"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "保持召回的窗户关闭并上锁，并联系Pella以获得授权服务技术人员的免费维修。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "维修"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "Pella rappelle les fenêtres à battant de la série Architect en raison d'un risque de blessure",
+          "Description": "Pella a émis un rappel pour ses fenêtres à battant en bois et en aluminium de la série Architect en raison d'un risque potentiel de blessure. Ce rappel concerne plusieurs types de fenêtres sur mesure, y compris tous les produits à impact de tempête avec matériel de pivot latéral, les fenêtres à battant avec une hauteur de cadre dépassant 96 pouces, celles avec une largeur de cadre supérieure à 35 pouces, et les fenêtres à battant avec une largeur supérieure à 29 pouces et une hauteur de ventilation supérieure à 47 pouces qui présentent également un matériel de pivot latéral. Les consommateurs peuvent vérifier les numéros de série gravés dans le coin inférieur du verre de la fenêtre sur www.PellaHingeRecall.expertinquiry.com.",
+          "ConsumerContact": "Pour assistance, les consommateurs peuvent contacter Pella au 888-276-7624 de 8 h à 17 h HE, du lundi au vendredi. Plus d'informations sont disponibles sur www.pella.com sous \"Avis de rappel,\" ou sur www.PellaHingeRecall.expertinquiry.com pour vérifier si le numéro de série de leur fenêtre est concerné.",
+          "metaDescription": "Pella rappelle les fenêtres à battant de la série Architect en raison de risques de blessure. Vérifiez si votre fenêtre est concernée et apprenez comment obtenir une réparation gratuite.",
+          "Products": [
+            {
+              "Name": "Fenêtres à battant ventilées de la série Architect de Pella",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 12 000 (De plus, environ 305 ont été vendues au Canada et environ 10 ont été vendues au Mexique)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Fenêtre à battant Pella rappelée – vue extérieure"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "L'entreprise a reçu un rapport d'un châssis de fenêtre se détachant du cadre et tombant. Aucune blessure n'a été signalée."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible auprès de distributeurs autorisés à l'échelle nationale, y compris les magasins Pella Window and Door, Lowe's, ABC Supply, Allied Building Products, Builders First Source, Builders Supply Co, Inc., Hammond Lumber Company, McCoy's Building Supply, National Lumber, et The Carter Companies de janvier 2021 à juillet 2023, au prix de 700 $ à 10 000 $ par fenêtre."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Pella Corporation, de Pella, Iowa"
+            }
+          ],
+          "SoldAtLabel": "Vendu À",
+          "ManufacturerCountries": [
+            {
+              "Country": "États-Unis"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risque de détachement du châssis de la fenêtre entraînant des blessures potentielles."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Gardez les fenêtres rappelées fermées et verrouillées, et contactez Pella pour une réparation gratuite par un technicien de service autorisé."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Réparation"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "Pella Recalls Architect Series Casement Windows Due to Injury Risk",
+          "Description": "Pella has issued a recall for its Architect Series venting wood and aluminum-clad casement windows due to a potential injury risk. This recall affects several custom-made window types, including all venting hurricane impact products with side pivot hardware, casements with a frame height exceeding 96 inches, those with a frame width greater than 35 inches, and casements with a width over 29 inches and a vent height over 47 inches that also feature side pivot hardware. Consumers can verify the serial numbers etched in the lower corner of the window glass at www.PellaHingeRecall.expertinquiry.com.",
+          "ConsumerContact": "For assistance, consumers can reach Pella at 888-276-7624 from 8 a.m. to 5 p.m. ET, Monday through Friday. More information is available at www.pella.com under \"Recall Notice,\" or at www.PellaHingeRecall.expertinquiry.com to check if their window's serial number is affected.",
+          "metaDescription": "Pella recalls Architect Series casement windows due to injury risks. Check if your window is affected and learn how to get a free repair.",
+          "Products": [
+            {
+              "Name": "Pella Architect Series Venting Casement Windows",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 12,000 (In addition, about 305 were sold in Canada and about 10 were sold in Mexico)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled Pella Casement Window – exterior view"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "The firm has received one report of a window sash detaching from the frame and falling. No injuries have been reported."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Available through authorized distributors nationwide, including Pella Window and Door stores, Lowe's, ABC Supply, Allied Building Products, Builders First Source, Builders Supply Co, Inc., Hammond Lumber Company, McCoy's Building Supply, National Lumber, and The Carter Companies from January 2021 to July 2023, priced between $700 and $10,000 per window."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Pella Corporation, of Pella, Iowa"
+            }
+          ],
+          "SoldAtLabel": "Sold At",
+          "ManufacturerCountries": [
+            {
+              "Country": "United States"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risk of window sash detachment leading to potential injuries."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Keep the recalled windows closed and locked, and contact Pella for a complimentary repair by an authorized service technician."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Repair"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "ペラ、怪我のリスクによりアーキテクトシリーズの開口窓をリコール",
+          "Description": "ペラは、潜在的な怪我のリスクにより、アーキテクトシリーズの通気性木製およびアルミニウム製の開口窓をリコールしました。このリコールは、側面ピボットハードウェアを備えたすべての通気性ハリケーン衝撃製品、フレームの高さが96インチを超える開口窓、フレームの幅が35インチを超えるもの、幅が29インチを超え、通気高さが47インチを超え、側面ピボットハードウェアを備えた開口窓に影響します。消費者は、窓のガラスの下隅に刻まれたシリアル番号をwww.PellaHingeRecall.expertinquiry.comで確認できます。",
+          "ConsumerContact": "サポートが必要な場合、消費者は月曜日から金曜日の午前8時から午後5時（ET）まで、888-276-7624でペラに連絡できます。詳細情報は、www.pella.comの「リコール通知」またはwww.PellaHingeRecall.expertinquiry.comで、窓のシリアル番号が影響を受けているかどうかを確認できます。",
+          "metaDescription": "ペラは怪我のリスクによりアーキテクトシリーズの開口窓をリコールします。あなたの窓が影響を受けているか確認し、無料修理の方法を学びましょう。",
+          "Products": [
+            {
+              "Name": "ペラ アーキテクトシリーズ 通気性開口窓",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約12,000台（さらに、カナダで約305台、メキシコで約10台が販売されました）"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコールされたペラの開口窓 - 外観"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "同社は、窓のサッシュがフレームから外れて落下するという報告を1件受けています。怪我の報告はありません。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "2021年1月から2023年7月まで、ペラの窓およびドアストア、ローズ、ABCサプライ、アライドビルディングプロダクツ、ビルダーズファーストソース、ビルダーズサプライ社、ハモンドランバー社、マッコイの建材供給、ナショナルランバー、カーター社を含む全国の認定ディストリビューターを通じて販売され、価格は1窓あたり700ドルから10,000ドルの範囲です。"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "アイオワ州ペラのペラコーポレーション"
+            }
+          ],
+          "SoldAtLabel": "販売場所",
+          "ManufacturerCountries": [
+            {
+              "Country": "アメリカ合衆国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "窓のサッシュが外れるリスクがあり、潜在的な怪我につながる可能性があります。"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "リコールされた窓を閉じて施錠し、認定サービス技術者による無料修理のためにペラに連絡してください。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "修理"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "Pella Recalls Architect Series Janelas de Batente Devido ao Risco de Lesões",
+          "Description": "A Pella emitiu um recall para suas janelas de batente da série Architect, feitas de madeira e revestidas de alumínio, devido a um potencial risco de lesões. Este recall afeta vários tipos de janelas feitas sob medida, incluindo todos os produtos de impacto de furacão com hardware de pivô lateral, janelas de batente com altura de moldura superior a 96 polegadas, aquelas com largura de moldura maior que 35 polegadas e janelas de batente com largura superior a 29 polegadas e altura de ventilação superior a 47 polegadas que também apresentam hardware de pivô lateral. Os consumidores podem verificar os números de série gravados no canto inferior do vidro da janela em www.PellaHingeRecall.expertinquiry.com.",
+          "ConsumerContact": "Para assistência, os consumidores podem entrar em contato com a Pella pelo telefone 888-276-7624, das 8h às 17h ET, de segunda a sexta-feira. Mais informações estão disponíveis em www.pella.com na seção \"Aviso de Recall\" ou em www.PellaHingeRecall.expertinquiry.com para verificar se o número de série da sua janela está afetado.",
+          "metaDescription": "A Pella faz recall das janelas de batente da série Architect devido a riscos de lesões. Verifique se sua janela está afetada e saiba como obter um reparo gratuito.",
+          "Products": [
+            {
+              "Name": "Janelas de Batente Ventiladas da Série Architect da Pella",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 12.000 (Além disso, cerca de 305 foram vendidas no Canadá e cerca de 10 foram vendidas no México)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Janela de Batente Pella Recall – vista exterior"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "A empresa recebeu um relato de uma folha de janela se desprendendo da moldura e caindo. Nenhuma lesão foi relatada."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponível através de distribuidores autorizados em todo o país, incluindo lojas Pella Window and Door, Lowe's, ABC Supply, Allied Building Products, Builders First Source, Builders Supply Co, Inc., Hammond Lumber Company, McCoy's Building Supply, National Lumber e The Carter Companies de janeiro de 2021 a julho de 2023, com preços entre $700 e $10.000 por janela."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Pella Corporation, de Pella, Iowa"
+            }
+          ],
+          "SoldAtLabel": "Vendidos Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "Estados Unidos"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risco de desprendimento da folha da janela levando a potenciais lesões."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Mantenha as janelas recall fechadas e trancadas, e entre em contato com a Pella para um reparo gratuito por um técnico de serviço autorizado."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparo"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "पेला ने आर्किटेक्ट सीरीज़ के खिड़की के पत्तों को चोट के जोखिम के कारण वापस बुलाया",
+          "Description": "पेला ने अपने आर्किटेक्ट सीरीज़ के वेंटिंग लकड़ी और एल्यूमीनियम-क्लैड खिड़की के पत्तों को संभावित चोट के जोखिम के कारण वापस बुलाने की घोषणा की है। यह वापस बुलाना कई कस्टम-निर्मित खिड़की के प्रकारों को प्रभावित करता है, जिसमें सभी वेंटिंग तूफान प्रभाव उत्पाद शामिल हैं जिनमें साइड पिवट हार्डवेयर है, 96 इंच से अधिक ऊंचाई वाले फ्रेम के साथ खिड़की के पत्ते, 35 इंच से अधिक चौड़ाई वाले फ्रेम के साथ खिड़की के पत्ते, और 29 इंच से अधिक चौड़ाई और 47 इंच से अधिक वेंट ऊंचाई वाले खिड़की के पत्ते जो साइड पिवट हार्डवेयर भी रखते हैं। उपभोक्ता www.PellaHingeRecall.expertinquiry.com पर खिड़की के कांच के निचले कोने में खुदी हुई सीरियल नंबर की पुष्टि कर सकते हैं।",
+          "ConsumerContact": "सहायता के लिए, उपभोक्ता पेला से 888-276-7624 पर सुबह 8 बजे से शाम 5 बजे ईटी, सोमवार से शुक्रवार तक संपर्क कर सकते हैं। अधिक जानकारी www.pella.com पर \"रिकॉल नोटिस\" के तहत उपलब्ध है, या www.PellaHingeRecall.expertinquiry.com पर जाकर यह जांच सकते हैं कि उनकी खिड़की का सीरियल नंबर प्रभावित है या नहीं।",
+          "metaDescription": "पेला ने चोट के जोखिम के कारण आर्किटेक्ट सीरीज़ के खिड़की के पत्तों को वापस बुलाया। जांचें कि आपकी खिड़की प्रभावित है या नहीं और मुफ्त मरम्मत कैसे प्राप्त करें।",
+          "Products": [
+            {
+              "Name": "पेला आर्किटेक्ट सीरीज़ वेंटिंग खिड़की के पत्ते",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 12,000 (इसके अलावा, लगभग 305 कनाडा में और लगभग 10 मेक्सिको में बेचे गए)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "वापस बुलाया गया पेला खिड़की का पत्ता - बाहरी दृश्य"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "कंपनी को एक रिपोर्ट मिली है जिसमें खिड़की का साश फ्रेम से अलग होकर गिर गया। कोई चोट की रिपोर्ट नहीं मिली है।"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "अधिकृत वितरकों के माध्यम से उपलब्ध, जिसमें पेला खिड़की और दरवाजे की दुकानें, लोव्स, एबीसी सप्लाई, एलाइड बिल्डिंग प्रोडक्ट्स, बिल्डर्स फर्स्ट सोर्स, बिल्डर्स सप्लाई कंपनी, इंक., हैमंड लंबर कंपनी, मैककॉय के बिल्डिंग सप्लाई, नेशनल लंबर, और द कार्टर कंपनियां शामिल हैं, जनवरी 2021 से जुलाई 2023 तक, प्रति खिड़की $700 से $10,000 के बीच की कीमत पर।"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "पेला कॉर्पोरेशन, पेला, आयोवा"
+            }
+          ],
+          "SoldAtLabel": "बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "संयुक्त राज्य अमेरिका"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "खिड़की के साश के अलग होने का जोखिम जिससे संभावित चोटें हो सकती हैं।"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "वापस बुलाए गए खिड़कियों को बंद और लॉक रखें, और अधिकृत सेवा तकनीशियन द्वारा मुफ्त मरम्मत के लिए पेला से संपर्क करें।"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "मरम्मत"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "Pella отзывает окна серии Architect из-за риска травм",
+          "Description": "Pella объявила об отзыве своих окон с откидной рамой из древесины и алюминия серии Architect из-за потенциального риска травм. Этот отзыв затрагивает несколько типов окон на заказ, включая все продукты с откидной рамой, устойчивые к ураганам, с боковым поворотным механизмом, окна с высотой рамы более 96 дюймов, те, у которых ширина рамы превышает 35 дюймов, и окна с шириной более 29 дюймов и высотой откидной рамы более 47 дюймов, которые также имеют боковой поворотный механизм. Потребители могут проверить серийные номера, выгравированные в нижнем углу стекла окна, на сайте www.PellaHingeRecall.expertinquiry.com.",
+          "ConsumerContact": "Для получения помощи потребители могут обратиться в Pella по телефону 888-276-7624 с 8:00 до 17:00 по восточному времени с понедельника по пятницу. Дополнительная информация доступна на сайте www.pella.com в разделе \"Уведомление об отзыве\" или на сайте www.PellaHingeRecall.expertinquiry.com, чтобы проверить, затрагивает ли серийный номер их окна.",
+          "metaDescription": "Pella отзывает окна серии Architect из-за рисков травм. Проверьте, затрагивает ли ваше окно отзыв, и узнайте, как получить бесплатный ремонт.",
+          "Products": [
+            {
+              "Name": "Окна с откидной рамой Pella серии Architect",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 12,000 (Кроме того, около 305 были проданы в Канаде и около 10 были проданы в Мексике)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванное окно Pella с откидной рамой – вид снаружи"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Компания получила один отчет о том, что рама окна отсоединилась от каркаса и упала. Травмы не были зафиксированы."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Доступно через авторизованных дистрибьюторов по всей стране, включая магазины Pella Window and Door, Lowe's, ABC Supply, Allied Building Products, Builders First Source, Builders Supply Co, Inc., Hammond Lumber Company, McCoy's Building Supply, National Lumber и The Carter Companies с января 2021 года по июль 2023 года, по цене от 700 до 10,000 долларов за окно."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Корпорация Pella, Пелла, штат Айова"
+            }
+          ],
+          "SoldAtLabel": "Продавалось в",
+          "ManufacturerCountries": [
+            {
+              "Country": "Соединенные Штаты"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Риск отсоединения рамы окна, что может привести к потенциальным травмам."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Держите отозванные окна закрытыми и запертыми, и свяжитесь с Pella для бесплатного ремонта у авторизованного сервисного техника."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Ремонт"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "Pella thu hồi cửa sổ mở kiểu Architect Series do nguy cơ chấn thương",
+          "Description": "Pella đã phát động một đợt thu hồi cho các cửa sổ mở kiểu Architect Series bằng gỗ và nhôm do nguy cơ chấn thương tiềm ẩn. Đợt thu hồi này ảnh hưởng đến một số loại cửa sổ được làm theo yêu cầu, bao gồm tất cả các sản phẩm cửa sổ mở có khả năng chịu tác động của bão với phần cứng xoay bên, các cửa sổ mở có chiều cao khung vượt quá 96 inch, các cửa sổ có chiều rộng khung lớn hơn 35 inch, và các cửa sổ mở có chiều rộng trên 29 inch và chiều cao thông gió trên 47 inch cũng có phần cứng xoay bên. Người tiêu dùng có thể xác minh số sê-ri được khắc ở góc dưới của kính cửa sổ tại www.PellaHingeRecall.expertinquiry.com.",
+          "ConsumerContact": "Để được hỗ trợ, người tiêu dùng có thể liên hệ với Pella theo số 888-276-7624 từ 8 giờ sáng đến 5 giờ chiều ET, từ thứ Hai đến thứ Sáu. Thông tin thêm có sẵn tại www.pella.com dưới mục \"Thông báo thu hồi,\" hoặc tại www.PellaHingeRecall.expertinquiry.com để kiểm tra xem số sê-ri của cửa sổ của họ có bị ảnh hưởng hay không.",
+          "metaDescription": "Pella thu hồi cửa sổ mở kiểu Architect Series do nguy cơ chấn thương. Kiểm tra xem cửa sổ của bạn có bị ảnh hưởng và tìm hiểu cách nhận sửa chữa miễn phí.",
+          "Products": [
+            {
+              "Name": "Cửa sổ mở kiểu Pella Architect Series",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 12.000 (Ngoài ra, khoảng 305 cái đã được bán ở Canada và khoảng 10 cái đã được bán ở Mexico)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Cửa sổ mở Pella bị thu hồi – hình ảnh bên ngoài"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Công ty đã nhận được một báo cáo về việc khung cửa sổ bị tách ra khỏi khung và rơi xuống. Không có chấn thương nào được báo cáo."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Có sẵn thông qua các nhà phân phối được ủy quyền trên toàn quốc, bao gồm các cửa hàng Pella Window and Door, Lowe's, ABC Supply, Allied Building Products, Builders First Source, Builders Supply Co, Inc., Hammond Lumber Company, McCoy's Building Supply, National Lumber, và The Carter Companies từ tháng 1 năm 2021 đến tháng 7 năm 2023, với giá từ 700 đến 10.000 đô la mỗi cửa sổ."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Công ty Pella, có trụ sở tại Pella, Iowa"
+            }
+          ],
+          "SoldAtLabel": "Bán Tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Hoa Kỳ"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Nguy cơ khung cửa sổ bị tách ra dẫn đến khả năng gây chấn thương."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Giữ cho các cửa sổ bị thu hồi đóng và khóa, và liên hệ với Pella để được sửa chữa miễn phí bởi một kỹ thuật viên dịch vụ được ủy quyền."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Sửa chữa"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    }
+  ]
+}

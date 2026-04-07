@@ -1,0 +1,1510 @@
+{
+  "meta": {
+    "slug": "candle-holders",
+    "sourceCsvFile": "candle-holders_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:36.861Z",
+    "recallCount": 2,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "candle-holders.json",
+    "seoTranslatedAt": "2026-04-03T22:27:10.283Z",
+    "resumePartial": false,
+    "i18nSource": "generalRecallsTranslated",
+    "i18nSourceFile": "candle-holders.json",
+    "i18nUiLangs": [
+      "en",
+      "es",
+      "ar",
+      "zh",
+      "fr",
+      "de",
+      "ja",
+      "pt",
+      "hi",
+      "ru",
+      "vi"
+    ],
+    "i18nProgressByLang": {
+      "es": 2,
+      "ar": 2,
+      "zh": 2,
+      "fr": 2,
+      "de": 2,
+      "ja": 2,
+      "pt": 2,
+      "hi": 2,
+      "ru": 2,
+      "vi": 2
+    },
+    "i18nInProgress": false,
+    "i18nTranslatedAt": "2026-04-06T23:57:39.268Z",
+    "i18nOpenaiModel": "gpt-4o-mini"
+  },
+  "recalls": [
+    {
+      "RecallID": 10256,
+      "RecallNumber": "25246",
+      "RecallDate": "2025-05-01T00:00:00",
+      "Description": "Kohl's has issued a recall for the St. Nicholas Square Christmas Tea Light Candle Holders due to a significant fire hazard. These candle holders are designed in the shape of a Christmas tree, crafted from plastic horseshoes, and can hold up to six tea light candles. They feature a gold star on top and are decorated with green plastic garland and red plastic berries at the base.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/Kohls-Recalls-Tea-Light-Candle-Holders-Due-to-Fire-Hazard",
+      "Title": "Kohl's Recalls St. Nicholas Square Christmas Tea Light Candle Holders Due to Fire Risk",
+      "ConsumerContact": "For assistance, consumers can reach Kohl's toll-free at 855-564-5705 from 7 a.m. to 6 p.m. CT, Monday through Saturday. Additional information is available online at www.kohls.com/faq/article/1013?icid=ft-customer-recalls or by visiting www.kohls.com and clicking on the 'Recalls' section at the bottom of the page.",
+      "LastPublishDate": "2025-05-01T00:00:00",
+      "Products": [
+        {
+          "Name": "St. Nicholas Square Christmas Tea Light Candle Holders",
+          "NumberOfUnits": "About 1,960"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/candle-holders/1-St-Nicholas-Square-Christmas-Tea-Light-Candle-Holders/b54b4fe4b0049c9765180a47c8792ad7.webp",
+          "Caption": "Recalled St. Nicholas Square Christmas Tea Light Candle Holders",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/tealight-1.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received two reports of tea light candle holders catching on fire. No injuries have been reported."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available at Kohl's stores nationwide and online at www.kohls.com from September 2024 through April 2025 for approximately $25."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Kohl's Inc., of Menomonee Falls, Wisconsin"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Fire and burn hazard due to potential for candle holder to catch fire."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers are advised to stop using the recalled candle holders immediately and return them to any Kohl's store for a full refund, either as a Kohl's gift card or in the original payment method. For those who purchased online, Kohl's will provide a pre-paid shipping label. The company is also reaching out to all known purchasers directly."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "slug": "kohl-s-recalls-st-nicholas-square-christmas-tea-light-candle-holders-due-to-fire-risk-recall",
+      "metaDescription": "Kohl's recalls St. Nicholas Square Christmas Tea Light Candle Holders due to fire hazards. Learn how to get a refund.",
+      "languages": {
+        "en": {
+          "Title": "Kohl's Recalls St. Nicholas Square Christmas Tea Light Candle Holders Due to Fire Risk",
+          "Description": "Kohl's has issued a recall for the St. Nicholas Square Christmas Tea Light Candle Holders due to a significant fire hazard. These candle holders are designed in the shape of a Christmas tree, crafted from plastic horseshoes, and can hold up to six tea light candles. They feature a gold star on top and are decorated with green plastic garland and red plastic berries at the base.",
+          "ConsumerContact": "For assistance, consumers can reach Kohl's toll-free at 855-564-5705 from 7 a.m. to 6 p.m. CT, Monday through Saturday. Additional information is available online at www.kohls.com/faq/article/1013?icid=ft-customer-recalls or by visiting www.kohls.com and clicking on the 'Recalls' section at the bottom of the page.",
+          "metaDescription": "Kohl's recalls St. Nicholas Square Christmas Tea Light Candle Holders due to fire hazards. Learn how to get a refund.",
+          "Products": [
+            {
+              "Name": "St. Nicholas Square Christmas Tea Light Candle Holders",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 1,960"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled St. Nicholas Square Christmas Tea Light Candle Holders"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "The firm has received two reports of tea light candle holders catching on fire. No injuries have been reported."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Available at Kohl's stores nationwide and online at www.kohls.com from September 2024 through April 2025 for approximately $25."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Kohl's Inc., of Menomonee Falls, Wisconsin"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Sold At",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Fire and burn hazard due to potential for candle holder to catch fire."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Consumers are advised to stop using the recalled candle holders immediately and return them to any Kohl's store for a full refund, either as a Kohl's gift card or in the original payment method. For those who purchased online, Kohl's will provide a pre-paid shipping label. The company is also reaching out to all known purchasers directly."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Refund"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "Kohl's Retira los Soportes de Velas de Té de Navidad St. Nicholas Square Debido al Riesgo de Incendio",
+          "Description": "Kohl's ha emitido un retiro para los Soportes de Velas de Té de Navidad St. Nicholas Square debido a un riesgo significativo de incendio. Estos soportes de velas están diseñados en forma de un árbol de Navidad, fabricados con herraduras de plástico, y pueden sostener hasta seis velas de té. Tienen una estrella dorada en la parte superior y están decorados con guirnalda de plástico verde y bayas de plástico rojas en la base.",
+          "ConsumerContact": "Para asistencia, los consumidores pueden comunicarse con Kohl's sin cargo al 855-564-5705 de 7 a.m. a 6 p.m. CT, de lunes a sábado. Información adicional está disponible en línea en www.kohls.com/faq/article/1013?icid=ft-customer-recalls o visitando www.kohls.com y haciendo clic en la sección 'Recalls' en la parte inferior de la página.",
+          "metaDescription": "Kohl's retira los Soportes de Velas de Té de Navidad St. Nicholas Square debido a riesgos de incendio. Aprenda cómo obtener un reembolso.",
+          "Products": [
+            {
+              "Name": "Soportes de Velas de Té de Navidad St. Nicholas Square",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 1,960"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Soportes de Velas de Té de Navidad St. Nicholas Square retirados"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "La empresa ha recibido dos informes de soportes de velas de té que se incendiaron. No se han reportado lesiones."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponibles en las tiendas Kohl's en todo el país y en línea en www.kohls.com desde septiembre de 2024 hasta abril de 2025 por aproximadamente $25."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Kohl's Inc., de Menomonee Falls, Wisconsin"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendidos En",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Riesgo de incendio y quemaduras debido al potencial de que el soporte de vela se incendie."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Se aconseja a los consumidores que dejen de usar los soportes de velas retirados de inmediato y los devuelvan a cualquier tienda Kohl's para un reembolso completo, ya sea como una tarjeta de regalo de Kohl's o en el método de pago original. Para aquellos que compraron en línea, Kohl's proporcionará una etiqueta de envío prepagada. La empresa también se está comunicando directamente con todos los compradores conocidos."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reembolso"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "كوهل يستدعي حوامل الشموع الضوئية لعيد الميلاد من ساحة سانت نيكولاس بسبب خطر الحريق",
+          "Description": "أصدرت كوهل استدعاء لحوامل الشموع الضوئية لعيد الميلاد من ساحة سانت نيكولاس بسبب خطر حريق كبير. تم تصميم هذه الحوامل على شكل شجرة عيد الميلاد، مصنوعة من أحذية بلاستيكية، ويمكن أن تحمل حتى ستة شموع ضوئية. تحتوي على نجمة ذهبية في الأعلى ومزينة بسلسلة بلاستيكية خضراء وتوت بلاستيكي أحمر في القاعدة.",
+          "ConsumerContact": "للمساعدة، يمكن للمستهلكين الاتصال بكوهل على الرقم المجاني 855-564-5705 من الساعة 7 صباحًا حتى 6 مساءً بتوقيت وسط أمريكا، من الاثنين إلى السبت. تتوفر معلومات إضافية على الإنترنت على www.kohls.com/faq/article/1013?icid=ft-customer-recalls أو من خلال زيارة www.kohls.com والنقر على قسم 'الاستدعاءات' في أسفل الصفحة.",
+          "metaDescription": "كوهل يستدعي حوامل الشموع الضوئية لعيد الميلاد من ساحة سانت نيكولاس بسبب مخاطر الحريق. تعرف على كيفية استرداد المبلغ.",
+          "Products": [
+            {
+              "Name": "حوامل الشموع الضوئية لعيد الميلاد من ساحة سانت نيكولاس",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 1,960"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "حوامل الشموع الضوئية لعيد الميلاد من ساحة سانت نيكولاس المستدعاة"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "تلقت الشركة تقارير عن احتراق حوامل الشموع الضوئية. لم يتم الإبلاغ عن أي إصابات."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "متاحة في متاجر كوهل في جميع أنحاء البلاد وعبر الإنترنت على www.kohls.com من سبتمبر 2024 حتى أبريل 2025 بسعر تقريبي يبلغ 25 دولارًا."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "شركة كوهل، من مينوموني فولز، ويسكونسن"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "تباع في",
+          "ManufacturerCountries": [
+            {
+              "Country": "الصين"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "خطر الحريق والحروق بسبب احتمال احتراق حامل الشموع."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "يُنصح المستهلكون بوقف استخدام حوامل الشموع المستدعاة على الفور وإعادتها إلى أي متجر كوهل لاسترداد كامل المبلغ، إما كبطاقة هدايا من كوهل أو بالطريقة الأصلية للدفع. بالنسبة لأولئك الذين اشتروا عبر الإنترنت، ستوفر كوهل ملصق شحن مدفوع مسبقًا. كما تتواصل الشركة مع جميع المشترين المعروفين مباشرة."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "استرداد"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "科尔士召回圣尼古拉斯广场圣诞茶蜡烛台因火灾风险",
+          "Description": "科尔士因存在重大火灾危险，已召回圣尼古拉斯广场圣诞茶蜡烛台。这些烛台设计成圣诞树的形状，由塑料马蹄铁制成，最多可容纳六个茶蜡烛。它们顶部有一个金色星星，底部装饰有绿色塑料花环和红色塑料浆果。\n",
+          "ConsumerContact": "如需帮助，消费者可以在周一至周六的中部时间早上7点至下午6点拨打科尔士的免费电话855-564-5705。更多信息可在线访问www.kohls.com/faq/article/1013?icid=ft-customer-recalls或访问www.kohls.com并点击页面底部的“召回”部分。",
+          "metaDescription": "科尔士因火灾危险召回圣尼古拉斯广场圣诞茶蜡烛台。了解如何申请退款。",
+          "Products": [
+            {
+              "Name": "圣尼古拉斯广场圣诞茶蜡烛台",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约1960个"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "召回的圣尼古拉斯广场圣诞茶蜡烛台"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "该公司已收到两起茶蜡烛台着火的报告。未报告任何受伤情况。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "在全国各地的科尔士商店和www.kohls.com在线销售，时间为2024年9月至2025年4月，价格约为25美元。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "科尔士公司，位于威斯康星州梅诺莫尼瀑布"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "销售地点",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "因烛台可能着火而导致的火灾和烧伤危险。"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "建议消费者立即停止使用召回的烛台，并将其退回任何科尔士商店以获得全额退款，可以选择科尔士礼品卡或原支付方式退款。对于在线购买的消费者，科尔士将提供预付运费的邮寄标签。该公司还将直接联系所有已知的购买者。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "退款"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "Kohl's rappelle les porte-bougies de Noël St. Nicholas Square en raison d'un risque d'incendie",
+          "Description": "Kohl's a émis un rappel pour les porte-bougies de Noël St. Nicholas Square en raison d'un risque d'incendie significatif. Ces porte-bougies sont conçus en forme de sapin de Noël, fabriqués à partir de fers à cheval en plastique, et peuvent contenir jusqu'à six bougies chauffe-plat. Ils présentent une étoile dorée sur le dessus et sont décorés avec des guirlandes en plastique vert et des baies en plastique rouge à la base.",
+          "ConsumerContact": "Pour assistance, les consommateurs peuvent contacter Kohl's sans frais au 855-564-5705 de 7 h à 18 h CT, du lundi au samedi. Des informations supplémentaires sont disponibles en ligne sur www.kohls.com/faq/article/1013?icid=ft-customer-recalls ou en visitant www.kohls.com et en cliquant sur la section 'Rappels' en bas de la page.",
+          "metaDescription": "Kohl's rappelle les porte-bougies de Noël St. Nicholas Square en raison de risques d'incendie. Apprenez comment obtenir un remboursement.",
+          "Products": [
+            {
+              "Name": "Porte-bougies de Noël St. Nicholas Square",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 1 960"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Porte-bougies de Noël St. Nicholas Square rappelés"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "L'entreprise a reçu deux rapports de porte-bougies chauffe-plat prenant feu. Aucune blessure n'a été signalée."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible dans les magasins Kohl's à travers le pays et en ligne sur www.kohls.com de septembre 2024 à avril 2025 pour environ 25 $."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Kohl's Inc., de Menomonee Falls, Wisconsin"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendu À",
+          "ManufacturerCountries": [
+            {
+              "Country": "Chine"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risque d'incendie et de brûlure en raison du potentiel de prise de feu du porte-bougie."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Les consommateurs sont invités à cesser immédiatement d'utiliser les porte-bougies rappelés et à les retourner dans n'importe quel magasin Kohl's pour un remboursement complet, soit sous forme de carte-cadeau Kohl's, soit par le moyen de paiement original. Pour ceux qui ont acheté en ligne, Kohl's fournira une étiquette d'expédition prépayée. L'entreprise contacte également tous les acheteurs connus directement."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Remboursement"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "Kohl's ruft St. Nicholas Square Weihnachts-Teelichthalter wegen Brandgefahr zurück",
+          "Description": "Kohl's hat einen Rückruf für die St. Nicholas Square Weihnachts-Teelichthalter aufgrund einer erheblichen Brandgefahr herausgegeben. Diese Teelichthalter sind in Form eines Weihnachtsbaums gestaltet, aus Kunststoff-Hufeisen gefertigt und können bis zu sechs Teelichter halten. Sie verfügen über einen goldenen Stern an der Spitze und sind mit grünem Kunststoffgirlanden und roten Kunststoffbeeren an der Basis dekoriert.",
+          "ConsumerContact": "Für Unterstützung können Verbraucher Kohl's gebührenfrei unter 855-564-5705 von 7 bis 18 Uhr CT, Montag bis Samstag, erreichen. Weitere Informationen sind online verfügbar unter www.kohls.com/faq/article/1013?icid=ft-customer-recalls oder durch den Besuch von www.kohls.com und das Klicken auf den Abschnitt 'Rückrufe' am Ende der Seite.",
+          "metaDescription": "Kohl's ruft St. Nicholas Square Weihnachts-Teelichthalter wegen Brandgefahren zurück. Erfahren Sie, wie Sie eine Rückerstattung erhalten.",
+          "Products": [
+            {
+              "Name": "St. Nicholas Square Weihnachts-Teelichthalter",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 1.960"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Zurückgerufene St. Nicholas Square Weihnachts-Teelichthalter"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Das Unternehmen hat zwei Berichte über Teelichthalter erhalten, die Feuer gefangen haben. Es wurden keine Verletzungen gemeldet."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Erhältlich in Kohl's-Filialen landesweit und online unter www.kohls.com von September 2024 bis April 2025 für etwa 25 $."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Kohl's Inc., Menomonee Falls, Wisconsin"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Verkauft bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Brand- und Verbrennungsgefahr aufgrund der Möglichkeit, dass der Teelichthalter Feuer fängt."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Verbraucher werden geraten, die zurückgerufenen Teelichthalter sofort nicht mehr zu verwenden und sie in jede Kohl's-Filiale für eine vollständige Rückerstattung zurückzugeben, entweder als Kohl's-Geschenkkarte oder in der ursprünglichen Zahlungsmethode. Für diejenigen, die online gekauft haben, wird Kohl's ein vorfrankiertes Versandetikett zur Verfügung stellen. Das Unternehmen kontaktiert auch alle bekannten Käufer direkt."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Rückerstattung"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "コールズが火災リスクのためセントニコラススクエアクリスマスティーライトキャンドルホルダーをリコール",
+          "Description": "コールズは、重大な火災危険のためセントニコラススクエアクリスマスティーライトキャンドルホルダーをリコールしました。これらのキャンドルホルダーはクリスマスツリーの形をしており、プラスチック製の馬蹄から作られており、最大6つのティーライトキャンドルを保持できます。上部には金色の星があり、基部には緑のプラスチックガーランドと赤のプラスチックベリーで飾られています。",
+          "ConsumerContact": "サポートが必要な場合、消費者は月曜日から土曜日の午前7時から午後6時（中央標準時）まで、コールズのフリーダイヤル855-564-5705に連絡できます。追加情報は、www.kohls.com/faq/article/1013?icid=ft-customer-recallsでオンラインで入手するか、www.kohls.comを訪れてページの下部にある「リコール」セクションをクリックしてください。",
+          "metaDescription": "コールズが火災危険のためセントニコラススクエアクリスマスティーライトキャンドルホルダーをリコール。返金を受ける方法を学びましょう。",
+          "Products": [
+            {
+              "Name": "セントニコラススクエアクリスマスティーライトキャンドルホルダー",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約1,960"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコールされたセントニコラススクエアクリスマスティーライトキャンドルホルダー"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "同社はティーライトキャンドルホルダーが火災を起こしたという2件の報告を受けています。負傷者は報告されていません。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "全国のコールズ店舗およびwww.kohls.comで2024年9月から2025年4月まで約25ドルで販売されています。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "ウィスコンシン州メノモニー・フォールズのコールズ社"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "販売場所",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "キャンドルホルダーが火災を起こす可能性があるため、火災および火傷の危険。"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "消費者はリコールされたキャンドルホルダーの使用を直ちに中止し、全額返金のために任意のコールズ店舗に返却することをお勧めします。返金はコールズのギフトカードまたは元の支払い方法で行われます。オンラインで購入した方には、コールズが事前に支払われた配送ラベルを提供します。同社はすべての既知の購入者に直接連絡を取っています。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "返金"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "Kohl's Recalls St. Nicholas Square Christmas Tea Light Candle Holders Due to Fire Risk",
+          "Description": "A Kohl's emitiu um recall para os Suportes de Velas de Chá de Natal St. Nicholas Square devido a um risco significativo de incêndio. Esses suportes de vela são projetados na forma de uma árvore de Natal, feitos de ferraduras de plástico, e podem segurar até seis velas de chá. Eles possuem uma estrela dourada no topo e estão decorados com grinalda de plástico verde e bagas de plástico vermelho na base.",
+          "ConsumerContact": "Para assistência, os consumidores podem entrar em contato com a Kohl's gratuitamente pelo telefone 855-564-5705 das 7h às 18h CT, de segunda a sábado. Informações adicionais estão disponíveis online em www.kohls.com/faq/article/1013?icid=ft-customer-recalls ou visitando www.kohls.com e clicando na seção 'Recalls' na parte inferior da página.",
+          "metaDescription": "Kohl's recalls St. Nicholas Square Christmas Tea Light Candle Holders devido a riscos de incêndio. Aprenda como obter um reembolso.",
+          "Products": [
+            {
+              "Name": "Suportes de Velas de Chá de Natal St. Nicholas Square",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 1.960"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Suportes de Velas de Chá de Natal St. Nicholas Square recolhidos"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "A empresa recebeu dois relatos de suportes de velas de chá pegando fogo. Nenhum ferimento foi relatado."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponível nas lojas Kohl's em todo o país e online em www.kohls.com de setembro de 2024 até abril de 2025 por aproximadamente $25."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Kohl's Inc., de Menomonee Falls, Wisconsin"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendido Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risco de incêndio e queimadura devido ao potencial de o suporte de vela pegar fogo."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Os consumidores são aconselhados a parar de usar os suportes de vela recolhidos imediatamente e devolvê-los a qualquer loja Kohl's para um reembolso total, seja como um cartão-presente Kohl's ou na forma de pagamento original. Para aqueles que compraram online, a Kohl's fornecerá uma etiqueta de envio pré-paga. A empresa também está entrando em contato diretamente com todos os compradores conhecidos."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reembolso"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "कोहल का सेंट निकोलस स्क्वायर क्रिसमस टी लाइट कैंडल होल्डर्स को आग के जोखिम के कारण वापस बुलाना",
+          "Description": "कोहल ने सेंट निकोलस स्क्वायर क्रिसमस टी लाइट कैंडल होल्डर्स को महत्वपूर्ण आग के खतरे के कारण वापस बुलाने की घोषणा की है। ये कैंडल होल्डर्स क्रिसमस ट्री के आकार में डिज़ाइन किए गए हैं, प्लास्टिक के घोड़ों के नाल से बने हैं, और इनमें छह टी लाइट कैंडल तक रखे जा सकते हैं। इनके शीर्ष पर एक सुनहरा तारा है और इन्हें हरे प्लास्टिक की गारलैंड और आधार पर लाल प्लास्टिक की बेरी से सजाया गया है।",
+          "ConsumerContact": "सहायता के लिए, उपभोक्ता कोहल के टोल-फ्री नंबर 855-564-5705 पर सुबह 7 बजे से शाम 6 बजे सीटी, सोमवार से शनिवार तक संपर्क कर सकते हैं। अतिरिक्त जानकारी ऑनलाइन www.kohls.com/faq/article/1013?icid=ft-customer-recalls पर उपलब्ध है या www.kohls.com पर जाकर पृष्ठ के नीचे 'रिकॉल' अनुभाग पर क्लिक करके प्राप्त की जा सकती है।",
+          "metaDescription": "कोहल ने आग के खतरों के कारण सेंट निकोलस स्क्वायर क्रिसमस टी लाइट कैंडल होल्डर्स को वापस बुलाया। रिफंड प्राप्त करने का तरीका जानें।",
+          "Products": [
+            {
+              "Name": "सेंट निकोलस स्क्वायर क्रिसमस टी लाइट कैंडल होल्डर्स",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 1,960"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "वापस बुलाए गए सेंट निकोलस स्क्वायर क्रिसमस टी लाइट कैंडल होल्डर्स"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "कंपनी को कैंडल होल्डर्स के आग पकड़ने की दो रिपोर्ट मिली हैं। कोई चोट की सूचना नहीं मिली है।"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "कोहल के स्टोर्स में देशभर में और www.kohls.com पर सितंबर 2024 से अप्रैल 2025 तक लगभग $25 में उपलब्ध।"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "कोहल्स इंक., मेनोनोमी फॉल्स, विस्कॉन्सिन"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "चीन"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "कैंडल होल्डर के आग पकड़ने की संभावना के कारण आग और जलने का खतरा।"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "उपभोक्ताओं को सलाह दी जाती है कि वे तुरंत वापस बुलाए गए कैंडल होल्डर्स का उपयोग करना बंद कर दें और उन्हें किसी भी कोहल के स्टोर में पूर्ण रिफंड के लिए वापस करें, चाहे वह कोहल का गिफ्ट कार्ड हो या मूल भुगतान विधि में। जो लोग ऑनलाइन खरीदे हैं, उनके लिए कोहल एक प्री-पेड शिपिंग लेबल प्रदान करेगा। कंपनी सभी ज्ञात खरीदारों से सीधे संपर्क भी कर रही है।"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "रिफंड"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "Kohl's отзывает подсвечники для чайных свечей St. Nicholas Square из-за риска возгорания",
+          "Description": "Kohl's объявила об отзыве подсвечников для чайных свечей St. Nicholas Square из-за значительного риска возгорания. Эти подсвечники выполнены в форме рождественской елки, изготовлены из пластиковых подков и могут удерживать до шести чайных свечей. Они имеют золотую звезду на вершине и украшены зеленой пластиковой гирляндой и красными пластиковыми ягодами у основания.",
+          "ConsumerContact": "Для получения помощи потребители могут обратиться в Kohl's по бесплатному номеру 855-564-5705 с 7:00 до 18:00 по центральному времени, с понедельника по субботу. Дополнительную информацию можно найти онлайн на сайте www.kohls.com/faq/article/1013?icid=ft-customer-recalls или посетив www.kohls.com и кликнув на раздел 'Recalls' внизу страницы.",
+          "metaDescription": "Kohl's отзывает подсвечники для чайных свечей St. Nicholas Square из-за рисков возгорания. Узнайте, как получить возврат.",
+          "Products": [
+            {
+              "Name": "Подсвечники для чайных свечей St. Nicholas Square",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 1,960"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванные подсвечники для чайных свечей St. Nicholas Square"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Компания получила два сообщения о том, что подсвечники для чайных свечей загорелись. О травмах не сообщалось."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Доступно в магазинах Kohl's по всей стране и онлайн на www.kohls.com с сентября 2024 года по апрель 2025 года по цене примерно 25 долларов."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Kohl's Inc., Меномони Фолс, Висконсин"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Продается в",
+          "ManufacturerCountries": [
+            {
+              "Country": "Китай"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Риск возгорания и ожогов из-за потенциального возгорания подсвечника."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Потребителям рекомендуется немедленно прекратить использование отозванных подсвечников и вернуть их в любой магазин Kohl's для полного возврата, либо в виде подарочной карты Kohl's, либо в оригинальном способе оплаты. Для тех, кто покупал онлайн, Kohl's предоставит предоплаченную транспортную этикетку. Компания также связывается со всеми известными покупателями напрямую."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Возврат"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "Kohl's thu hồi đèn cầy Giáng Sinh St. Nicholas Square do nguy cơ cháy",
+          "Description": "Kohl's đã phát động một đợt thu hồi đối với đèn cầy Giáng Sinh St. Nicholas Square do nguy cơ cháy nghiêm trọng. Những đèn cầy này được thiết kế hình cây thông Giáng Sinh, làm từ nhựa hình móng ngựa, và có thể chứa tối đa sáu đèn cầy. Chúng có một ngôi sao vàng ở trên cùng và được trang trí bằng dây nhựa xanh và quả mọng nhựa đỏ ở đáy.\n",
+          "ConsumerContact": "Để được hỗ trợ, người tiêu dùng có thể liên hệ với Kohl's qua số điện thoại miễn phí 855-564-5705 từ 7 giờ sáng đến 6 giờ chiều CT, từ thứ Hai đến thứ Bảy. Thông tin bổ sung có sẵn trực tuyến tại www.kohls.com/faq/article/1013?icid=ft-customer-recalls hoặc bằng cách truy cập www.kohls.com và nhấp vào phần 'Thu hồi' ở dưới cùng của trang.",
+          "metaDescription": "Kohl's thu hồi đèn cầy Giáng Sinh St. Nicholas Square do nguy cơ cháy. Tìm hiểu cách nhận hoàn tiền.",
+          "Products": [
+            {
+              "Name": "Đèn cầy Giáng Sinh St. Nicholas Square",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 1,960"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Đèn cầy Giáng Sinh St. Nicholas Square bị thu hồi"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Công ty đã nhận được hai báo cáo về đèn cầy bị cháy. Không có thương tích nào được báo cáo."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Có sẵn tại các cửa hàng Kohl's trên toàn quốc và trực tuyến tại www.kohls.com từ tháng 9 năm 2024 đến tháng 4 năm 2025 với giá khoảng 25 đô la."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Kohl's Inc., tại Menomonee Falls, Wisconsin"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Bán Tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Trung Quốc"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Nguy cơ cháy và bỏng do khả năng đèn cầy bị cháy."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Người tiêu dùng được khuyên ngừng sử dụng ngay lập tức các đèn cầy bị thu hồi và trả lại chúng tại bất kỳ cửa hàng Kohl's nào để nhận hoàn tiền đầy đủ, dưới dạng thẻ quà tặng Kohl's hoặc theo phương thức thanh toán ban đầu. Đối với những người đã mua trực tuyến, Kohl's sẽ cung cấp một nhãn vận chuyển đã được thanh toán trước. Công ty cũng đang liên hệ trực tiếp với tất cả những người đã mua hàng."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Hoàn tiền"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    },
+    {
+      "RecallID": 10159,
+      "RecallNumber": "25133",
+      "RecallDate": "2025-02-13T00:00:00",
+      "Description": "Target is recalling the Spritz Taper Resin Hanukkah Dino Menorah, a blue menorah made from polymer resin, measuring 6 inches in height and 13 inches in length. Designed to hold up to nine tapered candles in metal cups on the back of a dinosaur, these menorahs have the model number '240-14-1380' printed on the hang tag located on the dinosaur's neck. The product poses a significant fire hazard as it can catch fire when lit candles are used.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/Target-Recalls-Spritz-Resin-Hanukkah-Dino-Menorahs-Due-to-Fire-Hazard",
+      "Title": "Target Issues Recall for Spritz™ Resin Hanukkah Dino Menorahs Due to Fire Risk",
+      "ConsumerContact": "Consumers should stop using the recalled menorahs immediately and return them to any Target store for a full refund via a Target gift card or the original payment method. For mail returns, consumers can contact Target at 800-440-0680 for in-store purchases or 800-591-3869 for online purchases, or visit https://help.target.com/help/recalls for more details.",
+      "LastPublishDate": "2025-02-13T00:00:00",
+      "Products": [
+        {
+          "Name": "Spritz Taper Resin Hanukkah Dino Menorah",
+          "NumberOfUnits": "About 4,400"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/candle-holders/2-Spritz-Taper-Resin-Hanukkah-Dino-Menorah/3b7f9763011e7079daf2e70440e44e16.webp",
+          "Caption": "Recalled Taper Resin Hanukkah Dino Menorah",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/dino-1.png"
+        },
+        {
+          "URL": "/images/generalRecalls/candle-holders/2-Spritz-Taper-Resin-Hanukkah-Dino-Menorah/da2e05fe67b408bd49fc37eaf1e6142f.webp",
+          "Caption": "Recalled Taper Resin Hanukkah Dino Menorah",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/dino-2.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "Target has received 58 reports of the menorahs scorching, charring, melting or catching on fire. No injuries have been reported."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available at Target stores nationwide and online at Target.com from October 2024 to January 2025 for approximately $15"
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Target Corporation, of Minneapolis, Minnesota"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Fire hazard due to potential for burning or catching fire with lit candles"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Full refund available through in-store return or prepaid return label for mail return"
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "240-14-1380"
+      ],
+      "slug": "target-issues-recall-for-spritz-resin-hanukkah-dino-menorahs-due-to-fire-risk-recall",
+      "metaDescription": "Target recalls Spritz Resin Hanukkah Dino Menorahs due to fire hazards. Stop using immediately and return for a full refund.",
+      "languages": {
+        "en": {
+          "Title": "Target Issues Recall for Spritz™ Resin Hanukkah Dino Menorahs Due to Fire Risk",
+          "Description": "Target is recalling the Spritz Taper Resin Hanukkah Dino Menorah, a blue menorah made from polymer resin, measuring 6 inches in height and 13 inches in length. Designed to hold up to nine tapered candles in metal cups on the back of a dinosaur, these menorahs have the model number '240-14-1380' printed on the hang tag located on the dinosaur's neck. The product poses a significant fire hazard as it can catch fire when lit candles are used.",
+          "ConsumerContact": "Consumers should stop using the recalled menorahs immediately and return them to any Target store for a full refund via a Target gift card or the original payment method. For mail returns, consumers can contact Target at 800-440-0680 for in-store purchases or 800-591-3869 for online purchases, or visit https://help.target.com/help/recalls for more details.",
+          "metaDescription": "Target recalls Spritz Resin Hanukkah Dino Menorahs due to fire hazards. Stop using immediately and return for a full refund.",
+          "Products": [
+            {
+              "Name": "Spritz Taper Resin Hanukkah Dino Menorah",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 4,400"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled Taper Resin Hanukkah Dino Menorah"
+            },
+            {
+              "Caption": "Recalled Taper Resin Hanukkah Dino Menorah"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Target has received 58 reports of the menorahs scorching, charring, melting or catching on fire. No injuries have been reported."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Available at Target stores nationwide and online at Target.com from October 2024 to January 2025 for approximately $15"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Target Corporation, of Minneapolis, Minnesota"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Sold At",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Fire hazard due to potential for burning or catching fire with lit candles"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Full refund available through in-store return or prepaid return label for mail return"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Refund"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "Target Emite un Recall para Menorahs de Dino Hanukkah de Resina Spritz™ Debido al Riesgo de Incendio",
+          "Description": "Target está retirando del mercado la Menorah de Dino Hanukkah de Resina Taper Spritz, una menorah azul hecha de resina de polímero, que mide 6 pulgadas de altura y 13 pulgadas de longitud. Diseñada para sostener hasta nueve velas taper en tazas de metal en la parte posterior de un dinosaurio, estas menorahs tienen el número de modelo '240-14-1380' impreso en la etiqueta colgante ubicada en el cuello del dinosaurio. El producto representa un riesgo significativo de incendio, ya que puede incendiarse cuando se utilizan velas encendidas.",
+          "ConsumerContact": "Los consumidores deben dejar de usar las menorahs retiradas de inmediato y devolverlas a cualquier tienda Target para obtener un reembolso completo a través de una tarjeta de regalo de Target o el método de pago original. Para devoluciones por correo, los consumidores pueden contactar a Target al 800-440-0680 para compras en tienda o 800-591-3869 para compras en línea, o visitar https://help.target.com/help/recalls para más detalles.",
+          "metaDescription": "Target retira del mercado las Menorahs de Dino Hanukkah de Resina Spritz debido a riesgos de incendio. Deje de usar inmediatamente y devuélvalas para un reembolso completo.",
+          "Products": [
+            {
+              "Name": "Menorah de Dino Hanukkah de Resina Taper Spritz",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 4,400"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Menorah de Dino Hanukkah de Resina Taper retirada"
+            },
+            {
+              "Caption": "Menorah de Dino Hanukkah de Resina Taper retirada"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Target ha recibido 58 informes de que las menorahs se están quemando, carbonizando, derritiendo o incendiándose. No se han reportado lesiones."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible en tiendas Target en todo el país y en línea en Target.com desde octubre de 2024 hasta enero de 2025 por aproximadamente $15"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Target Corporation, de Minneapolis, Minnesota"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendido En",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Riesgo de incendio debido a la posibilidad de quemarse o incendiarse con velas encendidas"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Reembolso completo disponible a través de devolución en tienda o etiqueta de devolución prepagada para devolución por correo"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reembolso"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "تستدعي تارجت شمعدانات هانوكا دينو من ريزين سبريتز™ بسبب خطر الحريق",
+          "Description": "تقوم تارجت باستدعاء شمعدان هانوكا دينو من ريزين سبريتز، وهو شمعدان أزرق مصنوع من راتنج البوليمر، يبلغ ارتفاعه 6 بوصات وطوله 13 بوصة. مصمم لحمل ما يصل إلى تسعة شموع مدببة في أكواب معدنية على ظهر الديناصور، تحمل هذه الشمعدانات رقم الطراز '240-14-1380' مطبوعًا على بطاقة التعليق الموجودة على عنق الديناصور. المنتج يشكل خطر حريق كبير لأنه يمكن أن يشتعل عند استخدام الشموع المضيئة.",
+          "ConsumerContact": "يجب على المستهلكين التوقف عن استخدام الشمعدانات المستدعاة على الفور وإعادتها إلى أي متجر تارجت لاسترداد كامل المبلغ عبر بطاقة هدايا تارجت أو طريقة الدفع الأصلية. بالنسبة للإرجاع عبر البريد، يمكن للمستهلكين الاتصال بتارجت على الرقم 800-440-0680 للمشتريات في المتجر أو 800-591-3869 للمشتريات عبر الإنترنت، أو زيارة https://help.target.com/help/recalls لمزيد من التفاصيل.",
+          "metaDescription": "تستدعي تارجت شمعدانات هانوكا دينو من ريزين سبريتز بسبب مخاطر الحريق. توقف عن الاستخدام على الفور وأعدها لاسترداد كامل المبلغ.",
+          "Products": [
+            {
+              "Name": "شمعدان هانوكا دينو من ريزين سبريتز",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 4400"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "شمعدان هانوكا دينو من ريزين المستدعى"
+            },
+            {
+              "Caption": "شمعدان هانوكا دينو من ريزين المستدعى"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "تلقت تارجت 58 تقريرًا عن احتراق أو تشويه أو ذوبان أو اشتعال الشمعدانات. لم يتم الإبلاغ عن أي إصابات."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "متوفر في متاجر تارجت في جميع أنحاء البلاد وعبر الإنترنت على Target.com من أكتوبر 2024 إلى يناير 2025 بسعر تقريبي 15 دولارًا"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "شركة تارجت، من مينيابوليس، مينيسوتا"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "تم البيع في",
+          "ManufacturerCountries": [
+            {
+              "Country": "الصين"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "خطر الحريق بسبب إمكانية الاحتراق أو الاشتعال مع الشموع المضيئة"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "استرداد كامل متاح من خلال الإرجاع في المتجر أو ملصق إرجاع مدفوع مسبقًا للإرجاع عبر البريد"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "استرداد"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "塔吉特因火灾风险召回Spritz™树脂哈努卡恐龙烛台",
+          "Description": "塔吉特正在召回Spritz树脂哈努卡恐龙烛台，这是一款由聚合物树脂制成的蓝色烛台，高6英寸，长13英寸。设计用于在恐龙背部的金属杯中放置多达九根锥形蜡烛，这些烛台的型号为'240-14-1380'，印在位于恐龙脖子上的吊牌上。该产品存在重大火灾隐患，因为在点燃蜡烛时可能会着火。\n\n消费者应立即停止使用被召回的烛台，并将其退回任何塔吉特商店，以通过塔吉特礼品卡或原支付方式获得全额退款。对于邮寄退货，消费者可以拨打800-440-0680联系塔吉特（适用于店内购买）或拨打800-591-3869（适用于在线购买），或访问https://help.target.com/help/recalls以获取更多详细信息。",
+          "ConsumerContact": "消费者应立即停止使用被召回的烛台，并将其退回任何塔吉特商店，以通过塔吉特礼品卡或原支付方式获得全额退款。对于邮寄退货，消费者可以拨打800-440-0680联系塔吉特（适用于店内购买）或拨打800-591-3869（适用于在线购买），或访问https://help.target.com/help/recalls以获取更多详细信息。",
+          "metaDescription": "塔吉特因火灾隐患召回Spritz树脂哈努卡恐龙烛台。请立即停止使用并退回以获得全额退款。",
+          "Products": [
+            {
+              "Name": "Spritz树脂哈努卡恐龙烛台",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约4400个"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "被召回的树脂哈努卡恐龙烛台"
+            },
+            {
+              "Caption": "被召回的树脂哈努卡恐龙烛台"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "塔吉特已收到58起关于烛台烧焦、炭化、融化或着火的报告。没有报告受伤情况。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "在全国塔吉特商店和Target.com网站上可购买，时间为2024年10月至2025年1月，价格约为15美元"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "塔吉特公司，位于明尼阿波利斯，明尼苏达州"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "销售地点",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "由于点燃蜡烛可能会燃烧或着火的火灾隐患"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "通过店内退货或邮寄退货的预付退货标签可获得全额退款"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "退款"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "Target rappelle les menorahs Dino Hanoukka en résine Spritz™ en raison d'un risque d'incendie",
+          "Description": "Target rappelle le menorah Dino Hanoukka en résine Spritz, un menorah bleu fabriqué en résine polymère, mesurant 15 cm de hauteur et 33 cm de longueur. Conçu pour accueillir jusqu'à neuf bougies coniques dans des coupelles en métal à l'arrière d'un dinosaure, ces menorahs portent le numéro de modèle '240-14-1380' imprimé sur l'étiquette accrochée au cou du dinosaure. Le produit présente un risque d'incendie significatif car il peut prendre feu lorsque des bougies allumées sont utilisées.\n\nLes consommateurs doivent cesser d'utiliser immédiatement les menorahs rappelés et les retourner à tout magasin Target pour un remboursement complet via une carte-cadeau Target ou le mode de paiement original. Pour les retours par courrier, les consommateurs peuvent contacter Target au 800-440-0680 pour les achats en magasin ou au 800-591-3869 pour les achats en ligne, ou visiter https://help.target.com/help/recalls pour plus de détails.",
+          "ConsumerContact": "Les consommateurs doivent cesser d'utiliser immédiatement les menorahs rappelés et les retourner à tout magasin Target pour un remboursement complet via une carte-cadeau Target ou le mode de paiement original. Pour les retours par courrier, les consommateurs peuvent contacter Target au 800-440-0680 pour les achats en magasin ou au 800-591-3869 pour les achats en ligne, ou visiter https://help.target.com/help/recalls pour plus de détails.",
+          "metaDescription": "Target rappelle les menorahs Dino Hanoukka en résine Spritz en raison de risques d'incendie. Cessez de les utiliser immédiatement et retournez-les pour un remboursement complet.",
+          "Products": [
+            {
+              "Name": "Menorah Dino Hanoukka en résine Spritz",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 4 400"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Menorah Dino Hanoukka en résine rappelé"
+            },
+            {
+              "Caption": "Menorah Dino Hanoukka en résine rappelé"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Target a reçu 58 rapports de menorahs brûlant, carbonisant, fondant ou prenant feu. Aucune blessure n'a été signalée."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible dans les magasins Target à l'échelle nationale et en ligne sur Target.com d'octobre 2024 à janvier 2025 pour environ 15 $"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Target Corporation, de Minneapolis, Minnesota"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendu À",
+          "ManufacturerCountries": [
+            {
+              "Country": "Chine"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risque d'incendie en raison du potentiel de brûlage ou de prise de feu avec des bougies allumées"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Remboursement complet disponible par retour en magasin ou étiquette de retour prépayée pour retour par courrier"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Remboursement"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "Target ruft Spritz™ Harz Hanukkah Dino Menorahs wegen Brandgefahr zurück",
+          "Description": "Target ruft die Spritz Taper Harz Hanukkah Dino Menorah zurück, eine blaue Menorah aus Polymerharz, die 6 Zoll hoch und 13 Zoll lang ist. Sie ist so gestaltet, dass sie bis zu neun tapered Kerzen in Metallbechern auf dem Rücken eines Dinosauriers halten kann. Diese Menorahs haben die Modellnummer '240-14-1380', die auf dem Hangtag am Hals des Dinosauriers aufgedruckt ist. Das Produkt stellt eine erhebliche Brandgefahr dar, da es Feuer fangen kann, wenn angezündete Kerzen verwendet werden.",
+          "ConsumerContact": "Verbraucher sollten die zurückgerufenen Menorahs sofort nicht mehr verwenden und sie in ein beliebiges Target-Geschäft für eine vollständige Rückerstattung über eine Target-Geschenkkarte oder die ursprüngliche Zahlungsmethode zurückgeben. Für Rücksendungen per Post können Verbraucher Target unter 800-440-0680 für Einkäufe im Geschäft oder 800-591-3869 für Online-Käufe kontaktieren oder die Website https://help.target.com/help/recalls besuchen, um weitere Details zu erhalten.",
+          "metaDescription": "Target ruft Spritz Harz Hanukkah Dino Menorahs wegen Brandgefahr zurück. Sofort nicht mehr verwenden und für eine vollständige Rückerstattung zurückgeben.",
+          "Products": [
+            {
+              "Name": "Spritz Taper Harz Hanukkah Dino Menorah",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 4.400"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Zurückgerufene Taper Harz Hanukkah Dino Menorah"
+            },
+            {
+              "Caption": "Zurückgerufene Taper Harz Hanukkah Dino Menorah"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Target hat 58 Berichte über die Menorahs erhalten, die versengt, verkohlt, geschmolzen oder in Brand geraten sind. Es wurden keine Verletzungen gemeldet."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Erhältlich in Target-Geschäften landesweit und online unter Target.com von Oktober 2024 bis Januar 2025 für etwa 15 $"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Target Corporation, Minneapolis, Minnesota"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Verkauft bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Brandgefahr aufgrund der Möglichkeit, mit angezündeten Kerzen zu brennen oder Feuer zu fangen"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Vollständige Rückerstattung verfügbar durch Rückgabe im Geschäft oder vorfrankiertes Rücksendeetikett für Rücksendungen per Post"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Rückerstattung"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "ターゲット、火災リスクのためSpritz™樹脂ハヌカー恐竜メノーラをリコール",
+          "Description": "ターゲットは、ポリマー樹脂で作られた青いメノーラであるSpritzテーパー樹脂ハヌカー恐竜メノーラをリコールしています。高さ6インチ、長さ13インチで、恐竜の背中に金属製のカップに最大9本のテーパーキャンドルを置くように設計されています。これらのメノーラには、恐竜の首に位置するハングタグにモデル番号「240-14-1380」が印刷されています。この製品は、点灯したキャンドルを使用すると火がつく可能性があるため、重大な火災危険を伴います。",
+          "ConsumerContact": "消費者は、リコールされたメノーラの使用を直ちに中止し、全額返金のためにターゲットの店舗に持ち帰るべきです。返金はターゲットのギフトカードまたは元の支払い方法で行われます。郵送での返品については、店頭購入の場合は800-440-0680、オンライン購入の場合は800-591-3869にターゲットに連絡するか、詳細についてはhttps://help.target.com/help/recallsを訪れてください。",
+          "metaDescription": "ターゲットは火災の危険性のためにSpritz樹脂ハヌカー恐竜メノーラをリコールします。直ちに使用を中止し、全額返金のために返品してください。",
+          "Products": [
+            {
+              "Name": "Spritzテーパー樹脂ハヌカー恐竜メノーラ",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約4,400"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコールされたテーパー樹脂ハヌカー恐竜メノーラ"
+            },
+            {
+              "Caption": "リコールされたテーパー樹脂ハヌカー恐竜メノーラ"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "ターゲットは、メノーラが焦げたり、焼けたり、溶けたり、火がついたという58件の報告を受けています。怪我の報告はありません。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "全国のターゲット店舗およびTarget.comで2024年10月から2025年1月まで約15ドルで販売"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "ミネアポリス、ミネソタ州のターゲットコーポレーション"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "販売場所",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "点灯したキャンドルによる燃焼または火災の可能性があるため、火災危険"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "店頭返品または郵送返品のための前払い返品ラベルを通じて全額返金が可能"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "返金"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "Target Emite Recall para Menorás de Hanukkah Dino de Resina Spritz™ Devido ao Risco de Incêndio",
+          "Description": "A Target está recallando o Menorá de Hanukkah Dino de Resina Taper Spritz, uma menorá azul feita de resina polimérica, medindo 15 centímetros de altura e 33 centímetros de comprimento. Projetada para segurar até nove velas taper em copos de metal na parte de trás de um dinossauro, essas menorás têm o número do modelo '240-14-1380' impresso na etiqueta de pendurar localizada no pescoço do dinossauro. O produto representa um risco significativo de incêndio, pois pode pegar fogo quando velas acesas são usadas.\n\nOs consumidores devem parar de usar as menorás recalladas imediatamente e devolvê-las a qualquer loja Target para um reembolso total via um cartão-presente Target ou o método de pagamento original. Para devoluções pelo correio, os consumidores podem entrar em contato com a Target pelo telefone 800-440-0680 para compras em loja ou 800-591-3869 para compras online, ou visitar https://help.target.com/help/recalls para mais detalhes.",
+          "ConsumerContact": "Os consumidores devem parar de usar as menorás recalladas imediatamente e devolvê-las a qualquer loja Target para um reembolso total via um cartão-presente Target ou o método de pagamento original. Para devoluções pelo correio, os consumidores podem entrar em contato com a Target pelo telefone 800-440-0680 para compras em loja ou 800-591-3869 para compras online, ou visitar https://help.target.com/help/recalls para mais detalhes.",
+          "metaDescription": "Target recall de Menorás de Hanukkah Dino de Resina Spritz devido a riscos de incêndio. Pare de usar imediatamente e devolva para um reembolso total.",
+          "Products": [
+            {
+              "Name": "Menorá de Hanukkah Dino de Resina Taper Spritz",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 4.400"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Menorá de Hanukkah Dino de Resina Taper recallada"
+            },
+            {
+              "Caption": "Menorá de Hanukkah Dino de Resina Taper recallada"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "A Target recebeu 58 relatos de menorás queimando, chamuscando, derretendo ou pegando fogo. Nenhum ferimento foi relatado."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponível em lojas Target em todo o país e online em Target.com de outubro de 2024 a janeiro de 2025 por aproximadamente R$15"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Target Corporation, de Minneapolis, Minnesota"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendido Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risco de incêndio devido ao potencial de queimar ou pegar fogo com velas acesas"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Reembolso total disponível através de devolução em loja ou etiqueta de devolução pré-paga para devolução pelo correio"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reembolso"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "टारगेट ने आग के खतरे के कारण स्प्रिट्ज™ रेजिन हनुक्का डिनो मेनोरा की रिकॉल की घोषणा की",
+          "Description": "टारगेट स्प्रिट्ज टेपर रेजिन हनुक्का डिनो मेनोरा को रिकॉल कर रहा है, जो पॉलीमर रेजिन से बना एक नीला मेनोरा है, जिसकी ऊँचाई 6 इंच और लंबाई 13 इंच है। इसे एक डायनासोर की पीठ पर धातु के कप में नौ टेपर मोमबत्तियों को रखने के लिए डिज़ाइन किया गया है, इन मेनोरा पर मॉडल नंबर '240-14-1380' डायनासोर की गर्दन पर लगे हैंग टैग पर प्रिंट किया गया है। उत्पाद एक महत्वपूर्ण आग का खतरा पैदा करता है क्योंकि यह जलती हुई मोमबत्तियों के उपयोग से आग पकड़ सकता है।",
+          "ConsumerContact": "उपभोक्ताओं को तुरंत रिकॉल किए गए मेनोरा का उपयोग बंद कर देना चाहिए और उन्हें पूर्ण धनवापसी के लिए किसी भी टारगेट स्टोर में लौटाना चाहिए, जो टारगेट गिफ्ट कार्ड या मूल भुगतान विधि के माध्यम से हो। मेल रिटर्न के लिए, उपभोक्ता टारगेट से 800-440-0680 पर संपर्क कर सकते हैं स्टोर में खरीदी के लिए या 800-591-3869 पर ऑनलाइन खरीदी के लिए, या अधिक जानकारी के लिए https://help.target.com/help/recalls पर जाएं।",
+          "metaDescription": "टारगेट स्प्रिट्ज रेजिन हनुक्का डिनो मेनोरा को आग के खतरों के कारण रिकॉल करता है। तुरंत उपयोग बंद करें और पूर्ण धनवापसी के लिए लौटाएं।",
+          "Products": [
+            {
+              "Name": "स्प्रिट्ज टेपर रेजिन हनुक्का डिनो मेनोरा",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 4,400"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "रिकॉल किया गया टेपर रेजिन हनुक्का डिनो मेनोरा"
+            },
+            {
+              "Caption": "रिकॉल किया गया टेपर रेजिन हनुक्का डिनो मेनोरा"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "टारगेट को मेनोरा के जलने, जलने, पिघलने या आग पकड़ने की 58 रिपोर्ट मिली हैं। कोई चोटें रिपोर्ट नहीं की गई हैं।"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "टारगेट स्टोर्स में देशभर में और ऑनलाइन Target.com पर अक्टूबर 2024 से जनवरी 2025 तक लगभग $15 में उपलब्ध"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "टारगेट कॉर्पोरेशन, मिनियापोलिस, मिनेसोटा"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "चीन"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "जलती हुई मोमबत्तियों के साथ जलने या आग पकड़ने की संभावना के कारण आग का खतरा"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "इन-स्टोर रिटर्न या मेल रिटर्न के लिए प्रीपेड रिटर्न लेबल के माध्यम से पूर्ण धनवापसी उपलब्ध"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "धनवापसी"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "Target отзывает спички™ смолистые ханукальные динозавры из-за риска возгорания",
+          "Description": "Target отзывает смолистую ханукальную менору динозавра Spritz, синюю менору из полимерной смолы, высотой 6 дюймов и длиной 13 дюймов. Разработанная для удержания до девяти заостренных свечей в металлических чашках на спине динозавра, эти меноры имеют номер модели '240-14-1380', напечатанный на ярлыке, расположенном на шее динозавра. Продукт представляет собой значительный риск возгорания, так как может загореться при использовании зажженных свечей.",
+          "ConsumerContact": "Потребители должны немедленно прекратить использование отозванных менор и вернуть их в любой магазин Target для полного возврата средств через подарочную карту Target или оригинальный способ оплаты. Для возвратов по почте потребители могут связаться с Target по телефону 800-440-0680 для покупок в магазине или 800-591-3869 для покупок онлайн, или посетить https://help.target.com/help/recalls для получения дополнительной информации.",
+          "metaDescription": "Target отзывает смолистые ханукальные динозавры из-за рисков возгорания. Немедленно прекратите использование и верните для полного возврата.",
+          "Products": [
+            {
+              "Name": "Смолистая ханукальная менора динозавра Spritz",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 4400"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванная смолистая ханукальная менора динозавра"
+            },
+            {
+              "Caption": "Отозванная смолистая ханукальная менора динозавра"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Target получил 58 сообщений о том, что меноры обугливаются, плавятся или загораются. О травмах не сообщалось."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Доступно в магазинах Target по всей стране и онлайн на Target.com с октября 2024 года по январь 2025 года по цене около 15 долларов"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Target Corporation, Миннеаполис, Миннесота"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Продается в",
+          "ManufacturerCountries": [
+            {
+              "Country": "Китай"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Риск возгорания из-за возможности горения или загорания при использовании зажженных свечей"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Полный возврат доступен через возврат в магазине или предоплаченный ярлык для возврата по почте"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Возврат"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "Target phát động thu hồi sản phẩm Đèn Menorah Khủng Long Hanukkah Resin Spritz™ do nguy cơ cháy",
+          "Description": "Target đang thu hồi Đèn Menorah Khủng Long Hanukkah Resin Taper Spritz, một chiếc đèn menorah màu xanh được làm từ nhựa polymer, cao 6 inch và dài 13 inch. Được thiết kế để giữ tối đa chín cây nến taper trong các cốc kim loại ở phía sau của một con khủng long, những chiếc menorah này có số mô hình '240-14-1380' in trên thẻ treo nằm ở cổ khủng long. Sản phẩm này tiềm ẩn nguy cơ cháy nổ đáng kể vì nó có thể bắt lửa khi sử dụng nến đã thắp sáng.",
+          "ConsumerContact": "Người tiêu dùng nên ngừng sử dụng ngay lập tức các chiếc menorah bị thu hồi và trả lại chúng cho bất kỳ cửa hàng Target nào để được hoàn tiền đầy đủ thông qua thẻ quà tặng Target hoặc phương thức thanh toán ban đầu. Đối với việc trả hàng qua bưu điện, người tiêu dùng có thể liên hệ với Target theo số 800-440-0680 cho các giao dịch mua tại cửa hàng hoặc 800-591-3869 cho các giao dịch mua trực tuyến, hoặc truy cập https://help.target.com/help/recalls để biết thêm chi tiết.",
+          "metaDescription": "Target thu hồi Đèn Menorah Khủng Long Hanukkah Resin Spritz do nguy cơ cháy. Ngừng sử dụng ngay lập tức và trả lại để được hoàn tiền đầy đủ.",
+          "Products": [
+            {
+              "Name": "Đèn Menorah Khủng Long Hanukkah Resin Taper Spritz",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 4,400"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Đèn Menorah Khủng Long Hanukkah Resin Taper bị thu hồi"
+            },
+            {
+              "Caption": "Đèn Menorah Khủng Long Hanukkah Resin Taper bị thu hồi"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Target đã nhận được 58 báo cáo về việc các chiếc menorah bị cháy, bị cháy xém, bị chảy hoặc bắt lửa. Không có thương tích nào được báo cáo."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Có sẵn tại các cửa hàng Target trên toàn quốc và trực tuyến tại Target.com từ tháng 10 năm 2024 đến tháng 1 năm 2025 với giá khoảng 15 đô la"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Target Corporation, Minneapolis, Minnesota"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Bán Tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Trung Quốc"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Nguy cơ cháy do khả năng cháy hoặc bắt lửa với nến đã thắp sáng"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Hoàn tiền đầy đủ có sẵn thông qua việc trả hàng tại cửa hàng hoặc nhãn trả hàng đã trả trước cho việc trả hàng qua bưu điện"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Hoàn tiền"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,1631 @@
+{
+  "meta": {
+    "slug": "chain-saws",
+    "sourceCsvFile": "chain-saws_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:36.863Z",
+    "recallCount": 2,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "chain-saws.json",
+    "seoTranslatedAt": "2026-04-03T22:32:29.491Z",
+    "resumePartial": false,
+    "i18nSource": "generalRecallsTranslated",
+    "i18nSourceFile": "chain-saws.json",
+    "i18nUiLangs": [
+      "en",
+      "es",
+      "ar",
+      "zh",
+      "fr",
+      "de",
+      "ja",
+      "pt",
+      "hi",
+      "ru",
+      "vi"
+    ],
+    "i18nProgressByLang": {
+      "es": 2,
+      "ar": 2,
+      "zh": 2,
+      "fr": 2,
+      "de": 2,
+      "ja": 2,
+      "pt": 2,
+      "hi": 2,
+      "ru": 2,
+      "vi": 2
+    },
+    "i18nInProgress": false,
+    "i18nTranslatedAt": "2026-04-07T00:14:59.477Z",
+    "i18nOpenaiModel": "gpt-4o-mini"
+  },
+  "recalls": [
+    {
+      "RecallID": 10333,
+      "RecallNumber": "25371",
+      "RecallDate": "2025-07-03T00:00:00",
+      "Description": "Positec is recalling several electric chainsaws and pole saws due to a potential laceration hazard. The affected models include the Hyper Tough 9 Amp Electric Corded 14\" Chainsaw, Worx 8 Amp 14\" Electric Chainsaw, Worx 8 Amp Electric Pole Saw, and Portland 9 Amp 14\" Chainsaw. Each model features distinct color schemes and branding, which can help consumers identify them. The Hyper Tough model is black with red accents, while the Worx models are orange and black. The Portland chainsaw is green with a black bar.\n\nConsumers should be aware that the main switch on these saws may malfunction, causing them to operate continuously even after the switch has been released, leading to serious injury. Affected products were sold at various retailers, including Walmart and Harbor Freight, as well as online platforms such as Worx.com and Amazon.com between September 2024 and March 2025.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/Positec-Recalls-Electric-Corded-Chainsaws-and-Pole-Saws-Due-to-Laceration-Hazard",
+      "Title": "Positec Recalls Electric Chainsaws and Pole Saws Due to Laceration Risk",
+      "ConsumerContact": "For assistance, consumers can reach Positec at 800-889-0129 from Monday to Friday, 8 a.m. to 6 p.m. ET, or visit https://www.trane.com/residential/gas-electric-packaged-unit-recall/ for more information.",
+      "LastPublishDate": "2025-07-03T00:00:00",
+      "Products": [
+        {
+          "Name": "Hyper Tough 9 Amp Electric Corded Chainsaw",
+          "NumberOfUnits": "About 49,000 (In addition, about 3,000 were sold in Canada)"
+        }
+      ],
+      "Inconjunctions": [
+        {
+          "URL": "https://recalls-rappels.canada.ca/en/alert-recall/yardworks-and-worx-electric-corded-chainsaws-and-pole-saws-recalled-due-laceration"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/chain-saws/1-Hyper-Tough-9-Amp-Electric-Corded-Chainsaw/bf8b5825c40eb46f6f67164f88bca1fd.webp",
+          "Caption": "Recalled Hyper Tough 9 Amp Electric Corded 14\" Chainsaw",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/HyperT-1.gif"
+        },
+        {
+          "URL": "/images/generalRecalls/chain-saws/1-Hyper-Tough-9-Amp-Electric-Corded-Chainsaw/0abbf910ac402f8efff7e658a098068b.webp",
+          "Caption": "Recalled Worx 8 Amp 14\" Electric Chainsaw with location of Item No. and Serial No.",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/HyperT-2.gif"
+        },
+        {
+          "URL": "/images/generalRecalls/chain-saws/1-Hyper-Tough-9-Amp-Electric-Corded-Chainsaw/e85129508b5b3fee3cef7f510e97efce.webp",
+          "Caption": "Recalled Worx 8 Amp Electric Pole Saw with location of Item No. and Serial No.",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/HyperT-3.gif"
+        },
+        {
+          "URL": "/images/generalRecalls/chain-saws/1-Hyper-Tough-9-Amp-Electric-Corded-Chainsaw/0c6b884fa76bf0ee7559fa87fff3fba6.webp",
+          "Caption": "Recalled Portland 9 Amp 14\" Chainsaw with location of UPC, Serial No. and SKU",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/HyperT-4.jpg"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Walmart (Hyper Tough brand)"
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Positec Tool Corporation, of Charlotte, North Carolina"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Laceration hazard due to potential switch failure"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should stop using the products and contact Positec for a prepaid shipping label and a replacement saw."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Replace"
+        }
+      ],
+      "slug": "positec-recalls-electric-chainsaws-and-pole-saws-due-to-laceration-risk-recall",
+      "metaDescription": "Positec recalls electric chainsaws and pole saws due to a laceration hazard. Stop using and contact for a replacement.",
+      "languages": {
+        "en": {
+          "Title": "Positec Recalls Electric Chainsaws and Pole Saws Due to Laceration Risk",
+          "Description": "Positec is recalling several electric chainsaws and pole saws due to a potential laceration hazard. The affected models include the Hyper Tough 9 Amp Electric Corded 14\" Chainsaw, Worx 8 Amp 14\" Electric Chainsaw, Worx 8 Amp Electric Pole Saw, and Portland 9 Amp 14\" Chainsaw. Each model features distinct color schemes and branding, which can help consumers identify them. The Hyper Tough model is black with red accents, while the Worx models are orange and black. The Portland chainsaw is green with a black bar.\n\nConsumers should be aware that the main switch on these saws may malfunction, causing them to operate continuously even after the switch has been released, leading to serious injury. Affected products were sold at various retailers, including Walmart and Harbor Freight, as well as online platforms such as Worx.com and Amazon.com between September 2024 and March 2025.",
+          "ConsumerContact": "For assistance, consumers can reach Positec at 800-889-0129 from Monday to Friday, 8 a.m. to 6 p.m. ET, or visit https://www.trane.com/residential/gas-electric-packaged-unit-recall/ for more information.",
+          "metaDescription": "Positec recalls electric chainsaws and pole saws due to a laceration hazard. Stop using and contact for a replacement.",
+          "Products": [
+            {
+              "Name": "Hyper Tough 9 Amp Electric Corded Chainsaw",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 49,000 (In addition, about 3,000 were sold in Canada)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled Hyper Tough 9 Amp Electric Corded 14\" Chainsaw"
+            },
+            {
+              "Caption": "Recalled Worx 8 Amp 14\" Electric Chainsaw with location of Item No. and Serial No."
+            },
+            {
+              "Caption": "Recalled Worx 8 Amp Electric Pole Saw with location of Item No. and Serial No."
+            },
+            {
+              "Caption": "Recalled Portland 9 Amp 14\" Chainsaw with location of UPC, Serial No. and SKU"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "None reported"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Walmart (Hyper Tough brand)"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Positec Tool Corporation, of Charlotte, North Carolina"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Sold At",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Laceration hazard due to potential switch failure"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Consumers should stop using the products and contact Positec for a prepaid shipping label and a replacement saw."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Replace"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "Positec Retira Motosierras Eléctricas y Sierras de Poste Debido al Riesgo de Laceración",
+          "Description": "Positec está retirando varias motosierras eléctricas y sierras de poste debido a un posible peligro de laceración. Los modelos afectados incluyen la motosierra eléctrica con cable de 14\" y 9 Amperios Hyper Tough, la motosierra eléctrica de 14\" y 8 Amperios Worx, la sierra de poste eléctrica de 8 Amperios Worx, y la motosierra de 14\" y 9 Amperios Portland. Cada modelo presenta esquemas de color y marcas distintas, lo que puede ayudar a los consumidores a identificarlos. El modelo Hyper Tough es negro con acentos rojos, mientras que los modelos Worx son naranjas y negros. La motosierra Portland es verde con una barra negra.\n\nLos consumidores deben estar al tanto de que el interruptor principal de estas sierras puede fallar, causando que funcionen continuamente incluso después de que se haya liberado el interruptor, lo que puede llevar a lesiones graves. Los productos afectados se vendieron en varios minoristas, incluyendo Walmart y Harbor Freight, así como en plataformas en línea como Worx.com y Amazon.com entre septiembre de 2024 y marzo de 2025.",
+          "ConsumerContact": "Para asistencia, los consumidores pueden comunicarse con Positec al 800-889-0129 de lunes a viernes, de 8 a.m. a 6 p.m. ET, o visitar https://www.trane.com/residential/gas-electric-packaged-unit-recall/ para más información.",
+          "metaDescription": "Positec retira motosierras eléctricas y sierras de poste debido a un peligro de laceración. Deje de usar y contáctenos para un reemplazo.",
+          "Products": [
+            {
+              "Name": "Motosierra Eléctrica con Cable Hyper Tough de 9 Amperios",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 49,000 (Además, se vendieron aproximadamente 3,000 en Canadá)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Motosierra Eléctrica con Cable Hyper Tough de 9 Amperios retirada"
+            },
+            {
+              "Caption": "Motosierra Eléctrica de 14\" y 8 Amperios Worx retirada con ubicación del Número de Artículo y Número de Serie."
+            },
+            {
+              "Caption": "Sierra de Poste Eléctrica de 8 Amperios Worx retirada con ubicación del Número de Artículo y Número de Serie."
+            },
+            {
+              "Caption": "Motosierra Portland de 9 Amperios y 14\" retirada con ubicación del UPC, Número de Serie y SKU."
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Ninguna reportada"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Walmart (marca Hyper Tough)"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Positec Tool Corporation, de Charlotte, Carolina del Norte"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendidos En",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Peligro de laceración debido a posible fallo del interruptor"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Los consumidores deben dejar de usar los productos y contactar a Positec para obtener una etiqueta de envío prepagada y una motosierra de reemplazo."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reemplazar"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "شركة بوسيتك تستدعي مناشير كهربائية ومناشير عمودية بسبب خطر الإصابة",
+          "Description": "تستدعي شركة بوسيتك عدة مناشير كهربائية ومناشير عمودية بسبب خطر محتمل للإصابة. تشمل النماذج المتأثرة منشار هايبر توف 9 أمبير كهربائي سلكي بطول 14 بوصة، ومنشار ووركس 8 أمبير كهربائي بطول 14 بوصة، ومنشار ووركس 8 أمبير عمودي، ومنشار بورتلاند 9 أمبير بطول 14 بوصة. يتميز كل نموذج بألوان وتصميمات مميزة، مما يساعد المستهلكين على التعرف عليها. نموذج هايبر توف باللون الأسود مع لمسات حمراء، بينما نماذج ووركس باللونين البرتقالي والأسود. المنشار بورتلاند باللون الأخضر مع شريط أسود.\n\nيجب أن يكون المستهلكون على علم بأن المفتاح الرئيسي في هذه المناشير قد يتعطل، مما يتسبب في تشغيلها بشكل مستمر حتى بعد تحرير المفتاح، مما يؤدي إلى إصابات خطيرة. تم بيع المنتجات المتأثرة في تجار تجزئة مختلفين، بما في ذلك وول مارت وهاربر فريت، بالإضافة إلى منصات عبر الإنترنت مثل Worx.com وAmazon.com بين سبتمبر 2024 ومارس 2025.",
+          "ConsumerContact": "للمساعدة، يمكن للمستهلكين التواصل مع بوسيتك على الرقم 800-889-0129 من الاثنين إلى الجمعة، من الساعة 8 صباحًا حتى 6 مساءً بتوقيت شرق الولايات المتحدة، أو زيارة https://www.trane.com/residential/gas-electric-packaged-unit-recall/ لمزيد من المعلومات.",
+          "metaDescription": "تستدعي بوسيتك المناشير الكهربائية والمناشير العمودية بسبب خطر الإصابة. توقف عن الاستخدام وتواصل للحصول على بديل.",
+          "Products": [
+            {
+              "Name": "منشار هايبر توف 9 أمبير كهربائي سلكي",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 49,000 (بالإضافة إلى حوالي 3,000 تم بيعها في كندا)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "منشار هايبر توف 9 أمبير كهربائي سلكي بطول 14 بوصة المستدعى"
+            },
+            {
+              "Caption": "منشار ووركس 8 أمبير كهربائي بطول 14 بوصة المستدعى مع موقع رقم العنصر ورقم السيريال."
+            },
+            {
+              "Caption": "منشار ووركس 8 أمبير عمودي المستدعى مع موقع رقم العنصر ورقم السيريال."
+            },
+            {
+              "Caption": "منشار بورتلاند 9 أمبير بطول 14 بوصة المستدعى مع موقع UPC ورقم السيريال ورقم SKU."
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "لا توجد إصابات تم الإبلاغ عنها"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "وول مارت (علامة هايبر توف)"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "شركة بوسيتك للأدوات، من شارلوت، نورث كارولينا"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "تم البيع في",
+          "ManufacturerCountries": [
+            {
+              "Country": "الصين"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "خطر الإصابة بسبب احتمال فشل المفتاح"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "يجب على المستهلكين التوقف عن استخدام المنتجات والتواصل مع بوسيتك للحصول على ملصق شحن مدفوع مسبقًا ومنشار بديل."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "استبدال"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "Positec召回电动链锯和电动杆锯因割伤风险",
+          "Description": "Positec因潜在的割伤危险召回几款电动链锯和电动杆锯。受影响的型号包括Hyper Tough 9安培电动有线14\"链锯、Worx 8安培14\"电动链锯、Worx 8安培电动杆锯和Portland 9安培14\"链锯。每个型号都有独特的颜色方案和品牌标识，可以帮助消费者识别它们。Hyper Tough型号为黑色配红色装饰，而Worx型号为橙色和黑色。Portland链锯为绿色，配有黑色刀杆。\n\n消费者应注意，这些锯的主开关可能会发生故障，导致即使在释放开关后仍持续运行，从而造成严重伤害。受影响的产品在各大零售商处销售，包括沃尔玛和哈伯货运，以及在线平台如Worx.com和Amazon.com，销售时间为2024年9月至2025年3月。",
+          "ConsumerContact": "如需帮助，消费者可以在周一至周五，东部时间上午8点至下午6点拨打Positec电话800-889-0129，或访问https://www.trane.com/residential/gas-electric-packaged-unit-recall/获取更多信息。",
+          "metaDescription": "Positec因割伤危险召回电动链锯和电动杆锯。停止使用并联系以获取更换。",
+          "Products": [
+            {
+              "Name": "Hyper Tough 9安培电动有线链锯",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约49,000台（此外，约3,000台在加拿大销售）"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "召回的Hyper Tough 9安培电动有线14\"链锯"
+            },
+            {
+              "Caption": "召回的Worx 8安培14\"电动链锯，带有物品编号和序列号的位置"
+            },
+            {
+              "Caption": "召回的Worx 8安培电动杆锯，带有物品编号和序列号的位置"
+            },
+            {
+              "Caption": "召回的Portland 9安培14\"链锯，带有UPC、序列号和SKU的位置"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "未报告任何伤害"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "沃尔玛（Hyper Tough品牌）"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "位于北卡罗来纳州夏洛特的Positec工具公司"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "销售地点",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "因潜在开关故障导致的割伤危险"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "消费者应停止使用这些产品，并联系Positec以获取预付运费标签和更换锯。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "更换"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "Positec rappelle des tronçonneuses électriques et des élagueuses en raison d'un risque de lacération",
+          "Description": "Positec rappelle plusieurs tronçonneuses électriques et élagueuses en raison d'un potentiel danger de lacération. Les modèles concernés incluent la tronçonneuse électrique filaire Hyper Tough de 9 Ampères et 14\", la tronçonneuse électrique Worx de 8 Ampères et 14\", l'élagueuse électrique Worx de 8 Ampères, et la tronçonneuse Portland de 9 Ampères et 14\". Chaque modèle présente des schémas de couleurs et un branding distincts, ce qui peut aider les consommateurs à les identifier. Le modèle Hyper Tough est noir avec des accents rouges, tandis que les modèles Worx sont orange et noir. La tronçonneuse Portland est verte avec une barre noire.\n\nLes consommateurs doivent être conscients que l'interrupteur principal de ces scies peut mal fonctionner, les faisant fonctionner en continu même après que l'interrupteur a été relâché, ce qui peut entraîner des blessures graves. Les produits concernés ont été vendus chez divers détaillants, y compris Walmart et Harbor Freight, ainsi que sur des plateformes en ligne telles que Worx.com et Amazon.com entre septembre 2024 et mars 2025.",
+          "ConsumerContact": "Pour assistance, les consommateurs peuvent contacter Positec au 800-889-0129 du lundi au vendredi, de 8 h à 18 h HNE, ou visiter https://www.trane.com/residential/gas-electric-packaged-unit-recall/ pour plus d'informations.",
+          "metaDescription": "Positec rappelle des tronçonneuses électriques et des élagueuses en raison d'un risque de lacération. Cessez de les utiliser et contactez pour un remplacement.",
+          "Products": [
+            {
+              "Name": "Tronçonneuse électrique filaire Hyper Tough de 9 Ampères",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 49 000 (De plus, environ 3 000 ont été vendues au Canada)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Tronçonneuse électrique filaire Hyper Tough de 9 Ampères rappelée"
+            },
+            {
+              "Caption": "Tronçonneuse électrique Worx de 8 Ampères et 14\" rappelée avec l'emplacement du numéro d'article et du numéro de série."
+            },
+            {
+              "Caption": "Élagueuse électrique Worx de 8 Ampères rappelée avec l'emplacement du numéro d'article et du numéro de série."
+            },
+            {
+              "Caption": "Tronçonneuse Portland de 9 Ampères et 14\" rappelée avec l'emplacement du UPC, du numéro de série et du SKU."
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Aucune rapportée"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Walmart (marque Hyper Tough)"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Positec Tool Corporation, de Charlotte, Caroline du Nord"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendu chez",
+          "ManufacturerCountries": [
+            {
+              "Country": "Chine"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risque de lacération en raison d'une défaillance potentielle de l'interrupteur"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Les consommateurs doivent cesser d'utiliser les produits et contacter Positec pour un étiquette d'expédition prépayée et une scie de remplacement."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Remplacer"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "Positec ruft elektrische Kettensägen und Hochentaster wegen Verletzungsgefahr zurück",
+          "Description": "Positec ruft mehrere elektrische Kettensägen und Hochentaster aufgrund einer potenziellen Verletzungsgefahr zurück. Die betroffenen Modelle umfassen die Hyper Tough 9 Ampere elektrische kabelgebundene 14\" Kettensäge, Worx 8 Ampere 14\" elektrische Kettensäge, Worx 8 Ampere elektrischen Hochentaster und Portland 9 Ampere 14\" Kettensäge. Jedes Modell hat unterschiedliche Farbschemata und Marken, die den Verbrauchern helfen können, sie zu identifizieren. Das Hyper Tough Modell ist schwarz mit roten Akzenten, während die Worx Modelle orange und schwarz sind. Die Portland Kettensäge ist grün mit einem schwarzen Schwert.\n\nDie Verbraucher sollten sich bewusst sein, dass der Hauptschalter dieser Sägen möglicherweise nicht richtig funktioniert, was dazu führen kann, dass sie kontinuierlich betrieben werden, selbst nachdem der Schalter losgelassen wurde, was zu schweren Verletzungen führen kann. Betroffene Produkte wurden bei verschiedenen Einzelhändlern verkauft, darunter Walmart und Harbor Freight, sowie auf Online-Plattformen wie Worx.com und Amazon.com zwischen September 2024 und März 2025.",
+          "ConsumerContact": "Für Unterstützung können Verbraucher Positec unter 800-889-0129 von Montag bis Freitag, 8 bis 18 Uhr ET, kontaktieren oder https://www.trane.com/residential/gas-electric-packaged-unit-recall/ für weitere Informationen besuchen.",
+          "metaDescription": "Positec ruft elektrische Kettensägen und Hochentaster wegen einer Verletzungsgefahr zurück. Verwenden Sie die Produkte nicht mehr und kontaktieren Sie uns für einen Ersatz.",
+          "Products": [
+            {
+              "Name": "Hyper Tough 9 Ampere elektrische kabelgebundene Kettensäge",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 49.000 (Zusätzlich wurden etwa 3.000 in Kanada verkauft)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Zurückgerufene Hyper Tough 9 Ampere elektrische kabelgebundene 14\" Kettensäge"
+            },
+            {
+              "Caption": "Zurückgerufene Worx 8 Ampere 14\" elektrische Kettensäge mit Standort der Artikel-Nr. und Serien-Nr."
+            },
+            {
+              "Caption": "Zurückgerufener Worx 8 Ampere elektrischer Hochentaster mit Standort der Artikel-Nr. und Serien-Nr."
+            },
+            {
+              "Caption": "Zurückgerufene Portland 9 Ampere 14\" Kettensäge mit Standort der UPC, Serien-Nr. und SKU"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Keine gemeldet"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Walmart (Marke Hyper Tough)"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Positec Tool Corporation, Charlotte, North Carolina"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Verkauft bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Verletzungsgefahr aufgrund möglicher Schalterfehler"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Verbraucher sollten die Produkte nicht mehr verwenden und Positec für ein vorfrankiertes Versandetikett und eine Ersatzsäge kontaktieren."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Ersetzen"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "Positecが切断の危険性により電動チェーンソーとポールソーをリコール",
+          "Description": "Positecは、潜在的な切断の危険性により、いくつかの電動チェーンソーとポールソーをリコールしています。影響を受けるモデルには、Hyper Tough 9 Amp電動コード付き14\"チェーンソー、Worx 8 Amp 14\"電動チェーンソー、Worx 8 Amp電動ポールソー、およびPortland 9 Amp 14\"チェーンソーが含まれます。各モデルは異なるカラースキームとブランディングを特徴としており、消費者がそれらを識別するのに役立ちます。Hyper Toughモデルは赤いアクセントのある黒色で、Worxモデルはオレンジと黒です。Portlandチェーンソーは黒いバーのある緑色です。\n\n消費者は、これらのソーのメインスイッチが故障する可能性があり、スイッチが解除された後でも連続して動作し続けることがあるため、重大な怪我を引き起こす可能性があることに注意する必要があります。影響を受けた製品は、WalmartやHarbor Freightなどのさまざまな小売店、ならびにWorx.comやAmazon.comなどのオンラインプラットフォームで、2024年9月から2025年3月の間に販売されました。",
+          "ConsumerContact": "サポートが必要な場合、消費者は月曜日から金曜日の午前8時から午後6時（ET）まで、800-889-0129でPositecに連絡するか、https://www.trane.com/residential/gas-electric-packaged-unit-recall/を訪れて詳細情報を取得できます。",
+          "metaDescription": "Positecは切断の危険性により電動チェーンソーとポールソーをリコールしています。使用を中止し、交換のために連絡してください。",
+          "Products": [
+            {
+              "Name": "Hyper Tough 9 Amp電動コード付きチェーンソー",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約49,000台（さらに、約3,000台がカナダで販売されました）"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコールされたHyper Tough 9 Amp電動コード付き14\"チェーンソー"
+            },
+            {
+              "Caption": "リコールされたWorx 8 Amp 14\"電動チェーンソー（アイテム番号とシリアル番号の位置）"
+            },
+            {
+              "Caption": "リコールされたWorx 8 Amp電動ポールソー（アイテム番号とシリアル番号の位置）"
+            },
+            {
+              "Caption": "リコールされたPortland 9 Amp 14\"チェーンソー（UPC、シリアル番号、SKUの位置）"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "報告された怪我はなし"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Walmart（Hyper Toughブランド）"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "ノースカロライナ州シャーロットのPositec Tool Corporation"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "販売場所",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "スイッチの故障による切断の危険性"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "消費者は製品の使用を中止し、Positecに連絡して prepaid shipping label と交換用のソーを取得する必要があります。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "交換"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "Positec Recalls Serra Elétrica e Serra de Pólo devido ao Risco de Laceração",
+          "Description": "A Positec está recolhendo várias serras elétricas e serras de pólo devido a um potencial risco de laceração. Os modelos afetados incluem a Serra Elétrica com Fio Hyper Tough de 9 Amp, 14\"; Serra Elétrica Worx de 8 Amp, 14\"; Serra de Pólo Elétrica Worx de 8 Amp; e Serra Elétrica Portland de 9 Amp, 14\". Cada modelo apresenta esquemas de cores e marcas distintas, o que pode ajudar os consumidores a identificá-los. O modelo Hyper Tough é preto com detalhes em vermelho, enquanto os modelos Worx são laranja e preto. A serra Portland é verde com uma barra preta.\n\nOs consumidores devem estar cientes de que o interruptor principal dessas serras pode falhar, fazendo com que elas operem continuamente mesmo após o interruptor ter sido liberado, levando a ferimentos graves. Os produtos afetados foram vendidos em vários varejistas, incluindo Walmart e Harbor Freight, bem como em plataformas online como Worx.com e Amazon.com entre setembro de 2024 e março de 2025.",
+          "ConsumerContact": "Para assistência, os consumidores podem entrar em contato com a Positec pelo telefone 800-889-0129 de segunda a sexta-feira, das 8h às 18h ET, ou visitar https://www.trane.com/residential/gas-electric-packaged-unit-recall/ para mais informações.",
+          "metaDescription": "A Positec recolhe serras elétricas e serras de pólo devido a um risco de laceração. Pare de usar e entre em contato para uma substituição.",
+          "Products": [
+            {
+              "Name": "Serra Elétrica com Fio Hyper Tough de 9 Amp",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 49.000 (Além disso, cerca de 3.000 foram vendidas no Canadá)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Serra Elétrica com Fio Hyper Tough de 9 Amp Recolhida"
+            },
+            {
+              "Caption": "Serra Elétrica Worx de 8 Amp, 14\" Recolhida com localização do Item No. e Serial No."
+            },
+            {
+              "Caption": "Serra de Pólo Elétrica Worx de 8 Amp Recolhida com localização do Item No. e Serial No."
+            },
+            {
+              "Caption": "Serra Elétrica Portland de 9 Amp, 14\" Recolhida com localização do UPC, Serial No. e SKU"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Nenhum relatado"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Walmart (marca Hyper Tough)"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Positec Tool Corporation, de Charlotte, Carolina do Norte"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendidos Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risco de laceração devido a falha potencial do interruptor"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Os consumidores devem parar de usar os produtos e entrar em contato com a Positec para obter uma etiqueta de envio pré-paga e uma serra de substituição."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Substituir"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "Positec इलेक्ट्रिक चेनसॉ और पोल सॉ को लैसरशन जोखिम के कारण वापस बुलाता है",
+          "Description": "Positec कई इलेक्ट्रिक चेनसॉ और पोल सॉ को संभावित लैसरशन खतरे के कारण वापस बुला रहा है। प्रभावित मॉडल में Hyper Tough 9 Amp इलेक्ट्रिक कॉर्डेड 14\" चेनसॉ, Worx 8 Amp 14\" इलेक्ट्रिक चेनसॉ, Worx 8 Amp इलेक्ट्रिक पोल सॉ, और Portland 9 Amp 14\" चेनसॉ शामिल हैं। प्रत्येक मॉडल में अलग-अलग रंग योजनाएँ और ब्रांडिंग होती हैं, जो उपभोक्ताओं को उन्हें पहचानने में मदद कर सकती हैं। Hyper Tough मॉडल काले रंग का है जिसमें लाल रंग के अंश हैं, जबकि Worx मॉडल नारंगी और काले हैं। Portland चेनसॉ हरे रंग का है जिसमें काला बार है।\n\nउपभोक्ताओं को यह जानना चाहिए कि इन सॉ का मुख्य स्विच खराब हो सकता है, जिससे ये स्विच को छोड़ने के बाद भी लगातार काम कर सकते हैं, जिससे गंभीर चोट लग सकती है। प्रभावित उत्पाद विभिन्न खुदरा विक्रेताओं पर बेचे गए, जिनमें Walmart और Harbor Freight शामिल हैं, साथ ही ऑनलाइन प्लेटफार्मों जैसे Worx.com और Amazon.com पर सितंबर 2024 से मार्च 2025 के बीच।",
+          "ConsumerContact": "सहायता के लिए, उपभोक्ता Positec से 800-889-0129 पर सोमवार से शुक्रवार, सुबह 8 बजे से शाम 6 बजे ET तक संपर्क कर सकते हैं, या अधिक जानकारी के लिए https://www.trane.com/residential/gas-electric-packaged-unit-recall/ पर जा सकते हैं।",
+          "metaDescription": "Positec लैसरशन खतरे के कारण इलेक्ट्रिक चेनसॉ और पोल सॉ को वापस बुलाता है। उपयोग करना बंद करें और प्रतिस्थापन के लिए संपर्क करें।",
+          "Products": [
+            {
+              "Name": "Hyper Tough 9 Amp इलेक्ट्रिक कॉर्डेड चेनसॉ",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 49,000 (इसके अतिरिक्त, लगभग 3,000 कनाडा में बेचे गए)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "वापस बुलाया गया Hyper Tough 9 Amp इलेक्ट्रिक कॉर्डेड 14\" चेनसॉ"
+            },
+            {
+              "Caption": "वापस बुलाया गया Worx 8 Amp 14\" इलेक्ट्रिक चेनसॉ जिसमें आइटम नंबर और सीरियल नंबर का स्थान है।"
+            },
+            {
+              "Caption": "वापस बुलाया गया Worx 8 Amp इलेक्ट्रिक पोल सॉ जिसमें आइटम नंबर और सीरियल नंबर का स्थान है।"
+            },
+            {
+              "Caption": "वापस बुलाया गया Portland 9 Amp 14\" चेनसॉ जिसमें UPC, सीरियल नंबर और SKU का स्थान है।"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "कोई रिपोर्ट नहीं की गई"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Walmart (Hyper Tough ब्रांड)"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Positec Tool Corporation, शार्लोट, उत्तरी कैरोलिना"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "चीन"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "संभावित स्विच विफलता के कारण लैसरशन खतरा"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "उपभोक्ताओं को उत्पादों का उपयोग करना बंद कर देना चाहिए और Positec से प्रीपेड शिपिंग लेबल और प्रतिस्थापन सॉ के लिए संपर्क करना चाहिए।"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "प्रतिस्थापित करें"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "Positec отзывает электрические цепные пилы и пилы с удлинителем из-за риска порезов",
+          "Description": "Positec отзывает несколько электрических цепных пил и пил с удлинителем из-за потенциальной опасности порезов. Затронутые модели включают в себя электрическую цепную пилу Hyper Tough мощностью 9 А с проводом длиной 14\", электрическую цепную пилу Worx мощностью 8 А длиной 14\", электрическую пилу с удлинителем Worx мощностью 8 А и цепную пилу Portland мощностью 9 А длиной 14\". Каждая модель имеет отличительные цветовые схемы и брендинг, что может помочь потребителям их идентифицировать. Модель Hyper Tough черная с красными акцентами, в то время как модели Worx оранжевые и черные. Цепная пила Portland зеленая с черной шиной.\n\nПотребители должны знать, что главный выключатель на этих пилах может выйти из строя, что приведет к их непрерывной работе даже после отпускания выключателя, что может привести к серьезным травмам. Затронутые продукты продавались в различных розничных магазинах, включая Walmart и Harbor Freight, а также на онлайн-платформах, таких как Worx.com и Amazon.com, с сентября 2024 года по март 2025 года.",
+          "ConsumerContact": "Для получения помощи потребители могут обратиться в Positec по телефону 800-889-0129 с понедельника по пятницу с 8:00 до 18:00 по восточному времени или посетить https://www.trane.com/residential/gas-electric-packaged-unit-recall/ для получения дополнительной информации.",
+          "metaDescription": "Positec отзывает электрические цепные пилы и пилы с удлинителем из-за опасности порезов. Прекратите использование и свяжитесь для получения замены.",
+          "Products": [
+            {
+              "Name": "Электрическая цепная пила Hyper Tough мощностью 9 А с проводом",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 49,000 (Кроме того, около 3,000 были проданы в Канаде)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванная электрическая цепная пила Hyper Tough мощностью 9 А с проводом длиной 14\""
+            },
+            {
+              "Caption": "Отозванная электрическая цепная пила Worx мощностью 8 А длиной 14\" с местоположением номера товара и серийного номера."
+            },
+            {
+              "Caption": "Отозванная электрическая пила с удлинителем Worx мощностью 8 А с местоположением номера товара и серийного номера."
+            },
+            {
+              "Caption": "Отозванная цепная пила Portland мощностью 9 А длиной 14\" с местоположением UPC, серийного номера и SKU."
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Не сообщалось о травмах"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Walmart (бренд Hyper Tough)"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Positec Tool Corporation, Шарлотта, Северная Каролина"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Продавалось в",
+          "ManufacturerCountries": [
+            {
+              "Country": "Китай"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Опасность порезов из-за потенциального выхода из строя выключателя"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Потребители должны прекратить использование продукции и обратиться в Positec для получения предоплаченной транспортной этикетки и замены пилы."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Заменить"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "Positec thu hồi cưa điện và cưa cầm tay do nguy cơ bị cắt",
+          "Description": "Positec đang thu hồi một số cưa điện và cưa cầm tay do nguy cơ bị cắt tiềm ẩn. Các mẫu bị ảnh hưởng bao gồm cưa điện dây Hyper Tough 9 Amp 14\", cưa điện Worx 8 Amp 14\", cưa cầm tay điện Worx 8 Amp, và cưa điện Portland 9 Amp 14\". Mỗi mẫu có các màu sắc và thương hiệu khác nhau, giúp người tiêu dùng nhận diện chúng. Mẫu Hyper Tough có màu đen với các điểm nhấn màu đỏ, trong khi các mẫu Worx có màu cam và đen. Cưa Portland có màu xanh với thanh đen.\n\nNgười tiêu dùng nên lưu ý rằng công tắc chính trên các cưa này có thể bị lỗi, khiến chúng hoạt động liên tục ngay cả khi công tắc đã được thả, dẫn đến chấn thương nghiêm trọng. Các sản phẩm bị ảnh hưởng đã được bán tại nhiều nhà bán lẻ, bao gồm Walmart và Harbor Freight, cũng như trên các nền tảng trực tuyến như Worx.com và Amazon.com từ tháng 9 năm 2024 đến tháng 3 năm 2025.",
+          "ConsumerContact": "Để được hỗ trợ, người tiêu dùng có thể liên hệ với Positec qua số 800-889-0129 từ thứ Hai đến thứ Sáu, từ 8 giờ sáng đến 6 giờ chiều theo giờ ET, hoặc truy cập https://www.trane.com/residential/gas-electric-packaged-unit-recall/ để biết thêm thông tin.",
+          "metaDescription": "Positec thu hồi cưa điện và cưa cầm tay do nguy cơ bị cắt. Ngừng sử dụng và liên hệ để được thay thế.",
+          "Products": [
+            {
+              "Name": "Cưa điện dây Hyper Tough 9 Amp",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 49,000 (Ngoài ra, khoảng 3,000 đã được bán tại Canada)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Cưa điện dây Hyper Tough 9 Amp 14\" bị thu hồi"
+            },
+            {
+              "Caption": "Cưa điện Worx 8 Amp 14\" bị thu hồi với vị trí của Mã sản phẩm và Số sê-ri."
+            },
+            {
+              "Caption": "Cưa cầm tay điện Worx 8 Amp bị thu hồi với vị trí của Mã sản phẩm và Số sê-ri."
+            },
+            {
+              "Caption": "Cưa điện Portland 9 Amp 14\" bị thu hồi với vị trí của UPC, Số sê-ri và SKU."
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Không có báo cáo"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Walmart (thương hiệu Hyper Tough)"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Công ty TNHH Positec Tool, tại Charlotte, North Carolina"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Đã bán tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Trung Quốc"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Nguy cơ bị cắt do lỗi công tắc tiềm ẩn"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Người tiêu dùng nên ngừng sử dụng sản phẩm và liên hệ với Positec để nhận nhãn vận chuyển đã trả trước và một chiếc cưa thay thế."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Thay thế"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    },
+    {
+      "RecallID": 10303,
+      "RecallNumber": "25323",
+      "RecallDate": "2025-06-05T00:00:00",
+      "Description": "DR Power Equipment has issued a recall for its lithium-ion battery-powered chainsaws, specifically models 414170, 414181, 41418, and 414170R. These chainsaws feature a black handle with orange buttons and are labeled with DR Pulse 62V. The model and serial numbers can be found on a white label on the right side of the handle. It is important to note that disposing of the lithium-ion battery in regular trash or recycling is hazardous due to fire risks. Consumers should check with their local household hazardous waste collection center for proper disposal options.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/DR-Power-Equipment-Recalls-Battery-Powered-Chainsaws-Due-to-Fire-and-Burn-Hazards",
+      "Title": "DR Power Equipment Recalls Lithium-Ion Battery Chainsaws Due to Fire Risks",
+      "ConsumerContact": "For assistance, contact DR Power at 800-940-6923 from 8:30 a.m. to 5 p.m. ET, Monday through Friday, email recalls@DRPower.com, or visit http://drpower.com/recalls for more information.",
+      "LastPublishDate": "2025-06-05T00:00:00",
+      "Products": [
+        {
+          "Name": "Lithium-Ion Battery Chainsaws",
+          "NumberOfUnits": "About 7,180 (In addition, about 21 were sold in Canada)"
+        }
+      ],
+      "Inconjunctions": [
+        {
+          "URL": "https://recalls-rappels.canada.ca/en/alert-recall/dr-power-equipment-lithium-ion-battery-powered-chainsaws-recalled-due-fire-and-burn"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/chain-saws/2-Lithium-Ion-Battery-Chainsaws/14a3a8f997950679f0ce6c7196108d24.webp",
+          "Caption": "Recalled DR Power Equipment battery-powered chainsaw (without battery)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/DRPower-1.png"
+        },
+        {
+          "URL": "/images/generalRecalls/chain-saws/2-Lithium-Ion-Battery-Chainsaws/3d1b391533c8b799fc9885dce0c2a2a0.webp",
+          "Caption": "Recalled DR Power Equipment battery-powered chainsaw (with battery)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/DRPower-2.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received 20 reports of incidents of fire, sparks and/or smoke. No injuries have been reported."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available at independent power equipment retailers across the country and online at https://drpower.com from June 2018 to July 2024, priced between $200 and $350."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Generac Power Systems Inc., of Waukesha, Wisconsin"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Overheating motor controller leading to fire and burn hazards"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Stop using the chainsaws and contact DR Power for a pro-rated refund. Proof of destruction is required."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "slug": "dr-power-equipment-recalls-lithium-ion-battery-chainsaws-due-to-fire-risks-recall",
+      "metaDescription": "DR Power recalls lithium-ion battery chainsaws due to fire hazards. Stop using and contact for a refund. Learn more here.",
+      "languages": {
+        "en": {
+          "Title": "DR Power Equipment Recalls Lithium-Ion Battery Chainsaws Due to Fire Risks",
+          "Description": "DR Power Equipment has issued a recall for its lithium-ion battery-powered chainsaws, specifically models 414170, 414181, 41418, and 414170R. These chainsaws feature a black handle with orange buttons and are labeled with DR Pulse 62V. The model and serial numbers can be found on a white label on the right side of the handle. It is important to note that disposing of the lithium-ion battery in regular trash or recycling is hazardous due to fire risks. Consumers should check with their local household hazardous waste collection center for proper disposal options.",
+          "ConsumerContact": "For assistance, contact DR Power at 800-940-6923 from 8:30 a.m. to 5 p.m. ET, Monday through Friday, email recalls@DRPower.com, or visit http://drpower.com/recalls for more information.",
+          "metaDescription": "DR Power recalls lithium-ion battery chainsaws due to fire hazards. Stop using and contact for a refund. Learn more here.",
+          "Products": [
+            {
+              "Name": "Lithium-Ion Battery Chainsaws",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 7,180 (In addition, about 21 were sold in Canada)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled DR Power Equipment battery-powered chainsaw (without battery)"
+            },
+            {
+              "Caption": "Recalled DR Power Equipment battery-powered chainsaw (with battery)"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "The firm has received 20 reports of incidents of fire, sparks and/or smoke. No injuries have been reported."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Available at independent power equipment retailers across the country and online at https://drpower.com from June 2018 to July 2024, priced between $200 and $350."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Generac Power Systems Inc., of Waukesha, Wisconsin"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Sold At",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Overheating motor controller leading to fire and burn hazards"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Stop using the chainsaws and contact DR Power for a pro-rated refund. Proof of destruction is required."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Refund"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "DR Power Equipment Retira Motosierras de Batería de Iones de Litio Debido a Riesgos de Incendio",
+          "Description": "DR Power Equipment ha emitido un retiro para sus motosierras a batería de iones de litio, específicamente los modelos 414170, 414181, 41418 y 414170R. Estas motosierras cuentan con un mango negro con botones naranjas y están etiquetadas con DR Pulse 62V. El número de modelo y los números de serie se pueden encontrar en una etiqueta blanca en el lado derecho del mango. Es importante tener en cuenta que desechar la batería de iones de litio en la basura regular o en el reciclaje es peligroso debido a los riesgos de incendio. Los consumidores deben consultar con su centro local de recolección de desechos peligrosos para el hogar sobre las opciones de disposición adecuadas.",
+          "ConsumerContact": "Para asistencia, comuníquese con DR Power al 800-940-6923 de 8:30 a.m. a 5 p.m. ET, de lunes a viernes, envíe un correo electrónico a recalls@DRPower.com, o visite http://drpower.com/recalls para más información.",
+          "metaDescription": "DR Power retira motosierras de batería de iones de litio debido a riesgos de incendio. Deje de usar y comuníquese para un reembolso. Aprenda más aquí.",
+          "Products": [
+            {
+              "Name": "Motosierras de Batería de Iones de Litio",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 7,180 (Además, se vendieron aproximadamente 21 en Canadá)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Motosierra de batería DR Power Equipment retirada (sin batería)"
+            },
+            {
+              "Caption": "Motosierra de batería DR Power Equipment retirada (con batería)"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "La empresa ha recibido 20 informes de incidentes de fuego, chispas y/o humo. No se han reportado lesiones."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible en minoristas independientes de equipos de potencia en todo el país y en línea en https://drpower.com desde junio de 2018 hasta julio de 2024, con precios entre $200 y $350."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Generac Power Systems Inc., de Waukesha, Wisconsin"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendidos En",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Controlador de motor sobrecalentado que conduce a riesgos de incendio y quemaduras"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Deje de usar las motosierras y comuníquese con DR Power para un reembolso prorrateado. Se requiere prueba de destrucción."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reembolso"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "استدعاء معدات DR Power لمناشير البطارية الليثيوم أيون بسبب مخاطر الحريق",
+          "Description": "أصدرت معدات DR Power استدعاء لمناشيرها التي تعمل ببطارية الليثيوم أيون، وتحديداً الطرازات 414170 و414181 و41418 و414170R. تتميز هذه المناشير بمقبض أسود مع أزرار برتقالية وموسومة بـ DR Pulse 62V. يمكن العثور على رقم الطراز ورقم السلسلة على ملصق أبيض على الجانب الأيمن من المقبض. من المهم ملاحظة أن التخلص من بطارية الليثيوم أيون في القمامة العادية أو إعادة التدوير يعد خطراً بسبب مخاطر الحريق. يجب على المستهلكين التحقق مع مركز جمع النفايات المنزلية الخطرة المحلي لديهم للحصول على خيارات التخلص المناسبة.",
+          "ConsumerContact": "للمساعدة، اتصل بـ DR Power على الرقم 800-940-6923 من الساعة 8:30 صباحاً حتى 5:00 مساءً بتوقيت شرق الولايات المتحدة، من الاثنين إلى الجمعة، أو أرسل بريدًا إلكترونيًا إلى recalls@DRPower.com، أو قم بزيارة http://drpower.com/recalls لمزيد من المعلومات.",
+          "metaDescription": "تستدعي DR Power مناشير البطارية الليثيوم أيون بسبب مخاطر الحريق. توقف عن الاستخدام واتصل للحصول على استرداد. تعرف على المزيد هنا.",
+          "Products": [
+            {
+              "Name": "مناشير البطارية الليثيوم أيون",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 7,180 (بالإضافة إلى أنه تم بيع حوالي 21 في كندا)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "منشار DR Power Equipment المستدعى (بدون بطارية)"
+            },
+            {
+              "Caption": "منشار DR Power Equipment المستدعى (مع بطارية)"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "تلقت الشركة 20 تقريراً عن حوادث حريق أو شرر أو دخان. لم يتم الإبلاغ عن أي إصابات."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "متوفر في تجار معدات الطاقة المستقلين في جميع أنحاء البلاد وعبر الإنترنت على https://drpower.com من يونيو 2018 إلى يوليو 2024، بأسعار تتراوح بين 200 دولار و350 دولار."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Generac Power Systems Inc.، من Waukesha، Wisconsin"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "تم البيع في",
+          "ManufacturerCountries": [
+            {
+              "Country": "الصين"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "سخان محرك مفرط يؤدي إلى مخاطر الحريق والحروق"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "توقف عن استخدام المناشير واتصل بـ DR Power للحصول على استرداد نسبي. يتطلب إثبات التدمير."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "استرداد"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "DR动力设备因火灾风险召回锂离子电池链锯",
+          "Description": "DR动力设备已对其锂离子电池驱动的链锯发起召回，具体型号为414170、414181、41418和414170R。这些链锯具有黑色手柄和橙色按钮，并标有DR Pulse 62V。型号和序列号可以在手柄右侧的白色标签上找到。需要注意的是，随意将锂离子电池丢弃在普通垃圾或回收中是危险的，因为存在火灾风险。消费者应咨询当地的家庭危险废物收集中心以获取适当的处置选项。",
+          "ConsumerContact": "如需帮助，请联系DR动力，电话800-940-6923，工作时间为周一至周五，东部时间上午8:30至下午5:00，或发送电子邮件至recalls@DRPower.com，或访问http://drpower.com/recalls以获取更多信息。",
+          "metaDescription": "DR动力因火灾隐患召回锂离子电池链锯。停止使用并联系以获取退款。了解更多信息。",
+          "Products": [
+            {
+              "Name": "锂离子电池链锯",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约7180台（此外，约21台在加拿大销售）"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "召回的DR动力设备电池驱动链锯（不带电池）"
+            },
+            {
+              "Caption": "召回的DR动力设备电池驱动链锯（带电池）"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "该公司已收到20起火灾、火花和/或烟雾事件的报告。未报告任何伤害。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "在全国各地的独立动力设备零售商和https://drpower.com在线销售，销售时间为2018年6月至2024年7月，价格在200美元至350美元之间。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "位于威斯康星州沃基肖的Generac Power Systems Inc."
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "销售地点",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "电机控制器过热导致火灾和烧伤风险"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "停止使用链锯并联系DR动力以获取按比例退款。需要提供销毁证明。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "退款"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "DR Power Equipment rappelle des tronçonneuses à batterie lithium-ion en raison de risques d'incendie",
+          "Description": "DR Power Equipment a émis un rappel pour ses tronçonneuses alimentées par batterie lithium-ion, spécifiquement les modèles 414170, 414181, 41418 et 414170R. Ces tronçonneuses présentent une poignée noire avec des boutons orange et sont étiquetées avec DR Pulse 62V. Le modèle et les numéros de série se trouvent sur une étiquette blanche sur le côté droit de la poignée. Il est important de noter que jeter la batterie lithium-ion dans les déchets ordinaires ou le recyclage est dangereux en raison des risques d'incendie. Les consommateurs doivent vérifier auprès de leur centre local de collecte des déchets dangereux pour les options de mise au rebut appropriées.",
+          "ConsumerContact": "Pour assistance, contactez DR Power au 800-940-6923 de 8h30 à 17h00 HE, du lundi au vendredi, par email à recalls@DRPower.com, ou visitez http://drpower.com/recalls pour plus d'informations.",
+          "metaDescription": "DR Power rappelle des tronçonneuses à batterie lithium-ion en raison de dangers d'incendie. Cessez d'utiliser et contactez pour un remboursement. En savoir plus ici.",
+          "Products": [
+            {
+              "Name": "Tronçonneuses à batterie lithium-ion",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 7 180 (De plus, environ 21 ont été vendues au Canada)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Tronçonneuse à batterie DR Power Equipment rappelée (sans batterie)"
+            },
+            {
+              "Caption": "Tronçonneuse à batterie DR Power Equipment rappelée (avec batterie)"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "L'entreprise a reçu 20 rapports d'incidents d'incendie, d'étincelles et/ou de fumée. Aucune blessure n'a été signalée."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible chez des détaillants d'équipements de puissance indépendants à travers le pays et en ligne sur https://drpower.com de juin 2018 à juillet 2024, au prix compris entre 200 $ et 350 $."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Generac Power Systems Inc., de Waukesha, Wisconsin"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendu À",
+          "ManufacturerCountries": [
+            {
+              "Country": "Chine"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Contrôleur de moteur surchauffé entraînant des risques d'incendie et de brûlures"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Cessez d'utiliser les tronçonneuses et contactez DR Power pour un remboursement au prorata. Une preuve de destruction est requise."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Remboursement"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "DR Power Equipment ruft Lithium-Ionen-Batterie-Kettensägen aufgrund von Brandrisiken zurück",
+          "Description": "DR Power Equipment hat einen Rückruf für seine batteriebetriebenen Lithium-Ionen-Kettensägen herausgegeben, insbesondere für die Modelle 414170, 414181, 41418 und 414170R. Diese Kettensägen verfügen über einen schwarzen Griff mit orangefarbenen Tasten und sind mit DR Pulse 62V gekennzeichnet. Die Modell- und Seriennummern sind auf einem weißen Etikett an der rechten Seite des Griffs zu finden. Es ist wichtig zu beachten, dass die Entsorgung der Lithium-Ionen-Batterie im regulären Müll oder Recycling aufgrund von Brandrisiken gefährlich ist. Verbraucher sollten sich bei ihrem lokalen Zentrum für die Sammlung gefährlicher Haushaltsabfälle nach geeigneten Entsorgungsmöglichkeiten erkundigen.",
+          "ConsumerContact": "Für Unterstützung kontaktieren Sie DR Power unter 800-940-6923 von 8:30 bis 17:00 Uhr ET, Montag bis Freitag, per E-Mail an recalls@DRPower.com oder besuchen Sie http://drpower.com/recalls für weitere Informationen.",
+          "metaDescription": "DR Power ruft Lithium-Ionen-Batterie-Kettensägen aufgrund von Brandgefahren zurück. Verwenden Sie sie nicht mehr und kontaktieren Sie uns für eine Rückerstattung. Erfahren Sie hier mehr.",
+          "Products": [
+            {
+              "Name": "Lithium-Ionen-Batterie-Kettensägen",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 7.180 (Zusätzlich wurden etwa 21 in Kanada verkauft)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Rückgerufene DR Power Equipment batteriebetriebene Kettensäge (ohne Batterie)"
+            },
+            {
+              "Caption": "Rückgerufene DR Power Equipment batteriebetriebene Kettensäge (mit Batterie)"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Das Unternehmen hat 20 Berichte über Vorfälle mit Feuer, Funken und/oder Rauch erhalten. Es wurden keine Verletzungen gemeldet."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Erhältlich bei unabhängigen Fachhändlern für Elektrowerkzeuge im ganzen Land und online unter https://drpower.com von Juni 2018 bis Juli 2024, preislich zwischen 200 und 350 US-Dollar."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Generac Power Systems Inc., aus Waukesha, Wisconsin"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Verkauft Bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Überhitzung des Motorsteuergeräts, die zu Brand- und Verbrennungsgefahren führt"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Hören Sie auf, die Kettensägen zu verwenden, und kontaktieren Sie DR Power für eine anteilige Rückerstattung. Ein Nachweis über die Zerstörung ist erforderlich."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Rückerstattung"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "DRパワー機器が火災リスクによりリチウムイオンバッテリー式チェーンソーをリコール",
+          "Description": "DRパワー機器は、リチウムイオンバッテリー式チェーンソーのリコールを発表しました。対象モデルは414170、414181、41418、414170Rです。これらのチェーンソーは、オレンジ色のボタンが付いた黒いハンドルを特徴としており、DR Pulse 62Vとラベル付けされています。モデル番号とシリアル番号は、ハンドルの右側にある白いラベルに記載されています。リチウムイオンバッテリーを通常のゴミやリサイクルに廃棄することは、火災リスクがあるため危険です。消費者は、適切な廃棄オプションについて地元の家庭用危険廃棄物収集センターに確認する必要があります。",
+          "ConsumerContact": "サポートが必要な場合は、月曜日から金曜日の午前8時30分から午後5時（ET）まで、800-940-6923までDRパワーに連絡するか、recalls@DRPower.comにメールを送信するか、http://drpower.com/recallsを訪れて詳細情報をご覧ください。",
+          "metaDescription": "DRパワーが火災の危険性によりリチウムイオンバッテリー式チェーンソーをリコール。使用を中止し、返金のために連絡してください。詳細はこちら。",
+          "Products": [
+            {
+              "Name": "リチウムイオンバッテリー式チェーンソー",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約7,180台（さらに、カナダで約21台が販売されました）"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコールされたDRパワー機器のバッテリー式チェーンソー（バッテリーなし）"
+            },
+            {
+              "Caption": "リコールされたDRパワー機器のバッテリー式チェーンソー（バッテリー付き）"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "同社は火災、火花、または煙の事例について20件の報告を受けています。負傷者の報告はありません。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "全国の独立したパワー機器小売店およびhttps://drpower.comで、2018年6月から2024年7月まで販売され、価格は200ドルから350ドルの間です。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "ウィスコンシン州ワウキシャのGenerac Power Systems Inc."
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "販売場所",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "過熱したモーターコントローラーによる火災および火傷の危険"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "チェーンソーの使用を中止し、DRパワーに連絡して按分返金を受けてください。破壊の証明が必要です。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "返金"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "DR Power Equipment Recalls Motosserras a Bateria de Íon de Lítio Devido a Riscos de Incêndio",
+          "Description": "A DR Power Equipment emitiu um recall para suas motosserras movidas a bateria de íon de lítio, especificamente os modelos 414170, 414181, 41418 e 414170R. Essas motosserras possuem um cabo preto com botões laranja e estão rotuladas com DR Pulse 62V. O modelo e os números de série podem ser encontrados em um rótulo branco no lado direito do cabo. É importante notar que descartar a bateria de íon de lítio no lixo comum ou na reciclagem é perigoso devido aos riscos de incêndio. Os consumidores devem verificar com o centro de coleta de resíduos perigosos domésticos local para opções de descarte adequadas.",
+          "ConsumerContact": "Para assistência, entre em contato com a DR Power pelo telefone 800-940-6923 das 8h30 às 17h ET, de segunda a sexta-feira, envie um e-mail para recalls@DRPower.com ou visite http://drpower.com/recalls para mais informações.",
+          "metaDescription": "A DR Power faz recall de motosserras a bateria de íon de lítio devido a riscos de incêndio. Pare de usar e entre em contato para um reembolso. Saiba mais aqui.",
+          "Products": [
+            {
+              "Name": "Motosserras a Bateria de Íon de Lítio",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 7.180 (Além disso, cerca de 21 foram vendidas no Canadá)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Motossierra a bateria da DR Power Equipment recall (sem bateria)"
+            },
+            {
+              "Caption": "Motossierra a bateria da DR Power Equipment recall (com bateria)"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "A empresa recebeu 20 relatos de incidentes de incêndio, faíscas e/ou fumaça. Nenhum ferimento foi relatado."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponível em revendedores independentes de equipamentos de potência em todo o país e online em https://drpower.com de junho de 2018 a julho de 2024, com preços entre $200 e $350."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Generac Power Systems Inc., de Waukesha, Wisconsin"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendido Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Controlador de motor superaquecido levando a riscos de incêndio e queimaduras"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Pare de usar as motosserras e entre em contato com a DR Power para um reembolso proporcional. É necessário comprovante de destruição."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reembolso"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "डीआर पावर उपकरण ने आग के जोखिम के कारण लिथियम-आयन बैटरी चेनसॉ की वापसी की",
+          "Description": "डीआर पावर उपकरण ने अपने लिथियम-आयन बैटरी चालित चेनसॉ की वापसी की है, विशेष रूप से मॉडल 414170, 414181, 41418, और 414170R। इन चेनसॉ में नारंगी बटन के साथ एक काला हैंडल होता है और इन्हें डीआर पल्स 62वी के रूप में लेबल किया गया है। मॉडल और सीरियल नंबर हैंडल के दाहिनी ओर एक सफेद लेबल पर पाए जा सकते हैं। यह ध्यान रखना महत्वपूर्ण है कि लिथियम-आयन बैटरी को सामान्य कचरे या रिसाइक्लिंग में फेंकना आग के जोखिम के कारण खतरनाक है। उपभोक्ताओं को उचित निपटान विकल्पों के लिए अपने स्थानीय घरेलू खतरनाक अपशिष्ट संग्रह केंद्र से जांच करनी चाहिए।",
+          "ConsumerContact": "सहायता के लिए, सोमवार से शुक्रवार, सुबह 8:30 बजे से शाम 5 बजे ईटी के बीच 800-940-6923 पर डीआर पावर से संपर्क करें, ईमेल करें recalls@DRPower.com, या अधिक जानकारी के लिए http://drpower.com/recalls पर जाएं।",
+          "metaDescription": "डीआर पावर आग के खतरों के कारण लिथियम-आयन बैटरी चेनसॉ की वापसी करता है। उपयोग करना बंद करें और रिफंड के लिए संपर्क करें। यहाँ और जानें।",
+          "Products": [
+            {
+              "Name": "लिथियम-आयन बैटरी चेनसॉ",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 7,180 (इसके अतिरिक्त, लगभग 21 कनाडा में बेचे गए)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "वापसी की गई डीआर पावर उपकरण बैटरी चालित चेनसॉ (बिना बैटरी के)"
+            },
+            {
+              "Caption": "वापसी की गई डीआर पावर उपकरण बैटरी चालित चेनसॉ (बैटरी के साथ)"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "कंपनी को आग, चिंगारी और/या धुएं की 20 घटनाओं की रिपोर्ट मिली है। कोई चोट की रिपोर्ट नहीं की गई है।"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "देश भर में स्वतंत्र पावर उपकरण खुदरा विक्रेताओं और https://drpower.com पर जून 2018 से जुलाई 2024 तक उपलब्ध, कीमत $200 से $350 के बीच।"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "जेनरैक पावर सिस्टम्स इंक, वॉकेशा, विस्कॉन्सिन"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "चीन"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "ओवरहीटिंग मोटर कंट्रोलर जो आग और जलने के खतरों का कारण बनता है"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "चेनसॉ का उपयोग करना बंद करें और प्रोराटा रिफंड के लिए डीआर पावर से संपर्क करें। विनाश का प्रमाण आवश्यक है।"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "रिफंड"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "Компания DR Power Equipment отзывает бензопилы с литий-ионными аккумуляторами из-за риска возгорания",
+          "Description": "Компания DR Power Equipment объявила об отзыве своих бензопил, работающих на литий-ионных аккумуляторах, в частности моделей 414170, 414181, 41418 и 414170R. Эти бензопилы имеют черную ручку с оранжевыми кнопками и маркируются как DR Pulse 62V. Модель и серийные номера можно найти на белой наклейке на правой стороне ручки. Важно отметить, что утилизация литий-ионного аккумулятора в обычный мусор или переработку опасна из-за риска возгорания. Потребителям следует обратиться в местный центр сбора опасных отходов для правильных вариантов утилизации.",
+          "ConsumerContact": "Для получения помощи свяжитесь с DR Power по телефону 800-940-6923 с 8:30 до 17:00 по восточному времени, с понедельника по пятницу, отправьте электронное письмо на адрес recalls@DRPower.com или посетите http://drpower.com/recalls для получения дополнительной информации.",
+          "metaDescription": "Компания DR Power отзывает бензопилы с литий-ионными аккумуляторами из-за опасности возгорания. Прекратите использование и свяжитесь для получения возврата. Узнайте больше здесь.",
+          "Products": [
+            {
+              "Name": "Бензопилы с литий-ионными аккумуляторами",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 7,180 (Кроме того, около 21 были проданы в Канаде)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванная бензопила DR Power Equipment с аккумулятором (без аккумулятора)"
+            },
+            {
+              "Caption": "Отозванная бензопила DR Power Equipment с аккумулятором (с аккумулятором)"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Компания получила 20 сообщений о случаях возгорания, искр и/или дыма. О травмах не сообщалось."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Доступно у независимых продавцов электрооборудования по всей стране и онлайн на https://drpower.com с июня 2018 года по июль 2024 года, по цене от 200 до 350 долларов."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Generac Power Systems Inc., Вокеша, Висконсин"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Продается в",
+          "ManufacturerCountries": [
+            {
+              "Country": "Китай"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Перегрев контроллера мотора, что приводит к риску возгорания и ожогам"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Прекратите использование бензопил и свяжитесь с DR Power для получения пропорционального возврата. Требуется доказательство уничтожения."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Возврат"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "DR Power Equipment thu hồi cưa xích chạy bằng pin lithium-ion do nguy cơ cháy",
+          "Description": "DR Power Equipment đã phát động một đợt thu hồi cho các cưa xích chạy bằng pin lithium-ion của mình, cụ thể là các mẫu 414170, 414181, 41418 và 414170R. Những chiếc cưa xích này có tay cầm màu đen với các nút màu cam và được gán nhãn DR Pulse 62V. Số mô hình và số sê-ri có thể được tìm thấy trên một nhãn trắng ở bên phải tay cầm. Cần lưu ý rằng việc vứt bỏ pin lithium-ion vào rác thông thường hoặc tái chế là nguy hiểm do nguy cơ cháy. Người tiêu dùng nên kiểm tra với trung tâm thu gom chất thải nguy hại hộ gia đình địa phương của họ để biết các tùy chọn vứt bỏ thích hợp.",
+          "ConsumerContact": "Để được hỗ trợ, hãy liên hệ với DR Power theo số 800-940-6923 từ 8:30 sáng đến 5:00 chiều ET, từ thứ Hai đến thứ Sáu, gửi email đến recalls@DRPower.com, hoặc truy cập http://drpower.com/recalls để biết thêm thông tin.",
+          "metaDescription": "DR Power thu hồi cưa xích chạy bằng pin lithium-ion do nguy cơ cháy. Ngừng sử dụng và liên hệ để được hoàn tiền. Tìm hiểu thêm tại đây.",
+          "Products": [
+            {
+              "Name": "Cưa xích chạy bằng pin lithium-ion",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 7,180 (Ngoài ra, khoảng 21 chiếc đã được bán ở Canada)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Cưa xích chạy bằng pin của DR Power Equipment đã bị thu hồi (không có pin)"
+            },
+            {
+              "Caption": "Cưa xích chạy bằng pin của DR Power Equipment đã bị thu hồi (có pin)"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Công ty đã nhận được 20 báo cáo về các sự cố cháy, tia lửa và/hoặc khói. Không có thương tích nào được báo cáo."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Có sẵn tại các nhà bán lẻ thiết bị điện độc lập trên toàn quốc và trực tuyến tại https://drpower.com từ tháng 6 năm 2018 đến tháng 7 năm 2024, với giá từ 200 đến 350 đô la."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Generac Power Systems Inc., ở Waukesha, Wisconsin"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Bán Tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Trung Quốc"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Bộ điều khiển động cơ quá nhiệt dẫn đến nguy cơ cháy và bỏng"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Ngừng sử dụng cưa xích và liên hệ với DR Power để được hoàn tiền theo tỷ lệ. Cần có bằng chứng về việc tiêu hủy."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Hoàn tiền"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    }
+  ]
+}
