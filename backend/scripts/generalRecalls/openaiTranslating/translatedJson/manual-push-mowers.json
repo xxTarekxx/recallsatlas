@@ -1,0 +1,958 @@
+{
+  "meta": {
+    "slug": "manual-push-mowers",
+    "sourceCsvFile": "manual-push-mowers_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:36.994Z",
+    "recallCount": 1,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "manual-push-mowers.json",
+    "seoTranslatedAt": "2026-04-04T06:44:58.396Z",
+    "resumePartial": false,
+    "i18nSource": "generalRecallsTranslated",
+    "i18nSourceFile": "manual-push-mowers.json",
+    "i18nUiLangs": [
+      "en",
+      "es",
+      "ar",
+      "zh",
+      "fr",
+      "de",
+      "ja",
+      "pt",
+      "hi",
+      "ru",
+      "vi"
+    ],
+    "i18nProgressByLang": {
+      "es": 1,
+      "ar": 1,
+      "zh": 1,
+      "fr": 1,
+      "de": 1,
+      "ja": 1,
+      "pt": 1,
+      "hi": 1,
+      "ru": 1,
+      "vi": 1
+    },
+    "i18nInProgress": false,
+    "i18nTranslatedAt": "2026-04-07T13:15:59.719Z",
+    "i18nOpenaiModel": "gpt-4o-mini"
+  },
+  "recalls": [
+    {
+      "RecallID": 10035,
+      "RecallNumber": "24345",
+      "RecallDate": "2024-08-15T00:00:00",
+      "Description": "Stanley Black & Decker has announced a recall of specific 2024 model year DeWALT Battery walk-behind mowers due to a potential laceration hazard. The affected models include the 21\" Push mowers (DCMWP234U2 and DCMWP600X2) and the 21\" Self-Propelled mowers (DCMWSP256U2 and DCMWSP650Y2). These mowers are identifiable by their black, gray, and yellow colors with 'DeWALT' printed prominently in yellow. The model number can be found on the rear door, while the date code is laser-printed on the left side above the rear wheel. Only mowers with date codes from 2023 32-58 to 2024 13-58 are involved in this recall; those manufactured after March 2024 are safe.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/Stanley-Black-Decker-Recalls-DeWALT-Battery-Walk-Behind-Mowers-Due-to-Laceration-Hazard",
+      "Title": "DeWALT Battery Walk-Behind Mowers Recalled by Stanley Black & Decker Due to Laceration Risk",
+      "ConsumerContact": "For assistance, consumers should contact DeWALT at 800-990-6421 between 8 a.m. and 6 p.m. ET, Monday through Friday. Additional information can be found online at https://www.dewalt.com/push-mowers-recall or by visiting https://www.dewalt.com and clicking on 'Safety Notices and Recalls' at the bottom of the page.",
+      "LastPublishDate": "2024-08-15T00:00:00",
+      "Products": [
+        {
+          "Name": "DeWALT Battery Push Mower",
+          "NumberOfUnits": "About 46,200 (In addition, about 9,600 were sold in Canada)"
+        }
+      ],
+      "Inconjunctions": [
+        {
+          "URL": "https://recalls-rappels.canada.ca/en/alert-recall/dewalt-battery-electric-walk-behind-lawn-mowers-recalled-due-risk-injury"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/manual-push-mowers/1-DeWALT-Battery-Push-Mower/d95f934bb1a67cf02b556ed9a3bbe6c4.webp",
+          "Caption": "Recalled 2024 DeWALT Battery Push walk behind mowers, model no. DCMWP234U2",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/ADewalt.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/manual-push-mowers/1-DeWALT-Battery-Push-Mower/e7df8ba769e32ced1df8a093306546e5.webp",
+          "Caption": "Recalled 2024 DeWALT Battery Push walk behind mowers, model no. DCMWP600X2",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/ABDewalt.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/manual-push-mowers/1-DeWALT-Battery-Push-Mower/c166fa05461ddecf120703510d37fede.webp",
+          "Caption": "Recalled 2024 DeWALT Battery Self-Propelled walk behind mowers, model no. DCMWSP256U2",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/ABCDewalt.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/manual-push-mowers/1-DeWALT-Battery-Push-Mower/54c0769c6ed7af4fb920924d9b25e8c0.webp",
+          "Caption": "SRecalled 2024 DeWALT Battery Self-Propelled walk behind mowers, model no. DCMWSP650Y2",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/ABCDDewalt.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/manual-push-mowers/1-DeWALT-Battery-Push-Mower/dc7dbeaec8e4b5f86c99f7e0ed0fab6e.webp",
+          "Caption": "The model number is printed on the rear door of the mower",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/ABCDEDewalt.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/manual-push-mowers/1-DeWALT-Battery-Push-Mower/78ec59f4c0a65e2f09769226afce148d.webp",
+          "Caption": "The date code is printed on the left side of the mower, above the rear wheel",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/ABCDEFDewalt.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received 10 reports of mowers failing to shut off when the bail handle is released and one report of a mower starting without a key inserted. The incident in which a mower started without a key inserted resulted in a finger laceration for which no medical attention was required."
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "Stanley Black and Decker Inc., of New Britain, Connecticut"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "The Home Depot"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Laceration hazard due to potential failure to shut off"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Free repair at an authorized service center"
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "DCMWP234U2",
+        "DCMWP600X2",
+        "DCMWSP256U2",
+        "DCMWSP650Y2"
+      ],
+      "slug": "dewalt-battery-walk-behind-mowers-recalled-by-stanley-black-decker-due-to-laceration-risk-recall",
+      "metaDescription": "DeWALT recalls specific battery walk-behind mowers due to laceration hazards. Check if your mower is affected and contact DeWALT for a free repair.",
+      "languages": {
+        "en": {
+          "Title": "DeWALT Battery Walk-Behind Mowers Recalled by Stanley Black & Decker Due to Laceration Risk",
+          "Description": "Stanley Black & Decker has announced a recall of specific 2024 model year DeWALT Battery walk-behind mowers due to a potential laceration hazard. The affected models include the 21\" Push mowers (DCMWP234U2 and DCMWP600X2) and the 21\" Self-Propelled mowers (DCMWSP256U2 and DCMWSP650Y2). These mowers are identifiable by their black, gray, and yellow colors with 'DeWALT' printed prominently in yellow. The model number can be found on the rear door, while the date code is laser-printed on the left side above the rear wheel. Only mowers with date codes from 2023 32-58 to 2024 13-58 are involved in this recall; those manufactured after March 2024 are safe.",
+          "ConsumerContact": "For assistance, consumers should contact DeWALT at 800-990-6421 between 8 a.m. and 6 p.m. ET, Monday through Friday. Additional information can be found online at https://www.dewalt.com/push-mowers-recall or by visiting https://www.dewalt.com and clicking on 'Safety Notices and Recalls' at the bottom of the page.",
+          "metaDescription": "DeWALT recalls specific battery walk-behind mowers due to laceration hazards. Check if your mower is affected and contact DeWALT for a free repair.",
+          "Products": [
+            {
+              "Name": "DeWALT Battery Push Mower",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 46,200 (In addition, about 9,600 were sold in Canada)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled 2024 DeWALT Battery Push walk behind mowers, model no. DCMWP234U2"
+            },
+            {
+              "Caption": "Recalled 2024 DeWALT Battery Push walk behind mowers, model no. DCMWP600X2"
+            },
+            {
+              "Caption": "Recalled 2024 DeWALT Battery Self-Propelled walk behind mowers, model no. DCMWSP256U2"
+            },
+            {
+              "Caption": "SRecalled 2024 DeWALT Battery Self-Propelled walk behind mowers, model no. DCMWSP650Y2"
+            },
+            {
+              "Caption": "The model number is printed on the rear door of the mower"
+            },
+            {
+              "Caption": "The date code is printed on the left side of the mower, above the rear wheel"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "The firm has received 10 reports of mowers failing to shut off when the bail handle is released and one report of a mower starting without a key inserted. The incident in which a mower started without a key inserted resulted in a finger laceration for which no medical attention was required."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "The Home Depot"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Stanley Black and Decker Inc., of New Britain, Connecticut"
+            }
+          ],
+          "SoldAtLabel": "Sold At",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Laceration hazard due to potential failure to shut off"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Free repair at an authorized service center"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Repair"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "Cortadoras de césped DeWALT a batería retiradas por Stanley Black & Decker debido a riesgo de laceración",
+          "Description": "Stanley Black & Decker ha anunciado un retiro de modelos específicos de cortadoras de césped DeWALT a batería del año modelo 2024 debido a un posible riesgo de laceración. Los modelos afectados incluyen las cortadoras de empuje de 21\" (DCMWP234U2 y DCMWP600X2) y las cortadoras autopropulsadas de 21\" (DCMWSP256U2 y DCMWSP650Y2). Estas cortadoras son identificables por sus colores negro, gris y amarillo con 'DeWALT' impreso de manera prominente en amarillo. El número de modelo se puede encontrar en la puerta trasera, mientras que el código de fecha está impreso con láser en el lado izquierdo sobre la rueda trasera. Solo las cortadoras con códigos de fecha desde 2023 32-58 hasta 2024 13-58 están involucradas en este retiro; aquellas fabricadas después de marzo de 2024 son seguras.",
+          "ConsumerContact": "Para asistencia, los consumidores deben contactar a DeWALT al 800-990-6421 entre las 8 a.m. y las 6 p.m. ET, de lunes a viernes. Se puede encontrar información adicional en línea en https://www.dewalt.com/push-mowers-recall o visitando https://www.dewalt.com y haciendo clic en 'Avisos de seguridad y retiros' en la parte inferior de la página.",
+          "metaDescription": "DeWALT retira cortadoras de césped a batería específicas debido a riesgos de laceración. Verifique si su cortadora está afectada y contacte a DeWALT para una reparación gratuita.",
+          "Products": [
+            {
+              "Name": "Cortadora de césped DeWALT a batería",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 46,200 (Además, aproximadamente 9,600 se vendieron en Canadá)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Cortadoras de césped DeWALT a batería de empuje retiradas 2024, modelo no. DCMWP234U2"
+            },
+            {
+              "Caption": "Cortadoras de césped DeWALT a batería de empuje retiradas 2024, modelo no. DCMWP600X2"
+            },
+            {
+              "Caption": "Cortadoras de césped DeWALT a batería autopropulsadas retiradas 2024, modelo no. DCMWSP256U2"
+            },
+            {
+              "Caption": "Cortadoras de césped DeWALT a batería autopropulsadas retiradas 2024, modelo no. DCMWSP650Y2"
+            },
+            {
+              "Caption": "El número de modelo está impreso en la puerta trasera de la cortadora"
+            },
+            {
+              "Caption": "El código de fecha está impreso en el lado izquierdo de la cortadora, sobre la rueda trasera"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "La empresa ha recibido 10 informes de cortadoras que no se apagan cuando se suelta la manija de seguridad y un informe de una cortadora que se encendió sin una llave insertada. El incidente en el que una cortadora se encendió sin una llave insertada resultó en una laceración en un dedo para la cual no se requirió atención médica."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "The Home Depot"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Stanley Black and Decker Inc., de New Britain, Connecticut"
+            }
+          ],
+          "SoldAtLabel": "Vendidos En",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Riesgo de laceración debido a posible falla para apagarse"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Reparación gratuita en un centro de servicio autorizado"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparar"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "استدعاء جزازات العشب الكهربائية من DeWALT من قبل ستانلي بلاك وديكر بسبب خطر القطع",
+          "Description": "أعلنت ستانلي بلاك وديكر عن استدعاء نماذج معينة من جزازات العشب الكهربائية من DeWALT لعام 2024 بسبب خطر محتمل للقطع. تشمل النماذج المتأثرة جزازات العشب ذات الدفع اليدوي 21\" (DCMWP234U2 و DCMWP600X2) وجزازات العشب ذات الدفع الذاتي 21\" (DCMWSP256U2 و DCMWSP650Y2). يمكن التعرف على هذه الجزازات بألوانها السوداء والرمادية والصفراء مع كلمة 'DeWALT' مطبوعة بشكل بارز باللون الأصفر. يمكن العثور على رقم الطراز على الباب الخلفي، بينما يتم طباعة رمز التاريخ بالليزر على الجانب الأيسر فوق العجلة الخلفية. فقط الجزازات التي تحمل رموز تاريخ من 2023 32-58 إلى 2024 13-58 مشمولة في هذا الاستدعاء؛ تلك التي تم تصنيعها بعد مارس 2024 آمنة.",
+          "ConsumerContact": "للحصول على المساعدة، يجب على المستهلكين الاتصال بـ DeWALT على الرقم 800-990-6421 بين الساعة 8 صباحًا و 6 مساءً بتوقيت شرق الولايات المتحدة، من الاثنين إلى الجمعة. يمكن العثور على معلومات إضافية عبر الإنترنت على https://www.dewalt.com/push-mowers-recall أو من خلال زيارة https://www.dewalt.com والنقر على 'إشعارات السلامة والاستدعاءات' في أسفل الصفحة.",
+          "metaDescription": "تستدعي DeWALT جزازات العشب الكهربائية المحددة بسبب مخاطر القطع. تحقق مما إذا كانت جزازتك متأثرة واتصل بـ DeWALT للحصول على إصلاح مجاني.",
+          "Products": [
+            {
+              "Name": "جزازة العشب الكهربائية من DeWALT",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 46,200 (بالإضافة إلى ذلك، تم بيع حوالي 9,600 في كندا)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "جزازات العشب الكهربائية من DeWALT المستدعاة لعام 2024، رقم الطراز DCMWP234U2"
+            },
+            {
+              "Caption": "جزازات العشب الكهربائية من DeWALT المستدعاة لعام 2024، رقم الطراز DCMWP600X2"
+            },
+            {
+              "Caption": "جزازات العشب الكهربائية ذات الدفع الذاتي من DeWALT المستدعاة لعام 2024، رقم الطراز DCMWSP256U2"
+            },
+            {
+              "Caption": "جزازات العشب الكهربائية ذات الدفع الذاتي من DeWALT المستدعاة لعام 2024، رقم الطراز DCMWSP650Y2"
+            },
+            {
+              "Caption": "رقم الطراز مطبوع على الباب الخلفي للجزازة"
+            },
+            {
+              "Caption": "رمز التاريخ مطبوع على الجانب الأيسر من الجزازة، فوق العجلة الخلفية"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "تلقت الشركة 10 تقارير عن فشل الجزازات في الإيقاف عند تحرير مقبض الفرامل، وتقرير واحد عن بدء جزازة دون إدخال المفتاح. الحادث الذي بدأت فيه جزازة دون إدخال المفتاح أدى إلى قطع إصبع لم يتطلب أي رعاية طبية."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "هوم ديبوت"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "ستانلي بلاك وديكر إنك، من نيو بريطانيا، كونيتيكت"
+            }
+          ],
+          "SoldAtLabel": "تم البيع في",
+          "ManufacturerCountries": [
+            {
+              "Country": "الصين"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "خطر القطع بسبب الفشل المحتمل في الإيقاف"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "إصلاح مجاني في مركز خدمة معتمد"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "إصلاح"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "斯坦利·布莱克与德克公司召回德瓦特电池步行式割草机，因割伤风险",
+          "Description": "斯坦利·布莱克与德克公司宣布召回特定的2024年款德瓦特电池步行式割草机，因存在潜在的割伤危险。受影响的型号包括21\"推式割草机（DCMWP234U2和DCMWP600X2）和21\"自走式割草机（DCMWSP256U2和DCMWSP650Y2）。这些割草机的颜色为黑色、灰色和黄色，'DeWALT'字样显著印刷在黄色背景上。型号可以在后门上找到，而日期代码则激光打印在左侧后轮上方。只有日期代码在2023年32-58到2024年13-58之间的割草机涉及此次召回；2024年3月之后生产的割草机是安全的。",
+          "ConsumerContact": "如需帮助，消费者应在东部时间周一至周五上午8点至下午6点之间拨打800-990-6421联系德瓦特。更多信息可在线访问https://www.dewalt.com/push-mowers-recall或访问https://www.dewalt.com并点击页面底部的'安全通知和召回'。",
+          "metaDescription": "德瓦特召回特定电池步行式割草机，因割伤危险。检查您的割草机是否受影响，并联系德瓦特以获得免费维修。",
+          "Products": [
+            {
+              "Name": "德瓦特电池推式割草机",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约46,200台（此外，约9,600台在加拿大销售）"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "召回的2024年德瓦特电池推式步行割草机，型号：DCMWP234U2"
+            },
+            {
+              "Caption": "召回的2024年德瓦特电池推式步行割草机，型号：DCMWP600X2"
+            },
+            {
+              "Caption": "召回的2024年德瓦特电池自走式步行割草机，型号：DCMWSP256U2"
+            },
+            {
+              "Caption": "召回的2024年德瓦特电池自走式步行割草机，型号：DCMWSP650Y2"
+            },
+            {
+              "Caption": "型号印刷在割草机的后门上"
+            },
+            {
+              "Caption": "日期代码印刷在割草机的左侧，位于后轮上方"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "公司已收到10起报告，称割草机在释放手柄时未能关闭，以及1起报告称割草机在未插入钥匙的情况下启动。未插入钥匙启动割草机的事件导致手指割伤，但无需医疗救助。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "家得宝"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "斯坦利·布莱克与德克公司，位于康涅狄格州新布伦瑞克"
+            }
+          ],
+          "SoldAtLabel": "销售地点",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "因潜在未能关闭而导致的割伤危险"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "在授权服务中心免费维修"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "维修"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "Tondeuses à batterie DeWALT rappelées par Stanley Black & Decker en raison d'un risque de lacération",
+          "Description": "Stanley Black & Decker a annoncé un rappel de modèles spécifiques de tondeuses à batterie DeWALT de l'année modèle 2024 en raison d'un risque potentiel de lacération. Les modèles concernés incluent les tondeuses à pousser de 21\" (DCMWP234U2 et DCMWP600X2) et les tondeuses autoportées de 21\" (DCMWSP256U2 et DCMWSP650Y2). Ces tondeuses sont identifiables par leurs couleurs noire, grise et jaune avec 'DeWALT' imprimé en jaune de manière proéminente. Le numéro de modèle se trouve sur la porte arrière, tandis que le code de date est imprimé au laser sur le côté gauche au-dessus de la roue arrière. Seules les tondeuses avec des codes de date de 2023 32-58 à 2024 13-58 sont concernées par ce rappel ; celles fabriquées après mars 2024 sont sûres.",
+          "ConsumerContact": "Pour obtenir de l'aide, les consommateurs doivent contacter DeWALT au 800-990-6421 entre 8 h et 18 h HNE, du lundi au vendredi. Des informations supplémentaires peuvent être trouvées en ligne sur https://www.dewalt.com/push-mowers-recall ou en visitant https://www.dewalt.com et en cliquant sur 'Avis de sécurité et rappels' en bas de la page.",
+          "metaDescription": "DeWALT rappelle des tondeuses à batterie spécifiques en raison de risques de lacération. Vérifiez si votre tondeuse est concernée et contactez DeWALT pour une réparation gratuite.",
+          "Products": [
+            {
+              "Name": "Tondeuse à batterie DeWALT",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 46 200 (De plus, environ 9 600 ont été vendues au Canada)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Tondeuses à batterie DeWALT de 2024 rappelées, modèle n° DCMWP234U2"
+            },
+            {
+              "Caption": "Tondeuses à batterie DeWALT de 2024 rappelées, modèle n° DCMWP600X2"
+            },
+            {
+              "Caption": "Tondeuses à batterie autoportées DeWALT de 2024 rappelées, modèle n° DCMWSP256U2"
+            },
+            {
+              "Caption": "Tondeuses à batterie autoportées DeWALT de 2024 rappelées, modèle n° DCMWSP650Y2"
+            },
+            {
+              "Caption": "Le numéro de modèle est imprimé sur la porte arrière de la tondeuse"
+            },
+            {
+              "Caption": "Le code de date est imprimé sur le côté gauche de la tondeuse, au-dessus de la roue arrière"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "L'entreprise a reçu 10 rapports de tondeuses ne s'éteignant pas lorsque la poignée de commande est relâchée et un rapport d'une tondeuse démarrant sans clé insérée. L'incident dans lequel une tondeuse a démarré sans clé insérée a entraîné une lacération du doigt pour laquelle aucune attention médicale n'était requise."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "The Home Depot"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Stanley Black and Decker Inc., de New Britain, Connecticut"
+            }
+          ],
+          "SoldAtLabel": "Vendu chez",
+          "ManufacturerCountries": [
+            {
+              "Country": "Chine"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risque de lacération en raison d'une éventuelle défaillance à s'éteindre"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Réparation gratuite dans un centre de service autorisé"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Réparation"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "DeWALT Akku-Rasenmäher zurückgerufen von Stanley Black & Decker aufgrund von Schnittgefahr",
+          "Description": "Stanley Black & Decker hat einen Rückruf bestimmter DeWALT Akku-Rasenmäher des Modelljahres 2024 aufgrund einer potenziellen Schnittgefahr angekündigt. Die betroffenen Modelle umfassen die 21\" Schiebemäher (DCMWP234U2 und DCMWP600X2) und die 21\" Selbstfahrenden Mäher (DCMWSP256U2 und DCMWSP650Y2). Diese Mäher sind an ihren schwarzen, grauen und gelben Farben zu erkennen, mit 'DeWALT' deutlich in Gelb aufgedruckt. Die Modellnummer befindet sich an der Hintertür, während der Datencode laserbedruckt auf der linken Seite über dem Hinterrad zu finden ist. Nur Mäher mit Datencodes von 2023 32-58 bis 2024 13-58 sind von diesem Rückruf betroffen; die nach März 2024 hergestellten Mäher sind sicher.",
+          "ConsumerContact": "Für Unterstützung sollten Verbraucher DeWALT unter 800-990-6421 zwischen 8:00 und 18:00 Uhr ET, Montag bis Freitag, kontaktieren. Weitere Informationen sind online unter https://www.dewalt.com/push-mowers-recall oder durch den Besuch von https://www.dewalt.com und das Klicken auf 'Sicherheitsmitteilungen und Rückrufe' am Ende der Seite zu finden.",
+          "metaDescription": "DeWALT ruft bestimmte Akku-Rasenmäher aufgrund von Schnittgefahren zurück. Überprüfen Sie, ob Ihr Mäher betroffen ist, und kontaktieren Sie DeWALT für eine kostenlose Reparatur.",
+          "Products": [
+            {
+              "Name": "DeWALT Akku-Schiebemäher",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 46.200 (Zusätzlich wurden etwa 9.600 in Kanada verkauft)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Zurückgerufene 2024 DeWALT Akku-Schiebemäher, Modell-Nr. DCMWP234U2"
+            },
+            {
+              "Caption": "Zurückgerufene 2024 DeWALT Akku-Schiebemäher, Modell-Nr. DCMWP600X2"
+            },
+            {
+              "Caption": "Zurückgerufene 2024 DeWALT Akku-Selbstfahrende Mäher, Modell-Nr. DCMWSP256U2"
+            },
+            {
+              "Caption": "Zurückgerufene 2024 DeWALT Akku-Selbstfahrende Mäher, Modell-Nr. DCMWSP650Y2"
+            },
+            {
+              "Caption": "Die Modellnummer ist auf der Hintertür des Mähers aufgedruckt"
+            },
+            {
+              "Caption": "Der Datencode ist auf der linken Seite des Mähers, über dem Hinterrad aufgedruckt"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Das Unternehmen hat 10 Berichte über Mäher erhalten, die sich nicht ausschalten, wenn der Sicherheitshebel losgelassen wird, und einen Bericht über einen Mäher, der ohne eingesetzten Schlüssel gestartet wurde. Der Vorfall, bei dem ein Mäher ohne eingesetzten Schlüssel startete, führte zu einer Fingerverletzung, für die keine medizinische Behandlung erforderlich war."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "The Home Depot"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Stanley Black and Decker Inc., aus New Britain, Connecticut"
+            }
+          ],
+          "SoldAtLabel": "Verkauft bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Schnittgefahr aufgrund möglicher Fehlfunktion beim Ausschalten"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Kostenlose Reparatur in einem autorisierten Servicezentrum"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparatur"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "スタンレー・ブラック＆デッカーによる切創リスクのためのDeWALTバッテリー式歩行型芝刈り機のリコール",
+          "Description": "スタンレー・ブラック＆デッカーは、潜在的な切創の危険性により、特定の2024年モデルのDeWALTバッテリー式歩行型芝刈り機のリコールを発表しました。対象モデルには、21インチのプッシュ式芝刈り機（DCMWP234U2およびDCMWP600X2）と21インチの自走式芝刈り機（DCMWSP256U2およびDCMWSP650Y2）が含まれます。これらの芝刈り機は、黒、灰色、黄色の色合いで、黄色で「DeWALT」と大きく印刷されています。モデル番号は後部ドアに記載されており、日付コードは後輪の上の左側にレーザー印刷されています。2023年32-58から2024年13-58までの日付コードを持つ芝刈り機のみがこのリコールに関与しており、2024年3月以降に製造されたものは安全です。",
+          "ConsumerContact": "サポートが必要な消費者は、月曜日から金曜日の午前8時から午後6時（ET）までの間に800-990-6421でDeWALTに連絡してください。追加情報は、https://www.dewalt.com/push-mowers-recall でオンラインで確認するか、https://www.dewalt.com を訪れてページの下部にある「安全通知とリコール」をクリックしてください。",
+          "metaDescription": "DeWALTは切創の危険性により特定のバッテリー式歩行型芝刈り機をリコールしています。あなたの芝刈り機が影響を受けているか確認し、DeWALTに無料修理を依頼してください。",
+          "Products": [
+            {
+              "Name": "DeWALTバッテリー式プッシュ芝刈り機",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約46,200台（さらに約9,600台がカナダで販売されました）"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコールされた2024年モデルDeWALTバッテリー式プッシュ歩行型芝刈り機、モデル番号DCMWP234U2"
+            },
+            {
+              "Caption": "リコールされた2024年モデルDeWALTバッテリー式プッシュ歩行型芝刈り機、モデル番号DCMWP600X2"
+            },
+            {
+              "Caption": "リコールされた2024年モデルDeWALTバッテリー式自走型歩行型芝刈り機、モデル番号DCMWSP256U2"
+            },
+            {
+              "Caption": "リコールされた2024年モデルDeWALTバッテリー式自走型歩行型芝刈り機、モデル番号DCMWSP650Y2"
+            },
+            {
+              "Caption": "モデル番号は芝刈り機の後部ドアに印刷されています"
+            },
+            {
+              "Caption": "日付コードは芝刈り機の左側、後輪の上に印刷されています"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "同社は、バイエルハンドルが放されると芝刈り機が停止しないという報告を10件受けており、キーを挿入せずに芝刈り機が始動したという報告を1件受けています。キーを挿入せずに芝刈り機が始動した事例では、指に切創が生じましたが、医療処置は必要ありませんでした。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "ザ・ホーム・デポ"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "スタンレー・ブラック＆デッカー社（コネチカット州ニューブリテン）"
+            }
+          ],
+          "SoldAtLabel": "販売場所",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "停止しない可能性による切創の危険"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "認定サービスセンターでの無料修理"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "修理"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "Cortadores de Grama Elétricos DeWALT Recolhidos pela Stanley Black & Decker Devido ao Risco de Laceração",
+          "Description": "A Stanley Black & Decker anunciou o recolhimento de modelos específicos de cortadores de grama elétricos DeWALT do ano modelo 2024 devido a um potencial risco de laceração. Os modelos afetados incluem os cortadores de grama de empurrar de 21\" (DCMWP234U2 e DCMWP600X2) e os cortadores de grama autopropelidos de 21\" (DCMWSP256U2 e DCMWSP650Y2). Esses cortadores são identificáveis pelas suas cores preta, cinza e amarela, com 'DeWALT' impresso em destaque em amarelo. O número do modelo pode ser encontrado na porta traseira, enquanto o código de data é impresso a laser no lado esquerdo acima da roda traseira. Apenas cortadores com códigos de data de 2023 32-58 a 2024 13-58 estão envolvidos neste recolhimento; aqueles fabricados após março de 2024 são seguros.",
+          "ConsumerContact": "Para assistência, os consumidores devem entrar em contato com a DeWALT pelo telefone 800-990-6421 entre 8h e 18h ET, de segunda a sexta-feira. Informações adicionais podem ser encontradas online em https://www.dewalt.com/push-mowers-recall ou visitando https://www.dewalt.com e clicando em 'Avisos de Segurança e Recolhimentos' na parte inferior da página.",
+          "metaDescription": "A DeWALT recolhe cortadores de grama elétricos específicos devido a riscos de laceração. Verifique se o seu cortador é afetado e entre em contato com a DeWALT para um reparo gratuito.",
+          "Products": [
+            {
+              "Name": "Cortador de Grama Elétrico DeWALT",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 46.200 (Além disso, cerca de 9.600 foram vendidos no Canadá)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Cortadores de Grama Elétricos DeWALT de 2024 recolhidos, modelo nº DCMWP234U2"
+            },
+            {
+              "Caption": "Cortadores de Grama Elétricos DeWALT de 2024 recolhidos, modelo nº DCMWP600X2"
+            },
+            {
+              "Caption": "Cortadores de Grama Elétricos DeWALT Autopropelidos de 2024 recolhidos, modelo nº DCMWSP256U2"
+            },
+            {
+              "Caption": "Cortadores de Grama Elétricos DeWALT Autopropelidos de 2024 recolhidos, modelo nº DCMWSP650Y2"
+            },
+            {
+              "Caption": "O número do modelo está impresso na porta traseira do cortador"
+            },
+            {
+              "Caption": "O código de data está impresso no lado esquerdo do cortador, acima da roda traseira"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "A empresa recebeu 10 relatos de cortadores que não desligam quando a alça de segurança é solta e um relato de um cortador que ligou sem a chave inserida. O incidente em que um cortador ligou sem a chave inserida resultou em uma laceração no dedo, para a qual nenhuma atenção médica foi necessária."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "The Home Depot"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Stanley Black and Decker Inc., de New Britain, Connecticut"
+            }
+          ],
+          "SoldAtLabel": "Vendido Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risco de laceração devido à falha potencial de desligar"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Reparo gratuito em um centro de serviço autorizado"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparo"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "स्टेनली ब्लैक & डेक्कर द्वारा लaceration जोखिम के कारण DeWALT बैटरी वॉक-बिहाइंड मावर की रिकॉल",
+          "Description": "स्टेनली ब्लैक & डेक्कर ने संभावित लaceration खतरे के कारण विशेष 2024 मॉडल वर्ष DeWALT बैटरी वॉक-बिहाइंड मावर की रिकॉल की घोषणा की है। प्रभावित मॉडल में 21\" पुश मावर (DCMWP234U2 और DCMWP600X2) और 21\" सेल्फ-प्रोपेल्ड मावर (DCMWSP256U2 और DCMWSP650Y2) शामिल हैं। ये मावर काले, ग्रे और पीले रंग में पहचाने जा सकते हैं, जिन पर 'DeWALT' पीले रंग में प्रमुखता से छपा हुआ है। मॉडल नंबर पीछे के दरवाजे पर पाया जा सकता है, जबकि तारीख कोड पीछे के पहिये के ऊपर बाईं ओर लेजर-प्रिंटेड है। केवल वे मावर जिनके तारीख कोड 2023 32-58 से 2024 13-58 के बीच हैं, इस रिकॉल में शामिल हैं; मार्च 2024 के बाद निर्मित मावर सुरक्षित हैं।",
+          "ConsumerContact": "सहायता के लिए, उपभोक्ताओं को DeWALT से 800-990-6421 पर सुबह 8 बजे से शाम 6 बजे ET, सोमवार से शुक्रवार के बीच संपर्क करना चाहिए। अतिरिक्त जानकारी ऑनलाइन https://www.dewalt.com/push-mowers-recall पर या https://www.dewalt.com पर जाकर और पृष्ठ के नीचे 'सुरक्षा नोटिस और रिकॉल' पर क्लिक करके प्राप्त की जा सकती है।",
+          "metaDescription": "DeWALT विशेष बैटरी वॉक-बिहाइंड मावर को लaceration खतरों के कारण रिकॉल करता है। जांचें कि क्या आपका मावर प्रभावित है और मुफ्त मरम्मत के लिए DeWALT से संपर्क करें।",
+          "Products": [
+            {
+              "Name": "DeWALT बैटरी पुश मावर",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 46,200 (इसके अतिरिक्त, लगभग 9,600 कनाडा में बेचे गए)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "रिकॉल किए गए 2024 DeWALT बैटरी पुश वॉक बिहाइंड मावर, मॉडल नंबर DCMWP234U2"
+            },
+            {
+              "Caption": "रिकॉल किए गए 2024 DeWALT बैटरी पुश वॉक बिहाइंड मावर, मॉडल नंबर DCMWP600X2"
+            },
+            {
+              "Caption": "रिकॉल किए गए 2024 DeWALT बैटरी सेल्फ-प्रोपेल्ड वॉक बिहाइंड मावर, मॉडल नंबर DCMWSP256U2"
+            },
+            {
+              "Caption": "रिकॉल किए गए 2024 DeWALT बैटरी सेल्फ-प्रोपेल्ड वॉक बिहाइंड मावर, मॉडल नंबर DCMWSP650Y2"
+            },
+            {
+              "Caption": "मॉडल नंबर मावर के पीछे के दरवाजे पर छपा हुआ है"
+            },
+            {
+              "Caption": "तारीख कोड मावर के बाईं ओर, पीछे के पहिये के ऊपर छपा हुआ है"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "कंपनी को 10 रिपोर्ट मिली हैं कि मावर बायल हैंडल को छोड़ने पर बंद नहीं हो रहे हैं और एक रिपोर्ट मिली है कि एक मावर बिना चाबी डाले शुरू हो गया। जिस घटना में एक मावर बिना चाबी डाले शुरू हुआ, उसमें एक अंगुली में लaceration हुई जिसके लिए कोई चिकित्सा ध्यान की आवश्यकता नहीं थी।"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "द होम डिपो"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "स्टेनली ब्लैक और डेक्कर इंक, न्यू ब्रिटेन, कनेक्टिकट"
+            }
+          ],
+          "SoldAtLabel": "बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "चीन"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "बंद न होने के संभावित खतरे के कारण लaceration खतरा"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "अधिकृत सेवा केंद्र पर मुफ्त मरम्मत"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "मरम्मत"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "Акция по отзыву аккумуляторных газонокосилок DeWALT компанией Stanley Black & Decker из-за риска порезов",
+          "Description": "Компания Stanley Black & Decker объявила об отзыве конкретных аккумуляторных газонокосилок DeWALT модельного года 2024 из-за потенциальной опасности порезов. Подверженные модели включают 21\" ручные газонокосилки (DCMWP234U2 и DCMWP600X2) и 21\" самоходные газонокосилки (DCMWSP256U2 и DCMWSP650Y2). Эти газонокосилки можно узнать по черному, серому и желтому цветам с ярко напечатанным 'DeWALT' на желтом фоне. Номер модели можно найти на задней двери, в то время как код даты лазерно напечатан на левой стороне над задним колесом. В отзыве участвуют только газонокосилки с кодами даты с 2023 32-58 по 2024 13-58; те, что были изготовлены после марта 2024 года, безопасны.",
+          "ConsumerContact": "Для получения помощи потребители должны обратиться в DeWALT по телефону 800-990-6421 с 8:00 до 18:00 по восточному времени с понедельника по пятницу. Дополнительную информацию можно найти в интернете по адресу https://www.dewalt.com/push-mowers-recall или посетив https://www.dewalt.com и кликнув на 'Уведомления о безопасности и отзывах' внизу страницы.",
+          "metaDescription": "DeWALT отзывает конкретные аккумуляторные газонокосилки из-за опасностей порезов. Проверьте, затронута ли ваша газонокосилка, и свяжитесь с DeWALT для бесплатного ремонта.",
+          "Products": [
+            {
+              "Name": "Аккумуляторная ручная газонокосилка DeWALT",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 46,200 (Кроме того, около 9,600 были проданы в Канаде)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванные аккумуляторные ручные газонокосилки DeWALT 2024 года, модель DCMWP234U2"
+            },
+            {
+              "Caption": "Отозванные аккумуляторные ручные газонокосилки DeWALT 2024 года, модель DCMWP600X2"
+            },
+            {
+              "Caption": "Отозванные аккумуляторные самоходные газонокосилки DeWALT 2024 года, модель DCMWSP256U2"
+            },
+            {
+              "Caption": "Отозванные аккумуляторные самоходные газонокосилки DeWALT 2024 года, модель DCMWSP650Y2"
+            },
+            {
+              "Caption": "Номер модели напечатан на задней двери газонокосилки"
+            },
+            {
+              "Caption": "Код даты напечатан на левой стороне газонокосилки, над задним колесом"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Компания получила 10 сообщений о том, что газонокосилки не отключаются, когда ручка освобождается, и одно сообщение о том, что газонокосилка запускается без вставленного ключа. Инцидент, в котором газонокосилка запустилась без вставленного ключа, привел к порезу пальца, для которого не потребовалась медицинская помощь."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "The Home Depot"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Stanley Black and Decker Inc., Нью-Бритейн, Коннектикут"
+            }
+          ],
+          "SoldAtLabel": "Продается в",
+          "ManufacturerCountries": [
+            {
+              "Country": "Китай"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Опасность порезов из-за потенциальной неисправности отключения"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Бесплатный ремонт в авторизованном сервисном центре"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Ремонт"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "Máy cắt cỏ chạy bằng pin DeWALT bị thu hồi bởi Stanley Black & Decker do nguy cơ bị cắt",
+          "Description": "Stanley Black & Decker đã thông báo thu hồi một số máy cắt cỏ chạy bằng pin DeWALT năm 2024 do nguy cơ bị cắt tiềm ẩn. Các mẫu bị ảnh hưởng bao gồm máy cắt cỏ đẩy 21\" (DCMWP234U2 và DCMWP600X2) và máy cắt cỏ tự hành 21\" (DCMWSP256U2 và DCMWSP650Y2). Những máy cắt cỏ này có thể nhận diện bằng màu đen, xám và vàng với chữ 'DeWALT' in nổi bật bằng màu vàng. Số mẫu có thể được tìm thấy trên cửa sau, trong khi mã ngày được in bằng laser ở bên trái phía trên bánh xe sau. Chỉ những máy cắt cỏ có mã ngày từ 2023 32-58 đến 2024 13-58 mới bị ảnh hưởng trong đợt thu hồi này; những máy được sản xuất sau tháng 3 năm 2024 là an toàn.",
+          "ConsumerContact": "Để được hỗ trợ, người tiêu dùng nên liên hệ với DeWALT qua số 800-990-6421 từ 8 giờ sáng đến 6 giờ chiều ET, từ thứ Hai đến thứ Sáu. Thông tin bổ sung có thể được tìm thấy trực tuyến tại https://www.dewalt.com/push-mowers-recall hoặc bằng cách truy cập https://www.dewalt.com và nhấp vào 'Thông báo an toàn và thu hồi' ở cuối trang.",
+          "metaDescription": "DeWALT thu hồi một số máy cắt cỏ chạy bằng pin do nguy cơ bị cắt. Kiểm tra xem máy cắt cỏ của bạn có bị ảnh hưởng không và liên hệ với DeWALT để được sửa chữa miễn phí.",
+          "Products": [
+            {
+              "Name": "Máy cắt cỏ chạy bằng pin DeWALT",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 46,200 (Ngoài ra, khoảng 9,600 chiếc đã được bán ở Canada)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Máy cắt cỏ chạy bằng pin DeWALT năm 2024 bị thu hồi, số mẫu DCMWP234U2"
+            },
+            {
+              "Caption": "Máy cắt cỏ chạy bằng pin DeWALT năm 2024 bị thu hồi, số mẫu DCMWP600X2"
+            },
+            {
+              "Caption": "Máy cắt cỏ tự hành chạy bằng pin DeWALT năm 2024 bị thu hồi, số mẫu DCMWSP256U2"
+            },
+            {
+              "Caption": "Máy cắt cỏ tự hành chạy bằng pin DeWALT năm 2024 bị thu hồi, số mẫu DCMWSP650Y2"
+            },
+            {
+              "Caption": "Số mẫu được in trên cửa sau của máy cắt cỏ"
+            },
+            {
+              "Caption": "Mã ngày được in ở bên trái của máy cắt cỏ, phía trên bánh xe sau"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Công ty đã nhận được 10 báo cáo về máy cắt cỏ không tắt khi tay cầm được thả ra và một báo cáo về máy cắt cỏ khởi động mà không có chìa khóa. Sự cố mà máy cắt cỏ khởi động mà không có chìa khóa đã dẫn đến việc một ngón tay bị cắt, nhưng không cần chăm sóc y tế."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "The Home Depot"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Stanley Black and Decker Inc., của New Britain, Connecticut"
+            }
+          ],
+          "SoldAtLabel": "Bán Tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Trung Quốc"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Nguy cơ bị cắt do khả năng không tắt"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Sửa chữa miễn phí tại trung tâm dịch vụ được ủy quyền"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Sửa chữa"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    }
+  ]
+}

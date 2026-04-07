@@ -2,19 +2,21 @@ import RecallsSearchPage from "@/components/fda/RecallsSearchPage";
 import { isSiteUiLang, type SiteUiLang } from "@/lib/siteLocale";
 import { notFound } from "next/navigation";
 
-export default function LangRecallsPage({
+export default async function LangRecallsPage({
   params,
   searchParams,
 }: {
-  params: { lang: string };
-  searchParams: { category?: string; q?: string };
+  params: Promise<{ lang: string }>;
+  searchParams: Promise<{ category?: string; q?: string }>;
 }) {
-  if (!isSiteUiLang(params.lang) || params.lang === "en") notFound();
+  const { lang: langParam } = await params;
+  const sp = await searchParams;
+  if (!isSiteUiLang(langParam) || langParam === "en") notFound();
   return (
     <RecallsSearchPage
-      lang={params.lang as SiteUiLang}
-      categorySlug={searchParams?.category}
-      initialQuery={searchParams?.q}
+      lang={langParam as SiteUiLang}
+      categorySlug={sp?.category}
+      initialQuery={sp?.q}
     />
   );
 }

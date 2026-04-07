@@ -2,11 +2,12 @@ import BrandIndexPage from "@/components/fda/BrandIndexPage";
 import { isSiteUiLang, type SiteUiLang } from "@/lib/siteLocale";
 import { notFound } from "next/navigation";
 
-export default function LangBrandIndex({
+export default async function LangBrandIndex({
   params,
 }: {
-  params: { lang: string };
+  params: Promise<{ lang: string }>;
 }) {
-  if (!isSiteUiLang(params.lang) || params.lang === "en") notFound();
-  return <BrandIndexPage uiLang={params.lang as SiteUiLang} />;
+  const { lang: langParam } = await params;
+  if (!isSiteUiLang(langParam) || langParam === "en") notFound();
+  return <BrandIndexPage uiLang={langParam as SiteUiLang} />;
 }

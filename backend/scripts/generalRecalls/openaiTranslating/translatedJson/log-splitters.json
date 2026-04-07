@@ -1,0 +1,764 @@
+{
+  "meta": {
+    "slug": "log-splitters",
+    "sourceCsvFile": "log-splitters_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:36.994Z",
+    "recallCount": 1,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "log-splitters.json",
+    "seoTranslatedAt": "2026-04-04T06:44:27.234Z",
+    "resumePartial": false,
+    "i18nSource": "generalRecallsTranslated",
+    "i18nSourceFile": "log-splitters.json",
+    "i18nUiLangs": [
+      "en",
+      "es",
+      "ar",
+      "zh",
+      "fr",
+      "de",
+      "ja",
+      "pt",
+      "hi",
+      "ru",
+      "vi"
+    ],
+    "i18nProgressByLang": {
+      "es": 1,
+      "ar": 1,
+      "zh": 1,
+      "fr": 1,
+      "de": 1,
+      "ja": 1,
+      "pt": 1,
+      "hi": 1,
+      "ru": 1,
+      "vi": 1
+    },
+    "i18nInProgress": false,
+    "i18nTranslatedAt": "2026-04-07T13:12:14.148Z",
+    "i18nOpenaiModel": "gpt-4o-mini"
+  },
+  "recalls": [
+    {
+      "RecallID": 9931,
+      "RecallNumber": "24208",
+      "RecallDate": "2024-04-25T00:00:00",
+      "Description": "Oregon Tool has issued a recall for various log splitters and cylinder kits under the brands Oregon, PowerPro, Country Tuff, and Speeco. The affected models include a range of 25 to 35-ton log splitters, identifiable by their brand names and model numbers located on the equipment. Consumers should be aware of the potential hazards associated with these products, particularly related to the hydraulic cylinder rod's functionality.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/Oregon-Tool-Recalls-Log-Splitters-and-Cylinder-Kits-Due-to-Injury-Hazards",
+      "Title": "Oregon Tool Recalls Log Splitters and Cylinder Kits Due to Injury Risks",
+      "ConsumerContact": "For assistance, consumers can reach Oregon Tool at 833-948-2590 from 6 a.m. to 7 p.m. ET, Monday through Friday, or via email at logsplitter@oregontool.com. Additional details can be found online at https://www.oregontool.com/product-recalls/ or by visiting www.oregonproducts.com and selecting 'Product Recalls.'",
+      "LastPublishDate": "2024-04-25T00:00:00",
+      "Products": [
+        {
+          "Name": "Country Tuff 25 Ton Log Splitter CT25TKO-1",
+          "NumberOfUnits": "About 29,560 (In addition, about 4,690 were sold in Canada)"
+        }
+      ],
+      "Inconjunctions": [
+        {
+          "URL": "https://recalls-rappels.canada.ca/en/alert-recall/log-splitters-and-cylinder-kits-recalled-due-physical-hazard"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/log-splitter.jpg",
+          "Caption": "Recalled Country Tuff 25 Ton Log Splitter",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/log-splitter.jpg",
+          "ImageFetchFailed": true,
+          "ImageFetchHttpStatus": 403
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received seven reports of forward movement of the rod and attached splitting wedge at an unexpected increased speed. No injuries have been reported."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available at Lowe's, Tractor Supply Company, and various other retailers across the nation, both in-store and online, from July 2020 through December 2023, priced between $1,500 and $2,745."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Oregon Tool Inc., of Portland, Oregon"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of injury due to hydraulic cylinder rod detachment from the piston, causing unexpected movement of the wedge."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should cease using the product immediately if the wedge fails to retract and contact Oregon Tool or their dealer for a free replacement cylinder installation. Self-repair is not recommended. Find the nearest dealer at www.oregonproducts.com/en/dealer-locator."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ],
+      "slug": "oregon-tool-recalls-log-splitters-and-cylinder-kits-due-to-injury-risks-recall",
+      "metaDescription": "Oregon Tool recalls log splitters and cylinder kits due to injury risks. Contact them for a free replacement if affected.",
+      "languages": {
+        "en": {
+          "Title": "Oregon Tool Recalls Log Splitters and Cylinder Kits Due to Injury Risks",
+          "Description": "Oregon Tool has issued a recall for various log splitters and cylinder kits under the brands Oregon, PowerPro, Country Tuff, and Speeco. The affected models include a range of 25 to 35-ton log splitters, identifiable by their brand names and model numbers located on the equipment. Consumers should be aware of the potential hazards associated with these products, particularly related to the hydraulic cylinder rod's functionality.",
+          "ConsumerContact": "For assistance, consumers can reach Oregon Tool at 833-948-2590 from 6 a.m. to 7 p.m. ET, Monday through Friday, or via email at logsplitter@oregontool.com. Additional details can be found online at https://www.oregontool.com/product-recalls/ or by visiting www.oregonproducts.com and selecting 'Product Recalls.'",
+          "metaDescription": "Oregon Tool recalls log splitters and cylinder kits due to injury risks. Contact them for a free replacement if affected.",
+          "Products": [
+            {
+              "Name": "Country Tuff 25 Ton Log Splitter CT25TKO-1",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 29,560 (In addition, about 4,690 were sold in Canada)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled Country Tuff 25 Ton Log Splitter"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "The firm has received seven reports of forward movement of the rod and attached splitting wedge at an unexpected increased speed. No injuries have been reported."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Available at Lowe's, Tractor Supply Company, and various other retailers across the nation, both in-store and online, from July 2020 through December 2023, priced between $1,500 and $2,745."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Oregon Tool Inc., of Portland, Oregon"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Sold At",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risk of injury due to hydraulic cylinder rod detachment from the piston, causing unexpected movement of the wedge."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Consumers should cease using the product immediately if the wedge fails to retract and contact Oregon Tool or their dealer for a free replacement cylinder installation. Self-repair is not recommended. Find the nearest dealer at www.oregonproducts.com/en/dealer-locator."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Repair"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "Oregon Tool Retira Divisores de Troncos y Kits de Cilindros Debido a Riesgos de Lesiones",
+          "Description": "Oregon Tool ha emitido un retiro para varios divisores de troncos y kits de cilindros bajo las marcas Oregon, PowerPro, Country Tuff y Speeco. Los modelos afectados incluyen una gama de divisores de troncos de 25 a 35 toneladas, identificables por sus nombres de marca y números de modelo ubicados en el equipo. Los consumidores deben ser conscientes de los peligros potenciales asociados con estos productos, particularmente relacionados con la funcionalidad de la varilla del cilindro hidráulico.",
+          "ConsumerContact": "Para asistencia, los consumidores pueden comunicarse con Oregon Tool al 833-948-2590 de 6 a.m. a 7 p.m. ET, de lunes a viernes, o por correo electrónico a logsplitter@oregontool.com. Se pueden encontrar detalles adicionales en línea en https://www.oregontool.com/product-recalls/ o visitando www.oregonproducts.com y seleccionando 'Retiro de Productos.'",
+          "metaDescription": "Oregon Tool retira divisores de troncos y kits de cilindros debido a riesgos de lesiones. Contáctalos para un reemplazo gratuito si estás afectado.",
+          "Products": [
+            {
+              "Name": "Country Tuff 25 Ton Log Splitter CT25TKO-1",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 29,560 (Además, aproximadamente 4,690 se vendieron en Canadá)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Divisor de Troncos Country Tuff de 25 Toneladas Retirado"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "La empresa ha recibido siete informes de movimiento hacia adelante de la varilla y cuña de división adjunta a una velocidad aumentada inesperada. No se han reportado lesiones."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible en Lowe's, Tractor Supply Company y varios otros minoristas en todo el país, tanto en tienda como en línea, desde julio de 2020 hasta diciembre de 2023, con precios entre $1,500 y $2,745."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Oregon Tool Inc., de Portland, Oregón"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendido En",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Riesgo de lesión debido a la separación de la varilla del cilindro hidráulico del pistón, causando movimiento inesperado de la cuña."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Los consumidores deben dejar de usar el producto de inmediato si la cuña no se retrae y contactar a Oregon Tool o su distribuidor para una instalación gratuita de cilindro de reemplazo. No se recomienda la auto-reparación. Encuentra el distribuidor más cercano en www.oregonproducts.com/en/dealer-locator."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparación"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "شركة أوريغون تول تستدعي آلات تقطيع الخشب ومجموعات الأسطوانات بسبب مخاطر الإصابة",
+          "Description": "أصدرت شركة أوريغون تول استدعاءً لمجموعة متنوعة من آلات تقطيع الخشب ومجموعات الأسطوانات تحت العلامات التجارية أوريغون، باور برو، كانتري تاف، وسبيكو. تشمل النماذج المتأثرة مجموعة من آلات تقطيع الخشب بوزن 25 إلى 35 طن، يمكن التعرف عليها من خلال أسماء العلامات التجارية وأرقام الطراز الموجودة على المعدات. يجب على المستهلكين أن يكونوا على دراية بالمخاطر المحتملة المرتبطة بهذه المنتجات، وخاصة المتعلقة بوظيفة قضيب الأسطوانة الهيدروليكية.",
+          "ConsumerContact": "للمساعدة، يمكن للمستهلكين التواصل مع شركة أوريغون تول على الرقم 833-948-2590 من الساعة 6 صباحًا حتى 7 مساءً بتوقيت شرق الولايات المتحدة، من الاثنين إلى الجمعة، أو عبر البريد الإلكتروني على logsplitter@oregontool.com. يمكن العثور على تفاصيل إضافية عبر الإنترنت على https://www.oregontool.com/product-recalls/ أو من خلال زيارة www.oregonproducts.com واختيار 'استدعاءات المنتجات.'",
+          "metaDescription": "تستدعي شركة أوريغون تول آلات تقطيع الخشب ومجموعات الأسطوانات بسبب مخاطر الإصابة. اتصل بهم للحصول على استبدال مجاني إذا كنت متأثرًا.",
+          "Products": [
+            {
+              "Name": "آلة تقطيع الخشب كانتري تاف 25 طن CT25TKO-1",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 29,560 (بالإضافة إلى ذلك، تم بيع حوالي 4,690 في كندا)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "آلة تقطيع الخشب كانتري تاف 25 طن المستدعاة"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "تلقت الشركة سبع تقارير عن حركة غير متوقعة للقضيب ووحدة التقطيع المرفقة بسرعة متزايدة غير متوقعة. لم يتم الإبلاغ عن أي إصابات."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "متاحة في لو، شركة تراكتر سابلاي، والعديد من تجار التجزئة الآخرين في جميع أنحاء البلاد، سواء في المتاجر أو عبر الإنترنت، من يوليو 2020 حتى ديسمبر 2023، بأسعار تتراوح بين 1,500 دولار و 2,745 دولار."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "شركة أوريغون تول، من بورتلاند، أوريغون"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "تم البيع في",
+          "ManufacturerCountries": [
+            {
+              "Country": "الصين"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "خطر الإصابة بسبب انفصال قضيب الأسطوانة الهيدروليكية عن المكبس، مما يتسبب في حركة غير متوقعة لوحدة التقطيع."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "يجب على المستهلكين التوقف عن استخدام المنتج على الفور إذا فشلت وحدة التقطيع في الانسحاب والتواصل مع شركة أوريغون تول أو وكيلهم لتركيب أسطوانة بديلة مجانية. لا يُوصى بالإصلاح الذاتي. ابحث عن أقرب وكيل على www.oregonproducts.com/en/dealer-locator."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "إصلاح"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "俄勒冈工具公司召回劈木机和气缸套件因受伤风险",
+          "Description": "俄勒冈工具公司已对多个品牌的劈木机和气缸套件发起召回，品牌包括俄勒冈、PowerPro、Country Tuff和Speeco。受影响的型号包括25到35吨的劈木机，消费者可以通过设备上的品牌名称和型号识别。消费者应注意这些产品可能带来的潜在危险，特别是与液压气缸杆功能相关的风险。",
+          "ConsumerContact": "如需帮助，消费者可以在周一至周五的东部时间早上6点至晚上7点拨打833-948-2590联系俄勒冈工具公司，或通过电子邮件联系logsplitter@oregontool.com。更多详细信息可以在https://www.oregontool.com/product-recalls/上找到，或访问www.oregonproducts.com并选择“产品召回”。",
+          "metaDescription": "俄勒冈工具公司因受伤风险召回劈木机和气缸套件。如受影响，请联系他们以获得免费更换。",
+          "Products": [
+            {
+              "Name": "Country Tuff 25吨劈木机 CT25TKO-1",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约29,560台（此外，约4,690台在加拿大销售）"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "召回的Country Tuff 25吨劈木机"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "该公司已收到七份关于杆和附加劈木楔以意外加速向前移动的报告。未报告任何受伤情况。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "在Lowe's、Tractor Supply Company及全国各地的其他零售商处有售，包括实体店和在线销售，销售时间为2020年7月至2023年12月，价格在$1,500至$2,745之间。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "俄勒冈工具公司，位于俄勒冈州波特兰"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "销售地点",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "由于液压气缸杆与活塞脱离，导致楔子意外移动的受伤风险。"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "如果楔子无法收回，消费者应立即停止使用该产品，并联系俄勒冈工具公司或其经销商进行免费更换气缸的安装。不建议自行修理。请在www.oregonproducts.com/en/dealer-locator查找最近的经销商。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "修理"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "Oregon Tool rappelle des fendeuses de bûches et des kits de cylindres en raison de risques de blessures",
+          "Description": "Oregon Tool a émis un rappel pour diverses fendeuses de bûches et kits de cylindres sous les marques Oregon, PowerPro, Country Tuff et Speeco. Les modèles concernés incluent une gamme de fendeuses de bûches de 25 à 35 tonnes, identifiables par leurs noms de marque et numéros de modèle situés sur l'équipement. Les consommateurs doivent être conscients des dangers potentiels associés à ces produits, en particulier liés à la fonctionnalité de la tige du cylindre hydraulique.",
+          "ConsumerContact": "Pour obtenir de l'aide, les consommateurs peuvent contacter Oregon Tool au 833-948-2590 de 6 h à 19 h HNE, du lundi au vendredi, ou par e-mail à logsplitter@oregontool.com. Des détails supplémentaires peuvent être trouvés en ligne sur https://www.oregontool.com/product-recalls/ ou en visitant www.oregonproducts.com et en sélectionnant 'Rappels de produits.'",
+          "metaDescription": "Oregon Tool rappelle des fendeuses de bûches et des kits de cylindres en raison de risques de blessures. Contactez-les pour un remplacement gratuit si vous êtes concerné.",
+          "Products": [
+            {
+              "Name": "Fendeuse de bûches Country Tuff 25 Ton CT25TKO-1",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 29 560 (De plus, environ 4 690 ont été vendues au Canada)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Fendeuse de bûches Country Tuff 25 Ton rappelée"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "L'entreprise a reçu sept rapports de mouvement avant de la tige et du coin de fente attaché à une vitesse accrue inattendue. Aucune blessure n'a été signalée."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible chez Lowe's, Tractor Supply Company et divers autres détaillants à travers le pays, en magasin et en ligne, de juillet 2020 à décembre 2023, au prix compris entre 1 500 $ et 2 745 $."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Oregon Tool Inc., de Portland, Oregon"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendu À",
+          "ManufacturerCountries": [
+            {
+              "Country": "Chine"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risque de blessure en raison du détachement de la tige du cylindre hydraulique du piston, provoquant un mouvement inattendu du coin."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Les consommateurs doivent cesser d'utiliser le produit immédiatement si le coin ne se rétracte pas et contacter Oregon Tool ou leur revendeur pour une installation gratuite de cylindre de remplacement. L'auto-réparation n'est pas recommandée. Trouvez le revendeur le plus proche sur www.oregonproducts.com/en/dealer-locator."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Réparation"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "Oregon Tool ruft Holzspalter und Zylinderkits aufgrund von Verletzungsrisiken zurück",
+          "Description": "Oregon Tool hat einen Rückruf für verschiedene Holzspalter und Zylinderkits unter den Marken Oregon, PowerPro, Country Tuff und Speeco herausgegeben. Die betroffenen Modelle umfassen eine Reihe von 25 bis 35-Tonnen Holzspaltern, die an ihren Markennamen und Modellnummern auf dem Gerät erkennbar sind. Verbraucher sollten sich der potenziellen Gefahren bewusst sein, die mit diesen Produkten verbunden sind, insbesondere in Bezug auf die Funktionalität des hydraulischen Zylinderstabs.\n",
+          "ConsumerContact": "Für Unterstützung können Verbraucher Oregon Tool unter 833-948-2590 von 6 bis 19 Uhr ET, Montag bis Freitag, oder per E-Mail unter logsplitter@oregontool.com erreichen. Weitere Details sind online unter https://www.oregontool.com/product-recalls/ oder durch Besuch von www.oregonproducts.com und Auswahl von 'Produkt-Rückrufe' zu finden.",
+          "metaDescription": "Oregon Tool ruft Holzspalter und Zylinderkits aufgrund von Verletzungsrisiken zurück. Kontaktieren Sie sie für einen kostenlosen Ersatz, wenn Sie betroffen sind.",
+          "Products": [
+            {
+              "Name": "Country Tuff 25 Tonnen Holzspalter CT25TKO-1",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 29.560 (Zusätzlich wurden etwa 4.690 in Kanada verkauft)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Rückgerufener Country Tuff 25 Tonnen Holzspalter"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Das Unternehmen hat sieben Berichte über die Vorwärtsbewegung des Stabs und des angehängten Spaltkeils bei unerwartet erhöhter Geschwindigkeit erhalten. Es wurden keine Verletzungen gemeldet."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Erhältlich bei Lowe's, Tractor Supply Company und verschiedenen anderen Einzelhändlern im ganzen Land, sowohl im Geschäft als auch online, von Juli 2020 bis Dezember 2023, zu Preisen zwischen 1.500 und 2.745 US-Dollar."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Oregon Tool Inc., aus Portland, Oregon"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Verkauft bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Verletzungsrisiko aufgrund der Ablösung des hydraulischen Zylinderstabs vom Kolben, was zu unerwarteter Bewegung des Keils führt."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Verbraucher sollten die Verwendung des Produkts sofort einstellen, wenn der Keil sich nicht zurückzieht, und Oregon Tool oder ihren Händler für eine kostenlose Installation eines Ersatzzylinders kontaktieren. Selbstreparaturen werden nicht empfohlen. Finden Sie den nächsten Händler unter www.oregonproducts.com/en/dealer-locator."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparatur"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "オレゴンツール、怪我のリスクによりログスプリッターとシリンダーキットをリコール",
+          "Description": "オレゴンツールは、オレゴン、パワープロ、カントリータフ、スピコのブランドの下で販売されているさまざまなログスプリッターとシリンダーキットのリコールを発表しました。影響を受けるモデルには、機器に記載されたブランド名とモデル番号で識別可能な25トンから35トンのログスプリッターが含まれます。消費者は、特に油圧シリンダーロッドの機能に関連するこれらの製品に伴う潜在的な危険について認識しておく必要があります。",
+          "ConsumerContact": "支援が必要な場合、消費者はオレゴンツールに電話833-948-2590まで、月曜日から金曜日の午前6時から午後7時（ET）まで連絡するか、logsplitter@oregontool.comまでメールを送信できます。追加の詳細は、https://www.oregontool.com/product-recalls/ でオンラインで確認するか、www.oregonproducts.comを訪れて「製品リコール」を選択してください。",
+          "metaDescription": "オレゴンツールは怪我のリスクによりログスプリッターとシリンダーキットをリコールします。影響を受けた場合は、無料の交換のために連絡してください。",
+          "Products": [
+            {
+              "Name": "カントリータフ 25トン ログスプリッター CT25TKO-1",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約29,560台（さらに、約4,690台がカナダで販売されました）"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコールされたカントリータフ 25トン ログスプリッター"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "同社は、ロッドと取り付けられたスプリッティングウェッジが予期しない速度で前方に移動するという7件の報告を受けています。怪我の報告はありません。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "2020年7月から2023年12月まで、ローズ、トラクターサプライカンパニー、全国のさまざまな小売店で、店頭およびオンラインで販売され、価格は1,500ドルから2,745ドルの間です。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "オレゴンツール社、オレゴン州ポートランド"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "販売場所",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "ピストンから油圧シリンダーロッドが外れることによる怪我のリスク、ウェッジの予期しない動きが引き起こされます。"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "ウェッジが引っ込まない場合は、消費者は直ちに製品の使用を中止し、オレゴンツールまたは販売店に連絡して無料の交換シリンダーの取り付けを依頼する必要があります。自己修理は推奨されません。最寄りの販売店はwww.oregonproducts.com/en/dealer-locatorで見つけてください。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "修理"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "Oregon Tool Recalls Log Splitters and Cylinder Kits Due to Injury Risks",
+          "Description": "A Oregon Tool emitiu um recall para vários divisores de lenha e kits de cilindros sob as marcas Oregon, PowerPro, Country Tuff e Speeco. Os modelos afetados incluem uma faixa de divisores de lenha de 25 a 35 toneladas, identificáveis pelos nomes das marcas e números dos modelos localizados no equipamento. Os consumidores devem estar cientes dos potenciais riscos associados a esses produtos, particularmente relacionados à funcionalidade da barra do cilindro hidráulico.",
+          "ConsumerContact": "Para assistência, os consumidores podem entrar em contato com a Oregon Tool pelo telefone 833-948-2590, das 6h às 19h ET, de segunda a sexta-feira, ou por e-mail em logsplitter@oregontool.com. Detalhes adicionais podem ser encontrados online em https://www.oregontool.com/product-recalls/ ou visitando www.oregonproducts.com e selecionando 'Product Recalls.'",
+          "metaDescription": "A Oregon Tool faz recall de divisores de lenha e kits de cilindros devido a riscos de lesões. Entre em contato para uma substituição gratuita se afetado.",
+          "Products": [
+            {
+              "Name": "Country Tuff 25 Ton Log Splitter CT25TKO-1",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 29.560 (Além disso, cerca de 4.690 foram vendidos no Canadá)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Divisor de lenha Country Tuff de 25 toneladas recallado"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "A empresa recebeu sete relatos de movimento para frente da barra e do cunha de divisão anexada a uma velocidade aumentada inesperada. Nenhuma lesão foi relatada."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponível na Lowe's, Tractor Supply Company e vários outros varejistas em todo o país, tanto em lojas físicas quanto online, de julho de 2020 a dezembro de 2023, com preços entre $1.500 e $2.745."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Oregon Tool Inc., de Portland, Oregon"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendidos em",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risco de lesão devido à desconexão da barra do cilindro hidráulico do pistão, causando movimento inesperado da cunha."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Os consumidores devem parar de usar o produto imediatamente se a cunha não retrair e entrar em contato com a Oregon Tool ou seu revendedor para uma instalação gratuita do cilindro de substituição. O auto-reparo não é recomendado. Encontre o revendedor mais próximo em www.oregonproducts.com/en/dealer-locator."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparo"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "ओरेगन टूल ने चोट के जोखिम के कारण लॉग स्प्लिटर्स और सिलेंडर किट्स की रिकॉल की",
+          "Description": "ओरेगन टूल ने ओरेगन, पावरप्रो, कंट्री टफ, और स्पीको ब्रांडों के तहत विभिन्न लॉग स्प्लिटर्स और सिलेंडर किट्स के लिए एक रिकॉल जारी किया है। प्रभावित मॉडल 25 से 35 टन के लॉग स्प्लिटर्स की एक श्रृंखला में शामिल हैं, जिन्हें उनके ब्रांड नाम और उपकरण पर स्थित मॉडल नंबर द्वारा पहचाना जा सकता है। उपभोक्ताओं को इन उत्पादों से संबंधित संभावित खतरों के बारे में जागरूक होना चाहिए, विशेष रूप से हाइड्रोलिक सिलेंडर रॉड की कार्यक्षमता से संबंधित।",
+          "ConsumerContact": "सहायता के लिए, उपभोक्ता ओरेगन टूल से 833-948-2590 पर सुबह 6 बजे से शाम 7 बजे ईटी, सोमवार से शुक्रवार तक संपर्क कर सकते हैं, या logsplitter@oregontool.com पर ईमेल के माध्यम से। अतिरिक्त विवरण ऑनलाइन https://www.oregontool.com/product-recalls/ पर या www.oregonproducts.com पर जाकर और 'Product Recalls' का चयन करके पाया जा सकता है।",
+          "metaDescription": "ओरेगन टूल चोट के जोखिम के कारण लॉग स्प्लिटर्स और सिलेंडर किट्स की रिकॉल करता है। यदि प्रभावित हैं तो मुफ्त प्रतिस्थापन के लिए उनसे संपर्क करें।",
+          "Products": [
+            {
+              "Name": "कंट्री टफ 25 टन लॉग स्प्लिटर CT25TKO-1",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 29,560 (इसके अतिरिक्त, लगभग 4,690 कनाडा में बेचे गए)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "रिकॉल किया गया कंट्री टफ 25 टन लॉग स्प्लिटर"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "कंपनी को रॉड और संलग्न स्प्लिटिंग वेज के अप्रत्याशित रूप से बढ़ी हुई गति से आगे बढ़ने की सात रिपोर्ट मिली हैं। कोई चोट की रिपोर्ट नहीं की गई है।"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "लोव्स, ट्रैक्टर सप्लाई कंपनी, और देश भर के विभिन्न अन्य रिटेलर्स पर, दोनों स्टोर में और ऑनलाइन, जुलाई 2020 से दिसंबर 2023 तक, $1,500 से $2,745 के बीच की कीमत पर उपलब्ध।"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "ओरेगन टूल इंक., पोर्टलैंड, ओरेगन"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "चीन"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "पिस्टन से हाइड्रोलिक सिलेंडर रॉड के अलग होने के कारण चोट का जोखिम, जिससे वेज का अप्रत्याशित आंदोलन होता है।"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "यदि वेज वापस नहीं आता है तो उपभोक्ताओं को तुरंत उत्पाद का उपयोग बंद कर देना चाहिए और मुफ्त प्रतिस्थापन सिलेंडर स्थापना के लिए ओरेगन टूल या उनके डीलर से संपर्क करना चाहिए। स्व-मरम्मत की सिफारिश नहीं की जाती है। निकटतम डीलर www.oregonproducts.com/en/dealer-locator पर खोजें।"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "मरम्मत"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "Компания Oregon Tool отзывает дровоколы и комплекты цилиндров из-за рисков травм",
+          "Description": "Компания Oregon Tool объявила об отзыве различных дровоколов и комплектов цилиндров под брендами Oregon, PowerPro, Country Tuff и Speeco. Пострадавшие модели включают в себя дровоколы с мощностью от 25 до 35 тонн, которые можно идентифицировать по названиям брендов и номерам моделей, расположенным на оборудовании. Потребители должны быть осведомлены о потенциальных опасностях, связанных с этими продуктами, особенно в отношении функциональности штока гидравлического цилиндра.",
+          "ConsumerContact": "Для получения помощи потребители могут связаться с компанией Oregon Tool по телефону 833-948-2590 с 6:00 до 19:00 по восточному времени с понедельника по пятницу или по электронной почте logsplitter@oregontool.com. Дополнительные сведения можно найти в интернете на сайте https://www.oregontool.com/product-recalls/ или посетив www.oregonproducts.com и выбрав 'Отзыв продукции.'",
+          "metaDescription": "Компания Oregon Tool отзывает дровоколы и комплекты цилиндров из-за рисков травм. Свяжитесь с ними для бесплатной замены, если вы пострадали.",
+          "Products": [
+            {
+              "Name": "Дровокол Country Tuff 25 тонн CT25TKO-1",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 29,560 (Кроме того, около 4,690 были проданы в Канаде)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванный дровокол Country Tuff 25 тонн"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Компания получила семь сообщений о движении штока и прикрепленного клина вперед с неожиданно увеличенной скоростью. Травмы не были зафиксированы."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Доступно в магазинах Lowe's, Tractor Supply Company и различных других розничных продавцах по всей стране, как в магазинах, так и онлайн, с июля 2020 года по декабрь 2023 года, по цене от $1,500 до $2,745."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Oregon Tool Inc., Портленд, Орегон"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Продается в",
+          "ManufacturerCountries": [
+            {
+              "Country": "Китай"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Риск травмы из-за отсоединения штока гидравлического цилиндра от поршня, что вызывает неожиданное движение клина."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Потребители должны немедленно прекратить использование продукта, если клин не возвращается, и обратиться в Oregon Tool или к своему дилеру для бесплатной установки заменяющего цилиндра. Самостоятельный ремонт не рекомендуется. Найдите ближайшего дилера на сайте www.oregonproducts.com/en/dealer-locator."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Ремонт"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "Oregon Tool thu hồi máy cắt gỗ và bộ xi lanh do nguy cơ chấn thương",
+          "Description": "Oregon Tool đã phát động một đợt thu hồi cho các máy cắt gỗ và bộ xi lanh khác nhau dưới các thương hiệu Oregon, PowerPro, Country Tuff và Speeco. Các mẫu bị ảnh hưởng bao gồm một loạt máy cắt gỗ từ 25 đến 35 tấn, có thể nhận diện qua tên thương hiệu và số mẫu được ghi trên thiết bị. Người tiêu dùng nên nhận thức được các nguy cơ tiềm ẩn liên quan đến những sản phẩm này, đặc biệt là liên quan đến chức năng của thanh xi lanh thủy lực.\n",
+          "ConsumerContact": "Để được hỗ trợ, người tiêu dùng có thể liên hệ với Oregon Tool qua số 833-948-2590 từ 6 giờ sáng đến 7 giờ tối theo giờ ET, từ thứ Hai đến thứ Sáu, hoặc qua email tại logsplitter@oregontool.com. Thông tin chi tiết có thể được tìm thấy trực tuyến tại https://www.oregontool.com/product-recalls/ hoặc bằng cách truy cập www.oregonproducts.com và chọn 'Product Recalls.'",
+          "metaDescription": "Oregon Tool thu hồi máy cắt gỗ và bộ xi lanh do nguy cơ chấn thương. Liên hệ với họ để được thay thế miễn phí nếu bị ảnh hưởng.",
+          "Products": [
+            {
+              "Name": "Máy cắt gỗ Country Tuff 25 tấn CT25TKO-1",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 29,560 (Ngoài ra, khoảng 4,690 chiếc đã được bán ở Canada)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Máy cắt gỗ Country Tuff 25 tấn bị thu hồi"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Công ty đã nhận được bảy báo cáo về việc thanh và mảnh tách rời di chuyển về phía trước với tốc độ tăng bất ngờ. Không có chấn thương nào được báo cáo."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Có mặt tại Lowe's, Công ty Cung cấp Máy móc Nông nghiệp, và nhiều nhà bán lẻ khác trên toàn quốc, cả trực tiếp và trực tuyến, từ tháng 7 năm 2020 đến tháng 12 năm 2023, với giá từ $1,500 đến $2,745."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Oregon Tool Inc., tại Portland, Oregon"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Bán Tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Trung Quốc"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Nguy cơ chấn thương do thanh xi lanh thủy lực bị tách rời khỏi piston, gây ra chuyển động bất ngờ của mảnh tách."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Người tiêu dùng nên ngừng sử dụng sản phẩm ngay lập tức nếu mảnh tách không thu hồi và liên hệ với Oregon Tool hoặc đại lý của họ để được lắp đặt xi lanh thay thế miễn phí. Không khuyến khích tự sửa chữa. Tìm đại lý gần nhất tại www.oregonproducts.com/en/dealer-locator."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Sửa chữa"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    }
+  ]
+}

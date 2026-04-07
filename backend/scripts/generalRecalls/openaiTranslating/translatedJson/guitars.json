@@ -1,0 +1,761 @@
+{
+  "meta": {
+    "slug": "guitars",
+    "sourceCsvFile": "guitars_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:36.949Z",
+    "recallCount": 1,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "guitars.json",
+    "seoTranslatedAt": "2026-04-04T04:03:49.745Z",
+    "resumePartial": false,
+    "i18nSource": "generalRecallsTranslated",
+    "i18nSourceFile": "guitars.json",
+    "i18nUiLangs": [
+      "en",
+      "es",
+      "ar",
+      "zh",
+      "fr",
+      "de",
+      "ja",
+      "pt",
+      "hi",
+      "ru",
+      "vi"
+    ],
+    "i18nProgressByLang": {
+      "es": 1,
+      "ar": 1,
+      "zh": 1,
+      "fr": 1,
+      "de": 1,
+      "ja": 1,
+      "pt": 1,
+      "hi": 1,
+      "ru": 1,
+      "vi": 1
+    },
+    "i18nInProgress": false,
+    "i18nTranslatedAt": "2026-04-07T08:37:17.594Z",
+    "i18nOpenaiModel": "gpt-4o-mini"
+  },
+  "recalls": [
+    {
+      "RecallID": 10030,
+      "RecallNumber": "24337",
+      "RecallDate": "2024-08-08T00:00:00",
+      "Description": "Chem-Pak is recalling a specific production batch of its Finger-Ease Guitar String Lubricant due to a potential skin irritation hazard. This product is packaged in a clear aerosol spray can, measuring approximately 1.5 inches by 1.5 inches and standing 6 inches tall, weighing around 4.5 ounces. The can features an image of a brown guitar along with the text 'Tone Finger Ease Guitar String Lubricant' in brown, black, and red. The batch code and model number 220B are printed in black on the bottom of the container.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/Chem-Pak-Recalls-Finger-Ease-Guitar-String-Lubricants-Due-to-Skin-Irritation-Hazard",
+      "Title": "Chem-Pak Issues Recall for Finger-Ease Guitar String Lubricant Due to Skin Irritation Risk",
+      "ConsumerContact": "For more information, consumers can reach Chem-Pak Inc. at 888-504-9533 from 8 a.m. to 5 p.m. ET, Monday through Friday, or via email at productrecalls@chem-pak.com. Additional details can be found online at https://chem-pak.com/productrecalls/ or by visiting https://chem-pak.com/ and selecting 'Recalls' at the top of the page.",
+      "LastPublishDate": "2024-08-08T00:00:00",
+      "Products": [
+        {
+          "Name": "Finger-Ease Guitar String Lubricant",
+          "NumberOfUnits": "About 21,130"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/guitars/1-Finger-Ease-Guitar-String-Lubricant/b4dd35ab5a280a677abcd2323935f98b.webp",
+          "Caption": "Recalled Finger-Ease Guitar String Lubricant",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/finger-ease-guitar.jpg"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received one report of minor skin irritation."
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "Chem-Pak Inc., of Martinsburg, West Virginia"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available at Sweetwater, Guitar Center, and U.S. Band & Orchestra Supplies stores nationwide, as well as online at Amazon.com, MusiciansFriend.com, and StLouisMusic.com from March 2024 through May 2024, priced between $7 and $9."
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "United States"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of skin irritation due to contaminant in the lubricant"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should stop using the product immediately and contact Chem-Pak for a free replacement. Mark the bottom of the can with 'Recalled' and the date, then take a photo of the marked can, along with the model number and lot code. Dispose of the product without emptying it and submit the photos online at https://chem-pak.com/productrecalls/ to receive a replacement."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Replace"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "Model number 220B",
+        "Lot code 106824"
+      ],
+      "slug": "chem-pak-issues-recall-for-finger-ease-guitar-string-lubricant-due-to-skin-irritation-risk-recall",
+      "metaDescription": "Chem-Pak recalls Finger-Ease Guitar String Lubricant due to skin irritation risk. Stop using it and contact for a replacement.",
+      "languages": {
+        "en": {
+          "Title": "Chem-Pak Issues Recall for Finger-Ease Guitar String Lubricant Due to Skin Irritation Risk",
+          "Description": "Chem-Pak is recalling a specific production batch of its Finger-Ease Guitar String Lubricant due to a potential skin irritation hazard. This product is packaged in a clear aerosol spray can, measuring approximately 1.5 inches by 1.5 inches and standing 6 inches tall, weighing around 4.5 ounces. The can features an image of a brown guitar along with the text 'Tone Finger Ease Guitar String Lubricant' in brown, black, and red. The batch code and model number 220B are printed in black on the bottom of the container.",
+          "ConsumerContact": "For more information, consumers can reach Chem-Pak Inc. at 888-504-9533 from 8 a.m. to 5 p.m. ET, Monday through Friday, or via email at productrecalls@chem-pak.com. Additional details can be found online at https://chem-pak.com/productrecalls/ or by visiting https://chem-pak.com/ and selecting 'Recalls' at the top of the page.",
+          "metaDescription": "Chem-Pak recalls Finger-Ease Guitar String Lubricant due to skin irritation risk. Stop using it and contact for a replacement.",
+          "Products": [
+            {
+              "Name": "Finger-Ease Guitar String Lubricant",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 21,130"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled Finger-Ease Guitar String Lubricant"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "The firm has received one report of minor skin irritation."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Available at Sweetwater, Guitar Center, and U.S. Band & Orchestra Supplies stores nationwide, as well as online at Amazon.com, MusiciansFriend.com, and StLouisMusic.com from March 2024 through May 2024, priced between $7 and $9."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Chem-Pak Inc., of Martinsburg, West Virginia"
+            }
+          ],
+          "SoldAtLabel": "Sold At",
+          "ManufacturerCountries": [
+            {
+              "Country": "United States"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risk of skin irritation due to contaminant in the lubricant"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Consumers should stop using the product immediately and contact Chem-Pak for a free replacement. Mark the bottom of the can with 'Recalled' and the date, then take a photo of the marked can, along with the model number and lot code. Dispose of the product without emptying it and submit the photos online at https://chem-pak.com/productrecalls/ to receive a replacement."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Replace"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "Chem-Pak Emite un Recall para el Lubricante de Cuerdas de Guitarra Finger-Ease Debido al Riesgo de Irritación de la Piel",
+          "Description": "Chem-Pak está retirando un lote de producción específico de su Lubricante de Cuerdas de Guitarra Finger-Ease debido a un posible riesgo de irritación de la piel. Este producto está empaquetado en un aerosol transparente, que mide aproximadamente 1.5 pulgadas por 1.5 pulgadas y tiene una altura de 6 pulgadas, pesando alrededor de 4.5 onzas. El envase presenta una imagen de una guitarra marrón junto con el texto 'Tone Finger Ease Guitar String Lubricant' en marrón, negro y rojo. El código de lote y el número de modelo 220B están impresos en negro en la parte inferior del envase.",
+          "ConsumerContact": "Para más información, los consumidores pueden comunicarse con Chem-Pak Inc. al 888-504-9533 de 8 a.m. a 5 p.m. ET, de lunes a viernes, o por correo electrónico a productrecalls@chem-pak.com. Se pueden encontrar detalles adicionales en línea en https://chem-pak.com/productrecalls/ o visitando https://chem-pak.com/ y seleccionando 'Recalls' en la parte superior de la página.",
+          "metaDescription": "Chem-Pak retira el Lubricante de Cuerdas de Guitarra Finger-Ease debido al riesgo de irritación de la piel. Deje de usarlo y contáctenos para un reemplazo.",
+          "Products": [
+            {
+              "Name": "Lubricante de Cuerdas de Guitarra Finger-Ease",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 21,130"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Lubricante de Cuerdas de Guitarra Finger-Ease retirado"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "La empresa ha recibido un informe de irritación menor de la piel."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible en Sweetwater, Guitar Center y tiendas U.S. Band & Orchestra Supplies en todo el país, así como en línea en Amazon.com, MusiciansFriend.com y StLouisMusic.com desde marzo de 2024 hasta mayo de 2024, con precios entre $7 y $9."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Chem-Pak Inc., de Martinsburg, Virginia Occidental"
+            }
+          ],
+          "SoldAtLabel": "Vendido En",
+          "ManufacturerCountries": [
+            {
+              "Country": "Estados Unidos"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Riesgo de irritación de la piel debido a contaminantes en el lubricante"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Los consumidores deben dejar de usar el producto de inmediato y contactar a Chem-Pak para un reemplazo gratuito. Marque la parte inferior del envase con 'Retirado' y la fecha, luego tome una foto del envase marcado, junto con el número de modelo y el código de lote. Deseche el producto sin vaciarlo y envíe las fotos en línea a https://chem-pak.com/productrecalls/ para recibir un reemplazo."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reemplazar"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "Chem-Pak تصدر استدعاء لزيت تشحيم أوتار الجيتار Finger-Ease بسبب خطر تهيج الجلد",
+          "Description": "تقوم Chem-Pak باستدعاء دفعة إنتاج محددة من زيت تشحيم أوتار الجيتار Finger-Ease بسبب خطر محتمل لتهيّج الجلد. يتم تعبئة هذا المنتج في علبة رذاذ شفافة، بحجم تقريبًا 1.5 بوصة × 1.5 بوصة وارتفاع 6 بوصات، ويزن حوالي 4.5 أوقية. تحتوي العلبة على صورة لجيتار بني مع النص 'Tone Finger Ease Guitar String Lubricant' باللون البني والأسود والأحمر. تم طباعة رمز الدفعة ورقم الطراز 220B باللون الأسود في أسفل الحاوية.",
+          "ConsumerContact": "لمزيد من المعلومات، يمكن للمستهلكين الاتصال بشركة Chem-Pak Inc. على الرقم 888-504-9533 من الساعة 8 صباحًا حتى 5 مساءً بتوقيت شرق الولايات المتحدة، من الاثنين إلى الجمعة، أو عبر البريد الإلكتروني على productrecalls@chem-pak.com. يمكن العثور على تفاصيل إضافية عبر الإنترنت على https://chem-pak.com/productrecalls/ أو بزيارة https://chem-pak.com/ واختيار 'استدعاءات' في أعلى الصفحة.",
+          "metaDescription": "Chem-Pak تستدعي زيت تشحيم أوتار الجيتار Finger-Ease بسبب خطر تهيج الجلد. توقف عن استخدامه واتصل للحصول على بديل.",
+          "Products": [
+            {
+              "Name": "زيت تشحيم أوتار الجيتار Finger-Ease",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 21,130"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "زيت تشحيم أوتار الجيتار Finger-Ease المستدعى"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "تلقت الشركة تقريرًا واحدًا عن تهيج خفيف في الجلد."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "متوفر في متاجر Sweetwater وGuitar Center وU.S. Band & Orchestra Supplies في جميع أنحاء البلاد، بالإضافة إلى الإنترنت على Amazon.com وMusiciansFriend.com وStLouisMusic.com من مارس 2024 حتى مايو 2024، بسعر يتراوح بين 7 دولارات و9 دولارات."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Chem-Pak Inc.، من مارتينسبورغ، فرجينيا الغربية"
+            }
+          ],
+          "SoldAtLabel": "تباع في",
+          "ManufacturerCountries": [
+            {
+              "Country": "الولايات المتحدة"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "خطر تهيج الجلد بسبب ملوث في الزيت"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "يجب على المستهلكين التوقف عن استخدام المنتج على الفور والاتصال بشركة Chem-Pak للحصول على بديل مجاني. ضع علامة في أسفل العلبة بكلمة 'مستدعى' وتاريخ الاستدعاء، ثم التقط صورة للعلبة المعلّمة، مع رقم الطراز ورمز الدفعة. تخلص من المنتج دون تفريغه وقدم الصور عبر الإنترنت على https://chem-pak.com/productrecalls/ للحصول على بديل."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "استبدال"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "Chem-Pak因皮肤刺激风险召回Finger-Ease吉他弦润滑剂",
+          "Description": "Chem-Pak因潜在的皮肤刺激危害召回其Finger-Ease吉他弦润滑剂的特定生产批次。该产品包装在一个透明的气雾喷雾罐中，尺寸约为1.5英寸 x 1.5英寸，高度为6英寸，重量约为4.5盎司。罐子上印有一把棕色吉他的图像，以及棕色、黑色和红色的文字“Tone Finger Ease吉他弦润滑剂”。批次代码和型号220B以黑色印刷在容器底部。",
+          "ConsumerContact": "如需更多信息，消费者可以在东部时间周一至周五上午8点至下午5点拨打888-504-9533联系Chem-Pak Inc.，或通过电子邮件联系productrecalls@chem-pak.com。更多详细信息可以在线找到，网址为https://chem-pak.com/productrecalls/，或访问https://chem-pak.com/并在页面顶部选择“召回”。",
+          "metaDescription": "Chem-Pak因皮肤刺激风险召回Finger-Ease吉他弦润滑剂。停止使用并联系以获取替换。",
+          "Products": [
+            {
+              "Name": "Finger-Ease吉他弦润滑剂",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约21,130"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "召回的Finger-Ease吉他弦润滑剂"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "公司已收到一起轻微皮肤刺激的报告。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "在Sweetwater、Guitar Center和全国各地的U.S. Band & Orchestra Supplies商店有售，以及在Amazon.com、MusiciansFriend.com和StLouisMusic.com上在线购买，价格在$7到$9之间，销售时间为2024年3月至2024年5月。"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Chem-Pak Inc.，位于西弗吉尼亚州马丁斯堡"
+            }
+          ],
+          "SoldAtLabel": "销售地点",
+          "ManufacturerCountries": [
+            {
+              "Country": "美国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "润滑剂中污染物导致的皮肤刺激风险"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "消费者应立即停止使用该产品并联系Chem-Pak以获取免费替换。在罐底标记“召回”和日期，然后拍摄标记罐子的照片，以及型号和批号。请在不排空产品的情况下处理该产品，并在https://chem-pak.com/productrecalls/上提交照片以获取替换。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "替换"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "Chem-Pak rappelle le lubrifiant pour cordes de guitare Finger-Ease en raison d'un risque d'irritation cutanée",
+          "Description": "Chem-Pak rappelle un lot de production spécifique de son lubrifiant pour cordes de guitare Finger-Ease en raison d'un risque potentiel d'irritation cutanée. Ce produit est conditionné dans une canette aérosol transparente, mesurant environ 1,5 pouce par 1,5 pouce et mesurant 6 pouces de hauteur, pesant environ 4,5 onces. La canette présente une image d'une guitare brune accompagnée du texte 'Tone Finger Ease Guitar String Lubricant' en brun, noir et rouge. Le code de lot et le numéro de modèle 220B sont imprimés en noir au bas du contenant.",
+          "ConsumerContact": "Pour plus d'informations, les consommateurs peuvent contacter Chem-Pak Inc. au 888-504-9533 de 8 h à 17 h HE, du lundi au vendredi, ou par e-mail à productrecalls@chem-pak.com. Des détails supplémentaires peuvent être trouvés en ligne sur https://chem-pak.com/productrecalls/ ou en visitant https://chem-pak.com/ et en sélectionnant 'Rappels' en haut de la page.",
+          "metaDescription": "Chem-Pak rappelle le lubrifiant pour cordes de guitare Finger-Ease en raison d'un risque d'irritation cutanée. Cessez de l'utiliser et contactez pour un remplacement.",
+          "Products": [
+            {
+              "Name": "Lubrifiant pour cordes de guitare Finger-Ease",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 21 130"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Lubrifiant pour cordes de guitare Finger-Ease rappelé"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "L'entreprise a reçu un rapport d'irritation cutanée mineure."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible chez Sweetwater, Guitar Center et U.S. Band & Orchestra Supplies dans tout le pays, ainsi qu'en ligne sur Amazon.com, MusiciansFriend.com et StLouisMusic.com de mars 2024 à mai 2024, au prix compris entre 7 $ et 9 $."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Chem-Pak Inc., de Martinsburg, Virginie-Occidentale"
+            }
+          ],
+          "SoldAtLabel": "Vendu À",
+          "ManufacturerCountries": [
+            {
+              "Country": "États-Unis"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risque d'irritation cutanée en raison d'un contaminant dans le lubrifiant"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Les consommateurs doivent cesser d'utiliser le produit immédiatement et contacter Chem-Pak pour un remplacement gratuit. Marquez le bas de la canette avec 'Rappelé' et la date, puis prenez une photo de la canette marquée, ainsi que du numéro de modèle et du code de lot. Jetez le produit sans l'avoir vidé et soumettez les photos en ligne sur https://chem-pak.com/productrecalls/ pour recevoir un remplacement."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Remplacer"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "Chem-Pak ruft Finger-Ease Gitarrensaiten-Schmiermittel aufgrund von Hautreizungsrisiko zurück",
+          "Description": "Chem-Pak ruft eine spezifische Produktionscharge seines Finger-Ease Gitarrensaiten-Schmiermittels aufgrund eines potenziellen Hautreizungsrisikos zurück. Dieses Produkt ist in einer klaren Aerosoldose verpackt, die ungefähr 1,5 Zoll mal 1,5 Zoll misst und 6 Zoll hoch ist, mit einem Gewicht von etwa 4,5 Unzen. Die Dose zeigt ein Bild einer braunen Gitarre sowie den Text 'Tone Finger Ease Guitar String Lubricant' in Braun, Schwarz und Rot. Der Chargencode und die Modellnummer 220B sind in Schwarz am Boden des Behälters aufgedruckt.",
+          "ConsumerContact": "Für weitere Informationen können Verbraucher Chem-Pak Inc. unter 888-504-9533 von 8 bis 17 Uhr ET, Montag bis Freitag, oder per E-Mail an productrecalls@chem-pak.com erreichen. Weitere Details sind online unter https://chem-pak.com/productrecalls/ oder durch Besuch von https://chem-pak.com/ und Auswahl von 'Rückrufe' oben auf der Seite zu finden.",
+          "metaDescription": "Chem-Pak ruft Finger-Ease Gitarrensaiten-Schmiermittel aufgrund von Hautreizungsrisiko zurück. Hören Sie auf, es zu verwenden, und kontaktieren Sie uns für einen Ersatz.",
+          "Products": [
+            {
+              "Name": "Finger-Ease Gitarrensaiten-Schmiermittel",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 21.130"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Rückgerufenes Finger-Ease Gitarrensaiten-Schmiermittel"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Das Unternehmen hat einen Bericht über eine leichte Hautreizung erhalten."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Erhältlich bei Sweetwater, Guitar Center und U.S. Band & Orchestra Supplies Geschäften landesweit sowie online bei Amazon.com, MusiciansFriend.com und StLouisMusic.com von März 2024 bis Mai 2024, zu Preisen zwischen 7 und 9 Dollar."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Chem-Pak Inc., aus Martinsburg, West Virginia"
+            }
+          ],
+          "SoldAtLabel": "Verkauft bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "Vereinigte Staaten"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risiko von Hautreizungen aufgrund von Verunreinigungen im Schmiermittel"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Verbraucher sollten die Verwendung des Produkts sofort einstellen und Chem-Pak für einen kostenlosen Ersatz kontaktieren. Markieren Sie den Boden der Dose mit 'Rückgerufen' und dem Datum, machen Sie dann ein Foto der markierten Dose sowie der Modellnummer und des Chargencodes. Entsorgen Sie das Produkt, ohne es zu entleeren, und reichen Sie die Fotos online unter https://chem-pak.com/productrecalls/ ein, um einen Ersatz zu erhalten."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Ersatz"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "Chem-Pakが皮膚刺激のリスクによりFinger-Easeギター弦潤滑剤をリコール",
+          "Description": "Chem-Pakは、潜在的な皮膚刺激の危険性により、Finger-Easeギター弦潤滑剤の特定の生産バッチをリコールしています。この製品は、約1.5インチ×1.5インチの透明なエアロゾルスプレー缶にパッケージされており、高さは6インチ、重さは約4.5オンスです。缶には、茶色のギターの画像とともに、「Tone Finger Ease Guitar String Lubricant」というテキストが茶色、黒、赤で印刷されています。バッチコードとモデル番号220Bは、容器の底に黒で印刷されています。",
+          "ConsumerContact": "詳細については、消費者はChem-Pak Inc.に、月曜日から金曜日の午前8時から午後5時（ET）まで888-504-9533に連絡するか、productrecalls@chem-pak.comまでメールでお問い合わせください。追加の詳細は、https://chem-pak.com/productrecalls/でオンラインで確認するか、https://chem-pak.com/にアクセスしてページ上部の「リコール」を選択してください。",
+          "metaDescription": "Chem-Pakが皮膚刺激のリスクによりFinger-Easeギター弦潤滑剤をリコール。使用を中止し、交換のために連絡してください。",
+          "Products": [
+            {
+              "Name": "Finger-Easeギター弦潤滑剤",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約21,130"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコールされたFinger-Easeギター弦潤滑剤"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "企業は軽度の皮膚刺激の報告を1件受けています。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "全国のSweetwater、Guitar Center、U.S. Band & Orchestra Supplies店舗およびAmazon.com、MusiciansFriend.com、StLouisMusic.comで、2024年3月から2024年5月まで販売され、価格は7ドルから9ドルの間です。"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "West Virginia州マーチンズバーグのChem-Pak Inc."
+            }
+          ],
+          "SoldAtLabel": "販売場所",
+          "ManufacturerCountries": [
+            {
+              "Country": "アメリカ合衆国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "潤滑剤の汚染物質による皮膚刺激のリスク"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "消費者は直ちに製品の使用を中止し、Chem-Pakに連絡して無料の交換を受けるべきです。缶の底に「リコール」と日付を記入し、マークされた缶の写真をモデル番号とロットコードとともに撮影してください。製品を空にせずに廃棄し、写真をオンラインでhttps://chem-pak.com/productrecalls/に提出して交換を受けてください。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "交換"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "Chem-Pak Emite Recall para Lubrificante de Cordas de Violão Finger-Ease Devido ao Risco de Irritação na Pele",
+          "Description": "A Chem-Pak está recallando um lote específico de sua Lubrificante de Cordas de Violão Finger-Ease devido a um potencial risco de irritação na pele. Este produto está embalado em uma lata de spray aerosol transparente, medindo aproximadamente 1,5 polegadas por 1,5 polegadas e com 6 polegadas de altura, pesando cerca de 4,5 onças. A lata apresenta uma imagem de um violão marrom junto com o texto 'Tone Finger Ease Guitar String Lubricant' em marrom, preto e vermelho. O código do lote e o número do modelo 220B estão impressos em preto na parte inferior do recipiente.",
+          "ConsumerContact": "Para mais informações, os consumidores podem entrar em contato com a Chem-Pak Inc. pelo telefone 888-504-9533 das 8h às 17h ET, de segunda a sexta-feira, ou por e-mail em productrecalls@chem-pak.com. Detalhes adicionais podem ser encontrados online em https://chem-pak.com/productrecalls/ ou visitando https://chem-pak.com/ e selecionando 'Recalls' no topo da página.",
+          "metaDescription": "Chem-Pak recall de Lubrificante de Cordas de Violão Finger-Ease devido ao risco de irritação na pele. Pare de usá-lo e entre em contato para uma substituição.",
+          "Products": [
+            {
+              "Name": "Lubrificante de Cordas de Violão Finger-Ease",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 21.130"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Lubrificante de Cordas de Violão Finger-Ease Recallado"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "A empresa recebeu um relato de irritação leve na pele."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponível na Sweetwater, Guitar Center e lojas U.S. Band & Orchestra Supplies em todo o país, bem como online em Amazon.com, MusiciansFriend.com e StLouisMusic.com de março de 2024 a maio de 2024, com preços entre $7 e $9."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Chem-Pak Inc., de Martinsburg, West Virginia"
+            }
+          ],
+          "SoldAtLabel": "Vendido Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "Estados Unidos"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risco de irritação na pele devido a contaminante no lubrificante"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Os consumidores devem parar de usar o produto imediatamente e entrar em contato com a Chem-Pak para uma substituição gratuita. Marque a parte inferior da lata com 'Recallado' e a data, em seguida, tire uma foto da lata marcada, junto com o número do modelo e o código do lote. Descarte o produto sem esvaziá-lo e envie as fotos online em https://chem-pak.com/productrecalls/ para receber uma substituição."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Substituir"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "Chem-Pak ने त्वचा में जलन के जोखिम के कारण Finger-Ease गिटार स्ट्रिंग ल्यूब्रिकेंट का रिकॉल जारी किया",
+          "Description": "Chem-Pak अपने Finger-Ease गिटार स्ट्रिंग ल्यूब्रिकेंट के एक विशेष उत्पादन बैच को संभावित त्वचा में जलन के खतरे के कारण वापस बुला रहा है। यह उत्पाद एक स्पष्ट एरोसोल स्प्रे कैन में पैक किया गया है, जिसका आकार लगभग 1.5 इंच x 1.5 इंच है और ऊँचाई 6 इंच है, जिसका वजन लगभग 4.5 औंस है। कैन पर एक भूरे रंग के गिटार की छवि है, साथ ही 'Tone Finger Ease Guitar String Lubricant' का पाठ भूरे, काले और लाल रंग में है। बैच कोड और मॉडल नंबर 220B कंटेनर के नीचे काले रंग में छपे हुए हैं।",
+          "ConsumerContact": "अधिक जानकारी के लिए, उपभोक्ता Chem-Pak Inc. से 888-504-9533 पर सुबह 8 बजे से शाम 5 बजे ET, सोमवार से शुक्रवार तक संपर्क कर सकते हैं, या ईमेल के माध्यम से productrecalls@chem-pak.com पर संपर्क कर सकते हैं। अतिरिक्त विवरण ऑनलाइन https://chem-pak.com/productrecalls/ पर या https://chem-pak.com/ पर जाकर और पृष्ठ के शीर्ष पर 'Recalls' का चयन करके पाया जा सकता है।",
+          "metaDescription": "Chem-Pak त्वचा में जलन के जोखिम के कारण Finger-Ease गिटार स्ट्रिंग ल्यूब्रिकेंट का रिकॉल करता है। इसका उपयोग करना बंद करें और प्रतिस्थापन के लिए संपर्क करें।",
+          "Products": [
+            {
+              "Name": "Finger-Ease गिटार स्ट्रिंग ल्यूब्रिकेंट",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 21,130"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "रिकॉल किया गया Finger-Ease गिटार स्ट्रिंग ल्यूब्रिकेंट"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "कंपनी को हल्की त्वचा में जलन की एक रिपोर्ट मिली है।"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Sweetwater, Guitar Center, और U.S. Band & Orchestra Supplies स्टोर्स में राष्ट्रीय स्तर पर उपलब्ध है, साथ ही Amazon.com, MusiciansFriend.com, और StLouisMusic.com पर मार्च 2024 से मई 2024 तक, $7 से $9 के बीच कीमत पर।"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Chem-Pak Inc., Martinsburg, West Virginia का"
+            }
+          ],
+          "SoldAtLabel": "बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "संयुक्त राज्य अमेरिका"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "ल्यूब्रिकेंट में संदूषक के कारण त्वचा में जलन का जोखिम"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "उपभोक्ताओं को तुरंत उत्पाद का उपयोग करना बंद कर देना चाहिए और Chem-Pak से मुफ्त प्रतिस्थापन के लिए संपर्क करना चाहिए। कैन के नीचे 'रिकॉल किया गया' और तारीख के साथ चिह्नित करें, फिर चिह्नित कैन की एक फोटो लें, साथ ही मॉडल नंबर और बैच कोड। उत्पाद को खाली किए बिना नष्ट करें और प्रतिस्थापन प्राप्त करने के लिए https://chem-pak.com/productrecalls/ पर फोटो सबमिट करें।"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "बदलें"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "Chem-Pak отзывает смазку для струн гитары Finger-Ease из-за риска раздражения кожи",
+          "Description": "Chem-Pak отзывает конкретную партию своей смазки для струн гитары Finger-Ease из-за потенциальной опасности раздражения кожи. Этот продукт упакован в прозрачный аэрозольный баллончик, размером примерно 1,5 дюйма на 1,5 дюйма и высотой 6 дюймов, весом около 4,5 унций. На баллончике изображена коричневая гитара с текстом 'Tone Finger Ease Guitar String Lubricant' коричневым, черным и красным цветами. Код партии и номер модели 220B напечатаны черным цветом на дне контейнера.",
+          "ConsumerContact": "Для получения дополнительной информации потребители могут связаться с Chem-Pak Inc. по телефону 888-504-9533 с 8:00 до 17:00 по восточному времени, с понедельника по пятницу, или по электронной почте на адрес productrecalls@chem-pak.com. Дополнительные детали можно найти в интернете на сайте https://chem-pak.com/productrecalls/ или посетив https://chem-pak.com/ и выбрав 'Recalls' в верхней части страницы.",
+          "metaDescription": "Chem-Pak отзывает смазку для струн гитары Finger-Ease из-за риска раздражения кожи. Прекратите использование и свяжитесь для получения замены.",
+          "Products": [
+            {
+              "Name": "Смазка для струн гитары Finger-Ease",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 21,130"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванная смазка для струн гитары Finger-Ease"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Компания получила один отчет о незначительном раздражении кожи."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Доступно в магазинах Sweetwater, Guitar Center и U.S. Band & Orchestra Supplies по всей стране, а также онлайн на Amazon.com, MusiciansFriend.com и StLouisMusic.com с марта 2024 года по май 2024 года, по цене от 7 до 9 долларов."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Chem-Pak Inc., из Мартинсбурга, Западная Вирджиния"
+            }
+          ],
+          "SoldAtLabel": "Продается в",
+          "ManufacturerCountries": [
+            {
+              "Country": "Соединенные Штаты"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Риск раздражения кожи из-за загрязнителя в смазке"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Потребители должны немедленно прекратить использование продукта и связаться с Chem-Pak для получения бесплатной замены. Отметьте дно баллончика словом 'Отозвано' и датой, затем сделайте фотографию отмеченного баллончика, вместе с номером модели и кодом партии. Утилизируйте продукт, не опустошая его, и отправьте фотографии онлайн на https://chem-pak.com/productrecalls/ для получения замены."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Заменить"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "Chem-Pak Thông Báo Thu Hồi Dầu Bôi Trơn Dây Đàn Guitar Finger-Ease Do Nguy Cơ Kích Ứng Da",
+          "Description": "Chem-Pak đang thu hồi một lô sản phẩm cụ thể của Dầu Bôi Trơn Dây Đàn Guitar Finger-Ease do nguy cơ kích ứng da tiềm ẩn. Sản phẩm này được đóng gói trong một bình xịt aerosol trong suốt, có kích thước khoảng 1,5 inch x 1,5 inch và cao 6 inch, nặng khoảng 4,5 ounce. Bình xịt có hình ảnh một cây đàn guitar màu nâu cùng với dòng chữ 'Tone Finger Ease Guitar String Lubricant' bằng màu nâu, đen và đỏ. Mã lô và số mô hình 220B được in bằng mực đen ở đáy của bình chứa.",
+          "ConsumerContact": "Để biết thêm thông tin, người tiêu dùng có thể liên hệ với Chem-Pak Inc. qua số điện thoại 888-504-9533 từ 8 giờ sáng đến 5 giờ chiều ET, từ thứ Hai đến thứ Sáu, hoặc qua email tại productrecalls@chem-pak.com. Thông tin chi tiết có thể được tìm thấy trực tuyến tại https://chem-pak.com/productrecalls/ hoặc bằng cách truy cập https://chem-pak.com/ và chọn 'Recalls' ở đầu trang.",
+          "metaDescription": "Chem-Pak thu hồi Dầu Bôi Trơn Dây Đàn Guitar Finger-Ease do nguy cơ kích ứng da. Ngừng sử dụng và liên hệ để được thay thế.",
+          "Products": [
+            {
+              "Name": "Dầu Bôi Trơn Dây Đàn Guitar Finger-Ease",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 21,130"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Dầu Bôi Trơn Dây Đàn Guitar Finger-Ease bị thu hồi"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Công ty đã nhận được một báo cáo về kích ứng da nhẹ."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Có mặt tại các cửa hàng Sweetwater, Guitar Center và U.S. Band & Orchestra Supplies trên toàn quốc, cũng như trực tuyến tại Amazon.com, MusiciansFriend.com và StLouisMusic.com từ tháng 3 năm 2024 đến tháng 5 năm 2024, với giá từ 7 đến 9 đô la."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Chem-Pak Inc., ở Martinsburg, West Virginia"
+            }
+          ],
+          "SoldAtLabel": "Bán Tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Hoa Kỳ"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Nguy cơ kích ứng da do chất ô nhiễm trong dầu bôi trơn"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Người tiêu dùng nên ngừng sử dụng sản phẩm ngay lập tức và liên hệ với Chem-Pak để được thay thế miễn phí. Đánh dấu đáy của bình với chữ 'Đã thu hồi' và ngày, sau đó chụp ảnh bình đã đánh dấu, cùng với số mô hình và mã lô. Vứt bỏ sản phẩm mà không làm rỗng và gửi ảnh trực tuyến tại https://chem-pak.com/productrecalls/ để nhận được sản phẩm thay thế."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Thay thế"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    }
+  ]
+}

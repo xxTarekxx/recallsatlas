@@ -1,0 +1,883 @@
+{
+  "meta": {
+    "slug": "gas-or-lp-heaters",
+    "sourceCsvFile": "gas-or-lp-heaters_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:36.940Z",
+    "recallCount": 1,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "gas-or-lp-heaters.json",
+    "seoTranslatedAt": "2026-04-04T03:44:14.526Z",
+    "resumePartial": false,
+    "i18nSource": "generalRecallsTranslated",
+    "i18nSourceFile": "gas-or-lp-heaters.json",
+    "i18nUiLangs": [
+      "en",
+      "es",
+      "ar",
+      "zh",
+      "fr",
+      "de",
+      "ja",
+      "pt",
+      "hi",
+      "ru",
+      "vi"
+    ],
+    "i18nProgressByLang": {
+      "es": 1,
+      "ar": 1,
+      "zh": 1,
+      "fr": 1,
+      "de": 1,
+      "ja": 1,
+      "pt": 1,
+      "hi": 1,
+      "ru": 1,
+      "vi": 1
+    },
+    "i18nInProgress": false,
+    "i18nTranslatedAt": "2026-04-07T07:45:54.013Z",
+    "i18nOpenaiModel": "gpt-4o-mini"
+  },
+  "recalls": [
+    {
+      "RecallID": 10332,
+      "RecallNumber": "25369",
+      "RecallDate": "2025-07-03T00:00:00",
+      "Description": "Trane and American Standard have issued a recall for several models of their Gas/Electric Packaged Units due to a potential risk of gas leaks and fire hazards. The affected models include specific serial number ranges, which can be found on the back of the units. The brand name is displayed on the front of each unit, ensuring easy identification by consumers.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/Trane-Recalls-Gas-Electric-Packaged-Units-Due-to-Risk-of-Gas-Leak-Fire-Hazard",
+      "Title": "Trane and American Standard Gas/Electric Packaged Units Recalled for Gas Leak and Fire Risks",
+      "ConsumerContact": "Consumers should cease using the heating function of the affected units immediately and reach out to their installation dealer for a complimentary inspection and repair. For assistance, contact Trane or American Standard at 800-889-0129, Monday through Friday, from 8 a.m. to 6 p.m. ET, or visit https://www.trane.com/residential/gas-electric-packaged-unit-recall/ or https://www.americanstandardair.com/gas-electric-packaged-unit-recall/ for more details.",
+      "LastPublishDate": "2025-07-03T00:00:00",
+      "Products": [
+        {
+          "Name": "Trane Gas/Electric Packaged Unit",
+          "NumberOfUnits": "About 4,790"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/gas-or-lp-heaters/1-Trane-Gas-Electric-Packaged-Unit/89fe4d611248aa3f2f9a1c9f09cacd5b.webp",
+          "Caption": "Recalled American Standard Gas/Electric Packaged Unit",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/trane-1.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/gas-or-lp-heaters/1-Trane-Gas-Electric-Packaged-Unit/d782d5948c955bad9204053ea46b72d0.webp",
+          "Caption": "Recalled Trane Two-Stage Gas/Electric Packaged Unit",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/trane-2.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/gas-or-lp-heaters/1-Trane-Gas-Electric-Packaged-Unit/ac3b23ec79cbcd7e5150fbef4f585e6a.webp",
+          "Caption": "Recalled Two-Stage Gas/Electric Packaged Unit",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/trane-3.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/gas-or-lp-heaters/1-Trane-Gas-Electric-Packaged-Unit/68921d63d5a69e95a45afa70403a70c3.webp",
+          "Caption": "Model and serial number location",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/trane-4.jpg"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received one report of gas leaking from the recalled two-stage gas furnace/air conditioners. No injuries have been reported."
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "Trane U.S. Inc., of Davidson, North Carolina"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "HVAC distributors and dealers across the country, available from January 2024 to March 2025, priced between $8,250 and $12,900"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "Mexico"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Unexpected gas valve opening leading to gas leaks and fire hazards"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Stop using the heating mode and contact your dealer for a free inspection and repair"
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "4YCZ5024F1060A",
+        "4YCZ5036F1070A",
+        "4YCZ5036F1090A",
+        "4YCZ5048E1090A",
+        "4YCZ5048E1115A",
+        "24061381FA - 24453189FA",
+        "24013024FA - 24482966FA",
+        "24061367FA - 24442702FA",
+        "24061326FA - 24492348FA",
+        "24106164FA - 24415095FA"
+      ],
+      "slug": "trane-and-american-standard-gas-electric-packaged-units-recalled-for-gas-leak-and-fire-risks-recall",
+      "metaDescription": "Recall alert: Trane and American Standard Gas/Electric Packaged Units pose fire and gas leak risks. Immediate action required for safety.",
+      "languages": {
+        "en": {
+          "Title": "Trane and American Standard Gas/Electric Packaged Units Recalled for Gas Leak and Fire Risks",
+          "Description": "Trane and American Standard have issued a recall for several models of their Gas/Electric Packaged Units due to a potential risk of gas leaks and fire hazards. The affected models include specific serial number ranges, which can be found on the back of the units. The brand name is displayed on the front of each unit, ensuring easy identification by consumers.",
+          "ConsumerContact": "Consumers should cease using the heating function of the affected units immediately and reach out to their installation dealer for a complimentary inspection and repair. For assistance, contact Trane or American Standard at 800-889-0129, Monday through Friday, from 8 a.m. to 6 p.m. ET, or visit https://www.trane.com/residential/gas-electric-packaged-unit-recall/ or https://www.americanstandardair.com/gas-electric-packaged-unit-recall/ for more details.",
+          "metaDescription": "Recall alert: Trane and American Standard Gas/Electric Packaged Units pose fire and gas leak risks. Immediate action required for safety.",
+          "Products": [
+            {
+              "Name": "Trane Gas/Electric Packaged Unit",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 4,790"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled American Standard Gas/Electric Packaged Unit"
+            },
+            {
+              "Caption": "Recalled Trane Two-Stage Gas/Electric Packaged Unit"
+            },
+            {
+              "Caption": "Recalled Two-Stage Gas/Electric Packaged Unit"
+            },
+            {
+              "Caption": "Model and serial number location"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "The firm has received one report of gas leaking from the recalled two-stage gas furnace/air conditioners. No injuries have been reported."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "HVAC distributors and dealers across the country, available from January 2024 to March 2025, priced between $8,250 and $12,900"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Trane U.S. Inc., of Davidson, North Carolina"
+            }
+          ],
+          "SoldAtLabel": "Sold At",
+          "ManufacturerCountries": [
+            {
+              "Country": "Mexico"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Unexpected gas valve opening leading to gas leaks and fire hazards"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Stop using the heating mode and contact your dealer for a free inspection and repair"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Repair"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "Trane y American Standard Unidades Empacadas de Gas/Electricidad Retiradas por Riesgos de Fugas de Gas e Incendios",
+          "Description": "Trane y American Standard han emitido un retiro para varios modelos de sus Unidades Empacadas de Gas/Electricidad debido a un riesgo potencial de fugas de gas y peligros de incendio. Los modelos afectados incluyen rangos específicos de números de serie, que se pueden encontrar en la parte posterior de las unidades. El nombre de la marca se muestra en la parte frontal de cada unidad, asegurando una fácil identificación por parte de los consumidores.",
+          "ConsumerContact": "Los consumidores deben dejar de usar la función de calefacción de las unidades afectadas de inmediato y comunicarse con su distribuidor de instalación para una inspección y reparación gratuitas. Para asistencia, comuníquese con Trane o American Standard al 800-889-0129, de lunes a viernes, de 8 a.m. a 6 p.m. ET, o visite https://www.trane.com/residential/gas-electric-packaged-unit-recall/ o https://www.americanstandardair.com/gas-electric-packaged-unit-recall/ para más detalles.",
+          "metaDescription": "Alerta de retiro: Las Unidades Empacadas de Gas/Electricidad de Trane y American Standard presentan riesgos de incendio y fugas de gas. Se requiere acción inmediata para la seguridad.",
+          "Products": [
+            {
+              "Name": "Unidad Empacada de Gas/Electricidad Trane",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 4,790"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Unidad Empacada de Gas/Electricidad American Standard Retirada"
+            },
+            {
+              "Caption": "Unidad Empacada de Gas/Electricidad Trane de Dos Etapas Retirada"
+            },
+            {
+              "Caption": "Unidad Empacada de Gas/Electricidad de Dos Etapas Retirada"
+            },
+            {
+              "Caption": "Ubicación del modelo y número de serie"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "La empresa ha recibido un informe de fuga de gas de la estufa de gas/aire acondicionado de dos etapas retirada. No se han reportado lesiones."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Distribuidores y vendedores de HVAC en todo el país, disponibles desde enero de 2024 hasta marzo de 2025, con precios entre $8,250 y $12,900"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Trane U.S. Inc., de Davidson, Carolina del Norte"
+            }
+          ],
+          "SoldAtLabel": "Vendidos En",
+          "ManufacturerCountries": [
+            {
+              "Country": "México"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Apertura inesperada de la válvula de gas que conduce a fugas de gas y peligros de incendio"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Deje de usar el modo de calefacción y comuníquese con su distribuidor para una inspección y reparación gratuitas"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparar"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "استدعاء وحدات الغاز/الكهرباء المعبأة من ترين وستاندرد الأمريكية بسبب مخاطر تسرب الغاز والحرائق",
+          "Description": "أصدرت ترين وستاندرد الأمريكية استدعاء لعدة نماذج من وحدات الغاز/الكهرباء المعبأة بسبب خطر محتمل لتسرب الغاز ومخاطر الحرائق. تشمل النماذج المتأثرة نطاقات أرقام تسلسلية محددة، والتي يمكن العثور عليها في الجزء الخلفي من الوحدات. يتم عرض اسم العلامة التجارية في الجزء الأمامي من كل وحدة، مما يضمن سهولة التعرف عليها من قبل المستهلكين.",
+          "ConsumerContact": "يجب على المستهلكين التوقف عن استخدام وظيفة التدفئة في الوحدات المتأثرة على الفور والتواصل مع وكيل التركيب الخاص بهم لإجراء فحص وإصلاح مجاني. للحصول على المساعدة، اتصل بترين أو ستاندرد الأمريكية على الرقم 800-889-0129، من الاثنين إلى الجمعة، من الساعة 8 صباحًا حتى 6 مساءً بتوقيت شرق الولايات المتحدة، أو قم بزيارة https://www.trane.com/residential/gas-electric-packaged-unit-recall/ أو https://www.americanstandardair.com/gas-electric-packaged-unit-recall/ لمزيد من التفاصيل.",
+          "metaDescription": "تنبيه استدعاء: وحدات الغاز/الكهرباء المعبأة من ترين وستاندرد الأمريكية تشكل مخاطر حرائق وتسرب غاز. يتطلب الأمر اتخاذ إجراء فوري من أجل السلامة.",
+          "Products": [
+            {
+              "Name": "وحدة الغاز/الكهرباء المعبأة من ترين",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 4,790"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "وحدة الغاز/الكهرباء المعبأة من ستاندرد الأمريكية المستدعاة"
+            },
+            {
+              "Caption": "وحدة الغاز/الكهرباء المعبأة من ترين ذات المرحلتين المستدعاة"
+            },
+            {
+              "Caption": "وحدة الغاز/الكهرباء المعبأة ذات المرحلتين المستدعاة"
+            },
+            {
+              "Caption": "موقع رقم الطراز والرقم التسلسلي"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "تلقت الشركة تقريرًا واحدًا عن تسرب الغاز من فرن الغاز/مكيف الهواء المستدعى ذي المرحلتين. لم يتم الإبلاغ عن أي إصابات."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "موزعو وموزعو HVAC في جميع أنحاء البلاد، متاحون من يناير 2024 إلى مارس 2025، بأسعار تتراوح بين 8,250 دولار و12,900 دولار"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "ترين الولايات المتحدة، إنك، من ديفيدسون، كارولينا الشمالية"
+            }
+          ],
+          "SoldAtLabel": "تم البيع في",
+          "ManufacturerCountries": [
+            {
+              "Country": "المكسيك"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "فتح غير متوقع لصمام الغاز مما يؤدي إلى تسرب الغاز ومخاطر الحرائق"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "توقف عن استخدام وضع التدفئة وتواصل مع وكيلك لإجراء فحص وإصلاح مجاني"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "إصلاح"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "特灵和美国标准燃气/电力打包单元因燃气泄漏和火灾风险被召回",
+          "Description": "特灵和美国标准已对其多个型号的燃气/电力打包单元发出召回，原因是存在燃气泄漏和火灾隐患的潜在风险。受影响的型号包括特定的序列号范围，您可以在单元的背面找到。品牌名称显示在每个单元的前面，确保消费者能够轻松识别。",
+          "ConsumerContact": "消费者应立即停止使用受影响单元的加热功能，并联系他们的安装经销商进行免费检查和维修。如需帮助，请在周一至周五，东部时间上午8点至下午6点拨打特灵或美国标准的电话800-889-0129，或访问https://www.trane.com/residential/gas-electric-packaged-unit-recall/或https://www.americanstandardair.com/gas-electric-packaged-unit-recall/获取更多详情。",
+          "metaDescription": "召回警报：特灵和美国标准燃气/电力打包单元存在火灾和燃气泄漏风险。需要立即采取行动以确保安全。",
+          "Products": [
+            {
+              "Name": "特灵燃气/电力打包单元",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约4,790"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "被召回的美国标准燃气/电力打包单元"
+            },
+            {
+              "Caption": "被召回的特灵双级燃气/电力打包单元"
+            },
+            {
+              "Caption": "被召回的双级燃气/电力打包单元"
+            },
+            {
+              "Caption": "型号和序列号位置"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "公司已收到一份关于被召回的双级燃气炉/空调泄漏燃气的报告。未报告任何伤害。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "全国各地的HVAC分销商和经销商，销售时间为2024年1月至2025年3月，价格在$8,250至$12,900之间"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "特灵美国公司，位于北卡罗来纳州戴维森"
+            }
+          ],
+          "SoldAtLabel": "销售地点",
+          "ManufacturerCountries": [
+            {
+              "Country": "墨西哥"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "意外的燃气阀开启导致燃气泄漏和火灾隐患"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "停止使用加热模式并联系您的经销商进行免费检查和维修"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "维修"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "Unités Packagées Gaz/Électriques Trane et American Standard rappelées en raison de risques de fuite de gaz et d'incendie",
+          "Description": "Trane et American Standard ont émis un rappel pour plusieurs modèles de leurs unités packagées gaz/électriques en raison d'un risque potentiel de fuites de gaz et de dangers d'incendie. Les modèles concernés incluent des plages de numéros de série spécifiques, qui peuvent être trouvées à l'arrière des unités. Le nom de la marque est affiché à l'avant de chaque unité, garantissant une identification facile par les consommateurs.",
+          "ConsumerContact": "Les consommateurs doivent cesser d'utiliser la fonction de chauffage des unités concernées immédiatement et contacter leur revendeur pour une inspection et une réparation gratuites. Pour assistance, contactez Trane ou American Standard au 800-889-0129, du lundi au vendredi, de 8 h à 18 h HNE, ou visitez https://www.trane.com/residential/gas-electric-packaged-unit-recall/ ou https://www.americanstandardair.com/gas-electric-packaged-unit-recall/ pour plus de détails.",
+          "metaDescription": "Alerte de rappel : Les unités packagées gaz/électriques Trane et American Standard présentent des risques d'incendie et de fuite de gaz. Action immédiate requise pour la sécurité.",
+          "Products": [
+            {
+              "Name": "Unité Packagée Gaz/Électrique Trane",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 4 790"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Unité Packagée Gaz/Électrique American Standard rappelée"
+            },
+            {
+              "Caption": "Unité Packagée Gaz/Électrique Trane à deux étages rappelée"
+            },
+            {
+              "Caption": "Unité Packagée Gaz/Électrique à deux étages rappelée"
+            },
+            {
+              "Caption": "Emplacement du modèle et du numéro de série"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "L'entreprise a reçu un rapport de fuite de gaz provenant du four/ climatiseur à deux étages rappelé. Aucun blessé n'a été signalé."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Distributeurs et revendeurs HVAC à travers le pays, disponibles de janvier 2024 à mars 2025, prix entre 8 250 $ et 12 900 $"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Trane U.S. Inc., de Davidson, Caroline du Nord"
+            }
+          ],
+          "SoldAtLabel": "Vendu À",
+          "ManufacturerCountries": [
+            {
+              "Country": "Mexique"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Ouverture inattendue de la vanne à gaz entraînant des fuites de gaz et des risques d'incendie"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Cesser d'utiliser le mode de chauffage et contacter votre revendeur pour une inspection et une réparation gratuites"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Réparation"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "Trane und American Standard Gas-/Elektrische Paketgeräte wegen Gasleck- und Brandrisiken zurückgerufen",
+          "Description": "Trane und American Standard haben einen Rückruf für mehrere Modelle ihrer Gas-/Elektrischen Paketgeräte aufgrund eines potenziellen Risikos von Gaslecks und Brandgefahren herausgegeben. Die betroffenen Modelle umfassen spezifische Seriennummernbereiche, die auf der Rückseite der Geräte zu finden sind. Der Markenname ist auf der Vorderseite jedes Geräts angebracht, was eine einfache Identifizierung durch die Verbraucher gewährleistet.",
+          "ConsumerContact": "Verbraucher sollten die Heizfunktion der betroffenen Geräte sofort einstellen und sich an ihren Installationshändler für eine kostenlose Inspektion und Reparatur wenden. Für Unterstützung kontaktieren Sie Trane oder American Standard unter 800-889-0129, Montag bis Freitag, von 8 bis 18 Uhr ET, oder besuchen Sie https://www.trane.com/residential/gas-electric-packaged-unit-recall/ oder https://www.americanstandardair.com/gas-electric-packaged-unit-recall/ für weitere Details.",
+          "metaDescription": "Rückrufwarnung: Trane und American Standard Gas-/Elektrische Paketgeräte stellen Brand- und Gasleckrisiken dar. Sofortige Maßnahmen erforderlich für die Sicherheit.",
+          "Products": [
+            {
+              "Name": "Trane Gas-/Elektrisches Paketgerät",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 4.790"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Zurückgerufenes American Standard Gas-/Elektrisches Paketgerät"
+            },
+            {
+              "Caption": "Zurückgerufenes Trane Zwei-Stufen Gas-/Elektrisches Paketgerät"
+            },
+            {
+              "Caption": "Zurückgerufenes Zwei-Stufen Gas-/Elektrisches Paketgerät"
+            },
+            {
+              "Caption": "Modell- und Seriennummernstandort"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Das Unternehmen hat einen Bericht über Gasleckagen aus dem zurückgerufenen Zwei-Stufen-Gasofen/Klimaanlage erhalten. Es wurden keine Verletzungen gemeldet."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "HVAC-Distributoren und -Händler im ganzen Land, verfügbar von Januar 2024 bis März 2025, Preise zwischen 8.250 und 12.900 US-Dollar"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Trane U.S. Inc., aus Davidson, North Carolina"
+            }
+          ],
+          "SoldAtLabel": "Verkauft bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "Mexiko"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Unerwartetes Öffnen des Gasventils, das zu Gaslecks und Brandgefahren führt"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Hören Sie auf, den Heizmodus zu verwenden, und kontaktieren Sie Ihren Händler für eine kostenlose Inspektion und Reparatur"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparatur"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "トレインとアメリカンスタンダードのガス/電気パッケージユニットがガス漏れと火災リスクのためにリコール",
+          "Description": "トレインとアメリカンスタンダードは、ガス漏れと火災の危険性があるため、いくつかのモデルのガス/電気パッケージユニットをリコールしました。影響を受けるモデルには、ユニットの背面に記載されている特定のシリアル番号範囲が含まれます。ブランド名は各ユニットの前面に表示されており、消費者が簡単に識別できるようになっています。",
+          "ConsumerContact": "消費者は、影響を受けるユニットの暖房機能の使用を直ちに中止し、無償の点検と修理のために設置ディーラーに連絡するべきです。サポートが必要な場合は、トレインまたはアメリカンスタンダードに、月曜日から金曜日の午前8時から午後6時（ET）まで、800-889-0129までご連絡いただくか、詳細については https://www.trane.com/residential/gas-electric-packaged-unit-recall/ または https://www.americanstandardair.com/gas-electric-packaged-unit-recall/ をご覧ください。",
+          "metaDescription": "リコール警告：トレインとアメリカンスタンダードのガス/電気パッケージユニットは火災とガス漏れのリスクをもたらします。安全のために直ちに行動が必要です。",
+          "Products": [
+            {
+              "Name": "トレイン ガス/電気パッケージユニット",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約4,790"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコールされたアメリカンスタンダード ガス/電気パッケージユニット"
+            },
+            {
+              "Caption": "リコールされたトレイン 二段階ガス/電気パッケージユニット"
+            },
+            {
+              "Caption": "リコールされた二段階ガス/電気パッケージユニット"
+            },
+            {
+              "Caption": "モデルとシリアル番号の位置"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "同社は、リコールされた二段階ガス炉/エアコンからのガス漏れの報告を1件受けています。怪我の報告はありません。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "全国のHVACディストリビューターとディーラー、2024年1月から2025年3月まで利用可能、価格は$8,250から$12,900"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "トレインU.S. Inc.、ノースカロライナ州デイビッドソン"
+            }
+          ],
+          "SoldAtLabel": "販売場所",
+          "ManufacturerCountries": [
+            {
+              "Country": "メキシコ"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "予期しないガスバルブの開放によるガス漏れと火災の危険"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "暖房モードの使用を中止し、無償の点検と修理のためにディーラーに連絡する"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "修理"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "Unidades Embaladas a Gás/Electricidade da Trane e American Standard Recalladas por Riscos de Vazamento de Gás e Incêndio",
+          "Description": "A Trane e a American Standard emitiram um recall para vários modelos de suas Unidades Embaladas a Gás/Electricidade devido a um risco potencial de vazamentos de gás e perigos de incêndio. Os modelos afetados incluem faixas específicas de números de série, que podem ser encontradas na parte de trás das unidades. O nome da marca é exibido na frente de cada unidade, garantindo fácil identificação pelos consumidores.",
+          "ConsumerContact": "Os consumidores devem parar de usar a função de aquecimento das unidades afetadas imediatamente e entrar em contato com seu revendedor de instalação para uma inspeção e reparo gratuitos. Para assistência, entre em contato com a Trane ou a American Standard pelo telefone 800-889-0129, de segunda a sexta-feira, das 8h às 18h ET, ou visite https://www.trane.com/residential/gas-electric-packaged-unit-recall/ ou https://www.americanstandardair.com/gas-electric-packaged-unit-recall/ para mais detalhes.",
+          "metaDescription": "Alerta de recall: Unidades Embaladas a Gás/Electricidade da Trane e American Standard apresentam riscos de incêndio e vazamento de gás. Ação imediata necessária para segurança.",
+          "Products": [
+            {
+              "Name": "Unidade Embalada a Gás/Electricidade da Trane",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 4.790"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Unidade Embalada a Gás/Electricidade da American Standard Recallada"
+            },
+            {
+              "Caption": "Unidade Embalada a Gás/Electricidade de Dois Estágios da Trane Recallada"
+            },
+            {
+              "Caption": "Unidade Embalada a Gás/Electricidade de Dois Estágios Recallada"
+            },
+            {
+              "Caption": "Localização do modelo e número de série"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "A empresa recebeu um relato de vazamento de gás da unidade de aquecimento/condicionador de ar a gás de dois estágios recallada. Nenhum ferimento foi relatado."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Distribuidores e revendedores de HVAC em todo o país, disponíveis de janeiro de 2024 a março de 2025, com preços entre $8.250 e $12.900"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Trane U.S. Inc., de Davidson, Carolina do Norte"
+            }
+          ],
+          "SoldAtLabel": "Vendido Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "México"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Abertura inesperada da válvula de gás levando a vazamentos de gás e perigos de incêndio"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Pare de usar o modo de aquecimento e entre em contato com seu revendedor para uma inspeção e reparo gratuitos"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparo"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "ट्रेन और अमेरिकन स्टैंडर्ड गैस/इलेक्ट्रिक पैकेज्ड यूनिट्स गैस लीक और आग के जोखिमों के लिए recalled",
+          "Description": "ट्रेन और अमेरिकन स्टैंडर्ड ने गैस लीक और आग के खतरों के संभावित जोखिम के कारण अपने गैस/इलेक्ट्रिक पैकेज्ड यूनिट्स के कई मॉडलों के लिए एक recall जारी किया है। प्रभावित मॉडलों में विशिष्ट सीरियल नंबर रेंज शामिल हैं, जो यूनिट्स के पीछे पाए जा सकते हैं। ब्रांड नाम प्रत्येक यूनिट के सामने प्रदर्शित है, जिससे उपभोक्ताओं द्वारा पहचान करना आसान हो जाता है।",
+          "ConsumerContact": "उपभोक्ताओं को तुरंत प्रभावित यूनिट्स के हीटिंग फंक्शन का उपयोग बंद कर देना चाहिए और एक मुफ्त निरीक्षण और मरम्मत के लिए अपने इंस्टॉलेशन डीलर से संपर्क करना चाहिए। सहायता के लिए, ट्रेन या अमेरिकन स्टैंडर्ड से 800-889-0129 पर संपर्क करें, सोमवार से शुक्रवार, सुबह 8 बजे से शाम 6 बजे ET तक, या अधिक जानकारी के लिए https://www.trane.com/residential/gas-electric-packaged-unit-recall/ या https://www.americanstandardair.com/gas-electric-packaged-unit-recall/ पर जाएं।",
+          "metaDescription": "Recall अलर्ट: ट्रेन और अमेरिकन स्टैंडर्ड गैस/इलेक्ट्रिक पैकेज्ड यूनिट्स आग और गैस लीक के जोखिम पैदा करते हैं। सुरक्षा के लिए तुरंत कार्रवाई की आवश्यकता है।",
+          "Products": [
+            {
+              "Name": "ट्रेन गैस/इलेक्ट्रिक पैकेज्ड यूनिट",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 4,790"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recall की गई अमेरिकन स्टैंडर्ड गैस/इलेक्ट्रिक पैकेज्ड यूनिट"
+            },
+            {
+              "Caption": "Recall की गई ट्रेन दो-चरण गैस/इलेक्ट्रिक पैकेज्ड यूनिट"
+            },
+            {
+              "Caption": "Recall की गई दो-चरण गैस/इलेक्ट्रिक पैकेज्ड यूनिट"
+            },
+            {
+              "Caption": "मॉडल और सीरियल नंबर स्थान"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "कंपनी को recalled दो-चरण गैस फर्नेस/एयर कंडीशनर्स से गैस लीक होने की एक रिपोर्ट मिली है। कोई चोटें रिपोर्ट नहीं की गई हैं।"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "देश भर में HVAC वितरक और डीलर, जनवरी 2024 से मार्च 2025 तक उपलब्ध, $8,250 और $12,900 के बीच कीमत पर"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "ट्रेन यू.एस. इंक., डेविडसन, नॉर्थ कैरोलिना"
+            }
+          ],
+          "SoldAtLabel": "बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "मैक्सिको"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "गैस लीक और आग के खतरों की ओर ले जाने वाले अप्रत्याशित गैस वाल्व का खुलना"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "हीटिंग मोड का उपयोग बंद करें और मुफ्त निरीक्षण और मरम्मत के लिए अपने डीलर से संपर्क करें"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "मरम्मत"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "Trane и American Standard отозвали газовые/электрические упаковочные устройства из-за риска утечки газа и пожара",
+          "Description": "Trane и American Standard объявили об отзыве нескольких моделей своих газовых/электрических упаковочных устройств из-за потенциального риска утечек газа и опасности пожара. Затронутые модели включают определенные диапазоны серийных номеров, которые можно найти на задней стороне устройств. Название бренда отображается на передней панели каждого устройства, что обеспечивает легкую идентификацию потребителями.",
+          "ConsumerContact": "Потребители должны немедленно прекратить использование функции отопления затронутых устройств и обратиться к своему дилеру для бесплатной проверки и ремонта. Для получения помощи свяжитесь с Trane или American Standard по телефону 800-889-0129 с понедельника по пятницу с 8:00 до 18:00 по восточному времени, или посетите https://www.trane.com/residential/gas-electric-packaged-unit-recall/ или https://www.americanstandardair.com/gas-electric-packaged-unit-recall/ для получения дополнительной информации.",
+          "metaDescription": "Предупреждение об отзыве: газовые/электрические упаковочные устройства Trane и American Standard представляют собой риски пожара и утечки газа. Необходимы немедленные действия для обеспечения безопасности.",
+          "Products": [
+            {
+              "Name": "Газовое/электрическое упаковочное устройство Trane",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 4,790"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванное газовое/электрическое упаковочное устройство American Standard"
+            },
+            {
+              "Caption": "Отозванное двухступенчатое газовое/электрическое упаковочное устройство Trane"
+            },
+            {
+              "Caption": "Отозванное двухступенчатое газовое/электрическое упаковочное устройство"
+            },
+            {
+              "Caption": "Место расположения модели и серийного номера"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Компания получила один отчет об утечке газа из отозванного двухступенчатого газового котла/кондиционера. О травмах не сообщалось."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Дистрибьюторы и дилеры HVAC по всей стране, доступные с января 2024 года по март 2025 года, по цене от 8,250 до 12,900 долларов"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Trane U.S. Inc., Дэвидсон, Северная Каролина"
+            }
+          ],
+          "SoldAtLabel": "Продается в",
+          "ManufacturerCountries": [
+            {
+              "Country": "Мексика"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Неожиданное открытие газового клапана, приводящее к утечкам газа и опасностям пожара"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Прекратите использовать режим отопления и свяжитесь с вашим дилером для бесплатной проверки и ремонта"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Ремонт"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "Trane và American Standard thu hồi các đơn vị Gas/Electric Packaged do rò rỉ khí gas và nguy cơ cháy",
+          "Description": "Trane và American Standard đã phát động một đợt thu hồi cho một số mẫu của các đơn vị Gas/Electric Packaged của họ do có nguy cơ tiềm ẩn về rò rỉ khí gas và nguy cơ cháy. Các mẫu bị ảnh hưởng bao gồm các dải số sê-ri cụ thể, có thể được tìm thấy ở mặt sau của các đơn vị. Tên thương hiệu được hiển thị ở mặt trước của mỗi đơn vị, đảm bảo dễ dàng nhận diện bởi người tiêu dùng.",
+          "ConsumerContact": "Người tiêu dùng nên ngừng sử dụng chức năng sưởi của các đơn vị bị ảnh hưởng ngay lập tức và liên hệ với đại lý lắp đặt của họ để được kiểm tra và sửa chữa miễn phí. Để được hỗ trợ, hãy liên hệ với Trane hoặc American Standard qua số 800-889-0129, từ thứ Hai đến thứ Sáu, từ 8 giờ sáng đến 6 giờ chiều ET, hoặc truy cập https://www.trane.com/residential/gas-electric-packaged-unit-recall/ hoặc https://www.americanstandardair.com/gas-electric-packaged-unit-recall/ để biết thêm chi tiết.",
+          "metaDescription": "Thông báo thu hồi: Các đơn vị Gas/Electric Packaged của Trane và American Standard có nguy cơ cháy và rò rỉ khí gas. Cần hành động ngay lập tức để đảm bảo an toàn.",
+          "Products": [
+            {
+              "Name": "Đơn vị Gas/Electric Packaged Trane",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 4,790"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Đơn vị Gas/Electric Packaged American Standard bị thu hồi"
+            },
+            {
+              "Caption": "Đơn vị Gas/Electric Packaged Trane hai giai đoạn bị thu hồi"
+            },
+            {
+              "Caption": "Đơn vị Gas/Electric Packaged hai giai đoạn bị thu hồi"
+            },
+            {
+              "Caption": "Vị trí mẫu và số sê-ri"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Công ty đã nhận được một báo cáo về việc rò rỉ khí từ lò sưởi khí hai giai đoạn/điều hòa không khí bị thu hồi. Không có thương tích nào được báo cáo."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Các nhà phân phối và đại lý HVAC trên toàn quốc, có sẵn từ tháng 1 năm 2024 đến tháng 3 năm 2025, có giá từ 8,250 đến 12,900 đô la"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Trane U.S. Inc., ở Davidson, North Carolina"
+            }
+          ],
+          "SoldAtLabel": "Bán Tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Mexico"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Van khí mở bất ngờ dẫn đến rò rỉ khí gas và nguy cơ cháy"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Ngừng sử dụng chế độ sưởi và liên hệ với đại lý của bạn để được kiểm tra và sửa chữa miễn phí"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Sửa chữa"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    }
+  ]
+}

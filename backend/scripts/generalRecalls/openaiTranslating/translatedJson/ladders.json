@@ -1,0 +1,1596 @@
+{
+  "meta": {
+    "slug": "ladders",
+    "sourceCsvFile": "ladders_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:36.987Z",
+    "recallCount": 2,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "ladders.json",
+    "seoTranslatedAt": "2026-04-04T06:24:08.993Z",
+    "resumePartial": false,
+    "i18nSource": "generalRecallsTranslated",
+    "i18nSourceFile": "ladders.json",
+    "i18nUiLangs": [
+      "en",
+      "es",
+      "ar",
+      "zh",
+      "fr",
+      "de",
+      "ja",
+      "pt",
+      "hi",
+      "ru",
+      "vi"
+    ],
+    "i18nProgressByLang": {
+      "es": 2,
+      "ar": 2,
+      "zh": 2,
+      "fr": 2,
+      "de": 2,
+      "ja": 2,
+      "pt": 2,
+      "hi": 2,
+      "ru": 2,
+      "vi": 2
+    },
+    "i18nInProgress": false,
+    "i18nTranslatedAt": "2026-04-07T12:33:31.231Z",
+    "i18nOpenaiModel": "gpt-4o-mini"
+  },
+  "recalls": [
+    {
+      "RecallID": 10381,
+      "RecallNumber": "25431",
+      "RecallDate": "2025-08-14T00:00:00",
+      "Description": "Werner is recalling its 20-foot and 24-foot Multi-Max Pro multi-purpose ladders due to a potential fall hazard. These ladders are characterized by their silver color, blue top, and blue label on the side rail, which features the word 'Werner' alongside 'MULTI MAX PRO' and the model numbers ALMP-20IAA or ALMP-24IAA. Additionally, a long black rope is present in the back section of the ladders.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/Werner-Recalls-20-and-24-Multi-Max-Pro-Multi-Purpose-Ladders-Due-to-Fall-Hazard",
+      "Title": "Werner Recalls 20' and 24' Multi-Max Pro Ladders Due to Fall Risk",
+      "ConsumerContact": "For assistance, consumers can reach Werner at 888-624-1907 from 8:30 a.m. to 6 p.m. ET, Monday through Friday. They can also email ladder@realtimeresults.net or visit http://www.wernerco.com/recalls for more information.",
+      "LastPublishDate": "2025-08-14T00:00:00",
+      "Products": [
+        {
+          "Name": "Werner 20' Multi-Max Pro Ladder",
+          "NumberOfUnits": "About 122,250"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/ladders/1-Werner-20-Multi-Max-Pro-Ladder/7b583fdd45d135de0b4bb9ba0f61b008.webp",
+          "Caption": "Recalled Werner 20’ and 24’ Multi-Max Pro Multi-Purpose Ladder with location of product label and attached black rope",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/werner-ladder-1.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/ladders/1-Werner-20-Multi-Max-Pro-Ladder/72fa57cf42b477588ecaeeca33505b1f.webp",
+          "Caption": "Recalled Werner 20’ and 24’ Multi-Max Pro Multi-Purpose Ladder label",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/werner-ladder-2.jpg"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received 18 reports of falls, including 14 reports of injuries resulting in bruising, lacerations, head injuries and fractures to the wrist, leg and ribs."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Home Depot stores nationwide and online at HomeDepot.com, available from November 2021 to February 2024, priced between $200 and $281."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Werner Co., of Itasca, Illinois"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "ProductUPCs": [
+        {
+          "UPC": "051751143171"
+        },
+        {
+          "UPC": "051751143188"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Potential fall hazard due to jamming locking mechanism"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Stop using the ladders and contact Werner for a full refund. Register at http://www.wernerco.com/recalls for disposal instructions; refunds will be issued after disposal."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "slug": "werner-recalls-20-and-24-multi-max-pro-ladders-due-to-fall-risk-recall",
+      "metaDescription": "Werner recalls 20' and 24' Multi-Max Pro ladders due to a fall risk. Contact for refunds and disposal instructions.",
+      "languages": {
+        "en": {
+          "Title": "Werner Recalls 20' and 24' Multi-Max Pro Ladders Due to Fall Risk",
+          "Description": "Werner is recalling its 20-foot and 24-foot Multi-Max Pro multi-purpose ladders due to a potential fall hazard. These ladders are characterized by their silver color, blue top, and blue label on the side rail, which features the word 'Werner' alongside 'MULTI MAX PRO' and the model numbers ALMP-20IAA or ALMP-24IAA. Additionally, a long black rope is present in the back section of the ladders.",
+          "ConsumerContact": "For assistance, consumers can reach Werner at 888-624-1907 from 8:30 a.m. to 6 p.m. ET, Monday through Friday. They can also email ladder@realtimeresults.net or visit http://www.wernerco.com/recalls for more information.",
+          "metaDescription": "Werner recalls 20' and 24' Multi-Max Pro ladders due to a fall risk. Contact for refunds and disposal instructions.",
+          "Products": [
+            {
+              "Name": "Werner 20' Multi-Max Pro Ladder",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 122,250"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled Werner 20’ and 24’ Multi-Max Pro Multi-Purpose Ladder with location of product label and attached black rope"
+            },
+            {
+              "Caption": "Recalled Werner 20’ and 24’ Multi-Max Pro Multi-Purpose Ladder label"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "The firm has received 18 reports of falls, including 14 reports of injuries resulting in bruising, lacerations, head injuries and fractures to the wrist, leg and ribs."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Home Depot stores nationwide and online at HomeDepot.com, available from November 2021 to February 2024, priced between $200 and $281."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Werner Co., of Itasca, Illinois"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Sold At",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Potential fall hazard due to jamming locking mechanism"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Stop using the ladders and contact Werner for a full refund. Register at http://www.wernerco.com/recalls for disposal instructions; refunds will be issued after disposal."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Refund"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "Werner Retira Escaleras Multi-Max Pro de 20' y 24' Debido a Riesgo de Caída",
+          "Description": "Werner está retirando sus escaleras multiusos Multi-Max Pro de 20 pies y 24 pies debido a un posible peligro de caída. Estas escaleras se caracterizan por su color plateado, parte superior azul y etiqueta azul en el riel lateral, que presenta la palabra 'Werner' junto a 'MULTI MAX PRO' y los números de modelo ALMP-20IAA o ALMP-24IAA. Además, hay una larga cuerda negra en la sección trasera de las escaleras.",
+          "ConsumerContact": "Para asistencia, los consumidores pueden comunicarse con Werner al 888-624-1907 de 8:30 a.m. a 6 p.m. ET, de lunes a viernes. También pueden enviar un correo electrónico a ladder@realtimeresults.net o visitar http://www.wernerco.com/recalls para más información.",
+          "metaDescription": "Werner retira escaleras Multi-Max Pro de 20' y 24' debido a un riesgo de caída. Contacto para reembolsos e instrucciones de disposición.",
+          "Products": [
+            {
+              "Name": "Escalera Multi-Max Pro de 20' de Werner",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 122,250"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Escalera Multiusos Multi-Max Pro de 20’ y 24’ de Werner retirada con ubicación de la etiqueta del producto y cuerda negra adjunta"
+            },
+            {
+              "Caption": "Etiqueta de la escalera Multi-Max Pro de 20’ y 24’ de Werner retirada"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "La empresa ha recibido 18 informes de caídas, incluidos 14 informes de lesiones que resultaron en contusiones, laceraciones, lesiones en la cabeza y fracturas en la muñeca, pierna y costillas."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Tiendas Home Depot en todo el país y en línea en HomeDepot.com, disponibles desde noviembre de 2021 hasta febrero de 2024, con precios entre $200 y $281."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Werner Co., de Itasca, Illinois"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendido En",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Peligro de caída potencial debido a un mecanismo de bloqueo atascado"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Deje de usar las escaleras y comuníquese con Werner para obtener un reembolso completo. Regístrese en http://www.wernerco.com/recalls para obtener instrucciones de disposición; los reembolsos se emitirán después de la disposición."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reembolso"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "ويرنر تستدعي سلالم Multi-Max Pro بطول 20 و24 قدم بسبب خطر السقوط",
+          "Description": "تستدعي ويرنر سلالمها متعددة الأغراض بطول 20 قدم و24 قدم من طراز Multi-Max Pro بسبب خطر السقوط المحتمل. تتميز هذه السلالم بلونها الفضي، وقمتها الزرقاء، وملصقها الأزرق على الدرابزين الجانبي، الذي يحمل كلمة 'ويرنر' بجانب 'MULTI MAX PRO' وأرقام الطراز ALMP-20IAA أو ALMP-24IAA. بالإضافة إلى ذلك، يوجد حبل أسود طويل في الجزء الخلفي من السلالم.",
+          "ConsumerContact": "للمساعدة، يمكن للمستهلكين التواصل مع ويرنر على الرقم 888-624-1907 من الساعة 8:30 صباحًا حتى 6 مساءً بتوقيت شرق الولايات المتحدة، من الاثنين إلى الجمعة. يمكنهم أيضًا إرسال بريد إلكتروني إلى ladder@realtimeresults.net أو زيارة http://www.wernerco.com/recalls لمزيد من المعلومات.",
+          "metaDescription": "تستدعي ويرنر سلالم Multi-Max Pro بطول 20 و24 قدم بسبب خطر السقوط. اتصل للحصول على معلومات حول الاسترداد وتعليمات التخلص.",
+          "Products": [
+            {
+              "Name": "سلم ويرنر Multi-Max Pro بطول 20 قدم",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 122,250"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "سلم ويرنر Multi-Max Pro متعدد الأغراض المستدعى بطول 20 و24 قدم مع موقع ملصق المنتج والحبل الأسود المرفق"
+            },
+            {
+              "Caption": "ملصق سلم ويرنر Multi-Max Pro متعدد الأغراض المستدعى بطول 20 و24 قدم"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "تلقت الشركة 18 تقريرًا عن حالات سقوط، بما في ذلك 14 تقريرًا عن إصابات أدت إلى كدمات، وقطع، وإصابات في الرأس، وكسور في المعصم والساق والضلوع."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "متاجر هوم ديبوت في جميع أنحاء البلاد وعبر الإنترنت على HomeDepot.com، متاحة من نوفمبر 2021 إلى فبراير 2024، بأسعار تتراوح بين 200 و281 دولار."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "شركة ويرنر، من إيتاسكا، إلينوي"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "تم البيع في",
+          "ManufacturerCountries": [
+            {
+              "Country": "الصين"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "خطر السقوط المحتمل بسبب انسداد آلية القفل"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "توقف عن استخدام السلالم وتواصل مع ويرنر للحصول على استرداد كامل. سجل في http://www.wernerco.com/recalls للحصول على تعليمات التخلص؛ سيتم إصدار الاستردادات بعد التخلص."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "استرداد"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "Werner召回20英尺和24英尺Multi-Max Pro梯子因跌落风险",
+          "Description": "Werner因潜在的跌落危险召回其20英尺和24英尺Multi-Max Pro多用途梯子。这些梯子的特点是银色，蓝色顶部，以及侧面栏杆上的蓝色标签，标签上写有“Werner”和“MULTI MAX PRO”以及型号ALMP-20IAA或ALMP-24IAA。此外，梯子的后部有一根长黑绳。",
+          "ConsumerContact": "如需帮助，消费者可以在东部时间周一至周五上午8:30至下午6:00拨打888-624-1907联系Werner。他们还可以发送电子邮件至ladder@realtimeresults.net或访问http://www.wernerco.com/recalls获取更多信息。",
+          "metaDescription": "Werner因跌落风险召回20英尺和24英尺Multi-Max Pro梯子。联系以获取退款和处理说明。",
+          "Products": [
+            {
+              "Name": "Werner 20英尺Multi-Max Pro梯子",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约122,250"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "召回的Werner 20英尺和24英尺Multi-Max Pro多用途梯子，显示产品标签和附加的黑绳位置"
+            },
+            {
+              "Caption": "召回的Werner 20英尺和24英尺Multi-Max Pro多用途梯子标签"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "该公司已收到18起跌落报告，包括14起导致瘀伤、割伤、头部受伤以及手腕、腿和肋骨骨折的伤害报告。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "全国范围内的家得宝商店和HomeDepot.com在线销售，销售时间为2021年11月至2024年2月，价格在200美元至281美元之间。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "位于伊塔斯卡，伊利诺伊州的Werner公司"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "销售地点",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "由于锁定机制卡住而导致的潜在跌落危险"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "停止使用梯子并联系Werner以获得全额退款。请在http://www.wernerco.com/recalls注册以获取处理说明；退款将在处理后发放。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "退款"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "Werner rappelle des échelles Multi-Max Pro de 20' et 24' en raison d'un risque de chute",
+          "Description": "Werner rappelle ses échelles multi-usages Multi-Max Pro de 20 pieds et 24 pieds en raison d'un potentiel danger de chute. Ces échelles se caractérisent par leur couleur argentée, leur sommet bleu et leur étiquette bleue sur le rail latéral, qui présente le mot 'Werner' accompagné de 'MULTI MAX PRO' et des numéros de modèle ALMP-20IAA ou ALMP-24IAA. De plus, une longue corde noire est présente dans la section arrière des échelles.",
+          "ConsumerContact": "Pour assistance, les consommateurs peuvent contacter Werner au 888-624-1907 de 8h30 à 18h00 HE, du lundi au vendredi. Ils peuvent également envoyer un e-mail à ladder@realtimeresults.net ou visiter http://www.wernerco.com/recalls pour plus d'informations.",
+          "metaDescription": "Werner rappelle des échelles Multi-Max Pro de 20' et 24' en raison d'un risque de chute. Contactez pour des remboursements et des instructions d'élimination.",
+          "Products": [
+            {
+              "Name": "Échelle Multi-Max Pro de 20' de Werner",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 122 250"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Échelle Multi-Max Pro Multi-Usage de 20’ et 24’ de Werner rappelée avec emplacement de l'étiquette du produit et corde noire attachée"
+            },
+            {
+              "Caption": "Étiquette de l'échelle Multi-Max Pro Multi-Usage de 20’ et 24’ de Werner rappelée"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "L'entreprise a reçu 18 rapports de chutes, y compris 14 rapports de blessures entraînant des contusions, des lacérations, des blessures à la tête et des fractures au poignet, à la jambe et aux côtes."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Magasins Home Depot à l'échelle nationale et en ligne sur HomeDepot.com, disponibles de novembre 2021 à février 2024, au prix compris entre 200 $ et 281 $."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Werner Co., d'Itasca, Illinois"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendu À",
+          "ManufacturerCountries": [
+            {
+              "Country": "Chine"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risque potentiel de chute en raison d'un mécanisme de verrouillage qui se coince"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Cessez d'utiliser les échelles et contactez Werner pour un remboursement complet. Inscrivez-vous sur http://www.wernerco.com/recalls pour des instructions d'élimination ; les remboursements seront émis après élimination."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Remboursement"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "Werner ruft 20' und 24' Multi-Max Pro Leitern wegen Sturzgefahr zurück",
+          "Description": "Werner ruft seine 20-Fuß und 24-Fuß Multi-Max Pro Mehrzweckleitern aufgrund einer potenziellen Sturzgefahr zurück. Diese Leitern sind durch ihre silberne Farbe, die blaue Oberseite und das blaue Etikett am Seitenteil gekennzeichnet, das das Wort 'Werner' zusammen mit 'MULTI MAX PRO' und den Modellnummern ALMP-20IAA oder ALMP-24IAA zeigt. Zusätzlich ist ein langes schwarzes Seil im hinteren Abschnitt der Leitern vorhanden.",
+          "ConsumerContact": "Für Unterstützung können Verbraucher Werner unter 888-624-1907 von 8:30 bis 18:00 Uhr ET, Montag bis Freitag, erreichen. Sie können auch eine E-Mail an ladder@realtimeresults.net senden oder http://www.wernerco.com/recalls besuchen, um weitere Informationen zu erhalten.",
+          "metaDescription": "Werner ruft 20' und 24' Multi-Max Pro Leitern wegen Sturzgefahr zurück. Kontakt für Rückerstattungen und Entsorgungsanweisungen.",
+          "Products": [
+            {
+              "Name": "Werner 20' Multi-Max Pro Leiter",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 122.250"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Zurückgerufene Werner 20’ und 24’ Multi-Max Pro Mehrzweckleiter mit Standort des Produktetiketts und angebrachtem schwarzen Seil"
+            },
+            {
+              "Caption": "Zurückgerufene Werner 20’ und 24’ Multi-Max Pro Mehrzweckleiter Etikett"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Das Unternehmen hat 18 Berichte über Stürze erhalten, darunter 14 Berichte über Verletzungen, die zu Prellungen, Schnittwunden, Kopfverletzungen und Frakturen am Handgelenk, Bein und Rippen führten."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Home Depot-Filialen landesweit und online unter HomeDepot.com, erhältlich von November 2021 bis Februar 2024, preislich zwischen 200 und 281 US-Dollar."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Werner Co., aus Itasca, Illinois"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Verkauft bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Potenzielle Sturzgefahr aufgrund eines klemmen Verriegelungsmechanismus"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Hören Sie auf, die Leitern zu benutzen, und kontaktieren Sie Werner für eine vollständige Rückerstattung. Registrieren Sie sich unter http://www.wernerco.com/recalls für Entsorgungsanweisungen; Rückerstattungen werden nach der Entsorgung ausgegeben."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Rückerstattung"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "ウェルナーが落下の危険性により20フィートおよび24フィートのマルチマックスプロはしごをリコール",
+          "Description": "ウェルナーは、潜在的な落下の危険性により、20フィートおよび24フィートのマルチマックスプロ多目的はしごをリコールしています。これらのはしごは、銀色の色合い、青いトップ、および側面のレールにある青いラベルが特徴で、そこには「Werner」と「MULTI MAX PRO」とモデル番号ALMP-20IAAまたはALMP-24IAAが表示されています。さらに、はしごの後部セクションには長い黒いロープが付いています。",
+          "ConsumerContact": "サポートが必要な場合、消費者は月曜日から金曜日の午前8時30分から午後6時（ET）まで、888-624-1907でウェルナーに連絡できます。また、ladder@realtimeresults.netにメールを送信するか、http://www.wernerco.com/recallsを訪れて詳細情報を得ることもできます。",
+          "metaDescription": "ウェルナーが落下の危険性により20フィートおよび24フィートのマルチマックスプロはしごをリコール。返金および廃棄指示についての連絡先。",
+          "Products": [
+            {
+              "Name": "ウェルナー 20フィート マルチマックスプロはしご",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約122,250"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコールされたウェルナー20フィートおよび24フィートのマルチマックスプロ多目的はしごの製品ラベルの位置と取り付けられた黒いロープ"
+            },
+            {
+              "Caption": "リコールされたウェルナー20フィートおよび24フィートのマルチマックスプロ多目的はしごのラベル"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "同社は、14件の打撲、切り傷、頭部外傷、手首、脚、肋骨の骨折を伴う18件の落下報告を受けています。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "全国のホームデポ店舗およびHomeDepot.comで、2021年11月から2024年2月まで販売され、価格は200ドルから281ドルの間。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "イリノイ州イタスカのウェルナー社"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "販売場所",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "ロック機構の詰まりによる潜在的な落下の危険性"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "はしごの使用を中止し、ウェルナーに連絡して全額返金を受けてください。廃棄指示についてはhttp://www.wernerco.com/recallsで登録してください。廃棄後に返金が行われます。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "返金"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "Werner Recall de Escadas Multi-Max Pro de 20' e 24' Devido ao Risco de Queda",
+          "Description": "A Werner está recallando suas escadas multiuso Multi-Max Pro de 20 pés e 24 pés devido a um potencial risco de queda. Essas escadas são caracterizadas pela sua cor prata, topo azul e etiqueta azul na lateral, que apresenta a palavra 'Werner' junto com 'MULTI MAX PRO' e os números dos modelos ALMP-20IAA ou ALMP-24IAA. Além disso, uma corda preta longa está presente na seção traseira das escadas.",
+          "ConsumerContact": "Para assistência, os consumidores podem entrar em contato com a Werner pelo telefone 888-624-1907, das 8h30 às 18h ET, de segunda a sexta-feira. Eles também podem enviar um e-mail para ladder@realtimeresults.net ou visitar http://www.wernerco.com/recalls para mais informações.",
+          "metaDescription": "A Werner recall de escadas Multi-Max Pro de 20' e 24' devido a um risco de queda. Contato para reembolsos e instruções de descarte.",
+          "Products": [
+            {
+              "Name": "Escada Multi-Max Pro de 20' da Werner",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 122.250"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Escada Multiuso Werner Multi-Max Pro de 20’ e 24’ recallada com localização da etiqueta do produto e corda preta anexada"
+            },
+            {
+              "Caption": "Etiqueta da escada Multi-Max Pro de 20’ e 24’ recallada da Werner"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "A empresa recebeu 18 relatos de quedas, incluindo 14 relatos de lesões resultando em contusões, lacerações, lesões na cabeça e fraturas no pulso, perna e costelas."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Lojas Home Depot em todo o país e online em HomeDepot.com, disponíveis de novembro de 2021 a fevereiro de 2024, com preços entre $200 e $281."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Werner Co., de Itasca, Illinois"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendido Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Potencial risco de queda devido ao mecanismo de bloqueio emperrado"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Pare de usar as escadas e entre em contato com a Werner para um reembolso total. Registre-se em http://www.wernerco.com/recalls para instruções de descarte; os reembolsos serão emitidos após o descarte."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reembolso"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "वर्नर 20' और 24' मल्टी-मैक्स प्रो सीढ़ियों को गिरने के जोखिम के कारण वापस बुलाता है",
+          "Description": "वर्नर अपने 20-फुट और 24-फुट मल्टी-मैक्स प्रो बहुउद्देशीय सीढ़ियों को संभावित गिरने के खतरे के कारण वापस बुला रहा है। ये सीढ़ियाँ अपनी चांदी की रंगत, नीले शीर्ष और साइड रेल पर नीले लेबल के साथ पहचानी जाती हैं, जिसमें 'वर्नर' के साथ 'MULTI MAX PRO' और मॉडल नंबर ALMP-20IAA या ALMP-24IAA शामिल हैं। इसके अतिरिक्त, सीढ़ियों के पिछले हिस्से में एक लंबा काला रस्सी मौजूद है।",
+          "ConsumerContact": "सहायता के लिए, उपभोक्ता वर्नर से 888-624-1907 पर सुबह 8:30 बजे से शाम 6 बजे ET, सोमवार से शुक्रवार तक संपर्क कर सकते हैं। वे ladder@realtimeresults.net पर भी ईमेल कर सकते हैं या अधिक जानकारी के लिए http://www.wernerco.com/recalls पर जा सकते हैं।",
+          "metaDescription": "वर्नर 20' और 24' मल्टी-मैक्स प्रो सीढ़ियों को गिरने के जोखिम के कारण वापस बुलाता है। रिफंड और निपटान निर्देशों के लिए संपर्क करें।",
+          "Products": [
+            {
+              "Name": "वर्नर 20' मल्टी-मैक्स प्रो सीढ़ी",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 122,250"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "वापस बुलाई गई वर्नर 20’ और 24’ मल्टी-मैक्स प्रो बहुउद्देशीय सीढ़ी जिसमें उत्पाद लेबल और संलग्न काली रस्सी का स्थान है"
+            },
+            {
+              "Caption": "वापस बुलाई गई वर्नर 20’ और 24’ मल्टी-मैक्स प्रो बहुउद्देशीय सीढ़ी का लेबल"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "कंपनी को गिरने के 18 रिपोर्ट मिले हैं, जिनमें 14 रिपोर्टें चोटों की हैं जो कि चोट, कट, सिर की चोट और कलाई, पैर और पसलियों में फ्रैक्चर का परिणाम हैं।"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "होम डिपो स्टोर्स देशभर में और ऑनलाइन HomeDepot.com पर, नवंबर 2021 से फरवरी 2024 तक उपलब्ध, कीमत $200 से $281 के बीच।"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "वर्नर कंपनी, इटास्का, इलिनोइस"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "चीन"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "जाम होने वाले लॉकिंग मैकेनिज्म के कारण संभावित गिरने का खतरा"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "सीढ़ियों का उपयोग करना बंद करें और पूर्ण रिफंड के लिए वर्नर से संपर्क करें। निपटान निर्देशों के लिए http://www.wernerco.com/recalls पर पंजीकरण करें; निपटान के बाद रिफंड जारी किए जाएंगे।"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "रिफंड"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "Компания Werner отзывает лестницы Multi-Max Pro длиной 20 и 24 фута из-за риска падения",
+          "Description": "Компания Werner отзывает свои многофункциональные лестницы Multi-Max Pro длиной 20 и 24 фута из-за потенциальной опасности падения. Эти лестницы имеют серебристый цвет, синюю верхнюю часть и синюю этикетку на боковой рейке, на которой написано 'Werner' вместе с 'MULTI MAX PRO' и номерами моделей ALMP-20IAA или ALMP-24IAA. Кроме того, в задней части лестниц присутствует длинная черная веревка.",
+          "ConsumerContact": "Для получения помощи потребители могут связаться с компанией Werner по телефону 888-624-1907 с 8:30 до 18:00 по восточному времени, с понедельника по пятницу. Они также могут написать на электронную почту ladder@realtimeresults.net или посетить http://www.wernerco.com/recalls для получения дополнительной информации.",
+          "metaDescription": "Компания Werner отзывает лестницы Multi-Max Pro длиной 20 и 24 фута из-за риска падения. Контакт для возвратов и инструкций по утилизации.",
+          "Products": [
+            {
+              "Name": "Лестница Werner Multi-Max Pro длиной 20 футов",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 122,250"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванная лестница Werner Multi-Max Pro длиной 20 и 24 фута с указанием местоположения этикетки продукта и прикрепленной черной веревки"
+            },
+            {
+              "Caption": "Этикетка отозванной лестницы Werner Multi-Max Pro длиной 20 и 24 фута"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Компания получила 18 сообщений о падениях, включая 14 сообщений о травмах, приведших к синякам, порезам, травмам головы и переломам запястья, ноги и ребер."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Магазины Home Depot по всей стране и онлайн на HomeDepot.com, доступные с ноября 2021 года по февраль 2024 года, по цене от 200 до 281 долларов."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Компания Werner, Итаска, штат Иллинойс"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Продается в",
+          "ManufacturerCountries": [
+            {
+              "Country": "Китай"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Потенциальная опасность падения из-за заедания механизма блокировки"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Прекратите использовать лестницы и свяжитесь с компанией Werner для полного возврата. Зарегистрируйтесь на http://www.wernerco.com/recalls для получения инструкций по утилизации; возвраты будут выданы после утилизации."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Возврат"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "Werner thu hồi thang Multi-Max Pro 20' và 24' do nguy cơ ngã",
+          "Description": "Werner đang thu hồi thang đa năng Multi-Max Pro dài 20 feet và 24 feet do nguy cơ ngã tiềm ẩn. Những chiếc thang này có màu bạc, đầu màu xanh và nhãn màu xanh ở thanh bên, với từ 'Werner' cùng với 'MULTI MAX PRO' và các số model ALMP-20IAA hoặc ALMP-24IAA. Ngoài ra, có một sợi dây đen dài ở phần sau của thang.",
+          "ConsumerContact": "Để được hỗ trợ, người tiêu dùng có thể liên hệ với Werner qua số 888-624-1907 từ 8:30 sáng đến 6:00 chiều ET, từ thứ Hai đến thứ Sáu. Họ cũng có thể gửi email đến ladder@realtimeresults.net hoặc truy cập http://www.wernerco.com/recalls để biết thêm thông tin.",
+          "metaDescription": "Werner thu hồi thang Multi-Max Pro 20' và 24' do nguy cơ ngã. Liên hệ để được hoàn tiền và hướng dẫn xử lý.",
+          "Products": [
+            {
+              "Name": "Thang Multi-Max Pro 20' của Werner",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 122,250"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Thang Multi-Purpose Multi-Max Pro 20’ và 24’ của Werner bị thu hồi với vị trí nhãn sản phẩm và dây đen gắn liền"
+            },
+            {
+              "Caption": "Nhãn thang Multi-Purpose Multi-Max Pro 20’ và 24’ của Werner bị thu hồi"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Công ty đã nhận được 18 báo cáo về các vụ ngã, bao gồm 14 báo cáo về chấn thương dẫn đến bầm tím, cắt xé, chấn thương đầu và gãy xương cổ tay, chân và xương sườn."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Các cửa hàng Home Depot trên toàn quốc và trực tuyến tại HomeDepot.com, có sẵn từ tháng 11 năm 2021 đến tháng 2 năm 2024, giá từ 200 đến 281 đô la."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Công ty Werner, có trụ sở tại Itasca, Illinois"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Bán Tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Trung Quốc"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Nguy cơ ngã tiềm ẩn do cơ chế khóa bị kẹt"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Ngừng sử dụng thang và liên hệ với Werner để được hoàn tiền đầy đủ. Đăng ký tại http://www.wernerco.com/recalls để biết hướng dẫn xử lý; hoàn tiền sẽ được phát hành sau khi xử lý."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Hoàn tiền"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    },
+    {
+      "RecallID": 10364,
+      "RecallNumber": "25412",
+      "RecallDate": "2025-07-31T00:00:00",
+      "Description": "Dorel Home Furnishings has announced a recall of the Cosco 2-step kitchen stepper, a folding step stool featuring two steps and a safety bar attached at the back. The affected models include 11349WHG1E, 11349GRN1E, 11349NVY1E, 11349WHG2, 11349GRN4, 11349GRN12, 11349WHG12C, 11349WHG12W, 11349WHG4F, and 11349CBWH4T. These kitchen steppers are available in colors such as white/gray, green, navy, and blue, with the Cosco logo prominently displayed on the handle. Model details can be found on a label affixed to one of the stepper's arms.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/Dorel-Home-Furnishings-Recalls-Cosco-2-Step-Kitchen-Steppers-Due-to-Fall-and-Injury-Hazards",
+      "Title": "Dorel Home Furnishings Issues Recall for Cosco 2-Step Kitchen Steppers Due to Fall Risks",
+      "ConsumerContact": "Consumers are urged to contact Dorel at 888-628-3778 from 8 a.m. to 6 p.m. ET, Monday through Friday, or via email at recall@coscoproducts.com. More information is available online at https://www.coscoproducts.com by clicking on 'SAFETY NOTICES' at the top of the page.",
+      "LastPublishDate": "2025-07-31T00:00:00",
+      "Products": [
+        {
+          "Name": "Cosco 2-Step Kitchen Stepper",
+          "NumberOfUnits": "About 302,000 (In addition, 11,000 were sold in Canada)"
+        }
+      ],
+      "Inconjunctions": [
+        {
+          "URL": "https://recalls-rappels.canada.ca/en/alert-recall/cosco-2-step-kitchen-stool-recalled-due-fall-and-injury-hazards"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/ladders/2-Cosco-2-Step-Kitchen-Stepper/40327a82e6053e6a065d9094e475319f.webp",
+          "Caption": "Recalled Cosco 2-Step Kitchen Stepper model 11349WHG1E",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Dorel-1.png"
+        },
+        {
+          "URL": "/images/generalRecalls/ladders/2-Cosco-2-Step-Kitchen-Stepper/3362aa01c023cf0f4fe96b0de009cab9.webp",
+          "Caption": "Cosco logo molded onto handle of the recalled Cosco 2-step kitchen stepper",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Dorel-2.png"
+        },
+        {
+          "URL": "/images/generalRecalls/ladders/2-Cosco-2-Step-Kitchen-Stepper/e913e6357d3d9bb81d78b18b949e2823.webp",
+          "Caption": "Model information located on label on arm of recalled Cosco 2-step kitchen stepper",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Dorel-3.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "Cosco has received 34 reports of the safety bar detaching or breaking, including two incidents resulting in head injuries."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available at Target, Home Depot, Lowe's, Walmart, and BJ's Wholesale Club stores across the country, as well as online at Amazon.com, Wayfair.com, and Overstock.com from February 2021 through July 2025, priced between $56 and $70."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Dorel Home Furnishings Inc. d/b/a Cosco Home and Office Products, of Columbus, Indiana"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Detaching or breaking safety bar leading to fall and injury risks."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should immediately cease using the safety bar on the recalled stepper and keep it away from children until it is repaired. Contact Dorel for a free repair kit, which includes a sliding locking mechanism to secure the safety bar, installation instructions, and an additional warning label."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ],
+      "slug": "dorel-home-furnishings-issues-recall-for-cosco-2-step-kitchen-steppers-due-to-fall-risks-recall",
+      "metaDescription": "Dorel recalls Cosco 2-step kitchen steppers due to fall hazards. Learn how to get a free repair kit and stay safe.",
+      "languages": {
+        "en": {
+          "Title": "Dorel Home Furnishings Issues Recall for Cosco 2-Step Kitchen Steppers Due to Fall Risks",
+          "Description": "Dorel Home Furnishings has announced a recall of the Cosco 2-step kitchen stepper, a folding step stool featuring two steps and a safety bar attached at the back. The affected models include 11349WHG1E, 11349GRN1E, 11349NVY1E, 11349WHG2, 11349GRN4, 11349GRN12, 11349WHG12C, 11349WHG12W, 11349WHG4F, and 11349CBWH4T. These kitchen steppers are available in colors such as white/gray, green, navy, and blue, with the Cosco logo prominently displayed on the handle. Model details can be found on a label affixed to one of the stepper's arms.",
+          "ConsumerContact": "Consumers are urged to contact Dorel at 888-628-3778 from 8 a.m. to 6 p.m. ET, Monday through Friday, or via email at recall@coscoproducts.com. More information is available online at https://www.coscoproducts.com by clicking on 'SAFETY NOTICES' at the top of the page.",
+          "metaDescription": "Dorel recalls Cosco 2-step kitchen steppers due to fall hazards. Learn how to get a free repair kit and stay safe.",
+          "Products": [
+            {
+              "Name": "Cosco 2-Step Kitchen Stepper",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 302,000 (In addition, 11,000 were sold in Canada)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled Cosco 2-Step Kitchen Stepper model 11349WHG1E"
+            },
+            {
+              "Caption": "Cosco logo molded onto handle of the recalled Cosco 2-step kitchen stepper"
+            },
+            {
+              "Caption": "Model information located on label on arm of recalled Cosco 2-step kitchen stepper"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Cosco has received 34 reports of the safety bar detaching or breaking, including two incidents resulting in head injuries."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Available at Target, Home Depot, Lowe's, Walmart, and BJ's Wholesale Club stores across the country, as well as online at Amazon.com, Wayfair.com, and Overstock.com from February 2021 through July 2025, priced between $56 and $70."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Dorel Home Furnishings Inc. d/b/a Cosco Home and Office Products, of Columbus, Indiana"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Sold At",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Detaching or breaking safety bar leading to fall and injury risks."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Consumers should immediately cease using the safety bar on the recalled stepper and keep it away from children until it is repaired. Contact Dorel for a free repair kit, which includes a sliding locking mechanism to secure the safety bar, installation instructions, and an additional warning label."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Repair"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "Dorel Home Furnishings Emite un Recall para los Escalones de Cocina Cosco de 2 Pasos Debido a Riesgos de Caída",
+          "Description": "Dorel Home Furnishings ha anunciado un recall del escalón de cocina Cosco de 2 pasos, un taburete plegable que cuenta con dos escalones y una barra de seguridad adjunta en la parte posterior. Los modelos afectados incluyen 11349WHG1E, 11349GRN1E, 11349NVY1E, 11349WHG2, 11349GRN4, 11349GRN12, 11349WHG12C, 11349WHG12W, 11349WHG4F y 11349CBWH4T. Estos escalones de cocina están disponibles en colores como blanco/gris, verde, marino y azul, con el logo de Cosco exhibido de manera prominente en el mango. Los detalles del modelo se pueden encontrar en una etiqueta adherida a uno de los brazos del escalón.",
+          "ConsumerContact": "Se insta a los consumidores a contactar a Dorel al 888-628-3778 de 8 a.m. a 6 p.m. ET, de lunes a viernes, o por correo electrónico a recall@coscoproducts.com. Más información está disponible en línea en https://www.coscoproducts.com haciendo clic en 'AVISOS DE SEGURIDAD' en la parte superior de la página.",
+          "metaDescription": "Dorel recuerda los escalones de cocina Cosco de 2 pasos debido a riesgos de caída. Aprenda cómo obtener un kit de reparación gratuito y mantenerse seguro.",
+          "Products": [
+            {
+              "Name": "Escalón de Cocina Cosco de 2 Pasos",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 302,000 (Además, se vendieron 11,000 en Canadá)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Escalón de Cocina Cosco de 2 Pasos modelo 11349WHG1E retirado"
+            },
+            {
+              "Caption": "Logo de Cosco moldeado en el mango del escalón de cocina Cosco de 2 pasos retirado"
+            },
+            {
+              "Caption": "Información del modelo ubicada en la etiqueta en el brazo del escalón de cocina Cosco de 2 pasos retirado"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Cosco ha recibido 34 informes de la barra de seguridad que se desprende o se rompe, incluyendo dos incidentes que resultaron en lesiones en la cabeza."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible en las tiendas Target, Home Depot, Lowe's, Walmart y BJ's Wholesale Club en todo el país, así como en línea en Amazon.com, Wayfair.com y Overstock.com desde febrero de 2021 hasta julio de 2025, con precios entre $56 y $70."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Dorel Home Furnishings Inc. d/b/a Cosco Home and Office Products, de Columbus, Indiana"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendido En",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Barra de seguridad que se desprende o rompe, lo que lleva a riesgos de caída y lesiones."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Los consumidores deben dejar de usar inmediatamente la barra de seguridad en el escalón retirado y mantenerla alejada de los niños hasta que sea reparada. Contacte a Dorel para obtener un kit de reparación gratuito, que incluye un mecanismo de bloqueo deslizante para asegurar la barra de seguridad, instrucciones de instalación y una etiqueta de advertencia adicional."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparar"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "دوريل هوم فرنيشينغز تعلن عن سحب Cosco 2-Step Kitchen Steppers بسبب مخاطر السقوط",
+          "Description": "أعلنت دوريل هوم فرنيشينغز عن سحب جهاز Cosco 2-step kitchen stepper، وهو كرسي خطوة قابل للطي يحتوي على خطوتين وعارضة أمان مثبتة في الخلف. تشمل النماذج المتأثرة 11349WHG1E، 11349GRN1E، 11349NVY1E، 11349WHG2، 11349GRN4، 11349GRN12، 11349WHG12C، 11349WHG12W، 11349WHG4F، و11349CBWH4T. تتوفر هذه الخطوات المطبخية بألوان مثل الأبيض/الرمادي، الأخضر، navy، والأزرق، مع شعار Cosco معروض بشكل بارز على المقبض. يمكن العثور على تفاصيل النموذج على ملصق مثبت على أحد ذراعي الخطوة.",
+          "ConsumerContact": "يُحث المستهلكون على الاتصال بدوريل على الرقم 888-628-3778 من الساعة 8 صباحًا حتى 6 مساءً بتوقيت شرق الولايات المتحدة، من الاثنين إلى الجمعة، أو عبر البريد الإلكتروني على recall@coscoproducts.com. مزيد من المعلومات متاحة عبر الإنترنت على https://www.coscoproducts.com من خلال النقر على 'إشعارات السلامة' في أعلى الصفحة.",
+          "metaDescription": "دوريل تسحب Cosco 2-step kitchen steppers بسبب مخاطر السقوط. تعرف على كيفية الحصول على مجموعة إصلاح مجانية والبقاء آمنًا.",
+          "Products": [
+            {
+              "Name": "Cosco 2-Step Kitchen Stepper",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 302,000 (بالإضافة إلى 11,000 تم بيعها في كندا)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "جهاز Cosco 2-Step Kitchen Stepper المسحوب النموذج 11349WHG1E"
+            },
+            {
+              "Caption": "شعار Cosco مصبوب على مقبض جهاز Cosco 2-step kitchen stepper المسحوب"
+            },
+            {
+              "Caption": "معلومات النموذج موجودة على ملصق على ذراع جهاز Cosco 2-step kitchen stepper المسحوب"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "تلقت Cosco 34 تقريرًا عن انفصال أو كسر عارضة الأمان، بما في ذلك حادثتين نتج عنهما إصابات في الرأس."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "متوفر في متاجر Target وHome Depot وLowe's وWalmart وBJ's Wholesale Club في جميع أنحاء البلاد، بالإضافة إلى الإنترنت على Amazon.com وWayfair.com وOverstock.com من فبراير 2021 حتى يوليو 2025، بسعر يتراوح بين 56 دولارًا و70 دولارًا."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "دوريل هوم فرنيشينغز إنك. تحت اسم Cosco Home and Office Products، من كولومبوس، إنديانا"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "تم البيع في",
+          "ManufacturerCountries": [
+            {
+              "Country": "الصين"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "انفصال أو كسر عارضة الأمان مما يؤدي إلى مخاطر السقوط والإصابة."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "يجب على المستهلكين التوقف فورًا عن استخدام عارضة الأمان على الخطوة المسحوبة وإبعادها عن الأطفال حتى يتم إصلاحها. اتصل بدوريل للحصول على مجموعة إصلاح مجانية، والتي تشمل آلية قفل منزلقة لتأمين عارضة الأمان، وتعليمات التركيب، وملصق تحذير إضافي."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "إصلاح"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "多瑞尔家居用品因跌倒风险召回Cosco 2步厨房踏板",
+          "Description": "多瑞尔家居用品已宣布召回Cosco 2步厨房踏板，这是一种带有两个台阶和后部安全杆的折叠踏 stool。受影响的型号包括11349WHG1E、11349GRN1E、11349NVY1E、11349WHG2、11349GRN4、11349GRN12、11349WHG12C、11349WHG12W、11349WHG4F和11349CBWH4T。这些厨房踏板有白色/灰色、绿色、海军蓝和蓝色等颜色，Cosco标志显著显示在手柄上。型号详情可以在贴在踏板臂上的标签上找到。",
+          "ConsumerContact": "消费者被敦促在东部时间周一至周五上午8点至下午6点之间拨打888-628-3778联系多瑞尔，或通过电子邮件联系recall@coscoproducts.com。更多信息可在线访问https://www.coscoproducts.com，点击页面顶部的“安全通知”。",
+          "metaDescription": "多瑞尔因跌倒危险召回Cosco 2步厨房踏板。了解如何获得免费的修理工具包并保持安全。",
+          "Products": [
+            {
+              "Name": "Cosco 2步厨房踏板",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约302,000个（此外，11,000个在加拿大出售）"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "召回的Cosco 2步厨房踏板型号11349WHG1E"
+            },
+            {
+              "Caption": "召回的Cosco 2步厨房踏板手柄上模制的Cosco标志"
+            },
+            {
+              "Caption": "召回的Cosco 2步厨房踏板臂上的标签上的型号信息"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Cosco已收到34起安全杆脱落或断裂的报告，包括两起导致头部受伤的事件。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "在全国的Target、Home Depot、Lowe's、Walmart和BJ's Wholesale Club商店有售，以及在Amazon.com、Wayfair.com和Overstock.com上在线销售，销售时间为2021年2月至2025年7月，价格在56美元至70美元之间。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "多瑞尔家居用品公司，经营名称为Cosco家居和办公产品，位于印第安纳州哥伦布市"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "销售地点",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "安全杆脱落或断裂导致跌倒和受伤风险。"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "消费者应立即停止使用召回踏板上的安全杆，并将其远离儿童，直到修理完成。联系多瑞尔以获取免费的修理工具包，其中包括一个滑动锁定机制以固定安全杆、安装说明和额外的警告标签。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "修理"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "Dorel Home Furnishings Annonce un Rappel pour les Échelles de Cuisine Cosco à 2 Étapes en Raison de Risques de Chute",
+          "Description": "Dorel Home Furnishings a annoncé un rappel des échelles de cuisine Cosco à 2 étapes, un escabeau pliant comportant deux marches et une barre de sécurité fixée à l'arrière. Les modèles concernés incluent 11349WHG1E, 11349GRN1E, 11349NVY1E, 11349WHG2, 11349GRN4, 11349GRN12, 11349WHG12C, 11349WHG12W, 11349WHG4F, et 11349CBWH4T. Ces échelles de cuisine sont disponibles dans des couleurs telles que blanc/gris, vert, marine et bleu, avec le logo Cosco affiché de manière proéminente sur la poignée. Les détails du modèle peuvent être trouvés sur une étiquette fixée à l'un des bras de l'échelle.",
+          "ConsumerContact": "Les consommateurs sont invités à contacter Dorel au 888-628-3778 de 8 h à 18 h HE, du lundi au vendredi, ou par email à recall@coscoproducts.com. Plus d'informations sont disponibles en ligne sur https://www.coscoproducts.com en cliquant sur 'AVIS DE SÉCURITÉ' en haut de la page.",
+          "metaDescription": "Dorel rappelle les échelles de cuisine Cosco à 2 étapes en raison de risques de chute. Apprenez comment obtenir un kit de réparation gratuit et rester en sécurité.",
+          "Products": [
+            {
+              "Name": "Échelle de Cuisine Cosco à 2 Étapes",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 302 000 (De plus, 11 000 ont été vendues au Canada)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Modèle d'Échelle de Cuisine Cosco à 2 Étapes rappelé 11349WHG1E"
+            },
+            {
+              "Caption": "Logo Cosco moulé sur la poignée de l'échelle de cuisine Cosco à 2 étapes rappelée"
+            },
+            {
+              "Caption": "Informations sur le modèle situées sur l'étiquette sur le bras de l'échelle de cuisine Cosco à 2 étapes rappelée"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Cosco a reçu 34 rapports de la barre de sécurité se détachant ou se cassant, y compris deux incidents entraînant des blessures à la tête."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible chez Target, Home Depot, Lowe's, Walmart, et BJ's Wholesale Club à travers le pays, ainsi qu'en ligne sur Amazon.com, Wayfair.com, et Overstock.com de février 2021 à juillet 2025, au prix compris entre 56 $ et 70 $."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Dorel Home Furnishings Inc. faisant affaire sous le nom de Cosco Home and Office Products, de Columbus, Indiana"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendu À",
+          "ManufacturerCountries": [
+            {
+              "Country": "Chine"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Barre de sécurité se détachant ou se cassant entraînant des risques de chute et de blessure."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Les consommateurs doivent immédiatement cesser d'utiliser la barre de sécurité sur l'échelle rappelée et la tenir éloignée des enfants jusqu'à ce qu'elle soit réparée. Contacter Dorel pour un kit de réparation gratuit, qui comprend un mécanisme de verrouillage coulissant pour sécuriser la barre de sécurité, des instructions d'installation, et une étiquette d'avertissement supplémentaire."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Réparation"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "Dorel Home Furnishings ruft Cosco 2-Stufen-Küchensteighilfen aufgrund von Sturzrisiken zurück",
+          "Description": "Dorel Home Furnishings hat einen Rückruf der Cosco 2-Stufen-Küchensteighilfe angekündigt, einem klappbaren Hocker mit zwei Stufen und einer Sicherheitsstange, die hinten angebracht ist. Die betroffenen Modelle umfassen 11349WHG1E, 11349GRN1E, 11349NVY1E, 11349WHG2, 11349GRN4, 11349GRN12, 11349WHG12C, 11349WHG12W, 11349WHG4F und 11349CBWH4T. Diese Küchensteighilfen sind in Farben wie Weiß/Grau, Grün, Marineblau und Blau erhältlich, mit dem Cosco-Logo, das prominent am Griff angebracht ist. Modellinformationen sind auf einem Etikett zu finden, das an einem der Arme der Steighilfe angebracht ist.",
+          "ConsumerContact": "Verbraucher werden aufgefordert, Dorel unter 888-628-3778 von 8 bis 18 Uhr ET, Montag bis Freitag, oder per E-Mail an recall@coscoproducts.com zu kontaktieren. Weitere Informationen sind online unter https://www.coscoproducts.com verfügbar, indem Sie oben auf der Seite auf 'SICHERHEITSANZEIGEN' klicken.",
+          "metaDescription": "Dorel ruft Cosco 2-Stufen-Küchensteighilfen aufgrund von Sturzgefahren zurück. Erfahren Sie, wie Sie ein kostenloses Reparaturset erhalten und sicher bleiben.",
+          "Products": [
+            {
+              "Name": "Cosco 2-Stufen-Küchensteighilfe",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 302.000 (Zusätzlich wurden 11.000 in Kanada verkauft)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Rückgerufene Cosco 2-Stufen-Küchensteighilfe Modell 11349WHG1E"
+            },
+            {
+              "Caption": "Cosco-Logo, das in den Griff der zurückgerufenen Cosco 2-Stufen-Küchensteighilfe eingeprägt ist"
+            },
+            {
+              "Caption": "Modellinformationen auf dem Etikett am Arm der zurückgerufenen Cosco 2-Stufen-Küchensteighilfe"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Cosco hat 34 Berichte über das Abtrennen oder Brechen der Sicherheitsstange erhalten, darunter zwei Vorfälle mit Kopfverletzungen."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Erhältlich bei Target, Home Depot, Lowe's, Walmart und BJ's Wholesale Club-Filialen im ganzen Land sowie online bei Amazon.com, Wayfair.com und Overstock.com von Februar 2021 bis Juli 2025, zu Preisen zwischen 56 und 70 US-Dollar."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Dorel Home Furnishings Inc. d/b/a Cosco Home and Office Products, aus Columbus, Indiana"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Verkauft bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Abtrennen oder Brechen der Sicherheitsstange, was zu Sturz- und Verletzungsrisiken führt."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Verbraucher sollten die Verwendung der Sicherheitsstange an der zurückgerufenen Steighilfe sofort einstellen und sie von Kindern fernhalten, bis sie repariert ist. Kontaktieren Sie Dorel für ein kostenloses Reparaturset, das einen gleitenden Verriegelungsmechanismus zur Sicherung der Sicherheitsstange, Installationsanweisungen und ein zusätzliches Warnetikett enthält."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparatur"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "ドレルホームファーニシングスが転倒リスクのためコスコ2段キッチンステッパーのリコールを発表",
+          "Description": "ドレルホームファーニシングスは、2段のステップと背面に取り付けられた安全バーを備えた折りたたみ式ステップスツールであるコスコ2段キッチンステッパーのリコールを発表しました。対象モデルには、11349WHG1E、11349GRN1E、11349NVY1E、11349WHG2、11349GRN4、11349GRN12、11349WHG12C、11349WHG12W、11349WHG4F、および11349CBWH4Tが含まれます。これらのキッチンステッパーは、白/灰色、緑、ネイビー、青などの色で利用可能で、コスコのロゴがハンドルに目立つように表示されています。モデルの詳細は、ステッパーのアームの1つに貼付されたラベルに記載されています。",
+          "ConsumerContact": "消費者は、月曜日から金曜日の午前8時から午後6時（ET）まで、888-628-3778に電話するか、recall@coscoproducts.comにメールを送信してドレルに連絡することをお勧めします。詳細情報は、ページ上部の「安全通知」をクリックすることで、https://www.coscoproducts.comでオンラインで入手できます。",
+          "metaDescription": "ドレルが転倒の危険性によりコスコ2段キッチンステッパーをリコール。無料修理キットの入手方法と安全を保つ方法を学びましょう。",
+          "Products": [
+            {
+              "Name": "コスコ2段キッチンステッパー",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約302,000台（さらに、11,000台がカナダで販売されました）"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコールされたコスコ2段キッチンステッパーのモデル11349WHG1E"
+            },
+            {
+              "Caption": "リコールされたコスコ2段キッチンステッパーのハンドルに成形されたコスコのロゴ"
+            },
+            {
+              "Caption": "リコールされたコスコ2段キッチンステッパーのアームにあるラベルのモデル情報"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "コスコは、安全バーが外れたり壊れたりした34件の報告を受けており、その中には頭部の怪我を引き起こした2件の事故が含まれています。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "全国のターゲット、ホームデポ、ローズ、ウォルマート、BJ'sホールセールクラブ店舗、または2021年2月から2025年7月まで、Amazon.com、Wayfair.com、Overstock.comで販売されており、価格は56ドルから70ドルの間です。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "インディアナ州コロンバスのドレルホームファーニシングス株式会社（コスコホームおよびオフィス製品として営業）"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "販売場所",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "外れたり壊れたりする安全バーによる転倒および怪我のリスク。"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "消費者は、リコールされたステッパーの安全バーの使用を直ちに中止し、修理されるまで子供から遠ざけておくべきです。安全バーを固定するためのスライディングロック機構、取り付け手順、および追加の警告ラベルを含む無料修理キットを入手するためにドレルに連絡してください。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "修理"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "Dorel Home Furnishings Emite Recall para Escadas de Cozinha Cosco de 2 Degraus Devido a Riscos de Queda",
+          "Description": "A Dorel Home Furnishings anunciou um recall das escadas de cozinha Cosco de 2 degraus, um banco de passo dobrável com dois degraus e uma barra de segurança anexada na parte de trás. Os modelos afetados incluem 11349WHG1E, 11349GRN1E, 11349NVY1E, 11349WHG2, 11349GRN4, 11349GRN12, 11349WHG12C, 11349WHG12W, 11349WHG4F e 11349CBWH4T. Essas escadas de cozinha estão disponíveis em cores como branco/cinza, verde, marinho e azul, com o logotipo da Cosco exibido de forma proeminente na alça. Os detalhes do modelo podem ser encontrados em um rótulo afixado a um dos braços da escada.",
+          "ConsumerContact": "Os consumidores são aconselhados a entrar em contato com a Dorel pelo telefone 888-628-3778, das 8h às 18h ET, de segunda a sexta-feira, ou por e-mail para recall@coscoproducts.com. Mais informações estão disponíveis online em https://www.coscoproducts.com clicando em 'AVISOS DE SEGURANÇA' no topo da página.",
+          "metaDescription": "Dorel faz recall das escadas de cozinha Cosco de 2 degraus devido a riscos de queda. Aprenda como obter um kit de reparo gratuito e mantenha-se seguro.",
+          "Products": [
+            {
+              "Name": "Escada de Cozinha Cosco de 2 Degraus",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 302.000 (Além disso, 11.000 foram vendidas no Canadá)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Modelo 11349WHG1E da Escada de Cozinha Cosco de 2 Degraus recallada"
+            },
+            {
+              "Caption": "Logotipo da Cosco moldado na alça da escada de cozinha Cosco de 2 degraus recallada"
+            },
+            {
+              "Caption": "Informações do modelo localizadas no rótulo no braço da escada de cozinha Cosco de 2 degraus recallada"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "A Cosco recebeu 34 relatos de a barra de segurança se desprender ou quebrar, incluindo dois incidentes resultando em lesões na cabeça."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponível nas lojas Target, Home Depot, Lowe's, Walmart e BJ's Wholesale Club em todo o país, bem como online em Amazon.com, Wayfair.com e Overstock.com de fevereiro de 2021 até julho de 2025, com preços entre $56 e $70."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Dorel Home Furnishings Inc. d/b/a Cosco Home and Office Products, de Columbus, Indiana"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendido Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Desprendimento ou quebra da barra de segurança levando a riscos de queda e lesões."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Os consumidores devem imediatamente parar de usar a barra de segurança na escada recallada e mantê-la longe de crianças até que seja reparada. Entre em contato com a Dorel para um kit de reparo gratuito, que inclui um mecanismo de bloqueio deslizante para garantir a barra de segurança, instruções de instalação e um rótulo de aviso adicional."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparo"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "डोरेल होम फर्निशिंग्स ने गिरने के जोखिम के कारण कॉसको 2-स्टेप किचन स्टेपर्स का रिकॉल जारी किया",
+          "Description": "डोरेल होम फर्निशिंग्स ने कॉसको 2-स्टेप किचन स्टेपर का रिकॉल घोषित किया है, जो दो चरणों और पीछे एक सुरक्षा बार के साथ एक फोल्डिंग स्टेप स्टूल है। प्रभावित मॉडल में 11349WHG1E, 11349GRN1E, 11349NVY1E, 11349WHG2, 11349GRN4, 11349GRN12, 11349WHG12C, 11349WHG12W, 11349WHG4F, और 11349CBWH4T शामिल हैं। ये किचन स्टेपर्स सफेद/ग्रे, हरा, नौसेना, और नीले जैसे रंगों में उपलब्ध हैं, जिसमें कॉसको का लोगो हैंडल पर स्पष्ट रूप से प्रदर्शित है। मॉडल विवरण स्टेपर की एक भुजा पर लगे लेबल पर पाया जा सकता है।",
+          "ConsumerContact": "उपभोक्ताओं से अनुरोध किया जाता है कि वे डोरेल से 888-628-3778 पर सुबह 8 बजे से शाम 6 बजे ईटी, सोमवार से शुक्रवार, या ईमेल के माध्यम से recall@coscoproducts.com पर संपर्क करें। अधिक जानकारी के लिए कृपया https://www.coscoproducts.com पर जाएं और पृष्ठ के शीर्ष पर 'SAFETY NOTICES' पर क्लिक करें।",
+          "metaDescription": "डोरेल कॉसको 2-स्टेप किचन स्टेपर्स का रिकॉल गिरने के खतरों के कारण करता है। जानें कि मुफ्त मरम्मत किट कैसे प्राप्त करें और सुरक्षित रहें।",
+          "Products": [
+            {
+              "Name": "कॉसको 2-स्टेप किचन स्टेपर",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 302,000 (इसके अतिरिक्त, 11,000 कनाडा में बेचे गए)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "रिकॉल किया गया कॉसको 2-स्टेप किचन स्टेपर मॉडल 11349WHG1E"
+            },
+            {
+              "Caption": "रिकॉल किए गए कॉसको 2-स्टेप किचन स्टेपर के हैंडल पर कॉसको लोगो मोल्ड किया गया"
+            },
+            {
+              "Caption": "रिकॉल किए गए कॉसको 2-स्टेप किचन स्टेपर की भुजा पर लेबल पर मॉडल जानकारी स्थित है"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "कॉसको को सुरक्षा बार के अलग होने या टूटने के 34 रिपोर्ट मिली हैं, जिनमें से दो घटनाएं सिर की चोटों का परिणाम हैं।"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "देश भर में टारगेट, होम डिपो, लोव्स, वॉलमार्ट, और बीजे के होलसेल क्लब स्टोर्स पर उपलब्ध, साथ ही फरवरी 2021 से जुलाई 2025 तक Amazon.com, Wayfair.com, और Overstock.com पर ऑनलाइन, कीमत $56 से $70 के बीच।"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "डोरेल होम फर्निशिंग्स इंक. d/b/a कॉसको होम और ऑफिस प्रोडक्ट्स, कोलंबस, इंडियाना"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "चीन"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "सुरक्षा बार का अलग होना या टूटना जिससे गिरने और चोट लगने का जोखिम होता है।"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "उपभोक्ताओं को तुरंत रिकॉल किए गए स्टेपर पर सुरक्षा बार का उपयोग करना बंद कर देना चाहिए और इसे बच्चों से दूर रखना चाहिए जब तक कि इसे मरम्मत नहीं किया जाता। डोरेल से मुफ्त मरम्मत किट के लिए संपर्क करें, जिसमें सुरक्षा बार को सुरक्षित करने के लिए एक स्लाइडिंग लॉकिंग मैकेनिज्म, स्थापना निर्देश, और एक अतिरिक्त चेतावनी लेबल शामिल है।"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "मरम्मत"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "Dorel Home Furnishings объявляет отзыв Cosco 2-ступенчатых кухонных подставок из-за риска падения",
+          "Description": "Dorel Home Furnishings объявила об отзыве 2-ступенчатой кухонной подставки Cosco, складного стула с двумя ступенями и защитной перекладиной, прикрепленной сзади. Пострадавшие модели включают 11349WHG1E, 11349GRN1E, 11349NVY1E, 11349WHG2, 11349GRN4, 11349GRN12, 11349WHG12C, 11349WHG12W, 11349WHG4F и 11349CBWH4T. Эти кухонные подставки доступны в таких цветах, как белый/серый, зеленый, темно-синий и синий, с логотипом Cosco, ярко отображенным на ручке. Информация о модели может быть найдена на ярлыке, прикрепленном к одной из рук подставки.",
+          "ConsumerContact": "Потребителей призывают связаться с Dorel по телефону 888-628-3778 с 8:00 до 18:00 по восточному времени с понедельника по пятницу или по электронной почте на адрес recall@coscoproducts.com. Дополнительная информация доступна онлайн на сайте https://www.coscoproducts.com, нажав на 'УВЕДОМЛЕНИЯ О БЕЗОПАСНОСТИ' в верхней части страницы.",
+          "metaDescription": "Dorel отзывает 2-ступенчатые кухонные подставки Cosco из-за опасности падения. Узнайте, как получить бесплатный комплект для ремонта и оставаться в безопасности.",
+          "Products": [
+            {
+              "Name": "Cosco 2-ступенчатая кухонная подставка",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 302,000 (Кроме того, 11,000 были проданы в Канаде)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванная модель 2-ступенчатой кухонной подставки Cosco 11349WHG1E"
+            },
+            {
+              "Caption": "Логотип Cosco, вмонтированный в ручку отозванной 2-ступенчатой кухонной подставки Cosco"
+            },
+            {
+              "Caption": "Информация о модели, расположенная на ярлыке на руке отозванной 2-ступенчатой кухонной подставки Cosco"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Cosco получила 34 сообщения о том, что защитная перекладина отсоединяется или ломается, включая два случая, приведших к травмам головы."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Доступно в магазинах Target, Home Depot, Lowe's, Walmart и BJ's Wholesale Club по всей стране, а также онлайн на Amazon.com, Wayfair.com и Overstock.com с февраля 2021 года по июль 2025 года, по цене от 56 до 70 долларов."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Dorel Home Furnishings Inc. d/b/a Cosco Home and Office Products, Колумбус, Индиана"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Продается в",
+          "ManufacturerCountries": [
+            {
+              "Country": "Китай"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Отсоединение или поломка защитной перекладины, что приводит к риску падения и травм."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Потребители должны немедленно прекратить использование защитной перекладины на отозванной подставке и держать ее подальше от детей до тех пор, пока она не будет отремонтирована. Свяжитесь с Dorel для получения бесплатного комплекта для ремонта, который включает в себя механизм скольжения для закрепления защитной перекладины, инструкции по установке и дополнительную предупреждающую этикетку."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Ремонт"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "Dorel Home Furnishings thông báo thu hồi Cosco 2-Step Kitchen Steppers do nguy cơ ngã",
+          "Description": "Dorel Home Furnishings đã thông báo thu hồi Cosco 2-step kitchen stepper, một chiếc ghế bước gập với hai bậc và một thanh an toàn gắn ở phía sau. Các mẫu bị ảnh hưởng bao gồm 11349WHG1E, 11349GRN1E, 11349NVY1E, 11349WHG2, 11349GRN4, 11349GRN12, 11349WHG12C, 11349WHG12W, 11349WHG4F, và 11349CBWH4T. Những chiếc ghế bước này có sẵn trong các màu như trắng/xám, xanh lá, xanh hải quân và xanh dương, với logo Cosco được hiển thị rõ ràng trên tay cầm. Thông tin mẫu có thể được tìm thấy trên nhãn gắn trên một trong các tay của ghế bước.",
+          "ConsumerContact": "Người tiêu dùng được khuyến khích liên hệ với Dorel theo số 888-628-3778 từ 8 giờ sáng đến 6 giờ chiều ET, từ thứ Hai đến thứ Sáu, hoặc qua email tại recall@coscoproducts.com. Thông tin thêm có sẵn trực tuyến tại https://www.coscoproducts.com bằng cách nhấp vào 'THÔNG BÁO AN TOÀN' ở đầu trang.",
+          "metaDescription": "Dorel thu hồi Cosco 2-step kitchen steppers do nguy cơ ngã. Tìm hiểu cách nhận bộ sửa chữa miễn phí và giữ an toàn.",
+          "Products": [
+            {
+              "Name": "Cosco 2-Step Kitchen Stepper",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 302,000 (Ngoài ra, 11,000 chiếc đã được bán ở Canada)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Mẫu Cosco 2-Step Kitchen Stepper bị thu hồi 11349WHG1E"
+            },
+            {
+              "Caption": "Logo Cosco được đúc trên tay cầm của chiếc ghế bước Cosco 2-step kitchen stepper bị thu hồi"
+            },
+            {
+              "Caption": "Thông tin mẫu nằm trên nhãn ở tay của chiếc ghế bước Cosco 2-step kitchen stepper bị thu hồi"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Cosco đã nhận được 34 báo cáo về việc thanh an toàn bị tách rời hoặc gãy, bao gồm hai sự cố dẫn đến chấn thương đầu."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Có sẵn tại các cửa hàng Target, Home Depot, Lowe's, Walmart và BJ's Wholesale Club trên toàn quốc, cũng như trực tuyến tại Amazon.com, Wayfair.com và Overstock.com từ tháng 2 năm 2021 đến tháng 7 năm 2025, có giá từ $56 đến $70."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Dorel Home Furnishings Inc. d/b/a Cosco Home and Office Products, ở Columbus, Indiana"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Bán Tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Trung Quốc"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Thanh an toàn tách rời hoặc gãy dẫn đến nguy cơ ngã và chấn thương."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Người tiêu dùng nên ngay lập tức ngừng sử dụng thanh an toàn trên chiếc ghế bước bị thu hồi và giữ xa trẻ em cho đến khi nó được sửa chữa. Liên hệ với Dorel để nhận bộ sửa chữa miễn phí, bao gồm cơ chế khóa trượt để giữ thanh an toàn, hướng dẫn lắp đặt và một nhãn cảnh báo bổ sung."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Sửa chữa"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    }
+  ]
+}

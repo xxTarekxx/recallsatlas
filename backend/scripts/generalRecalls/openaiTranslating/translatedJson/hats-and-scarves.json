@@ -1,0 +1,800 @@
+{
+  "meta": {
+    "slug": "hats-and-scarves",
+    "sourceCsvFile": "hats-and-scarves_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:36.954Z",
+    "recallCount": 1,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "hats-and-scarves.json",
+    "seoTranslatedAt": "2026-04-04T04:12:23.110Z",
+    "resumePartial": false,
+    "i18nSource": "generalRecallsTranslated",
+    "i18nSourceFile": "hats-and-scarves.json",
+    "i18nUiLangs": [
+      "en",
+      "es",
+      "ar",
+      "zh",
+      "fr",
+      "de",
+      "ja",
+      "pt",
+      "hi",
+      "ru",
+      "vi"
+    ],
+    "i18nProgressByLang": {
+      "es": 1,
+      "ar": 1,
+      "zh": 1,
+      "fr": 1,
+      "de": 1,
+      "ja": 1,
+      "pt": 1,
+      "hi": 1,
+      "ru": 1,
+      "vi": 1
+    },
+    "i18nInProgress": false,
+    "i18nTranslatedAt": "2026-04-07T09:06:04.900Z",
+    "i18nOpenaiModel": "gpt-4o-mini"
+  },
+  "recalls": [
+    {
+      "RecallID": 10000,
+      "RecallNumber": "24299",
+      "RecallDate": "2024-07-11T00:00:00",
+      "Description": "Claire's and Icing have issued a recall for their Halloween witch hats made entirely of polyester. These black hats feature a blue mesh scarf adorned with sparkling stars, and the tag inside reads 'CBI Distributing Corporation.' Consumers should be aware that these hats do not meet federal flammability standards, which could result in burn injuries.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/Claires-and-Icing-Stores-Recalls-Halloween-Witch-Hats-Due-to-Burn-Hazard-and-Violation-of-Federal-Flammability-Requirement",
+      "Title": "Claire's and Icing Recall Halloween Witch Hats Due to Fire Risk",
+      "ConsumerContact": "For more information, contact Claire's at 888-252-4737, available from 8:30 a.m. to 6 p.m. CT, Monday through Friday. You can also email NAProductRecall@claires.com or visit www.claires.com/us/recall-notices/ and click on 'Product Recalls' at the bottom of the page under the Help section.",
+      "LastPublishDate": "2024-07-11T00:00:00",
+      "Products": [
+        {
+          "Name": "Halloween Witch Hats",
+          "NumberOfUnits": "About 5,700 (In addition, about 450 were sold in Canada)"
+        }
+      ],
+      "Inconjunctions": [
+        {
+          "URL": "https://recalls-rappels.canada.ca/en/alert-recall/claire-s-and-icing-stores-halloween-witch-hat-recalled-due-flammability-hazard"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/hats-and-scarves/1-Halloween-Witch-Hats/1446d1e5c354a244fbc5a89f43e5af3e.webp",
+          "Caption": "Recalled Halloween Witch Hat",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/witch-hat.gif"
+        },
+        {
+          "URL": "/images/generalRecalls/hats-and-scarves/1-Halloween-Witch-Hats/279fdc8c77569e177d1709efd82e1b3b.webp",
+          "Caption": "\"CBI Distributing Corporation\" is printed on the sewn-in tag inside the hat",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/CBI-hat-tag.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Claire's and Icing stores across the U.S. from July 2023 to December 2023 for approximately $15"
+        }
+      ],
+      "Distributors": [
+        {
+          "Name": "Claire's and Icing Stores, of Hoffman Estates, Illinois"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Violation of federal flammability standards posing burn injury risks"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Stop using the hats and return them to any Claire's or Icing store for a full refund"
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "slug": "claire-s-and-icing-recall-halloween-witch-hats-due-to-fire-risk-recall",
+      "metaDescription": "Claire's and Icing recall Halloween witch hats due to fire hazard. Return for a full refund. Learn more about the recall here.",
+      "languages": {
+        "en": {
+          "Title": "Claire's and Icing Recall Halloween Witch Hats Due to Fire Risk",
+          "Description": "Claire's and Icing have issued a recall for their Halloween witch hats made entirely of polyester. These black hats feature a blue mesh scarf adorned with sparkling stars, and the tag inside reads 'CBI Distributing Corporation.' Consumers should be aware that these hats do not meet federal flammability standards, which could result in burn injuries.",
+          "ConsumerContact": "For more information, contact Claire's at 888-252-4737, available from 8:30 a.m. to 6 p.m. CT, Monday through Friday. You can also email NAProductRecall@claires.com or visit www.claires.com/us/recall-notices/ and click on 'Product Recalls' at the bottom of the page under the Help section.",
+          "metaDescription": "Claire's and Icing recall Halloween witch hats due to fire hazard. Return for a full refund. Learn more about the recall here.",
+          "Products": [
+            {
+              "Name": "Halloween Witch Hats",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 5,700 (In addition, about 450 were sold in Canada)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled Halloween Witch Hat"
+            },
+            {
+              "Caption": "\"CBI Distributing Corporation\" is printed on the sewn-in tag inside the hat"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "None reported."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Claire's and Icing stores across the U.S. from July 2023 to December 2023 for approximately $15"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Claire's and Icing Stores, of Hoffman Estates, Illinois"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Sold At",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Violation of federal flammability standards posing burn injury risks"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Stop using the hats and return them to any Claire's or Icing store for a full refund"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Refund"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "Recall de sombreros de bruja de Halloween de Claire's e Icing debido al riesgo de incendio",
+          "Description": "Claire's e Icing han emitido un recall para sus sombreros de bruja de Halloween hechos completamente de poliéster. Estos sombreros negros cuentan con una bufanda de malla azul adornada con estrellas brillantes, y la etiqueta interior dice 'CBI Distributing Corporation.' Los consumidores deben ser conscientes de que estos sombreros no cumplen con los estándares federales de inflamabilidad, lo que podría resultar en lesiones por quemaduras.",
+          "ConsumerContact": "Para más información, contacte a Claire's al 888-252-4737, disponible de 8:30 a.m. a 6 p.m. CT, de lunes a viernes. También puede enviar un correo electrónico a NAProductRecall@claires.com o visitar www.claires.com/us/recall-notices/ y hacer clic en 'Product Recalls' en la parte inferior de la página en la sección de Ayuda.",
+          "metaDescription": "Recall de sombreros de bruja de Halloween de Claire's e Icing debido a un peligro de incendio. Devuélvalos para un reembolso completo. Aprenda más sobre el recall aquí.",
+          "Products": [
+            {
+              "Name": "Sombreros de bruja de Halloween",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 5,700 (Además, se vendieron aproximadamente 450 en Canadá)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Sombrero de bruja de Halloween retirado"
+            },
+            {
+              "Caption": "\"CBI Distributing Corporation\" está impreso en la etiqueta cosida dentro del sombrero"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Ninguna reportada."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Tiendas Claire's e Icing en todo EE. UU. desde julio de 2023 hasta diciembre de 2023 por aproximadamente $15"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Tiendas Claire's e Icing, de Hoffman Estates, Illinois"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Se Vendió En",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Violación de los estándares federales de inflamabilidad que plantea riesgos de lesiones por quemaduras"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Deje de usar los sombreros y devuélvalos a cualquier tienda Claire's o Icing para un reembolso completo"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reembolso"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "استدعاء قبعات الساحرات الهالوين من كليرز وآيسينغ بسبب خطر الحريق",
+          "Description": "أصدرت كليرز وآيسينغ استدعاءً لقبعات الساحرات الهالوين المصنوعة بالكامل من البوليستر. تتميز هذه القبعات السوداء بشال شبكي أزرق مزين بنجوم متلألئة، وتقرأ العلامة الداخلية 'CBI Distributing Corporation.' يجب أن يكون المستهلكون على علم بأن هذه القبعات لا تفي بمعايير القابلية للاشتعال الفيدرالية، مما قد يؤدي إلى إصابات بالحروق.",
+          "ConsumerContact": "لمزيد من المعلومات، اتصل بكليرز على الرقم 888-252-4737، المتاح من الساعة 8:30 صباحًا حتى 6 مساءً بتوقيت وسط الولايات المتحدة، من الاثنين إلى الجمعة. يمكنك أيضًا إرسال بريد إلكتروني إلى NAProductRecall@claires.com أو زيارة www.claires.com/us/recall-notices/ والنقر على 'استدعاءات المنتجات' في أسفل الصفحة تحت قسم المساعدة.",
+          "metaDescription": "استدعاء قبعات الساحرات الهالوين من كليرز وآيسينغ بسبب خطر الحريق. ارجع للحصول على استرداد كامل. تعرف على المزيد حول الاستدعاء هنا.",
+          "Products": [
+            {
+              "Name": "قبعات الساحرات الهالوين",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 5,700 (بالإضافة إلى ذلك، تم بيع حوالي 450 في كندا)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "قبعة الساحرة الهالوينية المستدعاة"
+            },
+            {
+              "Caption": "\"CBI Distributing Corporation\" مطبوعة على العلامة المدمجة داخل القبعة"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "لا توجد إصابات مُبلغ عنها."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "متاجر كليرز وآيسينغ في جميع أنحاء الولايات المتحدة من يوليو 2023 إلى ديسمبر 2023 بسعر حوالي 15 دولار"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "متاجر كليرز وآيسينغ، من هوفمان إستيتس، إلينوي"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "تم البيع في",
+          "ManufacturerCountries": [
+            {
+              "Country": "الصين"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "انتهاك معايير القابلية للاشتعال الفيدرالية مما يشكل مخاطر إصابات بالحروق"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "توقف عن استخدام القبعات وارجعها إلى أي متجر من متاجر كليرز أو آيسينغ للحصول على استرداد كامل"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "استرداد"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "Claire's 和 Icing 因火灾风险召回万圣节女巫帽",
+          "Description": "Claire's 和 Icing 已召回其完全由聚酯制成的万圣节女巫帽。这些黑色帽子配有一条装饰有闪亮星星的蓝色网状围巾，内部标签上写着 'CBI Distributing Corporation.' 消费者应注意，这些帽子不符合联邦可燃性标准，可能导致烧伤。",
+          "ConsumerContact": "如需更多信息，请联系 Claire's，电话 888-252-4737，工作时间为周一至周五，上午 8:30 至下午 6:00 中部时间。您也可以发送电子邮件至 NAProductRecall@claires.com 或访问 www.claires.com/us/recall-notices/，并在帮助部分底部点击 '产品召回'。",
+          "metaDescription": "由于火灾危险，Claire's 和 Icing 召回万圣节女巫帽。退货可全额退款。了解更多召回信息。",
+          "Products": [
+            {
+              "Name": "万圣节女巫帽",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约 5,700（此外，约 450 个在加拿大销售）"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "召回的万圣节女巫帽"
+            },
+            {
+              "Caption": "\"CBI Distributing Corporation\" 印在帽子内缝合标签上"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "没有报告伤害。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Claire's 和 Icing 在美国的商店，销售时间为 2023 年 7 月至 2023 年 12 月，价格约为 15 美元"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "位于伊利诺伊州霍夫曼庄园的 Claire's 和 Icing 商店"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "销售地点",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "违反联邦可燃性标准，存在烧伤风险"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "停止使用这些帽子，并将其退还至任何 Claire's 或 Icing 商店以获得全额退款"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "退款"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "Rappel des chapeaux de sorcière d'Halloween de Claire's et Icing en raison d'un risque d'incendie",
+          "Description": "Claire's et Icing ont émis un rappel pour leurs chapeaux de sorcière d'Halloween entièrement en polyester. Ces chapeaux noirs sont dotés d'une écharpe en maille bleue ornée d'étoiles scintillantes, et l'étiquette à l'intérieur indique 'CBI Distributing Corporation.' Les consommateurs doivent être conscients que ces chapeaux ne respectent pas les normes fédérales de flammabilité, ce qui pourrait entraîner des blessures par brûlure.",
+          "ConsumerContact": "Pour plus d'informations, contactez Claire's au 888-252-4737, disponible de 8h30 à 18h00 CT, du lundi au vendredi. Vous pouvez également envoyer un e-mail à NAProductRecall@claires.com ou visiter www.claires.com/us/recall-notices/ et cliquer sur 'Rappels de produits' en bas de la page dans la section Aide.",
+          "metaDescription": "Rappel des chapeaux de sorcière d'Halloween de Claire's et Icing en raison d'un risque d'incendie. Retournez-les pour un remboursement complet. En savoir plus sur le rappel ici.",
+          "Products": [
+            {
+              "Name": "Chapeaux de sorcière d'Halloween",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 5 700 (De plus, environ 450 ont été vendus au Canada)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Chapeau de sorcière d'Halloween rappelé"
+            },
+            {
+              "Caption": "\"CBI Distributing Corporation\" est imprimé sur l'étiquette cousue à l'intérieur du chapeau"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Aucune signalée."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Magasins Claire's et Icing à travers les États-Unis de juillet 2023 à décembre 2023 pour environ 15 $"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Magasins Claire's et Icing, de Hoffman Estates, Illinois"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendu À",
+          "ManufacturerCountries": [
+            {
+              "Country": "Chine"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Violation des normes fédérales de flammabilité posant des risques de blessures par brûlure"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Cesser d'utiliser les chapeaux et les retourner à tout magasin Claire's ou Icing pour un remboursement complet"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Remboursement"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "Rückruf von Claire's und Icing für Halloween Hexenhüte aufgrund von Brandgefahr",
+          "Description": "Claire's und Icing haben einen Rückruf für ihre Halloween Hexenhüte herausgegeben, die vollständig aus Polyester bestehen. Diese schwarzen Hüte verfügen über einen blauen Netzschal, der mit funkelnden Sternen verziert ist, und das Etikett innen trägt die Aufschrift 'CBI Distributing Corporation.' Verbraucher sollten sich bewusst sein, dass diese Hüte nicht den bundesstaatlichen Entflammbarkeitsstandards entsprechen, was zu Brandverletzungen führen könnte.",
+          "ConsumerContact": "Für weitere Informationen kontaktieren Sie Claire's unter 888-252-4737, erreichbar von 8:30 bis 18:00 Uhr CT, Montag bis Freitag. Sie können auch eine E-Mail an NAProductRecall@claires.com senden oder www.claires.com/us/recall-notices/ besuchen und unten auf der Seite im Hilfebereich auf 'Produkt-Rückrufe' klicken.",
+          "metaDescription": "Rückruf von Claire's und Icing für Halloween Hexenhüte aufgrund von Brandgefahr. Rückgabe für eine volle Rückerstattung. Erfahren Sie hier mehr über den Rückruf.",
+          "Products": [
+            {
+              "Name": "Halloween Hexenhüte",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 5.700 (Zusätzlich wurden etwa 450 in Kanada verkauft)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Rückgerufener Halloween Hexenhut"
+            },
+            {
+              "Caption": "\"CBI Distributing Corporation\" ist auf dem eingenähten Etikett im Hut gedruckt"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Keine gemeldet."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Claire's und Icing Geschäfte in den USA von Juli 2023 bis Dezember 2023 für etwa 15 $"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Claire's und Icing Stores, aus Hoffman Estates, Illinois"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Verkauft bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Verstoß gegen bundesstaatliche Entflammbarkeitsstandards, die Brandverletzungsrisiken darstellen"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Hören Sie auf, die Hüte zu verwenden, und geben Sie sie in ein beliebiges Claire's oder Icing Geschäft für eine volle Rückerstattung zurück"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Rückerstattung"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "クレアーズとアイシングが火災リスクのためハロウィンの魔女帽子をリコール",
+          "Description": "クレアーズとアイシングは、ポリエステルで完全に作られたハロウィンの魔女帽子をリコールしました。これらの黒い帽子は、きらめく星が飾られた青いメッシュスカーフを特徴としており、内側のタグには「CBI Distributing Corporation」と記載されています。消費者は、これらの帽子が連邦の可燃性基準を満たしていないため、火傷の危険があることに注意する必要があります。",
+          "ConsumerContact": "詳細については、クレアーズに888-252-4737までお問い合わせください。営業時間は月曜日から金曜日の午前8時30分から午後6時（中央標準時）です。また、NAProductRecall@claires.comにメールを送るか、www.claires.com/us/recall-notices/を訪問し、ヘルプセクションのページ下部にある「製品リコール」をクリックしてください。",
+          "metaDescription": "クレアーズとアイシングが火災の危険性のためハロウィンの魔女帽子をリコール。全額返金のために返品してください。リコールの詳細はこちらで確認できます。",
+          "Products": [
+            {
+              "Name": "ハロウィン魔女帽子",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約5,700個（さらに、約450個がカナダで販売されました）"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコールされたハロウィン魔女帽子"
+            },
+            {
+              "Caption": "\"CBI Distributing Corporation\"が帽子の内側に縫い付けられたタグに印刷されています"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "報告された怪我はありません。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "2023年7月から2023年12月までの米国全土のクレアーズとアイシングの店舗で約15ドルで販売"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "イリノイ州ホフマンエステーツのクレアーズとアイシングの店舗"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "販売場所",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "火傷の危険をもたらす連邦の可燃性基準の違反"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "帽子の使用を中止し、全額返金のために任意のクレアーズまたはアイシングの店舗に返品してください"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "返金"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "Recall de Chapéus de Bruxa de Halloween da Claire's e Icing Devido ao Risco de Incêndio",
+          "Description": "A Claire's e a Icing emitiram um recall para seus chapéus de bruxa de Halloween feitos inteiramente de poliéster. Esses chapéus pretos apresentam um lenço de malha azul adornado com estrelas brilhantes, e a etiqueta interna diz 'CBI Distributing Corporation.' Os consumidores devem estar cientes de que esses chapéus não atendem aos padrões federais de inflamabilidade, o que pode resultar em lesões por queimaduras.",
+          "ConsumerContact": "Para mais informações, entre em contato com a Claire's pelo telefone 888-252-4737, disponível das 8h30 às 18h CT, de segunda a sexta-feira. Você também pode enviar um e-mail para NAProductRecall@claires.com ou visitar www.claires.com/us/recall-notices/ e clicar em 'Product Recalls' na parte inferior da página na seção de Ajuda.",
+          "metaDescription": "Recall de chapéus de bruxa de Halloween da Claire's e Icing devido ao risco de incêndio. Devolva para um reembolso total. Saiba mais sobre o recall aqui.",
+          "Products": [
+            {
+              "Name": "Chapéus de Bruxa de Halloween",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 5.700 (Além disso, cerca de 450 foram vendidos no Canadá)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Chapéu de Bruxa de Halloween Recallado"
+            },
+            {
+              "Caption": "\"CBI Distributing Corporation\" está impresso na etiqueta costurada dentro do chapéu"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Nenhuma relatada."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Lojas Claire's e Icing em todo os EUA de julho de 2023 a dezembro de 2023 por aproximadamente $15"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Lojas Claire's e Icing, de Hoffman Estates, Illinois"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendido Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Violação dos padrões federais de inflamabilidade, apresentando riscos de lesões por queimaduras"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Pare de usar os chapéus e devolva-os a qualquer loja Claire's ou Icing para um reembolso total"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reembolso"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "क्लेयर के और आइसिंग द्वारा आग के जोखिम के कारण हैलोवीन चुड़ैल टोपी की वापसी",
+          "Description": "क्लेर के और आइसिंग ने अपनी हैलोवीन चुड़ैल टोपी की वापसी की है जो पूरी तरह से पॉलीएस्टर से बनी हैं। ये काली टोपी एक नीली जालदार स्कार्फ के साथ हैं जो चमकदार सितारों से सजी हुई है, और अंदर का टैग पढ़ता है 'CBI डिस्ट्रीब्यूटिंग कॉर्पोरेशन।' उपभोक्ताओं को यह जानना चाहिए कि ये टोपी संघीय ज्वलनशीलता मानकों को पूरा नहीं करती हैं, जिससे जलने की चोटें हो सकती हैं।",
+          "ConsumerContact": "अधिक जानकारी के लिए, क्लेयर से 888-252-4737 पर संपर्क करें, जो सोमवार से शुक्रवार, सुबह 8:30 बजे से शाम 6 बजे CT तक उपलब्ध है। आप NAProductRecall@claires.com पर भी ईमेल कर सकते हैं या www.claires.com/us/recall-notices/ पर जा सकते हैं और सहायता अनुभाग के अंत में 'उत्पाद वापसी' पर क्लिक कर सकते हैं।",
+          "metaDescription": "क्लेर के और आइसिंग द्वारा आग के खतरे के कारण हैलोवीन चुड़ैल टोपी की वापसी। पूर्ण धनवापसी के लिए लौटाएं। यहाँ वापसी के बारे में अधिक जानें।",
+          "Products": [
+            {
+              "Name": "हैलोवीन चुड़ैल टोपी",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 5,700 (इसके अतिरिक्त, लगभग 450 कनाडा में बेची गईं)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "वापसी की गई हैलोवीन चुड़ैल टोपी"
+            },
+            {
+              "Caption": "\"CBI डिस्ट्रीब्यूटिंग कॉर्पोरेशन\" टोपी के अंदर सिले हुए टैग पर मुद्रित है"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "कोई रिपोर्ट नहीं की गई।"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "क्लेर के और आइसिंग स्टोर, अमेरिका में जुलाई 2023 से दिसंबर 2023 तक लगभग $15 में"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "क्लेर के और आइसिंग स्टोर, हॉफमैन एस्टेट्स, इलिनॉयस"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "चीन"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "संघीय ज्वलनशीलता मानकों का उल्लंघन जो जलने की चोटों का जोखिम पैदा करता है"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "टोपी का उपयोग करना बंद करें और उन्हें किसी भी क्लेयर या आइसिंग स्टोर में पूर्ण धनवापसी के लिए लौटाएं"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "धनवापसी"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "Отзыв шляп ведьм на Хэллоуин от Claire's и Icing из-за риска возгорания",
+          "Description": "Claire's и Icing объявили отзыв своих шляп ведьм на Хэллоуин, полностью изготовленных из полиэстера. Эти черные шляпы имеют синюю сетчатую шарф, украшенную сверкающими звездами, а на ярлыке внутри написано 'CBI Distributing Corporation.' Потребители должны знать, что эти шляпы не соответствуют федеральным стандартам горючести, что может привести к ожогам.\n",
+          "ConsumerContact": "Для получения дополнительной информации свяжитесь с Claire's по телефону 888-252-4737, доступному с 8:30 до 18:00 по центральному времени, с понедельника по пятницу. Вы также можете написать на электронную почту NAProductRecall@claires.com или посетить www.claires.com/us/recall-notices/ и нажать на 'Отзыв продукции' внизу страницы в разделе Помощь.",
+          "metaDescription": "Отзыв шляп ведьм на Хэллоуин от Claire's и Icing из-за риска возгорания. Верните для полного возмещения. Узнайте больше об отзыве здесь.",
+          "Products": [
+            {
+              "Name": "Шляпы ведьм на Хэллоуин",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 5,700 (Кроме того, около 450 были проданы в Канаде)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванная шляпа ведьмы на Хэллоуин"
+            },
+            {
+              "Caption": "\"CBI Distributing Corporation\" напечатано на пришитом ярлыке внутри шляпы"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Нет сообщений о травмах."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Магазины Claire's и Icing по всей территории США с июля 2023 года по декабрь 2023 года по цене около 15 долларов"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Магазины Claire's и Icing, Хоффман-Эстейтс, штат Иллинойс"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Продавалось в",
+          "ManufacturerCountries": [
+            {
+              "Country": "Китай"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Нарушение федеральных стандартов горючести, создающее риск ожогов"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Прекратите использовать шляпы и верните их в любой магазин Claire's или Icing для полного возмещения"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Возмещение"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "Claire's và Icing thu hồi mũ phù thủy Halloween do nguy cơ cháy",
+          "Description": "Claire's và Icing đã phát động một đợt thu hồi cho những chiếc mũ phù thủy Halloween được làm hoàn toàn bằng polyester. Những chiếc mũ màu đen này có một chiếc khăn lưới màu xanh được trang trí bằng những ngôi sao lấp lánh, và nhãn bên trong ghi 'CBI Distributing Corporation.' Người tiêu dùng nên biết rằng những chiếc mũ này không đáp ứng tiêu chuẩn chống cháy của liên bang, điều này có thể dẫn đến chấn thương do bỏng.",
+          "ConsumerContact": "Để biết thêm thông tin, hãy liên hệ với Claire's qua số 888-252-4737, có sẵn từ 8:30 sáng đến 6:00 chiều CT, từ thứ Hai đến thứ Sáu. Bạn cũng có thể gửi email đến NAProductRecall@claires.com hoặc truy cập www.claires.com/us/recall-notices/ và nhấp vào 'Thông báo thu hồi sản phẩm' ở dưới cùng của trang trong phần Trợ giúp.",
+          "metaDescription": "Claire's và Icing thu hồi mũ phù thủy Halloween do nguy cơ cháy. Trả lại để được hoàn tiền đầy đủ. Tìm hiểu thêm về đợt thu hồi tại đây.",
+          "Products": [
+            {
+              "Name": "Mũ phù thủy Halloween",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 5,700 (Ngoài ra, khoảng 450 chiếc đã được bán ở Canada)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Mũ phù thủy Halloween bị thu hồi"
+            },
+            {
+              "Caption": "\"CBI Distributing Corporation\" được in trên nhãn may bên trong mũ"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Không có báo cáo nào."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Các cửa hàng Claire's và Icing trên toàn nước Mỹ từ tháng 7 năm 2023 đến tháng 12 năm 2023 với giá khoảng 15 đô la"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Cửa hàng Claire's và Icing, tại Hoffman Estates, Illinois"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Bán Tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Trung Quốc"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Vi phạm tiêu chuẩn chống cháy của liên bang gây ra nguy cơ chấn thương do bỏng"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Ngừng sử dụng mũ và trả lại chúng cho bất kỳ cửa hàng Claire's hoặc Icing nào để được hoàn tiền đầy đủ"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Hoàn tiền"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    }
+  ]
+}

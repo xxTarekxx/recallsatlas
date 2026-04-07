@@ -1,0 +1,749 @@
+{
+  "meta": {
+    "slug": "kerosene-grills-or-stoves",
+    "sourceCsvFile": "kerosene-grills-or-stoves_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:36.981Z",
+    "recallCount": 1,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "kerosene-grills-or-stoves.json",
+    "seoTranslatedAt": "2026-04-04T06:00:13.590Z",
+    "resumePartial": false,
+    "i18nSource": "generalRecallsTranslated",
+    "i18nSourceFile": "kerosene-grills-or-stoves.json",
+    "i18nUiLangs": [
+      "en",
+      "es",
+      "ar",
+      "zh",
+      "fr",
+      "de",
+      "ja",
+      "pt",
+      "hi",
+      "ru",
+      "vi"
+    ],
+    "i18nProgressByLang": {
+      "es": 1,
+      "ar": 1,
+      "zh": 1,
+      "fr": 1,
+      "de": 1,
+      "ja": 1,
+      "pt": 1,
+      "hi": 1,
+      "ru": 1,
+      "vi": 1
+    },
+    "i18nInProgress": false,
+    "i18nTranslatedAt": "2026-04-07T11:56:57.763Z",
+    "i18nOpenaiModel": "gpt-4o-mini"
+  },
+  "recalls": [
+    {
+      "RecallID": 9801,
+      "RecallNumber": "24061",
+      "RecallDate": "2023-12-14T00:00:00",
+      "Description": "Traeger is recalling its Flatrock Flat Top Grills, which are powered by propane and feature a black exterior with a closeable lid and a silver handle. The grill measures approximately 74 inches in length, 27 inches in width, and 36 inches in height, weighing around 189 lbs. Each unit has a silver label on the back displaying the SKU Number 1DFL42LLA. This recall is due to a labeling issue with the burner control knob that may lead to the grill being accidentally left on, creating a fire hazard.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/Traeger-Pellet-Grills-Recalls-Flat-Top-Propane-Grills-Due-to-Fire-Hazard",
+      "Title": "Traeger Recalls Flatrock Flat Top Propane Grills Due to Potential Fire Risk",
+      "ConsumerContact": "For assistance, consumers can reach Traeger at 833-654-2407, available seven days a week from 6 a.m. to 10 p.m. MT, or visit www.traeger.com/recall for further details.",
+      "LastPublishDate": "2023-12-14T00:00:00",
+      "Products": [
+        {
+          "Name": "Traeger Flatrock Flat Top Propane Grill",
+          "NumberOfUnits": "About 37,000"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/kerosene-grills-or-stoves/1-Traeger-Flatrock-Flat-Top-Propane-Grill/4b6275e4d78abf71d817a75659810bb3.webp",
+          "Caption": "Recalled Traeger Flatrock Flat Top Grill",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/flattop.png"
+        },
+        {
+          "URL": "/images/generalRecalls/kerosene-grills-or-stoves/1-Traeger-Flatrock-Flat-Top-Propane-Grill/89441f9698cc9a2141aa094a87095fdd.webp",
+          "Caption": "Silver Color label Located on the Rear With SKU Number 1DFL42LLA",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/skulabel.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received 57 reports of flame adjustment knobs being incorrectly labeled. No fires or injuries have been reported."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available at Ace Hardware, The Home Depot, and Scheel's stores across the country, as well as online at www.acehardware.com, www.homedepot.com, and www.traeger.com from February 2023 through October 2023 for approximately $900."
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "Vietnam"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Incorrect labeling of the burner control knob may lead to unintentional ignition, posing a fire risk."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should cease use of the recalled grills and contact Traeger for inspection guidance. A free repair kit will be provided if the burner control knobs are found to be mislabeled."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "SKU Number 1DFL42LLA"
+      ],
+      "slug": "traeger-recalls-flatrock-flat-top-propane-grills-due-to-potential-fire-risk-recall",
+      "metaDescription": "Traeger recalls Flatrock Flat Top Propane Grills due to fire hazards from mislabeled burner control knobs. Contact for a free repair kit.",
+      "languages": {
+        "en": {
+          "Title": "Traeger Recalls Flatrock Flat Top Propane Grills Due to Potential Fire Risk",
+          "Description": "Traeger is recalling its Flatrock Flat Top Grills, which are powered by propane and feature a black exterior with a closeable lid and a silver handle. The grill measures approximately 74 inches in length, 27 inches in width, and 36 inches in height, weighing around 189 lbs. Each unit has a silver label on the back displaying the SKU Number 1DFL42LLA. This recall is due to a labeling issue with the burner control knob that may lead to the grill being accidentally left on, creating a fire hazard.",
+          "ConsumerContact": "For assistance, consumers can reach Traeger at 833-654-2407, available seven days a week from 6 a.m. to 10 p.m. MT, or visit www.traeger.com/recall for further details.",
+          "metaDescription": "Traeger recalls Flatrock Flat Top Propane Grills due to fire hazards from mislabeled burner control knobs. Contact for a free repair kit.",
+          "Products": [
+            {
+              "Name": "Traeger Flatrock Flat Top Propane Grill",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 37,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled Traeger Flatrock Flat Top Grill"
+            },
+            {
+              "Caption": "Silver Color label Located on the Rear With SKU Number 1DFL42LLA"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "The firm has received 57 reports of flame adjustment knobs being incorrectly labeled. No fires or injuries have been reported."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Available at Ace Hardware, The Home Depot, and Scheel's stores across the country, as well as online at www.acehardware.com, www.homedepot.com, and www.traeger.com from February 2023 through October 2023 for approximately $900."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Sold At",
+          "ManufacturerCountries": [
+            {
+              "Country": "Vietnam"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Incorrect labeling of the burner control knob may lead to unintentional ignition, posing a fire risk."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Consumers should cease use of the recalled grills and contact Traeger for inspection guidance. A free repair kit will be provided if the burner control knobs are found to be mislabeled."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Repair"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "Traeger recuerda las parrillas de propane Flatrock Flat Top debido a un posible riesgo de incendio",
+          "Description": "Traeger está recordando sus parrillas Flatrock Flat Top, que funcionan con propane y cuentan con un exterior negro con una tapa cerrable y un mango plateado. La parrilla mide aproximadamente 74 pulgadas de largo, 27 pulgadas de ancho y 36 pulgadas de alto, pesando alrededor de 189 lbs. Cada unidad tiene una etiqueta plateada en la parte posterior que muestra el número SKU 1DFL42LLA. Este retiro se debe a un problema de etiquetado con el botón de control del quemador que puede llevar a que la parrilla se deje accidentalmente encendida, creando un riesgo de incendio.",
+          "ConsumerContact": "Para asistencia, los consumidores pueden comunicarse con Traeger al 833-654-2407, disponible los siete días de la semana de 6 a.m. a 10 p.m. MT, o visitar www.traeger.com/recall para más detalles.",
+          "metaDescription": "Traeger recuerda las parrillas de propane Flatrock Flat Top debido a riesgos de incendio por botones de control del quemador mal etiquetados. Contacte para un kit de reparación gratuito.",
+          "Products": [
+            {
+              "Name": "Parrilla de propane Traeger Flatrock Flat Top",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 37,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Parrilla Traeger Flatrock Flat Top retirada"
+            },
+            {
+              "Caption": "Etiqueta de color plateado ubicada en la parte trasera con el número SKU 1DFL42LLA"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "La empresa ha recibido 57 informes de botones de ajuste de llama que están etiquetados incorrectamente. No se han reportado incendios ni lesiones."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible en Ace Hardware, The Home Depot y tiendas Scheel's en todo el país, así como en línea en www.acehardware.com, www.homedepot.com y www.traeger.com desde febrero de 2023 hasta octubre de 2023 por aproximadamente $900."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendido en",
+          "ManufacturerCountries": [
+            {
+              "Country": "Vietnam"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "El etiquetado incorrecto del botón de control del quemador puede llevar a una ignición no intencionada, lo que representa un riesgo de incendio."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Los consumidores deben cesar el uso de las parrillas retiradas y contactar a Traeger para obtener orientación sobre la inspección. Se proporcionará un kit de reparación gratuito si se encuentra que los botones de control del quemador están mal etiquetados."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparar"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "ترايجر تستدعي شوايات فلاتروك فلات توب التي تعمل بالغاز بسبب خطر الحريق المحتمل",
+          "Description": "تقوم ترايجر باستدعاء شوايات فلاتروك فلات توب التي تعمل بالغاز، والتي تعمل بالغاز وتتميز بسطح أسود مع غطاء قابل للإغلاق ومقبض فضي. يبلغ طول الشواية حوالي 74 بوصة، وعرضها 27 بوصة، وارتفاعها 36 بوصة، ويبلغ وزنها حوالي 189 رطلاً. تحتوي كل وحدة على ملصق فضي في الخلف يعرض رقم SKU 1DFL42LLA. يأتي هذا الاستدعاء بسبب مشكلة في وضع العلامات على مقبض التحكم في الموقد الذي قد يؤدي إلى ترك الشواية قيد التشغيل عن طريق الخطأ، مما يخلق خطر الحريق.",
+          "ConsumerContact": "للمساعدة، يمكن للمستهلكين التواصل مع ترايجر على الرقم 833-654-2407، المتاح سبعة أيام في الأسبوع من الساعة 6 صباحًا حتى 10 مساءً بتوقيت الجبل، أو زيارة www.traeger.com/recall لمزيد من التفاصيل.",
+          "metaDescription": "تستدعي ترايجر شوايات فلاتروك فلات توب التي تعمل بالغاز بسبب مخاطر الحريق الناتجة عن وضع علامات خاطئة على مقابض التحكم في الموقد. اتصل للحصول على مجموعة إصلاح مجانية.",
+          "Products": [
+            {
+              "Name": "شواية ترايجر فلاتروك فلات توب التي تعمل بالغاز",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 37,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "شواية ترايجر فلاتروك فلات توب المستدعاة"
+            },
+            {
+              "Caption": "ملصق باللون الفضي موجود في الخلف مع رقم SKU 1DFL42LLA"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "تلقت الشركة 57 تقريرًا عن مقابض ضبط اللهب التي تم وضع علامات خاطئة عليها. لم يتم الإبلاغ عن أي حرائق أو إصابات."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "متاحة في متاجر إيس هاردوير، ذا هوم ديبوت، ومتاجر شيلز في جميع أنحاء البلاد، بالإضافة إلى الإنترنت على www.acehardware.com، www.homedepot.com، وwww.traeger.com من فبراير 2023 حتى أكتوبر 2023 بسعر تقريبي يبلغ 900 دولار."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "تباع في",
+          "ManufacturerCountries": [
+            {
+              "Country": "فيتنام"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "قد يؤدي وضع العلامات الخاطئة على مقبض التحكم في الموقد إلى إشعال غير مقصود، مما يشكل خطر الحريق."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "يجب على المستهلكين التوقف عن استخدام الشوايات المستدعاة والتواصل مع ترايجر للحصول على إرشادات الفحص. سيتم توفير مجموعة إصلاح مجانية إذا تم العثور على مقابض التحكم في الموقد مع علامات خاطئة."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "إصلاح"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "Traeger召回Flatrock平顶丙烷烧烤炉因潜在火灾风险",
+          "Description": "Traeger正在召回其Flatrock平顶烧烤炉，该烧烤炉由丙烷驱动，外观为黑色，配有可关闭的盖子和银色手柄。烧烤炉的长度约为74英寸，宽度为27英寸，高度为36英寸，重量约为189磅。每个单位的背面都有一个银色标签，上面显示SKU编号1DFL42LLA。此次召回是由于燃烧器控制旋钮的标签问题，可能导致烧烤炉意外保持开启状态，从而产生火灾隐患。",
+          "ConsumerContact": "如需帮助，消费者可以拨打Traeger的电话833-654-2407，服务时间为每周七天，上午6点至晚上10点（山地时间），或访问www.traeger.com/recall以获取更多详细信息。",
+          "metaDescription": "Traeger因燃烧器控制旋钮标签错误而召回Flatrock平顶丙烷烧烤炉，存在火灾隐患。联系以获取免费维修工具包。",
+          "Products": [
+            {
+              "Name": "Traeger Flatrock平顶丙烷烧烤炉",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约37,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "召回的Traeger Flatrock平顶烧烤炉"
+            },
+            {
+              "Caption": "后面带有SKU编号1DFL42LLA的银色标签"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "该公司已收到57份关于火焰调节旋钮标签错误的报告。没有报告火灾或受伤。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "在全国的Ace Hardware、The Home Depot和Scheel's商店有售，以及在www.acehardware.com、www.homedepot.com和www.traeger.com上在线销售，销售时间为2023年2月至2023年10月，价格约为900美元。"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "销售地点",
+          "ManufacturerCountries": [
+            {
+              "Country": "越南"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "燃烧器控制旋钮标签错误可能导致意外点火，构成火灾风险。"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "消费者应停止使用召回的烧烤炉，并联系Traeger以获取检查指导。如果发现燃烧器控制旋钮标签错误，将提供免费维修工具包。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "维修"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "Traeger rappelle les grills à propane Flatrock Flat Top en raison d'un risque d'incendie potentiel",
+          "Description": "Traeger rappelle ses grills Flatrock Flat Top, qui fonctionnent au propane et présentent un extérieur noir avec un couvercle refermable et une poignée argentée. Le grill mesure environ 74 pouces de long, 27 pouces de large et 36 pouces de haut, pesant environ 189 lbs. Chaque unité a une étiquette argentée à l'arrière affichant le numéro SKU 1DFL42LLA. Ce rappel est dû à un problème d'étiquetage du bouton de contrôle du brûleur qui peut entraîner le fait que le grill reste accidentellement allumé, créant un risque d'incendie.",
+          "ConsumerContact": "Pour assistance, les consommateurs peuvent contacter Traeger au 833-654-2407, disponible sept jours sur sept de 6 h à 22 h MT, ou visiter www.traeger.com/recall pour plus de détails.",
+          "metaDescription": "Traeger rappelle les grills à propane Flatrock Flat Top en raison de risques d'incendie dus à des boutons de contrôle de brûleur mal étiquetés. Contactez pour un kit de réparation gratuit.",
+          "Products": [
+            {
+              "Name": "Grill à propane Traeger Flatrock Flat Top",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 37 000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Grill Traeger Flatrock Flat Top rappelé"
+            },
+            {
+              "Caption": "Étiquette couleur argent située à l'arrière avec le numéro SKU 1DFL42LLA"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "L'entreprise a reçu 57 rapports de boutons de réglage de flamme mal étiquetés. Aucun incendie ni blessure n'ont été signalés."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible chez Ace Hardware, The Home Depot et les magasins Scheel's à travers le pays, ainsi qu'en ligne sur www.acehardware.com, www.homedepot.com et www.traeger.com de février 2023 à octobre 2023 pour environ 900 $."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendu chez",
+          "ManufacturerCountries": [
+            {
+              "Country": "Vietnam"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Un étiquetage incorrect du bouton de contrôle du brûleur peut entraîner une ignition involontaire, posant un risque d'incendie."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Les consommateurs doivent cesser d'utiliser les grills rappelés et contacter Traeger pour des conseils d'inspection. Un kit de réparation gratuit sera fourni si les boutons de contrôle du brûleur s'avèrent mal étiquetés."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Réparation"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "Traeger ruft Flatrock Flat Top Propan-Grills aufgrund potenzieller Brandgefahr zurück",
+          "Description": "Traeger ruft seine Flatrock Flat Top Grills zurück, die mit Propan betrieben werden und ein schwarzes Äußeres mit einem schließbaren Deckel und einem silbernen Griff aufweisen. Der Grill misst etwa 74 Zoll in der Länge, 27 Zoll in der Breite und 36 Zoll in der Höhe und wiegt etwa 189 lbs. Jede Einheit hat ein silbernes Etikett auf der Rückseite, das die SKU-Nummer 1DFL42LLA anzeigt. Dieser Rückruf erfolgt aufgrund eines Kennzeichnungsproblems mit dem Brennersteuerknopf, das dazu führen kann, dass der Grill versehentlich eingeschaltet bleibt, was eine Brandgefahr darstellt.",
+          "ConsumerContact": "Für Unterstützung können Verbraucher Traeger unter 833-654-2407 erreichen, verfügbar sieben Tage die Woche von 6 bis 22 Uhr MT, oder besuchen Sie www.traeger.com/recall für weitere Details.",
+          "metaDescription": "Traeger ruft Flatrock Flat Top Propan-Grills aufgrund von Brandgefahren durch falsch beschriftete Brennersteuerknöpfe zurück. Kontaktieren Sie uns für ein kostenloses Reparaturset.",
+          "Products": [
+            {
+              "Name": "Traeger Flatrock Flat Top Propan-Grill",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 37.000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Zurückgerufener Traeger Flatrock Flat Top Grill"
+            },
+            {
+              "Caption": "Silbernes Etikett auf der Rückseite mit SKU-Nummer 1DFL42LLA"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Das Unternehmen hat 57 Berichte über falsch beschriftete Flammenreglerknöpfe erhalten. Es wurden keine Brände oder Verletzungen gemeldet."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Erhältlich bei Ace Hardware, The Home Depot und Scheel's Geschäften im ganzen Land sowie online unter www.acehardware.com, www.homedepot.com und www.traeger.com von Februar 2023 bis Oktober 2023 für etwa 900 $."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Verkauft bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "Vietnam"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Falsche Kennzeichnung des Brennersteuerknopfs kann zu unbeabsichtigter Zündung führen, was ein Brandrisiko darstellt."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Verbraucher sollten die zurückgerufenen Grills nicht mehr verwenden und Traeger für Inspektionsanleitungen kontaktieren. Ein kostenloses Reparaturset wird bereitgestellt, wenn die Brennersteuerknöpfe als falsch beschriftet befunden werden."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparatur"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "トレーガー、潜在的な火災リスクのためフラットロックフラットトッププロパングリルをリコール",
+          "Description": "トレーガーは、プロパンで動作し、閉じることができる蓋と銀色のハンドルを備えた黒い外装のフラットロックフラットトップグリルをリコールしています。グリルのサイズは約74インチの長さ、27インチの幅、36インチの高さで、重さは約189ポンドです。各ユニットの背面にはSKU番号1DFL42LLAが表示された銀色のラベルがあります。このリコールは、グリルが誤ってオンのままにされる可能性があるバーナーコントロールノブのラベリングの問題によるものです。\n",
+          "ConsumerContact": "サポートが必要な場合、消費者はトレーガーに833-654-2407まで連絡できます。営業時間は毎日午前6時から午後10時（MT）までです。また、詳細についてはwww.traeger.com/recallをご覧ください。",
+          "metaDescription": "トレーガーは、誤ったラベルのバーナーコントロールノブによる火災の危険性からフラットロックフラットトッププロパングリルをリコールしています。無料の修理キットについてお問い合わせください。",
+          "Products": [
+            {
+              "Name": "トレーガーフラットロックフラットトッププロパングリル",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約37,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコールされたトレーガーフラットロックフラットトップグリル"
+            },
+            {
+              "Caption": "SKU番号1DFL42LLAのある背面の銀色のラベル"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "同社は、フレーム調整ノブが誤ってラベル付けされているとの57件の報告を受けています。火災や怪我の報告はありません。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "全国のエースハードウェア、ホームデポ、シールズの店舗およびwww.acehardware.com、www.homedepot.com、www.traeger.comで、2023年2月から2023年10月まで約900ドルで販売されています。"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "販売場所",
+          "ManufacturerCountries": [
+            {
+              "Country": "ベトナム"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "バーナーコントロールノブの誤ったラベリングは、意図しない点火を引き起こし、火災リスクをもたらす可能性があります。"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "消費者はリコールされたグリルの使用を中止し、トレーガーに検査のガイダンスを求めるべきです。バーナーコントロールノブが誤ってラベル付けされている場合、無料の修理キットが提供されます。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "修理"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "Traeger Recalls Flatrock Flat Top Propane Grills Due to Potential Fire Risk",
+          "Description": "A Traeger está recalling seus Grills Flatrock Flat Top, que são alimentados por propano e possuem um exterior preto com uma tampa fechável e uma alça prateada. O grill mede aproximadamente 74 polegadas de comprimento, 27 polegadas de largura e 36 polegadas de altura, pesando cerca de 189 lbs. Cada unidade possui um rótulo prateado na parte de trás exibindo o Número SKU 1DFL42LLA. Este recall é devido a um problema de rotulagem com o botão de controle do queimador que pode levar o grill a ser acidentalmente deixado ligado, criando um risco de incêndio.",
+          "ConsumerContact": "Para assistência, os consumidores podem entrar em contato com a Traeger pelo telefone 833-654-2407, disponível todos os dias da semana, das 6h às 22h MT, ou visitar www.traeger.com/recall para mais detalhes.",
+          "metaDescription": "A Traeger está recalling os Grills Flatrock Flat Top Propane devido a riscos de incêndio causados por botões de controle do queimador rotulados incorretamente. Contato para um kit de reparo gratuito.",
+          "Products": [
+            {
+              "Name": "Grill a Gás Propano Traeger Flatrock Flat Top",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 37.000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Grill Traeger Flatrock Flat Top Recall"
+            },
+            {
+              "Caption": "Rótulo prateado localizado na parte traseira com o Número SKU 1DFL42LLA"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "A empresa recebeu 57 relatos de botões de ajuste de chama sendo rotulados incorretamente. Nenhum incêndio ou ferimento foi relatado."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponível nas lojas Ace Hardware, The Home Depot e Scheel's em todo o país, bem como online em www.acehardware.com, www.homedepot.com e www.traeger.com de fevereiro de 2023 a outubro de 2023 por aproximadamente $900."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendido em",
+          "ManufacturerCountries": [
+            {
+              "Country": "Vietnã"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "A rotulagem incorreta do botão de controle do queimador pode levar à ignição não intencional, representando um risco de incêndio."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Os consumidores devem interromper o uso dos grills recallados e entrar em contato com a Traeger para orientações de inspeção. Um kit de reparo gratuito será fornecido se os botões de controle do queimador forem considerados rotulados incorretamente."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparo"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "ट्रेगर ने संभावित आग के जोखिम के कारण फ्लैट रॉक फ्लैट टॉप प्रोपेन ग्रिल्स काRecall किया",
+          "Description": "ट्रेगर अपने फ्लैट रॉक फ्लैट टॉप ग्रिल्स को वापस बुला रहा है, जो प्रोपेन द्वारा संचालित होते हैं और जिनका काला बाहरी हिस्सा होता है जिसमें एक बंद करने योग्य ढक्कन और एक चांदी का हैंडल होता है। ग्रिल की लंबाई लगभग 74 इंच, चौड़ाई 27 इंच और ऊँचाई 36 इंच है, जिसका वजन लगभग 189 पाउंड है। प्रत्येक यूनिट के पीछे एक चांदी का लेबल होता है जिसमें SKU नंबर 1DFL42LLA प्रदर्शित होता है। यह Recall बर्नर नियंत्रण नॉब के लेबलिंग मुद्दे के कारण है, जो ग्रिल को गलती से चालू छोड़ने का कारण बन सकता है, जिससे आग का खतरा पैदा होता है।",
+          "ConsumerContact": "सहायता के लिए, उपभोक्ता ट्रेगर से 833-654-2407 पर संपर्क कर सकते हैं, जो सप्ताह में सात दिन सुबह 6 बजे से रात 10 बजे तक MT उपलब्ध है, या अधिक विवरण के लिए www.traeger.com/recall पर जाएं।",
+          "metaDescription": "ट्रेगर ने गलत लेबल वाले बर्नर नियंत्रण नॉब के कारण आग के खतरों के कारण फ्लैट रॉक फ्लैट टॉप प्रोपेन ग्रिल्स का Recall किया। मुफ्त मरम्मत किट के लिए संपर्क करें।",
+          "Products": [
+            {
+              "Name": "ट्रेगर फ्लैट रॉक फ्लैट टॉप प्रोपेन ग्रिल",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 37,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recall किया गया ट्रेगर फ्लैट रॉक फ्लैट टॉप ग्रिल"
+            },
+            {
+              "Caption": "पीछे पर स्थित चांदी का रंग का लेबल SKU नंबर 1DFL42LLA के साथ"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "कंपनी को 57 रिपोर्ट मिली हैं कि फ्लेम समायोजन नॉब गलत लेबल किए गए हैं। कोई आग या चोट की रिपोर्ट नहीं मिली है।"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "देश भर में एसे हार्डवेयर, द होम डिपो, और शील्स स्टोर्स पर उपलब्ध, साथ ही www.acehardware.com, www.homedepot.com, और www.traeger.com पर फरवरी 2023 से अक्टूबर 2023 तक लगभग $900 में।"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "वियतनाम"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "बर्नर नियंत्रण नॉब की गलत लेबलिंग अनपेक्षित आग लगने का कारण बन सकती है, जिससे आग का जोखिम होता है।"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "उपभोक्ताओं को Recall किए गए ग्रिल्स का उपयोग बंद करना चाहिए और निरीक्षण मार्गदर्शन के लिए ट्रेगर से संपर्क करना चाहिए। यदि बर्नर नियंत्रण नॉब गलत लेबल पाए जाते हैं, तो एक मुफ्त मरम्मत किट प्रदान की जाएगी।"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "मरम्मत"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "Traeger отзывает гриль Flatrock Flat Top на пропане из-за потенциального риска возгорания",
+          "Description": "Traeger отзывает свои грили Flatrock Flat Top, которые работают на пропане и имеют черный корпус с закрывающейся крышкой и серебряной ручкой. Гриль имеет размеры примерно 74 дюйма в длину, 27 дюймов в ширину и 36 дюймов в высоту, весит около 189 фунтов. На каждой единице есть серебряная этикетка на задней стороне с номером SKU 1DFL42LLA. Этот отзыв вызван проблемой с маркировкой ручки управления горелкой, что может привести к случайному оставлению гриля включенным, создавая риск возгорания.",
+          "ConsumerContact": "Для получения помощи потребители могут обратиться в Traeger по телефону 833-654-2407, доступному семь дней в неделю с 6:00 до 22:00 по горному времени, или посетить www.traeger.com/recall для получения дополнительной информации.",
+          "metaDescription": "Traeger отзывает грили Flatrock Flat Top на пропане из-за рисков возгорания из-за неправильно маркированных ручек управления горелкой. Свяжитесь для получения бесплатного комплекта для ремонта.",
+          "Products": [
+            {
+              "Name": "Гриль Traeger Flatrock Flat Top на пропане",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 37,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванный гриль Traeger Flatrock Flat Top"
+            },
+            {
+              "Caption": "Серебряная этикетка на задней стороне с номером SKU 1DFL42LLA"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Компания получила 57 сообщений о неправильно маркированных ручках регулировки пламени. Пожаров или травм не было зафиксировано."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Доступно в магазинах Ace Hardware, The Home Depot и Scheel's по всей стране, а также онлайн на www.acehardware.com, www.homedepot.com и www.traeger.com с февраля 2023 года по октябрь 2023 года по цене около 900 долларов."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Продается в",
+          "ManufacturerCountries": [
+            {
+              "Country": "Вьетнам"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Неправильная маркировка ручки управления горелкой может привести к непреднамеренному воспламенению, создавая риск возгорания."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Потребители должны прекратить использование отозванных грилей и обратиться в Traeger за инструкциями по проверке. Бесплатный комплект для ремонта будет предоставлен, если ручки управления горелками окажутся неправильно маркированными."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Ремонт"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "Traeger thu hồi bếp nướng propane Flatrock Flat Top do nguy cơ cháy tiềm ẩn",
+          "Description": "Traeger đang thu hồi bếp nướng Flatrock Flat Top, được cấp nguồn bằng propane và có bề ngoài màu đen với nắp có thể đóng và tay cầm màu bạc. Bếp nướng có kích thước khoảng 74 inch chiều dài, 27 inch chiều rộng và 36 inch chiều cao, nặng khoảng 189 lbs. Mỗi đơn vị có một nhãn màu bạc ở phía sau hiển thị số SKU 1DFL42LLA. Việc thu hồi này là do vấn đề ghi nhãn với núm điều khiển lửa có thể dẫn đến việc bếp nướng bị để quên, tạo ra nguy cơ cháy.",
+          "ConsumerContact": "Để được hỗ trợ, người tiêu dùng có thể liên hệ với Traeger qua số 833-654-2407, có sẵn bảy ngày trong tuần từ 6 giờ sáng đến 10 giờ tối MT, hoặc truy cập www.traeger.com/recall để biết thêm chi tiết.",
+          "metaDescription": "Traeger thu hồi bếp nướng propane Flatrock Flat Top do nguy cơ cháy từ các núm điều khiển lửa bị ghi nhãn sai. Liên hệ để nhận bộ sửa chữa miễn phí.",
+          "Products": [
+            {
+              "Name": "Bếp nướng propane Traeger Flatrock Flat Top",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 37,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Bếp nướng Traeger Flatrock Flat Top bị thu hồi"
+            },
+            {
+              "Caption": "Nhãn màu bạc nằm ở phía sau với số SKU 1DFL42LLA"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Công ty đã nhận được 57 báo cáo về các núm điều chỉnh lửa bị ghi nhãn sai. Không có vụ cháy hoặc thương tích nào được báo cáo."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Có mặt tại các cửa hàng Ace Hardware, The Home Depot và Scheel's trên toàn quốc, cũng như trực tuyến tại www.acehardware.com, www.homedepot.com và www.traeger.com từ tháng 2 năm 2023 đến tháng 10 năm 2023 với giá khoảng 900 đô la."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Bán Tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Việt Nam"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Ghi nhãn sai của núm điều khiển lửa có thể dẫn đến việc kích hoạt không mong muốn, gây ra nguy cơ cháy."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Người tiêu dùng nên ngừng sử dụng các bếp nướng bị thu hồi và liên hệ với Traeger để được hướng dẫn kiểm tra. Một bộ sửa chữa miễn phí sẽ được cung cấp nếu các núm điều khiển lửa được phát hiện là bị ghi nhãn sai."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Sửa chữa"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    }
+  ]
+}

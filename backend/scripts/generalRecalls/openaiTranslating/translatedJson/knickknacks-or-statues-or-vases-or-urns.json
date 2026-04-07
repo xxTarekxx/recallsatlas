@@ -1,0 +1,806 @@
+{
+  "meta": {
+    "slug": "knickknacks-or-statues-or-vases-or-urns",
+    "sourceCsvFile": "knickknacks-or-statues-or-vases-or-urns_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:36.985Z",
+    "recallCount": 1,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "knickknacks-or-statues-or-vases-or-urns.json",
+    "seoTranslatedAt": "2026-04-04T06:22:11.165Z",
+    "resumePartial": false,
+    "i18nSource": "generalRecallsTranslated",
+    "i18nSourceFile": "knickknacks-or-statues-or-vases-or-urns.json",
+    "i18nUiLangs": [
+      "en",
+      "es",
+      "ar",
+      "zh",
+      "fr",
+      "de",
+      "ja",
+      "pt",
+      "hi",
+      "ru",
+      "vi"
+    ],
+    "i18nProgressByLang": {
+      "es": 1,
+      "ar": 1,
+      "zh": 1,
+      "fr": 1,
+      "de": 1,
+      "ja": 1,
+      "pt": 1,
+      "hi": 1,
+      "ru": 1,
+      "vi": 1
+    },
+    "i18nInProgress": false,
+    "i18nTranslatedAt": "2026-04-07T12:25:55.824Z",
+    "i18nOpenaiModel": "gpt-4o-mini"
+  },
+  "recalls": [
+    {
+      "RecallID": 9843,
+      "RecallNumber": "24106",
+      "RecallDate": "2024-02-01T00:00:00",
+      "Description": "The Museum of Modern Art has announced a recall of its glass snow globes featuring the 'Little Wanderer' figurine. These snow globes stand 4.5 inches tall and 3.3 inches wide, resting on a wooden base, and contain a plastic figurine available in yellow, blue, or red. The product poses a risk as the glass may crack or break, leading to potential lacerations.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/The-Museum-of-Modern-Art-Recalls-Glass-Little-Wanderer-Snow-Globes-Due-to-Laceration-Hazard-Sold-Exclusively-at-MoMA-Design-Stores",
+      "Title": "MoMA Recalls Little Wanderer Glass Snow Globes Due to Laceration Risk",
+      "ConsumerContact": "For assistance, contact MoMA Design Store at 800-793-3167 from 9:30 a.m. to 5 p.m. ET, Monday through Friday. You can also email order_services@moma.org with the subject line 'RECALL' or visit https://storehelpcenter.moma.org/hc/en-us/articles/22508238195853-Recall for more details.",
+      "LastPublishDate": "2024-02-01T00:00:00",
+      "Products": [
+        {
+          "Name": "Little Wanderer Glass Snow Globe",
+          "NumberOfUnits": "About 1,915"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/knickknacks-or-statues-or-vases-or-urns/1-Little-Wanderer-Glass-Snow-Globe/a07477c288b03fee0afd205f899daad3.webp",
+          "Caption": "Recalled \"Little Wanderer\" Snow Globes",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/lttl-wndr-snow.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received 39 reports of the snow globe cracking or fracturing. No injuries have been reported."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "MoMA Design Stores and online at store.moma.org, available in November 2023 for approximately $85."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Design Ideas Ltd, of Springfield, Illinois"
+        }
+      ],
+      "Distributors": [
+        {
+          "Name": "The Museum of Modern Art, of New York"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Laceration Hazard from Cracked Glass"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Stop using the snow globes immediately, discard them, and contact MoMA for a full refund."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "slug": "moma-recalls-little-wanderer-glass-snow-globes-due-to-laceration-risk-recall",
+      "metaDescription": "MoMA recalls Little Wanderer glass snow globes due to laceration hazards. Contact MoMA for refunds and safety information.",
+      "languages": {
+        "en": {
+          "Title": "MoMA Recalls Little Wanderer Glass Snow Globes Due to Laceration Risk",
+          "Description": "The Museum of Modern Art has announced a recall of its glass snow globes featuring the 'Little Wanderer' figurine. These snow globes stand 4.5 inches tall and 3.3 inches wide, resting on a wooden base, and contain a plastic figurine available in yellow, blue, or red. The product poses a risk as the glass may crack or break, leading to potential lacerations.",
+          "ConsumerContact": "For assistance, contact MoMA Design Store at 800-793-3167 from 9:30 a.m. to 5 p.m. ET, Monday through Friday. You can also email order_services@moma.org with the subject line 'RECALL' or visit https://storehelpcenter.moma.org/hc/en-us/articles/22508238195853-Recall for more details.",
+          "metaDescription": "MoMA recalls Little Wanderer glass snow globes due to laceration hazards. Contact MoMA for refunds and safety information.",
+          "Products": [
+            {
+              "Name": "Little Wanderer Glass Snow Globe",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 1,915"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled \"Little Wanderer\" Snow Globes"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "The firm has received 39 reports of the snow globe cracking or fracturing. No injuries have been reported."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "MoMA Design Stores and online at store.moma.org, available in November 2023 for approximately $85."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Design Ideas Ltd, of Springfield, Illinois"
+            }
+          ],
+          "Distributors": [
+            {
+              "Name": "The Museum of Modern Art, of New York"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Sold At",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Laceration Hazard from Cracked Glass"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Stop using the snow globes immediately, discard them, and contact MoMA for a full refund."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Refund"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "MoMA Retira los Globos de Nieve de Vidrio 'Little Wanderer' Debido al Riesgo de Laceraciones",
+          "Description": "El Museo de Arte Moderno ha anunciado un retiro de sus globos de nieve de vidrio que presentan la figura 'Little Wanderer'. Estos globos de nieve miden 4.5 pulgadas de alto y 3.3 pulgadas de ancho, descansando sobre una base de madera, y contienen una figura de plástico disponible en amarillo, azul o rojo. El producto representa un riesgo ya que el vidrio puede agrietarse o romperse, lo que podría provocar laceraciones.",
+          "ConsumerContact": "Para asistencia, contacte a la Tienda de Diseño de MoMA al 800-793-3167 de 9:30 a.m. a 5 p.m. ET, de lunes a viernes. También puede enviar un correo electrónico a order_services@moma.org con el asunto 'RECALL' o visitar https://storehelpcenter.moma.org/hc/en-us/articles/22508238195853-Recall para más detalles.",
+          "metaDescription": "MoMA retira los globos de nieve de vidrio 'Little Wanderer' debido a riesgos de laceración. Contacte a MoMA para reembolsos e información de seguridad.",
+          "Products": [
+            {
+              "Name": "Globo de Nieve de Vidrio 'Little Wanderer'",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 1,915"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Globos de Nieve \"Little Wanderer\" Retirados"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "La empresa ha recibido 39 informes de que el globo de nieve se agrietó o fracturó. No se han reportado lesiones."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Tiendas de Diseño de MoMA y en línea en store.moma.org, disponibles en noviembre de 2023 por aproximadamente $85."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Design Ideas Ltd, de Springfield, Illinois"
+            }
+          ],
+          "Distributors": [
+            {
+              "Name": "El Museo de Arte Moderno, de Nueva York"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendidos En",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Riesgo de Laceración por Vidrio Agrietado"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Deje de usar los globos de nieve de inmediato, deséchelos y contacte a MoMA para un reembolso completo."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reembolso"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "متحف الفن الحديث يستدعي كرات الثلج الزجاجية \"المتجول الصغير\" بسبب خطر التمزق",
+          "Description": "أعلن متحف الفن الحديث عن استدعاء كرات الثلج الزجاجية التي تحتوي على تمثال \"المتجول الصغير\". هذه الكرات يبلغ ارتفاعها 4.5 بوصات وعرضها 3.3 بوصات، وتستقر على قاعدة خشبية، وتحتوي على تمثال بلاستيكي متوفر بالألوان الأصفر والأزرق أو الأحمر. المنتج يشكل خطرًا حيث قد ينكسر الزجاج أو يتشقق، مما يؤدي إلى احتمال حدوث تمزقات.",
+          "ConsumerContact": "للمساعدة، اتصل بمتجر تصميم متحف الفن الحديث على الرقم 800-793-3167 من الساعة 9:30 صباحًا حتى 5 مساءً بتوقيت شرق الولايات المتحدة، من الاثنين إلى الجمعة. يمكنك أيضًا إرسال بريد إلكتروني إلى order_services@moma.org مع موضوع \"استدعاء\" أو زيارة https://storehelpcenter.moma.org/hc/en-us/articles/22508238195853-Recall لمزيد من التفاصيل.",
+          "metaDescription": "متحف الفن الحديث يستدعي كرات الثلج الزجاجية \"المتجول الصغير\" بسبب مخاطر التمزق. اتصل بمتحف الفن الحديث للحصول على استرداد ومعلومات السلامة.",
+          "Products": [
+            {
+              "Name": "كرة الثلج الزجاجية \"المتجول الصغير\"",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 1,915"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "كرات الثلج \"المتجول الصغير\" المستدعاة"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "تلقت الشركة 39 تقريرًا عن كسر أو تشقق كرة الثلج. لم يتم الإبلاغ عن أي إصابات."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "متاجر تصميم متحف الفن الحديث وعبر الإنترنت على store.moma.org، متاحة في نوفمبر 2023 بسعر تقريبي يبلغ 85 دولارًا."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "شركة تصميم الأفكار المحدودة، من سبرينغفيلد، إلينوي"
+            }
+          ],
+          "Distributors": [
+            {
+              "Name": "متحف الفن الحديث، من نيويورك"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "تم البيع في",
+          "ManufacturerCountries": [
+            {
+              "Country": "الصين"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "خطر التمزق من الزجاج المتشقق"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "توقف عن استخدام كرات الثلج على الفور، وتخلص منها، واتصل بمتحف الفن الحديث للحصول على استرداد كامل."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "استرداد"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "现代艺术博物馆召回小漫游者玻璃雪花球因割伤风险",
+          "Description": "现代艺术博物馆已宣布召回其玻璃雪花球，雪花球内有“小漫游者”小雕像。这些雪花球高4.5英寸，宽3.3英寸，底座为木质，内含可选的黄色、蓝色或红色塑料小雕像。该产品存在风险，因为玻璃可能会破裂或碎裂，导致潜在的割伤。",
+          "ConsumerContact": "如需帮助，请在东部时间周一至周五上午9:30至下午5:00联系MoMA设计商店，电话800-793-3167。您也可以发送电子邮件至order_services@moma.org，主题为“召回”，或访问https://storehelpcenter.moma.org/hc/en-us/articles/22508238195853-Recall获取更多详细信息。",
+          "metaDescription": "MoMA因割伤危险召回小漫游者玻璃雪花球。请联系MoMA以获取退款和安全信息。",
+          "Products": [
+            {
+              "Name": "小漫游者玻璃雪花球",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约1,915个"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "召回的“小漫游者”雪花球"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "该公司已收到39份雪花球破裂或碎裂的报告。没有报告受伤情况。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "MoMA设计商店和在线商店store.moma.org，预计于2023年11月上市，售价约为85美元。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "伊利诺伊州斯普林菲尔德的设计理念有限公司"
+            }
+          ],
+          "Distributors": [
+            {
+              "Name": "纽约的现代艺术博物馆"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "销售地点",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "破裂玻璃造成的割伤危险"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "立即停止使用雪花球，丢弃它们，并联系MoMA以获得全额退款。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "退款"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "MoMA rappelle les boules à neige en verre Little Wanderer en raison d'un risque de lacération",
+          "Description": "Le Museum of Modern Art a annoncé un rappel de ses boules à neige en verre présentant la figurine 'Little Wanderer'. Ces boules à neige mesurent 4,5 pouces de haut et 3,3 pouces de large, reposant sur une base en bois, et contiennent une figurine en plastique disponible en jaune, bleu ou rouge. Le produit présente un risque car le verre peut se fissurer ou se briser, entraînant des lacérations potentielles.",
+          "ConsumerContact": "Pour assistance, contactez le MoMA Design Store au 800-793-3167 de 9h30 à 17h00 ET, du lundi au vendredi. Vous pouvez également envoyer un e-mail à order_services@moma.org avec l'objet 'RECALL' ou visiter https://storehelpcenter.moma.org/hc/en-us/articles/22508238195853-Recall pour plus de détails.",
+          "metaDescription": "MoMA rappelle les boules à neige en verre Little Wanderer en raison de risques de lacération. Contactez MoMA pour des remboursements et des informations de sécurité.",
+          "Products": [
+            {
+              "Name": "Boule à neige en verre Little Wanderer",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 1 915"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Boules à neige \"Little Wanderer\" rappelées"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "La société a reçu 39 rapports de fissures ou de bris de la boule à neige. Aucune blessure n'a été signalée."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Magasins MoMA Design et en ligne sur store.moma.org, disponibles en novembre 2023 pour environ 85 $."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Design Ideas Ltd, de Springfield, Illinois"
+            }
+          ],
+          "Distributors": [
+            {
+              "Name": "The Museum of Modern Art, de New York"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendu À",
+          "ManufacturerCountries": [
+            {
+              "Country": "Chine"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risque de lacération dû au verre fissuré"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Cessez immédiatement d'utiliser les boules à neige, jetez-les et contactez MoMA pour un remboursement complet."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Remboursement"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "MoMA ruft Little Wanderer Glas-Schneekugeln wegen Verletzungsgefahr zurück",
+          "Description": "Das Museum of Modern Art hat einen Rückruf seiner Glas-Schneekugeln mit der Figur 'Little Wanderer' angekündigt. Diese Schneekugeln sind 4,5 Zoll hoch und 3,3 Zoll breit, stehen auf einer Holzbasis und enthalten eine Kunststofffigur, die in Gelb, Blau oder Rot erhältlich ist. Das Produkt birgt ein Risiko, da das Glas brechen oder zerbrechen kann, was zu möglichen Schnittverletzungen führen kann.",
+          "ConsumerContact": "Für Unterstützung kontaktieren Sie den MoMA Design Store unter 800-793-3167 von 9:30 bis 17:00 Uhr ET, Montag bis Freitag. Sie können auch eine E-Mail an order_services@moma.org mit dem Betreff 'RÜCKRUF' senden oder besuchen Sie https://storehelpcenter.moma.org/hc/en-us/articles/22508238195853-Recall für weitere Informationen.",
+          "metaDescription": "MoMA ruft Little Wanderer Glas-Schneekugeln wegen Verletzungsgefahren zurück. Kontaktieren Sie MoMA für Rückerstattungen und Sicherheitsinformationen.",
+          "Products": [
+            {
+              "Name": "Little Wanderer Glas-Schneekugel",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 1.915"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Rückgerufene \"Little Wanderer\" Schneekugeln"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Das Unternehmen hat 39 Berichte über das Brechen oder Zerbrechen der Schneekugel erhalten. Es wurden keine Verletzungen gemeldet."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "MoMA Design Stores und online unter store.moma.org, erhältlich im November 2023 für etwa 85 $."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Design Ideas Ltd, aus Springfield, Illinois"
+            }
+          ],
+          "Distributors": [
+            {
+              "Name": "Das Museum of Modern Art, aus New York"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Verkauft bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Schnittverletzungsgefahr durch zerbrochenes Glas"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Hören Sie sofort auf, die Schneekugeln zu verwenden, entsorgen Sie sie und kontaktieren Sie MoMA für eine vollständige Rückerstattung."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Rückerstattung"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "MoMAが切創の危険性によりリトルワンダラーガラススノーグローブをリコール",
+          "Description": "近代美術館は、リトルワンダラーのフィギュアが特徴のガラス製スノーグローブのリコールを発表しました。これらのスノーグローブは高さ4.5インチ、幅3.3インチで、木製の台座に置かれ、黄色、青、赤のプラスチック製フィギュアが含まれています。この製品は、ガラスが割れたり破損したりする可能性があり、切創の危険を伴います。",
+          "ConsumerContact": "サポートが必要な場合は、月曜日から金曜日の午前9時30分から午後5時（ET）まで、800-793-3167のMoMAデザインストアにお問い合わせください。また、件名を「RECALL」としてorder_services@moma.orgにメールを送信するか、詳細についてはhttps://storehelpcenter.moma.org/hc/en-us/articles/22508238195853-Recallを訪問してください。",
+          "metaDescription": "MoMAは切創の危険性によりリトルワンダラーガラススノーグローブをリコールします。返金および安全情報についてはMoMAにお問い合わせください。",
+          "Products": [
+            {
+              "Name": "リトルワンダラーガラススノーグローブ",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約1,915"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコールされた「リトルワンダラー」スノーグローブ"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "同社はスノーグローブが割れたり破損したとの報告を39件受けています。怪我の報告はありません。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "MoMAデザインストアおよびstore.moma.orgで、2023年11月に約85ドルで販売予定です。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "イリノイ州スプリングフィールドのDesign Ideas Ltd"
+            }
+          ],
+          "Distributors": [
+            {
+              "Name": "ニューヨークの近代美術館"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "販売場所",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "割れたガラスによる切創の危険"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "スノーグローブの使用を直ちに中止し、廃棄し、MoMAに連絡して全額返金を受けてください。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "返金"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "MoMA Recalls Little Wanderer Vidros de Neve Devido ao Risco de Laceração",
+          "Description": "O Museu de Arte Moderna anunciou um recall de seus vidros de neve de vidro com a figurinha 'Little Wanderer'. Esses vidros de neve têm 4,5 polegadas de altura e 3,3 polegadas de largura, repousando sobre uma base de madeira, e contêm uma figurinha de plástico disponível nas cores amarelo, azul ou vermelho. O produto apresenta um risco, pois o vidro pode rachar ou quebrar, levando a possíveis lacerações.",
+          "ConsumerContact": "Para assistência, entre em contato com a MoMA Design Store pelo telefone 800-793-3167, das 9h30 às 17h ET, de segunda a sexta-feira. Você também pode enviar um e-mail para order_services@moma.org com o assunto 'RECALL' ou visitar https://storehelpcenter.moma.org/hc/en-us/articles/22508238195853-Recall para mais detalhes.",
+          "metaDescription": "MoMA faz recall dos vidros de neve Little Wanderer devido a riscos de laceração. Entre em contato com a MoMA para reembolsos e informações de segurança.",
+          "Products": [
+            {
+              "Name": "Vidro de Neve Little Wanderer",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 1.915"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Vidros de Neve \"Little Wanderer\" Recall"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "A empresa recebeu 39 relatos de vidros de neve rachando ou fraturando. Nenhum ferimento foi relatado."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Lojas MoMA Design e online em store.moma.org, disponível em novembro de 2023 por aproximadamente $85."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Design Ideas Ltd, de Springfield, Illinois"
+            }
+          ],
+          "Distributors": [
+            {
+              "Name": "O Museu de Arte Moderna, de Nova York"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendido Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risco de Laceração devido ao Vidro Rachado"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Pare de usar os vidros de neve imediatamente, descarte-os e entre em contato com a MoMA para um reembolso total."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reembolso"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "मोमा ने लिटिल वांडरर ग्लास स्नो ग्लोब्स को कटने के जोखिम के कारण वापस बुलाया",
+          "Description": "म्यूजियम ऑफ़ मॉडर्न आर्ट ने 'लिटिल वांडरर' आकृति वाले अपने ग्लास स्नो ग्लोब्स को वापस बुलाने की घोषणा की है। ये स्नो ग्लोब्स 4.5 इंच ऊंचे और 3.3 इंच चौड़े हैं, जो एक लकड़ी के आधार पर रखे गए हैं, और इनमें पीले, नीले या लाल रंग में उपलब्ध एक प्लास्टिक की आकृति है। उत्पाद एक जोखिम प्रस्तुत करता है क्योंकि कांच टूट या चटक सकता है, जिससे संभावित कटने की घटनाएं हो सकती हैं।",
+          "ConsumerContact": "सहायता के लिए, सोमवार से शुक्रवार, सुबह 9:30 बजे से शाम 5 बजे ईटी के बीच 800-793-3167 पर मोमा डिज़ाइन स्टोर से संपर्क करें। आप 'RECALL' विषय पंक्ति के साथ order_services@moma.org पर भी ईमेल कर सकते हैं या अधिक जानकारी के लिए https://storehelpcenter.moma.org/hc/en-us/articles/22508238195853-Recall पर जा सकते हैं।",
+          "metaDescription": "मोमा लिटिल वांडरर ग्लास स्नो ग्लोब्स को कटने के खतरों के कारण वापस बुलाता है। रिफंड और सुरक्षा जानकारी के लिए मोमा से संपर्क करें।",
+          "Products": [
+            {
+              "Name": "लिटिल वांडरर ग्लास स्नो ग्लोब",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 1,915"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "वापस बुलाए गए \"लिटिल वांडरर\" स्नो ग्लोब्स"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "फर्म को स्नो ग्लोब के चटकने या टूटने के 39 रिपोर्ट मिली हैं। कोई चोट की सूचना नहीं मिली है।"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "मोमा डिज़ाइन स्टोर्स और ऑनलाइन store.moma.org पर, नवंबर 2023 में लगभग $85 में उपलब्ध।"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "डिज़ाइन आइडियाज लिमिटेड, स्प्रिंगफील्ड, इलिनॉयस"
+            }
+          ],
+          "Distributors": [
+            {
+              "Name": "द म्यूजियम ऑफ़ मॉडर्न आर्ट, न्यू यॉर्क"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "चीन"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "चटकने वाले कांच से कटने का खतरा"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "स्नो ग्लोब का उपयोग तुरंत बंद करें, उन्हें फेंक दें, और पूर्ण रिफंड के लिए मोमा से संपर्क करें।"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "रिफंड"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "MoMA отзывает стеклянные снежные шары 'Маленький Странник' из-за риска порезов",
+          "Description": "Музей современного искусства объявил об отзыве своих стеклянных снежных шаров с фигуркой 'Маленький Странник'. Эти снежные шары высотой 4,5 дюйма и шириной 3,3 дюйма стоят на деревянной основе и содержат пластиковую фигурку, доступную в желтом, синем или красном цвете. Продукт представляет риск, так как стекло может треснуть или разбиться, что приведет к потенциальным порезам.",
+          "ConsumerContact": "Для получения помощи свяжитесь с магазином дизайна MoMA по телефону 800-793-3167 с 9:30 до 17:00 по восточному времени, с понедельника по пятницу. Вы также можете отправить электронное письмо на адрес order_services@moma.org с темой 'ОТЗЫВ' или посетить https://storehelpcenter.moma.org/hc/en-us/articles/22508238195853-Recall для получения дополнительной информации.",
+          "metaDescription": "MoMA отзывает стеклянные снежные шары 'Маленький Странник' из-за опасности порезов. Свяжитесь с MoMA для получения возвратов и информации о безопасности.",
+          "Products": [
+            {
+              "Name": "Стеклянный снежный шар 'Маленький Странник'",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 1,915"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванные снежные шары 'Маленький Странник'"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Компания получила 39 сообщений о трещинах или повреждениях снежного шара. О травмах не сообщалось."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Магазины дизайна MoMA и онлайн на store.moma.org, доступны в ноябре 2023 года примерно за 85 долларов."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Design Ideas Ltd, Спрингфилд, Иллинойс"
+            }
+          ],
+          "Distributors": [
+            {
+              "Name": "Музей современного искусства, Нью-Йорк"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Продается в",
+          "ManufacturerCountries": [
+            {
+              "Country": "Китай"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Опасность порезов от треснувшего стекла"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Немедленно прекратите использовать снежные шары, утилизируйте их и свяжитесь с MoMA для полного возврата."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Возврат"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "MoMA Thu Hồi Đồ Chơi Tuyết Kính Little Wanderer Do Nguy Cơ Bị Cắt Xé",
+          "Description": "Bảo tàng Nghệ thuật Hiện đại đã thông báo thu hồi các quả cầu tuyết kính có hình nhân vật 'Little Wanderer'. Những quả cầu tuyết này cao 4,5 inch và rộng 3,3 inch, đặt trên một đế gỗ, và chứa một hình nhân bằng nhựa có sẵn màu vàng, xanh hoặc đỏ. Sản phẩm có nguy cơ vì kính có thể bị nứt hoặc vỡ, dẫn đến khả năng gây ra vết thương.",
+          "ConsumerContact": "Để được hỗ trợ, hãy liên hệ với MoMA Design Store qua số 800-793-3167 từ 9:30 sáng đến 5:00 chiều ET, từ thứ Hai đến thứ Sáu. Bạn cũng có thể gửi email đến order_services@moma.org với tiêu đề 'RECALL' hoặc truy cập https://storehelpcenter.moma.org/hc/en-us/articles/22508238195853-Recall để biết thêm chi tiết.",
+          "metaDescription": "MoMA thu hồi các quả cầu tuyết kính Little Wanderer do nguy cơ bị cắt xé. Liên hệ với MoMA để được hoàn tiền và thông tin an toàn.",
+          "Products": [
+            {
+              "Name": "Quả Cầu Tuyết Kính Little Wanderer",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 1,915"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Các Quả Cầu Tuyết \"Little Wanderer\" Đã Được Thu Hồi"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Công ty đã nhận được 39 báo cáo về việc quả cầu tuyết bị nứt hoặc vỡ. Không có thương tích nào được báo cáo."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Các Cửa Hàng Thiết Kế MoMA và trực tuyến tại store.moma.org, có sẵn vào tháng 11 năm 2023 với giá khoảng 85 đô la."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Design Ideas Ltd, tại Springfield, Illinois"
+            }
+          ],
+          "Distributors": [
+            {
+              "Name": "Bảo tàng Nghệ thuật Hiện đại, tại New York"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Bán Tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Trung Quốc"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Nguy Cơ Bị Cắt Xé Từ Kính Nứt"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Ngừng sử dụng các quả cầu tuyết ngay lập tức, vứt bỏ chúng và liên hệ với MoMA để được hoàn tiền đầy đủ."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Hoàn tiền"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    }
+  ]
+}

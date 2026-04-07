@@ -1,0 +1,795 @@
+{
+  "meta": {
+    "slug": "glass-soft-drink-bottles",
+    "sourceCsvFile": "glass-soft-drink-bottles_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:36.944Z",
+    "recallCount": 1,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "glass-soft-drink-bottles.json",
+    "seoTranslatedAt": "2026-04-04T03:48:35.090Z",
+    "resumePartial": false,
+    "i18nSource": "generalRecallsTranslated",
+    "i18nSourceFile": "glass-soft-drink-bottles.json",
+    "i18nUiLangs": [
+      "en",
+      "es",
+      "ar",
+      "zh",
+      "fr",
+      "de",
+      "ja",
+      "pt",
+      "hi",
+      "ru",
+      "vi"
+    ],
+    "i18nProgressByLang": {
+      "es": 1,
+      "ar": 1,
+      "zh": 1,
+      "fr": 1,
+      "de": 1,
+      "ja": 1,
+      "pt": 1,
+      "hi": 1,
+      "ru": 1,
+      "vi": 1
+    },
+    "i18nInProgress": false,
+    "i18nTranslatedAt": "2026-04-07T08:04:21.731Z",
+    "i18nOpenaiModel": "gpt-4o-mini"
+  },
+  "recalls": [
+    {
+      "RecallID": 10202,
+      "RecallNumber": "25183",
+      "RecallDate": "2025-03-13T00:00:00",
+      "Description": "Gerolsteiner is recalling specific lots of its 750ml sparkling water bottles due to a potential laceration hazard. The affected bottles are sold in large glass containers or in cases of 15. They feature a white, blue, and red label displaying the brand name 'Gerolsteiner', with the lot number located at the bottom of the label. The recalled lot numbers are 11/28/2024 L and 11/27/2024 L.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/Gerolsteiner-Sparkling-Water-Bottles-Recalled-Due-to-Laceration-Hazard-Manufactured-by-Gerolsteiner",
+      "Title": "Gerolsteiner Sparkling Water Bottles Recalled Due to Risk of Laceration",
+      "ConsumerContact": "For assistance, contact Gerolsteiner at 800-777-0633 from 8:30 a.m. to 5 p.m. ET, Monday through Friday, email customerservice@consup.us, or visit https://www.gerolsteiner.de/en/recall. You can also find more information at www.gerolsteiner.de/en/ under the 'Recalls' section.",
+      "LastPublishDate": "2025-03-13T00:00:00",
+      "Products": [
+        {
+          "Name": "Gerolsteiner 750ml Sparkling Water Bottles",
+          "NumberOfUnits": "About 61,500 bottles"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/glass-soft-drink-bottles/1-Gerolsteiner-750ml-Sparkling-Water-Bottles/33c376f652f51470fa871c687b19ff1e.webp",
+          "Caption": "Recalled Gerolsteiner Sparkling Water (750ml)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/gerol-1.png"
+        },
+        {
+          "URL": "/images/generalRecalls/glass-soft-drink-bottles/1-Gerolsteiner-750ml-Sparkling-Water-Bottles/bfc4f053446dd5132ad314ee3a583977.webp",
+          "Caption": "Recalled Gerolsteiner Sparkling Water (750ml) lot number location",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/gerol-2.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "Gerolsteiner Brunnen GmbH & Co. KG, of Germany"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available at Trader Joe's locations across Alabama, Arkansas, Colorado, Florida, Georgia, Kansas, Louisiana, New Mexico, Oklahoma, South Carolina, Tennessee, and Texas from December 2024 to January 2025 for approximately $3 each."
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "Germany"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of laceration due to cracking bottles"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Stop using the recalled bottles and return them to the place of purchase for a full refund without proof of purchase."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "slug": "gerolsteiner-sparkling-water-bottles-recalled-due-to-risk-of-laceration-recall",
+      "metaDescription": "Gerolsteiner recalls 750ml sparkling water bottles due to laceration risks. Check lot numbers and return for a refund.",
+      "languages": {
+        "en": {
+          "Title": "Gerolsteiner Sparkling Water Bottles Recalled Due to Risk of Laceration",
+          "Description": "Gerolsteiner is recalling specific lots of its 750ml sparkling water bottles due to a potential laceration hazard. The affected bottles are sold in large glass containers or in cases of 15. They feature a white, blue, and red label displaying the brand name 'Gerolsteiner', with the lot number located at the bottom of the label. The recalled lot numbers are 11/28/2024 L and 11/27/2024 L.",
+          "ConsumerContact": "For assistance, contact Gerolsteiner at 800-777-0633 from 8:30 a.m. to 5 p.m. ET, Monday through Friday, email customerservice@consup.us, or visit https://www.gerolsteiner.de/en/recall. You can also find more information at www.gerolsteiner.de/en/ under the 'Recalls' section.",
+          "metaDescription": "Gerolsteiner recalls 750ml sparkling water bottles due to laceration risks. Check lot numbers and return for a refund.",
+          "Products": [
+            {
+              "Name": "Gerolsteiner 750ml Sparkling Water Bottles",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 61,500 bottles"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled Gerolsteiner Sparkling Water (750ml)"
+            },
+            {
+              "Caption": "Recalled Gerolsteiner Sparkling Water (750ml) lot number location"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "None reported"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Available at Trader Joe's locations across Alabama, Arkansas, Colorado, Florida, Georgia, Kansas, Louisiana, New Mexico, Oklahoma, South Carolina, Tennessee, and Texas from December 2024 to January 2025 for approximately $3 each."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Gerolsteiner Brunnen GmbH & Co. KG, of Germany"
+            }
+          ],
+          "SoldAtLabel": "Sold At",
+          "ManufacturerCountries": [
+            {
+              "Country": "Germany"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risk of laceration due to cracking bottles"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Stop using the recalled bottles and return them to the place of purchase for a full refund without proof of purchase."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Refund"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "Botellas de Agua Mineral con Gas Gerolsteiner Retiradas Debido al Riesgo de Laceración",
+          "Description": "Gerolsteiner está retirando lotes específicos de sus botellas de agua mineral con gas de 750 ml debido a un posible riesgo de laceración. Las botellas afectadas se venden en grandes envases de vidrio o en cajas de 15. Presentan una etiqueta blanca, azul y roja que muestra el nombre de la marca 'Gerolsteiner', con el número de lote ubicado en la parte inferior de la etiqueta. Los números de lote retirados son 11/28/2024 L y 11/27/2024 L.",
+          "ConsumerContact": "Para asistencia, comuníquese con Gerolsteiner al 800-777-0633 de 8:30 a.m. a 5 p.m. ET, de lunes a viernes, envíe un correo electrónico a customerservice@consup.us, o visite https://www.gerolsteiner.de/en/recall. También puede encontrar más información en www.gerolsteiner.de/en/ en la sección 'Recalls'.",
+          "metaDescription": "Gerolsteiner retira botellas de agua mineral con gas de 750 ml debido a riesgos de laceración. Verifique los números de lote y devuélvalos para un reembolso.",
+          "Products": [
+            {
+              "Name": "Botellas de Agua Mineral con Gas Gerolsteiner de 750 ml",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 61,500 botellas"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Agua Mineral con Gas Gerolsteiner Retirada (750 ml)"
+            },
+            {
+              "Caption": "Ubicación del número de lote de Agua Mineral con Gas Gerolsteiner Retirada (750 ml)"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Ninguna reportada"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible en las ubicaciones de Trader Joe's en Alabama, Arkansas, Colorado, Florida, Georgia, Kansas, Louisiana, Nuevo México, Oklahoma, Carolina del Sur, Tennessee y Texas desde diciembre de 2024 hasta enero de 2025 por aproximadamente $3 cada una."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Gerolsteiner Brunnen GmbH & Co. KG, de Alemania"
+            }
+          ],
+          "SoldAtLabel": "Vendido En",
+          "ManufacturerCountries": [
+            {
+              "Country": "Alemania"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Riesgo de laceración debido a botellas agrietadas"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Deje de usar las botellas retiradas y devuélvalas al lugar de compra para un reembolso completo sin necesidad de comprobante de compra."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reembolso"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "استدعاء زجاجات مياه غازية من جيرولشتاينر بسبب خطر التمزق",
+          "Description": "تقوم جيرولشتاينر باستدعاء دفعات محددة من زجاجات مياهها الغازية سعة 750 مل بسبب خطر محتمل للتمزق. الزجاجات المتأثرة تُباع في حاويات زجاجية كبيرة أو في علب تحتوي على 15 زجاجة. تحتوي على ملصق أبيض وأزرق وأحمر يعرض اسم العلامة التجارية 'جيرولشتاينر'، مع رقم الدفعة الموجود في أسفل الملصق. أرقام الدفعات المستدعاة هي 11/28/2024 L و 11/27/2024 L.",
+          "ConsumerContact": "للمساعدة، اتصل بجيرولشتاينر على الرقم 800-777-0633 من الساعة 8:30 صباحًا حتى 5 مساءً بتوقيت شرق الولايات المتحدة، من الاثنين إلى الجمعة، أو أرسل بريدًا إلكترونيًا إلى customerservice@consup.us، أو قم بزيارة https://www.gerolsteiner.de/en/recall. يمكنك أيضًا العثور على مزيد من المعلومات على www.gerolsteiner.de/en/ في قسم 'الاستدعاءات'.",
+          "metaDescription": "جيرولشتاينر تستدعي زجاجات مياه غازية سعة 750 مل بسبب مخاطر التمزق. تحقق من أرقام الدفعات وارجع للحصول على استرداد.",
+          "Products": [
+            {
+              "Name": "زجاجات مياه غازية من جيرولشتاينر سعة 750 مل",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 61,500 زجاجة"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "مياه جيرولشتاينر الغازية المستدعاة (750 مل)"
+            },
+            {
+              "Caption": "موقع رقم دفعة مياه جيرولشتاينر الغازية المستدعاة (750 مل)"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "لا توجد إصابات مسجلة"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "متاحة في مواقع تريدر جو في ألاباما وأركنساس وكولورادو وفلوريدا وجورجيا وكانساس ولويزيانا ونيو مكسيكو وأوكلاهوما وكارولينا الجنوبية وتينيسي وتكساس من ديسمبر 2024 إلى يناير 2025 بسعر حوالي 3 دولارات لكل منها."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "جيرولشتاينر برونن GmbH & Co. KG، من ألمانيا"
+            }
+          ],
+          "SoldAtLabel": "تم البيع في",
+          "ManufacturerCountries": [
+            {
+              "Country": "ألمانيا"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "خطر التمزق بسبب الزجاجات المتشققة"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "توقف عن استخدام الزجاجات المستدعاة وارجعها إلى مكان الشراء للحصول على استرداد كامل دون الحاجة إلى إثبات الشراء."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "استرداد"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "Gerolsteiner气泡水瓶因割伤风险被召回",
+          "Description": "Gerolsteiner因潜在的割伤危险召回特定批次的750ml气泡水瓶。受影响的瓶子以大玻璃容器或15瓶一箱的形式出售。它们的标签为白色、蓝色和红色，显示品牌名称“Gerolsteiner”，批号位于标签底部。被召回的批号为11/28/2024 L和11/27/2024 L。",
+          "ConsumerContact": "如需帮助，请联系Gerolsteiner，电话800-777-0633，工作时间为周一至周五东部时间上午8:30至下午5:00，或发送电子邮件至customerservice@consup.us，或访问https://www.gerolsteiner.de/en/recall。您还可以在www.gerolsteiner.de/en/的“召回”部分找到更多信息。",
+          "metaDescription": "Gerolsteiner因割伤风险召回750ml气泡水瓶。检查批号并退货以获得退款。",
+          "Products": [
+            {
+              "Name": "Gerolsteiner 750ml气泡水瓶",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约61,500瓶"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "被召回的Gerolsteiner气泡水（750ml）"
+            },
+            {
+              "Caption": "被召回的Gerolsteiner气泡水（750ml）批号位置"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "没有报告伤害"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "在阿拉巴马州、阿肯色州、科罗拉多州、佛罗里达州、乔治亚州、堪萨斯州、路易斯安那州、新墨西哥州、俄克拉荷马州、南卡罗来纳州、田纳西州和德克萨斯州的Trader Joe's商店出售，时间为2024年12月至2025年1月，每瓶约3美元。"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "德国Gerolsteiner Brunnen GmbH & Co. KG"
+            }
+          ],
+          "SoldAtLabel": "销售地点",
+          "ManufacturerCountries": [
+            {
+              "Country": "德国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "因瓶子破裂而导致的割伤风险"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "停止使用被召回的瓶子，并将其退回购买地点以获得全额退款，无需购买证明。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "退款"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "Rappel des bouteilles d'eau pétillante Gerolsteiner en raison du risque de lacération",
+          "Description": "Gerolsteiner rappelle des lots spécifiques de ses bouteilles d'eau pétillante de 750 ml en raison d'un risque potentiel de lacération. Les bouteilles concernées sont vendues dans de grands conteneurs en verre ou en caisses de 15. Elles présentent une étiquette blanche, bleue et rouge affichant le nom de la marque 'Gerolsteiner', avec le numéro de lot situé en bas de l'étiquette. Les numéros de lot rappelés sont 11/28/2024 L et 11/27/2024 L.",
+          "ConsumerContact": "Pour toute assistance, contactez Gerolsteiner au 800-777-0633 de 8h30 à 17h00 HE, du lundi au vendredi, par e-mail à customerservice@consup.us, ou visitez https://www.gerolsteiner.de/en/recall. Vous pouvez également trouver plus d'informations sur www.gerolsteiner.de/en/ dans la section 'Rappels'.",
+          "metaDescription": "Gerolsteiner rappelle des bouteilles d'eau pétillante de 750 ml en raison de risques de lacération. Vérifiez les numéros de lot et retournez-les pour un remboursement.",
+          "Products": [
+            {
+              "Name": "Bouteilles d'eau pétillante Gerolsteiner 750 ml",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 61 500 bouteilles"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Eau pétillante Gerolsteiner rappelée (750 ml)"
+            },
+            {
+              "Caption": "Emplacement du numéro de lot de l'eau pétillante Gerolsteiner rappelée (750 ml)"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Aucune signalée"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible dans les magasins Trader Joe's à travers l'Alabama, l'Arkansas, le Colorado, la Floride, la Géorgie, le Kansas, la Louisiane, le Nouveau-Mexique, l'Oklahoma, la Caroline du Sud, le Tennessee et le Texas de décembre 2024 à janvier 2025 pour environ 3 $ chacun."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Gerolsteiner Brunnen GmbH & Co. KG, d'Allemagne"
+            }
+          ],
+          "SoldAtLabel": "Vendu À",
+          "ManufacturerCountries": [
+            {
+              "Country": "Allemagne"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risque de lacération en raison de bouteilles fissurées"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Cessez d'utiliser les bouteilles rappelées et retournez-les au point de vente pour un remboursement complet sans preuve d'achat."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Remboursement"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "Gerolsteiner Sprudelwasserflaschen zurückgerufen wegen Verletzungsgefahr",
+          "Description": "Gerolsteiner ruft bestimmte Chargen seiner 750ml Sprudelwasserflaschen aufgrund einer möglichen Verletzungsgefahr zurück. Die betroffenen Flaschen werden in großen Glasbehältern oder in Kartons mit 15 verkauft. Sie verfügen über ein weißes, blaues und rotes Etikett mit dem Markennamen 'Gerolsteiner', wobei die Chargennummer am unteren Rand des Etiketts zu finden ist. Die zurückgerufenen Chargennummern sind 11/28/2024 L und 11/27/2024 L.",
+          "ConsumerContact": "Für Unterstützung kontaktieren Sie Gerolsteiner unter 800-777-0633 von 8:30 bis 17:00 Uhr ET, Montag bis Freitag, per E-Mail an customerservice@consup.us oder besuchen Sie https://www.gerolsteiner.de/en/recall. Weitere Informationen finden Sie auch unter www.gerolsteiner.de/en/ im Abschnitt 'Rückrufe'.",
+          "metaDescription": "Gerolsteiner ruft 750ml Sprudelwasserflaschen wegen Verletzungsrisiken zurück. Überprüfen Sie die Chargennummern und geben Sie sie zur Rückerstattung zurück.",
+          "Products": [
+            {
+              "Name": "Gerolsteiner 750ml Sprudelwasserflaschen",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 61.500 Flaschen"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Zurückgerufenes Gerolsteiner Sprudelwasser (750ml)"
+            },
+            {
+              "Caption": "Zurückgerufenes Gerolsteiner Sprudelwasser (750ml) Chargennummernstandort"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Keine gemeldet"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Erhältlich in Trader Joe's Filialen in Alabama, Arkansas, Colorado, Florida, Georgia, Kansas, Louisiana, New Mexico, Oklahoma, South Carolina, Tennessee und Texas von Dezember 2024 bis Januar 2025 für etwa 3 $ pro Stück."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Gerolsteiner Brunnen GmbH & Co. KG, Deutschland"
+            }
+          ],
+          "SoldAtLabel": "Verkauft bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "Deutschland"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Verletzungsgefahr durch zerbrochene Flaschen"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Hören Sie auf, die zurückgerufenen Flaschen zu verwenden, und geben Sie sie ohne Kaufnachweis an den Verkaufsort zurück für eine vollständige Rückerstattung."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Rückerstattung"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "ゲロルシュタイナーのスパークリングウォーターボトルが切傷のリスクのためリコール",
+          "Description": "ゲロルシュタイナーは、切傷の危険性があるため、特定のロットの750mlスパークリングウォーターボトルをリコールしています。影響を受けるボトルは、大きなガラス容器または15本入りのケースで販売されています。ボトルには、ブランド名「ゲロルシュタイナー」が表示された白、青、赤のラベルが付いており、ラベルの下部にはロット番号があります。リコール対象のロット番号は、11/28/2024 Lおよび11/27/2024 Lです。",
+          "ConsumerContact": "サポートが必要な場合は、月曜日から金曜日の午前8時30分から午後5時（ET）まで、800-777-0633までゲロルシュタイナーに連絡するか、customerservice@consup.usにメールを送信するか、https://www.gerolsteiner.de/en/recallを訪問してください。また、www.gerolsteiner.de/en/の「リコール」セクションで詳細情報を見つけることもできます。",
+          "metaDescription": "ゲロルシュタイナーが切傷のリスクのため750mlスパークリングウォーターボトルをリコール。ロット番号を確認し、返金のために返品してください。",
+          "Products": [
+            {
+              "Name": "ゲロルシュタイナー 750ml スパークリングウォーターボトル",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約61,500本"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコールされたゲロルシュタイナー スパークリングウォーター (750ml)"
+            },
+            {
+              "Caption": "リコールされたゲロルシュタイナー スパークリングウォーター (750ml) のロット番号の位置"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "報告された怪我はなし"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "アラバマ州、アーカンソー州、コロラド州、フロリダ州、ジョージア州、カンザス州、ルイジアナ州、ニューメキシコ州、オクラホマ州、サウスカロライナ州、テネシー州、テキサス州のトレーダー・ジョーズの店舗で、2024年12月から2025年1月まで約$3で販売されます。"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "ドイツのゲロルシュタイナー・ブルンネン GmbH & Co. KG"
+            }
+          ],
+          "SoldAtLabel": "販売場所",
+          "ManufacturerCountries": [
+            {
+              "Country": "ドイツ"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "割れたボトルによる切傷のリスク"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "リコールされたボトルの使用を中止し、購入場所に返品して、購入証明なしで全額返金を受けてください。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "返金"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "Garrafas de Água com Gás Gerolsteiner Recalladas Devido ao Risco de Laceração",
+          "Description": "A Gerolsteiner está recallando lotes específicos de suas garrafas de água com gás de 750ml devido a um potencial risco de laceração. As garrafas afetadas são vendidas em grandes recipientes de vidro ou em caixas de 15. Elas apresentam um rótulo branco, azul e vermelho exibindo o nome da marca 'Gerolsteiner', com o número do lote localizado na parte inferior do rótulo. Os números dos lotes recallados são 11/28/2024 L e 11/27/2024 L.",
+          "ConsumerContact": "Para assistência, entre em contato com a Gerolsteiner pelo telefone 800-777-0633 das 8h30 às 17h ET, de segunda a sexta-feira, envie um e-mail para customerservice@consup.us, ou visite https://www.gerolsteiner.de/en/recall. Você também pode encontrar mais informações em www.gerolsteiner.de/en/ na seção 'Recalls'.",
+          "metaDescription": "Gerolsteiner recall de garrafas de água com gás de 750ml devido a riscos de laceração. Verifique os números dos lotes e devolva para um reembolso.",
+          "Products": [
+            {
+              "Name": "Garrafas de Água com Gás Gerolsteiner 750ml",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 61.500 garrafas"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Água com Gás Gerolsteiner Recallada (750ml)"
+            },
+            {
+              "Caption": "Localização do número do lote da Água com Gás Gerolsteiner Recallada (750ml)"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Nenhuma relatada"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponível nas lojas Trader Joe's em Alabama, Arkansas, Colorado, Flórida, Geórgia, Kansas, Louisiana, Novo México, Oklahoma, Carolina do Sul, Tennessee e Texas de dezembro de 2024 a janeiro de 2025 por aproximadamente $3 cada."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Gerolsteiner Brunnen GmbH & Co. KG, da Alemanha"
+            }
+          ],
+          "SoldAtLabel": "Vendido Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "Alemanha"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risco de laceração devido a garrafas quebradas"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Pare de usar as garrafas recalladas e devolva-as ao local de compra para um reembolso total sem comprovante de compra."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reembolso"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "Gerolsteiner स्पार्कलिंग पानी की बोतलें कटने के जोखिम के कारण वापस मंगाई गईं",
+          "Description": "Gerolsteiner अपने 750ml स्पार्कलिंग पानी की बोतलों के विशेष लॉट को संभावित कटने के खतरे के कारण वापस मंगवा रहा है। प्रभावित बोतलें बड़े कांच के कंटेनरों में या 15 की पैक में बेची जाती हैं। इनमें 'Gerolsteiner' ब्रांड नाम के साथ एक सफेद, नीले और लाल लेबल होता है, जिसमें लेबल के नीचे लॉट नंबर होता है। वापस मंगाए गए लॉट नंबर 11/28/2024 L और 11/27/2024 L हैं।",
+          "ConsumerContact": "सहायता के लिए, Gerolsteiner से 800-777-0633 पर संपर्क करें, सुबह 8:30 बजे से शाम 5 बजे ET, सोमवार से शुक्रवार, ईमेल customerservice@consup.us पर, या https://www.gerolsteiner.de/en/recall पर जाएं। आप 'Recalls' अनुभाग के तहत www.gerolsteiner.de/en/ पर भी अधिक जानकारी प्राप्त कर सकते हैं।",
+          "metaDescription": "Gerolsteiner 750ml स्पार्कलिंग पानी की बोतलों को कटने के जोखिम के कारण वापस मंगाता है। लॉट नंबर की जांच करें और धनवापसी के लिए लौटाएं।",
+          "Products": [
+            {
+              "Name": "Gerolsteiner 750ml स्पार्कलिंग पानी की बोतलें",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 61,500 बोतलें"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "वापस मंगाई गई Gerolsteiner स्पार्कलिंग पानी (750ml)"
+            },
+            {
+              "Caption": "वापस मंगाई गई Gerolsteiner स्पार्कलिंग पानी (750ml) लॉट नंबर स्थान"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "कोई रिपोर्ट नहीं"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "अलाबामा, अर्कांसस, कोलोराडो, फ्लोरिडा, जॉर्जिया, कंसास, लुइसियाना, न्यू मैक्सिको, ओक्लाहोमा, दक्षिण कैरोलिना, टेनेसी, और टेक्सास में Trader Joe's स्थानों पर दिसंबर 2024 से जनवरी 2025 तक लगभग $3 प्रत्येक के लिए उपलब्ध।"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Gerolsteiner Brunnen GmbH & Co. KG, जर्मनी"
+            }
+          ],
+          "SoldAtLabel": "बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "जर्मनी"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "बोतलें टूटने के कारण कटने का जोखिम"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "वापस मंगाई गई बोतलों का उपयोग करना बंद करें और उन्हें खरीदने के स्थान पर बिना खरीद के प्रमाण के पूर्ण धनवापसी के लिए लौटाएं।"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "धनवापसी"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "Бутылки газированной воды Gerolsteiner отозваны из-за риска порезов",
+          "Description": "Gerolsteiner отзывает определенные партии своих бутылок газированной воды объемом 750 мл из-за потенциальной опасности порезов. Пострадавшие бутылки продаются в больших стеклянных контейнерах или в упаковках по 15 штук. На них имеется белая, синяя и красная этикетка с названием бренда 'Gerolsteiner', а номер партии расположен внизу этикетки. Отозванные номера партий: 11/28/2024 L и 11/27/2024 L.",
+          "ConsumerContact": "Для получения помощи свяжитесь с Gerolsteiner по телефону 800-777-0633 с 8:30 до 17:00 по восточному времени, с понедельника по пятницу, по электронной почте customerservice@consup.us или посетите https://www.gerolsteiner.de/en/recall. Вы также можете найти дополнительную информацию на сайте www.gerolsteiner.de/en/ в разделе 'Отзыв'.",
+          "metaDescription": "Gerolsteiner отзывает бутылки газированной воды объемом 750 мл из-за риска порезов. Проверьте номера партий и верните для получения возврата.",
+          "Products": [
+            {
+              "Name": "Бутылки газированной воды Gerolsteiner 750 мл",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 61,500 бутылок"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванная газированная вода Gerolsteiner (750 мл)"
+            },
+            {
+              "Caption": "Место расположения номера партии отозванной газированной воды Gerolsteiner (750 мл)"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Не сообщалось"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Доступно в магазинах Trader Joe's по всему Алабаме, Арканзасу, Колорадо, Флориде, Джорджии, Канзасу, Луизиане, Нью-Мексико, Оклахоме, Южной Каролине, Теннесси и Техасу с декабря 2024 года по январь 2025 года примерно за $3 каждая."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Gerolsteiner Brunnen GmbH & Co. KG, Германия"
+            }
+          ],
+          "SoldAtLabel": "Продается в",
+          "ManufacturerCountries": [
+            {
+              "Country": "Германия"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Риск порезов из-за треснувших бутылок"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Прекратите использовать отозванные бутылки и верните их в место покупки для полного возврата без подтверждения покупки."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Возврат"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "Bình Nước Khoáng Có Gas Gerolsteiner Bị Thu Hồi Do Nguy Cơ Bị Cắt",
+          "Description": "Gerolsteiner đang thu hồi một số lô bình nước khoáng có gas 750ml do nguy cơ bị cắt tiềm ẩn. Các bình bị ảnh hưởng được bán trong các thùng kính lớn hoặc trong các hộp 15 bình. Chúng có nhãn màu trắng, xanh và đỏ hiển thị tên thương hiệu 'Gerolsteiner', với số lô nằm ở dưới cùng của nhãn. Các số lô bị thu hồi là 11/28/2024 L và 11/27/2024 L.",
+          "ConsumerContact": "Để được hỗ trợ, liên hệ với Gerolsteiner qua số 800-777-0633 từ 8:30 sáng đến 5:00 chiều ET, từ thứ Hai đến thứ Sáu, email customerservice@consup.us, hoặc truy cập https://www.gerolsteiner.de/en/recall. Bạn cũng có thể tìm thêm thông tin tại www.gerolsteiner.de/en/ trong phần 'Thu hồi'.",
+          "metaDescription": "Gerolsteiner thu hồi bình nước khoáng 750ml do nguy cơ bị cắt. Kiểm tra số lô và trả lại để được hoàn tiền.",
+          "Products": [
+            {
+              "Name": "Bình Nước Khoáng Có Gas Gerolsteiner 750ml",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 61,500 bình"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Nước Khoáng Có Gas Gerolsteiner Bị Thu Hồi (750ml)"
+            },
+            {
+              "Caption": "Vị trí số lô của Nước Khoáng Có Gas Gerolsteiner Bị Thu Hồi (750ml)"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Không có báo cáo"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Có mặt tại các cửa hàng Trader Joe's trên toàn Alabama, Arkansas, Colorado, Florida, Georgia, Kansas, Louisiana, New Mexico, Oklahoma, South Carolina, Tennessee và Texas từ tháng 12 năm 2024 đến tháng 1 năm 2025 với giá khoảng 3 đô la mỗi bình."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Gerolsteiner Brunnen GmbH & Co. KG, của Đức"
+            }
+          ],
+          "SoldAtLabel": "Bán Tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Đức"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Nguy cơ bị cắt do bình bị nứt"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Ngừng sử dụng các bình bị thu hồi và trả lại chúng cho nơi mua để được hoàn tiền đầy đủ mà không cần chứng minh mua hàng."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Hoàn tiền"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    }
+  ]
+}

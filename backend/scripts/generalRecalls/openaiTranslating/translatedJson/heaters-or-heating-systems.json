@@ -1,0 +1,800 @@
+{
+  "meta": {
+    "slug": "heaters-or-heating-systems",
+    "sourceCsvFile": "heaters-or-heating-systems_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:36.955Z",
+    "recallCount": 1,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "heaters-or-heating-systems.json",
+    "seoTranslatedAt": "2026-04-04T04:13:29.463Z",
+    "resumePartial": false,
+    "i18nSource": "generalRecallsTranslated",
+    "i18nSourceFile": "heaters-or-heating-systems.json",
+    "i18nUiLangs": [
+      "en",
+      "es",
+      "ar",
+      "zh",
+      "fr",
+      "de",
+      "ja",
+      "pt",
+      "hi",
+      "ru",
+      "vi"
+    ],
+    "i18nProgressByLang": {
+      "es": 1,
+      "ar": 1,
+      "zh": 1,
+      "fr": 1,
+      "de": 1,
+      "ja": 1,
+      "pt": 1,
+      "hi": 1,
+      "ru": 1,
+      "vi": 1
+    },
+    "i18nInProgress": false,
+    "i18nTranslatedAt": "2026-04-07T09:11:38.855Z",
+    "i18nOpenaiModel": "gpt-4o-mini"
+  },
+  "recalls": [
+    {
+      "RecallID": 10679,
+      "RecallNumber": "26349",
+      "RecallDate": "2026-03-26T00:00:00",
+      "Description": "The recall pertains to the DIY Sauna Heater Kit, designed for consumers to build a heating fixture using four separately sold heat-lamp bulbs and a metal enclosure for a DIY sauna. This kit includes a stainless steel cage that weighs approximately 16 lbs and measures 12\"H x 12\"W x 8\"D when assembled, along with necessary assembly materials like screws, ceramic bulb sockets, wire connectors, and a three-prong power cord. The kit is meant to be attached to a custom-built wood frame by the user.",
+      "URL": "https://www.cpsc.gov/Recalls/2026/DIY-Cold-Plunge-Recalls-Sauna-Heater-Kits-Due-to-Risk-of-Serious-Injury-or-Death-from-Fire-Hazard",
+      "Title": "DIY Cold Plunge Recalls Sauna Heater Kits Due to Fire Hazard Risk",
+      "ConsumerContact": "For assistance, reach out to DIY Cold Plunge via email at orders@diycoldplunge.com or visit www.diycoldplunge.com/pages/recall. You can also find more details by clicking on \"Recall Information\" at the bottom of their website.",
+      "LastPublishDate": "2026-03-27T00:00:00",
+      "Products": [
+        {
+          "Name": "DIY Sauna Heater Kit",
+          "NumberOfUnits": "About 675 (In addition, about 14 were sold in Canada)"
+        }
+      ],
+      "Inconjunctions": [
+        {
+          "URL": "https://recalls-rappels.canada.ca/en/alert-recall/diy-sauna-heater-kits-recalled-due-fire-hazard"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/heaters-or-heating-systems/1-DIY-Sauna-Heater-Kit/a4821862ae6381102b2a7e0624c6dcf5.webp",
+          "Caption": "Recalled DIY Sauna Heater Kit (shown assembled in sauna)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/diy-1.png"
+        },
+        {
+          "URL": "/images/generalRecalls/heaters-or-heating-systems/1-DIY-Sauna-Heater-Kit/47c1fa5d2092f2ddbbba5bfaac7caa4f.webp",
+          "Caption": "Recalled DIY Sauna Heater Kit (product photo from diycoldplunge.com)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/diy-2.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received 12 reports of units overheating. No fires or injuries have been reported."
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "Plunge Buddy LLC, doing business as DIY Cold Plunge, of North Mankato, Minnesota"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available for purchase online at www.diycoldplunge.com from March 2025 to February 2026, priced between $400 and $500."
+        }
+      ],
+      "SoldAtLabel": "Sold Online At",
+      "ManufacturerCountries": [
+        {
+          "Country": "United States"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Fire hazard due to overheating electrical conductors"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Immediately cease use of the Sauna Heater Kit and register at www.diycoldplunge.com/pages/recall for a full refund. Proof of destruction or disposal may be required, or you can request a prepaid shipping label for returns."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "slug": "diy-cold-plunge-recalls-sauna-heater-kits-due-to-fire-hazard-risk-recall",
+      "metaDescription": "Recall of DIY Sauna Heater Kits due to fire hazards. Stop using immediately and register for a refund. Learn more here.",
+      "languages": {
+        "en": {
+          "Title": "DIY Cold Plunge Recalls Sauna Heater Kits Due to Fire Hazard Risk",
+          "Description": "The recall pertains to the DIY Sauna Heater Kit, designed for consumers to build a heating fixture using four separately sold heat-lamp bulbs and a metal enclosure for a DIY sauna. This kit includes a stainless steel cage that weighs approximately 16 lbs and measures 12\"H x 12\"W x 8\"D when assembled, along with necessary assembly materials like screws, ceramic bulb sockets, wire connectors, and a three-prong power cord. The kit is meant to be attached to a custom-built wood frame by the user.",
+          "ConsumerContact": "For assistance, reach out to DIY Cold Plunge via email at orders@diycoldplunge.com or visit www.diycoldplunge.com/pages/recall. You can also find more details by clicking on \"Recall Information\" at the bottom of their website.",
+          "metaDescription": "Recall of DIY Sauna Heater Kits due to fire hazards. Stop using immediately and register for a refund. Learn more here.",
+          "Products": [
+            {
+              "Name": "DIY Sauna Heater Kit",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 675 (In addition, about 14 were sold in Canada)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled DIY Sauna Heater Kit (shown assembled in sauna)"
+            },
+            {
+              "Caption": "Recalled DIY Sauna Heater Kit (product photo from diycoldplunge.com)"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "The firm has received 12 reports of units overheating. No fires or injuries have been reported."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Available for purchase online at www.diycoldplunge.com from March 2025 to February 2026, priced between $400 and $500."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Plunge Buddy LLC, doing business as DIY Cold Plunge, of North Mankato, Minnesota"
+            }
+          ],
+          "SoldAtLabel": "Sold Online At",
+          "ManufacturerCountries": [
+            {
+              "Country": "United States"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Fire hazard due to overheating electrical conductors"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Immediately cease use of the Sauna Heater Kit and register at www.diycoldplunge.com/pages/recall for a full refund. Proof of destruction or disposal may be required, or you can request a prepaid shipping label for returns."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Refund"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "Retiro de Kits de Calentador de Sauna DIY Debido a Riesgo de Incendio",
+          "Description": "El retiro se refiere al Kit de Calentador de Sauna DIY, diseñado para que los consumidores construyan un dispositivo de calefacción utilizando cuatro bombillas de lámpara de calor vendidas por separado y un recinto de metal para una sauna DIY. Este kit incluye una jaula de acero inoxidable que pesa aproximadamente 16 lbs y mide 12\"H x 12\"W x 8\"D cuando está ensamblada, junto con los materiales de ensamblaje necesarios como tornillos, bases de bombillas de cerámica, conectores de cable y un cable de alimentación de tres clavijas. El kit está destinado a ser fijado a un marco de madera construido a medida por el usuario.",
+          "ConsumerContact": "Para asistencia, comuníquese con DIY Cold Plunge por correo electrónico a orders@diycoldplunge.com o visite www.diycoldplunge.com/pages/recall. También puede encontrar más detalles haciendo clic en \"Información sobre el retiro\" en la parte inferior de su sitio web.",
+          "metaDescription": "Retiro de Kits de Calentador de Sauna DIY debido a riesgos de incendio. Deje de usar inmediatamente y regístrese para un reembolso. Aprenda más aquí.",
+          "Products": [
+            {
+              "Name": "Kit de Calentador de Sauna DIY",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 675 (Además, se vendieron aproximadamente 14 en Canadá)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Kit de Calentador de Sauna DIY retirado (mostrado ensamblado en la sauna)"
+            },
+            {
+              "Caption": "Kit de Calentador de Sauna DIY retirado (foto del producto de diycoldplunge.com)"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "La empresa ha recibido 12 informes de unidades sobrecalentándose. No se han reportado incendios ni lesiones."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible para compra en línea en www.diycoldplunge.com desde marzo de 2025 hasta febrero de 2026, con precios entre $400 y $500."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Plunge Buddy LLC, que opera como DIY Cold Plunge, de North Mankato, Minnesota"
+            }
+          ],
+          "SoldAtLabel": "Vendido en línea en",
+          "ManufacturerCountries": [
+            {
+              "Country": "Estados Unidos"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Riesgo de incendio debido a conductores eléctricos sobrecalentados"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Cese inmediatamente el uso del Kit de Calentador de Sauna y regístrese en www.diycoldplunge.com/pages/recall para un reembolso completo. Puede ser necesario proporcionar prueba de destrucción o eliminación, o puede solicitar una etiqueta de envío prepagada para devoluciones."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reembolso"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "استدعاء مجموعات سخانات الساونا من DIY Cold Plunge بسبب خطر الحريق",
+          "Description": "يتعلق الاستدعاء بمجموعة سخانات الساونا من DIY، المصممة للمستهلكين لبناء جهاز تسخين باستخدام أربعة مصابيح حرارية تباع بشكل منفصل وغطاء معدني لساونا DIY. تتضمن هذه المجموعة قفصًا من الفولاذ المقاوم للصدأ يزن حوالي 16 رطلاً ويقيس 12\"H x 12\"W x 8\"D عند التجميع، بالإضافة إلى مواد التجميع اللازمة مثل البراغي، وأفياش المصابيح الخزفية، ووصلات الأسلاك، وسلك طاقة ثلاثي الشوكات. من المفترض أن يتم تثبيت المجموعة على إطار خشبي مخصص من قبل المستخدم.",
+          "ConsumerContact": "للحصول على المساعدة، تواصل مع DIY Cold Plunge عبر البريد الإلكتروني على orders@diycoldplunge.com أو قم بزيارة www.diycoldplunge.com/pages/recall. يمكنك أيضًا العثور على مزيد من التفاصيل من خلال النقر على \"معلومات الاستدعاء\" في أسفل موقعهم.",
+          "metaDescription": "استدعاء مجموعات سخانات الساونا من DIY بسبب مخاطر الحريق. توقف عن الاستخدام فورًا وسجل للحصول على استرداد. تعرف على المزيد هنا.",
+          "Products": [
+            {
+              "Name": "مجموعة سخانات الساونا من DIY",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 675 (بالإضافة إلى ذلك، تم بيع حوالي 14 في كندا)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "مجموعة سخانات الساونا من DIY المستدعاة (موضحة مجمعة في الساونا)"
+            },
+            {
+              "Caption": "مجموعة سخانات الساونا من DIY المستدعاة (صورة المنتج من diycoldplunge.com)"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "تلقت الشركة 12 تقريرًا عن وحدات تسخين زائدة في الحرارة. لم يتم الإبلاغ عن أي حرائق أو إصابات."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "متاحة للشراء عبر الإنترنت على www.diycoldplunge.com من مارس 2025 إلى فبراير 2026، بسعر يتراوح بين 400 و500 دولار."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Plunge Buddy LLC، تعمل تحت اسم DIY Cold Plunge، من نورث مانكاتو، مينيسوتا"
+            }
+          ],
+          "SoldAtLabel": "تباع عبر الإنترنت في",
+          "ManufacturerCountries": [
+            {
+              "Country": "الولايات المتحدة"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "خطر الحريق بسبب ارتفاع درجة حرارة الموصلات الكهربائية"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "توقف عن استخدام مجموعة سخانات الساونا فورًا وسجل في www.diycoldplunge.com/pages/recall للحصول على استرداد كامل. قد يُطلب إثبات التدمير أو التخلص، أو يمكنك طلب ملصق شحن مدفوع مسبقًا للإرجاع."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "استرداد"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "DIY冷水浸泡召回桑拿加热器套件因火灾危险风险",
+          "Description": "此次召回涉及DIY桑拿加热器套件，旨在让消费者使用四个单独出售的热灯泡和一个金属外壳构建加热装置，以便自制桑拿。该套件包括一个不锈钢笼，重量约为16磅，组装后尺寸为12\"H x 12\"W x 8\"D，以及必要的组装材料，如螺丝、陶瓷灯泡插座、电线连接器和三插电源线。该套件旨在由用户附加到定制的木框架上。\n",
+          "ConsumerContact": "如需帮助，请通过电子邮件联系DIY冷水浸泡，邮箱为orders@diycoldplunge.com，或访问www.diycoldplunge.com/pages/recall。您还可以通过点击其网站底部的“召回信息”获取更多细节。",
+          "metaDescription": "因火灾危险而召回DIY桑拿加热器套件。请立即停止使用并注册退款。了解更多信息。",
+          "Products": [
+            {
+              "Name": "DIY桑拿加热器套件",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约675个（此外，约14个在加拿大出售）"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "召回的DIY桑拿加热器套件（在桑拿中组装展示）"
+            },
+            {
+              "Caption": "召回的DIY桑拿加热器套件（来自diycoldplunge.com的产品照片）"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "该公司已收到12起设备过热的报告。未报告火灾或受伤情况。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "可在www.diycoldplunge.com上在线购买，销售时间为2025年3月至2026年2月，价格在400美元到500美元之间。"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Plunge Buddy LLC，经营名为DIY冷水浸泡，位于明尼苏达州北曼凯托"
+            }
+          ],
+          "SoldAtLabel": "在线销售于",
+          "ManufacturerCountries": [
+            {
+              "Country": "美国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "因电导体过热而导致的火灾危险"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "立即停止使用桑拿加热器套件，并在www.diycoldplunge.com/pages/recall注册以获得全额退款。可能需要提供销毁或处置的证明，或者您可以请求预付邮寄标签以进行退货。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "退款"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "Rappels de Kits de Chauffage de Sauna DIY en raison d'un Risque d'Incendie",
+          "Description": "Le rappel concerne le Kit de Chauffage de Sauna DIY, conçu pour que les consommateurs construisent un dispositif de chauffage en utilisant quatre ampoules à chaleur vendues séparément et un boîtier en métal pour un sauna DIY. Ce kit comprend une cage en acier inoxydable pesant environ 16 lbs et mesurant 12\"H x 12\"W x 8\"D une fois assemblé, ainsi que les matériaux d'assemblage nécessaires tels que des vis, des douilles d'ampoules en céramique, des connecteurs de fils et un cordon d'alimentation à trois broches. Le kit est destiné à être fixé à un cadre en bois construit sur mesure par l'utilisateur.",
+          "ConsumerContact": "Pour assistance, contactez DIY Cold Plunge par e-mail à orders@diycoldplunge.com ou visitez www.diycoldplunge.com/pages/recall. Vous pouvez également trouver plus de détails en cliquant sur \"Informations sur le rappel\" en bas de leur site web.",
+          "metaDescription": "Rappel des Kits de Chauffage de Sauna DIY en raison de risques d'incendie. Cessez immédiatement de les utiliser et inscrivez-vous pour un remboursement. En savoir plus ici.",
+          "Products": [
+            {
+              "Name": "Kit de Chauffage de Sauna DIY",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 675 (De plus, environ 14 ont été vendus au Canada)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Kit de Chauffage de Sauna DIY rappelé (montré assemblé dans un sauna)"
+            },
+            {
+              "Caption": "Kit de Chauffage de Sauna DIY rappelé (photo produit de diycoldplunge.com)"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "L'entreprise a reçu 12 rapports d'unités surchauffant. Aucun incendie ni blessure n'ont été signalés."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible à l'achat en ligne sur www.diycoldplunge.com de mars 2025 à février 2026, au prix compris entre 400 $ et 500 $."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Plunge Buddy LLC, faisant affaire sous le nom de DIY Cold Plunge, de North Mankato, Minnesota"
+            }
+          ],
+          "SoldAtLabel": "Vendu en ligne sur",
+          "ManufacturerCountries": [
+            {
+              "Country": "États-Unis"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risque d'incendie en raison de conducteurs électriques surchauffés"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Cessez immédiatement d'utiliser le Kit de Chauffage de Sauna et inscrivez-vous sur www.diycoldplunge.com/pages/recall pour un remboursement complet. Une preuve de destruction ou d'élimination peut être requise, ou vous pouvez demander une étiquette d'expédition prépayée pour les retours."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Remboursement"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "Rückruf von DIY Cold Plunge Sauna-Heizungs-Kits aufgrund von Brandgefahr",
+          "Description": "Der Rückruf betrifft das DIY Sauna-Heizungs-Kit, das für Verbraucher entwickelt wurde, um eine Heizvorrichtung mit vier separat verkauften Wärmelampenbirnen und einem Metallgehäuse für eine DIY-Sauna zu bauen. Dieses Kit enthält einen Edelstahlkäfig, der etwa 16 lbs wiegt und im zusammengebauten Zustand 12\"H x 12\"W x 8\"D misst, sowie notwendige Montage Materialien wie Schrauben, keramische Lampensockel, Kabelverbinder und ein dreipoliges Stromkabel. Das Kit soll vom Benutzer an einem maßgeschneiderten Holzrahmen befestigt werden.",
+          "ConsumerContact": "Für Unterstützung wenden Sie sich per E-Mail an DIY Cold Plunge unter orders@diycoldplunge.com oder besuchen Sie www.diycoldplunge.com/pages/recall. Weitere Details finden Sie, indem Sie auf \"Rückrufinformationen\" am Ende ihrer Website klicken.",
+          "metaDescription": "Rückruf von DIY Sauna-Heizungs-Kits aufgrund von Brandgefahren. Sofortige Nutzung einstellen und für eine Rückerstattung registrieren. Hier mehr erfahren.",
+          "Products": [
+            {
+              "Name": "DIY Sauna-Heizungs-Kit",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 675 (Zusätzlich wurden etwa 14 in Kanada verkauft)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Rückgerufenes DIY Sauna-Heizungs-Kit (im zusammengebauten Zustand in der Sauna gezeigt)"
+            },
+            {
+              "Caption": "Rückgerufenes DIY Sauna-Heizungs-Kit (Produktfoto von diycoldplunge.com)"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Das Unternehmen hat 12 Berichte über überhitzte Geräte erhalten. Es wurden keine Brände oder Verletzungen gemeldet."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Online erhältlich unter www.diycoldplunge.com von März 2025 bis Februar 2026, zu Preisen zwischen 400 und 500 US-Dollar."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Plunge Buddy LLC, tätig als DIY Cold Plunge, aus North Mankato, Minnesota"
+            }
+          ],
+          "SoldAtLabel": "Online verkauft bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "Vereinigte Staaten"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Brandgefahr aufgrund überhitzter elektrischer Leiter"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Verwenden Sie das Sauna-Heizungs-Kit sofort nicht mehr und registrieren Sie sich unter www.diycoldplunge.com/pages/recall für eine vollständige Rückerstattung. Ein Nachweis über die Zerstörung oder Entsorgung kann erforderlich sein, oder Sie können ein vorfrankiertes Versandetikett für Rücksendungen anfordern."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Rückerstattung"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "DIYコールドプランジが火災の危険性によりサウナヒーターキットをリコール",
+          "Description": "このリコールは、消費者が4つの別売りのヒートランプバルブと金属製のエンクロージャーを使用してDIYサウナの加熱装置を構築するために設計されたDIYサウナヒーターキットに関するものです。このキットには、組み立て時に約16ポンドの重さがあり、12\"H x 12\"W x 8\"Dのサイズのステンレススチール製のケージが含まれており、ネジ、セラミックバルブソケット、ワイヤコネクタ、3プラグの電源コードなどの必要な組み立て材料が含まれています。このキットは、ユーザーによってカスタムビルドされた木製フレームに取り付けることを目的としています。\n",
+          "ConsumerContact": "サポートが必要な場合は、orders@diycoldplunge.comまでメールでDIYコールドプランジにお問い合わせいただくか、www.diycoldplunge.com/pages/recallをご覧ください。ウェブサイトの下部にある「リコール情報」をクリックすることで、詳細を確認することもできます。",
+          "metaDescription": "火災の危険性によりDIYサウナヒーターキットのリコール。直ちに使用を中止し、返金の登録を行ってください。詳細はこちら。",
+          "Products": [
+            {
+              "Name": "DIYサウナヒーターキット",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約675台（さらに、約14台がカナダで販売されました）"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコールされたDIYサウナヒーターキット（サウナ内で組み立てられた状態で表示）"
+            },
+            {
+              "Caption": "リコールされたDIYサウナヒーターキット（diycoldplunge.comからの製品写真）"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "同社はユニットの過熱に関する12件の報告を受けています。火災や怪我の報告はありません。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "2025年3月から2026年2月まで、www.diycoldplunge.comでオンライン購入可能、価格は400ドルから500ドルの間。"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "プランジバディLLC、DIYコールドプランジとして営業、ミネソタ州ノースマンカトー"
+            }
+          ],
+          "SoldAtLabel": "オンラインで販売",
+          "ManufacturerCountries": [
+            {
+              "Country": "アメリカ合衆国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "過熱した電気導体による火災の危険性"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "サウナヒーターキットの使用を直ちに中止し、www.diycoldplunge.com/pages/recallで全額返金の登録を行ってください。破棄または廃棄の証明が必要な場合があります。また、返品用の前払いの配送ラベルをリクエストすることもできます。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "返金"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "Recalls de Kits de Aquecedor de Sauna DIY Devido ao Risco de Incêndio",
+          "Description": "O recall diz respeito ao Kit de Aquecedor de Sauna DIY, projetado para que os consumidores construam um dispositivo de aquecimento usando quatro lâmpadas de calor vendidas separadamente e um invólucro de metal para uma sauna DIY. Este kit inclui uma gaiola de aço inoxidável que pesa aproximadamente 16 lbs e mede 12\"H x 12\"W x 8\"D quando montada, junto com materiais de montagem necessários, como parafusos, soquetes de lâmpadas de cerâmica, conectores de fio e um cabo de alimentação de três pinos. O kit deve ser fixado a uma estrutura de madeira personalizada pelo usuário.",
+          "ConsumerContact": "Para assistência, entre em contato com a DIY Cold Plunge pelo e-mail orders@diycoldplunge.com ou visite www.diycoldplunge.com/pages/recall. Você também pode encontrar mais detalhes clicando em \"Informações sobre o Recall\" na parte inferior do site deles.",
+          "metaDescription": "Recall dos Kits de Aquecedor de Sauna DIY devido a riscos de incêndio. Pare de usar imediatamente e registre-se para um reembolso. Saiba mais aqui.",
+          "Products": [
+            {
+              "Name": "Kit de Aquecedor de Sauna DIY",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 675 (Além disso, cerca de 14 foram vendidos no Canadá)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Kit de Aquecedor de Sauna DIY Recall (mostrado montado na sauna)"
+            },
+            {
+              "Caption": "Kit de Aquecedor de Sauna DIY Recall (foto do produto de diycoldplunge.com)"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "A empresa recebeu 12 relatos de unidades superaquecendo. Nenhum incêndio ou ferimentos foram relatados."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponível para compra online em www.diycoldplunge.com de março de 2025 a fevereiro de 2026, com preços entre $400 e $500."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Plunge Buddy LLC, operando como DIY Cold Plunge, de North Mankato, Minnesota"
+            }
+          ],
+          "SoldAtLabel": "Vendido Online Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "Estados Unidos"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risco de incêndio devido ao superaquecimento de condutores elétricos"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Cesse imediatamente o uso do Kit de Aquecedor de Sauna e registre-se em www.diycoldplunge.com/pages/recall para um reembolso total. A prova de destruição ou descarte pode ser necessária, ou você pode solicitar uma etiqueta de envio pré-paga para devoluções."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reembolso"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "DIY कोल्ड प्लंज ने आग के खतरे के जोखिम के कारण सॉना हीटर किट्स की वापसी की",
+          "Description": "यह वापसी DIY सॉना हीटर किट से संबंधित है, जिसे उपभोक्ताओं के लिए चार अलग से बेचे जाने वाले हीट-लैंप बल्बों और एक धातु के आवरण का उपयोग करके एक हीटिंग फिक्स्चर बनाने के लिए डिज़ाइन किया गया है। इस किट में एक स्टेनलेस स्टील का पिंजरा शामिल है जिसका वजन लगभग 16 पाउंड है और जब इसे असेंबल किया जाता है तो इसका माप 12\"H x 12\"W x 8\"D होता है, साथ ही आवश्यक असेंबली सामग्री जैसे स्क्रू, सिरेमिक बल्ब सॉकेट, वायर कनेक्टर्स, और एक तीन-प्रोंग पावर कॉर्ड शामिल है। यह किट उपयोगकर्ता द्वारा कस्टम-बिल्ट लकड़ी के फ्रेम से जोड़ने के लिए है।",
+          "ConsumerContact": "सहायता के लिए, DIY कोल्ड प्लंज से orders@diycoldplunge.com पर ईमेल के माध्यम से संपर्क करें या www.diycoldplunge.com/pages/recall पर जाएं। आप उनकी वेबसाइट के नीचे \"Recall Information\" पर क्लिक करके अधिक विवरण भी प्राप्त कर सकते हैं।",
+          "metaDescription": "आग के खतरों के कारण DIY सॉना हीटर किट की वापसी। तुरंत उपयोग करना बंद करें और रिफंड के लिए पंजीकरण करें। यहाँ और जानें।",
+          "Products": [
+            {
+              "Name": "DIY सॉना हीटर किट",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 675 (इसके अतिरिक्त, लगभग 14 कनाडा में बेचे गए)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "वापसी की गई DIY सॉना हीटर किट (सॉना में असेंबल किया गया दिखाया गया)"
+            },
+            {
+              "Caption": "वापसी की गई DIY सॉना हीटर किट (diycoldplunge.com से उत्पाद फोटो)"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "कंपनी को यूनिट्स के अधिक गर्म होने की 12 रिपोर्ट मिली हैं। कोई आग या चोट की रिपोर्ट नहीं मिली है।"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "www.diycoldplunge.com पर मार्च 2025 से फरवरी 2026 तक ऑनलाइन खरीदने के लिए उपलब्ध, कीमत $400 से $500 के बीच।"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Plunge Buddy LLC, जो DIY कोल्ड प्लंज के रूप में व्यापार कर रहा है, नॉर्थ मंकेटो, मिनेसोटा"
+            }
+          ],
+          "SoldAtLabel": "ऑनलाइन बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "संयुक्त राज्य अमेरिका"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "अधिक गर्म होने वाले इलेक्ट्रिकल कंडक्टर्स के कारण आग का खतरा"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "सॉना हीटर किट का उपयोग तुरंत बंद करें और पूर्ण रिफंड के लिए www.diycoldplunge.com/pages/recall पर पंजीकरण करें। विनाश या निपटान का प्रमाण आवश्यक हो सकता है, या आप रिटर्न के लिए एक प्रीपेड शिपिंग लेबल का अनुरोध कर सकते हैं।"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "रिफंड"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "Отзыв комплектов обогревателя сауны DIY Cold Plunge из-за риска пожара",
+          "Description": "Отзыв касается комплекта обогревателя сауны DIY, предназначенного для потребителей, чтобы собрать обогреватель, используя четыре отдельно продаваемые лампы и металлический корпус для DIY сауны. Этот комплект включает в себя стальную клетку, которая весит примерно 16 фунтов и имеет размеры 12\"H x 12\"W x 8\"D в собранном виде, а также необходимые материалы для сборки, такие как винты, керамические патроны для ламп, соединители проводов и трехконтактный шнур питания. Комплект предназначен для крепления к самодельной деревянной раме пользователем.",
+          "ConsumerContact": "Для получения помощи свяжитесь с DIY Cold Plunge по электронной почте orders@diycoldplunge.com или посетите www.diycoldplunge.com/pages/recall. Вы также можете найти больше информации, нажав на \"Информация о отзыве\" внизу их веб-сайта.",
+          "metaDescription": "Отзыв комплектов обогревателя сауны DIY из-за опасности пожара. Немедленно прекратите использование и зарегистрируйтесь для получения возврата. Узнайте больше здесь.",
+          "Products": [
+            {
+              "Name": "Комплект обогревателя сауны DIY",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 675 (Кроме того, около 14 были проданы в Канаде)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванный комплект обогревателя сауны DIY (показан в собранном виде в сауне)"
+            },
+            {
+              "Caption": "Отозванный комплект обогревателя сауны DIY (фото продукта с diycoldplunge.com)"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Компания получила 12 сообщений о перегреве устройств. Пожаров или травм не сообщалось."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Доступен для покупки онлайн на www.diycoldplunge.com с марта 2025 года по февраль 2026 года, цена от 400 до 500 долларов."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Plunge Buddy LLC, действующая под брендом DIY Cold Plunge, из Норт-Манкато, Миннесота"
+            }
+          ],
+          "SoldAtLabel": "Продается онлайн на",
+          "ManufacturerCountries": [
+            {
+              "Country": "Соединенные Штаты"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Опасность пожара из-за перегрева электрических проводников"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Немедленно прекратите использование комплекта обогревателя сауны и зарегистрируйтесь на www.diycoldplunge.com/pages/recall для получения полного возврата. Может потребоваться подтверждение уничтожения или утилизации, или вы можете запросить предоплаченный ярлык для возврата."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Возврат"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "Thu hồi bộ thiết bị sưởi sauna DIY Cold Plunge do nguy cơ hỏa hoạn",
+          "Description": "Việc thu hồi liên quan đến Bộ thiết bị sưởi sauna DIY, được thiết kế cho người tiêu dùng để xây dựng một thiết bị sưởi bằng cách sử dụng bốn bóng đèn nhiệt được bán riêng và một vỏ kim loại cho sauna DIY. Bộ này bao gồm một lồng thép không gỉ nặng khoảng 16 lbs và có kích thước 12\"H x 12\"W x 8\"D khi lắp ráp, cùng với các vật liệu lắp ráp cần thiết như vít, ổ cắm bóng đèn gốm, đầu nối dây và một dây nguồn ba chấu. Bộ này được thiết kế để được gắn vào một khung gỗ tự chế bởi người dùng.",
+          "ConsumerContact": "Để được hỗ trợ, hãy liên hệ với DIY Cold Plunge qua email tại orders@diycoldplunge.com hoặc truy cập www.diycoldplunge.com/pages/recall. Bạn cũng có thể tìm thêm thông tin bằng cách nhấp vào \"Thông tin thu hồi\" ở cuối trang web của họ.",
+          "metaDescription": "Thu hồi bộ thiết bị sưởi sauna DIY do nguy cơ hỏa hoạn. Ngừng sử dụng ngay lập tức và đăng ký để được hoàn tiền. Tìm hiểu thêm tại đây.",
+          "Products": [
+            {
+              "Name": "Bộ thiết bị sưởi sauna DIY",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 675 (Ngoài ra, khoảng 14 bộ đã được bán tại Canada)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Bộ thiết bị sưởi sauna DIY bị thu hồi (được hiển thị lắp ráp trong sauna)"
+            },
+            {
+              "Caption": "Bộ thiết bị sưởi sauna DIY bị thu hồi (hình sản phẩm từ diycoldplunge.com)"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Công ty đã nhận được 12 báo cáo về các bộ bị quá nhiệt. Không có vụ hỏa hoạn hoặc thương tích nào được báo cáo."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Có sẵn để mua trực tuyến tại www.diycoldplunge.com từ tháng 3 năm 2025 đến tháng 2 năm 2026, với giá từ 400 đến 500 đô la."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Plunge Buddy LLC, kinh doanh dưới tên DIY Cold Plunge, tại North Mankato, Minnesota"
+            }
+          ],
+          "SoldAtLabel": "Bán trực tuyến tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Hoa Kỳ"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Nguy cơ hỏa hoạn do các dây dẫn điện quá nhiệt"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Ngừng sử dụng ngay lập tức bộ thiết bị sưởi sauna và đăng ký tại www.diycoldplunge.com/pages/recall để được hoàn tiền đầy đủ. Có thể yêu cầu bằng chứng về việc tiêu hủy hoặc vứt bỏ, hoặc bạn có thể yêu cầu một nhãn vận chuyển đã thanh toán trước cho việc trả hàng."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Hoàn tiền"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    }
+  ]
+}

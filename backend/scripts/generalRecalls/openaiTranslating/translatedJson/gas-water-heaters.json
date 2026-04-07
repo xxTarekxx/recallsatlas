@@ -1,0 +1,1816 @@
+{
+  "meta": {
+    "slug": "gas-water-heaters",
+    "sourceCsvFile": "gas-water-heaters_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:36.941Z",
+    "recallCount": 2,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "gas-water-heaters.json",
+    "seoTranslatedAt": "2026-04-04T03:45:32.884Z",
+    "resumePartial": false,
+    "i18nSource": "generalRecallsTranslated",
+    "i18nSourceFile": "gas-water-heaters.json",
+    "i18nUiLangs": [
+      "en",
+      "es",
+      "ar",
+      "zh",
+      "fr",
+      "de",
+      "ja",
+      "pt",
+      "hi",
+      "ru",
+      "vi"
+    ],
+    "i18nProgressByLang": {
+      "es": 2,
+      "ar": 2,
+      "zh": 2,
+      "fr": 2,
+      "de": 2,
+      "ja": 2,
+      "pt": 2,
+      "hi": 2,
+      "ru": 2,
+      "vi": 2
+    },
+    "i18nInProgress": false,
+    "i18nTranslatedAt": "2026-04-07T07:50:02.793Z",
+    "i18nOpenaiModel": "gpt-4o-mini"
+  },
+  "recalls": [
+    {
+      "RecallID": 10436,
+      "RecallNumber": "26026",
+      "RecallDate": "2025-10-16T00:00:00",
+      "Description": "VESTA.DS has announced a recall of VST-brand wall-mounted gas boilers, specifically the Series VT, VR, and VR Plus models. The affected models include VRS-150, VRS-199, VRP-150, VRP-199, VRS Plus-150, VRS Plus-199, VRP Plus-150, VRP Plus-199, VTS-150, VTS-199, VTP-150, and VTP-199. These metal, rectangular units feature a white label on the side displaying the model number prominently at the top. The control panel may have 'VST' in white or 'VESTA.DS.Inc.' in gray printed on it.",
+      "URL": "https://www.cpsc.gov/Recalls/2026/VESTA-DS-Recalls-VST-Brand-Tankless-Water-Heaters-Due-to-Carbon-Monoxide-CO-Poisoning-Hazard-and-Risk-of-Serious-Injury-and-Death",
+      "Title": "VESTA.DS Issues Recall for VST Brand Tankless Water Heaters Due to Carbon Monoxide Poisoning Risk",
+      "ConsumerContact": "For more information, consumers can reach VESTA.DS at 888-505-5525 from 8:30 a.m. to 6 p.m. ET, Monday through Friday, email condensingwaterheater@realtimeresults.net, or visit www.recallrtr.com/condensingwaterheater or https://www.vestahws.com and select 'Recall' under the 'Documents/Support' tab.",
+      "LastPublishDate": "2025-10-17T00:00:00",
+      "Products": [
+        {
+          "Name": "VST Brand Gas-Fired Tankless Water Heaters",
+          "NumberOfUnits": "About 36,700 (In addition, about 3,500 were sold in Canada)"
+        }
+      ],
+      "Inconjunctions": [
+        {
+          "URL": "https://recalls-rappels.canada.ca/en/alert-recall/vesta-tankless-hot-water-heater-recalled-due-carbon-monoxide-poisoning-hazard"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/gas-water-heaters/1-VST-Brand-Gas-Fired-Tankless-Water-Heaters/999752bc7ea9d0146dc39aefb931643c.webp",
+          "Caption": "Recalled VR Plus and VT Series Vesta Water Heaters",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/VR-VT-1.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/gas-water-heaters/1-VST-Brand-Gas-Fired-Tankless-Water-Heaters/b29adb899d503884b2e4a21fa1ef4d6c.webp",
+          "Caption": "Recalled VR Series Vesta Water Heater",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/VR-VT-2.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/gas-water-heaters/1-VST-Brand-Gas-Fired-Tankless-Water-Heaters/6a741a2dd16d762d9f36f2110c6b00de.webp",
+          "Caption": "Model Number on the Label of the Recalled Water Heaters",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/VR-VT-3.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received 33 reports of cracked exhaust ducts allowing exhaust fumes to leak out. No injuries have been reported."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available in-store and online at Best Buy, Dick's Sporting Goods, Nebraska Furniture Mart, and ABT, as well as online at nordictrack.com and Amazon.com from November 2018 through April 2022, priced around $1,700."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "VESTA.DS, Inc., of Ontario, California"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "South Korea"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of carbon monoxide (CO) poisoning due to potential exhaust duct cracking."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should stop using the water heater immediately and contact VESTA.DS for a free repair installation by a certified technician. If continued use is necessary, ensure functioning smoke and carbon monoxide alarms are present in the home."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ],
+      "slug": "vesta-ds-issues-recall-for-vst-brand-tankless-water-heaters-due-to-carbon-monoxide-poisoning-risk-recall",
+      "metaDescription": "VESTA.DS recalls VST tankless water heaters due to carbon monoxide poisoning risks. Immediate action required for safety.",
+      "languages": {
+        "en": {
+          "Title": "VESTA.DS Issues Recall for VST Brand Tankless Water Heaters Due to Carbon Monoxide Poisoning Risk",
+          "Description": "VESTA.DS has announced a recall of VST-brand wall-mounted gas boilers, specifically the Series VT, VR, and VR Plus models. The affected models include VRS-150, VRS-199, VRP-150, VRP-199, VRS Plus-150, VRS Plus-199, VRP Plus-150, VRP Plus-199, VTS-150, VTS-199, VTP-150, and VTP-199. These metal, rectangular units feature a white label on the side displaying the model number prominently at the top. The control panel may have 'VST' in white or 'VESTA.DS.Inc.' in gray printed on it.",
+          "ConsumerContact": "For more information, consumers can reach VESTA.DS at 888-505-5525 from 8:30 a.m. to 6 p.m. ET, Monday through Friday, email condensingwaterheater@realtimeresults.net, or visit www.recallrtr.com/condensingwaterheater or https://www.vestahws.com and select 'Recall' under the 'Documents/Support' tab.",
+          "metaDescription": "VESTA.DS recalls VST tankless water heaters due to carbon monoxide poisoning risks. Immediate action required for safety.",
+          "Products": [
+            {
+              "Name": "VST Brand Gas-Fired Tankless Water Heaters",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 36,700 (In addition, about 3,500 were sold in Canada)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled VR Plus and VT Series Vesta Water Heaters"
+            },
+            {
+              "Caption": "Recalled VR Series Vesta Water Heater"
+            },
+            {
+              "Caption": "Model Number on the Label of the Recalled Water Heaters"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "The firm has received 33 reports of cracked exhaust ducts allowing exhaust fumes to leak out. No injuries have been reported."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Available in-store and online at Best Buy, Dick's Sporting Goods, Nebraska Furniture Mart, and ABT, as well as online at nordictrack.com and Amazon.com from November 2018 through April 2022, priced around $1,700."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "VESTA.DS, Inc., of Ontario, California"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Sold At",
+          "ManufacturerCountries": [
+            {
+              "Country": "South Korea"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risk of carbon monoxide (CO) poisoning due to potential exhaust duct cracking."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Consumers should stop using the water heater immediately and contact VESTA.DS for a free repair installation by a certified technician. If continued use is necessary, ensure functioning smoke and carbon monoxide alarms are present in the home."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Repair"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "VESTA.DS Emite un Retiro para Calentadores de Agua Sin Tanque de la Marca VST Debido al Riesgo de Intoxicación por Monóxido de Carbono",
+          "Description": "VESTA.DS ha anunciado un retiro de calderas de gas montadas en la pared de la marca VST, específicamente los modelos de la Serie VT, VR y VR Plus. Los modelos afectados incluyen VRS-150, VRS-199, VRP-150, VRP-199, VRS Plus-150, VRS Plus-199, VRP Plus-150, VRP Plus-199, VTS-150, VTS-199, VTP-150 y VTP-199. Estas unidades metálicas y rectangulares presentan una etiqueta blanca en el costado que muestra el número de modelo de manera prominente en la parte superior. El panel de control puede tener 'VST' en blanco o 'VESTA.DS.Inc.' en gris impreso en él.",
+          "ConsumerContact": "Para más información, los consumidores pueden comunicarse con VESTA.DS al 888-505-5525 de 8:30 a.m. a 6 p.m. ET, de lunes a viernes, enviar un correo electrónico a condensingwaterheater@realtimeresults.net, o visitar www.recallrtr.com/condensingwaterheater o https://www.vestahws.com y seleccionar 'Retiro' en la pestaña 'Documentos/Soporte'.",
+          "metaDescription": "VESTA.DS retira calentadores de agua sin tanque VST debido a riesgos de intoxicación por monóxido de carbono. Se requiere acción inmediata para la seguridad.",
+          "Products": [
+            {
+              "Name": "Calentadores de Agua Sin Tanque de Gas de la Marca VST",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 36,700 (Además, se vendieron aproximadamente 3,500 en Canadá)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Calentadores de Agua Vesta de la Serie VR Plus y VT Retirados"
+            },
+            {
+              "Caption": "Calentador de Agua Vesta de la Serie VR Retirado"
+            },
+            {
+              "Caption": "Número de Modelo en la Etiqueta de los Calentadores de Agua Retirados"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "La empresa ha recibido 33 informes de ductos de escape agrietados que permiten que los gases de escape se filtren. No se han reportado lesiones."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible en tienda y en línea en Best Buy, Dick's Sporting Goods, Nebraska Furniture Mart y ABT, así como en línea en nordictrack.com y Amazon.com desde noviembre de 2018 hasta abril de 2022, con un precio de alrededor de $1,700."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "VESTA.DS, Inc., de Ontario, California"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendidos En",
+          "ManufacturerCountries": [
+            {
+              "Country": "Corea del Sur"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Riesgo de intoxicación por monóxido de carbono (CO) debido a posibles grietas en el ducto de escape."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Los consumidores deben dejar de usar el calentador de agua de inmediato y contactar a VESTA.DS para una instalación de reparación gratuita por un técnico certificado. Si es necesario continuar usándolo, asegúrese de que haya alarmas de humo y monóxido de carbono funcionando en el hogar."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparar"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "VESTA.DS تصدر استدعاء لسخانات المياه بدون خزان من علامة VST بسبب خطر التسمم بأول أكسيد الكربون",
+          "Description": "أعلنت VESTA.DS عن استدعاء سخانات الغاز المعلقة من علامة VST، وتحديداً طرازات VT وVR وVR Plus. تشمل الطرازات المتأثرة VRS-150 وVRS-199 وVRP-150 وVRP-199 وVRS Plus-150 وVRS Plus-199 وVRP Plus-150 وVRP Plus-199 وVTS-150 وVTS-199 وVTP-150 وVTP-199. تتميز هذه الوحدات المعدنية المستطيلة بوجود ملصق أبيض على الجانب يعرض رقم الطراز بشكل بارز في الأعلى. قد تحتوي لوحة التحكم على 'VST' باللون الأبيض أو 'VESTA.DS.Inc.' باللون الرمادي مطبوعة عليها.",
+          "ConsumerContact": "لمزيد من المعلومات، يمكن للمستهلكين التواصل مع VESTA.DS على الرقم 888-505-5525 من الساعة 8:30 صباحًا حتى 6 مساءً بتوقيت شرق الولايات المتحدة، من الإثنين إلى الجمعة، عبر البريد الإلكتروني condensingwaterheater@realtimeresults.net، أو زيارة www.recallrtr.com/condensingwaterheater أو https://www.vestahws.com واختيار 'استدعاء' تحت علامة 'المستندات/الدعم'.",
+          "metaDescription": "تستدعي VESTA.DS سخانات المياه بدون خزان من VST بسبب مخاطر التسمم بأول أكسيد الكربون. يتطلب الأمر اتخاذ إجراء فوري من أجل السلامة.",
+          "Products": [
+            {
+              "Name": "سخانات المياه بدون خزان التي تعمل بالغاز من علامة VST",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 36,700 (بالإضافة إلى أنه تم بيع حوالي 3,500 في كندا)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "سخانات المياه Vesta من طراز VR Plus وVT المستدعاة"
+            },
+            {
+              "Caption": "سخان المياه Vesta من طراز VR المستدعى"
+            },
+            {
+              "Caption": "رقم الطراز على ملصق سخانات المياه المستدعاة"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "تلقت الشركة 33 تقريرًا عن تشققات في أنابيب العادم مما يسمح بتسرب الدخان. لم يتم الإبلاغ عن أي إصابات."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "متاحة في المتاجر وعبر الإنترنت في Best Buy وDick's Sporting Goods وNebraska Furniture Mart وABT، بالإضافة إلى الإنترنت على nordictrack.com وAmazon.com من نوفمبر 2018 حتى أبريل 2022، بسعر حوالي 1,700 دولار."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "VESTA.DS, Inc.، من أونتاريو، كاليفورنيا"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "تم البيع في",
+          "ManufacturerCountries": [
+            {
+              "Country": "كوريا الجنوبية"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "خطر التسمم بأول أكسيد الكربون (CO) بسبب احتمال تشقق أنابيب العادم."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "يجب على المستهلكين التوقف عن استخدام سخان المياه على الفور والتواصل مع VESTA.DS للحصول على تركيب إصلاح مجاني بواسطة فني معتمد. إذا كان من الضروري الاستمرار في الاستخدام، يجب التأكد من وجود أجهزة إنذار للدخان وأول أكسيد الكربون تعمل في المنزل."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "إصلاح"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "VESTA.DS 因一氧化碳中毒风险召回 VST 品牌无储水热水器",
+          "Description": "VESTA.DS 已宣布召回 VST 品牌壁挂式燃气锅炉，具体为 VT、VR 和 VR Plus 系列型号。受影响的型号包括 VRS-150、VRS-199、VRP-150、VRP-199、VRS Plus-150、VRS Plus-199、VRP Plus-150、VRP Plus-199、VTS-150、VTS-199、VTP-150 和 VTP-199。这些金属矩形设备的侧面有一个白色标签，标签顶部显著显示型号。控制面板上可能印有白色的“VST”或灰色的“VESTA.DS.Inc.”。",
+          "ConsumerContact": "如需更多信息，消费者可以在东部时间周一至周五上午 8:30 至下午 6:00 联系 VESTA.DS，电话 888-505-5525，或发送电子邮件至 condensingwaterheater@realtimeresults.net，或访问 www.recallrtr.com/condensingwaterheater 或 https://www.vestahws.com，并在“文档/支持”选项卡下选择“召回”。",
+          "metaDescription": "VESTA.DS 因一氧化碳中毒风险召回 VST 无储水热水器。需要立即采取行动以确保安全。",
+          "Products": [
+            {
+              "Name": "VST 品牌燃气无储水热水器",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约 36,700（此外，约 3,500 台在加拿大销售）"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "召回的 VR Plus 和 VT 系列 Vesta 热水器"
+            },
+            {
+              "Caption": "召回的 VR 系列 Vesta 热水器"
+            },
+            {
+              "Caption": "召回热水器标签上的型号"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "该公司已收到 33 起关于排气管破裂导致废气泄漏的报告。未报告任何伤害。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "在 Best Buy、Dick's Sporting Goods、Nebraska Furniture Mart 和 ABT 的实体店和在线均有销售，以及在 nordictrack.com 和 Amazon.com 上销售，销售时间为 2018 年 11 月至 2022 年 4 月，价格约为 1,700 美元。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "加利福尼亚州安大略市的 VESTA.DS, Inc."
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "销售地点",
+          "ManufacturerCountries": [
+            {
+              "Country": "韩国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "由于排气管可能破裂，存在一氧化碳 (CO) 中毒的风险。"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "消费者应立即停止使用热水器，并联系 VESTA.DS 由认证技术人员进行免费维修安装。如果需要继续使用，请确保家中有正常工作的烟雾和一氧化碳报警器。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "维修"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "VESTA.DS annonce un rappel des chauffe-eau sans réservoir de marque VST en raison d'un risque d'intoxication au monoxyde de carbone",
+          "Description": "VESTA.DS a annoncé un rappel des chaudières à gaz murales de marque VST, spécifiquement les modèles de la série VT, VR et VR Plus. Les modèles concernés incluent VRS-150, VRS-199, VRP-150, VRP-199, VRS Plus-150, VRS Plus-199, VRP Plus-150, VRP Plus-199, VTS-150, VTS-199, VTP-150 et VTP-199. Ces unités métalliques, rectangulaires, présentent une étiquette blanche sur le côté affichant le numéro de modèle de manière proéminente en haut. Le panneau de contrôle peut avoir 'VST' en blanc ou 'VESTA.DS.Inc.' en gris imprimé dessus.",
+          "ConsumerContact": "Pour plus d'informations, les consommateurs peuvent contacter VESTA.DS au 888-505-5525 de 8h30 à 18h00 HE, du lundi au vendredi, envoyer un courriel à condensingwaterheater@realtimeresults.net, ou visiter www.recallrtr.com/condensingwaterheater ou https://www.vestahws.com et sélectionner 'Rappel' sous l'onglet 'Documents/Soutien'.",
+          "metaDescription": "VESTA.DS rappelle des chauffe-eau sans réservoir VST en raison de risques d'intoxication au monoxyde de carbone. Action immédiate requise pour la sécurité.",
+          "Products": [
+            {
+              "Name": "Chauffe-eau sans réservoir à gaz de marque VST",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 36 700 (De plus, environ 3 500 ont été vendus au Canada)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Chauffe-eau Vesta VR Plus et série VT rappelés"
+            },
+            {
+              "Caption": "Chauffe-eau Vesta série VR rappelé"
+            },
+            {
+              "Caption": "Numéro de modèle sur l'étiquette des chauffe-eau rappelés"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "L'entreprise a reçu 33 rapports de conduits d'échappement fissurés permettant aux fumées d'échappement de s'échapper. Aucune blessure n'a été signalée."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible en magasin et en ligne chez Best Buy, Dick's Sporting Goods, Nebraska Furniture Mart et ABT, ainsi qu'en ligne sur nordictrack.com et Amazon.com de novembre 2018 à avril 2022, au prix d'environ 1 700 $."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "VESTA.DS, Inc., d'Ontario, Californie"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendu À",
+          "ManufacturerCountries": [
+            {
+              "Country": "Corée du Sud"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risque d'intoxication au monoxyde de carbone (CO) en raison de fissures potentielles dans le conduit d'échappement."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Les consommateurs doivent cesser d'utiliser immédiatement le chauffe-eau et contacter VESTA.DS pour une installation de réparation gratuite par un technicien certifié. Si une utilisation continue est nécessaire, s'assurer que des détecteurs de fumée et de monoxyde de carbone fonctionnent sont présents dans la maison."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Réparation"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "VESTA.DS ruft VST-Marke Durchlauferhitzer aufgrund des Risikos einer Kohlenmonoxidvergiftung zurück",
+          "Description": "VESTA.DS hat einen Rückruf von Wandgasthermen der Marke VST angekündigt, insbesondere der Modelle der Serien VT, VR und VR Plus. Die betroffenen Modelle umfassen VRS-150, VRS-199, VRP-150, VRP-199, VRS Plus-150, VRS Plus-199, VRP Plus-150, VRP Plus-199, VTS-150, VTS-199, VTP-150 und VTP-199. Diese metallischen, rechteckigen Geräte verfügen über ein weißes Etikett an der Seite, auf dem die Modellnummer prominent oben angezeigt wird. Das Bedienfeld kann 'VST' in Weiß oder 'VESTA.DS.Inc.' in Grau aufgedruckt haben.",
+          "ConsumerContact": "Für weitere Informationen können Verbraucher VESTA.DS unter 888-505-5525 von 8:30 bis 18:00 Uhr ET, Montag bis Freitag, kontaktieren, eine E-Mail an condensingwaterheater@realtimeresults.net senden oder die Website www.recallrtr.com/condensingwaterheater oder https://www.vestahws.com besuchen und 'Rückruf' unter dem Tab 'Dokumente/Support' auswählen.",
+          "metaDescription": "VESTA.DS ruft VST Durchlauferhitzer aufgrund von Kohlenmonoxidvergiftungsrisiken zurück. Sofortige Maßnahmen zur Sicherheit erforderlich.",
+          "Products": [
+            {
+              "Name": "VST Marke gasbetriebene Durchlauferhitzer",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 36.700 (Zusätzlich wurden etwa 3.500 in Kanada verkauft)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Rückgerufene VR Plus und VT Serie Vesta Durchlauferhitzer"
+            },
+            {
+              "Caption": "Rückgerufener VR Serie Vesta Durchlauferhitzer"
+            },
+            {
+              "Caption": "Modellnummer auf dem Etikett der zurückgerufenen Durchlauferhitzer"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Das Unternehmen hat 33 Berichte über rissige Abgasrohre erhalten, die Abgase entweichen lassen. Es wurden keine Verletzungen gemeldet."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Erhältlich im Geschäft und online bei Best Buy, Dick's Sporting Goods, Nebraska Furniture Mart und ABT sowie online bei nordictrack.com und Amazon.com von November 2018 bis April 2022, Preis etwa 1.700 $."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "VESTA.DS, Inc., aus Ontario, Kalifornien"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Verkauft bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "Südkorea"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risiko einer Kohlenmonoxid (CO) Vergiftung aufgrund möglicher Risse in den Abgasrohren."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Verbraucher sollten die Verwendung des Durchlauferhitzers sofort einstellen und VESTA.DS für eine kostenlose Reparaturinstallation durch einen zertifizierten Techniker kontaktieren. Wenn eine weitere Nutzung erforderlich ist, stellen Sie sicher, dass funktionierende Rauch- und Kohlenmonoxidmelder im Haus vorhanden sind."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparatur"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "VESTA.DSが一酸化炭素中毒のリスクによりVSTブランドのタンクレス給湯器のリコールを発表",
+          "Description": "VESTA.DSは、VSTブランドの壁掛けガスボイラー、特にVT、VR、VR Plusシリーズのリコールを発表しました。影響を受けるモデルには、VRS-150、VRS-199、VRP-150、VRP-199、VRS Plus-150、VRS Plus-199、VRP Plus-150、VRP Plus-199、VTS-150、VTS-199、VTP-150、およびVTP-199が含まれます。これらの金属製の長方形ユニットは、側面にモデル番号が目立つように表示された白いラベルがあります。コントロールパネルには、白で「VST」または灰色で「VESTA.DS.Inc.」と印刷されている場合があります。",
+          "ConsumerContact": "詳細情報については、消費者はVESTA.DSに888-505-5525までお電話ください。営業時間は月曜日から金曜日の午前8時30分から午後6時（ET）です。また、メールでcondensingwaterheater@realtimeresults.netに連絡するか、www.recallrtr.com/condensingwaterheaterまたはhttps://www.vestahws.comを訪れて「Documents/Support」タブの下にある「Recall」を選択してください。",
+          "metaDescription": "VESTA.DSは、一酸化炭素中毒のリスクによりVSTタンクレス給湯器をリコールします。安全のために即時の対応が必要です。",
+          "Products": [
+            {
+              "Name": "VSTブランドのガス燃焼タンクレス給湯器",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約36,700台（さらに、約3,500台がカナダで販売されました）"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコールされたVR PlusおよびVTシリーズのVesta給湯器"
+            },
+            {
+              "Caption": "リコールされたVRシリーズのVesta給湯器"
+            },
+            {
+              "Caption": "リコールされた給湯器のラベルに記載されたモデル番号"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "同社は、排気ダクトが亀裂して排気ガスが漏れるとの報告を33件受けています。怪我の報告はありません。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Best Buy、Dick's Sporting Goods、Nebraska Furniture Mart、ABTの店舗およびオンラインで、またnordictrack.comおよびAmazon.comで2018年11月から2022年4月まで販売され、価格は約1,700ドルです。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "カリフォルニア州オンタリオのVESTA.DS, Inc."
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "販売場所",
+          "ManufacturerCountries": [
+            {
+              "Country": "韓国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "排気ダクトの亀裂による一酸化炭素（CO）中毒のリスク。"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "消費者は、直ちに給湯器の使用を中止し、認定技術者による無料修理のためにVESTA.DSに連絡するべきです。使用を続ける必要がある場合は、家庭に機能する煙および一酸化炭素警報器が設置されていることを確認してください。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "修理"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "VESTA.DS Anuncia Recall de Aquecedores de Água Sem Tanque da Marca VST Devido ao Risco de Intoxicação por Monóxido de Carbono",
+          "Description": "A VESTA.DS anunciou um recall de caldeiras a gás montadas na parede da marca VST, especificamente dos modelos das Séries VT, VR e VR Plus. Os modelos afetados incluem VRS-150, VRS-199, VRP-150, VRP-199, VRS Plus-150, VRS Plus-199, VRP Plus-150, VRP Plus-199, VTS-150, VTS-199, VTP-150 e VTP-199. Essas unidades metálicas e retangulares apresentam um rótulo branco na lateral exibindo o número do modelo em destaque na parte superior. O painel de controle pode ter 'VST' em branco ou 'VESTA.DS.Inc.' em cinza impresso nele.",
+          "ConsumerContact": "Para mais informações, os consumidores podem entrar em contato com a VESTA.DS pelo telefone 888-505-5525 das 8h30 às 18h ET, de segunda a sexta-feira, enviar um e-mail para condensingwaterheater@realtimeresults.net, ou visitar www.recallrtr.com/condensingwaterheater ou https://www.vestahws.com e selecionar 'Recall' na aba 'Documentos/Suporte'.",
+          "metaDescription": "A VESTA.DS faz recall de aquecedores de água sem tanque da VST devido a riscos de intoxicação por monóxido de carbono. Ação imediata necessária para segurança.",
+          "Products": [
+            {
+              "Name": "Aquecedores de Água Sem Tanque a Gás da Marca VST",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 36.700 (Além disso, cerca de 3.500 foram vendidos no Canadá)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Aquecedores de Água Vesta da Série VR Plus e VT Recallados"
+            },
+            {
+              "Caption": "Aquecedor de Água Vesta da Série VR Recallado"
+            },
+            {
+              "Caption": "Número do Modelo no Rótulo dos Aquecedores de Água Recallados"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "A empresa recebeu 33 relatos de dutos de exaustão rachados permitindo que os gases de exaustão vazassem. Nenhum ferimento foi relatado."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponível em lojas e online na Best Buy, Dick's Sporting Goods, Nebraska Furniture Mart e ABT, além de online em nordictrack.com e Amazon.com de novembro de 2018 a abril de 2022, com preço em torno de $1.700."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "VESTA.DS, Inc., de Ontario, Califórnia"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendido Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "Coreia do Sul"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risco de intoxicação por monóxido de carbono (CO) devido ao potencial de rachaduras nos dutos de exaustão."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Os consumidores devem parar de usar o aquecedor de água imediatamente e entrar em contato com a VESTA.DS para uma instalação de reparo gratuita por um técnico certificado. Se o uso contínuo for necessário, garantir que alarmes de fumaça e monóxido de carbono funcionais estejam presentes na casa."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparo"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "VESTA.DS ने कार्बन मोनोऑक्साइड विषाक्तता के जोखिम के कारण VST ब्रांड टैंकलेस वॉटर हीटर का रिकॉल किया",
+          "Description": "VESTA.DS ने VST-ब्रांड की दीवार-माउंटेड गैस बॉयलरों का रिकॉल किया है, विशेष रूप से श्रृंखला VT, VR, और VR Plus मॉडल। प्रभावित मॉडलों में VRS-150, VRS-199, VRP-150, VRP-199, VRS Plus-150, VRS Plus-199, VRP Plus-150, VRP Plus-199, VTS-150, VTS-199, VTP-150, और VTP-199 शामिल हैं। ये धातु, आयताकार इकाइयाँ एक सफेद लेबल के साथ आती हैं जो साइड पर मॉडल नंबर को प्रमुखता से शीर्ष पर प्रदर्शित करती हैं। नियंत्रण पैनल पर 'VST' सफेद रंग में या 'VESTA.DS.Inc.' ग्रे रंग में मुद्रित हो सकता है।",
+          "ConsumerContact": "अधिक जानकारी के लिए, उपभोक्ता VESTA.DS से 888-505-5525 पर सुबह 8:30 से शाम 6 बजे ET, सोमवार से शुक्रवार, ईमेल condensingwaterheater@realtimeresults.net पर संपर्क कर सकते हैं, या www.recallrtr.com/condensingwaterheater या https://www.vestahws.com पर जाकर 'Documents/Support' टैब के तहत 'Recall' का चयन कर सकते हैं।",
+          "metaDescription": "VESTA.DS कार्बन मोनोऑक्साइड विषाक्तता के जोखिम के कारण VST टैंकलेस वॉटर हीटर का रिकॉल करता है। सुरक्षा के लिए तत्काल कार्रवाई की आवश्यकता है।",
+          "Products": [
+            {
+              "Name": "VST ब्रांड गैस-फायर टैंकलेस वॉटर हीटर",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 36,700 (इसके अलावा, लगभग 3,500 कनाडा में बेचे गए)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "रिकॉल किए गए VR Plus और VT श्रृंखला वेस्टा वॉटर हीटर"
+            },
+            {
+              "Caption": "रिकॉल किया गया VR श्रृंखला वेस्टा वॉटर हीटर"
+            },
+            {
+              "Caption": "रिकॉल किए गए वॉटर हीटर के लेबल पर मॉडल नंबर"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "कंपनी को 33 रिपोर्ट मिली हैं जिसमें बताया गया है कि निकास नलिकाएँ फटी हुई हैं जिससे निकास धुएँ बाहर निकलने की अनुमति मिलती है। कोई चोटें रिपोर्ट नहीं की गई हैं।"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "बेस्ट बाय, डिक के स्पोर्टिंग गुड्स, नेब्रास्का फर्नीचर मार्ट, और ABT में स्टोर और ऑनलाइन उपलब्ध है, साथ ही nordictrack.com और Amazon.com पर नवंबर 2018 से अप्रैल 2022 तक, कीमत लगभग $1,700।"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "VESTA.DS, Inc., ओंटारियो, कैलिफोर्निया"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "दक्षिण कोरिया"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "निकास नलिका के फटने के संभावित जोखिम के कारण कार्बन मोनोऑक्साइड (CO) विषाक्तता का जोखिम।"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "उपभोक्ताओं को तुरंत वॉटर हीटर का उपयोग बंद कर देना चाहिए और प्रमाणित तकनीशियन द्वारा मुफ्त मरम्मत स्थापना के लिए VESTA.DS से संपर्क करना चाहिए। यदि निरंतर उपयोग आवश्यक है, तो सुनिश्चित करें कि घर में कार्यशील धुआँ और कार्बन मोनोऑक्साइड अलार्म मौजूद हैं।"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "मरम्मत"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "VESTA.DS объявляет отзыв водонагревателей без резервуара марки VST из-за риска отравления угарным газом",
+          "Description": "VESTA.DS объявила отзыв настенных газовых котлов марки VST, в частности моделей серии VT, VR и VR Plus. Затронутые модели включают VRS-150, VRS-199, VRP-150, VRP-199, VRS Plus-150, VRS Plus-199, VRP Plus-150, VRP Plus-199, VTS-150, VTS-199, VTP-150 и VTP-199. Эти металлические, прямоугольные устройства имеют белую этикетку сбоку, на которой модель prominently указана вверху. На панели управления может быть напечатано 'VST' белым цветом или 'VESTA.DS.Inc.' серым цветом.",
+          "ConsumerContact": "Для получения дополнительной информации потребители могут связаться с VESTA.DS по телефону 888-505-5525 с 8:30 до 18:00 по восточному времени с понедельника по пятницу, отправить электронное письмо на condensingwaterheater@realtimeresults.net или посетить www.recallrtr.com/condensingwaterheater или https://www.vestahws.com и выбрать 'Отзыв' в разделе 'Документы/Поддержка'.",
+          "metaDescription": "VESTA.DS отзывает водонагреватели без резервуара VST из-за рисков отравления угарным газом. Необходимы немедленные действия для обеспечения безопасности.",
+          "Products": [
+            {
+              "Name": "Газовые водонагреватели без резервуара марки VST",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 36,700 (Кроме того, около 3,500 были проданы в Канаде)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванные водонагреватели Vesta серии VR Plus и VT"
+            },
+            {
+              "Caption": "Отозванный водонагреватель Vesta серии VR"
+            },
+            {
+              "Caption": "Номер модели на этикетке отозванных водонагревателей"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Компания получила 33 сообщения о трещинах в вытяжных трубах, позволяющих утечку выхлопных газов. О травмах не сообщалось."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Доступны в магазинах и онлайн в Best Buy, Dick's Sporting Goods, Nebraska Furniture Mart и ABT, а также онлайн на nordictrack.com и Amazon.com с ноября 2018 года по апрель 2022 года, по цене около $1,700."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "VESTA.DS, Inc., из Онтарио, Калифорния"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Продавалось в",
+          "ManufacturerCountries": [
+            {
+              "Country": "Южная Корея"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Риск отравления угарным газом (CO) из-за потенциального растрескивания вытяжной трубы."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Потребители должны немедленно прекратить использование водонагревателя и связаться с VESTA.DS для бесплатной установки ремонта сертифицированным техником. Если продолжение использования необходимо, убедитесь, что в доме установлены работающие дымовые и угарные газовые сигнализации."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Ремонт"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "VESTA.DS Thông Báo Thu Hồi Máy Nước Nóng Không Bình Hiệu VST Do Nguy Cơ Ngộ Độc Carbon Monoxide",
+          "Description": "VESTA.DS đã thông báo thu hồi các máy nước nóng gas treo tường hiệu VST, cụ thể là các mẫu Series VT, VR, và VR Plus. Các mẫu bị ảnh hưởng bao gồm VRS-150, VRS-199, VRP-150, VRP-199, VRS Plus-150, VRS Plus-199, VRP Plus-150, VRP Plus-199, VTS-150, VTS-199, VTP-150, và VTP-199. Những thiết bị kim loại hình chữ nhật này có nhãn trắng bên hông hiển thị số mẫu một cách nổi bật ở phía trên. Bảng điều khiển có thể có 'VST' in màu trắng hoặc 'VESTA.DS.Inc.' in màu xám trên đó.",
+          "ConsumerContact": "Để biết thêm thông tin, người tiêu dùng có thể liên hệ với VESTA.DS qua số điện thoại 888-505-5525 từ 8:30 sáng đến 6:00 chiều ET, từ thứ Hai đến thứ Sáu, gửi email đến condensingwaterheater@realtimeresults.net, hoặc truy cập www.recallrtr.com/condensingwaterheater hoặc https://www.vestahws.com và chọn 'Recall' dưới tab 'Documents/Support'.",
+          "metaDescription": "VESTA.DS thu hồi máy nước nóng không bình VST do nguy cơ ngộ độc carbon monoxide. Cần hành động ngay lập tức để đảm bảo an toàn.",
+          "Products": [
+            {
+              "Name": "Máy Nước Nóng Không Bình Gas Hiệu VST",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 36,700 (Ngoài ra, khoảng 3,500 đã được bán ở Canada)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Máy Nước Nóng Vesta VR Plus và VT Series Đã Bị Thu Hồi"
+            },
+            {
+              "Caption": "Máy Nước Nóng Vesta VR Series Đã Bị Thu Hồi"
+            },
+            {
+              "Caption": "Số Mẫu Trên Nhãn Của Các Máy Nước Nóng Đã Bị Thu Hồi"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Công ty đã nhận được 33 báo cáo về các ống xả bị nứt cho phép khí thải rò rỉ ra ngoài. Không có báo cáo nào về thương tích."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Có mặt tại cửa hàng và trực tuyến tại Best Buy, Dick's Sporting Goods, Nebraska Furniture Mart, và ABT, cũng như trực tuyến tại nordictrack.com và Amazon.com từ tháng 11 năm 2018 đến tháng 4 năm 2022, với giá khoảng 1,700 đô la."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "VESTA.DS, Inc., tại Ontario, California"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Bán Tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Hàn Quốc"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Nguy cơ ngộ độc carbon monoxide (CO) do khả năng nứt ống xả."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Người tiêu dùng nên ngừng sử dụng máy nước nóng ngay lập tức và liên hệ với VESTA.DS để được lắp đặt sửa chữa miễn phí bởi kỹ thuật viên được chứng nhận. Nếu cần thiết phải tiếp tục sử dụng, hãy đảm bảo có các thiết bị báo khói và carbon monoxide hoạt động trong nhà."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Sửa Chữa"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    },
+    {
+      "RecallID": 9874,
+      "RecallNumber": "24137",
+      "RecallDate": "2024-02-29T00:00:00",
+      "Description": "Certain models of Camplux portable tankless water heaters are being recalled due to a potential fire hazard stemming from gas leaks at the regulator connection. The affected models include AY132, BD158, BW211, BW264, and BW422, manufactured on or before specific dates in 2021. These heaters are designed for outdoor use and are available in white, black, and silver/gray colors, featuring the 'Camplux' logo on the front. Product labels containing model details and serial numbers are located on the side of the units. Consumers are advised to photograph their product labels and send them to Camplux for verification of the recall and to receive a replacement gas regulator.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/The-Home-Appliances-Recalls-Camplux-Brand-Portable-Tankless-Water-Heaters-Due-to-Fire-Hazard",
+      "Title": "Camplux Portable Tankless Water Heaters Recalled Due to Fire Risk",
+      "ConsumerContact": "For assistance, contact The Home Appliances (\"Camplux\") at 844-538-7475 from 9 a.m. to 5 p.m. ET, Monday through Friday, or email support@camplux.com. More details can be found online at www.thehomeappliances.com under the 'Recalls' section or directly at www.thehomeappliances.com/waterheaterrecall.",
+      "LastPublishDate": "2024-02-29T00:00:00",
+      "Products": [
+        {
+          "Name": "Camplux Portable Tankless Water Heater AY132",
+          "NumberOfUnits": "About 42,000"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/gas-water-heaters/2-Camplux-Portable-Tankless-Water-Heater-AY132/99ee311d1185d974db4b274284887ddc.webp",
+          "Caption": "Recalled Camplux brand AY132 portable tankless water heater – white",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Camplux-AY132-white_0.png"
+        },
+        {
+          "URL": "/images/generalRecalls/gas-water-heaters/2-Camplux-Portable-Tankless-Water-Heater-AY132/03660012efd4aa879519d3a5482aead1.webp",
+          "Caption": "Recalled Camplux brand AY132 portable tankless water heater – black",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Camplux-AY132-black_0.png"
+        },
+        {
+          "URL": "/images/generalRecalls/gas-water-heaters/2-Camplux-Portable-Tankless-Water-Heater-AY132/01dd79d59dc3d976b40d874ea927e88c.webp",
+          "Caption": "Recalled Camplux brand AY132 portable tankless water heater – gray/silver",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Camplux-AY132-gray_0.png"
+        },
+        {
+          "URL": "/images/generalRecalls/gas-water-heaters/2-Camplux-Portable-Tankless-Water-Heater-AY132/f8b35cf8ca0b9f6042d183a5e9afe93c.webp",
+          "Caption": "Recalled Camplux brand BD158 portable tankless water heater",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Camplux-BD158_0.png"
+        },
+        {
+          "URL": "/images/generalRecalls/gas-water-heaters/2-Camplux-Portable-Tankless-Water-Heater-AY132/b7bd6f0bd87fa265f068d38fe725b497.webp",
+          "Caption": "Recalled Camplux brand BW211 portable tankless water heater – white",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Camplux-BW211-white_0.png"
+        },
+        {
+          "URL": "/images/generalRecalls/gas-water-heaters/2-Camplux-Portable-Tankless-Water-Heater-AY132/1ea09d24103d79d8ebd7828da77dd1f5.webp",
+          "Caption": "Recalled Camplux brand BW211 portable tankless water heater – gray/silver",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Camplux-BW211-gray_0.png"
+        },
+        {
+          "URL": "/images/generalRecalls/gas-water-heaters/2-Camplux-Portable-Tankless-Water-Heater-AY132/c085e4ccde8f8b2611d9c4867cd733f8.webp",
+          "Caption": "Recalled Camplux brand BW264 portable tankless water heater",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Camplux-BW264_0.png"
+        },
+        {
+          "URL": "/images/generalRecalls/gas-water-heaters/2-Camplux-Portable-Tankless-Water-Heater-AY132/7ce49d747c62c7b302498cfa2dcf6497.webp",
+          "Caption": "Recalled Camplux brand BW422 portable tankless water heater",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Camplux-BW422_0.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "Camplux has received 19 reports of fire incidents involving the recalled water heaters. No injuries have been reported."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available online at Amazon.com"
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "The Home Appliances Inc., d/b/a Camplux, of North Charleston, South Carolina"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Gas leak from the regulator connection, creating a fire hazard."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should stop using the recalled heaters and contact The Home Appliances for a free repair kit, which includes a replacement gas regulator and installation instructions."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ],
+      "slug": "camplux-portable-tankless-water-heaters-recalled-due-to-fire-risk-recall",
+      "metaDescription": "Camplux recalls portable tankless water heaters due to fire hazards. Check if your model is affected and learn how to get a free repair kit.",
+      "languages": {
+        "en": {
+          "Title": "Camplux Portable Tankless Water Heaters Recalled Due to Fire Risk",
+          "Description": "Certain models of Camplux portable tankless water heaters are being recalled due to a potential fire hazard stemming from gas leaks at the regulator connection. The affected models include AY132, BD158, BW211, BW264, and BW422, manufactured on or before specific dates in 2021. These heaters are designed for outdoor use and are available in white, black, and silver/gray colors, featuring the 'Camplux' logo on the front. Product labels containing model details and serial numbers are located on the side of the units. Consumers are advised to photograph their product labels and send them to Camplux for verification of the recall and to receive a replacement gas regulator.",
+          "ConsumerContact": "For assistance, contact The Home Appliances (\"Camplux\") at 844-538-7475 from 9 a.m. to 5 p.m. ET, Monday through Friday, or email support@camplux.com. More details can be found online at www.thehomeappliances.com under the 'Recalls' section or directly at www.thehomeappliances.com/waterheaterrecall.",
+          "metaDescription": "Camplux recalls portable tankless water heaters due to fire hazards. Check if your model is affected and learn how to get a free repair kit.",
+          "Products": [
+            {
+              "Name": "Camplux Portable Tankless Water Heater AY132",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 42,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled Camplux brand AY132 portable tankless water heater – white"
+            },
+            {
+              "Caption": "Recalled Camplux brand AY132 portable tankless water heater – black"
+            },
+            {
+              "Caption": "Recalled Camplux brand AY132 portable tankless water heater – gray/silver"
+            },
+            {
+              "Caption": "Recalled Camplux brand BD158 portable tankless water heater"
+            },
+            {
+              "Caption": "Recalled Camplux brand BW211 portable tankless water heater – white"
+            },
+            {
+              "Caption": "Recalled Camplux brand BW211 portable tankless water heater – gray/silver"
+            },
+            {
+              "Caption": "Recalled Camplux brand BW264 portable tankless water heater"
+            },
+            {
+              "Caption": "Recalled Camplux brand BW422 portable tankless water heater"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Camplux has received 19 reports of fire incidents involving the recalled water heaters. No injuries have been reported."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Available online at Amazon.com"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "The Home Appliances Inc., d/b/a Camplux, of North Charleston, South Carolina"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Sold At",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Gas leak from the regulator connection, creating a fire hazard."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Consumers should stop using the recalled heaters and contact The Home Appliances for a free repair kit, which includes a replacement gas regulator and installation instructions."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Repair"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "Calentadores de agua portátiles sin tanque Camplux retirados debido al riesgo de incendio",
+          "Description": "Ciertos modelos de calentadores de agua portátiles sin tanque Camplux están siendo retirados debido a un posible riesgo de incendio derivado de fugas de gas en la conexión del regulador. Los modelos afectados incluyen AY132, BD158, BW211, BW264 y BW422, fabricados en o antes de fechas específicas en 2021. Estos calentadores están diseñados para uso en exteriores y están disponibles en colores blanco, negro y plateado/gris, con el logo 'Camplux' en la parte frontal. Las etiquetas del producto que contienen detalles del modelo y números de serie se encuentran en el costado de las unidades. Se aconseja a los consumidores que fotografíen las etiquetas de sus productos y las envíen a Camplux para la verificación del retiro y para recibir un regulador de gas de reemplazo.",
+          "ConsumerContact": "Para asistencia, comuníquese con The Home Appliances (\"Camplux\") al 844-538-7475 de 9 a.m. a 5 p.m. ET, de lunes a viernes, o envíe un correo electrónico a support@camplux.com. Más detalles se pueden encontrar en línea en www.thehomeappliances.com en la sección 'Retiradas' o directamente en www.thehomeappliances.com/waterheaterrecall.",
+          "metaDescription": "Camplux retira calentadores de agua portátiles sin tanque debido a riesgos de incendio. Verifique si su modelo está afectado y aprenda cómo obtener un kit de reparación gratuito.",
+          "Products": [
+            {
+              "Name": "Calentador de agua portátil sin tanque Camplux AY132",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 42,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Calentador de agua portátil sin tanque Camplux marca AY132 retirado – blanco"
+            },
+            {
+              "Caption": "Calentador de agua portátil sin tanque Camplux marca AY132 retirado – negro"
+            },
+            {
+              "Caption": "Calentador de agua portátil sin tanque Camplux marca AY132 retirado – gris/plateado"
+            },
+            {
+              "Caption": "Calentador de agua portátil sin tanque Camplux marca BD158 retirado"
+            },
+            {
+              "Caption": "Calentador de agua portátil sin tanque Camplux marca BW211 retirado – blanco"
+            },
+            {
+              "Caption": "Calentador de agua portátil sin tanque Camplux marca BW211 retirado – gris/plateado"
+            },
+            {
+              "Caption": "Calentador de agua portátil sin tanque Camplux marca BW264 retirado"
+            },
+            {
+              "Caption": "Calentador de agua portátil sin tanque Camplux marca BW422 retirado"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Camplux ha recibido 19 informes de incidentes de incendio relacionados con los calentadores de agua retirados. No se han reportado lesiones."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible en línea en Amazon.com"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "The Home Appliances Inc., d/b/a Camplux, de North Charleston, Carolina del Sur"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendidos en",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Fuga de gas de la conexión del regulador, creando un riesgo de incendio."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Los consumidores deben dejar de usar los calentadores retirados y contactar a The Home Appliances para obtener un kit de reparación gratuito, que incluye un regulador de gas de reemplazo e instrucciones de instalación."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparar"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "استدعاء سخانات المياه المحمولة بدون خزان من كامبلكس بسبب خطر الحريق",
+          "Description": "يتم استدعاء نماذج معينة من سخانات المياه المحمولة بدون خزان من كامبلكس بسبب خطر حريق محتمل ناتج عن تسرب الغاز عند وصلة المنظم. تشمل النماذج المتأثرة AY132 و BD158 و BW211 و BW264 و BW422، التي تم تصنيعها في تواريخ محددة في عام 2021 أو قبلها. تم تصميم هذه السخانات للاستخدام الخارجي ومتاحة بالألوان الأبيض والأسود والفضي/الرمادي، مع شعار 'كامبلكس' على الجهة الأمامية. توجد ملصقات المنتجات التي تحتوي على تفاصيل النموذج وأرقام التسلسل على جانب الوحدات. يُنصح المستهلكون بالتقاط صور لملصقات منتجاتهم وإرسالها إلى كامبلكس للتحقق من الاستدعاء ولتلقي منظم غاز بديل.",
+          "ConsumerContact": "للمساعدة، اتصل بشركة الأجهزة المنزلية (\"كامبلكس\") على الرقم 844-538-7475 من الساعة 9 صباحًا حتى 5 مساءً بتوقيت شرق الولايات المتحدة، من الاثنين إلى الجمعة، أو أرسل بريدًا إلكترونيًا إلى support@camplux.com. يمكن العثور على مزيد من التفاصيل عبر الإنترنت على www.thehomeappliances.com تحت قسم 'الاستدعاءات' أو مباشرة على www.thehomeappliances.com/waterheaterrecall.",
+          "metaDescription": "كامبلكس تستدعي سخانات المياه المحمولة بدون خزان بسبب مخاطر الحريق. تحقق مما إذا كان نموذجك متأثرًا وتعلم كيفية الحصول على مجموعة إصلاح مجانية.",
+          "Products": [
+            {
+              "Name": "سخان المياه المحمول بدون خزان كامبلكس AY132",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 42,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "سخان المياه المحمول بدون خزان من كامبلكس AY132 المستدعى – أبيض"
+            },
+            {
+              "Caption": "سخان المياه المحمول بدون خزان من كامبلكس AY132 المستدعى – أسود"
+            },
+            {
+              "Caption": "سخان المياه المحمول بدون خزان من كامبلكس AY132 المستدعى – رمادي/فضي"
+            },
+            {
+              "Caption": "سخان المياه المحمول بدون خزان من كامبلكس BD158 المستدعى"
+            },
+            {
+              "Caption": "سخان المياه المحمول بدون خزان من كامبلكس BW211 المستدعى – أبيض"
+            },
+            {
+              "Caption": "سخان المياه المحمول بدون خزان من كامبلكس BW211 المستدعى – رمادي/فضي"
+            },
+            {
+              "Caption": "سخان المياه المحمول بدون خزان من كامبلكس BW264 المستدعى"
+            },
+            {
+              "Caption": "سخان المياه المحمول بدون خزان من كامبلكس BW422 المستدعى"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "تلقت كامبلكس 19 تقريرًا عن حوادث حريق تتعلق بسخانات المياه المستدعاة. لم يتم الإبلاغ عن أي إصابات."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "متوفر عبر الإنترنت على Amazon.com"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "شركة الأجهزة المنزلية، المعروفة باسم كامبلكس، من نورث تشارلستون، كارولينا الجنوبية"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "تم البيع في",
+          "ManufacturerCountries": [
+            {
+              "Country": "الصين"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "تسرب الغاز من وصلة المنظم، مما يخلق خطر الحريق."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "يجب على المستهلكين التوقف عن استخدام السخانات المستدعاة والاتصال بشركة الأجهزة المنزلية للحصول على مجموعة إصلاح مجانية، والتي تشمل منظم غاز بديل وتعليمات التركيب."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "إصلاح"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "Camplux 便携式无水箱热水器因火灾风险被召回",
+          "Description": "某些型号的 Camplux 便携式无水箱热水器因调节器连接处的气体泄漏可能导致火灾隐患而被召回。受影响的型号包括 AY132、BD158、BW211、BW264 和 BW422，这些型号的生产日期为 2021 年或之前。这些热水器设计用于户外使用，颜色有白色、黑色和银色/灰色，前面印有“Camplux”标志。产品标签包含型号细节和序列号，位于设备侧面。建议消费者拍摄产品标签并将其发送给 Camplux，以验证召回并获得替换的气体调节器。",
+          "ConsumerContact": "如需帮助，请联系家用电器（\"Camplux\"），电话 844-538-7475，工作时间为周一至周五，东部时间上午 9 点至下午 5 点，或发送电子邮件至 support@camplux.com。更多详细信息可以在 www.thehomeappliances.com 的“召回”部分找到，或直接访问 www.thehomeappliances.com/waterheaterrecall。",
+          "metaDescription": "Camplux 因火灾隐患召回便携式无水箱热水器。检查您的型号是否受影响，并了解如何获得免费的维修工具包。",
+          "Products": [
+            {
+              "Name": "Camplux 便携式无水箱热水器 AY132",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约 42,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "被召回的 Camplux 品牌 AY132 便携式无水箱热水器 - 白色"
+            },
+            {
+              "Caption": "被召回的 Camplux 品牌 AY132 便携式无水箱热水器 - 黑色"
+            },
+            {
+              "Caption": "被召回的 Camplux 品牌 AY132 便携式无水箱热水器 - 灰色/银色"
+            },
+            {
+              "Caption": "被召回的 Camplux 品牌 BD158 便携式无水箱热水器"
+            },
+            {
+              "Caption": "被召回的 Camplux 品牌 BW211 便携式无水箱热水器 - 白色"
+            },
+            {
+              "Caption": "被召回的 Camplux 品牌 BW211 便携式无水箱热水器 - 灰色/银色"
+            },
+            {
+              "Caption": "被召回的 Camplux 品牌 BW264 便携式无水箱热水器"
+            },
+            {
+              "Caption": "被召回的 Camplux 品牌 BW422 便携式无水箱热水器"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Camplux 已收到 19 起与被召回热水器相关的火灾事件报告。没有报告受伤情况。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "在 Amazon.com 上有售"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "南卡罗来纳州北查尔斯顿的家用电器公司，经营名称为 Camplux"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "销售地点",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "调节器连接处的气体泄漏，造成火灾隐患。"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "消费者应停止使用被召回的热水器，并联系家用电器公司以获取免费的维修工具包，其中包括替换的气体调节器和安装说明。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "维修"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "Rappel des chauffe-eau portables sans réservoir Camplux en raison d'un risque d'incendie",
+          "Description": "Certains modèles de chauffe-eau portables sans réservoir Camplux sont rappelés en raison d'un risque d'incendie potentiel résultant de fuites de gaz au niveau de la connexion du régulateur. Les modèles concernés incluent AY132, BD158, BW211, BW264 et BW422, fabriqués à des dates spécifiques en 2021 ou avant. Ces chauffe-eau sont conçus pour une utilisation en extérieur et sont disponibles en blanc, noir et argent/gris, arborant le logo 'Camplux' à l'avant. Les étiquettes des produits contenant les détails du modèle et les numéros de série se trouvent sur le côté des unités. Les consommateurs sont invités à photographier leurs étiquettes de produit et à les envoyer à Camplux pour vérification du rappel et pour recevoir un régulateur de gaz de remplacement.",
+          "ConsumerContact": "Pour assistance, contactez The Home Appliances (\"Camplux\") au 844-538-7475 de 9 h à 17 h HE, du lundi au vendredi, ou envoyez un courriel à support@camplux.com. Plus de détails peuvent être trouvés en ligne sur www.thehomeappliances.com dans la section 'Rappels' ou directement sur www.thehomeappliances.com/waterheaterrecall.",
+          "metaDescription": "Camplux rappelle des chauffe-eau portables sans réservoir en raison de risques d'incendie. Vérifiez si votre modèle est concerné et apprenez comment obtenir un kit de réparation gratuit.",
+          "Products": [
+            {
+              "Name": "Chauffe-eau portable sans réservoir Camplux AY132",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 42 000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Chauffe-eau portable sans réservoir Camplux AY132 rappelé – blanc"
+            },
+            {
+              "Caption": "Chauffe-eau portable sans réservoir Camplux AY132 rappelé – noir"
+            },
+            {
+              "Caption": "Chauffe-eau portable sans réservoir Camplux AY132 rappelé – gris/argent"
+            },
+            {
+              "Caption": "Chauffe-eau portable sans réservoir Camplux BD158 rappelé"
+            },
+            {
+              "Caption": "Chauffe-eau portable sans réservoir Camplux BW211 rappelé – blanc"
+            },
+            {
+              "Caption": "Chauffe-eau portable sans réservoir Camplux BW211 rappelé – gris/argent"
+            },
+            {
+              "Caption": "Chauffe-eau portable sans réservoir Camplux BW264 rappelé"
+            },
+            {
+              "Caption": "Chauffe-eau portable sans réservoir Camplux BW422 rappelé"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Camplux a reçu 19 rapports d'incidents d'incendie impliquant les chauffe-eau rappelés. Aucune blessure n'a été signalée."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible en ligne sur Amazon.com"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "The Home Appliances Inc., faisant affaire sous le nom de Camplux, de North Charleston, Caroline du Sud"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendu À",
+          "ManufacturerCountries": [
+            {
+              "Country": "Chine"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Fuite de gaz de la connexion du régulateur, créant un risque d'incendie."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Les consommateurs doivent cesser d'utiliser les chauffe-eau rappelés et contacter The Home Appliances pour un kit de réparation gratuit, qui comprend un régulateur de gaz de remplacement et des instructions d'installation."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Réparation"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "Camplux tragbare Durchlauferhitzer zurückgerufen aufgrund von Brandgefahr",
+          "Description": "Bestimmte Modelle der tragbaren Durchlauferhitzer von Camplux werden aufgrund einer potenziellen Brandgefahr, die von Gaslecks an der Reglerverbindung ausgeht, zurückgerufen. Die betroffenen Modelle umfassen AY132, BD158, BW211, BW264 und BW422, die am oder vor bestimmten Daten im Jahr 2021 hergestellt wurden. Diese Heizgeräte sind für den Außenbereich konzipiert und sind in den Farben Weiß, Schwarz und Silber/Grau erhältlich, mit dem 'Camplux'-Logo auf der Vorderseite. Produktetiketten mit Modellinformationen und Seriennummern befinden sich an der Seite der Geräte. Verbrauchern wird geraten, ihre Produktetiketten zu fotografieren und sie zur Überprüfung des Rückrufs an Camplux zu senden, um einen Ersatzgasregler zu erhalten.",
+          "ConsumerContact": "Für Unterstützung kontaktieren Sie The Home Appliances (\"Camplux\") unter 844-538-7475 von 9 bis 17 Uhr ET, Montag bis Freitag, oder senden Sie eine E-Mail an support@camplux.com. Weitere Details finden Sie online unter www.thehomeappliances.com im Abschnitt 'Rückrufe' oder direkt unter www.thehomeappliances.com/waterheaterrecall.",
+          "metaDescription": "Camplux ruft tragbare Durchlauferhitzer aufgrund von Brandgefahren zurück. Überprüfen Sie, ob Ihr Modell betroffen ist, und erfahren Sie, wie Sie ein kostenloses Reparaturset erhalten.",
+          "Products": [
+            {
+              "Name": "Camplux tragbarer Durchlauferhitzer AY132",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 42.000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Zurückgerufener tragbarer Durchlauferhitzer der Marke Camplux AY132 – weiß"
+            },
+            {
+              "Caption": "Zurückgerufener tragbarer Durchlauferhitzer der Marke Camplux AY132 – schwarz"
+            },
+            {
+              "Caption": "Zurückgerufener tragbarer Durchlauferhitzer der Marke Camplux AY132 – grau/silber"
+            },
+            {
+              "Caption": "Zurückgerufener tragbarer Durchlauferhitzer der Marke Camplux BD158"
+            },
+            {
+              "Caption": "Zurückgerufener tragbarer Durchlauferhitzer der Marke Camplux BW211 – weiß"
+            },
+            {
+              "Caption": "Zurückgerufener tragbarer Durchlauferhitzer der Marke Camplux BW211 – grau/silber"
+            },
+            {
+              "Caption": "Zurückgerufener tragbarer Durchlauferhitzer der Marke Camplux BW264"
+            },
+            {
+              "Caption": "Zurückgerufener tragbarer Durchlauferhitzer der Marke Camplux BW422"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Camplux hat 19 Berichte über Brandvorfälle im Zusammenhang mit den zurückgerufenen Wassererhitzern erhalten. Es wurden keine Verletzungen gemeldet."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Online erhältlich bei Amazon.com"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "The Home Appliances Inc., d/b/a Camplux, aus North Charleston, South Carolina"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Verkauft bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Gasleck von der Reglerverbindung, was eine Brandgefahr darstellt."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Verbraucher sollten die zurückgerufenen Heizgeräte nicht mehr verwenden und The Home Appliances für ein kostenloses Reparaturset kontaktieren, das einen Ersatzgasregler und Installationsanleitungen enthält."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparatur"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "Camplux ポータブルタンクレス給湯器が火災リスクのためリコール",
+          "Description": "特定のモデルの Camplux ポータブルタンクレス給湯器は、レギュレーター接続部からのガス漏れによる潜在的な火災危険のためリコールされています。影響を受けるモデルには、AY132、BD158、BW211、BW264、および BW422 が含まれ、2021 年の特定の日付以前に製造されました。これらの給湯器は屋外使用向けに設計されており、白、黒、銀/灰色の色で提供され、前面には「Camplux」のロゴが表示されています。モデルの詳細とシリアル番号を含む製品ラベルは、ユニットの側面にあります。消費者は、製品ラベルの写真を撮影し、リコールの確認と交換用ガスレギュレーターを受け取るために Camplux に送信することをお勧めします。",
+          "ConsumerContact": "サポートが必要な場合は、月曜日から金曜日の午前 9 時から午後 5 時 (ET) の間に 844-538-7475 まで The Home Appliances (\"Camplux\") に連絡するか、support@camplux.com にメールしてください。詳細は、www.thehomeappliances.com の「リコール」セクションまたは www.thehomeappliances.com/waterheaterrecall でオンラインで確認できます。",
+          "metaDescription": "Camplux は火災危険のためポータブルタンクレス給湯器をリコールします。あなたのモデルが影響を受けているか確認し、無料の修理キットを入手する方法を学びましょう。",
+          "Products": [
+            {
+              "Name": "Camplux ポータブルタンクレス給湯器 AY132",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約 42,000 台"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコールされた Camplux ブランド AY132 ポータブルタンクレス給湯器 – 白"
+            },
+            {
+              "Caption": "リコールされた Camplux ブランド AY132 ポータブルタンクレス給湯器 – 黒"
+            },
+            {
+              "Caption": "リコールされた Camplux ブランド AY132 ポータブルタンクレス給湯器 – 灰色/銀"
+            },
+            {
+              "Caption": "リコールされた Camplux ブランド BD158 ポータブルタンクレス給湯器"
+            },
+            {
+              "Caption": "リコールされた Camplux ブランド BW211 ポータブルタンクレス給湯器 – 白"
+            },
+            {
+              "Caption": "リコールされた Camplux ブランド BW211 ポータブルタンクレス給湯器 – 灰色/銀"
+            },
+            {
+              "Caption": "リコールされた Camplux ブランド BW264 ポータブルタンクレス給湯器"
+            },
+            {
+              "Caption": "リコールされた Camplux ブランド BW422 ポータブルタンクレス給湯器"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Camplux は、リコールされた給湯器に関する火災事故の報告を 19 件受けています。負傷者の報告はありません。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Amazon.com でオンライン購入可能"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "サウスカロライナ州ノースチャールストンの The Home Appliances Inc.（商号：Camplux）"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "販売場所",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "レギュレーター接続部からのガス漏れにより火災危険が生じる。"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "消費者はリコールされた給湯器の使用を中止し、交換用ガスレギュレーターと取り付け手順を含む無料の修理キットを受け取るために The Home Appliances に連絡する必要があります。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "修理"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "Aquecedores de Água Portáteis Sem Tanque Camplux Recallados Devido ao Risco de Incêndio",
+          "Description": "Certos modelos de aquecedores de água portáteis sem tanque Camplux estão sendo recallados devido a um potencial risco de incêndio decorrente de vazamentos de gás na conexão do regulador. Os modelos afetados incluem AY132, BD158, BW211, BW264 e BW422, fabricados em ou antes de datas específicas em 2021. Esses aquecedores são projetados para uso externo e estão disponíveis nas cores branca, preta e prata/cinza, apresentando o logo 'Camplux' na frente. Os rótulos dos produtos contendo detalhes do modelo e números de série estão localizados na lateral das unidades. Os consumidores são aconselhados a fotografar os rótulos de seus produtos e enviá-los para a Camplux para verificação do recall e para receber um regulador de gás de substituição.",
+          "ConsumerContact": "Para assistência, entre em contato com The Home Appliances (\"Camplux\") pelo telefone 844-538-7475, das 9h às 17h ET, de segunda a sexta-feira, ou envie um e-mail para support@camplux.com. Mais detalhes podem ser encontrados online em www.thehomeappliances.com na seção 'Recalls' ou diretamente em www.thehomeappliances.com/waterheaterrecall.",
+          "metaDescription": "Camplux recallou aquecedores de água portáteis sem tanque devido a riscos de incêndio. Verifique se seu modelo está afetado e aprenda como obter um kit de reparo gratuito.",
+          "Products": [
+            {
+              "Name": "Aquecedor de Água Portátil Sem Tanque Camplux AY132",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 42.000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Aquecedor de água portátil sem tanque da marca Camplux AY132 recallado – branco"
+            },
+            {
+              "Caption": "Aquecedor de água portátil sem tanque da marca Camplux AY132 recallado – preto"
+            },
+            {
+              "Caption": "Aquecedor de água portátil sem tanque da marca Camplux AY132 recallado – cinza/prata"
+            },
+            {
+              "Caption": "Aquecedor de água portátil sem tanque da marca Camplux BD158 recallado"
+            },
+            {
+              "Caption": "Aquecedor de água portátil sem tanque da marca Camplux BW211 recallado – branco"
+            },
+            {
+              "Caption": "Aquecedor de água portátil sem tanque da marca Camplux BW211 recallado – cinza/prata"
+            },
+            {
+              "Caption": "Aquecedor de água portátil sem tanque da marca Camplux BW264 recallado"
+            },
+            {
+              "Caption": "Aquecedor de água portátil sem tanque da marca Camplux BW422 recallado"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "A Camplux recebeu 19 relatos de incidentes de incêndio envolvendo os aquecedores de água recallados. Nenhum ferimento foi relatado."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponível online em Amazon.com"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "The Home Appliances Inc., d/b/a Camplux, de North Charleston, Carolina do Sul"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendido Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Vazamento de gás da conexão do regulador, criando um risco de incêndio."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Os consumidores devem parar de usar os aquecedores recallados e entrar em contato com The Home Appliances para um kit de reparo gratuito, que inclui um regulador de gás de substituição e instruções de instalação."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparo"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "कैम्पलक्स पोर्टेबल टैंकलेस वॉटर हीटर्स को आग के खतरे के कारण वापस बुलाया गया",
+          "Description": "कैम्पलक्स के कुछ मॉडल के पोर्टेबल टैंकलेस वॉटर हीटर्स को गैस लीक के कारण संभावित आग के खतरे के चलते वापस बुलाया जा रहा है। प्रभावित मॉडल में AY132, BD158, BW211, BW264, और BW422 शामिल हैं, जो 2021 में विशेष तारीखों से पहले निर्मित किए गए थे। ये हीटर बाहरी उपयोग के लिए डिज़ाइन किए गए हैं और सफेद, काले, और चांदी/ग्रे रंगों में उपलब्ध हैं, जिनमें सामने 'कैम्पलक्स' लोगो है। उत्पाद लेबल जिसमें मॉडल विवरण और सीरियल नंबर होते हैं, यूनिट के साइड पर स्थित हैं। उपभोक्ताओं को सलाह दी जाती है कि वे अपने उत्पाद लेबल की तस्वीर लें और इसे कैम्पलक्स को वापस बुलाने की पुष्टि और प्रतिस्थापन गैस रेगुलेटर प्राप्त करने के लिए भेजें।",
+          "ConsumerContact": "सहायता के लिए, द होम अप्लायंसेस (\"कैम्पलक्स\") से 844-538-7475 पर सुबह 9 बजे से शाम 5 बजे तक ईटी, सोमवार से शुक्रवार तक संपर्क करें, या support@camplux.com पर ईमेल करें। अधिक जानकारी www.thehomeappliances.com पर 'रिकॉल' अनुभाग के तहत या सीधे www.thehomeappliances.com/waterheaterrecall पर ऑनलाइन प्राप्त की जा सकती है।",
+          "metaDescription": "कैम्पलक्स आग के खतरों के कारण पोर्टेबल टैंकलेस वॉटर हीटर्स को वापस बुलाता है। जांचें कि क्या आपका मॉडल प्रभावित है और मुफ्त मरम्मत किट प्राप्त करने के तरीके के बारे में जानें।",
+          "Products": [
+            {
+              "Name": "कैम्पलक्स पोर्टेबल टैंकलेस वॉटर हीटर AY132",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 42,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "वापस बुलाया गया कैम्पलक्स ब्रांड AY132 पोर्टेबल टैंकलेस वॉटर हीटर - सफेद"
+            },
+            {
+              "Caption": "वापस बुलाया गया कैम्पलक्स ब्रांड AY132 पोर्टेबल टैंकलेस वॉटर हीटर - काला"
+            },
+            {
+              "Caption": "वापस बुलाया गया कैम्पलक्स ब्रांड AY132 पोर्टेबल टैंकलेस वॉटर हीटर - ग्रे/चांदी"
+            },
+            {
+              "Caption": "वापस बुलाया गया कैम्पलक्स ब्रांड BD158 पोर्टेबल टैंकलेस वॉटर हीटर"
+            },
+            {
+              "Caption": "वापस बुलाया गया कैम्पलक्स ब्रांड BW211 पोर्टेबल टैंकलेस वॉटर हीटर - सफेद"
+            },
+            {
+              "Caption": "वापस बुलाया गया कैम्पलक्स ब्रांड BW211 पोर्टेबल टैंकलेस वॉटर हीटर - ग्रे/चांदी"
+            },
+            {
+              "Caption": "वापस बुलाया गया कैम्पलक्स ब्रांड BW264 पोर्टेबल टैंकलेस वॉटर हीटर"
+            },
+            {
+              "Caption": "वापस बुलाया गया कैम्पलक्स ब्रांड BW422 पोर्टेबल टैंकलेस वॉटर हीटर"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "कैम्पलक्स को वापस बुलाए गए वॉटर हीटर्स से संबंधित 19 आग की घटनाओं की रिपोर्ट मिली है। कोई चोट की सूचना नहीं मिली है।"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Amazon.com पर ऑनलाइन उपलब्ध"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "द होम अप्लायंसेस इंक., d/b/a कैम्पलक्स, नॉर्थ चार्ल्सटन, साउथ कैरोलिना"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "चीन"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "रेगुलेटर कनेक्शन से गैस लीक, जो आग का खतरा पैदा करता है।"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "उपभोक्ताओं को वापस बुलाए गए हीटर का उपयोग बंद कर देना चाहिए और द होम अप्लायंसेस से मुफ्त मरम्मत किट के लिए संपर्क करना चाहिए, जिसमें प्रतिस्थापन गैस रेगुलेटर और स्थापना निर्देश शामिल हैं।"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "मरम्मत"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "Портативные бесбаковые водонагреватели Camplux отозваны из-за риска пожара",
+          "Description": "Некоторые модели портативных бесбаковых водонагревателей Camplux отзываются из-за потенциальной угрозы пожара, вызванной утечками газа в соединении регулятора. Пострадавшие модели включают AY132, BD158, BW211, BW264 и BW422, произведенные на или до определенных дат в 2021 году. Эти водонагреватели предназначены для использования на улице и доступны в белом, черном и серебристом/сером цветах, с логотипом 'Camplux' на передней панели. Этикетки продуктов с деталями модели и серийными номерами расположены на боковой стороне устройств. Потребителям рекомендуется сфотографировать свои этикетки продуктов и отправить их в Camplux для подтверждения отзыва и получения заменяющего газового регулятора.",
+          "ConsumerContact": "Для получения помощи свяжитесь с The Home Appliances (\"Camplux\") по телефону 844-538-7475 с 9:00 до 17:00 по восточному времени, с понедельника по пятницу, или отправьте электронное письмо на адрес support@camplux.com. Более подробную информацию можно найти в интернете на сайте www.thehomeappliances.com в разделе 'Отзывы' или напрямую на www.thehomeappliances.com/waterheaterrecall.",
+          "metaDescription": "Camplux отзывает портативные бесбаковые водонагреватели из-за угрозы пожара. Проверьте, затрагивает ли это вашу модель, и узнайте, как получить бесплатный комплект для ремонта.",
+          "Products": [
+            {
+              "Name": "Портативный бесбаковый водонагреватель Camplux AY132",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 42,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванный портативный бесбаковый водонагреватель Camplux AY132 – белый"
+            },
+            {
+              "Caption": "Отозванный портативный бесбаковый водонагреватель Camplux AY132 – черный"
+            },
+            {
+              "Caption": "Отозванный портативный бесбаковый водонагреватель Camplux AY132 – серый/серебристый"
+            },
+            {
+              "Caption": "Отозванный портативный бесбаковый водонагреватель Camplux BD158"
+            },
+            {
+              "Caption": "Отозванный портативный бесбаковый водонагреватель Camplux BW211 – белый"
+            },
+            {
+              "Caption": "Отозванный портативный бесбаковый водонагреватель Camplux BW211 – серый/серебристый"
+            },
+            {
+              "Caption": "Отозванный портативный бесбаковый водонагреватель Camplux BW264"
+            },
+            {
+              "Caption": "Отозванный портативный бесбаковый водонагреватель Camplux BW422"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Camplux получил 19 сообщений о случаях пожара, связанных с отозванными водонагревателями. Травмы не были зафиксированы."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Доступно онлайн на Amazon.com"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "The Home Appliances Inc., d/b/a Camplux, из Норт-Чарлстона, Южная Каролина"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Продается в",
+          "ManufacturerCountries": [
+            {
+              "Country": "Китай"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Утечка газа из соединения регулятора, создающая риск пожара."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Потребители должны прекратить использование отозванных водонагревателей и связаться с The Home Appliances для получения бесплатного комплекта для ремонта, который включает заменяющий газовый регулятор и инструкции по установке."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Ремонт"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "Máy nước nóng không bình Camplux di động bị thu hồi do nguy cơ cháy",
+          "Description": "Một số mẫu máy nước nóng không bình di động Camplux đang bị thu hồi do nguy cơ cháy tiềm ẩn xuất phát từ rò rỉ khí gas tại điểm kết nối bộ điều chỉnh. Các mẫu bị ảnh hưởng bao gồm AY132, BD158, BW211, BW264 và BW422, được sản xuất vào hoặc trước các ngày cụ thể trong năm 2021. Những máy nước nóng này được thiết kế cho sử dụng ngoài trời và có sẵn màu trắng, đen và bạc/xám, với logo 'Camplux' ở phía trước. Nhãn sản phẩm chứa thông tin chi tiết về mẫu mã và số sê-ri được đặt ở bên hông của các thiết bị. Người tiêu dùng được khuyên nên chụp ảnh nhãn sản phẩm của họ và gửi cho Camplux để xác minh việc thu hồi và nhận bộ điều chỉnh gas thay thế.",
+          "ConsumerContact": "Để được hỗ trợ, hãy liên hệ với The Home Appliances (\"Camplux\") qua số 844-538-7475 từ 9 giờ sáng đến 5 giờ chiều ET, từ thứ Hai đến thứ Sáu, hoặc gửi email đến support@camplux.com. Thông tin chi tiết có thể được tìm thấy trực tuyến tại www.thehomeappliances.com trong phần 'Thu hồi' hoặc trực tiếp tại www.thehomeappliances.com/waterheaterrecall.",
+          "metaDescription": "Camplux thu hồi máy nước nóng không bình do nguy cơ cháy. Kiểm tra xem mẫu của bạn có bị ảnh hưởng và tìm hiểu cách nhận bộ sửa chữa miễn phí.",
+          "Products": [
+            {
+              "Name": "Máy nước nóng không bình Camplux di động AY132",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 42.000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Máy nước nóng không bình Camplux thương hiệu AY132 bị thu hồi – màu trắng"
+            },
+            {
+              "Caption": "Máy nước nóng không bình Camplux thương hiệu AY132 bị thu hồi – màu đen"
+            },
+            {
+              "Caption": "Máy nước nóng không bình Camplux thương hiệu AY132 bị thu hồi – màu xám/bạc"
+            },
+            {
+              "Caption": "Máy nước nóng không bình Camplux thương hiệu BD158 bị thu hồi"
+            },
+            {
+              "Caption": "Máy nước nóng không bình Camplux thương hiệu BW211 bị thu hồi – màu trắng"
+            },
+            {
+              "Caption": "Máy nước nóng không bình Camplux thương hiệu BW211 bị thu hồi – màu xám/bạc"
+            },
+            {
+              "Caption": "Máy nước nóng không bình Camplux thương hiệu BW264 bị thu hồi"
+            },
+            {
+              "Caption": "Máy nước nóng không bình Camplux thương hiệu BW422 bị thu hồi"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Camplux đã nhận được 19 báo cáo về các sự cố cháy liên quan đến máy nước nóng bị thu hồi. Không có thương tích nào được báo cáo."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Có sẵn trực tuyến tại Amazon.com"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "The Home Appliances Inc., d/b/a Camplux, tại North Charleston, South Carolina"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Bán Tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Trung Quốc"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Rò rỉ gas từ điểm kết nối bộ điều chỉnh, tạo ra nguy cơ cháy."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Người tiêu dùng nên ngừng sử dụng các máy nước nóng bị thu hồi và liên hệ với The Home Appliances để nhận bộ sửa chữa miễn phí, bao gồm bộ điều chỉnh gas thay thế và hướng dẫn lắp đặt."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Sửa chữa"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    }
+  ]
+}

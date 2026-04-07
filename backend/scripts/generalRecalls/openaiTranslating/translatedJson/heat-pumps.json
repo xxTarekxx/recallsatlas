@@ -1,0 +1,1723 @@
+{
+  "meta": {
+    "slug": "heat-pumps",
+    "sourceCsvFile": "heat-pumps_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:36.955Z",
+    "recallCount": 2,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "heat-pumps.json",
+    "seoTranslatedAt": "2026-04-04T04:13:08.077Z",
+    "resumePartial": false,
+    "i18nSource": "generalRecallsTranslated",
+    "i18nSourceFile": "heat-pumps.json",
+    "i18nUiLangs": [
+      "en",
+      "es",
+      "ar",
+      "zh",
+      "fr",
+      "de",
+      "ja",
+      "pt",
+      "hi",
+      "ru",
+      "vi"
+    ],
+    "i18nProgressByLang": {
+      "es": 2,
+      "ar": 2,
+      "zh": 2,
+      "fr": 2,
+      "de": 2,
+      "ja": 2,
+      "pt": 2,
+      "hi": 2,
+      "ru": 2,
+      "vi": 2
+    },
+    "i18nInProgress": false,
+    "i18nTranslatedAt": "2026-04-07T09:09:01.287Z",
+    "i18nOpenaiModel": "gpt-4o-mini"
+  },
+  "recalls": [
+    {
+      "RecallID": 9990,
+      "RecallNumber": "24286",
+      "RecallDate": "2024-06-27T00:00:00",
+      "Description": "Daikin Comfort Technologies is recalling specific models of heat pumps including the Daikin FIT, Amana S-Series, and Goodman SD due to a potential risk of excessive heat exposure. These beige units have the model name displayed on their exterior, and the model number can be found on the serial plate located on the side. The affected model numbers include various combinations such as DZ6VSA1810-AA, ASZS601810-AA, and more.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/Daikin-Comfort-Technologies-Manufacturing-Recalls-Daikin-FIT-mana-Brand-S-series-and-Goodman-SD-Heat-Pumps-Due-to-Risk-of-Excessive-Heat-Exposure",
+      "Title": "Daikin Comfort Technologies Recalls Daikin FIT, Amana S-Series, and Goodman SD Heat Pumps Due to Excessive Heat Risk",
+      "ConsumerContact": "For assistance, consumers can reach DCT toll-free at 855-545-0235 from 8 a.m. to 4:30 p.m. CT, Monday through Friday. More information is available online at http://www.goodmanmfg.com/fit-recall or https://daikincomfort.com/ by selecting \"Product Recalls\" at the bottom of the page.",
+      "LastPublishDate": "2024-06-27T00:00:00",
+      "Products": [
+        {
+          "Name": "Daikin FIT Heat Pump",
+          "NumberOfUnits": "About 56,000 (In addition, about 5,522 were sold in Canada)"
+        }
+      ],
+      "Inconjunctions": [
+        {
+          "URL": "https://recalls-rappels.canada.ca/en/alert-recall/daikin-amana-and-goodman-branded-heat-pumps-recalled-due-risk-excessive-heat-exposure"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/heat-pumps/1-Daikin-FIT-Heat-Pump/9bff68682561695ad6c612650aa0c16d.webp",
+          "Caption": "Recalled Amana Brand S-series heat pump",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/1AmanaS-Series.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/heat-pumps/1-Daikin-FIT-Heat-Pump/3b089a5c3b3a4516806ded199e3a4067.webp",
+          "Caption": "Recalled Daikin FIT heat pump",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/2Daikin.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/heat-pumps/1-Daikin-FIT-Heat-Pump/a07287d01e17e08484f8fb014b480a92.webp",
+          "Caption": "Recalled Goodman SD heat pump",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/3GoodmanSD.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/heat-pumps/1-Daikin-FIT-Heat-Pump/34c58796db1afe897046520c02e3fb5e.webp",
+          "Caption": "Location of model number on serial plate on side of unit",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/4Location.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/heat-pumps/1-Daikin-FIT-Heat-Pump/eeb723991d0d12fbe788d818939230c3.webp",
+          "Caption": "Location of model number on serial plate",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/5LocationSerialPlate.jpg"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "Daikin Comfort Technologies Manufacturing L.P., of Houston, Texas"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available through independent heating and cooling dealers across the country from May 2022 to April 2024, priced between $2,200 and $5,700."
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "United States"
+        },
+        {
+          "Country": "Thailand"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of excessive heat exposure due to power interruption"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Remote software update for WiFi-connected systems; registration for non-WiFi systems"
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "DZ6VSA1810-AA",
+        "ASZS601810-AA",
+        "GSZS601810-AB",
+        "DZ6VSA1810-AB",
+        "ASZS601810-AB",
+        "GSZS602410-AB",
+        "DZ6VSA2410-AA",
+        "ASZS602410-AA",
+        "GSZS603010-AB",
+        "DZ6VSA2410-AB",
+        "GSZS603610-AB",
+        "DZ6VSA241E-AB",
+        "ASZS60241E-AB",
+        "DZ6VSA3010-AA",
+        "ASZS603010-AA",
+        "DZ6VSA3010-AB",
+        "ASZS603010-AB",
+        "DZ6VSA3610-AA",
+        "ASZS603610-AA",
+        "DZ6VSA3610-AB",
+        "ASZS603610-AB"
+      ],
+      "slug": "daikin-comfort-technologies-recalls-daikin-fit-amana-s-series-and-goodman-sd-heat-pumps-due-to-excessive-heat-risk-recall",
+      "metaDescription": "Daikin recalls heat pumps due to excessive heat risk. Check model numbers and contact for updates.",
+      "languages": {
+        "en": {
+          "Title": "Daikin Comfort Technologies Recalls Daikin FIT, Amana S-Series, and Goodman SD Heat Pumps Due to Excessive Heat Risk",
+          "Description": "Daikin Comfort Technologies is recalling specific models of heat pumps including the Daikin FIT, Amana S-Series, and Goodman SD due to a potential risk of excessive heat exposure. These beige units have the model name displayed on their exterior, and the model number can be found on the serial plate located on the side. The affected model numbers include various combinations such as DZ6VSA1810-AA, ASZS601810-AA, and more.",
+          "ConsumerContact": "For assistance, consumers can reach DCT toll-free at 855-545-0235 from 8 a.m. to 4:30 p.m. CT, Monday through Friday. More information is available online at http://www.goodmanmfg.com/fit-recall or https://daikincomfort.com/ by selecting \"Product Recalls\" at the bottom of the page.",
+          "metaDescription": "Daikin recalls heat pumps due to excessive heat risk. Check model numbers and contact for updates.",
+          "Products": [
+            {
+              "Name": "Daikin FIT Heat Pump",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 56,000 (In addition, about 5,522 were sold in Canada)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled Amana Brand S-series heat pump"
+            },
+            {
+              "Caption": "Recalled Daikin FIT heat pump"
+            },
+            {
+              "Caption": "Recalled Goodman SD heat pump"
+            },
+            {
+              "Caption": "Location of model number on serial plate on side of unit"
+            },
+            {
+              "Caption": "Location of model number on serial plate"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "None reported"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Available through independent heating and cooling dealers across the country from May 2022 to April 2024, priced between $2,200 and $5,700."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Daikin Comfort Technologies Manufacturing L.P., of Houston, Texas"
+            }
+          ],
+          "SoldAtLabel": "Sold At",
+          "ManufacturerCountries": [
+            {
+              "Country": "United States"
+            },
+            {
+              "Country": "Thailand"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risk of excessive heat exposure due to power interruption"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Remote software update for WiFi-connected systems; registration for non-WiFi systems"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Repair"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "Daikin Comfort Technologies Retira Bombas de Calor Daikin FIT, Amana S-Series y Goodman SD Debido al Riesgo de Calor Excesivo",
+          "Description": "Daikin Comfort Technologies está retirando modelos específicos de bombas de calor, incluyendo la Daikin FIT, Amana S-Series y Goodman SD debido a un posible riesgo de exposición a calor excesivo. Estas unidades beige tienen el nombre del modelo exhibido en su exterior, y el número de modelo se puede encontrar en la placa de serie ubicada en el costado. Los números de modelo afectados incluyen varias combinaciones como DZ6VSA1810-AA, ASZS601810-AA, y más.",
+          "ConsumerContact": "Para asistencia, los consumidores pueden comunicarse con DCT sin cargo al 855-545-0235 de 8 a.m. a 4:30 p.m. CT, de lunes a viernes. Más información está disponible en línea en http://www.goodmanmfg.com/fit-recall o https://daikincomfort.com/ seleccionando \"Retiradas de Productos\" en la parte inferior de la página.",
+          "metaDescription": "Daikin retira bombas de calor debido al riesgo de calor excesivo. Verifique los números de modelo y comuníquese para actualizaciones.",
+          "Products": [
+            {
+              "Name": "Bomba de Calor Daikin FIT",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 56,000 (Además, aproximadamente 5,522 se vendieron en Canadá)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Bomba de calor de la marca Amana S-series retirada"
+            },
+            {
+              "Caption": "Bomba de calor Daikin FIT retirada"
+            },
+            {
+              "Caption": "Bomba de calor Goodman SD retirada"
+            },
+            {
+              "Caption": "Ubicación del número de modelo en la placa de serie en el costado de la unidad"
+            },
+            {
+              "Caption": "Ubicación del número de modelo en la placa de serie"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Ninguno reportado"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible a través de distribuidores independientes de calefacción y refrigeración en todo el país desde mayo de 2022 hasta abril de 2024, con precios entre $2,200 y $5,700."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Daikin Comfort Technologies Manufacturing L.P., de Houston, Texas"
+            }
+          ],
+          "SoldAtLabel": "Vendido En",
+          "ManufacturerCountries": [
+            {
+              "Country": "Estados Unidos"
+            },
+            {
+              "Country": "Tailandia"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Riesgo de exposición a calor excesivo debido a interrupción de energía"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Actualización de software remoto para sistemas conectados por WiFi; registro para sistemas no WiFi"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparación"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "دايكن تكنولوجيات الراحة تستدعي مضخات الحرارة دايكن FIT وسلسلة أمانا S وGoodman SD بسبب خطر الحرارة الزائدة",
+          "Description": "تستدعي دايكن تكنولوجيات الراحة نماذج محددة من مضخات الحرارة بما في ذلك دايكن FIT وسلسلة أمانا S وGoodman SD بسبب خطر محتمل للتعرض للحرارة الزائدة. هذه الوحدات البيج تحتوي على اسم النموذج معروض على الخارج، ويمكن العثور على رقم النموذج على لوحة السيريال الموجودة على الجانب. تشمل أرقام النماذج المتأثرة تركيبات مختلفة مثل DZ6VSA1810-AA وASZS601810-AA والمزيد.",
+          "ConsumerContact": "للمساعدة، يمكن للمستهلكين الاتصال بـ DCT على الرقم المجاني 855-545-0235 من الساعة 8 صباحًا حتى 4:30 مساءً بتوقيت وسط أمريكا، من الاثنين إلى الجمعة. تتوفر المزيد من المعلومات عبر الإنترنت على http://www.goodmanmfg.com/fit-recall أو https://daikincomfort.com/ من خلال اختيار \"استدعاءات المنتجات\" في أسفل الصفحة.",
+          "metaDescription": "دايكن تستدعي مضخات الحرارة بسبب خطر الحرارة الزائدة. تحقق من أرقام النماذج وتواصل للحصول على التحديثات.",
+          "Products": [
+            {
+              "Name": "مضخة حرارة دايكن FIT",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 56,000 (بالإضافة إلى ذلك، تم بيع حوالي 5,522 في كندا)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "مضخة حرارة سلسلة أمانا المستدعاة"
+            },
+            {
+              "Caption": "مضخة حرارة دايكن FIT المستدعاة"
+            },
+            {
+              "Caption": "مضخة حرارة Goodman SD المستدعاة"
+            },
+            {
+              "Caption": "موقع رقم النموذج على لوحة السيريال على جانب الوحدة"
+            },
+            {
+              "Caption": "موقع رقم النموذج على لوحة السيريال"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "لا توجد إصابات تم الإبلاغ عنها"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "متاحة من خلال تجار التدفئة والتبريد المستقلين في جميع أنحاء البلاد من مايو 2022 إلى أبريل 2024، بسعر يتراوح بين 2,200 دولار و5,700 دولار."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "دايكن تكنولوجيات الراحة التصنيع L.P.، من هيوستن، تكساس"
+            }
+          ],
+          "SoldAtLabel": "تم البيع في",
+          "ManufacturerCountries": [
+            {
+              "Country": "الولايات المتحدة"
+            },
+            {
+              "Country": "تايلاند"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "خطر التعرض للحرارة الزائدة بسبب انقطاع الطاقة"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "تحديث برنامج عن بُعد للأنظمة المتصلة بالواي فاي؛ التسجيل للأنظمة غير المتصلة بالواي فاي"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "إصلاح"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "大金舒适科技召回大金FIT、阿曼纳S系列和古德曼SD热泵因过热风险",
+          "Description": "大金舒适科技正在召回特定型号的热泵，包括大金FIT、阿曼纳S系列和古德曼SD，因存在过热暴露的潜在风险。这些米色设备在外部显示型号名称，型号号码可以在侧面的序列牌上找到。受影响的型号包括各种组合，如DZ6VSA1810-AA、ASZS601810-AA等。",
+          "ConsumerContact": "如需帮助，消费者可以在周一至周五的中部时间上午8点至下午4:30拨打DCT的免费电话855-545-0235。更多信息可在线访问http://www.goodmanmfg.com/fit-recall或https://daikincomfort.com/，在页面底部选择“产品召回”。",
+          "metaDescription": "大金因过热风险召回热泵。检查型号并联系以获取更新。",
+          "Products": [
+            {
+              "Name": "大金FIT热泵",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约56,000台（此外，约5,522台在加拿大销售）"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "召回的阿曼纳品牌S系列热泵"
+            },
+            {
+              "Caption": "召回的大金FIT热泵"
+            },
+            {
+              "Caption": "召回的古德曼SD热泵"
+            },
+            {
+              "Caption": "设备侧面序列牌上型号号码的位置"
+            },
+            {
+              "Caption": "序列牌上型号号码的位置"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "未报告伤害"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "通过全国独立的供暖和制冷经销商销售，销售时间为2022年5月至2024年4月，价格在$2,200到$5,700之间。"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "德克萨斯州休斯顿的大金舒适科技制造有限公司"
+            }
+          ],
+          "SoldAtLabel": "销售地点",
+          "ManufacturerCountries": [
+            {
+              "Country": "美国"
+            },
+            {
+              "Country": "泰国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "因电源中断导致过热暴露的风险"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "WiFi连接系统的远程软件更新；非WiFi系统的注册"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "修理"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "Daikin Comfort Technologies rappelle les pompes à chaleur Daikin FIT, Amana S-Series et Goodman SD en raison d'un risque de chaleur excessive",
+          "Description": "Daikin Comfort Technologies rappelle des modèles spécifiques de pompes à chaleur, y compris la Daikin FIT, l'Amana S-Series et la Goodman SD en raison d'un risque potentiel d'exposition à une chaleur excessive. Ces unités beiges ont le nom du modèle affiché sur leur extérieur, et le numéro de modèle peut être trouvé sur la plaque de série située sur le côté. Les numéros de modèle concernés incluent diverses combinaisons telles que DZ6VSA1810-AA, ASZS601810-AA, et plus encore.",
+          "ConsumerContact": "Pour assistance, les consommateurs peuvent joindre DCT sans frais au 855-545-0235 de 8 h à 16 h 30 CT, du lundi au vendredi. Plus d'informations sont disponibles en ligne sur http://www.goodmanmfg.com/fit-recall ou https://daikincomfort.com/ en sélectionnant \"Rappels de produits\" en bas de la page.",
+          "metaDescription": "Daikin rappelle des pompes à chaleur en raison d'un risque de chaleur excessive. Vérifiez les numéros de modèle et contactez pour des mises à jour.",
+          "Products": [
+            {
+              "Name": "Pompe à chaleur Daikin FIT",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 56 000 (De plus, environ 5 522 ont été vendues au Canada)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Pompe à chaleur de marque Amana S-series rappelée"
+            },
+            {
+              "Caption": "Pompe à chaleur Daikin FIT rappelée"
+            },
+            {
+              "Caption": "Pompe à chaleur Goodman SD rappelée"
+            },
+            {
+              "Caption": "Emplacement du numéro de modèle sur la plaque de série sur le côté de l'unité"
+            },
+            {
+              "Caption": "Emplacement du numéro de modèle sur la plaque de série"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Aucun rapporté"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible auprès de revendeurs indépendants de chauffage et de climatisation à travers le pays de mai 2022 à avril 2024, au prix compris entre 2 200 $ et 5 700 $."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Daikin Comfort Technologies Manufacturing L.P., de Houston, Texas"
+            }
+          ],
+          "SoldAtLabel": "Vendu À",
+          "ManufacturerCountries": [
+            {
+              "Country": "États-Unis"
+            },
+            {
+              "Country": "Thaïlande"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risque d'exposition à une chaleur excessive en raison d'une interruption de courant"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Mise à jour logicielle à distance pour les systèmes connectés WiFi ; enregistrement pour les systèmes non-WiFi"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Réparation"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "Daikin Comfort Technologies ruft Daikin FIT, Amana S-Serie und Goodman SD Wärmepumpen aufgrund von Überhitzungsrisiko zurück",
+          "Description": "Daikin Comfort Technologies ruft bestimmte Modelle von Wärmepumpen zurück, darunter die Daikin FIT, Amana S-Serie und Goodman SD, aufgrund eines potenziellen Risikos einer übermäßigen Wärmeexposition. Diese beigen Geräte haben den Modellnamen auf ihrer Außenseite angezeigt, und die Modellnummer befindet sich auf dem Typenschild an der Seite. Die betroffenen Modellnummern umfassen verschiedene Kombinationen wie DZ6VSA1810-AA, ASZS601810-AA und mehr.",
+          "ConsumerContact": "Für Unterstützung können Verbraucher DCT kostenlos unter 855-545-0235 von 8:00 bis 16:30 Uhr CT, Montag bis Freitag, erreichen. Weitere Informationen sind online verfügbar unter http://www.goodmanmfg.com/fit-recall oder https://daikincomfort.com/, indem Sie \"Produkt Rückrufe\" am Ende der Seite auswählen.",
+          "metaDescription": "Daikin ruft Wärmepumpen aufgrund von Überhitzungsrisiko zurück. Überprüfen Sie die Modellnummern und kontaktieren Sie uns für Updates.",
+          "Products": [
+            {
+              "Name": "Daikin FIT Wärmepumpe",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 56.000 (Zusätzlich wurden etwa 5.522 in Kanada verkauft)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Zurückgerufene Amana Marke S-Serie Wärmepumpe"
+            },
+            {
+              "Caption": "Zurückgerufene Daikin FIT Wärmepumpe"
+            },
+            {
+              "Caption": "Zurückgerufene Goodman SD Wärmepumpe"
+            },
+            {
+              "Caption": "Standort der Modellnummer auf dem Typenschild an der Seite des Geräts"
+            },
+            {
+              "Caption": "Standort der Modellnummer auf dem Typenschild"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Keine gemeldet"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Erhältlich über unabhängige Heizungs- und Kühlungsanbieter im ganzen Land von Mai 2022 bis April 2024, preislich zwischen 2.200 und 5.700 US-Dollar."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Daikin Comfort Technologies Manufacturing L.P., aus Houston, Texas"
+            }
+          ],
+          "SoldAtLabel": "Verkauft bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "Vereinigte Staaten"
+            },
+            {
+              "Country": "Thailand"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risiko einer übermäßigen Wärmeexposition aufgrund von Stromunterbrechung"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Fernsoftware-Update für WLAN-verbundene Systeme; Registrierung für nicht-WLAN-Systeme"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparatur"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "ダイキン・コンフォート・テクノロジーズがダイキンFIT、アマナSシリーズ、グッドマンSDヒートポンプを過剰熱リスクのためリコール",
+          "Description": "ダイキン・コンフォート・テクノロジーズは、過剰熱曝露の潜在的リスクのため、ダイキンFIT、アマナSシリーズ、グッドマンSDを含む特定のモデルのヒートポンプをリコールしています。これらのベージュのユニットには、外部にモデル名が表示されており、モデル番号は側面にあるシリアルプレートに記載されています。影響を受けるモデル番号には、DZ6VSA1810-AA、ASZS601810-AAなどのさまざまな組み合わせが含まれます。\n",
+          "ConsumerContact": "支援が必要な場合、消費者は月曜日から金曜日の午前8時から午後4時30分CTまで、DCTに無料で連絡できます。詳細情報は、http://www.goodmanmfg.com/fit-recall または https://daikincomfort.com/ のページ下部で「製品リコール」を選択することでオンラインで入手できます。",
+          "metaDescription": "ダイキンが過剰熱リスクのためヒートポンプをリコール。モデル番号を確認し、最新情報を問い合わせてください。",
+          "Products": [
+            {
+              "Name": "ダイキンFITヒートポンプ",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約56,000台（さらに、約5,522台がカナダで販売されました）"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコールされたアマナブランドSシリーズヒートポンプ"
+            },
+            {
+              "Caption": "リコールされたダイキンFITヒートポンプ"
+            },
+            {
+              "Caption": "リコールされたグッドマンSDヒートポンプ"
+            },
+            {
+              "Caption": "ユニット側面のシリアルプレートにおけるモデル番号の位置"
+            },
+            {
+              "Caption": "シリアルプレートにおけるモデル番号の位置"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "報告された怪我はなし"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "2022年5月から2024年4月まで、全国の独立した暖房および冷却ディーラーを通じて販売され、価格は2,200ドルから5,700ドルの間です。"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "テキサス州ヒューストンのダイキン・コンフォート・テクノロジーズ・マニュファクチャリングL.P."
+            }
+          ],
+          "SoldAtLabel": "販売場所",
+          "ManufacturerCountries": [
+            {
+              "Country": "アメリカ合衆国"
+            },
+            {
+              "Country": "タイ"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "電源中断による過剰熱曝露のリスク"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "WiFi接続システムのリモートソフトウェア更新；非WiFiシステムの登録"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "修理"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "Daikin Comfort Technologies Recall de Bombas de Calor Daikin FIT, Amana S-Series e Goodman SD Devido ao Risco de Calor Excessivo",
+          "Description": "A Daikin Comfort Technologies está recallando modelos específicos de bombas de calor, incluindo a Daikin FIT, Amana S-Series e Goodman SD, devido a um potencial risco de exposição a calor excessivo. Essas unidades bege têm o nome do modelo exibido em seu exterior, e o número do modelo pode ser encontrado na placa serial localizada na lateral. Os números dos modelos afetados incluem várias combinações, como DZ6VSA1810-AA, ASZS601810-AA e mais.",
+          "ConsumerContact": "Para assistência, os consumidores podem entrar em contato com a DCT gratuitamente pelo telefone 855-545-0235, das 8h às 16h30 CT, de segunda a sexta-feira. Mais informações estão disponíveis online em http://www.goodmanmfg.com/fit-recall ou https://daikincomfort.com/ selecionando \"Recall de Produtos\" na parte inferior da página.",
+          "metaDescription": "Daikin recall de bombas de calor devido ao risco de calor excessivo. Verifique os números dos modelos e entre em contato para atualizações.",
+          "Products": [
+            {
+              "Name": "Bomba de Calor Daikin FIT",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 56.000 (Além disso, cerca de 5.522 foram vendidos no Canadá)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Bomba de calor da marca Amana S-series recallada"
+            },
+            {
+              "Caption": "Bomba de calor Daikin FIT recallada"
+            },
+            {
+              "Caption": "Bomba de calor Goodman SD recallada"
+            },
+            {
+              "Caption": "Localização do número do modelo na placa serial na lateral da unidade"
+            },
+            {
+              "Caption": "Localização do número do modelo na placa serial"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Nenhum relatado"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponível através de revendedores independentes de aquecimento e resfriamento em todo o país de maio de 2022 a abril de 2024, com preços entre $2.200 e $5.700."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Daikin Comfort Technologies Manufacturing L.P., de Houston, Texas"
+            }
+          ],
+          "SoldAtLabel": "Vendidos Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "Estados Unidos"
+            },
+            {
+              "Country": "Tailândia"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risco de exposição a calor excessivo devido à interrupção de energia"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Atualização de software remoto para sistemas conectados via WiFi; registro para sistemas não WiFi"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparo"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "डाइकिन कंफर्ट टेक्नोलॉजीज ने अत्यधिक गर्मी के जोखिम के कारण डाइकिन FIT, अमाना S-सीरीज, और गुडमैन SD हीट पंपों को वापस बुलाया",
+          "Description": "डाइकिन कंफर्ट टेक्नोलॉजीज विशेष मॉडल के हीट पंपों को वापस बुला रहा है, जिसमें डाइकिन FIT, अमाना S-सीरीज, और गुडमैन SD शामिल हैं, जो अत्यधिक गर्मी के संपर्क के संभावित जोखिम के कारण हैं। ये बेज रंग की इकाइयाँ अपने बाहरी हिस्से पर मॉडल नाम प्रदर्शित करती हैं, और मॉडल नंबर साइड पर स्थित सीरियल प्लेट पर पाया जा सकता है। प्रभावित मॉडल नंबर में विभिन्न संयोजन शामिल हैं जैसे DZ6VSA1810-AA, ASZS601810-AA, और अधिक।",
+          "ConsumerContact": "सहायता के लिए, उपभोक्ता DCT से 855-545-0235 पर सुबह 8 बजे से शाम 4:30 बजे CT, सोमवार से शुक्रवार तक संपर्क कर सकते हैं। अधिक जानकारी ऑनलाइन http://www.goodmanmfg.com/fit-recall या https://daikincomfort.com/ पर \"उत्पाद recalls\" का चयन करके उपलब्ध है।",
+          "metaDescription": "डाइकिन अत्यधिक गर्मी के जोखिम के कारण हीट पंपों को वापस बुलाता है। मॉडल नंबर की जांच करें और अपडेट के लिए संपर्क करें।",
+          "Products": [
+            {
+              "Name": "डाइकिन FIT हीट पंप",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 56,000 (इसके अतिरिक्त, लगभग 5,522 कनाडा में बेचे गए)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "वापस बुलाया गया अमाना ब्रांड S-सीरीज हीट पंप"
+            },
+            {
+              "Caption": "वापस बुलाया गया डाइकिन FIT हीट पंप"
+            },
+            {
+              "Caption": "वापस बुलाया गया गुडमैन SD हीट पंप"
+            },
+            {
+              "Caption": "इकाई के साइड पर सीरियल प्लेट पर मॉडल नंबर का स्थान"
+            },
+            {
+              "Caption": "सीरियल प्लेट पर मॉडल नंबर का स्थान"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "कोई रिपोर्ट नहीं"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "मई 2022 से अप्रैल 2024 तक देश भर में स्वतंत्र हीटिंग और कूलिंग डीलरों के माध्यम से उपलब्ध, कीमत $2,200 से $5,700 के बीच।"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "डाइकिन कंफर्ट टेक्नोलॉजीज मैन्युफैक्चरिंग एल.पी., ह्यूस्टन, टेक्सास"
+            }
+          ],
+          "SoldAtLabel": "बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "संयुक्त राज्य अमेरिका"
+            },
+            {
+              "Country": "थाईलैंड"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "पावर इंटरप्शन के कारण अत्यधिक गर्मी के संपर्क का जोखिम"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "WiFi से जुड़े सिस्टम के लिए रिमोट सॉफ़्टवेयर अपडेट; गैर-WiFi सिस्टम के लिए पंजीकरण"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "मरम्मत"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "Daikin Comfort Technologies отзывает тепловые насосы Daikin FIT, Amana S-Series и Goodman SD из-за риска чрезмерного нагрева",
+          "Description": "Daikin Comfort Technologies отзывает конкретные модели тепловых насосов, включая Daikin FIT, Amana S-Series и Goodman SD из-за потенциального риска чрезмерного нагрева. Эти бежевые устройства имеют название модели, отображенное на их внешней стороне, а номер модели можно найти на серийной табличке, расположенной сбоку. Затронутые номера моделей включают различные комбинации, такие как DZ6VSA1810-AA, ASZS601810-AA и другие.",
+          "ConsumerContact": "Для получения помощи потребители могут связаться с DCT по бесплатному номеру 855-545-0235 с 8:00 до 16:30 по центральному времени с понедельника по пятницу. Дополнительная информация доступна онлайн на http://www.goodmanmfg.com/fit-recall или https://daikincomfort.com/, выбрав \"Отзыв продукции\" внизу страницы.",
+          "metaDescription": "Daikin отзывает тепловые насосы из-за риска чрезмерного нагрева. Проверьте номера моделей и свяжитесь для получения обновлений.",
+          "Products": [
+            {
+              "Name": "Тепловой насос Daikin FIT",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 56,000 (Кроме того, около 5,522 были проданы в Канаде)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванный тепловой насос Amana Brand S-series"
+            },
+            {
+              "Caption": "Отозванный тепловой насос Daikin FIT"
+            },
+            {
+              "Caption": "Отозванный тепловой насос Goodman SD"
+            },
+            {
+              "Caption": "Место расположения номера модели на серийной табличке сбоку устройства"
+            },
+            {
+              "Caption": "Место расположения номера модели на серийной табличке"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Не сообщалось о травмах"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Доступно через независимых дилеров по отоплению и охлаждению по всей стране с мая 2022 года по апрель 2024 года, по цене от 2,200 до 5,700 долларов."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Daikin Comfort Technologies Manufacturing L.P., Хьюстон, Техас"
+            }
+          ],
+          "SoldAtLabel": "Продавалось в",
+          "ManufacturerCountries": [
+            {
+              "Country": "Соединенные Штаты"
+            },
+            {
+              "Country": "Таиланд"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Риск чрезмерного нагрева из-за перебоев в электроснабжении"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Удаленное обновление программного обеспечения для систем с WiFi; регистрация для систем без WiFi"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Ремонт"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "Daikin Comfort Technologies thu hồi các bơm nhiệt Daikin FIT, Amana S-Series và Goodman SD do nguy cơ nhiệt độ quá cao",
+          "Description": "Daikin Comfort Technologies đang thu hồi các mẫu bơm nhiệt cụ thể bao gồm Daikin FIT, Amana S-Series và Goodman SD do nguy cơ tiềm ẩn về việc tiếp xúc với nhiệt độ quá cao. Những thiết bị màu be này có tên mẫu hiển thị bên ngoài, và số mẫu có thể được tìm thấy trên bảng số sê-ri nằm ở bên hông. Các số mẫu bị ảnh hưởng bao gồm nhiều kết hợp khác nhau như DZ6VSA1810-AA, ASZS601810-AA và nhiều hơn nữa.",
+          "ConsumerContact": "Để được hỗ trợ, người tiêu dùng có thể liên hệ với DCT qua số điện thoại miễn phí 855-545-0235 từ 8 giờ sáng đến 4:30 chiều CT, từ thứ Hai đến thứ Sáu. Thông tin thêm có sẵn trực tuyến tại http://www.goodmanmfg.com/fit-recall hoặc https://daikincomfort.com/ bằng cách chọn \"Thông báo thu hồi sản phẩm\" ở cuối trang.",
+          "metaDescription": "Daikin thu hồi bơm nhiệt do nguy cơ nhiệt độ quá cao. Kiểm tra số mẫu và liên hệ để cập nhật.",
+          "Products": [
+            {
+              "Name": "Bơm nhiệt Daikin FIT",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 56,000 (Ngoài ra, khoảng 5,522 đã được bán ở Canada)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Bơm nhiệt Amana Brand S-series bị thu hồi"
+            },
+            {
+              "Caption": "Bơm nhiệt Daikin FIT bị thu hồi"
+            },
+            {
+              "Caption": "Bơm nhiệt Goodman SD bị thu hồi"
+            },
+            {
+              "Caption": "Vị trí số mẫu trên bảng số sê-ri ở bên hông thiết bị"
+            },
+            {
+              "Caption": "Vị trí số mẫu trên bảng số sê-ri"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Không có báo cáo"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Có sẵn thông qua các đại lý làm mát và sưởi ấm độc lập trên toàn quốc từ tháng 5 năm 2022 đến tháng 4 năm 2024, có giá từ 2,200 đến 5,700 đô la."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Daikin Comfort Technologies Manufacturing L.P., ở Houston, Texas"
+            }
+          ],
+          "SoldAtLabel": "Được bán tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Hoa Kỳ"
+            },
+            {
+              "Country": "Thái Lan"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Nguy cơ tiếp xúc với nhiệt độ quá cao do gián đoạn nguồn điện"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Cập nhật phần mềm từ xa cho các hệ thống kết nối WiFi; đăng ký cho các hệ thống không có WiFi"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Sửa chữa"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    },
+    {
+      "RecallID": 9968,
+      "RecallNumber": "24260",
+      "RecallDate": "2024-06-13T00:00:00",
+      "Description": "Daikin Comfort Technologies is recalling packaged air conditioning and heat pump units under the Amana, Daikin, and Goodman brands. These units, which are either gray or green, can be identified by their model number located on the electrical connection side of the unit's exterior. To check if your unit is affected by this recall, please visit www.goodmanmfg.com/package-recall.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/Daikin-Comfort-Technologies-Manufacturing-Recalls-Amana-Daikin-Goodman-Branded-Air-Conditioning-and-Heat-Pump-Packaged-Units-Due-to-Fire-Hazard",
+      "Title": "Daikin Comfort Technologies Recalls Amana, Daikin, and Goodman Air Conditioning and Heat Pump Units Due to Fire Risk",
+      "ConsumerContact": "For assistance, contact DCT toll-free at 833-324-5460 from 8 a.m. to 4:30 p.m. CT, Monday through Friday. Additional information is available online at www.goodmanmfg.com/package-recall or by visiting www.goodmanmfg.com and selecting \"PRODUCT RECALL.\"",
+      "LastPublishDate": "2024-06-13T00:00:00",
+      "Products": [
+        {
+          "Name": "Amana, Daikin, and Goodman Packaged Air Conditioning Units",
+          "NumberOfUnits": "About 12,100"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/heat-pumps/2-Amana-Daikin-and-Goodman-Packaged-Air-Conditioning-Units/765a84ecd74df01e8f2a32928400a0e0.webp",
+          "Caption": "Recalled Goodman branded air conditioning and heat pump",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/goodman-ac-heat.JPG"
+        },
+        {
+          "URL": "/images/generalRecalls/heat-pumps/2-Amana-Daikin-and-Goodman-Packaged-Air-Conditioning-Units/2268d8128c1cf211ad003048f479b42f.webp",
+          "Caption": "Recalled air conditioning and heat pump model number label location",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/goodman-model-no.JPG"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "Daikin Comfort Technologies Manufacturing L.P. (f/k/a Goodman Manufacturing Company L.P.), of Houston, Texas"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Independent dealers of heating and cooling equipment across the nation, sold from January 2024 through March 2024, priced between $4,500 and $7,500."
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "United States"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Incorrect electrical ratings on the unit's serial plate, which may lead to improper wiring and a fire hazard."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should refrain from opening the outside electrical panel of the recalled units and should contact Daikin Comfort Technologies Manufacturing L.P. (DCT) for a complimentary repair and inspection. DCT will reach out to all known purchasers directly."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ],
+      "slug": "daikin-comfort-technologies-recalls-amana-daikin-and-goodman-air-conditioning-and-heat-pump-units-due-to-fire-risk-recall",
+      "metaDescription": "Daikin recalls Amana, Daikin, and Goodman air conditioning units due to fire hazards. Check if your unit is affected and contact for repairs.",
+      "languages": {
+        "en": {
+          "Title": "Daikin Comfort Technologies Recalls Amana, Daikin, and Goodman Air Conditioning and Heat Pump Units Due to Fire Risk",
+          "Description": "Daikin Comfort Technologies is recalling packaged air conditioning and heat pump units under the Amana, Daikin, and Goodman brands. These units, which are either gray or green, can be identified by their model number located on the electrical connection side of the unit's exterior. To check if your unit is affected by this recall, please visit www.goodmanmfg.com/package-recall.",
+          "ConsumerContact": "For assistance, contact DCT toll-free at 833-324-5460 from 8 a.m. to 4:30 p.m. CT, Monday through Friday. Additional information is available online at www.goodmanmfg.com/package-recall or by visiting www.goodmanmfg.com and selecting \"PRODUCT RECALL.\"",
+          "metaDescription": "Daikin recalls Amana, Daikin, and Goodman air conditioning units due to fire hazards. Check if your unit is affected and contact for repairs.",
+          "Products": [
+            {
+              "Name": "Amana, Daikin, and Goodman Packaged Air Conditioning Units",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 12,100"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled Goodman branded air conditioning and heat pump"
+            },
+            {
+              "Caption": "Recalled air conditioning and heat pump model number label location"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "None reported"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Independent dealers of heating and cooling equipment across the nation, sold from January 2024 through March 2024, priced between $4,500 and $7,500."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Daikin Comfort Technologies Manufacturing L.P. (f/k/a Goodman Manufacturing Company L.P.), of Houston, Texas"
+            }
+          ],
+          "SoldAtLabel": "Sold At",
+          "ManufacturerCountries": [
+            {
+              "Country": "United States"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Incorrect electrical ratings on the unit's serial plate, which may lead to improper wiring and a fire hazard."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Consumers should refrain from opening the outside electrical panel of the recalled units and should contact Daikin Comfort Technologies Manufacturing L.P. (DCT) for a complimentary repair and inspection. DCT will reach out to all known purchasers directly."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Repair"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "Daikin Comfort Technologies recuerda unidades de aire acondicionado y bombas de calor Amana, Daikin y Goodman debido al riesgo de incendio",
+          "Description": "Daikin Comfort Technologies está recordando unidades de aire acondicionado y bombas de calor empaquetadas bajo las marcas Amana, Daikin y Goodman. Estas unidades, que son de color gris o verde, se pueden identificar por su número de modelo ubicado en el lado de conexión eléctrica del exterior de la unidad. Para verificar si su unidad está afectada por este retiro, visite www.goodmanmfg.com/package-recall.",
+          "ConsumerContact": "Para asistencia, comuníquese con DCT sin cargo al 833-324-5460 de 8 a.m. a 4:30 p.m. CT, de lunes a viernes. Información adicional está disponible en línea en www.goodmanmfg.com/package-recall o visitando www.goodmanmfg.com y seleccionando \"RETIRO DE PRODUCTO.\"",
+          "metaDescription": "Daikin recuerda unidades de aire acondicionado Amana, Daikin y Goodman debido a riesgos de incendio. Verifique si su unidad está afectada y contáctenos para reparaciones.",
+          "Products": [
+            {
+              "Name": "Unidades de aire acondicionado empaquetadas Amana, Daikin y Goodman",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 12,100"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Unidad de aire acondicionado y bomba de calor de la marca Goodman retirada"
+            },
+            {
+              "Caption": "Ubicación de la etiqueta del número de modelo de la bomba de calor y aire acondicionado retirada"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Ninguna reportada"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Distribuidores independientes de equipos de calefacción y refrigeración en todo el país, vendidos desde enero de 2024 hasta marzo de 2024, con precios entre $4,500 y $7,500."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Daikin Comfort Technologies Manufacturing L.P. (anteriormente conocida como Goodman Manufacturing Company L.P.), de Houston, Texas"
+            }
+          ],
+          "SoldAtLabel": "Vendido En",
+          "ManufacturerCountries": [
+            {
+              "Country": "Estados Unidos"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Clasificaciones eléctricas incorrectas en la placa de serie de la unidad, lo que puede llevar a un cableado inadecuado y un riesgo de incendio."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Los consumidores deben abstenerse de abrir el panel eléctrico exterior de las unidades retiradas y deben contactar a Daikin Comfort Technologies Manufacturing L.P. (DCT) para una reparación e inspección gratuita. DCT se comunicará directamente con todos los compradores conocidos."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparar"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "دايكن تكنولوجيات الراحة تستدعي وحدات تكييف الهواء ومضخات الحرارة من أمانا، دايكن، وغودمان بسبب خطر الحريق",
+          "Description": "تقوم دايكن تكنولوجيات الراحة باستدعاء وحدات تكييف الهواء ومضخات الحرارة المعبأة تحت علامات أمانا، دايكن، وغودمان. يمكن التعرف على هذه الوحدات، التي تكون إما رمادية أو خضراء، من خلال رقم الطراز الموجود على جانب الاتصال الكهربائي من الجزء الخارجي للوحدة. للتحقق مما إذا كانت وحدتك متأثرة بهذا الاستدعاء، يرجى زيارة www.goodmanmfg.com/package-recall.",
+          "ConsumerContact": "للمساعدة، اتصل بـ DCT على الرقم المجاني 833-324-5460 من الساعة 8 صباحًا حتى 4:30 مساءً بتوقيت وسط أمريكا، من الاثنين إلى الجمعة. تتوفر معلومات إضافية عبر الإنترنت على www.goodmanmfg.com/package-recall أو من خلال زيارة www.goodmanmfg.com واختيار \"استدعاء المنتج.\"",
+          "metaDescription": "دايكن تستدعي وحدات تكييف الهواء من أمانا، دايكن، وغودمان بسبب مخاطر الحريق. تحقق مما إذا كانت وحدتك متأثرة واتصل للإصلاحات.",
+          "Products": [
+            {
+              "Name": "وحدات تكييف الهواء المعبأة من أمانا، دايكن، وغودمان",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 12,100"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "وحدة تكييف الهواء ومضخة الحرارة من غودمان المستدعاة"
+            },
+            {
+              "Caption": "موقع ملصق رقم طراز وحدة تكييف الهواء ومضخة الحرارة المستدعاة"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "لا توجد إصابات مسجلة"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "تجار مستقلون لمعدات التدفئة والتبريد في جميع أنحاء البلاد، تم بيعها من يناير 2024 حتى مارس 2024، بأسعار تتراوح بين 4,500 دولار و7,500 دولار."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "دايكن تكنولوجيات الراحة للتصنيع L.P. (المعروفة سابقًا بشركة غودمان للتصنيع L.P.)، من هيوستن، تكساس"
+            }
+          ],
+          "SoldAtLabel": "تم البيع في",
+          "ManufacturerCountries": [
+            {
+              "Country": "الولايات المتحدة"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "تقييمات كهربائية غير صحيحة على لوحة تسلسل الوحدة، مما قد يؤدي إلى أسلاك غير صحيحة وخطر الحريق."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "يجب على المستهلكين الامتناع عن فتح اللوحة الكهربائية الخارجية للوحدات المستدعاة ويجب عليهم الاتصال بشركة دايكن تكنولوجيات الراحة للتصنيع L.P. (DCT) للحصول على إصلاح وفحص مجاني. ستتواصل DCT مع جميع المشترين المعروفين مباشرة."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "إصلاح"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "大金舒适科技召回阿曼达、 大金和古德曼空调及热泵单元因火灾风险",
+          "Description": "大金舒适科技正在召回阿曼达、 大金和古德曼品牌的打包空调和热泵单元。这些单元为灰色或绿色，可以通过位于单元外部电气连接侧的型号来识别。要检查您的单元是否受此召回影响，请访问 www.goodmanmfg.com/package-recall。",
+          "ConsumerContact": "如需帮助，请在周一至周五的中部时间上午8点至下午4:30拨打 DCT 免费电话 833-324-5460。更多信息可在线访问 www.goodmanmfg.com/package-recall 或访问 www.goodmanmfg.com 并选择“产品召回”。",
+          "metaDescription": "大金因火灾隐患召回阿曼达、大金和古德曼空调单元。检查您的单元是否受影响并联系进行维修。",
+          "Products": [
+            {
+              "Name": "阿曼达、大金和古德曼打包空调单元",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约 12,100"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "召回的古德曼品牌空调和热泵"
+            },
+            {
+              "Caption": "召回的空调和热泵型号标签位置"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "无报告伤害"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "全国独立供暖和制冷设备经销商，销售时间为2024年1月至2024年3月，价格在$4,500至$7,500之间。"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "大金舒适科技制造有限公司（前称古德曼制造公司），位于德克萨斯州休斯顿"
+            }
+          ],
+          "SoldAtLabel": "销售地点",
+          "ManufacturerCountries": [
+            {
+              "Country": "美国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "单元序列号牌上的电气额定值不正确，可能导致接线不当和火灾隐患。"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "消费者应避免打开召回单元的外部电气面板，并应联系大金舒适科技制造有限公司（DCT）进行免费维修和检查。DCT将直接联系所有已知购买者。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "维修"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "Daikin Comfort Technologies rappelle des unités de climatisation et de pompe à chaleur Amana, Daikin et Goodman en raison d'un risque d'incendie",
+          "Description": "Daikin Comfort Technologies rappelle des unités de climatisation et de pompe à chaleur emballées sous les marques Amana, Daikin et Goodman. Ces unités, qui sont soit grises soit vertes, peuvent être identifiées par leur numéro de modèle situé sur le côté de connexion électrique de l'extérieur de l'unité. Pour vérifier si votre unité est concernée par ce rappel, veuillez visiter www.goodmanmfg.com/package-recall.",
+          "ConsumerContact": "Pour assistance, contactez DCT sans frais au 833-324-5460 de 8 h à 16 h 30 CT, du lundi au vendredi. Des informations supplémentaires sont disponibles en ligne sur www.goodmanmfg.com/package-recall ou en visitant www.goodmanmfg.com et en sélectionnant \"RAPPEL DE PRODUIT.\"",
+          "metaDescription": "Daikin rappelle des unités de climatisation Amana, Daikin et Goodman en raison de risques d'incendie. Vérifiez si votre unité est concernée et contactez pour des réparations.",
+          "Products": [
+            {
+              "Name": "Unités de climatisation emballées Amana, Daikin et Goodman",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 12 100"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Climatisation et pompe à chaleur de marque Goodman rappelées"
+            },
+            {
+              "Caption": "Emplacement de l'étiquette du numéro de modèle de la climatisation et de la pompe à chaleur rappelées"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Aucun rapporté"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Revendeurs indépendants d'équipements de chauffage et de climatisation à travers le pays, vendus de janvier 2024 à mars 2024, au prix compris entre 4 500 $ et 7 500 $."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Daikin Comfort Technologies Manufacturing L.P. (anciennement Goodman Manufacturing Company L.P.), de Houston, Texas"
+            }
+          ],
+          "SoldAtLabel": "Vendu À",
+          "ManufacturerCountries": [
+            {
+              "Country": "États-Unis"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Évaluations électriques incorrectes sur la plaque de série de l'unité, ce qui peut entraîner un câblage inapproprié et un risque d'incendie."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Les consommateurs doivent s'abstenir d'ouvrir le panneau électrique extérieur des unités rappelées et doivent contacter Daikin Comfort Technologies Manufacturing L.P. (DCT) pour une réparation et une inspection gratuites. DCT contactera directement tous les acheteurs connus."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Réparation"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "Daikin Comfort Technologies ruft Amana-, Daikin- und Goodman-Klimaanlagen und Wärmepumpen aufgrund von Brandgefahr zurück",
+          "Description": "Daikin Comfort Technologies ruft verpackte Klimaanlagen und Wärmepumpen unter den Marken Amana, Daikin und Goodman zurück. Diese Geräte, die entweder grau oder grün sind, können anhand ihrer Modellnummer identifiziert werden, die sich an der elektrischen Anschlussseite des Geräts befindet. Um zu überprüfen, ob Ihr Gerät von diesem Rückruf betroffen ist, besuchen Sie bitte www.goodmanmfg.com/package-recall.",
+          "ConsumerContact": "Für Unterstützung kontaktieren Sie DCT gebührenfrei unter 833-324-5460 von 8:00 bis 16:30 Uhr CT, Montag bis Freitag. Weitere Informationen sind online verfügbar unter www.goodmanmfg.com/package-recall oder indem Sie www.goodmanmfg.com besuchen und \"PRODUKTRÜCKRUF\" auswählen.",
+          "metaDescription": "Daikin ruft Amana-, Daikin- und Goodman-Klimaanlagen aufgrund von Brandgefahren zurück. Überprüfen Sie, ob Ihr Gerät betroffen ist, und kontaktieren Sie uns für Reparaturen.",
+          "Products": [
+            {
+              "Name": "Verpackte Klimaanlagen von Amana, Daikin und Goodman",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 12.100"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Zurückgerufene Goodman-markierte Klimaanlage und Wärmepumpe"
+            },
+            {
+              "Caption": "Standort des Etiketts mit der Modellnummer der zurückgerufenen Klimaanlage und Wärmepumpe"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Keine gemeldet"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Unabhängige Händler von Heizungs- und Kühlgeräten im ganzen Land, verkauft von Januar 2024 bis März 2024, Preis zwischen 4.500 und 7.500 US-Dollar."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Daikin Comfort Technologies Manufacturing L.P. (ehemals Goodman Manufacturing Company L.P.), Houston, Texas"
+            }
+          ],
+          "SoldAtLabel": "Verkauft bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "Vereinigte Staaten"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Falsche elektrische Bewertungen auf dem Typenschild des Geräts, die zu unsachgemäßer Verkabelung und Brandgefahr führen können."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Verbraucher sollten davon absehen, das äußere elektrische Panel der zurückgerufenen Geräte zu öffnen, und sollten Daikin Comfort Technologies Manufacturing L.P. (DCT) für eine kostenlose Reparatur und Inspektion kontaktieren. DCT wird alle bekannten Käufer direkt kontaktieren."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparatur"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "ダイキン・コンフォート・テクノロジーズがアマナ、ダイキン、グッドマンのエアコンおよびヒートポンプユニットを火災リスクのためにリコール",
+          "Description": "ダイキン・コンフォート・テクノロジーズは、アマナ、ダイキン、グッドマンブランドのパッケージエアコンおよびヒートポンプユニットをリコールしています。これらのユニットは、灰色または緑色で、ユニットの外部の電気接続側にあるモデル番号で識別できます。お使いのユニットがこのリコールの対象かどうかを確認するには、www.goodmanmfg.com/package-recallをご覧ください。",
+          "ConsumerContact": "サポートが必要な場合は、月曜日から金曜日の午前8時から午後4時30分（中央標準時）まで、DCTのフリーダイヤル833-324-5460までご連絡ください。追加情報はwww.goodmanmfg.com/package-recallでオンラインで入手できます。またはwww.goodmanmfg.comを訪れ、「製品リコール」を選択してください。",
+          "metaDescription": "ダイキンが火災の危険性によりアマナ、ダイキン、グッドマンのエアコンユニットをリコール。お使いのユニットが影響を受けているか確認し、修理のために連絡してください。",
+          "Products": [
+            {
+              "Name": "アマナ、ダイキン、グッドマンのパッケージエアコンユニット",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約12,100台"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコールされたグッドマンブランドのエアコンおよびヒートポンプ"
+            },
+            {
+              "Caption": "リコールされたエアコンおよびヒートポンプのモデル番号ラベルの位置"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "報告された怪我はありません"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "全国の暖房および冷却機器の独立ディーラー、2024年1月から2024年3月まで販売、価格は4,500ドルから7,500ドルの間。"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "ダイキン・コンフォート・テクノロジーズ・マニュファクチャリングL.P.（旧グッドマン・マニュファクチャリング・カンパニーL.P.）、テキサス州ヒューストン"
+            }
+          ],
+          "SoldAtLabel": "販売場所",
+          "ManufacturerCountries": [
+            {
+              "Country": "アメリカ合衆国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "ユニットのシリアルプレートに不正確な電気定格があり、不適切な配線や火災の危険を引き起こす可能性があります。"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "消費者はリコールされたユニットの外部電気パネルを開けることを控え、ダイキン・コンフォート・テクノロジーズ・マニュファクチャリングL.P.（DCT）に無償修理および点検を依頼してください。DCTは、すべての既知の購入者に直接連絡します。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "修理"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "Daikin Comfort Technologies Recalls Amana, Daikin e Goodman Unidades de Ar Condicionado e Bombas de Calor Devido ao Risco de Incêndio",
+          "Description": "Daikin Comfort Technologies está recallando unidades de ar condicionado e bombas de calor embaladas sob as marcas Amana, Daikin e Goodman. Essas unidades, que são cinzas ou verdes, podem ser identificadas pelo número do modelo localizado no lado da conexão elétrica da parte externa da unidade. Para verificar se sua unidade é afetada por este recall, visite www.goodmanmfg.com/package-recall.",
+          "ConsumerContact": "Para assistência, entre em contato com a DCT gratuitamente pelo telefone 833-324-5460 das 8h às 16h30 CT, de segunda a sexta-feira. Informações adicionais estão disponíveis online em www.goodmanmfg.com/package-recall ou visitando www.goodmanmfg.com e selecionando \"RECALL DE PRODUTO.\"",
+          "metaDescription": "Daikin recall Amana, Daikin e unidades de ar condicionado Goodman devido a riscos de incêndio. Verifique se sua unidade é afetada e entre em contato para reparos.",
+          "Products": [
+            {
+              "Name": "Unidades de Ar Condicionado Embaladas Amana, Daikin e Goodman",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 12.100"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Ar condicionado e bomba de calor da marca Goodman recallados"
+            },
+            {
+              "Caption": "Localização do rótulo do número do modelo de ar condicionado e bomba de calor recallados"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Nenhuma relatada"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Revendedores independentes de equipamentos de aquecimento e resfriamento em todo o país, vendidos de janeiro de 2024 a março de 2024, com preços entre $4.500 e $7.500."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Daikin Comfort Technologies Manufacturing L.P. (anteriormente conhecida como Goodman Manufacturing Company L.P.), de Houston, Texas"
+            }
+          ],
+          "SoldAtLabel": "Vendidos Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "Estados Unidos"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Classificações elétricas incorretas na placa de série da unidade, que podem levar a fiação inadequada e risco de incêndio."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Os consumidores devem se abster de abrir o painel elétrico externo das unidades recalladas e devem entrar em contato com a Daikin Comfort Technologies Manufacturing L.P. (DCT) para um reparo e inspeção gratuitos. A DCT entrará em contato diretamente com todos os compradores conhecidos."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparo"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "डाइकिन कंफर्ट टेक्नोलॉजीज ने आग के जोखिम के कारण अमाना, डाइकिन और गुडमैन एयर कंडीशनिंग और हीट पंप यूनिट्स को वापस बुलाया",
+          "Description": "डाइकिन कंफर्ट टेक्नोलॉजीज अमाना, डाइकिन और गुडमैन ब्रांडों के तहत पैकेज्ड एयर कंडीशनिंग और हीट पंप यूनिट्स को वापस बुला रहा है। ये यूनिट्स, जो या तो ग्रे या हरे रंग की हैं, उनके मॉडल नंबर द्वारा पहचानी जा सकती हैं जो यूनिट के बाहरी हिस्से के इलेक्ट्रिकल कनेक्शन साइड पर स्थित है। यह जांचने के लिए कि क्या आपकी यूनिट इस रिकॉल से प्रभावित है, कृपया www.goodmanmfg.com/package-recall पर जाएं।",
+          "ConsumerContact": "सहायता के लिए, सोमवार से शुक्रवार, सुबह 8 बजे से शाम 4:30 बजे CT के बीच DCT टोल-फ्री 833-324-5460 पर संपर्क करें। अतिरिक्त जानकारी www.goodmanmfg.com/package-recall पर ऑनलाइन उपलब्ध है या www.goodmanmfg.com पर जाकर \"PRODUCT RECALL\" का चयन करके।",
+          "metaDescription": "डाइकिन आग के खतरों के कारण अमाना, डाइकिन और गुडमैन एयर कंडीशनिंग यूनिट्स को वापस बुलाता है। जांचें कि क्या आपकी यूनिट प्रभावित है और मरम्मत के लिए संपर्क करें।",
+          "Products": [
+            {
+              "Name": "अमाना, डाइकिन और गुडमैन पैकेज्ड एयर कंडीशनिंग यूनिट्स",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 12,100"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "वापस बुलाए गए गुडमैन ब्रांडेड एयर कंडीशनिंग और हीट पंप"
+            },
+            {
+              "Caption": "वापस बुलाए गए एयर कंडीशनिंग और हीट पंप मॉडल नंबर लेबल स्थान"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "कोई रिपोर्ट नहीं की गई"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "देश भर में हीटिंग और कूलिंग उपकरणों के स्वतंत्र डीलर, जो जनवरी 2024 से मार्च 2024 के बीच बेचे गए, कीमत $4,500 से $7,500 के बीच।"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "डाइकिन कंफर्ट टेक्नोलॉजीज मैन्युफैक्चरिंग एल.पी. (पूर्व में गुडमैन मैन्युफैक्चरिंग कंपनी एल.पी.), ह्यूस्टन, टेक्सास"
+            }
+          ],
+          "SoldAtLabel": "बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "संयुक्त राज्य अमेरिका"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "यूनिट के सीरियल प्लेट पर गलत इलेक्ट्रिकल रेटिंग, जो गलत वायरिंग और आग के खतरे का कारण बन सकती है।"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "उपभोक्ताओं को वापस बुलाए गए यूनिट्स के बाहरी इलेक्ट्रिकल पैनल को खोलने से बचना चाहिए और डाइकिन कंफर्ट टेक्नोलॉजीज मैन्युफैक्चरिंग एल.पी. (DCT) से मुफ्त मरम्मत और निरीक्षण के लिए संपर्क करना चाहिए। DCT सभी ज्ञात खरीदारों से सीधे संपर्क करेगा।"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "मरम्मत"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "Daikin Comfort Technologies отзывает кондиционеры и тепловые насосы Amana, Daikin и Goodman из-за риска пожара",
+          "Description": "Daikin Comfort Technologies отзывает упаковочные кондиционеры и тепловые насосы под брендами Amana, Daikin и Goodman. Эти устройства, которые могут быть серыми или зелеными, можно идентифицировать по номеру модели, расположенному на стороне электрического подключения внешней части устройства. Чтобы проверить, затрагивает ли этот отзыв ваше устройство, пожалуйста, посетите www.goodmanmfg.com/package-recall.",
+          "ConsumerContact": "Для получения помощи свяжитесь с DCT по бесплатному номеру 833-324-5460 с 8:00 до 16:30 по центральному времени с понедельника по пятницу. Дополнительную информацию можно найти на сайте www.goodmanmfg.com/package-recall или посетив www.goodmanmfg.com и выбрав \"PRODUCT RECALL.\"",
+          "metaDescription": "Daikin отзывает кондиционеры Amana, Daikin и Goodman из-за опасности пожара. Проверьте, затрагивает ли ваш прибор отзыв, и свяжитесь для ремонта.",
+          "Products": [
+            {
+              "Name": "Упаковочные кондиционеры Amana, Daikin и Goodman",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 12,100"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванный кондиционер и тепловой насос под брендом Goodman"
+            },
+            {
+              "Caption": "Место расположения этикетки номера модели отозванного кондиционера и теплового насоса"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Не сообщалось"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Независимые дилеры оборудования для отопления и охлаждения по всей стране, проданные с января 2024 года по март 2024 года, по цене от 4,500 до 7,500 долларов."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Daikin Comfort Technologies Manufacturing L.P. (ранее Goodman Manufacturing Company L.P.), Хьюстон, Техас"
+            }
+          ],
+          "SoldAtLabel": "Продавалось в",
+          "ManufacturerCountries": [
+            {
+              "Country": "Соединенные Штаты"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Неправильные электрические характеристики на серийной табличке устройства, что может привести к неправильной проводке и риску пожара."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Потребителям следует воздержаться от открытия внешней электрической панели отозванных устройств и обратиться в Daikin Comfort Technologies Manufacturing L.P. (DCT) для бесплатного ремонта и проверки. DCT свяжется со всеми известными покупателями напрямую."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Ремонт"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "Daikin Comfort Technologies thu hồi các đơn vị điều hòa không khí và bơm nhiệt Amana, Daikin và Goodman do nguy cơ cháy",
+          "Description": "Daikin Comfort Technologies đang thu hồi các đơn vị điều hòa không khí và bơm nhiệt đóng gói dưới các thương hiệu Amana, Daikin và Goodman. Những đơn vị này, có màu xám hoặc xanh, có thể được xác định bằng số mô hình nằm ở bên cạnh kết nối điện của bề mặt bên ngoài của đơn vị. Để kiểm tra xem đơn vị của bạn có bị ảnh hưởng bởi đợt thu hồi này hay không, vui lòng truy cập www.goodmanmfg.com/package-recall.",
+          "ConsumerContact": "Để được hỗ trợ, hãy liên hệ với DCT qua số điện thoại miễn phí 833-324-5460 từ 8 giờ sáng đến 4:30 chiều CT, từ thứ Hai đến thứ Sáu. Thông tin bổ sung có sẵn trực tuyến tại www.goodmanmfg.com/package-recall hoặc bằng cách truy cập www.goodmanmfg.com và chọn \"SẢN PHẨM THU HỒI.\"",
+          "metaDescription": "Daikin thu hồi các đơn vị điều hòa không khí Amana, Daikin và Goodman do nguy cơ cháy. Kiểm tra xem đơn vị của bạn có bị ảnh hưởng và liên hệ để sửa chữa.",
+          "Products": [
+            {
+              "Name": "Các đơn vị điều hòa không khí đóng gói Amana, Daikin và Goodman",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 12,100"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Điều hòa không khí và bơm nhiệt mang thương hiệu Goodman bị thu hồi"
+            },
+            {
+              "Caption": "Vị trí nhãn số mô hình của điều hòa không khí và bơm nhiệt bị thu hồi"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Không có báo cáo"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Các đại lý độc lập về thiết bị sưởi và làm mát trên toàn quốc, được bán từ tháng 1 năm 2024 đến tháng 3 năm 2024, có giá từ 4,500 đến 7,500 đô la."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Daikin Comfort Technologies Manufacturing L.P. (trước đây là Goodman Manufacturing Company L.P.), có trụ sở tại Houston, Texas"
+            }
+          ],
+          "SoldAtLabel": "Được bán tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Hoa Kỳ"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Các thông số điện không chính xác trên bảng số sê-ri của đơn vị, có thể dẫn đến việc đấu dây không đúng và nguy cơ cháy."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Người tiêu dùng nên tránh mở bảng điện bên ngoài của các đơn vị bị thu hồi và nên liên hệ với Daikin Comfort Technologies Manufacturing L.P. (DCT) để được sửa chữa và kiểm tra miễn phí. DCT sẽ liên hệ trực tiếp với tất cả những người mua đã biết."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Sửa chữa"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    }
+  ]
+}

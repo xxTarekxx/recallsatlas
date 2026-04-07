@@ -1,0 +1,1738 @@
+{
+  "meta": {
+    "slug": "golf-carts",
+    "sourceCsvFile": "golf-carts_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:36.946Z",
+    "recallCount": 2,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "golf-carts.json",
+    "seoTranslatedAt": "2026-04-04T03:54:07.673Z",
+    "resumePartial": false,
+    "i18nSource": "generalRecallsTranslated",
+    "i18nSourceFile": "golf-carts.json",
+    "i18nUiLangs": [
+      "en",
+      "es",
+      "ar",
+      "zh",
+      "fr",
+      "de",
+      "ja",
+      "pt",
+      "hi",
+      "ru",
+      "vi"
+    ],
+    "i18nProgressByLang": {
+      "es": 2,
+      "ar": 2,
+      "zh": 2,
+      "fr": 2,
+      "de": 2,
+      "ja": 2,
+      "pt": 2,
+      "hi": 2,
+      "ru": 2,
+      "vi": 2
+    },
+    "i18nInProgress": false,
+    "i18nTranslatedAt": "2026-04-07T08:20:18.359Z",
+    "i18nOpenaiModel": "gpt-4o-mini"
+  },
+  "recalls": [
+    {
+      "RecallID": 10431,
+      "RecallNumber": "26021",
+      "RecallDate": "2025-10-16T00:00:00",
+      "Description": "Textron E-Z-GO has issued a recall for specific models of their personal transportation vehicles (PTVs) due to potential fuel leaks that may lead to serious injuries or fire hazards. This recall includes RXV Freedom models from 2020 to 2025 and Valor PTVs from 2023 to 2025, with serial numbers ranging from 5538278 to 5920722. Additionally, TXT Freedom and Valor models from 2020 to 2022 with serial numbers from 3455024 to 3582057 are affected. Serial numbers can be found near the steering column for RXV models and below the operator seat for TXT models.",
+      "URL": "https://www.cpsc.gov/Recalls/2026/Textron-E-Z-GO-Recalls-Personal-Transportation-Vehicles-Due-to-Risk-of-Serious-Injury-and-Fire-Hazard",
+      "Title": "Textron E-Z-GO Recalls Personal Transportation Vehicles Over Fire and Injury Risks",
+      "ConsumerContact": "For assistance, consumers should contact Textron E-Z-GO at 888-438-3946, available Monday through Friday from 8 a.m. to 6 p.m. ET. They can also reach out via email at ezgowarranty@textron.com or visit https://ezgo.txtsv.com/personal/owners/recall-information for more details.",
+      "LastPublishDate": "2025-10-17T00:00:00",
+      "Products": [
+        {
+          "Name": "E-Z-GO RXV Freedom PTV",
+          "NumberOfUnits": "About 90,800 (In addition, about 7,300 were sold in Canada)"
+        }
+      ],
+      "Inconjunctions": [
+        {
+          "URL": "https://wwwapps.tc.gc.ca/Saf-Sec-Sur/7/VRDB-BDRV/search-recherche/detail.aspx?lang=eng&rn=2025299"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/golf-carts/1-E-Z-GO-RXV-Freedom-PTV/e93e1a923e3612e928c4800abd598dd4.webp",
+          "Caption": "Recalled E-Z-GO Valor PTV",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/recalledgolfcart.png"
+        },
+        {
+          "URL": "/images/generalRecalls/golf-carts/1-E-Z-GO-RXV-Freedom-PTV/58f3ec2e6f14334d08bbe71d52fca2e5.webp",
+          "Caption": "Recalled E-Z-GO TXT Freedom PTV",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/recalledgolfcart2.png"
+        },
+        {
+          "URL": "/images/generalRecalls/golf-carts/1-E-Z-GO-RXV-Freedom-PTV/62fa857ef96d77f15f0833456ba89492.webp",
+          "Caption": "Recalled E-Z-GO RXV Freedom PTV",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/recalledgolfcart3.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "Textron E-Z-GO LLC, of Augusta, Georgia"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available at Textron dealerships and distributors across the country from September 2019 to June 2025, priced between $8,400 and $14,000."
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "United States"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Potential fuel leakage at the quick-connect fitting, creating a fire hazard and risk of serious injury."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers must cease use of the affected vehicles and arrange for inspection and necessary repairs. Inspection can be done through Textron E-Z-GO or an authorized dealer at no charge. If fuel leakage is found, repairs will be made free of charge."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ],
+      "slug": "textron-e-z-go-recalls-personal-transportation-vehicles-over-fire-and-injury-risks-recall",
+      "metaDescription": "Textron E-Z-GO recalls certain personal transportation vehicles due to fire hazards. Learn about the risks and how to get your vehicle inspected.",
+      "languages": {
+        "en": {
+          "Title": "Textron E-Z-GO Recalls Personal Transportation Vehicles Over Fire and Injury Risks",
+          "Description": "Textron E-Z-GO has issued a recall for specific models of their personal transportation vehicles (PTVs) due to potential fuel leaks that may lead to serious injuries or fire hazards. This recall includes RXV Freedom models from 2020 to 2025 and Valor PTVs from 2023 to 2025, with serial numbers ranging from 5538278 to 5920722. Additionally, TXT Freedom and Valor models from 2020 to 2022 with serial numbers from 3455024 to 3582057 are affected. Serial numbers can be found near the steering column for RXV models and below the operator seat for TXT models.",
+          "ConsumerContact": "For assistance, consumers should contact Textron E-Z-GO at 888-438-3946, available Monday through Friday from 8 a.m. to 6 p.m. ET. They can also reach out via email at ezgowarranty@textron.com or visit https://ezgo.txtsv.com/personal/owners/recall-information for more details.",
+          "metaDescription": "Textron E-Z-GO recalls certain personal transportation vehicles due to fire hazards. Learn about the risks and how to get your vehicle inspected.",
+          "Products": [
+            {
+              "Name": "E-Z-GO RXV Freedom PTV",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 90,800 (In addition, about 7,300 were sold in Canada)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled E-Z-GO Valor PTV"
+            },
+            {
+              "Caption": "Recalled E-Z-GO TXT Freedom PTV"
+            },
+            {
+              "Caption": "Recalled E-Z-GO RXV Freedom PTV"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "None reported"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Available at Textron dealerships and distributors across the country from September 2019 to June 2025, priced between $8,400 and $14,000."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Textron E-Z-GO LLC, of Augusta, Georgia"
+            }
+          ],
+          "SoldAtLabel": "Sold At",
+          "ManufacturerCountries": [
+            {
+              "Country": "United States"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Potential fuel leakage at the quick-connect fitting, creating a fire hazard and risk of serious injury."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Consumers must cease use of the affected vehicles and arrange for inspection and necessary repairs. Inspection can be done through Textron E-Z-GO or an authorized dealer at no charge. If fuel leakage is found, repairs will be made free of charge."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Repair"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "Textron E-Z-GO Retira Vehículos de Transporte Personal por Riesgos de Incendio y Lesiones",
+          "Description": "Textron E-Z-GO ha emitido un retiro para modelos específicos de sus vehículos de transporte personal (PTVs) debido a posibles fugas de combustible que pueden provocar lesiones graves o riesgos de incendio. Este retiro incluye modelos RXV Freedom de 2020 a 2025 y PTVs Valor de 2023 a 2025, con números de serie que van desde 5538278 hasta 5920722. Además, los modelos TXT Freedom y Valor de 2020 a 2022 con números de serie de 3455024 a 3582057 están afectados. Los números de serie se pueden encontrar cerca de la columna de dirección para los modelos RXV y debajo del asiento del operador para los modelos TXT.",
+          "ConsumerContact": "Para asistencia, los consumidores deben contactar a Textron E-Z-GO al 888-438-3946, disponible de lunes a viernes de 8 a.m. a 6 p.m. ET. También pueden comunicarse por correo electrónico a ezgowarranty@textron.com o visitar https://ezgo.txtsv.com/personal/owners/recall-information para más detalles.",
+          "metaDescription": "Textron E-Z-GO retira ciertos vehículos de transporte personal debido a riesgos de incendio. Conozca los riesgos y cómo hacer que su vehículo sea inspeccionado.",
+          "Products": [
+            {
+              "Name": "E-Z-GO RXV Freedom PTV",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 90,800 (Además, se vendieron aproximadamente 7,300 en Canadá)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "PTV Valor E-Z-GO retirado"
+            },
+            {
+              "Caption": "PTV TXT Freedom E-Z-GO retirado"
+            },
+            {
+              "Caption": "PTV RXV Freedom E-Z-GO retirado"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Ninguna reportada"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible en concesionarios y distribuidores de Textron en todo el país desde septiembre de 2019 hasta junio de 2025, con precios entre $8,400 y $14,000."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Textron E-Z-GO LLC, de Augusta, Georgia"
+            }
+          ],
+          "SoldAtLabel": "Vendido En",
+          "ManufacturerCountries": [
+            {
+              "Country": "Estados Unidos"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Posible fuga de combustible en el conector rápido, creando un riesgo de incendio y riesgo de lesiones graves."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Los consumidores deben cesar el uso de los vehículos afectados y organizar la inspección y reparaciones necesarias. La inspección se puede realizar a través de Textron E-Z-GO o un concesionario autorizado sin cargo. Si se encuentra una fuga de combustible, las reparaciones se realizarán sin costo."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparación"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "تكسترون E-Z-GO تستدعي مركبات النقل الشخصي بسبب مخاطر الحريق والإصابة",
+          "Description": "أصدرت تكسترون E-Z-GO استدعاءً لنماذج معينة من مركبات النقل الشخصي (PTVs) بسبب تسريبات محتملة للوقود قد تؤدي إلى إصابات خطيرة أو مخاطر حريق. يشمل هذا الاستدعاء نماذج RXV Freedom من 2020 إلى 2025 ونماذج Valor PTV من 2023 إلى 2025، مع أرقام تسلسلية تتراوح من 5538278 إلى 5920722. بالإضافة إلى ذلك، تتأثر نماذج TXT Freedom وValor من 2020 إلى 2022 بأرقام تسلسلية من 3455024 إلى 3582057. يمكن العثور على الأرقام التسلسلية بالقرب من عمود التوجيه لنماذج RXV وتحت مقعد المشغل لنماذج TXT.",
+          "ConsumerContact": "للمساعدة، يجب على المستهلكين الاتصال بتكسترون E-Z-GO على الرقم 888-438-3946، المتاح من الاثنين إلى الجمعة من الساعة 8 صباحًا حتى 6 مساءً بتوقيت شرق الولايات المتحدة. يمكنهم أيضًا التواصل عبر البريد الإلكتروني على ezgowarranty@textron.com أو زيارة https://ezgo.txtsv.com/personal/owners/recall-information لمزيد من التفاصيل.",
+          "metaDescription": "تستدعي تكسترون E-Z-GO بعض مركبات النقل الشخصي بسبب مخاطر الحريق. تعرف على المخاطر وكيفية فحص مركبتك.",
+          "Products": [
+            {
+              "Name": "E-Z-GO RXV Freedom PTV",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 90,800 (بالإضافة إلى ذلك، تم بيع حوالي 7,300 في كندا)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "E-Z-GO Valor PTV المستدعى"
+            },
+            {
+              "Caption": "E-Z-GO TXT Freedom PTV المستدعى"
+            },
+            {
+              "Caption": "E-Z-GO RXV Freedom PTV المستدعى"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "لا توجد إصابات تم الإبلاغ عنها"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "متاحة في وكلاء وموزعي تكسترون في جميع أنحاء البلاد من سبتمبر 2019 إلى يونيو 2025، بأسعار تتراوح بين 8,400 دولار و14,000 دولار."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "تكسترون E-Z-GO LLC، من أوغوستا، جورجيا"
+            }
+          ],
+          "SoldAtLabel": "تم البيع في",
+          "ManufacturerCountries": [
+            {
+              "Country": "الولايات المتحدة"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "تسرب محتمل للوقود عند وصلة التوصيل السريع، مما يخلق خطر حريق ومخاطر إصابة خطيرة."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "يجب على المستهلكين التوقف عن استخدام المركبات المتأثرة وترتيب الفحص والإصلاحات اللازمة. يمكن إجراء الفحص من خلال تكسترون E-Z-GO أو وكيل معتمد دون أي رسوم. إذا تم العثور على تسرب للوقود، سيتم إجراء الإصلاحات مجانًا."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "إصلاح"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "Textron E-Z-GO 召回个人交通工具因火灾和伤害风险",
+          "Description": "Textron E-Z-GO 已对其个人交通工具（PTVs）特定型号发出召回，原因是可能存在燃油泄漏，可能导致严重伤害或火灾隐患。此次召回包括 2020 年至 2025 年的 RXV Freedom 型号和 2023 年至 2025 年的 Valor PTV，序列号范围为 5538278 至 5920722。此外，2020 年至 2022 年的 TXT Freedom 和 Valor 型号，序列号范围为 3455024 至 3582057 也受到影响。RXV 型号的序列号可以在方向柱附近找到，TXT 型号的序列号可以在操作员座椅下方找到。",
+          "ConsumerContact": "如需帮助，消费者应联系 Textron E-Z-GO，电话 888-438-3946，工作时间为周一至周五，东部时间上午 8 点至下午 6 点。他们还可以通过电子邮件联系 ezgowarranty@textron.com 或访问 https://ezgo.txtsv.com/personal/owners/recall-information 获取更多详细信息。",
+          "metaDescription": "Textron E-Z-GO 召回某些个人交通工具因火灾隐患。了解风险以及如何检查您的车辆。",
+          "Products": [
+            {
+              "Name": "E-Z-GO RXV Freedom PTV",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约 90,800（此外，约 7,300 辆在加拿大出售）"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "召回的 E-Z-GO Valor PTV"
+            },
+            {
+              "Caption": "召回的 E-Z-GO TXT Freedom PTV"
+            },
+            {
+              "Caption": "召回的 E-Z-GO RXV Freedom PTV"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "未报告伤害"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "在全国的 Textron 经销商和分销商处销售，时间为 2019 年 9 月至 2025 年 6 月，价格在 $8,400 到 $14,000 之间。"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "位于乔治亚州奥古斯塔的 Textron E-Z-GO LLC"
+            }
+          ],
+          "SoldAtLabel": "销售地点",
+          "ManufacturerCountries": [
+            {
+              "Country": "美国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "快速连接配件处可能存在燃油泄漏，造成火灾隐患和严重伤害风险。"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "消费者必须停止使用受影响的车辆，并安排检查和必要的维修。检查可以通过 Textron E-Z-GO 或授权经销商免费进行。如果发现燃油泄漏，将免费进行维修。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "维修"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "Textron E-Z-GO rappelle des véhicules de transport personnel en raison de risques d'incendie et de blessures",
+          "Description": "Textron E-Z-GO a émis un rappel pour des modèles spécifiques de leurs véhicules de transport personnel (PTV) en raison de fuites de carburant potentielles pouvant entraîner des blessures graves ou des risques d'incendie. Ce rappel inclut les modèles RXV Freedom de 2020 à 2025 et les PTV Valor de 2023 à 2025, avec des numéros de série allant de 5538278 à 5920722. De plus, les modèles TXT Freedom et Valor de 2020 à 2022 avec des numéros de série de 3455024 à 3582057 sont concernés. Les numéros de série peuvent être trouvés près de la colonne de direction pour les modèles RXV et sous le siège de l'opérateur pour les modèles TXT.",
+          "ConsumerContact": "Pour obtenir de l'aide, les consommateurs doivent contacter Textron E-Z-GO au 888-438-3946, disponible du lundi au vendredi de 8 h à 18 h HE. Ils peuvent également envoyer un e-mail à ezgowarranty@textron.com ou visiter https://ezgo.txtsv.com/personal/owners/recall-information pour plus de détails.",
+          "metaDescription": "Textron E-Z-GO rappelle certains véhicules de transport personnel en raison de risques d'incendie. Découvrez les risques et comment faire inspecter votre véhicule.",
+          "Products": [
+            {
+              "Name": "E-Z-GO RXV Freedom PTV",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 90 800 (De plus, environ 7 300 ont été vendus au Canada)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "E-Z-GO Valor PTV rappelé"
+            },
+            {
+              "Caption": "E-Z-GO TXT Freedom PTV rappelé"
+            },
+            {
+              "Caption": "E-Z-GO RXV Freedom PTV rappelé"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Aucune signalée"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible chez les concessionnaires et distributeurs Textron à travers le pays de septembre 2019 à juin 2025, au prix de 8 400 $ à 14 000 $."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Textron E-Z-GO LLC, d'Augusta, en Géorgie"
+            }
+          ],
+          "SoldAtLabel": "Vendu À",
+          "ManufacturerCountries": [
+            {
+              "Country": "États-Unis"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Fuite de carburant potentielle au niveau du raccord rapide, créant un risque d'incendie et de blessures graves."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Les consommateurs doivent cesser d'utiliser les véhicules concernés et organiser une inspection et des réparations nécessaires. L'inspection peut être effectuée par Textron E-Z-GO ou un concessionnaire autorisé sans frais. Si une fuite de carburant est détectée, les réparations seront effectuées gratuitement."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Réparation"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "Textron E-Z-GO ruft persönliche Transportfahrzeuge wegen Brand- und Verletzungsrisiken zurück",
+          "Description": "Textron E-Z-GO hat einen Rückruf für bestimmte Modelle ihrer persönlichen Transportfahrzeuge (PTVs) aufgrund möglicher Kraftstofflecks herausgegeben, die zu schweren Verletzungen oder Brandgefahren führen können. Dieser Rückruf umfasst RXV Freedom-Modelle von 2020 bis 2025 und Valor PTVs von 2023 bis 2025, mit Seriennummern von 5538278 bis 5920722. Darüber hinaus sind TXT Freedom- und Valor-Modelle von 2020 bis 2022 mit Seriennummern von 3455024 bis 3582057 betroffen. Seriennummern sind in der Nähe der Lenksäule für RXV-Modelle und unter dem Fahrersitz für TXT-Modelle zu finden.",
+          "ConsumerContact": "Für Unterstützung sollten Verbraucher Textron E-Z-GO unter 888-438-3946 kontaktieren, erreichbar von Montag bis Freitag von 8 bis 18 Uhr ET. Sie können auch eine E-Mail an ezgowarranty@textron.com senden oder die Website https://ezgo.txtsv.com/personal/owners/recall-information besuchen, um weitere Details zu erhalten.",
+          "metaDescription": "Textron E-Z-GO ruft bestimmte persönliche Transportfahrzeuge aufgrund von Brandgefahren zurück. Erfahren Sie mehr über die Risiken und wie Sie Ihr Fahrzeug inspizieren lassen können.",
+          "Products": [
+            {
+              "Name": "E-Z-GO RXV Freedom PTV",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 90.800 (Zusätzlich wurden etwa 7.300 in Kanada verkauft)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Rückgerufenes E-Z-GO Valor PTV"
+            },
+            {
+              "Caption": "Rückgerufenes E-Z-GO TXT Freedom PTV"
+            },
+            {
+              "Caption": "Rückgerufenes E-Z-GO RXV Freedom PTV"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Keine gemeldet"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Erhältlich bei Textron-Händlern und -Vertriebspartnern im ganzen Land von September 2019 bis Juni 2025, preislich zwischen 8.400 und 14.000 US-Dollar."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Textron E-Z-GO LLC, aus Augusta, Georgia"
+            }
+          ],
+          "SoldAtLabel": "Verkauft bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "Vereinigte Staaten"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Mögliche Kraftstoffleckage an der Schnellanschlusskupplung, was eine Brandgefahr und das Risiko schwerer Verletzungen darstellt."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Verbraucher müssen die Nutzung der betroffenen Fahrzeuge einstellen und eine Inspektion sowie notwendige Reparaturen anordnen. Die Inspektion kann kostenlos über Textron E-Z-GO oder einen autorisierten Händler erfolgen. Wenn eine Kraftstoffleckage festgestellt wird, werden die Reparaturen kostenlos durchgeführt."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparatur"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "テキストロン E-Z-GOが火災および怪我のリスクにより個人輸送車両をリコール",
+          "Description": "テキストロン E-Z-GOは、深刻な怪我や火災の危険を引き起こす可能性のある燃料漏れのため、特定のモデルの個人輸送車両（PTV）をリコールしました。このリコールには、2020年から2025年までのRXVフリーダムモデルと、2023年から2025年までのバローPTVが含まれ、シリアル番号は5538278から5920722までです。さらに、2020年から2022年までのTXTフリーダムおよびバローモデルで、シリアル番号は3455024から3582057までのものも影響を受けます。RXVモデルのシリアル番号はステアリングコラム付近に、TXTモデルのシリアル番号はオペレーターシートの下にあります。",
+          "ConsumerContact": "支援が必要な消費者は、テキストロン E-Z-GOに888-438-3946まで連絡してください。営業時間は月曜日から金曜日の午前8時から午後6時（ET）までです。また、メールでezgowarranty@textron.comに連絡するか、詳細についてはhttps://ezgo.txtsv.com/personal/owners/recall-informationを訪問してください。",
+          "metaDescription": "テキストロン E-Z-GOは火災の危険性により特定の個人輸送車両をリコールします。リスクについて学び、車両の検査方法を確認してください。",
+          "Products": [
+            {
+              "Name": "E-Z-GO RXV フリーダム PTV",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約90,800台（さらに、約7,300台がカナダで販売されました）"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコールされたE-Z-GOバローPTV"
+            },
+            {
+              "Caption": "リコールされたE-Z-GO TXTフリーダムPTV"
+            },
+            {
+              "Caption": "リコールされたE-Z-GO RXVフリーダムPTV"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "報告された怪我はなし"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "2019年9月から2025年6月まで、全国のテキストロンディーラーおよび販売業者で販売され、価格は8,400ドルから14,000ドルの間です。"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "テキストロン E-Z-GO LLC、ジョージア州オーガスタ"
+            }
+          ],
+          "SoldAtLabel": "販売場所",
+          "ManufacturerCountries": [
+            {
+              "Country": "アメリカ合衆国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "クイックコネクトフィッティングでの燃料漏れの可能性があり、火災の危険および深刻な怪我のリスクを引き起こす。"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "消費者は影響を受けた車両の使用を中止し、検査および必要な修理を手配する必要があります。検査はテキストロン E-Z-GOまたは認定ディーラーを通じて無料で行うことができます。燃料漏れが見つかった場合、修理は無料で行われます。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "修理"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "Textron E-Z-GO Recalls Veículos de Transporte Pessoal Devido a Riscos de Incêndio e Lesões",
+          "Description": "A Textron E-Z-GO emitiu um recall para modelos específicos de seus veículos de transporte pessoal (PTVs) devido a possíveis vazamentos de combustível que podem levar a lesões graves ou riscos de incêndio. Este recall inclui modelos RXV Freedom de 2020 a 2025 e PTVs Valor de 2023 a 2025, com números de série variando de 5538278 a 5920722. Além disso, os modelos TXT Freedom e Valor de 2020 a 2022 com números de série de 3455024 a 3582057 estão afetados. Os números de série podem ser encontrados perto da coluna de direção para modelos RXV e abaixo do assento do operador para modelos TXT.",
+          "ConsumerContact": "Para assistência, os consumidores devem entrar em contato com a Textron E-Z-GO pelo telefone 888-438-3946, disponível de segunda a sexta-feira, das 8h às 18h ET. Eles também podem entrar em contato por e-mail em ezgowarranty@textron.com ou visitar https://ezgo.txtsv.com/personal/owners/recall-information para mais detalhes.",
+          "metaDescription": "A Textron E-Z-GO faz recall de certos veículos de transporte pessoal devido a riscos de incêndio. Saiba mais sobre os riscos e como fazer a inspeção do seu veículo.",
+          "Products": [
+            {
+              "Name": "E-Z-GO RXV Freedom PTV",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 90.800 (Além disso, cerca de 7.300 foram vendidos no Canadá)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "PTV E-Z-GO Valor Recall"
+            },
+            {
+              "Caption": "PTV E-Z-GO TXT Freedom Recall"
+            },
+            {
+              "Caption": "PTV E-Z-GO RXV Freedom Recall"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Nenhuma relatada"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponível em concessionárias e distribuidores Textron em todo o país de setembro de 2019 a junho de 2025, com preços entre $8.400 e $14.000."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Textron E-Z-GO LLC, de Augusta, Geórgia"
+            }
+          ],
+          "SoldAtLabel": "Vendido Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "Estados Unidos"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Possível vazamento de combustível na conexão rápida, criando um risco de incêndio e risco de lesões graves."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Os consumidores devem interromper o uso dos veículos afetados e providenciar a inspeção e os reparos necessários. A inspeção pode ser feita através da Textron E-Z-GO ou de um revendedor autorizado sem custo. Se for encontrado vazamento de combustível, os reparos serão feitos gratuitamente."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparo"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "Textron E-Z-GO ने आग और चोट के जोखिमों के कारण व्यक्तिगत परिवहन वाहनों की रिकॉल की",
+          "Description": "Textron E-Z-GO ने अपने व्यक्तिगत परिवहन वाहनों (PTVs) के विशिष्ट मॉडलों के लिए रिकॉल जारी किया है क्योंकि संभावित ईंधन लीक हो सकते हैं जो गंभीर चोटों या आग के खतरों का कारण बन सकते हैं। इस रिकॉल में 2020 से 2025 तक के RXV फ्रीडम मॉडल और 2023 से 2025 तक के वैलोर PTV शामिल हैं, जिनके सीरियल नंबर 5538278 से 5920722 के बीच हैं। इसके अतिरिक्त, 2020 से 2022 तक के TXT फ्रीडम और वैलोर मॉडल जिनके सीरियल नंबर 3455024 से 3582057 के बीच हैं, प्रभावित हैं। RXV मॉडलों के लिए स्टीयरिंग कॉलम के पास और TXT मॉडलों के लिए ऑपरेटर सीट के नीचे सीरियल नंबर पाए जा सकते हैं।",
+          "ConsumerContact": "सहायता के लिए, उपभोक्ताओं को Textron E-Z-GO से 888-438-3946 पर संपर्क करना चाहिए, जो सोमवार से शुक्रवार तक सुबह 8 बजे से शाम 6 बजे ET तक उपलब्ध है। वे ezgowarranty@textron.com पर ईमेल के माध्यम से भी संपर्क कर सकते हैं या अधिक जानकारी के लिए https://ezgo.txtsv.com/personal/owners/recall-information पर जा सकते हैं।",
+          "metaDescription": "Textron E-Z-GO आग के खतरों के कारण कुछ व्यक्तिगत परिवहन वाहनों की रिकॉल करता है। जोखिमों के बारे में जानें और अपने वाहन का निरीक्षण कैसे करवाना है।",
+          "Products": [
+            {
+              "Name": "E-Z-GO RXV फ्रीडम PTV",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 90,800 (इसके अतिरिक्त, लगभग 7,300 कनाडा में बेचे गए)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "रिकॉल किया गया E-Z-GO वैलोर PTV"
+            },
+            {
+              "Caption": "रिकॉल किया गया E-Z-GO TXT फ्रीडम PTV"
+            },
+            {
+              "Caption": "रिकॉल किया गया E-Z-GO RXV फ्रीडम PTV"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "कोई रिपोर्ट नहीं की गई"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "सितंबर 2019 से जून 2025 तक देशभर में Textron डीलरशिप और वितरकों पर उपलब्ध, कीमत $8,400 से $14,000 के बीच।"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Textron E-Z-GO LLC, ऑगस्टा, जॉर्जिया"
+            }
+          ],
+          "SoldAtLabel": "बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "संयुक्त राज्य अमेरिका"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "त्वरित-कनेक्ट फिटिंग पर संभावित ईंधन लीक, आग का खतरा और गंभीर चोट का जोखिम पैदा करना।"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "उपभोक्ताओं को प्रभावित वाहनों का उपयोग बंद करना चाहिए और निरीक्षण और आवश्यक मरम्मत के लिए व्यवस्था करनी चाहिए। निरीक्षण Textron E-Z-GO या एक अधिकृत डीलर के माध्यम से बिना किसी शुल्क के किया जा सकता है। यदि ईंधन लीक पाया जाता है, तो मरम्मत बिना किसी शुल्क के की जाएगी।"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "मरम्मत"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "Textron E-Z-GO отзывает личные транспортные средства из-за рисков пожара и травм",
+          "Description": "Textron E-Z-GO объявила об отзыве определенных моделей своих личных транспортных средств (PTVs) из-за потенциальных утечек топлива, которые могут привести к серьезным травмам или пожароопасным ситуациям. Этот отзыв включает модели RXV Freedom с 2020 по 2025 год и PTV Valor с 2023 по 2025 год, с серийными номерами от 5538278 до 5920722. Кроме того, модели TXT Freedom и Valor с 2020 по 2022 год с серийными номерами от 3455024 до 3582057 также затронуты. Серийные номера можно найти рядом с рулевой колонкой для моделей RXV и под сиденьем оператора для моделей TXT.",
+          "ConsumerContact": "Для получения помощи потребители должны обратиться в Textron E-Z-GO по телефону 888-438-3946, доступному с понедельника по пятницу с 8:00 до 18:00 по восточному времени. Также можно связаться по электронной почте на адрес ezgowarranty@textron.com или посетить https://ezgo.txtsv.com/personal/owners/recall-information для получения дополнительной информации.",
+          "metaDescription": "Textron E-Z-GO отзывает определенные личные транспортные средства из-за рисков пожара. Узнайте о рисках и как получить проверку вашего транспортного средства.",
+          "Products": [
+            {
+              "Name": "E-Z-GO RXV Freedom PTV",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 90,800 (Кроме того, около 7,300 были проданы в Канаде)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванный E-Z-GO Valor PTV"
+            },
+            {
+              "Caption": "Отозванный E-Z-GO TXT Freedom PTV"
+            },
+            {
+              "Caption": "Отозванный E-Z-GO RXV Freedom PTV"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Не сообщалось о травмах"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Доступно в дилерских центрах и дистрибьюторах Textron по всей стране с сентября 2019 года по июнь 2025 года, по цене от 8,400 до 14,000 долларов."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Textron E-Z-GO LLC, Огаста, Джорджия"
+            }
+          ],
+          "SoldAtLabel": "Продавалось в",
+          "ManufacturerCountries": [
+            {
+              "Country": "Соединенные Штаты"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Потенциальная утечка топлива в быстросъемном соединении, создающая риск пожара и серьезных травм."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Потребители должны прекратить использование затронутых транспортных средств и организовать проверку и необходимые ремонты. Проверка может быть выполнена через Textron E-Z-GO или авторизованного дилера бесплатно. Если будет обнаружена утечка топлива, ремонт будет выполнен бесплатно."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Ремонт"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "Textron E-Z-GO thu hồi các phương tiện vận chuyển cá nhân do nguy cơ cháy nổ và chấn thương",
+          "Description": "Textron E-Z-GO đã phát động một đợt thu hồi cho các mẫu xe vận chuyển cá nhân (PTVs) cụ thể do khả năng rò rỉ nhiên liệu có thể dẫn đến chấn thương nghiêm trọng hoặc nguy cơ cháy nổ. Đợt thu hồi này bao gồm các mẫu RXV Freedom từ năm 2020 đến 2025 và các PTV Valor từ năm 2023 đến 2025, với số sê-ri từ 5538278 đến 5920722. Ngoài ra, các mẫu TXT Freedom và Valor từ năm 2020 đến 2022 với số sê-ri từ 3455024 đến 3582057 cũng bị ảnh hưởng. Số sê-ri có thể được tìm thấy gần cột lái đối với các mẫu RXV và dưới ghế người điều khiển đối với các mẫu TXT.",
+          "ConsumerContact": "Để được hỗ trợ, người tiêu dùng nên liên hệ với Textron E-Z-GO qua số 888-438-3946, có sẵn từ thứ Hai đến thứ Sáu, từ 8 giờ sáng đến 6 giờ chiều theo giờ ET. Họ cũng có thể liên hệ qua email tại ezgowarranty@textron.com hoặc truy cập https://ezgo.txtsv.com/personal/owners/recall-information để biết thêm chi tiết.",
+          "metaDescription": "Textron E-Z-GO thu hồi một số phương tiện vận chuyển cá nhân do nguy cơ cháy nổ. Tìm hiểu về các rủi ro và cách để kiểm tra xe của bạn.",
+          "Products": [
+            {
+              "Name": "E-Z-GO RXV Freedom PTV",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 90,800 (Ngoài ra, khoảng 7,300 đã được bán ở Canada)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "E-Z-GO Valor PTV bị thu hồi"
+            },
+            {
+              "Caption": "E-Z-GO TXT Freedom PTV bị thu hồi"
+            },
+            {
+              "Caption": "E-Z-GO RXV Freedom PTV bị thu hồi"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Không có báo cáo"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Có sẵn tại các đại lý và nhà phân phối Textron trên toàn quốc từ tháng 9 năm 2019 đến tháng 6 năm 2025, có giá từ 8,400 đến 14,000 USD."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Textron E-Z-GO LLC, ở Augusta, Georgia"
+            }
+          ],
+          "SoldAtLabel": "Đã bán tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Hoa Kỳ"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Nguy cơ rò rỉ nhiên liệu tại đầu nối nhanh, tạo ra nguy cơ cháy nổ và rủi ro chấn thương nghiêm trọng."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Người tiêu dùng phải ngừng sử dụng các phương tiện bị ảnh hưởng và sắp xếp để kiểm tra và sửa chữa cần thiết. Kiểm tra có thể được thực hiện thông qua Textron E-Z-GO hoặc một đại lý ủy quyền mà không mất phí. Nếu phát hiện rò rỉ nhiên liệu, việc sửa chữa sẽ được thực hiện miễn phí."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Sửa chữa"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    },
+    {
+      "RecallID": 10301,
+      "RecallNumber": "25321",
+      "RecallDate": "2025-06-05T00:00:00",
+      "Description": "Yamaha has broadened its recall to encompass approximately 352,000 golf car vehicles due to a potential crash hazard stemming from a faulty accelerator pedal spring assembly. This recall now includes additional models from the years 2016 to 2024, including various Yamaha Drive, Adventurer, and UMAX models. Previously, recalls affected 11,000 units in July 2023, 5,000 in February 2022, and 145,000 in October 2018, among others. The affected golf cars come in multiple colors and are identified by specific model names and serial number prefixes. Consumers are urged to check their vehicles against the recall list for safety.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/Yamaha-Expands-Recall-of-Golf-Car-Vehicles-Due-to-Crash-Hazard-Additional-Models-and-New-Repair-to-Replace-Accelerator-Pedal-Spring-Assembly",
+      "Title": "Yamaha Expands Recall of Golf Car Vehicles Due to Crash Risk; New Models and Repair for Accelerator Pedal Spring Assembly",
+      "ConsumerContact": "For more information, consumers can reach Yamaha at their toll-free number 866-747-4027 anytime or visit https://www.yamahamotorsports.com/Content.php?content=cpsc-recalls or https://yamaha-motor.com/ and click on 'CPSC Recalls' at the bottom of the page.",
+      "LastPublishDate": "2025-06-05T00:00:00",
+      "Products": [
+        {
+          "Name": "Yamaha Golf Car Vehicles",
+          "NumberOfUnits": "About 352,000 (Yamaha previously recalled 11,000 golf cars on July 6, 2023; 5,000 on February 17, 2022; 145,000 on October 3, 2018 and 161,000 on February 22, 2018.)"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/golf-carts/2-Yamaha-Golf-Car-Vehicles/d54ca1489d6b75857b3d557b47d7d202.webp",
+          "Caption": "Recalled Adventurer Two",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/adventurer-1.png"
+        },
+        {
+          "URL": "/images/generalRecalls/golf-carts/2-Yamaha-Golf-Car-Vehicles/ee1fd70e6e416a2f83810d3885d5bb8a.webp",
+          "Caption": "Recalled Concierge 4",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/adventurer-2.png"
+        },
+        {
+          "URL": "/images/generalRecalls/golf-carts/2-Yamaha-Golf-Car-Vehicles/ac4d33ae1989da7f2bb0cff0bfee2232.webp",
+          "Caption": "Recalled Drive2 Fleet",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/adventurer-3.png"
+        },
+        {
+          "URL": "/images/generalRecalls/golf-carts/2-Yamaha-Golf-Car-Vehicles/fdb1f4c371ed8da4e69d54502a4f0162.webp",
+          "Caption": "Recalled UMAX Rally 2 + 2",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/adventurer-4.png"
+        },
+        {
+          "URL": "/images/generalRecalls/golf-carts/2-Yamaha-Golf-Car-Vehicles/4b73ba3b8fbe31d38709dc981c19315e.webp",
+          "Caption": "Recalled UMAX Two",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/adventurer-5.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "Yamaha has received at least 2,200 reports of incidents involving accelerator pedal return spring failures. No injuries have been reported."
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "Yamaha Motor Corporation U.S.A., of Cypress, California"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available at Yamaha dealers across the country from July 2015 through December 2024, priced between $5,970 and $13,220."
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "United States"
+        },
+        {
+          "Country": "Japan"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Failure of the accelerator pedal spring to return to idle, creating a crash risk."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Yamaha is offering a free replacement of the accelerator pedal return spring assembly. Consumers should cease using the recalled golf cars and contact an authorized Yamaha dealer for the replacement. Those who previously received repairs will be contacted by Yamaha with further instructions. Yamaha dealers can provide mobile service or transportation as needed."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ],
+      "slug": "yamaha-expands-recall-of-golf-car-vehicles-due-to-crash-risk-new-models-and-repair-for-accelerator-pedal-spring-assembly-recall",
+      "metaDescription": "Yamaha recalls additional golf car models due to crash hazards. Free repairs offered for affected vehicles. Check your model now!",
+      "languages": {
+        "en": {
+          "Title": "Yamaha Expands Recall of Golf Car Vehicles Due to Crash Risk; New Models and Repair for Accelerator Pedal Spring Assembly",
+          "Description": "Yamaha has broadened its recall to encompass approximately 352,000 golf car vehicles due to a potential crash hazard stemming from a faulty accelerator pedal spring assembly. This recall now includes additional models from the years 2016 to 2024, including various Yamaha Drive, Adventurer, and UMAX models. Previously, recalls affected 11,000 units in July 2023, 5,000 in February 2022, and 145,000 in October 2018, among others. The affected golf cars come in multiple colors and are identified by specific model names and serial number prefixes. Consumers are urged to check their vehicles against the recall list for safety.",
+          "ConsumerContact": "For more information, consumers can reach Yamaha at their toll-free number 866-747-4027 anytime or visit https://www.yamahamotorsports.com/Content.php?content=cpsc-recalls or https://yamaha-motor.com/ and click on 'CPSC Recalls' at the bottom of the page.",
+          "metaDescription": "Yamaha recalls additional golf car models due to crash hazards. Free repairs offered for affected vehicles. Check your model now!",
+          "Products": [
+            {
+              "Name": "Yamaha Golf Car Vehicles",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 352,000 (Yamaha previously recalled 11,000 golf cars on July 6, 2023; 5,000 on February 17, 2022; 145,000 on October 3, 2018 and 161,000 on February 22, 2018.)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled Adventurer Two"
+            },
+            {
+              "Caption": "Recalled Concierge 4"
+            },
+            {
+              "Caption": "Recalled Drive2 Fleet"
+            },
+            {
+              "Caption": "Recalled UMAX Rally 2 + 2"
+            },
+            {
+              "Caption": "Recalled UMAX Two"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Yamaha has received at least 2,200 reports of incidents involving accelerator pedal return spring failures. No injuries have been reported."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Available at Yamaha dealers across the country from July 2015 through December 2024, priced between $5,970 and $13,220."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Yamaha Motor Corporation U.S.A., of Cypress, California"
+            }
+          ],
+          "SoldAtLabel": "Sold At",
+          "ManufacturerCountries": [
+            {
+              "Country": "United States"
+            },
+            {
+              "Country": "Japan"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Failure of the accelerator pedal spring to return to idle, creating a crash risk."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Yamaha is offering a free replacement of the accelerator pedal return spring assembly. Consumers should cease using the recalled golf cars and contact an authorized Yamaha dealer for the replacement. Those who previously received repairs will be contacted by Yamaha with further instructions. Yamaha dealers can provide mobile service or transportation as needed."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Repair"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "Yamaha Amplía el Retiro de Vehículos de Carro de Golf Debido al Riesgo de Choque; Nuevos Modelos y Reparación para el Conjunto del Resorte del Pedal del Acelerador",
+          "Description": "Yamaha ha ampliado su retiro para abarcar aproximadamente 352,000 vehículos de carro de golf debido a un posible riesgo de choque derivado de un conjunto de resorte del pedal del acelerador defectuoso. Este retiro ahora incluye modelos adicionales de los años 2016 a 2024, incluyendo varios modelos Yamaha Drive, Adventurer y UMAX. Anteriormente, los retiros afectaron a 11,000 unidades en julio de 2023, 5,000 en febrero de 2022 y 145,000 en octubre de 2018, entre otros. Los carros de golf afectados vienen en múltiples colores y se identifican por nombres de modelos específicos y prefijos de números de serie. Se insta a los consumidores a verificar sus vehículos contra la lista de retiros por seguridad.",
+          "ConsumerContact": "Para más información, los consumidores pueden comunicarse con Yamaha a su número gratuito 866-747-4027 en cualquier momento o visitar https://www.yamahamotorsports.com/Content.php?content=cpsc-recalls o https://yamaha-motor.com/ y hacer clic en 'CPSC Recalls' en la parte inferior de la página.",
+          "metaDescription": "Yamaha retira modelos adicionales de carros de golf debido a riesgos de choque. Se ofrecen reparaciones gratuitas para los vehículos afectados. ¡Verifica tu modelo ahora!",
+          "Products": [
+            {
+              "Name": "Vehículos de Carro de Golf Yamaha",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 352,000 (Yamaha retiró previamente 11,000 carros de golf el 6 de julio de 2023; 5,000 el 17 de febrero de 2022; 145,000 el 3 de octubre de 2018 y 161,000 el 22 de febrero de 2018.)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Adventurer Dos Retirado"
+            },
+            {
+              "Caption": "Concierge 4 Retirado"
+            },
+            {
+              "Caption": "Drive2 Flota Retirado"
+            },
+            {
+              "Caption": "UMAX Rally 2 + 2 Retirado"
+            },
+            {
+              "Caption": "UMAX Dos Retirado"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Yamaha ha recibido al menos 2,200 informes de incidentes relacionados con fallas en el resorte de retorno del pedal del acelerador. No se han reportado lesiones."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible en concesionarios Yamaha en todo el país desde julio de 2015 hasta diciembre de 2024, con precios entre $5,970 y $13,220."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Yamaha Motor Corporation U.S.A., de Cypress, California"
+            }
+          ],
+          "SoldAtLabel": "Vendidos En",
+          "ManufacturerCountries": [
+            {
+              "Country": "Estados Unidos"
+            },
+            {
+              "Country": "Japón"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Fallo del resorte del pedal del acelerador para regresar a la posición de reposo, creando un riesgo de choque."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Yamaha está ofreciendo un reemplazo gratuito del conjunto del resorte de retorno del pedal del acelerador. Los consumidores deben dejar de usar los carros de golf retirados y contactar a un concesionario autorizado de Yamaha para el reemplazo. Aquellos que recibieron reparaciones anteriormente serán contactados por Yamaha con más instrucciones. Los concesionarios de Yamaha pueden proporcionar servicio móvil o transporte según sea necesario."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparación"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "ياماها توسع استدعاء مركبات سيارات الجولف بسبب خطر التصادم؛ نماذج جديدة وإصلاح لمجموعة زنبرك دواسة المسرع",
+          "Description": "وسعت ياماها استدعاءها ليشمل حوالي 352,000 مركبة سيارات جولف بسبب خطر محتمل للتصادم ناتج عن مجموعة زنبرك دواسة المسرع المعطلة. يشمل هذا الاستدعاء الآن نماذج إضافية من السنوات 2016 إلى 2024، بما في ذلك نماذج ياماها درايف، مغامر، وUMAX المختلفة. سابقًا، تأثر الاستدعاء بـ 11,000 وحدة في يوليو 2023، و5,000 في فبراير 2022، و145,000 في أكتوبر 2018، من بين آخرين. تأتي سيارات الجولف المتأثرة بألوان متعددة وتُعرف بأسماء نماذج محددة وسلاسل أرقام. يُحث المستهلكون على التحقق من مركباتهم مقابل قائمة الاستدعاء للسلامة.",
+          "ConsumerContact": "لمزيد من المعلومات، يمكن للمستهلكين التواصل مع ياماها على رقمهم المجاني 866-747-4027 في أي وقت أو زيارة https://www.yamahamotorsports.com/Content.php?content=cpsc-recalls أو https://yamaha-motor.com/ والنقر على 'استدعاءات CPSC' في أسفل الصفحة.",
+          "metaDescription": "ياماها تستدعي نماذج إضافية من سيارات الجولف بسبب مخاطر التصادم. يتم تقديم إصلاحات مجانية للمركبات المتأثرة. تحقق من طرازك الآن!",
+          "Products": [
+            {
+              "Name": "مركبات سيارات الجولف ياماها",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 352,000 (استدعت ياماها سابقًا 11,000 سيارة جولف في 6 يوليو 2023؛ 5,000 في 17 فبراير 2022؛ 145,000 في 3 أكتوبر 2018 و161,000 في 22 فبراير 2018.)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "المغامر المعاد استدعاؤه اثنان"
+            },
+            {
+              "Caption": "الكونسيرج المعاد استدعاؤه 4"
+            },
+            {
+              "Caption": "درايف2 فليت المعاد استدعاؤه"
+            },
+            {
+              "Caption": "UMAX رالي 2 + 2 المعاد استدعاؤه"
+            },
+            {
+              "Caption": "UMAX اثنان المعاد استدعاؤه"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "تلقت ياماها ما لا يقل عن 2,200 تقرير عن حوادث تتعلق بفشل زنبرك عودة دواسة المسرع. لم يتم الإبلاغ عن أي إصابات."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "متاحة لدى وكلاء ياماها في جميع أنحاء البلاد من يوليو 2015 حتى ديسمبر 2024، بسعر يتراوح بين 5,970 دولار و13,220 دولار."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "ياماها موتور كوربوريشن الولايات المتحدة الأمريكية، من سايبريس، كاليفورنيا"
+            }
+          ],
+          "SoldAtLabel": "تم البيع في",
+          "ManufacturerCountries": [
+            {
+              "Country": "الولايات المتحدة"
+            },
+            {
+              "Country": "اليابان"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "فشل زنبرك دواسة المسرع في العودة إلى وضع الخمول، مما يخلق خطر التصادم."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "تقدم ياماها استبدالًا مجانيًا لمجموعة زنبرك عودة دواسة المسرع. يجب على المستهلكين التوقف عن استخدام سيارات الجولف المعاد استدعاؤها والتواصل مع وكيل ياماها المعتمد للاستبدال. سيتم الاتصال بالذين تلقوا إصلاحات سابقة من قبل ياماها مع مزيد من التعليمات. يمكن لوكلاء ياماها تقديم خدمة متنقلة أو نقل حسب الحاجة."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "إصلاح"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "雅马哈扩大高尔夫车召回因碰撞风险；新型号和加速踏板弹簧组件的维修",
+          "Description": "雅马哈已扩大召回范围，涵盖约352,000辆高尔夫车，因加速踏板弹簧组件故障可能导致碰撞危险。此次召回现已包括2016年至2024年的其他型号，包括各种雅马哈Drive、Adventurer和UMAX型号。此前，召回影响了2023年7月的11,000辆、2022年2月的5,000辆和2018年10月的145,000辆等。受影响的高尔夫车有多种颜色，按特定型号名称和序列号前缀识别。消费者被敦促检查其车辆是否在召回名单上以确保安全。",
+          "ConsumerContact": "如需更多信息，消费者可以随时拨打雅马哈的免费电话866-747-4027，或访问https://www.yamahamotorsports.com/Content.php?content=cpsc-recalls或https://yamaha-motor.com/，并点击页面底部的“CPSC召回”。",
+          "metaDescription": "雅马哈因碰撞危险召回额外的高尔夫车型号。对受影响车辆提供免费维修。立即检查您的型号！",
+          "Products": [
+            {
+              "Name": "雅马哈高尔夫车",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约352,000辆（雅马哈此前于2023年7月6日召回11,000辆高尔夫车；2022年2月17日召回5,000辆；2018年10月3日召回145,000辆；2018年2月22日召回161,000辆。）"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "召回的Adventurer Two"
+            },
+            {
+              "Caption": "召回的Concierge 4"
+            },
+            {
+              "Caption": "召回的Drive2 Fleet"
+            },
+            {
+              "Caption": "召回的UMAX Rally 2 + 2"
+            },
+            {
+              "Caption": "召回的UMAX Two"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "雅马哈已收到至少2,200起涉及加速踏板回弹弹簧故障的事件报告。尚未报告任何伤害。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "自2015年7月至2024年12月在全国雅马哈经销商处销售，价格在$5,970到$13,220之间。"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "雅马哈摩托车公司，美国，加州赛普拉斯"
+            }
+          ],
+          "SoldAtLabel": "销售地点",
+          "ManufacturerCountries": [
+            {
+              "Country": "美国"
+            },
+            {
+              "Country": "日本"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "加速踏板弹簧未能回到空闲位置，造成碰撞风险。"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "雅马哈提供加速踏板回弹弹簧组件的免费更换。消费者应停止使用召回的高尔夫车，并联系授权的雅马哈经销商进行更换。之前接受维修的用户将由雅马哈联系并提供进一步的说明。雅马哈经销商可以根据需要提供移动服务或运输。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "维修"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "Yamaha élargit le rappel des véhicules de voiture de golf en raison du risque d'accident ; nouveaux modèles et réparation de l'ensemble du ressort de la pédale d'accélérateur",
+          "Description": "Yamaha a élargi son rappel pour inclure environ 352 000 véhicules de voiture de golf en raison d'un potentiel danger d'accident résultant d'un ensemble de ressort de pédale d'accélérateur défectueux. Ce rappel inclut désormais des modèles supplémentaires des années 2016 à 2024, y compris divers modèles Yamaha Drive, Adventurer et UMAX. Auparavant, les rappels concernaient 11 000 unités en juillet 2023, 5 000 en février 2022 et 145 000 en octobre 2018, entre autres. Les voitures de golf concernées sont disponibles en plusieurs couleurs et sont identifiées par des noms de modèles spécifiques et des préfixes de numéros de série. Les consommateurs sont invités à vérifier leurs véhicules par rapport à la liste de rappel pour des raisons de sécurité.",
+          "ConsumerContact": "Pour plus d'informations, les consommateurs peuvent contacter Yamaha à leur numéro sans frais 866-747-4027 à tout moment ou visiter https://www.yamahamotorsports.com/Content.php?content=cpsc-recalls ou https://yamaha-motor.com/ et cliquer sur 'CPSC Recalls' en bas de la page.",
+          "metaDescription": "Yamaha rappelle des modèles supplémentaires de voitures de golf en raison de dangers d'accident. Réparations gratuites proposées pour les véhicules concernés. Vérifiez votre modèle maintenant !",
+          "Products": [
+            {
+              "Name": "Véhicules de voiture de golf Yamaha",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 352 000 (Yamaha a précédemment rappelé 11 000 voitures de golf le 6 juillet 2023 ; 5 000 le 17 février 2022 ; 145 000 le 3 octobre 2018 et 161 000 le 22 février 2018.)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Adventurer Two rappelé"
+            },
+            {
+              "Caption": "Concierge 4 rappelé"
+            },
+            {
+              "Caption": "Drive2 Fleet rappelé"
+            },
+            {
+              "Caption": "UMAX Rally 2 + 2 rappelé"
+            },
+            {
+              "Caption": "UMAX Two rappelé"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Yamaha a reçu au moins 2 200 rapports d'incidents impliquant des défaillances du ressort de retour de la pédale d'accélérateur. Aucune blessure n'a été signalée."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible chez les concessionnaires Yamaha à travers le pays de juillet 2015 à décembre 2024, au prix compris entre 5 970 $ et 13 220 $."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Yamaha Motor Corporation U.S.A., de Cypress, Californie"
+            }
+          ],
+          "SoldAtLabel": "Vendu À",
+          "ManufacturerCountries": [
+            {
+              "Country": "États-Unis"
+            },
+            {
+              "Country": "Japon"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Défaillance du ressort de la pédale d'accélérateur à revenir au point mort, créant un risque d'accident."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Yamaha propose un remplacement gratuit de l'ensemble du ressort de retour de la pédale d'accélérateur. Les consommateurs doivent cesser d'utiliser les voitures de golf rappelées et contacter un concessionnaire Yamaha autorisé pour le remplacement. Ceux qui ont déjà reçu des réparations seront contactés par Yamaha avec de plus amples instructions. Les concessionnaires Yamaha peuvent fournir un service mobile ou un transport si nécessaire."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Réparation"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "Yamaha erweitert Rückruf von Golfwagen aufgrund von Unfallrisiken; Neue Modelle und Reparatur für die Rückholfeder des Gaspedals",
+          "Description": "Yamaha hat seinen Rückruf auf etwa 352.000 Golfwagen ausgeweitet, da ein potenzielles Unfallrisiko aufgrund einer fehlerhaften Rückholfeder des Gaspedals besteht. Dieser Rückruf umfasst jetzt zusätzliche Modelle aus den Jahren 2016 bis 2024, einschließlich verschiedener Yamaha Drive-, Adventurer- und UMAX-Modelle. Zuvor betrafen Rückrufe 11.000 Einheiten im Juli 2023, 5.000 im Februar 2022 und 145.000 im Oktober 2018, unter anderem. Die betroffenen Golfwagen sind in mehreren Farben erhältlich und werden durch spezifische Modellnamen und Seriennummernpräfixe identifiziert. Verbraucher werden aufgefordert, ihre Fahrzeuge mit der Rückrufliste auf Sicherheit zu überprüfen.",
+          "ConsumerContact": "Für weitere Informationen können Verbraucher Yamaha jederzeit unter der gebührenfreien Nummer 866-747-4027 erreichen oder die Website https://www.yamahamotorsports.com/Content.php?content=cpsc-recalls oder https://yamaha-motor.com/ besuchen und unten auf der Seite auf 'CPSC Rückrufe' klicken.",
+          "metaDescription": "Yamaha ruft zusätzliche Golfwagenmodelle aufgrund von Unfallgefahren zurück. Kostenlose Reparaturen für betroffene Fahrzeuge angeboten. Überprüfen Sie jetzt Ihr Modell!",
+          "Products": [
+            {
+              "Name": "Yamaha Golfwagen",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 352.000 (Yamaha hat zuvor am 6. Juli 2023 11.000 Golfwagen; am 17. Februar 2022 5.000; am 3. Oktober 2018 145.000 und am 22. Februar 2018 161.000 zurückgerufen.)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Rückgerufener Adventurer Two"
+            },
+            {
+              "Caption": "Rückgerufener Concierge 4"
+            },
+            {
+              "Caption": "Rückgerufener Drive2 Fleet"
+            },
+            {
+              "Caption": "Rückgerufener UMAX Rally 2 + 2"
+            },
+            {
+              "Caption": "Rückgerufener UMAX Two"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Yamaha hat mindestens 2.200 Berichte über Vorfälle im Zusammenhang mit Ausfällen der Rückholfeder des Gaspedals erhalten. Es wurden keine Verletzungen gemeldet."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Erhältlich bei Yamaha-Händlern im ganzen Land von Juli 2015 bis Dezember 2024, Preise zwischen 5.970 und 13.220 US-Dollar."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Yamaha Motor Corporation U.S.A., Cypress, Kalifornien"
+            }
+          ],
+          "SoldAtLabel": "Verkauft bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "Vereinigte Staaten"
+            },
+            {
+              "Country": "Japan"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Versagen der Rückholfeder des Gaspedals, in den Leerlauf zurückzukehren, was ein Unfallrisiko schafft."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Yamaha bietet einen kostenlosen Austausch der Rückholfeder des Gaspedalbaugruppen an. Verbraucher sollten die zurückgerufenen Golfwagen nicht mehr verwenden und sich an einen autorisierten Yamaha-Händler für den Austausch wenden. Personen, die zuvor Reparaturen erhalten haben, werden von Yamaha mit weiteren Anweisungen kontaktiert. Yamaha-Händler können bei Bedarf mobilen Service oder Transport anbieten."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparatur"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "ヤマハ、衝突リスクによるゴルフカー車両のリコールを拡大；アクセルペダルスプリングアセンブリの新モデルと修理",
+          "Description": "ヤマハは、故障したアクセルペダルスプリングアセンブリに起因する潜在的な衝突危険のため、約352,000台のゴルフカー車両を対象にリコールを拡大しました。このリコールには、2016年から2024年までの追加モデルが含まれており、さまざまなヤマハドライブ、アドベンチャー、UMAXモデルが含まれます。これまでのリコールでは、2023年7月に11,000台、2022年2月に5,000台、2018年10月に145,000台が影響を受けました。影響を受けたゴルフカーは複数の色があり、特定のモデル名とシリアル番号の接頭辞で識別されます。消費者は、安全のために自分の車両がリコールリストに該当するか確認することをお勧めします。\n",
+          "ConsumerContact": "詳細については、消費者はヤマハのフリーダイヤル866-747-4027にいつでも連絡するか、https://www.yamahamotorsports.com/Content.php?content=cpsc-recalls または https://yamaha-motor.com/ を訪れて、ページの下部にある「CPSCリコール」をクリックしてください。",
+          "metaDescription": "ヤマハが衝突危険のため追加のゴルフカーモデルをリコール。影響を受けた車両には無料修理を提供。今すぐモデルを確認してください！",
+          "Products": [
+            {
+              "Name": "ヤマハゴルフカー車両",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約352,000台（ヤマハは2023年7月6日に11,000台、2022年2月17日に5,000台、2018年10月3日に145,000台、2018年2月22日に161,000台をリコールしました。）"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコールされたアドベンチャーツー"
+            },
+            {
+              "Caption": "リコールされたコンシェルジュ4"
+            },
+            {
+              "Caption": "リコールされたドライブ2フリート"
+            },
+            {
+              "Caption": "リコールされたUMAXラリー2 + 2"
+            },
+            {
+              "Caption": "リコールされたUMAXツー"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "ヤマハは、アクセルペダルリターンスプリングの故障に関する少なくとも2,200件の事故報告を受けています。負傷者の報告はありません。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "2015年7月から2024年12月まで、全国のヤマハディーラーで購入可能、価格は5,970ドルから13,220ドルの間です。"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "ヤマハモーターコーポレーションU.S.A.、カリフォルニア州シトラス"
+            }
+          ],
+          "SoldAtLabel": "販売場所",
+          "ManufacturerCountries": [
+            {
+              "Country": "アメリカ合衆国"
+            },
+            {
+              "Country": "日本"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "アクセルペダルスプリングがアイドルに戻らないことによる衝突リスク。"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "ヤマハは、アクセルペダルリターンスプリングアセンブリの無料交換を提供しています。消費者はリコールされたゴルフカーの使用を中止し、交換のために認定されたヤマハディーラーに連絡する必要があります。以前に修理を受けた方には、ヤマハからさらなる指示が連絡されます。ヤマハディーラーは、必要に応じてモバイルサービスや輸送を提供できます。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "修理"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "Yamaha Expande Recall de Veículos de Carro de Golfe Devido ao Risco de Acidente; Novos Modelos e Reparo para Conjunto da Mola do Pedal do Acelerador",
+          "Description": "A Yamaha ampliou seu recall para abranger aproximadamente 352.000 veículos de carro de golfe devido a um potencial risco de acidente decorrente de um defeito no conjunto da mola do pedal do acelerador. Este recall agora inclui modelos adicionais dos anos 2016 a 2024, incluindo vários modelos Yamaha Drive, Adventurer e UMAX. Anteriormente, recalls afetaram 11.000 unidades em julho de 2023, 5.000 em fevereiro de 2022 e 145.000 em outubro de 2018, entre outros. Os carros de golfe afetados estão disponíveis em várias cores e são identificados por nomes de modelos específicos e prefixos de números de série. Os consumidores são incentivados a verificar seus veículos na lista de recall para segurança.",
+          "ConsumerContact": "Para mais informações, os consumidores podem entrar em contato com a Yamaha pelo telefone gratuito 866-747-4027 a qualquer momento ou visitar https://www.yamahamotorsports.com/Content.php?content=cpsc-recalls ou https://yamaha-motor.com/ e clicar em 'CPSC Recalls' na parte inferior da página.",
+          "metaDescription": "Yamaha recolhe modelos adicionais de carros de golfe devido a riscos de acidente. Reparo gratuito oferecido para veículos afetados. Verifique seu modelo agora!",
+          "Products": [
+            {
+              "Name": "Veículos de Carro de Golfe Yamaha",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 352.000 (A Yamaha anteriormente recolheu 11.000 carros de golfe em 6 de julho de 2023; 5.000 em 17 de fevereiro de 2022; 145.000 em 3 de outubro de 2018 e 161.000 em 22 de fevereiro de 2018.)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Adventurer Two Recolhido"
+            },
+            {
+              "Caption": "Concierge 4 Recolhido"
+            },
+            {
+              "Caption": "Drive2 Fleet Recolhido"
+            },
+            {
+              "Caption": "UMAX Rally 2 + 2 Recolhido"
+            },
+            {
+              "Caption": "UMAX Two Recolhido"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "A Yamaha recebeu pelo menos 2.200 relatos de incidentes envolvendo falhas na mola de retorno do pedal do acelerador. Nenhum ferimento foi relatado."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponível em concessionárias Yamaha em todo o país de julho de 2015 até dezembro de 2024, com preços entre $5.970 e $13.220."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Yamaha Motor Corporation U.S.A., de Cypress, Califórnia"
+            }
+          ],
+          "SoldAtLabel": "Vendido Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "Estados Unidos"
+            },
+            {
+              "Country": "Japão"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Falha da mola do pedal do acelerador em retornar à posição de inatividade, criando um risco de acidente."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "A Yamaha está oferecendo uma substituição gratuita do conjunto da mola de retorno do pedal do acelerador. Os consumidores devem interromper o uso dos carros de golfe recolhidos e entrar em contato com um revendedor autorizado da Yamaha para a substituição. Aqueles que já receberam reparos serão contatados pela Yamaha com mais instruções. Os revendedores da Yamaha podem fornecer serviço móvel ou transporte conforme necessário."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparo"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "यामाहा ने क्रैश जोखिम के कारण गोल्फ कार वाहनों की रिकॉल का विस्तार किया; एक्सेलेरेटर पैडल स्प्रिंग असेंबली के लिए नए मॉडल और मरम्मत",
+          "Description": "यामाहा ने एक दोषपूर्ण एक्सेलेरेटर पैडल स्प्रिंग असेंबली के कारण संभावित क्रैश खतरे के चलते लगभग 352,000 गोल्फ कार वाहनों की रिकॉल का विस्तार किया है। इस रिकॉल में 2016 से 2024 के बीच के अतिरिक्त मॉडल शामिल हैं, जिनमें विभिन्न यामाहा ड्राइव, एडवेंचरर, और यूमैक्स मॉडल शामिल हैं। पहले, रिकॉल ने जुलाई 2023 में 11,000 इकाइयों, फरवरी 2022 में 5,000, और अक्टूबर 2018 में 145,000 को प्रभावित किया था, अन्य के बीच। प्रभावित गोल्फ कारों के कई रंग हैं और इन्हें विशिष्ट मॉडल नाम और सीरियल नंबर प्रीफिक्स द्वारा पहचाना जाता है। उपभोक्ताओं से अनुरोध किया गया है कि वे सुरक्षा के लिए अपनी वाहनों की जांच रिकॉल सूची के खिलाफ करें।",
+          "ConsumerContact": "अधिक जानकारी के लिए, उपभोक्ता यामाहा से उनके टोल-फ्री नंबर 866-747-4027 पर कभी भी संपर्क कर सकते हैं या https://www.yamahamotorsports.com/Content.php?content=cpsc-recalls या https://yamaha-motor.com/ पर जाकर पृष्ठ के नीचे 'CPSC रिकॉल' पर क्लिक कर सकते हैं।",
+          "metaDescription": "यामाहा क्रैश खतरों के कारण अतिरिक्त गोल्फ कार मॉडल की रिकॉल करता है। प्रभावित वाहनों के लिए मुफ्त मरम्मत की पेशकश की गई है। अभी अपने मॉडल की जांच करें!",
+          "Products": [
+            {
+              "Name": "यामाहा गोल्फ कार वाहन",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 352,000 (यामाहा ने पहले 6 जुलाई 2023 को 11,000 गोल्फ कारों, 17 फरवरी 2022 को 5,000, 3 अक्टूबर 2018 को 145,000 और 22 फरवरी 2018 को 161,000 की रिकॉल की थी।)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "रिकॉल किया गया एडवेंचरर टू"
+            },
+            {
+              "Caption": "रिकॉल किया गया कॉनसीयर्ज 4"
+            },
+            {
+              "Caption": "रिकॉल किया गया ड्राइव2 फ्लीट"
+            },
+            {
+              "Caption": "रिकॉल किया गया यूमैक्स रैली 2 + 2"
+            },
+            {
+              "Caption": "रिकॉल किया गया यूमैक्स टू"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "यामाहा को एक्सेलेरेटर पैडल रिटर्न स्प्रिंग विफलताओं से संबंधित कम से कम 2,200 घटनाओं की रिपोर्ट मिली है। कोई चोटें रिपोर्ट नहीं की गई हैं।"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "जुलाई 2015 से दिसंबर 2024 तक देश भर में यामाहा डीलरों के पास उपलब्ध, कीमत $5,970 से $13,220 के बीच।"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "यामाहा मोटर कॉर्पोरेशन यू.एस.ए., साइप्रस, कैलिफोर्निया"
+            }
+          ],
+          "SoldAtLabel": "बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "संयुक्त राज्य अमेरिका"
+            },
+            {
+              "Country": "जापान"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "एक्सेलेरेटर पैडल स्प्रिंग का वापस न लौटना, क्रैश जोखिम उत्पन्न करना।"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "यामाहा एक्सेलेरेटर पैडल रिटर्न स्प्रिंग असेंबली का मुफ्त प्रतिस्थापन प्रदान कर रहा है। उपभोक्ताओं को रिकॉल की गई गोल्फ कारों का उपयोग करना बंद कर देना चाहिए और प्रतिस्थापन के लिए एक अधिकृत यामाहा डीलर से संपर्क करना चाहिए। जिन्होंने पहले मरम्मत प्राप्त की है, उन्हें आगे की निर्देशों के साथ यामाहा द्वारा संपर्क किया जाएगा। यामाहा डीलर आवश्यकतानुसार मोबाइल सेवा या परिवहन प्रदान कर सकते हैं।"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "मरम्मत"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "Yamaha расширяет отзыв автомобилей гольф-каров из-за риска аварии; новые модели и ремонт для сборки пружины акселератора",
+          "Description": "Yamaha расширила свой отзыв, охватив примерно 352,000 автомобилей гольф-каров из-за потенциальной опасности аварии, вызванной неисправной сборкой пружины акселератора. Этот отзыв теперь включает дополнительные модели с 2016 по 2024 годы, включая различные модели Yamaha Drive, Adventurer и UMAX. Ранее отзывы затронули 11,000 единиц в июле 2023 года, 5,000 в феврале 2022 года и 145,000 в октябре 2018 года, среди прочих. Затронутые гольф-кары представлены в нескольких цветах и идентифицируются по конкретным названиям моделей и префиксам серийных номеров. Потребителей призывают проверить свои автомобили по списку отзывов для обеспечения безопасности.",
+          "ConsumerContact": "Для получения дополнительной информации потребители могут связаться с Yamaha по бесплатному номеру 866-747-4027 в любое время или посетить https://www.yamahamotorsports.com/Content.php?content=cpsc-recalls или https://yamaha-motor.com/ и нажать на 'CPSC Recalls' внизу страницы.",
+          "metaDescription": "Yamaha отзывает дополнительные модели гольф-каров из-за опасностей аварий. Бесплатные ремонты предлагаются для затронутых автомобилей. Проверьте свою модель сейчас!",
+          "Products": [
+            {
+              "Name": "Автомобили гольф-каров Yamaha",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 352,000 (Yamaha ранее отзывала 11,000 гольф-каров 6 июля 2023 года; 5,000 17 февраля 2022 года; 145,000 3 октября 2018 года и 161,000 22 февраля 2018 года.)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванный Adventurer Two"
+            },
+            {
+              "Caption": "Отозванный Concierge 4"
+            },
+            {
+              "Caption": "Отозванный Drive2 Fleet"
+            },
+            {
+              "Caption": "Отозванный UMAX Rally 2 + 2"
+            },
+            {
+              "Caption": "Отозванный UMAX Two"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Yamaha получила как минимум 2,200 сообщений о случаях, связанных с неисправностями пружины возврата акселератора. О травмах не сообщалось."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Доступно у дилеров Yamaha по всей стране с июля 2015 года по декабрь 2024 года, по цене от 5,970 до 13,220 долларов."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Yamaha Motor Corporation U.S.A., из Сайпресса, Калифорния"
+            }
+          ],
+          "SoldAtLabel": "Продается в",
+          "ManufacturerCountries": [
+            {
+              "Country": "Соединенные Штаты"
+            },
+            {
+              "Country": "Япония"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Неисправность пружины акселератора, не возвращающейся в положение холостого хода, создающая риск аварии."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Yamaha предлагает бесплатную замену сборки пружины возврата акселератора. Потребители должны прекратить использование отозванных гольф-каров и обратиться к авторизованному дилеру Yamaha для замены. Те, кто ранее получил ремонт, будут связаны с Yamaha для получения дальнейших инструкций. Дилеры Yamaha могут предоставить мобильный сервис или транспортировку по мере необходимости."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Ремонт"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "Yamaha Mở Rộng Quyết Định Thu Hồi Xe Golf Do Nguy Cơ Va Chạm; Các Mẫu Mới và Sửa Chữa cho Bộ Lò Xo Bàn Đạp Tăng Tốc",
+          "Description": "Yamaha đã mở rộng quyết định thu hồi để bao gồm khoảng 352,000 xe golf do nguy cơ va chạm tiềm ẩn xuất phát từ bộ lò xo bàn đạp tăng tốc bị lỗi. Quyết định thu hồi này hiện bao gồm các mẫu bổ sung từ năm 2016 đến 2024, bao gồm nhiều mẫu Yamaha Drive, Adventurer và UMAX khác nhau. Trước đó, các quyết định thu hồi đã ảnh hưởng đến 11,000 đơn vị vào tháng 7 năm 2023, 5,000 vào tháng 2 năm 2022, và 145,000 vào tháng 10 năm 2018, trong số những cái khác. Các xe golf bị ảnh hưởng có nhiều màu sắc và được xác định bằng các tên mẫu cụ thể và tiền tố số sê-ri. Người tiêu dùng được khuyến cáo kiểm tra xe của họ với danh sách thu hồi để đảm bảo an toàn.",
+          "ConsumerContact": "Để biết thêm thông tin, người tiêu dùng có thể liên hệ với Yamaha qua số điện thoại miễn phí 866-747-4027 bất cứ lúc nào hoặc truy cập https://www.yamahamotorsports.com/Content.php?content=cpsc-recalls hoặc https://yamaha-motor.com/ và nhấp vào 'CPSC Recalls' ở cuối trang.",
+          "metaDescription": "Yamaha thu hồi các mẫu xe golf bổ sung do nguy cơ va chạm. Cung cấp sửa chữa miễn phí cho các xe bị ảnh hưởng. Kiểm tra mẫu của bạn ngay bây giờ!",
+          "Products": [
+            {
+              "Name": "Xe Golf Yamaha",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 352,000 (Yamaha đã thu hồi 11,000 xe golf vào ngày 6 tháng 7 năm 2023; 5,000 vào ngày 17 tháng 2 năm 2022; 145,000 vào ngày 3 tháng 10 năm 2018 và 161,000 vào ngày 22 tháng 2 năm 2018.)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Adventurer Two bị thu hồi"
+            },
+            {
+              "Caption": "Concierge 4 bị thu hồi"
+            },
+            {
+              "Caption": "Drive2 Fleet bị thu hồi"
+            },
+            {
+              "Caption": "UMAX Rally 2 + 2 bị thu hồi"
+            },
+            {
+              "Caption": "UMAX Two bị thu hồi"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Yamaha đã nhận được ít nhất 2,200 báo cáo về các sự cố liên quan đến sự cố của lò xo trả bàn đạp tăng tốc. Không có thương tích nào được báo cáo."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Có mặt tại các đại lý Yamaha trên toàn quốc từ tháng 7 năm 2015 đến tháng 12 năm 2024, với giá từ 5,970 đến 13,220 đô la."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Công ty Yamaha Motor U.S.A., có trụ sở tại Cypress, California"
+            }
+          ],
+          "SoldAtLabel": "Bán Tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Hoa Kỳ"
+            },
+            {
+              "Country": "Nhật Bản"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Sự cố của lò xo bàn đạp tăng tốc không trở về vị trí không tải, tạo ra nguy cơ va chạm."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Yamaha đang cung cấp miễn phí thay thế bộ lò xo trả bàn đạp tăng tốc. Người tiêu dùng nên ngừng sử dụng các xe golf bị thu hồi và liên hệ với đại lý Yamaha ủy quyền để được thay thế. Những người đã nhận sửa chữa trước đó sẽ được Yamaha liên hệ với hướng dẫn thêm. Các đại lý Yamaha có thể cung cấp dịch vụ di động hoặc vận chuyển khi cần."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Sửa chữa"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    }
+  ]
+}

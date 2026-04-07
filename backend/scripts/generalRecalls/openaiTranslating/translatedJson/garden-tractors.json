@@ -1,0 +1,1479 @@
+{
+  "meta": {
+    "slug": "garden-tractors",
+    "sourceCsvFile": "garden-tractors_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:36.937Z",
+    "recallCount": 2,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "garden-tractors.json",
+    "seoTranslatedAt": "2026-04-04T03:36:38.644Z",
+    "resumePartial": false,
+    "i18nSource": "generalRecallsTranslated",
+    "i18nSourceFile": "garden-tractors.json",
+    "i18nUiLangs": [
+      "en",
+      "es",
+      "ar",
+      "zh",
+      "fr",
+      "de",
+      "ja",
+      "pt",
+      "hi",
+      "ru",
+      "vi"
+    ],
+    "i18nProgressByLang": {
+      "es": 2,
+      "ar": 2,
+      "zh": 2,
+      "fr": 2,
+      "de": 2,
+      "ja": 2,
+      "pt": 2,
+      "hi": 2,
+      "ru": 2,
+      "vi": 2
+    },
+    "i18nInProgress": false,
+    "i18nTranslatedAt": "2026-04-07T07:29:52.885Z",
+    "i18nOpenaiModel": "gpt-4o-mini"
+  },
+  "recalls": [
+    {
+      "RecallID": 10167,
+      "RecallNumber": "25141",
+      "RecallDate": "2025-02-20T00:00:00",
+      "Description": "Kubota is recalling its MX5400DTC Utility Tractors due to a potential crash hazard. These tractors feature an 8-speed gear drive transmission and a powerful 55-horsepower Kubota 4-cylinder direct injection engine, all housed in a distinctive orange chassis with white 'KUBOTA' branding. If the clutch cable fails, it may lead to decreased braking effectiveness, increasing the risk of an accident.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/Kubota-Recalls-Utility-Tractors-Due-to-Crash-Hazard",
+      "Title": "Kubota Recalls MX5400DTC Utility Tractors Due to Crash Risk",
+      "ConsumerContact": "For assistance, consumers can reach out to Kubota Tractor Corporation at 888-458-2682 from 8 a.m. to 5 p.m. CT, Monday through Friday. Additional information is available through their contact form at https://www.kubotausa.com/recall/contact/form or by visiting https://www.kubotausa.com/recall/service-support/safety/safety-notices. You can also access more details by navigating to www.kubotausa.com, clicking on 'Parts & Service,' and then selecting 'Safety & Recall Notices.'",
+      "LastPublishDate": "2025-02-20T00:00:00",
+      "Products": [
+        {
+          "Name": "MX5400DTC Utility Tractors",
+          "NumberOfUnits": "About 2,600 (In addition, about 180 were sold in Canada)"
+        }
+      ],
+      "Inconjunctions": [
+        {
+          "URL": "https://recalls-rappels.canada.ca/en/alert-recall/kubota-mx5400dtc-tractor-recalled-due-risk-injury"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/garden-tractors/1-MX5400DTC-Utility-Tractors/67932225e6919a7890c6a6856f4803e7.webp",
+          "Caption": "Recalled Kubota Utility Tractor Model MX5400DTC with cab",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/kubota-tractor.JPG"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received 33 reports of the clutch breaking. No injuries have been reported."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available through authorized Kubota dealers across the country from February 2020 to December 2024, priced between $43,000 and $63,000."
+        }
+      ],
+      "Distributors": [
+        {
+          "Name": "Kubota Tractor Corporation, of Grapevine, Texas"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "Japan"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of reduced braking power due to a potential clutch cable failure"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Stop using the tractors immediately and contact an authorized Kubota dealer for a free inspection and repair. Kubota will reach out to all registered owners."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ],
+      "slug": "kubota-recalls-mx5400dtc-utility-tractors-due-to-crash-risk-recall",
+      "metaDescription": "Kubota recalls MX5400DTC Utility Tractors due to crash hazards from potential clutch cable failure. Contact Kubota for free inspections and repairs.",
+      "languages": {
+        "en": {
+          "Title": "Kubota Recalls MX5400DTC Utility Tractors Due to Crash Risk",
+          "Description": "Kubota is recalling its MX5400DTC Utility Tractors due to a potential crash hazard. These tractors feature an 8-speed gear drive transmission and a powerful 55-horsepower Kubota 4-cylinder direct injection engine, all housed in a distinctive orange chassis with white 'KUBOTA' branding. If the clutch cable fails, it may lead to decreased braking effectiveness, increasing the risk of an accident.",
+          "ConsumerContact": "For assistance, consumers can reach out to Kubota Tractor Corporation at 888-458-2682 from 8 a.m. to 5 p.m. CT, Monday through Friday. Additional information is available through their contact form at https://www.kubotausa.com/recall/contact/form or by visiting https://www.kubotausa.com/recall/service-support/safety/safety-notices. You can also access more details by navigating to www.kubotausa.com, clicking on 'Parts & Service,' and then selecting 'Safety & Recall Notices.'",
+          "metaDescription": "Kubota recalls MX5400DTC Utility Tractors due to crash hazards from potential clutch cable failure. Contact Kubota for free inspections and repairs.",
+          "Products": [
+            {
+              "Name": "MX5400DTC Utility Tractors",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 2,600 (In addition, about 180 were sold in Canada)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled Kubota Utility Tractor Model MX5400DTC with cab"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "The firm has received 33 reports of the clutch breaking. No injuries have been reported."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Available through authorized Kubota dealers across the country from February 2020 to December 2024, priced between $43,000 and $63,000."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Kubota Tractor Corporation, of Grapevine, Texas"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Sold At",
+          "ManufacturerCountries": [
+            {
+              "Country": "Japan"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risk of reduced braking power due to a potential clutch cable failure"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Stop using the tractors immediately and contact an authorized Kubota dealer for a free inspection and repair. Kubota will reach out to all registered owners."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Repair"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "Kubota Retira Tractores Utilitarios MX5400DTC Debido a Riesgo de Choque",
+          "Description": "Kubota está retirando sus Tractores Utilitarios MX5400DTC debido a un posible riesgo de choque. Estos tractores cuentan con una transmisión de 8 velocidades y un potente motor Kubota de 4 cilindros con inyección directa de 55 caballos de fuerza, todo alojado en un chasis naranja distintivo con la marca blanca 'KUBOTA'. Si el cable del embrague falla, puede llevar a una disminución en la efectividad del frenado, aumentando el riesgo de un accidente.",
+          "ConsumerContact": "Para asistencia, los consumidores pueden comunicarse con Kubota Tractor Corporation al 888-458-2682 de 8 a.m. a 5 p.m. CT, de lunes a viernes. Información adicional está disponible a través de su formulario de contacto en https://www.kubotausa.com/recall/contact/form o visitando https://www.kubotausa.com/recall/service-support/safety/safety-notices. También puede acceder a más detalles navegando a www.kubotausa.com, haciendo clic en 'Partes y Servicio', y luego seleccionando 'Avisos de Seguridad y Retiro'.",
+          "metaDescription": "Kubota retira los Tractores Utilitarios MX5400DTC debido a riesgos de choque por posible falla del cable del embrague. Contacte a Kubota para inspecciones y reparaciones gratuitas.",
+          "Products": [
+            {
+              "Name": "Tractores Utilitarios MX5400DTC",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 2,600 (Además, se vendieron aproximadamente 180 en Canadá)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Tractor Utilitario Kubota Modelo MX5400DTC retirado con cabina"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "La empresa ha recibido 33 informes de ruptura del embrague. No se han reportado lesiones."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible a través de concesionarios autorizados de Kubota en todo el país desde febrero de 2020 hasta diciembre de 2024, con precios entre $43,000 y $63,000."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Kubota Tractor Corporation, de Grapevine, Texas"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Se Vendió En",
+          "ManufacturerCountries": [
+            {
+              "Country": "Japón"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Riesgo de reducción de la potencia de frenado debido a una posible falla del cable del embrague"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Deje de usar los tractores inmediatamente y comuníquese con un concesionario autorizado de Kubota para una inspección y reparación gratuitas. Kubota se comunicará con todos los propietarios registrados."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparar"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "كوبوتا تستدعي الجرارات الزراعية MX5400DTC بسبب خطر التصادم",
+          "Description": "تقوم كوبوتا باستدعاء جراراتها الزراعية MX5400DTC بسبب خطر محتمل للتصادم. تتميز هذه الجرارات بناقل حركة يدوي ذو 8 سرعات ومحرك قوي بقوة 55 حصان من كوبوتا، 4 أسطوانات، حقن مباشر، جميعها موجودة في هيكل برتقالي مميز مع علامة 'كوبوتا' البيضاء. إذا فشل كابل القابض، فقد يؤدي ذلك إلى تقليل فعالية الكبح، مما يزيد من خطر وقوع حادث.",
+          "ConsumerContact": "للمساعدة، يمكن للمستهلكين التواصل مع شركة كوبوتا للجرارات على الرقم 888-458-2682 من الساعة 8 صباحًا حتى 5 مساءً بتوقيت وسط الولايات المتحدة، من الاثنين إلى الجمعة. تتوفر معلومات إضافية من خلال نموذج الاتصال الخاص بهم على https://www.kubotausa.com/recall/contact/form أو بزيارة https://www.kubotausa.com/recall/service-support/safety/safety-notices. يمكنك أيضًا الوصول إلى مزيد من التفاصيل من خلال الانتقال إلى www.kubotausa.com، والنقر على 'الأجزاء والخدمات'، ثم اختيار 'إشعارات السلامة والاستدعاء.'",
+          "metaDescription": "تستدعي كوبوتا الجرارات الزراعية MX5400DTC بسبب مخاطر التصادم الناتجة عن احتمال فشل كابل القابض. اتصل بكوبوتا للحصول على فحوصات وإصلاحات مجانية.",
+          "Products": [
+            {
+              "Name": "جرارات MX5400DTC الزراعية",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 2,600 (بالإضافة إلى حوالي 180 تم بيعها في كندا)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "جرار كوبوتا الزراعي المستدعى طراز MX5400DTC مع كابينة"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "تلقت الشركة 33 تقريرًا عن كسر القابض. لم يتم الإبلاغ عن أي إصابات."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "متوفر من خلال وكلاء كوبوتا المعتمدين في جميع أنحاء البلاد من فبراير 2020 إلى ديسمبر 2024، بأسعار تتراوح بين 43,000 و63,000 دولار."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "شركة كوبوتا للجرارات، من غرايبفاين، تكساس"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "تم البيع في",
+          "ManufacturerCountries": [
+            {
+              "Country": "اليابان"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "خطر تقليل قوة الكبح بسبب احتمال فشل كابل القابض"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "توقف عن استخدام الجرارات على الفور واتصل بوكيل كوبوتا المعتمد للحصول على فحص وإصلاح مجاني. ستتواصل كوبوتا مع جميع المالكين المسجلين."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "إصلاح"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "久保田召回MX5400DTC多功能拖拉机因碰撞风险",
+          "Description": "久保田因潜在的碰撞危险召回其MX5400DTC多功能拖拉机。这些拖拉机配备8速齿轮驱动变速箱和强大的55马力久保田4缸直喷发动机，全部装在独特的橙色底盘上，底盘上有白色的“久保田”品牌标识。如果离合器电缆失效，可能导致制动效果降低，从而增加事故风险。",
+          "ConsumerContact": "如需帮助，消费者可以在周一至周五的中部时间上午8点至下午5点拨打888-458-2682联系久保田拖拉机公司。更多信息可以通过他们的联系表单获取，网址为https://www.kubotausa.com/recall/contact/form，或访问https://www.kubotausa.com/recall/service-support/safety/safety-notices。您还可以通过访问www.kubotausa.com，点击“零件与服务”，然后选择“安全与召回通知”来获取更多详细信息。",
+          "metaDescription": "久保田因潜在的离合器电缆故障召回MX5400DTC多功能拖拉机，存在碰撞危险。联系久保田进行免费检查和维修。",
+          "Products": [
+            {
+              "Name": "MX5400DTC多功能拖拉机",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约2600台（此外，约180台在加拿大销售）"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "召回的久保田多功能拖拉机型号MX5400DTC，带驾驶室"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "该公司已收到33起离合器断裂的报告。没有报告受伤情况。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "通过全国授权的久保田经销商销售，销售时间为2020年2月至2024年12月，价格在43,000美元至63,000美元之间。"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "久保田拖拉机公司，位于德克萨斯州格雷普韦恩"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "销售地点",
+          "ManufacturerCountries": [
+            {
+              "Country": "日本"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "因潜在的离合器电缆故障导致制动能力降低的风险"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "立即停止使用拖拉机，并联系授权的久保田经销商进行免费检查和维修。久保田将联系所有注册车主。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "维修"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "Kubota rappelle les tracteurs utilitaires MX5400DTC en raison d'un risque de collision",
+          "Description": "Kubota rappelle ses tracteurs utilitaires MX5400DTC en raison d'un risque potentiel de collision. Ces tracteurs disposent d'une transmission à 8 vitesses et d'un puissant moteur à injection directe Kubota de 55 chevaux, le tout logé dans un châssis orange distinctif avec le logo blanc 'KUBOTA'. Si le câble d'embrayage échoue, cela peut entraîner une diminution de l'efficacité du freinage, augmentant ainsi le risque d'accident.",
+          "ConsumerContact": "Pour obtenir de l'aide, les consommateurs peuvent contacter Kubota Tractor Corporation au 888-458-2682 de 8 h à 17 h CT, du lundi au vendredi. Des informations supplémentaires sont disponibles via leur formulaire de contact à l'adresse https://www.kubotausa.com/recall/contact/form ou en visitant https://www.kubotausa.com/recall/service-support/safety/safety-notices. Vous pouvez également accéder à plus de détails en naviguant sur www.kubotausa.com, en cliquant sur 'Pièces et service', puis en sélectionnant 'Avis de sécurité et de rappel.'",
+          "metaDescription": "Kubota rappelle les tracteurs utilitaires MX5400DTC en raison de risques de collision dus à une éventuelle défaillance du câble d'embrayage. Contactez Kubota pour des inspections et réparations gratuites.",
+          "Products": [
+            {
+              "Name": "Tracteurs utilitaires MX5400DTC",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 2 600 (De plus, environ 180 ont été vendus au Canada)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Tracteur utilitaire Kubota rappelé modèle MX5400DTC avec cabine"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "L'entreprise a reçu 33 rapports de rupture de l'embrayage. Aucun blessé n'a été signalé."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible auprès des concessionnaires Kubota autorisés à travers le pays de février 2020 à décembre 2024, au prix compris entre 43 000 $ et 63 000 $."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Kubota Tractor Corporation, de Grapevine, Texas"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendu chez",
+          "ManufacturerCountries": [
+            {
+              "Country": "Japon"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risque de réduction de la puissance de freinage en raison d'une éventuelle défaillance du câble d'embrayage"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Cessez d'utiliser les tracteurs immédiatement et contactez un concessionnaire Kubota autorisé pour une inspection et une réparation gratuites. Kubota contactera tous les propriétaires enregistrés."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Réparation"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "Kubota ruft MX5400DTC Nutztraktoren aufgrund von Unfallrisiko zurück",
+          "Description": "Kubota ruft seine MX5400DTC Nutztraktoren aufgrund eines potenziellen Unfallrisikos zurück. Diese Traktoren verfügen über ein 8-Gang-Getriebe und einen leistungsstarken 55-PS-Kubota 4-Zylinder-Direkteinspritzmotor, alles untergebracht in einem markanten orangefarbenen Chassis mit weißer 'KUBOTA'-Kennzeichnung. Wenn das Kupplungskabel ausfällt, kann dies zu einer verringerten Bremswirkung führen, was das Risiko eines Unfalls erhöht.",
+          "ConsumerContact": "Für Unterstützung können Verbraucher die Kubota Tractor Corporation unter 888-458-2682 von 8 bis 17 Uhr CT, Montag bis Freitag, kontaktieren. Weitere Informationen sind über ihr Kontaktformular unter https://www.kubotausa.com/recall/contact/form oder durch den Besuch von https://www.kubotausa.com/recall/service-support/safety/safety-notices erhältlich. Sie können auch weitere Details abrufen, indem Sie zu www.kubotausa.com navigieren, auf 'Teile & Service' klicken und dann 'Sicherheits- & Rückrufhinweise' auswählen.",
+          "metaDescription": "Kubota ruft MX5400DTC Nutztraktoren aufgrund von Unfallgefahren durch potenziellen Kupplungskabelausfall zurück. Kontaktieren Sie Kubota für kostenlose Inspektionen und Reparaturen.",
+          "Products": [
+            {
+              "Name": "MX5400DTC Nutztraktoren",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 2.600 (Zusätzlich wurden etwa 180 in Kanada verkauft)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Zurückgerufener Kubota Nutztraktor Modell MX5400DTC mit Kabine"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Das Unternehmen hat 33 Berichte über das Brechen der Kupplung erhalten. Es wurden keine Verletzungen gemeldet."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Verfügbar über autorisierte Kubota-Händler im ganzen Land von Februar 2020 bis Dezember 2024, preislich zwischen 43.000 und 63.000 US-Dollar."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Kubota Tractor Corporation, Grapevine, Texas"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Verkauft bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "Japan"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risiko einer verringerten Bremskraft aufgrund eines potenziellen Kupplungskabelausfalls"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Hören Sie sofort auf, die Traktoren zu benutzen, und kontaktieren Sie einen autorisierten Kubota-Händler für eine kostenlose Inspektion und Reparatur. Kubota wird alle registrierten Eigentümer kontaktieren."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparatur"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "クボタ、衝突リスクによりMX5400DTCユーティリティトラクターをリコール",
+          "Description": "クボタは、潜在的な衝突の危険性によりMX5400DTCユーティリティトラクターをリコールしています。これらのトラクターは、8速ギアドライブトランスミッションと強力な55馬力のクボタ4気筒直噴エンジンを備え、すべてが特徴的なオレンジのシャーシに白い「KUBOTA」ブランドで収められています。クラッチケーブルが故障すると、ブレーキの効果が低下し、事故のリスクが高まる可能性があります。\n",
+          "ConsumerContact": "支援が必要な場合、消費者は月曜日から金曜日の午前8時から午後5時（中央標準時）まで、888-458-2682でクボタトラクターコーポレーションに連絡できます。追加情報は、https://www.kubotausa.com/recall/contact/form の連絡フォームを通じて入手するか、https://www.kubotausa.com/recall/service-support/safety/safety-notices を訪問することで入手できます。また、www.kubotausa.com に移動し、「部品とサービス」をクリックし、「安全とリコール通知」を選択することで、詳細情報にアクセスすることもできます。",
+          "metaDescription": "クボタは、クラッチケーブルの故障の可能性による衝突の危険性からMX5400DTCユーティリティトラクターをリコールします。無料の点検と修理についてはクボタにお問い合わせください。",
+          "Products": [
+            {
+              "Name": "MX5400DTCユーティリティトラクター",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約2,600台（さらに、カナダで約180台が販売されました）"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "キャブ付きリコールされたクボタユーティリティトラクターモデルMX5400DTC"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "同社はクラッチの破損に関する33件の報告を受けています。怪我の報告はありません。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "2020年2月から2024年12月まで、全国の認定クボタディーラーを通じて販売され、価格は43,000ドルから63,000ドルの間です。"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "テキサス州グレープバインのクボタトラクターコーポレーション"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "販売場所",
+          "ManufacturerCountries": [
+            {
+              "Country": "日本"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "潜在的なクラッチケーブルの故障によるブレーキ力の低下のリスク"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "トラクターの使用を直ちに中止し、無料の点検と修理のために認定クボタディーラーに連絡してください。クボタはすべての登録所有者に連絡します。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "修理"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "Kubota Recalls MX5400DTC Tratores Utilitários Devido ao Risco de Acidente",
+          "Description": "A Kubota está recallando seus Tratores Utilitários MX5400DTC devido a um potencial risco de acidente. Esses tratores possuem uma transmissão de 8 velocidades e um potente motor Kubota de 4 cilindros com injeção direta de 55 cavalos de potência, todos alojados em um distinto chassi laranja com a marca 'KUBOTA' em branco. Se o cabo da embreagem falhar, isso pode levar a uma diminuição da eficácia da frenagem, aumentando o risco de um acidente.",
+          "ConsumerContact": "Para assistência, os consumidores podem entrar em contato com a Kubota Tractor Corporation pelo telefone 888-458-2682 das 8h às 17h CT, de segunda a sexta-feira. Informações adicionais estão disponíveis através do formulário de contato em https://www.kubotausa.com/recall/contact/form ou visitando https://www.kubotausa.com/recall/service-support/safety/safety-notices. Você também pode acessar mais detalhes navegando para www.kubotausa.com, clicando em 'Peças & Serviço' e, em seguida, selecionando 'Avisos de Segurança & Recall.'",
+          "metaDescription": "A Kubota recall os Tratores Utilitários MX5400DTC devido a riscos de acidente decorrentes de uma possível falha no cabo da embreagem. Entre em contato com a Kubota para inspeções e reparos gratuitos.",
+          "Products": [
+            {
+              "Name": "Tratores Utilitários MX5400DTC",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 2.600 (Além disso, cerca de 180 foram vendidos no Canadá)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Trator Utilitário Kubota Modelo MX5400DTC recallado com cabine"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "A empresa recebeu 33 relatos de quebra do cabo da embreagem. Nenhum ferimento foi relatado."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponível através de revendedores autorizados da Kubota em todo o país de fevereiro de 2020 a dezembro de 2024, com preços entre $43.000 e $63.000."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Kubota Tractor Corporation, de Grapevine, Texas"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendido Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "Japão"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risco de redução da potência de frenagem devido a uma possível falha no cabo da embreagem"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Pare de usar os tratores imediatamente e entre em contato com um revendedor autorizado da Kubota para uma inspeção e reparo gratuitos. A Kubota entrará em contato com todos os proprietários registrados."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparo"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "कुबोटा ने दुर्घटना के जोखिम के कारण MX5400DTC उपयोगिता ट्रैक्टरों को वापस बुलाया",
+          "Description": "कुबोटा अपने MX5400DTC उपयोगिता ट्रैक्टरों को संभावित दुर्घटना के खतरे के कारण वापस बुला रहा है। इन ट्रैक्टरों में 8-स्पीड गियर ड्राइव ट्रांसमिशन और एक शक्तिशाली 55-हॉर्सपावर कुबोटा 4-सिलेंडर डायरेक्ट इंजेक्शन इंजन है, जो एक विशिष्ट नारंगी चेसिस में सफेद 'KUBOTA' ब्रांडिंग के साथ housed है। यदि क्लच केबल विफल हो जाती है, तो यह ब्रेकिंग प्रभावशीलता को कम कर सकती है, जिससे दुर्घटना का जोखिम बढ़ जाता है।",
+          "ConsumerContact": "सहायता के लिए, उपभोक्ता कुबोटा ट्रैक्टर कॉर्पोरेशन से 888-458-2682 पर सुबह 8 बजे से शाम 5 बजे CT, सोमवार से शुक्रवार तक संपर्क कर सकते हैं। अतिरिक्त जानकारी उनके संपर्क फॉर्म के माध्यम से उपलब्ध है https://www.kubotausa.com/recall/contact/form या https://www.kubotausa.com/recall/service-support/safety/safety-notices पर जाकर। आप www.kubotausa.com पर जाकर, 'Parts & Service' पर क्लिक करके और फिर 'Safety & Recall Notices' का चयन करके अधिक विवरण भी प्राप्त कर सकते हैं।",
+          "metaDescription": "कुबोटा संभावित क्लच केबल विफलता के कारण दुर्घटना के खतरों के कारण MX5400DTC उपयोगिता ट्रैक्टरों को वापस बुलाता है। मुफ्त निरीक्षण और मरम्मत के लिए कुबोटा से संपर्क करें।",
+          "Products": [
+            {
+              "Name": "MX5400DTC उपयोगिता ट्रैक्टर",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 2,600 (इसके अतिरिक्त, लगभग 180 कनाडा में बेचे गए)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "कबिन के साथ वापस बुलाया गया कुबोटा उपयोगिता ट्रैक्टर मॉडल MX5400DTC"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "कंपनी को क्लच टूटने के 33 रिपोर्ट मिली हैं। कोई चोट की सूचना नहीं मिली है।"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "फरवरी 2020 से दिसंबर 2024 तक देश भर में अधिकृत कुबोटा डीलरों के माध्यम से उपलब्ध, कीमत $43,000 से $63,000 के बीच।"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "कुबोटा ट्रैक्टर कॉर्पोरेशन, ग्रेपवाइन, टेक्सास"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "जापान"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "संभावित क्लच केबल विफलता के कारण ब्रेकिंग शक्ति में कमी का जोखिम"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "ट्रैक्टरों का उपयोग तुरंत बंद करें और मुफ्त निरीक्षण और मरम्मत के लिए एक अधिकृत कुबोटा डीलर से संपर्क करें। कुबोटा सभी पंजीकृत मालिकों से संपर्क करेगा।"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "मरम्मत"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "Kubota отзывает тракторы MX5400DTC из-за риска аварии",
+          "Description": "Компания Kubota отзывает свои тракторы MX5400DTC из-за потенциальной опасности аварии. Эти тракторы оснащены 8-ступенчатой трансмиссией и мощным 55-сильным 4-цилиндровым двигателем Kubota с непосредственным впрыском, все это размещено в характерном оранжевом шасси с белым брендингом 'KUBOTA'. Если трос сцепления выйдет из строя, это может привести к снижению эффективности торможения, увеличивая риск аварии.",
+          "ConsumerContact": "Для получения помощи потребители могут обратиться в корпорацию Kubota Tractor по телефону 888-458-2682 с 8:00 до 17:00 по центральному времени с понедельника по пятницу. Дополнительную информацию можно получить через их контактную форму на https://www.kubotausa.com/recall/contact/form или посетив https://www.kubotausa.com/recall/service-support/safety/safety-notices. Вы также можете получить больше деталей, перейдя на www.kubotausa.com, нажав на 'Запчасти и услуги', а затем выбрав 'Уведомления о безопасности и отзывах'.",
+          "metaDescription": "Kubota отзывает тракторы MX5400DTC из-за опасностей аварий из-за потенциального выхода из строя троса сцепления. Свяжитесь с Kubota для бесплатных проверок и ремонтов.",
+          "Products": [
+            {
+              "Name": "Тракторы MX5400DTC",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 2,600 (Кроме того, около 180 были проданы в Канаде)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванный трактор Kubota модели MX5400DTC с кабиной"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Компания получила 33 сообщения о поломке сцепления. О травмах не сообщалось."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Доступно через авторизованных дилеров Kubota по всей стране с февраля 2020 года по декабрь 2024 года, по цене от 43,000 до 63,000 долларов."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Корпорация Kubota Tractor из Грейпвайна, Техас"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Продается в",
+          "ManufacturerCountries": [
+            {
+              "Country": "Япония"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Риск снижения тормозной силы из-за потенциального выхода из строя троса сцепления"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Немедленно прекратите использование тракторов и свяжитесь с авторизованным дилером Kubota для бесплатной проверки и ремонта. Kubota свяжется со всеми зарегистрированными владельцами."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Ремонт"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "Kubota Thu Hồi Máy Kéo MX5400DTC Do Nguy Cơ Va Chạm",
+          "Description": "Kubota đang thu hồi máy kéo MX5400DTC của mình do nguy cơ va chạm tiềm ẩn. Những chiếc máy kéo này có hộp số 8 cấp và động cơ phun trực tiếp 4 xy-lanh mạnh mẽ 55 mã lực của Kubota, tất cả được đặt trong một khung màu cam đặc trưng với thương hiệu 'KUBOTA' màu trắng. Nếu cáp ly hợp bị hỏng, điều này có thể dẫn đến hiệu quả phanh giảm, làm tăng nguy cơ xảy ra tai nạn.",
+          "ConsumerContact": "Để được hỗ trợ, người tiêu dùng có thể liên hệ với Tập đoàn Máy Kéo Kubota qua số 888-458-2682 từ 8 giờ sáng đến 5 giờ chiều CT, từ thứ Hai đến thứ Sáu. Thông tin bổ sung có sẵn qua mẫu liên hệ của họ tại https://www.kubotausa.com/recall/contact/form hoặc bằng cách truy cập https://www.kubotausa.com/recall/service-support/safety/safety-notices. Bạn cũng có thể truy cập thêm chi tiết bằng cách điều hướng đến www.kubotausa.com, nhấp vào 'Phụ Tùng & Dịch Vụ', và sau đó chọn 'Thông Báo An Toàn & Thu Hồi.'",
+          "metaDescription": "Kubota thu hồi máy kéo MX5400DTC do nguy cơ va chạm từ việc cáp ly hợp có thể bị hỏng. Liên hệ với Kubota để được kiểm tra và sửa chữa miễn phí.",
+          "Products": [
+            {
+              "Name": "Máy Kéo MX5400DTC",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 2,600 (Ngoài ra, khoảng 180 chiếc đã được bán ở Canada)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Máy Kéo Kubota Model MX5400DTC bị thu hồi với cabin"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Công ty đã nhận được 33 báo cáo về việc cáp ly hợp bị gãy. Không có thương tích nào được báo cáo."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Có sẵn thông qua các đại lý Kubota được ủy quyền trên toàn quốc từ tháng 2 năm 2020 đến tháng 12 năm 2024, có giá từ 43,000 đến 63,000 đô la."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Tập đoàn Máy Kéo Kubota, tại Grapevine, Texas"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Bán Tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Nhật Bản"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Nguy cơ giảm sức mạnh phanh do khả năng cáp ly hợp bị hỏng"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Ngừng sử dụng máy kéo ngay lập tức và liên hệ với đại lý Kubota được ủy quyền để được kiểm tra và sửa chữa miễn phí. Kubota sẽ liên hệ với tất cả các chủ sở hữu đã đăng ký."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Sửa chữa"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    },
+    {
+      "RecallID": 10059,
+      "RecallNumber": "24377",
+      "RecallDate": "2024-09-26T00:00:00",
+      "Description": "John Deere is recalling specific models of Compact Utility Tractors, including the 1023E, 1025R, and 2025R, which feature the brand name on the hood. These tractors, available in green and yellow, were sold with both open and enclosed operator stations. To find the serial numbers for the affected tractors, visit www.deere.com, navigate to 'Parts & Service', and select 'Recall'. The serial number is located on the tractor's frame, specifically on the front right side near the engine.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/John-Deere-Recalls-Compact-Utility-Tractors-Due-to-Crash-Hazard",
+      "Title": "John Deere Recalls 1023E, 1025R, and 2025R Compact Utility Tractors Due to Crash Risk",
+      "ConsumerContact": "For further assistance, contact Deere & Company at 800-537-8233, available Monday to Friday from 8 a.m. to 6 p.m. ET and Saturday from 9 a.m. to 3 p.m. ET. You can also visit www.deere.com and select 'Recalls' under the 'Parts & Service' menu, or go directly to https://www.deere.com/en/parts-and-service/recall-information/ for more details.",
+      "LastPublishDate": "2024-09-26T00:00:00",
+      "Products": [
+        {
+          "Name": "John Deere 1023E Compact Utility Tractor",
+          "NumberOfUnits": "About 147,900 (In addition, about 16,800 were sold in Canada)"
+        }
+      ],
+      "Inconjunctions": [
+        {
+          "URL": "https://recalls-rappels.canada.ca/en/alert-recall/john-deere-compact-utility-tractors-recalled-due-possible-injury-hazard-0"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/garden-tractors/2-John-Deere-1023E-Compact-Utility-Tractor/e412734cd01e99bf1badd001548c500f.webp",
+          "Caption": "Recalled Compact Utility Tractor",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Tractor.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received four reports of the brake linkage failing, including one hospitalization and two impact injuries and minor property damage to the tractors."
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "Deere & Company, of Moline, Illinois"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Authorized John Deere dealers across the country, available from November 2017 through July 2024, with prices ranging from $12,700 to $21,000."
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "United States"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Brake linkage front bell crank failure leading to loss of braking and crash risk"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Stop using the recalled tractors and contact an authorized John Deere dealer for a free repair. If transportation to the dealer is not possible, arrangements will be made for repair at the consumer's location. John Deere will reach out to all known purchasers directly."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ],
+      "slug": "john-deere-recalls-1023e-1025r-and-2025r-compact-utility-tractors-due-to-crash-risk-recall",
+      "metaDescription": "John Deere recalls 1023E, 1025R, and 2025R Compact Utility Tractors due to a crash hazard. Contact for free repairs.",
+      "languages": {
+        "en": {
+          "Title": "John Deere Recalls 1023E, 1025R, and 2025R Compact Utility Tractors Due to Crash Risk",
+          "Description": "John Deere is recalling specific models of Compact Utility Tractors, including the 1023E, 1025R, and 2025R, which feature the brand name on the hood. These tractors, available in green and yellow, were sold with both open and enclosed operator stations. To find the serial numbers for the affected tractors, visit www.deere.com, navigate to 'Parts & Service', and select 'Recall'. The serial number is located on the tractor's frame, specifically on the front right side near the engine.",
+          "ConsumerContact": "For further assistance, contact Deere & Company at 800-537-8233, available Monday to Friday from 8 a.m. to 6 p.m. ET and Saturday from 9 a.m. to 3 p.m. ET. You can also visit www.deere.com and select 'Recalls' under the 'Parts & Service' menu, or go directly to https://www.deere.com/en/parts-and-service/recall-information/ for more details.",
+          "metaDescription": "John Deere recalls 1023E, 1025R, and 2025R Compact Utility Tractors due to a crash hazard. Contact for free repairs.",
+          "Products": [
+            {
+              "Name": "John Deere 1023E Compact Utility Tractor",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 147,900 (In addition, about 16,800 were sold in Canada)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled Compact Utility Tractor"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "The firm has received four reports of the brake linkage failing, including one hospitalization and two impact injuries and minor property damage to the tractors."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Authorized John Deere dealers across the country, available from November 2017 through July 2024, with prices ranging from $12,700 to $21,000."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Deere & Company, of Moline, Illinois"
+            }
+          ],
+          "SoldAtLabel": "Sold At",
+          "ManufacturerCountries": [
+            {
+              "Country": "United States"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Brake linkage front bell crank failure leading to loss of braking and crash risk"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Stop using the recalled tractors and contact an authorized John Deere dealer for a free repair. If transportation to the dealer is not possible, arrangements will be made for repair at the consumer's location. John Deere will reach out to all known purchasers directly."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Repair"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "John Deere recuerda los tractores utilitarios compactos 1023E, 1025R y 2025R debido al riesgo de choque",
+          "Description": "John Deere está recordando modelos específicos de tractores utilitarios compactos, incluidos los 1023E, 1025R y 2025R, que presentan el nombre de la marca en el capó. Estos tractores, disponibles en verde y amarillo, se vendieron con estaciones de operador abiertas y cerradas. Para encontrar los números de serie de los tractores afectados, visite www.deere.com, navegue a 'Piezas y Servicio' y seleccione 'Retiro'. El número de serie se encuentra en el marco del tractor, específicamente en el lado derecho delantero cerca del motor.",
+          "ConsumerContact": "Para obtener más ayuda, comuníquese con Deere & Company al 800-537-8233, disponible de lunes a viernes de 8 a.m. a 6 p.m. ET y los sábados de 9 a.m. a 3 p.m. ET. También puede visitar www.deere.com y seleccionar 'Retiros' en el menú 'Piezas y Servicio', o ir directamente a https://www.deere.com/en/parts-and-service/recall-information/ para más detalles.",
+          "metaDescription": "John Deere recuerda los tractores utilitarios compactos 1023E, 1025R y 2025R debido a un riesgo de choque. Contacto para reparaciones gratuitas.",
+          "Products": [
+            {
+              "Name": "Tractor utilitario compacto John Deere 1023E",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 147,900 (Además, se vendieron aproximadamente 16,800 en Canadá)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Tractor utilitario compacto retirado"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "La empresa ha recibido cuatro informes de fallos en el enlace de freno, incluyendo una hospitalización y dos lesiones por impacto y daños menores a la propiedad de los tractores."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Concesionarios autorizados de John Deere en todo el país, disponibles desde noviembre de 2017 hasta julio de 2024, con precios que oscilan entre $12,700 y $21,000."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Deere & Company, de Moline, Illinois"
+            }
+          ],
+          "SoldAtLabel": "Vendidos en",
+          "ManufacturerCountries": [
+            {
+              "Country": "Estados Unidos"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Fallo del manillar del enlace de freno delantero que conduce a la pérdida de frenado y riesgo de choque"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Deje de usar los tractores retirados y comuníquese con un concesionario autorizado de John Deere para una reparación gratuita. Si el transporte al concesionario no es posible, se harán arreglos para la reparación en la ubicación del consumidor. John Deere se comunicará directamente con todos los compradores conocidos."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparación"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "جون دير يستدعي الجرارات المدمجة 1023E و 1025R و 2025R بسبب خطر التصادم",
+          "Description": "جون دير يستدعي نماذج محددة من الجرارات المدمجة، بما في ذلك 1023E و 1025R و 2025R، التي تحمل اسم العلامة التجارية على الغطاء. تم بيع هذه الجرارات، المتاحة باللونين الأخضر والأصفر، مع محطات تشغيل مفتوحة ومغلقة. للعثور على أرقام التسلسل للجرارات المتأثرة، قم بزيارة www.deere.com، وانتقل إلى 'الأجزاء والخدمة'، واختر 'استدعاء'. يقع رقم التسلسل على إطار الجرار، تحديداً على الجانب الأيمن الأمامي بالقرب من المحرك.",
+          "ConsumerContact": "للمزيد من المساعدة، اتصل بشركة دير على الرقم 800-537-8233، المتاحة من الاثنين إلى الجمعة من الساعة 8 صباحاً حتى 6 مساءً بتوقيت شرق الولايات المتحدة، والسبت من الساعة 9 صباحاً حتى 3 مساءً بتوقيت شرق الولايات المتحدة. يمكنك أيضاً زيارة www.deere.com واختيار 'الاستدعاءات' تحت قائمة 'الأجزاء والخدمة'، أو الذهاب مباشرة إلى https://www.deere.com/en/parts-and-service/recall-information/ لمزيد من التفاصيل.",
+          "metaDescription": "جون دير يستدعي الجرارات المدمجة 1023E و 1025R و 2025R بسبب خطر التصادم. اتصل للحصول على إصلاحات مجانية.",
+          "Products": [
+            {
+              "Name": "جرار جون دير 1023E المدمج",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 147,900 (بالإضافة إلى ذلك، تم بيع حوالي 16,800 في كندا)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "جرار مدمج مستدعى"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "تلقت الشركة أربع تقارير عن فشل وصلة الفرامل، بما في ذلك حالة واحدة تم إدخالها المستشفى وإصابتين نتيجة الاصطدام وأضرار طفيفة للممتلكات للجرارات."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "تجار جون دير المعتمدون في جميع أنحاء البلاد، المتاحون من نوفمبر 2017 حتى يوليو 2024، بأسعار تتراوح بين 12,700 دولار و 21,000 دولار."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "شركة دير، من مولين، إلينوي"
+            }
+          ],
+          "SoldAtLabel": "تم البيع في",
+          "ManufacturerCountries": [
+            {
+              "Country": "الولايات المتحدة"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "فشل رافعة الفرامل الأمامية مما يؤدي إلى فقدان الفرامل وخطر التصادم"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "توقف عن استخدام الجرارات المستدعاة واتصل بتاجر جون دير المعتمد للحصول على إصلاح مجاني. إذا لم يكن النقل إلى التاجر ممكنًا، سيتم ترتيب الإصلاح في موقع المستهلك. ستتواصل شركة جون دير مع جميع المشترين المعروفين مباشرة."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "إصلاح"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "约翰迪尔召回1023E、1025R和2025R紧凑型实用拖拉机因碰撞风险",
+          "Description": "约翰迪尔正在召回特定型号的紧凑型实用拖拉机，包括1023E、1025R和2025R，这些拖拉机在引擎盖上印有品牌名称。这些拖拉机有绿色和黄色可供选择，销售时提供开放式和封闭式操作站。要查找受影响拖拉机的序列号，请访问www.deere.com，导航到“零件与服务”，然后选择“召回”。序列号位于拖拉机的框架上，具体在引擎附近的右前侧。",
+          "ConsumerContact": "如需进一步帮助，请联系约翰迪尔公司，电话800-537-8233，工作时间为周一至周五上午8点至下午6点（东部时间），周六上午9点至下午3点（东部时间）。您还可以访问www.deere.com，在“零件与服务”菜单下选择“召回”，或直接访问https://www.deere.com/en/parts-and-service/recall-information/以获取更多详细信息。",
+          "metaDescription": "约翰迪尔召回1023E、1025R和2025R紧凑型实用拖拉机因碰撞危险。联系以获取免费维修。",
+          "Products": [
+            {
+              "Name": "约翰迪尔1023E紧凑型实用拖拉机",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约147,900台（此外，约16,800台在加拿大销售）"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "召回的紧凑型实用拖拉机"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "该公司已收到四起刹车连接失效的报告，包括一起住院治疗和两起碰撞伤害，以及对拖拉机的轻微财产损失。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "全国授权的约翰迪尔经销商，从2017年11月到2024年7月可用，价格范围从12,700美元到21,000美元。"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "德尔公司，位于伊利诺伊州莫林"
+            }
+          ],
+          "SoldAtLabel": "销售地点",
+          "ManufacturerCountries": [
+            {
+              "Country": "美国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "刹车连接前摇臂失效导致刹车失灵和碰撞风险"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "停止使用召回的拖拉机，并联系授权的约翰迪尔经销商进行免费维修。如果无法将拖拉机运输到经销商处，将安排在消费者所在地进行维修。约翰迪尔将直接联系所有已知购买者。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "维修"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "John Deere rappelle les tracteurs utilitaires compacts 1023E, 1025R et 2025R en raison d'un risque d'accident",
+          "Description": "John Deere rappelle des modèles spécifiques de tracteurs utilitaires compacts, y compris les 1023E, 1025R et 2025R, qui portent le nom de la marque sur le capot. Ces tracteurs, disponibles en vert et jaune, ont été vendus avec des postes d'opérateur ouverts et fermés. Pour trouver les numéros de série des tracteurs concernés, visitez www.deere.com, naviguez vers 'Pièces et Service', et sélectionnez 'Rappel'. Le numéro de série se trouve sur le châssis du tracteur, spécifiquement sur le côté avant droit près du moteur.",
+          "ConsumerContact": "Pour toute assistance supplémentaire, contactez Deere & Company au 800-537-8233, disponible du lundi au vendredi de 8 h à 18 h HNE et le samedi de 9 h à 15 h HNE. Vous pouvez également visiter www.deere.com et sélectionner 'Rappels' dans le menu 'Pièces et Service', ou aller directement sur https://www.deere.com/en/parts-and-service/recall-information/ pour plus de détails.",
+          "metaDescription": "John Deere rappelle les tracteurs utilitaires compacts 1023E, 1025R et 2025R en raison d'un risque d'accident. Contactez pour des réparations gratuites.",
+          "Products": [
+            {
+              "Name": "Tracteur utilitaire compact John Deere 1023E",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 147 900 (De plus, environ 16 800 ont été vendus au Canada)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Tracteur utilitaire compact rappelé"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "L'entreprise a reçu quatre rapports de défaillance du lien de frein, y compris une hospitalisation et deux blessures par impact ainsi que des dommages matériels mineurs aux tracteurs."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Concessionnaires John Deere autorisés à travers le pays, disponibles de novembre 2017 à juillet 2024, avec des prix variant de 12 700 $ à 21 000 $."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Deere & Company, de Moline, Illinois"
+            }
+          ],
+          "SoldAtLabel": "Vendu À",
+          "ManufacturerCountries": [
+            {
+              "Country": "États-Unis"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Défaillance du vérin de frein avant entraînant une perte de freinage et un risque d'accident"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Cessez d'utiliser les tracteurs rappelés et contactez un concessionnaire John Deere autorisé pour une réparation gratuite. Si le transport chez le concessionnaire n'est pas possible, des arrangements seront pris pour la réparation au domicile du consommateur. John Deere contactera directement tous les acheteurs connus."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Réparation"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "John Deere ruft 1023E, 1025R und 2025R Kompakttraktoren aufgrund von Unfallrisiko zurück",
+          "Description": "John Deere ruft bestimmte Modelle von Kompakttraktoren zurück, einschließlich der 1023E, 1025R und 2025R, die den Markennamen auf der Motorhaube tragen. Diese Traktoren, die in Grün und Gelb erhältlich sind, wurden sowohl mit offenen als auch mit geschlossenen Fahrerkabinen verkauft. Um die Seriennummern der betroffenen Traktoren zu finden, besuchen Sie www.deere.com, navigieren Sie zu 'Teile & Service' und wählen Sie 'Rückruf'. Die Seriennummer befindet sich am Rahmen des Traktors, speziell an der vorderen rechten Seite in der Nähe des Motors.",
+          "ConsumerContact": "Für weitere Unterstützung kontaktieren Sie Deere & Company unter 800-537-8233, erreichbar von Montag bis Freitag von 8 bis 18 Uhr ET und Samstag von 9 bis 15 Uhr ET. Sie können auch www.deere.com besuchen und 'Rückrufe' im Menü 'Teile & Service' auswählen oder direkt zu https://www.deere.com/en/parts-and-service/recall-information/ gehen, um weitere Details zu erhalten.",
+          "metaDescription": "John Deere ruft 1023E, 1025R und 2025R Kompakttraktoren aufgrund eines Unfallrisikos zurück. Kontakt für kostenlose Reparaturen.",
+          "Products": [
+            {
+              "Name": "John Deere 1023E Kompakttraktor",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 147.900 (Zusätzlich wurden etwa 16.800 in Kanada verkauft)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Zurückgerufener Kompakttraktor"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Das Unternehmen hat vier Berichte über das Versagen der Bremsverbindung erhalten, darunter eine Hospitalisierung sowie zwei Verletzungen durch Aufprall und geringfügige Sachschäden an den Traktoren."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Autorisierte John Deere-Händler im ganzen Land, verfügbar von November 2017 bis Juli 2024, mit Preisen von 12.700 bis 21.000 USD."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Deere & Company, aus Moline, Illinois"
+            }
+          ],
+          "SoldAtLabel": "Verkauft bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "Vereinigte Staaten"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Versagen der Bremsverbindung an der vorderen Glockenhebel, was zu einem Verlust der Bremskraft und einem Unfallrisiko führt"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Hören Sie auf, die zurückgerufenen Traktoren zu verwenden, und kontaktieren Sie einen autorisierten John Deere-Händler für eine kostenlose Reparatur. Wenn der Transport zum Händler nicht möglich ist, werden Vorkehrungen für eine Reparatur am Standort des Verbrauchers getroffen. John Deere wird alle bekannten Käufer direkt kontaktieren."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparatur"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "ジョン・ディアが衝突リスクにより1023E、1025R、2025Rコンパクトユーティリティトラクターをリコール",
+          "Description": "ジョン・ディアは、フードにブランド名が付いている1023E、1025R、2025Rを含む特定のモデルのコンパクトユーティリティトラクターをリコールしています。これらのトラクターは緑と黄色で販売されており、オープンおよびクローズドのオペレーターステーションの両方が用意されています。影響を受けたトラクターのシリアル番号を見つけるには、www.deere.comにアクセスし、「部品とサービス」に移動して「リコール」を選択してください。シリアル番号はトラクターのフレームにあり、特にエンジンの近くの前右側に位置しています。",
+          "ConsumerContact": "さらなる支援が必要な場合は、デア＆カンパニーに800-537-8233までご連絡ください。営業時間は月曜日から金曜日の午前8時から午後6時（ET）、土曜日の午前9時から午後3時（ET）です。また、www.deere.comにアクセスし、「部品とサービス」メニューの下にある「リコール」を選択するか、直接https://www.deere.com/en/parts-and-service/recall-information/にアクセスして詳細をご覧ください。",
+          "metaDescription": "ジョン・ディアが衝突の危険性により1023E、1025R、2025Rコンパクトユーティリティトラクターをリコール。無料修理のために連絡してください。",
+          "Products": [
+            {
+              "Name": "ジョン・ディア 1023E コンパクトユーティリティトラクター",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約147,900台（さらに、約16,800台がカナダで販売されました）"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコールされたコンパクトユーティリティトラクター"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "同社はブレーキリンクの故障に関する4件の報告を受けており、その中には1件の入院と2件の衝撃による怪我、トラクターへの軽微な財産損害が含まれています。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "全国の認定ジョン・ディアディーラー、2017年11月から2024年7月まで利用可能で、価格は12,700ドルから21,000ドルまでです。"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "イリノイ州モリーンのデア＆カンパニー"
+            }
+          ],
+          "SoldAtLabel": "販売場所",
+          "ManufacturerCountries": [
+            {
+              "Country": "アメリカ合衆国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "ブレーキリンク前ベルクランクの故障によるブレーキ喪失と衝突リスク"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "リコールされたトラクターの使用を中止し、認定ジョン・ディアディーラーに連絡して無料修理を受けてください。ディーラーへの輸送が不可能な場合は、消費者の所在地での修理の手配が行われます。ジョン・ディアは、すべての既知の購入者に直接連絡します。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "修理"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "John Deere Recalls 1023E, 1025R e 2025R Tratores Compactos Utilitários Devido ao Risco de Acidente",
+          "Description": "A John Deere está recolhendo modelos específicos de Tratores Compactos Utilitários, incluindo os modelos 1023E, 1025R e 2025R, que apresentam o nome da marca no capô. Esses tratores, disponíveis nas cores verde e amarelo, foram vendidos com estações de operação abertas e fechadas. Para encontrar os números de série dos tratores afetados, visite www.deere.com, navegue até 'Peças & Serviço' e selecione 'Recall'. O número de série está localizado na estrutura do trator, especificamente no lado direito frontal, próximo ao motor.",
+          "ConsumerContact": "Para mais assistência, entre em contato com a Deere & Company pelo telefone 800-537-8233, disponível de segunda a sexta-feira, das 8h às 18h ET e sábado, das 9h às 15h ET. Você também pode visitar www.deere.com e selecionar 'Recalls' no menu 'Peças & Serviço', ou ir diretamente para https://www.deere.com/en/parts-and-service/recall-information/ para mais detalhes.",
+          "metaDescription": "A John Deere recolhe os tratores compactos utilitários 1023E, 1025R e 2025R devido a um risco de acidente. Contato para reparos gratuitos.",
+          "Products": [
+            {
+              "Name": "Trator Compacto Utilitário John Deere 1023E",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 147.900 (Além disso, cerca de 16.800 foram vendidos no Canadá)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Trator Compacto Utilitário Recolhido"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "A empresa recebeu quatro relatos de falha na ligação do freio, incluindo uma hospitalização e duas lesões por impacto e danos materiais menores aos tratores."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Concessionárias autorizadas da John Deere em todo o país, disponíveis de novembro de 2017 a julho de 2024, com preços variando de $12.700 a $21.000."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Deere & Company, de Moline, Illinois"
+            }
+          ],
+          "SoldAtLabel": "Vendido Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "Estados Unidos"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Falha do mancal do freio dianteiro levando à perda de frenagem e risco de acidente"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Pare de usar os tratores recolhidos e entre em contato com um revendedor autorizado da John Deere para um reparo gratuito. Se o transporte até o revendedor não for possível, serão feitos arranjos para reparo no local do consumidor. A John Deere entrará em contato diretamente com todos os compradores conhecidos."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparo"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "जॉन डियर ने 1023E, 1025R, और 2025R कॉम्पैक्ट यूटिलिटी ट्रैक्टर्स को क्रैश जोखिम के कारण वापस बुलाया",
+          "Description": "जॉन डियर विशेष मॉडल के कॉम्पैक्ट यूटिलिटी ट्रैक्टर्स को वापस बुला रहा है, जिसमें 1023E, 1025R, और 2025R शामिल हैं, जिन पर हुड पर ब्रांड नाम है। ये ट्रैक्टर्स, हरे और पीले रंग में उपलब्ध हैं, खुले और बंद ऑपरेटर स्टेशनों के साथ बेचे गए थे। प्रभावित ट्रैक्टर्स के सीरियल नंबर खोजने के लिए, www.deere.com पर जाएं, 'पार्ट्स & सर्विस' पर जाएं, और 'रिकॉल' चुनें। सीरियल नंबर ट्रैक्टर के फ्रेम पर, विशेष रूप से इंजन के पास सामने दाईं ओर स्थित है।",
+          "ConsumerContact": "अधिक सहायता के लिए, जॉन डियर एंड कंपनी से 800-537-8233 पर संपर्क करें, जो सोमवार से शुक्रवार सुबह 8 बजे से शाम 6 बजे ET और शनिवार सुबह 9 बजे से दोपहर 3 बजे ET तक उपलब्ध है। आप www.deere.com पर भी जा सकते हैं और 'पार्ट्स & सर्विस' मेनू के तहत 'रिकॉल' चुन सकते हैं, या अधिक जानकारी के लिए सीधे https://www.deere.com/en/parts-and-service/recall-information/ पर जा सकते हैं।",
+          "metaDescription": "जॉन डियर 1023E, 1025R, और 2025R कॉम्पैक्ट यूटिलिटी ट्रैक्टर्स को क्रैश खतरे के कारण वापस बुलाता है। मुफ्त मरम्मत के लिए संपर्क करें।",
+          "Products": [
+            {
+              "Name": "जॉन डियर 1023E कॉम्पैक्ट यूटिलिटी ट्रैक्टर",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 147,900 (इसके अतिरिक्त, लगभग 16,800 कनाडा में बेचे गए)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "वापस बुलाया गया कॉम्पैक्ट यूटिलिटी ट्रैक्टर"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "कंपनी को ब्रेक लिंकज के विफल होने की चार रिपोर्ट मिली हैं, जिसमें एक अस्पताल में भर्ती और दो प्रभावी चोटें और ट्रैक्टर्स को मामूली संपत्ति क्षति शामिल है।"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "देश भर में अधिकृत जॉन डियर डीलर, नवंबर 2017 से जुलाई 2024 तक उपलब्ध, कीमतें $12,700 से $21,000 के बीच।"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "डियर एंड कंपनी, मोलीन, इलिनोइस"
+            }
+          ],
+          "SoldAtLabel": "बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "संयुक्त राज्य अमेरिका"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "ब्रेक लिंकज के सामने बेल क्रैंक का विफल होना, जिससे ब्रेकिंग की हानि और क्रैश का जोखिम होता है"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "वापस बुलाए गए ट्रैक्टर्स का उपयोग करना बंद करें और मुफ्त मरम्मत के लिए एक अधिकृत जॉन डियर डीलर से संपर्क करें। यदि डीलर के पास परिवहन संभव नहीं है, तो उपभोक्ता के स्थान पर मरम्मत के लिए व्यवस्था की जाएगी। जॉन डियर सभी ज्ञात खरीदारों से सीधे संपर्क करेगा।"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "मरम्मत"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "Компания John Deere отзывает компактные тракторы 1023E, 1025R и 2025R из-за риска аварии",
+          "Description": "Компания John Deere отзывает конкретные модели компактных тракторов, включая 1023E, 1025R и 2025R, на капоте которых указано название бренда. Эти тракторы, доступные в зеленом и желтом цветах, продавались как с открытыми, так и с закрытыми рабочими местами. Чтобы найти серийные номера затронутых тракторов, посетите www.deere.com, перейдите в раздел 'Запчасти и обслуживание' и выберите 'Отзыв'. Серийный номер находится на раме трактора, в частности, на передней правой стороне рядом с двигателем.",
+          "ConsumerContact": "Для получения дополнительной помощи свяжитесь с компанией Deere & Company по телефону 800-537-8233, доступному с понедельника по пятницу с 8:00 до 18:00 по восточному времени и в субботу с 9:00 до 15:00 по восточному времени. Вы также можете посетить www.deere.com и выбрать 'Отзывы' в меню 'Запчасти и обслуживание', или перейти напрямую по адресу https://www.deere.com/en/parts-and-service/recall-information/ для получения дополнительной информации.",
+          "metaDescription": "Компания John Deere отзывает компактные тракторы 1023E, 1025R и 2025R из-за риска аварии. Свяжитесь для бесплатного ремонта.",
+          "Products": [
+            {
+              "Name": "Компактный трактор John Deere 1023E",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 147,900 (Кроме того, около 16,800 были проданы в Канаде)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванный компактный трактор"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Компания получила четыре сообщения о неисправности тормозной связи, включая одну госпитализацию и два травматических повреждения, а также незначительный ущерб имуществу тракторов."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Авторизованные дилеры John Deere по всей стране, доступные с ноября 2017 года по июль 2024 года, с ценами от 12,700 до 21,000 долларов."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Deere & Company, Молин, штат Иллинойс"
+            }
+          ],
+          "SoldAtLabel": "Продавалось в",
+          "ManufacturerCountries": [
+            {
+              "Country": "Соединенные Штаты"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Неисправность переднего рычага тормозной связи, приводящая к потере торможения и риску аварии"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Прекратите использовать отозванные тракторы и свяжитесь с авторизованным дилером John Deere для бесплатного ремонта. Если транспортировка к дилеру невозможна, будут организованы условия для ремонта на месте у потребителя. Компания John Deere свяжется со всеми известными покупателями напрямую."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Ремонт"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "John Deere thu hồi 1023E, 1025R và 2025R Máy kéo tiện ích nhỏ gọn do nguy cơ va chạm",
+          "Description": "John Deere đang thu hồi các mẫu máy kéo tiện ích nhỏ gọn cụ thể, bao gồm 1023E, 1025R và 2025R, có tên thương hiệu trên nắp ca-pô. Những máy kéo này, có sẵn màu xanh lá cây và vàng, được bán với cả trạm điều khiển mở và kín. Để tìm số sê-ri của các máy kéo bị ảnh hưởng, hãy truy cập www.deere.com, điều hướng đến 'Phụ tùng & Dịch vụ', và chọn 'Thu hồi'. Số sê-ri nằm trên khung của máy kéo, cụ thể là ở phía bên phải trước gần động cơ.",
+          "ConsumerContact": "Để được hỗ trợ thêm, hãy liên hệ với Deere & Company theo số 800-537-8233, có sẵn từ thứ Hai đến thứ Sáu từ 8 giờ sáng đến 6 giờ chiều ET và thứ Bảy từ 9 giờ sáng đến 3 giờ chiều ET. Bạn cũng có thể truy cập www.deere.com và chọn 'Thu hồi' trong menu 'Phụ tùng & Dịch vụ', hoặc truy cập trực tiếp vào https://www.deere.com/en/parts-and-service/recall-information/ để biết thêm chi tiết.",
+          "metaDescription": "John Deere thu hồi 1023E, 1025R và 2025R Máy kéo tiện ích nhỏ gọn do nguy cơ va chạm. Liên hệ để sửa chữa miễn phí.",
+          "Products": [
+            {
+              "Name": "Máy kéo tiện ích nhỏ gọn John Deere 1023E",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 147,900 (Ngoài ra, khoảng 16,800 đã được bán ở Canada)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Máy kéo tiện ích nhỏ gọn bị thu hồi"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Công ty đã nhận được bốn báo cáo về việc liên kết phanh bị hỏng, bao gồm một trường hợp nhập viện và hai chấn thương do va chạm cùng với thiệt hại tài sản nhỏ cho các máy kéo."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Các đại lý John Deere được ủy quyền trên toàn quốc, có sẵn từ tháng 11 năm 2017 đến tháng 7 năm 2024, với giá dao động từ 12,700 đô la đến 21,000 đô la."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Deere & Company, có trụ sở tại Moline, Illinois"
+            }
+          ],
+          "SoldAtLabel": "Đã bán tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Hoa Kỳ"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Sự cố liên kết phanh trước dẫn đến mất phanh và nguy cơ va chạm"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Ngừng sử dụng các máy kéo bị thu hồi và liên hệ với một đại lý John Deere được ủy quyền để được sửa chữa miễn phí. Nếu không thể vận chuyển đến đại lý, sẽ có sắp xếp để sửa chữa tại địa điểm của người tiêu dùng. John Deere sẽ liên hệ trực tiếp với tất cả những người mua đã biết."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Sửa chữa"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    }
+  ]
+}

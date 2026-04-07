@@ -9,10 +9,11 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.recallsatlas.co
 export async function generateMetadata({
   params,
 }: {
-  params: { lang: string };
+  params: Promise<{ lang: string }>;
 }): Promise<Metadata> {
-  if (!isSiteUiLang(params.lang) || params.lang === "en") notFound();
-  const lang = params.lang as SiteUiLang;
+  const { lang: langParam } = await params;
+  if (!isSiteUiLang(langParam) || langParam === "en") notFound();
+  const lang = langParam as SiteUiLang;
   const t = HOME_COPY[lang];
   const canonical = `${siteUrl}/${lang}/general-recalls`;
   return {
@@ -22,18 +23,20 @@ export async function generateMetadata({
   };
 }
 
-export default function LangGeneralRecallsIndexPage({
+export default async function LangGeneralRecallsIndexPage({
   params,
   searchParams,
 }: {
-  params: { lang: string };
-  searchParams: { q?: string };
+  params: Promise<{ lang: string }>;
+  searchParams: Promise<{ q?: string }>;
 }) {
-  if (!isSiteUiLang(params.lang) || params.lang === "en") notFound();
+  const { lang: langParam } = await params;
+  const sp = await searchParams;
+  if (!isSiteUiLang(langParam) || langParam === "en") notFound();
   return (
     <GeneralRecallsSearchPage
-      lang={params.lang as SiteUiLang}
-      initialQuery={searchParams?.q}
+      lang={langParam as SiteUiLang}
+      initialQuery={sp?.q}
     />
   );
 }

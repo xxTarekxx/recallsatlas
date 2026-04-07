@@ -1,0 +1,798 @@
+{
+  "meta": {
+    "slug": "insect-traps",
+    "sourceCsvFile": "insect-traps_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:36.979Z",
+    "recallCount": 1,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "insect-traps.json",
+    "seoTranslatedAt": "2026-04-04T05:54:40.805Z",
+    "resumePartial": false,
+    "i18nSource": "generalRecallsTranslated",
+    "i18nSourceFile": "insect-traps.json",
+    "i18nUiLangs": [
+      "en",
+      "es",
+      "ar",
+      "zh",
+      "fr",
+      "de",
+      "ja",
+      "pt",
+      "hi",
+      "ru",
+      "vi"
+    ],
+    "i18nProgressByLang": {
+      "es": 1,
+      "ar": 1,
+      "zh": 1,
+      "fr": 1,
+      "de": 1,
+      "ja": 1,
+      "pt": 1,
+      "hi": 1,
+      "ru": 1,
+      "vi": 1
+    },
+    "i18nInProgress": false,
+    "i18nTranslatedAt": "2026-04-07T11:47:10.874Z",
+    "i18nOpenaiModel": "gpt-4o-mini"
+  },
+  "recalls": [
+    {
+      "RecallID": 10353,
+      "RecallNumber": "25396",
+      "RecallDate": "2025-07-24T00:00:00",
+      "Description": "iMirror Inc. is recalling its Electric Bug Zapper Racket, Fly Swatter, and Mosquito Swatter designed for both indoor and outdoor use. These products feature a rectangular silver sticker on the back of the handle, displaying the model number BZ-001. The rechargeable battery in these devices poses a fire hazard when used for prolonged periods.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/iMirror-Inc-Recalls-Electric-Bug-Zapper-Racket-Fly-Swatter-and-Mosquito-Swatter-Due-to-Shock-Hazard",
+      "Title": "iMirror Inc. Recalls Electric Bug Zapper Racket, Fly Swatter, and Mosquito Swatter Due to Fire Risk",
+      "ConsumerContact": "For more information, consumers can reach iMirror at their toll-free number 800-762-9066, available from 9 a.m. to 5 p.m. CT, Monday through Friday. Alternatively, they can email ecommerce@imirror.com or visit www.imirror.com.",
+      "LastPublishDate": "2025-07-24T00:00:00",
+      "Products": [
+        {
+          "Name": "Rechargeable Electric Bug Zapper Racket",
+          "NumberOfUnits": "About 29,000"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/insect-traps/1-Rechargeable-Electric-Bug-Zapper-Racket/5744a6ee809610182da53051bd984d89.webp",
+          "Caption": "Recalled iMirror Rechargeable Electric Fly Swatter",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Bug-Zapper-1.png"
+        },
+        {
+          "URL": "/images/generalRecalls/insect-traps/1-Rechargeable-Electric-Bug-Zapper-Racket/d59213fdf836955d895967e399d9fe25.webp",
+          "Caption": "Model number labeled on the back of the recalled iMirror Rechargeable Electric Fly Swatter",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Bug-Zapper-2.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received three reports of the swatter catching on fire. No injuries have been reported."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available on Amazon from May 2022 through June 2025, priced between $20 and $40."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "iMirror Inc., of Rancho Cucamonga, California"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Fire risk from rechargeable battery during extended use"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Stop using the product immediately and contact iMirror for a full refund. iMirror will provide pre-paid shipping labels for returns, and refunds will be processed promptly upon receipt of the returned product. Customers will receive notifications through Amazon or via email regarding the refund process."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "BZ-001"
+      ],
+      "slug": "imirror-inc-recalls-electric-bug-zapper-racket-fly-swatter-and-mosquito-swatter-due-to-fire-risk-recall",
+      "metaDescription": "iMirror recalls Electric Bug Zapper Racket, Fly Swatter, and Mosquito Swatter due to fire hazards. Contact for refunds and safety information.",
+      "languages": {
+        "en": {
+          "Title": "iMirror Inc. Recalls Electric Bug Zapper Racket, Fly Swatter, and Mosquito Swatter Due to Fire Risk",
+          "Description": "iMirror Inc. is recalling its Electric Bug Zapper Racket, Fly Swatter, and Mosquito Swatter designed for both indoor and outdoor use. These products feature a rectangular silver sticker on the back of the handle, displaying the model number BZ-001. The rechargeable battery in these devices poses a fire hazard when used for prolonged periods.",
+          "ConsumerContact": "For more information, consumers can reach iMirror at their toll-free number 800-762-9066, available from 9 a.m. to 5 p.m. CT, Monday through Friday. Alternatively, they can email ecommerce@imirror.com or visit www.imirror.com.",
+          "metaDescription": "iMirror recalls Electric Bug Zapper Racket, Fly Swatter, and Mosquito Swatter due to fire hazards. Contact for refunds and safety information.",
+          "Products": [
+            {
+              "Name": "Rechargeable Electric Bug Zapper Racket",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 29,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled iMirror Rechargeable Electric Fly Swatter"
+            },
+            {
+              "Caption": "Model number labeled on the back of the recalled iMirror Rechargeable Electric Fly Swatter"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "The firm has received three reports of the swatter catching on fire. No injuries have been reported."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Available on Amazon from May 2022 through June 2025, priced between $20 and $40."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "iMirror Inc., of Rancho Cucamonga, California"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Sold At",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Fire risk from rechargeable battery during extended use"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Stop using the product immediately and contact iMirror for a full refund. iMirror will provide pre-paid shipping labels for returns, and refunds will be processed promptly upon receipt of the returned product. Customers will receive notifications through Amazon or via email regarding the refund process."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Refund"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "iMirror Inc. Retira Raqueta Eléctrica para Insectos, Matamoscas y Matamosquitos Debido al Riesgo de Incendio",
+          "Description": "iMirror Inc. está retirando su Raqueta Eléctrica para Insectos, Matamoscas y Matamosquitos diseñadas para uso tanto en interiores como en exteriores. Estos productos cuentan con una etiqueta rectangular plateada en la parte posterior del mango, que muestra el número de modelo BZ-001. La batería recargable en estos dispositivos presenta un riesgo de incendio cuando se utiliza durante períodos prolongados.",
+          "ConsumerContact": "Para más información, los consumidores pueden comunicarse con iMirror a su número gratuito 800-762-9066, disponible de 9 a.m. a 5 p.m. CT, de lunes a viernes. Alternativamente, pueden enviar un correo electrónico a ecommerce@imirror.com o visitar www.imirror.com.",
+          "metaDescription": "iMirror retira Raqueta Eléctrica para Insectos, Matamoscas y Matamosquitos debido a riesgos de incendio. Contacto para reembolsos e información de seguridad.",
+          "Products": [
+            {
+              "Name": "Raqueta Eléctrica para Insectos Recargable",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 29,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Matamoscas Eléctrico Recargable iMirror retirado"
+            },
+            {
+              "Caption": "Número de modelo etiquetado en la parte posterior del matamoscas eléctrico recargable iMirror retirado"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "La empresa ha recibido tres informes de que el matamoscas se incendió. No se han reportado lesiones."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible en Amazon desde mayo de 2022 hasta junio de 2025, con precios entre $20 y $40."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "iMirror Inc., de Rancho Cucamonga, California"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendido En",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Riesgo de incendio por batería recargable durante el uso prolongado"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Deje de usar el producto inmediatamente y comuníquese con iMirror para un reembolso completo. iMirror proporcionará etiquetas de envío prepagadas para devoluciones, y los reembolsos se procesarán rápidamente al recibir el producto devuelto. Los clientes recibirán notificaciones a través de Amazon o por correo electrónico sobre el proceso de reembolso."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reembolso"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "شركة iMirror تستدعي مضرب الحشرات الكهربائي ومضرب الذباب ومضرب البعوض بسبب خطر الحريق",
+          "Description": "شركة iMirror تستدعي مضرب الحشرات الكهربائي ومضرب الذباب ومضرب البعوض المصممة للاستخدام الداخلي والخارجي. تحتوي هذه المنتجات على ملصق فضي مستطيل على ظهر المقبض، يعرض رقم الطراز BZ-001. البطارية القابلة لإعادة الشحن في هذه الأجهزة تشكل خطر حريق عند استخدامها لفترات طويلة.",
+          "ConsumerContact": "لمزيد من المعلومات، يمكن للمستهلكين التواصل مع iMirror على رقمهم المجاني 800-762-9066، المتاح من الساعة 9 صباحًا حتى 5 مساءً بتوقيت وسط أمريكا، من الاثنين إلى الجمعة. بدلاً من ذلك، يمكنهم إرسال بريد إلكتروني إلى ecommerce@imirror.com أو زيارة www.imirror.com.",
+          "metaDescription": "شركة iMirror تستدعي مضرب الحشرات الكهربائي ومضرب الذباب ومضرب البعوض بسبب مخاطر الحريق. اتصل للحصول على استردادات ومعلومات السلامة.",
+          "Products": [
+            {
+              "Name": "مضرب الحشرات الكهربائي القابل لإعادة الشحن",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 29,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "مضرب الذباب الكهربائي القابل لإعادة الشحن المستدعى من iMirror"
+            },
+            {
+              "Caption": "رقم الطراز المطبوع على ظهر مضرب الذباب الكهربائي القابل لإعادة الشحن المستدعى من iMirror"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "تلقت الشركة ثلاث تقارير عن اشتعال المضرب. لم يتم الإبلاغ عن أي إصابات."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "متوفر على أمازون من مايو 2022 حتى يونيو 2025، بسعر يتراوح بين 20 و40 دولار."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "شركة iMirror، من رانشو كوكامونغا، كاليفورنيا"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "تم البيع في",
+          "ManufacturerCountries": [
+            {
+              "Country": "الصين"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "خطر الحريق من البطارية القابلة لإعادة الشحن خلال الاستخدام المطول"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "توقف عن استخدام المنتج على الفور واتصل بـ iMirror للحصول على استرداد كامل. ستوفر iMirror ملصقات شحن مدفوعة مسبقًا للمرتجعات، وسيتم معالجة الاستردادات بسرعة عند استلام المنتج المرتجع. سيتلقى العملاء إشعارات عبر أمازون أو عبر البريد الإلكتروني بشأن عملية الاسترداد."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "استرداد"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "iMirror Inc. 因火灾风险召回电动灭虫拍、苍蝇拍和蚊子拍",
+          "Description": "iMirror Inc. 正在召回其设计用于室内和室外使用的电动灭虫拍、苍蝇拍和蚊子拍。这些产品的手柄背面有一个矩形银色标签，显示型号 BZ-001。这些设备中的可充电电池在长时间使用时存在火灾危险。",
+          "ConsumerContact": "如需更多信息，消费者可以拨打 iMirror 的免费电话 800-762-9066，服务时间为周一至周五，中部时间上午 9 点至下午 5 点。或者，他们可以发送电子邮件至 ecommerce@imirror.com 或访问 www.imirror.com。",
+          "metaDescription": "iMirror 因火灾危险召回电动灭虫拍、苍蝇拍和蚊子拍。联系以获取退款和安全信息。",
+          "Products": [
+            {
+              "Name": "可充电电动灭虫拍",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约 29,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "召回的 iMirror 可充电电动苍蝇拍"
+            },
+            {
+              "Caption": "召回的 iMirror 可充电电动苍蝇拍背面的型号标签"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "该公司已收到三起拍子起火的报告。没有报告受伤情况。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "在亚马逊上销售，时间为 2022 年 5 月至 2025 年 6 月，价格在 20 美元至 40 美元之间。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "位于加利福尼亚州兰乔库卡蒙加的 iMirror Inc."
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "销售地点",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "可充电电池在长时间使用时存在火灾风险"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "立即停止使用该产品并联系 iMirror 以获得全额退款。iMirror 将提供预付邮费的退货标签，退款将在收到退回的产品后及时处理。客户将通过亚马逊或电子邮件收到有关退款流程的通知。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "退款"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "iMirror Inc. rappelle son raquette électrique anti-insectes, sa tapette à mouches et sa tapette à moustiques en raison d'un risque d'incendie",
+          "Description": "iMirror Inc. rappelle sa raquette électrique anti-insectes, sa tapette à mouches et sa tapette à moustiques conçues pour un usage intérieur et extérieur. Ces produits présentent un autocollant argenté rectangulaire au dos du manche, affichant le numéro de modèle BZ-001. La batterie rechargeable de ces appareils présente un risque d'incendie lorsqu'elle est utilisée pendant de longues périodes.",
+          "ConsumerContact": "Pour plus d'informations, les consommateurs peuvent contacter iMirror à leur numéro sans frais 800-762-9066, disponible de 9 h à 17 h CT, du lundi au vendredi. Alternativement, ils peuvent envoyer un e-mail à ecommerce@imirror.com ou visiter www.imirror.com.",
+          "metaDescription": "iMirror rappelle la raquette électrique anti-insectes, la tapette à mouches et la tapette à moustiques en raison de risques d'incendie. Contactez pour des remboursements et des informations de sécurité.",
+          "Products": [
+            {
+              "Name": "Raquette électrique anti-insectes rechargeable",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 29 000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Raquette électrique à mouches rechargeable iMirror rappelée"
+            },
+            {
+              "Caption": "Numéro de modèle étiqueté au dos de la tapette à mouches électrique rechargeable iMirror rappelée"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "L'entreprise a reçu trois rapports de la tapette prenant feu. Aucune blessure n'a été signalée."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible sur Amazon de mai 2022 à juin 2025, au prix compris entre 20 $ et 40 $."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "iMirror Inc., de Rancho Cucamonga, Californie"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendu À",
+          "ManufacturerCountries": [
+            {
+              "Country": "Chine"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risque d'incendie dû à la batterie rechargeable lors d'une utilisation prolongée"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Cessez immédiatement d'utiliser le produit et contactez iMirror pour un remboursement complet. iMirror fournira des étiquettes d'expédition prépayées pour les retours, et les remboursements seront traités rapidement dès réception du produit retourné. Les clients recevront des notifications via Amazon ou par e-mail concernant le processus de remboursement."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Remboursement"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "iMirror Inc. ruft elektrischen Insektenvernichter-Schläger, Fliegenklatsche und Mückenklatsche wegen Brandgefahr zurück",
+          "Description": "iMirror Inc. ruft seinen elektrischen Insektenvernichter-Schläger, Fliegenklatsche und Mückenklatsche zurück, die sowohl für den Innen- als auch für den Außenbereich konzipiert sind. Diese Produkte verfügen über einen rechteckigen silbernen Aufkleber auf der Rückseite des Griffs, der die Modellnummer BZ-001 anzeigt. Der wiederaufladbare Akku in diesen Geräten stellt eine Brandgefahr dar, wenn sie über längere Zeiträume verwendet werden.\n",
+          "ConsumerContact": "Für weitere Informationen können Verbraucher iMirror unter der gebührenfreien Nummer 800-762-9066 erreichen, die von Montag bis Freitag von 9 bis 17 Uhr CT verfügbar ist. Alternativ können sie eine E-Mail an ecommerce@imirror.com senden oder die Website www.imirror.com besuchen.",
+          "metaDescription": "iMirror ruft elektrischen Insektenvernichter-Schläger, Fliegenklatsche und Mückenklatsche wegen Brandgefahren zurück. Kontakt für Rückerstattungen und Sicherheitsinformationen.",
+          "Products": [
+            {
+              "Name": "Wiederaufladbarer elektrischer Insektenvernichter-Schläger",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 29.000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Zurückgerufener iMirror wiederaufladbarer elektrischer Fliegenklatsche"
+            },
+            {
+              "Caption": "Modellnummer auf der Rückseite der zurückgerufenen iMirror wiederaufladbaren elektrischen Fliegenklatsche beschriftet"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Das Unternehmen hat drei Berichte über die Fliegenklatsche erhalten, die Feuer gefangen hat. Es wurden keine Verletzungen gemeldet."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Erhältlich auf Amazon von Mai 2022 bis Juni 2025, preislich zwischen 20 und 40 US-Dollar."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "iMirror Inc., aus Rancho Cucamonga, Kalifornien"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Verkauft bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Brandgefahr durch wiederaufladbaren Akku bei längerer Nutzung"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Hören Sie sofort auf, das Produkt zu verwenden, und kontaktieren Sie iMirror für eine vollständige Rückerstattung. iMirror wird vorfrankierte Versandetiketten für Rücksendungen bereitstellen, und Rückerstattungen werden umgehend nach Erhalt des zurückgesendeten Produkts bearbeitet. Kunden erhalten Benachrichtigungen über Amazon oder per E-Mail zum Rückerstattungsprozess."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Rückerstattung"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "iMirror Inc.が火災のリスクにより電動バグザッパーレケット、フライスワッター、蚊スワッターをリコール",
+          "Description": "iMirror Inc.は、屋内および屋外で使用するために設計された電動バグザッパーレケット、フライスワッター、蚊スワッターをリコールしています。これらの製品は、ハンドルの背面にモデル番号BZ-001を表示した長方形の銀色のステッカーが付いています。これらのデバイスに搭載されている充電式バッテリーは、長時間使用すると火災の危険があります。\n",
+          "ConsumerContact": "詳細については、消費者はiMirrorにフリーダイヤル800-762-9066で連絡できます。営業時間は月曜日から金曜日の午前9時から午後5時（中央標準時）です。あるいは、ecommerce@imirror.comにメールを送信するか、www.imirror.comを訪問できます。",
+          "metaDescription": "iMirrorが火災の危険性により電動バグザッパーレケット、フライスワッター、蚊スワッターをリコール。返金および安全情報についての連絡先。",
+          "Products": [
+            {
+              "Name": "充電式電動バグザッパーレケット",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約29,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコールされたiMirror充電式電動フライスワッター"
+            },
+            {
+              "Caption": "リコールされたiMirror充電式電動フライスワッターの背面にラベルされたモデル番号"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "同社はスワッターが火災を起こしたという報告を3件受けています。負傷者の報告はありません。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "2022年5月から2025年6月までAmazonで販売され、価格は20ドルから40ドルの間です。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "カリフォルニア州ランチョクカモンガのiMirror Inc."
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "販売場所",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "長時間使用中の充電式バッテリーによる火災のリスク"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "直ちに製品の使用を中止し、iMirrorに連絡して全額返金を受けてください。iMirrorは返品用の前払いの配送ラベルを提供し、返品された製品を受け取った後、迅速に返金処理を行います。顧客は、Amazonまたはメールを通じて返金プロセスに関する通知を受け取ります。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "返金"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "iMirror Inc. Recall de Raquete Elétrica para Insetos, Matador de Moscas e Matador de Mosquitos Devido ao Risco de Incêndio",
+          "Description": "A iMirror Inc. está recallando sua Raquete Elétrica para Insetos, Matador de Moscas e Matador de Mosquitos projetados para uso interno e externo. Esses produtos possuem um adesivo retangular prateado na parte de trás do cabo, exibindo o número do modelo BZ-001. A bateria recarregável desses dispositivos representa um risco de incêndio quando usada por períodos prolongados.",
+          "ConsumerContact": "Para mais informações, os consumidores podem entrar em contato com a iMirror pelo número gratuito 800-762-9066, disponível das 9h às 17h CT, de segunda a sexta-feira. Alternativamente, podem enviar um e-mail para ecommerce@imirror.com ou visitar www.imirror.com.",
+          "metaDescription": "iMirror recall de Raquete Elétrica para Insetos, Matador de Moscas e Matador de Mosquitos devido a riscos de incêndio. Contato para reembolsos e informações de segurança.",
+          "Products": [
+            {
+              "Name": "Raquete Elétrica para Insetos Recarregável",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 29.000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Matador de Moscas Elétrico Recarregável iMirror Recallado"
+            },
+            {
+              "Caption": "Número do modelo rotulado na parte de trás do Matador de Moscas Elétrico Recarregável iMirror Recallado"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "A empresa recebeu três relatos de que o matador pegou fogo. Nenhum ferimento foi relatado."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponível na Amazon de maio de 2022 até junho de 2025, com preços entre $20 e $40."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "iMirror Inc., de Rancho Cucamonga, Califórnia"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendido Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risco de incêndio devido à bateria recarregável durante o uso prolongado"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Pare de usar o produto imediatamente e entre em contato com a iMirror para um reembolso total. A iMirror fornecerá etiquetas de envio pré-pagas para devoluções, e os reembolsos serão processados prontamente após o recebimento do produto devolvido. Os clientes receberão notificações através da Amazon ou por e-mail sobre o processo de reembolso."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reembolso"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "iMirror Inc. इलेक्ट्रिक बग ज़ैपर रैकेट, फ्लाई स्वाटर और मच्छर स्वाटर को आग के जोखिम के कारण वापस बुलाता है",
+          "Description": "iMirror Inc. अपने इलेक्ट्रिक बग ज़ैपर रैकेट, फ्लाई स्वाटर और मच्छर स्वाटर को वापस बुला रहा है जो इनडोर और आउटडोर उपयोग के लिए डिज़ाइन किए गए हैं। इन उत्पादों में हैंडल के पीछे एक आयताकार चांदी का स्टिकर होता है, जिसमें मॉडल नंबर BZ-001 प्रदर्शित होता है। इन उपकरणों में रिचार्जेबल बैटरी लंबे समय तक उपयोग करने पर आग का खतरा पैदा करती है।",
+          "ConsumerContact": "अधिक जानकारी के लिए, उपभोक्ता iMirror से उनके टोल-फ्री नंबर 800-762-9066 पर संपर्क कर सकते हैं, जो सोमवार से शुक्रवार, सुबह 9 बजे से शाम 5 बजे CT तक उपलब्ध है। वैकल्पिक रूप से, वे ecommerce@imirror.com पर ईमेल कर सकते हैं या www.imirror.com पर जा सकते हैं।",
+          "metaDescription": "iMirror आग के खतरों के कारण इलेक्ट्रिक बग ज़ैपर रैकेट, फ्लाई स्वाटर और मच्छर स्वाटर को वापस बुलाता है। रिफंड और सुरक्षा जानकारी के लिए संपर्क करें।",
+          "Products": [
+            {
+              "Name": "रिचार्जेबल इलेक्ट्रिक बग ज़ैपर रैकेट",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 29,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "वापस बुलाया गया iMirror रिचार्जेबल इलेक्ट्रिक फ्लाई स्वाटर"
+            },
+            {
+              "Caption": "वापस बुलाए गए iMirror रिचार्जेबल इलेक्ट्रिक फ्लाई स्वाटर के पीछे लेबल किया गया मॉडल नंबर"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "कंपनी को स्वाटर के आग पकड़ने के तीन रिपोर्ट मिले हैं। कोई चोटें नहीं बताई गई हैं।"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "मई 2022 से जून 2025 तक अमेज़न पर उपलब्ध, कीमत $20 से $40 के बीच।"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "iMirror Inc., रैंचो कुकामोंगा, कैलिफ़ोर्निया"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "चीन"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "लंबे उपयोग के दौरान रिचार्जेबल बैटरी से आग का जोखिम"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "उत्पाद का उपयोग तुरंत बंद करें और पूर्ण रिफंड के लिए iMirror से संपर्क करें। iMirror रिटर्न के लिए प्री-पेड शिपिंग लेबल प्रदान करेगा, और लौटाए गए उत्पाद की प्राप्ति पर रिफंड तुरंत संसाधित किया जाएगा। ग्राहकों को रिफंड प्रक्रिया के बारे में अमेज़न या ईमेल के माध्यम से सूचनाएं प्राप्त होंगी।"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "रिफंड"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "Компания iMirror отзывает электрическую мухобойку, мухобойку и комариную мухобойку из-за риска возгорания",
+          "Description": "Компания iMirror отзывает свою электрическую мухобойку, мухобойку и комариную мухобойку, предназначенные как для внутреннего, так и для наружного использования. Эти продукты имеют прямоугольную серебристую наклейку на задней стороне ручки, на которой указан номер модели BZ-001. Перезаряжаемая батарея в этих устройствах представляет собой риск возгорания при длительном использовании.",
+          "ConsumerContact": "Для получения дополнительной информации потребители могут связаться с iMirror по бесплатному номеру 800-762-9066, доступному с 9:00 до 17:00 по центральному времени с понедельника по пятницу. Кроме того, они могут написать на электронную почту ecommerce@imirror.com или посетить www.imirror.com.",
+          "metaDescription": "iMirror отзывает электрическую мухобойку, мухобойку и комариную мухобойку из-за рисков возгорания. Свяжитесь для получения возвратов и информации о безопасности.",
+          "Products": [
+            {
+              "Name": "Перезаряжаемая электрическая мухобойка",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 29,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванная перезаряжаемая электрическая мухобойка iMirror"
+            },
+            {
+              "Caption": "Номер модели, указанный на задней стороне отозванной перезаряжаемой электрической мухобойки iMirror"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Компания получила три сообщения о том, что мухобойка загорелась. О травмах не сообщалось."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Доступно на Amazon с мая 2022 года по июнь 2025 года, цена от 20 до 40 долларов."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "iMirror Inc., Ранчо-Кукамонга, Калифорния"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Продается в",
+          "ManufacturerCountries": [
+            {
+              "Country": "Китай"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Риск возгорания от перезаряжаемой батареи при длительном использовании"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Немедленно прекратите использование продукта и свяжитесь с iMirror для получения полного возврата. iMirror предоставит предоплаченные транспортные ярлыки для возврата, а возвраты будут обработаны незамедлительно после получения возвращенного продукта. Клиенты получат уведомления через Amazon или по электронной почте о процессе возврата."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Возврат"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "iMirror Inc. Thu hồi Vợt Diệt Côn Trùng Điện, Vợt Ruồi và Vợt Muỗi Do Nguy Cơ Cháy",
+          "Description": "iMirror Inc. đang thu hồi Vợt Diệt Côn Trùng Điện, Vợt Ruồi và Vợt Muỗi được thiết kế cho cả sử dụng trong nhà và ngoài trời. Những sản phẩm này có một nhãn dán hình chữ nhật màu bạc ở mặt sau của tay cầm, hiển thị số model BZ-001. Pin sạc trong các thiết bị này có nguy cơ cháy khi được sử dụng trong thời gian dài.",
+          "ConsumerContact": "Để biết thêm thông tin, người tiêu dùng có thể liên hệ với iMirror qua số điện thoại miễn phí 800-762-9066, có sẵn từ 9 giờ sáng đến 5 giờ chiều CT, từ thứ Hai đến thứ Sáu. Ngoài ra, họ có thể gửi email đến ecommerce@imirror.com hoặc truy cập www.imirror.com.",
+          "metaDescription": "iMirror thu hồi Vợt Diệt Côn Trùng Điện, Vợt Ruồi và Vợt Muỗi do nguy cơ cháy. Liên hệ để được hoàn tiền và thông tin an toàn.",
+          "Products": [
+            {
+              "Name": "Vợt Diệt Côn Trùng Điện Sạc Lại",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 29,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Vợt Ruồi Điện Sạc Lại iMirror bị thu hồi"
+            },
+            {
+              "Caption": "Số model được ghi trên mặt sau của Vợt Ruồi Điện Sạc Lại iMirror bị thu hồi"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Công ty đã nhận được ba báo cáo về việc vợt bị cháy. Không có thương tích nào được báo cáo."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Có sẵn trên Amazon từ tháng 5 năm 2022 đến tháng 6 năm 2025, giá từ 20 đến 40 đô la."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "iMirror Inc., Rancho Cucamonga, California"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Bán Tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Trung Quốc"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Nguy cơ cháy từ pin sạc trong quá trình sử dụng kéo dài"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Ngừng sử dụng sản phẩm ngay lập tức và liên hệ với iMirror để được hoàn tiền đầy đủ. iMirror sẽ cung cấp nhãn vận chuyển đã được trả trước cho việc trả hàng, và tiền hoàn sẽ được xử lý nhanh chóng khi nhận được sản phẩm đã trả lại. Khách hàng sẽ nhận được thông báo qua Amazon hoặc qua email về quy trình hoàn tiền."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Hoàn tiền"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,885 @@
+{
+  "meta": {
+    "slug": "light-bulbs",
+    "sourceCsvFile": "light-bulbs_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:36.992Z",
+    "recallCount": 1,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "light-bulbs.json",
+    "seoTranslatedAt": "2026-04-04T06:41:58.791Z",
+    "resumePartial": false,
+    "i18nSource": "generalRecallsTranslated",
+    "i18nSourceFile": "light-bulbs.json",
+    "i18nUiLangs": [
+      "en",
+      "es",
+      "ar",
+      "zh",
+      "fr",
+      "de",
+      "ja",
+      "pt",
+      "hi",
+      "ru",
+      "vi"
+    ],
+    "i18nProgressByLang": {
+      "es": 1,
+      "ar": 1,
+      "zh": 1,
+      "fr": 1,
+      "de": 1,
+      "ja": 1,
+      "pt": 1,
+      "hi": 1,
+      "ru": 1,
+      "vi": 1
+    },
+    "i18nInProgress": false,
+    "i18nTranslatedAt": "2026-04-07T13:02:13.008Z",
+    "i18nOpenaiModel": "gpt-4o-mini"
+  },
+  "recalls": [
+    {
+      "RecallID": 9836,
+      "RecallNumber": "24099",
+      "RecallDate": "2024-02-01T00:00:00",
+      "Description": "Meijer is recalling December Home branded candelabra style incandescent replacement light bulbs due to a serious safety concern. These bulbs feature a metallic threaded base and a glass shell, and are packaged in sets of one, two, or three. The product packaging clearly displays the December Home brand name.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/Meijer-Recalls-December-Home-Branded-Candelabra-Style-Light-Bulbs-Due-to-Laceration-Hazard",
+      "Title": "Meijer Recalls December Home Candelabra Light Bulbs Due to Laceration Risk",
+      "ConsumerContact": "For more information, consumers can reach Meijer at 800-927-8699 at any time or visit www.meijer.com/product-recalls. Alternatively, visit www.meijer.com and click on 'Product Recalls' at the bottom of the page.",
+      "LastPublishDate": "2024-02-01T00:00:00",
+      "Products": [
+        {
+          "Name": "December Home Candelabra Replacement Light Bulbs",
+          "NumberOfUnits": "About 19,200"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/light-bulbs/1-December-Home-Candelabra-Replacement-Light-Bulbs/44febfbdb446117a14a95d527444eb42.webp",
+          "Caption": "Recalled DECEMBER HOME replacement bulbs UPC 70882069258",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Dec-Home-bulbs-2.png"
+        },
+        {
+          "URL": "/images/generalRecalls/light-bulbs/1-December-Home-Candelabra-Replacement-Light-Bulbs/8a6237aa04c10ba1da8f83c260307298.webp",
+          "Caption": "Recalled DECEMBER HOME replacement bulb UPC 76023636133",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Dec-Home-bulbs-1.png"
+        },
+        {
+          "URL": "/images/generalRecalls/light-bulbs/1-December-Home-Candelabra-Replacement-Light-Bulbs/7b10367eda8b019605e3fb65a163aff1.webp",
+          "Caption": "Recalled DECEMBER HOME replacement bulbs UPC 76023636134",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Dec-Home-bulbs-flame.png"
+        },
+        {
+          "URL": "/images/generalRecalls/light-bulbs/1-December-Home-Candelabra-Replacement-Light-Bulbs/3f44ecd275761589ad592491f195e1b1.webp",
+          "Caption": "Recalled DECEMBER HOME replacement bulbs UPC 76023636135",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Dec-Home-bulbs-3.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received one report of an incident involving a 3V bulb used in a 120V fixture resulting in a \"short out\" in the fixture. No injuries have been reported."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available at Meijer stores across Illinois, Indiana, Ohio, Michigan, Kentucky, and Wisconsin from October 2023 through November 2023, priced at approximately $1.50 for one or two bulb packages and $2 for three bulb packages."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Meijer Distribution Inc., of Grand Rapids, Michigan"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "Vietnam"
+        }
+      ],
+      "ProductUPCs": [
+        {
+          "UPC": "70882069258"
+        },
+        {
+          "UPC": "76023636133"
+        },
+        {
+          "UPC": "76023636134"
+        },
+        {
+          "UPC": "76023636135"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Some packages may contain 3V bulbs meant for battery-operated fixtures instead of the labeled 120V bulbs, which can burst if used in a 120V fixture, leading to a laceration hazard."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should cease using the recalled light bulbs immediately and return them to Meijer for a full refund."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "slug": "meijer-recalls-december-home-candelabra-light-bulbs-due-to-laceration-risk-recall",
+      "metaDescription": "Meijer recalls December Home candelabra light bulbs due to laceration hazards. Return for a full refund. Stay safe!",
+      "languages": {
+        "en": {
+          "Title": "Meijer Recalls December Home Candelabra Light Bulbs Due to Laceration Risk",
+          "Description": "Meijer is recalling December Home branded candelabra style incandescent replacement light bulbs due to a serious safety concern. These bulbs feature a metallic threaded base and a glass shell, and are packaged in sets of one, two, or three. The product packaging clearly displays the December Home brand name.",
+          "ConsumerContact": "For more information, consumers can reach Meijer at 800-927-8699 at any time or visit www.meijer.com/product-recalls. Alternatively, visit www.meijer.com and click on 'Product Recalls' at the bottom of the page.",
+          "metaDescription": "Meijer recalls December Home candelabra light bulbs due to laceration hazards. Return for a full refund. Stay safe!",
+          "Products": [
+            {
+              "Name": "December Home Candelabra Replacement Light Bulbs",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 19,200"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled DECEMBER HOME replacement bulbs UPC 70882069258"
+            },
+            {
+              "Caption": "Recalled DECEMBER HOME replacement bulb UPC 76023636133"
+            },
+            {
+              "Caption": "Recalled DECEMBER HOME replacement bulbs UPC 76023636134"
+            },
+            {
+              "Caption": "Recalled DECEMBER HOME replacement bulbs UPC 76023636135"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "The firm has received one report of an incident involving a 3V bulb used in a 120V fixture resulting in a \"short out\" in the fixture. No injuries have been reported."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Available at Meijer stores across Illinois, Indiana, Ohio, Michigan, Kentucky, and Wisconsin from October 2023 through November 2023, priced at approximately $1.50 for one or two bulb packages and $2 for three bulb packages."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Meijer Distribution Inc., of Grand Rapids, Michigan"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Sold At",
+          "ManufacturerCountries": [
+            {
+              "Country": "Vietnam"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Some packages may contain 3V bulbs meant for battery-operated fixtures instead of the labeled 120V bulbs, which can burst if used in a 120V fixture, leading to a laceration hazard."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Consumers should cease using the recalled light bulbs immediately and return them to Meijer for a full refund."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Refund"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "Meijer Retira Bombillas de Candelabro de diciembre debido al Riesgo de Laceración",
+          "Description": "Meijer está retirando bombillas de repuesto incandescentes de estilo candelabro de la marca December Home debido a una grave preocupación de seguridad. Estas bombillas cuentan con una base metálica roscada y una cubierta de vidrio, y se empaquetan en conjuntos de una, dos o tres. El empaque del producto muestra claramente el nombre de la marca December Home.",
+          "ConsumerContact": "Para más información, los consumidores pueden comunicarse con Meijer al 800-927-8699 en cualquier momento o visitar www.meijer.com/product-recalls. Alternativamente, visite www.meijer.com y haga clic en 'Product Recalls' en la parte inferior de la página.",
+          "metaDescription": "Meijer retira bombillas de candelabro de diciembre debido a peligros de laceración. Devuélvalas para un reembolso completo. ¡Manténgase seguro!",
+          "Products": [
+            {
+              "Name": "Bombillas de Repuesto de Candelabro December Home",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 19,200"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Bombillas de repuesto DECEMBER HOME retiradas UPC 70882069258"
+            },
+            {
+              "Caption": "Bombilla de repuesto DECEMBER HOME retirada UPC 76023636133"
+            },
+            {
+              "Caption": "Bombillas de repuesto DECEMBER HOME retiradas UPC 76023636134"
+            },
+            {
+              "Caption": "Bombillas de repuesto DECEMBER HOME retiradas UPC 76023636135"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "La empresa ha recibido un informe de un incidente que involucra una bombilla de 3V utilizada en un accesorio de 120V que resultó en un \"cortocircuito\" en el accesorio. No se han reportado lesiones."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponibles en las tiendas Meijer en Illinois, Indiana, Ohio, Michigan, Kentucky y Wisconsin desde octubre de 2023 hasta noviembre de 2023, con un precio de aproximadamente $1.50 por paquetes de una o dos bombillas y $2 por paquetes de tres bombillas."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Meijer Distribution Inc., de Grand Rapids, Michigan"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendido En",
+          "ManufacturerCountries": [
+            {
+              "Country": "Vietnam"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Algunos paquetes pueden contener bombillas de 3V destinadas a accesorios de batería en lugar de las bombillas etiquetadas de 120V, que pueden estallar si se utilizan en un accesorio de 120V, lo que lleva a un riesgo de laceración."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Los consumidores deben dejar de usar las bombillas retiradas de inmediato y devolverlas a Meijer para un reembolso completo."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reembolso"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "ميجر تستدعي لمبات الشمعدان المنزلية لشهر ديسمبر بسبب خطر القطع",
+          "Description": "تستدعي ميجر لمبات الشمعدان البديلة من نوع incandescent ذات العلامة التجارية ديسمبر هوم بسبب قلق أمني خطير. تتميز هذه اللمبات بقاعدة معدنية ملولبة وقشرة زجاجية، وتعبأ في مجموعات من واحدة أو اثنتين أو ثلاث. تعرض عبوة المنتج بوضوح اسم العلامة التجارية ديسمبر هوم.",
+          "ConsumerContact": "لمزيد من المعلومات، يمكن للمستهلكين الاتصال بميجر على الرقم 800-927-8699 في أي وقت أو زيارة www.meijer.com/product-recalls. بدلاً من ذلك، يمكن زيارة www.meijer.com والنقر على 'استدعاءات المنتجات' في أسفل الصفحة.",
+          "metaDescription": "ميجر تستدعي لمبات الشمعدان المنزلية لشهر ديسمبر بسبب مخاطر القطع. يرجى إرجاعها لاسترداد كامل. ابقوا آمنين!",
+          "Products": [
+            {
+              "Name": "لمبات الشمعدان البديلة ديسمبر هوم",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 19,200"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "لمبات ديسمبر هوم البديلة المستدعاة UPC 70882069258"
+            },
+            {
+              "Caption": "لمبة ديسمبر هوم البديلة المستدعاة UPC 76023636133"
+            },
+            {
+              "Caption": "لمبات ديسمبر هوم البديلة المستدعاة UPC 76023636134"
+            },
+            {
+              "Caption": "لمبات ديسمبر هوم البديلة المستدعاة UPC 76023636135"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "تلقت الشركة تقريرًا واحدًا عن حادث يتعلق بلمبة 3V مستخدمة في تركيبة 120V مما أدى إلى \"قصور\" في التركيبة. لم يتم الإبلاغ عن إصابات."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "متاحة في متاجر ميجر عبر إلينوي، إنديانا، أوهايو، ميشيغان، كنتاكي، وويسكونسن من أكتوبر 2023 حتى نوفمبر 2023، بسعر حوالي 1.50 دولار لحزم لمبة واحدة أو اثنتين و2 دولار لحزم ثلاث لمبات."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "شركة ميجر للتوزيع، من غراند رابيدز، ميشيغان"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "تباع في",
+          "ManufacturerCountries": [
+            {
+              "Country": "فيتنام"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "بعض العبوات قد تحتوي على لمبات 3V مخصصة لتركيبات تعمل بالبطارية بدلاً من لمبات 120V المعلنة، والتي يمكن أن تنفجر إذا استخدمت في تركيبة 120V، مما يؤدي إلى خطر القطع."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "يجب على المستهلكين التوقف عن استخدام لمبات الاستدعاء على الفور وإعادتها إلى ميجر لاسترداد كامل."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "استرداد"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "Meijer召回12月家居烛台灯泡因割伤风险",
+          "Description": "Meijer因严重安全隐患召回12月家居品牌的烛台式白炽灯替换灯泡。这些灯泡具有金属螺纹底座和玻璃外壳，包装为一、二或三只一组。产品包装上清晰显示了12月家居品牌名称。",
+          "ConsumerContact": "如需更多信息，消费者可以随时拨打800-927-8699联系Meijer，或访问www.meijer.com/product-recalls。或者，访问www.meijer.com并点击页面底部的“产品召回”。",
+          "metaDescription": "Meijer因割伤危险召回12月家居烛台灯泡。退货可全额退款。保持安全！",
+          "Products": [
+            {
+              "Name": "12月家居烛台替换灯泡",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约19,200"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "召回的12月家居替换灯泡UPC 70882069258"
+            },
+            {
+              "Caption": "召回的12月家居替换灯泡UPC 76023636133"
+            },
+            {
+              "Caption": "召回的12月家居替换灯泡UPC 76023636134"
+            },
+            {
+              "Caption": "召回的12月家居替换灯泡UPC 76023636135"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "该公司已收到一起涉及在120V灯具中使用3V灯泡导致灯具“短路”的事件报告。没有报告受伤情况。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "在伊利诺伊州、印第安纳州、俄亥俄州、密歇根州、肯塔基州和威斯康星州的Meijer商店有售，时间为2023年10月至2023年11月，价格约为1.50美元（单灯或双灯包装）和2美元（三灯包装）。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "密歇根州大急流城的Meijer Distribution Inc."
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "销售地点",
+          "ManufacturerCountries": [
+            {
+              "Country": "越南"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "某些包装可能包含用于电池供电灯具的3V灯泡，而不是标记的120V灯泡，如果在120V灯具中使用，可能会爆裂，导致割伤危险。"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "消费者应立即停止使用召回的灯泡，并将其退回Meijer以获得全额退款。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "退款"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "Meijer rappelle des ampoules de style candélabre de décembre en raison d'un risque de lacération",
+          "Description": "Meijer rappelle des ampoules de remplacement à incandescence de style candélabre de la marque December Home en raison d'une préoccupation sérieuse pour la sécurité. Ces ampoules disposent d'une base filetée en métal et d'une coque en verre, et sont emballées en ensembles d'une, deux ou trois. L'emballage du produit affiche clairement le nom de la marque December Home.",
+          "ConsumerContact": "Pour plus d'informations, les consommateurs peuvent contacter Meijer au 800-927-8699 à tout moment ou visiter www.meijer.com/product-recalls. Alternativement, visitez www.meijer.com et cliquez sur 'Rappels de produits' en bas de la page.",
+          "metaDescription": "Meijer rappelle des ampoules de candélabre de décembre en raison de risques de lacération. Retournez-les pour un remboursement complet. Restez en sécurité !",
+          "Products": [
+            {
+              "Name": "Ampoules de remplacement de candélabre December Home",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 19 200"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Ampoules de remplacement DECEMBER HOME rappelées UPC 70882069258"
+            },
+            {
+              "Caption": "Ampoule de remplacement DECEMBER HOME rappelée UPC 76023636133"
+            },
+            {
+              "Caption": "Ampoules de remplacement DECEMBER HOME rappelées UPC 76023636134"
+            },
+            {
+              "Caption": "Ampoules de remplacement DECEMBER HOME rappelées UPC 76023636135"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "L'entreprise a reçu un rapport d'un incident impliquant une ampoule 3V utilisée dans un luminaire 120V entraînant un \"court-circuit\" dans le luminaire. Aucune blessure n'a été signalée."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponibles dans les magasins Meijer à travers l'Illinois, l'Indiana, l'Ohio, le Michigan, le Kentucky et le Wisconsin d'octobre 2023 à novembre 2023, au prix d'environ 1,50 $ pour des paquets d'une ou deux ampoules et 2 $ pour des paquets de trois ampoules."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Meijer Distribution Inc., de Grand Rapids, Michigan"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendu À",
+          "ManufacturerCountries": [
+            {
+              "Country": "Vietnam"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Certaines emballages peuvent contenir des ampoules 3V destinées à des luminaires fonctionnant sur batterie au lieu des ampoules 120V étiquetées, qui peuvent éclater si utilisées dans un luminaire 120V, entraînant un risque de lacération."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Les consommateurs doivent cesser d'utiliser immédiatement les ampoules rappelées et les retourner à Meijer pour un remboursement complet."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Remboursement"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "Meijer ruft Dezember Home Kerzenleuchter Glühbirnen wegen Schnittgefahr zurück",
+          "Description": "Meijer ruft Glühbirnen im Kerzenleuchter-Stil der Marke Dezember Home aufgrund eines ernsthaften Sicherheitsproblems zurück. Diese Glühbirnen verfügen über eine metallische Schraubbasis und eine Glasschale und sind in Sets von einer, zwei oder drei verpackt. Die Produktverpackung zeigt deutlich den Markennamen Dezember Home.",
+          "ConsumerContact": "Für weitere Informationen können Verbraucher Meijer jederzeit unter 800-927-8699 erreichen oder die Website www.meijer.com/product-recalls besuchen. Alternativ können Sie www.meijer.com besuchen und unten auf der Seite auf 'Produkt-Rückrufe' klicken.",
+          "metaDescription": "Meijer ruft Dezember Home Glühbirnen wegen Schnittgefahren zurück. Rückgabe für eine volle Rückerstattung. Bleiben Sie sicher!",
+          "Products": [
+            {
+              "Name": "Dezember Home Kerzenleuchter Ersatzglühbirnen",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 19.200"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Zurückgerufene DEZEMBER HOME Ersatzglühbirnen UPC 70882069258"
+            },
+            {
+              "Caption": "Zurückgerufene DEZEMBER HOME Ersatzglühbirne UPC 76023636133"
+            },
+            {
+              "Caption": "Zurückgerufene DEZEMBER HOME Ersatzglühbirnen UPC 76023636134"
+            },
+            {
+              "Caption": "Zurückgerufene DEZEMBER HOME Ersatzglühbirnen UPC 76023636135"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Das Unternehmen hat einen Bericht über einen Vorfall erhalten, bei dem eine 3V-Glühbirne in einer 120V-Leuchte verwendet wurde, was zu einem \"Kurzschluss\" in der Leuchte führte. Es wurden keine Verletzungen gemeldet."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Verfügbar in Meijer-Filialen in Illinois, Indiana, Ohio, Michigan, Kentucky und Wisconsin von Oktober 2023 bis November 2023, zu Preisen von etwa 1,50 $ für ein oder zwei Glühbirnenpakete und 2 $ für drei Glühbirnenpakete."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Meijer Distribution Inc., Grand Rapids, Michigan"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Verkauft bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "Vietnam"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Einige Pakete können 3V-Glühbirnen enthalten, die für batteriebetriebene Leuchten gedacht sind, anstelle der gekennzeichneten 120V-Glühbirnen, die platzen können, wenn sie in einer 120V-Leuchte verwendet werden, was zu einer Schnittgefahr führt."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Verbraucher sollten die zurückgerufenen Glühbirnen sofort nicht mehr verwenden und sie an Meijer zur vollständigen Rückerstattung zurückgeben."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Rückerstattung"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "Meijer、切創のリスクにより12月のホームキャンドルブラライトバルブをリコール",
+          "Description": "Meijerは、深刻な安全上の懸念から、12月のホームブランドのキャンドルブラスタイルの白熱電球の交換用バルブをリコールしています。これらのバルブは金属製のねじ込みベースとガラスシェルを特徴としており、1個、2個、または3個のセットでパッケージされています。製品のパッケージには、12月のホームブランド名が明確に表示されています。",
+          "ConsumerContact": "詳細情報については、消費者はいつでも800-927-8699でMeijerに連絡するか、www.meijer.com/product-recallsを訪問してください。あるいは、www.meijer.comを訪れてページの下部にある「製品リコール」をクリックしてください。",
+          "metaDescription": "Meijerは切創の危険性により12月のホームキャンドルブラライトバルブをリコールします。全額返金のために返品してください。安全にお過ごしください！",
+          "Products": [
+            {
+              "Name": "12月のホームキャンドルブラ交換用ライトバルブ",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約19,200"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコールされた12月のホーム交換用バルブ UPC 70882069258"
+            },
+            {
+              "Caption": "リコールされた12月のホーム交換用バルブ UPC 76023636133"
+            },
+            {
+              "Caption": "リコールされた12月のホーム交換用バルブ UPC 76023636134"
+            },
+            {
+              "Caption": "リコールされた12月のホーム交換用バルブ UPC 76023636135"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "企業は、120Vの器具で使用された3Vバルブに関する1件の事故報告を受け取っており、器具内で「ショートアウト」が発生しました。怪我の報告はありません。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "2023年10月から2023年11月まで、イリノイ州、インディアナ州、オハイオ州、ミシガン州、ケンタッキー州、ウィスコンシン州のMeijer店舗で入手可能で、1個または2個のバルブパッケージが約1.50ドル、3個のバルブパッケージが2ドルで販売されています。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "ミシガン州グランドラピッズのMeijer Distribution Inc."
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "販売場所",
+          "ManufacturerCountries": [
+            {
+              "Country": "ベトナム"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "一部のパッケージには、ラベルの120Vバルブの代わりにバッテリー駆動の器具用の3Vバルブが含まれている可能性があり、120Vの器具で使用すると破裂する可能性があり、切創の危険を引き起こします。"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "消費者は、リコールされたライトバルブの使用を直ちに中止し、全額返金のためにMeijerに返却するべきです。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "返金"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "Meijer Recalls Lâmpadas de Candelabro December Home em Dezembro Devido ao Risco de Laceração",
+          "Description": "A Meijer está recolhendo lâmpadas incandescentes de substituição em estilo candelabro da marca December Home devido a uma séria preocupação de segurança. Essas lâmpadas possuem uma base metálica com rosca e uma casca de vidro, e estão embaladas em conjuntos de uma, duas ou três. A embalagem do produto exibe claramente o nome da marca December Home.",
+          "ConsumerContact": "Para mais informações, os consumidores podem entrar em contato com a Meijer pelo telefone 800-927-8699 a qualquer momento ou visitar www.meijer.com/product-recalls. Alternativamente, visite www.meijer.com e clique em 'Product Recalls' na parte inferior da página.",
+          "metaDescription": "A Meijer recolhe lâmpadas de candelabro December Home devido a riscos de laceração. Retorne para um reembolso total. Fique seguro!",
+          "Products": [
+            {
+              "Name": "Lâmpadas de Substituição de Candelabro December Home",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 19.200"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Lâmpadas de substituição DECEMBER HOME recolhidas UPC 70882069258"
+            },
+            {
+              "Caption": "Lâmpada de substituição DECEMBER HOME recolhida UPC 76023636133"
+            },
+            {
+              "Caption": "Lâmpadas de substituição DECEMBER HOME recolhidas UPC 76023636134"
+            },
+            {
+              "Caption": "Lâmpadas de substituição DECEMBER HOME recolhidas UPC 76023636135"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "A empresa recebeu um relato de um incidente envolvendo uma lâmpada de 3V usada em um soquete de 120V resultando em um \"curto\" no soquete. Nenhuma lesão foi relatada."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponível nas lojas Meijer em Illinois, Indiana, Ohio, Michigan, Kentucky e Wisconsin de outubro de 2023 até novembro de 2023, com preços de aproximadamente $1,50 por pacotes de uma ou duas lâmpadas e $2 por pacotes de três lâmpadas."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Meijer Distribution Inc., de Grand Rapids, Michigan"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendido Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "Vietnã"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Algumas embalagens podem conter lâmpadas de 3V destinadas a soquetes operados por bateria em vez das lâmpadas rotuladas de 120V, que podem estourar se usadas em um soquete de 120V, levando a um risco de laceração."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Os consumidores devem parar de usar imediatamente as lâmpadas recolhidas e devolvê-las à Meijer para um reembolso total."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reembolso"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "Meijer ने लaceration जोखिम के कारण दिसंबर होम कैंडेलाब्रा लाइट बल्ब वापस बुलाए",
+          "Description": "Meijer दिसंबर होम ब्रांड के कैंडेलाब्रा शैली के इंकैंडेसेंट प्रतिस्थापन लाइट बल्बों को गंभीर सुरक्षा चिंता के कारण वापस बुला रहा है। इन बल्बों में एक धातु का थ्रेडेड बेस और एक कांच का शेल होता है, और इन्हें एक, दो, या तीन के सेट में पैक किया गया है। उत्पाद पैकेजिंग पर स्पष्ट रूप से दिसंबर होम ब्रांड का नाम प्रदर्शित होता है।",
+          "ConsumerContact": "अधिक जानकारी के लिए, उपभोक्ता किसी भी समय Meijer से 800-927-8699 पर संपर्क कर सकते हैं या www.meijer.com/product-recalls पर जा सकते हैं। वैकल्पिक रूप से, www.meijer.com पर जाएं और पृष्ठ के नीचे 'उत्पाद वापस बुलाने' पर क्लिक करें।",
+          "metaDescription": "Meijer दिसंबर होम कैंडेलाब्रा लाइट बल्बों को लaceration खतरों के कारण वापस बुलाता है। पूर्ण धनवापसी के लिए लौटें। सुरक्षित रहें!",
+          "Products": [
+            {
+              "Name": "दिसंबर होम कैंडेलाब्रा प्रतिस्थापन लाइट बल्ब",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 19,200"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "वापस बुलाए गए DECEMBER HOME प्रतिस्थापन बल्ब UPC 70882069258"
+            },
+            {
+              "Caption": "वापस बुलाए गए DECEMBER HOME प्रतिस्थापन बल्ब UPC 76023636133"
+            },
+            {
+              "Caption": "वापस बुलाए गए DECEMBER HOME प्रतिस्थापन बल्ब UPC 76023636134"
+            },
+            {
+              "Caption": "वापस बुलाए गए DECEMBER HOME प्रतिस्थापन बल्ब UPC 76023636135"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "कंपनी को 120V फिक्स्चर में उपयोग किए गए 3V बल्ब से संबंधित एक घटना की रिपोर्ट मिली है, जिसके परिणामस्वरूप फिक्स्चर में \"शॉर्ट आउट\" हुआ। कोई चोट की रिपोर्ट नहीं की गई है।"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "इंडियाना, ओहियो, मिशिगन, केंटकी, और विस्कॉन्सिन में Meijer स्टोर पर अक्टूबर 2023 से नवंबर 2023 तक उपलब्ध, एक या दो बल्ब पैकेज के लिए लगभग $1.50 और तीन बल्ब पैकेज के लिए $2 की कीमत पर।"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Meijer वितरण इंक., ग्रैंड रैपिड्स, मिशिगन"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "वियतनाम"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "कुछ पैकेजों में 3V बल्ब हो सकते हैं जो बैटरी से चलने वाले फिक्स्चर के लिए हैं, बजाय लेबल किए गए 120V बल्बों के, जो 120V फिक्स्चर में उपयोग करने पर फट सकते हैं, जिससे लaceration का खतरा होता है।"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "उपभोक्ताओं को तुरंत वापस बुलाए गए लाइट बल्बों का उपयोग बंद कर देना चाहिए और उन्हें पूर्ण धनवापसी के लिए Meijer को वापस करना चाहिए।"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "धनवापसी"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "Meijer отзывает лампочки для канделябров December Home из-за риска порезов",
+          "Description": "Meijer отзывает лампочки накаливания в стиле канделябра под брендом December Home из-за серьезной проблемы с безопасностью. Эти лампочки имеют металлическое резьбовое основание и стеклянную оболочку, и упакованы в наборы по одной, две или три штуки. Упаковка продукта четко отображает название бренда December Home.",
+          "ConsumerContact": "Для получения дополнительной информации потребители могут связаться с Meijer по телефону 800-927-8699 в любое время или посетить www.meijer.com/product-recalls. Альтернативно, посетите www.meijer.com и нажмите на 'Продуктовые отзыва' внизу страницы.",
+          "metaDescription": "Meijer отзывает лампочки для канделябров December Home из-за опасности порезов. Верните для полного возмещения. Берегите себя!",
+          "Products": [
+            {
+              "Name": "Лампочки для замены канделябров December Home",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 19,200"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванные лампочки DECEMBER HOME для замены UPC 70882069258"
+            },
+            {
+              "Caption": "Отозванная лампочка DECEMBER HOME для замены UPC 76023636133"
+            },
+            {
+              "Caption": "Отозванные лампочки DECEMBER HOME для замены UPC 76023636134"
+            },
+            {
+              "Caption": "Отозванные лампочки DECEMBER HOME для замены UPC 76023636135"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Компания получила один отчет о происшествии с 3V лампочкой, использованной в 120V светильнике, что привело к \"короткому замыканию\" в светильнике. О травмах не сообщалось."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Доступно в магазинах Meijer по всему Иллинойсу, Индиане, Огайо, Мичигану, Кентукки и Висконсину с октября 2023 года по ноябрь 2023 года, по цене примерно $1.50 за упаковку из одной или двух лампочек и $2 за упаковку из трех лампочек."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Meijer Distribution Inc., Гранд-Рапидс, Мичиган"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Продается в",
+          "ManufacturerCountries": [
+            {
+              "Country": "Вьетнам"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Некоторые упаковки могут содержать 3V лампочки, предназначенные для светильников на батарейках, вместо обозначенных 120V лампочек, которые могут разорваться при использовании в 120V светильнике, что приведет к опасности порезов."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Потребители должны немедленно прекратить использование отозванных лампочек и вернуть их в Meijer для полного возмещения."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Возмещение"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "Meijer thu hồi bóng đèn candelabra tháng 12 do nguy cơ bị cắt",
+          "Description": "Meijer đang thu hồi bóng đèn thay thế kiểu candelabra mang thương hiệu December Home do một mối quan tâm nghiêm trọng về an toàn. Những bóng đèn này có đế ren kim loại và vỏ thủy tinh, và được đóng gói thành bộ một, hai hoặc ba cái. Bao bì sản phẩm hiển thị rõ ràng tên thương hiệu December Home.",
+          "ConsumerContact": "Để biết thêm thông tin, người tiêu dùng có thể liên hệ với Meijer qua số 800-927-8699 bất cứ lúc nào hoặc truy cập www.meijer.com/product-recalls. Ngoài ra, hãy truy cập www.meijer.com và nhấp vào 'Product Recalls' ở cuối trang.",
+          "metaDescription": "Meijer thu hồi bóng đèn candelabra tháng 12 do nguy cơ bị cắt. Trả lại để được hoàn tiền đầy đủ. Giữ an toàn!",
+          "Products": [
+            {
+              "Name": "Bóng đèn thay thế candelabra tháng 12",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 19,200"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Bóng đèn thay thế DECEMBER HOME bị thu hồi UPC 70882069258"
+            },
+            {
+              "Caption": "Bóng đèn thay thế DECEMBER HOME bị thu hồi UPC 76023636133"
+            },
+            {
+              "Caption": "Bóng đèn thay thế DECEMBER HOME bị thu hồi UPC 76023636134"
+            },
+            {
+              "Caption": "Bóng đèn thay thế DECEMBER HOME bị thu hồi UPC 76023636135"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Công ty đã nhận được một báo cáo về một sự cố liên quan đến bóng đèn 3V được sử dụng trong một thiết bị 120V dẫn đến \"ngắn mạch\" trong thiết bị. Không có thương tích nào được báo cáo."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Có mặt tại các cửa hàng Meijer trên toàn bang Illinois, Indiana, Ohio, Michigan, Kentucky và Wisconsin từ tháng 10 năm 2023 đến tháng 11 năm 2023, với giá khoảng 1,50 đô la cho một hoặc hai gói bóng đèn và 2 đô la cho ba gói bóng đèn."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Meijer Distribution Inc., tại Grand Rapids, Michigan"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Bán Tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Việt Nam"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Một số gói có thể chứa bóng đèn 3V dành cho thiết bị hoạt động bằng pin thay vì bóng đèn 120V được ghi nhãn, có thể phát nổ nếu được sử dụng trong thiết bị 120V, dẫn đến nguy cơ bị cắt."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Người tiêu dùng nên ngừng sử dụng ngay lập tức các bóng đèn bị thu hồi và trả lại cho Meijer để được hoàn tiền đầy đủ."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Hoàn tiền"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    }
+  ]
+}

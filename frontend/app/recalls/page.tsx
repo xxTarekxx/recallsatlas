@@ -1,15 +1,16 @@
 import RecallsSearchPage from "@/components/fda/RecallsSearchPage";
 
-export default function RecallsListPage({
+export default async function RecallsListPage({
   searchParams,
 }: {
-  searchParams: { category?: string; q?: string };
+  searchParams: Promise<{ category?: string; q?: string }>;
 }) {
+  const sp = await searchParams;
   return (
     <RecallsSearchPage
       lang="en"
-      categorySlug={searchParams?.category}
-      initialQuery={searchParams?.q}
+      categorySlug={sp?.category}
+      initialQuery={sp?.q}
     />
   );
 }

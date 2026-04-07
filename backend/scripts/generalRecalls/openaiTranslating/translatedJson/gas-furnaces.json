@@ -1,0 +1,947 @@
+{
+  "meta": {
+    "slug": "gas-furnaces",
+    "sourceCsvFile": "gas-furnaces_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:36.939Z",
+    "recallCount": 1,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "gas-furnaces.json",
+    "seoTranslatedAt": "2026-04-04T03:42:55.744Z",
+    "resumePartial": false,
+    "i18nSource": "generalRecallsTranslated",
+    "i18nSourceFile": "gas-furnaces.json",
+    "i18nUiLangs": [
+      "en",
+      "es",
+      "ar",
+      "zh",
+      "fr",
+      "de",
+      "ja",
+      "pt",
+      "hi",
+      "ru",
+      "vi"
+    ],
+    "i18nProgressByLang": {
+      "es": 1,
+      "ar": 1,
+      "zh": 1,
+      "fr": 1,
+      "de": 1,
+      "ja": 1,
+      "pt": 1,
+      "hi": 1,
+      "ru": 1,
+      "vi": 1
+    },
+    "i18nInProgress": false,
+    "i18nTranslatedAt": "2026-04-07T07:40:45.434Z",
+    "i18nOpenaiModel": "gpt-4o-mini"
+  },
+  "recalls": [
+    {
+      "RecallID": 9821,
+      "RecallNumber": "24080",
+      "RecallDate": "2024-01-11T00:00:00",
+      "Description": "Daikin Comfort Technologies Manufacturing (formerly Goodman Manufacturing Company L.P.) has broadened its recall of evaporator coil drain pans to include additional units produced between January 2019 and February 2020. These units were mistakenly labeled with a 2018 serial number, leading to confusion about their manufacturing date. The expanded recall now encompasses approximately 3,600 more units with specific configurations and coil serial numbers. Consumers should check the serial numbers to see if their units are affected.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/Daikin-Comfort-Technologies-Manufacturing-formerly-Goodman-Manufacturing-Company-LP-Expands-Recall-of-Evaporator-Coil-Drain-Pans-to-Include-Additional-Units",
+      "Title": "Daikin Comfort Technologies Expands Recall of Evaporator Coil Drain Pans Due to Fire Hazard",
+      "ConsumerContact": "For assistance, consumers can reach DCT toll-free at 888-520-0579 from 7 a.m. to 6 p.m. CT, Monday through Friday, or visit www.recallrtr.com/drainpan or www.goodmanmfg.com and select \"PRODUCT RECALL\" for further details.",
+      "LastPublishDate": "2024-01-11T00:00:00",
+      "Products": [
+        {
+          "Name": "Evaporator Coil Drain Pans",
+          "NumberOfUnits": "About 3,600 additional units (In addition, about 12 were sold in Canada) (298,300 evaporator coil drain pans, and 44,000 in Canada, were previously recalled in November 2021 and in July 2022)"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/gas-furnaces/1-Evaporator-Coil-Drain-Pans/80138d55cc1bc2f9f9b7257cd4477f30.webp",
+          "Caption": "Furnace configurations for recalled evaporator coil drain pans showing an up-flow coil configuration",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/image3_38.png"
+        },
+        {
+          "URL": "/images/generalRecalls/gas-furnaces/1-Evaporator-Coil-Drain-Pans/368fae1ae8ca5c7f86bfbb790fcaaa84.webp",
+          "Caption": "Recalled evaporator coil drain pans installed with condensing (white pipe) or non-condensing (metal pipe) gas furnaces that are not in an “up-flow” coil configuration",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/image2_36.png"
+        },
+        {
+          "URL": "/images/generalRecalls/gas-furnaces/1-Evaporator-Coil-Drain-Pans/1f2a25d904ac1415c0c51ac9fa429c6e.webp",
+          "Caption": "Location of label showing serial number on cased evaporator coils",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/image5_11.png"
+        },
+        {
+          "URL": "/images/generalRecalls/gas-furnaces/1-Evaporator-Coil-Drain-Pans/701539ba4a09c26ef7702bcb18c91423.webp",
+          "Caption": "Location of label showing serial number on uncased evaporator coils",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/image4_24.png"
+        },
+        {
+          "URL": "/images/generalRecalls/gas-furnaces/1-Evaporator-Coil-Drain-Pans/d3a2168151c059fb8f5ca3f7dc5d39f2.webp",
+          "Caption": "Location of Energy Guide label showing furnace brand and model number",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/image7_4.png"
+        },
+        {
+          "URL": "/images/generalRecalls/gas-furnaces/1-Evaporator-Coil-Drain-Pans/b204ce9487ff5c3d25dadb9e97418e40.webp",
+          "Caption": "Location of model number on outdoor condenser",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/image6_3.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "DCT has received a total of 31 reports of fire involving the drain pans, including five reports since the recall was reannounced in July 2022. The incidents resulted in one reported smoke inhalation and several reports of significant fire and smoke damage to residences."
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "Daikin Comfort Technologies Manufacturing L.P. (f/k/a Goodman Manufacturing Company L.P.) of Houston, Texas"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Sold by independent heating and cooling equipment dealers across the nation from January 2019 to November 2021, priced between $200 and $1,200 per unit."
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "United States"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Fire hazard due to overheating and deformation of the molded plastic drain pan"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Contact DCT to check if your unit is recalled and to arrange for a free repair by a qualified technician."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ],
+      "slug": "daikin-comfort-technologies-expands-recall-of-evaporator-coil-drain-pans-due-to-fire-hazard-recall",
+      "metaDescription": "Daikin Comfort Technologies recalls evaporator coil drain pans due to fire risks. Check your unit's serial number for safety.",
+      "languages": {
+        "en": {
+          "Title": "Daikin Comfort Technologies Expands Recall of Evaporator Coil Drain Pans Due to Fire Hazard",
+          "Description": "Daikin Comfort Technologies Manufacturing (formerly Goodman Manufacturing Company L.P.) has broadened its recall of evaporator coil drain pans to include additional units produced between January 2019 and February 2020. These units were mistakenly labeled with a 2018 serial number, leading to confusion about their manufacturing date. The expanded recall now encompasses approximately 3,600 more units with specific configurations and coil serial numbers. Consumers should check the serial numbers to see if their units are affected.",
+          "ConsumerContact": "For assistance, consumers can reach DCT toll-free at 888-520-0579 from 7 a.m. to 6 p.m. CT, Monday through Friday, or visit www.recallrtr.com/drainpan or www.goodmanmfg.com and select \"PRODUCT RECALL\" for further details.",
+          "metaDescription": "Daikin Comfort Technologies recalls evaporator coil drain pans due to fire risks. Check your unit's serial number for safety.",
+          "Products": [
+            {
+              "Name": "Evaporator Coil Drain Pans",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 3,600 additional units (In addition, about 12 were sold in Canada) (298,300 evaporator coil drain pans, and 44,000 in Canada, were previously recalled in November 2021 and in July 2022)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Furnace configurations for recalled evaporator coil drain pans showing an up-flow coil configuration"
+            },
+            {
+              "Caption": "Recalled evaporator coil drain pans installed with condensing (white pipe) or non-condensing (metal pipe) gas furnaces that are not in an “up-flow” coil configuration"
+            },
+            {
+              "Caption": "Location of label showing serial number on cased evaporator coils"
+            },
+            {
+              "Caption": "Location of label showing serial number on uncased evaporator coils"
+            },
+            {
+              "Caption": "Location of Energy Guide label showing furnace brand and model number"
+            },
+            {
+              "Caption": "Location of model number on outdoor condenser"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "DCT has received a total of 31 reports of fire involving the drain pans, including five reports since the recall was reannounced in July 2022. The incidents resulted in one reported smoke inhalation and several reports of significant fire and smoke damage to residences."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Sold by independent heating and cooling equipment dealers across the nation from January 2019 to November 2021, priced between $200 and $1,200 per unit."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Daikin Comfort Technologies Manufacturing L.P. (f/k/a Goodman Manufacturing Company L.P.) of Houston, Texas"
+            }
+          ],
+          "SoldAtLabel": "Sold At",
+          "ManufacturerCountries": [
+            {
+              "Country": "United States"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Fire hazard due to overheating and deformation of the molded plastic drain pan"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Contact DCT to check if your unit is recalled and to arrange for a free repair by a qualified technician."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Repair"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "Daikin Comfort Technologies Amplía el Retiro de Bandejas de Drenaje de Bobinas Evaporadoras Debido a Peligro de Incendio",
+          "Description": "Daikin Comfort Technologies Manufacturing (anteriormente Goodman Manufacturing Company L.P.) ha ampliado su retiro de bandejas de drenaje de bobinas evaporadoras para incluir unidades adicionales producidas entre enero de 2019 y febrero de 2020. Estas unidades fueron etiquetadas erróneamente con un número de serie de 2018, lo que llevó a confusión sobre su fecha de fabricación. El retiro ampliado ahora abarca aproximadamente 3,600 unidades más con configuraciones específicas y números de serie de bobinas. Los consumidores deben verificar los números de serie para ver si sus unidades están afectadas.",
+          "ConsumerContact": "Para asistencia, los consumidores pueden comunicarse con DCT sin cargo al 888-520-0579 de 7 a.m. a 6 p.m. CT, de lunes a viernes, o visitar www.recallrtr.com/drainpan o www.goodmanmfg.com y seleccionar \"RETROCESO DE PRODUCTO\" para más detalles.",
+          "metaDescription": "Daikin Comfort Technologies retira bandejas de drenaje de bobinas evaporadoras debido a riesgos de incendio. Verifique el número de serie de su unidad para seguridad.",
+          "Products": [
+            {
+              "Name": "Bandejas de Drenaje de Bobinas Evaporadoras",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 3,600 unidades adicionales (Además, se vendieron alrededor de 12 en Canadá) (298,300 bandejas de drenaje de bobinas evaporadoras, y 44,000 en Canadá, fueron retiradas previamente en noviembre de 2021 y en julio de 2022)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Configuraciones de horno para bandejas de drenaje de bobinas evaporadoras retiradas mostrando una configuración de bobina de flujo ascendente"
+            },
+            {
+              "Caption": "Bandejas de drenaje de bobinas evaporadoras retiradas instaladas con hornos de gas de condensación (tubería blanca) o no condensación (tubería metálica) que no están en una configuración de bobina de \"flujo ascendente\""
+            },
+            {
+              "Caption": "Ubicación de la etiqueta que muestra el número de serie en bobinas evaporadoras con carcasa"
+            },
+            {
+              "Caption": "Ubicación de la etiqueta que muestra el número de serie en bobinas evaporadoras sin carcasa"
+            },
+            {
+              "Caption": "Ubicación de la etiqueta de Guía de Energía que muestra la marca y el número de modelo del horno"
+            },
+            {
+              "Caption": "Ubicación del número de modelo en el condensador exterior"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "DCT ha recibido un total de 31 informes de incendios involucrando las bandejas de drenaje, incluyendo cinco informes desde que el retiro fue reanunciado en julio de 2022. Los incidentes resultaron en un informe de inhalación de humo y varios informes de daños significativos por fuego y humo a residencias."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Vendidas por distribuidores independientes de equipos de calefacción y refrigeración en todo el país desde enero de 2019 hasta noviembre de 2021, con precios entre $200 y $1,200 por unidad."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Daikin Comfort Technologies Manufacturing L.P. (anteriormente Goodman Manufacturing Company L.P.) de Houston, Texas"
+            }
+          ],
+          "SoldAtLabel": "Vendidas En",
+          "ManufacturerCountries": [
+            {
+              "Country": "Estados Unidos"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Peligro de incendio debido al sobrecalentamiento y deformación de la bandeja de drenaje de plástico moldeado"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Contacte a DCT para verificar si su unidad está retirada y para organizar una reparación gratuita por un técnico calificado."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparación"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "دايكن تكنولوجيات الراحة توسع استدعاء صواني تصريف لفائف المبخر بسبب خطر الحريق",
+          "Description": "قامت شركة دايكن تكنولوجيات الراحة (المعروفة سابقًا بشركة جودمان للتصنيع) بتوسيع استدعائها لصواني تصريف لفائف المبخر لتشمل وحدات إضافية تم إنتاجها بين يناير 2019 وفبراير 2020. تم تصنيف هذه الوحدات عن طريق الخطأ برقم تسلسلي لعام 2018، مما أدى إلى ارتباك بشأن تاريخ تصنيعها. يشمل الاستدعاء الموسع الآن حوالي 3,600 وحدة إضافية بأرقام تسلسلية محددة. يجب على المستهلكين التحقق من الأرقام التسلسلية لمعرفة ما إذا كانت وحداتهم متأثرة.",
+          "ConsumerContact": "للمساعدة، يمكن للمستهلكين الاتصال بشركة DCT على الرقم المجاني 888-520-0579 من الساعة 7 صباحًا حتى 6 مساءً بتوقيت وسط أمريكا، من الاثنين إلى الجمعة، أو زيارة www.recallrtr.com/drainpan أو www.goodmanmfg.com واختيار \"استدعاء المنتج\" لمزيد من التفاصيل.",
+          "metaDescription": "تستدعي دايكن تكنولوجيات الراحة صواني تصريف لفائف المبخر بسبب مخاطر الحريق. تحقق من الرقم التسلسلي لوحدتك من أجل السلامة.",
+          "Products": [
+            {
+              "Name": "صواني تصريف لفائف المبخر",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 3,600 وحدة إضافية (بالإضافة إلى ذلك، تم بيع حوالي 12 وحدة في كندا) (298,300 صينية تصريف لفائف مبخر، و44,000 في كندا، تم استدعاؤها سابقًا في نوفمبر 2021 وفي يوليو 2022)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "تكوينات الفرن لصواني تصريف لفائف المبخر المستدعاة تظهر تكوين لفائف تدفق لأعلى"
+            },
+            {
+              "Caption": "صواني تصريف لفائف المبخر المستدعاة المثبتة مع مواقد الغاز المكثفة (أنبوب أبيض) أو غير المكثفة (أنبوب معدني) التي ليست في تكوين لفائف \"تدفق لأعلى\""
+            },
+            {
+              "Caption": "موقع الملصق الذي يظهر الرقم التسلسلي على لفائف المبخر المغلفة"
+            },
+            {
+              "Caption": "موقع الملصق الذي يظهر الرقم التسلسلي على لفائف المبخر غير المغلفة"
+            },
+            {
+              "Caption": "موقع ملصق دليل الطاقة الذي يظهر علامة تجارية للفرن ورقم الطراز"
+            },
+            {
+              "Caption": "موقع رقم الطراز على المكثف الخارجي"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "تلقت DCT إجمالي 31 تقريرًا عن حوادث حريق تتعلق بصواني التصريف، بما في ذلك خمسة تقارير منذ إعادة الإعلان عن الاستدعاء في يوليو 2022. أدت الحوادث إلى حالة واحدة من استنشاق الدخان والعديد من التقارير عن أضرار كبيرة بسبب الحريق والدخان للمنازل."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "تم بيعها من قبل تجار معدات التدفئة والتبريد المستقلين في جميع أنحاء البلاد من يناير 2019 إلى نوفمبر 2021، بسعر يتراوح بين 200 دولار و1,200 دولار لكل وحدة."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "دايكن تكنولوجيات الراحة للتصنيع (المعروفة سابقًا بشركة جودمان للتصنيع) من هيوستن، تكساس"
+            }
+          ],
+          "SoldAtLabel": "تم البيع في",
+          "ManufacturerCountries": [
+            {
+              "Country": "الولايات المتحدة"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "خطر الحريق بسبب ارتفاع درجة الحرارة وتشوه صينية التصريف البلاستيكية المصبوبة"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "اتصل بـ DCT للتحقق مما إذا كانت وحدتك مستدعاة ولترتيب إصلاح مجاني بواسطة فني مؤهل."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "إصلاح"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "大金舒适科技扩大因火灾隐患召回蒸发器线圈排水盘",
+          "Description": "大金舒适科技制造（前身为古德曼制造公司 L.P.）已扩大其对蒸发器线圈排水盘的召回，涵盖了2019年1月至2020年2月间生产的额外单位。这些单位错误地标记为2018年序列号，导致对其生产日期的混淆。此次扩大召回现已包括约3,600个具有特定配置和线圈序列号的额外单位。消费者应检查序列号以查看其单位是否受到影响。",
+          "ConsumerContact": "如需帮助，消费者可以在周一至周五的中部时间上午7点至下午6点拨打DCT免费电话888-520-0579，或访问www.recallrtr.com/drainpan或www.goodmanmfg.com并选择“产品召回”以获取更多详细信息。",
+          "metaDescription": "大金舒适科技因火灾风险召回蒸发器线圈排水盘。检查您单位的序列号以确保安全。",
+          "Products": [
+            {
+              "Name": "蒸发器线圈排水盘",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约3,600个额外单位（此外，约12个在加拿大销售）（298,300个蒸发器线圈排水盘，以及在2021年11月和2022年7月之前召回的44,000个在加拿大）"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "召回的蒸发器线圈排水盘的炉子配置，显示向上流动的线圈配置"
+            },
+            {
+              "Caption": "与冷凝（白色管）或非冷凝（金属管）燃气炉安装的召回蒸发器线圈排水盘，这些炉子不在“向上流动”线圈配置中"
+            },
+            {
+              "Caption": "带壳蒸发器线圈上显示序列号的标签位置"
+            },
+            {
+              "Caption": "无壳蒸发器线圈上显示序列号的标签位置"
+            },
+            {
+              "Caption": "显示炉子品牌和型号的能源指南标签位置"
+            },
+            {
+              "Caption": "户外冷凝器上型号的标签位置"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "DCT已收到共31起与排水盘相关的火灾报告，其中包括自2022年7月重新宣布召回以来的五起报告。这些事件导致一例报告的吸入烟雾和几起对住宅造成重大火灾和烟雾损害的报告。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "由全国各地的独立供暖和制冷设备经销商销售，时间为2019年1月至2021年11月，价格在每单位200美元至1200美元之间。"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "德克萨斯州休斯顿的大金舒适科技制造 L.P.（前称古德曼制造公司 L.P.）"
+            }
+          ],
+          "SoldAtLabel": "销售地点",
+          "ManufacturerCountries": [
+            {
+              "Country": "美国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "由于塑料排水盘过热和变形而导致的火灾隐患"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "联系DCT以检查您的单位是否被召回，并安排由合格技术人员进行免费维修。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "维修"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "Daikin Comfort Technologies élargit le rappel des bacs de drainage de serpentins d'évaporateur en raison d'un risque d'incendie",
+          "Description": "Daikin Comfort Technologies Manufacturing (anciennement Goodman Manufacturing Company L.P.) a élargi son rappel de bacs de drainage de serpentins d'évaporateur pour inclure des unités supplémentaires produites entre janvier 2019 et février 2020. Ces unités ont été étiquetées par erreur avec un numéro de série de 2018, ce qui a entraîné une confusion concernant leur date de fabrication. Le rappel élargi concerne désormais environ 3 600 unités supplémentaires avec des configurations spécifiques et des numéros de série de serpentins. Les consommateurs doivent vérifier les numéros de série pour voir si leurs unités sont concernées.",
+          "ConsumerContact": "Pour obtenir de l'aide, les consommateurs peuvent contacter DCT sans frais au 888-520-0579 de 7 h à 18 h CT, du lundi au vendredi, ou visiter www.recallrtr.com/drainpan ou www.goodmanmfg.com et sélectionner \"RAPPEL DE PRODUIT\" pour plus de détails.",
+          "metaDescription": "Daikin Comfort Technologies rappelle des bacs de drainage de serpentins d'évaporateur en raison de risques d'incendie. Vérifiez le numéro de série de votre unité pour la sécurité.",
+          "Products": [
+            {
+              "Name": "Bacs de drainage de serpentins d'évaporateur",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 3 600 unités supplémentaires (De plus, environ 12 ont été vendues au Canada) (298 300 bacs de drainage de serpentins d'évaporateur, et 44 000 au Canada, ont été rappelés précédemment en novembre 2021 et en juillet 2022)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Configurations de fournaises pour les bacs de drainage de serpentins d'évaporateur rappelés montrant une configuration de serpentins en flux ascendant"
+            },
+            {
+              "Caption": "Bacs de drainage de serpentins d'évaporateur rappelés installés avec des fournaises à gaz à condensation (tuyau blanc) ou non à condensation (tuyau en métal) qui ne sont pas dans une configuration de serpentins en \"flux ascendant\""
+            },
+            {
+              "Caption": "Emplacement de l'étiquette montrant le numéro de série sur les serpentins d'évaporateur encastrés"
+            },
+            {
+              "Caption": "Emplacement de l'étiquette montrant le numéro de série sur les serpentins d'évaporateur non encastrés"
+            },
+            {
+              "Caption": "Emplacement de l'étiquette Energy Guide montrant la marque et le numéro de modèle de la fournaise"
+            },
+            {
+              "Caption": "Emplacement du numéro de modèle sur le condenseur extérieur"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "DCT a reçu un total de 31 rapports d'incendie impliquant les bacs de drainage, y compris cinq rapports depuis que le rappel a été réannoncé en juillet 2022. Les incidents ont entraîné un rapport d'inhalation de fumée et plusieurs rapports de dommages importants causés par le feu et la fumée aux résidences."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Vendu par des revendeurs indépendants d'équipements de chauffage et de climatisation à travers le pays de janvier 2019 à novembre 2021, au prix de 200 $ à 1 200 $ par unité."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Daikin Comfort Technologies Manufacturing L.P. (anciennement Goodman Manufacturing Company L.P.) de Houston, Texas"
+            }
+          ],
+          "SoldAtLabel": "Vendu À",
+          "ManufacturerCountries": [
+            {
+              "Country": "États-Unis"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risque d'incendie en raison de la surchauffe et de la déformation du bac de drainage en plastique moulé"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Contactez DCT pour vérifier si votre unité est rappelée et pour organiser une réparation gratuite par un technicien qualifié."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Réparation"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "Daikin Comfort Technologies erweitert den Rückruf von Verdampfer-Spulen-Abflussbehältern aufgrund von Brandgefahr",
+          "Description": "Daikin Comfort Technologies Manufacturing (ehemals Goodman Manufacturing Company L.P.) hat seinen Rückruf von Verdampfer-Spulen-Abflussbehältern ausgeweitet, um zusätzliche Einheiten einzuschließen, die zwischen Januar 2019 und Februar 2020 produziert wurden. Diese Einheiten wurden fälschlicherweise mit einer Seriennummer aus dem Jahr 2018 gekennzeichnet, was zu Verwirrung über ihr Herstellungsdatum führte. Der erweiterte Rückruf umfasst nun etwa 3.600 weitere Einheiten mit spezifischen Konfigurationen und Spulen-Seriennummern. Verbraucher sollten die Seriennummern überprüfen, um festzustellen, ob ihre Einheiten betroffen sind.",
+          "ConsumerContact": "Für Unterstützung können Verbraucher DCT kostenlos unter 888-520-0579 von 7 bis 18 Uhr CT, Montag bis Freitag, erreichen oder www.recallrtr.com/drainpan oder www.goodmanmfg.com besuchen und \"PRODUKTRÜCKRUF\" auswählen, um weitere Details zu erhalten.",
+          "metaDescription": "Daikin Comfort Technologies ruft Verdampfer-Spulen-Abflussbehälter aufgrund von Brandrisiken zurück. Überprüfen Sie die Seriennummer Ihrer Einheit auf Sicherheit.",
+          "Products": [
+            {
+              "Name": "Verdampfer-Spulen-Abflussbehälter",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 3.600 zusätzliche Einheiten (Darüber hinaus wurden etwa 12 in Kanada verkauft) (298.300 Verdampfer-Spulen-Abflussbehälter und 44.000 in Kanada wurden zuvor im November 2021 und im Juli 2022 zurückgerufen)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Heizungs-Konfigurationen für zurückgerufene Verdampfer-Spulen-Abflussbehälter, die eine Aufwärtsströmung-Spulen-Konfiguration zeigen"
+            },
+            {
+              "Caption": "Zurückgerufene Verdampfer-Spulen-Abflussbehälter, die mit kondensierenden (weiße Rohr) oder nicht-kondensierenden (Metallrohr) Gasheizungen installiert sind, die sich nicht in einer \"Aufwärtsströmung\"-Spulen-Konfiguration befinden"
+            },
+            {
+              "Caption": "Standort des Etiketts mit der Seriennummer auf verkleideten Verdampfer-Spulen"
+            },
+            {
+              "Caption": "Standort des Etiketts mit der Seriennummer auf unverkleideten Verdampfer-Spulen"
+            },
+            {
+              "Caption": "Standort des Energie-Leitfadens mit der Marke und Modellnummer des Heizgeräts"
+            },
+            {
+              "Caption": "Standort der Modellnummer am Außenkondensator"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "DCT hat insgesamt 31 Berichte über Brände im Zusammenhang mit den Abflussbehältern erhalten, darunter fünf Berichte seit der erneuten Bekanntgabe des Rückrufs im Juli 2022. Die Vorfälle führten zu einem gemeldeten Fall von Rauchvergiftung und mehreren Berichten über erhebliche Brand- und Rauchschäden an Wohngebäuden."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Verkauft von unabhängigen Heizungs- und Klimaanlagenhändlern im ganzen Land von Januar 2019 bis November 2021, zu Preisen zwischen 200 und 1.200 US-Dollar pro Einheit."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Daikin Comfort Technologies Manufacturing L.P. (ehemals Goodman Manufacturing Company L.P.) aus Houston, Texas"
+            }
+          ],
+          "SoldAtLabel": "Verkauft bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "Vereinigte Staaten"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Brandgefahr aufgrund von Überhitzung und Verformung des geformten Kunststoff-Abflussbehälters"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Kontaktieren Sie DCT, um zu überprüfen, ob Ihre Einheit zurückgerufen wurde, und um eine kostenlose Reparatur durch einen qualifizierten Techniker zu arrangieren."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparatur"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "ダイキン・コンフォート・テクノロジーズ、火災の危険性により蒸発器コイル排水パンのリコールを拡大",
+          "Description": "ダイキン・コンフォート・テクノロジーズ・マニュファクチャリング（旧グッドマン・マニュファクチャリング・カンパニーL.P.）は、2019年1月から2020年2月の間に製造された追加のユニットを含む蒸発器コイル排水パンのリコールを拡大しました。これらのユニットは2018年のシリアル番号で誤ってラベル付けされており、製造日について混乱を招いています。拡大されたリコールには、特定の構成およびコイルシリアル番号を持つ約3,600の追加ユニットが含まれています。消費者は、自分のユニットが影響を受けているかどうかを確認するためにシリアル番号をチェックする必要があります。",
+          "ConsumerContact": "支援が必要な場合、消費者はDCTに無料で連絡できます。電話番号は888-520-0579で、月曜日から金曜日の午前7時から午後6時（中央標準時）まで利用可能です。また、www.recallrtr.com/drainpanまたはwww.goodmanmfg.comを訪問し、「製品リコール」を選択して詳細を確認してください。",
+          "metaDescription": "ダイキン・コンフォート・テクノロジーズが火災リスクにより蒸発器コイル排水パンをリコール。ユニットのシリアル番号を確認して安全を確保してください。",
+          "Products": [
+            {
+              "Name": "蒸発器コイル排水パン",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約3,600の追加ユニット（さらに、約12ユニットがカナダで販売されました）（2021年11月および2022年7月に298,300の蒸発器コイル排水パン、カナダで44,000が以前にリコールされました）"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "アップフローコイル構成のリコールされた蒸発器コイル排水パンの炉構成"
+            },
+            {
+              "Caption": "アップフローコイル構成ではない凝縮（白いパイプ）または非凝縮（メタルパイプ）ガス炉に取り付けられたリコールされた蒸発器コイル排水パン"
+            },
+            {
+              "Caption": "ケース付き蒸発器コイルのシリアル番号を示すラベルの位置"
+            },
+            {
+              "Caption": "ケースなし蒸発器コイルのシリアル番号を示すラベルの位置"
+            },
+            {
+              "Caption": "炉のブランドとモデル番号を示すエネルギーガイドラベルの位置"
+            },
+            {
+              "Caption": "屋外凝縮器のモデル番号の位置"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "DCTは、排水パンに関する火災の報告を合計31件受け取っています。リコールが2022年7月に再発表されて以来、5件の報告が含まれています。これらの事件は、1件の煙吸引と、住宅に対する重大な火災および煙の損害に関するいくつかの報告をもたらしました。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "2019年1月から2021年11月まで、全国の独立した暖房および冷却機器ディーラーによって販売され、価格はユニットあたり200ドルから1,200ドルの間です。"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "テキサス州ヒューストンのダイキン・コンフォート・テクノロジーズ・マニュファクチャリングL.P.（旧グッドマン・マニュファクチャリング・カンパニーL.P.）"
+            }
+          ],
+          "SoldAtLabel": "販売場所",
+          "ManufacturerCountries": [
+            {
+              "Country": "アメリカ合衆国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "成形プラスチック排水パンの過熱および変形による火災の危険性"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "DCTに連絡して、自分のユニットがリコールされているかどうかを確認し、資格のある技術者による無料修理を手配してください。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "修理"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "Daikin Comfort Technologies Expande Recall de Bandejas de Drenagem de Bobinas Evaporadoras Devido ao Risco de Incêndio",
+          "Description": "A Daikin Comfort Technologies Manufacturing (anteriormente Goodman Manufacturing Company L.P.) ampliou seu recall de bandejas de drenagem de bobinas evaporadoras para incluir unidades adicionais produzidas entre janeiro de 2019 e fevereiro de 2020. Essas unidades foram rotuladas incorretamente com um número de série de 2018, levando a confusões sobre sua data de fabricação. O recall expandido agora abrange aproximadamente 3.600 unidades adicionais com configurações específicas e números de série das bobinas. Os consumidores devem verificar os números de série para ver se suas unidades estão afetadas.",
+          "ConsumerContact": "Para assistência, os consumidores podem entrar em contato com a DCT gratuitamente pelo telefone 888-520-0579 das 7h às 18h CT, de segunda a sexta-feira, ou visitar www.recallrtr.com/drainpan ou www.goodmanmfg.com e selecionar \"RECALL DE PRODUTO\" para mais detalhes.",
+          "metaDescription": "A Daikin Comfort Technologies faz recall de bandejas de drenagem de bobinas evaporadoras devido a riscos de incêndio. Verifique o número de série da sua unidade para segurança.",
+          "Products": [
+            {
+              "Name": "Bandejas de Drenagem de Bobinas Evaporadoras",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 3.600 unidades adicionais (Além disso, cerca de 12 foram vendidas no Canadá) (298.300 bandejas de drenagem de bobinas evaporadoras e 44.000 no Canadá foram anteriormente recalladas em novembro de 2021 e em julho de 2022)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Configurações de fornos para bandejas de drenagem de bobinas evaporadoras recalladas mostrando uma configuração de bobina de fluxo ascendente"
+            },
+            {
+              "Caption": "Bandejas de drenagem de bobinas evaporadoras recalladas instaladas com fornos a gás de condensação (tubo branco) ou não condensação (tubo metálico) que não estão em uma configuração de bobina de \"fluxo ascendente\""
+            },
+            {
+              "Caption": "Localização do rótulo mostrando o número de série em bobinas evaporadoras com caixa"
+            },
+            {
+              "Caption": "Localização do rótulo mostrando o número de série em bobinas evaporadoras sem caixa"
+            },
+            {
+              "Caption": "Localização do rótulo do Guia de Energia mostrando a marca e o número do modelo do forno"
+            },
+            {
+              "Caption": "Localização do número do modelo no condensador externo"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "A DCT recebeu um total de 31 relatos de incêndio envolvendo as bandejas de drenagem, incluindo cinco relatos desde que o recall foi reanunciado em julho de 2022. Os incidentes resultaram em um relato de inalação de fumaça e vários relatos de danos significativos por fogo e fumaça em residências."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Vendidas por revendedores independentes de equipamentos de aquecimento e resfriamento em todo o país de janeiro de 2019 a novembro de 2021, com preços entre $200 e $1.200 por unidade."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Daikin Comfort Technologies Manufacturing L.P. (anteriormente Goodman Manufacturing Company L.P.) de Houston, Texas"
+            }
+          ],
+          "SoldAtLabel": "Vendidas Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "Estados Unidos"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risco de incêndio devido ao superaquecimento e deformação da bandeja de drenagem de plástico moldado"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Entre em contato com a DCT para verificar se sua unidade está recallada e para agendar um reparo gratuito por um técnico qualificado."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparo"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "डाइकिन कंफर्ट टेक्नोलॉजीज ने आग के खतरे के कारण वाष्पीकरण कॉइल ड्रेन पैन की रिकॉल का विस्तार किया",
+          "Description": "डाइकिन कंफर्ट टेक्नोलॉजीज मैन्युफैक्चरिंग (पूर्व में गुडमैन मैन्युफैक्चरिंग कंपनी एल.पी.) ने वाष्पीकरण कॉइल ड्रेन पैन की अपनी रिकॉल का विस्तार किया है ताकि जनवरी 2019 से फरवरी 2020 के बीच निर्मित अतिरिक्त इकाइयों को शामिल किया जा सके। इन इकाइयों को गलती से 2018 के सीरियल नंबर के साथ लेबल किया गया था, जिससे उनके निर्माण की तारीख के बारे में भ्रम उत्पन्न हुआ। विस्तारित रिकॉल अब लगभग 3,600 और इकाइयों को शामिल करता है जिनमें विशिष्ट कॉन्फ़िगरेशन और कॉइल सीरियल नंबर हैं। उपभोक्ताओं को यह देखने के लिए सीरियल नंबर की जांच करनी चाहिए कि क्या उनकी इकाइयाँ प्रभावित हैं।",
+          "ConsumerContact": "सहायता के लिए, उपभोक्ता DCT से 888-520-0579 पर सुबह 7 बजे से शाम 6 बजे CT, सोमवार से शुक्रवार तक संपर्क कर सकते हैं, या www.recallrtr.com/drainpan या www.goodmanmfg.com पर जाकर \"PRODUCT RECALL\" चुन सकते हैं और अधिक विवरण के लिए।",
+          "metaDescription": "डाइकिन कंफर्ट टेक्नोलॉजीज आग के खतरों के कारण वाष्पीकरण कॉइल ड्रेन पैन की रिकॉल करता है। सुरक्षा के लिए अपनी इकाई के सीरियल नंबर की जांच करें।",
+          "Products": [
+            {
+              "Name": "वाष्पीकरण कॉइल ड्रेन पैन",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 3,600 अतिरिक्त इकाइयाँ (इसके अलावा, लगभग 12 कनाडा में बेची गई थीं) (298,300 वाष्पीकरण कॉइल ड्रेन पैन, और 44,000 कनाडा में, पहले नवंबर 2021 और जुलाई 2022 में रिकॉल किए गए थे)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "रिकॉल किए गए वाष्पीकरण कॉइल ड्रेन पैन के लिए भट्टी कॉन्फ़िगरेशन जो अप-फ्लो कॉइल कॉन्फ़िगरेशन दिखा रहा है"
+            },
+            {
+              "Caption": "रिकॉल किए गए वाष्पीकरण कॉइल ड्रेन पैन जो संकुचन (सफेद पाइप) या गैर-संकुचन (धातु पाइप) गैस भट्टियों के साथ स्थापित हैं जो \"अप-फ्लो\" कॉइल कॉन्फ़िगरेशन में नहीं हैं"
+            },
+            {
+              "Caption": "कवर्ड वाष्पीकरण कॉइल पर सीरियल नंबर दिखाने वाला लेबल का स्थान"
+            },
+            {
+              "Caption": "अनकवर्ड वाष्पीकरण कॉइल पर सीरियल नंबर दिखाने वाला लेबल का स्थान"
+            },
+            {
+              "Caption": "भट्टी के ब्रांड और मॉडल नंबर को दिखाने वाला ऊर्जा गाइड लेबल का स्थान"
+            },
+            {
+              "Caption": "आउटडोर कंडेंसर पर मॉडल नंबर का स्थान"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "DCT को ड्रेन पैन से संबंधित आग की कुल 31 रिपोर्ट मिली हैं, जिसमें जुलाई 2022 में पुनः घोषित होने के बाद से पांच रिपोर्ट शामिल हैं। इन घटनाओं के परिणामस्वरूप एक धुएं के इनहलेशन की रिपोर्ट और निवासों को महत्वपूर्ण आग और धुएं के नुकसान की कई रिपोर्ट मिली हैं।"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "स्वतंत्र हीटिंग और कूलिंग उपकरण डीलरों द्वारा जनवरी 2019 से नवंबर 2021 तक बेचा गया, प्रति इकाई $200 से $1,200 के बीच की कीमत पर।"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "डाइकिन कंफर्ट टेक्नोलॉजीज मैन्युफैक्चरिंग एल.पी. (पूर्व में गुडमैन मैन्युफैक्चरिंग कंपनी एल.पी.) ह्यूस्टन, टेक्सास"
+            }
+          ],
+          "SoldAtLabel": "बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "संयुक्त राज्य अमेरिका"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "ओवरहीटिंग और मोल्डेड प्लास्टिक ड्रेन पैन के विकृति के कारण आग का खतरा"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "DCT से संपर्क करें यह जांचने के लिए कि क्या आपकी इकाई रिकॉल की गई है और एक योग्य तकनीशियन द्वारा मुफ्त मरम्मत की व्यवस्था करें।"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "मरम्मत"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "Daikin Comfort Technologies расширяет отзыв дренажных поддонов испарительных катушек из-за опасности возгорания",
+          "Description": "Daikin Comfort Technologies Manufacturing (ранее Goodman Manufacturing Company L.P.) расширила свой отзыв дренажных поддонов испарительных катушек, чтобы включить дополнительные единицы, произведенные с января 2019 года по февраль 2020 года. Эти единицы были ошибочно помечены серийным номером 2018 года, что привело к путанице относительно даты их производства. Расширенный отзыв теперь охватывает примерно 3,600 дополнительных единиц с конкретными конфигурациями и серийными номерами катушек. Потребители должны проверить серийные номера, чтобы узнать, затрагиваются ли их единицы.",
+          "ConsumerContact": "Для получения помощи потребители могут обратиться в DCT по бесплатному номеру 888-520-0579 с 7:00 до 18:00 по центральному времени, с понедельника по пятницу, или посетить www.recallrtr.com/drainpan или www.goodmanmfg.com и выбрать \"ОТЗЫВ ПРОДУКТА\" для получения дополнительных сведений.",
+          "metaDescription": "Daikin Comfort Technologies отзывает дренажные поддоны испарительных катушек из-за рисков возгорания. Проверьте серийный номер вашей единицы для безопасности.",
+          "Products": [
+            {
+              "Name": "Дренажные поддоны испарительных катушек",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 3,600 дополнительных единиц (Кроме того, около 12 были проданы в Канаде) (298,300 дренажных поддонов испарительных катушек и 44,000 в Канаде были ранее отозваны в ноябре 2021 года и в июле 2022 года)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Конфигурации печей для отозванных дренажных поддонов испарительных катушек, показывающие конфигурацию катушки с подъемным потоком"
+            },
+            {
+              "Caption": "Отозванные дренажные поддоны испарительных катушек, установленные с конденсационными (белая труба) или неконденсационными (металлическая труба) газовыми печами, которые не находятся в конфигурации \"с подъемным потоком\""
+            },
+            {
+              "Caption": "Место расположения ярлыка с серийным номером на корпусных испарительных катушках"
+            },
+            {
+              "Caption": "Место расположения ярлыка с серийным номером на бескорпусных испарительных катушках"
+            },
+            {
+              "Caption": "Место расположения ярлыка Energy Guide с указанием марки и номера модели печи"
+            },
+            {
+              "Caption": "Место расположения номера модели на наружном конденсаторе"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "DCT получила в общей сложности 31 отчет о возгорании, связанном с дренажными поддонами, включая пять отчетов с момента повторного объявления отзыва в июле 2022 года. Инциденты привели к одному зарегистрированному случаю вдыхания дыма и нескольким отчетам о значительном ущербе от огня и дыма для жилых помещений."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Продавалось независимыми дилерами оборудования для отопления и охлаждения по всей стране с января 2019 года по ноябрь 2021 года, цена варьировалась от 200 до 1,200 долларов за единицу."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Daikin Comfort Technologies Manufacturing L.P. (ранее Goodman Manufacturing Company L.P.) из Хьюстона, штат Техас"
+            }
+          ],
+          "SoldAtLabel": "Продавалось в",
+          "ManufacturerCountries": [
+            {
+              "Country": "Соединенные Штаты"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Опасность возгорания из-за перегрева и деформации формованного пластикового дренажного поддона"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Свяжитесь с DCT, чтобы проверить, отозвана ли ваша единица, и организовать бесплатный ремонт квалифицированным специалистом."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Ремонт"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "Daikin Comfort Technologies Mở Rộng Lệnh Thu Hồi Các Khay Thoát Nước Cuộn Bay Hơi Do Nguy Cơ Cháy",
+          "Description": "Daikin Comfort Technologies Manufacturing (trước đây là Công Ty Sản Xuất Goodman L.P.) đã mở rộng lệnh thu hồi các khay thoát nước cuộn bay hơi để bao gồm thêm các đơn vị được sản xuất từ tháng 1 năm 2019 đến tháng 2 năm 2020. Những đơn vị này đã bị dán nhãn nhầm với số sê-ri năm 2018, dẫn đến sự nhầm lẫn về ngày sản xuất của chúng. Lệnh thu hồi mở rộng hiện bao gồm khoảng 3,600 đơn vị nữa với các cấu hình và số sê-ri cuộn cụ thể. Người tiêu dùng nên kiểm tra số sê-ri để xem liệu đơn vị của họ có bị ảnh hưởng hay không.",
+          "ConsumerContact": "Để được hỗ trợ, người tiêu dùng có thể liên hệ với DCT qua số điện thoại miễn phí 888-520-0579 từ 7 giờ sáng đến 6 giờ chiều CT, từ thứ Hai đến thứ Sáu, hoặc truy cập www.recallrtr.com/drainpan hoặc www.goodmanmfg.com và chọn \"SẢN PHẨM THU HỒI\" để biết thêm chi tiết.",
+          "metaDescription": "Daikin Comfort Technologies thu hồi các khay thoát nước cuộn bay hơi do nguy cơ cháy. Kiểm tra số sê-ri của đơn vị bạn để đảm bảo an toàn.",
+          "Products": [
+            {
+              "Name": "Khay Thoát Nước Cuộn Bay Hơi",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 3,600 đơn vị bổ sung (Ngoài ra, khoảng 12 đơn vị đã được bán ở Canada) (298,300 khay thoát nước cuộn bay hơi, và 44,000 ở Canada, đã được thu hồi trước đó vào tháng 11 năm 2021 và tháng 7 năm 2022)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Cấu hình lò cho các khay thoát nước cuộn bay hơi bị thu hồi cho thấy cấu hình cuộn lên"
+            },
+            {
+              "Caption": "Các khay thoát nước cuộn bay hơi bị thu hồi được lắp đặt với lò khí đốt ngưng tụ (ống trắng) hoặc không ngưng tụ (ống kim loại) không có cấu hình cuộn lên"
+            },
+            {
+              "Caption": "Vị trí nhãn cho thấy số sê-ri trên các cuộn bay hơi có vỏ"
+            },
+            {
+              "Caption": "Vị trí nhãn cho thấy số sê-ri trên các cuộn bay hơi không có vỏ"
+            },
+            {
+              "Caption": "Vị trí nhãn Hướng Dẫn Năng Lượng cho thấy thương hiệu và số hiệu mô hình của lò"
+            },
+            {
+              "Caption": "Vị trí số mô hình trên bộ ngưng tụ ngoài trời"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "DCT đã nhận tổng cộng 31 báo cáo về cháy liên quan đến các khay thoát nước, bao gồm năm báo cáo kể từ khi lệnh thu hồi được công bố lại vào tháng 7 năm 2022. Các sự cố đã dẫn đến một báo cáo về hít phải khói và một số báo cáo về thiệt hại đáng kể do cháy và khói đối với các hộ gia đình."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Được bán bởi các đại lý thiết bị sưởi ấm và làm mát độc lập trên toàn quốc từ tháng 1 năm 2019 đến tháng 11 năm 2021, có giá từ 200 đến 1,200 đô la mỗi đơn vị."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Daikin Comfort Technologies Manufacturing L.P. (trước đây là Công Ty Sản Xuất Goodman L.P.) tại Houston, Texas"
+            }
+          ],
+          "SoldAtLabel": "Được Bán Tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Hoa Kỳ"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Nguy cơ cháy do quá nhiệt và biến dạng của khay thoát nước nhựa ép"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Liên hệ với DCT để kiểm tra xem đơn vị của bạn có bị thu hồi hay không và sắp xếp sửa chữa miễn phí bởi một kỹ thuật viên đủ điều kiện."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Sửa chữa"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    }
+  ]
+}

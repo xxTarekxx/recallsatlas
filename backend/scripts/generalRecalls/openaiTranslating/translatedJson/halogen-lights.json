@@ -1,0 +1,795 @@
+{
+  "meta": {
+    "slug": "halogen-lights",
+    "sourceCsvFile": "halogen-lights_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:36.953Z",
+    "recallCount": 1,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "halogen-lights.json",
+    "seoTranslatedAt": "2026-04-04T04:10:59.123Z",
+    "resumePartial": false,
+    "i18nSource": "generalRecallsTranslated",
+    "i18nSourceFile": "halogen-lights.json",
+    "i18nUiLangs": [
+      "en",
+      "es",
+      "ar",
+      "zh",
+      "fr",
+      "de",
+      "ja",
+      "pt",
+      "hi",
+      "ru",
+      "vi"
+    ],
+    "i18nProgressByLang": {
+      "es": 1,
+      "ar": 1,
+      "zh": 1,
+      "fr": 1,
+      "de": 1,
+      "ja": 1,
+      "pt": 1,
+      "hi": 1,
+      "ru": 1,
+      "vi": 1
+    },
+    "i18nInProgress": false,
+    "i18nTranslatedAt": "2026-04-07T08:59:12.311Z",
+    "i18nOpenaiModel": "gpt-4o-mini"
+  },
+  "recalls": [
+    {
+      "RecallID": 10648,
+      "RecallNumber": "26305",
+      "RecallDate": "2026-02-26T00:00:00",
+      "Description": "SumDirect has issued a recall for its LED mini lights due to a significant safety risk. These lights, designed for decoration, feature a rotating design and a hanging loop, and come equipped with three LR41 button cell batteries that are easily accessible. This poses a danger to children, as ingestion of these batteries can lead to severe injuries or even death. The product fails to meet safety standards outlined by Reese's Law, which requires proper warnings for items containing such batteries.",
+      "URL": "https://www.cpsc.gov/Recalls/2026/SumDirect-LED-Mini-Lights-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violates-Mandatory-Standard-for-Consumer-Products-with-Button-Cell-Batteries",
+      "Title": "Recall of SumDirect LED Mini Lights Due to Serious Injury Risk from Accessible Batteries",
+      "ConsumerContact": "For more information, consumers should contact SumDirect via email at recall@dgfuxin.cn or visit www.SumDirect.cn and select the Refund & Exchange option.",
+      "LastPublishDate": "2026-02-27T00:00:00",
+      "Products": [
+        {
+          "Name": "SumDirect LED Mini Lights",
+          "NumberOfUnits": "About 1,600"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/halogen-lights/1-SumDirect-LED-Mini-Lights/4e3f1273e11a37f1d26e74b133d05ce4.webp",
+          "Caption": "Recalled SumDirect LED Mini Blinking Lights",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/RecalledSumDirectLEDMiniBlinkingLights.png"
+        },
+        {
+          "URL": "/images/generalRecalls/halogen-lights/1-SumDirect-LED-Mini-Lights/a645e2e3696c94288eb16177d52005c4.webp",
+          "Caption": "Each of the 24 multicolored, blinking lights includes three preinstalled LR41 button cell batteries",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/LR41 button cell batteries..png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available for purchase on Amazon.com from January 2016 until November 2025, priced around $23."
+        }
+      ],
+      "Distributors": [
+        {
+          "Name": "Dongguan Fuxin E-Commerce Co., Ltd., dba SumDirect, of China"
+        }
+      ],
+      "SoldAtLabel": "Sold Online At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Ingestion hazard due to accessible button cell batteries, violating safety standards."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Stop using the lights, keep them away from children, and contact SumDirect for a refund."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "slug": "recall-of-sumdirect-led-mini-lights-due-to-serious-injury-risk-from-accessible-batteries-recall",
+      "metaDescription": "SumDirect recalls LED mini lights due to serious ingestion risks from accessible batteries. Learn how to get a refund and ensure safety.",
+      "languages": {
+        "en": {
+          "Title": "Recall of SumDirect LED Mini Lights Due to Serious Injury Risk from Accessible Batteries",
+          "Description": "SumDirect has issued a recall for its LED mini lights due to a significant safety risk. These lights, designed for decoration, feature a rotating design and a hanging loop, and come equipped with three LR41 button cell batteries that are easily accessible. This poses a danger to children, as ingestion of these batteries can lead to severe injuries or even death. The product fails to meet safety standards outlined by Reese's Law, which requires proper warnings for items containing such batteries.",
+          "ConsumerContact": "For more information, consumers should contact SumDirect via email at recall@dgfuxin.cn or visit www.SumDirect.cn and select the Refund & Exchange option.",
+          "metaDescription": "SumDirect recalls LED mini lights due to serious ingestion risks from accessible batteries. Learn how to get a refund and ensure safety.",
+          "Products": [
+            {
+              "Name": "SumDirect LED Mini Lights",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 1,600"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled SumDirect LED Mini Blinking Lights"
+            },
+            {
+              "Caption": "Each of the 24 multicolored, blinking lights includes three preinstalled LR41 button cell batteries"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "None reported"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Available for purchase on Amazon.com from January 2016 until November 2025, priced around $23."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Dongguan Fuxin E-Commerce Co., Ltd., dba SumDirect, of China"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Sold Online At",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Ingestion hazard due to accessible button cell batteries, violating safety standards."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Stop using the lights, keep them away from children, and contact SumDirect for a refund."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Refund"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "Retiro de luces LED mini SumDirect debido a un riesgo grave de lesiones por baterías accesibles",
+          "Description": "SumDirect ha emitido un retiro para sus luces LED mini debido a un riesgo de seguridad significativo. Estas luces, diseñadas para decoración, cuentan con un diseño giratorio y un lazo para colgar, y vienen equipadas con tres baterías de botón LR41 que son fácilmente accesibles. Esto representa un peligro para los niños, ya que la ingestión de estas baterías puede llevar a lesiones graves o incluso a la muerte. El producto no cumple con los estándares de seguridad establecidos por la Ley de Reese, que requiere advertencias adecuadas para artículos que contienen tales baterías.",
+          "ConsumerContact": "Para más información, los consumidores deben contactar a SumDirect por correo electrónico a recall@dgfuxin.cn o visitar www.SumDirect.cn y seleccionar la opción de Reembolso y Cambio.",
+          "metaDescription": "SumDirect retira luces LED mini debido a graves riesgos de ingestión por baterías accesibles. Aprenda cómo obtener un reembolso y garantizar la seguridad.",
+          "Products": [
+            {
+              "Name": "Luces LED Mini SumDirect",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 1,600"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Luces LED Mini parpadeantes SumDirect retiradas"
+            },
+            {
+              "Caption": "Cada una de las 24 luces parpadeantes multicolores incluye tres baterías de botón LR41 preinstaladas"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Ninguna reportada"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponibles para compra en Amazon.com desde enero de 2016 hasta noviembre de 2025, con un precio alrededor de $23."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Dongguan Fuxin E-Commerce Co., Ltd., dba SumDirect, de China"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendidos en línea en",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Peligro de ingestión debido a baterías de botón accesibles, violando estándares de seguridad."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Deje de usar las luces, manténgalas alejadas de los niños y contacte a SumDirect para un reembolso."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reembolso"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "استدعاء مصابيح LED الصغيرة من SumDirect بسبب خطر الإصابة الجسيمة من البطاريات القابلة للوصول",
+          "Description": "أصدرت SumDirect استدعاء لمصابيحها LED الصغيرة بسبب خطر سلامة كبير. هذه المصابيح، المصممة للزينة، تتميز بتصميم دوار وحلقة تعليق، وتأتي مزودة بثلاث بطاريات زر LR41 قابلة للوصول بسهولة. هذا يشكل خطرًا على الأطفال، حيث يمكن أن يؤدي ابتلاع هذه البطاريات إلى إصابات خطيرة أو حتى الموت. المنتج لا يفي بمعايير السلامة الموضحة في قانون ريس، الذي يتطلب تحذيرات مناسبة للعناصر التي تحتوي على مثل هذه البطاريات.",
+          "ConsumerContact": "لمزيد من المعلومات، يجب على المستهلكين الاتصال بـ SumDirect عبر البريد الإلكتروني على recall@dgfuxin.cn أو زيارة www.SumDirect.cn واختيار خيار الاسترداد والتبادل.",
+          "metaDescription": "تستدعي SumDirect مصابيح LED الصغيرة بسبب مخاطر الابتلاع الجسيمة من البطاريات القابلة للوصول. تعلم كيفية الحصول على استرداد وضمان السلامة.",
+          "Products": [
+            {
+              "Name": "مصابيح LED الصغيرة من SumDirect",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 1,600"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "مصابيح SumDirect LED الصغيرة التي تم استدعاؤها"
+            },
+            {
+              "Caption": "كل واحدة من 24 مصباحًا ملونًا ووميضًا تتضمن ثلاث بطاريات زر LR41 مثبتة مسبقًا"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "لا توجد إصابات تم الإبلاغ عنها"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "متاحة للشراء على Amazon.com من يناير 2016 حتى نوفمبر 2025، بسعر حوالي 23 دولارًا."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "شركة Dongguan Fuxin للتجارة الإلكترونية، المعروفة باسم SumDirect، من الصين"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "تباع عبر الإنترنت في",
+          "ManufacturerCountries": [
+            {
+              "Country": "الصين"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "خطر الابتلاع بسبب البطاريات القابلة للوصول، مما ينتهك معايير السلامة."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "توقف عن استخدام المصابيح، ابقها بعيدًا عن الأطفال، واتصل بـ SumDirect للحصول على استرداد."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "استرداد"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "因可接触电池造成严重伤害风险而召回SumDirect LED迷你灯",
+          "Description": "SumDirect因其LED迷你灯存在重大安全风险而发起召回。这些灯具设计用于装饰，具有旋转设计和悬挂环，并配备三颗易于接触的LR41扣式电池。这对儿童构成危险，因为吞食这些电池可能导致严重伤害甚至死亡。该产品未能符合Reese法案所规定的安全标准，该法案要求对含有此类电池的物品提供适当警告。",
+          "ConsumerContact": "如需更多信息，消费者应通过电子邮件联系SumDirect，邮箱为recall@dgfuxin.cn，或访问www.SumDirect.cn并选择退款与换货选项。",
+          "metaDescription": "SumDirect因可接触电池造成严重吞食风险而召回LED迷你灯。了解如何申请退款并确保安全。",
+          "Products": [
+            {
+              "Name": "SumDirect LED迷你灯",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约1,600个"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "召回的SumDirect LED迷你闪烁灯"
+            },
+            {
+              "Caption": "每个24个多色闪烁灯包括三颗预装的LR41扣式电池"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "无报告伤害"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "自2016年1月起至2025年11月在Amazon.com上可购买，价格约为23美元。"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "中国东莞富鑫电子商务有限公司，经营名称SumDirect"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "在线销售于",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "因可接触的扣式电池而导致的吞食危险，违反安全标准。"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "停止使用灯具，远离儿童，并联系SumDirect申请退款。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "退款"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "Rappel des lumières mini LED SumDirect en raison d'un risque de blessure grave lié aux batteries accessibles",
+          "Description": "SumDirect a émis un rappel pour ses lumières mini LED en raison d'un risque de sécurité significatif. Ces lumières, conçues pour la décoration, présentent un design rotatif et une boucle de suspension, et sont équipées de trois piles bouton LR41 facilement accessibles. Cela représente un danger pour les enfants, car l'ingestion de ces batteries peut entraîner des blessures graves, voire la mort. Le produit ne respecte pas les normes de sécurité énoncées par la loi de Reese, qui exige des avertissements appropriés pour les articles contenant de telles batteries.",
+          "ConsumerContact": "Pour plus d'informations, les consommateurs doivent contacter SumDirect par e-mail à recall@dgfuxin.cn ou visiter www.SumDirect.cn et sélectionner l'option Remboursement & Échange.",
+          "metaDescription": "SumDirect rappelle des lumières mini LED en raison de risques graves d'ingestion liés aux batteries accessibles. Apprenez comment obtenir un remboursement et garantir la sécurité.",
+          "Products": [
+            {
+              "Name": "Lumières mini LED SumDirect",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 1 600"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Lumières clignotantes mini LED SumDirect rappelées"
+            },
+            {
+              "Caption": "Chacune des 24 lumières clignotantes multicolores comprend trois piles bouton LR41 préinstallées"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Aucune signalée"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible à l'achat sur Amazon.com de janvier 2016 à novembre 2025, au prix d'environ 23 $."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Dongguan Fuxin E-Commerce Co., Ltd., faisant affaire sous le nom de SumDirect, en Chine"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendu en ligne sur",
+          "ManufacturerCountries": [
+            {
+              "Country": "Chine"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risque d'ingestion en raison de batteries bouton accessibles, violant les normes de sécurité."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Cesser d'utiliser les lumières, les tenir éloignées des enfants et contacter SumDirect pour un remboursement."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Remboursement"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "Rückruf von SumDirect LED Mini Lichtern aufgrund eines ernsthaften Verletzungsrisikos durch zugängliche Batterien",
+          "Description": "SumDirect hat einen Rückruf für seine LED Mini Lichter aufgrund eines erheblichen Sicherheitsrisikos herausgegeben. Diese Lichter, die für Dekorationszwecke entworfen wurden, verfügen über ein rotierendes Design und eine Aufhängeschlaufe und sind mit drei leicht zugänglichen LR41 Knopfzellenbatterien ausgestattet. Dies stellt eine Gefahr für Kinder dar, da das Verschlucken dieser Batterien zu schweren Verletzungen oder sogar zum Tod führen kann. Das Produkt erfüllt nicht die Sicherheitsstandards, die im Reese's Gesetz festgelegt sind, welches ordnungsgemäße Warnungen für Artikel mit solchen Batterien erfordert.",
+          "ConsumerContact": "Für weitere Informationen sollten sich die Verbraucher per E-Mail an SumDirect unter recall@dgfuxin.cn wenden oder www.SumDirect.cn besuchen und die Option Rückerstattung & Umtausch auswählen.",
+          "metaDescription": "SumDirect ruft LED Mini Lichter aufgrund ernsthafter Verschluckungsrisiken durch zugängliche Batterien zurück. Erfahren Sie, wie Sie eine Rückerstattung erhalten und die Sicherheit gewährleisten können.",
+          "Products": [
+            {
+              "Name": "SumDirect LED Mini Lichter",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 1.600"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Rückgerufene SumDirect LED Mini Blinklichter"
+            },
+            {
+              "Caption": "Jedes der 24 mehrfarbigen Blinklichter enthält drei vorinstallierte LR41 Knopfzellenbatterien"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Keine gemeldet"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Erhältlich zum Kauf auf Amazon.com von Januar 2016 bis November 2025, Preis etwa 23 $."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Dongguan Fuxin E-Commerce Co., Ltd., dba SumDirect, aus China"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Online verkauft bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Verschluckungsgefahr aufgrund zugänglicher Knopfzellenbatterien, die Sicherheitsstandards verletzen."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Hören Sie auf, die Lichter zu verwenden, halten Sie sie von Kindern fern und kontaktieren Sie SumDirect für eine Rückerstattung."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Rückerstattung"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "SumDirectのLEDミニライトのリコール - アクセス可能なバッテリーによる重大な怪我のリスク",
+          "Description": "SumDirectは、重大な安全リスクのためにLEDミニライトのリコールを発表しました。これらのライトは装飾用に設計されており、回転デザインと吊り下げループを特徴とし、簡単にアクセスできる3つのLR41ボタン電池が装備されています。これは子供にとって危険であり、これらのバッテリーを摂取すると重傷や死亡につながる可能性があります。この製品は、こうしたバッテリーを含むアイテムに適切な警告を求めるReeseの法律に定められた安全基準を満たしていません。",
+          "ConsumerContact": "詳細については、消費者はrecall@dgfuxin.cnまでメールでSumDirectに連絡するか、www.SumDirect.cnを訪れて「返金・交換」オプションを選択してください。",
+          "metaDescription": "SumDirectは、アクセス可能なバッテリーによる深刻な摂取リスクのためにLEDミニライトをリコールします。返金を受け取る方法と安全を確保する方法を学びましょう。",
+          "Products": [
+            {
+              "Name": "SumDirect LEDミニライト",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約1,600"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコールされたSumDirect LEDミニ点滅ライト"
+            },
+            {
+              "Caption": "24個の多色点滅ライトのそれぞれには、3つの事前に取り付けられたLR41ボタン電池が含まれています"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "報告された怪我はなし"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "2016年1月から2025年11月までAmazon.comで購入可能、価格は約$23です。"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "中国のDongguan Fuxin E-Commerce Co., Ltd.（SumDirectとして営業）"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "オンラインで販売",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "アクセス可能なボタン電池による摂取危険、安全基準に違反"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "ライトの使用を中止し、子供から遠ざけ、SumDirectに連絡して返金を受けてください。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "返金"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "Recall das Luzes Mini LED da SumDirect Devido ao Risco de Lesões Graves por Baterias Acessíveis",
+          "Description": "A SumDirect emitiu um recall para suas luzes mini LED devido a um risco significativo à segurança. Essas luzes, projetadas para decoração, possuem um design rotativo e um laço para pendurar, e vêm equipadas com três baterias de botão LR41 que são facilmente acessíveis. Isso representa um perigo para crianças, pois a ingestão dessas baterias pode levar a lesões graves ou até mesmo à morte. O produto não atende aos padrões de segurança estabelecidos pela Lei de Reese, que exige avisos adequados para itens que contêm tais baterias.",
+          "ConsumerContact": "Para mais informações, os consumidores devem entrar em contato com a SumDirect pelo e-mail recall@dgfuxin.cn ou visitar www.SumDirect.cn e selecionar a opção de Reembolso e Troca.",
+          "metaDescription": "A SumDirect faz recall das luzes mini LED devido a sérios riscos de ingestão de baterias acessíveis. Aprenda como obter um reembolso e garantir a segurança.",
+          "Products": [
+            {
+              "Name": "Luzes Mini LED da SumDirect",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 1.600"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Luzes Mini LED da SumDirect em recall"
+            },
+            {
+              "Caption": "Cada uma das 24 luzes piscantes multicoloridas inclui três baterias de botão LR41 pré-instaladas"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Nenhuma relatada"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponível para compra na Amazon.com de janeiro de 2016 até novembro de 2025, com preço em torno de $23."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Dongguan Fuxin E-Commerce Co., Ltd., dba SumDirect, da China"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendido Online Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Perigo de ingestão devido a baterias de botão acessíveis, violando padrões de segurança."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Pare de usar as luzes, mantenha-as longe das crianças e entre em contato com a SumDirect para um reembolso."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reembolso"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "सुमडायरेक्ट एलईडी मिनी लाइट्स की वापसी गंभीर चोट के जोखिम के कारण",
+          "Description": "सुमडायरेक्ट ने अपनी एलईडी मिनी लाइट्स की वापसी की है क्योंकि इनमें एक महत्वपूर्ण सुरक्षा जोखिम है। ये लाइट्स सजावट के लिए डिज़ाइन की गई हैं, जिनमें एक घुमावदार डिज़ाइन और एक लटकने वाला लूप है, और इनमें तीन LR41 बटन सेल बैटरी होती हैं जो आसानी से सुलभ हैं। यह बच्चों के लिए खतरा पैदा करता है, क्योंकि इन बैटरियों का सेवन गंभीर चोटों या यहां तक कि मृत्यु का कारण बन सकता है। यह उत्पाद रीसे के कानून द्वारा निर्धारित सुरक्षा मानकों को पूरा नहीं करता, जो ऐसी बैटरियों वाले सामान के लिए उचित चेतावनियों की आवश्यकता करता है।",
+          "ConsumerContact": "अधिक जानकारी के लिए, उपभोक्ताओं को सुमडायरेक्ट से ईमेल के माध्यम से recall@dgfuxin.cn पर संपर्क करना चाहिए या www.SumDirect.cn पर जाकर रिफंड और एक्सचेंज विकल्प का चयन करना चाहिए।",
+          "metaDescription": "सुमडायरेक्ट ने सुलभ बैटरियों से गंभीर सेवन जोखिम के कारण एलईडी मिनी लाइट्स की वापसी की। जानें कि रिफंड कैसे प्राप्त करें और सुरक्षा सुनिश्चित करें।",
+          "Products": [
+            {
+              "Name": "सुमडायरेक्ट एलईडी मिनी लाइट्स",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 1,600"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "वापसी की गई सुमडायरेक्ट एलईडी मिनी ब्लिंकिंग लाइट्स"
+            },
+            {
+              "Caption": "24 बहुरंगी, ब्लिंकिंग लाइट्स में तीन पूर्व-स्थापित LR41 बटन सेल बैटरी शामिल हैं"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "कोई रिपोर्ट नहीं"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "जनवरी 2016 से नवंबर 2025 तक Amazon.com पर खरीद के लिए उपलब्ध, कीमत लगभग $23।"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "डोंगगुआन फुक्सिन ई-कॉमर्स कं, लिमिटेड, DBA सुमडायरेक्ट, चीन से"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "ऑनलाइन बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "चीन"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "सुलभ बटन सेल बैटरियों के कारण सेवन का खतरा, सुरक्षा मानकों का उल्लंघन।"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "लाइट्स का उपयोग करना बंद करें, उन्हें बच्चों से दूर रखें, और रिफंड के लिए सुमडायरेक्ट से संपर्क करें।"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "रिफंड"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "Отзыв светодиодных мини-ламп SumDirect из-за серьезного риска травм от доступных батареек",
+          "Description": "Компания SumDirect объявила отзыв своих светодиодных мини-ламп из-за значительного риска для безопасности. Эти лампы, предназначенные для декорации, имеют вращающийся дизайн и петлю для подвешивания, а также оснащены тремя кнопочными батарейками LR41, которые легко доступны. Это представляет опасность для детей, так как проглатывание этих батареек может привести к серьезным травмам или даже смерти. Продукт не соответствует стандартам безопасности, изложенным в Законе Риза, который требует надлежащих предупреждений для предметов, содержащих такие батарейки.",
+          "ConsumerContact": "Для получения дополнительной информации потребители могут связаться с SumDirect по электронной почте recall@dgfuxin.cn или посетить www.SumDirect.cn и выбрать опцию Возврат и обмен.",
+          "metaDescription": "SumDirect отзывает светодиодные мини-лампы из-за серьезных рисков проглатывания доступных батареек. Узнайте, как получить возврат и обеспечить безопасность.",
+          "Products": [
+            {
+              "Name": "Светодиодные мини-лампы SumDirect",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 1,600"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванные светодиодные мигающие лампы SumDirect"
+            },
+            {
+              "Caption": "Каждая из 24 многоцветных мигающих ламп включает три предустановленные кнопочные батарейки LR41"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Не сообщалось"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Доступны для покупки на Amazon.com с января 2016 года до ноября 2025 года, цена около 23 долларов."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Dongguan Fuxin E-Commerce Co., Ltd., dba SumDirect, Китай"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Продается онлайн на",
+          "ManufacturerCountries": [
+            {
+              "Country": "Китай"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Опасность проглатывания из-за доступных кнопочных батареек, нарушение стандартов безопасности."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Прекратите использовать лампы, держите их подальше от детей и свяжитесь с SumDirect для получения возврата."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Возврат"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "Thu hồi đèn LED Mini SumDirect do nguy cơ chấn thương nghiêm trọng từ pin có thể tiếp cận",
+          "Description": "SumDirect đã phát động một đợt thu hồi cho đèn LED mini của mình do nguy cơ an toàn đáng kể. Những chiếc đèn này, được thiết kế để trang trí, có thiết kế xoay và vòng treo, và đi kèm với ba pin nút LR41 dễ dàng tiếp cận. Điều này gây nguy hiểm cho trẻ em, vì việc nuốt phải những viên pin này có thể dẫn đến chấn thương nghiêm trọng hoặc thậm chí tử vong. Sản phẩm không đáp ứng các tiêu chuẩn an toàn được nêu trong Luật Reese, yêu cầu cảnh báo thích hợp cho các mặt hàng chứa pin như vậy.",
+          "ConsumerContact": "Để biết thêm thông tin, người tiêu dùng nên liên hệ với SumDirect qua email tại recall@dgfuxin.cn hoặc truy cập www.SumDirect.cn và chọn tùy chọn Hoàn tiền & Đổi hàng.",
+          "metaDescription": "SumDirect thu hồi đèn LED mini do nguy cơ nuốt phải nghiêm trọng từ pin có thể tiếp cận. Tìm hiểu cách nhận hoàn tiền và đảm bảo an toàn.",
+          "Products": [
+            {
+              "Name": "Đèn LED Mini SumDirect",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 1.600"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Đèn LED Mini Nhấp Nháy SumDirect bị thu hồi"
+            },
+            {
+              "Caption": "Mỗi trong số 24 đèn nhấp nháy nhiều màu bao gồm ba pin nút LR41 đã được cài đặt sẵn"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Không có báo cáo"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Có sẵn để mua trên Amazon.com từ tháng 1 năm 2016 đến tháng 11 năm 2025, giá khoảng 23 đô la."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Công ty TNHH Thương mại Điện tử Đông Quan Fuxin, kinh doanh dưới tên SumDirect, của Trung Quốc"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Bán trực tuyến tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Trung Quốc"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Nguy cơ nuốt phải do pin nút có thể tiếp cận, vi phạm các tiêu chuẩn an toàn."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Ngừng sử dụng đèn, giữ chúng xa trẻ em và liên hệ với SumDirect để nhận hoàn tiền."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Hoàn tiền"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    }
+  ]
+}

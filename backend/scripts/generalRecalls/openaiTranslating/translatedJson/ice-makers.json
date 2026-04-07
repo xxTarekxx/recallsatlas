@@ -1,0 +1,1744 @@
+{
+  "meta": {
+    "slug": "ice-makers",
+    "sourceCsvFile": "ice-makers_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:36.975Z",
+    "recallCount": 2,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "ice-makers.json",
+    "seoTranslatedAt": "2026-04-04T05:38:51.719Z",
+    "resumePartial": false,
+    "i18nSource": "generalRecallsTranslated",
+    "i18nSourceFile": "ice-makers.json",
+    "i18nUiLangs": [
+      "en",
+      "es",
+      "ar",
+      "zh",
+      "fr",
+      "de",
+      "ja",
+      "pt",
+      "hi",
+      "ru",
+      "vi"
+    ],
+    "i18nProgressByLang": {
+      "es": 2,
+      "ar": 2,
+      "zh": 2,
+      "fr": 2,
+      "de": 2,
+      "ja": 2,
+      "pt": 2,
+      "hi": 2,
+      "ru": 2,
+      "vi": 2
+    },
+    "i18nInProgress": false,
+    "i18nTranslatedAt": "2026-04-07T11:22:37.170Z",
+    "i18nOpenaiModel": "gpt-4o-mini"
+  },
+  "recalls": [
+    {
+      "RecallID": 10523,
+      "RecallNumber": "26147",
+      "RecallDate": "2025-12-11T00:00:00",
+      "Description": "Sanven Technology is recalling Vevor ice crushing machines due to a significant fire hazard. These machines, marketed as Ice Shavers, Ice Crushers, and Snow Cone Makers, feature a handle that activates a cutter when pressed down to feed ice into a chute. The recalled models, BY-300 and BY-300 FS, are available in yellow, red, silver, and blue, with the brand name and model number labeled on the top of the device.",
+      "URL": "https://www.cpsc.gov/Recalls/2026/Sanven-Technology-Recalls-Vevor-Ice-Crushers-Due-to-Fire-Hazard",
+      "Title": "Sanven Technology Issues Recall for Vevor Ice Crushers Due to Fire Risk",
+      "ConsumerContact": "Consumers are urged to stop using the recalled ice crushers immediately and contact Sanven Technology for a full refund. For assistance, call their toll-free number at 855-599-6320 from 9 a.m. to 5 p.m. PT, Monday through Friday, or email recalling@vevor.com. More details can be found at https://www.vevor.com/pages/vevor-ice-shaver-recall or by visiting www.vevor.com and selecting 'Product Recall.'",
+      "LastPublishDate": "2025-12-11T00:00:00",
+      "Products": [
+        {
+          "Name": "Vevor Ice Crushers",
+          "NumberOfUnits": "About 11,650 (In addition, about 1,060 were sold in Canada)"
+        }
+      ],
+      "Inconjunctions": [
+        {
+          "URL": "https://recalls-rappels.canada.ca/en/alert-recall/vevor-ice-crusher-recalled-due-fire-hazard"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/ice-makers/1-Vevor-Ice-Crushers/9e0c90951cb7c4191649654b9ba8dbc5.webp",
+          "Caption": "Recalled Vevor Ice Crusher, model number BY-300 in yellow (SBY-300FD110V3ZIQV1)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/vevorice-1.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/ice-makers/1-Vevor-Ice-Crushers/83d886fc49247a004af9cf72f29456f1.webp",
+          "Caption": "Recalled Vevor Ice Crusher, model number BY-300 in red (SBY-300FD110VE784V1)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/vevorice-2.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/ice-makers/1-Vevor-Ice-Crushers/07b44be5173940f5ca9d0d7d58fd4f96.webp",
+          "Caption": "Recalled Vevor Ice Crusher, model number BY-300 in silver (SBY-300FD110VLDK1V1)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/vevorice-3.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/ice-makers/1-Vevor-Ice-Crushers/24420c245fc151266d27712532e15f82.webp",
+          "Caption": "Recalled Vevor Ice Crusher, model number BY-300FS in blue (SBJBXS220300WRVKAV1)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/vevorice-4.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/ice-makers/1-Vevor-Ice-Crushers/4c0858b8f5f2a2f35b1b3363f33a684f.webp",
+          "Caption": "Recalled Vevor Ice Crusher, model number BY-300FS in silver (SBJBXS220300WSNSVV1)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/vevorice-5.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/ice-makers/1-Vevor-Ice-Crushers/992be4b99377f1152dd5a36ab9d9f255.webp",
+          "Caption": "Recalled Vevor Ice Crusher, model number BY-300FS in red (SBJBXS220300W1L2RV1)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/vevorice-6.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/ice-makers/1-Vevor-Ice-Crushers/b05f91a2563c608b585e8ed136013787.webp",
+          "Caption": "Label on top of Recalled Vevor Ice Crusher",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/vevorice-7.jpg"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "Sanven has received two reports of thermal events, including one fire."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available online at Vevor.com, Amazon.com, Walmart.com, Wayfair.com, HomeDepot.com, and Lowes.com from July 2021 to July 2025, priced between $40 and $86."
+        }
+      ],
+      "Distributors": [
+        {
+          "Name": "Sanven Technology Ltd., dba Vevor, of Rancho Cucamonga, California"
+        }
+      ],
+      "SoldAtLabel": "Sold Online At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Fire hazard due to potential thermal events"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Stop using the ice crusher and contact Sanven for a full refund. Send a photo of the unplugged ice crusher with the power cord cut in half to recalling@vevor.com."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "Model BY-300",
+        "Model BY-300 FS"
+      ],
+      "slug": "sanven-technology-issues-recall-for-vevor-ice-crushers-due-to-fire-risk-recall",
+      "metaDescription": "Sanven Technology recalls Vevor Ice Crushers due to fire risk. Stop using them and contact for a refund.",
+      "languages": {
+        "en": {
+          "Title": "Sanven Technology Issues Recall for Vevor Ice Crushers Due to Fire Risk",
+          "Description": "Sanven Technology is recalling Vevor ice crushing machines due to a significant fire hazard. These machines, marketed as Ice Shavers, Ice Crushers, and Snow Cone Makers, feature a handle that activates a cutter when pressed down to feed ice into a chute. The recalled models, BY-300 and BY-300 FS, are available in yellow, red, silver, and blue, with the brand name and model number labeled on the top of the device.",
+          "ConsumerContact": "Consumers are urged to stop using the recalled ice crushers immediately and contact Sanven Technology for a full refund. For assistance, call their toll-free number at 855-599-6320 from 9 a.m. to 5 p.m. PT, Monday through Friday, or email recalling@vevor.com. More details can be found at https://www.vevor.com/pages/vevor-ice-shaver-recall or by visiting www.vevor.com and selecting 'Product Recall.'",
+          "metaDescription": "Sanven Technology recalls Vevor Ice Crushers due to fire risk. Stop using them and contact for a refund.",
+          "Products": [
+            {
+              "Name": "Vevor Ice Crushers",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 11,650 (In addition, about 1,060 were sold in Canada)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled Vevor Ice Crusher, model number BY-300 in yellow (SBY-300FD110V3ZIQV1)"
+            },
+            {
+              "Caption": "Recalled Vevor Ice Crusher, model number BY-300 in red (SBY-300FD110VE784V1)"
+            },
+            {
+              "Caption": "Recalled Vevor Ice Crusher, model number BY-300 in silver (SBY-300FD110VLDK1V1)"
+            },
+            {
+              "Caption": "Recalled Vevor Ice Crusher, model number BY-300FS in blue (SBJBXS220300WRVKAV1)"
+            },
+            {
+              "Caption": "Recalled Vevor Ice Crusher, model number BY-300FS in silver (SBJBXS220300WSNSVV1)"
+            },
+            {
+              "Caption": "Recalled Vevor Ice Crusher, model number BY-300FS in red (SBJBXS220300W1L2RV1)"
+            },
+            {
+              "Caption": "Label on top of Recalled Vevor Ice Crusher"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Sanven has received two reports of thermal events, including one fire."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Available online at Vevor.com, Amazon.com, Walmart.com, Wayfair.com, HomeDepot.com, and Lowes.com from July 2021 to July 2025, priced between $40 and $86."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Sanven Technology Ltd., dba Vevor, of Rancho Cucamonga, California"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Sold Online At",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Fire hazard due to potential thermal events"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Stop using the ice crusher and contact Sanven for a full refund. Send a photo of the unplugged ice crusher with the power cord cut in half to recalling@vevor.com."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Refund"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "Sanven Technology Emite un Recall para las Trituradoras de Hielo Vevor Debido al Riesgo de Incendio",
+          "Description": "Sanven Technology está retirando del mercado las máquinas trituradoras de hielo Vevor debido a un riesgo significativo de incendio. Estas máquinas, comercializadas como Raspadores de Hielo, Trituradoras de Hielo y Fabricantes de Conos de Nieve, cuentan con un mango que activa un cortador al presionarlo hacia abajo para alimentar hielo en una tolva. Los modelos retirados, BY-300 y BY-300 FS, están disponibles en amarillo, rojo, plata y azul, con el nombre de la marca y el número de modelo etiquetados en la parte superior del dispositivo.",
+          "ConsumerContact": "Se insta a los consumidores a dejar de usar las trituradoras de hielo retiradas de inmediato y contactar a Sanven Technology para obtener un reembolso completo. Para asistencia, llame a su número gratuito al 855-599-6320 de 9 a.m. a 5 p.m. PT, de lunes a viernes, o envíe un correo electrónico a recalling@vevor.com. Más detalles se pueden encontrar en https://www.vevor.com/pages/vevor-ice-shaver-recall o visitando www.vevor.com y seleccionando 'Retiro de Producto.'",
+          "metaDescription": "Sanven Technology retira las Trituradoras de Hielo Vevor debido al riesgo de incendio. Deje de usarlas y contacte para un reembolso.",
+          "Products": [
+            {
+              "Name": "Trituradoras de Hielo Vevor",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 11,650 (Además, se vendieron aproximadamente 1,060 en Canadá)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Trituradora de Hielo Vevor retirada, número de modelo BY-300 en amarillo (SBY-300FD110V3ZIQV1)"
+            },
+            {
+              "Caption": "Trituradora de Hielo Vevor retirada, número de modelo BY-300 en rojo (SBY-300FD110VE784V1)"
+            },
+            {
+              "Caption": "Trituradora de Hielo Vevor retirada, número de modelo BY-300 en plata (SBY-300FD110VLDK1V1)"
+            },
+            {
+              "Caption": "Trituradora de Hielo Vevor retirada, número de modelo BY-300FS en azul (SBJBXS220300WRVKAV1)"
+            },
+            {
+              "Caption": "Trituradora de Hielo Vevor retirada, número de modelo BY-300FS en plata (SBJBXS220300WSNSVV1)"
+            },
+            {
+              "Caption": "Trituradora de Hielo Vevor retirada, número de modelo BY-300FS en rojo (SBJBXS220300W1L2RV1)"
+            },
+            {
+              "Caption": "Etiqueta en la parte superior de la Trituradora de Hielo Vevor retirada"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Sanven ha recibido dos informes de eventos térmicos, incluyendo un incendio."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible en línea en Vevor.com, Amazon.com, Walmart.com, Wayfair.com, HomeDepot.com y Lowes.com desde julio de 2021 hasta julio de 2025, con precios entre $40 y $86."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Sanven Technology Ltd., dba Vevor, de Rancho Cucamonga, California"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendidos en Línea En",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Riesgo de incendio debido a posibles eventos térmicos"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Deje de usar la trituradora de hielo y contacte a Sanven para un reembolso completo. Envíe una foto de la trituradora de hielo desenchufada con el cable de alimentación cortado por la mitad a recalling@vevor.com."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reembolso"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "تكنولوجيا سانفين تصدر استدعاء لمكابس الثلج في فيفور بسبب خطر الحريق",
+          "Description": "تقوم تكنولوجيا سانفين باستدعاء آلات سحق الثلج في فيفور بسبب خطر حريق كبير. هذه الآلات، التي تُسوَّق كآلات حلاقة الثلج، مكابس الثلج، وصانعي كرات الثلج، تحتوي على مقبض يقوم بتفعيل القاطع عند الضغط عليه لإدخال الثلج في القناة. الطرازات المستدعاة، BY-300 و BY-300 FS، متاحة بالألوان الأصفر، الأحمر، الفضي، والأزرق، مع اسم العلامة التجارية ورقم الطراز مدونين على الجزء العلوي من الجهاز.",
+          "ConsumerContact": "يُحث المستهلكون على التوقف عن استخدام مكابس الثلج المستدعاة على الفور والتواصل مع تكنولوجيا سانفين للحصول على استرداد كامل. للحصول على المساعدة، اتصل برقمهم المجاني على 855-599-6320 من الساعة 9 صباحًا حتى 5 مساءً بتوقيت المحيط الهادئ، من الاثنين إلى الجمعة، أو أرسل بريدًا إلكترونيًا إلى recalling@vevor.com. يمكن العثور على مزيد من التفاصيل على https://www.vevor.com/pages/vevor-ice-shaver-recall أو بزيارة www.vevor.com واختيار 'استدعاء المنتج.'",
+          "metaDescription": "تقوم تكنولوجيا سانفين باستدعاء مكابس الثلج في فيفور بسبب خطر الحريق. توقف عن استخدامها وتواصل للحصول على استرداد.",
+          "Products": [
+            {
+              "Name": "مكابس الثلج في فيفور",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 11,650 (بالإضافة إلى ذلك، تم بيع حوالي 1,060 في كندا)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "مكبس الثلج في فيفور المستدعى، رقم الطراز BY-300 باللون الأصفر (SBY-300FD110V3ZIQV1)"
+            },
+            {
+              "Caption": "مكبس الثلج في فيفور المستدعى، رقم الطراز BY-300 باللون الأحمر (SBY-300FD110VE784V1)"
+            },
+            {
+              "Caption": "مكبس الثلج في فيفور المستدعى، رقم الطراز BY-300 باللون الفضي (SBY-300FD110VLDK1V1)"
+            },
+            {
+              "Caption": "مكبس الثلج في فيفور المستدعى، رقم الطراز BY-300FS باللون الأزرق (SBJBXS220300WRVKAV1)"
+            },
+            {
+              "Caption": "مكبس الثلج في فيفور المستدعى، رقم الطراز BY-300FS باللون الفضي (SBJBXS220300WSNSVV1)"
+            },
+            {
+              "Caption": "مكبس الثلج في فيفور المستدعى، رقم الطراز BY-300FS باللون الأحمر (SBJBXS220300W1L2RV1)"
+            },
+            {
+              "Caption": "ملصق على الجزء العلوي من مكبس الثلج في فيفور المستدعى"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "تلقت سانفين تقريرين عن أحداث حرارية، بما في ذلك حريق واحد."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "متاحة عبر الإنترنت على Vevor.com، Amazon.com، Walmart.com، Wayfair.com، HomeDepot.com، و Lowes.com من يوليو 2021 إلى يوليو 2025، بأسعار تتراوح بين 40 دولارًا و 86 دولارًا."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "تكنولوجيا سانفين المحدودة، تعمل تحت اسم فيفور، من رانشو كوكامونغا، كاليفورنيا"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "تباع عبر الإنترنت في",
+          "ManufacturerCountries": [
+            {
+              "Country": "الصين"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "خطر الحريق بسبب الأحداث الحرارية المحتملة"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "توقف عن استخدام مكبس الثلج وتواصل مع سانفين للحصول على استرداد كامل. أرسل صورة لمكبس الثلج غير الموصول مع قطع سلك الطاقة إلى recalling@vevor.com."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "استرداد"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "Sanven科技因火灾风险召回Vevor冰碎机",
+          "Description": "Sanven科技因显著的火灾危险召回Vevor冰碎机。这些机器被称为冰刨、冰碎机和雪锥制造机，具有一个在按下时激活切割器的手柄，以将冰送入漏斗。被召回的型号为BY-300和BY-300 FS，颜色有黄色、红色、银色和蓝色，品牌名称和型号标记在设备顶部。",
+          "ConsumerContact": "消费者被敦促立即停止使用被召回的冰碎机，并联系Sanven科技以获得全额退款。如需帮助，请拨打他们的免费电话855-599-6320，工作时间为周一至周五，太平洋时间上午9点至下午5点，或发送电子邮件至recalling@vevor.com。更多详细信息请访问https://www.vevor.com/pages/vevor-ice-shaver-recall或访问www.vevor.com并选择“产品召回”。",
+          "metaDescription": "Sanven科技因火灾风险召回Vevor冰碎机。停止使用并联系以获得退款。",
+          "Products": [
+            {
+              "Name": "Vevor冰碎机",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约11,650台（此外，约1,060台在加拿大销售）"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "被召回的Vevor冰碎机，型号BY-300，颜色为黄色（SBY-300FD110V3ZIQV1）"
+            },
+            {
+              "Caption": "被召回的Vevor冰碎机，型号BY-300，颜色为红色（SBY-300FD110VE784V1）"
+            },
+            {
+              "Caption": "被召回的Vevor冰碎机，型号BY-300，颜色为银色（SBY-300FD110VLDK1V1）"
+            },
+            {
+              "Caption": "被召回的Vevor冰碎机，型号BY-300FS，颜色为蓝色（SBJBXS220300WRVKAV1）"
+            },
+            {
+              "Caption": "被召回的Vevor冰碎机，型号BY-300FS，颜色为银色（SBJBXS220300WSNSVV1）"
+            },
+            {
+              "Caption": "被召回的Vevor冰碎机，型号BY-300FS，颜色为红色（SBJBXS220300W1L2RV1）"
+            },
+            {
+              "Caption": "被召回的Vevor冰碎机顶部的标签"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Sanven已收到两起热事件报告，包括一起火灾。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "在Vevor.com、Amazon.com、Walmart.com、Wayfair.com、HomeDepot.com和Lowes.com上在线销售，时间为2021年7月至2025年7月，价格在40美元至86美元之间。"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Sanven科技有限公司，经营名称Vevor，位于加利福尼亚州兰乔库卡蒙加"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "在线销售于",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "由于潜在的热事件而导致的火灾危险"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "停止使用冰碎机并联系Sanven以获得全额退款。将切断电源线的未插电冰碎机照片发送至recalling@vevor.com。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "退款"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "Sanven Technology rappelle des broyeurs à glace Vevor en raison d'un risque d'incendie",
+          "Description": "Sanven Technology rappelle des machines à broyer la glace Vevor en raison d'un risque d'incendie significatif. Ces machines, commercialisées sous les noms de Shavers à glace, Broyeurs à glace et Fabricants de cônes de neige, disposent d'une poignée qui active un coupeur lorsqu'elle est enfoncée pour alimenter la glace dans une goulotte. Les modèles rappelés, BY-300 et BY-300 FS, sont disponibles en jaune, rouge, argent et bleu, avec le nom de la marque et le numéro de modèle étiquetés sur le dessus de l'appareil.",
+          "ConsumerContact": "Les consommateurs sont invités à cesser immédiatement d'utiliser les broyeurs à glace rappelés et à contacter Sanven Technology pour un remboursement complet. Pour obtenir de l'aide, appelez leur numéro sans frais au 855-599-6320 de 9 h à 17 h PT, du lundi au vendredi, ou envoyez un e-mail à recalling@vevor.com. Plus de détails peuvent être trouvés sur https://www.vevor.com/pages/vevor-ice-shaver-recall ou en visitant www.vevor.com et en sélectionnant 'Rappel de produit.'",
+          "metaDescription": "Sanven Technology rappelle des broyeurs à glace Vevor en raison d'un risque d'incendie. Cessez de les utiliser et contactez pour un remboursement.",
+          "Products": [
+            {
+              "Name": "Broyeurs à glace Vevor",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 11 650 (De plus, environ 1 060 ont été vendus au Canada)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Broyeur à glace Vevor rappelé, numéro de modèle BY-300 en jaune (SBY-300FD110V3ZIQV1)"
+            },
+            {
+              "Caption": "Broyeur à glace Vevor rappelé, numéro de modèle BY-300 en rouge (SBY-300FD110VE784V1)"
+            },
+            {
+              "Caption": "Broyeur à glace Vevor rappelé, numéro de modèle BY-300 en argent (SBY-300FD110VLDK1V1)"
+            },
+            {
+              "Caption": "Broyeur à glace Vevor rappelé, numéro de modèle BY-300FS en bleu (SBJBXS220300WRVKAV1)"
+            },
+            {
+              "Caption": "Broyeur à glace Vevor rappelé, numéro de modèle BY-300FS en argent (SBJBXS220300WSNSVV1)"
+            },
+            {
+              "Caption": "Broyeur à glace Vevor rappelé, numéro de modèle BY-300FS en rouge (SBJBXS220300W1L2RV1)"
+            },
+            {
+              "Caption": "Étiquette sur le dessus du broyeur à glace Vevor rappelé"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Sanven a reçu deux rapports d'événements thermiques, dont un incendie."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible en ligne sur Vevor.com, Amazon.com, Walmart.com, Wayfair.com, HomeDepot.com et Lowes.com de juillet 2021 à juillet 2025, au prix compris entre 40 $ et 86 $."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Sanven Technology Ltd., faisant affaire sous le nom de Vevor, de Rancho Cucamonga, Californie"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendu en ligne à",
+          "ManufacturerCountries": [
+            {
+              "Country": "Chine"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risque d'incendie en raison d'événements thermiques potentiels"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Cessez d'utiliser le broyeur à glace et contactez Sanven pour un remboursement complet. Envoyez une photo du broyeur à glace débranché avec le cordon d'alimentation coupé en deux à recalling@vevor.com."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Remboursement"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "Sanven Technology ruft Vevor-Eiszerkleinerer wegen Brandgefahr zurück",
+          "Description": "Sanven Technology ruft Vevor-Eiszerkleinerer aufgrund einer erheblichen Brandgefahr zurück. Diese Maschinen, die als Eisraspel, Eiszerkleinerer und Schneekegelmaschinen vermarktet werden, verfügen über einen Griff, der einen Cutter aktiviert, wenn er nach unten gedrückt wird, um Eis in einen Trichter zu füttern. Die zurückgerufenen Modelle, BY-300 und BY-300 FS, sind in Gelb, Rot, Silber und Blau erhältlich, mit dem Markennamen und der Modellnummer auf der Oberseite des Geräts beschriftet.",
+          "ConsumerContact": "Die Verbraucher werden aufgefordert, die zurückgerufenen Eiszerkleinerer sofort nicht mehr zu verwenden und Sanven Technology für eine vollständige Rückerstattung zu kontaktieren. Für Unterstützung rufen Sie ihre gebührenfreie Nummer unter 855-599-6320 von 9 bis 17 Uhr PT, Montag bis Freitag, an oder senden Sie eine E-Mail an recalling@vevor.com. Weitere Details finden Sie unter https://www.vevor.com/pages/vevor-ice-shaver-recall oder indem Sie www.vevor.com besuchen und 'Produkt Rückruf' auswählen.",
+          "metaDescription": "Sanven Technology ruft Vevor-Eiszerkleinerer wegen Brandgefahr zurück. Hören Sie auf, sie zu verwenden, und kontaktieren Sie uns für eine Rückerstattung.",
+          "Products": [
+            {
+              "Name": "Vevor-Eiszerkleinerer",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 11.650 (Zusätzlich wurden etwa 1.060 in Kanada verkauft)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Zurückgerufener Vevor-Eiszerkleinerer, Modellnummer BY-300 in Gelb (SBY-300FD110V3ZIQV1)"
+            },
+            {
+              "Caption": "Zurückgerufener Vevor-Eiszerkleinerer, Modellnummer BY-300 in Rot (SBY-300FD110VE784V1)"
+            },
+            {
+              "Caption": "Zurückgerufener Vevor-Eiszerkleinerer, Modellnummer BY-300 in Silber (SBY-300FD110VLDK1V1)"
+            },
+            {
+              "Caption": "Zurückgerufener Vevor-Eiszerkleinerer, Modellnummer BY-300FS in Blau (SBJBXS220300WRVKAV1)"
+            },
+            {
+              "Caption": "Zurückgerufener Vevor-Eiszerkleinerer, Modellnummer BY-300FS in Silber (SBJBXS220300WSNSVV1)"
+            },
+            {
+              "Caption": "Zurückgerufener Vevor-Eiszerkleinerer, Modellnummer BY-300FS in Rot (SBJBXS220300W1L2RV1)"
+            },
+            {
+              "Caption": "Etikett auf der Oberseite des zurückgerufenen Vevor-Eiszerkleinerers"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Sanven hat zwei Berichte über thermische Ereignisse erhalten, darunter einen Brand."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Online erhältlich bei Vevor.com, Amazon.com, Walmart.com, Wayfair.com, HomeDepot.com und Lowes.com von Juli 2021 bis Juli 2025, preislich zwischen 40 und 86 Dollar."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Sanven Technology Ltd., dba Vevor, aus Rancho Cucamonga, Kalifornien"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Online erhältlich bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Brandgefahr aufgrund potenzieller thermischer Ereignisse"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Hören Sie auf, den Eiszerkleinerer zu verwenden, und kontaktieren Sie Sanven für eine vollständige Rückerstattung. Senden Sie ein Foto des vom Stromnetz getrennten Eiszerkleinerers mit dem durchtrennten Stromkabel an recalling@vevor.com."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Rückerstattung"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "Sanven Technologyが火災リスクのためVevorアイスクラッシャーをリコール",
+          "Description": "Sanven Technologyは、重大な火災の危険性があるため、Vevorアイスクラッシングマシンをリコールしています。これらの機械は、アイスシェーバー、アイスクラッシャー、スノーコーンメーカーとして販売されており、ハンドルを押すことでカッターが作動し、氷をシュートに供給します。リコール対象のモデルは、BY-300およびBY-300 FSで、黄色、赤、銀、青の色があり、ブランド名とモデル番号がデバイスの上部に表示されています。",
+          "ConsumerContact": "消費者は、リコールされたアイスクラッシャーの使用を直ちに中止し、全額返金のためにSanven Technologyに連絡するよう求められています。サポートが必要な場合は、月曜日から金曜日の午前9時から午後5時（PT）まで、無料電話番号855-599-6320にお電話いただくか、recalling@vevor.comにメールしてください。詳細は、https://www.vevor.com/pages/vevor-ice-shaver-recallをご覧いただくか、www.vevor.comを訪れて「製品リコール」を選択してください。",
+          "metaDescription": "Sanven Technologyが火災リスクのためVevorアイスクラッシャーをリコール。使用を中止し、返金のために連絡してください。",
+          "Products": [
+            {
+              "Name": "Vevorアイスクラッシャー",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約11,650台（さらに、約1,060台がカナダで販売されました）"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコールされたVevorアイスクラッシャー、モデル番号BY-300の黄色（SBY-300FD110V3ZIQV1）"
+            },
+            {
+              "Caption": "リコールされたVevorアイスクラッシャー、モデル番号BY-300の赤（SBY-300FD110VE784V1）"
+            },
+            {
+              "Caption": "リコールされたVevorアイスクラッシャー、モデル番号BY-300の銀（SBY-300FD110VLDK1V1）"
+            },
+            {
+              "Caption": "リコールされたVevorアイスクラッシャー、モデル番号BY-300FSの青（SBJBXS220300WRVKAV1）"
+            },
+            {
+              "Caption": "リコールされたVevorアイスクラッシャー、モデル番号BY-300FSの銀（SBJBXS220300WSNSVV1）"
+            },
+            {
+              "Caption": "リコールされたVevorアイスクラッシャー、モデル番号BY-300FSの赤（SBJBXS220300W1L2RV1）"
+            },
+            {
+              "Caption": "リコールされたVevorアイスクラッシャーの上部のラベル"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Sanvenは、1件の火災を含む熱的事象の報告を2件受け取っています。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "2021年7月から2025年7月まで、Vevor.com、Amazon.com、Walmart.com、Wayfair.com、HomeDepot.com、Lowes.comでオンライン販売され、価格は40ドルから86ドルの範囲です。"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "カリフォルニア州ランチョクカモンガのSanven Technology Ltd.（Vevorとして営業）"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "オンラインで販売",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "潜在的な熱的事象による火災の危険"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "アイスクラッシャーの使用を中止し、Sanvenに連絡して全額返金を受けてください。電源コードを半分に切った状態のアイスクラッシャーの写真をrecalling@vevor.comに送信してください。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "返金"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "Sanven Technology Emite Recall para Trituradores de Gelo Vevor Devido ao Risco de Incêndio",
+          "Description": "A Sanven Technology está recallando máquinas de triturar gelo Vevor devido a um risco significativo de incêndio. Essas máquinas, comercializadas como Trituradores de Gelo, Raspadores de Gelo e Fazedores de Cone de Neve, possuem uma alça que ativa um cortador quando pressionada para alimentar o gelo em um funil. Os modelos recallados, BY-300 e BY-300 FS, estão disponíveis nas cores amarelo, vermelho, prata e azul, com o nome da marca e o número do modelo rotulados na parte superior do dispositivo.",
+          "ConsumerContact": "Os consumidores são aconselhados a parar de usar os trituradores de gelo recallados imediatamente e entrar em contato com a Sanven Technology para um reembolso total. Para assistência, ligue para o número gratuito 855-599-6320 das 9h às 17h PT, de segunda a sexta-feira, ou envie um e-mail para recalling@vevor.com. Mais detalhes podem ser encontrados em https://www.vevor.com/pages/vevor-ice-shaver-recall ou visitando www.vevor.com e selecionando 'Recall de Produto.'",
+          "metaDescription": "Sanven Technology recalla Trituradores de Gelo Vevor devido ao risco de incêndio. Pare de usá-los e entre em contato para um reembolso.",
+          "Products": [
+            {
+              "Name": "Trituradores de Gelo Vevor",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 11.650 (Além disso, cerca de 1.060 foram vendidos no Canadá)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Triturador de Gelo Vevor recallado, número do modelo BY-300 em amarelo (SBY-300FD110V3ZIQV1)"
+            },
+            {
+              "Caption": "Triturador de Gelo Vevor recallado, número do modelo BY-300 em vermelho (SBY-300FD110VE784V1)"
+            },
+            {
+              "Caption": "Triturador de Gelo Vevor recallado, número do modelo BY-300 em prata (SBY-300FD110VLDK1V1)"
+            },
+            {
+              "Caption": "Triturador de Gelo Vevor recallado, número do modelo BY-300FS em azul (SBJBXS220300WRVKAV1)"
+            },
+            {
+              "Caption": "Triturador de Gelo Vevor recallado, número do modelo BY-300FS em prata (SBJBXS220300WSNSVV1)"
+            },
+            {
+              "Caption": "Triturador de Gelo Vevor recallado, número do modelo BY-300FS em vermelho (SBJBXS220300W1L2RV1)"
+            },
+            {
+              "Caption": "Etiqueta na parte superior do Triturador de Gelo Vevor recallado"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "A Sanven recebeu dois relatos de eventos térmicos, incluindo um incêndio."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponível online em Vevor.com, Amazon.com, Walmart.com, Wayfair.com, HomeDepot.com e Lowes.com de julho de 2021 a julho de 2025, com preços entre $40 e $86."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Sanven Technology Ltd., dba Vevor, de Rancho Cucamonga, Califórnia"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendidos Online Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risco de incêndio devido a possíveis eventos térmicos"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Pare de usar o triturador de gelo e entre em contato com a Sanven para um reembolso total. Envie uma foto do triturador de gelo desconectado com o cabo de energia cortado ao meio para recalling@vevor.com."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reembolso"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "सैनवेन टेक्नोलॉजी ने आग के जोखिम के कारण वेवर आइस क्रशर्स का रीकॉल किया",
+          "Description": "सैनवेन टेक्नोलॉजी वेवर आइस क्रशिंग मशीनों का रीकॉल कर रही है क्योंकि इनमें एक महत्वपूर्ण आग का खतरा है। इन मशीनों को आइस शेवर्स, आइस क्रशर्स और स्नो कोन मेकर के रूप में विपणन किया गया है, जिनमें एक हैंडल होता है जो नीचे दबाने पर कटर को सक्रिय करता है ताकि बर्फ को एक चूट में डाला जा सके। रीकॉल किए गए मॉडल, BY-300 और BY-300 FS, पीले, लाल, चांदी और नीले रंग में उपलब्ध हैं, जिन पर ब्रांड नाम और मॉडल नंबर उपकरण के शीर्ष पर लेबल किया गया है।",
+          "ConsumerContact": "उपभोक्ताओं से अनुरोध है कि वे तुरंत रीकॉल किए गए आइस क्रशर्स का उपयोग करना बंद करें और पूर्ण धनवापसी के लिए सैनवेन टेक्नोलॉजी से संपर्क करें। सहायता के लिए, उनके टोल-फ्री नंबर 855-599-6320 पर सुबह 9 बजे से शाम 5 बजे तक पीटी, सोमवार से शुक्रवार तक कॉल करें, या emailing recalling@vevor.com पर ईमेल करें। अधिक जानकारी https://www.vevor.com/pages/vevor-ice-shaver-recall पर या www.vevor.com पर जाकर 'उत्पाद रीकॉल' का चयन करके प्राप्त की जा सकती है।",
+          "metaDescription": "सैनवेन टेक्नोलॉजी आग के जोखिम के कारण वेवर आइस क्रशर्स का रीकॉल करती है। उनका उपयोग करना बंद करें और धनवापसी के लिए संपर्क करें।",
+          "Products": [
+            {
+              "Name": "वेवर आइस क्रशर्स",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 11,650 (इसके अलावा, लगभग 1,060 कनाडा में बेचे गए)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "रीकॉल किया गया वेवर आइस क्रशर, मॉडल नंबर BY-300 पीले रंग में (SBY-300FD110V3ZIQV1)"
+            },
+            {
+              "Caption": "रीकॉल किया गया वेवर आइस क्रशर, मॉडल नंबर BY-300 लाल रंग में (SBY-300FD110VE784V1)"
+            },
+            {
+              "Caption": "रीकॉल किया गया वेवर आइस क्रशर, मॉडल नंबर BY-300 चांदी में (SBY-300FD110VLDK1V1)"
+            },
+            {
+              "Caption": "रीकॉल किया गया वेवर आइस क्रशर, मॉडल नंबर BY-300FS नीले रंग में (SBJBXS220300WRVKAV1)"
+            },
+            {
+              "Caption": "रीकॉल किया गया वेवर आइस क्रशर, मॉडल नंबर BY-300FS चांदी में (SBJBXS220300WSNSVV1)"
+            },
+            {
+              "Caption": "रीकॉल किया गया वेवर आइस क्रशर, मॉडल नंबर BY-300FS लाल रंग में (SBJBXS220300W1L2RV1)"
+            },
+            {
+              "Caption": "रीकॉल किए गए वेवर आइस क्रशर के शीर्ष पर लेबल"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "सैनवेन को थर्मल घटनाओं की दो रिपोर्ट मिली हैं, जिनमें एक आग शामिल है।"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "जुलाई 2021 से जुलाई 2025 तक Vevor.com, Amazon.com, Walmart.com, Wayfair.com, HomeDepot.com, और Lowes.com पर ऑनलाइन उपलब्ध, कीमत $40 से $86 के बीच।"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "सैनवेन टेक्नोलॉजी लिमिटेड, dba वेवर, रैंचो कुकामोंगा, कैलिफोर्निया"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "ऑनलाइन बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "चीन"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "संभावित थर्मल घटनाओं के कारण आग का खतरा"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "आइस क्रशर का उपयोग करना बंद करें और पूर्ण धनवापसी के लिए सैनवेन से संपर्क करें। प्लग हटाए गए आइस क्रशर की एक फोटो भेजें जिसमें पावर कॉर्ड को आधा काटा गया हो, emailing recalling@vevor.com पर।"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "धनवापसी"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "Компания Sanven Technology отзывает дробилки льда Vevor из-за риска возгорания",
+          "Description": "Компания Sanven Technology отзывает машины для дробления льда Vevor из-за значительного риска возгорания. Эти машины, рекламируемые как дробилки льда, шейкеры льда и машины для приготовления снежных конусов, имеют ручку, которая активирует резак при нажатии, чтобы подавать лед в желоб. Отозванные модели, BY-300 и BY-300 FS, доступны в желтом, красном, серебристом и синем цветах, с названием бренда и номером модели, обозначенными на верхней части устройства.",
+          "ConsumerContact": "Потребителей призывают немедленно прекратить использование отозванных дробилок льда и обратиться в Sanven Technology для получения полного возмещения. Для получения помощи позвоните на их бесплатный номер 855-599-6320 с 9:00 до 17:00 по тихоокеанскому времени с понедельника по пятницу или напишите на электронную почту recalling@vevor.com. Более подробную информацию можно найти на https://www.vevor.com/pages/vevor-ice-shaver-recall или посетив www.vevor.com и выбрав 'Отзыв продукта.'",
+          "metaDescription": "Компания Sanven Technology отзывает дробилки льда Vevor из-за риска возгорания. Прекратите их использование и свяжитесь для получения возмещения.",
+          "Products": [
+            {
+              "Name": "Дробилки льда Vevor",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 11,650 (Кроме того, около 1,060 были проданы в Канаде)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванная дробилка льда Vevor, номер модели BY-300 в желтом цвете (SBY-300FD110V3ZIQV1)"
+            },
+            {
+              "Caption": "Отозванная дробилка льда Vevor, номер модели BY-300 в красном цвете (SBY-300FD110VE784V1)"
+            },
+            {
+              "Caption": "Отозванная дробилка льда Vevor, номер модели BY-300 в серебристом цвете (SBY-300FD110VLDK1V1)"
+            },
+            {
+              "Caption": "Отозванная дробилка льда Vevor, номер модели BY-300FS в синем цвете (SBJBXS220300WRVKAV1)"
+            },
+            {
+              "Caption": "Отозванная дробилка льда Vevor, номер модели BY-300FS в серебристом цвете (SBJBXS220300WSNSVV1)"
+            },
+            {
+              "Caption": "Отозванная дробилка льда Vevor, номер модели BY-300FS в красном цвете (SBJBXS220300W1L2RV1)"
+            },
+            {
+              "Caption": "Этикетка на верхней части отозванной дробилки льда Vevor"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Компания Sanven получила два сообщения о термических событиях, включая один случай возгорания."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Доступно онлайн на Vevor.com, Amazon.com, Walmart.com, Wayfair.com, HomeDepot.com и Lowes.com с июля 2021 года по июль 2025 года, по цене от 40 до 86 долларов."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Sanven Technology Ltd., действующая под брендом Vevor, из Ранчо-Кукамонги, Калифорния"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Продается онлайн на",
+          "ManufacturerCountries": [
+            {
+              "Country": "Китай"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Риск возгорания из-за потенциальных термических событий"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Прекратите использование дробилки льда и свяжитесь с Sanven для получения полного возмещения. Отправьте фотографию отключенной дробилки льда с разрезанным пополам шнуром питания на recalling@vevor.com."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Возмещение"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "Công ty Sanven Technology thông báo thu hồi máy nghiền đá Vevor do nguy cơ cháy",
+          "Description": "Công ty Sanven Technology đang thu hồi các máy nghiền đá Vevor do nguy cơ cháy đáng kể. Những máy này, được tiếp thị dưới tên Ice Shavers, Ice Crushers và Snow Cone Makers, có một tay cầm kích hoạt lưỡi cắt khi được nhấn xuống để cho đá vào ống dẫn. Các mẫu bị thu hồi, BY-300 và BY-300 FS, có sẵn màu vàng, đỏ, bạc và xanh, với tên thương hiệu và số mẫu được ghi trên đỉnh thiết bị.",
+          "ConsumerContact": "Người tiêu dùng được khuyến cáo ngừng sử dụng ngay lập tức các máy nghiền đá bị thu hồi và liên hệ với Sanven Technology để được hoàn tiền đầy đủ. Để được hỗ trợ, hãy gọi số điện thoại miễn phí của họ theo số 855-599-6320 từ 9 giờ sáng đến 5 giờ chiều PT, từ thứ Hai đến thứ Sáu, hoặc gửi email đến recalling@vevor.com. Thêm chi tiết có thể được tìm thấy tại https://www.vevor.com/pages/vevor-ice-shaver-recall hoặc bằng cách truy cập www.vevor.com và chọn 'Product Recall.'",
+          "metaDescription": "Sanven Technology thu hồi máy nghiền đá Vevor do nguy cơ cháy. Ngừng sử dụng chúng và liên hệ để được hoàn tiền.",
+          "Products": [
+            {
+              "Name": "Máy nghiền đá Vevor",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 11,650 (Ngoài ra, khoảng 1,060 đã được bán ở Canada)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Máy nghiền đá Vevor bị thu hồi, số mẫu BY-300 màu vàng (SBY-300FD110V3ZIQV1)"
+            },
+            {
+              "Caption": "Máy nghiền đá Vevor bị thu hồi, số mẫu BY-300 màu đỏ (SBY-300FD110VE784V1)"
+            },
+            {
+              "Caption": "Máy nghiền đá Vevor bị thu hồi, số mẫu BY-300 màu bạc (SBY-300FD110VLDK1V1)"
+            },
+            {
+              "Caption": "Máy nghiền đá Vevor bị thu hồi, số mẫu BY-300FS màu xanh (SBJBXS220300WRVKAV1)"
+            },
+            {
+              "Caption": "Máy nghiền đá Vevor bị thu hồi, số mẫu BY-300FS màu bạc (SBJBXS220300WSNSVV1)"
+            },
+            {
+              "Caption": "Máy nghiền đá Vevor bị thu hồi, số mẫu BY-300FS màu đỏ (SBJBXS220300W1L2RV1)"
+            },
+            {
+              "Caption": "Nhãn trên đỉnh máy nghiền đá Vevor bị thu hồi"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Sanven đã nhận được hai báo cáo về các sự kiện nhiệt, bao gồm một vụ cháy."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Có sẵn trực tuyến tại Vevor.com, Amazon.com, Walmart.com, Wayfair.com, HomeDepot.com và Lowes.com từ tháng 7 năm 2021 đến tháng 7 năm 2025, có giá từ 40 đến 86 đô la."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Công ty Sanven Technology Ltd., dba Vevor, có trụ sở tại Rancho Cucamonga, California"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Bán trực tuyến tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Trung Quốc"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Nguy cơ cháy do các sự kiện nhiệt tiềm ẩn"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Ngừng sử dụng máy nghiền đá và liên hệ với Sanven để được hoàn tiền đầy đủ. Gửi một bức ảnh của máy nghiền đá đã rút phích cắm với dây nguồn bị cắt làm đôi đến recalling@vevor.com."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Hoàn tiền"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    },
+    {
+      "RecallID": 9846,
+      "RecallNumber": "24110",
+      "RecallDate": "2024-02-08T00:00:00",
+      "Description": "Electrolux Group has issued a recall for specific Frigidaire side by side refrigerators featuring Slim Ice buckets, manufactured from 2015 to 2019. The affected models include DGHK2355TF, DGHX2655TF, FFSC2323TS, FGSC2335TD, FGSC2335TF, FGSS2635TD, FGSS2635TE, FGSS2635TF, FGSS2635TP, FPSC2277RF, FPSC2278UF, FPSS2677RF, LFSC2324VF, LGHK2336TD, LGHK2336TF, LGHX2636TD, and LGHX2636TF. Consumers can verify if their refrigerator's serial number is part of this recall by visiting https://www.frigidaire.com/en/frigidaire-recall-information. The model and serial numbers are located on a plate inside the refrigerator compartment. The last letter of each model indicates its color variant: F and S for Stainless Steel, D for Dark Stainless Steel, E for Black Painted, and P for White Painted.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/Electrolux-Group-Recalls-Frigidaire-Side-by-Side-Refrigerators-with-Slim-Ice-Buckets-Due-to-Choking-and-Laceration-Hazards",
+      "Title": "Electrolux Group Recalls Frigidaire Side by Side Refrigerators Due to Choking and Laceration Risks",
+      "ConsumerContact": "For assistance, consumers can reach Electrolux Group at 888-377-7563 from 8:30 a.m. to 8 p.m. ET Monday through Friday, via email at IceBucketRecall@electrolux.com, or online at www.icebucketrecall.com and www.frigidaire.com, where they can click on 'Recall Information' for further details.",
+      "LastPublishDate": "2024-02-08T00:00:00",
+      "Products": [
+        {
+          "Name": "Frigidaire Side by Side Refrigerators with Slim Ice Buckets",
+          "NumberOfUnits": "About 383,240"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/ice-makers/2-Frigidaire-Side-by-Side-Refrigerators-with-Slim-Ice-Buckets/d0872b270a8bcfad2713a0cad5d6e505.webp",
+          "Caption": "Recalled Production Year 2015-2019 Frigidaire Branded Side by Side Refrigerators with Slim Ice Buckets",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Frigidaire-1.png"
+        },
+        {
+          "URL": "/images/generalRecalls/ice-makers/2-Frigidaire-Side-by-Side-Refrigerators-with-Slim-Ice-Buckets/394189165d7663de960f86e0396530f1.webp",
+          "Caption": "Recalled Production Year 2015-2019 Frigidaire Branded Side by Side Refrigerators with Slim Ice Buckets",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Frigidaire-2.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "Electrolux Group has received 343 reports of plastic pieces breaking off, including two incidents resulting in laceration and ingestion injuries when the pieces were dispensed out of the recalled ice bucket."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Lowe's, Home Depot, and various other retailers nationwide, as well as online at Frigidaire.com, from November 2015 through September 2019, priced between $1,400 and $2,400."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Electrolux Home Products Inc., of Charlotte, North Carolina"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "Mexico"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Choking and laceration risks from broken ice bucket assembly components"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Request a free replacement ice bucket assembly component"
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ],
+      "slug": "electrolux-group-recalls-frigidaire-side-by-side-refrigerators-due-to-choking-and-laceration-risks-recall",
+      "metaDescription": "Electrolux recalls Frigidaire side by side refrigerators due to choking and laceration hazards. Check your model and contact for a free replacement.",
+      "languages": {
+        "en": {
+          "Title": "Electrolux Group Recalls Frigidaire Side by Side Refrigerators Due to Choking and Laceration Risks",
+          "Description": "Electrolux Group has issued a recall for specific Frigidaire side by side refrigerators featuring Slim Ice buckets, manufactured from 2015 to 2019. The affected models include DGHK2355TF, DGHX2655TF, FFSC2323TS, FGSC2335TD, FGSC2335TF, FGSS2635TD, FGSS2635TE, FGSS2635TF, FGSS2635TP, FPSC2277RF, FPSC2278UF, FPSS2677RF, LFSC2324VF, LGHK2336TD, LGHK2336TF, LGHX2636TD, and LGHX2636TF. Consumers can verify if their refrigerator's serial number is part of this recall by visiting https://www.frigidaire.com/en/frigidaire-recall-information. The model and serial numbers are located on a plate inside the refrigerator compartment. The last letter of each model indicates its color variant: F and S for Stainless Steel, D for Dark Stainless Steel, E for Black Painted, and P for White Painted.",
+          "ConsumerContact": "For assistance, consumers can reach Electrolux Group at 888-377-7563 from 8:30 a.m. to 8 p.m. ET Monday through Friday, via email at IceBucketRecall@electrolux.com, or online at www.icebucketrecall.com and www.frigidaire.com, where they can click on 'Recall Information' for further details.",
+          "metaDescription": "Electrolux recalls Frigidaire side by side refrigerators due to choking and laceration hazards. Check your model and contact for a free replacement.",
+          "Products": [
+            {
+              "Name": "Frigidaire Side by Side Refrigerators with Slim Ice Buckets",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 383,240"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled Production Year 2015-2019 Frigidaire Branded Side by Side Refrigerators with Slim Ice Buckets"
+            },
+            {
+              "Caption": "Recalled Production Year 2015-2019 Frigidaire Branded Side by Side Refrigerators with Slim Ice Buckets"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Electrolux Group has received 343 reports of plastic pieces breaking off, including two incidents resulting in laceration and ingestion injuries when the pieces were dispensed out of the recalled ice bucket."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Lowe's, Home Depot, and various other retailers nationwide, as well as online at Frigidaire.com, from November 2015 through September 2019, priced between $1,400 and $2,400."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Electrolux Home Products Inc., of Charlotte, North Carolina"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Sold At",
+          "ManufacturerCountries": [
+            {
+              "Country": "Mexico"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Choking and laceration risks from broken ice bucket assembly components"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Request a free replacement ice bucket assembly component"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Repair"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "Electrolux Group Retira Refrigeradores Frigidaire de Dos Puertas Debido a Riesgos de Asfixia y Laceración",
+          "Description": "Electrolux Group ha emitido un retiro para refrigeradores Frigidaire de dos puertas específicos que cuentan con cubos de hielo Slim, fabricados entre 2015 y 2019. Los modelos afectados incluyen DGHK2355TF, DGHX2655TF, FFSC2323TS, FGSC2335TD, FGSC2335TF, FGSS2635TD, FGSS2635TE, FGSS2635TF, FGSS2635TP, FPSC2277RF, FPSC2278UF, FPSS2677RF, LFSC2324VF, LGHK2336TD, LGHK2336TF, LGHX2636TD y LGHX2636TF. Los consumidores pueden verificar si el número de serie de su refrigerador forma parte de este retiro visitando https://www.frigidaire.com/en/frigidaire-recall-information. Los números de modelo y serie se encuentran en una placa dentro del compartimento del refrigerador. La última letra de cada modelo indica su variante de color: F y S para Acero Inoxidable, D para Acero Inoxidable Oscuro, E para Pintado de Negro y P para Pintado de Blanco.",
+          "ConsumerContact": "Para asistencia, los consumidores pueden comunicarse con Electrolux Group al 888-377-7563 de 8:30 a.m. a 8 p.m. ET de lunes a viernes, por correo electrónico a IceBucketRecall@electrolux.com, o en línea en www.icebucketrecall.com y www.frigidaire.com, donde pueden hacer clic en 'Información sobre el Retiro' para más detalles.",
+          "metaDescription": "Electrolux retira refrigeradores Frigidaire de dos puertas debido a riesgos de asfixia y laceración. Verifique su modelo y contáctenos para un reemplazo gratuito.",
+          "Products": [
+            {
+              "Name": "Refrigeradores Frigidaire de Dos Puertas con Cubos de Hielo Slim",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 383,240"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Refrigeradores Frigidaire de Dos Puertas de la Producción Retirada 2015-2019 con Cubos de Hielo Slim"
+            },
+            {
+              "Caption": "Refrigeradores Frigidaire de Dos Puertas de la Producción Retirada 2015-2019 con Cubos de Hielo Slim"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Electrolux Group ha recibido 343 informes de piezas de plástico que se rompen, incluidos dos incidentes que resultaron en lesiones por laceración e ingestión cuando las piezas fueron dispensadas del cubo de hielo retirado."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Lowe's, Home Depot y varios otros minoristas a nivel nacional, así como en línea en Frigidaire.com, desde noviembre de 2015 hasta septiembre de 2019, con precios entre $1,400 y $2,400."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Electrolux Home Products Inc., de Charlotte, Carolina del Norte"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendidos En",
+          "ManufacturerCountries": [
+            {
+              "Country": "México"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Riesgos de asfixia y laceración por componentes rotos del ensamblaje del cubo de hielo"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Solicitar un componente de ensamblaje de cubo de hielo de reemplazo gratuito"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparar"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "مجموعة إلكتrolux تستدعي ثلاجات فريجيدير الجانبية بسبب مخاطر الاختناق والجروح",
+          "Description": "أصدرت مجموعة إلكتrolux استدعاءً لثلاجات فريجيدير الجانبية المحددة التي تحتوي على دلاء ثلج رفيعة، المصنعة من 2015 إلى 2019. تشمل النماذج المتأثرة DGHK2355TF، DGHX2655TF، FFSC2323TS، FGSC2335TD، FGSC2335TF، FGSS2635TD، FGSS2635TE، FGSS2635TF، FGSS2635TP، FPSC2277RF، FPSC2278UF، FPSS2677RF، LFSC2324VF، LGHK2336TD، LGHK2336TF، LGHX2636TD، وLGHX2636TF. يمكن للمستهلكين التحقق مما إذا كان رقم تسلسل ثلاجتهم جزءًا من هذا الاستدعاء من خلال زيارة https://www.frigidaire.com/en/frigidaire-recall-information. تقع أرقام الطراز والتسلسل على لوحة داخل حجرة الثلاجة. تشير الحرف الأخير من كل طراز إلى متغير لونه: F و S للفولاذ المقاوم للصدأ، D للفولاذ المقاوم للصدأ الداكن، E للطلاء الأسود، وP للطلاء الأبيض.",
+          "ConsumerContact": "للمساعدة، يمكن للمستهلكين الاتصال بمجموعة إلكتrolux على الرقم 888-377-7563 من الساعة 8:30 صباحًا حتى 8 مساءً بتوقيت شرق الولايات المتحدة من الاثنين إلى الجمعة، عبر البريد الإلكتروني على IceBucketRecall@electrolux.com، أو عبر الإنترنت على www.icebucketrecall.com و www.frigidaire.com، حيث يمكنهم النقر على 'معلومات الاستدعاء' لمزيد من التفاصيل.",
+          "metaDescription": "تستدعي إلكتrolux ثلاجات فريجيدير الجانبية بسبب مخاطر الاختناق والجروح. تحقق من طرازك واتصل للحصول على بديل مجاني.",
+          "Products": [
+            {
+              "Name": "ثلاجات فريجيدير الجانبية مع دلاء ثلج رفيعة",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 383,240"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "ثلاجات فريجيدير الجانبية المستدعاة من سنة الإنتاج 2015-2019 مع دلاء ثلج رفيعة"
+            },
+            {
+              "Caption": "ثلاجات فريجيدير الجانبية المستدعاة من سنة الإنتاج 2015-2019 مع دلاء ثلج رفيعة"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "تلقت مجموعة إلكتrolux 343 تقريرًا عن قطع بلاستيكية تتكسر، بما في ذلك حادثتين نتج عنهما إصابات جروح وابتلاع عندما تم توزيع القطع من دلو الثلج المستدعى."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Lowe's و Home Depot والعديد من تجار التجزئة الآخرين في جميع أنحاء البلاد، بالإضافة إلى الإنترنت على Frigidaire.com، من نوفمبر 2015 حتى سبتمبر 2019، بأسعار تتراوح بين 1,400 دولار و 2,400 دولار."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "إلكتrolux هوم برودكتس إنك، من شارلوت، نورث كارولينا"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "تم البيع في",
+          "ManufacturerCountries": [
+            {
+              "Country": "المكسيك"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "مخاطر الاختناق والجروح من قطع تجميع دلو الثلج المكسورة"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "طلب مكون تجميع دلو ثلج بديل مجاني"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "إصلاح"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "伊莱克斯集团召回因窒息和割伤风险的Frigidaire并排冰箱",
+          "Description": "伊莱克斯集团已对2015年至2019年生产的特定Frigidaire并排冰箱进行召回，这些冰箱配备Slim Ice冰桶。受影响的型号包括DGHK2355TF、DGHX2655TF、FFSC2323TS、FGSC2335TD、FGSC2335TF、FGSS2635TD、FGSS2635TE、FGSS2635TF、FGSS2635TP、FPSC2277RF、FPSC2278UF、FPSS2677RF、LFSC2324VF、LGHK2336TD、LGHK2336TF、LGHX2636TD和LGHX2636TF。消费者可以通过访问https://www.frigidaire.com/en/frigidaire-recall-information来验证其冰箱的序列号是否在此次召回之列。型号和序列号位于冰箱内部的一个标签上。每个型号的最后一个字母表示其颜色变体：F和S代表不锈钢，D代表深色不锈钢，E代表黑色涂漆，P代表白色涂漆。\n",
+          "ConsumerContact": "如需帮助，消费者可以在周一至周五的东部时间上午8:30至晚上8:00拨打888-377-7563联系伊莱克斯集团，或通过电子邮件联系IceBucketRecall@electrolux.com，或在线访问www.icebucketrecall.com和www.frigidaire.com，在那里他们可以点击“召回信息”以获取更多详细信息。",
+          "metaDescription": "伊莱克斯召回因窒息和割伤危险的Frigidaire并排冰箱。检查您的型号并联系以获取免费更换。",
+          "Products": [
+            {
+              "Name": "配备Slim Ice冰桶的Frigidaire并排冰箱",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约383,240"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "召回的2015-2019年生产的Frigidaire品牌并排冰箱，配备Slim Ice冰桶"
+            },
+            {
+              "Caption": "召回的2015-2019年生产的Frigidaire品牌并排冰箱，配备Slim Ice冰桶"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "伊莱克斯集团已收到343起塑料部件断裂的报告，其中包括两起事件导致割伤和吞咽伤害，当这些部件从召回的冰桶中释放出来时。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Lowe's、Home Depot及全国各地的其他零售商，以及在Frigidaire.com上，销售时间为2015年11月至2019年9月，价格在$1,400至$2,400之间。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "位于北卡罗来纳州夏洛特的伊莱克斯家居产品公司"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "销售地点",
+          "ManufacturerCountries": [
+            {
+              "Country": "墨西哥"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "因冰桶组件破损而导致的窒息和割伤风险"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "请求免费更换冰桶组件"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "修理"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "Rappel du groupe Electrolux des réfrigérateurs Frigidaire côte à côte en raison des risques d'étouffement et de lacération",
+          "Description": "Le groupe Electrolux a émis un rappel pour des réfrigérateurs Frigidaire côte à côte spécifiques avec des seaux à glace Slim, fabriqués de 2015 à 2019. Les modèles concernés incluent DGHK2355TF, DGHX2655TF, FFSC2323TS, FGSC2335TD, FGSC2335TF, FGSS2635TD, FGSS2635TE, FGSS2635TF, FGSS2635TP, FPSC2277RF, FPSC2278UF, FPSS2677RF, LFSC2324VF, LGHK2336TD, LGHK2336TF, LGHX2636TD et LGHX2636TF. Les consommateurs peuvent vérifier si le numéro de série de leur réfrigérateur fait partie de ce rappel en visitant https://www.frigidaire.com/en/frigidaire-recall-information. Les numéros de modèle et de série se trouvent sur une plaque à l'intérieur du compartiment du réfrigérateur. La dernière lettre de chaque modèle indique sa variante de couleur : F et S pour Acier Inoxydable, D pour Acier Inoxydable Foncé, E pour Peint en Noir, et P pour Peint en Blanc.",
+          "ConsumerContact": "Pour assistance, les consommateurs peuvent contacter le groupe Electrolux au 888-377-7563 de 8h30 à 20h00 HE du lundi au vendredi, par email à IceBucketRecall@electrolux.com, ou en ligne sur www.icebucketrecall.com et www.frigidaire.com, où ils peuvent cliquer sur 'Informations sur le rappel' pour plus de détails.",
+          "metaDescription": "Electrolux rappelle des réfrigérateurs Frigidaire côte à côte en raison de risques d'étouffement et de lacération. Vérifiez votre modèle et contactez pour un remplacement gratuit.",
+          "Products": [
+            {
+              "Name": "Réfrigérateurs Frigidaire côte à côte avec seaux à glace Slim",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 383,240"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Réfrigérateurs Frigidaire de marque rappelés, année de production 2015-2019, avec seaux à glace Slim"
+            },
+            {
+              "Caption": "Réfrigérateurs Frigidaire de marque rappelés, année de production 2015-2019, avec seaux à glace Slim"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Le groupe Electrolux a reçu 343 rapports de pièces en plastique se détachant, y compris deux incidents entraînant des blessures par lacération et ingestion lorsque les pièces étaient distribuées à partir du seau à glace rappelé."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Lowe's, Home Depot et divers autres détaillants à l'échelle nationale, ainsi qu'en ligne sur Frigidaire.com, de novembre 2015 à septembre 2019, au prix compris entre 1 400 $ et 2 400 $."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Electrolux Home Products Inc., de Charlotte, Caroline du Nord"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendu À",
+          "ManufacturerCountries": [
+            {
+              "Country": "Mexique"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risques d'étouffement et de lacération dus à des composants cassés de l'assemblage du seau à glace"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Demander un composant d'assemblage de seau à glace de remplacement gratuit"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Réparation"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "Electrolux Group ruft Frigidaire Side-by-Side-Kühlschränke aufgrund von Erstickungs- und Schnittgefahren zurück",
+          "Description": "Die Electrolux Group hat einen Rückruf für bestimmte Frigidaire Side-by-Side-Kühlschränke mit Slim Ice-Eimern, die von 2015 bis 2019 hergestellt wurden, herausgegeben. Die betroffenen Modelle umfassen DGHK2355TF, DGHX2655TF, FFSC2323TS, FGSC2335TD, FGSC2335TF, FGSS2635TD, FGSS2635TE, FGSS2635TF, FGSS2635TP, FPSC2277RF, FPSC2278UF, FPSS2677RF, LFSC2324VF, LGHK2336TD, LGHK2336TF, LGHX2636TD und LGHX2636TF. Verbraucher können überprüfen, ob die Seriennummer ihres Kühlschranks Teil dieses Rückrufs ist, indem sie die Website https://www.frigidaire.com/en/frigidaire-recall-information besuchen. Die Modell- und Seriennummern befinden sich auf einem Schild im Kühlschrankfach. Der letzte Buchstabe jedes Modells gibt die Farbvariante an: F und S für Edelstahl, D für dunklen Edelstahl, E für schwarz lackiert und P für weiß lackiert.",
+          "ConsumerContact": "Für Unterstützung können Verbraucher die Electrolux Group unter 888-377-7563 von 8:30 bis 20:00 Uhr ET von Montag bis Freitag erreichen, per E-Mail an IceBucketRecall@electrolux.com oder online unter www.icebucketrecall.com und www.frigidaire.com, wo sie auf 'Rückrufinformationen' klicken können, um weitere Details zu erhalten.",
+          "metaDescription": "Electrolux ruft Frigidaire Side-by-Side-Kühlschränke aufgrund von Erstickungs- und Schnittgefahren zurück. Überprüfen Sie Ihr Modell und kontaktieren Sie uns für einen kostenlosen Ersatz.",
+          "Products": [
+            {
+              "Name": "Frigidaire Side-by-Side-Kühlschränke mit Slim Ice-Eimern",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 383.240"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Rückgerufene Produktionsjahre 2015-2019 Frigidaire-mit-Slim-Ice-Eimern Side-by-Side-Kühlschränke"
+            },
+            {
+              "Caption": "Rückgerufene Produktionsjahre 2015-2019 Frigidaire-mit-Slim-Ice-Eimern Side-by-Side-Kühlschränke"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Die Electrolux Group hat 343 Berichte über abgebrochene Kunststoffteile erhalten, darunter zwei Vorfälle, die zu Schnitt- und Verschluckverletzungen führten, als die Teile aus dem zurückgerufenen Eimer ausgegeben wurden."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Lowe's, Home Depot und verschiedene andere Einzelhändler landesweit sowie online unter Frigidaire.com, von November 2015 bis September 2019, zu Preisen zwischen 1.400 und 2.400 US-Dollar."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Electrolux Home Products Inc., Charlotte, North Carolina"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Verkauft bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "Mexiko"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Erstickungs- und Schnittgefahren durch gebrochene Komponenten der Eimerbaugruppe"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Fordern Sie ein kostenloses Ersatzteil für die Eimerbaugruppe an"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparatur"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "エレクトロラックスグループが窒息および切傷のリスクによりフリジデアのサイドバイサイド冷蔵庫をリコール",
+          "Description": "エレクトロラックスグループは、2015年から2019年に製造されたスリムアイスバケットを搭載した特定のフリジデアのサイドバイサイド冷蔵庫のリコールを発表しました。影響を受けるモデルには、DGHK2355TF、DGHX2655TF、FFSC2323TS、FGSC2335TD、FGSC2335TF、FGSS2635TD、FGSS2635TE、FGSS2635TF、FGSS2635TP、FPSC2277RF、FPSC2278UF、FPSS2677RF、LFSC2324VF、LGHK2336TD、LGHK2336TF、LGHX2636TD、LGHX2636TFが含まれます。消費者は、冷蔵庫のシリアル番号がこのリコールに該当するかどうかを、https://www.frigidaire.com/en/frigidaire-recall-information を訪問することで確認できます。モデルおよびシリアル番号は、冷蔵庫のコンパートメント内のプレートに記載されています。各モデルの最後の文字は、その色のバリエーションを示しています：FおよびSはステンレススチール、Dはダークステンレススチール、Eは黒塗装、Pは白塗装を示します。",
+          "ConsumerContact": "サポートが必要な場合、消費者はエレクトロラックスグループに、月曜日から金曜日の午前8時30分から午後8時（ET）まで、888-377-7563に電話するか、IceBucketRecall@electrolux.com にメールを送信するか、www.icebucketrecall.com および www.frigidaire.com を訪問して「リコール情報」をクリックして詳細を確認できます。",
+          "metaDescription": "エレクトロラックスが窒息および切傷の危険性によりフリジデアのサイドバイサイド冷蔵庫をリコール。モデルを確認し、無料の交換を依頼してください。",
+          "Products": [
+            {
+              "Name": "スリムアイスバケット付きフリジデアのサイドバイサイド冷蔵庫",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約383,240台"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコール対象の2015-2019年製フリジデアブランドのスリムアイスバケット付きサイドバイサイド冷蔵庫"
+            },
+            {
+              "Caption": "リコール対象の2015-2019年製フリジデアブランドのスリムアイスバケット付きサイドバイサイド冷蔵庫"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "エレクトロラックスグループは、リコールされたアイスバケットから部品が排出された際に、切傷および摂取による怪我を伴う2件の事故を含む、プラスチック部品が破損したとの報告を343件受けています。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "ローズ、ホームデポ、全国のその他の小売業者、及び2015年11月から2019年9月までフリジデア.comで、価格は1,400ドルから2,400ドルの間。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "ノースカロライナ州シャーロットのエレクトロラックスホームプロダクツ社"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "販売場所",
+          "ManufacturerCountries": [
+            {
+              "Country": "メキシコ"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "破損したアイスバケットアセンブリ部品による窒息および切傷のリスク"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "無料のアイスバケットアセンブリ部品の交換を依頼"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "修理"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "Grupo Electrolux Recalls Refrigeradores Frigidaire Side by Side Devido a Riscos de Asfixia e Laceração",
+          "Description": "O Grupo Electrolux emitiu um recall para refrigeradores Frigidaire side by side específicos com baldes de gelo Slim, fabricados de 2015 a 2019. Os modelos afetados incluem DGHK2355TF, DGHX2655TF, FFSC2323TS, FGSC2335TD, FGSC2335TF, FGSS2635TD, FGSS2635TE, FGSS2635TF, FGSS2635TP, FPSC2277RF, FPSC2278UF, FPSS2677RF, LFSC2324VF, LGHK2336TD, LGHK2336TF, LGHX2636TD e LGHX2636TF. Os consumidores podem verificar se o número de série de seu refrigerador faz parte deste recall visitando https://www.frigidaire.com/en/frigidaire-recall-information. Os números do modelo e de série estão localizados em uma placa dentro do compartimento do refrigerador. A última letra de cada modelo indica sua variante de cor: F e S para Aço Inoxidável, D para Aço Inoxidável Escuro, E para Pintado de Preto e P para Pintado de Branco.",
+          "ConsumerContact": "Para assistência, os consumidores podem entrar em contato com o Grupo Electrolux pelo telefone 888-377-7563, das 8h30 às 20h ET de segunda a sexta-feira, por e-mail em IceBucketRecall@electrolux.com, ou online em www.icebucketrecall.com e www.frigidaire.com, onde podem clicar em 'Informações sobre Recall' para mais detalhes.",
+          "metaDescription": "Electrolux faz recall de refrigeradores Frigidaire side by side devido a riscos de asfixia e laceração. Verifique seu modelo e entre em contato para uma substituição gratuita.",
+          "Products": [
+            {
+              "Name": "Refrigeradores Frigidaire Side by Side com Baldes de Gelo Slim",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 383.240"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Refrigeradores Frigidaire da Marca Side by Side com Baldes de Gelo Slim do Ano de Produção 2015-2019"
+            },
+            {
+              "Caption": "Refrigeradores Frigidaire da Marca Side by Side com Baldes de Gelo Slim do Ano de Produção 2015-2019"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "O Grupo Electrolux recebeu 343 relatos de peças plásticas se quebrando, incluindo dois incidentes resultando em laceração e lesões por ingestão quando as peças foram dispensadas do balde de gelo recallado."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Lowe's, Home Depot e vários outros varejistas em todo o país, bem como online em Frigidaire.com, de novembro de 2015 a setembro de 2019, com preços entre $1.400 e $2.400."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Electrolux Home Products Inc., de Charlotte, Carolina do Norte"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendido Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "México"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Riscos de asfixia e laceração devido a componentes quebrados da montagem do balde de gelo"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Solicitar um componente de montagem de balde de gelo de substituição gratuita"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparo"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "इलेक्ट्रोलक्स समूह ने चोकिंग और कटने के जोखिम के कारण फ्रिज़िडेयर साइड बाय साइड रेफ्रिजरेटर की रिकॉल की",
+          "Description": "इलेक्ट्रोलक्स समूह ने 2015 से 2019 के बीच निर्मित स्लिम आइस बकेट वाले विशेष फ्रिज़िडेयर साइड बाय साइड रेफ्रिजरेटर की रिकॉल की है। प्रभावित मॉडल में DGHK2355TF, DGHX2655TF, FFSC2323TS, FGSC2335TD, FGSC2335TF, FGSS2635TD, FGSS2635TE, FGSS2635TF, FGSS2635TP, FPSC2277RF, FPSC2278UF, FPSS2677RF, LFSC2324VF, LGHK2336TD, LGHK2336TF, LGHX2636TD, और LGHX2636TF शामिल हैं। उपभोक्ता यह सत्यापित कर सकते हैं कि उनके रेफ्रिजरेटर का सीरियल नंबर इस रिकॉल का हिस्सा है या नहीं, इसके लिए वे https://www.frigidaire.com/en/frigidaire-recall-information पर जा सकते हैं। मॉडल और सीरियल नंबर रेफ्रिजरेटर के कम्पार्टमेंट के अंदर एक प्लेट पर स्थित होते हैं। प्रत्येक मॉडल का अंतिम अक्षर इसके रंग के रूपांतर को दर्शाता है: F और S स्टेनलेस स्टील के लिए, D डार्क स्टेनलेस स्टील के लिए, E काले रंग के लिए, और P सफेद रंग के लिए।",
+          "ConsumerContact": "सहायता के लिए, उपभोक्ता इलेक्ट्रोलक्स समूह से 888-377-7563 पर सोमवार से शुक्रवार, सुबह 8:30 बजे से शाम 8 बजे ET तक संपर्क कर सकते हैं, या ईमेल पर IceBucketRecall@electrolux.com पर, या www.icebucketrecall.com और www.frigidaire.com पर ऑनलाइन जाकर, जहां वे आगे की जानकारी के लिए 'रिकॉल जानकारी' पर क्लिक कर सकते हैं।",
+          "metaDescription": "इलेक्ट्रोलक्स ने चोकिंग और कटने के खतरों के कारण फ्रिज़िडेयर साइड बाय साइड रेफ्रिजरेटर की रिकॉल की। अपने मॉडल की जांच करें और मुफ्त प्रतिस्थापन के लिए संपर्क करें।",
+          "Products": [
+            {
+              "Name": "स्लिम आइस बकेट वाले फ्रिज़िडेयर साइड बाय साइड रेफ्रिजरेटर",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 383,240"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "रिकॉल किए गए उत्पादन वर्ष 2015-2019 के फ्रिज़िडेयर ब्रांडेड साइड बाय साइड रेफ्रिजरेटर स्लिम आइस बकेट के साथ"
+            },
+            {
+              "Caption": "रिकॉल किए गए उत्पादन वर्ष 2015-2019 के फ्रिज़िडेयर ब्रांडेड साइड बाय साइड रेफ्रिजरेटर स्लिम आइस बकेट के साथ"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "इलेक्ट्रोलक्स समूह को प्लास्टिक के टुकड़े टूटने की 343 रिपोर्ट मिली हैं, जिनमें से दो घटनाएं कटने और निगलने की चोटों का परिणाम बनीं जब ये टुकड़े रिकॉल किए गए आइस बकेट से बाहर निकाले गए।"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "लोव्स, होम डिपो, और विभिन्न अन्य खुदरा विक्रेता देशभर में, साथ ही फ्रिज़िडेयर.com पर, नवंबर 2015 से सितंबर 2019 तक, $1,400 से $2,400 के बीच कीमत पर।"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "इलेक्ट्रोलक्स होम प्रोडक्ट्स इंक., शार्लोट, नॉर्थ कैरोलिना"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "बिक्री पर",
+          "ManufacturerCountries": [
+            {
+              "Country": "मैक्सिको"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "टूटे हुए आइस बकेट असेंबली घटकों से चोकिंग और कटने के जोखिम"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "मुफ्त प्रतिस्थापन आइस बकेट असेंबली घटक का अनुरोध करें"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "मरम्मत"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "Группа Electrolux отзывает холодильники Frigidaire Side by Side из-за риска удушья и порезов",
+          "Description": "Группа Electrolux объявила об отзыве конкретных холодильников Frigidaire Side by Side с Slim Ice ведрами, произведенных с 2015 по 2019 год. Пострадавшие модели включают DGHK2355TF, DGHX2655TF, FFSC2323TS, FGSC2335TD, FGSC2335TF, FGSS2635TD, FGSS2635TE, FGSS2635TF, FGSS2635TP, FPSC2277RF, FPSC2278UF, FPSS2677RF, LFSC2324VF, LGHK2336TD, LGHK2336TF, LGHX2636TD и LGHX2636TF. Потребители могут проверить, входит ли серийный номер их холодильника в этот отзыв, посетив https://www.frigidaire.com/en/frigidaire-recall-information. Модель и серийные номера находятся на табличке внутри холодильного отсека. Последняя буква каждой модели указывает на ее цветовой вариант: F и S для нержавеющей стали, D для темной нержавеющей стали, E для черной окраски и P для белой окраски.",
+          "ConsumerContact": "Для получения помощи потребители могут обратиться в группу Electrolux по телефону 888-377-7563 с 8:30 до 20:00 по восточному времени с понедельника по пятницу, по электронной почте на IceBucketRecall@electrolux.com или онлайн на www.icebucketrecall.com и www.frigidaire.com, где они могут нажать на 'Информация об отзыве' для получения дополнительных деталей.",
+          "metaDescription": "Electrolux отзывает холодильники Frigidaire Side by Side из-за опасностей удушья и порезов. Проверьте свою модель и свяжитесь для бесплатной замены.",
+          "Products": [
+            {
+              "Name": "Холодильники Frigidaire Side by Side с Slim Ice ведрами",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 383,240"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванные холодильники Frigidaire Side by Side с Slim Ice ведрами, произведенные в 2015-2019 годах"
+            },
+            {
+              "Caption": "Отозванные холодильники Frigidaire Side by Side с Slim Ice ведрами, произведенные в 2015-2019 годах"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Группа Electrolux получила 343 сообщения о поломке пластиковых деталей, включая два случая, приведших к порезам и травмам от проглатывания, когда детали были выданы из отозванного ведра для льда."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Lowe's, Home Depot и различные другие розничные продавцы по всей стране, а также онлайн на Frigidaire.com, с ноября 2015 года по сентябрь 2019 года, по цене от 1,400 до 2,400 долларов."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Electrolux Home Products Inc., Шарлотт, Северная Каролина"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Продавалось в",
+          "ManufacturerCountries": [
+            {
+              "Country": "Мексика"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Риски удушья и порезов от сломанных компонентов сборки ведра для льда"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Запросите бесплатную замену компонента сборки ведра для льда"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Ремонт"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "Tập đoàn Electrolux thu hồi tủ lạnh Frigidaire Side by Side do nguy cơ nghẹt thở và cắt xé",
+          "Description": "Tập đoàn Electrolux đã phát động thu hồi cho các tủ lạnh Frigidaire side by side cụ thể có thùng đá Slim, được sản xuất từ năm 2015 đến 2019. Các mẫu bị ảnh hưởng bao gồm DGHK2355TF, DGHX2655TF, FFSC2323TS, FGSC2335TD, FGSC2335TF, FGSS2635TD, FGSS2635TE, FGSS2635TF, FGSS2635TP, FPSC2277RF, FPSC2278UF, FPSS2677RF, LFSC2324VF, LGHK2336TD, LGHK2336TF, LGHX2636TD, và LGHX2636TF. Người tiêu dùng có thể xác minh xem số sê-ri của tủ lạnh của họ có nằm trong đợt thu hồi này hay không bằng cách truy cập https://www.frigidaire.com/en/frigidaire-recall-information. Số mẫu và số sê-ri nằm trên một bảng bên trong ngăn tủ lạnh. Chữ cái cuối cùng của mỗi mẫu cho biết biến thể màu sắc của nó: F và S cho Thép không gỉ, D cho Thép không gỉ tối, E cho Sơn đen, và P cho Sơn trắng.",
+          "ConsumerContact": "Để được hỗ trợ, người tiêu dùng có thể liên hệ với Tập đoàn Electrolux qua số 888-377-7563 từ 8:30 sáng đến 8:00 tối ET từ thứ Hai đến thứ Sáu, qua email tại IceBucketRecall@electrolux.com, hoặc trực tuyến tại www.icebucketrecall.com và www.frigidaire.com, nơi họ có thể nhấp vào 'Thông tin thu hồi' để biết thêm chi tiết.",
+          "metaDescription": "Electrolux thu hồi tủ lạnh Frigidaire side by side do nguy cơ nghẹt thở và cắt xé. Kiểm tra mẫu của bạn và liên hệ để được thay thế miễn phí.",
+          "Products": [
+            {
+              "Name": "Tủ lạnh Frigidaire Side by Side với thùng đá Slim",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 383,240"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Tủ lạnh Frigidaire thương hiệu Side by Side bị thu hồi sản xuất năm 2015-2019 với thùng đá Slim"
+            },
+            {
+              "Caption": "Tủ lạnh Frigidaire thương hiệu Side by Side bị thu hồi sản xuất năm 2015-2019 với thùng đá Slim"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Tập đoàn Electrolux đã nhận được 343 báo cáo về các mảnh nhựa bị gãy, bao gồm hai sự cố dẫn đến chấn thương cắt xé và nuốt phải khi các mảnh này được phát ra từ thùng đá bị thu hồi."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Lowe's, Home Depot và nhiều nhà bán lẻ khác trên toàn quốc, cũng như trực tuyến tại Frigidaire.com, từ tháng 11 năm 2015 đến tháng 9 năm 2019, có giá từ 1,400 đến 2,400 đô la."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Electrolux Home Products Inc., tại Charlotte, Bắc Carolina"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Được bán tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Mexico"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Nguy cơ nghẹt thở và cắt xé từ các thành phần bị gãy của bộ phận thùng đá"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Yêu cầu thay thế miễn phí bộ phận thùng đá"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Sửa chữa"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    }
+  ]
+}

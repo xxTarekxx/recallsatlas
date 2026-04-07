@@ -3,12 +3,13 @@ import { isSiteUiLang, type SiteUiLang } from "@/lib/siteLocale";
 import { notFound } from "next/navigation";
 
 interface PageProps {
-  params: { lang: string; year: string };
+  params: Promise<{ lang: string; year: string }>;
 }
 
 export default async function LangYearPage({ params }: PageProps) {
-  if (!isSiteUiLang(params.lang) || params.lang === "en") notFound();
+  const { lang: langParam, year } = await params;
+  if (!isSiteUiLang(langParam) || langParam === "en") notFound();
   return (
-    <YearRecallsPage yearParam={params.year} uiLang={params.lang as SiteUiLang} />
+    <YearRecallsPage yearParam={year} uiLang={langParam as SiteUiLang} />
   );
 }

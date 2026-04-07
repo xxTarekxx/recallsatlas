@@ -1,0 +1,881 @@
+{
+  "meta": {
+    "slug": "lighting-equipment",
+    "sourceCsvFile": "lighting-equipment_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:36.994Z",
+    "recallCount": 1,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "lighting-equipment.json",
+    "seoTranslatedAt": "2026-04-04T06:44:08.754Z",
+    "resumePartial": false,
+    "i18nSource": "generalRecallsTranslated",
+    "i18nSourceFile": "lighting-equipment.json",
+    "i18nUiLangs": [
+      "en",
+      "es",
+      "ar",
+      "zh",
+      "fr",
+      "de",
+      "ja",
+      "pt",
+      "hi",
+      "ru",
+      "vi"
+    ],
+    "i18nProgressByLang": {
+      "es": 1,
+      "ar": 1,
+      "zh": 1,
+      "fr": 1,
+      "de": 1,
+      "ja": 1,
+      "pt": 1,
+      "hi": 1,
+      "ru": 1,
+      "vi": 1
+    },
+    "i18nInProgress": false,
+    "i18nTranslatedAt": "2026-04-07T13:09:00.874Z",
+    "i18nOpenaiModel": "gpt-4o-mini"
+  },
+  "recalls": [
+    {
+      "RecallID": 10297,
+      "RecallNumber": "25317",
+      "RecallDate": "2025-06-05T00:00:00",
+      "Description": "Lutron is recalling its power interfaces, model LU-PH3-B, designed for LED tape lights. These 96W hard-wired interfaces were sold individually and as part of Lumaris RGB+ tunable white LED tape light starter kits for RadioRA 3 systems (model RRL-MTK-RT-IN) and HomeWorks systems (model HWL-MTK-RT-IN). The recall is due to a potential shock hazard that can occur if the device fails during a significant power surge, such as a lightning strike.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/Lutron-Recalls-Power-Interfaces-for-LED-Tape-Lights-Due-to-Shock-Hazard",
+      "Title": "Lutron Recalls Power Interfaces for LED Tape Lights Due to Shock Risk",
+      "ConsumerContact": "For assistance, consumers can reach Lutron at 800-239-0495 from 8 a.m. to 5:30 p.m. ET, Monday through Friday, via email at productrecall@lutron.com, or visit https://residential.lutron.com/us/en/safety/safety-recall for more details.",
+      "LastPublishDate": "2025-06-05T00:00:00",
+      "Products": [
+        {
+          "Name": "Lutron Power Interfaces for LED Tape Lights",
+          "NumberOfUnits": "About 1,944"
+        }
+      ],
+      "Inconjunctions": [
+        {
+          "URL": "https://recalls-rappels.canada.ca/en/alert-recall/lutron-power-interface-led-tape-lights-recalled-due-potential-shock-hazard"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/lighting-equipment/1-Lutron-Power-Interfaces-for-LED-Tape-Lights/6930528b9fc678b2198a292e37b03b61.webp",
+          "Caption": "Recalled Lutron Power Interface (model LU-PH3-B)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Lutron-1.png"
+        },
+        {
+          "URL": "/images/generalRecalls/lighting-equipment/1-Lutron-Power-Interfaces-for-LED-Tape-Lights/57acc73caafc40e71d3a7ccde3a12b4b.webp",
+          "Caption": "Close up of product label on recalled Lutron Power Interface",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Lutron-2.png"
+        },
+        {
+          "URL": "/images/generalRecalls/lighting-equipment/1-Lutron-Power-Interfaces-for-LED-Tape-Lights/eff0e194ec104b505ccffecbc528a59d.webp",
+          "Caption": "RadioRA 3 LED tape light starter kit package label lists the recalled power interface",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Lutron-3.png"
+        },
+        {
+          "URL": "/images/generalRecalls/lighting-equipment/1-Lutron-Power-Interfaces-for-LED-Tape-Lights/5c5465f89814e74941323bc4473dfebb.webp",
+          "Caption": "HomeWorks LED tape light starter kit package label lists the recalled power interface",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Lutron-4.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available through dealers and distributors of audiovisual equipment and electrical supplies nationwide from September 2024 to April 2025, priced around $300 for the power interfaces and between $1,250 and $1,400 for the Lumaris LED tape light starter kits and HomeWorks systems."
+        }
+      ],
+      "Distributors": [
+        {
+          "Name": "Lutron Electronics Co. Inc., of Coopersburg, Pennsylvania"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Shock hazard due to potential power interface failure during power surges"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Stop using the recalled power interfaces and connected lighting; contact Lutron for a free replacement and installation"
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Replace"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "LU-PH3-B",
+        "RRL-MTK-RT-IN",
+        "HWL-MTK-RT-IN"
+      ],
+      "slug": "lutron-recalls-power-interfaces-for-led-tape-lights-due-to-shock-risk-recall",
+      "metaDescription": "Lutron recalls power interfaces for LED tape lights due to shock risk. Stop using and contact Lutron for a free replacement.",
+      "languages": {
+        "en": {
+          "Title": "Lutron Recalls Power Interfaces for LED Tape Lights Due to Shock Risk",
+          "Description": "Lutron is recalling its power interfaces, model LU-PH3-B, designed for LED tape lights. These 96W hard-wired interfaces were sold individually and as part of Lumaris RGB+ tunable white LED tape light starter kits for RadioRA 3 systems (model RRL-MTK-RT-IN) and HomeWorks systems (model HWL-MTK-RT-IN). The recall is due to a potential shock hazard that can occur if the device fails during a significant power surge, such as a lightning strike.",
+          "ConsumerContact": "For assistance, consumers can reach Lutron at 800-239-0495 from 8 a.m. to 5:30 p.m. ET, Monday through Friday, via email at productrecall@lutron.com, or visit https://residential.lutron.com/us/en/safety/safety-recall for more details.",
+          "metaDescription": "Lutron recalls power interfaces for LED tape lights due to shock risk. Stop using and contact Lutron for a free replacement.",
+          "Products": [
+            {
+              "Name": "Lutron Power Interfaces for LED Tape Lights",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 1,944"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled Lutron Power Interface (model LU-PH3-B)"
+            },
+            {
+              "Caption": "Close up of product label on recalled Lutron Power Interface"
+            },
+            {
+              "Caption": "RadioRA 3 LED tape light starter kit package label lists the recalled power interface"
+            },
+            {
+              "Caption": "HomeWorks LED tape light starter kit package label lists the recalled power interface"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "None reported"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Available through dealers and distributors of audiovisual equipment and electrical supplies nationwide from September 2024 to April 2025, priced around $300 for the power interfaces and between $1,250 and $1,400 for the Lumaris LED tape light starter kits and HomeWorks systems."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Lutron Electronics Co. Inc., of Coopersburg, Pennsylvania"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Sold At",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Shock hazard due to potential power interface failure during power surges"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Stop using the recalled power interfaces and connected lighting; contact Lutron for a free replacement and installation"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Replace"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "Lutron recuerda interfaces de potencia para luces de cinta LED debido al riesgo de descarga eléctrica",
+          "Description": "Lutron está recordando sus interfaces de potencia, modelo LU-PH3-B, diseñadas para luces de cinta LED. Estas interfaces de 96W cableadas se vendieron individualmente y como parte de kits de inicio de luces de cinta LED Lumaris RGB+ de temperatura de color ajustable para sistemas RadioRA 3 (modelo RRL-MTK-RT-IN) y sistemas HomeWorks (modelo HWL-MTK-RT-IN). El retiro se debe a un posible riesgo de descarga eléctrica que puede ocurrir si el dispositivo falla durante un aumento de energía significativo, como un rayo.",
+          "ConsumerContact": "Para asistencia, los consumidores pueden comunicarse con Lutron al 800-239-0495 de 8 a.m. a 5:30 p.m. ET, de lunes a viernes, por correo electrónico a productrecall@lutron.com, o visitar https://residential.lutron.com/us/en/safety/safety-recall para más detalles.",
+          "metaDescription": "Lutron recuerda interfaces de potencia para luces de cinta LED debido al riesgo de descarga eléctrica. Deje de usar y comuníquese con Lutron para un reemplazo gratuito.",
+          "Products": [
+            {
+              "Name": "Interfaces de potencia Lutron para luces de cinta LED",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 1,944"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Interface de potencia Lutron retirada (modelo LU-PH3-B)"
+            },
+            {
+              "Caption": "Primer plano de la etiqueta del producto en la interface de potencia Lutron retirada"
+            },
+            {
+              "Caption": "La etiqueta del paquete del kit de inicio de luces de cinta LED RadioRA 3 lista la interface de potencia retirada"
+            },
+            {
+              "Caption": "La etiqueta del paquete del kit de inicio de luces de cinta LED HomeWorks lista la interface de potencia retirada"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Ninguna reportada"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible a través de distribuidores y distribuidores de equipos audiovisuales y suministros eléctricos en todo el país desde septiembre de 2024 hasta abril de 2025, con un precio de alrededor de $300 para las interfaces de potencia y entre $1,250 y $1,400 para los kits de inicio de luces de cinta LED Lumaris y sistemas HomeWorks."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Lutron Electronics Co. Inc., de Coopersburg, Pennsylvania"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendidos en",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Riesgo de descarga eléctrica debido a la posible falla de la interface de potencia durante picos de energía"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Deje de usar las interfaces de potencia retiradas y la iluminación conectada; comuníquese con Lutron para un reemplazo e instalación gratuitos"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reemplazar"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "استدعاء لوتрон لواجهات الطاقة لأضواء الشريط LED بسبب خطر الصدمة",
+          "Description": "تقوم لوتрон باستدعاء واجهات الطاقة الخاصة بها، طراز LU-PH3-B، المصممة لأضواء الشريط LED. تم بيع هذه الواجهات الصلبة بقدرة 96 واط بشكل فردي وكجزء من مجموعات بدء تشغيل أضواء الشريط LED القابلة للتعديل Lumaris RGB+ لأنظمة RadioRA 3 (طراز RRL-MTK-RT-IN) وأنظمة HomeWorks (طراز HWL-MTK-RT-IN). يعود سبب الاستدعاء إلى خطر محتمل للصدمة يمكن أن يحدث إذا فشل الجهاز أثناء زيادة كبيرة في الطاقة، مثل ضربة برق.",
+          "ConsumerContact": "للحصول على المساعدة، يمكن للمستهلكين الاتصال بلوتрон على الرقم 800-239-0495 من الساعة 8 صباحًا حتى 5:30 مساءً بتوقيت شرق الولايات المتحدة، من الاثنين إلى الجمعة، عبر البريد الإلكتروني على productrecall@lutron.com، أو زيارة https://residential.lutron.com/us/en/safety/safety-recall لمزيد من التفاصيل.",
+          "metaDescription": "تستدعي لوتron واجهات الطاقة لأضواء الشريط LED بسبب خطر الصدمة. توقف عن الاستخدام واتصل بلوتron للحصول على بديل مجاني.",
+          "Products": [
+            {
+              "Name": "واجهات طاقة لوتron لأضواء الشريط LED",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 1,944"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "واجهة طاقة لوتron المستدعاه (طراز LU-PH3-B)"
+            },
+            {
+              "Caption": "صورة مقربة لملصق المنتج على واجهة طاقة لوتron المستدعاه"
+            },
+            {
+              "Caption": "ملصق حزمة مجموعة بدء تشغيل أضواء الشريط LED RadioRA 3 يدرج واجهة الطاقة المستدعاه"
+            },
+            {
+              "Caption": "ملصق حزمة مجموعة بدء تشغيل أضواء الشريط LED HomeWorks يدرج واجهة الطاقة المستدعاه"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "لا توجد إصابات مسجلة"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "متاحة من خلال الوكلاء والموزعين لمعدات الصوت والصورة والإمدادات الكهربائية في جميع أنحاء البلاد من سبتمبر 2024 إلى أبريل 2025، بسعر حوالي 300 دولار لواجهات الطاقة وبين 1,250 و 1,400 دولار لمجموعات بدء تشغيل أضواء الشريط LED Lumaris وأنظمة HomeWorks."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "شركة لوتron للإلكترونيات، من كوبرسبورغ، بنسلفانيا"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "تم البيع في",
+          "ManufacturerCountries": [
+            {
+              "Country": "الصين"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "خطر الصدمة بسبب احتمال فشل واجهة الطاقة أثناء زيادة الطاقة"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "توقف عن استخدام واجهات الطاقة المستدعاه والإضاءة المتصلة؛ اتصل بلوتron للحصول على بديل مجاني وتركيب"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "استبدال"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "Lutron召回LED灯带电源接口因触电风险",
+          "Description": "Lutron正在召回其电源接口，型号为LU-PH3-B，专为LED灯带设计。这些96W硬接线接口单独出售，也作为RadioRA 3系统（型号RRL-MTK-RT-IN）和HomeWorks系统（型号HWL-MTK-RT-IN）Lumaris RGB+可调白色LED灯带启动套件的一部分出售。召回的原因是设备在重大电力浪涌（如雷击）期间可能发生故障，从而导致潜在的触电危险。",
+          "ConsumerContact": "如需帮助，消费者可以在东部时间周一至周五上午8点至下午5点30分拨打Lutron电话800-239-0495，或通过电子邮件联系productrecall@lutron.com，或访问https://residential.lutron.com/us/en/safety/safety-recall获取更多详细信息。",
+          "metaDescription": "Lutron召回LED灯带电源接口因触电风险。停止使用并联系Lutron以获取免费更换。",
+          "Products": [
+            {
+              "Name": "Lutron LED灯带电源接口",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约1,944"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "召回的Lutron电源接口（型号LU-PH3-B）"
+            },
+            {
+              "Caption": "召回的Lutron电源接口产品标签特写"
+            },
+            {
+              "Caption": "RadioRA 3 LED灯带启动套件包装标签列出了召回的电源接口"
+            },
+            {
+              "Caption": "HomeWorks LED灯带启动套件包装标签列出了召回的电源接口"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "无报告"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "通过全国音视频设备和电气用品的经销商和分销商提供，从2024年9月到2025年4月，电源接口价格约为300美元，Lumaris LED灯带启动套件和HomeWorks系统价格在1,250美元到1,400美元之间。"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Lutron Electronics Co. Inc.，位于宾夕法尼亚州库珀斯堡"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "销售地点",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "由于电源接口在电力浪涌期间可能发生故障而导致的触电危险"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "停止使用召回的电源接口和连接的照明设备；联系Lutron以获取免费更换和安装"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "更换"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "Lutron rappelle des interfaces d'alimentation pour lumières LED en raison d'un risque de choc",
+          "Description": "Lutron rappelle ses interfaces d'alimentation, modèle LU-PH3-B, conçues pour les lumières LED à bande. Ces interfaces câblées de 96W ont été vendues individuellement et dans le cadre de kits de démarrage de lumières LED à bande Lumaris RGB+ à température de couleur réglable pour les systèmes RadioRA 3 (modèle RRL-MTK-RT-IN) et les systèmes HomeWorks (modèle HWL-MTK-RT-IN). Le rappel est dû à un risque potentiel de choc qui peut survenir si l'appareil échoue lors d'une surtension importante, comme une foudre.",
+          "ConsumerContact": "Pour assistance, les consommateurs peuvent contacter Lutron au 800-239-0495 de 8 h à 17 h 30 HE, du lundi au vendredi, par e-mail à productrecall@lutron.com, ou visiter https://residential.lutron.com/us/en/safety/safety-recall pour plus de détails.",
+          "metaDescription": "Lutron rappelle des interfaces d'alimentation pour lumières LED en raison d'un risque de choc. Cessez d'utiliser et contactez Lutron pour un remplacement gratuit.",
+          "Products": [
+            {
+              "Name": "Interfaces d'alimentation Lutron pour lumières LED",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 1 944"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Interface d'alimentation Lutron rappelée (modèle LU-PH3-B)"
+            },
+            {
+              "Caption": "Gros plan de l'étiquette du produit sur l'interface d'alimentation Lutron rappelée"
+            },
+            {
+              "Caption": "L'étiquette de l'emballage du kit de démarrage de lumière LED RadioRA 3 mentionne l'interface d'alimentation rappelée"
+            },
+            {
+              "Caption": "L'étiquette de l'emballage du kit de démarrage de lumière LED HomeWorks mentionne l'interface d'alimentation rappelée"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Aucun rapporté"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible auprès des revendeurs et distributeurs d'équipements audiovisuels et de fournitures électriques à l'échelle nationale de septembre 2024 à avril 2025, au prix d'environ 300 $ pour les interfaces d'alimentation et entre 1 250 $ et 1 400 $ pour les kits de démarrage de lumières LED Lumaris et les systèmes HomeWorks."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Lutron Electronics Co. Inc., de Coopersburg, Pennsylvanie"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendu chez",
+          "ManufacturerCountries": [
+            {
+              "Country": "Chine"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risque de choc en raison d'une éventuelle défaillance de l'interface d'alimentation lors de surtensions"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Cessez d'utiliser les interfaces d'alimentation rappelées et l'éclairage connecté ; contactez Lutron pour un remplacement et une installation gratuits"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Remplacer"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "Lutron ruft Stromschnittstellen für LED-Bandlichter wegen Schockgefahr zurück",
+          "Description": "Lutron ruft seine Stromschnittstellen, Modell LU-PH3-B, zurück, die für LED-Bandlichter entwickelt wurden. Diese 96W festverdrahteten Schnittstellen wurden einzeln und als Teil von Lumaris RGB+ dimmbaren weißen LED-Bandlicht-Startkits für RadioRA 3-Systeme (Modell RRL-MTK-RT-IN) und HomeWorks-Systeme (Modell HWL-MTK-RT-IN) verkauft. Der Rückruf erfolgt aufgrund einer potenziellen Schockgefahr, die auftreten kann, wenn das Gerät während eines signifikanten Stromstoßes, wie z.B. einem Blitzschlag, ausfällt.",
+          "ConsumerContact": "Für Unterstützung können Verbraucher Lutron unter 800-239-0495 von 8:00 bis 17:30 Uhr ET, Montag bis Freitag, per E-Mail an productrecall@lutron.com oder unter https://residential.lutron.com/us/en/safety/safety-recall für weitere Details kontaktieren.",
+          "metaDescription": "Lutron ruft Stromschnittstellen für LED-Bandlichter wegen Schockgefahr zurück. Verwenden Sie das Produkt nicht mehr und kontaktieren Sie Lutron für einen kostenlosen Ersatz.",
+          "Products": [
+            {
+              "Name": "Lutron Stromschnittstellen für LED-Bandlichter",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 1.944"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Zurückgerufene Lutron Stromschnittstelle (Modell LU-PH3-B)"
+            },
+            {
+              "Caption": "Nahaufnahme des Produktetiketts auf der zurückgerufenen Lutron Stromschnittstelle"
+            },
+            {
+              "Caption": "Das Etikett der Verpackung des RadioRA 3 LED-Bandlicht-Startkits listet die zurückgerufene Stromschnittstelle auf"
+            },
+            {
+              "Caption": "Das Etikett der Verpackung des HomeWorks LED-Bandlicht-Startkits listet die zurückgerufene Stromschnittstelle auf"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Keine gemeldet"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Erhältlich über Händler und Vertriebsstellen für audiovisuelle Geräte und elektrische Lieferungen landesweit von September 2024 bis April 2025, preislich etwa 300 $ für die Stromschnittstellen und zwischen 1.250 $ und 1.400 $ für die Lumaris LED-Bandlicht-Startkits und HomeWorks-Systeme."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Lutron Electronics Co. Inc., aus Coopersburg, Pennsylvania"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Verkauft bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Schockgefahr aufgrund möglicher Ausfälle der Stromschnittstelle während Stromstößen"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Verwenden Sie die zurückgerufenen Stromschnittstellen und die angeschlossene Beleuchtung nicht mehr; kontaktieren Sie Lutron für einen kostenlosen Ersatz und Installation"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Ersetzen"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "ルートロン、ショックリスクのためLEDテープライト用電源インターフェースをリコール",
+          "Description": "ルートロンは、LEDテープライト用に設計された電源インターフェース、モデルLU-PH3-Bをリコールしています。これらの96Wハードワイヤードインターフェースは、個別に販売され、RadioRA 3システム（モデルRRL-MTK-RT-IN）およびHomeWorksシステム（モデルHWL-MTK-RT-IN）のLumaris RGB+調光可能な白色LEDテープライトスターターキットの一部として販売されました。このリコールは、デバイスが雷撃などの大規模な電力サージ中に故障した場合に発生する可能性のあるショックハザードに起因しています。",
+          "ConsumerContact": "サポートが必要な場合、消費者は月曜日から金曜日の午前8時から午後5時30分（ET）まで、800-239-0495でルートロンに連絡するか、productrecall@lutron.comまでメールを送信するか、詳細についてはhttps://residential.lutron.com/us/en/safety/safety-recallを訪問してください。",
+          "metaDescription": "ルートロンはショックリスクのためLEDテープライト用電源インターフェースをリコールします。使用を中止し、無料の交換のためにルートロンに連絡してください。",
+          "Products": [
+            {
+              "Name": "ルートロンLEDテープライト用電源インターフェース",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約1,944"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコールされたルートロン電源インターフェース（モデルLU-PH3-B）"
+            },
+            {
+              "Caption": "リコールされたルートロン電源インターフェースの製品ラベルのクローズアップ"
+            },
+            {
+              "Caption": "RadioRA 3 LEDテープライトスターターキットパッケージラベルにリコールされた電源インターフェースが記載されています"
+            },
+            {
+              "Caption": "HomeWorks LEDテープライトスターターキットパッケージラベルにリコールされた電源インターフェースが記載されています"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "報告された怪我はありません"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "2024年9月から2025年4月まで、全国のAV機器および電気用品のディーラーおよびディストリビューターを通じて販売され、電源インターフェースは約300ドル、Lumaris LEDテープライトスターターキットおよびHomeWorksシステムは1,250ドルから1,400ドルの価格です。"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "ペンシルベニア州クーパーズバーグのルートロンエレクトロニクス社"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "販売場所",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "電力サージ中の電源インターフェースの故障によるショックハザード"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "リコールされた電源インターフェースと接続された照明の使用を中止し、ルートロンに連絡して無料の交換と設置を受ける"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "交換"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "Lutron Recall de Interfaces de Energia para Luzes de Fita LED Devido ao Risco de Choque",
+          "Description": "A Lutron está recallando suas interfaces de energia, modelo LU-PH3-B, projetadas para luzes de fita LED. Essas interfaces de 96W com fiação fixa foram vendidas individualmente e como parte de kits iniciais de luzes de fita LED Lumaris RGB+ ajustáveis em branco para sistemas RadioRA 3 (modelo RRL-MTK-RT-IN) e sistemas HomeWorks (modelo HWL-MTK-RT-IN). O recall é devido a um potencial risco de choque que pode ocorrer se o dispositivo falhar durante um aumento significativo de energia, como um raio.",
+          "ConsumerContact": "Para assistência, os consumidores podem entrar em contato com a Lutron pelo telefone 800-239-0495 das 8h às 17h30 ET, de segunda a sexta-feira, pelo e-mail productrecall@lutron.com, ou visitar https://residential.lutron.com/us/en/safety/safety-recall para mais detalhes.",
+          "metaDescription": "A Lutron recall de interfaces de energia para luzes de fita LED devido ao risco de choque. Pare de usar e entre em contato com a Lutron para uma substituição gratuita.",
+          "Products": [
+            {
+              "Name": "Interfaces de Energia Lutron para Luzes de Fita LED",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 1.944"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Interface de Energia Lutron Recallada (modelo LU-PH3-B)"
+            },
+            {
+              "Caption": "Close up do rótulo do produto na Interface de Energia Lutron Recallada"
+            },
+            {
+              "Caption": "Rótulo da embalagem do kit inicial de luzes de fita LED RadioRA 3 lista a interface de energia recallada"
+            },
+            {
+              "Caption": "Rótulo da embalagem do kit inicial de luzes de fita LED HomeWorks lista a interface de energia recallada"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Nenhuma relatada"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponível através de revendedores e distribuidores de equipamentos audiovisuais e suprimentos elétricos em todo o país de setembro de 2024 a abril de 2025, com preço em torno de $300 para as interfaces de energia e entre $1.250 e $1.400 para os kits iniciais de luzes de fita LED Lumaris e sistemas HomeWorks."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Lutron Electronics Co. Inc., de Coopersburg, Pennsylvania"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendidos Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risco de choque devido à falha potencial da interface de energia durante picos de energia"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Pare de usar as interfaces de energia recalladas e a iluminação conectada; entre em contato com a Lutron para uma substituição e instalação gratuitas"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Substituir"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "लुट्रॉन ने शॉक जोखिम के कारण एलईडी टेप लाइट्स के लिए पावर इंटरफेस वापस बुलाए",
+          "Description": "लुट्रॉन अपने पावर इंटरफेस, मॉडल LU-PH3-B, को वापस बुला रहा है, जो एलईडी टेप लाइट्स के लिए डिज़ाइन किए गए हैं। ये 96W हार्ड-वायर्ड इंटरफेस व्यक्तिगत रूप से और रेडियोआरए 3 सिस्टम (मॉडल RRL-MTK-RT-IN) और होमवर्क्स सिस्टम (मॉडल HWL-MTK-RT-IN) के लिए लुमारिस RGB+ ट्यून करने योग्य सफेद एलईडी टेप लाइट स्टार्ट किट के हिस्से के रूप में बेचे गए थे। यह वापस बुलाने का कारण एक संभावित शॉक खतरा है जो तब हो सकता है जब डिवाइस महत्वपूर्ण पावर सर्ज के दौरान विफल हो जाए, जैसे कि बिजली गिरना।",
+          "ConsumerContact": "सहायता के लिए, उपभोक्ता लुट्रॉन से 800-239-0495 पर सुबह 8 बजे से शाम 5:30 बजे ET, सोमवार से शुक्रवार तक संपर्क कर सकते हैं, या productrecall@lutron.com पर ईमेल कर सकते हैं, या अधिक जानकारी के लिए https://residential.lutron.com/us/en/safety/safety-recall पर जा सकते हैं।",
+          "metaDescription": "लुट्रॉन शॉक जोखिम के कारण एलईडी टेप लाइट्स के लिए पावर इंटरफेस वापस बुलाता है। उपयोग करना बंद करें और मुफ्त प्रतिस्थापन के लिए लुट्रॉन से संपर्क करें।",
+          "Products": [
+            {
+              "Name": "एलईडी टेप लाइट्स के लिए लुट्रॉन पावर इंटरफेस",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 1,944"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "वापस बुलाया गया लुट्रॉन पावर इंटरफेस (मॉडल LU-PH3-B)"
+            },
+            {
+              "Caption": "वापस बुलाए गए लुट्रॉन पावर इंटरफेस पर उत्पाद लेबल का क्लोज़ अप"
+            },
+            {
+              "Caption": "रेडियोआरए 3 एलईडी टेप लाइट स्टार्ट किट पैकेज लेबल पर वापस बुलाए गए पावर इंटरफेस की सूची"
+            },
+            {
+              "Caption": "होमवर्क्स एलईडी टेप लाइट स्टार्ट किट पैकेज लेबल पर वापस बुलाए गए पावर इंटरफेस की सूची"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "कोई रिपोर्ट नहीं"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "सितंबर 2024 से अप्रैल 2025 तक ऑडियोविज़ुअल उपकरण और इलेक्ट्रिकल सप्लाई के डीलरों और वितरकों के माध्यम से उपलब्ध, पावर इंटरफेस के लिए लगभग $300 और लुमारिस एलईडी टेप लाइट स्टार्ट किट और होमवर्क्स सिस्टम के लिए $1,250 से $1,400 के बीच की कीमत पर।"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "लुट्रॉन इलेक्ट्रॉनिक्स कंपनी इंक, कूपर्सबर्ग, पेंसिल्वेनिया"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "चीन"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "पावर सर्ज के दौरान पावर इंटरफेस विफलता के कारण शॉक खतरा"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "वापस बुलाए गए पावर इंटरफेस और जुड़े प्रकाश का उपयोग करना बंद करें; मुफ्त प्रतिस्थापन और स्थापना के लिए लुट्रॉन से संपर्क करें"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "बदलें"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "Lutron отзывает блоки питания для светодиодных лент из-за риска удара током",
+          "Description": "Lutron отзывает свои блоки питания, модель LU-PH3-B, предназначенные для светодиодных лент. Эти 96W жестко подключенные блоки продавались по отдельности и в составе стартовых комплектов светодиодных лент Lumaris RGB+ с настраиваемым белым светом для систем RadioRA 3 (модель RRL-MTK-RT-IN) и систем HomeWorks (модель HWL-MTK-RT-IN). Отзыв вызван потенциальной опасностью удара током, которая может возникнуть, если устройство выйдет из строя во время значительного скачка напряжения, например, при ударе молнии.",
+          "ConsumerContact": "Для получения помощи потребители могут обратиться в Lutron по телефону 800-239-0495 с 8:00 до 17:30 по восточному времени, с понедельника по пятницу, по электронной почте productrecall@lutron.com или посетить https://residential.lutron.com/us/en/safety/safety-recall для получения дополнительной информации.",
+          "metaDescription": "Lutron отзывает блоки питания для светодиодных лент из-за риска удара током. Прекратите использование и свяжитесь с Lutron для бесплатной замены.",
+          "Products": [
+            {
+              "Name": "Блоки питания Lutron для светодиодных лент",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 1,944"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванный блок питания Lutron (модель LU-PH3-B)"
+            },
+            {
+              "Caption": "Близкий план этикетки продукта на отозванном блоке питания Lutron"
+            },
+            {
+              "Caption": "Этикетка упаковки стартового комплекта светодиодной ленты RadioRA 3 указывает на отозванный блок питания"
+            },
+            {
+              "Caption": "Этикетка упаковки стартового комплекта светодиодной ленты HomeWorks указывает на отозванный блок питания"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Не сообщалось"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Доступно через дилеров и дистрибьюторов аудиовизуального оборудования и электрических принадлежностей по всей стране с сентября 2024 года по апрель 2025 года, цена около 300 долларов за блоки питания и от 1,250 до 1,400 долларов за стартовые комплекты светодиодных лент Lumaris и системы HomeWorks."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Lutron Electronics Co. Inc., Куперсбург, Пенсильвания"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Продавалось в",
+          "ManufacturerCountries": [
+            {
+              "Country": "Китай"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Опасность удара током из-за потенциального выхода из строя блока питания во время скачков напряжения"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Прекратите использование отозванных блоков питания и подключенного освещения; свяжитесь с Lutron для бесплатной замены и установки"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Заменить"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "Lutron thu hồi các giao diện nguồn cho đèn LED tape do nguy cơ sốc điện",
+          "Description": "Lutron đang thu hồi các giao diện nguồn của mình, mẫu LU-PH3-B, được thiết kế cho đèn LED tape. Các giao diện cứng 96W này được bán riêng lẻ và như một phần của bộ khởi động đèn LED tape Lumaris RGB+ có thể điều chỉnh trắng cho hệ thống RadioRA 3 (mẫu RRL-MTK-RT-IN) và hệ thống HomeWorks (mẫu HWL-MTK-RT-IN). Việc thu hồi này là do nguy cơ sốc điện tiềm ẩn có thể xảy ra nếu thiết bị gặp sự cố trong một đợt tăng điện lớn, chẳng hạn như do sét đánh.",
+          "ConsumerContact": "Để được hỗ trợ, người tiêu dùng có thể liên hệ với Lutron qua số 800-239-0495 từ 8 giờ sáng đến 5:30 chiều ET, từ thứ Hai đến thứ Sáu, qua email tại productrecall@lutron.com, hoặc truy cập https://residential.lutron.com/us/en/safety/safety-recall để biết thêm chi tiết.",
+          "metaDescription": "Lutron thu hồi các giao diện nguồn cho đèn LED tape do nguy cơ sốc điện. Ngừng sử dụng và liên hệ với Lutron để được thay thế miễn phí.",
+          "Products": [
+            {
+              "Name": "Giao diện nguồn Lutron cho đèn LED tape",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 1,944"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Giao diện nguồn Lutron bị thu hồi (mẫu LU-PH3-B)"
+            },
+            {
+              "Caption": "Cận cảnh nhãn sản phẩm trên giao diện nguồn Lutron bị thu hồi"
+            },
+            {
+              "Caption": "Nhãn gói bộ khởi động đèn LED tape RadioRA 3 liệt kê giao diện nguồn bị thu hồi"
+            },
+            {
+              "Caption": "Nhãn gói bộ khởi động đèn LED tape HomeWorks liệt kê giao diện nguồn bị thu hồi"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Không có báo cáo"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Có sẵn thông qua các đại lý và nhà phân phối thiết bị nghe nhìn và vật tư điện trên toàn quốc từ tháng 9 năm 2024 đến tháng 4 năm 2025, giá khoảng 300 đô la cho các giao diện nguồn và từ 1,250 đến 1,400 đô la cho các bộ khởi động đèn LED tape Lumaris và hệ thống HomeWorks."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Lutron Electronics Co. Inc., ở Coopersburg, Pennsylvania"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Bán Tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Trung Quốc"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Nguy cơ sốc điện do sự cố tiềm ẩn của giao diện nguồn trong các đợt tăng điện"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Ngừng sử dụng các giao diện nguồn bị thu hồi và đèn chiếu sáng kết nối; liên hệ với Lutron để được thay thế và lắp đặt miễn phí"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Thay thế"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    }
+  ]
+}
