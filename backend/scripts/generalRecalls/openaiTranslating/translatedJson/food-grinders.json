@@ -33,11 +33,11 @@
       "ja": 1,
       "pt": 1,
       "hi": 1,
-      "ru": 0,
-      "vi": 0
+      "ru": 1,
+      "vi": 1
     },
-    "i18nInProgress": true,
-    "i18nTranslatedAt": "2026-04-07T05:18:06.680Z",
+    "i18nInProgress": false,
+    "i18nTranslatedAt": "2026-04-07T05:18:31.304Z",
     "i18nOpenaiModel": "gpt-4o-mini"
   },
   "recalls": [
@@ -740,6 +740,144 @@
           ],
           "dir": "ltr",
           "lang": "hi"
+        },
+        "ru": {
+          "Title": "Walmart отзывает электрические мини-измельчители Mainstays из-за риска порезов",
+          "Description": "Walmart отзывает электрические мини-измельчители Mainstays, номер модели MS14100094536S1, из-за потенциальной опасности порезов. Эти перезаряжаемые, беспроводные измельчители имеют зеленую крышку, белый корпус и прозрачную пластиковую чашу, оснащенную насадкой с тремя изогнутыми лезвиями на белом пластиковом шпинделе. Номер модели находится на ярлыке на дне чаши.",
+          "ConsumerContact": "Для получения помощи свяжитесь с Walmart по телефону 800-925-6278 с 7:00 до 21:00 по центральному времени ежедневно или посетите https://corporate.walmart.com/recalls для получения дополнительной информации.",
+          "metaDescription": "Walmart отзывает электрические мини-измельчители Mainstays из-за риска порезов. Прекратите использование и свяжитесь с Walmart для получения возврата.",
+          "Products": [
+            {
+              "Name": "Электрический мини-измельчитель Mainstays",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 51,750"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Контейнер отозванного электрического мини-измельчителя Mainstays с лезвием и крышкой"
+            },
+            {
+              "Caption": "Собранный отозванный электрический мини-измельчитель Mainstays"
+            },
+            {
+              "Caption": "Собранный отозванный электрический мини-измельчитель Mainstays"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Walmart получил пять сообщений о порезах, два из которых потребовали медицинской помощи, включая наложение швов. Травмы произошли во время сборки продукта или во время чистки/обращения с продуктом."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Доступно в магазинах Walmart по всей территории США и онлайн на Walmart.com с августа 2022 года по октябрь 2023 года, по цене от 10 до 15 долларов."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Walmart Stores Inc., Бентонвилл, Арканзас"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Shuangma Plastic Manufacturing Inc., Китай"
+            }
+          ],
+          "SoldAtLabel": "Продается исключительно в",
+          "ManufacturerCountries": [
+            {
+              "Country": "Китай"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Неожиданная работа лезвия во время сборки или когда оно не закрыто, что приводит к риску порезов."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Немедленно прекратите использование отозванных измельчителей и свяжитесь с Walmart для полного возврата. Верните измельчитель в любой магазин Walmart для получения возврата."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Возврат"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "Walmart Thông Báo Thu Hồi Máy Xay Mini Điện Mainstays Do Nguy Cơ Bị Cắt",
+          "Description": "Walmart đang thu hồi Máy Xay Mini Điện Mainstays, số mẫu MS14100094536S1, do nguy cơ bị cắt tiềm ẩn. Những máy xay không dây, có thể sạc này có nắp màu xanh, thân màu trắng và một bát nhựa trong suốt, được trang bị một đầu lưỡi có ba lưỡi cong trên một trục nhựa trắng. Số mẫu được đặt trên một nhãn ở đáy bát.",
+          "ConsumerContact": "Để được hỗ trợ, hãy liên hệ với Walmart theo số 800-925-6278 từ 7 giờ sáng đến 9 giờ tối theo giờ CT hàng ngày, hoặc truy cập https://corporate.walmart.com/recalls để biết thêm chi tiết.",
+          "metaDescription": "Walmart thu hồi Máy Xay Mini Điện Mainstays do nguy cơ bị cắt. Ngừng sử dụng và liên hệ với Walmart để được hoàn tiền.",
+          "Products": [
+            {
+              "Name": "Máy Xay Mini Điện Mainstays",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 51,750"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Hộp đựng Máy Xay Mini Điện Mainstays bị thu hồi với lưỡi và nắp"
+            },
+            {
+              "Caption": "Máy Xay Mini Điện Mainstays bị thu hồi đã lắp ráp"
+            },
+            {
+              "Caption": "Máy Xay Mini Điện Mainstays bị thu hồi đã lắp ráp"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Walmart đã nhận được năm báo cáo về các vết cắt, hai trong số đó cần được chăm sóc y tế, bao gồm cả khâu. Các chấn thương xảy ra trong quá trình lắp ráp sản phẩm hoặc trong quá trình vệ sinh/xử lý sản phẩm."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Có sẵn tại các cửa hàng Walmart trên toàn nước Mỹ và trực tuyến tại Walmart.com từ tháng 8 năm 2022 đến tháng 10 năm 2023, có giá từ 10 đến 15 đô la."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Walmart Stores Inc., tại Bentonville, Arkansas"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Công ty Sản xuất Nhựa Shuangma, Trung Quốc"
+            }
+          ],
+          "SoldAtLabel": "Chỉ Bán Tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Trung Quốc"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Hoạt động lưỡi không mong muốn trong quá trình lắp ráp hoặc khi không được bao bọc, dẫn đến nguy cơ bị cắt."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Ngừng sử dụng ngay lập tức các máy xay bị thu hồi và liên hệ với Walmart để được hoàn tiền đầy đủ. Trả lại máy xay tại bất kỳ cửa hàng Walmart nào để được hoàn tiền."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Hoàn tiền"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
         }
       }
     }
