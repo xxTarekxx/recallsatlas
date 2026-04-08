@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { enforceRateLimit } from "@/lib/apiSecurity";
-import { loadGeneralRecallListIndex, parseGeneralRecallListLang } from "@/lib/general-recalls-data";
+import { parseGeneralRecallListLang, queryGeneralRecallListPage } from "@/lib/general-recalls-data";
 import type { GeneralRecallListItem } from "@/lib/generalRecallListTypes";
 
 export const dynamic = "force-dynamic";
@@ -30,20 +30,9 @@ export async function GET(request: NextRequest) {
     const q = (searchParams.get("q") || "").trim();
     const uiLang = parseGeneralRecallListLang(searchParams.get("lang"));
 
-    const all = await loadGeneralRecallListIndex(uiLang);
-    const filtered = q ? all.filter((it) => matchesQuery(it, q)) : all;
-    const total = filtered.length;
-    const totalPages = total > 0 ? Math.ceil(total / limit) : 1;
-    const start = (page - 1) * limit;
-    const items = filtered.slice(start, start + limit);
+    const pageResult = await queryGeneralRecallListPage(uiLang, q, page, limit);
 
-    const response = NextResponse.json({
-      items,
-      total,
-      totalPages,
-      page,
-      limit,
-    });
+    const response = NextResponse.json(pageResult);
 
     // Cache unfiltered page 1 briefly so rapid re-loads don't rebuild the index from Mongo.
     // Filtered / search results are not cached.

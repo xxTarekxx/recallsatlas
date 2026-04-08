@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { enforceRateLimit } from "@/lib/apiSecurity";
 import { getDb } from "@/lib/mongodb";
 import { buildRecallsListQuery, isValidCategorySlug } from "@/lib/recallCategoryFilter";
+import { isSiteUiLang, type SiteUiLang } from "@/lib/siteLocale";
 
 export const dynamic = "force-dynamic";
 export const runtime = "nodejs";
@@ -30,7 +31,6 @@ const RECALLS_LIST_PROJECTION = {
   title: 1,
   reason: 1,
   terminated: 1,
-  languages: 1,
   // Only pull the first content section (used for the card summary blurb)
   content: { $slice: 1 },
 } as const;
@@ -49,6 +49,8 @@ export async function GET(request: NextRequest) {
     const q = (searchParams.get("q") || "").trim();
     const rawCat = (searchParams.get("category") || "").trim().toLowerCase();
     const category = isValidCategorySlug(rawCat) ? rawCat : null;
+    const rawLang = (searchParams.get("lang") || "en").trim().toLowerCase();
+    const lang = isSiteUiLang(rawLang) ? rawLang : "en";
     const query = buildRecallsListQuery({ q, category });
     const isBaseRequest = !q && !category;
     const hasTextSearch = q.length > 0;
@@ -56,8 +58,16 @@ export async function GET(request: NextRequest) {
     const db = await getDb();
     const collection = db.collection("recalls");
 
-    const projection = hasTextSearch
-      ? { ...RECALLS_LIST_PROJECTION, score: { $meta: "textScore" } }
+    const extraLanguageProjection =
+      lang === "en"
+        ? undefined
+        : {
+            [`languages.${lang}`]: 1,
+            "languages.en": 1,
+          };
+
+    const projection = extraLanguageProjection
+      ? { ...RECALLS_LIST_PROJECTION, ...extraLanguageProjection }
       : RECALLS_LIST_PROJECTION;
 
     const cursor = collection.find(query, { projection }).maxTimeMS(QUERY_TIMEOUT_MS);

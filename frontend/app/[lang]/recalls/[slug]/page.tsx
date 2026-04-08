@@ -57,7 +57,40 @@ export default async function RecallDetailLangPage({ params }: PageProps) {
 
   try {
     const db = await getDb();
-    recall = await db.collection("recalls").findOne({ slug });
+    recall = await db
+      .collection("recalls")
+      .findOne(
+        { slug },
+        {
+          projection: {
+            slug: 1,
+            report_date: 1,
+            datePublished: 1,
+            image: 1,
+            images: 1,
+            brandName: 1,
+            brand: 1,
+            productDescription: 1,
+            productType: 1,
+            product_type: 1,
+            product: 1,
+            title: 1,
+            reason: 1,
+            terminated: 1,
+            content: 1,
+            companyName: 1,
+            classification: 1,
+            distribution: 1,
+            source_url: 1,
+            sourceUrl: 1,
+            disclaimer: 1,
+            languages: {
+              [lang]: 1,
+              en: 1,
+            },
+          },
+        }
+      );
   } catch (err: any) {
     console.error("Error loading recall detail:", err);
     dbError = "Unable to load this recall at the moment.";

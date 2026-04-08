@@ -44,6 +44,7 @@ export default function RecallsListClient({ uiLang = "en", activeCategory }: Pro
       const params = new URLSearchParams({
         page: String(pageNum),
         limit: String(PAGE_SIZE),
+        lang: uiLang,
       });
       if (q) params.set("q", q);
       if (activeCategory) params.set("category", activeCategory);
@@ -61,7 +62,7 @@ export default function RecallsListClient({ uiLang = "en", activeCategory }: Pro
     } finally {
       setLoading(false);
     }
-  }, [q, activeCategory]);
+  }, [q, activeCategory, uiLang]);
 
   useEffect(() => {
     fetchPage(1);

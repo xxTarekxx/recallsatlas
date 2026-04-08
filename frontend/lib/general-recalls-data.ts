@@ -384,6 +384,280 @@ function stripHtml(html: string): string {
   return html.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim();
 }
 
+function escapeRegex(input: string) {
+  return input.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+function buildGeneralRecallListMatch(q: string, lang: SiteUiLang): Record<string, unknown> | null {
+  const query = q.trim();
+  if (!query) return null;
+  const regex = new RegExp(escapeRegex(query), "i");
+
+  const or: Record<string, unknown>[] = [
+    { "recalls.RecallNumber": regex },
+    { "recalls.slug": regex },
+    { "recalls.seo.slug": regex },
+    { "recalls.Title": regex },
+    { "recalls.Description": regex },
+    { "recalls.Products.Name": regex },
+    { "recalls.Products.Type": regex },
+    { "recalls.Hazards.Name": regex },
+  ];
+
+  if (lang !== "en") {
+    or.push(
+      { [`recalls.languages.${lang}.Title`]: regex },
+      { [`recalls.languages.${lang}.Description`]: regex },
+      { [`recalls.languages.${lang}.Products.Name`]: regex },
+      { [`recalls.languages.${lang}.Products.Type`]: regex },
+      { [`recalls.languages.${lang}.Hazards.Name`]: regex }
+    );
+  }
+
+  return { $or: or };
+}
+
+function buildGeneralRecallDedupeKeyExpr(): Record<string, unknown> {
+  return {
+    $cond: [
+      {
+        $and: [
+          { $ne: ["$recalls.RecallNumber", null] },
+          { $ne: ["$recalls.RecallNumber", ""] },
+        ],
+      },
+      { $concat: ["rn:", { $toString: "$recalls.RecallNumber" }] },
+      {
+        $cond: [
+          {
+            $and: [
+              { $ne: ["$recalls.RecallID", null] },
+              { $ne: ["$recalls.RecallID", ""] },
+            ],
+          },
+          { $concat: ["id:", { $toString: "$recalls.RecallID" }] },
+          {
+            $cond: [
+              {
+                $and: [
+                  { $ne: ["$recalls.URL", null] },
+                  { $ne: ["$recalls.URL", ""] },
+                ],
+              },
+              { $concat: ["url:", "$recalls.URL"] },
+              {
+                $cond: [
+                  {
+                    $and: [
+                      { $ne: ["$recalls.slug", null] },
+                      { $ne: ["$recalls.slug", ""] },
+                    ],
+                  },
+                  { $concat: ["slug:", "$recalls.slug"] },
+                  {
+                    $cond: [
+                      {
+                        $and: [
+                          { $ne: ["$recalls.seo.slug", null] },
+                          { $ne: ["$recalls.seo.slug", ""] },
+                        ],
+                      },
+                      { $concat: ["slug:", "$recalls.seo.slug"] },
+                      "slug:",
+                    ],
+                  },
+                ],
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  };
+}
+
+export async function queryGeneralRecallListPage(
+  lang: SiteUiLang = "en",
+  q = "",
+  page = 1,
+  limit = 20
+): Promise<{ items: GeneralRecallListItem[]; total: number; totalPages: number; page: number; limit: number }> {
+  const db = await getMongoDb();
+  const collection = db.collection<GeneralCategoryMongoDoc>("general");
+
+  // For search queries, use a simpler approach
+  if (q.trim()) {
+    return queryGeneralRecallListPageWithSearch(collection, lang, q, page, limit);
+  }
+
+  // For non-search (main list), use cached index
+  const allItems = await loadGeneralRecallListIndex(lang);
+  const total = allItems.length;
+  const totalPages = total > 0 ? Math.ceil(total / limit) : 1;
+  const start = (page - 1) * limit;
+  const end = start + limit;
+  const items = allItems.slice(start, end);
+
+  return {
+    items,
+    total,
+    totalPages,
+    page,
+    limit,
+  };
+}
+
+/** Lightweight search query that avoids expensive sorting on large datasets. */
+async function queryGeneralRecallListPageWithSearch(
+  collection: any,
+  lang: SiteUiLang,
+  q: string,
+  page: number,
+  limit: number
+): Promise<{ items: GeneralRecallListItem[]; total: number; totalPages: number; page: number; limit: number }> {
+  const matchStage = buildGeneralRecallListMatch(q, lang);
+  if (!matchStage) {
+    // Empty query, fall back to non-search
+    const allItems = await loadGeneralRecallListIndex(lang);
+    const total = allItems.length;
+    const start = (page - 1) * limit;
+    const items = allItems.slice(start, Math.min(start + limit, total));
+    return {
+      items,
+      total,
+      totalPages: total > 0 ? Math.ceil(total / limit) : 1,
+      page,
+      limit,
+    };
+  }
+
+  const selectedLangExpr =
+    lang === "en"
+      ? "$recalls.languages.en"
+      : {
+          $ifNull: [`$recalls.languages.${lang}`, "$recalls.languages.en"],
+        };
+
+  // Simplified pipeline: match, extract fields, deduplicate in memory
+  const pipeline: Record<string, unknown>[] = [
+    { $unwind: "$recalls" },
+    { $match: matchStage },
+    {
+      $addFields: {
+        selectedLang: selectedLangExpr,
+        dedupeKey: buildGeneralRecallDedupeKeyExpr(),
+      },
+    },
+    {
+      $project: {
+        slug: { $ifNull: ["$recalls.slug", "$recalls.seo.slug", ""] },
+        title: {
+          $ifNull: [
+            "$selectedLang.Title",
+            "$recalls.Title",
+            "$recalls.seo.slug",
+            "",
+          ],
+        },
+        description: {
+          $ifNull: [
+            "$selectedLang.Description",
+            "$recalls.Description",
+            "",
+          ],
+        },
+        productType: {
+          $ifNull: [
+            { $arrayElemAt: [{ $ifNull: ["$selectedLang.Products.Type", []] }, 0] },
+            { $arrayElemAt: [{ $ifNull: ["$selectedLang.Hazards.Name", []] }, 0] },
+            { $arrayElemAt: [{ $ifNull: ["$recalls.Products.Type", []] }, 0] },
+            { $arrayElemAt: [{ $ifNull: ["$recalls.Hazards.Name", []] }, 0] },
+            "",
+          ],
+        },
+        brand: {
+          $ifNull: [
+            { $arrayElemAt: [{ $ifNull: ["$selectedLang.Products.Name", []] }, 0] },
+            { $arrayElemAt: [{ $ifNull: ["$recalls.Products.Name", []] }, 0] },
+            "",
+          ],
+        },
+        imageUrl: {
+          $let: {
+            vars: { images: { $ifNull: ["$recalls.Images", []] } },
+            in: {
+              $cond: [
+                { $and: [{ $isArray: "$$images" }, { $gt: [{ $size: "$$images" }, 0] }] },
+                { $ifNull: [{ $arrayElemAt: ["$$images", 0] }, null] },
+                null,
+              ],
+            },
+          },
+        },
+        recallDate: {
+          $ifNull: [
+            "$recalls.RecallDate",
+            "$recalls.lastTranslatedAt",
+            "$recalls.LastPublishDate",
+            "",
+          ],
+        },
+        recallNumber: { $ifNull: ["$recalls.RecallNumber", ""] },
+        dedupeKey: 1,
+        _id: 0,
+      },
+    },
+  ];
+
+  const docs = await collection
+    .aggregate(pipeline, { maxTimeMS: GENERAL_QUERY_TIMEOUT_MS })
+    .toArray();
+
+  // Deduplicate in memory using dedupeKey
+  const dedupeMap = new Map<string, any>();
+  for (const doc of docs) {
+    if (!dedupeMap.has(doc.dedupeKey)) {
+      dedupeMap.set(doc.dedupeKey, doc);
+    }
+  }
+
+  // Sort by date in memory
+  const items = Array.from(dedupeMap.values())
+    .sort((a, b) => {
+      const dateA = new Date(a.recallDate).getTime() || 0;
+      const dateB = new Date(b.recallDate).getTime() || 0;
+      return dateB - dateA;
+    })
+    .map((row) => {
+      const summaryRaw = typeof row.description === "string" ? stripHtml(row.description) : "";
+      const summary = summaryRaw.length > 280 ? `${summaryRaw.slice(0, 280).trim()}…` : summaryRaw;
+      return {
+        slug: row.slug || "",
+        title: typeof row.title === "string" ? row.title : "",
+        recallDate: typeof row.recallDate === "string" ? row.recallDate : "",
+        summary,
+        productType: typeof row.productType === "string" ? row.productType : "",
+        brand: typeof row.brand === "string" ? row.brand : "",
+        imageUrl: typeof row.imageUrl === "string" ? row.imageUrl : null,
+        recallNumber: typeof row.recallNumber === "string" ? row.recallNumber : "",
+        categoryKey: "general",
+      };
+    });
+
+  const total = items.length;
+  const totalPages = total > 0 ? Math.ceil(total / limit) : 1;
+  const start = (page - 1) * limit;
+  const end = start + limit;
+
+  return {
+    items: items.slice(start, end),
+    total,
+    totalPages,
+    page,
+    limit,
+  };
+}
+
 type ListCacheEntry = { items: GeneralRecallListItem[]; fetchedAt: number };
 /** 30-minute TTL — balances freshness vs. cold-start cost. */
 const LIST_CACHE_TTL_MS = 30 * 60 * 1000;
