@@ -2,40 +2,21 @@ import fs from "fs/promises";
 import path from "path";
 import { ensureVehicleRecallSeoOnRecord } from "@/lib/cars/vehicleRecallSeoDefaults";
 
-/**
- * CARS_JSON_PATH: absolute or relative path to either:
- * - the `cars.json` file, or
- * - the directory that contains `cars.json` (e.g. .../backend/database/cars/data).
- * VPS example dir: /var/www/html/recallsatlas/backend/database/cars/data
- * Set CARS_JSON_PATH=false to disable file writes.
- */
-function resolveCarsJsonFilePath(resolvedBase: string): string {
-  const base = path.normalize(resolvedBase);
-  const lower = base.toLowerCase();
-  if (lower.endsWith(".json")) {
-    return base;
-  }
-  return path.join(base, "cars.json");
-}
-
 function getCarsJsonPath(): string | null {
   const raw = process.env.CARS_JSON_PATH?.trim();
-  if (raw === "0" || raw?.toLowerCase() === "false") {
-    return null;
-  }
-  if (raw) {
-    const base = path.isAbsolute(raw) ? raw : path.join(process.cwd(), raw);
-    return resolveCarsJsonFilePath(base);
-  }
-  return path.join(
+  const defaultDir = path.join(
     process.cwd(),
     "..",
     "backend",
     "database",
     "cars",
-    "data",
-    "cars.json"
+    "data"
   );
+  if (raw === "0" || raw?.toLowerCase() === "false") {
+    return null;
+  }
+  // Keep one static path for Turbopack tracing.
+  return path.join(defaultDir, "cars.json");
 }
 
 function stripMongoFields(doc: Record<string, unknown>): Record<string, unknown> {

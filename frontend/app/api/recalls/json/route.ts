@@ -5,6 +5,7 @@ import { enforceRateLimit } from "@/lib/apiSecurity";
 
 export const dynamic = "force-dynamic";
 export const runtime = "nodejs";
+const RECALLS_JSON_PATH = path.join(process.cwd(), "..", "backend", "data", "recalls.json");
 
 /**
  * Serves backend/data/recalls.json for local/testing only.
@@ -22,18 +23,10 @@ export async function GET(request: NextRequest) {
   if (limited) return limited;
 
   try {
-    const base = process.cwd();
-    const candidates = [
-      path.join(base, "backend", "data", "recalls.json"),
-      path.join(base, "..", "backend", "data", "recalls.json"),
-    ];
     let data: any[] = [];
-    for (const filePath of candidates) {
-      if (fs.existsSync(filePath)) {
-        const raw = fs.readFileSync(filePath, "utf8");
-        data = JSON.parse(raw);
-        break;
-      }
+    if (fs.existsSync(RECALLS_JSON_PATH)) {
+      const raw = fs.readFileSync(RECALLS_JSON_PATH, "utf8");
+      data = JSON.parse(raw);
     }
     if (!Array.isArray(data)) {
       return NextResponse.json(

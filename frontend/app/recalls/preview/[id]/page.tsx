@@ -3,25 +3,19 @@ import { notFound } from "next/navigation";
 import SiteBrandLogoLink from "@/components/SiteBrandLogoLink";
 import path from "path";
 import fs from "fs";
+const RECALLS_JSON_PATH = path.join(process.cwd(), "..", "backend", "data", "recalls.json");
 
 interface PageProps {
   params: Promise<{ id: string }>;
 }
 
 function getRecallById(id: string) {
-  const base = process.cwd();
-  const candidates = [
-    path.join(base, "backend", "data", "recalls.json"),
-    path.join(base, "..", "backend", "data", "recalls.json"),
-  ];
-  for (const filePath of candidates) {
-    if (fs.existsSync(filePath)) {
-      const raw = fs.readFileSync(filePath, "utf8");
-      const data = JSON.parse(raw);
-      if (Array.isArray(data)) {
-        const recall = data.find((r: any) => r.id === id);
-        return recall ?? null;
-      }
+  if (fs.existsSync(RECALLS_JSON_PATH)) {
+    const raw = fs.readFileSync(RECALLS_JSON_PATH, "utf8");
+    const data = JSON.parse(raw);
+    if (Array.isArray(data)) {
+      const recall = data.find((r: any) => r.id === id);
+      return recall ?? null;
     }
   }
   return null;
