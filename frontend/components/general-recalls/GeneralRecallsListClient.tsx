@@ -6,7 +6,7 @@ import { isRtlUiLang, type SiteUiLang } from "@/lib/siteLocale";
 import type { GeneralRecallListItem } from "@/lib/generalRecallListTypes";
 import GeneralRecallCard from "./GeneralRecallCard";
 
-const PAGE_SIZE = 50;
+const PAGE_SIZE = 20;
 
 function getPageNumbers(current: number, total: number): (number | "ellipsis")[] {
   if (total <= 7) return Array.from({ length: total }, (_, i) => i + 1);

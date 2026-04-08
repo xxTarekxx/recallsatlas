@@ -49,6 +49,11 @@ export type GeneralRecallDoc = {
   recalls: GeneralRecall[];
 };
 
+/** Shape of `general` collection rows from Mongo (fields may be absent until validated). */
+type GeneralCategoryMongoDoc = Omit<GeneralRecallDoc, "recalls"> & {
+  recalls?: GeneralRecall[];
+};
+
 /** Stable URL segment: prefer top-level `slug`, then legacy `seo.slug`. */
 export function getGeneralRecallSlug(recall: GeneralRecall): string | null {
   const top = recall.slug;
@@ -61,12 +66,25 @@ export function getGeneralRecallSlug(recall: GeneralRecall): string | null {
 /**
  * One key per real-world recall so category JSON duplicates (same CPSC recall in multiple files
  * with different `slug`) collapse to a single list row / sitemap entry.
+ *
+ * Mongo / JSON may store RecallID as number or string; normalize so the same CPSC row does not
+ * become multiple pagination entries.
  */
 export function getGeneralRecallDedupeKey(recall: GeneralRecall): string {
-  const n = typeof recall.RecallNumber === "string" ? recall.RecallNumber.trim() : "";
-  if (n) return `rn:${n}`;
-  const id = recall.RecallID;
-  if (typeof id === "number" && Number.isFinite(id)) return `id:${id}`;
+  const rnRaw = recall.RecallNumber;
+  if (typeof rnRaw === "number" && Number.isFinite(rnRaw)) {
+    return `rn:${String(rnRaw)}`;
+  }
+  if (typeof rnRaw === "string" && rnRaw.trim()) {
+    return `rn:${rnRaw.trim()}`;
+  }
+
+  const idRaw = recall.RecallID;
+  if (idRaw != null && idRaw !== "") {
+    const idNum = typeof idRaw === "number" ? idRaw : Number(String(idRaw).trim());
+    if (Number.isFinite(idNum)) return `id:${idNum}`;
+  }
+
   const u = typeof recall.URL === "string" ? recall.URL.trim() : "";
   if (u) return `url:${u}`;
   const slug = getGeneralRecallSlug(recall);
@@ -137,10 +155,10 @@ export function parseGeneralRecallListLang(param: string | null | undefined): Si
 
 type GeneralRecallDedupeEntry = { recall: GeneralRecall; categoryKey: string };
 
-async function loadGeneralRecallDocsFromMongo(): Promise<GeneralRecallDoc[]> {
+async function loadGeneralRecallDocsFromMongo(): Promise<GeneralCategoryMongoDoc[]> {
   const db = await getMongoDb();
-  const docs = await db
-    .collection("general")
+  return db
+    .collection<GeneralCategoryMongoDoc>("general")
     .find(
       {},
       {
@@ -153,11 +171,10 @@ async function loadGeneralRecallDocsFromMongo(): Promise<GeneralRecallDoc[]> {
       }
     )
     .toArray();
-  return docs as GeneralRecallDoc[];
 }
 
 /** Merge rows across category documents; `categoryKey` follows the winning row’s source category. */
-function buildGeneralRecallDedupeMap(docs: GeneralRecallDoc[]): Map<string, GeneralRecallDedupeEntry> {
+function buildGeneralRecallDedupeMap(docs: GeneralCategoryMongoDoc[]): Map<string, GeneralRecallDedupeEntry> {
   const byDedupe = new Map<string, GeneralRecallDedupeEntry>();
   for (const doc of docs) {
     const stem = typeof doc.categorySlug === "string" && doc.categorySlug.trim() ? doc.categorySlug : "general";
@@ -261,7 +278,7 @@ function itemDateMs(item: GeneralRecallListItem): number {
 /**
  * All general recalls for listing, deduped by CPSC identity (RecallNumber, else RecallID/URL/slug),
  * then one canonical slug per recall (newest / most-translated row wins). Newest first.
- * Cached per process; restart the server to pick up JSON changes on disk.
+ * Cached per process; restart the dev server after Mongo data changes (or call clearGeneralRecallListIndexCache).
  */
 export async function loadGeneralRecallListIndex(lang: SiteUiLang = "en"): Promise<GeneralRecallListItem[]> {
   if (!listIndexCache) listIndexCache = new Map();
