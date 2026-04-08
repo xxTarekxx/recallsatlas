@@ -281,14 +281,37 @@ function buildGeneralRecallDedupeMap(docs: GeneralCategoryMongoDoc[]): Map<strin
 }
 
 export async function loadGeneralRecallBySlug(slug: string): Promise<GeneralRecall | null> {
-  const docs = await loadGeneralRecallDocsFromMongo();
-  for (const doc of docs) {
-    const stem = typeof doc.categorySlug === "string" && doc.categorySlug.trim() ? doc.categorySlug : "general";
-    for (const r of doc.recalls || []) {
-      if (getGeneralRecallSlug(r) === slug) return { ...r, sourceCategoryKey: stem };
-    }
-  }
-  return null;
+  const db = await getMongoDb();
+  const query = {
+    $or: [
+      { "recalls.slug": slug },
+      { "recalls.seo.slug": slug },
+      { "recalls.URL": slug },
+    ],
+  };
+
+  const doc = await db
+    .collection<GeneralCategoryMongoDoc>("general")
+    .findOne(query, {
+      projection: {
+        categorySlug: 1,
+        recalls: {
+          $elemMatch: {
+            $or: [
+              { slug },
+              { "seo.slug": slug },
+              { URL: slug },
+            ],
+          },
+        },
+        _id: 0,
+      },
+    });
+
+  if (!doc || !Array.isArray(doc.recalls) || doc.recalls.length === 0) return null;
+  const recall = doc.recalls[0];
+  const stem = typeof doc.categorySlug === "string" && doc.categorySlug.trim() ? doc.categorySlug : "general";
+  return { ...recall, sourceCategoryKey: stem };
 }
 
 export async function getAllGeneralRecallSlugs(): Promise<string[]> {

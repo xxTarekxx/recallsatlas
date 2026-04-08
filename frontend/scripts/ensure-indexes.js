@@ -96,43 +96,53 @@ async function main() {
 
     // Text index for the free-text search (?q=...) — dramatically faster than $regex on every field.
     // Weights let headline / title rank higher than productDescription.
-    // NOTE: a collection can only have one text index; drop the old one first if it exists.
-    try {
-      await recalls.createIndex(
-        {
-          headline: "text",
-          title: "text",
-          productType: "text",
-          productDescription: "text",
-        },
-        {
-          background: true,
-          name: "recalls_text_search",
-          weights: {
-            headline: 10,
-            title: 8,
-            productType: 4,
-            productDescription: 2,
-          },
-          default_language: "english",
-        }
-      );
-      console.log("  ✓ text index (headline, title, productType, productDescription)");
-    } catch (textErr) {
-      // A text index already exists — that's fine.
-      if (String(textErr).includes("text index already exists")) {
-        console.log("  ~ text index already exists (skipped)");
-      } else {
-        console.warn("  ! text index warning:", textErr.message);
-      }
+    // NOTE: a collection can only have one text index; rebuild it when the field set changes.
+    const textIndexName = "recalls_text_search";
+    const textIndexSpec = {
+      headline: "text",
+      title: "text",
+      productType: "text",
+      productDescription: "text",
+      slug: "text",
+    };
+    const textIndexOpts = {
+      background: true,
+      name: textIndexName,
+      weights: {
+        headline: 10,
+        title: 8,
+        productType: 4,
+        productDescription: 2,
+        slug: 1,
+      },
+      default_language: "english",
+    };
+
+    const existingIndexes = await recalls.indexes();
+    const existingTextIndex = existingIndexes.find((idx) => idx.name === textIndexName);
+    const existingTextKey = existingTextIndex?.key;
+    const desiredTextKey = textIndexSpec;
+    const textIndexNeedsRebuild =
+      !existingTextIndex ||
+      JSON.stringify(existingTextKey) !== JSON.stringify(desiredTextKey);
+
+    if (existingTextIndex && textIndexNeedsRebuild) {
+      console.log(`  ~ dropping outdated text index ${textIndexName}`);
+      await recalls.dropIndex(textIndexName);
+    }
+
+    if (textIndexNeedsRebuild) {
+      await recalls.createIndex(textIndexSpec, textIndexOpts);
+      console.log("  ✓ text index (headline, title, productType, productDescription, slug)");
+    } else {
+      console.log("  ~ text index already exists (skipped)");
     }
 
     // -------------------------------------------------------------------------
     // general collection (CPSC / general recalls)
     // -------------------------------------------------------------------------
     // Documents in this collection have a nested `recalls[]` array.
-    // Field-level indexes on embedded array elements are less effective,
-    // but categorySlug helps when querying by category.
+    // Field-level indexes on embedded array elements can still help detail lookups.
     const general = db.collection("general");
 
     console.log("\n--- general collection ---");
@@ -142,6 +152,24 @@ async function main() {
       { background: true, sparse: true, name: "categorySlug_asc" }
     );
     console.log("  ✓ categorySlug ASC (sparse)");
+
+    await general.createIndex(
+      { "recalls.slug": 1 },
+      { background: true, sparse: true, name: "recalls_slug_asc" }
+    );
+    console.log("  ✓ recalls.slug ASC (sparse)");
+
+    await general.createIndex(
+      { "recalls.seo.slug": 1 },
+      { background: true, sparse: true, name: "recalls_seo_slug_asc" }
+    );
+    console.log("  ✓ recalls.seo.slug ASC (sparse)");
+
+    await general.createIndex(
+      { "recalls.URL": 1 },
+      { background: true, sparse: true, name: "recalls_URL_asc" }
+    );
+    console.log("  ✓ recalls.URL ASC (sparse)");
 
     // -------------------------------------------------------------------------
     // cars collection (vehicle recalls)

@@ -66,16 +66,7 @@ export function buildRecallsListQuery(opts: BuildQueryOpts): Record<string, unkn
 
   const q = (opts.q || "").trim();
   if (q.length > 0) {
-    const esc = escapeRegex(q);
-    parts.push({
-      $or: [
-        { headline: { $regex: esc, $options: "i" } },
-        { title: { $regex: esc, $options: "i" } },
-        { productType: { $regex: esc, $options: "i" } },
-        { productDescription: { $regex: esc, $options: "i" } },
-        { slug: { $regex: esc, $options: "i" } },
-      ],
-    });
+    parts.push({ $text: { $search: q } });
   }
 
   if (parts.length === 0) return {};

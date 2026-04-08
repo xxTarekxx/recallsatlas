@@ -51,20 +51,26 @@ export async function GET(request: NextRequest) {
     const category = isValidCategorySlug(rawCat) ? rawCat : null;
     const query = buildRecallsListQuery({ q, category });
     const isBaseRequest = !q && !category;
+    const hasTextSearch = q.length > 0;
 
     const db = await getDb();
     const collection = db.collection("recalls");
 
+    const projection = hasTextSearch
+      ? { ...RECALLS_LIST_PROJECTION, score: { $meta: "textScore" } }
+      : RECALLS_LIST_PROJECTION;
+
+    const cursor = collection.find(query, { projection }).maxTimeMS(QUERY_TIMEOUT_MS);
+    if (hasTextSearch) {
+      cursor.sort({ score: { $meta: "textScore" }, report_date: -1 });
+    } else {
+      cursor.sort({ report_date: -1 });
+    }
+
     // Run count and data fetch in parallel — saves one full round-trip per request.
     const [total, recalls] = await Promise.all([
       collection.countDocuments(query, { maxTimeMS: QUERY_TIMEOUT_MS }),
-      collection
-        .find(query, { projection: RECALLS_LIST_PROJECTION })
-        .sort({ report_date: -1 })
-        .skip((page - 1) * limit)
-        .limit(limit)
-        .maxTimeMS(QUERY_TIMEOUT_MS)
-        .toArray(),
+      cursor.skip((page - 1) * limit).limit(limit).toArray(),
     ]);
 
     const totalPages = total > 0 ? Math.ceil(total / limit) : 1;
