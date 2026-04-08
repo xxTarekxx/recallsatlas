@@ -180,11 +180,14 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     const home = lang === "en" ? base : `${base}/${lang}`;
     const about = lang === "en" ? `${base}/about` : `${base}/${lang}/about`;
     const recallsList = lang === "en" ? `${base}/recalls` : `${base}/${lang}/recalls`;
+    const generalRecallsList =
+      lang === "en" ? `${base}/general-recalls` : `${base}/${lang}/general-recalls`;
     const carsList = lang === "en" ? `${base}/cars` : `${base}/${lang}/cars`;
     const staticPairs: { url: string; priority: number }[] = [
       { url: home, priority: STATIC_HOME_PRIORITY },
       { url: about, priority: STATIC_SECTION_PRIORITY },
       { url: recallsList, priority: STATIC_SECTION_PRIORITY },
+      { url: generalRecallsList, priority: STATIC_SECTION_PRIORITY },
       { url: carsList, priority: STATIC_SECTION_PRIORITY },
     ];
     for (const { url, priority } of staticPairs) {
