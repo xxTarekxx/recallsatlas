@@ -37,13 +37,23 @@ export async function GET(request: NextRequest) {
     const start = (page - 1) * limit;
     const items = filtered.slice(start, start + limit);
 
-    return NextResponse.json({
+    const response = NextResponse.json({
       items,
       total,
       totalPages,
       page,
       limit,
     });
+
+    // Cache unfiltered page 1 briefly so rapid re-loads don't rebuild the index from Mongo.
+    // Filtered / search results are not cached.
+    if (!q && page === 1) {
+      response.headers.set("Cache-Control", "public, max-age=30, stale-while-revalidate=120");
+    } else {
+      response.headers.set("Cache-Control", "no-store");
+    }
+
+    return response;
   } catch (err: unknown) {
     console.error("API /api/general-recalls error:", err);
     return NextResponse.json({ error: "Failed to load general recalls" }, { status: 500 });

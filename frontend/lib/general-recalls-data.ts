@@ -155,6 +155,13 @@ export function parseGeneralRecallListLang(param: string | null | undefined): Si
 
 type GeneralRecallDedupeEntry = { recall: GeneralRecall; categoryKey: string };
 
+/** Max time any single Mongo operation is allowed to run. */
+const GENERAL_QUERY_TIMEOUT_MS = 55000;
+
+/**
+ * Full fetch — used by the detail page (needs all translations, images, etc.).
+ * Not called on the list or sitemap hot paths.
+ */
 async function loadGeneralRecallDocsFromMongo(): Promise<GeneralCategoryMongoDoc[]> {
   const db = await getMongoDb();
   return db
@@ -170,6 +177,85 @@ async function loadGeneralRecallDocsFromMongo(): Promise<GeneralCategoryMongoDoc
         },
       }
     )
+    .maxTimeMS(GENERAL_QUERY_TIMEOUT_MS)
+    .toArray();
+}
+
+/**
+ * Lightweight fetch for the **list page** — projects only the fields a list card needs,
+ * and only the language packs for `lang` (+ English as fallback).
+ * Dramatically reduces wire size vs. loading all translations for every recall.
+ */
+async function loadGeneralRecallListDataFromMongo(lang: SiteUiLang): Promise<GeneralCategoryMongoDoc[]> {
+  const db = await getMongoDb();
+
+  // Fields needed for dedup keys, dates, and list-card display
+  const projection: Record<string, unknown> = {
+    categorySlug: 1,
+    "recalls.slug": 1,
+    "recalls.seo.slug": 1,
+    "recalls.RecallNumber": 1,
+    "recalls.RecallID": 1,
+    "recalls.URL": 1,
+    "recalls.RecallDate": 1,
+    "recalls.lastTranslatedAt": 1,
+    "recalls.LastPublishDate": 1,
+    // Base English fields
+    "recalls.Title": 1,
+    "recalls.Description": 1,
+    "recalls.Products.Name": 1,
+    "recalls.Products.Type": 1,
+    "recalls.Hazards.Name": 1,
+    "recalls.Images.URL": 1,
+    // English language pack (needed as fallback for all langs)
+    "recalls.languages.en.Title": 1,
+    "recalls.languages.en.Description": 1,
+    "recalls.languages.en.Products": 1,
+    "recalls.languages.en.Hazards": 1,
+    _id: 0,
+  };
+
+  // Add the requested non-English language pack if different from English
+  if (lang !== "en") {
+    projection[`recalls.languages.${lang}.Title`] = 1;
+    projection[`recalls.languages.${lang}.Description`] = 1;
+    projection[`recalls.languages.${lang}.Products`] = 1;
+    projection[`recalls.languages.${lang}.Hazards`] = 1;
+  }
+
+  return db
+    .collection<GeneralCategoryMongoDoc>("general")
+    .find({}, { projection })
+    .maxTimeMS(GENERAL_QUERY_TIMEOUT_MS)
+    .toArray();
+}
+
+/**
+ * Minimal fetch for the **sitemap** — only slug and date fields.
+ * No content, no translations needed.
+ */
+async function loadGeneralRecallSitemapDataFromMongo(): Promise<GeneralCategoryMongoDoc[]> {
+  const db = await getMongoDb();
+  return db
+    .collection<GeneralCategoryMongoDoc>("general")
+    .find(
+      {},
+      {
+        projection: {
+          categorySlug: 1,
+          "recalls.slug": 1,
+          "recalls.seo.slug": 1,
+          "recalls.RecallNumber": 1,
+          "recalls.RecallID": 1,
+          "recalls.URL": 1,
+          "recalls.RecallDate": 1,
+          "recalls.lastTranslatedAt": 1,
+          "recalls.LastPublishDate": 1,
+          _id: 0,
+        },
+      }
+    )
+    .maxTimeMS(GENERAL_QUERY_TIMEOUT_MS)
     .toArray();
 }
 
@@ -214,10 +300,21 @@ export async function getAllGeneralRecallSlugs(): Promise<string[]> {
   return out.sort((a, b) => a.localeCompare(b));
 }
 
+type SlugDateCacheEntry = { map: Map<string, Date>; fetchedAt: number };
+/** 1-hour TTL — sitemap regenerates infrequently. */
+const SLUG_DATE_CACHE_TTL_MS = 60 * 60 * 1000;
+let slugDateCache: SlugDateCacheEntry | null = null;
+
 /** Slug → lastModified for sitemap (one slug per CPSC recall; duplicate category files deduped). */
 export async function getGeneralRecallSlugDateMap(): Promise<Map<string, Date>> {
+  const now = Date.now();
+  if (slugDateCache && now - slugDateCache.fetchedAt < SLUG_DATE_CACHE_TTL_MS) {
+    return slugDateCache.map;
+  }
+
   const map = new Map<string, Date>();
-  const docs = await loadGeneralRecallDocsFromMongo();
+  // Use lightweight sitemap projection — no content, no translations needed here.
+  const docs = await loadGeneralRecallSitemapDataFromMongo();
   const byDedupe = buildGeneralRecallDedupeMap(docs);
   for (const { recall: r } of Array.from(byDedupe.values())) {
     const s = getGeneralRecallSlug(r);
@@ -226,6 +323,7 @@ export async function getGeneralRecallSlugDateMap(): Promise<Map<string, Date>> 
     const prev = map.get(s);
     if (!prev || lm.getTime() > prev.getTime()) map.set(s, lm);
   }
+  slugDateCache = { map, fetchedAt: now };
   return map;
 }
 
@@ -263,11 +361,15 @@ function stripHtml(html: string): string {
   return html.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim();
 }
 
-let listIndexCache: Map<string, GeneralRecallListItem[]> | null = null;
+type ListCacheEntry = { items: GeneralRecallListItem[]; fetchedAt: number };
+/** 30-minute TTL — balances freshness vs. cold-start cost. */
+const LIST_CACHE_TTL_MS = 30 * 60 * 1000;
+let listIndexCache: Map<string, ListCacheEntry> | null = null;
 
-/** Clears in-memory list cache (e.g. after tests). */
+/** Clears in-memory list and slug-date caches (e.g. after tests or forced refresh). */
 export function clearGeneralRecallListIndexCache(): void {
   listIndexCache = null;
+  slugDateCache = null;
 }
 
 function itemDateMs(item: GeneralRecallListItem): number {
@@ -277,14 +379,20 @@ function itemDateMs(item: GeneralRecallListItem): number {
 
 /**
  * All general recalls for listing, deduped by CPSC identity (RecallNumber, else RecallID/URL/slug),
- * then one canonical slug per recall (newest / most-translated row wins). Newest first.
- * Cached per process; restart the dev server after Mongo data changes (or call clearGeneralRecallListIndexCache).
+ * then one canonical slug per recall (newest row wins). Newest first.
+ *
+ * Uses a lightweight per-lang MongoDB projection so the cold-start fetch is fast.
+ * Results are cached for LIST_CACHE_TTL_MS; cache survives across requests within the same process.
  */
 export async function loadGeneralRecallListIndex(lang: SiteUiLang = "en"): Promise<GeneralRecallListItem[]> {
   if (!listIndexCache) listIndexCache = new Map();
+  const now = Date.now();
   const cached = listIndexCache.get(lang);
-  if (cached) return cached;
-  const docs = await loadGeneralRecallDocsFromMongo();
+  // Return cached entry if still within TTL
+  if (cached && now - cached.fetchedAt < LIST_CACHE_TTL_MS) return cached.items;
+
+  // Use the lightweight list projection for this lang (much smaller than full docs)
+  const docs = await loadGeneralRecallListDataFromMongo(lang);
   const byDedupe = buildGeneralRecallDedupeMap(docs);
 
   const items: GeneralRecallListItem[] = [];
@@ -325,6 +433,6 @@ export async function loadGeneralRecallListIndex(lang: SiteUiLang = "en"): Promi
   }
 
   const sorted = items.sort((a, b) => itemDateMs(b) - itemDateMs(a));
-  listIndexCache.set(lang, sorted);
+  listIndexCache.set(lang, { items: sorted, fetchedAt: now });
   return sorted;
 }
