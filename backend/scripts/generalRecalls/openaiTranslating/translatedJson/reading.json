@@ -1,0 +1,795 @@
+{
+  "meta": {
+    "slug": "reading",
+    "sourceCsvFile": "reading_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:37.047Z",
+    "recallCount": 1,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "reading.json",
+    "seoTranslatedAt": "2026-04-05T03:18:03.788Z",
+    "resumePartial": false,
+    "i18nSource": "generalRecallsTranslated",
+    "i18nSourceFile": "reading.json",
+    "i18nUiLangs": [
+      "en",
+      "es",
+      "ar",
+      "zh",
+      "fr",
+      "de",
+      "ja",
+      "pt",
+      "hi",
+      "ru",
+      "vi"
+    ],
+    "i18nProgressByLang": {
+      "es": 1,
+      "ar": 1,
+      "zh": 1,
+      "fr": 1,
+      "de": 1,
+      "ja": 1,
+      "pt": 1,
+      "hi": 1,
+      "ru": 1,
+      "vi": 1
+    },
+    "i18nInProgress": false,
+    "i18nTranslatedAt": "2026-04-07T18:52:47.538Z",
+    "i18nOpenaiModel": "gpt-4o-mini"
+  },
+  "recalls": [
+    {
+      "RecallID": 10636,
+      "RecallNumber": "26293",
+      "RecallDate": "2026-02-26T00:00:00",
+      "Description": "TheKiddoSpace has issued a recall for its handwriting practice kits due to the presence of lead in the pens, which exceeds federal safety standards. The recall affects two types of kits: block handwriting kits featuring reusable books with animal-themed covers, and cursive handwriting kits with books focused on letters, words, and sentences. Both kits include various colored pen grips and refills, all marked with the TheKiddoSpace logo.",
+      "URL": "https://www.cpsc.gov/Recalls/2026/TheKiddoSpace-Recalls-Childrens-Handwriting-Practice-Kits-Due-to-Risk-of-Injury-from-Lead-Exposure-Violates-Federal-Lead-Content-Ban",
+      "Title": "TheKiddoSpace Recalls Handwriting Practice Kits Due to Lead Exposure Risk",
+      "ConsumerContact": "For assistance, consumers can reach out to TheKiddoSpace via email at info@thekiddospace.com or visit www.thekiddospacestore.com/pages/product-recalls/handwriting-kit. More information is also available by clicking \"Product Safety Recalls\" at the bottom of their website.",
+      "LastPublishDate": "2026-02-27T00:00:00",
+      "Products": [
+        {
+          "Name": "TheKiddoSpace Block Handwriting Kit",
+          "NumberOfUnits": "About 19,700"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/reading/1-TheKiddoSpace-Block-Handwriting-Kit/561fcd5f30b4e8003ff74bb3c40c5412.webp",
+          "Caption": "Recalled TheKiddoSpace Block Handwriting Practice Kit",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/RecalledTheKiddoSpaceBlockHandwritingPracticeKit_0.png"
+        },
+        {
+          "URL": "/images/generalRecalls/reading/1-TheKiddoSpace-Block-Handwriting-Kit/4460a5e16cf66d77602e5c0630999b4f.webp",
+          "Caption": "Recalled TheKiddoSpace Cursive Handwriting Practice Kit",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/RecalledTheKiddoSpaceCursiveHandwritingPracticeKit_0.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available online at TheKiddoSpaceStore.com and Amazon.com from February 2024 to February 2025, priced between $25 and $50."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "SN Commerce LLC, dba TheKiddoSpaceStore, of Dover, Delaware"
+        }
+      ],
+      "SoldAtLabel": "Sold Online At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Lead exposure from pens in the handwriting kits"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Free replacement pens and refills provided by TheKiddoSpace"
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Replace"
+        }
+      ],
+      "slug": "thekiddospace-recalls-handwriting-practice-kits-due-to-lead-exposure-risk-recall",
+      "metaDescription": "TheKiddoSpace recalls handwriting kits due to lead exposure risk. Contact them for free replacements and safety information.",
+      "languages": {
+        "en": {
+          "Title": "TheKiddoSpace Recalls Handwriting Practice Kits Due to Lead Exposure Risk",
+          "Description": "TheKiddoSpace has issued a recall for its handwriting practice kits due to the presence of lead in the pens, which exceeds federal safety standards. The recall affects two types of kits: block handwriting kits featuring reusable books with animal-themed covers, and cursive handwriting kits with books focused on letters, words, and sentences. Both kits include various colored pen grips and refills, all marked with the TheKiddoSpace logo.",
+          "ConsumerContact": "For assistance, consumers can reach out to TheKiddoSpace via email at info@thekiddospace.com or visit www.thekiddospacestore.com/pages/product-recalls/handwriting-kit. More information is also available by clicking \"Product Safety Recalls\" at the bottom of their website.",
+          "metaDescription": "TheKiddoSpace recalls handwriting kits due to lead exposure risk. Contact them for free replacements and safety information.",
+          "Products": [
+            {
+              "Name": "TheKiddoSpace Block Handwriting Kit",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 19,700"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled TheKiddoSpace Block Handwriting Practice Kit"
+            },
+            {
+              "Caption": "Recalled TheKiddoSpace Cursive Handwriting Practice Kit"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "None reported"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Available online at TheKiddoSpaceStore.com and Amazon.com from February 2024 to February 2025, priced between $25 and $50."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "SN Commerce LLC, dba TheKiddoSpaceStore, of Dover, Delaware"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Sold Online At",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Lead exposure from pens in the handwriting kits"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Free replacement pens and refills provided by TheKiddoSpace"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Replace"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "TheKiddoSpace Retira Kits de Práctica de Escritura a Mano Debido al Riesgo de Exposición al Plomo",
+          "Description": "TheKiddoSpace ha emitido un retiro para sus kits de práctica de escritura a mano debido a la presencia de plomo en los bolígrafos, que excede los estándares de seguridad federales. El retiro afecta a dos tipos de kits: kits de escritura a mano en bloque que cuentan con libros reutilizables con cubiertas temáticas de animales, y kits de escritura a mano en cursiva con libros centrados en letras, palabras y oraciones. Ambos kits incluyen varios agarres de bolígrafo de colores y recargas, todos marcados con el logo de TheKiddoSpace.",
+          "ConsumerContact": "Para asistencia, los consumidores pueden comunicarse con TheKiddoSpace por correo electrónico a info@thekiddospace.com o visitar www.thekiddospacestore.com/pages/product-recalls/handwriting-kit. Más información también está disponible haciendo clic en \"Retiro de Productos por Seguridad\" en la parte inferior de su sitio web.",
+          "metaDescription": "TheKiddoSpace retira kits de escritura debido al riesgo de exposición al plomo. Contáctalos para obtener reemplazos gratuitos e información de seguridad.",
+          "Products": [
+            {
+              "Name": "Kit de Escritura a Mano en Bloque de TheKiddoSpace",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 19,700"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Kit de Práctica de Escritura a Mano en Bloque de TheKiddoSpace Retirado"
+            },
+            {
+              "Caption": "Kit de Práctica de Escritura a Mano en Cursiva de TheKiddoSpace Retirado"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Ninguna reportada"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible en línea en TheKiddoSpaceStore.com y Amazon.com desde febrero de 2024 hasta febrero de 2025, con precios entre $25 y $50."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "SN Commerce LLC, haciendo negocios como TheKiddoSpaceStore, de Dover, Delaware"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendido en Línea En",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Exposición al plomo de los bolígrafos en los kits de escritura"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Bolígrafos y recargas de reemplazo gratuitos proporcionados por TheKiddoSpace"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reemplazar"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "TheKiddoSpace تستدعي مجموعات ممارسة الكتابة اليدوية بسبب خطر التعرض للرصاص",
+          "Description": "TheKiddoSpace قد أصدرت استدعاء لمجموعات ممارسة الكتابة اليدوية بسبب وجود الرصاص في الأقلام، والذي يتجاوز معايير السلامة الفيدرالية. يؤثر الاستدعاء على نوعين من المجموعات: مجموعات الكتابة اليدوية الكتلية التي تحتوي على كتب قابلة لإعادة الاستخدام مع أغلفة ذات طابع حيواني، ومجموعات الكتابة اليدوية المتصلة التي تركز على الحروف والكلمات والجمل. تشمل كلتا المجموعتين مقابض أقلام ملونة وعبوات إعادة تعبئة، جميعها تحمل شعار TheKiddoSpace.\n\nللمساعدة، يمكن للمستهلكين التواصل مع TheKiddoSpace عبر البريد الإلكتروني على info@thekiddospace.com أو زيارة www.thekiddospacestore.com/pages/product-recalls/handwriting-kit. تتوفر مزيد من المعلومات أيضًا من خلال النقر على \"استدعاءات سلامة المنتجات\" في أسفل موقعهم الإلكتروني.",
+          "ConsumerContact": "للمساعدة، يمكن للمستهلكين التواصل مع TheKiddoSpace عبر البريد الإلكتروني على info@thekiddospace.com أو زيارة www.thekiddospacestore.com/pages/product-recalls/handwriting-kit. تتوفر مزيد من المعلومات أيضًا من خلال النقر على \"استدعاءات سلامة المنتجات\" في أسفل موقعهم الإلكتروني.",
+          "metaDescription": "TheKiddoSpace تستدعي مجموعات الكتابة اليدوية بسبب خطر التعرض للرصاص. اتصل بهم للحصول على بدائل مجانية ومعلومات السلامة.",
+          "Products": [
+            {
+              "Name": "مجموعة الكتابة اليدوية الكتلية من TheKiddoSpace",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 19,700"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "مجموعة ممارسة الكتابة اليدوية الكتلية المستدعاة من TheKiddoSpace"
+            },
+            {
+              "Caption": "مجموعة ممارسة الكتابة اليدوية المتصلة المستدعاة من TheKiddoSpace"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "لا توجد إصابات مسجلة"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "متاحة عبر الإنترنت على TheKiddoSpaceStore.com و Amazon.com من فبراير 2024 إلى فبراير 2025، بأسعار تتراوح بين 25 دولارًا و 50 دولارًا."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "SN Commerce LLC، تعمل تحت اسم TheKiddoSpaceStore، من دوفر، ديلاوير"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "تباع عبر الإنترنت في",
+          "ManufacturerCountries": [
+            {
+              "Country": "الصين"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "التعرض للرصاص من الأقلام في مجموعات الكتابة اليدوية"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "أقلام وعبوات إعادة تعبئة مجانية مقدمة من TheKiddoSpace"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "استبدال"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "TheKiddoSpace 因铅暴露风险召回书写练习套件",
+          "Description": "TheKiddoSpace 已对其书写练习套件发出召回，原因是笔中含有铅，超过了联邦安全标准。此次召回涉及两种类型的套件：带有动物主题封面的可重复使用书籍的块状书写套件，以及专注于字母、单词和句子的连笔书写套件。两种套件均包含各种颜色的笔握和补充装，所有产品均标有 TheKiddoSpace 徽标。\n",
+          "ConsumerContact": "如需帮助，消费者可以通过电子邮件 info@thekiddospace.com 联系 TheKiddoSpace，或访问 www.thekiddospacestore.com/pages/product-recalls/handwriting-kit。他们网站底部的 \"产品安全召回\" 也提供更多信息。",
+          "metaDescription": "TheKiddoSpace 因铅暴露风险召回书写套件。联系他们以获取免费更换和安全信息。",
+          "Products": [
+            {
+              "Name": "TheKiddoSpace 块状书写套件",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约 19,700"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "召回的 TheKiddoSpace 块状书写练习套件"
+            },
+            {
+              "Caption": "召回的 TheKiddoSpace 连笔书写练习套件"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "未报告任何伤害"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "在 TheKiddoSpaceStore.com 和 Amazon.com 上可在线购买，销售时间为 2024 年 2 月至 2025 年 2 月，价格在 $25 到 $50 之间。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "SN Commerce LLC，经营 TheKiddoSpaceStore，位于特拉华州多佛"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "在线销售于",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "书写套件中笔的铅暴露"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "TheKiddoSpace 提供的免费替换笔和补充装"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "更换"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "TheKiddoSpace rappelle des kits de pratique d'écriture en raison du risque d'exposition au plomb",
+          "Description": "TheKiddoSpace a émis un rappel pour ses kits de pratique d'écriture en raison de la présence de plomb dans les stylos, qui dépasse les normes de sécurité fédérales. Le rappel concerne deux types de kits : des kits d'écriture en bloc avec des livres réutilisables aux couvertures sur le thème des animaux, et des kits d'écriture cursive avec des livres axés sur les lettres, les mots et les phrases. Les deux kits comprennent divers grips de stylo colorés et des recharges, tous marqués du logo TheKiddoSpace.",
+          "ConsumerContact": "Pour obtenir de l'aide, les consommateurs peuvent contacter TheKiddoSpace par e-mail à info@thekiddospace.com ou visiter www.thekiddospacestore.com/pages/product-recalls/handwriting-kit. Plus d'informations sont également disponibles en cliquant sur \"Rappels de sécurité des produits\" en bas de leur site web.",
+          "metaDescription": "TheKiddoSpace rappelle des kits d'écriture en raison du risque d'exposition au plomb. Contactez-les pour des remplacements gratuits et des informations de sécurité.",
+          "Products": [
+            {
+              "Name": "Kit d'écriture en bloc TheKiddoSpace",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 19 700"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Kit de pratique d'écriture en bloc TheKiddoSpace rappelé"
+            },
+            {
+              "Caption": "Kit de pratique d'écriture cursive TheKiddoSpace rappelé"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Aucune rapportée"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible en ligne sur TheKiddoSpaceStore.com et Amazon.com de février 2024 à février 2025, au prix compris entre 25 $ et 50 $."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "SN Commerce LLC, faisant affaire sous le nom de TheKiddoSpaceStore, de Dover, Delaware"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendu en ligne à",
+          "ManufacturerCountries": [
+            {
+              "Country": "Chine"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Exposition au plomb provenant des stylos dans les kits d'écriture"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Stylos et recharges de remplacement gratuits fournis par TheKiddoSpace"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Remplacer"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "TheKiddoSpace ruft Schreibübungssets wegen Bleiexpositionsrisiko zurück",
+          "Description": "TheKiddoSpace hat einen Rückruf für seine Schreibübungssets aufgrund des Vorhandenseins von Blei in den Stiften, das die bundesstaatlichen Sicherheitsstandards überschreitet, herausgegeben. Der Rückruf betrifft zwei Arten von Sets: Blockschrift-Schreibsets mit wiederverwendbaren Büchern mit tierischen Motiven und Schreibsets in Schreibschrift mit Büchern, die sich auf Buchstaben, Wörter und Sätze konzentrieren. Beide Sets enthalten verschiedene farbige Stiftgriffe und Nachfüllungen, die alle mit dem TheKiddoSpace-Logo gekennzeichnet sind.",
+          "ConsumerContact": "Für Unterstützung können Verbraucher TheKiddoSpace per E-Mail unter info@thekiddospace.com kontaktieren oder die Website www.thekiddospacestore.com/pages/product-recalls/handwriting-kit besuchen. Weitere Informationen sind auch verfügbar, indem Sie auf \"Produktsicherheitsrückrufe\" am Ende ihrer Website klicken.",
+          "metaDescription": "TheKiddoSpace ruft Schreibsets wegen Bleiexpositionsrisiko zurück. Kontaktieren Sie sie für kostenlose Ersatzteile und Sicherheitsinformationen.",
+          "Products": [
+            {
+              "Name": "TheKiddoSpace Blockschrift Schreibset",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 19.700"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Rückgerufenes TheKiddoSpace Blockschrift Schreibübungsset"
+            },
+            {
+              "Caption": "Rückgerufenes TheKiddoSpace Schreibschrift Schreibübungsset"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Keine gemeldet"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Online erhältlich bei TheKiddoSpaceStore.com und Amazon.com von Februar 2024 bis Februar 2025, preislich zwischen 25 und 50 US-Dollar."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "SN Commerce LLC, dba TheKiddoSpaceStore, aus Dover, Delaware"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Online verkauft bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Bleiexposition durch Stifte in den Schreibsets"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Kostenlose Ersatzstifte und Nachfüllungen, bereitgestellt von TheKiddoSpace"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Ersatz"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "TheKiddoSpace、鉛曝露リスクのため手書き練習キットをリコール",
+          "Description": "TheKiddoSpaceは、ペンに含まれる鉛が連邦安全基準を超えているため、手書き練習キットのリコールを発表しました。このリコールは、動物をテーマにしたカバーの再利用可能な本を特徴とするブロック手書きキットと、文字、単語、文に焦点を当てた本を含む草書手書きキットの2種類に影響します。両方のキットには、TheKiddoSpaceのロゴが付いたさまざまな色のペングリップとリフィルが含まれています。",
+          "ConsumerContact": "サポートが必要な場合、消費者はinfo@thekiddospace.comまでメールを送信するか、www.thekiddospacestore.com/pages/product-recalls/handwriting-kitを訪問してTheKiddoSpaceに連絡できます。ウェブサイトの下部にある「製品安全リコール」をクリックすることで、さらに情報を得ることもできます。",
+          "metaDescription": "TheKiddoSpaceは鉛曝露リスクのため手書きキットをリコールします。無料の交換と安全情報についてお問い合わせください。",
+          "Products": [
+            {
+              "Name": "TheKiddoSpaceブロック手書きキット",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約19,700"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコールされたTheKiddoSpaceブロック手書き練習キット"
+            },
+            {
+              "Caption": "リコールされたTheKiddoSpace草書手書き練習キット"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "報告された怪我はありません"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "2024年2月から2025年2月まで、TheKiddoSpaceStore.comおよびAmazon.comでオンライン販売され、価格は25ドルから50ドルの間です。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "デラウェア州ドーバーのSN Commerce LLC、通称TheKiddoSpaceStore"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "オンラインで販売",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "手書きキットのペンからの鉛曝露"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "TheKiddoSpaceによる無料の交換ペンとリフィル"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "交換"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "TheKiddoSpace Recalls Kits de Prática de Caligrafia Devido ao Risco de Exposição ao Chumbo",
+          "Description": "TheKiddoSpace emitiu um recall para seus kits de prática de caligrafia devido à presença de chumbo nas canetas, que excede os padrões de segurança federal. O recall afeta dois tipos de kits: kits de caligrafia em bloco com livros reutilizáveis com capas temáticas de animais, e kits de caligrafia cursiva com livros focados em letras, palavras e frases. Ambos os kits incluem várias empunhaduras de caneta coloridas e recargas, todas marcadas com o logotipo da TheKiddoSpace.",
+          "ConsumerContact": "Para assistência, os consumidores podem entrar em contato com a TheKiddoSpace pelo e-mail info@thekiddospace.com ou visitar www.thekiddospacestore.com/pages/product-recalls/handwriting-kit. Mais informações também estão disponíveis clicando em \"Recall de Segurança de Produtos\" na parte inferior do site deles.",
+          "metaDescription": "TheKiddoSpace recolhe kits de caligrafia devido ao risco de exposição ao chumbo. Entre em contato com eles para substituições gratuitas e informações de segurança.",
+          "Products": [
+            {
+              "Name": "Kit de Caligrafia em Bloco TheKiddoSpace",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 19.700"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Kit de Prática de Caligrafia em Bloco TheKiddoSpace Recolhido"
+            },
+            {
+              "Caption": "Kit de Prática de Caligrafia Cursiva TheKiddoSpace Recolhido"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Nenhum relatado"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponível online em TheKiddoSpaceStore.com e Amazon.com de fevereiro de 2024 a fevereiro de 2025, com preços entre $25 e $50."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "SN Commerce LLC, dba TheKiddoSpaceStore, de Dover, Delaware"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendido Online Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Exposição ao chumbo das canetas nos kits de caligrafia"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Canetas e recargas de substituição gratuitas fornecidas pela TheKiddoSpace"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Substituir"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "TheKiddoSpace ने लीड एक्सपोजर जोखिम के कारण हैंडराइटिंग प्रैक्टिस किट्स की रिकॉल की",
+          "Description": "TheKiddoSpace ने पेन में लीड की उपस्थिति के कारण अपने हैंडराइटिंग प्रैक्टिस किट्स की रिकॉल की है, जो संघीय सुरक्षा मानकों से अधिक है। यह रिकॉल दो प्रकार की किट्स को प्रभावित करता है: ब्लॉक हैंडराइटिंग किट्स जिसमें जानवर-थीम वाले कवर के साथ पुन: प्रयोज्य पुस्तकें हैं, और कर्सिव हैंडराइटिंग किट्स जिसमें अक्षरों, शब्दों और वाक्यों पर केंद्रित पुस्तकें हैं। दोनों किट्स में विभिन्न रंगों के पेन ग्रिप्स और रिफिल्स शामिल हैं, जो सभी TheKiddoSpace के लोगो के साथ चिह्नित हैं।",
+          "ConsumerContact": "सहायता के लिए, उपभोक्ता TheKiddoSpace से info@thekiddospace.com पर ईमेल के माध्यम से संपर्क कर सकते हैं या www.thekiddospacestore.com/pages/product-recalls/handwriting-kit पर जा सकते हैं। उनकी वेबसाइट के नीचे \"उत्पाद सुरक्षा रिकॉल\" पर क्लिक करके अधिक जानकारी भी उपलब्ध है।",
+          "metaDescription": "TheKiddoSpace लीड एक्सपोजर जोखिम के कारण हैंडराइटिंग किट्स की रिकॉल करता है। मुफ्त प्रतिस्थापन और सुरक्षा जानकारी के लिए उनसे संपर्क करें।",
+          "Products": [
+            {
+              "Name": "TheKiddoSpace ब्लॉक हैंडराइटिंग किट",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 19,700"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "रिकॉल की गई TheKiddoSpace ब्लॉक हैंडराइटिंग प्रैक्टिस किट"
+            },
+            {
+              "Caption": "रिकॉल की गई TheKiddoSpace कर्सिव हैंडराइटिंग प्रैक्टिस किट"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "कोई रिपोर्ट नहीं"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "TheKiddoSpaceStore.com और Amazon.com पर फरवरी 2024 से फरवरी 2025 तक उपलब्ध, कीमत $25 से $50 के बीच।"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "SN Commerce LLC, dba TheKiddoSpaceStore, डोवर, डेलावेयर"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "ऑनलाइन बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "चीन"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "हैंडराइटिंग किट्स में पेन से लीड एक्सपोजर"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "TheKiddoSpace द्वारा प्रदान किए गए मुफ्त प्रतिस्थापन पेन और रिफिल्स"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "प्रतिस्थापित करें"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "TheKiddoSpace отзывает наборы для практики письма из-за риска воздействия свинца",
+          "Description": "TheKiddoSpace объявила об отзыве своих наборов для практики письма из-за наличия свинца в ручках, что превышает федеральные стандарты безопасности. Отзыв затрагивает два типа наборов: наборы для письма печатными буквами с многоразовыми книгами с обложками на тему животных и наборы для письма курсивом с книгами, сосредоточенными на буквах, словах и предложениях. Оба набора включают различные цветные накладки для ручек и сменные стержни, все с логотипом TheKiddoSpace.",
+          "ConsumerContact": "Для получения помощи потребители могут обратиться в TheKiddoSpace по электронной почте info@thekiddospace.com или посетить www.thekiddospacestore.com/pages/product-recalls/handwriting-kit. Дополнительную информацию также можно получить, нажав на \"Отзывы о безопасности продукции\" внизу их веб-сайта.",
+          "metaDescription": "TheKiddoSpace отзывает наборы для письма из-за риска воздействия свинца. Свяжитесь с ними для получения бесплатных замен и информации о безопасности.",
+          "Products": [
+            {
+              "Name": "Набор для письма печатными буквами TheKiddoSpace",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 19,700"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванный набор для практики письма печатными буквами TheKiddoSpace"
+            },
+            {
+              "Caption": "Отозванный набор для практики письма курсивом TheKiddoSpace"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Не сообщалось о травмах"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Доступно онлайн на TheKiddoSpaceStore.com и Amazon.com с февраля 2024 года по февраль 2025 года, по цене от 25 до 50 долларов."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "SN Commerce LLC, действующая под торговой маркой TheKiddoSpaceStore, из Довера, Делавэр"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Продается онлайн на",
+          "ManufacturerCountries": [
+            {
+              "Country": "Китай"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Воздействие свинца от ручек в наборах для письма"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Бесплатные заменяющие ручки и сменные стержни предоставляются TheKiddoSpace"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Заменить"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "TheKiddoSpace thu hồi bộ thực hành viết tay do nguy cơ tiếp xúc với chì",
+          "Description": "TheKiddoSpace đã phát động một đợt thu hồi cho bộ thực hành viết tay của mình do sự hiện diện của chì trong bút, vượt quá tiêu chuẩn an toàn liên bang. Đợt thu hồi ảnh hưởng đến hai loại bộ: bộ viết tay khối với sách tái sử dụng có bìa chủ đề động vật, và bộ viết tay nghiêng với sách tập trung vào chữ cái, từ và câu. Cả hai bộ đều bao gồm các tay cầm bút và mực nhiều màu, tất cả đều có logo của TheKiddoSpace.",
+          "ConsumerContact": "Để được hỗ trợ, người tiêu dùng có thể liên hệ với TheKiddoSpace qua email tại info@thekiddospace.com hoặc truy cập www.thekiddospacestore.com/pages/product-recalls/handwriting-kit. Thông tin thêm cũng có sẵn bằng cách nhấp vào \"Thu hồi sản phẩm an toàn\" ở cuối trang web của họ.",
+          "metaDescription": "TheKiddoSpace thu hồi bộ viết tay do nguy cơ tiếp xúc với chì. Liên hệ với họ để được thay thế miễn phí và thông tin an toàn.",
+          "Products": [
+            {
+              "Name": "Bộ thực hành viết tay khối TheKiddoSpace",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 19,700"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Bộ thực hành viết tay khối TheKiddoSpace bị thu hồi"
+            },
+            {
+              "Caption": "Bộ thực hành viết tay nghiêng TheKiddoSpace bị thu hồi"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Không có báo cáo"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Có sẵn trực tuyến tại TheKiddoSpaceStore.com và Amazon.com từ tháng 2 năm 2024 đến tháng 2 năm 2025, có giá từ 25 đến 50 đô la."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "SN Commerce LLC, dba TheKiddoSpaceStore, tại Dover, Delaware"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Bán trực tuyến tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Trung Quốc"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Nguy cơ tiếp xúc với chì từ bút trong bộ viết tay"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Bút và mực thay thế miễn phí do TheKiddoSpace cung cấp"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Thay thế"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,915 @@
+{
+  "meta": {
+    "slug": "rocking-chair",
+    "sourceCsvFile": "rocking-chair_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:37.055Z",
+    "recallCount": 1,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "rocking-chair.json",
+    "seoTranslatedAt": "2026-04-05T03:56:33.018Z",
+    "resumePartial": false,
+    "i18nSource": "generalRecallsTranslated",
+    "i18nSourceFile": "rocking-chair.json",
+    "i18nUiLangs": [
+      "en",
+      "es",
+      "ar",
+      "zh",
+      "fr",
+      "de",
+      "ja",
+      "pt",
+      "hi",
+      "ru",
+      "vi"
+    ],
+    "i18nProgressByLang": {
+      "es": 1,
+      "ar": 1,
+      "zh": 1,
+      "fr": 1,
+      "de": 1,
+      "ja": 1,
+      "pt": 1,
+      "hi": 1,
+      "ru": 1,
+      "vi": 1
+    },
+    "i18nInProgress": false,
+    "i18nTranslatedAt": "2026-04-07T19:39:50.992Z",
+    "i18nOpenaiModel": "gpt-4o-mini"
+  },
+  "recalls": [
+    {
+      "RecallID": 10568,
+      "RecallNumber": "26202",
+      "RecallDate": "2026-01-22T00:00:00",
+      "Description": "Academy Sports + Outdoors is recalling its Magellan-branded Odyssey Rocker Chairs, identified by date codes 07/2025 and 08/2025. These folding chairs, available in charcoal, navy, olive green, and teal, were sold between September 2025 and October 2025. When folded, they measure approximately 25.2\" long, 5.5\" deep, and 37.4\" high, while the open dimensions are about 25.4\" long, 25.2\" deep, and 37.4\" high. Each chair features a metal frame, a mesh backrest, a carrying handle, and a side drink holder, with the Magellan Outdoors logo displayed on the backrest. Only chairs manufactured in July and August 2025 are affected by this recall.",
+      "URL": "https://www.cpsc.gov/Recalls/2026/Academy-Sports-Outdoors-Recalls-Magellan-Odyssey-Rocker-Chairs-Due-to-Injury-and-Fall-Hazards",
+      "Title": "Recall of Magellan Odyssey Rocker Chairs by Academy Sports + Outdoors Due to Injury Risks",
+      "ConsumerContact": "For assistance, consumers can reach Academy Sports + Outdoors at 888-922-2336 from 7 a.m. to 10 p.m. CT, via email at customerservice@academy.com, or visit www.academy.com/product-recalls for further details.",
+      "LastPublishDate": "2026-01-22T00:00:00",
+      "Products": [
+        {
+          "Name": "Magellan Odyssey Rocker Chairs",
+          "NumberOfUnits": "About 35,300"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/rocking-chair/1-Magellan-Odyssey-Rocker-Chairs/61787a6f9e9965f7f9a0f217a8f6a010.webp",
+          "Caption": "Recalled Academy Magellan Odyssey Rocker Chair - charcoal",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/magellan-1.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/rocking-chair/1-Magellan-Odyssey-Rocker-Chairs/58e05035e5154c7902b11a94d963b1c7.webp",
+          "Caption": "Recalled Academy Magellan Odyssey Rocker Chair – olive green",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/magellan-2.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/rocking-chair/1-Magellan-Odyssey-Rocker-Chairs/2e6c8f0ee733e54c5be9513aa3829838.webp",
+          "Caption": "Recalled Academy Magellan Odyssey Rocker Chair - navy",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/magellan-3.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/rocking-chair/1-Magellan-Odyssey-Rocker-Chairs/1f69e61128de24e78788bfc4ba1dbc9c.webp",
+          "Caption": "Recalled Academy Magellan Odyssey Rocker Chair - teal",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/magellan-4.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/rocking-chair/1-Magellan-Odyssey-Rocker-Chairs/51d3acd431d095529f553d27afd77568.webp",
+          "Caption": "\"ACADEMY, LTD,\" \"177296\" and the manufacture date 07/2025 or 08/2025 are printed on the tracking label sewn onto the arm of the chair",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/magellan-5.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "Academy Sports + Outdoors has received one report of the chair's legs breaking. No injuries have been reported."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available at Academy Sports + Outdoors locations across the nation and online at academy.com from September 2025 to October 2025 for approximately $50."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Academy Ltd., dba Academy Sports + Outdoors, of Katy, Texas"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "Cambodia"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of injury and falls due to potential leg breakage"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Stop using the chairs immediately and return them to any Academy Sports + Outdoors location for a full refund. Customers can also arrange for a free mail return through Academy's Customer Care."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "ACADEMY, LTD",
+        "177296",
+        "07/2025",
+        "08/2025"
+      ],
+      "slug": "recall-of-magellan-odyssey-rocker-chairs-by-academy-sports-outdoors-due-to-injury-risks-recall",
+      "metaDescription": "Academy Sports + Outdoors recalls Magellan Odyssey Rocker Chairs due to injury risks. Stop using them and return for a refund.",
+      "languages": {
+        "en": {
+          "Title": "Recall of Magellan Odyssey Rocker Chairs by Academy Sports + Outdoors Due to Injury Risks",
+          "Description": "Academy Sports + Outdoors is recalling its Magellan-branded Odyssey Rocker Chairs, identified by date codes 07/2025 and 08/2025. These folding chairs, available in charcoal, navy, olive green, and teal, were sold between September 2025 and October 2025. When folded, they measure approximately 25.2\" long, 5.5\" deep, and 37.4\" high, while the open dimensions are about 25.4\" long, 25.2\" deep, and 37.4\" high. Each chair features a metal frame, a mesh backrest, a carrying handle, and a side drink holder, with the Magellan Outdoors logo displayed on the backrest. Only chairs manufactured in July and August 2025 are affected by this recall.",
+          "ConsumerContact": "For assistance, consumers can reach Academy Sports + Outdoors at 888-922-2336 from 7 a.m. to 10 p.m. CT, via email at customerservice@academy.com, or visit www.academy.com/product-recalls for further details.",
+          "metaDescription": "Academy Sports + Outdoors recalls Magellan Odyssey Rocker Chairs due to injury risks. Stop using them and return for a refund.",
+          "Products": [
+            {
+              "Name": "Magellan Odyssey Rocker Chairs",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 35,300"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled Academy Magellan Odyssey Rocker Chair - charcoal"
+            },
+            {
+              "Caption": "Recalled Academy Magellan Odyssey Rocker Chair – olive green"
+            },
+            {
+              "Caption": "Recalled Academy Magellan Odyssey Rocker Chair - navy"
+            },
+            {
+              "Caption": "Recalled Academy Magellan Odyssey Rocker Chair - teal"
+            },
+            {
+              "Caption": "\"ACADEMY, LTD,\" \"177296\" and the manufacture date 07/2025 or 08/2025 are printed on the tracking label sewn onto the arm of the chair"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Academy Sports + Outdoors has received one report of the chair's legs breaking. No injuries have been reported."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Available at Academy Sports + Outdoors locations across the nation and online at academy.com from September 2025 to October 2025 for approximately $50."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Academy Ltd., dba Academy Sports + Outdoors, of Katy, Texas"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Sold At",
+          "ManufacturerCountries": [
+            {
+              "Country": "Cambodia"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risk of injury and falls due to potential leg breakage"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Stop using the chairs immediately and return them to any Academy Sports + Outdoors location for a full refund. Customers can also arrange for a free mail return through Academy's Customer Care."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Refund"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "Retiro de sillas mecedoras Magellan Odyssey por Academy Sports + Outdoors debido a riesgos de lesiones",
+          "Description": "Academy Sports + Outdoors está retirando sus sillas mecedoras Odyssey de la marca Magellan, identificadas por los códigos de fecha 07/2025 y 08/2025. Estas sillas plegables, disponibles en carbón, azul marino, verde oliva y azul verdoso, se vendieron entre septiembre de 2025 y octubre de 2025. Cuando están plegadas, miden aproximadamente 25.2\" de largo, 5.5\" de profundidad y 37.4\" de alto, mientras que las dimensiones abiertas son de aproximadamente 25.4\" de largo, 25.2\" de profundidad y 37.4\" de alto. Cada silla cuenta con un marco de metal, un respaldo de malla, un asa de transporte y un portavasos lateral, con el logo de Magellan Outdoors exhibido en el respaldo. Solo las sillas fabricadas en julio y agosto de 2025 están afectadas por este retiro.",
+          "ConsumerContact": "Para asistencia, los consumidores pueden comunicarse con Academy Sports + Outdoors al 888-922-2336 de 7 a.m. a 10 p.m. CT, por correo electrónico a customerservice@academy.com, o visitar www.academy.com/product-recalls para más detalles.",
+          "metaDescription": "Academy Sports + Outdoors retira las sillas mecedoras Magellan Odyssey debido a riesgos de lesiones. Deje de usarlas y devuélvalas para obtener un reembolso.",
+          "Products": [
+            {
+              "Name": "Sillas mecedoras Magellan Odyssey",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 35,300"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Silla mecedora Magellan Odyssey de Academy retirada - carbón"
+            },
+            {
+              "Caption": "Silla mecedora Magellan Odyssey de Academy retirada - verde oliva"
+            },
+            {
+              "Caption": "Silla mecedora Magellan Odyssey de Academy retirada - azul marino"
+            },
+            {
+              "Caption": "Silla mecedora Magellan Odyssey de Academy retirada - azul verdoso"
+            },
+            {
+              "Caption": "\"ACADEMY, LTD,\" \"177296\" y la fecha de fabricación 07/2025 o 08/2025 están impresas en la etiqueta de seguimiento cosida en el brazo de la silla"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Academy Sports + Outdoors ha recibido un informe de que las patas de la silla se rompen. No se han reportado lesiones."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible en las ubicaciones de Academy Sports + Outdoors en todo el país y en línea en academy.com desde septiembre de 2025 hasta octubre de 2025 por aproximadamente $50."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Academy Ltd., dba Academy Sports + Outdoors, de Katy, Texas"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendido En",
+          "ManufacturerCountries": [
+            {
+              "Country": "Camboya"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Riesgo de lesiones y caídas debido a la posible rotura de las patas"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Deje de usar las sillas de inmediato y devuélvalas a cualquier ubicación de Academy Sports + Outdoors para obtener un reembolso completo. Los clientes también pueden organizar un retorno gratuito por correo a través del Servicio al Cliente de Academy."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reembolso"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "استدعاء كراسي ماغيلان أوديسي روكر من أكاديمية سبورتس + في الهواء الطلق بسبب مخاطر الإصابة",
+          "Description": "تقوم أكاديمية سبورتس + في الهواء الطلق باستدعاء كراسي ماغيلان أوديسي روكر، التي تم تحديدها بواسطة رموز التاريخ 07/2025 و 08/2025. هذه الكراسي القابلة للطي، المتاحة بالألوان الرمادي، الأزرق الداكن، الأخضر الزيتوني، والأخضر الفاتح، تم بيعها بين سبتمبر 2025 وأكتوبر 2025. عند طيها، تقيس تقريبًا 25.2\" طولًا، 5.5\" عمقًا، و 37.4\" ارتفاعًا، بينما الأبعاد المفتوحة هي حوالي 25.4\" طولًا، 25.2\" عمقًا، و 37.4\" ارتفاعًا. كل كرسي مزود بإطار معدني، ظهر شبكي، مقبض حمل، وحامل مشروبات جانبي، مع شعار ماغيلان في الهواء الطلق المعروض على الظهر. الكراسي المصنعة في يوليو وأغسطس 2025 فقط هي المتأثرة بهذا الاستدعاء.",
+          "ConsumerContact": "للمساعدة، يمكن للمستهلكين التواصل مع أكاديمية سبورتس + في الهواء الطلق على الرقم 888-922-2336 من الساعة 7 صباحًا حتى 10 مساءً بتوقيت وسط أمريكا، عبر البريد الإلكتروني على customerservice@academy.com، أو زيارة www.academy.com/product-recalls لمزيد من التفاصيل.",
+          "metaDescription": "تستدعي أكاديمية سبورتس + في الهواء الطلق كراسي ماغيلان أوديسي روكر بسبب مخاطر الإصابة. توقف عن استخدامها وارجعها لاسترداد الأموال.",
+          "Products": [
+            {
+              "Name": "كراسي ماغيلان أوديسي روكر",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 35,300"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "كرسي ماغيلان أوديسي روكر المستدعى من أكاديمية - رمادي"
+            },
+            {
+              "Caption": "كرسي ماغيلان أوديسي روكر المستدعى من أكاديمية - أخضر زيتوني"
+            },
+            {
+              "Caption": "كرسي ماغيلان أوديسي روكر المستدعى من أكاديمية - أزرق داكن"
+            },
+            {
+              "Caption": "كرسي ماغيلان أوديسي روكر المستدعى من أكاديمية - أخضر فاتح"
+            },
+            {
+              "Caption": "\"ACADEMY, LTD,\" \"177296\" وتاريخ التصنيع 07/2025 أو 08/2025 مطبوعة على ملصق التتبع المخيط على ذراع الكرسي"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "تلقت أكاديمية سبورتس + في الهواء الطلق تقريرًا واحدًا عن كسر أرجل الكرسي. لم يتم الإبلاغ عن أي إصابات."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "متاحة في مواقع أكاديمية سبورتس + في الهواء الطلق في جميع أنحاء البلاد وعبر الإنترنت على academy.com من سبتمبر 2025 إلى أكتوبر 2025 بسعر تقريبي 50 دولار."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "أكاديمية المحدودة، تعمل تحت اسم أكاديمية سبورتس + في الهواء الطلق، من كاتي، تكساس"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "تم البيع في",
+          "ManufacturerCountries": [
+            {
+              "Country": "كمبوديا"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "خطر الإصابة والسقوط بسبب احتمال كسر الأرجل"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "توقف عن استخدام الكراسي على الفور وارجعها إلى أي موقع من أكاديمية سبورتس + في الهواء الطلق لاسترداد كامل المبلغ. يمكن للعملاء أيضًا ترتيب إرجاع مجاني عبر البريد من خلال خدمة العملاء في أكاديمية."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "استرداد"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "因受伤风险而召回Academy Sports + Outdoors的Magellan Odyssey摇椅",
+          "Description": "Academy Sports + Outdoors正在召回其Magellan品牌的Odyssey摇椅，识别日期代码为07/2025和08/2025。这些折叠椅有炭黑色、海军蓝、橄榄绿和青色可供选择，销售时间为2025年9月至2025年10月。折叠时，椅子大约长25.2英寸，深5.5英寸，高37.4英寸，展开时的尺寸约为长25.4英寸，深25.2英寸，高37.4英寸。每把椅子都有金属框架、网状靠背、手提把手和侧饮料架，Magellan Outdoors的标志显示在靠背上。只有2025年7月和8月生产的椅子受到此次召回的影响。",
+          "ConsumerContact": "如需帮助，消费者可在中部时间早上7点至晚上10点拨打888-922-2336联系Academy Sports + Outdoors，或通过电子邮件联系customerservice@academy.com，或访问www.academy.com/product-recalls获取更多详情。",
+          "metaDescription": "Academy Sports + Outdoors因受伤风险召回Magellan Odyssey摇椅。停止使用并退回以获得退款。",
+          "Products": [
+            {
+              "Name": "Magellan Odyssey摇椅",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约35,300"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "召回的Academy Magellan Odyssey摇椅 - 炭黑色"
+            },
+            {
+              "Caption": "召回的Academy Magellan Odyssey摇椅 - 橄榄绿"
+            },
+            {
+              "Caption": "召回的Academy Magellan Odyssey摇椅 - 海军蓝"
+            },
+            {
+              "Caption": "召回的Academy Magellan Odyssey摇椅 - 青色"
+            },
+            {
+              "Caption": "\"ACADEMY, LTD,\" \"177296\"和生产日期07/2025或08/2025印刷在缝在椅子扶手上的追踪标签上"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Academy Sports + Outdoors已收到一份椅子腿部断裂的报告。没有报告受伤。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "在全国各地的Academy Sports + Outdoors门店和academy.com网站上可购买，销售时间为2025年9月至2025年10月，价格约为50美元。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Academy Ltd., dba Academy Sports + Outdoors, 德克萨斯州凯蒂"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "销售地点",
+          "ManufacturerCountries": [
+            {
+              "Country": "柬埔寨"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "因潜在的腿部断裂而导致受伤和跌倒的风险"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "立即停止使用这些椅子，并将其退回到任何Academy Sports + Outdoors门店以获得全额退款。客户还可以通过Academy的客户服务安排免费邮寄退货。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "退款"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "Rappel des chaises à bascule Magellan Odyssey par Academy Sports + Outdoors en raison de risques de blessure",
+          "Description": "Academy Sports + Outdoors rappelle ses chaises à bascule Odyssey de marque Magellan, identifiées par les codes de date 07/2025 et 08/2025. Ces chaises pliantes, disponibles en charbon, marine, vert olive et turquoise, ont été vendues entre septembre 2025 et octobre 2025. Lorsqu'elles sont pliées, elles mesurent environ 25,2\" de long, 5,5\" de profondeur et 37,4\" de hauteur, tandis que les dimensions ouvertes sont d'environ 25,4\" de long, 25,2\" de profondeur et 37,4\" de hauteur. Chaque chaise dispose d'un cadre en métal, d'un dossier en maille, d'une poignée de transport et d'un porte-boisson latéral, avec le logo Magellan Outdoors affiché sur le dossier. Seules les chaises fabriquées en juillet et août 2025 sont concernées par ce rappel.",
+          "ConsumerContact": "Pour toute assistance, les consommateurs peuvent contacter Academy Sports + Outdoors au 888-922-2336 de 7 h à 22 h CT, par e-mail à customerservice@academy.com, ou visiter www.academy.com/product-recalls pour plus de détails.",
+          "metaDescription": "Academy Sports + Outdoors rappelle les chaises à bascule Magellan Odyssey en raison de risques de blessure. Cessez de les utiliser et retournez-les pour un remboursement.",
+          "Products": [
+            {
+              "Name": "Chaises à bascule Magellan Odyssey",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 35 300"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Chaise à bascule Academy Magellan Odyssey rappelée - charbon"
+            },
+            {
+              "Caption": "Chaise à bascule Academy Magellan Odyssey rappelée - vert olive"
+            },
+            {
+              "Caption": "Chaise à bascule Academy Magellan Odyssey rappelée - marine"
+            },
+            {
+              "Caption": "Chaise à bascule Academy Magellan Odyssey rappelée - turquoise"
+            },
+            {
+              "Caption": "\"ACADEMY, LTD,\" \"177296\" et la date de fabrication 07/2025 ou 08/2025 sont imprimés sur l'étiquette de suivi cousue sur le bras de la chaise"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Academy Sports + Outdoors a reçu un rapport concernant la rupture des jambes de la chaise. Aucune blessure n'a été signalée."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible dans les magasins Academy Sports + Outdoors à travers le pays et en ligne sur academy.com de septembre 2025 à octobre 2025 pour environ 50 $."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Academy Ltd., faisant affaire sous le nom d'Academy Sports + Outdoors, de Katy, Texas"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendu À",
+          "ManufacturerCountries": [
+            {
+              "Country": "Cambodge"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risque de blessure et de chutes en raison d'une éventuelle rupture des jambes"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Cessez d'utiliser les chaises immédiatement et retournez-les à tout magasin Academy Sports + Outdoors pour un remboursement complet. Les clients peuvent également organiser un retour gratuit par courrier via le service client d'Academy."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Remboursement"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "Rückruf der Magellan Odyssey Rocker Chairs von Academy Sports + Outdoors aufgrund von Verletzungsrisiken",
+          "Description": "Academy Sports + Outdoors ruft seine Magellan-markierten Odyssey Rocker Chairs zurück, die durch die Datencodes 07/2025 und 08/2025 identifiziert werden. Diese Klappstühle, erhältlich in Anthrazit, Marineblau, Olivgrün und Türkis, wurden zwischen September 2025 und Oktober 2025 verkauft. Im zusammengeklappten Zustand messen sie etwa 25,2\" lang, 5,5\" tief und 37,4\" hoch, während die offenen Abmessungen etwa 25,4\" lang, 25,2\" tief und 37,4\" hoch sind. Jeder Stuhl verfügt über einen Metallrahmen, eine Netzrückenlehne, einen Tragegriff und einen seitlichen Getränkehalter, mit dem Magellan Outdoors-Logo auf der Rückenlehne. Nur Stühle, die im Juli und August 2025 hergestellt wurden, sind von diesem Rückruf betroffen.",
+          "ConsumerContact": "Für Unterstützung können Verbraucher Academy Sports + Outdoors unter 888-922-2336 von 7 bis 22 Uhr CT, per E-Mail unter customerservice@academy.com oder auf www.academy.com/product-recalls für weitere Details kontaktieren.",
+          "metaDescription": "Academy Sports + Outdoors ruft Magellan Odyssey Rocker Chairs aufgrund von Verletzungsrisiken zurück. Hören Sie auf, sie zu benutzen, und geben Sie sie zur Rückerstattung zurück.",
+          "Products": [
+            {
+              "Name": "Magellan Odyssey Rocker Chairs",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 35.300"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Rückgerufener Academy Magellan Odyssey Rocker Chair - anthrazit"
+            },
+            {
+              "Caption": "Rückgerufener Academy Magellan Odyssey Rocker Chair – olivgrün"
+            },
+            {
+              "Caption": "Rückgerufener Academy Magellan Odyssey Rocker Chair - marineblau"
+            },
+            {
+              "Caption": "Rückgerufener Academy Magellan Odyssey Rocker Chair - türkis"
+            },
+            {
+              "Caption": "\"ACADEMY, LTD,\" \"177296\" und das Herstellungsdatum 07/2025 oder 08/2025 sind auf dem Etikett aufgedruckt, das an den Arm des Stuhls genäht ist."
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Academy Sports + Outdoors hat einen Bericht über das Brechen der Stuhlbeine erhalten. Es wurden keine Verletzungen gemeldet."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Erhältlich in den Academy Sports + Outdoors-Filialen im ganzen Land und online unter academy.com von September 2025 bis Oktober 2025 für etwa 50 $."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Academy Ltd., dba Academy Sports + Outdoors, aus Katy, Texas"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Verkauft bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "Kambodscha"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risiko von Verletzungen und Stürzen aufgrund möglicher Beinbrüche"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Hören Sie sofort auf, die Stühle zu benutzen, und geben Sie sie an jede Academy Sports + Outdoors-Filiale zurück, um eine vollständige Rückerstattung zu erhalten. Kunden können auch eine kostenlose Rücksendung per Post über den Kundenservice von Academy arrangieren."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Rückerstattung"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "アカデミー・スポーツ + アウトドアによるマゼラン・オデッセイ・ロッカーチェアのリコール（怪我のリスクのため）",
+          "Description": "アカデミー・スポーツ + アウトドアは、日付コード07/2025および08/2025で特定されたマゼランブランドのオデッセイ・ロッカーチェアをリコールしています。これらの折りたたみ椅子は、チャコール、ネイビー、オリーブグリーン、ティールの4色で販売され、2025年9月から2025年10月の間に販売されました。折りたたんだ状態での寸法は約25.2インチの長さ、5.5インチの奥行き、37.4インチの高さで、開いた状態では約25.4インチの長さ、25.2インチの奥行き、37.4インチの高さです。各椅子は金属製のフレーム、メッシュの背もたれ、持ち運び用のハンドル、サイドドリンクホルダーを備えており、背もたれにはマゼラン・アウトドアのロゴが表示されています。2025年7月および8月に製造された椅子のみがこのリコールの対象です。",
+          "ConsumerContact": "サポートが必要な場合、消費者はアカデミー・スポーツ + アウトドアに888-922-2336（中央標準時の午前7時から午後10時まで）で連絡するか、customerservice@academy.comにメールを送信するか、www.academy.com/product-recallsを訪れて詳細を確認できます。",
+          "metaDescription": "アカデミー・スポーツ + アウトドアが怪我のリスクのためにマゼラン・オデッセイ・ロッカーチェアをリコールします。使用を中止し、返金のために返品してください。",
+          "Products": [
+            {
+              "Name": "マゼラン・オデッセイ・ロッカーチェア",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約35,300"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコールされたアカデミー・マゼラン・オデッセイ・ロッカーチェア - チャコール"
+            },
+            {
+              "Caption": "リコールされたアカデミー・マゼラン・オデッセイ・ロッカーチェア - オリーブグリーン"
+            },
+            {
+              "Caption": "リコールされたアカデミー・マゼラン・オデッセイ・ロッカーチェア - ネイビー"
+            },
+            {
+              "Caption": "リコールされたアカデミー・マゼラン・オデッセイ・ロッカーチェア - ティール"
+            },
+            {
+              "Caption": "\"ACADEMY, LTD,\" \"177296\" および製造日07/2025または08/2025が椅子の腕に縫い付けられたトラッキングラベルに印刷されています"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "アカデミー・スポーツ + アウトドアは椅子の脚が折れたとの報告を1件受けています。怪我の報告はありません。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "アカデミー・スポーツ + アウトドアの全国各地の店舗およびacademy.comで2025年9月から2025年10月まで約50ドルで販売されています。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "テキサス州ケイティのアカデミー・リミテッド（アカデミー・スポーツ + アウトドアとして営業）"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "販売場所",
+          "ManufacturerCountries": [
+            {
+              "Country": "カンボジア"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "脚の破損の可能性による怪我や転倒のリスク"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "椅子の使用を直ちに中止し、アカデミー・スポーツ + アウトドアのいずれかの店舗に返品して全額返金を受けてください。顧客はアカデミーのカスタマーケアを通じて無料の郵送返品を手配することもできます。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "返金"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "Recall das Cadeiras Rocker Magellan Odyssey pela Academy Sports + Outdoors Devido a Riscos de Lesões",
+          "Description": "A Academy Sports + Outdoors está recalling suas Cadeiras Rocker Odyssey da marca Magellan, identificadas pelos códigos de data 07/2025 e 08/2025. Essas cadeiras dobráveis, disponíveis nas cores carvão, marinho, verde oliva e teal, foram vendidas entre setembro de 2025 e outubro de 2025. Quando dobradas, medem aproximadamente 25,2\" de comprimento, 5,5\" de profundidade e 37,4\" de altura, enquanto as dimensões abertas são cerca de 25,4\" de comprimento, 25,2\" de profundidade e 37,4\" de altura. Cada cadeira possui uma estrutura de metal, um encosto de malha, uma alça de transporte e um suporte para bebidas lateral, com o logotipo da Magellan Outdoors exibido no encosto. Apenas as cadeiras fabricadas em julho e agosto de 2025 são afetadas por este recall.",
+          "ConsumerContact": "Para assistência, os consumidores podem entrar em contato com a Academy Sports + Outdoors pelo telefone 888-922-2336 das 7h às 22h CT, por e-mail em customerservice@academy.com, ou visitar www.academy.com/product-recalls para mais detalhes.",
+          "metaDescription": "A Academy Sports + Outdoors faz recall das Cadeiras Rocker Magellan Odyssey devido a riscos de lesões. Pare de usá-las e devolva para um reembolso.",
+          "Products": [
+            {
+              "Name": "Cadeiras Rocker Magellan Odyssey",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 35.300"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Cadeira Rocker Magellan Odyssey da Academy - carvão"
+            },
+            {
+              "Caption": "Cadeira Rocker Magellan Odyssey da Academy - verde oliva"
+            },
+            {
+              "Caption": "Cadeira Rocker Magellan Odyssey da Academy - marinho"
+            },
+            {
+              "Caption": "Cadeira Rocker Magellan Odyssey da Academy - teal"
+            },
+            {
+              "Caption": "\"ACADEMY, LTD,\" \"177296\" e a data de fabricação 07/2025 ou 08/2025 estão impressas na etiqueta de rastreamento costurada na manga da cadeira"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "A Academy Sports + Outdoors recebeu um relato de quebra das pernas da cadeira. Nenhuma lesão foi relatada."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponível nas lojas Academy Sports + Outdoors em todo o país e online em academy.com de setembro de 2025 a outubro de 2025 por aproximadamente R$50."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Academy Ltd., dba Academy Sports + Outdoors, de Katy, Texas"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendido Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "Camboja"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risco de lesões e quedas devido a possível quebra das pernas"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Pare de usar as cadeiras imediatamente e devolva-as a qualquer loja Academy Sports + Outdoors para um reembolso total. Os clientes também podem solicitar uma devolução gratuita pelo correio através do Atendimento ao Cliente da Academy."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reembolso"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "अकादमी स्पोर्ट्स + आउटडोर्स द्वारा चोट के जोखिम के कारण मैजेलन ओडिसी रॉकर कुर्सियों की वापसी",
+          "Description": "अकादमी स्पोर्ट्स + आउटडोर्स अपनी मैजेलन-ब्रांडेड ओडिसी रॉकर कुर्सियों को वापस बुला रहा है, जिनकी पहचान तारीख कोड 07/2025 और 08/2025 से की गई है। ये फोल्डिंग कुर्सियाँ, जो चारकोल, नेवी, जैतून हरे, और टील रंगों में उपलब्ध हैं, सितंबर 2025 से अक्टूबर 2025 के बीच बेची गई थीं। जब फोल्ड की जाती हैं, तो इनका माप लगभग 25.2\" लंबा, 5.5\" गहरा, और 37.4\" ऊँचा होता है, जबकि खुली स्थिति में माप लगभग 25.4\" लंबा, 25.2\" गहरा, और 37.4\" ऊँचा होता है। प्रत्येक कुर्सी में एक धातु का फ्रेम, एक जालीदार पीठ, एक कैरी हैंडल, और एक साइड ड्रिंक होल्डर होता है, जिसमें मैजेलन आउटडोर्स का लोगो पीठ पर प्रदर्शित होता है। केवल जुलाई और अगस्त 2025 में निर्मित कुर्सियाँ इस वापसी से प्रभावित हैं।",
+          "ConsumerContact": "सहायता के लिए, उपभोक्ता अकादमी स्पोर्ट्स + आउटडोर्स से 888-922-2336 पर सुबह 7 बजे से रात 10 बजे CT तक संपर्क कर सकते हैं, ईमेल के माध्यम से customerservice@academy.com पर, या www.academy.com/product-recalls पर जाकर और विवरण प्राप्त कर सकते हैं।",
+          "metaDescription": "अकादमी स्पोर्ट्स + आउटडोर्स चोट के जोखिम के कारण मैजेलन ओडिसी रॉकर कुर्सियों को वापस बुलाता है। उनका उपयोग करना बंद करें और धनवापसी के लिए लौटाएं।",
+          "Products": [
+            {
+              "Name": "मैजेलन ओडिसी रॉकर कुर्सियाँ",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 35,300"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "वापस बुलाई गई अकादमी मैजेलन ओडिसी रॉकर कुर्सी - चारकोल"
+            },
+            {
+              "Caption": "वापस बुलाई गई अकादमी मैजेलन ओडिसी रॉकर कुर्सी - जैतून हरा"
+            },
+            {
+              "Caption": "वापस बुलाई गई अकादमी मैजेलन ओडिसी रॉकर कुर्सी - नेवी"
+            },
+            {
+              "Caption": "वापस बुलाई गई अकादमी मैजेलन ओडिसी रॉकर कुर्सी - टील"
+            },
+            {
+              "Caption": "\"ACADEMY, LTD,\" \"177296\" और निर्माण तिथि 07/2025 या 08/2025 कुर्सी के हाथ पर सिले हुए ट्रैकिंग लेबल पर मुद्रित हैं।"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "अकादमी स्पोर्ट्स + आउटडोर्स को कुर्सी के पैरों के टूटने की एक रिपोर्ट मिली है। कोई चोट की सूचना नहीं मिली है।"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "अकादमी स्पोर्ट्स + आउटडोर्स के स्थानों पर और अकादमी.com पर सितंबर 2025 से अक्टूबर 2025 के बीच लगभग $50 में उपलब्ध।"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "अकादमी लिमिटेड, dba अकादमी स्पोर्ट्स + आउटडोर्स, कैटी, टेक्सास"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "कंबोडिया"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "संभवित पैर टूटने के कारण चोट और गिरने का जोखिम"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "कुर्सियों का उपयोग तुरंत बंद करें और उन्हें पूर्ण धनवापसी के लिए किसी भी अकादमी स्पोर्ट्स + आउटडोर्स स्थान पर लौटाएं। ग्राहक अकादमी की ग्राहक सेवा के माध्यम से मुफ्त मेल वापसी की व्यवस्था भी कर सकते हैं।"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "धनवापसी"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "Отзыв кресел-качалок Magellan Odyssey от Academy Sports + Outdoors из-за риска травм",
+          "Description": "Academy Sports + Outdoors отзывает свои кресла-качалки Odyssey под брендом Magellan, идентифицированные по датам 07/2025 и 08/2025. Эти складные кресла, доступные в цветах угольный, темно-синий, оливковый и бирюзовый, продавались с сентября 2025 года по октябрь 2025 года. В сложенном виде их размеры составляют примерно 25,2\" в длину, 5,5\" в глубину и 37,4\" в высоту, в открытом виде размеры составляют около 25,4\" в длину, 25,2\" в глубину и 37,4\" в высоту. Каждое кресло имеет металлическую раму, сетчатую спинку, ручку для переноски и боковой подстаканник, с логотипом Magellan Outdoors на спинке. Отзыв касается только кресел, произведенных в июле и августе 2025 года.",
+          "ConsumerContact": "Для получения помощи потребители могут обратиться в Academy Sports + Outdoors по телефону 888-922-2336 с 7:00 до 22:00 по центральному времени, по электронной почте на адрес customerservice@academy.com или посетить www.academy.com/product-recalls для получения дополнительной информации.",
+          "metaDescription": "Academy Sports + Outdoors отзывает кресла-качалки Magellan Odyssey из-за риска травм. Прекратите их использование и верните для получения возврата.",
+          "Products": [
+            {
+              "Name": "Кресла-качалки Magellan Odyssey",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 35,300"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванное кресло-качалка Academy Magellan Odyssey - угольный"
+            },
+            {
+              "Caption": "Отозванное кресло-качалка Academy Magellan Odyssey - оливковый"
+            },
+            {
+              "Caption": "Отозванное кресло-качалка Academy Magellan Odyssey - темно-синий"
+            },
+            {
+              "Caption": "Отозванное кресло-качалка Academy Magellan Odyssey - бирюзовый"
+            },
+            {
+              "Caption": "\"ACADEMY, LTD,\" \"177296\" и дата производства 07/2025 или 08/2025 напечатаны на этикетке отслеживания, пришитой к руке кресла"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Academy Sports + Outdoors получила один отчет о поломке ножек кресла. Травмы не были зафиксированы."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Доступно в магазинах Academy Sports + Outdoors по всей стране и онлайн на academy.com с сентября 2025 года по октябрь 2025 года по цене около 50 долларов."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Academy Ltd., dba Academy Sports + Outdoors, из Кэти, Техас"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Продавалось в",
+          "ManufacturerCountries": [
+            {
+              "Country": "Камбоджа"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Риск травм и падений из-за возможной поломки ножек"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Прекратите немедленно использовать кресла и верните их в любой магазин Academy Sports + Outdoors для полного возврата. Клиенты также могут организовать бесплатный возврат по почте через службу поддержки Academy."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Возврат"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "Thu hồi ghế Rocker Magellan Odyssey của Academy Sports + Outdoors do nguy cơ chấn thương",
+          "Description": "Academy Sports + Outdoors đang thu hồi ghế Rocker Odyssey mang thương hiệu Magellan, được xác định bằng mã ngày 07/2025 và 08/2025. Những chiếc ghế gấp này, có sẵn màu than, xanh hải quân, xanh ô liu và xanh ngọc, đã được bán từ tháng 9 năm 2025 đến tháng 10 năm 2025. Khi gấp lại, chúng có kích thước khoảng 25.2\" dài, 5.5\" sâu và 37.4\" cao, trong khi kích thước mở là khoảng 25.4\" dài, 25.2\" sâu và 37.4\" cao. Mỗi chiếc ghế có khung kim loại, tựa lưng lưới, tay cầm và giá đỡ đồ uống bên hông, với logo Magellan Outdoors hiển thị trên tựa lưng. Chỉ những chiếc ghế được sản xuất vào tháng 7 và tháng 8 năm 2025 mới bị ảnh hưởng bởi đợt thu hồi này.\n",
+          "ConsumerContact": "Để được hỗ trợ, người tiêu dùng có thể liên hệ với Academy Sports + Outdoors qua số điện thoại 888-922-2336 từ 7 giờ sáng đến 10 giờ tối CT, qua email tại customerservice@academy.com, hoặc truy cập www.academy.com/product-recalls để biết thêm chi tiết.",
+          "metaDescription": "Academy Sports + Outdoors thu hồi ghế Rocker Magellan Odyssey do nguy cơ chấn thương. Ngừng sử dụng và trả lại để được hoàn tiền.",
+          "Products": [
+            {
+              "Name": "Ghế Rocker Magellan Odyssey",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 35,300"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Ghế Rocker Magellan Odyssey của Academy bị thu hồi - màu than"
+            },
+            {
+              "Caption": "Ghế Rocker Magellan Odyssey của Academy bị thu hồi - màu xanh ô liu"
+            },
+            {
+              "Caption": "Ghế Rocker Magellan Odyssey của Academy bị thu hồi - màu xanh hải quân"
+            },
+            {
+              "Caption": "Ghế Rocker Magellan Odyssey của Academy bị thu hồi - màu xanh ngọc"
+            },
+            {
+              "Caption": "\"ACADEMY, LTD,\" \"177296\" và ngày sản xuất 07/2025 hoặc 08/2025 được in trên nhãn theo dõi được may vào tay ghế"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Academy Sports + Outdoors đã nhận được một báo cáo về việc chân ghế bị gãy. Không có chấn thương nào được báo cáo."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Có sẵn tại các địa điểm Academy Sports + Outdoors trên toàn quốc và trực tuyến tại academy.com từ tháng 9 năm 2025 đến tháng 10 năm 2025 với giá khoảng 50 đô la."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Academy Ltd., dba Academy Sports + Outdoors, tại Katy, Texas"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Bán Tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Campuchia"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Nguy cơ chấn thương và ngã do khả năng chân ghế bị gãy"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Ngừng sử dụng ghế ngay lập tức và trả lại chúng tại bất kỳ địa điểm nào của Academy Sports + Outdoors để được hoàn tiền đầy đủ. Khách hàng cũng có thể sắp xếp để trả hàng miễn phí qua đường bưu điện thông qua Dịch vụ Khách hàng của Academy."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Hoàn tiền"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    }
+  ]
+}

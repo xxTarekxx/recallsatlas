@@ -1,0 +1,1668 @@
+{
+  "meta": {
+    "slug": "tablet-or-capsule-drugs",
+    "sourceCsvFile": "tablet-or-capsule-drugs_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:37.085Z",
+    "recallCount": 2,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "tablet-or-capsule-drugs.json",
+    "seoTranslatedAt": "2026-04-05T05:54:47.558Z",
+    "resumePartial": false,
+    "i18nSource": "generalRecallsTranslated",
+    "i18nSourceFile": "tablet-or-capsule-drugs.json",
+    "i18nUiLangs": [
+      "en",
+      "es",
+      "ar",
+      "zh",
+      "fr",
+      "de",
+      "ja",
+      "pt",
+      "hi",
+      "ru",
+      "vi"
+    ],
+    "i18nProgressByLang": {
+      "es": 2,
+      "ar": 2,
+      "zh": 2,
+      "fr": 2,
+      "de": 2,
+      "ja": 2,
+      "pt": 2,
+      "hi": 2,
+      "ru": 2,
+      "vi": 2
+    },
+    "i18nInProgress": false,
+    "i18nTranslatedAt": "2026-04-07T22:45:49.430Z",
+    "i18nOpenaiModel": "gpt-4o-mini"
+  },
+  "recalls": [
+    {
+      "RecallID": 10320,
+      "RecallNumber": "25354",
+      "RecallDate": "2025-06-26T00:00:00",
+      "Description": "iHerb is recalling three varieties of California Gold Nutrition dietary supplements: Daily Prenatal Multi, Ultamins Women's Multivitamin, and Ultamins Women's 50+ Multivitamin. The Daily Prenatal Multi comes in a white bottle with a white lid and a gold label, containing 60 fish gelatin softgel capsules. The Ultamins Women's Multivitamin and Women's 50+ Multivitamin are packaged in dark purple containers with gold labels, each holding 60 capsules in foil packaging. Specific batch numbers and expiration dates can be found on the back of the packaging. \n\nThe recalled products include batch codes and expiration dates as follows: Daily Prenatal Multi (2307050A, 2404096A, 2411100A) expiring in 08/2025, 05/2026, and 11/2026; Ultamins Women's Multivitamin (V0532, V0533) expiring in 11/2026 and 07/2026; Ultamins Women's 50+ Multivitamin (V0534, V0536) expiring in 07/2026 and 11/2026.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/iHerb-Recalls-Bottles-and-Blister-Packs-of-California-Gold-Nutrition-Iron-Supplements-Due-to-Risk-of-Serious-Injury-or-Death-from-Child-Poisoning-Violation-of-Federal-Standard-for-Child-Resistant-Packaging",
+      "Title": "iHerb Issues Recall for California Gold Nutrition Iron Supplements Due to Child Poisoning Risk",
+      "ConsumerContact": "For assistance, consumers can reach iHerb toll-free at 888-430-4770, email ProductRecall@iherb.com, or visit https://www.iherb.com/help/contact or https://information.iherb.com/hc/en-us/articles/37894456653972-iHerb-Recalls-California-Gold-Nutrition-Iron-Supplements-Due-to-Risk-of-Child-Poisoning.",
+      "LastPublishDate": "2025-06-26T00:00:00",
+      "Products": [
+        {
+          "Name": "California Gold Nutrition Daily Prenatal Multi",
+          "NumberOfUnits": "About 60,000"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/tablet-or-capsule-drugs/1-California-Gold-Nutrition-Daily-Prenatal-Multi/0b2d1e16659cc21b1678a0db91bd622f.webp",
+          "Caption": "Recalled Daily Prenatal Multi bottle",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/iHerb-1.png"
+        },
+        {
+          "URL": "/images/generalRecalls/tablet-or-capsule-drugs/1-California-Gold-Nutrition-Daily-Prenatal-Multi/02feb494cb61d514953ab198cbbf0b1f.webp",
+          "Caption": "Label for Recalled Daily Prenatal Multi",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/iHerb-2.png"
+        },
+        {
+          "URL": "/images/generalRecalls/tablet-or-capsule-drugs/1-California-Gold-Nutrition-Daily-Prenatal-Multi/24c714f5d9627859637ec3fcc901fb5b.webp",
+          "Caption": "Recalled Ultamins Women's Multivitamin package",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/iHerb-3.png"
+        },
+        {
+          "URL": "/images/generalRecalls/tablet-or-capsule-drugs/1-California-Gold-Nutrition-Daily-Prenatal-Multi/44afc8a3da5b0b94997987bad8369c0e.webp",
+          "Caption": "Label for recalled Ultamins Women's Multivitamin package",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/iHerb-4.png"
+        },
+        {
+          "URL": "/images/generalRecalls/tablet-or-capsule-drugs/1-California-Gold-Nutrition-Daily-Prenatal-Multi/766e78d787f9024aaa63bdcbbb0956f2.webp",
+          "Caption": "Recalled Ultamins Women's 50+ Multivitamin package",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/iHerb-5.png"
+        },
+        {
+          "URL": "/images/generalRecalls/tablet-or-capsule-drugs/1-California-Gold-Nutrition-Daily-Prenatal-Multi/1024c1d14cd00f555cb69a91cf7fc2e0.webp",
+          "Caption": "Label for recalled Ultamins Women's 50+ Multivitamin package",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/iHerb-6.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "iHerb LLC, dba Madre Labs LLC, of Irvine, California"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available online at Amazon.com, Walmart.com, Target.com, and other retailers from January 2019 to April 2025, priced between $8 and $18."
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "United States"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of serious poisoning due to non-child-resistant packaging for iron-containing supplements"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Secure the supplements out of children's reach and contact iHerb for a refund and disposal instructions"
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "2307050A",
+        "2404096A",
+        "2411100A",
+        "V0532",
+        "V0533",
+        "V0534",
+        "V0536"
+      ],
+      "slug": "iherb-issues-recall-for-california-gold-nutrition-iron-supplements-due-to-child-poisoning-risk-recall",
+      "metaDescription": "iHerb recalls California Gold Nutrition Iron Supplements due to child poisoning risk. Learn how to secure and return the products safely.",
+      "languages": {
+        "en": {
+          "Title": "iHerb Issues Recall for California Gold Nutrition Iron Supplements Due to Child Poisoning Risk",
+          "Description": "iHerb is recalling three varieties of California Gold Nutrition dietary supplements: Daily Prenatal Multi, Ultamins Women's Multivitamin, and Ultamins Women's 50+ Multivitamin. The Daily Prenatal Multi comes in a white bottle with a white lid and a gold label, containing 60 fish gelatin softgel capsules. The Ultamins Women's Multivitamin and Women's 50+ Multivitamin are packaged in dark purple containers with gold labels, each holding 60 capsules in foil packaging. Specific batch numbers and expiration dates can be found on the back of the packaging. \n\nThe recalled products include batch codes and expiration dates as follows: Daily Prenatal Multi (2307050A, 2404096A, 2411100A) expiring in 08/2025, 05/2026, and 11/2026; Ultamins Women's Multivitamin (V0532, V0533) expiring in 11/2026 and 07/2026; Ultamins Women's 50+ Multivitamin (V0534, V0536) expiring in 07/2026 and 11/2026.",
+          "ConsumerContact": "For assistance, consumers can reach iHerb toll-free at 888-430-4770, email ProductRecall@iherb.com, or visit https://www.iherb.com/help/contact or https://information.iherb.com/hc/en-us/articles/37894456653972-iHerb-Recalls-California-Gold-Nutrition-Iron-Supplements-Due-to-Risk-of-Child-Poisoning.",
+          "metaDescription": "iHerb recalls California Gold Nutrition Iron Supplements due to child poisoning risk. Learn how to secure and return the products safely.",
+          "Products": [
+            {
+              "Name": "California Gold Nutrition Daily Prenatal Multi",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 60,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled Daily Prenatal Multi bottle"
+            },
+            {
+              "Caption": "Label for Recalled Daily Prenatal Multi"
+            },
+            {
+              "Caption": "Recalled Ultamins Women's Multivitamin package"
+            },
+            {
+              "Caption": "Label for recalled Ultamins Women's Multivitamin package"
+            },
+            {
+              "Caption": "Recalled Ultamins Women's 50+ Multivitamin package"
+            },
+            {
+              "Caption": "Label for recalled Ultamins Women's 50+ Multivitamin package"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "None reported"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Available online at Amazon.com, Walmart.com, Target.com, and other retailers from January 2019 to April 2025, priced between $8 and $18."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "iHerb LLC, dba Madre Labs LLC, of Irvine, California"
+            }
+          ],
+          "SoldAtLabel": "Sold At",
+          "ManufacturerCountries": [
+            {
+              "Country": "United States"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risk of serious poisoning due to non-child-resistant packaging for iron-containing supplements"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Secure the supplements out of children's reach and contact iHerb for a refund and disposal instructions"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Refund"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "iHerb Emite Retiro de Suplementos de Hierro de California Gold Nutrition Debido al Riesgo de Intoxicación Infantil",
+          "Description": "iHerb está retirando tres variedades de suplementos dietéticos de California Gold Nutrition: Daily Prenatal Multi, Ultamins Women's Multivitamin y Ultamins Women's 50+ Multivitamin. El Daily Prenatal Multi viene en una botella blanca con una tapa blanca y una etiqueta dorada, que contiene 60 cápsulas de gelatina de pescado. El Ultamins Women's Multivitamin y el Women's 50+ Multivitamin están empaquetados en envases de color púrpura oscuro con etiquetas doradas, cada uno contiene 60 cápsulas en empaques de aluminio. Los números de lote específicos y las fechas de caducidad se pueden encontrar en la parte posterior del empaque. \n\nLos productos retirados incluyen códigos de lote y fechas de caducidad de la siguiente manera: Daily Prenatal Multi (2307050A, 2404096A, 2411100A) con fechas de caducidad en 08/2025, 05/2026 y 11/2026; Ultamins Women's Multivitamin (V0532, V0533) con fechas de caducidad en 11/2026 y 07/2026; Ultamins Women's 50+ Multivitamin (V0534, V0536) con fechas de caducidad en 07/2026 y 11/2026.",
+          "ConsumerContact": "Para asistencia, los consumidores pueden comunicarse con iHerb sin cargo al 888-430-4770, enviar un correo electrónico a ProductRecall@iherb.com, o visitar https://www.iherb.com/help/contact o https://information.iherb.com/hc/en-us/articles/37894456653972-iHerb-Recalls-California-Gold-Nutrition-Iron-Supplements-Due-to-Risk-of-Child-Poisoning.",
+          "metaDescription": "iHerb retira los Suplementos de Hierro de California Gold Nutrition debido al riesgo de intoxicación infantil. Aprenda cómo asegurar y devolver los productos de manera segura.",
+          "Products": [
+            {
+              "Name": "California Gold Nutrition Daily Prenatal Multi",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 60,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Botella de Daily Prenatal Multi retirada"
+            },
+            {
+              "Caption": "Etiqueta del Daily Prenatal Multi retirado"
+            },
+            {
+              "Caption": "Paquete de Ultamins Women's Multivitamin retirado"
+            },
+            {
+              "Caption": "Etiqueta del paquete de Ultamins Women's Multivitamin retirado"
+            },
+            {
+              "Caption": "Paquete de Ultamins Women's 50+ Multivitamin retirado"
+            },
+            {
+              "Caption": "Etiqueta del paquete de Ultamins Women's 50+ Multivitamin retirado"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Ninguna reportada"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible en línea en Amazon.com, Walmart.com, Target.com y otros minoristas desde enero de 2019 hasta abril de 2025, con precios entre $8 y $18."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "iHerb LLC, dba Madre Labs LLC, de Irvine, California"
+            }
+          ],
+          "SoldAtLabel": "Vendido En",
+          "ManufacturerCountries": [
+            {
+              "Country": "Estados Unidos"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Riesgo de intoxicación grave debido a empaques no resistentes a niños para suplementos que contienen hierro"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Asegure los suplementos fuera del alcance de los niños y contacte a iHerb para obtener un reembolso e instrucciones de eliminación"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reembolso"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "شركة iHerb تستدعي مكملات الحديد من California Gold Nutrition بسبب خطر التسمم للأطفال",
+          "Description": "تستدعي شركة iHerb ثلاثة أنواع من مكملات California Gold Nutrition الغذائية: Daily Prenatal Multi وUltamins Women's Multivitamin وUltamins Women's 50+ Multivitamin. يأتي Daily Prenatal Multi في زجاجة بيضاء مع غطاء أبيض وملصق ذهبي، يحتوي على 60 كبسولة هلامية من الجيلاتين السمكي. يتم تعبئة Ultamins Women's Multivitamin وWomen's 50+ Multivitamin في حاويات بنفسجية داكنة مع ملصقات ذهبية، كل منها يحتوي على 60 كبسولة في تعبئة من الفويل. يمكن العثور على أرقام الدفعات وتواريخ انتهاء الصلاحية المحددة على ظهر العبوة. \n\nتشمل المنتجات المستدعاة رموز دفعات وتواريخ انتهاء صلاحية كما يلي: Daily Prenatal Multi (2307050A، 2404096A، 2411100A) تنتهي في 08/2025، 05/2026، و11/2026؛ Ultamins Women's Multivitamin (V0532، V0533) تنتهي في 11/2026 و07/2026؛ Ultamins Women's 50+ Multivitamin (V0534، V0536) تنتهي في 07/2026 و11/2026.",
+          "ConsumerContact": "للمساعدة، يمكن للمستهلكين الاتصال بشركة iHerb على الرقم المجاني 888-430-4770، أو إرسال بريد إلكتروني إلى ProductRecall@iherb.com، أو زيارة https://www.iherb.com/help/contact أو https://information.iherb.com/hc/en-us/articles/37894456653972-iHerb-Recalls-California-Gold-Nutrition-Iron-Supplements-Due-to-Risk-of-Child-Poisoning.",
+          "metaDescription": "تستدعي شركة iHerb مكملات الحديد من California Gold Nutrition بسبب خطر التسمم للأطفال. تعرف على كيفية تأمين وإرجاع المنتجات بأمان.",
+          "Products": [
+            {
+              "Name": "California Gold Nutrition Daily Prenatal Multi",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 60,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "زجاجة Daily Prenatal Multi المستدعاة"
+            },
+            {
+              "Caption": "ملصق زجاجة Daily Prenatal Multi المستدعاة"
+            },
+            {
+              "Caption": "عبوة Ultamins Women's Multivitamin المستدعاة"
+            },
+            {
+              "Caption": "ملصق عبوة Ultamins Women's Multivitamin المستدعاة"
+            },
+            {
+              "Caption": "عبوة Ultamins Women's 50+ Multivitamin المستدعاة"
+            },
+            {
+              "Caption": "ملصق عبوة Ultamins Women's 50+ Multivitamin المستدعاة"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "لا توجد إصابات مسجلة"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "متاحة عبر الإنترنت على Amazon.com وWalmart.com وTarget.com وتجار التجزئة الآخرين من يناير 2019 إلى أبريل 2025، بأسعار تتراوح بين 8 دولارات و18 دولارًا."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "شركة iHerb LLC، المعروفة باسم Madre Labs LLC، من إيرفاين، كاليفورنيا"
+            }
+          ],
+          "SoldAtLabel": "تم البيع في",
+          "ManufacturerCountries": [
+            {
+              "Country": "الولايات المتحدة"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "خطر التسمم الشديد بسبب التعبئة غير المقاومة للأطفال لمكملات الحديد"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "تأمين المكملات بعيدًا عن متناول الأطفال والاتصال بشركة iHerb للحصول على تعليمات الاسترداد والتخلص"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "استرداد"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "iHerb因儿童中毒风险召回加州黄金营养铁补充剂",
+          "Description": "iHerb正在召回三种加州黄金营养膳食补充剂：每日产前复合维生素、Ultamins女性复合维生素和Ultamins女性50+复合维生素。每日产前复合维生素装在一个白色瓶子里，配有白色瓶盖和金色标签，包含60粒鱼明胶软胶囊。Ultamins女性复合维生素和女性50+复合维生素装在深紫色容器中，配有金色标签，每个容器中含有60粒铝箔包装的胶囊。具体的批号和有效日期可以在包装背面找到。\n\n被召回的产品包括以下批号和有效日期：每日产前复合维生素（2307050A，2404096A，2411100A）有效期为2025年08月、2026年05月和2026年11月；Ultamins女性复合维生素（V0532，V0533）有效期为2026年11月和2026年07月；Ultamins女性50+复合维生素（V0534，V0536）有效期为2026年07月和2026年11月。",
+          "ConsumerContact": "如需帮助，消费者可以拨打iHerb免费电话888-430-4770，发送电子邮件至ProductRecall@iherb.com，或访问https://www.iherb.com/help/contact或https://information.iherb.com/hc/en-us/articles/37894456653972-iHerb-Recalls-California-Gold-Nutrition-Iron-Supplements-Due-to-Risk-of-Child-Poisoning。",
+          "metaDescription": "iHerb因儿童中毒风险召回加州黄金营养铁补充剂。了解如何安全地保管和退回产品。",
+          "Products": [
+            {
+              "Name": "加州黄金营养每日产前复合维生素",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约60,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "被召回的每日产前复合维生素瓶"
+            },
+            {
+              "Caption": "被召回的每日产前复合维生素标签"
+            },
+            {
+              "Caption": "被召回的Ultamins女性复合维生素包装"
+            },
+            {
+              "Caption": "被召回的Ultamins女性复合维生素包装标签"
+            },
+            {
+              "Caption": "被召回的Ultamins女性50+复合维生素包装"
+            },
+            {
+              "Caption": "被召回的Ultamins女性50+复合维生素包装标签"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "无报告"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "自2019年1月至2025年4月在Amazon.com、Walmart.com、Target.com及其他零售商处有售，价格在$8至$18之间。"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "iHerb LLC，经营名为Madre Labs LLC，位于加利福尼亚州尔湾"
+            }
+          ],
+          "SoldAtLabel": "销售地点",
+          "ManufacturerCountries": [
+            {
+              "Country": "美国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "由于铁含量补充剂的包装不具儿童防护功能，存在严重中毒风险"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "将补充剂放在儿童无法接触的地方，并联系iHerb以获取退款和处理说明"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "退款"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "iHerb rappelle des suppléments de fer California Gold Nutrition en raison du risque d'empoisonnement des enfants",
+          "Description": "iHerb rappelle trois variétés de suppléments alimentaires California Gold Nutrition : Daily Prenatal Multi, Ultamins Women's Multivitamin et Ultamins Women's 50+ Multivitamin. Le Daily Prenatal Multi se présente dans une bouteille blanche avec un couvercle blanc et une étiquette dorée, contenant 60 capsules molles en gélatine de poisson. Les Ultamins Women's Multivitamin et Women's 50+ Multivitamin sont emballés dans des contenants violets foncés avec des étiquettes dorées, chacun contenant 60 capsules dans un emballage en aluminium. Les numéros de lot spécifiques et les dates d'expiration peuvent être trouvés au dos de l'emballage. \n\nLes produits rappelés incluent les codes de lot et les dates d'expiration comme suit : Daily Prenatal Multi (2307050A, 2404096A, 2411100A) expirant en 08/2025, 05/2026 et 11/2026 ; Ultamins Women's Multivitamin (V0532, V0533) expirant en 11/2026 et 07/2026 ; Ultamins Women's 50+ Multivitamin (V0534, V0536) expirant en 07/2026 et 11/2026.",
+          "ConsumerContact": "Pour assistance, les consommateurs peuvent contacter iHerb sans frais au 888-430-4770, envoyer un e-mail à ProductRecall@iherb.com, ou visiter https://www.iherb.com/help/contact ou https://information.iherb.com/hc/en-us/articles/37894456653972-iHerb-Recalls-California-Gold-Nutrition-Iron-Supplements-Due-to-Risk-of-Child-Poisoning.",
+          "metaDescription": "iHerb rappelle des suppléments de fer California Gold Nutrition en raison du risque d'empoisonnement des enfants. Apprenez comment sécuriser et retourner les produits en toute sécurité.",
+          "Products": [
+            {
+              "Name": "California Gold Nutrition Daily Prenatal Multi",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 60 000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Bouteille de Daily Prenatal Multi rappelée"
+            },
+            {
+              "Caption": "Étiquette du Daily Prenatal Multi rappelé"
+            },
+            {
+              "Caption": "Emballage de l'Ultamins Women's Multivitamin rappelé"
+            },
+            {
+              "Caption": "Étiquette de l'emballage de l'Ultamins Women's Multivitamin rappelé"
+            },
+            {
+              "Caption": "Emballage de l'Ultamins Women's 50+ Multivitamin rappelé"
+            },
+            {
+              "Caption": "Étiquette de l'emballage de l'Ultamins Women's 50+ Multivitamin rappelé"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Aucun rapporté"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible en ligne sur Amazon.com, Walmart.com, Target.com et d'autres détaillants de janvier 2019 à avril 2025, au prix compris entre 8 $ et 18 $."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "iHerb LLC, faisant affaire sous le nom de Madre Labs LLC, d'Irvine, Californie"
+            }
+          ],
+          "SoldAtLabel": "Vendu À",
+          "ManufacturerCountries": [
+            {
+              "Country": "États-Unis"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risque d'empoisonnement grave en raison d'un emballage non résistant aux enfants pour les suppléments contenant du fer"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Sécurisez les suppléments hors de portée des enfants et contactez iHerb pour un remboursement et des instructions d'élimination"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Remboursement"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "iHerb ruft Kalifornische Gold-Nahrungsergänzungsmittel mit Eisen aufgrund des Risikos einer Vergiftung von Kindern zurück",
+          "Description": "iHerb ruft drei Varianten von Kalifornischen Gold-Nahrungsergänzungsmitteln zurück: Daily Prenatal Multi, Ultamins Women's Multivitamin und Ultamins Women's 50+ Multivitamin. Das Daily Prenatal Multi kommt in einer weißen Flasche mit einem weißen Deckel und einem goldenen Etikett, das 60 Fischgelatine-Weichkapseln enthält. Die Ultamins Women's Multivitamin und Women's 50+ Multivitamin sind in dunkelvioletten Behältern mit goldenen Etiketten verpackt, wobei jede 60 Kapseln in Folienverpackung enthält. Die spezifischen Chargennummern und Haltbarkeitsdaten sind auf der Rückseite der Verpackung zu finden. \n\nDie zurückgerufenen Produkte umfassen Chargencodes und Haltbarkeitsdaten wie folgt: Daily Prenatal Multi (2307050A, 2404096A, 2411100A) mit Ablaufdatum 08/2025, 05/2026 und 11/2026; Ultamins Women's Multivitamin (V0532, V0533) mit Ablaufdatum 11/2026 und 07/2026; Ultamins Women's 50+ Multivitamin (V0534, V0536) mit Ablaufdatum 07/2026 und 11/2026.",
+          "ConsumerContact": "Für Unterstützung können Verbraucher iHerb gebührenfrei unter 888-430-4770 erreichen, eine E-Mail an ProductRecall@iherb.com senden oder die Website https://www.iherb.com/help/contact oder https://information.iherb.com/hc/en-us/articles/37894456653972-iHerb-Recalls-California-Gold-Nutrition-Iron-Supplements-Due-to-Risk-of-Child-Poisoning besuchen.",
+          "metaDescription": "iHerb ruft Kalifornische Gold-Nahrungsergänzungsmittel mit Eisen aufgrund des Risikos einer Vergiftung von Kindern zurück. Erfahren Sie, wie Sie die Produkte sicher sichern und zurückgeben können.",
+          "Products": [
+            {
+              "Name": "Kalifornische Gold-Nahrungsergänzung Daily Prenatal Multi",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 60.000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Zurückgerufene Daily Prenatal Multi Flasche"
+            },
+            {
+              "Caption": "Etikett für zurückgerufene Daily Prenatal Multi"
+            },
+            {
+              "Caption": "Zurückgerufene Ultamins Women's Multivitamin Verpackung"
+            },
+            {
+              "Caption": "Etikett für zurückgerufene Ultamins Women's Multivitamin Verpackung"
+            },
+            {
+              "Caption": "Zurückgerufene Ultamins Women's 50+ Multivitamin Verpackung"
+            },
+            {
+              "Caption": "Etikett für zurückgerufene Ultamins Women's 50+ Multivitamin Verpackung"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Keine gemeldet"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Online erhältlich bei Amazon.com, Walmart.com, Target.com und anderen Einzelhändlern von Januar 2019 bis April 2025, preislich zwischen 8 und 18 US-Dollar."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "iHerb LLC, dba Madre Labs LLC, aus Irvine, Kalifornien"
+            }
+          ],
+          "SoldAtLabel": "Verkauft bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "Vereinigte Staaten"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risiko einer schweren Vergiftung aufgrund der nicht kindersicheren Verpackung für eisenhaltige Nahrungsergänzungsmittel"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Halten Sie die Nahrungsergänzungsmittel außerhalb der Reichweite von Kindern und kontaktieren Sie iHerb für eine Rückerstattung und Entsorgungsanweisungen"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Rückerstattung"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "iHerbが子供の中毒リスクによりカリフォルニアゴールドニュートリション鉄サプリメントをリコール",
+          "Description": "iHerbは、カリフォルニアゴールドニュートリションの3種類の栄養補助食品をリコールしています：デイリープリナタルマルチ、ウルタミンズウィメンズマルチビタミン、ウルタミンズウィメンズ50+マルチビタミン。デイリープリナタルマルチは、白いボトルに白い蓋、金色のラベルが付いており、60個の魚ゼラチンソフトジェルカプセルが含まれています。ウルタミンズウィメンズマルチビタミンとウィメンズ50+マルチビタミンは、暗い紫色の容器に金色のラベルが付いており、それぞれ60個のカプセルがホイル包装されています。特定のロット番号と有効期限は、パッケージの裏面に記載されています。\n\nリコールされた製品には、以下のロットコードと有効期限が含まれています：デイリープリナタルマルチ（2307050A、2404096A、2411100A）有効期限は08/2025、05/2026、11/2026；ウルタミンズウィメンズマルチビタミン（V0532、V0533）有効期限は11/2026と07/2026；ウルタミンズウィメンズ50+マルチビタミン（V0534、V0536）有効期限は07/2026と11/2026。",
+          "ConsumerContact": "サポートが必要な場合、消費者はiHerbに無料で888-430-4770に電話するか、ProductRecall@iherb.comにメールを送信するか、https://www.iherb.com/help/contactまたはhttps://information.iherb.com/hc/en-us/articles/37894456653972-iHerb-Recalls-California-Gold-Nutrition-Iron-Supplements-Due-to-Risk-of-Child-Poisoningを訪問してください。",
+          "metaDescription": "iHerbは子供の中毒リスクによりカリフォルニアゴールドニュートリション鉄サプリメントをリコールします。製品を安全に確保し、返却する方法を学びましょう。",
+          "Products": [
+            {
+              "Name": "カリフォルニアゴールドニュートリションデイリープリナタルマルチ",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約60,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコールされたデイリープリナタルマルチのボトル"
+            },
+            {
+              "Caption": "リコールされたデイリープリナタルマルチのラベル"
+            },
+            {
+              "Caption": "リコールされたウルタミンズウィメンズマルチビタミンのパッケージ"
+            },
+            {
+              "Caption": "リコールされたウルタミンズウィメンズマルチビタミンのパッケージのラベル"
+            },
+            {
+              "Caption": "リコールされたウルタミンズウィメンズ50+マルチビタミンのパッケージ"
+            },
+            {
+              "Caption": "リコールされたウルタミンズウィメンズ50+マルチビタミンのパッケージのラベル"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "報告された怪我はなし"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "2019年1月から2025年4月まで、Amazon.com、Walmart.com、Target.comなどの小売店で入手可能で、価格は$8から$18の間。"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "カリフォルニア州アーバインのiHerb LLC、通称Madre Labs LLC"
+            }
+          ],
+          "SoldAtLabel": "販売場所",
+          "ManufacturerCountries": [
+            {
+              "Country": "アメリカ合衆国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "鉄分を含むサプリメントの子供に優しくない包装による深刻な中毒のリスク"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "サプリメントを子供の手の届かない場所に保管し、iHerbに連絡して返金および廃棄指示を受ける"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "返金"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "iHerb Emite Recall para Suplementos de Ferro da California Gold Nutrition Devido ao Risco de Intoxicação Infantil",
+          "Description": "iHerb está recolhendo três variedades de suplementos dietéticos da California Gold Nutrition: Daily Prenatal Multi, Ultamins Women's Multivitamin e Ultamins Women's 50+ Multivitamin. O Daily Prenatal Multi vem em uma garrafa branca com uma tampa branca e um rótulo dourado, contendo 60 cápsulas de gelatina de peixe. O Ultamins Women's Multivitamin e o Women's 50+ Multivitamin estão embalados em recipientes roxos escuros com rótulos dourados, cada um contendo 60 cápsulas em embalagem de alumínio. Os números de lote específicos e as datas de validade podem ser encontrados na parte de trás da embalagem. \n\nOs produtos recolhidos incluem códigos de lote e datas de validade conforme segue: Daily Prenatal Multi (2307050A, 2404096A, 2411100A) com validade em 08/2025, 05/2026 e 11/2026; Ultamins Women's Multivitamin (V0532, V0533) com validade em 11/2026 e 07/2026; Ultamins Women's 50+ Multivitamin (V0534, V0536) com validade em 07/2026 e 11/2026.",
+          "ConsumerContact": "Para assistência, os consumidores podem entrar em contato com a iHerb gratuitamente pelo telefone 888-430-4770, enviar um e-mail para ProductRecall@iherb.com, ou visitar https://www.iherb.com/help/contact ou https://information.iherb.com/hc/en-us/articles/37894456653972-iHerb-Recalls-California-Gold-Nutrition-Iron-Supplements-Due-to-Risk-of-Child-Poisoning.",
+          "metaDescription": "iHerb recolhe Suplementos de Ferro da California Gold Nutrition devido ao risco de intoxicação infantil. Aprenda como garantir e devolver os produtos com segurança.",
+          "Products": [
+            {
+              "Name": "California Gold Nutrition Daily Prenatal Multi",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 60.000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Garrafa do Daily Prenatal Multi recolhida"
+            },
+            {
+              "Caption": "Rótulo do Daily Prenatal Multi recolhido"
+            },
+            {
+              "Caption": "Embalagem do Ultamins Women's Multivitamin recolhida"
+            },
+            {
+              "Caption": "Rótulo da embalagem do Ultamins Women's Multivitamin recolhido"
+            },
+            {
+              "Caption": "Embalagem do Ultamins Women's 50+ Multivitamin recolhida"
+            },
+            {
+              "Caption": "Rótulo da embalagem do Ultamins Women's 50+ Multivitamin recolhido"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Nenhum relatado"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponível online em Amazon.com, Walmart.com, Target.com e outros varejistas de janeiro de 2019 a abril de 2025, com preços entre $8 e $18."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "iHerb LLC, dba Madre Labs LLC, de Irvine, Califórnia"
+            }
+          ],
+          "SoldAtLabel": "Vendido Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "Estados Unidos"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risco de intoxicação grave devido à embalagem não resistente a crianças para suplementos que contêm ferro"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Guarde os suplementos fora do alcance das crianças e entre em contato com a iHerb para obter instruções sobre reembolso e descarte"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reembolso"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "iHerb ने बच्चों के जहर खाने के जोखिम के कारण कैलिफ़ोर्निया गोल्ड न्यूट्रिशन आयरन सप्लीमेंट्स की रिकॉल की घोषणा की",
+          "Description": "iHerb कैलिफ़ोर्निया गोल्ड न्यूट्रिशन के तीन प्रकार के आहार सप्लीमेंट्स की रिकॉल कर रहा है: डेली प्रेनेटल मल्टी, उल्टामिन्स महिलाओं का मल्टीविटामिन, और उल्टामिन्स महिलाओं का 50+ मल्टीविटामिन। डेली प्रेनेटल मल्टी एक सफेद बोतल में सफेद ढक्कन और एक सुनहरे लेबल के साथ आता है, जिसमें 60 मछली के जिलेटिन सॉफ्टजेल कैप्सूल होते हैं। उल्टामिन्स महिलाओं का मल्टीविटामिन और महिलाओं का 50+ मल्टीविटामिन गहरे बैंगनी कंटेनरों में सुनहरे लेबल के साथ पैक किए गए हैं, प्रत्येक में फॉयल पैकेजिंग में 60 कैप्सूल होते हैं। विशेष बैच नंबर और समाप्ति तिथियाँ पैकेजिंग के पीछे पाई जा सकती हैं। \n\nरिकॉल किए गए उत्पादों में बैच कोड और समाप्ति तिथियाँ इस प्रकार हैं: डेली प्रेनेटल मल्टी (2307050A, 2404096A, 2411100A) जिनकी समाप्ति 08/2025, 05/2026, और 11/2026 में है; उल्टामिन्स महिलाओं का मल्टीविटामिन (V0532, V0533) जिनकी समाप्ति 11/2026 और 07/2026 में है; उल्टामिन्स महिलाओं का 50+ मल्टीविटामिन (V0534, V0536) जिनकी समाप्ति 07/2026 और 11/2026 में है।",
+          "ConsumerContact": "सहायता के लिए, उपभोक्ता iHerb से टोल-फ्री 888-430-4770 पर संपर्क कर सकते हैं, ईमेल ProductRecall@iherb.com पर भेज सकते हैं, या https://www.iherb.com/help/contact या https://information.iherb.com/hc/en-us/articles/37894456653972-iHerb-Recalls-California-Gold-Nutrition-Iron-Supplements-Due-to-Risk-of-Child-Poisoning पर जा सकते हैं।",
+          "metaDescription": "iHerb बच्चों के जहर खाने के जोखिम के कारण कैलिफ़ोर्निया गोल्ड न्यूट्रिशन आयरन सप्लीमेंट्स की रिकॉल करता है। जानें कि उत्पादों को सुरक्षित रूप से कैसे सुरक्षित और वापस किया जाए।",
+          "Products": [
+            {
+              "Name": "कैलिफ़ोर्निया गोल्ड न्यूट्रिशन डेली प्रेनेटल मल्टी",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 60,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "रिकॉल किया गया डेली प्रेनेटल मल्टी बोतल"
+            },
+            {
+              "Caption": "रिकॉल किए गए डेली प्रेनेटल मल्टी का लेबल"
+            },
+            {
+              "Caption": "रिकॉल किया गया उल्टामिन्स महिलाओं का मल्टीविटामिन पैकेज"
+            },
+            {
+              "Caption": "रिकॉल किए गए उल्टामिन्स महिलाओं के मल्टीविटामिन पैकेज का लेबल"
+            },
+            {
+              "Caption": "रिकॉल किया गया उल्टामिन्स महिलाओं का 50+ मल्टीविटामिन पैकेज"
+            },
+            {
+              "Caption": "रिकॉल किए गए उल्टामिन्स महिलाओं के 50+ मल्टीविटामिन पैकेज का लेबल"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "कोई रिपोर्ट नहीं की गई"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "जनवरी 2019 से अप्रैल 2025 तक Amazon.com, Walmart.com, Target.com और अन्य रिटेलर्स पर उपलब्ध, कीमत $8 से $18 के बीच।"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "iHerb LLC, dba Madre Labs LLC, इर्वाइन, कैलिफ़ोर्निया"
+            }
+          ],
+          "SoldAtLabel": "बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "संयुक्त राज्य अमेरिका"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "आयरन युक्त सप्लीमेंट्स के लिए गैर-बच्चों-प्रतिरोधी पैकेजिंग के कारण गंभीर जहर खाने का जोखिम"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "सप्लीमेंट्स को बच्चों की पहुँच से बाहर सुरक्षित रखें और धनवापसी और निपटान के निर्देशों के लिए iHerb से संपर्क करें"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "धनवापसी"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "iHerb отзывает добавки железа California Gold Nutrition из-за риска отравления детей",
+          "Description": "iHerb отзывает три вида диетических добавок California Gold Nutrition: Daily Prenatal Multi, Ultamins Women's Multivitamin и Ultamins Women's 50+ Multivitamin. Daily Prenatal Multi поставляется в белой бутылке с белой крышкой и золотой этикеткой, содержащей 60 капсул из рыбьего желатина. Ultamins Women's Multivitamin и Women's 50+ Multivitamin упакованы в темно-фиолетовые контейнеры с золотыми этикетками, каждый содержит 60 капсул в фольгированной упаковке. Конкретные номера партий и даты истечения срока годности можно найти на обратной стороне упаковки. \n\nОтозванные продукты включают коды партий и даты истечения срока годности, как указано ниже: Daily Prenatal Multi (2307050A, 2404096A, 2411100A) с истечением срока в 08/2025, 05/2026 и 11/2026; Ultamins Women's Multivitamin (V0532, V0533) с истечением срока в 11/2026 и 07/2026; Ultamins Women's 50+ Multivitamin (V0534, V0536) с истечением срока в 07/2026 и 11/2026.",
+          "ConsumerContact": "Для получения помощи потребители могут обратиться в iHerb по бесплатному номеру 888-430-4770, по электронной почте ProductRecall@iherb.com или посетить https://www.iherb.com/help/contact или https://information.iherb.com/hc/en-us/articles/37894456653972-iHerb-Recalls-California-Gold-Nutrition-Iron-Supplements-Due-to-Risk-of-Child-Poisoning.",
+          "metaDescription": "iHerb отзывает добавки железа California Gold Nutrition из-за риска отравления детей. Узнайте, как безопасно вернуть продукты.",
+          "Products": [
+            {
+              "Name": "California Gold Nutrition Daily Prenatal Multi",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 60,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванная бутылка Daily Prenatal Multi"
+            },
+            {
+              "Caption": "Этикетка отозванной Daily Prenatal Multi"
+            },
+            {
+              "Caption": "Упаковка отозванного Ultamins Women's Multivitamin"
+            },
+            {
+              "Caption": "Этикетка отозванной упаковки Ultamins Women's Multivitamin"
+            },
+            {
+              "Caption": "Упаковка отозванного Ultamins Women's 50+ Multivitamin"
+            },
+            {
+              "Caption": "Этикетка отозванной упаковки Ultamins Women's 50+ Multivitamin"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Не сообщалось"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Доступно онлайн на Amazon.com, Walmart.com, Target.com и других розничных продавцах с января 2019 года по апрель 2025 года, по цене от 8 до 18 долларов."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "iHerb LLC, dba Madre Labs LLC, из Ирвина, Калифорния"
+            }
+          ],
+          "SoldAtLabel": "Продается в",
+          "ManufacturerCountries": [
+            {
+              "Country": "Соединенные Штаты"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Риск серьезного отравления из-за упаковки, не защищенной от детей, для добавок, содержащих железо"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Уберите добавки подальше от детей и свяжитесь с iHerb для получения инструкций по возврату и утилизации"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Возврат"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "iHerb thu hồi thực phẩm bổ sung sắt California Gold Nutrition do nguy cơ ngộ độc ở trẻ em",
+          "Description": "iHerb đang thu hồi ba loại thực phẩm bổ sung dinh dưỡng California Gold Nutrition: Daily Prenatal Multi, Ultamins Women's Multivitamin và Ultamins Women's 50+ Multivitamin. Daily Prenatal Multi có dạng chai màu trắng với nắp trắng và nhãn vàng, chứa 60 viên nang mềm gelatin cá. Ultamins Women's Multivitamin và Women's 50+ Multivitamin được đóng gói trong các hộp màu tím đậm với nhãn vàng, mỗi hộp chứa 60 viên trong bao bì nhôm. Số lô cụ thể và ngày hết hạn có thể được tìm thấy ở mặt sau của bao bì. \n\nCác sản phẩm bị thu hồi bao gồm mã lô và ngày hết hạn như sau: Daily Prenatal Multi (2307050A, 2404096A, 2411100A) hết hạn vào 08/2025, 05/2026 và 11/2026; Ultamins Women's Multivitamin (V0532, V0533) hết hạn vào 11/2026 và 07/2026; Ultamins Women's 50+ Multivitamin (V0534, V0536) hết hạn vào 07/2026 và 11/2026.",
+          "ConsumerContact": "Để được hỗ trợ, người tiêu dùng có thể liên hệ với iHerb qua số điện thoại miễn phí 888-430-4770, gửi email đến ProductRecall@iherb.com, hoặc truy cập https://www.iherb.com/help/contact hoặc https://information.iherb.com/hc/en-us/articles/37894456653972-iHerb-Recalls-California-Gold-Nutrition-Iron-Supplements-Due-to-Risk-of-Child-Poisoning.",
+          "metaDescription": "iHerb thu hồi thực phẩm bổ sung sắt California Gold Nutrition do nguy cơ ngộ độc ở trẻ em. Tìm hiểu cách bảo quản và trả lại sản phẩm một cách an toàn.",
+          "Products": [
+            {
+              "Name": "California Gold Nutrition Daily Prenatal Multi",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 60.000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Chai Daily Prenatal Multi bị thu hồi"
+            },
+            {
+              "Caption": "Nhãn cho chai Daily Prenatal Multi bị thu hồi"
+            },
+            {
+              "Caption": "Bao bì Ultamins Women's Multivitamin bị thu hồi"
+            },
+            {
+              "Caption": "Nhãn cho bao bì Ultamins Women's Multivitamin bị thu hồi"
+            },
+            {
+              "Caption": "Bao bì Ultamins Women's 50+ Multivitamin bị thu hồi"
+            },
+            {
+              "Caption": "Nhãn cho bao bì Ultamins Women's 50+ Multivitamin bị thu hồi"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Không có báo cáo"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Có sẵn trực tuyến tại Amazon.com, Walmart.com, Target.com và các nhà bán lẻ khác từ tháng 1 năm 2019 đến tháng 4 năm 2025, có giá từ 8 đến 18 đô la."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "iHerb LLC, dba Madre Labs LLC, ở Irvine, California"
+            }
+          ],
+          "SoldAtLabel": "Bán Tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Hoa Kỳ"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Nguy cơ ngộ độc nghiêm trọng do bao bì không chống trẻ em cho các thực phẩm bổ sung chứa sắt"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Bảo quản các thực phẩm bổ sung ngoài tầm với của trẻ em và liên hệ với iHerb để được hoàn tiền và hướng dẫn xử lý"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Hoàn tiền"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    },
+    {
+      "RecallID": 10239,
+      "RecallNumber": "25223",
+      "RecallDate": "2025-04-10T00:00:00",
+      "Description": "Kramer Laboratories is recalling Safetussin Max Strength Multi-Symptom Cough, Cold and Flu blister packs due to a significant risk of child poisoning. The affected product is a 24-count caplet pack labeled with \"Safetussin,\" \"Multi-Symptom,\" and \"Cough, Cold & Flu,\" and is designed for adults with high blood pressure and diabetes. The packaging, featuring a blue, orange, and red cardboard box, does not meet the required child-resistant standards, allowing young children to access the tablets easily.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/Kramer-Laboratories-Recalls-Safetussin-Max-Strength-Multi-Symptom-Cough-Cold-and-Flu-Blister-Packs-Due-to-Risk-of-Child-Poisoning-Violation-of-Federal-Regulation-for-Child-Resistant-Packaging",
+      "Title": "Kramer Laboratories Issues Recall for Safetussin Max Strength Cough, Cold and Flu Blister Packs Due to Child Safety Concerns",
+      "ConsumerContact": "For further details, consumers can reach out to Kramer Laboratories at 800-824-4894, available Monday through Friday from 8 a.m. to 5 p.m. ET, or via email at kramerlabs@emersongroup.com. Additional information can be found at https://safetussin.com/recall.",
+      "LastPublishDate": "2025-04-10T00:00:00",
+      "Products": [
+        {
+          "Name": "Safetussin Max Strength Multi-Symptom Cough, Cold and Flu Blister Packs",
+          "NumberOfUnits": "About 14,250"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/tablet-or-capsule-drugs/2-Safetussin-Max-Strength-Multi-Symptom-Cough-Cold-and-Flu-Blister-Packs/7a0c51e2cbbdc2ed45c5709fc2aee8f0.webp",
+          "Caption": "Recalled Safetussin Max Strength Multi-Symptom Cough, Cold and Flu, 24-count caplets",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/safetussin.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available at HEB, Harris-Teeter, and various regional grocery stores and independent pharmacies across the country from July 2024 to March 2025 for approximately $11."
+        }
+      ],
+      "Distributors": [
+        {
+          "Name": "Kramer Laboratories, of Bridgewater, New Jersey (a subsidiary of Arcadia Consumer Healthcare, of Bridgewater, New Jersey)"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "India"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Non-child-resistant packaging poses a poisoning risk to children."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Secure the product away from children and contact Kramer Laboratories for instructions on returning or disposing of the product for a full refund."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "slug": "kramer-laboratories-issues-recall-for-safetussin-max-strength-cough-cold-and-flu-blister-packs-due-to-child-safety-concerns-recall",
+      "metaDescription": "Kramer Laboratories recalls Safetussin Max Strength Cough, Cold and Flu packs due to child safety risks. Learn more about the recall.",
+      "languages": {
+        "en": {
+          "Title": "Kramer Laboratories Issues Recall for Safetussin Max Strength Cough, Cold and Flu Blister Packs Due to Child Safety Concerns",
+          "Description": "Kramer Laboratories is recalling Safetussin Max Strength Multi-Symptom Cough, Cold and Flu blister packs due to a significant risk of child poisoning. The affected product is a 24-count caplet pack labeled with \"Safetussin,\" \"Multi-Symptom,\" and \"Cough, Cold & Flu,\" and is designed for adults with high blood pressure and diabetes. The packaging, featuring a blue, orange, and red cardboard box, does not meet the required child-resistant standards, allowing young children to access the tablets easily.",
+          "ConsumerContact": "For further details, consumers can reach out to Kramer Laboratories at 800-824-4894, available Monday through Friday from 8 a.m. to 5 p.m. ET, or via email at kramerlabs@emersongroup.com. Additional information can be found at https://safetussin.com/recall.",
+          "metaDescription": "Kramer Laboratories recalls Safetussin Max Strength Cough, Cold and Flu packs due to child safety risks. Learn more about the recall.",
+          "Products": [
+            {
+              "Name": "Safetussin Max Strength Multi-Symptom Cough, Cold and Flu Blister Packs",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 14,250"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled Safetussin Max Strength Multi-Symptom Cough, Cold and Flu, 24-count caplets"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "None reported"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Available at HEB, Harris-Teeter, and various regional grocery stores and independent pharmacies across the country from July 2024 to March 2025 for approximately $11."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Kramer Laboratories, of Bridgewater, New Jersey (a subsidiary of Arcadia Consumer Healthcare, of Bridgewater, New Jersey)"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Sold At",
+          "ManufacturerCountries": [
+            {
+              "Country": "India"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Non-child-resistant packaging poses a poisoning risk to children."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Secure the product away from children and contact Kramer Laboratories for instructions on returning or disposing of the product for a full refund."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Refund"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "Kramer Laboratories Emite un Recall para los Paquetes de Pastillas de Safetussin Max Strength para la Tos, Resfriado y Gripe Debido a Preocupaciones de Seguridad Infantil",
+          "Description": "Kramer Laboratories está retirando del mercado los paquetes de pastillas de Safetussin Max Strength Multi-Symptom para la tos, resfriado y gripe debido a un riesgo significativo de envenenamiento infantil. El producto afectado es un paquete de 24 pastillas etiquetado con \"Safetussin,\" \"Multi-Symptom,\" y \"Tos, Resfriado y Gripe,\" y está diseñado para adultos con hipertensión y diabetes. El empaque, que presenta una caja de cartón azul, naranja y roja, no cumple con los estándares de resistencia a niños requeridos, lo que permite que los niños pequeños accedan fácilmente a las tabletas.",
+          "ConsumerContact": "Para más detalles, los consumidores pueden comunicarse con Kramer Laboratories al 800-824-4894, disponible de lunes a viernes de 8 a.m. a 5 p.m. ET, o por correo electrónico a kramerlabs@emersongroup.com. Se puede encontrar información adicional en https://safetussin.com/recall.",
+          "metaDescription": "Kramer Laboratories retira del mercado los paquetes de Safetussin Max Strength para la tos, resfriado y gripe debido a riesgos de seguridad infantil. Aprenda más sobre el recall.",
+          "Products": [
+            {
+              "Name": "Paquetes de Pastillas de Safetussin Max Strength Multi-Symptom para la Tos, Resfriado y Gripe",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 14,250"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Pastillas de Safetussin Max Strength Multi-Symptom para la Tos, Resfriado y Gripe, paquete de 24 pastillas retiradas"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Ninguno reportado"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible en HEB, Harris-Teeter y varias tiendas de comestibles regionales y farmacias independientes en todo el país desde julio de 2024 hasta marzo de 2025 por aproximadamente $11."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Kramer Laboratories, de Bridgewater, Nueva Jersey (una subsidiaria de Arcadia Consumer Healthcare, de Bridgewater, Nueva Jersey)"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendido En",
+          "ManufacturerCountries": [
+            {
+              "Country": "India"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "El empaque no resistente a niños presenta un riesgo de envenenamiento para los niños."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Asegure el producto fuera del alcance de los niños y comuníquese con Kramer Laboratories para obtener instrucciones sobre cómo devolver o desechar el producto para un reembolso completo."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reembolso"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "مختبرات كرامر تصدر استدعاء لعلب سافيتوسين ماكس سترينث للسعال والبرد والإنفلونزا بسبب مخاوف تتعلق بسلامة الأطفال",
+          "Description": "تقوم مختبرات كرامر باستدعاء علب سافيتوسين ماكس سترينث متعددة الأعراض للسعال والبرد والإنفلونزا بسبب خطر كبير لتسمم الأطفال. المنتج المتأثر هو علبة تحتوي على 24 قرصًا تحمل علامة \"سافيتوسين\"، \"متعددة الأعراض\"، و\"السعال والبرد والإنفلونزا\"، ومصممة للبالغين الذين يعانون من ارتفاع ضغط الدم والسكري. العبوة، التي تتميز بعلبة كرتونية زرقاء وبرتقالية وحمراء، لا تلبي المعايير المطلوبة لمقاومة الأطفال، مما يسمح للأطفال الصغار بالوصول إلى الأقراص بسهولة.",
+          "ConsumerContact": "للحصول على مزيد من التفاصيل، يمكن للمستهلكين التواصل مع مختبرات كرامر على الرقم 800-824-4894، المتاح من الاثنين إلى الجمعة من الساعة 8 صباحًا حتى 5 مساءً بتوقيت شرق الولايات المتحدة، أو عبر البريد الإلكتروني على kramerlabs@emersongroup.com. يمكن العثور على معلومات إضافية على https://safetussin.com/recall.",
+          "metaDescription": "تستدعي مختبرات كرامر علب سافيتوسين ماكس سترينث للسعال والبرد والإنفلونزا بسبب مخاطر سلامة الأطفال. تعرف على المزيد حول الاستدعاء.",
+          "Products": [
+            {
+              "Name": "علب سافيتوسين ماكس سترينث متعددة الأعراض للسعال والبرد والإنفلونزا",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 14,250"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "علب سافيتوسين ماكس سترينث متعددة الأعراض للسعال والبرد والإنفلونزا، 24 قرصًا"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "لا توجد إصابات مسجلة"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "متاحة في HEB، هاريس-تيتر، ومجموعة متنوعة من متاجر البقالة الإقليمية والصيدليات المستقلة في جميع أنحاء البلاد من يوليو 2024 إلى مارس 2025 بسعر تقريبي يبلغ 11 دولارًا."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "مختبرات كرامر، من بريدج ووتر، نيو جيرسي (شركة تابعة لشركة أركاديا للرعاية الصحية للمستهلكين، من بريدج ووتر، نيو جيرسي)"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "تباع في",
+          "ManufacturerCountries": [
+            {
+              "Country": "الهند"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "العبوة غير المقاومة للأطفال تشكل خطر التسمم للأطفال."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "قم بتأمين المنتج بعيدًا عن الأطفال واتصل بمختبرات كرامر للحصول على تعليمات حول إعادة المنتج أو التخلص منه لاسترداد كامل المبلغ."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "استرداد"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "克雷默实验室因儿童安全问题召回Safetussin最大强度咳嗽、感冒和流感泡罩包装",
+          "Description": "克雷默实验室因儿童中毒的重大风险召回Safetussin最大强度多症状咳嗽、感冒和流感泡罩包装。受影响的产品是一个标有“Safetussin”、“多症状”和“咳嗽、感冒和流感”的24粒装药片包装，设计用于高血压和糖尿病的成年人。包装采用蓝色、橙色和红色的纸盒，不符合所需的儿童防护标准，使幼儿能够轻松接触到药片。",
+          "ConsumerContact": "如需更多详情，消费者可以拨打800-824-4894联系克雷默实验室，工作时间为周一至周五，东部时间上午8点至下午5点，或通过电子邮件联系kramerlabs@emersongroup.com。更多信息可在https://safetussin.com/recall找到。",
+          "metaDescription": "克雷默实验室因儿童安全风险召回Safetussin最大强度咳嗽、感冒和流感包装。了解更多关于召回的信息。",
+          "Products": [
+            {
+              "Name": "Safetussin最大强度多症状咳嗽、感冒和流感泡罩包装",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约14,250"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "召回的Safetussin最大强度多症状咳嗽、感冒和流感，24粒装药片"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "无报告"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "在HEB、Harris-Teeter以及全国各地的各种地区性杂货店和独立药店销售，销售时间为2024年7月至2025年3月，价格约为11美元。"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "克雷默实验室，位于新泽西州布里奇沃特（阿卡迪亚消费者医疗保健的子公司，位于新泽西州布里奇沃特）"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "销售地点",
+          "ManufacturerCountries": [
+            {
+              "Country": "印度"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "非儿童防护包装对儿童构成中毒风险。"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "将产品放在儿童无法接触的地方，并联系克雷默实验室以获取退货或处理产品以获得全额退款的说明。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "退款"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "Kramer Laboratories rappelle des emballages de comprimés Safetussin Max Strength pour la toux, le rhume et la grippe en raison de préoccupations liées à la sécurité des enfants",
+          "Description": "Kramer Laboratories rappelle des emballages de comprimés Safetussin Max Strength Multi-Symptom pour la toux, le rhume et la grippe en raison d'un risque significatif d'empoisonnement chez les enfants. Le produit concerné est un emballage de 24 comprimés étiqueté avec \"Safetussin,\" \"Multi-Symptom,\" et \"Cough, Cold & Flu,\" et est conçu pour les adultes souffrant d'hypertension artérielle et de diabète. L'emballage, présentant une boîte en carton bleue, orange et rouge, ne respecte pas les normes de sécurité pour enfants requises, permettant aux jeunes enfants d'accéder facilement aux comprimés.",
+          "ConsumerContact": "Pour plus de détails, les consommateurs peuvent contacter Kramer Laboratories au 800-824-4894, disponible du lundi au vendredi de 8 h à 17 h HE, ou par e-mail à kramerlabs@emersongroup.com. Des informations supplémentaires peuvent être trouvées sur https://safetussin.com/recall.",
+          "metaDescription": "Kramer Laboratories rappelle des emballages Safetussin Max Strength pour la toux, le rhume et la grippe en raison de risques pour la sécurité des enfants. En savoir plus sur le rappel.",
+          "Products": [
+            {
+              "Name": "Emballages de comprimés Safetussin Max Strength Multi-Symptom pour la toux, le rhume et la grippe",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 14 250"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Emballages rappelés de comprimés Safetussin Max Strength Multi-Symptom pour la toux, le rhume et la grippe, 24 comprimés"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Aucun rapporté"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible chez HEB, Harris-Teeter, et divers magasins d'épicerie régionaux et pharmacies indépendantes à travers le pays de juillet 2024 à mars 2025 pour environ 11 $."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Kramer Laboratories, de Bridgewater, New Jersey (une filiale d'Arcadia Consumer Healthcare, de Bridgewater, New Jersey)"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendu À",
+          "ManufacturerCountries": [
+            {
+              "Country": "Inde"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Un emballage non résistant aux enfants pose un risque d'empoisonnement pour les enfants."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Conservez le produit hors de portée des enfants et contactez Kramer Laboratories pour des instructions sur le retour ou l'élimination du produit pour un remboursement complet."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Remboursement"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "Kramer Laboratories ruft Safetussin Max Strength Husten-, Erkältungs- und Grippe-Blisterpackungen aufgrund von Sicherheitsbedenken für Kinder zurück",
+          "Description": "Kramer Laboratories ruft Safetussin Max Strength Multi-Symptom Husten-, Erkältungs- und Grippe-Blisterpackungen aufgrund eines erheblichen Risikos einer Vergiftung von Kindern zurück. Das betroffene Produkt ist eine Packung mit 24 Kapseln, die mit \"Safetussin,\" \"Multi-Symptom,\" und \"Husten, Erkältung & Grippe\" gekennzeichnet ist und für Erwachsene mit Bluthochdruck und Diabetes gedacht ist. Die Verpackung, die eine blaue, orange und rote Pappschachtel zeigt, erfüllt nicht die erforderlichen Standards für kindersichere Verpackungen, wodurch kleine Kinder leicht auf die Tabletten zugreifen können.",
+          "ConsumerContact": "Für weitere Details können Verbraucher Kramer Laboratories unter 800-824-4894 kontaktieren, erreichbar von Montag bis Freitag von 8 bis 17 Uhr ET, oder per E-Mail an kramerlabs@emersongroup.com. Weitere Informationen sind unter https://safetussin.com/recall verfügbar.",
+          "metaDescription": "Kramer Laboratories ruft Safetussin Max Strength Husten-, Erkältungs- und Grippepackungen aufgrund von Sicherheitsrisiken für Kinder zurück. Erfahren Sie mehr über den Rückruf.",
+          "Products": [
+            {
+              "Name": "Safetussin Max Strength Multi-Symptom Husten-, Erkältungs- und Grippe-Blisterpackungen",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 14.250"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Zurückgerufene Safetussin Max Strength Multi-Symptom Husten-, Erkältungs- und Grippe, 24-Kapseln"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Keine gemeldet"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Erhältlich bei HEB, Harris-Teeter und verschiedenen regionalen Lebensmittelgeschäften sowie unabhängigen Apotheken im ganzen Land von Juli 2024 bis März 2025 für etwa 11 $."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Kramer Laboratories aus Bridgewater, New Jersey (eine Tochtergesellschaft von Arcadia Consumer Healthcare aus Bridgewater, New Jersey)"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Verkauft bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "Indien"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Nicht kindersichere Verpackung stellt ein Vergiftungsrisiko für Kinder dar."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Bewahren Sie das Produkt außerhalb der Reichweite von Kindern auf und kontaktieren Sie Kramer Laboratories für Anweisungen zur Rückgabe oder Entsorgung des Produkts für eine vollständige Rückerstattung."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Rückerstattung"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "クレイマーラボラトリーズが子供の安全に関する懸念により、Safetussin Max Strength 咳、風邪、インフルエンザのブリスターパックをリコール",
+          "Description": "クレイマーラボラトリーズは、子供の中毒の重大なリスクにより、Safetussin Max Strength マルチシン症状咳、風邪、インフルエンザのブリスターパックをリコールしています。影響を受ける製品は「Safetussin」、「マルチシン症状」、「咳、風邪、インフルエンザ」とラベル付けされた24カウントのカプレットパックで、高血圧と糖尿病のある成人向けに設計されています。青、オレンジ、赤の段ボール箱を特徴とするパッケージは、必要な子供用耐性基準を満たしておらず、小さな子供が簡単に錠剤にアクセスできるようになっています。",
+          "ConsumerContact": "詳細については、クレイマーラボラトリーズに800-824-4894までお問い合わせください。月曜日から金曜日の午前8時から午後5時（ET）まで対応しています。また、メールでkramerlabs@emersongroup.comに連絡することもできます。追加情報はhttps://safetussin.com/recallでご覧いただけます。",
+          "metaDescription": "クレイマーラボラトリーズが子供の安全リスクによりSafetussin Max Strength 咳、風邪、インフルエンザパックをリコールします。リコールについての詳細を学びましょう。",
+          "Products": [
+            {
+              "Name": "Safetussin Max Strength マルチシン症状咳、風邪、インフルエンザブリスターパック",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約14,250"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコールされたSafetussin Max Strength マルチシン症状咳、風邪、インフルエンザ、24カウントカプレット"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "報告された怪我はありません"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "2024年7月から2025年3月まで、全国のHEB、ハリス・ティーター、さまざまな地域の食料品店および独立系薬局で約$11で販売されています。"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "ニュージャージー州ブリッジウォーターのクレイマーラボラトリーズ（ニュージャージー州ブリッジウォーターのアーカディア・コンシューマー・ヘルスケアの子会社）"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "販売場所",
+          "ManufacturerCountries": [
+            {
+              "Country": "インド"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "子供用耐性のないパッケージは子供に中毒のリスクをもたらします。"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "製品を子供の手の届かない場所に保管し、クレイマーラボラトリーズに連絡して製品の返却または廃棄に関する指示を受け、全額返金を受けてください。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "返金"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "Kramer Laboratories Emite Recall para Pacotes de Comprimidos Safetussin Max Strength para Tosse, Resfriado e Gripe Devido a Preocupações com a Segurança Infantil",
+          "Description": "Kramer Laboratories está recallando os pacotes de comprimidos Safetussin Max Strength Multi-Symptom para Tosse, Resfriado e Gripe devido a um risco significativo de envenenamento infantil. O produto afetado é um pacote de 24 comprimidos rotulado como \"Safetussin,\" \"Multi-Symptom,\" e \"Tosse, Resfriado & Gripe,\" e é projetado para adultos com hipertensão e diabetes. A embalagem, que apresenta uma caixa de papelão azul, laranja e vermelha, não atende aos padrões de resistência infantil exigidos, permitindo que crianças pequenas acessem os comprimidos facilmente.",
+          "ConsumerContact": "Para mais detalhes, os consumidores podem entrar em contato com Kramer Laboratories pelo telefone 800-824-4894, disponível de segunda a sexta-feira, das 8h às 17h ET, ou por e-mail em kramerlabs@emersongroup.com. Informações adicionais podem ser encontradas em https://safetussin.com/recall.",
+          "metaDescription": "Kramer Laboratories recalla pacotes Safetussin Max Strength para Tosse, Resfriado e Gripe devido a riscos de segurança infantil. Saiba mais sobre o recall.",
+          "Products": [
+            {
+              "Name": "Pacotes de Comprimidos Safetussin Max Strength Multi-Symptom para Tosse, Resfriado e Gripe",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 14.250"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Pacotes de Comprimidos Safetussin Max Strength Multi-Symptom para Tosse, Resfriado e Gripe, 24 comprimidos"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Nenhuma reportada"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponível na HEB, Harris-Teeter e em várias mercearias regionais e farmácias independentes em todo o país de julho de 2024 a março de 2025 por aproximadamente $11."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Kramer Laboratories, de Bridgewater, New Jersey (uma subsidiária da Arcadia Consumer Healthcare, de Bridgewater, New Jersey)"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendido Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "Índia"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Embalagem não resistente a crianças representa um risco de envenenamento para crianças."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Guarde o produto longe das crianças e entre em contato com Kramer Laboratories para instruções sobre como devolver ou descartar o produto para um reembolso total."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reembolso"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "क्रेमर प्रयोगशालाएँ बच्चों की सुरक्षा के मुद्दों के कारण सेफेटुसिन मैक्स स्ट्रेंथ खांसी, जुकाम और फ्लू ब्लिस्टर पैक्स की रिकॉल जारी करती हैं",
+          "Description": "क्रेमर प्रयोगशालाएँ सेफेटुसिन मैक्स स्ट्रेंथ मल्टी-संप्टम खांसी, जुकाम और फ्लू ब्लिस्टर पैक्स को बच्चों के जहर होने के महत्वपूर्ण जोखिम के कारण वापस बुला रही हैं। प्रभावित उत्पाद एक 24-काउंट कैपलेट पैक है जिसे \"सेफेटुसिन,\" \"मल्टी-संप्टम,\" और \"खांसी, जुकाम और फ्लू\" के लेबल के साथ चिह्नित किया गया है, और यह उच्च रक्तचाप और मधुमेह वाले वयस्कों के लिए डिज़ाइन किया गया है। पैकेजिंग, जिसमें नीले, नारंगी और लाल कार्डबोर्ड बॉक्स शामिल है, आवश्यक बच्चे-प्रतिरोधी मानकों को पूरा नहीं करती है, जिससे छोटे बच्चों के लिए टैबलेट्स तक आसानी से पहुंचना संभव हो जाता है।",
+          "ConsumerContact": "अधिक जानकारी के लिए, उपभोक्ता क्रेमर प्रयोगशालाओं से 800-824-4894 पर संपर्क कर सकते हैं, जो सोमवार से शुक्रवार तक सुबह 8 बजे से शाम 5 बजे तक ईटी उपलब्ध है, या ईमेल के माध्यम से kramerlabs@emersongroup.com पर संपर्क कर सकते हैं। अतिरिक्त जानकारी https://safetussin.com/recall पर पाई जा सकती है।",
+          "metaDescription": "क्रेमर प्रयोगशालाएँ बच्चों की सुरक्षा के जोखिमों के कारण सेफेटुसिन मैक्स स्ट्रेंथ खांसी, जुकाम और फ्लू पैक्स को वापस बुलाती हैं। रिकॉल के बारे में अधिक जानें।",
+          "Products": [
+            {
+              "Name": "सेफेटुसिन मैक्स स्ट्रेंथ मल्टी-संप्टम खांसी, जुकाम और फ्लू ब्लिस्टर पैक्स",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 14,250"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "वापस बुलाए गए सेफेटुसिन मैक्स स्ट्रेंथ मल्टी-संप्टम खांसी, जुकाम और फ्लू, 24-काउंट कैपलेट्स"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "कोई रिपोर्ट नहीं की गई"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "HEB, हैरिस-टीटर और देश भर के विभिन्न क्षेत्रीय किराने की दुकानों और स्वतंत्र फार्मेसियों में जुलाई 2024 से मार्च 2025 तक लगभग $11 में उपलब्ध है।"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "क्रेमर प्रयोगशालाएँ, ब्रिजवाटर, न्यू जर्सी (आर्केडिया कंज्यूमर हेल्थकेयर, ब्रिजवाटर, न्यू जर्सी की सहायक कंपनी)"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "भारत"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "गैर-बच्चे-प्रतिरोधी पैकेजिंग बच्चों के लिए जहर होने का जोखिम पैदा करती है।"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "उत्पाद को बच्चों से दूर सुरक्षित रखें और पूर्ण धनवापसी के लिए उत्पाद को वापस करने या नष्ट करने के निर्देशों के लिए क्रेमर प्रयोगशालाओं से संपर्क करें।"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "धनवापसी"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "Лаборатория Kramer объявляет отзыв упаковок Safetussin Max Strength от кашля, простуды и гриппа из-за проблем с безопасностью для детей",
+          "Description": "Лаборатория Kramer отзывает упаковки Safetussin Max Strength Multi-Symptom от кашля, простуды и гриппа из-за значительного риска отравления детей. Затронутый продукт представляет собой упаковку из 24 каплет с надписями \"Safetussin\", \"Multi-Symptom\" и \"Кашель, простуда и грипп\", предназначенную для взрослых с высоким кровяным давлением и диабетом. Упаковка, выполненная в синем, оранжевом и красном цветах, не соответствует необходимым стандартам защиты от детей, что позволяет маленьким детям легко получить доступ к таблеткам.",
+          "ConsumerContact": "Для получения дополнительной информации потребители могут обратиться в Лабораторию Kramer по телефону 800-824-4894, доступному с понедельника по пятницу с 8:00 до 17:00 по восточному времени, или по электронной почте на адрес kramerlabs@emersongroup.com. Дополнительную информацию можно найти на сайте https://safetussin.com/recall.",
+          "metaDescription": "Лаборатория Kramer отзывает упаковки Safetussin Max Strength от кашля, простуды и гриппа из-за рисков для безопасности детей. Узнайте больше о отзыве.",
+          "Products": [
+            {
+              "Name": "Упаковки Safetussin Max Strength Multi-Symptom от кашля, простуды и гриппа",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 14,250"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванные каплеты Safetussin Max Strength Multi-Symptom от кашля, простуды и гриппа, упаковка 24 каплеты"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Не сообщалось"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Доступно в HEB, Harris-Teeter и различных региональных продуктовых магазинах и независимых аптеках по всей стране с июля 2024 года по март 2025 года по цене около 11 долларов."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Лаборатория Kramer из Бриджвотера, Нью-Джерси (дочерняя компания Arcadia Consumer Healthcare из Бриджвотера, Нью-Джерси)"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Продается в",
+          "ManufacturerCountries": [
+            {
+              "Country": "Индия"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Упаковка, не защищенная от детей, представляет риск отравления для детей."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Убедитесь, что продукт недоступен детям, и свяжитесь с Лабораторией Kramer для получения инструкций по возврату или утилизации продукта для полного возврата средств."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Возврат средств"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "Kramer Laboratories Thông Báo Thu Hồi Safetussin Max Strength Cough, Cold và Flu Do Lo Ngại Về An Toàn Của Trẻ Em",
+          "Description": "Kramer Laboratories đang thu hồi các gói viên nén Safetussin Max Strength Multi-Symptom Cough, Cold và Flu do nguy cơ ngộ độc trẻ em đáng kể. Sản phẩm bị ảnh hưởng là một gói viên nén 24 viên được ghi nhãn với \"Safetussin,\" \"Multi-Symptom,\" và \"Cough, Cold & Flu,\" và được thiết kế cho người lớn bị huyết áp cao và tiểu đường. Bao bì, với hộp bìa cứng màu xanh, cam và đỏ, không đáp ứng tiêu chuẩn an toàn cho trẻ em, cho phép trẻ nhỏ dễ dàng tiếp cận các viên thuốc.",
+          "ConsumerContact": "Để biết thêm chi tiết, người tiêu dùng có thể liên hệ với Kramer Laboratories qua số 800-824-4894, có sẵn từ thứ Hai đến thứ Sáu từ 8 giờ sáng đến 5 giờ chiều ET, hoặc qua email tại kramerlabs@emersongroup.com. Thông tin bổ sung có thể được tìm thấy tại https://safetussin.com/recall.",
+          "metaDescription": "Kramer Laboratories thu hồi các gói Safetussin Max Strength Cough, Cold và Flu do rủi ro an toàn cho trẻ em. Tìm hiểu thêm về việc thu hồi.",
+          "Products": [
+            {
+              "Name": "Gói Viên Nén Safetussin Max Strength Multi-Symptom Cough, Cold và Flu",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 14,250"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Viên Nén Safetussin Max Strength Multi-Symptom Cough, Cold và Flu bị thu hồi, gói 24 viên"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Không có báo cáo"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Có mặt tại HEB, Harris-Teeter và nhiều cửa hàng tạp hóa khu vực cũng như các hiệu thuốc độc lập trên toàn quốc từ tháng 7 năm 2024 đến tháng 3 năm 2025 với giá khoảng 11 đô la."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Kramer Laboratories, có trụ sở tại Bridgewater, New Jersey (một công ty con của Arcadia Consumer Healthcare, có trụ sở tại Bridgewater, New Jersey)"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Bán Tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Ấn Độ"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Bao bì không an toàn cho trẻ em gây ra nguy cơ ngộ độc cho trẻ em."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Bảo quản sản phẩm xa tầm tay trẻ em và liên hệ với Kramer Laboratories để biết hướng dẫn về việc trả lại hoặc tiêu hủy sản phẩm để được hoàn tiền đầy đủ."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Hoàn tiền"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    }
+  ]
+}

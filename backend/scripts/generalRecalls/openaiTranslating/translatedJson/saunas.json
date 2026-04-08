@@ -1,0 +1,913 @@
+{
+  "meta": {
+    "slug": "saunas",
+    "sourceCsvFile": "saunas_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:37.056Z",
+    "recallCount": 1,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "saunas.json",
+    "seoTranslatedAt": "2026-04-05T03:58:44.248Z",
+    "resumePartial": false,
+    "i18nSource": "generalRecallsTranslated",
+    "i18nSourceFile": "saunas.json",
+    "i18nUiLangs": [
+      "en",
+      "es",
+      "ar",
+      "zh",
+      "fr",
+      "de",
+      "ja",
+      "pt",
+      "hi",
+      "ru",
+      "vi"
+    ],
+    "i18nProgressByLang": {
+      "es": 1,
+      "ar": 1,
+      "zh": 1,
+      "fr": 1,
+      "de": 1,
+      "ja": 1,
+      "pt": 1,
+      "hi": 1,
+      "ru": 1,
+      "vi": 1
+    },
+    "i18nInProgress": false,
+    "i18nTranslatedAt": "2026-04-07T19:45:35.370Z",
+    "i18nOpenaiModel": "gpt-4o-mini"
+  },
+  "recalls": [
+    {
+      "RecallID": 10445,
+      "RecallNumber": "26040",
+      "RecallDate": "2025-10-23T00:00:00",
+      "Description": "Sauna360 is recalling specific models of their Tylö Halmstad and Kiruna Hybrid saunas due to a potential fall hazard linked to the bench seating. The serial number for each sauna can be located on the packaging and within the sauna rooms. For Halmstad models 2, 3, and 4, the serial number is found beneath the upper bench on the left side, above the electrical contactor box. For Kiruna Hybrid models 2 and 3, the serial number is on the right wall, under the upper bench's right side. The model number is also available in the user manual. The recall affects a range of model numbers and serial numbers as detailed below.",
+      "URL": "https://www.cpsc.gov/Recalls/2026/Sauna360-Recalls-Tylo-Halmstad-and-Kiruna-Hybrid-Saunas-Due-to-Fall-Hazard",
+      "Title": "Sauna360 Issues Recall for Tylö Halmstad and Kiruna Hybrid Saunas Over Fall Risk",
+      "ConsumerContact": "For assistance, consumers can reach out to Sauna360 at 888-780-4427 from 8 a.m. to 5 p.m. CT, Monday through Friday, email at us_techsupport@sauna360.com, or visit https://sauna360.com/product-recall or www.sauna360.com and click on 'Recall' at the bottom of the page for further information.",
+      "LastPublishDate": "2025-10-23T00:00:00",
+      "Products": [
+        {
+          "Name": "Tylö Halmstad Saunas",
+          "NumberOfUnits": "About 1,000"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/saunas/1-Tyl-Halmstad-Saunas/14d8cf79ff27f7017864a2359967845a.webp",
+          "Caption": "Recalled Sauna Model Tylö Halmstad 2",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/sauna-1.png"
+        },
+        {
+          "URL": "/images/generalRecalls/saunas/1-Tyl-Halmstad-Saunas/47cc05a8fbb5a827b194227f17dadf76.webp",
+          "Caption": "Recalled Sauna Model Tylö Halmstad 3",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/sauna-2.png"
+        },
+        {
+          "URL": "/images/generalRecalls/saunas/1-Tyl-Halmstad-Saunas/91078746ea39a0648723a81c00c46e71.webp",
+          "Caption": "Recalled Sauna Model Tylö Halmstad 4",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/sauna-3.png"
+        },
+        {
+          "URL": "/images/generalRecalls/saunas/1-Tyl-Halmstad-Saunas/014d58a0166e34d00bf6a42113df5abe.webp",
+          "Caption": "Recalled Sauna Model Kiruna Hybrid 2",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/sauna-4.png"
+        },
+        {
+          "URL": "/images/generalRecalls/saunas/1-Tyl-Halmstad-Saunas/87883cb10bbfb30ffcd450d58bb05f82.webp",
+          "Caption": "Recalled Sauna Model Kiruna Hybrid 3",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/sauna-5.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "Sauna360 has received seven reports of the benches breaking, including one consumer with head and neck injuries."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Various distributors across the nation from July 2024 to December 2024, priced between $6,000 and $12,000."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Sauna360, Inc., of Cokato, Minnesota"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of bench collapse leading to falls"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Immediate cessation of use of the sauna benches and contact Sauna360 for a complimentary repair. A professional installer will retrofit the benches with added hardware, and consumers will receive an updated product manual that specifies the weight limit."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "CSFxxABTRxx-V1-4933 through CSFxxABTRxx-V1-6970",
+        "CSFxxABISxxTL-V1-4964 through CSFxxABISxxTL-V1-7224"
+      ],
+      "slug": "sauna360-issues-recall-for-tylo-halmstad-and-kiruna-hybrid-saunas-over-fall-risk-recall",
+      "metaDescription": "Sauna360 recalls Tylö Halmstad and Kiruna Hybrid saunas due to a fall hazard. Contact for free repairs and safety updates.",
+      "languages": {
+        "en": {
+          "Title": "Sauna360 Issues Recall for Tylö Halmstad and Kiruna Hybrid Saunas Over Fall Risk",
+          "Description": "Sauna360 is recalling specific models of their Tylö Halmstad and Kiruna Hybrid saunas due to a potential fall hazard linked to the bench seating. The serial number for each sauna can be located on the packaging and within the sauna rooms. For Halmstad models 2, 3, and 4, the serial number is found beneath the upper bench on the left side, above the electrical contactor box. For Kiruna Hybrid models 2 and 3, the serial number is on the right wall, under the upper bench's right side. The model number is also available in the user manual. The recall affects a range of model numbers and serial numbers as detailed below.",
+          "ConsumerContact": "For assistance, consumers can reach out to Sauna360 at 888-780-4427 from 8 a.m. to 5 p.m. CT, Monday through Friday, email at us_techsupport@sauna360.com, or visit https://sauna360.com/product-recall or www.sauna360.com and click on 'Recall' at the bottom of the page for further information.",
+          "metaDescription": "Sauna360 recalls Tylö Halmstad and Kiruna Hybrid saunas due to a fall hazard. Contact for free repairs and safety updates.",
+          "Products": [
+            {
+              "Name": "Tylö Halmstad Saunas",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 1,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled Sauna Model Tylö Halmstad 2"
+            },
+            {
+              "Caption": "Recalled Sauna Model Tylö Halmstad 3"
+            },
+            {
+              "Caption": "Recalled Sauna Model Tylö Halmstad 4"
+            },
+            {
+              "Caption": "Recalled Sauna Model Kiruna Hybrid 2"
+            },
+            {
+              "Caption": "Recalled Sauna Model Kiruna Hybrid 3"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Sauna360 has received seven reports of the benches breaking, including one consumer with head and neck injuries."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Various distributors across the nation from July 2024 to December 2024, priced between $6,000 and $12,000."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Sauna360, Inc., of Cokato, Minnesota"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Sold At",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risk of bench collapse leading to falls"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Immediate cessation of use of the sauna benches and contact Sauna360 for a complimentary repair. A professional installer will retrofit the benches with added hardware, and consumers will receive an updated product manual that specifies the weight limit."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Repair"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "Sauna360 emite un retiro para las saunas híbridas Tylö Halmstad y Kiruna por riesgo de caída",
+          "Description": "Sauna360 está retirando modelos específicos de sus saunas híbridas Tylö Halmstad y Kiruna debido a un posible riesgo de caída relacionado con los asientos del banco. El número de serie de cada sauna se puede encontrar en el embalaje y dentro de las salas de sauna. Para los modelos Halmstad 2, 3 y 4, el número de serie se encuentra debajo del banco superior en el lado izquierdo, sobre la caja del contactor eléctrico. Para los modelos híbridos Kiruna 2 y 3, el número de serie está en la pared derecha, debajo del lado derecho del banco superior. El número de modelo también está disponible en el manual del usuario. El retiro afecta a una gama de números de modelo y números de serie como se detalla a continuación.",
+          "ConsumerContact": "Para asistencia, los consumidores pueden comunicarse con Sauna360 al 888-780-4427 de 8 a.m. a 5 p.m. CT, de lunes a viernes, enviar un correo electrónico a us_techsupport@sauna360.com, o visitar https://sauna360.com/product-recall o www.sauna360.com y hacer clic en 'Retiro' en la parte inferior de la página para más información.",
+          "metaDescription": "Sauna360 retira las saunas Tylö Halmstad y Kiruna Hybrid debido a un riesgo de caída. Contacte para reparaciones gratuitas y actualizaciones de seguridad.",
+          "Products": [
+            {
+              "Name": "Saunas Tylö Halmstad",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Alrededor de 1,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Modelo de sauna retirado Tylö Halmstad 2"
+            },
+            {
+              "Caption": "Modelo de sauna retirado Tylö Halmstad 3"
+            },
+            {
+              "Caption": "Modelo de sauna retirado Tylö Halmstad 4"
+            },
+            {
+              "Caption": "Modelo de sauna retirado Kiruna Hybrid 2"
+            },
+            {
+              "Caption": "Modelo de sauna retirado Kiruna Hybrid 3"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Sauna360 ha recibido siete informes de bancos rotos, incluyendo un consumidor con lesiones en la cabeza y el cuello."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Varios distribuidores en todo el país desde julio de 2024 hasta diciembre de 2024, con precios entre $6,000 y $12,000."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Sauna360, Inc., de Cokato, Minnesota"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendidos en",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Riesgo de colapso del banco que conduce a caídas"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Cese inmediato del uso de los bancos de sauna y contacto con Sauna360 para una reparación gratuita. Un instalador profesional adaptará los bancos con hardware adicional, y los consumidores recibirán un manual de producto actualizado que especifica el límite de peso."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparación"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "ساونا360 تصدر استدعاء لطرازات ساونا تيلو هالمستاد وكيرونا هايبرد بسبب خطر السقوط",
+          "Description": "تقوم ساونا360 باستدعاء نماذج محددة من ساونا تيلو هالمستاد وكيرونا هايبرد بسبب خطر السقوط المحتمل المرتبط بمقاعد المقعد. يمكن العثور على الرقم التسلسلي لكل ساونا على العبوة وداخل غرف الساونا. بالنسبة لنماذج هالمستاد 2 و3 و4، يوجد الرقم التسلسلي تحت المقعد العلوي على الجانب الأيسر، فوق صندوق الموصل الكهربائي. بالنسبة لنماذج كيرونا هايبرد 2 و3، يوجد الرقم التسلسلي على الجدار الأيمن، تحت الجانب الأيمن من المقعد العلوي. الرقم النموذجي متاح أيضًا في دليل المستخدم. يؤثر الاستدعاء على مجموعة من أرقام الطرازات والأرقام التسلسلية كما هو موضح أدناه.",
+          "ConsumerContact": "للمساعدة، يمكن للمستهلكين التواصل مع ساونا360 على الرقم 888-780-4427 من الساعة 8 صباحًا حتى 5 مساءً بتوقيت وسط أمريكا، من الاثنين إلى الجمعة، عبر البريد الإلكتروني على us_techsupport@sauna360.com، أو زيارة https://sauna360.com/product-recall أو www.sauna360.com والنقر على 'استدعاء' في أسفل الصفحة لمزيد من المعلومات.",
+          "metaDescription": "ساونا360 تستدعي ساونا تيلو هالمستاد وكيرونا هايبرد بسبب خطر السقوط. اتصل للحصول على إصلاحات مجانية وتحديثات السلامة.",
+          "Products": [
+            {
+              "Name": "ساونا تيلو هالمستاد",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 1,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "طراز الساونا المستدعى تيلو هالمستاد 2"
+            },
+            {
+              "Caption": "طراز الساونا المستدعى تيلو هالمستاد 3"
+            },
+            {
+              "Caption": "طراز الساونا المستدعى تيلو هالمستاد 4"
+            },
+            {
+              "Caption": "طراز الساونا المستدعى كيرونا هايبرد 2"
+            },
+            {
+              "Caption": "طراز الساونا المستدعى كيرونا هايبرد 3"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "تلقت ساونا360 سبع تقارير عن كسر المقاعد، بما في ذلك حالة واحدة لمستهلك تعرض لإصابات في الرأس والرقبة."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "موزعون مختلفون عبر البلاد من يوليو 2024 إلى ديسمبر 2024، بأسعار تتراوح بين 6,000 و12,000 دولار."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "ساونا360، إنك، من كوكاتو، مينيسوتا"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "تم البيع في",
+          "ManufacturerCountries": [
+            {
+              "Country": "الصين"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "خطر انهيار المقعد مما يؤدي إلى السقوط"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "التوقف الفوري عن استخدام مقاعد الساونا والتواصل مع ساونا360 للحصول على إصلاح مجاني. سيقوم مثبت محترف بتعديل المقاعد مع إضافة أجهزة، وسيتلقى المستهلكون دليل منتج محدث يحدد حد الوزن."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "إصلاح"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "Sauna360 因跌倒风险召回 Tylö Halmstad 和 Kiruna 混合桑拿",
+          "Description": "Sauna360 正在召回其 Tylö Halmstad 和 Kiruna 混合桑拿的特定型号，原因是与长椅座位相关的潜在跌倒危险。每个桑拿的序列号可以在包装和桑拿房内找到。对于 Halmstad 型号 2、3 和 4，序列号位于左侧上长椅下方，电气接触器箱上方。对于 Kiruna 混合型号 2 和 3，序列号位于右侧墙壁上，位于上长椅右侧下方。型号也可以在用户手册中找到。此次召回涉及一系列型号和序列号，具体如下。",
+          "ConsumerContact": "如需帮助，消费者可以在周一至周五的中部时间上午 8 点至下午 5 点拨打 Sauna360 电话 888-780-4427，或发送电子邮件至 us_techsupport@sauna360.com，或访问 https://sauna360.com/product-recall 或 www.sauna360.com 并点击页面底部的“召回”以获取更多信息。",
+          "metaDescription": "Sauna360 因跌倒危险召回 Tylö Halmstad 和 Kiruna 混合桑拿。联系以获取免费维修和安全更新。",
+          "Products": [
+            {
+              "Name": "Tylö Halmstad 桑拿",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约 1,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "召回的桑拿型号 Tylö Halmstad 2"
+            },
+            {
+              "Caption": "召回的桑拿型号 Tylö Halmstad 3"
+            },
+            {
+              "Caption": "召回的桑拿型号 Tylö Halmstad 4"
+            },
+            {
+              "Caption": "召回的桑拿型号 Kiruna Hybrid 2"
+            },
+            {
+              "Caption": "召回的桑拿型号 Kiruna Hybrid 3"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Sauna360 收到七起长椅断裂的报告，其中包括一名消费者的头部和颈部受伤。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "全国各地的多个分销商，销售时间为 2024 年 7 月至 2024 年 12 月，价格在 $6,000 到 $12,000 之间。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "位于明尼苏达州 Cokato 的 Sauna360, Inc."
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "销售地点",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "长椅坍塌导致跌倒的风险"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "立即停止使用桑拿长椅，并联系 Sauna360 进行免费维修。专业安装人员将为长椅加装额外硬件，消费者将收到一份更新的产品手册，说明重量限制。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "维修"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "Sauna360 rappelle des saunas hybrides Tylö Halmstad et Kiruna en raison d'un risque de chute",
+          "Description": "Sauna360 rappelle des modèles spécifiques de ses saunas hybrides Tylö Halmstad et Kiruna en raison d'un risque de chute potentiel lié aux sièges de banc. Le numéro de série de chaque sauna peut être trouvé sur l'emballage et à l'intérieur des salles de sauna. Pour les modèles Halmstad 2, 3 et 4, le numéro de série se trouve sous le banc supérieur sur le côté gauche, au-dessus du boîtier du contacteur électrique. Pour les modèles hybrides Kiruna 2 et 3, le numéro de série est sur le mur droit, sous le côté droit du banc supérieur. Le numéro de modèle est également disponible dans le manuel de l'utilisateur. Le rappel concerne une gamme de numéros de modèle et de numéros de série comme détaillé ci-dessous.",
+          "ConsumerContact": "Pour assistance, les consommateurs peuvent contacter Sauna360 au 888-780-4427 de 8 h à 17 h CT, du lundi au vendredi, par e-mail à us_techsupport@sauna360.com, ou visiter https://sauna360.com/product-recall ou www.sauna360.com et cliquer sur 'Rappel' en bas de la page pour plus d'informations.",
+          "metaDescription": "Sauna360 rappelle des saunas Tylö Halmstad et Kiruna Hybrid en raison d'un risque de chute. Contactez pour des réparations gratuites et des mises à jour de sécurité.",
+          "Products": [
+            {
+              "Name": "Saunas Tylö Halmstad",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 1 000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Modèle de sauna rappelé Tylö Halmstad 2"
+            },
+            {
+              "Caption": "Modèle de sauna rappelé Tylö Halmstad 3"
+            },
+            {
+              "Caption": "Modèle de sauna rappelé Tylö Halmstad 4"
+            },
+            {
+              "Caption": "Modèle de sauna rappelé Kiruna Hybrid 2"
+            },
+            {
+              "Caption": "Modèle de sauna rappelé Kiruna Hybrid 3"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Sauna360 a reçu sept rapports de bancs se cassant, y compris un consommateur avec des blessures à la tête et au cou."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Divers distributeurs à travers le pays de juillet 2024 à décembre 2024, au prix de 6 000 $ à 12 000 $."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Sauna360, Inc., de Cokato, Minnesota"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendu À",
+          "ManufacturerCountries": [
+            {
+              "Country": "Chine"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risque d'effondrement du banc entraînant des chutes"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Cessation immédiate de l'utilisation des bancs de sauna et contact avec Sauna360 pour une réparation gratuite. Un installateur professionnel retrofittera les bancs avec du matériel supplémentaire, et les consommateurs recevront un manuel de produit mis à jour spécifiant la limite de poids."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Réparation"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "Sauna360 ruft Tylö Halmstad und Kiruna Hybrid Saunen wegen Sturzgefahr zurück",
+          "Description": "Sauna360 ruft bestimmte Modelle ihrer Tylö Halmstad und Kiruna Hybrid Saunen aufgrund einer potenziellen Sturzgefahr im Zusammenhang mit den Sitzbänken zurück. Die Seriennummer jeder Sauna befindet sich auf der Verpackung und in den Saunaräumen. Bei den Halmstad-Modellen 2, 3 und 4 befindet sich die Seriennummer unter der oberen Bank auf der linken Seite, über dem elektrischen Schaltkasten. Bei den Kiruna Hybrid-Modellen 2 und 3 befindet sich die Seriennummer an der rechten Wand, unter der rechten Seite der oberen Bank. Die Modellnummer ist auch im Benutzerhandbuch verfügbar. Der Rückruf betrifft eine Reihe von Modellnummern und Seriennummern, die unten aufgeführt sind.",
+          "ConsumerContact": "Für Unterstützung können Verbraucher Sauna360 unter 888-780-4427 von 8 bis 17 Uhr CT, Montag bis Freitag, kontaktieren, eine E-Mail an us_techsupport@sauna360.com senden oder die Website https://sauna360.com/product-recall oder www.sauna360.com besuchen und unten auf der Seite auf 'Rückruf' klicken, um weitere Informationen zu erhalten.",
+          "metaDescription": "Sauna360 ruft Tylö Halmstad und Kiruna Hybrid Saunen wegen Sturzgefahr zurück. Kontakt für kostenlose Reparaturen und Sicherheitsupdates.",
+          "Products": [
+            {
+              "Name": "Tylö Halmstad Saunen",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 1.000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Rückgerufenes Sauna-Modell Tylö Halmstad 2"
+            },
+            {
+              "Caption": "Rückgerufenes Sauna-Modell Tylö Halmstad 3"
+            },
+            {
+              "Caption": "Rückgerufenes Sauna-Modell Tylö Halmstad 4"
+            },
+            {
+              "Caption": "Rückgerufenes Sauna-Modell Kiruna Hybrid 2"
+            },
+            {
+              "Caption": "Rückgerufenes Sauna-Modell Kiruna Hybrid 3"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Sauna360 hat sieben Berichte über gebrochene Bänke erhalten, darunter einen Verbraucher mit Kopf- und Nackenverletzungen."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Verschiedene Händler im ganzen Land von Juli 2024 bis Dezember 2024, mit Preisen zwischen 6.000 und 12.000 US-Dollar."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Sauna360, Inc., aus Cokato, Minnesota"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Verkauft bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risiko des Zusammenbruchs der Bank, was zu Stürzen führen kann"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Sofortige Einstellung der Nutzung der Sauna-Bänke und Kontaktaufnahme mit Sauna360 für eine kostenlose Reparatur. Ein professioneller Installateur wird die Bänke mit zusätzlichem Material nachrüsten, und die Verbraucher erhalten ein aktualisiertes Produktmanual, das das Gewichtslimit angibt."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparatur"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "Sauna360、Tylö HalmstadおよびKirunaハイブリッドサウナの落下リスクに関するリコールを発表",
+          "Description": "Sauna360は、ベンチシーティングに関連する潜在的な落下危険のため、Tylö HalmstadおよびKirunaハイブリッドサウナの特定のモデルをリコールしています。各サウナのシリアル番号は、パッケージおよびサウナルーム内にあります。Halmstadモデル2、3、4の場合、シリアル番号は上部ベンチの左側、電気接触器ボックスの上にあります。Kirunaハイブリッドモデル2および3の場合、シリアル番号は右壁の上部ベンチの右側の下にあります。モデル番号はユーザーマニュアルにも記載されています。リコールは、以下に詳述されたモデル番号およびシリアル番号の範囲に影響します。",
+          "ConsumerContact": "サポートが必要な場合、消費者はSauna360に888-780-4427まで連絡できます。営業時間は月曜日から金曜日の午前8時から午後5時（CT）です。メールはus_techsupport@sauna360.comまで、またはhttps://sauna360.com/product-recallまたはwww.sauna360.comを訪れて、ページの下部にある「リコール」をクリックして詳細情報を確認してください。",
+          "metaDescription": "Sauna360は、落下危険のためTylö HalmstadおよびKirunaハイブリッドサウナをリコールします。無料修理および安全情報の更新についてお問い合わせください。",
+          "Products": [
+            {
+              "Name": "Tylö Halmstadサウナ",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約1,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコールされたサウナモデルTylö Halmstad 2"
+            },
+            {
+              "Caption": "リコールされたサウナモデルTylö Halmstad 3"
+            },
+            {
+              "Caption": "リコールされたサウナモデルTylö Halmstad 4"
+            },
+            {
+              "Caption": "リコールされたサウナモデルKirunaハイブリッド2"
+            },
+            {
+              "Caption": "リコールされたサウナモデルKirunaハイブリッド3"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Sauna360は、ベンチが壊れたという7件の報告を受けており、その中には頭部および首の怪我を負った消費者が1名含まれています。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "2024年7月から2024年12月まで、全国のさまざまなディストリビューターで販売され、価格は6,000ドルから12,000ドルの間です。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "ミネソタ州コカトのSauna360, Inc."
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "販売場所",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "ベンチの崩壊による落下のリスク"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "サウナのベンチの使用を直ちに中止し、Sauna360に連絡して無料修理を依頼してください。専門のインストーラーがベンチに追加のハードウェアを取り付け、消費者には重量制限を明記した更新された製品マニュアルが提供されます。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "修理"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "Sauna360 Emite Recall para Saunas Híbridas Tylö Halmstad e Kiruna Devido ao Risco de Queda",
+          "Description": "A Sauna360 está recolhendo modelos específicos de suas saunas híbridas Tylö Halmstad e Kiruna devido a um potencial risco de queda relacionado ao assento do banco. O número de série de cada sauna pode ser encontrado na embalagem e dentro das salas de sauna. Para os modelos Halmstad 2, 3 e 4, o número de série está localizado sob o banco superior do lado esquerdo, acima da caixa do contator elétrico. Para os modelos Kiruna Hybrid 2 e 3, o número de série está na parede direita, sob o lado direito do banco superior. O número do modelo também está disponível no manual do usuário. O recall afeta uma gama de números de modelo e números de série conforme detalhado abaixo.",
+          "ConsumerContact": "Para assistência, os consumidores podem entrar em contato com a Sauna360 pelo telefone 888-780-4427 das 8h às 17h CT, de segunda a sexta-feira, pelo e-mail us_techsupport@sauna360.com, ou visitar https://sauna360.com/product-recall ou www.sauna360.com e clicar em 'Recall' na parte inferior da página para mais informações.",
+          "metaDescription": "A Sauna360 recolhe saunas Tylö Halmstad e Kiruna Hybrid devido a um risco de queda. Contate para reparos gratuitos e atualizações de segurança.",
+          "Products": [
+            {
+              "Name": "Saunas Tylö Halmstad",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 1.000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Modelo de Sauna Recolhido Tylö Halmstad 2"
+            },
+            {
+              "Caption": "Modelo de Sauna Recolhido Tylö Halmstad 3"
+            },
+            {
+              "Caption": "Modelo de Sauna Recolhido Tylö Halmstad 4"
+            },
+            {
+              "Caption": "Modelo de Sauna Recolhido Kiruna Hybrid 2"
+            },
+            {
+              "Caption": "Modelo de Sauna Recolhido Kiruna Hybrid 3"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "A Sauna360 recebeu sete relatos de bancos quebrando, incluindo um consumidor com lesões na cabeça e no pescoço."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Vários distribuidores em todo o país de julho de 2024 a dezembro de 2024, com preços entre $6.000 e $12.000."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Sauna360, Inc., de Cokato, Minnesota"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendido Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risco de colapso do banco levando a quedas"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Cessação imediata do uso dos bancos da sauna e contato com a Sauna360 para um reparo gratuito. Um instalador profissional irá adaptar os bancos com hardware adicional, e os consumidores receberão um manual de produto atualizado que especifica o limite de peso."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparo"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "Sauna360 ने Tylö Halmstad और Kiruna Hybrid सॉना के लिए गिरने के जोखिम के कारण रिकॉल जारी किया",
+          "Description": "Sauna360 अपने Tylö Halmstad और Kiruna Hybrid सॉना के कुछ विशेष मॉडलों को बेंच सीटिंग से जुड़े संभावित गिरने के खतरे के कारण रिकॉल कर रहा है। प्रत्येक सॉना का सीरियल नंबर पैकेजिंग और सॉना कमरों के भीतर पाया जा सकता है। Halmstad मॉडलों 2, 3, और 4 के लिए, सीरियल नंबर बाईं ओर ऊपरी बेंच के नीचे, इलेक्ट्रिकल कॉन्टैक्टर बॉक्स के ऊपर पाया जाता है। Kiruna Hybrid मॉडलों 2 और 3 के लिए, सीरियल नंबर दाईं दीवार पर, ऊपरी बेंच के दाईं ओर के नीचे है। मॉडल नंबर उपयोगकर्ता मैनुअल में भी उपलब्ध है। यह रिकॉल विभिन्न मॉडल नंबरों और सीरियल नंबरों को प्रभावित करता है, जैसा कि नीचे विस्तृत किया गया है।",
+          "ConsumerContact": "सहायता के लिए, उपभोक्ता Sauna360 से 888-780-4427 पर सुबह 8 बजे से शाम 5 बजे CT, सोमवार से शुक्रवार, ईमेल पर us_techsupport@sauna360.com, या https://sauna360.com/product-recall या www.sauna360.com पर जाकर संपर्क कर सकते हैं और पृष्ठ के नीचे 'Recall' पर क्लिक करके अधिक जानकारी प्राप्त कर सकते हैं।",
+          "metaDescription": "Sauna360 गिरने के खतरे के कारण Tylö Halmstad और Kiruna Hybrid सॉना का रिकॉल करता है। मुफ्त मरम्मत और सुरक्षा अपडेट के लिए संपर्क करें।",
+          "Products": [
+            {
+              "Name": "Tylö Halmstad सॉना",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 1,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "रिकॉल किया गया सॉना मॉडल Tylö Halmstad 2"
+            },
+            {
+              "Caption": "रिकॉल किया गया सॉना मॉडल Tylö Halmstad 3"
+            },
+            {
+              "Caption": "रिकॉल किया गया सॉना मॉडल Tylö Halmstad 4"
+            },
+            {
+              "Caption": "रिकॉल किया गया सॉना मॉडल Kiruna Hybrid 2"
+            },
+            {
+              "Caption": "रिकॉल किया गया सॉना मॉडल Kiruna Hybrid 3"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Sauna360 को बेंच टूटने की सात रिपोर्ट मिली हैं, जिसमें एक उपभोक्ता के सिर और गर्दन में चोटें शामिल हैं।"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "देश भर के विभिन्न वितरक जुलाई 2024 से दिसंबर 2024 तक, $6,000 से $12,000 के बीच कीमत पर।"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Sauna360, Inc., Cokato, Minnesota का"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "चीन"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "बेंच के गिरने का जोखिम जिससे गिरने की संभावना है"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "सॉना बेंच के उपयोग को तुरंत बंद करें और मुफ्त मरम्मत के लिए Sauna360 से संपर्क करें। एक पेशेवर इंस्टॉलर बेंच को अतिरिक्त हार्डवेयर के साथ पुनः स्थापित करेगा, और उपभोक्ताओं को एक अद्यतन उत्पाद मैनुअल प्राप्त होगा जो वजन सीमा को निर्दिष्ट करता है।"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "मरम्मत"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "Sauna360 отзывает сауны Tylö Halmstad и Kiruna Hybrid из-за риска падения",
+          "Description": "Sauna360 отзывает конкретные модели своих саун Tylö Halmstad и Kiruna Hybrid из-за потенциальной опасности падения, связанной с скамейками. Серийный номер каждой сауны можно найти на упаковке и внутри сауны. Для моделей Halmstad 2, 3 и 4 серийный номер находится под верхней скамейкой с левой стороны, над электрическим контактором. Для моделей Kiruna Hybrid 2 и 3 серийный номер находится на правой стене, под правой стороной верхней скамейки. Номер модели также доступен в руководстве пользователя. Отзыв затрагивает ряд номеров моделей и серийных номеров, как указано ниже.",
+          "ConsumerContact": "Для получения помощи потребители могут обратиться в Sauna360 по телефону 888-780-4427 с 8:00 до 17:00 по центральному времени с понедельника по пятницу, по электронной почте us_techsupport@sauna360.com или посетить https://sauna360.com/product-recall или www.sauna360.com и нажать на 'Recall' внизу страницы для получения дополнительной информации.",
+          "metaDescription": "Sauna360 отзывает сауны Tylö Halmstad и Kiruna Hybrid из-за опасности падения. Свяжитесь для бесплатного ремонта и обновлений безопасности.",
+          "Products": [
+            {
+              "Name": "Сауны Tylö Halmstad",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 1,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванная модель сауны Tylö Halmstad 2"
+            },
+            {
+              "Caption": "Отозванная модель сауны Tylö Halmstad 3"
+            },
+            {
+              "Caption": "Отозванная модель сауны Tylö Halmstad 4"
+            },
+            {
+              "Caption": "Отозванная модель сауны Kiruna Hybrid 2"
+            },
+            {
+              "Caption": "Отозванная модель сауны Kiruna Hybrid 3"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Sauna360 получила семь сообщений о поломках скамейк, включая один случай с травмами головы и шеи у потребителя."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Различные дистрибьюторы по всей стране с июля 2024 года по декабрь 2024 года, по цене от 6,000 до 12,000 долларов."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Sauna360, Inc., из Кокато, Миннесота"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Продавалось в",
+          "ManufacturerCountries": [
+            {
+              "Country": "Китай"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Риск обрушения скамейки, что может привести к падениям"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Немедленное прекращение использования скамейок сауны и обращение в Sauna360 для бесплатного ремонта. Профессиональный установщик дооснастит скамейки дополнительным оборудованием, и потребители получат обновленное руководство по продукту, в котором указаны ограничения по весу."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Ремонт"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "Sauna360 thu hồi các mẫu Tylö Halmstad và Kiruna Hybrid do nguy cơ ngã",
+          "Description": "Sauna360 đang thu hồi các mẫu cụ thể của các phòng xông hơi Tylö Halmstad và Kiruna Hybrid do nguy cơ ngã tiềm ẩn liên quan đến ghế ngồi. Số sê-ri cho mỗi phòng xông hơi có thể được tìm thấy trên bao bì và trong các phòng xông hơi. Đối với các mẫu Halmstad 2, 3 và 4, số sê-ri nằm dưới ghế trên cùng ở bên trái, trên hộp công tắc điện. Đối với các mẫu Kiruna Hybrid 2 và 3, số sê-ri nằm trên tường bên phải, dưới bên phải của ghế trên cùng. Số mẫu cũng có sẵn trong hướng dẫn sử dụng. Cuộc thu hồi ảnh hưởng đến một loạt các số mẫu và số sê-ri như được chi tiết dưới đây.",
+          "ConsumerContact": "Để được hỗ trợ, người tiêu dùng có thể liên hệ với Sauna360 qua số 888-780-4427 từ 8 giờ sáng đến 5 giờ chiều CT, từ thứ Hai đến thứ Sáu, gửi email đến us_techsupport@sauna360.com, hoặc truy cập https://sauna360.com/product-recall hoặc www.sauna360.com và nhấp vào 'Recall' ở cuối trang để biết thêm thông tin.",
+          "metaDescription": "Sauna360 thu hồi các phòng xông hơi Tylö Halmstad và Kiruna Hybrid do nguy cơ ngã. Liên hệ để được sửa chữa miễn phí và cập nhật an toàn.",
+          "Products": [
+            {
+              "Name": "Phòng xông hơi Tylö Halmstad",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 1.000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Mẫu phòng xông hơi bị thu hồi Tylö Halmstad 2"
+            },
+            {
+              "Caption": "Mẫu phòng xông hơi bị thu hồi Tylö Halmstad 3"
+            },
+            {
+              "Caption": "Mẫu phòng xông hơi bị thu hồi Tylö Halmstad 4"
+            },
+            {
+              "Caption": "Mẫu phòng xông hơi bị thu hồi Kiruna Hybrid 2"
+            },
+            {
+              "Caption": "Mẫu phòng xông hơi bị thu hồi Kiruna Hybrid 3"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Sauna360 đã nhận được bảy báo cáo về việc các ghế bị gãy, trong đó có một người tiêu dùng bị thương ở đầu và cổ."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Nhiều nhà phân phối trên toàn quốc từ tháng 7 năm 2024 đến tháng 12 năm 2024, có giá từ 6.000 đến 12.000 đô la."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Sauna360, Inc., của Cokato, Minnesota"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Bán Tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Trung Quốc"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Nguy cơ sập ghế dẫn đến ngã"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Ngừng ngay việc sử dụng các ghế xông hơi và liên hệ với Sauna360 để được sửa chữa miễn phí. Một kỹ thuật viên chuyên nghiệp sẽ lắp đặt lại các ghế với phần cứng bổ sung, và người tiêu dùng sẽ nhận được một hướng dẫn sản phẩm cập nhật chỉ rõ giới hạn trọng lượng."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Sửa chữa"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,990 @@
+{
+  "meta": {
+    "slug": "toaster-ovens",
+    "sourceCsvFile": "toaster-ovens_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:37.086Z",
+    "recallCount": 1,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "toaster-ovens.json",
+    "seoTranslatedAt": "2026-04-05T05:55:32.368Z",
+    "resumePartial": false,
+    "i18nSource": "generalRecallsTranslated",
+    "i18nSourceFile": "toaster-ovens.json",
+    "i18nUiLangs": [
+      "en",
+      "es",
+      "ar",
+      "zh",
+      "fr",
+      "de",
+      "ja",
+      "pt",
+      "hi",
+      "ru",
+      "vi"
+    ],
+    "i18nProgressByLang": {
+      "es": 1,
+      "ar": 1,
+      "zh": 1,
+      "fr": 1,
+      "de": 1,
+      "ja": 1,
+      "pt": 1,
+      "hi": 1,
+      "ru": 1,
+      "vi": 1
+    },
+    "i18nInProgress": false,
+    "i18nTranslatedAt": "2026-04-07T22:50:56.136Z",
+    "i18nOpenaiModel": "gpt-4o-mini"
+  },
+  "recalls": [
+    {
+      "RecallID": 9892,
+      "RecallNumber": "24159",
+      "RecallDate": "2024-03-14T00:00:00",
+      "Description": "Best Buy has issued a recall for Insignia Air Fryers and Insignia Air Fryer Ovens, including model numbers NS-AF34D2, NS-AF5DSS2, NS-AF5MSS2, NS-AF8DBD2, NS-AF10DBK2, and NS-AF10DSS2. Each unit features the INSIGNIA brand name prominently displayed on the top or front, with a product rating label located on the underside that indicates the model number. These appliances come in various sizes, with cooking chamber capacities ranging from approximately 3.4 to 10 quarts, and are available in black or stainless-steel finishes.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/Best-Buy-Recalls-Insignia-Air Fryers-and-Air-Fryer-Ovens-Due-to-Fire-Burn-and-Laceration-Hazards",
+      "Title": "Best Buy Recalls Insignia® Air Fryers and Ovens Due to Fire and Burn Risks",
+      "ConsumerContact": "For assistance, contact Best Buy at 800-566-7498 from 7 a.m. to 6 p.m. CT, Monday through Friday, or visit https://www.recallrtr.com/airfryer to initiate a refund process. Additional information can be found by visiting http://www.bestbuy.com/product/recalls or by navigating to the 'Product Recalls' section under 'Order and Purchase' at the bottom of the Best Buy website.",
+      "LastPublishDate": "2024-03-14T00:00:00",
+      "Products": [
+        {
+          "Name": "Insignia Air Fryers",
+          "NumberOfUnits": "About 187,400 (In addition, about 99,900 were sold in Canada)"
+        }
+      ],
+      "Inconjunctions": [
+        {
+          "URL": "https://recalls-rappels.canada.ca/en/alert-recall/insigniatm-digital-air-fryers-insigniatm-analog-air-fryers-and-insigniatm-digital-air"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/toaster-ovens/1-Insignia-Air-Fryers/f1fcb0eb7d766b5c7982d99528aa2d40.webp",
+          "Caption": "Recalled Insignia 3.4-qt. Digital Air Fryer model NS-AF34D2",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Insignia-3-4-qt.png"
+        },
+        {
+          "URL": "/images/generalRecalls/toaster-ovens/1-Insignia-Air-Fryers/ddd4b96af81c186a9230051bae33eb21.webp",
+          "Caption": "Recalled Insignia 5-qt. Digital Air Fryer model NS-AF5DSS2",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Insignia-5-qt.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/toaster-ovens/1-Insignia-Air-Fryers/08b444a0d4c649df9b7d600ede3d1900.webp",
+          "Caption": "Recalled Insignia 5-qt. Digital Air Fryer model NS-AF5MSS2",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Insignia-5qt.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/toaster-ovens/1-Insignia-Air-Fryers/33060cf710fb5967b150581b8a92dd54.webp",
+          "Caption": "Recalled Insignia 8-qt. Air Fryer Dual Basket model NS-AF8DBD2",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Insignia-8-qt.png"
+        },
+        {
+          "URL": "/images/generalRecalls/toaster-ovens/1-Insignia-Air-Fryers/a0fe4e7b81388f7b95cd68543fca8f1a.webp",
+          "Caption": "Recalled Insignia 10-qt. Digital Air Fryer Oven model NS-AF10DBK2 (black)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Insignia-10-qt.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/toaster-ovens/1-Insignia-Air-Fryers/b136eaa4678bcb0d668c3b57c8fbff2e.webp",
+          "Caption": "Recalled Insignia 10-qt. Digital Air Fryer Oven model NS-AF10DSS2 (stainless steel)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Insignia-10qt.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/toaster-ovens/1-Insignia-Air-Fryers/687e9517d8cf42ccc1ea507f5436a8b7.webp",
+          "Caption": "Product rating label on the underside of the unit showing INSIGNIA brand and the model number",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Insignia-label_0.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received 24 reports of overheating/melting or glass shattering, including six reports of air fryers catching on fire. No injuries or property damage have been reported."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Best Buy stores nationwide"
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Best Buy Purchasing LLC, of Richfield, Minnesota"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Fire and Burn Hazards"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Stop using the recalled units and follow the online instructions for submitting required information and photos for a refund."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "slug": "best-buy-recalls-insignia-air-fryers-and-ovens-due-to-fire-and-burn-risks-recall",
+      "metaDescription": "Best Buy recalls Insignia Air Fryers and Ovens due to overheating risks that may cause fires and burns. Learn how to get a refund.",
+      "languages": {
+        "en": {
+          "Title": "Best Buy Recalls Insignia® Air Fryers and Ovens Due to Fire and Burn Risks",
+          "Description": "Best Buy has issued a recall for Insignia Air Fryers and Insignia Air Fryer Ovens, including model numbers NS-AF34D2, NS-AF5DSS2, NS-AF5MSS2, NS-AF8DBD2, NS-AF10DBK2, and NS-AF10DSS2. Each unit features the INSIGNIA brand name prominently displayed on the top or front, with a product rating label located on the underside that indicates the model number. These appliances come in various sizes, with cooking chamber capacities ranging from approximately 3.4 to 10 quarts, and are available in black or stainless-steel finishes.",
+          "ConsumerContact": "For assistance, contact Best Buy at 800-566-7498 from 7 a.m. to 6 p.m. CT, Monday through Friday, or visit https://www.recallrtr.com/airfryer to initiate a refund process. Additional information can be found by visiting http://www.bestbuy.com/product/recalls or by navigating to the 'Product Recalls' section under 'Order and Purchase' at the bottom of the Best Buy website.",
+          "metaDescription": "Best Buy recalls Insignia Air Fryers and Ovens due to overheating risks that may cause fires and burns. Learn how to get a refund.",
+          "Products": [
+            {
+              "Name": "Insignia Air Fryers",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 187,400 (In addition, about 99,900 were sold in Canada)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled Insignia 3.4-qt. Digital Air Fryer model NS-AF34D2"
+            },
+            {
+              "Caption": "Recalled Insignia 5-qt. Digital Air Fryer model NS-AF5DSS2"
+            },
+            {
+              "Caption": "Recalled Insignia 5-qt. Digital Air Fryer model NS-AF5MSS2"
+            },
+            {
+              "Caption": "Recalled Insignia 8-qt. Air Fryer Dual Basket model NS-AF8DBD2"
+            },
+            {
+              "Caption": "Recalled Insignia 10-qt. Digital Air Fryer Oven model NS-AF10DBK2 (black)"
+            },
+            {
+              "Caption": "Recalled Insignia 10-qt. Digital Air Fryer Oven model NS-AF10DSS2 (stainless steel)"
+            },
+            {
+              "Caption": "Product rating label on the underside of the unit showing INSIGNIA brand and the model number"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "The firm has received 24 reports of overheating/melting or glass shattering, including six reports of air fryers catching on fire. No injuries or property damage have been reported."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Best Buy stores nationwide"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Best Buy Purchasing LLC, of Richfield, Minnesota"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Sold At",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Fire and Burn Hazards"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Stop using the recalled units and follow the online instructions for submitting required information and photos for a refund."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Refund"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "Best Buy Retira Freidoras y Hornos Insignia® Debido a Riesgos de Incendio y Quemaduras",
+          "Description": "Best Buy ha emitido un retiro para las Freidoras Insignia y los Hornos Freidoras Insignia, incluidos los números de modelo NS-AF34D2, NS-AF5DSS2, NS-AF5MSS2, NS-AF8DBD2, NS-AF10DBK2 y NS-AF10DSS2. Cada unidad presenta el nombre de la marca INSIGNIA exhibido de manera prominente en la parte superior o frontal, con una etiqueta de calificación del producto ubicada en la parte inferior que indica el número de modelo. Estos electrodomésticos vienen en varios tamaños, con capacidades de cámara de cocción que varían de aproximadamente 3.4 a 10 cuartos, y están disponibles en acabados negro o acero inoxidable.",
+          "ConsumerContact": "Para asistencia, comuníquese con Best Buy al 800-566-7498 de 7 a.m. a 6 p.m. CT, de lunes a viernes, o visite https://www.recallrtr.com/airfryer para iniciar un proceso de reembolso. Se puede encontrar información adicional visitando http://www.bestbuy.com/product/recalls o navegando a la sección 'Retiro de Productos' bajo 'Orden y Compra' en la parte inferior del sitio web de Best Buy.",
+          "metaDescription": "Best Buy retira Freidoras y Hornos Insignia debido a riesgos de sobrecalentamiento que pueden causar incendios y quemaduras. Aprenda cómo obtener un reembolso.",
+          "Products": [
+            {
+              "Name": "Freidoras Insignia",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 187,400 (Además, se vendieron aproximadamente 99,900 en Canadá)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Freidora Digital Insignia de 3.4 qt. modelo NS-AF34D2 retirada"
+            },
+            {
+              "Caption": "Freidora Digital Insignia de 5 qt. modelo NS-AF5DSS2 retirada"
+            },
+            {
+              "Caption": "Freidora Digital Insignia de 5 qt. modelo NS-AF5MSS2 retirada"
+            },
+            {
+              "Caption": "Freidora Insignia de 8 qt. con Doble Canasta modelo NS-AF8DBD2 retirada"
+            },
+            {
+              "Caption": "Horno Freidora Digital Insignia de 10 qt. modelo NS-AF10DBK2 (negro) retirado"
+            },
+            {
+              "Caption": "Horno Freidora Digital Insignia de 10 qt. modelo NS-AF10DSS2 (acero inoxidable) retirado"
+            },
+            {
+              "Caption": "Etiqueta de calificación del producto en la parte inferior de la unidad mostrando la marca INSIGNIA y el número de modelo"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "La empresa ha recibido 24 informes de sobrecalentamiento/fusión o ruptura de vidrio, incluidos seis informes de freidoras que se incendiaron. No se han reportado lesiones ni daños a la propiedad."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Tiendas Best Buy en todo el país"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Best Buy Purchasing LLC, de Richfield, Minnesota"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendidos En",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Riesgos de Incendio y Quemaduras"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Deje de usar las unidades retiradas y siga las instrucciones en línea para enviar la información y fotos requeridas para un reembolso."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reembolso"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "بيست باي تستدعي قلايات الهواء وأفران إنسجنيا® بسبب مخاطر الحريق والحروق",
+          "Description": "أصدرت بيست باي استدعاء لقلايات الهواء وأفران قلايات الهواء إنسجنيا، بما في ذلك أرقام الطراز NS-AF34D2، NS-AF5DSS2، NS-AF5MSS2، NS-AF8DBD2، NS-AF10DBK2، وNS-AF10DSS2. كل وحدة تحمل اسم علامة إنسجنيا بشكل بارز على الجزء العلوي أو الأمامي، مع وجود ملصق تقييم المنتج الموجود في الأسفل الذي يشير إلى رقم الطراز. تأتي هذه الأجهزة بأحجام مختلفة، بسعات غرف الطهي تتراوح من حوالي 3.4 إلى 10 لترات، ومتاحة باللون الأسود أو تشطيبات الفولاذ المقاوم للصدأ.",
+          "ConsumerContact": "للمساعدة، اتصل ببيست باي على الرقم 800-566-7498 من الساعة 7 صباحًا حتى 6 مساءً بتوقيت وسط أمريكا، من الاثنين إلى الجمعة، أو قم بزيارة https://www.recallrtr.com/airfryer لبدء عملية استرداد. يمكن العثور على معلومات إضافية من خلال زيارة http://www.bestbuy.com/product/recalls أو من خلال الانتقال إلى قسم 'استدعاءات المنتجات' تحت 'الطلب والشراء' في أسفل موقع بيست باي.",
+          "metaDescription": "تستدعي بيست باي قلايات الهواء وأفران إنسجنيا بسبب مخاطر ارتفاع درجة الحرارة التي قد تسبب حرائق وحروق. تعلم كيف تحصل على استرداد.",
+          "Products": [
+            {
+              "Name": "قلايات الهواء إنسجنيا",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 187,400 (بالإضافة إلى ذلك، تم بيع حوالي 99,900 في كندا)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "قلاية الهواء الرقمية إنسجنيا 3.4 لتر المستدعاة طراز NS-AF34D2"
+            },
+            {
+              "Caption": "قلاية الهواء الرقمية إنسجنيا 5 لتر المستدعاة طراز NS-AF5DSS2"
+            },
+            {
+              "Caption": "قلاية الهواء الرقمية إنسجنيا 5 لتر المستدعاة طراز NS-AF5MSS2"
+            },
+            {
+              "Caption": "قلاية الهواء إنسجنيا 8 لتر ذات سلتين المستدعاة طراز NS-AF8DBD2"
+            },
+            {
+              "Caption": "فرن قلاية الهواء الرقمية إنسجنيا 10 لتر المستدعى طراز NS-AF10DBK2 (أسود)"
+            },
+            {
+              "Caption": "فرن قلاية الهواء الرقمية إنسجنيا 10 لتر المستدعى طراز NS-AF10DSS2 (فولاذ مقاوم للصدأ)"
+            },
+            {
+              "Caption": "ملصق تقييم المنتج في أسفل الوحدة يظهر علامة إنسجنيا ورقم الطراز"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "تلقت الشركة 24 تقريرًا عن ارتفاع درجة الحرارة/الذوبان أو تحطم الزجاج، بما في ذلك ستة تقارير عن اشتعال قلايات الهواء. لم يتم الإبلاغ عن أي إصابات أو أضرار بالممتلكات."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "متاجر بيست باي في جميع أنحاء البلاد"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "بيست باي بurchasing LLC، من ريتشفيلد، مينيسوتا"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "تم البيع في",
+          "ManufacturerCountries": [
+            {
+              "Country": "الصين"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "مخاطر الحريق والحروق"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "توقف عن استخدام الوحدات المستدعاة واتبع التعليمات عبر الإنترنت لتقديم المعلومات المطلوبة والصور لاسترداد الأموال."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "استرداد"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "百思买召回Insignia®空气炸锅和烤箱，因火灾和烧伤风险",
+          "Description": "百思买已对Insignia空气炸锅和Insignia空气炸锅烤箱发出召回，包括型号NS-AF34D2、NS-AF5DSS2、NS-AF5MSS2、NS-AF8DBD2、NS-AF10DBK2和NS-AF10DSS2。每个设备的顶部或前面都显著显示了INSIGNIA品牌名称，底部有一个产品评级标签，指示型号。这些电器有多种尺寸，烹饪腔容量约为3.4到10夸脱，并提供黑色或不锈钢饰面。",
+          "ConsumerContact": "如需帮助，请在周一至周五的中部时间上午7点至下午6点拨打百思买电话800-566-7498，或访问https://www.recallrtr.com/airfryer以启动退款流程。有关更多信息，请访问http://www.bestbuy.com/product/recalls或在百思买网站底部的“订单和购买”下导航到“产品召回”部分。",
+          "metaDescription": "百思买因过热风险可能导致火灾和烧伤而召回Insignia空气炸锅和烤箱。了解如何获得退款。",
+          "Products": [
+            {
+              "Name": "Insignia空气炸锅",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约187,400个（此外，约99,900个在加拿大销售）"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "召回的Insignia 3.4夸脱数字空气炸锅型号NS-AF34D2"
+            },
+            {
+              "Caption": "召回的Insignia 5夸脱数字空气炸锅型号NS-AF5DSS2"
+            },
+            {
+              "Caption": "召回的Insignia 5夸脱数字空气炸锅型号NS-AF5MSS2"
+            },
+            {
+              "Caption": "召回的Insignia 8夸脱空气炸锅双篮型号NS-AF8DBD2"
+            },
+            {
+              "Caption": "召回的Insignia 10夸脱数字空气炸锅烤箱型号NS-AF10DBK2（黑色）"
+            },
+            {
+              "Caption": "召回的Insignia 10夸脱数字空气炸锅烤箱型号NS-AF10DSS2（不锈钢）"
+            },
+            {
+              "Caption": "设备底部的产品评级标签，显示INSIGNIA品牌和型号"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "该公司已收到24份关于过热/融化或玻璃破裂的报告，包括六份关于空气炸锅起火的报告。没有报告受伤或财产损失。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "全国百思买商店"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "位于明尼苏达州里奇菲尔德的百思买采购有限责任公司"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "销售地点",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "火灾和烧伤危险"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "停止使用召回的设备，并按照在线说明提交所需信息和照片以获得退款。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "退款"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "Best Buy rappelle les friteuses à air et les fours Insignia® en raison de risques d'incendie et de brûlures",
+          "Description": "Best Buy a émis un rappel pour les friteuses à air Insignia et les fours à air Insignia, y compris les numéros de modèle NS-AF34D2, NS-AF5DSS2, NS-AF5MSS2, NS-AF8DBD2, NS-AF10DBK2 et NS-AF10DSS2. Chaque unité présente le nom de marque INSIGNIA affiché en évidence sur le dessus ou à l'avant, avec une étiquette de notation de produit située sur le dessous indiquant le numéro de modèle. Ces appareils sont disponibles en différentes tailles, avec des capacités de chambre de cuisson allant d'environ 3,4 à 10 quarts, et sont disponibles en finitions noire ou en acier inoxydable.",
+          "ConsumerContact": "Pour assistance, contactez Best Buy au 800-566-7498 de 7 h à 18 h CT, du lundi au vendredi, ou visitez https://www.recallrtr.com/airfryer pour initier un processus de remboursement. Des informations supplémentaires peuvent être trouvées en visitant http://www.bestbuy.com/product/recalls ou en naviguant vers la section 'Rappels de produits' sous 'Commande et achat' en bas du site Web de Best Buy.",
+          "metaDescription": "Best Buy rappelle les friteuses à air et les fours Insignia en raison de risques de surchauffe pouvant provoquer des incendies et des brûlures. Apprenez comment obtenir un remboursement.",
+          "Products": [
+            {
+              "Name": "Friteuses à air Insignia",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 187 400 (De plus, environ 99 900 ont été vendues au Canada)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Friteuse à air numérique Insignia de 3,4 qt. rappelée modèle NS-AF34D2"
+            },
+            {
+              "Caption": "Friteuse à air numérique Insignia de 5 qt. rappelée modèle NS-AF5DSS2"
+            },
+            {
+              "Caption": "Friteuse à air numérique Insignia de 5 qt. rappelée modèle NS-AF5MSS2"
+            },
+            {
+              "Caption": "Friteuse à air Insignia de 8 qt. à double panier rappelée modèle NS-AF8DBD2"
+            },
+            {
+              "Caption": "Four à friteuse à air numérique Insignia de 10 qt. rappelé modèle NS-AF10DBK2 (noir)"
+            },
+            {
+              "Caption": "Four à friteuse à air numérique Insignia de 10 qt. rappelé modèle NS-AF10DSS2 (acier inoxydable)"
+            },
+            {
+              "Caption": "Étiquette de notation de produit sur le dessous de l'unité montrant la marque INSIGNIA et le numéro de modèle"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "L'entreprise a reçu 24 rapports de surchauffe/fusion ou de verre brisé, y compris six rapports de friteuses à air prenant feu. Aucune blessure ni dommage matériel n'ont été signalés."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Magasins Best Buy à l'échelle nationale"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Best Buy Purchasing LLC, de Richfield, Minnesota"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendu chez",
+          "ManufacturerCountries": [
+            {
+              "Country": "Chine"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risques d'incendie et de brûlures"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Cessez d'utiliser les unités rappelées et suivez les instructions en ligne pour soumettre les informations et photos requises pour un remboursement."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Remboursement"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "Best Buy ruft Insignia® Heißluftfritteusen und Öfen aufgrund von Brand- und Verbrennungsrisiken zurück",
+          "Description": "Best Buy hat einen Rückruf für Insignia Heißluftfritteusen und Insignia Heißluftfritteusen-Öfen herausgegeben, einschließlich der Modellnummern NS-AF34D2, NS-AF5DSS2, NS-AF5MSS2, NS-AF8DBD2, NS-AF10DBK2 und NS-AF10DSS2. Jedes Gerät trägt den Markennamen INSIGNIA deutlich auf der Oberseite oder Vorderseite, mit einem Produktbewertungslabel auf der Unterseite, das die Modellnummer angibt. Diese Geräte sind in verschiedenen Größen erhältlich, mit Kochkammerkapazitäten von etwa 3,4 bis 10 Quart und sind in Schwarz oder Edelstahl-Finish erhältlich.",
+          "ConsumerContact": "Für Unterstützung kontaktieren Sie Best Buy unter 800-566-7498 von 7 bis 18 Uhr CT, Montag bis Freitag, oder besuchen Sie https://www.recallrtr.com/airfryer, um einen Rückerstattungsprozess einzuleiten. Weitere Informationen finden Sie unter http://www.bestbuy.com/product/recalls oder indem Sie zum Abschnitt 'Produkt-Rückrufe' unter 'Bestellung und Kauf' am Ende der Best Buy-Website navigieren.",
+          "metaDescription": "Best Buy ruft Insignia Heißluftfritteusen und Öfen aufgrund von Überhitzungsrisiken zurück, die Brände und Verbrennungen verursachen können. Erfahren Sie, wie Sie eine Rückerstattung erhalten.",
+          "Products": [
+            {
+              "Name": "Insignia Heißluftfritteusen",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 187.400 (Zusätzlich wurden etwa 99.900 in Kanada verkauft)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Rückgerufene Insignia 3,4-qt. Digitale Heißluftfritteuse Modell NS-AF34D2"
+            },
+            {
+              "Caption": "Rückgerufene Insignia 5-qt. Digitale Heißluftfritteuse Modell NS-AF5DSS2"
+            },
+            {
+              "Caption": "Rückgerufene Insignia 5-qt. Digitale Heißluftfritteuse Modell NS-AF5MSS2"
+            },
+            {
+              "Caption": "Rückgerufene Insignia 8-qt. Heißluftfritteuse mit Doppelkorb Modell NS-AF8DBD2"
+            },
+            {
+              "Caption": "Rückgerufene Insignia 10-qt. Digitale Heißluftfritteusen-Öfen Modell NS-AF10DBK2 (schwarz)"
+            },
+            {
+              "Caption": "Rückgerufene Insignia 10-qt. Digitale Heißluftfritteusen-Öfen Modell NS-AF10DSS2 (Edelstahl)"
+            },
+            {
+              "Caption": "Produktbewertungslabel auf der Unterseite des Geräts, das die Marke INSIGNIA und die Modellnummer zeigt"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Das Unternehmen hat 24 Berichte über Überhitzung/Schmelzen oder Glasbruch erhalten, darunter sechs Berichte über Heißluftfritteusen, die Feuer gefangen haben. Es wurden keine Verletzungen oder Sachschäden gemeldet."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Best Buy-Filialen landesweit"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Best Buy Purchasing LLC, Richfield, Minnesota"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Verkauft bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Brand- und Verbrennungsgefahren"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Hören Sie auf, die zurückgerufenen Geräte zu verwenden, und folgen Sie den Online-Anweisungen zur Einreichung der erforderlichen Informationen und Fotos für eine Rückerstattung."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Rückerstattung"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "ベストバイ、火災および火傷のリスクによりInsignia®エアフライヤーとオーブンをリコール",
+          "Description": "ベストバイは、モデル番号NS-AF34D2、NS-AF5DSS2、NS-AF5MSS2、NS-AF8DBD2、NS-AF10DBK2、NS-AF10DSS2を含むInsigniaエアフライヤーおよびInsigniaエアフライヤーオーブンのリコールを発表しました。各ユニットは、上部または前面にINSIGNIAブランド名が目立つように表示されており、モデル番号を示す製品評価ラベルが底面にあります。これらの機器はさまざまなサイズで提供され、調理室の容量は約3.4クォートから10クォートまであり、黒またはステンレススチール仕上げで利用可能です。",
+          "ConsumerContact": "サポートが必要な場合は、月曜日から金曜日の午前7時から午後6時（中央標準時）まで、800-566-7498までベストバイに連絡するか、https://www.recallrtr.com/airfryerを訪れて返金プロセスを開始してください。追加情報は、http://www.bestbuy.com/product/recallsを訪れるか、ベストバイウェブサイトの下部にある「注文と購入」の「製品リコール」セクションに移動することで見つけることができます。",
+          "metaDescription": "ベストバイは、火災や火傷を引き起こす可能性のある過熱リスクによりInsigniaエアフライヤーとオーブンをリコールします。返金を受ける方法を学びましょう。",
+          "Products": [
+            {
+              "Name": "Insigniaエアフライヤー",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約187,400台（さらに約99,900台がカナダで販売されました）"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコールされたInsignia 3.4クォートデジタルエアフライヤーモデルNS-AF34D2"
+            },
+            {
+              "Caption": "リコールされたInsignia 5クォートデジタルエアフライヤーモデルNS-AF5DSS2"
+            },
+            {
+              "Caption": "リコールされたInsignia 5クォートデジタルエアフライヤーモデルNS-AF5MSS2"
+            },
+            {
+              "Caption": "リコールされたInsignia 8クォートエアフライヤーデュアルバスケットモデルNS-AF8DBD2"
+            },
+            {
+              "Caption": "リコールされたInsignia 10クォートデジタルエアフライヤーオーブンモデルNS-AF10DBK2（黒）"
+            },
+            {
+              "Caption": "リコールされたInsignia 10クォートデジタルエアフライヤーオーブンモデルNS-AF10DSS2（ステンレススチール）"
+            },
+            {
+              "Caption": "ユニットの底面にあるINSIGNIAブランドとモデル番号を示す製品評価ラベル"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "同社は、過熱/溶融またはガラスの破損に関する24件の報告を受けており、その中にはエアフライヤーが火災を起こしたという6件の報告が含まれています。負傷や財産の損害は報告されていません。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "全国のベストバイ店舗"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "ミネソタ州リッチフィールドのベストバイパーチェシングLLC"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "販売場所",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "火災および火傷の危険"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "リコールされたユニットの使用を中止し、返金のために必要な情報と写真を提出するためのオンライン指示に従ってください。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "返金"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "Best Buy faz recall de fritadeiras e fornos Insignia® devido a riscos de incêndio e queimaduras",
+          "Description": "A Best Buy emitiu um recall para fritadeiras Insignia e fornos fritadores Insignia, incluindo os números de modelo NS-AF34D2, NS-AF5DSS2, NS-AF5MSS2, NS-AF8DBD2, NS-AF10DBK2 e NS-AF10DSS2. Cada unidade apresenta o nome da marca INSIGNIA exibido de forma proeminente na parte superior ou frontal, com um rótulo de classificação do produto localizado na parte inferior que indica o número do modelo. Esses aparelhos estão disponíveis em vários tamanhos, com capacidades de câmara de cozimento variando de aproximadamente 3,4 a 10 litros, e estão disponíveis em acabamentos preto ou aço inoxidável.",
+          "ConsumerContact": "Para assistência, entre em contato com a Best Buy pelo telefone 800-566-7498 das 7h às 18h CT, de segunda a sexta-feira, ou visite https://www.recallrtr.com/airfryer para iniciar um processo de reembolso. Informações adicionais podem ser encontradas visitando http://www.bestbuy.com/product/recalls ou navegando até a seção 'Recall de Produtos' em 'Pedido e Compra' na parte inferior do site da Best Buy.",
+          "metaDescription": "A Best Buy faz recall de fritadeiras e fornos Insignia devido a riscos de superaquecimento que podem causar incêndios e queimaduras. Aprenda como obter um reembolso.",
+          "Products": [
+            {
+              "Name": "Fritadeiras Insignia",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 187.400 (Além disso, cerca de 99.900 foram vendidas no Canadá)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Fritadeira digital Insignia de 3,4 litros modelo NS-AF34D2"
+            },
+            {
+              "Caption": "Fritadeira digital Insignia de 5 litros modelo NS-AF5DSS2"
+            },
+            {
+              "Caption": "Fritadeira digital Insignia de 5 litros modelo NS-AF5MSS2"
+            },
+            {
+              "Caption": "Fritadeira Insignia de 8 litros com cesta dupla modelo NS-AF8DBD2"
+            },
+            {
+              "Caption": "Forno fritador digital Insignia de 10 litros modelo NS-AF10DBK2 (preto)"
+            },
+            {
+              "Caption": "Forno fritador digital Insignia de 10 litros modelo NS-AF10DSS2 (aço inoxidável)"
+            },
+            {
+              "Caption": "Rótulo de classificação do produto na parte inferior da unidade mostrando a marca INSIGNIA e o número do modelo"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "A empresa recebeu 24 relatos de superaquecimento/fusão ou vidro quebrando, incluindo seis relatos de fritadeiras pegando fogo. Nenhum ferimento ou dano à propriedade foi relatado."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Lojas Best Buy em todo o país"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Best Buy Purchasing LLC, de Richfield, Minnesota"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendidos em",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Riscos de Incêndio e Queimaduras"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Pare de usar as unidades recalladas e siga as instruções online para enviar as informações e fotos necessárias para um reembolso."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reembolso"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "बेस्ट बाय ने इन्सिग्निया® एयर फ्रायर और ओवन को आग और जलने के जोखिम के कारण वापस बुलाया",
+          "Description": "बेस्ट बाय ने इन्सिग्निया एयर फ्रायर और इन्सिग्निया एयर फ्रायर ओवन के लिए एक रिकॉल जारी किया है, जिसमें मॉडल नंबर NS-AF34D2, NS-AF5DSS2, NS-AF5MSS2, NS-AF8DBD2, NS-AF10DBK2, और NS-AF10DSS2 शामिल हैं। प्रत्येक यूनिट पर शीर्ष या सामने इन्सिग्निया ब्रांड नाम प्रमुखता से प्रदर्शित है, और नीचे एक उत्पाद रेटिंग लेबल है जो मॉडल नंबर को दर्शाता है। ये उपकरण विभिन्न आकारों में आते हैं, जिनकी खाना पकाने की क्षमता लगभग 3.4 से 10 क्वार्ट तक होती है, और ये काले या स्टेनलेस स्टील की फिनिश में उपलब्ध हैं।",
+          "ConsumerContact": "सहायता के लिए, बेस्ट बाय से 800-566-7498 पर सुबह 7 बजे से शाम 6 बजे CT, सोमवार से शुक्रवार तक संपर्क करें, या धनवापसी प्रक्रिया शुरू करने के लिए https://www.recallrtr.com/airfryer पर जाएं। अतिरिक्त जानकारी के लिए http://www.bestbuy.com/product/recalls पर जाएं या बेस्ट बाय वेबसाइट के नीचे 'आर्डर और खरीद' के तहत 'उत्पाद रिकॉल' अनुभाग पर जाएं।",
+          "metaDescription": "बेस्ट बाय ने ओवरहीटिंग के जोखिम के कारण इन्सिग्निया एयर फ्रायर और ओवन को वापस बुलाया है जो आग और जलने का कारण बन सकते हैं। जानें कि धनवापसी कैसे प्राप्त करें।",
+          "Products": [
+            {
+              "Name": "इन्सिग्निया एयर फ्रायर",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 187,400 (इसके अतिरिक्त, लगभग 99,900 कनाडा में बेचे गए)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "वापस बुलाया गया इन्सिग्निया 3.4-क्वार्ट डिजिटल एयर फ्रायर मॉडल NS-AF34D2"
+            },
+            {
+              "Caption": "वापस बुलाया गया इन्सिग्निया 5-क्वार्ट डिजिटल एयर फ्रायर मॉडल NS-AF5DSS2"
+            },
+            {
+              "Caption": "वापस बुलाया गया इन्सिग्निया 5-क्वार्ट डिजिटल एयर फ्रायर मॉडल NS-AF5MSS2"
+            },
+            {
+              "Caption": "वापस बुलाया गया इन्सिग्निया 8-क्वार्ट एयर फ्रायर डुअल बास्केट मॉडल NS-AF8DBD2"
+            },
+            {
+              "Caption": "वापस बुलाया गया इन्सिग्निया 10-क्वार्ट डिजिटल एयर फ्रायर ओवन मॉडल NS-AF10DBK2 (काला)"
+            },
+            {
+              "Caption": "वापस बुलाया गया इन्सिग्निया 10-क्वार्ट डिजिटल एयर फ्रायर ओवन मॉडल NS-AF10DSS2 (स्टेनलेस स्टील)"
+            },
+            {
+              "Caption": "यूनिट के नीचे उत्पाद रेटिंग लेबल जो इन्सिग्निया ब्रांड और मॉडल नंबर दिखाता है"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "कंपनी को ओवरहीटिंग/पिघलने या कांच के टूटने के 24 रिपोर्ट मिली हैं, जिनमें छह रिपोर्टें एयर फ्रायर के आग पकड़ने की हैं। कोई चोट या संपत्ति को नुकसान की रिपोर्ट नहीं मिली है।"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "बेस्ट बाय स्टोर्स राष्ट्रीय स्तर पर"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "बेस्ट बाय पर्चेजिंग एलएलसी, रिचफील्ड, मिनेसोटा"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "चीन"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "आग और जलने के खतरे"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "वापस बुलाए गए यूनिट का उपयोग करना बंद करें और धनवापसी के लिए आवश्यक जानकारी और फोटो जमा करने के लिए ऑनलाइन निर्देशों का पालन करें।"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "धनवापसी"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "Best Buy отзывает фритюрницы и духовки Insignia® из-за рисков пожара и ожогов",
+          "Description": "Компания Best Buy объявила об отзыве фритюрниц Insignia и духовок Insignia, включая номера моделей NS-AF34D2, NS-AF5DSS2, NS-AF5MSS2, NS-AF8DBD2, NS-AF10DBK2 и NS-AF10DSS2. Каждое устройство имеет название бренда INSIGNIA, ярко отображенное на верхней или передней части, с этикеткой с номером модели, расположенной на нижней стороне. Эти приборы доступны в различных размерах, с объемами камеры для приготовления пищи от примерно 3.4 до 10 квартов, и предлагаются в черном или нержавеющей стали отделке.",
+          "ConsumerContact": "Для получения помощи свяжитесь с Best Buy по телефону 800-566-7498 с 7:00 до 18:00 по центральному времени, с понедельника по пятницу, или посетите https://www.recallrtr.com/airfryer, чтобы начать процесс возврата. Дополнительную информацию можно найти, посетив http://www.bestbuy.com/product/recalls или перейдя в раздел 'Отзыв продукции' в разделе 'Заказ и покупка' в нижней части сайта Best Buy.",
+          "metaDescription": "Best Buy отзывает фритюрницы и духовки Insignia из-за рисков перегрева, которые могут вызвать пожары и ожоги. Узнайте, как получить возврат.",
+          "Products": [
+            {
+              "Name": "Фритюрницы Insignia",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 187,400 (Кроме того, около 99,900 были проданы в Канаде)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванная цифровая фритюрница Insignia 3.4 кварты модель NS-AF34D2"
+            },
+            {
+              "Caption": "Отозванная цифровая фритюрница Insignia 5 кварты модель NS-AF5DSS2"
+            },
+            {
+              "Caption": "Отозванная цифровая фритюрница Insignia 5 кварты модель NS-AF5MSS2"
+            },
+            {
+              "Caption": "Отозванная фритюрница Insignia 8 кварты с двумя корзинами модель NS-AF8DBD2"
+            },
+            {
+              "Caption": "Отозванная цифровая фритюрница Insignia 10 кварты модель NS-AF10DBK2 (черный)"
+            },
+            {
+              "Caption": "Отозванная цифровая фритюрница Insignia 10 кварты модель NS-AF10DSS2 (нержавеющая сталь)"
+            },
+            {
+              "Caption": "Этикетка с рейтингом продукта на нижней стороне устройства, показывающая бренд INSIGNIA и номер модели"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Компания получила 24 сообщения о перегреве/плавлении или разбивании стекла, включая шесть сообщений о том, что фритюрницы загорелись. О травмах или повреждении имущества не сообщалось."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Магазины Best Buy по всей стране"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Best Buy Purchasing LLC, Ричфилд, Миннесота"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Продается в",
+          "ManufacturerCountries": [
+            {
+              "Country": "Китай"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Риски пожара и ожогов"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Прекратите использовать отозванные устройства и следуйте онлайн-инструкциям для подачи необходимой информации и фотографий для возврата."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Возврат"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "Best Buy thu hồi nồi chiên không dầu và lò nướng Insignia® do nguy cơ cháy và bỏng",
+          "Description": "Best Buy đã phát động một cuộc thu hồi đối với nồi chiên không dầu Insignia và lò nướng nồi chiên không dầu Insignia, bao gồm các số model NS-AF34D2, NS-AF5DSS2, NS-AF5MSS2, NS-AF8DBD2, NS-AF10DBK2 và NS-AF10DSS2. Mỗi thiết bị đều có tên thương hiệu INSIGNIA được hiển thị nổi bật ở trên cùng hoặc mặt trước, với nhãn đánh giá sản phẩm nằm ở phía dưới cho biết số model. Những thiết bị này có nhiều kích cỡ khác nhau, với dung tích buồng nấu dao động từ khoảng 3.4 đến 10 quart, và có sẵn với các hoàn thiện màu đen hoặc thép không gỉ.",
+          "ConsumerContact": "Để được hỗ trợ, hãy liên hệ với Best Buy theo số 800-566-7498 từ 7 giờ sáng đến 6 giờ chiều CT, từ thứ Hai đến thứ Sáu, hoặc truy cập https://www.recallrtr.com/airfryer để bắt đầu quy trình hoàn tiền. Thông tin bổ sung có thể được tìm thấy bằng cách truy cập http://www.bestbuy.com/product/recalls hoặc điều hướng đến phần 'Sản phẩm thu hồi' dưới 'Đặt hàng và Mua sắm' ở cuối trang web Best Buy.",
+          "metaDescription": "Best Buy thu hồi nồi chiên không dầu và lò nướng Insignia do nguy cơ quá nhiệt có thể gây ra cháy và bỏng. Tìm hiểu cách để nhận hoàn tiền.",
+          "Products": [
+            {
+              "Name": "Nồi chiên không dầu Insignia",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 187,400 (Ngoài ra, khoảng 99,900 đã được bán ở Canada)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Nồi chiên không dầu Insignia 3.4-qt. Digital model NS-AF34D2 đã bị thu hồi"
+            },
+            {
+              "Caption": "Nồi chiên không dầu Insignia 5-qt. Digital model NS-AF5DSS2 đã bị thu hồi"
+            },
+            {
+              "Caption": "Nồi chiên không dầu Insignia 5-qt. Digital model NS-AF5MSS2 đã bị thu hồi"
+            },
+            {
+              "Caption": "Nồi chiên không dầu Insignia 8-qt. Air Fryer Dual Basket model NS-AF8DBD2 đã bị thu hồi"
+            },
+            {
+              "Caption": "Lò nướng nồi chiên không dầu Insignia 10-qt. Digital model NS-AF10DBK2 (màu đen) đã bị thu hồi"
+            },
+            {
+              "Caption": "Lò nướng nồi chiên không dầu Insignia 10-qt. Digital model NS-AF10DSS2 (thép không gỉ) đã bị thu hồi"
+            },
+            {
+              "Caption": "Nhãn đánh giá sản phẩm ở phía dưới của thiết bị hiển thị thương hiệu INSIGNIA và số model"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Công ty đã nhận được 24 báo cáo về quá nhiệt/chảy nhựa hoặc vỡ kính, bao gồm sáu báo cáo về nồi chiên không dầu bốc cháy. Không có báo cáo về thương tích hoặc thiệt hại tài sản."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Cửa hàng Best Buy trên toàn quốc"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Best Buy Purchasing LLC, tại Richfield, Minnesota"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Được bán tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Trung Quốc"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Nguy cơ cháy và bỏng"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Ngừng sử dụng các thiết bị đã bị thu hồi và làm theo hướng dẫn trực tuyến để gửi thông tin và hình ảnh cần thiết để nhận hoàn tiền."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Hoàn tiền"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    }
+  ]
+}

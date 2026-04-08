@@ -1,0 +1,1697 @@
+{
+  "meta": {
+    "slug": "tables",
+    "sourceCsvFile": "tables_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:37.084Z",
+    "recallCount": 2,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "tables.json",
+    "seoTranslatedAt": "2026-04-05T05:53:48.044Z",
+    "resumePartial": false,
+    "i18nSource": "generalRecallsTranslated",
+    "i18nSourceFile": "tables.json",
+    "i18nUiLangs": [
+      "en",
+      "es",
+      "ar",
+      "zh",
+      "fr",
+      "de",
+      "ja",
+      "pt",
+      "hi",
+      "ru",
+      "vi"
+    ],
+    "i18nProgressByLang": {
+      "es": 2,
+      "ar": 2,
+      "zh": 2,
+      "fr": 2,
+      "de": 2,
+      "ja": 2,
+      "pt": 2,
+      "hi": 2,
+      "ru": 2,
+      "vi": 2
+    },
+    "i18nInProgress": false,
+    "i18nTranslatedAt": "2026-04-07T22:42:47.091Z",
+    "i18nOpenaiModel": "gpt-4o-mini"
+  },
+  "recalls": [
+    {
+      "RecallID": 10433,
+      "RecallNumber": "26023",
+      "RecallDate": "2025-10-16T00:00:00",
+      "Description": "RH is recalling several models of its Byron furniture, including dining tables and desks made from travertine and marble. The Byron Reeded Stone tables come in three types of stone—Italian Classico Travertine, Brown Emperador Marble, and Spanish Nero Marquina Marble—and are available in lengths ranging from 72 to 120 inches. The Byron Emperador tables feature a gold Emperador marble top with various wood leg finishes and lengths from 72 to 108 inches. Each item has a specific SKU number located on the underside of the furniture or on the order receipt.\n\nThe recall is due to a potential collapse risk when a gap develops between the leg and tabletop under horizontal pressure, which could lead to injury. Consumers are urged to stop using these products immediately and reach out to RH for a full refund and free pickup of the recalled items.",
+      "URL": "https://www.cpsc.gov/Recalls/2026/RH-Recalls-Byron-Tables-and-Desks-Due-to-Risk-of-Injury",
+      "Title": "RH Issues Recall for Byron Tables and Desks Due to Injury Risk",
+      "ConsumerContact": "For assistance, contact RH at 833-359-5394 from 6 a.m. to 7 p.m. PT Monday through Friday, and 8 a.m. to 5 p.m. on weekends. You can also email recall@rh.com or visit https://rh.com/us/en/customer-experience/safety-recalls for more information.",
+      "LastPublishDate": "2025-10-17T00:00:00",
+      "Products": [
+        {
+          "Name": "Byron Emperador Dining Tables",
+          "NumberOfUnits": "About 750 (In addition, about 10 were sold in Canada)"
+        }
+      ],
+      "Inconjunctions": [
+        {
+          "URL": "https://recalls-rappels.canada.ca/en/alert-recall/rh-s-byron-dining-tables-and-desks-recalled-due-potential-risk-injury"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/tables/1-Byron-Emperador-Dining-Tables/42731af79de4d2c53b7ada768d5c4eec.webp",
+          "Caption": "Recalled RH Byron Reeded Stone Dining Table in Italian Classico Travertine",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/rh-1.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/tables/1-Byron-Emperador-Dining-Tables/1d6b86ab17a0a023896d6f1b92531ea1.webp",
+          "Caption": "Recalled RH Byron Reeded Stone Desk in Brown Emperador Marble",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/rh-2.png"
+        },
+        {
+          "URL": "/images/generalRecalls/tables/1-Byron-Emperador-Dining-Tables/78786668e39afc1222f248427d035ce9.webp",
+          "Caption": "Recalled RH Byron Emperador Dining Table in Natural Oak/Gold Emperador Marble",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/rh-3.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "RH has received one report of a dining table collapsing, resulting in lacerations."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available at RH galleries, outlets, and online at RH.com from November 2023 through July 2025, priced between $1,700 and $12,000."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "RH US, LLC, of Corte Madera, California"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "Vietnam"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of collapse due to gap between leg and tabletop"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Full refund and free pickup of recalled items"
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "10138977BLMB",
+        "10138977EMPR",
+        "10138977NATT",
+        "10138969BLMB",
+        "10138969EMPR",
+        "10138969NATT",
+        "10138970BLMB",
+        "10138970EMPR",
+        "10138970NATT",
+        "10215310EMPR",
+        "10138968BLMB",
+        "10138968EMPR",
+        "10138968NATT",
+        "10138978BLMB",
+        "10138978EMPR",
+        "10138978NATT",
+        "10155834BLMB",
+        "10155834EMPR",
+        "10155834NATT",
+        "10155831BLMB",
+        "10155831EMPR",
+        "10155831NATT",
+        "10201126GREM",
+        "10201126NTEM",
+        "10201128GREM",
+        "10201128WTEM",
+        "10201129GREM",
+        "10201129LTEM",
+        "10201130BLEM",
+        "10201130GREM",
+        "10201130NTEM"
+      ],
+      "slug": "rh-issues-recall-for-byron-tables-and-desks-due-to-injury-risk-recall",
+      "metaDescription": "RH recalls Byron tables and desks due to injury risk. Stop using and contact RH for a full refund and pickup.",
+      "languages": {
+        "en": {
+          "Title": "RH Issues Recall for Byron Tables and Desks Due to Injury Risk",
+          "Description": "RH is recalling several models of its Byron furniture, including dining tables and desks made from travertine and marble. The Byron Reeded Stone tables come in three types of stone—Italian Classico Travertine, Brown Emperador Marble, and Spanish Nero Marquina Marble—and are available in lengths ranging from 72 to 120 inches. The Byron Emperador tables feature a gold Emperador marble top with various wood leg finishes and lengths from 72 to 108 inches. Each item has a specific SKU number located on the underside of the furniture or on the order receipt.\n\nThe recall is due to a potential collapse risk when a gap develops between the leg and tabletop under horizontal pressure, which could lead to injury. Consumers are urged to stop using these products immediately and reach out to RH for a full refund and free pickup of the recalled items.",
+          "ConsumerContact": "For assistance, contact RH at 833-359-5394 from 6 a.m. to 7 p.m. PT Monday through Friday, and 8 a.m. to 5 p.m. on weekends. You can also email recall@rh.com or visit https://rh.com/us/en/customer-experience/safety-recalls for more information.",
+          "metaDescription": "RH recalls Byron tables and desks due to injury risk. Stop using and contact RH for a full refund and pickup.",
+          "Products": [
+            {
+              "Name": "Byron Emperador Dining Tables",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 750 (In addition, about 10 were sold in Canada)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled RH Byron Reeded Stone Dining Table in Italian Classico Travertine"
+            },
+            {
+              "Caption": "Recalled RH Byron Reeded Stone Desk in Brown Emperador Marble"
+            },
+            {
+              "Caption": "Recalled RH Byron Emperador Dining Table in Natural Oak/Gold Emperador Marble"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "RH has received one report of a dining table collapsing, resulting in lacerations."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Available at RH galleries, outlets, and online at RH.com from November 2023 through July 2025, priced between $1,700 and $12,000."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "RH US, LLC, of Corte Madera, California"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Sold At",
+          "ManufacturerCountries": [
+            {
+              "Country": "Vietnam"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risk of collapse due to gap between leg and tabletop"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Full refund and free pickup of recalled items"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Refund"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "RH Issues Recall for Byron Tables and Desks Due to Injury Risk",
+          "Description": "RH está retirando del mercado varios modelos de su mobiliario Byron, incluyendo mesas de comedor y escritorios hechos de travertino y mármol. Las mesas Byron Reeded Stone vienen en tres tipos de piedra: Travertino Clásico Italiano, Mármol Emperador Marrón y Mármol Nero Marquina Español, y están disponibles en longitudes que varían de 72 a 120 pulgadas. Las mesas Byron Emperador cuentan con una parte superior de mármol Emperador dorado con varios acabados de patas de madera y longitudes de 72 a 108 pulgadas. Cada artículo tiene un número SKU específico ubicado en la parte inferior del mueble o en el recibo del pedido.\n\nLa retirada se debe a un posible riesgo de colapso cuando se desarrolla un espacio entre la pata y la superficie de la mesa bajo presión horizontal, lo que podría provocar lesiones. Se insta a los consumidores a dejar de usar estos productos de inmediato y comunicarse con RH para obtener un reembolso completo y la recolección gratuita de los artículos retirados.",
+          "ConsumerContact": "Para asistencia, comuníquese con RH al 833-359-5394 de 6 a.m. a 7 p.m. PT de lunes a viernes, y de 8 a.m. a 5 p.m. los fines de semana. También puede enviar un correo electrónico a recall@rh.com o visitar https://rh.com/us/en/customer-experience/safety-recalls para más información.",
+          "metaDescription": "RH retira mesas y escritorios Byron debido a riesgo de lesiones. Deje de usar y comuníquese con RH para un reembolso completo y recolección.",
+          "Products": [
+            {
+              "Name": "Mesas de Comedor Byron Emperador",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 750 (Además, se vendieron aproximadamente 10 en Canadá)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Mesa de Comedor RH Byron Reeded Stone retirada en Travertino Clásico Italiano"
+            },
+            {
+              "Caption": "Escritorio RH Byron Reeded Stone retirado en Mármol Emperador Marrón"
+            },
+            {
+              "Caption": "Mesa de Comedor RH Byron Emperador retirada en Roble Natural/Mármol Emperador Dorado"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "RH ha recibido un informe de una mesa de comedor que colapsó, resultando en laceraciones."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible en galerías RH, outlets y en línea en RH.com desde noviembre de 2023 hasta julio de 2025, con precios entre $1,700 y $12,000."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "RH US, LLC, de Corte Madera, California"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendido En",
+          "ManufacturerCountries": [
+            {
+              "Country": "Vietnam"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Riesgo de colapso debido a espacio entre la pata y la superficie de la mesa"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Reembolso completo y recolección gratuita de los artículos retirados"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reembolso"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "RH تستدعي طاولات ومكاتب بايرون بسبب خطر الإصابة",
+          "Description": "تقوم RH باستدعاء عدة نماذج من أثاث بايرون الخاص بها، بما في ذلك طاولات الطعام والمكاتب المصنوعة من الترافرتين والرخام. تأتي طاولات بايرون المصنوعة من الحجر المنقوش بثلاثة أنواع من الحجر - ترافرتين إيطالي كلاسيكو، رخام إمبراطوري بني، ورخام نيرو ماركينا الإسباني - ومتاحة بأطوال تتراوح من 72 إلى 120 بوصة. تتميز طاولات بايرون إمبراطوري بسطح من رخام إمبراطوري ذهبي مع تشطيبات أرجل خشبية متنوعة وأطوال تتراوح من 72 إلى 108 بوصة. يحتوي كل عنصر على رقم SKU محدد يقع في الجزء السفلي من الأثاث أو على إيصال الطلب.\n\nيعود سبب الاستدعاء إلى خطر الانهيار المحتمل عندما يتطور فجوة بين الساق وسطح الطاولة تحت ضغط أفقي، مما قد يؤدي إلى الإصابة. يُحث المستهلكون على التوقف عن استخدام هذه المنتجات على الفور والتواصل مع RH للحصول على استرداد كامل واستلام مجاني للعناصر المستدعاة.",
+          "ConsumerContact": "للمساعدة، اتصل بـ RH على الرقم 833-359-5394 من الساعة 6 صباحًا حتى 7 مساءً بتوقيت المحيط الهادئ من الاثنين إلى الجمعة، ومن الساعة 8 صباحًا حتى 5 مساءً في عطلات نهاية الأسبوع. يمكنك أيضًا إرسال بريد إلكتروني إلى recall@rh.com أو زيارة https://rh.com/us/en/customer-experience/safety-recalls لمزيد من المعلومات.",
+          "metaDescription": "RH تستدعي طاولات ومكاتب بايرون بسبب خطر الإصابة. توقف عن الاستخدام وتواصل مع RH للحصول على استرداد كامل واستلام.",
+          "Products": [
+            {
+              "Name": "طاولات الطعام بايرون إمبراطوري",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 750 (بالإضافة إلى أنه تم بيع حوالي 10 في كندا)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "طاولة طعام RH بايرون المنقوشة المستدعاة من ترافرتين إيطالي كلاسيكو"
+            },
+            {
+              "Caption": "مكتب RH بايرون المنقوش المستدعى من رخام إمبراطوري بني"
+            },
+            {
+              "Caption": "طاولة طعام RH بايرون إمبراطوري المستدعاة من بلوط طبيعي/رخام إمبراطوري ذهبي"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "تلقت RH تقريرًا واحدًا عن انهيار طاولة طعام، مما أدى إلى جروح."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "متاحة في معارض RH، ومنافذ البيع، وعبر الإنترنت على RH.com من نوفمبر 2023 حتى يوليو 2025، بأسعار تتراوح بين 1,700 دولار و12,000 دولار."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "RH US, LLC، من كورت مadera، كاليفورنيا"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "تم البيع في",
+          "ManufacturerCountries": [
+            {
+              "Country": "فيتنام"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "خطر الانهيار بسبب الفجوة بين الساق وسطح الطاولة"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "استرداد كامل واستلام مجاني للعناصر المستدعاة"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "استرداد"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "RH 因受伤风险召回 Byron 餐桌和书桌",
+          "Description": "RH 正在召回其 Byron 家具的多个型号，包括由石灰华和大理石制成的餐桌和书桌。Byron Reeded Stone 餐桌有三种石材类型——意大利 Classico 石灰华、棕色 Emperador 大理石和西班牙 Nero Marquina 大理石——可提供长度范围从 72 到 120 英寸。Byron Emperador 餐桌配有金色 Emperador 大理石桌面，木腿饰面多样，长度从 72 到 108 英寸。每件商品在家具底部或订单收据上都有特定的 SKU 编号。\n\n此次召回是由于在水平压力下，腿与桌面之间出现间隙时可能导致坍塌风险，这可能会导致受伤。消费者被敦促立即停止使用这些产品，并联系 RH 以获得全额退款和免费取回召回商品。",
+          "ConsumerContact": "如需帮助，请在周一至周五的太平洋时间早上 6 点至晚上 7 点，周末的早上 8 点至下午 5 点拨打 RH 电话 833-359-5394。您也可以发送电子邮件至 recall@rh.com，或访问 https://rh.com/us/en/customer-experience/safety-recalls 获取更多信息。",
+          "metaDescription": "RH 因受伤风险召回 Byron 餐桌和书桌。停止使用并联系 RH 以获得全额退款和取回。",
+          "Products": [
+            {
+              "Name": "Byron Emperador 餐桌",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约 750（此外，约有 10 件在加拿大出售）"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "召回的 RH Byron Reeded Stone 餐桌，意大利 Classico 石灰华"
+            },
+            {
+              "Caption": "召回的 RH Byron Reeded Stone 书桌，棕色 Emperador 大理石"
+            },
+            {
+              "Caption": "召回的 RH Byron Emperador 餐桌，自然橡木/金色 Emperador 大理石"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "RH 收到一份餐桌坍塌的报告，导致割伤。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "在 RH 画廊、折扣店和 RH.com 在线销售，时间为 2023 年 11 月至 2025 年 7 月，价格在 $1,700 到 $12,000 之间。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "RH US, LLC，位于加利福尼亚州 Corte Madera"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "销售地点",
+          "ManufacturerCountries": [
+            {
+              "Country": "越南"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "由于腿与桌面之间的间隙而导致的坍塌风险"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "全额退款和免费取回召回商品"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "退款"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "RH rappelle des tables et bureaux Byron en raison d'un risque de blessure",
+          "Description": "RH rappelle plusieurs modèles de son mobilier Byron, y compris des tables à manger et des bureaux en travertin et en marbre. Les tables Byron en pierre striée sont disponibles en trois types de pierre : travertin Classico italien, marbre Emperador brun et marbre Nero Marquina espagnol, et sont disponibles en longueurs allant de 72 à 120 pouces. Les tables Byron Emperador présentent un plateau en marbre Emperador doré avec divers finitions de pieds en bois et des longueurs de 72 à 108 pouces. Chaque article a un numéro SKU spécifique situé sous le meuble ou sur le reçu de commande.\n\nLe rappel est dû à un risque potentiel d'effondrement lorsqu'un espace se développe entre la jambe et le plateau sous pression horizontale, ce qui pourrait entraîner des blessures. Les consommateurs sont invités à cesser immédiatement d'utiliser ces produits et à contacter RH pour un remboursement complet et un ramassage gratuit des articles rappelés.",
+          "ConsumerContact": "Pour assistance, contactez RH au 833-359-5394 de 6 h à 19 h PT du lundi au vendredi, et de 8 h à 17 h le week-end. Vous pouvez également envoyer un e-mail à recall@rh.com ou visiter https://rh.com/us/en/customer-experience/safety-recalls pour plus d'informations.",
+          "metaDescription": "RH rappelle des tables et bureaux Byron en raison d'un risque de blessure. Cessez d'utiliser et contactez RH pour un remboursement complet et un ramassage.",
+          "Products": [
+            {
+              "Name": "Tables à manger Byron Emperador",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 750 (De plus, environ 10 ont été vendues au Canada)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Table à manger RH Byron en pierre striée en travertin Classico italien rappelée"
+            },
+            {
+              "Caption": "Bureau RH Byron en pierre striée en marbre Emperador brun rappelé"
+            },
+            {
+              "Caption": "Table à manger RH Byron Emperador en chêne naturel/marbre Emperador doré rappelée"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "RH a reçu un rapport d'une table à manger s'effondrant, entraînant des lacérations."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible dans les galeries RH, les outlets et en ligne sur RH.com de novembre 2023 à juillet 2025, au prix compris entre 1 700 $ et 12 000 $."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "RH US, LLC, de Corte Madera, Californie"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendu À",
+          "ManufacturerCountries": [
+            {
+              "Country": "Vietnam"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risque d'effondrement en raison d'un espace entre la jambe et le plateau"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Remboursement complet et ramassage gratuit des articles rappelés"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Remboursement"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "RH ruft Byron-Tische und -Schreibtische wegen Verletzungsgefahr zurück",
+          "Description": "RH ruft mehrere Modelle seiner Byron-Möbel zurück, darunter Esstische und Schreibtische aus Travertin und Marmor. Die Byron Reeded Stone-Tische sind in drei Steinarten erhältlich – italienischem Classico Travertin, braunem Emperador-Marmor und spanischem Nero Marquina-Marmor – und haben Längen von 72 bis 120 Zoll. Die Byron Emperador-Tische verfügen über eine goldene Emperador-Marmorplatte mit verschiedenen Holzbeinen und Längen von 72 bis 108 Zoll. Jedes Produkt hat eine spezifische SKU-Nummer, die sich auf der Unterseite des Möbelstücks oder auf dem Bestellbeleg befindet.\n\nDer Rückruf erfolgt aufgrund eines potenziellen Kollapsrisikos, wenn sich ein Spalt zwischen dem Bein und der Tischplatte unter horizontalem Druck entwickelt, was zu Verletzungen führen könnte. Verbraucher werden aufgefordert, die Nutzung dieser Produkte sofort einzustellen und sich an RH zu wenden, um eine vollständige Rückerstattung und eine kostenlose Abholung der zurückgerufenen Artikel zu erhalten.",
+          "ConsumerContact": "Für Unterstützung kontaktieren Sie RH unter 833-359-5394 von 6 bis 19 Uhr PT von Montag bis Freitag und von 8 bis 17 Uhr an Wochenenden. Sie können auch eine E-Mail an recall@rh.com senden oder die Website https://rh.com/us/en/customer-experience/safety-recalls besuchen, um weitere Informationen zu erhalten.",
+          "metaDescription": "RH ruft Byron-Tische und -Schreibtische wegen Verletzungsgefahr zurück. Nutzung einstellen und RH für eine vollständige Rückerstattung und Abholung kontaktieren.",
+          "Products": [
+            {
+              "Name": "Byron Emperador Esstische",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 750 (Zusätzlich wurden etwa 10 in Kanada verkauft)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Zurückgerufener RH Byron Reeded Stone Esstisch aus italienischem Classico Travertin"
+            },
+            {
+              "Caption": "Zurückgerufener RH Byron Reeded Stone Schreibtisch aus braunem Emperador-Marmor"
+            },
+            {
+              "Caption": "Zurückgerufener RH Byron Emperador Esstisch aus Natur-Eiche/goldenem Emperador-Marmor"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "RH hat einen Bericht über einen zusammenbrechenden Esstisch erhalten, was zu Schnittverletzungen führte."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Erhältlich in RH-Galerien, Outlets und online unter RH.com von November 2023 bis Juli 2025, zu Preisen zwischen 1.700 und 12.000 US-Dollar."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "RH US, LLC, aus Corte Madera, Kalifornien"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Verkauft bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "Vietnam"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Kollapsrisiko aufgrund eines Spalts zwischen Bein und Tischplatte"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Vollständige Rückerstattung und kostenlose Abholung der zurückgerufenen Artikel"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Rückerstattung"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "RHがバイロンテーブルとデスクのリコールを発表 - 負傷リスクのため",
+          "Description": "RHは、トラバーチンと大理石で作られたダイニングテーブルとデスクを含む、いくつかのバイロン家具モデルをリコールしています。バイロンリーデッドストーンテーブルは、イタリアン・クラシコ・トラバーチン、ブラウン・エンペラドール・マーブル、スペイン・ネロ・マルキーナ・マーブルの3種類の石で提供され、長さは72インチから120インチまであります。バイロンエンペラドールテーブルは、さまざまな木製脚仕上げと長さ72インチから108インチの金色のエンペラドール大理石天板を特徴としています。各アイテムには、家具の裏側または注文領収書に特定のSKU番号があります。\n\nリコールは、脚と天板の間に隙間ができ、水平圧力の下で崩壊のリスクが生じるために行われており、これが負傷につながる可能性があります。消費者は、これらの製品の使用を直ちに中止し、RHに連絡して全額返金とリコールされたアイテムの無料引き取りを受けるように促されています。",
+          "ConsumerContact": "サポートが必要な場合は、月曜日から金曜日の午前6時から午後7時（PT）、週末の午前8時から午後5時までRHに833-359-5394でお問い合わせください。また、recall@rh.comにメールを送信するか、https://rh.com/us/en/customer-experience/safety-recallsを訪れて詳細情報をご覧ください。",
+          "metaDescription": "RHは負傷リスクのためバイロンテーブルとデスクをリコールしています。使用を中止し、RHに連絡して全額返金と引き取りを受けてください。",
+          "Products": [
+            {
+              "Name": "バイロンエンペラドールダイニングテーブル",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約750台（さらに、約10台がカナダで販売されました）"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコールされたRHバイロンリーデッドストーンダイニングテーブル（イタリアン・クラシコ・トラバーチン）"
+            },
+            {
+              "Caption": "リコールされたRHバイロンリーデッドストーンデスク（ブラウン・エンペラドール・マーブル）"
+            },
+            {
+              "Caption": "リコールされたRHバイロンエンペラドールダイニングテーブル（ナチュラルオーク/ゴールド・エンペラドール・マーブル）"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "RHは、ダイニングテーブルが崩壊し、切り傷を引き起こしたとの報告を1件受けています。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "2023年11月から2025年7月まで、RHギャラリー、アウトレット、およびRH.comで販売され、価格は1,700ドルから12,000ドルの範囲です。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "RH US, LLC（カリフォルニア州コルテマデラ）"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "販売場所",
+          "ManufacturerCountries": [
+            {
+              "Country": "ベトナム"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "脚と天板の間の隙間による崩壊のリスク"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "リコールされたアイテムの全額返金と無料引き取り"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "返金"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "RH Issues Recall for Byron Tables and Desks Due to Injury Risk",
+          "Description": "RH está recalling vários modelos de seus móveis Byron, incluindo mesas de jantar e mesas de escritório feitas de travertino e mármore. As mesas Byron Reeded Stone vêm em três tipos de pedra—Travertino Italiano Classico, Mármore Emperador Marrom e Mármore Nero Marquina Espanhol—e estão disponíveis em comprimentos que variam de 72 a 120 polegadas. As mesas Byron Emperador apresentam um tampo de mármore Emperador dourado com vários acabamentos de pernas de madeira e comprimentos de 72 a 108 polegadas. Cada item possui um número SKU específico localizado na parte inferior do móvel ou no recibo do pedido.\n\nO recall é devido a um risco potencial de colapso quando uma lacuna se desenvolve entre a perna e a superfície da mesa sob pressão horizontal, o que pode levar a ferimentos. Os consumidores são aconselhados a parar de usar esses produtos imediatamente e entrar em contato com a RH para um reembolso total e retirada gratuita dos itens recallados.",
+          "ConsumerContact": "Para assistência, entre em contato com a RH pelo telefone 833-359-5394 das 6h às 19h PT de segunda a sexta-feira, e das 8h às 17h nos fins de semana. Você também pode enviar um e-mail para recall@rh.com ou visitar https://rh.com/us/en/customer-experience/safety-recalls para mais informações.",
+          "metaDescription": "RH recall mesas e mesas de escritório Byron devido ao risco de ferimentos. Pare de usar e entre em contato com a RH para um reembolso total e retirada.",
+          "Products": [
+            {
+              "Name": "Mesas de Jantar Byron Emperador",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 750 (Além disso, cerca de 10 foram vendidos no Canadá)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Mesa de Jantar RH Byron Reeded Stone recallada em Travertino Italiano Classico"
+            },
+            {
+              "Caption": "Mesa de Escritório RH Byron Reeded Stone recallada em Mármore Emperador Marrom"
+            },
+            {
+              "Caption": "Mesa de Jantar RH Byron Emperador recallada em Carvalho Natural/Mármore Emperador Dourado"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "A RH recebeu um relato de uma mesa de jantar colapsando, resultando em lacerações."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponível nas galerias RH, outlets e online em RH.com de novembro de 2023 a julho de 2025, com preços entre $1,700 e $12,000."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "RH US, LLC, de Corte Madera, Califórnia"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendido Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "Vietnã"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risco de colapso devido à lacuna entre a perna e a superfície da mesa"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Reembolso total e retirada gratuita dos itens recallados"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reembolso"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "RH ने चोट के जोखिम के कारण बायरन टेबल और डेस्क की रिकॉल की",
+          "Description": "RH अपने बायरन फर्नीचर के कई मॉडलों को रिकॉल कर रहा है, जिसमें ट्रैवर्टाइन और संगमरमर से बने डाइनिंग टेबल और डेस्क शामिल हैं। बायरन रीडेड स्टोन टेबल तीन प्रकार के पत्थर में आते हैं—इतालवी क्लासिको ट्रैवर्टाइन, ब्राउन एंपेराडोर संगमरमर, और स्पेनिश नेरो मारक्विना संगमरमर—और ये 72 से 120 इंच की लंबाई में उपलब्ध हैं। बायरन एंपेराडोर टेबल में विभिन्न लकड़ी के पैर की फिनिश और 72 से 108 इंच की लंबाई के साथ एक सोने के एंपेराडोर संगमरमर का टॉप होता है। प्रत्येक आइटम का एक विशिष्ट SKU नंबर होता है जो फर्नीचर के नीचे या ऑर्डर रसीद पर स्थित होता है।\n\nयह रिकॉल संभावित गिरने के जोखिम के कारण है जब पैर और टेबलटॉप के बीच एक गैप विकसित होता है, जो क्षति का कारण बन सकता है। उपभोक्ताओं से आग्रह किया जाता है कि वे तुरंत इन उत्पादों का उपयोग करना बंद करें और पूर्ण रिफंड और रिकॉल किए गए आइटम की मुफ्त पिकअप के लिए RH से संपर्क करें।",
+          "ConsumerContact": "सहायता के लिए, RH से 833-359-5394 पर सुबह 6 बजे से शाम 7 बजे PT सोमवार से शुक्रवार, और सप्ताहांत पर सुबह 8 बजे से शाम 5 बजे संपर्क करें। आप recall@rh.com पर भी ईमेल कर सकते हैं या अधिक जानकारी के लिए https://rh.com/us/en/customer-experience/safety-recalls पर जा सकते हैं।",
+          "metaDescription": "RH चोट के जोखिम के कारण बायरन टेबल और डेस्क की रिकॉल करता है। उपयोग करना बंद करें और पूर्ण रिफंड और पिकअप के लिए RH से संपर्क करें।",
+          "Products": [
+            {
+              "Name": "बायरन एंपेराडोर डाइनिंग टेबल",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 750 (इसके अतिरिक्त, लगभग 10 कनाडा में बेचे गए)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "रिकॉल किया गया RH बायरन रीडेड स्टोन डाइनिंग टेबल इटालियन क्लासिको ट्रैवर्टाइन में"
+            },
+            {
+              "Caption": "रिकॉल किया गया RH बायरन रीडेड स्टोन डेस्क ब्राउन एंपेराडोर संगमरमर में"
+            },
+            {
+              "Caption": "रिकॉल किया गया RH बायरन एंपेराडोर डाइनिंग टेबल नेचुरल ओक/गोल्ड एंपेराडोर संगमरमर में"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "RH को एक डाइनिंग टेबल के गिरने की रिपोर्ट मिली है, जिसके परिणामस्वरूप कट लग गए।"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "RH गैलरियों, आउटलेट्स, और RH.com पर नवंबर 2023 से जुलाई 2025 तक उपलब्ध, कीमत $1,700 से $12,000 के बीच।"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "RH US, LLC, कोर्टे मडेरा, कैलिफोर्निया"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "वियतनाम"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "पैर और टेबलटॉप के बीच गैप के कारण गिरने का जोखिम"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "रिकॉल किए गए आइटम का पूर्ण रिफंड और मुफ्त पिकअप"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "रिफंड"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "RH отзывает столы и письменные столы Byron из-за риска травм",
+          "Description": "RH отзывает несколько моделей своей мебели Byron, включая обеденные столы и письменные столы, изготовленные из травертина и мрамора. Столы Byron Reeded Stone представлены в трех типах камня — итальянский классический травертин, коричневый мрамор Emperador и испанский мрамор Nero Marquina — и доступны в длинах от 72 до 120 дюймов. Столы Byron Emperador имеют золотую столешницу из мрамора Emperador с различными отделками ножек из дерева и длиной от 72 до 108 дюймов. У каждого изделия есть уникальный номер SKU, расположенный на нижней стороне мебели или на квитанции о заказе.\n\nОтзыв вызван потенциальным риском обрушения, когда между ножкой и столешницей образуется зазор под горизонтальным давлением, что может привести к травме. Потребителей настоятельно просят немедленно прекратить использование этих продуктов и обратиться в RH для получения полного возмещения и бесплатного забирания отозванных товаров.",
+          "ConsumerContact": "Для получения помощи свяжитесь с RH по телефону 833-359-5394 с 6:00 до 19:00 по тихоокеанскому времени с понедельника по пятницу и с 8:00 до 17:00 по выходным. Вы также можете написать на электронную почту recall@rh.com или посетить https://rh.com/us/en/customer-experience/safety-recalls для получения дополнительной информации.",
+          "metaDescription": "RH отзывает столы и письменные столы Byron из-за риска травм. Прекратите использование и свяжитесь с RH для получения полного возмещения и забирания.",
+          "Products": [
+            {
+              "Name": "Обеденные столы Byron Emperador",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 750 (Кроме того, около 10 были проданы в Канаде)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванный обеденный стол RH Byron Reeded Stone из итальянского классического травертина"
+            },
+            {
+              "Caption": "Отозванный письменный стол RH Byron Reeded Stone из коричневого мрамора Emperador"
+            },
+            {
+              "Caption": "Отозванный обеденный стол RH Byron Emperador из натурального дуба/золотого мрамора Emperador"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "RH получила один отчет о обрушении обеденного стола, в результате чего возникли порезы."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Доступно в галереях RH, аутлетах и онлайн на RH.com с ноября 2023 года по июль 2025 года, по цене от 1,700 до 12,000 долларов."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "RH US, LLC, из Корт Мадера, Калифорния"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Продается в",
+          "ManufacturerCountries": [
+            {
+              "Country": "Вьетнам"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Риск обрушения из-за зазора между ножкой и столешницей"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Полное возмещение и бесплатное забирание отозванных товаров"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Возмещение"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "RH thu hồi bàn và bàn làm việc Byron do nguy cơ chấn thương",
+          "Description": "RH đang thu hồi một số mẫu nội thất Byron của mình, bao gồm bàn ăn và bàn làm việc được làm từ travertine và đá cẩm thạch. Các bàn Byron Reeded Stone có ba loại đá—Travertine Classico Ý, Đá cẩm thạch Brown Emperador, và Đá cẩm thạch Nero Marquina Tây Ban Nha—và có chiều dài từ 72 đến 120 inch. Các bàn Byron Emperador có mặt bàn bằng đá cẩm thạch Emperador vàng với nhiều kiểu chân gỗ và chiều dài từ 72 đến 108 inch. Mỗi sản phẩm có một số SKU cụ thể nằm ở mặt dưới của đồ nội thất hoặc trên biên lai đặt hàng.\n\nViệc thu hồi này là do nguy cơ sập đổ tiềm ẩn khi có khoảng trống phát triển giữa chân và mặt bàn dưới áp lực ngang, điều này có thể dẫn đến chấn thương. Người tiêu dùng được khuyến cáo ngừng sử dụng những sản phẩm này ngay lập tức và liên hệ với RH để được hoàn tiền đầy đủ và miễn phí thu hồi các mặt hàng bị thu hồi.",
+          "ConsumerContact": "Để được hỗ trợ, hãy liên hệ với RH theo số 833-359-5394 từ 6 giờ sáng đến 7 giờ tối PT từ thứ Hai đến thứ Sáu, và từ 8 giờ sáng đến 5 giờ chiều vào cuối tuần. Bạn cũng có thể gửi email đến recall@rh.com hoặc truy cập https://rh.com/us/en/customer-experience/safety-recalls để biết thêm thông tin.",
+          "metaDescription": "RH thu hồi bàn và bàn làm việc Byron do nguy cơ chấn thương. Ngừng sử dụng và liên hệ với RH để được hoàn tiền đầy đủ và thu hồi.",
+          "Products": [
+            {
+              "Name": "Bàn ăn Byron Emperador",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 750 (Ngoài ra, khoảng 10 chiếc đã được bán tại Canada)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Bàn ăn RH Byron Reeded Stone bị thu hồi bằng Travertine Classico Ý"
+            },
+            {
+              "Caption": "Bàn làm việc RH Byron Reeded Stone bị thu hồi bằng Đá cẩm thạch Brown Emperador"
+            },
+            {
+              "Caption": "Bàn ăn RH Byron Emperador bị thu hồi bằng Gỗ sồi tự nhiên/Đá cẩm thạch Emperador vàng"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "RH đã nhận được một báo cáo về việc một bàn ăn bị sập, dẫn đến vết thương cắt."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Có sẵn tại các phòng trưng bày RH, cửa hàng giảm giá, và trực tuyến tại RH.com từ tháng 11 năm 2023 đến tháng 7 năm 2025, với giá từ 1.700 đến 12.000 đô la."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "RH US, LLC, tại Corte Madera, California"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Bán Tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Việt Nam"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Nguy cơ sập đổ do khoảng trống giữa chân và mặt bàn"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Hoàn tiền đầy đủ và miễn phí thu hồi các mặt hàng bị thu hồi"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Hoàn tiền"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    },
+    {
+      "RecallID": 9809,
+      "RecallNumber": "24068",
+      "RecallDate": "2023-12-21T00:00:00",
+      "Description": "TJX has announced a recall of foldable wood and rope bistro set chairs that were sold in three- or five-piece sets. These sets, which may feature the Nautica or House & Garden branding, include a small wooden table and two to four foldable chairs. The chairs are constructed with wood frames and feature rope on the seat and back, available in various colors including gray, turquoise, brown, sand, black, aqua, pink, green, taupe, and white, supported by a gold bar at the back legs. Some chairs were also sold individually in stores and online as part of handcrafted sets from Vietnam or as HD Furniture Group indoor-outdoor bistro sets.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/TJX-Recalls-Foldable-Wood-and-Rope-Bistro-Set-Chairs-Due-to-Fall-Hazard",
+      "Title": "TJX Issues Recall for Foldable Wood and Rope Bistro Set Chairs Due to Fall Risk",
+      "ConsumerContact": "For more details, consumers can reach TJX at 888-520-0157 from 7 a.m. to 6 p.m. CT, Monday through Friday, or visit https://www.recallrtr.com/woodandropechair. Additionally, customers can check product recalls on the following retailer websites: HomeGoods at https://m.homegoods.com/us/m/jump/topic/product-recalls/2400019, Marshalls at https://m.marshalls.com/us/m/jump/topic/Product-Recalls/2400019, T.J. Maxx at https://m.tjmaxx.tjx.com/m/jump/topic/product-recalls/2400019, Homesense at https://us.homesense.com/recalls, and Sierra at https://www.sierra.com/lp2/product_recalls/.",
+      "LastPublishDate": "2023-12-21T00:00:00",
+      "Products": [
+        {
+          "Name": "Foldable wood and rope bistro set chairs",
+          "NumberOfUnits": "About 29,000"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/tables/2-Foldable-wood-and-rope-bistro-set-chairs/222225e809710b26bb4e8aaaf54404dc.webp",
+          "Caption": "Recalled TJX Foldable wood and rope bistro set chairs",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/TJX-bistro-set.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/tables/2-Foldable-wood-and-rope-bistro-set-chairs/7aff82c536a9a9dbb60a584250d88484.webp",
+          "Caption": "Recalled TJX Foldable wood and rope bistro set chairs (blue)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/TJX-bistro-set-blue.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/tables/2-Foldable-wood-and-rope-bistro-set-chairs/224a9a9268d5b60c3e5cbec06a9e75a7.webp",
+          "Caption": "Recalled TJX Foldable wood and rope bistro set chairs (gray)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/TJX-bistro-set-gray.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/tables/2-Foldable-wood-and-rope-bistro-set-chairs/135db6afa369c3c89307156df8de0302.webp",
+          "Caption": "Recalled TJX Foldable wood and rope bistro set chairs (sand)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/TJX-bistro-set-sand.jpg"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received eight reports of the wooden frame of the chair breaking or collapsing when a consumer was seated in the chair, resulting in six reports of minor injuries, including bruising and an ankle strain."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available at Marshalls, T.J. Maxx, HomeGoods, Homesense, and Sierra stores nationwide, as well as online at Homegoods.com, TJmaxx.tjx.com, Marshalls.com, and Sierra.com from March 2020 through September 2023, priced between $130 and $350 for sets and $40 to $80 for individual chairs."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "The TJX Companies Inc., of Framingham, Massachusetts"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "Vietnam"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of chair collapse or breakage while seated, leading to potential falls."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should cease using the recalled chairs immediately and contact TJX for full refund instructions. Alternatively, chairs can be returned to any HomeGoods, Marshalls, T.J. Maxx, Homesense, or Sierra store for a full refund."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "slug": "tjx-issues-recall-for-foldable-wood-and-rope-bistro-set-chairs-due-to-fall-risk-recall",
+      "metaDescription": "TJX recalls foldable wood and rope bistro set chairs due to a fall hazard. Learn how to get a refund.",
+      "languages": {
+        "en": {
+          "Title": "TJX Issues Recall for Foldable Wood and Rope Bistro Set Chairs Due to Fall Risk",
+          "Description": "TJX has announced a recall of foldable wood and rope bistro set chairs that were sold in three- or five-piece sets. These sets, which may feature the Nautica or House & Garden branding, include a small wooden table and two to four foldable chairs. The chairs are constructed with wood frames and feature rope on the seat and back, available in various colors including gray, turquoise, brown, sand, black, aqua, pink, green, taupe, and white, supported by a gold bar at the back legs. Some chairs were also sold individually in stores and online as part of handcrafted sets from Vietnam or as HD Furniture Group indoor-outdoor bistro sets.",
+          "ConsumerContact": "For more details, consumers can reach TJX at 888-520-0157 from 7 a.m. to 6 p.m. CT, Monday through Friday, or visit https://www.recallrtr.com/woodandropechair. Additionally, customers can check product recalls on the following retailer websites: HomeGoods at https://m.homegoods.com/us/m/jump/topic/product-recalls/2400019, Marshalls at https://m.marshalls.com/us/m/jump/topic/Product-Recalls/2400019, T.J. Maxx at https://m.tjmaxx.tjx.com/m/jump/topic/product-recalls/2400019, Homesense at https://us.homesense.com/recalls, and Sierra at https://www.sierra.com/lp2/product_recalls/.",
+          "metaDescription": "TJX recalls foldable wood and rope bistro set chairs due to a fall hazard. Learn how to get a refund.",
+          "Products": [
+            {
+              "Name": "Foldable wood and rope bistro set chairs",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 29,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled TJX Foldable wood and rope bistro set chairs"
+            },
+            {
+              "Caption": "Recalled TJX Foldable wood and rope bistro set chairs (blue)"
+            },
+            {
+              "Caption": "Recalled TJX Foldable wood and rope bistro set chairs (gray)"
+            },
+            {
+              "Caption": "Recalled TJX Foldable wood and rope bistro set chairs (sand)"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "The firm has received eight reports of the wooden frame of the chair breaking or collapsing when a consumer was seated in the chair, resulting in six reports of minor injuries, including bruising and an ankle strain."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Available at Marshalls, T.J. Maxx, HomeGoods, Homesense, and Sierra stores nationwide, as well as online at Homegoods.com, TJmaxx.tjx.com, Marshalls.com, and Sierra.com from March 2020 through September 2023, priced between $130 and $350 for sets and $40 to $80 for individual chairs."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "The TJX Companies Inc., of Framingham, Massachusetts"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Sold At",
+          "ManufacturerCountries": [
+            {
+              "Country": "Vietnam"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risk of chair collapse or breakage while seated, leading to potential falls."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Consumers should cease using the recalled chairs immediately and contact TJX for full refund instructions. Alternatively, chairs can be returned to any HomeGoods, Marshalls, T.J. Maxx, Homesense, or Sierra store for a full refund."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Refund"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "TJX Emite un Retiro de Sillas de Juego de Bistro de Madera y Cuerda Plegables Debido al Riesgo de Caída",
+          "Description": "TJX ha anunciado un retiro de sillas de juego de bistro de madera y cuerda plegables que se vendieron en conjuntos de tres o cinco piezas. Estos conjuntos, que pueden presentar la marca Nautica o House & Garden, incluyen una pequeña mesa de madera y de dos a cuatro sillas plegables. Las sillas están construidas con marcos de madera y presentan cuerda en el asiento y el respaldo, disponibles en varios colores, incluyendo gris, turquesa, marrón, arena, negro, aqua, rosa, verde, topo y blanco, soportadas por una barra dorada en las patas traseras. Algunas sillas también se vendieron individualmente en tiendas y en línea como parte de conjuntos artesanales de Vietnam o como conjuntos de bistro de interior-exterior de HD Furniture Group.",
+          "ConsumerContact": "Para más detalles, los consumidores pueden comunicarse con TJX al 888-520-0157 de 7 a.m. a 6 p.m. CT, de lunes a viernes, o visitar https://www.recallrtr.com/woodandropechair. Además, los clientes pueden consultar los retiros de productos en los siguientes sitios web de minoristas: HomeGoods en https://m.homegoods.com/us/m/jump/topic/product-recalls/2400019, Marshalls en https://m.marshalls.com/us/m/jump/topic/Product-Recalls/2400019, T.J. Maxx en https://m.tjmaxx.tjx.com/m/jump/topic/product-recalls/2400019, Homesense en https://us.homesense.com/recalls, y Sierra en https://www.sierra.com/lp2/product_recalls/.",
+          "metaDescription": "TJX retira sillas de juego de bistro de madera y cuerda plegables debido a un peligro de caída. Aprenda cómo obtener un reembolso.",
+          "Products": [
+            {
+              "Name": "Sillas de juego de bistro de madera y cuerda plegables",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 29,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Sillas de juego de bistro de madera y cuerda plegables retiradas de TJX"
+            },
+            {
+              "Caption": "Sillas de juego de bistro de madera y cuerda plegables retiradas de TJX (azul)"
+            },
+            {
+              "Caption": "Sillas de juego de bistro de madera y cuerda plegables retiradas de TJX (gris)"
+            },
+            {
+              "Caption": "Sillas de juego de bistro de madera y cuerda plegables retiradas de TJX (arena)"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "La empresa ha recibido ocho informes de que el marco de madera de la silla se rompió o colapsó cuando un consumidor estaba sentado en la silla, resultando en seis informes de lesiones menores, incluyendo contusiones y un esguince de tobillo."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponibles en las tiendas Marshalls, T.J. Maxx, HomeGoods, Homesense y Sierra en todo el país, así como en línea en Homegoods.com, TJmaxx.tjx.com, Marshalls.com y Sierra.com desde marzo de 2020 hasta septiembre de 2023, con precios entre $130 y $350 por conjuntos y $40 a $80 por sillas individuales."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "The TJX Companies Inc., de Framingham, Massachusetts"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendidos En",
+          "ManufacturerCountries": [
+            {
+              "Country": "Vietnam"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Riesgo de colapso o ruptura de la silla mientras está sentado, lo que puede llevar a caídas potenciales."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Los consumidores deben dejar de usar las sillas retiradas de inmediato y contactar a TJX para obtener instrucciones completas de reembolso. Alternativamente, las sillas pueden ser devueltas a cualquier tienda HomeGoods, Marshalls, T.J. Maxx, Homesense o Sierra para un reembolso completo."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reembolso"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "TJX تصدر استدعاء لمقاعد مجموعة بيسرو القابلة للطي المصنوعة من الخشب والحبال بسبب خطر السقوط",
+          "Description": "أعلنت TJX عن استدعاء مقاعد مجموعة بيسرو القابلة للطي المصنوعة من الخشب والحبال التي تم بيعها في مجموعات من ثلاث أو خمس قطع. تشمل هذه المجموعات، التي قد تحمل علامة نوتيكا أو هاوس آند غاردن، طاولة خشبية صغيرة وكرسيين إلى أربعة كراسي قابلة للطي. تم تصنيع الكراسي بإطارات خشبية وتتميز بحبال على المقعد والظهر، متاحة بألوان متنوعة تشمل الرمادي، التركواز، البني، الرمل، الأسود، الأكواب، الوردي، الأخضر، التوب، والأبيض، مدعومة بشريط ذهبي في الأرجل الخلفية. تم بيع بعض الكراسي أيضًا بشكل فردي في المتاجر وعبر الإنترنت كجزء من مجموعات مصنوعة يدويًا من فيتنام أو كمجموعات بيسرو داخلية-خارجية من مجموعة HD للأثاث.",
+          "ConsumerContact": "للحصول على مزيد من التفاصيل، يمكن للمستهلكين الاتصال بـ TJX على الرقم 888-520-0157 من الساعة 7 صباحًا حتى 6 مساءً بتوقيت وسط أمريكا، من الاثنين إلى الجمعة، أو زيارة https://www.recallrtr.com/woodandropechair. بالإضافة إلى ذلك، يمكن للعملاء التحقق من استدعاءات المنتجات على مواقع تجار التجزئة التالية: HomeGoods على https://m.homegoods.com/us/m/jump/topic/product-recalls/2400019، Marshalls على https://m.marshalls.com/us/m/jump/topic/Product-Recalls/2400019، T.J. Maxx على https://m.tjmaxx.tjx.com/m/jump/topic/product-recalls/2400019، Homesense على https://us.homesense.com/recalls، وSierra على https://www.sierra.com/lp2/product_recalls/.",
+          "metaDescription": "TJX تستدعي مقاعد مجموعة بيسرو القابلة للطي المصنوعة من الخشب والحبال بسبب خطر السقوط. تعرف على كيفية استرداد المبلغ.",
+          "Products": [
+            {
+              "Name": "مقاعد مجموعة بيسرو القابلة للطي المصنوعة من الخشب والحبال",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 29,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "مقاعد مجموعة بيسرو القابلة للطي المصنوعة من الخشب والحبال المستدعاة من TJX"
+            },
+            {
+              "Caption": "مقاعد مجموعة بيسرو القابلة للطي المصنوعة من الخشب والحبال المستدعاة من TJX (زرقاء)"
+            },
+            {
+              "Caption": "مقاعد مجموعة بيسرو القابلة للطي المصنوعة من الخشب والحبال المستدعاة من TJX (رمادية)"
+            },
+            {
+              "Caption": "مقاعد مجموعة بيسرو القابلة للطي المصنوعة من الخشب والحبال المستدعاة من TJX (رملية)"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "تلقت الشركة ثماني تقارير عن كسر أو انهيار الإطار الخشبي للكرسي عندما كان المستهلك جالسًا في الكرسي، مما أدى إلى ستة تقارير عن إصابات طفيفة، بما في ذلك كدمات وإصابة في الكاحل."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "متاحة في متاجر Marshalls وT.J. Maxx وHomeGoods وHomesense وSierra في جميع أنحاء البلاد، بالإضافة إلى الإنترنت على Homegoods.com وTJmaxx.tjx.com وMarshalls.com وSierra.com من مارس 2020 حتى سبتمبر 2023، بأسعار تتراوح بين 130 دولارًا و350 دولارًا للمجموعات و40 دولارًا إلى 80 دولارًا للكراسي الفردية."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "شركة TJX، من فرامينغهام، ماساتشوستس"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "تم البيع في",
+          "ManufacturerCountries": [
+            {
+              "Country": "فيتنام"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "خطر انهيار أو كسر الكرسي أثناء الجلوس، مما يؤدي إلى احتمالية السقوط."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "يجب على المستهلكين التوقف عن استخدام الكراسي المستدعاة على الفور والاتصال بـ TJX للحصول على تعليمات استرداد كاملة. بدلاً من ذلك، يمكن إعادة الكراسي إلى أي متجر من متاجر HomeGoods أو Marshalls أو T.J. Maxx أو Homesense أو Sierra لاسترداد كامل."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "استرداد"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "TJX因跌倒风险召回可折叠木制和绳索餐椅",
+          "Description": "TJX已宣布召回在三件或五件套中出售的可折叠木制和绳索餐椅。这些套件可能带有Nautica或House & Garden品牌，包括一张小木桌和两到四把可折叠椅子。椅子由木框构成，座位和靠背上有绳索，提供多种颜色，包括灰色、绿松石色、棕色、沙色、黑色、水蓝色、粉色、绿色、灰褐色和白色，后腿由金色横杆支撑。一些椅子也作为越南手工制作套件的一部分或作为HD家具集团的室内外餐椅在商店和网上单独出售。",
+          "ConsumerContact": "如需更多详细信息，消费者可以在周一至周五的上午7点至下午6点（中部时间）拨打888-520-0157联系TJX，或访问https://www.recallrtr.com/woodandropechair。此外，客户可以在以下零售商网站上查看产品召回信息：HomeGoods网站https://m.homegoods.com/us/m/jump/topic/product-recalls/2400019，Marshalls网站https://m.marshalls.com/us/m/jump/topic/Product-Recalls/2400019，T.J. Maxx网站https://m.tjmaxx.tjx.com/m/jump/topic/product-recalls/2400019，Homesense网站https://us.homesense.com/recalls，以及Sierra网站https://www.sierra.com/lp2/product_recalls/。",
+          "metaDescription": "TJX因跌倒危险召回可折叠木制和绳索餐椅。了解如何申请退款。",
+          "Products": [
+            {
+              "Name": "可折叠木制和绳索餐椅",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约29,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "召回的TJX可折叠木制和绳索餐椅"
+            },
+            {
+              "Caption": "召回的TJX可折叠木制和绳索餐椅（蓝色）"
+            },
+            {
+              "Caption": "召回的TJX可折叠木制和绳索餐椅（灰色）"
+            },
+            {
+              "Caption": "召回的TJX可折叠木制和绳索餐椅（沙色）"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "该公司已收到八份报告，称椅子的木框在消费者坐在椅子上时断裂或倒塌，导致六份轻伤报告，包括淤伤和脚踝扭伤。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "在全国的Marshalls、T.J. Maxx、HomeGoods、Homesense和Sierra商店出售，以及在Homegoods.com、TJmaxx.tjx.com、Marshalls.com和Sierra.com网站上出售，时间为2020年3月至2023年9月，价格在130美元至350美元之间（套件）和40美元至80美元之间（单个椅子）。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "位于马萨诸塞州弗雷明汉的TJX公司"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "出售地点",
+          "ManufacturerCountries": [
+            {
+              "Country": "越南"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "坐在椅子上时有椅子倒塌或断裂的风险，可能导致跌倒。"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "消费者应立即停止使用召回的椅子，并联系TJX获取全额退款说明。或者，可以将椅子退回任何HomeGoods、Marshalls、T.J. Maxx、Homesense或Sierra商店以获得全额退款。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "退款"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "TJX émet un rappel pour des chaises de bistro pliantes en bois et en corde en raison d'un risque de chute",
+          "Description": "TJX a annoncé un rappel de chaises de bistro pliantes en bois et en corde qui ont été vendues en ensembles de trois ou cinq pièces. Ces ensembles, qui peuvent comporter la marque Nautica ou House & Garden, incluent une petite table en bois et deux à quatre chaises pliantes. Les chaises sont construites avec des cadres en bois et présentent de la corde sur le siège et le dossier, disponibles dans diverses couleurs, y compris gris, turquoise, marron, sable, noir, aqua, rose, vert, taupe et blanc, soutenues par une barre dorée au niveau des pattes arrière. Certaines chaises ont également été vendues individuellement dans les magasins et en ligne dans le cadre d'ensembles faits à la main du Vietnam ou comme ensembles de bistro d'intérieur-extérieur de HD Furniture Group.",
+          "ConsumerContact": "Pour plus de détails, les consommateurs peuvent contacter TJX au 888-520-0157 de 7 h à 18 h CT, du lundi au vendredi, ou visiter https://www.recallrtr.com/woodandropechair. De plus, les clients peuvent vérifier les rappels de produits sur les sites Web des détaillants suivants : HomeGoods à https://m.homegoods.com/us/m/jump/topic/product-recalls/2400019, Marshalls à https://m.marshalls.com/us/m/jump/topic/Product-Recalls/2400019, T.J. Maxx à https://m.tjmaxx.tjx.com/m/jump/topic/product-recalls/2400019, Homesense à https://us.homesense.com/recalls, et Sierra à https://www.sierra.com/lp2/product_recalls/.",
+          "metaDescription": "TJX rappelle des chaises de bistro pliantes en bois et en corde en raison d'un risque de chute. Apprenez comment obtenir un remboursement.",
+          "Products": [
+            {
+              "Name": "Chaises de bistro pliantes en bois et en corde",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 29 000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Chaises de bistro pliantes en bois et en corde TJX rappelées"
+            },
+            {
+              "Caption": "Chaises de bistro pliantes en bois et en corde TJX rappelées (bleu)"
+            },
+            {
+              "Caption": "Chaises de bistro pliantes en bois et en corde TJX rappelées (gris)"
+            },
+            {
+              "Caption": "Chaises de bistro pliantes en bois et en corde TJX rappelées (sable)"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "L'entreprise a reçu huit rapports concernant le cadre en bois de la chaise se brisant ou s'effondrant lorsque le consommateur était assis, entraînant six rapports de blessures mineures, y compris des contusions et une entorse de la cheville."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponibles dans les magasins Marshalls, T.J. Maxx, HomeGoods, Homesense et Sierra à l'échelle nationale, ainsi qu'en ligne sur Homegoods.com, TJmaxx.tjx.com, Marshalls.com et Sierra.com de mars 2020 à septembre 2023, au prix de 130 $ à 350 $ pour les ensembles et de 40 $ à 80 $ pour les chaises individuelles."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "The TJX Companies Inc., de Framingham, Massachusetts"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendu À",
+          "ManufacturerCountries": [
+            {
+              "Country": "Vietnam"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risque d'effondrement ou de rupture de la chaise pendant qu'on est assis, entraînant des chutes potentielles."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Les consommateurs doivent cesser d'utiliser immédiatement les chaises rappelées et contacter TJX pour obtenir des instructions complètes de remboursement. Alternativement, les chaises peuvent être retournées dans n'importe quel magasin HomeGoods, Marshalls, T.J. Maxx, Homesense ou Sierra pour un remboursement complet."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Remboursement"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "TJX ruft faltbare Holz- und Seil-Bistroset-Stühle aufgrund von Sturzgefahr zurück",
+          "Description": "TJX hat einen Rückruf von faltbaren Holz- und Seil-Bistroset-Stühlen angekündigt, die in drei- oder fünfteiligen Sets verkauft wurden. Diese Sets, die möglicherweise mit der Nautica- oder House & Garden-Marke versehen sind, enthalten einen kleinen Holztisch und zwei bis vier faltbare Stühle. Die Stühle sind mit Holzrahmen konstruiert und verfügen über Seil auf der Sitzfläche und der Rückenlehne, erhältlich in verschiedenen Farben, darunter Grau, Türkis, Braun, Sand, Schwarz, Aqua, Pink, Grün, Taupe und Weiß, unterstützt von einer goldenen Stange an den hinteren Beinen. Einige Stühle wurden auch einzeln in Geschäften und online als Teil von handgefertigten Sets aus Vietnam oder als HD Furniture Group Innen-Außen-Bistrosets verkauft.",
+          "ConsumerContact": "Für weitere Details können Verbraucher TJX unter 888-520-0157 von 7 bis 18 Uhr CT, Montag bis Freitag, erreichen oder die Website https://www.recallrtr.com/woodandropechair besuchen. Darüber hinaus können Kunden Produkt-Rückrufe auf den folgenden Einzelhandels-Websites überprüfen: HomeGoods unter https://m.homegoods.com/us/m/jump/topic/product-recalls/2400019, Marshalls unter https://m.marshalls.com/us/m/jump/topic/Product-Recalls/2400019, T.J. Maxx unter https://m.tjmaxx.tjx.com/m/jump/topic/product-recalls/2400019, Homesense unter https://us.homesense.com/recalls und Sierra unter https://www.sierra.com/lp2/product_recalls/.",
+          "metaDescription": "TJX ruft faltbare Holz- und Seil-Bistroset-Stühle aufgrund einer Sturzgefahr zurück. Erfahren Sie, wie Sie eine Rückerstattung erhalten.",
+          "Products": [
+            {
+              "Name": "Faltbare Holz- und Seil-Bistroset-Stühle",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 29.000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Rückgerufene TJX faltbare Holz- und Seil-Bistroset-Stühle"
+            },
+            {
+              "Caption": "Rückgerufene TJX faltbare Holz- und Seil-Bistroset-Stühle (blau)"
+            },
+            {
+              "Caption": "Rückgerufene TJX faltbare Holz- und Seil-Bistroset-Stühle (grau)"
+            },
+            {
+              "Caption": "Rückgerufene TJX faltbare Holz- und Seil-Bistroset-Stühle (sand)"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Das Unternehmen hat acht Berichte über das Brechen oder Zusammenbrechen des Holzrahmens des Stuhls erhalten, während ein Verbraucher im Stuhl saß, was zu sechs Berichten über leichte Verletzungen führte, einschließlich Prellungen und einer Verstauchung des Knöchels."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Verfügbar in Marshalls, T.J. Maxx, HomeGoods, Homesense und Sierra Geschäften landesweit sowie online unter Homegoods.com, TJmaxx.tjx.com, Marshalls.com und Sierra.com von März 2020 bis September 2023, preislich zwischen 130 und 350 US-Dollar für Sets und 40 bis 80 US-Dollar für einzelne Stühle."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "The TJX Companies Inc., Framingham, Massachusetts"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Verkauft bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "Vietnam"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risiko des Zusammenbrechens oder Brechens des Stuhls während des Sitzens, was zu potenziellen Stürzen führen kann."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Verbraucher sollten die zurückgerufenen Stühle sofort nicht mehr verwenden und TJX für vollständige Rückerstattungsanweisungen kontaktieren. Alternativ können die Stühle in jedem HomeGoods, Marshalls, T.J. Maxx, Homesense oder Sierra Geschäft für eine vollständige Rückerstattung zurückgegeben werden."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Rückerstattung"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "TJXが折りたたみ式木製およびロープ製ビストロセットチェアのリコールを発表 - 転倒の危険性",
+          "Description": "TJXは、3点または5点セットで販売された折りたたみ式木製およびロープ製ビストロセットチェアのリコールを発表しました。これらのセットは、NauticaまたはHouse & Gardenのブランド名が付いている場合があります。小さな木製テーブルと2〜4脚の折りたたみ式チェアが含まれています。チェアは木製フレームで構成され、座面と背もたれにはロープが使用されており、灰色、ターコイズ、茶色、砂色、黒、アクア、ピンク、緑、トープ、白などのさまざまな色で利用可能です。背脚には金色のバーで支えられています。一部のチェアは、ベトナムからの手作りセットの一部として、またはHD Furniture Groupの屋内外ビストロセットとして、店舗やオンラインで個別に販売されました。",
+          "ConsumerContact": "詳細については、消費者はTJXに888-520-0157まで連絡するか、月曜日から金曜日の午前7時から午後6時CTまでの間にお問い合わせください。また、https://www.recallrtr.com/woodandropechairを訪問してください。さらに、顧客は以下の小売業者のウェブサイトで製品のリコールを確認できます：HomeGoods（https://m.homegoods.com/us/m/jump/topic/product-recalls/2400019）、Marshalls（https://m.marshalls.com/us/m/jump/topic/Product-Recalls/2400019）、T.J. Maxx（https://m.tjmaxx.tjx.com/m/jump/topic/product-recalls/2400019）、Homesense（https://us.homesense.com/recalls）、およびSierra（https://www.sierra.com/lp2/product_recalls/）。",
+          "metaDescription": "TJXは転倒の危険性により、折りたたみ式木製およびロープ製ビストロセットチェアをリコールします。返金を受ける方法を学びましょう。",
+          "Products": [
+            {
+              "Name": "折りたたみ式木製およびロープ製ビストロセットチェア",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約29,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコールされたTJX折りたたみ式木製およびロープ製ビストロセットチェア"
+            },
+            {
+              "Caption": "リコールされたTJX折りたたみ式木製およびロープ製ビストロセットチェア（青）"
+            },
+            {
+              "Caption": "リコールされたTJX折りたたみ式木製およびロープ製ビストロセットチェア（灰色）"
+            },
+            {
+              "Caption": "リコールされたTJX折りたたみ式木製およびロープ製ビストロセットチェア（砂色）"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "同社は、消費者が椅子に座っている際に木製フレームが破損または崩壊したとの報告を8件受けており、その結果、打撲や足首の捻挫を含む軽傷の報告が6件あります。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "全国のMarshalls、T.J. Maxx、HomeGoods、Homesense、Sierra店舗およびHomegoods.com、TJmaxx.tjx.com、Marshalls.com、Sierra.comで、2020年3月から2023年9月まで販売され、セットは130ドルから350ドル、個別のチェアは40ドルから80ドルの価格です。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "マサチューセッツ州フレーミングハムのTJX Companies Inc."
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "販売場所",
+          "ManufacturerCountries": [
+            {
+              "Country": "ベトナム"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "座っている際の椅子の崩壊または破損のリスクがあり、転倒の可能性があります。"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "消費者はリコールされたチェアの使用を直ちに中止し、TJXに連絡して全額返金の手続きを確認する必要があります。代わりに、チェアは任意のHomeGoods、Marshalls、T.J. Maxx、Homesense、またはSierra店舗に返却することで全額返金を受けることができます。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "返金"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "TJX Emite Recall para Cadeiras de Conjunto Bistro de Madeira e Corda Dobráveis Devido ao Risco de Queda",
+          "Description": "TJX anunciou um recall de cadeiras de conjunto bistro de madeira e corda dobráveis que foram vendidas em conjuntos de três ou cinco peças. Esses conjuntos, que podem apresentar a marca Nautica ou House & Garden, incluem uma pequena mesa de madeira e duas a quatro cadeiras dobráveis. As cadeiras são construídas com estruturas de madeira e apresentam corda no assento e nas costas, disponíveis em várias cores, incluindo cinza, turquesa, marrom, areia, preto, aqua, rosa, verde, taupe e branco, suportadas por uma barra dourada nas pernas traseiras. Algumas cadeiras também foram vendidas individualmente em lojas e online como parte de conjuntos artesanais do Vietnã ou como conjuntos bistro internos-externos do HD Furniture Group.",
+          "ConsumerContact": "Para mais detalhes, os consumidores podem entrar em contato com a TJX pelo telefone 888-520-0157, das 7h às 18h CT, de segunda a sexta-feira, ou visitar https://www.recallrtr.com/woodandropechair. Além disso, os clientes podem verificar recalls de produtos nos seguintes sites de varejistas: HomeGoods em https://m.homegoods.com/us/m/jump/topic/product-recalls/2400019, Marshalls em https://m.marshalls.com/us/m/jump/topic/Product-Recalls/2400019, T.J. Maxx em https://m.tjmaxx.tjx.com/m/jump/topic/product-recalls/2400019, Homesense em https://us.homesense.com/recalls, e Sierra em https://www.sierra.com/lp2/product_recalls/.",
+          "metaDescription": "TJX faz recall de cadeiras de conjunto bistro de madeira e corda dobráveis devido a um risco de queda. Aprenda como obter um reembolso.",
+          "Products": [
+            {
+              "Name": "Cadeiras de conjunto bistro de madeira e corda dobráveis",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 29.000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Cadeiras de conjunto bistro de madeira e corda dobráveis da TJX em recall"
+            },
+            {
+              "Caption": "Cadeiras de conjunto bistro de madeira e corda dobráveis da TJX em recall (azul)"
+            },
+            {
+              "Caption": "Cadeiras de conjunto bistro de madeira e corda dobráveis da TJX em recall (cinza)"
+            },
+            {
+              "Caption": "Cadeiras de conjunto bistro de madeira e corda dobráveis da TJX em recall (areia)"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "A empresa recebeu oito relatos de que a estrutura de madeira da cadeira quebrou ou colapsou quando um consumidor estava sentado na cadeira, resultando em seis relatos de ferimentos leves, incluindo contusões e uma distensão no tornozelo."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponível nas lojas Marshalls, T.J. Maxx, HomeGoods, Homesense e Sierra em todo o país, bem como online em Homegoods.com, TJmaxx.tjx.com, Marshalls.com e Sierra.com de março de 2020 a setembro de 2023, com preços entre $130 e $350 para conjuntos e $40 a $80 para cadeiras individuais."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "The TJX Companies Inc., de Framingham, Massachusetts"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendidos Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "Vietnã"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risco de colapso ou quebra da cadeira enquanto sentado, levando a quedas potenciais."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Os consumidores devem parar de usar as cadeiras em recall imediatamente e entrar em contato com a TJX para obter instruções de reembolso completo. Alternativamente, as cadeiras podem ser devolvidas a qualquer loja HomeGoods, Marshalls, T.J. Maxx, Homesense ou Sierra para um reembolso total."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reembolso"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "TJX ने गिरने के जोखिम के कारण फोल्डेबल लकड़ी और रस्सी बिस्ट्रो सेट कुर्सियों की रिकॉल की घोषणा की",
+          "Description": "TJX ने फोल्डेबल लकड़ी और रस्सी बिस्ट्रो सेट कुर्सियों की रिकॉल की घोषणा की है जो तीन या पांच पीस सेट में बेची गई थीं। ये सेट, जिनमें Nautica या House & Garden ब्रांडिंग हो सकती है, में एक छोटी लकड़ी की मेज और दो से चार फोल्डेबल कुर्सियाँ शामिल हैं। कुर्सियाँ लकड़ी के फ्रेम से निर्मित हैं और सीट और पीठ पर रस्सी होती है, जो विभिन्न रंगों में उपलब्ध हैं, जिनमें ग्रे, टरक्वॉइज़, भूरा, रेत, काला, एक्वा, गुलाबी, हरा, टोप और सफेद शामिल हैं, जो पीछे की टांगों पर एक सुनहरी बार द्वारा समर्थित हैं। कुछ कुर्सियाँ स्टोर और ऑनलाइन भी व्यक्तिगत रूप से बेची गई थीं, जो वियतनाम से हस्तनिर्मित सेट का हिस्सा थीं या HD Furniture Group के इनडोर-आउटडोर बिस्ट्रो सेट के रूप में।\n",
+          "ConsumerContact": "अधिक जानकारी के लिए, उपभोक्ता TJX से 888-520-0157 पर सुबह 7 बजे से शाम 6 बजे CT, सोमवार से शुक्रवार तक संपर्क कर सकते हैं, या https://www.recallrtr.com/woodandropechair पर जा सकते हैं। इसके अतिरिक्त, ग्राहक निम्नलिखित रिटेलर वेबसाइटों पर उत्पाद रिकॉल की जांच कर सकते हैं: HomeGoods पर https://m.homegoods.com/us/m/jump/topic/product-recalls/2400019, Marshalls पर https://m.marshalls.com/us/m/jump/topic/Product-Recalls/2400019, T.J. Maxx पर https://m.tjmaxx.tjx.com/m/jump/topic/product-recalls/2400019, Homesense पर https://us.homesense.com/recalls, और Sierra पर https://www.sierra.com/lp2/product_recalls/।",
+          "metaDescription": "TJX फोल्डेबल लकड़ी और रस्सी बिस्ट्रो सेट कुर्सियों की रिकॉल करता है क्योंकि यह गिरने का खतरा है। रिफंड प्राप्त करने का तरीका जानें।",
+          "Products": [
+            {
+              "Name": "फोल्डेबल लकड़ी और रस्सी बिस्ट्रो सेट कुर्सियाँ",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 29,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "रिकॉल की गई TJX फोल्डेबल लकड़ी और रस्सी बिस्ट्रो सेट कुर्सियाँ"
+            },
+            {
+              "Caption": "रिकॉल की गई TJX फोल्डेबल लकड़ी और रस्सी बिस्ट्रो सेट कुर्सियाँ (नीला)"
+            },
+            {
+              "Caption": "रिकॉल की गई TJX फोल्डेबल लकड़ी और रस्सी बिस्ट्रो सेट कुर्सियाँ (ग्रे)"
+            },
+            {
+              "Caption": "रिकॉल की गई TJX फोल्डेबल लकड़ी और रस्सी बिस्ट्रो सेट कुर्सियाँ (रेत)"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "कंपनी को कुर्सी के लकड़ी के फ्रेम के टूटने या गिरने की आठ रिपोर्ट मिली हैं जब एक उपभोक्ता कुर्सी पर बैठा था, जिसके परिणामस्वरूप छह मामूली चोटों की रिपोर्ट मिली है, जिसमें चोट और टखने में खिंचाव शामिल है।"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "मार्शल्स, T.J. मैक्स, होमगुड्स, होमसेंस, और सिएरा स्टोर्स में देशभर में उपलब्ध, साथ ही होमगुड्स.com, TJmaxx.tjx.com, Marshalls.com, और Sierra.com पर ऑनलाइन मार्च 2020 से सितंबर 2023 तक, सेट के लिए $130 से $350 और व्यक्तिगत कुर्सियों के लिए $40 से $80 की कीमत पर।"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "TJX कंपनियाँ इंक., फ्रेमिंघम, मैसाचुसेट्स"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "वियतनाम"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "बैठने के दौरान कुर्सी के गिरने या टूटने का जोखिम, जिससे संभावित गिरने की स्थिति बनती है।"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "उपभोक्ताओं को तुरंत रिकॉल की गई कुर्सियों का उपयोग बंद कर देना चाहिए और पूर्ण रिफंड निर्देशों के लिए TJX से संपर्क करना चाहिए। वैकल्पिक रूप से, कुर्सियों को किसी भी होमगुड्स, मार्शल्स, T.J. मैक्स, होमसेंस, या सिएरा स्टोर में पूर्ण रिफंड के लिए लौटाया जा सकता है।"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "रिफंड"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "TJX объявляет отзыв складных стульев для бистро из дерева и веревки из-за риска падения",
+          "Description": "TJX объявила об отзыве складных стульев для бистро из дерева и веревки, которые продавались в наборах по три или пять штук. Эти наборы, которые могут иметь брендинг Nautica или House & Garden, включают маленький деревянный стол и от двух до четырех складных стульев. Стулья изготовлены с деревянными рамами и имеют веревку на сиденье и спинке, доступны в различных цветах, включая серый, бирюзовый, коричневый, песочный, черный, аквамариновый, розовый, зеленый, серо-коричневый и белый, поддерживаемые золотой планкой на задних ножках. Некоторые стулья также продавались по отдельности в магазинах и онлайн как часть ручной работы из Вьетнама или как наборы для бистро от HD Furniture Group для использования внутри и снаружи помещений.",
+          "ConsumerContact": "Для получения дополнительной информации потребители могут обратиться в TJX по телефону 888-520-0157 с 7:00 до 18:00 по центральному времени с понедельника по пятницу или посетить https://www.recallrtr.com/woodandropechair. Кроме того, клиенты могут проверить отзывы о продуктах на следующих веб-сайтах розничных продавцов: HomeGoods по адресу https://m.homegoods.com/us/m/jump/topic/product-recalls/2400019, Marshalls по адресу https://m.marshalls.com/us/m/jump/topic/Product-Recalls/2400019, T.J. Maxx по адресу https://m.tjmaxx.tjx.com/m/jump/topic/product-recalls/2400019, Homesense по адресу https://us.homesense.com/recalls и Sierra по адресу https://www.sierra.com/lp2/product_recalls/.",
+          "metaDescription": "TJX отзывает складные стулья для бистро из дерева и веревки из-за риска падения. Узнайте, как получить возврат.",
+          "Products": [
+            {
+              "Name": "Складные стулья для бистро из дерева и веревки",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 29,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванные складные стулья для бистро из дерева и веревки TJX"
+            },
+            {
+              "Caption": "Отозванные складные стулья для бистро из дерева и веревки TJX (синие)"
+            },
+            {
+              "Caption": "Отозванные складные стулья для бистро из дерева и веревки TJX (серые)"
+            },
+            {
+              "Caption": "Отозванные складные стулья для бистро из дерева и веревки TJX (песочные)"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Компания получила восемь сообщений о том, что деревянная рама стула ломалась или разрушалась, когда потребитель сидел на стуле, что привело к шести сообщениям о незначительных травмах, включая синяки и растяжение лодыжки."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Доступно в магазинах Marshalls, T.J. Maxx, HomeGoods, Homesense и Sierra по всей стране, а также онлайн на Homegoods.com, TJmaxx.tjx.com, Marshalls.com и Sierra.com с марта 2020 года по сентябрь 2023 года, по цене от 130 до 350 долларов за наборы и от 40 до 80 долларов за отдельные стулья."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Компания TJX, г. Фреймингем, штат Массачусетс"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Продавалось в",
+          "ManufacturerCountries": [
+            {
+              "Country": "Вьетнам"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Риск обрушения или поломки стула во время сидения, что может привести к падению."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Потребители должны немедленно прекратить использование отозванных стульев и обратиться в TJX для получения инструкций по возврату полной суммы. В качестве альтернативы, стулья можно вернуть в любой магазин HomeGoods, Marshalls, T.J. Maxx, Homesense или Sierra для полного возврата."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Возврат"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "TJX Thông Báo Thu Hồi Ghế Bistro Gỗ Gập và Dây Thừng Do Nguy Cơ Ngã",
+          "Description": "TJX đã thông báo thu hồi ghế bistro gỗ gập và dây thừng được bán theo bộ ba hoặc năm chiếc. Những bộ ghế này, có thể mang thương hiệu Nautica hoặc House & Garden, bao gồm một bàn gỗ nhỏ và từ hai đến bốn ghế gập. Các ghế được làm bằng khung gỗ và có dây thừng trên ghế ngồi và lưng ghế, có sẵn trong nhiều màu sắc bao gồm xám, ngọc lam, nâu, cát, đen, aqua, hồng, xanh lá, taupe và trắng, được hỗ trợ bởi một thanh vàng ở chân ghế phía sau. Một số ghế cũng được bán riêng lẻ tại cửa hàng và trực tuyến như một phần của bộ sản phẩm thủ công từ Việt Nam hoặc như bộ ghế bistro trong nhà và ngoài trời của HD Furniture Group.",
+          "ConsumerContact": "Để biết thêm chi tiết, người tiêu dùng có thể liên hệ với TJX qua số điện thoại 888-520-0157 từ 7 giờ sáng đến 6 giờ chiều CT, từ thứ Hai đến thứ Sáu, hoặc truy cập https://www.recallrtr.com/woodandropechair. Ngoài ra, khách hàng có thể kiểm tra các sản phẩm bị thu hồi trên các trang web của các nhà bán lẻ sau: HomeGoods tại https://m.homegoods.com/us/m/jump/topic/product-recalls/2400019, Marshalls tại https://m.marshalls.com/us/m/jump/topic/Product-Recalls/2400019, T.J. Maxx tại https://m.tjmaxx.tjx.com/m/jump/topic/product-recalls/2400019, Homesense tại https://us.homesense.com/recalls, và Sierra tại https://www.sierra.com/lp2/product_recalls/.",
+          "metaDescription": "TJX thu hồi ghế bistro gỗ gập và dây thừng do nguy cơ ngã. Tìm hiểu cách nhận hoàn tiền.",
+          "Products": [
+            {
+              "Name": "Ghế bistro gỗ gập và dây thừng",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 29,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Ghế bistro gỗ gập và dây thừng TJX bị thu hồi"
+            },
+            {
+              "Caption": "Ghế bistro gỗ gập và dây thừng TJX bị thu hồi (màu xanh)"
+            },
+            {
+              "Caption": "Ghế bistro gỗ gập và dây thừng TJX bị thu hồi (màu xám)"
+            },
+            {
+              "Caption": "Ghế bistro gỗ gập và dây thừng TJX bị thu hồi (màu cát)"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Công ty đã nhận được tám báo cáo về việc khung gỗ của ghế bị gãy hoặc sập khi người tiêu dùng ngồi trên ghế, dẫn đến sáu báo cáo về chấn thương nhẹ, bao gồm bầm tím và căng dây chằng mắt cá chân."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Có mặt tại các cửa hàng Marshalls, T.J. Maxx, HomeGoods, Homesense và Sierra trên toàn quốc, cũng như trực tuyến tại Homegoods.com, TJmaxx.tjx.com, Marshalls.com và Sierra.com từ tháng 3 năm 2020 đến tháng 9 năm 2023, với giá từ 130 đến 350 đô la cho bộ và từ 40 đến 80 đô la cho ghế riêng lẻ."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Công ty TNHH TJX, Framingham, Massachusetts"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Bán Tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Việt Nam"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Nguy cơ ghế bị sập hoặc gãy khi ngồi, dẫn đến nguy cơ ngã."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Người tiêu dùng nên ngừng sử dụng ngay lập tức các ghế bị thu hồi và liên hệ với TJX để biết hướng dẫn hoàn tiền đầy đủ. Ngoài ra, ghế có thể được trả lại bất kỳ cửa hàng HomeGoods, Marshalls, T.J. Maxx, Homesense hoặc Sierra nào để được hoàn tiền đầy đủ."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Hoàn tiền"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    }
+  ]
+}

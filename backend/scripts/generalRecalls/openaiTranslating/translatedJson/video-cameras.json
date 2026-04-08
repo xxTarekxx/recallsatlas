@@ -1,0 +1,795 @@
+{
+  "meta": {
+    "slug": "video-cameras",
+    "sourceCsvFile": "video-cameras_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:37.100Z",
+    "recallCount": 1,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "video-cameras.json",
+    "seoTranslatedAt": "2026-04-05T06:46:30.696Z",
+    "resumePartial": false,
+    "i18nSource": "generalRecallsTranslated",
+    "i18nSourceFile": "video-cameras.json",
+    "i18nUiLangs": [
+      "en",
+      "es",
+      "ar",
+      "zh",
+      "fr",
+      "de",
+      "ja",
+      "pt",
+      "hi",
+      "ru",
+      "vi"
+    ],
+    "i18nProgressByLang": {
+      "es": 1,
+      "ar": 1,
+      "zh": 1,
+      "fr": 1,
+      "de": 1,
+      "ja": 1,
+      "pt": 1,
+      "hi": 1,
+      "ru": 1,
+      "vi": 1
+    },
+    "i18nInProgress": false,
+    "i18nTranslatedAt": "2026-04-08T00:31:44.548Z",
+    "i18nOpenaiModel": "gpt-4o-mini"
+  },
+  "recalls": [
+    {
+      "RecallID": 9832,
+      "RecallNumber": "24095",
+      "RecallDate": "2024-02-01T00:00:00",
+      "Description": "Snap has issued a recall for the rechargeable lithium-ion battery that accompanies the Pixy Flying Camera. This compact camera, which captures photos and videos, measures approximately five inches by four inches and is yellow in color. The battery, also yellow, is about three inches long and half an inch wide. There is a significant fire hazard associated with this battery as it can overheat during use.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/Snap-Recalls-Lithium-Ion-Battery-Sold-for-Pixy-Flying-Cameras-Due-to-Fire-Hazard",
+      "Title": "Snap Recalls Lithium-Ion Battery for Pixy Flying Cameras Due to Fire Risk",
+      "ConsumerContact": "For assistance, consumers can reach Snap's recall hotline at 800-269-6990, available 24/7. They can also email support@pixy.com or visit https://support.pixy.com/recall. More information can be found by navigating to www.pixy.com and clicking on the 'Recalls' link at the bottom of the page. Snap is proactively contacting all known purchasers.",
+      "LastPublishDate": "2024-02-01T00:00:00",
+      "Products": [
+        {
+          "Name": "Rechargeable Lithium-Ion Battery for Pixy Flying Cameras",
+          "NumberOfUnits": "About 71,000"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/video-cameras/1-Rechargeable-Lithium-Ion-Battery-for-Pixy-Flying-Cameras/135708510830572bf9fd00cd64a23c32.webp",
+          "Caption": "Recalled battery for Pixy Flying Camera",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/pixy-battery.png"
+        },
+        {
+          "URL": "/images/generalRecalls/video-cameras/1-Rechargeable-Lithium-Ion-Battery-for-Pixy-Flying-Cameras/2e78737087e8bd486c7eefa61677d901.webp",
+          "Caption": "Pixy Flying Camera with recalled battery on charger",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/pixy-camera.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "Snap has received four reports of the battery overheating and bulging, resulting in one minor battery fire and one minor injury."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available online at Pixy.com and Amazon.com from May 2022 to December 2023, priced between $185 and $250 for the Pixy Flying Camera or 'Flight Pack' bundle, $40 to $50 for the extra charger/battery, and $16 to $20 for the battery sold separately."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Snap LLC., of Santa Monica, California"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Fire hazard due to potential overheating of the lithium-ion battery"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers must stop using the Pixy Flying Camera immediately, remove the battery, and cease charging it. They should visit www.pixy.com for guidance on participating in the recall, obtaining a refund, and disposing of the battery safely according to local regulations. Refunds are also available for the Pixy flying camera and other accessories."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "slug": "snap-recalls-lithium-ion-battery-for-pixy-flying-cameras-due-to-fire-risk-recall",
+      "metaDescription": "Snap recalls lithium-ion batteries for Pixy Flying Cameras due to fire risks. Learn how to participate in the recall and obtain a refund.",
+      "languages": {
+        "en": {
+          "Title": "Snap Recalls Lithium-Ion Battery for Pixy Flying Cameras Due to Fire Risk",
+          "Description": "Snap has issued a recall for the rechargeable lithium-ion battery that accompanies the Pixy Flying Camera. This compact camera, which captures photos and videos, measures approximately five inches by four inches and is yellow in color. The battery, also yellow, is about three inches long and half an inch wide. There is a significant fire hazard associated with this battery as it can overheat during use.",
+          "ConsumerContact": "For assistance, consumers can reach Snap's recall hotline at 800-269-6990, available 24/7. They can also email support@pixy.com or visit https://support.pixy.com/recall. More information can be found by navigating to www.pixy.com and clicking on the 'Recalls' link at the bottom of the page. Snap is proactively contacting all known purchasers.",
+          "metaDescription": "Snap recalls lithium-ion batteries for Pixy Flying Cameras due to fire risks. Learn how to participate in the recall and obtain a refund.",
+          "Products": [
+            {
+              "Name": "Rechargeable Lithium-Ion Battery for Pixy Flying Cameras",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 71,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled battery for Pixy Flying Camera"
+            },
+            {
+              "Caption": "Pixy Flying Camera with recalled battery on charger"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Snap has received four reports of the battery overheating and bulging, resulting in one minor battery fire and one minor injury."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Available online at Pixy.com and Amazon.com from May 2022 to December 2023, priced between $185 and $250 for the Pixy Flying Camera or 'Flight Pack' bundle, $40 to $50 for the extra charger/battery, and $16 to $20 for the battery sold separately."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Snap LLC., of Santa Monica, California"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Sold At",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Fire hazard due to potential overheating of the lithium-ion battery"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Consumers must stop using the Pixy Flying Camera immediately, remove the battery, and cease charging it. They should visit www.pixy.com for guidance on participating in the recall, obtaining a refund, and disposing of the battery safely according to local regulations. Refunds are also available for the Pixy flying camera and other accessories."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Refund"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "Snap Retira Batería de Ión de Litio para Cámaras Voladoras Pixy Debido a Riesgo de Incendio",
+          "Description": "Snap ha emitido un retiro para la batería recargable de ión de litio que acompaña a la Cámara Voladora Pixy. Esta cámara compacta, que captura fotos y videos, mide aproximadamente cinco pulgadas por cuatro pulgadas y es de color amarillo. La batería, también amarilla, mide aproximadamente tres pulgadas de largo y media pulgada de ancho. Existe un riesgo significativo de incendio asociado con esta batería, ya que puede sobrecalentarse durante su uso.",
+          "ConsumerContact": "Para asistencia, los consumidores pueden comunicarse con la línea directa de retiros de Snap al 800-269-6990, disponible 24/7. También pueden enviar un correo electrónico a support@pixy.com o visitar https://support.pixy.com/recall. Se puede encontrar más información navegando a www.pixy.com y haciendo clic en el enlace 'Recalls' en la parte inferior de la página. Snap está contactando proactivamente a todos los compradores conocidos.",
+          "metaDescription": "Snap retira baterías de ión de litio para Cámaras Voladoras Pixy debido a riesgos de incendio. Aprenda cómo participar en el retiro y obtener un reembolso.",
+          "Products": [
+            {
+              "Name": "Batería Recargable de Ión de Litio para Cámaras Voladoras Pixy",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 71,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Batería retirada para Cámara Voladora Pixy"
+            },
+            {
+              "Caption": "Cámara Voladora Pixy con batería retirada en el cargador"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Snap ha recibido cuatro informes de la batería sobrecalentándose y abultándose, resultando en un pequeño incendio de batería y una lesión menor."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible en línea en Pixy.com y Amazon.com desde mayo de 2022 hasta diciembre de 2023, con precios entre $185 y $250 para la Cámara Voladora Pixy o el paquete 'Flight Pack', $40 a $50 para el cargador/batería extra, y $16 a $20 para la batería vendida por separado."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Snap LLC., de Santa Mónica, California"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendido En",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Riesgo de incendio debido al posible sobrecalentamiento de la batería de ión de litio"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Los consumidores deben dejar de usar la Cámara Voladora Pixy de inmediato, retirar la batería y dejar de cargarla. Deben visitar www.pixy.com para obtener orientación sobre cómo participar en el retiro, obtener un reembolso y desechar la batería de manera segura de acuerdo con las regulaciones locales. También están disponibles reembolsos para la cámara voladora Pixy y otros accesorios."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reembolso"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "سناب تستدعي بطارية ليثيوم أيون لكاميرات بيكسي الطائرة بسبب خطر الحريق",
+          "Description": "أصدرت شركة سناب استدعاءً للبطارية القابلة لإعادة الشحن من نوع ليثيوم أيون التي تأتي مع كاميرا بيكسي الطائرة. هذه الكاميرا المدمجة، التي تلتقط الصور والفيديوهات، تقيس حوالي خمسة بوصات في أربعة بوصات ولونها أصفر. البطارية، التي هي أيضًا صفراء، طولها حوالي ثلاث بوصات وعرضها نصف بوصة. هناك خطر كبير من الحريق مرتبط بهذه البطارية لأنها قد تسخن أثناء الاستخدام.",
+          "ConsumerContact": "للمساعدة، يمكن للمستهلكين الاتصال بخط استدعاء سناب على الرقم 800-269-6990، المتاح على مدار الساعة طوال أيام الأسبوع. يمكنهم أيضًا إرسال بريد إلكتروني إلى support@pixy.com أو زيارة https://support.pixy.com/recall. يمكن العثور على مزيد من المعلومات من خلال الانتقال إلى www.pixy.com والنقر على رابط 'الاستدعاءات' في أسفل الصفحة. تقوم سناب بالتواصل بشكل استباقي مع جميع المشترين المعروفين.",
+          "metaDescription": "سناب تستدعي بطاريات ليثيوم أيون لكاميرات بيكسي الطائرة بسبب مخاطر الحريق. تعرف على كيفية المشاركة في الاستدعاء والحصول على استرداد.",
+          "Products": [
+            {
+              "Name": "بطارية ليثيوم أيون قابلة لإعادة الشحن لكاميرات بيكسي الطائرة",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 71,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "البطارية المستدعاة لكاميرا بيكسي الطائرة"
+            },
+            {
+              "Caption": "كاميرا بيكسي الطائرة مع البطارية المستدعاة على الشاحن"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "تلقت سناب أربع تقارير عن ارتفاع حرارة البطارية وانتفاخها، مما أدى إلى حريق بطارية صغير واحد وإصابة طفيفة واحدة."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "متاحة على الإنترنت في Pixy.com و Amazon.com من مايو 2022 إلى ديسمبر 2023، بسعر يتراوح بين 185 دولارًا و250 دولارًا لكاميرا بيكسي الطائرة أو حزمة 'Flight Pack'، و40 إلى 50 دولارًا للشاحن/البطارية الإضافية، و16 إلى 20 دولارًا للبطارية المباعة بشكل منفصل."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "سناب ذ.م.م، من سانتا مونيكا، كاليفورنيا"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "تم البيع في",
+          "ManufacturerCountries": [
+            {
+              "Country": "الصين"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "خطر الحريق بسبب احتمال ارتفاع حرارة بطارية الليثيوم أيون"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "يجب على المستهلكين التوقف عن استخدام كاميرا بيكسي الطائرة على الفور، وإزالة البطارية، والتوقف عن شحنها. يجب عليهم زيارة www.pixy.com للحصول على إرشادات حول المشاركة في الاستدعاء، والحصول على استرداد، والتخلص من البطارية بأمان وفقًا للوائح المحلية. تتوفر أيضًا استردادات لكاميرا بيكسي الطائرة وغيرها من الملحقات."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "استرداد"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "Snap因火灾风险召回Pixy飞行相机的锂离子电池",
+          "Description": "Snap已对随Pixy飞行相机附带的可充电锂离子电池发起召回。该紧凑型相机可拍摄照片和视频，尺寸约为五英寸乘四英寸，颜色为黄色。电池也是黄色的，长度约为三英寸，宽度为半英寸。该电池存在显著的火灾风险，因为在使用过程中可能会过热。",
+          "ConsumerContact": "如需帮助，消费者可以拨打Snap的召回热线800-269-6990，全天候提供服务。他们还可以发送电子邮件至support@pixy.com或访问https://support.pixy.com/recall。更多信息可以通过访问www.pixy.com并点击页面底部的“召回”链接找到。Snap正在主动联系所有已知的购买者。",
+          "metaDescription": "Snap因火灾风险召回Pixy飞行相机的锂离子电池。了解如何参与召回并获得退款。",
+          "Products": [
+            {
+              "Name": "Pixy飞行相机的可充电锂离子电池",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约71,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Pixy飞行相机的召回电池"
+            },
+            {
+              "Caption": "带有召回电池的Pixy飞行相机在充电器上"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Snap已收到四份关于电池过热和膨胀的报告，导致一起轻微的电池火灾和一起轻微的伤害。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "在2022年5月至2023年12月期间可在Pixy.com和Amazon.com在线购买，Pixy飞行相机或“飞行包”组合的价格在185美元至250美元之间，额外充电器/电池的价格在40美元至50美元之间，单独出售的电池价格在16美元至20美元之间。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Snap LLC., 加利福尼亚州圣莫尼卡"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "销售地点",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "由于锂离子电池可能过热而导致的火灾风险"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "消费者必须立即停止使用Pixy飞行相机，取出电池，并停止充电。他们应访问www.pixy.com以获取参与召回、获得退款和根据当地法规安全处置电池的指导。Pixy飞行相机及其他配件也可获得退款。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "退款"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "Snap rappelle des batteries lithium-ion pour les caméras volantes Pixy en raison d'un risque d'incendie",
+          "Description": "Snap a émis un rappel pour la batterie lithium-ion rechargeable qui accompagne la caméra volante Pixy. Cette caméra compacte, qui capture des photos et des vidéos, mesure environ cinq pouces sur quatre pouces et est de couleur jaune. La batterie, également jaune, mesure environ trois pouces de long et un pouce de large. Il existe un risque d'incendie significatif associé à cette batterie car elle peut surchauffer pendant l'utilisation.",
+          "ConsumerContact": "Pour assistance, les consommateurs peuvent contacter la ligne d'assistance au rappel de Snap au 800-269-6990, disponible 24/7. Ils peuvent également envoyer un e-mail à support@pixy.com ou visiter https://support.pixy.com/recall. Plus d'informations peuvent être trouvées en naviguant sur www.pixy.com et en cliquant sur le lien 'Rappels' en bas de la page. Snap contacte proactivement tous les acheteurs connus.",
+          "metaDescription": "Snap rappelle des batteries lithium-ion pour les caméras volantes Pixy en raison de risques d'incendie. Apprenez comment participer au rappel et obtenir un remboursement.",
+          "Products": [
+            {
+              "Name": "Batterie lithium-ion rechargeable pour caméras volantes Pixy",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 71 000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Batterie rappelée pour la caméra volante Pixy"
+            },
+            {
+              "Caption": "Caméra volante Pixy avec batterie rappelée sur le chargeur"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Snap a reçu quatre rapports de surchauffe et de gonflement de la batterie, entraînant un léger incendie de batterie et une légère blessure."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible en ligne sur Pixy.com et Amazon.com de mai 2022 à décembre 2023, au prix de 185 $ à 250 $ pour la caméra volante Pixy ou le pack 'Flight Pack', de 40 $ à 50 $ pour le chargeur/batterie supplémentaire, et de 16 $ à 20 $ pour la batterie vendue séparément."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Snap LLC., de Santa Monica, Californie"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendu À",
+          "ManufacturerCountries": [
+            {
+              "Country": "Chine"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risque d'incendie en raison de la surchauffe potentielle de la batterie lithium-ion"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Les consommateurs doivent cesser immédiatement d'utiliser la caméra volante Pixy, retirer la batterie et cesser de la charger. Ils doivent visiter www.pixy.com pour des conseils sur la participation au rappel, l'obtention d'un remboursement et l'élimination sécurisée de la batterie conformément aux réglementations locales. Des remboursements sont également disponibles pour la caméra volante Pixy et d'autres accessoires."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Remboursement"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "Snap ruft Lithium-Ionen-Batterie für Pixy Flying Cameras aufgrund von Brandgefahr zurück",
+          "Description": "Snap hat einen Rückruf für die wiederaufladbare Lithium-Ionen-Batterie herausgegeben, die mit der Pixy Flying Camera geliefert wird. Diese kompakte Kamera, die Fotos und Videos aufnimmt, misst ungefähr fünf Zoll mal vier Zoll und ist gelb. Die Batterie, ebenfalls gelb, ist etwa drei Zoll lang und einen halben Zoll breit. Es besteht eine erhebliche Brandgefahr, da diese Batterie während des Gebrauchs überhitzen kann.",
+          "ConsumerContact": "Für Unterstützung können Verbraucher die Rückruf-Hotline von Snap unter 800-269-6990, die rund um die Uhr verfügbar ist, kontaktieren. Sie können auch eine E-Mail an support@pixy.com senden oder die Website https://support.pixy.com/recall besuchen. Weitere Informationen finden Sie, indem Sie zu www.pixy.com navigieren und auf den Link 'Rückrufe' am Ende der Seite klicken. Snap kontaktiert proaktiv alle bekannten Käufer.",
+          "metaDescription": "Snap ruft Lithium-Ionen-Batterien für Pixy Flying Cameras aufgrund von Brandrisiken zurück. Erfahren Sie, wie Sie am Rückruf teilnehmen und eine Rückerstattung erhalten können.",
+          "Products": [
+            {
+              "Name": "Wiederaufladbare Lithium-Ionen-Batterie für Pixy Flying Cameras",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 71.000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Zurückgerufene Batterie für Pixy Flying Camera"
+            },
+            {
+              "Caption": "Pixy Flying Camera mit zurückgerufener Batterie auf dem Ladegerät"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Snap hat vier Berichte über die Überhitzung und das Aufblähen der Batterie erhalten, was zu einem kleinen Batteriebrenn und einer leichten Verletzung führte."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Online erhältlich bei Pixy.com und Amazon.com von Mai 2022 bis Dezember 2023, preislich zwischen 185 und 250 US-Dollar für die Pixy Flying Camera oder das 'Flight Pack'-Bundle, 40 bis 50 US-Dollar für das zusätzliche Ladegerät/Batterie und 16 bis 20 US-Dollar für die separat verkaufte Batterie."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Snap LLC., aus Santa Monica, Kalifornien"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Verkauft bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Brandgefahr aufgrund der möglichen Überhitzung der Lithium-Ionen-Batterie"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Verbraucher müssen die Pixy Flying Camera sofort nicht mehr verwenden, die Batterie entfernen und das Laden einstellen. Sie sollten www.pixy.com besuchen, um Anleitungen zur Teilnahme am Rückruf, zur Erlangung einer Rückerstattung und zur sicheren Entsorgung der Batterie gemäß den örtlichen Vorschriften zu erhalten. Rückerstattungen sind auch für die Pixy Flying Camera und andere Zubehörteile verfügbar."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Rückerstattung"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "Snap、火災リスクによりPixyフライングカメラ用リチウムイオンバッテリーをリコール",
+          "Description": "Snapは、Pixyフライングカメラに付属する充電式リチウムイオンバッテリーのリコールを発表しました。このコンパクトカメラは写真や動画を撮影し、サイズは約5インチ×4インチで、色は黄色です。バッテリーも黄色で、長さは約3インチ、幅は半インチです。このバッテリーには使用中に過熱する可能性があり、重大な火災の危険があります。",
+          "ConsumerContact": "サポートが必要な消費者は、Snapのリコールホットライン800-269-6990に連絡できます（24時間年中無休）。また、support@pixy.comにメールを送信するか、https://support.pixy.com/recallを訪問することもできます。詳細情報はwww.pixy.comにアクセスし、ページの下部にある「リコール」リンクをクリックすることで見つけることができます。Snapは、すべての既知の購入者に積極的に連絡を取っています。",
+          "metaDescription": "Snapは火災リスクによりPixyフライングカメラ用リチウムイオンバッテリーをリコールします。リコールに参加し、返金を受ける方法を学びましょう。",
+          "Products": [
+            {
+              "Name": "Pixyフライングカメラ用充電式リチウムイオンバッテリー",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約71,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Pixyフライングカメラ用リコールされたバッテリー"
+            },
+            {
+              "Caption": "充電器に接続されたリコールされたバッテリー付きのPixyフライングカメラ"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Snapは、バッテリーが過熱して膨張したとの報告を4件受けており、その結果、軽微なバッテリー火災と軽傷が1件発生しています。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "2022年5月から2023年12月まで、Pixy.comおよびAmazon.comで購入可能。Pixyフライングカメラまたは「フライトパック」バンドルは185ドルから250ドル、追加の充電器/バッテリーは40ドルから50ドル、バッテリー単体は16ドルから20ドルで販売されています。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "カリフォルニア州サンタモニカのSnap LLC."
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "販売場所",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "リチウムイオンバッテリーの過熱の可能性による火災の危険"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "消費者は、Pixyフライングカメラの使用を直ちに中止し、バッテリーを取り外し、充電を停止する必要があります。リコールに参加し、返金を受け、地域の規制に従ってバッテリーを安全に廃棄する方法についてのガイダンスはwww.pixy.comを訪問してください。Pixyフライングカメラやその他のアクセサリーの返金も可能です。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "返金"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "Snap Recalls Bateria de Íon de Lítio para Câmeras Voadoras Pixy Devido ao Risco de Incêndio",
+          "Description": "A Snap emitiu um recall para a bateria recarregável de íon de lítio que acompanha a Câmera Voadora Pixy. Esta câmera compacta, que captura fotos e vídeos, mede aproximadamente cinco polegadas por quatro polegadas e é de cor amarela. A bateria, também amarela, tem cerca de três polegadas de comprimento e meia polegada de largura. Há um risco significativo de incêndio associado a esta bateria, pois ela pode superaquecer durante o uso.",
+          "ConsumerContact": "Para assistência, os consumidores podem entrar em contato com a linha direta de recall da Snap pelo telefone 800-269-6990, disponível 24 horas por dia, 7 dias por semana. Eles também podem enviar um e-mail para support@pixy.com ou visitar https://support.pixy.com/recall. Mais informações podem ser encontradas acessando www.pixy.com e clicando no link 'Recalls' na parte inferior da página. A Snap está contatando proativamente todos os compradores conhecidos.",
+          "metaDescription": "Snap recolhe baterias de íon de lítio para Câmeras Voadoras Pixy devido a riscos de incêndio. Aprenda como participar do recall e obter um reembolso.",
+          "Products": [
+            {
+              "Name": "Bateria Recarregável de Íon de Lítio para Câmeras Voadoras Pixy",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 71.000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Bateria recolhida para Câmera Voadora Pixy"
+            },
+            {
+              "Caption": "Câmera Voadora Pixy com bateria recolhida no carregador"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "A Snap recebeu quatro relatos de superaquecimento e inchaço da bateria, resultando em um pequeno incêndio na bateria e uma lesão leve."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponível online em Pixy.com e Amazon.com de maio de 2022 a dezembro de 2023, com preços entre $185 e $250 para a Câmera Voadora Pixy ou pacote 'Flight Pack', $40 a $50 para o carregador/bateria extra, e $16 a $20 pela bateria vendida separadamente."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Snap LLC., de Santa Monica, Califórnia"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendido Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risco de incêndio devido ao potencial superaquecimento da bateria de íon de lítio"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Os consumidores devem parar de usar a Câmera Voadora Pixy imediatamente, remover a bateria e interromper o carregamento. Eles devem visitar www.pixy.com para obter orientações sobre como participar do recall, obter um reembolso e descartar a bateria de forma segura de acordo com as regulamentações locais. Reembolsos também estão disponíveis para a câmera voadora Pixy e outros acessórios."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reembolso"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "स्नैप ने आग के जोखिम के कारण पिक्सी उड़ने वाले कैमरों के लिए लिथियम-आयन बैटरी की रिकॉल की",
+          "Description": "स्नैप ने पिक्सी उड़ने वाले कैमरे के साथ आने वाली रिचार्जेबल लिथियम-आयन बैटरी की रिकॉल की है। यह कॉम्पैक्ट कैमरा, जो फोटो और वीडियो कैप्चर करता है, लगभग पांच इंच बाय चार इंच मापता है और इसका रंग पीला है। बैटरी, जो भी पीली है, लगभग तीन इंच लंबी और आधे इंच चौड़ी है। इस बैटरी के साथ एक महत्वपूर्ण आग का खतरा है क्योंकि यह उपयोग के दौरान अधिक गर्म हो सकती है।",
+          "ConsumerContact": "सहायता के लिए, उपभोक्ता स्नैप की रिकॉल हॉटलाइन 800-269-6990 पर संपर्क कर सकते हैं, जो 24/7 उपलब्ध है। वे support@pixy.com पर भी ईमेल कर सकते हैं या https://support.pixy.com/recall पर जा सकते हैं। अधिक जानकारी www.pixy.com पर जाकर और पृष्ठ के नीचे 'रिकॉल' लिंक पर क्लिक करके प्राप्त की जा सकती है। स्नैप सभी ज्ञात खरीदारों से सक्रिय रूप से संपर्क कर रहा है।",
+          "metaDescription": "स्नैप ने आग के जोखिम के कारण पिक्सी उड़ने वाले कैमरों के लिए लिथियम-आयन बैटरी की रिकॉल की। जानें कि रिकॉल में कैसे भाग लें और धनवापसी प्राप्त करें।",
+          "Products": [
+            {
+              "Name": "पिक्सी उड़ने वाले कैमरों के लिए रिचार्जेबल लिथियम-आयन बैटरी",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 71,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "पिक्सी उड़ने वाले कैमरे के लिए रिकॉल की गई बैटरी"
+            },
+            {
+              "Caption": "चार्जर पर रिकॉल की गई बैटरी के साथ पिक्सी उड़ने वाला कैमरा"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "स्नैप को बैटरी के अधिक गर्म होने और फुलने की चार रिपोर्ट मिली हैं, जिसके परिणामस्वरूप एक छोटी बैटरी आग और एक छोटी चोट हुई।"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "पिक्सी.com और Amazon.com पर मई 2022 से दिसंबर 2023 तक उपलब्ध, पिक्सी उड़ने वाले कैमरे या 'फ्लाइट पैक' बंडल के लिए $185 से $250, अतिरिक्त चार्जर/बैटरी के लिए $40 से $50, और अलग से बेची गई बैटरी के लिए $16 से $20 की कीमत।"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "स्नैप LLC., सैंटा मोनिका, कैलिफोर्निया"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "चीन"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "लिथियम-आयन बैटरी के संभावित अधिक गर्म होने के कारण आग का खतरा"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "उपभोक्ताओं को तुरंत पिक्सी उड़ने वाले कैमरे का उपयोग बंद करना चाहिए, बैटरी को निकालना चाहिए, और इसे चार्ज करना बंद करना चाहिए। उन्हें रिकॉल में भाग लेने, धनवापसी प्राप्त करने, और स्थानीय नियमों के अनुसार बैटरी को सुरक्षित रूप से निपटाने के लिए www.pixy.com पर जाने की सलाह दी जाती है। पिक्सी उड़ने वाले कैमरे और अन्य सहायक उपकरणों के लिए भी धनवापसी उपलब्ध है।"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "धनवापसी"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "Snap отзывает литий-ионные батареи для летающих камер Pixy из-за риска возгорания",
+          "Description": "Snap объявил об отзыве перезаряжаемой литий-ионной батареи, которая идет в комплекте с летающей камерой Pixy. Эта компактная камера, которая делает фотографии и видео, имеет размеры примерно пять дюймов на четыре дюйма и желтого цвета. Батарея, также желтого цвета, имеет длину около трех дюймов и ширину полдюйма. С этой батареей связан значительный риск возгорания, так как она может перегреваться во время использования.",
+          "ConsumerContact": "Для получения помощи потребители могут обратиться на горячую линию по отзыву Snap по телефону 800-269-6990, доступную круглосуточно. Они также могут написать на электронную почту support@pixy.com или посетить https://support.pixy.com/recall. Дополнительную информацию можно найти, перейдя на www.pixy.com и кликнув по ссылке 'Recalls' внизу страницы. Snap активно связывается со всеми известными покупателями.",
+          "metaDescription": "Snap отзывает литий-ионные батареи для летающих камер Pixy из-за рисков возгорания. Узнайте, как участвовать в отзыве и получить возврат.",
+          "Products": [
+            {
+              "Name": "Перезаряжаемая литий-ионная батарея для летающих камер Pixy",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 71,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванная батарея для летающей камеры Pixy"
+            },
+            {
+              "Caption": "Летающая камера Pixy с отозванной батареей на зарядном устройстве"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Snap получил четыре сообщения о перегреве и вздутии батареи, что привело к одному небольшому возгоранию батареи и одной незначительной травме."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Доступно онлайн на Pixy.com и Amazon.com с мая 2022 года по декабрь 2023 года, цена от 185 до 250 долларов за летающую камеру Pixy или комплект 'Flight Pack', от 40 до 50 долларов за дополнительное зарядное устройство/батарею и от 16 до 20 долларов за батарею, продаваемую отдельно."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Snap LLC., Санта-Моника, Калифорния"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Продается в",
+          "ManufacturerCountries": [
+            {
+              "Country": "Китай"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Риск возгорания из-за потенциального перегрева литий-ионной батареи"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Потребители должны немедленно прекратить использование летающей камеры Pixy, вынуть батарею и прекратить ее зарядку. Им следует посетить www.pixy.com для получения рекомендаций по участию в отзыве, получению возврата и безопасной утилизации батареи в соответствии с местными нормами. Возвраты также доступны для летающей камеры Pixy и других аксессуаров."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Возврат"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "Snap thu hồi pin lithium-ion cho máy ảnh bay Pixy do nguy cơ cháy",
+          "Description": "Snap đã phát động một đợt thu hồi pin lithium-ion sạc lại đi kèm với máy ảnh bay Pixy. Chiếc máy ảnh nhỏ gọn này, có khả năng chụp ảnh và quay video, có kích thước khoảng năm inch x bốn inch và có màu vàng. Pin, cũng có màu vàng, dài khoảng ba inch và rộng nửa inch. Có một nguy cơ cháy đáng kể liên quan đến pin này vì nó có thể quá nhiệt trong quá trình sử dụng.",
+          "ConsumerContact": "Để được hỗ trợ, người tiêu dùng có thể liên hệ với đường dây nóng thu hồi của Snap qua số 800-269-6990, có sẵn 24/7. Họ cũng có thể gửi email đến support@pixy.com hoặc truy cập https://support.pixy.com/recall. Thông tin thêm có thể được tìm thấy bằng cách truy cập www.pixy.com và nhấp vào liên kết 'Recalls' ở cuối trang. Snap đang chủ động liên hệ với tất cả những người mua đã biết.",
+          "metaDescription": "Snap thu hồi pin lithium-ion cho máy ảnh bay Pixy do nguy cơ cháy. Tìm hiểu cách tham gia vào đợt thu hồi và nhận lại tiền.",
+          "Products": [
+            {
+              "Name": "Pin Lithium-Ion Sạc Lại cho Máy Ảnh Bay Pixy",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 71.000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Pin bị thu hồi cho Máy Ảnh Bay Pixy"
+            },
+            {
+              "Caption": "Máy Ảnh Bay Pixy với pin bị thu hồi trên bộ sạc"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Snap đã nhận được bốn báo cáo về pin quá nhiệt và phồng lên, dẫn đến một vụ cháy pin nhỏ và một chấn thương nhẹ."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Có sẵn trực tuyến tại Pixy.com và Amazon.com từ tháng 5 năm 2022 đến tháng 12 năm 2023, có giá từ 185 đến 250 đô la cho máy ảnh bay Pixy hoặc gói 'Flight Pack', từ 40 đến 50 đô la cho bộ sạc/pin bổ sung, và từ 16 đến 20 đô la cho pin bán riêng lẻ."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Snap LLC., tại Santa Monica, California"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Bán Tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Trung Quốc"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Nguy cơ cháy do khả năng quá nhiệt của pin lithium-ion"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Người tiêu dùng phải ngừng sử dụng máy ảnh bay Pixy ngay lập tức, tháo pin ra và ngừng sạc. Họ nên truy cập www.pixy.com để được hướng dẫn tham gia vào đợt thu hồi, nhận lại tiền và xử lý pin một cách an toàn theo quy định địa phương. Hoàn tiền cũng có sẵn cho máy ảnh bay Pixy và các phụ kiện khác."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Hoàn tiền"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    }
+  ]
+}

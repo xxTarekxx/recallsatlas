@@ -1,0 +1,2681 @@
+{
+  "meta": {
+    "slug": "pressure-washers",
+    "sourceCsvFile": "pressure-washers_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:37.044Z",
+    "recallCount": 3,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "pressure-washers.json",
+    "seoTranslatedAt": "2026-04-05T03:11:30.195Z",
+    "resumePartial": false,
+    "i18nSource": "generalRecallsTranslated",
+    "i18nSourceFile": "pressure-washers.json",
+    "i18nUiLangs": [
+      "en",
+      "es",
+      "ar",
+      "zh",
+      "fr",
+      "de",
+      "ja",
+      "pt",
+      "hi",
+      "ru",
+      "vi"
+    ],
+    "i18nProgressByLang": {
+      "es": 3,
+      "ar": 3,
+      "zh": 3,
+      "fr": 3,
+      "de": 3,
+      "ja": 3,
+      "pt": 3,
+      "hi": 3,
+      "ru": 3,
+      "vi": 3
+    },
+    "i18nInProgress": false,
+    "i18nTranslatedAt": "2026-04-07T18:37:27.017Z",
+    "i18nOpenaiModel": "gpt-4o-mini"
+  },
+  "recalls": [
+    {
+      "RecallID": 10583,
+      "RecallNumber": "26224",
+      "RecallDate": "2026-01-29T00:00:00",
+      "Description": "Northern Tool + Equipment has issued a recall for three models of NorthStar pressure washers due to a potential fire hazard. The affected models include the NorthStar Gas Wet Steam and Hot Water Pressure Washer (item number 157310), NorthStar Gas Hot Water Commercial Pressure Washer (item number 157594), and NorthStar Trailer-Mounted Hot Water Commercial Pressure Washer (item number 157595). Only units with specific serial and burner date codes are included in this recall. The relevant codes can be found on labels located on the engine and other parts of the washers.\n\nConsumers are advised to check their pressure washers for a MONTHYEAR code between 0125 (January 2025) and 0825 (August 2025) and a WEEKYEAR burner date code between 0125 and 2625. If your unit falls within these parameters, it is crucial to stop using it immediately and seek repair to prevent any fire incidents.",
+      "URL": "https://www.cpsc.gov/Recalls/2026/Northern-Tool-Equipment-Recalls-Hot-Water-Pressure-Washers-Due-to-Fire-Hazard",
+      "Title": "Northern Tool + Equipment Recalls NorthStar Hot Water Pressure Washers Due to Fire Risk",
+      "ConsumerContact": "For more information, contact Northern Tool + Equipment at 888-518-0342 from 8 a.m. to 5 p.m. CT, Monday through Friday, via email at inquiry@northerntool.com, or visit www.northerntool.com/recall-details-pw. You can also find details under 'Product Recalls' on their website.",
+      "LastPublishDate": "2026-01-29T00:00:00",
+      "Products": [
+        {
+          "Name": "NorthStar Gas Wet Steam and Hot Water Pressure Washer",
+          "NumberOfUnits": "About 1,416"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/pressure-washers/1-NorthStar-Gas-Wet-Steam-and-Hot-Water-Pressure-Washer/335d00c82eeabee056823f8647bac6be.webp",
+          "Caption": "NorthStar Gas Wet Steam and Hot Water Pressure Washer (Item #157310)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/NorthStar-1.png"
+        },
+        {
+          "URL": "/images/generalRecalls/pressure-washers/1-NorthStar-Gas-Wet-Steam-and-Hot-Water-Pressure-Washer/c8d1d12f83210622b9e4489a805300c0.webp",
+          "Caption": "NorthStar Gas Wet Steam and Hot Water Pressure Washer (Item #157310) - Serial number location on engine and burner date code location under battery box",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/NorthStar-2.png"
+        },
+        {
+          "URL": "/images/generalRecalls/pressure-washers/1-NorthStar-Gas-Wet-Steam-and-Hot-Water-Pressure-Washer/b0088f72faaa33f956019eae3714b077.webp",
+          "Caption": "NorthStar Gas Hot Water Commercial Pressure Washer Skid (Item # 157594)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/NorthStar-3.png"
+        },
+        {
+          "URL": "/images/generalRecalls/pressure-washers/1-NorthStar-Gas-Wet-Steam-and-Hot-Water-Pressure-Washer/b3d5361580f0196657ca674398b907da.webp",
+          "Caption": "NorthStar Gas Hot Water Commercial Pressure Washer Skid (Item # 157594) - Serial number location on engine and burner date code location under ball valve assembly",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/NorthStar-4.png"
+        },
+        {
+          "URL": "/images/generalRecalls/pressure-washers/1-NorthStar-Gas-Wet-Steam-and-Hot-Water-Pressure-Washer/998cb03c9e2eb2b748c5f0d162efdee0.webp",
+          "Caption": "NorthStar Trailer-Mounted Hot Water Commercial Pressure Washer (Item #157595)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/NorthStar-5.png"
+        },
+        {
+          "URL": "/images/generalRecalls/pressure-washers/1-NorthStar-Gas-Wet-Steam-and-Hot-Water-Pressure-Washer/ff85b97fe00fb6f5583e42eb5c815e74.webp",
+          "Caption": "NorthStar Trailer-Mounted Hot Water Commercial Pressure Washer (Item #157595) - Serial number location on engine and burner date code location under NorthStar logo",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/NorthStar-6.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "Northern Tool + Equipment Manufacturing, of Faribault, Minnesota"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available at Northern Tool + Equipment stores nationwide and online at NorthernTool.com, Amazon.com, Ebay.com, and GNEDI.com from January 2025 through August 2025, priced between $5,000 and $10,000."
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "United States"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of fire due to fan wheel failure causing abnormal burner operation"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Request a free repair from an authorized technician at a Northern Tool + Equipment service center or an authorized third-party servicer."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ],
+      "slug": "northern-tool-equipment-recalls-northstar-hot-water-pressure-washers-due-to-fire-risk-recall",
+      "metaDescription": "Northern Tool recalls NorthStar Hot Water Pressure Washers due to fire hazards. Check your model and stop using it immediately.",
+      "languages": {
+        "en": {
+          "Title": "Northern Tool + Equipment Recalls NorthStar Hot Water Pressure Washers Due to Fire Risk",
+          "Description": "Northern Tool + Equipment has issued a recall for three models of NorthStar pressure washers due to a potential fire hazard. The affected models include the NorthStar Gas Wet Steam and Hot Water Pressure Washer (item number 157310), NorthStar Gas Hot Water Commercial Pressure Washer (item number 157594), and NorthStar Trailer-Mounted Hot Water Commercial Pressure Washer (item number 157595). Only units with specific serial and burner date codes are included in this recall. The relevant codes can be found on labels located on the engine and other parts of the washers.\n\nConsumers are advised to check their pressure washers for a MONTHYEAR code between 0125 (January 2025) and 0825 (August 2025) and a WEEKYEAR burner date code between 0125 and 2625. If your unit falls within these parameters, it is crucial to stop using it immediately and seek repair to prevent any fire incidents.",
+          "ConsumerContact": "For more information, contact Northern Tool + Equipment at 888-518-0342 from 8 a.m. to 5 p.m. CT, Monday through Friday, via email at inquiry@northerntool.com, or visit www.northerntool.com/recall-details-pw. You can also find details under 'Product Recalls' on their website.",
+          "metaDescription": "Northern Tool recalls NorthStar Hot Water Pressure Washers due to fire hazards. Check your model and stop using it immediately.",
+          "Products": [
+            {
+              "Name": "NorthStar Gas Wet Steam and Hot Water Pressure Washer",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 1,416"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "NorthStar Gas Wet Steam and Hot Water Pressure Washer (Item #157310)"
+            },
+            {
+              "Caption": "NorthStar Gas Wet Steam and Hot Water Pressure Washer (Item #157310) - Serial number location on engine and burner date code location under battery box"
+            },
+            {
+              "Caption": "NorthStar Gas Hot Water Commercial Pressure Washer Skid (Item # 157594)"
+            },
+            {
+              "Caption": "NorthStar Gas Hot Water Commercial Pressure Washer Skid (Item # 157594) - Serial number location on engine and burner date code location under ball valve assembly"
+            },
+            {
+              "Caption": "NorthStar Trailer-Mounted Hot Water Commercial Pressure Washer (Item #157595)"
+            },
+            {
+              "Caption": "NorthStar Trailer-Mounted Hot Water Commercial Pressure Washer (Item #157595) - Serial number location on engine and burner date code location under NorthStar logo"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "None reported"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Available at Northern Tool + Equipment stores nationwide and online at NorthernTool.com, Amazon.com, Ebay.com, and GNEDI.com from January 2025 through August 2025, priced between $5,000 and $10,000."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Northern Tool + Equipment Manufacturing, of Faribault, Minnesota"
+            }
+          ],
+          "SoldAtLabel": "Sold At",
+          "ManufacturerCountries": [
+            {
+              "Country": "United States"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risk of fire due to fan wheel failure causing abnormal burner operation"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Request a free repair from an authorized technician at a Northern Tool + Equipment service center or an authorized third-party servicer."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Repair"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "Northern Tool + Equipment recuerda los lavadores a presión de agua caliente NorthStar debido al riesgo de incendio",
+          "Description": "Northern Tool + Equipment ha emitido un retiro para tres modelos de lavadores a presión NorthStar debido a un posible peligro de incendio. Los modelos afectados incluyen el Lavador a Presión de Agua Caliente y Vapor Húmedo a Gas NorthStar (número de artículo 157310), el Lavador a Presión Comercial de Agua Caliente a Gas NorthStar (número de artículo 157594) y el Lavador a Presión Comercial de Agua Caliente Montado en Remolque NorthStar (número de artículo 157595). Solo las unidades con códigos de serie y fecha de quemador específicos están incluidas en este retiro. Los códigos relevantes se pueden encontrar en las etiquetas ubicadas en el motor y otras partes de los lavadores.\n\nSe aconseja a los consumidores que revisen sus lavadores a presión en busca de un código de MESAÑO entre 0125 (enero de 2025) y 0825 (agosto de 2025) y un código de fecha de quemador de SEMANAÑO entre 0125 y 2625. Si su unidad se encuentra dentro de estos parámetros, es crucial dejar de usarla de inmediato y buscar reparación para prevenir cualquier incidente de incendio.",
+          "ConsumerContact": "Para más información, comuníquese con Northern Tool + Equipment al 888-518-0342 de 8 a.m. a 5 p.m. CT, de lunes a viernes, por correo electrónico a inquiry@northerntool.com, o visite www.northerntool.com/recall-details-pw. También puede encontrar detalles en 'Retiro de Productos' en su sitio web.",
+          "metaDescription": "Northern Tool retira los lavadores a presión de agua caliente NorthStar debido a peligros de incendio. Verifique su modelo y deje de usarlo de inmediato.",
+          "Products": [
+            {
+              "Name": "Lavador a Presión de Agua Caliente y Vapor Húmedo a Gas NorthStar",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 1,416"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Lavador a Presión de Agua Caliente y Vapor Húmedo a Gas NorthStar (Artículo #157310)"
+            },
+            {
+              "Caption": "Lavador a Presión de Agua Caliente y Vapor Húmedo a Gas NorthStar (Artículo #157310) - Ubicación del número de serie en el motor y ubicación del código de fecha del quemador debajo de la caja de la batería"
+            },
+            {
+              "Caption": "Lavador a Presión Comercial de Agua Caliente a Gas NorthStar Skid (Artículo # 157594)"
+            },
+            {
+              "Caption": "Lavador a Presión Comercial de Agua Caliente a Gas NorthStar Skid (Artículo # 157594) - Ubicación del número de serie en el motor y ubicación del código de fecha del quemador debajo del ensamblaje de la válvula de bola"
+            },
+            {
+              "Caption": "Lavador a Presión Comercial de Agua Caliente Montado en Remolque NorthStar (Artículo #157595)"
+            },
+            {
+              "Caption": "Lavador a Presión Comercial de Agua Caliente Montado en Remolque NorthStar (Artículo #157595) - Ubicación del número de serie en el motor y ubicación del código de fecha del quemador debajo del logo de NorthStar"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Ninguno reportado"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible en las tiendas Northern Tool + Equipment en todo el país y en línea en NorthernTool.com, Amazon.com, Ebay.com y GNEDI.com desde enero de 2025 hasta agosto de 2025, con precios entre $5,000 y $10,000."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Northern Tool + Equipment Manufacturing, de Faribault, Minnesota"
+            }
+          ],
+          "SoldAtLabel": "Vendido En",
+          "ManufacturerCountries": [
+            {
+              "Country": "Estados Unidos"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Riesgo de incendio debido a la falla de la rueda del ventilador que causa un funcionamiento anormal del quemador"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Solicitar una reparación gratuita de un técnico autorizado en un centro de servicio de Northern Tool + Equipment o un proveedor de servicios autorizado de terceros."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparación"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "شركة نورتن تول + المعدات تستدعي غسالات الضغط بالماء الساخن NorthStar بسبب خطر الحريق",
+          "Description": "أصدرت شركة نورتن تول + المعدات استدعاء لثلاثة طرازات من غسالات الضغط NorthStar بسبب خطر الحريق المحتمل. تشمل الطرازات المتأثرة غسالة الضغط بالماء الساخن والبخار الغازية NorthStar (رقم العنصر 157310)، وغسالة الضغط التجارية بالماء الساخن الغازية NorthStar (رقم العنصر 157594)، وغسالة الضغط التجارية بالماء الساخن المركبة على مقطورة NorthStar (رقم العنصر 157595). تشمل هذه الاستدعاء فقط الوحدات التي تحمل رموز تسلسلية وتواريخ حرق محددة. يمكن العثور على الرموز ذات الصلة على الملصقات الموجودة على المحرك وأجزاء أخرى من الغسالات.\n\nيُنصح المستهلكون بفحص غسالات الضغط الخاصة بهم بحثًا عن رمز MONTHYEAR بين 0125 (يناير 2025) و 0825 (أغسطس 2025) ورمز تاريخ حرق WEEKYEAR بين 0125 و 2625. إذا كانت وحدتك تقع ضمن هذه المعايير، فمن الضروري التوقف عن استخدامها على الفور وطلب الإصلاح لمنع أي حوادث حريق.",
+          "ConsumerContact": "لمزيد من المعلومات، اتصل بشركة نورتن تول + المعدات على الرقم 888-518-0342 من الساعة 8 صباحًا حتى 5 مساءً بتوقيت وسط أمريكا، من الاثنين إلى الجمعة، عبر البريد الإلكتروني inquiry@northerntool.com، أو قم بزيارة www.northerntool.com/recall-details-pw. يمكنك أيضًا العثور على التفاصيل تحت 'استدعاءات المنتجات' على موقعهم الإلكتروني.",
+          "metaDescription": "تستدعي شركة نورتن تول غسالات الضغط بالماء الساخن NorthStar بسبب مخاطر الحريق. تحقق من طرازك وتوقف عن استخدامه على الفور.",
+          "Products": [
+            {
+              "Name": "غسالة الضغط بالماء الساخن والبخار الغازية NorthStar",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 1,416"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "غسالة الضغط بالماء الساخن والبخار الغازية NorthStar (رقم العنصر #157310)"
+            },
+            {
+              "Caption": "غسالة الضغط بالماء الساخن والبخار الغازية NorthStar (رقم العنصر #157310) - موقع رقم التسلسل على المحرك وموقع رمز تاريخ الحرق تحت صندوق البطارية"
+            },
+            {
+              "Caption": "غسالة الضغط التجارية بالماء الساخن الغازية NorthStar (رقم العنصر # 157594)"
+            },
+            {
+              "Caption": "غسالة الضغط التجارية بالماء الساخن الغازية NorthStar (رقم العنصر # 157594) - موقع رقم التسلسل على المحرك وموقع رمز تاريخ الحرق تحت مجموعة صمام الكرة"
+            },
+            {
+              "Caption": "غسالة الضغط التجارية بالماء الساخن المركبة على مقطورة NorthStar (رقم العنصر #157595)"
+            },
+            {
+              "Caption": "غسالة الضغط التجارية بالماء الساخن المركبة على مقطورة NorthStar (رقم العنصر #157595) - موقع رقم التسلسل على المحرك وموقع رمز تاريخ الحرق تحت شعار NorthStar"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "لا توجد إصابات مسجلة"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "متاحة في متاجر نورتن تول + المعدات في جميع أنحاء البلاد وعبر الإنترنت على NorthernTool.com و Amazon.com و Ebay.com و GNEDI.com من يناير 2025 حتى أغسطس 2025، بأسعار تتراوح بين 5,000 دولار و 10,000 دولار."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "شركة نورتن تول + المعدات، من فاريبولت، مينيسوتا"
+            }
+          ],
+          "SoldAtLabel": "تباع في",
+          "ManufacturerCountries": [
+            {
+              "Country": "الولايات المتحدة"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "خطر الحريق بسبب فشل عجلة المروحة مما يؤدي إلى تشغيل غير طبيعي للموقد"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "طلب إصلاح مجاني من فني معتمد في مركز خدمة نورتن تول + المعدات أو من مزود خدمة طرف ثالث معتمد."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "إصلاح"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "北方工具 + 设备召回 NorthStar 热水高压清洗机因火灾风险",
+          "Description": "北方工具 + 设备已对三款 NorthStar 高压清洗机发出召回，原因是潜在的火灾危险。受影响的型号包括 NorthStar 燃气湿蒸汽和热水高压清洗机（商品编号 157310）、NorthStar 燃气热水商业高压清洗机（商品编号 157594）和 NorthStar 拖车式热水商业高压清洗机（商品编号 157595）。仅包含具有特定序列号和燃烧器日期代码的设备在此次召回中。相关代码可以在发动机和清洗机其他部件上的标签上找到。\n\n建议消费者检查他们的高压清洗机，查看是否有介于 0125（2025 年 1 月）和 0825（2025 年 8 月）之间的 MONTHYEAR 代码，以及介于 0125 和 2625 之间的 WEEKYEAR 燃烧器日期代码。如果您的设备符合这些参数，立即停止使用并寻求维修，以防止任何火灾事故。",
+          "ConsumerContact": "如需更多信息，请联系北方工具 + 设备，电话 888-518-0342，工作时间为周一至周五，上午 8 点至下午 5 点（中部时间），或通过电子邮件 inquiry@northerntool.com 联系，或访问 www.northerntool.com/recall-details-pw。您还可以在他们的网站上找到“产品召回”下的详细信息。",
+          "metaDescription": "北方工具召回 NorthStar 热水高压清洗机因火灾危险。检查您的型号并立即停止使用。",
+          "Products": [
+            {
+              "Name": "NorthStar 燃气湿蒸汽和热水高压清洗机",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约 1,416"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "NorthStar 燃气湿蒸汽和热水高压清洗机（商品编号 #157310）"
+            },
+            {
+              "Caption": "NorthStar 燃气湿蒸汽和热水高压清洗机（商品编号 #157310） - 发动机上的序列号位置和电池盒下的燃烧器日期代码位置"
+            },
+            {
+              "Caption": "NorthStar 燃气热水商业高压清洗机滑架（商品编号 #157594）"
+            },
+            {
+              "Caption": "NorthStar 燃气热水商业高压清洗机滑架（商品编号 #157594） - 发动机上的序列号位置和球阀组件下的燃烧器日期代码位置"
+            },
+            {
+              "Caption": "NorthStar 拖车式热水商业高压清洗机（商品编号 #157595）"
+            },
+            {
+              "Caption": "NorthStar 拖车式热水商业高压清洗机（商品编号 #157595） - 发动机上的序列号位置和 NorthStar 标志下的燃烧器日期代码位置"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "没有报告伤害"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "在全国的北方工具 + 设备商店和 NorthernTool.com、Amazon.com、Ebay.com 和 GNEDI.com 在线销售，销售时间为 2025 年 1 月至 2025 年 8 月，价格在 $5,000 到 $10,000 之间。"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "北方工具 + 设备制造，位于明尼苏达州法里博"
+            }
+          ],
+          "SoldAtLabel": "销售地点",
+          "ManufacturerCountries": [
+            {
+              "Country": "美国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "由于风扇轮故障导致燃烧器异常操作的火灾风险"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "请求北方工具 + 设备服务中心或授权第三方服务商的授权技术人员进行免费维修。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "维修"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "Northern Tool + Equipment rappelle les nettoyeurs haute pression NorthStar à eau chaude en raison d'un risque d'incendie",
+          "Description": "Northern Tool + Equipment a émis un rappel pour trois modèles de nettoyeurs haute pression NorthStar en raison d'un potentiel risque d'incendie. Les modèles concernés incluent le nettoyeur haute pression à gaz NorthStar à vapeur humide et à eau chaude (numéro d'article 157310), le nettoyeur haute pression commercial à eau chaude NorthStar à gaz (numéro d'article 157594), et le nettoyeur haute pression commercial à eau chaude monté sur remorque NorthStar (numéro d'article 157595). Seules les unités avec des numéros de série et des codes de date de brûleur spécifiques sont incluses dans ce rappel. Les codes pertinents peuvent être trouvés sur des étiquettes situées sur le moteur et d'autres parties des nettoyeurs.\n\nLes consommateurs sont invités à vérifier leurs nettoyeurs haute pression pour un code MONTHYEAR entre 0125 (janvier 2025) et 0825 (août 2025) et un code de date de brûleur WEEKYEAR entre 0125 et 2625. Si votre unité se situe dans ces paramètres, il est crucial de cesser de l'utiliser immédiatement et de demander une réparation pour prévenir tout incident d'incendie.",
+          "ConsumerContact": "Pour plus d'informations, contactez Northern Tool + Equipment au 888-518-0342 de 8 h à 17 h CT, du lundi au vendredi, par e-mail à inquiry@northerntool.com, ou visitez www.northerntool.com/recall-details-pw. Vous pouvez également trouver des détails sous 'Rappels de produits' sur leur site web.",
+          "metaDescription": "Northern Tool rappelle les nettoyeurs haute pression NorthStar à eau chaude en raison de risques d'incendie. Vérifiez votre modèle et cessez de l'utiliser immédiatement.",
+          "Products": [
+            {
+              "Name": "Nettoyeur haute pression à gaz NorthStar à vapeur humide et à eau chaude",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 1 416"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Nettoyeur haute pression à gaz NorthStar à vapeur humide et à eau chaude (Article #157310)"
+            },
+            {
+              "Caption": "Nettoyeur haute pression à gaz NorthStar à vapeur humide et à eau chaude (Article #157310) - Emplacement du numéro de série sur le moteur et emplacement du code de date de brûleur sous la boîte de batterie"
+            },
+            {
+              "Caption": "Nettoyeur haute pression commercial à eau chaude NorthStar à gaz Skid (Article # 157594)"
+            },
+            {
+              "Caption": "Nettoyeur haute pression commercial à eau chaude NorthStar à gaz Skid (Article # 157594) - Emplacement du numéro de série sur le moteur et emplacement du code de date de brûleur sous l'assemblage de la vanne à boule"
+            },
+            {
+              "Caption": "Nettoyeur haute pression commercial à eau chaude monté sur remorque NorthStar (Article #157595)"
+            },
+            {
+              "Caption": "Nettoyeur haute pression commercial à eau chaude monté sur remorque NorthStar (Article #157595) - Emplacement du numéro de série sur le moteur et emplacement du code de date de brûleur sous le logo NorthStar"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Aucun rapporté"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible dans les magasins Northern Tool + Equipment à travers le pays et en ligne sur NorthernTool.com, Amazon.com, Ebay.com, et GNEDI.com de janvier 2025 à août 2025, au prix compris entre 5 000 $ et 10 000 $."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Northern Tool + Equipment Manufacturing, de Faribault, Minnesota"
+            }
+          ],
+          "SoldAtLabel": "Vendu À",
+          "ManufacturerCountries": [
+            {
+              "Country": "États-Unis"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risque d'incendie en raison d'une défaillance de la roue du ventilateur provoquant un fonctionnement anormal du brûleur"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Demander une réparation gratuite auprès d'un technicien autorisé dans un centre de service Northern Tool + Equipment ou auprès d'un prestataire tiers autorisé."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Réparation"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "Northern Tool + Equipment ruft NorthStar Heißwasser-Hochdruckreiniger aufgrund von Brandgefahr zurück",
+          "Description": "Northern Tool + Equipment hat einen Rückruf für drei Modelle von NorthStar-Hochdruckreinigern aufgrund einer potenziellen Brandgefahr herausgegeben. Die betroffenen Modelle umfassen den NorthStar Gas Nassdampf- und Heißwasser-Hochdruckreiniger (Artikelnummer 157310), den NorthStar Gas Heißwasser-Gewerbe-Hochdruckreiniger (Artikelnummer 157594) und den NorthStar Anhänger-Montierten Heißwasser-Gewerbe-Hochdruckreiniger (Artikelnummer 157595). Nur Geräte mit bestimmten Serien- und Brennerdatumscodes sind in diesem Rückruf enthalten. Die relevanten Codes sind auf Etiketten zu finden, die sich am Motor und an anderen Teilen der Reiniger befinden.\n\nVerbraucher werden geraten, ihre Hochdruckreiniger auf einen MONATJAHR-Code zwischen 0125 (Januar 2025) und 0825 (August 2025) sowie einen WOCHENJAHR-Brennerdatumscode zwischen 0125 und 2625 zu überprüfen. Wenn Ihr Gerät innerhalb dieser Parameter liegt, ist es entscheidend, die Nutzung sofort einzustellen und eine Reparatur zu suchen, um Brandvorfälle zu vermeiden.",
+          "ConsumerContact": "Für weitere Informationen kontaktieren Sie Northern Tool + Equipment unter 888-518-0342 von 8 bis 17 Uhr CT, Montag bis Freitag, per E-Mail an inquiry@northerntool.com oder besuchen Sie www.northerntool.com/recall-details-pw. Sie finden auch Details unter 'Produkt-Rückrufe' auf ihrer Website.",
+          "metaDescription": "Northern Tool ruft NorthStar Heißwasser-Hochdruckreiniger aufgrund von Brandgefahren zurück. Überprüfen Sie Ihr Modell und stellen Sie die Nutzung sofort ein.",
+          "Products": [
+            {
+              "Name": "NorthStar Gas Nassdampf- und Heißwasser-Hochdruckreiniger",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 1.416"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "NorthStar Gas Nassdampf- und Heißwasser-Hochdruckreiniger (Artikel #157310)"
+            },
+            {
+              "Caption": "NorthStar Gas Nassdampf- und Heißwasser-Hochdruckreiniger (Artikel #157310) - Seriennummernstandort am Motor und Brennerdatumscode-Standort unter der Batteriebox"
+            },
+            {
+              "Caption": "NorthStar Gas Heißwasser-Gewerbe-Hochdruckreiniger Skid (Artikel # 157594)"
+            },
+            {
+              "Caption": "NorthStar Gas Heißwasser-Gewerbe-Hochdruckreiniger Skid (Artikel # 157594) - Seriennummernstandort am Motor und Brennerdatumscode-Standort unter der Kugelhahnmontage"
+            },
+            {
+              "Caption": "NorthStar Anhänger-Montierter Heißwasser-Gewerbe-Hochdruckreiniger (Artikel #157595)"
+            },
+            {
+              "Caption": "NorthStar Anhänger-Montierter Heißwasser-Gewerbe-Hochdruckreiniger (Artikel #157595) - Seriennummernstandort am Motor und Brennerdatumscode-Standort unter dem NorthStar-Logo"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Keine gemeldet"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Erhältlich in Northern Tool + Equipment-Filialen landesweit und online bei NorthernTool.com, Amazon.com, Ebay.com und GNEDI.com von Januar 2025 bis August 2025, preislich zwischen 5.000 und 10.000 US-Dollar."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Northern Tool + Equipment Manufacturing, aus Faribault, Minnesota"
+            }
+          ],
+          "SoldAtLabel": "Verkauft bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "Vereinigte Staaten"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Brandgefahr aufgrund eines Ausfalls des Lüfterrades, der zu abnormalem Brennerbetrieb führt"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Fordern Sie eine kostenlose Reparatur von einem autorisierten Techniker in einem Northern Tool + Equipment-Servicezentrum oder von einem autorisierten Drittanbieter an."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparatur"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "ノーザンツール + 設備が火災リスクのためNorthStar温水高圧洗浄機をリコール",
+          "Description": "ノーザンツール + 設備は、潜在的な火災の危険性のため、3つのモデルのNorthStar高圧洗浄機をリコールしました。対象となるモデルは、NorthStarガス湿蒸気および温水高圧洗浄機（アイテム番号157310）、NorthStarガス温水商業用高圧洗浄機（アイテム番号157594）、およびNorthStarトレーラー取り付け型温水商業用高圧洗浄機（アイテム番号157595）です。特定のシリアル番号およびバーナー日付コードを持つユニットのみがこのリコールに含まれています。関連コードは、エンジンや洗浄機の他の部品にあるラベルに記載されています。\n\n消費者は、0125（2025年1月）から0825（2025年8月）までのMONTHYEARコードと、0125から2625までのWEEKYEARバーナー日付コードを持つかどうか、洗浄機を確認することをお勧めします。あなたのユニットがこれらのパラメータに該当する場合は、直ちに使用を中止し、火災事故を防ぐために修理を求めることが重要です。",
+          "ConsumerContact": "詳細については、ノーザンツール + 設備に連絡してください。電話番号は888-518-0342で、営業時間は月曜日から金曜日の午前8時から午後5時（中央時間）です。メールでの問い合わせはinquiry@northerntool.comまで、またはwww.northerntool.com/recall-details-pwを訪れてください。彼らのウェブサイトの「製品リコール」セクションでも詳細を確認できます。",
+          "metaDescription": "ノーザンツールが火災の危険性のためNorthStar温水高圧洗浄機をリコールします。モデルを確認し、直ちに使用を中止してください。",
+          "Products": [
+            {
+              "Name": "NorthStarガス湿蒸気および温水高圧洗浄機",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約1,416"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "NorthStarガス湿蒸気および温水高圧洗浄機（アイテム番号#157310）"
+            },
+            {
+              "Caption": "NorthStarガス湿蒸気および温水高圧洗浄機（アイテム番号#157310） - エンジン上のシリアル番号の位置とバッテリーボックス下のバーナー日付コードの位置"
+            },
+            {
+              "Caption": "NorthStarガス温水商業用高圧洗浄機スキッド（アイテム番号#157594）"
+            },
+            {
+              "Caption": "NorthStarガス温水商業用高圧洗浄機スキッド（アイテム番号#157594） - エンジン上のシリアル番号の位置とボールバルブアセンブリ下のバーナー日付コードの位置"
+            },
+            {
+              "Caption": "NorthStarトレーラー取り付け型温水商業用高圧洗浄機（アイテム番号#157595）"
+            },
+            {
+              "Caption": "NorthStarトレーラー取り付け型温水商業用高圧洗浄機（アイテム番号#157595） - エンジン上のシリアル番号の位置とNorthStarロゴ下のバーナー日付コードの位置"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "報告された怪我はありません"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "ノーザンツール + 設備の店舗で全国的に、またはNorthernTool.com、Amazon.com、Ebay.com、GNEDI.comで2025年1月から2025年8月まで入手可能で、価格は5,000ドルから10,000ドルの間です。"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "ミネソタ州ファリバルトのノーザンツール + 設備製造"
+            }
+          ],
+          "SoldAtLabel": "販売場所",
+          "ManufacturerCountries": [
+            {
+              "Country": "アメリカ合衆国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "ファンホイールの故障による異常なバーナー動作による火災のリスク"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "ノーザンツール + 設備のサービスセンターまたは認定された第三者サービス業者にて、認定技術者による無料修理を依頼してください。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "修理"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "Northern Tool + Equipment faz recall de Lavadoras de Pressão a Água Quente NorthStar devido ao risco de incêndio",
+          "Description": "A Northern Tool + Equipment emitiu um recall para três modelos de lavadoras de pressão NorthStar devido a um potencial risco de incêndio. Os modelos afetados incluem a Lavadora de Pressão a Gás NorthStar com Vapor Úmido e Água Quente (número do item 157310), Lavadora de Pressão Comercial a Gás NorthStar com Água Quente (número do item 157594) e Lavadora de Pressão Comercial a Gás NorthStar Montada em Trailer com Água Quente (número do item 157595). Apenas unidades com códigos de série e data do queimador específicos estão incluídas neste recall. Os códigos relevantes podem ser encontrados em rótulos localizados no motor e em outras partes das lavadoras.\n\nOs consumidores são aconselhados a verificar suas lavadoras de pressão para um código de MONTHYEAR entre 0125 (janeiro de 2025) e 0825 (agosto de 2025) e um código de data do queimador WEEKYEAR entre 0125 e 2625. Se sua unidade estiver dentro desses parâmetros, é crucial parar de usá-la imediatamente e buscar reparo para evitar quaisquer incidentes de incêndio.",
+          "ConsumerContact": "Para mais informações, entre em contato com a Northern Tool + Equipment pelo telefone 888-518-0342 das 8h às 17h CT, de segunda a sexta-feira, pelo e-mail inquiry@northerntool.com, ou visite www.northerntool.com/recall-details-pw. Você também pode encontrar detalhes em 'Recall de Produtos' em seu site.",
+          "metaDescription": "Northern Tool faz recall das Lavadoras de Pressão a Água Quente NorthStar devido a riscos de incêndio. Verifique seu modelo e pare de usá-lo imediatamente.",
+          "Products": [
+            {
+              "Name": "Lavadora de Pressão a Gás NorthStar com Vapor Úmido e Água Quente",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 1.416"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Lavadora de Pressão a Gás NorthStar com Vapor Úmido e Água Quente (Item #157310)"
+            },
+            {
+              "Caption": "Lavadora de Pressão a Gás NorthStar com Vapor Úmido e Água Quente (Item #157310) - Localização do número de série no motor e localização do código de data do queimador sob a caixa da bateria"
+            },
+            {
+              "Caption": "Lavadora de Pressão Comercial a Gás NorthStar com Água Quente Skid (Item # 157594)"
+            },
+            {
+              "Caption": "Lavadora de Pressão Comercial a Gás NorthStar com Água Quente Skid (Item # 157594) - Localização do número de série no motor e localização do código de data do queimador sob o conjunto da válvula de esfera"
+            },
+            {
+              "Caption": "Lavadora de Pressão Comercial a Gás NorthStar Montada em Trailer com Água Quente (Item #157595)"
+            },
+            {
+              "Caption": "Lavadora de Pressão Comercial a Gás NorthStar Montada em Trailer com Água Quente (Item #157595) - Localização do número de série no motor e localização do código de data do queimador sob o logotipo NorthStar"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Nenhuma relatada"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponível nas lojas Northern Tool + Equipment em todo o país e online em NorthernTool.com, Amazon.com, Ebay.com e GNEDI.com de janeiro de 2025 a agosto de 2025, com preços entre $5.000 e $10.000."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Northern Tool + Equipment Manufacturing, de Faribault, Minnesota"
+            }
+          ],
+          "SoldAtLabel": "Vendido Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "Estados Unidos"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risco de incêndio devido à falha da roda do ventilador causando operação anormal do queimador"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Solicite um reparo gratuito de um técnico autorizado em um centro de serviço da Northern Tool + Equipment ou de um prestador de serviços autorizado de terceiros."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparo"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "नॉर्दर्न टूल + उपकरण ने आग के जोखिम के कारण नॉर्थस्टार हॉट वॉटर प्रेशर वाशर्स की रिकॉल की",
+          "Description": "नॉर्दर्न टूल + उपकरण ने संभावित आग के खतरे के कारण नॉर्थस्टार प्रेशर वाशर्स के तीन मॉडलों की रिकॉल की है। प्रभावित मॉडलों में नॉर्थस्टार गैस वेट स्टीम और हॉट वॉटर प्रेशर वाशर (आइटम नंबर 157310), नॉर्थस्टार गैस हॉट वॉटर कमर्शियल प्रेशर वाशर (आइटम नंबर 157594), और नॉर्थस्टार ट्रेलर-माउंटेड हॉट वॉटर कमर्शियल प्रेशर वाशर (आइटम नंबर 157595) शामिल हैं। केवल विशेष सीरियल और बर्नर डेट कोड वाले यूनिट्स इस रिकॉल में शामिल हैं। संबंधित कोड वाशर्स के इंजन और अन्य भागों पर स्थित लेबल पर पाए जा सकते हैं।\n\nउपभोक्ताओं को सलाह दी जाती है कि वे अपने प्रेशर वाशर्स की जांच करें कि क्या उनमें 0125 (जनवरी 2025) और 0825 (अगस्त 2025) के बीच का MONTHYEAR कोड और 0125 और 2625 के बीच का WEEKYEAR बर्नर डेट कोड है। यदि आपका यूनिट इन मानकों के भीतर आता है, तो इसे तुरंत उपयोग करना बंद करना और किसी भी आग की घटना को रोकने के लिए मरम्मत की तलाश करना महत्वपूर्ण है।",
+          "ConsumerContact": "अधिक जानकारी के लिए, नॉर्दर्न टूल + उपकरण से 888-518-0342 पर सुबह 8 बजे से शाम 5 बजे CT, सोमवार से शुक्रवार, ईमेल inquiry@northerntool.com पर संपर्क करें, या www.northerntool.com/recall-details-pw पर जाएं। आप उनकी वेबसाइट पर 'उत्पाद रिकॉल' के तहत विवरण भी पा सकते हैं।",
+          "metaDescription": "नॉर्दर्न टूल ने आग के खतरों के कारण नॉर्थस्टार हॉट वॉटर प्रेशर वाशर्स की रिकॉल की। अपने मॉडल की जांच करें और तुरंत उपयोग करना बंद करें।",
+          "Products": [
+            {
+              "Name": "नॉर्थस्टार गैस वेट स्टीम और हॉट वॉटर प्रेशर वाशर",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 1,416"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "नॉर्थस्टार गैस वेट स्टीम और हॉट वॉटर प्रेशर वाशर (आइटम #157310)"
+            },
+            {
+              "Caption": "नॉर्थस्टार गैस वेट स्टीम और हॉट वॉटर प्रेशर वाशर (आइटम #157310) - इंजन पर सीरियल नंबर स्थान और बैटरी बॉक्स के नीचे बर्नर डेट कोड स्थान"
+            },
+            {
+              "Caption": "नॉर्थस्टार गैस हॉट वॉटर कमर्शियल प्रेशर वाशर स्किड (आइटम # 157594)"
+            },
+            {
+              "Caption": "नॉर्थस्टार गैस हॉट वॉटर कमर्शियल प्रेशर वाशर स्किड (आइटम # 157594) - इंजन पर सीरियल नंबर स्थान और बॉल वाल्व असेंबली के नीचे बर्नर डेट कोड स्थान"
+            },
+            {
+              "Caption": "नॉर्थस्टार ट्रेलर-माउंटेड हॉट वॉटर कमर्शियल प्रेशर वाशर (आइटम #157595)"
+            },
+            {
+              "Caption": "नॉर्थस्टार ट्रेलर-माउंटेड हॉट वॉटर कमर्शियल प्रेशर वाशर (आइटम #157595) - इंजन पर सीरियल नंबर स्थान और नॉर्थस्टार लोगो के नीचे बर्नर डेट कोड स्थान"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "कोई रिपोर्ट नहीं"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "नॉर्दर्न टूल + उपकरण स्टोर्स में देशभर में और NorthernTool.com, Amazon.com, Ebay.com, और GNEDI.com पर जनवरी 2025 से अगस्त 2025 तक उपलब्ध, कीमत $5,000 से $10,000 के बीच।"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "नॉर्दर्न टूल + उपकरण मैन्युफैक्चरिंग, फैरिबॉल्ट, मिनेसोटा"
+            }
+          ],
+          "SoldAtLabel": "बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "संयुक्त राज्य अमेरिका"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "फैन व्हील की विफलता के कारण असामान्य बर्नर संचालन के कारण आग का जोखिम"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "नॉर्दर्न टूल + उपकरण सेवा केंद्र या अधिकृत तीसरे पक्ष के सेवा प्रदाता पर एक अधिकृत तकनीशियन से मुफ्त मरम्मत का अनुरोध करें।"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "मरम्मत"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "Northern Tool + Equipment отзывает горячие водяные мойки NorthStar из-за риска возгорания",
+          "Description": "Компания Northern Tool + Equipment объявила об отзыве трех моделей водяных моек NorthStar из-за потенциальной угрозы возгорания. Пострадавшие модели включают водяную мойку NorthStar Gas Wet Steam and Hot Water (номер товара 157310), водяную мойку NorthStar Gas Hot Water Commercial (номер товара 157594) и водяную мойку NorthStar Trailer-Mounted Hot Water Commercial (номер товара 157595). В этот отзыв включены только устройства с определенными серийными номерами и кодами даты горелки. Соответствующие коды можно найти на ярлыках, расположенных на двигателе и других частях моек.\n\nПотребителям рекомендуется проверить свои водяные мойки на наличие кода MONTHYEAR между 0125 (январь 2025 года) и 0825 (август 2025 года) и кода даты горелки WEEKYEAR между 0125 и 2625. Если ваше устройство попадает под эти параметры, крайне важно немедленно прекратить его использование и обратиться за ремонтом, чтобы предотвратить любые инциденты с возгоранием.",
+          "ConsumerContact": "Для получения дополнительной информации свяжитесь с Northern Tool + Equipment по телефону 888-518-0342 с 8:00 до 17:00 по центральному времени с понедельника по пятницу, по электронной почте inquiry@northerntool.com или посетите www.northerntool.com/recall-details-pw. Вы также можете найти детали в разделе 'Отзыв продукции' на их сайте.",
+          "metaDescription": "Northern Tool отзывает горячие водяные мойки NorthStar из-за угрозы возгорания. Проверьте свою модель и немедленно прекратите ее использование.",
+          "Products": [
+            {
+              "Name": "Водяная мойка NorthStar Gas Wet Steam and Hot Water",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 1,416"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Водяная мойка NorthStar Gas Wet Steam and Hot Water (номер товара #157310)"
+            },
+            {
+              "Caption": "Водяная мойка NorthStar Gas Wet Steam and Hot Water (номер товара #157310) - Место расположения серийного номера на двигателе и место расположения кода даты горелки под аккумуляторным блоком"
+            },
+            {
+              "Caption": "Водяная мойка NorthStar Gas Hot Water Commercial Skid (номер товара #157594)"
+            },
+            {
+              "Caption": "Водяная мойка NorthStar Gas Hot Water Commercial Skid (номер товара #157594) - Место расположения серийного номера на двигателе и место расположения кода даты горелки под сборкой шарового клапана"
+            },
+            {
+              "Caption": "Водяная мойка NorthStar Trailer-Mounted Hot Water Commercial (номер товара #157595)"
+            },
+            {
+              "Caption": "Водяная мойка NorthStar Trailer-Mounted Hot Water Commercial (номер товара #157595) - Место расположения серийного номера на двигателе и место расположения кода даты горелки под логотипом NorthStar"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Не сообщалось"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Доступно в магазинах Northern Tool + Equipment по всей стране и онлайн на NorthernTool.com, Amazon.com, Ebay.com и GNEDI.com с января 2025 года по август 2025 года, по цене от 5,000 до 10,000 долларов."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Northern Tool + Equipment Manufacturing, город Фариболт, штат Миннесота"
+            }
+          ],
+          "SoldAtLabel": "Продается в",
+          "ManufacturerCountries": [
+            {
+              "Country": "Соединенные Штаты"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Риск возгорания из-за неисправности вентилятора, вызывающей аномальную работу горелки"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Запросите бесплатный ремонт у авторизованного техника в сервисном центре Northern Tool + Equipment или у авторизованного стороннего сервисного центра."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Ремонт"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "Northern Tool + Equipment thu hồi máy rửa áp lực nước nóng NorthStar do nguy cơ cháy",
+          "Description": "Northern Tool + Equipment đã phát động một đợt thu hồi cho ba mẫu máy rửa áp lực NorthStar do nguy cơ cháy tiềm ẩn. Các mẫu bị ảnh hưởng bao gồm máy rửa áp lực nước nóng và hơi nước ướt gas NorthStar (số mặt hàng 157310), máy rửa áp lực nước nóng thương mại gas NorthStar (số mặt hàng 157594), và máy rửa áp lực nước nóng thương mại gắn trên xe kéo NorthStar (số mặt hàng 157595). Chỉ các đơn vị có mã số sê-ri và mã ngày đốt cụ thể mới được bao gồm trong đợt thu hồi này. Các mã liên quan có thể được tìm thấy trên nhãn dán nằm trên động cơ và các bộ phận khác của máy rửa.\n\nNgười tiêu dùng được khuyên nên kiểm tra máy rửa áp lực của họ để tìm mã MONTHYEAR giữa 0125 (tháng 1 năm 2025) và 0825 (tháng 8 năm 2025) và mã ngày đốt WEEKYEAR giữa 0125 và 2625. Nếu đơn vị của bạn nằm trong các tham số này, điều quan trọng là ngừng sử dụng ngay lập tức và tìm kiếm sửa chữa để ngăn ngừa bất kỳ sự cố cháy nào.",
+          "ConsumerContact": "Để biết thêm thông tin, hãy liên hệ với Northern Tool + Equipment qua số 888-518-0342 từ 8 giờ sáng đến 5 giờ chiều CT, từ thứ Hai đến thứ Sáu, qua email tại inquiry@northerntool.com, hoặc truy cập www.northerntool.com/recall-details-pw. Bạn cũng có thể tìm thấy chi tiết trong mục 'Sản phẩm bị thu hồi' trên trang web của họ.",
+          "metaDescription": "Northern Tool thu hồi máy rửa áp lực nước nóng NorthStar do nguy cơ cháy. Kiểm tra mẫu của bạn và ngừng sử dụng ngay lập tức.",
+          "Products": [
+            {
+              "Name": "Máy rửa áp lực nước nóng và hơi nước ướt gas NorthStar",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 1.416"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Máy rửa áp lực nước nóng và hơi nước ướt gas NorthStar (Mặt hàng #157310)"
+            },
+            {
+              "Caption": "Máy rửa áp lực nước nóng và hơi nước ướt gas NorthStar (Mặt hàng #157310) - Vị trí số sê-ri trên động cơ và vị trí mã ngày đốt dưới hộp ắc quy"
+            },
+            {
+              "Caption": "Máy rửa áp lực nước nóng thương mại gas NorthStar Skid (Mặt hàng # 157594)"
+            },
+            {
+              "Caption": "Máy rửa áp lực nước nóng thương mại gas NorthStar Skid (Mặt hàng # 157594) - Vị trí số sê-ri trên động cơ và vị trí mã ngày đốt dưới cụm van bi"
+            },
+            {
+              "Caption": "Máy rửa áp lực nước nóng thương mại gắn trên xe kéo NorthStar (Mặt hàng #157595)"
+            },
+            {
+              "Caption": "Máy rửa áp lực nước nóng thương mại gắn trên xe kéo NorthStar (Mặt hàng #157595) - Vị trí số sê-ri trên động cơ và vị trí mã ngày đốt dưới logo NorthStar"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Không có báo cáo"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Có sẵn tại các cửa hàng Northern Tool + Equipment trên toàn quốc và trực tuyến tại NorthernTool.com, Amazon.com, Ebay.com, và GNEDI.com từ tháng 1 năm 2025 đến tháng 8 năm 2025, với giá từ 5.000 đến 10.000 đô la."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Northern Tool + Equipment Manufacturing, tại Faribault, Minnesota"
+            }
+          ],
+          "SoldAtLabel": "Bán Tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Hoa Kỳ"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Nguy cơ cháy do sự cố bánh quạt quạt gây ra hoạt động đốt bất thường"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Yêu cầu sửa chữa miễn phí từ kỹ thuật viên được ủy quyền tại trung tâm dịch vụ Northern Tool + Equipment hoặc một nhà cung cấp dịch vụ bên thứ ba được ủy quyền."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Sửa chữa"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    },
+    {
+      "RecallID": 10395,
+      "RecallNumber": "25452",
+      "RecallDate": "2025-08-28T00:00:00",
+      "Description": "TTI Outdoor Power Equipment has issued a recall for specific models of RYOBI brushless electric pressure washers, namely the RY142300 and RY142711VNM. These units are identifiable by their green color, a spray nozzle, a blue-capped detergent tank, and accessory storage. The model number and serial numbers can be found on the data plate located on the side of the motor housing. The affected serial numbers for the RY142300 range from EU17121D010001 to RG23182N140999, while the RY142711VNM serial numbers range from LT21411D090001 to RG23182N140999.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/TTI-Outdoor-Power-Equipment-Recalls-RYOBI-Pressure-Washers-Due-to-Projectile-Hazard-Risk-of-Serious-Injury",
+      "Title": "RYOBI Electric Pressure Washers Recalled Due to Potential Projectile Hazard",
+      "ConsumerContact": "For more information, consumers can contact TTI Outdoor Power Equipment at 800-597-9624 from 9 a.m. to 5 p.m. ET, Monday through Friday, or visit https://www.ryobitools.com/recall. Additional details can be found by clicking on \"Important Recall Information\" at the bottom of the RYOBI website.",
+      "LastPublishDate": "2025-08-29T00:00:00",
+      "Products": [
+        {
+          "Name": "RYOBI Brushless Electric Pressure Washer Model RY142300",
+          "NumberOfUnits": "About 764,000 (In addition, about 16,000 were sold in Canada)"
+        }
+      ],
+      "Inconjunctions": [
+        {
+          "URL": "https://recalls-rappels.canada.ca/en/alert-recall/certain-ryobi-2300-psi-12gpm-and-2700-psi-11gpm-electric-pressure-washers-recalled-due"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/pressure-washers/2-RYOBI-Brushless-Electric-Pressure-Washer-Model-RY142300/3c309b0abfeab1dac8cf90e9d1544730.webp",
+          "Caption": "Recalled Ryobi Electric Pressure Washer, model RY14230",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/pressure-1.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/pressure-washers/2-RYOBI-Brushless-Electric-Pressure-Washer-Model-RY142300/aa8e43eba9a7cc3e449e444f6e933c31.webp",
+          "Caption": "Recalled Ryobi Electric Pressure Washer, model RY142711VNM",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/pressure-2.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/pressure-washers/2-RYOBI-Brushless-Electric-Pressure-Washer-Model-RY142300/c12488e5e6760d204f6a64c22e5c50d9.webp",
+          "Caption": "The model and serial number can be found on the data plate located on the side of the motor housing",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/pressure-3.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "TTI Outdoor Power Equipment has received 135 reports of capacitors overheating, including 41 reports of explosions, resulting in 32 injuries and/or fractures to the fingers, hands, face, and eyes."
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "TTI Outdoor Power Equipment, Inc. (TTIOPE), of Anderson, South Carolina"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available at Home Depot and Direct Tools Factory Outlet stores nationwide, as well as online at homedepot.com and directtoolsoutlet.com, from July 2017 through June 2024, priced between $300 and $400."
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "Vietnam"
+        },
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Capacitor overheating and bursting, leading to ejected parts that may cause serious injury."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers must cease use of the recalled pressure washers and check https://www.ryobitools.com/recall to see if their unit is affected. A free repair kit, including a replacement capacitor and installation instructions, will be provided. No proof of purchase is necessary."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ],
+      "slug": "ryobi-electric-pressure-washers-recalled-due-to-potential-projectile-hazard-recall",
+      "metaDescription": "RYOBI recalls electric pressure washers due to a serious projectile hazard. Check if your model is affected and learn how to get a free repair kit.",
+      "languages": {
+        "en": {
+          "Title": "RYOBI Electric Pressure Washers Recalled Due to Potential Projectile Hazard",
+          "Description": "TTI Outdoor Power Equipment has issued a recall for specific models of RYOBI brushless electric pressure washers, namely the RY142300 and RY142711VNM. These units are identifiable by their green color, a spray nozzle, a blue-capped detergent tank, and accessory storage. The model number and serial numbers can be found on the data plate located on the side of the motor housing. The affected serial numbers for the RY142300 range from EU17121D010001 to RG23182N140999, while the RY142711VNM serial numbers range from LT21411D090001 to RG23182N140999.",
+          "ConsumerContact": "For more information, consumers can contact TTI Outdoor Power Equipment at 800-597-9624 from 9 a.m. to 5 p.m. ET, Monday through Friday, or visit https://www.ryobitools.com/recall. Additional details can be found by clicking on \"Important Recall Information\" at the bottom of the RYOBI website.",
+          "metaDescription": "RYOBI recalls electric pressure washers due to a serious projectile hazard. Check if your model is affected and learn how to get a free repair kit.",
+          "Products": [
+            {
+              "Name": "RYOBI Brushless Electric Pressure Washer Model RY142300",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 764,000 (In addition, about 16,000 were sold in Canada)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled Ryobi Electric Pressure Washer, model RY14230"
+            },
+            {
+              "Caption": "Recalled Ryobi Electric Pressure Washer, model RY142711VNM"
+            },
+            {
+              "Caption": "The model and serial number can be found on the data plate located on the side of the motor housing"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "TTI Outdoor Power Equipment has received 135 reports of capacitors overheating, including 41 reports of explosions, resulting in 32 injuries and/or fractures to the fingers, hands, face, and eyes."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Available at Home Depot and Direct Tools Factory Outlet stores nationwide, as well as online at homedepot.com and directtoolsoutlet.com, from July 2017 through June 2024, priced between $300 and $400."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "TTI Outdoor Power Equipment, Inc. (TTIOPE), of Anderson, South Carolina"
+            }
+          ],
+          "SoldAtLabel": "Sold At",
+          "ManufacturerCountries": [
+            {
+              "Country": "Vietnam"
+            },
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Capacitor overheating and bursting, leading to ejected parts that may cause serious injury."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Consumers must cease use of the recalled pressure washers and check https://www.ryobitools.com/recall to see if their unit is affected. A free repair kit, including a replacement capacitor and installation instructions, will be provided. No proof of purchase is necessary."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Repair"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "Lavadoras a presión eléctricas RYOBI retiradas del mercado debido a un posible riesgo de proyectiles",
+          "Description": "TTI Outdoor Power Equipment ha emitido un retiro del mercado para modelos específicos de lavadoras a presión eléctricas sin escobillas RYOBI, a saber, el RY142300 y el RY142711VNM. Estas unidades son identificables por su color verde, una boquilla de pulverización, un tanque de detergente con tapa azul y almacenamiento de accesorios. El número de modelo y los números de serie se pueden encontrar en la placa de datos ubicada en el costado de la carcasa del motor. Los números de serie afectados para el RY142300 varían desde EU17121D010001 hasta RG23182N140999, mientras que los números de serie del RY142711VNM varían desde LT21411D090001 hasta RG23182N140999.",
+          "ConsumerContact": "Para más información, los consumidores pueden contactar a TTI Outdoor Power Equipment al 800-597-9624 de 9 a.m. a 5 p.m. ET, de lunes a viernes, o visitar https://www.ryobitools.com/recall. Se pueden encontrar detalles adicionales haciendo clic en \"Información Importante sobre el Retiro\" en la parte inferior del sitio web de RYOBI.",
+          "metaDescription": "RYOBI retira lavadoras a presión eléctricas debido a un grave riesgo de proyectiles. Verifique si su modelo está afectado y aprenda cómo obtener un kit de reparación gratuito.",
+          "Products": [
+            {
+              "Name": "Lavadora a presión eléctrica sin escobillas RYOBI modelo RY142300",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 764,000 (Además, se vendieron aproximadamente 16,000 en Canadá)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Lavadora a presión eléctrica Ryobi retirada del mercado, modelo RY14230"
+            },
+            {
+              "Caption": "Lavadora a presión eléctrica Ryobi retirada del mercado, modelo RY142711VNM"
+            },
+            {
+              "Caption": "El modelo y el número de serie se pueden encontrar en la placa de datos ubicada en el costado de la carcasa del motor"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "TTI Outdoor Power Equipment ha recibido 135 informes de sobrecalentamiento de capacitores, incluidos 41 informes de explosiones, resultando en 32 lesiones y/o fracturas en los dedos, manos, cara y ojos."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible en Home Depot y tiendas Direct Tools Factory Outlet en todo el país, así como en línea en homedepot.com y directtoolsoutlet.com, desde julio de 2017 hasta junio de 2024, con precios entre $300 y $400."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "TTI Outdoor Power Equipment, Inc. (TTIOPE), de Anderson, Carolina del Sur"
+            }
+          ],
+          "SoldAtLabel": "Vendido En",
+          "ManufacturerCountries": [
+            {
+              "Country": "Vietnam"
+            },
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Sobrecalentamiento y explosión del capacitor, lo que lleva a la expulsión de partes que pueden causar lesiones graves."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Los consumidores deben cesar el uso de las lavadoras a presión retiradas del mercado y verificar https://www.ryobitools.com/recall para ver si su unidad está afectada. Se proporcionará un kit de reparación gratuito, que incluye un capacitor de reemplazo e instrucciones de instalación. No se requiere comprobante de compra."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparar"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "استدعاء غسالات الضغط الكهربائية RYOBI بسبب خطر المقذوفات المحتمل",
+          "Description": "أصدرت شركة TTI لمعدات الطاقة الخارجية استدعاءً لنماذج محددة من غسالات الضغط الكهربائية RYOBI بدون فرش، وهي RY142300 وRY142711VNM. يمكن التعرف على هذه الوحدات من خلال لونها الأخضر، وفوهة الرش، وخزان المنظفات ذو الغطاء الأزرق، وتخزين الملحقات. يمكن العثور على رقم الطراز وأرقام السلاسل على لوحة البيانات الموجودة على جانب غلاف المحرك. تتراوح أرقام السلاسل المتأثرة لـ RY142300 من EU17121D010001 إلى RG23182N140999، بينما تتراوح أرقام السلاسل لـ RY142711VNM من LT21411D090001 إلى RG23182N140999.",
+          "ConsumerContact": "لمزيد من المعلومات، يمكن للمستهلكين الاتصال بشركة TTI لمعدات الطاقة الخارجية على الرقم 800-597-9624 من الساعة 9 صباحًا حتى 5 مساءً بتوقيت شرق الولايات المتحدة، من الاثنين إلى الجمعة، أو زيارة https://www.ryobitools.com/recall. يمكن العثور على تفاصيل إضافية من خلال النقر على \"معلومات الاستدعاء الهامة\" في أسفل موقع RYOBI.",
+          "metaDescription": "تستدعي RYOBI غسالات الضغط الكهربائية بسبب خطر المقذوفات الخطير. تحقق مما إذا كان طرازك متأثرًا وتعلم كيفية الحصول على مجموعة إصلاح مجانية.",
+          "Products": [
+            {
+              "Name": "غسالة الضغط الكهربائية RYOBI بدون فرش طراز RY142300",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 764,000 (بالإضافة إلى ذلك، تم بيع حوالي 16,000 في كندا)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "غسالة الضغط الكهربائية المستدعاة من Ryobi، الطراز RY14230"
+            },
+            {
+              "Caption": "غسالة الضغط الكهربائية المستدعاة من Ryobi، الطراز RY142711VNM"
+            },
+            {
+              "Caption": "يمكن العثور على رقم الطراز ورقم السلسلة على لوحة البيانات الموجودة على جانب غلاف المحرك"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "تلقت شركة TTI لمعدات الطاقة الخارجية 135 تقريرًا عن ارتفاع درجة حرارة المكثفات، بما في ذلك 41 تقريرًا عن انفجارات، مما أسفر عن 32 إصابة و/أو كسور في الأصابع، واليدين، والوجه، والعينين."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "متاحة في متاجر Home Depot وDirect Tools Factory Outlet في جميع أنحاء البلاد، بالإضافة إلى الإنترنت على homedepot.com وdirecttoolsoutlet.com، من يوليو 2017 حتى يونيو 2024، بسعر يتراوح بين 300 و400 دولار."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "شركة TTI لمعدات الطاقة الخارجية، Inc. (TTIOPE)، من أندرسون، كارولينا الجنوبية"
+            }
+          ],
+          "SoldAtLabel": "تم البيع في",
+          "ManufacturerCountries": [
+            {
+              "Country": "فيتنام"
+            },
+            {
+              "Country": "الصين"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "ارتفاع درجة حرارة المكثف وانفجاره، مما يؤدي إلى طرد أجزاء قد تسبب إصابات خطيرة."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "يجب على المستهلكين التوقف عن استخدام غسالات الضغط المستدعاة والتحقق من https://www.ryobitools.com/recall لمعرفة ما إذا كانت وحدتهم متأثرة. سيتم توفير مجموعة إصلاح مجانية، بما في ذلك مكثف بديل وتعليمات التركيب. لا حاجة لإثبات الشراء."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "إصلاح"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "RYOBI 电动高压清洗机因潜在飞射危险被召回",
+          "Description": "TTI 户外电力设备公司已对特定型号的 RYOBI 无刷电动高压清洗机发出召回通知，具体型号为 RY142300 和 RY142711VNM。这些设备的颜色为绿色，配有喷嘴、蓝色盖的清洁剂罐和配件存储。型号和序列号可以在电机外壳侧面的数据板上找到。RY142300 的受影响序列号范围为 EU17121D010001 到 RG23182N140999，而 RY142711VNM 的序列号范围为 LT21411D090001 到 RG23182N140999。",
+          "ConsumerContact": "如需更多信息，消费者可以在东部时间周一至周五上午 9 点至下午 5 点拨打 800-597-9624 联系 TTI 户外电力设备公司，或访问 https://www.ryobitools.com/recall。更多详细信息可以通过点击 RYOBI 网站底部的“重要召回信息”找到。",
+          "metaDescription": "RYOBI 因严重飞射危险召回电动高压清洗机。检查您的型号是否受到影响，并了解如何获取免费维修包。",
+          "Products": [
+            {
+              "Name": "RYOBI 无刷电动高压清洗机型号 RY142300",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约 764,000 台（此外，约 16,000 台在加拿大销售）"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "被召回的 Ryobi 电动高压清洗机，型号 RY14230"
+            },
+            {
+              "Caption": "被召回的 Ryobi 电动高压清洗机，型号 RY142711VNM"
+            },
+            {
+              "Caption": "型号和序列号可以在电机外壳侧面的数据板上找到"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "TTI 户外电力设备公司已收到 135 起电容器过热的报告，其中包括 41 起爆炸报告，导致 32 人受伤和/或手指、手、面部和眼睛骨折。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "在全国的家得宝和直接工具工厂直销店有售，以及在 homedepot.com 和 directtoolsoutlet.com 在线销售，销售时间为 2017 年 7 月至 2024 年 6 月，价格在 300 到 400 美元之间。"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "TTI 户外电力设备公司（TTIOPE），位于南卡罗来纳州安德森"
+            }
+          ],
+          "SoldAtLabel": "销售地点",
+          "ManufacturerCountries": [
+            {
+              "Country": "越南"
+            },
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "电容器过热和爆裂，导致飞出的部件可能造成严重伤害。"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "消费者必须停止使用被召回的高压清洗机，并检查 https://www.ryobitools.com/recall 以查看他们的设备是否受到影响。将提供免费维修包，包括更换电容器和安装说明。无需提供购买证明。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "维修"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "Rappel des nettoyeurs haute pression électriques RYOBI en raison d'un risque potentiel de projectile",
+          "Description": "TTI Outdoor Power Equipment a émis un rappel pour des modèles spécifiques de nettoyeurs haute pression électriques sans balais RYOBI, à savoir le RY142300 et le RY142711VNM. Ces unités sont identifiables par leur couleur verte, une buse de pulvérisation, un réservoir de détergent avec un capuchon bleu, et un rangement pour accessoires. Le numéro de modèle et les numéros de série peuvent être trouvés sur la plaque de données située sur le côté du boîtier du moteur. Les numéros de série affectés pour le RY142300 vont de EU17121D010001 à RG23182N140999, tandis que les numéros de série du RY142711VNM vont de LT21411D090001 à RG23182N140999.",
+          "ConsumerContact": "Pour plus d'informations, les consommateurs peuvent contacter TTI Outdoor Power Equipment au 800-597-9624 de 9 h à 17 h HNE, du lundi au vendredi, ou visiter https://www.ryobitools.com/recall. Des détails supplémentaires peuvent être trouvés en cliquant sur \"Informations importantes sur le rappel\" en bas du site Web de RYOBI.",
+          "metaDescription": "RYOBI rappelle des nettoyeurs haute pression électriques en raison d'un risque sérieux de projectile. Vérifiez si votre modèle est affecté et apprenez comment obtenir un kit de réparation gratuit.",
+          "Products": [
+            {
+              "Name": "Nettoyeur haute pression électrique sans balais RYOBI modèle RY142300",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 764 000 (De plus, environ 16 000 ont été vendus au Canada)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Nettoyeur haute pression électrique Ryobi rappelé, modèle RY14230"
+            },
+            {
+              "Caption": "Nettoyeur haute pression électrique Ryobi rappelé, modèle RY142711VNM"
+            },
+            {
+              "Caption": "Le modèle et le numéro de série peuvent être trouvés sur la plaque de données située sur le côté du boîtier du moteur"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "TTI Outdoor Power Equipment a reçu 135 rapports de surchauffe de condensateurs, y compris 41 rapports d'explosions, entraînant 32 blessures et/ou fractures aux doigts, mains, visage et yeux."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible chez Home Depot et Direct Tools Factory Outlet dans tout le pays, ainsi qu'en ligne sur homedepot.com et directtoolsoutlet.com, de juillet 2017 à juin 2024, au prix compris entre 300 $ et 400 $."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "TTI Outdoor Power Equipment, Inc. (TTIOPE), d'Anderson, Caroline du Sud"
+            }
+          ],
+          "SoldAtLabel": "Vendu chez",
+          "ManufacturerCountries": [
+            {
+              "Country": "Vietnam"
+            },
+            {
+              "Country": "Chine"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Surchauffe et éclatement du condensateur, entraînant l'éjection de pièces pouvant causer des blessures graves."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Les consommateurs doivent cesser d'utiliser les nettoyeurs haute pression rappelés et vérifier https://www.ryobitools.com/recall pour voir si leur unité est affectée. Un kit de réparation gratuit, comprenant un condensateur de remplacement et des instructions d'installation, sera fourni. Aucune preuve d'achat n'est nécessaire."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Réparation"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "RYOBI Elektrische Hochdruckreiniger zurückgerufen aufgrund potenzieller Projektile Gefahr",
+          "Description": "TTI Outdoor Power Equipment hat einen Rückruf für bestimmte Modelle von RYOBI bürstenlosen elektrischen Hochdruckreinigern herausgegeben, nämlich den RY142300 und RY142711VNM. Diese Geräte sind an ihrer grünen Farbe, einer Spritzdüse, einem blau gekappten Reinigungsmitteltank und der Aufbewahrung von Zubehör zu erkennen. Die Modellnummer und die Seriennummern befinden sich auf dem Typenschild an der Seite des Motorhauses. Die betroffenen Seriennummern für den RY142300 reichen von EU17121D010001 bis RG23182N140999, während die Seriennummern des RY142711VNM von LT21411D090001 bis RG23182N140999 reichen.",
+          "ConsumerContact": "Für weitere Informationen können Verbraucher TTI Outdoor Power Equipment unter 800-597-9624 von 9 bis 17 Uhr ET, Montag bis Freitag, kontaktieren oder die Website https://www.ryobitools.com/recall besuchen. Weitere Details finden Sie, indem Sie auf \"Wichtige Rückrufinformationen\" am Ende der RYOBI-Website klicken.",
+          "metaDescription": "RYOBI ruft elektrische Hochdruckreiniger aufgrund einer ernsthaften Projektile Gefahr zurück. Überprüfen Sie, ob Ihr Modell betroffen ist, und erfahren Sie, wie Sie ein kostenloses Reparaturset erhalten.",
+          "Products": [
+            {
+              "Name": "RYOBI Bürstenloser Elektrischer Hochdruckreiniger Modell RY142300",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 764.000 (Zusätzlich wurden etwa 16.000 in Kanada verkauft)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Zurückgerufener Ryobi Elektrischer Hochdruckreiniger, Modell RY14230"
+            },
+            {
+              "Caption": "Zurückgerufener Ryobi Elektrischer Hochdruckreiniger, Modell RY142711VNM"
+            },
+            {
+              "Caption": "Die Modell- und Seriennummer finden Sie auf dem Typenschild an der Seite des Motorhauses"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "TTI Outdoor Power Equipment hat 135 Berichte über überhitzte Kondensatoren erhalten, darunter 41 Berichte über Explosionen, die zu 32 Verletzungen und/oder Frakturen an Fingern, Händen, Gesicht und Augen führten."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Erhältlich bei Home Depot und Direct Tools Factory Outlet Geschäften landesweit sowie online unter homedepot.com und directtoolsoutlet.com, von Juli 2017 bis Juni 2024, zu Preisen zwischen 300 und 400 US-Dollar."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "TTI Outdoor Power Equipment, Inc. (TTIOPE), aus Anderson, South Carolina"
+            }
+          ],
+          "SoldAtLabel": "Verkauft Bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "Vietnam"
+            },
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Überhitzung und Bersten des Kondensators, was zu herausgeschleuderten Teilen führen kann, die ernsthafte Verletzungen verursachen können."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Verbraucher müssen die Nutzung der zurückgerufenen Hochdruckreiniger einstellen und https://www.ryobitools.com/recall überprüfen, um zu sehen, ob ihr Gerät betroffen ist. Ein kostenloses Reparaturset, einschließlich eines Ersatzkondensators und Installationsanweisungen, wird bereitgestellt. Kein Kaufnachweis erforderlich."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparatur"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "RYOBI電動高圧洗浄機が潜在的な飛来物危険のためリコール",
+          "Description": "TTIアウトドアパワー機器は、特定のモデルのRYOBIブラシレス電動高圧洗浄機、すなわちRY142300およびRY142711VNMのリコールを発表しました。これらのユニットは緑色で、スプレーノズル、青いキャップの洗剤タンク、アクセサリーストレージが特徴です。モデル番号とシリアル番号は、モーターケースの側面にあるデータプレートに記載されています。RY142300の対象シリアル番号はEU17121D010001からRG23182N140999まで、RY142711VNMのシリアル番号はLT21411D090001からRG23182N140999までです。",
+          "ConsumerContact": "詳細については、消費者はTTIアウトドアパワー機器に、月曜日から金曜日の午前9時から午後5時（ET）まで800-597-9624に連絡するか、https://www.ryobitools.com/recallを訪問してください。RYOBIウェブサイトの下部にある「重要なリコール情報」をクリックすることで、追加の詳細を見つけることができます。",
+          "metaDescription": "RYOBIは深刻な飛来物危険のため電動高圧洗浄機をリコールします。自分のモデルが影響を受けているか確認し、無料の修理キットを取得する方法を学んでください。",
+          "Products": [
+            {
+              "Name": "RYOBIブラシレス電動高圧洗浄機モデルRY142300",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約764,000台（さらに、約16,000台がカナダで販売されました）"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコールされたRyobi電動高圧洗浄機、モデルRY14230"
+            },
+            {
+              "Caption": "リコールされたRyobi電動高圧洗浄機、モデルRY142711VNM"
+            },
+            {
+              "Caption": "モデル番号とシリアル番号は、モーターケースの側面にあるデータプレートに記載されています"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "TTIアウトドアパワー機器は、コンデンサーの過熱に関する135件の報告を受けており、その中には41件の爆発報告が含まれており、32件の怪我や指、手、顔、目の骨折が発生しています。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "全国のホームデポおよびダイレクトツールファクトリーアウトレット店舗、ならびにhomedepot.comおよびdirecttoolsoutlet.comで、2017年7月から2024年6月まで販売されており、価格は300ドルから400ドルの間です。"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "TTIアウトドアパワー機器株式会社（TTIOPE）、サウスカロライナ州アンダーソン"
+            }
+          ],
+          "SoldAtLabel": "販売場所",
+          "ManufacturerCountries": [
+            {
+              "Country": "ベトナム"
+            },
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "コンデンサーの過熱と破裂により、飛び出した部品が深刻な怪我を引き起こす可能性があります。"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "消費者はリコールされた高圧洗浄機の使用を中止し、https://www.ryobitools.com/recallを確認して自分のユニットが影響を受けているか確認する必要があります。交換用コンデンサーと取り付け手順を含む無料の修理キットが提供されます。購入証明は必要ありません。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "修理"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "Lavadoras de Pressão Elétricas RYOBI Recalladas Devido a Potencial Perigo de Projétil",
+          "Description": "A TTI Outdoor Power Equipment emitiu um recall para modelos específicos de lavadoras de pressão elétricas sem escovas RYOBI, nomeadamente a RY142300 e a RY142711VNM. Essas unidades são identificáveis pela sua cor verde, um bico de spray, um tanque de detergente com tampa azul e armazenamento de acessórios. O número do modelo e os números de série podem ser encontrados na placa de dados localizada na lateral da carcaça do motor. Os números de série afetados para a RY142300 variam de EU17121D010001 a RG23182N140999, enquanto os números de série da RY142711VNM variam de LT21411D090001 a RG23182N140999.",
+          "ConsumerContact": "Para mais informações, os consumidores podem entrar em contato com a TTI Outdoor Power Equipment pelo telefone 800-597-9624, das 9h às 17h ET, de segunda a sexta-feira, ou visitar https://www.ryobitools.com/recall. Detalhes adicionais podem ser encontrados clicando em \"Informações Importantes sobre o Recall\" na parte inferior do site da RYOBI.",
+          "metaDescription": "A RYOBI recallou lavadoras de pressão elétricas devido a um sério perigo de projétil. Verifique se seu modelo é afetado e aprenda como obter um kit de reparo gratuito.",
+          "Products": [
+            {
+              "Name": "Lavadora de Pressão Elétrica Sem Escovas RYOBI Modelo RY142300",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 764.000 (Além disso, cerca de 16.000 foram vendidas no Canadá)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Lavadora de Pressão Elétrica Ryobi Recallada, modelo RY14230"
+            },
+            {
+              "Caption": "Lavadora de Pressão Elétrica Ryobi Recallada, modelo RY142711VNM"
+            },
+            {
+              "Caption": "O modelo e o número de série podem ser encontrados na placa de dados localizada na lateral da carcaça do motor"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "A TTI Outdoor Power Equipment recebeu 135 relatos de capacitores superaquecendo, incluindo 41 relatos de explosões, resultando em 32 ferimentos e/ou fraturas nos dedos, mãos, rosto e olhos."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponível nas lojas Home Depot e Direct Tools Factory Outlet em todo o país, bem como online em homedepot.com e directtoolsoutlet.com, de julho de 2017 a junho de 2024, com preços entre $300 e $400."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "TTI Outdoor Power Equipment, Inc. (TTIOPE), de Anderson, Carolina do Sul"
+            }
+          ],
+          "SoldAtLabel": "Vendido Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "Vietnã"
+            },
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Superaquecimento e explosão do capacitor, levando a partes ejetadas que podem causar ferimentos graves."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Os consumidores devem interromper o uso das lavadoras de pressão recalladas e verificar https://www.ryobitools.com/recall para ver se sua unidade é afetada. Um kit de reparo gratuito, incluindo um capacitor de substituição e instruções de instalação, será fornecido. Não é necessário comprovante de compra."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparo"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "RYOBI इलेक्ट्रिक प्रेशर वॉशर को संभावित प्रक्षिप्ति खतरे के कारण वापस बुलाया गया",
+          "Description": "TTI आउटडोर पावर उपकरण ने RYOBI ब्रशलेस इलेक्ट्रिक प्रेशर वॉशर के विशिष्ट मॉडलों, अर्थात् RY142300 और RY142711VNM के लिए एक रिकॉल जारी किया है। ये यूनिट्स उनकी हरी रंग, एक स्प्रे नोजल, एक नीले ढक्कन वाला डिटर्जेंट टैंक, और एक्सेसरी स्टोरेज द्वारा पहचानी जा सकती हैं। मॉडल नंबर और सीरियल नंबर मोटर हाउसिंग के किनारे स्थित डेटा प्लेट पर पाए जा सकते हैं। RY142300 के लिए प्रभावित सीरियल नंबर EU17121D010001 से RG23182N140999 के बीच हैं, जबकि RY142711VNM के सीरियल नंबर LT21411D090001 से RG23182N140999 के बीच हैं।",
+          "ConsumerContact": "अधिक जानकारी के लिए, उपभोक्ता TTI आउटडोर पावर उपकरण से 800-597-9624 पर सुबह 9 बजे से शाम 5 बजे ET, सोमवार से शुक्रवार तक संपर्क कर सकते हैं, या https://www.ryobitools.com/recall पर जा सकते हैं। RYOBI वेबसाइट के नीचे \"महत्वपूर्ण रिकॉल जानकारी\" पर क्लिक करके अतिरिक्त विवरण प्राप्त किए जा सकते हैं।",
+          "metaDescription": "RYOBI इलेक्ट्रिक प्रेशर वॉशर को गंभीर प्रक्षिप्ति खतरे के कारण वापस बुलाया गया। जांचें कि क्या आपका मॉडल प्रभावित है और जानें कि मुफ्त मरम्मत किट कैसे प्राप्त करें।",
+          "Products": [
+            {
+              "Name": "RYOBI ब्रशलेस इलेक्ट्रिक प्रेशर वॉशर मॉडल RY142300",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 764,000 (इसके अलावा, लगभग 16,000 कनाडा में बेचे गए)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "वापस बुलाया गया Ryobi इलेक्ट्रिक प्रेशर वॉशर, मॉडल RY14230"
+            },
+            {
+              "Caption": "वापस बुलाया गया Ryobi इलेक्ट्रिक प्रेशर वॉशर, मॉडल RY142711VNM"
+            },
+            {
+              "Caption": "मॉडल और सीरियल नंबर मोटर हाउसिंग के किनारे स्थित डेटा प्लेट पर पाए जा सकते हैं"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "TTI आउटडोर पावर उपकरण को 135 कैपेसिटर के गर्म होने की रिपोर्ट मिली है, जिसमें 41 विस्फोटों की रिपोर्ट शामिल है, जिसके परिणामस्वरूप 32 चोटें और/या अंगुलियों, हाथों, चेहरे और आंखों में फ्रैक्चर हुए।"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "होम डिपो और डायरेक्ट टूल्स फैक्ट्री आउटलेट स्टोर्स में देशभर में उपलब्ध, साथ ही homedepot.com और directtoolsoutlet.com पर ऑनलाइन, जुलाई 2017 से जून 2024 तक, $300 से $400 के बीच की कीमत पर।"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "TTI आउटडोर पावर उपकरण, इंक। (TTIOPE), एंडरसन, दक्षिण कैरोलिना"
+            }
+          ],
+          "SoldAtLabel": "बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "वियतनाम"
+            },
+            {
+              "Country": "चीन"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "कैपेसिटर का गर्म होना और फटना, जिससे निकले हुए भाग गंभीर चोट का कारण बन सकते हैं।"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "उपभोक्ताओं को वापस बुलाए गए प्रेशर वॉशर का उपयोग बंद करना चाहिए और यह देखने के लिए https://www.ryobitools.com/recall की जांच करनी चाहिए कि क्या उनकी यूनिट प्रभावित है। एक मुफ्त मरम्मत किट, जिसमें एक प्रतिस्थापन कैपेसिटर और स्थापना निर्देश शामिल हैं, प्रदान की जाएगी। खरीद का कोई प्रमाण आवश्यक नहीं है।"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "मरम्मत"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "Электрические мойки высокого давления RYOBI отозваны из-за потенциальной опасности снарядов",
+          "Description": "TTI Outdoor Power Equipment объявила об отзыве конкретных моделей бесщеточных электрических моек высокого давления RYOBI, а именно RY142300 и RY142711VNM. Эти устройства можно узнать по их зеленому цвету, распылительному насосу, синей крышке контейнера для моющего средства и хранению аксессуаров. Номер модели и серийные номера можно найти на табличке с данными, расположенной на боковой стороне корпуса мотора. Затронутые серийные номера для RY142300 варьируются от EU17121D010001 до RG23182N140999, в то время как серийные номера RY142711VNM варьируются от LT21411D090001 до RG23182N140999.",
+          "ConsumerContact": "Для получения дополнительной информации потребители могут связаться с TTI Outdoor Power Equipment по телефону 800-597-9624 с 9:00 до 17:00 по восточному времени с понедельника по пятницу или посетить https://www.ryobitools.com/recall. Дополнительные детали можно найти, нажав на \"Важная информация об отзыве\" внизу сайта RYOBI.",
+          "metaDescription": "RYOBI отзывает электрические мойки высокого давления из-за серьезной опасности снарядов. Проверьте, затронута ли ваша модель, и узнайте, как получить бесплатный комплект для ремонта.",
+          "Products": [
+            {
+              "Name": "Бесщеточная электрическая мойка высокого давления RYOBI модель RY142300",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 764,000 (Кроме того, около 16,000 были проданы в Канаде)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванная электрическая мойка высокого давления Ryobi, модель RY14230"
+            },
+            {
+              "Caption": "Отозванная электрическая мойка высокого давления Ryobi, модель RY142711VNM"
+            },
+            {
+              "Caption": "Номер модели и серийный номер можно найти на табличке с данными, расположенной на боковой стороне корпуса мотора"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "TTI Outdoor Power Equipment получила 135 сообщений о перегреве конденсаторов, включая 41 сообщение о взрывах, что привело к 32 травмам и/или переломам пальцев, рук, лица и глаз."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Доступно в магазинах Home Depot и Direct Tools Factory Outlet по всей стране, а также онлайн на homedepot.com и directtoolsoutlet.com с июля 2017 года по июнь 2024 года, по цене от 300 до 400 долларов."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "TTI Outdoor Power Equipment, Inc. (TTIOPE), из Андерсона, Южная Каролина"
+            }
+          ],
+          "SoldAtLabel": "Продается в",
+          "ManufacturerCountries": [
+            {
+              "Country": "Вьетнам"
+            },
+            {
+              "Country": "Китай"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Перегрев и разрыв конденсатора, что приводит к выбросу деталей, которые могут вызвать серьезные травмы."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Потребители должны прекратить использование отозванных моек высокого давления и проверить https://www.ryobitools.com/recall, чтобы узнать, затронуто ли их устройство. Будет предоставлен бесплатный комплект для ремонта, включая замену конденсатора и инструкции по установке. Доказательства покупки не требуются."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Ремонт"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "Máy rửa áp lực điện RYOBI bị thu hồi do nguy cơ vật thể bay",
+          "Description": "TTI Outdoor Power Equipment đã phát động thu hồi cho các mẫu máy rửa áp lực điện không chổi than RYOBI cụ thể, bao gồm RY142300 và RY142711VNM. Các đơn vị này có thể nhận diện bằng màu xanh lá cây, một vòi phun, một bình chứa chất tẩy rửa có nắp màu xanh và kho chứa phụ kiện. Số mô hình và số sê-ri có thể được tìm thấy trên bảng dữ liệu nằm ở bên hông của vỏ động cơ. Các số sê-ri bị ảnh hưởng của RY142300 nằm trong khoảng từ EU17121D010001 đến RG23182N140999, trong khi các số sê-ri của RY142711VNM nằm trong khoảng từ LT21411D090001 đến RG23182N140999.",
+          "ConsumerContact": "Để biết thêm thông tin, người tiêu dùng có thể liên hệ với TTI Outdoor Power Equipment qua số 800-597-9624 từ 9 giờ sáng đến 5 giờ chiều ET, từ thứ Hai đến thứ Sáu, hoặc truy cập https://www.ryobitools.com/recall. Thông tin chi tiết có thể được tìm thấy bằng cách nhấp vào \"Thông tin thu hồi quan trọng\" ở cuối trang web RYOBI.",
+          "metaDescription": "RYOBI thu hồi máy rửa áp lực điện do nguy cơ vật thể bay nghiêm trọng. Kiểm tra xem mô hình của bạn có bị ảnh hưởng và tìm hiểu cách nhận bộ sửa chữa miễn phí.",
+          "Products": [
+            {
+              "Name": "Máy rửa áp lực điện không chổi than RYOBI Mẫu RY142300",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 764,000 (Ngoài ra, khoảng 16,000 đã được bán tại Canada)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Máy rửa áp lực điện Ryobi bị thu hồi, mẫu RY14230"
+            },
+            {
+              "Caption": "Máy rửa áp lực điện Ryobi bị thu hồi, mẫu RY142711VNM"
+            },
+            {
+              "Caption": "Số mô hình và số sê-ri có thể được tìm thấy trên bảng dữ liệu nằm ở bên hông của vỏ động cơ"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "TTI Outdoor Power Equipment đã nhận được 135 báo cáo về tụ điện quá nhiệt, bao gồm 41 báo cáo về vụ nổ, dẫn đến 32 thương tích và/hoặc gãy xương ở ngón tay, tay, mặt và mắt."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Có sẵn tại các cửa hàng Home Depot và Direct Tools Factory Outlet trên toàn quốc, cũng như trực tuyến tại homedepot.com và directtoolsoutlet.com, từ tháng 7 năm 2017 đến tháng 6 năm 2024, với giá từ 300 đến 400 đô la."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "TTI Outdoor Power Equipment, Inc. (TTIOPE), tại Anderson, South Carolina"
+            }
+          ],
+          "SoldAtLabel": "Bán Tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Việt Nam"
+            },
+            {
+              "Country": "Trung Quốc"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Tụ điện quá nhiệt và nổ, dẫn đến các bộ phận bị bắn ra có thể gây thương tích nghiêm trọng."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Người tiêu dùng phải ngừng sử dụng các máy rửa áp lực bị thu hồi và kiểm tra https://www.ryobitools.com/recall để xem đơn vị của họ có bị ảnh hưởng hay không. Một bộ sửa chữa miễn phí, bao gồm một tụ điện thay thế và hướng dẫn lắp đặt, sẽ được cung cấp. Không cần chứng minh mua hàng."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Sửa chữa"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    },
+    {
+      "RecallID": 9813,
+      "RecallNumber": "24070",
+      "RecallDate": "2023-12-28T00:00:00",
+      "Description": "FNA Group has announced a recall of Simpson Gas Pressure Washers, specifically model PS61264. These units are characterized by their black color, featuring the Simpson logo, 'Pro Series,' and a pressure rating of 4400 PSI displayed on the handle. The model number can be found on a silver label affixed to the frame of the washer.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/FNA-Group-Recalls-Simpson-Pressure-Washers-Due-to-Burn-Hazard-Sold-Exclusively-at-Lowes",
+      "Title": "FNA Group Issues Recall for Simpson Gas Pressure Washers Due to Burn Risk; Available Exclusively at Lowe's",
+      "ConsumerContact": "Consumers can reach FNA Group Inc. at their toll-free number 866-733-8468 from 11 a.m. to 6 p.m. ET, Monday to Friday. Alternatively, they can email voluntaryrecall@simpsoncleaning.com or visit https://simpsoncleaning.com/voluntaryrecall for further details.",
+      "LastPublishDate": "2023-12-28T00:00:00",
+      "Products": [
+        {
+          "Name": "Simpson Gas Pressure Washer Model PS61264",
+          "NumberOfUnits": "About 2,930"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/pressure-washers/3-Simpson-Gas-Pressure-Washer-Model-PS61264/c0fe1beec7010ee4c76151afb0e1f8c1.webp",
+          "Caption": "Recalled Simpson pressure washer (Model PS61264)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/image3_34.png"
+        },
+        {
+          "URL": "/images/generalRecalls/pressure-washers/3-Simpson-Gas-Pressure-Washer-Model-PS61264/7d6a0edd7de0a6831954885bdebd2189.webp",
+          "Caption": "Recalled Simpson pressure washer (Model PS61264)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/image2_33.png"
+        },
+        {
+          "URL": "/images/generalRecalls/pressure-washers/3-Simpson-Gas-Pressure-Washer-Model-PS61264/f5f170a910672770b828595ff117e3cb.webp",
+          "Caption": "Recalled Simpson pressure washer Model PS61264 - front view",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/image5_7.png"
+        },
+        {
+          "URL": "/images/generalRecalls/pressure-washers/3-Simpson-Gas-Pressure-Washer-Model-PS61264/a2a6ef60c831c2059381e7673617007f.webp",
+          "Caption": "Recalled Simpson pressure washer Model PS61264 - top view",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/image4_20.png"
+        },
+        {
+          "URL": "/images/generalRecalls/pressure-washers/3-Simpson-Gas-Pressure-Washer-Model-PS61264/cb73fd4732cb30972fa3c3e0fb1a58db.webp",
+          "Caption": "Recalled Simpson pressure washer Model PS61264 - side view",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/image7_3.png"
+        },
+        {
+          "URL": "/images/generalRecalls/pressure-washers/3-Simpson-Gas-Pressure-Washer-Model-PS61264/cea8a9c1c2c3f3f11d7e5deddebfdf51.webp",
+          "Caption": "Recalled Simpson pressure washer Model PS61264 - side view",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/image6_2.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "FNA has received two reports of batteries in the pressure washer's electric start feature overheating and damaging the units. No injuries have been reported."
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "FNA Group Inc., of Pleasant Prairie, Wisconsin"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available at Lowe's stores nationwide and online at lowes.com from March 2023 to July 2023 for approximately $1,100."
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "United States"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Overheating lithium battery in electric start system posing burn risk"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Stop using the recalled pressure washer and contact FNA Group Inc. for free repair instructions, which include replacing the lithium battery with a sealed lead acid battery."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "Model PS61264"
+      ],
+      "slug": "fna-group-issues-recall-for-simpson-gas-pressure-washers-due-to-burn-risk-available-exclusively-at-lowe-s-recall",
+      "metaDescription": "FNA Group recalls Simpson Gas Pressure Washers due to burn hazards. Contact FNA for repair instructions and stop using the product immediately.",
+      "languages": {
+        "en": {
+          "Title": "FNA Group Issues Recall for Simpson Gas Pressure Washers Due to Burn Risk; Available Exclusively at Lowe's",
+          "Description": "FNA Group has announced a recall of Simpson Gas Pressure Washers, specifically model PS61264. These units are characterized by their black color, featuring the Simpson logo, 'Pro Series,' and a pressure rating of 4400 PSI displayed on the handle. The model number can be found on a silver label affixed to the frame of the washer.",
+          "ConsumerContact": "Consumers can reach FNA Group Inc. at their toll-free number 866-733-8468 from 11 a.m. to 6 p.m. ET, Monday to Friday. Alternatively, they can email voluntaryrecall@simpsoncleaning.com or visit https://simpsoncleaning.com/voluntaryrecall for further details.",
+          "metaDescription": "FNA Group recalls Simpson Gas Pressure Washers due to burn hazards. Contact FNA for repair instructions and stop using the product immediately.",
+          "Products": [
+            {
+              "Name": "Simpson Gas Pressure Washer Model PS61264",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 2,930"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled Simpson pressure washer (Model PS61264)"
+            },
+            {
+              "Caption": "Recalled Simpson pressure washer (Model PS61264)"
+            },
+            {
+              "Caption": "Recalled Simpson pressure washer Model PS61264 - front view"
+            },
+            {
+              "Caption": "Recalled Simpson pressure washer Model PS61264 - top view"
+            },
+            {
+              "Caption": "Recalled Simpson pressure washer Model PS61264 - side view"
+            },
+            {
+              "Caption": "Recalled Simpson pressure washer Model PS61264 - side view"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "FNA has received two reports of batteries in the pressure washer's electric start feature overheating and damaging the units. No injuries have been reported."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Available at Lowe's stores nationwide and online at lowes.com from March 2023 to July 2023 for approximately $1,100."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "FNA Group Inc., of Pleasant Prairie, Wisconsin"
+            }
+          ],
+          "SoldAtLabel": "Sold At",
+          "ManufacturerCountries": [
+            {
+              "Country": "United States"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Overheating lithium battery in electric start system posing burn risk"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Stop using the recalled pressure washer and contact FNA Group Inc. for free repair instructions, which include replacing the lithium battery with a sealed lead acid battery."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Repair"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "FNA Group Emite un Recall para Lavadoras a Presión de Gas Simpson Debido al Riesgo de Quemaduras; Disponibles Exclusivamente en Lowe's",
+          "Description": "FNA Group ha anunciado un recall de las Lavadoras a Presión de Gas Simpson, específicamente el modelo PS61264. Estas unidades se caracterizan por su color negro, con el logo de Simpson, 'Pro Series', y una clasificación de presión de 4400 PSI mostrada en el mango. El número de modelo se puede encontrar en una etiqueta plateada adherida al marco de la lavadora.",
+          "ConsumerContact": "Los consumidores pueden comunicarse con FNA Group Inc. a su número gratuito 866-733-8468 de 11 a.m. a 6 p.m. ET, de lunes a viernes. Alternativamente, pueden enviar un correo electrónico a voluntaryrecall@simpsoncleaning.com o visitar https://simpsoncleaning.com/voluntaryrecall para más detalles.",
+          "metaDescription": "FNA Group recuerda las Lavadoras a Presión de Gas Simpson debido a riesgos de quemaduras. Contacte a FNA para instrucciones de reparación y deje de usar el producto de inmediato.",
+          "Products": [
+            {
+              "Name": "Lavadora a Presión de Gas Simpson Modelo PS61264",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 2,930"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Lavadora a presión Simpson retirada (Modelo PS61264)"
+            },
+            {
+              "Caption": "Lavadora a presión Simpson retirada (Modelo PS61264)"
+            },
+            {
+              "Caption": "Lavadora a presión Simpson retirada Modelo PS61264 - vista frontal"
+            },
+            {
+              "Caption": "Lavadora a presión Simpson retirada Modelo PS61264 - vista superior"
+            },
+            {
+              "Caption": "Lavadora a presión Simpson retirada Modelo PS61264 - vista lateral"
+            },
+            {
+              "Caption": "Lavadora a presión Simpson retirada Modelo PS61264 - vista lateral"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "FNA ha recibido dos informes de baterías en la función de arranque eléctrico de la lavadora a presión que se sobrecalientan y dañan las unidades. No se han reportado lesiones."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible en las tiendas Lowe's a nivel nacional y en línea en lowes.com desde marzo de 2023 hasta julio de 2023 por aproximadamente $1,100."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "FNA Group Inc., de Pleasant Prairie, Wisconsin"
+            }
+          ],
+          "SoldAtLabel": "Vendido En",
+          "ManufacturerCountries": [
+            {
+              "Country": "Estados Unidos"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Batería de litio sobrecalentada en el sistema de arranque eléctrico que presenta riesgo de quemaduras"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Deje de usar la lavadora a presión retirada y comuníquese con FNA Group Inc. para obtener instrucciones de reparación gratuitas, que incluyen reemplazar la batería de litio por una batería de plomo sellada."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparar"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "مجموعة FNA تصدر استدعاء لمغسلات الضغط الغازية من سيمبسون بسبب خطر الحروق؛ متاحة حصريًا في لويز",
+          "Description": "أعلنت مجموعة FNA عن استدعاء مغسلات الضغط الغازية من سيمبسون، تحديدًا الطراز PS61264. تتميز هذه الوحدات بلونها الأسود، مع شعار سيمبسون، 'سلسلة برو'، وتصنيف ضغط يبلغ 4400 PSI معروض على المقبض. يمكن العثور على رقم الطراز على ملصق فضي ملصق بإطار المغسلة.",
+          "ConsumerContact": "يمكن للمستهلكين التواصل مع مجموعة FNA Inc. على رقمهم المجاني 866-733-8468 من الساعة 11 صباحًا حتى 6 مساءً بتوقيت شرق الولايات المتحدة، من الاثنين إلى الجمعة. بدلاً من ذلك، يمكنهم إرسال بريد إلكتروني إلى voluntaryrecall@simpsoncleaning.com أو زيارة https://simpsoncleaning.com/voluntaryrecall لمزيد من التفاصيل.",
+          "metaDescription": "تستدعي مجموعة FNA مغسلات الضغط الغازية من سيمبسون بسبب مخاطر الحروق. اتصل بمجموعة FNA للحصول على تعليمات الإصلاح وتوقف عن استخدام المنتج على الفور.",
+          "Products": [
+            {
+              "Name": "مغسلة الضغط الغازية من سيمبسون طراز PS61264",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 2,930"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "مغسلة الضغط المستدعاة من سيمبسون (طراز PS61264)"
+            },
+            {
+              "Caption": "مغسلة الضغط المستدعاة من سيمبسون (طراز PS61264)"
+            },
+            {
+              "Caption": "مغسلة الضغط المستدعاة من سيمبسون طراز PS61264 - عرض أمامي"
+            },
+            {
+              "Caption": "مغسلة الضغط المستدعاة من سيمبسون طراز PS61264 - عرض علوي"
+            },
+            {
+              "Caption": "مغسلة الضغط المستدعاة من سيمبسون طراز PS61264 - عرض جانبي"
+            },
+            {
+              "Caption": "مغسلة الضغط المستدعاة من سيمبسون طراز PS61264 - عرض جانبي"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "تلقت مجموعة FNA تقارير عن بطاريتين في ميزة البدء الكهربائي لمغسلة الضغط التي تسخن وتسبب تلف الوحدات. لم يتم الإبلاغ عن أي إصابات."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "متاحة في متاجر لويز في جميع أنحاء البلاد وعبر الإنترنت على lowes.com من مارس 2023 إلى يوليو 2023 بسعر تقريبي يبلغ 1,100 دولار."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "مجموعة FNA Inc.، من بليزانت بيري، ويسكونسن"
+            }
+          ],
+          "SoldAtLabel": "تم البيع في",
+          "ManufacturerCountries": [
+            {
+              "Country": "الولايات المتحدة"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "سخونة البطارية الليثيوم في نظام البدء الكهربائي مما يشكل خطر الحروق"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "توقف عن استخدام مغسلة الضغط المستدعاة واتصل بمجموعة FNA Inc. للحصول على تعليمات الإصلاح المجانية، والتي تشمل استبدال البطارية الليثيوم ببطارية حمض الرصاص مغلقة."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "إصلاح"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "FNA集团因燃烧风险召回Simpson燃气高压清洗机；仅在Lowe's销售",
+          "Description": "FNA集团已宣布召回Simpson燃气高压清洗机，具体型号为PS61264。这些设备以其黑色外观为特征，带有Simpson标志、'Pro Series'字样，以及在手柄上显示的4400 PSI压力等级。型号可以在贴在清洗机框架上的银色标签上找到。",
+          "ConsumerContact": "消费者可以通过拨打FNA集团的免费电话866-733-8468与他们联系，服务时间为周一至周五，东部时间上午11点至下午6点。或者，他们可以发送电子邮件至voluntaryrecall@simpsoncleaning.com，或访问https://simpsoncleaning.com/voluntaryrecall以获取更多详细信息。",
+          "metaDescription": "FNA集团因燃烧危险召回Simpson燃气高压清洗机。请联系FNA获取维修说明，并立即停止使用该产品。",
+          "Products": [
+            {
+              "Name": "Simpson燃气高压清洗机型号PS61264",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约2,930台"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "召回的Simpson高压清洗机（型号PS61264）"
+            },
+            {
+              "Caption": "召回的Simpson高压清洗机（型号PS61264）"
+            },
+            {
+              "Caption": "召回的Simpson高压清洗机型号PS61264 - 正面视图"
+            },
+            {
+              "Caption": "召回的Simpson高压清洗机型号PS61264 - 顶部视图"
+            },
+            {
+              "Caption": "召回的Simpson高压清洗机型号PS61264 - 侧面视图"
+            },
+            {
+              "Caption": "召回的Simpson高压清洗机型号PS61264 - 侧面视图"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "FNA已收到两份报告，称高压清洗机的电启动功能中的电池过热并损坏了设备。未报告任何受伤情况。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "自2023年3月至2023年7月，约售$1,100，在全国Lowe's商店及lowes.com在线销售。"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "FNA集团，位于威斯康星州普莱森特普雷里"
+            }
+          ],
+          "SoldAtLabel": "销售地点",
+          "ManufacturerCountries": [
+            {
+              "Country": "美国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "电启动系统中的锂电池过热，存在燃烧风险"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "停止使用召回的高压清洗机，并联系FNA集团以获取免费的维修说明，包括将锂电池更换为密封铅酸电池。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "维修"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "FNA Group rappelle des nettoyeurs haute pression à gaz Simpson en raison d'un risque de brûlure ; disponible exclusivement chez Lowe's",
+          "Description": "FNA Group a annoncé un rappel des nettoyeurs haute pression à gaz Simpson, spécifiquement le modèle PS61264. Ces unités se caractérisent par leur couleur noire, arborant le logo Simpson, 'Pro Series', et une pression de 4400 PSI affichée sur la poignée. Le numéro de modèle se trouve sur une étiquette argentée fixée au cadre du nettoyeur.",
+          "ConsumerContact": "Les consommateurs peuvent contacter FNA Group Inc. à leur numéro sans frais 866-733-8468 de 11 h à 18 h HE, du lundi au vendredi. Alternativement, ils peuvent envoyer un courriel à voluntaryrecall@simpsoncleaning.com ou visiter https://simpsoncleaning.com/voluntaryrecall pour plus de détails.",
+          "metaDescription": "FNA Group rappelle des nettoyeurs haute pression à gaz Simpson en raison de risques de brûlure. Contactez FNA pour des instructions de réparation et cessez d'utiliser le produit immédiatement.",
+          "Products": [
+            {
+              "Name": "Nettoyeur haute pression à gaz Simpson Modèle PS61264",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 2 930"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Nettoyeur haute pression Simpson rappelé (Modèle PS61264)"
+            },
+            {
+              "Caption": "Nettoyeur haute pression Simpson rappelé (Modèle PS61264)"
+            },
+            {
+              "Caption": "Nettoyeur haute pression Simpson rappelé Modèle PS61264 - vue de face"
+            },
+            {
+              "Caption": "Nettoyeur haute pression Simpson rappelé Modèle PS61264 - vue de dessus"
+            },
+            {
+              "Caption": "Nettoyeur haute pression Simpson rappelé Modèle PS61264 - vue de côté"
+            },
+            {
+              "Caption": "Nettoyeur haute pression Simpson rappelé Modèle PS61264 - vue de côté"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "FNA a reçu deux rapports de batteries dans la fonction de démarrage électrique du nettoyeur haute pression surchauffant et endommageant les unités. Aucun blessé n'a été signalé."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible dans les magasins Lowe's à l'échelle nationale et en ligne sur lowes.com de mars 2023 à juillet 2023 pour environ 1 100 $."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "FNA Group Inc., de Pleasant Prairie, Wisconsin"
+            }
+          ],
+          "SoldAtLabel": "Vendu Chez",
+          "ManufacturerCountries": [
+            {
+              "Country": "États-Unis"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Surchauffe de la batterie lithium dans le système de démarrage électrique posant un risque de brûlure"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Cessez d'utiliser le nettoyeur haute pression rappelé et contactez FNA Group Inc. pour des instructions de réparation gratuites, qui incluent le remplacement de la batterie lithium par une batterie au plomb scellée."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Réparation"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "FNA Group gibt Rückruf für Simpson Gas-Druckreiniger aufgrund von Brandgefahr bekannt; Exklusiv erhältlich bei Lowe's",
+          "Description": "FNA Group hat einen Rückruf von Simpson Gas-Druckreinigern, speziell des Modells PS61264, angekündigt. Diese Geräte sind durch ihre schwarze Farbe gekennzeichnet, mit dem Simpson-Logo, 'Pro Series' und einer Druckbewertung von 4400 PSI, die am Griff angezeigt wird. Die Modellnummer befindet sich auf einem silbernen Etikett, das am Rahmen des Reinigers angebracht ist.",
+          "ConsumerContact": "Verbraucher können FNA Group Inc. unter der gebührenfreien Nummer 866-733-8468 von 11:00 bis 18:00 Uhr ET, Montag bis Freitag, erreichen. Alternativ können sie eine E-Mail an voluntaryrecall@simpsoncleaning.com senden oder die Website https://simpsoncleaning.com/voluntaryrecall besuchen, um weitere Informationen zu erhalten.",
+          "metaDescription": "FNA Group ruft Simpson Gas-Druckreiniger aufgrund von Brandgefahren zurück. Kontaktieren Sie FNA für Reparaturanweisungen und verwenden Sie das Produkt sofort nicht mehr.",
+          "Products": [
+            {
+              "Name": "Simpson Gas-Druckreiniger Modell PS61264",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 2.930"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Rückgerufener Simpson-Druckreiniger (Modell PS61264)"
+            },
+            {
+              "Caption": "Rückgerufener Simpson-Druckreiniger (Modell PS61264)"
+            },
+            {
+              "Caption": "Rückgerufener Simpson-Druckreiniger Modell PS61264 - Vorderansicht"
+            },
+            {
+              "Caption": "Rückgerufener Simpson-Druckreiniger Modell PS61264 - Draufsicht"
+            },
+            {
+              "Caption": "Rückgerufener Simpson-Druckreiniger Modell PS61264 - Seitenansicht"
+            },
+            {
+              "Caption": "Rückgerufener Simpson-Druckreiniger Modell PS61264 - Seitenansicht"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "FNA hat zwei Berichte über überhitzte Batterien im elektrischen Startsystem des Druckreinigers erhalten, die die Geräte beschädigt haben. Es wurden keine Verletzungen gemeldet."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Erhältlich in Lowe's-Filialen landesweit und online unter lowes.com von März 2023 bis Juli 2023 für etwa 1.100 $."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "FNA Group Inc., aus Pleasant Prairie, Wisconsin"
+            }
+          ],
+          "SoldAtLabel": "Verkauft bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "Vereinigte Staaten"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Überhitzte Lithiumbatterie im elektrischen Startsystem, die Brandgefahr darstellt"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Hören Sie auf, den zurückgerufenen Druckreiniger zu verwenden, und kontaktieren Sie FNA Group Inc. für kostenlose Reparaturanweisungen, die den Austausch der Lithiumbatterie gegen eine versiegelte Blei-Säure-Batterie umfassen."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparatur"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "FNAグループがシンプソンガス圧力洗浄機のリコールを発表、火傷のリスクがあるため；ローズで独占販売",
+          "Description": "FNAグループは、シンプソンガス圧力洗浄機、特にモデルPS61264のリコールを発表しました。これらのユニットは黒色で、シンプソンのロゴ、「プロシリーズ」、およびハンドルに表示された4400 PSIの圧力評価が特徴です。モデル番号は洗浄機のフレームに貼付された銀色のラベルに記載されています。",
+          "ConsumerContact": "消費者は、FNAグループ株式会社に、月曜日から金曜日の午前11時から午後6時（ET）まで、フリーダイヤル866-733-8468で連絡できます。また、voluntaryrecall@simpsoncleaning.comにメールを送信するか、https://simpsoncleaning.com/voluntaryrecallを訪れて詳細を確認することもできます。",
+          "metaDescription": "FNAグループが火傷の危険性によりシンプソンガス圧力洗浄機をリコール。修理手順についてはFNAに連絡し、製品の使用を直ちに中止してください。",
+          "Products": [
+            {
+              "Name": "シンプソンガス圧力洗浄機モデルPS61264",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約2,930台"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコールされたシンプソン圧力洗浄機（モデルPS61264）"
+            },
+            {
+              "Caption": "リコールされたシンプソン圧力洗浄機（モデルPS61264）"
+            },
+            {
+              "Caption": "リコールされたシンプソン圧力洗浄機モデルPS61264 - 前面ビュー"
+            },
+            {
+              "Caption": "リコールされたシンプソン圧力洗浄機モデルPS61264 - 上面ビュー"
+            },
+            {
+              "Caption": "リコールされたシンプソン圧力洗浄機モデルPS61264 - 側面ビュー"
+            },
+            {
+              "Caption": "リコールされたシンプソン圧力洗浄機モデルPS61264 - 側面ビュー"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "FNAは、圧力洗浄機の電動スタート機能のバッテリーが過熱し、ユニットに損傷を与えたという報告を2件受けています。負傷者の報告はありません。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "2023年3月から2023年7月まで、全国のローズ店舗およびlowes.comで約1,100ドルで販売されていました。"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "ウィスコンシン州プレザントプレーリーのFNAグループ株式会社"
+            }
+          ],
+          "SoldAtLabel": "販売場所",
+          "ManufacturerCountries": [
+            {
+              "Country": "アメリカ合衆国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "電動スタートシステム内の過熱したリチウムバッテリーが火傷のリスクを引き起こす"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "リコールされた圧力洗浄機の使用を中止し、FNAグループ株式会社に連絡して無料の修理手順を受け取ってください。これには、リチウムバッテリーを密閉型鉛酸バッテリーに交換することが含まれます。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "修理"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "FNA Group Emite Recall para Lavadoras de Pressão a Gás Simpson Devido ao Risco de Queimaduras; Disponível Exclusivamente na Lowe's",
+          "Description": "O FNA Group anunciou um recall das Lavadoras de Pressão a Gás Simpson, especificamente o modelo PS61264. Essas unidades são caracterizadas pela sua cor preta, apresentando o logotipo da Simpson, 'Pro Series', e uma classificação de pressão de 4400 PSI exibida no cabo. O número do modelo pode ser encontrado em um rótulo prateado afixado ao quadro da lavadora.",
+          "ConsumerContact": "Os consumidores podem entrar em contato com o FNA Group Inc. pelo número gratuito 866-733-8468 das 11h às 18h ET, de segunda a sexta-feira. Alternativamente, podem enviar um e-mail para voluntaryrecall@simpsoncleaning.com ou visitar https://simpsoncleaning.com/voluntaryrecall para mais detalhes.",
+          "metaDescription": "FNA Group faz recall das Lavadoras de Pressão a Gás Simpson devido a riscos de queimaduras. Contate o FNA para instruções de reparo e pare de usar o produto imediatamente.",
+          "Products": [
+            {
+              "Name": "Lavadora de Pressão a Gás Simpson Modelo PS61264",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 2.930"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Lavadora de pressão Simpson recolhida (Modelo PS61264)"
+            },
+            {
+              "Caption": "Lavadora de pressão Simpson recolhida (Modelo PS61264)"
+            },
+            {
+              "Caption": "Lavadora de pressão Simpson recolhida Modelo PS61264 - vista frontal"
+            },
+            {
+              "Caption": "Lavadora de pressão Simpson recolhida Modelo PS61264 - vista superior"
+            },
+            {
+              "Caption": "Lavadora de pressão Simpson recolhida Modelo PS61264 - vista lateral"
+            },
+            {
+              "Caption": "Lavadora de pressão Simpson recolhida Modelo PS61264 - vista lateral"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "O FNA recebeu dois relatos de baterias na função de partida elétrica da lavadora de pressão superaquecendo e danificando as unidades. Nenhuma lesão foi relatada."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponível nas lojas Lowe's em todo o país e online em lowes.com de março de 2023 a julho de 2023 por aproximadamente $1.100."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "FNA Group Inc., de Pleasant Prairie, Wisconsin"
+            }
+          ],
+          "SoldAtLabel": "Vendido Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "Estados Unidos"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Bateria de lítio superaquecendo no sistema de partida elétrica, representando risco de queimadura"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Pare de usar a lavadora de pressão recolhida e entre em contato com o FNA Group Inc. para obter instruções de reparo gratuitas, que incluem a substituição da bateria de lítio por uma bateria de ácido chumbo selada."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparo"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "FNA समूह ने जलने के जोखिम के कारण सिम्पसन गैस प्रेशर वॉशर्स का रिकॉल किया; केवल लोव्स पर उपलब्ध",
+          "Description": "FNA समूह ने सिम्पसन गैस प्रेशर वॉशर्स, विशेष रूप से मॉडल PS61264 का रिकॉल किया है। इन इकाइयों की पहचान उनके काले रंग से होती है, जिसमें सिम्पसन का लोगो, 'प्रो सीरीज,' और हैंडल पर 4400 PSI का प्रेशर रेटिंग प्रदर्शित होता है। मॉडल नंबर वॉशर के फ्रेम पर लगे एक चांदी के लेबल पर पाया जा सकता है।",
+          "ConsumerContact": "उपभोक्ता FNA समूह इंक. से उनके टोल-फ्री नंबर 866-733-8468 पर सुबह 11 बजे से शाम 6 बजे ET, सोमवार से शुक्रवार तक संपर्क कर सकते हैं। वैकल्पिक रूप से, वे voluntaryrecall@simpsoncleaning.com पर ईमेल कर सकते हैं या आगे की जानकारी के लिए https://simpsoncleaning.com/voluntaryrecall पर जा सकते हैं।",
+          "metaDescription": "FNA समूह जलने के खतरों के कारण सिम्पसन गैस प्रेशर वॉशर्स का रिकॉल करता है। मरम्मत के निर्देशों के लिए FNA से संपर्क करें और तुरंत उत्पाद का उपयोग करना बंद करें।",
+          "Products": [
+            {
+              "Name": "सिम्पसन गैस प्रेशर वॉशर मॉडल PS61264",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 2,930"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "रिकॉल किया गया सिम्पसन प्रेशर वॉशर (मॉडल PS61264)"
+            },
+            {
+              "Caption": "रिकॉल किया गया सिम्पसन प्रेशर वॉशर (मॉडल PS61264)"
+            },
+            {
+              "Caption": "रिकॉल किया गया सिम्पसन प्रेशर वॉशर मॉडल PS61264 - सामने का दृश्य"
+            },
+            {
+              "Caption": "रिकॉल किया गया सिम्पसन प्रेशर वॉशर मॉडल PS61264 - ऊपर का दृश्य"
+            },
+            {
+              "Caption": "रिकॉल किया गया सिम्पसन प्रेशर वॉशर मॉडल PS61264 - साइड व्यू"
+            },
+            {
+              "Caption": "रिकॉल किया गया सिम्पसन प्रेशर वॉशर मॉडल PS61264 - साइड व्यू"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "FNA ने प्रेशर वॉशर की इलेक्ट्रिक स्टार्ट फीचर में बैटरियों के गर्म होने और इकाइयों को नुकसान पहुंचाने की दो रिपोर्ट प्राप्त की हैं। कोई चोट की सूचना नहीं मिली है।"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "मार्च 2023 से जुलाई 2023 तक लगभग $1,100 में लोव्स स्टोर्स में और ऑनलाइन lowes.com पर उपलब्ध।"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "FNA समूह इंक., प्लेजेंट प्रेयर, विस्कॉन्सिन"
+            }
+          ],
+          "SoldAtLabel": "बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "संयुक्त राज्य अमेरिका"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "इलेक्ट्रिक स्टार्ट सिस्टम में ओवरहीटिंग लिथियम बैटरी जो जलने का जोखिम पैदा करती है"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "रिकॉल किए गए प्रेशर वॉशर का उपयोग करना बंद करें और FNA समूह इंक. से मुफ्त मरम्मत निर्देशों के लिए संपर्क करें, जिसमें लिथियम बैटरी को सील किए गए लेड एसिड बैटरी से बदलना शामिल है।"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "मरम्मत"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "Группа FNA объявляет отзыв газовых моек Simpson из-за риска ожогов; Доступно исключительно в Lowe's",
+          "Description": "Группа FNA объявила о отзыве газовых моек Simpson, в частности модели PS61264. Эти устройства характеризуются черным цветом, на них изображен логотип Simpson, 'Pro Series' и указано давление 4400 PSI на ручке. Номер модели можно найти на серебряной этикетке, прикрепленной к раме мойки.",
+          "ConsumerContact": "Потребители могут связаться с FNA Group Inc. по бесплатному номеру 866-733-8468 с 11:00 до 18:00 по восточному времени, с понедельника по пятницу. Кроме того, они могут отправить электронное письмо на адрес voluntaryrecall@simpsoncleaning.com или посетить https://simpsoncleaning.com/voluntaryrecall для получения дополнительной информации.",
+          "metaDescription": "Группа FNA отзывает газовые мойки Simpson из-за опасности ожогов. Свяжитесь с FNA для получения инструкций по ремонту и немедленно прекратите использование продукта.",
+          "Products": [
+            {
+              "Name": "Газовая мойка Simpson модель PS61264",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 2,930"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванная газовая мойка Simpson (модель PS61264)"
+            },
+            {
+              "Caption": "Отозванная газовая мойка Simpson (модель PS61264)"
+            },
+            {
+              "Caption": "Отозванная газовая мойка Simpson модель PS61264 - вид спереди"
+            },
+            {
+              "Caption": "Отозванная газовая мойка Simpson модель PS61264 - вид сверху"
+            },
+            {
+              "Caption": "Отозванная газовая мойка Simpson модель PS61264 - вид сбоку"
+            },
+            {
+              "Caption": "Отозванная газовая мойка Simpson модель PS61264 - вид сбоку"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "FNA получила два сообщения о перегреве батарей в электрической системе запуска мойки, что привело к повреждению устройств. О травмах не сообщалось."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Доступно в магазинах Lowe's по всей стране и онлайн на lowes.com с марта 2023 года по июль 2023 года примерно за 1,100 долларов."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "FNA Group Inc., из Плезант-Прери, штат Висконсин"
+            }
+          ],
+          "SoldAtLabel": "Продается в",
+          "ManufacturerCountries": [
+            {
+              "Country": "Соединенные Штаты"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Перегрев литиевой батареи в системе электрического запуска, представляющий риск ожогов"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Прекратите использование отозванной мойки и свяжитесь с FNA Group Inc. для получения бесплатных инструкций по ремонту, которые включают замену литиевой батареи на герметичную свинцово-кислотную батарею."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Ремонт"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "FNA Group Thông Báo Thu Hồi Máy Rửa Áp Lực Gas Simpson Do Nguy Cơ Bỏng; Chỉ Có Tại Lowe's",
+          "Description": "FNA Group đã thông báo thu hồi máy rửa áp lực gas Simpson, cụ thể là mẫu PS61264. Những thiết bị này có màu đen, với logo Simpson, 'Pro Series,' và chỉ số áp suất 4400 PSI được hiển thị trên tay cầm. Số mẫu có thể được tìm thấy trên một nhãn bạc gắn vào khung của máy rửa.",
+          "ConsumerContact": "Người tiêu dùng có thể liên hệ với FNA Group Inc. qua số điện thoại miễn phí 866-733-8468 từ 11 giờ sáng đến 6 giờ chiều ET, từ thứ Hai đến thứ Sáu. Ngoài ra, họ có thể gửi email đến voluntaryrecall@simpsoncleaning.com hoặc truy cập https://simpsoncleaning.com/voluntaryrecall để biết thêm chi tiết.",
+          "metaDescription": "FNA Group thu hồi máy rửa áp lực gas Simpson do nguy cơ bỏng. Liên hệ với FNA để biết hướng dẫn sửa chữa và ngừng sử dụng sản phẩm ngay lập tức.",
+          "Products": [
+            {
+              "Name": "Máy Rửa Áp Lực Gas Simpson Mẫu PS61264",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 2,930"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Máy rửa áp lực Simpson bị thu hồi (Mẫu PS61264)"
+            },
+            {
+              "Caption": "Máy rửa áp lực Simpson bị thu hồi (Mẫu PS61264)"
+            },
+            {
+              "Caption": "Máy rửa áp lực Simpson bị thu hồi Mẫu PS61264 - góc nhìn phía trước"
+            },
+            {
+              "Caption": "Máy rửa áp lực Simpson bị thu hồi Mẫu PS61264 - góc nhìn phía trên"
+            },
+            {
+              "Caption": "Máy rửa áp lực Simpson bị thu hồi Mẫu PS61264 - góc nhìn bên"
+            },
+            {
+              "Caption": "Máy rửa áp lực Simpson bị thu hồi Mẫu PS61264 - góc nhìn bên"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "FNA đã nhận được hai báo cáo về việc pin trong tính năng khởi động điện của máy rửa áp lực bị quá nhiệt và làm hỏng các thiết bị. Không có thương tích nào được báo cáo."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Có mặt tại các cửa hàng Lowe's trên toàn quốc và trực tuyến tại lowes.com từ tháng 3 năm 2023 đến tháng 7 năm 2023 với giá khoảng 1,100 đô la."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "FNA Group Inc., tại Pleasant Prairie, Wisconsin"
+            }
+          ],
+          "SoldAtLabel": "Bán Tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Hoa Kỳ"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Pin lithium quá nhiệt trong hệ thống khởi động điện gây nguy cơ bỏng"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Ngừng sử dụng máy rửa áp lực bị thu hồi và liên hệ với FNA Group Inc. để biết hướng dẫn sửa chữa miễn phí, bao gồm việc thay thế pin lithium bằng pin axit chì kín."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Sửa chữa"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    }
+  ]
+}

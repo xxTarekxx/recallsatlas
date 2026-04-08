@@ -1,0 +1,871 @@
+{
+  "meta": {
+    "slug": "power-workshop-grinders-or-buffers-or-polishers",
+    "sourceCsvFile": "power-workshop-grinders-or-buffers-or-polishers_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:37.041Z",
+    "recallCount": 1,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "power-workshop-grinders-or-buffers-or-polishers.json",
+    "seoTranslatedAt": "2026-04-05T03:05:06.531Z",
+    "resumePartial": false,
+    "i18nSource": "generalRecallsTranslated",
+    "i18nSourceFile": "power-workshop-grinders-or-buffers-or-polishers.json",
+    "i18nUiLangs": [
+      "en",
+      "es",
+      "ar",
+      "zh",
+      "fr",
+      "de",
+      "ja",
+      "pt",
+      "hi",
+      "ru",
+      "vi"
+    ],
+    "i18nProgressByLang": {
+      "es": 1,
+      "ar": 1,
+      "zh": 1,
+      "fr": 1,
+      "de": 1,
+      "ja": 1,
+      "pt": 1,
+      "hi": 1,
+      "ru": 1,
+      "vi": 1
+    },
+    "i18nInProgress": false,
+    "i18nTranslatedAt": "2026-04-07T18:22:33.259Z",
+    "i18nOpenaiModel": "gpt-4o-mini"
+  },
+  "recalls": [
+    {
+      "RecallID": 10330,
+      "RecallNumber": "25367",
+      "RecallDate": "2025-07-03T00:00:00",
+      "Description": "DEWALT is recalling its Elite Grinder Series 4.5-inch 40G T27 High Density Flap Discs, specifically models DWA8280HRT and DWA8280RT, which are designed for use with angle grinders in demanding applications. The recall affects only those units with date codes ranging from 2024-36 to 2024-48. You can find the model number on the front cover of the flap disc, just above the DEWALT name, while the date code is printed on the shipping boxes and stamped on the individual discs. If you need help identifying the date code, please reach out to DEWALT for assistance.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/DEWALT-Recalls-Grinder-Flap-Discs-Due-to-Laceration-and-Injury-Hazards",
+      "Title": "DEWALT Recalls Elite Grinder Series Flap Discs Due to Injury Risks",
+      "ConsumerContact": "For more information, consumers can visit DEWALT's website at https://www.dewalt.com/support/safety-notices-and-recalls/flap-disc-recall, call their toll-free number at 800-990-6421 from 8 a.m. to 6 p.m. ET Monday through Friday, or email recall@sbdinc.com. You can also find details on their safety notices and recalls page at www.dewalt.com.",
+      "LastPublishDate": "2025-07-03T00:00:00",
+      "Products": [
+        {
+          "Name": "DEWALT Elite Grinder Series Flap Discs",
+          "NumberOfUnits": "About 17,680"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/power-workshop-grinders-or-buffers-or-polishers/1-DEWALT-Elite-Grinder-Series-Flap-Discs/eb838b85883fe63d3d6aa29159dea621.webp",
+          "Caption": "Recalled Model No. DWA8280HRT DEWALT Elite Series 40G T27 High Density Flap Disc",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Flap-Disc-1.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/power-workshop-grinders-or-buffers-or-polishers/1-DEWALT-Elite-Grinder-Series-Flap-Discs/71742abe2c6615d2f2c78d7b133d3849.webp",
+          "Caption": "Recalled Model No. DWA8280RT DEWALT Elite Series 40G T27 High Density Flap Disc",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Flap-Disc-2.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/power-workshop-grinders-or-buffers-or-polishers/1-DEWALT-Elite-Grinder-Series-Flap-Discs/8558ec5ba87c4c9d7adb00485405077b.webp",
+          "Caption": "Backside of recalled DEWALT Elite Series 40G T27 High Density Flap Disc",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Flap-Disc-3.png"
+        },
+        {
+          "URL": "/images/generalRecalls/power-workshop-grinders-or-buffers-or-polishers/1-DEWALT-Elite-Grinder-Series-Flap-Discs/5945862299aa586868b829e9b1903792.webp",
+          "Caption": "Label on the box for recalled DEWALT Elite Series 40G T27 High Density Flap Disc",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Flap-Disc-4.jpg"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received three reports of the flap disc coming apart while in use on the grinder, including three injuries resulting in cuts and scrapes."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available at industrial supply stores nationwide, such as Grainger, Fastenal, and Airgas, as well as online at Amazon.com, from September 2024 through May 2025, priced between $7 and $10."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "DEWALT Industrial Tool Company, of Towson, Maryland"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "Turkey"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of laceration and injury due to detachment of abrasive flaps during use."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should stop using the recalled flap discs immediately and visit the DEWALT website to participate in the recall process. They will need to write 'Recall' on the disc, upload a photo, and certify its disposal to receive a refund."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "slug": "dewalt-recalls-elite-grinder-series-flap-discs-due-to-injury-risks-recall",
+      "metaDescription": "DEWALT recalls Elite Grinder Series Flap Discs due to injury hazards. Check your model and participate in the recall for a refund.",
+      "languages": {
+        "en": {
+          "Title": "DEWALT Recalls Elite Grinder Series Flap Discs Due to Injury Risks",
+          "Description": "DEWALT is recalling its Elite Grinder Series 4.5-inch 40G T27 High Density Flap Discs, specifically models DWA8280HRT and DWA8280RT, which are designed for use with angle grinders in demanding applications. The recall affects only those units with date codes ranging from 2024-36 to 2024-48. You can find the model number on the front cover of the flap disc, just above the DEWALT name, while the date code is printed on the shipping boxes and stamped on the individual discs. If you need help identifying the date code, please reach out to DEWALT for assistance.",
+          "ConsumerContact": "For more information, consumers can visit DEWALT's website at https://www.dewalt.com/support/safety-notices-and-recalls/flap-disc-recall, call their toll-free number at 800-990-6421 from 8 a.m. to 6 p.m. ET Monday through Friday, or email recall@sbdinc.com. You can also find details on their safety notices and recalls page at www.dewalt.com.",
+          "metaDescription": "DEWALT recalls Elite Grinder Series Flap Discs due to injury hazards. Check your model and participate in the recall for a refund.",
+          "Products": [
+            {
+              "Name": "DEWALT Elite Grinder Series Flap Discs",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 17,680"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled Model No. DWA8280HRT DEWALT Elite Series 40G T27 High Density Flap Disc"
+            },
+            {
+              "Caption": "Recalled Model No. DWA8280RT DEWALT Elite Series 40G T27 High Density Flap Disc"
+            },
+            {
+              "Caption": "Backside of recalled DEWALT Elite Series 40G T27 High Density Flap Disc"
+            },
+            {
+              "Caption": "Label on the box for recalled DEWALT Elite Series 40G T27 High Density Flap Disc"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "The firm has received three reports of the flap disc coming apart while in use on the grinder, including three injuries resulting in cuts and scrapes."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Available at industrial supply stores nationwide, such as Grainger, Fastenal, and Airgas, as well as online at Amazon.com, from September 2024 through May 2025, priced between $7 and $10."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "DEWALT Industrial Tool Company, of Towson, Maryland"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Sold At",
+          "ManufacturerCountries": [
+            {
+              "Country": "Turkey"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risk of laceration and injury due to detachment of abrasive flaps during use."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Consumers should stop using the recalled flap discs immediately and visit the DEWALT website to participate in the recall process. They will need to write 'Recall' on the disc, upload a photo, and certify its disposal to receive a refund."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Refund"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "DEWALT Retira Discos de Lijado de la Serie Elite Debido a Riesgos de Lesiones",
+          "Description": "DEWALT está retirando sus Discos de Lijado de 4.5 pulgadas 40G T27 de Alta Densidad de la Serie Elite, específicamente los modelos DWA8280HRT y DWA8280RT, que están diseñados para su uso con amoladoras en aplicaciones exigentes. La retirada afecta solo a aquellas unidades con códigos de fecha que van desde 2024-36 hasta 2024-48. Puede encontrar el número de modelo en la cubierta frontal del disco de lijado, justo encima del nombre DEWALT, mientras que el código de fecha está impreso en las cajas de envío y estampado en los discos individuales. Si necesita ayuda para identificar el código de fecha, comuníquese con DEWALT para obtener asistencia.",
+          "ConsumerContact": "Para más información, los consumidores pueden visitar el sitio web de DEWALT en https://www.dewalt.com/support/safety-notices-and-recalls/flap-disc-recall, llamar a su número gratuito al 800-990-6421 de 8 a.m. a 6 p.m. ET de lunes a viernes, o enviar un correo electrónico a recall@sbdinc.com. También puede encontrar detalles en su página de avisos de seguridad y retiradas en www.dewalt.com.",
+          "metaDescription": "DEWALT retira Discos de Lijado de la Serie Elite debido a riesgos de lesiones. Verifique su modelo y participe en la retirada para obtener un reembolso.",
+          "Products": [
+            {
+              "Name": "Discos de Lijado de la Serie Elite DEWALT",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 17,680"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Modelo retirado No. DWA8280HRT Disco de Lijado de Alta Densidad 40G T27 de la Serie Elite DEWALT"
+            },
+            {
+              "Caption": "Modelo retirado No. DWA8280RT Disco de Lijado de Alta Densidad 40G T27 de la Serie Elite DEWALT"
+            },
+            {
+              "Caption": "Parte posterior del Disco de Lijado de Alta Densidad 40G T27 de la Serie Elite DEWALT retirado"
+            },
+            {
+              "Caption": "Etiqueta en la caja del Disco de Lijado de Alta Densidad 40G T27 de la Serie Elite DEWALT retirado"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "La empresa ha recibido tres informes de que el disco de lijado se descompone mientras se usa en la amoladora, incluyendo tres lesiones que resultaron en cortes y raspaduras."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible en tiendas de suministros industriales en todo el país, como Grainger, Fastenal y Airgas, así como en línea en Amazon.com, desde septiembre de 2024 hasta mayo de 2025, con precios entre $7 y $10."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "DEWALT Industrial Tool Company, de Towson, Maryland"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendidos En",
+          "ManufacturerCountries": [
+            {
+              "Country": "Turquía"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Riesgo de laceración y lesiones debido a la separación de las aletas abrasivas durante el uso."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Los consumidores deben dejar de usar los discos de lijado retirados de inmediato y visitar el sitio web de DEWALT para participar en el proceso de retirada. Necesitarán escribir 'Retiro' en el disco, subir una foto y certificar su eliminación para recibir un reembolso."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reembolso"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "استدعاء DEWALT لسلسلة أقراص الفلابل Elite Grinder بسبب مخاطر الإصابة",
+          "Description": "تقوم DEWALT باستدعاء أقراص الفلابل عالية الكثافة بحجم 4.5 بوصة 40G T27 من سلسلة Elite Grinder، وتحديداً الطرازين DWA8280HRT وDWA8280RT، المصممة للاستخدام مع المطاحن الزاوية في التطبيقات الصعبة. يؤثر الاستدعاء فقط على الوحدات التي تحمل رموز تاريخ تتراوح من 2024-36 إلى 2024-48. يمكنك العثور على رقم الطراز على الغلاف الأمامي لقرص الفلابل، فوق اسم DEWALT، بينما يتم طباعة رمز التاريخ على صناديق الشحن ومختوم على الأقراص الفردية. إذا كنت بحاجة إلى مساعدة في تحديد رمز التاريخ، يرجى التواصل مع DEWALT للحصول على المساعدة.",
+          "ConsumerContact": "لمزيد من المعلومات، يمكن للمستهلكين زيارة موقع DEWALT على الويب على https://www.dewalt.com/support/safety-notices-and-recalls/flap-disc-recall، أو الاتصال برقمهم المجاني على 800-990-6421 من الساعة 8 صباحًا حتى 6 مساءً بتوقيت شرق الولايات المتحدة من الاثنين إلى الجمعة، أو إرسال بريد إلكتروني إلى recall@sbdinc.com. يمكنك أيضًا العثور على تفاصيل حول إشعارات السلامة والاستدعاءات الخاصة بهم على صفحتهم www.dewalt.com.",
+          "metaDescription": "تستدعي DEWALT أقراص الفلابل من سلسلة Elite Grinder بسبب مخاطر الإصابة. تحقق من طرازك وشارك في الاستدعاء للحصول على استرداد.",
+          "Products": [
+            {
+              "Name": "أقراص الفلابل من سلسلة DEWALT Elite Grinder",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 17,680"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "الطراز المستدعى رقم DWA8280HRT من DEWALT Elite Series 40G T27 High Density Flap Disc"
+            },
+            {
+              "Caption": "الطراز المستدعى رقم DWA8280RT من DEWALT Elite Series 40G T27 High Density Flap Disc"
+            },
+            {
+              "Caption": "الجانب الخلفي من قرص الفلابل المستدعى DEWALT Elite Series 40G T27 High Density Flap Disc"
+            },
+            {
+              "Caption": "الملصق على صندوق قرص الفلابل المستدعى DEWALT Elite Series 40G T27 High Density Flap Disc"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "تلقت الشركة ثلاث تقارير عن انفصال قرص الفلابل أثناء الاستخدام على المطحنة، بما في ذلك ثلاث إصابات نتجت عن جروح وخدوش."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "متوفر في متاجر الإمدادات الصناعية في جميع أنحاء البلاد، مثل Grainger وFastenal وAirgas، بالإضافة إلى الإنترنت على Amazon.com، من سبتمبر 2024 حتى مايو 2025، بسعر يتراوح بين 7 دولارات و10 دولارات."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "شركة DEWALT للأدوات الصناعية، من توسان، ماريلاند"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "تم البيع في",
+          "ManufacturerCountries": [
+            {
+              "Country": "تركيا"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "خطر الإصابة والجروح بسبب انفصال الفلابل الكاشطة أثناء الاستخدام."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "يجب على المستهلكين التوقف عن استخدام أقراص الفلابل المستدعاة على الفور وزيارة موقع DEWALT للمشاركة في عملية الاستدعاء. سيتعين عليهم كتابة 'استدعاء' على القرص، وتحميل صورة، وتصديق التخلص منه للحصول على استرداد."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "استرداد"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "DEWALT召回精英磨床系列磨片因受伤风险",
+          "Description": "DEWALT正在召回其精英磨床系列4.5英寸40G T27高密度磨片，具体型号为DWA8280HRT和DWA8280RT，这些磨片设计用于在苛刻应用中与角磨机配合使用。此次召回仅影响日期代码范围为2024-36至2024-48的单位。您可以在磨片的前盖上找到型号，位于DEWALT名称上方，而日期代码则印刷在运输箱上并刻印在单个磨片上。如果您需要帮助识别日期代码，请联系DEWALT以获取帮助。",
+          "ConsumerContact": "有关更多信息，消费者可以访问DEWALT的网站 https://www.dewalt.com/support/safety-notices-and-recalls/flap-disc-recall，拨打他们的免费电话800-990-6421，工作时间为周一至周五东部时间上午8点至下午6点，或发送电子邮件至recall@sbdinc.com。您还可以在他们的安全通知和召回页面www.dewalt.com上找到详细信息。",
+          "metaDescription": "DEWALT因受伤危险召回精英磨床系列磨片。检查您的型号并参与召回以获得退款。",
+          "Products": [
+            {
+              "Name": "DEWALT精英磨床系列磨片",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约17,680"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "召回型号DWA8280HRT DEWALT精英系列40G T27高密度磨片"
+            },
+            {
+              "Caption": "召回型号DWA8280RT DEWALT精英系列40G T27高密度磨片"
+            },
+            {
+              "Caption": "召回的DEWALT精英系列40G T27高密度磨片背面"
+            },
+            {
+              "Caption": "召回的DEWALT精英系列40G T27高密度磨片的箱子标签"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "该公司已收到三起磨片在使用过程中分离的报告，包括三起导致割伤和擦伤的伤害。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "在全国各地的工业供应商店出售，如Grainger、Fastenal和Airgas，以及在Amazon.com上，从2024年9月到2025年5月，价格在7美元到10美元之间。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "马里兰州陶森的DEWALT工业工具公司"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "销售地点",
+          "ManufacturerCountries": [
+            {
+              "Country": "土耳其"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "由于在使用过程中磨片的磨料叶片脱落，存在割伤和受伤的风险。"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "消费者应立即停止使用召回的磨片，并访问DEWALT网站参与召回过程。他们需要在磨片上写上'召回'，上传照片，并证明其处置以获得退款。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "退款"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "DEWALT rappelle les disques à lamelles de la série Elite Grinder en raison de risques de blessure",
+          "Description": "DEWALT rappelle ses disques à lamelles haute densité de 4,5 pouces 40G T27 de la série Elite Grinder, spécifiquement les modèles DWA8280HRT et DWA8280RT, qui sont conçus pour être utilisés avec des meuleuses d'angle dans des applications exigeantes. Le rappel concerne uniquement les unités avec des codes de date allant de 2024-36 à 2024-48. Vous pouvez trouver le numéro de modèle sur la couverture avant du disque à lamelles, juste au-dessus du nom DEWALT, tandis que le code de date est imprimé sur les boîtes d'expédition et estampillé sur les disques individuels. Si vous avez besoin d'aide pour identifier le code de date, veuillez contacter DEWALT pour obtenir de l'aide.",
+          "ConsumerContact": "Pour plus d'informations, les consommateurs peuvent visiter le site Web de DEWALT à l'adresse https://www.dewalt.com/support/safety-notices-and-recalls/flap-disc-recall, appeler leur numéro sans frais au 800-990-6421 de 8 h à 18 h HE du lundi au vendredi, ou envoyer un e-mail à recall@sbdinc.com. Vous pouvez également trouver des détails sur leur page d'avis de sécurité et de rappels à www.dewalt.com.",
+          "metaDescription": "DEWALT rappelle les disques à lamelles de la série Elite Grinder en raison de dangers de blessure. Vérifiez votre modèle et participez au rappel pour un remboursement.",
+          "Products": [
+            {
+              "Name": "Disques à lamelles DEWALT Elite Grinder",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 17 680"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Modèle rappelé n° DWA8280HRT DEWALT Elite Series 40G T27 Disque à lamelles haute densité"
+            },
+            {
+              "Caption": "Modèle rappelé n° DWA8280RT DEWALT Elite Series 40G T27 Disque à lamelles haute densité"
+            },
+            {
+              "Caption": "Verso du disque à lamelles haute densité DEWALT Elite Series 40G T27 rappelé"
+            },
+            {
+              "Caption": "Étiquette sur la boîte du disque à lamelles haute densité DEWALT Elite Series 40G T27 rappelé"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "L'entreprise a reçu trois rapports de disques à lamelles se détachant lors de leur utilisation sur la meuleuse, y compris trois blessures entraînant des coupures et des éraflures."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible dans les magasins de fournitures industrielles à l'échelle nationale, tels que Grainger, Fastenal et Airgas, ainsi qu'en ligne sur Amazon.com, de septembre 2024 à mai 2025, au prix compris entre 7 $ et 10 $."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "DEWALT Industrial Tool Company, de Towson, Maryland"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendu chez",
+          "ManufacturerCountries": [
+            {
+              "Country": "Turquie"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risque de lacération et de blessure en raison du détachement des lamelles abrasives pendant l'utilisation."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Les consommateurs doivent cesser immédiatement d'utiliser les disques à lamelles rappelés et visiter le site Web de DEWALT pour participer au processus de rappel. Ils devront écrire 'Rappel' sur le disque, télécharger une photo et certifier son élimination pour recevoir un remboursement."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Remboursement"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "DEWALT ruft die Elite Grinder Series Flap Discs aufgrund von Verletzungsrisiken zurück",
+          "Description": "DEWALT ruft seine Elite Grinder Series 4,5-Zoll 40G T27 Hochdichte Flap Discs zurück, insbesondere die Modelle DWA8280HRT und DWA8280RT, die für den Einsatz mit Winkelschleifern in anspruchsvollen Anwendungen konzipiert sind. Der Rückruf betrifft nur die Einheiten mit Datencodes, die von 2024-36 bis 2024-48 reichen. Die Modellnummer finden Sie auf der Vorderseite der Flap Disc, direkt über dem Namen DEWALT, während der Datencode auf den Versandkartons gedruckt und auf den einzelnen Discs gestempelt ist. Wenn Sie Hilfe bei der Identifizierung des Datencodes benötigen, wenden Sie sich bitte an DEWALT.",
+          "ConsumerContact": "Für weitere Informationen können Verbraucher die Website von DEWALT unter https://www.dewalt.com/support/safety-notices-and-recalls/flap-disc-recall besuchen, ihre gebührenfreie Nummer 800-990-6421 von Montag bis Freitag zwischen 8 und 18 Uhr ET anrufen oder eine E-Mail an recall@sbdinc.com senden. Details finden Sie auch auf ihrer Seite für Sicherheitsmitteilungen und Rückrufe unter www.dewalt.com.",
+          "metaDescription": "DEWALT ruft die Elite Grinder Series Flap Discs aufgrund von Verletzungsgefahren zurück. Überprüfen Sie Ihr Modell und nehmen Sie am Rückruf für eine Rückerstattung teil.",
+          "Products": [
+            {
+              "Name": "DEWALT Elite Grinder Series Flap Discs",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 17.680"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Rückgerufenes Modell Nr. DWA8280HRT DEWALT Elite Series 40G T27 Hochdichte Flap Disc"
+            },
+            {
+              "Caption": "Rückgerufenes Modell Nr. DWA8280RT DEWALT Elite Series 40G T27 Hochdichte Flap Disc"
+            },
+            {
+              "Caption": "Rückseite der zurückgerufenen DEWALT Elite Series 40G T27 Hochdichte Flap Disc"
+            },
+            {
+              "Caption": "Etikett auf der Box für die zurückgerufene DEWALT Elite Series 40G T27 Hochdichte Flap Disc"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Das Unternehmen hat drei Berichte erhalten, dass sich die Flap Disc während des Gebrauchs vom Schleifer gelöst hat, darunter drei Verletzungen mit Schnittwunden und Schürfwunden."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Erhältlich in Industriebedarfsgeschäften landesweit, wie Grainger, Fastenal und Airgas, sowie online bei Amazon.com, von September 2024 bis Mai 2025, zu Preisen zwischen 7 und 10 US-Dollar."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "DEWALT Industrial Tool Company, Towson, Maryland"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Verkauft bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "Türkei"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risiko von Schnittverletzungen und Verletzungen durch Ablösung der Schleifklappen während des Gebrauchs."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Verbraucher sollten die zurückgerufenen Flap Discs sofort nicht mehr verwenden und die DEWALT-Website besuchen, um am Rückrufprozess teilzunehmen. Sie müssen 'Rückruf' auf die Disc schreiben, ein Foto hochladen und die Entsorgung bestätigen, um eine Rückerstattung zu erhalten."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Rückerstattung"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "DEWALT、怪我のリスクによりエリートグラインダーシリーズのフラップディスクをリコール",
+          "Description": "DEWALTは、エリートグラインダーシリーズの4.5インチ40G T27高密度フラップディスク、特にモデルDWA8280HRTおよびDWA8280RTをリコールしています。これらは、厳しい用途での角度グラインダー用に設計されています。このリコールは、2024-36から2024-48までの日付コードを持つユニットのみに影響します。モデル番号はフラップディスクの前面カバー、DEWALTの名前のすぐ上に記載されており、日付コードは出荷箱に印刷され、個々のディスクにスタンプされています。日付コードの特定に関して支援が必要な場合は、DEWALTに連絡してください。",
+          "ConsumerContact": "詳細については、消費者はDEWALTのウェブサイトhttps://www.dewalt.com/support/safety-notices-and-recalls/flap-disc-recallを訪れるか、月曜日から金曜日の午前8時から午後6時（ET）までの間に、フリーダイヤル800-990-6421に電話するか、recall@sbdinc.comにメールを送信できます。また、www.dewalt.comの安全通知およびリコールページで詳細を確認できます。",
+          "metaDescription": "DEWALTは怪我の危険性によりエリートグラインダーシリーズのフラップディスクをリコールしています。モデルを確認し、返金のためにリコールに参加してください。",
+          "Products": [
+            {
+              "Name": "DEWALTエリートグラインダーシリーズフラップディスク",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約17,680"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコール対象モデルNo. DWA8280HRT DEWALTエリートシリーズ40G T27高密度フラップディスク"
+            },
+            {
+              "Caption": "リコール対象モデルNo. DWA8280RT DEWALTエリートシリーズ40G T27高密度フラップディスク"
+            },
+            {
+              "Caption": "リコール対象のDEWALTエリートシリーズ40G T27高密度フラップディスクの裏面"
+            },
+            {
+              "Caption": "リコール対象のDEWALTエリートシリーズ40G T27高密度フラップディスクの箱のラベル"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "同社は、グラインダーで使用中にフラップディスクが分離するという3件の報告を受けており、その中には切り傷や擦り傷を伴う3件の怪我が含まれています。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "全国の工業用供給店（Grainger、Fastenal、Airgasなど）およびAmazon.comで、2024年9月から2025年5月までの間に、価格は7ドルから10ドルの間で販売されます。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "メリーランド州タウソンのDEWALT工業用工具会社"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "販売場所",
+          "ManufacturerCountries": [
+            {
+              "Country": "トルコ"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "使用中に研磨フラップが外れることによる切傷や怪我のリスク。"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "消費者は、リコール対象のフラップディスクの使用を直ちに中止し、DEWALTのウェブサイトを訪れてリコールプロセスに参加する必要があります。ディスクに「リコール」と書き、写真をアップロードし、廃棄を証明することで返金を受けることができます。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "返金"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "DEWALT Recalls Elite Grinder Series Flap Discs Devido a Riscos de Lesões",
+          "Description": "A DEWALT está recalling seus Discos de Flap da Série Elite Grinder de 4,5 polegadas 40G T27 de Alta Densidade, especificamente os modelos DWA8280HRT e DWA8280RT, que são projetados para uso com esmerilhadeiras em aplicações exigentes. O recall afeta apenas as unidades com códigos de data variando de 2024-36 a 2024-48. Você pode encontrar o número do modelo na capa frontal do disco de flap, logo acima do nome DEWALT, enquanto o código de data está impresso nas caixas de envio e carimbado nos discos individuais. Se você precisar de ajuda para identificar o código de data, entre em contato com a DEWALT para assistência.",
+          "ConsumerContact": "Para mais informações, os consumidores podem visitar o site da DEWALT em https://www.dewalt.com/support/safety-notices-and-recalls/flap-disc-recall, ligar para o número gratuito 800-990-6421 das 8h às 18h ET de segunda a sexta-feira, ou enviar um e-mail para recall@sbdinc.com. Você também pode encontrar detalhes na página de avisos de segurança e recalls em www.dewalt.com.",
+          "metaDescription": "A DEWALT faz recall dos Discos de Flap da Série Elite Grinder devido a riscos de lesões. Verifique seu modelo e participe do recall para um reembolso.",
+          "Products": [
+            {
+              "Name": "Discos de Flap da Série Elite Grinder DEWALT",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 17.680"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Modelo Recalled No. DWA8280HRT Disco de Flap de Alta Densidade 40G T27 da Série Elite DEWALT"
+            },
+            {
+              "Caption": "Modelo Recalled No. DWA8280RT Disco de Flap de Alta Densidade 40G T27 da Série Elite DEWALT"
+            },
+            {
+              "Caption": "Verso do Disco de Flap de Alta Densidade 40G T27 da Série Elite DEWALT recallado"
+            },
+            {
+              "Caption": "Etiqueta na caixa do Disco de Flap de Alta Densidade 40G T27 da Série Elite DEWALT recallado"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "A empresa recebeu três relatos de discos de flap se soltando durante o uso na esmerilhadeira, incluindo três lesões resultando em cortes e arranhões."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponível em lojas de suprimentos industriais em todo o país, como Grainger, Fastenal e Airgas, bem como online em Amazon.com, de setembro de 2024 a maio de 2025, com preços entre $7 e $10."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "DEWALT Industrial Tool Company, de Towson, Maryland"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendido Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "Turquia"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risco de laceração e lesão devido à separação dos flaps abrasivos durante o uso."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Os consumidores devem parar de usar os discos de flap recallados imediatamente e visitar o site da DEWALT para participar do processo de recall. Eles precisarão escrever 'Recall' no disco, fazer o upload de uma foto e certificar sua disposição para receber um reembolso."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reembolso"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "DEWALT ने चोट के जोखिम के कारण एलीट ग्राइंडर सीरीज फ्लैप डिस्क्स को वापस बुलाया",
+          "Description": "DEWALT अपने एलीट ग्राइंडर सीरीज 4.5-इंच 40G T27 हाई डेंसिटी फ्लैप डिस्क्स को वापस बुला रहा है, विशेष रूप से मॉडल DWA8280HRT और DWA8280RT, जो मांग वाले अनुप्रयोगों में कोणीय ग्राइंडर के साथ उपयोग के लिए डिज़ाइन किए गए हैं। यह रिकॉल केवल उन इकाइयों को प्रभावित करता है जिनकी दिनांक कोड 2024-36 से 2024-48 के बीच है। आप फ्लैप डिस्क के सामने के कवर पर, DEWALT नाम के ठीक ऊपर, मॉडल नंबर पा सकते हैं, जबकि दिनांक कोड शिपिंग बॉक्स पर मुद्रित होता है और व्यक्तिगत डिस्क पर स्टैम्प किया जाता है। यदि आपको दिनांक कोड पहचानने में मदद चाहिए, तो कृपया सहायता के लिए DEWALT से संपर्क करें।",
+          "ConsumerContact": "अधिक जानकारी के लिए, उपभोक्ता DEWALT की वेबसाइट https://www.dewalt.com/support/safety-notices-and-recalls/flap-disc-recall पर जा सकते हैं, 800-990-6421 पर उनके टोल-फ्री नंबर पर सुबह 8 बजे से शाम 6 बजे ET सोमवार से शुक्रवार तक कॉल कर सकते हैं, या recall@sbdinc.com पर ईमेल कर सकते हैं। आप उनकी सुरक्षा नोटिस और रिकॉल पृष्ठ पर भी विवरण पा सकते हैं www.dewalt.com।",
+          "metaDescription": "DEWALT चोट के खतरों के कारण एलीट ग्राइंडर सीरीज फ्लैप डिस्क्स को वापस बुलाता है। अपने मॉडल की जांच करें और धनवापसी के लिए रिकॉल में भाग लें।",
+          "Products": [
+            {
+              "Name": "DEWALT एलीट ग्राइंडर सीरीज फ्लैप डिस्क्स",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 17,680"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "वापस बुलाया गया मॉडल नंबर DWA8280HRT DEWALT एलीट सीरीज 40G T27 हाई डेंसिटी फ्लैप डिस्क"
+            },
+            {
+              "Caption": "वापस बुलाया गया मॉडल नंबर DWA8280RT DEWALT एलीट सीरीज 40G T27 हाई डेंसिटी फ्लैप डिस्क"
+            },
+            {
+              "Caption": "वापस बुलाए गए DEWALT एलीट सीरीज 40G T27 हाई डेंसिटी फ्लैप डिस्क का पिछला हिस्सा"
+            },
+            {
+              "Caption": "वापस बुलाए गए DEWALT एलीट सीरीज 40G T27 हाई डेंसिटी फ्लैप डिस्क के बॉक्स पर लेबल"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "कंपनी को ग्राइंडर पर उपयोग के दौरान फ्लैप डिस्क के अलग होने के तीन रिपोर्ट मिले हैं, जिसमें तीन चोटें शामिल हैं जो कट और खरोंच का कारण बनीं।"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "राष्ट्रीय स्तर पर औद्योगिक आपूर्ति स्टोर, जैसे Grainger, Fastenal, और Airgas, के साथ-साथ Amazon.com पर, सितंबर 2024 से मई 2025 तक, $7 से $10 के बीच की कीमत पर उपलब्ध।"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "DEWALT इंडस्ट्रियल टूल कंपनी, टॉवसन, मैरीलैंड"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "तुर्की"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "उपयोग के दौरान घर्षण फ्लैप के अलग होने के कारण कटने और चोट लगने का जोखिम।"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "उपभोक्ताओं को तुरंत वापस बुलाए गए फ्लैप डिस्क का उपयोग बंद कर देना चाहिए और रिकॉल प्रक्रिया में भाग लेने के लिए DEWALT की वेबसाइट पर जाना चाहिए। उन्हें डिस्क पर 'रिकॉल' लिखना होगा, एक फोटो अपलोड करनी होगी, और धनवापसी प्राप्त करने के लिए इसके निपटान की पुष्टि करनी होगी।"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "धनवापसी"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "DEWALT отзывает диски с фланцами Elite Grinder Series из-за риска травм",
+          "Description": "DEWALT отзывает свои диски с фланцами Elite Grinder Series размером 4,5 дюйма 40G T27 высокой плотности, а именно модели DWA8280HRT и DWA8280RT, которые предназначены для использования с угловыми шлифовальными машинами в сложных условиях. Отзыв касается только тех единиц, у которых коды даты варьируются от 2024-36 до 2024-48. Вы можете найти номер модели на передней стороне диска с фланцем, прямо над названием DEWALT, в то время как код даты напечатан на упаковках и штампован на отдельных дисках. Если вам нужна помощь в определении кода даты, пожалуйста, свяжитесь с DEWALT для получения помощи.",
+          "ConsumerContact": "Для получения дополнительной информации потребители могут посетить веб-сайт DEWALT по адресу https://www.dewalt.com/support/safety-notices-and-recalls/flap-disc-recall, позвонить на бесплатный номер 800-990-6421 с 8:00 до 18:00 по восточному времени с понедельника по пятницу или написать на электронную почту recall@sbdinc.com. Вы также можете найти подробности на странице их уведомлений о безопасности и отзывах на www.dewalt.com.",
+          "metaDescription": "DEWALT отзывает диски с фланцами Elite Grinder Series из-за опасности травм. Проверьте свою модель и участвуйте в отзыве для получения возмещения.",
+          "Products": [
+            {
+              "Name": "Диски с фланцами DEWALT Elite Grinder Series",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 17,680"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванная модель № DWA8280HRT DEWALT Elite Series 40G T27 высокой плотности диск с фланцем"
+            },
+            {
+              "Caption": "Отозванная модель № DWA8280RT DEWALT Elite Series 40G T27 высокой плотности диск с фланцем"
+            },
+            {
+              "Caption": "Задняя сторона отозванного диска с фланцем DEWALT Elite Series 40G T27 высокой плотности"
+            },
+            {
+              "Caption": "Этикетка на коробке отозванного диска с фланцем DEWALT Elite Series 40G T27 высокой плотности"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Компания получила три сообщения о том, что диск с фланцем разъединился во время использования на шлифовальной машине, в том числе три травмы, приведшие к порезам и ссадинам."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Доступно в магазинах промышленных поставок по всей стране, таких как Grainger, Fastenal и Airgas, а также онлайн на Amazon.com, с сентября 2024 года по май 2025 года, по цене от 7 до 10 долларов."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "DEWALT Industrial Tool Company, Towson, Maryland"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Продается в",
+          "ManufacturerCountries": [
+            {
+              "Country": "Турция"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Риск порезов и травм из-за отсоединения абразивных фланцев во время использования."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Потребители должны немедленно прекратить использование отозванных дисков с фланцами и посетить веб-сайт DEWALT, чтобы участвовать в процессе отзыва. Им нужно будет написать 'Отзыв' на диске, загрузить фото и подтвердить его утилизацию, чтобы получить возмещение."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Возмещение"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "DEWALT thu hồi đĩa mài Elite Grinder Series do nguy cơ chấn thương",
+          "Description": "DEWALT đang thu hồi đĩa mài 4.5-inch 40G T27 High Density thuộc dòng Elite Grinder Series, cụ thể là các mẫu DWA8280HRT và DWA8280RT, được thiết kế để sử dụng với máy mài góc trong các ứng dụng yêu cầu cao. Lần thu hồi này chỉ ảnh hưởng đến những đơn vị có mã ngày từ 2024-36 đến 2024-48. Bạn có thể tìm thấy số mẫu trên bìa trước của đĩa mài, ngay trên tên DEWALT, trong khi mã ngày được in trên các hộp vận chuyển và đóng dấu trên từng đĩa. Nếu bạn cần giúp xác định mã ngày, vui lòng liên hệ với DEWALT để được hỗ trợ.",
+          "ConsumerContact": "Để biết thêm thông tin, người tiêu dùng có thể truy cập trang web của DEWALT tại https://www.dewalt.com/support/safety-notices-and-recalls/flap-disc-recall, gọi số điện thoại miễn phí của họ tại 800-990-6421 từ 8 giờ sáng đến 6 giờ chiều ET từ thứ Hai đến thứ Sáu, hoặc gửi email đến recall@sbdinc.com. Bạn cũng có thể tìm thấy thông tin chi tiết trên trang thông báo an toàn và thu hồi của họ tại www.dewalt.com.",
+          "metaDescription": "DEWALT thu hồi đĩa mài Elite Grinder Series do nguy cơ chấn thương. Kiểm tra mẫu của bạn và tham gia vào quá trình thu hồi để nhận hoàn tiền.",
+          "Products": [
+            {
+              "Name": "Đĩa mài DEWALT Elite Grinder Series",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 17,680"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Mẫu thu hồi số DWA8280HRT DEWALT Elite Series 40G T27 High Density Flap Disc"
+            },
+            {
+              "Caption": "Mẫu thu hồi số DWA8280RT DEWALT Elite Series 40G T27 High Density Flap Disc"
+            },
+            {
+              "Caption": "Mặt sau của đĩa mài DEWALT Elite Series 40G T27 High Density Flap Disc bị thu hồi"
+            },
+            {
+              "Caption": "Nhãn trên hộp của đĩa mài DEWALT Elite Series 40G T27 High Density Flap Disc bị thu hồi"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Công ty đã nhận được ba báo cáo về việc đĩa mài bị tách ra trong khi sử dụng trên máy mài, bao gồm ba trường hợp chấn thương dẫn đến cắt và trầy xước."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Có mặt tại các cửa hàng cung cấp công nghiệp trên toàn quốc, như Grainger, Fastenal và Airgas, cũng như trực tuyến tại Amazon.com, từ tháng 9 năm 2024 đến tháng 5 năm 2025, với giá từ 7 đến 10 đô la."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Công ty Công cụ Công nghiệp DEWALT, tại Towson, Maryland"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Bán Tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Thổ Nhĩ Kỳ"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Nguy cơ bị cắt và chấn thương do sự tách rời của các cánh mài trong quá trình sử dụng."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Người tiêu dùng nên ngừng sử dụng ngay lập tức các đĩa mài bị thu hồi và truy cập trang web của DEWALT để tham gia vào quá trình thu hồi. Họ sẽ cần viết 'Thu hồi' trên đĩa, tải lên một bức ảnh và xác nhận việc tiêu hủy để nhận hoàn tiền."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Hoàn tiền"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    }
+  ]
+}

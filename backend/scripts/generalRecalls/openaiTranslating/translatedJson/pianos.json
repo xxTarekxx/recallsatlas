@@ -1,0 +1,831 @@
+{
+  "meta": {
+    "slug": "pianos",
+    "sourceCsvFile": "pianos_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:37.032Z",
+    "recallCount": 1,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "pianos.json",
+    "seoTranslatedAt": "2026-04-05T02:36:23.484Z",
+    "resumePartial": false,
+    "i18nSource": "generalRecallsTranslated",
+    "i18nSourceFile": "pianos.json",
+    "i18nUiLangs": [
+      "en",
+      "es",
+      "ar",
+      "zh",
+      "fr",
+      "de",
+      "ja",
+      "pt",
+      "hi",
+      "ru",
+      "vi"
+    ],
+    "i18nProgressByLang": {
+      "es": 1,
+      "ar": 1,
+      "zh": 1,
+      "fr": 1,
+      "de": 1,
+      "ja": 1,
+      "pt": 1,
+      "hi": 1,
+      "ru": 1,
+      "vi": 1
+    },
+    "i18nInProgress": false,
+    "i18nTranslatedAt": "2026-04-07T17:25:44.478Z",
+    "i18nOpenaiModel": "gpt-4o-mini"
+  },
+  "recalls": [
+    {
+      "RecallID": 10264,
+      "RecallNumber": "25254",
+      "RecallDate": "2025-05-08T00:00:00",
+      "Description": "Yamaha Corporation is recalling its PA-300C AC power adaptors due to potential burn and fire hazards. These adaptors, which were sold with various Yamaha digital pianos, arranger workstations, and Steinberg audio interfaces, were manufactured between July 2010 and May 2012. The adaptors are identifiable by their black color and specific model details printed on the rating label. The serial number indicates the manufacturing date, with the fifth character representing the year and the sixth character indicating the month. For instance, a serial number beginning with 'XXXX24XXXXX' signifies a production date of April 2012.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/Yamaha-Corporation-of-America-Recalls-Power-Adaptors-for-Digital-Pianos-and-Music-Workstations-Due-to-Burn-and-Fire-Hazards",
+      "Title": "Yamaha Recalls PA-300C AC Power Adaptors for Digital Pianos and Workstations Due to Fire Risks",
+      "ConsumerContact": "Consumers are urged to stop using the affected PA-300C adaptors immediately and can contact Yamaha at 844-703-5446 from 9 a.m. to 5 p.m. PT, Monday through Friday. For further assistance, they can email PA300CRECALL@yamaha.com or visit www.yamaha.com/us/support/pa300crecall/ for detailed recall instructions.",
+      "LastPublishDate": "2025-05-08T00:00:00",
+      "Products": [
+        {
+          "Name": "Yamaha PA-300C AC Power Adaptors",
+          "NumberOfUnits": "About 37,400"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/pianos/1-Yamaha-PA-300C-AC-Power-Adaptors/6f9a64b4eb712a85d32bb4c87031fdba.webp",
+          "Caption": "Recalled Yamaha PA-300C AC Adaptor",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/yamaha-1.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/pianos/1-Yamaha-PA-300C-AC-Power-Adaptors/a9bcc645359a846a9af5b90eb97d333e.webp",
+          "Caption": "Recalled AC Adaptor rating label",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/yamaha-2.jpg"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received four reports of adaptors burning or smoking. No injuries have been reported."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available at music stores nationwide and online at www.shop.usa.yamaha.com from September 2010 to November 2014, and also sold separately as a service part for approximately $70."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Yamaha Corporation of America, of Buena Park, California"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Potential for overheating and ignition, leading to burn and fire hazards"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Stop using the adaptor and contact Yamaha for a free replacement. Follow the online instructions for submitting claims and evidence of product destruction."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        },
+        {
+          "Option": "Replace"
+        }
+      ],
+      "slug": "yamaha-recalls-pa-300c-ac-power-adaptors-for-digital-pianos-and-workstations-due-to-fire-risks-recall",
+      "metaDescription": "Yamaha recalls PA-300C AC power adaptors due to fire risks. Stop using immediately and contact Yamaha for a free replacement.",
+      "languages": {
+        "en": {
+          "Title": "Yamaha Recalls PA-300C AC Power Adaptors for Digital Pianos and Workstations Due to Fire Risks",
+          "Description": "Yamaha Corporation is recalling its PA-300C AC power adaptors due to potential burn and fire hazards. These adaptors, which were sold with various Yamaha digital pianos, arranger workstations, and Steinberg audio interfaces, were manufactured between July 2010 and May 2012. The adaptors are identifiable by their black color and specific model details printed on the rating label. The serial number indicates the manufacturing date, with the fifth character representing the year and the sixth character indicating the month. For instance, a serial number beginning with 'XXXX24XXXXX' signifies a production date of April 2012.",
+          "ConsumerContact": "Consumers are urged to stop using the affected PA-300C adaptors immediately and can contact Yamaha at 844-703-5446 from 9 a.m. to 5 p.m. PT, Monday through Friday. For further assistance, they can email PA300CRECALL@yamaha.com or visit www.yamaha.com/us/support/pa300crecall/ for detailed recall instructions.",
+          "metaDescription": "Yamaha recalls PA-300C AC power adaptors due to fire risks. Stop using immediately and contact Yamaha for a free replacement.",
+          "Products": [
+            {
+              "Name": "Yamaha PA-300C AC Power Adaptors",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 37,400"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled Yamaha PA-300C AC Adaptor"
+            },
+            {
+              "Caption": "Recalled AC Adaptor rating label"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "The firm has received four reports of adaptors burning or smoking. No injuries have been reported."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Available at music stores nationwide and online at www.shop.usa.yamaha.com from September 2010 to November 2014, and also sold separately as a service part for approximately $70."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Yamaha Corporation of America, of Buena Park, California"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Sold At",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Potential for overheating and ignition, leading to burn and fire hazards"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Stop using the adaptor and contact Yamaha for a free replacement. Follow the online instructions for submitting claims and evidence of product destruction."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Repair"
+            },
+            {
+              "Option": "Replace"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "Yamaha Retira Adaptadores de Corriente AC PA-300C para Pianos Digitales y Estaciones de Trabajo Debido a Riesgos de Incendio",
+          "Description": "Yamaha Corporation está retirando sus adaptadores de corriente AC PA-300C debido a posibles riesgos de quemaduras e incendios. Estos adaptadores, que se vendieron con varios pianos digitales de Yamaha, estaciones de trabajo para arreglistas y interfaces de audio Steinberg, fueron fabricados entre julio de 2010 y mayo de 2012. Los adaptadores son identificables por su color negro y los detalles específicos del modelo impresos en la etiqueta de clasificación. El número de serie indica la fecha de fabricación, siendo el quinto carácter el año y el sexto carácter el mes. Por ejemplo, un número de serie que comienza con 'XXXX24XXXXX' significa una fecha de producción de abril de 2012.",
+          "ConsumerContact": "Se insta a los consumidores a dejar de usar los adaptadores PA-300C afectados de inmediato y pueden contactar a Yamaha al 844-703-5446 de 9 a.m. a 5 p.m. PT, de lunes a viernes. Para más asistencia, pueden enviar un correo electrónico a PA300CRECALL@yamaha.com o visitar www.yamaha.com/us/support/pa300crecall/ para obtener instrucciones detalladas sobre el retiro.",
+          "metaDescription": "Yamaha retira adaptadores de corriente AC PA-300C debido a riesgos de incendio. Deje de usarlos inmediatamente y contacte a Yamaha para un reemplazo gratuito.",
+          "Products": [
+            {
+              "Name": "Adaptadores de Corriente AC Yamaha PA-300C",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 37,400"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Adaptador AC Yamaha PA-300C retirado"
+            },
+            {
+              "Caption": "Etiqueta de clasificación del adaptador AC retirado"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "La empresa ha recibido cuatro informes de adaptadores que se queman o humean. No se han reportado lesiones."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponibles en tiendas de música a nivel nacional y en línea en www.shop.usa.yamaha.com desde septiembre de 2010 hasta noviembre de 2014, y también vendidos por separado como parte de servicio por aproximadamente $70."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Yamaha Corporation of America, de Buena Park, California"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendidos En",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Potencial de sobrecalentamiento e ignición, lo que lleva a riesgos de quemaduras e incendios"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Deje de usar el adaptador y contacte a Yamaha para un reemplazo gratuito. Siga las instrucciones en línea para presentar reclamaciones y evidencia de destrucción del producto."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparar"
+            },
+            {
+              "Option": "Reemplazar"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "ياماها تستدعي محولات الطاقة AC PA-300C للبيانو الرقمي ومحطات العمل بسبب مخاطر الحريق",
+          "Description": "تقوم شركة ياماها باستدعاء محولات الطاقة AC PA-300C الخاصة بها بسبب مخاطر الحروق والحريق المحتملة. تم بيع هذه المحولات مع مجموعة متنوعة من البيانو الرقمي من ياماها، ومحطات العمل، وواجهات الصوت من شتاينبرغ، وتم تصنيعها بين يوليو 2010 ومايو 2012. يمكن التعرف على المحولات من خلال لونها الأسود وتفاصيل الطراز المحددة المطبوعة على ملصق التصنيف. يشير الرقم التسلسلي إلى تاريخ التصنيع، حيث يمثل الحرف الخامس السنة ويمثل الحرف السادس الشهر. على سبيل المثال، يشير رقم تسلسلي يبدأ بـ 'XXXX24XXXXX' إلى تاريخ إنتاج في أبريل 2012.",
+          "ConsumerContact": "يُحث المستهلكون على التوقف عن استخدام محولات PA-300C المتأثرة على الفور ويمكنهم الاتصال بياماها على الرقم 844-703-5446 من الساعة 9 صباحًا حتى 5 مساءً بتوقيت المحيط الهادئ، من الاثنين إلى الجمعة. للحصول على مزيد من المساعدة، يمكنهم إرسال بريد إلكتروني إلى PA300CRECALL@yamaha.com أو زيارة www.yamaha.com/us/support/pa300crecall/ للحصول على تعليمات الاستدعاء التفصيلية.",
+          "metaDescription": "ياماها تستدعي محولات الطاقة AC PA-300C بسبب مخاطر الحريق. توقف عن الاستخدام فورًا واتصل بياماها للحصول على بديل مجاني.",
+          "Products": [
+            {
+              "Name": "محولات الطاقة AC PA-300C من ياماها",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 37,400"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "محول الطاقة AC PA-300C من ياماها المستدعى"
+            },
+            {
+              "Caption": "ملصق تصنيف محول الطاقة المستدعى"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "تلقت الشركة أربع تقارير عن محولات تحترق أو تدخن. لم يتم الإبلاغ عن أي إصابات."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "متوفر في متاجر الموسيقى في جميع أنحاء البلاد وعبر الإنترنت على www.shop.usa.yamaha.com من سبتمبر 2010 إلى نوفمبر 2014، وتم بيعه أيضًا بشكل منفصل كجزء خدمة بحوالي 70 دولارًا."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "شركة ياماها الأمريكية، من بويينا بارك، كاليفورنيا"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "تم البيع في",
+          "ManufacturerCountries": [
+            {
+              "Country": "الصين"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "احتمالية ارتفاع درجة الحرارة والاشتعال، مما يؤدي إلى مخاطر الحروق والحريق"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "توقف عن استخدام المحول واتصل بياماها للحصول على بديل مجاني. اتبع التعليمات عبر الإنترنت لتقديم المطالبات وأدلة تدمير المنتج."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "إصلاح"
+            },
+            {
+              "Option": "استبدال"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "雅马哈召回PA-300C数字钢琴和工作站的交流电源适配器因火灾风险",
+          "Description": "雅马哈公司因潜在的烧伤和火灾危险召回其PA-300C交流电源适配器。这些适配器与各种雅马哈数字钢琴、编曲工作站和Steinberg音频接口一起销售，制造时间为2010年7月至2012年5月。适配器的黑色外观和印刷在额定标签上的特定型号细节可以识别。序列号指示制造日期，第五个字符代表年份，第六个字符表示月份。例如，序列号以'XXXX24XXXXX'开头表示生产日期为2012年4月。",
+          "ConsumerContact": "消费者被敦促立即停止使用受影响的PA-300C适配器，可以在周一至周五的太平洋时间上午9点至下午5点拨打844-703-5446联系雅马哈。如需进一步帮助，可以发送电子邮件至PA300CRECALL@yamaha.com或访问www.yamaha.com/us/support/pa300crecall/获取详细的召回说明。",
+          "metaDescription": "雅马哈因火灾风险召回PA-300C交流电源适配器。请立即停止使用并联系雅马哈以获取免费更换。",
+          "Products": [
+            {
+              "Name": "雅马哈PA-300C交流电源适配器",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约37,400个"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "召回的雅马哈PA-300C交流适配器"
+            },
+            {
+              "Caption": "召回的交流适配器额定标签"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "公司已收到四起适配器燃烧或冒烟的报告。未报告任何受伤情况。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "在全国各地的音乐商店和www.shop.usa.yamaha.com在线销售，销售时间为2010年9月至2014年11月，也作为服务部件单独出售，价格约为70美元。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "雅马哈美国公司，加州布埃纳帕克"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "销售地点",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "过热和点燃的潜在风险，导致烧伤和火灾危险"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "停止使用适配器并联系雅马哈以获取免费更换。按照在线说明提交索赔和产品销毁的证据。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "修理"
+            },
+            {
+              "Option": "更换"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "Yamaha rappelle les adaptateurs secteur PA-300C pour pianos numériques et stations de travail en raison de risques d'incendie",
+          "Description": "Yamaha Corporation rappelle ses adaptateurs secteur PA-300C en raison de risques potentiels de brûlure et d'incendie. Ces adaptateurs, qui ont été vendus avec divers pianos numériques Yamaha, stations de travail arrangeurs et interfaces audio Steinberg, ont été fabriqués entre juillet 2010 et mai 2012. Les adaptateurs sont identifiables par leur couleur noire et les détails spécifiques du modèle imprimés sur l'étiquette de classification. Le numéro de série indique la date de fabrication, le cinquième caractère représentant l'année et le sixième caractère indiquant le mois. Par exemple, un numéro de série commençant par 'XXXX24XXXXX' signifie une date de production d'avril 2012.",
+          "ConsumerContact": "Les consommateurs sont invités à cesser immédiatement d'utiliser les adaptateurs PA-300C concernés et peuvent contacter Yamaha au 844-703-5446 de 9 h à 17 h PT, du lundi au vendredi. Pour toute assistance supplémentaire, ils peuvent envoyer un e-mail à PA300CRECALL@yamaha.com ou visiter www.yamaha.com/us/support/pa300crecall/ pour des instructions détaillées sur le rappel.",
+          "metaDescription": "Yamaha rappelle les adaptateurs secteur PA-300C en raison de risques d'incendie. Cessez de les utiliser immédiatement et contactez Yamaha pour un remplacement gratuit.",
+          "Products": [
+            {
+              "Name": "Adaptateurs secteur Yamaha PA-300C",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 37 400"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Adaptateur secteur Yamaha PA-300C rappelé"
+            },
+            {
+              "Caption": "Étiquette de classification de l'adaptateur secteur rappelé"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "L'entreprise a reçu quatre rapports d'adaptateurs brûlant ou fumant. Aucun blessé n'a été signalé."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible dans les magasins de musique à l'échelle nationale et en ligne sur www.shop.usa.yamaha.com de septembre 2010 à novembre 2014, et également vendu séparément comme pièce de service pour environ 70 $."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Yamaha Corporation of America, de Buena Park, Californie"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendu À",
+          "ManufacturerCountries": [
+            {
+              "Country": "Chine"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risque potentiel de surchauffe et d'inflammation, entraînant des risques de brûlure et d'incendie"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Cessez d'utiliser l'adaptateur et contactez Yamaha pour un remplacement gratuit. Suivez les instructions en ligne pour soumettre des réclamations et des preuves de destruction du produit."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Réparer"
+            },
+            {
+              "Option": "Remplacer"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "Yamaha ruft PA-300C AC-Netzteile für digitale Klaviere und Workstations aufgrund von Brandrisiken zurück",
+          "Description": "Die Yamaha Corporation ruft ihre PA-300C AC-Netzteile aufgrund potenzieller Brand- und Verbrennungsgefahren zurück. Diese Adapter, die zusammen mit verschiedenen Yamaha digitalen Klavieren, Arrangeur-Workstations und Steinberg-Audio-Interfaces verkauft wurden, wurden zwischen Juli 2010 und Mai 2012 hergestellt. Die Adapter sind an ihrer schwarzen Farbe und den spezifischen Modellangaben auf dem Typenschild zu erkennen. Die Seriennummer gibt das Herstellungsdatum an, wobei das fünfte Zeichen das Jahr und das sechste Zeichen den Monat darstellt. Zum Beispiel bedeutet eine Seriennummer, die mit 'XXXX24XXXXX' beginnt, ein Produktionsdatum von April 2012.",
+          "ConsumerContact": "Die Verbraucher werden aufgefordert, die betroffenen PA-300C-Adapter sofort nicht mehr zu verwenden und können Yamaha unter 844-703-5446 von 9 bis 17 Uhr PT, Montag bis Freitag, kontaktieren. Für weitere Unterstützung können sie eine E-Mail an PA300CRECALL@yamaha.com senden oder www.yamaha.com/us/support/pa300crecall/ besuchen, um detaillierte Rückrufanweisungen zu erhalten.",
+          "metaDescription": "Yamaha ruft PA-300C AC-Netzteile aufgrund von Brandrisiken zurück. Sofort nicht mehr verwenden und Yamaha für einen kostenlosen Ersatz kontaktieren.",
+          "Products": [
+            {
+              "Name": "Yamaha PA-300C AC-Netzteile",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 37.400"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Zurückgerufenes Yamaha PA-300C AC-Netzteil"
+            },
+            {
+              "Caption": "Zurückgerufenes AC-Netzteil Typenschild"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Das Unternehmen hat vier Berichte über brennende oder rauchende Adapter erhalten. Es wurden keine Verletzungen gemeldet."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Erhältlich in Musikgeschäften landesweit und online unter www.shop.usa.yamaha.com von September 2010 bis November 2014, und auch separat als Ersatzteil für etwa 70 $ verkauft."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Yamaha Corporation of America, Buena Park, Kalifornien"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Verkauft bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Potenzial für Überhitzung und Entzündung, was zu Brand- und Verbrennungsgefahren führt"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Hören Sie auf, den Adapter zu verwenden, und kontaktieren Sie Yamaha für einen kostenlosen Ersatz. Folgen Sie den Online-Anweisungen zur Einreichung von Ansprüchen und Nachweisen über die Zerstörung des Produkts."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparatur"
+            },
+            {
+              "Option": "Ersatz"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "ヤマハ、火災リスクによりデジタルピアノおよびワークステーション用PA-300C AC電源アダプタをリコール",
+          "Description": "ヤマハ株式会社は、火傷および火災の危険性があるため、PA-300C AC電源アダプタをリコールしています。これらのアダプタは、さまざまなヤマハのデジタルピアノ、アレンジャーワークステーション、スタインバーグのオーディオインターフェースと共に販売され、2010年7月から2012年5月の間に製造されました。アダプタは黒色で、定格ラベルに印刷された特定のモデル詳細で識別できます。シリアル番号は製造日を示し、5番目の文字が年を、6番目の文字が月を示します。たとえば、'XXXX24XXXXX'で始まるシリアル番号は、2012年4月の生産日を示します。",
+          "ConsumerContact": "消費者は、影響を受けたPA-300Cアダプタの使用を直ちに中止し、月曜日から金曜日の午前9時から午後5時（PT）まで、844-703-5446でヤマハに連絡するよう促されています。さらなる支援が必要な場合は、PA300CRECALL@yamaha.comにメールを送るか、www.yamaha.com/us/support/pa300crecall/を訪れて詳細なリコール手順を確認できます。",
+          "metaDescription": "ヤマハは火災リスクによりPA-300C AC電源アダプタをリコールします。直ちに使用を中止し、ヤマハに連絡して無料の交換を受けてください。",
+          "Products": [
+            {
+              "Name": "ヤマハ PA-300C AC電源アダプタ",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約37,400"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコールされたヤマハ PA-300C ACアダプタ"
+            },
+            {
+              "Caption": "リコールされたACアダプタの定格ラベル"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "同社はアダプタが燃焼または煙を出しているとの報告を4件受けています。けがの報告はありません。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "全国の楽器店およびwww.shop.usa.yamaha.comで2010年9月から2014年11月まで販売されており、約70ドルでサービス部品としても別売りされていました。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "カリフォルニア州ブエナパークのヤマハコーポレーション"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "販売場所",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "過熱および点火の可能性があり、火傷および火災の危険を引き起こす"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "アダプタの使用を中止し、ヤマハに連絡して無料の交換を受けてください。請求および製品破壊の証拠を提出するためのオンライン手順に従ってください。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "修理"
+            },
+            {
+              "Option": "交換"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "Yamaha Recalls PA-300C Adaptadores de Energia AC para Pianos Digitais e Estações de Trabalho Devido a Riscos de Incêndio",
+          "Description": "A Yamaha Corporation está recalling seus adaptadores de energia AC PA-300C devido a potenciais riscos de queimaduras e incêndios. Esses adaptadores, que foram vendidos com vários pianos digitais Yamaha, estações de trabalho arranjadoras e interfaces de áudio Steinberg, foram fabricados entre julho de 2010 e maio de 2012. Os adaptadores são identificáveis pela sua cor preta e detalhes específicos do modelo impressos no rótulo de classificação. O número de série indica a data de fabricação, com o quinto caractere representando o ano e o sexto caractere indicando o mês. Por exemplo, um número de série que começa com 'XXXX24XXXXX' significa uma data de produção de abril de 2012.",
+          "ConsumerContact": "Os consumidores são aconselhados a parar de usar os adaptadores PA-300C afetados imediatamente e podem entrar em contato com a Yamaha pelo telefone 844-703-5446 das 9h às 17h PT, de segunda a sexta-feira. Para mais assistência, podem enviar um e-mail para PA300CRECALL@yamaha.com ou visitar www.yamaha.com/us/support/pa300crecall/ para instruções detalhadas sobre o recall.",
+          "metaDescription": "A Yamaha faz recall dos adaptadores de energia AC PA-300C devido a riscos de incêndio. Pare de usar imediatamente e entre em contato com a Yamaha para uma substituição gratuita.",
+          "Products": [
+            {
+              "Name": "Adaptadores de Energia AC Yamaha PA-300C",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 37.400"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Adaptador AC Yamaha PA-300C Recall"
+            },
+            {
+              "Caption": "Rótulo de classificação do adaptador AC recall"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "A empresa recebeu quatro relatos de adaptadores queimando ou fumegando. Nenhum ferimento foi relatado."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponível em lojas de música em todo o país e online em www.shop.usa.yamaha.com de setembro de 2010 a novembro de 2014, e também vendido separadamente como uma peça de serviço por aproximadamente $70."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Yamaha Corporation of America, de Buena Park, Califórnia"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendido Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Potencial de superaquecimento e ignição, levando a riscos de queimaduras e incêndios"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Pare de usar o adaptador e entre em contato com a Yamaha para uma substituição gratuita. Siga as instruções online para enviar reivindicações e evidências de destruição do produto."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparar"
+            },
+            {
+              "Option": "Substituir"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "यामाहा ने डिजिटल पियानो और वर्कस्टेशनों के लिए PA-300C एसी पावर एडाप्टर्स को आग के जोखिम के कारण वापस बुलाया",
+          "Description": "यामाहा कॉर्पोरेशन संभावित जलने और आग के खतरों के कारण अपने PA-300C एसी पावर एडाप्टर्स को वापस बुला रहा है। ये एडाप्टर्स, जिन्हें विभिन्न यामाहा डिजिटल पियानो, अरेंजर वर्कस्टेशनों और स्टाइनबर्ग ऑडियो इंटरफेस के साथ बेचा गया था, जुलाई 2010 और मई 2012 के बीच निर्मित किए गए थे। एडाप्टर्स को उनके काले रंग और रेटिंग लेबल पर प्रिंट किए गए विशिष्ट मॉडल विवरण द्वारा पहचाना जा सकता है। सीरियल नंबर उत्पादन तिथि को दर्शाता है, जिसमें पांचवां अक्षर वर्ष और छठा अक्षर महीने को दर्शाता है। उदाहरण के लिए, 'XXXX24XXXXX' से शुरू होने वाला सीरियल नंबर अप्रैल 2012 की उत्पादन तिथि को दर्शाता है।",
+          "ConsumerContact": "उपभोक्ताओं से अनुरोध किया जाता है कि वे प्रभावित PA-300C एडाप्टर्स का उपयोग तुरंत बंद कर दें और यामाहा से 844-703-5446 पर संपर्क करें, सुबह 9 बजे से शाम 5 बजे तक पीटी, सोमवार से शुक्रवार। अधिक सहायता के लिए, वे PA300CRECALL@yamaha.com पर ईमेल कर सकते हैं या विस्तृत वापसी निर्देशों के लिए www.yamaha.com/us/support/pa300crecall/ पर जा सकते हैं।",
+          "metaDescription": "यामाहा आग के जोखिम के कारण PA-300C एसी पावर एडाप्टर्स को वापस बुलाता है। तुरंत उपयोग बंद करें और मुफ्त प्रतिस्थापन के लिए यामाहा से संपर्क करें।",
+          "Products": [
+            {
+              "Name": "यामाहा PA-300C एसी पावर एडाप्टर्स",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 37,400"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "वापस बुलाए गए यामाहा PA-300C एसी एडाप्टर"
+            },
+            {
+              "Caption": "वापस बुलाए गए एसी एडाप्टर रेटिंग लेबल"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "कंपनी को एडाप्टर्स के जलने या धुआं निकलने के चार रिपोर्ट मिली हैं। कोई चोट की सूचना नहीं मिली है।"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "सितंबर 2010 से नवंबर 2014 तक देशभर के संगीत स्टोर और www.shop.usa.yamaha.com पर उपलब्ध, और लगभग $70 में सेवा भाग के रूप में भी अलग से बेचे गए।"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "यामाहा कॉर्पोरेशन ऑफ अमेरिका, बुएना पार्क, कैलिफोर्निया"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "चीन"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "अत्यधिक गर्म होने और प्रज्वलन की संभावना, जिससे जलने और आग के खतरे हो सकते हैं"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "एडाप्टर का उपयोग बंद करें और मुफ्त प्रतिस्थापन के लिए यामाहा से संपर्क करें। दावों और उत्पाद विनाश के प्रमाण प्रस्तुत करने के लिए ऑनलाइन निर्देशों का पालन करें।"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "मरम्मत"
+            },
+            {
+              "Option": "बदला"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "Yamaha отзывает адаптеры переменного тока PA-300C для цифровых пианино и рабочих станций из-за риска возгорания",
+          "Description": "Компания Yamaha отзывает свои адаптеры переменного тока PA-300C из-за потенциальных рисков ожогов и возгораний. Эти адаптеры, которые продавались с различными цифровыми пианино Yamaha, рабочими станциями-аранжировщиками и аудиоинтерфейсами Steinberg, были изготовлены в период с июля 2010 года по май 2012 года. Адаптеры можно идентифицировать по черному цвету и конкретным деталям модели, напечатанным на этикетке с характеристиками. Серийный номер указывает дату производства, при этом пятый символ обозначает год, а шестой символ указывает месяц. Например, серийный номер, начинающийся с 'XXXX24XXXXX', обозначает дату производства в апреле 2012 года.",
+          "ConsumerContact": "Потребителей призывают немедленно прекратить использование затронутых адаптеров PA-300C и могут связаться с Yamaha по телефону 844-703-5446 с 9:00 до 17:00 по тихоокеанскому времени с понедельника по пятницу. Для получения дополнительной помощи они могут отправить электронное письмо на PA300CRECALL@yamaha.com или посетить www.yamaha.com/us/support/pa300crecall/ для получения подробных инструкций по отзыву.",
+          "metaDescription": "Yamaha отзывает адаптеры переменного тока PA-300C из-за риска возгорания. Прекратите использование немедленно и свяжитесь с Yamaha для бесплатной замены.",
+          "Products": [
+            {
+              "Name": "Адаптеры переменного тока Yamaha PA-300C",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 37,400"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванный адаптер переменного тока Yamaha PA-300C"
+            },
+            {
+              "Caption": "Этикетка с характеристиками отозванного адаптера переменного тока"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Компания получила четыре сообщения о том, что адаптеры горят или дымят. О травмах не сообщалось."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Доступно в музыкальных магазинах по всей стране и онлайн на www.shop.usa.yamaha.com с сентября 2010 года по ноябрь 2014 года, а также продавалось отдельно как запасная часть примерно за $70."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Yamaha Corporation of America, Buena Park, Калифорния"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Продавалось в",
+          "ManufacturerCountries": [
+            {
+              "Country": "Китай"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Потенциальная возможность перегрева и возгорания, что приводит к рискам ожогов и пожаров"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Прекратите использование адаптера и свяжитесь с Yamaha для бесплатной замены. Следуйте онлайн-инструкциям для подачи заявок и предоставления доказательств уничтожения продукта."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Ремонт"
+            },
+            {
+              "Option": "Замена"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "Yamaha Thu Hồi Bộ Chuyển Đổi Điện AC PA-300C Cho Piano Kỹ Thuật Số Và Trạm Làm Việc Do Nguy Cơ Cháy",
+          "Description": "Công ty Yamaha đang thu hồi bộ chuyển đổi điện AC PA-300C của mình do nguy cơ bị bỏng và cháy. Những bộ chuyển đổi này, được bán kèm với nhiều loại piano kỹ thuật số của Yamaha, trạm làm việc sắp xếp và giao diện âm thanh Steinberg, được sản xuất từ tháng 7 năm 2010 đến tháng 5 năm 2012. Các bộ chuyển đổi có thể nhận diện bằng màu đen và các chi tiết mô hình cụ thể được in trên nhãn định mức. Số sê-ri cho biết ngày sản xuất, với ký tự thứ năm đại diện cho năm và ký tự thứ sáu chỉ tháng. Ví dụ, một số sê-ri bắt đầu bằng 'XXXX24XXXXX' có nghĩa là ngày sản xuất vào tháng 4 năm 2012.",
+          "ConsumerContact": "Người tiêu dùng được khuyến cáo ngừng sử dụng ngay lập tức các bộ chuyển đổi PA-300C bị ảnh hưởng và có thể liên hệ với Yamaha qua số 844-703-5446 từ 9 giờ sáng đến 5 giờ chiều PT, từ thứ Hai đến thứ Sáu. Để được hỗ trợ thêm, họ có thể gửi email đến PA300CRECALL@yamaha.com hoặc truy cập www.yamaha.com/us/support/pa300crecall/ để biết hướng dẫn thu hồi chi tiết.",
+          "metaDescription": "Yamaha thu hồi bộ chuyển đổi điện AC PA-300C do nguy cơ cháy. Ngừng sử dụng ngay lập tức và liên hệ với Yamaha để được thay thế miễn phí.",
+          "Products": [
+            {
+              "Name": "Bộ Chuyển Đổi Điện AC Yamaha PA-300C",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 37,400"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Bộ Chuyển Đổi Điện AC Yamaha PA-300C Đã Thu Hồi"
+            },
+            {
+              "Caption": "Nhãn định mức bộ chuyển đổi AC đã thu hồi"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Công ty đã nhận được bốn báo cáo về các bộ chuyển đổi bị cháy hoặc bốc khói. Không có thương tích nào được báo cáo."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Có mặt tại các cửa hàng nhạc trên toàn quốc và trực tuyến tại www.shop.usa.yamaha.com từ tháng 9 năm 2010 đến tháng 11 năm 2014, và cũng được bán riêng như một bộ phận dịch vụ với giá khoảng 70 đô la."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Công ty Yamaha Corporation of America, Buena Park, California"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Bán Tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Trung Quốc"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Nguy cơ quá nhiệt và cháy, dẫn đến nguy cơ bỏng và cháy"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Ngừng sử dụng bộ chuyển đổi và liên hệ với Yamaha để được thay thế miễn phí. Thực hiện theo hướng dẫn trực tuyến để gửi yêu cầu và bằng chứng về việc tiêu hủy sản phẩm."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Sửa chữa"
+            },
+            {
+              "Option": "Thay thế"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    }
+  ]
+}

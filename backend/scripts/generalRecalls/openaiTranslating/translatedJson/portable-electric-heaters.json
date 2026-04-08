@@ -1,0 +1,798 @@
+{
+  "meta": {
+    "slug": "portable-electric-heaters",
+    "sourceCsvFile": "portable-electric-heaters_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:37.039Z",
+    "recallCount": 1,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "portable-electric-heaters.json",
+    "seoTranslatedAt": "2026-04-05T03:00:11.585Z",
+    "resumePartial": false,
+    "i18nSource": "generalRecallsTranslated",
+    "i18nSourceFile": "portable-electric-heaters.json",
+    "i18nUiLangs": [
+      "en",
+      "es",
+      "ar",
+      "zh",
+      "fr",
+      "de",
+      "ja",
+      "pt",
+      "hi",
+      "ru",
+      "vi"
+    ],
+    "i18nProgressByLang": {
+      "es": 1,
+      "ar": 1,
+      "zh": 1,
+      "fr": 1,
+      "de": 1,
+      "ja": 1,
+      "pt": 1,
+      "hi": 1,
+      "ru": 1,
+      "vi": 1
+    },
+    "i18nInProgress": false,
+    "i18nTranslatedAt": "2026-04-07T18:05:33.094Z",
+    "i18nOpenaiModel": "gpt-4o-mini"
+  },
+  "recalls": [
+    {
+      "RecallID": 10198,
+      "RecallNumber": "25179",
+      "RecallDate": "2025-03-13T00:00:00",
+      "Description": "Meijer has announced a recall of Konwin desktop heaters, identified by model number BHN2133. These heaters feature a white plastic casing with a black fan and grill covers, measuring approximately 12 inches in height and 10 inches in width. The brand name 'Konwin' along with the model number is displayed on a label located at the bottom of the unit.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/Meijer-Recalls-Konwin-Desktop-Heaters-Due-to-Fire-and-Burn-Hazards",
+      "Title": "Meijer Issues Recall for Konwin Desktop Heaters Due to Fire and Burn Risks",
+      "ConsumerContact": "For assistance, consumers can reach Meijer at 800-927-8699, use the contact form available at Web Form, or visit https://help.meijer.com/csp?id=m_kb_recall or https://www.meijer.com/ and navigate to 'Product Recalls' at the bottom of the page for further details.",
+      "LastPublishDate": "2025-03-13T00:00:00",
+      "Products": [
+        {
+          "Name": "Konwin Desktop Heater",
+          "NumberOfUnits": "About 6,050"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/portable-electric-heaters/1-Konwin-Desktop-Heater/d7e98a947ae516a9683a2168db562acd.webp",
+          "Caption": "Recalled Konwin Desktop Heater",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Konwin-1.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/portable-electric-heaters/1-Konwin-Desktop-Heater/611f422059c0c9bce648dc9635533cf9.webp",
+          "Caption": "Recalled Konwin Desktop Heater label",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Konwin-2.jpg"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm received eight reports of fans burning and melting. No injuries have been reported."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available at Meijer locations across Michigan, Ohio, Indiana, Illinois, Wisconsin, and Kentucky from September 2024 through January 2025, priced between $25 and $40."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Meijer Distribution Inc., of Grand Rapids, Michigan"
+        }
+      ],
+      "SoldAtLabel": "Sold Exclusively At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of overheating and fire due to fan failure"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Return the heater to any Meijer store for a full refund"
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "BHN2133"
+      ],
+      "slug": "meijer-issues-recall-for-konwin-desktop-heaters-due-to-fire-and-burn-risks-recall",
+      "metaDescription": "Meijer recalls Konwin desktop heaters due to potential fire and burn hazards. Learn how to return for a full refund.",
+      "languages": {
+        "en": {
+          "Title": "Meijer Issues Recall for Konwin Desktop Heaters Due to Fire and Burn Risks",
+          "Description": "Meijer has announced a recall of Konwin desktop heaters, identified by model number BHN2133. These heaters feature a white plastic casing with a black fan and grill covers, measuring approximately 12 inches in height and 10 inches in width. The brand name 'Konwin' along with the model number is displayed on a label located at the bottom of the unit.",
+          "ConsumerContact": "For assistance, consumers can reach Meijer at 800-927-8699, use the contact form available at Web Form, or visit https://help.meijer.com/csp?id=m_kb_recall or https://www.meijer.com/ and navigate to 'Product Recalls' at the bottom of the page for further details.",
+          "metaDescription": "Meijer recalls Konwin desktop heaters due to potential fire and burn hazards. Learn how to return for a full refund.",
+          "Products": [
+            {
+              "Name": "Konwin Desktop Heater",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 6,050"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled Konwin Desktop Heater"
+            },
+            {
+              "Caption": "Recalled Konwin Desktop Heater label"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "The firm received eight reports of fans burning and melting. No injuries have been reported."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Available at Meijer locations across Michigan, Ohio, Indiana, Illinois, Wisconsin, and Kentucky from September 2024 through January 2025, priced between $25 and $40."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Meijer Distribution Inc., of Grand Rapids, Michigan"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Sold Exclusively At",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risk of overheating and fire due to fan failure"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Return the heater to any Meijer store for a full refund"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Refund"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "Meijer Emite un Retiro de Calefactores de Escritorio Konwin Debido a Riesgos de Incendio y Quemaduras",
+          "Description": "Meijer ha anunciado un retiro de calefactores de escritorio Konwin, identificados por el número de modelo BHN2133. Estos calefactores cuentan con una carcasa de plástico blanco con un ventilador negro y cubiertas de rejilla, midiendo aproximadamente 12 pulgadas de altura y 10 pulgadas de ancho. El nombre de la marca 'Konwin' junto con el número de modelo se muestra en una etiqueta ubicada en la parte inferior de la unidad.",
+          "ConsumerContact": "Para asistencia, los consumidores pueden comunicarse con Meijer al 800-927-8699, utilizar el formulario de contacto disponible en Web Form, o visitar https://help.meijer.com/csp?id=m_kb_recall o https://www.meijer.com/ y navegar a 'Retiro de Productos' en la parte inferior de la página para más detalles.",
+          "metaDescription": "Meijer retira calefactores de escritorio Konwin debido a posibles riesgos de incendio y quemaduras. Aprenda cómo devolver para un reembolso completo.",
+          "Products": [
+            {
+              "Name": "Calefactor de Escritorio Konwin",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 6,050"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Calefactor de Escritorio Konwin Retirado"
+            },
+            {
+              "Caption": "Etiqueta del calefactor de escritorio Konwin retirado"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "La empresa recibió ocho informes de ventiladores quemándose y derritiéndose. No se han reportado lesiones."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible en ubicaciones de Meijer en Michigan, Ohio, Indiana, Illinois, Wisconsin y Kentucky desde septiembre de 2024 hasta enero de 2025, con precios entre $25 y $40."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Meijer Distribution Inc., de Grand Rapids, Michigan"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendido Exclusivamente En",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Riesgo de sobrecalentamiento e incendio debido a falla del ventilador"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Devuelva el calefactor a cualquier tienda Meijer para un reembolso completo"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reembolso"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "مايجر تصدر استدعاء لسخانات كونوين المكتبية بسبب مخاطر الحريق والحروق",
+          "Description": "أعلنت مايجر عن استدعاء سخانات كونوين المكتبية، المحددة برقم الطراز BHN2133. تتميز هذه السخانات بغطاء بلاستيكي أبيض مع مروحة سوداء وأغطية للشبكة، ويبلغ ارتفاعها حوالي 12 بوصة وعرضها 10 بوصات. يظهر اسم العلامة التجارية 'كونوين' مع رقم الطراز على ملصق موجود في أسفل الوحدة.",
+          "ConsumerContact": "للمساعدة، يمكن للمستهلكين الاتصال بمايجر على الرقم 800-927-8699، أو استخدام نموذج الاتصال المتاح على Web Form، أو زيارة https://help.meijer.com/csp?id=m_kb_recall أو https://www.meijer.com/ والتنقل إلى 'استدعاءات المنتجات' في أسفل الصفحة لمزيد من التفاصيل.",
+          "metaDescription": "مايجر تستدعي سخانات كونوين المكتبية بسبب مخاطر الحريق والحروق المحتملة. تعرف على كيفية إرجاع المنتج لاسترداد كامل.",
+          "Products": [
+            {
+              "Name": "سخان كونوين المكتبي",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 6,050"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "سخان كونوين المكتبي المستدعى"
+            },
+            {
+              "Caption": "ملصق سخان كونوين المكتبي المستدعى"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "تلقت الشركة ثماني تقارير عن احتراق المراوح وذوبانها. لم يتم الإبلاغ عن أي إصابات."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "متوفر في مواقع مايجر عبر ميشيغان وأوهايو وإنديانا وإلينوي وويسكونسن وكينتاكي من سبتمبر 2024 حتى يناير 2025، بسعر يتراوح بين 25 و40 دولارًا."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "شركة توزيع مايجر، من غراند رابيدز، ميشيغان"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "تباع حصريًا في",
+          "ManufacturerCountries": [
+            {
+              "Country": "الصين"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "خطر السخونة الزائدة والحريق بسبب فشل المروحة"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "إرجاع السخان إلى أي متجر مايجر لاسترداد كامل"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "استرداد"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "梅耶尔因火灾和烧伤风险召回Konwin桌面加热器",
+          "Description": "梅耶尔已宣布召回Konwin桌面加热器，型号为BHN2133。这些加热器具有白色塑料外壳，配有黑色风扇和格栅罩，尺寸约为12英寸高和10英寸宽。品牌名称“Konwin”及型号显示在设备底部的标签上。",
+          "ConsumerContact": "如需帮助，消费者可以拨打梅耶尔的电话800-927-8699，使用可在Web表单上找到的联系表，或访问https://help.meijer.com/csp?id=m_kb_recall或https://www.meijer.com/，并在页面底部导航至“产品召回”以获取更多详细信息。",
+          "metaDescription": "梅耶尔因潜在的火灾和烧伤危险召回Konwin桌面加热器。了解如何退货以获得全额退款。",
+          "Products": [
+            {
+              "Name": "Konwin桌面加热器",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约6,050"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "召回的Konwin桌面加热器"
+            },
+            {
+              "Caption": "召回的Konwin桌面加热器标签"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "该公司收到八起风扇烧毁和融化的报告。没有报告受伤情况。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "在2024年9月至2025年1月期间，梅耶尔在密歇根州、俄亥俄州、印第安纳州、伊利诺伊州、威斯康星州和肯塔基州的门店出售，价格在25美元至40美元之间。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "梅耶尔分销公司，位于密歇根州大急流城"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "仅在以下地点出售",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "由于风扇故障导致过热和火灾的风险"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "将加热器退还至任何梅耶尔门店以获得全额退款"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "退款"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "Meijer rappelle des chauffages de bureau Konwin en raison de risques d'incendie et de brûlures",
+          "Description": "Meijer a annoncé un rappel des chauffages de bureau Konwin, identifiés par le numéro de modèle BHN2133. Ces chauffages présentent un boîtier en plastique blanc avec un ventilateur noir et des grilles de protection, mesurant environ 30 cm de hauteur et 25 cm de largeur. Le nom de la marque 'Konwin' ainsi que le numéro de modèle sont affichés sur une étiquette située au bas de l'appareil.",
+          "ConsumerContact": "Pour assistance, les consommateurs peuvent contacter Meijer au 800-927-8699, utiliser le formulaire de contact disponible à Web Form, ou visiter https://help.meijer.com/csp?id=m_kb_recall ou https://www.meijer.com/ et naviguer vers 'Rappels de produits' en bas de la page pour plus de détails.",
+          "metaDescription": "Meijer rappelle des chauffages de bureau Konwin en raison de dangers potentiels d'incendie et de brûlures. Apprenez comment retourner pour un remboursement complet.",
+          "Products": [
+            {
+              "Name": "Chauffage de bureau Konwin",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 6 050"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Chauffage de bureau Konwin rappelé"
+            },
+            {
+              "Caption": "Étiquette du chauffage de bureau Konwin rappelé"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "L'entreprise a reçu huit rapports de ventilateurs brûlant et fondant. Aucune blessure n'a été signalée."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible dans les magasins Meijer à travers le Michigan, l'Ohio, l'Indiana, l'Illinois, le Wisconsin et le Kentucky de septembre 2024 à janvier 2025, au prix compris entre 25 $ et 40 $."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Meijer Distribution Inc., de Grand Rapids, Michigan"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendu Exclusivement Chez",
+          "ManufacturerCountries": [
+            {
+              "Country": "Chine"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risque de surchauffe et d'incendie en raison d'une défaillance du ventilateur"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Retourner le chauffage dans n'importe quel magasin Meijer pour un remboursement complet"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Remboursement"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "Meijer ruft Konwin Desktop-Heizgeräte aufgrund von Brand- und Verbrennungsrisiken zurück",
+          "Description": "Meijer hat einen Rückruf von Konwin Desktop-Heizgeräten angekündigt, die durch die Modellnummer BHN2133 identifiziert werden. Diese Heizgeräte verfügen über ein weißes Kunststoffgehäuse mit einem schwarzen Ventilator und Grillabdeckungen, die etwa 30 cm hoch und 25 cm breit sind. Der Markenname 'Konwin' sowie die Modellnummer sind auf einem Etikett an der Unterseite des Geräts angebracht.",
+          "ConsumerContact": "Für Unterstützung können Verbraucher Meijer unter 800-927-8699 kontaktieren, das Kontaktformular auf der Webseite verwenden oder https://help.meijer.com/csp?id=m_kb_recall oder https://www.meijer.com/ besuchen und unten auf der Seite zu 'Produkt-Rückrufe' navigieren, um weitere Details zu erhalten.",
+          "metaDescription": "Meijer ruft Konwin Desktop-Heizgeräte aufgrund potenzieller Brand- und Verbrennungsgefahren zurück. Erfahren Sie, wie Sie eine vollständige Rückerstattung erhalten können.",
+          "Products": [
+            {
+              "Name": "Konwin Desktop-Heizgerät",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 6.050"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Rückgerufenes Konwin Desktop-Heizgerät"
+            },
+            {
+              "Caption": "Etikett des zurückgerufenen Konwin Desktop-Heizgeräts"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Das Unternehmen erhielt acht Berichte über brennende und schmelzende Ventilatoren. Es wurden keine Verletzungen gemeldet."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Erhältlich in Meijer-Filialen in Michigan, Ohio, Indiana, Illinois, Wisconsin und Kentucky von September 2024 bis Januar 2025, zu Preisen zwischen 25 und 40 US-Dollar."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Meijer Distribution Inc., Grand Rapids, Michigan"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Exklusiv verkauft bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Überhitzungs- und Brandrisiko aufgrund eines Ventilatorfehlers"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Geben Sie das Heizgerät in einem beliebigen Meijer-Geschäft für eine vollständige Rückerstattung zurück"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Rückerstattung"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "Meijerが火災および火傷のリスクによりKonwinデスクトップヒーターをリコール",
+          "Description": "Meijerは、モデル番号BHN2133で特定されたKonwinデスクトップヒーターのリコールを発表しました。これらのヒーターは、黒いファンとグリルカバーを備えた白いプラスチック製の外装を特徴としており、高さ約12インチ、幅約10インチです。ブランド名「Konwin」とモデル番号は、ユニットの底部にあるラベルに表示されています。",
+          "ConsumerContact": "サポートが必要な場合、消費者は800-927-8699に連絡するか、Webフォームで利用可能な連絡フォームを使用するか、https://help.meijer.com/csp?id=m_kb_recall または https://www.meijer.com/ を訪れてページの下部にある「製品リコール」に移動して詳細を確認できます。",
+          "metaDescription": "Meijerは、潜在的な火災および火傷の危険性によりKonwinデスクトップヒーターをリコールします。全額返金のための返品方法を学びましょう。",
+          "Products": [
+            {
+              "Name": "Konwinデスクトップヒーター",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約6,050"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコールされたKonwinデスクトップヒーター"
+            },
+            {
+              "Caption": "リコールされたKonwinデスクトップヒーターのラベル"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "同社はファンが燃えたり溶けたりするという8件の報告を受けています。怪我の報告はありません。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "2024年9月から2025年1月まで、ミシガン州、オハイオ州、インディアナ州、イリノイ州、ウィスコンシン州、ケンタッキー州のMeijer店舗で販売され、価格は25ドルから40ドルの間です。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "ミシガン州グランドラピッズのMeijer Distribution Inc."
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "専売販売",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "ファンの故障による過熱および火災のリスク"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "ヒーターを任意のMeijer店舗に返却して全額返金を受ける"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "返金"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "Meijer Emite Recall para Aquecedores de Mesa Konwin Devido a Riscos de Incêndio e Queimaduras",
+          "Description": "A Meijer anunciou um recall dos aquecedores de mesa Konwin, identificados pelo número do modelo BHN2133. Esses aquecedores possuem um revestimento de plástico branco com um ventilador preto e grelhas, medindo aproximadamente 30 centímetros de altura e 25 centímetros de largura. O nome da marca 'Konwin', juntamente com o número do modelo, está exibido em um rótulo localizado na parte inferior da unidade.",
+          "ConsumerContact": "Para assistência, os consumidores podem entrar em contato com a Meijer pelo telefone 800-927-8699, usar o formulário de contato disponível em Web Form, ou visitar https://help.meijer.com/csp?id=m_kb_recall ou https://www.meijer.com/ e navegar até 'Recall de Produtos' na parte inferior da página para mais detalhes.",
+          "metaDescription": "A Meijer faz recall dos aquecedores de mesa Konwin devido a potenciais riscos de incêndio e queimaduras. Aprenda como devolver para um reembolso total.",
+          "Products": [
+            {
+              "Name": "Aquecedor de Mesa Konwin",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 6.050"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Aquecedor de Mesa Konwin Recall"
+            },
+            {
+              "Caption": "Rótulo do aquecedor de mesa Konwin Recall"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "A empresa recebeu oito relatos de ventiladores queimando e derretendo. Nenhum ferimento foi relatado."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponível em locais da Meijer em Michigan, Ohio, Indiana, Illinois, Wisconsin e Kentucky de setembro de 2024 a janeiro de 2025, com preços entre $25 e $40."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Meijer Distribution Inc., de Grand Rapids, Michigan"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendidos Exclusivamente Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risco de superaquecimento e incêndio devido à falha do ventilador"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Devolver o aquecedor a qualquer loja Meijer para um reembolso total"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reembolso"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "Meijer ने आग और जलने के जोखिम के कारण Konwin डेस्कटॉप हीटर काRecall किया",
+          "Description": "Meijer ने Konwin डेस्कटॉप हीटर काRecall किया है, जिसे मॉडल नंबर BHN2133 द्वारा पहचाना गया है। ये हीटर सफेद प्लास्टिक के आवरण के साथ काले पंखे और ग्रिल कवर के साथ आते हैं, जिनकी ऊंचाई लगभग 12 इंच और चौड़ाई 10 इंच है। ब्रांड नाम 'Konwin' और मॉडल नंबर एक लेबल पर प्रदर्शित है जो यूनिट के नीचे स्थित है।",
+          "ConsumerContact": "सहायता के लिए, उपभोक्ता Meijer से 800-927-8699 पर संपर्क कर सकते हैं, उपलब्ध संपर्क फॉर्म का उपयोग कर सकते हैं या https://help.meijer.com/csp?id=m_kb_recall पर जा सकते हैं या https://www.meijer.com/ पर जाकर पृष्ठ के नीचे 'उत्पाद Recall' पर नेविगेट कर सकते हैं।",
+          "metaDescription": "Meijer संभावित आग और जलने के खतरों के कारण Konwin डेस्कटॉप हीटर काRecall करता है। पूर्ण धनवापसी के लिए लौटाने का तरीका जानें।",
+          "Products": [
+            {
+              "Name": "Konwin डेस्कटॉप हीटर",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 6,050"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recall किया गया Konwin डेस्कटॉप हीटर"
+            },
+            {
+              "Caption": "Recall किया गया Konwin डेस्कटॉप हीटर लेबल"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "कंपनी को पंखों के जलने और पिघलने की आठ रिपोर्ट मिली हैं। कोई चोटें नहीं बताई गई हैं।"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "मिशिगन, ओहियो, इंडियाना, इलिनोइस, विस्कॉन्सिन और केंटकी में Meijer स्थानों पर सितंबर 2024 से जनवरी 2025 तक उपलब्ध, कीमत $25 से $40 के बीच।"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Meijer Distribution Inc., ग्रैंड रैपिड्स, मिशिगन"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "विशेष रूप से बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "चीन"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "पंखे की विफलता के कारण अधिक गर्म होने और आग का जोखिम"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "हीटर को किसी भी Meijer स्टोर में पूर्ण धनवापसी के लिए लौटाएं"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "धनवापसी"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "Meijer объявляет отзыв настольных обогревателей Konwin из-за риска пожара и ожогов",
+          "Description": "Meijer объявила отзыв настольных обогревателей Konwin, идентифицированных по номеру модели BHN2133. Эти обогреватели имеют белый пластиковый корпус с черным вентилятором и решетками, размером примерно 12 дюймов в высоту и 10 дюймов в ширину. Название бренда 'Konwin' вместе с номером модели отображается на ярлыке, расположенном внизу устройства.",
+          "ConsumerContact": "Для получения помощи потребители могут обратиться в Meijer по телефону 800-927-8699, использовать контактную форму, доступную на веб-форме, или посетить https://help.meijer.com/csp?id=m_kb_recall или https://www.meijer.com/ и перейти в раздел 'Отзывы продуктов' внизу страницы для получения дополнительной информации.",
+          "metaDescription": "Meijer отзывает настольные обогреватели Konwin из-за потенциальных рисков пожара и ожогов. Узнайте, как вернуть товар для получения полного возмещения.",
+          "Products": [
+            {
+              "Name": "Настольный обогреватель Konwin",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 6,050"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванный настольный обогреватель Konwin"
+            },
+            {
+              "Caption": "Ярлык отозванного настольного обогревателя Konwin"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Компания получила восемь сообщений о том, что вентиляторы горят и плавятся. О травмах не сообщалось."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Доступно в магазинах Meijer по всему Мичигану, Огайо, Индиане, Иллинойсу, Висконсину и Кентукки с сентября 2024 года по январь 2025 года, по цене от $25 до $40."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Meijer Distribution Inc., Гранд-Рапидс, Мичиган"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Продается исключительно в",
+          "ManufacturerCountries": [
+            {
+              "Country": "Китай"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Риск перегрева и пожара из-за неисправности вентилятора"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Верните обогреватель в любой магазин Meijer для получения полного возмещения"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Возмещение"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "Meijer Thông Báo Thu Hồi Lò Sưởi Konwin Do Nguy Cơ Cháy Nổ và Bỏng",
+          "Description": "Meijer đã thông báo thu hồi lò sưởi để bàn Konwin, được xác định bằng số model BHN2133. Những chiếc lò sưởi này có vỏ nhựa trắng với quạt và lưới che màu đen, có kích thước khoảng 12 inch chiều cao và 10 inch chiều rộng. Tên thương hiệu 'Konwin' cùng với số model được hiển thị trên nhãn nằm ở đáy thiết bị.",
+          "ConsumerContact": "Để được hỗ trợ, người tiêu dùng có thể liên hệ với Meijer qua số 800-927-8699, sử dụng mẫu liên hệ có sẵn tại Web Form, hoặc truy cập https://help.meijer.com/csp?id=m_kb_recall hoặc https://www.meijer.com/ và điều hướng đến 'Thông Báo Thu Hồi Sản Phẩm' ở cuối trang để biết thêm chi tiết.",
+          "metaDescription": "Meijer thu hồi lò sưởi để bàn Konwin do nguy cơ cháy nổ và bỏng. Tìm hiểu cách trả lại để được hoàn tiền đầy đủ.",
+          "Products": [
+            {
+              "Name": "Lò Sưởi Để Bàn Konwin",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 6,050"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Lò Sưởi Để Bàn Konwin Đã Được Thu Hồi"
+            },
+            {
+              "Caption": "Nhãn Lò Sưởi Để Bàn Konwin Đã Được Thu Hồi"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Công ty đã nhận được tám báo cáo về quạt bị cháy và tan chảy. Không có thương tích nào được báo cáo."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Có sẵn tại các địa điểm Meijer trên toàn Michigan, Ohio, Indiana, Illinois, Wisconsin và Kentucky từ tháng 9 năm 2024 đến tháng 1 năm 2025, có giá từ 25 đến 40 đô la."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Meijer Distribution Inc., tại Grand Rapids, Michigan"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Chỉ Bán Tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Trung Quốc"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Nguy cơ quá nhiệt và cháy do quạt bị hỏng"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Trả lại lò sưởi tại bất kỳ cửa hàng Meijer nào để được hoàn tiền đầy đủ"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Hoàn tiền"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    }
+  ]
+}

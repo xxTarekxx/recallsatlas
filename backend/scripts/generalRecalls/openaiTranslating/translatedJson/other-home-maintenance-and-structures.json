@@ -1,0 +1,831 @@
+{
+  "meta": {
+    "slug": "other-home-maintenance-and-structures",
+    "sourceCsvFile": "other-home-maintenance-and-structures_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:37.018Z",
+    "recallCount": 1,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "other-home-maintenance-and-structures.json",
+    "seoTranslatedAt": "2026-04-05T02:05:40.455Z",
+    "resumePartial": false,
+    "i18nSource": "generalRecallsTranslated",
+    "i18nSourceFile": "other-home-maintenance-and-structures.json",
+    "i18nUiLangs": [
+      "en",
+      "es",
+      "ar",
+      "zh",
+      "fr",
+      "de",
+      "ja",
+      "pt",
+      "hi",
+      "ru",
+      "vi"
+    ],
+    "i18nProgressByLang": {
+      "es": 1,
+      "ar": 1,
+      "zh": 1,
+      "fr": 1,
+      "de": 1,
+      "ja": 1,
+      "pt": 1,
+      "hi": 1,
+      "ru": 1,
+      "vi": 1
+    },
+    "i18nInProgress": false,
+    "i18nTranslatedAt": "2026-04-07T16:10:50.890Z",
+    "i18nOpenaiModel": "gpt-4o-mini"
+  },
+  "recalls": [
+    {
+      "RecallID": 10037,
+      "RecallNumber": "24346",
+      "RecallDate": "2024-08-22T00:00:00",
+      "Description": "Siemens Industry is recalling SolarReady Meter Combos identified by catalog numbers MC2442S1200SC and MC2442S1200FC, produced between August 2021 and August 2022. These units connect utility power, rooftop solar systems, and home electrical panels. Depending on the setup, they may house the branch circuits for the entire home or just part of it, along with the main service disconnect for the home's power supply.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/Siemens-Industry-Recalls-SolarReady-Meter-Combos-Due-to-Fire-Hazard",
+      "Title": "Siemens Industry Issues Recall for SolarReady™ Meter Combos Due to Fire Risk",
+      "ConsumerContact": "For assistance, contact Siemens Industry at 800-756-6996 from 9 a.m. to 6 p.m. ET, Monday through Friday, via email at psn.industry@siemens.com, or visit https://www.siemens.com/us/en/products/energy/low-voltage/solarready-meter-combo-safety-recall.html for more details.",
+      "LastPublishDate": "2024-08-22T00:00:00",
+      "Products": [
+        {
+          "Name": "Siemens SolarReady Meter Combos",
+          "NumberOfUnits": "About 3,910"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/other-home-maintenance-and-structures/1-Siemens-SolarReady-Meter-Combos/9bc24624a8743735bc9288e270c50f8c.webp",
+          "Caption": "Recalled Siemens SolarReady Meter Combo and inside panel label",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/solarready-1.png"
+        },
+        {
+          "URL": "/images/generalRecalls/other-home-maintenance-and-structures/1-Siemens-SolarReady-Meter-Combos/3c0966d9c102fcfdc534a1f4774df758.webp",
+          "Caption": "Location of Catalog Number and Date Stamp",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/solarready-2.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received eight reports of overheating, including one report of a localized fire. No injuries have been reported."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available through electrical distributors across the country from August 2021 to April 2024, priced between $640 and $990 based on the model."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Siemens Industry Inc., of Alpharetta, Georgia"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "Mexico"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Overheating interior connections posing a fire risk"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Contact Siemens for inspection and free repair or replacement by a licensed contractor if your SolarReady Meter Combo is affected."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        },
+        {
+          "Option": "Replace"
+        }
+      ],
+      "slug": "siemens-industry-issues-recall-for-solarready-meter-combos-due-to-fire-risk-recall",
+      "metaDescription": "Siemens recalls SolarReady Meter Combos due to fire hazards. Contact Siemens for inspection and free repairs.",
+      "languages": {
+        "en": {
+          "Title": "Siemens Industry Issues Recall for SolarReady™ Meter Combos Due to Fire Risk",
+          "Description": "Siemens Industry is recalling SolarReady Meter Combos identified by catalog numbers MC2442S1200SC and MC2442S1200FC, produced between August 2021 and August 2022. These units connect utility power, rooftop solar systems, and home electrical panels. Depending on the setup, they may house the branch circuits for the entire home or just part of it, along with the main service disconnect for the home's power supply.",
+          "ConsumerContact": "For assistance, contact Siemens Industry at 800-756-6996 from 9 a.m. to 6 p.m. ET, Monday through Friday, via email at psn.industry@siemens.com, or visit https://www.siemens.com/us/en/products/energy/low-voltage/solarready-meter-combo-safety-recall.html for more details.",
+          "metaDescription": "Siemens recalls SolarReady Meter Combos due to fire hazards. Contact Siemens for inspection and free repairs.",
+          "Products": [
+            {
+              "Name": "Siemens SolarReady Meter Combos",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 3,910"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled Siemens SolarReady Meter Combo and inside panel label"
+            },
+            {
+              "Caption": "Location of Catalog Number and Date Stamp"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "The firm has received eight reports of overheating, including one report of a localized fire. No injuries have been reported."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Available through electrical distributors across the country from August 2021 to April 2024, priced between $640 and $990 based on the model."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Siemens Industry Inc., of Alpharetta, Georgia"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Sold At",
+          "ManufacturerCountries": [
+            {
+              "Country": "Mexico"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Overheating interior connections posing a fire risk"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Contact Siemens for inspection and free repair or replacement by a licensed contractor if your SolarReady Meter Combo is affected."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Repair"
+            },
+            {
+              "Option": "Replace"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "Siemens Industry Emite un Retiro de Productos para Combos de Medidores SolarReady™ Debido al Riesgo de Incendio",
+          "Description": "Siemens Industry está retirando del mercado los Combos de Medidores SolarReady identificados por los números de catálogo MC2442S1200SC y MC2442S1200FC, producidos entre agosto de 2021 y agosto de 2022. Estas unidades conectan la energía de la utilidad, sistemas solares en techos y paneles eléctricos del hogar. Dependiendo de la configuración, pueden albergar los circuitos de rama para toda la casa o solo una parte de ella, junto con el desconector principal del suministro eléctrico del hogar.",
+          "ConsumerContact": "Para asistencia, contacte a Siemens Industry al 800-756-6996 de 9 a.m. a 6 p.m. ET, de lunes a viernes, por correo electrónico a psn.industry@siemens.com, o visite https://www.siemens.com/us/en/products/energy/low-voltage/solarready-meter-combo-safety-recall.html para más detalles.",
+          "metaDescription": "Siemens retira del mercado los Combos de Medidores SolarReady debido a riesgos de incendio. Contacte a Siemens para inspección y reparaciones gratuitas.",
+          "Products": [
+            {
+              "Name": "Combos de Medidores SolarReady de Siemens",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 3,910"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Combo de Medidor SolarReady de Siemens retirado y etiqueta del panel interior"
+            },
+            {
+              "Caption": "Ubicación del Número de Catálogo y Sello de Fecha"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "La empresa ha recibido ocho informes de sobrecalentamiento, incluyendo un informe de un incendio localizado. No se han reportado lesiones."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible a través de distribuidores eléctricos en todo el país desde agosto de 2021 hasta abril de 2024, con precios entre $640 y $990 según el modelo."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Siemens Industry Inc., de Alpharetta, Georgia"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendidos En",
+          "ManufacturerCountries": [
+            {
+              "Country": "México"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Conexiones interiores que se sobrecalientan, lo que representa un riesgo de incendio"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Contacte a Siemens para inspección y reparación o reemplazo gratuito por un contratista autorizado si su Combo de Medidor SolarReady se ve afectado."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparar"
+            },
+            {
+              "Option": "Reemplazar"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "شركة سيمنز للصناعة تصدر استدعاء لمجموعات عدادات SolarReady™ بسبب خطر الحريق",
+          "Description": "تقوم شركة سيمنز للصناعة باستدعاء مجموعات عدادات SolarReady التي تم تحديدها بأرقام الكتالوج MC2442S1200SC و MC2442S1200FC، والتي تم إنتاجها بين أغسطس 2021 وأغسطس 2022. هذه الوحدات تربط الطاقة الكهربائية من المرافق، وأنظمة الطاقة الشمسية على الأسطح، ولوحات الكهرباء المنزلية. اعتمادًا على الإعداد، قد تحتوي على دوائر فرعية لكامل المنزل أو جزء منه، بالإضافة إلى فصل الخدمة الرئيسي لمصدر الطاقة في المنزل.",
+          "ConsumerContact": "للحصول على المساعدة، اتصل بشركة سيمنز للصناعة على الرقم 800-756-6996 من الساعة 9 صباحًا حتى 6 مساءً بتوقيت شرق الولايات المتحدة، من الاثنين إلى الجمعة، عبر البريد الإلكتروني على psn.industry@siemens.com، أو قم بزيارة https://www.siemens.com/us/en/products/energy/low-voltage/solarready-meter-combo-safety-recall.html لمزيد من التفاصيل.",
+          "metaDescription": "تستدعي سيمنز مجموعات عدادات SolarReady بسبب مخاطر الحريق. اتصل بشركة سيمنز للتفتيش والإصلاحات المجانية.",
+          "Products": [
+            {
+              "Name": "مجموعات عدادات سيمنز SolarReady",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 3,910"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "مجموعة عدادات سيمنز SolarReady المستدعاة وملصق اللوحة الداخلية"
+            },
+            {
+              "Caption": "موقع رقم الكتالوج وختم التاريخ"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "تلقت الشركة ثماني تقارير عن ارتفاع درجة الحرارة، بما في ذلك تقرير واحد عن حريق محلي. لم يتم الإبلاغ عن أي إصابات."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "متاحة من خلال موزعي الكهرباء في جميع أنحاء البلاد من أغسطس 2021 إلى أبريل 2024، بأسعار تتراوح بين 640 دولارًا و990 دولارًا بناءً على الطراز."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "شركة سيمنز للصناعة، من ألفاريتا، جورجيا"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "تم البيع في",
+          "ManufacturerCountries": [
+            {
+              "Country": "المكسيك"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "ارتفاع درجة حرارة الوصلات الداخلية مما يشكل خطر الحريق"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "اتصل بشركة سيمنز للتفتيش والإصلاح المجاني أو الاستبدال من قبل مقاول مرخص إذا كانت مجموعة عدادات SolarReady الخاصة بك متأثرة."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "إصلاح"
+            },
+            {
+              "Option": "استبدال"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "西门子工业因火灾风险召回SolarReady™计量组合",
+          "Description": "西门子工业正在召回标识为目录编号MC2442S1200SC和MC2442S1200FC的SolarReady计量组合，这些产品生产于2021年8月至2022年8月之间。这些设备连接公用电力、屋顶太阳能系统和家庭电气面板。根据设置，它们可能容纳整个家庭或仅部分家庭的支路电路，以及家庭电源的主服务断路器。",
+          "ConsumerContact": "如需帮助，请联系西门子工业，电话800-756-6996，工作时间为周一至周五东部时间上午9点至下午6点，或通过电子邮件psn.industry@siemens.com联系，或访问https://www.siemens.com/us/en/products/energy/low-voltage/solarready-meter-combo-safety-recall.html获取更多详情。",
+          "metaDescription": "西门子因火灾隐患召回SolarReady计量组合。请联系西门子进行检查和免费维修。",
+          "Products": [
+            {
+              "Name": "西门子SolarReady计量组合",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约3,910个"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "被召回的西门子SolarReady计量组合及内部面板标签"
+            },
+            {
+              "Caption": "目录编号和日期印记的位置"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "该公司已收到八起过热报告，包括一起局部火灾报告。没有报告伤亡。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "通过全国各地的电气分销商提供，销售时间为2021年8月至2024年4月，价格根据型号在640美元至990美元之间。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "西门子工业公司，位于乔治亚州阿尔法雷塔"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "销售地点",
+          "ManufacturerCountries": [
+            {
+              "Country": "墨西哥"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "过热的内部连接存在火灾风险"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "如果您的SolarReady计量组合受到影响，请联系西门子进行检查和由持证承包商进行免费维修或更换。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "维修"
+            },
+            {
+              "Option": "更换"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "Siemens Industry rappelle des combinaisons de compteurs SolarReady™ en raison d'un risque d'incendie",
+          "Description": "Siemens Industry rappelle des combinaisons de compteurs SolarReady identifiées par les numéros de catalogue MC2442S1200SC et MC2442S1200FC, produites entre août 2021 et août 2022. Ces unités connectent l'alimentation électrique, les systèmes solaires sur toit et les panneaux électriques domestiques. Selon la configuration, elles peuvent abriter les circuits de dérivation pour l'ensemble de la maison ou seulement une partie, ainsi que le débranchement principal pour l'alimentation électrique de la maison.",
+          "ConsumerContact": "Pour assistance, contactez Siemens Industry au 800-756-6996 de 9 h à 18 h HNE, du lundi au vendredi, par e-mail à psn.industry@siemens.com, ou visitez https://www.siemens.com/us/en/products/energy/low-voltage/solarready-meter-combo-safety-recall.html pour plus de détails.",
+          "metaDescription": "Siemens rappelle des combinaisons de compteurs SolarReady en raison de risques d'incendie. Contactez Siemens pour une inspection et des réparations gratuites.",
+          "Products": [
+            {
+              "Name": "Combinaisons de compteurs SolarReady de Siemens",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 3 910"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Combinaison de compteur SolarReady de Siemens rappelée et étiquette du panneau intérieur"
+            },
+            {
+              "Caption": "Emplacement du numéro de catalogue et du timbre de date"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "L'entreprise a reçu huit rapports de surchauffe, y compris un rapport d'incendie localisé. Aucun blessé n'a été signalé."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible auprès de distributeurs électriques à travers le pays d'août 2021 à avril 2024, au prix compris entre 640 $ et 990 $ selon le modèle."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Siemens Industry Inc., d'Alpharetta, Géorgie"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendu chez",
+          "ManufacturerCountries": [
+            {
+              "Country": "Mexique"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Surchauffe des connexions intérieures posant un risque d'incendie"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Contactez Siemens pour une inspection et une réparation ou un remplacement gratuits par un entrepreneur agréé si votre combinaison de compteur SolarReady est concernée."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Réparer"
+            },
+            {
+              "Option": "Remplacer"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "Siemens Industry ruft SolarReady™ Meter Combos aufgrund von Brandgefahr zurück",
+          "Description": "Siemens Industry ruft SolarReady Meter Combos zurück, die durch die Katalognummern MC2442S1200SC und MC2442S1200FC identifiziert werden und zwischen August 2021 und August 2022 produziert wurden. Diese Geräte verbinden die Stromversorgung, Solaranlagen auf Dächern und elektrische Hausanschlüsse. Je nach Einrichtung können sie die Stromkreise für das gesamte Haus oder nur einen Teil davon sowie die Haupttrennvorrichtung für die Stromversorgung des Hauses enthalten.",
+          "ConsumerContact": "Für Unterstützung kontaktieren Sie Siemens Industry unter 800-756-6996 von 9 bis 18 Uhr ET, Montag bis Freitag, per E-Mail an psn.industry@siemens.com oder besuchen Sie https://www.siemens.com/us/en/products/energy/low-voltage/solarready-meter-combo-safety-recall.html für weitere Details.",
+          "metaDescription": "Siemens ruft SolarReady Meter Combos aufgrund von Brandgefahren zurück. Kontaktieren Sie Siemens für Inspektion und kostenlose Reparaturen.",
+          "Products": [
+            {
+              "Name": "Siemens SolarReady Meter Combos",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 3.910"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Zurückgerufenes Siemens SolarReady Meter Combo und Etikett des Innenpaneels"
+            },
+            {
+              "Caption": "Standort der Katalognummer und des Datumsstempels"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Das Unternehmen hat acht Berichte über Überhitzung erhalten, darunter einen Bericht über einen lokalisierten Brand. Es wurden keine Verletzungen gemeldet."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Erhältlich über Elektrodistributoren im ganzen Land von August 2021 bis April 2024, preislich zwischen 640 und 990 US-Dollar, abhängig vom Modell."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Siemens Industry Inc., Alpharetta, Georgia"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Verkauft bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "Mexiko"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Überhitzung der Innenverbindungen, die ein Brandrisiko darstellen"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Kontaktieren Sie Siemens für Inspektion und kostenlose Reparatur oder Austausch durch einen lizenzierten Auftragnehmer, wenn Ihr SolarReady Meter Combo betroffen ist."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparatur"
+            },
+            {
+              "Option": "Austausch"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "シーメンス社、火災リスクによりSolarReady™メーターコンボをリコール",
+          "Description": "シーメンス社は、2021年8月から2022年8月の間に製造されたカタログ番号MC2442S1200SCおよびMC2442S1200FCで特定されたSolarReadyメーターコンボをリコールしています。これらのユニットは、公共電力、屋根の太陽光発電システム、および家庭用電気パネルを接続します。設定によっては、家庭全体またはその一部のための支線回路を収容し、家庭の電力供給のための主サービス切断装置を含む場合があります。",
+          "ConsumerContact": "サポートが必要な場合は、月曜日から金曜日の午前9時から午後6時（ET）まで、電話800-756-6996までシーメンス社に連絡するか、メールpsn.industry@siemens.comまでご連絡ください。また、詳細については、https://www.siemens.com/us/en/products/energy/low-voltage/solarready-meter-combo-safety-recall.htmlをご覧ください。",
+          "metaDescription": "シーメンス社は火災の危険性によりSolarReadyメーターコンボをリコールしています。点検および無料修理についてはシーメンス社にお問い合わせください。",
+          "Products": [
+            {
+              "Name": "シーメンスSolarReadyメーターコンボ",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約3,910台"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコールされたシーメンスSolarReadyメーターコンボと内部パネルラベル"
+            },
+            {
+              "Caption": "カタログ番号と日付スタンプの位置"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "同社は過熱に関する8件の報告を受けており、その中には局所的な火災の報告が1件含まれています。怪我の報告はありません。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "2021年8月から2024年4月まで、モデルに応じて640ドルから990ドルの価格で全国の電気ディストリビューターを通じて販売されています。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "ジョージア州アルファレッタのシーメンスインダストリー社"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "販売場所",
+          "ManufacturerCountries": [
+            {
+              "Country": "メキシコ"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "火災リスクを引き起こす過熱した内部接続"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "影響を受けたSolarReadyメーターコンボについては、点検およびライセンスを持つ請負業者による無料修理または交換のためにシーメンス社に連絡してください。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "修理"
+            },
+            {
+              "Option": "交換"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "Siemens Indústria Emite Recall para Combinações de Medidores SolarReady™ Devido ao Risco de Incêndio",
+          "Description": "A Siemens Indústria está recallando as Combinações de Medidores SolarReady identificadas pelos números de catálogo MC2442S1200SC e MC2442S1200FC, produzidas entre agosto de 2021 e agosto de 2022. Essas unidades conectam a energia da concessionária, sistemas solares no telhado e painéis elétricos residenciais. Dependendo da configuração, elas podem abrigar os circuitos de ramificação para toda a casa ou apenas parte dela, juntamente com o desligamento principal do serviço para o fornecimento de energia da casa.",
+          "ConsumerContact": "Para assistência, entre em contato com a Siemens Indústria pelo telefone 800-756-6996 das 9h às 18h ET, de segunda a sexta-feira, pelo e-mail psn.industry@siemens.com, ou visite https://www.siemens.com/us/en/products/energy/low-voltage/solarready-meter-combo-safety-recall.html para mais detalhes.",
+          "metaDescription": "A Siemens recallou as Combinações de Medidores SolarReady devido a riscos de incêndio. Entre em contato com a Siemens para inspeção e reparos gratuitos.",
+          "Products": [
+            {
+              "Name": "Combinações de Medidores SolarReady da Siemens",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 3.910"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Combinação de Medidor SolarReady da Siemens recallada e etiqueta do painel interno"
+            },
+            {
+              "Caption": "Localização do Número de Catálogo e Carimbo de Data"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "A empresa recebeu oito relatos de superaquecimento, incluindo um relato de um incêndio localizado. Nenhum ferimento foi relatado."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponível através de distribuidores elétricos em todo o país de agosto de 2021 a abril de 2024, com preços entre $640 e $990, dependendo do modelo."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Siemens Industry Inc., de Alpharetta, Georgia"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendido Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "México"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Conexões internas superaquecendo, representando risco de incêndio"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Entre em contato com a Siemens para inspeção e reparo ou substituição gratuitos por um contratante licenciado se sua Combinação de Medidor SolarReady for afetada."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparar"
+            },
+            {
+              "Option": "Substituir"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "सीमेंस उद्योग ने आग के जोखिम के कारण SolarReady™ मीटर कॉम्बो काRecall किया",
+          "Description": "सीमेंस उद्योग ने SolarReady मीटर कॉम्बो कोRecall किया है, जिन्हें कैटलॉग नंबर MC2442S1200SC और MC2442S1200FC द्वारा पहचाना गया है, जो अगस्त 2021 और अगस्त 2022 के बीच निर्मित हुए थे। ये इकाइयाँ उपयोगिता बिजली, छत पर सौर प्रणाली और घरेलू विद्युत पैनल को जोड़ती हैं। सेटअप के आधार पर, वे पूरे घर के लिए या केवल इसके एक हिस्से के लिए शाखा सर्किट को समाहित कर सकते हैं, साथ ही घर की बिजली आपूर्ति के लिए मुख्य सेवा डिस्कनेक्ट भी।",
+          "ConsumerContact": "सहायता के लिए, सीमेंस उद्योग से 800-756-6996 पर सुबह 9 बजे से शाम 6 बजे ईटी, सोमवार से शुक्रवार तक संपर्क करें, या psn.industry@siemens.com पर ईमेल करें, या अधिक जानकारी के लिए https://www.siemens.com/us/en/products/energy/low-voltage/solarready-meter-combo-safety-recall.html पर जाएं।",
+          "metaDescription": "सीमेंस आग के खतरों के कारण SolarReady मीटर कॉम्बो कोRecall करता है। निरीक्षण और मुफ्त मरम्मत के लिए सीमेंस से संपर्क करें।",
+          "Products": [
+            {
+              "Name": "सीमेंस SolarReady मीटर कॉम्बो",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 3,910"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recall किए गए सीमेंस SolarReady मीटर कॉम्बो और अंदर के पैनल लेबल"
+            },
+            {
+              "Caption": "कैटलॉग नंबर और तारीख स्टैम्प का स्थान"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "कंपनी को अधिक गर्म होने की आठ रिपोर्ट मिली हैं, जिसमें एक स्थानीयकृत आग की रिपोर्ट भी शामिल है। कोई चोटें रिपोर्ट नहीं की गई हैं।"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "अगस्त 2021 से अप्रैल 2024 तक देश भर में इलेक्ट्रिकल वितरकों के माध्यम से उपलब्ध, मॉडल के आधार पर $640 से $990 के बीच मूल्य पर।"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "सीमेंस उद्योग इंक., अल्फारेटा, जॉर्जिया"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "मैक्सिको"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "अधिक गर्म होने वाले आंतरिक कनेक्शन जो आग का जोखिम पैदा करते हैं"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "यदि आपका SolarReady मीटर कॉम्बो प्रभावित है, तो निरीक्षण और मुफ्त मरम्मत या प्रतिस्थापन के लिए सीमेंस से संपर्क करें।"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "मरम्मत"
+            },
+            {
+              "Option": "प्रतिस्थापित करें"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "Siemens Industry отзывает SolarReady™ Meter Combos из-за риска возгорания",
+          "Description": "Siemens Industry отзывает SolarReady Meter Combos, идентифицированные по каталожным номерам MC2442S1200SC и MC2442S1200FC, произведенные в период с августа 2021 года по август 2022 года. Эти устройства подключают электроэнергию от коммунальных служб, солнечные системы на крышах и электрические панели домов. В зависимости от конфигурации они могут содержать ответвительные цепи для всего дома или только его части, а также основной отключатель для электроснабжения дома.",
+          "ConsumerContact": "Для получения помощи свяжитесь с Siemens Industry по телефону 800-756-6996 с 9:00 до 18:00 по восточному времени, с понедельника по пятницу, по электронной почте psn.industry@siemens.com или посетите https://www.siemens.com/us/en/products/energy/low-voltage/solarready-meter-combo-safety-recall.html для получения дополнительной информации.",
+          "metaDescription": "Siemens отзывает SolarReady Meter Combos из-за опасности возгорания. Свяжитесь с Siemens для проверки и бесплатного ремонта.",
+          "Products": [
+            {
+              "Name": "Siemens SolarReady Meter Combos",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 3,910"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванный Siemens SolarReady Meter Combo и этикетка внутри панели"
+            },
+            {
+              "Caption": "Место расположения каталожного номера и штамп даты"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Компания получила восемь сообщений о перегреве, включая одно сообщение о локализованном пожаре. О травмах не сообщалось."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Доступно через электрических дистрибьюторов по всей стране с августа 2021 года по апрель 2024 года, цена от $640 до $990 в зависимости от модели."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Siemens Industry Inc., Альфаретта, Джорджия"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Продавалось в",
+          "ManufacturerCountries": [
+            {
+              "Country": "Мексика"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Перегрев внутренних соединений, создающий риск возгорания"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Свяжитесь с Siemens для проверки и бесплатного ремонта или замены лицензированным подрядчиком, если ваш SolarReady Meter Combo затронут."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Ремонт"
+            },
+            {
+              "Option": "Замена"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "Siemens Industry thu hồi bộ kết hợp đồng hồ SolarReady™ do nguy cơ cháy",
+          "Description": "Siemens Industry đang thu hồi các bộ kết hợp đồng hồ SolarReady được xác định bằng số danh mục MC2442S1200SC và MC2442S1200FC, được sản xuất từ tháng 8 năm 2021 đến tháng 8 năm 2022. Các thiết bị này kết nối nguồn điện từ tiện ích, hệ thống năng lượng mặt trời trên mái và bảng điện trong nhà. Tùy thuộc vào cách lắp đặt, chúng có thể chứa các mạch nhánh cho toàn bộ ngôi nhà hoặc chỉ một phần của nó, cùng với bộ ngắt dịch vụ chính cho nguồn điện của ngôi nhà.",
+          "ConsumerContact": "Để được hỗ trợ, hãy liên hệ với Siemens Industry theo số 800-756-6996 từ 9 giờ sáng đến 6 giờ chiều ET, từ thứ Hai đến thứ Sáu, qua email tại psn.industry@siemens.com, hoặc truy cập https://www.siemens.com/us/en/products/energy/low-voltage/solarready-meter-combo-safety-recall.html để biết thêm chi tiết.",
+          "metaDescription": "Siemens thu hồi bộ kết hợp đồng hồ SolarReady do nguy cơ cháy. Liên hệ với Siemens để kiểm tra và sửa chữa miễn phí.",
+          "Products": [
+            {
+              "Name": "Bộ kết hợp đồng hồ SolarReady của Siemens",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 3,910"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Bộ kết hợp đồng hồ SolarReady của Siemens bị thu hồi và nhãn bảng bên trong"
+            },
+            {
+              "Caption": "Vị trí số danh mục và dấu ngày"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Công ty đã nhận được tám báo cáo về việc quá nhiệt, bao gồm một báo cáo về một vụ cháy cục bộ. Không có thương tích nào được báo cáo."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Có sẵn thông qua các nhà phân phối điện trên toàn quốc từ tháng 8 năm 2021 đến tháng 4 năm 2024, có giá từ 640 đến 990 đô la tùy thuộc vào mẫu."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Siemens Industry Inc., ở Alpharetta, Georgia"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Bán Tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Mexico"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Kết nối bên trong quá nhiệt gây ra nguy cơ cháy"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Liên hệ với Siemens để kiểm tra và sửa chữa hoặc thay thế miễn phí bởi một nhà thầu có giấy phép nếu bộ kết hợp đồng hồ SolarReady của bạn bị ảnh hưởng."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Sửa chữa"
+            },
+            {
+              "Option": "Thay thế"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    }
+  ]
+}

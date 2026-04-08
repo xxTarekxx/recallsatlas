@@ -1,0 +1,1670 @@
+{
+  "meta": {
+    "slug": "watches",
+    "sourceCsvFile": "watches_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:37.101Z",
+    "recallCount": 2,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "watches.json",
+    "seoTranslatedAt": "2026-04-05T06:47:15.632Z",
+    "resumePartial": false,
+    "i18nSource": "generalRecallsTranslated",
+    "i18nSourceFile": "watches.json",
+    "i18nUiLangs": [
+      "en",
+      "es",
+      "ar",
+      "zh",
+      "fr",
+      "de",
+      "ja",
+      "pt",
+      "hi",
+      "ru",
+      "vi"
+    ],
+    "i18nProgressByLang": {
+      "es": 2,
+      "ar": 2,
+      "zh": 2,
+      "fr": 2,
+      "de": 2,
+      "ja": 2,
+      "pt": 2,
+      "hi": 2,
+      "ru": 2,
+      "vi": 2
+    },
+    "i18nInProgress": false,
+    "i18nTranslatedAt": "2026-04-08T00:34:09.775Z",
+    "i18nOpenaiModel": "gpt-4o-mini"
+  },
+  "recalls": [
+    {
+      "RecallID": 10379,
+      "RecallNumber": "25428",
+      "RecallDate": "2025-08-07T00:00:00",
+      "Description": "Deale International is recalling the Altafit af28 smartwatches due to a potential risk of overheating and fire. These smartwatches, available in gold and silver tones, feature a 1.68-inch color touchscreen and come with two bands: one bejeweled and one mesh. The product includes a golden case along with a wireless charging pad and cable, with the identifier \"ALTAFIT FCC ID 2BHG8-AF28\" located on the back of the device.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/Deale-International-Recalls-Altafit-Smartwatches-Due-to-Risk-of-Serious-Burn-Injury-and-Fire-Hazard-Sold-by-HSN",
+      "Title": "Deale International Recalls Altafit Smartwatches Due to Burn and Fire Hazards",
+      "ConsumerContact": "For assistance, consumers can reach Deale International at 877-880-6137 from 9 a.m. to 4 p.m. ET, Monday through Friday, email altafitrecall@thedeale.com, or visit www.thedeale.com/pages/altafit-safety-recall. More information is also available at www.thedeale.com under \"RECALL INFORMATION\".",
+      "LastPublishDate": "2025-08-07T00:00:00",
+      "Products": [
+        {
+          "Name": "Altafit af28 Smartwatch",
+          "NumberOfUnits": "About 2,900"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/watches/1-Altafit-af28-Smartwatch/349f4ad4933d51f4aa7af42e935be1c0.webp",
+          "Caption": "Recalled Altafit af28 Smartwatch",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/altafit-1.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/watches/1-Altafit-af28-Smartwatch/2cb1f7c7a80e7e38bf9648688a24ab66.webp",
+          "Caption": "Recalled Altafit af28 Smartwatch wireless charging pad",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/altafit-2.jpg"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "Deale International has received 39 reports of smartwatches melting, burning and catching on fire while charging, including six reports of burns to hands and property damage."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available on HSN.com from March 2025 through May 2025 for approximately $50."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Deale International LLC, of Fort Lauderdale, Florida"
+        }
+      ],
+      "SoldAtLabel": "Sold Online At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Overheating and fire hazard from the smartwatch's wireless charging pad."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should unplug the charging pad immediately and cease charging the smartwatch. Contact Deale International for a free replacement. To proceed, cut the power cable of the unplugged charging pad and email a photo of it to altafitrecall@thedeale.com."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Replace"
+        }
+      ],
+      "slug": "deale-international-recalls-altafit-smartwatches-due-to-burn-and-fire-hazards-recall",
+      "metaDescription": "Deale International recalls Altafit smartwatches due to serious burn and fire risks. Learn how to get a free replacement.",
+      "languages": {
+        "en": {
+          "Title": "Deale International Recalls Altafit Smartwatches Due to Burn and Fire Hazards",
+          "Description": "Deale International is recalling the Altafit af28 smartwatches due to a potential risk of overheating and fire. These smartwatches, available in gold and silver tones, feature a 1.68-inch color touchscreen and come with two bands: one bejeweled and one mesh. The product includes a golden case along with a wireless charging pad and cable, with the identifier \"ALTAFIT FCC ID 2BHG8-AF28\" located on the back of the device.",
+          "ConsumerContact": "For assistance, consumers can reach Deale International at 877-880-6137 from 9 a.m. to 4 p.m. ET, Monday through Friday, email altafitrecall@thedeale.com, or visit www.thedeale.com/pages/altafit-safety-recall. More information is also available at www.thedeale.com under \"RECALL INFORMATION\".",
+          "metaDescription": "Deale International recalls Altafit smartwatches due to serious burn and fire risks. Learn how to get a free replacement.",
+          "Products": [
+            {
+              "Name": "Altafit af28 Smartwatch",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 2,900"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled Altafit af28 Smartwatch"
+            },
+            {
+              "Caption": "Recalled Altafit af28 Smartwatch wireless charging pad"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Deale International has received 39 reports of smartwatches melting, burning and catching on fire while charging, including six reports of burns to hands and property damage."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Available on HSN.com from March 2025 through May 2025 for approximately $50."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Deale International LLC, of Fort Lauderdale, Florida"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Sold Online At",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Overheating and fire hazard from the smartwatch's wireless charging pad."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Consumers should unplug the charging pad immediately and cease charging the smartwatch. Contact Deale International for a free replacement. To proceed, cut the power cable of the unplugged charging pad and email a photo of it to altafitrecall@thedeale.com."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Replace"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "Deale International recuerda los relojes inteligentes Altafit debido a riesgos de quemaduras e incendios",
+          "Description": "Deale International está recordando los relojes inteligentes Altafit af28 debido a un riesgo potencial de sobrecalentamiento e incendio. Estos relojes inteligentes, disponibles en tonos dorado y plateado, cuentan con una pantalla táctil a color de 1.68 pulgadas y vienen con dos correas: una con joyas y una de malla. El producto incluye una caja dorada junto con una base de carga inalámbrica y un cable, con el identificador \"ALTAFIT FCC ID 2BHG8-AF28\" ubicado en la parte posterior del dispositivo.",
+          "ConsumerContact": "Para asistencia, los consumidores pueden comunicarse con Deale International al 877-880-6137 de 9 a.m. a 4 p.m. ET, de lunes a viernes, enviar un correo electrónico a altafitrecall@thedeale.com, o visitar www.thedeale.com/pages/altafit-safety-recall. Más información también está disponible en www.thedeale.com bajo \"INFORMACIÓN DE RETIRO\".",
+          "metaDescription": "Deale International recuerda los relojes inteligentes Altafit debido a graves riesgos de quemaduras e incendios. Aprenda cómo obtener un reemplazo gratuito.",
+          "Products": [
+            {
+              "Name": "Reloj inteligente Altafit af28",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 2,900"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Reloj inteligente Altafit af28 retirado"
+            },
+            {
+              "Caption": "Base de carga inalámbrica del reloj inteligente Altafit af28 retirada"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Deale International ha recibido 39 informes de relojes inteligentes derritiéndose, quemándose y prendiendo fuego mientras se cargan, incluidos seis informes de quemaduras en manos y daños a la propiedad."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible en HSN.com desde marzo de 2025 hasta mayo de 2025 por aproximadamente $50."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Deale International LLC, de Fort Lauderdale, Florida"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendidos en línea en",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Riesgo de sobrecalentamiento e incendio de la base de carga inalámbrica del reloj inteligente."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Los consumidores deben desconectar la base de carga de inmediato y dejar de cargar el reloj inteligente. Contactar a Deale International para un reemplazo gratuito. Para proceder, corte el cable de alimentación de la base de carga desconectada y envíe una foto de él a altafitrecall@thedeale.com."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reemplazar"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "شركة ديال الدولية تستدعي ساعات ألتافيت الذكية بسبب مخاطر الحروق والحرائق",
+          "Description": "تقوم شركة ديال الدولية باستدعاء ساعات ألتافيت af28 الذكية بسبب خطر محتمل للسخونة الزائدة والحرائق. تتوفر هذه الساعات الذكية بألوان ذهبية وفضية، وتتميز بشاشة تعمل باللمس ملونة بحجم 1.68 بوصة وتأتي مع حزامين: واحد مزين بالخرز وآخر شبكي. يتضمن المنتج علبة ذهبية بالإضافة إلى لوحة شحن لاسلكية وكابل، مع المعرف \"ALTAFIT FCC ID 2BHG8-AF28\" الموجود على ظهر الجهاز.",
+          "ConsumerContact": "للمساعدة، يمكن للمستهلكين التواصل مع شركة ديال الدولية على الرقم 877-880-6137 من الساعة 9 صباحًا حتى 4 مساءً بتوقيت شرق الولايات المتحدة، من الاثنين إلى الجمعة، أو عبر البريد الإلكتروني altafitrecall@thedeale.com، أو زيارة www.thedeale.com/pages/altafit-safety-recall. تتوفر مزيد من المعلومات أيضًا على www.thedeale.com تحت \"معلومات الاستدعاء\".",
+          "metaDescription": "تستدعي شركة ديال الدولية ساعات ألتافيت الذكية بسبب مخاطر الحروق والحرائق الخطيرة. تعرف على كيفية الحصول على بديل مجاني.",
+          "Products": [
+            {
+              "Name": "ساعة ألتافيت af28 الذكية",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 2900"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "ساعة ألتافيت af28 الذكية المستدعاة"
+            },
+            {
+              "Caption": "لوحة شحن لاسلكية لساعة ألتافيت af28 الذكية المستدعاة"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "تلقت شركة ديال الدولية 39 تقريرًا عن ساعات ذكية تذوب وتشتعل أثناء الشحن، بما في ذلك ستة تقارير عن حروق في اليدين وأضرار بالممتلكات."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "متاحة على HSN.com من مارس 2025 حتى مايو 2025 بسعر تقريبي يبلغ 50 دولارًا."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "شركة ديال الدولية ذ.م.م، من فورت لودرديل، فلوريدا"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "تباع عبر الإنترنت في",
+          "ManufacturerCountries": [
+            {
+              "Country": "الصين"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "خطر السخونة الزائدة والحرائق من لوحة الشحن اللاسلكية للساعة الذكية."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "يجب على المستهلكين فصل لوحة الشحن على الفور والتوقف عن شحن الساعة الذكية. اتصل بشركة ديال الدولية للحصول على بديل مجاني. للمتابعة، قم بقص كابل الطاقة للوحة الشحن المفصولة وأرسل صورة له عبر البريد الإلكتروني إلى altafitrecall@thedeale.com."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "استبدال"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "Deale International召回Altafit智能手表因烧伤和火灾隐患",
+          "Description": "Deale International因潜在的过热和火灾风险召回Altafit af28智能手表。这些智能手表有金色和银色两种色调，配备1.68英寸彩色触摸屏，并附带两条表带：一条镶嵌宝石，另一条为网状。该产品包括一个金色外壳以及一个无线充电垫和电缆，设备背面标识为\"ALTAFIT FCC ID 2BHG8-AF28\"。\n",
+          "ConsumerContact": "如需帮助，消费者可以在东部时间周一至周五上午9点至下午4点拨打877-880-6137联系Deale International，或发送电子邮件至altafitrecall@thedeale.com，或访问www.thedeale.com/pages/altafit-safety-recall。更多信息也可以在www.thedeale.com的\"召回信息\"下找到。",
+          "metaDescription": "Deale International因严重的烧伤和火灾风险召回Altafit智能手表。了解如何获得免费更换。",
+          "Products": [
+            {
+              "Name": "Altafit af28智能手表",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约2900个"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "召回的Altafit af28智能手表"
+            },
+            {
+              "Caption": "召回的Altafit af28智能手表无线充电垫"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Deale International已收到39份关于智能手表在充电时融化、燃烧和着火的报告，包括6份关于手部烧伤和财产损失的报告。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "在HSN.com上可于2025年3月至2025年5月期间以约50美元的价格购买。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "位于佛罗里达州劳德代尔堡的Deale International LLC"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "在线销售于",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "智能手表无线充电垫的过热和火灾隐患。"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "消费者应立即拔掉充电垫的插头并停止为智能手表充电。联系Deale International以获得免费更换。要继续，请切断拔掉的充电垫的电源电缆，并将其照片发送至altafitrecall@thedeale.com。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "更换"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "Deale International rappelle les montres intelligentes Altafit en raison de risques de brûlure et d'incendie",
+          "Description": "Deale International rappelle les montres intelligentes Altafit af28 en raison d'un risque potentiel de surchauffe et d'incendie. Ces montres intelligentes, disponibles en tons dorés et argentés, disposent d'un écran tactile couleur de 1,68 pouce et sont livrées avec deux bracelets : un orné de bijoux et un en maille. Le produit comprend un boîtier doré ainsi qu'un pad de chargement sans fil et un câble, avec l'identifiant \"ALTAFIT FCC ID 2BHG8-AF28\" situé au dos de l'appareil.",
+          "ConsumerContact": "Pour assistance, les consommateurs peuvent contacter Deale International au 877-880-6137 de 9 h à 16 h HNE, du lundi au vendredi, envoyer un e-mail à altafitrecall@thedeale.com, ou visiter www.thedeale.com/pages/altafit-safety-recall. Plus d'informations sont également disponibles sur www.thedeale.com sous \"INFORMATIONS SUR LE RAPPEL\".",
+          "metaDescription": "Deale International rappelle les montres intelligentes Altafit en raison de risques graves de brûlure et d'incendie. Apprenez comment obtenir un remplacement gratuit.",
+          "Products": [
+            {
+              "Name": "Montre intelligente Altafit af28",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 2 900"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Montre intelligente Altafit af28 rappelée"
+            },
+            {
+              "Caption": "Pad de chargement sans fil de la montre intelligente Altafit af28 rappelé"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Deale International a reçu 39 rapports de montres intelligentes fondant, brûlant et prenant feu pendant la charge, y compris six rapports de brûlures aux mains et de dommages matériels."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible sur HSN.com de mars 2025 à mai 2025 pour environ 50 $."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Deale International LLC, de Fort Lauderdale, Floride"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendu en ligne sur",
+          "ManufacturerCountries": [
+            {
+              "Country": "Chine"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risque de surchauffe et d'incendie provenant du pad de chargement sans fil de la montre intelligente."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Les consommateurs doivent débrancher immédiatement le pad de chargement et cesser de charger la montre intelligente. Contacter Deale International pour un remplacement gratuit. Pour procéder, coupez le câble d'alimentation du pad de chargement débranché et envoyez une photo à altafitrecall@thedeale.com."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Remplacer"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "Deale International ruft Altafit Smartwatches aufgrund von Brand- und Feuergefahren zurück",
+          "Description": "Deale International ruft die Altafit af28 Smartwatches aufgrund eines potenziellen Risikos von Überhitzung und Feuer zurück. Diese Smartwatches, erhältlich in Gold- und Silberfarben, verfügen über einen 1,68-Zoll-Farb-Touchscreen und kommen mit zwei Armbändern: einem mit Schmucksteinen und einem aus Mesh. Das Produkt umfasst ein goldenes Gehäuse sowie ein kabelloses Ladepad und ein Kabel, mit der Kennung \"ALTAFIT FCC ID 2BHG8-AF28\" auf der Rückseite des Geräts.",
+          "ConsumerContact": "Für Unterstützung können Verbraucher Deale International unter 877-880-6137 von 9 bis 16 Uhr ET, Montag bis Freitag, kontaktieren, eine E-Mail an altafitrecall@thedeale.com senden oder die Website www.thedeale.com/pages/altafit-safety-recall besuchen. Weitere Informationen sind auch unter www.thedeale.com unter \"RÜCKRUF-INFO\" verfügbar.",
+          "metaDescription": "Deale International ruft Altafit Smartwatches aufgrund ernsthafter Brand- und Feuergefahren zurück. Erfahren Sie, wie Sie einen kostenlosen Ersatz erhalten.",
+          "Products": [
+            {
+              "Name": "Altafit af28 Smartwatch",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 2.900"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Zurückgerufene Altafit af28 Smartwatch"
+            },
+            {
+              "Caption": "Zurückgerufenes Altafit af28 Smartwatch kabelloses Ladepad"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Deale International hat 39 Berichte über Smartwatches erhalten, die beim Laden schmelzen, brennen und Feuer fangen, einschließlich sechs Berichten über Verbrennungen an Händen und Sachschäden."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Erhältlich auf HSN.com von März 2025 bis Mai 2025 für etwa 50 $."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Deale International LLC, Fort Lauderdale, Florida"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Online verkauft bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Überhitzung und Brandgefahr durch das kabellose Ladepad der Smartwatch."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Verbraucher sollten das Ladepad sofort vom Stromnetz trennen und das Laden der Smartwatch einstellen. Kontaktieren Sie Deale International für einen kostenlosen Ersatz. Um fortzufahren, schneiden Sie das Stromkabel des vom Stromnetz getrennten Ladepads ab und senden Sie ein Foto davon an altafitrecall@thedeale.com."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Ersatz"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "Deale International、火傷および火災の危険性によりAltafitスマートウォッチをリコール",
+          "Description": "Deale Internationalは、過熱および火災の潜在的リスクによりAltafit af28スマートウォッチをリコールしています。これらのスマートウォッチは、金色と銀色のトーンで提供され、1.68インチのカラータッチスクリーンを備え、ビジュー付きのバンドとメッシュバンドの2つのバンドが付属しています。製品には金色のケースとワイヤレス充電パッドおよびケーブルが含まれており、デバイスの背面には「ALTAFIT FCC ID 2BHG8-AF28」という識別子があります。",
+          "ConsumerContact": "サポートが必要な場合、消費者はDeale Internationalに877-880-6137（米国東部時間の月曜日から金曜日の午前9時から午後4時まで）で連絡するか、altafitrecall@thedeale.comにメールを送信するか、www.thedeale.com/pages/altafit-safety-recallを訪問してください。詳細情報は、www.thedeale.comの「リコール情報」にも掲載されています。",
+          "metaDescription": "Deale Internationalは、深刻な火傷および火災リスクによりAltafitスマートウォッチをリコールします。無料の交換を受ける方法を学びましょう。",
+          "Products": [
+            {
+              "Name": "Altafit af28 スマートウォッチ",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約2,900"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコールされたAltafit af28スマートウォッチ"
+            },
+            {
+              "Caption": "リコールされたAltafit af28スマートウォッチのワイヤレス充電パッド"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Deale Internationalは、充電中にスマートウォッチが溶けたり、燃えたり、火が出たりしたという39件の報告を受けており、その中には手の火傷や財産の損害に関する6件の報告が含まれています。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "2025年3月から2025年5月まで、HSN.comで約50ドルで販売されます。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "フロリダ州フォートローダーデールのDeale International LLC"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "オンラインで販売",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "スマートウォッチのワイヤレス充電パッドからの過熱および火災の危険性。"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "消費者は充電パッドのプラグを抜き、スマートウォッチの充電を中止する必要があります。Deale Internationalに連絡して無料の交換を受けてください。手続きを進めるには、プラグを抜いた充電パッドの電源ケーブルを切断し、その写真をaltafitrecall@thedeale.comにメールしてください。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "交換"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "Deale International Recalls Altafit Smartwatches Devido a Riscos de Queimaduras e Incêndios",
+          "Description": "Deale International está recalling os smartwatches Altafit af28 devido a um potencial risco de superaquecimento e incêndio. Esses smartwatches, disponíveis em tons de ouro e prata, possuem uma tela sensível ao toque colorida de 1,68 polegadas e vêm com duas pulseiras: uma com joias e uma de malha. O produto inclui uma caixa dourada junto com um carregador sem fio e cabo, com o identificador \"ALTAFIT FCC ID 2BHG8-AF28\" localizado na parte de trás do dispositivo.",
+          "ConsumerContact": "Para assistência, os consumidores podem entrar em contato com a Deale International pelo telefone 877-880-6137, das 9h às 16h ET, de segunda a sexta-feira, enviar um e-mail para altafitrecall@thedeale.com ou visitar www.thedeale.com/pages/altafit-safety-recall. Mais informações também estão disponíveis em www.thedeale.com na seção \"INFORMAÇÕES SOBRE O RECALL\".",
+          "metaDescription": "Deale International recalls Altafit smartwatches devido a sérios riscos de queimaduras e incêndios. Aprenda como obter uma substituição gratuita.",
+          "Products": [
+            {
+              "Name": "Smartwatch Altafit af28",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 2.900"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Smartwatch Altafit af28 recallado"
+            },
+            {
+              "Caption": "Base de carregamento sem fio do smartwatch Altafit af28 recallada"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "A Deale International recebeu 39 relatos de smartwatches derretendo, queimando e pegando fogo enquanto carregavam, incluindo seis relatos de queimaduras nas mãos e danos à propriedade."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponível no HSN.com de março de 2025 a maio de 2025 por aproximadamente $50."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Deale International LLC, de Fort Lauderdale, Flórida"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendido Online Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risco de superaquecimento e incêndio devido ao carregador sem fio do smartwatch."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Os consumidores devem desconectar imediatamente a base de carregamento e parar de carregar o smartwatch. Entre em contato com a Deale International para uma substituição gratuita. Para prosseguir, corte o cabo de energia da base de carregamento desconectada e envie uma foto dele para altafitrecall@thedeale.com."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Substituir"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "डीले इंटरनेशनल ने जलने और आग के खतरों के कारण अल्टाफिट स्मार्टवॉच काRecall किया",
+          "Description": "डीले इंटरनेशनल अल्टाफिट af28 स्मार्टवॉच को ओवरहीटिंग और आग के संभावित जोखिम के कारण वापस बुला रहा है। ये स्मार्टवॉच, जो सोने और चांदी के रंगों में उपलब्ध हैं, में 1.68-इंच का रंगीन टचस्क्रीन है और इनमें दो बैंड होते हैं: एक जड़ित और एक जाल। उत्पाद में एक सुनहरा केस शामिल है, साथ ही एक वायरलेस चार्जिंग पैड और केबल, जिसमें पहचानकर्ता \"ALTAFIT FCC ID 2BHG8-AF28\" डिवाइस के पीछे स्थित है।",
+          "ConsumerContact": "सहायता के लिए, उपभोक्ता डीले इंटरनेशनल से 877-880-6137 पर सुबह 9 बजे से शाम 4 बजे ET, सोमवार से शुक्रवार, ईमेल altafitrecall@thedeale.com पर संपर्क कर सकते हैं, या www.thedeale.com/pages/altafit-safety-recall पर जा सकते हैं। अधिक जानकारी www.thedeale.com पर \"RECALL INFORMATION\" के तहत भी उपलब्ध है।",
+          "metaDescription": "डीले इंटरनेशनल ने गंभीर जलने और आग के खतरों के कारण अल्टाफिट स्मार्टवॉच काRecall किया। जानें कि मुफ्त प्रतिस्थापन कैसे प्राप्त करें।",
+          "Products": [
+            {
+              "Name": "अल्टाफिट af28 स्मार्टवॉच",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 2,900"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recall की गई अल्टाफिट af28 स्मार्टवॉच"
+            },
+            {
+              "Caption": "Recall किया गया अल्टाफिट af28 स्मार्टवॉच वायरलेस चार्जिंग पैड"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "डीले इंटरनेशनल को स्मार्टवॉच के पिघलने, जलने और चार्ज करते समय आग लगने की 39 रिपोर्ट मिली हैं, जिसमें हाथों में जलने और संपत्ति को नुकसान की छह रिपोर्ट शामिल हैं।"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "मार्च 2025 से मई 2025 तक HSN.com पर लगभग $50 में उपलब्ध।"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "डीले इंटरनेशनल LLC, फोर्ट लॉडरडेल, फ्लोरिडा"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "ऑनलाइन बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "चीन"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "स्मार्टवॉच के वायरलेस चार्जिंग पैड से ओवरहीटिंग और आग का खतरा।"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "उपभोक्ताओं को तुरंत चार्जिंग पैड को अनप्लग करना चाहिए और स्मार्टवॉच को चार्ज करना बंद करना चाहिए। मुफ्त प्रतिस्थापन के लिए डीले इंटरनेशनल से संपर्क करें। आगे बढ़ने के लिए, अनप्लग किए गए चार्जिंग पैड के पावर केबल को काटें और इसका फोटो altafitrecall@thedeale.com पर ईमेल करें।"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "बदलें"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "Deale International отзывает смарт-часы Altafit из-за опасности ожогов и пожаров",
+          "Description": "Deale International отзывает смарт-часы Altafit af28 из-за потенциального риска перегрева и пожара. Эти смарт-часы, доступные в золотом и серебряном цветах, имеют цветной сенсорный экран размером 1,68 дюйма и поставляются с двумя ремешками: один с украшениями и один сетчатый. Продукт включает золотой корпус, а также беспроводную зарядную подставку и кабель, с идентификатором \"ALTAFIT FCC ID 2BHG8-AF28\", расположенным на задней стороне устройства.",
+          "ConsumerContact": "Для получения помощи потребители могут обратиться в Deale International по телефону 877-880-6137 с 9:00 до 16:00 по восточному времени, с понедельника по пятницу, отправить электронное письмо на altafitrecall@thedeale.com или посетить www.thedeale.com/pages/altafit-safety-recall. Дополнительная информация также доступна на www.thedeale.com в разделе \"ИНФОРМАЦИЯ ОБ ОТЗЫВЕ\".",
+          "metaDescription": "Deale International отзывает смарт-часы Altafit из-за серьезных рисков ожогов и пожаров. Узнайте, как получить бесплатную замену.",
+          "Products": [
+            {
+              "Name": "Смарт-часы Altafit af28",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 2,900"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванные смарт-часы Altafit af28"
+            },
+            {
+              "Caption": "Отозванная беспроводная зарядная подставка для смарт-часов Altafit af28"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Deale International получила 39 сообщений о том, что смарт-часы плавятся, горят и загораются во время зарядки, включая шесть сообщений о ожогах на руках и повреждении имущества."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Доступно на HSN.com с марта 2025 года по май 2025 года примерно за 50 долларов."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Deale International LLC, Форт-Лодердейл, Флорида"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Продается онлайн на",
+          "ManufacturerCountries": [
+            {
+              "Country": "Китай"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Перегрев и опасность пожара от беспроводной зарядной подставки смарт-часов."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Потребители должны немедленно отключить зарядную подставку и прекратить зарядку смарт-часов. Свяжитесь с Deale International для получения бесплатной замены. Для этого обрежьте силовой кабель отключенной зарядной подставки и отправьте фотографию на altafitrecall@thedeale.com."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Заменить"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "Deale International thu hồi đồng hồ thông minh Altafit do nguy cơ cháy và bỏng",
+          "Description": "Deale International đang thu hồi đồng hồ thông minh Altafit af28 do nguy cơ quá nhiệt và cháy. Những chiếc đồng hồ thông minh này, có sẵn trong các tông màu vàng và bạc, có màn hình cảm ứng màu 1,68 inch và đi kèm với hai dây đeo: một dây đeo trang sức và một dây đeo lưới. Sản phẩm bao gồm một vỏ màu vàng cùng với một đế sạc không dây và cáp, với mã nhận dạng \"ALTAFIT FCC ID 2BHG8-AF28\" nằm ở mặt sau của thiết bị.",
+          "ConsumerContact": "Để được hỗ trợ, người tiêu dùng có thể liên hệ với Deale International qua số 877-880-6137 từ 9 giờ sáng đến 4 giờ chiều ET, từ thứ Hai đến thứ Sáu, gửi email đến altafitrecall@thedeale.com, hoặc truy cập www.thedeale.com/pages/altafit-safety-recall. Thông tin thêm cũng có sẵn tại www.thedeale.com dưới mục \"THÔNG TIN THU HỒI\".",
+          "metaDescription": "Deale International thu hồi đồng hồ thông minh Altafit do nguy cơ cháy và bỏng nghiêm trọng. Tìm hiểu cách nhận thay thế miễn phí.",
+          "Products": [
+            {
+              "Name": "Đồng hồ thông minh Altafit af28",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 2.900"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Đồng hồ thông minh Altafit af28 bị thu hồi"
+            },
+            {
+              "Caption": "Đế sạc không dây đồng hồ thông minh Altafit af28 bị thu hồi"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Deale International đã nhận được 39 báo cáo về đồng hồ thông minh bị chảy, cháy và bắt lửa trong khi sạc, bao gồm sáu báo cáo về bỏng tay và thiệt hại tài sản."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Có sẵn trên HSN.com từ tháng 3 năm 2025 đến tháng 5 năm 2025 với giá khoảng 50 đô la."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Deale International LLC, Fort Lauderdale, Florida"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Bán trực tuyến tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Trung Quốc"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Nguy cơ quá nhiệt và cháy từ đế sạc không dây của đồng hồ thông minh."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Người tiêu dùng nên rút phích cắm đế sạc ngay lập tức và ngừng sạc đồng hồ thông minh. Liên hệ với Deale International để được thay thế miễn phí. Để tiếp tục, cắt cáp nguồn của đế sạc đã rút phích cắm và gửi email kèm theo ảnh của nó đến altafitrecall@thedeale.com."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Thay thế"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    },
+    {
+      "RecallID": 9886,
+      "RecallNumber": "24151",
+      "RecallDate": "2024-03-07T00:00:00",
+      "Description": "Fossil Group is recalling a braided black bracelet included in Skechers watch and jewelry gift sets due to dangerous levels of lead and cadmium. The bracelet features a distinctive braided design and has a metal clasp at each end. The corresponding watch in the gift set is marked with the code \"IF2812307\" and the model number \"SR9082\" on its back. These toxic substances pose serious health risks, especially to children.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/Fossil-Group-Recalls-Bracelet-Sold-with-Skechers-Jewelry-Gift-Sets-Due-to-High-Levels-of-Lead-and-Cadmium",
+      "Title": "Fossil Group Issues Recall for Skechers Bracelet Due to Toxic Lead and Cadmium Levels",
+      "ConsumerContact": "Consumers should contact Fossil Group at 800-842-8621 from 8 a.m. to 8 p.m. CT Monday through Friday, and from 9:30 a.m. to 7 p.m. CT on weekends. They can also email info@fgservices.com or visit www.fossilgroup.com/recalls/ for further details.",
+      "LastPublishDate": "2024-03-07T00:00:00",
+      "Products": [
+        {
+          "Name": "Braided Black Bracelet from Skechers Gift Sets",
+          "NumberOfUnits": "About 260"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/watches/2-Braided-Black-Bracelet-from-Skechers-Gift-Sets/1c4712482fef325b135301c41a5196e0.webp",
+          "Caption": "Recalled Skechers Jewelry Gift Set",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/giftset.png"
+        },
+        {
+          "URL": "/images/generalRecalls/watches/2-Braided-Black-Bracelet-from-Skechers-Gift-Sets/3796c2ebe6df982bfdc3c250186f95ff.webp",
+          "Caption": "Recalled Bracelet",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/fossil-bracelet.png"
+        },
+        {
+          "URL": "/images/generalRecalls/watches/2-Braided-Black-Bracelet-from-Skechers-Gift-Sets/505c39946db04475580efd9ee5098497.webp",
+          "Caption": "Recalled Bracelet Clasp",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/fossil-bracelet-clasp.png"
+        },
+        {
+          "URL": "/images/generalRecalls/watches/2-Braided-Black-Bracelet-from-Skechers-Gift-Sets/80fbb649af13b122839e3c05c2b9cdbe.webp",
+          "Caption": "Back of Watch in Recalled Skechers Jewelry Gift Set With Model Number and Code",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/back-watch.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "Fossil Group Inc., of Richardson, Texas"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available at Skechers locations across the country and online at Amazon.com, Watchstation.com, and Skechers.com from August 2023 to January 2024 for approximately $45."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Fossil Partners, L.P. of Richardson, Texas"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Presence of high levels of lead and cadmium in the bracelet clasp, posing health risks."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Stop using the bracelet immediately, dispose of it, and request a full refund from the retailer."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "slug": "fossil-group-issues-recall-for-skechers-bracelet-due-to-toxic-lead-and-cadmium-levels-recall",
+      "metaDescription": "Fossil Group recalls Skechers bracelet due to hazardous lead and cadmium levels. Immediate action required for safety.",
+      "languages": {
+        "en": {
+          "Title": "Fossil Group Issues Recall for Skechers Bracelet Due to Toxic Lead and Cadmium Levels",
+          "Description": "Fossil Group is recalling a braided black bracelet included in Skechers watch and jewelry gift sets due to dangerous levels of lead and cadmium. The bracelet features a distinctive braided design and has a metal clasp at each end. The corresponding watch in the gift set is marked with the code \"IF2812307\" and the model number \"SR9082\" on its back. These toxic substances pose serious health risks, especially to children.",
+          "ConsumerContact": "Consumers should contact Fossil Group at 800-842-8621 from 8 a.m. to 8 p.m. CT Monday through Friday, and from 9:30 a.m. to 7 p.m. CT on weekends. They can also email info@fgservices.com or visit www.fossilgroup.com/recalls/ for further details.",
+          "metaDescription": "Fossil Group recalls Skechers bracelet due to hazardous lead and cadmium levels. Immediate action required for safety.",
+          "Products": [
+            {
+              "Name": "Braided Black Bracelet from Skechers Gift Sets",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 260"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled Skechers Jewelry Gift Set"
+            },
+            {
+              "Caption": "Recalled Bracelet"
+            },
+            {
+              "Caption": "Recalled Bracelet Clasp"
+            },
+            {
+              "Caption": "Back of Watch in Recalled Skechers Jewelry Gift Set With Model Number and Code"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "None reported"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Available at Skechers locations across the country and online at Amazon.com, Watchstation.com, and Skechers.com from August 2023 to January 2024 for approximately $45."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Fossil Partners, L.P. of Richardson, Texas"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Fossil Group Inc., of Richardson, Texas"
+            }
+          ],
+          "SoldAtLabel": "Sold At",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Presence of high levels of lead and cadmium in the bracelet clasp, posing health risks."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Stop using the bracelet immediately, dispose of it, and request a full refund from the retailer."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Refund"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "Fossil Group Emite Retiro de Pulsera Skechers Debido a Niveles Tóxicos de Plomo y Cadmio",
+          "Description": "Fossil Group está retirando una pulsera trenzada negra incluida en los conjuntos de regalo de relojes y joyas de Skechers debido a niveles peligrosos de plomo y cadmio. La pulsera presenta un diseño trenzado distintivo y tiene un cierre de metal en cada extremo. El reloj correspondiente en el conjunto de regalo está marcado con el código \"IF2812307\" y el número de modelo \"SR9082\" en su parte posterior. Estas sustancias tóxicas representan serios riesgos para la salud, especialmente para los niños.",
+          "ConsumerContact": "Los consumidores deben contactar a Fossil Group al 800-842-8621 de 8 a.m. a 8 p.m. CT de lunes a viernes, y de 9:30 a.m. a 7 p.m. CT los fines de semana. También pueden enviar un correo electrónico a info@fgservices.com o visitar www.fossilgroup.com/recalls/ para más detalles.",
+          "metaDescription": "Fossil Group retira la pulsera Skechers debido a niveles peligrosos de plomo y cadmio. Se requiere acción inmediata para la seguridad.",
+          "Products": [
+            {
+              "Name": "Pulsera Trenzada Negra de los Conjuntos de Regalo de Skechers",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 260"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Conjunto de Joyería Skechers Retirado"
+            },
+            {
+              "Caption": "Pulsera Retirada"
+            },
+            {
+              "Caption": "Cierre de Pulsera Retirado"
+            },
+            {
+              "Caption": "Parte Posterior del Reloj en el Conjunto de Joyería Skechers Retirado con Número de Modelo y Código"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Ninguna reportada"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible en ubicaciones de Skechers en todo el país y en línea en Amazon.com, Watchstation.com y Skechers.com desde agosto de 2023 hasta enero de 2024 por aproximadamente $45."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Fossil Partners, L.P. de Richardson, Texas"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Fossil Group Inc., de Richardson, Texas"
+            }
+          ],
+          "SoldAtLabel": "Vendidos En",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Presencia de altos niveles de plomo y cadmio en el cierre de la pulsera, lo que representa riesgos para la salud."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Deje de usar la pulsera de inmediato, deshágase de ella y solicite un reembolso completo al minorista."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reembolso"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "مجموعة فوسيل تصدر استدعاء لسوار سكيشرز بسبب مستويات سامة من الرصاص والكادميوم",
+          "Description": "تقوم مجموعة فوسيل باستدعاء سوار أسود مضفر مدرج في مجموعات هدايا ساعات ومجوهرات سكيشرز بسبب مستويات خطيرة من الرصاص والكادميوم. يتميز السوار بتصميم مضفر مميز وله مشبك معدني في كل طرف. الساعة المقابلة في مجموعة الهدايا تحمل الرمز \"IF2812307\" ورقم الطراز \"SR9082\" على ظهرها. هذه المواد السامة تشكل مخاطر صحية خطيرة، خاصة للأطفال.",
+          "ConsumerContact": "يجب على المستهلكين الاتصال بمجموعة فوسيل على الرقم 800-842-8621 من الساعة 8 صباحًا حتى 8 مساءً بتوقيت وسط أمريكا من الاثنين إلى الجمعة، ومن الساعة 9:30 صباحًا حتى 7 مساءً بتوقيت وسط أمريكا في عطلات نهاية الأسبوع. يمكنهم أيضًا إرسال بريد إلكتروني إلى info@fgservices.com أو زيارة www.fossilgroup.com/recalls/ لمزيد من التفاصيل.",
+          "metaDescription": "مجموعة فوسيل تستدعي سوار سكيشرز بسبب مستويات خطيرة من الرصاص والكادميوم. يتطلب الأمر اتخاذ إجراء فوري من أجل السلامة.",
+          "Products": [
+            {
+              "Name": "سوار أسود مضفر من مجموعات هدايا سكيشرز",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 260"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "مجموعة هدايا مجوهرات سكيشرز المستدعاة"
+            },
+            {
+              "Caption": "السوار المستدعى"
+            },
+            {
+              "Caption": "مشبك السوار المستدعى"
+            },
+            {
+              "Caption": "ظهر الساعة في مجموعة هدايا مجوهرات سكيشرز المستدعاة مع رقم الطراز والرمز"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "لا توجد إصابات مسجلة"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "متوفر في مواقع سكيشرز في جميع أنحاء البلاد وعبر الإنترنت على Amazon.com وWatchstation.com وSkechers.com من أغسطس 2023 إلى يناير 2024 بسعر تقريبي يبلغ 45 دولارًا."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "فوسيل بارتنرز، ل.ب. من ريتشاردسون، تكساس"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "مجموعة فوسيل إنك، من ريتشاردسون، تكساس"
+            }
+          ],
+          "SoldAtLabel": "تم البيع في",
+          "ManufacturerCountries": [
+            {
+              "Country": "الصين"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "وجود مستويات عالية من الرصاص والكادميوم في مشبك السوار، مما يشكل مخاطر صحية."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "توقف عن استخدام السوار على الفور، وتخلص منه، واطلب استرداد كامل من بائع التجزئة."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "استرداد"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "化石集团因铅和镉含量过高而召回Skechers手链",
+          "Description": "化石集团因Skechers手表和珠宝礼品套装中包含的黑色编织手链的铅和镉含量过高而进行召回。手链具有独特的编织设计，两端有金属扣。礼品套装中的手表背面标有代码 \"IF2812307\" 和型号 \"SR9082\"。这些有毒物质对健康构成严重风险，尤其是对儿童。",
+          "ConsumerContact": "消费者应在周一至周五的中部时间上午8点至晚上8点，以及周末的中部时间上午9:30至晚上7点拨打800-842-8621联系化石集团。他们还可以发送电子邮件至info@fgservices.com或访问www.fossilgroup.com/recalls/以获取更多详细信息。",
+          "metaDescription": "化石集团因铅和镉含量危险而召回Skechers手链。需要立即采取行动以确保安全。",
+          "Products": [
+            {
+              "Name": "Skechers礼品套装中的黑色编织手链",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约260"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "召回的Skechers珠宝礼品套装"
+            },
+            {
+              "Caption": "召回的手链"
+            },
+            {
+              "Caption": "召回的手链扣"
+            },
+            {
+              "Caption": "召回的Skechers珠宝礼品套装中手表的背面，带有型号和代码"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "无报告伤害"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "在全国各地的Skechers门店以及Amazon.com、Watchstation.com和Skechers.com在线上销售，销售时间为2023年8月至2024年1月，价格约为45美元。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "德克萨斯州理查森的Fossil Partners, L.P."
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "德克萨斯州理查森的Fossil Group Inc."
+            }
+          ],
+          "SoldAtLabel": "销售地点",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "手链扣中存在高水平的铅和镉，构成健康风险。"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "立即停止使用手链，处理掉，并向零售商请求全额退款。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "退款"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "Fossil Group rappelle un bracelet Skechers en raison de niveaux toxiques de plomb et de cadmium",
+          "Description": "Fossil Group rappelle un bracelet noir tressé inclus dans des ensembles-cadeaux de montres et de bijoux Skechers en raison de niveaux dangereux de plomb et de cadmium. Le bracelet présente un design tressé distinctif et possède un fermoir en métal à chaque extrémité. La montre correspondante dans l'ensemble-cadeau est marquée du code \"IF2812307\" et du numéro de modèle \"SR9082\" au dos. Ces substances toxiques présentent des risques graves pour la santé, en particulier pour les enfants.",
+          "ConsumerContact": "Les consommateurs doivent contacter Fossil Group au 800-842-8621 de 8 h à 20 h CT du lundi au vendredi, et de 9 h 30 à 19 h CT le week-end. Ils peuvent également envoyer un e-mail à info@fgservices.com ou visiter www.fossilgroup.com/recalls/ pour plus de détails.",
+          "metaDescription": "Fossil Group rappelle le bracelet Skechers en raison de niveaux dangereux de plomb et de cadmium. Action immédiate requise pour la sécurité.",
+          "Products": [
+            {
+              "Name": "Bracelet Noir Tressé des Ensembles-Cadeaux Skechers",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 260"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Ensemble-Cadeau de Bijoux Skechers Rappelé"
+            },
+            {
+              "Caption": "Bracelet Rappelé"
+            },
+            {
+              "Caption": "Fermoir de Bracelet Rappelé"
+            },
+            {
+              "Caption": "Dos de la Montre dans l'Ensemble-Cadeau de Bijoux Skechers Rappelé Avec Numéro de Modèle et Code"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Aucune rapportée"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible dans les magasins Skechers à travers le pays et en ligne sur Amazon.com, Watchstation.com, et Skechers.com d'août 2023 à janvier 2024 pour environ 45 $."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Fossil Partners, L.P. de Richardson, Texas"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Fossil Group Inc., de Richardson, Texas"
+            }
+          ],
+          "SoldAtLabel": "Vendu À",
+          "ManufacturerCountries": [
+            {
+              "Country": "Chine"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Présence de niveaux élevés de plomb et de cadmium dans le fermoir du bracelet, posant des risques pour la santé."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Cesser immédiatement d'utiliser le bracelet, le jeter et demander un remboursement complet au détaillant."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Remboursement"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "Fossil Group ruft Skechers-Armband aufgrund von giftigen Blei- und Cadmiumwerten zurück",
+          "Description": "Fossil Group ruft ein geflochtenes schwarzes Armband zurück, das in Geschenksets für Uhren und Schmuck von Skechers enthalten ist, aufgrund gefährlicher Blei- und Cadmiumwerte. Das Armband hat ein markantes geflochtenes Design und verfügt an jedem Ende über einen Metallverschluss. Die entsprechende Uhr im Geschenkset ist auf der Rückseite mit dem Code \"IF2812307\" und der Modellnummer \"SR9082\" gekennzeichnet. Diese giftigen Substanzen stellen ernsthafte Gesundheitsrisiken dar, insbesondere für Kinder.",
+          "ConsumerContact": "Verbraucher sollten Fossil Group unter 800-842-8621 von 8 bis 20 Uhr CT von Montag bis Freitag und von 9:30 bis 19 Uhr CT an Wochenenden kontaktieren. Sie können auch eine E-Mail an info@fgservices.com senden oder www.fossilgroup.com/recalls/ besuchen, um weitere Informationen zu erhalten.",
+          "metaDescription": "Fossil Group ruft Skechers-Armband aufgrund gefährlicher Blei- und Cadmiumwerte zurück. Sofortige Maßnahmen zur Sicherheit erforderlich.",
+          "Products": [
+            {
+              "Name": "Geflochtenes schwarzes Armband aus Skechers-Geschenksets",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 260"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Zurückgerufenes Skechers-Schmuck-Geschenkset"
+            },
+            {
+              "Caption": "Zurückgerufenes Armband"
+            },
+            {
+              "Caption": "Zurückgerufener Armbandverschluss"
+            },
+            {
+              "Caption": "Rückseite der Uhr im zurückgerufenen Skechers-Schmuck-Geschenkset mit Modellnummer und Code"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Keine gemeldet"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Erhältlich in Skechers-Filialen im ganzen Land und online bei Amazon.com, Watchstation.com und Skechers.com von August 2023 bis Januar 2024 für etwa 45 $."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Fossil Partners, L.P. aus Richardson, Texas"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Fossil Group Inc. aus Richardson, Texas"
+            }
+          ],
+          "SoldAtLabel": "Verkauft bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Vorhandensein hoher Blei- und Cadmiumwerte im Armbandverschluss, was Gesundheitsrisiken darstellt."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Verwendung des Armbands sofort einstellen, es entsorgen und eine vollständige Rückerstattung vom Einzelhändler anfordern."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Rückerstattung"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "フォッシルグループ、危険な鉛とカドミウムレベルのためスケッチャーズブレスレットをリコール",
+          "Description": "フォッシルグループは、スケッチャーズの時計とジュエリーギフトセットに含まれる編み込み黒ブレスレットを、危険な鉛とカドミウムのレベルのためリコールしています。このブレスレットは特徴的な編み込みデザインで、両端に金属製の留め具があります。ギフトセットに含まれる時計の裏面には、コード「IF2812307」とモデル番号「SR9082」が記されています。これらの有毒物質は、特に子供にとって深刻な健康リスクをもたらします。",
+          "ConsumerContact": "消費者は、月曜日から金曜日の午前8時から午後8時（中央標準時）、および週末の午前9時30分から午後7時（中央標準時）にフォッシルグループに800-842-8621で連絡するべきです。また、info@fgservices.comにメールを送るか、www.fossilgroup.com/recalls/を訪れて詳細を確認することもできます。",
+          "metaDescription": "フォッシルグループは、危険な鉛とカドミウムレベルのためスケッチャーズブレスレットをリコールします。安全のために即時の対応が必要です。",
+          "Products": [
+            {
+              "Name": "スケッチャーズギフトセットの編み込み黒ブレスレット",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約260"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコールされたスケッチャーズジュエリーギフトセット"
+            },
+            {
+              "Caption": "リコールされたブレスレット"
+            },
+            {
+              "Caption": "リコールされたブレスレットの留め具"
+            },
+            {
+              "Caption": "リコールされたスケッチャーズジュエリーギフトセットの時計の裏面（モデル番号とコード付き）"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "報告された怪我はありません"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "2023年8月から2024年1月まで、全国のスケッチャーズ店舗およびAmazon.com、Watchstation.com、Skechers.comで約45ドルで販売されています。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "テキサス州リチャードソンのフォッシルパートナーズL.P."
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "テキサス州リチャードソンのフォッシルグループ株式会社"
+            }
+          ],
+          "SoldAtLabel": "販売場所",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "ブレスレットの留め具に高レベルの鉛とカドミウムが存在し、健康リスクをもたらす。"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "ブレスレットの使用を直ちに中止し、廃棄し、小売業者から全額返金を要求してください。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "返金"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "Fossil Group Emite Recall para Pulseira Skechers Devido a Níveis Tóxicos de Chumbo e Cádmio",
+          "Description": "Fossil Group está recolhendo uma pulseira trançada preta incluída em conjuntos de presentes de relógios e joias Skechers devido a níveis perigosos de chumbo e cádmio. A pulseira apresenta um design trançado distinto e possui um fecho de metal em cada extremidade. O relógio correspondente no conjunto de presentes está marcado com o código \"IF2812307\" e o número do modelo \"SR9082\" em sua parte traseira. Essas substâncias tóxicas representam sérios riscos à saúde, especialmente para crianças.",
+          "ConsumerContact": "Os consumidores devem entrar em contato com a Fossil Group pelo telefone 800-842-8621 das 8h às 20h CT de segunda a sexta-feira, e das 9h30 às 19h CT nos fins de semana. Eles também podem enviar um e-mail para info@fgservices.com ou visitar www.fossilgroup.com/recalls/ para mais detalhes.",
+          "metaDescription": "Fossil Group recolhe pulseira Skechers devido a níveis perigosos de chumbo e cádmio. Ação imediata necessária para segurança.",
+          "Products": [
+            {
+              "Name": "Pulseira Trançada Preta dos Conjuntos de Presentes Skechers",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 260"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Conjunto de Joias Skechers Recolhido"
+            },
+            {
+              "Caption": "Pulseira Recolhida"
+            },
+            {
+              "Caption": "Fecho da Pulseira Recolhida"
+            },
+            {
+              "Caption": "Parte de Trás do Relógio no Conjunto de Joias Skechers Recolhido Com Número do Modelo e Código"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Nenhuma relatada"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponível em locais Skechers em todo o país e online em Amazon.com, Watchstation.com e Skechers.com de agosto de 2023 a janeiro de 2024 por aproximadamente $45."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Fossil Partners, L.P. de Richardson, Texas"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Fossil Group Inc., de Richardson, Texas"
+            }
+          ],
+          "SoldAtLabel": "Vendidos Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Presença de altos níveis de chumbo e cádmio no fecho da pulseira, representando riscos à saúde."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Pare de usar a pulseira imediatamente, descarte-a e solicite um reembolso total ao varejista."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reembolso"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "फॉसिल ग्रुप ने विषाक्त सीसा और कैडमियम स्तरों के कारण स्केचर्स कंगन के लिए रिकॉल जारी किया",
+          "Description": "फॉसिल ग्रुप एक काले ब्रेडेड कंगन को रिकॉल कर रहा है जो स्केचर्स घड़ी और आभूषण उपहार सेट में शामिल है, जो खतरनाक सीसा और कैडमियम स्तरों के कारण है। कंगन में एक विशिष्ट ब्रेडेड डिज़ाइन है और प्रत्येक छोर पर एक धातु का क्लैप है। उपहार सेट में संबंधित घड़ी के पीछे कोड \"IF2812307\" और मॉडल नंबर \"SR9082\" अंकित है। ये विषाक्त पदार्थ गंभीर स्वास्थ्य जोखिम पैदा करते हैं, विशेष रूप से बच्चों के लिए।",
+          "ConsumerContact": "उपभोक्ताओं को फॉसिल ग्रुप से 800-842-8621 पर संपर्क करना चाहिए, सोमवार से शुक्रवार तक सुबह 8 बजे से रात 8 बजे सीटी, और सप्ताहांत पर सुबह 9:30 बजे से रात 7 बजे सीटी। वे info@fgservices.com पर भी ईमेल कर सकते हैं या अधिक विवरण के लिए www.fossilgroup.com/recalls/ पर जा सकते हैं।",
+          "metaDescription": "फॉसिल ग्रुप स्केचर्स कंगन को खतरनाक सीसा और कैडमियम स्तरों के कारण रिकॉल करता है। सुरक्षा के लिए तत्काल कार्रवाई की आवश्यकता है।",
+          "Products": [
+            {
+              "Name": "स्केचर्स उपहार सेट से ब्रेडेड काला कंगन",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 260"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "रिकॉल किया गया स्केचर्स आभूषण उपहार सेट"
+            },
+            {
+              "Caption": "रिकॉल किया गया कंगन"
+            },
+            {
+              "Caption": "रिकॉल किया गया कंगन क्लैप"
+            },
+            {
+              "Caption": "स्केचर्स आभूषण उपहार सेट में घड़ी का पीछे, मॉडल नंबर और कोड के साथ"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "कोई रिपोर्ट नहीं"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "अगस्त 2023 से जनवरी 2024 तक देश भर में स्केचर्स स्थानों पर और Amazon.com, Watchstation.com, और Skechers.com पर लगभग $45 में उपलब्ध।"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "फॉसिल पार्टनर्स, एल.पी. रिचर्डसन, टेक्सास"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "फॉसिल ग्रुप इंक., रिचर्डसन, टेक्सास"
+            }
+          ],
+          "SoldAtLabel": "बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "चीन"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "कंगन क्लैप में उच्च स्तर के सीसा और कैडमियम की उपस्थिति, स्वास्थ्य जोखिम पैदा कर रही है।"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "कंगन का उपयोग तुरंत बंद करें, इसे नष्ट करें, और रिटेलर से पूर्ण धनवापसी का अनुरोध करें।"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "धनवापसी"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "Группа Fossil объявляет отзыв браслета Skechers из-за токсичных уровней свинца и кадмия",
+          "Description": "Группа Fossil отзывает черный плетеный браслет, входящий в наборы подарков часов и ювелирных изделий Skechers, из-за опасных уровней свинца и кадмия. Браслет имеет характерный плетеный дизайн и металлическую застежку на каждом конце. Соответствующие часы в подарочном наборе имеют код \"IF2812307\" и номер модели \"SR9082\" на задней стороне. Эти токсичные вещества представляют серьезную угрозу для здоровья, особенно для детей.",
+          "ConsumerContact": "Потребители должны связаться с группой Fossil по телефону 800-842-8621 с 8:00 до 20:00 по центральному времени с понедельника по пятницу и с 9:30 до 19:00 по центральному времени в выходные дни. Они также могут отправить электронное письмо на адрес info@fgservices.com или посетить www.fossilgroup.com/recalls/ для получения дополнительной информации.",
+          "metaDescription": "Группа Fossil отзывает браслет Skechers из-за опасных уровней свинца и кадмия. Необходимы немедленные действия для обеспечения безопасности.",
+          "Products": [
+            {
+              "Name": "Плетеный черный браслет из наборов подарков Skechers",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 260"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванный набор ювелирных изделий Skechers"
+            },
+            {
+              "Caption": "Отозванный браслет"
+            },
+            {
+              "Caption": "Отозванная застежка браслета"
+            },
+            {
+              "Caption": "Задняя сторона часов из отозванного набора ювелирных изделий Skechers с номером модели и кодом"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Не сообщалось о травмах"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Доступно в магазинах Skechers по всей стране и онлайн на Amazon.com, Watchstation.com и Skechers.com с августа 2023 года по январь 2024 года примерно за 45 долларов."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Fossil Partners, L.P. из Ричардсона, Техас"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Fossil Group Inc., из Ричардсона, Техас"
+            }
+          ],
+          "SoldAtLabel": "Продается в",
+          "ManufacturerCountries": [
+            {
+              "Country": "Китай"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Наличие высоких уровней свинца и кадмия в застежке браслета, представляющее угрозу для здоровья."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Немедленно прекратите использование браслета, утилизируйте его и запросите полный возврат средств у розничного продавца."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Возврат средств"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "Fossil Group thông báo thu hồi vòng tay Skechers do mức độ chì và cadmium độc hại",
+          "Description": "Fossil Group đang thu hồi một chiếc vòng tay đen bện có trong bộ quà tặng đồng hồ và trang sức Skechers do mức độ chì và cadmium nguy hiểm. Chiếc vòng tay có thiết kế bện đặc trưng và có một cái khóa kim loại ở mỗi đầu. Chiếc đồng hồ tương ứng trong bộ quà tặng được đánh dấu với mã \"IF2812307\" và số mô hình \"SR9082\" ở mặt sau. Những chất độc hại này gây ra rủi ro sức khỏe nghiêm trọng, đặc biệt là đối với trẻ em.",
+          "ConsumerContact": "Người tiêu dùng nên liên hệ với Fossil Group qua số 800-842-8621 từ 8 giờ sáng đến 8 giờ tối CT từ thứ Hai đến thứ Sáu, và từ 9:30 sáng đến 7 giờ tối CT vào cuối tuần. Họ cũng có thể gửi email đến info@fgservices.com hoặc truy cập www.fossilgroup.com/recalls/ để biết thêm chi tiết.",
+          "metaDescription": "Fossil Group thu hồi vòng tay Skechers do mức độ chì và cadmium nguy hiểm. Cần hành động ngay lập tức để đảm bảo an toàn.",
+          "Products": [
+            {
+              "Name": "Vòng tay đen bện từ bộ quà tặng Skechers",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 260"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Bộ quà tặng trang sức Skechers bị thu hồi"
+            },
+            {
+              "Caption": "Vòng tay bị thu hồi"
+            },
+            {
+              "Caption": "Khóa vòng tay bị thu hồi"
+            },
+            {
+              "Caption": "Mặt sau của đồng hồ trong bộ quà tặng trang sức Skechers bị thu hồi với số mô hình và mã"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Không có báo cáo nào"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Có mặt tại các cửa hàng Skechers trên toàn quốc và trực tuyến tại Amazon.com, Watchstation.com, và Skechers.com từ tháng 8 năm 2023 đến tháng 1 năm 2024 với giá khoảng 45 đô la."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Fossil Partners, L.P. ở Richardson, Texas"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Fossil Group Inc., ở Richardson, Texas"
+            }
+          ],
+          "SoldAtLabel": "Bán Tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Trung Quốc"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Sự hiện diện của mức độ cao chì và cadmium trong khóa vòng tay, gây ra rủi ro sức khỏe."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Ngừng sử dụng vòng tay ngay lập tức, vứt bỏ nó, và yêu cầu hoàn tiền đầy đủ từ nhà bán lẻ."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Hoàn tiền"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,2320 @@
+{
+  "meta": {
+    "slug": "playground-equipment",
+    "sourceCsvFile": "playground-equipment_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:37.035Z",
+    "recallCount": 3,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "playground-equipment.json",
+    "seoTranslatedAt": "2026-04-05T02:46:23.326Z",
+    "resumePartial": false,
+    "i18nSource": "generalRecallsTranslated",
+    "i18nSourceFile": "playground-equipment.json",
+    "i18nUiLangs": [
+      "en",
+      "es",
+      "ar",
+      "zh",
+      "fr",
+      "de",
+      "ja",
+      "pt",
+      "hi",
+      "ru",
+      "vi"
+    ],
+    "i18nProgressByLang": {
+      "es": 3,
+      "ar": 3,
+      "zh": 3,
+      "fr": 3,
+      "de": 3,
+      "ja": 3,
+      "pt": 3,
+      "hi": 3,
+      "ru": 3,
+      "vi": 3
+    },
+    "i18nInProgress": false,
+    "i18nTranslatedAt": "2026-04-07T17:43:08.951Z",
+    "i18nOpenaiModel": "gpt-4o-mini"
+  },
+  "recalls": [
+    {
+      "RecallID": 10660,
+      "RecallNumber": "26324",
+      "RecallDate": "2026-03-12T00:00:00",
+      "Description": "LFTE USA has issued a recall for Playground Swing Set Seats that were part of assembled playground sets. These swing belt seats are available in various colors including black, blue, green, red, tan, and yellow, and are identified by the code \"LF-65708\" on the seat pad. Only swings with the model number 999604 are affected by this recall.",
+      "URL": "https://www.cpsc.gov/Recalls/2026/LFTE-USA-Recalls-Playground-Swing-Set-Seats-Due-to-Fall-Hazard",
+      "Title": "LFTE USA Recalls Playground Swing Set Seats Due to Fall Risk",
+      "ConsumerContact": "For assistance, consumers should reach out to LFTE USA via email at recall@lfteusa.com.",
+      "LastPublishDate": "2026-03-13T00:00:00",
+      "Products": [
+        {
+          "Name": "Playground Swing Set Seats",
+          "NumberOfUnits": "About 7,200"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/playground-equipment/1-Playground-Swing-Set-Seats/e0fe1046e6167cf564f5fb4db1e3ad9f.webp",
+          "Caption": "Recalled playground swing set",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/playgroundss-1.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/playground-equipment/1-Playground-Swing-Set-Seats/50edcacabdaa82ccbd0b6d3f57e53601.webp",
+          "Caption": "Recalled Swing Seat",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/playgroundss-2.jpg"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm received one report of a swing breaking and a child falling, resulting in a minor injury."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available through Miracle Recreation Equipment and Little Tikes Commercial from January 2025 to September 2025, priced between $80 and $95. Note that these swing seats were sold only to playground manufacturers and not to individual consumers."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "LFTE USA Inc., of Cary, North Carolina"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Potential fall hazard due to failing rivets supporting the swing seat."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers must immediately discontinue use of the recalled swings and contact LFTE USA for a complimentary replacement swing seat. Little Tikes Commercial and Miracle Recreation Equipment have already reached out to all known purchasers."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Replace"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "LF-65708",
+        "999604"
+      ],
+      "slug": "lfte-usa-recalls-playground-swing-set-seats-due-to-fall-risk-recall",
+      "metaDescription": "LFTE USA recalls Playground Swing Set Seats due to a fall hazard. Contact for free replacement and safety information.",
+      "languages": {
+        "en": {
+          "Title": "LFTE USA Recalls Playground Swing Set Seats Due to Fall Risk",
+          "Description": "LFTE USA has issued a recall for Playground Swing Set Seats that were part of assembled playground sets. These swing belt seats are available in various colors including black, blue, green, red, tan, and yellow, and are identified by the code \"LF-65708\" on the seat pad. Only swings with the model number 999604 are affected by this recall.",
+          "ConsumerContact": "For assistance, consumers should reach out to LFTE USA via email at recall@lfteusa.com.",
+          "metaDescription": "LFTE USA recalls Playground Swing Set Seats due to a fall hazard. Contact for free replacement and safety information.",
+          "Products": [
+            {
+              "Name": "Playground Swing Set Seats",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 7,200"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled playground swing set"
+            },
+            {
+              "Caption": "Recalled Swing Seat"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "The firm received one report of a swing breaking and a child falling, resulting in a minor injury."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Available through Miracle Recreation Equipment and Little Tikes Commercial from January 2025 to September 2025, priced between $80 and $95. Note that these swing seats were sold only to playground manufacturers and not to individual consumers."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "LFTE USA Inc., of Cary, North Carolina"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Sold At",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Potential fall hazard due to failing rivets supporting the swing seat."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Consumers must immediately discontinue use of the recalled swings and contact LFTE USA for a complimentary replacement swing seat. Little Tikes Commercial and Miracle Recreation Equipment have already reached out to all known purchasers."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Replace"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "LFTE USA Retira Asientos de Columpios de Parque Infantil Debido a Riesgo de Caída",
+          "Description": "LFTE USA ha emitido un retiro de los Asientos de Columpios de Parque Infantil que eran parte de conjuntos de parque infantil ensamblados. Estos asientos de cinturón de columpio están disponibles en varios colores, incluyendo negro, azul, verde, rojo, beige y amarillo, y se identifican con el código \"LF-65708\" en la almohadilla del asiento. Solo los columpios con el número de modelo 999604 se ven afectados por este retiro.",
+          "ConsumerContact": "Para asistencia, los consumidores deben comunicarse con LFTE USA por correo electrónico a recall@lfteusa.com.",
+          "metaDescription": "LFTE USA retira Asientos de Columpios de Parque Infantil debido a un peligro de caída. Contacto para reemplazo gratuito e información de seguridad.",
+          "Products": [
+            {
+              "Name": "Asientos de Columpios de Parque Infantil",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 7,200"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Columpio de parque infantil retirado"
+            },
+            {
+              "Caption": "Asiento de columpio retirado"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "La empresa recibió un informe de un columpio que se rompió y un niño que cayó, resultando en una lesión leve."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible a través de Miracle Recreation Equipment y Little Tikes Commercial desde enero de 2025 hasta septiembre de 2025, con precios entre $80 y $95. Tenga en cuenta que estos asientos de columpio se vendieron solo a fabricantes de parques infantiles y no a consumidores individuales."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "LFTE USA Inc., de Cary, Carolina del Norte"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendidos En",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Peligro potencial de caída debido a remaches que fallan y que soportan el asiento del columpio."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Los consumidores deben dejar de usar inmediatamente los columpios retirados y contactar a LFTE USA para obtener un asiento de columpio de reemplazo gratuito. Little Tikes Commercial y Miracle Recreation Equipment ya se han comunicado con todos los compradores conocidos."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reemplazar"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "LFTE USA تستدعي مقاعد أرجوحة الملعب بسبب خطر السقوط",
+          "Description": "أصدرت LFTE USA استدعاء لمقاعد أرجوحة الملعب التي كانت جزءًا من مجموعات الملاعب المركبة. تتوفر هذه المقاعد بحزام الأرجوحة بألوان مختلفة بما في ذلك الأسود والأزرق والأخضر والأحمر والبيج والأصفر، وتُعرف بالرمز \"LF-65708\" على وسادة المقعد. فقط الأرجوحات ذات رقم الطراز 999604 متأثرة بهذا الاستدعاء.",
+          "ConsumerContact": "للمساعدة، يجب على المستهلكين التواصل مع LFTE USA عبر البريد الإلكتروني على recall@lfteusa.com.",
+          "metaDescription": "LFTE USA تستدعي مقاعد أرجوحة الملعب بسبب خطر السقوط. اتصل للحصول على بديل مجاني ومعلومات السلامة.",
+          "Products": [
+            {
+              "Name": "مقاعد أرجوحة الملعب",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 7200"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "أرجوحة الملعب المستدعاة"
+            },
+            {
+              "Caption": "مقعد الأرجوحة المستدعى"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "تلقت الشركة تقريرًا واحدًا عن كسر أرجوحة وسقوط طفل، مما أدى إلى إصابة طفيفة."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "متاحة من خلال Miracle Recreation Equipment وLittle Tikes Commercial من يناير 2025 إلى سبتمبر 2025، بسعر يتراوح بين 80 و95 دولارًا. لاحظ أن هذه المقاعد الأرجوحة بيعت فقط لمصنعي الملاعب وليس للمستهلكين الأفراد."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "LFTE USA Inc.، من كاري، نورث كارولينا"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "تم البيع في",
+          "ManufacturerCountries": [
+            {
+              "Country": "الصين"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "خطر السقوط المحتمل بسبب الفتحات الفاشلة التي تدعم مقعد الأرجوحة."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "يجب على المستهلكين التوقف فورًا عن استخدام الأرجوحات المستدعاة والتواصل مع LFTE USA للحصول على مقعد أرجوحة بديل مجاني. لقد تواصلت Little Tikes Commercial وMiracle Recreation Equipment بالفعل مع جميع المشترين المعروفين."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "استبدال"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "LFTE USA召回秋千座椅因跌落风险",
+          "Description": "LFTE USA已对作为组装游乐场套件一部分的秋千座椅发出召回。这些秋千带座椅有多种颜色，包括黑色、蓝色、绿色、红色、棕色和黄色，并在座垫上标识有代码“LF-65708”。只有型号为999604的秋千受到此次召回的影响。",
+          "ConsumerContact": "如需帮助，消费者应通过电子邮件联系LFTE USA，邮箱为recall@lfteusa.com。",
+          "metaDescription": "LFTE USA因跌落危险召回秋千座椅。联系以获取免费更换和安全信息。",
+          "Products": [
+            {
+              "Name": "秋千座椅",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约7200个"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "被召回的游乐场秋千"
+            },
+            {
+              "Caption": "被召回的秋千座椅"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "该公司收到一份秋千断裂和儿童跌落的报告，导致轻微受伤。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "通过Miracle Recreation Equipment和Little Tikes Commercial销售，时间为2025年1月至2025年9月，价格在80美元至95美元之间。请注意，这些秋千座椅仅销售给游乐场制造商，而不销售给个人消费者。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "LFTE USA Inc.，位于北卡罗来纳州凯里"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "销售地点",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "由于支撑秋千座椅的铆钉失效，存在潜在的跌落危险。"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "消费者必须立即停止使用被召回的秋千，并联系LFTE USA以获取免费更换的秋千座椅。Little Tikes Commercial和Miracle Recreation Equipment已与所有已知购买者取得联系。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "更换"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "LFTE USA rappelle des sièges de balançoire de terrain de jeu en raison du risque de chute",
+          "Description": "LFTE USA a émis un rappel pour des sièges de balançoire de terrain de jeu qui faisaient partie de ensembles de jeux assemblés. Ces sièges de balançoire sont disponibles en différentes couleurs, y compris noir, bleu, vert, rouge, beige et jaune, et sont identifiés par le code \"LF-65708\" sur le coussin du siège. Seules les balançoires avec le numéro de modèle 999604 sont concernées par ce rappel.",
+          "ConsumerContact": "Pour assistance, les consommateurs doivent contacter LFTE USA par e-mail à recall@lfteusa.com.",
+          "metaDescription": "LFTE USA rappelle des sièges de balançoire de terrain de jeu en raison d'un risque de chute. Contactez pour un remplacement gratuit et des informations de sécurité.",
+          "Products": [
+            {
+              "Name": "Sièges de balançoire de terrain de jeu",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 7 200"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Balançoire de terrain de jeu rappelée"
+            },
+            {
+              "Caption": "Siège de balançoire rappelé"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "L'entreprise a reçu un rapport d'une balançoire se cassant et d'un enfant tombant, entraînant une blessure mineure."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible via Miracle Recreation Equipment et Little Tikes Commercial de janvier 2025 à septembre 2025, au prix compris entre 80 $ et 95 $. Notez que ces sièges de balançoire ont été vendus uniquement aux fabricants de terrains de jeux et non aux consommateurs individuels."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "LFTE USA Inc., de Cary, Caroline du Nord"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendu À",
+          "ManufacturerCountries": [
+            {
+              "Country": "Chine"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risque potentiel de chute en raison de rivets défaillants soutenant le siège de balançoire."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Les consommateurs doivent immédiatement cesser d'utiliser les balançoires rappelées et contacter LFTE USA pour un siège de balançoire de remplacement gratuit. Little Tikes Commercial et Miracle Recreation Equipment ont déjà contacté tous les acheteurs connus."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Remplacer"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "LFTE USA ruft Schaukelset-Sitze aufgrund von Sturzgefahr zurück",
+          "Description": "LFTE USA hat einen Rückruf für Schaukelset-Sitze herausgegeben, die Teil von montierten Spielplatzsets waren. Diese Schaukelsitze sind in verschiedenen Farben erhältlich, darunter Schwarz, Blau, Grün, Rot, Beige und Gelb, und sind durch den Code \"LF-65708\" auf dem Sitzpolster identifiziert. Nur Schaukeln mit der Modellnummer 999604 sind von diesem Rückruf betroffen.",
+          "ConsumerContact": "Für Unterstützung sollten Verbraucher LFTE USA per E-Mail unter recall@lfteusa.com kontaktieren.",
+          "metaDescription": "LFTE USA ruft Schaukelset-Sitze aufgrund einer Sturzgefahr zurück. Kontakt für kostenlosen Ersatz und Sicherheitsinformationen.",
+          "Products": [
+            {
+              "Name": "Schaukelset-Sitze",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 7.200"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Rückgerufenes Spielplatzschaukelset"
+            },
+            {
+              "Caption": "Rückgerufener Schaukelsitz"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Das Unternehmen erhielt einen Bericht über eine brechende Schaukel und ein Kind, das fiel, was zu einer leichten Verletzung führte."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Verfügbar über Miracle Recreation Equipment und Little Tikes Commercial von Januar 2025 bis September 2025, preislich zwischen 80 und 95 US-Dollar. Beachten Sie, dass diese Schaukelsitze nur an Spielplatzhersteller und nicht an einzelne Verbraucher verkauft wurden."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "LFTE USA Inc., Cary, North Carolina"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Verkauft bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Potenzielle Sturzgefahr aufgrund von versagenden Nieten, die den Schaukelsitz stützen."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Verbraucher müssen die Nutzung der zurückgerufenen Schaukeln sofort einstellen und LFTE USA für einen kostenlosen Ersatzschaukelsitz kontaktieren. Little Tikes Commercial und Miracle Recreation Equipment haben bereits alle bekannten Käufer kontaktiert."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Ersatz"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "LFTE USAが遊び場のブランコセットのシートを落下リスクのためにリコール",
+          "Description": "LFTE USAは、組み立てられた遊び場セットの一部である遊び場のブランコセットのシートをリコールしました。これらのブランコベルトシートは、黒、青、緑、赤、タン、黄色などのさまざまな色で利用可能で、シートパッドにはコード「LF-65708」が記載されています。モデル番号999604のブランコのみがこのリコールの対象です。",
+          "ConsumerContact": "支援が必要な場合、消費者はrecall@lfteusa.comのメールでLFTE USAに連絡するべきです。",
+          "metaDescription": "LFTE USAは、落下の危険性のために遊び場のブランコセットのシートをリコールします。無料の交換と安全情報についての連絡先。",
+          "Products": [
+            {
+              "Name": "遊び場のブランコセットのシート",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約7,200"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコールされた遊び場のブランコセット"
+            },
+            {
+              "Caption": "リコールされたブランコシート"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "同社は、ブランコが壊れ、子供が落下して軽傷を負ったという報告を1件受けました。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "2025年1月から2025年9月まで、Miracle Recreation EquipmentおよびLittle Tikes Commercialを通じて入手可能で、価格は80ドルから95ドルの間です。これらのブランコシートは、遊び場の製造業者にのみ販売され、個々の消費者には販売されていないことに注意してください。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "ノースカロライナ州キャリーのLFTE USA Inc."
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "販売場所",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "ブランコシートを支えるリベットの故障による潜在的な落下危険性。"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "消費者は、リコールされたブランコの使用を直ちに中止し、LFTE USAに連絡して無料の交換用ブランコシートを受け取る必要があります。Little Tikes CommercialおよびMiracle Recreation Equipmentは、すでにすべての既知の購入者に連絡を取っています。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "交換"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "LFTE USA Recalls Assentos de Balanço de Playground Devido ao Risco de Queda",
+          "Description": "A LFTE USA emitiu um recall para Assentos de Balanço de Playground que faziam parte de conjuntos de playground montados. Esses assentos de cinto de balanço estão disponíveis em várias cores, incluindo preto, azul, verde, vermelho, bege e amarelo, e são identificados pelo código \"LF-65708\" no acolchoado do assento. Apenas os balanços com o número do modelo 999604 são afetados por este recall.",
+          "ConsumerContact": "Para assistência, os consumidores devem entrar em contato com a LFTE USA pelo e-mail recall@lfteusa.com.",
+          "metaDescription": "LFTE USA recolhe Assentos de Balanço de Playground devido a um risco de queda. Contato para substituição gratuita e informações de segurança.",
+          "Products": [
+            {
+              "Name": "Assentos de Balanço de Playground",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 7.200"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Balanço de playground recolhido"
+            },
+            {
+              "Caption": "Assento de balanço recolhido"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "A empresa recebeu um relato de um balanço quebrando e uma criança caindo, resultando em uma lesão leve."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponível através da Miracle Recreation Equipment e Little Tikes Commercial de janeiro de 2025 a setembro de 2025, com preços entre $80 e $95. Observe que esses assentos de balanço foram vendidos apenas para fabricantes de playground e não para consumidores individuais."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "LFTE USA Inc., de Cary, Carolina do Norte"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendido Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risco potencial de queda devido a rebites falhando que suportam o assento do balanço."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Os consumidores devem interromper imediatamente o uso dos balanços recolhidos e entrar em contato com a LFTE USA para um assento de balanço de substituição gratuito. Little Tikes Commercial e Miracle Recreation Equipment já entraram em contato com todos os compradores conhecidos."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Substituir"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "LFTE USA ने गिरने के जोखिम के कारण प्लेग्राउंड स्विंग सेट सीटों की रिकॉल की",
+          "Description": "LFTE USA ने उन प्लेग्राउंड स्विंग सेट सीटों की रिकॉल की है जो असेंबल किए गए प्लेग्राउंड सेट का हिस्सा थीं। ये स्विंग बेल्ट सीटें काले, नीले, हरे, लाल, तन और पीले सहित विभिन्न रंगों में उपलब्ध हैं, और सीट पैड पर कोड \"LF-65708\" द्वारा पहचानी जाती हैं। केवल मॉडल नंबर 999604 वाले स्विंग इस रिकॉल से प्रभावित हैं।",
+          "ConsumerContact": "सहायता के लिए, उपभोक्ताओं को LFTE USA से ईमेल के माध्यम से recall@lfteusa.com पर संपर्क करना चाहिए।",
+          "metaDescription": "LFTE USA गिरने के खतरे के कारण प्लेग्राउंड स्विंग सेट सीटों की रिकॉल करता है। मुफ्त प्रतिस्थापन और सुरक्षा जानकारी के लिए संपर्क करें।",
+          "Products": [
+            {
+              "Name": "प्लेग्राउंड स्विंग सेट सीटें",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 7,200"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "रिकॉल की गई प्लेग्राउंड स्विंग सेट"
+            },
+            {
+              "Caption": "रिकॉल की गई स्विंग सीट"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "कंपनी को एक स्विंग टूटने और एक बच्चे के गिरने की रिपोर्ट मिली, जिससे एक मामूली चोट आई।"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "जनवरी 2025 से सितंबर 2025 तक Miracle Recreation Equipment और Little Tikes Commercial के माध्यम से उपलब्ध, कीमत $80 से $95 के बीच। ध्यान दें कि ये स्विंग सीटें केवल प्लेग्राउंड निर्माताओं को बेची गई थीं और व्यक्तिगत उपभोक्ताओं को नहीं।"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "LFTE USA Inc., कैरी, नॉर्थ कैरोलिना"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "चीन"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "स्विंग सीट का समर्थन करने वाले रिवेट्स के विफल होने के कारण संभावित गिरने का खतरा।"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "उपभोक्ताओं को तुरंत रिकॉल किए गए स्विंग का उपयोग बंद करना चाहिए और मुफ्त प्रतिस्थापन स्विंग सीट के लिए LFTE USA से संपर्क करना चाहिए। Little Tikes Commercial और Miracle Recreation Equipment ने पहले ही सभी ज्ञात खरीदारों से संपर्क किया है।"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "बदलें"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "LFTE USA отзывает сиденья для качелей на детских площадках из-за риска падения",
+          "Description": "LFTE USA объявила об отзыве сидений для качелей на детских площадках, которые были частью собранных комплектов. Эти сиденья с ремнями доступны в различных цветах, включая черный, синий, зеленый, красный, бежевый и желтый, и идентифицируются по коду \"LF-65708\" на подушке сиденья. Отзыв касается только качелей с номером модели 999604.",
+          "ConsumerContact": "Для получения помощи потребители должны обратиться в LFTE USA по электронной почте recall@lfteusa.com.",
+          "metaDescription": "LFTE USA отзывает сиденья для качелей на детских площадках из-за опасности падения. Свяжитесь для бесплатной замены и информации о безопасности.",
+          "Products": [
+            {
+              "Name": "Сиденья для качелей на детских площадках",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 7200"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванные качели на детской площадке"
+            },
+            {
+              "Caption": "Отозванное сиденье для качелей"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Компания получила один отчет о том, что качели сломались, и ребенок упал, что привело к незначительной травме."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Доступно через Miracle Recreation Equipment и Little Tikes Commercial с января 2025 года по сентябрь 2025 года, по цене от 80 до 95 долларов. Обратите внимание, что эти сиденья для качелей продавались только производителям детских площадок, а не отдельным потребителям."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "LFTE USA Inc., Кэри, Северная Каролина"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Продавалось в",
+          "ManufacturerCountries": [
+            {
+              "Country": "Китай"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Потенциальная опасность падения из-за неисправных заклепок, поддерживающих сиденье для качелей."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Потребители должны немедленно прекратить использование отозванных качелей и обратиться в LFTE USA для получения бесплатного заменяющего сиденья для качелей. Little Tikes Commercial и Miracle Recreation Equipment уже связались со всеми известными покупателями."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Заменить"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "LFTE USA thu hồi ghế xích đu sân chơi do nguy cơ ngã",
+          "Description": "LFTE USA đã phát động một đợt thu hồi ghế xích đu sân chơi là một phần của các bộ sân chơi đã được lắp ráp. Những ghế xích đu này có sẵn trong nhiều màu sắc khác nhau bao gồm đen, xanh dương, xanh lá, đỏ, nâu và vàng, và được xác định bằng mã \"LF-65708\" trên đệm ghế. Chỉ những xích đu có số hiệu mẫu 999604 bị ảnh hưởng bởi đợt thu hồi này.",
+          "ConsumerContact": "Để được hỗ trợ, người tiêu dùng nên liên hệ với LFTE USA qua email tại recall@lfteusa.com.",
+          "metaDescription": "LFTE USA thu hồi ghế xích đu sân chơi do nguy cơ ngã. Liên hệ để được thay thế miễn phí và thông tin an toàn.",
+          "Products": [
+            {
+              "Name": "Ghế xích đu sân chơi",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 7,200"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Ghế xích đu sân chơi bị thu hồi"
+            },
+            {
+              "Caption": "Ghế xích đu bị thu hồi"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Công ty đã nhận được một báo cáo về việc một xích đu bị gãy và một đứa trẻ ngã, dẫn đến một chấn thương nhẹ."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Có sẵn thông qua Miracle Recreation Equipment và Little Tikes Commercial từ tháng 1 năm 2025 đến tháng 9 năm 2025, với giá từ 80 đến 95 đô la. Lưu ý rằng những ghế xích đu này chỉ được bán cho các nhà sản xuất sân chơi và không bán cho người tiêu dùng cá nhân."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "LFTE USA Inc., ở Cary, North Carolina"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Bán Tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Trung Quốc"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Nguy cơ ngã tiềm ẩn do các đinh tán hỗ trợ ghế xích đu bị hỏng."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Người tiêu dùng phải ngay lập tức ngừng sử dụng các xích đu bị thu hồi và liên hệ với LFTE USA để được thay thế ghế xích đu miễn phí. Little Tikes Commercial và Miracle Recreation Equipment đã liên hệ với tất cả những người mua đã biết."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Thay thế"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    },
+    {
+      "RecallID": 10285,
+      "RecallNumber": "25303",
+      "RecallDate": "2025-05-29T00:00:00",
+      "Description": "Playworld Systems has issued a recall for the Unity Teeter Tunnels featuring Lexan tops, identified by part numbers ZZXX0182, ZZXX0182S, ZZXX0192, and ZZXX0192S. These seesaws are designed for multiple children to engage in various activities, including standing, sitting, lying down, and crawling through a tunnel. The part numbers can be found on the original purchase order and installation instructions.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/Playworld-Systems-Recalls-Unity-Teeter-Tunnels-with-Lexan-Tops-Due-to-Risk-of-Serious-Injury-and-Crush-Hazard",
+      "Title": "Playworld Systems Recalls Unity Teeter Tunnels Due to Serious Injury and Crush Hazards",
+      "ConsumerContact": "For assistance, contact Playworld Systems at 800-233-8404 from 8 a.m. to 4:30 p.m. ET, Monday through Friday, via email at recalls@playworld.com, or visit https://playworld.com/recall-information. Additional details can be found on their website by clicking on the \"Teeter Tunnel Recall Safety Information\" link at the bottom of the page.",
+      "LastPublishDate": "2025-05-29T00:00:00",
+      "Products": [
+        {
+          "Name": "Unity Teeter Tunnels with Lexan Tops",
+          "NumberOfUnits": "About 329"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/playground-equipment/2-Unity-Teeter-Tunnels-with-Lexan-Tops/edca307c508629d61bf7a08a4faf960f.webp",
+          "Caption": "Recalled Unity Teeter Tunnel with Lexan Top (first model)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Unity-Teeter-1.png"
+        },
+        {
+          "URL": "/images/generalRecalls/playground-equipment/2-Unity-Teeter-Tunnels-with-Lexan-Tops/1b0716d59c1c07f73477cf04ee289bcd.webp",
+          "Caption": "Recalled Unity Teeter Tunnel with Lexan Top (second model)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Unity-Teeter-2.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received two reports of children falling under the end of the seesaw plank of the recalled Unity Teeter Tunnels. One child sustained a liver laceration when the end of the seesaw plank landed on her abdomen and the second child suffered fractures to his right tibia and right fibula when the end of the seesaw plank landed on him."
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "Playworld Systems Inc., of Lewisburg, Pennsylvania"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Sold by Playworld Systems and authorized independent sales representatives across the U.S. from October 2014 to March 2025, priced between $13,450 and $13,600."
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "United States"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of serious injury and crush hazard if a child falls underneath the seesaw."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Immediately cease use of the recalled tunnels and contact Playworld Systems for a complimentary repair. A certified playground installer will be dispatched to fix the unit. Playworld Systems will reach out to all known purchasers and advise them to keep the tunnels out of service until repairs are finalized."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "ZZXX0182",
+        "ZZXX0182S",
+        "ZZXX0192",
+        "ZZXX0192S"
+      ],
+      "slug": "playworld-systems-recalls-unity-teeter-tunnels-due-to-serious-injury-and-crush-hazards-recall",
+      "metaDescription": "Playworld Systems recalls Unity Teeter Tunnels due to serious injury risks. Contact them for a free repair and safety information.",
+      "languages": {
+        "en": {
+          "Title": "Playworld Systems Recalls Unity Teeter Tunnels Due to Serious Injury and Crush Hazards",
+          "Description": "Playworld Systems has issued a recall for the Unity Teeter Tunnels featuring Lexan tops, identified by part numbers ZZXX0182, ZZXX0182S, ZZXX0192, and ZZXX0192S. These seesaws are designed for multiple children to engage in various activities, including standing, sitting, lying down, and crawling through a tunnel. The part numbers can be found on the original purchase order and installation instructions.",
+          "ConsumerContact": "For assistance, contact Playworld Systems at 800-233-8404 from 8 a.m. to 4:30 p.m. ET, Monday through Friday, via email at recalls@playworld.com, or visit https://playworld.com/recall-information. Additional details can be found on their website by clicking on the \"Teeter Tunnel Recall Safety Information\" link at the bottom of the page.",
+          "metaDescription": "Playworld Systems recalls Unity Teeter Tunnels due to serious injury risks. Contact them for a free repair and safety information.",
+          "Products": [
+            {
+              "Name": "Unity Teeter Tunnels with Lexan Tops",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 329"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled Unity Teeter Tunnel with Lexan Top (first model)"
+            },
+            {
+              "Caption": "Recalled Unity Teeter Tunnel with Lexan Top (second model)"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "The firm has received two reports of children falling under the end of the seesaw plank of the recalled Unity Teeter Tunnels. One child sustained a liver laceration when the end of the seesaw plank landed on her abdomen and the second child suffered fractures to his right tibia and right fibula when the end of the seesaw plank landed on him."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Sold by Playworld Systems and authorized independent sales representatives across the U.S. from October 2014 to March 2025, priced between $13,450 and $13,600."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Playworld Systems Inc., of Lewisburg, Pennsylvania"
+            }
+          ],
+          "SoldAtLabel": "Sold At",
+          "ManufacturerCountries": [
+            {
+              "Country": "United States"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risk of serious injury and crush hazard if a child falls underneath the seesaw."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Immediately cease use of the recalled tunnels and contact Playworld Systems for a complimentary repair. A certified playground installer will be dispatched to fix the unit. Playworld Systems will reach out to all known purchasers and advise them to keep the tunnels out of service until repairs are finalized."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Repair"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "Playworld Systems recuerda los Túneles Teeter Unity debido a riesgos de lesiones graves y aplastamiento",
+          "Description": "Playworld Systems ha emitido un retiro de los Túneles Teeter Unity con tapas de Lexan, identificados por los números de parte ZZXX0182, ZZXX0182S, ZZXX0192 y ZZXX0192S. Estos columpios están diseñados para que múltiples niños participen en diversas actividades, incluyendo estar de pie, sentarse, acostarse y gatear a través de un túnel. Los números de parte se pueden encontrar en la orden de compra original y en las instrucciones de instalación.",
+          "ConsumerContact": "Para asistencia, comuníquese con Playworld Systems al 800-233-8404 de 8 a.m. a 4:30 p.m. ET, de lunes a viernes, por correo electrónico a recalls@playworld.com, o visite https://playworld.com/recall-information. Se pueden encontrar detalles adicionales en su sitio web haciendo clic en el enlace \"Información de Seguridad del Retiro del Túnel Teeter\" en la parte inferior de la página.",
+          "metaDescription": "Playworld Systems retira los Túneles Teeter Unity debido a riesgos de lesiones graves. Contáctelos para una reparación gratuita e información de seguridad.",
+          "Products": [
+            {
+              "Name": "Túneles Teeter Unity con tapas de Lexan",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 329"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Túnel Teeter Unity retirado con tapa de Lexan (primer modelo)"
+            },
+            {
+              "Caption": "Túnel Teeter Unity retirado con tapa de Lexan (segundo modelo)"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "La empresa ha recibido dos informes de niños cayendo debajo del extremo de la tabla del columpio de los Túneles Teeter Unity retirados. Un niño sufrió una laceración en el hígado cuando el extremo de la tabla del columpio cayó sobre su abdomen y el segundo niño sufrió fracturas en su tibia derecha y su fíbula derecha cuando el extremo de la tabla del columpio cayó sobre él."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Vendidos por Playworld Systems y representantes de ventas independientes autorizados en todo EE. UU. desde octubre de 2014 hasta marzo de 2025, con precios entre $13,450 y $13,600."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Playworld Systems Inc., de Lewisburg, Pennsylvania"
+            }
+          ],
+          "SoldAtLabel": "Vendidos En",
+          "ManufacturerCountries": [
+            {
+              "Country": "Estados Unidos"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Riesgo de lesiones graves y peligro de aplastamiento si un niño cae debajo del columpio."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Cese inmediatamente el uso de los túneles retirados y comuníquese con Playworld Systems para una reparación gratuita. Se enviará a un instalador de parques infantiles certificado para reparar la unidad. Playworld Systems se comunicará con todos los compradores conocidos y les aconsejará mantener los túneles fuera de servicio hasta que se finalicen las reparaciones."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparación"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "شركة بلاي وورلد تستدعي أنفاق يونيتي تيتر بسبب مخاطر الإصابة الخطيرة والضغط",
+          "Description": "أصدرت شركة بلاي وورلد استدعاءً لأنفاق يونيتي تيتر التي تحتوي على أسطح ليكسان، والتي تم تحديدها بأرقام الأجزاء ZZXX0182، ZZXX0182S، ZZXX0192، و ZZXX0192S. تم تصميم هذه الأرجوحات لتمكين عدة أطفال من المشاركة في أنشطة متنوعة، بما في ذلك الوقوف، الجلوس، الاستلقاء، والزحف عبر النفق. يمكن العثور على أرقام الأجزاء في طلب الشراء الأصلي وتعليمات التركيب.",
+          "ConsumerContact": "للحصول على المساعدة، اتصل بشركة بلاي وورلد على الرقم 800-233-8404 من الساعة 8 صباحًا حتى 4:30 مساءً بتوقيت شرق الولايات المتحدة، من الاثنين إلى الجمعة، عبر البريد الإلكتروني على recalls@playworld.com، أو زيارة https://playworld.com/recall-information. يمكن العثور على تفاصيل إضافية على موقعهم الإلكتروني من خلال النقر على رابط \"معلومات سلامة استدعاء نفق تيتر\" في أسفل الصفحة.",
+          "metaDescription": "تستدعي شركة بلاي وورلد أنفاق يونيتي تيتر بسبب مخاطر الإصابة الخطيرة. اتصل بهم للحصول على إصلاح مجاني ومعلومات السلامة.",
+          "Products": [
+            {
+              "Name": "أنفاق يونيتي تيتر مع أسطح ليكسان",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 329"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "نفق يونيتي تيتر المستدعى مع سطح ليكسان (النموذج الأول)"
+            },
+            {
+              "Caption": "نفق يونيتي تيتر المستدعى مع سطح ليكسان (النموذج الثاني)"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "تلقت الشركة تقارير عن طفلين سقطا تحت نهاية لوح الأرجوحة من أنفاق يونيتي تيتر المستدعاة. تعرض طفل واحد لتمزق في الكبد عندما هبطت نهاية لوح الأرجوحة على بطنها، بينما تعرض الطفل الثاني لكسور في الساق اليمنى والشظية اليمنى عندما هبطت نهاية لوح الأرجوحة عليه."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "تم بيعها من قبل شركة بلاي وورلد وممثلي المبيعات المستقلين المعتمدين في جميع أنحاء الولايات المتحدة من أكتوبر 2014 إلى مارس 2025، بسعر يتراوح بين 13,450 دولار و 13,600 دولار."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "شركة بلاي وورلد، لويسبورغ، بنسلفانيا"
+            }
+          ],
+          "SoldAtLabel": "تم البيع في",
+          "ManufacturerCountries": [
+            {
+              "Country": "الولايات المتحدة"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "خطر الإصابة الخطيرة ومخاطر الضغط إذا سقط طفل تحت الأرجوحة."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "توقف فورًا عن استخدام الأنفاق المستدعاة واتصل بشركة بلاي وورلد للحصول على إصلاح مجاني. سيتم إرسال مثبت ملعب معتمد لإصلاح الوحدة. ستتواصل شركة بلاي وورلد مع جميع المشترين المعروفين وتوجههم للحفاظ على الأنفاق خارج الخدمة حتى يتم الانتهاء من الإصلاحات."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "إصلاح"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "Playworld Systems召回Unity Teeter Tunnels因严重伤害和压伤危险",
+          "Description": "Playworld Systems已对带有Lexan顶部的Unity Teeter Tunnels发起召回，部件编号为ZZXX0182、ZZXX0182S、ZZXX0192和ZZXX0192S。这些秋千设计用于多个儿童参与各种活动，包括站立、坐下、躺下和爬过隧道。部件编号可以在原始购买订单和安装说明中找到。",
+          "ConsumerContact": "如需帮助，请联系Playworld Systems，电话800-233-8404，工作时间为东部时间周一至周五上午8点至下午4:30，或通过电子邮件联系recalls@playworld.com，或访问https://playworld.com/recall-information。有关更多详细信息，请访问他们的网站，点击页面底部的“Teeter Tunnel召回安全信息”链接。",
+          "metaDescription": "Playworld Systems因严重伤害风险召回Unity Teeter Tunnels。请联系他们以获取免费修理和安全信息。",
+          "Products": [
+            {
+              "Name": "带有Lexan顶部的Unity Teeter Tunnels",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约329"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "召回的带有Lexan顶部的Unity Teeter Tunnel（第一款型号）"
+            },
+            {
+              "Caption": "召回的带有Lexan顶部的Unity Teeter Tunnel（第二款型号）"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "该公司已收到两起儿童跌落在召回的Unity Teeter Tunnels的秋千板末端的报告。一名儿童在秋千板末端落在她的腹部时造成肝脏撕裂，第二名儿童在秋千板末端落在他身上时造成右胫骨和右腓骨骨折。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "由Playworld Systems及其在美国的授权独立销售代表销售，时间为2014年10月至2025年3月，价格在$13,450至$13,600之间。"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Playworld Systems Inc.，位于宾夕法尼亚州路易斯堡"
+            }
+          ],
+          "SoldAtLabel": "销售地点",
+          "ManufacturerCountries": [
+            {
+              "Country": "美国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "如果儿童跌落在秋千下方，存在严重伤害和压伤的风险。"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "立即停止使用召回的隧道，并联系Playworld Systems进行免费修理。将派遣认证的游乐场安装工来修理该设备。Playworld Systems将联系所有已知购买者，并建议他们在修理完成之前将隧道停止使用。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "修理"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "Playworld Systems rappelle les tunnels Teeter Unity en raison de risques de blessures graves et de risques d'écrasement",
+          "Description": "Playworld Systems a émis un rappel pour les tunnels Teeter Unity avec des dessus en Lexan, identifiés par les numéros de pièce ZZXX0182, ZZXX0182S, ZZXX0192 et ZZXX0192S. Ces balançoires sont conçues pour que plusieurs enfants participent à diverses activités, y compris se tenir debout, s'asseoir, s'allonger et ramper à travers un tunnel. Les numéros de pièce peuvent être trouvés sur le bon de commande d'origine et les instructions d'installation.",
+          "ConsumerContact": "Pour assistance, contactez Playworld Systems au 800-233-8404 de 8 h à 16 h 30 HNE, du lundi au vendredi, par e-mail à recalls@playworld.com, ou visitez https://playworld.com/recall-information. Des détails supplémentaires peuvent être trouvés sur leur site Web en cliquant sur le lien \"Informations de sécurité sur le rappel du tunnel Teeter\" en bas de la page.",
+          "metaDescription": "Playworld Systems rappelle les tunnels Teeter Unity en raison de risques de blessures graves. Contactez-les pour une réparation gratuite et des informations de sécurité.",
+          "Products": [
+            {
+              "Name": "Tunnels Teeter Unity avec dessus en Lexan",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 329"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Tunnel Teeter Unity rappelé avec dessus en Lexan (premier modèle)"
+            },
+            {
+              "Caption": "Tunnel Teeter Unity rappelé avec dessus en Lexan (deuxième modèle)"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "L'entreprise a reçu deux rapports d'enfants tombant sous l'extrémité de la planche de la balançoire des tunnels Teeter Unity rappelés. Un enfant a subi une lacération du foie lorsque l'extrémité de la planche de la balançoire est tombée sur son abdomen et le deuxième enfant a subi des fractures du tibia droit et de la fibula droite lorsque l'extrémité de la planche de la balançoire est tombée sur lui."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Vendu par Playworld Systems et des représentants de vente indépendants autorisés à travers les États-Unis d'octobre 2014 à mars 2025, au prix compris entre 13 450 $ et 13 600 $."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Playworld Systems Inc., de Lewisburg, Pennsylvanie"
+            }
+          ],
+          "SoldAtLabel": "Vendu À",
+          "ManufacturerCountries": [
+            {
+              "Country": "États-Unis"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risque de blessures graves et de risque d'écrasement si un enfant tombe sous la balançoire."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Cesser immédiatement l'utilisation des tunnels rappelés et contacter Playworld Systems pour une réparation gratuite. Un installateur de terrain de jeu certifié sera dépêché pour réparer l'unité. Playworld Systems contactera tous les acheteurs connus et leur conseillera de garder les tunnels hors service jusqu'à ce que les réparations soient finalisées."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Réparation"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "Playworld Systems ruft Unity Teeter Tunnels wegen schwerer Verletzungs- und Quetschgefahr zurück",
+          "Description": "Playworld Systems hat einen Rückruf für die Unity Teeter Tunnels mit Lexan-Oberteilen herausgegeben, die durch die Teilenummern ZZXX0182, ZZXX0182S, ZZXX0192 und ZZXX0192S identifiziert werden. Diese Wippen sind für mehrere Kinder konzipiert, um an verschiedenen Aktivitäten teilzunehmen, einschließlich Stehen, Sitzen, Liegen und Krabbeln durch einen Tunnel. Die Teilenummern sind auf der ursprünglichen Bestellung und den Installationsanweisungen zu finden.",
+          "ConsumerContact": "Für Unterstützung kontaktieren Sie Playworld Systems unter 800-233-8404 von 8:00 bis 16:30 Uhr ET, Montag bis Freitag, per E-Mail an recalls@playworld.com oder besuchen Sie https://playworld.com/recall-information. Weitere Details finden Sie auf ihrer Website, indem Sie auf den Link \"Teeter Tunnel Rückruf Sicherheitsinformationen\" am Ende der Seite klicken.",
+          "metaDescription": "Playworld Systems ruft Unity Teeter Tunnels wegen schwerer Verletzungsrisiken zurück. Kontaktieren Sie sie für eine kostenlose Reparatur und Sicherheitsinformationen.",
+          "Products": [
+            {
+              "Name": "Unity Teeter Tunnels mit Lexan-Oberteilen",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 329"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Rückgerufene Unity Teeter Tunnel mit Lexan-Oberteil (erstes Modell)"
+            },
+            {
+              "Caption": "Rückgerufene Unity Teeter Tunnel mit Lexan-Oberteil (zweites Modell)"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Das Unternehmen hat zwei Berichte über Kinder erhalten, die unter das Ende der Wippenplanke der zurückgerufenen Unity Teeter Tunnels gefallen sind. Ein Kind erlitt eine Leberlazierung, als das Ende der Wippenplanke auf ihren Bauch fiel, und das zweite Kind erlitt Frakturen an seinem rechten Schambein und rechten Wadenbein, als das Ende der Wippenplanke auf ihn fiel."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Verkauft von Playworld Systems und autorisierten unabhängigen Verkaufsvertretern in den USA von Oktober 2014 bis März 2025, zu Preisen zwischen 13.450 und 13.600 US-Dollar."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Playworld Systems Inc., aus Lewisburg, Pennsylvania"
+            }
+          ],
+          "SoldAtLabel": "Verkauft Bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "Vereinigte Staaten"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risiko schwerer Verletzungen und Quetschgefahr, wenn ein Kind unter die Wippe fällt."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Die Nutzung der zurückgerufenen Tunnel sofort einstellen und Playworld Systems für eine kostenlose Reparatur kontaktieren. Ein zertifizierter Spielplatzinstallateur wird entsandt, um die Einheit zu reparieren. Playworld Systems wird alle bekannten Käufer kontaktieren und sie anweisen, die Tunnel außer Betrieb zu halten, bis die Reparaturen abgeschlossen sind."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparatur"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "Playworld Systems、Unity Teeter Tunnelsを重大な怪我および圧迫の危険性によりリコール",
+          "Description": "Playworld Systemsは、部品番号ZZXX0182、ZZXX0182S、ZZXX0192、ZZXX0192Sで特定されたLexanトップを特徴とするUnity Teeter Tunnelsのリコールを発表しました。これらのシーソーは、複数の子供が立ったり、座ったり、横になったり、トンネルを這ったりするなどのさまざまな活動に参加するために設計されています。部品番号は、元の購入注文書および設置説明書に記載されています。",
+          "ConsumerContact": "サポートが必要な場合は、月曜日から金曜日の午前8時から午後4時30分（ET）まで、800-233-8404でPlayworld Systemsに連絡するか、recalls@playworld.comまでメールを送信するか、https://playworld.com/recall-informationを訪問してください。追加の詳細は、ページの下部にある「Teeter Tunnel Recall Safety Information」リンクをクリックすることで、彼らのウェブサイトで確認できます。",
+          "metaDescription": "Playworld Systemsは重大な怪我のリスクによりUnity Teeter Tunnelsをリコールします。無料の修理と安全情報についてお問い合わせください。",
+          "Products": [
+            {
+              "Name": "Lexanトップ付きUnity Teeter Tunnels",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約329"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコールされたLexanトップ付きUnity Teeter Tunnel（最初のモデル）"
+            },
+            {
+              "Caption": "リコールされたLexanトップ付きUnity Teeter Tunnel（第二のモデル）"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "この企業は、リコールされたUnity Teeter Tunnelsのシーソーの板の端の下に子供が落ちたという2件の報告を受けています。1人の子供は、シーソーの板の端が彼女の腹部に落ちた際に肝臓を切り裂かれ、もう1人の子供は、シーソーの板の端が彼の上に落ちた際に右脛骨と右腓骨を骨折しました。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "2014年10月から2025年3月まで、Playworld Systemsおよび米国全土の認定独立販売代理店によって販売され、価格は13,450ドルから13,600ドルの間です。"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "ペンシルベニア州ルイスバーグのPlayworld Systems Inc."
+            }
+          ],
+          "SoldAtLabel": "販売場所",
+          "ManufacturerCountries": [
+            {
+              "Country": "アメリカ合衆国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "子供がシーソーの下に落ちた場合、重大な怪我および圧迫の危険性があります。"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "リコールされたトンネルの使用を直ちに中止し、Playworld Systemsに連絡して無料の修理を受けてください。認定された遊び場の設置者がユニットを修理するために派遣されます。Playworld Systemsは、すべての既知の購入者に連絡し、修理が完了するまでトンネルを使用停止にするように指示します。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "修理"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "Playworld Systems faz recall dos Túneis Teeter Unity devido a riscos graves de lesão e esmagamento",
+          "Description": "A Playworld Systems emitiu um recall para os Túneis Teeter Unity com tampas de Lexan, identificados pelos números de peça ZZXX0182, ZZXX0182S, ZZXX0192 e ZZXX0192S. Esses balanços são projetados para várias crianças participarem de diversas atividades, incluindo ficar em pé, sentar, deitar e rastejar através de um túnel. Os números de peça podem ser encontrados na ordem de compra original e nas instruções de instalação.",
+          "ConsumerContact": "Para assistência, entre em contato com a Playworld Systems pelo telefone 800-233-8404 das 8h às 16h30 ET, de segunda a sexta-feira, pelo e-mail recalls@playworld.com, ou visite https://playworld.com/recall-information. Detalhes adicionais podem ser encontrados em seu site clicando no link \"Informações de Segurança do Recall do Túnel Teeter\" na parte inferior da página.",
+          "metaDescription": "A Playworld Systems faz recall dos Túneis Teeter Unity devido a riscos graves de lesão. Entre em contato com eles para um reparo gratuito e informações de segurança.",
+          "Products": [
+            {
+              "Name": "Túneis Teeter Unity com Tampas de Lexan",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 329"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Túnel Teeter Unity com Tampa de Lexan (primeiro modelo)"
+            },
+            {
+              "Caption": "Túnel Teeter Unity com Tampa de Lexan (segundo modelo)"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "A empresa recebeu dois relatos de crianças caindo sob a extremidade da prancha do balanço dos Túneis Teeter Unity recallados. Uma criança sofreu uma laceração no fígado quando a extremidade da prancha do balanço caiu em seu abdômen e a segunda criança sofreu fraturas na tíbia direita e na fíbula direita quando a extremidade da prancha do balanço caiu sobre ele."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Vendidos pela Playworld Systems e representantes de vendas independentes autorizados em todo os EUA de outubro de 2014 a março de 2025, com preços entre $13,450 e $13,600."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Playworld Systems Inc., de Lewisburg, Pennsylvania"
+            }
+          ],
+          "SoldAtLabel": "Vendidos Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "Estados Unidos"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risco de lesão grave e perigo de esmagamento se uma criança cair sob o balanço."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Cessar imediatamente o uso dos túneis recallados e entrar em contato com a Playworld Systems para um reparo gratuito. Um instalador de playground certificado será enviado para consertar a unidade. A Playworld Systems entrará em contato com todos os compradores conhecidos e os aconselhará a manter os túneis fora de serviço até que os reparos sejam finalizados."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparo"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "प्लेवर्ल्ड सिस्टम्स ने गंभीर चोट और कुचलने के खतरों के कारण यूनिटी टीटर टनल्स की रिकॉल की",
+          "Description": "प्लेवर्ल्ड सिस्टम्स ने लेक्सन टॉप्स वाले यूनिटी टीटर टनल्स की रिकॉल की है, जिन्हें भाग संख्या ZZXX0182, ZZXX0182S, ZZXX0192, और ZZXX0192S द्वारा पहचाना गया है। ये झूले कई बच्चों के लिए विभिन्न गतिविधियों में शामिल होने के लिए डिज़ाइन किए गए हैं, जिसमें खड़े होना, बैठना, लेटना और एक टनल के माध्यम से रेंगना शामिल है। भाग संख्याएँ मूल खरीद आदेश और स्थापना निर्देशों पर पाई जा सकती हैं।",
+          "ConsumerContact": "सहायता के लिए, 800-233-8404 पर सोमवार से शुक्रवार, सुबह 8 बजे से शाम 4:30 बजे ET तक प्लेवर्ल्ड सिस्टम्स से संपर्क करें, या recalls@playworld.com पर ईमेल करें, या https://playworld.com/recall-information पर जाएं। अतिरिक्त विवरण उनके वेबसाइट पर \"टीटर टनल रिकॉल सुरक्षा जानकारी\" लिंक पर क्लिक करके पाया जा सकता है।",
+          "metaDescription": "प्लेवर्ल्ड सिस्टम्स गंभीर चोट के जोखिमों के कारण यूनिटी टीटर टनल्स की रिकॉल करता है। मुफ्त मरम्मत और सुरक्षा जानकारी के लिए उनसे संपर्क करें।",
+          "Products": [
+            {
+              "Name": "लेक्सन टॉप्स वाले यूनिटी टीटर टनल्स",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 329"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "रिकॉल किया गया यूनिटी टीटर टनल लेक्सन टॉप के साथ (पहला मॉडल)"
+            },
+            {
+              "Caption": "रिकॉल किया गया यूनिटी टीटर टनल लेक्सन टॉप के साथ (दूसरा मॉडल)"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "कंपनी को रिकॉल किए गए यूनिटी टीटर टनल्स के झूले की तख्ती के अंत के नीचे गिरने वाले बच्चों के दो रिपोर्ट मिले हैं। एक बच्चे को तब जिगर में चोट लगी जब झूले की तख्ती का अंत उसके पेट पर गिरा और दूसरे बच्चे को तब उसके दाहिने टिबिया और दाहिने फिबुला में फ्रैक्चर हुआ जब झूले की तख्ती का अंत उस पर गिरा।"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "प्लेवर्ल्ड सिस्टम्स और अमेरिका भर में अधिकृत स्वतंत्र बिक्री प्रतिनिधियों द्वारा अक्टूबर 2014 से मार्च 2025 तक बेचा गया, कीमत $13,450 से $13,600 के बीच।"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "प्लेवर्ल्ड सिस्टम्स इंक., लुईसबर्ग, पेंसिल्वेनिया"
+            }
+          ],
+          "SoldAtLabel": "बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "संयुक्त राज्य अमेरिका"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "यदि कोई बच्चा झूले के नीचे गिरता है तो गंभीर चोट और कुचलने का खतरा।"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "रिकॉल किए गए टनल्स का उपयोग तुरंत बंद करें और प्लेवर्ल्ड सिस्टम्स से मुफ्त मरम्मत के लिए संपर्क करें। एक प्रमाणित खेल का मैदान स्थापित करने वाला व्यक्ति यूनिट को ठीक करने के लिए भेजा जाएगा। प्लेवर्ल्ड सिस्टम्स सभी ज्ञात खरीदारों से संपर्क करेगा और उन्हें सलाह देगा कि मरम्मत पूरी होने तक टनल्स को सेवा से बाहर रखें।"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "मरम्मत"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "Playworld Systems отзывает Unity Teeter Tunnels из-за серьезных травм и опасностей зажатия",
+          "Description": "Playworld Systems объявила об отзыве Unity Teeter Tunnels с крышками из Лексана, идентифицируемыми по номерам деталей ZZXX0182, ZZXX0182S, ZZXX0192 и ZZXX0192S. Эти качели предназначены для нескольких детей, которые могут заниматься различными активностями, включая стояние, сидение, лежание и ползание через туннель. Номера деталей можно найти в оригинальном заказе на покупку и инструкциях по установке.",
+          "ConsumerContact": "Для получения помощи свяжитесь с Playworld Systems по телефону 800-233-8404 с 8:00 до 16:30 по восточному времени, с понедельника по пятницу, по электронной почте по адресу recalls@playworld.com или посетите https://playworld.com/recall-information. Дополнительные детали можно найти на их сайте, нажав на ссылку \"Информация о безопасности отзыва Teeter Tunnel\" внизу страницы.",
+          "metaDescription": "Playworld Systems отзывает Unity Teeter Tunnels из-за серьезных рисков травм. Свяжитесь с ними для бесплатного ремонта и информации о безопасности.",
+          "Products": [
+            {
+              "Name": "Unity Teeter Tunnels с крышками из Лексана",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 329"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванный Unity Teeter Tunnel с крышкой из Лексана (первая модель)"
+            },
+            {
+              "Caption": "Отозванный Unity Teeter Tunnel с крышкой из Лексана (вторая модель)"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Компания получила два сообщения о том, что дети падали под конец доски качелей отозванных Unity Teeter Tunnels. Один ребенок получил разрыв печени, когда конец доски качелей приземлился на ее живот, а второй ребенок получил переломы правой большеберцовой и малоберцовой костей, когда конец доски качелей приземлился на него."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Продается Playworld Systems и уполномоченными независимыми торговыми представителями по всей территории США с октября 2014 года по март 2025 года, по цене от 13 450 до 13 600 долларов."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Playworld Systems Inc., Льюисбург, Пенсильвания"
+            }
+          ],
+          "SoldAtLabel": "Продается в",
+          "ManufacturerCountries": [
+            {
+              "Country": "Соединенные Штаты"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Риск серьезной травмы и опасность зажатия, если ребенок упадет под качели."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Немедленно прекратите использование отозванных туннелей и свяжитесь с Playworld Systems для бесплатного ремонта. Квалифицированный установщик игровых площадок будет направлен для ремонта устройства. Playworld Systems свяжется со всеми известными покупателями и посоветует им не использовать туннели до завершения ремонта."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Ремонт"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "Playworld Systems thu hồi Unity Teeter Tunnels do nguy cơ gây thương tích nghiêm trọng và nguy hiểm bị đè bẹp",
+          "Description": "Playworld Systems đã phát động một đợt thu hồi đối với Unity Teeter Tunnels có nắp Lexan, được xác định bằng các số bộ phận ZZXX0182, ZZXX0182S, ZZXX0192 và ZZXX0192S. Những chiếc bập bênh này được thiết kế cho nhiều trẻ em tham gia vào các hoạt động khác nhau, bao gồm đứng, ngồi, nằm và bò qua một đường hầm. Các số bộ phận có thể được tìm thấy trên đơn đặt hàng mua ban đầu và hướng dẫn lắp đặt.",
+          "ConsumerContact": "Để được hỗ trợ, hãy liên hệ với Playworld Systems theo số 800-233-8404 từ 8 giờ sáng đến 4:30 chiều ET, từ thứ Hai đến thứ Sáu, qua email tại recalls@playworld.com, hoặc truy cập https://playworld.com/recall-information. Thông tin chi tiết bổ sung có thể được tìm thấy trên trang web của họ bằng cách nhấp vào liên kết \"Thông tin An toàn Thu hồi Teeter Tunnel\" ở cuối trang.",
+          "metaDescription": "Playworld Systems thu hồi Unity Teeter Tunnels do nguy cơ gây thương tích nghiêm trọng. Liên hệ với họ để được sửa chữa miễn phí và thông tin an toàn.",
+          "Products": [
+            {
+              "Name": "Unity Teeter Tunnels với Nắp Lexan",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 329"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Unity Teeter Tunnel bị thu hồi với Nắp Lexan (mô hình đầu tiên)"
+            },
+            {
+              "Caption": "Unity Teeter Tunnel bị thu hồi với Nắp Lexan (mô hình thứ hai)"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Công ty đã nhận được hai báo cáo về trẻ em bị ngã dưới đầu của tấm bập bênh của Unity Teeter Tunnels bị thu hồi. Một trẻ em đã bị rách gan khi đầu của tấm bập bênh rơi xuống bụng của em và trẻ em thứ hai bị gãy xương ống chân phải và xương mác phải khi đầu của tấm bập bênh rơi xuống em."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Được bán bởi Playworld Systems và các đại diện bán hàng độc lập được ủy quyền trên toàn nước Mỹ từ tháng 10 năm 2014 đến tháng 3 năm 2025, với giá từ 13.450 đến 13.600 đô la."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Playworld Systems Inc., tại Lewisburg, Pennsylvania"
+            }
+          ],
+          "SoldAtLabel": "Bán Tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Hoa Kỳ"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Nguy cơ gây thương tích nghiêm trọng và nguy hiểm bị đè bẹp nếu một trẻ em ngã xuống dưới chiếc bập bênh."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Ngừng ngay việc sử dụng các đường hầm bị thu hồi và liên hệ với Playworld Systems để được sửa chữa miễn phí. Một kỹ thuật viên lắp đặt sân chơi được chứng nhận sẽ được cử đến để sửa chữa thiết bị. Playworld Systems sẽ liên hệ với tất cả những người mua đã biết và khuyên họ giữ các đường hầm ngoài dịch vụ cho đến khi việc sửa chữa hoàn tất."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Sửa chữa"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    },
+    {
+      "RecallID": 10119,
+      "RecallNumber": "25080",
+      "RecallDate": "2024-12-26T00:00:00",
+      "Description": "BCI Burke has issued a recall for the Inclusive Orbit, a spinning playground component resembling a merry-go-round. Designed to accommodate six children, this equipment features three handrails and a platform that is level with the ground. The recalled model numbers are 560-0042 and 560-0051. Owners should verify their units with BCI Burke to ensure safety.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/BCI-Burke-Recalls-Playground-Merry-Go-Rounds-Due-to-Crush-Hazard",
+      "Title": "BCI Burke Recalls Inclusive Orbit Playground Merry-Go-Rounds Due to Crush Risk",
+      "ConsumerContact": "For assistance, contact BCI Burke Company at 800-266-1250 from 7:30 a.m. to 4:30 p.m. CT, Monday through Friday. You can also email orbit@bciburke.com or visit https://www.bciburke.com/recall for more details.",
+      "LastPublishDate": "2024-12-26T00:00:00",
+      "Products": [
+        {
+          "Name": "Inclusive Orbit merry-go-round",
+          "NumberOfUnits": "About 415 (In addition, about 6 were sold in Canada)"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/playground-equipment/3-Inclusive-Orbit-merry-go-round/9cae1717a0ca18ce16f274ae9b69cc69.webp",
+          "Caption": "Recalled Inclusive Orbit merry-go-round",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/inclusive-orbit.JPG"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received reports of two incidents of fingers getting trapped in the gap between the rotating platform and the outer rim, resulting in two finger crushing injuries."
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "Playdale Playgrounds LTD, of United Kingdom"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Directly sold through factory representatives to municipalities, schools, and churches from April 2019 through October 2024, priced between $11,900 and $14,550."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "BCI Burke Company Inc., of Fond Du Lac, Wisconsin"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "United Kingdom"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Crush hazard due to gap between rotating platform and stationary rim"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Stop using the merry-go-rounds immediately and reach out to the equipment owner, like a park director or school principal, to check if the unit has been inspected and repaired. Contact BCI Burke to arrange an inspection and receive free onsite repairs."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "560-0042",
+        "560-0051"
+      ],
+      "slug": "bci-burke-recalls-inclusive-orbit-playground-merry-go-rounds-due-to-crush-risk-recall",
+      "metaDescription": "BCI Burke recalls Inclusive Orbit merry-go-rounds due to a crush hazard. Check your equipment and contact BCI Burke for safety inspections.",
+      "languages": {
+        "en": {
+          "Title": "BCI Burke Recalls Inclusive Orbit Playground Merry-Go-Rounds Due to Crush Risk",
+          "Description": "BCI Burke has issued a recall for the Inclusive Orbit, a spinning playground component resembling a merry-go-round. Designed to accommodate six children, this equipment features three handrails and a platform that is level with the ground. The recalled model numbers are 560-0042 and 560-0051. Owners should verify their units with BCI Burke to ensure safety.",
+          "ConsumerContact": "For assistance, contact BCI Burke Company at 800-266-1250 from 7:30 a.m. to 4:30 p.m. CT, Monday through Friday. You can also email orbit@bciburke.com or visit https://www.bciburke.com/recall for more details.",
+          "metaDescription": "BCI Burke recalls Inclusive Orbit merry-go-rounds due to a crush hazard. Check your equipment and contact BCI Burke for safety inspections.",
+          "Products": [
+            {
+              "Name": "Inclusive Orbit merry-go-round",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 415 (In addition, about 6 were sold in Canada)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled Inclusive Orbit merry-go-round"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "The firm has received reports of two incidents of fingers getting trapped in the gap between the rotating platform and the outer rim, resulting in two finger crushing injuries."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Directly sold through factory representatives to municipalities, schools, and churches from April 2019 through October 2024, priced between $11,900 and $14,550."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "BCI Burke Company Inc., of Fond Du Lac, Wisconsin"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Playdale Playgrounds LTD, of United Kingdom"
+            }
+          ],
+          "SoldAtLabel": "Sold At",
+          "ManufacturerCountries": [
+            {
+              "Country": "United Kingdom"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Crush hazard due to gap between rotating platform and stationary rim"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Stop using the merry-go-rounds immediately and reach out to the equipment owner, like a park director or school principal, to check if the unit has been inspected and repaired. Contact BCI Burke to arrange an inspection and receive free onsite repairs."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Repair"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "BCI Burke Retira los Carruseles Inclusivos Orbit del Parque Infantil Debido al Riesgo de Aplastamiento",
+          "Description": "BCI Burke ha emitido un retiro para el Orbit Inclusivo, un componente giratorio del parque infantil que se asemeja a un carrusel. Diseñado para acomodar a seis niños, este equipo cuenta con tres pasamanos y una plataforma que está al nivel del suelo. Los números de modelo retirados son 560-0042 y 560-0051. Los propietarios deben verificar sus unidades con BCI Burke para garantizar la seguridad.",
+          "ConsumerContact": "Para asistencia, comuníquese con BCI Burke Company al 800-266-1250 de 7:30 a.m. a 4:30 p.m. CT, de lunes a viernes. También puede enviar un correo electrónico a orbit@bciburke.com o visitar https://www.bciburke.com/recall para más detalles.",
+          "metaDescription": "BCI Burke retira los carruseles Inclusivos Orbit debido a un riesgo de aplastamiento. Verifique su equipo y comuníquese con BCI Burke para inspecciones de seguridad.",
+          "Products": [
+            {
+              "Name": "carrusel Inclusivo Orbit",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 415 (Además, se vendieron aproximadamente 6 en Canadá)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Carrusel Inclusivo Orbit retirado"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "La empresa ha recibido informes de dos incidentes de dedos atrapados en el espacio entre la plataforma giratoria y el borde exterior, lo que resultó en dos lesiones por aplastamiento de dedos."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Vendidos directamente a través de representantes de fábrica a municipios, escuelas e iglesias desde abril de 2019 hasta octubre de 2024, con precios entre $11,900 y $14,550."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "BCI Burke Company Inc., de Fond Du Lac, Wisconsin"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Playdale Playgrounds LTD, del Reino Unido"
+            }
+          ],
+          "SoldAtLabel": "Vendidos En",
+          "ManufacturerCountries": [
+            {
+              "Country": "Reino Unido"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Riesgo de aplastamiento debido al espacio entre la plataforma giratoria y el borde estacionario"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Deje de usar los carruseles de inmediato y comuníquese con el propietario del equipo, como un director de parque o un director de escuela, para verificar si la unidad ha sido inspeccionada y reparada. Comuníquese con BCI Burke para organizar una inspección y recibir reparaciones gratuitas en el sitio."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparar"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "استدعاء BCI Burke لدورات Merry-Go-Round في ملعب Inclusive Orbit بسبب خطر السحق",
+          "Description": "أصدرت BCI Burke استدعاءً لدورة Merry-Go-Round في ملعب Inclusive Orbit، وهي مكون دوار يشبه دورة merry-go-round. تم تصميمها لاستيعاب ستة أطفال، وتتميز هذه المعدات بثلاثة درابزين ومنصة مستوية مع الأرض. أرقام الطراز المستدعاة هي 560-0042 و 560-0051. يجب على المالكين التحقق من وحداتهم مع BCI Burke لضمان السلامة.",
+          "ConsumerContact": "للمساعدة، اتصل بشركة BCI Burke على الرقم 800-266-1250 من الساعة 7:30 صباحًا حتى 4:30 مساءً بتوقيت وسط الولايات المتحدة، من الاثنين إلى الجمعة. يمكنك أيضًا إرسال بريد إلكتروني إلى orbit@bciburke.com أو زيارة https://www.bciburke.com/recall لمزيد من التفاصيل.",
+          "metaDescription": "استدعاء BCI Burke لدورات merry-go-round في Inclusive Orbit بسبب خطر السحق. تحقق من معداتك واتصل بـ BCI Burke لإجراء فحوصات السلامة.",
+          "Products": [
+            {
+              "Name": "دورة merry-go-round في Inclusive Orbit",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 415 (بالإضافة إلى ذلك، تم بيع حوالي 6 في كندا)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "دورة merry-go-round في Inclusive Orbit المستدعاة"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "تلقت الشركة تقارير عن حادثتين تم فيهما احتجاز أصابع في الفجوة بين المنصة الدوارة والحافة الثابتة، مما أدى إلى إصابتين بسحق الأصابع."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "تم البيع مباشرة من خلال ممثلي المصنع للبلديات والمدارس والكنائس من أبريل 2019 حتى أكتوبر 2024، بأسعار تتراوح بين 11,900 دولار و 14,550 دولار."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "شركة BCI Burke Inc.، من Fond Du Lac، ويسكونسن"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Playdale Playgrounds LTD، من المملكة المتحدة"
+            }
+          ],
+          "SoldAtLabel": "تم البيع في",
+          "ManufacturerCountries": [
+            {
+              "Country": "المملكة المتحدة"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "خطر السحق بسبب الفجوة بين المنصة الدوارة والحافة الثابتة"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "توقف عن استخدام دورات merry-go-round على الفور وتواصل مع مالك المعدات، مثل مدير الحديقة أو مدير المدرسة، للتحقق مما إذا كانت الوحدة قد تم فحصها وإصلاحها. اتصل بـ BCI Burke لترتيب فحص وتلقي إصلاحات مجانية في الموقع."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "إصلاح"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "BCI Burke召回包容性轨道游乐场旋转木马因压伤风险",
+          "Description": "BCI Burke已对包容性轨道进行召回，这是一种类似旋转木马的旋转游乐场组件。该设备设计可容纳六名儿童，配有三个扶手和一个与地面平齐的平台。被召回的型号为560-0042和560-0051。所有者应与BCI Burke核实其设备以确保安全。",
+          "ConsumerContact": "如需帮助，请在周一至周五的中部时间上午7:30至下午4:30拨打800-266-1250联系BCI Burke公司。您也可以发送电子邮件至orbit@bciburke.com或访问https://www.bciburke.com/recall以获取更多详细信息。",
+          "metaDescription": "BCI Burke因压伤危险召回包容性轨道旋转木马。检查您的设备并联系BCI Burke进行安全检查。",
+          "Products": [
+            {
+              "Name": "包容性轨道旋转木马",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约415个（此外，约有6个在加拿大销售）"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "被召回的包容性轨道旋转木马"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "该公司已收到两起手指被困在旋转平台与外缘之间缝隙中的事件报告，导致两起手指压伤事故。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "通过工厂代表直接销售给市政当局、学校和教堂，销售时间为2019年4月至2024年10月，价格在$11,900到$14,550之间。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "位于威斯康星州Fond Du Lac的BCI Burke Company Inc."
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "位于英国的Playdale Playgrounds LTD"
+            }
+          ],
+          "SoldAtLabel": "销售地点",
+          "ManufacturerCountries": [
+            {
+              "Country": "英国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "由于旋转平台与固定边缘之间的缝隙造成的压伤危险"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "立即停止使用旋转木马，并联系设备所有者，如公园主任或学校校长，检查该设备是否已被检查和修理。联系BCI Burke安排检查并获得免费的现场维修。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "修理"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "BCI Burke rappelle les manèges Inclusifs Orbit en raison d'un risque d'écrasement",
+          "Description": "BCI Burke a émis un rappel pour l'Inclusive Orbit, un composant de terrain de jeu tournant ressemblant à un manège. Conçu pour accueillir six enfants, cet équipement dispose de trois rampes et d'une plateforme au niveau du sol. Les numéros de modèle rappelés sont 560-0042 et 560-0051. Les propriétaires doivent vérifier leurs unités auprès de BCI Burke pour garantir la sécurité.",
+          "ConsumerContact": "Pour assistance, contactez BCI Burke Company au 800-266-1250 de 7h30 à 16h30 CT, du lundi au vendredi. Vous pouvez également envoyer un e-mail à orbit@bciburke.com ou visiter https://www.bciburke.com/recall pour plus de détails.",
+          "metaDescription": "BCI Burke rappelle les manèges Inclusifs Orbit en raison d'un risque d'écrasement. Vérifiez votre équipement et contactez BCI Burke pour des inspections de sécurité.",
+          "Products": [
+            {
+              "Name": "manège Inclusif Orbit",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 415 (De plus, environ 6 ont été vendus au Canada)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Manège Inclusif Orbit rappelé"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "L'entreprise a reçu des rapports de deux incidents où des doigts se sont retrouvés coincés dans l'espace entre la plateforme tournante et le bord fixe, entraînant deux blessures par écrasement des doigts."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Vendu directement par des représentants de l'usine aux municipalités, écoles et églises d'avril 2019 à octobre 2024, au prix compris entre 11 900 $ et 14 550 $."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "BCI Burke Company Inc., de Fond Du Lac, Wisconsin"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Playdale Playgrounds LTD, du Royaume-Uni"
+            }
+          ],
+          "SoldAtLabel": "Vendu À",
+          "ManufacturerCountries": [
+            {
+              "Country": "Royaume-Uni"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risque d'écrasement en raison de l'espace entre la plateforme tournante et le bord fixe"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Cessez d'utiliser les manèges immédiatement et contactez le propriétaire de l'équipement, comme un directeur de parc ou un principal d'école, pour vérifier si l'unité a été inspectée et réparée. Contactez BCI Burke pour organiser une inspection et recevoir des réparations gratuites sur site."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Réparation"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "BCI Burke ruft inklusive Orbit-Spielplatz-Wirbelwinde aufgrund von Quetschgefahr zurück",
+          "Description": "BCI Burke hat einen Rückruf für den Inclusive Orbit, ein drehendes Spielplatzkomponente, die einem Karussell ähnelt, herausgegeben. Entwickelt für sechs Kinder, verfügt dieses Gerät über drei Handläufe und eine Plattform, die mit dem Boden eben ist. Die zurückgerufenen Modellnummern sind 560-0042 und 560-0051. Besitzer sollten ihre Geräte bei BCI Burke überprüfen, um die Sicherheit zu gewährleisten.",
+          "ConsumerContact": "Für Unterstützung kontaktieren Sie die BCI Burke Company unter 800-266-1250 von 7:30 bis 16:30 Uhr CT, Montag bis Freitag. Sie können auch eine E-Mail an orbit@bciburke.com senden oder https://www.bciburke.com/recall besuchen, um weitere Details zu erhalten.",
+          "metaDescription": "BCI Burke ruft inklusive Orbit-Karussells aufgrund einer Quetschgefahr zurück. Überprüfen Sie Ihre Ausrüstung und kontaktieren Sie BCI Burke für Sicherheitsinspektionen.",
+          "Products": [
+            {
+              "Name": "Inklusives Orbit-Karussell",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 415 (Zusätzlich wurden etwa 6 in Kanada verkauft)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Zurückgerufenes inklusives Orbit-Karussell"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Das Unternehmen hat Berichte über zwei Vorfälle erhalten, bei denen Finger in der Lücke zwischen der drehenden Plattform und dem äußeren Rand eingeklemmt wurden, was zu zwei Quetschverletzungen der Finger führte."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Direkt über Werksvertreter an Gemeinden, Schulen und Kirchen von April 2019 bis Oktober 2024 verkauft, zu Preisen zwischen 11.900 und 14.550 US-Dollar."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "BCI Burke Company Inc., Fond Du Lac, Wisconsin"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Playdale Playgrounds LTD, Vereinigtes Königreich"
+            }
+          ],
+          "SoldAtLabel": "Verkauft Bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "Vereinigtes Königreich"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Quetschgefahr aufgrund der Lücke zwischen der drehenden Plattform und dem stationären Rand"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Hören Sie sofort auf, die Karussells zu benutzen, und wenden Sie sich an den Gerätebesitzer, wie einen Parkdirektor oder Schulleiter, um zu überprüfen, ob das Gerät inspiziert und repariert wurde. Kontaktieren Sie BCI Burke, um eine Inspektion zu vereinbaren und kostenlose Reparaturen vor Ort zu erhalten."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparatur"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "BCI Burkeが圧迫リスクのためインクルーシブオービット遊具メリーゴーラウンドをリコール",
+          "Description": "BCI Burkeは、メリーゴーラウンドに似た回転遊具コンポーネントであるインクルーシブオービットのリコールを発表しました。この設備は6人の子供を収容できるように設計されており、3つの手すりと地面と水平なプラットフォームを備えています。リコール対象のモデル番号は560-0042と560-0051です。所有者は安全を確保するためにBCI Burkeに自分のユニットを確認する必要があります。",
+          "ConsumerContact": "サポートが必要な場合は、月曜日から金曜日の午前7時30分から午後4時30分CTまで、BCI Burke Companyに800-266-1250でお問い合わせください。また、orbit@bciburke.comにメールを送信するか、詳細についてはhttps://www.bciburke.com/recallを訪問してください。",
+          "metaDescription": "BCI Burkeは圧迫の危険性のためインクルーシブオービットメリーゴーラウンドをリコールします。設備を確認し、安全点検のためにBCI Burkeに連絡してください。",
+          "Products": [
+            {
+              "Name": "インクルーシブオービットメリーゴーラウンド",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約415台（さらに、約6台がカナダで販売されました）"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコールされたインクルーシブオービットメリーゴーラウンド"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "同社は、回転プラットフォームと外周の間の隙間に指が挟まる2件の事故の報告を受けており、2件の指の圧迫傷害が発生しています。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "2019年4月から2024年10月まで、工場の代表者を通じて地方自治体、学校、教会に直接販売され、価格は$11,900から$14,550の間です。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "ウィスコンシン州フォンドデュラックのBCI Burke Company Inc."
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "イギリスのPlaydale Playgrounds LTD"
+            }
+          ],
+          "SoldAtLabel": "販売場所",
+          "ManufacturerCountries": [
+            {
+              "Country": "イギリス"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "回転プラットフォームと固定リムの間の隙間による圧迫の危険"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "メリーゴーラウンドの使用を直ちに中止し、設備の所有者（公園のディレクターや学校の校長など）に連絡して、ユニットが点検および修理されているか確認してください。BCI Burkeに連絡して点検を手配し、無料の現地修理を受けてください。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "修理"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "BCI Burke Recall de Carrosséis Inclusivos Orbit devido ao Risco de Esmagamento",
+          "Description": "A BCI Burke emitiu um recall para o Orbit Inclusivo, um componente giratório de playground que se assemelha a um carrossel. Projetado para acomodar seis crianças, este equipamento possui três corrimãos e uma plataforma que está nivelada com o chão. Os números dos modelos recallados são 560-0042 e 560-0051. Os proprietários devem verificar suas unidades com a BCI Burke para garantir a segurança.",
+          "ConsumerContact": "Para assistência, entre em contato com a BCI Burke Company pelo telefone 800-266-1250 das 7:30 às 16:30 CT, de segunda a sexta-feira. Você também pode enviar um e-mail para orbit@bciburke.com ou visitar https://www.bciburke.com/recall para mais detalhes.",
+          "metaDescription": "BCI Burke recall de carrosséis Inclusivos Orbit devido a um risco de esmagamento. Verifique seu equipamento e entre em contato com a BCI Burke para inspeções de segurança.",
+          "Products": [
+            {
+              "Name": "Carrossel Inclusivo Orbit",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 415 (Além disso, cerca de 6 foram vendidos no Canadá)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Carrossel Inclusivo Orbit recallado"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "A empresa recebeu relatos de dois incidentes de dedos ficando presos na abertura entre a plataforma giratória e a borda externa, resultando em duas lesões por esmagamento de dedos."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Vendido diretamente através de representantes da fábrica para municípios, escolas e igrejas de abril de 2019 a outubro de 2024, com preços entre $11,900 e $14,550."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "BCI Burke Company Inc., de Fond Du Lac, Wisconsin"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Playdale Playgrounds LTD, do Reino Unido"
+            }
+          ],
+          "SoldAtLabel": "Vendidos Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "Reino Unido"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risco de esmagamento devido à abertura entre a plataforma giratória e a borda estacionária"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Pare de usar os carrosséis imediatamente e entre em contato com o proprietário do equipamento, como um diretor de parque ou diretor de escola, para verificar se a unidade foi inspecionada e reparada. Entre em contato com a BCI Burke para agendar uma inspeção e receber reparos gratuitos no local."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparo"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "बीसीआई बर्क ने क्रश जोखिम के कारण इनक्लूसिव ऑर्बिट प्लेग्राउंड मैरी-गो-राउंड्स की रिकॉल की",
+          "Description": "बीसीआई बर्क ने इनक्लूसिव ऑर्बिट के लिए एक रिकॉल जारी किया है, जो एक घूर्णन करने वाला खेल का घटक है जो मैरी-गो-राउंड जैसा दिखता है। इसे छह बच्चों के लिए डिज़ाइन किया गया है, इस उपकरण में तीन हैंडरेल और एक प्लेटफ़ॉर्म है जो ज़मीन के स्तर पर है। रिकॉल किए गए मॉडल नंबर 560-0042 और 560-0051 हैं। मालिकों को सुरक्षा सुनिश्चित करने के लिए बीसीआई बर्क के साथ अपने यूनिट की पुष्टि करनी चाहिए।",
+          "ConsumerContact": "सहायता के लिए, बीसीआई बर्क कंपनी से 800-266-1250 पर संपर्क करें, सुबह 7:30 बजे से शाम 4:30 बजे सीटी, सोमवार से शुक्रवार। आप orbit@bciburke.com पर भी ईमेल कर सकते हैं या अधिक विवरण के लिए https://www.bciburke.com/recall पर जा सकते हैं।",
+          "metaDescription": "बीसीआई बर्क ने क्रश खतरे के कारण इनक्लूसिव ऑर्बिट मैरी-गो-राउंड्स की रिकॉल की। अपने उपकरण की जांच करें और सुरक्षा निरीक्षण के लिए बीसीआई बर्क से संपर्क करें।",
+          "Products": [
+            {
+              "Name": "इनक्लूसिव ऑर्बिट मैरी-गो-राउंड",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 415 (इसके अतिरिक्त, लगभग 6 कनाडा में बेचे गए)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "रिकॉल किया गया इनक्लूसिव ऑर्बिट मैरी-गो-राउंड"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "कंपनी को दो घटनाओं की रिपोर्ट मिली है जिसमें उंगलियाँ घूमते प्लेटफ़ॉर्म और बाहरी किनारे के बीच के गैप में फंस गईं, जिससे दो उंगली क्रशिंग चोटें हुईं।"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "अप्रैल 2019 से अक्टूबर 2024 तक नगरपालिका, स्कूलों और चर्चों के लिए फैक्ट्री प्रतिनिधियों के माध्यम से सीधे बेचा गया, कीमत $11,900 से $14,550 के बीच।"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "बीसीआई बर्क कंपनी इंक., फोंड डु लैक, विस्कॉन्सिन"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "प्ले डेल प्लेग्राउंड्स लिमिटेड, यूनाइटेड किंगडम"
+            }
+          ],
+          "SoldAtLabel": "बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "यूनाइटेड किंगडम"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "घूमते प्लेटफ़ॉर्म और स्थिर किनारे के बीच गैप के कारण क्रश खतरा"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "मैरी-गो-राउंड्स का उपयोग तुरंत बंद करें और उपकरण के मालिक, जैसे पार्क निदेशक या स्कूल के प्रिंसिपल से संपर्क करें, यह जांचने के लिए कि क्या यूनिट का निरीक्षण और मरम्मत की गई है। निरीक्षण की व्यवस्था करने और मुफ्त ऑनसाइट मरम्मत प्राप्त करने के लिए बीसीआई बर्क से संपर्क करें।"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "मरम्मत"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "BCI Burke отзывает инклюзивные карусели для площадок Orbit из-за риска зажатия",
+          "Description": "BCI Burke объявила об отзыве инклюзивной карусели Orbit, вращающегося элемента площадки, напоминающего карусель. Разработанное для размещения шести детей, это оборудование имеет три поручня и платформу, которая находится на уровне земли. Отозванные модели имеют номера 560-0042 и 560-0051. Владельцы должны проверить свои устройства с BCI Burke для обеспечения безопасности.",
+          "ConsumerContact": "Для получения помощи свяжитесь с компанией BCI Burke по телефону 800-266-1250 с 7:30 до 16:30 по центральному времени, с понедельника по пятницу. Вы также можете отправить электронное письмо на адрес orbit@bciburke.com или посетить https://www.bciburke.com/recall для получения дополнительной информации.",
+          "metaDescription": "BCI Burke отзывает карусели инклюзивного Orbit из-за риска зажатия. Проверьте ваше оборудование и свяжитесь с BCI Burke для проверки безопасности.",
+          "Products": [
+            {
+              "Name": "Карусель инклюзивного Orbit",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 415 (Кроме того, около 6 были проданы в Канаде)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванная карусель инклюзивного Orbit"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Компания получила сообщения о двух инцидентах, когда пальцы застревали в зазоре между вращающейся платформой и наружным ободом, что привело к двум травмам пальцев."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Продавались напрямую через представителей фабрики муниципалитетам, школам и церквям с апреля 2019 года по октябрь 2024 года, по цене от 11,900 до 14,550 долларов."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Компания BCI Burke Inc., Фонд Дю Лак, Висконсин"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Playdale Playgrounds LTD, Великобритания"
+            }
+          ],
+          "SoldAtLabel": "Продавалось в",
+          "ManufacturerCountries": [
+            {
+              "Country": "Великобритания"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Риск зажатия из-за зазора между вращающейся платформой и неподвижным ободом"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Немедленно прекратите использование каруселей и свяжитесь с владельцем оборудования, например, директором парка или школьным директором, чтобы проверить, было ли устройство проверено и отремонтировано. Свяжитесь с BCI Burke, чтобы организовать проверку и получить бесплатный ремонт на месте."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Ремонт"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "BCI Burke thu hồi các vòng xoay sân chơi Inclusive Orbit do nguy cơ bị kẹp",
+          "Description": "BCI Burke đã phát động một đợt thu hồi đối với sản phẩm Inclusive Orbit, một thành phần sân chơi xoay tròn giống như vòng xoay. Được thiết kế để chứa sáu trẻ em, thiết bị này có ba tay vịn và một nền tảng ngang bằng với mặt đất. Các số hiệu mẫu bị thu hồi là 560-0042 và 560-0051. Chủ sở hữu nên xác minh các đơn vị của họ với BCI Burke để đảm bảo an toàn.",
+          "ConsumerContact": "Để được hỗ trợ, hãy liên hệ với Công ty BCI Burke qua số 800-266-1250 từ 7:30 sáng đến 4:30 chiều CT, từ thứ Hai đến thứ Sáu. Bạn cũng có thể gửi email đến orbit@bciburke.com hoặc truy cập https://www.bciburke.com/recall để biết thêm chi tiết.",
+          "metaDescription": "BCI Burke thu hồi các vòng xoay Inclusive Orbit do nguy cơ bị kẹp. Kiểm tra thiết bị của bạn và liên hệ với BCI Burke để được kiểm tra an toàn.",
+          "Products": [
+            {
+              "Name": "Vòng xoay Inclusive Orbit",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 415 (Ngoài ra, khoảng 6 chiếc đã được bán ở Canada)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Vòng xoay Inclusive Orbit bị thu hồi"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Công ty đã nhận được báo cáo về hai sự cố ngón tay bị kẹt trong khoảng trống giữa nền tảng xoay và vành ngoài, dẫn đến hai chấn thương bị kẹp ngón tay."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Bán trực tiếp thông qua đại diện nhà máy cho các thành phố, trường học và nhà thờ từ tháng 4 năm 2019 đến tháng 10 năm 2024, với giá từ 11,900 đến 14,550 đô la."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Công ty BCI Burke Inc., ở Fond Du Lac, Wisconsin"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Playdale Playgrounds LTD, của Vương quốc Anh"
+            }
+          ],
+          "SoldAtLabel": "Bán Tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Vương quốc Anh"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Nguy cơ bị kẹp do khoảng trống giữa nền tảng xoay và vành cố định"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Ngừng sử dụng các vòng xoay ngay lập tức và liên hệ với chủ sở hữu thiết bị, như giám đốc công viên hoặc hiệu trưởng trường học, để kiểm tra xem đơn vị đã được kiểm tra và sửa chữa chưa. Liên hệ với BCI Burke để sắp xếp một cuộc kiểm tra và nhận sửa chữa miễn phí tại chỗ."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Sửa chữa"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    }
+  ]
+}

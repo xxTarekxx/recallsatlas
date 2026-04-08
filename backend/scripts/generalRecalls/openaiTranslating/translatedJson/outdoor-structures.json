@@ -1,0 +1,926 @@
+{
+  "meta": {
+    "slug": "outdoor-structures",
+    "sourceCsvFile": "outdoor-structures_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:37.024Z",
+    "recallCount": 1,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "outdoor-structures.json",
+    "seoTranslatedAt": "2026-04-05T02:12:32.278Z",
+    "resumePartial": false,
+    "i18nSource": "generalRecallsTranslated",
+    "i18nSourceFile": "outdoor-structures.json",
+    "i18nUiLangs": [
+      "en",
+      "es",
+      "ar",
+      "zh",
+      "fr",
+      "de",
+      "ja",
+      "pt",
+      "hi",
+      "ru",
+      "vi"
+    ],
+    "i18nProgressByLang": {
+      "es": 1,
+      "ar": 1,
+      "zh": 1,
+      "fr": 1,
+      "de": 1,
+      "ja": 1,
+      "pt": 1,
+      "hi": 1,
+      "ru": 1,
+      "vi": 1
+    },
+    "i18nInProgress": false,
+    "i18nTranslatedAt": "2026-04-07T16:42:49.391Z",
+    "i18nOpenaiModel": "gpt-4o-mini"
+  },
+  "recalls": [
+    {
+      "RecallID": 10036,
+      "RecallNumber": "24745",
+      "RecallDate": "2024-08-15T00:00:00",
+      "Description": "BJ's Wholesale Club has announced a recall of specific Berkley Jensen cedar hard-topped gazebos due to safety concerns. The affected models, which include A102008010, A102008100, A102011920, and A102011902, measure approximately 10 feet by 12 feet or 12 feet by 14 feet. These gazebos are available in copper, which may appear brown, or black, and may come with or without netting panels and tie-back bands. Only the models sold during the specified dates are part of this recall.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/BJs-Wholesale-Club-Recalls-Berkley-Jensen-Gazebos-Due-to-Injury-Hazard-Recall-Alert",
+      "Title": "BJ's Wholesale Club Recalls Berkley Jensen Gazebos Due to Injury Risk",
+      "ConsumerContact": "Consumers should contact BJ's Wholesale Club at 800-257-2582, available from 8 a.m. to 7 p.m. ET Monday through Friday, 8 a.m. to 6 p.m. ET on Saturdays, and 12 p.m. to 6 p.m. ET on Sundays. They can also email gazebos@bjs.com or visit www.bjs.com/help/recall for further assistance. BJ's Wholesale Club will reach out to all known purchasers directly.",
+      "LastPublishDate": "2024-08-15T00:00:00",
+      "Products": [
+        {
+          "Name": "Berkley Jensen Cedar Gazebo",
+          "NumberOfUnits": "About 32,500"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/outdoor-structures/1-Berkley-Jensen-Cedar-Gazebo/704c26a11db2d8c0bc3b2da8e9704f97.webp",
+          "Caption": "Recalled Berkley Jensen Gazebo Pavilion – model A102008010",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/A-Gazebo.png"
+        },
+        {
+          "URL": "/images/generalRecalls/outdoor-structures/1-Berkley-Jensen-Cedar-Gazebo/626b85d00aeea26348ff09fc00a165c4.webp",
+          "Caption": "Recalled Berkley Jensen Gazebo Pavilion - model A102008100",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/A1-Gazebo.png"
+        },
+        {
+          "URL": "/images/generalRecalls/outdoor-structures/1-Berkley-Jensen-Cedar-Gazebo/908b2f86233b0d8aa0e27aea93be001a.webp",
+          "Caption": "Recalled Berkley Jensen Gazebo with Netting - model A102011902",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/A2-Gazebo.png"
+        },
+        {
+          "URL": "/images/generalRecalls/outdoor-structures/1-Berkley-Jensen-Cedar-Gazebo/c44642daa4af366a2088713328617c3f.webp",
+          "Caption": "Recalled Berkley Jensen Gazebo – model A102011920",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/A3-Gazebo.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "BJ's Wholesale Club is aware of at least 137 incidents of panels dislodging from the gazebo's roof, one resulting in minor injuries."
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "Lypometal Sdn. Bhd., of Malaysia (Sunjoy Group)"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available at BJ's Wholesale Club locations nationwide and online at www.bjs.com from October 20, 2020, to May 30, 2022, priced between $1,300 and $1,800"
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "BJ's Wholesale Club, of Marlborough, Massachusetts"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "Malaysia"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of injury due to dislodging roof panels in high winds"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Stop using the gazebos, maintain distance, and request a free repair kit to secure roof panels"
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "A102008010",
+        "A102008100",
+        "A102011920",
+        "A102011902"
+      ],
+      "slug": "bj-s-wholesale-club-recalls-berkley-jensen-gazebos-due-to-injury-risk-recall",
+      "metaDescription": "BJ's Wholesale Club recalls Berkley Jensen gazebos due to potential injury risks from dislodging roof panels. Contact for free repair kit.",
+      "languages": {
+        "en": {
+          "Title": "BJ's Wholesale Club Recalls Berkley Jensen Gazebos Due to Injury Risk",
+          "Description": "BJ's Wholesale Club has announced a recall of specific Berkley Jensen cedar hard-topped gazebos due to safety concerns. The affected models, which include A102008010, A102008100, A102011920, and A102011902, measure approximately 10 feet by 12 feet or 12 feet by 14 feet. These gazebos are available in copper, which may appear brown, or black, and may come with or without netting panels and tie-back bands. Only the models sold during the specified dates are part of this recall.",
+          "ConsumerContact": "Consumers should contact BJ's Wholesale Club at 800-257-2582, available from 8 a.m. to 7 p.m. ET Monday through Friday, 8 a.m. to 6 p.m. ET on Saturdays, and 12 p.m. to 6 p.m. ET on Sundays. They can also email gazebos@bjs.com or visit www.bjs.com/help/recall for further assistance. BJ's Wholesale Club will reach out to all known purchasers directly.",
+          "metaDescription": "BJ's Wholesale Club recalls Berkley Jensen gazebos due to potential injury risks from dislodging roof panels. Contact for free repair kit.",
+          "Products": [
+            {
+              "Name": "Berkley Jensen Cedar Gazebo",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 32,500"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled Berkley Jensen Gazebo Pavilion – model A102008010"
+            },
+            {
+              "Caption": "Recalled Berkley Jensen Gazebo Pavilion - model A102008100"
+            },
+            {
+              "Caption": "Recalled Berkley Jensen Gazebo with Netting - model A102011902"
+            },
+            {
+              "Caption": "Recalled Berkley Jensen Gazebo – model A102011920"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "BJ's Wholesale Club is aware of at least 137 incidents of panels dislodging from the gazebo's roof, one resulting in minor injuries."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Available at BJ's Wholesale Club locations nationwide and online at www.bjs.com from October 20, 2020, to May 30, 2022, priced between $1,300 and $1,800"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "BJ's Wholesale Club, of Marlborough, Massachusetts"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Lypometal Sdn. Bhd., of Malaysia (Sunjoy Group)"
+            }
+          ],
+          "SoldAtLabel": "Sold At",
+          "ManufacturerCountries": [
+            {
+              "Country": "Malaysia"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risk of injury due to dislodging roof panels in high winds"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Stop using the gazebos, maintain distance, and request a free repair kit to secure roof panels"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Repair"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "BJ's Wholesale Club Retira Gazebos Berkley Jensen Debido a Riesgo de Lesiones",
+          "Description": "BJ's Wholesale Club ha anunciado un retiro de gazebos de cedro de techo duro Berkley Jensen específicos debido a preocupaciones de seguridad. Los modelos afectados, que incluyen A102008010, A102008100, A102011920 y A102011902, miden aproximadamente 10 pies por 12 pies o 12 pies por 14 pies. Estos gazebos están disponibles en cobre, que puede parecer marrón, o negro, y pueden venir con o sin paneles de malla y bandas de sujeción. Solo los modelos vendidos durante las fechas especificadas son parte de este retiro.",
+          "ConsumerContact": "Los consumidores deben contactar a BJ's Wholesale Club al 800-257-2582, disponible de 8 a.m. a 7 p.m. ET de lunes a viernes, de 8 a.m. a 6 p.m. ET los sábados, y de 12 p.m. a 6 p.m. ET los domingos. También pueden enviar un correo electrónico a gazebos@bjs.com o visitar www.bjs.com/help/recall para obtener más ayuda. BJ's Wholesale Club se comunicará directamente con todos los compradores conocidos.",
+          "metaDescription": "BJ's Wholesale Club retira gazebos Berkley Jensen debido a posibles riesgos de lesiones por paneles de techo que se deslodan. Contacto para kit de reparación gratuito.",
+          "Products": [
+            {
+              "Name": "Gazebo de Cedro Berkley Jensen",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 32,500"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Gazebo Berkley Jensen Retirado – modelo A102008010"
+            },
+            {
+              "Caption": "Gazebo Berkley Jensen Retirado - modelo A102008100"
+            },
+            {
+              "Caption": "Gazebo Berkley Jensen Retirado con Malla - modelo A102011902"
+            },
+            {
+              "Caption": "Gazebo Berkley Jensen Retirado – modelo A102011920"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "BJ's Wholesale Club tiene conocimiento de al menos 137 incidentes de paneles deslodándose del techo del gazebo, uno de los cuales resultó en lesiones menores."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible en las ubicaciones de BJ's Wholesale Club en todo el país y en línea en www.bjs.com desde el 20 de octubre de 2020 hasta el 30 de mayo de 2022, con precios entre $1,300 y $1,800"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "BJ's Wholesale Club, de Marlborough, Massachusetts"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Lypometal Sdn. Bhd., de Malasia (Sunjoy Group)"
+            }
+          ],
+          "SoldAtLabel": "Vendido En",
+          "ManufacturerCountries": [
+            {
+              "Country": "Malasia"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Riesgo de lesiones debido a paneles de techo que se deslodan en vientos fuertes"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Dejar de usar los gazebos, mantener distancia y solicitar un kit de reparación gratuito para asegurar los paneles del techo"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparar"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "استرجاع نادي BJ's Wholesale Club لأكشاك بيركلي جنسن بسبب خطر الإصابة",
+          "Description": "أعلن نادي BJ's Wholesale Club عن استرجاع أكشاك بيركلي جنسن المصنوعة من خشب الأرز ذات السقف الصلب بسبب مخاوف تتعلق بالسلامة. تشمل النماذج المتأثرة A102008010 و A102008100 و A102011920 و A102011902، وتبلغ أبعادها حوالي 10 أقدام × 12 قدمًا أو 12 قدمًا × 14 قدمًا. تتوفر هذه الأكشاك باللون النحاسي، الذي قد يبدو بنيًا، أو الأسود، وقد تأتي مع أو بدون ألواح شبكية وأشرطة ربط. فقط النماذج المباعة خلال التواريخ المحددة هي جزء من هذا الاسترجاع.",
+          "ConsumerContact": "يجب على المستهلكين الاتصال بنادي BJ's Wholesale Club على الرقم 800-257-2582، المتاح من الساعة 8 صباحًا حتى 7 مساءً بتوقيت شرق الولايات المتحدة من الاثنين إلى الجمعة، ومن الساعة 8 صباحًا حتى 6 مساءً بتوقيت شرق الولايات المتحدة يوم السبت، ومن الساعة 12 ظهرًا حتى 6 مساءً بتوقيت شرق الولايات المتحدة يوم الأحد. يمكنهم أيضًا إرسال بريد إلكتروني إلى gazebos@bjs.com أو زيارة www.bjs.com/help/recall للحصول على مزيد من المساعدة. سيتواصل نادي BJ's Wholesale Club مع جميع المشترين المعروفين مباشرة.",
+          "metaDescription": "يسترجع نادي BJ's Wholesale Club أكشاك بيركلي جنسن بسبب مخاطر الإصابة المحتملة الناتجة عن انفصال ألواح السقف. اتصل للحصول على مجموعة إصلاح مجانية.",
+          "Products": [
+            {
+              "Name": "كشك بيركلي جنسن من خشب الأرز",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 32,500"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "كشك بيركلي جنسن المسترجع – النموذج A102008010"
+            },
+            {
+              "Caption": "كشك بيركلي جنسن المسترجع - النموذج A102008100"
+            },
+            {
+              "Caption": "كشك بيركلي جنسن المسترجع مع شبكة - النموذج A102011902"
+            },
+            {
+              "Caption": "كشك بيركلي جنسن المسترجع – النموذج A102011920"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "نادي BJ's Wholesale Club على علم بما لا يقل عن 137 حادثة انفصال ألواح من سقف الكشك، مما أدى إلى إصابات طفيفة."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "متوفر في مواقع نادي BJ's Wholesale Club في جميع أنحاء البلاد وعبر الإنترنت على www.bjs.com من 20 أكتوبر 2020 إلى 30 مايو 2022، بسعر يتراوح بين 1,300 دولار و 1,800 دولار"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "نادي BJ's Wholesale Club، من مارلبورو، ماساتشوستس"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Lypometal Sdn. Bhd.، من ماليزيا (مجموعة سنجوي)"
+            }
+          ],
+          "SoldAtLabel": "تم البيع في",
+          "ManufacturerCountries": [
+            {
+              "Country": "ماليزيا"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "خطر الإصابة بسبب انفصال ألواح السقف في الرياح القوية"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "توقف عن استخدام الأكشاك، حافظ على مسافة، واطلب مجموعة إصلاح مجانية لتأمين ألواح السقف"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "إصلاح"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "BJ's 批发俱乐部召回 Berkley Jensen 凉亭因受伤风险",
+          "Description": "BJ's 批发俱乐部已宣布召回特定的 Berkley Jensen 雪松硬顶凉亭，因安全问题。受影响的型号包括 A102008010、A102008100、A102011920 和 A102011902，尺寸约为 10 英尺 x 12 英尺或 12 英尺 x 14 英尺。这些凉亭有铜色（可能看起来是棕色）或黑色，并可能带有或不带有网状面板和绑带。只有在指定日期内销售的型号才属于此次召回。",
+          "ConsumerContact": "消费者应联系 BJ's 批发俱乐部，电话 800-257-2582，工作时间为周一至周五上午 8 点至晚上 7 点（东部时间），周六上午 8 点至下午 6 点（东部时间），周日中午 12 点至下午 6 点（东部时间）。他们还可以发送电子邮件至 gazebos@bjs.com 或访问 www.bjs.com/help/recall 获取进一步帮助。BJ's 批发俱乐部将直接联系所有已知的购买者。",
+          "metaDescription": "BJ's 批发俱乐部因屋顶面板脱落的潜在受伤风险召回 Berkley Jensen 凉亭。联系以获取免费修理工具包。",
+          "Products": [
+            {
+              "Name": "Berkley Jensen 雪松凉亭",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约 32,500"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "召回的 Berkley Jensen 凉亭 - 型号 A102008010"
+            },
+            {
+              "Caption": "召回的 Berkley Jensen 凉亭 - 型号 A102008100"
+            },
+            {
+              "Caption": "召回的带网状面板的 Berkley Jensen 凉亭 - 型号 A102011902"
+            },
+            {
+              "Caption": "召回的 Berkley Jensen 凉亭 - 型号 A102011920"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "BJ's 批发俱乐部已知至少有 137 起面板从凉亭屋顶脱落的事件，其中一起导致轻微受伤。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "在全国 BJ's 批发俱乐部门店和 www.bjs.com 在线销售，销售时间为 2020 年 10 月 20 日至 2022 年 5 月 30 日，价格在 $1,300 到 $1,800 之间"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "BJ's 批发俱乐部，位于马萨诸塞州马尔伯勒"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Lypometal Sdn. Bhd.，位于马来西亚（Sunjoy Group）"
+            }
+          ],
+          "SoldAtLabel": "销售地点",
+          "ManufacturerCountries": [
+            {
+              "Country": "马来西亚"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "在强风中屋顶面板脱落的受伤风险"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "停止使用凉亭，保持距离，并请求免费修理工具包以固定屋顶面板"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "修理"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "BJ's Wholesale Club rappelle des tonnelles Berkley Jensen en raison d'un risque de blessure",
+          "Description": "BJ's Wholesale Club a annoncé un rappel de certaines tonnelles en cèdre à toit dur Berkley Jensen en raison de préoccupations de sécurité. Les modèles concernés, qui incluent A102008010, A102008100, A102011920 et A102011902, mesurent environ 10 pieds par 12 pieds ou 12 pieds par 14 pieds. Ces tonnelles sont disponibles en cuivre, qui peut apparaître brun, ou en noir, et peuvent être vendues avec ou sans panneaux de protection et bandes de maintien. Seuls les modèles vendus pendant les dates spécifiées font partie de ce rappel.",
+          "ConsumerContact": "Les consommateurs doivent contacter BJ's Wholesale Club au 800-257-2582, disponible de 8 h à 19 h HE du lundi au vendredi, de 8 h à 18 h HE le samedi, et de 12 h à 18 h HE le dimanche. Ils peuvent également envoyer un courriel à gazebos@bjs.com ou visiter www.bjs.com/help/recall pour obtenir une assistance supplémentaire. BJ's Wholesale Club contactera directement tous les acheteurs connus.",
+          "metaDescription": "BJ's Wholesale Club rappelle des tonnelles Berkley Jensen en raison de risques de blessures potentiels dus au délogement des panneaux de toit. Contactez pour un kit de réparation gratuit.",
+          "Products": [
+            {
+              "Name": "Tonnelle en cèdre Berkley Jensen",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 32 500"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Tonnelle Berkley Jensen rappelée – modèle A102008010"
+            },
+            {
+              "Caption": "Tonnelle Berkley Jensen rappelée - modèle A102008100"
+            },
+            {
+              "Caption": "Tonnelle Berkley Jensen avec filet rappelée - modèle A102011902"
+            },
+            {
+              "Caption": "Tonnelle Berkley Jensen rappelée – modèle A102011920"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "BJ's Wholesale Club est au courant d'au moins 137 incidents de panneaux se délogeant du toit de la tonnelle, dont un ayant entraîné des blessures mineures."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible dans les magasins BJ's Wholesale Club à l'échelle nationale et en ligne sur www.bjs.com du 20 octobre 2020 au 30 mai 2022, au prix compris entre 1 300 $ et 1 800 $"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "BJ's Wholesale Club, de Marlborough, Massachusetts"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Lypometal Sdn. Bhd., de Malaisie (Sunjoy Group)"
+            }
+          ],
+          "SoldAtLabel": "Vendu À",
+          "ManufacturerCountries": [
+            {
+              "Country": "Malaisie"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risque de blessure dû au délogement des panneaux de toit par des vents forts"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Cesser d'utiliser les tonnelles, maintenir une distance, et demander un kit de réparation gratuit pour sécuriser les panneaux de toit"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Réparation"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "BJ's Wholesale Club ruft Berkley Jensen Pavillons wegen Verletzungsgefahr zurück",
+          "Description": "BJ's Wholesale Club hat einen Rückruf bestimmter Berkley Jensen Pavillons mit hartem Zedern-Dach aufgrund von Sicherheitsbedenken angekündigt. Die betroffenen Modelle, zu denen A102008010, A102008100, A102011920 und A102011902 gehören, messen etwa 10 Fuß mal 12 Fuß oder 12 Fuß mal 14 Fuß. Diese Pavillons sind in Kupfer erhältlich, das braun erscheinen kann, oder in Schwarz und können mit oder ohne Netzpaneele und Rückhaltebänder geliefert werden. Nur die während der angegebenen Daten verkauften Modelle sind Teil dieses Rückrufs.",
+          "ConsumerContact": "Verbraucher sollten BJ's Wholesale Club unter 800-257-2582 kontaktieren, erreichbar von 8 bis 19 Uhr ET von Montag bis Freitag, von 8 bis 18 Uhr ET an Samstagen und von 12 bis 18 Uhr ET an Sonntagen. Sie können auch eine E-Mail an gazebos@bjs.com senden oder www.bjs.com/help/recall besuchen, um weitere Unterstützung zu erhalten. BJ's Wholesale Club wird alle bekannten Käufer direkt kontaktieren.",
+          "metaDescription": "BJ's Wholesale Club ruft Berkley Jensen Pavillons wegen potenzieller Verletzungsrisiken durch sich lösende Dachpaneele zurück. Kontakt für kostenloses Reparaturset.",
+          "Products": [
+            {
+              "Name": "Berkley Jensen Zedern-Pavillon",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 32.500"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Rückgerufener Berkley Jensen Pavillon – Modell A102008010"
+            },
+            {
+              "Caption": "Rückgerufener Berkley Jensen Pavillon - Modell A102008100"
+            },
+            {
+              "Caption": "Rückgerufener Berkley Jensen Pavillon mit Netz - Modell A102011902"
+            },
+            {
+              "Caption": "Rückgerufener Berkley Jensen Pavillon – Modell A102011920"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "BJ's Wholesale Club ist sich mindestens 137 Vorfällen bewusst, bei denen sich Paneele vom Dach des Pavillons gelöst haben, wobei eines zu leichten Verletzungen führte."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Erhältlich in BJ's Wholesale Club-Filialen landesweit und online unter www.bjs.com vom 20. Oktober 2020 bis 30. Mai 2022, preislich zwischen 1.300 und 1.800 US-Dollar"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "BJ's Wholesale Club, aus Marlborough, Massachusetts"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Lypometal Sdn. Bhd., aus Malaysia (Sunjoy Group)"
+            }
+          ],
+          "SoldAtLabel": "Verkauft bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "Malaysia"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Verletzungsgefahr durch sich lösende Dachpaneele bei starkem Wind"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Verwendung der Pavillons einstellen, Abstand halten und ein kostenloses Reparaturset anfordern, um die Dachpaneele zu sichern"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparatur"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "BJ's Wholesale Clubが怪我のリスクによりBerkley Jensenのガゼボをリコール",
+          "Description": "BJ's Wholesale Clubは、安全上の懸念から特定のBerkley Jensenのセダー製ハードトップガゼボのリコールを発表しました。影響を受けるモデルは、A102008010、A102008100、A102011920、A102011902を含み、サイズは約10フィート×12フィートまたは12フィート×14フィートです。これらのガゼボは銅色（茶色に見える場合があります）または黒色で、ネットパネルやタイバックバンドが付いているものと付いていないものがあります。指定された期間中に販売されたモデルのみがこのリコールの対象です。",
+          "ConsumerContact": "消費者は、月曜日から金曜日の午前8時から午後7時（ET）、土曜日の午前8時から午後6時（ET）、日曜日の正午から午後6時（ET）に800-257-2582でBJ's Wholesale Clubに連絡するべきです。また、gazebos@bjs.comにメールを送信するか、www.bjs.com/help/recallを訪れてさらなる支援を受けることもできます。BJ's Wholesale Clubは、すべての既知の購入者に直接連絡します。",
+          "metaDescription": "BJ's Wholesale Clubは、屋根パネルが外れることによる潜在的な怪我のリスクのためにBerkley Jensenのガゼボをリコールします。無料修理キットのリクエストをしてください。",
+          "Products": [
+            {
+              "Name": "Berkley Jensenセダーガゼボ",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約32,500"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコールされたBerkley Jensenガゼボパビリオン – モデルA102008010"
+            },
+            {
+              "Caption": "リコールされたBerkley Jensenガゼボパビリオン - モデルA102008100"
+            },
+            {
+              "Caption": "リコールされたネット付きBerkley Jensenガゼボ - モデルA102011902"
+            },
+            {
+              "Caption": "リコールされたBerkley Jensenガゼボ – モデルA102011920"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "BJ's Wholesale Clubは、ガゼボの屋根からパネルが外れる137件以上の事例を認識しており、そのうちの1件は軽傷を伴いました。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "全国のBJ's Wholesale Club店舗およびwww.bjs.comで、2020年10月20日から2022年5月30日まで販売され、価格は1,300ドルから1,800ドルの間です。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "マサチューセッツ州マールボロのBJ's Wholesale Club"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "マレーシアのLypometal Sdn. Bhd.（サンジョイグループ）"
+            }
+          ],
+          "SoldAtLabel": "販売場所",
+          "ManufacturerCountries": [
+            {
+              "Country": "マレーシア"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "強風による屋根パネルの外れによる怪我のリスク"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "ガゼボの使用を中止し、距離を保ち、屋根パネルを固定するための無料修理キットをリクエストしてください"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "修理"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "BJ's Wholesale Club recolhe gazebos Berkley Jensen devido ao risco de lesões",
+          "Description": "BJ's Wholesale Club anunciou um recall de gazebos específicos de cedro com cobertura dura Berkley Jensen devido a preocupações de segurança. Os modelos afetados, que incluem A102008010, A102008100, A102011920 e A102011902, medem aproximadamente 3 metros por 3,6 metros ou 3,6 metros por 4,3 metros. Esses gazebos estão disponíveis na cor cobre, que pode parecer marrom, ou preta, e podem vir com ou sem painéis de rede e faixas de amarração. Somente os modelos vendidos durante as datas especificadas fazem parte deste recall.",
+          "ConsumerContact": "Os consumidores devem entrar em contato com o BJ's Wholesale Club pelo telefone 800-257-2582, disponível das 8h às 19h ET de segunda a sexta-feira, das 8h às 18h ET aos sábados e das 12h às 18h ET aos domingos. Eles também podem enviar um e-mail para gazebos@bjs.com ou visitar www.bjs.com/help/recall para mais assistência. O BJ's Wholesale Club entrará em contato diretamente com todos os compradores conhecidos.",
+          "metaDescription": "BJ's Wholesale Club recolhe gazebos Berkley Jensen devido a riscos potenciais de lesões causadas por painéis de telhado deslocados. Contato para kit de reparo gratuito.",
+          "Products": [
+            {
+              "Name": "Gazebo de Cedro Berkley Jensen",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 32.500"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Gazebo Berkley Jensen recolhido – modelo A102008010"
+            },
+            {
+              "Caption": "Gazebo Berkley Jensen recolhido - modelo A102008100"
+            },
+            {
+              "Caption": "Gazebo Berkley Jensen recolhido com rede - modelo A102011902"
+            },
+            {
+              "Caption": "Gazebo Berkley Jensen recolhido – modelo A102011920"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "O BJ's Wholesale Club está ciente de pelo menos 137 incidentes de painéis deslocados do telhado do gazebo, um dos quais resultou em lesões leves."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponível nas lojas BJ's Wholesale Club em todo o país e online em www.bjs.com de 20 de outubro de 2020 a 30 de maio de 2022, com preços entre $1.300 e $1.800"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "BJ's Wholesale Club, de Marlborough, Massachusetts"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Lypometal Sdn. Bhd., da Malásia (Sunjoy Group)"
+            }
+          ],
+          "SoldAtLabel": "Vendidos em",
+          "ManufacturerCountries": [
+            {
+              "Country": "Malásia"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risco de lesões devido ao deslocamento de painéis do telhado em ventos fortes"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Pare de usar os gazebos, mantenha distância e solicite um kit de reparo gratuito para fixar os painéis do telhado"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparo"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "BJ's व्होलसेल क्लब ने चोट के जोखिम के कारण बर्कले जेनसेन गज़ेबो की वापसी की घोषणा की",
+          "Description": "BJ's व्होलसेल क्लब ने सुरक्षा चिंताओं के कारण विशेष बर्कले जेनसेन सीडर हार्ड-टॉप गज़ेबो की वापसी की घोषणा की है। प्रभावित मॉडल, जिनमें A102008010, A102008100, A102011920, और A102011902 शामिल हैं, का आकार लगभग 10 फीट बाय 12 फीट या 12 फीट बाय 14 फीट है। ये गज़ेबो तांबे में उपलब्ध हैं, जो भूरे रंग के रूप में दिखाई दे सकते हैं, या काले रंग में, और ये जाल पैनल और टाई-बैक बैंड के साथ या बिना आ सकते हैं। केवल निर्दिष्ट तारीखों के दौरान बेचे गए मॉडल इस वापसी का हिस्सा हैं।",
+          "ConsumerContact": "उपभोक्ताओं को BJ's व्होलसेल क्लब से 800-257-2582 पर संपर्क करना चाहिए, जो सोमवार से शुक्रवार तक सुबह 8 बजे से शाम 7 बजे ET, शनिवार को सुबह 8 बजे से शाम 6 बजे ET, और रविवार को दोपहर 12 बजे से शाम 6 बजे ET उपलब्ध है। वे gazebos@bjs.com पर भी ईमेल कर सकते हैं या आगे की सहायता के लिए www.bjs.com/help/recall पर जा सकते हैं। BJ's व्होलसेल क्लब सभी ज्ञात खरीदारों से सीधे संपर्क करेगा।",
+          "metaDescription": "BJ's व्होलसेल क्लब ने छत के पैनल के हटने से संभावित चोट के जोखिम के कारण बर्कले जेनसेन गज़ेबो की वापसी की। मुफ्त मरम्मत किट के लिए संपर्क करें।",
+          "Products": [
+            {
+              "Name": "बर्कले जेनसेन सीडर गज़ेबो",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 32,500"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "वापसी की गई बर्कले जेनसेन गज़ेबो पवेलियन – मॉडल A102008010"
+            },
+            {
+              "Caption": "वापसी की गई बर्कले जेनसेन गज़ेबो पवेलियन - मॉडल A102008100"
+            },
+            {
+              "Caption": "वापसी की गई बर्कले जेनसेन गज़ेबो विथ नेटिंग - मॉडल A102011902"
+            },
+            {
+              "Caption": "वापसी की गई बर्कले जेनसेन गज़ेबो – मॉडल A102011920"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "BJ's व्होलसेल क्लब को गज़ेबो की छत से पैनल के हटने के कम से कम 137 घटनाओं के बारे में पता है, जिसमें से एक में मामूली चोटें आईं।"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "BJ's व्होलसेल क्लब के स्थानों पर देशभर में और www.bjs.com पर 20 अक्टूबर, 2020 से 30 मई, 2022 तक उपलब्ध, कीमत $1,300 से $1,800 के बीच"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "BJ's व्होलसेल क्लब, मार्लबोरो, मैसाचुसेट्स"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Lypometal Sdn. Bhd., मलेशिया (सनजॉय समूह)"
+            }
+          ],
+          "SoldAtLabel": "बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "मलेशिया"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "उच्च हवाओं में छत के पैनल के हटने के कारण चोट का जोखिम"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "गज़ेबो का उपयोग करना बंद करें, दूरी बनाए रखें, और छत के पैनल को सुरक्षित करने के लिए मुफ्त मरम्मत किट का अनुरोध करें"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "मरम्मत"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "Клуб оптовой торговли BJ's отзывает беседки Berkley Jensen из-за риска травм",
+          "Description": "Клуб оптовой торговли BJ's объявил об отзыве конкретных беседок Berkley Jensen с жесткой крышей из кедра из-за проблем с безопасностью. Затронутые модели, включая A102008010, A102008100, A102011920 и A102011902, имеют размеры примерно 10 футов на 12 футов или 12 футов на 14 футов. Эти беседки доступны в медном цвете, который может выглядеть коричневым, или черном, и могут быть с сетчатыми панелями или без них, а также с завязками или без них. Только модели, проданные в указанные даты, входят в этот отзыв.",
+          "ConsumerContact": "Потребители должны связаться с клубом оптовой торговли BJ's по телефону 800-257-2582, доступному с 8:00 до 19:00 по восточному времени с понедельника по пятницу, с 8:00 до 18:00 по восточному времени по субботам и с 12:00 до 18:00 по восточному времени по воскресеньям. Они также могут отправить электронное письмо на адрес gazebos@bjs.com или посетить www.bjs.com/help/recall для получения дополнительной помощи. Клуб оптовой торговли BJ's свяжется со всеми известными покупателями напрямую.",
+          "metaDescription": "Клуб оптовой торговли BJ's отзывает беседки Berkley Jensen из-за потенциальных рисков травм от смещения панелей крыши. Свяжитесь для получения бесплатного комплекта для ремонта.",
+          "Products": [
+            {
+              "Name": "Беседка из кедра Berkley Jensen",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 32,500"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванная беседка Berkley Jensen – модель A102008010"
+            },
+            {
+              "Caption": "Отозванная беседка Berkley Jensen - модель A102008100"
+            },
+            {
+              "Caption": "Отозванная беседка Berkley Jensen с сеткой - модель A102011902"
+            },
+            {
+              "Caption": "Отозванная беседка Berkley Jensen – модель A102011920"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Клуб оптовой торговли BJ's осведомлен как минимум о 137 случаях смещения панелей с крыши беседки, один из которых привел к незначительным травмам."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Доступно в магазинах клуба оптовой торговли BJ's по всей стране и онлайн на www.bjs.com с 20 октября 2020 года по 30 мая 2022 года, по цене от 1,300 до 1,800 долларов"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Клуб оптовой торговли BJ's, Марлборо, Массачусетс"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Lypometal Sdn. Bhd., Малайзия (Sunjoy Group)"
+            }
+          ],
+          "SoldAtLabel": "Продавалось в",
+          "ManufacturerCountries": [
+            {
+              "Country": "Малайзия"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Риск травм из-за смещения панелей крыши при сильном ветре"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Прекратите использовать беседки, соблюдайте дистанцию и запросите бесплатный комплект для ремонта, чтобы закрепить панели крыши"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Ремонт"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "Câu lạc bộ bán buôn BJ's thu hồi các gian hàng Berkley Jensen do nguy cơ chấn thương",
+          "Description": "Câu lạc bộ bán buôn BJ's đã thông báo thu hồi một số gian hàng bằng gỗ tuyết tùng Berkley Jensen có mái cứng do lo ngại về an toàn. Các mẫu bị ảnh hưởng, bao gồm A102008010, A102008100, A102011920 và A102011902, có kích thước khoảng 10 feet x 12 feet hoặc 12 feet x 14 feet. Những gian hàng này có sẵn màu đồng, có thể xuất hiện màu nâu, hoặc màu đen, và có thể đi kèm hoặc không có các tấm lưới và dây buộc. Chỉ những mẫu được bán trong khoảng thời gian đã chỉ định mới nằm trong đợt thu hồi này.",
+          "ConsumerContact": "Người tiêu dùng nên liên hệ với Câu lạc bộ bán buôn BJ's qua số 800-257-2582, có sẵn từ 8 giờ sáng đến 7 giờ tối ET từ thứ Hai đến thứ Sáu, 8 giờ sáng đến 6 giờ tối ET vào thứ Bảy, và 12 giờ trưa đến 6 giờ tối ET vào Chủ Nhật. Họ cũng có thể gửi email tới gazebos@bjs.com hoặc truy cập www.bjs.com/help/recall để được hỗ trợ thêm. Câu lạc bộ bán buôn BJ's sẽ liên hệ trực tiếp với tất cả những người mua đã biết.",
+          "metaDescription": "Câu lạc bộ bán buôn BJ's thu hồi các gian hàng Berkley Jensen do nguy cơ chấn thương tiềm ẩn từ việc các tấm mái bị rời ra. Liên hệ để nhận bộ sửa chữa miễn phí.",
+          "Products": [
+            {
+              "Name": "Gian hàng gỗ tuyết tùng Berkley Jensen",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 32,500"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Gian hàng Berkley Jensen bị thu hồi – mẫu A102008010"
+            },
+            {
+              "Caption": "Gian hàng Berkley Jensen bị thu hồi - mẫu A102008100"
+            },
+            {
+              "Caption": "Gian hàng Berkley Jensen có lưới bị thu hồi - mẫu A102011902"
+            },
+            {
+              "Caption": "Gian hàng Berkley Jensen bị thu hồi – mẫu A102011920"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Câu lạc bộ bán buôn BJ's biết ít nhất 137 sự cố các tấm bị rời ra khỏi mái gian hàng, một sự cố dẫn đến chấn thương nhẹ."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Có sẵn tại các địa điểm Câu lạc bộ bán buôn BJ's trên toàn quốc và trực tuyến tại www.bjs.com từ ngày 20 tháng 10 năm 2020 đến ngày 30 tháng 5 năm 2022, có giá từ 1,300 đến 1,800 đô la"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Câu lạc bộ bán buôn BJ's, tại Marlborough, Massachusetts"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Lypometal Sdn. Bhd., của Malaysia (Tập đoàn Sunjoy)"
+            }
+          ],
+          "SoldAtLabel": "Bán Tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Malaysia"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Nguy cơ chấn thương do các tấm mái bị rời ra trong gió mạnh"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Ngừng sử dụng các gian hàng, giữ khoảng cách, và yêu cầu bộ sửa chữa miễn phí để cố định các tấm mái"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Sửa chữa"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    }
+  ]
+}

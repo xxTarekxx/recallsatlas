@@ -1,0 +1,795 @@
+{
+  "meta": {
+    "slug": "purses-and-handbags",
+    "sourceCsvFile": "purses-and-handbags_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:37.046Z",
+    "recallCount": 1,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "purses-and-handbags.json",
+    "seoTranslatedAt": "2026-04-05T03:14:47.729Z",
+    "resumePartial": false,
+    "i18nSource": "generalRecallsTranslated",
+    "i18nSourceFile": "purses-and-handbags.json",
+    "i18nUiLangs": [
+      "en",
+      "es",
+      "ar",
+      "zh",
+      "fr",
+      "de",
+      "ja",
+      "pt",
+      "hi",
+      "ru",
+      "vi"
+    ],
+    "i18nProgressByLang": {
+      "es": 1,
+      "ar": 1,
+      "zh": 1,
+      "fr": 1,
+      "de": 1,
+      "ja": 1,
+      "pt": 1,
+      "hi": 1,
+      "ru": 1,
+      "vi": 1
+    },
+    "i18nInProgress": false,
+    "i18nTranslatedAt": "2026-04-07T18:46:36.853Z",
+    "i18nOpenaiModel": "gpt-4o-mini"
+  },
+  "recalls": [
+    {
+      "RecallID": 10282,
+      "RecallNumber": "25294",
+      "RecallDate": "2025-05-22T00:00:00",
+      "Description": "Primark is recalling the DTR Plush Bag Stitch and DTR Plush Bag Angel due to safety concerns. The Stitch bags are available in blue, while the Angel bags come in purple. Each bag measures approximately 10 inches in length and 8 inches in width, featuring a swing tag care label attached to the side.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/Primark-Recalls-DTR-Plush-Bag-Stitch-and-DTR-Plush-Bag-Angel-Due-to-Choking-and-Ingestion-Hazards",
+      "Title": "Primark Recalls DTR Plush Bag Stitch and DTR Plush Bag Angel Due to Choking Risks",
+      "ConsumerContact": "For more information, consumers can contact Primark at 617-946-3236 from 8 a.m. to 5 p.m. ET, Monday through Friday, or visit www.primark.com/recall. Alternatively, visit www.primark.com and click on 'Recall' at the bottom of the page.",
+      "LastPublishDate": "2025-05-22T00:00:00",
+      "Products": [
+        {
+          "Name": "DTR Plush Bag Stitch",
+          "NumberOfUnits": "About 2,900"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/purses-and-handbags/1-DTR-Plush-Bag-Stitch/e98bcbdd15f2ee58ac77f1633befc12e.webp",
+          "Caption": "Recalled Primark DTR Plush Bag - Stitch",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Primark-1.png"
+        },
+        {
+          "URL": "/images/generalRecalls/purses-and-handbags/1-DTR-Plush-Bag-Stitch/8625a3305fba312fc99ab7d4175d80ad.webp",
+          "Caption": "Recalled Primark DTR Plush Bag - Angel",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Primark-2.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Primark stores in the Northeast, Florida, Maryland, and Illinois from March 2024 to October 2024, priced around $6."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Primark US Corp., of Boston, Massachusetts"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Detachable zipper pull poses choking and ingestion hazards."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Return the plush bags to any Primark store for a full refund."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "slug": "primark-recalls-dtr-plush-bag-stitch-and-dtr-plush-bag-angel-due-to-choking-risks-recall",
+      "metaDescription": "Primark recalls DTR Plush Bag Stitch and Angel due to choking hazards. Return for a full refund. Learn more here.",
+      "languages": {
+        "en": {
+          "Title": "Primark Recalls DTR Plush Bag Stitch and DTR Plush Bag Angel Due to Choking Risks",
+          "Description": "Primark is recalling the DTR Plush Bag Stitch and DTR Plush Bag Angel due to safety concerns. The Stitch bags are available in blue, while the Angel bags come in purple. Each bag measures approximately 10 inches in length and 8 inches in width, featuring a swing tag care label attached to the side.",
+          "ConsumerContact": "For more information, consumers can contact Primark at 617-946-3236 from 8 a.m. to 5 p.m. ET, Monday through Friday, or visit www.primark.com/recall. Alternatively, visit www.primark.com and click on 'Recall' at the bottom of the page.",
+          "metaDescription": "Primark recalls DTR Plush Bag Stitch and Angel due to choking hazards. Return for a full refund. Learn more here.",
+          "Products": [
+            {
+              "Name": "DTR Plush Bag Stitch",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 2,900"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled Primark DTR Plush Bag - Stitch"
+            },
+            {
+              "Caption": "Recalled Primark DTR Plush Bag - Angel"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "None reported"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Primark stores in the Northeast, Florida, Maryland, and Illinois from March 2024 to October 2024, priced around $6."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Primark US Corp., of Boston, Massachusetts"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Sold At",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Detachable zipper pull poses choking and ingestion hazards."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Return the plush bags to any Primark store for a full refund."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Refund"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "Primark Retira la Bolsa de Peluche DTR Stitch y la Bolsa de Peluche DTR Angel Debido a Riesgos de Asfixia",
+          "Description": "Primark está retirando la Bolsa de Peluche DTR Stitch y la Bolsa de Peluche DTR Angel debido a preocupaciones de seguridad. Las bolsas Stitch están disponibles en azul, mientras que las bolsas Angel vienen en púrpura. Cada bolsa mide aproximadamente 10 pulgadas de largo y 8 pulgadas de ancho, con una etiqueta de cuidado colgante adjunta al lado.",
+          "ConsumerContact": "Para más información, los consumidores pueden contactar a Primark al 617-946-3236 de 8 a.m. a 5 p.m. ET, de lunes a viernes, o visitar www.primark.com/recall. Alternativamente, visiten www.primark.com y hagan clic en 'Recall' en la parte inferior de la página.",
+          "metaDescription": "Primark retira la Bolsa de Peluche DTR Stitch y Angel debido a riesgos de asfixia. Devuélvalas para un reembolso completo. Aprenda más aquí.",
+          "Products": [
+            {
+              "Name": "Bolsa de Peluche DTR Stitch",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 2,900"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Bolsa de Peluche DTR Primark Retirada - Stitch"
+            },
+            {
+              "Caption": "Bolsa de Peluche DTR Primark Retirada - Angel"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Ninguna reportada"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Tiendas Primark en el Noreste, Florida, Maryland e Illinois desde marzo de 2024 hasta octubre de 2024, con un precio de alrededor de $6."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Primark US Corp., de Boston, Massachusetts"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendidos En",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "El tirador de cremallera desmontable presenta riesgos de asfixia e ingestión."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Devuelva las bolsas de peluche a cualquier tienda Primark para un reembolso completo."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reembolso"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "برايمارك تستدعي حقيبة دمية دتر ستش وحقيبة دمية دتر أنجل بسبب مخاطر الاختناق",
+          "Description": "تستدعي برايمارك حقيبة دمية دتر ستش وحقيبة دمية دتر أنجل بسبب مخاوف تتعلق بالسلامة. تتوفر حقائب ستش باللون الأزرق، بينما تأتي حقائب أنجل باللون الأرجواني. كل حقيبة تقيس تقريبًا 10 بوصات في الطول و8 بوصات في العرض، مع وجود علامة رعاية متعلقة بها ملصقة على الجانب.",
+          "ConsumerContact": "لمزيد من المعلومات، يمكن للمستهلكين الاتصال ببرايمارك على الرقم 617-946-3236 من الساعة 8 صباحًا حتى 5 مساءً بتوقيت شرق الولايات المتحدة، من الاثنين إلى الجمعة، أو زيارة www.primark.com/recall. بدلاً من ذلك، يمكن زيارة www.primark.com والنقر على 'استدعاء' في أسفل الصفحة.",
+          "metaDescription": "برايمارك تستدعي حقيبة دمية دتر ستش وأنجل بسبب مخاطر الاختناق. العودة لاسترداد كامل. تعرف على المزيد هنا.",
+          "Products": [
+            {
+              "Name": "حقيبة دمية دتر ستش",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 2,900"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "حقيبة دمية دتر برايمارك المستدعاة - ستش"
+            },
+            {
+              "Caption": "حقيبة دمية دتر برايمارك المستدعاة - أنجل"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "لا توجد إصابات مسجلة"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "متاجر برايمارك في الشمال الشرقي، فلوريدا، ماريلاند، وإلينوي من مارس 2024 إلى أكتوبر 2024، بسعر حوالي 6 دولارات."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "برايمارك يو إس كورب، من بوسطن، ماساتشوستس"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "تباع في",
+          "ManufacturerCountries": [
+            {
+              "Country": "الصين"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "سحاب قابل للفصل يسبب مخاطر الاختناق والابتلاع."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "إرجاع الحقائب المحشوة إلى أي متجر برايمارك لاسترداد كامل."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "استرداد"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "Primark召回DTR毛绒包Stitch和DTR毛绒包Angel因窒息风险",
+          "Description": "Primark因安全问题召回DTR毛绒包Stitch和DTR毛绒包Angel。Stitch包为蓝色，Angel包为紫色。每个包的长度约为10英寸，宽度约为8英寸，侧面附有吊牌护理标签。\n",
+          "ConsumerContact": "如需更多信息，消费者可以在东部时间周一至周五上午8点至下午5点拨打617-946-3236联系Primark，或访问www.primark.com/recall。或者，访问www.primark.com并点击页面底部的“召回”。",
+          "metaDescription": "Primark因窒息危险召回DTR毛绒包Stitch和Angel。退货可全额退款。了解更多信息。",
+          "Products": [
+            {
+              "Name": "DTR毛绒包Stitch",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约2900个"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "召回的Primark DTR毛绒包 - Stitch"
+            },
+            {
+              "Caption": "召回的Primark DTR毛绒包 - Angel"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "无报告伤害"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Primark在东北部、佛罗里达州、马里兰州和伊利诺伊州的商店，销售时间为2024年3月至2024年10月，价格约为6美元。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Primark US Corp.，位于马萨诸塞州波士顿"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "销售地点",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "可拆卸拉链拉环存在窒息和吞咽危险。"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "将毛绒包退还至任何Primark商店以获得全额退款。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "退款"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "Primark rappelle le sac en peluche DTR Stitch et le sac en peluche DTR Angel en raison de risques d'étouffement",
+          "Description": "Primark rappelle le sac en peluche DTR Stitch et le sac en peluche DTR Angel en raison de préoccupations de sécurité. Les sacs Stitch sont disponibles en bleu, tandis que les sacs Angel sont en violet. Chaque sac mesure environ 10 pouces de long et 8 pouces de large, avec une étiquette de soin accrochée sur le côté.",
+          "ConsumerContact": "Pour plus d'informations, les consommateurs peuvent contacter Primark au 617-946-3236 de 8 h à 17 h HE, du lundi au vendredi, ou visiter www.primark.com/recall. Alternativement, visitez www.primark.com et cliquez sur 'Rappel' en bas de la page.",
+          "metaDescription": "Primark rappelle les sacs en peluche DTR Stitch et Angel en raison de risques d'étouffement. Retournez-les pour un remboursement complet. En savoir plus ici.",
+          "Products": [
+            {
+              "Name": "Sac en peluche DTR Stitch",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 2 900"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Sac en peluche DTR Primark rappelé - Stitch"
+            },
+            {
+              "Caption": "Sac en peluche DTR Primark rappelé - Angel"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Aucun rapporté"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Magasins Primark dans le Nord-Est, en Floride, dans le Maryland et en Illinois de mars 2024 à octobre 2024, au prix d'environ 6 $."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Primark US Corp., de Boston, Massachusetts"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendu à",
+          "ManufacturerCountries": [
+            {
+              "Country": "Chine"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Le tirette de fermeture éclair détachable pose des risques d'étouffement et d'ingestion."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Retournez les sacs en peluche dans n'importe quel magasin Primark pour un remboursement complet."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Remboursement"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "Primark ruft DTR Plüsch Tasche Stitch und DTR Plüsch Tasche Angel aufgrund von Erstickungsgefahren zurück",
+          "Description": "Primark ruft die DTR Plüsch Tasche Stitch und die DTR Plüsch Tasche Angel aufgrund von Sicherheitsbedenken zurück. Die Stitch Taschen sind in Blau erhältlich, während die Angel Taschen in Lila kommen. Jede Tasche misst ungefähr 25 cm in der Länge und 20 cm in der Breite und verfügt über ein Pflegeetikett, das an der Seite angebracht ist.",
+          "ConsumerContact": "Für weitere Informationen können Verbraucher Primark unter 617-946-3236 von 8 bis 17 Uhr ET, Montag bis Freitag, kontaktieren oder www.primark.com/recall besuchen. Alternativ besuchen Sie www.primark.com und klicken Sie unten auf der Seite auf 'Rückruf'.",
+          "metaDescription": "Primark ruft DTR Plüsch Tasche Stitch und Angel aufgrund von Erstickungsgefahren zurück. Rückgabe für eine vollständige Rückerstattung. Hier mehr erfahren.",
+          "Products": [
+            {
+              "Name": "DTR Plüsch Tasche Stitch",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Ungefähr 2.900"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Zurückgerufene Primark DTR Plüsch Tasche - Stitch"
+            },
+            {
+              "Caption": "Zurückgerufene Primark DTR Plüsch Tasche - Angel"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Keine gemeldet"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Primark-Filialen im Nordosten, Florida, Maryland und Illinois von März 2024 bis Oktober 2024, zu einem Preis von etwa 6 $."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Primark US Corp., Boston, Massachusetts"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Verkauft bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Abnehmbarer Reißverschluss-Zipper stellt Erstickungs- und Verschluckgefahr dar."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Geben Sie die Plüsch Taschen in einer beliebigen Primark-Filiale für eine vollständige Rückerstattung zurück."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Rückerstattung"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "プライマークが窒息の危険性によりDTRプラッシュバッグ スティッチとDTRプラッシュバッグ エンジェルをリコール",
+          "Description": "プライマークは安全上の懸念からDTRプラッシュバッグ スティッチとDTRプラッシュバッグ エンジェルをリコールしています。スティッチバッグは青色で、エンジェルバッグは紫色です。各バッグのサイズは約10インチの長さと8インチの幅で、側面にスイングタグのケアラベルが付いています。",
+          "ConsumerContact": "詳細については、消費者はプライマークに617-946-3236まで連絡するか、月曜日から金曜日の午前8時から午後5時（ET）までの間にwww.primark.com/recallを訪問してください。あるいは、www.primark.comを訪れてページの下部にある「リコール」をクリックしてください。",
+          "metaDescription": "プライマークが窒息の危険性によりDTRプラッシュバッグ スティッチとエンジェルをリコール。全額返金のために返品してください。詳細はこちら。",
+          "Products": [
+            {
+              "Name": "DTRプラッシュバッグ スティッチ",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約2,900"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコールされたプライマーク DTRプラッシュバッグ - スティッチ"
+            },
+            {
+              "Caption": "リコールされたプライマーク DTRプラッシュバッグ - エンジェル"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "報告された怪我はなし"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "2024年3月から2024年10月までの間に、北東部、フロリダ、メリーランド、イリノイのプライマーク店舗で、価格は約6ドル。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "マサチューセッツ州ボストンのプライマークUS Corp."
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "販売場所",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "取り外し可能なジッパープルが窒息および摂取の危険を引き起こす。"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "プラッシュバッグを任意のプライマーク店舗に返品して全額返金を受ける。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "返金"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "Primark Retira do Mercado a Bolsa de Pelúcia DTR Stitch e a Bolsa de Pelúcia DTR Angel Devido a Riscos de Asfixia",
+          "Description": "A Primark está retirando do mercado a Bolsa de Pelúcia DTR Stitch e a Bolsa de Pelúcia DTR Angel devido a preocupações de segurança. As bolsas Stitch estão disponíveis na cor azul, enquanto as bolsas Angel vêm na cor roxa. Cada bolsa mede aproximadamente 10 polegadas de comprimento e 8 polegadas de largura, apresentando uma etiqueta de cuidado com tag pendurada anexada ao lado.",
+          "ConsumerContact": "Para mais informações, os consumidores podem entrar em contato com a Primark pelo telefone 617-946-3236 das 8h às 17h ET, de segunda a sexta-feira, ou visitar www.primark.com/recall. Alternativamente, visite www.primark.com e clique em 'Recall' na parte inferior da página.",
+          "metaDescription": "A Primark retira do mercado a Bolsa de Pelúcia DTR Stitch e Angel devido a riscos de asfixia. Retorne para um reembolso total. Saiba mais aqui.",
+          "Products": [
+            {
+              "Name": "Bolsa de Pelúcia DTR Stitch",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 2.900"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Bolsa de Pelúcia DTR Primark - Stitch"
+            },
+            {
+              "Caption": "Bolsa de Pelúcia DTR Primark - Angel"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Nenhuma relatada"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Lojas Primark no Nordeste, Flórida, Maryland e Illinois de março de 2024 a outubro de 2024, com preço em torno de $6."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Primark US Corp., de Boston, Massachusetts"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendido Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "O puxador do zíper destacável apresenta riscos de asfixia e ingestão."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Devolva as bolsas de pelúcia em qualquer loja Primark para um reembolso total."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reembolso"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "प्राइमार्क ने चोकिंग जोखिम के कारण DTR प्लश बैग स्टिच और DTR प्लश बैग एंजेल को वापस बुलाया",
+          "Description": "प्राइमार्क DTR प्लश बैग स्टिच और DTR प्लश बैग एंजेल को सुरक्षा चिंताओं के कारण वापस बुला रहा है। स्टिच बैग नीले रंग में उपलब्ध हैं, जबकि एंजेल बैग बैंगनी रंग में आते हैं। प्रत्येक बैग की लंबाई लगभग 10 इंच और चौड़ाई 8 इंच है, जिसमें एक स्विंग टैग देखभाल लेबल साइड में लगा हुआ है।",
+          "ConsumerContact": "अधिक जानकारी के लिए, उपभोक्ता प्राइमार्क से 617-946-3236 पर सुबह 8 बजे से शाम 5 बजे ET, सोमवार से शुक्रवार, संपर्क कर सकते हैं, या www.primark.com/recall पर जा सकते हैं। वैकल्पिक रूप से, www.primark.com पर जाएं और पृष्ठ के नीचे 'Recall' पर क्लिक करें।",
+          "metaDescription": "प्राइमार्क DTR प्लश बैग स्टिच और एंजेल को चोकिंग खतरों के कारण वापस बुलाता है। पूर्ण धनवापसी के लिए लौटाएं। यहां और जानें।",
+          "Products": [
+            {
+              "Name": "DTR प्लश बैग स्टिच",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 2,900"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "वापस बुलाया गया प्राइमार्क DTR प्लश बैग - स्टिच"
+            },
+            {
+              "Caption": "वापस बुलाया गया प्राइमार्क DTR प्लश बैग - एंजेल"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "कोई रिपोर्ट नहीं की गई"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "मार्च 2024 से अक्टूबर 2024 तक उत्तर-पूर्व, फ्लोरिडा, मैरीलैंड और इलिनॉय में प्राइमार्क स्टोर, कीमत लगभग $6।"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "प्राइमार्क यूएस कॉर्प, बोस्टन, मैसाचुसेट्स"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "चीन"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": " detachable zipper pull चोकिंग और निगलने के खतरों का कारण बनता है।"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "पूर्ण धनवापसी के लिए प्लश बैग को किसी भी प्राइमार्क स्टोर में लौटाएं।"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "धनवापसी"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "Primark отзывает плюшевую сумку DTR Stitch и плюшевую сумку DTR Angel из-за риска удушья",
+          "Description": "Primark отзывает плюшевую сумку DTR Stitch и плюшевую сумку DTR Angel из-за проблем с безопасностью. Сумки Stitch доступны в синем цвете, в то время как сумки Angel представлены в фиолетовом. Каждая сумка имеет размеры примерно 10 дюймов в длину и 8 дюймов в ширину, с ярлыком по уходу, прикрепленным к боковой стороне.",
+          "ConsumerContact": "Для получения дополнительной информации потребители могут связаться с Primark по телефону 617-946-3236 с 8:00 до 17:00 по восточному времени, с понедельника по пятницу, или посетить www.primark.com/recall. Альтернативно, посетите www.primark.com и нажмите на 'Recall' внизу страницы.",
+          "metaDescription": "Primark отзывает плюшевую сумку DTR Stitch и Angel из-за опасностей удушья. Верните для полного возмещения. Узнайте больше здесь.",
+          "Products": [
+            {
+              "Name": "Плюшевая сумка DTR Stitch",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 2900"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванная плюшевая сумка Primark DTR - Stitch"
+            },
+            {
+              "Caption": "Отозванная плюшевая сумка Primark DTR - Angel"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Не сообщалось"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Магазины Primark на Северо-востоке, во Флориде, Мэриленде и Иллинойсе с марта 2024 года по октябрь 2024 года, по цене около 6 долларов."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Primark US Corp., Бостон, Массачусетс"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Продается в",
+          "ManufacturerCountries": [
+            {
+              "Country": "Китай"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Съемный язычок молнии представляет собой опасность удушья и проглатывания."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Верните плюшевые сумки в любой магазин Primark для полного возмещения."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Возврат"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "Primark thu hồi túi nhồi bông DTR Stitch và túi nhồi bông DTR Angel do nguy cơ nghẹt thở",
+          "Description": "Primark đang thu hồi túi nhồi bông DTR Stitch và túi nhồi bông DTR Angel do những lo ngại về an toàn. Túi Stitch có màu xanh, trong khi túi Angel có màu tím. Mỗi túi có kích thước khoảng 10 inch chiều dài và 8 inch chiều rộng, có nhãn chăm sóc gắn bên hông.\n",
+          "ConsumerContact": "Để biết thêm thông tin, người tiêu dùng có thể liên hệ với Primark qua số 617-946-3236 từ 8 giờ sáng đến 5 giờ chiều ET, từ thứ Hai đến thứ Sáu, hoặc truy cập www.primark.com/recall. Ngoài ra, truy cập www.primark.com và nhấp vào 'Recall' ở cuối trang.",
+          "metaDescription": "Primark thu hồi túi nhồi bông DTR Stitch và Angel do nguy cơ nghẹt thở. Trả lại để được hoàn tiền đầy đủ. Tìm hiểu thêm tại đây.",
+          "Products": [
+            {
+              "Name": "Túi nhồi bông DTR Stitch",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 2,900"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Túi nhồi bông DTR Primark - Stitch đã bị thu hồi"
+            },
+            {
+              "Caption": "Túi nhồi bông DTR Primark - Angel đã bị thu hồi"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Không có báo cáo nào"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Các cửa hàng Primark ở miền Đông Bắc, Florida, Maryland và Illinois từ tháng 3 năm 2024 đến tháng 10 năm 2024, có giá khoảng 6 đô la."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Primark US Corp., ở Boston, Massachusetts"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Bán Tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Trung Quốc"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Móc kéo khóa có thể tháo rời gây nguy cơ nghẹt thở và nuốt phải."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Trả lại các túi nhồi bông tại bất kỳ cửa hàng Primark nào để được hoàn tiền đầy đủ."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Hoàn tiền"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    }
+  ]
+}

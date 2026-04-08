@@ -1,0 +1,3432 @@
+{
+  "meta": {
+    "slug": "other-furniture",
+    "sourceCsvFile": "other-furniture_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:37.016Z",
+    "recallCount": 4,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "other-furniture.json",
+    "seoTranslatedAt": "2026-04-05T02:02:39.241Z",
+    "resumePartial": false,
+    "i18nSource": "generalRecallsTranslated",
+    "i18nSourceFile": "other-furniture.json",
+    "i18nUiLangs": [
+      "en",
+      "es",
+      "ar",
+      "zh",
+      "fr",
+      "de",
+      "ja",
+      "pt",
+      "hi",
+      "ru",
+      "vi"
+    ],
+    "i18nProgressByLang": {
+      "es": 4,
+      "ar": 4,
+      "zh": 4,
+      "fr": 4,
+      "de": 4,
+      "ja": 4,
+      "pt": 4,
+      "hi": 4,
+      "ru": 4,
+      "vi": 4
+    },
+    "i18nInProgress": false,
+    "i18nTranslatedAt": "2026-04-07T16:01:18.325Z",
+    "i18nOpenaiModel": "gpt-4o-mini"
+  },
+  "recalls": [
+    {
+      "RecallID": 10561,
+      "RecallNumber": "26192",
+      "RecallDate": "2026-01-15T00:00:00",
+      "Description": "Adams Manufacturing is recalling Adirondack-style patio chairs sold under the brands Adams RealComfort and StyleWell. These resin chairs feature slat backs and seats and were available in various colors including blue, dark gray, navy blue, taupe, light blue, lime green, and teal. The recalled chairs are marked with the model number \"ML837-15\" and a manufacture date of August 2025, which can be found on the underside of the chairs.",
+      "URL": "https://www.cpsc.gov/Recalls/2026/Adams-Manufacturing-Recalls-Adirondack-Patio-Chairs-Due-to-Injury-and-Fall-Hazards",
+      "Title": "Adams Manufacturing Issues Recall for Adirondack Patio Chairs Due to Injury Risks",
+      "ConsumerContact": "For further assistance, consumers can reach Adams Manufacturing at 866-546-1806 from 8 a.m. to 4:30 p.m. ET, Monday through Friday, email recalls@adamsmfg.com, or visit www.adamsmfg.com/recalls for more details.",
+      "LastPublishDate": "2026-01-16T00:00:00",
+      "Products": [
+        {
+          "Name": "Adams RealComfort Adirondack Chair",
+          "NumberOfUnits": "About 6,100"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/other-furniture/1-Adams-RealComfort-Adirondack-Chair/55ddc21d2d420bcfdfc26ae958bb01aa.webp",
+          "Caption": "Recalled Adams and StyleWell Adirondack Patio Chair",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/StyleWell-1.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/other-furniture/1-Adams-RealComfort-Adirondack-Chair/d3cf48129c7fff9abf39784adc54bbca.webp",
+          "Caption": "ML837-15 and the manufacture date of August 2025 are molded on the underside of the recalled chairs",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/StyleWell-2.jpg"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "Adams Manufacturing Corp., of Portersville, Pennsylvania"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Lowe's stores nationwide"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "United States"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of cracking and collapsing, leading to injury and fall hazards."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Stop using the chairs immediately and return them to Lowe's or Home Depot for a full refund."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "ML837-15",
+        "August 2025"
+      ],
+      "slug": "adams-manufacturing-issues-recall-for-adirondack-patio-chairs-due-to-injury-risks-recall",
+      "metaDescription": "Adams Manufacturing recalls Adirondack patio chairs due to injury risks. Learn how to return your chair for a refund.",
+      "languages": {
+        "en": {
+          "Title": "Adams Manufacturing Issues Recall for Adirondack Patio Chairs Due to Injury Risks",
+          "Description": "Adams Manufacturing is recalling Adirondack-style patio chairs sold under the brands Adams RealComfort and StyleWell. These resin chairs feature slat backs and seats and were available in various colors including blue, dark gray, navy blue, taupe, light blue, lime green, and teal. The recalled chairs are marked with the model number \"ML837-15\" and a manufacture date of August 2025, which can be found on the underside of the chairs.",
+          "ConsumerContact": "For further assistance, consumers can reach Adams Manufacturing at 866-546-1806 from 8 a.m. to 4:30 p.m. ET, Monday through Friday, email recalls@adamsmfg.com, or visit www.adamsmfg.com/recalls for more details.",
+          "metaDescription": "Adams Manufacturing recalls Adirondack patio chairs due to injury risks. Learn how to return your chair for a refund.",
+          "Products": [
+            {
+              "Name": "Adams RealComfort Adirondack Chair",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 6,100"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled Adams and StyleWell Adirondack Patio Chair"
+            },
+            {
+              "Caption": "ML837-15 and the manufacture date of August 2025 are molded on the underside of the recalled chairs"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "None reported"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Lowe's stores nationwide"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Adams Manufacturing Corp., of Portersville, Pennsylvania"
+            }
+          ],
+          "SoldAtLabel": "Sold At",
+          "ManufacturerCountries": [
+            {
+              "Country": "United States"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risk of cracking and collapsing, leading to injury and fall hazards."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Stop using the chairs immediately and return them to Lowe's or Home Depot for a full refund."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Refund"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "Adams Manufacturing Emite un Retiro de Sillas de Patio Adirondack Debido a Riesgos de Lesiones",
+          "Description": "Adams Manufacturing está retirando del mercado sillas de patio estilo Adirondack vendidas bajo las marcas Adams RealComfort y StyleWell. Estas sillas de resina cuentan con respaldos y asientos de listones y estaban disponibles en varios colores, incluyendo azul, gris oscuro, azul marino, topo, azul claro, verde lima y verde azulado. Las sillas retiradas están marcadas con el número de modelo \"ML837-15\" y una fecha de fabricación de agosto de 2025, que se puede encontrar en la parte inferior de las sillas.",
+          "ConsumerContact": "Para más asistencia, los consumidores pueden comunicarse con Adams Manufacturing al 866-546-1806 de 8 a.m. a 4:30 p.m. ET, de lunes a viernes, enviar un correo electrónico a recalls@adamsmfg.com, o visitar www.adamsmfg.com/recalls para más detalles.",
+          "metaDescription": "Adams Manufacturing retira sillas de patio Adirondack debido a riesgos de lesiones. Aprenda cómo devolver su silla para obtener un reembolso.",
+          "Products": [
+            {
+              "Name": "Silla Adirondack Adams RealComfort",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 6,100"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Silla de Patio Adirondack Adams y StyleWell retirada"
+            },
+            {
+              "Caption": "ML837-15 y la fecha de fabricación de agosto de 2025 están moldeadas en la parte inferior de las sillas retiradas"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Ninguna reportada"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Tiendas Lowe's en todo el país"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Adams Manufacturing Corp., de Portersville, Pennsylvania"
+            }
+          ],
+          "SoldAtLabel": "Vendidas En",
+          "ManufacturerCountries": [
+            {
+              "Country": "Estados Unidos"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Riesgo de agrietamiento y colapso, lo que lleva a riesgos de lesiones y caídas."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Deje de usar las sillas de inmediato y devuélvalas a Lowe's o Home Depot para un reembolso completo."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reembolso"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "شركة آدامز للتصنيع تصدر استدعاء لكراسي باتيو أديوندراك بسبب مخاطر الإصابة",
+          "Description": "تقوم شركة آدامز للتصنيع باستدعاء كراسي باتيو على طراز أديوندراك التي تم بيعها تحت علامتي آدامز ريال كومفورت وستايل ويل. هذه الكراسي المصنوعة من الراتنج تتميز بظهر ومقاعد مشطوفة وكانت متاحة بألوان مختلفة بما في ذلك الأزرق، الرمادي الداكن، الأزرق البحري، البيج، الأزرق الفاتح، الأخضر الليموني، والأخضر الفاتح. الكراسي المستدعاة تحمل رقم الطراز \"ML837-15\" وتاريخ تصنيع في أغسطس 2025، والذي يمكن العثور عليه في الجزء السفلي من الكراسي.",
+          "ConsumerContact": "للمزيد من المساعدة، يمكن للمستهلكين الاتصال بشركة آدامز للتصنيع على الرقم 866-546-1806 من الساعة 8 صباحًا حتى 4:30 مساءً بتوقيت شرق الولايات المتحدة، من الاثنين إلى الجمعة، أو عبر البريد الإلكتروني recalls@adamsmfg.com، أو زيارة www.adamsmfg.com/recalls لمزيد من التفاصيل.",
+          "metaDescription": "شركة آدامز للتصنيع تستدعي كراسي باتيو أديوندراك بسبب مخاطر الإصابة. تعرف على كيفية إعادة كرسيك لاسترداد الأموال.",
+          "Products": [
+            {
+              "Name": "كرسي أديوندراك آدامز ريال كومفورت",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 6,100"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "كرسي باتيو أديوندراك المستدعى من آدامز وستايل ويل"
+            },
+            {
+              "Caption": "رقم الطراز ML837-15 وتاريخ التصنيع في أغسطس 2025 مُشكل على الجزء السفلي من الكراسي المستدعاة"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "لا توجد إصابات مُبلغ عنها"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "متاجر لوي"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "شركة آدامز للتصنيع، من بورتيرسفيل، بنسلفانيا"
+            }
+          ],
+          "SoldAtLabel": "تم البيع في",
+          "ManufacturerCountries": [
+            {
+              "Country": "الولايات المتحدة"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "خطر التشقق والانهيار، مما يؤدي إلى مخاطر الإصابة والسقوط."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "توقف عن استخدام الكراسي على الفور وأعدها إلى لوي أو هوم ديبوت لاسترداد كامل المبلغ."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "استرداد"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "亚当斯制造公司因受伤风险召回阿迪朗达克露台椅",
+          "Description": "亚当斯制造公司正在召回以亚当斯RealComfort和StyleWell品牌销售的阿迪朗达克风格露台椅。这些树脂椅子具有条形靠背和座椅，提供多种颜色，包括蓝色、深灰色、海军蓝、土色、浅蓝色、青柠绿色和青色。被召回的椅子标有型号 \"ML837-15\" 和制造日期为2025年8月，可以在椅子的底部找到。",
+          "ConsumerContact": "如需进一步帮助，消费者可以在周一至周五的东部时间上午8点至下午4:30拨打866-546-1806联系亚当斯制造公司，或发送电子邮件至recalls@adamsmfg.com，或访问www.adamsmfg.com/recalls获取更多详情。",
+          "metaDescription": "亚当斯制造公司因受伤风险召回阿迪朗达克露台椅。了解如何退回您的椅子以获得退款。",
+          "Products": [
+            {
+              "Name": "亚当斯RealComfort阿迪朗达克椅",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约6100个"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "被召回的亚当斯和StyleWell阿迪朗达克露台椅"
+            },
+            {
+              "Caption": "ML837-15和制造日期为2025年8月模压在被召回椅子的底部"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "没有报告的伤害"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "全国范围内的Lowe's商店"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "亚当斯制造公司，位于宾夕法尼亚州波特斯维尔"
+            }
+          ],
+          "SoldAtLabel": "销售地点",
+          "ManufacturerCountries": [
+            {
+              "Country": "美国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "破裂和倒塌的风险，导致受伤和跌倒的危险。"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "立即停止使用这些椅子，并将其退回Lowe's或Home Depot以获得全额退款。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "退款"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "Adams Manufacturing rappelle des chaises de patio Adirondack en raison de risques de blessures",
+          "Description": "Adams Manufacturing rappelle des chaises de patio de style Adirondack vendues sous les marques Adams RealComfort et StyleWell. Ces chaises en résine présentent des dossiers et des sièges à lattes et étaient disponibles dans diverses couleurs, y compris bleu, gris foncé, bleu marine, taupe, bleu clair, vert lime et teal. Les chaises rappelées sont marquées du numéro de modèle \"ML837-15\" et d'une date de fabrication d'août 2025, qui peut être trouvée sous les chaises.\n",
+          "ConsumerContact": "Pour toute assistance supplémentaire, les consommateurs peuvent contacter Adams Manufacturing au 866-546-1806 de 8 h à 16 h 30 HE, du lundi au vendredi, envoyer un courriel à recalls@adamsmfg.com, ou visiter www.adamsmfg.com/recalls pour plus de détails.",
+          "metaDescription": "Adams Manufacturing rappelle des chaises de patio Adirondack en raison de risques de blessures. Apprenez comment retourner votre chaise pour un remboursement.",
+          "Products": [
+            {
+              "Name": "Chaise Adirondack Adams RealComfort",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 6 100"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Chaise de patio Adirondack Adams et StyleWell rappelée"
+            },
+            {
+              "Caption": "ML837-15 et la date de fabrication d'août 2025 sont moulés sous les chaises rappelées"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Aucune signalée"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Magasins Lowe's à l'échelle nationale"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Adams Manufacturing Corp., de Portersville, Pennsylvanie"
+            }
+          ],
+          "SoldAtLabel": "Vendu À",
+          "ManufacturerCountries": [
+            {
+              "Country": "États-Unis"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risque de fissuration et d'effondrement, entraînant des risques de blessures et de chutes."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Cesser immédiatement d'utiliser les chaises et les retourner à Lowe's ou Home Depot pour un remboursement complet."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Remboursement"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "Adams Manufacturing ruft Adirondack-Gartenstühle wegen Verletzungsrisiken zurück",
+          "Description": "Adams Manufacturing ruft Adirondack-Gartenstühle zurück, die unter den Marken Adams RealComfort und StyleWell verkauft wurden. Diese Kunststoffstühle verfügen über Lattenrücken und -sitze und waren in verschiedenen Farben erhältlich, darunter Blau, Dunkelgrau, Marineblau, Taupe, Hellblau, Limettengrün und Türkis. Die zurückgerufenen Stühle sind mit der Modellnummer \"ML837-15\" und einem Herstellungsdatum von August 2025 gekennzeichnet, das auf der Unterseite der Stühle zu finden ist.",
+          "ConsumerContact": "Für weitere Unterstützung können Verbraucher Adams Manufacturing unter 866-546-1806 von 8:00 bis 16:30 Uhr ET, Montag bis Freitag, kontaktieren, eine E-Mail an recalls@adamsmfg.com senden oder www.adamsmfg.com/recalls besuchen, um weitere Details zu erhalten.",
+          "metaDescription": "Adams Manufacturing ruft Adirondack-Gartenstühle wegen Verletzungsrisiken zurück. Erfahren Sie, wie Sie Ihren Stuhl für eine Rückerstattung zurückgeben können.",
+          "Products": [
+            {
+              "Name": "Adams RealComfort Adirondack Stuhl",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 6.100"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Zurückgerufener Adams und StyleWell Adirondack Gartenstuhl"
+            },
+            {
+              "Caption": "ML837-15 und das Herstellungsdatum von August 2025 sind auf der Unterseite der zurückgerufenen Stühle eingeprägt"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Keine gemeldet"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Lowe's-Filialen landesweit"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Adams Manufacturing Corp., aus Portersville, Pennsylvania"
+            }
+          ],
+          "SoldAtLabel": "Verkauft bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "Vereinigte Staaten"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risiko von Rissen und Zusammenbrüchen, was zu Verletzungen und Sturzgefahren führen kann."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Hören Sie sofort auf, die Stühle zu benutzen, und geben Sie sie bei Lowe's oder Home Depot für eine volle Rückerstattung zurück."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Rückerstattung"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "アダムス製造が怪我のリスクによりアディロンダックパティオチェアのリコールを発表",
+          "Description": "アダムス製造は、アダムス・リアルコンフォートおよびスタイルウェルブランドで販売されたアディロンダックスタイルのパティオチェアをリコールしています。これらの樹脂製チェアはスラットバックとシートを特徴としており、青、ダークグレー、ネイビーブルー、トープ、ライトブルー、ライムグリーン、ティールなどのさまざまな色で提供されていました。リコール対象のチェアにはモデル番号「ML837-15」と製造日2025年8月が記載されており、チェアの裏側で確認できます。",
+          "ConsumerContact": "さらなる支援が必要な場合、消費者はアダムス製造に866-546-1806までお電話いただくか、月曜日から金曜日の午前8時から午後4時30分（ET）まで、メールでrecalls@adamsmfg.comに連絡するか、www.adamsmfg.com/recallsを訪れて詳細をご確認ください。",
+          "metaDescription": "アダムス製造が怪我のリスクによりアディロンダックパティオチェアをリコール。チェアを返却して返金を受ける方法を学びましょう。",
+          "Products": [
+            {
+              "Name": "アダムス・リアルコンフォート・アディロンダックチェア",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約6,100"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコールされたアダムスおよびスタイルウェルのアディロンダックパティオチェア"
+            },
+            {
+              "Caption": "ML837-15および製造日2025年8月がリコールされたチェアの裏側に成形されています"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "報告された怪我はなし"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "全国のローズストア"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "アダムス製造株式会社（ペンシルベニア州ポータースビル）"
+            }
+          ],
+          "SoldAtLabel": "販売場所",
+          "ManufacturerCountries": [
+            {
+              "Country": "アメリカ合衆国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "割れや崩壊のリスクがあり、怪我や転倒の危険を引き起こす可能性があります。"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "チェアの使用を直ちに中止し、ローズまたはホームデポに返却して全額返金を受けてください。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "返金"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "Adams Manufacturing Emite Recall para Cadeiras de Pátio Adirondack Devido a Riscos de Lesões",
+          "Description": "Adams Manufacturing está recallando cadeiras de pátio estilo Adirondack vendidas sob as marcas Adams RealComfort e StyleWell. Essas cadeiras de resina possuem encostos e assentos com ripas e estavam disponíveis em várias cores, incluindo azul, cinza escuro, azul marinho, taupe, azul claro, verde limão e teal. As cadeiras recalladas estão marcadas com o número do modelo \"ML837-15\" e uma data de fabricação de agosto de 2025, que pode ser encontrada na parte inferior das cadeiras.",
+          "ConsumerContact": "Para mais assistência, os consumidores podem entrar em contato com a Adams Manufacturing pelo telefone 866-546-1806 das 8h às 16h30 ET, de segunda a sexta-feira, enviar um e-mail para recalls@adamsmfg.com ou visitar www.adamsmfg.com/recalls para mais detalhes.",
+          "metaDescription": "Adams Manufacturing recall cadeiras de pátio Adirondack devido a riscos de lesões. Aprenda como devolver sua cadeira para um reembolso.",
+          "Products": [
+            {
+              "Name": "Cadeira Adirondack Adams RealComfort",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 6.100"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Cadeira de Pátio Adirondack Adams e StyleWell recallada"
+            },
+            {
+              "Caption": "ML837-15 e a data de fabricação de agosto de 2025 estão moldadas na parte inferior das cadeiras recalladas"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Nenhuma relatada"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Lojas Lowe's em todo o país"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Adams Manufacturing Corp., de Portersville, Pennsylvania"
+            }
+          ],
+          "SoldAtLabel": "Vendidas Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "Estados Unidos"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risco de rachaduras e colapsos, levando a riscos de lesões e quedas."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Pare de usar as cadeiras imediatamente e devolva-as à Lowe's ou Home Depot para um reembolso total."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reembolso"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "एडम्स मैन्युफैक्चरिंग ने चोट के जोखिम के कारण एडिरोंडैक पैटियो कुर्सियों की रिकॉल की घोषणा की",
+          "Description": "एडम्स मैन्युफैक्चरिंग एडिरोंडैक-शैली की पैटियो कुर्सियों को रिकॉल कर रहा है जो एडम्स रियलकम्फर्ट और स्टाइलवेल ब्रांडों के तहत बेची गई थीं। ये रेजिन कुर्सियाँ स्लैट बैक और सीट्स के साथ आती हैं और विभिन्न रंगों में उपलब्ध थीं, जिनमें नीला, गहरा ग्रे, नौसेना नीला, टौप, हल्का नीला, चूना हरा, और टील शामिल हैं। रिकॉल की गई कुर्सियों पर मॉडल नंबर \"ML837-15\" और अगस्त 2025 की निर्माण तिथि अंकित है, जो कुर्सियों के नीचे पाई जा सकती है।",
+          "ConsumerContact": "अधिक सहायता के लिए, उपभोक्ता एडम्स मैन्युफैक्चरिंग से 866-546-1806 पर सुबह 8 बजे से शाम 4:30 बजे ET, सोमवार से शुक्रवार, ईमेल recalls@adamsmfg.com पर संपर्क कर सकते हैं, या अधिक जानकारी के लिए www.adamsmfg.com/recalls पर जा सकते हैं।",
+          "metaDescription": "एडम्स मैन्युफैक्चरिंग चोट के जोखिम के कारण एडिरोंडैक पैटियो कुर्सियों को रिकॉल करता है। जानें कि अपने कुर्सी को रिफंड के लिए कैसे वापस करें।",
+          "Products": [
+            {
+              "Name": "एडम्स रियलकम्फर्ट एडिरोंडैक कुर्सी",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 6,100"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "रिकॉल की गई एडम्स और स्टाइलवेल एडिरोंडैक पैटियो कुर्सी"
+            },
+            {
+              "Caption": "ML837-15 और अगस्त 2025 की निर्माण तिथि रिकॉल की गई कुर्सियों के नीचे अंकित है"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "कोई रिपोर्ट नहीं की गई"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "लौव के स्टोर देशभर में"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "एडम्स मैन्युफैक्चरिंग कॉर्प, पोर्टर्सविल, पेंसिल्वेनिया"
+            }
+          ],
+          "SoldAtLabel": "बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "संयुक्त राज्य अमेरिका"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "दरार और ढहने का जोखिम, जिससे चोट और गिरने का खतरा होता है।"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "कुर्सियों का उपयोग तुरंत बंद करें और उन्हें लौव या होम डिपो पर पूरी रिफंड के लिए वापस करें।"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "रिफंड"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "Компания Adams Manufacturing отзывает Adirondack кресла для патио из-за риска травм",
+          "Description": "Компания Adams Manufacturing отзывает Adirondack кресла для патио, продававшиеся под брендами Adams RealComfort и StyleWell. Эти смолистые кресла имеют спинки и сиденья из планок и были доступны в различных цветах, включая синий, темно-серый, темно-синий, бежевый, светло-голубой, лаймовый и бирюзовый. Отозванные кресла помечены модельным номером \"ML837-15\" и датой производства август 2025 года, которые можно найти на нижней стороне кресел.",
+          "ConsumerContact": "Для получения дополнительной помощи потребители могут обратиться в Adams Manufacturing по телефону 866-546-1806 с 8:00 до 16:30 по восточному времени с понедельника по пятницу, отправить электронное письмо на адрес recalls@adamsmfg.com или посетить www.adamsmfg.com/recalls для получения дополнительной информации.",
+          "metaDescription": "Компания Adams Manufacturing отзывает Adirondack кресла для патио из-за риска травм. Узнайте, как вернуть ваше кресло для получения возврата.",
+          "Products": [
+            {
+              "Name": "Adams RealComfort Adirondack Chair",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 6,100"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванное Adirondack кресло для патио Adams и StyleWell"
+            },
+            {
+              "Caption": "ML837-15 и дата производства август 2025 года выбиты на нижней стороне отозванных кресел"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Не сообщалось"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Магазины Lowe's по всей стране"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Adams Manufacturing Corp., Портерсвилл, Пенсильвания"
+            }
+          ],
+          "SoldAtLabel": "Продавалось в",
+          "ManufacturerCountries": [
+            {
+              "Country": "Соединенные Штаты"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Риск трещин и обрушения, что может привести к травмам и падениям."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Немедленно прекратите использование кресел и верните их в Lowe's или Home Depot для полного возврата."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Возврат"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "Adams Manufacturing thu hồi ghế patio kiểu Adirondack do nguy cơ chấn thương",
+          "Description": "Adams Manufacturing đang thu hồi ghế patio kiểu Adirondack được bán dưới các thương hiệu Adams RealComfort và StyleWell. Những chiếc ghế nhựa này có lưng và ghế dạng thanh và có sẵn trong nhiều màu sắc bao gồm xanh dương, xám đậm, xanh hải quân, nâu xám, xanh nhạt, xanh chanh và xanh lam. Các ghế bị thu hồi được đánh dấu với số mô hình \"ML837-15\" và ngày sản xuất tháng 8 năm 2025, có thể được tìm thấy ở mặt dưới của ghế.",
+          "ConsumerContact": "Để được hỗ trợ thêm, người tiêu dùng có thể liên hệ với Adams Manufacturing theo số 866-546-1806 từ 8 giờ sáng đến 4 giờ 30 chiều ET, từ thứ Hai đến thứ Sáu, gửi email đến recalls@adamsmfg.com, hoặc truy cập www.adamsmfg.com/recalls để biết thêm chi tiết.",
+          "metaDescription": "Adams Manufacturing thu hồi ghế patio Adirondack do nguy cơ chấn thương. Tìm hiểu cách trả lại ghế của bạn để được hoàn tiền.",
+          "Products": [
+            {
+              "Name": "Ghế Adirondack Adams RealComfort",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 6.100"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Ghế patio Adirondack Adams và StyleWell bị thu hồi"
+            },
+            {
+              "Caption": "ML837-15 và ngày sản xuất tháng 8 năm 2025 được đúc ở mặt dưới của các ghế bị thu hồi"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Không có báo cáo"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Các cửa hàng Lowe's trên toàn quốc"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Công ty Adams Manufacturing, Portersville, Pennsylvania"
+            }
+          ],
+          "SoldAtLabel": "Bán Tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Hoa Kỳ"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Nguy cơ nứt và sập, dẫn đến nguy cơ chấn thương và ngã."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Ngừng sử dụng ghế ngay lập tức và trả lại cho Lowe's hoặc Home Depot để được hoàn tiền đầy đủ."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Hoàn tiền"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    },
+    {
+      "RecallID": 10078,
+      "RecallNumber": "25028",
+      "RecallDate": "2024-10-31T00:00:00",
+      "Description": "Manhattan Comfort is recalling its Cabrini 1.8, Cabrini 2.2, City 1.8, City 2.2, and Utopia Wall Mounted Floating Theater Entertainment Centers. These units, available in white gloss, black gloss, maple cream, and off-white finishes, are designed to be mounted on walls. They are made from MDF and come in various sizes. The recall affects specific model numbers with distinct dimensions, which could lead to safety hazards if not properly installed.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/Manhattan-Comfort-Recalls-Floating-Wall-Theater-Entertainment-Centers-and-Panels-Due-to-Injury-Hazard",
+      "Title": "Manhattan Comfort Recalls Floating Wall Theater Entertainment Centers and Panels Due to Injury Risk",
+      "ConsumerContact": "For assistance, consumers can reach Manhattan Comfort toll-free at 888-230-2225 from 9 a.m. to 5 p.m. ET, Monday through Thursday, and 9 a.m. to 1 p.m. ET on Friday. Alternatively, they can email manhattanrecalls@gmail.com or visit https://www.manhattancomfort.com/recall for more details.",
+      "LastPublishDate": "2024-10-31T00:00:00",
+      "Products": [
+        {
+          "Name": "Cabrini 1.8 Floating Wall Theater",
+          "NumberOfUnits": "About 46,750"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/other-furniture/2-Cabrini-1-8-Floating-Wall-Theater/db0dfd98d2c031d34d4302ca7d2ccd54.webp",
+          "Caption": "Recalled Manhattan Comfort Floating Wall Theater Entertainment Center and Panels 23700 - City 1.8 (23753 Black Gloss)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Manhattan-1.png"
+        },
+        {
+          "URL": "/images/generalRecalls/other-furniture/2-Cabrini-1-8-Floating-Wall-Theater/e830307da276bc9caf66546626afad6b.webp",
+          "Caption": "Recalled Manhattan Comfort Floating Wall Theater Entertainment Center and Panels 23700 - City 1.8 (23751 Nut Brown)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Manhattan-2.png"
+        },
+        {
+          "URL": "/images/generalRecalls/other-furniture/2-Cabrini-1-8-Floating-Wall-Theater/c09c9f1253e9fab6d8d506fef99a5c72.webp",
+          "Caption": "Recalled Manhattan Comfort Floating Wall Theater Entertainment Center and Panels 23700 - City 1.8 (23754 Maple Cream)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Manhattan-3.png"
+        },
+        {
+          "URL": "/images/generalRecalls/other-furniture/2-Cabrini-1-8-Floating-Wall-Theater/8d2a167d78261c6363319b9c51402208.webp",
+          "Caption": "Recalled Manhattan Comfort Floating Wall Theater Entertainment Center and Panels 23700 - City 1.8 (23572 White Gloss)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Manhattan-5.png"
+        },
+        {
+          "URL": "/images/generalRecalls/other-furniture/2-Cabrini-1-8-Floating-Wall-Theater/56589abaf42f9d86069b3f9cbd93a846.webp",
+          "Caption": "Recalled Manhattan Comfort Floating Wall Theater Entertainment Center and Panels 23800- Cabrini 2.2 (23853 Black Gloss)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Manhattan-6.png"
+        },
+        {
+          "URL": "/images/generalRecalls/other-furniture/2-Cabrini-1-8-Floating-Wall-Theater/7d3b315c3970afb259a1c617366d5da3.webp",
+          "Caption": "Recalled Manhattan Comfort Floating Wall Theater Entertainment Center and Panels 23800- Cabrini 2.2 (23854 Maple Cream)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Manhattan-7.png"
+        },
+        {
+          "URL": "/images/generalRecalls/other-furniture/2-Cabrini-1-8-Floating-Wall-Theater/3d9103d8a3a3fa0db610bdae7a99a8d7.webp",
+          "Caption": "Recalled Manhattan Comfort Floating Wall Theater Entertainment Center and Panels 23800- Cabrini 2.2 (23852 White Gloss)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Manhattan-8.png"
+        },
+        {
+          "URL": "/images/generalRecalls/other-furniture/2-Cabrini-1-8-Floating-Wall-Theater/549f672160f328fa5c7dccfc6e0c1824.webp",
+          "Caption": "Recalled Manhattan Comfort Floating Wall Theater Entertainment Center and Panels 25100- City 1.8 (25152 White Gloss)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Manhattan-9.png"
+        },
+        {
+          "URL": "/images/generalRecalls/other-furniture/2-Cabrini-1-8-Floating-Wall-Theater/d2db2ff97caad86022ab4fbad577c048.webp",
+          "Caption": "Recalled Manhattan Comfort Floating Wall Theater Entertainment Center and Panels 25100- City 1.8 (25153 Maple Cream)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Manhattan-10.png"
+        },
+        {
+          "URL": "/images/generalRecalls/other-furniture/2-Cabrini-1-8-Floating-Wall-Theater/b6e774f64c21ffe571f6447347e0c78d.webp",
+          "Caption": "Recalled Manhattan Comfort Floating Wall Theater Entertainment Center and Panels 25200- City 2.2 (25253 Maple Cream)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Manhattan-11.png"
+        },
+        {
+          "URL": "/images/generalRecalls/other-furniture/2-Cabrini-1-8-Floating-Wall-Theater/515dbc68695f3d9418100d84ea8f408d.webp",
+          "Caption": "Recalled Manhattan Comfort Floating Wall Theater Entertainment Center and Panels 25200- City 2.2 (25252 White Gloss)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Manhattan-12.png"
+        },
+        {
+          "URL": "/images/generalRecalls/other-furniture/2-Cabrini-1-8-Floating-Wall-Theater/b9eb494da1e0bffccf527ef5e3183640.webp",
+          "Caption": "Recalled Manhattan Comfort Floating Wall Theater Entertainment Center and Panels 27900- Utopia (27951 Off White)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Manhattan-13.png"
+        },
+        {
+          "URL": "/images/generalRecalls/other-furniture/2-Cabrini-1-8-Floating-Wall-Theater/acabc4ced7dd3031802ceaf94ae93ef0.webp",
+          "Caption": "Recalled Manhattan Comfort Floating Wall Theater and Entertainment Center and Panels 27900- Utopia (27952 Maple Cream)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Manhattan-14.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received 51 reports of the panels detaching, including three minor injuries such as scrapes and bruising."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available online at Wayfair, Home Depot, Target, ShopHQ, Walmart, Overstock, Macy's, Lowe's, ATG Stores, Unbeatable Sales, JET, Bed Bath & Beyond, Dropship Central, 123 Stores, OJ Commerce, Hayneedle, Cymax, and Houzz from March 2015 through March 2024, priced between $380 and $1,465."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Manhattan Comfort Inc., of Dayton, New Jersey"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "Brazil"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of panels detaching when improperly mounted, posing an injury hazard."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Free repair with toggle bolts and installation instructions."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "23700, 23751, 23572, 23753, 23754, 23800, 23851, 23852, 23853, 23854, 25100, 25151, 25152, 25153, 25200, 25251, 25252, 25253, 27900, 27951, 27952"
+      ],
+      "slug": "manhattan-comfort-recalls-floating-wall-theater-entertainment-centers-and-panels-due-to-injury-risk-recall",
+      "metaDescription": "Manhattan Comfort recalls Floating Wall Theater Entertainment Centers due to injury risks. Check details for safety information and remedies.",
+      "languages": {
+        "en": {
+          "Title": "Manhattan Comfort Recalls Floating Wall Theater Entertainment Centers and Panels Due to Injury Risk",
+          "Description": "Manhattan Comfort is recalling its Cabrini 1.8, Cabrini 2.2, City 1.8, City 2.2, and Utopia Wall Mounted Floating Theater Entertainment Centers. These units, available in white gloss, black gloss, maple cream, and off-white finishes, are designed to be mounted on walls. They are made from MDF and come in various sizes. The recall affects specific model numbers with distinct dimensions, which could lead to safety hazards if not properly installed.",
+          "ConsumerContact": "For assistance, consumers can reach Manhattan Comfort toll-free at 888-230-2225 from 9 a.m. to 5 p.m. ET, Monday through Thursday, and 9 a.m. to 1 p.m. ET on Friday. Alternatively, they can email manhattanrecalls@gmail.com or visit https://www.manhattancomfort.com/recall for more details.",
+          "metaDescription": "Manhattan Comfort recalls Floating Wall Theater Entertainment Centers due to injury risks. Check details for safety information and remedies.",
+          "Products": [
+            {
+              "Name": "Cabrini 1.8 Floating Wall Theater",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 46,750"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled Manhattan Comfort Floating Wall Theater Entertainment Center and Panels 23700 - City 1.8 (23753 Black Gloss)"
+            },
+            {
+              "Caption": "Recalled Manhattan Comfort Floating Wall Theater Entertainment Center and Panels 23700 - City 1.8 (23751 Nut Brown)"
+            },
+            {
+              "Caption": "Recalled Manhattan Comfort Floating Wall Theater Entertainment Center and Panels 23700 - City 1.8 (23754 Maple Cream)"
+            },
+            {
+              "Caption": "Recalled Manhattan Comfort Floating Wall Theater Entertainment Center and Panels 23700 - City 1.8 (23572 White Gloss)"
+            },
+            {
+              "Caption": "Recalled Manhattan Comfort Floating Wall Theater Entertainment Center and Panels 23800- Cabrini 2.2 (23853 Black Gloss)"
+            },
+            {
+              "Caption": "Recalled Manhattan Comfort Floating Wall Theater Entertainment Center and Panels 23800- Cabrini 2.2 (23854 Maple Cream)"
+            },
+            {
+              "Caption": "Recalled Manhattan Comfort Floating Wall Theater Entertainment Center and Panels 23800- Cabrini 2.2 (23852 White Gloss)"
+            },
+            {
+              "Caption": "Recalled Manhattan Comfort Floating Wall Theater Entertainment Center and Panels 25100- City 1.8 (25152 White Gloss)"
+            },
+            {
+              "Caption": "Recalled Manhattan Comfort Floating Wall Theater Entertainment Center and Panels 25100- City 1.8 (25153 Maple Cream)"
+            },
+            {
+              "Caption": "Recalled Manhattan Comfort Floating Wall Theater Entertainment Center and Panels 25200- City 2.2 (25253 Maple Cream)"
+            },
+            {
+              "Caption": "Recalled Manhattan Comfort Floating Wall Theater Entertainment Center and Panels 25200- City 2.2 (25252 White Gloss)"
+            },
+            {
+              "Caption": "Recalled Manhattan Comfort Floating Wall Theater Entertainment Center and Panels 27900- Utopia (27951 Off White)"
+            },
+            {
+              "Caption": "Recalled Manhattan Comfort Floating Wall Theater and Entertainment Center and Panels 27900- Utopia (27952 Maple Cream)"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "The firm has received 51 reports of the panels detaching, including three minor injuries such as scrapes and bruising."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Available online at Wayfair, Home Depot, Target, ShopHQ, Walmart, Overstock, Macy's, Lowe's, ATG Stores, Unbeatable Sales, JET, Bed Bath & Beyond, Dropship Central, 123 Stores, OJ Commerce, Hayneedle, Cymax, and Houzz from March 2015 through March 2024, priced between $380 and $1,465."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Manhattan Comfort Inc., of Dayton, New Jersey"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Sold At",
+          "ManufacturerCountries": [
+            {
+              "Country": "Brazil"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risk of panels detaching when improperly mounted, posing an injury hazard."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Free repair with toggle bolts and installation instructions."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Repair"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "Manhattan Comfort retira del mercado Centros de Entretenimiento de Teatro de Pared Flotantes y Paneles debido a riesgo de lesiones",
+          "Description": "Manhattan Comfort está retirando del mercado sus Centros de Entretenimiento de Teatro de Pared Flotantes Cabrini 1.8, Cabrini 2.2, City 1.8, City 2.2 y Utopia. Estas unidades, disponibles en acabados de brillo blanco, brillo negro, crema de arce y blanco roto, están diseñadas para ser montadas en las paredes. Están hechas de MDF y vienen en varios tamaños. El retiro afecta a números de modelo específicos con dimensiones distintas, lo que podría llevar a peligros de seguridad si no se instalan correctamente.",
+          "ConsumerContact": "Para asistencia, los consumidores pueden comunicarse con Manhattan Comfort sin cargo al 888-230-2225 de 9 a.m. a 5 p.m. ET, de lunes a jueves, y de 9 a.m. a 1 p.m. ET el viernes. Alternativamente, pueden enviar un correo electrónico a manhattanrecalls@gmail.com o visitar https://www.manhattancomfort.com/recall para más detalles.",
+          "metaDescription": "Manhattan Comfort retira del mercado Centros de Entretenimiento de Teatro de Pared Flotantes debido a riesgos de lesiones. Verifique los detalles para información de seguridad y soluciones.",
+          "Products": [
+            {
+              "Name": "Teatro de Pared Flotante Cabrini 1.8",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 46,750"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Centro de Entretenimiento de Teatro de Pared Flotante Manhattan Comfort retirado y Paneles 23700 - City 1.8 (23753 Brillo Negro)"
+            },
+            {
+              "Caption": "Centro de Entretenimiento de Teatro de Pared Flotante Manhattan Comfort retirado y Paneles 23700 - City 1.8 (23751 Marrón Nuez)"
+            },
+            {
+              "Caption": "Centro de Entretenimiento de Teatro de Pared Flotante Manhattan Comfort retirado y Paneles 23700 - City 1.8 (23754 Crema de Arce)"
+            },
+            {
+              "Caption": "Centro de Entretenimiento de Teatro de Pared Flotante Manhattan Comfort retirado y Paneles 23700 - City 1.8 (23572 Brillo Blanco)"
+            },
+            {
+              "Caption": "Centro de Entretenimiento de Teatro de Pared Flotante Manhattan Comfort retirado y Paneles 23800- Cabrini 2.2 (23853 Brillo Negro)"
+            },
+            {
+              "Caption": "Centro de Entretenimiento de Teatro de Pared Flotante Manhattan Comfort retirado y Paneles 23800- Cabrini 2.2 (23854 Crema de Arce)"
+            },
+            {
+              "Caption": "Centro de Entretenimiento de Teatro de Pared Flotante Manhattan Comfort retirado y Paneles 23800- Cabrini 2.2 (23852 Brillo Blanco)"
+            },
+            {
+              "Caption": "Centro de Entretenimiento de Teatro de Pared Flotante Manhattan Comfort retirado y Paneles 25100- City 1.8 (25152 Brillo Blanco)"
+            },
+            {
+              "Caption": "Centro de Entretenimiento de Teatro de Pared Flotante Manhattan Comfort retirado y Paneles 25100- City 1.8 (25153 Crema de Arce)"
+            },
+            {
+              "Caption": "Centro de Entretenimiento de Teatro de Pared Flotante Manhattan Comfort retirado y Paneles 25200- City 2.2 (25253 Crema de Arce)"
+            },
+            {
+              "Caption": "Centro de Entretenimiento de Teatro de Pared Flotante Manhattan Comfort retirado y Paneles 25200- City 2.2 (25252 Brillo Blanco)"
+            },
+            {
+              "Caption": "Centro de Entretenimiento de Teatro de Pared Flotante Manhattan Comfort retirado y Paneles 27900- Utopia (27951 Blanco Roto)"
+            },
+            {
+              "Caption": "Centro de Entretenimiento de Teatro de Pared Flotante Manhattan Comfort retirado y Paneles 27900- Utopia (27952 Crema de Arce)"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "La empresa ha recibido 51 informes de paneles que se desprenden, incluidos tres lesiones menores como rasguños y contusiones."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible en línea en Wayfair, Home Depot, Target, ShopHQ, Walmart, Overstock, Macy's, Lowe's, ATG Stores, Unbeatable Sales, JET, Bed Bath & Beyond, Dropship Central, 123 Stores, OJ Commerce, Hayneedle, Cymax y Houzz desde marzo de 2015 hasta marzo de 2024, con precios entre $380 y $1,465."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Manhattan Comfort Inc., de Dayton, Nueva Jersey"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendido En",
+          "ManufacturerCountries": [
+            {
+              "Country": "Brasil"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Riesgo de desprendimiento de paneles cuando se montan incorrectamente, lo que representa un peligro de lesiones."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Reparación gratuita con pernos de palanca e instrucciones de instalación."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparar"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "مانهاتن كومفورت تستدعي مراكز الترفيه المسرحي العائمة والجدرانية بسبب خطر الإصابة",
+          "Description": "تستدعي مانهاتن كومفورت مراكز الترفيه المسرحي العائمة والجدرانية من طراز كابريني 1.8، كابريني 2.2، سيتي 1.8، سيتي 2.2، ويوتوبيا. هذه الوحدات، المتاحة بتشطيبات لامعة بيضاء، لامعة سوداء، كريمة من القيقب، وبيضاء غير نقية، مصممة لتعلق على الجدران. وهي مصنوعة من MDF وتأتي بأحجام مختلفة. تؤثر الاستدعاءات على أرقام الطراز المحددة ذات الأبعاد المميزة، والتي يمكن أن تؤدي إلى مخاطر السلامة إذا لم يتم تركيبها بشكل صحيح.",
+          "ConsumerContact": "للمساعدة، يمكن للمستهلكين الاتصال بمانهاتن كومفورت على الرقم المجاني 888-230-2225 من الساعة 9 صباحًا حتى 5 مساءً بتوقيت شرق الولايات المتحدة، من الاثنين إلى الخميس، ومن الساعة 9 صباحًا حتى 1 ظهرًا بتوقيت شرق الولايات المتحدة يوم الجمعة. بدلاً من ذلك، يمكنهم إرسال بريد إلكتروني إلى manhattanrecalls@gmail.com أو زيارة https://www.manhattancomfort.com/recall لمزيد من التفاصيل.",
+          "metaDescription": "تستدعي مانهاتن كومفورت مراكز الترفيه المسرحي العائمة بسبب مخاطر الإصابة. تحقق من التفاصيل لمعلومات السلامة والعلاجات.",
+          "Products": [
+            {
+              "Name": "مسرح الجدران العائم كابريني 1.8",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 46,750"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "مركز الترفيه المسرحي العائم والجدراني المستدعى من مانهاتن كومفورت 23700 - سيتي 1.8 (23753 لامع أسود)"
+            },
+            {
+              "Caption": "مركز الترفيه المسرحي العائم والجدراني المستدعى من مانهاتن كومفورت 23700 - سيتي 1.8 (23751 بني جوز)"
+            },
+            {
+              "Caption": "مركز الترفيه المسرحي العائم والجدراني المستدعى من مانهاتن كومفورت 23700 - سيتي 1.8 (23754 كريمة من القيقب)"
+            },
+            {
+              "Caption": "مركز الترفيه المسرحي العائم والجدراني المستدعى من مانهاتن كومفورت 23700 - سيتي 1.8 (23572 لامع أبيض)"
+            },
+            {
+              "Caption": "مركز الترفيه المسرحي العائم والجدراني المستدعى من مانهاتن كومفورت 23800- كابريني 2.2 (23853 لامع أسود)"
+            },
+            {
+              "Caption": "مركز الترفيه المسرحي العائم والجدراني المستدعى من مانهاتن كومفورت 23800- كابريني 2.2 (23854 كريمة من القيقب)"
+            },
+            {
+              "Caption": "مركز الترفيه المسرحي العائم والجدراني المستدعى من مانهاتن كومفورت 23800- كابريني 2.2 (23852 لامع أبيض)"
+            },
+            {
+              "Caption": "مركز الترفيه المسرحي العائم والجدراني المستدعى من مانهاتن كومفورت 25100- سيتي 1.8 (25152 لامع أبيض)"
+            },
+            {
+              "Caption": "مركز الترفيه المسرحي العائم والجدراني المستدعى من مانهاتن كومفورت 25100- سيتي 1.8 (25153 كريمة من القيقب)"
+            },
+            {
+              "Caption": "مركز الترفيه المسرحي العائم والجدراني المستدعى من مانهاتن كومفورت 25200- سيتي 2.2 (25253 كريمة من القيقب)"
+            },
+            {
+              "Caption": "مركز الترفيه المسرحي العائم والجدراني المستدعى من مانهاتن كومفورت 25200- سيتي 2.2 (25252 لامع أبيض)"
+            },
+            {
+              "Caption": "مركز الترفيه المسرحي العائم والجدراني المستدعى من مانهاتن كومفورت 27900- يوتوبيا (27951 أبيض غير نقى)"
+            },
+            {
+              "Caption": "مركز الترفيه المسرحي العائم والجدراني المستدعى من مانهاتن كومفورت 27900- يوتوبيا (27952 كريمة من القيقب)"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "تلقت الشركة 51 تقريرًا عن انفصال الألواح، بما في ذلك ثلاث إصابات طفيفة مثل الخدوش والكدمات."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "متاح عبر الإنترنت في وايفير، هوم ديبوت، تارغت، شوب إتش كيو، وول مارت، أوفرستوك، ميسي، لو، ATG ستورز، مبيعات لا تقبل المنافسة، JET، سرير الحمام وما وراءه، دروبشيب سنترال، 123 ستورز، OJ كوميرس، هاينيدل، سايماكس، وهوز من مارس 2015 حتى مارس 2024، بأسعار تتراوح بين 380 دولار و 1,465 دولار."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "مانهاتن كومفورت إنك، من دايتون، نيو جيرسي"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "تم البيع في",
+          "ManufacturerCountries": [
+            {
+              "Country": "البرازيل"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "خطر انفصال الألواح عند التركيب غير الصحيح، مما يشكل خطر الإصابة."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "إصلاح مجاني مع براغي توصيل وتعليمات التركيب."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "إصلاح"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "曼哈顿舒适公司召回浮动墙壁影院娱乐中心和面板，因存在受伤风险",
+          "Description": "曼哈顿舒适公司正在召回其Cabrini 1.8、Cabrini 2.2、City 1.8、City 2.2和Utopia墙壁挂式浮动影院娱乐中心。这些产品有白色光泽、黑色光泽、枫糖奶油和米色等多种颜色，设计用于墙壁安装。它们由中密度纤维板（MDF）制成，并有多种尺寸可供选择。此次召回涉及特定型号，具有不同的尺寸，如果未正确安装，可能会导致安全隐患。",
+          "ConsumerContact": "如需帮助，消费者可以在东部时间周一至周四上午9点至下午5点，周五上午9点至下午1点拨打曼哈顿舒适公司的免费电话888-230-2225，或者发送电子邮件至manhattanrecalls@gmail.com，或访问https://www.manhattancomfort.com/recall获取更多详细信息。",
+          "metaDescription": "曼哈顿舒适公司因受伤风险召回浮动墙壁影院娱乐中心。查看详细信息以获取安全信息和补救措施。",
+          "Products": [
+            {
+              "Name": "Cabrini 1.8浮动墙壁影院",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约46,750"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "召回的曼哈顿舒适浮动墙壁影院娱乐中心和面板23700 - City 1.8 (23753黑色光泽)"
+            },
+            {
+              "Caption": "召回的曼哈顿舒适浮动墙壁影院娱乐中心和面板23700 - City 1.8 (23751坚果棕)"
+            },
+            {
+              "Caption": "召回的曼哈顿舒适浮动墙壁影院娱乐中心和面板23700 - City 1.8 (23754枫糖奶油)"
+            },
+            {
+              "Caption": "召回的曼哈顿舒适浮动墙壁影院娱乐中心和面板23700 - City 1.8 (23572白色光泽)"
+            },
+            {
+              "Caption": "召回的曼哈顿舒适浮动墙壁影院娱乐中心和面板23800 - Cabrini 2.2 (23853黑色光泽)"
+            },
+            {
+              "Caption": "召回的曼哈顿舒适浮动墙壁影院娱乐中心和面板23800 - Cabrini 2.2 (23854枫糖奶油)"
+            },
+            {
+              "Caption": "召回的曼哈顿舒适浮动墙壁影院娱乐中心和面板23800 - Cabrini 2.2 (23852白色光泽)"
+            },
+            {
+              "Caption": "召回的曼哈顿舒适浮动墙壁影院娱乐中心和面板25100 - City 1.8 (25152白色光泽)"
+            },
+            {
+              "Caption": "召回的曼哈顿舒适浮动墙壁影院娱乐中心和面板25100 - City 1.8 (25153枫糖奶油)"
+            },
+            {
+              "Caption": "召回的曼哈顿舒适浮动墙壁影院娱乐中心和面板25200 - City 2.2 (25253枫糖奶油)"
+            },
+            {
+              "Caption": "召回的曼哈顿舒适浮动墙壁影院娱乐中心和面板25200 - City 2.2 (25252白色光泽)"
+            },
+            {
+              "Caption": "召回的曼哈顿舒适浮动墙壁影院娱乐中心和面板27900 - Utopia (27951米色)"
+            },
+            {
+              "Caption": "召回的曼哈顿舒适浮动墙壁影院娱乐中心和面板27900 - Utopia (27952枫糖奶油)"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "该公司已收到51起面板脱落的报告，包括三起轻微受伤，如擦伤和淤青。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "自2015年3月至2024年3月，在线上可在Wayfair、Home Depot、Target、ShopHQ、Walmart、Overstock、Macy's、Lowe's、ATG Stores、Unbeatable Sales、JET、Bed Bath & Beyond、Dropship Central、123 Stores、OJ Commerce、Hayneedle、Cymax和Houzz购买，价格在380美元至1,465美元之间。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "曼哈顿舒适公司，位于新泽西州代顿"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "销售地点",
+          "ManufacturerCountries": [
+            {
+              "Country": "巴西"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "面板在安装不当时脱落的风险，构成受伤危险。"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "提供免费维修，包括挂钩和安装说明。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "维修"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "Manhattan Comfort rappelle des centres de divertissement muraux flottants et des panneaux en raison d'un risque de blessure",
+          "Description": "Manhattan Comfort rappelle ses centres de divertissement muraux flottants Cabrini 1.8, Cabrini 2.2, City 1.8, City 2.2 et Utopia. Ces unités, disponibles en finition laquée blanche, laquée noire, crème d'érable et blanc cassé, sont conçues pour être montées sur des murs. Elles sont fabriquées en MDF et existent en différentes tailles. Le rappel concerne des numéros de modèle spécifiques avec des dimensions distinctes, ce qui pourrait entraîner des risques pour la sécurité si elles ne sont pas correctement installées.",
+          "ConsumerContact": "Pour toute assistance, les consommateurs peuvent contacter Manhattan Comfort sans frais au 888-230-2225 de 9 h à 17 h HE, du lundi au jeudi, et de 9 h à 13 h HE le vendredi. Alternativement, ils peuvent envoyer un e-mail à manhattanrecalls@gmail.com ou visiter https://www.manhattancomfort.com/recall pour plus de détails.",
+          "metaDescription": "Manhattan Comfort rappelle des centres de divertissement muraux flottants en raison de risques de blessure. Vérifiez les détails pour des informations de sécurité et des remèdes.",
+          "Products": [
+            {
+              "Name": "Cabrini 1.8 Floating Wall Theater",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 46 750"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Centre de divertissement mural flottant Manhattan Comfort rappelé et panneaux 23700 - City 1.8 (23753 Laqué Noir)"
+            },
+            {
+              "Caption": "Centre de divertissement mural flottant Manhattan Comfort rappelé et panneaux 23700 - City 1.8 (23751 Marron Noisette)"
+            },
+            {
+              "Caption": "Centre de divertissement mural flottant Manhattan Comfort rappelé et panneaux 23700 - City 1.8 (23754 Crème d'Érable)"
+            },
+            {
+              "Caption": "Centre de divertissement mural flottant Manhattan Comfort rappelé et panneaux 23700 - City 1.8 (23572 Laqué Blanc)"
+            },
+            {
+              "Caption": "Centre de divertissement mural flottant Manhattan Comfort rappelé et panneaux 23800 - Cabrini 2.2 (23853 Laqué Noir)"
+            },
+            {
+              "Caption": "Centre de divertissement mural flottant Manhattan Comfort rappelé et panneaux 23800 - Cabrini 2.2 (23854 Crème d'Érable)"
+            },
+            {
+              "Caption": "Centre de divertissement mural flottant Manhattan Comfort rappelé et panneaux 23800 - Cabrini 2.2 (23852 Laqué Blanc)"
+            },
+            {
+              "Caption": "Centre de divertissement mural flottant Manhattan Comfort rappelé et panneaux 25100 - City 1.8 (25152 Laqué Blanc)"
+            },
+            {
+              "Caption": "Centre de divertissement mural flottant Manhattan Comfort rappelé et panneaux 25100 - City 1.8 (25153 Crème d'Érable)"
+            },
+            {
+              "Caption": "Centre de divertissement mural flottant Manhattan Comfort rappelé et panneaux 25200 - City 2.2 (25253 Crème d'Érable)"
+            },
+            {
+              "Caption": "Centre de divertissement mural flottant Manhattan Comfort rappelé et panneaux 25200 - City 2.2 (25252 Laqué Blanc)"
+            },
+            {
+              "Caption": "Centre de divertissement mural flottant Manhattan Comfort rappelé et panneaux 27900 - Utopia (27951 Blanc Cassé)"
+            },
+            {
+              "Caption": "Centre de divertissement mural flottant Manhattan Comfort rappelé et panneaux 27900 - Utopia (27952 Crème d'Érable)"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "L'entreprise a reçu 51 rapports de panneaux se détachant, y compris trois blessures mineures telles que des éraflures et des contusions."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible en ligne sur Wayfair, Home Depot, Target, ShopHQ, Walmart, Overstock, Macy's, Lowe's, ATG Stores, Unbeatable Sales, JET, Bed Bath & Beyond, Dropship Central, 123 Stores, OJ Commerce, Hayneedle, Cymax et Houzz de mars 2015 à mars 2024, au prix compris entre 380 $ et 1 465 $."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Manhattan Comfort Inc., de Dayton, New Jersey"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendu À",
+          "ManufacturerCountries": [
+            {
+              "Country": "Brésil"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risque de détachement des panneaux lorsqu'ils sont mal montés, posant un risque de blessure."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Réparation gratuite avec des boulons à bascule et des instructions d'installation."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Réparation"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "Manhattan Comfort ruft schwebende Wandtheater-Entertainment-Center und -Paneele aufgrund von Verletzungsrisiken zurück",
+          "Description": "Manhattan Comfort ruft seine Cabrini 1.8, Cabrini 2.2, City 1.8, City 2.2 und Utopia Wandmontierte schwebende Theater-Entertainment-Center zurück. Diese Einheiten, erhältlich in Hochglanz Weiß, Hochglanz Schwarz, Ahorncreme und Off-White-Finishes, sind zum Anbringen an Wänden konzipiert. Sie bestehen aus MDF und sind in verschiedenen Größen erhältlich. Der Rückruf betrifft spezifische Modellnummern mit unterschiedlichen Abmessungen, die zu Sicherheitsrisiken führen können, wenn sie nicht ordnungsgemäß installiert werden.\n\nFür Unterstützung können Verbraucher Manhattan Comfort gebührenfrei unter 888-230-2225 von 9 bis 17 Uhr ET, Montag bis Donnerstag, und von 9 bis 13 Uhr ET am Freitag erreichen. Alternativ können sie eine E-Mail an manhattanrecalls@gmail.com senden oder die Website https://www.manhattancomfort.com/recall besuchen, um weitere Details zu erhalten.",
+          "ConsumerContact": "Für Unterstützung können Verbraucher Manhattan Comfort gebührenfrei unter 888-230-2225 von 9 bis 17 Uhr ET, Montag bis Donnerstag, und von 9 bis 13 Uhr ET am Freitag erreichen. Alternativ können sie eine E-Mail an manhattanrecalls@gmail.com senden oder die Website https://www.manhattancomfort.com/recall besuchen, um weitere Details zu erhalten.",
+          "metaDescription": "Manhattan Comfort ruft schwebende Wandtheater-Entertainment-Center aufgrund von Verletzungsrisiken zurück. Überprüfen Sie die Details für Sicherheitsinformationen und Abhilfen.",
+          "Products": [
+            {
+              "Name": "Cabrini 1.8 schwebendes Wandtheater",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 46.750"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Zurückgerufenes Manhattan Comfort schwebendes Wandtheater-Entertainment-Center und Paneele 23700 - City 1.8 (23753 Hochglanz Schwarz)"
+            },
+            {
+              "Caption": "Zurückgerufenes Manhattan Comfort schwebendes Wandtheater-Entertainment-Center und Paneele 23700 - City 1.8 (23751 Nussbraun)"
+            },
+            {
+              "Caption": "Zurückgerufenes Manhattan Comfort schwebendes Wandtheater-Entertainment-Center und Paneele 23700 - City 1.8 (23754 Ahorncreme)"
+            },
+            {
+              "Caption": "Zurückgerufenes Manhattan Comfort schwebendes Wandtheater-Entertainment-Center und Paneele 23700 - City 1.8 (23572 Hochglanz Weiß)"
+            },
+            {
+              "Caption": "Zurückgerufenes Manhattan Comfort schwebendes Wandtheater-Entertainment-Center und Paneele 23800- Cabrini 2.2 (23853 Hochglanz Schwarz)"
+            },
+            {
+              "Caption": "Zurückgerufenes Manhattan Comfort schwebendes Wandtheater-Entertainment-Center und Paneele 23800- Cabrini 2.2 (23854 Ahorncreme)"
+            },
+            {
+              "Caption": "Zurückgerufenes Manhattan Comfort schwebendes Wandtheater-Entertainment-Center und Paneele 23800- Cabrini 2.2 (23852 Hochglanz Weiß)"
+            },
+            {
+              "Caption": "Zurückgerufenes Manhattan Comfort schwebendes Wandtheater-Entertainment-Center und Paneele 25100- City 1.8 (25152 Hochglanz Weiß)"
+            },
+            {
+              "Caption": "Zurückgerufenes Manhattan Comfort schwebendes Wandtheater-Entertainment-Center und Paneele 25100- City 1.8 (25153 Ahorncreme)"
+            },
+            {
+              "Caption": "Zurückgerufenes Manhattan Comfort schwebendes Wandtheater-Entertainment-Center und Paneele 25200- City 2.2 (25253 Ahorncreme)"
+            },
+            {
+              "Caption": "Zurückgerufenes Manhattan Comfort schwebendes Wandtheater-Entertainment-Center und Paneele 25200- City 2.2 (25252 Hochglanz Weiß)"
+            },
+            {
+              "Caption": "Zurückgerufenes Manhattan Comfort schwebendes Wandtheater-Entertainment-Center und Paneele 27900- Utopia (27951 Off White)"
+            },
+            {
+              "Caption": "Zurückgerufenes Manhattan Comfort schwebendes Wandtheater-Entertainment-Center und Paneele 27900- Utopia (27952 Ahorncreme)"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Das Unternehmen hat 51 Berichte über das Abtrennen der Paneele erhalten, darunter drei leichte Verletzungen wie Schürfwunden und Prellungen."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Online erhältlich bei Wayfair, Home Depot, Target, ShopHQ, Walmart, Overstock, Macy's, Lowe's, ATG Stores, Unbeatable Sales, JET, Bed Bath & Beyond, Dropship Central, 123 Stores, OJ Commerce, Hayneedle, Cymax und Houzz von März 2015 bis März 2024, mit Preisen zwischen 380 und 1.465 US-Dollar."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Manhattan Comfort Inc., aus Dayton, New Jersey"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Verkauft bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "Brasilien"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risiko des Abtrennens der Paneele bei unsachgemäßer Montage, was ein Verletzungsrisiko darstellt."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Kostenlose Reparatur mit Toggle-Schrauben und Installationsanleitungen."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparatur"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "マンハッタンコンフォート、怪我のリスクによりフローティングウォールシアターエンターテインメントセンターとパネルをリコール",
+          "Description": "マンハッタンコンフォートは、カブリーニ1.8、カブリーニ2.2、シティ1.8、シティ2.2、およびユートピア壁掛けフローティングシアターエンターテインメントセンターをリコールしています。これらのユニットは、ホワイトグロス、ブラックグロス、メープルクリーム、オフホワイトの仕上げで提供され、壁に取り付けるように設計されています。MDFで作られており、さまざまなサイズがあります。リコールは、特定のモデル番号に影響を及ぼし、適切に取り付けられない場合、安全上の危険を引き起こす可能性があります。",
+          "ConsumerContact": "サポートが必要な場合、消費者はマンハッタンコンフォートに、月曜日から木曜日の午前9時から午後5時（ET）、金曜日の午前9時から午後1時（ET）に、無料で888-230-2225に連絡できます。また、manhattanrecalls@gmail.comにメールを送信するか、詳細についてはhttps://www.manhattancomfort.com/recallを訪問することもできます。",
+          "metaDescription": "マンハッタンコンフォートが怪我のリスクによりフローティングウォールシアターエンターテインメントセンターをリコール。安全情報と対策の詳細を確認してください。",
+          "Products": [
+            {
+              "Name": "カブリーニ1.8フローティングウォールシアター",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約46,750"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコールされたマンハッタンコンフォートフローティングウォールシアターエンターテインメントセンターとパネル 23700 - シティ1.8 (23753 ブラックグロス)"
+            },
+            {
+              "Caption": "リコールされたマンハッタンコンフォートフローティングウォールシアターエンターテインメントセンターとパネル 23700 - シティ1.8 (23751 ナットブラウン)"
+            },
+            {
+              "Caption": "リコールされたマンハッタンコンフォートフローティングウォールシアターエンターテインメントセンターとパネル 23700 - シティ1.8 (23754 メープルクリーム)"
+            },
+            {
+              "Caption": "リコールされたマンハッタンコンフォートフローティングウォールシアターエンターテインメントセンターとパネル 23700 - シティ1.8 (23572 ホワイトグロス)"
+            },
+            {
+              "Caption": "リコールされたマンハッタンコンフォートフローティングウォールシアターエンターテインメントセンターとパネル 23800- カブリーニ2.2 (23853 ブラックグロス)"
+            },
+            {
+              "Caption": "リコールされたマンハッタンコンフォートフローティングウォールシアターエンターテインメントセンターとパネル 23800- カブリーニ2.2 (23854 メープルクリーム)"
+            },
+            {
+              "Caption": "リコールされたマンハッタンコンフォートフローティングウォールシアターエンターテインメントセンターとパネル 23800- カブリーニ2.2 (23852 ホワイトグロス)"
+            },
+            {
+              "Caption": "リコールされたマンハッタンコンフォートフローティングウォールシアターエンターテインメントセンターとパネル 25100- シティ1.8 (25152 ホワイトグロス)"
+            },
+            {
+              "Caption": "リコールされたマンハッタンコンフォートフローティングウォールシアターエンターテインメントセンターとパネル 25100- シティ1.8 (25153 メープルクリーム)"
+            },
+            {
+              "Caption": "リコールされたマンハッタンコンフォートフローティングウォールシアターエンターテインメントセンターとパネル 25200- シティ2.2 (25253 メープルクリーム)"
+            },
+            {
+              "Caption": "リコールされたマンハッタンコンフォートフローティングウォールシアターエンターテインメントセンターとパネル 25200- シティ2.2 (25252 ホワイトグロス)"
+            },
+            {
+              "Caption": "リコールされたマンハッタンコンフォートフローティングウォールシアターエンターテインメントセンターとパネル 27900- ユートピア (27951 オフホワイト)"
+            },
+            {
+              "Caption": "リコールされたマンハッタンコンフォートフローティングウォールシアターエンターテインメントセンターとパネル 27900- ユートピア (27952 メープルクリーム)"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "同社は、パネルが外れるという51件の報告を受けており、その中には擦り傷や打撲などの軽傷が3件含まれています。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Wayfair、Home Depot、Target、ShopHQ、Walmart、Overstock、Macy's、Lowe's、ATG Stores、Unbeatable Sales、JET、Bed Bath & Beyond、Dropship Central、123 Stores、OJ Commerce、Hayneedle、Cymax、Houzzで、2015年3月から2024年3月まで販売され、価格は380ドルから1,465ドルの間です。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "マンハッタンコンフォート社、ニュージャージー州デイトン"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "販売場所",
+          "ManufacturerCountries": [
+            {
+              "Country": "ブラジル"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "不適切に取り付けられた場合にパネルが外れるリスクがあり、怪我の危険があります。"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "トグルボルトと取り付け手順による無料修理。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "修理"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "Manhattan Comfort recolhe Centros de Entretenimento e Painéis Flutuantes de Parede devido ao Risco de Lesões",
+          "Description": "A Manhattan Comfort está recolhendo seus Centros de Entretenimento Flutuantes de Parede Cabrini 1.8, Cabrini 2.2, City 1.8, City 2.2 e Utopia. Essas unidades, disponíveis nas acabamentos branco brilhante, preto brilhante, creme de bordo e off-white, são projetadas para serem montadas em paredes. Elas são feitas de MDF e vêm em vários tamanhos. O recall afeta números de modelo específicos com dimensões distintas, que podem levar a riscos de segurança se não forem instalados corretamente.",
+          "ConsumerContact": "Para assistência, os consumidores podem entrar em contato com a Manhattan Comfort gratuitamente pelo telefone 888-230-2225 das 9h às 17h ET, de segunda a quinta-feira, e das 9h às 13h ET na sexta-feira. Alternativamente, podem enviar um e-mail para manhattanrecalls@gmail.com ou visitar https://www.manhattancomfort.com/recall para mais detalhes.",
+          "metaDescription": "A Manhattan Comfort recolhe Centros de Entretenimento Flutuantes de Parede devido a riscos de lesões. Confira os detalhes para informações de segurança e soluções.",
+          "Products": [
+            {
+              "Name": "Teatro Flutuante Cabrini 1.8",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 46.750"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Centro de Entretenimento Flutuante de Parede Manhattan Comfort recolhido e Painéis 23700 - City 1.8 (23753 Preto Brilhante)"
+            },
+            {
+              "Caption": "Centro de Entretenimento Flutuante de Parede Manhattan Comfort recolhido e Painéis 23700 - City 1.8 (23751 Castanho Noz)"
+            },
+            {
+              "Caption": "Centro de Entretenimento Flutuante de Parede Manhattan Comfort recolhido e Painéis 23700 - City 1.8 (23754 Creme de Bordo)"
+            },
+            {
+              "Caption": "Centro de Entretenimento Flutuante de Parede Manhattan Comfort recolhido e Painéis 23700 - City 1.8 (23572 Branco Brilhante)"
+            },
+            {
+              "Caption": "Centro de Entretenimento Flutuante de Parede Manhattan Comfort recolhido e Painéis 23800- Cabrini 2.2 (23853 Preto Brilhante)"
+            },
+            {
+              "Caption": "Centro de Entretenimento Flutuante de Parede Manhattan Comfort recolhido e Painéis 23800- Cabrini 2.2 (23854 Creme de Bordo)"
+            },
+            {
+              "Caption": "Centro de Entretenimento Flutuante de Parede Manhattan Comfort recolhido e Painéis 23800- Cabrini 2.2 (23852 Branco Brilhante)"
+            },
+            {
+              "Caption": "Centro de Entretenimento Flutuante de Parede Manhattan Comfort recolhido e Painéis 25100- City 1.8 (25152 Branco Brilhante)"
+            },
+            {
+              "Caption": "Centro de Entretenimento Flutuante de Parede Manhattan Comfort recolhido e Painéis 25100- City 1.8 (25153 Creme de Bordo)"
+            },
+            {
+              "Caption": "Centro de Entretenimento Flutuante de Parede Manhattan Comfort recolhido e Painéis 25200- City 2.2 (25253 Creme de Bordo)"
+            },
+            {
+              "Caption": "Centro de Entretenimento Flutuante de Parede Manhattan Comfort recolhido e Painéis 25200- City 2.2 (25252 Branco Brilhante)"
+            },
+            {
+              "Caption": "Centro de Entretenimento Flutuante de Parede Manhattan Comfort recolhido e Painéis 27900- Utopia (27951 Off White)"
+            },
+            {
+              "Caption": "Centro de Entretenimento Flutuante de Parede Manhattan Comfort recolhido e Painéis 27900- Utopia (27952 Creme de Bordo)"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "A empresa recebeu 51 relatos de painéis se soltando, incluindo três lesões leves, como arranhões e contusões."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponível online na Wayfair, Home Depot, Target, ShopHQ, Walmart, Overstock, Macy's, Lowe's, ATG Stores, Unbeatable Sales, JET, Bed Bath & Beyond, Dropship Central, 123 Stores, OJ Commerce, Hayneedle, Cymax e Houzz de março de 2015 até março de 2024, com preços entre $380 e $1.465."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Manhattan Comfort Inc., de Dayton, New Jersey"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendido Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "Brasil"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risco de painéis se soltando quando mal montados, representando um risco de lesão."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Reparo gratuito com parafusos de ancoragem e instruções de instalação."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparo"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "मैनहट्टन कंफर्ट ने चोट के जोखिम के कारण फ्लोटिंग वॉल थियेटर एंटरटेनमेंट सेंटर और पैनल वापस बुलाए",
+          "Description": "मैनहट्टन कंफर्ट अपने कैब्रिनी 1.8, कैब्रिनी 2.2, सिटी 1.8, सिटी 2.2, और यूटोपिया वॉल माउंटेड फ्लोटिंग थियेटर एंटरटेनमेंट सेंटर को वापस बुला रहा है। ये यूनिट्स सफेद ग्लॉस, काले ग्लॉस, मेपल क्रीम, और ऑफ-व्हाइट फिनिश में उपलब्ध हैं, जिन्हें दीवारों पर माउंट करने के लिए डिज़ाइन किया गया है। ये MDF से बने हैं और विभिन्न आकारों में आते हैं। यह रिकॉल विशिष्ट मॉडल नंबरों को प्रभावित करता है जिनके अलग-अलग आयाम हैं, जो सही तरीके से स्थापित नहीं होने पर सुरक्षा खतरों का कारण बन सकते हैं।",
+          "ConsumerContact": "सहायता के लिए, उपभोक्ता मैनहट्टन कंफर्ट से टोल-फ्री 888-230-2225 पर सुबह 9 बजे से शाम 5 बजे ET, सोमवार से गुरुवार, और शुक्रवार को सुबह 9 बजे से दोपहर 1 बजे ET पर संपर्क कर सकते हैं। वैकल्पिक रूप से, वे manhattanrecalls@gmail.com पर ईमेल कर सकते हैं या अधिक जानकारी के लिए https://www.manhattancomfort.com/recall पर जा सकते हैं।",
+          "metaDescription": "मैनहट्टन कंफर्ट ने चोट के जोखिम के कारण फ्लोटिंग वॉल थियेटर एंटरटेनमेंट सेंटर वापस बुलाए। सुरक्षा जानकारी और उपायों के लिए विवरण देखें।",
+          "Products": [
+            {
+              "Name": "कैब्रिनी 1.8 फ्लोटिंग वॉल थियेटर",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 46,750"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "वापस बुलाया गया मैनहट्टन कंफर्ट फ्लोटिंग वॉल थियेटर एंटरटेनमेंट सेंटर और पैनल 23700 - सिटी 1.8 (23753 काला ग्लॉस)"
+            },
+            {
+              "Caption": "वापस बुलाया गया मैनहट्टन कंफर्ट फ्लोटिंग वॉल थियेटर एंटरटेनमेंट सेंटर और पैनल 23700 - सिटी 1.8 (23751 नट ब्राउन)"
+            },
+            {
+              "Caption": "वापस बुलाया गया मैनहट्टन कंफर्ट फ्लोटिंग वॉल थियेटर एंटरटेनमेंट सेंटर और पैनल 23700 - सिटी 1.8 (23754 मेपल क्रीम)"
+            },
+            {
+              "Caption": "वापस बुलाया गया मैनहट्टन कंफर्ट फ्लोटिंग वॉल थियेटर एंटरटेनमेंट सेंटर और पैनल 23700 - सिटी 1.8 (23572 सफेद ग्लॉस)"
+            },
+            {
+              "Caption": "वापस बुलाया गया मैनहट्टन कंफर्ट फ्लोटिंग वॉल थियेटर एंटरटेनमेंट सेंटर और पैनल 23800- कैब्रिनी 2.2 (23853 काला ग्लॉस)"
+            },
+            {
+              "Caption": "वापस बुलाया गया मैनहट्टन कंफर्ट फ्लोटिंग वॉल थियेटर एंटरटेनमेंट सेंटर और पैनल 23800- कैब्रिनी 2.2 (23854 मेपल क्रीम)"
+            },
+            {
+              "Caption": "वापस बुलाया गया मैनहट्टन कंफर्ट फ्लोटिंग वॉल थियेटर एंटरटेनमेंट सेंटर और पैनल 23800- कैब्रिनी 2.2 (23852 सफेद ग्लॉस)"
+            },
+            {
+              "Caption": "वापस बुलाया गया मैनहट्टन कंफर्ट फ्लोटिंग वॉल थियेटर एंटरटेनमेंट सेंटर और पैनल 25100- सिटी 1.8 (25152 सफेद ग्लॉस)"
+            },
+            {
+              "Caption": "वापस बुलाया गया मैनहट्टन कंफर्ट फ्लोटिंग वॉल थियेटर एंटरटेनमेंट सेंटर और पैनल 25100- सिटी 1.8 (25153 मेपल क्रीम)"
+            },
+            {
+              "Caption": "वापस बुलाया गया मैनहट्टन कंफर्ट फ्लोटिंग वॉल थियेटर एंटरटेनमेंट सेंटर और पैनल 25200- सिटी 2.2 (25253 मेपल क्रीम)"
+            },
+            {
+              "Caption": "वापस बुलाया गया मैनहट्टन कंफर्ट फ्लोटिंग वॉल थियेटर एंटरटेनमेंट सेंटर और पैनल 25200- सिटी 2.2 (25252 सफेद ग्लॉस)"
+            },
+            {
+              "Caption": "वापस बुलाया गया मैनहट्टन कंफर्ट फ्लोटिंग वॉल थियेटर और एंटरटेनमेंट सेंटर और पैनल 27900- यूटोपिया (27951 ऑफ व्हाइट)"
+            },
+            {
+              "Caption": "वापस बुलाया गया मैनहट्टन कंफर्ट फ्लोटिंग वॉल थियेटर और एंटरटेनमेंट सेंटर और पैनल 27900- यूटोपिया (27952 मेपल क्रीम)"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "कंपनी को पैनल के अलग होने के 51 रिपोर्ट मिली हैं, जिसमें खरोंच और चोटों जैसी तीन मामूली चोटें शामिल हैं।"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "मार्च 2015 से मार्च 2024 तक वेफेयर, होम डिपो, टारगेट, शॉपएचक्यू, वॉलमार्ट, ओवरस्टॉक, मेसीज, लोव्स, एटीजी स्टोर्स, अनबीटबल सेल्स, जेट, बेड बाथ & बियॉन्ड, ड्रॉपशिप सेंट्रल, 123 स्टोर्स, ओजे कॉमर्स, हेयनेडल, साइमैक्स, और हाउज़ पर ऑनलाइन उपलब्ध, कीमत $380 से $1,465 के बीच।"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "मैनहट्टन कंफर्ट इंक, डेटन, न्यू जर्सी"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "ब्राज़ील"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "गलत तरीके से माउंट करने पर पैनल के अलग होने का जोखिम, जो चोट का खतरा पैदा करता है।"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "टॉगल बोल्ट और स्थापना निर्देशों के साथ मुफ्त मरम्मत।"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "मरम्मत"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "Manhattan Comfort отзывает плавающие театральные развлекательные центры и панели из-за риска травм",
+          "Description": "Manhattan Comfort отзывает свои плавающие театральные развлекательные центры Cabrini 1.8, Cabrini 2.2, City 1.8, City 2.2 и Utopia, которые предназначены для крепления на стенах. Эти устройства доступны в белом глянцевом, черном глянцевом, кремовом кленовом и светлом отделках. Они изготовлены из МДФ и представлены в различных размерах. Отзыв касается конкретных моделей с различными размерами, что может привести к опасностям для безопасности, если они неправильно установлены.\n\nДля получения помощи потребители могут обратиться в Manhattan Comfort по бесплатному номеру 888-230-2225 с 9:00 до 17:00 по восточному времени с понедельника по четверг и с 9:00 до 13:00 по восточному времени в пятницу. Кроме того, они могут написать на электронную почту manhattanrecalls@gmail.com или посетить https://www.manhattancomfort.com/recall для получения дополнительной информации.",
+          "ConsumerContact": "Для получения помощи потребители могут обратиться в Manhattan Comfort по бесплатному номеру 888-230-2225 с 9:00 до 17:00 по восточному времени с понедельника по четверг и с 9:00 до 13:00 по восточному времени в пятницу. Кроме того, они могут написать на электронную почту manhattanrecalls@gmail.com или посетить https://www.manhattancomfort.com/recall для получения дополнительной информации.",
+          "metaDescription": "Manhattan Comfort отзывает плавающие театральные развлекательные центры из-за рисков травм. Проверьте детали для получения информации о безопасности и мерах.",
+          "Products": [
+            {
+              "Name": "Плавающий театральный центр Cabrini 1.8",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 46,750"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванный плавающий театральный развлекательный центр и панели Manhattan Comfort 23700 - City 1.8 (23753 Черный глянец)"
+            },
+            {
+              "Caption": "Отозванный плавающий театральный развлекательный центр и панели Manhattan Comfort 23700 - City 1.8 (23751 Ореховый коричневый)"
+            },
+            {
+              "Caption": "Отозванный плавающий театральный развлекательный центр и панели Manhattan Comfort 23700 - City 1.8 (23754 Кремовый клен)"
+            },
+            {
+              "Caption": "Отозванный плавающий театральный развлекательный центр и панели Manhattan Comfort 23700 - City 1.8 (23572 Белый глянец)"
+            },
+            {
+              "Caption": "Отозванный плавающий театральный развлекательный центр и панели Manhattan Comfort 23800 - Cabrini 2.2 (23853 Черный глянец)"
+            },
+            {
+              "Caption": "Отозванный плавающий театральный развлекательный центр и панели Manhattan Comfort 23800 - Cabrini 2.2 (23854 Кремовый клен)"
+            },
+            {
+              "Caption": "Отозванный плавающий театральный развлекательный центр и панели Manhattan Comfort 23800 - Cabrini 2.2 (23852 Белый глянец)"
+            },
+            {
+              "Caption": "Отозванный плавающий театральный развлекательный центр и панели Manhattan Comfort 25100 - City 1.8 (25152 Белый глянец)"
+            },
+            {
+              "Caption": "Отозванный плавающий театральный развлекательный центр и панели Manhattan Comfort 25100 - City 1.8 (25153 Кремовый клен)"
+            },
+            {
+              "Caption": "Отозванный плавающий театральный развлекательный центр и панели Manhattan Comfort 25200 - City 2.2 (25253 Кремовый клен)"
+            },
+            {
+              "Caption": "Отозванный плавающий театральный развлекательный центр и панели Manhattan Comfort 25200 - City 2.2 (25252 Белый глянец)"
+            },
+            {
+              "Caption": "Отозванный плавающий театральный развлекательный центр и панели Manhattan Comfort 27900 - Utopia (27951 Светло-белый)"
+            },
+            {
+              "Caption": "Отозванный плавающий театральный развлекательный центр и панели Manhattan Comfort 27900 - Utopia (27952 Кремовый клен)"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Компания получила 51 сообщение о том, что панели отрываются, в том числе три незначительные травмы, такие как ссадины и ушибы."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Доступно онлайн на Wayfair, Home Depot, Target, ShopHQ, Walmart, Overstock, Macy's, Lowe's, ATG Stores, Unbeatable Sales, JET, Bed Bath & Beyond, Dropship Central, 123 Stores, OJ Commerce, Hayneedle, Cymax и Houzz с марта 2015 года по март 2024 года, по цене от 380 до 1,465 долларов."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Manhattan Comfort Inc., Дейтон, Нью-Джерси"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Продается в",
+          "ManufacturerCountries": [
+            {
+              "Country": "Бразилия"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Риск отрыва панелей при неправильном креплении, что создает опасность травм."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Бесплатный ремонт с использованием анкерных болтов и инструкций по установке."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Ремонт"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "Manhattan Comfort thu hồi các Trung tâm Giải trí Rạp hát Treo Tường và Bảng do Nguy cơ Chấn thương",
+          "Description": "Manhattan Comfort đang thu hồi các Trung tâm Giải trí Rạp hát Treo Tường Cabrini 1.8, Cabrini 2.2, City 1.8, City 2.2 và Utopia. Các đơn vị này, có sẵn với các màu trắng bóng, đen bóng, kem phong và trắng ngà, được thiết kế để treo trên tường. Chúng được làm từ MDF và có nhiều kích thước khác nhau. Lệnh thu hồi ảnh hưởng đến các số mô hình cụ thể với kích thước khác nhau, điều này có thể dẫn đến nguy hiểm về an toàn nếu không được lắp đặt đúng cách.",
+          "ConsumerContact": "Để được hỗ trợ, người tiêu dùng có thể liên hệ với Manhattan Comfort qua số điện thoại miễn phí 888-230-2225 từ 9 giờ sáng đến 5 giờ chiều ET, từ thứ Hai đến thứ Năm, và từ 9 giờ sáng đến 1 giờ chiều ET vào thứ Sáu. Ngoài ra, họ có thể gửi email đến manhattanrecalls@gmail.com hoặc truy cập https://www.manhattancomfort.com/recall để biết thêm chi tiết.",
+          "metaDescription": "Manhattan Comfort thu hồi các Trung tâm Giải trí Rạp hát Treo Tường do nguy cơ chấn thương. Kiểm tra chi tiết để biết thông tin an toàn và biện pháp khắc phục.",
+          "Products": [
+            {
+              "Name": "Rạp hát Treo Tường Cabrini 1.8",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 46,750"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Trung tâm Giải trí Rạp hát Treo Tường Manhattan Comfort bị thu hồi và Bảng 23700 - City 1.8 (23753 Đen bóng)"
+            },
+            {
+              "Caption": "Trung tâm Giải trí Rạp hát Treo Tường Manhattan Comfort bị thu hồi và Bảng 23700 - City 1.8 (23751 Nâu hạt dẻ)"
+            },
+            {
+              "Caption": "Trung tâm Giải trí Rạp hát Treo Tường Manhattan Comfort bị thu hồi và Bảng 23700 - City 1.8 (23754 Kem phong)"
+            },
+            {
+              "Caption": "Trung tâm Giải trí Rạp hát Treo Tường Manhattan Comfort bị thu hồi và Bảng 23700 - City 1.8 (23572 Trắng bóng)"
+            },
+            {
+              "Caption": "Trung tâm Giải trí Rạp hát Treo Tường Manhattan Comfort bị thu hồi và Bảng 23800- Cabrini 2.2 (23853 Đen bóng)"
+            },
+            {
+              "Caption": "Trung tâm Giải trí Rạp hát Treo Tường Manhattan Comfort bị thu hồi và Bảng 23800- Cabrini 2.2 (23854 Kem phong)"
+            },
+            {
+              "Caption": "Trung tâm Giải trí Rạp hát Treo Tường Manhattan Comfort bị thu hồi và Bảng 23800- Cabrini 2.2 (23852 Trắng bóng)"
+            },
+            {
+              "Caption": "Trung tâm Giải trí Rạp hát Treo Tường Manhattan Comfort bị thu hồi và Bảng 25100- City 1.8 (25152 Trắng bóng)"
+            },
+            {
+              "Caption": "Trung tâm Giải trí Rạp hát Treo Tường Manhattan Comfort bị thu hồi và Bảng 25100- City 1.8 (25153 Kem phong)"
+            },
+            {
+              "Caption": "Trung tâm Giải trí Rạp hát Treo Tường Manhattan Comfort bị thu hồi và Bảng 25200- City 2.2 (25253 Kem phong)"
+            },
+            {
+              "Caption": "Trung tâm Giải trí Rạp hát Treo Tường Manhattan Comfort bị thu hồi và Bảng 25200- City 2.2 (25252 Trắng bóng)"
+            },
+            {
+              "Caption": "Trung tâm Giải trí Rạp hát Treo Tường Manhattan Comfort bị thu hồi và Bảng 27900- Utopia (27951 Trắng ngà)"
+            },
+            {
+              "Caption": "Trung tâm Giải trí Rạp hát Treo Tường và Bảng Manhattan Comfort bị thu hồi 27900- Utopia (27952 Kem phong)"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Công ty đã nhận được 51 báo cáo về việc các bảng bị tách ra, bao gồm ba chấn thương nhẹ như trầy xước và bầm tím."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Có sẵn trực tuyến tại Wayfair, Home Depot, Target, ShopHQ, Walmart, Overstock, Macy's, Lowe's, ATG Stores, Unbeatable Sales, JET, Bed Bath & Beyond, Dropship Central, 123 Stores, OJ Commerce, Hayneedle, Cymax và Houzz từ tháng 3 năm 2015 đến tháng 3 năm 2024, có giá từ 380 đến 1,465 đô la."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Manhattan Comfort Inc., ở Dayton, New Jersey"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Bán Tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Brazil"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Nguy cơ các bảng bị tách ra khi lắp đặt không đúng cách, gây nguy hiểm chấn thương."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Sửa chữa miễn phí với bu lông điều chỉnh và hướng dẫn lắp đặt."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Sửa chữa"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    },
+    {
+      "RecallID": 9988,
+      "RecallNumber": "24284",
+      "RecallDate": "2024-06-27T00:00:00",
+      "Description": "At Home has issued a recall for their Tie Dye Fur Toy Trunk Storage Chests, available in two sizes. The larger chest measures approximately 32-½\" x 16-½\" x 21\", while the smaller version is about 27\" x 13-½\" x 16\". Constructed from MDF wood board, these chests are covered in a vibrant multi-color tie dye faux fur fabric, which adds a playful touch to any room. However, they pose serious safety risks due to the lack of lid support and ventilation holes, leading to potential entrapment and suffocation hazards.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/At-Home-Procurement-Recalls-Toy-Trunk-Storage-Chests-Due-to-Entrapment-and-Suffocation-Hazards",
+      "Title": "At Home Recalls Tie Dye Fur Toy Trunk Storage Chests Due to Safety Risks",
+      "ConsumerContact": "For assistance, contact At Home via email at productrecalls@athome.com, or call their toll-free number at 888-688-8426, available from 9 a.m. to 5 p.m. CT, Monday through Friday. Additional information can be found online at https://athome.com/product-recalls or by visiting www.athome.com and selecting 'Product Recalls' at the bottom of the page.",
+      "LastPublishDate": "2024-06-27T00:00:00",
+      "Products": [
+        {
+          "Name": "Tie Dye Fur Toy Trunk Storage Chest",
+          "NumberOfUnits": "About 990"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/other-furniture/3-Tie-Dye-Fur-Toy-Trunk-Storage-Chest/74ff2f4f3f9abd3ee060eb6144561280.webp",
+          "Caption": "Recalled Tie Dye Fur Toy Trunk Storage Chest",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/TieDye.jpg"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available at At Home locations nationwide and online at athome.com from September 2023 through February 2024, priced between $50 and $60."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "At Home Procurement Inc., of Dallas, Texas"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Entrapment and suffocation risks due to lack of lid support and ventilation holes"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Return the toy storage chests to any At Home store for a full refund"
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "slug": "at-home-recalls-tie-dye-fur-toy-trunk-storage-chests-due-to-safety-risks-recall",
+      "metaDescription": "At Home recalls Tie Dye Fur Toy Trunk Storage Chests due to entrapment and suffocation hazards. Learn how to get a refund.",
+      "languages": {
+        "en": {
+          "Title": "At Home Recalls Tie Dye Fur Toy Trunk Storage Chests Due to Safety Risks",
+          "Description": "At Home has issued a recall for their Tie Dye Fur Toy Trunk Storage Chests, available in two sizes. The larger chest measures approximately 32-½\" x 16-½\" x 21\", while the smaller version is about 27\" x 13-½\" x 16\". Constructed from MDF wood board, these chests are covered in a vibrant multi-color tie dye faux fur fabric, which adds a playful touch to any room. However, they pose serious safety risks due to the lack of lid support and ventilation holes, leading to potential entrapment and suffocation hazards.",
+          "ConsumerContact": "For assistance, contact At Home via email at productrecalls@athome.com, or call their toll-free number at 888-688-8426, available from 9 a.m. to 5 p.m. CT, Monday through Friday. Additional information can be found online at https://athome.com/product-recalls or by visiting www.athome.com and selecting 'Product Recalls' at the bottom of the page.",
+          "metaDescription": "At Home recalls Tie Dye Fur Toy Trunk Storage Chests due to entrapment and suffocation hazards. Learn how to get a refund.",
+          "Products": [
+            {
+              "Name": "Tie Dye Fur Toy Trunk Storage Chest",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 990"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled Tie Dye Fur Toy Trunk Storage Chest"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "None reported"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Available at At Home locations nationwide and online at athome.com from September 2023 through February 2024, priced between $50 and $60."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "At Home Procurement Inc., of Dallas, Texas"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Sold At",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Entrapment and suffocation risks due to lack of lid support and ventilation holes"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Return the toy storage chests to any At Home store for a full refund"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Refund"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "At Home recuerda los baúles de almacenamiento de juguetes de pelaje teñido debido a riesgos de seguridad",
+          "Description": "At Home ha emitido un retiro de sus baúles de almacenamiento de juguetes de pelaje teñido, disponibles en dos tamaños. El baúl más grande mide aproximadamente 32-½\" x 16-½\" x 21\", mientras que la versión más pequeña es de aproximadamente 27\" x 13-½\" x 16\". Construidos con tablero de MDF, estos baúles están cubiertos con una vibrante tela de pelaje sintético de múltiples colores, que añade un toque juguetón a cualquier habitación. Sin embargo, representan serios riesgos de seguridad debido a la falta de soporte para la tapa y agujeros de ventilación, lo que puede llevar a peligros de atrapamiento y asfixia.",
+          "ConsumerContact": "Para asistencia, contacta a At Home por correo electrónico a productrecalls@athome.com, o llama a su número gratuito al 888-688-8426, disponible de 9 a.m. a 5 p.m. CT, de lunes a viernes. Información adicional se puede encontrar en línea en https://athome.com/product-recalls o visitando www.athome.com y seleccionando 'Retiro de Productos' en la parte inferior de la página.",
+          "metaDescription": "At Home recuerda los baúles de almacenamiento de juguetes de pelaje teñido debido a peligros de atrapamiento y asfixia. Aprende cómo obtener un reembolso.",
+          "Products": [
+            {
+              "Name": "Baúl de almacenamiento de juguetes de pelaje teñido",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 990"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Baúl de almacenamiento de juguetes de pelaje teñido retirado"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Ninguna reportada"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible en las ubicaciones de At Home en todo el país y en línea en athome.com desde septiembre de 2023 hasta febrero de 2024, con precios entre $50 y $60."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "At Home Procurement Inc., de Dallas, Texas"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendido en",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Riesgos de atrapamiento y asfixia debido a la falta de soporte para la tapa y agujeros de ventilación"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Devuelve los baúles de almacenamiento de juguetes a cualquier tienda de At Home para un reembolso completo"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reembolso"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "شركة At Home تستدعي صناديق تخزين ألعاب الفراء الملونة بسبب مخاطر السلامة",
+          "Description": "أصدرت شركة At Home استدعاء لصناديق تخزين ألعاب الفراء الملونة، المتاحة بحجمين. الصندوق الأكبر يقيس حوالي 32-½\" × 16-½\" × 21\"، بينما النسخة الأصغر تبلغ حوالي 27\" × 13-½\" × 16\". تم تصنيع هذه الصناديق من لوح خشبي MDF، وهي مغطاة بقماش فراء مزيف متعدد الألوان، مما يضيف لمسة مرحة لأي غرفة. ومع ذلك، فإنها تشكل مخاطر سلامة خطيرة بسبب عدم وجود دعم للغطاء وفتحات التهوية، مما يؤدي إلى مخاطر احتجاز واختناق محتملة.",
+          "ConsumerContact": "للمساعدة، اتصل بشركة At Home عبر البريد الإلكتروني على productrecalls@athome.com، أو اتصل برقمهم المجاني على 888-688-8426، المتاح من الساعة 9 صباحًا حتى 5 مساءً بتوقيت وسط أمريكا، من الاثنين إلى الجمعة. يمكن العثور على معلومات إضافية عبر الإنترنت على https://athome.com/product-recalls أو بزيارة www.athome.com واختيار 'استدعاءات المنتجات' في أسفل الصفحة.",
+          "metaDescription": "تستدعي شركة At Home صناديق تخزين ألعاب الفراء الملونة بسبب مخاطر الاحتجاز والاختناق. تعرف على كيفية استرداد المبلغ.",
+          "Products": [
+            {
+              "Name": "صندوق تخزين ألعاب الفراء الملونة",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 990"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "صندوق تخزين ألعاب الفراء الملونة المستدعى"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "لا توجد إصابات تم الإبلاغ عنها"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "متاح في مواقع At Home في جميع أنحاء البلاد وعبر الإنترنت على athome.com من سبتمبر 2023 حتى فبراير 2024، بسعر يتراوح بين 50 دولارًا و 60 دولارًا."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "شركة At Home Procurement Inc.، من دالاس، تكساس"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "تم البيع في",
+          "ManufacturerCountries": [
+            {
+              "Country": "الصين"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "مخاطر الاحتجاز والاختناق بسبب عدم وجود دعم للغطاء وفتحات التهوية"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "إرجاع صناديق تخزين الألعاب إلى أي متجر من متاجر At Home لاسترداد كامل المبلغ"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "استرداد"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "At Home召回染色毛绒玩具箱储物箱因安全风险",
+          "Description": "At Home已对其染色毛绒玩具箱储物箱发出召回，提供两种尺寸。较大的储物箱尺寸约为32-½\" x 16-½\" x 21\"，而较小的版本约为27\" x 13-½\" x 16\"。这些储物箱由MDF木板制成，外覆鲜艳的多色染色仿毛绒面料，为任何房间增添了俏皮的气息。然而，由于缺乏盖子支撑和通风孔，它们存在严重的安全风险，可能导致夹住和窒息的危险。",
+          "ConsumerContact": "如需帮助，请通过电子邮件联系At Home，邮箱为productrecalls@athome.com，或拨打他们的免费电话888-688-8426，服务时间为周一至周五，上午9点至下午5点（中部时间）。更多信息可在线查阅，网址为https://athome.com/product-recalls，或访问www.athome.com并在页面底部选择“产品召回”。",
+          "metaDescription": "At Home因夹住和窒息风险召回染色毛绒玩具箱储物箱。了解如何获得退款。",
+          "Products": [
+            {
+              "Name": "染色毛绒玩具箱储物箱",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约990个"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "召回的染色毛绒玩具箱储物箱"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "无报告伤害"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "在全国At Home门店和athome.com在线销售，销售时间为2023年9月至2024年2月，价格在50美元至60美元之间。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "At Home Procurement Inc.，德克萨斯州达拉斯"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "销售地点",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "由于缺乏盖子支撑和通风孔而导致的夹住和窒息风险"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "将玩具储物箱退还至任何At Home门店以获得全额退款"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "退款"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "At Home rappelle des coffres de rangement en fourrure tie-dye en raison de risques pour la sécurité",
+          "Description": "At Home a émis un rappel pour ses coffres de rangement en fourrure tie-dye, disponibles en deux tailles. Le coffre plus grand mesure environ 32-½\" x 16-½\" x 21\", tandis que la version plus petite fait environ 27\" x 13-½\" x 16\". Construit en panneau de bois MDF, ces coffres sont recouverts d'un tissu en fausse fourrure tie-dye multicolore vibrant, ce qui ajoute une touche ludique à n'importe quelle pièce. Cependant, ils présentent de graves risques pour la sécurité en raison du manque de support de couvercle et de trous de ventilation, entraînant des risques d'enchevêtrement et d'étouffement.",
+          "ConsumerContact": "Pour obtenir de l'aide, contactez At Home par e-mail à productrecalls@athome.com, ou appelez leur numéro sans frais au 888-688-8426, disponible de 9 h à 17 h CT, du lundi au vendredi. Des informations supplémentaires peuvent être trouvées en ligne sur https://athome.com/product-recalls ou en visitant www.athome.com et en sélectionnant 'Rappels de produits' en bas de la page.",
+          "metaDescription": "At Home rappelle des coffres de rangement en fourrure tie-dye en raison de risques d'enchevêtrement et d'étouffement. Apprenez comment obtenir un remboursement.",
+          "Products": [
+            {
+              "Name": "Coffre de rangement en fourrure tie-dye",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 990"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Coffre de rangement en fourrure tie-dye rappelé"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Aucun rapporté"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible dans les magasins At Home à l'échelle nationale et en ligne sur athome.com de septembre 2023 à février 2024, au prix de 50 $ à 60 $."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "At Home Procurement Inc., de Dallas, Texas"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendu à",
+          "ManufacturerCountries": [
+            {
+              "Country": "Chine"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risques d'enchevêtrement et d'étouffement en raison du manque de support de couvercle et de trous de ventilation"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Retourner les coffres de rangement de jouets dans n'importe quel magasin At Home pour un remboursement complet"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Remboursement"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "At Home ruft Tie Dye Fur Toy Trunk Storage Chests aufgrund von Sicherheitsrisiken zurück",
+          "Description": "At Home hat einen Rückruf für ihre Tie Dye Fur Toy Trunk Storage Chests herausgegeben, die in zwei Größen erhältlich sind. Die größere Truhe misst ungefähr 32-½\" x 16-½\" x 21\", während die kleinere Version etwa 27\" x 13-½\" x 16\" misst. Diese Truhen sind aus MDF-Holzplatten gefertigt und mit einem lebhaften, mehrfarbigen Tie-Dye-Faux-Fur-Stoff bezogen, der jedem Raum einen verspielten Akzent verleiht. Sie stellen jedoch ernsthafte Sicherheitsrisiken dar, da es an Deckelstützen und Belüftungsöffnungen mangelt, was zu möglichen Einklemmen und Erstickungsgefahren führen kann.",
+          "ConsumerContact": "Für Unterstützung kontaktieren Sie At Home per E-Mail unter productrecalls@athome.com oder rufen Sie ihre gebührenfreie Nummer unter 888-688-8426 an, verfügbar von 9 bis 17 Uhr CT, Montag bis Freitag. Weitere Informationen finden Sie online unter https://athome.com/product-recalls oder indem Sie www.athome.com besuchen und 'Produkt-Rückrufe' am Ende der Seite auswählen.",
+          "metaDescription": "At Home ruft Tie Dye Fur Toy Trunk Storage Chests aufgrund von Einklemmen und Erstickungsgefahren zurück. Erfahren Sie, wie Sie eine Rückerstattung erhalten.",
+          "Products": [
+            {
+              "Name": "Tie Dye Fur Toy Trunk Storage Chest",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Ungefähr 990"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Zurückgerufene Tie Dye Fur Toy Trunk Storage Chest"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Keine gemeldeten Verletzungen"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Erhältlich in At Home-Filialen landesweit und online unter athome.com von September 2023 bis Februar 2024, zu Preisen zwischen 50 und 60 US-Dollar."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "At Home Procurement Inc., aus Dallas, Texas"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Verkauft bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Einklemmen und Erstickungsrisiken aufgrund fehlender Deckelstützen und Belüftungsöffnungen"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Geben Sie die Spielzeugaufbewahrungstruhen in einem beliebigen At Home-Geschäft für eine volle Rückerstattung zurück"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Rückerstattung"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "At Homeが安全リスクによりタイダイファーおもちゃトランク収納チェストをリコール",
+          "Description": "At Homeは、2つのサイズで提供されるタイダイファーおもちゃトランク収納チェストのリコールを発表しました。大きいチェストのサイズは約32-½\" x 16-½\" x 21\"で、より小さいバージョンは約27\" x 13-½\" x 16\"です。MDF木材ボードで構成されており、これらのチェストは鮮やかな多色タイダイフェイクファー生地で覆われており、どの部屋にも遊び心を加えます。しかし、蓋の支持と通気孔が不足しているため、潜在的な閉じ込めや窒息の危険があるため、深刻な安全リスクを引き起こします。",
+          "ConsumerContact": "サポートが必要な場合は、productrecalls@athome.comまでメールでAt Homeに連絡するか、月曜日から金曜日の午前9時から午後5時CTまでの間に、フリーダイヤル888-688-8426に電話してください。追加情報は、https://athome.com/product-recallsでオンラインで見つけることができます。または、www.athome.comを訪れてページの下部にある「製品リコール」を選択してください。",
+          "metaDescription": "At Homeは、閉じ込めや窒息の危険性によりタイダイファーおもちゃトランク収納チェストをリコールします。返金を受ける方法を学びましょう。",
+          "Products": [
+            {
+              "Name": "タイダイファーおもちゃトランク収納チェスト",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約990"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコールされたタイダイファーおもちゃトランク収納チェスト"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "報告された怪我はなし"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "2023年9月から2024年2月まで、全国のAt Home店舗およびathome.comで入手可能で、価格は50ドルから60ドルの間です。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "テキサス州ダラスのAt Home Procurement Inc."
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "販売場所",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "蓋の支持と通気孔の不足による閉じ込めと窒息のリスク"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "おもちゃ収納チェストを任意のAt Home店舗に返却して全額返金を受ける"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "返金"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "At Home recolhe Baús de Armazenamento de Brinquedos de Pelúcia Tie Dye devido a Riscos de Segurança",
+          "Description": "A At Home emitiu um recall para seus Baús de Armazenamento de Brinquedos de Pelúcia Tie Dye, disponíveis em dois tamanhos. O baú maior mede aproximadamente 32-½\" x 16-½\" x 21\", enquanto a versão menor tem cerca de 27\" x 13-½\" x 16\". Construídos em MDF, esses baús são cobertos com um vibrante tecido de pelúcia falsa em tie dye multicolorido, que adiciona um toque lúdico a qualquer ambiente. No entanto, eles apresentam sérios riscos de segurança devido à falta de suporte para a tampa e buracos de ventilação, levando a potenciais riscos de aprisionamento e sufocamento.",
+          "ConsumerContact": "Para assistência, entre em contato com a At Home pelo e-mail productrecalls@athome.com ou ligue para o número gratuito 888-688-8426, disponível das 9h às 17h CT, de segunda a sexta-feira. Informações adicionais podem ser encontradas online em https://athome.com/product-recalls ou visitando www.athome.com e selecionando 'Product Recalls' na parte inferior da página.",
+          "metaDescription": "A At Home recolhe Baús de Armazenamento de Brinquedos de Pelúcia Tie Dye devido a riscos de aprisionamento e sufocamento. Aprenda como obter um reembolso.",
+          "Products": [
+            {
+              "Name": "Baú de Armazenamento de Brinquedos de Pelúcia Tie Dye",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 990"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Baú de Armazenamento de Brinquedos de Pelúcia Tie Dye recolhido"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Nenhum relatado"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponível nas lojas At Home em todo o país e online em athome.com de setembro de 2023 a fevereiro de 2024, com preços entre $50 e $60."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "At Home Procurement Inc., de Dallas, Texas"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendido Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Riscos de aprisionamento e sufocamento devido à falta de suporte para a tampa e buracos de ventilação"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Devolva os baús de armazenamento de brinquedos em qualquer loja At Home para um reembolso total"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reembolso"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "एट होम ने सुरक्षा जोखिमों के कारण टाई डाई फर टॉय ट्रंक स्टोरेज चेस्ट की रिकॉल की",
+          "Description": "एट होम ने अपने टाई डाई फर टॉय ट्रंक स्टोरेज चेस्ट की रिकॉल की है, जो दो आकारों में उपलब्ध हैं। बड़ा चेस्ट लगभग 32-½\" x 16-½\" x 21\" मापता है, जबकि छोटा संस्करण लगभग 27\" x 13-½\" x 16\" है। MDF लकड़ी के बोर्ड से निर्मित, ये चेस्ट एक जीवंत मल्टी-कलर टाई डाई फॉक्स फर फैब्रिक में ढके हुए हैं, जो किसी भी कमरे में एक खेलपूर्ण स्पर्श जोड़ते हैं। हालांकि, ये ढक्कन के समर्थन और वेंटिलेशन होल की कमी के कारण गंभीर सुरक्षा जोखिम पैदा करते हैं, जिससे संभावित फंसने और दम घुटने के खतरों का सामना करना पड़ सकता है।",
+          "ConsumerContact": "सहायता के लिए, एट होम से ईमेल के माध्यम से productrecalls@athome.com पर संपर्क करें, या उनके टोल-फ्री नंबर 888-688-8426 पर कॉल करें, जो सोमवार से शुक्रवार, सुबह 9 बजे से शाम 5 बजे CT तक उपलब्ध है। अतिरिक्त जानकारी ऑनलाइन https://athome.com/product-recalls पर या www.athome.com पर जाकर और पृष्ठ के नीचे 'उत्पाद रिकॉल' का चयन करके प्राप्त की जा सकती है।",
+          "metaDescription": "एट होम ने फंसने और दम घुटने के खतरों के कारण टाई डाई फर टॉय ट्रंक स्टोरेज चेस्ट की रिकॉल की। रिफंड प्राप्त करने का तरीका जानें।",
+          "Products": [
+            {
+              "Name": "टाई डाई फर टॉय ट्रंक स्टोरेज चेस्ट",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 990"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "रिकॉल किया गया टाई डाई फर टॉय ट्रंक स्टोरेज चेस्ट"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "कोई रिपोर्ट नहीं"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "एट होम के स्थानों पर और athome.com पर सितंबर 2023 से फरवरी 2024 तक उपलब्ध, कीमत $50 से $60 के बीच।"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "एट होम प्रोक्योरमेंट इंक., डलास, टेक्सास"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "चीन"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "ढक्कन के समर्थन और वेंटिलेशन होल की कमी के कारण फंसने और दम घुटने के जोखिम"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "किसी भी एट होम स्टोर में टॉय स्टोरेज चेस्ट को पूर्ण रिफंड के लिए वापस करें"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "रिफंड"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "Компания At Home отзывает ящики для хранения игрушек с эффектом тай-дай из-за рисков безопасности",
+          "Description": "Компания At Home объявила об отзыве своих ящиков для хранения игрушек с эффектом тай-дай, доступных в двух размерах. Большой ящик имеет размеры примерно 32-½\" x 16-½\" x 21\", в то время как меньшая версия составляет около 27\" x 13-½\" x 16\". Изготовленные из МДФ, эти ящики покрыты яркой многоцветной тканью с эффектом тай-дай, что добавляет игривый штрих в любое помещение. Однако они представляют серьезные риски безопасности из-за отсутствия поддержки крышки и вентиляционных отверстий, что может привести к потенциальным рискам застревания и удушья.",
+          "ConsumerContact": "Для получения помощи свяжитесь с компанией At Home по электронной почте productrecalls@athome.com или позвоните на их бесплатный номер 888-688-8426, доступный с 9:00 до 17:00 по центральному времени с понедельника по пятницу. Дополнительную информацию можно найти онлайн на сайте https://athome.com/product-recalls или посетив www.athome.com и выбрав 'Product Recalls' внизу страницы.",
+          "metaDescription": "Компания At Home отзывает ящики для хранения игрушек с эффектом тай-дай из-за рисков застревания и удушья. Узнайте, как получить возврат.",
+          "Products": [
+            {
+              "Name": "Ящик для хранения игрушек с эффектом тай-дай",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 990"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванный ящик для хранения игрушек с эффектом тай-дай"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Нет сообщений о травмах"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Доступно в магазинах At Home по всей стране и онлайн на athome.com с сентября 2023 года по февраль 2024 года, по цене от 50 до 60 долларов."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "At Home Procurement Inc., Даллас, Техас"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Продается в",
+          "ManufacturerCountries": [
+            {
+              "Country": "Китай"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Риски застревания и удушья из-за отсутствия поддержки крышки и вентиляционных отверстий"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Верните ящики для хранения игрушек в любой магазин At Home для полного возврата средств"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Возврат"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "At Home thu hồi Hộp lưu trữ đồ chơi lông thú nhuộm màu do rủi ro an toàn",
+          "Description": "At Home đã phát động một đợt thu hồi cho Hộp lưu trữ đồ chơi lông thú nhuộm màu của họ, có sẵn trong hai kích cỡ. Hộp lớn hơn có kích thước khoảng 32-½\" x 16-½\" x 21\", trong khi phiên bản nhỏ hơn có kích thước khoảng 27\" x 13-½\" x 16\". Được làm từ ván gỗ MDF, những chiếc hộp này được bọc bằng vải lông thú nhuộm màu đa sắc rực rỡ, tạo thêm nét vui tươi cho bất kỳ căn phòng nào. Tuy nhiên, chúng gây ra những rủi ro an toàn nghiêm trọng do thiếu hỗ trợ nắp và lỗ thông gió, dẫn đến nguy cơ bị kẹt và ngạt thở.",
+          "ConsumerContact": "Để được hỗ trợ, hãy liên hệ với At Home qua email tại productrecalls@athome.com, hoặc gọi số điện thoại miễn phí của họ tại 888-688-8426, có sẵn từ 9 giờ sáng đến 5 giờ chiều CT, từ thứ Hai đến thứ Sáu. Thông tin bổ sung có thể được tìm thấy trực tuyến tại https://athome.com/product-recalls hoặc bằng cách truy cập www.athome.com và chọn 'Sản phẩm thu hồi' ở cuối trang.",
+          "metaDescription": "At Home thu hồi Hộp lưu trữ đồ chơi lông thú nhuộm màu do nguy cơ bị kẹt và ngạt thở. Tìm hiểu cách nhận hoàn tiền.",
+          "Products": [
+            {
+              "Name": "Hộp lưu trữ đồ chơi lông thú nhuộm màu",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 990"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Hộp lưu trữ đồ chơi lông thú nhuộm màu bị thu hồi"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Không có báo cáo"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Có sẵn tại các địa điểm At Home trên toàn quốc và trực tuyến tại athome.com từ tháng 9 năm 2023 đến tháng 2 năm 2024, có giá từ 50 đến 60 đô la."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "At Home Procurement Inc., của Dallas, Texas"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Bán Tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Trung Quốc"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Nguy cơ bị kẹt và ngạt thở do thiếu hỗ trợ nắp và lỗ thông gió"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Trả lại hộp lưu trữ đồ chơi tại bất kỳ cửa hàng At Home nào để nhận hoàn tiền đầy đủ"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Hoàn tiền"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    },
+    {
+      "RecallID": 9871,
+      "RecallNumber": "24134",
+      "RecallDate": "2024-02-29T00:00:00",
+      "Description": "SMART Technologies is recalling its Electric Height-Adjustable Mobile Stands designed for Large Interactive Flat Panel Displays due to potential safety hazards. The affected models include FSE-400, sold globally, and FSE-410, available in the US and Canada. These stands are identifiable by their white color and a four-wheel base, with the model number, serial number, and SMART logo located on a label at the back. Consumers are urged to visit the SMART Technologies support website to check if their serial number is part of this recall.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/Mobile-Stands-for-Large-Interactive-Flat-Panel-Displays-Recalled-Due-to-Tip-Over-and-Entrapment-Hazards-Imported-by-SMART-Technologies",
+      "Title": "Recall of SMART Technologies Electric Height-Adjustable Mobile Stands for Large Interactive Flat Panel Displays Due to Safety Risks",
+      "ConsumerContact": "For assistance, consumers can reach SMART Technologies ULC at 888-427-6278, available from 6 a.m. to 6 p.m. MT, Monday to Friday. Additional information can be found online at https://support.smarttech.com/docs/general-support-info/en/recalls or by visiting https://www.smarttech.com and selecting 'RECALLS' at the bottom of the page under 'Support and training.'",
+      "LastPublishDate": "2024-02-29T00:00:00",
+      "Products": [
+        {
+          "Name": "Electric Height-Adjustable Mobile Stands for Large Interactive Flat Panel Displays",
+          "NumberOfUnits": "About 750"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/other-furniture/4-Electric-Height-Adjustable-Mobile-Stands-for-Large-Interactive-Flat-Panel-Displays/152fda83b8a026c11a226198a20596fb.webp",
+          "Caption": "Recalled Electric Height-Adjustable Mobile Stand for Large Interactive Flat Panel Displays",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Recalled Electric Height-Adjustable Mobile Stand for Large Interactive Flat Panel Displays.png"
+        },
+        {
+          "URL": "/images/generalRecalls/other-furniture/4-Electric-Height-Adjustable-Mobile-Stands-for-Large-Interactive-Flat-Panel-Displays/afbceec926d220f36087a046a4eee060.webp",
+          "Caption": "Location of serial number, model number and SMART logo on the back of the recalled mobile stand",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Location of serial number, model number and SMART logo on the back of the recalled mobile stand.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received one report of the wheelbase welds breaking while the stand was being moved. No injuries have been reported."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Sold through SMART authorized distributors and resellers to businesses nationwide between May 2023 and December 2023 for approximately $1,735."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "SMART Technologies ULC, of Canada"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "Netherlands"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of tip-over and entrapment due to potential bending or breaking of the wheelbase welds."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should stop using the recalled stands immediately and contact SMART Technologies ULC for a free on-site wheelbase replacement. SMART and its authorized resellers will also reach out to known purchasers."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Replace"
+        }
+      ],
+      "slug": "recall-of-smart-technologies-electric-height-adjustable-mobile-stands-for-large-interactive-flat-panel-displays-due-to-safety-risks-recall",
+      "metaDescription": "SMART Technologies recalls Electric Height-Adjustable Mobile Stands due to tip-over hazards. Check if your stand is affected.",
+      "languages": {
+        "en": {
+          "Title": "Recall of SMART Technologies Electric Height-Adjustable Mobile Stands for Large Interactive Flat Panel Displays Due to Safety Risks",
+          "Description": "SMART Technologies is recalling its Electric Height-Adjustable Mobile Stands designed for Large Interactive Flat Panel Displays due to potential safety hazards. The affected models include FSE-400, sold globally, and FSE-410, available in the US and Canada. These stands are identifiable by their white color and a four-wheel base, with the model number, serial number, and SMART logo located on a label at the back. Consumers are urged to visit the SMART Technologies support website to check if their serial number is part of this recall.",
+          "ConsumerContact": "For assistance, consumers can reach SMART Technologies ULC at 888-427-6278, available from 6 a.m. to 6 p.m. MT, Monday to Friday. Additional information can be found online at https://support.smarttech.com/docs/general-support-info/en/recalls or by visiting https://www.smarttech.com and selecting 'RECALLS' at the bottom of the page under 'Support and training.'",
+          "metaDescription": "SMART Technologies recalls Electric Height-Adjustable Mobile Stands due to tip-over hazards. Check if your stand is affected.",
+          "Products": [
+            {
+              "Name": "Electric Height-Adjustable Mobile Stands for Large Interactive Flat Panel Displays",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 750"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled Electric Height-Adjustable Mobile Stand for Large Interactive Flat Panel Displays"
+            },
+            {
+              "Caption": "Location of serial number, model number and SMART logo on the back of the recalled mobile stand"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "The firm has received one report of the wheelbase welds breaking while the stand was being moved. No injuries have been reported."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Sold through SMART authorized distributors and resellers to businesses nationwide between May 2023 and December 2023 for approximately $1,735."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "SMART Technologies ULC, of Canada"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Sold At",
+          "ManufacturerCountries": [
+            {
+              "Country": "Netherlands"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risk of tip-over and entrapment due to potential bending or breaking of the wheelbase welds."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Consumers should stop using the recalled stands immediately and contact SMART Technologies ULC for a free on-site wheelbase replacement. SMART and its authorized resellers will also reach out to known purchasers."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Replace"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "Retiro de los Soportes Móviles Eléctricos Ajustables en Altura de SMART Technologies para Grandes Pantallas Planas Interactivas Debido a Riesgos de Seguridad",
+          "Description": "SMART Technologies está retirando sus Soportes Móviles Eléctricos Ajustables en Altura diseñados para Grandes Pantallas Planas Interactivas debido a posibles peligros de seguridad. Los modelos afectados incluyen FSE-400, vendidos a nivel mundial, y FSE-410, disponibles en EE. UU. y Canadá. Estos soportes son identificables por su color blanco y una base de cuatro ruedas, con el número de modelo, número de serie y el logo de SMART ubicados en una etiqueta en la parte posterior. Se insta a los consumidores a visitar el sitio web de soporte de SMART Technologies para verificar si su número de serie forma parte de este retiro.",
+          "ConsumerContact": "Para asistencia, los consumidores pueden comunicarse con SMART Technologies ULC al 888-427-6278, disponible de 6 a.m. a 6 p.m. MT, de lunes a viernes. Se puede encontrar información adicional en línea en https://support.smarttech.com/docs/general-support-info/en/recalls o visitando https://www.smarttech.com y seleccionando 'RECALLS' en la parte inferior de la página bajo 'Soporte y capacitación.'",
+          "metaDescription": "SMART Technologies retira los Soportes Móviles Eléctricos Ajustables en Altura debido a riesgos de vuelco. Verifique si su soporte está afectado.",
+          "Products": [
+            {
+              "Name": "Soportes Móviles Eléctricos Ajustables en Altura para Grandes Pantallas Planas Interactivas",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 750"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Soporte Móvil Eléctrico Ajustable en Altura retirado para Grandes Pantallas Planas Interactivas"
+            },
+            {
+              "Caption": "Ubicación del número de serie, número de modelo y logo de SMART en la parte posterior del soporte móvil retirado"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "La empresa ha recibido un informe de que las soldaduras de la base de ruedas se rompieron mientras se movía el soporte. No se han reportado lesiones."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Vendido a través de distribuidores y revendedores autorizados de SMART a empresas en todo el país entre mayo de 2023 y diciembre de 2023 por aproximadamente $1,735."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "SMART Technologies ULC, de Canadá"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendido En",
+          "ManufacturerCountries": [
+            {
+              "Country": "Países Bajos"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Riesgo de vuelco y atrapamiento debido a la posible flexión o ruptura de las soldaduras de la base de ruedas."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Los consumidores deben dejar de usar los soportes retirados de inmediato y contactar a SMART Technologies ULC para un reemplazo gratuito de la base de ruedas en el sitio. SMART y sus revendedores autorizados también se comunicarán con los compradores conocidos."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reemplazar"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "استرجاع حوامل SMART Technologies المتحركة القابلة لتعديل الارتفاع كهربائياً لشاشات العرض التفاعلية الكبيرة بسبب مخاطر السلامة",
+          "Description": "تقوم SMART Technologies باسترجاع حواملها المتحركة القابلة لتعديل الارتفاع كهربائياً المصممة لشاشات العرض التفاعلية الكبيرة بسبب مخاطر السلامة المحتملة. تشمل النماذج المتأثرة FSE-400، المباعة عالمياً، وFSE-410، المتاحة في الولايات المتحدة وكندا. يمكن التعرف على هذه الحوامل من خلال لونها الأبيض وقاعدة ذات أربع عجلات، مع رقم الطراز ورقم السيريال وشعار SMART الموجود على ملصق في الخلف. يُحث المستهلكون على زيارة موقع دعم SMART Technologies للتحقق مما إذا كان رقم السيريال الخاص بهم جزءًا من هذا الاسترجاع.",
+          "ConsumerContact": "للحصول على المساعدة، يمكن للمستهلكين الاتصال بـ SMART Technologies ULC على الرقم 888-427-6278، المتاح من الساعة 6 صباحًا حتى 6 مساءً بتوقيت الجبل، من الاثنين إلى الجمعة. يمكن العثور على معلومات إضافية عبر الإنترنت على https://support.smarttech.com/docs/general-support-info/en/recalls أو من خلال زيارة https://www.smarttech.com واختيار 'RECALLS' في أسفل الصفحة تحت 'الدعم والتدريب.'",
+          "metaDescription": "تقوم SMART Technologies باسترجاع الحوامل المتحركة القابلة لتعديل الارتفاع كهربائياً بسبب مخاطر الانقلاب. تحقق مما إذا كانت حواملك متأثرة.",
+          "Products": [
+            {
+              "Name": "حوامل كهربائية متحركة قابلة لتعديل الارتفاع لشاشات العرض التفاعلية الكبيرة",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 750"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "حامل كهربائي متحرك قابل لتعديل الارتفاع لشاشات العرض التفاعلية الكبيرة المسترجع"
+            },
+            {
+              "Caption": "موقع رقم السيريال ورقم الطراز وشعار SMART على ظهر الحامل المتحرك المسترجع"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "تلقت الشركة تقريرًا واحدًا عن كسر لحام قاعدة العجلات أثناء تحريك الحامل. لم يتم الإبلاغ عن أي إصابات."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "تم بيعه من خلال موزعين معتمدين من SMART وبائعين إلى الشركات في جميع أنحاء البلاد بين مايو 2023 وديسمبر 2023 مقابل حوالي 1,735 دولار."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "SMART Technologies ULC، كندا"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "تم بيعه في",
+          "ManufacturerCountries": [
+            {
+              "Country": "هولندا"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "خطر الانقلاب والاحتجاز بسبب احتمال انحناء أو كسر لحام قاعدة العجلات."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "يجب على المستهلكين التوقف عن استخدام الحوامل المسترجعة على الفور والاتصال بـ SMART Technologies ULC للحصول على استبدال مجاني لقاعدة العجلات في الموقع. ستقوم SMART وبائعوها المعتمدون أيضًا بالتواصل مع المشترين المعروفين."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "استبدال"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "因安全风险召回SMART Technologies电动高度可调移动支架用于大型互动平板显示器",
+          "Description": "SMART Technologies因潜在的安全隐患召回其为大型互动平板显示器设计的电动高度可调移动支架。受影响的型号包括全球销售的FSE-400和在美国和加拿大销售的FSE-410。这些支架的颜色为白色，底座为四轮设计，型号、序列号和SMART标志位于背面的标签上。消费者被敦促访问SMART Technologies支持网站，以检查他们的序列号是否在此次召回之列。",
+          "ConsumerContact": "如需帮助，消费者可以拨打SMART Technologies ULC的电话888-427-6278，服务时间为周一至周五，上午6点至下午6点（山地时间）。更多信息可以在线找到，网址为https://support.smarttech.com/docs/general-support-info/en/recalls，或访问https://www.smarttech.com并在页面底部的“支持与培训”下选择“召回”。",
+          "metaDescription": "SMART Technologies因倾倒危险召回电动高度可调移动支架。检查您的支架是否受到影响。",
+          "Products": [
+            {
+              "Name": "用于大型互动平板显示器的电动高度可调移动支架",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约750个"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "召回的用于大型互动平板显示器的电动高度可调移动支架"
+            },
+            {
+              "Caption": "召回的移动支架背面的序列号、型号和SMART标志的位置"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "公司收到一份报告，称在移动支架时轮基焊接处断裂。未报告任何受伤情况。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "通过SMART授权的分销商和转售商在全国范围内销售，时间为2023年5月至2023年12月，价格约为1,735美元。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "加拿大的SMART Technologies ULC"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "销售地点",
+          "ManufacturerCountries": [
+            {
+              "Country": "荷兰"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "由于轮基焊接处可能弯曲或断裂，存在倾倒和夹住的风险。"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "消费者应立即停止使用召回的支架，并联系SMART Technologies ULC进行免费的现场轮基更换。SMART及其授权转售商也将联系已知的购买者。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "更换"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "Rappel des supports mobiles électriques réglables en hauteur de SMART Technologies pour grands écrans plats interactifs en raison de risques pour la sécurité",
+          "Description": "SMART Technologies rappelle ses supports mobiles électriques réglables en hauteur conçus pour de grands écrans plats interactifs en raison de dangers potentiels pour la sécurité. Les modèles concernés incluent FSE-400, vendus dans le monde entier, et FSE-410, disponibles aux États-Unis et au Canada. Ces supports sont identifiables par leur couleur blanche et une base à quatre roues, avec le numéro de modèle, le numéro de série et le logo SMART situés sur une étiquette à l'arrière. Les consommateurs sont invités à visiter le site de support de SMART Technologies pour vérifier si leur numéro de série fait partie de ce rappel.",
+          "ConsumerContact": "Pour obtenir de l'aide, les consommateurs peuvent contacter SMART Technologies ULC au 888-427-6278, disponible de 6 h à 18 h MT, du lundi au vendredi. Des informations supplémentaires peuvent être trouvées en ligne à l'adresse https://support.smarttech.com/docs/general-support-info/en/recalls ou en visitant https://www.smarttech.com et en sélectionnant 'RECALLS' en bas de la page sous 'Support et formation.'",
+          "metaDescription": "SMART Technologies rappelle des supports mobiles électriques réglables en hauteur en raison de risques de basculement. Vérifiez si votre support est concerné.",
+          "Products": [
+            {
+              "Name": "Supports mobiles électriques réglables en hauteur pour grands écrans plats interactifs",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 750"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Support mobile électrique réglable en hauteur rappelé pour grands écrans plats interactifs"
+            },
+            {
+              "Caption": "Emplacement du numéro de série, du numéro de modèle et du logo SMART à l'arrière du support mobile rappelé"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "L'entreprise a reçu un rapport concernant des soudures de la base à roues se brisant pendant que le support était déplacé. Aucun blessé n'a été signalé."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Vendu par des distributeurs et revendeurs autorisés SMART aux entreprises à l'échelle nationale entre mai 2023 et décembre 2023 pour environ 1 735 $."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "SMART Technologies ULC, du Canada"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendu À",
+          "ManufacturerCountries": [
+            {
+              "Country": "Pays-Bas"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risque de basculement et d'enchevêtrement en raison d'une flexion ou d'une rupture potentielle des soudures de la base à roues."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Les consommateurs doivent cesser d'utiliser immédiatement les supports rappelés et contacter SMART Technologies ULC pour un remplacement gratuit de la base à roues sur site. SMART et ses revendeurs autorisés contacteront également les acheteurs connus."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Remplacer"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "Rückruf von SMART Technologies elektrisch höhenverstellbaren mobilen Ständern für große interaktive Flachbildschirme aufgrund von Sicherheitsrisiken",
+          "Description": "SMART Technologies ruft seine elektrisch höhenverstellbaren mobilen Ständer zurück, die für große interaktive Flachbildschirme entwickelt wurden, aufgrund potenzieller Sicherheitsgefahren. Die betroffenen Modelle sind FSE-400, weltweit verkauft, und FSE-410, erhältlich in den USA und Kanada. Diese Ständer sind an ihrer weißen Farbe und einem vierrädrigen Fuß zu erkennen, mit der Modellnummer, Seriennummer und dem SMART-Logo, die sich auf einem Etikett auf der Rückseite befinden. Verbraucher werden aufgefordert, die Support-Website von SMART Technologies zu besuchen, um zu überprüfen, ob ihre Seriennummer Teil dieses Rückrufs ist.",
+          "ConsumerContact": "Für Unterstützung können Verbraucher SMART Technologies ULC unter 888-427-6278 erreichen, verfügbar von 6 bis 18 Uhr MT, Montag bis Freitag. Weitere Informationen sind online unter https://support.smarttech.com/docs/general-support-info/en/recalls oder durch den Besuch von https://www.smarttech.com und Auswahl von 'RÜCKRÜFE' am Ende der Seite unter 'Support und Schulung' zu finden.",
+          "metaDescription": "SMART Technologies ruft elektrisch höhenverstellbare mobile Ständer aufgrund von Umsturzgefahren zurück. Überprüfen Sie, ob Ihr Ständer betroffen ist.",
+          "Products": [
+            {
+              "Name": "Elektrisch höhenverstellbare mobile Ständer für große interaktive Flachbildschirme",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 750"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Rückgerufener elektrisch höhenverstellbarer mobiler Ständer für große interaktive Flachbildschirme"
+            },
+            {
+              "Caption": "Standort der Seriennummer, Modellnummer und des SMART-Logos auf der Rückseite des zurückgerufenen mobilen Ständers"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Das Unternehmen hat einen Bericht über das Brechen der Schweißnähte des Radfußes erhalten, während der Ständer bewegt wurde. Es wurden keine Verletzungen gemeldet."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Verkauft über autorisierte Vertriebspartner und Wiederverkäufer von SMART an Unternehmen im ganzen Land zwischen Mai 2023 und Dezember 2023 für etwa 1.735 $."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "SMART Technologies ULC, Kanada"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Verkauft bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "Niederlande"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risiko des Umsturzes und der Einklemmung aufgrund potenzieller Biegung oder Brechens der Schweißnähte des Radfußes."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Verbraucher sollten die zurückgerufenen Ständer sofort nicht mehr verwenden und SMART Technologies ULC für einen kostenlosen Austausch des Radfußes vor Ort kontaktieren. SMART und seine autorisierten Wiederverkäufer werden auch bekannte Käufer kontaktieren."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Ersetzen"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "安全リスクによりSMART Technologiesの大型インタラクティブフラットパネルディスプレイ用電動高さ調整モバイルスタンドのリコール",
+          "Description": "SMART Technologiesは、安全上の潜在的な危険性により、大型インタラクティブフラットパネルディスプレイ用に設計された電動高さ調整モバイルスタンドをリコールしています。影響を受けるモデルには、世界中で販売されているFSE-400と、米国およびカナダで入手可能なFSE-410が含まれます。これらのスタンドは白色で、四輪ベースを持ち、モデル番号、シリアル番号、SMARTロゴが背面のラベルに表示されています。消費者は、自分のシリアル番号がこのリコールに該当するかどうかを確認するために、SMART Technologiesのサポートウェブサイトを訪れることをお勧めします。",
+          "ConsumerContact": "サポートが必要な場合、消費者はSMART Technologies ULCに888-427-6278まで連絡できます。営業時間は月曜日から金曜日の午前6時から午後6時（MT）です。追加情報は、https://support.smarttech.com/docs/general-support-info/en/recallsでオンラインで確認するか、https://www.smarttech.comを訪れてページ下部の「サポートとトレーニング」の下にある「リコール」を選択してください。",
+          "metaDescription": "SMART Technologiesは、転倒の危険性により電動高さ調整モバイルスタンドをリコールしています。あなたのスタンドが影響を受けているか確認してください。",
+          "Products": [
+            {
+              "Name": "大型インタラクティブフラットパネルディスプレイ用電動高さ調整モバイルスタンド",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約750"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコールされた大型インタラクティブフラットパネルディスプレイ用電動高さ調整モバイルスタンド"
+            },
+            {
+              "Caption": "リコールされたモバイルスタンドの背面にあるシリアル番号、モデル番号、SMARTロゴの位置"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "同社は、スタンドを移動中に車輪ベースの溶接が破損したとの報告を1件受けています。負傷者の報告はありません。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "2023年5月から2023年12月の間に、全国の企業向けにSMARTの認定ディストリビューターおよび再販業者を通じて約1,735ドルで販売されました。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "カナダのSMART Technologies ULC"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "販売場所",
+          "ManufacturerCountries": [
+            {
+              "Country": "オランダ"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "車輪ベースの溶接が曲がったり破損したりする可能性があるため、転倒および挟まれるリスクがあります。"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "消費者は、リコールされたスタンドの使用を直ちに中止し、SMART Technologies ULCに連絡して無料の現地車輪ベース交換を依頼するべきです。SMARTおよびその認定再販業者も、既知の購入者に連絡を取ります。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "交換"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "Recall de Suportes Móveis Elétricos Ajustáveis em Altura da SMART Technologies para Grandes Displays Interativos de Painel Plano Devido a Riscos de Segurança",
+          "Description": "A SMART Technologies está recalling seus Suportes Móveis Elétricos Ajustáveis em Altura projetados para Grandes Displays Interativos de Painel Plano devido a potenciais riscos de segurança. Os modelos afetados incluem FSE-400, vendidos globalmente, e FSE-410, disponíveis nos EUA e no Canadá. Esses suportes são identificáveis pela sua cor branca e uma base de quatro rodas, com o número do modelo, número de série e o logotipo da SMART localizados em um rótulo na parte de trás. Os consumidores são incentivados a visitar o site de suporte da SMART Technologies para verificar se seu número de série faz parte deste recall.",
+          "ConsumerContact": "Para assistência, os consumidores podem entrar em contato com a SMART Technologies ULC pelo telefone 888-427-6278, disponível das 6h às 18h MT, de segunda a sexta-feira. Informações adicionais podem ser encontradas online em https://support.smarttech.com/docs/general-support-info/en/recalls ou visitando https://www.smarttech.com e selecionando 'RECALLS' na parte inferior da página em 'Suporte e treinamento.'",
+          "metaDescription": "A SMART Technologies faz recall de Suportes Móveis Elétricos Ajustáveis em Altura devido a riscos de tombamento. Verifique se seu suporte está afetado.",
+          "Products": [
+            {
+              "Name": "Suportes Móveis Elétricos Ajustáveis em Altura para Grandes Displays Interativos de Painel Plano",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 750"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Suporte Móvel Elétrico Ajustável em Altura recallado para Grandes Displays Interativos de Painel Plano"
+            },
+            {
+              "Caption": "Localização do número de série, número do modelo e logotipo da SMART na parte de trás do suporte móvel recallado"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "A empresa recebeu um relato de que as soldas da base de rodas quebraram enquanto o suporte estava sendo movido. Nenhum ferimento foi relatado."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Vendido através de distribuidores e revendedores autorizados da SMART para empresas em todo o país entre maio de 2023 e dezembro de 2023 por aproximadamente $1.735."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "SMART Technologies ULC, do Canadá"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendido Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "Países Baixos"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risco de tombamento e aprisionamento devido ao potencial de curvatura ou quebra das soldas da base de rodas."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Os consumidores devem parar de usar os suportes recallados imediatamente e entrar em contato com a SMART Technologies ULC para uma substituição gratuita da base de rodas no local. A SMART e seus revendedores autorizados também entrarão em contato com os compradores conhecidos."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Substituir"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "सुरक्षा जोखिमों के कारण बड़े इंटरैक्टिव फ्लैट पैनल डिस्प्ले के लिए SMART Technologies इलेक्ट्रिक ऊंचाई-समायोज्य मोबाइल स्टैंड काRecall",
+          "Description": "SMART Technologies अपने इलेक्ट्रिक ऊंचाई-समायोज्य मोबाइल स्टैंड को वापस बुला रहा है जो बड़े इंटरैक्टिव फ्लैट पैनल डिस्प्ले के लिए डिज़ाइन किए गए हैं, संभावित सुरक्षा खतरों के कारण। प्रभावित मॉडल में FSE-400, जो वैश्विक स्तर पर बेचा गया, और FSE-410, जो अमेरिका और कनाडा में उपलब्ध है, शामिल हैं। ये स्टैंड उनके सफेद रंग और चार पहियों के आधार द्वारा पहचाने जा सकते हैं, जिसमें मॉडल नंबर, सीरियल नंबर और SMART लोगो पीछे एक लेबल पर स्थित है। उपभोक्ताओं से अनुरोध किया जाता है कि वे यह जांचने के लिए SMART Technologies के समर्थन वेबसाइट पर जाएं कि क्या उनका सीरियल नंबर इस Recall का हिस्सा है।",
+          "ConsumerContact": "सहायता के लिए, उपभोक्ता SMART Technologies ULC से 888-427-6278 पर संपर्क कर सकते हैं, जो सोमवार से शुक्रवार, सुबह 6 बजे से शाम 6 बजे तक MT उपलब्ध है। अतिरिक्त जानकारी ऑनलाइन https://support.smarttech.com/docs/general-support-info/en/recalls पर या https://www.smarttech.com पर जाकर और पृष्ठ के नीचे 'सहायता और प्रशिक्षण' के तहत 'Recall' का चयन करके प्राप्त की जा सकती है।",
+          "metaDescription": "SMART Technologies इलेक्ट्रिक ऊंचाई-समायोज्य मोबाइल स्टैंड को टिप-ओवर खतरों के कारण वापस बुला रहा है। जांचें कि क्या आपका स्टैंड प्रभावित है।",
+          "Products": [
+            {
+              "Name": "बड़े इंटरैक्टिव फ्लैट पैनल डिस्प्ले के लिए इलेक्ट्रिक ऊंचाई-समायोज्य मोबाइल स्टैंड",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 750"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "बड़े इंटरैक्टिव फ्लैट पैनल डिस्प्ले के लिए वापस बुलाए गए इलेक्ट्रिक ऊंचाई-समायोज्य मोबाइल स्टैंड"
+            },
+            {
+              "Caption": "वापस बुलाए गए मोबाइल स्टैंड के पीछे सीरियल नंबर, मॉडल नंबर और SMART लोगो का स्थान"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "कंपनी को एक रिपोर्ट मिली है कि पहिया आधार की वेल्डिंग टूट गई जब स्टैंड को स्थानांतरित किया जा रहा था। कोई चोटें रिपोर्ट नहीं की गई हैं।"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "SMART अधिकृत वितरकों और पुनर्विक्रेताओं के माध्यम से व्यवसायों को मई 2023 से दिसंबर 2023 के बीच लगभग $1,735 में बेचा गया।"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "SMART Technologies ULC, कनाडा"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "नीदरलैंड्स"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "पहिया आधार की वेल्डिंग के संभावित मुड़ने या टूटने के कारण टिप-ओवर और फंसने का जोखिम।"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "उपभोक्ताओं को तुरंत वापस बुलाए गए स्टैंड का उपयोग बंद कर देना चाहिए और मुफ्त ऑन-साइट पहिया आधार प्रतिस्थापन के लिए SMART Technologies ULC से संपर्क करना चाहिए। SMART और इसके अधिकृत पुनर्विक्रेता भी ज्ञात खरीदारों से संपर्क करेंगे।"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "बदलें"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "Отзыв электрических мобильных подставок с регулируемой высотой от SMART Technologies для больших интерактивных плоских панелей из-за рисков безопасности",
+          "Description": "SMART Technologies отзывает свои электрические мобильные подставки с регулируемой высотой, предназначенные для больших интерактивных плоских панелей, из-за потенциальных рисков безопасности. Затронутые модели включают FSE-400, продаваемую по всему миру, и FSE-410, доступную в США и Канаде. Эти подставки можно идентифицировать по белому цвету и четырехколесной базе, с номером модели, серийным номером и логотипом SMART, расположенными на ярлыке на задней стороне. Потребителей призывают посетить сайт поддержки SMART Technologies, чтобы проверить, входит ли их серийный номер в этот отзыв.",
+          "ConsumerContact": "Для получения помощи потребители могут связаться с SMART Technologies ULC по телефону 888-427-6278, доступному с 6:00 до 18:00 по горному времени с понедельника по пятницу. Дополнительную информацию можно найти в интернете по адресу https://support.smarttech.com/docs/general-support-info/en/recalls или посетив https://www.smarttech.com и выбрав 'ОТЗЫВЫ' внизу страницы в разделе 'Поддержка и обучение.'",
+          "metaDescription": "SMART Technologies отзывает электрические мобильные подставки с регулируемой высотой из-за рисков опрокидывания. Проверьте, затрагивает ли это вашу подставку.",
+          "Products": [
+            {
+              "Name": "Электрические мобильные подставки с регулируемой высотой для больших интерактивных плоских панелей",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 750"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванная электрическая мобильная подставка с регулируемой высотой для больших интерактивных плоских панелей"
+            },
+            {
+              "Caption": "Место расположения серийного номера, номера модели и логотипа SMART на задней стороне отозванной мобильной подставки"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Компания получила один отчет о том, что сварные швы колесной базы сломались во время перемещения подставки. О травмах не сообщалось."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Продавалось через авторизованных дистрибьюторов и реселлеров SMART для бизнеса по всей стране с мая 2023 года по декабрь 2023 года примерно за 1,735 долларов."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "SMART Technologies ULC, Канада"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Продавалось в",
+          "ManufacturerCountries": [
+            {
+              "Country": "Нидерланды"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Риск опрокидывания и зажатия из-за потенциального изгиба или поломки сварных швов колесной базы."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Потребители должны немедленно прекратить использование отозванных подставок и связаться с SMART Technologies ULC для бесплатной замены колесной базы на месте. SMART и его авторизованные реселлеры также свяжутся с известными покупателями."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Заменить"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "Thu hồi giá đỡ di động điều chỉnh chiều cao điện SMART Technologies cho màn hình phẳng tương tác lớn do rủi ro an toàn",
+          "Description": "SMART Technologies đang thu hồi các giá đỡ di động điều chỉnh chiều cao điện được thiết kế cho màn hình phẳng tương tác lớn do các nguy cơ an toàn tiềm ẩn. Các mẫu bị ảnh hưởng bao gồm FSE-400, được bán trên toàn cầu, và FSE-410, có sẵn tại Hoa Kỳ và Canada. Những giá đỡ này có thể nhận diện bằng màu trắng và chân đế bốn bánh, với số mẫu, số sê-ri và logo SMART nằm trên nhãn ở phía sau. Người tiêu dùng được khuyến khích truy cập trang web hỗ trợ của SMART Technologies để kiểm tra xem số sê-ri của họ có nằm trong đợt thu hồi này hay không.",
+          "ConsumerContact": "Để được hỗ trợ, người tiêu dùng có thể liên hệ với SMART Technologies ULC theo số 888-427-6278, có sẵn từ 6 giờ sáng đến 6 giờ chiều MT, từ thứ Hai đến thứ Sáu. Thông tin bổ sung có thể được tìm thấy trực tuyến tại https://support.smarttech.com/docs/general-support-info/en/recalls hoặc bằng cách truy cập https://www.smarttech.com và chọn 'THU HỒI' ở cuối trang dưới phần 'Hỗ trợ và đào tạo.'",
+          "metaDescription": "SMART Technologies thu hồi các giá đỡ di động điều chỉnh chiều cao điện do nguy cơ lật đổ. Kiểm tra xem giá đỡ của bạn có bị ảnh hưởng hay không.",
+          "Products": [
+            {
+              "Name": "Giá đỡ di động điều chỉnh chiều cao điện cho màn hình phẳng tương tác lớn",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 750"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Giá đỡ di động điều chỉnh chiều cao điện bị thu hồi cho màn hình phẳng tương tác lớn"
+            },
+            {
+              "Caption": "Vị trí của số sê-ri, số mẫu và logo SMART ở phía sau giá đỡ di động bị thu hồi"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Công ty đã nhận được một báo cáo về việc các mối hàn của chân đế bị gãy trong khi giá đỡ đang được di chuyển. Không có thương tích nào được báo cáo."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Bán qua các nhà phân phối và đại lý được ủy quyền của SMART cho các doanh nghiệp trên toàn quốc từ tháng 5 năm 2023 đến tháng 12 năm 2023 với giá khoảng 1.735 đô la."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "SMART Technologies ULC, của Canada"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Bán Tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Hà Lan"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Nguy cơ lật đổ và kẹt do khả năng uốn cong hoặc gãy của các mối hàn chân đế."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Người tiêu dùng nên ngừng sử dụng ngay lập tức các giá đỡ bị thu hồi và liên hệ với SMART Technologies ULC để được thay thế chân đế miễn phí tại chỗ. SMART và các đại lý ủy quyền của họ cũng sẽ liên hệ với những người mua đã biết."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Thay thế"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    }
+  ]
+}

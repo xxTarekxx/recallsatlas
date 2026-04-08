@@ -1,0 +1,799 @@
+{
+  "meta": {
+    "slug": "swings-or-swing-sets",
+    "sourceCsvFile": "swings-or-swing-sets_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:37.084Z",
+    "recallCount": 1,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "swings-or-swing-sets.json",
+    "seoTranslatedAt": "2026-04-05T05:52:53.846Z",
+    "resumePartial": false,
+    "i18nSource": "generalRecallsTranslated",
+    "i18nSourceFile": "swings-or-swing-sets.json",
+    "i18nUiLangs": [
+      "en",
+      "es",
+      "ar",
+      "zh",
+      "fr",
+      "de",
+      "ja",
+      "pt",
+      "hi",
+      "ru",
+      "vi"
+    ],
+    "i18nProgressByLang": {
+      "es": 1,
+      "ar": 1,
+      "zh": 1,
+      "fr": 1,
+      "de": 1,
+      "ja": 1,
+      "pt": 1,
+      "hi": 1,
+      "ru": 1,
+      "vi": 1
+    },
+    "i18nInProgress": false,
+    "i18nTranslatedAt": "2026-04-07T22:39:21.105Z",
+    "i18nOpenaiModel": "gpt-4o-mini"
+  },
+  "recalls": [
+    {
+      "RecallID": 10660,
+      "RecallNumber": "26324",
+      "RecallDate": "2026-03-12T00:00:00",
+      "Description": "LFTE USA has issued a recall for Playground Swing Set Seats that were part of assembled playground sets. These swing seats, available in black, blue, green, red, tan, and yellow, feature the code 'LF-65708' on the seat pad. Only swings with the model number 999604 are affected by this recall. The rivets that support these swing seats may fail, creating a potential fall hazard for children.",
+      "URL": "https://www.cpsc.gov/Recalls/2026/LFTE-USA-Recalls-Playground-Swing-Set-Seats-Due-to-Fall-Hazard",
+      "Title": "LFTE USA Recalls Playground Swing Set Seats Due to Fall Risk",
+      "ConsumerContact": "Consumers are advised to stop using the recalled swing seats immediately and reach out to LFTE USA via email at recall@lfteusa.com for a free replacement.",
+      "LastPublishDate": "2026-03-13T00:00:00",
+      "Products": [
+        {
+          "Name": "Playground Swing Set Seats",
+          "NumberOfUnits": "About 7,200"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/swings-or-swing-sets/1-Playground-Swing-Set-Seats/e0fe1046e6167cf564f5fb4db1e3ad9f.webp",
+          "Caption": "Recalled playground swing set",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/playgroundss-1.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/swings-or-swing-sets/1-Playground-Swing-Set-Seats/50edcacabdaa82ccbd0b6d3f57e53601.webp",
+          "Caption": "Recalled Swing Seat",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/playgroundss-2.jpg"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm received one report of a swing breaking and a child falling, resulting in a minor injury."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Sold by Miracle Recreation Equipment and Little Tikes Commercial nationwide from January 2025 through September 2025, priced between $80 and $95. These swing seats were sold exclusively to playground manufacturers."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "LFTE USA Inc., of Cary, North Carolina"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Fall hazard due to potential rivet failure"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Free replacement swing seat"
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Replace"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "Model number 999604",
+        "Code LF-65708"
+      ],
+      "slug": "lfte-usa-recalls-playground-swing-set-seats-due-to-fall-risk-recall",
+      "metaDescription": "LFTE USA recalls Playground Swing Set Seats due to fall hazards. Contact for a free replacement swing seat today.",
+      "languages": {
+        "en": {
+          "Title": "LFTE USA Recalls Playground Swing Set Seats Due to Fall Risk",
+          "Description": "LFTE USA has issued a recall for Playground Swing Set Seats that were part of assembled playground sets. These swing seats, available in black, blue, green, red, tan, and yellow, feature the code 'LF-65708' on the seat pad. Only swings with the model number 999604 are affected by this recall. The rivets that support these swing seats may fail, creating a potential fall hazard for children.",
+          "ConsumerContact": "Consumers are advised to stop using the recalled swing seats immediately and reach out to LFTE USA via email at recall@lfteusa.com for a free replacement.",
+          "metaDescription": "LFTE USA recalls Playground Swing Set Seats due to fall hazards. Contact for a free replacement swing seat today.",
+          "Products": [
+            {
+              "Name": "Playground Swing Set Seats",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 7,200"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled playground swing set"
+            },
+            {
+              "Caption": "Recalled Swing Seat"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "The firm received one report of a swing breaking and a child falling, resulting in a minor injury."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Sold by Miracle Recreation Equipment and Little Tikes Commercial nationwide from January 2025 through September 2025, priced between $80 and $95. These swing seats were sold exclusively to playground manufacturers."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "LFTE USA Inc., of Cary, North Carolina"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Sold At",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Fall hazard due to potential rivet failure"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Free replacement swing seat"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Replace"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "LFTE USA Retira Asientos de Columpio de Parque Infantil Debido a Riesgo de Caída",
+          "Description": "LFTE USA ha emitido un retiro de los Asientos de Columpio de Parque Infantil que eran parte de conjuntos de parque infantil ensamblados. Estos asientos de columpio, disponibles en negro, azul, verde, rojo, marrón y amarillo, presentan el código 'LF-65708' en la almohadilla del asiento. Solo los columpios con el número de modelo 999604 se ven afectados por este retiro. Los remaches que soportan estos asientos de columpio pueden fallar, creando un posible riesgo de caída para los niños.",
+          "ConsumerContact": "Se aconseja a los consumidores que dejen de usar los asientos de columpio retirados de inmediato y se comuniquen con LFTE USA por correo electrónico a recall@lfteusa.com para obtener un reemplazo gratuito.",
+          "metaDescription": "LFTE USA retira Asientos de Columpio de Parque Infantil debido a riesgos de caída. Contacte para obtener un asiento de columpio de reemplazo gratuito hoy.",
+          "Products": [
+            {
+              "Name": "Asientos de Columpio de Parque Infantil",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 7,200"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Columpio de parque infantil retirado"
+            },
+            {
+              "Caption": "Asiento de columpio retirado"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "La empresa recibió un informe de un columpio rompiéndose y un niño cayendo, resultando en una lesión menor."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Vendidos por Miracle Recreation Equipment y Little Tikes Commercial en todo el país desde enero de 2025 hasta septiembre de 2025, con precios entre $80 y $95. Estos asientos de columpio se vendieron exclusivamente a fabricantes de parques infantiles."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "LFTE USA Inc., de Cary, Carolina del Norte"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendidos En",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Riesgo de caída debido a posible fallo de remache"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Asiento de columpio de reemplazo gratuito"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reemplazar"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "LFTE USA تستدعي مقاعد أرجوحة الملعب بسبب خطر السقوط",
+          "Description": "أصدرت LFTE USA استدعاء لمقاعد أرجوحة الملعب التي كانت جزءًا من مجموعات الملاعب المجمعة. تتوفر هذه المقاعد بألوان الأسود، والأزرق، والأخضر، والأحمر، والبيج، والأصفر، وتحمل الرمز 'LF-65708' على وسادة المقعد. فقط الأرجوحات ذات رقم الطراز 999604 متأثرة بهذا الاستدعاء. قد تفشل المسامير التي تدعم هذه المقاعد، مما يخلق خطر سقوط محتمل للأطفال.",
+          "ConsumerContact": "يُنصح المستهلكون بالتوقف عن استخدام المقاعد المستدعاة على الفور والتواصل مع LFTE USA عبر البريد الإلكتروني على recall@lfteusa.com للحصول على بديل مجاني.",
+          "metaDescription": "LFTE USA تستدعي مقاعد أرجوحة الملعب بسبب مخاطر السقوط. اتصل للحصول على مقعد أرجوحة بديل مجاني اليوم.",
+          "Products": [
+            {
+              "Name": "مقاعد أرجوحة الملعب",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 7,200"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "أرجوحة الملعب المستدعاة"
+            },
+            {
+              "Caption": "مقعد الأرجوحة المستدعى"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "تلقت الشركة تقريرًا واحدًا عن كسر أرجوحة وسقوط طفل، مما أدى إلى إصابة طفيفة."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "تم بيعها بواسطة Miracle Recreation Equipment وLittle Tikes Commercial في جميع أنحاء البلاد من يناير 2025 حتى سبتمبر 2025، بسعر يتراوح بين 80 و95 دولارًا. تم بيع هذه المقاعد حصريًا لمصنعي الملاعب."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "LFTE USA Inc.، من كاري، نورث كارولينا"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "تم البيع في",
+          "ManufacturerCountries": [
+            {
+              "Country": "الصين"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "خطر السقوط بسبب احتمال فشل المسامير"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "مقعد أرجوحة بديل مجاني"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "استبدال"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "LFTE USA召回秋千座椅因跌落风险",
+          "Description": "LFTE USA已对作为组装游乐场设备一部分的秋千座椅发出召回。这些秋千座椅有黑色、蓝色、绿色、红色、棕色和黄色，座垫上印有代码'LF-65708'。只有型号为999604的秋千受到此次召回的影响。支撑这些秋千座椅的铆钉可能会失效，给儿童带来潜在的跌落危险。\n消费者被建议立即停止使用被召回的秋千座椅，并通过电子邮件联系LFTE USA，邮箱为recall@lfteusa.com，以获取免费的替换座椅。",
+          "ConsumerContact": "消费者被建议立即停止使用被召回的秋千座椅，并通过电子邮件联系LFTE USA，邮箱为recall@lfteusa.com，以获取免费的替换座椅。",
+          "metaDescription": "LFTE USA因跌落危险召回秋千座椅。今天联系以获取免费的替换秋千座椅。",
+          "Products": [
+            {
+              "Name": "秋千座椅",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约7200个"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "被召回的游乐场秋千"
+            },
+            {
+              "Caption": "被召回的秋千座椅"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "该公司收到一起秋千断裂和儿童跌落的报告，导致轻微受伤。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "由Miracle Recreation Equipment和Little Tikes Commercial在全国范围内销售，销售时间为2025年1月至2025年9月，价格在80美元至95美元之间。这些秋千座椅仅销售给游乐场制造商。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "LFTE USA Inc., 北卡罗来纳州凯里"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "销售地点",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "因铆钉可能失效而导致的跌落危险"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "免费替换秋千座椅"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "替换"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "LFTE USA rappelle des sièges de balançoire de terrain de jeu en raison du risque de chute",
+          "Description": "LFTE USA a émis un rappel pour les sièges de balançoire de terrain de jeu qui faisaient partie de ensembles de jeux assemblés. Ces sièges de balançoire, disponibles en noir, bleu, vert, rouge, beige et jaune, portent le code 'LF-65708' sur le coussin du siège. Seules les balançoires avec le numéro de modèle 999604 sont concernées par ce rappel. Les rivets qui soutiennent ces sièges de balançoire peuvent échouer, créant un risque de chute potentiel pour les enfants.",
+          "ConsumerContact": "Les consommateurs sont invités à cesser immédiatement d'utiliser les sièges de balançoire rappelés et à contacter LFTE USA par e-mail à recall@lfteusa.com pour un remplacement gratuit.",
+          "metaDescription": "LFTE USA rappelle des sièges de balançoire de terrain de jeu en raison de risques de chute. Contactez-nous pour un siège de balançoire de remplacement gratuit aujourd'hui.",
+          "Products": [
+            {
+              "Name": "Sièges de balançoire de terrain de jeu",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 7 200"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Balançoire de terrain de jeu rappelée"
+            },
+            {
+              "Caption": "Siège de balançoire rappelé"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "L'entreprise a reçu un rapport d'une balançoire se cassant et d'un enfant tombant, entraînant une blessure mineure."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Vendu par Miracle Recreation Equipment et Little Tikes Commercial à l'échelle nationale de janvier 2025 à septembre 2025, au prix compris entre 80 $ et 95 $. Ces sièges de balançoire ont été vendus exclusivement aux fabricants de terrains de jeu."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "LFTE USA Inc., de Cary, Caroline du Nord"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendu À",
+          "ManufacturerCountries": [
+            {
+              "Country": "Chine"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risque de chute en raison d'une défaillance potentielle des rivets"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Siège de balançoire de remplacement gratuit"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Remplacer"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "LFTE USA ruft Schaukelset-Sitze aufgrund von Sturzgefahr zurück",
+          "Description": "LFTE USA hat einen Rückruf für Schaukelset-Sitze herausgegeben, die Teil von montierten Spielplatzsets waren. Diese Schaukelsitze, erhältlich in Schwarz, Blau, Grün, Rot, Beige und Gelb, tragen den Code 'LF-65708' auf dem Sitzpolster. Nur Schaukeln mit der Modellnummer 999604 sind von diesem Rückruf betroffen. Die Nieten, die diese Schaukelsitze stützen, können versagen, was eine potenzielle Sturzgefahr für Kinder darstellt.",
+          "ConsumerContact": "Verbraucher werden geraten, die zurückgerufenen Schaukelsitze sofort nicht mehr zu verwenden und sich per E-Mail an LFTE USA unter recall@lfteusa.com zu wenden, um einen kostenlosen Ersatz zu erhalten.",
+          "metaDescription": "LFTE USA ruft Schaukelset-Sitze aufgrund von Sturzgefahren zurück. Kontaktieren Sie uns noch heute für einen kostenlosen Ersatzschaukelstuhl.",
+          "Products": [
+            {
+              "Name": "Schaukelset-Sitze",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 7.200"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Zurückgerufenes Spielplatzschaukelset"
+            },
+            {
+              "Caption": "Zurückgerufener Schaukelsitz"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Das Unternehmen erhielt einen Bericht über eine gebrochene Schaukel und ein Kind, das fiel, was zu einer leichten Verletzung führte."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Verkauft von Miracle Recreation Equipment und Little Tikes Commercial landesweit von Januar 2025 bis September 2025, zu Preisen zwischen 80 und 95 US-Dollar. Diese Schaukelsitze wurden ausschließlich an Spielplatzhersteller verkauft."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "LFTE USA Inc., aus Cary, North Carolina"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Verkauft bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Sturzgefahr aufgrund möglicher Nietenversagen"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Kostenloser Ersatzschaukelsitz"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Ersetzen"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "LFTE USAが遊び場のブランコセットシートを落下リスクのためにリコール",
+          "Description": "LFTE USAは、組み立てられた遊び場セットの一部である遊び場のブランコセットシートのリコールを発表しました。これらのブランコシートは、黒、青、緑、赤、タン、黄色で提供されており、シートパッドにはコード「LF-65708」が記載されています。このリコールの対象となるのは、モデル番号999604のブランコのみです。これらのブランコシートを支えるリベットが故障する可能性があり、子供にとって落下の危険を引き起こす可能性があります。",
+          "ConsumerContact": "消費者は、リコールされたブランコシートの使用を直ちに中止し、無料の交換のためにLFTE USAにメール（recall@lfteusa.com）で連絡することをお勧めします。",
+          "metaDescription": "LFTE USAが落下の危険性のために遊び場のブランコセットシートをリコール。今日、無料の交換ブランコシートのためにお問い合わせください。",
+          "Products": [
+            {
+              "Name": "遊び場のブランコセットシート",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約7,200"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコールされた遊び場のブランコセット"
+            },
+            {
+              "Caption": "リコールされたブランコシート"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "同社は、ブランコが壊れ、子供が落下して軽傷を負ったという報告を1件受けました。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "2025年1月から2025年9月まで、全国のMiracle Recreation EquipmentおよびLittle Tikes Commercialで販売され、価格は80ドルから95ドルの間です。これらのブランコシートは、遊び場の製造業者にのみ販売されました。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "ノースカロライナ州キャリーのLFTE USA Inc."
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "販売場所",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "リベットの故障の可能性による落下の危険"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "無料の交換ブランコシート"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "交換"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "LFTE USA Recalls Assentos de Balanço de Playground Devido ao Risco de Queda",
+          "Description": "A LFTE USA emitiu um recall para Assentos de Balanço de Playground que faziam parte de conjuntos de playground montados. Esses assentos de balanço, disponíveis nas cores preto, azul, verde, vermelho, bege e amarelo, apresentam o código 'LF-65708' no almofadado do assento. Apenas os balanços com o número do modelo 999604 são afetados por este recall. Os rebites que suportam esses assentos de balanço podem falhar, criando um potencial risco de queda para as crianças.",
+          "ConsumerContact": "Os consumidores são aconselhados a parar de usar os assentos de balanço recallados imediatamente e entrar em contato com a LFTE USA pelo e-mail recall@lfteusa.com para uma substituição gratuita.",
+          "metaDescription": "LFTE USA recall Assentos de Balanço de Playground devido a riscos de queda. Entre em contato para um assento de balanço de substituição gratuita hoje.",
+          "Products": [
+            {
+              "Name": "Assentos de Balanço de Playground",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 7.200"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Balanço de playground recallado"
+            },
+            {
+              "Caption": "Assento de balanço recallado"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "A empresa recebeu um relato de um balanço quebrando e uma criança caindo, resultando em uma lesão leve."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Vendido pela Miracle Recreation Equipment e Little Tikes Commercial em todo o país de janeiro de 2025 a setembro de 2025, com preços entre $80 e $95. Esses assentos de balanço foram vendidos exclusivamente para fabricantes de playground."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "LFTE USA Inc., de Cary, Carolina do Norte"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendidos Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risco de queda devido à possível falha do rebite"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Assento de balanço de substituição gratuita"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Substituir"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "LFTE USA ने गिरने के जोखिम के कारण प्लेग्राउंड स्विंग सेट सीटों की रिकॉल की",
+          "Description": "LFTE USA ने उन प्लेग्राउंड स्विंग सेट सीटों की रिकॉल की है जो असेंबल किए गए प्लेग्राउंड सेट का हिस्सा थीं। ये स्विंग सीटें, जो काले, नीले, हरे, लाल, तन और पीले रंग में उपलब्ध हैं, सीट पैड पर 'LF-65708' कोड प्रदर्शित करती हैं। केवल मॉडल नंबर 999604 वाली स्विंग्स इस रिकॉल से प्रभावित हैं। इन स्विंग सीटों को सहारा देने वाले रिवेट्स विफल हो सकते हैं, जिससे बच्चों के लिए गिरने का संभावित खतरा उत्पन्न होता है।",
+          "ConsumerContact": "उपभोक्ताओं को सलाह दी जाती है कि वे तुरंत रिकॉल की गई स्विंग सीटों का उपयोग करना बंद कर दें और मुफ्त प्रतिस्थापन के लिए LFTE USA से ईमेल पर संपर्क करें: recall@lfteusa.com।",
+          "metaDescription": "LFTE USA गिरने के खतरों के कारण प्लेग्राउंड स्विंग सेट सीटों की रिकॉल करता है। आज मुफ्त प्रतिस्थापन स्विंग सीट के लिए संपर्क करें।",
+          "Products": [
+            {
+              "Name": "प्लेग्राउंड स्विंग सेट सीटें",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 7,200"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "रिकॉल की गई प्लेग्राउंड स्विंग सेट"
+            },
+            {
+              "Caption": "रिकॉल की गई स्विंग सीट"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "कंपनी को एक स्विंग टूटने और एक बच्चे के गिरने की रिपोर्ट मिली, जिससे एक मामूली चोट आई।"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "जैसे कि Miracle Recreation Equipment और Little Tikes Commercial ने जनवरी 2025 से सितंबर 2025 तक राष्ट्रीय स्तर पर बेचीं, कीमत $80 और $95 के बीच। ये स्विंग सीटें विशेष रूप से प्लेग्राउंड निर्माताओं को बेची गई थीं।"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "LFTE USA Inc., कैरी, नॉर्थ कैरोलिना"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "चीन"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "संभावित रिवेट विफलता के कारण गिरने का खतरा"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "मुफ्त प्रतिस्थापन स्विंग सीट"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "बदलें"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "LFTE USA отзывает сиденья для качелей детской площадки из-за риска падения",
+          "Description": "LFTE USA объявила об отзыве сидений для качелей детской площадки, которые были частью собранных комплектов. Эти сиденья для качелей, доступные в черном, синем, зеленом, красном, бежевом и желтом цветах, имеют код 'LF-65708' на подушке сиденья. Отзыву подлежат только качели с номером модели 999604. Заклепки, поддерживающие эти сиденья для качелей, могут выйти из строя, создавая потенциальный риск падения для детей.",
+          "ConsumerContact": "Потребителям рекомендуется немедленно прекратить использование отозванных сидений для качелей и связаться с LFTE USA по электронной почте recall@lfteusa.com для получения бесплатной замены.",
+          "metaDescription": "LFTE USA отзывает сиденья для качелей детской площадки из-за рисков падения. Свяжитесь для получения бесплатного сиденья для качелей сегодня.",
+          "Products": [
+            {
+              "Name": "Сиденья для качелей детской площадки",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 7200"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванные сиденья для качелей детской площадки"
+            },
+            {
+              "Caption": "Отозванное сиденье для качелей"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Компания получила один отчет о том, что качеля сломалась, и ребенок упал, что привело к незначительной травме."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Продавалось компанией Miracle Recreation Equipment и Little Tikes Commercial по всей стране с января 2025 года по сентябрь 2025 года, по цене от 80 до 95 долларов. Эти сиденья для качелей продавались исключительно производителям детских площадок."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "LFTE USA Inc., из Кэри, Северная Каролина"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Продавалось в",
+          "ManufacturerCountries": [
+            {
+              "Country": "Китай"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Риск падения из-за потенциального выхода заклепок из строя"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Бесплатное заменяющее сиденье для качелей"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Заменить"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "LFTE USA thu hồi ghế xích đu sân chơi do nguy cơ ngã",
+          "Description": "LFTE USA đã phát động một đợt thu hồi ghế xích đu sân chơi là một phần của các bộ sân chơi đã được lắp ráp. Những ghế xích đu này, có sẵn màu đen, xanh dương, xanh lá, đỏ, nâu và vàng, có mã 'LF-65708' trên đệm ghế. Chỉ có những xích đu có số mô hình 999604 bị ảnh hưởng bởi đợt thu hồi này. Các đinh tán hỗ trợ những ghế xích đu này có thể bị hỏng, tạo ra nguy cơ ngã cho trẻ em.",
+          "ConsumerContact": "Người tiêu dùng được khuyên ngừng sử dụng ngay lập tức các ghế xích đu bị thu hồi và liên hệ với LFTE USA qua email tại recall@lfteusa.com để được thay thế miễn phí.",
+          "metaDescription": "LFTE USA thu hồi ghế xích đu sân chơi do nguy cơ ngã. Liên hệ để nhận ghế xích đu thay thế miễn phí hôm nay.",
+          "Products": [
+            {
+              "Name": "Ghế xích đu sân chơi",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 7,200"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Ghế xích đu sân chơi bị thu hồi"
+            },
+            {
+              "Caption": "Ghế xích đu bị thu hồi"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Công ty đã nhận được một báo cáo về việc một xích đu bị gãy và một trẻ em ngã, dẫn đến một chấn thương nhẹ."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Được bán bởi Miracle Recreation Equipment và Little Tikes Commercial trên toàn quốc từ tháng 1 năm 2025 đến tháng 9 năm 2025, có giá từ 80 đến 95 đô la. Những ghế xích đu này chỉ được bán cho các nhà sản xuất sân chơi."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "LFTE USA Inc., ở Cary, North Carolina"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Bán Tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Trung Quốc"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Nguy cơ ngã do khả năng hỏng đinh tán"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Ghế xích đu thay thế miễn phí"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Thay thế"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,1071 @@
+{
+  "meta": {
+    "slug": "socks",
+    "sourceCsvFile": "socks_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:37.063Z",
+    "recallCount": 1,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "socks.json",
+    "seoTranslatedAt": "2026-04-05T04:17:49.452Z",
+    "resumePartial": false,
+    "i18nSource": "generalRecallsTranslated",
+    "i18nSourceFile": "socks.json",
+    "i18nUiLangs": [
+      "en",
+      "es",
+      "ar",
+      "zh",
+      "fr",
+      "de",
+      "ja",
+      "pt",
+      "hi",
+      "ru",
+      "vi"
+    ],
+    "i18nProgressByLang": {
+      "es": 1,
+      "ar": 1,
+      "zh": 1,
+      "fr": 1,
+      "de": 1,
+      "ja": 1,
+      "pt": 1,
+      "hi": 1,
+      "ru": 1,
+      "vi": 1
+    },
+    "i18nInProgress": false,
+    "i18nTranslatedAt": "2026-04-07T20:33:27.209Z",
+    "i18nOpenaiModel": "gpt-4o-mini"
+  },
+  "recalls": [
+    {
+      "RecallID": 10374,
+      "RecallNumber": "25423",
+      "RecallDate": "2025-08-07T00:00:00",
+      "Description": "Fieldsheer Apparel Technologies has issued a recall for its heated socks, specifically models MWMS07, MWWS07, and MWMS05. These merino wool socks, available in various color combinations including black/gray, gray/orange, gray/pink, and black/orange, come in sizes ranging from small to extra-large. Each pair includes two lithium-ion battery packs and a charging cable, with a battery pocket featuring either a slit or a zipper. Notably, model MWMS05 includes a battery pack identified as model number MW37V122, while models MWMS07 and MWWS07 are equipped with Bluetooth battery packs labeled MW37V22-N. The Fieldsheer logo is prominently displayed in orange on the front of each sock. It is crucial to handle lithium-ion batteries responsibly, as improper disposal can lead to fire hazards. Contact your local municipal hazardous waste collection center for proper disposal options.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/Fieldsheer-Apparel-Technologies-Recalls-Heated-Socks-Due-to-Injury-Hazard",
+      "Title": "Recall of Fieldsheer Heated Socks Due to Burn Risk",
+      "ConsumerContact": "For assistance, contact Fieldsheer Apparel Technologies toll-free at 888-908-6024 from 8 a.m. to 4 p.m. PT Monday through Friday, email cs@fieldsheer.com, or visit https://fieldsheer.com/pages/recall-information or https://fieldsheer.com and select \"Recall Information\" for further details.",
+      "LastPublishDate": "2025-08-07T00:00:00",
+      "Products": [
+        {
+          "Name": "Fieldsheer Heated Socks",
+          "NumberOfUnits": "About 45,000"
+        }
+      ],
+      "Inconjunctions": [
+        {
+          "URL": "https://recalls-rappels.canada.ca/en/alert-recall/various-fieldsheer-branded-heated-socks-recalled-due-potential-blister-and-burn"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/socks/1-Fieldsheer-Heated-Socks/11149ef85d358d0907883c87245a0781.webp",
+          "Caption": "Recalled Fieldsheer Apparel Technologies Heated Socks – Model MWMS05 – Merino in black/gray",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Fieldsheer-1.png"
+        },
+        {
+          "URL": "/images/generalRecalls/socks/1-Fieldsheer-Heated-Socks/4d5af45e84609935986a4a0b44e1ec48.webp",
+          "Caption": "Recalled Fieldsheer Apparel Technologies Heated Socks – Model MWMS05 – Merino in black/gray",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Fieldsheer-2.png"
+        },
+        {
+          "URL": "/images/generalRecalls/socks/1-Fieldsheer-Heated-Socks/a59e3926314b4b5e76e72ee1188b4ac2.webp",
+          "Caption": "Recalled Fieldsheer Apparel Technologies Heated Socks – Model MWWS07 – Premium 2.0 Merino in gray/pink",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Fieldsheer-3.png"
+        },
+        {
+          "URL": "/images/generalRecalls/socks/1-Fieldsheer-Heated-Socks/35d5e58447a733a1125bcd977eca3111.webp",
+          "Caption": "Recalled Fieldsheer Apparel Technologies Heated Socks – Model MWWS07 – Premium 2.0 Merino in gray/pink",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Fieldsheer-4.png"
+        },
+        {
+          "URL": "/images/generalRecalls/socks/1-Fieldsheer-Heated-Socks/260611737a98b4cebbeb53dc5163a841.webp",
+          "Caption": "Recalled Fieldsheer Apparel Technologies Heated Socks – Model MWMS07 – Premium 2.0 Merino in black/orange",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Fieldsheer-5.png"
+        },
+        {
+          "URL": "/images/generalRecalls/socks/1-Fieldsheer-Heated-Socks/a06729669a66fc4da9a63d6388dbfccf.webp",
+          "Caption": "Recalled Fieldsheer Apparel Technologies Heated Socks – Model MWMS07 – Premium 2.0 Merino in black/orange",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Fieldsheer-6.png"
+        },
+        {
+          "URL": "/images/generalRecalls/socks/1-Fieldsheer-Heated-Socks/e79c6710ab96d099496783466aeefdac.webp",
+          "Caption": "Recalled Fieldsheer Apparel Technologies Heated Socks – Model MWMS07 – Premium 2.0 Merino in gray/orange",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Fieldsheer-7.png"
+        },
+        {
+          "URL": "/images/generalRecalls/socks/1-Fieldsheer-Heated-Socks/497146b8e94433013bf3262c94fa1e43.webp",
+          "Caption": "Recalled Fieldsheer Apparel Technologies Heated Socks – Model MWMS07 – Premium 2.0 Merino in gray/orange",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Fieldsheer-8.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received 11 reports of socks causing pain and discomfort, resulting in 4 burns and blisters."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available at Scheels All Sports, Fred Meyer, Home Depot, Meijer, Bomgaars Supply, Buchheits, Running Supply, Fleet Farm Wholesale Supply, and other retailers nationwide, as well as online at Amazon.com from August 2021 through June 2025, priced between $80 and $130."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Tech Gear 5.7 Inc., dba Fieldsheer Apparel Technologies, of Carlsbad, California"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "Bangladesh"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of burns and blisters when used during high-intensity activities due to heat, friction, moisture, and pressure."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Stop using the heated socks immediately and reach out to Fieldsheer Apparel Technologies for a full refund or a replacement of equal value. Dispose of lithium-ion battery packs according to local regulations."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        },
+        {
+          "Option": "Replace"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "MWMS07",
+        "MWWS07",
+        "MWMS05",
+        "MW37V122",
+        "MW37V22-N"
+      ],
+      "slug": "recall-of-fieldsheer-heated-socks-due-to-burn-risk-recall",
+      "metaDescription": "Fieldsheer recalls heated socks due to burn risks. Immediate action required for refunds or replacements. Proper disposal of batteries is essential.",
+      "languages": {
+        "en": {
+          "Title": "Recall of Fieldsheer Heated Socks Due to Burn Risk",
+          "Description": "Fieldsheer Apparel Technologies has issued a recall for its heated socks, specifically models MWMS07, MWWS07, and MWMS05. These merino wool socks, available in various color combinations including black/gray, gray/orange, gray/pink, and black/orange, come in sizes ranging from small to extra-large. Each pair includes two lithium-ion battery packs and a charging cable, with a battery pocket featuring either a slit or a zipper. Notably, model MWMS05 includes a battery pack identified as model number MW37V122, while models MWMS07 and MWWS07 are equipped with Bluetooth battery packs labeled MW37V22-N. The Fieldsheer logo is prominently displayed in orange on the front of each sock. It is crucial to handle lithium-ion batteries responsibly, as improper disposal can lead to fire hazards. Contact your local municipal hazardous waste collection center for proper disposal options.",
+          "ConsumerContact": "For assistance, contact Fieldsheer Apparel Technologies toll-free at 888-908-6024 from 8 a.m. to 4 p.m. PT Monday through Friday, email cs@fieldsheer.com, or visit https://fieldsheer.com/pages/recall-information or https://fieldsheer.com and select \"Recall Information\" for further details.",
+          "metaDescription": "Fieldsheer recalls heated socks due to burn risks. Immediate action required for refunds or replacements. Proper disposal of batteries is essential.",
+          "Products": [
+            {
+              "Name": "Fieldsheer Heated Socks",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 45,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled Fieldsheer Apparel Technologies Heated Socks – Model MWMS05 – Merino in black/gray"
+            },
+            {
+              "Caption": "Recalled Fieldsheer Apparel Technologies Heated Socks – Model MWMS05 – Merino in black/gray"
+            },
+            {
+              "Caption": "Recalled Fieldsheer Apparel Technologies Heated Socks – Model MWWS07 – Premium 2.0 Merino in gray/pink"
+            },
+            {
+              "Caption": "Recalled Fieldsheer Apparel Technologies Heated Socks – Model MWWS07 – Premium 2.0 Merino in gray/pink"
+            },
+            {
+              "Caption": "Recalled Fieldsheer Apparel Technologies Heated Socks – Model MWMS07 – Premium 2.0 Merino in black/orange"
+            },
+            {
+              "Caption": "Recalled Fieldsheer Apparel Technologies Heated Socks – Model MWMS07 – Premium 2.0 Merino in black/orange"
+            },
+            {
+              "Caption": "Recalled Fieldsheer Apparel Technologies Heated Socks – Model MWMS07 – Premium 2.0 Merino in gray/orange"
+            },
+            {
+              "Caption": "Recalled Fieldsheer Apparel Technologies Heated Socks – Model MWMS07 – Premium 2.0 Merino in gray/orange"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "The firm has received 11 reports of socks causing pain and discomfort, resulting in 4 burns and blisters."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Available at Scheels All Sports, Fred Meyer, Home Depot, Meijer, Bomgaars Supply, Buchheits, Running Supply, Fleet Farm Wholesale Supply, and other retailers nationwide, as well as online at Amazon.com from August 2021 through June 2025, priced between $80 and $130."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Tech Gear 5.7 Inc., dba Fieldsheer Apparel Technologies, of Carlsbad, California"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Sold At",
+          "ManufacturerCountries": [
+            {
+              "Country": "Bangladesh"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risk of burns and blisters when used during high-intensity activities due to heat, friction, moisture, and pressure."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Stop using the heated socks immediately and reach out to Fieldsheer Apparel Technologies for a full refund or a replacement of equal value. Dispose of lithium-ion battery packs according to local regulations."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Refund"
+            },
+            {
+              "Option": "Replace"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "Retiro de calcetines calefaccionados Fieldsheer debido al riesgo de quemaduras",
+          "Description": "Fieldsheer Apparel Technologies ha emitido un retiro para sus calcetines calefaccionados, específicamente los modelos MWMS07, MWWS07 y MWMS05. Estos calcetines de lana merino, disponibles en varias combinaciones de colores que incluyen negro/gris, gris/naranja, gris/rosa y negro/naranja, vienen en tamaños que van desde pequeño hasta extra grande. Cada par incluye dos paquetes de baterías de iones de litio y un cable de carga, con un bolsillo para la batería que presenta una hendidura o un zipper. Notablemente, el modelo MWMS05 incluye un paquete de batería identificado como modelo número MW37V122, mientras que los modelos MWMS07 y MWWS07 están equipados con paquetes de batería Bluetooth etiquetados como MW37V22-N. El logo de Fieldsheer se muestra prominentemente en naranja en la parte frontal de cada calcetín. Es crucial manejar las baterías de iones de litio de manera responsable, ya que una eliminación inadecuada puede provocar riesgos de incendio. Comuníquese con su centro local de recolección de desechos peligrosos municipales para opciones de eliminación adecuadas.",
+          "ConsumerContact": "Para asistencia, comuníquese con Fieldsheer Apparel Technologies sin cargo al 888-908-6024 de 8 a.m. a 4 p.m. PT de lunes a viernes, envíe un correo electrónico a cs@fieldsheer.com, o visite https://fieldsheer.com/pages/recall-information o https://fieldsheer.com y seleccione \"Información sobre el retiro\" para más detalles.",
+          "metaDescription": "Fieldsheer retira calcetines calefaccionados debido a riesgos de quemaduras. Se requiere acción inmediata para reembolsos o reemplazos. La eliminación adecuada de las baterías es esencial.",
+          "Products": [
+            {
+              "Name": "Calcetines calefaccionados Fieldsheer",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 45,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Calcetines calefaccionados Fieldsheer Apparel Technologies retirados – Modelo MWMS05 – Merino en negro/gris"
+            },
+            {
+              "Caption": "Calcetines calefaccionados Fieldsheer Apparel Technologies retirados – Modelo MWMS05 – Merino en negro/gris"
+            },
+            {
+              "Caption": "Calcetines calefaccionados Fieldsheer Apparel Technologies retirados – Modelo MWWS07 – Premium 2.0 Merino en gris/rosa"
+            },
+            {
+              "Caption": "Calcetines calefaccionados Fieldsheer Apparel Technologies retirados – Modelo MWWS07 – Premium 2.0 Merino en gris/rosa"
+            },
+            {
+              "Caption": "Calcetines calefaccionados Fieldsheer Apparel Technologies retirados – Modelo MWMS07 – Premium 2.0 Merino en negro/naranja"
+            },
+            {
+              "Caption": "Calcetines calefaccionados Fieldsheer Apparel Technologies retirados – Modelo MWMS07 – Premium 2.0 Merino en negro/naranja"
+            },
+            {
+              "Caption": "Calcetines calefaccionados Fieldsheer Apparel Technologies retirados – Modelo MWMS07 – Premium 2.0 Merino en gris/naranja"
+            },
+            {
+              "Caption": "Calcetines calefaccionados Fieldsheer Apparel Technologies retirados – Modelo MWMS07 – Premium 2.0 Merino en gris/naranja"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "La empresa ha recibido 11 informes de calcetines que causan dolor y malestar, resultando en 4 quemaduras y ampollas."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponibles en Scheels All Sports, Fred Meyer, Home Depot, Meijer, Bomgaars Supply, Buchheits, Running Supply, Fleet Farm Wholesale Supply, y otros minoristas en todo el país, así como en línea en Amazon.com desde agosto de 2021 hasta junio de 2025, con precios entre $80 y $130."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Tech Gear 5.7 Inc., dba Fieldsheer Apparel Technologies, de Carlsbad, California"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendidos en",
+          "ManufacturerCountries": [
+            {
+              "Country": "Bangladesh"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Riesgo de quemaduras y ampollas cuando se utilizan durante actividades de alta intensidad debido al calor, fricción, humedad y presión."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Deje de usar los calcetines calefaccionados de inmediato y comuníquese con Fieldsheer Apparel Technologies para un reembolso completo o un reemplazo de igual valor. Deseche los paquetes de baterías de iones de litio de acuerdo con las regulaciones locales."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reembolso"
+            },
+            {
+              "Option": "Reemplazo"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "استدعاء جورب فيلدشير المدفأ بسبب خطر الحروق",
+          "Description": "أصدرت شركة فيلدشير تكنولوجيز للألبسة استدعاء لجواربها المدفأة، تحديدًا الطرازات MWMS07 وMWWS07 وMWMS05. هذه الجوارب المصنوعة من صوف الميرينو، متاحة بتشكيلات لونية متنوعة تشمل الأسود/الرمادي، الرمادي/البرتقالي، الرمادي/الوردي، والأسود/البرتقالي، تأتي بمقاسات تتراوح من الصغيرة إلى الكبيرة جدًا. كل زوج يتضمن حزمتين من بطاريات الليثيوم أيون وكابل شحن، مع جيب للبطارية يحتوي على شق أو سحاب. من الجدير بالذكر أن الطراز MWMS05 يتضمن حزمة بطارية محددة برقم الطراز MW37V122، بينما الطرازات MWMS07 وMWWS07 مزودة بحزم بطارية بلوتوث تحمل العلامة MW37V22-N. يتم عرض شعار فيلدشير بشكل بارز باللون البرتقالي في مقدمة كل جورب. من الضروري التعامل مع بطاريات الليثيوم أيون بمسؤولية، حيث أن التخلص غير السليم يمكن أن يؤدي إلى مخاطر حريق. اتصل بمركز جمع النفايات الخطرة المحلي للحصول على خيارات التخلص المناسبة.",
+          "ConsumerContact": "للمساعدة، اتصل بشركة فيلدشير تكنولوجيز للألبسة على الرقم المجاني 888-908-6024 من الساعة 8 صباحًا حتى 4 مساءً بتوقيت المحيط الهادئ من الاثنين إلى الجمعة، أو عبر البريد الإلكتروني cs@fieldsheer.com، أو زيارة https://fieldsheer.com/pages/recall-information أو https://fieldsheer.com واختر \"معلومات الاستدعاء\" لمزيد من التفاصيل.",
+          "metaDescription": "تستدعي فيلدشير الجوارب المدفأة بسبب مخاطر الحروق. يتطلب الأمر اتخاذ إجراء فوري لاسترداد الأموال أو الاستبدال. التخلص السليم من البطاريات أمر ضروري.",
+          "Products": [
+            {
+              "Name": "جوارب فيلدشير المدفأة",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 45,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "جوارب فيلدشير تكنولوجيز للألبسة المدفأة المستدعاة – الطراز MWMS05 – ميرينو باللون الأسود/الرمادي"
+            },
+            {
+              "Caption": "جوارب فيلدشير تكنولوجيز للألبسة المدفأة المستدعاة – الطراز MWMS05 – ميرينو باللون الأسود/الرمادي"
+            },
+            {
+              "Caption": "جوارب فيلدشير تكنولوجيز للألبسة المدفأة المستدعاة – الطراز MWWS07 – ميرينو بريميوم 2.0 باللون الرمادي/الوردي"
+            },
+            {
+              "Caption": "جوارب فيلدشير تكنولوجيز للألبسة المدفأة المستدعاة – الطراز MWWS07 – ميرينو بريميوم 2.0 باللون الرمادي/الوردي"
+            },
+            {
+              "Caption": "جوارب فيلدشير تكنولوجيز للألبسة المدفأة المستدعاة – الطراز MWMS07 – ميرينو بريميوم 2.0 باللون الأسود/البرتقالي"
+            },
+            {
+              "Caption": "جوارب فيلدشير تكنولوجيز للألبسة المدفأة المستدعاة – الطراز MWMS07 – ميرينو بريميوم 2.0 باللون الأسود/البرتقالي"
+            },
+            {
+              "Caption": "جوارب فيلدشير تكنولوجيز للألبسة المدفأة المستدعاة – الطراز MWMS07 – ميرينو بريميوم 2.0 باللون الرمادي/البرتقالي"
+            },
+            {
+              "Caption": "جوارب فيلدشير تكنولوجيز للألبسة المدفأة المستدعاة – الطراز MWMS07 – ميرينو بريميوم 2.0 باللون الرمادي/البرتقالي"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "تلقت الشركة 11 تقريرًا عن جورب يسبب الألم والانزعاج، مما أدى إلى 4 حروق وفقاعات."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "متاحة في Scheels All Sports وFred Meyer وHome Depot وMeijer وBomgaars Supply وBuchheits وRunning Supply وFleet Farm Wholesale Supply وغيرها من تجار التجزئة في جميع أنحاء البلاد، بالإضافة إلى الإنترنت على Amazon.com من أغسطس 2021 حتى يونيو 2025، بسعر يتراوح بين 80 دولارًا و130 دولارًا."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Tech Gear 5.7 Inc.، DBA فيلدشير تكنولوجيز للألبسة، من كارلسباد، كاليفورنيا"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "تم البيع في",
+          "ManufacturerCountries": [
+            {
+              "Country": "بنغلاديش"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "خطر الحروق والفقاعات عند الاستخدام خلال الأنشطة عالية الكثافة بسبب الحرارة والاحتكاك والرطوبة والضغط."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "توقف عن استخدام الجوارب المدفأة على الفور وتواصل مع فيلدشير تكنولوجيز للألبسة لاسترداد كامل المبلغ أو استبدال بقيمة متساوية. تخلص من حزم بطاريات الليثيوم أيون وفقًا للوائح المحلية."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "استرداد"
+            },
+            {
+              "Option": "استبدال"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "因烧伤风险而召回Fieldsheer加热袜",
+          "Description": "Fieldsheer Apparel Technologies已对其加热袜进行召回，具体型号为MWMS07、MWWS07和MWMS05。这些美利奴羊毛袜有多种颜色组合，包括黑/灰、灰/橙、灰/粉和黑/橙，尺码范围从小号到特大号。每双袜子包括两个锂离子电池组和一个充电线，电池口有开口或拉链。值得注意的是，型号MWMS05的电池组标识为型号MW37V122，而型号MWMS07和MWWS07配备的蓝牙电池组标记为MW37V22-N。Fieldsheer的标志在每只袜子的前面以橙色显著显示。妥善处理锂离子电池至关重要，因为不当处置可能导致火灾隐患。请联系您当地的市政危险废物收集中心以获取适当的处置选项。",
+          "ConsumerContact": "如需帮助，请拨打Fieldsheer Apparel Technologies的免费电话888-908-6024，工作时间为周一至周五太平洋时间上午8点至下午4点，或发送电子邮件至cs@fieldsheer.com，或访问https://fieldsheer.com/pages/recall-information或https://fieldsheer.com并选择“召回信息”以获取更多详细信息。",
+          "metaDescription": "Fieldsheer因烧伤风险召回加热袜。立即采取行动以获取退款或更换。妥善处置电池至关重要。",
+          "Products": [
+            {
+              "Name": "Fieldsheer加热袜",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约45,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "召回的Fieldsheer Apparel Technologies加热袜 – 型号MWMS05 – 黑/灰美利奴"
+            },
+            {
+              "Caption": "召回的Fieldsheer Apparel Technologies加热袜 – 型号MWMS05 – 黑/灰美利奴"
+            },
+            {
+              "Caption": "召回的Fieldsheer Apparel Technologies加热袜 – 型号MWWS07 – 高级2.0美利奴灰/粉"
+            },
+            {
+              "Caption": "召回的Fieldsheer Apparel Technologies加热袜 – 型号MWWS07 – 高级2.0美利奴灰/粉"
+            },
+            {
+              "Caption": "召回的Fieldsheer Apparel Technologies加热袜 – 型号MWMS07 – 高级2.0美利奴黑/橙"
+            },
+            {
+              "Caption": "召回的Fieldsheer Apparel Technologies加热袜 – 型号MWMS07 – 高级2.0美利奴黑/橙"
+            },
+            {
+              "Caption": "召回的Fieldsheer Apparel Technologies加热袜 – 型号MWMS07 – 高级2.0美利奴灰/橙"
+            },
+            {
+              "Caption": "召回的Fieldsheer Apparel Technologies加热袜 – 型号MWMS07 – 高级2.0美利奴灰/橙"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "该公司已收到11起袜子导致疼痛和不适的报告，造成4起烧伤和水泡。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "在Scheels All Sports、Fred Meyer、Home Depot、Meijer、Bomgaars Supply、Buchheits、Running Supply、Fleet Farm Wholesale Supply及其他全国零售商处有售，并且在2021年8月至2025年6月期间可在Amazon.com在线购买，价格在80美元至130美元之间。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Tech Gear 5.7 Inc.，以Fieldsheer Apparel Technologies的名义在加利福尼亚州卡尔斯巴德经营"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "销售地点",
+          "ManufacturerCountries": [
+            {
+              "Country": "孟加拉国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "在高强度活动中使用时，由于热量、摩擦、湿气和压力，存在烧伤和水泡的风险。"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "立即停止使用加热袜，并联系Fieldsheer Apparel Technologies以获取全额退款或等值更换。根据当地法规处置锂离子电池组。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "退款"
+            },
+            {
+              "Option": "更换"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "Rappel des chaussettes chauffantes Fieldsheer en raison du risque de brûlure",
+          "Description": "Fieldsheer Apparel Technologies a émis un rappel pour ses chaussettes chauffantes, spécifiquement les modèles MWMS07, MWWS07 et MWMS05. Ces chaussettes en laine mérinos, disponibles dans diverses combinaisons de couleurs incluant noir/gris, gris/orange, gris/rose et noir/orange, sont disponibles en tailles allant de petit à extra-large. Chaque paire comprend deux packs de batteries lithium-ion et un câble de chargement, avec une poche pour la batterie dotée soit d'une fente soit d'une fermeture éclair. Notamment, le modèle MWMS05 comprend un pack de batterie identifié par le numéro de modèle MW37V122, tandis que les modèles MWMS07 et MWWS07 sont équipés de packs de batterie Bluetooth étiquetés MW37V22-N. Le logo Fieldsheer est affiché en orange sur le devant de chaque chaussette. Il est crucial de manipuler les batteries lithium-ion de manière responsable, car une élimination inappropriée peut entraîner des risques d'incendie. Contactez votre centre local de collecte des déchets dangereux pour des options d'élimination appropriées.",
+          "ConsumerContact": "Pour assistance, contactez Fieldsheer Apparel Technologies sans frais au 888-908-6024 de 8 h à 16 h PT du lundi au vendredi, par email à cs@fieldsheer.com, ou visitez https://fieldsheer.com/pages/recall-information ou https://fieldsheer.com et sélectionnez \"Informations sur le rappel\" pour plus de détails.",
+          "metaDescription": "Fieldsheer rappelle des chaussettes chauffantes en raison de risques de brûlure. Action immédiate requise pour les remboursements ou les remplacements. L'élimination appropriée des batteries est essentielle.",
+          "Products": [
+            {
+              "Name": "Chaussettes chauffantes Fieldsheer",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 45 000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Chaussettes chauffantes rappelées de Fieldsheer Apparel Technologies – Modèle MWMS05 – Mérinos en noir/gris"
+            },
+            {
+              "Caption": "Chaussettes chauffantes rappelées de Fieldsheer Apparel Technologies – Modèle MWMS05 – Mérinos en noir/gris"
+            },
+            {
+              "Caption": "Chaussettes chauffantes rappelées de Fieldsheer Apparel Technologies – Modèle MWWS07 – Premium 2.0 Mérinos en gris/rose"
+            },
+            {
+              "Caption": "Chaussettes chauffantes rappelées de Fieldsheer Apparel Technologies – Modèle MWWS07 – Premium 2.0 Mérinos en gris/rose"
+            },
+            {
+              "Caption": "Chaussettes chauffantes rappelées de Fieldsheer Apparel Technologies – Modèle MWMS07 – Premium 2.0 Mérinos en noir/orange"
+            },
+            {
+              "Caption": "Chaussettes chauffantes rappelées de Fieldsheer Apparel Technologies – Modèle MWMS07 – Premium 2.0 Mérinos en noir/orange"
+            },
+            {
+              "Caption": "Chaussettes chauffantes rappelées de Fieldsheer Apparel Technologies – Modèle MWMS07 – Premium 2.0 Mérinos en gris/orange"
+            },
+            {
+              "Caption": "Chaussettes chauffantes rappelées de Fieldsheer Apparel Technologies – Modèle MWMS07 – Premium 2.0 Mérinos en gris/orange"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "L'entreprise a reçu 11 rapports de chaussettes causant douleur et inconfort, entraînant 4 brûlures et ampoules."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponibles chez Scheels All Sports, Fred Meyer, Home Depot, Meijer, Bomgaars Supply, Buchheits, Running Supply, Fleet Farm Wholesale Supply, et d'autres détaillants à l'échelle nationale, ainsi qu'en ligne sur Amazon.com d'août 2021 à juin 2025, au prix compris entre 80 $ et 130 $."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Tech Gear 5.7 Inc., faisant affaire sous le nom de Fieldsheer Apparel Technologies, de Carlsbad, Californie"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendu chez",
+          "ManufacturerCountries": [
+            {
+              "Country": "Bangladesh"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risque de brûlures et d'ampoules lors d'activités de haute intensité en raison de la chaleur, de la friction, de l'humidité et de la pression."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Cessez d'utiliser les chaussettes chauffantes immédiatement et contactez Fieldsheer Apparel Technologies pour un remboursement complet ou un remplacement de valeur équivalente. Éliminez les packs de batteries lithium-ion conformément aux réglementations locales."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Remboursement"
+            },
+            {
+              "Option": "Remplacer"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "Rückruf von Fieldsheer Heizsocken aufgrund von Brandgefahr",
+          "Description": "Fieldsheer Apparel Technologies hat einen Rückruf für seine Heizsocken herausgegeben, insbesondere für die Modelle MWMS07, MWWS07 und MWMS05. Diese Merinowollsocken sind in verschiedenen Farbkombinationen erhältlich, darunter schwarz/grau, grau/orange, grau/rosa und schwarz/orange, und kommen in den Größen von klein bis extra groß. Jedes Paar enthält zwei Lithium-Ionen-Akkupacks und ein Ladekabel, mit einer Batterietasche, die entweder einen Schlitz oder einen Reißverschluss hat. Besonders hervorzuheben ist, dass das Modell MWMS05 ein Akkupack mit der Modellnummer MW37V122 enthält, während die Modelle MWMS07 und MWWS07 mit Bluetooth-Akkupacks ausgestattet sind, die mit MW37V22-N gekennzeichnet sind. Das Fieldsheer-Logo ist in Orange auf der Vorderseite jeder Socke deutlich sichtbar. Es ist wichtig, Lithium-Ionen-Batterien verantwortungsbewusst zu handhaben, da unsachgemäße Entsorgung zu Brandgefahren führen kann. Wenden Sie sich an Ihr örtliches kommunales Zentrum für die Sammlung gefährlicher Abfälle, um geeignete Entsorgungsmöglichkeiten zu erfahren.",
+          "ConsumerContact": "Für Unterstützung kontaktieren Sie Fieldsheer Apparel Technologies gebührenfrei unter 888-908-6024 von 8 bis 16 Uhr PT von Montag bis Freitag, per E-Mail an cs@fieldsheer.com oder besuchen Sie https://fieldsheer.com/pages/recall-information oder https://fieldsheer.com und wählen Sie \"Rückrufinformationen\" für weitere Details.",
+          "metaDescription": "Fieldsheer ruft Heizsocken aufgrund von Brandgefahren zurück. Sofortige Maßnahmen erforderlich für Rückerstattungen oder Ersatz. Die ordnungsgemäße Entsorgung von Batterien ist wichtig.",
+          "Products": [
+            {
+              "Name": "Fieldsheer Heizsocken",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 45.000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Rückgerufene Fieldsheer Apparel Technologies Heizsocken – Modell MWMS05 – Merino in schwarz/grau"
+            },
+            {
+              "Caption": "Rückgerufene Fieldsheer Apparel Technologies Heizsocken – Modell MWMS05 – Merino in schwarz/grau"
+            },
+            {
+              "Caption": "Rückgerufene Fieldsheer Apparel Technologies Heizsocken – Modell MWWS07 – Premium 2.0 Merino in grau/rosa"
+            },
+            {
+              "Caption": "Rückgerufene Fieldsheer Apparel Technologies Heizsocken – Modell MWWS07 – Premium 2.0 Merino in grau/rosa"
+            },
+            {
+              "Caption": "Rückgerufene Fieldsheer Apparel Technologies Heizsocken – Modell MWMS07 – Premium 2.0 Merino in schwarz/orange"
+            },
+            {
+              "Caption": "Rückgerufene Fieldsheer Apparel Technologies Heizsocken – Modell MWMS07 – Premium 2.0 Merino in schwarz/orange"
+            },
+            {
+              "Caption": "Rückgerufene Fieldsheer Apparel Technologies Heizsocken – Modell MWMS07 – Premium 2.0 Merino in grau/orange"
+            },
+            {
+              "Caption": "Rückgerufene Fieldsheer Apparel Technologies Heizsocken – Modell MWMS07 – Premium 2.0 Merino in grau/orange"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Das Unternehmen hat 11 Berichte über Socken erhalten, die Schmerzen und Unbehagen verursachen, was zu 4 Verbrennungen und Blasen führte."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Erhältlich bei Scheels All Sports, Fred Meyer, Home Depot, Meijer, Bomgaars Supply, Buchheits, Running Supply, Fleet Farm Wholesale Supply und anderen Einzelhändlern im ganzen Land sowie online bei Amazon.com von August 2021 bis Juni 2025, preislich zwischen 80 und 130 US-Dollar."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Tech Gear 5.7 Inc., dba Fieldsheer Apparel Technologies, aus Carlsbad, Kalifornien"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Verkauft bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "Bangladesch"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risiko von Verbrennungen und Blasen bei Verwendung während intensiver Aktivitäten aufgrund von Wärme, Reibung, Feuchtigkeit und Druck."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Hören Sie sofort auf, die Heizsocken zu verwenden, und wenden Sie sich an Fieldsheer Apparel Technologies für eine vollständige Rückerstattung oder einen Ersatz von gleichem Wert. Entsorgen Sie Lithium-Ionen-Akkupacks gemäß den örtlichen Vorschriften."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Rückerstattung"
+            },
+            {
+              "Option": "Ersatz"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "火傷のリスクによるFieldsheer加熱ソックスのリコール",
+          "Description": "Fieldsheer Apparel Technologiesは、加熱ソックスのリコールを発表しました。対象モデルはMWMS07、MWWS07、MWMS05です。これらのメリノウールソックスは、黒/灰色、灰色/オレンジ、灰色/ピンク、黒/オレンジなどのさまざまな色の組み合わせで提供され、小から特大までのサイズがあります。各ペアには2つのリチウムイオンバッテリーパックと充電ケーブルが含まれており、バッテリーポケットにはスリットまたはジッパーがあります。特に、モデルMWMS05にはモデル番号MW37V122として識別されるバッテリーパックが含まれており、モデルMWMS07およびMWWS07にはMW37V22-Nとラベル付けされたBluetoothバッテリーパックが装備されています。Fieldsheerのロゴは、各ソックスの前面にオレンジ色で目立つように表示されています。リチウムイオンバッテリーは適切に取り扱うことが重要であり、不適切な廃棄は火災の危険を引き起こす可能性があります。適切な廃棄オプションについては、地元の自治体の危険廃棄物収集センターにお問い合わせください。",
+          "ConsumerContact": "サポートが必要な場合は、月曜日から金曜日の午前8時から午後4時（PT）まで、Fieldsheer Apparel Technologiesにフリーダイヤル888-908-6024までご連絡いただくか、メールcs@fieldsheer.comまで、またはhttps://fieldsheer.com/pages/recall-informationまたはhttps://fieldsheer.comを訪問し、「リコール情報」を選択して詳細をご確認ください。",
+          "metaDescription": "Fieldsheerが火傷のリスクにより加熱ソックスをリコール。返金または交換のために即時の対応が必要です。バッテリーの適切な廃棄が不可欠です。",
+          "Products": [
+            {
+              "Name": "Fieldsheer加熱ソックス",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約45,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコールされたFieldsheer Apparel Technologies加熱ソックス – モデルMWMS05 – メリノウールの黒/灰色"
+            },
+            {
+              "Caption": "リコールされたFieldsheer Apparel Technologies加熱ソックス – モデルMWMS05 – メリノウールの黒/灰色"
+            },
+            {
+              "Caption": "リコールされたFieldsheer Apparel Technologies加熱ソックス – モデルMWWS07 – プレミアム2.0メリノウールの灰色/ピンク"
+            },
+            {
+              "Caption": "リコールされたFieldsheer Apparel Technologies加熱ソックス – モデルMWWS07 – プレミアム2.0メリノウールの灰色/ピンク"
+            },
+            {
+              "Caption": "リコールされたFieldsheer Apparel Technologies加熱ソックス – モデルMWMS07 – プレミアム2.0メリノウールの黒/オレンジ"
+            },
+            {
+              "Caption": "リコールされたFieldsheer Apparel Technologies加熱ソックス – モデルMWMS07 – プレミアム2.0メリノウールの黒/オレンジ"
+            },
+            {
+              "Caption": "リコールされたFieldsheer Apparel Technologies加熱ソックス – モデルMWMS07 – プレミアム2.0メリノウールの灰色/オレンジ"
+            },
+            {
+              "Caption": "リコールされたFieldsheer Apparel Technologies加熱ソックス – モデルMWMS07 – プレミアム2.0メリノウールの灰色/オレンジ"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "同社は、痛みや不快感を引き起こすソックスに関する11件の報告を受けており、その結果4件の火傷と水ぶくれが発生しています。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Scheels All Sports、Fred Meyer、Home Depot、Meijer、Bomgaars Supply、Buchheits、Running Supply、Fleet Farm Wholesale Supplyなどの小売店および2021年8月から2025年6月までAmazon.comで入手可能で、価格は80ドルから130ドルの間です。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Tech Gear 5.7 Inc.（Fieldsheer Apparel Technologiesの商号）、カリフォルニア州カールスバッド"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "販売場所",
+          "ManufacturerCountries": [
+            {
+              "Country": "バングラデシュ"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "高強度の活動中に使用すると、熱、摩擦、湿気、圧力による火傷や水ぶくれのリスクがあります。"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "加熱ソックスの使用を直ちに中止し、Fieldsheer Apparel Technologiesに連絡して全額返金または同等の価値の交換を受けてください。リチウムイオンバッテリーパックは地元の規制に従って廃棄してください。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "返金"
+            },
+            {
+              "Option": "交換"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "Recall de Meias Aquecidas Fieldsheer Devido ao Risco de Queimaduras",
+          "Description": "A Fieldsheer Apparel Technologies emitiu um recall para suas meias aquecidas, especificamente os modelos MWMS07, MWWS07 e MWMS05. Essas meias de lã merino, disponíveis em várias combinações de cores, incluindo preto/cinza, cinza/laranja, cinza/rosa e preto/laranja, vêm em tamanhos que variam de pequeno a extra-grande. Cada par inclui dois pacotes de bateria de íon de lítio e um cabo de carregamento, com um bolso para bateria apresentando uma fenda ou um zíper. Notavelmente, o modelo MWMS05 inclui um pacote de bateria identificado como modelo número MW37V122, enquanto os modelos MWMS07 e MWWS07 estão equipados com pacotes de bateria Bluetooth rotulados como MW37V22-N. O logotipo da Fieldsheer está exibido em laranja na frente de cada meia. É crucial manusear as baterias de íon de lítio de forma responsável, pois o descarte inadequado pode levar a riscos de incêndio. Entre em contato com o centro de coleta de resíduos perigosos municipal local para opções de descarte adequado.",
+          "ConsumerContact": "Para assistência, entre em contato com a Fieldsheer Apparel Technologies gratuitamente pelo telefone 888-908-6024, das 8h às 16h PT, de segunda a sexta-feira, envie um e-mail para cs@fieldsheer.com ou visite https://fieldsheer.com/pages/recall-information ou https://fieldsheer.com e selecione \"Informações sobre Recall\" para mais detalhes.",
+          "metaDescription": "Fieldsheer faz recall de meias aquecidas devido a riscos de queimaduras. Ação imediata necessária para reembolsos ou trocas. O descarte adequado de baterias é essencial.",
+          "Products": [
+            {
+              "Name": "Meias Aquecidas Fieldsheer",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 45.000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Meias Aquecidas Fieldsheer Apparel Technologies Recall – Modelo MWMS05 – Merino em preto/cinza"
+            },
+            {
+              "Caption": "Meias Aquecidas Fieldsheer Apparel Technologies Recall – Modelo MWMS05 – Merino em preto/cinza"
+            },
+            {
+              "Caption": "Meias Aquecidas Fieldsheer Apparel Technologies Recall – Modelo MWWS07 – Premium 2.0 Merino em cinza/rosa"
+            },
+            {
+              "Caption": "Meias Aquecidas Fieldsheer Apparel Technologies Recall – Modelo MWWS07 – Premium 2.0 Merino em cinza/rosa"
+            },
+            {
+              "Caption": "Meias Aquecidas Fieldsheer Apparel Technologies Recall – Modelo MWMS07 – Premium 2.0 Merino em preto/laranja"
+            },
+            {
+              "Caption": "Meias Aquecidas Fieldsheer Apparel Technologies Recall – Modelo MWMS07 – Premium 2.0 Merino em preto/laranja"
+            },
+            {
+              "Caption": "Meias Aquecidas Fieldsheer Apparel Technologies Recall – Modelo MWMS07 – Premium 2.0 Merino em cinza/laranja"
+            },
+            {
+              "Caption": "Meias Aquecidas Fieldsheer Apparel Technologies Recall – Modelo MWMS07 – Premium 2.0 Merino em cinza/laranja"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "A empresa recebeu 11 relatos de meias causando dor e desconforto, resultando em 4 queimaduras e bolhas."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponível na Scheels All Sports, Fred Meyer, Home Depot, Meijer, Bomgaars Supply, Buchheits, Running Supply, Fleet Farm Wholesale Supply e outros varejistas em todo o país, bem como online na Amazon.com de agosto de 2021 até junho de 2025, com preços entre $80 e $130."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Tech Gear 5.7 Inc., dba Fieldsheer Apparel Technologies, de Carlsbad, Califórnia"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendidos Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "Bangladesh"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risco de queimaduras e bolhas quando usados durante atividades de alta intensidade devido ao calor, fricção, umidade e pressão."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Pare de usar as meias aquecidas imediatamente e entre em contato com a Fieldsheer Apparel Technologies para um reembolso total ou uma substituição de igual valor. Descarte os pacotes de bateria de íon de lítio de acordo com as regulamentações locais."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reembolso"
+            },
+            {
+              "Option": "Substituir"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "फील्डशियर हीटेड मोज़ों की रिकॉल जलने के जोखिम के कारण",
+          "Description": "फील्डशियर ऐपरेल टेक्नोलॉजीज ने अपने हीटेड मोज़ों की रिकॉल की है, विशेष रूप से मॉडल MWMS07, MWWS07, और MWMS05। ये मेरिनो ऊन के मोज़े विभिन्न रंग संयोजनों में उपलब्ध हैं, जिनमें काला/ग्रे, ग्रे/नारंगी, ग्रे/गुलाबी, और काला/नारंगी शामिल हैं, और ये छोटे से लेकर एक्स्ट्रा-large आकार में आते हैं। प्रत्येक जोड़ी में दो लिथियम-आयन बैटरी पैक और एक चार्जिंग केबल शामिल है, जिसमें बैटरी पॉकेट में या तो एक स्लिट या एक ज़िपर होता है। विशेष रूप से, मॉडल MWMS05 में एक बैटरी पैक है जिसे मॉडल नंबर MW37V122 के रूप में पहचाना गया है, जबकि मॉडल MWMS07 और MWWS07 में ब्लूटूथ बैटरी पैक होते हैं जिन्हें MW37V22-N के रूप में लेबल किया गया है। फील्डशियर का लोगो प्रत्येक मोज़े के सामने नारंगी रंग में प्रमुखता से प्रदर्शित है। लिथियम-आयन बैटरियों को जिम्मेदारी से संभालना महत्वपूर्ण है, क्योंकि अनुचित निपटान से आग लगने का खतरा हो सकता है। उचित निपटान विकल्पों के लिए अपने स्थानीय नगरपालिका खतरनाक अपशिष्ट संग्रह केंद्र से संपर्क करें।",
+          "ConsumerContact": "सहायता के लिए, फील्डशियर ऐपरेल टेक्नोलॉजीज से टोल-फ्री 888-908-6024 पर सुबह 8 बजे से शाम 4 बजे तक पीटी सोमवार से शुक्रवार तक संपर्क करें, ईमेल करें cs@fieldsheer.com, या https://fieldsheer.com/pages/recall-information या https://fieldsheer.com पर जाएं और आगे की जानकारी के लिए \"रिकॉल जानकारी\" चुनें।",
+          "metaDescription": "फील्डशियर हीटेड मोज़ों की रिकॉल जलने के जोखिम के कारण। रिफंड या प्रतिस्थापन के लिए तुरंत कार्रवाई की आवश्यकता है। बैटरियों का उचित निपटान आवश्यक है।",
+          "Products": [
+            {
+              "Name": "फील्डशियर हीटेड मोज़े",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 45,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "रिकॉल किए गए फील्डशियर ऐपरेल टेक्नोलॉजीज हीटेड मोज़े – मॉडल MWMS05 – काले/ग्रे में मेरिनो"
+            },
+            {
+              "Caption": "रिकॉल किए गए फील्डशियर ऐपरेल टेक्नोलॉजीज हीटेड मोज़े – मॉडल MWMS05 – काले/ग्रे में मेरिनो"
+            },
+            {
+              "Caption": "रिकॉल किए गए फील्डशियर ऐपरेल टेक्नोलॉजीज हीटेड मोज़े – मॉडल MWWS07 – प्रीमियम 2.0 मेरिनो ग्रे/गुलाबी में"
+            },
+            {
+              "Caption": "रिकॉल किए गए फील्डशियर ऐपरेल टेक्नोलॉजीज हीटेड मोज़े – मॉडल MWWS07 – प्रीमियम 2.0 मेरिनो ग्रे/गुलाबी में"
+            },
+            {
+              "Caption": "रिकॉल किए गए फील्डशियर ऐपरेल टेक्नोलॉजीज हीटेड मोज़े – मॉडल MWMS07 – प्रीमियम 2.0 मेरिनो काले/नारंगी में"
+            },
+            {
+              "Caption": "रिकॉल किए गए फील्डशियर ऐपरेल टेक्नोलॉजीज हीटेड मोज़े – मॉडल MWMS07 – प्रीमियम 2.0 मेरिनो काले/नारंगी में"
+            },
+            {
+              "Caption": "रिकॉल किए गए फील्डशियर ऐपरेल टेक्नोलॉजीज हीटेड मोज़े – मॉडल MWMS07 – प्रीमियम 2.0 मेरिनो ग्रे/नारंगी में"
+            },
+            {
+              "Caption": "रिकॉल किए गए फील्डशियर ऐपरेल टेक्नोलॉजीज हीटेड मोज़े – मॉडल MWMS07 – प्रीमियम 2.0 मेरिनो ग्रे/नारंगी में"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "कंपनी को मोज़ों के कारण दर्द और असुविधा के 11 रिपोर्ट मिले हैं, जिसके परिणामस्वरूप 4 जलन और फफोले हुए हैं।"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Scheels All Sports, Fred Meyer, Home Depot, Meijer, Bomgaars Supply, Buchheits, Running Supply, Fleet Farm Wholesale Supply, और अन्य खुदरा विक्रेताओं के साथ-साथ अगस्त 2021 से जून 2025 तक Amazon.com पर उपलब्ध, कीमत $80 से $130 के बीच।"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Tech Gear 5.7 Inc., dba Fieldsheer Apparel Technologies, कार्ल्सबैड, कैलिफोर्निया"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "बांग्लादेश"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "उच्च-तीव्रता गतिविधियों के दौरान गर्मी, घर्षण, नमी, और दबाव के कारण जलने और फफोलों का जोखिम।"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "हीटेड मोज़ों का उपयोग तुरंत बंद करें और समान मूल्य के लिए फील्डशियर ऐपरेल टेक्नोलॉजीज से पूर्ण रिफंड या प्रतिस्थापन के लिए संपर्क करें। स्थानीय नियमों के अनुसार लिथियम-आयन बैटरी पैकों का निपटान करें।"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "रिफंड"
+            },
+            {
+              "Option": "प्रतिस्थापित करें"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "Отзыв нагреваемых носок Fieldsheer из-за риска ожогов",
+          "Description": "Компания Fieldsheer Apparel Technologies объявила отзыв своих нагреваемых носок, в частности моделей MWMS07, MWWS07 и MWMS05. Эти носки из мериносовой шерсти доступны в различных цветовых комбинациях, включая черный/серый, серый/оранжевый, серый/розовый и черный/оранжевый, и выпускаются в размерах от маленького до экстра- большого. Каждая пара включает два литий-ионных аккумулятора и зарядный кабель, с карманом для батареи, имеющим либо разрез, либо молнию. Важно отметить, что модель MWMS05 включает аккумулятор, идентифицированный как модель номер MW37V122, в то время как модели MWMS07 и MWWS07 оснащены аккумуляторами Bluetooth с маркировкой MW37V22-N. Логотип Fieldsheer ярко отображается оранжевым цветом на передней части каждого носка. Крайне важно ответственно обращаться с литий-ионными аккумуляторами, так как неправильная утилизация может привести к пожароопасным ситуациям. Свяжитесь с вашим местным муниципальным центром по сбору опасных отходов для получения информации о правильной утилизации.",
+          "ConsumerContact": "Для получения помощи свяжитесь с компанией Fieldsheer Apparel Technologies по бесплатному номеру 888-908-6024 с 8:00 до 16:00 по тихоокеанскому времени с понедельника по пятницу, отправьте электронное письмо на адрес cs@fieldsheer.com или посетите https://fieldsheer.com/pages/recall-information или https://fieldsheer.com и выберите \"Информация об отзыве\" для получения дополнительных сведений.",
+          "metaDescription": "Fieldsheer отзывает нагреваемые носки из-за риска ожогов. Необходимо немедленное действие для получения возвратов или замен. Правильная утилизация батарей имеет важное значение.",
+          "Products": [
+            {
+              "Name": "Нагреваемые носки Fieldsheer",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 45,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванные нагреваемые носки Fieldsheer Apparel Technologies – Модель MWMS05 – Мерино в черном/сером"
+            },
+            {
+              "Caption": "Отозванные нагреваемые носки Fieldsheer Apparel Technologies – Модель MWMS05 – Мерино в черном/сером"
+            },
+            {
+              "Caption": "Отозванные нагреваемые носки Fieldsheer Apparel Technologies – Модель MWWS07 – Премиум 2.0 Мерино в сером/розовом"
+            },
+            {
+              "Caption": "Отозванные нагреваемые носки Fieldsheer Apparel Technologies – Модель MWWS07 – Премиум 2.0 Мерино в сером/розовом"
+            },
+            {
+              "Caption": "Отозванные нагреваемые носки Fieldsheer Apparel Technologies – Модель MWMS07 – Премиум 2.0 Мерино в черном/оранжевом"
+            },
+            {
+              "Caption": "Отозванные нагреваемые носки Fieldsheer Apparel Technologies – Модель MWMS07 – Премиум 2.0 Мерино в черном/оранжевом"
+            },
+            {
+              "Caption": "Отозванные нагреваемые носки Fieldsheer Apparel Technologies – Модель MWMS07 – Премиум 2.0 Мерино в сером/оранжевом"
+            },
+            {
+              "Caption": "Отозванные нагреваемые носки Fieldsheer Apparel Technologies – Модель MWMS07 – Премиум 2.0 Мерино в сером/оранжевом"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Компания получила 11 сообщений о том, что носки вызывают боль и дискомфорт, что привело к 4 ожогам и волдырям."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Доступно в Scheels All Sports, Fred Meyer, Home Depot, Meijer, Bomgaars Supply, Buchheits, Running Supply, Fleet Farm Wholesale Supply и других розничных продавцах по всей стране, а также онлайн на Amazon.com с августа 2021 года по июнь 2025 года, по цене от 80 до 130 долларов."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Tech Gear 5.7 Inc., dba Fieldsheer Apparel Technologies, из Карлсбада, Калифорния"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Продается в",
+          "ManufacturerCountries": [
+            {
+              "Country": "Бангладеш"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Риск ожогов и волдырей при использовании во время высокоинтенсивной активности из-за тепла, трения, влаги и давления."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Немедленно прекратите использование нагреваемых носков и свяжитесь с компанией Fieldsheer Apparel Technologies для получения полного возврата или замены на аналогичную стоимость. Утилизируйте литий-ионные аккумуляторы в соответствии с местными правилами."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Возврат"
+            },
+            {
+              "Option": "Замена"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "Thu hồi tất sưởi Fieldsheer do nguy cơ bỏng",
+          "Description": "Công ty Fieldsheer Apparel Technologies đã phát động thu hồi tất sưởi của mình, cụ thể là các mẫu MWMS07, MWWS07 và MWMS05. Những đôi tất bằng len merino này có sẵn trong nhiều sự kết hợp màu sắc bao gồm đen/xám, xám/cam, xám/hồng và đen/cam, có kích thước từ nhỏ đến cực lớn. Mỗi đôi bao gồm hai bộ pin lithium-ion và một cáp sạc, với một túi pin có khe hoặc khóa kéo. Đặc biệt, mẫu MWMS05 bao gồm một bộ pin được xác định là số mẫu MW37V122, trong khi các mẫu MWMS07 và MWWS07 được trang bị bộ pin Bluetooth có nhãn MW37V22-N. Logo Fieldsheer được hiển thị nổi bật bằng màu cam ở phía trước mỗi chiếc tất. Việc xử lý pin lithium-ion một cách có trách nhiệm là rất quan trọng, vì việc vứt bỏ không đúng cách có thể dẫn đến nguy cơ cháy nổ. Liên hệ với trung tâm thu gom chất thải nguy hại của thành phố bạn để biết các tùy chọn xử lý đúng cách.",
+          "ConsumerContact": "Để được hỗ trợ, hãy liên hệ với Fieldsheer Apparel Technologies qua số điện thoại miễn phí 888-908-6024 từ 8 giờ sáng đến 4 giờ chiều PT từ thứ Hai đến thứ Sáu, gửi email đến cs@fieldsheer.com, hoặc truy cập https://fieldsheer.com/pages/recall-information hoặc https://fieldsheer.com và chọn \"Thông tin thu hồi\" để biết thêm chi tiết.",
+          "metaDescription": "Fieldsheer thu hồi tất sưởi do nguy cơ bỏng. Cần hành động ngay lập tức để nhận hoàn tiền hoặc thay thế. Việc xử lý pin đúng cách là rất cần thiết.",
+          "Products": [
+            {
+              "Name": "Tất sưởi Fieldsheer",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 45.000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Tất sưởi Fieldsheer Apparel Technologies bị thu hồi – Mẫu MWMS05 – Merino màu đen/xám"
+            },
+            {
+              "Caption": "Tất sưởi Fieldsheer Apparel Technologies bị thu hồi – Mẫu MWMS05 – Merino màu đen/xám"
+            },
+            {
+              "Caption": "Tất sưởi Fieldsheer Apparel Technologies bị thu hồi – Mẫu MWWS07 – Premium 2.0 Merino màu xám/hồng"
+            },
+            {
+              "Caption": "Tất sưởi Fieldsheer Apparel Technologies bị thu hồi – Mẫu MWWS07 – Premium 2.0 Merino màu xám/hồng"
+            },
+            {
+              "Caption": "Tất sưởi Fieldsheer Apparel Technologies bị thu hồi – Mẫu MWMS07 – Premium 2.0 Merino màu đen/cam"
+            },
+            {
+              "Caption": "Tất sưởi Fieldsheer Apparel Technologies bị thu hồi – Mẫu MWMS07 – Premium 2.0 Merino màu đen/cam"
+            },
+            {
+              "Caption": "Tất sưởi Fieldsheer Apparel Technologies bị thu hồi – Mẫu MWMS07 – Premium 2.0 Merino màu xám/cam"
+            },
+            {
+              "Caption": "Tất sưởi Fieldsheer Apparel Technologies bị thu hồi – Mẫu MWMS07 – Premium 2.0 Merino màu xám/cam"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Công ty đã nhận được 11 báo cáo về việc tất gây đau và khó chịu, dẫn đến 4 trường hợp bỏng và phồng rộp."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Có sẵn tại Scheels All Sports, Fred Meyer, Home Depot, Meijer, Bomgaars Supply, Buchheits, Running Supply, Fleet Farm Wholesale Supply và các nhà bán lẻ khác trên toàn quốc, cũng như trực tuyến tại Amazon.com từ tháng 8 năm 2021 đến tháng 6 năm 2025, với giá từ 80 đến 130 đô la."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Tech Gear 5.7 Inc., dba Fieldsheer Apparel Technologies, tại Carlsbad, California"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Bán Tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Bangladesh"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Nguy cơ bỏng và phồng rộp khi sử dụng trong các hoạt động cường độ cao do nhiệt, ma sát, độ ẩm và áp lực."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Ngừng sử dụng tất sưởi ngay lập tức và liên hệ với Fieldsheer Apparel Technologies để được hoàn tiền đầy đủ hoặc thay thế bằng sản phẩm có giá trị tương đương. Vứt bỏ các bộ pin lithium-ion theo quy định địa phương."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Hoàn tiền"
+            },
+            {
+              "Option": "Thay thế"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    }
+  ]
+}

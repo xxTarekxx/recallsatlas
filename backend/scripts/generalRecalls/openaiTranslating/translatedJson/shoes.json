@@ -1,0 +1,761 @@
+{
+  "meta": {
+    "slug": "shoes",
+    "sourceCsvFile": "shoes_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:37.059Z",
+    "recallCount": 1,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "shoes.json",
+    "seoTranslatedAt": "2026-04-05T04:04:46.250Z",
+    "resumePartial": false,
+    "i18nSource": "generalRecallsTranslated",
+    "i18nSourceFile": "shoes.json",
+    "i18nUiLangs": [
+      "en",
+      "es",
+      "ar",
+      "zh",
+      "fr",
+      "de",
+      "ja",
+      "pt",
+      "hi",
+      "ru",
+      "vi"
+    ],
+    "i18nProgressByLang": {
+      "es": 1,
+      "ar": 1,
+      "zh": 1,
+      "fr": 1,
+      "de": 1,
+      "ja": 1,
+      "pt": 1,
+      "hi": 1,
+      "ru": 1,
+      "vi": 1
+    },
+    "i18nInProgress": false,
+    "i18nTranslatedAt": "2026-04-07T20:05:07.749Z",
+    "i18nOpenaiModel": "gpt-4o-mini"
+  },
+  "recalls": [
+    {
+      "RecallID": 10177,
+      "RecallNumber": "25152",
+      "RecallDate": "2025-02-20T00:00:00",
+      "Description": "OdorStop is recalling its Boot and Shoe Dryers and Deodorizers, specifically the models OSOBSDD2 and OSOBSDD. These devices, designed to dry and deodorize two to four pairs of boots using high-output fans and a 3-hour timer, may pose a fire hazard due to a potential short circuit in the heat or ozone on-off switch. The model number and brand name can be found on a label located at the bottom of the products.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/OdorStop-Recalls-Boot-and-Shoe-Dryers-and-Deodorizers-Due-to-Fire-Hazard",
+      "Title": "OdorStop Boot and Shoe Dryers and Deodorizers Recalled Due to Fire Risk",
+      "ConsumerContact": "For assistance, consumers can reach OdorStop LLC at 800-414-2191, Monday through Friday from 9 a.m. to 5 p.m. ET, or email support@odorstop.com. More information is available at www.OdorStop.com/recall or by visiting the OdorStop website and clicking on the 'Recall' section.",
+      "LastPublishDate": "2025-02-20T00:00:00",
+      "Products": [
+        {
+          "Name": "OdorStop Boot and Shoe Dryers and Deodorizers",
+          "NumberOfUnits": "About 13,000"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/shoes/1-OdorStop-Boot-and-Shoe-Dryers-and-Deodorizers/51dbb21e804b582e4e3a4fd0a0a02a35.webp",
+          "Caption": "Recalled OdorStop Boot and Shoe Dryers and Deodorizers, models OSBSDD2 & OSBSDD",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/odorstop.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available online at Amazon.com, Odorstop.com, Lowes.com, Globalindustrial.com, and webrestaurantstore.com from December 2018 to October 2023, priced between $100 and $130."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "OdorStop LLC, of Hamburg, New York"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Fire hazard due to potential short circuit in the heat or ozone switch"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers are advised to stop using the recalled products immediately and contact OdorStop for a free repair. The company will install a new in-line fuse and return the repaired product to the consumer. To register for the recall and obtain a free return label, visit https://OdorStop.com/recall."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "OSOBSDD2",
+        "OSOBSDD"
+      ],
+      "slug": "odorstop-boot-and-shoe-dryers-and-deodorizers-recalled-due-to-fire-risk-recall",
+      "metaDescription": "OdorStop recalls Boot and Shoe Dryers due to fire hazards. Immediate action required for safety and free repairs.",
+      "languages": {
+        "en": {
+          "Title": "OdorStop Boot and Shoe Dryers and Deodorizers Recalled Due to Fire Risk",
+          "Description": "OdorStop is recalling its Boot and Shoe Dryers and Deodorizers, specifically the models OSOBSDD2 and OSOBSDD. These devices, designed to dry and deodorize two to four pairs of boots using high-output fans and a 3-hour timer, may pose a fire hazard due to a potential short circuit in the heat or ozone on-off switch. The model number and brand name can be found on a label located at the bottom of the products.",
+          "ConsumerContact": "For assistance, consumers can reach OdorStop LLC at 800-414-2191, Monday through Friday from 9 a.m. to 5 p.m. ET, or email support@odorstop.com. More information is available at www.OdorStop.com/recall or by visiting the OdorStop website and clicking on the 'Recall' section.",
+          "metaDescription": "OdorStop recalls Boot and Shoe Dryers due to fire hazards. Immediate action required for safety and free repairs.",
+          "Products": [
+            {
+              "Name": "OdorStop Boot and Shoe Dryers and Deodorizers",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 13,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled OdorStop Boot and Shoe Dryers and Deodorizers, models OSBSDD2 & OSBSDD"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "None reported"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Available online at Amazon.com, Odorstop.com, Lowes.com, Globalindustrial.com, and webrestaurantstore.com from December 2018 to October 2023, priced between $100 and $130."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "OdorStop LLC, of Hamburg, New York"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Sold At",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Fire hazard due to potential short circuit in the heat or ozone switch"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Consumers are advised to stop using the recalled products immediately and contact OdorStop for a free repair. The company will install a new in-line fuse and return the repaired product to the consumer. To register for the recall and obtain a free return label, visit https://OdorStop.com/recall."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Repair"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "Secadores y desodorantes de botas y zapatos OdorStop retirados debido al riesgo de incendio",
+          "Description": "OdorStop está retirando sus secadores y desodorantes de botas y zapatos, específicamente los modelos OSOBSDD2 y OSOBSDD. Estos dispositivos, diseñados para secar y desodorizar de dos a cuatro pares de botas utilizando ventiladores de alta potencia y un temporizador de 3 horas, pueden representar un riesgo de incendio debido a un posible cortocircuito en el interruptor de encendido y apagado de calor u ozono. El número de modelo y el nombre de la marca se pueden encontrar en una etiqueta ubicada en la parte inferior de los productos.",
+          "ConsumerContact": "Para asistencia, los consumidores pueden comunicarse con OdorStop LLC al 800-414-2191, de lunes a viernes de 9 a.m. a 5 p.m. ET, o enviar un correo electrónico a support@odorstop.com. Más información está disponible en www.OdorStop.com/recall o visitando el sitio web de OdorStop y haciendo clic en la sección 'Retiro'.",
+          "metaDescription": "OdorStop retira secadores y desodorantes de botas debido a riesgos de incendio. Se requiere acción inmediata para la seguridad y reparaciones gratuitas.",
+          "Products": [
+            {
+              "Name": "Secadores y desodorantes de botas y zapatos OdorStop",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 13,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Secadores y desodorantes de botas y zapatos OdorStop retirados, modelos OSBSDD2 y OSBSDD"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Ninguna reportada"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponibles en línea en Amazon.com, Odorstop.com, Lowes.com, Globalindustrial.com y webrestaurantstore.com desde diciembre de 2018 hasta octubre de 2023, con precios entre $100 y $130."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "OdorStop LLC, de Hamburg, Nueva York"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendido en",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Riesgo de incendio debido a un posible cortocircuito en el interruptor de calor u ozono"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Se aconseja a los consumidores que dejen de usar los productos retirados de inmediato y se pongan en contacto con OdorStop para una reparación gratuita. La empresa instalará un nuevo fusible en línea y devolverá el producto reparado al consumidor. Para registrarse para el retiro y obtener una etiqueta de devolución gratuita, visite https://OdorStop.com/recall."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparar"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "استدعاء مجففات وأجهزة إزالة الروائح من OdorStop بسبب خطر الحريق",
+          "Description": "تقوم OdorStop باستدعاء مجففات وأجهزة إزالة الروائح الخاصة بها، وتحديداً الطرازين OSOBSDD2 و OSOBSDD. تم تصميم هذه الأجهزة لتجفيف وإزالة الروائح من زوجين إلى أربعة أزواج من الأحذية باستخدام مراوح عالية القوة ومؤقت لمدة 3 ساعات، وقد تشكل خطر حريق بسبب احتمال حدوث دائرة كهربائية قصيرة في مفتاح الحرارة أو الأوزون. يمكن العثور على رقم الطراز واسم العلامة التجارية على ملصق موجود في أسفل المنتجات.",
+          "ConsumerContact": "للمساعدة، يمكن للمستهلكين التواصل مع OdorStop LLC على الرقم 800-414-2191، من الاثنين إلى الجمعة من الساعة 9 صباحًا حتى 5 مساءً بتوقيت شرق الولايات المتحدة، أو عبر البريد الإلكتروني support@odorstop.com. مزيد من المعلومات متاحة على www.OdorStop.com/recall أو من خلال زيارة موقع OdorStop والنقر على قسم 'الاستدعاء'.",
+          "metaDescription": "تستدعي OdorStop مجففات وأجهزة إزالة الروائح بسبب مخاطر الحريق. يتطلب الأمر اتخاذ إجراء فوري من أجل السلامة وإصلاحات مجانية.",
+          "Products": [
+            {
+              "Name": "مجففات وأجهزة إزالة الروائح من OdorStop",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 13,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "مجففات وأجهزة إزالة الروائح من OdorStop المستدعاة، الطرازين OSBSDD2 و OSBSDD"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "لا توجد إصابات مسجلة"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "متاحة عبر الإنترنت على Amazon.com و Odorstop.com و Lowes.com و Globalindustrial.com و webrestaurantstore.com من ديسمبر 2018 إلى أكتوبر 2023، بأسعار تتراوح بين 100 دولار و 130 دولار."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "OdorStop LLC، من هامبورغ، نيويورك"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "تم البيع في",
+          "ManufacturerCountries": [
+            {
+              "Country": "الصين"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "خطر الحريق بسبب احتمال حدوث دائرة كهربائية قصيرة في مفتاح الحرارة أو الأوزون"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "يُنصح المستهلكون بوقف استخدام المنتجات المستدعاة على الفور والتواصل مع OdorStop للحصول على إصلاح مجاني. ستقوم الشركة بتركيب فيوز جديد وإعادة المنتج الذي تم إصلاحه إلى المستهلك. للتسجيل للاستدعاء والحصول على ملصق إرجاع مجاني، يرجى زيارة https://OdorStop.com/recall."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "إصلاح"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "OdorStop 靴子和鞋子干燥器及除臭剂因火灾风险被召回",
+          "Description": "OdorStop 正在召回其靴子和鞋子干燥器及除臭剂，具体型号为 OSOBSDD2 和 OSOBSDD。这些设备旨在使用高功率风扇和 3 小时定时器干燥和除臭两到四双靴子，但由于加热或臭氧开关可能存在短路，可能会造成火灾危险。型号和品牌名称可以在产品底部的标签上找到。",
+          "ConsumerContact": "如需帮助，消费者可以在东部时间周一至周五上午 9 点至下午 5 点拨打 800-414-2191 联系 OdorStop LLC，或发送电子邮件至 support@odorstop.com。更多信息请访问 www.OdorStop.com/recall，或访问 OdorStop 网站并点击“召回”部分。",
+          "metaDescription": "OdorStop 因火灾危险召回靴子和鞋子干燥器。需要立即采取行动以确保安全并进行免费维修。",
+          "Products": [
+            {
+              "Name": "OdorStop 靴子和鞋子干燥器及除臭剂",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约 13,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "被召回的 OdorStop 靴子和鞋子干燥器及除臭剂，型号 OSBSDD2 和 OSBSDD"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "没有报告受伤"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "自 2018 年 12 月至 2023 年 10 月在 Amazon.com、Odorstop.com、Lowes.com、Globalindustrial.com 和 webrestaurantstore.com 在线销售，价格在 $100 到 $130 之间。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "OdorStop LLC，位于纽约汉堡"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "销售地点",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "由于加热或臭氧开关可能短路而导致的火灾危险"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "建议消费者立即停止使用被召回的产品，并联系 OdorStop 进行免费维修。公司将安装新的串联保险丝并将修复后的产品退还给消费者。要注册召回并获取免费退货标签，请访问 https://OdorStop.com/recall。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "维修"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "Rappel des sèche-bottes et chaussures OdorStop en raison d'un risque d'incendie",
+          "Description": "OdorStop rappelle ses sèche-bottes et chaussures, spécifiquement les modèles OSOBSDD2 et OSOBSDD. Ces appareils, conçus pour sécher et désodoriser deux à quatre paires de bottes à l'aide de ventilateurs à haute puissance et d'un minuteur de 3 heures, peuvent présenter un risque d'incendie en raison d'un court-circuit potentiel dans l'interrupteur de chaleur ou d'ozone. Le numéro de modèle et le nom de la marque se trouvent sur une étiquette située au bas des produits.",
+          "ConsumerContact": "Pour assistance, les consommateurs peuvent contacter OdorStop LLC au 800-414-2191, du lundi au vendredi de 9 h à 17 h HNE, ou envoyer un courriel à support@odorstop.com. Plus d'informations sont disponibles sur www.OdorStop.com/recall ou en visitant le site web d'OdorStop et en cliquant sur la section 'Rappel'.",
+          "metaDescription": "OdorStop rappelle des sèche-bottes et chaussures en raison de risques d'incendie. Action immédiate requise pour la sécurité et réparations gratuites.",
+          "Products": [
+            {
+              "Name": "Sèche-bottes et chaussures OdorStop",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 13 000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Sèche-bottes et chaussures OdorStop rappelés, modèles OSBSDD2 & OSBSDD"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Aucune rapportée"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible en ligne sur Amazon.com, Odorstop.com, Lowes.com, Globalindustrial.com et webrestaurantstore.com de décembre 2018 à octobre 2023, au prix compris entre 100 $ et 130 $."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "OdorStop LLC, de Hamburg, New York"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendu À",
+          "ManufacturerCountries": [
+            {
+              "Country": "Chine"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risque d'incendie en raison d'un court-circuit potentiel dans l'interrupteur de chaleur ou d'ozone"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Les consommateurs sont invités à cesser d'utiliser immédiatement les produits rappelés et à contacter OdorStop pour une réparation gratuite. L'entreprise installera un nouveau fusible en ligne et retournera le produit réparé au consommateur. Pour s'inscrire au rappel et obtenir une étiquette de retour gratuite, visitez https://OdorStop.com/recall."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Réparation"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "OdorStop Stiefel- und Schuhtrockner sowie -Deodorants wegen Brandgefahr zurückgerufen",
+          "Description": "OdorStop ruft seine Stiefel- und Schuhtrockner sowie -Deodorants zurück, insbesondere die Modelle OSOBSDD2 und OSOBSDD. Diese Geräte, die dazu entwickelt wurden, zwei bis vier Paar Stiefel mit Hochleistungsventilatoren und einem 3-Stunden-Timer zu trocknen und zu deodorieren, können aufgrund eines möglichen Kurzschlusses im Heiz- oder Ozon-Ein/Aus-Schalter eine Brandgefahr darstellen. Die Modellnummer und der Markenname sind auf einem Etikett an der Unterseite der Produkte zu finden.",
+          "ConsumerContact": "Für Unterstützung können Verbraucher OdorStop LLC unter 800-414-2191 von Montag bis Freitag von 9 bis 17 Uhr ET kontaktieren oder eine E-Mail an support@odorstop.com senden. Weitere Informationen sind verfügbar unter www.OdorStop.com/recall oder indem Sie die OdorStop-Website besuchen und auf den Abschnitt 'Rückruf' klicken.",
+          "metaDescription": "OdorStop ruft Stiefel- und Schuhtrockner wegen Brandgefahren zurück. Sofortige Maßnahmen erforderlich für Sicherheit und kostenlose Reparaturen.",
+          "Products": [
+            {
+              "Name": "OdorStop Stiefel- und Schuhtrockner sowie -Deodorants",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 13.000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Zurückgerufene OdorStop Stiefel- und Schuhtrockner sowie -Deodorants, Modelle OSBSDD2 & OSBSDD"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Keine gemeldet"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Online erhältlich bei Amazon.com, Odorstop.com, Lowes.com, Globalindustrial.com und webrestaurantstore.com von Dezember 2018 bis Oktober 2023, preislich zwischen 100 und 130 US-Dollar."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "OdorStop LLC, aus Hamburg, New York"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Verkauft bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Brandgefahr aufgrund eines möglichen Kurzschlusses im Heiz- oder Ozon-Schalter"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Verbraucher werden geraten, die zurückgerufenen Produkte sofort nicht mehr zu verwenden und OdorStop für eine kostenlose Reparatur zu kontaktieren. Das Unternehmen wird eine neue Sicherung installieren und das reparierte Produkt an den Verbraucher zurücksenden. Um sich für den Rückruf zu registrieren und ein kostenloses Rücksendeetikett zu erhalten, besuchen Sie https://OdorStop.com/recall."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparatur"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "OdorStopブーツおよび靴乾燥機と消臭剤が火災リスクのためリコール",
+          "Description": "OdorStopは、ブーツおよび靴乾燥機と消臭剤、特にモデルOSOBSDD2およびOSOBSDDをリコールしています。これらのデバイスは、高出力ファンと3時間タイマーを使用して2〜4足のブーツを乾燥および消臭するように設計されていますが、熱またはオゾンのオンオフスイッチにおける潜在的な短絡により火災の危険を引き起こす可能性があります。モデル番号とブランド名は、製品の底にあるラベルに記載されています。",
+          "ConsumerContact": "サポートが必要な場合、消費者はOdorStop LLCに800-414-2191まで連絡できます。月曜日から金曜日の午前9時から午後5時（ET）まで、またはsupport@odorstop.comにメールを送信してください。詳細情報はwww.OdorStop.com/recallで入手できるか、OdorStopのウェブサイトを訪れて「リコール」セクションをクリックしてください。",
+          "metaDescription": "OdorStopは火災の危険性のためにブーツおよび靴乾燥機をリコールします。安全のために即時の対応が必要で、無料修理が提供されます。",
+          "Products": [
+            {
+              "Name": "OdorStopブーツおよび靴乾燥機と消臭剤",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約13,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコールされたOdorStopブーツおよび靴乾燥機と消臭剤、モデルOSBSDD2およびOSBSDD"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "報告された怪我はなし"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "2018年12月から2023年10月まで、Amazon.com、Odorstop.com、Lowes.com、Globalindustrial.com、webrestaurantstore.comでオンライン販売され、価格は100ドルから130ドルの間です。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "ニューヨーク州ハンバーグのOdorStop LLC"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "販売場所",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "熱またはオゾンスイッチにおける潜在的な短絡による火災の危険"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "消費者はリコールされた製品の使用を直ちに中止し、OdorStopに連絡して無料修理を受けることをお勧めします。会社は新しいインラインヒューズを取り付け、修理された製品を消費者に返却します。リコールに登録し、無料の返品ラベルを取得するには、https://OdorStop.com/recallを訪れてください。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "修理"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "Secadores e Desodorizadores de Botas e Sapatos OdorStop Recallados Devido ao Risco de Incêndio",
+          "Description": "A OdorStop está recallando seus Secadores e Desodorizadores de Botas e Sapatos, especificamente os modelos OSOBSDD2 e OSOBSDD. Esses dispositivos, projetados para secar e desodorizar de duas a quatro pares de botas usando ventiladores de alta potência e um temporizador de 3 horas, podem representar um risco de incêndio devido a um possível curto-circuito no interruptor de aquecimento ou ozônio. O número do modelo e o nome da marca podem ser encontrados em um rótulo localizado na parte inferior dos produtos.",
+          "ConsumerContact": "Para assistência, os consumidores podem entrar em contato com a OdorStop LLC pelo telefone 800-414-2191, de segunda a sexta-feira, das 9h às 17h ET, ou enviar um e-mail para support@odorstop.com. Mais informações estão disponíveis em www.OdorStop.com/recall ou visitando o site da OdorStop e clicando na seção 'Recall'.",
+          "metaDescription": "A OdorStop recalla Secadores e Desodorizadores de Botas devido a riscos de incêndio. Ação imediata necessária para segurança e reparos gratuitos.",
+          "Products": [
+            {
+              "Name": "Secadores e Desodorizadores de Botas e Sapatos OdorStop",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 13.000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Secadores e Desodorizadores de Botas e Sapatos OdorStop recallados, modelos OSBSDD2 & OSBSDD"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Nenhum relatado"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponível online em Amazon.com, Odorstop.com, Lowes.com, Globalindustrial.com e webrestaurantstore.com de dezembro de 2018 a outubro de 2023, com preços entre $100 e $130."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "OdorStop LLC, de Hamburg, Nova York"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendido Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risco de incêndio devido a possível curto-circuito no interruptor de aquecimento ou ozônio"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Os consumidores são aconselhados a parar de usar os produtos recallados imediatamente e entrar em contato com a OdorStop para um reparo gratuito. A empresa instalará um novo fusível em linha e devolverá o produto reparado ao consumidor. Para se registrar para o recall e obter um rótulo de devolução gratuito, visite https://OdorStop.com/recall."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparo"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "OdorStop बूट और जूते सुखाने वाले और डिओडोराइज़र recalled आग के जोखिम के कारण",
+          "Description": "OdorStop अपने बूट और जूते सुखाने वाले और डिओडोराइज़र को वापस बुला रहा है, विशेष रूप से मॉडल OSOBSDD2 और OSOBSDD। ये उपकरण उच्च-आउटपुट पंखों और 3-घंटे के टाइमर का उपयोग करके दो से चार जोड़ी बूट को सुखाने और डिओडोराइज करने के लिए डिज़ाइन किए गए हैं, जो हीट या ओज़ोन ऑन-ऑफ स्विच में संभावित शॉर्ट सर्किट के कारण आग का खतरा पैदा कर सकते हैं। मॉडल नंबर और ब्रांड नाम उत्पादों के नीचे एक लेबल पर पाया जा सकता है।",
+          "ConsumerContact": "सहायता के लिए, उपभोक्ता OdorStop LLC से 800-414-2191 पर संपर्क कर सकते हैं, सोमवार से शुक्रवार, सुबह 9 बजे से शाम 5 बजे ET तक, या email support@odorstop.com पर। अधिक जानकारी www.OdorStop.com/recall पर उपलब्ध है या OdorStop वेबसाइट पर जाकर 'Recall' अनुभाग पर क्लिक करके।",
+          "metaDescription": "OdorStop आग के खतरों के कारण बूट और जूते सुखाने वालों को वापस बुलाता है। सुरक्षा और मुफ्त मरम्मत के लिए तात्कालिक कार्रवाई की आवश्यकता है।",
+          "Products": [
+            {
+              "Name": "OdorStop बूट और जूते सुखाने वाले और डिओडोराइज़र",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 13,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "वापस बुलाए गए OdorStop बूट और जूते सुखाने वाले और डिओडोराइज़र, मॉडल OSBSDD2 & OSBSDD"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "कोई रिपोर्ट नहीं की गई"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Amazon.com, Odorstop.com, Lowes.com, Globalindustrial.com, और webrestaurantstore.com पर दिसंबर 2018 से अक्टूबर 2023 तक उपलब्ध, $100 से $130 के बीच कीमत पर।"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "OdorStop LLC, हैमबर्ग, न्यू यॉर्क"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "चीन"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "हीट या ओज़ोन स्विच में संभावित शॉर्ट सर्किट के कारण आग का खतरा"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "उपभोक्ताओं को सलाह दी जाती है कि वे तुरंत वापस बुलाए गए उत्पादों का उपयोग करना बंद कर दें और मुफ्त मरम्मत के लिए OdorStop से संपर्क करें। कंपनी एक नया इन-लाइन फ्यूज स्थापित करेगी और मरम्मत किए गए उत्पाद को उपभोक्ता को वापस करेगी। वापस बुलाने के लिए पंजीकरण करने और मुफ्त रिटर्न लेबल प्राप्त करने के लिए, https://OdorStop.com/recall पर जाएं।"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "मरम्मत"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "OdorStop сушилки для обуви и дезодоранты отозваны из-за риска возгорания",
+          "Description": "OdorStop отзывает свои сушилки для обуви и дезодоранты, в частности модели OSOBSDD2 и OSOBSDD. Эти устройства, предназначенные для сушки и дезодорации двух-четырех пар обуви с использованием мощных вентиляторов и 3-часового таймера, могут представлять собой риск возгорания из-за потенциального короткого замыкания в переключателе нагрева или озона. Номер модели и название бренда можно найти на ярлыке, расположенном внизу продуктов.",
+          "ConsumerContact": "Для получения помощи потребители могут обратиться в OdorStop LLC по телефону 800-414-2191 с понедельника по пятницу с 9:00 до 17:00 по восточному времени или написать на электронную почту support@odorstop.com. Дополнительную информацию можно найти на сайте www.OdorStop.com/recall или посетив сайт OdorStop и кликнув на раздел 'Отзыв'.",
+          "metaDescription": "OdorStop отзывает сушилки для обуви из-за рисков возгорания. Необходимы немедленные действия для обеспечения безопасности и бесплатного ремонта.",
+          "Products": [
+            {
+              "Name": "OdorStop сушилки для обуви и дезодоранты",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 13,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванные сушилки для обуви и дезодоранты OdorStop, модели OSBSDD2 и OSBSDD"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Не сообщалось"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Доступно онлайн на Amazon.com, Odorstop.com, Lowes.com, Globalindustrial.com и webrestaurantstore.com с декабря 2018 года по октябрь 2023 года, по цене от 100 до 130 долларов."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "OdorStop LLC, Гамбург, Нью-Йорк"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Продается в",
+          "ManufacturerCountries": [
+            {
+              "Country": "Китай"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Риск возгорания из-за потенциального короткого замыкания в переключателе нагрева или озона"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Потребителям рекомендуется немедленно прекратить использование отозванных продуктов и обратиться в OdorStop для бесплатного ремонта. Компания установит новый предохранитель и вернет отремонтированный продукт потребителю. Чтобы зарегистрироваться для отзыва и получить бесплатную этикетку для возврата, посетите https://OdorStop.com/recall."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Ремонт"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "OdorStop thu hồi Máy sấy và Khử mùi Giày và Ủng do nguy cơ cháy",
+          "Description": "OdorStop đang thu hồi Máy sấy và Khử mùi Giày và Ủng của mình, cụ thể là các mẫu OSOBSDD2 và OSOBSDD. Những thiết bị này, được thiết kế để sấy khô và khử mùi từ hai đến bốn đôi ủng bằng cách sử dụng quạt công suất cao và bộ hẹn giờ 3 giờ, có thể gây ra nguy cơ cháy do khả năng xảy ra ngắn mạch trong công tắc bật tắt nhiệt hoặc ozone. Số hiệu mẫu và tên thương hiệu có thể được tìm thấy trên nhãn nằm ở đáy của sản phẩm.",
+          "ConsumerContact": "Để được hỗ trợ, người tiêu dùng có thể liên hệ với OdorStop LLC qua số 800-414-2191, từ thứ Hai đến thứ Sáu, từ 9 giờ sáng đến 5 giờ chiều theo giờ ET, hoặc gửi email đến support@odorstop.com. Thông tin thêm có sẵn tại www.OdorStop.com/recall hoặc bằng cách truy cập trang web OdorStop và nhấp vào phần 'Recall'.",
+          "metaDescription": "OdorStop thu hồi Máy sấy và Khử mùi Giày do nguy cơ cháy. Cần hành động ngay lập tức để đảm bảo an toàn và sửa chữa miễn phí.",
+          "Products": [
+            {
+              "Name": "Máy sấy và Khử mùi Giày và Ủng OdorStop",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 13,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Máy sấy và Khử mùi Giày và Ủng OdorStop bị thu hồi, mẫu OSBSDD2 & OSBSDD"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Không có báo cáo"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Có sẵn trực tuyến tại Amazon.com, Odorstop.com, Lowes.com, Globalindustrial.com, và webrestaurantstore.com từ tháng 12 năm 2018 đến tháng 10 năm 2023, giá từ $100 đến $130."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "OdorStop LLC, tại Hamburg, New York"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Bán Tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Trung Quốc"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Nguy cơ cháy do khả năng xảy ra ngắn mạch trong công tắc nhiệt hoặc ozone"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Người tiêu dùng được khuyên nên ngừng sử dụng các sản phẩm bị thu hồi ngay lập tức và liên hệ với OdorStop để được sửa chữa miễn phí. Công ty sẽ lắp đặt một cầu chì mới và trả lại sản phẩm đã sửa chữa cho người tiêu dùng. Để đăng ký thu hồi và nhận nhãn trả hàng miễn phí, hãy truy cập https://OdorStop.com/recall."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Sửa chữa"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,795 @@
+{
+  "meta": {
+    "slug": "telephones-or-cell-phones-and-accessories",
+    "sourceCsvFile": "telephones-or-cell-phones-and-accessories_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:37.085Z",
+    "recallCount": 1,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "telephones-or-cell-phones-and-accessories.json",
+    "seoTranslatedAt": "2026-04-05T05:55:02.645Z",
+    "resumePartial": false,
+    "i18nSource": "generalRecallsTranslated",
+    "i18nSourceFile": "telephones-or-cell-phones-and-accessories.json",
+    "i18nUiLangs": [
+      "en",
+      "es",
+      "ar",
+      "zh",
+      "fr",
+      "de",
+      "ja",
+      "pt",
+      "hi",
+      "ru",
+      "vi"
+    ],
+    "i18nProgressByLang": {
+      "es": 1,
+      "ar": 1,
+      "zh": 1,
+      "fr": 1,
+      "de": 1,
+      "ja": 1,
+      "pt": 1,
+      "hi": 1,
+      "ru": 1,
+      "vi": 1
+    },
+    "i18nInProgress": false,
+    "i18nTranslatedAt": "2026-04-07T22:47:40.243Z",
+    "i18nOpenaiModel": "gpt-4o-mini"
+  },
+  "recalls": [
+    {
+      "RecallID": 10168,
+      "RecallNumber": "25142",
+      "RecallDate": "2025-02-20T00:00:00",
+      "Description": "The recall pertains to the Fjorden iPhone Camera Grip, designed to enhance photography by mimicking the feel of a traditional camera. These grips can pose a serious hazard due to a potential battery ingestion risk. If the grip is dropped, the battery compartment may detach, allowing access to the lithium coin battery, which can be dangerous for children. Ingesting these batteries can lead to severe injuries, including internal burns and even fatalities.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/Fjorden-iPhone-Camera-Grips-Recalled-Due-to-Battery-Ingestion-Hazard-Violation-of-Reeses-Law-Federal-Safety-Regulations-for-Consumer-Products-with-Coin-Batteries-Sold-Exclusively-on-shop-fjorden-co-by-Fjorden-Electra-AS",
+      "Title": "Fjorden iPhone Camera Grips Recalled for Battery Safety Risk Under Reese's Law",
+      "ConsumerContact": "For further information, consumers should reach out to Fjorden Electra AS via email at hello@fjorden.co, or visit shop.fjorden.co/us-recall or shop.fjorden.co/en-us and select the \"Recall\" link at the bottom of the page.",
+      "LastPublishDate": "2025-02-20T00:00:00",
+      "Products": [
+        {
+          "Name": "Fjorden iPhone Camera Grip",
+          "NumberOfUnits": "About 546"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/telephones-or-cell-phones-and-accessories/1-Fjorden-iPhone-Camera-Grip/f8bbd896e533a75fdd9da72b578dd602.webp",
+          "Caption": "Recalled Fjorden iPhone Camera Grip",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Fjorden-1.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/telephones-or-cell-phones-and-accessories/1-Fjorden-iPhone-Camera-Grip/c017eb1c67883e381382b4918f1ac804.webp",
+          "Caption": "Recalled Fjorden iPhone Camera Grip with Battery Tray",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Fjorden-2.jpg"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available exclusively online at shop.fjorden.co from March 2024 to May 2024 for approximately $122."
+        }
+      ],
+      "Distributors": [
+        {
+          "Name": "Fjorden Electra AS, of Norway"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Battery ingestion risk due to accessible lithium coin battery"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Free replacement of the battery tray and instructions upon request"
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Replace"
+        }
+      ],
+      "slug": "fjorden-iphone-camera-grips-recalled-for-battery-safety-risk-under-reese-s-law-recall",
+      "metaDescription": "Fjorden iPhone Camera Grips recalled due to battery ingestion risk. Contact for a free replacement and safety instructions.",
+      "languages": {
+        "en": {
+          "Title": "Fjorden iPhone Camera Grips Recalled for Battery Safety Risk Under Reese's Law",
+          "Description": "The recall pertains to the Fjorden iPhone Camera Grip, designed to enhance photography by mimicking the feel of a traditional camera. These grips can pose a serious hazard due to a potential battery ingestion risk. If the grip is dropped, the battery compartment may detach, allowing access to the lithium coin battery, which can be dangerous for children. Ingesting these batteries can lead to severe injuries, including internal burns and even fatalities.",
+          "ConsumerContact": "For further information, consumers should reach out to Fjorden Electra AS via email at hello@fjorden.co, or visit shop.fjorden.co/us-recall or shop.fjorden.co/en-us and select the \"Recall\" link at the bottom of the page.",
+          "metaDescription": "Fjorden iPhone Camera Grips recalled due to battery ingestion risk. Contact for a free replacement and safety instructions.",
+          "Products": [
+            {
+              "Name": "Fjorden iPhone Camera Grip",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 546"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled Fjorden iPhone Camera Grip"
+            },
+            {
+              "Caption": "Recalled Fjorden iPhone Camera Grip with Battery Tray"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "None reported"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Available exclusively online at shop.fjorden.co from March 2024 to May 2024 for approximately $122."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Fjorden Electra AS, of Norway"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Sold At",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Battery ingestion risk due to accessible lithium coin battery"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Free replacement of the battery tray and instructions upon request"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Replace"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "Fjorden iPhone Camera Grips retirados por riesgo de seguridad de la batería bajo la Ley de Reese",
+          "Description": "El retiro se refiere al Fjorden iPhone Camera Grip, diseñado para mejorar la fotografía imitando la sensación de una cámara tradicional. Estos grips pueden representar un grave peligro debido a un posible riesgo de ingestión de la batería. Si se deja caer el grip, el compartimento de la batería puede desprenderse, permitiendo el acceso a la batería de moneda de litio, lo que puede ser peligroso para los niños. Ingerir estas baterías puede llevar a lesiones graves, incluyendo quemaduras internas e incluso fatalidades.",
+          "ConsumerContact": "Para más información, los consumidores deben comunicarse con Fjorden Electra AS a través del correo electrónico hello@fjorden.co, o visitar shop.fjorden.co/us-recall o shop.fjorden.co/en-us y seleccionar el enlace \"Retiro\" en la parte inferior de la página.",
+          "metaDescription": "Fjorden iPhone Camera Grips retirados debido al riesgo de ingestión de la batería. Contactar para un reemplazo gratuito e instrucciones de seguridad.",
+          "Products": [
+            {
+              "Name": "Fjorden iPhone Camera Grip",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 546"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Fjorden iPhone Camera Grip retirado"
+            },
+            {
+              "Caption": "Fjorden iPhone Camera Grip retirado con bandeja de batería"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Ninguna reportada"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible exclusivamente en línea en shop.fjorden.co desde marzo de 2024 hasta mayo de 2024 por aproximadamente $122."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Fjorden Electra AS, de Noruega"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendido En",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Riesgo de ingestión de batería debido a la batería de moneda de litio accesible"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Reemplazo gratuito de la bandeja de batería e instrucciones a solicitud"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reemplazar"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "استدعاء مقابض كاميرا آيفون Fjorden بسبب خطر سلامة البطارية بموجب قانون ريس",
+          "Description": "يتعلق الاستدعاء بمقبض كاميرا آيفون Fjorden، المصمم لتعزيز التصوير من خلال تقليد شعور الكاميرا التقليدية. يمكن أن تشكل هذه المقابض خطرًا جديًا بسبب احتمال ابتلاع البطارية. إذا سقط المقبض، قد ينفصل حجرة البطارية، مما يسمح بالوصول إلى بطارية الليثيوم coin، والتي يمكن أن تكون خطيرة للأطفال. يمكن أن يؤدي ابتلاع هذه البطاريات إلى إصابات خطيرة، بما في ذلك حروق داخلية وحتى وفيات.",
+          "ConsumerContact": "للحصول على مزيد من المعلومات، يجب على المستهلكين التواصل مع Fjorden Electra AS عبر البريد الإلكتروني على hello@fjorden.co، أو زيارة shop.fjorden.co/us-recall أو shop.fjorden.co/en-us واختيار رابط \"الاستدعاء\" في أسفل الصفحة.",
+          "metaDescription": "استدعاء مقابض كاميرا آيفون Fjorden بسبب خطر ابتلاع البطارية. اتصل للحصول على استبدال مجاني وتعليمات السلامة.",
+          "Products": [
+            {
+              "Name": "مقبض كاميرا آيفون Fjorden",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 546"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "مقبض كاميرا آيفون Fjorden المستدعى"
+            },
+            {
+              "Caption": "مقبض كاميرا آيفون Fjorden المستدعى مع حجرة البطارية"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "لا توجد إصابات مُبلغ عنها"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "متاح حصريًا عبر الإنترنت على shop.fjorden.co من مارس 2024 إلى مايو 2024 بسعر تقريبي 122 دولار."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Fjorden Electra AS، من النرويج"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "تم البيع في",
+          "ManufacturerCountries": [
+            {
+              "Country": "الصين"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "خطر ابتلاع البطارية بسبب بطارية الليثيوم coin القابلة للوصول"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "استبدال مجاني لحجرة البطارية وتعليمات عند الطلب"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "استبدال"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "Fjorden iPhone相机握把因电池安全风险被召回",
+          "Description": "此次召回涉及Fjorden iPhone相机握把，旨在通过模拟传统相机的手感来增强摄影体验。这些握把可能由于潜在的电池误吞风险而构成严重危险。如果握把掉落，电池舱可能会脱落，导致锂币电池暴露，这对儿童来说是危险的。误吞这些电池可能导致严重伤害，包括内伤甚至死亡。",
+          "ConsumerContact": "如需更多信息，消费者应通过电子邮件联系Fjorden Electra AS，邮箱为hello@fjorden.co，或访问shop.fjorden.co/us-recall或shop.fjorden.co/en-us，并在页面底部选择“召回”链接。",
+          "metaDescription": "因电池误吞风险而召回Fjorden iPhone相机握把。联系以获取免费更换和安全说明。",
+          "Products": [
+            {
+              "Name": "Fjorden iPhone相机握把",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约546个"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "被召回的Fjorden iPhone相机握把"
+            },
+            {
+              "Caption": "带电池托的被召回Fjorden iPhone相机握把"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "无报告"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "仅在shop.fjorden.co上在线销售，销售时间为2024年3月至2024年5月，价格约为122美元。"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "挪威Fjorden Electra AS"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "销售地点",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "因可接触的锂币电池而导致的电池误吞风险"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "应要求免费更换电池托和说明"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "更换"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "Poignées de caméra iPhone Fjorden rappelées pour risque de sécurité de la batterie selon la loi de Reese",
+          "Description": "Le rappel concerne la poignée de caméra iPhone Fjorden, conçue pour améliorer la photographie en imitant la sensation d'un appareil photo traditionnel. Ces poignées peuvent poser un risque sérieux en raison d'un potentiel risque d'ingestion de batterie. Si la poignée est tombée, le compartiment de la batterie peut se détacher, permettant l'accès à la batterie bouton au lithium, ce qui peut être dangereux pour les enfants. L'ingestion de ces batteries peut entraîner des blessures graves, y compris des brûlures internes et même des décès.",
+          "ConsumerContact": "Pour plus d'informations, les consommateurs doivent contacter Fjorden Electra AS par email à hello@fjorden.co, ou visiter shop.fjorden.co/us-recall ou shop.fjorden.co/en-us et sélectionner le lien \"Rappel\" en bas de la page.",
+          "metaDescription": "Poignées de caméra iPhone Fjorden rappelées en raison du risque d'ingestion de batterie. Contactez pour un remplacement gratuit et des instructions de sécurité.",
+          "Products": [
+            {
+              "Name": "Poignée de caméra iPhone Fjorden",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 546"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Poignée de caméra iPhone Fjorden rappelée"
+            },
+            {
+              "Caption": "Poignée de caméra iPhone Fjorden rappelée avec le plateau de batterie"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Aucune rapportée"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible exclusivement en ligne sur shop.fjorden.co de mars 2024 à mai 2024 pour environ 122 $."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Fjorden Electra AS, de Norvège"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendu À",
+          "ManufacturerCountries": [
+            {
+              "Country": "Chine"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risque d'ingestion de batterie en raison de la batterie bouton au lithium accessible"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Remplacement gratuit du plateau de batterie et instructions sur demande"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Remplacer"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "Fjorden iPhone Kamera-Griffe wegen Batterie-Sicherheitsrisiko unter Reese's Gesetz zurückgerufen",
+          "Description": "Der Rückruf betrifft den Fjorden iPhone Kamera-Griff, der entwickelt wurde, um die Fotografie zu verbessern, indem er das Gefühl einer traditionellen Kamera nachahmt. Diese Griffe können eine ernsthafte Gefahr darstellen, da ein potenzielles Risiko der Batterieaufnahme besteht. Wenn der Griff fallen gelassen wird, kann sich das Batteriefach lösen, wodurch der Zugang zur Lithium-Knopfzelle ermöglicht wird, was für Kinder gefährlich sein kann. Das Verschlucken dieser Batterien kann zu schweren Verletzungen führen, einschließlich innerer Verbrennungen und sogar Todesfällen.",
+          "ConsumerContact": "Für weitere Informationen sollten sich die Verbraucher an Fjorden Electra AS per E-Mail unter hello@fjorden.co wenden oder die Websites shop.fjorden.co/us-recall oder shop.fjorden.co/en-us besuchen und den Link \"Rückruf\" am Ende der Seite auswählen.",
+          "metaDescription": "Fjorden iPhone Kamera-Griffe wegen Risiko der Batterieaufnahme zurückgerufen. Kontaktieren Sie uns für einen kostenlosen Ersatz und Sicherheitsanweisungen.",
+          "Products": [
+            {
+              "Name": "Fjorden iPhone Kamera-Griff",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 546"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Zurückgerufener Fjorden iPhone Kamera-Griff"
+            },
+            {
+              "Caption": "Zurückgerufener Fjorden iPhone Kamera-Griff mit Batteriefach"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Keine gemeldet"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Exklusiv online erhältlich unter shop.fjorden.co von März 2024 bis Mai 2024 für etwa 122 $."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Fjorden Electra AS, Norwegen"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Verkauft bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risiko der Batterieaufnahme aufgrund zugänglicher Lithium-Knopfzelle"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Kostenloser Ersatz des Batteriefachs und Anweisungen auf Anfrage"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Ersatz"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "Fjorden iPhoneカメラグリップがバッテリー安全リスクのためリコールされました（リース法の下）",
+          "Description": "このリコールは、従来のカメラの感触を模倣することで写真撮影を向上させるために設計されたFjorden iPhoneカメラグリップに関するものです。これらのグリップは、バッテリーの誤飲リスクがあるため、深刻な危険を引き起こす可能性があります。グリップが落下すると、バッテリーコンパートメントが外れ、リチウムコインバッテリーにアクセスできるようになり、子供にとって危険です。これらのバッテリーを誤飲すると、内部やけどや死亡を含む深刻な怪我を引き起こす可能性があります。",
+          "ConsumerContact": "詳細情報については、消費者はFjorden Electra ASにメール（hello@fjorden.co）で連絡するか、shop.fjorden.co/us-recallまたはshop.fjorden.co/en-usを訪れて、ページの下部にある「リコール」リンクを選択してください。",
+          "metaDescription": "バッテリー誤飲リスクのためにリコールされたFjorden iPhoneカメラグリップ。無料の交換と安全指示についての連絡先。",
+          "Products": [
+            {
+              "Name": "Fjorden iPhoneカメラグリップ",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約546"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコールされたFjorden iPhoneカメラグリップ"
+            },
+            {
+              "Caption": "バッテリートレイ付きのリコールされたFjorden iPhoneカメラグリップ"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "報告された怪我なし"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "2024年3月から2024年5月まで、約$122でshop.fjorden.coでのみ販売されます。"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "ノルウェーのFjorden Electra AS"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "販売場所",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "アクセス可能なリチウムコインバッテリーによるバッテリー誤飲リスク"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "要求に応じてバッテリートレイの無料交換と指示"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "交換"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "Garras de Câmera para iPhone Fjorden Recalladas por Risco de Segurança da Bateria Sob a Lei de Reese",
+          "Description": "O recall diz respeito à Garra de Câmera para iPhone Fjorden, projetada para melhorar a fotografia imitando a sensação de uma câmera tradicional. Essas garras podem representar um sério risco devido a um potencial risco de ingestão de bateria. Se a garra for derrubada, o compartimento da bateria pode se soltar, permitindo o acesso à bateria de moeda de lítio, o que pode ser perigoso para crianças. A ingestão dessas baterias pode levar a ferimentos graves, incluindo queimaduras internas e até fatalidades.",
+          "ConsumerContact": "Para mais informações, os consumidores devem entrar em contato com a Fjorden Electra AS pelo e-mail hello@fjorden.co, ou visitar shop.fjorden.co/us-recall ou shop.fjorden.co/en-us e selecionar o link \"Recall\" na parte inferior da página.",
+          "metaDescription": "Garras de Câmera para iPhone Fjorden recalladas devido ao risco de ingestão de bateria. Contate para uma substituição gratuita e instruções de segurança.",
+          "Products": [
+            {
+              "Name": "Garra de Câmera para iPhone Fjorden",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 546"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Garra de Câmera para iPhone Fjorden Recallada"
+            },
+            {
+              "Caption": "Garra de Câmera para iPhone Fjorden Recallada com Bandeja de Bateria"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Nenhum relatado"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponível exclusivamente online em shop.fjorden.co de março de 2024 a maio de 2024 por aproximadamente $122."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Fjorden Electra AS, da Noruega"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendido Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risco de ingestão de bateria devido à bateria de moeda de lítio acessível"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Substituição gratuita da bandeja de bateria e instruções mediante solicitação"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Substituir"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "Fjorden iPhone कैमरा ग्रिप्स बैटरी सुरक्षा जोखिम के लिए रीसे के कानून के तहत वापस बुलाए गए",
+          "Description": "यह वापस बुलाना Fjorden iPhone कैमरा ग्रिप से संबंधित है, जिसे पारंपरिक कैमरे की भावना की नकल करके फोटोग्राफी को बढ़ाने के लिए डिज़ाइन किया गया है। ये ग्रिप्स संभावित बैटरी निगलने के जोखिम के कारण गंभीर खतरा पैदा कर सकते हैं। यदि ग्रिप गिरती है, तो बैटरी कम्पार्टमेंट अलग हो सकता है, जिससे लिथियम सिक्का बैटरी तक पहुंच हो सकती है, जो बच्चों के लिए खतरनाक हो सकती है। इन बैटरियों का निगलना गंभीर चोटों का कारण बन सकता है, जिसमें आंतरिक जलन और यहां तक कि मृत्यु भी शामिल है।",
+          "ConsumerContact": "अधिक जानकारी के लिए, उपभोक्ताओं को Fjorden Electra AS से hello@fjorden.co पर ईमेल के माध्यम से संपर्क करना चाहिए, या shop.fjorden.co/us-recall या shop.fjorden.co/en-us पर जाएं और पृष्ठ के नीचे \"Recall\" लिंक का चयन करें।",
+          "metaDescription": "बैटरी निगलने के जोखिम के कारण Fjorden iPhone कैमरा ग्रिप्स वापस बुलाए गए। मुफ्त प्रतिस्थापन और सुरक्षा निर्देशों के लिए संपर्क करें।",
+          "Products": [
+            {
+              "Name": "Fjorden iPhone कैमरा ग्रिप",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 546"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "वापस बुलाया गया Fjorden iPhone कैमरा ग्रिप"
+            },
+            {
+              "Caption": "बैटरी ट्रे के साथ वापस बुलाया गया Fjorden iPhone कैमरा ग्रिप"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "कोई रिपोर्ट नहीं"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "मार्च 2024 से मई 2024 तक लगभग $122 में shop.fjorden.co पर विशेष रूप से ऑनलाइन उपलब्ध।"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Fjorden Electra AS, नॉर्वे"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "चीन"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "सुलभ लिथियम सिक्का बैटरी के कारण बैटरी निगलने का जोखिम"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "अनुरोध पर बैटरी ट्रे का मुफ्त प्रतिस्थापन और निर्देश"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "बदलें"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "Камеры для iPhone Fjorden отозваны из-за риска безопасности батареи в соответствии с Законом Риза",
+          "Description": "Отзыв касается камеры для iPhone Fjorden, предназначенной для улучшения фотографии, имитируя ощущения от традиционной камеры. Эти камеры могут представлять серьезную опасность из-за потенциального риска проглатывания батареи. Если камера упадет, отсек для батареи может отсоединиться, что позволит получить доступ к литиевой монетной батарее, что может быть опасно для детей. Проглатывание этих батарей может привести к серьезным травмам, включая внутренние ожоги и даже летальный исход.",
+          "ConsumerContact": "Для получения дополнительной информации потребители могут обратиться в Fjorden Electra AS по электронной почте hello@fjorden.co или посетить shop.fjorden.co/us-recall или shop.fjorden.co/en-us и выбрать ссылку \"Отзыв\" внизу страницы.",
+          "metaDescription": "Камеры для iPhone Fjorden отозваны из-за риска проглатывания батареи. Свяжитесь для бесплатной замены и инструкций по безопасности.",
+          "Products": [
+            {
+              "Name": "Камера для iPhone Fjorden",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 546"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванная камера для iPhone Fjorden"
+            },
+            {
+              "Caption": "Отозванная камера для iPhone Fjorden с отсеком для батареи"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Не сообщалось"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Доступно исключительно онлайн на shop.fjorden.co с марта 2024 года по май 2024 года примерно за 122 доллара."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Fjorden Electra AS, Норвегия"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Продается в",
+          "ManufacturerCountries": [
+            {
+              "Country": "Китай"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Риск проглатывания батареи из-за доступной литиевой монетной батареи"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Бесплатная замена отсека для батареи и инструкции по запросу"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Заменить"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "Grip Camera iPhone Fjorden bị thu hồi do nguy cơ an toàn pin theo Luật Reese",
+          "Description": "Lệnh thu hồi liên quan đến Grip Camera iPhone Fjorden, được thiết kế để nâng cao khả năng chụp ảnh bằng cách mô phỏng cảm giác của một chiếc máy ảnh truyền thống. Những grip này có thể gây ra nguy hiểm nghiêm trọng do nguy cơ nuốt phải pin. Nếu grip bị rơi, ngăn chứa pin có thể bị tách ra, cho phép tiếp cận với pin lithium hình đồng xu, điều này có thể nguy hiểm cho trẻ em. Việc nuốt phải những viên pin này có thể dẫn đến chấn thương nghiêm trọng, bao gồm bỏng nội tạng và thậm chí tử vong.",
+          "ConsumerContact": "Để biết thêm thông tin, người tiêu dùng nên liên hệ với Fjorden Electra AS qua email tại hello@fjorden.co, hoặc truy cập shop.fjorden.co/us-recall hoặc shop.fjorden.co/en-us và chọn liên kết \"Recall\" ở cuối trang.",
+          "metaDescription": "Grip Camera iPhone Fjorden bị thu hồi do nguy cơ nuốt phải pin. Liên hệ để nhận thay thế miễn phí và hướng dẫn an toàn.",
+          "Products": [
+            {
+              "Name": "Grip Camera iPhone Fjorden",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 546"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Grip Camera iPhone Fjorden bị thu hồi"
+            },
+            {
+              "Caption": "Grip Camera iPhone Fjorden bị thu hồi với khay pin"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Không có báo cáo"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Chỉ có sẵn trực tuyến tại shop.fjorden.co từ tháng 3 năm 2024 đến tháng 5 năm 2024 với giá khoảng 122 đô la."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Fjorden Electra AS, của Na Uy"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Bán Tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Trung Quốc"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Nguy cơ nuốt phải pin do pin lithium hình đồng xu có thể tiếp cận"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Thay thế miễn phí khay pin và hướng dẫn theo yêu cầu"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Thay thế"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    }
+  ]
+}

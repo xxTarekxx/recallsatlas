@@ -1,0 +1,2420 @@
+{
+  "meta": {
+    "slug": "other-drugs-or-medications",
+    "sourceCsvFile": "other-drugs-or-medications_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:37.015Z",
+    "recallCount": 3,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "other-drugs-or-medications.json",
+    "seoTranslatedAt": "2026-04-05T02:00:22.726Z",
+    "resumePartial": false,
+    "i18nSource": "generalRecallsTranslated",
+    "i18nSourceFile": "other-drugs-or-medications.json",
+    "i18nUiLangs": [
+      "en",
+      "es",
+      "ar",
+      "zh",
+      "fr",
+      "de",
+      "ja",
+      "pt",
+      "hi",
+      "ru",
+      "vi"
+    ],
+    "i18nProgressByLang": {
+      "es": 3,
+      "ar": 3,
+      "zh": 3,
+      "fr": 3,
+      "de": 3,
+      "ja": 3,
+      "pt": 3,
+      "hi": 3,
+      "ru": 3,
+      "vi": 3
+    },
+    "i18nInProgress": false,
+    "i18nTranslatedAt": "2026-04-07T15:56:32.974Z",
+    "i18nOpenaiModel": "gpt-4o-mini"
+  },
+  "recalls": [
+    {
+      "RecallID": 10413,
+      "RecallNumber": "25477",
+      "RecallDate": "2025-09-25T00:00:00",
+      "Description": "Mad Rabbit is recalling its \"RELIEVE\" numbing cream, which is packaged in a short, wide-mouthed white container. The front label features the product name in large black letters along with the company's logo and additional details in smaller text. This product poses a serious risk to young children due to its non-compliance with child-resistant packaging standards, as mandated by the Poison Prevention Packaging Act. If ingested, the lidocaine in the cream can lead to severe injury or even death.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/Mad-Rabbit-Recalls-RELIEVE-Lidocaine-Numbing-Cream-Due-to-Risk-of-Serious-Injury-or-Death-from-Poisoning-to-Young-Children-Violates-Mandatory-Standard-for-Child-Resistant-Packaging",
+      "Title": "Mad Rabbit Recalls \"RELIEVE\" Lidocaine Numbing Cream Due to Poisoning Risk for Young Children",
+      "ConsumerContact": "For further information, consumers can reach out to Mad Rabbit via email at product@madrabbit.com or visit their website at https://www.madrabbit.com/pages/product-recalls. They can also access the contact page at https://www.madrabbit.com/pages/contact-us and select \"Product Recall\".",
+      "LastPublishDate": "2025-09-25T00:00:00",
+      "Products": [
+        {
+          "Name": "RELIEVE Numbing Cream",
+          "NumberOfUnits": "About 28,000"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/other-drugs-or-medications/1-RELIEVE-Numbing-Cream/fbabc004369247c04ace22c196652295.webp",
+          "Caption": "Recalled RELIEVE Numbing Cream – Outer Packaging",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/relieve-1.png"
+        },
+        {
+          "URL": "/images/generalRecalls/other-drugs-or-medications/1-RELIEVE-Numbing-Cream/2003d4acce31bc49b6bcf3d4be3d0c5a.webp",
+          "Caption": "Recalled RELIEVE Numbing Cream",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/relieve-2.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available at trade shows, tattoo shops, and online at MadRabbit.com from October 2024 through August 2025 for approximately $26."
+        }
+      ],
+      "Distributors": [
+        {
+          "Name": "Mad Rabbit Inc., of Los Angeles, California"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "United States"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of serious injury or death from poisoning due to non-child-resistant packaging"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Secure the product out of children's reach and request a free child-resistant lid from Mad Rabbit"
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ],
+      "slug": "mad-rabbit-recalls-relieve-lidocaine-numbing-cream-due-to-poisoning-risk-for-young-children-recall",
+      "metaDescription": "Mad Rabbit recalls \"RELIEVE\" numbing cream due to poisoning risks for children. Learn how to secure your product safely.",
+      "languages": {
+        "en": {
+          "Title": "Mad Rabbit Recalls \"RELIEVE\" Lidocaine Numbing Cream Due to Poisoning Risk for Young Children",
+          "Description": "Mad Rabbit is recalling its \"RELIEVE\" numbing cream, which is packaged in a short, wide-mouthed white container. The front label features the product name in large black letters along with the company's logo and additional details in smaller text. This product poses a serious risk to young children due to its non-compliance with child-resistant packaging standards, as mandated by the Poison Prevention Packaging Act. If ingested, the lidocaine in the cream can lead to severe injury or even death.",
+          "ConsumerContact": "For further information, consumers can reach out to Mad Rabbit via email at product@madrabbit.com or visit their website at https://www.madrabbit.com/pages/product-recalls. They can also access the contact page at https://www.madrabbit.com/pages/contact-us and select \"Product Recall\".",
+          "metaDescription": "Mad Rabbit recalls \"RELIEVE\" numbing cream due to poisoning risks for children. Learn how to secure your product safely.",
+          "Products": [
+            {
+              "Name": "RELIEVE Numbing Cream",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 28,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled RELIEVE Numbing Cream – Outer Packaging"
+            },
+            {
+              "Caption": "Recalled RELIEVE Numbing Cream"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "None reported"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Available at trade shows, tattoo shops, and online at MadRabbit.com from October 2024 through August 2025 for approximately $26."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Mad Rabbit Inc., of Los Angeles, California"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Sold At",
+          "ManufacturerCountries": [
+            {
+              "Country": "United States"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risk of serious injury or death from poisoning due to non-child-resistant packaging"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Secure the product out of children's reach and request a free child-resistant lid from Mad Rabbit"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Repair"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "Mad Rabbit Retira la Crema Anestésica \"RELIEVE\" con Lidocaína Debido al Riesgo de Intoxicación para Niños Pequeños",
+          "Description": "Mad Rabbit está retirando su crema anestésica \"RELIEVE\", que se presenta en un envase blanco de boca ancha y corta. La etiqueta frontal presenta el nombre del producto en letras negras grandes junto con el logotipo de la empresa y detalles adicionales en texto más pequeño. Este producto representa un grave riesgo para los niños pequeños debido a su incumplimiento con los estándares de envasado a prueba de niños, como lo exige la Ley de Prevención de Intoxicaciones. Si se ingiere, la lidocaína en la crema puede provocar lesiones graves o incluso la muerte.",
+          "ConsumerContact": "Para más información, los consumidores pueden comunicarse con Mad Rabbit por correo electrónico a product@madrabbit.com o visitar su sitio web en https://www.madrabbit.com/pages/product-recalls. También pueden acceder a la página de contacto en https://www.madrabbit.com/pages/contact-us y seleccionar \"Retiro de Producto\".",
+          "metaDescription": "Mad Rabbit retira la crema anestésica \"RELIEVE\" debido a riesgos de intoxicación para los niños. Aprenda cómo asegurar su producto de manera segura.",
+          "Products": [
+            {
+              "Name": "Crema Anestésica RELIEVE",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 28,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Crema Anestésica RELIEVE Retirada – Envase Externo"
+            },
+            {
+              "Caption": "Crema Anestésica RELIEVE Retirada"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Ninguna reportada"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible en ferias comerciales, estudios de tatuajes y en línea en MadRabbit.com desde octubre de 2024 hasta agosto de 2025 por aproximadamente $26."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Mad Rabbit Inc., de Los Ángeles, California"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendido En",
+          "ManufacturerCountries": [
+            {
+              "Country": "Estados Unidos"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Riesgo de lesiones graves o muerte por intoxicación debido a envase no a prueba de niños"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Asegure el producto fuera del alcance de los niños y solicite una tapa a prueba de niños gratuita de Mad Rabbit"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparar"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "شركة ماد رابيت تستدعي كريم التخدير \"RELIEVE\" بسبب خطر التسمم للأطفال الصغار",
+          "Description": "تقوم شركة ماد رابيت باستدعاء كريم التخدير \"RELIEVE\"، الذي يأتي في عبوة بيضاء قصيرة وعريضة الفم. تحتوي الملصق الأمامي على اسم المنتج بحروف سوداء كبيرة بالإضافة إلى شعار الشركة وتفاصيل إضافية بنص أصغر. يشكل هذا المنتج خطرًا جديًا على الأطفال الصغار بسبب عدم امتثاله لمعايير التعبئة المقاومة للأطفال، كما هو مطلوب بموجب قانون منع التسمم. إذا تم ابتلاعه، يمكن أن يؤدي الليدوكائين في الكريم إلى إصابة خطيرة أو حتى الوفاة.",
+          "ConsumerContact": "لمزيد من المعلومات، يمكن للمستهلكين التواصل مع ماد رابيت عبر البريد الإلكتروني على product@madrabbit.com أو زيارة موقعهم الإلكتروني على https://www.madrabbit.com/pages/product-recalls. يمكنهم أيضًا الوصول إلى صفحة الاتصال على https://www.madrabbit.com/pages/contact-us واختيار \"استدعاء المنتج\".",
+          "metaDescription": "شركة ماد رابيت تستدعي كريم التخدير \"RELIEVE\" بسبب مخاطر التسمم للأطفال. تعلم كيفية تأمين منتجك بأمان.",
+          "Products": [
+            {
+              "Name": "كريم التخدير RELIEVE",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 28,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "كريم التخدير RELIEVE المستدعى – العبوة الخارجية"
+            },
+            {
+              "Caption": "كريم التخدير RELIEVE المستدعى"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "لا توجد إصابات مسجلة"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "متوفر في المعارض التجارية، ومحلات الوشم، وعبر الإنترنت على MadRabbit.com من أكتوبر 2024 حتى أغسطس 2025 بسعر تقريبي يبلغ 26 دولارًا."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "شركة ماد رابيت، من لوس أنجلوس، كاليفورنيا"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "تم البيع في",
+          "ManufacturerCountries": [
+            {
+              "Country": "الولايات المتحدة"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "خطر الإصابة الخطيرة أو الوفاة بسبب التسمم نتيجة التعبئة غير المقاومة للأطفال"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "تأمين المنتج بعيدًا عن متناول الأطفال وطلب غطاء مقاوم للأطفال مجانًا من ماد رابيت"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "إصلاح"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "Mad Rabbit召回\"RELIEVE\"利多卡因麻醉膏因对幼儿的中毒风险",
+          "Description": "Mad Rabbit正在召回其\"RELIEVE\"麻醉膏，该产品包装在一个短而宽口的白色容器中。前面的标签上以大黑字显示产品名称，并附有公司的标志和其他小字细节。由于不符合《中毒预防包装法》规定的儿童安全包装标准，该产品对幼儿构成严重风险。如果被摄入，膏中的利多卡因可能导致严重伤害甚至死亡。",
+          "ConsumerContact": "如需更多信息，消费者可以通过电子邮件联系Mad Rabbit，邮箱为product@madrabbit.com，或访问他们的网站https://www.madrabbit.com/pages/product-recalls。他们还可以访问联系页面https://www.madrabbit.com/pages/contact-us并选择\"产品召回\"。",
+          "metaDescription": "Mad Rabbit因儿童中毒风险召回\"RELIEVE\"麻醉膏。了解如何安全地保护您的产品。",
+          "Products": [
+            {
+              "Name": "RELIEVE麻醉膏",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约28,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "召回的RELIEVE麻醉膏 – 外包装"
+            },
+            {
+              "Caption": "召回的RELIEVE麻醉膏"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "无报告伤害"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "在贸易展、纹身店和MadRabbit.com网站上可购买，时间为2024年10月至2025年8月，价格约为26美元。"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Mad Rabbit Inc.，位于加利福尼亚州洛杉矶"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "销售地点",
+          "ManufacturerCountries": [
+            {
+              "Country": "美国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "由于非儿童安全包装而导致的严重伤害或死亡风险"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "将产品放在儿童无法触及的地方，并向Mad Rabbit请求免费的儿童安全盖"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "修理"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "Mad Rabbit rappelle la crème anesthésiante \"RELIEVE\" à la lidocaïne en raison du risque d'empoisonnement pour les jeunes enfants",
+          "Description": "Mad Rabbit rappelle sa crème anesthésiante \"RELIEVE\", qui est conditionnée dans un récipient blanc large et court. L'étiquette avant présente le nom du produit en grandes lettres noires ainsi que le logo de l'entreprise et des détails supplémentaires en texte plus petit. Ce produit présente un risque sérieux pour les jeunes enfants en raison de sa non-conformité aux normes d'emballage résistant aux enfants, comme l'exige la loi sur la prévention des empoisonnements. En cas d'ingestion, la lidocaïne contenue dans la crème peut entraîner des blessures graves, voire la mort.",
+          "ConsumerContact": "Pour plus d'informations, les consommateurs peuvent contacter Mad Rabbit par e-mail à product@madrabbit.com ou visiter leur site web à https://www.madrabbit.com/pages/product-recalls. Ils peuvent également accéder à la page de contact à https://www.madrabbit.com/pages/contact-us et sélectionner \"Rappel de produit\".",
+          "metaDescription": "Mad Rabbit rappelle la crème anesthésiante \"RELIEVE\" en raison des risques d'empoisonnement pour les enfants. Apprenez à sécuriser votre produit en toute sécurité.",
+          "Products": [
+            {
+              "Name": "Crème anesthésiante RELIEVE",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 28 000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Crème anesthésiante RELIEVE rappelée – Emballage extérieur"
+            },
+            {
+              "Caption": "Crème anesthésiante RELIEVE rappelée"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Aucune signalée"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible lors de salons professionnels, dans des salons de tatouage et en ligne sur MadRabbit.com d'octobre 2024 à août 2025 pour environ 26 $."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Mad Rabbit Inc., de Los Angeles, Californie"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendu à",
+          "ManufacturerCountries": [
+            {
+              "Country": "États-Unis"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risque de blessures graves ou de décès par empoisonnement en raison d'un emballage non résistant aux enfants"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Sécurisez le produit hors de portée des enfants et demandez un couvercle résistant aux enfants gratuit à Mad Rabbit"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Réparation"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "Mad Rabbit ruft \"RELIEVE\" Lidocain-Betäubungscreme aufgrund von Vergiftungsrisiken für kleine Kinder zurück",
+          "Description": "Mad Rabbit ruft seine \"RELIEVE\" Betäubungscreme zurück, die in einem kurzen, breiten weißen Behälter verpackt ist. Das vordere Etikett zeigt den Produktnamen in großen schwarzen Buchstaben zusammen mit dem Logo des Unternehmens und zusätzlichen Details in kleinerer Schrift. Dieses Produkt stellt ein ernsthaftes Risiko für kleine Kinder dar, da es nicht den Anforderungen an kindersichere Verpackungen entspricht, wie sie im Gesetz über die Verhütung von Vergiftungen vorgeschrieben sind. Bei Einnahme kann das Lidocain in der Creme zu schweren Verletzungen oder sogar zum Tod führen.",
+          "ConsumerContact": "Für weitere Informationen können Verbraucher Mad Rabbit per E-Mail unter product@madrabbit.com kontaktieren oder die Website unter https://www.madrabbit.com/pages/product-recalls besuchen. Sie können auch die Kontaktseite unter https://www.madrabbit.com/pages/contact-us aufrufen und \"Produkt Rückruf\" auswählen.",
+          "metaDescription": "Mad Rabbit ruft die \"RELIEVE\" Betäubungscreme aufgrund von Vergiftungsrisiken für Kinder zurück. Erfahren Sie, wie Sie Ihr Produkt sicher sichern können.",
+          "Products": [
+            {
+              "Name": "RELIEVE Betäubungscreme",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 28.000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Zurückgerufene RELIEVE Betäubungscreme – Außenverpackung"
+            },
+            {
+              "Caption": "Zurückgerufene RELIEVE Betäubungscreme"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Keine gemeldet"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Erhältlich auf Messen, in Tattoo-Studios und online unter MadRabbit.com von Oktober 2024 bis August 2025 für etwa 26 $."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Mad Rabbit Inc., aus Los Angeles, Kalifornien"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Verkauft bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "Vereinigte Staaten"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risiko schwerer Verletzungen oder Tod durch Vergiftung aufgrund nicht kindersicherer Verpackung"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Sichern Sie das Produkt außerhalb der Reichweite von Kindern und fordern Sie einen kostenlosen kindersicheren Deckel von Mad Rabbit an"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparatur"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "Mad Rabbitが「RELIEVE」リドカイン麻酔クリームを幼児の中毒リスクのためにリコール",
+          "Description": "Mad Rabbitは、短く広口の白い容器にパッケージされた「RELIEVE」麻酔クリームをリコールしています。前面のラベルには、製品名が大きな黒い文字で表示されており、会社のロゴや追加の詳細が小さな文字で記載されています。この製品は、毒物防止包装法により義務付けられた子供用耐性包装基準に準拠していないため、幼児にとって深刻なリスクをもたらします。摂取された場合、クリームに含まれるリドカインは重傷や死亡を引き起こす可能性があります。",
+          "ConsumerContact": "詳細情報については、消費者はproduct@madrabbit.comまでメールでMad Rabbitに連絡するか、https://www.madrabbit.com/pages/product-recallsのウェブサイトを訪問できます。また、https://www.madrabbit.com/pages/contact-usの連絡ページにアクセスし、「製品リコール」を選択することもできます。",
+          "metaDescription": "Mad Rabbitが子供の中毒リスクのために「RELIEVE」麻酔クリームをリコール。製品を安全に確保する方法を学びましょう。",
+          "Products": [
+            {
+              "Name": "RELIEVE麻酔クリーム",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約28,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコールされたRELIEVE麻酔クリーム – 外装"
+            },
+            {
+              "Caption": "リコールされたRELIEVE麻酔クリーム"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "報告された怪我はなし"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "2024年10月から2025年8月まで、約$26でトレードショー、タトゥーショップ、オンラインのMadRabbit.comで購入可能。"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "カリフォルニア州ロサンゼルスのMad Rabbit Inc."
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "販売場所",
+          "ManufacturerCountries": [
+            {
+              "Country": "アメリカ合衆国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "子供用耐性包装でないための中毒による重傷または死亡のリスク"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "製品を子供の手の届かない場所に保管し、Mad Rabbitから無料の子供用耐性キャップを要求する"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "修理"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "Mad Rabbit Recalls \"RELIEVE\" Creme Anestésica com Lidocaína Devido ao Risco de Intoxicação para Crianças Pequenas",
+          "Description": "Mad Rabbit está recallando sua creme anestésica \"RELIEVE\", que está embalado em um recipiente branco curto e de boca larga. O rótulo frontal apresenta o nome do produto em letras grandes e pretas, juntamente com o logotipo da empresa e detalhes adicionais em texto menor. Este produto representa um sério risco para crianças pequenas devido à sua não conformidade com os padrões de embalagem à prova de crianças, conforme exigido pela Lei de Prevenção de Intoxicações. Se ingerido, a lidocaína no creme pode levar a ferimentos graves ou até mesmo à morte.",
+          "ConsumerContact": "Para mais informações, os consumidores podem entrar em contato com a Mad Rabbit por e-mail em product@madrabbit.com ou visitar seu site em https://www.madrabbit.com/pages/product-recalls. Eles também podem acessar a página de contato em https://www.madrabbit.com/pages/contact-us e selecionar \"Recall de Produto\".",
+          "metaDescription": "Mad Rabbit recalla creme anestésico \"RELIEVE\" devido a riscos de intoxicação para crianças. Aprenda como garantir seu produto de forma segura.",
+          "Products": [
+            {
+              "Name": "Creme Anestésico RELIEVE",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 28.000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Creme Anestésico RELIEVE Recallado – Embalagem Externa"
+            },
+            {
+              "Caption": "Creme Anestésico RELIEVE Recallado"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Nenhum relatado"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponível em feiras comerciais, estúdios de tatuagem e online em MadRabbit.com de outubro de 2024 até agosto de 2025 por aproximadamente R$ 26."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Mad Rabbit Inc., de Los Angeles, Califórnia"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendido Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "Estados Unidos"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risco de ferimentos graves ou morte por intoxicação devido à embalagem não à prova de crianças"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Mantenha o produto fora do alcance das crianças e solicite uma tampa à prova de crianças gratuita da Mad Rabbit"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparo"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "मैड रैबिट ने \"RELIEVE\" लिडोकेन नंबिंग क्रीम को छोटे बच्चों के लिए विषाक्तता के जोखिम के कारण वापस बुलाया",
+          "Description": "मैड रैबिट अपनी \"RELIEVE\" नंबिंग क्रीम को वापस बुला रहा है, जो एक छोटे, चौड़े मुँह वाले सफेद कंटेनर में पैक की गई है। सामने के लेबल पर उत्पाद का नाम बड़े काले अक्षरों में कंपनी के लोगो और छोटे पाठ में अतिरिक्त विवरण के साथ प्रदर्शित है। यह उत्पाद छोटे बच्चों के लिए गंभीर जोखिम पैदा करता है क्योंकि यह विषाक्तता रोकने वाले पैकेजिंग अधिनियम द्वारा निर्धारित बाल-प्रतिरोधी पैकेजिंग मानकों का पालन नहीं करता है। यदि निगला जाए, तो क्रीम में लिडोकेन गंभीर चोट या यहां तक कि मृत्यु का कारण बन सकता है।",
+          "ConsumerContact": "अधिक जानकारी के लिए, उपभोक्ता मैड रैबिट से ईमेल के माध्यम से product@madrabbit.com पर संपर्क कर सकते हैं या उनकी वेबसाइट पर जा सकते हैं https://www.madrabbit.com/pages/product-recalls। वे संपर्क पृष्ठ पर भी जा सकते हैं https://www.madrabbit.com/pages/contact-us और \"उत्पाद वापस बुलाना\" चुन सकते हैं।",
+          "metaDescription": "मैड रैबिट छोटे बच्चों के लिए विषाक्तता के जोखिम के कारण \"RELIEVE\" नंबिंग क्रीम को वापस बुलाता है। जानें कि अपने उत्पाद को सुरक्षित रूप से कैसे सुरक्षित करें।",
+          "Products": [
+            {
+              "Name": "RELIEVE नंबिंग क्रीम",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 28,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "वापस बुलाया गया RELIEVE नंबिंग क्रीम – बाहरी पैकेजिंग"
+            },
+            {
+              "Caption": "वापस बुलाया गया RELIEVE नंबिंग क्रीम"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "कोई रिपोर्ट नहीं"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "व्यापार शो, टैटू की दुकानों और ऑनलाइन MadRabbit.com पर अक्टूबर 2024 से अगस्त 2025 तक लगभग $26 में उपलब्ध।"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "मैड रैबिट इंक, लॉस एंजेलेस, कैलिफोर्निया"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "संयुक्त राज्य अमेरिका"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "बाल-प्रतिरोधी पैकेजिंग के कारण विषाक्तता से गंभीर चोट या मृत्यु का जोखिम"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "उत्पाद को बच्चों की पहुँच से बाहर सुरक्षित करें और मैड रैबिट से मुफ्त बाल-प्रतिरोधी ढक्कन का अनुरोध करें"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "मरम्मत"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "Mad Rabbit отзывает крем для обезболивания \"RELIEVE\" с лидокаином из-за риска отравления для маленьких детей",
+          "Description": "Mad Rabbit отзывает свой крем для обезболивания \"RELIEVE\", который упакован в короткую, широкую белую банку. На передней этикетке крупными черными буквами указано название продукта, а также логотип компании и дополнительные детали меньшим шрифтом. Этот продукт представляет собой серьезный риск для маленьких детей из-за несоответствия стандартам упаковки, устойчивой к детям, как предписано Законом о предотвращении отравлений. При проглатывании лидокаин в креме может привести к серьезным травмам или даже смерти.",
+          "ConsumerContact": "Для получения дополнительной информации потребители могут обратиться в Mad Rabbit по электронной почте product@madrabbit.com или посетить их веб-сайт по адресу https://www.madrabbit.com/pages/product-recalls. Они также могут получить доступ к странице контактов по адресу https://www.madrabbit.com/pages/contact-us и выбрать \"Отзыв продукта\".",
+          "metaDescription": "Mad Rabbit отзывает крем для обезболивания \"RELIEVE\" из-за рисков отравления для детей. Узнайте, как безопасно обеспечить свой продукт.",
+          "Products": [
+            {
+              "Name": "Крем для обезболивания RELIEVE",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 28,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванный крем для обезболивания RELIEVE – Внешняя упаковка"
+            },
+            {
+              "Caption": "Отозванный крем для обезболивания RELIEVE"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Не сообщалось"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Доступен на выставках, в тату-салонах и онлайн на MadRabbit.com с октября 2024 года по август 2025 года примерно за 26 долларов."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Mad Rabbit Inc., Лос-Анджелес, Калифорния"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Продается в",
+          "ManufacturerCountries": [
+            {
+              "Country": "Соединенные Штаты"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Риск серьезных травм или смерти от отравления из-за упаковки, не устойчивой к детям"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Держите продукт вне досягаемости детей и запросите бесплатную крышку, устойчивую к детям, от Mad Rabbit"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Ремонт"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "Mad Rabbit thu hồi kem gây tê \"RELIEVE\" Lidocaine do nguy cơ ngộ độc cho trẻ nhỏ",
+          "Description": "Mad Rabbit đang thu hồi kem gây tê \"RELIEVE\" của mình, được đóng gói trong một hộp trắng miệng rộng, ngắn. Nhãn trước có tên sản phẩm bằng chữ đen lớn cùng với logo của công ty và các chi tiết bổ sung bằng chữ nhỏ hơn. Sản phẩm này gây ra nguy cơ nghiêm trọng cho trẻ nhỏ do không tuân thủ tiêu chuẩn đóng gói chống trẻ em, như được quy định bởi Đạo luật Ngăn ngừa Ngộ độc. Nếu bị nuốt phải, lidocaine trong kem có thể dẫn đến chấn thương nghiêm trọng hoặc thậm chí tử vong.",
+          "ConsumerContact": "Để biết thêm thông tin, người tiêu dùng có thể liên hệ với Mad Rabbit qua email tại product@madrabbit.com hoặc truy cập trang web của họ tại https://www.madrabbit.com/pages/product-recalls. Họ cũng có thể truy cập trang liên hệ tại https://www.madrabbit.com/pages/contact-us và chọn \"Thu hồi sản phẩm\".",
+          "metaDescription": "Mad Rabbit thu hồi kem gây tê \"RELIEVE\" do nguy cơ ngộ độc cho trẻ em. Tìm hiểu cách bảo vệ sản phẩm của bạn một cách an toàn.",
+          "Products": [
+            {
+              "Name": "Kem gây tê RELIEVE",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 28,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Kem gây tê RELIEVE bị thu hồi – Bao bì bên ngoài"
+            },
+            {
+              "Caption": "Kem gây tê RELIEVE bị thu hồi"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Không có báo cáo"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Có mặt tại các hội chợ thương mại, cửa hàng xăm và trực tuyến tại MadRabbit.com từ tháng 10 năm 2024 đến tháng 8 năm 2025 với giá khoảng 26 đô la."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Mad Rabbit Inc., ở Los Angeles, California"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Bán Tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Hoa Kỳ"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Nguy cơ chấn thương nghiêm trọng hoặc tử vong do ngộ độc do bao bì không chống trẻ em"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Đặt sản phẩm ngoài tầm với của trẻ em và yêu cầu nắp chống trẻ em miễn phí từ Mad Rabbit"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Sửa chữa"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    },
+    {
+      "RecallID": 10239,
+      "RecallNumber": "25223",
+      "RecallDate": "2025-04-10T00:00:00",
+      "Description": "Kramer Laboratories is recalling Safetussin Max Strength Multi-Symptom Cough, Cold and Flu 24-count caplet blister packs due to safety concerns. These products, labeled with 'Safetussin,' 'Multi-Symptom,' and 'Cough, Cold & Flu,' are packaged in a blue, orange, and red cardboard box featuring a drug facts label on the back. The recall is prompted by the packaging not meeting child-resistant standards, posing a potential poisoning risk to young children if the tablets are accessed.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/Kramer-Laboratories-Recalls-Safetussin-Max-Strength-Multi-Symptom-Cough-Cold-and-Flu-Blister-Packs-Due-to-Risk-of-Child-Poisoning-Violation-of-Federal-Regulation-for-Child-Resistant-Packaging",
+      "Title": "Kramer Laboratories Issues Recall for Safetussin Max Strength Cough, Cold and Flu Blister Packs Due to Child Safety Risk",
+      "ConsumerContact": "For further details, consumers can reach out to Kramer Laboratories at 800-824-4894, available Monday through Friday from 8 a.m. to 5 p.m. ET, via email at kramerlabs@emersongroup.com, or visit https://safetussin.com/recall.",
+      "LastPublishDate": "2025-04-10T00:00:00",
+      "Products": [
+        {
+          "Name": "Safetussin Max Strength Multi-Symptom Cough, Cold and Flu Blister Packs",
+          "NumberOfUnits": "About 14,250"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/other-drugs-or-medications/2-Safetussin-Max-Strength-Multi-Symptom-Cough-Cold-and-Flu-Blister-Packs/7a0c51e2cbbdc2ed45c5709fc2aee8f0.webp",
+          "Caption": "Recalled Safetussin Max Strength Multi-Symptom Cough, Cold and Flu, 24-count caplets",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/safetussin.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available at HEB, Harris-Teeter, and various regional grocery stores and independent pharmacies across the nation from July 2024 to March 2025 for approximately $11."
+        }
+      ],
+      "Distributors": [
+        {
+          "Name": "Kramer Laboratories, of Bridgewater, New Jersey (a subsidiary of Arcadia Consumer Healthcare, of Bridgewater, New Jersey)"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "India"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of poisoning due to non-child-resistant packaging of acetaminophen-containing medication."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Secure the product away from children and contact Kramer Laboratories for return or disposal instructions to obtain a full refund."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "slug": "kramer-laboratories-issues-recall-for-safetussin-max-strength-cough-cold-and-flu-blister-packs-due-to-child-safety-risk-recall",
+      "metaDescription": "Kramer Laboratories recalls Safetussin Max Strength Cough, Cold and Flu packs due to child safety risks. Learn more about the recall.",
+      "languages": {
+        "en": {
+          "Title": "Kramer Laboratories Issues Recall for Safetussin Max Strength Cough, Cold and Flu Blister Packs Due to Child Safety Risk",
+          "Description": "Kramer Laboratories is recalling Safetussin Max Strength Multi-Symptom Cough, Cold and Flu 24-count caplet blister packs due to safety concerns. These products, labeled with 'Safetussin,' 'Multi-Symptom,' and 'Cough, Cold & Flu,' are packaged in a blue, orange, and red cardboard box featuring a drug facts label on the back. The recall is prompted by the packaging not meeting child-resistant standards, posing a potential poisoning risk to young children if the tablets are accessed.",
+          "ConsumerContact": "For further details, consumers can reach out to Kramer Laboratories at 800-824-4894, available Monday through Friday from 8 a.m. to 5 p.m. ET, via email at kramerlabs@emersongroup.com, or visit https://safetussin.com/recall.",
+          "metaDescription": "Kramer Laboratories recalls Safetussin Max Strength Cough, Cold and Flu packs due to child safety risks. Learn more about the recall.",
+          "Products": [
+            {
+              "Name": "Safetussin Max Strength Multi-Symptom Cough, Cold and Flu Blister Packs",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 14,250"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled Safetussin Max Strength Multi-Symptom Cough, Cold and Flu, 24-count caplets"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "None reported"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Available at HEB, Harris-Teeter, and various regional grocery stores and independent pharmacies across the nation from July 2024 to March 2025 for approximately $11."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Kramer Laboratories, of Bridgewater, New Jersey (a subsidiary of Arcadia Consumer Healthcare, of Bridgewater, New Jersey)"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Sold At",
+          "ManufacturerCountries": [
+            {
+              "Country": "India"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risk of poisoning due to non-child-resistant packaging of acetaminophen-containing medication."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Secure the product away from children and contact Kramer Laboratories for return or disposal instructions to obtain a full refund."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Refund"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "Kramer Laboratories Emite un Retiro de Safetussin Max Strength Cough, Cold and Flu Blister Packs Debido al Riesgo para la Seguridad Infantil",
+          "Description": "Kramer Laboratories está retirando del mercado los paquetes de tabletas de 24 unidades de Safetussin Max Strength Multi-Symptom Cough, Cold and Flu debido a preocupaciones de seguridad. Estos productos, etiquetados con 'Safetussin', 'Multi-Symptom' y 'Cough, Cold & Flu', están empaquetados en una caja de cartón azul, naranja y roja que presenta una etiqueta de información del medicamento en la parte posterior. El retiro se debe a que el empaque no cumple con los estándares de resistencia a los niños, lo que representa un riesgo potencial de envenenamiento para los niños pequeños si se accede a las tabletas.",
+          "ConsumerContact": "Para más detalles, los consumidores pueden comunicarse con Kramer Laboratories al 800-824-4894, disponible de lunes a viernes de 8 a.m. a 5 p.m. ET, por correo electrónico a kramerlabs@emersongroup.com, o visitar https://safetussin.com/recall.",
+          "metaDescription": "Kramer Laboratories retira del mercado los paquetes de Safetussin Max Strength Cough, Cold and Flu debido a riesgos para la seguridad infantil. Aprenda más sobre el retiro.",
+          "Products": [
+            {
+              "Name": "Paquetes de tabletas de 24 unidades de Safetussin Max Strength Multi-Symptom Cough, Cold and Flu",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 14,250"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Safetussin Max Strength Multi-Symptom Cough, Cold and Flu retirado, tabletas de 24 unidades"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Ninguna reportada"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible en HEB, Harris-Teeter y varias tiendas de comestibles regionales y farmacias independientes en todo el país desde julio de 2024 hasta marzo de 2025 por aproximadamente $11."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Kramer Laboratories, de Bridgewater, Nueva Jersey (una subsidiaria de Arcadia Consumer Healthcare, de Bridgewater, Nueva Jersey)"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendido En",
+          "ManufacturerCountries": [
+            {
+              "Country": "India"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Riesgo de envenenamiento debido al empaque no resistente a los niños de medicamentos que contienen acetaminofén."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Asegure el producto fuera del alcance de los niños y comuníquese con Kramer Laboratories para obtener instrucciones de devolución o eliminación para obtener un reembolso completo."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reembolso"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "مختبرات كرامر تصدر استدعاء لعلب سافيتوسين ماكس سترينث للسعال والبرد والإنفلونزا بسبب مخاطر سلامة الأطفال",
+          "Description": "تقوم مختبرات كرامر باستدعاء علب سافيتوسين ماكس سترينث متعددة الأعراض للسعال والبرد والإنفلونزا التي تحتوي على 24 قرصًا بسبب مخاوف تتعلق بالسلامة. هذه المنتجات، المعلّمة بـ 'سافيتوسين' و 'متعددة الأعراض' و 'السعال والبرد والإنفلونزا'، مُعبأة في صندوق كرتوني باللون الأزرق والبرتقالي والأحمر يحتوي على ملصق حقائق الدواء في الخلف. تم تحفيز الاستدعاء بسبب عدم مطابقة التعبئة لمعايير مقاومة الأطفال، مما يشكل خطر التسمم المحتمل للأطفال الصغار إذا تم الوصول إلى الأقراص.\n\nللحصول على مزيد من التفاصيل، يمكن للمستهلكين التواصل مع مختبرات كرامر على الرقم 800-824-4894، المتاح من الاثنين إلى الجمعة من الساعة 8 صباحًا حتى 5 مساءً بتوقيت شرق الولايات المتحدة، عبر البريد الإلكتروني على kramerlabs@emersongroup.com، أو زيارة https://safetussin.com/recall.",
+          "ConsumerContact": "للحصول على مزيد من التفاصيل، يمكن للمستهلكين التواصل مع مختبرات كرامر على الرقم 800-824-4894، المتاح من الاثنين إلى الجمعة من الساعة 8 صباحًا حتى 5 مساءً بتوقيت شرق الولايات المتحدة، عبر البريد الإلكتروني على kramerlabs@emersongroup.com، أو زيارة https://safetussin.com/recall.",
+          "metaDescription": "تستدعي مختبرات كرامر علب سافيتوسين ماكس سترينث للسعال والبرد والإنفلونزا بسبب مخاطر سلامة الأطفال. تعرف على المزيد حول الاستدعاء.",
+          "Products": [
+            {
+              "Name": "علب سافيتوسين ماكس سترينث متعددة الأعراض للسعال والبرد والإنفلونزا",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 14,250"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "علب سافيتوسين ماكس سترينث متعددة الأعراض للسعال والبرد والإنفلونزا، تحتوي على 24 قرصًا"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "لا توجد إصابات مُبلغ عنها"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "متاحة في HEB وHarris-Teeter ومتاجر البقالة الإقليمية المختلفة والصيدليات المستقلة في جميع أنحاء البلاد من يوليو 2024 إلى مارس 2025 بسعر تقريبي يبلغ 11 دولارًا."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "مختبرات كرامر، من بريدجواتر، نيو جيرسي (شركة تابعة لشركة Arcadia Consumer Healthcare، من بريدجواتر، نيو جيرسي)"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "تباع في",
+          "ManufacturerCountries": [
+            {
+              "Country": "الهند"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "خطر التسمم بسبب التعبئة غير المقاومة للأطفال للأدوية المحتوية على الأسيتامينوفين."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "تأمين المنتج بعيدًا عن الأطفال والتواصل مع مختبرات كرامر للحصول على تعليمات الإرجاع أو التخلص للحصول على استرداد كامل."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "استرداد"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "克雷默实验室因儿童安全风险召回Safetussin最大强度咳嗽、感冒和流感泡罩包装",
+          "Description": "克雷默实验室因安全问题召回Safetussin最大强度多症状咳嗽、感冒和流感24粒装泡罩包装。这些产品标有“Safetussin”、“多症状”和“咳嗽、感冒和流感”，包装在一个蓝色、橙色和红色的纸盒中，背面有药物成分标签。此次召回是由于包装未符合儿童安全标准，如果儿童接触到药片，可能会造成中毒风险。",
+          "ConsumerContact": "如需更多信息，消费者可以拨打克雷默实验室的电话800-824-4894，工作时间为周一至周五，东部时间上午8点至下午5点，或通过电子邮件kramerlabs@emersongroup.com联系，或访问https://safetussin.com/recall。",
+          "metaDescription": "克雷默实验室因儿童安全风险召回Safetussin最大强度咳嗽、感冒和流感包装。了解更多关于此次召回的信息。",
+          "Products": [
+            {
+              "Name": "Safetussin最大强度多症状咳嗽、感冒和流感泡罩包装",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约14,250"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "召回的Safetussin最大强度多症状咳嗽、感冒和流感，24粒装药片"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "无报告伤害"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "在HEB、Harris-Teeter以及全国各地的各种地区性杂货店和独立药店出售，销售时间为2024年7月至2025年3月，价格约为11美元。"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "克雷默实验室，位于新泽西州布里奇沃特（阿卡迪亚消费者医疗保健的子公司，位于新泽西州布里奇沃特）"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "销售地点",
+          "ManufacturerCountries": [
+            {
+              "Country": "印度"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "由于非儿童安全包装的含对乙酰氨基酚药物而存在中毒风险。"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "将产品放在儿童无法接触的地方，并联系克雷默实验室获取退货或处理说明，以获得全额退款。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "退款"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "Kramer Laboratories rappelle des emballages de comprimés Safetussin Max Strength pour la toux, le rhume et la grippe en raison d'un risque pour la sécurité des enfants",
+          "Description": "Kramer Laboratories rappelle des emballages de comprimés Safetussin Max Strength Multi-Symptom pour la toux, le rhume et la grippe de 24 unités en raison de préoccupations de sécurité. Ces produits, étiquetés avec 'Safetussin', 'Multi-Symptom' et 'Toux, Rhume & Grippe', sont emballés dans une boîte en carton bleue, orange et rouge avec une étiquette de faits sur les médicaments au dos. Le rappel est motivé par le fait que l'emballage ne répond pas aux normes de résistance aux enfants, posant un risque potentiel d'empoisonnement pour les jeunes enfants si les comprimés sont accessibles.",
+          "ConsumerContact": "Pour plus de détails, les consommateurs peuvent contacter Kramer Laboratories au 800-824-4894, disponible du lundi au vendredi de 8 h à 17 h HE, par e-mail à kramerlabs@emersongroup.com, ou visiter https://safetussin.com/recall.",
+          "metaDescription": "Kramer Laboratories rappelle des emballages de Safetussin Max Strength pour la toux, le rhume et la grippe en raison de risques pour la sécurité des enfants. En savoir plus sur le rappel.",
+          "Products": [
+            {
+              "Name": "Emballages de comprimés Safetussin Max Strength Multi-Symptom pour la toux, le rhume et la grippe",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 14 250"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Emballages rappelés de Safetussin Max Strength Multi-Symptom pour la toux, le rhume et la grippe, comprimés de 24 unités"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Aucune rapportée"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible chez HEB, Harris-Teeter et divers magasins d'alimentation régionaux et pharmacies indépendantes à travers le pays de juillet 2024 à mars 2025 pour environ 11 $."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Kramer Laboratories, de Bridgewater, New Jersey (une filiale d'Arcadia Consumer Healthcare, de Bridgewater, New Jersey)"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendu À",
+          "ManufacturerCountries": [
+            {
+              "Country": "Inde"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risque d'empoisonnement en raison d'un emballage non résistant aux enfants de médicaments contenant de l'acétaminophène."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Conservez le produit hors de portée des enfants et contactez Kramer Laboratories pour des instructions de retour ou d'élimination afin d'obtenir un remboursement complet."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Remboursement"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "Kramer Laboratories ruft Safetussin Max Strength Husten-, Erkältungs- und Grippe-Blisterpackungen aufgrund von Sicherheitsrisiken für Kinder zurück",
+          "Description": "Kramer Laboratories ruft Safetussin Max Strength Multi-Symptom Husten-, Erkältungs- und Grippe-Blisterpackungen mit 24 Tabletten aufgrund von Sicherheitsbedenken zurück. Diese Produkte, gekennzeichnet mit 'Safetussin', 'Multi-Symptom' und 'Husten, Erkältung & Grippe', sind in einer blauen, orangefarbenen und roten Pappschachtel verpackt, die auf der Rückseite ein Etikett mit Arzneimittelinformationen trägt. Der Rückruf erfolgt, weil die Verpackung nicht den Standards für kindersichere Verpackungen entspricht, was ein potenzielles Vergiftungsrisiko für kleine Kinder darstellt, wenn die Tabletten zugänglich sind.",
+          "ConsumerContact": "Für weitere Informationen können Verbraucher Kramer Laboratories unter 800-824-4894 kontaktieren, von Montag bis Freitag von 8 bis 17 Uhr ET, per E-Mail an kramerlabs@emersongroup.com oder die Website https://safetussin.com/recall besuchen.",
+          "metaDescription": "Kramer Laboratories ruft Safetussin Max Strength Husten-, Erkältungs- und Grippepackungen aufgrund von Sicherheitsrisiken für Kinder zurück. Erfahren Sie mehr über den Rückruf.",
+          "Products": [
+            {
+              "Name": "Safetussin Max Strength Multi-Symptom Husten-, Erkältungs- und Grippe-Blisterpackungen",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 14.250"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Zurückgerufene Safetussin Max Strength Multi-Symptom Husten-, Erkältungs- und Grippe-Tabletten, 24 Stück"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Keine gemeldet"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Erhältlich bei HEB, Harris-Teeter und verschiedenen regionalen Lebensmittelgeschäften sowie unabhängigen Apotheken im ganzen Land von Juli 2024 bis März 2025 für etwa 11 $."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Kramer Laboratories aus Bridgewater, New Jersey (eine Tochtergesellschaft von Arcadia Consumer Healthcare aus Bridgewater, New Jersey)"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Verkauft bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "Indien"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Vergiftungsrisiko aufgrund von nicht kindersicherer Verpackung von acetaminophenhaltigen Medikamenten."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Bewahren Sie das Produkt außerhalb der Reichweite von Kindern auf und kontaktieren Sie Kramer Laboratories für Rückgabe- oder Entsorgungsanweisungen, um eine vollständige Rückerstattung zu erhalten."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Rückerstattung"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "クレイマーラボラトリーズが子供の安全リスクによりSafetussinマックスストレングス咳、風邪、インフルエンザのブリスターパックをリコール",
+          "Description": "クレイマーラボラトリーズは、安全上の懸念から、Safetussinマックスストレングスマルチシンポトム咳、風邪、インフルエンザ24カウントカプレットブリスターパックをリコールしています。これらの製品は、「Safetussin」、「マルチシンポトム」、「咳、風邪＆インフルエンザ」とラベル付けされており、背面に薬の事実ラベルが付いた青、オレンジ、赤の段ボール箱にパッケージされています。このリコールは、パッケージが子供に対する抵抗基準を満たしていないために発生しており、タブレットにアクセスされると幼い子供に対して中毒のリスクをもたらす可能性があります。\n",
+          "ConsumerContact": "詳細については、クレイマーラボラトリーズに800-824-4894までお問い合わせください。営業時間は月曜日から金曜日の午前8時から午後5時（ET）までです。メールでの問い合わせはkramerlabs@emersongroup.comまで、またはhttps://safetussin.com/recallをご覧ください。",
+          "metaDescription": "クレイマーラボラトリーズが子供の安全リスクによりSafetussinマックスストレングス咳、風邪、インフルエンザパックをリコールしています。リコールの詳細を学びましょう。",
+          "Products": [
+            {
+              "Name": "Safetussinマックスストレングスマルチシンポトム咳、風邪、インフルエンザブリスターパック",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約14,250"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコールされたSafetussinマックスストレングスマルチシンポトム咳、風邪、インフルエンザ、24カウントカプレット"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "報告された怪我はなし"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "2024年7月から2025年3月まで、HEB、ハリスティーター、全国のさまざまな地域の食料品店および独立系薬局で約11ドルで販売されています。"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "ニュージャージー州ブリッジウォーターのクレイマーラボラトリーズ（ニュージャージー州ブリッジウォーターのアーカディアコンシューマーヘルスケアの子会社）"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "販売場所",
+          "ManufacturerCountries": [
+            {
+              "Country": "インド"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "アセトアミノフェンを含む医薬品の子供に対する抵抗力のないパッケージによる中毒のリスク。"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "製品を子供の手の届かない場所に保管し、クレイマーラボラトリーズに連絡して返品または廃棄の指示を受けて全額返金を受け取ってください。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "返金"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "Kramer Laboratories Emite Recall para Pacotes de Comprimidos Safetussin Max Strength para Tosse, Resfriado e Gripe Devido ao Risco de Segurança Infantil",
+          "Description": "Kramer Laboratories está recallando os pacotes de comprimidos Safetussin Max Strength Multi-Symptom para Tosse, Resfriado e Gripe com 24 comprimidos devido a preocupações de segurança. Esses produtos, rotulados como 'Safetussin', 'Multi-Symptom' e 'Tosse, Resfriado & Gripe', estão embalados em uma caixa de papelão azul, laranja e vermelha com um rótulo de informações sobre o medicamento na parte de trás. O recall foi motivado pelo fato de a embalagem não atender aos padrões de resistência infantil, representando um potencial risco de envenenamento para crianças pequenas se os comprimidos forem acessados.",
+          "ConsumerContact": "Para mais detalhes, os consumidores podem entrar em contato com Kramer Laboratories pelo telefone 800-824-4894, disponível de segunda a sexta-feira, das 8h às 17h ET, por e-mail em kramerlabs@emersongroup.com, ou visitar https://safetussin.com/recall.",
+          "metaDescription": "Kramer Laboratories recall os pacotes Safetussin Max Strength para Tosse, Resfriado e Gripe devido a riscos de segurança infantil. Saiba mais sobre o recall.",
+          "Products": [
+            {
+              "Name": "Pacotes de Comprimidos Safetussin Max Strength Multi-Symptom para Tosse, Resfriado e Gripe",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 14.250"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Comprimidos Safetussin Max Strength Multi-Symptom para Tosse, Resfriado e Gripe, 24 comprimidos recallados"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Nenhuma relatada"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponível na HEB, Harris-Teeter e em várias mercearias regionais e farmácias independentes em todo o país de julho de 2024 a março de 2025 por aproximadamente R$ 11."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Kramer Laboratories, de Bridgewater, Nova Jersey (uma subsidiária da Arcadia Consumer Healthcare, de Bridgewater, Nova Jersey)"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendidos Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "Índia"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risco de envenenamento devido à embalagem não resistente a crianças de medicamento contendo paracetamol."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Guarde o produto longe das crianças e entre em contato com Kramer Laboratories para obter instruções de devolução ou descarte para obter um reembolso total."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reembolso"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "क्रेमर लेबोरेटरीज ने बाल सुरक्षा जोखिम के कारण सेफेटसिन मैक्स स्ट्रेंथ खांसी, जुकाम और फ्लू ब्लिस्टर पैक्स की रिकॉल की घोषणा की",
+          "Description": "क्रेमर लेबोरेटरीज सेफेटसिन मैक्स स्ट्रेंथ मल्टी-सिंप्टम खांसी, जुकाम और फ्लू 24-गिनती कैपलेट ब्लिस्टर पैक्स को सुरक्षा चिंताओं के कारण वापस बुला रही है। इन उत्पादों पर 'सेफेटसिन', 'मल्टी-सिंप्टम', और 'खांसी, जुकाम और फ्लू' का लेबल है, जो नीले, नारंगी और लाल कार्डबोर्ड बॉक्स में पैक किए गए हैं, जिसमें पीछे की ओर एक दवा तथ्य लेबल है। यह रिकॉल पैकेजिंग के बाल-प्रतिरोधी मानकों को पूरा न करने के कारण किया गया है, जिससे यदि टैबलेट्स तक पहुंचा जाता है तो छोटे बच्चों के लिए संभावित विषाक्तता का जोखिम उत्पन्न होता है।",
+          "ConsumerContact": "अधिक जानकारी के लिए, उपभोक्ता क्रेमर लेबोरेटरीज से 800-824-4894 पर संपर्क कर सकते हैं, जो सोमवार से शुक्रवार तक सुबह 8 बजे से शाम 5 बजे तक ईटी, ईमेल पर kramerlabs@emersongroup.com पर, या https://safetussin.com/recall पर जाकर उपलब्ध है।",
+          "metaDescription": "क्रेमर लेबोरेटरीज ने बाल सुरक्षा जोखिमों के कारण सेफेटसिन मैक्स स्ट्रेंथ खांसी, जुकाम और फ्लू पैक्स को वापस बुला लिया है। रिकॉल के बारे में अधिक जानें।",
+          "Products": [
+            {
+              "Name": "सेफेटसिन मैक्स स्ट्रेंथ मल्टी-सिंप्टम खांसी, जुकाम और फ्लू ब्लिस्टर पैक्स",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 14,250"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "वापस बुलाए गए सेफेटसिन मैक्स स्ट्रेंथ मल्टी-सिंप्टम खांसी, जुकाम और फ्लू, 24-गिनती कैपलेट"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "कोई रिपोर्ट नहीं"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "HEB, Harris-Teeter, और देश भर के विभिन्न क्षेत्रीय किराना स्टोर और स्वतंत्र फार्मेसियों में जुलाई 2024 से मार्च 2025 तक लगभग $11 में उपलब्ध।"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "क्रेमर लेबोरेटरीज, ब्रिजवाटर, न्यू जर्सी (ब्रिजवाटर, न्यू जर्सी के आर्केडिया कंज्यूमर हेल्थकेयर की सहायक कंपनी)"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "भारत"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "एसिटामिनोफेन युक्त दवा की गैर-बाल-प्रतिरोधी पैकेजिंग के कारण विषाक्तता का जोखिम।"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "उत्पाद को बच्चों से दूर सुरक्षित रखें और पूर्ण धनवापसी प्राप्त करने के लिए क्रेमर लेबोरेटरीज से वापसी या निपटान निर्देशों के लिए संपर्क करें।"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "धनवापसी"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "Лаборатория Kramer объявляет отзыв упаковок Safetussin Max Strength от кашля, простуды и гриппа из-за риска для безопасности детей",
+          "Description": "Лаборатория Kramer отзывает упаковки Safetussin Max Strength Multi-Symptom Cough, Cold and Flu по 24 капсулы из-за проблем с безопасностью. Эти продукты, помеченные 'Safetussin', 'Multi-Symptom' и 'Cough, Cold & Flu', упакованы в синюю, оранжевую и красную картонную коробку с этикеткой с информацией о препарате на задней стороне. Отзыв вызван тем, что упаковка не соответствует стандартам защиты от детей, что представляет потенциальный риск отравления для маленьких детей, если таблетки будут доступны.",
+          "ConsumerContact": "Для получения дополнительной информации потребители могут обратиться в лабораторию Kramer по телефону 800-824-4894, с понедельника по пятницу с 8:00 до 17:00 по восточному времени, по электронной почте на адрес kramerlabs@emersongroup.com или посетить https://safetussin.com/recall.",
+          "metaDescription": "Лаборатория Kramer отзывает упаковки Safetussin Max Strength от кашля, простуды и гриппа из-за рисков для безопасности детей. Узнайте больше об отзыве.",
+          "Products": [
+            {
+              "Name": "Упаковки Safetussin Max Strength Multi-Symptom от кашля, простуды и гриппа",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 14,250"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванные упаковки Safetussin Max Strength Multi-Symptom от кашля, простуды и гриппа, 24 капсулы"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Не сообщалось"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Доступно в HEB, Harris-Teeter и различных региональных продуктовых магазинах и независимых аптеках по всей стране с июля 2024 года по март 2025 года примерно за 11 долларов."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Лаборатория Kramer, Бриджвотер, Нью-Джерси (дочерняя компания Arcadia Consumer Healthcare, Бриджвотер, Нью-Джерси)"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Продается в",
+          "ManufacturerCountries": [
+            {
+              "Country": "Индия"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Риск отравления из-за упаковки, не защищающей от детей, содержащей ацетаминофен."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Уберите продукт подальше от детей и свяжитесь с лабораторией Kramer для получения инструкций по возврату или утилизации, чтобы получить полный возврат средств."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Возврат средств"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "Kramer Laboratories thông báo thu hồi sản phẩm Safetussin Max Strength Cough, Cold and Flu do nguy cơ an toàn cho trẻ em",
+          "Description": "Kramer Laboratories đang thu hồi các gói viên nén Safetussin Max Strength Multi-Symptom Cough, Cold and Flu 24 viên do lo ngại về an toàn. Các sản phẩm này, được dán nhãn 'Safetussin', 'Multi-Symptom', và 'Cough, Cold & Flu', được đóng gói trong một hộp bìa cứng màu xanh, cam và đỏ có nhãn thông tin thuốc ở mặt sau. Việc thu hồi được thúc đẩy bởi việc đóng gói không đáp ứng tiêu chuẩn chống trẻ em, gây ra nguy cơ ngộ độc tiềm ẩn cho trẻ nhỏ nếu các viên thuốc được tiếp cận.",
+          "ConsumerContact": "Để biết thêm chi tiết, người tiêu dùng có thể liên hệ với Kramer Laboratories theo số 800-824-4894, có sẵn từ thứ Hai đến thứ Sáu từ 8 giờ sáng đến 5 giờ chiều ET, qua email tại kramerlabs@emersongroup.com, hoặc truy cập https://safetussin.com/recall.",
+          "metaDescription": "Kramer Laboratories thu hồi các gói Safetussin Max Strength Cough, Cold and Flu do nguy cơ an toàn cho trẻ em. Tìm hiểu thêm về việc thu hồi.",
+          "Products": [
+            {
+              "Name": "Gói viên nén Safetussin Max Strength Multi-Symptom Cough, Cold and Flu",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 14,250"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Viên nén Safetussin Max Strength Multi-Symptom Cough, Cold and Flu, 24 viên bị thu hồi"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Không có báo cáo"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Có mặt tại HEB, Harris-Teeter và nhiều cửa hàng tạp hóa khu vực cũng như các hiệu thuốc độc lập trên toàn quốc từ tháng 7 năm 2024 đến tháng 3 năm 2025 với giá khoảng 11 đô la."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Kramer Laboratories, có trụ sở tại Bridgewater, New Jersey (một công ty con của Arcadia Consumer Healthcare, cũng ở Bridgewater, New Jersey)"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Bán Tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Ấn Độ"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Nguy cơ ngộ độc do bao bì không chống trẻ em của thuốc chứa acetaminophen."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Bảo quản sản phẩm xa tầm tay trẻ em và liên hệ với Kramer Laboratories để biết hướng dẫn trả lại hoặc tiêu hủy để nhận hoàn tiền đầy đủ."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Hoàn tiền"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    },
+    {
+      "RecallID": 10217,
+      "RecallNumber": "25201",
+      "RecallDate": "2025-03-27T00:00:00",
+      "Description": "Nutritional Fundamentals for Health (NFH) has issued a recall for their Iron SAP, Heme Iron SAP, and Prenatal SAP dietary supplements. These products are packaged in white bottles featuring the NFH brand name and a blue leaf logo. The date codes can be found on the bottom of each bottle. The supplements come in various sizes and include specific date codes that identify the recalled items. Consumers are advised to check their bottles against the provided date codes to determine if they are affected by this recall.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/NFH-Iron-Dietary-Supplement-Bottles-Recalled-Due-to-Risk-of-Poisoning-Violation-of-Federal-Regulation-for-Child-Resistant-Packaging-Imported-by-Nutritional-Fundamentals-for-Health-NFH",
+      "Title": "Recall of NFH Iron Dietary Supplements Due to Non-Child Resistant Packaging",
+      "ConsumerContact": "For more information, consumers can reach NFH at 866-510-3123 from 9 a.m. to 5 p.m. ET, Monday through Friday, or email info@nfh.ca. Additional details are available on their website at https://nfh.ca/ by clicking on the \"Recall\" section.",
+      "LastPublishDate": "2025-03-27T00:00:00",
+      "Products": [
+        {
+          "Name": "NFH Iron SAP",
+          "NumberOfUnits": "About 17,660"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/other-drugs-or-medications/3-NFH-Iron-SAP/64ad1137409d9a04f0247964255f8213.webp",
+          "Caption": "Recalled Iron SAP Iron Glycinate (120 capsules 1167U)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/iron-1.png"
+        },
+        {
+          "URL": "/images/generalRecalls/other-drugs-or-medications/3-NFH-Iron-SAP/3228b8c91a9c3e7bda04500bab60cc73.webp",
+          "Caption": "Recalled Iron SAP Iron Glycinate (60 Capsules 1029U)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/iron-2.png"
+        },
+        {
+          "URL": "/images/generalRecalls/other-drugs-or-medications/3-NFH-Iron-SAP/aabd0dfb86c29baa2119aaa21bacd5b2.webp",
+          "Caption": "Recalled Heme Iron SAP Superior Absorption and bioavailability (60 capsules 1124U)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/iron-3.png"
+        },
+        {
+          "URL": "/images/generalRecalls/other-drugs-or-medications/3-NFH-Iron-SAP/99038226b059cbb4b6b296c3f52ea6b3.webp",
+          "Caption": "Recalled Prenatal SAP Multivitamin (180 capsules 1034U)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/iron-4.png"
+        },
+        {
+          "URL": "/images/generalRecalls/other-drugs-or-medications/3-NFH-Iron-SAP/6c64c737ae0718c6f2c38fc5644dd938.webp",
+          "Caption": "Please see bottom of bottle for lot and expiration: (Example)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/iron-5.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "Nutritional Fundamentals for Health (dba NFH), of Canada"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Various naturopathic and homeopathic clinics across the nation, A Woman's Time, Doctor Supplement stores, and online at WholescriptsInc.com and Fullscript.com from March 2022 through December 2024, priced between $20 and $95 based on the product and size."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Nutritional Fundamentals for Health (dba NFH), of Canada"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "Canada"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "The dietary supplements lack child-resistant packaging, which is required by the Poison Prevention Packaging Act (PPPA), increasing the risk of poisoning in young children."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should keep the recalled bottles out of children's reach and contact NFH for a free replacement child-resistant bottle. NFH is directly notifying all known purchasers about this recall."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Replace"
+        }
+      ],
+      "slug": "recall-of-nfh-iron-dietary-supplements-due-to-non-child-resistant-packaging-recall",
+      "metaDescription": "NFH recalls Iron SAP, Heme Iron SAP, and Prenatal SAP supplements due to non-compliance with child-resistant packaging regulations. Check your bottles now.",
+      "languages": {
+        "en": {
+          "Title": "Recall of NFH Iron Dietary Supplements Due to Non-Child Resistant Packaging",
+          "Description": "Nutritional Fundamentals for Health (NFH) has issued a recall for their Iron SAP, Heme Iron SAP, and Prenatal SAP dietary supplements. These products are packaged in white bottles featuring the NFH brand name and a blue leaf logo. The date codes can be found on the bottom of each bottle. The supplements come in various sizes and include specific date codes that identify the recalled items. Consumers are advised to check their bottles against the provided date codes to determine if they are affected by this recall.",
+          "ConsumerContact": "For more information, consumers can reach NFH at 866-510-3123 from 9 a.m. to 5 p.m. ET, Monday through Friday, or email info@nfh.ca. Additional details are available on their website at https://nfh.ca/ by clicking on the \"Recall\" section.",
+          "metaDescription": "NFH recalls Iron SAP, Heme Iron SAP, and Prenatal SAP supplements due to non-compliance with child-resistant packaging regulations. Check your bottles now.",
+          "Products": [
+            {
+              "Name": "NFH Iron SAP",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 17,660"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled Iron SAP Iron Glycinate (120 capsules 1167U)"
+            },
+            {
+              "Caption": "Recalled Iron SAP Iron Glycinate (60 Capsules 1029U)"
+            },
+            {
+              "Caption": "Recalled Heme Iron SAP Superior Absorption and bioavailability (60 capsules 1124U)"
+            },
+            {
+              "Caption": "Recalled Prenatal SAP Multivitamin (180 capsules 1034U)"
+            },
+            {
+              "Caption": "Please see bottom of bottle for lot and expiration: (Example)"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "None reported"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Various naturopathic and homeopathic clinics across the nation, A Woman's Time, Doctor Supplement stores, and online at WholescriptsInc.com and Fullscript.com from March 2022 through December 2024, priced between $20 and $95 based on the product and size."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Nutritional Fundamentals for Health (dba NFH), of Canada"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Nutritional Fundamentals for Health (dba NFH), of Canada"
+            }
+          ],
+          "SoldAtLabel": "Sold At",
+          "ManufacturerCountries": [
+            {
+              "Country": "Canada"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "The dietary supplements lack child-resistant packaging, which is required by the Poison Prevention Packaging Act (PPPA), increasing the risk of poisoning in young children."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Consumers should keep the recalled bottles out of children's reach and contact NFH for a free replacement child-resistant bottle. NFH is directly notifying all known purchasers about this recall."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Replace"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "Retiro de suplementos dietéticos de hierro de NFH debido a envases no resistentes a los niños",
+          "Description": "Nutritional Fundamentals for Health (NFH) ha emitido un retiro para sus suplementos dietéticos Iron SAP, Heme Iron SAP y Prenatal SAP. Estos productos están envasados en botellas blancas con el nombre de la marca NFH y un logotipo de hoja azul. Los códigos de fecha se pueden encontrar en la parte inferior de cada botella. Los suplementos vienen en varios tamaños e incluyen códigos de fecha específicos que identifican los artículos retirados. Se aconseja a los consumidores que verifiquen sus botellas con los códigos de fecha proporcionados para determinar si están afectados por este retiro.",
+          "ConsumerContact": "Para más información, los consumidores pueden comunicarse con NFH al 866-510-3123 de 9 a.m. a 5 p.m. ET, de lunes a viernes, o enviar un correo electrónico a info@nfh.ca. Detalles adicionales están disponibles en su sitio web en https://nfh.ca/ haciendo clic en la sección \"Retiro\".",
+          "metaDescription": "NFH retira los suplementos Iron SAP, Heme Iron SAP y Prenatal SAP debido a incumplimiento con las regulaciones de envases resistentes a los niños. Verifique sus botellas ahora.",
+          "Products": [
+            {
+              "Name": "NFH Iron SAP",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 17,660"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Retirado Iron SAP Iron Glycinate (120 cápsulas 1167U)"
+            },
+            {
+              "Caption": "Retirado Iron SAP Iron Glycinate (60 cápsulas 1029U)"
+            },
+            {
+              "Caption": "Retirado Heme Iron SAP Superior Absorption and bioavailability (60 cápsulas 1124U)"
+            },
+            {
+              "Caption": "Retirado Prenatal SAP Multivitamin (180 cápsulas 1034U)"
+            },
+            {
+              "Caption": "Por favor, vea la parte inferior de la botella para el lote y la fecha de caducidad: (Ejemplo)"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Ninguno reportado"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Varios clínicas naturopáticas y homeopáticas en todo el país, A Woman's Time, tiendas Doctor Supplement, y en línea en WholescriptsInc.com y Fullscript.com desde marzo de 2022 hasta diciembre de 2024, con precios entre $20 y $95 según el producto y el tamaño."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Nutritional Fundamentals for Health (dba NFH), de Canadá"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Nutritional Fundamentals for Health (dba NFH), de Canadá"
+            }
+          ],
+          "SoldAtLabel": "Vendidos en",
+          "ManufacturerCountries": [
+            {
+              "Country": "Canadá"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Los suplementos dietéticos carecen de envases resistentes a los niños, lo cual es requerido por la Ley de Prevención de Envenenamientos (PPPA), aumentando el riesgo de envenenamiento en niños pequeños."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Los consumidores deben mantener las botellas retiradas fuera del alcance de los niños y contactar a NFH para obtener una botella de reemplazo resistente a los niños de forma gratuita. NFH está notificando directamente a todos los compradores conocidos sobre este retiro."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reemplazar"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "استدعاء مكملات الحديد الغذائية من NFH بسبب تعبئة غير مقاومة للأطفال",
+          "Description": "أصدرت Nutritional Fundamentals for Health (NFH) استدعاء لمكملات الحديد SAP وHeme Iron SAP وPrenatal SAP. يتم تعبئة هذه المنتجات في زجاجات بيضاء تحمل اسم علامة NFH التجارية وشعار ورقة زرقاء. يمكن العثور على رموز التاريخ في أسفل كل زجاجة. تأتي المكملات بأحجام مختلفة وتحتوي على رموز تاريخ محددة تحدد العناصر المستدعاة. يُنصح المستهلكون بالتحقق من زجاجاتهم مقابل رموز التاريخ المقدمة لتحديد ما إذا كانوا متأثرين بهذا الاستدعاء.",
+          "ConsumerContact": "لمزيد من المعلومات، يمكن للمستهلكين الاتصال بـ NFH على الرقم 866-510-3123 من الساعة 9 صباحًا حتى 5 مساءً بتوقيت شرق الولايات المتحدة، من الاثنين إلى الجمعة، أو عبر البريد الإلكتروني info@nfh.ca. تتوفر تفاصيل إضافية على موقعهم الإلكتروني على https://nfh.ca/ من خلال النقر على قسم \"الاستدعاء\".",
+          "metaDescription": "NFH تستدعي مكملات Iron SAP وHeme Iron SAP وPrenatal SAP بسبب عدم الامتثال للوائح تعبئة مقاومة للأطفال. تحقق من زجاجاتك الآن.",
+          "Products": [
+            {
+              "Name": "NFH Iron SAP",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 17,660"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "استدعاء Iron SAP Iron Glycinate (120 كبسولة 1167U)"
+            },
+            {
+              "Caption": "استدعاء Iron SAP Iron Glycinate (60 كبسولة 1029U)"
+            },
+            {
+              "Caption": "استدعاء Heme Iron SAP امتصاص فائق وتوافر حيوي (60 كبسولة 1124U)"
+            },
+            {
+              "Caption": "استدعاء Prenatal SAP متعدد الفيتامينات (180 كبسولة 1034U)"
+            },
+            {
+              "Caption": "يرجى الاطلاع على أسفل الزجاجة للحصول على رقم الدفعة وتاريخ انتهاء الصلاحية: (مثال)"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "لا توجد إصابات مسجلة"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "عيادات طبيعية وهوموباثية متنوعة عبر البلاد، A Woman's Time، متاجر Doctor Supplement، وعبر الإنترنت على WholescriptsInc.com وFullscript.com من مارس 2022 حتى ديسمبر 2024، بأسعار تتراوح بين 20 دولارًا و95 دولارًا بناءً على المنتج والحجم."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Nutritional Fundamentals for Health (dba NFH)، من كندا"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Nutritional Fundamentals for Health (dba NFH)، من كندا"
+            }
+          ],
+          "SoldAtLabel": "تم البيع في",
+          "ManufacturerCountries": [
+            {
+              "Country": "كندا"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "تفتقر المكملات الغذائية إلى تعبئة مقاومة للأطفال، وهو ما يتطلبه قانون تعبئة الوقاية من السموم (PPPA)، مما يزيد من خطر التسمم لدى الأطفال الصغار."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "يجب على المستهلكين إبقاء الزجاجات المستدعاة بعيدة عن متناول الأطفال والاتصال بـ NFH للحصول على زجاجة بديلة مقاومة للأطفال مجانًا. تقوم NFH بإخطار جميع المشترين المعروفين بهذا الاستدعاء مباشرة."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "استبدال"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "因包装不符合儿童防护标准而召回NFH铁质膳食补充剂",
+          "Description": "营养基础健康公司（NFH）已对其铁SAP、血红素铁SAP和产前SAP膳食补充剂发起召回。这些产品装在白色瓶子中，瓶身上印有NFH品牌名称和蓝色叶子标志。日期代码可以在每个瓶子的底部找到。补充剂有多种规格，并包含特定的日期代码以识别被召回的产品。建议消费者检查他们的瓶子与提供的日期代码，以确定是否受到此次召回的影响。",
+          "ConsumerContact": "如需更多信息，消费者可以在周一至周五的东部时间上午9点至下午5点拨打866-510-3123联系NFH，或发送电子邮件至info@nfh.ca。更多详细信息可通过访问他们的网站https://nfh.ca/并点击“召回”部分获得。",
+          "metaDescription": "NFH因不符合儿童防护包装法规而召回铁SAP、血红素铁SAP和产前SAP补充剂。请立即检查您的瓶子。",
+          "Products": [
+            {
+              "Name": "NFH铁SAP",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约17,660"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "召回的铁SAP铁甘氨酸（120粒1167U）"
+            },
+            {
+              "Caption": "召回的铁SAP铁甘氨酸（60粒1029U）"
+            },
+            {
+              "Caption": "召回的血红素铁SAP优质吸收和生物利用度（60粒1124U）"
+            },
+            {
+              "Caption": "召回的产前SAP多种维生素（180粒1034U）"
+            },
+            {
+              "Caption": "请查看瓶底以获取批号和过期日期：（示例）"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "无报告"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "全国各地的各种自然疗法和顺势疗法诊所、A Woman's Time、Doctor Supplement商店，以及在WholescriptsInc.com和Fullscript.com上销售，价格在20美元到95美元之间，具体取决于产品和规格。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "营养基础健康公司（NFH），加拿大"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "营养基础健康公司（NFH），加拿大"
+            }
+          ],
+          "SoldAtLabel": "销售地点",
+          "ManufacturerCountries": [
+            {
+              "Country": "加拿大"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "膳食补充剂缺乏儿童防护包装，这在毒品预防包装法（PPPA）中是必需的，增加了幼儿中毒的风险。"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "消费者应将被召回的瓶子放在儿童无法触及的地方，并联系NFH以获取免费的儿童防护瓶替换品。NFH正在直接通知所有已知的购买者有关此次召回的信息。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "替换"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "Rappel des suppléments alimentaires de fer NFH en raison d'un emballage non résistant aux enfants",
+          "Description": "Nutritional Fundamentals for Health (NFH) a émis un rappel pour ses suppléments alimentaires Iron SAP, Heme Iron SAP et Prenatal SAP. Ces produits sont emballés dans des bouteilles blanches portant le nom de marque NFH et un logo de feuille bleue. Les codes de date se trouvent au bas de chaque bouteille. Les suppléments sont disponibles en différentes tailles et incluent des codes de date spécifiques qui identifient les articles rappelés. Les consommateurs sont invités à vérifier leurs bouteilles par rapport aux codes de date fournis pour déterminer s'ils sont concernés par ce rappel.",
+          "ConsumerContact": "Pour plus d'informations, les consommateurs peuvent contacter NFH au 866-510-3123 de 9 h à 17 h HNE, du lundi au vendredi, ou envoyer un courriel à info@nfh.ca. Des détails supplémentaires sont disponibles sur leur site web à https://nfh.ca/ en cliquant sur la section \"Rappel\".",
+          "metaDescription": "NFH rappelle les suppléments Iron SAP, Heme Iron SAP et Prenatal SAP en raison de non-conformité avec les réglementations sur l'emballage résistant aux enfants. Vérifiez vos bouteilles maintenant.",
+          "Products": [
+            {
+              "Name": "NFH Iron SAP",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 17 660"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Rappel de Iron SAP Iron Glycinate (120 capsules 1167U)"
+            },
+            {
+              "Caption": "Rappel de Iron SAP Iron Glycinate (60 capsules 1029U)"
+            },
+            {
+              "Caption": "Rappel de Heme Iron SAP Absorption supérieure et biodisponibilité (60 capsules 1124U)"
+            },
+            {
+              "Caption": "Rappel de Prenatal SAP Multivitamine (180 capsules 1034U)"
+            },
+            {
+              "Caption": "Veuillez consulter le bas de la bouteille pour le lot et la date d'expiration : (Exemple)"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Aucun rapporté"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Divers cliniques naturopathiques et homéopathiques à travers le pays, A Woman's Time, magasins Doctor Supplement, et en ligne sur WholescriptsInc.com et Fullscript.com de mars 2022 à décembre 2024, au prix de 20 $ à 95 $ selon le produit et la taille."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Nutritional Fundamentals for Health (dba NFH), du Canada"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Nutritional Fundamentals for Health (dba NFH), du Canada"
+            }
+          ],
+          "SoldAtLabel": "Vendu à",
+          "ManufacturerCountries": [
+            {
+              "Country": "Canada"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Les suppléments alimentaires manquent d'un emballage résistant aux enfants, ce qui est requis par la loi sur la prévention des empoisonnements (PPPA), augmentant le risque d'empoisonnement chez les jeunes enfants."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Les consommateurs doivent garder les bouteilles rappelées hors de portée des enfants et contacter NFH pour obtenir une bouteille de remplacement résistante aux enfants gratuitement. NFH informe directement tous les acheteurs connus de ce rappel."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Remplacer"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "Rückruf von NFH Eisen-Nahrungsergänzungsmitteln aufgrund von nicht kindersicheren Verpackungen",
+          "Description": "Nutritional Fundamentals for Health (NFH) hat einen Rückruf für ihre Eisen SAP, Häm-Eisen SAP und Pränatal SAP Nahrungsergänzungsmittel herausgegeben. Diese Produkte sind in weißen Flaschen verpackt, die den Markennamen NFH und ein blaues Blattlogo tragen. Die Datencodes sind am Boden jeder Flasche zu finden. Die Nahrungsergänzungsmittel sind in verschiedenen Größen erhältlich und enthalten spezifische Datencodes, die die zurückgerufenen Artikel identifizieren. Verbrauchern wird geraten, ihre Flaschen mit den bereitgestellten Datencodes zu überprüfen, um festzustellen, ob sie von diesem Rückruf betroffen sind.",
+          "ConsumerContact": "Für weitere Informationen können Verbraucher NFH unter 866-510-3123 von 9 bis 17 Uhr ET, Montag bis Freitag, erreichen oder eine E-Mail an info@nfh.ca senden. Weitere Details sind auf ihrer Website unter https://nfh.ca/ verfügbar, indem sie auf den Abschnitt \"Rückruf\" klicken.",
+          "metaDescription": "NFH ruft Eisen SAP, Häm-Eisen SAP und Pränatal SAP Nahrungsergänzungsmittel aufgrund von Nichteinhaltung der Vorschriften für kindersichere Verpackungen zurück. Überprüfen Sie jetzt Ihre Flaschen.",
+          "Products": [
+            {
+              "Name": "NFH Eisen SAP",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 17.660"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Zurückgerufenes Eisen SAP Eisen-Glycinat (120 Kapseln 1167U)"
+            },
+            {
+              "Caption": "Zurückgerufenes Eisen SAP Eisen-Glycinat (60 Kapseln 1029U)"
+            },
+            {
+              "Caption": "Zurückgerufenes Häm-Eisen SAP Überlegene Absorption und Bioverfügbarkeit (60 Kapseln 1124U)"
+            },
+            {
+              "Caption": "Zurückgerufenes Pränatal SAP Multivitamin (180 Kapseln 1034U)"
+            },
+            {
+              "Caption": "Bitte siehe Boden der Flasche für Charge und Ablaufdatum: (Beispiel)"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Keine gemeldet"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Verschiedene naturheilkundliche und homöopathische Kliniken im ganzen Land, A Woman's Time, Doctor Supplement Geschäfte und online bei WholescriptsInc.com und Fullscript.com von März 2022 bis Dezember 2024, preislich zwischen 20 und 95 Dollar, abhängig vom Produkt und der Größe."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Nutritional Fundamentals for Health (dba NFH), aus Kanada"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Nutritional Fundamentals for Health (dba NFH), aus Kanada"
+            }
+          ],
+          "SoldAtLabel": "Verkauft bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "Kanada"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Die Nahrungsergänzungsmittel verfügen nicht über kindersichere Verpackungen, die gemäß dem Poison Prevention Packaging Act (PPPA) erforderlich sind, was das Risiko einer Vergiftung bei kleinen Kindern erhöht."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Verbraucher sollten die zurückgerufenen Flaschen außerhalb der Reichweite von Kindern aufbewahren und NFH für eine kostenlose Ersatzflasche mit kindersicherem Verschluss kontaktieren. NFH benachrichtigt alle bekannten Käufer direkt über diesen Rückruf."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Ersetzen"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "子供に優しくない包装のためのNFH鉄分栄養補助食品のリコール",
+          "Description": "健康のための栄養基礎（NFH）は、鉄SAP、ヘム鉄SAP、および妊娠中SAPの栄養補助食品のリコールを発表しました。これらの製品は、NFHブランド名と青い葉のロゴが付いた白いボトルに包装されています。日付コードは各ボトルの底に記載されています。サプリメントはさまざまなサイズで提供され、リコール対象のアイテムを特定する特定の日付コードが含まれています。消費者は、提供された日付コードと自分のボトルを照らし合わせて、リコールの影響を受けているかどうかを確認することをお勧めします。",
+          "ConsumerContact": "詳細については、消費者はNFHに866-510-3123までお電話いただくか、月曜日から金曜日の午前9時から午後5時（ET）までにメールinfo@nfh.caまでご連絡ください。追加の詳細は、彼らのウェブサイトhttps://nfh.ca/の「リコール」セクションをクリックすることで入手できます。",
+          "metaDescription": "NFHは、子供に優しくない包装規制に違反しているため、鉄SAP、ヘム鉄SAP、および妊娠中SAPサプリメントをリコールします。今すぐボトルを確認してください。",
+          "Products": [
+            {
+              "Name": "NFH鉄SAP",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約17,660"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコールされた鉄SAP鉄グリシネート（120カプセル1167U）"
+            },
+            {
+              "Caption": "リコールされた鉄SAP鉄グリシネート（60カプセル1029U）"
+            },
+            {
+              "Caption": "リコールされたヘム鉄SAP優れた吸収と生物利用能（60カプセル1124U）"
+            },
+            {
+              "Caption": "リコールされた妊娠中SAPマルチビタミン（180カプセル1034U）"
+            },
+            {
+              "Caption": "ロットと有効期限についてはボトルの底をご覧ください：（例）"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "報告された怪我はありません"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "全国のさまざまな自然療法およびホメオパシークリニック、A Woman's Time、Doctor Supplementストア、およびWholescriptsInc.comとFullscript.comで2022年3月から2024年12月まで販売、製品とサイズに応じて20ドルから95ドルの価格。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "健康のための栄養基礎（NFHとして営業）、カナダ"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "健康のための栄養基礎（NFHとして営業）、カナダ"
+            }
+          ],
+          "SoldAtLabel": "販売場所",
+          "ManufacturerCountries": [
+            {
+              "Country": "カナダ"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "栄養補助食品は子供に優しくない包装が欠如しており、これは毒物防止包装法（PPPA）によって要求されており、幼い子供の中毒のリスクを高めています。"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "消費者はリコールされたボトルを子供の手の届かない場所に保管し、NFHに無料の子供に優しいボトルの交換を依頼するべきです。NFHは、すべての既知の購入者にこのリコールについて直接通知しています。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "交換"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "Recall de Suplementos Dietéticos de Ferro da NFH Devido à Embalagem Não Resistente a Crianças",
+          "Description": "A Nutritional Fundamentals for Health (NFH) emitiu um recall para seus suplementos dietéticos Iron SAP, Heme Iron SAP e Prenatal SAP. Esses produtos estão embalados em frascos brancos com o nome da marca NFH e um logotipo de folha azul. Os códigos de data podem ser encontrados na parte inferior de cada frasco. Os suplementos vêm em vários tamanhos e incluem códigos de data específicos que identificam os itens recallados. Os consumidores são aconselhados a verificar seus frascos em relação aos códigos de data fornecidos para determinar se estão afetados por este recall.",
+          "ConsumerContact": "Para mais informações, os consumidores podem entrar em contato com a NFH pelo telefone 866-510-3123, das 9h às 17h ET, de segunda a sexta-feira, ou enviar um e-mail para info@nfh.ca. Detalhes adicionais estão disponíveis em seu site em https://nfh.ca/ clicando na seção \"Recall\".",
+          "metaDescription": "A NFH recall os suplementos Iron SAP, Heme Iron SAP e Prenatal SAP devido à não conformidade com as regulamentações de embalagem resistente a crianças. Verifique seus frascos agora.",
+          "Products": [
+            {
+              "Name": "NFH Iron SAP",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 17.660"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Iron SAP Iron Glycinate Recallado (120 cápsulas 1167U)"
+            },
+            {
+              "Caption": "Iron SAP Iron Glycinate Recallado (60 cápsulas 1029U)"
+            },
+            {
+              "Caption": "Heme Iron SAP Recallado Superior Absorption and bioavailability (60 cápsulas 1124U)"
+            },
+            {
+              "Caption": "Prenatal SAP Multivitamin Recallado (180 cápsulas 1034U)"
+            },
+            {
+              "Caption": "Por favor, veja a parte inferior do frasco para lote e data de validade: (Exemplo)"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Nenhum relatado"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Várias clínicas naturopáticas e homeopáticas em todo o país, A Woman's Time, lojas Doctor Supplement e online em WholescriptsInc.com e Fullscript.com de março de 2022 até dezembro de 2024, com preços entre $20 e $95 com base no produto e tamanho."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Nutritional Fundamentals for Health (dba NFH), do Canadá"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Nutritional Fundamentals for Health (dba NFH), do Canadá"
+            }
+          ],
+          "SoldAtLabel": "Vendido Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "Canadá"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Os suplementos dietéticos não possuem embalagem resistente a crianças, o que é exigido pela Lei de Prevenção de Envenenamento (PPPA), aumentando o risco de envenenamento em crianças pequenas."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Os consumidores devem manter os frascos recallados fora do alcance das crianças e entrar em contato com a NFH para obter um frasco resistente a crianças gratuito. A NFH está notificando diretamente todos os compradores conhecidos sobre este recall."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Substituir"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "NFH आयरन डाइटरी सप्लीमेंट्स काRecall बच्चों के लिए प्रतिरोधी पैकेजिंग की कमी के कारण",
+          "Description": "न्यूट्रिशनल फंडामेंटल्स फॉर हेल्थ (NFH) ने अपने आयरन SAP, हीम आयरन SAP, और प्रीनेटल SAP डाइटरी सप्लीमेंट्स काRecall जारी किया है। ये उत्पाद सफेद बोतलों में पैक किए गए हैं जिन पर NFH ब्रांड नाम और एक नीले पत्ते का लोगो है। तारीख कोड प्रत्येक बोतल के नीचे पाए जा सकते हैं। सप्लीमेंट्स विभिन्न आकारों में आते हैं और इनमें विशिष्ट तारीख कोड शामिल होते हैं जोRecall किए गए आइटम की पहचान करते हैं। उपभोक्ताओं को सलाह दी जाती है कि वे अपने बोतलों की जांच करें कि क्या वे प्रदान किए गए तारीख कोड के खिलाफ प्रभावित हैं।",
+          "ConsumerContact": "अधिक जानकारी के लिए, उपभोक्ता NFH से 866-510-3123 पर सुबह 9 बजे से शाम 5 बजे ET, सोमवार से शुक्रवार, या info@nfh.ca पर ईमेल करके संपर्क कर सकते हैं। उनके वेबसाइट पर https://nfh.ca/ पर \"Recall\" सेक्शन पर क्लिक करके अतिरिक्त विवरण उपलब्ध हैं।",
+          "metaDescription": "NFH आयरन SAP, हीम आयरन SAP, और प्रीनेटल SAP सप्लीमेंट्स काRecall बच्चों के लिए प्रतिरोधी पैकेजिंग नियमों के अनुपालन की कमी के कारण किया गया है। अभी अपनी बोतलों की जांच करें।",
+          "Products": [
+            {
+              "Name": "NFH आयरन SAP",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 17,660"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recall किया गया आयरन SAP आयरन ग्लाइसिनेट (120 कैप्सूल 1167U)"
+            },
+            {
+              "Caption": "Recall किया गया आयरन SAP आयरन ग्लाइसिनेट (60 कैप्सूल 1029U)"
+            },
+            {
+              "Caption": "Recall किया गया हीम आयरन SAP सुपरियर अवशोषण और जैव उपलब्धता (60 कैप्सूल 1124U)"
+            },
+            {
+              "Caption": "Recall किया गया प्रीनेटल SAP मल्टीविटामिन (180 कैप्सूल 1034U)"
+            },
+            {
+              "Caption": "कृपया बोतल के नीचे लॉट और समाप्ति तिथि के लिए देखें: (उदाहरण)"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "कोई रिपोर्ट नहीं"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "देश भर के विभिन्न नैचुरोपैथिक और होम्योपैथिक क्लिनिक, ए वुमन'स टाइम, डॉक्टर सप्लीमेंट स्टोर्स, और ऑनलाइन WholescriptsInc.com और Fullscript.com पर मार्च 2022 से दिसंबर 2024 तक, उत्पाद और आकार के आधार पर $20 से $95 के बीच।"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "न्यूट्रिशनल फंडामेंटल्स फॉर हेल्थ (dba NFH), कनाडा का"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "न्यूट्रिशनल फंडामेंटल्स फॉर हेल्थ (dba NFH), कनाडा का"
+            }
+          ],
+          "SoldAtLabel": "बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "कनाडा"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "डाइटरी सप्लीमेंट्स में बच्चों के लिए प्रतिरोधी पैकेजिंग की कमी है, जो जहर रोकथाम पैकेजिंग अधिनियम (PPPA) द्वारा आवश्यक है, जिससे छोटे बच्चों में जहर का जोखिम बढ़ जाता है।"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "उपभोक्ताओं को चाहिए कि वेRecall की गई बोतलों को बच्चों की पहुंच से दूर रखें और NFH से मुफ्त प्रतिस्थापन बच्चों के लिए प्रतिरोधी बोतल के लिए संपर्क करें। NFH सभी ज्ञात खरीदारों को इसRecall के बारे में सीधे सूचित कर रहा है।"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "बदली"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "Отзыв железосодержащих диетических добавок NFH из-за упаковки, не защищенной от детей",
+          "Description": "Nutritional Fundamentals for Health (NFH) объявила отзыв своих диетических добавок Iron SAP, Heme Iron SAP и Prenatal SAP. Эти продукты упакованы в белые бутылки с названием бренда NFH и логотипом синего листа. Дата кодов можно найти на дне каждой бутылки. Добавки представлены в различных размерах и включают конкретные коды дат, которые идентифицируют отозванные товары. Потребителям рекомендуется проверить свои бутылки по предоставленным кодам дат, чтобы определить, затрагивает ли их этот отзыв.\n",
+          "ConsumerContact": "Для получения дополнительной информации потребители могут связаться с NFH по телефону 866-510-3123 с 9:00 до 17:00 по восточному времени, с понедельника по пятницу, или отправить электронное письмо на адрес info@nfh.ca. Дополнительные сведения доступны на их веб-сайте по адресу https://nfh.ca/, нажав на раздел \"Отзыв\".",
+          "metaDescription": "NFH отзывает добавки Iron SAP, Heme Iron SAP и Prenatal SAP из-за несоответствия требованиям к упаковке, защищенной от детей. Проверьте свои бутылки сейчас.",
+          "Products": [
+            {
+              "Name": "NFH Iron SAP",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 17,660"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванный Iron SAP Iron Glycinate (120 капсул 1167U)"
+            },
+            {
+              "Caption": "Отозванный Iron SAP Iron Glycinate (60 капсул 1029U)"
+            },
+            {
+              "Caption": "Отозванный Heme Iron SAP Superior Absorption and bioavailability (60 капсул 1124U)"
+            },
+            {
+              "Caption": "Отозванный Prenatal SAP Multivitamin (180 капсул 1034U)"
+            },
+            {
+              "Caption": "Пожалуйста, смотрите дно бутылки для информации о партии и сроке годности: (Пример)"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Не сообщалось"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Различные натуропатические и гомеопатические клиники по всей стране, A Woman's Time, магазины Doctor Supplement и онлайн на WholescriptsInc.com и Fullscript.com с марта 2022 года по декабрь 2024 года, по цене от $20 до $95 в зависимости от продукта и размера."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Nutritional Fundamentals for Health (dba NFH), Канада"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Nutritional Fundamentals for Health (dba NFH), Канада"
+            }
+          ],
+          "SoldAtLabel": "Продается в",
+          "ManufacturerCountries": [
+            {
+              "Country": "Канада"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Диетические добавки не имеют упаковки, защищенной от детей, что требуется Законом о предотвращении отравлений (PPPA), что увеличивает риск отравления у маленьких детей."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Потребители должны держать отозванные бутылки вне досягаемости детей и связаться с NFH для получения бесплатной замены бутылки, защищенной от детей. NFH напрямую уведомляет всех известных покупателей об этом отзыве."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Заменить"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "Thu hồi thực phẩm chức năng sắt NFH do bao bì không chống trẻ em",
+          "Description": "Nutritional Fundamentals for Health (NFH) đã phát động thu hồi các thực phẩm chức năng Sắt SAP, Heme Iron SAP và Prenatal SAP của họ. Những sản phẩm này được đóng gói trong các chai màu trắng có tên thương hiệu NFH và logo lá màu xanh. Mã ngày có thể được tìm thấy ở đáy mỗi chai. Các thực phẩm chức năng có nhiều kích cỡ khác nhau và bao gồm các mã ngày cụ thể xác định các mặt hàng bị thu hồi. Người tiêu dùng được khuyên nên kiểm tra các chai của họ với các mã ngày được cung cấp để xác định xem họ có bị ảnh hưởng bởi đợt thu hồi này hay không.",
+          "ConsumerContact": "Để biết thêm thông tin, người tiêu dùng có thể liên hệ với NFH qua số 866-510-3123 từ 9 giờ sáng đến 5 giờ chiều ET, từ thứ Hai đến thứ Sáu, hoặc gửi email đến info@nfh.ca. Thông tin chi tiết bổ sung có sẵn trên trang web của họ tại https://nfh.ca/ bằng cách nhấp vào phần \"Recall\".",
+          "metaDescription": "NFH thu hồi các thực phẩm chức năng Sắt SAP, Heme Iron SAP và Prenatal SAP do không tuân thủ quy định về bao bì chống trẻ em. Kiểm tra các chai của bạn ngay bây giờ.",
+          "Products": [
+            {
+              "Name": "NFH Iron SAP",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 17,660"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Sắt SAP Iron Glycinate bị thu hồi (120 viên 1167U)"
+            },
+            {
+              "Caption": "Sắt SAP Iron Glycinate bị thu hồi (60 viên 1029U)"
+            },
+            {
+              "Caption": "Heme Iron SAP hấp thụ và sinh khả dụng vượt trội bị thu hồi (60 viên 1124U)"
+            },
+            {
+              "Caption": "Prenatal SAP Multivitamin bị thu hồi (180 viên 1034U)"
+            },
+            {
+              "Caption": "Vui lòng xem đáy chai để biết lô và hạn sử dụng: (Ví dụ)"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Không có báo cáo"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Nhiều phòng khám naturopathic và homeopathic trên toàn quốc, A Woman's Time, các cửa hàng Doctor Supplement, và trực tuyến tại WholescriptsInc.com và Fullscript.com từ tháng 3 năm 2022 đến tháng 12 năm 2024, có giá từ 20 đến 95 đô la tùy thuộc vào sản phẩm và kích cỡ."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Nutritional Fundamentals for Health (dba NFH), của Canada"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Nutritional Fundamentals for Health (dba NFH), của Canada"
+            }
+          ],
+          "SoldAtLabel": "Bán Tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Canada"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Các thực phẩm chức năng thiếu bao bì chống trẻ em, điều này là cần thiết theo Đạo luật Bao bì Ngăn ngừa Ngộ độc (PPPA), làm tăng nguy cơ ngộ độc ở trẻ nhỏ."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Người tiêu dùng nên giữ các chai bị thu hồi ngoài tầm với của trẻ em và liên hệ với NFH để nhận chai thay thế miễn phí có khả năng chống trẻ em. NFH đang thông báo trực tiếp đến tất cả những người mua đã biết về đợt thu hồi này."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Thay thế"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    }
+  ]
+}

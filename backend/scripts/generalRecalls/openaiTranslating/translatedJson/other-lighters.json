@@ -1,0 +1,762 @@
+{
+  "meta": {
+    "slug": "other-lighters",
+    "sourceCsvFile": "other-lighters_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:37.019Z",
+    "recallCount": 1,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "other-lighters.json",
+    "seoTranslatedAt": "2026-04-05T02:05:54.319Z",
+    "resumePartial": false,
+    "i18nSource": "generalRecallsTranslated",
+    "i18nSourceFile": "other-lighters.json",
+    "i18nUiLangs": [
+      "en",
+      "es",
+      "ar",
+      "zh",
+      "fr",
+      "de",
+      "ja",
+      "pt",
+      "hi",
+      "ru",
+      "vi"
+    ],
+    "i18nProgressByLang": {
+      "es": 1,
+      "ar": 1,
+      "zh": 1,
+      "fr": 1,
+      "de": 1,
+      "ja": 1,
+      "pt": 1,
+      "hi": 1,
+      "ru": 1,
+      "vi": 1
+    },
+    "i18nInProgress": false,
+    "i18nTranslatedAt": "2026-04-07T16:13:24.008Z",
+    "i18nOpenaiModel": "gpt-4o-mini"
+  },
+  "recalls": [
+    {
+      "RecallID": 10421,
+      "RecallNumber": "26006",
+      "RecallDate": "2025-10-09T00:00:00",
+      "Description": "Calico Brands is recalling the Scripto® Premium Torch, which features a four-position adjustable metal nozzle, adjustable flame, hands-free operation lock, and a black ergonomic non-slip rubber grip. This product, which has a metal base with a black velvet bottom, poses significant fire and burn hazards, violating mandatory safety standards for multipurpose lighters. The UPC for this product is 0-70257-52226-6, located on the back of the product box.",
+      "URL": "https://www.cpsc.gov/Recalls/2026/Calico-Brands-Recalls-Scripto-Premium-Torches-Due-to-Risk-of-Injury-or-Death-from-Fires-and-Burns-Violates-Mandatory-Standard-for-Multipurpose-Lighters",
+      "Title": "Calico Brands Issues Recall for Scripto Premium Torches Due to Fire and Burn Risks",
+      "ConsumerContact": "For more information, consumers can contact Calico Brands at 800-544-4837 from 9 a.m. to 4 p.m. PT, Monday through Friday, email premiumtorchrecall@calicobrands.com, or visit www.calicobrands.com/premiumtorchrecall.html. Additional details can be found by clicking on 'Product Recall' at the bottom of the homepage.",
+      "LastPublishDate": "2025-10-09T00:00:00",
+      "Products": [
+        {
+          "Name": "Scripto® Premium Torch",
+          "NumberOfUnits": "About 175,000"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/other-lighters/1-Scripto-Premium-Torch/d3eff072b5286d73c05cc12d84ae2c22.webp",
+          "Caption": "Recalled Scripto® Premium Torch",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/scripto-torch.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available at Walmart and Home Depot stores nationwide, as well as online at Walmart.com and Homedepot.com from November 2024 through August 2025, priced around $15."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Calico Brands, of Ontario, California"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "ProductUPCs": [
+        {
+          "UPC": "070257522266"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Fire and burn hazards due to violation of safety standards for multipurpose lighters."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should cease use of the torches immediately and return them to the retailer for a full refund or store credit. Alternatively, they can contact Calico Brands for return instructions and receive a shipping label along with appropriate hazmat packaging to return the torches at no cost."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "slug": "calico-brands-issues-recall-for-scripto-premium-torches-due-to-fire-and-burn-risks-recall",
+      "metaDescription": "Calico Brands recalls Scripto Premium Torches due to fire and burn risks. Stop using immediately and return for a refund.",
+      "languages": {
+        "en": {
+          "Title": "Calico Brands Issues Recall for Scripto Premium Torches Due to Fire and Burn Risks",
+          "Description": "Calico Brands is recalling the Scripto® Premium Torch, which features a four-position adjustable metal nozzle, adjustable flame, hands-free operation lock, and a black ergonomic non-slip rubber grip. This product, which has a metal base with a black velvet bottom, poses significant fire and burn hazards, violating mandatory safety standards for multipurpose lighters. The UPC for this product is 0-70257-52226-6, located on the back of the product box.",
+          "ConsumerContact": "For more information, consumers can contact Calico Brands at 800-544-4837 from 9 a.m. to 4 p.m. PT, Monday through Friday, email premiumtorchrecall@calicobrands.com, or visit www.calicobrands.com/premiumtorchrecall.html. Additional details can be found by clicking on 'Product Recall' at the bottom of the homepage.",
+          "metaDescription": "Calico Brands recalls Scripto Premium Torches due to fire and burn risks. Stop using immediately and return for a refund.",
+          "Products": [
+            {
+              "Name": "Scripto® Premium Torch",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 175,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled Scripto® Premium Torch"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "None reported"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Available at Walmart and Home Depot stores nationwide, as well as online at Walmart.com and Homedepot.com from November 2024 through August 2025, priced around $15."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Calico Brands, of Ontario, California"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Sold At",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Fire and burn hazards due to violation of safety standards for multipurpose lighters."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Consumers should cease use of the torches immediately and return them to the retailer for a full refund or store credit. Alternatively, they can contact Calico Brands for return instructions and receive a shipping label along with appropriate hazmat packaging to return the torches at no cost."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Refund"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "Calico Brands Emite un Recall para las Antorchas Scripto Premium Debido a Riesgos de Incendio y Quemaduras",
+          "Description": "Calico Brands está retirando del mercado la Antorcha Scripto® Premium, que cuenta con una boquilla metálica ajustable en cuatro posiciones, llama ajustable, bloqueo de operación manos libres y un agarre ergonómico de goma negra antideslizante. Este producto, que tiene una base metálica con un fondo de terciopelo negro, presenta riesgos significativos de incendio y quemaduras, violando las normas de seguridad obligatorias para encendedores multipropósito. El UPC de este producto es 0-70257-52226-6, ubicado en la parte posterior de la caja del producto.",
+          "ConsumerContact": "Para más información, los consumidores pueden contactar a Calico Brands al 800-544-4837 de 9 a.m. a 4 p.m. PT, de lunes a viernes, enviar un correo electrónico a premiumtorchrecall@calicobrands.com, o visitar www.calicobrands.com/premiumtorchrecall.html. Se pueden encontrar detalles adicionales haciendo clic en 'Recall de Producto' en la parte inferior de la página de inicio.",
+          "metaDescription": "Calico Brands retira del mercado las Antorchas Scripto Premium debido a riesgos de incendio y quemaduras. Deje de usarlas inmediatamente y devuélvalas para un reembolso.",
+          "Products": [
+            {
+              "Name": "Antorcha Scripto® Premium",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 175,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Antorcha Scripto® Premium retirada"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Ninguna reportada"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible en tiendas Walmart y Home Depot en todo el país, así como en línea en Walmart.com y Homedepot.com desde noviembre de 2024 hasta agosto de 2025, con un precio de alrededor de $15."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Calico Brands, de Ontario, California"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendidos En",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Riesgos de incendio y quemaduras debido a la violación de las normas de seguridad para encendedores multipropósito."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Los consumidores deben dejar de usar las antorchas inmediatamente y devolverlas al minorista para un reembolso completo o crédito en la tienda. Alternativamente, pueden contactar a Calico Brands para obtener instrucciones de devolución y recibir una etiqueta de envío junto con el embalaje adecuado para materiales peligrosos para devolver las antorchas sin costo."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reembolso"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "كالكو براندز تصدر استدعاء لمشاعل سكرِبتو بريميوم بسبب مخاطر الحريق والحروق",
+          "Description": "تقوم كالكو براندز باستدعاء مشعل سكرِبتو® بريميوم، الذي يتميز بفوهة معدنية قابلة للتعديل بأربع وضعيات، وشعلة قابلة للتعديل، وقفل تشغيل بدون استخدام اليدين، ومقبض مطاطي أسود مريح وغير قابل للانزلاق. هذا المنتج، الذي يحتوي على قاعدة معدنية مع قاع مخملي أسود، يشكل مخاطر كبيرة للحريق والحروق، مما ينتهك معايير السلامة الإلزامية لمشاعل الاستخدام المتعدد. رقم UPC لهذا المنتج هو 0-70257-52226-6، الموجود على ظهر صندوق المنتج.",
+          "ConsumerContact": "لمزيد من المعلومات، يمكن للمستهلكين الاتصال بكالكو براندز على الرقم 800-544-4837 من الساعة 9 صباحًا حتى 4 مساءً بتوقيت المحيط الهادئ، من الاثنين إلى الجمعة، أو عبر البريد الإلكتروني premiumtorchrecall@calicobrands.com، أو زيارة www.calicobrands.com/premiumtorchrecall.html. يمكن العثور على تفاصيل إضافية من خلال النقر على 'استدعاء المنتج' في أسفل الصفحة الرئيسية.",
+          "metaDescription": "كالكو براندز تستدعي مشاعل سكرِبتو بريميوم بسبب مخاطر الحريق والحروق. توقف عن الاستخدام فورًا وارجع للحصول على استرداد.",
+          "Products": [
+            {
+              "Name": "مشعل سكرِبتو® بريميوم",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 175,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "مشعل سكرِبتو® بريميوم المستدعى"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "لا توجد إصابات مسجلة"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "متوفر في متاجر وول مارت وهوم ديبوت في جميع أنحاء البلاد، بالإضافة إلى الإنترنت على Walmart.com وHomedepot.com من نوفمبر 2024 حتى أغسطس 2025، بسعر حوالي 15 دولار."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "كالكو براندز، من أونتاريو، كاليفورنيا"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "تم البيع في",
+          "ManufacturerCountries": [
+            {
+              "Country": "الصين"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "مخاطر الحريق والحروق بسبب انتهاك معايير السلامة لمشاعل الاستخدام المتعدد."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "يجب على المستهلكين التوقف عن استخدام المشاعل فورًا وإعادتها إلى بائع التجزئة للحصول على استرداد كامل أو رصيد في المتجر. بدلاً من ذلك، يمكنهم الاتصال بكالكو براندز للحصول على تعليمات الإرجاع واستلام ملصق شحن مع التعبئة المناسبة للمواد الخطرة لإعادة المشاعل دون أي تكلفة."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "استرداد"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "Calico Brands 因火灾和烧伤风险召回 Scripto Premium Torches",
+          "Description": "Calico Brands 正在召回 Scripto® Premium Torch，该产品具有四档可调金属喷嘴、可调火焰、免提操作锁和黑色符合人体工程学的防滑橡胶握柄。该产品的金属底座配有黑色天鹅绒底部，存在显著的火灾和烧伤危险，违反了多用途打火机的强制安全标准。该产品的 UPC 为 0-70257-52226-6，位于产品盒的背面。",
+          "ConsumerContact": "如需更多信息，消费者可以在太平洋时间周一至周五上午 9 点至下午 4 点拨打 Calico Brands 的电话 800-544-4837，或发送电子邮件至 premiumtorchrecall@calicobrands.com，或访问 www.calicobrands.com/premiumtorchrecall.html。更多详细信息可通过点击主页底部的“产品召回”找到。",
+          "metaDescription": "Calico Brands 因火灾和烧伤风险召回 Scripto Premium Torches。请立即停止使用并退回以获得退款。",
+          "Products": [
+            {
+              "Name": "Scripto® Premium Torch",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约 175,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "召回的 Scripto® Premium Torch"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "无报告伤害"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "在全国的沃尔玛和家得宝商店有售，以及在 Walmart.com 和 Homedepot.com 在线销售，销售时间为 2024 年 11 月至 2025 年 8 月，价格约为 $15。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "加利福尼亚州安大略市的 Calico Brands"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "销售地点",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "由于违反多用途打火机的安全标准而导致的火灾和烧伤危险。"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "消费者应立即停止使用这些火炬，并将其退回零售商以获得全额退款或商店信用。或者，他们可以联系 Calico Brands 获取退货说明，并收到运送标签以及适当的危险品包装，以免费退回火炬。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "退款"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "Calico Brands rappelle des torches Scripto Premium en raison de risques d'incendie et de brûlures",
+          "Description": "Calico Brands rappelle la torche Scripto® Premium, qui dispose d'un embout métallique ajustable à quatre positions, d'une flamme réglable, d'un verrouillage de fonctionnement mains libres et d'une prise en caoutchouc ergonomique antidérapante noire. Ce produit, qui a une base en métal avec un fond en velours noir, présente des risques d'incendie et de brûlures significatifs, violant les normes de sécurité obligatoires pour les briquets multifonctions. Le code UPC de ce produit est 0-70257-52226-6, situé au dos de la boîte du produit.",
+          "ConsumerContact": "Pour plus d'informations, les consommateurs peuvent contacter Calico Brands au 800-544-4837 de 9 h à 16 h PT, du lundi au vendredi, envoyer un e-mail à premiumtorchrecall@calicobrands.com, ou visiter www.calicobrands.com/premiumtorchrecall.html. Des détails supplémentaires peuvent être trouvés en cliquant sur 'Rappel de produit' en bas de la page d'accueil.",
+          "metaDescription": "Calico Brands rappelle des torches Scripto Premium en raison de risques d'incendie et de brûlures. Cessez immédiatement de les utiliser et retournez-les pour un remboursement.",
+          "Products": [
+            {
+              "Name": "Torche Scripto® Premium",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 175 000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Torche Scripto® Premium rappelée"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Aucune signalée"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible dans les magasins Walmart et Home Depot à l'échelle nationale, ainsi qu'en ligne sur Walmart.com et Homedepot.com de novembre 2024 à août 2025, au prix d'environ 15 $."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Calico Brands, d'Ontario, Californie"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendu À",
+          "ManufacturerCountries": [
+            {
+              "Country": "Chine"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risques d'incendie et de brûlures en raison de la violation des normes de sécurité pour les briquets multifonctions."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Les consommateurs doivent cesser immédiatement d'utiliser les torches et les retourner au détaillant pour un remboursement complet ou un crédit en magasin. Alternativement, ils peuvent contacter Calico Brands pour des instructions de retour et recevoir une étiquette d'expédition ainsi qu'un emballage approprié pour retourner les torches sans frais."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Remboursement"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "Calico Brands ruft Scripto Premium Taschenlampen wegen Brand- und Verbrennungsrisiken zurück",
+          "Description": "Calico Brands ruft die Scripto® Premium Taschenlampe zurück, die über eine vierstufige verstellbare Metalldüse, eine einstellbare Flamme, eine freihändige Betriebssperre und einen schwarzen ergonomischen rutschfesten Gummi-Griff verfügt. Dieses Produkt, das eine Metallbasis mit einem schwarzen Samtboden hat, stellt erhebliche Brand- und Verbrennungsgefahren dar und verstößt gegen die vorgeschriebenen Sicherheitsstandards für Mehrzweckfeuerzeuge. Der UPC für dieses Produkt ist 0-70257-52226-6, der sich auf der Rückseite der Produktverpackung befindet.",
+          "ConsumerContact": "Für weitere Informationen können Verbraucher Calico Brands unter 800-544-4837 von 9 bis 16 Uhr PT, Montag bis Freitag, kontaktieren, eine E-Mail an premiumtorchrecall@calicobrands.com senden oder die Website www.calicobrands.com/premiumtorchrecall.html besuchen. Weitere Details finden Sie, indem Sie auf 'Produkt Rückruf' am Ende der Startseite klicken.",
+          "metaDescription": "Calico Brands ruft Scripto Premium Taschenlampen wegen Brand- und Verbrennungsrisiken zurück. Sofortige Nutzung einstellen und zur Rückerstattung zurückgeben.",
+          "Products": [
+            {
+              "Name": "Scripto® Premium Taschenlampe",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 175.000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Zurückgerufene Scripto® Premium Taschenlampe"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Keine gemeldet"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Erhältlich in Walmart- und Home Depot-Filialen landesweit sowie online bei Walmart.com und Homedepot.com von November 2024 bis August 2025, zum Preis von etwa 15 $."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Calico Brands, Ontario, Kalifornien"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Verkauft bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Brand- und Verbrennungsgefahren aufgrund von Verstößen gegen Sicherheitsstandards für Mehrzweckfeuerzeuge."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Verbraucher sollten die Verwendung der Taschenlampen sofort einstellen und sie an den Einzelhändler zur vollständigen Rückerstattung oder Gutschrift zurückgeben. Alternativ können sie Calico Brands für Rücksendeanweisungen kontaktieren und ein Versandetikett sowie geeignete Gefahrgutverpackungen erhalten, um die Taschenlampen kostenlos zurückzusenden."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Rückerstattung"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "カリコブランドが火災および火傷のリスクによりスクリプトプレミアムトーチをリコール",
+          "Description": "カリコブランドは、4段階調整可能な金属ノズル、調整可能な炎、ハンズフリー操作ロック、黒の人間工学に基づいた滑り止めラバーグリップを特徴とするScripto®プレミアムトーチをリコールしています。この製品は、黒のベルベット底を持つ金属製のベースを持ち、重大な火災および火傷の危険をもたらし、多目的ライターのための必須安全基準に違反しています。この製品のUPCは0-70257-52226-6で、製品ボックスの背面にあります。",
+          "ConsumerContact": "詳細については、カリコブランドに連絡することができます。電話番号は800-544-4837で、月曜日から金曜日の午前9時から午後4時（PT）まで、またはメールでpremiumtorchrecall@calicobrands.comに連絡するか、www.calicobrands.com/premiumtorchrecall.htmlを訪問してください。ホームページの下部にある「製品リコール」をクリックすることで、追加の詳細を見つけることができます。",
+          "metaDescription": "カリコブランドが火災および火傷のリスクによりスクリプトプレミアムトーチをリコール。直ちに使用を中止し、返金のために返品してください。",
+          "Products": [
+            {
+              "Name": "Scripto®プレミアムトーチ",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約175,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコールされたScripto®プレミアムトーチ"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "報告された怪我はありません"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "全国のWalmartおよびHome Depot店舗、ならびに2024年11月から2025年8月までWalmart.comおよびHomedepot.comでオンラインで入手可能で、価格は約15ドルです。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "カリコブランド、カリフォルニア州オンタリオ"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "販売場所",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "多目的ライターの安全基準違反による火災および火傷の危険。"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "消費者はトーチの使用を直ちに中止し、小売業者に返却して全額返金またはストアクレジットを受けるべきです。代わりに、カリコブランドに連絡して返却手順を受け取り、トーチを無料で返却するための適切な危険物包装と配送ラベルを受け取ることができます。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "返金"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "Calico Brands Emite Recall para Tochas Scripto Premium Devido a Riscos de Incêndio e Queimaduras",
+          "Description": "Calico Brands está recallando a Tocha Scripto® Premium, que possui um bico metálico ajustável em quatro posições, chama ajustável, bloqueio de operação sem as mãos e um cabo ergonômico de borracha preta antiderrapante. Este produto, que tem uma base metálica com um fundo de veludo preto, apresenta riscos significativos de incêndio e queimaduras, violando normas de segurança obrigatórias para isqueiros multifuncionais. O UPC deste produto é 0-70257-52226-6, localizado na parte de trás da caixa do produto.",
+          "ConsumerContact": "Para mais informações, os consumidores podem entrar em contato com a Calico Brands pelo telefone 800-544-4837 das 9h às 16h PT, de segunda a sexta-feira, enviar um e-mail para premiumtorchrecall@calicobrands.com ou visitar www.calicobrands.com/premiumtorchrecall.html. Detalhes adicionais podem ser encontrados clicando em 'Recall de Produto' na parte inferior da página inicial.",
+          "metaDescription": "Calico Brands recalla Tochas Scripto Premium devido a riscos de incêndio e queimaduras. Pare de usar imediatamente e devolva para um reembolso.",
+          "Products": [
+            {
+              "Name": "Tocha Scripto® Premium",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 175.000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Tocha Scripto® Premium Recallada"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Nenhuma relatada"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponível nas lojas Walmart e Home Depot em todo o país, bem como online em Walmart.com e Homedepot.com de novembro de 2024 a agosto de 2025, com preço em torno de $15."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Calico Brands, de Ontario, Califórnia"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendido Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Riscos de incêndio e queimaduras devido à violação das normas de segurança para isqueiros multifuncionais."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Os consumidores devem interromper o uso das tochas imediatamente e devolvê-las ao varejista para um reembolso total ou crédito na loja. Alternativamente, eles podem entrar em contato com a Calico Brands para obter instruções de devolução e receber uma etiqueta de envio junto com a embalagem adequada para materiais perigosos para devolver as tochas sem custo."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reembolso"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "कैलीको ब्रांड्स ने आग और जलने के जोखिम के कारण स्क्रिप्टो प्रीमियम टॉर्च का रीकॉल किया",
+          "Description": "कैलीको ब्रांड्स स्क्रिप्टो® प्रीमियम टॉर्च का रीकॉल कर रहा है, जिसमें चार-स्थिति समायोज्य धातु नोज़ल, समायोज्य ज्वाला, हाथों-फ्री संचालन लॉक, और एक काले एर्गोनोमिक नॉन-स्लिप रबर ग्रिप है। इस उत्पाद में एक धातु का आधार है जिसमें काले मखमली नीचे है, जो महत्वपूर्ण आग और जलने के खतरों का सामना करता है, जो बहुउद्देशीय लाइटर्स के लिए अनिवार्य सुरक्षा मानकों का उल्लंघन करता है। इस उत्पाद का UPC 0-70257-52226-6 है, जो उत्पाद बॉक्स के पीछे स्थित है।",
+          "ConsumerContact": "अधिक जानकारी के लिए, उपभोक्ता कैलीको ब्रांड्स से 800-544-4837 पर सुबह 9 बजे से शाम 4 बजे तक पीटी, सोमवार से शुक्रवार, ईमेल premiumtorchrecall@calicobrands.com पर संपर्क कर सकते हैं, या www.calicobrands.com/premiumtorchrecall.html पर जा सकते हैं। अतिरिक्त विवरण होमपेज के नीचे 'उत्पाद रीकॉल' पर क्लिक करके पाया जा सकता है।",
+          "metaDescription": "कैलीको ब्रांड्स आग और जलने के जोखिम के कारण स्क्रिप्टो प्रीमियम टॉर्च का रीकॉल करता है। तुरंत उपयोग करना बंद करें और धनवापसी के लिए लौटाएं।",
+          "Products": [
+            {
+              "Name": "स्क्रिप्टो® प्रीमियम टॉर्च",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 175,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "रीकॉल किया गया स्क्रिप्टो® प्रीमियम टॉर्च"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "कोई रिपोर्ट नहीं की गई"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "वॉलमार्ट और होम डिपो स्टोर्स में राष्ट्रीय स्तर पर उपलब्ध, साथ ही वॉलमार्ट.com और Homedepot.com पर नवंबर 2024 से अगस्त 2025 तक, कीमत लगभग $15।"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "कैलीको ब्रांड्स, ओंटारियो, कैलिफोर्निया"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "चीन"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "बहुउद्देशीय लाइटर्स के लिए सुरक्षा मानकों के उल्लंघन के कारण आग और जलने के खतरें।"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "उपभोक्ताओं को तुरंत टॉर्च का उपयोग बंद कर देना चाहिए और उन्हें पूर्ण धनवापसी या स्टोर क्रेडिट के लिए रिटेलर को लौटाना चाहिए। वैकल्पिक रूप से, वे कैलीको ब्रांड्स से लौटाने के निर्देश प्राप्त कर सकते हैं और बिना किसी लागत के टॉर्च लौटाने के लिए उचित हज़मैट पैकेजिंग के साथ एक शिपिंग लेबल प्राप्त कर सकते हैं।"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "धनवापसी"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "Компания Calico Brands отзывает Scripto Premium Torches из-за рисков возгорания и ожогов",
+          "Description": "Компания Calico Brands отзывает Scripto® Premium Torch, который имеет регулируемую металлическую насадку с четырьмя положениями, регулируемое пламя, блокировку работы без рук и черную эргономичную нескользящую резиновую ручку. Этот продукт, имеющий металлическое основание с черным бархатным дном, представляет собой значительные риски возгорания и ожогов, нарушая обязательные стандарты безопасности для многофункциональных зажигалок. UPC для этого продукта - 0-70257-52226-6, находится на задней стороне упаковки продукта.",
+          "ConsumerContact": "Для получения дополнительной информации потребители могут связаться с Calico Brands по телефону 800-544-4837 с 9:00 до 16:00 по тихоокеанскому времени, с понедельника по пятницу, отправить электронное письмо на адрес premiumtorchrecall@calicobrands.com или посетить www.calicobrands.com/premiumtorchrecall.html. Дополнительные детали можно найти, нажав на 'Отзыв продукта' внизу главной страницы.",
+          "metaDescription": "Компания Calico Brands отзывает Scripto Premium Torches из-за рисков возгорания и ожогов. Немедленно прекратите использование и верните для получения возврата.",
+          "Products": [
+            {
+              "Name": "Scripto® Premium Torch",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 175,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванный Scripto® Premium Torch"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Нет сообщений о травмах"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Доступно в магазинах Walmart и Home Depot по всей стране, а также онлайн на Walmart.com и Homedepot.com с ноября 2024 года по август 2025 года, по цене около 15 долларов."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Calico Brands, штат Калифорния"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Продается в",
+          "ManufacturerCountries": [
+            {
+              "Country": "Китай"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Риски возгорания и ожогов из-за нарушения стандартов безопасности для многофункциональных зажигалок."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Потребители должны немедленно прекратить использование фонарей и вернуть их в магазин для полного возврата или кредита в магазине. В качестве альтернативы они могут связаться с Calico Brands для получения инструкций по возврату и получить транспортную этикетку вместе с соответствующей упаковкой для опасных материалов для возврата фонарей без каких-либо затрат."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Возврат"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "Calico Brands Thông Báo Thu Hồi Đèn Pin Scripto Premium Do Nguy Cơ Cháy Nổ và Bỏng",
+          "Description": "Calico Brands đang thu hồi đèn pin Scripto® Premium, có vòi kim loại điều chỉnh bốn vị trí, ngọn lửa điều chỉnh, khóa hoạt động không cần tay và tay cầm cao su chống trượt màu đen. Sản phẩm này, có đế kim loại với đáy nhung đen, gây ra nguy cơ cháy nổ và bỏng nghiêm trọng, vi phạm các tiêu chuẩn an toàn bắt buộc cho bật lửa đa năng. UPC cho sản phẩm này là 0-70257-52226-6, nằm ở mặt sau của hộp sản phẩm.",
+          "ConsumerContact": "Để biết thêm thông tin, người tiêu dùng có thể liên hệ với Calico Brands qua số 800-544-4837 từ 9 giờ sáng đến 4 giờ chiều PT, từ thứ Hai đến thứ Sáu, gửi email đến premiumtorchrecall@calicobrands.com, hoặc truy cập www.calicobrands.com/premiumtorchrecall.html. Thông tin chi tiết có thể được tìm thấy bằng cách nhấp vào 'Thông Báo Thu Hồi Sản Phẩm' ở cuối trang chủ.",
+          "metaDescription": "Calico Brands thu hồi đèn pin Scripto Premium do nguy cơ cháy nổ và bỏng. Ngừng sử dụng ngay lập tức và trả lại để được hoàn tiền.",
+          "Products": [
+            {
+              "Name": "Đèn Pin Scripto® Premium",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 175,000"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Đèn Pin Scripto® Premium Đã Bị Thu Hồi"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Không có báo cáo"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Có mặt tại các cửa hàng Walmart và Home Depot trên toàn quốc, cũng như trực tuyến tại Walmart.com và Homedepot.com từ tháng 11 năm 2024 đến tháng 8 năm 2025, với giá khoảng 15 đô la."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Calico Brands, Ontario, California"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Bán Tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Trung Quốc"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Nguy cơ cháy nổ và bỏng do vi phạm tiêu chuẩn an toàn cho bật lửa đa năng."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Người tiêu dùng nên ngừng sử dụng đèn pin ngay lập tức và trả lại cho nhà bán lẻ để được hoàn tiền đầy đủ hoặc tín dụng cửa hàng. Ngoài ra, họ có thể liên hệ với Calico Brands để biết hướng dẫn trả hàng và nhận nhãn vận chuyển cùng với bao bì hazmat phù hợp để trả lại đèn pin mà không tốn phí."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Hoàn tiền"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    }
+  ]
+}

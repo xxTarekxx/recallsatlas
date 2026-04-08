@@ -1,0 +1,833 @@
+{
+  "meta": {
+    "slug": "toy-guns",
+    "sourceCsvFile": "toy-guns_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:37.087Z",
+    "recallCount": 1,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "toy-guns.json",
+    "seoTranslatedAt": "2026-04-05T05:59:40.066Z",
+    "resumePartial": false,
+    "i18nSource": "generalRecallsTranslated",
+    "i18nSourceFile": "toy-guns.json",
+    "i18nUiLangs": [
+      "en",
+      "es",
+      "ar",
+      "zh",
+      "fr",
+      "de",
+      "ja",
+      "pt",
+      "hi",
+      "ru",
+      "vi"
+    ],
+    "i18nProgressByLang": {
+      "es": 1,
+      "ar": 1,
+      "zh": 1,
+      "fr": 1,
+      "de": 1,
+      "ja": 1,
+      "pt": 1,
+      "hi": 1,
+      "ru": 1,
+      "vi": 1
+    },
+    "i18nInProgress": false,
+    "i18nTranslatedAt": "2026-04-07T23:05:51.179Z",
+    "i18nOpenaiModel": "gpt-4o-mini"
+  },
+  "recalls": [
+    {
+      "RecallID": 10016,
+      "RecallNumber": "24318",
+      "RecallDate": "2024-07-25T00:00:00",
+      "Description": "Victor Electric has issued a recall for their folding soft bullet toy guns due to safety concerns. These toy guns, available in black/green and black/sand yellow, feature the labels \"KRISS VECTOR\" and \".45 ACP\" on their sides. The set includes accessories such as a magazine, holographic sight, foam bullet projectiles, and toy goggles. The toys fail to comply with federal safety standards, lacking the required blaze orange tip to distinguish them from real firearms, which poses a risk of eye injuries to children.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/Toy-Guns-Recalled-Due-to-Eye-Injury-Hazard-Failure-to-Meet-Federal-Safety-Regulations-for-Projectile-Toys-Sold-Exclusively-on-Temu-com-by-Youjiu",
+      "Title": "Victor Electric Toy Guns Recalled for Eye Injury Risk and Safety Regulation Violations",
+      "ConsumerContact": "For assistance, consumers can reach out to Youjiu via email at 99452925@qq.com or send a message through Youjiu's store on Temu.",
+      "LastPublishDate": "2024-07-25T00:00:00",
+      "Products": [
+        {
+          "Name": "Victor Electric Folding Soft Bullet Toy Gun",
+          "NumberOfUnits": "About 490"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/toy-guns/1-Victor-Electric-Folding-Soft-Bullet-Toy-Gun/e807974acfa7406cfd410286d971ad98.webp",
+          "Caption": "Recalled black/green toy gun",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/black_green.png"
+        },
+        {
+          "URL": "/images/generalRecalls/toy-guns/1-Victor-Electric-Folding-Soft-Bullet-Toy-Gun/31e5b5788982d283cf88b4ebf9d3667f.webp",
+          "Caption": "Recalled black/sand yellow toy gun",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/black_sand.png"
+        },
+        {
+          "URL": "/images/generalRecalls/toy-guns/1-Victor-Electric-Folding-Soft-Bullet-Toy-Gun/fc370745f5a837ccc641442716609615.webp",
+          "Caption": "Accessories with the recalled toy gun",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/black_accessories.jpg"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available online at Temu.com from March 2023 to June 2023 for approximately $45."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Shantoushi Chenghaiqu Youjiu Toy Factory, of China"
+        }
+      ],
+      "SoldAtLabel": "Sold Exclusively At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Non-compliance with federal safety standards and risk of eye injuries"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Stop using the toy guns immediately and contact Youjiu for a full refund. To process the refund, remove the magazine and battery, cut the black and red wires connected to the battery, take a photo of the destroyed toy gun, and send it through Temu's messaging system at https://www.temu.com/fr-en/office-king-m-55622325238.html."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "slug": "victor-electric-toy-guns-recalled-for-eye-injury-risk-and-safety-regulation-violations-recall",
+      "metaDescription": "Victor Electric recalls toy guns due to safety violations and eye injury risks. Contact Youjiu for refunds and safety information.",
+      "languages": {
+        "en": {
+          "Title": "Victor Electric Toy Guns Recalled for Eye Injury Risk and Safety Regulation Violations",
+          "Description": "Victor Electric has issued a recall for their folding soft bullet toy guns due to safety concerns. These toy guns, available in black/green and black/sand yellow, feature the labels \"KRISS VECTOR\" and \".45 ACP\" on their sides. The set includes accessories such as a magazine, holographic sight, foam bullet projectiles, and toy goggles. The toys fail to comply with federal safety standards, lacking the required blaze orange tip to distinguish them from real firearms, which poses a risk of eye injuries to children.",
+          "ConsumerContact": "For assistance, consumers can reach out to Youjiu via email at 99452925@qq.com or send a message through Youjiu's store on Temu.",
+          "metaDescription": "Victor Electric recalls toy guns due to safety violations and eye injury risks. Contact Youjiu for refunds and safety information.",
+          "Products": [
+            {
+              "Name": "Victor Electric Folding Soft Bullet Toy Gun",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 490"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled black/green toy gun"
+            },
+            {
+              "Caption": "Recalled black/sand yellow toy gun"
+            },
+            {
+              "Caption": "Accessories with the recalled toy gun"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "None reported."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Available online at Temu.com from March 2023 to June 2023 for approximately $45."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Shantoushi Chenghaiqu Youjiu Toy Factory, of China"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Sold Exclusively At",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Non-compliance with federal safety standards and risk of eye injuries"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Stop using the toy guns immediately and contact Youjiu for a full refund. To process the refund, remove the magazine and battery, cut the black and red wires connected to the battery, take a photo of the destroyed toy gun, and send it through Temu's messaging system at https://www.temu.com/fr-en/office-king-m-55622325238.html."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Refund"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "Pistolas de Juguete Eléctricas Victor Retiradas por Riesgo de Lesiones Oculares y Violaciones de Normas de Seguridad",
+          "Description": "Victor Electric ha emitido un retiro de sus pistolas de juguete de balas suaves plegables debido a preocupaciones de seguridad. Estas pistolas de juguete, disponibles en negro/verde y negro/amarillo arena, presentan las etiquetas \"KRISS VECTOR\" y \".45 ACP\" en sus lados. El conjunto incluye accesorios como un cargador, mira holográfica, proyectiles de espuma y gafas de juguete. Los juguetes no cumplen con las normas de seguridad federales, careciendo de la punta naranja brillante requerida para distinguirlas de las armas de fuego reales, lo que representa un riesgo de lesiones oculares para los niños.",
+          "ConsumerContact": "Para asistencia, los consumidores pueden comunicarse con Youjiu por correo electrónico a 99452925@qq.com o enviar un mensaje a través de la tienda de Youjiu en Temu.",
+          "metaDescription": "Victor Electric retira pistolas de juguete debido a violaciones de seguridad y riesgos de lesiones oculares. Contacte a Youjiu para reembolsos e información de seguridad.",
+          "Products": [
+            {
+              "Name": "Pistola de Juguete Eléctrica Plegable de Balas Suaves Victor",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 490"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Pistola de juguete negra/verde retirada"
+            },
+            {
+              "Caption": "Pistola de juguete negra/amarillo arena retirada"
+            },
+            {
+              "Caption": "Accesorios con la pistola de juguete retirada"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Ninguna reportada."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible en línea en Temu.com desde marzo de 2023 hasta junio de 2023 por aproximadamente $45."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Fábrica de Juguetes Youjiu de Shantoushi Chenghaiqu, de China"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendidos Exclusivamente En",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "No cumplimiento con las normas de seguridad federales y riesgo de lesiones oculares"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Deje de usar las pistolas de juguete inmediatamente y contacte a Youjiu para un reembolso completo. Para procesar el reembolso, retire el cargador y la batería, corte los cables negro y rojo conectados a la batería, tome una foto de la pistola de juguete destruida y envíela a través del sistema de mensajería de Temu en https://www.temu.com/fr-en/office-king-m-55622325238.html."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reembolso"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "استدعاء مسدسات الألعاب الكهربائية من فيكتور بسبب خطر إصابة العين وانتهاكات لوائح السلامة",
+          "Description": "أصدرت شركة فيكتور الكهربائية استدعاء لمسدسات الألعاب القابلة للطي التي تطلق كرات لينة بسبب مخاوف تتعلق بالسلامة. تتوفر هذه المسدسات بلونين: الأسود/الأخضر والأسود/الأصفر الرملي، وتحمل العلامات \"KRISS VECTOR\" و\".45 ACP\" على جوانبها. تتضمن المجموعة ملحقات مثل مخزن، ونظارات هولوجرافية، وطلقات مصنوعة من الرغوة، ونظارات واقية. تفشل الألعاب في الامتثال لمعايير السلامة الفيدرالية، حيث تفتقر إلى الطرف البرتقالي المتوهج المطلوب لتمييزها عن الأسلحة النارية الحقيقية، مما يشكل خطرًا على إصابات العين للأطفال.",
+          "ConsumerContact": "للمساعدة، يمكن للمستهلكين التواصل مع يوجيو عبر البريد الإلكتروني على 99452925@qq.com أو إرسال رسالة من خلال متجر يوجيو على تيمو.",
+          "metaDescription": "تستدعي فيكتور الكهربائية مسدسات الألعاب بسبب انتهاكات السلامة ومخاطر إصابات العين. اتصل بيوجيو للحصول على استرداد ومعلومات السلامة.",
+          "Products": [
+            {
+              "Name": "مسدس ألعاب كهربائي قابل للطي من فيكتور",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 490"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "مسدس ألعاب أسود/أخضر مستدعى"
+            },
+            {
+              "Caption": "مسدس ألعاب أسود/أصفر رملي مستدعى"
+            },
+            {
+              "Caption": "ملحقات مع مسدس الألعاب المستدعى"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "لا توجد إصابات مُبلغ عنها."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "متوفر على الإنترنت في Temu.com من مارس 2023 إلى يونيو 2023 بسعر تقريبي يبلغ 45 دولارًا."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "مصنع ألعاب يوجيو في شانتوشي تشنغهاي، الصين"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "يباع حصريًا في",
+          "ManufacturerCountries": [
+            {
+              "Country": "الصين"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "عدم الامتثال لمعايير السلامة الفيدرالية وخطر إصابات العين"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "توقف عن استخدام مسدسات الألعاب على الفور واتصل بيوجيو للحصول على استرداد كامل. لمعالجة الاسترداد، قم بإزالة المخزن والبطارية، واقطع الأسلاك السوداء والحمراء المتصلة بالبطارية، والتقط صورة للمسدس المدمر، وأرسلها عبر نظام الرسائل في تيمو على https://www.temu.com/fr-en/office-king-m-55622325238.html."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "استرداد"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "维克多电动玩具枪因眼部伤害风险和安全法规违规而被召回",
+          "Description": "维克多电动公司因安全问题对其折叠软弹玩具枪发起召回。这些玩具枪有黑/绿和黑/沙黄两种颜色，侧面标有“KRISS VECTOR”和“.45 ACP”的标签。该套装包括配件，如弹匣、全息瞄准镜、泡沫子弹发射器和玩具护目镜。这些玩具未能符合联邦安全标准，缺少必要的亮橙色尖端以将其与真实火器区分开来，这对儿童构成了眼部伤害的风险。",
+          "ConsumerContact": "如需帮助，消费者可以通过电子邮件联系优久，邮箱是99452925@qq.com，或通过优久在Temu上的商店发送消息。",
+          "metaDescription": "维克多电动因安全违规和眼部伤害风险召回玩具枪。联系优久以获取退款和安全信息。",
+          "Products": [
+            {
+              "Name": "维克多电动折叠软弹玩具枪",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约490"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "被召回的黑/绿玩具枪"
+            },
+            {
+              "Caption": "被召回的黑/沙黄玩具枪"
+            },
+            {
+              "Caption": "与被召回玩具枪的配件"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "未报告伤害。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "在Temu.com上可用，销售时间为2023年3月至2023年6月，价格约为45美元。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "中国汕头市澄海区优久玩具厂"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "仅在以下地点销售",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "不符合联邦安全标准和眼部伤害风险"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "立即停止使用玩具枪，并联系优久以获取全额退款。处理退款时，请移除弹匣和电池，剪断连接电池的黑色和红色电线，拍摄被销毁玩具枪的照片，并通过Temu的消息系统发送，链接为https://www.temu.com/fr-en/office-king-m-55622325238.html。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "退款"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "Pistolets jouets électriques Victor rappelés en raison du risque de blessure oculaire et des violations des réglementations de sécurité",
+          "Description": "Victor Electric a émis un rappel pour ses pistolets jouets à billes souples pliables en raison de préoccupations de sécurité. Ces pistolets jouets, disponibles en noir/vert et noir/jaune sable, portent les étiquettes \"KRISS VECTOR\" et \".45 ACP\" sur leurs côtés. L'ensemble comprend des accessoires tels qu'un chargeur, un viseur holographique, des projectiles en mousse et des lunettes de protection. Les jouets ne respectent pas les normes de sécurité fédérales, manquant de l'extrémité orange fluo requise pour les distinguer des vraies armes à feu, ce qui pose un risque de blessures oculaires pour les enfants.",
+          "ConsumerContact": "Pour assistance, les consommateurs peuvent contacter Youjiu par e-mail à 99452925@qq.com ou envoyer un message via la boutique de Youjiu sur Temu.",
+          "metaDescription": "Victor Electric rappelle des pistolets jouets en raison de violations de sécurité et de risques de blessures oculaires. Contactez Youjiu pour des remboursements et des informations de sécurité.",
+          "Products": [
+            {
+              "Name": "Pistolet jouet à billes souples pliable Victor Electric",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 490"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Pistolet jouet noir/vert rappelé"
+            },
+            {
+              "Caption": "Pistolet jouet noir/jaune sable rappelé"
+            },
+            {
+              "Caption": "Accessoires avec le pistolet jouet rappelé"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Aucune signalée."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible en ligne sur Temu.com de mars 2023 à juin 2023 pour environ 45 $."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Shantoushi Chenghaiqu Youjiu Toy Factory, de Chine"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendu Exclusivement À",
+          "ManufacturerCountries": [
+            {
+              "Country": "Chine"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Non-conformité aux normes de sécurité fédérales et risque de blessures oculaires"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Cessez d'utiliser les pistolets jouets immédiatement et contactez Youjiu pour un remboursement complet. Pour traiter le remboursement, retirez le chargeur et la batterie, coupez les fils noir et rouge connectés à la batterie, prenez une photo du pistolet jouet détruit et envoyez-la via le système de messagerie de Temu à https://www.temu.com/fr-en/office-king-m-55622325238.html."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Remboursement"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "Victor Electric Spielzeugpistolen wegen Verletzungsrisiko für die Augen und Sicherheitsvorschriften zurückgerufen",
+          "Description": "Victor Electric hat einen Rückruf für ihre faltbaren Spielzeugpistolen mit weichen Kugeln aufgrund von Sicherheitsbedenken herausgegeben. Diese Spielzeugpistolen, erhältlich in schwarz/grün und schwarz/sandgelb, tragen die Aufschriften \"KRISS VECTOR\" und \".45 ACP\" an den Seiten. Das Set enthält Zubehör wie ein Magazin, ein holographisches Visier, Schaumstoffkugeln und Spielzeugbrillen. Die Spielzeuge entsprechen nicht den bundesstaatlichen Sicherheitsstandards, da sie die erforderliche leuchtend orangefarbene Spitze zur Unterscheidung von echten Feuerwaffen nicht aufweisen, was ein Risiko für Augenverletzungen bei Kindern darstellt.",
+          "ConsumerContact": "Für Unterstützung können Verbraucher Youjiu per E-Mail unter 99452925@qq.com kontaktieren oder eine Nachricht über Youjius Geschäft auf Temu senden.",
+          "metaDescription": "Victor Electric ruft Spielzeugpistolen aufgrund von Sicherheitsverletzungen und Verletzungsrisiken für die Augen zurück. Kontaktieren Sie Youjiu für Rückerstattungen und Sicherheitsinformationen.",
+          "Products": [
+            {
+              "Name": "Victor Electric Faltbare Spielzeugpistole mit weichen Kugeln",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Ungefähr 490"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Zurückgerufene schwarz/grüne Spielzeugpistole"
+            },
+            {
+              "Caption": "Zurückgerufene schwarz/sandgelbe Spielzeugpistole"
+            },
+            {
+              "Caption": "Zubehör mit der zurückgerufenen Spielzeugpistole"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Keine gemeldet."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Online erhältlich bei Temu.com von März 2023 bis Juni 2023 für etwa 45 $."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Shantoushi Chenghaiqu Youjiu Spielzeugfabrik, China"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Exklusiv verkauft bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Nichteinhaltung der bundesstaatlichen Sicherheitsstandards und Risiko von Augenverletzungen"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Hören Sie sofort auf, die Spielzeugpistolen zu verwenden, und kontaktieren Sie Youjiu für eine vollständige Rückerstattung. Um die Rückerstattung zu bearbeiten, entfernen Sie das Magazin und die Batterie, schneiden Sie die schwarzen und roten Drähte, die mit der Batterie verbunden sind, ab, machen Sie ein Foto der zerstörten Spielzeugpistole und senden Sie es über das Nachrichtensystem von Temu unter https://www.temu.com/fr-en/office-king-m-55622325238.html."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Rückerstattung"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "ビクター電動おもちゃ銃が目の怪我のリスクと安全規制違反のためにリコール",
+          "Description": "ビクター電動は、安全上の懸念から折りたたみ式ソフト弾おもちゃ銃のリコールを発表しました。これらのおもちゃ銃は、黒/緑と黒/砂黄の2色があり、側面には「KRISS VECTOR」と「.45 ACP」のラベルが付いています。セットには、マガジン、ホロサイト、フォーム弾発射体、おもちゃのゴーグルなどのアクセサリーが含まれています。これらのおもちゃは、実際の火器と区別するための必要なオレンジ色の先端が欠けており、連邦安全基準に準拠していないため、子供に目の怪我のリスクをもたらします。",
+          "ConsumerContact": "サポートが必要な場合、消費者はYoujiuにメール（99452925@qq.com）で連絡するか、TemuのYoujiuのストアを通じてメッセージを送信できます。",
+          "metaDescription": "ビクター電動は、安全違反と目の怪我のリスクによりおもちゃ銃をリコールします。返金と安全情報についてはYoujiuに連絡してください。",
+          "Products": [
+            {
+              "Name": "ビクター電動折りたたみ式ソフト弾おもちゃ銃",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約490"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコールされた黒/緑のおもちゃ銃"
+            },
+            {
+              "Caption": "リコールされた黒/砂黄のおもちゃ銃"
+            },
+            {
+              "Caption": "リコールされたおもちゃ銃のアクセサリー"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "報告された怪我はありません。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "2023年3月から2023年6月まで、約45ドルでTemu.comでオンライン販売中。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "中国の汕頭市澄海区Youjiuおもちゃ工場"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "専売",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "連邦安全基準に不適合で目の怪我のリスク"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "おもちゃ銃の使用を直ちに中止し、Youjiuに連絡して全額返金を受けてください。返金を処理するために、マガジンとバッテリーを取り外し、バッテリーに接続されている黒と赤のワイヤーを切断し、破壊されたおもちゃ銃の写真を撮り、https://www.temu.com/fr-en/office-king-m-55622325238.htmlのTemuのメッセージングシステムを通じて送信してください。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "返金"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "Pistolas de Brinquedo Elétricas Victor Recalladas por Risco de Lesão Ocular e Violações de Regulamentação de Segurança",
+          "Description": "A Victor Electric emitiu um recall para suas pistolas de brinquedo de bala macia dobráveis devido a preocupações de segurança. Essas pistolas de brinquedo, disponíveis nas cores preto/verde e preto/amarelo areia, apresentam os rótulos \"KRISS VECTOR\" e \".45 ACP\" em seus lados. O conjunto inclui acessórios como um carregador, mira holográfica, projéteis de espuma e óculos de brinquedo. Os brinquedos não cumprem os padrões de segurança federais, faltando a ponta laranja brilhante necessária para distingui-los de armas de fogo reais, o que representa um risco de lesões oculares para crianças.",
+          "ConsumerContact": "Para assistência, os consumidores podem entrar em contato com a Youjiu por e-mail em 99452925@qq.com ou enviar uma mensagem através da loja da Youjiu no Temu.",
+          "metaDescription": "A Victor Electric recalla pistolas de brinquedo devido a violações de segurança e riscos de lesão ocular. Entre em contato com a Youjiu para reembolsos e informações de segurança.",
+          "Products": [
+            {
+              "Name": "Pistola de Brinquedo de Bala Macia Dobrável Victor Electric",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 490"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Pistola de brinquedo recallada preta/verde"
+            },
+            {
+              "Caption": "Pistola de brinquedo recallada preta/amarelo areia"
+            },
+            {
+              "Caption": "Acessórios com a pistola de brinquedo recallada"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Nenhuma relatada."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponível online em Temu.com de março de 2023 a junho de 2023 por aproximadamente $45."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Fábrica de Brinquedos Youjiu, do distrito de Chenghai, Shantoushi, China"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendido Exclusivamente Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Não conformidade com os padrões de segurança federais e risco de lesões oculares"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Pare de usar as pistolas de brinquedo imediatamente e entre em contato com a Youjiu para um reembolso total. Para processar o reembolso, remova o carregador e a bateria, corte os fios preto e vermelho conectados à bateria, tire uma foto da pistola de brinquedo destruída e envie-a através do sistema de mensagens do Temu em https://www.temu.com/fr-en/office-king-m-55622325238.html."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reembolso"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "विक्टर इलेक्ट्रिक खिलौना गन आंखों की चोट के जोखिम और सुरक्षा नियमों के उल्लंघन के लिए वापस बुलाए गए",
+          "Description": "विक्टर इलेक्ट्रिक ने सुरक्षा चिंताओं के कारण अपने फोल्डिंग सॉफ्ट बुलेट खिलौना गनों के लिए एक रिकॉल जारी किया है। ये खिलौना गन काले/हरे और काले/रेत पीले रंग में उपलब्ध हैं, जिन पर \"KRISS VECTOR\" और \".45 ACP\" लेबल लगे हुए हैं। सेट में एक मैगज़ीन, होलोग्राफिक दृष्टि, फोम बुलेट प्रोजेक्टाइल और खिलौना चश्मे जैसे सहायक उपकरण शामिल हैं। ये खिलौने संघीय सुरक्षा मानकों का पालन नहीं करते हैं, क्योंकि इनमें असली आग्नेयास्त्रों से अलग करने के लिए आवश्यक ब्लेज़ ऑरेंज टिप नहीं है, जिससे बच्चों को आंखों की चोट का जोखिम होता है।",
+          "ConsumerContact": "सहायता के लिए, उपभोक्ता Youjiu से 99452925@qq.com पर ईमेल के माध्यम से संपर्क कर सकते हैं या Temu पर Youjiu की दुकान के माध्यम से संदेश भेज सकते हैं।",
+          "metaDescription": "विक्टर इलेक्ट्रिक खिलौना गनों को सुरक्षा उल्लंघनों और आंखों की चोट के जोखिम के कारण वापस बुलाता है। रिफंड और सुरक्षा जानकारी के लिए Youjiu से संपर्क करें।",
+          "Products": [
+            {
+              "Name": "विक्टर इलेक्ट्रिक फोल्डिंग सॉफ्ट बुलेट खिलौना गन",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 490"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "वापस बुलाया गया काला/हरा खिलौना गन"
+            },
+            {
+              "Caption": "वापस बुलाया गया काला/रेत पीला खिलौना गन"
+            },
+            {
+              "Caption": "वापस बुलाए गए खिलौना गन के साथ सहायक उपकरण"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "कोई रिपोर्ट नहीं की गई।"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "मार्च 2023 से जून 2023 तक Temu.com पर लगभग $45 में ऑनलाइन उपलब्ध।"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "चीन के शांटौशी चेंघाईक्व यूजियु खिलौना फैक्ट्री"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "विशेष रूप से बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "चीन"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "संघीय सुरक्षा मानकों का पालन न करना और आंखों की चोट का जोखिम"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "खिलौना गनों का उपयोग तुरंत बंद करें और पूर्ण रिफंड के लिए Youjiu से संपर्क करें। रिफंड प्रक्रिया के लिए, मैगज़ीन और बैटरी निकालें, बैटरी से जुड़े काले और लाल तारों को काटें, नष्ट किए गए खिलौना गन की एक फोटो लें, और इसे Temu के मैसेजिंग सिस्टम के माध्यम से भेजें: https://www.temu.com/fr-en/office-king-m-55622325238.html।"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "रिफंड"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "Электрические игрушечные пистолеты Victor отозваны из-за риска травм глаз и нарушений правил безопасности",
+          "Description": "Компания Victor Electric объявила об отзыве своих складных игрушечных пистолетов с мягкими пулями из-за проблем с безопасностью. Эти игрушечные пистолеты, доступные в черно-зеленом и черно-песчаном желтом цветах, имеют надписи \"KRISS VECTOR\" и \".45 ACP\" на боковых сторонах. В комплект входят аксессуары, такие как магазин, голографический прицел, пенные пули и игрушечные очки. Игрушки не соответствуют федеральным стандартам безопасности, так как им не хватает необходимого оранжевого кончика, чтобы отличать их от настоящего огнестрельного оружия, что создает риск травм глаз у детей.",
+          "ConsumerContact": "Для получения помощи потребители могут обратиться к Youjiu по электронной почте 99452925@qq.com или отправить сообщение через магазин Youjiu на Temu.",
+          "metaDescription": "Компания Victor Electric отзывает игрушечные пистолеты из-за нарушений безопасности и рисков травм глаз. Свяжитесь с Youjiu для получения возвратов и информации о безопасности.",
+          "Products": [
+            {
+              "Name": "Игрушечный пистолет Victor Electric с мягкими пулями",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 490"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванный черно-зеленый игрушечный пистолет"
+            },
+            {
+              "Caption": "Отозванный черно-песчаный желтый игрушечный пистолет"
+            },
+            {
+              "Caption": "Аксессуары с отозванным игрушечным пистолетом"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Нет сообщений о травмах."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Доступно онлайн на Temu.com с марта 2023 года по июнь 2023 года примерно за 45 долларов."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Shantoushi Chenghaiqu Youjiu Toy Factory, Китай"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Продается исключительно в",
+          "ManufacturerCountries": [
+            {
+              "Country": "Китай"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Несоответствие федеральным стандартам безопасности и риск травм глаз"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Немедленно прекратите использование игрушечных пистолетов и свяжитесь с Youjiu для полного возврата. Для обработки возврата удалите магазин и батарею, обрежьте черные и красные провода, соединенные с батареей, сделайте фотографию уничтоженного игрушечного пистолета и отправьте ее через систему сообщений Temu по адресу https://www.temu.com/fr-en/office-king-m-55622325238.html."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Возврат"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "Súng đồ chơi điện tử Victor bị thu hồi do nguy cơ chấn thương mắt và vi phạm quy định an toàn",
+          "Description": "Victor Electric đã phát động thu hồi súng đồ chơi bắn đạn mềm gập lại của họ do lo ngại về an toàn. Những khẩu súng đồ chơi này, có sẵn màu đen/xanh lá và đen/vàng cát, có nhãn \"KRISS VECTOR\" và \".45 ACP\" ở hai bên. Bộ sản phẩm bao gồm các phụ kiện như băng đạn, kính ngắm holographic, đạn bắn bằng bọt, và kính bảo hộ đồ chơi. Những món đồ chơi này không tuân thủ tiêu chuẩn an toàn liên bang, thiếu đầu màu cam chói cần thiết để phân biệt chúng với vũ khí thật, điều này gây ra nguy cơ chấn thương mắt cho trẻ em.",
+          "ConsumerContact": "Để được hỗ trợ, người tiêu dùng có thể liên hệ với Youjiu qua email tại 99452925@qq.com hoặc gửi tin nhắn qua cửa hàng của Youjiu trên Temu.",
+          "metaDescription": "Victor Electric thu hồi súng đồ chơi do vi phạm an toàn và nguy cơ chấn thương mắt. Liên hệ với Youjiu để được hoàn tiền và thông tin an toàn.",
+          "Products": [
+            {
+              "Name": "Súng đồ chơi bắn đạn mềm gập lại Victor Electric",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 490"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Súng đồ chơi màu đen/xanh lá bị thu hồi"
+            },
+            {
+              "Caption": "Súng đồ chơi màu đen/vàng cát bị thu hồi"
+            },
+            {
+              "Caption": "Phụ kiện kèm theo súng đồ chơi bị thu hồi"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Không có báo cáo nào."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Có sẵn trực tuyến tại Temu.com từ tháng 3 năm 2023 đến tháng 6 năm 2023 với giá khoảng 45 đô la."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Nhà máy đồ chơi Youjiu, quận Chenghai, thành phố Shantou, Trung Quốc"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Chỉ được bán tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Trung Quốc"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Không tuân thủ tiêu chuẩn an toàn liên bang và nguy cơ chấn thương mắt"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Ngừng sử dụng súng đồ chơi ngay lập tức và liên hệ với Youjiu để được hoàn tiền đầy đủ. Để xử lý hoàn tiền, hãy tháo băng đạn và pin, cắt các dây đen và đỏ kết nối với pin, chụp ảnh súng đồ chơi đã bị phá hủy và gửi qua hệ thống nhắn tin của Temu tại https://www.temu.com/fr-en/office-king-m-55622325238.html."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Hoàn tiền"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    }
+  ]
+}

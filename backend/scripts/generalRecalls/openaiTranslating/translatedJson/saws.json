@@ -1,0 +1,803 @@
+{
+  "meta": {
+    "slug": "saws",
+    "sourceCsvFile": "saws_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:37.057Z",
+    "recallCount": 1,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "saws.json",
+    "seoTranslatedAt": "2026-04-05T03:59:00.197Z",
+    "resumePartial": false,
+    "i18nSource": "generalRecallsTranslated",
+    "i18nSourceFile": "saws.json",
+    "i18nUiLangs": [
+      "en",
+      "es",
+      "ar",
+      "zh",
+      "fr",
+      "de",
+      "ja",
+      "pt",
+      "hi",
+      "ru",
+      "vi"
+    ],
+    "i18nProgressByLang": {
+      "es": 1,
+      "ar": 1,
+      "zh": 1,
+      "fr": 1,
+      "de": 1,
+      "ja": 1,
+      "pt": 1,
+      "hi": 1,
+      "ru": 1,
+      "vi": 1
+    },
+    "i18nInProgress": false,
+    "i18nTranslatedAt": "2026-04-07T19:48:02.513Z",
+    "i18nOpenaiModel": "gpt-4o-mini"
+  },
+  "recalls": [
+    {
+      "RecallID": 10464,
+      "RecallNumber": "26064",
+      "RecallDate": "2025-10-30T00:00:00",
+      "Description": "Milwaukee Tool is recalling its M18 FUEL Top Handle Chainsaws, specifically the models with catalog number 2826-20. These chainsaws, which feature either a 12-inch or 14-inch bar, may have a defect that prevents the chain brake from activating, leading to a potential laceration hazard. The catalog number is located on the upper right side of the nameplate, while the serial number can be found on the upper left side. The serial break level is indicated by the fourth digit of the serial number.\n\nThese battery-operated chainsaws are available as standalone tools or in kits that include M18 batteries and a charger. Consumers are urged to stop using the recalled chainsaws immediately and to contact Milwaukee Tool for a free repair. Registration for the repair process can be completed online to receive a prepaid shipping label for returning the product.",
+      "URL": "https://www.cpsc.gov/Recalls/2026/Milwaukee-Tool-Recalls-M18-FUEL-14-and-12-Top-Handle-Chainsaws-Due-to-Laceration-Hazard",
+      "Title": "Milwaukee Tool Recalls M18 FUEL Chainsaws Due to Laceration Risk",
+      "ConsumerContact": "For assistance, contact Milwaukee Tool at 833-953-2012, Monday to Friday from 7 a.m. to 4:30 p.m. CT, or visit their eService portal at https://service.milwaukeetool.com/support/eservice. Additional information is available at https://www.milwaukeetool.com/news/press-releases under the 2025 tab or at http://www.milwaukeetool.com/support/recall.",
+      "LastPublishDate": "2025-10-31T00:00:00",
+      "Products": [
+        {
+          "Name": "Milwaukee Tool M18 FUEL Top Handle Chainsaw (12\" or 14\" bar)",
+          "NumberOfUnits": "About 90,860 (In addition, about 7,500 were sold in Canada)"
+        }
+      ],
+      "Inconjunctions": [
+        {
+          "URL": "https://recalls-rappels.canada.ca/en/alert-recall/milwaukee-chainsaw-recalled-due-laceration-hazard"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/saws/1-Milwaukee-Tool-M18-FUEL-Top-Handle-Chainsaw-12-or-14-bar/16bc36c04694c87c356e884ca02ffb50.webp",
+          "Caption": "Recalled Milwaukee M18 FUEL Top Handle Chainsaw",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/m18-1.png"
+        },
+        {
+          "URL": "/images/generalRecalls/saws/1-Milwaukee-Tool-M18-FUEL-Top-Handle-Chainsaw-12-or-14-bar/7624fc73950bc6282b91b71a66ccb0cf.webp",
+          "Caption": "Recalled Milwaukee M18 FUEL Top Handle Chainsaw (catalog/serial number label)",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/m18-2.jpg"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received two reports of the chain brake not activating, including one injury involving a lacerated finger."
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "Milwaukee Electric Tool Corp., of Brookfield, Wisconsin"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available at Home Depot and other home improvement stores, as well as online at homedepot.com, from March 2023 through September 2024, priced around $350 for the tool alone or $790 with batteries and charger."
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "United States"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Potential laceration due to chain brake failure"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Free repair available; stop using the chainsaw immediately"
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "Catalog number 2826-20"
+      ],
+      "slug": "milwaukee-tool-recalls-m18-fuel-chainsaws-due-to-laceration-risk-recall",
+      "metaDescription": "Milwaukee Tool recalls M18 FUEL Chainsaws due to a laceration hazard. Stop using immediately and contact for a free repair.",
+      "languages": {
+        "en": {
+          "Title": "Milwaukee Tool Recalls M18 FUEL Chainsaws Due to Laceration Risk",
+          "Description": "Milwaukee Tool is recalling its M18 FUEL Top Handle Chainsaws, specifically the models with catalog number 2826-20. These chainsaws, which feature either a 12-inch or 14-inch bar, may have a defect that prevents the chain brake from activating, leading to a potential laceration hazard. The catalog number is located on the upper right side of the nameplate, while the serial number can be found on the upper left side. The serial break level is indicated by the fourth digit of the serial number.\n\nThese battery-operated chainsaws are available as standalone tools or in kits that include M18 batteries and a charger. Consumers are urged to stop using the recalled chainsaws immediately and to contact Milwaukee Tool for a free repair. Registration for the repair process can be completed online to receive a prepaid shipping label for returning the product.",
+          "ConsumerContact": "For assistance, contact Milwaukee Tool at 833-953-2012, Monday to Friday from 7 a.m. to 4:30 p.m. CT, or visit their eService portal at https://service.milwaukeetool.com/support/eservice. Additional information is available at https://www.milwaukeetool.com/news/press-releases under the 2025 tab or at http://www.milwaukeetool.com/support/recall.",
+          "metaDescription": "Milwaukee Tool recalls M18 FUEL Chainsaws due to a laceration hazard. Stop using immediately and contact for a free repair.",
+          "Products": [
+            {
+              "Name": "Milwaukee Tool M18 FUEL Top Handle Chainsaw (12\" or 14\" bar)",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 90,860 (In addition, about 7,500 were sold in Canada)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled Milwaukee M18 FUEL Top Handle Chainsaw"
+            },
+            {
+              "Caption": "Recalled Milwaukee M18 FUEL Top Handle Chainsaw (catalog/serial number label)"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "The firm has received two reports of the chain brake not activating, including one injury involving a lacerated finger."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Available at Home Depot and other home improvement stores, as well as online at homedepot.com, from March 2023 through September 2024, priced around $350 for the tool alone or $790 with batteries and charger."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Milwaukee Electric Tool Corp., of Brookfield, Wisconsin"
+            }
+          ],
+          "SoldAtLabel": "Sold At",
+          "ManufacturerCountries": [
+            {
+              "Country": "United States"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Potential laceration due to chain brake failure"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Free repair available; stop using the chainsaw immediately"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Repair"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "Milwaukee Tool Retira Motosierras M18 FUEL Debido a Riesgo de Laceración",
+          "Description": "Milwaukee Tool está retirando sus Motosierras M18 FUEL de Mango Superior, específicamente los modelos con número de catálogo 2826-20. Estas motosierras, que cuentan con una barra de 12 pulgadas o 14 pulgadas, pueden tener un defecto que impide que el freno de cadena se active, lo que lleva a un posible riesgo de laceración. El número de catálogo se encuentra en la parte superior derecha de la placa de identificación, mientras que el número de serie se puede encontrar en la parte superior izquierda. El nivel de ruptura de serie se indica con el cuarto dígito del número de serie.\n\nEstas motosierras a batería están disponibles como herramientas independientes o en kits que incluyen baterías M18 y un cargador. Se insta a los consumidores a dejar de usar las motosierras retiradas de inmediato y a contactar a Milwaukee Tool para una reparación gratuita. El registro para el proceso de reparación se puede completar en línea para recibir una etiqueta de envío prepagada para devolver el producto.",
+          "ConsumerContact": "Para asistencia, contacte a Milwaukee Tool al 833-953-2012, de lunes a viernes de 7 a.m. a 4:30 p.m. CT, o visite su portal de eService en https://service.milwaukeetool.com/support/eservice. Información adicional está disponible en https://www.milwaukeetool.com/news/press-releases bajo la pestaña 2025 o en http://www.milwaukeetool.com/support/recall.",
+          "metaDescription": "Milwaukee Tool retira motosierras M18 FUEL debido a un riesgo de laceración. Deje de usar inmediatamente y contacte para una reparación gratuita.",
+          "Products": [
+            {
+              "Name": "Motosierra Milwaukee Tool M18 FUEL de Mango Superior (barra de 12\" o 14\")",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 90,860 (Además, aproximadamente 7,500 se vendieron en Canadá)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Motosierra Milwaukee M18 FUEL de Mango Superior retirada"
+            },
+            {
+              "Caption": "Motosierra Milwaukee M18 FUEL de Mango Superior retirada (etiqueta de número de catálogo/serial)"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "La empresa ha recibido dos informes de que el freno de cadena no se activa, incluyendo una lesión que involucra un dedo lacerado."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible en Home Depot y otras tiendas de mejoras para el hogar, así como en línea en homedepot.com, desde marzo de 2023 hasta septiembre de 2024, con un precio de alrededor de $350 solo por la herramienta o $790 con baterías y cargador."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Milwaukee Electric Tool Corp., de Brookfield, Wisconsin"
+            }
+          ],
+          "SoldAtLabel": "Vendidos En",
+          "ManufacturerCountries": [
+            {
+              "Country": "Estados Unidos"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Posible laceración debido a falla del freno de cadena"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Reparación gratuita disponible; deje de usar la motosierra inmediatamente"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparar"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "استدعاء أدوات ميلووكي لمناشير M18 FUEL بسبب خطر التمزق",
+          "Description": "تقوم أدوات ميلووكي باستدعاء مناشير M18 FUEL ذات المقبض العلوي، وتحديدًا النماذج ذات رقم الكتالوج 2826-20. قد تحتوي هذه المناشير، التي تتميز بشريط بطول 12 بوصة أو 14 بوصة، على عيب يمنع تفعيل فرامل السلسلة، مما يؤدي إلى خطر محتمل للتمزق. يوجد رقم الكتالوج في الجزء العلوي الأيمن من لوحة الاسم، بينما يمكن العثور على الرقم التسلسلي في الجزء العلوي الأيسر. يتم الإشارة إلى مستوى كسر الرقم التسلسلي بواسطة الرقم الرابع من الرقم التسلسلي.\n\nتتوفر هذه المناشير التي تعمل بالبطارية كأدوات مستقلة أو في مجموعات تشمل بطاريات M18 وشاحن. يُحث المستهلكون على التوقف عن استخدام المناشير المستدعاة على الفور والتواصل مع أدوات ميلووكي للحصول على إصلاح مجاني. يمكن إكمال التسجيل لعملية الإصلاح عبر الإنترنت لاستلام ملصق شحن مدفوع مسبقًا لإعادة المنتج.",
+          "ConsumerContact": "للمساعدة، اتصل بأدوات ميلووكي على الرقم 833-953-2012، من الاثنين إلى الجمعة من الساعة 7 صباحًا حتى 4:30 مساءً بتوقيت وسط أمريكا، أو قم بزيارة بوابة الخدمة الإلكترونية الخاصة بهم على https://service.milwaukeetool.com/support/eservice. تتوفر معلومات إضافية على https://www.milwaukeetool.com/news/press-releases تحت علامة 2025 أو على http://www.milwaukeetool.com/support/recall.",
+          "metaDescription": "تستدعي أدوات ميلووكي مناشير M18 FUEL بسبب خطر التمزق. توقف عن الاستخدام على الفور وتواصل للحصول على إصلاح مجاني.",
+          "Products": [
+            {
+              "Name": "منشار ميلووكي M18 FUEL ذو المقبض العلوي (شريط 12\" أو 14\")",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 90,860 (بالإضافة إلى ذلك، تم بيع حوالي 7,500 في كندا)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "منشار ميلووكي M18 FUEL ذو المقبض العلوي المستدعى"
+            },
+            {
+              "Caption": "منشار ميلووكي M18 FUEL ذو المقبض العلوي المستدعى (ملصق رقم الكتالوج/الرقم التسلسلي)"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "تلقت الشركة تقريرين عن عدم تفعيل فرامل السلسلة، بما في ذلك إصابة واحدة تتعلق بإصبع ممزق."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "متوفر في هوم ديبوت ومتاجر تحسين المنزل الأخرى، بالإضافة إلى الإنترنت على homedepot.com، من مارس 2023 حتى سبتمبر 2024، بسعر حوالي 350 دولارًا للأداة فقط أو 790 دولارًا مع البطاريات والشاحن."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "شركة أدوات ميلووكي الكهربائية، من بروكفيلد، ويسكونسن"
+            }
+          ],
+          "SoldAtLabel": "تم البيع في",
+          "ManufacturerCountries": [
+            {
+              "Country": "الولايات المتحدة"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "خطر محتمل للتمزق بسبب فشل فرامل السلسلة"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "إصلاح مجاني متاح؛ توقف عن استخدام المنشار على الفور"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "إصلاح"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "密尔沃基工具召回M18 FUEL链锯因割伤风险",
+          "Description": "密尔沃基工具正在召回其M18 FUEL顶把链锯，特别是目录编号为2826-20的型号。这些链锯配备12英寸或14英寸的导板，可能存在缺陷，导致链条刹车无法激活，从而造成潜在的割伤危险。目录编号位于铭牌的右上方，而序列号可以在左上方找到。序列号的第四位数字表示序列断裂级别。\n\n这些电池驱动的链锯可作为独立工具或包含M18电池和充电器的套件出售。消费者被敦促立即停止使用被召回的链锯，并联系密尔沃基工具以获取免费维修。维修过程的注册可以在线完成，以接收用于退回产品的预付邮寄标签。",
+          "ConsumerContact": "如需帮助，请联系密尔沃基工具，电话833-953-2012，工作时间为周一至周五，上午7点至下午4:30（中部时间），或访问他们的电子服务门户网站https://service.milwaukeetool.com/support/eservice。更多信息可在https://www.milwaukeetool.com/news/press-releases的2025标签下或在http://www.milwaukeetool.com/support/recall找到。",
+          "metaDescription": "密尔沃基工具因割伤危险召回M18 FUEL链锯。请立即停止使用并联系以获取免费维修。",
+          "Products": [
+            {
+              "Name": "密尔沃基工具M18 FUEL顶把链锯（12\"或14\"导板）",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约90,860台（此外，约7,500台在加拿大销售）"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "被召回的密尔沃基M18 FUEL顶把链锯"
+            },
+            {
+              "Caption": "被召回的密尔沃基M18 FUEL顶把链锯（目录/序列号标签）"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "该公司已收到两份关于链条刹车未激活的报告，其中一份涉及割伤手指的伤害。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "在家得宝及其他家居改善商店有售，也可在homedepot.com在线购买，销售时间为2023年3月至2024年9月，单独工具价格约为350美元，带电池和充电器的价格为790美元。"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "密尔沃基电动工具公司，位于威斯康星州布鲁克菲尔德"
+            }
+          ],
+          "SoldAtLabel": "销售地点",
+          "ManufacturerCountries": [
+            {
+              "Country": "美国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "因链条刹车失效而导致的潜在割伤"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "提供免费维修；请立即停止使用链锯"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "维修"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "Rappel de scies à chaîne Milwaukee Tool M18 FUEL en raison du risque de lacération",
+          "Description": "Milwaukee Tool rappelle ses scies à chaîne M18 FUEL à poignée supérieure, spécifiquement les modèles avec le numéro de catalogue 2826-20. Ces scies à chaîne, qui disposent d'une barre de 12 pouces ou 14 pouces, peuvent avoir un défaut qui empêche le frein de chaîne de s'activer, entraînant un risque potentiel de lacération. Le numéro de catalogue est situé sur le côté supérieur droit de la plaque signalétique, tandis que le numéro de série se trouve sur le côté supérieur gauche. Le niveau de rupture de série est indiqué par le quatrième chiffre du numéro de série.\n\nCes scies à chaîne fonctionnant sur batterie sont disponibles en tant qu'outils autonomes ou dans des kits comprenant des batteries M18 et un chargeur. Les consommateurs sont invités à cesser immédiatement d'utiliser les scies à chaîne rappelées et à contacter Milwaukee Tool pour une réparation gratuite. L'inscription au processus de réparation peut être effectuée en ligne pour recevoir une étiquette d'expédition prépayée pour le retour du produit.",
+          "ConsumerContact": "Pour assistance, contactez Milwaukee Tool au 833-953-2012, du lundi au vendredi de 7 h à 16 h 30 CT, ou visitez leur portail eService à https://service.milwaukeetool.com/support/eservice. Des informations supplémentaires sont disponibles sur https://www.milwaukeetool.com/news/press-releases sous l'onglet 2025 ou à http://www.milwaukeetool.com/support/recall.",
+          "metaDescription": "Milwaukee Tool rappelle les scies à chaîne M18 FUEL en raison d'un risque de lacération. Cessez immédiatement de les utiliser et contactez pour une réparation gratuite.",
+          "Products": [
+            {
+              "Name": "Scie à chaîne Milwaukee Tool M18 FUEL à poignée supérieure (barre de 12\" ou 14\")",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 90 860 (De plus, environ 7 500 ont été vendues au Canada)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Scie à chaîne Milwaukee M18 FUEL à poignée supérieure rappelée"
+            },
+            {
+              "Caption": "Scie à chaîne Milwaukee M18 FUEL à poignée supérieure rappelée (étiquette de numéro de catalogue/série)"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "L'entreprise a reçu deux rapports concernant le frein de chaîne ne s'activant pas, y compris une blessure impliquant un doigt lacéré."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible chez Home Depot et d'autres magasins de bricolage, ainsi qu'en ligne sur homedepot.com, de mars 2023 à septembre 2024, au prix d'environ 350 $ pour l'outil seul ou 790 $ avec batteries et chargeur."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Milwaukee Electric Tool Corp., de Brookfield, Wisconsin"
+            }
+          ],
+          "SoldAtLabel": "Vendu À",
+          "ManufacturerCountries": [
+            {
+              "Country": "États-Unis"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risque potentiel de lacération en raison d'une défaillance du frein de chaîne"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Réparation gratuite disponible ; cessez d'utiliser la scie à chaîne immédiatement"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Réparation"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "Milwaukee Tool ruft M18 FUEL Kettensägen wegen Verletzungsgefahr zurück",
+          "Description": "Milwaukee Tool ruft seine M18 FUEL Kettensägen mit oberem Griff zurück, insbesondere die Modelle mit der Katalognummer 2826-20. Diese Kettensägen, die entweder mit einer 12-Zoll- oder 14-Zoll-Schiene ausgestattet sind, könnten einen Defekt aufweisen, der verhindert, dass die Kettenbremse aktiviert wird, was zu einer potenziellen Verletzungsgefahr führen kann. Die Katalognummer befindet sich auf der oberen rechten Seite des Typenschilds, während die Seriennummer auf der oberen linken Seite zu finden ist. Die Seriennummernklasse wird durch die vierte Ziffer der Seriennummer angezeigt.\n\nDiese akkubetriebenen Kettensägen sind als Einzelwerkzeuge oder in Kits erhältlich, die M18-Batterien und ein Ladegerät enthalten. Verbraucher werden aufgefordert, die zurückgerufenen Kettensägen sofort nicht mehr zu verwenden und Milwaukee Tool für eine kostenlose Reparatur zu kontaktieren. Die Registrierung für den Reparaturprozess kann online abgeschlossen werden, um ein vorfrankiertes Versandetikett für die Rücksendung des Produkts zu erhalten.",
+          "ConsumerContact": "Für Unterstützung kontaktieren Sie Milwaukee Tool unter 833-953-2012, Montag bis Freitag von 7:00 bis 16:30 Uhr CT, oder besuchen Sie ihr eService-Portal unter https://service.milwaukeetool.com/support/eservice. Weitere Informationen sind verfügbar unter https://www.milwaukeetool.com/news/press-releases im Tab 2025 oder unter http://www.milwaukeetool.com/support/recall.",
+          "metaDescription": "Milwaukee Tool ruft M18 FUEL Kettensägen wegen Verletzungsgefahr zurück. Sofort nicht mehr verwenden und für eine kostenlose Reparatur kontaktieren.",
+          "Products": [
+            {
+              "Name": "Milwaukee Tool M18 FUEL Kettensäge mit oberem Griff (12\" oder 14\" Schiene)",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 90.860 (Zusätzlich wurden etwa 7.500 in Kanada verkauft)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Zurückgerufene Milwaukee M18 FUEL Kettensäge mit oberem Griff"
+            },
+            {
+              "Caption": "Zurückgerufene Milwaukee M18 FUEL Kettensäge (Katalog-/Seriennummernlabel)"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Das Unternehmen hat zwei Berichte über die Nichtaktivierung der Kettenbremse erhalten, darunter eine Verletzung mit einem lacerierten Finger."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Erhältlich bei Home Depot und anderen Baumärkten sowie online unter homedepot.com, von März 2023 bis September 2024, zu einem Preis von etwa 350 $ für das Werkzeug allein oder 790 $ mit Batterien und Ladegerät."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Milwaukee Electric Tool Corp., aus Brookfield, Wisconsin"
+            }
+          ],
+          "SoldAtLabel": "Verkauft bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "Vereinigte Staaten"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Potenzielle Verletzung aufgrund eines Ausfalls der Kettenbremse"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Kostenlose Reparatur verfügbar; Kettensäge sofort nicht mehr verwenden"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparatur"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "ミルウォーキー工具がM18 FUEL チェーンソーを切傷のリスクによりリコール",
+          "Description": "ミルウォーキー工具は、カタログ番号2826-20のモデルを特に対象としたM18 FUEL トップハンドルチェーンソーをリコールしています。これらのチェーンソーは、12インチまたは14インチのバーを備えており、チェーンブレーキが作動しない欠陥がある可能性があり、切傷の危険を引き起こす可能性があります。カタログ番号はネームプレートの右上に位置しており、シリアル番号は左上にあります。シリアル番号の4桁目がシリアルブレークレベルを示しています。\n\nこれらのバッテリー駆動のチェーンソーは、単体の工具として、またはM18バッテリーと充電器を含むキットとして利用可能です。消費者は、リコールされたチェーンソーの使用を直ちに中止し、無料修理のためにミルウォーキー工具に連絡するよう促されています。修理プロセスの登録はオンラインで完了でき、製品を返送するための prepaid shipping label を受け取ることができます。",
+          "ConsumerContact": "サポートが必要な場合は、ミルウォーキー工具に833-953-2012まで連絡してください。月曜日から金曜日の午前7時から午後4時30分（CT）まで、またはhttps://service.milwaukeetool.com/support/eserviceのeServiceポータルを訪問してください。追加情報は、https://www.milwaukeetool.com/news/press-releasesの2025タブまたはhttp://www.milwaukeetool.com/support/recallで入手できます。",
+          "metaDescription": "ミルウォーキー工具が切傷の危険によりM18 FUEL チェーンソーをリコール。直ちに使用を中止し、無料修理のために連絡してください。",
+          "Products": [
+            {
+              "Name": "ミルウォーキー工具 M18 FUEL トップハンドルチェーンソー（12\"または14\"バー）",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約90,860台（さらに、約7,500台がカナダで販売されました）"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコールされたミルウォーキー M18 FUEL トップハンドルチェーンソー"
+            },
+            {
+              "Caption": "リコールされたミルウォーキー M18 FUEL トップハンドルチェーンソー（カタログ/シリアル番号ラベル）"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "同社は、チェーンブレーキが作動しないという2件の報告を受けており、そのうち1件は切傷のある指の怪我を含んでいます。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "ホームデポやその他のホーム改善店、またはhomedepot.comで、2023年3月から2024年9月まで販売され、工具単体で約350ドル、バッテリーと充電器付きで約790ドルです。"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "ウィスコンシン州ブルックフィールドのミルウォーキー電動工具株式会社"
+            }
+          ],
+          "SoldAtLabel": "販売場所",
+          "ManufacturerCountries": [
+            {
+              "Country": "アメリカ合衆国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "チェーンブレーキの故障による切傷の可能性"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "無料修理が利用可能; 直ちにチェーンソーの使用を中止してください"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "修理"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "Milwaukee Tool recolhe motosserras M18 FUEL devido ao risco de laceração",
+          "Description": "A Milwaukee Tool está recolhendo suas motosserras M18 FUEL de cabo superior, especificamente os modelos com número de catálogo 2826-20. Essas motosserras, que possuem uma barra de 12 polegadas ou 14 polegadas, podem ter um defeito que impede a ativação do freio da corrente, levando a um potencial risco de laceração. O número de catálogo está localizado no canto superior direito da placa de identificação, enquanto o número de série pode ser encontrado no canto superior esquerdo. O nível de quebra do número de série é indicado pelo quarto dígito do número de série.\n\nEssas motosserras operadas por bateria estão disponíveis como ferramentas avulsas ou em kits que incluem baterias M18 e um carregador. Os consumidores são aconselhados a parar de usar as motosserras recolhidas imediatamente e a entrar em contato com a Milwaukee Tool para um reparo gratuito. O registro para o processo de reparo pode ser feito online para receber uma etiqueta de envio pré-paga para devolver o produto.",
+          "ConsumerContact": "Para assistência, entre em contato com a Milwaukee Tool pelo telefone 833-953-2012, de segunda a sexta-feira, das 7h às 16h30 CT, ou visite o portal de eService em https://service.milwaukeetool.com/support/eservice. Informações adicionais estão disponíveis em https://www.milwaukeetool.com/news/press-releases na aba de 2025 ou em http://www.milwaukeetool.com/support/recall.",
+          "metaDescription": "A Milwaukee Tool recolhe motosserras M18 FUEL devido a um risco de laceração. Pare de usar imediatamente e entre em contato para um reparo gratuito.",
+          "Products": [
+            {
+              "Name": "Motosserra Milwaukee Tool M18 FUEL de cabo superior (barra de 12\" ou 14\")",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 90.860 (Além disso, cerca de 7.500 foram vendidas no Canadá)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Motosserra Milwaukee M18 FUEL de cabo superior recolhida"
+            },
+            {
+              "Caption": "Motosserra Milwaukee M18 FUEL de cabo superior recolhida (etiqueta de número de catálogo/número de série)"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "A empresa recebeu dois relatos de que o freio da corrente não estava ativando, incluindo uma lesão envolvendo um dedo lacerdado."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponível na Home Depot e em outras lojas de materiais de construção, bem como online em homedepot.com, de março de 2023 a setembro de 2024, com preço em torno de $350 apenas pela ferramenta ou $790 com baterias e carregador."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Milwaukee Electric Tool Corp., de Brookfield, Wisconsin"
+            }
+          ],
+          "SoldAtLabel": "Vendido Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "Estados Unidos"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Potencial laceração devido à falha do freio da corrente"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Reparo gratuito disponível; pare de usar a motosserra imediatamente"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparo"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "मिल्वौकी टूल ने कटने के जोखिम के कारण M18 FUEL चेनसॉ की वापसी की",
+          "Description": "मिल्वौकी टूल अपने M18 FUEL टॉप हैंडल चेनसॉ को वापस बुला रहा है, विशेष रूप से मॉडल जिनका कैटलॉग नंबर 2826-20 है। ये चेनसॉ, जिनमें 12 इंच या 14 इंच की बार होती है, में एक दोष हो सकता है जो चेन ब्रेक को सक्रिय होने से रोकता है, जिससे संभावित कटने का खतरा होता है। कैटलॉग नंबर नामपट्ट के ऊपरी दाएं हिस्से पर स्थित है, जबकि सीरियल नंबर ऊपरी बाएं हिस्से पर पाया जा सकता है। सीरियल नंबर के चौथे अंक द्वारा सीरियल ब्रेक स्तर को दर्शाया गया है।\n\nये बैटरी चालित चेनसॉ स्वतंत्र उपकरणों के रूप में या M18 बैटरी और चार्जर के साथ किट में उपलब्ध हैं। उपभोक्ताओं से अनुरोध किया जाता है कि वे तुरंत वापस बुलाए गए चेनसॉ का उपयोग करना बंद करें और मुफ्त मरम्मत के लिए मिल्वौकी टूल से संपर्क करें। मरम्मत प्रक्रिया के लिए पंजीकरण ऑनलाइन पूरा किया जा सकता है ताकि उत्पाद लौटाने के लिए एक प्रीपेड शिपिंग लेबल प्राप्त किया जा सके।",
+          "ConsumerContact": "सहायता के लिए, मिल्वौकी टूल से 833-953-2012 पर संपर्क करें, सोमवार से शुक्रवार, सुबह 7 बजे से 4:30 बजे सीटी तक, या उनके ई-सर्विस पोर्टल पर जाएं https://service.milwaukeetool.com/support/eservice। अतिरिक्त जानकारी https://www.milwaukeetool.com/news/press-releases पर 2025 टैब के अंतर्गत या http://www.milwaukeetool.com/support/recall पर उपलब्ध है।",
+          "metaDescription": "मिल्वौकी टूल ने कटने के खतरे के कारण M18 FUEL चेनसॉ की वापसी की। तुरंत उपयोग करना बंद करें और मुफ्त मरम्मत के लिए संपर्क करें।",
+          "Products": [
+            {
+              "Name": "मिल्वौकी टूल M18 FUEL टॉप हैंडल चेनसॉ (12\" या 14\" बार)",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 90,860 (इसके अतिरिक्त, लगभग 7,500 कनाडा में बेचे गए)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "वापस बुलाया गया मिल्वौकी M18 FUEL टॉप हैंडल चेनसॉ"
+            },
+            {
+              "Caption": "वापस बुलाया गया मिल्वौकी M18 FUEL टॉप हैंडल चेनसॉ (कैटलॉग/सीरियल नंबर लेबल)"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "कंपनी को चेन ब्रेक के सक्रिय न होने की दो रिपोर्ट मिली हैं, जिसमें एक चोट शामिल है जिसमें एक उंगली कट गई।"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "होम डिपो और अन्य घरेलू सुधार स्टोरों पर उपलब्ध, साथ ही homedepot.com पर ऑनलाइन, मार्च 2023 से सितंबर 2024 तक, केवल उपकरण के लिए लगभग $350 या बैटरी और चार्जर के साथ $790 की कीमत पर।"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "मिल्वौकी इलेक्ट्रिक टूल कॉर्प, ब्रुकफील्ड, विस्कॉन्सिन"
+            }
+          ],
+          "SoldAtLabel": "बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "संयुक्त राज्य अमेरिका"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "चेन ब्रेक की विफलता के कारण संभावित कट"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "मुफ्त मरम्मत उपलब्ध; तुरंत चेनसॉ का उपयोग करना बंद करें"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "मरम्मत"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "Компания Milwaukee Tool отзывает цепные пилы M18 FUEL из-за риска порезов",
+          "Description": "Компания Milwaukee Tool отзывает свои цепные пилы M18 FUEL с верхней ручкой, в частности модели с каталогом номер 2826-20. Эти цепные пилы, которые имеют шину длиной 12 дюймов или 14 дюймов, могут иметь дефект, который препятствует активации тормоза цепи, что может привести к потенциальной опасности порезов. Номер каталога находится в верхнем правом углу таблички с названием, в то время как серийный номер можно найти в верхнем левом углу. Уровень серийного разрыва указывается четвертой цифрой серийного номера.\n\nЭти аккумуляторные цепные пилы доступны как отдельные инструменты или в наборах, которые включают аккумуляторы M18 и зарядное устройство. Потребителей призывают немедленно прекратить использование отозванных цепных пил и обратиться в Milwaukee Tool для бесплатного ремонта. Регистрация для процесса ремонта может быть завершена онлайн, чтобы получить предоплаченную транспортную этикетку для возврата продукта.",
+          "ConsumerContact": "Для получения помощи свяжитесь с Milwaukee Tool по телефону 833-953-2012, с понедельника по пятницу с 7:00 до 16:30 по центральному времени, или посетите их портал eService по адресу https://service.milwaukeetool.com/support/eservice. Дополнительная информация доступна на сайте https://www.milwaukeetool.com/news/press-releases в разделе 2025 или по адресу http://www.milwaukeetool.com/support/recall.",
+          "metaDescription": "Компания Milwaukee Tool отзывает цепные пилы M18 FUEL из-за опасности порезов. Немедленно прекратите использование и свяжитесь для бесплатного ремонта.",
+          "Products": [
+            {
+              "Name": "Цепная пила Milwaukee Tool M18 FUEL с верхней ручкой (шина 12\" или 14\")",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 90,860 (Кроме того, около 7,500 были проданы в Канаде)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванная цепная пила Milwaukee M18 FUEL с верхней ручкой"
+            },
+            {
+              "Caption": "Отозванная цепная пила Milwaukee M18 FUEL с верхней ручкой (этикетка каталога/серийного номера)"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Компания получила два сообщения о том, что тормоз цепи не срабатывает, включая один случай травмы с порезом пальца."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Доступно в Home Depot и других магазинах товаров для дома, а также онлайн на homedepot.com, с марта 2023 года по сентябрь 2024 года, цена около $350 только за инструмент или $790 с аккумуляторами и зарядным устройством."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Milwaukee Electric Tool Corp., Брукфилд, Висконсин"
+            }
+          ],
+          "SoldAtLabel": "Продается в",
+          "ManufacturerCountries": [
+            {
+              "Country": "Соединенные Штаты"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Потенциальный порез из-за неисправности тормоза цепи"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Доступен бесплатный ремонт; немедленно прекратите использование цепной пилы"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Ремонт"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "Milwaukee Tool thu hồi cưa xích M18 FUEL do nguy cơ bị cắt",
+          "Description": "Milwaukee Tool đang thu hồi các cưa xích M18 FUEL Tay Cầm Trên của mình, cụ thể là các mẫu có số danh mục 2826-20. Những chiếc cưa xích này, có thanh dài 12 inch hoặc 14 inch, có thể có một khiếm khuyết khiến phanh xích không hoạt động, dẫn đến nguy cơ bị cắt. Số danh mục nằm ở phía trên bên phải của bảng tên, trong khi số sê-ri có thể được tìm thấy ở phía trên bên trái. Mức độ ngắt sê-ri được chỉ định bởi chữ số thứ tư của số sê-ri.\n\nNhững chiếc cưa xích chạy bằng pin này có sẵn dưới dạng công cụ độc lập hoặc trong bộ bao gồm pin M18 và bộ sạc. Người tiêu dùng được khuyến cáo ngừng sử dụng ngay lập tức các cưa xích bị thu hồi và liên hệ với Milwaukee Tool để được sửa chữa miễn phí. Đăng ký cho quy trình sửa chữa có thể được thực hiện trực tuyến để nhận nhãn vận chuyển đã trả trước để trả lại sản phẩm.",
+          "ConsumerContact": "Để được hỗ trợ, hãy liên hệ với Milwaukee Tool qua số 833-953-2012, từ thứ Hai đến thứ Sáu, từ 7 giờ sáng đến 4:30 chiều CT, hoặc truy cập cổng thông tin eService của họ tại https://service.milwaukeetool.com/support/eservice. Thông tin bổ sung có sẵn tại https://www.milwaukeetool.com/news/press-releases dưới tab 2025 hoặc tại http://www.milwaukeetool.com/support/recall.",
+          "metaDescription": "Milwaukee Tool thu hồi cưa xích M18 FUEL do nguy cơ bị cắt. Ngừng sử dụng ngay lập tức và liên hệ để được sửa chữa miễn phí.",
+          "Products": [
+            {
+              "Name": "Cưa xích Milwaukee Tool M18 FUEL Tay Cầm Trên (thanh 12\" hoặc 14\")",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 90,860 (Ngoài ra, khoảng 7,500 chiếc đã được bán tại Canada)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Cưa xích Milwaukee M18 FUEL Tay Cầm Trên bị thu hồi"
+            },
+            {
+              "Caption": "Cưa xích Milwaukee M18 FUEL Tay Cầm Trên bị thu hồi (nhãn số danh mục/số sê-ri)"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Công ty đã nhận được hai báo cáo về việc phanh xích không hoạt động, bao gồm một trường hợp bị thương liên quan đến một ngón tay bị cắt."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Có sẵn tại Home Depot và các cửa hàng cải thiện nhà khác, cũng như trực tuyến tại homedepot.com, từ tháng 3 năm 2023 đến tháng 9 năm 2024, giá khoảng 350 đô la cho công cụ riêng lẻ hoặc 790 đô la với pin và bộ sạc."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [],
+          "Manufacturers": [
+            {
+              "Name": "Công ty TNHH Milwaukee Electric Tool, Brookfield, Wisconsin"
+            }
+          ],
+          "SoldAtLabel": "Bán Tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Hoa Kỳ"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Nguy cơ bị cắt do phanh xích không hoạt động"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Sửa chữa miễn phí có sẵn; ngừng sử dụng cưa xích ngay lập tức"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Sửa chữa"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    }
+  ]
+}

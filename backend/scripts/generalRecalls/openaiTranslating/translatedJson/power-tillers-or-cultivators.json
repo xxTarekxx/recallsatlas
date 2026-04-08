@@ -1,0 +1,914 @@
+{
+  "meta": {
+    "slug": "power-tillers-or-cultivators",
+    "sourceCsvFile": "power-tillers-or-cultivators_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:37.041Z",
+    "recallCount": 1,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "power-tillers-or-cultivators.json",
+    "seoTranslatedAt": "2026-04-05T03:04:35.167Z",
+    "resumePartial": false,
+    "i18nSource": "generalRecallsTranslated",
+    "i18nSourceFile": "power-tillers-or-cultivators.json",
+    "i18nUiLangs": [
+      "en",
+      "es",
+      "ar",
+      "zh",
+      "fr",
+      "de",
+      "ja",
+      "pt",
+      "hi",
+      "ru",
+      "vi"
+    ],
+    "i18nProgressByLang": {
+      "es": 1,
+      "ar": 1,
+      "zh": 1,
+      "fr": 1,
+      "de": 1,
+      "ja": 1,
+      "pt": 1,
+      "hi": 1,
+      "ru": 1,
+      "vi": 1
+    },
+    "i18nInProgress": false,
+    "i18nTranslatedAt": "2026-04-07T18:19:12.421Z",
+    "i18nOpenaiModel": "gpt-4o-mini"
+  },
+  "recalls": [
+    {
+      "RecallID": 9961,
+      "RecallNumber": "24249",
+      "RecallDate": "2024-05-30T00:00:00",
+      "Description": "Black & Decker has announced a recall for the CRAFTSMAN Model CMCTL320B V20 Cordless Tillers/Cultivators due to a potential laceration hazard. The model number can be found on the underside of the upper handle, and the tillers/cultivators feature a red and black design. Only products with the UPC 885911843430 are affected by this recall.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/Black-Decker-Recalls-CRAFTSMAN-V20-Cordless-Tillers-Cultivators-Due-to-Laceration-Hazard",
+      "Title": "CRAFTSMAN V20 Cordless Tillers/Cultivators Recalled by Black & Decker Due to Laceration Risk",
+      "ConsumerContact": "Consumers should immediately stop using the recalled tillers/cultivators and contact CRAFTSMAN at 855-237-6848 from 8 a.m. to 6 p.m. ET, Monday through Friday. They can also email recall@sbdinc.com for updated assembly instructions or visit https://www.craftsman.com/pages/safety-notices-and-recalls-cmctl320b for more details.",
+      "LastPublishDate": "2024-05-30T00:00:00",
+      "Products": [
+        {
+          "Name": "CRAFTSMAN V20 Cordless Tiller/Cultivator",
+          "NumberOfUnits": "About 44,400"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/power-tillers-or-cultivators/1-CRAFTSMAN-V20-Cordless-Tiller-Cultivator/d15353c23fe29baf8eee511bbb83a1be.webp",
+          "Caption": "Recalled CRAFTSMAN Model CMCTL320B V20 Cordless Tiller/Cultivator",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/styles/recall_product/public/1A.png"
+        },
+        {
+          "URL": "/images/generalRecalls/power-tillers-or-cultivators/1-CRAFTSMAN-V20-Cordless-Tiller-Cultivator/68be11996463fe60da8a14b5827213bb.webp",
+          "Caption": "Recalled CRAFTSMAN Model CMCTL320B V20 Cordless Tiller/Cultivator",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/1B.png"
+        },
+        {
+          "URL": "/images/generalRecalls/power-tillers-or-cultivators/1-CRAFTSMAN-V20-Cordless-Tiller-Cultivator/d2978b741bca8d404db843cfc1df23f7.webp",
+          "Caption": "Model Number on the underside of upper handle",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/1C.png"
+        },
+        {
+          "URL": "/images/generalRecalls/power-tillers-or-cultivators/1-CRAFTSMAN-V20-Cordless-Tiller-Cultivator/e82bf8f44fc4b10ed5bcfd55221f82ba.webp",
+          "Caption": "UPC Code on product packaging",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/1D.png"
+        },
+        {
+          "URL": "/images/generalRecalls/power-tillers-or-cultivators/1-CRAFTSMAN-V20-Cordless-Tiller-Cultivator/c32cddafe9e813d55e05cf4ca6007eaf.webp",
+          "Caption": "UPC Code",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/1E.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received one report of incorrect attachment of the bottom portion of the unit. No injuries have been reported."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available at Lowe's, Ace Hardware, Blain's Farm & Fleet, select Army & Air Force Exchanges, and online through Amazon.com from October 2022 to April 2024, priced between $129 and $179."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Black & Decker (U.S.) Inc., of Towson, Maryland"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "ProductUPCs": [
+        {
+          "UPC": "885911843430"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Incorrect assembly may lead to tines rotating towards the user, resulting in a laceration hazard."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers are advised to stop using the tillers/cultivators and reach out to CRAFTSMAN for revised assembly instructions. Updated instructions are also available on CRAFTSMAN's website at https://www.craftsman.com/pages/safety-notices-and-recalls-cmctl320b. CRAFTSMAN and retailers are providing these instructions to known purchasers."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "New Instructions"
+        }
+      ],
+      "slug": "craftsman-v20-cordless-tillers-cultivators-recalled-by-black-decker-due-to-laceration-risk-recall",
+      "metaDescription": "CRAFTSMAN V20 Cordless Tillers/Cultivators recalled due to laceration risk. Contact CRAFTSMAN for updated assembly instructions.",
+      "languages": {
+        "en": {
+          "Title": "CRAFTSMAN V20 Cordless Tillers/Cultivators Recalled by Black & Decker Due to Laceration Risk",
+          "Description": "Black & Decker has announced a recall for the CRAFTSMAN Model CMCTL320B V20 Cordless Tillers/Cultivators due to a potential laceration hazard. The model number can be found on the underside of the upper handle, and the tillers/cultivators feature a red and black design. Only products with the UPC 885911843430 are affected by this recall.",
+          "ConsumerContact": "Consumers should immediately stop using the recalled tillers/cultivators and contact CRAFTSMAN at 855-237-6848 from 8 a.m. to 6 p.m. ET, Monday through Friday. They can also email recall@sbdinc.com for updated assembly instructions or visit https://www.craftsman.com/pages/safety-notices-and-recalls-cmctl320b for more details.",
+          "metaDescription": "CRAFTSMAN V20 Cordless Tillers/Cultivators recalled due to laceration risk. Contact CRAFTSMAN for updated assembly instructions.",
+          "Products": [
+            {
+              "Name": "CRAFTSMAN V20 Cordless Tiller/Cultivator",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 44,400"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled CRAFTSMAN Model CMCTL320B V20 Cordless Tiller/Cultivator"
+            },
+            {
+              "Caption": "Recalled CRAFTSMAN Model CMCTL320B V20 Cordless Tiller/Cultivator"
+            },
+            {
+              "Caption": "Model Number on the underside of upper handle"
+            },
+            {
+              "Caption": "UPC Code on product packaging"
+            },
+            {
+              "Caption": "UPC Code"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "The firm has received one report of incorrect attachment of the bottom portion of the unit. No injuries have been reported."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Available at Lowe's, Ace Hardware, Blain's Farm & Fleet, select Army & Air Force Exchanges, and online through Amazon.com from October 2022 to April 2024, priced between $129 and $179."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Black & Decker (U.S.) Inc., of Towson, Maryland"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Sold At",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Incorrect assembly may lead to tines rotating towards the user, resulting in a laceration hazard."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Consumers are advised to stop using the tillers/cultivators and reach out to CRAFTSMAN for revised assembly instructions. Updated instructions are also available on CRAFTSMAN's website at https://www.craftsman.com/pages/safety-notices-and-recalls-cmctl320b. CRAFTSMAN and retailers are providing these instructions to known purchasers."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "New Instructions"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "Cultivadores/Desmalezadoras CRAFTSMAN V20 Sin Cable Retirados por Black & Decker Debido al Riesgo de Laceración",
+          "Description": "Black & Decker ha anunciado un retiro de los Cultivadores/Desmalezadoras CRAFTSMAN Modelo CMCTL320B V20 Sin Cable debido a un posible peligro de laceración. El número de modelo se puede encontrar en la parte inferior del mango superior, y los cultivadores/desmalezadoras tienen un diseño rojo y negro. Solo los productos con el UPC 885911843430 se ven afectados por este retiro.",
+          "ConsumerContact": "Los consumidores deben dejar de usar inmediatamente los cultivadores/desmalezadoras retirados y contactar a CRAFTSMAN al 855-237-6848 de 8 a.m. a 6 p.m. ET, de lunes a viernes. También pueden enviar un correo electrónico a recall@sbdinc.com para obtener instrucciones de ensamblaje actualizadas o visitar https://www.craftsman.com/pages/safety-notices-and-recalls-cmctl320b para más detalles.",
+          "metaDescription": "Cultivadores/Desmalezadoras CRAFTSMAN V20 Sin Cable retirados debido al riesgo de laceración. Contacte a CRAFTSMAN para obtener instrucciones de ensamblaje actualizadas.",
+          "Products": [
+            {
+              "Name": "Cultivador/Desmalezadora CRAFTSMAN V20 Sin Cable",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 44,400"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Cultivador/Desmalezadora CRAFTSMAN Modelo CMCTL320B V20 Retirado"
+            },
+            {
+              "Caption": "Cultivador/Desmalezadora CRAFTSMAN Modelo CMCTL320B V20 Retirado"
+            },
+            {
+              "Caption": "Número de modelo en la parte inferior del mango superior"
+            },
+            {
+              "Caption": "Código UPC en el empaque del producto"
+            },
+            {
+              "Caption": "Código UPC"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "La empresa ha recibido un informe de un incorrecto acoplamiento de la parte inferior de la unidad. No se han reportado lesiones."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible en Lowe's, Ace Hardware, Blain's Farm & Fleet, selectos intercambios del Ejército y la Fuerza Aérea, y en línea a través de Amazon.com desde octubre de 2022 hasta abril de 2024, con precios entre $129 y $179."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Black & Decker (U.S.) Inc., de Towson, Maryland"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendidos En",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Un ensamblaje incorrecto puede llevar a que los dientes roten hacia el usuario, lo que resulta en un peligro de laceración."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Se aconseja a los consumidores que dejen de usar los cultivadores/desmalezadoras y se comuniquen con CRAFTSMAN para obtener instrucciones de ensamblaje revisadas. Las instrucciones actualizadas también están disponibles en el sitio web de CRAFTSMAN en https://www.craftsman.com/pages/safety-notices-and-recalls-cmctl320b. CRAFTSMAN y los minoristas están proporcionando estas instrucciones a los compradores conocidos."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Nuevas Instrucciones"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "استدعاء أدوات الحراثة/الزراعة اللاسلكية CRAFTSMAN V20 من قبل بلاك آند ديكر بسبب خطر القطع",
+          "Description": "أعلنت بلاك آند ديكر عن استدعاء نموذج CRAFTSMAN CMCTL320B V20 لأدوات الحراثة/الزراعة اللاسلكية بسبب خطر محتمل للقطع. يمكن العثور على رقم الطراز في الجزء السفلي من المقبض العلوي، وتتميز أدوات الحراثة/الزراعة بتصميم أحمر وأسود. فقط المنتجات التي تحمل رمز UPC 885911843430 متأثرة بهذا الاستدعاء.",
+          "ConsumerContact": "يجب على المستهلكين التوقف عن استخدام أدوات الحراثة/الزراعة المستدعاة على الفور والتواصل مع CRAFTSMAN على الرقم 855-237-6848 من الساعة 8 صباحًا حتى 6 مساءً بتوقيت شرق الولايات المتحدة، من الاثنين إلى الجمعة. يمكنهم أيضًا إرسال بريد إلكتروني إلى recall@sbdinc.com للحصول على تعليمات تجميع محدثة أو زيارة https://www.craftsman.com/pages/safety-notices-and-recalls-cmctl320b لمزيد من التفاصيل.",
+          "metaDescription": "استدعاء أدوات الحراثة/الزراعة اللاسلكية CRAFTSMAN V20 بسبب خطر القطع. اتصل بـ CRAFTSMAN للحصول على تعليمات تجميع محدثة.",
+          "Products": [
+            {
+              "Name": "أداة حراثة/زراعة لاسلكية CRAFTSMAN V20",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 44,400"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "أداة حراثة/زراعة لاسلكية CRAFTSMAN نموذج CMCTL320B المستدعاة"
+            },
+            {
+              "Caption": "أداة حراثة/زراعة لاسلكية CRAFTSMAN نموذج CMCTL320B المستدعاة"
+            },
+            {
+              "Caption": "رقم الطراز في الجزء السفلي من المقبض العلوي"
+            },
+            {
+              "Caption": "رمز UPC على عبوة المنتج"
+            },
+            {
+              "Caption": "رمز UPC"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "تلقت الشركة تقريرًا واحدًا عن تركيب غير صحيح للجزء السفلي من الوحدة. لم يتم الإبلاغ عن أي إصابات."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "متوفر في Lowe's وAce Hardware وBlain's Farm & Fleet وبعض متاجر الجيش وسلاح الجو، وعبر الإنترنت من خلال Amazon.com من أكتوبر 2022 إلى أبريل 2024، بأسعار تتراوح بين 129 دولارًا و179 دولارًا."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "بلاك آند ديكر (الولايات المتحدة) إنك، من تاوسون، ماريلاند"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "تم البيع في",
+          "ManufacturerCountries": [
+            {
+              "Country": "الصين"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "قد يؤدي التجميع غير الصحيح إلى دوران الأسنان نحو المستخدم، مما يؤدي إلى خطر القطع."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "يُنصح المستهلكون بالتوقف عن استخدام أدوات الحراثة/الزراعة والتواصل مع CRAFTSMAN للحصول على تعليمات تجميع معدلة. التعليمات المحدثة متاحة أيضًا على موقع CRAFTSMAN على https://www.craftsman.com/pages/safety-notices-and-recalls-cmctl320b. تقدم CRAFTSMAN وتجار التجزئة هذه التعليمات للمشترين المعروفين."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "تعليمات جديدة"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "CRAFTSMAN V20 无线耕耘机/耕作机因割伤风险被黑德克召回",
+          "Description": "黑德克已宣布召回CRAFTSMAN型号CMCTL320B V20无线耕耘机/耕作机，原因是存在潜在的割伤危险。型号可以在上手柄的底部找到，耕耘机/耕作机的设计为红色和黑色。仅UPC为885911843430的产品受到此次召回的影响。",
+          "ConsumerContact": "消费者应立即停止使用被召回的耕耘机/耕作机，并在周一至周五的东部时间上午8点至下午6点之间联系CRAFTSMAN，电话855-237-6848。他们还可以发送电子邮件至recall@sbdinc.com以获取更新的组装说明，或访问https://www.craftsman.com/pages/safety-notices-and-recalls-cmctl320b以获取更多详细信息。",
+          "metaDescription": "因割伤风险而召回CRAFTSMAN V20无线耕耘机/耕作机。请联系CRAFTSMAN以获取更新的组装说明。",
+          "Products": [
+            {
+              "Name": "CRAFTSMAN V20 无线耕耘机/耕作机",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约44,400"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "被召回的CRAFTSMAN型号CMCTL320B V20无线耕耘机/耕作机"
+            },
+            {
+              "Caption": "被召回的CRAFTSMAN型号CMCTL320B V20无线耕耘机/耕作机"
+            },
+            {
+              "Caption": "上手柄底部的型号"
+            },
+            {
+              "Caption": "产品包装上的UPC代码"
+            },
+            {
+              "Caption": "UPC代码"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "该公司已收到一份关于设备底部部分错误连接的报告。未报告任何伤害。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "在Lowe's、Ace Hardware、Blain's Farm & Fleet、部分陆军和空军交流处以及Amazon.com在线销售，销售时间为2022年10月至2024年4月，价格在129美元至179美元之间。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "黑德克（美国）公司，位于马里兰州陶森"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "销售地点",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "错误的组装可能导致耕耘刀朝向用户旋转，从而造成割伤危险。"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "建议消费者停止使用耕耘机/耕作机，并联系CRAFTSMAN以获取修订的组装说明。更新的说明也可以在CRAFTSMAN的网站上找到，网址为https://www.craftsman.com/pages/safety-notices-and-recalls-cmctl320b。CRAFTSMAN和零售商正在向已知购买者提供这些说明。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "新说明"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "Tailleuses/Cultivateurs sans fil CRAFTSMAN V20 rappelés par Black & Decker en raison d'un risque de lacération",
+          "Description": "Black & Decker a annoncé un rappel pour les tailleuses/cultivateurs sans fil CRAFTSMAN Modèle CMCTL320B V20 en raison d'un potentiel danger de lacération. Le numéro de modèle se trouve sous la poignée supérieure, et les tailleuses/cultivateurs présentent un design rouge et noir. Seuls les produits avec le UPC 885911843430 sont concernés par ce rappel.",
+          "ConsumerContact": "Les consommateurs doivent immédiatement cesser d'utiliser les tailleuses/cultivateurs rappelés et contacter CRAFTSMAN au 855-237-6848 de 8 h à 18 h HNE, du lundi au vendredi. Ils peuvent également envoyer un e-mail à recall@sbdinc.com pour des instructions d'assemblage mises à jour ou visiter https://www.craftsman.com/pages/safety-notices-and-recalls-cmctl320b pour plus de détails.",
+          "metaDescription": "Tailleuses/Cultivateurs sans fil CRAFTSMAN V20 rappelés en raison d'un risque de lacération. Contactez CRAFTSMAN pour des instructions d'assemblage mises à jour.",
+          "Products": [
+            {
+              "Name": "Tailleuse/Cultivateur sans fil CRAFTSMAN V20",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 44 400"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Tailleuse/Cultivateur sans fil CRAFTSMAN Modèle CMCTL320B rappelé"
+            },
+            {
+              "Caption": "Tailleuse/Cultivateur sans fil CRAFTSMAN Modèle CMCTL320B rappelé"
+            },
+            {
+              "Caption": "Numéro de modèle sous la poignée supérieure"
+            },
+            {
+              "Caption": "Code UPC sur l'emballage du produit"
+            },
+            {
+              "Caption": "Code UPC"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "L'entreprise a reçu un rapport d'attachement incorrect de la partie inférieure de l'unité. Aucune blessure n'a été signalée."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible chez Lowe's, Ace Hardware, Blain's Farm & Fleet, certains Échanges de l'Armée et de l'Air Force, et en ligne via Amazon.com d'octobre 2022 à avril 2024, au prix compris entre 129 $ et 179 $."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Black & Decker (U.S.) Inc., de Towson, Maryland"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendu chez",
+          "ManufacturerCountries": [
+            {
+              "Country": "Chine"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Un assemblage incorrect peut entraîner la rotation des dents vers l'utilisateur, ce qui représente un risque de lacération."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Les consommateurs sont conseillés de cesser d'utiliser les tailleuses/cultivateurs et de contacter CRAFTSMAN pour des instructions d'assemblage révisées. Des instructions mises à jour sont également disponibles sur le site Web de CRAFTSMAN à l'adresse https://www.craftsman.com/pages/safety-notices-and-recalls-cmctl320b. CRAFTSMAN et les détaillants fournissent ces instructions aux acheteurs connus."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Nouvelles instructions"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "CRAFTSMAN V20 Akku-Grabgeräte/Kultivatoren von Black & Decker wegen Schnittgefahr zurückgerufen",
+          "Description": "Black & Decker hat einen Rückruf für die CRAFTSMAN Modell CMCTL320B V20 Akku-Grabgeräte/Kultivatoren aufgrund einer potenziellen Schnittgefahr angekündigt. Die Modellnummer befindet sich auf der Unterseite des oberen Griffs, und die Grabgeräte/Kultivatoren haben ein rot-schwarzes Design. Nur Produkte mit dem UPC 885911843430 sind von diesem Rückruf betroffen.",
+          "ConsumerContact": "Verbraucher sollten die zurückgerufenen Grabgeräte/Kultivatoren sofort nicht mehr verwenden und CRAFTSMAN unter 855-237-6848 von 8 bis 18 Uhr ET, Montag bis Freitag, kontaktieren. Sie können auch eine E-Mail an recall@sbdinc.com senden, um aktualisierte Montageanleitungen zu erhalten, oder die Website https://www.craftsman.com/pages/safety-notices-and-recalls-cmctl320b besuchen, um weitere Details zu erfahren.",
+          "metaDescription": "CRAFTSMAN V20 Akku-Grabgeräte/Kultivatoren wegen Schnittgefahr zurückgerufen. Kontaktieren Sie CRAFTSMAN für aktualisierte Montageanleitungen.",
+          "Products": [
+            {
+              "Name": "CRAFTSMAN V20 Akku-Grabgerät/Kultivator",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 44.400"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Zurückgerufenes CRAFTSMAN Modell CMCTL320B V20 Akku-Grabgerät/Kultivator"
+            },
+            {
+              "Caption": "Zurückgerufenes CRAFTSMAN Modell CMCTL320B V20 Akku-Grabgerät/Kultivator"
+            },
+            {
+              "Caption": "Modellnummer auf der Unterseite des oberen Griffs"
+            },
+            {
+              "Caption": "UPC-Code auf der Produktverpackung"
+            },
+            {
+              "Caption": "UPC-Code"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Das Unternehmen hat einen Bericht über eine falsche Befestigung des unteren Teils des Geräts erhalten. Es wurden keine Verletzungen gemeldet."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Erhältlich bei Lowe's, Ace Hardware, Blain's Farm & Fleet, ausgewählten Army & Air Force Exchanges und online über Amazon.com von Oktober 2022 bis April 2024, zu Preisen zwischen 129 und 179 US-Dollar."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Black & Decker (U.S.) Inc., aus Towson, Maryland"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Verkauft bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Falsche Montage kann dazu führen, dass sich die Zinken in Richtung des Benutzers drehen, was zu einer Schnittgefahr führt."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Verbraucher werden geraten, die Grabgeräte/Kultivatoren nicht mehr zu verwenden und sich an CRAFTSMAN zu wenden, um überarbeitete Montageanleitungen zu erhalten. Aktualisierte Anleitungen sind auch auf der Website von CRAFTSMAN unter https://www.craftsman.com/pages/safety-notices-and-recalls-cmctl320b verfügbar. CRAFTSMAN und Einzelhändler stellen diese Anleitungen den bekannten Käufern zur Verfügung."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Neue Anleitungen"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "CRAFTSMAN V20 コードレス耕運機/耕作機が切傷のリスクによりブラック＆デッカーによってリコール",
+          "Description": "ブラック＆デッカーは、潜在的な切傷の危険性によりCRAFTSMANモデルCMCTL320B V20コードレス耕運機/耕作機のリコールを発表しました。モデル番号は上部ハンドルの裏側に記載されており、耕運機/耕作機は赤と黒のデザインです。このリコールの対象となるのは、UPC 885911843430の製品のみです。",
+          "ConsumerContact": "消費者は、リコールされた耕運機/耕作機の使用を直ちに中止し、月曜日から金曜日の午前8時から午後6時（ET）までCRAFTSMANに855-237-6848で連絡するべきです。また、最新の組み立て指示についてはrecall@sbdinc.comにメールを送るか、詳細についてはhttps://www.craftsman.com/pages/safety-notices-and-recalls-cmctl320bを訪問してください。",
+          "metaDescription": "切傷のリスクによりリコールされたCRAFTSMAN V20コードレス耕運機/耕作機。最新の組み立て指示についてCRAFTSMANに連絡してください。",
+          "Products": [
+            {
+              "Name": "CRAFTSMAN V20 コードレス耕運機/耕作機",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約44,400"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコールされたCRAFTSMANモデルCMCTL320B V20コードレス耕運機/耕作機"
+            },
+            {
+              "Caption": "リコールされたCRAFTSMANモデルCMCTL320B V20コードレス耕運機/耕作機"
+            },
+            {
+              "Caption": "上部ハンドルの裏側にあるモデル番号"
+            },
+            {
+              "Caption": "製品パッケージのUPCコード"
+            },
+            {
+              "Caption": "UPCコード"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "企業は、ユニットの下部部分の不適切な取り付けに関する報告を1件受けています。怪我の報告はありません。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "2022年10月から2024年4月まで、Lowe's、Ace Hardware、Blain's Farm & Fleet、選択された陸軍および空軍の交換所、そしてAmazon.comで販売されており、価格は129ドルから179ドルの間です。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "ブラック＆デッカー（米国）社、メリーランド州タウソン"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "販売場所",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "不適切な組み立てにより、爪がユーザーの方に回転する可能性があり、切傷の危険が生じることがあります。"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "消費者は耕運機/耕作機の使用を中止し、CRAFTSMANに改訂された組み立て指示を求めるよう勧められています。最新の指示はCRAFTSMANのウェブサイトhttps://www.craftsman.com/pages/safety-notices-and-recalls-cmctl320bでも入手可能です。CRAFTSMANと小売業者は、既知の購入者にこれらの指示を提供しています。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "新しい指示"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "Cultivadores/Cultivadores Sem Fio CRAFTSMAN V20 Recall pela Black & Decker Devido ao Risco de Laceração",
+          "Description": "A Black & Decker anunciou um recall para os Cultivadores/Cultivadores Sem Fio CRAFTSMAN Modelo CMCTL320B V20 devido a um potencial risco de laceração. O número do modelo pode ser encontrado na parte inferior do cabo superior, e os cultivadores/cultivadores apresentam um design vermelho e preto. Apenas produtos com o UPC 885911843430 estão afetados por este recall.",
+          "ConsumerContact": "Os consumidores devem imediatamente parar de usar os cultivadores/cultivadores recallados e entrar em contato com a CRAFTSMAN pelo telefone 855-237-6848, das 8h às 18h ET, de segunda a sexta-feira. Eles também podem enviar um e-mail para recall@sbdinc.com para obter instruções de montagem atualizadas ou visitar https://www.craftsman.com/pages/safety-notices-and-recalls-cmctl320b para mais detalhes.",
+          "metaDescription": "Cultivadores/Cultivadores Sem Fio CRAFTSMAN V20 recallados devido ao risco de laceração. Entre em contato com a CRAFTSMAN para instruções de montagem atualizadas.",
+          "Products": [
+            {
+              "Name": "Cultivador/Cultivador Sem Fio CRAFTSMAN V20",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 44.400"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Cultivador/Cultivador Sem Fio CRAFTSMAN Modelo CMCTL320B Recallado"
+            },
+            {
+              "Caption": "Cultivador/Cultivador Sem Fio CRAFTSMAN Modelo CMCTL320B Recallado"
+            },
+            {
+              "Caption": "Número do Modelo na parte inferior do cabo superior"
+            },
+            {
+              "Caption": "Código UPC na embalagem do produto"
+            },
+            {
+              "Caption": "Código UPC"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "A empresa recebeu um relatório de montagem incorreta da parte inferior da unidade. Nenhum ferimento foi relatado."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponível na Lowe's, Ace Hardware, Blain's Farm & Fleet, seleções de Trocas do Exército e Força Aérea, e online através da Amazon.com de outubro de 2022 a abril de 2024, com preços entre $129 e $179."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Black & Decker (U.S.) Inc., de Towson, Maryland"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendidos Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Montagem incorreta pode levar a dentes girando em direção ao usuário, resultando em um risco de laceração."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Os consumidores são aconselhados a parar de usar os cultivadores/cultivadores e entrar em contato com a CRAFTSMAN para obter instruções de montagem revisadas. Instruções atualizadas também estão disponíveis no site da CRAFTSMAN em https://www.craftsman.com/pages/safety-notices-and-recalls-cmctl320b. A CRAFTSMAN e os varejistas estão fornecendo essas instruções aos compradores conhecidos."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Novas Instruções"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "CRAFTSMAN V20 वायरलेस टिलर्स/कल्टीवेटर्स को ब्लैक एंड डेकर द्वारा कटने के जोखिम के कारण वापस बुलाया गया",
+          "Description": "ब्लैक एंड डेकर ने CRAFTSMAN मॉडल CMCTL320B V20 वायरलेस टिलर्स/कल्टीवेटर्स के लिए एक रिकॉल की घोषणा की है क्योंकि इसमें संभावित कटने का खतरा है। मॉडल नंबर ऊपरी हैंडल के नीचे पाया जा सकता है, और टिलर्स/कल्टीवेटर्स का डिज़ाइन लाल और काले रंग का है। केवल UPC 885911843430 वाले उत्पाद इस रिकॉल से प्रभावित हैं।",
+          "ConsumerContact": "उपभोक्ताओं को तुरंत वापस बुलाए गए टिलर्स/कल्टीवेटर्स का उपयोग बंद कर देना चाहिए और CRAFTSMAN से 855-237-6848 पर सुबह 8 बजे से शाम 6 बजे ET, सोमवार से शुक्रवार तक संपर्क करना चाहिए। वे अद्यतन असेंबली निर्देशों के लिए recall@sbdinc.com पर भी ईमेल कर सकते हैं या अधिक जानकारी के लिए https://www.craftsman.com/pages/safety-notices-and-recalls-cmctl320b पर जा सकते हैं।",
+          "metaDescription": "CRAFTSMAN V20 वायरलेस टिलर्स/कल्टीवेटर्स को कटने के जोखिम के कारण वापस बुलाया गया। अद्यतन असेंबली निर्देशों के लिए CRAFTSMAN से संपर्क करें।",
+          "Products": [
+            {
+              "Name": "CRAFTSMAN V20 वायरलेस टिलर/कल्टीवेटर",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 44,400"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "वापस बुलाया गया CRAFTSMAN मॉडल CMCTL320B V20 वायरलेस टिलर/कल्टीवेटर"
+            },
+            {
+              "Caption": "वापस बुलाया गया CRAFTSMAN मॉडल CMCTL320B V20 वायरलेस टिलर/कल्टीवेटर"
+            },
+            {
+              "Caption": "ऊपरी हैंडल के नीचे मॉडल नंबर"
+            },
+            {
+              "Caption": "उत्पाद पैकेजिंग पर UPC कोड"
+            },
+            {
+              "Caption": "UPC कोड"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "कंपनी को यूनिट के निचले हिस्से के गलत अटैचमेंट की एक रिपोर्ट मिली है। कोई चोटें रिपोर्ट नहीं की गई हैं।"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "लोव्स, ऐस हार्डवेयर, ब्लेन के फार्म और फ्लीट, चयनित आर्मी और एयर फोर्स एक्सचेंज, और अक्टूबर 2022 से अप्रैल 2024 तक Amazon.com के माध्यम से उपलब्ध, कीमत $129 से $179 के बीच।"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "ब्लैक एंड डेकर (यू.एस.) इंक., टॉवसन, मैरीलैंड"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "चीन"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "गलत असेंबली के कारण टाइन उपयोगकर्ता की ओर घूम सकते हैं, जिससे कटने का खतरा हो सकता है।"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "उपभोक्ताओं को टिलर्स/कल्टीवेटर्स का उपयोग बंद करने और संशोधित असेंबली निर्देशों के लिए CRAFTSMAN से संपर्क करने की सलाह दी जाती है। अद्यतन निर्देश CRAFTSMAN की वेबसाइट पर भी उपलब्ध हैं: https://www.craftsman.com/pages/safety-notices-and-recalls-cmctl320b। CRAFTSMAN और रिटेलर्स इन निर्देशों को ज्ञात खरीदारों को प्रदान कर रहे हैं।"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "नए निर्देश"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "Отозваны мотоблоки/культиваторы CRAFTSMAN V20 от Black & Decker из-за риска порезов",
+          "Description": "Компания Black & Decker объявила об отзыве мотоблоков/культиваторов CRAFTSMAN модели CMCTL320B V20 из-за потенциальной опасности порезов. Номер модели можно найти на нижней стороне верхней ручки, а мотоблоки/культиваторы имеют красно-черный дизайн. Отзыву подлежат только продукты с UPC 885911843430.",
+          "ConsumerContact": "Потребители должны немедленно прекратить использование отозванных мотоблоков/культиваторов и связаться с CRAFTSMAN по телефону 855-237-6848 с 8:00 до 18:00 по восточному времени с понедельника по пятницу. Они также могут отправить электронное письмо на адрес recall@sbdinc.com для получения обновленных инструкций по сборке или посетить https://www.craftsman.com/pages/safety-notices-and-recalls-cmctl320b для получения дополнительной информации.",
+          "metaDescription": "Мотоблоки/культиваторы CRAFTSMAN V20 отозваны из-за риска порезов. Свяжитесь с CRAFTSMAN для получения обновленных инструкций по сборке.",
+          "Products": [
+            {
+              "Name": "Мотоблок/культиватор CRAFTSMAN V20",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 44,400"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванный мотоблок/культиватор CRAFTSMAN модели CMCTL320B V20"
+            },
+            {
+              "Caption": "Отозванный мотоблок/культиватор CRAFTSMAN модели CMCTL320B V20"
+            },
+            {
+              "Caption": "Номер модели на нижней стороне верхней ручки"
+            },
+            {
+              "Caption": "UPC код на упаковке продукта"
+            },
+            {
+              "Caption": "UPC код"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Компания получила один отчет о неправильном креплении нижней части устройства. Травмы не были зафиксированы."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Доступно в Lowe's, Ace Hardware, Blain's Farm & Fleet, в избранных обменах армии и военно-воздушных сил, а также онлайн через Amazon.com с октября 2022 года по апрель 2024 года, по цене от $129 до $179."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Black & Decker (U.S.) Inc., Таусон, Мэриленд"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Продается в",
+          "ManufacturerCountries": [
+            {
+              "Country": "Китай"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Неправильная сборка может привести к вращению зубьев в сторону пользователя, что создает риск порезов."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Потребителям рекомендуется прекратить использование мотоблоков/культиваторов и обратиться к CRAFTSMAN за пересмотренными инструкциями по сборке. Обновленные инструкции также доступны на сайте CRAFTSMAN по адресу https://www.craftsman.com/pages/safety-notices-and-recalls-cmctl320b. CRAFTSMAN и розничные продавцы предоставляют эти инструкции известным покупателям."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Новые инструкции"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "CRAFTSMAN V20 Máy Xới/Phát Triển Không Dây Bị Triệu Hồi Bởi Black & Decker Do Nguy Cơ Bị Cắt",
+          "Description": "Black & Decker đã thông báo triệu hồi cho sản phẩm CRAFTSMAN Model CMCTL320B V20 Máy Xới/Phát Triển Không Dây do nguy cơ cắt tiềm ẩn. Số model có thể được tìm thấy ở mặt dưới của tay cầm trên, và máy xới/phát triển có thiết kế màu đỏ và đen. Chỉ những sản phẩm có UPC 885911843430 bị ảnh hưởng bởi đợt triệu hồi này.",
+          "ConsumerContact": "Người tiêu dùng nên ngay lập tức ngừng sử dụng máy xới/phát triển bị triệu hồi và liên hệ với CRAFTSMAN qua số 855-237-6848 từ 8 giờ sáng đến 6 giờ chiều ET, từ thứ Hai đến thứ Sáu. Họ cũng có thể gửi email đến recall@sbdinc.com để nhận hướng dẫn lắp ráp cập nhật hoặc truy cập https://www.craftsman.com/pages/safety-notices-and-recalls-cmctl320b để biết thêm chi tiết.",
+          "metaDescription": "CRAFTSMAN V20 Máy Xới/Phát Triển Không Dây bị triệu hồi do nguy cơ cắt. Liên hệ với CRAFTSMAN để nhận hướng dẫn lắp ráp cập nhật.",
+          "Products": [
+            {
+              "Name": "CRAFTSMAN V20 Máy Xới/Phát Triển Không Dây",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 44,400"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "CRAFTSMAN Model CMCTL320B V20 Máy Xới/Phát Triển Không Dây bị triệu hồi"
+            },
+            {
+              "Caption": "CRAFTSMAN Model CMCTL320B V20 Máy Xới/Phát Triển Không Dây bị triệu hồi"
+            },
+            {
+              "Caption": "Số Model ở mặt dưới của tay cầm trên"
+            },
+            {
+              "Caption": "Mã UPC trên bao bì sản phẩm"
+            },
+            {
+              "Caption": "Mã UPC"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Công ty đã nhận được một báo cáo về việc gắn không đúng phần dưới của thiết bị. Không có thương tích nào được báo cáo."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Có sẵn tại Lowe's, Ace Hardware, Blain's Farm & Fleet, các Cửa Hàng Quân Đội & Không Quân chọn lọc, và trực tuyến qua Amazon.com từ tháng 10 năm 2022 đến tháng 4 năm 2024, có giá từ 129 đến 179 đô la."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Black & Decker (Mỹ) Inc., tại Towson, Maryland"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Bán Tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Trung Quốc"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Lắp ráp không đúng có thể dẫn đến các răng quay về phía người dùng, gây ra nguy cơ cắt."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Người tiêu dùng được khuyên nên ngừng sử dụng máy xới/phát triển và liên hệ với CRAFTSMAN để nhận hướng dẫn lắp ráp đã sửa đổi. Hướng dẫn cập nhật cũng có sẵn trên trang web của CRAFTSMAN tại https://www.craftsman.com/pages/safety-notices-and-recalls-cmctl320b. CRAFTSMAN và các nhà bán lẻ đang cung cấp những hướng dẫn này cho những người mua đã biết."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Hướng Dẫn Mới"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    }
+  ]
+}

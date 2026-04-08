@@ -1,0 +1,2453 @@
+{
+  "meta": {
+    "slug": "pacifiers-and-teething-rings",
+    "sourceCsvFile": "pacifiers-and-teething-rings_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:37.027Z",
+    "recallCount": 3,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "pacifiers-and-teething-rings.json",
+    "seoTranslatedAt": "2026-04-05T02:25:14.187Z",
+    "resumePartial": false,
+    "i18nSource": "generalRecallsTranslated",
+    "i18nSourceFile": "pacifiers-and-teething-rings.json",
+    "i18nUiLangs": [
+      "en",
+      "es",
+      "ar",
+      "zh",
+      "fr",
+      "de",
+      "ja",
+      "pt",
+      "hi",
+      "ru",
+      "vi"
+    ],
+    "i18nProgressByLang": {
+      "es": 3,
+      "ar": 3,
+      "zh": 3,
+      "fr": 3,
+      "de": 3,
+      "ja": 3,
+      "pt": 3,
+      "hi": 3,
+      "ru": 3,
+      "vi": 3
+    },
+    "i18nInProgress": false,
+    "i18nTranslatedAt": "2026-04-07T17:00:35.954Z",
+    "i18nOpenaiModel": "gpt-4o-mini"
+  },
+  "recalls": [
+    {
+      "RecallID": 10579,
+      "RecallNumber": "26219",
+      "RecallDate": "2026-01-29T00:00:00",
+      "Description": "The AiTuiTui Pull String Teething Toy has been recalled due to a serious choking hazard. This toy features an off-white disc shape with a red or blue ball at its center, accompanied by six colorful pull string 'tentacles' and three free-spinning rings. The model number '688-59' is indicated on the packaging, highlighting its identification.",
+      "URL": "https://www.cpsc.gov/Recalls/2026/AiTuiTui-Pull-String-Teething-Toys-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Choking-Violate-Mandatory-Standard-for-Toys-Sold-on-Amazon-by-Vanfun",
+      "Title": "AiTuiTui Pull String Teething Toy Recall Due to Choking Hazard",
+      "ConsumerContact": "Consumers should reach out to Vanfun via email at recallmls@outlook.com for assistance.",
+      "LastPublishDate": "2026-01-29T00:00:00",
+      "Products": [
+        {
+          "Name": "AiTuiTui Pull String Teething Toy",
+          "NumberOfUnits": "About 49,410"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/pacifiers-and-teething-rings/1-AiTuiTui-Pull-String-Teething-Toy/42affd0df8d5ad0d02833a9a42c3eff9.webp",
+          "Caption": "Recalled Teether Toy – Red",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/teethertoy-1.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/pacifiers-and-teething-rings/1-AiTuiTui-Pull-String-Teething-Toy/76b932a95acd2526917bf10f1269e4bb.webp",
+          "Caption": "Recalled Teether Toy – Blue",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/teethertoy-2.jpg"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "CPSC is aware of 15 choking incidents and two incidents of children able to bite pieces off the silicone strings."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available online at Amazon.com from August 2022 to September 2025 for approximately $10."
+        }
+      ],
+      "Distributors": [
+        {
+          "Name": "Shenzhen Mailesi Technology Co., Ltd., dba Vanfun, of China"
+        }
+      ],
+      "SoldAtLabel": "Sold Online At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Choking hazard due to non-compliance with safety standards"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Stop using the toy immediately and contact Vanfun for a full refund. Cut and discard all string tentacles, mark the main body 'DESTROYED' with a permanent marker, and email a photo of the destroyed toy to recallmls@outlook.com."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "Model: 688-59"
+      ],
+      "slug": "aituitui-pull-string-teething-toy-recall-due-to-choking-hazard-recall",
+      "metaDescription": "Recall of AiTuiTui Pull String Teething Toy due to choking risk. Contact Vanfun for refund and safety instructions.",
+      "languages": {
+        "en": {
+          "Title": "AiTuiTui Pull String Teething Toy Recall Due to Choking Hazard",
+          "Description": "The AiTuiTui Pull String Teething Toy has been recalled due to a serious choking hazard. This toy features an off-white disc shape with a red or blue ball at its center, accompanied by six colorful pull string 'tentacles' and three free-spinning rings. The model number '688-59' is indicated on the packaging, highlighting its identification.",
+          "ConsumerContact": "Consumers should reach out to Vanfun via email at recallmls@outlook.com for assistance.",
+          "metaDescription": "Recall of AiTuiTui Pull String Teething Toy due to choking risk. Contact Vanfun for refund and safety instructions.",
+          "Products": [
+            {
+              "Name": "AiTuiTui Pull String Teething Toy",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 49,410"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled Teether Toy – Red"
+            },
+            {
+              "Caption": "Recalled Teether Toy – Blue"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "CPSC is aware of 15 choking incidents and two incidents of children able to bite pieces off the silicone strings."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Available online at Amazon.com from August 2022 to September 2025 for approximately $10."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Shenzhen Mailesi Technology Co., Ltd., dba Vanfun, of China"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Sold Online At",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Choking hazard due to non-compliance with safety standards"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Stop using the toy immediately and contact Vanfun for a full refund. Cut and discard all string tentacles, mark the main body 'DESTROYED' with a permanent marker, and email a photo of the destroyed toy to recallmls@outlook.com."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Refund"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "Retiro del Juguete de Dentición con Cuerda AiTuiTui Debido a Peligro de Asfixia",
+          "Description": "El Juguete de Dentición con Cuerda AiTuiTui ha sido retirado debido a un grave peligro de asfixia. Este juguete presenta una forma de disco de color blanco roto con una bola roja o azul en su centro, acompañada de seis 'tentáculos' de cuerda coloridos y tres anillos giratorios libres. El número de modelo '688-59' está indicado en el empaque, destacando su identificación.",
+          "ConsumerContact": "Los consumidores deben comunicarse con Vanfun por correo electrónico a recallmls@outlook.com para obtener asistencia.",
+          "metaDescription": "Retiro del Juguete de Dentición con Cuerda AiTuiTui debido al riesgo de asfixia. Contacte a Vanfun para obtener un reembolso e instrucciones de seguridad.",
+          "Products": [
+            {
+              "Name": "Juguete de Dentición con Cuerda AiTuiTui",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 49,410"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Juguete de Dentición Retirado – Rojo"
+            },
+            {
+              "Caption": "Juguete de Dentición Retirado – Azul"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "La CPSC tiene conocimiento de 15 incidentes de asfixia y dos incidentes de niños que pudieron morder piezas de las cuerdas de silicona."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible en línea en Amazon.com desde agosto de 2022 hasta septiembre de 2025 por aproximadamente $10."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Shenzhen Mailesi Technology Co., Ltd., dba Vanfun, de China"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendido en línea en",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Peligro de asfixia debido a la falta de cumplimiento con las normas de seguridad"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Deje de usar el juguete inmediatamente y comuníquese con Vanfun para obtener un reembolso completo. Corte y deseche todos los tentáculos de cuerda, marque el cuerpo principal como 'DESTRUIDO' con un marcador permanente y envíe una foto del juguete destruido a recallmls@outlook.com."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reembolso"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "استدعاء لعبة التسنين بسلك السحب AiTuiTui بسبب خطر الاختناق",
+          "Description": "تم استدعاء لعبة التسنين بسلك السحب AiTuiTui بسبب خطر اختناق خطير. تتميز هذه اللعبة بشكل قرص بلون عاجي مع كرة حمراء أو زرقاء في مركزها، مصحوبة بستة 'أذرع' ملونة بسلك السحب وثلاث حلقات تدور بحرية. رقم الطراز '688-59' موضح على العبوة، مما يبرز هويتها.",
+          "ConsumerContact": "يجب على المستهلكين التواصل مع Vanfun عبر البريد الإلكتروني على recallmls@outlook.com للحصول على المساعدة.",
+          "metaDescription": "استدعاء لعبة التسنين بسلك السحب AiTuiTui بسبب خطر الاختناق. اتصل بـ Vanfun للحصول على استرداد وتعليمات السلامة.",
+          "Products": [
+            {
+              "Name": "لعبة التسنين بسلك السحب AiTuiTui",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 49,410"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "لعبة التسنين المستدعاة – حمراء"
+            },
+            {
+              "Caption": "لعبة التسنين المستدعاة – زرقاء"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "تدرك CPSC 15 حادثة اختناق وحادثتين لطفلين قادرين على قضم قطع من الأسلاك السيليكونية."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "متاحة عبر الإنترنت على Amazon.com من أغسطس 2022 إلى سبتمبر 2025 بسعر تقريبي يبلغ 10 دولارات."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "شركة Shenzhen Mailesi Technology Co.، Ltd.، المعروفة باسم Vanfun، من الصين"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "تباع عبر الإنترنت في",
+          "ManufacturerCountries": [
+            {
+              "Country": "الصين"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "خطر الاختناق بسبب عدم الامتثال لمعايير السلامة"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "توقف عن استخدام اللعبة على الفور واتصل بـ Vanfun للحصول على استرداد كامل. قطع وتخلص من جميع أذرع السلك، وضع علامة على الجسم الرئيسي بـ 'تم تدميره' باستخدام قلم دائم، وأرسل صورة للعبة المدمرة إلى recallmls@outlook.com."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "استرداد"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "AiTuiTui 拉绳牙胶玩具因窒息危险被召回",
+          "Description": "AiTuiTui 拉绳牙胶玩具因严重的窒息危险被召回。该玩具呈米白色圆盘形状，中间有一个红色或蓝色的球，配有六根彩色拉绳“触手”和三个自由旋转的环。包装上标明了型号“688-59”，以便于识别。",
+          "ConsumerContact": "消费者应通过电子邮件联系 Vanfun，邮箱为 recallmls@outlook.com，以获取帮助。",
+          "metaDescription": "因窒息风险召回 AiTuiTui 拉绳牙胶玩具。联系 Vanfun 获取退款和安全说明。",
+          "Products": [
+            {
+              "Name": "AiTuiTui 拉绳牙胶玩具",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约 49,410"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "被召回的牙胶玩具 - 红色"
+            },
+            {
+              "Caption": "被召回的牙胶玩具 - 蓝色"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "CPSC 知道有 15 起窒息事件和两起儿童能够咬下硅胶绳子上的小块的事件。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "自 2022 年 8 月至 2025 年 9 月在 Amazon.com 上在线销售，价格约为 10 美元。"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "中国深圳迈乐思科技有限公司，经营名称 Vanfun"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "在线销售于",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "因不符合安全标准而导致的窒息危险"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "立即停止使用该玩具，并联系 Vanfun 申请全额退款。剪断并丢弃所有绳子触手，用永久性标记在主体上标记为 'DESTROYED'，并将被销毁玩具的照片发送至 recallmls@outlook.com。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "退款"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "Rappel du Jouet de Dentition à Corde AiTuiTui en raison d'un Risque d'Étranglement",
+          "Description": "Le Jouet de Dentition à Corde AiTuiTui a été rappelé en raison d'un risque d'étranglement sérieux. Ce jouet présente une forme de disque blanc cassé avec une balle rouge ou bleue au centre, accompagnée de six 'tentacules' colorés à tirer et de trois anneaux tournants libres. Le numéro de modèle '688-59' est indiqué sur l'emballage, soulignant son identification.",
+          "ConsumerContact": "Les consommateurs doivent contacter Vanfun par e-mail à recallmls@outlook.com pour obtenir de l'aide.",
+          "metaDescription": "Rappel du Jouet de Dentition à Corde AiTuiTui en raison d'un risque d'étranglement. Contactez Vanfun pour un remboursement et des instructions de sécurité.",
+          "Products": [
+            {
+              "Name": "Jouet de Dentition à Corde AiTuiTui",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 49 410"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Jouet de Dentition Rappelé – Rouge"
+            },
+            {
+              "Caption": "Jouet de Dentition Rappelé – Bleu"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "La CPSC est au courant de 15 incidents d'étranglement et de deux incidents d'enfants capables de mordre des morceaux des cordes en silicone."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible en ligne sur Amazon.com d'août 2022 à septembre 2025 pour environ 10 $."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Shenzhen Mailesi Technology Co., Ltd., faisant affaire sous le nom de Vanfun, de Chine"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendu en Ligne Sur",
+          "ManufacturerCountries": [
+            {
+              "Country": "Chine"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risque d'étranglement en raison de la non-conformité aux normes de sécurité"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Cessez immédiatement d'utiliser le jouet et contactez Vanfun pour un remboursement complet. Coupez et jetez tous les tentacules en corde, marquez le corps principal 'DÉTRUIT' avec un marqueur permanent, et envoyez une photo du jouet détruit à recallmls@outlook.com."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Remboursement"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "Rückruf des AiTuiTui Ziehschnur-Beißspielzeugs aufgrund von Erstickungsgefahr",
+          "Description": "Das AiTuiTui Ziehschnur-Beißspielzeug wurde aufgrund einer ernsthaften Erstickungsgefahr zurückgerufen. Dieses Spielzeug hat eine cremefarbene Scheibenform mit einer roten oder blauen Kugel in der Mitte, begleitet von sechs bunten Ziehschnur-'Tentakeln' und drei frei drehenden Ringen. Die Modellnummer '688-59' ist auf der Verpackung angegeben, was seine Identifizierung hervorhebt.",
+          "ConsumerContact": "Verbraucher sollten Vanfun per E-Mail unter recallmls@outlook.com kontaktieren, um Unterstützung zu erhalten.",
+          "metaDescription": "Rückruf des AiTuiTui Ziehschnur-Beißspielzeugs aufgrund von Erstickungsrisiko. Kontaktieren Sie Vanfun für Rückerstattung und Sicherheitsanweisungen.",
+          "Products": [
+            {
+              "Name": "AiTuiTui Ziehschnur-Beißspielzeug",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 49.410"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Zurückgerufenes Beißspielzeug – Rot"
+            },
+            {
+              "Caption": "Zurückgerufenes Beißspielzeug – Blau"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Die CPSC ist sich von 15 Erstickungsfällen und zwei Vorfällen bewusst, bei denen Kinder in der Lage waren, Stücke von den Silikonschnüren abzubeißen."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Online erhältlich bei Amazon.com von August 2022 bis September 2025 für etwa 10 $."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Shenzhen Mailesi Technology Co., Ltd., dba Vanfun, aus China"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Online verkauft bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Erstickungsgefahr aufgrund von Nichteinhaltung der Sicherheitsstandards"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Hören Sie sofort auf, das Spielzeug zu verwenden, und kontaktieren Sie Vanfun für eine vollständige Rückerstattung. Schneiden Sie alle Schnur-Tentakel ab und entsorgen Sie sie, markieren Sie den Hauptkörper mit 'ZERSTÖRT' mit einem Permanentmarker und senden Sie ein Foto des zerstörten Spielzeugs an recallmls@outlook.com."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Rückerstattung"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "AiTuiTui プルストリング歯固めおもちゃのリコール（窒息の危険性のため）",
+          "Description": "AiTuiTui プルストリング歯固めおもちゃは、深刻な窒息の危険性のためリコールされました。このおもちゃは、中央に赤または青のボールがあるオフホワイトの円盤形状を特徴としており、6本のカラフルなプルストリングの「触手」と3つの自由回転リングが付いています。モデル番号「688-59」はパッケージに表示されており、その識別を強調しています。",
+          "ConsumerContact": "消費者は、サポートのために recallmls@outlook.com まで Vanfun に連絡するべきです。",
+          "metaDescription": "窒息のリスクのための AiTuiTui プルストリング歯固めおもちゃのリコール。返金および安全指示については Vanfun に連絡してください。",
+          "Products": [
+            {
+              "Name": "AiTuiTui プルストリング歯固めおもちゃ",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約 49,410"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコールされた歯固めおもちゃ – 赤"
+            },
+            {
+              "Caption": "リコールされた歯固めおもちゃ – 青"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "CPSC は 15 件の窒息事件と、子供がシリコンストリングの一部を噛み取ることができた 2 件の事件を把握しています。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "2022年8月から2025年9月まで、約 $10 で Amazon.com でオンライン販売されています。"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "中国の Shenzhen Mailesi Technology Co., Ltd.（Vanfun 名義）"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "オンラインで販売",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "安全基準に不適合のための窒息の危険性"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "おもちゃの使用を直ちに中止し、Vanfun に連絡して全額返金を受けてください。すべてのストリング触手を切り捨て、メインボディに「DESTROYED」と永久マーカーで記入し、破壊されたおもちゃの写真を recallmls@outlook.com にメールしてください。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "返金"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "Recall do Brinquedo de Mordida com Corda AiTuiTui Devido ao Risco de Asfixia",
+          "Description": "O Brinquedo de Mordida com Corda AiTuiTui foi recallado devido a um sério risco de asfixia. Este brinquedo apresenta uma forma de disco off-white com uma bola vermelha ou azul em seu centro, acompanhada por seis 'tentáculos' coloridos com corda e três anéis giratórios livres. O número do modelo '688-59' está indicado na embalagem, destacando sua identificação.",
+          "ConsumerContact": "Os consumidores devem entrar em contato com a Vanfun pelo e-mail recallmls@outlook.com para assistência.",
+          "metaDescription": "Recall do Brinquedo de Mordida com Corda AiTuiTui devido ao risco de asfixia. Contate a Vanfun para reembolso e instruções de segurança.",
+          "Products": [
+            {
+              "Name": "Brinquedo de Mordida com Corda AiTuiTui",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 49.410"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Brinquedo de Mordida Recallado – Vermelho"
+            },
+            {
+              "Caption": "Brinquedo de Mordida Recallado – Azul"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "A CPSC está ciente de 15 incidentes de asfixia e dois incidentes de crianças conseguindo morder pedaços das cordas de silicone."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponível online na Amazon.com de agosto de 2022 a setembro de 2025 por aproximadamente $10."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Shenzhen Mailesi Technology Co., Ltd., dba Vanfun, da China"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendido Online Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risco de asfixia devido à não conformidade com os padrões de segurança"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Pare de usar o brinquedo imediatamente e entre em contato com a Vanfun para um reembolso total. Corte e descarte todos os tentáculos de corda, marque o corpo principal como 'DESTRUÍDO' com um marcador permanente e envie uma foto do brinquedo destruído para recallmls@outlook.com."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reembolso"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "AiTuiTui पुल स्ट्रिंग दांत निकलने का खिलौना वापस बुलाने की सूचना, choking खतरे के कारण",
+          "Description": "AiTuiTui पुल स्ट्रिंग दांत निकलने का खिलौना गंभीर choking खतरे के कारण वापस बुलाया गया है। इस खिलौने का रंग हल्का सफेद है और इसके केंद्र में एक लाल या नीला गेंद है, जिसके साथ छह रंगीन पुल स्ट्रिंग 'टेंटेकल' और तीन फ्री-स्पिनिंग रिंग हैं। मॉडल नंबर '688-59' पैकेजिंग पर दर्शाया गया है, जो इसकी पहचान को उजागर करता है।",
+          "ConsumerContact": "उपभोक्ताओं को सहायता के लिए recallmls@outlook.com पर Vanfun से संपर्क करना चाहिए।",
+          "metaDescription": "Choking जोखिम के कारण AiTuiTui पुल स्ट्रिंग दांत निकलने के खिलौने की वापसी। धनवापसी और सुरक्षा निर्देशों के लिए Vanfun से संपर्क करें।",
+          "Products": [
+            {
+              "Name": "AiTuiTui पुल स्ट्रिंग दांत निकलने का खिलौना",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 49,410"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "वापस बुलाया गया दांत निकलने का खिलौना - लाल"
+            },
+            {
+              "Caption": "वापस बुलाया गया दांत निकलने का खिलौना - नीला"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "CPSC को 15 choking घटनाओं और दो घटनाओं का पता है जहां बच्चे सिलिकॉन स्ट्रिंग से टुकड़े काटने में सक्षम थे।"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "अगस्त 2022 से सितंबर 2025 तक Amazon.com पर लगभग $10 में ऑनलाइन उपलब्ध।"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Shenzhen Mailesi Technology Co., Ltd., dba Vanfun, चीन से"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "ऑनलाइन बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "चीन"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "सुरक्षा मानकों के अनुपालन न होने के कारण choking खतरा"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "खिलौने का उपयोग तुरंत बंद करें और पूर्ण धनवापसी के लिए Vanfun से संपर्क करें। सभी स्ट्रिंग टेंटेकल को काटकर फेंक दें, मुख्य शरीर को स्थायी मार्कर से 'DESTROYED' के रूप में चिह्नित करें, और नष्ट किए गए खिलौने की फोटो recallmls@outlook.com पर ईमेल करें।"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "धनवापसी"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "Отзыв игрушки для прорезывания зубов AiTuiTui с тянущейся нитью из-за опасности удушья",
+          "Description": "Игрушка для прорезывания зубов AiTuiTui с тянущейся нитью была отозвана из-за серьезной опасности удушья. Эта игрушка имеет форму диска цвета слоновой кости с красным или синим шариком в центре, сопровождаемым шестью цветными тянущимися 'щупальцами' и тремя свободно вращающимися кольцами. Номер модели '688-59' указан на упаковке, что подчеркивает ее идентификацию.\n",
+          "ConsumerContact": "Потребители должны обратиться к Vanfun по электронной почте recallmls@outlook.com за помощью.",
+          "metaDescription": "Отзыв игрушки для прорезывания зубов AiTuiTui из-за риска удушья. Свяжитесь с Vanfun для получения возврата и инструкций по безопасности.",
+          "Products": [
+            {
+              "Name": "Игрушка для прорезывания зубов AiTuiTui с тянущейся нитью",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 49,410"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванная игрушка для прорезывания зубов – Красная"
+            },
+            {
+              "Caption": "Отозванная игрушка для прорезывания зубов – Синяя"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "CPSC известно о 15 инцидентах удушья и двух инцидентах, когда дети смогли откусить кусочки от силиконовых шнурков."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Доступно онлайн на Amazon.com с августа 2022 года по сентябрь 2025 года примерно за 10 долларов."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Shenzhen Mailesi Technology Co., Ltd., dba Vanfun, из Китая"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Продается онлайн на",
+          "ManufacturerCountries": [
+            {
+              "Country": "Китай"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Опасность удушья из-за несоответствия стандартам безопасности"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Немедленно прекратите использование игрушки и свяжитесь с Vanfun для полного возврата. Обрежьте и выбросьте все шнурковые щупальца, отметьте основное тело как 'УНИЧТОЖЕНО' постоянным маркером и отправьте фото уничтоженной игрушки на recallmls@outlook.com."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Возврат"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "Thu hồi đồ chơi nhai dây kéo AiTuiTui do nguy cơ nghẹt thở",
+          "Description": "Đồ chơi nhai dây kéo AiTuiTui đã bị thu hồi do nguy cơ nghẹt thở nghiêm trọng. Đồ chơi này có hình dạng đĩa màu trắng ngà với một quả bóng đỏ hoặc xanh ở giữa, kèm theo sáu 'tentacle' dây kéo đầy màu sắc và ba vòng xoay tự do. Số model '688-59' được ghi trên bao bì, nhấn mạnh đến việc xác định sản phẩm.",
+          "ConsumerContact": "Người tiêu dùng nên liên hệ với Vanfun qua email tại recallmls@outlook.com để được hỗ trợ.",
+          "metaDescription": "Thu hồi đồ chơi nhai dây kéo AiTuiTui do nguy cơ nghẹt thở. Liên hệ Vanfun để được hoàn tiền và hướng dẫn an toàn.",
+          "Products": [
+            {
+              "Name": "Đồ chơi nhai dây kéo AiTuiTui",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 49,410"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Đồ chơi nhai bị thu hồi – Đỏ"
+            },
+            {
+              "Caption": "Đồ chơi nhai bị thu hồi – Xanh"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "CPSC biết về 15 sự cố nghẹt thở và hai sự cố trẻ em có thể cắn ra các mảnh từ các dây silicone."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Có sẵn trực tuyến tại Amazon.com từ tháng 8 năm 2022 đến tháng 9 năm 2025 với giá khoảng 10 đô la."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Công ty TNHH Công nghệ Mailesi Thâm Quyến, kinh doanh dưới tên Vanfun, của Trung Quốc"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Bán trực tuyến tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Trung Quốc"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Nguy cơ nghẹt thở do không tuân thủ các tiêu chuẩn an toàn"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Ngừng sử dụng đồ chơi ngay lập tức và liên hệ với Vanfun để được hoàn tiền đầy đủ. Cắt và vứt bỏ tất cả các tentacle dây, đánh dấu thân chính là 'ĐÃ HỦY' bằng bút đánh dấu vĩnh viễn, và gửi email một bức ảnh của đồ chơi đã bị hủy đến recallmls@outlook.com."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Hoàn tiền"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    },
+    {
+      "RecallID": 10570,
+      "RecallNumber": "26204",
+      "RecallDate": "2026-01-22T00:00:00",
+      "Description": "The Yetonamr Pull String Teething Toy has been recalled due to safety concerns related to choking. This toy features an off-white disc with a red or blue ball at its center and six colorful silicone pull string tentacles. It also includes three spinning rings and soft buttons on the disc, with the model number 688-59 displayed on the packaging. The design does not meet safety standards, as the silicone strings can pose a serious choking risk.",
+      "URL": "https://www.cpsc.gov/Recalls/2026/Yetonamr-Pull-String-Teething-Toys-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Choking-Violate-Mandatory-Standard-for-Toys-Sold-on-Amazon-by-Longyanguiheng",
+      "Title": "Yetonamr Pull String Teething Toy Recall Due to Choking Hazard",
+      "ConsumerContact": "For assistance, contact Longyanguiheng via email at yetonamr_recall@163.com.",
+      "LastPublishDate": "2026-01-22T00:00:00",
+      "Products": [
+        {
+          "Name": "Yetonamr Pull String Teething Toy",
+          "NumberOfUnits": "About 6,800"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/pacifiers-and-teething-rings/2-Yetonamr-Pull-String-Teething-Toy/6033fa8f4fb8d4d2116083352d3f56be.webp",
+          "Caption": "Recalled Yetonamr Pull String Teething Toy – blue",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/yetnamr-1.png"
+        },
+        {
+          "URL": "/images/generalRecalls/pacifiers-and-teething-rings/2-Yetonamr-Pull-String-Teething-Toy/6f3eee55356efde626f8c0eecfea1ce2.webp",
+          "Caption": "Recalled Yetonamr Pull String Teething Toy – blue",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/yetnamr-2.png"
+        },
+        {
+          "URL": "/images/generalRecalls/pacifiers-and-teething-rings/2-Yetonamr-Pull-String-Teething-Toy/63b33b6d47d24478186908c3c6a69c71.webp",
+          "Caption": "Recalled Yetonamr Pull String Teething Toy – red",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/yetnamr-3.png"
+        },
+        {
+          "URL": "/images/generalRecalls/pacifiers-and-teething-rings/2-Yetonamr-Pull-String-Teething-Toy/3d4b4ec9f04c0fe42bc87a92f62c6bb3.webp",
+          "Caption": "Recalled Yetonamr Pull String Teething Toy – red",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/yetnamr-4.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "CPSC is aware of 32 choking incidents."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available online at Amazon.com from June 2025 to October 2025, priced between $10 and $16."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Longyan Xinluo District Guiheng E-Commerce Co. Ltd., dba Longyanguiheng, of China"
+        }
+      ],
+      "SoldAtLabel": "Sold Online At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Choking hazard due to silicone strings being smaller than allowed, which can obstruct the airway."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Stop using the teething toy immediately, remove it from children, and contact Longyanguiheng for a full refund. Cut and discard all silicone tentacles, mark the toy as 'DESTROYED', and email a photo of the destroyed item to yetonamr_recall@163.com."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "ExtractedIdentifiers": [
+        "Model no. 688-59"
+      ],
+      "slug": "yetonamr-pull-string-teething-toy-recall-due-to-choking-hazard-recall",
+      "metaDescription": "Recall of Yetonamr Pull String Teething Toy due to choking hazard. Immediate action required for safety.",
+      "languages": {
+        "en": {
+          "Title": "Yetonamr Pull String Teething Toy Recall Due to Choking Hazard",
+          "Description": "The Yetonamr Pull String Teething Toy has been recalled due to safety concerns related to choking. This toy features an off-white disc with a red or blue ball at its center and six colorful silicone pull string tentacles. It also includes three spinning rings and soft buttons on the disc, with the model number 688-59 displayed on the packaging. The design does not meet safety standards, as the silicone strings can pose a serious choking risk.",
+          "ConsumerContact": "For assistance, contact Longyanguiheng via email at yetonamr_recall@163.com.",
+          "metaDescription": "Recall of Yetonamr Pull String Teething Toy due to choking hazard. Immediate action required for safety.",
+          "Products": [
+            {
+              "Name": "Yetonamr Pull String Teething Toy",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 6,800"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled Yetonamr Pull String Teething Toy – blue"
+            },
+            {
+              "Caption": "Recalled Yetonamr Pull String Teething Toy – blue"
+            },
+            {
+              "Caption": "Recalled Yetonamr Pull String Teething Toy – red"
+            },
+            {
+              "Caption": "Recalled Yetonamr Pull String Teething Toy – red"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "CPSC is aware of 32 choking incidents."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Available online at Amazon.com from June 2025 to October 2025, priced between $10 and $16."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Longyan Xinluo District Guiheng E-Commerce Co. Ltd., dba Longyanguiheng, of China"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Sold Online At",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Choking hazard due to silicone strings being smaller than allowed, which can obstruct the airway."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Stop using the teething toy immediately, remove it from children, and contact Longyanguiheng for a full refund. Cut and discard all silicone tentacles, mark the toy as 'DESTROYED', and email a photo of the destroyed item to yetonamr_recall@163.com."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Refund"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "Retiro del Juguete de Dentición con Cuerda de Yetonamr Debido a Peligro de Asfixia",
+          "Description": "El Juguete de Dentición con Cuerda de Yetonamr ha sido retirado debido a preocupaciones de seguridad relacionadas con la asfixia. Este juguete presenta un disco de color blanco roto con una bola roja o azul en su centro y seis tentáculos de cuerda de silicona coloridos. También incluye tres anillos giratorios y botones suaves en el disco, con el número de modelo 688-59 mostrado en el empaque. El diseño no cumple con los estándares de seguridad, ya que las cuerdas de silicona pueden representar un grave riesgo de asfixia.",
+          "ConsumerContact": "Para asistencia, contacte a Longyanguiheng por correo electrónico a yetonamr_recall@163.com.",
+          "metaDescription": "Retiro del Juguete de Dentición con Cuerda de Yetonamr debido a peligro de asfixia. Se requiere acción inmediata para la seguridad.",
+          "Products": [
+            {
+              "Name": "Juguete de Dentición con Cuerda de Yetonamr",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 6,800"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Juguete de Dentición con Cuerda de Yetonamr retirado – azul"
+            },
+            {
+              "Caption": "Juguete de Dentición con Cuerda de Yetonamr retirado – azul"
+            },
+            {
+              "Caption": "Juguete de Dentición con Cuerda de Yetonamr retirado – rojo"
+            },
+            {
+              "Caption": "Juguete de Dentición con Cuerda de Yetonamr retirado – rojo"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "La CPSC tiene conocimiento de 32 incidentes de asfixia."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible en línea en Amazon.com desde junio de 2025 hasta octubre de 2025, con precios entre $10 y $16."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Longyan Xinluo District Guiheng E-Commerce Co. Ltd., dba Longyanguiheng, de China"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendidos en línea en",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Peligro de asfixia debido a que las cuerdas de silicona son más pequeñas de lo permitido, lo que puede obstruir la vía aérea."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Deje de usar el juguete de dentición de inmediato, retírelo de los niños y contacte a Longyanguiheng para un reembolso completo. Corte y deseche todos los tentáculos de silicona, marque el juguete como 'DESTRUIDO' y envíe una foto del artículo destruido a yetonamr_recall@163.com."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reembolso"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "استدعاء لعبة التسنين بسلك سحب ييتونامر بسبب خطر الاختناق",
+          "Description": "تم استدعاء لعبة التسنين بسلك سحب ييتونامر بسبب مخاوف تتعلق بالسلامة المتعلقة بالاختناق. تتميز هذه اللعبة بقرص بلون أبيض مائل إلى الرمادي مع كرة حمراء أو زرقاء في مركزها وستة مجسات ملونة من السيليكون. كما تتضمن ثلاث حلقات دوارة وأزرار ناعمة على القرص، مع رقم الطراز 688-59 المعروض على العبوة. التصميم لا يفي بمعايير السلامة، حيث يمكن أن تشكل خيوط السيليكون خطر اختناق خطير.\n",
+          "ConsumerContact": "للمساعدة، اتصل بـ Longyanguiheng عبر البريد الإلكتروني على yetonamr_recall@163.com.",
+          "metaDescription": "استدعاء لعبة التسنين بسلك سحب ييتونامر بسبب خطر الاختناق. يتطلب الأمر اتخاذ إجراء فوري من أجل السلامة.",
+          "Products": [
+            {
+              "Name": "لعبة التسنين بسلك سحب ييتونامر",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 6800"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "لعبة التسنين بسلك سحب ييتونامر المستدعاة - زرقاء"
+            },
+            {
+              "Caption": "لعبة التسنين بسلك سحب ييتونامر المستدعاة - زرقاء"
+            },
+            {
+              "Caption": "لعبة التسنين بسلك سحب ييتونامر المستدعاة - حمراء"
+            },
+            {
+              "Caption": "لعبة التسنين بسلك سحب ييتونامر المستدعاة - حمراء"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "تدرك CPSC 32 حادثة اختناق."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "متاحة على الإنترنت في Amazon.com من يونيو 2025 إلى أكتوبر 2025، بسعر يتراوح بين 10 دولارات و16 دولارًا."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Longyan Xinluo District Guiheng E-Commerce Co. Ltd.، المعروفة باسم Longyanguiheng، من الصين"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "تباع عبر الإنترنت في",
+          "ManufacturerCountries": [
+            {
+              "Country": "الصين"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "خطر الاختناق بسبب كون خيوط السيليكون أصغر من المسموح به، مما يمكن أن يسد مجرى الهواء."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "توقف عن استخدام لعبة التسنين على الفور، وأزلها من الأطفال، واتصل بـ Longyanguiheng للحصول على استرداد كامل. قطع وتخلص من جميع المجسات السيليكونية، وضع علامة على اللعبة بأنها 'مُدمرة'، وأرسل صورة للعنصر المدمر إلى yetonamr_recall@163.com."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "استرداد"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "Yetonamr 拉绳牙胶玩具因窒息危险被召回",
+          "Description": "Yetonamr 拉绳牙胶玩具因与窒息相关的安全问题被召回。该玩具的中心是一个带有红色或蓝色球体的米色圆盘，周围有六根彩色硅胶拉绳触手。它还包括三个旋转环和圆盘上的软按钮，包装上显示的型号为 688-59。该设计不符合安全标准，因为硅胶绳可能构成严重的窒息风险。",
+          "ConsumerContact": "如需帮助，请通过电子邮件联系 Longyanguiheng，邮箱地址为 yetonamr_recall@163.com。",
+          "metaDescription": "因窒息危险而召回 Yetonamr 拉绳牙胶玩具。需要立即采取措施以确保安全。",
+          "Products": [
+            {
+              "Name": "Yetonamr 拉绳牙胶玩具",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约 6,800"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "被召回的 Yetonamr 拉绳牙胶玩具 - 蓝色"
+            },
+            {
+              "Caption": "被召回的 Yetonamr 拉绳牙胶玩具 - 蓝色"
+            },
+            {
+              "Caption": "被召回的 Yetonamr 拉绳牙胶玩具 - 红色"
+            },
+            {
+              "Caption": "被召回的 Yetonamr 拉绳牙胶玩具 - 红色"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "CPSC 知道有 32 起窒息事件。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "在 2025 年 6 月至 2025 年 10 月期间，Amazon.com 在线销售，价格在 $10 到 $16 之间。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "中国 Longyan Xinluo District Guiheng E-Commerce Co. Ltd.，经营名称 Longyanguiheng"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "在线销售于",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "由于硅胶绳小于允许尺寸，可能会阻塞气道，存在窒息危险。"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "立即停止使用牙胶玩具，将其从儿童身边移走，并联系 Longyanguiheng 申请全额退款。剪断并丢弃所有硅胶触手，将玩具标记为 '已销毁'，并将销毁物品的照片发送至 yetonamr_recall@163.com。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "退款"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "Rappel du jouet de dentition à cordon Yetonamr en raison d'un risque d'étouffement",
+          "Description": "Le jouet de dentition à cordon Yetonamr a été rappelé en raison de préoccupations de sécurité liées à l'étouffement. Ce jouet présente un disque blanc cassé avec une balle rouge ou bleue au centre et six tentacules en silicone colorés. Il comprend également trois anneaux tournants et des boutons souples sur le disque, avec le numéro de modèle 688-59 affiché sur l'emballage. Le design ne respecte pas les normes de sécurité, car les cordons en silicone peuvent représenter un risque d'étouffement sérieux.",
+          "ConsumerContact": "Pour assistance, contactez Longyanguiheng par email à yetonamr_recall@163.com.",
+          "metaDescription": "Rappel du jouet de dentition à cordon Yetonamr en raison d'un risque d'étouffement. Action immédiate requise pour la sécurité.",
+          "Products": [
+            {
+              "Name": "Jouet de dentition à cordon Yetonamr",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 6 800"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Jouet de dentition à cordon Yetonamr rappelé – bleu"
+            },
+            {
+              "Caption": "Jouet de dentition à cordon Yetonamr rappelé – bleu"
+            },
+            {
+              "Caption": "Jouet de dentition à cordon Yetonamr rappelé – rouge"
+            },
+            {
+              "Caption": "Jouet de dentition à cordon Yetonamr rappelé – rouge"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "La CPSC est au courant de 32 incidents d'étouffement."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible en ligne sur Amazon.com de juin 2025 à octobre 2025, au prix compris entre 10 $ et 16 $."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Longyan Xinluo District Guiheng E-Commerce Co. Ltd., faisant affaire sous le nom de Longyanguiheng, de Chine"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendu en ligne à",
+          "ManufacturerCountries": [
+            {
+              "Country": "Chine"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risque d'étouffement en raison des cordons en silicone étant plus petits que la taille autorisée, ce qui peut obstruer les voies respiratoires."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Cessez d'utiliser le jouet de dentition immédiatement, retirez-le des enfants et contactez Longyanguiheng pour un remboursement complet. Coupez et jetez tous les tentacules en silicone, marquez le jouet comme 'DÉTRUIT', et envoyez une photo de l'objet détruit à yetonamr_recall@163.com."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Remboursement"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "Rückruf des Yetonamr Ziehschnur-Beißspielzeugs aufgrund von Erstickungsgefahr",
+          "Description": "Das Yetonamr Ziehschnur-Beißspielzeug wurde aufgrund von Sicherheitsbedenken im Zusammenhang mit Erstickungsgefahr zurückgerufen. Dieses Spielzeug verfügt über eine cremefarbene Scheibe mit einer roten oder blauen Kugel in der Mitte und sechs bunten Silikon-Ziehschnur-Tentakeln. Es enthält auch drei drehbare Ringe und weiche Tasten auf der Scheibe, mit der Modellnummer 688-59, die auf der Verpackung angezeigt wird. Das Design erfüllt nicht die Sicherheitsstandards, da die Silikonschnüre ein ernsthaftes Erstickungsrisiko darstellen können.",
+          "ConsumerContact": "Für Unterstützung kontaktieren Sie Longyanguiheng per E-Mail unter yetonamr_recall@163.com.",
+          "metaDescription": "Rückruf des Yetonamr Ziehschnur-Beißspielzeugs aufgrund von Erstickungsgefahr. Sofortige Maßnahmen erforderlich für die Sicherheit.",
+          "Products": [
+            {
+              "Name": "Yetonamr Ziehschnur-Beißspielzeug",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 6.800"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Rückgerufenes Yetonamr Ziehschnur-Beißspielzeug – blau"
+            },
+            {
+              "Caption": "Rückgerufenes Yetonamr Ziehschnur-Beißspielzeug – blau"
+            },
+            {
+              "Caption": "Rückgerufenes Yetonamr Ziehschnur-Beißspielzeug – rot"
+            },
+            {
+              "Caption": "Rückgerufenes Yetonamr Ziehschnur-Beißspielzeug – rot"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Die CPSC ist sich von 32 Erstickungsfällen bewusst."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Online erhältlich bei Amazon.com von Juni 2025 bis Oktober 2025, preislich zwischen 10 und 16 US-Dollar."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Longyan Xinluo District Guiheng E-Commerce Co. Ltd., dba Longyanguiheng, aus China"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Online verkauft bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Erstickungsgefahr aufgrund von Silikonschnüren, die kleiner als erlaubt sind, was die Atemwege blockieren kann."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Hören Sie sofort auf, das Beißspielzeug zu verwenden, entfernen Sie es von Kindern und kontaktieren Sie Longyanguiheng für eine vollständige Rückerstattung. Schneiden Sie alle Silikontentakel ab und entsorgen Sie sie, kennzeichnen Sie das Spielzeug als 'ZERSTÖRT' und senden Sie ein Foto des zerstörten Artikels an yetonamr_recall@163.com."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Rückerstattung"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "Yetonamr プルストリング歯固めおもちゃのリコール（窒息の危険性による）",
+          "Description": "Yetonamr プルストリング歯固めおもちゃは、窒息に関する安全上の懸念からリコールされました。このおもちゃは、中央に赤または青のボールがあるオフホワイトのディスクと、6本のカラフルなシリコン製プルストリング触手を特徴としています。また、ディスクには3つの回転リングと柔らかいボタンが含まれており、モデル番号688-59がパッケージに表示されています。このデザインは安全基準を満たしておらず、シリコン製のストリングが深刻な窒息リスクを引き起こす可能性があります。",
+          "ConsumerContact": "サポートが必要な場合は、longyanguihengまでメール（yetonamr_recall@163.com）でお問い合わせください。",
+          "metaDescription": "窒息の危険性によるYetonamrプルストリング歯固めおもちゃのリコール。安全のために直ちに行動が必要です。",
+          "Products": [
+            {
+              "Name": "Yetonamr プルストリング歯固めおもちゃ",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約6,800"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコールされたYetonamrプルストリング歯固めおもちゃ - 青"
+            },
+            {
+              "Caption": "リコールされたYetonamrプルストリング歯固めおもちゃ - 青"
+            },
+            {
+              "Caption": "リコールされたYetonamrプルストリング歯固めおもちゃ - 赤"
+            },
+            {
+              "Caption": "リコールされたYetonamrプルストリング歯固めおもちゃ - 赤"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "CPSCは32件の窒息事故を把握しています。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "2025年6月から2025年10月までAmazon.comでオンライン販売され、価格は10ドルから16ドルの間です。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "中国のLongyan Xinluo District Guiheng E-Commerce Co. Ltd.（商号：Longyanguiheng）"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "オンラインで販売",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "許可されているよりも小さいシリコンストリングによる窒息の危険性があり、気道を塞ぐ可能性があります。"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "直ちに歯固めおもちゃの使用を中止し、子供から取り除き、Longyanguihengに連絡して全額返金を受けてください。すべてのシリコン触手を切断して廃棄し、おもちゃに「破棄済み」と記載し、破棄されたアイテムの写真をyetonamr_recall@163.comにメールしてください。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "返金"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "Recall do Brinquedo de Mordida com Corda Yetonamr Devido ao Risco de Asfixia",
+          "Description": "O Brinquedo de Mordida com Corda Yetonamr foi recallado devido a preocupações de segurança relacionadas à asfixia. Este brinquedo apresenta um disco off-white com uma bola vermelha ou azul em seu centro e seis tentáculos coloridos de silicone com corda. Também inclui três anéis giratórios e botões macios no disco, com o número do modelo 688-59 exibido na embalagem. O design não atende aos padrões de segurança, pois as cordas de silicone podem representar um sério risco de asfixia.",
+          "ConsumerContact": "Para assistência, entre em contato com Longyanguiheng pelo e-mail yetonamr_recall@163.com.",
+          "metaDescription": "Recall do Brinquedo de Mordida com Corda Yetonamr devido ao risco de asfixia. Ação imediata necessária para segurança.",
+          "Products": [
+            {
+              "Name": "Brinquedo de Mordida com Corda Yetonamr",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 6.800"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Brinquedo de Mordida com Corda Yetonamr recallado – azul"
+            },
+            {
+              "Caption": "Brinquedo de Mordida com Corda Yetonamr recallado – azul"
+            },
+            {
+              "Caption": "Brinquedo de Mordida com Corda Yetonamr recallado – vermelho"
+            },
+            {
+              "Caption": "Brinquedo de Mordida com Corda Yetonamr recallado – vermelho"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "A CPSC está ciente de 32 incidentes de asfixia."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponível online na Amazon.com de junho de 2025 a outubro de 2025, com preços entre $10 e $16."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Longyan Xinluo District Guiheng E-Commerce Co. Ltd., dba Longyanguiheng, da China"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendido Online Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risco de asfixia devido às cordas de silicone serem menores do que o permitido, o que pode obstruir as vias aéreas."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Pare de usar o brinquedo de mordida imediatamente, remova-o das crianças e entre em contato com Longyanguiheng para um reembolso total. Corte e descarte todos os tentáculos de silicone, marque o brinquedo como 'DESTRUÍDO' e envie uma foto do item destruído para yetonamr_recall@163.com."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reembolso"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "Yetonamr पुल स्ट्रिंग दांत निकलने का खिलौना वापस बुलाने की सूचना, choking खतरे के कारण",
+          "Description": "Yetonamr पुल स्ट्रिंग दांत निकलने का खिलौना सुरक्षा चिंताओं के कारण वापस बुलाया गया है जो choking से संबंधित हैं। इस खिलौने में एक ऑफ-व्हाइट डिस्क है जिसमें केंद्र में लाल या नीला गेंद और छह रंगीन सिलिकॉन पुल स्ट्रिंग टेंटेकल हैं। इसमें तीन घूमने वाले रिंग और डिस्क पर नरम बटन भी शामिल हैं, जिसमें मॉडल नंबर 688-59 पैकेजिंग पर प्रदर्शित है। डिज़ाइन सुरक्षा मानकों को पूरा नहीं करता है, क्योंकि सिलिकॉन स्ट्रिंग गंभीर choking जोखिम पैदा कर सकती है।",
+          "ConsumerContact": "सहायता के लिए, Longyanguiheng से yetonamr_recall@163.com पर ईमेल के माध्यम से संपर्क करें।",
+          "metaDescription": "Yetonamr पुल स्ट्रिंग दांत निकलने के खिलौने की वापसी choking खतरे के कारण। सुरक्षा के लिए तात्कालिक कार्रवाई की आवश्यकता है।",
+          "Products": [
+            {
+              "Name": "Yetonamr पुल स्ट्रिंग दांत निकलने का खिलौना",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 6,800"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "वापस बुलाया गया Yetonamr पुल स्ट्रिंग दांत निकलने का खिलौना - नीला"
+            },
+            {
+              "Caption": "वापस बुलाया गया Yetonamr पुल स्ट्रिंग दांत निकलने का खिलौना - नीला"
+            },
+            {
+              "Caption": "वापस बुलाया गया Yetonamr पुल स्ट्रिंग दांत निकलने का खिलौना - लाल"
+            },
+            {
+              "Caption": "वापस बुलाया गया Yetonamr पुल स्ट्रिंग दांत निकलने का खिलौना - लाल"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "CPSC को 32 choking घटनाओं के बारे में जानकारी है।"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Amazon.com पर जून 2025 से अक्टूबर 2025 तक उपलब्ध, कीमत $10 से $16 के बीच।"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Longyan Xinluo District Guiheng E-Commerce Co. Ltd., dba Longyanguiheng, चीन से"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "ऑनलाइन बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "चीन"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "सिलिकॉन स्ट्रिंग के छोटे होने के कारण choking खतरा, जो वायुमार्ग को अवरुद्ध कर सकता है।"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "तुरंत दांत निकलने के खिलौने का उपयोग बंद करें, इसे बच्चों से हटा दें, और पूर्ण धनवापसी के लिए Longyanguiheng से संपर्क करें। सभी सिलिकॉन टेंटेकल को काटकर फेंक दें, खिलौने को 'DESTROYED' के रूप में चिह्नित करें, और नष्ट किए गए आइटम की फोटो yetonamr_recall@163.com पर ईमेल करें।"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "धनवापसी"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "Отзыв игрушки для прорезывания зубов Yetonamr с тянущейся веревкой из-за опасности удушья",
+          "Description": "Игрушка для прорезывания зубов Yetonamr с тянущейся веревкой была отозвана из-за проблем с безопасностью, связанных с удушьем. Эта игрушка имеет дисковидную форму цвета слоновой кости с красным или синим шариком в центре и шестью цветными силиконовыми щупальцами. Она также включает три вращающихся кольца и мягкие кнопки на диске, с номером модели 688-59, указанным на упаковке. Дизайн не соответствует стандартам безопасности, так как силиконовые веревки могут представлять серьезный риск удушья.",
+          "ConsumerContact": "Для получения помощи свяжитесь с Longyanguiheng по электронной почте yetonamr_recall@163.com.",
+          "metaDescription": "Отзыв игрушки для прорезывания зубов Yetonamr из-за опасности удушья. Необходимы немедленные действия для обеспечения безопасности.",
+          "Products": [
+            {
+              "Name": "Игрушка для прорезывания зубов Yetonamr с тянущейся веревкой",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 6,800"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванная игрушка для прорезывания зубов Yetonamr – синий"
+            },
+            {
+              "Caption": "Отозванная игрушка для прорезывания зубов Yetonamr – синий"
+            },
+            {
+              "Caption": "Отозванная игрушка для прорезывания зубов Yetonamr – красный"
+            },
+            {
+              "Caption": "Отозванная игрушка для прорезывания зубов Yetonamr – красный"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "CPSC известно о 32 инцидентах удушья."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Доступно онлайн на Amazon.com с июня 2025 года по октябрь 2025 года, по цене от 10 до 16 долларов."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Longyan Xinluo District Guiheng E-Commerce Co. Ltd., dba Longyanguiheng, из Китая"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Продается онлайн на",
+          "ManufacturerCountries": [
+            {
+              "Country": "Китай"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Опасность удушья из-за того, что силиконовые веревки меньше допустимого размера, что может заблокировать дыхательные пути."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Немедленно прекратите использование игрушки для прорезывания зубов, уберите ее от детей и свяжитесь с Longyanguiheng для полного возврата средств. Обрежьте и выбросьте все силиконовые щупальца, отметьте игрушку как 'УНИЧТОЖЕНА' и отправьте фото уничтоженного предмета на yetonamr_recall@163.com."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Возврат средств"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "Thu hồi đồ chơi nhai dây kéo Yetonamr do nguy cơ nghẹt thở",
+          "Description": "Đồ chơi nhai dây kéo Yetonamr đã bị thu hồi do những lo ngại về an toàn liên quan đến nguy cơ nghẹt thở. Đồ chơi này có một đĩa màu trắng ngà với một quả bóng đỏ hoặc xanh ở giữa và sáu xúc tu silicone nhiều màu sắc. Nó cũng bao gồm ba vòng xoay và các nút mềm trên đĩa, với số hiệu mẫu 688-59 được hiển thị trên bao bì. Thiết kế không đáp ứng các tiêu chuẩn an toàn, vì các dây silicone có thể gây ra nguy cơ nghẹt thở nghiêm trọng.",
+          "ConsumerContact": "Để được hỗ trợ, hãy liên hệ với Longyanguiheng qua email tại yetonamr_recall@163.com.",
+          "metaDescription": "Thu hồi đồ chơi nhai dây kéo Yetonamr do nguy cơ nghẹt thở. Cần hành động ngay lập tức để đảm bảo an toàn.",
+          "Products": [
+            {
+              "Name": "Đồ chơi nhai dây kéo Yetonamr",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 6.800"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Đồ chơi nhai dây kéo Yetonamr bị thu hồi – màu xanh"
+            },
+            {
+              "Caption": "Đồ chơi nhai dây kéo Yetonamr bị thu hồi – màu xanh"
+            },
+            {
+              "Caption": "Đồ chơi nhai dây kéo Yetonamr bị thu hồi – màu đỏ"
+            },
+            {
+              "Caption": "Đồ chơi nhai dây kéo Yetonamr bị thu hồi – màu đỏ"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "CPSC biết về 32 sự cố nghẹt thở."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Có sẵn trực tuyến tại Amazon.com từ tháng 6 năm 2025 đến tháng 10 năm 2025, có giá từ 10 đến 16 đô la."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Công ty TNHH Thương mại điện tử Guiheng, quận Longyan Xinluo, tên thương mại Longyanguiheng, của Trung Quốc"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Bán trực tuyến tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Trung Quốc"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Nguy cơ nghẹt thở do các dây silicone nhỏ hơn mức cho phép, có thể cản trở đường thở."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Ngừng sử dụng đồ chơi nhai ngay lập tức, loại bỏ khỏi trẻ em và liên hệ với Longyanguiheng để được hoàn tiền đầy đủ. Cắt và vứt bỏ tất cả các xúc tu silicone, đánh dấu đồ chơi là 'ĐÃ TIÊU HỦY', và gửi email một bức ảnh của món đồ đã bị tiêu hủy đến yetonamr_recall@163.com."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Hoàn tiền"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    },
+    {
+      "RecallID": 10199,
+      "RecallNumber": "25180",
+      "RecallDate": "2025-03-13T00:00:00",
+      "Description": "Chews Life is recalling its Silicone Rosary teethers, which include the Assisi, Little Flower, God's Grace, Cecilia, John the Baptist, and Divine Mercy models. Additionally, the recall affects the Silicone Decade teethers, featuring the Genesis, Maccabees, Ester, Wisdom, Divine Mercy, Psalm, and Proverbs models. These teethers are characterized by multi-colored beads and a cross at the end, equipped with a two-piece safety snap clasp.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/Chews-Life-Recalls-Silicone-Rosary-and-Decade-Teethers-Due-to-Choking-Hazard",
+      "Title": "Chews Life Recalls Silicone Rosary and Decade Teethers Due to Choking Risk",
+      "ConsumerContact": "For assistance, contact Chews Life at 888-742-2276 from 9 a.m. to 7 p.m. ET, Monday through Friday, or email sandy@chewslife.com. More information is available at https://chewslife.com/pages/clasp-recall or by visiting www.chewslife.com and selecting 'Recall Notices' at the bottom of the page.",
+      "LastPublishDate": "2025-03-13T00:00:00",
+      "Products": [
+        {
+          "Name": "Silicone Rosary Teethers",
+          "NumberOfUnits": "About 5,700"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/pacifiers-and-teething-rings/3-Silicone-Rosary-Teethers/8b154de1eda5301467bb0e65cbf6db8b.webp",
+          "Caption": "Recalled Rosary teethers",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Chews-Life-1.png"
+        },
+        {
+          "URL": "/images/generalRecalls/pacifiers-and-teething-rings/3-Silicone-Rosary-Teethers/6a1ae0072090824eebd9dad1c2579fd2.webp",
+          "Caption": "Recalled Decade teethers",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Chews-Life-2.png"
+        },
+        {
+          "URL": "/images/generalRecalls/pacifiers-and-teething-rings/3-Silicone-Rosary-Teethers/b2de6ff5d31b7982ad71e61eff097abb.webp",
+          "Caption": "Affected safety snap clasp",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Chews-Life-3.png"
+        },
+        {
+          "URL": "/images/generalRecalls/pacifiers-and-teething-rings/3-Silicone-Rosary-Teethers/21affea98f794f61ce36c32ed1f6e803.webp",
+          "Caption": "Replacement safety snap clasp on repaired teethers",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Chews-Life-4.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received 92 reports of the safety snap clasp detaching. No injuries have been reported."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available online at chewslife.com from January 2024 to April 2024, priced between $20 and $38."
+        }
+      ],
+      "Distributors": [
+        {
+          "Name": "Chews Life, of Grand Rapids, Michigan"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "United States"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Detachable part of the safety snap clasp may pose a choking risk."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should cease use of the recalled teethers and contact Chews Life for a free repair. A prepaid shipping label will be provided to return the items, and repaired teethers will be sent back at no cost."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ],
+      "slug": "chews-life-recalls-silicone-rosary-and-decade-teethers-due-to-choking-risk-recall",
+      "metaDescription": "Chews Life recalls Silicone Rosary and Decade teethers due to choking hazards. Contact for free repairs and more information.",
+      "languages": {
+        "en": {
+          "Title": "Chews Life Recalls Silicone Rosary and Decade Teethers Due to Choking Risk",
+          "Description": "Chews Life is recalling its Silicone Rosary teethers, which include the Assisi, Little Flower, God's Grace, Cecilia, John the Baptist, and Divine Mercy models. Additionally, the recall affects the Silicone Decade teethers, featuring the Genesis, Maccabees, Ester, Wisdom, Divine Mercy, Psalm, and Proverbs models. These teethers are characterized by multi-colored beads and a cross at the end, equipped with a two-piece safety snap clasp.",
+          "ConsumerContact": "For assistance, contact Chews Life at 888-742-2276 from 9 a.m. to 7 p.m. ET, Monday through Friday, or email sandy@chewslife.com. More information is available at https://chewslife.com/pages/clasp-recall or by visiting www.chewslife.com and selecting 'Recall Notices' at the bottom of the page.",
+          "metaDescription": "Chews Life recalls Silicone Rosary and Decade teethers due to choking hazards. Contact for free repairs and more information.",
+          "Products": [
+            {
+              "Name": "Silicone Rosary Teethers",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 5,700"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled Rosary teethers"
+            },
+            {
+              "Caption": "Recalled Decade teethers"
+            },
+            {
+              "Caption": "Affected safety snap clasp"
+            },
+            {
+              "Caption": "Replacement safety snap clasp on repaired teethers"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "The firm has received 92 reports of the safety snap clasp detaching. No injuries have been reported."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Available online at chewslife.com from January 2024 to April 2024, priced between $20 and $38."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Chews Life, of Grand Rapids, Michigan"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Sold At",
+          "ManufacturerCountries": [
+            {
+              "Country": "United States"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Detachable part of the safety snap clasp may pose a choking risk."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Consumers should cease use of the recalled teethers and contact Chews Life for a free repair. A prepaid shipping label will be provided to return the items, and repaired teethers will be sent back at no cost."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Repair"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "Chews Life recuerda mordedores de silicona en forma de rosario y década debido al riesgo de asfixia",
+          "Description": "Chews Life está recordando sus mordedores de silicona en forma de rosario, que incluyen los modelos Asís, Pequeña Flor, Gracia de Dios, Cecilia, Juan Bautista y Misericordia Divina. Además, el retiro afecta a los mordedores de silicona en forma de década, que presentan los modelos Génesis, Macabeos, Ester, Sabiduría, Misericordia Divina, Salmo y Proverbios. Estos mordedores se caracterizan por tener cuentas de múltiples colores y una cruz en el extremo, equipados con un cierre de seguridad de dos piezas.",
+          "ConsumerContact": "Para asistencia, contacte a Chews Life al 888-742-2276 de 9 a.m. a 7 p.m. ET, de lunes a viernes, o envíe un correo electrónico a sandy@chewslife.com. Más información está disponible en https://chewslife.com/pages/clasp-recall o visitando www.chewslife.com y seleccionando 'Avisos de Retiro' en la parte inferior de la página.",
+          "metaDescription": "Chews Life recuerda mordedores de silicona en forma de rosario y década debido a riesgos de asfixia. Contacto para reparaciones gratuitas y más información.",
+          "Products": [
+            {
+              "Name": "Mordedores de silicona en forma de rosario",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 5,700"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Mordedores de rosario retirados"
+            },
+            {
+              "Caption": "Mordedores de década retirados"
+            },
+            {
+              "Caption": "Cierre de seguridad de dos piezas afectado"
+            },
+            {
+              "Caption": "Cierre de seguridad de dos piezas de reemplazo en mordedores reparados"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "La empresa ha recibido 92 informes de que el cierre de seguridad se desprende. No se han reportado lesiones."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible en línea en chewslife.com desde enero de 2024 hasta abril de 2024, con precios entre $20 y $38."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Chews Life, de Grand Rapids, Michigan"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Se Vende En",
+          "ManufacturerCountries": [
+            {
+              "Country": "Estados Unidos"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "La parte desmontable del cierre de seguridad puede representar un riesgo de asfixia."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Los consumidores deben dejar de usar los mordedores retirados y contactar a Chews Life para una reparación gratuita. Se proporcionará una etiqueta de envío prepagada para devolver los artículos, y los mordedores reparados se enviarán de vuelta sin costo."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparar"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "تشويز لايف تستدعي عضاضات الوردية السيليكونية وعضاضات العقد بسبب خطر الاختناق",
+          "Description": "تشويز لايف تستدعي عضاضات الوردية السيليكونية الخاصة بها، والتي تشمل موديلات أسيزي، الزهرة الصغيرة، نعمة الله، سيسيليا، يوحنا المعمدان، ورحمة الله. بالإضافة إلى ذلك، تؤثر الاستدعاء على عضاضات العقد السيليكونية، التي تتميز بموديلات التكوين، المكابيين، أستير، الحكمة، رحمة الله، المزمور، والأمثال. تتميز هذه العضاضات بحبات ملونة متعددة وصليب في النهاية، مزودة بقفل أمان من قطعتين.",
+          "ConsumerContact": "للمساعدة، اتصل بتشويز لايف على الرقم 888-742-2276 من الساعة 9 صباحًا حتى 7 مساءً بتوقيت شرق الولايات المتحدة، من الاثنين إلى الجمعة، أو أرسل بريدًا إلكترونيًا إلى sandy@chewslife.com. مزيد من المعلومات متاحة على https://chewslife.com/pages/clasp-recall أو من خلال زيارة www.chewslife.com واختيار 'إشعارات الاستدعاء' في أسفل الصفحة.",
+          "metaDescription": "تشويز لايف تستدعي عضاضات الوردية والعقد السيليكونية بسبب مخاطر الاختناق. اتصل للحصول على إصلاحات مجانية ومزيد من المعلومات.",
+          "Products": [
+            {
+              "Name": "عضاضات الوردية السيليكونية",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 5700"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "عضاضات الوردية المستدعاة"
+            },
+            {
+              "Caption": "عضاضات العقد المستدعاة"
+            },
+            {
+              "Caption": "قفل الأمان المنفصل المتأثر"
+            },
+            {
+              "Caption": "قفل الأمان البديل على العضاضات التي تم إصلاحها"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "تلقت الشركة 92 تقريرًا عن انفصال قفل الأمان. لم يتم الإبلاغ عن أي إصابات."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "متاحة عبر الإنترنت على chewslife.com من يناير 2024 إلى أبريل 2024، بسعر يتراوح بين 20 دولارًا و38 دولارًا."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "تشويز لايف، من غراند رابيدز، ميشيغان"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "تم البيع في",
+          "ManufacturerCountries": [
+            {
+              "Country": "الولايات المتحدة"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "قد يشكل الجزء القابل للفصل من قفل الأمان خطر الاختناق."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "يجب على المستهلكين التوقف عن استخدام العضاضات المستدعاة والاتصال بتشويز لايف للحصول على إصلاح مجاني. سيتم توفير ملصق شحن مدفوع مسبقًا لإرجاع العناصر، وسيتم إرسال العضاضات التي تم إصلاحها مرة أخرى دون أي تكلفة."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "إصلاح"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "Chews Life召回硅胶念珠和十字架牙胶，因窒息风险",
+          "Description": "Chews Life正在召回其硅胶念珠牙胶，包括阿西西、小花、上帝的恩典、塞西莉亚、施洗约翰和神圣慈悲型号。此外，召回还涉及硅胶十字架牙胶，型号包括创世纪、马卡比、以斯帖、智慧、神圣慈悲、诗篇和箴言。这些牙胶的特点是多色珠子和末端的十字架，配备有两件式安全扣合夹。",
+          "ConsumerContact": "如需帮助，请在周一至周五的东部时间上午9点至晚上7点之间拨打888-742-2276联系Chews Life，或发送电子邮件至sandy@chewslife.com。更多信息可在https://chewslife.com/pages/clasp-recall获取，或访问www.chewslife.com并在页面底部选择“召回通知”。",
+          "metaDescription": "Chews Life因窒息危险召回硅胶念珠和十字架牙胶。联系以获取免费维修和更多信息。",
+          "Products": [
+            {
+              "Name": "硅胶念珠牙胶",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约5700个"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "召回的念珠牙胶"
+            },
+            {
+              "Caption": "召回的十字架牙胶"
+            },
+            {
+              "Caption": "受影响的安全扣合夹"
+            },
+            {
+              "Caption": "修复牙胶上的替换安全扣合夹"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "该公司已收到92份安全扣合夹脱落的报告。未报告任何伤害。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "2024年1月至2024年4月期间可在chewslife.com在线购买，价格在20美元至38美元之间。"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "位于密歇根州大急流城的Chews Life"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "销售地点",
+          "ManufacturerCountries": [
+            {
+              "Country": "美国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "安全扣合夹的可拆卸部分可能构成窒息风险。"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "消费者应停止使用召回的牙胶，并联系Chews Life以获取免费维修。将提供预付邮寄标签以退回物品，修复后的牙胶将免费寄回。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "维修"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "Chews Life rappelle des hochets en silicone en forme de chapelet et de dizaine en raison d'un risque d'étouffement",
+          "Description": "Chews Life rappelle ses hochets en silicone en forme de chapelet, qui incluent les modèles Assisi, Petite Fleur, Grâce de Dieu, Cécile, Jean-Baptiste et Miséricorde Divine. De plus, le rappel concerne les hochets en silicone de la dizaine, comprenant les modèles Genèse, Maccabées, Esther, Sagesse, Miséricorde Divine, Psaume et Proverbes. Ces hochets se caractérisent par des perles multicolores et une croix à l'extrémité, dotés d'un fermoir de sécurité à deux pièces.",
+          "ConsumerContact": "Pour obtenir de l'aide, contactez Chews Life au 888-742-2276 de 9 h à 19 h HNE, du lundi au vendredi, ou envoyez un courriel à sandy@chewslife.com. Plus d'informations sont disponibles sur https://chewslife.com/pages/clasp-recall ou en visitant www.chewslife.com et en sélectionnant 'Avis de rappel' en bas de la page.",
+          "metaDescription": "Chews Life rappelle des hochets en silicone en forme de chapelet et de dizaine en raison de risques d'étouffement. Contactez pour des réparations gratuites et plus d'informations.",
+          "Products": [
+            {
+              "Name": "Hochets en silicone en forme de chapelet",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 5 700"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Hochets en chapelet rappelés"
+            },
+            {
+              "Caption": "Hochets de dizaine rappelés"
+            },
+            {
+              "Caption": "Fermoir de sécurité détaché concerné"
+            },
+            {
+              "Caption": "Fermoir de sécurité de remplacement sur les hochets réparés"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "L'entreprise a reçu 92 rapports de détachement du fermoir de sécurité. Aucune blessure n'a été signalée."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible en ligne sur chewslife.com de janvier 2024 à avril 2024, au prix compris entre 20 $ et 38 $."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Chews Life, de Grand Rapids, Michigan"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendu À",
+          "ManufacturerCountries": [
+            {
+              "Country": "États-Unis"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "La partie détachable du fermoir de sécurité peut présenter un risque d'étouffement."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Les consommateurs doivent cesser d'utiliser les hochets rappelés et contacter Chews Life pour une réparation gratuite. Une étiquette d'expédition prépayée sera fournie pour retourner les articles, et les hochets réparés seront renvoyés sans frais."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Réparation"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "Chews Life ruft Silikon-Rosenkranz- und Dekaden-Beißringe aufgrund von Erstickungsgefahr zurück",
+          "Description": "Chews Life ruft seine Silikon-Rosenkranz-Beißringe zurück, die die Modelle Assisi, Little Flower, God's Grace, Cecilia, John the Baptist und Divine Mercy umfassen. Darüber hinaus betrifft der Rückruf die Silikon-Dekaden-Beißringe, die die Modelle Genesis, Maccabees, Ester, Wisdom, Divine Mercy, Psalm und Proverbs enthalten. Diese Beißringe zeichnen sich durch mehrfarbige Perlen und ein Kreuz am Ende aus, das mit einem zweigeteilten Sicherheitsdruckverschluss ausgestattet ist.",
+          "ConsumerContact": "Für Unterstützung kontaktieren Sie Chews Life unter 888-742-2276 von 9 bis 19 Uhr ET, Montag bis Freitag, oder per E-Mail an sandy@chewslife.com. Weitere Informationen sind verfügbar unter https://chewslife.com/pages/clasp-recall oder indem Sie www.chewslife.com besuchen und 'Rückrufhinweise' am Ende der Seite auswählen.",
+          "metaDescription": "Chews Life ruft Silikon-Rosenkranz- und Dekaden-Beißringe aufgrund von Erstickungsgefahren zurück. Kontakt für kostenlose Reparaturen und weitere Informationen.",
+          "Products": [
+            {
+              "Name": "Silikon-Rosenkranz-Beißringe",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 5.700"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Zurückgerufene Rosenkranz-Beißringe"
+            },
+            {
+              "Caption": "Zurückgerufene Dekaden-Beißringe"
+            },
+            {
+              "Caption": "Betroffener Sicherheitsdruckverschluss"
+            },
+            {
+              "Caption": "Ersatz-Sicherheitsdruckverschluss an reparierten Beißringen"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Das Unternehmen hat 92 Berichte über das Abtrennen des Sicherheitsdruckverschlusses erhalten. Es wurden keine Verletzungen gemeldet."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Online erhältlich auf chewslife.com von Januar 2024 bis April 2024, Preis zwischen 20 und 38 US-Dollar."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Chews Life, Grand Rapids, Michigan"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Verkauft bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "Vereinigte Staaten"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Abnehmbarer Teil des Sicherheitsdruckverschlusses kann eine Erstickungsgefahr darstellen."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Verbraucher sollten die zurückgerufenen Beißringe nicht mehr verwenden und Chews Life für eine kostenlose Reparatur kontaktieren. Ein vorfrankiertes Versandetikett wird bereitgestellt, um die Artikel zurückzusenden, und reparierte Beißringe werden kostenlos zurückgesendet."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparatur"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "Chews Life、窒息の危険性によりシリコンロザリオおよびデカデ歯固めをリコール",
+          "Description": "Chews Lifeは、アッシジ、リトルフラワー、神の恵み、セシリア、洗礼者ヨハネ、神の慈悲モデルを含むシリコンロザリオ歯固めをリコールしています。さらに、リコールは、創世記、マカバイ、エステル、知恵、神の慈悲、詩篇、箴言モデルを特徴とするシリコンデカデ歯固めにも影響します。これらの歯固めは、マルチカラーのビーズと端に十字架が付いており、2ピースの安全スナップクラスプが装備されています。",
+          "ConsumerContact": "サポートが必要な場合は、月曜日から金曜日の午前9時から午後7時（ET）まで、888-742-2276までChews Lifeに連絡するか、sandy@chewslife.comまでメールしてください。詳細情報は、https://chewslife.com/pages/clasp-recallで入手できるか、www.chewslife.comを訪れてページの下部にある「リコール通知」を選択してください。",
+          "metaDescription": "Chews Lifeは、窒息の危険性によりシリコンロザリオおよびデカデ歯固めをリコールします。無料修理および詳細情報についてはお問い合わせください。",
+          "Products": [
+            {
+              "Name": "シリコンロザリオ歯固め",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約5,700"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコールされたロザリオ歯固め"
+            },
+            {
+              "Caption": "リコールされたデカデ歯固め"
+            },
+            {
+              "Caption": "影響を受けた安全スナップクラスプ"
+            },
+            {
+              "Caption": "修理された歯固めの交換用安全スナップクラスプ"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "同社は安全スナップクラスプが外れたとの報告を92件受けています。怪我の報告はありません。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "2024年1月から2024年4月まで、chewslife.comでオンライン販売され、価格は20ドルから38ドルの間です。"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "ミシガン州グランドラピッズのChews Life"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "販売場所",
+          "ManufacturerCountries": [
+            {
+              "Country": "アメリカ合衆国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "安全スナップクラスプの取り外し可能な部分が窒息の危険を引き起こす可能性があります。"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "消費者はリコールされた歯固めの使用を中止し、Chews Lifeに連絡して無料修理を受けるべきです。アイテムを返送するための prepaid shipping label が提供され、修理された歯固めは無料で返送されます。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "修理"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "Chews Life recolhe mordedores de silicone em forma de rosário e década devido ao risco de asfixia",
+          "Description": "A Chews Life está recolhendo seus mordedores de silicone em forma de rosário, que incluem os modelos Assisi, Little Flower, God's Grace, Cecilia, John the Baptist e Divine Mercy. Além disso, o recall afeta os mordedores de silicone em forma de década, apresentando os modelos Genesis, Maccabees, Ester, Wisdom, Divine Mercy, Psalm e Proverbs. Esses mordedores são caracterizados por contas multicoloridas e uma cruz na extremidade, equipados com um fecho de segurança de duas peças.",
+          "ConsumerContact": "Para assistência, entre em contato com a Chews Life pelo telefone 888-742-2276, das 9h às 19h ET, de segunda a sexta-feira, ou envie um e-mail para sandy@chewslife.com. Mais informações estão disponíveis em https://chewslife.com/pages/clasp-recall ou visitando www.chewslife.com e selecionando 'Avisos de Recall' na parte inferior da página.",
+          "metaDescription": "Chews Life recolhe mordedores de silicone em forma de rosário e década devido a riscos de asfixia. Contato para reparos gratuitos e mais informações.",
+          "Products": [
+            {
+              "Name": "Mordedores de Silicone em Forma de Rosário",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 5.700"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Mordedores de rosário recolhidos"
+            },
+            {
+              "Caption": "Mordedores de década recolhidos"
+            },
+            {
+              "Caption": "Fecho de segurança solto afetado"
+            },
+            {
+              "Caption": "Fecho de segurança de reposição em mordedores reparados"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "A empresa recebeu 92 relatos de fechos de segurança se soltando. Nenhum ferimento foi relatado."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponível online em chewslife.com de janeiro de 2024 a abril de 2024, com preços entre $20 e $38."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Chews Life, de Grand Rapids, Michigan"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendido Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "Estados Unidos"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Parte destacável do fecho de segurança pode representar risco de asfixia."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Os consumidores devem interromper o uso dos mordedores recolhidos e entrar em contato com a Chews Life para um reparo gratuito. Um rótulo de envio pré-pago será fornecido para devolver os itens, e os mordedores reparados serão enviados de volta sem custo."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparo"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "Chews Life ने चोकिंग जोखिम के कारण सिलिकॉन माला और दशक के दांत निकालने वाले उत्पादों को वापस बुलाया",
+          "Description": "Chews Life अपने सिलिकॉन माला के दांत निकालने वाले उत्पादों को वापस बुला रहा है, जिसमें असिसी, लिटिल फ्लावर, गॉड्स ग्रेस, सेसिलिया, जॉन द बैपटिस्ट, और डिवाइन मर्सी मॉडल शामिल हैं। इसके अतिरिक्त, वापस बुलाने का असर सिलिकॉन दशक के दांत निकालने वाले उत्पादों पर भी है, जिसमें जेनेसिस, मैकाबीज, एस्टर, वाइजडम, डिवाइन मर्सी, भजन, और प्रॉवर्ब्स मॉडल शामिल हैं। ये दांत निकालने वाले उत्पाद बहु-रंगीन मोतियों और अंत में एक क्रॉस के साथ विशेष रूप से पहचाने जाते हैं, जिसमें दो-टुकड़ों वाला सुरक्षा स्नैप क्लिप होता है।",
+          "ConsumerContact": "सहायता के लिए, Chews Life से 888-742-2276 पर सुबह 9 बजे से शाम 7 बजे ET, सोमवार से शुक्रवार तक संपर्क करें, या sandy@chewslife.com पर ईमेल करें। अधिक जानकारी के लिए https://chewslife.com/pages/clasp-recall पर जाएं या www.chewslife.com पर जाकर पृष्ठ के नीचे 'Recall Notices' का चयन करें।",
+          "metaDescription": "Chews Life चोकिंग खतरों के कारण सिलिकॉन माला और दशक के दांत निकालने वाले उत्पादों को वापस बुलाता है। मुफ्त मरम्मत और अधिक जानकारी के लिए संपर्क करें।",
+          "Products": [
+            {
+              "Name": "सिलिकॉन माला के दांत निकालने वाले उत्पाद",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 5,700"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "वापस बुलाए गए माला के दांत निकालने वाले उत्पाद"
+            },
+            {
+              "Caption": "वापस बुलाए गए दशक के दांत निकालने वाले उत्पाद"
+            },
+            {
+              "Caption": "प्रभावित सुरक्षा स्नैप क्लिप"
+            },
+            {
+              "Caption": "मरम्मत किए गए दांत निकालने वाले उत्पादों पर प्रतिस्थापन सुरक्षा स्नैप क्लिप"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "कंपनी को सुरक्षा स्नैप क्लिप के अलग होने की 92 रिपोर्ट मिली हैं। कोई चोट की सूचना नहीं मिली है।"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "जनवरी 2024 से अप्रैल 2024 तक chewslife.com पर ऑनलाइन उपलब्ध, कीमत $20 से $38 के बीच।"
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Chews Life, ग्रैंड रैपिड्स, मिशिगन"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "संयुक्त राज्य अमेरिका"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "सुरक्षा स्नैप क्लिप का detachable भाग चोकिंग जोखिम पैदा कर सकता है।"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "उपभोक्ताओं को वापस बुलाए गए दांत निकालने वाले उत्पादों का उपयोग बंद कर देना चाहिए और मुफ्त मरम्मत के लिए Chews Life से संपर्क करना चाहिए। वस्तुओं को लौटाने के लिए एक प्रीपेड शिपिंग लेबल प्रदान किया जाएगा, और मरम्मत किए गए दांत निकालने वाले उत्पाद बिना किसी लागत के वापस भेजे जाएंगे।"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "मरम्मत"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "Chews Life отзывает силиконовые четки и прорезыватели из-за риска удушья",
+          "Description": "Chews Life отзывает свои силиконовые прорезыватели в виде четок, которые включают модели Ассизи, Маленький Цветок, Божья Благодать, Цецилия, Иоанн Креститель и Божественная Милость. Кроме того, отзыв касается силиконовых прорезывателей Десятка, в которых представлены модели Бытие, Маккавеи, Есфирь, Мудрость, Божественная Милость, Псалом и Притчи. Эти прорезыватели характеризуются многоцветными бусинами и крестом на конце, оснащены двухчастевым безопасным зажимом.",
+          "ConsumerContact": "Для получения помощи свяжитесь с Chews Life по телефону 888-742-2276 с 9:00 до 19:00 по восточному времени, с понедельника по пятницу, или отправьте электронное письмо на адрес sandy@chewslife.com. Дополнительную информацию можно найти на сайте https://chewslife.com/pages/clasp-recall или посетив www.chewslife.com и выбрав 'Уведомления об отзыве' внизу страницы.",
+          "metaDescription": "Chews Life отзывает силиконовые четки и прорезыватели из-за опасности удушья. Свяжитесь для бесплатного ремонта и получения дополнительной информации.",
+          "Products": [
+            {
+              "Name": "Силиконовые прорезыватели в виде четок",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 5700"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванные прорезыватели в виде четок"
+            },
+            {
+              "Caption": "Отозванные прорезыватели Десятка"
+            },
+            {
+              "Caption": "Проблемный безопасный зажим"
+            },
+            {
+              "Caption": "Заменяющий безопасный зажим на отремонтированных прорезывателях"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Компания получила 92 сообщения о том, что безопасный зажим отсоединяется. О травмах не сообщалось."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Доступно онлайн на chewslife.com с января 2024 года по апрель 2024 года, цена от 20 до 38 долларов."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Chews Life из Гранд-Рапидс, штат Мичиган"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Продается в",
+          "ManufacturerCountries": [
+            {
+              "Country": "Соединенные Штаты"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Отсоединяющаяся часть безопасного зажима может представлять риск удушья."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Потребители должны прекратить использование отозванных прорезывателей и связаться с Chews Life для бесплатного ремонта. Будет предоставлена предоплаченная транспортная наклейка для возврата товаров, а отремонтированные прорезыватели будут отправлены обратно без дополнительных затрат."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Ремонт"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "Chews Life thu hồi các đồ gặm silicone hạt tràng và thập giá do nguy cơ nghẹt thở",
+          "Description": "Chews Life đang thu hồi các đồ gặm silicone hạt tràng của mình, bao gồm các mẫu Assisi, Little Flower, God's Grace, Cecilia, John the Baptist và Divine Mercy. Ngoài ra, đợt thu hồi còn ảnh hưởng đến các đồ gặm silicone thập giá, với các mẫu Genesis, Maccabees, Ester, Wisdom, Divine Mercy, Psalm và Proverbs. Những đồ gặm này được đặc trưng bởi các hạt nhiều màu và một cây thánh giá ở cuối, được trang bị một khóa an toàn hai mảnh.",
+          "ConsumerContact": "Để được hỗ trợ, hãy liên hệ với Chews Life qua số 888-742-2276 từ 9 giờ sáng đến 7 giờ tối ET, từ thứ Hai đến thứ Sáu, hoặc gửi email đến sandy@chewslife.com. Thông tin thêm có sẵn tại https://chewslife.com/pages/clasp-recall hoặc bằng cách truy cập www.chewslife.com và chọn 'Thông báo thu hồi' ở cuối trang.",
+          "metaDescription": "Chews Life thu hồi các đồ gặm silicone hạt tràng và thập giá do nguy cơ nghẹt thở. Liên hệ để được sửa chữa miễn phí và biết thêm thông tin.",
+          "Products": [
+            {
+              "Name": "Đồ gặm silicone hạt tràng",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 5,700"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Đồ gặm hạt tràng bị thu hồi"
+            },
+            {
+              "Caption": "Đồ gặm thập giá bị thu hồi"
+            },
+            {
+              "Caption": "Khóa an toàn bị ảnh hưởng"
+            },
+            {
+              "Caption": "Khóa an toàn thay thế trên các đồ gặm đã được sửa chữa"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Công ty đã nhận được 92 báo cáo về việc khóa an toàn bị tách rời. Không có thương tích nào được báo cáo."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Có sẵn trực tuyến tại chewslife.com từ tháng 1 năm 2024 đến tháng 4 năm 2024, giá từ 20 đến 38 đô la."
+            }
+          ],
+          "Importers": [],
+          "Distributors": [
+            {
+              "Name": "Chews Life, có trụ sở tại Grand Rapids, Michigan"
+            }
+          ],
+          "Manufacturers": [],
+          "SoldAtLabel": "Bán Tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Hoa Kỳ"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Phần có thể tách rời của khóa an toàn có thể gây nguy cơ nghẹt thở."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Người tiêu dùng nên ngừng sử dụng các đồ gặm bị thu hồi và liên hệ với Chews Life để được sửa chữa miễn phí. Một nhãn vận chuyển đã thanh toán sẽ được cung cấp để trả lại các sản phẩm, và các đồ gặm đã được sửa chữa sẽ được gửi lại miễn phí."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Sửa chữa"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    }
+  ]
+}

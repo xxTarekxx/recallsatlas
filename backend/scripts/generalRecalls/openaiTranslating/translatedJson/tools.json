@@ -1,0 +1,757 @@
+{
+  "meta": {
+    "slug": "tools",
+    "sourceCsvFile": "tools_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:37.086Z",
+    "recallCount": 1,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "tools.json",
+    "seoTranslatedAt": "2026-04-05T05:58:51.101Z",
+    "resumePartial": false,
+    "i18nSource": "generalRecallsTranslated",
+    "i18nSourceFile": "tools.json",
+    "i18nUiLangs": [
+      "en",
+      "es",
+      "ar",
+      "zh",
+      "fr",
+      "de",
+      "ja",
+      "pt",
+      "hi",
+      "ru",
+      "vi"
+    ],
+    "i18nProgressByLang": {
+      "es": 1,
+      "ar": 1,
+      "zh": 1,
+      "fr": 1,
+      "de": 1,
+      "ja": 1,
+      "pt": 1,
+      "hi": 1,
+      "ru": 1,
+      "vi": 1
+    },
+    "i18nInProgress": false,
+    "i18nTranslatedAt": "2026-04-07T22:59:54.927Z",
+    "i18nOpenaiModel": "gpt-4o-mini"
+  },
+  "recalls": [
+    {
+      "RecallID": 9790,
+      "RecallNumber": "24728",
+      "RecallDate": "2023-12-07T00:00:00",
+      "Description": "Ergodyne has announced a recall of the Squids 3705 Wire Tool Attachments, specifically the Screw Gate Tool Tail model. These attachments are designed to securely fasten tools, preventing them from falling while working at heights. The product features a 5 ¾-inch-long orange wire loop with a distinctive black and green tag that displays 'Ergodyne' and 'Model 3705'. The back of the tag is green. This recall is limited to model number 3705, which was sold in packs of six or included in kits numbered 3170, 3183, 3188, and 3189.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/Ergodyne-Recalls-Squids-Wire-Tool-Attachments-with-Screw-Gate-Tool-Tails-Due-to-Injury-Hazard-Recall-Alert",
+      "Title": "Ergodyne Issues Recall for Squids 3705 Wire Tool Attachments Due to Potential Injury Risk",
+      "ConsumerContact": "Consumers should cease using the recalled wire tool attachment immediately and reach out to Ergodyne at 800-522-0520 from 8 a.m. to 5 p.m. CT, Monday through Friday. Alternatively, they can email returns@ergodyne.com or visit https://www.ergodyne.com/product-recalls for further details.",
+      "LastPublishDate": "2023-12-07T00:00:00",
+      "Products": [
+        {
+          "Name": "Squids 3705 Wire Tool Attachments",
+          "NumberOfUnits": "About 16,570 (In addition, about 790 were sold in Canada)"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/tools/1-Squids-3705-Wire-Tool-Attachments/ed21a7b7d6890881e35e01cbd881c7e2.webp",
+          "Caption": "Recalled Ergodyne Squids 3705 with Model Number",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/squids.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available through industrial and safety product distributors nationwide and online at https://www.ergodyne.com/ as well as on platforms like Amazon.com from September 2018 to July 2023, priced around $20 for a pack of six or up to $400 as part of kits."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Tenacious Holdings Inc., dba Ergodyne, of St. Paul, Minnesota"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "Taiwan"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of injury from wire tool attachment breaking when tethered to a tool over two pounds."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers can obtain a prepaid shipping label to return the product and receive a $4 refund per wire tool (up to $24 for a six-pack) as credit towards another Ergodyne product."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "slug": "ergodyne-issues-recall-for-squids-3705-wire-tool-attachments-due-to-potential-injury-risk-recall",
+      "metaDescription": "Ergodyne recalls Squids 3705 Wire Tool Attachments due to injury risks. Stop using immediately and contact for refunds.",
+      "languages": {
+        "en": {
+          "Title": "Ergodyne Issues Recall for Squids 3705 Wire Tool Attachments Due to Potential Injury Risk",
+          "Description": "Ergodyne has announced a recall of the Squids 3705 Wire Tool Attachments, specifically the Screw Gate Tool Tail model. These attachments are designed to securely fasten tools, preventing them from falling while working at heights. The product features a 5 ¾-inch-long orange wire loop with a distinctive black and green tag that displays 'Ergodyne' and 'Model 3705'. The back of the tag is green. This recall is limited to model number 3705, which was sold in packs of six or included in kits numbered 3170, 3183, 3188, and 3189.",
+          "ConsumerContact": "Consumers should cease using the recalled wire tool attachment immediately and reach out to Ergodyne at 800-522-0520 from 8 a.m. to 5 p.m. CT, Monday through Friday. Alternatively, they can email returns@ergodyne.com or visit https://www.ergodyne.com/product-recalls for further details.",
+          "metaDescription": "Ergodyne recalls Squids 3705 Wire Tool Attachments due to injury risks. Stop using immediately and contact for refunds.",
+          "Products": [
+            {
+              "Name": "Squids 3705 Wire Tool Attachments",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 16,570 (In addition, about 790 were sold in Canada)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled Ergodyne Squids 3705 with Model Number"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "None reported"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Available through industrial and safety product distributors nationwide and online at https://www.ergodyne.com/ as well as on platforms like Amazon.com from September 2018 to July 2023, priced around $20 for a pack of six or up to $400 as part of kits."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Tenacious Holdings Inc., dba Ergodyne, of St. Paul, Minnesota"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Sold At",
+          "ManufacturerCountries": [
+            {
+              "Country": "Taiwan"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risk of injury from wire tool attachment breaking when tethered to a tool over two pounds."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Consumers can obtain a prepaid shipping label to return the product and receive a $4 refund per wire tool (up to $24 for a six-pack) as credit towards another Ergodyne product."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Refund"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "Ergodyne Emite un Retiro de los Accesorios de Herramienta de Alambre Squids 3705 Debido a un Riesgo Potencial de Lesiones",
+          "Description": "Ergodyne ha anunciado un retiro de los Accesorios de Herramienta de Alambre Squids 3705, específicamente del modelo Screw Gate Tool Tail. Estos accesorios están diseñados para sujetar herramientas de manera segura, evitando que se caigan mientras se trabaja en alturas. El producto cuenta con un lazo de alambre naranja de 5 ¾ pulgadas de largo con una etiqueta distintiva negra y verde que muestra 'Ergodyne' y 'Modelo 3705'. La parte posterior de la etiqueta es verde. Este retiro se limita al número de modelo 3705, que se vendió en paquetes de seis o se incluyó en kits numerados 3170, 3183, 3188 y 3189.",
+          "ConsumerContact": "Los consumidores deben dejar de usar inmediatamente el accesorio de herramienta de alambre retirado y comunicarse con Ergodyne al 800-522-0520 de 8 a.m. a 5 p.m. CT, de lunes a viernes. Alternativamente, pueden enviar un correo electrónico a returns@ergodyne.com o visitar https://www.ergodyne.com/product-recalls para más detalles.",
+          "metaDescription": "Ergodyne retira los Accesorios de Herramienta de Alambre Squids 3705 debido a riesgos de lesiones. Deje de usar inmediatamente y comuníquese para reembolsos.",
+          "Products": [
+            {
+              "Name": "Accesorios de Herramienta de Alambre Squids 3705",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 16,570 (Además, aproximadamente 790 se vendieron en Canadá)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Ergodyne Squids 3705 retirado con Número de Modelo"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Ninguna reportada"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible a través de distribuidores de productos industriales y de seguridad en todo el país y en línea en https://www.ergodyne.com/ así como en plataformas como Amazon.com desde septiembre de 2018 hasta julio de 2023, con un precio de alrededor de $20 por un paquete de seis o hasta $400 como parte de kits."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Tenacious Holdings Inc., dba Ergodyne, de St. Paul, Minnesota"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendido En",
+          "ManufacturerCountries": [
+            {
+              "Country": "Taiwán"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Riesgo de lesiones por el rompimiento del accesorio de herramienta de alambre cuando está atado a una herramienta de más de dos libras."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Los consumidores pueden obtener una etiqueta de envío prepagada para devolver el producto y recibir un reembolso de $4 por herramienta de alambre (hasta $24 por un paquete de seis) como crédito hacia otro producto de Ergodyne."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reembolso"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "إيرغوداين تصدر استدعاء لمرفقات أدوات الأسلاك Squids 3705 بسبب خطر الإصابة المحتمل",
+          "Description": "أعلنت إيرغوداين عن استدعاء مرفقات أدوات الأسلاك Squids 3705، وتحديداً نموذج أداة بوابة البراغي. تم تصميم هذه المرفقات لتثبيت الأدوات بشكل آمن، مما يمنع سقوطها أثناء العمل على ارتفاعات. يتميز المنتج بحلقة سلكية برتقالية بطول 5 ¾ بوصة مع علامة سوداء وخضراء مميزة تعرض 'إيرغوداين' و 'نموذج 3705'. الجزء الخلفي من العلامة أخضر. يقتصر هذا الاستدعاء على رقم النموذج 3705، الذي تم بيعه في عبوات مكونة من ستة أو تم تضمينه في مجموعات مرقمة 3170 و3183 و3188 و3189.",
+          "ConsumerContact": "يجب على المستهلكين التوقف عن استخدام مرفق أداة السلك المستدعى على الفور والتواصل مع إيرغوداين على الرقم 800-522-0520 من الساعة 8 صباحًا حتى 5 مساءً بتوقيت وسط أمريكا، من الاثنين إلى الجمعة. بدلاً من ذلك، يمكنهم إرسال بريد إلكتروني إلى returns@ergodyne.com أو زيارة https://www.ergodyne.com/product-recalls لمزيد من التفاصيل.",
+          "metaDescription": "إيرغوداين تستدعي مرفقات أدوات الأسلاك Squids 3705 بسبب مخاطر الإصابة. توقف عن الاستخدام على الفور وتواصل للحصول على استرداد.",
+          "Products": [
+            {
+              "Name": "مرفقات أدوات الأسلاك Squids 3705",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 16,570 (بالإضافة إلى حوالي 790 تم بيعها في كندا)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "إيرغوداين Squids 3705 المستدعى مع رقم النموذج"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "لا توجد إصابات مسجلة"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "متاحة من خلال موزعي المنتجات الصناعية والسلامة على مستوى البلاد وعبر الإنترنت على https://www.ergodyne.com/ وكذلك على منصات مثل Amazon.com من سبتمبر 2018 إلى يوليو 2023، بسعر حوالي 20 دولارًا لعبوة مكونة من ستة أو حتى 400 دولار كجزء من مجموعات."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Tenacious Holdings Inc.، dba إيرغوداين، من سانت بول، مينيسوتا"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "تم البيع في",
+          "ManufacturerCountries": [
+            {
+              "Country": "تايوان"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "خطر الإصابة من كسر مرفق أداة السلك عند ربطه بأداة يزيد وزنها عن اثنين باوند."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "يمكن للمستهلكين الحصول على ملصق شحن مدفوع مسبقًا لإرجاع المنتج واستلام استرداد بقيمة 4 دولارات لكل أداة سلكية (حتى 24 دولارًا لعبوة مكونة من ستة) كرصيد نحو منتج آخر من إيرغوداين."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "استرداد"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "Ergodyne 发布召回 Squids 3705 电线工具附件，因潜在伤害风险",
+          "Description": "Ergodyne 宣布召回 Squids 3705 电线工具附件，特别是螺丝门工具尾部型号。这些附件旨在安全固定工具，防止在高处工作时掉落。该产品具有 5 ¾ 英寸长的橙色电线环，带有独特的黑色和绿色标签，上面显示 'Ergodyne' 和 '型号 3705'。标签的背面是绿色的。此次召回仅限于型号 3705，该型号以六个一包的形式出售，或包含在编号为 3170、3183、3188 和 3189 的套件中。",
+          "ConsumerContact": "消费者应立即停止使用被召回的电线工具附件，并在周一至周五的中部时间上午 8 点至下午 5 点之间拨打 800-522-0520 联系 Ergodyne。或者，他们可以发送电子邮件至 returns@ergodyne.com，或访问 https://www.ergodyne.com/product-recalls 获取更多详情。",
+          "metaDescription": "Ergodyne 召回 Squids 3705 电线工具附件，因伤害风险。请立即停止使用并联系以获取退款。",
+          "Products": [
+            {
+              "Name": "Squids 3705 电线工具附件",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约 16,570（此外，约 790 个在加拿大出售）"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "被召回的 Ergodyne Squids 3705，型号编号"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "未报告伤害"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "通过全国各地的工业和安全产品分销商以及在线 https://www.ergodyne.com/ 和 Amazon.com 平台出售，销售时间为 2018 年 9 月至 2023 年 7 月，价格约为 20 美元一包六个，或作为套件的一部分售价高达 400 美元。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Tenacious Holdings Inc., dba Ergodyne, 位于明尼苏达州圣保罗"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "销售地点",
+          "ManufacturerCountries": [
+            {
+              "Country": "台湾"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "当电线工具附件与超过两磅的工具连接时，存在断裂导致伤害的风险。"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "消费者可以获得一个预付邮寄标签以退回产品，并每个电线工具获得 4 美元的退款（最多 24 美元用于六个一包），作为购买其他 Ergodyne 产品的信用。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "退款"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "Ergodyne rappelle les accessoires de outils à fil Squids 3705 en raison d'un risque potentiel de blessure",
+          "Description": "Ergodyne a annoncé un rappel des accessoires de outils à fil Squids 3705, spécifiquement le modèle Screw Gate Tool Tail. Ces accessoires sont conçus pour fixer solidement les outils, les empêchant de tomber lors de travaux en hauteur. Le produit présente une boucle de fil orange de 5 ¾ pouces de long avec une étiquette distinctive noire et verte affichant 'Ergodyne' et 'Modèle 3705'. L'arrière de l'étiquette est vert. Ce rappel est limité au numéro de modèle 3705, qui a été vendu en paquets de six ou inclus dans des kits numérotés 3170, 3183, 3188 et 3189.",
+          "ConsumerContact": "Les consommateurs doivent cesser d'utiliser immédiatement l'accessoire de outil à fil rappelé et contacter Ergodyne au 800-522-0520 de 8 h à 17 h CT, du lundi au vendredi. Alternativement, ils peuvent envoyer un courriel à returns@ergodyne.com ou visiter https://www.ergodyne.com/product-recalls pour plus de détails.",
+          "metaDescription": "Ergodyne rappelle les accessoires de outils à fil Squids 3705 en raison de risques de blessures. Cessez de les utiliser immédiatement et contactez pour des remboursements.",
+          "Products": [
+            {
+              "Name": "Accessoires de outils à fil Squids 3705",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 16 570 (De plus, environ 790 ont été vendus au Canada)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Ergodyne Squids 3705 rappelé avec numéro de modèle"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Aucune signalée"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible auprès des distributeurs de produits industriels et de sécurité à l'échelle nationale et en ligne sur https://www.ergodyne.com/ ainsi que sur des plateformes comme Amazon.com de septembre 2018 à juillet 2023, au prix d'environ 20 $ pour un paquet de six ou jusqu'à 400 $ dans le cadre de kits."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Tenacious Holdings Inc., faisant affaire sous le nom d'Ergodyne, de St. Paul, Minnesota"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendu à",
+          "ManufacturerCountries": [
+            {
+              "Country": "Taïwan"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risque de blessure en raison de la rupture de l'accessoire de outil à fil lorsqu'il est attaché à un outil de plus de deux livres."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Les consommateurs peuvent obtenir une étiquette d'expédition prépayée pour retourner le produit et recevoir un remboursement de 4 $ par outil à fil (jusqu'à 24 $ pour un paquet de six) sous forme de crédit pour un autre produit Ergodyne."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Remboursement"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "Ergodyne ruft Squids 3705 Drahtwerkzeug-Zubehör aufgrund potenzieller Verletzungsgefahr zurück",
+          "Description": "Ergodyne hat einen Rückruf der Squids 3705 Drahtwerkzeug-Zubehörteile angekündigt, insbesondere des Modells Schraubverschluss-Werkzeugschwanz. Diese Zubehörteile sind dafür ausgelegt, Werkzeuge sicher zu befestigen und zu verhindern, dass sie beim Arbeiten in der Höhe fallen. Das Produkt verfügt über eine 5 ¾ Zoll lange orangefarbene Drahtschlaufe mit einem markanten schwarzen und grünen Etikett, auf dem 'Ergodyne' und 'Modell 3705' angezeigt werden. Die Rückseite des Etiketts ist grün. Dieser Rückruf beschränkt sich auf die Modellnummer 3705, die in Packungen zu sechs verkauft oder in den Kits mit den Nummern 3170, 3183, 3188 und 3189 enthalten war.",
+          "ConsumerContact": "Verbraucher sollten die zurückgerufenen Drahtwerkzeug-Zubehörteile sofort nicht mehr verwenden und sich von Montag bis Freitag zwischen 8 und 17 Uhr CT an Ergodyne unter 800-522-0520 wenden. Alternativ können sie eine E-Mail an returns@ergodyne.com senden oder die Website https://www.ergodyne.com/product-recalls besuchen, um weitere Informationen zu erhalten.",
+          "metaDescription": "Ergodyne ruft Squids 3705 Drahtwerkzeug-Zubehörteile aufgrund von Verletzungsrisiken zurück. Sofortige Nutzung einstellen und für Rückerstattungen kontaktieren.",
+          "Products": [
+            {
+              "Name": "Squids 3705 Drahtwerkzeug-Zubehörteile",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 16.570 (Zusätzlich wurden etwa 790 in Kanada verkauft)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Zurückgerufenes Ergodyne Squids 3705 mit Modellnummer"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Keine gemeldet"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Erhältlich über industrielle und Sicherheitsproduktvertreiber landesweit und online unter https://www.ergodyne.com/ sowie auf Plattformen wie Amazon.com von September 2018 bis Juli 2023, preislich etwa 20 $ für ein Sechserpack oder bis zu 400 $ als Teil von Kits."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Tenacious Holdings Inc., dba Ergodyne, aus St. Paul, Minnesota"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Verkauft bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "Taiwan"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Verletzungsgefahr durch das Brechen des Drahtwerkzeug-Zubehörs, wenn es an einem Werkzeug über zwei Pfund befestigt ist."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Verbraucher können ein vorfrankiertes Versandetikett erhalten, um das Produkt zurückzusenden und eine Rückerstattung von 4 $ pro Drahtwerkzeug (bis zu 24 $ für ein Sechserpack) als Guthaben für ein anderes Ergodyne-Produkt zu erhalten."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Rückerstattung"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "Ergodyneが潜在的な怪我のリスクによりSquids 3705ワイヤーツールアタッチメントのリコールを発表",
+          "Description": "Ergodyneは、特にスクリューゲートツールテールモデルのSquids 3705ワイヤーツールアタッチメントのリコールを発表しました。これらのアタッチメントは、作業中に工具が落下するのを防ぐために、工具をしっかりと固定するように設計されています。製品は、'Ergodyne'と'Model 3705'が表示された特徴的な黒と緑のタグを持つ5 ¾インチのオレンジのワイヤーループを備えています。タグの裏側は緑色です。このリコールは、6個入りのパックで販売されたモデル番号3705に限定されており、キット3170、3183、3188、3189に含まれていました。",
+          "ConsumerContact": "消費者は、リコールされたワイヤーツールアタッチメントの使用を直ちに中止し、月曜日から金曜日の午前8時から午後5時（中央標準時）までに800-522-0520でErgodyneに連絡する必要があります。あるいは、returns@ergodyne.comにメールを送信するか、https://www.ergodyne.com/product-recallsを訪れて詳細を確認できます。",
+          "metaDescription": "Ergodyneが怪我のリスクによりSquids 3705ワイヤーツールアタッチメントをリコール。直ちに使用を中止し、返金のために連絡してください。",
+          "Products": [
+            {
+              "Name": "Squids 3705ワイヤーツールアタッチメント",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約16,570（さらに、約790個がカナダで販売されました）"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコールされたErgodyne Squids 3705 モデル番号付き"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "報告された怪我はなし"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "全国の産業および安全製品のディストリビューターを通じて、またはhttps://www.ergodyne.com/やAmazon.comなどのプラットフォームで、2018年9月から2023年7月まで販売され、6個入りパックで約20ドル、キットの一部として最大400ドルで販売されました。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "ミネソタ州セントポールのTenacious Holdings Inc.（dba Ergodyne）"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "販売場所",
+          "ManufacturerCountries": [
+            {
+              "Country": "台湾"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "2ポンドを超える工具に取り付けた際にワイヤーツールアタッチメントが壊れることによる怪我のリスク。"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "消費者は、製品を返送するための prepaid shipping label を取得し、ワイヤーツール1個につき4ドルの返金（6個パックで最大24ドル）を受け取り、別のErgodyne製品のクレジットとして使用できます。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "返金"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "Ergodyne Emite Recall para Acessórios de Ferramenta de Fio Squids 3705 Devido ao Potencial Risco de Lesão",
+          "Description": "A Ergodyne anunciou um recall dos Acessórios de Ferramenta de Fio Squids 3705, especificamente o modelo Screw Gate Tool Tail. Esses acessórios são projetados para prender ferramentas com segurança, evitando que elas caiam enquanto se trabalha em alturas. O produto possui um laço de fio laranja de 5 ¾ polegadas de comprimento com uma etiqueta distinta preta e verde que exibe 'Ergodyne' e 'Modelo 3705'. A parte de trás da etiqueta é verde. Este recall é limitado ao número do modelo 3705, que foi vendido em pacotes de seis ou incluído em kits numerados 3170, 3183, 3188 e 3189.",
+          "ConsumerContact": "Os consumidores devem parar de usar imediatamente o acessório de ferramenta de fio recallado e entrar em contato com a Ergodyne pelo telefone 800-522-0520 das 8h às 17h CT, de segunda a sexta-feira. Alternativamente, podem enviar um e-mail para returns@ergodyne.com ou visitar https://www.ergodyne.com/product-recalls para mais detalhes.",
+          "metaDescription": "A Ergodyne faz recall dos Acessórios de Ferramenta de Fio Squids 3705 devido a riscos de lesão. Pare de usar imediatamente e entre em contato para reembolsos.",
+          "Products": [
+            {
+              "Name": "Acessórios de Ferramenta de Fio Squids 3705",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 16.570 (Além disso, cerca de 790 foram vendidos no Canadá)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Ergodyne Squids 3705 Recallado com Número do Modelo"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Nenhuma relatada"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponível através de distribuidores de produtos industriais e de segurança em todo o país e online em https://www.ergodyne.com/ assim como em plataformas como Amazon.com de setembro de 2018 a julho de 2023, com preço em torno de $20 por um pacote de seis ou até $400 como parte de kits."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Tenacious Holdings Inc., dba Ergodyne, de St. Paul, Minnesota"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendido Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "Taiwan"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risco de lesão devido ao rompimento do acessório de ferramenta de fio quando preso a uma ferramenta acima de duas libras."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Os consumidores podem obter uma etiqueta de envio pré-paga para devolver o produto e receber um reembolso de $4 por ferramenta de fio (até $24 por um pacote de seis) como crédito para outro produto Ergodyne."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reembolso"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "एर्गोडाइन ने संभावित चोट के जोखिम के कारण स्क्विड्स 3705 वायर टूल अटैचमेंट्स का रिकॉल जारी किया",
+          "Description": "एर्गोडाइन ने स्क्विड्स 3705 वायर टूल अटैचमेंट्स, विशेष रूप से स्क्रू गेट टूल टेल मॉडल का रिकॉल घोषित किया है। ये अटैचमेंट्स उपकरणों को सुरक्षित रूप से बांधने के लिए डिज़ाइन किए गए हैं, जिससे वे ऊंचाई पर काम करते समय गिरने से बचते हैं। उत्पाद में 5 ¾ इंच लंबा नारंगी वायर लूप है जिसमें 'एर्गोडाइन' और 'मॉडल 3705' प्रदर्शित करने वाला एक विशिष्ट काला और हरा टैग है। टैग का पिछला हिस्सा हरा है। यह रिकॉल मॉडल नंबर 3705 तक सीमित है, जिसे छह के पैक में बेचा गया था या किटों में शामिल किया गया था जिनका नंबर 3170, 3183, 3188, और 3189 है।",
+          "ConsumerContact": "उपभोक्ताओं को तुरंत रिकॉल किए गए वायर टूल अटैचमेंट का उपयोग बंद कर देना चाहिए और एर्गोडाइन से 800-522-0520 पर सुबह 8 बजे से शाम 5 बजे सीटी, सोमवार से शुक्रवार तक संपर्क करना चाहिए। वैकल्पिक रूप से, वे returns@ergodyne.com पर ईमेल कर सकते हैं या अधिक जानकारी के लिए https://www.ergodyne.com/product-recalls पर जा सकते हैं।",
+          "metaDescription": "एर्गोडाइन चोट के जोखिम के कारण स्क्विड्स 3705 वायर टूल अटैचमेंट्स का रिकॉल करता है। तुरंत उपयोग बंद करें और रिफंड के लिए संपर्क करें।",
+          "Products": [
+            {
+              "Name": "स्क्विड्स 3705 वायर टूल अटैचमेंट्स",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 16,570 (इसके अतिरिक्त, लगभग 790 कनाडा में बेचे गए)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "रिकॉल किए गए एर्गोडाइन स्क्विड्स 3705 मॉडल नंबर के साथ"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "कोई रिपोर्ट नहीं की गई"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "राष्ट्रीय स्तर पर औद्योगिक और सुरक्षा उत्पाद वितरकों के माध्यम से और https://www.ergodyne.com/ पर ऑनलाइन उपलब्ध है, साथ ही Amazon.com जैसे प्लेटफार्मों पर सितंबर 2018 से जुलाई 2023 तक, छह के पैक के लिए लगभग $20 या किट के हिस्से के रूप में $400 तक की कीमत पर।"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "टेनशियस होल्डिंग्स इंक., dba एर्गोडाइन, सेंट पॉल, मिनेसोटा"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "ताइवान"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "दो पाउंड से अधिक के उपकरण से जुड़े होने पर वायर टूल अटैचमेंट टूटने से चोट का जोखिम।"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "उपभोक्ता उत्पाद लौटाने के लिए एक प्रीपेड शिपिंग लेबल प्राप्त कर सकते हैं और प्रत्येक वायर टूल के लिए $4 रिफंड (छह-पैक के लिए $24 तक) प्राप्त कर सकते हैं, जो एक अन्य एर्गोडाइन उत्पाद के लिए क्रेडिट के रूप में है।"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "रिफंड"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "Ergodyne объявляет отзыв Squids 3705 для креплений проводных инструментов из-за потенциального риска травмы",
+          "Description": "Ergodyne объявила об отзыве креплений проводных инструментов Squids 3705, в частности модели Screw Gate Tool Tail. Эти крепления предназначены для надежного крепления инструментов, предотвращая их падение при работе на высоте. Продукт имеет оранжевую проволочную петлю длиной 5 ¾ дюйма с характерной черной и зеленой биркой, на которой написано 'Ergodyne' и 'Модель 3705'. Обратная сторона бирки зеленая. Этот отзыв ограничен моделью номер 3705, которая продавалась в упаковках по шесть штук или входила в наборы под номерами 3170, 3183, 3188 и 3189.",
+          "ConsumerContact": "Потребители должны немедленно прекратить использование отозванного крепления проводного инструмента и связаться с Ergodyne по телефону 800-522-0520 с 8:00 до 17:00 по центральному времени с понедельника по пятницу. В качестве альтернативы они могут отправить электронное письмо на адрес returns@ergodyne.com или посетить https://www.ergodyne.com/product-recalls для получения дополнительной информации.",
+          "metaDescription": "Ergodyne отзывает Squids 3705 для креплений проводных инструментов из-за рисков травмы. Немедленно прекратите использование и свяжитесь для получения возврата.",
+          "Products": [
+            {
+              "Name": "Крепления проводных инструментов Squids 3705",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 16,570 (Кроме того, около 790 были проданы в Канаде)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванные Ergodyne Squids 3705 с номером модели"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Не сообщалось"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Доступно через дистрибьюторов промышленных и средств безопасности по всей стране и онлайн на https://www.ergodyne.com/ а также на платформах, таких как Amazon.com с сентября 2018 года по июль 2023 года, по цене около 20 долларов за упаковку из шести или до 400 долларов в составе наборов."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Tenacious Holdings Inc., dba Ergodyne, г. Сент-Пол, штат Миннесота"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Продавалось в",
+          "ManufacturerCountries": [
+            {
+              "Country": "Тайвань"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Риск травмы из-за разрыва крепления проводного инструмента при привязке к инструменту весом более двух фунтов."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Потребители могут получить предоплаченную транспортную этикетку для возврата продукта и получить возврат в размере 4 долларов за каждое крепление проводного инструмента (до 24 долларов за упаковку из шести) в качестве кредита на другой продукт Ergodyne."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Возврат"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "Ergodyne Thông Báo Thu Hồi Phụ Kiện Dụng Cụ Dây Squids 3705 Do Nguy Cơ Chấn Thương",
+          "Description": "Ergodyne đã thông báo thu hồi các phụ kiện dụng cụ dây Squids 3705, cụ thể là mẫu Dụng Cụ Đuôi Cửa Vít. Những phụ kiện này được thiết kế để giữ chặt dụng cụ, ngăn chúng rơi khi làm việc ở độ cao. Sản phẩm có một vòng dây màu cam dài 5 ¾ inch với một nhãn màu đen và xanh đặc trưng hiển thị 'Ergodyne' và 'Mẫu 3705'. Mặt sau của nhãn có màu xanh. Lần thu hồi này chỉ giới hạn ở số mẫu 3705, đã được bán trong các gói sáu hoặc bao gồm trong các bộ số 3170, 3183, 3188 và 3189.",
+          "ConsumerContact": "Người tiêu dùng nên ngừng sử dụng ngay lập tức phụ kiện dụng cụ dây đã thu hồi và liên hệ với Ergodyne qua số điện thoại 800-522-0520 từ 8 giờ sáng đến 5 giờ chiều CT, từ thứ Hai đến thứ Sáu. Ngoài ra, họ có thể gửi email tới returns@ergodyne.com hoặc truy cập https://www.ergodyne.com/product-recalls để biết thêm chi tiết.",
+          "metaDescription": "Ergodyne thu hồi các phụ kiện dụng cụ dây Squids 3705 do nguy cơ chấn thương. Ngừng sử dụng ngay lập tức và liên hệ để được hoàn tiền.",
+          "Products": [
+            {
+              "Name": "Phụ Kiện Dụng Cụ Dây Squids 3705",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 16,570 (Ngoài ra, khoảng 790 đã được bán tại Canada)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Ergodyne Squids 3705 đã thu hồi với Số Mẫu"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Không có báo cáo"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Có sẵn qua các nhà phân phối sản phẩm công nghiệp và an toàn trên toàn quốc và trực tuyến tại https://www.ergodyne.com/ cũng như trên các nền tảng như Amazon.com từ tháng 9 năm 2018 đến tháng 7 năm 2023, có giá khoảng 20 đô la cho một gói sáu hoặc lên đến 400 đô la như một phần của các bộ."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Tenacious Holdings Inc., dba Ergodyne, tại St. Paul, Minnesota"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Bán Tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Đài Loan"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Nguy cơ chấn thương do phụ kiện dụng cụ dây bị gãy khi được buộc vào một dụng cụ nặng hơn hai pound."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Người tiêu dùng có thể nhận một nhãn vận chuyển đã trả trước để trả lại sản phẩm và nhận lại 4 đô la cho mỗi dụng cụ dây (tối đa 24 đô la cho một gói sáu) như tín dụng cho một sản phẩm Ergodyne khác."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Hoàn tiền"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    }
+  ]
+}

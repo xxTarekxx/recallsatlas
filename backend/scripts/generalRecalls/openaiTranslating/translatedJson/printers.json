@@ -1,0 +1,1624 @@
+{
+  "meta": {
+    "slug": "printers",
+    "sourceCsvFile": "printers_2023-12-01_2026-04-01.csv",
+    "mergedFromJson": "testing2.json",
+    "generatedAt": "2026-04-03T05:09:37.046Z",
+    "recallCount": 2,
+    "openaiModel": "gpt-4o-mini",
+    "sourceJson": "printers.json",
+    "seoTranslatedAt": "2026-04-05T03:14:35.543Z",
+    "resumePartial": false,
+    "i18nSource": "generalRecallsTranslated",
+    "i18nSourceFile": "printers.json",
+    "i18nUiLangs": [
+      "en",
+      "es",
+      "ar",
+      "zh",
+      "fr",
+      "de",
+      "ja",
+      "pt",
+      "hi",
+      "ru",
+      "vi"
+    ],
+    "i18nProgressByLang": {
+      "es": 2,
+      "ar": 2,
+      "zh": 2,
+      "fr": 2,
+      "de": 2,
+      "ja": 2,
+      "pt": 2,
+      "hi": 2,
+      "ru": 2,
+      "vi": 2
+    },
+    "i18nInProgress": false,
+    "i18nTranslatedAt": "2026-04-07T18:44:29.012Z",
+    "i18nOpenaiModel": "gpt-4o-mini"
+  },
+  "recalls": [
+    {
+      "RecallID": 10125,
+      "RecallNumber": "25090",
+      "RecallDate": "2025-01-16T00:00:00",
+      "Description": "Lexmark has issued a recall for its specialty printers, specifically the MS725dvn and MX725adve models. These printers, designed for printing on various materials including paper and vinyl, may pose a fire hazard due to a potential dislodging of a metal component inside the unit. The model numbers can be found on the top cover and door, with the MX725dvn featuring a large multifunction sorter on top. The printers are identifiable by their white front and black top and sides, prominently displaying the Lexmark logo.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/Lexmark-International-Recalls-Specialty-Printers-Due-to-Fire-Hazard",
+      "Title": "Lexmark Specialty Printers Recalled Due to Fire Risk",
+      "ConsumerContact": "Consumers are urged to stop using the affected printers immediately and reach out to Lexmark at 866-470-1574 from 9 a.m. to 9 p.m. ET, Monday through Friday. Alternatively, they can email safety@lexmark.com or visit http://www.lexmark.com/recall for further details.",
+      "LastPublishDate": "2025-01-16T00:00:00",
+      "Products": [
+        {
+          "Name": "MS725dvn Specialty Printer",
+          "NumberOfUnits": "About 43,510 (In addition, about 4,000 were sold in Canada)"
+        }
+      ],
+      "Inconjunctions": [
+        {
+          "URL": "https://recalls-rappels.canada.ca/en/alert-recall/lexmark-specialty-printers-recalled-due-fire-hazard"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/printers/1-MS725dvn-Specialty-Printer/baa5b26150b8ece74d8e264269e50b5b.webp",
+          "Caption": "Recalled MS725dvn Specialty Printer",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Lexmark-1.png"
+        },
+        {
+          "URL": "/images/generalRecalls/printers/1-MS725dvn-Specialty-Printer/c565f2702b5b019d7696b33148df29ad.webp",
+          "Caption": "Recalled MX725adve Specialty Printer",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/Lexmark-2.png"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received two reports of the printers overheating including one reported fire. No damage or injuries have been reported."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available online at lexmark.com, CDW Logistics, Tech Data Product Management Inc., and Insight Direct USA Inc. from June 2018 to November 2024, priced between $1,000 and $4,200."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Lexmark International Inc., of Lexington, Kentucky"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Fire Risk from Dislodged Metal Part"
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Free Repair Part Available"
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ],
+      "slug": "lexmark-specialty-printers-recalled-due-to-fire-risk-recall",
+      "metaDescription": "Lexmark recalls MS725dvn and MX725adve printers due to fire hazards. Contact Lexmark for a free repair part.",
+      "languages": {
+        "en": {
+          "Title": "Lexmark Specialty Printers Recalled Due to Fire Risk",
+          "Description": "Lexmark has issued a recall for its specialty printers, specifically the MS725dvn and MX725adve models. These printers, designed for printing on various materials including paper and vinyl, may pose a fire hazard due to a potential dislodging of a metal component inside the unit. The model numbers can be found on the top cover and door, with the MX725dvn featuring a large multifunction sorter on top. The printers are identifiable by their white front and black top and sides, prominently displaying the Lexmark logo.",
+          "ConsumerContact": "Consumers are urged to stop using the affected printers immediately and reach out to Lexmark at 866-470-1574 from 9 a.m. to 9 p.m. ET, Monday through Friday. Alternatively, they can email safety@lexmark.com or visit http://www.lexmark.com/recall for further details.",
+          "metaDescription": "Lexmark recalls MS725dvn and MX725adve printers due to fire hazards. Contact Lexmark for a free repair part.",
+          "Products": [
+            {
+              "Name": "MS725dvn Specialty Printer",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 43,510 (In addition, about 4,000 were sold in Canada)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled MS725dvn Specialty Printer"
+            },
+            {
+              "Caption": "Recalled MX725adve Specialty Printer"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "The firm has received two reports of the printers overheating including one reported fire. No damage or injuries have been reported."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Available online at lexmark.com, CDW Logistics, Tech Data Product Management Inc., and Insight Direct USA Inc. from June 2018 to November 2024, priced between $1,000 and $4,200."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Lexmark International Inc., of Lexington, Kentucky"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Sold At",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Fire Risk from Dislodged Metal Part"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Free Repair Part Available"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Repair"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "Impresoras Especiales Lexmark Retiradas Debido al Riesgo de Incendio",
+          "Description": "Lexmark ha emitido un retiro para sus impresoras especiales, específicamente los modelos MS725dvn y MX725adve. Estas impresoras, diseñadas para imprimir en varios materiales, incluyendo papel y vinilo, pueden representar un riesgo de incendio debido a un posible desalojo de un componente metálico dentro de la unidad. Los números de modelo se pueden encontrar en la tapa superior y la puerta, siendo el MX725dvn el que cuenta con un gran clasificador multifuncional en la parte superior. Las impresoras son identificables por su frente blanco y su parte superior y lados negros, mostrando prominentemente el logo de Lexmark.",
+          "ConsumerContact": "Se insta a los consumidores a dejar de usar las impresoras afectadas de inmediato y a comunicarse con Lexmark al 866-470-1574 de 9 a.m. a 9 p.m. ET, de lunes a viernes. Alternativamente, pueden enviar un correo electrónico a safety@lexmark.com o visitar http://www.lexmark.com/recall para más detalles.",
+          "metaDescription": "Lexmark retira las impresoras MS725dvn y MX725adve debido a riesgos de incendio. Contacte a Lexmark para obtener una pieza de reparación gratuita.",
+          "Products": [
+            {
+              "Name": "Impresora Especial MS725dvn",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 43,510 (Además, se vendieron aproximadamente 4,000 en Canadá)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Impresora Especial MS725dvn Retirada"
+            },
+            {
+              "Caption": "Impresora Especial MX725adve Retirada"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "La empresa ha recibido dos informes de las impresoras sobrecalentándose, incluyendo un incendio reportado. No se han reportado daños ni lesiones."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible en línea en lexmark.com, CDW Logistics, Tech Data Product Management Inc. y Insight Direct USA Inc. desde junio de 2018 hasta noviembre de 2024, con precios entre $1,000 y $4,200."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Lexmark International Inc., de Lexington, Kentucky"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendidos En",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Riesgo de Incendio por Parte Metálica Desalojada"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Pieza de Reparación Gratuita Disponible"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparación"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "استدعاء طابعات ليكسمارك المتخصصة بسبب خطر الحريق",
+          "Description": "أصدرت ليكسمارك استدعاء لطابعاتها المتخصصة، وبالتحديد طرازات MS725dvn و MX725adve. تم تصميم هذه الطابعات للطباعة على مواد متنوعة بما في ذلك الورق والفينيل، وقد تشكل خطر حريق بسبب احتمال انزلاق مكون معدني داخل الوحدة. يمكن العثور على أرقام الطرازات على الغطاء العلوي والباب، حيث يتميز طراز MX725dvn بوجود فرز متعدد الوظائف كبير في الأعلى. يمكن التعرف على الطابعات من خلال واجهتها البيضاء وسطحها وجوانبها السوداء، والتي تعرض شعار ليكسمارك بشكل بارز.",
+          "ConsumerContact": "يُحث المستهلكون على التوقف عن استخدام الطابعات المتأثرة على الفور والتواصل مع ليكسمارك على الرقم 866-470-1574 من الساعة 9 صباحًا حتى 9 مساءً بتوقيت شرق الولايات المتحدة، من الاثنين إلى الجمعة. بدلاً من ذلك، يمكنهم إرسال بريد إلكتروني إلى safety@lexmark.com أو زيارة http://www.lexmark.com/recall للحصول على مزيد من التفاصيل.",
+          "metaDescription": "تستدعي ليكسمارك طابعات MS725dvn و MX725adve بسبب مخاطر الحريق. اتصل بليكسمارك للحصول على قطعة إصلاح مجانية.",
+          "Products": [
+            {
+              "Name": "طابعة MS725dvn المتخصصة",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 43,510 (بالإضافة إلى ذلك، تم بيع حوالي 4,000 في كندا)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "طابعة MS725dvn المتخصصة المستدعاة"
+            },
+            {
+              "Caption": "طابعة MX725adve المتخصصة المستدعاة"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "تلقت الشركة تقارير عن ارتفاع درجة حرارة الطابعات بما في ذلك تقرير واحد عن حريق. لم يتم الإبلاغ عن أي أضرار أو إصابات."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "متاحة على الإنترنت على lexmark.com، CDW Logistics، Tech Data Product Management Inc.، و Insight Direct USA Inc. من يونيو 2018 إلى نوفمبر 2024، بأسعار تتراوح بين 1,000 و 4,200 دولار."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "ليكسمارك إنترناشونال إنك، من ليكسينغتون، كنتاكي"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "تم البيع في",
+          "ManufacturerCountries": [
+            {
+              "Country": "الصين"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "خطر الحريق الناتج عن جزء معدني مفكوك"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "قطعة إصلاح مجانية متاحة"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "إصلاح"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "Lexmark 特殊打印机因火灾风险被召回",
+          "Description": "Lexmark 已对其特殊打印机发出召回，具体型号为 MS725dvn 和 MX725adve。这些打印机设计用于在包括纸张和乙烯基在内的各种材料上打印，由于内部金属部件可能脱落，可能存在火灾隐患。型号可以在顶部盖子和门上找到，MX725dvn 型号的顶部配有大型多功能分拣器。这些打印机的前面为白色，顶部和侧面为黑色，显著展示了 Lexmark 标志。\n\n消费者被敦促立即停止使用受影响的打印机，并在周一至周五的东部时间上午 9 点至晚上 9 点拨打 866-470-1574 联系 Lexmark。或者，他们可以发送电子邮件至 safety@lexmark.com 或访问 http://www.lexmark.com/recall 获取更多详细信息。",
+          "ConsumerContact": "消费者被敦促立即停止使用受影响的打印机，并在周一至周五的东部时间上午 9 点至晚上 9 点拨打 866-470-1574 联系 Lexmark。或者，他们可以发送电子邮件至 safety@lexmark.com 或访问 http://www.lexmark.com/recall 获取更多详细信息。",
+          "metaDescription": "Lexmark 因火灾隐患召回 MS725dvn 和 MX725adve 打印机。联系 Lexmark 获取免费维修部件。",
+          "Products": [
+            {
+              "Name": "MS725dvn 特殊打印机",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约 43,510 台（此外，约 4,000 台在加拿大销售）"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "召回的 MS725dvn 特殊打印机"
+            },
+            {
+              "Caption": "召回的 MX725adve 特殊打印机"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "该公司已收到两起打印机过热的报告，其中一起报告了火灾。未报告损坏或受伤。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "在 lexmark.com、CDW Logistics、Tech Data 产品管理公司和 Insight Direct USA Inc. 在线销售，时间为 2018 年 6 月至 2024 年 11 月，价格在 $1,000 到 $4,200 之间。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "位于肯塔基州列克星敦的 Lexmark International Inc."
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "销售地点",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "因金属部件脱落而导致的火灾风险"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "提供免费维修部件"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "维修"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "Imprimantes Spéciales Lexmark Rappelées en Raison d'un Risque d'Incendie",
+          "Description": "Lexmark a émis un rappel pour ses imprimantes spéciales, spécifiquement les modèles MS725dvn et MX725adve. Ces imprimantes, conçues pour imprimer sur divers matériaux, y compris le papier et le vinyle, peuvent présenter un risque d'incendie en raison d'un potentiel délogement d'un composant métallique à l'intérieur de l'unité. Les numéros de modèle se trouvent sur le couvercle supérieur et la porte, le MX725dvn étant doté d'un grand trieur multifonction en haut. Les imprimantes sont identifiables par leur façade blanche et leur dessus et côtés noirs, affichant en évidence le logo Lexmark.",
+          "ConsumerContact": "Les consommateurs sont invités à cesser immédiatement d'utiliser les imprimantes concernées et à contacter Lexmark au 866-470-1574 de 9 h à 21 h HNE, du lundi au vendredi. Alternativement, ils peuvent envoyer un courriel à safety@lexmark.com ou visiter http://www.lexmark.com/recall pour plus de détails.",
+          "metaDescription": "Lexmark rappelle les imprimantes MS725dvn et MX725adve en raison de risques d'incendie. Contactez Lexmark pour une pièce de réparation gratuite.",
+          "Products": [
+            {
+              "Name": "Imprimante Spéciale MS725dvn",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 43 510 (De plus, environ 4 000 ont été vendues au Canada)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Imprimante Spéciale MS725dvn Rappelée"
+            },
+            {
+              "Caption": "Imprimante Spéciale MX725adve Rappelée"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "L'entreprise a reçu deux rapports de surchauffe des imprimantes, dont un incendie signalé. Aucun dommage ni blessure n'ont été signalés."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible en ligne sur lexmark.com, CDW Logistics, Tech Data Product Management Inc., et Insight Direct USA Inc. de juin 2018 à novembre 2024, au prix compris entre 1 000 $ et 4 200 $."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Lexmark International Inc., de Lexington, Kentucky"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendu À",
+          "ManufacturerCountries": [
+            {
+              "Country": "Chine"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risque d'Incendie dû à un Composant Métallique Délogé"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Pièce de Réparation Gratuite Disponible"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Réparation"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "Lexmark Spezialdrucker wegen Brandgefahr zurückgerufen",
+          "Description": "Lexmark hat einen Rückruf für seine Spezialdrucker, insbesondere die Modelle MS725dvn und MX725adve, herausgegeben. Diese Drucker, die für das Drucken auf verschiedenen Materialien wie Papier und Vinyl konzipiert sind, können aufgrund einer möglichen Lockerung eines Metallteils im Inneren des Geräts eine Brandgefahr darstellen. Die Modellnummern sind auf der oberen Abdeckung und Tür zu finden, wobei der MX725dvn über einen großen Multifunktionssortierer oben verfügt. Die Drucker sind an ihrer weißen Vorderseite und der schwarzen Ober- und Seitenfläche zu erkennen, die das Lexmark-Logo deutlich anzeigen.",
+          "ConsumerContact": "Die Verbraucher werden aufgefordert, die betroffenen Drucker sofort nicht mehr zu verwenden und sich von Montag bis Freitag zwischen 9 und 21 Uhr ET an Lexmark unter 866-470-1574 zu wenden. Alternativ können sie eine E-Mail an safety@lexmark.com senden oder die Website http://www.lexmark.com/recall besuchen, um weitere Informationen zu erhalten.",
+          "metaDescription": "Lexmark ruft die Drucker MS725dvn und MX725adve wegen Brandgefahr zurück. Kontaktieren Sie Lexmark für ein kostenloses Reparaturteil.",
+          "Products": [
+            {
+              "Name": "MS725dvn Spezialdrucker",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 43.510 (Zusätzlich wurden etwa 4.000 in Kanada verkauft)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Zurückgerufener MS725dvn Spezialdrucker"
+            },
+            {
+              "Caption": "Zurückgerufener MX725adve Spezialdrucker"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Das Unternehmen hat zwei Berichte über überhitzte Drucker erhalten, darunter einen gemeldeten Brand. Es wurden keine Schäden oder Verletzungen gemeldet."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Online erhältlich bei lexmark.com, CDW Logistics, Tech Data Product Management Inc. und Insight Direct USA Inc. von Juni 2018 bis November 2024, zu Preisen zwischen 1.000 und 4.200 US-Dollar."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Lexmark International Inc., aus Lexington, Kentucky"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Verkauft bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Brandgefahr durch gelockertes Metallteil"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Kostenloses Reparaturteil verfügbar"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparatur"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "レックスマーク特別プリンターが火災リスクのためリコール",
+          "Description": "レックスマークは、特別プリンター、特にMS725dvnおよびMX725adveモデルのリコールを発表しました。これらのプリンターは、紙やビニールなどのさまざまな材料に印刷するために設計されており、ユニット内部の金属部品が外れる可能性があるため、火災の危険を引き起こす可能性があります。モデル番号は上部カバーとドアに記載されており、MX725dvnは上部に大きな多機能ソーターを備えています。プリンターは、白い前面と黒い上部および側面で識別でき、レックスマークのロゴが目立っています。\n消費者は、影響を受けたプリンターの使用を直ちに中止し、月曜日から金曜日の午前9時から午後9時（ET）までレックスマークに866-470-1574で連絡するよう促されています。あるいは、safety@lexmark.comにメールを送信するか、http://www.lexmark.com/recallを訪れて詳細を確認できます。",
+          "ConsumerContact": "消費者は、影響を受けたプリンターの使用を直ちに中止し、月曜日から金曜日の午前9時から午後9時（ET）までレックスマークに866-470-1574で連絡するよう促されています。あるいは、safety@lexmark.comにメールを送信するか、http://www.lexmark.com/recallを訪れて詳細を確認できます。",
+          "metaDescription": "レックスマークは、火災の危険性のためにMS725dvnおよびMX725adveプリンターをリコールします。無料の修理部品についてはレックスマークに連絡してください。",
+          "Products": [
+            {
+              "Name": "MS725dvn特別プリンター",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約43,510台（さらに、約4,000台がカナダで販売されました）"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコールされたMS725dvn特別プリンター"
+            },
+            {
+              "Caption": "リコールされたMX725adve特別プリンター"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "同社は、プリンターの過熱に関する2件の報告を受けており、そのうち1件は火災が報告されています。損害や怪我の報告はありません。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "2018年6月から2024年11月まで、lexmark.com、CDW Logistics、Tech Data Product Management Inc.、およびInsight Direct USA Inc.で販売されており、価格は1,000ドルから4,200ドルの間です。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "ケンタッキー州レキシントンのレックスマークインターナショナル社"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "販売場所",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "外れた金属部品による火災リスク"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "無料の修理部品が利用可能"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "修理"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "Impressoras Especiais Lexmark Recalladas Devido ao Risco de Incêndio",
+          "Description": "A Lexmark emitiu um recall para suas impressoras especiais, especificamente os modelos MS725dvn e MX725adve. Essas impressoras, projetadas para impressão em vários materiais, incluindo papel e vinil, podem representar um risco de incêndio devido a um possível deslocamento de um componente metálico dentro da unidade. Os números dos modelos podem ser encontrados na tampa superior e na porta, com o MX725dvn apresentando um grande classificador multifuncional na parte superior. As impressoras são identificáveis por sua frente branca e topo e laterais pretas, exibindo proeminentemente o logotipo da Lexmark.",
+          "ConsumerContact": "Os consumidores são aconselhados a parar de usar as impressoras afetadas imediatamente e entrar em contato com a Lexmark pelo telefone 866-470-1574, das 9h às 21h ET, de segunda a sexta-feira. Alternativamente, podem enviar um e-mail para safety@lexmark.com ou visitar http://www.lexmark.com/recall para mais detalhes.",
+          "metaDescription": "A Lexmark recall os impressoras MS725dvn e MX725adve devido a riscos de incêndio. Entre em contato com a Lexmark para uma peça de reparo gratuita.",
+          "Products": [
+            {
+              "Name": "Impressora Especial MS725dvn",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 43.510 (Além disso, cerca de 4.000 foram vendidas no Canadá)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Impressora Especial MS725dvn Recallada"
+            },
+            {
+              "Caption": "Impressora Especial MX725adve Recallada"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "A empresa recebeu dois relatos de superaquecimento das impressoras, incluindo um incêndio relatado. Nenhum dano ou ferimentos foram relatados."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponível online em lexmark.com, CDW Logistics, Tech Data Product Management Inc. e Insight Direct USA Inc. de junho de 2018 a novembro de 2024, com preços entre $1.000 e $4.200."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Lexmark International Inc., de Lexington, Kentucky"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendidos Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risco de Incêndio devido a Parte Metálica Deslocada"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Peça de Reparo Gratuita Disponível"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reparo"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "लेक्समार्क विशेष प्रिंटर आग के जोखिम के कारण वापस बुलाए गए",
+          "Description": "लेक्समार्क ने अपने विशेष प्रिंटर, विशेष रूप से MS725dvn और MX725adve मॉडल के लिए एक रिकॉल जारी किया है। ये प्रिंटर विभिन्न सामग्रियों पर प्रिंट करने के लिए डिज़ाइन किए गए हैं, जिसमें कागज और विनाइल शामिल हैं, और यूनिट के अंदर एक धातु के घटक के संभावित स्थानांतरण के कारण आग का खतरा पैदा कर सकते हैं। मॉडल नंबर शीर्ष कवर और दरवाजे पर पाए जा सकते हैं, जिसमें MX725dvn के शीर्ष पर एक बड़ा मल्टीफंक्शन सॉर्टर है। प्रिंटर को उनके सफेद सामने और काले शीर्ष और किनारों द्वारा पहचाना जा सकता है, जो लेक्समार्क लोगो को प्रमुखता से प्रदर्शित करते हैं।",
+          "ConsumerContact": "उपभोक्ताओं से अनुरोध किया जाता है कि वे प्रभावित प्रिंटर का उपयोग तुरंत बंद कर दें और लेक्समार्क से 866-470-1574 पर सुबह 9 बजे से शाम 9 बजे तक ET, सोमवार से शुक्रवार तक संपर्क करें। वैकल्पिक रूप से, वे safety@lexmark.com पर ईमेल कर सकते हैं या आगे की जानकारी के लिए http://www.lexmark.com/recall पर जा सकते हैं।",
+          "metaDescription": "लेक्समार्क MS725dvn और MX725adve प्रिंटर को आग के खतरों के कारण वापस बुलाता है। मुफ्त मरम्मत भाग के लिए लेक्समार्क से संपर्क करें।",
+          "Products": [
+            {
+              "Name": "MS725dvn विशेष प्रिंटर",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 43,510 (इसके अतिरिक्त, लगभग 4,000 कनाडा में बेचे गए)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "वापस बुलाया गया MS725dvn विशेष प्रिंटर"
+            },
+            {
+              "Caption": "वापस बुलाया गया MX725adve विशेष प्रिंटर"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "कंपनी को प्रिंटर के अधिक गर्म होने की दो रिपोर्ट मिली हैं, जिसमें एक रिपोर्ट की गई आग शामिल है। कोई नुकसान या चोट की सूचना नहीं मिली है।"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "lexmark.com, CDW लॉजिस्टिक्स, टेक डेटा प्रोडक्ट मैनेजमेंट इंक., और इनसाइट डायरेक्ट यूएसए इंक. पर जून 2018 से नवंबर 2024 तक उपलब्ध, कीमत $1,000 से $4,200 के बीच।"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "लेक्समार्क इंटरनेशनल इंक., लेक्सिंगटन, केंटकी"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "चीन"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "धातु के भाग के स्थानांतरण से आग का जोखिम"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "मुफ्त मरम्मत भाग उपलब्ध"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "मरम्मत"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "Принтеры Lexmark отозваны из-за риска возгорания",
+          "Description": "Компания Lexmark объявила об отзыве своих специализированных принтеров, в частности моделей MS725dvn и MX725adve. Эти принтеры, предназначенные для печати на различных материалах, включая бумагу и винил, могут представлять собой риск возгорания из-за возможного смещения металлического компонента внутри устройства. Номера моделей можно найти на верхней крышке и двери, при этом модель MX725dvn оснащена большим многофункциональным сортировщиком сверху. Принтеры можно узнать по их белому переднему и черному верхнему и боковым панелям, на которых ярко отображается логотип Lexmark.",
+          "ConsumerContact": "Потребителей призывают немедленно прекратить использование затронутых принтеров и обратиться в Lexmark по телефону 866-470-1574 с 9:00 до 21:00 по восточному времени с понедельника по пятницу. В качестве альтернативы они могут отправить электронное письмо на адрес safety@lexmark.com или посетить http://www.lexmark.com/recall для получения дополнительной информации.",
+          "metaDescription": "Lexmark отзывает принтеры MS725dvn и MX725adve из-за рисков возгорания. Свяжитесь с Lexmark для получения бесплатной запчасти для ремонта.",
+          "Products": [
+            {
+              "Name": "Специализированный принтер MS725dvn",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 43,510 (Кроме того, около 4,000 были проданы в Канаде)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванный специализированный принтер MS725dvn"
+            },
+            {
+              "Caption": "Отозванный специализированный принтер MX725adve"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Компания получила два сообщения о перегреве принтеров, включая одно сообщение о пожаре. Повреждений или травм не зафиксировано."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Доступно онлайн на lexmark.com, CDW Logistics, Tech Data Product Management Inc. и Insight Direct USA Inc. с июня 2018 года по ноябрь 2024 года, по цене от 1,000 до 4,200 долларов."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Lexmark International Inc., Лексингтон, Кентукки"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Продавалось в",
+          "ManufacturerCountries": [
+            {
+              "Country": "Китай"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Риск возгорания из-за смещенной металлической детали"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Доступна бесплатная запчасть для ремонта"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Ремонт"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "Máy in đặc biệt Lexmark bị thu hồi do nguy cơ cháy",
+          "Description": "Lexmark đã phát động thu hồi các máy in đặc biệt của mình, cụ thể là các mẫu MS725dvn và MX725adve. Những máy in này, được thiết kế để in trên nhiều loại vật liệu bao gồm giấy và vinyl, có thể gây ra nguy cơ cháy do khả năng bị rời ra của một thành phần kim loại bên trong thiết bị. Số mẫu có thể được tìm thấy trên nắp trên và cửa, với mẫu MX725dvn có một bộ phân loại đa chức năng lớn ở trên cùng. Các máy in có thể nhận diện được bởi mặt trước màu trắng và mặt trên cùng và hai bên màu đen, hiển thị rõ ràng logo Lexmark.",
+          "ConsumerContact": "Người tiêu dùng được khuyến cáo ngừng sử dụng ngay lập tức các máy in bị ảnh hưởng và liên hệ với Lexmark theo số 866-470-1574 từ 9 giờ sáng đến 9 giờ tối theo giờ ET, từ thứ Hai đến thứ Sáu. Ngoài ra, họ có thể gửi email đến safety@lexmark.com hoặc truy cập http://www.lexmark.com/recall để biết thêm chi tiết.",
+          "metaDescription": "Lexmark thu hồi các máy in MS725dvn và MX725adve do nguy cơ cháy. Liên hệ với Lexmark để nhận phần sửa chữa miễn phí.",
+          "Products": [
+            {
+              "Name": "Máy in đặc biệt MS725dvn",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 43,510 (Ngoài ra, khoảng 4,000 đã được bán tại Canada)"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Máy in đặc biệt MS725dvn bị thu hồi"
+            },
+            {
+              "Caption": "Máy in đặc biệt MX725adve bị thu hồi"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Công ty đã nhận được hai báo cáo về việc các máy in bị quá nhiệt, bao gồm một báo cáo về cháy. Không có thiệt hại hoặc thương tích nào được báo cáo."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Có sẵn trực tuyến tại lexmark.com, CDW Logistics, Tech Data Product Management Inc., và Insight Direct USA Inc. từ tháng 6 năm 2018 đến tháng 11 năm 2024, với giá từ 1,000 đến 4,200 đô la."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Lexmark International Inc., có trụ sở tại Lexington, Kentucky"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Bán Tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Trung Quốc"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Nguy cơ cháy do thành phần kim loại bị rời ra"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Phần sửa chữa miễn phí có sẵn"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Sửa chữa"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    },
+    {
+      "RecallID": 9972,
+      "RecallNumber": "24264",
+      "RecallDate": "2024-06-13T00:00:00",
+      "Description": "Bambu Lab is recalling its A1 3D printers due to potential electric shock and fire hazards. The affected units have a serial number where the sixth digit is \"A\", identifiable on the QR code sticker located at the back of the printer. These printers, designed for personal use, measure approximately 18 inches by 16 inches by 17 inches and feature the brand name and model on the x-axis motor cover.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/Bambu-Lab-Recalls-A1-3D-Printers-Due-to-Electric-Shock-and-Fire-Hazards",
+      "Title": "Bambu Lab A1 3D Printers Recalled for Electric Shock and Fire Risks",
+      "ConsumerContact": "For assistance, consumers can reach Bambu Lab via email at a1recall@bambulab.com or visit their website at https://bambulab.com/en-us/support/A1recall. Additional information is available by clicking on \"A1 Recall\" at the top of https://bambulab.com/en-us.",
+      "LastPublishDate": "2024-06-13T00:00:00",
+      "Products": [
+        {
+          "Name": "Bambu Lab A1 3D Printer",
+          "NumberOfUnits": "About 12,800"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "/images/generalRecalls/printers/2-Bambu-Lab-A1-3D-Printer/7ddf9d637ad4fe1cd25ece5b99386a7e.webp",
+          "Caption": "Recalled Bambu Lab A1 Printer",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/0BambuA1.png"
+        },
+        {
+          "URL": "/images/generalRecalls/printers/2-Bambu-Lab-A1-3D-Printer/b72b14a5471e90918c2f541d5d76ca0a.webp",
+          "Caption": "Bambu Lab and \"A1\" are located on the x-axis motor",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/1BambuA1x-axis.jpg"
+        },
+        {
+          "URL": "/images/generalRecalls/printers/2-Bambu-Lab-A1-3D-Printer/791b1d54bebcf6213ce10c297298e950.webp",
+          "Caption": "QR code sticker on the rear of recalled 3D printer has \"A\" in the sixth digit",
+          "SourceImageURL": "https://www.cpsc.gov/s3fs-public/3Bambucodesticker.jpg"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received a total of 19 reports of damaged cables, including one cable sparking. No injuries have been reported."
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Available at Micro Center stores nationwide and online at us.store.bambulab.com from December 2023 through January 2024, priced between $400 and $560."
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Bambu Lab USA Inc., of Austin, Texas"
+        }
+      ],
+      "SoldAtLabel": "Sold At",
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "Risk of electric shock and fire due to short-circuiting from damaged heatbed cables."
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Stop using the printer and contact Bambu Lab for a full refund or a free heatbed and cable replacement. A prepaid shipping label will be provided for returns."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        },
+        {
+          "Option": "Replace"
+        }
+      ],
+      "slug": "bambu-lab-a1-3d-printers-recalled-for-electric-shock-and-fire-risks-recall",
+      "metaDescription": "Bambu Lab recalls A1 3D printers over electric shock and fire hazards. Learn how to get a refund or replacement.",
+      "languages": {
+        "en": {
+          "Title": "Bambu Lab A1 3D Printers Recalled for Electric Shock and Fire Risks",
+          "Description": "Bambu Lab is recalling its A1 3D printers due to potential electric shock and fire hazards. The affected units have a serial number where the sixth digit is \"A\", identifiable on the QR code sticker located at the back of the printer. These printers, designed for personal use, measure approximately 18 inches by 16 inches by 17 inches and feature the brand name and model on the x-axis motor cover.",
+          "ConsumerContact": "For assistance, consumers can reach Bambu Lab via email at a1recall@bambulab.com or visit their website at https://bambulab.com/en-us/support/A1recall. Additional information is available by clicking on \"A1 Recall\" at the top of https://bambulab.com/en-us.",
+          "metaDescription": "Bambu Lab recalls A1 3D printers over electric shock and fire hazards. Learn how to get a refund or replacement.",
+          "Products": [
+            {
+              "Name": "Bambu Lab A1 3D Printer",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "About 12,800"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Recalled Bambu Lab A1 Printer"
+            },
+            {
+              "Caption": "Bambu Lab and \"A1\" are located on the x-axis motor"
+            },
+            {
+              "Caption": "QR code sticker on the rear of recalled 3D printer has \"A\" in the sixth digit"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "The firm has received a total of 19 reports of damaged cables, including one cable sparking. No injuries have been reported."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Available at Micro Center stores nationwide and online at us.store.bambulab.com from December 2023 through January 2024, priced between $400 and $560."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Bambu Lab USA Inc., of Austin, Texas"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Sold At",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risk of electric shock and fire due to short-circuiting from damaged heatbed cables."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Stop using the printer and contact Bambu Lab for a full refund or a free heatbed and cable replacement. A prepaid shipping label will be provided for returns."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Refund"
+            },
+            {
+              "Option": "Replace"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "en"
+        },
+        "es": {
+          "Title": "Impresoras 3D Bambu Lab A1 retiradas por riesgos de descarga eléctrica y fuego",
+          "Description": "Bambu Lab está retirando sus impresoras 3D A1 debido a posibles riesgos de descarga eléctrica y fuego. Las unidades afectadas tienen un número de serie donde el sexto dígito es \"A\", identificable en la etiqueta del código QR ubicada en la parte posterior de la impresora. Estas impresoras, diseñadas para uso personal, miden aproximadamente 18 pulgadas por 16 pulgadas por 17 pulgadas y presentan el nombre de la marca y el modelo en la cubierta del motor del eje X.",
+          "ConsumerContact": "Para asistencia, los consumidores pueden comunicarse con Bambu Lab por correo electrónico a a1recall@bambulab.com o visitar su sitio web en https://bambulab.com/en-us/support/A1recall. Información adicional está disponible haciendo clic en \"A1 Recall\" en la parte superior de https://bambulab.com/en-us.",
+          "metaDescription": "Bambu Lab retira impresoras 3D A1 por riesgos de descarga eléctrica y fuego. Aprenda cómo obtener un reembolso o un reemplazo.",
+          "Products": [
+            {
+              "Name": "Impresora 3D Bambu Lab A1",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Aproximadamente 12,800"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Impresora Bambu Lab A1 retirada"
+            },
+            {
+              "Caption": "Bambu Lab y \"A1\" están ubicados en el motor del eje X"
+            },
+            {
+              "Caption": "La etiqueta del código QR en la parte trasera de la impresora 3D retirada tiene \"A\" en el sexto dígito"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "La empresa ha recibido un total de 19 informes de cables dañados, incluyendo un cable que chisporrotea. No se han reportado lesiones."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible en tiendas Micro Center en todo el país y en línea en us.store.bambulab.com desde diciembre de 2023 hasta enero de 2024, con precios entre $400 y $560."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Bambu Lab USA Inc., de Austin, Texas"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendido En",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Riesgo de descarga eléctrica y fuego debido a cortocircuitos por cables dañados del calentador."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Deje de usar la impresora y comuníquese con Bambu Lab para obtener un reembolso completo o un reemplazo gratuito del calentador y el cable. Se proporcionará una etiqueta de envío prepagada para las devoluciones."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reembolso"
+            },
+            {
+              "Option": "Reemplazar"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "es"
+        },
+        "ar": {
+          "Title": "استدعاء طابعات Bambu Lab A1 ثلاثية الأبعاد بسبب مخاطر الصعق الكهربائي والحرائق",
+          "Description": "تقوم Bambu Lab باستدعاء طابعاتها ثلاثية الأبعاد A1 بسبب مخاطر الصعق الكهربائي والحرائق المحتملة. الوحدات المتأثرة تحمل رقم تسلسلي حيث الرقم السادس هو \"A\"، ويمكن التعرف عليها من خلال ملصق رمز الاستجابة السريعة الموجود في الجزء الخلفي من الطابعة. تم تصميم هذه الطابعات للاستخدام الشخصي، وتبلغ أبعادها حوالي 18 بوصة × 16 بوصة × 17 بوصة وتتميز باسم العلامة التجارية والطراز على غطاء محرك المحور السيني.",
+          "ConsumerContact": "للمساعدة، يمكن للمستهلكين التواصل مع Bambu Lab عبر البريد الإلكتروني على a1recall@bambulab.com أو زيارة موقعهم على الويب على https://bambulab.com/en-us/support/A1recall. تتوفر معلومات إضافية من خلال النقر على \"استدعاء A1\" في أعلى https://bambulab.com/en-us.",
+          "metaDescription": "تستدعي Bambu Lab طابعات A1 ثلاثية الأبعاد بسبب مخاطر الصعق الكهربائي والحرائق. تعرف على كيفية الحصول على استرداد أو استبدال.",
+          "Products": [
+            {
+              "Name": "طابعة Bambu Lab A1 ثلاثية الأبعاد",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "حوالي 12,800"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "طابعة Bambu Lab A1 المستدعاة"
+            },
+            {
+              "Caption": "Bambu Lab و \"A1\" موجودان على محرك المحور السيني"
+            },
+            {
+              "Caption": "ملصق رمز الاستجابة السريعة على الجزء الخلفي من الطابعة ثلاثية الأبعاد المستدعاة يحتوي على \"A\" في الرقم السادس"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "تلقت الشركة ما مجموعه 19 تقريرًا عن كابلات تالفة، بما في ذلك كابل واحد يتسبب في شرر. لم يتم الإبلاغ عن أي إصابات."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "متوفر في متاجر Micro Center في جميع أنحاء البلاد وعبر الإنترنت على us.store.bambulab.com من ديسمبر 2023 حتى يناير 2024، بسعر يتراوح بين 400 دولار و560 دولار."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Bambu Lab USA Inc.، أوستن، تكساس"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "تم البيع في",
+          "ManufacturerCountries": [
+            {
+              "Country": "الصين"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "خطر الصعق الكهربائي والحرائق بسبب الدائرة القصيرة الناتجة عن كابلات السخان التالفة."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "توقف عن استخدام الطابعة واتصل بـ Bambu Lab للحصول على استرداد كامل أو استبدال مجاني للسخان والكابل. سيتم توفير ملصق شحن مدفوع مسبقًا للإرجاع."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "استرداد"
+            },
+            {
+              "Option": "استبدال"
+            }
+          ],
+          "dir": "rtl",
+          "lang": "ar"
+        },
+        "zh": {
+          "Title": "Bambu Lab A1 3D 打印机因电击和火灾风险被召回",
+          "Description": "Bambu Lab 正在召回其 A1 3D 打印机，原因是潜在的电击和火灾危险。受影响的设备具有第六位数字为 \"A\" 的序列号，可以在打印机背面的二维码贴纸上找到。这些打印机设计用于个人使用，尺寸约为 18 英寸 x 16 英寸 x 17 英寸，并在 x 轴电机盖上标有品牌名称和型号。",
+          "ConsumerContact": "如需帮助，消费者可以通过电子邮件 a1recall@bambulab.com 联系 Bambu Lab，或访问他们的网站 https://bambulab.com/en-us/support/A1recall。有关更多信息，请点击 https://bambulab.com/en-us 顶部的 \"A1 召回\"。",
+          "metaDescription": "Bambu Lab 因电击和火灾危险召回 A1 3D 打印机。了解如何获得退款或更换。",
+          "Products": [
+            {
+              "Name": "Bambu Lab A1 3D 打印机",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "约 12,800 台"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "被召回的 Bambu Lab A1 打印机"
+            },
+            {
+              "Caption": "Bambu Lab 和 \"A1\" 位于 x 轴电机上"
+            },
+            {
+              "Caption": "被召回 3D 打印机后部的二维码贴纸第六位数字为 \"A\""
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "该公司已收到总共 19 起电缆损坏的报告，包括一根电缆冒火花。没有报告受伤情况。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "在全国的 Micro Center 商店和 us.store.bambulab.com 在线销售，销售时间为 2023 年 12 月至 2024 年 1 月，价格在 $400 到 $560 之间。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Bambu Lab USA Inc.，位于德克萨斯州奥斯丁"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "销售地点",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "由于热床电缆损坏导致短路的电击和火灾风险。"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "停止使用打印机并联系 Bambu Lab 以获得全额退款或免费更换热床和电缆。将提供预付费的退货运单。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "退款"
+            },
+            {
+              "Option": "更换"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "zh"
+        },
+        "fr": {
+          "Title": "Imprimantes 3D Bambu Lab A1 rappelées en raison de risques d'électrocution et d'incendie",
+          "Description": "Bambu Lab rappelle ses imprimantes 3D A1 en raison de risques potentiels d'électrocution et d'incendie. Les unités concernées ont un numéro de série où le sixième chiffre est \"A\", identifiable sur l'autocollant du code QR situé à l'arrière de l'imprimante. Ces imprimantes, conçues pour un usage personnel, mesurent environ 18 pouces par 16 pouces par 17 pouces et présentent le nom de la marque et le modèle sur le couvercle du moteur de l'axe x.",
+          "ConsumerContact": "Pour assistance, les consommateurs peuvent contacter Bambu Lab par e-mail à a1recall@bambulab.com ou visiter leur site web à https://bambulab.com/en-us/support/A1recall. Des informations supplémentaires sont disponibles en cliquant sur \"A1 Recall\" en haut de https://bambulab.com/en-us.",
+          "metaDescription": "Bambu Lab rappelle les imprimantes 3D A1 en raison de risques d'électrocution et d'incendie. Découvrez comment obtenir un remboursement ou un remplacement.",
+          "Products": [
+            {
+              "Name": "Imprimante 3D Bambu Lab A1",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Environ 12 800"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Imprimante Bambu Lab A1 rappelée"
+            },
+            {
+              "Caption": "Bambu Lab et \"A1\" sont situés sur le moteur de l'axe x"
+            },
+            {
+              "Caption": "L'autocollant du code QR à l'arrière de l'imprimante 3D rappelée a \"A\" comme sixième chiffre"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "L'entreprise a reçu un total de 19 rapports de câbles endommagés, y compris un câble qui étincelle. Aucune blessure n'a été signalée."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponible dans les magasins Micro Center à l'échelle nationale et en ligne sur us.store.bambulab.com de décembre 2023 à janvier 2024, au prix compris entre 400 $ et 560 $."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Bambu Lab USA Inc., d'Austin, Texas"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendu À",
+          "ManufacturerCountries": [
+            {
+              "Country": "Chine"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risque d'électrocution et d'incendie en raison de courts-circuits causés par des câbles de plateau chauffant endommagés."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Cessez d'utiliser l'imprimante et contactez Bambu Lab pour un remboursement complet ou un remplacement gratuit du plateau chauffant et des câbles. Une étiquette d'expédition prépayée sera fournie pour les retours."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Remboursement"
+            },
+            {
+              "Option": "Remplacer"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "fr"
+        },
+        "de": {
+          "Title": "Bambu Lab A1 3D-Drucker wegen elektrischer Schock- und Brandgefahr zurückgerufen",
+          "Description": "Bambu Lab ruft seine A1 3D-Drucker aufgrund möglicher elektrischer Schock- und Brandgefahren zurück. Die betroffenen Geräte haben eine Seriennummer, bei der die sechste Ziffer \"A\" ist, erkennbar auf dem QR-Code-Aufkleber auf der Rückseite des Druckers. Diese Drucker, die für den persönlichen Gebrauch konzipiert sind, messen etwa 45 cm x 40 cm x 43 cm und tragen den Markennamen und das Modell auf der Abdeckung des x-Achsen-Motors.",
+          "ConsumerContact": "Für Unterstützung können Verbraucher Bambu Lab per E-Mail unter a1recall@bambulab.com kontaktieren oder ihre Website unter https://bambulab.com/en-us/support/A1recall besuchen. Weitere Informationen sind verfügbar, indem Sie auf \"A1 Rückruf\" oben auf https://bambulab.com/en-us klicken.",
+          "metaDescription": "Bambu Lab ruft A1 3D-Drucker wegen elektrischer Schock- und Brandgefahren zurück. Erfahren Sie, wie Sie eine Rückerstattung oder einen Ersatz erhalten.",
+          "Products": [
+            {
+              "Name": "Bambu Lab A1 3D-Drucker",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Etwa 12.800"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Zurückgerufener Bambu Lab A1 Drucker"
+            },
+            {
+              "Caption": "Bambu Lab und \"A1\" befinden sich auf dem x-Achsen-Motor"
+            },
+            {
+              "Caption": "QR-Code-Aufkleber auf der Rückseite des zurückgerufenen 3D-Druckers hat \"A\" in der sechsten Ziffer"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Das Unternehmen hat insgesamt 19 Berichte über beschädigte Kabel erhalten, darunter ein Kabel, das Funken sprühte. Es wurden keine Verletzungen gemeldet."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Erhältlich in Micro Center-Filialen landesweit und online unter us.store.bambulab.com von Dezember 2023 bis Januar 2024, preislich zwischen 400 und 560 US-Dollar."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Bambu Lab USA Inc., aus Austin, Texas"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Verkauft bei",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risiko eines elektrischen Schocks und Brandgefahr aufgrund von Kurzschlüssen durch beschädigte Heizbettkabel."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Hören Sie auf, den Drucker zu verwenden, und kontaktieren Sie Bambu Lab für eine vollständige Rückerstattung oder einen kostenlosen Austausch des Heizbetts und der Kabel. Ein vorfrankiertes Rücksendeetikett wird für Rücksendungen bereitgestellt."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Rückerstattung"
+            },
+            {
+              "Option": "Ersatz"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "de"
+        },
+        "ja": {
+          "Title": "Bambu Lab A1 3Dプリンターが感電および火災のリスクでリコール",
+          "Description": "Bambu Labは、感電および火災の危険性があるため、A1 3Dプリンターをリコールしています。影響を受けるユニットは、シリアル番号の6桁目が「A」であることが識別でき、プリンターの背面にあるQRコードステッカーで確認できます。これらのプリンターは個人使用向けに設計されており、約18インチ×16インチ×17インチのサイズで、x軸モーターカバーにブランド名とモデルが表示されています。",
+          "ConsumerContact": "サポートが必要な場合、消費者はa1recall@bambulab.comにメールを送信するか、https://bambulab.com/en-us/support/A1recallのウェブサイトを訪問してBambu Labに連絡できます。追加情報は、https://bambulab.com/en-usの上部にある「A1リコール」をクリックすることで入手できます。",
+          "metaDescription": "Bambu Labは、感電および火災の危険性によりA1 3Dプリンターをリコールしています。返金または交換の方法を学びましょう。",
+          "Products": [
+            {
+              "Name": "Bambu Lab A1 3Dプリンター",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "約12,800台"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "リコールされたBambu Lab A1プリンター"
+            },
+            {
+              "Caption": "Bambu Labと「A1」はx軸モーターにあります"
+            },
+            {
+              "Caption": "リコールされた3Dプリンターの背面にあるQRコードステッカーの6桁目に「A」があります"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "同社は、損傷したケーブルの報告を合計19件受け取っており、その中には1件のケーブルがスパークしたという報告があります。怪我の報告はありません。"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "2023年12月から2024年1月まで、全国のMicro Center店舗およびus.store.bambulab.comで販売され、価格は400ドルから560ドルの間です。"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Bambu Lab USA Inc.（テキサス州オースティン）"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "販売場所",
+          "ManufacturerCountries": [
+            {
+              "Country": "中国"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "損傷したヒートベッドケーブルによる短絡のため、感電および火災のリスクがあります。"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "プリンターの使用を中止し、Bambu Labに連絡して全額返金または無料のヒートベッドとケーブルの交換を受けてください。返品用の prepaid shipping label が提供されます。"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "返金"
+            },
+            {
+              "Option": "交換"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ja"
+        },
+        "pt": {
+          "Title": "Impressoras 3D Bambu Lab A1 Recall devido a Riscos de Choque Elétrico e Incêndio",
+          "Description": "A Bambu Lab está recallando suas impressoras 3D A1 devido a potenciais riscos de choque elétrico e incêndio. As unidades afetadas têm um número de série onde o sexto dígito é \"A\", identificável no adesivo do código QR localizado na parte de trás da impressora. Essas impressoras, projetadas para uso pessoal, medem aproximadamente 18 polegadas por 16 polegadas por 17 polegadas e apresentam o nome da marca e o modelo na tampa do motor do eixo x.",
+          "ConsumerContact": "Para assistência, os consumidores podem entrar em contato com a Bambu Lab pelo e-mail a1recall@bambulab.com ou visitar seu site em https://bambulab.com/en-us/support/A1recall. Informações adicionais estão disponíveis clicando em \"A1 Recall\" no topo de https://bambulab.com/en-us.",
+          "metaDescription": "A Bambu Lab recall as impressoras 3D A1 devido a riscos de choque elétrico e incêndio. Aprenda como obter um reembolso ou substituição.",
+          "Products": [
+            {
+              "Name": "Impressora 3D Bambu Lab A1",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Cerca de 12.800"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Impressora Bambu Lab A1 Recall"
+            },
+            {
+              "Caption": "Bambu Lab e \"A1\" estão localizados no motor do eixo x"
+            },
+            {
+              "Caption": "O adesivo do código QR na parte traseira da impressora 3D recallada tem \"A\" no sexto dígito"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "A empresa recebeu um total de 19 relatos de cabos danificados, incluindo um cabo com faíscas. Nenhum ferimento foi relatado."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Disponível nas lojas Micro Center em todo o país e online em us.store.bambulab.com de dezembro de 2023 a janeiro de 2024, com preços entre $400 e $560."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Bambu Lab USA Inc., de Austin, Texas"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Vendido Em",
+          "ManufacturerCountries": [
+            {
+              "Country": "China"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Risco de choque elétrico e incêndio devido a curto-circuito de cabos danificados do aquecedor."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Pare de usar a impressora e entre em contato com a Bambu Lab para um reembolso total ou uma substituição gratuita do aquecedor e do cabo. Uma etiqueta de envio pré-paga será fornecida para devoluções."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Reembolso"
+            },
+            {
+              "Option": "Substituir"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "pt"
+        },
+        "hi": {
+          "Title": "Bambu Lab A1 3D प्रिंटरों की इलेक्ट्रिक शॉक और आग के जोखिमों के लिए वापसी",
+          "Description": "Bambu Lab अपने A1 3D प्रिंटरों को संभावित इलेक्ट्रिक शॉक और आग के खतरों के कारण वापस बुला रहा है। प्रभावित यूनिट्स का सीरियल नंबर ऐसा है जिसमें छठा अंक \"A\" है, जो प्रिंटर के पीछे स्थित QR कोड स्टिकर पर पहचाना जा सकता है। ये प्रिंटर, जो व्यक्तिगत उपयोग के लिए डिज़ाइन किए गए हैं, लगभग 18 इंच x 16 इंच x 17 इंच के माप के हैं और इनमें ब्रांड नाम और मॉडल x-एक्सिस मोटर कवर पर है।",
+          "ConsumerContact": "सहायता के लिए, उपभोक्ता Bambu Lab से a1recall@bambulab.com पर ईमेल के माध्यम से संपर्क कर सकते हैं या उनकी वेबसाइट https://bambulab.com/en-us/support/A1recall पर जा सकते हैं। अतिरिक्त जानकारी के लिए https://bambulab.com/en-us पर \"A1 Recall\" पर क्लिक करें।",
+          "metaDescription": "Bambu Lab A1 3D प्रिंटरों को इलेक्ट्रिक शॉक और आग के खतरों के कारण वापस बुलाता है। रिफंड या प्रतिस्थापन प्राप्त करने के तरीके के बारे में जानें।",
+          "Products": [
+            {
+              "Name": "Bambu Lab A1 3D प्रिंटर",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "लगभग 12,800"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "वापस बुलाया गया Bambu Lab A1 प्रिंटर"
+            },
+            {
+              "Caption": "Bambu Lab और \"A1\" x-एक्सिस मोटर पर स्थित हैं"
+            },
+            {
+              "Caption": "वापस बुलाए गए 3D प्रिंटर के पीछे QR कोड स्टिकर में छठे अंक में \"A\" है"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "कंपनी को क्षतिग्रस्त केबलों की कुल 19 रिपोर्ट मिली हैं, जिसमें एक केबल से चिंगारी निकलने की घटना शामिल है। कोई चोट की सूचना नहीं मिली है।"
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "दिसंबर 2023 से जनवरी 2024 तक देशभर में Micro Center स्टोर्स और ऑनलाइन us.store.bambulab.com पर उपलब्ध, कीमत $400 से $560 के बीच।"
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Bambu Lab USA Inc., ऑस्टिन, टेक्सास"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "बेचा गया",
+          "ManufacturerCountries": [
+            {
+              "Country": "चीन"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "क्षतिग्रस्त हीटबेड केबलों के कारण शॉर्ट-सर्किटिंग से इलेक्ट्रिक शॉक और आग का जोखिम।"
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "प्रिंटर का उपयोग करना बंद करें और पूर्ण रिफंड या मुफ्त हीटबेड और केबल प्रतिस्थापन के लिए Bambu Lab से संपर्क करें। रिटर्न के लिए एक प्रीपेड शिपिंग लेबल प्रदान किया जाएगा।"
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "रिफंड"
+            },
+            {
+              "Option": "प्रतिस्थापित करें"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "hi"
+        },
+        "ru": {
+          "Title": "3D-принтеры Bambu Lab A1 отозваны из-за риска электрического удара и пожара",
+          "Description": "Bambu Lab отзывает свои 3D-принтеры A1 из-за потенциальных рисков электрического удара и пожара. Затронутые устройства имеют серийный номер, в котором шестая цифра — \"A\", что можно определить по наклейке с QR-кодом, расположенной на задней панели принтера. Эти принтеры, предназначенные для личного использования, имеют размеры примерно 18 дюймов на 16 дюймов на 17 дюймов и имеют название бренда и модель на крышке мотора по оси X.",
+          "ConsumerContact": "Для получения помощи потребители могут связаться с Bambu Lab по электронной почте a1recall@bambulab.com или посетить их веб-сайт по адресу https://bambulab.com/en-us/support/A1recall. Дополнительная информация доступна, если нажать на \"A1 Recall\" в верхней части https://bambulab.com/en-us.",
+          "metaDescription": "Bambu Lab отзывает 3D-принтеры A1 из-за рисков электрического удара и пожара. Узнайте, как получить возврат или замену.",
+          "Products": [
+            {
+              "Name": "3D-принтер Bambu Lab A1",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Около 12,800"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Отозванный 3D-принтер Bambu Lab A1"
+            },
+            {
+              "Caption": "Bambu Lab и \"A1\" находятся на крышке мотора по оси X"
+            },
+            {
+              "Caption": "Наклейка с QR-кодом на задней панели отозванного 3D-принтера имеет \"A\" в шестой цифре"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Компания получила в общей сложности 19 сообщений о поврежденных кабелях, включая один кабель, искрящийся. О травмах не сообщалось."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Доступно в магазинах Micro Center по всей стране и онлайн на us.store.bambulab.com с декабря 2023 года по январь 2024 года, по цене от 400 до 560 долларов."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Bambu Lab USA Inc., Остин, Техас"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Продается в",
+          "ManufacturerCountries": [
+            {
+              "Country": "Китай"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Риск электрического удара и пожара из-за короткого замыкания от поврежденных кабелей подогрева."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Прекратите использование принтера и свяжитесь с Bambu Lab для получения полного возврата или бесплатной замены подогрева и кабеля. Предоставляется предоплаченная наклейка для возврата."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Возврат"
+            },
+            {
+              "Option": "Замена"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "ru"
+        },
+        "vi": {
+          "Title": "Máy in 3D Bambu Lab A1 bị thu hồi do nguy cơ điện giật và cháy nổ",
+          "Description": "Bambu Lab đang thu hồi các máy in 3D A1 của mình do nguy cơ điện giật và cháy nổ tiềm ẩn. Các đơn vị bị ảnh hưởng có số sê-ri mà chữ số thứ sáu là \"A\", có thể nhận diện trên nhãn mã QR nằm ở mặt sau của máy in. Những máy in này, được thiết kế cho mục đích sử dụng cá nhân, có kích thước khoảng 18 inch x 16 inch x 17 inch và có tên thương hiệu và mẫu mã trên nắp động cơ trục x.",
+          "ConsumerContact": "Để được hỗ trợ, người tiêu dùng có thể liên hệ với Bambu Lab qua email tại a1recall@bambulab.com hoặc truy cập trang web của họ tại https://bambulab.com/en-us/support/A1recall. Thông tin bổ sung có sẵn bằng cách nhấp vào \"A1 Recall\" ở đầu trang https://bambulab.com/en-us.",
+          "metaDescription": "Bambu Lab thu hồi máy in 3D A1 do nguy cơ điện giật và cháy nổ. Tìm hiểu cách nhận hoàn tiền hoặc thay thế.",
+          "Products": [
+            {
+              "Name": "Máy in 3D Bambu Lab A1",
+              "Model": "",
+              "Type": "",
+              "NumberOfUnits": "Khoảng 12.800"
+            }
+          ],
+          "Images": [
+            {
+              "Caption": "Máy in Bambu Lab A1 bị thu hồi"
+            },
+            {
+              "Caption": "Bambu Lab và \"A1\" nằm trên động cơ trục x"
+            },
+            {
+              "Caption": "Nhãn mã QR ở mặt sau của máy in 3D bị thu hồi có \"A\" ở chữ số thứ sáu"
+            }
+          ],
+          "Injuries": [
+            {
+              "Name": "Công ty đã nhận tổng cộng 19 báo cáo về cáp bị hỏng, bao gồm một cáp phát tia lửa. Không có thương tích nào được báo cáo."
+            }
+          ],
+          "Retailers": [
+            {
+              "Name": "Có sẵn tại các cửa hàng Micro Center trên toàn quốc và trực tuyến tại us.store.bambulab.com từ tháng 12 năm 2023 đến tháng 1 năm 2024, có giá từ 400 đến 560 đô la."
+            }
+          ],
+          "Importers": [
+            {
+              "Name": "Bambu Lab USA Inc., tại Austin, Texas"
+            }
+          ],
+          "Distributors": [],
+          "Manufacturers": [],
+          "SoldAtLabel": "Bán Tại",
+          "ManufacturerCountries": [
+            {
+              "Country": "Trung Quốc"
+            }
+          ],
+          "Hazards": [
+            {
+              "Name": "Nguy cơ điện giật và cháy nổ do ngắn mạch từ cáp nhiệt bị hỏng."
+            }
+          ],
+          "Remedies": [
+            {
+              "Name": "Ngừng sử dụng máy in và liên hệ với Bambu Lab để được hoàn tiền đầy đủ hoặc thay thế miễn phí cáp và bệ nhiệt. Một nhãn vận chuyển đã trả trước sẽ được cung cấp cho việc trả hàng."
+            }
+          ],
+          "RemedyOptions": [
+            {
+              "Option": "Hoàn tiền"
+            },
+            {
+              "Option": "Thay thế"
+            }
+          ],
+          "dir": "ltr",
+          "lang": "vi"
+        }
+      }
+    }
+  ]
+}
