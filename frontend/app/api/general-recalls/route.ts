@@ -30,7 +30,7 @@ export async function GET(request: NextRequest) {
     const q = (searchParams.get("q") || "").trim();
     const uiLang = parseGeneralRecallListLang(searchParams.get("lang"));
 
-    const all = loadGeneralRecallListIndex(uiLang);
+    const all = await loadGeneralRecallListIndex(uiLang);
     const filtered = q ? all.filter((it) => matchesQuery(it, q)) : all;
     const total = filtered.length;
     const totalPages = total > 0 ? Math.ceil(total / limit) : 1;

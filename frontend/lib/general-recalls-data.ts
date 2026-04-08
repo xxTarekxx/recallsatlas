@@ -1,11 +1,10 @@
-import fs from "fs";
-import path from "path";
 import type { GeneralRecallListItem } from "@/lib/generalRecallListTypes";
 import { isRtlUiLang, isSiteUiLang, type SiteUiLang } from "@/lib/siteLocale";
+import { getMongoDb } from "@/lib/mongo";
 
 export type { GeneralRecallListItem } from "@/lib/generalRecallListTypes";
 
-/** Translated CPSC “general” recall (from `openaiTranslating/translatedJson` or legacy `generalRecallsTranslated`). */
+/** Translated CPSC “general” recall. Loaded from Mongo `recallsatlas.general`. */
 export type GeneralRecallImage = {
   URL?: string;
   Caption?: string;
@@ -34,7 +33,7 @@ export type GeneralRecall = {
   Injuries?: { Name?: string }[];
   /** Per-UI-lang copy from OpenAI i18n (same shape as top-level fields; Images are usually caption-only). */
   languages?: Record<string, Record<string, unknown>>;
-  /** Set when loading from disk: `translatedJson` / source file basename without `.json`. */
+  /** Set when loading from mongo: category slug (one document per category). */
   sourceCategoryKey?: string;
   [key: string]: unknown;
 };
@@ -45,26 +44,10 @@ export type GeneralRecallFileMeta = {
 };
 
 export type GeneralRecallDoc = {
+  categorySlug?: string;
   meta?: GeneralRecallFileMeta;
   recalls: GeneralRecall[];
 };
-
-function translatedDirCandidates(): string[] {
-  const cwd = process.cwd();
-  return [
-    path.join(cwd, "backend", "scripts", "generalRecalls", "openaiTranslating", "translatedJson"),
-    path.join(cwd, "..", "backend", "scripts", "generalRecalls", "openaiTranslating", "translatedJson"),
-    path.join(cwd, "backend", "scripts", "generalRecalls", "generalRecallsTranslated"),
-    path.join(cwd, "..", "backend", "scripts", "generalRecalls", "generalRecallsTranslated"),
-  ];
-}
-
-export function getGeneralRecallsTranslatedDir(): string | null {
-  for (const p of translatedDirCandidates()) {
-    if (fs.existsSync(p)) return p;
-  }
-  return null;
-}
 
 /** Stable URL segment: prefer top-level `slug`, then legacy `seo.slug`. */
 export function getGeneralRecallSlug(recall: GeneralRecall): string | null {
@@ -152,31 +135,32 @@ export function parseGeneralRecallListLang(param: string | null | undefined): Si
   return "en";
 }
 
-function listTranslatedJsonFiles(dir: string): string[] {
-  return fs
-    .readdirSync(dir)
-    .filter((f) => f.endsWith(".json") && f !== "imageUrlMap.json")
-    .sort();
-}
-
-function jsonFileCategoryStem(fileName: string): string {
-  return path.basename(fileName, path.extname(fileName));
-}
-
 type GeneralRecallDedupeEntry = { recall: GeneralRecall; categoryKey: string };
 
-/** Merge rows across category files; `categoryKey` follows the winning row’s source file. */
-function buildGeneralRecallDedupeMap(dir: string): Map<string, GeneralRecallDedupeEntry> {
+async function loadGeneralRecallDocsFromMongo(): Promise<GeneralRecallDoc[]> {
+  const db = await getMongoDb();
+  const docs = await db
+    .collection("general")
+    .find(
+      {},
+      {
+        projection: {
+          categorySlug: 1,
+          meta: 1,
+          recalls: 1,
+          _id: 0,
+        },
+      }
+    )
+    .toArray();
+  return docs as GeneralRecallDoc[];
+}
+
+/** Merge rows across category documents; `categoryKey` follows the winning row’s source category. */
+function buildGeneralRecallDedupeMap(docs: GeneralRecallDoc[]): Map<string, GeneralRecallDedupeEntry> {
   const byDedupe = new Map<string, GeneralRecallDedupeEntry>();
-  for (const file of listTranslatedJsonFiles(dir)) {
-    const stem = jsonFileCategoryStem(file);
-    let doc: GeneralRecallDoc;
-    try {
-      const raw = fs.readFileSync(path.join(dir, file), "utf8");
-      doc = JSON.parse(raw) as GeneralRecallDoc;
-    } catch {
-      continue;
-    }
+  for (const doc of docs) {
+    const stem = typeof doc.categorySlug === "string" && doc.categorySlug.trim() ? doc.categorySlug : "general";
     for (const r of doc.recalls || []) {
       const key = getGeneralRecallDedupeKey(r);
       if (!key) continue;
@@ -193,29 +177,19 @@ function buildGeneralRecallDedupeMap(dir: string): Map<string, GeneralRecallDedu
   return byDedupe;
 }
 
-export function loadGeneralRecallBySlug(slug: string): GeneralRecall | null {
-  const dir = getGeneralRecallsTranslatedDir();
-  if (!dir) return null;
-  for (const file of listTranslatedJsonFiles(dir)) {
-    const stem = jsonFileCategoryStem(file);
-    const raw = fs.readFileSync(path.join(dir, file), "utf8");
-    let doc: GeneralRecallDoc;
-    try {
-      doc = JSON.parse(raw) as GeneralRecallDoc;
-    } catch {
-      continue;
-    }
+export async function loadGeneralRecallBySlug(slug: string): Promise<GeneralRecall | null> {
+  const docs = await loadGeneralRecallDocsFromMongo();
+  for (const doc of docs) {
+    const stem = typeof doc.categorySlug === "string" && doc.categorySlug.trim() ? doc.categorySlug : "general";
     for (const r of doc.recalls || []) {
-      if (getGeneralRecallSlug(r) === slug) {
-        return { ...r, sourceCategoryKey: stem };
-      }
+      if (getGeneralRecallSlug(r) === slug) return { ...r, sourceCategoryKey: stem };
     }
   }
   return null;
 }
 
-export function getAllGeneralRecallSlugs(): string[] {
-  const m = getGeneralRecallSlugDateMap();
+export async function getAllGeneralRecallSlugs(): Promise<string[]> {
+  const m = await getGeneralRecallSlugDateMap();
   const out: string[] = [];
   m.forEach((_date, slug) => {
     out.push(slug);
@@ -224,11 +198,10 @@ export function getAllGeneralRecallSlugs(): string[] {
 }
 
 /** Slug → lastModified for sitemap (one slug per CPSC recall; duplicate category files deduped). */
-export function getGeneralRecallSlugDateMap(): Map<string, Date> {
-  const dir = getGeneralRecallsTranslatedDir();
+export async function getGeneralRecallSlugDateMap(): Promise<Map<string, Date>> {
   const map = new Map<string, Date>();
-  if (!dir) return map;
-  const byDedupe = buildGeneralRecallDedupeMap(dir);
+  const docs = await loadGeneralRecallDocsFromMongo();
+  const byDedupe = buildGeneralRecallDedupeMap(docs);
   for (const { recall: r } of Array.from(byDedupe.values())) {
     const s = getGeneralRecallSlug(r);
     if (!s) continue;
@@ -290,17 +263,12 @@ function itemDateMs(item: GeneralRecallListItem): number {
  * then one canonical slug per recall (newest / most-translated row wins). Newest first.
  * Cached per process; restart the server to pick up JSON changes on disk.
  */
-export function loadGeneralRecallListIndex(lang: SiteUiLang = "en"): GeneralRecallListItem[] {
+export async function loadGeneralRecallListIndex(lang: SiteUiLang = "en"): Promise<GeneralRecallListItem[]> {
   if (!listIndexCache) listIndexCache = new Map();
   const cached = listIndexCache.get(lang);
   if (cached) return cached;
-
-  const dir = getGeneralRecallsTranslatedDir();
-  if (!dir) {
-    listIndexCache.set(lang, []);
-    return [];
-  }
-  const byDedupe = buildGeneralRecallDedupeMap(dir);
+  const docs = await loadGeneralRecallDocsFromMongo();
+  const byDedupe = buildGeneralRecallDedupeMap(docs);
 
   const items: GeneralRecallListItem[] = [];
   for (const { recall: r, categoryKey } of Array.from(byDedupe.values())) {

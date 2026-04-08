@@ -16,7 +16,7 @@ export async function generateMetadata({ params }: PageProps) {
     return { title: "Recall not found – Recalls Atlas" };
   }
   const decoded = decodeURIComponent(slug);
-  const recall = loadGeneralRecallBySlug(decoded);
+  const recall = await loadGeneralRecallBySlug(decoded);
   if (!recall || getGeneralRecallSlug(recall) !== decoded) {
     return { title: "Recall not found – Recalls Atlas" };
   }
@@ -28,7 +28,7 @@ export default async function GeneralRecallLangPage({ params }: PageProps) {
   if (!isSiteUiLang(lang)) notFound();
 
   const decoded = decodeURIComponent(slug);
-  const recall = loadGeneralRecallBySlug(decoded);
+  const recall = await loadGeneralRecallBySlug(decoded);
   if (!recall || getGeneralRecallSlug(recall) !== decoded) {
     notFound();
   }

@@ -222,7 +222,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     }
   }
 
-  const generalBySlug = getGeneralRecallSlugDateMap();
+  const generalBySlug = await getGeneralRecallSlugDateMap();
   const generalSlugs = sortedMapKeys(generalBySlug);
   for (const slug of generalSlugs) {
     const lastModified = generalBySlug.get(slug) ?? new Date();

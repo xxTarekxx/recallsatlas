@@ -30,7 +30,7 @@ export async function GET(request: NextRequest) {
       return NextResponse.json({ suggestions: [] });
     }
 
-    const all = loadGeneralRecallListIndex(uiLang);
+    const all = await loadGeneralRecallListIndex(uiLang);
     const suggestions: { slug: string; headline: string; productType: string }[] = [];
     for (const it of all) {
       if (!matchesQuery(it, q)) continue;

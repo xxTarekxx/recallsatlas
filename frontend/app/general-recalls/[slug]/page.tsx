@@ -11,7 +11,7 @@ interface PageProps {
 
 export async function generateMetadata({ params }: PageProps) {
   const { slug } = await params;
-  const recall = loadGeneralRecallBySlug(decodeURIComponent(slug));
+  const recall = await loadGeneralRecallBySlug(decodeURIComponent(slug));
   if (!recall || getGeneralRecallSlug(recall) !== decodeURIComponent(slug)) {
     return { title: "Recall not found – Recalls Atlas" };
   }
@@ -21,7 +21,7 @@ export async function generateMetadata({ params }: PageProps) {
 export default async function GeneralRecallPage({ params }: PageProps) {
   const { slug } = await params;
   const decoded = decodeURIComponent(slug);
-  const recall = loadGeneralRecallBySlug(decoded);
+  const recall = await loadGeneralRecallBySlug(decoded);
   if (!recall || getGeneralRecallSlug(recall) !== decoded) {
     notFound();
   }
