@@ -1,8 +1,11 @@
 #Requires -Version 5.1
 <#
-  Local: remove .next, npm run build.
+  Local: remove .next, npm run build, strip .next/**/*.map (faster scp; optional for prod debugging).
   Remote: remove .next, node_modules, next.config.mjs, package.json, package-lock.json;
          upload package.json, package-lock.json, next.config.mjs; npm install; upload .next.
+
+  Note: Sitemap URL count does not create static HTML pages; .next size is mostly build chunks.
+  Chunk names like node_modules_next_dist_* live inside .next (not your repo node_modules upload).
 
   Preferred: create deploy.env.ps1 (see deploy.env.ps1.example) with:
     $VPS_HOST = "user@host"
@@ -79,6 +82,10 @@ if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
 if (-not (Test-Path -LiteralPath ".next")) {
   throw "Build finished but .next folder is missing."
 }
+
+Write-Host "Removing .next/**/*.map to reduce upload size (server source maps not needed on VPS)..."
+Get-ChildItem -LiteralPath ".next" -Recurse -File -Filter "*.map" -ErrorAction SilentlyContinue |
+  Remove-Item -Force -ErrorAction SilentlyContinue
 if (-not (Test-Path -LiteralPath "next.config.mjs")) {
   throw "next.config.mjs not found in frontend folder."
 }

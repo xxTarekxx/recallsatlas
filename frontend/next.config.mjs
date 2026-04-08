@@ -22,6 +22,8 @@ if (isProd) {
 const nextConfig = {
   reactStrictMode: true,
   trailingSlash: false,
+  /** Smaller client bundles; server .maps may still exist (see deploy-next.ps1 strip step). */
+  productionBrowserSourceMaps: false,
   async headers() {
     return [
       {
