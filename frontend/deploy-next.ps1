@@ -108,7 +108,7 @@ Write-Host "Uploading next.config.mjs..."
 if ($LASTEXITCODE -ne 0) { throw "scp next.config.mjs failed (exit $LASTEXITCODE)" }
 
 Write-Host "npm install on server (omit devDependencies)..."
-& ssh @SshBase $SshTarget "cd '$RemotePath' && npm install --omit=dev"
+& ssh @SshBase $SshTarget "source ~/.nvm/nvm.sh && nvm use 20 && cd '$RemotePath' && npm install --omit=dev"
 if ($LASTEXITCODE -ne 0) { throw "ssh npm install failed (exit $LASTEXITCODE)" }
 
 Write-Host "Uploading .next (this may take a while)..."

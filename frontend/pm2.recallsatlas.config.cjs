@@ -9,6 +9,7 @@ module.exports = {
       cwd: "/var/www/html/recallsatlas",
       script: "npm",
       args: "start",
+      interpreter: "/root/.nvm/versions/node/v20.20.2/bin/node",
       env: {
         NODE_ENV: "production",
         PORT: "3001",
