@@ -5,7 +5,7 @@ import { useSearchParams } from "next/navigation";
 import { isRtlUiLang, type SiteUiLang } from "@/lib/siteLocale";
 import RecallCard from "./RecallCard";
 
-const PAGE_SIZE = 50;
+const PAGE_SIZE = 8;
 
 /** Build list of page numbers to show: 1, ..., current-1, current, current+1, ..., last */
 function getPageNumbers(current: number, total: number): (number | "ellipsis")[] {

@@ -7,7 +7,7 @@ export const dynamic = "force-dynamic";
 export const runtime = "nodejs";
 
 const DEFAULT_PAGE = 1;
-const DEFAULT_LIMIT = 6;
+const DEFAULT_LIMIT = 8;
 
 function matchesQuery(item: GeneralRecallListItem, q: string): boolean {
   const s = q.trim().toLowerCase();
@@ -26,7 +26,7 @@ export async function GET(request: NextRequest) {
   try {
     const { searchParams } = new URL(request.url);
     const page = Math.max(1, parseInt(searchParams.get("page") || String(DEFAULT_PAGE), 10) || 1);
-    const limit = Math.min(100, Math.max(1, parseInt(searchParams.get("limit") || String(DEFAULT_LIMIT), 10) || 50));
+    const limit = Math.min(100, Math.max(1, parseInt(searchParams.get("limit") || String(DEFAULT_LIMIT), 10) || DEFAULT_LIMIT));
     const q = (searchParams.get("q") || "").trim();
     const uiLang = parseGeneralRecallListLang(searchParams.get("lang"));
 
