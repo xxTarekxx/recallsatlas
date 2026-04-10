@@ -622,15 +622,23 @@
 /* Responsive — hide desktop nav on mobile */
 @media (max-width: 768px) {
   .sitenav-inner {
-    display: grid;
-    grid-template-columns: auto 1fr;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
     gap: 0.75rem;
   }
 
+  [dir="rtl"] .sitenav-inner {
+    direction: ltr;
+  }
+
   .sitenav-mobile-start {
     display: inline-flex;
-    justify-self: start;
+    align-items: center;
+    flex-direction: row-reverse;
+    order: 2;
+    flex-shrink: 0;
+    margin-left: auto;
   }
 
   .sitenav-brand-logo {
@@ -642,7 +650,14 @@
   }
   .site-brand-link {
     gap: 0.42rem;
-    justify-self: end;
+    order: 1;
+    flex: 1;
+    min-width: 0;
+    margin-right: auto;
+  }
+
+  .site-brand-wordmark {
+    white-space: nowrap;
   }
   .sitenav-links {
     display: none;
@@ -666,10 +681,22 @@
     display: none;
   }
 
+  .sitenav-lang-picker--mobile .sitenav-lang-trigger-inner {
+    gap: 0;
+  }
+
+  .sitenav-lang-picker--mobile .sitenav-lang-menu {
+    right: 0;
+    left: auto;
+    min-width: min(220px, calc(100vw - 16px));
+    max-width: calc(100vw - 16px);
+  }
+
   .sitenav-hamburger {
     display: flex;
     margin-left: 0;
   }
+
 }
 
 @media (min-width: 769px) {

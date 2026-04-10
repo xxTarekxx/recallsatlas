@@ -1046,3 +1046,56 @@
     padding: 1rem;
   }
 }
+
+@media (max-width: 767px) {
+  .recall-detail-main {
+    padding: 8px;
+  }
+
+  .recall-detail-hero,
+  .recall-detail-media,
+  .recall-detail-facts,
+  .recall-detail-content,
+  .recall-detail-sources {
+    padding: 8px;
+  }
+
+  .recall-detail-hero {
+    padding-top: 12px;
+  }
+
+  .recall-detail-facts-head {
+    gap: 8px;
+  }
+
+  .recall-detail-media {
+    overflow: hidden;
+  }
+
+  .recall-slider,
+  .recall-detail-placeholder,
+  .recall-detail-image,
+  .recall-image {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .recall-slider {
+    border-radius: 12px;
+  }
+
+  .recall-slider__viewport {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+  }
+
+  .recall-slider__img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .recall-detail-placeholder {
+    margin-inline: auto;
+  }
+}
