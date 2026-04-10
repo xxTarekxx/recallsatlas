@@ -1,9 +1,10 @@
 "use client";
 
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect, useCallback, useRef } from "react";
 import { useSearchParams } from "next/navigation";
 import { isRtlUiLang, type SiteUiLang } from "@/lib/siteLocale";
 import type { GeneralRecallListItem } from "@/lib/generalRecallListTypes";
+import type { GeneralRecallListPage } from "@/lib/general-recalls-data";
 import GeneralRecallCard from "./GeneralRecallCard";
 
 const PAGE_SIZE = 50;
@@ -22,16 +23,19 @@ function getPageNumbers(current: number, total: number): (number | "ellipsis")[]
 
 type Props = {
   uiLang?: SiteUiLang;
+  initialData?: GeneralRecallListPage;
 };
 
-export default function GeneralRecallsListClient({ uiLang = "en" }: Props) {
+export default function GeneralRecallsListClient({ uiLang = "en", initialData }: Props) {
   const searchParams = useSearchParams();
   const q = (searchParams.get("q") || "").trim();
-  const [items, setItems] = useState<GeneralRecallListItem[]>([]);
-  const [page, setPage] = useState(1);
-  const [totalPages, setTotalPages] = useState(1);
-  const [total, setTotal] = useState(0);
-  const [loading, setLoading] = useState(true);
+  const initialQuery = initialData?.q ?? "";
+  const skipInitialFetchRef = useRef(Boolean(initialData));
+  const [items, setItems] = useState<GeneralRecallListItem[]>(() => initialData?.items || []);
+  const [page, setPage] = useState(() => Math.max(1, initialData?.page ?? 1));
+  const [totalPages, setTotalPages] = useState(() => Math.max(1, initialData?.totalPages ?? 1));
+  const [total, setTotal] = useState(() => initialData?.total ?? 0);
+  const [loading, setLoading] = useState(() => !initialData);
   const [error, setError] = useState<string | null>(null);
 
   const fetchPage = useCallback(
@@ -64,8 +68,12 @@ export default function GeneralRecallsListClient({ uiLang = "en" }: Props) {
   );
 
   useEffect(() => {
+    if (skipInitialFetchRef.current && q === initialQuery) {
+      skipInitialFetchRef.current = false;
+      return;
+    }
     fetchPage(1);
-  }, [fetchPage]);
+  }, [fetchPage, initialQuery, q]);
 
   const goToPage = (nextPage: number) => {
     if (nextPage < 1 || nextPage > totalPages) return;

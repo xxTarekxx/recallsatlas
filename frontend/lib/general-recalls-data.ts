@@ -49,6 +49,16 @@ export type GeneralRecallDoc = {
   recalls: GeneralRecall[];
 };
 
+export type GeneralRecallListPage = {
+  items: GeneralRecallListItem[];
+  total: number;
+  totalPages: number;
+  page: number;
+  limit: number;
+  q: string;
+  lang: SiteUiLang;
+};
+
 function translatedDirCandidates(): string[] {
   const cwd = process.cwd();
   return [
@@ -285,6 +295,16 @@ function itemDateMs(item: GeneralRecallListItem): number {
   return Number.isNaN(d.getTime()) ? 0 : d.getTime();
 }
 
+export function matchesGeneralRecallQuery(item: GeneralRecallListItem, q: string): boolean {
+  const s = q.trim().toLowerCase();
+  if (!s) return true;
+  const hay = [item.slug, item.title, item.summary, item.productType, item.brand, item.recallNumber]
+    .join(" ")
+    .toLowerCase();
+  const words = s.split(/\s+/).filter(Boolean);
+  return words.every((w) => hay.includes(w));
+}
+
 /**
  * All general recalls for listing, deduped by CPSC identity (RecallNumber, else RecallID/URL/slug),
  * then one canonical slug per recall (newest / most-translated row wins). Newest first.
@@ -342,4 +362,36 @@ export function loadGeneralRecallListIndex(lang: SiteUiLang = "en"): GeneralReca
   const sorted = items.sort((a, b) => itemDateMs(b) - itemDateMs(a));
   listIndexCache.set(lang, sorted);
   return sorted;
+}
+
+export function getGeneralRecallListPage({
+  lang = "en",
+  q = "",
+  page = 1,
+  limit = 50,
+}: {
+  lang?: SiteUiLang;
+  q?: string;
+  page?: number;
+  limit?: number;
+}): GeneralRecallListPage {
+  const safePage = Math.max(1, Number.isFinite(page) ? page : 1);
+  const safeLimit = Math.min(100, Math.max(1, Number.isFinite(limit) ? limit : 50));
+  const safeQuery = q.trim();
+  const all = loadGeneralRecallListIndex(lang);
+  const filtered = safeQuery ? all.filter((it) => matchesGeneralRecallQuery(it, safeQuery)) : all;
+  const total = filtered.length;
+  const totalPages = total > 0 ? Math.ceil(total / safeLimit) : 1;
+  const start = (safePage - 1) * safeLimit;
+  const items = filtered.slice(start, start + safeLimit);
+
+  return {
+    items,
+    total,
+    totalPages,
+    page: safePage,
+    limit: safeLimit,
+    q: safeQuery,
+    lang,
+  };
 }

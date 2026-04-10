@@ -33,6 +33,16 @@ const nextConfig = {
   async redirects() {
     return [
       {
+        source: "/general-recall",
+        destination: "/general-recalls",
+        permanent: true,
+      },
+      {
+        source: "/:lang/general-recall",
+        destination: "/:lang/general-recalls",
+        permanent: true,
+      },
+      {
         source: "/recalls/vehicle/:campaignNumber/",
         destination: "/recalls/vehicle/:campaignNumber",
         permanent: true,
