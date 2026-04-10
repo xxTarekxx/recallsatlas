@@ -1,11 +1,12 @@
 "use client";
 
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect, useCallback, useRef } from "react";
 import { useSearchParams } from "next/navigation";
 import { isRtlUiLang, type SiteUiLang } from "@/lib/siteLocale";
+import type { RecallListItem, RecallListPage } from "@/lib/recalls-list-data";
 import RecallCard from "./RecallCard";
 
-const PAGE_SIZE = 50;
+const PAGE_SIZE = 8;
 
 /** Build list of page numbers to show: 1, ..., current-1, current, current+1, ..., last */
 function getPageNumbers(current: number, total: number): (number | "ellipsis")[] {
@@ -25,16 +26,24 @@ type Props = {
   uiLang?: SiteUiLang;
   /** From filter bar; empty string = all categories (no URL navigation). */
   activeCategory: string;
+  initialData?: RecallListPage;
 };
 
-export default function RecallsListClient({ uiLang = "en", activeCategory }: Props) {
+export default function RecallsListClient({
+  uiLang = "en",
+  activeCategory,
+  initialData,
+}: Props) {
   const searchParams = useSearchParams();
   const q = (searchParams.get("q") || "").trim();
-  const [recalls, setRecalls] = useState<any[]>([]);
-  const [page, setPage] = useState(1);
-  const [totalPages, setTotalPages] = useState(1);
-  const [total, setTotal] = useState(0);
-  const [loading, setLoading] = useState(true);
+  const initialQuery = initialData?.q ?? "";
+  const initialCategory = initialData?.category ?? null;
+  const skipInitialFetchRef = useRef(Boolean(initialData));
+  const [recalls, setRecalls] = useState<RecallListItem[]>(() => initialData?.recalls || []);
+  const [page, setPage] = useState(() => Math.max(1, initialData?.page ?? 1));
+  const [totalPages, setTotalPages] = useState(() => Math.max(1, initialData?.totalPages ?? 1));
+  const [total, setTotal] = useState(() => initialData?.total ?? 0);
+  const [loading, setLoading] = useState(() => !initialData);
   const [error, setError] = useState<string | null>(null);
 
   const fetchPage = useCallback(async (pageNum: number) => {
@@ -47,6 +56,7 @@ export default function RecallsListClient({ uiLang = "en", activeCategory }: Pro
       });
       if (q) params.set("q", q);
       if (activeCategory) params.set("category", activeCategory);
+      params.set("lang", uiLang);
       const res = await fetch(`/api/recalls?${params.toString()}`);
       if (!res.ok) throw new Error("Failed to load recalls");
       const data = await res.json();
@@ -61,11 +71,19 @@ export default function RecallsListClient({ uiLang = "en", activeCategory }: Pro
     } finally {
       setLoading(false);
     }
-  }, [q, activeCategory]);
+  }, [q, activeCategory, uiLang]);
 
   useEffect(() => {
+    if (
+      skipInitialFetchRef.current &&
+      q === initialQuery &&
+      (activeCategory || "") === (initialCategory || "")
+    ) {
+      skipInitialFetchRef.current = false;
+      return;
+    }
     fetchPage(1);
-  }, [fetchPage]);
+  }, [activeCategory, fetchPage, initialCategory, initialQuery, q]);
 
   const goToPage = (nextPage: number) => {
     if (nextPage < 1 || nextPage > totalPages) return;

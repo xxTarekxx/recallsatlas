@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import SearchSuggest from "@/components/recallcommon/SearchSuggest";
 import RecallsListClient from "@/components/fda/RecallsListClient";
+import type { RecallListPage } from "@/lib/recalls-list-data";
 import { NAV_COPY } from "@/lib/navCopy";
 import {
   FILTER_BAR_CATEGORY_SLUGS,
@@ -21,6 +22,7 @@ type Props = {
   lang: SiteUiLang;
   initialCategory?: string;
   initialQuery?: string;
+  initialData?: RecallListPage;
 };
 
 function normalizeCategory(raw: string | undefined): string {
@@ -35,6 +37,7 @@ export default function RecallsFilterAndGridClient({
   lang,
   initialCategory,
   initialQuery,
+  initialData,
 }: Props) {
   const [category, setCategory] = useState(() => normalizeCategory(initialCategory));
 
@@ -104,7 +107,7 @@ export default function RecallsFilterAndGridClient({
           {fb.year}
         </Link>
       </section>
-      <RecallsListClient uiLang={lang} activeCategory={category} />
+      <RecallsListClient uiLang={lang} activeCategory={category} initialData={initialData} />
     </>
   );
 }

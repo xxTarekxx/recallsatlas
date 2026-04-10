@@ -16,6 +16,12 @@ type Props = {
 export default function GeneralRecallDetail({ recall, lang }: Props) {
   const r = mergeGeneralRecallForUiLang(recall, lang);
   const contentDir = getGeneralRecallContentDir(recall, lang);
+  const categoryKey =
+    (typeof recall.sourceCategoryKey === "string" && recall.sourceCategoryKey.trim()) ||
+    (typeof recall.primaryCategorySlug === "string" && recall.primaryCategorySlug.trim()) ||
+    (Array.isArray(recall.categorySlugs)
+      ? recall.categorySlugs.find((value) => typeof value === "string" && value.trim()) || ""
+      : "");
   const sec = GENERAL_RECALL_DETAIL_SECTIONS_UI[lang] ?? GENERAL_RECALL_DETAIL_SECTIONS_UI.en;
   const title = r.Title || "Product recall";
   const cpscUrl = typeof recall.URL === "string" ? recall.URL : "";
@@ -36,9 +42,9 @@ export default function GeneralRecallDetail({ recall, lang }: Props) {
           <div className="recall-detail-hero">
             <div className="recall-detail-hero-badges">
               <span className="recall-detail-badge">CPSC product recall</span>
-              {recall.sourceCategoryKey ? (
+              {categoryKey ? (
                 <GeneralRecallCategoryTag
-                  categoryKey={recall.sourceCategoryKey}
+                  categoryKey={categoryKey}
                   className="recall-detail-category-tag"
                 />
               ) : null}

@@ -1,4 +1,5 @@
 import GeneralRecallsSearchPage from "@/components/general-recalls/GeneralRecallsSearchPage";
+import { getGeneralRecallListPage } from "@/lib/general-recalls-data";
 import { HOME_COPY } from "@/lib/homeCopy";
 import type { Metadata } from "next";
 
@@ -16,7 +17,11 @@ export default function GeneralRecallsIndexRoute({
 }: {
   searchParams: { q?: string };
 }) {
+  const initialData = getGeneralRecallListPage({
+    lang: "en",
+    q: searchParams?.q || "",
+  });
   return (
-    <GeneralRecallsSearchPage lang="en" initialQuery={searchParams?.q} />
+    <GeneralRecallsSearchPage lang="en" initialQuery={searchParams?.q} initialData={initialData} />
   );
 }

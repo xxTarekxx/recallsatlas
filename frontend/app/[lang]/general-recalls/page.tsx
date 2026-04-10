@@ -1,4 +1,5 @@
 import GeneralRecallsSearchPage from "@/components/general-recalls/GeneralRecallsSearchPage";
+import { getGeneralRecallListPage } from "@/lib/general-recalls-data";
 import { HOME_COPY } from "@/lib/homeCopy";
 import { isSiteUiLang, type SiteUiLang } from "@/lib/siteLocale";
 import type { Metadata } from "next";
@@ -30,10 +31,16 @@ export default function LangGeneralRecallsIndexPage({
   searchParams: { q?: string };
 }) {
   if (!isSiteUiLang(params.lang) || params.lang === "en") notFound();
+  const lang = params.lang as SiteUiLang;
+  const initialData = getGeneralRecallListPage({
+    lang,
+    q: searchParams?.q || "",
+  });
   return (
     <GeneralRecallsSearchPage
-      lang={params.lang as SiteUiLang}
+      lang={lang}
       initialQuery={searchParams?.q}
+      initialData={initialData}
     />
   );
 }

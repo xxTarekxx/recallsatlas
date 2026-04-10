@@ -34,3 +34,7 @@ id_ed25519
 
 # Cursor/IDE local state
 .cursor/
+
+# Generated general-recall flatten snapshots
+backend/database/generalRecalls/
+
