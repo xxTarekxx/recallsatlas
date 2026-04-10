@@ -132,6 +132,22 @@ export default function SiteNav() {
       </a>
 
       <div className="sitenav-inner">
+        <div className="sitenav-mobile-start">
+          <button
+            className={`sitenav-hamburger${menuVisualOpen ? " sitenav-hamburger--open" : ""}`}
+            aria-expanded={menuVisualOpen}
+            aria-controls="sitenav-mobile-menu"
+            aria-label={menuVisualOpen ? "Close navigation menu" : "Open navigation menu"}
+            onClick={toggleHamburger}
+            type="button"
+          >
+            <span className="sitenav-hamburger-bar" />
+            <span className="sitenav-hamburger-bar" />
+            <span className="sitenav-hamburger-bar" />
+          </button>
+          <NavLanguageSelect className="sitenav-lang-picker--mobile" />
+        </div>
+
         <SiteBrandLogoLink href={homeHref} />
 
         <nav className="sitenav-links" aria-label="Main navigation">
@@ -155,19 +171,6 @@ export default function SiteNav() {
         <div className="sitenav-tools">
           <NavLanguageSelect />
         </div>
-
-        <button
-          className={`sitenav-hamburger${menuVisualOpen ? " sitenav-hamburger--open" : ""}`}
-          aria-expanded={menuVisualOpen}
-          aria-controls="sitenav-mobile-menu"
-          aria-label={menuVisualOpen ? "Close navigation menu" : "Open navigation menu"}
-          onClick={toggleHamburger}
-          type="button"
-        >
-          <span className="sitenav-hamburger-bar" />
-          <span className="sitenav-hamburger-bar" />
-          <span className="sitenav-hamburger-bar" />
-        </button>
       </div>
 
       {mobileMenu !== "closed" && (

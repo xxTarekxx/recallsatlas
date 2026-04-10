@@ -26,6 +26,7 @@ require("dotenv").config({
 const { getDb, close, DB_NAME, COLLECTION_RECALLS } = require("../database/mongodb");
 
 const JSON_PATH = path.join(__dirname, "recalls.json");
+const VALID_BROWSE_CATEGORIES = ["drugs", "food", "medical-devices", "supplements"];
 
 /** Match scrapeRecalls.js / site — used only when JSON omits canonicalUrl. */
 const SITE_BASE_URL = (process.env.SITE_BASE_URL || "https://recallsatlas.com").replace(
@@ -50,7 +51,7 @@ const SYNC_KEYS = [
   "title", "headline", "description", "keywords", "canonicalUrl", "sortOrder",
   // Product / company
   "productDescription", "brandName", "brandNames", "companyName",
-  "productType", "regulatedProducts", "reason",
+  "productType", "browseCategory", "regulatedProducts", "reason",
   // Dates
   "report_date", "datePublished", "dateModified",
   "fdaPublishDate", "fdaPublishDateTime",
@@ -95,6 +96,28 @@ function dateToReportDate(dateStr) {
   return m ? `${m[1]}${m[2]}${m[3]}` : "";
 }
 
+function inferBrowseCategory(productType) {
+  const value = String(productType || "").trim().toLowerCase();
+  if (!value) return "";
+  if (/\bdietary supplements\b/.test(value)) return "supplements";
+  if (/\bmedical devices\b/.test(value)) return "medical-devices";
+  if (/\bdrugs\b/.test(value)) return "drugs";
+  if (
+    /food\s*&\s*beverages/.test(value) ||
+    /\bfoodborne\b/.test(value) ||
+    /\bpet food\b/.test(value)
+  ) {
+    return "food";
+  }
+  return "";
+}
+
+async function ensureIndexByName(coll, name, key, options = {}) {
+  const existing = await coll.indexExists(name);
+  if (existing) return;
+  await coll.createIndex(key, { name, ...options });
+}
+
 /**
  * Map one article from recalls.json to a MongoDB document.
  * Field names match the JSON exactly — no renaming.
@@ -131,6 +154,7 @@ function articleToMongoDoc(article) {
     brandNames: article.brandNames || [],
     companyName: article.companyName || "",
     productType: article.productType || "",
+    browseCategory: inferBrowseCategory(article.productType),
     regulatedProducts: article.regulatedProducts || [],
     reason: article.reason || "",
 
@@ -195,6 +219,15 @@ async function run() {
   const coll = db.collection(COLLECTION_RECALLS);
   console.log("Target :", DB_NAME + "." + COLLECTION_RECALLS);
   console.log("MongoDB:", getMongoConnectionInfo(process.env.MONGODB_URI));
+
+  await ensureIndexByName(coll, "slug_unique", { slug: 1 }, { unique: true });
+  await ensureIndexByName(
+    coll,
+    "browseCategory_report_date_desc",
+    { browseCategory: 1, report_date: -1 },
+    { partialFilterExpression: { browseCategory: { $in: VALID_BROWSE_CATEGORIES } } }
+  );
+  await ensureIndexByName(coll, "report_date_desc", { report_date: -1 });
 
   // Build local doc list
   const localDocs = [];

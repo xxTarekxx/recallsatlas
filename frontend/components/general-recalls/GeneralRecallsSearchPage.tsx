@@ -1,6 +1,7 @@
 import { Suspense } from "react";
 import SearchSuggest from "@/components/recallcommon/SearchSuggest";
 import SiteBrandLogoLink from "@/components/SiteBrandLogoLink";
+import type { GeneralRecallListPage } from "@/lib/general-recalls-data";
 import { GENERAL_RECALLS_SEARCH_UI } from "@/lib/generalRecallsSearchUi";
 import { HOME_COPY } from "@/lib/homeCopy";
 import {
@@ -14,9 +15,10 @@ import GeneralRecallsListClient from "./GeneralRecallsListClient";
 type Props = {
   lang: SiteUiLang;
   initialQuery?: string;
+  initialData?: GeneralRecallListPage;
 };
 
-export default function GeneralRecallsSearchPage({ lang, initialQuery }: Props) {
+export default function GeneralRecallsSearchPage({ lang, initialQuery, initialData }: Props) {
   const t = HOME_COPY[lang];
   const sui = GENERAL_RECALLS_SEARCH_UI[lang];
   const homeHref = withLangPath("/", lang);
@@ -55,7 +57,7 @@ export default function GeneralRecallsSearchPage({ lang, initialQuery }: Props) 
         </section>
 
         <Suspense fallback={<p className="placeholder-note">{sui.loadingList}</p>}>
-          <GeneralRecallsListClient uiLang={lang} />
+          <GeneralRecallsListClient uiLang={lang} initialData={initialData} />
         </Suspense>
       </main>
     </div>
