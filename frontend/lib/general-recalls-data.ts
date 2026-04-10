@@ -36,6 +36,9 @@ export type GeneralRecall = {
   languages?: Record<string, Record<string, unknown>>;
   /** Set when loading from disk: `translatedJson` / source file basename without `.json`. */
   sourceCategoryKey?: string;
+  primaryCategorySlug?: string;
+  categorySlugs?: string[];
+  categorySources?: { slug?: string; fileName?: string; recallCount?: number }[];
   [key: string]: unknown;
 };
 
@@ -48,6 +51,8 @@ export type GeneralRecallDoc = {
   meta?: GeneralRecallFileMeta;
   recalls: GeneralRecall[];
 };
+
+type FlattenedGeneralRecallDoc = GeneralRecall[];
 
 export type GeneralRecallListPage = {
   items: GeneralRecallListItem[];
@@ -69,11 +74,39 @@ function translatedDirCandidates(): string[] {
   ];
 }
 
+function flattenedFileCandidates(): string[] {
+  const cwd = process.cwd();
+  return [
+    path.join(cwd, "backend", "database", "generalRecalls", "general_recalls.flattened.json"),
+    path.join(cwd, "..", "backend", "database", "generalRecalls", "general_recalls.flattened.json"),
+  ];
+}
+
+function getGeneralRecallsFlattenedFile(): string | null {
+  for (const p of flattenedFileCandidates()) {
+    if (fs.existsSync(p)) return p;
+  }
+  return null;
+}
+
 export function getGeneralRecallsTranslatedDir(): string | null {
   for (const p of translatedDirCandidates()) {
     if (fs.existsSync(p)) return p;
   }
   return null;
+}
+
+function getGeneralRecallCategoryKey(recall: GeneralRecall): string {
+  const source =
+    typeof recall.sourceCategoryKey === "string" ? recall.sourceCategoryKey.trim() : "";
+  if (source) return source;
+  const primary =
+    typeof recall.primaryCategorySlug === "string" ? recall.primaryCategorySlug.trim() : "";
+  if (primary) return primary;
+  const firstCategory = Array.isArray(recall.categorySlugs)
+    ? recall.categorySlugs.find((value) => typeof value === "string" && value.trim())
+    : "";
+  return typeof firstCategory === "string" ? firstCategory.trim() : "";
 }
 
 /** Stable URL segment: prefer top-level `slug`, then legacy `seo.slug`. */
@@ -173,6 +206,26 @@ function jsonFileCategoryStem(fileName: string): string {
   return path.basename(fileName, path.extname(fileName));
 }
 
+let flattenedGeneralRecallCache: GeneralRecall[] | null = null;
+
+function loadFlattenedGeneralRecalls(): GeneralRecall[] | null {
+  if (flattenedGeneralRecallCache) return flattenedGeneralRecallCache;
+  const filePath = getGeneralRecallsFlattenedFile();
+  if (!filePath) return null;
+  try {
+    const raw = fs.readFileSync(filePath, "utf8");
+    const parsed = JSON.parse(raw) as FlattenedGeneralRecallDoc;
+    if (!Array.isArray(parsed)) return null;
+    flattenedGeneralRecallCache = parsed.map((recall) => ({
+      ...recall,
+      sourceCategoryKey: getGeneralRecallCategoryKey(recall),
+    }));
+    return flattenedGeneralRecallCache;
+  } catch {
+    return null;
+  }
+}
+
 type GeneralRecallDedupeEntry = { recall: GeneralRecall; categoryKey: string };
 
 /** Merge rows across category files; `categoryKey` follows the winning row’s source file. */
@@ -204,6 +257,12 @@ function buildGeneralRecallDedupeMap(dir: string): Map<string, GeneralRecallDedu
 }
 
 export function loadGeneralRecallBySlug(slug: string): GeneralRecall | null {
+  const flattened = loadFlattenedGeneralRecalls();
+  if (flattened) {
+    const found = flattened.find((recall) => getGeneralRecallSlug(recall) === slug);
+    return found ?? null;
+  }
+
   const dir = getGeneralRecallsTranslatedDir();
   if (!dir) return null;
   for (const file of listTranslatedJsonFiles(dir)) {
@@ -235,8 +294,19 @@ export function getAllGeneralRecallSlugs(): string[] {
 
 /** Slug → lastModified for sitemap (one slug per CPSC recall; duplicate category files deduped). */
 export function getGeneralRecallSlugDateMap(): Map<string, Date> {
-  const dir = getGeneralRecallsTranslatedDir();
   const map = new Map<string, Date>();
+  const flattened = loadFlattenedGeneralRecalls();
+  if (flattened) {
+    for (const recall of flattened) {
+      const slug = getGeneralRecallSlug(recall);
+      if (!slug) continue;
+      const lm = getGeneralRecallLastModified(recall);
+      const prev = map.get(slug);
+      if (!prev || lm.getTime() > prev.getTime()) map.set(slug, lm);
+    }
+    return map;
+  }
+  const dir = getGeneralRecallsTranslatedDir();
   if (!dir) return map;
   const byDedupe = buildGeneralRecallDedupeMap(dir);
   for (const { recall: r } of Array.from(byDedupe.values())) {
@@ -288,6 +358,7 @@ let listIndexCache: Map<string, GeneralRecallListItem[]> | null = null;
 /** Clears in-memory list cache (e.g. after tests). */
 export function clearGeneralRecallListIndexCache(): void {
   listIndexCache = null;
+  flattenedGeneralRecallCache = null;
 }
 
 function itemDateMs(item: GeneralRecallListItem): number {
@@ -314,6 +385,52 @@ export function loadGeneralRecallListIndex(lang: SiteUiLang = "en"): GeneralReca
   if (!listIndexCache) listIndexCache = new Map();
   const cached = listIndexCache.get(lang);
   if (cached) return cached;
+
+  const flattened = loadFlattenedGeneralRecalls();
+  if (flattened) {
+    const items: GeneralRecallListItem[] = [];
+    for (const recall of flattened) {
+      const slug = getGeneralRecallSlug(recall);
+      if (!slug) continue;
+
+      const m = mergeGeneralRecallForUiLang(recall, lang);
+      const titleRaw =
+        typeof m.Title === "string" && m.Title.trim() ? m.Title.trim() : slug.replace(/-/g, " ");
+      const desc = typeof m.Description === "string" ? stripHtml(m.Description) : "";
+      const summary = desc.length > 280 ? `${desc.slice(0, 280).trim()}â€¦` : desc;
+
+      const productType =
+        (typeof m.Products?.[0]?.Type === "string" && m.Products[0].Type.trim()) ||
+        (typeof m.Hazards?.[0]?.Name === "string" && m.Hazards[0].Name.trim()) ||
+        "";
+      const brand =
+        (typeof m.Products?.[0]?.Name === "string" && m.Products[0].Name.trim()) || "";
+      const img0 = recall.Images?.[0]?.URL;
+      const imageUrl = typeof img0 === "string" && img0.trim() ? img0.trim() : null;
+      const rd =
+        (typeof recall.RecallDate === "string" && recall.RecallDate.trim()) ||
+        (typeof recall.lastTranslatedAt === "string" && recall.lastTranslatedAt.trim()) ||
+        "";
+      const recallNumber =
+        typeof recall.RecallNumber === "string" ? recall.RecallNumber.trim() : "";
+
+      items.push({
+        slug,
+        title: titleRaw,
+        recallDate: rd,
+        summary,
+        productType,
+        brand,
+        imageUrl,
+        recallNumber,
+        categoryKey: getGeneralRecallCategoryKey(recall),
+      });
+    }
+
+    const sorted = items.sort((a, b) => itemDateMs(b) - itemDateMs(a));
+    listIndexCache.set(lang, sorted);
+    return sorted;
+  }
 
   const dir = getGeneralRecallsTranslatedDir();
   if (!dir) {
