@@ -885,3 +885,164 @@
 .recall-content-html p {
   margin: 0.5rem 0 1rem;
 }
+
+/* List card redesign overrides */
+.recall-card-body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 0.35rem;
+  min-width: 0;
+  padding: 1.15rem 1.1rem 1.1rem;
+}
+
+.recall-card-brand {
+  font-size: 0.9rem;
+  color: #475569;
+  margin: 0;
+  font-weight: 600;
+}
+
+.recall-card-summary {
+  line-height: 1.55;
+  color: #334155;
+  margin: 0.15rem 0 0;
+}
+
+.recall-card-date {
+  color: #64748b;
+  margin: auto 0 0;
+  padding-top: 0.85rem;
+  border-top: 1px solid rgba(226, 232, 240, 0.9);
+}
+
+.recall-card-image-wrapper {
+  position: relative;
+  aspect-ratio: 16/10;
+  background:
+    radial-gradient(circle at top left, rgba(96, 165, 250, 0.22), transparent 42%),
+    linear-gradient(135deg, #dbeafe 0%, #eff6ff 48%, #f8fafc 100%);
+  overflow: hidden;
+  border-bottom: 1px solid rgba(226, 232, 240, 0.9);
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+.recall-card-image-wrapper--fallback {
+  background:
+    radial-gradient(circle at top left, rgba(59, 130, 246, 0.18), transparent 38%),
+    radial-gradient(circle at bottom right, rgba(15, 34, 64, 0.18), transparent 45%),
+    linear-gradient(135deg, #f8fbff 0%, #edf4ff 55%, #e2ecfb 100%);
+}
+
+.recall-card-image-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(15, 23, 42, 0.08), rgba(15, 23, 42, 0.5));
+  z-index: 1;
+}
+
+.recall-card-media-copy {
+  position: absolute;
+  inset-inline: 1rem;
+  bottom: 0.95rem;
+  z-index: 2;
+  color: #fff;
+}
+
+.recall-card-media-kicker {
+  display: inline-flex;
+  max-width: 100%;
+  padding: 0.22rem 0.55rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.18);
+  border: 1px solid rgba(255, 255, 255, 0.32);
+  backdrop-filter: blur(4px);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.recall-card-media-title {
+  margin-top: 0.55rem;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.25;
+  text-shadow: 0 1px 12px rgba(15, 23, 42, 0.35);
+}
+
+.recall-card-image-placeholder,
+.recall-card-image.placeholder-image,
+.placeholder-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.7rem;
+  width: 100%;
+  height: 100%;
+  min-height: 160px;
+  color: #244168;
+  font-size: 0.875rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+.recall-card-image-placeholder-mark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 4.25rem;
+  height: 4.25rem;
+  border-radius: 1.15rem;
+  background: rgba(15, 34, 64, 0.08);
+  border: 1px solid rgba(15, 34, 64, 0.1);
+  color: #0f2240;
+  font-size: 1.35rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.35);
+}
+
+.recall-card-image-placeholder-label {
+  display: inline-flex;
+  align-items: center;
+  max-width: min(90%, 16rem);
+  padding: 0.4rem 0.8rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.72);
+  border: 1px solid rgba(148, 163, 184, 0.28);
+  color: #334155;
+  font-size: 0.72rem;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.recall-card-type {
+  display: inline-flex;
+  align-items: center;
+  align-self: flex-start;
+  max-width: 100%;
+  padding: 0.26rem 0.62rem;
+  border-radius: 999px;
+  background: #eef4ff;
+  color: #1e3a8a;
+  border: 1px solid #c7dbff;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@media (max-width: 767px) {
+  .recall-card-body {
+    padding: 1rem;
+  }
+}

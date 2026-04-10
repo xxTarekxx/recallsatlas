@@ -485,7 +485,7 @@ export function getGeneralRecallListPage({
   lang = "en",
   q = "",
   page = 1,
-  limit = 50,
+  limit = 8,
 }: {
   lang?: SiteUiLang;
   q?: string;
@@ -493,7 +493,7 @@ export function getGeneralRecallListPage({
   limit?: number;
 }): GeneralRecallListPage {
   const safePage = Math.max(1, Number.isFinite(page) ? page : 1);
-  const safeLimit = Math.min(100, Math.max(1, Number.isFinite(limit) ? limit : 50));
+  const safeLimit = Math.min(100, Math.max(1, Number.isFinite(limit) ? limit : 8));
   const safeQuery = q.trim();
   const all = loadGeneralRecallListIndex(lang);
   const filtered = safeQuery ? all.filter((it) => matchesGeneralRecallQuery(it, safeQuery)) : all;

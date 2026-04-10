@@ -7,7 +7,7 @@ import type { GeneralRecallListItem } from "@/lib/generalRecallListTypes";
 import type { GeneralRecallListPage } from "@/lib/general-recalls-data";
 import GeneralRecallCard from "./GeneralRecallCard";
 
-const PAGE_SIZE = 50;
+const PAGE_SIZE = 8;
 
 function getPageNumbers(current: number, total: number): (number | "ellipsis")[] {
   if (total <= 7) return Array.from({ length: total }, (_, i) => i + 1);
