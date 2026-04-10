@@ -1,5 +1,5 @@
 /**
- * FDA browse categories (filter bar slugs) → MongoDB filters on `productType`.
+ * FDA browse categories (filter bar slugs) -> MongoDB filters on normalized `browseCategory`.
  */
 
 export const VALID_CATEGORY_SLUGS = [
@@ -22,34 +22,7 @@ export function categorySlugToMongoFilter(
   if (!slug) return null;
   const key = slug.trim().toLowerCase();
   if (!isValidCategorySlug(key)) return null;
-
-  switch (key) {
-    case "drugs":
-      return {
-        $or: [
-          { productType: { $regex: "^Drugs$", $options: "i" } },
-          { productType: { $regex: "\\bDrugs\\b", $options: "i" } },
-        ],
-      };
-    case "supplements":
-      return {
-        productType: { $regex: "\\bDietary Supplements\\b", $options: "i" },
-      };
-    case "medical-devices":
-      return {
-        productType: { $regex: "\\bMedical Devices\\b", $options: "i" },
-      };
-    case "food":
-      return {
-        $or: [
-          { productType: { $regex: "Food\\s*&\\s*Beverages", $options: "i" } },
-          { productType: { $regex: "Foodborne", $options: "i" } },
-          { productType: { $regex: "\\bPet Food\\b", $options: "i" } },
-        ],
-      };
-    default:
-      return null;
-  }
+  return { browseCategory: key };
 }
 
 function escapeRegex(input: string) {

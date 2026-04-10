@@ -1,13 +1,13 @@
 import { NextRequest, NextResponse } from "next/server";
 import { enforceRateLimit } from "@/lib/apiSecurity";
-import { getDb } from "@/lib/mongodb";
-import { buildRecallsListQuery, isValidCategorySlug } from "@/lib/recallCategoryFilter";
+import {
+  DEFAULT_RECALLS_PAGE,
+  DEFAULT_RECALLS_PAGE_SIZE,
+  loadRecallsListPage,
+} from "@/lib/recalls-list-data";
 
 export const dynamic = "force-dynamic";
 export const runtime = "nodejs";
-
-const DEFAULT_PAGE = 1;
-const DEFAULT_LIMIT = 50;
 
 export async function GET(request: NextRequest) {
   const limited = enforceRateLimit(request, "recalls-list");
@@ -15,41 +15,26 @@ export async function GET(request: NextRequest) {
 
   try {
     const { searchParams } = new URL(request.url);
-    const page = Math.max(1, parseInt(searchParams.get("page") || String(DEFAULT_PAGE), 10) || 1);
-    const limit = Math.min(100, Math.max(1, parseInt(searchParams.get("limit") || String(DEFAULT_LIMIT), 10) || 50));
-    const q = (searchParams.get("q") || "").trim();
-    const rawCat = (searchParams.get("category") || "").trim().toLowerCase();
-    const category = isValidCategorySlug(rawCat) ? rawCat : null;
-    const query = buildRecallsListQuery({ q, category });
-
-    const db = await getDb();
-    const collection = db.collection("recalls");
-    const total = await collection.countDocuments(query);
-    const totalPages = total > 0 ? Math.ceil(total / limit) : 1;
-
-    const recalls = await collection
-      .find(query)
-      .sort({ report_date: -1 })
-      .skip((page - 1) * limit)
-      .limit(limit)
-      .toArray();
-
-    const serialized = recalls.map((r: any) => ({
-      ...r,
-      _id: r._id.toString(),
-    }));
+    const data = await loadRecallsListPage({
+      page: parseInt(searchParams.get("page") || String(DEFAULT_RECALLS_PAGE), 10) || 1,
+      limit:
+        parseInt(searchParams.get("limit") || String(DEFAULT_RECALLS_PAGE_SIZE), 10) ||
+        DEFAULT_RECALLS_PAGE_SIZE,
+      q: searchParams.get("q") || "",
+      category: searchParams.get("category"),
+      lang: searchParams.get("lang"),
+    });
 
     if (process.env.NODE_ENV === "development") {
-      console.log("[api/recalls] MongoDB recallsatlas.recalls: total =", total, "page =", page);
+      console.log(
+        "[api/recalls] MongoDB recallsatlas.recalls: total =",
+        data.total,
+        "page =",
+        data.page
+      );
     }
 
-    return NextResponse.json({
-      recalls: serialized,
-      total,
-      totalPages,
-      page,
-      limit,
-    });
+    return NextResponse.json(data);
   } catch (err: any) {
     console.error("API /api/recalls error:", err);
     return NextResponse.json(

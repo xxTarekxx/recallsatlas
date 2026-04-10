@@ -2,13 +2,24 @@ import { Suspense } from "react";
 import RecallsFilterAndGridClient from "@/components/fda/RecallsFilterAndGridClient";
 import SiteBrandLogoLink from "@/components/SiteBrandLogoLink";
 import { NAV_COPY } from "@/lib/navCopy";
+import type { RecallListPage } from "@/lib/recalls-list-data";
 import { getRecallsFilterBarUi } from "@/lib/recallsFilterBarUi";
 import { isValidCategorySlug } from "@/lib/recallCategoryFilter";
 import { isRtlUiLang, withLangPath, type SiteUiLang } from "@/lib/siteLocale";
 
-type Props = { lang: SiteUiLang; categorySlug?: string; initialQuery?: string };
+type Props = {
+  lang: SiteUiLang;
+  categorySlug?: string;
+  initialQuery?: string;
+  initialData?: RecallListPage;
+};
 
-export default function RecallsSearchPage({ lang, categorySlug, initialQuery }: Props) {
+export default function RecallsSearchPage({
+  lang,
+  categorySlug,
+  initialQuery,
+  initialData,
+}: Props) {
   const t = NAV_COPY[lang];
   const fb = getRecallsFilterBarUi(lang);
   const normalizedCat = (categorySlug || "").trim().toLowerCase();
@@ -28,6 +39,7 @@ export default function RecallsSearchPage({ lang, categorySlug, initialQuery }: 
             lang={lang}
             initialCategory={initialCategory}
             initialQuery={initialQuery}
+            initialData={initialData}
           />
         </Suspense>
       </main>
