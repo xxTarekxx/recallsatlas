@@ -86,11 +86,11 @@ function Run-Step {
   Write-Host "node scripts\$Script" -ForegroundColor DarkGray
   $start = Get-Date
   $rawOutput = & node (Join-Path "scripts" $Script) 2>&1
+  foreach ($line in $rawOutput) { Write-Host $line }
   $exit = $LASTEXITCODE
   $elapsedSec = [math]::Round(((Get-Date) - $start).TotalSeconds)
   $elapsedFmt = Format-Elapsed $elapsedSec
   $summary = Get-OutputSummary -Text (($rawOutput | Out-String).Trim())
-  if ($summary) { Write-Host $summary }
 
   if ($exit -ne 0) {
     Write-Host "[FAIL] $Label ($elapsedFmt)" -ForegroundColor Red

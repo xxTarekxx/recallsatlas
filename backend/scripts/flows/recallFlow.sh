@@ -88,18 +88,18 @@ run_step() {
   echo "$cmd_display"
 
   set +e
-  "$NODE_BIN" "scripts/$script" "${extra_args[@]}" >"$tmp" 2>&1
-  ec=$?
+  if command -v stdbuf >/dev/null 2>&1; then
+    stdbuf -oL -eL "$NODE_BIN" "scripts/$script" "${extra_args[@]}" 2>&1 | tee "$tmp"
+  else
+    "$NODE_BIN" "scripts/$script" "${extra_args[@]}" 2>&1 | tee "$tmp"
+  fi
+  ec=${PIPESTATUS[0]}
   set -e
 
   end="$(date +%s)"
   elapsed=$((end - start))
   elapsed_fmt="$(format_elapsed "$elapsed")"
   summary="$(summarize_output "$tmp")"
-
-  if [[ -n "$summary" ]]; then
-    printf '%s\n' "$summary"
-  fi
 
   if [[ "$ec" -ne 0 ]]; then
     echo "[FAIL] $label (${elapsed_fmt})" >&2
