@@ -213,12 +213,19 @@ async function run() {
   const mongoCount = await coll.countDocuments();
   console.log("MongoDB (collection) :", mongoCount, "recall(s)\n");
 
+  const existingDocs = await coll.find({}, {
+    projection: Object.fromEntries(
+      ["_contentHash", ...SYNC_KEYS].map((key) => [key, 1])
+    ),
+  }).toArray();
+  const existingBySlug = new Map(existingDocs.map((doc) => [doc.slug, doc]));
+
   let inserted = 0;
   let updated = 0;
   let skipped = 0;
 
   for (const doc of localDocs) {
-    const existing = await coll.findOne({ slug: doc.slug });
+    const existing = existingBySlug.get(doc.slug);
     const localHash = contentHash(doc);
 
     // ── New recall ────────────────────────────────────────────────────────────
