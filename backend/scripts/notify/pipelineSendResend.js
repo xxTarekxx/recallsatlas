@@ -2,7 +2,7 @@
  * Send one plain-text email via Resend (used by recallFlow.sh).
  * Same env as recallFlow.ps1: RESEND_API_KEY, ALERT_EMAIL, optional RESEND_FROM.
  *
- *   node scripts/pipelineSendResend.js --subject "..." --body-file /path/to.txt
+ *   node scripts/notify/pipelineSendResend.js --subject "..." --body-file /path/to.txt
  *
  * Exits 0 if disabled, on API errors, or on success (never fails the pipeline).
  */
@@ -10,7 +10,7 @@ const fs = require("fs");
 const path = require("path");
 const axios = require("axios");
 
-const backendRoot = path.join(__dirname, "..");
+const backendRoot = path.join(__dirname, "..", "..");
 
 require("dotenv").config({ path: path.join(backendRoot, "scripts", ".env") });
 require("dotenv").config({ path: path.join(backendRoot, ".env"), override: true });

@@ -22,7 +22,7 @@
 #    - At the end: one summary email (5/5 OK) with each step's output attached in sections.
 #
 #  Usage (from backend/ directory):
-#    .\recallFlow.ps1
+#    .\scripts\flows\recallFlow.ps1
 #
 # =============================================================================
 
@@ -51,10 +51,11 @@ function Import-DotEnvFile {
 }
 
 $scriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
-Set-Location $scriptDir
+$backendRoot = [System.IO.Path]::GetFullPath((Join-Path $scriptDir "..\.."))
+Set-Location $backendRoot
 
-Import-DotEnvFile (Join-Path $scriptDir "scripts\.env")
-Import-DotEnvFile (Join-Path $scriptDir ".env")
+Import-DotEnvFile (Join-Path $backendRoot "scripts\.env")
+Import-DotEnvFile (Join-Path $backendRoot ".env")
 
 # -- Resend -------------------------------------------------------------------
 
@@ -190,7 +191,7 @@ function Run-Step {
   Write-Step $StepNum $TotalSteps $Label
   $start = Get-Date
 
-  $rawOutput = & node "scripts\$Script" 2>&1
+  $rawOutput = & node (Join-Path "scripts" $Script) 2>&1
   foreach ($line in $rawOutput) {
     Write-Host $line
   }
@@ -218,7 +219,7 @@ function Run-Step {
 RecallsAtlas pipeline stopped on a failed step.
 
 Step:    $StepNum / $TotalSteps
-Script:  scripts\$Script
+Script:  $(Join-Path "scripts" $Script)
 Label:   $Label
 Exit:    $exit
 Elapsed: $elapsedFmt
@@ -239,7 +240,7 @@ $outputText
     $okBody = @"
 Step $StepNum of $TotalSteps completed successfully.
 
-Script:  scripts\$Script
+Script:  $(Join-Path "scripts" $Script)
 Label:   $Label
 Elapsed: $elapsedFmt
 Host:    $env:COMPUTERNAME
@@ -258,18 +259,18 @@ $outputText
 # -- Verify layout ------------------------------------------------------------
 
 if (-not (Test-Path "scripts")) {
-  Write-Fail "scripts/ folder not found. Make sure recallFlow.ps1 lives in backend/."
+  Write-Fail "scripts/ folder not found. Make sure recallFlow.ps1 is run from backend/."
   exit 1
 }
 
 # -- Steps --------------------------------------------------------------------
 
 $steps = @(
-  @{ label = "Scrape FDA recalls";                         script = "scrapeRecalls.js"   },
-  @{ label = "Sync to MongoDB (after scrape)";             script = "recallsToMongo.js"  },
-  @{ label = "Translate recalls (Mongo + recalls.json)";   script = "recallTranslate.js" },
-  @{ label = "Check terminated recalls (JSON)";            script = "checkTerminated.js" },
-  @{ label = "Sync to MongoDB (after terminated check)";   script = "recallsToMongo.js"  }
+  @{ label = "Scrape FDA recalls";                         script = "scrape\\scrapeRecalls.js"   },
+  @{ label = "Sync to MongoDB (after scrape)";             script = "sync\\recallsToMongo.js"    },
+  @{ label = "Translate recalls (Mongo + recalls.json)";   script = "translate\\recallTranslate.js" },
+  @{ label = "Check terminated recalls (JSON)";            script = "scrape\\checkTerminated.js" },
+  @{ label = "Sync to MongoDB (after terminated check)";   script = "sync\\recallsToMongo.js"    }
 )
 
 $totalSteps = $steps.Count
@@ -327,7 +328,7 @@ if (Get-ResendEnabled -and -not [string]::IsNullOrWhiteSpace($env:ALERT_EMAIL)) 
   foreach ($r in $completed) {
     $summaryParts += "=========================================================="
     $summaryParts += "Step $($r.StepNum)/$totalSteps - $($r.Label)"
-    $summaryParts += "Script: scripts\$($r.Script)  |  Elapsed: $($r.ElapsedFmt)"
+    $summaryParts += "Script: $(Join-Path "scripts" $r.Script)  |  Elapsed: $($r.ElapsedFmt)"
     $summaryParts += "=========================================================="
     $summaryParts += $r.OutputText
     $summaryParts += ""

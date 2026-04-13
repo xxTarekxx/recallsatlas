@@ -5,22 +5,23 @@
  * Requires MONGODB_URI (or mongodb://localhost:27017).
  *
  * Run from backend/:
- *   node scripts/carsJsonToMongo.js
+ *   node scripts/sync/carsJsonToMongo.js
  */
 const path = require("path");
 const fs = require("fs");
+const SCRIPTS_ROOT = path.join(__dirname, "..");
+const BACKEND_ROOT = path.join(SCRIPTS_ROOT, "..");
 
 require("dotenv").config({
-  path: fs.existsSync(path.join(__dirname, ".env"))
-    ? path.join(__dirname, ".env")
-    : path.join(__dirname, "..", ".env"),
+  path: fs.existsSync(path.join(SCRIPTS_ROOT, ".env"))
+    ? path.join(SCRIPTS_ROOT, ".env")
+    : path.join(BACKEND_ROOT, ".env"),
 });
 
-const { getDb, close, DB_NAME } = require("../database/mongodb");
+const { getDb, close, DB_NAME } = require("../../database/mongodb");
 
 const JSON_PATH = path.join(
-  __dirname,
-  "..",
+  BACKEND_ROOT,
   "database",
   "cars",
   "data",

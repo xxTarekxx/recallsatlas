@@ -12,20 +12,22 @@
  * - Stores every field with its real name — no remapping.
  *
  * Run from backend/:
- *   node scripts/recallsToMongo.js
+ *   node scripts/sync/recallsToMongo.js
  */
 const path = require("path");
 const fs = require("fs");
 const crypto = require("crypto");
+const SCRIPTS_ROOT = path.join(__dirname, "..");
+const BACKEND_ROOT = path.join(SCRIPTS_ROOT, "..");
 
 require("dotenv").config({
-  path: fs.existsSync(path.join(__dirname, ".env"))
-    ? path.join(__dirname, ".env")
-    : path.join(__dirname, "..", ".env"),
+  path: fs.existsSync(path.join(SCRIPTS_ROOT, ".env"))
+    ? path.join(SCRIPTS_ROOT, ".env")
+    : path.join(BACKEND_ROOT, ".env"),
 });
-const { getDb, close, DB_NAME, COLLECTION_RECALLS } = require("../database/mongodb");
+const { getDb, close, DB_NAME, COLLECTION_RECALLS } = require("../../database/mongodb");
 
-const JSON_PATH = path.join(__dirname, "recalls.json");
+const JSON_PATH = path.join(SCRIPTS_ROOT, "recalls.json");
 
 /** Match scrapeRecalls.js / site — used only when JSON omits canonicalUrl. */
 const SITE_BASE_URL = (process.env.SITE_BASE_URL || "https://recallsatlas.com").replace(

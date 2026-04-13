@@ -1,9 +1,11 @@
 const path = require("path");
 const fs = require("fs");
+const SCRIPTS_ROOT = path.join(__dirname, "..");
+const BACKEND_ROOT = path.join(SCRIPTS_ROOT, "..");
 require("dotenv").config({
-    path: fs.existsSync(path.join(__dirname, ".env"))
-        ? path.join(__dirname, ".env")
-        : path.join(__dirname, "..", ".env"),
+    path: fs.existsSync(path.join(SCRIPTS_ROOT, ".env"))
+        ? path.join(SCRIPTS_ROOT, ".env")
+        : path.join(BACKEND_ROOT, ".env"),
 });
 
 const { chromium } = require("playwright");
@@ -27,7 +29,7 @@ const FDA_LIST_URL =
 const SITE_BASE_URL = process.env.SITE_BASE_URL || "https://recallsatlas.com";
 const SITE_RECALLS_PATH = "/recalls";
 
-// Scripts dir holds recalls.json, image-map.json, recalls-log.txt.
+// Scripts root holds recalls.json, image-map.json, recalls-log.txt.
 // Images must live under the Next.js site "public" folder so URLs like /images/recalls/... work.
 //   Server (backend next to public/):  <site>/public/images/recalls
 //   Dev monorepo:                       <repo>/frontend/public/images/recalls
@@ -44,7 +46,7 @@ function resolveImageBaseDir() {
             return path.resolve(t);
         }
     }
-    const siteRoot = path.join(__dirname, "..", "..");
+    const siteRoot = BACKEND_ROOT;
     const prodPublic = path.join(siteRoot, "public", "images", "recalls");
     const devMonorepo = path.join(siteRoot, "frontend", "public", "images", "recalls");
     try {
@@ -56,9 +58,9 @@ function resolveImageBaseDir() {
 }
 
 const IMAGE_BASE_DIR = resolveImageBaseDir();
-const JSON_PATH = path.join(__dirname, "recalls.json");
-const IMAGE_MAP_PATH = path.join(__dirname, "image-map.json");
-const LOG_PATH = path.join(__dirname, "recalls-log.txt");
+const JSON_PATH = path.join(SCRIPTS_ROOT, "recalls.json");
+const IMAGE_MAP_PATH = path.join(SCRIPTS_ROOT, "image-map.json");
+const LOG_PATH = path.join(SCRIPTS_ROOT, "recalls-log.txt");
 
 const START_SORT_ORDER = 1000;
 const MAX_RECORDS = 100;  // max NEW recalls per run
@@ -82,8 +84,8 @@ const HEADLESS = process.env.HEADLESS !== "false";
 
 /**
  * Re-number sortOrder 1→N by date, rename `{sortOrder}-{slug}/` image folders, sync paths to Mongo.
- *   node scripts/scrapeRecalls.js --fix-sort-order           # preview
- *   node scripts/scrapeRecalls.js --fix-sort-order --apply   # write JSON + disk + Mongo (no scrape, no OpenAI)
+ *   node scripts/scrape/scrapeRecalls.js --fix-sort-order           # preview
+ *   node scripts/scrape/scrapeRecalls.js --fix-sort-order --apply   # write JSON + disk + Mongo (no scrape, no OpenAI)
  */
 const FIX_SORT_ORDER = process.argv.includes("--fix-sort-order");
 
@@ -337,7 +339,7 @@ async function runFixSortOrderMode(apply) {
     writeJson(JSON_PATH, newestFirst);
     log("[fix-sort-order] recalls.json updated (newest-first).");
 
-    const { getDb, close } = require("../database/mongodb");
+        const { getDb, close } = require("../../database/mongodb");
     const db = await getDb();
     const coll = db.collection("recalls");
     let mongoUpdated = 0;

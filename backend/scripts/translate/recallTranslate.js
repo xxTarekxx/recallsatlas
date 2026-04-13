@@ -17,10 +17,10 @@
  * languages.*, sorted by sortOrder descending (newest first).
  *
  * Usage (from backend/):
- *   node scripts/recallTranslate.js                  # translate all untranslated recalls
- *   node scripts/recallTranslate.js --dry-run        # preview only, no writes
- *   node scripts/recallTranslate.js --slug=some-slug # translate a single recall by slug
- *   node scripts/recallTranslate.js --reset          # clear all translations (re-translate everything)
+ *   node scripts/translate/recallTranslate.js                  # translate all untranslated recalls
+ *   node scripts/translate/recallTranslate.js --dry-run        # preview only, no writes
+ *   node scripts/translate/recallTranslate.js --slug=some-slug # translate a single recall by slug
+ *   node scripts/translate/recallTranslate.js --reset          # clear all translations (re-translate everything)
  *
  * Env: OPENAI_API_KEY, MONGODB_URI — backend/scripts/.env or backend/.env
  */
@@ -28,13 +28,15 @@
 const path = require("path");
 const fs = require("fs");
 const crypto = require("crypto");
+const SCRIPTS_ROOT = path.join(__dirname, "..");
+const BACKEND_ROOT = path.join(SCRIPTS_ROOT, "..");
 
 // ─── Env ──────────────────────────────────────────────────────────────────────
 
 require("dotenv").config({
-  path: fs.existsSync(path.join(__dirname, ".env"))
-    ? path.join(__dirname, ".env")
-    : path.join(__dirname, "..", ".env"),
+  path: fs.existsSync(path.join(SCRIPTS_ROOT, ".env"))
+    ? path.join(SCRIPTS_ROOT, ".env")
+    : path.join(BACKEND_ROOT, ".env"),
 });
 
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
@@ -56,7 +58,7 @@ const LIMIT_ARG = Number((flags.find(f => f.startsWith("--limit=")) || "").split
 const SLUG_ARG = flags.find(f => f.startsWith("--slug="))?.split("=")[1]
   || (args[0] && !args[0].startsWith("--") ? args[0] : null);
 const LIMIT = ONE ? 1 : (Number.isFinite(LIMIT_ARG) && LIMIT_ARG > 0 ? Math.floor(LIMIT_ARG) : null);
-const RECALLS_JSON_PATH = path.join(__dirname, "recalls.json");
+const RECALLS_JSON_PATH = path.join(SCRIPTS_ROOT, "recalls.json");
 
 // ─── Languages ────────────────────────────────────────────────────────────────
 
@@ -440,7 +442,7 @@ async function main() {
   let recalls = [];
   let coll = null;
   if (MONGO_MODE) {
-    const { getDb, close } = require("../database/mongodb");
+    const { getDb, close } = require("../../database/mongodb");
     closeDb = close;
     process.stdout.write(`  ${C.cyan}▸${C.reset} Connecting to MongoDB…`);
     const db = await getDb();

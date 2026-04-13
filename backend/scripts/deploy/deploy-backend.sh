@@ -20,4 +20,6 @@ rsync -av \
   --exclude '.env' \
   "$REPO_BACKEND/" "$LIVE_BACKEND/"
 
+chmod +x "$LIVE_BACKEND/scripts/flows/"*.sh "$LIVE_BACKEND/scripts/deploy/"*.sh 2>/dev/null || true
+
 echo "Backend deployed from $REPO_BACKEND to $LIVE_BACKEND"

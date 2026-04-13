@@ -10,16 +10,17 @@
 #  After all 5 steps succeed, runs: pm2 restart ${PM2_APP:-recallsatlas}
 #  (ensure pm2 is on PATH in cron, e.g. nvm: source ~/.nvm/nvm.sh)
 #
-#  chmod +x recallFlow.sh
+#  chmod +x scripts/flows/recallFlow.sh
 #
 #  Daily at 2:00 PM US Central (Chicago):
 #    CRON_TZ=America/Chicago
-#    0 14 * * * cd /var/www/html/recallsatlas/backend && ./recallFlow.sh >> /var/log/recallflow.log 2>&1
+#    0 14 * * * cd /var/www/html/recallsatlas/backend && ./scripts/flows/recallFlow.sh >> /var/log/recallflow.log 2>&1
 # =============================================================================
 
 set -euo pipefail
 
-ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+FLOW_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+ROOT="$(cd "$FLOW_DIR/../.." && pwd)"
 cd "$ROOT"
 
 NODE_BIN="${NODE_BIN:-$(command -v node || true)}"
@@ -84,7 +85,7 @@ last_n_script_output_lines() {
 
 send_resend() {
   local subject="$1" body_file="$2"
-  "$NODE_BIN" "$ROOT/scripts/pipelineSendResend.js" --subject "$subject" --body-file "$body_file" || true
+  "$NODE_BIN" "$ROOT/scripts/notify/pipelineSendResend.js" --subject "$subject" --body-file "$body_file" || true
 }
 
 run_step() {
@@ -187,11 +188,11 @@ echo "     ${C_DIM}Node${C_RESET}           $($NODE_BIN --version)"
 echo "     ${C_DIM}Started${C_RESET}        $(fmt_now_plain)"
 echo ""
 
-run_step "Scrape FDA recalls"                         scrapeRecalls.js  1
-run_step "Sync to MongoDB (after scrape)"            recallsToMongo.js 2
-run_step "Translate recalls (Mongo + recalls.json)"   recallTranslate.js 3
-run_step "Check terminated recalls (fetch + JSON)"     checkTerminated.js  4 --fetch
-run_step "Sync to MongoDB (after terminated check)"     recallsToMongo.js 5
+run_step "Scrape FDA recalls"                         scrape/scrapeRecalls.js  1
+run_step "Sync to MongoDB (after scrape)"             sync/recallsToMongo.js 2
+run_step "Translate recalls (Mongo + recalls.json)"   translate/recallTranslate.js 3
+run_step "Check terminated recalls (fetch + JSON)"    scrape/checkTerminated.js 4 --fetch
+run_step "Sync to MongoDB (after terminated check)"   sync/recallsToMongo.js 5
 
 PIPE_END="$(date +%s)"
 PIPE_ELAPSED=$((PIPE_END - PIPE_START))

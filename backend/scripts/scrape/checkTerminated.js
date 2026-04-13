@@ -9,10 +9,10 @@
  *   Date:    JSON datePublished ↔ Excel Date.
  *
  * Usage (from backend/):
- *   node scripts/checkTerminated.js                              # uses local .xlsx if present
- *   node scripts/checkTerminated.js path/to/export.xlsx
- *   node scripts/checkTerminated.js --fetch                      # download from FDA, then match
- *   node scripts/checkTerminated.js --fetch --dry-run --mongo
+ *   node scripts/scrape/checkTerminated.js                              # uses local .xlsx if present
+ *   node scripts/scrape/checkTerminated.js path/to/export.xlsx
+ *   node scripts/scrape/checkTerminated.js --fetch                      # download from FDA, then match
+ *   node scripts/scrape/checkTerminated.js --fetch --dry-run --mongo
  *
  * Flags:
  *   --fetch     Open FDA listing, Terminated=Yes, 100/page, Export Excel → scripts/fda-terminated-export.xlsx
@@ -24,10 +24,12 @@
 
 const fs = require("fs");
 const path = require("path");
+const SCRIPTS_ROOT = path.join(__dirname, "..");
+const BACKEND_ROOT = path.join(SCRIPTS_ROOT, "..");
 require("dotenv").config({
-  path: fs.existsSync(path.join(__dirname, ".env"))
-    ? path.join(__dirname, ".env")
-    : path.join(__dirname, "..", ".env"),
+  path: fs.existsSync(path.join(SCRIPTS_ROOT, ".env"))
+    ? path.join(SCRIPTS_ROOT, ".env")
+    : path.join(BACKEND_ROOT, ".env"),
 });
 const xlsx = require("xlsx");
 const { chromium } = require("playwright");
@@ -35,10 +37,10 @@ const { chromium } = require("playwright");
 // ─── Config ───────────────────────────────────────────────────────────────────
 
 /** recalls.json now lives in the same directory as the scripts. */
-const JSON_PATH = path.join(__dirname, "recalls.json");
+const JSON_PATH = path.join(SCRIPTS_ROOT, "recalls.json");
 
 /** Timestamped downloads go here — one file per run, keep history. */
-const DOWNLOADS_DIR = path.join(__dirname, "Terminated-Excel");
+const DOWNLOADS_DIR = path.join(SCRIPTS_ROOT, "Terminated-Excel");
 
 const FDA_LIST_URL =
   "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts";
@@ -51,7 +53,7 @@ const WITH_MONGO = flags.includes("--mongo");
 const DRY_RUN = flags.includes("--dry-run");
 const FETCH = flags.includes("--fetch");
 
-const SCRIPTS_DIR = __dirname;
+const SCRIPTS_DIR = SCRIPTS_ROOT;
 const DEFAULT_NAME = "recalls-market-withdrawals-safety-alert";
 
 /** Build a serial+timestamp filename, e.g. (1) 3-31-2026 2-30PM.xlsx */
@@ -412,7 +414,7 @@ async function main() {
 
   if (WITH_MONGO) {
     uiHeader("MongoDB");
-    const { getDb, close } = require("../database/mongodb");
+    const { getDb, close } = require("../../database/mongodb");
     const db = await getDb();
     const coll = db.collection("recalls");
     const mongoFailures = [];
