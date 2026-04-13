@@ -18,6 +18,9 @@ rm -f "$LIVE_BACKEND/package-lock.json"
 rsync -av \
   --exclude 'node_modules/' \
   --exclude '.env' \
+  --exclude 'scripts/recalls.json' \
+  --exclude 'scripts/recalls-log.txt' \
+  --exclude 'scripts/Terminated-Excel/' \
   "$REPO_BACKEND/" "$LIVE_BACKEND/"
 
 chmod +x "$LIVE_BACKEND/scripts/flows/"*.sh "$LIVE_BACKEND/scripts/deploy/"*.sh 2>/dev/null || true
