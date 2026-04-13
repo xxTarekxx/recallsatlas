@@ -7138,3 +7138,35 @@ Call log:
 [2026-04-12T22:00:22.945Z] No new recalls to ingest (list date + sourceUrl checks).
 [2026-04-12T22:00:23.304Z] Progress saved. recalls=313 imageMap=975
 [2026-04-12T22:00:23.362Z] DONE
+[2026-04-13T21:24:24.834Z] SortOrder gaps (missing): 304
+[2026-04-13T21:24:24.835Z] Loaded existing recalls: 313, unique sourceUrls: 312
+[2026-04-13T21:24:24.836Z] IMAGE_BASE_DIR: /var/www/html/recallsatlas/public/images/recalls
+[2026-04-13T21:24:24.836Z] Newest existing date: 2026-04-10T04:00:00.000Z (vs FDA table + sourceUrl)
+[2026-04-13T21:24:24.972Z] Opening FDA recalls listing...
+[2026-04-13T21:24:31.013Z] Delay 6272ms → after initial listing load
+[2026-04-13T21:24:38.935Z] Set DataTable page size to 100 and Terminated Recall filter to No
+[2026-04-13T21:24:38.936Z] Reading DataTable page 1 (enumerate new rows)…
+[2026-04-13T21:24:43.972Z] Rows found on page 1: 100
+[2026-04-13T21:24:43.972Z] Skip already stored (sourceUrl): https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/blueroot-health-expands-voluntary-allergy-alert-undeclared-egg-hazelnut-and-soy-vital-nutrients
+[2026-04-13T21:24:43.972Z] Skip already stored (sourceUrl): https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/blaine-labs-inc-issues-voluntary-nationwide-recall-wound-care-gel-products-due-microbial
+[2026-04-13T21:24:43.972Z] Skip already stored (sourceUrl): https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/nalpac-issues-voluntary-nationwide-recall-dtf-sexual-chocolate-due-presence-pharmaceutical
+[2026-04-13T21:24:43.972Z] Skip already stored (sourceUrl): https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/karns-foods-issues-voluntary-recall-mini-dark-chocolate-raspberry-cups-due-undeclared-peanuts
+[2026-04-13T21:24:43.973Z] Skip already stored (sourceUrl): https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/wawa-issues-product-recall-16-oz-wawa-brand-iced-tea-lemon-iced-tea-diet-lemon-diet-lemonade-and
+[2026-04-13T21:24:43.973Z] Skip already stored (sourceUrl): https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/voluntary-recall
+[2026-04-13T21:24:43.973Z] Skip already stored (sourceUrl): https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/aphreseller-buy-herbalcom-issues-voluntary-nationwide-recall-kian-pee-wan-capsules-due-presence
+[2026-04-13T21:24:43.973Z] Skip already stored (sourceUrl): https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/tops-issues-recall-christopher-ranch-peeled-garlic-garland-fresh-peeled-garlic-because-possible
+[2026-04-13T21:24:43.973Z] Skip already stored (sourceUrl): https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/schreiber-foods-inc-issues-allergy-alert-undeclared-tree-nuts-almonds-product
+[2026-04-13T21:24:43.973Z] Reached older FDA rows; stopping table scan.
+[2026-04-13T21:24:43.973Z] New recalls to ingest: 1 — sortOrder 314 (FDA table top) … 314 (oldest in batch)
+[2026-04-13T21:24:43.973Z] Detail [1/1] sortOrder=314: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/product-recall
+[2026-04-13T21:24:44.717Z] Slug: gel-nail-polish-remover-15ml-morovan-recall-2026
+[2026-04-13T21:24:44.717Z] Folder: 314-gel-nail-polish-remover-15ml-morovan-recall-2026
+[2026-04-13T21:24:52.046Z] Delay 6443ms → after rewrite
+[2026-04-13T21:25:01.096Z] Delay 6492ms → after consumer action generation
+[2026-04-13T21:25:07.766Z] Image already exists: 314-gel-nail-polish-remover-15ml-morovan-recall-2026/ac346e1868ccd7e548f6ba38430ff7f6c57aba26d8a0c9e5d021c610c368b92f.webp
+[2026-04-13T21:25:07.766Z] Delay 7076ms → between images
+[2026-04-13T21:25:15.235Z] Progress saved. recalls=314 imageMap=976
+[2026-04-13T21:25:15.235Z] Saved article 1/1 this run.
+[2026-04-13T21:25:15.287Z] Delay 6666ms → after detail complete
+[2026-04-13T21:25:22.305Z] Progress saved. recalls=314 imageMap=976
+[2026-04-13T21:25:22.394Z] DONE
