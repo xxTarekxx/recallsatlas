@@ -148,6 +148,8 @@ const EEAT_COPY = {
   },
 };
 
+let interrupted = false;
+
 function fmtElapsed(ms) {
   const totalSec = Math.max(0, Math.round(ms / 1000));
   if (totalSec < 60) return `${totalSec}s`;
@@ -199,6 +201,16 @@ function parseArgs() {
 
 function clone(value) {
   return JSON.parse(JSON.stringify(value));
+}
+
+function writeJson(filePath, data) {
+  fs.mkdirSync(path.dirname(filePath), { recursive: true });
+  fs.writeFileSync(filePath, JSON.stringify(data, null, 2), "utf8");
+}
+
+function recallNeedsEnhancement(recall) {
+  const version = recall?.eeatMeta?.version || "";
+  return version !== SCRIPT_VERSION;
 }
 
 function isWeakTitle(title) {
@@ -391,11 +403,6 @@ function applyLanguageDefaults(langCode, langObj) {
   return out;
 }
 
-function writeJson(filePath, data) {
-  fs.mkdirSync(path.dirname(filePath), { recursive: true });
-  fs.writeFileSync(filePath, JSON.stringify(data, null, 2), "utf8");
-}
-
 async function main() {
   const opts = parseArgs();
   const source = JSON.parse(fs.readFileSync(opts.input, "utf8"));
@@ -406,9 +413,28 @@ async function main() {
     working = JSON.parse(fs.readFileSync(opts.output, "utf8"));
   }
 
+  const saveOutput = () => writeJson(opts.output, working);
+  const handleInterrupt = () => {
+    interrupted = true;
+    try {
+      saveOutput();
+      console.log(`Interrupted. Progress saved to ${opts.output}`);
+    } catch (err) {
+      console.error("Failed to save output during interrupt:", err);
+    }
+    process.exit(130);
+  };
+
+  process.once("SIGINT", handleInterrupt);
+  process.once("SIGTERM", handleInterrupt);
+  process.once("beforeExit", () => {
+    try { saveOutput(); } catch {}
+  });
+
   let records = working;
   if (opts.slug) records = working.filter((r) => r.slug === opts.slug);
   if (Number.isFinite(opts.limit) && opts.limit > 0) records = records.slice(0, opts.limit);
+  if (opts.resume) records = records.filter((r) => recallNeedsEnhancement(r));
 
   console.log(`EEAT input:  ${opts.input}`);
   console.log(`EEAT output: ${opts.output}`);
@@ -424,6 +450,10 @@ async function main() {
 
     const current = working[allRecallsIndex];
     current.languages = current.languages && typeof current.languages === "object" ? current.languages : {};
+    if (opts.resume && !recallNeedsEnhancement(current)) {
+      console.log(`[${index}/${records.length}] skip | ${current.slug}`);
+      continue;
+    }
 
     const hadWeakTitle = isWeakTitle(current.languages?.en?.title || current.title || current.headline);
     let englishMeta = null;
@@ -479,10 +509,12 @@ async function main() {
       addedSections: ["source-and-verification", "who-should-pay-attention"],
     };
 
-    writeJson(opts.output, working);
+    saveOutput();
     console.log(`  saved: ${current.slug}`);
+    if (interrupted) break;
   }
 
+  saveOutput();
   console.log(`Done. Wrote EEAT copy to ${opts.output}`);
 }
 
