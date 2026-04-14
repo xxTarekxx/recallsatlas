@@ -78,6 +78,34 @@ const LANGUAGES = [
 
 const TARGET_LANGS = LANGUAGES.filter(l => l.code !== "en");
 
+const BAD_TRANSLATION_PATTERNS = [
+  /you are (?:a|an) professional translator/i,
+  /translate the following text/i,
+  /return only the translated text/i,
+  /please provide the text/i,
+  /please send the text/i,
+  /lo siento[,!]? no veo ning[uú]n texto/i,
+  /claro[,!]? por favor proporciona el texto/i,
+  /vous [êe]tes un traducteur professionnel/i,
+  /sie sind (?:ein )?professionell(?:er)? [üu]bersetzer/i,
+  /você é um tradutor profissional/i,
+  /вы профессиональный переводчик/i,
+  /أنت مترجم محترف/i,
+  /आप एक .*अनुवादक/i,
+  /あなたは.*翻訳者/i,
+  /您是.*翻译员/i,
+  /bạn là .*dịch/i,
+];
+
+const BAD_TRANSLATION_SNIPPETS = [
+  "FDA recall pagehere",
+  "FDA recall page here",
+  "company websitehere",
+  "company website here",
+  "please provide the text",
+  "please send the text",
+];
+
 // ─── Terminal colours ─────────────────────────────────────────────────────────
 
 const C = {
@@ -182,16 +210,103 @@ async function translateText(text, langName) {
     if (!res.ok) return text;
 
     const data = await res.json();
-    return (
+    const translated = (
       data.output?.[0]?.content?.[0]?.text ||
       data.output_text ||
       text
     ).trim();
 
+    return isBadTranslationOutput(translated, text) ? text : translated;
+
   } catch {
     clearTimeout(timer);
     return text;
   }
+}
+
+function normalizeWhitespace(value) {
+  return String(value || "").replace(/\s+/g, " ").trim();
+}
+
+function isBadTranslationOutput(output, sourceText = "") {
+  const text = normalizeWhitespace(output);
+  if (!text) return true;
+
+  for (const pattern of BAD_TRANSLATION_PATTERNS) {
+    if (pattern.test(text)) return true;
+  }
+
+  const lowered = text.toLowerCase();
+  for (const snippet of BAD_TRANSLATION_SNIPPETS) {
+    if (lowered.includes(snippet.toLowerCase())) return true;
+  }
+
+  if (/^(sure|claro|here|aquí|aqui|ici|hier|здесь|यहाँ|这里|こちら|đây)\b/i.test(text)) {
+    return true;
+  }
+
+  const src = normalizeWhitespace(sourceText);
+  if (src && text.length > src.length * 2.5 && /translator|traduct|übersetz|перевод|مترجم|अनुवाद|翻译|dịch/i.test(text)) {
+    return true;
+  }
+
+  return false;
+}
+
+function scrubBadTranslationText(value, fallback = "") {
+  if (typeof value !== "string") return value;
+  const cleaned = value
+    .split(/\n{2,}/)
+    .map((chunk) => chunk.trim())
+    .filter((chunk) => chunk && !isBadTranslationOutput(chunk, fallback))
+    .join("\n\n")
+    .trim();
+  return cleaned || fallback || value;
+}
+
+function sanitizeTranslatedSection(section, sourceSection) {
+  if (!section || typeof section !== "object") return section;
+  const out = { ...section };
+  if (typeof out.subtitle === "string") {
+    out.subtitle = scrubBadTranslationText(out.subtitle, sourceSection?.subtitle || "");
+  }
+  if (typeof out.text === "string") {
+    out.text = scrubBadTranslationText(out.text, sourceSection?.text || "");
+  }
+  if (Array.isArray(out.authorityLinks)) {
+    out.authorityLinks = out.authorityLinks.map((link, idx) =>
+      scrubBadTranslationText(link, Array.isArray(sourceSection?.authorityLinks) ? sourceSection.authorityLinks[idx] || "" : "")
+    );
+  }
+  if (out.facts && typeof out.facts === "object") {
+    for (const key of Object.keys(out.facts)) {
+      out.facts[key] = scrubBadTranslationText(
+        out.facts[key],
+        sourceSection?.facts && typeof sourceSection.facts === "object" ? sourceSection.facts[key] || "" : ""
+      );
+    }
+  }
+  return out;
+}
+
+function sanitizeTranslatedLanguage(result, source) {
+  if (!result || typeof result !== "object") return result;
+  const out = { ...result };
+  const topFields = [
+    "title", "description", "productDescription",
+    "reason", "disclaimer", "pageTypeLabel", "label", "regulatedProducts",
+  ];
+  for (const key of topFields) {
+    if (typeof out[key] === "string") {
+      out[key] = scrubBadTranslationText(out[key], source?.[key] || "");
+    }
+  }
+  if (Array.isArray(out.content)) {
+    out.content = out.content.map((section, idx) =>
+      sanitizeTranslatedSection(section, Array.isArray(source?.content) ? source.content[idx] || {} : {})
+    );
+  }
+  return out;
 }
 
 async function translateAuthorityLink(html, langName) {
@@ -216,7 +331,8 @@ async function translateAuthorityLink(html, langName) {
   if (cursor < html.length) parts.push(translateText(html.slice(cursor), langName));
   if (parts.length === 0) return translateText(html, langName);
 
-  return (await Promise.all(parts)).join("");
+  const joined = (await Promise.all(parts)).join("");
+  return isBadTranslationOutput(joined, html) ? html : joined;
 }
 
 // ─── Build English source ─────────────────────────────────────────────────────
@@ -610,11 +726,12 @@ async function main() {
         }
       );
 
-      translated.dir = lang.dir;
-      translated.flag = lang.flag;
-      translated.lang = lang.code;
-      translated._sourceHash = englishHash;
-      translated._checkpoint = { complete: true, doneKeys: [], updatedAt: new Date().toISOString() };
+      const cleanedTranslated = sanitizeTranslatedLanguage(translated, enSource);
+      cleanedTranslated.dir = lang.dir;
+      cleanedTranslated.flag = lang.flag;
+      cleanedTranslated.lang = lang.code;
+      cleanedTranslated._sourceHash = englishHash;
+      cleanedTranslated._checkpoint = { complete: true, doneKeys: [], updatedAt: new Date().toISOString() };
 
       const langMs = Date.now() - langStart;
 
@@ -622,13 +739,13 @@ async function main() {
       if (!DRY_RUN && MONGO_MODE) {
         await coll.updateOne(
           { _id: recall._id },
-          { $set: { [`languages.${lang.code}`]: translated } }
+          { $set: { [`languages.${lang.code}`]: cleanedTranslated } }
         );
 
         await upsertRecallInRecallsJson(coll, recall._id);
       } else if (!DRY_RUN) {
         if (!recall.languages || typeof recall.languages !== "object") recall.languages = {};
-        recall.languages[lang.code] = translated;
+        recall.languages[lang.code] = cleanedTranslated;
         writeJsonArray(RECALLS_JSON_PATH, readJsonArraySafe(RECALLS_JSON_PATH).map((r) => ((r.slug || r.id) === (recall.slug || recall.id) ? recall : r)));
       }
 
