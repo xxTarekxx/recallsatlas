@@ -102,18 +102,25 @@ export default function RecallDetail({ recall, dbError = null, currentLang = "en
   const classification = recall?.classification || "";
   const distribution = recall?.distribution || "";
   const productType = activeLangObj?.productType || recall?.productType || "";
+  const enContent = useMemo(
+    () => getEnglishContentRef(translatedByCode, recall),
+    [translatedByCode, recall]
+  );
   const sourceUrl =
     (typeof activeLangObj?.sourceUrl === "string" && activeLangObj.sourceUrl.trim()) ||
     recall?.source_url ||
     (typeof recall?.sourceUrl === "string" && recall.sourceUrl.trim()) ||
     "";
-  const rawContent = Array.isArray(activeLangObj?.content)
-    ? activeLangObj.content
-    : (Array.isArray(recall?.content) ? recall.content : []);
-  const enContent = useMemo(
-    () => getEnglishContentRef(translatedByCode, recall),
-    [translatedByCode, recall]
-  );
+  const rawContent = useMemo(() => {
+    // English EEAT sections are merged into top-level recall.content.
+    if (selectedLang === "en" && Array.isArray(recall?.content)) {
+      return recall.content;
+    }
+    if (Array.isArray(activeLangObj?.content)) {
+      return activeLangObj.content;
+    }
+    return Array.isArray(recall?.content) ? recall.content : [];
+  }, [activeLangObj?.content, recall, selectedLang]);
   const whatWasRecalledSection = useMemo(
     () => pickWhatWasRecalledSection(rawContent, enContent),
     [rawContent, enContent]
