@@ -57,8 +57,15 @@ const ONE = flags.includes("--one");
 const LIMIT_ARG = Number((flags.find(f => f.startsWith("--limit=")) || "").split("=")[1]);
 const SLUG_ARG = flags.find(f => f.startsWith("--slug="))?.split("=")[1]
   || (args[0] && !args[0].startsWith("--") ? args[0] : null);
+const OUTPUT_ARG = flags.find(f => f.startsWith("--output="))?.split("=")[1] || null;
 const LIMIT = ONE ? 1 : (Number.isFinite(LIMIT_ARG) && LIMIT_ARG > 0 ? Math.floor(LIMIT_ARG) : null);
 const RECALLS_JSON_PATH = path.join(SCRIPTS_ROOT, "recalls.json");
+const OUTPUT_JSON_PATH = OUTPUT_ARG
+  ? path.resolve(BACKEND_ROOT, OUTPUT_ARG)
+  : null;
+const RUN_LOG_PATH = path.join(__dirname, "recallTranslate.run-log.json");
+let ACTIVE_RUN_LOG = null;
+const HEADLINE_CACHE = new Map();
 
 // ─── Languages ────────────────────────────────────────────────────────────────
 
@@ -77,6 +84,21 @@ const LANGUAGES = [
 ];
 
 const TARGET_LANGS = LANGUAGES.filter(l => l.code !== "en");
+
+const PRODUCT_TYPE_TRANSLATIONS = {
+  Cosmetics: {
+    zh: "化妆品",
+    es: "Cosméticos",
+    ar: "مستحضرات التجميل",
+    hi: "प्रसाधन सामग्री",
+    pt: "Cosméticos",
+    ru: "Косметика",
+    fr: "Cosmétiques",
+    ja: "化粧品",
+    de: "Kosmetika",
+    vi: "Mỹ phẩm",
+  },
+};
 
 const BAD_TRANSLATION_PATTERNS = [
   /you are (?:a|an) professional translator/i,
@@ -177,7 +199,9 @@ function fmtEta(avgMs, remaining) {
 // ─── OpenAI ───────────────────────────────────────────────────────────────────
 
 async function translateText(text, langName) {
-  if (!text || typeof text !== "string" || !text.trim()) return text;
+  if (!text || typeof text !== "string" || !text.trim()) {
+    return { ok: true, text, reason: "empty-source" };
+  }
 
   const controller = new AbortController();
   const timer = setTimeout(() => controller.abort(), 20000);
@@ -199,6 +223,10 @@ async function translateText(text, langName) {
           `- Keep all HTML tags, href URLs, brand names, product names, and numbers exactly as they are.`,
           `- Do not add explanations, notes, or disclaimers.`,
           `- Do not translate proper nouns like company names, product model numbers, or FDA/NHTSA.`,
+          `- Never output placeholders, filler text, or requests for missing input.`,
+          `- This content is for FDA or consumer product recalls. Do not mention NHTSA, vehicle safety, driving, or unrelated product domains unless the source text explicitly does so.`,
+          `- Preserve a formal, safety-oriented tone and keep safety facts accurate, including whether injuries were or were not reported.`,
+          `- Keep all HTML <a> tags intact, but localize the visible anchor text naturally for ${langName}.`,
           ``,
           text,
         ].join("\n"),
@@ -207,20 +235,34 @@ async function translateText(text, langName) {
     });
 
     clearTimeout(timer);
-    if (!res.ok) return text;
+    if (!res.ok) {
+      return { ok: false, text: null, reason: `http-${res.status}` };
+    }
 
     const data = await res.json();
     const translated = (
       data.output?.[0]?.content?.[0]?.text ||
       data.output_text ||
-      text
+      ""
     ).trim();
 
-    return isBadTranslationOutput(translated, text) ? text : translated;
+    if (!translated) {
+      return { ok: false, text: null, reason: "empty-response" };
+    }
 
-  } catch {
+    if (isBadTranslationOutput(translated, text)) {
+      return { ok: false, text: null, reason: "rejected-output" };
+    }
+
+    return { ok: true, text: translated, reason: "translated" };
+
+  } catch (error) {
     clearTimeout(timer);
-    return text;
+    return {
+      ok: false,
+      text: null,
+      reason: error?.name === "AbortError" ? "timeout" : "network-or-parse",
+    };
   }
 }
 
@@ -293,7 +335,7 @@ function sanitizeTranslatedLanguage(result, source) {
   if (!result || typeof result !== "object") return result;
   const out = { ...result };
   const topFields = [
-    "title", "description", "productDescription",
+    "title", "headline", "description", "productDescription", "productType",
     "reason", "disclaimer", "pageTypeLabel", "label", "regulatedProducts",
   ];
   for (const key of topFields) {
@@ -309,6 +351,106 @@ function sanitizeTranslatedLanguage(result, source) {
   return out;
 }
 
+function deriveHeadline(recall) {
+  const current = String(recall?.headline || "").trim();
+  if (current && current.toLowerCase() !== "product recall") return current;
+
+  const title = String(recall?.title || "").trim();
+  if (title && title.toLowerCase() !== "product recall") return title;
+
+  const brand = String(recall?.brandName || recall?.companyName || "").trim();
+  const product = String(recall?.productDescription || "Product").trim();
+  const reason = String(recall?.reason || "a safety concern").trim();
+
+  if (brand) {
+    return `Recall: ${product} by ${brand} due to ${reason}`;
+  }
+  return `Recall: ${product} due to ${reason}`;
+}
+
+function isWeakHeadline(value) {
+  const text = String(value || "").trim();
+  if (!text) return true;
+  const lower = text.toLowerCase();
+  return [
+    "product recall",
+    "recall notice",
+    "voluntary recall",
+    "company announcement",
+  ].includes(lower);
+}
+
+async function optimizeEnglishHeadline(recall) {
+  const cacheKey = String(recall?.slug || recall?.id || crypto.randomUUID());
+  if (HEADLINE_CACHE.has(cacheKey)) return HEADLINE_CACHE.get(cacheKey);
+
+  const current = String(recall?.headline || "").trim();
+  const fallback = deriveHeadline(recall);
+
+  if (!isWeakHeadline(current)) {
+    HEADLINE_CACHE.set(cacheKey, current);
+    return current;
+  }
+
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), 15000);
+
+  try {
+    const res = await fetch("https://api.openai.com/v1/responses", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        "Authorization": `Bearer ${OPENAI_API_KEY}`,
+      },
+      body: JSON.stringify({
+        model: MODEL,
+        input: [
+          "You write concise English headlines for FDA and consumer product recall pages.",
+          "Return only one headline line, with no quotes or markdown.",
+          "Use a factual, safety-oriented tone.",
+          "Avoid generic headlines like 'Product Recall'.",
+          "Keep it descriptive and SEO-friendly without sounding spammy.",
+          "Do not invent facts, injuries, retailers, or hazards not present in the source.",
+          "Prefer this shape when supported: '[Brand] Recalls [Product] Over [Hazard]'.",
+          "",
+          `Current headline: ${current || "(empty)"}`,
+          `Title: ${recall?.title || ""}`,
+          `Company: ${recall?.companyName || ""}`,
+          `Brand: ${recall?.brandName || ""}`,
+          `Product: ${recall?.productDescription || ""}`,
+          `Product type: ${recall?.productType || ""}`,
+          `Reason: ${recall?.reason || ""}`,
+          `Fallback headline: ${fallback}`,
+        ].join("\n"),
+      }),
+      signal: controller.signal,
+    });
+
+    clearTimeout(timer);
+    if (!res.ok) {
+      HEADLINE_CACHE.set(cacheKey, fallback);
+      return fallback;
+    }
+
+    const data = await res.json();
+    const optimized = normalizeWhitespace(
+      data.output?.[0]?.content?.[0]?.text || data.output_text || ""
+    ).replace(/^["']|["']$/g, "");
+
+    if (!optimized || isWeakHeadline(optimized) || optimized.length > 180) {
+      HEADLINE_CACHE.set(cacheKey, fallback);
+      return fallback;
+    }
+
+    HEADLINE_CACHE.set(cacheKey, optimized);
+    return optimized;
+  } catch {
+    clearTimeout(timer);
+    HEADLINE_CACHE.set(cacheKey, fallback);
+    return fallback;
+  }
+}
+
 async function translateAuthorityLink(html, langName) {
   if (!html || typeof html !== "string") return html;
 
@@ -319,17 +461,34 @@ async function translateAuthorityLink(html, langName) {
 
   while ((match = tagRe.exec(html)) !== null) {
     if (match.index > cursor) {
-      parts.push(translateText(html.slice(cursor, match.index), langName));
+      const plainSegment = html.slice(cursor, match.index);
+      parts.push(
+        translateText(plainSegment, langName).then((result) =>
+          result.ok ? result.text : plainSegment
+        )
+      );
     }
     const [, openTag, innerText, closeTag] = match;
     parts.push(
-      translateText(innerText, langName).then(t => `${openTag}${t}${closeTag}`)
+      translateText(innerText, langName).then((result) =>
+        result.ok ? `${openTag}${result.text}${closeTag}` : `${openTag}${innerText}${closeTag}`
+      )
     );
     cursor = match.index + match[0].length;
   }
 
-  if (cursor < html.length) parts.push(translateText(html.slice(cursor), langName));
-  if (parts.length === 0) return translateText(html, langName);
+  if (cursor < html.length) {
+    const trailingSegment = html.slice(cursor);
+    parts.push(
+      translateText(trailingSegment, langName).then((result) =>
+        result.ok ? result.text : trailingSegment
+      )
+    );
+  }
+  if (parts.length === 0) {
+    const result = await translateText(html, langName);
+    return result.ok ? result.text : html;
+  }
 
   const joined = (await Promise.all(parts)).join("");
   return isBadTranslationOutput(joined, html) ? html : joined;
@@ -337,7 +496,7 @@ async function translateAuthorityLink(html, langName) {
 
 // ─── Build English source ─────────────────────────────────────────────────────
 
-function buildEnglishSource(recall) {
+function buildEnglishSource(recall, headlineOverride) {
   const content = (Array.isArray(recall.content) ? recall.content : [])
     .filter((section) => String(section?.subtitle || "").toLowerCase() !== "what was recalled")
     .map(section => {
@@ -355,8 +514,10 @@ function buildEnglishSource(recall) {
 
   return {
     title: recall.title || "",
+    headline: headlineOverride || deriveHeadline(recall),
     description: recall.description || "",
     productDescription: recall.productDescription || "",
+    productType: recall.productType || "",
     reason: recall.reason || "",
     disclaimer: recall.disclaimer || "",
     pageTypeLabel: recall.pageTypeLabel || "",
@@ -374,7 +535,7 @@ function buildEnglishSource(recall) {
 
 function countElements(source) {
   const topFields = [
-    "title", "description", "productDescription",
+    "title", "headline", "description", "productDescription", "productType",
     "reason", "disclaimer", "pageTypeLabel", "label", "regulatedProducts",
   ];
   let n = topFields.filter(k => source[k]).length;
@@ -389,9 +550,61 @@ function countElements(source) {
   return n;
 }
 
+function splitTextIntoChunks(text, maxLen = 1800) {
+  const normalized = String(text || "").trim();
+  if (!normalized) return [];
+  if (normalized.length <= maxLen) return [normalized];
+
+  const paragraphs = normalized.split(/\n{2,}/).map((p) => p.trim()).filter(Boolean);
+  const chunks = [];
+  let current = "";
+
+  const pushCurrent = () => {
+    if (current.trim()) chunks.push(current.trim());
+    current = "";
+  };
+
+  for (const paragraph of paragraphs) {
+    if (paragraph.length > maxLen) {
+      if (current) pushCurrent();
+      const sentences = paragraph.split(/(?<=[.!?。！？])\s+/).filter(Boolean);
+      let sentenceChunk = "";
+      for (const sentence of sentences) {
+        const candidate = sentenceChunk ? `${sentenceChunk} ${sentence}` : sentence;
+        if (candidate.length > maxLen) {
+          if (sentenceChunk) {
+            chunks.push(sentenceChunk.trim());
+            sentenceChunk = sentence;
+          } else {
+            for (let i = 0; i < sentence.length; i += maxLen) {
+              chunks.push(sentence.slice(i, i + maxLen));
+            }
+            sentenceChunk = "";
+          }
+        } else {
+          sentenceChunk = candidate;
+        }
+      }
+      if (sentenceChunk.trim()) chunks.push(sentenceChunk.trim());
+      continue;
+    }
+
+    const candidate = current ? `${current}\n\n${paragraph}` : paragraph;
+    if (candidate.length > maxLen) {
+      pushCurrent();
+      current = paragraph;
+    } else {
+      current = candidate;
+    }
+  }
+
+  pushCurrent();
+  return chunks;
+}
+
 // ─── Translate one language ───────────────────────────────────────────────────
 
-async function translateLangObject(source, langName, existingLang, onProgress, onCheckpoint) {
+async function translateLangObject(source, langName, langCode, existingLang, onProgress, onCheckpoint, runLog, slug) {
   // Start from source shape, then overlay any previously saved in-progress translations.
   const result = JSON.parse(JSON.stringify(source));
   const prior = existingLang && typeof existingLang === "object" ? existingLang : null;
@@ -428,18 +641,78 @@ async function translateLangObject(source, langName, existingLang, onProgress, o
       return;
     }
     await delay(RATE_LIMIT_MS);
-    const out = await translateText(sourceText, langName);
-    assign(out);
+    const result = await translateText(sourceText, langName);
+    if (!result.ok) {
+      runLog.failures.push({
+        slug,
+        lang: langCode,
+        taskKey,
+        reason: result.reason,
+      });
+      throw new Error(`Translation failed for ${langCode} ${taskKey}: ${result.reason}`);
+    }
+    assign(result.text);
+    runLog.successes.push({
+      slug,
+      lang: langCode,
+      taskKey,
+    });
+    doneSet.add(taskKey);
+    markDone(taskKey);
+    await checkpoint();
+  }
+
+  async function tChunked(taskKey, sourceText, assign) {
+    if (!sourceText || typeof sourceText !== "string" || !sourceText.trim()) return;
+    if (doneSet.has(taskKey)) {
+      markDone(taskKey);
+      return;
+    }
+
+    const chunks = splitTextIntoChunks(sourceText);
+    const translatedChunks = [];
+
+    for (let i = 0; i < chunks.length; i++) {
+      await delay(RATE_LIMIT_MS);
+      const result = await translateText(chunks[i], langName);
+      if (!result.ok) {
+        runLog.failures.push({
+          slug,
+          lang: langCode,
+          taskKey: `${taskKey}:chunk:${i}`,
+          reason: result.reason,
+        });
+        throw new Error(`Translation failed for ${langCode} ${taskKey}:chunk:${i}: ${result.reason}`);
+      }
+      translatedChunks.push(result.text);
+      runLog.successes.push({
+        slug,
+        lang: langCode,
+        taskKey: `${taskKey}:chunk:${i}`,
+      });
+    }
+
+    assign(translatedChunks.join("\n\n"));
     doneSet.add(taskKey);
     markDone(taskKey);
     await checkpoint();
   }
 
   const topFields = [
-    "title", "description", "productDescription",
+    "title", "headline", "description", "productDescription", "productType",
     "reason", "disclaimer", "pageTypeLabel", "label", "regulatedProducts",
   ];
   for (const key of topFields) {
+    if (key === "productType" && typeof source[key] === "string" && source[key].trim()) {
+      const mapped = PRODUCT_TYPE_TRANSLATIONS[source[key]]?.[langCode];
+      if (mapped) {
+        result[key] = mapped;
+        doneSet.add(`top:${key}`);
+        markDone(`top:${key}`);
+        await checkpoint();
+        continue;
+      }
+    }
     await t(`top:${key}`, source[key], (v) => { result[key] = v; });
   }
 
@@ -452,7 +725,7 @@ async function translateLangObject(source, langName, existingLang, onProgress, o
     result.content[sIdx] = outSection;
 
     await t(`section:${sIdx}:subtitle`, srcSection.subtitle, (v) => { outSection.subtitle = v; });
-    await t(`section:${sIdx}:text`, srcSection.text, (v) => { outSection.text = v; });
+    await tChunked(`section:${sIdx}:text`, srcSection.text, (v) => { outSection.text = v; });
 
     const srcLinks = Array.isArray(srcSection.authorityLinks) ? srcSection.authorityLinks : [];
     if (!Array.isArray(outSection.authorityLinks)) outSection.authorityLinks = [...srcLinks];
@@ -464,6 +737,11 @@ async function translateLangObject(source, langName, existingLang, onProgress, o
       }
       await delay(RATE_LIMIT_MS);
       outSection.authorityLinks[i] = await translateAuthorityLink(srcLinks[i], langName);
+      runLog.successes.push({
+        slug,
+        lang: langCode,
+        taskKey,
+      });
       doneSet.add(taskKey);
       markDone(taskKey);
       await checkpoint();
@@ -502,6 +780,33 @@ function writeJsonArray(filePath, arr) {
   fs.writeFileSync(filePath, JSON.stringify(arr, null, 2), "utf8");
 }
 
+function upsertRecallInFile(filePath, recallDoc) {
+  if (!filePath || !recallDoc || !recallDoc.slug) return false;
+  const arr = readJsonArraySafe(filePath);
+  const idx = arr.findIndex((r) => (r.slug || r.id) === recallDoc.slug);
+  if (idx >= 0) arr[idx] = recallDoc;
+  else arr.push(recallDoc);
+  arr.sort((a, b) => (b.sortOrder ?? 0) - (a.sortOrder ?? 0));
+  writeJsonArray(filePath, arr);
+  return true;
+}
+
+function mergeExistingOutputRecalls(sourceRecalls, outputFilePath) {
+  if (!outputFilePath || !fs.existsSync(outputFilePath)) return sourceRecalls;
+  const existing = readJsonArraySafe(outputFilePath);
+  if (!existing.length) return sourceRecalls;
+  const bySlug = new Map(existing.map((recall) => [recall.slug || recall.id, recall]));
+  return sourceRecalls.map((recall) => {
+    const match = bySlug.get(recall.slug || recall.id);
+    if (!match) return recall;
+    return {
+      ...recall,
+      languages: match.languages || recall.languages,
+      translatedAt: match.translatedAt || recall.translatedAt,
+    };
+  });
+}
+
 function sourceHash(source) {
   return crypto.createHash("sha256").update(JSON.stringify(source || {})).digest("hex");
 }
@@ -524,10 +829,32 @@ function isLanguageComplete(langObj) {
 }
 
 function isLanguageUpToDate(langObj, englishHash) {
-  if (!isLanguageComplete(langObj)) return false;
+  if (!langObj || typeof langObj !== "object") return false;
+  if (langObj?._checkpoint?.complete !== true) return false;
   const h = typeof langObj?._sourceHash === "string" ? langObj._sourceHash : "";
-  if (!h) return true; // backward-compatible: previously translated content without hash
+  if (!h) return false;
   return h === englishHash;
+}
+
+function createRunLog() {
+  return {
+    startedAt: new Date().toISOString(),
+    finishedAt: null,
+    successes: [],
+    failures: [],
+    summary: {
+      recallsProcessed: 0,
+      languageSuccesses: 0,
+      languageFailures: 0,
+    },
+  };
+}
+
+function flushRunLog(runLog) {
+  runLog.finishedAt = new Date().toISOString();
+  runLog.summary.languageSuccesses = runLog.successes.length;
+  runLog.summary.languageFailures = runLog.failures.length;
+  fs.writeFileSync(RUN_LOG_PATH, JSON.stringify(runLog, null, 2), "utf8");
 }
 
 /** Replace one recall in recalls.json with a full Mongo document (includes languages). */
@@ -547,10 +874,14 @@ async function upsertRecallInRecallsJson(coll, recallId) {
 
 async function main() {
   uiHeader("Recalls Atlas  ·  Translation Engine");
+  const runLog = createRunLog();
+  ACTIVE_RUN_LOG = runLog;
 
   if (DRY_RUN) uiWarn("DRY RUN — no writes");
   if (RESET) uiWarn("RESET — clearing all existing translations");
   if (!MONGO_MODE) uiInfo("Source", "recalls.json only (no MongoDB)");
+  if (OUTPUT_JSON_PATH) uiInfo("Output file", OUTPUT_JSON_PATH);
+  uiInfo("Run log", RUN_LOG_PATH);
   if (!RESET && !SLUG_ARG && !RESUME_PARTIAL) {
     uiInfo("Mode", "new recalls only (use --resume-partial to backfill)");
   }
@@ -573,6 +904,10 @@ async function main() {
     }
   } else {
     recalls = readJsonArraySafe(RECALLS_JSON_PATH);
+  }
+
+  if (OUTPUT_JSON_PATH && !RESET) {
+    recalls = mergeExistingOutputRecalls(recalls, OUTPUT_JSON_PATH);
   }
 
   // ── Build query ─────────────────────────────────────────────────────────────
@@ -625,6 +960,7 @@ async function main() {
 
   if (recalls.length === 0) {
     uiOk("All recalls are fully translated — nothing to do.");
+    flushRunLog(runLog);
     if (closeDb) await closeDb();
     return;
   }
@@ -655,7 +991,9 @@ async function main() {
     );
 
     // Build English source + save languages.en
-    const enSource = buildEnglishSource(recall);
+    const optimizedHeadline = await optimizeEnglishHeadline(recall);
+    recall.headline = optimizedHeadline;
+    const enSource = buildEnglishSource(recall, optimizedHeadline);
     const totalElements = countElements(enSource);
     const englishHash = sourceHash(enSource);
 
@@ -671,6 +1009,27 @@ async function main() {
         `  ${C.dim}  Already done: ${langsSkipped} lang(s) — skipping those${C.reset}`
       );
     }
+    if (langsNeeded.length === 0 && !DRY_RUN && MONGO_MODE) {
+      const enLang = LANGUAGES.find(l => l.code === "en");
+      await coll.updateOne(
+        { _id: recall._id },
+        {
+          $set: {
+            headline: optimizedHeadline,
+            "languages.en": { ...enSource, dir: enLang.dir, flag: enLang.flag, lang: "en" },
+          },
+        }
+      );
+    } else if (langsNeeded.length === 0 && !DRY_RUN) {
+      const enLang = LANGUAGES.find((l) => l.code === "en");
+      if (!recall.languages || typeof recall.languages !== "object") recall.languages = {};
+      recall.languages.en = { ...enSource, dir: enLang.dir, flag: enLang.flag, lang: "en" };
+      if (OUTPUT_JSON_PATH) {
+        upsertRecallInFile(OUTPUT_JSON_PATH, recall);
+      } else {
+        writeJsonArray(RECALLS_JSON_PATH, readJsonArraySafe(RECALLS_JSON_PATH).map((r) => ((r.slug || r.id) === (recall.slug || recall.id) ? recall : r)));
+      }
+    }
     if (langsNeeded.length === 0) {
       console.log(`  ${C.green}  All languages already translated — skipping recall${C.reset}\n`);
       recallsDone++;
@@ -685,13 +1044,22 @@ async function main() {
       const enLang = LANGUAGES.find(l => l.code === "en");
       await coll.updateOne(
         { _id: recall._id },
-        { $set: { "languages.en": { ...enSource, dir: enLang.dir, flag: enLang.flag, lang: "en" } } }
+        {
+          $set: {
+            headline: optimizedHeadline,
+            "languages.en": { ...enSource, dir: enLang.dir, flag: enLang.flag, lang: "en" },
+          },
+        }
       );
     } else if (!DRY_RUN) {
       const enLang = LANGUAGES.find((l) => l.code === "en");
       if (!recall.languages || typeof recall.languages !== "object") recall.languages = {};
       recall.languages.en = { ...enSource, dir: enLang.dir, flag: enLang.flag, lang: "en" };
-      writeJsonArray(RECALLS_JSON_PATH, readJsonArraySafe(RECALLS_JSON_PATH).map((r) => ((r.slug || r.id) === (recall.slug || recall.id) ? recall : r)));
+      if (OUTPUT_JSON_PATH) {
+        upsertRecallInFile(OUTPUT_JSON_PATH, recall);
+      } else {
+        writeJsonArray(RECALLS_JSON_PATH, readJsonArraySafe(RECALLS_JSON_PATH).map((r) => ((r.slug || r.id) === (recall.slug || recall.id) ? recall : r)));
+      }
     }
 
     // ── Per-language loop (saves immediately after each language) ─────────────
@@ -705,6 +1073,7 @@ async function main() {
       const translated = await translateLangObject(
         enSource,
         lang.name,
+        lang.code,
         recall.languages?.[lang.code],
         (n) => {
           process.stdout.write(
@@ -721,9 +1090,15 @@ async function main() {
           } else if (!DRY_RUN) {
             if (!recall.languages || typeof recall.languages !== "object") recall.languages = {};
             recall.languages[lang.code] = checkpointed;
-            writeJsonArray(RECALLS_JSON_PATH, readJsonArraySafe(RECALLS_JSON_PATH).map((r) => ((r.slug || r.id) === (recall.slug || recall.id) ? recall : r)));
+            if (OUTPUT_JSON_PATH) {
+              upsertRecallInFile(OUTPUT_JSON_PATH, recall);
+            } else {
+              writeJsonArray(RECALLS_JSON_PATH, readJsonArraySafe(RECALLS_JSON_PATH).map((r) => ((r.slug || r.id) === (recall.slug || recall.id) ? recall : r)));
+            }
           }
-        }
+        },
+        runLog,
+        slug
       );
 
       const cleanedTranslated = sanitizeTranslatedLanguage(translated, enSource);
@@ -746,7 +1121,11 @@ async function main() {
       } else if (!DRY_RUN) {
         if (!recall.languages || typeof recall.languages !== "object") recall.languages = {};
         recall.languages[lang.code] = cleanedTranslated;
-        writeJsonArray(RECALLS_JSON_PATH, readJsonArraySafe(RECALLS_JSON_PATH).map((r) => ((r.slug || r.id) === (recall.slug || recall.id) ? recall : r)));
+        if (OUTPUT_JSON_PATH) {
+          upsertRecallInFile(OUTPUT_JSON_PATH, recall);
+        } else {
+          writeJsonArray(RECALLS_JSON_PATH, readJsonArraySafe(RECALLS_JSON_PATH).map((r) => ((r.slug || r.id) === (recall.slug || recall.id) ? recall : r)));
+        }
       }
 
       process.stdout.write(
@@ -770,10 +1149,15 @@ async function main() {
       }
     } else if (!DRY_RUN) {
       recall.translatedAt = new Date().toISOString();
-      writeJsonArray(RECALLS_JSON_PATH, readJsonArraySafe(RECALLS_JSON_PATH).map((r) => ((r.slug || r.id) === (recall.slug || recall.id) ? recall : r)));
+      if (OUTPUT_JSON_PATH) {
+        upsertRecallInFile(OUTPUT_JSON_PATH, recall);
+      } else {
+        writeJsonArray(RECALLS_JSON_PATH, readJsonArraySafe(RECALLS_JSON_PATH).map((r) => ((r.slug || r.id) === (recall.slug || recall.id) ? recall : r)));
+      }
     }
 
     recallsDone++;
+    runLog.summary.recallsProcessed = recallsDone;
     const recallMs = Date.now() - recallStart;
     recallTimes.push(recallMs);
 
@@ -813,8 +1197,11 @@ async function main() {
     uiInfo("Avg per recall:", fmtElapsed(Math.round(totalMs / recallsDone)));
   }
   console.log("");
+  flushRunLog(runLog);
+  uiInfo("Run log:", RUN_LOG_PATH);
 
   if (closeDb) await closeDb();
+  ACTIVE_RUN_LOG = null;
 }
 
 // ─── SIGINT ───────────────────────────────────────────────────────────────────
@@ -829,6 +1216,11 @@ process.on("SIGINT", () => {
 // ─── Run ─────────────────────────────────────────────────────────────────────
 
 main().catch(err => {
+  try {
+    const runLog = ACTIVE_RUN_LOG || createRunLog();
+    runLog.failures.push({ slug: "(fatal)", lang: "n/a", taskKey: "main", reason: err.message || String(err) });
+    flushRunLog(runLog);
+  } catch {}
   console.error(`\n  ${C.red}✗${C.reset}  Fatal error:`, err.message || err);
   process.exit(1);
 });
