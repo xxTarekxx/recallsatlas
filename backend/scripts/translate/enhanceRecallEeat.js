@@ -2,6 +2,7 @@
 
 const fs = require("fs");
 const path = require("path");
+const crypto = require("crypto");
 
 const SCRIPTS_ROOT = path.join(__dirname, "..");
 const BACKEND_ROOT = path.join(SCRIPTS_ROOT, "..");
@@ -20,6 +21,7 @@ const SCRIPT_VERSION = "v2";
 
 const INPUT_PATH = path.join(SCRIPTS_ROOT, "recalls.json");
 const OUTPUT_PATH_DEFAULT = path.join(SCRIPTS_ROOT, "recalls.eeat.json");
+const HASH_PATH_DEFAULT = path.join(__dirname, "enhanceRecallEeat.hashes.json");
 
 const LANG_META = {
   en: { name: "English", dir: "ltr" },
@@ -103,6 +105,34 @@ const SECTION_TITLES = {
   },
 };
 
+const SUMMARY_SECTION_TITLES = {
+  en: "Summary",
+  zh: "摘要",
+  es: "Resumen",
+  ar: "الملخص",
+  hi: "सारांश",
+  pt: "Resumo",
+  ru: "Краткое описание",
+  fr: "Résumé",
+  ja: "要約",
+  de: "Zusammenfassung",
+  vi: "Tóm tắt",
+};
+
+const WHY_IT_MATTERS_SECTION_TITLES = {
+  en: "Why This Recall Matters",
+  zh: "此次召回为何重要",
+  es: "Por qué importa este retiro",
+  ar: "لماذا يهم هذا الاستدعاء",
+  hi: "यह रिकॉल क्यों महत्वपूर्ण है",
+  pt: "Por que este recall importa",
+  ru: "Почему этот отзыв важен",
+  fr: "Pourquoi ce rappel est important",
+  ja: "このリコールが重要な理由",
+  de: "Warum dieser Rückruf wichtig ist",
+  vi: "Vì sao đợt thu hồi này quan trọng",
+};
+
 let interrupted = false;
 
 function fmtElapsed(ms) {
@@ -113,11 +143,18 @@ function fmtElapsed(ms) {
   return sec ? `${min}m ${sec}s` : `${min}m`;
 }
 
+function fmtCountMap(counts) {
+  return Object.entries(counts)
+    .map(([key, value]) => `${key}=${value}`)
+    .join(" | ");
+}
+
 function parseArgs() {
   const flags = process.argv.slice(2);
   const out = {
     input: INPUT_PATH,
     output: OUTPUT_PATH_DEFAULT,
+    hashFile: HASH_PATH_DEFAULT,
     resume: flags.includes("--resume"),
     limit: null,
     slug: null,
@@ -125,6 +162,7 @@ function parseArgs() {
   for (const flag of flags) {
     if (flag.startsWith("--input=")) out.input = path.resolve(flag.slice(8));
     if (flag.startsWith("--output=")) out.output = path.resolve(flag.slice(9));
+    if (flag.startsWith("--hashfile=")) out.hashFile = path.resolve(flag.slice(11));
     if (flag.startsWith("--limit=")) out.limit = Number(flag.slice(8));
     if (flag.startsWith("--slug=")) out.slug = flag.slice(7).trim();
   }
@@ -138,6 +176,19 @@ function clone(value) {
 function writeJson(filePath, data) {
   fs.mkdirSync(path.dirname(filePath), { recursive: true });
   fs.writeFileSync(filePath, JSON.stringify(data, null, 2), "utf8");
+}
+
+function buildSourceHash(recall) {
+  const payload = {
+    slug: recall?.slug || "",
+    companyName: recall?.companyName || "",
+    productDescription: recall?.productDescription || "",
+    productType: recall?.productType || "",
+    regulatedProducts: recall?.regulatedProducts || "",
+    reason: recall?.reason || "",
+    sourceUrl: recall?.sourceUrl || "",
+  };
+  return crypto.createHash("sha256").update(JSON.stringify(payload)).digest("hex");
 }
 
 function stripCodeFences(text) {
@@ -288,8 +339,7 @@ function buildJsonPrompt(recall) {
     "Do not invent facts, injuries, status details, contact steps, dates, or regulatory findings.",
     "If a fact is not supported, return \"Unknown\".",
     "Use plain English for the main fields.",
-    "You must produce naturally translated output for every requested non-English language field.",
-    "Do not leave translated fields in English unless the text is a product name, company name, regulator name, or technical term that should stay unchanged.",
+    "Focus on strong, useful English output for the main fields.",
     "Return strict JSON only.",
     "The JSON must use this exact top-level shape:",
     "{",
@@ -301,27 +351,14 @@ function buildJsonPrompt(recall) {
     '  "expertSummary": "...",',
     '  "riskExplanation": "...",',
     '  "realWorldContext": "...",',
-    '  "translations": {',
-    '    "zh": {',
-    '      "affectedPopulation": "...",',
-    '      "expertSummary": "...",',
-    '      "riskExplanation": "...",',
-    '      "realWorldContext": "...",',
-    '      "whatToDo": ["...", "...", "..."]',
-    "    }",
-    "  }",
     "}",
-    "Translation rules:",
-    "- Translate only affectedPopulation, expertSummary, riskExplanation, realWorldContext, and whatToDo.",
-    "- Keep product names, company names, FDA, NHTSA, and technical terms unchanged when appropriate.",
-    "- Preserve a safety-focused, plain-language tone.",
     "",
     JSON.stringify({
       companyName: recall?.companyName || "",
       productDescription: recall?.productDescription || "",
       regulatedProducts: recall?.regulatedProducts || "",
       reason: recall?.reason || "",
-      languages,
+      sourceUrl: recall?.sourceUrl || "",
     }),
   ].join("\n");
 }
@@ -373,45 +410,13 @@ async function callOpenAIJson(prompt, fallback) {
 
 async function generateRecallEeat(recall) {
   const baseFallback = buildFallbackMeta(recall);
-  const fallback = {
-    ...baseFallback,
-    translations: Object.fromEntries(
-      Object.keys(LANG_META)
-        .filter((langCode) => langCode !== "en")
-        .map((langCode) => [
-          langCode,
-          {
-            affectedPopulation: baseFallback.affectedPopulation,
-            expertSummary: baseFallback.expertSummary,
-            riskExplanation: baseFallback.riskExplanation,
-            realWorldContext: baseFallback.realWorldContext,
-            whatToDo: baseFallback.whatToDo,
-          },
-        ])
-    ),
-  };
+  const fallback = { ...baseFallback };
 
   const result = await callOpenAIJson(buildJsonPrompt(recall), fallback);
   const raw = result.value;
-  const translatedEnough = Object.keys(LANG_META)
-    .filter((langCode) => langCode !== "en")
-    .every((langCode) => {
-      const t = raw?.translations?.[langCode];
-      return t &&
-        normalizeString(t.affectedPopulation) !== fallback.affectedPopulation &&
-        normalizeString(t.expertSummary) !== fallback.expertSummary &&
-        normalizeString(t.riskExplanation) !== fallback.riskExplanation &&
-        normalizeString(t.realWorldContext) !== fallback.realWorldContext &&
-        normalizeStringArray(t.whatToDo).length > 0;
-    });
-
-  const status =
-    result.status === "openai:ok" && !translatedEnough
-      ? "fallback:missing-translations"
-      : result.status;
 
   return {
-    status,
+    status: result.status,
     details: result.details || "",
     recallStatus: normalizeString(raw?.recallStatus),
     riskLevel: normalizeString(raw?.riskLevel),
@@ -423,9 +428,6 @@ async function generateRecallEeat(recall) {
     expertSummary: normalizeString(raw?.expertSummary),
     riskExplanation: normalizeString(raw?.riskExplanation),
     realWorldContext: normalizeString(raw?.realWorldContext),
-    translations: raw?.translations && typeof raw.translations === "object"
-      ? raw.translations
-      : fallback.translations,
   };
 }
 
@@ -463,10 +465,32 @@ function buildWhatToDoSection(langCode, steps) {
   };
 }
 
+function buildSummarySection(langCode, eeat) {
+  const subtitle = SUMMARY_SECTION_TITLES[langCode] || SUMMARY_SECTION_TITLES.en;
+  return {
+    subtitle,
+    text: normalizeString(eeat.expertSummary),
+    authorityLinks: [],
+  };
+}
+
 function buildAudienceSection(langCode, eeat) {
   const subtitle = (SECTION_TITLES[langCode] || SECTION_TITLES.en).audience;
+  const parts = [normalizeString(eeat.affectedPopulation)].filter(
+    (part) => part !== "Unknown"
+  );
+  return {
+    subtitle,
+    text: parts.join(" "),
+    authorityLinks: [],
+  };
+}
+
+function buildWhyItMattersSection(langCode, eeat) {
+  const subtitle =
+    WHY_IT_MATTERS_SECTION_TITLES[langCode] || WHY_IT_MATTERS_SECTION_TITLES.en;
   const parts = [
-    normalizeString(eeat.affectedPopulation),
+    normalizeString(eeat.riskExplanation),
     normalizeString(eeat.realWorldContext),
   ].filter((part) => part !== "Unknown");
   return {
@@ -548,11 +572,18 @@ function appendSectionsToRecall(recall, eeatPayload) {
   }
 
   const topLevelSections = {
+    summary: buildSummarySection("en", eeatPayload),
     whatToDo: buildWhatToDoSection("en", eeatPayload.whatToDo),
     audience: buildAudienceSection("en", eeatPayload),
+    whyItMatters: buildWhyItMattersSection("en", eeatPayload),
     source: buildSourceSection(recall, "en", eeatPayload),
   };
 
+  recall.content = upsertSection(
+    recall.content,
+    topLevelSections.summary.subtitle,
+    topLevelSections.summary
+  );
   recall.content = upsertSection(
     recall.content,
     topLevelSections.whatToDo.subtitle,
@@ -565,36 +596,15 @@ function appendSectionsToRecall(recall, eeatPayload) {
   );
   recall.content = upsertSection(
     recall.content,
+    topLevelSections.whyItMatters.subtitle,
+    topLevelSections.whyItMatters
+  );
+  recall.content = upsertSection(
+    recall.content,
     topLevelSections.source.subtitle,
     topLevelSections.source
   );
 
-  for (const langCode of Object.keys(LANG_META)) {
-    const langObj = ensureLanguageContent(recall, langCode);
-    const translated = langCode === "en"
-      ? eeatPayload
-      : {
-          affectedPopulation:
-            normalizeString(eeatPayload.translations?.[langCode]?.affectedPopulation, eeatPayload.affectedPopulation),
-          expertSummary:
-            normalizeString(eeatPayload.translations?.[langCode]?.expertSummary, eeatPayload.expertSummary),
-          riskExplanation:
-            normalizeString(eeatPayload.translations?.[langCode]?.riskExplanation, eeatPayload.riskExplanation),
-          realWorldContext:
-            normalizeString(eeatPayload.translations?.[langCode]?.realWorldContext, eeatPayload.realWorldContext),
-          whatToDo: normalizeStringArray(eeatPayload.translations?.[langCode]?.whatToDo).length
-            ? normalizeStringArray(eeatPayload.translations[langCode].whatToDo)
-            : eeatPayload.whatToDo,
-        };
-
-    const whatToDoSection = buildWhatToDoSection(langCode, translated.whatToDo);
-    const audienceSection = buildAudienceSection(langCode, translated);
-    const sourceSection = buildSourceSection(recall, langCode, translated);
-
-    langObj.content = upsertSection(langObj.content, whatToDoSection.subtitle, whatToDoSection);
-    langObj.content = upsertSection(langObj.content, audienceSection.subtitle, audienceSection);
-    langObj.content = upsertSection(langObj.content, sourceSection.subtitle, sourceSection);
-  }
 }
 
 async function main() {
@@ -605,8 +615,19 @@ async function main() {
   }
 
   let working = clone(source);
-  if (opts.resume && fs.existsSync(opts.output)) {
+  if (fs.existsSync(opts.output)) {
     working = JSON.parse(fs.readFileSync(opts.output, "utf8"));
+  }
+
+  let hashState = {};
+  if (fs.existsSync(opts.hashFile)) {
+    hashState = JSON.parse(fs.readFileSync(opts.hashFile, "utf8"));
+  } else if (fs.existsSync(opts.output)) {
+    hashState = Object.fromEntries(
+      working
+        .filter((record) => String(record?.eeatMeta?.version || "") === SCRIPT_VERSION)
+        .map((record) => [record.slug, buildSourceHash(record)])
+    );
   }
 
   let records = working;
@@ -615,13 +636,15 @@ async function main() {
 
   const selectedSlugs = new Set(records.map((record) => record.slug));
   const writeSelectionOnly = Boolean(opts.slug) || (Number.isFinite(opts.limit) && opts.limit > 0);
-  const saveOutput = () =>
+  const saveOutput = () => {
     writeJson(
       opts.output,
       writeSelectionOnly
         ? working.filter((record) => selectedSlugs.has(record.slug))
         : working
     );
+    writeJson(opts.hashFile, hashState);
+  };
   const handleInterrupt = () => {
     interrupted = true;
     try {
@@ -641,15 +664,31 @@ async function main() {
     } catch {}
   });
 
-  if (opts.resume) records = records.filter((record) => recallNeedsEnhancement(record));
+  records = records.filter((record) => {
+    const currentHash = buildSourceHash(record);
+    const savedHash = hashState[record.slug];
+    const done = String(record?.eeatMeta?.version || "") === SCRIPT_VERSION;
+    if (opts.resume) {
+      return !(done && savedHash === currentHash);
+    }
+    return !(done && savedHash === currentHash);
+  });
 
   console.log(`EEAT input:  ${opts.input}`);
   console.log(`EEAT output: ${opts.output}`);
+  console.log(`EEAT hashes:  ${opts.hashFile}`);
   console.log(`Records:     ${records.length}`);
   console.log(`Model:       ${OPENAI_API_KEY ? MODEL : "OpenAI disabled"}`);
 
   let index = 0;
   const startedAt = Date.now();
+  const counters = {
+    processed: 0,
+    saved: 0,
+    skipped: 0,
+    openaiOk: 0,
+    fallback: 0,
+  };
 
   for (const recall of records) {
     index += 1;
@@ -658,7 +697,9 @@ async function main() {
 
     const current = working[workingIndex];
     if (opts.resume && !recallNeedsEnhancement(current)) {
+      counters.skipped += 1;
       console.log(`[${index}/${records.length}] skip | ${current.slug}`);
+      console.log(`  totals: ${fmtCountMap(counters)}`);
       continue;
     }
 
@@ -672,6 +713,12 @@ async function main() {
     );
 
     const eeatPayload = await generateRecallEeat(current);
+    counters.processed += 1;
+    if (eeatPayload.status === "openai:ok") {
+      counters.openaiOk += 1;
+    } else {
+      counters.fallback += 1;
+    }
     console.log(`  openai: ${eeatPayload.status}`);
     if (eeatPayload.details) {
       console.log(`  detail: ${eeatPayload.details}`);
@@ -693,13 +740,17 @@ async function main() {
     };
 
     appendSectionsToRecall(current, eeatPayload);
+    hashState[current.slug] = buildSourceHash(current);
 
     saveOutput();
+    counters.saved += 1;
     console.log(`  saved: ${current.slug}`);
+    console.log(`  totals: ${fmtCountMap(counters)}`);
     if (interrupted) break;
   }
 
   saveOutput();
+  console.log(`Final totals: ${fmtCountMap(counters)}`);
   console.log(`Done. Wrote EEAT copy to ${opts.output}`);
 }
 
