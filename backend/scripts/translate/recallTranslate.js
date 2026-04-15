@@ -57,12 +57,15 @@ const ONE = flags.includes("--one");
 const LIMIT_ARG = Number((flags.find(f => f.startsWith("--limit=")) || "").split("=")[1]);
 const SLUG_ARG = flags.find(f => f.startsWith("--slug="))?.split("=")[1]
   || (args[0] && !args[0].startsWith("--") ? args[0] : null);
+const INPUT_ARG = flags.find(f => f.startsWith("--input="))?.split("=")[1] || null;
 const OUTPUT_ARG = flags.find(f => f.startsWith("--output="))?.split("=")[1] || null;
 const LIMIT = ONE ? 1 : (Number.isFinite(LIMIT_ARG) && LIMIT_ARG > 0 ? Math.floor(LIMIT_ARG) : null);
-const RECALLS_JSON_PATH = path.join(SCRIPTS_ROOT, "recalls.json");
+const INPUT_JSON_PATH = INPUT_ARG
+  ? path.resolve(BACKEND_ROOT, INPUT_ARG)
+  : path.join(SCRIPTS_ROOT, "recalls.english.cleaned.json");
 const OUTPUT_JSON_PATH = OUTPUT_ARG
   ? path.resolve(BACKEND_ROOT, OUTPUT_ARG)
-  : null;
+  : path.join(__dirname, "recalls-cleaned-translated.json");
 const RUN_LOG_PATH = path.join(__dirname, "recallTranslate.run-log.json");
 let ACTIVE_RUN_LOG = null;
 const HEADLINE_CACHE = new Map();
@@ -901,12 +904,12 @@ function flushRunLog(runLog) {
 async function upsertRecallInRecallsJson(coll, recallId) {
   const doc = await coll.findOne({ _id: recallId });
   if (!doc || !doc.slug) return false;
-  const arr = readJsonArraySafe(RECALLS_JSON_PATH);
+  const arr = readJsonArraySafe(OUTPUT_JSON_PATH || INPUT_JSON_PATH);
   const idx = arr.findIndex((r) => (r.slug || r.id) === doc.slug);
   if (idx >= 0) arr[idx] = doc;
   else arr.push(doc);
   arr.sort((a, b) => (b.sortOrder ?? 0) - (a.sortOrder ?? 0));
-  writeJsonArray(RECALLS_JSON_PATH, arr);
+  writeJsonArray(OUTPUT_JSON_PATH || INPUT_JSON_PATH, arr);
   return true;
 }
 
@@ -919,7 +922,7 @@ async function main() {
 
   if (DRY_RUN) uiWarn("DRY RUN — no writes");
   if (RESET) uiWarn("RESET — clearing all existing translations");
-  if (!MONGO_MODE) uiInfo("Source", "recalls.json only (no MongoDB)");
+  if (!MONGO_MODE) uiInfo("Source", INPUT_JSON_PATH);
   if (OUTPUT_JSON_PATH) uiInfo("Output file", OUTPUT_JSON_PATH);
   uiInfo("Run log", RUN_LOG_PATH);
   if (!RESET && !SLUG_ARG && !RESUME_PARTIAL) {
@@ -939,11 +942,11 @@ async function main() {
       process.stdout.write(`  ${C.cyan}▸${C.reset} Writing full Mongo snapshot to recalls.json…`);
       const allDocs = await coll.find({}).toArray();
       allDocs.sort((a, b) => (b.sortOrder ?? 0) - (a.sortOrder ?? 0));
-      writeJsonArray(RECALLS_JSON_PATH, allDocs);
+      writeJsonArray(OUTPUT_JSON_PATH || INPUT_JSON_PATH, allDocs);
       process.stdout.write(` ${C.green}done${C.reset}\n`);
     }
   } else {
-    recalls = readJsonArraySafe(RECALLS_JSON_PATH);
+    recalls = readJsonArraySafe(INPUT_JSON_PATH);
   }
 
   if (OUTPUT_JSON_PATH && !RESET) {
@@ -978,7 +981,7 @@ async function main() {
         delete r.languages;
         delete r.translatedAt;
       });
-      writeJsonArray(RECALLS_JSON_PATH, recalls);
+      writeJsonArray(OUTPUT_JSON_PATH || INPUT_JSON_PATH, recalls);
     }
     if (SLUG_ARG) recalls = recalls.filter((r) => r.slug === SLUG_ARG);
     else if (!RESET && !RESUME_PARTIAL) recalls = recalls.filter((r) => !r.translatedAt);
@@ -1067,7 +1070,7 @@ async function main() {
       if (OUTPUT_JSON_PATH) {
         upsertRecallInFile(OUTPUT_JSON_PATH, recall);
       } else {
-        writeJsonArray(RECALLS_JSON_PATH, readJsonArraySafe(RECALLS_JSON_PATH).map((r) => ((r.slug || r.id) === (recall.slug || recall.id) ? recall : r)));
+        writeJsonArray(INPUT_JSON_PATH, readJsonArraySafe(INPUT_JSON_PATH).map((r) => ((r.slug || r.id) === (recall.slug || recall.id) ? recall : r)));
       }
     }
     if (langsNeeded.length === 0) {
@@ -1098,7 +1101,7 @@ async function main() {
       if (OUTPUT_JSON_PATH) {
         upsertRecallInFile(OUTPUT_JSON_PATH, recall);
       } else {
-        writeJsonArray(RECALLS_JSON_PATH, readJsonArraySafe(RECALLS_JSON_PATH).map((r) => ((r.slug || r.id) === (recall.slug || recall.id) ? recall : r)));
+        writeJsonArray(INPUT_JSON_PATH, readJsonArraySafe(INPUT_JSON_PATH).map((r) => ((r.slug || r.id) === (recall.slug || recall.id) ? recall : r)));
       }
     }
 
@@ -1133,7 +1136,7 @@ async function main() {
             if (OUTPUT_JSON_PATH) {
               upsertRecallInFile(OUTPUT_JSON_PATH, recall);
             } else {
-              writeJsonArray(RECALLS_JSON_PATH, readJsonArraySafe(RECALLS_JSON_PATH).map((r) => ((r.slug || r.id) === (recall.slug || recall.id) ? recall : r)));
+              writeJsonArray(INPUT_JSON_PATH, readJsonArraySafe(INPUT_JSON_PATH).map((r) => ((r.slug || r.id) === (recall.slug || recall.id) ? recall : r)));
             }
           }
         },
@@ -1164,7 +1167,7 @@ async function main() {
         if (OUTPUT_JSON_PATH) {
           upsertRecallInFile(OUTPUT_JSON_PATH, recall);
         } else {
-          writeJsonArray(RECALLS_JSON_PATH, readJsonArraySafe(RECALLS_JSON_PATH).map((r) => ((r.slug || r.id) === (recall.slug || recall.id) ? recall : r)));
+          writeJsonArray(INPUT_JSON_PATH, readJsonArraySafe(INPUT_JSON_PATH).map((r) => ((r.slug || r.id) === (recall.slug || recall.id) ? recall : r)));
         }
       }
 
@@ -1192,7 +1195,7 @@ async function main() {
       if (OUTPUT_JSON_PATH) {
         upsertRecallInFile(OUTPUT_JSON_PATH, recall);
       } else {
-        writeJsonArray(RECALLS_JSON_PATH, readJsonArraySafe(RECALLS_JSON_PATH).map((r) => ((r.slug || r.id) === (recall.slug || recall.id) ? recall : r)));
+        writeJsonArray(INPUT_JSON_PATH, readJsonArraySafe(INPUT_JSON_PATH).map((r) => ((r.slug || r.id) === (recall.slug || recall.id) ? recall : r)));
       }
     }
 
