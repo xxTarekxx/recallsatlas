@@ -667,6 +667,26 @@ function makeDescription({
     return text;
 }
 
+function makeSeoHeadline({
+    title,
+    companyName,
+    brandName,
+    productDescription,
+    reason,
+}) {
+    const current = cleanText(title || "");
+    if (current && !/^product recall$/i.test(current)) return current;
+
+    const entity = cleanText(brandName || companyName || "");
+    const product = cleanText(productDescription || "Product");
+    const hazard = cleanText(reason || "a safety issue");
+
+    if (entity) {
+        return cleanText(`${entity} Recalls ${product} Over ${hazard}`);
+    }
+    return cleanText(`Recall: ${product} Due to ${hazard}`);
+}
+
 function makeKeywords({
     companyName,
     brandName,
@@ -704,22 +724,22 @@ function buildAuthorityLinks(detailUrl, consumerWebsite, companyWebsite, lotChec
 
     if (detailUrl) {
         links.push(
-            `FDA recall page <a href='${detailUrl}' target='_blank' rel='noopener noreferrer'>here</a>.`
+            `Read the official FDA recall notice <a href='${detailUrl}' target='_blank' rel='noopener noreferrer'>on the FDA website</a>.`
         );
     }
     if (lotCheckUrl) {
         links.push(
-            `Lot-check or replacement information <a href='${lotCheckUrl}' target='_blank' rel='noopener noreferrer'>here</a>.`
+            `Check lot or replacement information <a href='${lotCheckUrl}' target='_blank' rel='noopener noreferrer'>on the company support page</a>.`
         );
     }
     if (consumerWebsite) {
         links.push(
-            `Company consumer information <a href='${consumerWebsite}' target='_blank' rel='noopener noreferrer'>here</a>.`
+            `Review consumer support information <a href='${consumerWebsite}' target='_blank' rel='noopener noreferrer'>on the company website</a>.`
         );
     }
     if (companyWebsite && companyWebsite !== consumerWebsite && companyWebsite !== lotCheckUrl) {
         links.push(
-            `Company website <a href='${companyWebsite}' target='_blank' rel='noopener noreferrer'>here</a>.`
+            `Visit the company website <a href='${companyWebsite}' target='_blank' rel='noopener noreferrer'>for product details</a>.`
         );
     }
 
@@ -817,6 +837,88 @@ Rules:
 - No markdown.
 - Maximum 90 words.
 - Do not include legal disclaimers, forward-looking language, or investor information.
+
+Context:
+Company: ${companyName}
+Brand: ${brandName}
+Product: ${productDescription}
+Reason: ${reason}
+Consumer phone: ${consumerPhone}
+Consumer email: ${consumerEmail}
+Lot or replacement URL: ${lotCheckUrl}
+`.trim();
+
+    return await callOpenAI(prompt, "consumerAction");
+}
+
+async function rewriteAnnouncementForSEOv2({
+    title,
+    companyName,
+    brandName,
+    productDescription,
+    productType,
+    reason,
+    rawAnnouncement,
+}) {
+    if (!cleanText(rawAnnouncement) || cleanText(rawAnnouncement).length < 40) return "";
+
+    const prompt = `
+Rewrite the following FDA/company recall announcement for an informational recall summary. Output must be compact, useful, and easy to scan.
+
+Format rules:
+- Output must be valid HTML only (no Markdown). Use tags that are valid inside JSON.
+- Use <p>...</p> for each paragraph.
+- When the source lists products, lot numbers, expiration dates, or UPCs: return an HTML <table> with <thead><tr><th>...</th></tr></thead> and <tbody><tr><td>...</td></tr></tbody>. One row per product or variant.
+- Keep 2-3 short <p> paragraphs for the main summary, then add the <table> for structured product data below when needed.
+- No invented facts. Preserve all important details such as lots, dates, UPCs, and quantities. For links use <a href="URL">text</a>.
+
+Tone and content:
+- Neutral, factual tone. Keep it unique for SEO and useful for readers.
+- Make clear the information comes from the company announcement and/or FDA posting.
+- Preserve facts. Do NOT include investor language, securities language, forward-looking statements, media boilerplate, or legal disclaimers.
+- Focus on recall facts, who is affected, what the risk is, and why it matters.
+- Do NOT include step-by-step consumer instructions if they will be covered in a separate action section.
+- Do NOT repeat company contact details unless they are essential to understanding the recall.
+- Do NOT add repeated source-link callouts like "FDA recall page here" inside the summary.
+
+Context:
+Title: ${title}
+Company: ${companyName}
+Brand: ${brandName}
+Product: ${productDescription}
+Product Type: ${productType}
+Reason: ${reason}
+
+Source announcement:
+${rawAnnouncement}
+`.trim();
+
+    return await callOpenAI(prompt, "rewriteAnnouncement");
+}
+
+async function generateConsumerActionTextV2({
+    companyName,
+    brandName,
+    productDescription,
+    reason,
+    consumerPhone,
+    consumerEmail,
+    lotCheckUrl,
+}) {
+    const prompt = `
+Write one concise "What You Should Do" paragraph for consumers about this FDA recall.
+
+Rules:
+- Neutral and factual.
+- Mention checking lot or product details if applicable.
+- Mention contacting the company if support details exist.
+- Do not invent instructions that are not supported by the provided context.
+- Keep it to one short paragraph.
+- No markdown.
+- Maximum 75 words.
+- Do not include legal disclaimers, forward-looking language, or investor information.
+- Do not restate the full recall summary or repeat the hazard explanation more than once.
+- Do not repeat source-link language like "FDA recall page here".
 
 Context:
 Company: ${companyName}
@@ -1515,37 +1617,30 @@ function buildContentSections({
         omitEmptyDeep({
             subtitle: "Recall Summary",
             text: rewrittenSummary || buildFallbackRecallSummary(data),
-            authorityLinks,
         })
     );
 
-    sections.push(
-        omitEmptyDeep({
-            subtitle: "What Was Recalled",
-            facts: omitEmptyDeep({
-                company: cleanText(data.companyName || ""),
-                brand: cleanText(data.brandName || ""),
-                product: cleanText(data.productDescription || ""),
-                productType: cleanText(data.productType || ""),
-            }),
-        })
-    );
-
-    sections.push(
-        omitEmptyDeep({
-            subtitle: "Reason for Recall",
-            text:
-                data.reason ||
-                "The FDA listing included a recall reason for this product.",
-        })
-    );
+    const recallFacts = omitEmptyDeep({
+        company: cleanText(data.companyName || ""),
+        brand: cleanText(data.brandName || ""),
+        product: cleanText(data.productDescription || ""),
+        productType: cleanText(data.productType || ""),
+        reason: cleanText(data.reason || ""),
+    });
+    if (Object.keys(recallFacts).length) {
+        sections.push(
+            omitEmptyDeep({
+                subtitle: "What Was Recalled",
+                facts: recallFacts,
+            })
+        );
+    }
 
     if (consumerActionText) {
         sections.push(
             omitEmptyDeep({
-                subtitle: "What Consumers Should Do",
+                subtitle: "What You Should Do",
                 text: consumerActionText,
-                authorityLinks,
             })
         );
     } else {
@@ -1568,9 +1663,8 @@ function buildContentSections({
         if (fallbackText) {
             sections.push(
                 omitEmptyDeep({
-                    subtitle: "What Consumers Should Do",
+                    subtitle: "What You Should Do",
                     text: fallbackText,
-                    authorityLinks,
                 })
             );
         }
@@ -1597,7 +1691,7 @@ function buildContentSections({
 
     sections.push(
         omitEmptyDeep({
-            subtitle: "Official Source",
+            subtitle: "Source and Verification",
             text: cleanText(
                 `According to the U.S. Food and Drug Administration (FDA), this recall notice was published on ${normalizeDate(data.fdaPublishDateTime || data.fdaPublishDateText) || "the FDA recall page"
                 }.`
@@ -1608,7 +1702,11 @@ function buildContentSections({
 
     return sections
         .map((section) => omitEmptyDeep(section))
-        .filter((section) => cleanText(section.text));
+        .filter((section) =>
+            cleanText(section.text) ||
+            (section.facts && Object.keys(section.facts).length) ||
+            (Array.isArray(section.authorityLinks) && section.authorityLinks.length)
+        );
 }
 
 // ======================================================
@@ -1873,7 +1971,7 @@ function fdaFirstNRowsAllAlreadyStored(fdaRows, processedUrls, n) {
             log(`Slug: ${slug}`);
             log(`Folder: ${folderName}`);
 
-            const rewrittenSummary = await rewriteAnnouncementForSEO({
+            const rewrittenSummary = await rewriteAnnouncementForSEOv2({
                 title: merged.title,
                 companyName: merged.companyName,
                 brandName: merged.brandName,
@@ -1885,7 +1983,7 @@ function fdaFirstNRowsAllAlreadyStored(fdaRows, processedUrls, n) {
 
             await randomDelay("after rewrite");
 
-            const consumerActionText = await generateConsumerActionText({
+            const consumerActionText = await generateConsumerActionTextV2({
                 companyName: merged.companyName,
                 brandName: merged.brandName,
                 productDescription: merged.productDescription,
@@ -1928,6 +2026,13 @@ function fdaFirstNRowsAllAlreadyStored(fdaRows, processedUrls, n) {
                 reason: merged.reason,
                 year,
             });
+            const seoHeadline = makeSeoHeadline({
+                title: merged.title,
+                companyName: merged.companyName,
+                brandName: merged.brandName,
+                productDescription: merged.productDescription,
+                reason: merged.reason,
+            });
 
             const keywords = makeKeywords({
                 companyName: merged.companyName,
@@ -1942,13 +2047,14 @@ function fdaFirstNRowsAllAlreadyStored(fdaRows, processedUrls, n) {
             const article = omitEmptyDeep({
                 "@context": "https://schema.org",
                 "@type": "Article",
+                schemaVersion: "recall-v2",
 
                 id: slug,
                 slug,
                 sortOrder: assignedSortOrder,
                 canonicalUrl,
                 mainEntityOfPage: canonicalUrl,
-                headline: merged.title || `${merged.brandName || merged.companyName || "FDA"} recall`,
+                headline: seoHeadline,
                 author: {
                     "@type": "Organization",
                     name: "Recalls Atlas",
@@ -1964,12 +2070,15 @@ function fdaFirstNRowsAllAlreadyStored(fdaRows, processedUrls, n) {
                 },
                 datePublished: publishedDate,
                 dateModified: todayISODate(),
-                image: buildPrimaryImageObject(savedImages, merged.title),
+                image: buildPrimaryImageObject(savedImages, seoHeadline),
                 description,
                 keywords,
                 content: contentSections,
 
                 sourceUrl: detailUrl,
+                sourceAuthority: "FDA",
+                sourcePublishedAt: publishedDate,
+                sourceFetchedAt: nowISO(),
                 scrapedAt: nowISO(),
 
                 pageTypeLabel: merged.pageTypeLabel,

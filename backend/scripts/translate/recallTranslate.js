@@ -270,6 +270,41 @@ function normalizeWhitespace(value) {
   return String(value || "").replace(/\s+/g, " ").trim();
 }
 
+function stripHtml(value) {
+  return normalizeWhitespace(
+    String(value || "")
+      .replace(/<script[\s\S]*?<\/script>/gi, " ")
+      .replace(/<style[\s\S]*?<\/style>/gi, " ")
+      .replace(/<[^>]+>/g, " ")
+      .replace(/&nbsp;/gi, " ")
+      .replace(/&amp;/gi, "&")
+  );
+}
+
+function normalizeSectionSubtitle(value) {
+  const text = normalizeWhitespace(value);
+  if (!text) return text;
+  return /^summary$/i.test(text) ? "Recall Summary" : text;
+}
+
+function firstSentence(text, maxLen = 180) {
+  const t = normalizeWhitespace(text);
+  if (!t) return "";
+  const m = t.match(/^[\s\S]*?[.!?](?=\s|$)/);
+  const s = normalizeWhitespace(m ? m[0] : t);
+  if (s.length <= maxLen) return s;
+  return `${s.slice(0, maxLen - 1).trimEnd()}…`;
+}
+
+function deriveConsumerActionSummary(content) {
+  const sections = Array.isArray(content) ? content : [];
+  const action = sections.find((s) => /what consumers should do/i.test(String(s?.subtitle || "")));
+  if (action?.text) return firstSentence(stripHtml(action.text), 180);
+  const summary = sections.find((s) => /recall summary|summary/i.test(String(s?.subtitle || "")));
+  if (summary?.text) return firstSentence(stripHtml(summary.text), 180);
+  return "";
+}
+
 function isBadTranslationOutput(output, sourceText = "") {
   const text = normalizeWhitespace(output);
   if (!text) return true;
@@ -310,7 +345,9 @@ function sanitizeTranslatedSection(section, sourceSection) {
   if (!section || typeof section !== "object") return section;
   const out = { ...section };
   if (typeof out.subtitle === "string") {
-    out.subtitle = scrubBadTranslationText(out.subtitle, sourceSection?.subtitle || "");
+    out.subtitle = normalizeSectionSubtitle(
+      scrubBadTranslationText(out.subtitle, sourceSection?.subtitle || "")
+    );
   }
   if (typeof out.text === "string") {
     out.text = scrubBadTranslationText(out.text, sourceSection?.text || "");
@@ -501,7 +538,7 @@ function buildEnglishSource(recall, headlineOverride) {
     .filter((section) => String(section?.subtitle || "").toLowerCase() !== "what was recalled")
     .map(section => {
       const s = {};
-      if (section.subtitle) s.subtitle = section.subtitle;
+      if (section.subtitle) s.subtitle = normalizeSectionSubtitle(section.subtitle);
       if (section.text) s.text = section.text;
       if (Array.isArray(section.authorityLinks) && section.authorityLinks.length) {
         s.authorityLinks = section.authorityLinks;
@@ -512,10 +549,13 @@ function buildEnglishSource(recall, headlineOverride) {
       return s;
     });
 
+  const consumerActionSummary = deriveConsumerActionSummary(content);
+
   return {
     title: recall.title || "",
     headline: headlineOverride || deriveHeadline(recall),
     description: recall.description || "",
+    consumerActionSummary,
     productDescription: recall.productDescription || "",
     productType: recall.productType || "",
     reason: recall.reason || "",
@@ -535,7 +575,7 @@ function buildEnglishSource(recall, headlineOverride) {
 
 function countElements(source) {
   const topFields = [
-    "title", "headline", "description", "productDescription", "productType",
+    "title", "headline", "description", "consumerActionSummary", "productDescription", "productType",
     "reason", "disclaimer", "pageTypeLabel", "label", "regulatedProducts",
   ];
   let n = topFields.filter(k => source[k]).length;
@@ -699,7 +739,7 @@ async function translateLangObject(source, langName, langCode, existingLang, onP
   }
 
   const topFields = [
-    "title", "headline", "description", "productDescription", "productType",
+    "title", "headline", "description", "consumerActionSummary", "productDescription", "productType",
     "reason", "disclaimer", "pageTypeLabel", "label", "regulatedProducts",
   ];
   for (const key of topFields) {
