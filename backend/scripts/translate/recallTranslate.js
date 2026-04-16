@@ -46,6 +46,7 @@ if (!OPENAI_API_KEY) { console.error("Missing OPENAI_API_KEY"); process.exit(1);
 
 const MODEL = "gpt-4.1-mini";
 const RATE_LIMIT_MS = 30;   // ms between OpenAI calls
+const OPENAI_MAX_RETRIES = 3;
 
 const flags = process.argv.slice(2).filter(a => a.startsWith("--"));
 const args = process.argv.slice(2).filter(a => !a.startsWith("--"));
@@ -206,67 +207,81 @@ async function translateText(text, langName) {
     return { ok: true, text, reason: "empty-source" };
   }
 
-  const controller = new AbortController();
-  const timer = setTimeout(() => controller.abort(), 20000);
+  for (let attempt = 1; attempt <= OPENAI_MAX_RETRIES; attempt++) {
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), 20000);
 
-  try {
-    const res = await fetch("https://api.openai.com/v1/responses", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        "Authorization": `Bearer ${OPENAI_API_KEY}`,
-      },
-      body: JSON.stringify({
-        model: MODEL,
-        input: [
-          `You are a professional translator for a public safety recall website.`,
-          `Translate the following text into ${langName}.`,
-          `Rules:`,
-          `- Return ONLY the translated text, nothing else.`,
-          `- Keep all HTML tags, href URLs, brand names, product names, and numbers exactly as they are.`,
-          `- Do not add explanations, notes, or disclaimers.`,
-          `- Do not translate proper nouns like company names, product model numbers, or FDA/NHTSA.`,
-          `- Never output placeholders, filler text, or requests for missing input.`,
-          `- This content is for FDA or consumer product recalls. Do not mention NHTSA, vehicle safety, driving, or unrelated product domains unless the source text explicitly does so.`,
-          `- Preserve a formal, safety-oriented tone and keep safety facts accurate, including whether injuries were or were not reported.`,
-          `- Keep all HTML <a> tags intact, but localize the visible anchor text naturally for ${langName}.`,
-          ``,
-          text,
-        ].join("\n"),
-      }),
-      signal: controller.signal,
-    });
+    try {
+      const res = await fetch("https://api.openai.com/v1/responses", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          "Authorization": `Bearer ${OPENAI_API_KEY}`,
+        },
+        body: JSON.stringify({
+          model: MODEL,
+          input: [
+            `You are a professional translator for a public safety recall website.`,
+            `Translate the following text into ${langName}.`,
+            `Rules:`,
+            `- Return ONLY the translated text, nothing else.`,
+            `- Keep all HTML tags, href URLs, brand names, product names, and numbers exactly as they are.`,
+            `- Do not add explanations, notes, or disclaimers.`,
+            `- Do not translate proper nouns like company names, product model numbers, or FDA/NHTSA.`,
+            `- Never output placeholders, filler text, or requests for missing input.`,
+            `- This content is for FDA or consumer product recalls. Do not mention NHTSA, vehicle safety, driving, or unrelated product domains unless the source text explicitly does so.`,
+            `- Preserve a formal, safety-oriented tone and keep safety facts accurate, including whether injuries were or were not reported.`,
+            `- Keep all HTML <a> tags intact, but localize the visible anchor text naturally for ${langName}.`,
+            ``,
+            text,
+          ].join("\n"),
+        }),
+        signal: controller.signal,
+      });
 
-    clearTimeout(timer);
-    if (!res.ok) {
-      return { ok: false, text: null, reason: `http-${res.status}` };
+      clearTimeout(timer);
+      if (!res.ok) {
+        const reason = `http-${res.status}`;
+        if (attempt < OPENAI_MAX_RETRIES && (res.status >= 500 || res.status === 429)) {
+          await delay(1000 * attempt);
+          continue;
+        }
+        return { ok: false, text: null, reason };
+      }
+
+      const data = await res.json();
+      const translated = (
+        data.output?.[0]?.content?.[0]?.text ||
+        data.output_text ||
+        ""
+      ).trim();
+
+      if (!translated) {
+        return { ok: false, text: null, reason: "empty-response" };
+      }
+
+      if (isBadTranslationOutput(translated, text)) {
+        return { ok: false, text: null, reason: "rejected-output" };
+      }
+
+      return { ok: true, text: translated, reason: "translated" };
+
+    } catch (error) {
+      clearTimeout(timer);
+      const reason = error?.name === "AbortError" ? "timeout" : "network-or-parse";
+      if (attempt < OPENAI_MAX_RETRIES) {
+        await delay(1000 * attempt);
+        continue;
+      }
+      return {
+        ok: false,
+        text: null,
+        reason,
+      };
     }
-
-    const data = await res.json();
-    const translated = (
-      data.output?.[0]?.content?.[0]?.text ||
-      data.output_text ||
-      ""
-    ).trim();
-
-    if (!translated) {
-      return { ok: false, text: null, reason: "empty-response" };
-    }
-
-    if (isBadTranslationOutput(translated, text)) {
-      return { ok: false, text: null, reason: "rejected-output" };
-    }
-
-    return { ok: true, text: translated, reason: "translated" };
-
-  } catch (error) {
-    clearTimeout(timer);
-    return {
-      ok: false,
-      text: null,
-      reason: error?.name === "AbortError" ? "timeout" : "network-or-parse",
-    };
   }
+
+  return { ok: false, text: null, reason: "retry-exhausted" };
 }
 
 function normalizeWhitespace(value) {
@@ -716,26 +731,47 @@ async function translateLangObject(source, langName, langCode, existingLang, onP
     const translatedChunks = [];
 
     for (let i = 0; i < chunks.length; i++) {
+      const chunkTaskKey = `${taskKey}:chunk:${i}`;
+      if (doneSet.has(chunkTaskKey)) {
+        translatedChunks.push("");
+        continue;
+      }
       await delay(RATE_LIMIT_MS);
       const result = await translateText(chunks[i], langName);
       if (!result.ok) {
         runLog.failures.push({
           slug,
           lang: langCode,
-          taskKey: `${taskKey}:chunk:${i}`,
+          taskKey: chunkTaskKey,
           reason: result.reason,
         });
-        throw new Error(`Translation failed for ${langCode} ${taskKey}:chunk:${i}: ${result.reason}`);
+        throw new Error(`Translation failed for ${langCode} ${chunkTaskKey}: ${result.reason}`);
       }
       translatedChunks.push(result.text);
       runLog.successes.push({
         slug,
         lang: langCode,
-        taskKey: `${taskKey}:chunk:${i}`,
+        taskKey: chunkTaskKey,
       });
+      doneSet.add(chunkTaskKey);
+      await checkpoint();
     }
 
-    assign(translatedChunks.join("\n\n"));
+    const finalChunks = [];
+    for (let i = 0; i < chunks.length; i++) {
+      const chunkTaskKey = `${taskKey}:chunk:${i}`;
+      const existingChunk = prior?._checkpoint?.chunkTexts?.[chunkTaskKey];
+      finalChunks.push(translatedChunks[i] || existingChunk || "");
+    }
+    assign(finalChunks.join("\n\n"));
+    if (!result._checkpoint || typeof result._checkpoint !== "object") result._checkpoint = {};
+    if (!result._checkpoint.chunkTexts || typeof result._checkpoint.chunkTexts !== "object") {
+      result._checkpoint.chunkTexts = {};
+    }
+    for (let i = 0; i < chunks.length; i++) {
+      const chunkTaskKey = `${taskKey}:chunk:${i}`;
+      if (translatedChunks[i]) result._checkpoint.chunkTexts[chunkTaskKey] = translatedChunks[i];
+    }
     doneSet.add(taskKey);
     markDone(taskKey);
     await checkpoint();
