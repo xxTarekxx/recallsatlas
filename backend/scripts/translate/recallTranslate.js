@@ -866,8 +866,10 @@ function hasMeaningfulLanguageContent(langObj) {
 function isLanguageComplete(langObj) {
   if (!langObj || typeof langObj !== "object") return false;
   if (langObj?._checkpoint?.complete === true) return true;
-  // Backward compatibility: if older docs have no checkpoint but do have
-  // translated content, treat them as complete to avoid re-translation.
+  const hasSourceHash = typeof langObj?._sourceHash === "string" && langObj._sourceHash.trim();
+  if (hasSourceHash) return false;
+  // Backward compatibility only for truly old translations that predate
+  // checkpoint/source-hash support.
   return hasMeaningfulLanguageContent(langObj);
 }
 
