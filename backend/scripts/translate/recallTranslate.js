@@ -45,8 +45,10 @@ if (!OPENAI_API_KEY) { console.error("Missing OPENAI_API_KEY"); process.exit(1);
 // ─── Config ───────────────────────────────────────────────────────────────────
 
 const MODEL = "gpt-4.1-mini";
-const RATE_LIMIT_MS = 30;   // ms between OpenAI calls
-const OPENAI_MAX_RETRIES = 3;
+const RATE_LIMIT_MS = 120;   // ms between OpenAI calls
+const OPENAI_MAX_RETRIES = 4;
+const OPENAI_TIMEOUT_MS = 60000;
+const TRANSLATION_CHUNK_MAX_LEN = 900;
 
 const flags = process.argv.slice(2).filter(a => a.startsWith("--"));
 const args = process.argv.slice(2).filter(a => !a.startsWith("--"));
@@ -209,7 +211,7 @@ async function translateText(text, langName) {
 
   for (let attempt = 1; attempt <= OPENAI_MAX_RETRIES; attempt++) {
     const controller = new AbortController();
-    const timer = setTimeout(() => controller.abort(), 20000);
+    const timer = setTimeout(() => controller.abort(), OPENAI_TIMEOUT_MS);
 
     try {
       const res = await fetch("https://api.openai.com/v1/responses", {
@@ -243,7 +245,7 @@ async function translateText(text, langName) {
       if (!res.ok) {
         const reason = `http-${res.status}`;
         if (attempt < OPENAI_MAX_RETRIES && (res.status >= 500 || res.status === 429)) {
-          await delay(1000 * attempt);
+          await delay(2000 * attempt);
           continue;
         }
         return { ok: false, text: null, reason };
@@ -270,7 +272,7 @@ async function translateText(text, langName) {
       clearTimeout(timer);
       const reason = error?.name === "AbortError" ? "timeout" : "network-or-parse";
       if (attempt < OPENAI_MAX_RETRIES) {
-        await delay(1000 * attempt);
+        await delay(2000 * attempt);
         continue;
       }
       return {
@@ -608,7 +610,7 @@ function countElements(source) {
   return n;
 }
 
-function splitTextIntoChunks(text, maxLen = 1800) {
+function splitTextIntoChunks(text, maxLen = TRANSLATION_CHUNK_MAX_LEN) {
   const normalized = String(text || "").trim();
   if (!normalized) return [];
   if (normalized.length <= maxLen) return [normalized];
