@@ -703,7 +703,7 @@ async function translateLangObject(source, langName, langCode, existingLang, onP
     await delay(RATE_LIMIT_MS);
     const result = await translateText(sourceText, langName);
     if (!result.ok) {
-      runLog.failures.push({
+      recordRunLogFailure(runLog, {
         slug,
         lang: langCode,
         taskKey,
@@ -712,7 +712,7 @@ async function translateLangObject(source, langName, langCode, existingLang, onP
       throw new Error(`Translation failed for ${langCode} ${taskKey}: ${result.reason}`);
     }
     assign(result.text);
-    runLog.successes.push({
+    recordRunLogSuccess(runLog, {
       slug,
       lang: langCode,
       taskKey,
@@ -741,7 +741,7 @@ async function translateLangObject(source, langName, langCode, existingLang, onP
       await delay(RATE_LIMIT_MS);
       const result = await translateText(chunks[i], langName);
       if (!result.ok) {
-        runLog.failures.push({
+        recordRunLogFailure(runLog, {
           slug,
           lang: langCode,
           taskKey: chunkTaskKey,
@@ -750,7 +750,7 @@ async function translateLangObject(source, langName, langCode, existingLang, onP
         throw new Error(`Translation failed for ${langCode} ${chunkTaskKey}: ${result.reason}`);
       }
       translatedChunks.push(result.text);
-      runLog.successes.push({
+      recordRunLogSuccess(runLog, {
         slug,
         lang: langCode,
         taskKey: chunkTaskKey,
@@ -938,6 +938,16 @@ function flushRunLog(runLog) {
   runLog.summary.languageSuccesses = runLog.successes.length;
   runLog.summary.languageFailures = runLog.failures.length;
   fs.writeFileSync(RUN_LOG_PATH, JSON.stringify(runLog, null, 2), "utf8");
+}
+
+function recordRunLogSuccess(runLog, entry) {
+  runLog.successes.push(entry);
+  flushRunLog(runLog);
+}
+
+function recordRunLogFailure(runLog, entry) {
+  runLog.failures.push(entry);
+  flushRunLog(runLog);
 }
 
 /** Replace one recall in recalls.json with a full Mongo document (includes languages). */
@@ -1153,6 +1163,7 @@ async function main() {
         `     ${lang.flag}  ${lang.name.padEnd(12)} ${progressBar(0, totalElements)}\r`
       );
 
+      try {
       const translated = await translateLangObject(
         enSource,
         lang.name,
@@ -1215,6 +1226,20 @@ async function main() {
         `     ${lang.flag}  ${lang.name.padEnd(12)} ${progressBar(totalElements, totalElements)}` +
         `  ${C.green}✓${C.reset}  ${C.dim}${fmtElapsed(langMs)}${C.reset}\n`
       );
+      } catch (err) {
+        const reason = err?.message || String(err);
+        recordRunLogFailure(runLog, {
+          slug,
+          lang: lang.code,
+          taskKey: "language",
+          reason,
+        });
+        process.stdout.write(
+          `     ${lang.flag}  ${lang.name.padEnd(12)} ${progressBar(0, totalElements)}` +
+          `  ${C.red}?${C.reset}  ${C.dim}${reason}${C.reset}\n`
+        );
+        continue;
+      }
     }
 
     // Mark recall as fully translated
