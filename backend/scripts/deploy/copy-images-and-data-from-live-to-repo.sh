@@ -29,8 +29,4 @@ sync_checksum \
   "/var/www/html/recallsatlas/public/images/recalls" \
   "/var/www/html/recallsatlas-repo/frontend/public/images/recalls"
 
-sync_checksum \
-  "/var/www/html/recallsatlas/backend/scripts" \
-  "/var/www/html/recallsatlas-repo/backend/scripts"
-
 echo "Live image and script data synced into /var/www/html/recallsatlas-repo"
