@@ -30,6 +30,7 @@ const fs = require("fs");
 const crypto = require("crypto");
 const PIPELINE_ROOT = path.join(__dirname, "..", "..");
 const DATA_ROOT = path.join(PIPELINE_ROOT, "data");
+const LOGS_ROOT = path.join(DATA_ROOT, "logs");
 const BACKEND_ROOT = path.join(PIPELINE_ROOT, "..");
 const ENV_ROOT = path.join(BACKEND_ROOT, "scripts");
 
@@ -71,7 +72,7 @@ const INPUT_JSON_PATH = INPUT_ARG
 const OUTPUT_JSON_PATH = OUTPUT_ARG
   ? path.resolve(BACKEND_ROOT, OUTPUT_ARG)
   : path.join(DATA_ROOT, "recalls-cleaned-translated.json");
-const RUN_LOG_PATH = path.join(DATA_ROOT, "recallTranslate.run-log.json");
+const RUN_LOG_PATH = path.join(LOGS_ROOT, "recallTranslate.run-log.json");
 let ACTIVE_RUN_LOG = null;
 const HEADLINE_CACHE = new Map();
 

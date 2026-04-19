@@ -2,6 +2,7 @@ const path = require("path");
 const fs = require("fs");
 const PIPELINE_ROOT = path.join(__dirname, "..", "..");
 const DATA_ROOT = path.join(PIPELINE_ROOT, "data");
+const LOGS_ROOT = path.join(DATA_ROOT, "logs");
 const BACKEND_ROOT = path.join(PIPELINE_ROOT, "..");
 const ENV_ROOT = path.join(BACKEND_ROOT, "scripts");
 require("dotenv").config({
@@ -62,7 +63,7 @@ function resolveImageBaseDir() {
 const IMAGE_BASE_DIR = resolveImageBaseDir();
 const JSON_PATH = path.join(DATA_ROOT, "recalls.json");
 const IMAGE_MAP_PATH = path.join(DATA_ROOT, "image-map.json");
-const LOG_PATH = path.join(DATA_ROOT, "recalls-log.txt");
+const LOG_PATH = path.join(LOGS_ROOT, "recalls-log.txt");
 
 const START_SORT_ORDER = 1000;
 const MAX_RECORDS = 100;  // max NEW recalls per run

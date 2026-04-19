@@ -6,6 +6,7 @@ const crypto = require("crypto");
 
 const PIPELINE_ROOT = path.join(__dirname, "..", "..");
 const DATA_ROOT = path.join(PIPELINE_ROOT, "data");
+const LOGS_ROOT = path.join(DATA_ROOT, "logs");
 const BACKEND_ROOT = path.join(PIPELINE_ROOT, "..");
 const ENV_ROOT = path.join(BACKEND_ROOT, "scripts");
 
@@ -20,8 +21,8 @@ const MODEL = process.env.OPENAI_ENGLISH_BACKFILL_MODEL || "gpt-4.1-mini";
 
 const INPUT_PATH = path.join(DATA_ROOT, "recalls.json");
 const OUTPUT_PATH_DEFAULT = path.join(DATA_ROOT, "recalls.english.cleaned.json");
-const HASH_PATH_DEFAULT = path.join(DATA_ROOT, "backfillEnglishRecallStructure.hashes.json");
-const LOG_PATH_DEFAULT = path.join(DATA_ROOT, "backfillEnglishRecallStructure.run-log.json");
+const HASH_PATH_DEFAULT = path.join(LOGS_ROOT, "backfillEnglishRecallStructure.hashes.json");
+const LOG_PATH_DEFAULT = path.join(LOGS_ROOT, "backfillEnglishRecallStructure.run-log.json");
 
 const C = {
   reset: "\x1b[0m",
