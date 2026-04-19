@@ -45,7 +45,7 @@ if (!OPENAI_API_KEY) { console.error("Missing OPENAI_API_KEY"); process.exit(1);
 // ─── Config ───────────────────────────────────────────────────────────────────
 
 const MODEL = "gpt-4.1-mini";
-const RATE_LIMIT_MS = 120;   // ms between OpenAI calls
+const RATE_LIMIT_MS = 50;   // ms between OpenAI calls
 const OPENAI_MAX_RETRIES = 4;
 const OPENAI_TIMEOUT_MS = 60000;
 const TRANSLATION_CHUNK_MAX_LEN = 900;
