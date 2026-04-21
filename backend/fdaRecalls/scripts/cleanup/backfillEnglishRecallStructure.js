@@ -533,7 +533,7 @@ function applyEnglishBackfill(recall, optimized) {
   next.description = optimized.description;
   next.content = buildCleanSections(next, optimized);
   const enOnly = {
-    ...(next.languages.en || {}),
+    ...((next.languages && next.languages.en) || {}),
     title: next.title || "",
     headline: next.headline || "",
     description: next.description || "",
