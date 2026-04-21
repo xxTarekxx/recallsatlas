@@ -7314,3 +7314,16 @@ Call log:
 [2026-04-21T20:21:47.368Z] Delay 6557ms → after detail complete
 [2026-04-21T20:21:54.100Z] Progress saved. recalls=317 imageMap=987
 [2026-04-21T20:21:54.140Z] DONE
+[2026-04-21T21:37:02.341Z] SortOrder gaps (missing): 304
+[2026-04-21T21:37:02.342Z] Loaded existing recalls: 317, unique sourceUrls: 317
+[2026-04-21T21:37:02.343Z] IMAGE_BASE_DIR: C:\var\www\html\recallsatlas\public\images\recalls
+[2026-04-21T21:37:02.343Z] Newest existing date: 2026-04-20T04:00:00.000Z (vs FDA table + sourceUrl)
+[2026-04-21T21:37:02.534Z] Opening FDA recalls listing...
+[2026-04-21T21:37:10.791Z] Delay 6129ms → after initial listing load
+[2026-04-21T21:37:18.084Z] Set DataTable page size to 100 and Terminated Recall filter to No
+[2026-04-21T21:37:18.085Z] Reading DataTable page 1 (enumerate new rows)…
+[2026-04-21T21:37:23.117Z] Rows found on page 1: 100
+[2026-04-21T21:37:23.118Z] FDA first 5 row(s) (or full page if shorter) are already in recalls.json — nothing new, skipping table scan.
+[2026-04-21T21:37:23.118Z] No new recalls to ingest (list date + sourceUrl checks).
+[2026-04-21T21:37:23.284Z] Progress saved. recalls=317 imageMap=987
+[2026-04-21T21:37:23.329Z] DONE
