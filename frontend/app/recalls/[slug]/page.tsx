@@ -37,5 +37,6 @@ export default async function RecallDetailPage({ params }: PageProps) {
     notFound();
   }
 
-  return <RecallDetail recall={recall} dbError={dbError} currentLang="en" />;
+  const serialized = recall ? JSON.parse(JSON.stringify(recall)) : null;
+  return <RecallDetail recall={serialized} dbError={dbError} currentLang="en" />;
 }
