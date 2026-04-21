@@ -121,6 +121,7 @@ const progress = {
     total: MAX_RECORDS,
     status: "",
     _lastLine: "",
+    _lastPlainKey: "",
     clear() {
         if (!isTTY) return;
         process.stdout.write("\r" + " ".repeat(process.stdout.columns || 80) + "\r");
@@ -142,6 +143,16 @@ const progress = {
         if (current !== undefined) this.current = current;
         if (total !== undefined) this.total = total;
         if (status !== undefined) this.status = status;
+        if (!isTTY) {
+            const plainKey = `${this.phase}|${this.current}|${this.total}|${this.status}`;
+            if (plainKey !== this._lastPlainKey) {
+                this._lastPlainKey = plainKey;
+                console.log(
+                    `  STATUS  [${this.phase}] ${this.current}/${this.total}${this.status ? `  ${this.status}` : ""}`
+                );
+            }
+            return;
+        }
         this.render();
     },
     finish(message = "Done") {
@@ -164,6 +175,16 @@ function log(message) {
     console.log(consoleLine);
     fs.appendFileSync(LOG_PATH, fileLine + "\n");
     progress.render();
+}
+
+function updateRecallStage(step, total, stage, detail = "") {
+    const suffix = detail ? ` · ${detail}` : "";
+    progress.update({
+        phase: "Scrape",
+        current: step,
+        total: total || 1,
+        status: `${stage}${suffix}`.slice(0, 60),
+    });
 }
 
 function sleep(ms) {
@@ -1936,7 +1957,7 @@ function fdaFirstNRowsAllAlreadyStored(fdaRows, processedUrls, n) {
         const { listRow, detailUrl, normalizedDetailUrl, assignedSortOrder } = cand;
         const step = ci + 1;
         const shortUrl = detailUrl.replace(/^https?:\/\//, "").slice(0, 35);
-        progress.update({ phase: "Scrape", current: step, total: N, status: shortUrl + "…" });
+        updateRecallStage(step, N, "Opening detail page", shortUrl + "…");
         log(`Detail [${step}/${N}] sortOrder=${assignedSortOrder}: ${detailUrl}`);
 
         const detailPage = await context.newPage();
@@ -1944,6 +1965,7 @@ function fdaFirstNRowsAllAlreadyStored(fdaRows, processedUrls, n) {
         detailPage.setDefaultTimeout(NAV_TIMEOUT);
 
         try {
+            updateRecallStage(step, N, "Extracting FDA detail", shortUrl + "…");
             const detailData = await extractDetailPage(detailPage, detailUrl);
             if (!detailData) {
                 log(`Failed to extract detail page: ${detailUrl}`);
@@ -1974,6 +1996,7 @@ function fdaFirstNRowsAllAlreadyStored(fdaRows, processedUrls, n) {
             log(`Slug: ${slug}`);
             log(`Folder: ${folderName}`);
 
+            updateRecallStage(step, N, "Rewriting summary", slug);
             const rewrittenSummary = await rewriteAnnouncementForSEOv2({
                 title: merged.title,
                 companyName: merged.companyName,
@@ -1986,6 +2009,7 @@ function fdaFirstNRowsAllAlreadyStored(fdaRows, processedUrls, n) {
 
             await randomDelay("after rewrite");
 
+            updateRecallStage(step, N, "Writing action guidance", slug);
             const consumerActionText = await generateConsumerActionTextV2({
                 companyName: merged.companyName,
                 brandName: merged.brandName,
@@ -2000,7 +2024,14 @@ function fdaFirstNRowsAllAlreadyStored(fdaRows, processedUrls, n) {
 
             const savedImages = [];
             if (merged.images && merged.images.length > 0) {
+                updateRecallStage(step, N, `Processing images 0/${merged.images.length}`, slug);
                 for (const imageUrl of merged.images) {
+                    updateRecallStage(
+                        step,
+                        N,
+                        `Processing images ${savedImages.length + 1}/${merged.images.length}`,
+                        slug
+                    );
                     const localPath = await processImage(imageUrl, folderName, imageMap);
                     if (localPath) savedImages.push(localPath);
                     await randomDelay("between images");

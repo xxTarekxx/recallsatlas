@@ -7,7 +7,7 @@ node_modules/
 *.log
 lucene-index/
 target/
-data/
+
 
 # Local deploy config (PowerShell)
 frontend/deploy.env.ps1

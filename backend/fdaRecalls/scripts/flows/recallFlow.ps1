@@ -92,12 +92,58 @@ function Run-Step {
   Write-Host "[$StepNum/$TotalSteps] $Label" -ForegroundColor Cyan
   Write-Host ($cmdDisplay -join " ") -ForegroundColor DarkGray
   $start = Get-Date
-  $rawOutput = & node (Join-Path "scripts" $Script) @Args 2>&1
-  foreach ($line in $rawOutput) { Write-Host $line }
-  $exit = $LASTEXITCODE
+  $stepOutput = New-Object System.Collections.Generic.List[string]
+  $streamState = [hashtable]::Synchronized(@{
+    StdoutDone = $false
+    StderrDone = $false
+  })
+
+  $psi = New-Object System.Diagnostics.ProcessStartInfo
+  $psi.FileName = "node"
+  $psi.WorkingDirectory = $backendRoot
+  $psi.UseShellExecute = $false
+  $psi.RedirectStandardOutput = $true
+  $psi.RedirectStandardError = $true
+  $psi.CreateNoWindow = $true
+  [void]$psi.ArgumentList.Add((Join-Path "scripts" $Script))
+  foreach ($arg in $Args) { [void]$psi.ArgumentList.Add($arg) }
+
+  $proc = New-Object System.Diagnostics.Process
+  $proc.StartInfo = $psi
+  $proc.EnableRaisingEvents = $true
+
+  $outHandler = [System.Diagnostics.DataReceivedEventHandler]{
+    param($sender, $eventArgs)
+    if ($null -eq $eventArgs.Data) {
+      $streamState.StdoutDone = $true
+    } else {
+      $stepOutput.Add($eventArgs.Data)
+      Write-Host $eventArgs.Data
+    }
+  }
+  $errHandler = [System.Diagnostics.DataReceivedEventHandler]{
+    param($sender, $eventArgs)
+    if ($null -eq $eventArgs.Data) {
+      $streamState.StderrDone = $true
+    } else {
+      $stepOutput.Add($eventArgs.Data)
+      Write-Host $eventArgs.Data
+    }
+  }
+
+  $proc.add_OutputDataReceived($outHandler)
+  $proc.add_ErrorDataReceived($errHandler)
+  [void]$proc.Start()
+  $proc.BeginOutputReadLine()
+  $proc.BeginErrorReadLine()
+  $proc.WaitForExit()
+  while (-not ($streamState.StdoutDone -and $streamState.StderrDone)) {
+    Start-Sleep -Milliseconds 50
+  }
+  $exit = $proc.ExitCode
   $elapsedSec = [math]::Round(((Get-Date) - $start).TotalSeconds)
   $elapsedFmt = Format-Elapsed $elapsedSec
-  $summary = Get-OutputSummary -Text (($rawOutput | Out-String).Trim())
+  $summary = Get-OutputSummary -Text (($stepOutput | Out-String).Trim())
 
   if ($exit -ne 0) {
     Write-Host "[FAIL] $Label ($elapsedFmt)" -ForegroundColor Red
