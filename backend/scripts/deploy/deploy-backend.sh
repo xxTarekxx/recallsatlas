@@ -17,12 +17,17 @@ rm -f "$LIVE_BACKEND/package-lock.json"
 
 rsync -av \
   --exclude 'node_modules/' \
-  --exclude '.env' \
-  --exclude 'scripts/recalls.json' \
-  --exclude 'scripts/recalls-log.txt' \
-  --exclude 'scripts/Terminated-Excel/' \
   "$REPO_BACKEND/" "$LIVE_BACKEND/"
 
 chmod +x "$LIVE_BACKEND/scripts/flows/"*.sh "$LIVE_BACKEND/scripts/deploy/"*.sh 2>/dev/null || true
+
+echo "Installing production dependencies..."
+(
+  cd "$LIVE_BACKEND"
+  npm install
+)
+
+echo "Restarting PM2 app..."
+pm2 restart recallsatlas
 
 echo "Backend deployed from $REPO_BACKEND to $LIVE_BACKEND"
