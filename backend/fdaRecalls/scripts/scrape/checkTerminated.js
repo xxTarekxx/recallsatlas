@@ -1,7 +1,7 @@
 /**
  * checkTerminated.js
  *
- * Checks recalls.json against an FDA "Terminated Recalls" Excel export and
+ * Checks a recalls JSON file against an FDA "Terminated Recalls" Excel export and
  * marks matching records as terminated.
  *
  * Match strategy (deterministic):
@@ -13,11 +13,14 @@
  *   node scripts/scrape/checkTerminated.js path/to/export.xlsx
  *   node scripts/scrape/checkTerminated.js --fetch                      # download from FDA, then match
  *   node scripts/scrape/checkTerminated.js --fetch --dry-run --mongo
+ *   node scripts/scrape/checkTerminated.js --input=./fdaRecalls/data/recalls-cleaned-translated.json
  *
  * Flags:
  *   --fetch     Open FDA listing, Terminated=Yes, 100/page, Export Excel → scripts/fda-terminated-export.xlsx
  *   --mongo     Push updates to MongoDB (needs MONGODB_URI)
  *   --dry-run   Print matches without saving
+ *   --input     JSON file to read (defaults to recalls.json)
+ *   --output    JSON file to write (defaults to --input)
  *
  * Env: HEADLESS=false to show the browser during --fetch (scripts/.env or backend/.env)
  */
@@ -39,7 +42,12 @@ const { chromium } = require("playwright");
 // ─── Config ───────────────────────────────────────────────────────────────────
 
 /** recalls.json now lives in the same directory as the scripts. */
-const JSON_PATH = path.join(DATA_ROOT, "recalls.json");
+const JSON_INPUT_PATH = process.argv.slice(2).find((arg) => arg.startsWith("--input="))
+  ? path.resolve(
+      BACKEND_ROOT,
+      process.argv.slice(2).find((arg) => arg.startsWith("--input=")).slice("--input=".length)
+    )
+  : path.join(DATA_ROOT, "recalls.json");
 
 /** Timestamped downloads go here — one file per run, keep history. */
 const DOWNLOADS_DIR = path.join(DATA_ROOT, "Terminated-Excel");
@@ -54,6 +62,12 @@ const flags = process.argv.slice(2).filter((a) => a.startsWith("--"));
 const WITH_MONGO = flags.includes("--mongo");
 const DRY_RUN = flags.includes("--dry-run");
 const FETCH = flags.includes("--fetch");
+const JSON_OUTPUT_PATH = flags.find((flag) => flag.startsWith("--output="))
+  ? path.resolve(
+      BACKEND_ROOT,
+      flags.find((flag) => flag.startsWith("--output=")).slice("--output=".length)
+    )
+  : JSON_INPUT_PATH;
 
 const SCRIPTS_DIR = DATA_ROOT;
 const DEFAULT_NAME = "recalls-market-withdrawals-safety-alert";
@@ -283,8 +297,8 @@ function resolveXlsxPath() {
 // ─── Main ─────────────────────────────────────────────────────────────────────
 
 async function main() {
-  if (!fs.existsSync(JSON_PATH)) {
-    console.error("recalls.json not found:", JSON_PATH);
+  if (!fs.existsSync(JSON_INPUT_PATH)) {
+    console.error("Input recalls JSON not found:", JSON_INPUT_PATH);
     process.exit(1);
   }
 
@@ -302,18 +316,18 @@ async function main() {
     process.exit(1);
   }
 
-  uiHeader("Match · Excel ↔ recalls.json");
+  uiHeader(`Match · Excel ↔ ${path.basename(JSON_INPUT_PATH)}`);
 
   log(`Loading Excel: ${xlsxPath}`);
   const workbook = xlsx.readFile(xlsxPath, { cellDates: true });
   const sheet = workbook.Sheets[workbook.SheetNames[0]];
   const rows = xlsx.utils.sheet_to_json(sheet, { defval: "" });
 
-  const recalls = JSON.parse(fs.readFileSync(JSON_PATH, "utf8"));
+  const recalls = JSON.parse(fs.readFileSync(JSON_INPUT_PATH, "utf8"));
 
   uiSummary([
     ["Excel rows", String(rows.length)],
-    ["recalls.json", String(recalls.length)],
+    [path.basename(JSON_INPUT_PATH), String(recalls.length)],
   ]);
 
   const lookup = new Map();
@@ -387,7 +401,7 @@ async function main() {
         `  ${C.dim}No file changes: every matching recall already has ${C.reset}${C.bold}terminated: true${C.reset}${C.dim} (e.g. you ran this before).${C.reset}\n`
       );
     } else {
-      log("No Excel rows matched date+product in recalls.json — nothing to mark.");
+      log(`No Excel rows matched date+product in ${path.basename(JSON_INPUT_PATH)} — nothing to mark.`);
     }
     process.exit(0);
   }
@@ -411,8 +425,8 @@ async function main() {
     recalls[c.idx].terminatedCheckedAt = checkedAt;
   }
 
-  fs.writeFileSync(JSON_PATH, JSON.stringify(recalls, null, 2), "utf8");
-  log(`\nSaved ${changes.length} update(s) to recalls.json`);
+  fs.writeFileSync(JSON_OUTPUT_PATH, JSON.stringify(recalls, null, 2), "utf8");
+  log(`\nSaved ${changes.length} update(s) to ${path.basename(JSON_OUTPUT_PATH)}`);
 
   if (WITH_MONGO) {
     uiHeader("MongoDB");

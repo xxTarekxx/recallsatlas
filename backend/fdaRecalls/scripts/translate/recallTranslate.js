@@ -979,7 +979,7 @@ async function main() {
   if (OUTPUT_JSON_PATH) uiInfo("Output file", OUTPUT_JSON_PATH);
   uiInfo("Run log", RUN_LOG_PATH);
   if (!RESET && !SLUG_ARG && !RESUME_PARTIAL) {
-    uiInfo("Mode", "new recalls only (use --resume-partial to backfill)");
+    uiInfo("Mode", "hash-aware sync (skips unchanged cleaned recalls)");
   }
   let closeDb = null;
   let recalls = [];
@@ -1037,7 +1037,6 @@ async function main() {
       writeJsonArray(OUTPUT_JSON_PATH || INPUT_JSON_PATH, recalls);
     }
     if (SLUG_ARG) recalls = recalls.filter((r) => r.slug === SLUG_ARG);
-    else if (!RESET && !RESUME_PARTIAL) recalls = recalls.filter((r) => !r.translatedAt);
   }
 
   if (!SLUG_ARG && !RESET && RESUME_PARTIAL) {
@@ -1046,7 +1045,6 @@ async function main() {
     );
   } else if (!SLUG_ARG && !RESET && !RESUME_PARTIAL) {
     recalls = recalls.filter((recall) => {
-      if (recall.translatedAt) return false;
       const enSource = buildEnglishSource(recall);
       const englishHash = sourceHash(enSource);
       return TARGET_LANGS.some((l) => !isLanguageUpToDate(recall.languages?.[l.code], englishHash));

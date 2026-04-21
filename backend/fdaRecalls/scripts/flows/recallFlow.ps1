@@ -80,12 +80,19 @@ function Get-OutputSummary {
 }
 
 function Run-Step {
-  param([string]$Label, [string]$Script, [int]$StepNum, [int]$TotalSteps)
+  param(
+    [string]$Label,
+    [string]$Script,
+    [string[]]$Args = @(),
+    [int]$StepNum,
+    [int]$TotalSteps
+  )
+  $cmdDisplay = @("node", "scripts\$Script") + $Args
   Write-Host ""
   Write-Host "[$StepNum/$TotalSteps] $Label" -ForegroundColor Cyan
-  Write-Host "node scripts\$Script" -ForegroundColor DarkGray
+  Write-Host ($cmdDisplay -join " ") -ForegroundColor DarkGray
   $start = Get-Date
-  $rawOutput = & node (Join-Path "scripts" $Script) 2>&1
+  $rawOutput = & node (Join-Path "scripts" $Script) @Args 2>&1
   foreach ($line in $rawOutput) { Write-Host $line }
   $exit = $LASTEXITCODE
   $elapsedSec = [math]::Round(((Get-Date) - $start).TotalSeconds)
@@ -98,7 +105,7 @@ function Run-Step {
 RecallsAtlas pipeline stopped on a failed step.
 
 Step:    $StepNum / $TotalSteps
-Script:  scripts\$Script
+Script:  $($cmdDisplay -join " ")
 Label:   $Label
 Exit:    $exit
 Elapsed: $elapsedFmt
@@ -116,7 +123,7 @@ $summary
   $okBody = @"
 Step $StepNum of $TotalSteps completed successfully.
 
-Script:  scripts\$Script
+Script:  $($cmdDisplay -join " ")
 Label:   $Label
 Elapsed: $elapsedFmt
 Time:    $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss zzz')
@@ -130,6 +137,7 @@ $summary
   return @{
     Label = $Label
     Script = $Script
+    Args = $Args
     StepNum = $StepNum
     ElapsedFmt = $elapsedFmt
     OutputText = $summary
@@ -138,10 +146,10 @@ $summary
 
 $steps = @(
   @{ label = "Scrape FDA recalls"; script = "scrape\scrapeRecalls.js" },
-  @{ label = "Sync to MongoDB (after scrape)"; script = "sync\recallsToMongo.js" },
-  @{ label = "Translate recalls (Mongo + recalls.json)"; script = "translate\recallTranslate.js" },
-  @{ label = "Check terminated recalls (JSON)"; script = "scrape\checkTerminated.js" },
-  @{ label = "Sync to MongoDB (after terminated check)"; script = "sync\recallsToMongo.js" }
+  @{ label = "Build cleaned English recall structure"; script = "cleanup\backfillEnglishRecallStructure.js"; args = @("--resume") },
+  @{ label = "Translate cleaned recalls"; script = "translate\recallTranslate.js" },
+  @{ label = "Check terminated recalls (translated JSON)"; script = "scrape\checkTerminated.js"; args = @("--fetch", "--input=./fdaRecalls/data/recalls-cleaned-translated.json", "--output=./fdaRecalls/data/recalls-cleaned-translated.json") },
+  @{ label = "Sync translated recalls to MongoDB"; script = "sync\recallsToMongo.js"; args = @("--input=./fdaRecalls/data/recalls-cleaned-translated.json") }
 )
 
 $totalSteps = $steps.Count
@@ -157,7 +165,8 @@ Write-Host "Started: $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')" -ForegroundColor
 $stepNum = 0
 foreach ($step in $steps) {
   $stepNum++
-  $completed += Run-Step -Label $step.label -Script $step.script -StepNum $stepNum -TotalSteps $totalSteps
+  $stepArgs = if ($step.ContainsKey("args")) { $step.args } else { @() }
+  $completed += Run-Step -Label $step.label -Script $step.script -Args $stepArgs -StepNum $stepNum -TotalSteps $totalSteps
 }
 
 $totalElapsed = Format-Elapsed ([math]::Round(((Get-Date) - $globalStart).TotalSeconds))
@@ -176,7 +185,7 @@ $summaryParts = @(
 foreach ($r in $completed) {
   $summaryParts += "=========================================================="
   $summaryParts += "Step $($r.StepNum)/$totalSteps - $($r.Label)"
-  $summaryParts += "Script: scripts\$($r.Script) | Elapsed: $($r.ElapsedFmt)"
+  $summaryParts += "Script: scripts\$($r.Script) $($r.Args -join ' ') | Elapsed: $($r.ElapsedFmt)"
   $summaryParts += "=========================================================="
   $summaryParts += $r.OutputText
   $summaryParts += ""

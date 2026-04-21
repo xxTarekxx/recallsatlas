@@ -159,11 +159,11 @@ echo "Steps:   $TOTAL_STEPS"
 echo "Node:    $($NODE_BIN --version)"
 echo "Started: $(fmt_now_plain)"
 
-run_step "Scrape FDA recalls"                       "scrape/scrapeRecalls.js" 1
-run_step "Sync to MongoDB (after scrape)"           "sync/recallsToMongo.js" 2
-run_step "Translate recalls (Mongo + recalls.json)" "translate/recallTranslate.js" 3
-run_step "Check terminated recalls (fetch + JSON)"  "scrape/checkTerminated.js" 4 --fetch
-run_step "Sync to MongoDB (after terminated check)" "sync/recallsToMongo.js" 5
+run_step "Scrape FDA recalls"                        "scrape/scrapeRecalls.js" 1
+run_step "Build cleaned English recall structure"    "cleanup/backfillEnglishRecallStructure.js" 2 --resume
+run_step "Translate cleaned recalls"                 "translate/recallTranslate.js" 3
+run_step "Check terminated recalls (translated JSON)" "scrape/checkTerminated.js" 4 --fetch --input=./fdaRecalls/data/recalls-cleaned-translated.json --output=./fdaRecalls/data/recalls-cleaned-translated.json
+run_step "Sync translated recalls to MongoDB"        "sync/recallsToMongo.js" 5 --input=./fdaRecalls/data/recalls-cleaned-translated.json
 
 PIPE_END="$(date +%s)"
 PIPE_ELAPSED_FMT="$(format_elapsed "$((PIPE_END - PIPE_START))")"

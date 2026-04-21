@@ -1,5 +1,5 @@
 /**
- * Sync recalls from backend/scripts/recalls.json to MongoDB (recallsatlas.recalls).
+ * Sync recalls from a local recalls JSON file to MongoDB (recallsatlas.recalls).
  *
  * Behaviour:
  * - Keyed by slug (article.id or article.slug, trimmed). No duplicates.
@@ -10,6 +10,7 @@
  *
  * Run from backend/:
  *   node scripts/sync/recallsToMongo.js
+ *   node scripts/sync/recallsToMongo.js --input=./fdaRecalls/data/recalls-cleaned-translated.json
  */
 const path = require("path");
 const fs = require("fs");
@@ -33,7 +34,10 @@ const {
   COLLECTION_RECALLS,
 } = require("../../database/mongodb");
 
-const JSON_PATH = path.join(DATA_ROOT, "recalls.json");
+const INPUT_ARG = process.argv.slice(2).find((arg) => arg.startsWith("--input="));
+const JSON_PATH = INPUT_ARG
+  ? path.resolve(BACKEND_ROOT, INPUT_ARG.slice("--input=".length))
+  : path.join(DATA_ROOT, "recalls.json");
 const SITE_BASE_URL = (process.env.SITE_BASE_URL || "https://recallsatlas.com").replace(
   /\/$/,
   ""
@@ -165,14 +169,14 @@ function articleToMongoDoc(article) {
 
 async function run() {
   if (!fs.existsSync(JSON_PATH)) {
-    console.error("recalls.json not found at:", JSON_PATH);
+    console.error("Input recalls JSON not found at:", JSON_PATH);
     process.exit(1);
   }
 
   const raw = fs.readFileSync(JSON_PATH, "utf8");
   const articles = JSON.parse(raw);
   if (!Array.isArray(articles)) {
-    console.error("recalls.json must be a JSON array.");
+    console.error("Input recalls JSON must be a JSON array.");
     process.exit(1);
   }
 
@@ -188,7 +192,7 @@ async function run() {
     if (doc) localDocs.push(doc);
   }
 
-  console.log("\nLocal  (recalls.json):", localDocs.length, "recall(s)");
+  console.log(`\nLocal  (${path.basename(JSON_PATH)}):`, localDocs.length, "recall(s)");
 
   const mongoCount = await coll.estimatedDocumentCount();
   console.log("MongoDB (collection) :", mongoCount, "recall(s)\n");
