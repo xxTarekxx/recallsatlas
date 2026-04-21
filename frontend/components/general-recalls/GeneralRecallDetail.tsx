@@ -7,6 +7,22 @@ import { GENERAL_RECALL_DETAIL_SECTIONS_UI } from "@/lib/generalRecallDetailSect
 import { withLangPath, type SiteUiLang } from "@/lib/siteLocale";
 
 const listStyle = { paddingInlineStart: "1.25rem", color: "#334155" } as const;
+const extraLabels = {
+  injuries: "Reported injuries",
+  remedyOptions: "Remedy options",
+  manufacturerCountries: "Manufactured in",
+  importers: "Importers",
+  distributors: "Distributors",
+  manufacturers: "Manufacturers",
+  officialNotice: "Official notice",
+} as const;
+
+function normalizedValues(items: string[]) {
+  return items
+    .map((item) => item.trim().toLowerCase())
+    .filter(Boolean)
+    .sort();
+}
 
 type Props = {
   recall: GeneralRecall;
@@ -26,6 +42,14 @@ export default function GeneralRecallDetail({ recall, lang }: Props) {
   const title = r.Title || "Product recall";
   const cpscUrl = typeof recall.URL === "string" ? recall.URL : "";
   const localImages = r.Images?.filter((im) => im.URL?.startsWith("/images/")) ?? [];
+  const retailerHeading =
+    typeof r.SoldAtLabel === "string" && r.SoldAtLabel.trim() ? r.SoldAtLabel.trim() : sec.soldAt;
+  const remedyNames = (r.Remedies ?? []).map((item) => item?.Name || "");
+  const remedyOptionNames = (r.RemedyOptions ?? []).map((item) => item?.Option || "");
+  const showRemedyOptions =
+    remedyOptionNames.length > 0 &&
+    JSON.stringify(normalizedValues(remedyNames)) !==
+      JSON.stringify(normalizedValues(remedyOptionNames));
 
   return (
     <div className="recall-detail-page">
@@ -135,12 +159,78 @@ export default function GeneralRecallDetail({ recall, lang }: Props) {
               </section>
             )}
 
+            {showRemedyOptions && (
+              <section style={{ marginBottom: "1.5rem" }}>
+                <h2 style={{ fontSize: "1.1rem", marginBottom: "0.75rem" }}>{extraLabels.remedyOptions}</h2>
+                <ul style={listStyle}>
+                  {r.RemedyOptions?.map((rem, i) => (
+                    <li key={i}>{rem.Option}</li>
+                  ))}
+                </ul>
+              </section>
+            )}
+
             {r.Retailers && r.Retailers.length > 0 && (
               <section style={{ marginBottom: "1.5rem" }}>
-                <h2 style={{ fontSize: "1.1rem", marginBottom: "0.75rem" }}>{sec.soldAt}</h2>
+                <h2 style={{ fontSize: "1.1rem", marginBottom: "0.75rem" }}>{retailerHeading}</h2>
                 <ul style={listStyle}>
                   {r.Retailers.map((ret, i) => (
                     <li key={i}>{ret.Name}</li>
+                  ))}
+                </ul>
+              </section>
+            )}
+
+            {r.Injuries && r.Injuries.length > 0 && (
+              <section style={{ marginBottom: "1.5rem" }}>
+                <h2 style={{ fontSize: "1.1rem", marginBottom: "0.75rem" }}>{extraLabels.injuries}</h2>
+                <ul style={listStyle}>
+                  {r.Injuries.map((inj, i) => (
+                    <li key={i}>{inj.Name}</li>
+                  ))}
+                </ul>
+              </section>
+            )}
+
+            {r.ManufacturerCountries && r.ManufacturerCountries.length > 0 && (
+              <section style={{ marginBottom: "1.5rem" }}>
+                <h2 style={{ fontSize: "1.1rem", marginBottom: "0.75rem" }}>{extraLabels.manufacturerCountries}</h2>
+                <ul style={listStyle}>
+                  {r.ManufacturerCountries.map((country, i) => (
+                    <li key={i}>{country.Country}</li>
+                  ))}
+                </ul>
+              </section>
+            )}
+
+            {r.Importers && r.Importers.length > 0 && (
+              <section style={{ marginBottom: "1.5rem" }}>
+                <h2 style={{ fontSize: "1.1rem", marginBottom: "0.75rem" }}>{extraLabels.importers}</h2>
+                <ul style={listStyle}>
+                  {r.Importers.map((item, i) => (
+                    <li key={i}>{item.Name}</li>
+                  ))}
+                </ul>
+              </section>
+            )}
+
+            {r.Distributors && r.Distributors.length > 0 && (
+              <section style={{ marginBottom: "1.5rem" }}>
+                <h2 style={{ fontSize: "1.1rem", marginBottom: "0.75rem" }}>{extraLabels.distributors}</h2>
+                <ul style={listStyle}>
+                  {r.Distributors.map((item, i) => (
+                    <li key={i}>{item.Name}</li>
+                  ))}
+                </ul>
+              </section>
+            )}
+
+            {r.Manufacturers && r.Manufacturers.length > 0 && (
+              <section style={{ marginBottom: "1.5rem" }}>
+                <h2 style={{ fontSize: "1.1rem", marginBottom: "0.75rem" }}>{extraLabels.manufacturers}</h2>
+                <ul style={listStyle}>
+                  {r.Manufacturers.map((item, i) => (
+                    <li key={i}>{item.Name}</li>
                   ))}
                 </ul>
               </section>
@@ -155,7 +245,7 @@ export default function GeneralRecallDetail({ recall, lang }: Props) {
 
             {cpscUrl && (
               <p style={{ fontSize: "0.9rem", color: "#64748b" }}>
-                Official notice:{" "}
+                {extraLabels.officialNotice}:{" "}
                 <a href={cpscUrl} target="_blank" rel="noopener noreferrer">
                   CPSC recall page
                 </a>

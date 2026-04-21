@@ -26,12 +26,18 @@ export type GeneralRecall = {
   Description?: string;
   URL?: string;
   ConsumerContact?: string;
+  SoldAtLabel?: string;
   Products?: { Name?: string; Model?: string; Type?: string; NumberOfUnits?: string }[];
   Images?: GeneralRecallImage[];
   Hazards?: { Name?: string }[];
   Remedies?: { Name?: string }[];
+  RemedyOptions?: { Option?: string }[];
   Retailers?: { Name?: string }[];
   Injuries?: { Name?: string }[];
+  ManufacturerCountries?: { Country?: string }[];
+  Importers?: { Name?: string }[];
+  Distributors?: { Name?: string }[];
+  Manufacturers?: { Name?: string }[];
   /** Per-UI-lang copy from OpenAI i18n (same shape as top-level fields; Images are usually caption-only). */
   languages?: Record<string, Record<string, unknown>>;
   /** Set when loading from disk: `translatedJson` / source file basename without `.json`. */
@@ -156,6 +162,7 @@ export function mergeGeneralRecallForUiLang(recall: GeneralRecall, lang: SiteUiL
   assignStr("Description");
   assignStr("ConsumerContact");
   assignStr("metaDescription");
+  assignStr("SoldAtLabel");
 
   const assignArr = (key: keyof GeneralRecall) => {
     const v = pack[key as string];
@@ -164,8 +171,13 @@ export function mergeGeneralRecallForUiLang(recall: GeneralRecall, lang: SiteUiL
   assignArr("Products");
   assignArr("Hazards");
   assignArr("Remedies");
+  assignArr("RemedyOptions");
   assignArr("Retailers");
   assignArr("Injuries");
+  assignArr("ManufacturerCountries");
+  assignArr("Importers");
+  assignArr("Distributors");
+  assignArr("Manufacturers");
 
   const baseIm = recall.Images;
   const packIm = pack.Images;
