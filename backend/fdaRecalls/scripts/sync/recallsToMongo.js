@@ -32,12 +32,12 @@ const {
   close,
   DB_NAME,
   COLLECTION_RECALLS,
-} = require("../../database/mongodb");
+} = require("../../../database/mongodb");
 
 const INPUT_ARG = process.argv.slice(2).find((arg) => arg.startsWith("--input="));
 const JSON_PATH = INPUT_ARG
   ? path.resolve(BACKEND_ROOT, INPUT_ARG.slice("--input=".length))
-  : path.join(DATA_ROOT, "recalls.json");
+  : path.join(DATA_ROOT, "recalls-cleaned-translated.json");
 const SITE_BASE_URL = (process.env.SITE_BASE_URL || "https://recallsatlas.com").replace(
   /\/$/,
   ""
