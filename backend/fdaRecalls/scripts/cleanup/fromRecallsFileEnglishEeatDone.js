@@ -4,8 +4,10 @@
  * fromRecallsFileEnglishEeatDone.js
  *
  * English-only E-E-A-T + SEO pass on FDA recalls from recalls.json.
- * Does not modify recalls.json. Writes a new file with improved copy and
- * English-only `languages: { en }`, stripped of other locales.
+ * Does not modify recalls.json.
+ *
+ * Output file contains ONLY recalls that have been processed by this script
+ * (not a full copy of recalls.json). Grows as you run; skip when hash matches.
  *
  * Defaults:
  *   Input:  backend/fdaRecalls/data/recalls.json
@@ -15,13 +17,16 @@
  *
  * Env:
  *   OPENAI_API_KEY (required)
- *   OPENAI_EEAT_FROM_RECALLS_MODEL (optional, default gpt-4.1-mini)
+ *   OPENAI_EEAT_FROM_RECALLS_MODEL (optional, default gpt-4.1)
  *
  * Usage (from repo root):
  *   node backend/fdaRecalls/scripts/cleanup/fromRecallsFileEnglishEeatDone.js
- *   node ... --resume
- *   node ... --pending
- *   node ... --slug=some-slug --limit=1
+ *
+ * Skips unchanged rows automatically (hash file). No --resume / --pending flags.
+ *
+ *   node ... --test     # one recall: first in file that still needs a run
+ *   node ... --limit=3  # first N rows of input (unchanged = skipped; not added to output)
+ *   node ... --slug=... # one slug
  *   node ... --input=... --output=...
  */
 
@@ -42,7 +47,7 @@ require("dotenv").config({
 });
 
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY || "";
-const MODEL = process.env.OPENAI_EEAT_FROM_RECALLS_MODEL || "gpt-4.1-mini";
+const MODEL = process.env.OPENAI_EEAT_FROM_RECALLS_MODEL || "gpt-4.1";
 const OPENAI_TIMEOUT_MS = 90000;
 const OPENAI_MAX_RETRIES = 4;
 const RATE_LIMIT_MS = 120;
@@ -61,6 +66,49 @@ const C = {
   yellow: "\x1b[33m",
   red: "\x1b[31m",
 };
+
+/** Each saved recall: these root keys are overwritten. `languages` is replaced (English-only `en`). */
+const MODIFIED_ROOT_KEYS = [
+  "title",
+  "headline",
+  "description",
+  "keywords",
+  "content",
+  "languages",
+];
+/** Set on `languages.en` (OpenAI rewrites the text fields; facts flow from the saved root recall). */
+const MODIFIED_LANGUAGES_EN_KEYS = [
+  "title",
+  "headline",
+  "description",
+  "productDescription",
+  "productType",
+  "reason",
+  "disclaimer",
+  "pageTypeLabel",
+  "label",
+  "regulatedProducts",
+  "content",
+  "dir",
+  "flag",
+  "lang",
+];
+
+function progressBar(current, total, width = 30) {
+  const safe = total > 0 ? total : 1;
+  const ratio = Math.min(Math.max(current, 0), safe) / safe;
+  const filled = Math.round(ratio * width);
+  const pct = Math.round(ratio * 100);
+  return `${"█".repeat(filled)}${"░".repeat(width - filled)}  ${String(pct).padStart(3)}%`;
+}
+
+function recallPosLabel(recall, fullList, slug) {
+  if (recall && recall.sortOrder != null && String(recall.sortOrder).length) {
+    return `sortOrder=${recall.sortOrder}`;
+  }
+  const n = fullList.findIndex((r) => (r.slug || r.id) === slug) + 1;
+  return n > 0 ? `row ${n}/${fullList.length}` : "row ?";
+}
 
 function ensureDir(p) {
   if (!fs.existsSync(p)) fs.mkdirSync(p, { recursive: true });
@@ -84,9 +132,6 @@ function parseArgs() {
     if (flag.startsWith("--logfile=")) out.logFile = path.resolve(flag.slice(10));
     if (flag.startsWith("--slug=")) out.slug = flag.slice(7).trim();
     if (flag.startsWith("--limit=")) out.limit = Number(flag.slice(8));
-  }
-  if (out.test && (out.limit == null || !Number.isFinite(out.limit) || out.limit < 1)) {
-    out.limit = 1;
   }
   return out;
 }
@@ -112,6 +157,13 @@ function writeJson(p, v) {
   fs.writeFileSync(p, JSON.stringify(v, null, 2), "utf8");
 }
 
+/** Persist only processed recalls, newest sortOrder first (matches typical recalls.json order). */
+function flushProcessedOutput(outputBySlug) {
+  const arr = Array.from(outputBySlug.values());
+  arr.sort((a, b) => (Number(b.sortOrder) || 0) - (Number(a.sortOrder) || 0));
+  return arr;
+}
+
 function delay(ms) {
   return new Promise((r) => setTimeout(r, ms));
 }
@@ -128,8 +180,43 @@ function normalizeWhitespace(value) {
   return String(value || "").replace(/\s+/g, " ").trim();
 }
 
+/** Curly quotes / typographic apostrophe → ASCII (fewer editor/JSON UI issues). */
+function normalizeEditorSafeText(value) {
+  if (value == null || typeof value !== "string") return value;
+  return value
+    .replace(/\u2019/g, "'")
+    .replace(/\u2018/g, "'")
+    .replace(/\u201c/g, '"')
+    .replace(/\u201d/g, '"');
+}
+
+/** Zero-width / BOM / soft hyphen — often trigger bad perf in editors on huge JSON strings. */
+function sanitizeStringForStableFile(value) {
+  if (value == null || typeof value !== "string") return value;
+  return normalizeEditorSafeText(value).replace(/\u200b|\u200c|\u200d|\u2060|\ufeff|\u00ad/g, "");
+}
+
+/** Apply sanitizeStringForStableFile to every string leaf before writing output JSON. */
+function deepSanitizeForEditorOutput(value) {
+  if (value == null) return value;
+  if (typeof value === "string") return sanitizeStringForStableFile(value);
+  if (Array.isArray(value)) return value.map(deepSanitizeForEditorOutput);
+  if (typeof value === "object") {
+    const out = {};
+    for (const k of Object.keys(value)) {
+      out[k] = deepSanitizeForEditorOutput(value[k]);
+    }
+    return out;
+  }
+  return value;
+}
+
+function processedArrayForWrite(outputBySlug) {
+  return flushProcessedOutput(outputBySlug).map((r) => deepSanitizeForEditorOutput(r));
+}
+
 function cleanText(value) {
-  return normalizeWhitespace(value);
+  return normalizeEditorSafeText(normalizeWhitespace(value));
 }
 
 function stripHtml(value) {
@@ -427,7 +514,9 @@ function pickOptimized(model, fallback) {
     title: cleanText(model.title || fallback.title) || fallback.title,
     headline: cleanText(model.headline || fallback.headline) || fallback.headline,
     description: cleanText(model.description || fallback.description) || fallback.description,
-    recallSummaryHtml: String(model.recallSummaryHtml || fallback.recallSummaryHtml || "").trim() || fallback.recallSummaryHtml,
+    recallSummaryHtml:
+      normalizeEditorSafeText(String(model.recallSummaryHtml || fallback.recallSummaryHtml || "").trim()) ||
+      fallback.recallSummaryHtml,
     actionText: cleanText(model.actionText || fallback.actionText) || fallback.actionText,
     keywords: Array.isArray(model.keywords) ? model.keywords.map((k) => cleanText(k)).filter(Boolean) : fallback.keywords,
   };
@@ -480,7 +569,7 @@ function applyEnglishEeatResult(recall, optimized) {
       : String(next.regulatedProducts || ""),
     content: next.content,
     dir: "ltr",
-    flag: "🇺🇸",
+    flag: "US",
     lang: "en",
   };
   next.languages = { en };
@@ -566,62 +655,83 @@ async function main() {
 
   ensureDir(LOGS_ROOT);
   const fullList = readJsonArray(args.input);
-  let workList = fullList;
-  if (args.slug) workList = workList.filter((r) => (r.slug || r.id) === args.slug);
-  if (Number.isFinite(args.limit) && args.limit > 0) workList = workList.slice(0, Math.floor(args.limit));
-
-  const existingOut = args.resume || args.pending ? readJsonArray(args.output) : [];
+  const existingOut = readJsonArray(args.output);
   const outputBySlug = new Map(existingOut.map((r) => [r.slug || r.id, r]));
   const hashes = readJsonObject(args.hashFile);
 
-  function canSkip(recall) {
-    return canSkipByHash({ recall, outputBySlug, hashes, args });
-  }
-  const workTotal = args.pending
-    ? workList.filter((r) => !canSkip(r)).length
-    : workList.length;
-  let pendingI = 0;
-  if (
-    (args.resume || args.pending) &&
-    existingOut.length > 0 &&
-    existingOut.length < fullList.length - 1 &&
-    workList.filter((r) => !canSkip(r)).length > 30
-  ) {
-    console.log(
-      `${C.yellow}WARNING: Output has ${existingOut.length} record(s) but input has ${fullList.length}.` +
-        ` Missing slugs = full re-process unless you restore a backup. Hash file does not store full JSON.${C.reset}\n`
-    );
+  const canSkip = (recall) => canSkipByHash(recall, outputBySlug, hashes);
+
+  let workList;
+  if (args.slug) {
+    workList = fullList.filter((r) => (r.slug || r.id) === args.slug);
+  } else if (args.test) {
+    const firstNeed = fullList.find((r) => !canSkipByHash(r, outputBySlug, hashes));
+    if (!firstNeed) {
+      console.log(
+        "\n" +
+          C.green +
+          "Test: every recall in the input is already in the output with a matching hash." +
+          C.reset +
+          "\n  Nothing to run. Remove a hash for a slug or delete the output to force a re-run."
+      );
+      process.exit(0);
+    }
+    workList = [firstNeed];
+  } else if (Number.isFinite(args.limit) && args.limit > 0) {
+    workList = fullList.slice(0, Math.floor(args.limit));
+  } else {
+    workList = fullList;
   }
 
-  const runLog = { startedAt: new Date().toISOString(), successes: [], failures: [], summary: {} };
+  const toProcess = workList.filter((r) => !canSkip(r));
+  const workTotal = toProcess.length;
+  const willSkip = workList.length - workTotal;
+  let workIndex = 0;
+
+  const runLog = {
+    startedAt: new Date().toISOString(),
+    successes: [],
+    failures: [],
+    summary: {},
+    outputMode: "processed-only",
+  };
   let saved = 0;
   let skipped = 0;
   let failed = 0;
   const t0 = Date.now();
-  let rowN = 0;
 
   console.log(`\n${C.cyan}fromRecallsFile → English E-E-A-T${C.reset}`);
   console.log(`  input:  ${args.input}`);
-  console.log(`  output: ${args.output}`);
+  console.log(`  output: ${args.output}  ${C.dim}(only processed recalls; not a full mirror of input)${C.reset}`);
   console.log(`  model:  ${MODEL}`);
-  console.log(`  rows:   ${workList.length} (of ${fullList.length} in file)`);
-  if (args.pending) console.log(`  pending to run: ~${workTotal}\n`);
-  else console.log("");
+  console.log(`  already in output file: ${existingOut.length} recall(s)`);
+  if (args.test) {
+    console.log(`  ${C.yellow}--test${C.reset}  (single recall: first in file that still needs a run)`);
+  }
+  console.log(
+    `  scope:  ${workList.length} row(s) in this run (of ${fullList.length} in file)  |  ` +
+      `${C.green}${workTotal} to process${C.reset}  |  ${C.dim}${willSkip} skip (unchanged)${C.reset}`
+  );
+  if (workTotal === 0) {
+    console.log(`\n${C.green}Up to date.${C.reset} Nothing to do for this run.\n`);
+  }
+  console.log(`${C.dim}Each processed recall updates these root keys: ${MODIFIED_ROOT_KEYS.join(", ")}${C.reset}`);
+  console.log(
+    `${C.dim}languages.en keys set: ${MODIFIED_LANGUAGES_EN_KEYS.join(", ")}${C.reset}\n`
+  );
 
   for (const recall of workList) {
     const slug = recall.slug || recall.id;
-    rowN += 1;
     if (canSkip(recall)) {
       skipped++;
-      if (!args.pending) console.log(`  ${C.yellow}skip${C.reset} [${rowN}/${workList.length}] ${slug}`);
       continue;
     }
-    pendingI++;
-    if (args.pending) {
-      console.log(`  ${C.bold}[${pendingI}/${workTotal}]${C.reset} ${slug}`);
-    } else {
-      console.log(`  [${rowN}/${workList.length}] ${slug}`);
-    }
+    workIndex += 1;
+    const pos = recallPosLabel(recall, fullList, slug);
+    const shortSlug = slug.length > 72 ? `${slug.slice(0, 70)}…` : slug;
+    console.log(
+      `\n  ${C.bold}── ${workIndex} / ${workTotal}  (${pos})${C.reset}\n  ${C.dim}${shortSlug}${C.reset}`
+    );
 
     await delay(RATE_LIMIT_MS);
     try {
@@ -630,24 +740,27 @@ async function main() {
       hashes[slug] = h;
       outputBySlug.set(slug, updated);
       writeJson(args.hashFile, hashes);
-      const merged = fullList.map((r) => {
-        const s = r.slug || r.id;
-        return outputBySlug.get(s) || r;
-      });
-      writeJson(args.output, merged);
+      writeJson(args.output, processedArrayForWrite(outputBySlug));
       saved++;
-      console.log(`  ${C.green}saved${C.reset} ${slug}`);
+      console.log(
+        `  ${C.green}saved${C.reset}  [${progressBar(workIndex, workTotal)}]  ${C.dim}keys: ${MODIFIED_ROOT_KEYS.join(", ")}${C.reset}`
+      );
     } catch (e) {
       failed++;
       runLog.failures.push({ slug, error: e.message || String(e) });
-      console.log(`  ${C.red}fail${C.reset} ${slug} ${e.message || e}`);
+      console.log(
+        `  ${C.red}fail${C.reset}  [${progressBar(workIndex, workTotal)}]  ${e.message || e}`
+      );
     }
   }
 
   runLog.finishedAt = new Date().toISOString();
   runLog.summary = { saved, skipped, failed, elapsed: fmtElapsed(Date.now() - t0) };
   writeJson(args.logFile, runLog);
-  console.log(`\nDone. saved=${saved} skipped=${skipped} failed=${failed} time=${runLog.summary.elapsed}`);
+  console.log(
+    `\nDone. saved=${saved}  skipped(unchanged)=${skipped}  failed=${failed}  time=${runLog.summary.elapsed}` +
+      (workTotal > 0 ? `  [${progressBar(workTotal, workTotal)}] of run` : "")
+  );
 }
 
 main().catch((e) => {
