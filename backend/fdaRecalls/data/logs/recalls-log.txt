@@ -7327,3 +7327,53 @@ Call log:
 [2026-04-21T21:37:23.118Z] No new recalls to ingest (list date + sourceUrl checks).
 [2026-04-21T21:37:23.284Z] Progress saved. recalls=317 imageMap=987
 [2026-04-21T21:37:23.329Z] DONE
+[2026-04-25T00:55:44.924Z] SortOrder gaps (missing): 304
+[2026-04-25T00:55:44.925Z] Loaded existing recalls: 317, unique sourceUrls: 317
+[2026-04-25T00:55:44.926Z] IMAGE_BASE_DIR: C:\Users\perso\recallsatlas\backend\frontend\public\images\recalls
+[2026-04-25T00:55:44.926Z] Newest existing date: 2026-04-20T04:00:00.000Z (vs FDA table + sourceUrl)
+[2026-04-25T00:55:45.801Z] Opening FDA recalls listing...
+[2026-04-25T00:55:54.334Z] Delay 6144ms → after initial listing load
+[2026-04-25T00:56:02.156Z] Set DataTable page size to 100 and Terminated Recall filter to No
+[2026-04-25T00:56:02.157Z] Reading DataTable page 1 (enumerate new rows)…
+[2026-04-25T00:56:07.186Z] Rows found on page 1: 100
+[2026-04-25T00:56:07.187Z] Skip already stored (sourceUrl): https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/windstone-medical-packaging-dba-aligned-medical-solutions-issues-nationwide-recall-namic
+[2026-04-25T00:56:07.187Z] Skip already stored (sourceUrl): https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/revival-animal-health-llc-voluntarily-recalls-canine-milk-replacers-due-elevated-levels-vitamin-d
+[2026-04-25T00:56:07.188Z] Skip already stored (sourceUrl): https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/silver-moon-lp-dba-loards-ice-cream-issues-allergy-alert-undeclared-milk-eggs-tree-nuts-peanuts-soy
+[2026-04-25T00:56:07.188Z] Skip already stored (sourceUrl): https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/liquid-blenz-corp-recalls-product-due-possible-health-risk
+[2026-04-25T00:56:07.189Z] Skip already stored (sourceUrl): https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/product-recall
+[2026-04-25T00:56:07.189Z] Skip already stored (sourceUrl): https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/blueroot-health-expands-voluntary-allergy-alert-undeclared-egg-hazelnut-and-soy-vital-nutrients
+[2026-04-25T00:56:07.190Z] Skip already stored (sourceUrl): https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/blaine-labs-inc-issues-voluntary-nationwide-recall-wound-care-gel-products-due-microbial
+[2026-04-25T00:56:07.190Z] Skip already stored (sourceUrl): https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/nalpac-issues-voluntary-nationwide-recall-dtf-sexual-chocolate-due-presence-pharmaceutical
+[2026-04-25T00:56:07.190Z] Skip already stored (sourceUrl): https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/wawa-issues-product-recall-16-oz-wawa-brand-iced-tea-lemon-iced-tea-diet-lemon-diet-lemonade-and
+[2026-04-25T00:56:07.191Z] Skip already stored (sourceUrl): https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/voluntary-recall
+[2026-04-25T00:56:07.191Z] Skip already stored (sourceUrl): https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/aphreseller-buy-herbalcom-issues-voluntary-nationwide-recall-kian-pee-wan-capsules-due-presence
+[2026-04-25T00:56:07.192Z] Skip already stored (sourceUrl): https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/tops-issues-recall-christopher-ranch-peeled-garlic-garland-fresh-peeled-garlic-because-possible
+[2026-04-25T00:56:07.192Z] Skip already stored (sourceUrl): https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/schreiber-foods-inc-issues-allergy-alert-undeclared-tree-nuts-almonds-product
+[2026-04-25T00:56:07.192Z] Reached older FDA rows; stopping table scan.
+[2026-04-25T00:56:07.192Z] New recalls to ingest: 2 — sortOrder 320 (FDA table top) … 319 (oldest in batch)
+[2026-04-25T00:56:07.193Z] Detail [1/2] sortOrder=320: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/french-broad-chocolates-pbc-recalls-bettes-bake-sale-bonbons-due-undeclared-walnuts
+[2026-04-25T00:56:07.763Z] Slug: bette-s-bake-sale-bonbon-collection-in-6pc-2-5oz-french-broad-chocolate-recall-2
+[2026-04-25T00:56:07.764Z] Folder: 320-bette-s-bake-sale-bonbon-collection-in-6pc-2-5oz-french-broad-chocolate-recall-2
+[2026-04-25T00:56:18.199Z] Delay 6720ms → after rewrite
+[2026-04-25T00:56:26.575Z] Delay 6440ms → after consumer action generation
+[2026-04-25T00:56:33.180Z] Saved image: 320-bette-s-bake-sale-bonbon-collection-in-6pc-2-5oz-french-broad-chocolate-recall-2/4a00287b86a92dc003edfa77d58289ecd74e52b50188d47c29fc70ebfd5f8c8e.webp
+[2026-04-25T00:56:33.181Z] Delay 7994ms → between images
+[2026-04-25T00:56:41.344Z] Saved image: 320-bette-s-bake-sale-bonbon-collection-in-6pc-2-5oz-french-broad-chocolate-recall-2/3a18a65153ba6aba4047f9e688a63cdc5e5dea8c0c25d7322e1c00a90cc6834a.webp
+[2026-04-25T00:56:41.345Z] Delay 6318ms → between images
+[2026-04-25T00:56:47.855Z] Saved image: 320-bette-s-bake-sale-bonbon-collection-in-6pc-2-5oz-french-broad-chocolate-recall-2/030378c5d11a99a6a9dbc658478f2a5cd873d133d69a6c3ddf3ee15b1ed0be99.webp
+[2026-04-25T00:56:47.856Z] Delay 6561ms → between images
+[2026-04-25T00:56:54.600Z] Progress saved. recalls=318 imageMap=990
+[2026-04-25T00:56:54.601Z] Saved article 1/2 this run.
+[2026-04-25T00:56:54.610Z] Delay 7569ms → after detail complete
+[2026-04-25T00:57:02.183Z] Detail [2/2] sortOrder=319: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/ferris-coffee-nut-co-issues-allergy-alert-undeclared-wheat-and-soy-frederiks-meijer-vanilla-bourbon
+[2026-04-25T00:57:02.730Z] Slug: vanilla-bourbon-trail-mix-frederik-s-by-meijer-recall-2026
+[2026-04-25T00:57:02.731Z] Folder: 319-vanilla-bourbon-trail-mix-frederik-s-by-meijer-recall-2026
+[2026-04-25T00:57:09.132Z] Delay 7279ms → after rewrite
+[2026-04-25T00:57:17.840Z] Delay 6610ms → after consumer action generation
+[2026-04-25T00:57:24.643Z] Saved image: 319-vanilla-bourbon-trail-mix-frederik-s-by-meijer-recall-2026/a8c3524ed1b733a4569bd4d85cef2a3f671d4278d6d3974a396a4add70d28ae3.webp
+[2026-04-25T00:57:24.644Z] Delay 6349ms → between images
+[2026-04-25T00:57:31.200Z] Progress saved. recalls=319 imageMap=991
+[2026-04-25T00:57:31.201Z] Saved article 2/2 this run.
+[2026-04-25T00:57:31.208Z] Delay 7062ms → after detail complete
+[2026-04-25T00:57:38.452Z] Progress saved. recalls=319 imageMap=991
+[2026-04-25T00:57:38.522Z] DONE
