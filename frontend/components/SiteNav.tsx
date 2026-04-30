@@ -4,7 +4,6 @@ import { useState, useEffect, useRef, useCallback } from "react";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import SiteBrandLogoLink from "@/components/SiteBrandLogoLink";
-import NavLanguageSelect from "@/components/NavLanguageSelect";
 import { NAV_COPY } from "@/lib/navCopy";
 import {
   isRtlUiLang,
@@ -145,7 +144,6 @@ export default function SiteNav() {
             <span className="sitenav-hamburger-bar" />
             <span className="sitenav-hamburger-bar" />
           </button>
-          <NavLanguageSelect className="sitenav-lang-picker--mobile" />
         </div>
 
         <SiteBrandLogoLink href={homeHref} />
@@ -169,7 +167,6 @@ export default function SiteNav() {
         </nav>
 
         <div className="sitenav-tools">
-          <NavLanguageSelect />
         </div>
       </div>
 
@@ -212,9 +209,6 @@ export default function SiteNav() {
                 </Link>
               );
             })}
-            <div className="sitenav-mobile-lang">
-              <NavLanguageSelect />
-            </div>
           </nav>
         </div>
       )}

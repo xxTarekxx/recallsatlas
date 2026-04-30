@@ -7,8 +7,8 @@ import { withLocalePath, type SiteUiLang } from "@/lib/siteLocale";
 /** Always read current Mongo slugs (avoid stale build/CDN cache after sync). */
 export const dynamic = "force-dynamic";
 
-/** Must match vehicle + FDA localized routes; English has no /en/ prefix. */
-const SITEMAP_LANGS = ["en", "zh", "es", "ar", "hi", "pt", "ru", "fr", "ja", "de", "vi"] as const;
+/** English-only sitemap — multilingual routes are noindexed. */
+const SITEMAP_LANGS = ["en"] as const;
 
 const FDA_SITEMAP_PRIORITY = 0.8;
 const VEHICLE_SITEMAP_PRIORITY = 0.7;

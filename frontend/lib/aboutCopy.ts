@@ -1,20 +1,55 @@
 import type { SiteUiLang } from "@/lib/siteLocale";
 
+export type AboutSection = { heading?: string; paragraphs: string[] };
+
 /** About page — aligned with footer: FDA, NHTSA, CPSC public-service notices; no endorsement. */
 export const ABOUT_COPY: Record<
   SiteUiLang,
-  { title: string; paragraphs: string[]; privacyLabel: string }
+  { title: string; paragraphs: string[]; privacyLabel: string; sections?: AboutSection[] }
 > = {
   en: {
     title: "About Recalls Atlas",
     privacyLabel: "Privacy Policy",
-    paragraphs: [
-      "Recalls Atlas is an independent public-interest website that aggregates U.S. recall information from public government sources: the Food and Drug Administration (FDA) for food, drugs, medical devices, and supplements; the National Highway Traffic Safety Administration (NHTSA) for vehicles; and the Consumer Product Safety Commission (CPSC) for consumer products such as toys, appliances, and home goods. Our goal is to make recall information easier to search, browse, and understand—in plain language and across many languages.",
-      "The FDA, NHTSA, and CPSC post recall announcements as a public service. They do not endorse any recalled product or company. Recalls Atlas is not affiliated with, endorsed by, or sponsored by any government agency. We republish and summarize publicly available information for informational purposes only and do not endorse any product, brand, or company.",
-      "Recall data is sourced from official FDA.gov, NHTSA.gov, and CPSC (and related) public databases and pages, and is updated regularly. Vehicle and consumer-product coverage depends on what those agencies publish. Recalls Atlas is not a substitute for official government sources.",
-      "Translations (other than English) may be AI-generated—always verify critical details on the official source linked from each page. For questions about a specific recall, use the phone numbers and contact information published by the company that issued the recall or shown on the agency notice—not Recalls Atlas.",
-      "Recalls Atlas is built with accessibility in mind (WCAG-minded patterns). For questions, feedback, or corrections, email contact@recallsatlas.com.",
-      "For how we handle analytics, cookies, and similar data when you visit the site, see our Privacy Policy. Recalls Atlas is not liable for decisions made based on information on this site.",
+    paragraphs: [],
+    sections: [
+      {
+        heading: "Our Mission",
+        paragraphs: [
+          "Recalls Atlas is an independent, public-interest website dedicated to making U.S. product recall information accurate, accessible, and easy to act on. We monitor recall announcements published by three federal agencies — the U.S. Food and Drug Administration (FDA) for food, drugs, medical devices, and dietary supplements; the National Highway Traffic Safety Administration (NHTSA) for vehicle safety campaigns; and the Consumer Product Safety Commission (CPSC) for consumer products including toys, appliances, and household goods — and present them in a clear, structured format for the public.",
+        ],
+      },
+      {
+        heading: "What We Publish and How",
+        paragraphs: [
+          "Every recall notice on Recalls Atlas is sourced directly from official government databases and agency pages. For each notice, we produce a structured summary that clearly identifies the products affected (including lot numbers, UPC codes, and date ranges where available), the reason for the recall, the risk to consumers, and what steps consumers should take. We include company contact information so affected consumers can act quickly.",
+          "We do not alter, editorialize, or downplay the factual details published by the agencies. Our goal is to make the information faster to find and easier to understand — not to change it. Every page links directly to the original government source notice so you can verify every detail independently.",
+        ],
+      },
+      {
+        heading: "Our Sources",
+        paragraphs: [
+          "All recall data originates exclusively from official public sources: FDA enforcement reports and safety alerts at FDA.gov, NHTSA vehicle safety recall filings at NHTSA.gov, and CPSC consumer product recall announcements at CPSC.gov. We do not publish recall information from unverified third-party sources. Our database is updated regularly to reflect new notices and agency updates.",
+          "Recalls Atlas is not affiliated with, endorsed by, or sponsored by any government agency. The FDA, NHTSA, and CPSC post recall announcements as a public service and do not endorse any product or company; neither does Recalls Atlas.",
+        ],
+      },
+      {
+        heading: "Accuracy and Corrections",
+        paragraphs: [
+          "We are committed to publishing accurate, up-to-date information. If you believe any information on this site contains an error or is no longer current, please contact us at contact@recallsatlas.com and we will review and correct it promptly. For the definitive and most current status of any recall, always refer to the official government source linked from each recall page.",
+        ],
+      },
+      {
+        heading: "Editorial Independence",
+        paragraphs: [
+          "Recalls Atlas does not accept payment to feature, suppress, or prioritize any recall notice. We do not endorse any recalled product, brand, or company. All content is selected and published on the basis of what has been officially announced by U.S. regulatory agencies — not commercial relationships.",
+        ],
+      },
+      {
+        heading: "Contact Us",
+        paragraphs: [
+          "For questions, corrections, or feedback about this site, email us at contact@recallsatlas.com. For questions about a specific recall — including whether your product is affected, how to get a refund or remedy, or what to do next — please use the contact information provided by the recalling company or the relevant government agency notice, not Recalls Atlas.",
+        ],
+      },
     ],
   },
   es: {

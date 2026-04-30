@@ -16,9 +16,22 @@ export default function AboutPageContent({ lang }: { lang: SiteUiLang }) {
       <main className="main-content policy-main">
         <article className="policy-article">
           <h1 className="policy-heading">{c.title}</h1>
-          {c.paragraphs.map((p, i) => (
-            <p key={i}>{p}</p>
-          ))}
+
+          {"sections" in c && Array.isArray(c.sections)
+            ? c.sections.map((section, i) => (
+                <section key={i} className="about-section">
+                  {section.heading && (
+                    <h2 className="about-section-heading">{section.heading}</h2>
+                  )}
+                  {section.paragraphs.map((p, j) => (
+                    <p key={j}>{p}</p>
+                  ))}
+                </section>
+              ))
+            : c.paragraphs.map((p, i) => (
+                <p key={i}>{p}</p>
+              ))}
+
           <p>
             <Link href={withLangPath("/privacy", lang)}>{c.privacyLabel}</Link>
           </p>

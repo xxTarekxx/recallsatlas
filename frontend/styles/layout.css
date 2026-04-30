@@ -1481,6 +1481,19 @@ button.filter-bar-pill {
   margin: 0 0 var(--spacing-xl);
 }
 
+.about-section {
+  margin-bottom: var(--spacing-xl);
+}
+
+.about-section-heading {
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: var(--color-primary);
+  margin: 0 0 var(--spacing-sm);
+  padding-bottom: 0.35rem;
+  border-bottom: 2px solid var(--color-border, #e2e8f0);
+}
+
 .policy-article h2 {
   font-size: 1.25rem;
   font-weight: 700;

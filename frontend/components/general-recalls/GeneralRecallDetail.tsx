@@ -85,6 +85,22 @@ export default function GeneralRecallDetail({ recall, lang }: Props) {
               </p>
             )}
             <h1 className="recall-detail-title">{title}</h1>
+            <p className="recall-detail-byline">
+              Published by{" "}
+              <span className="recall-detail-byline-publisher">Recalls Atlas</span>
+              {recall.RecallDate ? (
+                <>
+                  {" · Recall issued "}
+                  <time dateTime={String(recall.RecallDate).slice(0, 10)}>
+                    {new Date(recall.RecallDate).toLocaleDateString("en-US", {
+                      year: "numeric",
+                      month: "long",
+                      day: "numeric",
+                    })}
+                  </time>
+                </>
+              ) : null}
+            </p>
           </div>
 
           <div style={{ padding: "var(--spacing-lg)" }}>

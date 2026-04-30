@@ -174,6 +174,22 @@ export default function RecallDetail({ recall, dbError = null, currentLang = "en
           <div className="recall-detail-hero">
             <p className="recall-detail-badge">{chromeUi.fdaBadge}</p>
             <h1 className="recall-detail-title">{fullTitle}</h1>
+            <p className="recall-detail-byline">
+              Published by{" "}
+              <span className="recall-detail-byline-publisher">Recalls Atlas</span>
+              {recall?.datePublished ? (
+                <>
+                  {" · "}
+                  <time dateTime={recall.datePublished}>
+                    {new Date(recall.datePublished).toLocaleDateString("en-US", {
+                      year: "numeric",
+                      month: "long",
+                      day: "numeric",
+                    })}
+                  </time>
+                </>
+              ) : null}
+            </p>
             {disclaimer && (
               <p className="recall-detail-disclaimer">{disclaimer}</p>
             )}
