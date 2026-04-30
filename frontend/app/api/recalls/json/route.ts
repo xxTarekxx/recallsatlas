@@ -29,8 +29,8 @@ export async function GET(request: NextRequest) {
     ];
     let data: any[] = [];
     for (const filePath of candidates) {
-      if (fs.existsSync(filePath)) {
-        const raw = fs.readFileSync(filePath, "utf8");
+      if (fs.existsSync(/*turbopackIgnore: true*/ filePath)) {
+        const raw = fs.readFileSync(/*turbopackIgnore: true*/ filePath, "utf8");
         data = JSON.parse(raw);
         break;
       }

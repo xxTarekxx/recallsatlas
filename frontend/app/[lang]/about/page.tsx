@@ -8,10 +8,11 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.recallsatlas.co
 export async function generateMetadata({
   params,
 }: {
-  params: { lang: string };
+  params: Promise<{ lang: string }>;
 }): Promise<Metadata> {
-  if (!isSiteUiLang(params.lang) || params.lang === "en") notFound();
-  const lang = params.lang as SiteUiLang;
+  const { lang: langParam } = await params;
+  if (!isSiteUiLang(langParam) || langParam === "en") notFound();
+  const lang = langParam as SiteUiLang;
   const canonical = `${siteUrl}/${lang}/about`;
   return {
     title: "About Recalls Atlas – FDA, NHTSA & CPSC Recall Information",
@@ -19,11 +20,12 @@ export async function generateMetadata({
   };
 }
 
-export default function LocalizedAboutPage({
+export default async function LocalizedAboutPage({
   params,
 }: {
-  params: { lang: string };
+  params: Promise<{ lang: string }>;
 }) {
-  if (!isSiteUiLang(params.lang) || params.lang === "en") notFound();
-  return <AboutPageContent lang={params.lang as SiteUiLang} />;
+  const { lang } = await params;
+  if (!isSiteUiLang(lang) || lang === "en") notFound();
+  return <AboutPageContent lang={lang as SiteUiLang} />;
 }

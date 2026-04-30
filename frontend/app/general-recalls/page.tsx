@@ -12,16 +12,17 @@ export const metadata: Metadata = {
   alternates: { canonical: `${siteUrl}/general-recalls` },
 };
 
-export default function GeneralRecallsIndexRoute({
+export default async function GeneralRecallsIndexRoute({
   searchParams,
 }: {
-  searchParams: { q?: string };
+  searchParams: Promise<{ q?: string }>;
 }) {
+  const resolvedSearchParams = await searchParams;
   const initialData = getGeneralRecallListPage({
     lang: "en",
-    q: searchParams?.q || "",
+    q: resolvedSearchParams?.q || "",
   });
   return (
-    <GeneralRecallsSearchPage lang="en" initialQuery={searchParams?.q} initialData={initialData} />
+    <GeneralRecallsSearchPage lang="en" initialQuery={resolvedSearchParams?.q} initialData={initialData} />
   );
 }

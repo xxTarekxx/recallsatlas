@@ -9,13 +9,14 @@ export const metadata: Metadata = {
   },
 };
 
-export default function LangLayout({
+export default async function LangLayout({
   children,
   params,
 }: Readonly<{
   children: React.ReactNode;
-  params: { lang: string };
+  params: Promise<{ lang: string }>;
 }>) {
-  if (!isSiteUiLang(params.lang) || params.lang === "en") notFound();
+  const { lang } = await params;
+  if (!isSiteUiLang(lang) || lang === "en") notFound();
   return children;
 }

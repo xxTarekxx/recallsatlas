@@ -24,7 +24,7 @@ function getCarsJsonPath(): string | null {
     return null;
   }
   if (raw) {
-    const base = path.isAbsolute(raw) ? raw : path.join(process.cwd(), raw);
+    const base = path.isAbsolute(raw) ? raw : path.join(/*turbopackIgnore: true*/ process.cwd(), raw);
     return resolveCarsJsonFilePath(base);
   }
   return path.join(
@@ -62,7 +62,7 @@ export async function mergeCarIntoCarsJsonFile(doc: Record<string, unknown>): Pr
 
     let list: Record<string, unknown>[] = [];
     try {
-      const raw = await fs.readFile(filePath, "utf8");
+      const raw = await fs.readFile(/*turbopackIgnore: true*/ filePath, "utf8");
       const trimmed = raw.trim();
       if (trimmed) {
         const parsed = JSON.parse(trimmed);

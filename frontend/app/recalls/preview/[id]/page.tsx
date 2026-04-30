@@ -15,8 +15,8 @@ function getRecallById(id: string) {
     path.join(base, "..", "backend", "data", "recalls.json"),
   ];
   for (const filePath of candidates) {
-    if (fs.existsSync(filePath)) {
-      const raw = fs.readFileSync(filePath, "utf8");
+    if (fs.existsSync(/*turbopackIgnore: true*/ filePath)) {
+      const raw = fs.readFileSync(/*turbopackIgnore: true*/ filePath, "utf8");
       const data = JSON.parse(raw);
       if (Array.isArray(data)) {
         const recall = data.find((r: any) => r.id === id);

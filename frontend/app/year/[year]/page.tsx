@@ -1,9 +1,10 @@
 import YearRecallsPage from "@/components/fda/YearRecallsPage";
 
 interface PageProps {
-  params: { year: string };
+  params: Promise<{ year: string }>;
 }
 
 export default async function YearPage({ params }: PageProps) {
-  return <YearRecallsPage yearParam={params.year} uiLang="en" />;
+  const { year } = await params;
+  return <YearRecallsPage yearParam={year} uiLang="en" />;
 }

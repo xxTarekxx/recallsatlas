@@ -1,4 +1,6 @@
 import fs from "fs";
+// Indirection prevents Turbopack from statically tracing dynamic runtime paths
+const readFileDynamic = (p: string): string => fs.readFileSync(p, { encoding: "utf8" });
 import path from "path";
 import type { GeneralRecallListItem } from "@/lib/generalRecallListTypes";
 import { isRtlUiLang, isSiteUiLang, type SiteUiLang } from "@/lib/siteLocale";
@@ -90,14 +92,14 @@ function flattenedFileCandidates(): string[] {
 
 function getGeneralRecallsFlattenedFile(): string | null {
   for (const p of flattenedFileCandidates()) {
-    if (fs.existsSync(p)) return p;
+    if (fs.existsSync(/*turbopackIgnore: true*/ p)) return p;
   }
   return null;
 }
 
 export function getGeneralRecallsTranslatedDir(): string | null {
   for (const p of translatedDirCandidates()) {
-    if (fs.existsSync(p)) return p;
+    if (fs.existsSync(/*turbopackIgnore: true*/ p)) return p;
   }
   return null;
 }
@@ -225,7 +227,7 @@ function loadFlattenedGeneralRecalls(): GeneralRecall[] | null {
   const filePath = getGeneralRecallsFlattenedFile();
   if (!filePath) return null;
   try {
-    const raw = fs.readFileSync(filePath, "utf8");
+    const raw = readFileDynamic(filePath);
     const parsed = JSON.parse(raw) as FlattenedGeneralRecallDoc;
     if (!Array.isArray(parsed)) return null;
     flattenedGeneralRecallCache = parsed.map((recall) => ({
@@ -247,7 +249,7 @@ function buildGeneralRecallDedupeMap(dir: string): Map<string, GeneralRecallDedu
     const stem = jsonFileCategoryStem(file);
     let doc: GeneralRecallDoc;
     try {
-      const raw = fs.readFileSync(path.join(dir, file), "utf8");
+      const raw = readFileDynamic(path.join(dir, file));
       doc = JSON.parse(raw) as GeneralRecallDoc;
     } catch {
       continue;
@@ -279,7 +281,7 @@ export function loadGeneralRecallBySlug(slug: string): GeneralRecall | null {
   if (!dir) return null;
   for (const file of listTranslatedJsonFiles(dir)) {
     const stem = jsonFileCategoryStem(file);
-    const raw = fs.readFileSync(path.join(dir, file), "utf8");
+    const raw = readFileDynamic(path.join(dir, file));
     let doc: GeneralRecallDoc;
     try {
       doc = JSON.parse(raw) as GeneralRecallDoc;

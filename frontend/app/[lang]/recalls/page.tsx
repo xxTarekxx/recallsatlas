@@ -7,22 +7,23 @@ export default async function LangRecallsPage({
   params,
   searchParams,
 }: {
-  params: { lang: string };
-  searchParams: { category?: string; q?: string };
+  params: Promise<{ lang: string }>;
+  searchParams: Promise<{ category?: string; q?: string }>;
 }) {
-  if (!isSiteUiLang(params.lang) || params.lang === "en") notFound();
-  const lang = params.lang as SiteUiLang;
+  const { lang } = await params;
+  if (!isSiteUiLang(lang) || lang === "en") notFound();
+  const resolvedSearchParams = await searchParams;
   const initialData = await loadRecallsListPage({
     page: 1,
-    q: searchParams?.q,
-    category: searchParams?.category,
-    lang,
+    q: resolvedSearchParams?.q,
+    category: resolvedSearchParams?.category,
+    lang: lang as SiteUiLang,
   });
   return (
     <RecallsSearchPage
-      lang={lang}
-      categorySlug={searchParams?.category}
-      initialQuery={searchParams?.q}
+      lang={lang as SiteUiLang}
+      categorySlug={resolvedSearchParams?.category}
+      initialQuery={resolvedSearchParams?.q}
       initialData={initialData}
     />
   );
