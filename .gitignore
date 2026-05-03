@@ -77,6 +77,8 @@ Thumbs.db
 # Local deploy config (PowerShell)
 frontend/deploy.env.ps1
 backend/deploy.env.ps1
+backend/scripts/deploy/deploy-backend.env
+backend/scripts/deploy/deploy-backend.env.ps1
 
 # Large/generated assets (IMPORTANT for your scraper)
 public/images/
