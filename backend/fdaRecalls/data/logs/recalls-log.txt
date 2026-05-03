@@ -23,3 +23,328 @@
 [2026-05-03T18:27:06.857Z] Delay 5052ms → after detail complete
 [2026-05-03T18:27:11.924Z] Progress saved. recalls=1 imageMap=2 hashes=1
 [2026-05-03T18:27:11.956Z] DONE
+[2026-05-03T18:40:28.839Z] Loaded existing recalls: 0, unique sourceUrls: 0
+[2026-05-03T18:40:28.840Z] Limits: MAX_RECORDS=1, MAX_TOTAL=1, runLimit=1
+[2026-05-03T18:40:28.841Z] IMAGE_BASE_DIR: C:\Users\perso\recallsatlas\backend\frontend\public\images\recalls
+[2026-05-03T18:40:28.841Z] Newest existing date: (none) (vs FDA table + sourceUrl)
+[2026-05-03T18:40:28.948Z] Opening FDA recalls listing...
+[2026-05-03T18:40:34.564Z] Delay 7638ms → after initial listing load
+[2026-05-03T18:40:43.563Z] Set DataTable page size to 100 and Terminated Recall filter to No
+[2026-05-03T18:40:43.564Z] Reading DataTable page 1 (enumerate new rows)…
+[2026-05-03T18:40:48.595Z] Rows found on page 1: 100
+[2026-05-03T18:40:48.596Z] Stopping scan: run limit (1) new rows queued.
+[2026-05-03T18:40:48.597Z] New recalls to ingest: 1 — sortOrder 1000 (FDA table top) … 1000 (oldest in batch)
+[2026-05-03T18:40:48.597Z] Detail [1/1] sortOrder=1000: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/a2-platinum-usa-label-infant-formula-recalled-because-possible-health-risk
+[2026-05-03T18:40:49.045Z] Slug: a2-platinum-premium-infant-formula-0-12-months-usa-a2-recall-2026
+[2026-05-03T18:40:49.046Z] Folder: 1000-a2-platinum-premium-infant-formula-0-12-months-usa-a2-recall-2026
+[2026-05-03T18:41:05.751Z] Delay 5646ms → after editorial brief generation
+[2026-05-03T18:41:11.402Z] Image cache hit (url map): https://www.fda.gov/files/styles/recall_image_large/public/a2.png
+[2026-05-03T18:41:11.403Z] Delay 5517ms → between images
+[2026-05-03T18:41:16.921Z] Image cache hit (url map): https://www.fda.gov/files/styles/recall_image_large/public/a2back.jpg
+[2026-05-03T18:41:16.921Z] Delay 7512ms → between images
+[2026-05-03T18:41:24.449Z] Progress saved. recalls=1 imageMap=2 hashes=1
+[2026-05-03T18:41:24.449Z] Saved article 1/1 this run.
+[2026-05-03T18:41:24.458Z] Delay 7806ms → after detail complete
+[2026-05-03T18:41:32.279Z] Progress saved. recalls=1 imageMap=2 hashes=1
+[2026-05-03T18:41:32.307Z] DONE
+[2026-05-03T18:47:18.024Z] Loaded existing recalls: 0, unique sourceUrls: 0
+[2026-05-03T18:47:18.025Z] Limits: MAX_RECORDS=1, MAX_TOTAL=1, runLimit=1
+[2026-05-03T18:47:18.026Z] IMAGE_BASE_DIR: C:\Users\perso\recallsatlas\backend\frontend\public\images\recalls
+[2026-05-03T18:47:18.026Z] Newest existing date: (none) (vs FDA table + sourceUrl)
+[2026-05-03T18:47:18.119Z] Opening FDA recalls listing...
+[2026-05-03T18:47:23.692Z] Delay 7146ms → after initial listing load
+[2026-05-03T18:47:31.711Z] Set DataTable page size to 100 and Terminated Recall filter to No
+[2026-05-03T18:47:31.712Z] Reading DataTable page 1 (enumerate new rows)…
+[2026-05-03T18:47:36.741Z] Rows found on page 1: 100
+[2026-05-03T18:47:36.742Z] Stopping scan: run limit (1) new rows queued.
+[2026-05-03T18:47:36.742Z] New recalls to ingest: 1 — sortOrder 1000 (FDA table top) … 1000 (oldest in batch)
+[2026-05-03T18:47:36.743Z] Detail [1/1] sortOrder=1000: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/second-nature-brands-issues-allergy-alert-undeclared-cashews-pistachois-and-cherries-keto-crunch
+[2026-05-03T18:47:37.149Z] Slug: keto-crunch-smart-mix-second-nature-recall-2026
+[2026-05-03T18:47:37.149Z] Folder: 1000-keto-crunch-smart-mix-second-nature-recall-2026
+[2026-05-03T18:47:48.379Z] Delay 7114ms → after editorial brief generation
+[2026-05-03T18:47:55.724Z] Saved image: 1000-keto-crunch-smart-mix-second-nature-recall-2026/715b2193676909824da89e3d30f01706c9717fea021894c3ad0e518199368813.webp
+[2026-05-03T18:47:55.725Z] Delay 6348ms → between images
+[2026-05-03T18:48:02.320Z] Saved image: 1000-keto-crunch-smart-mix-second-nature-recall-2026/a267458649528308775a44ec3894ef53e3cc2395533be35a9a81c9937d74dbc5.webp
+[2026-05-03T18:48:02.321Z] Delay 6021ms → between images
+[2026-05-03T18:48:08.358Z] Progress saved. recalls=1 imageMap=4 hashes=1
+[2026-05-03T18:48:08.359Z] Saved article 1/1 this run.
+[2026-05-03T18:48:08.367Z] Delay 7572ms → after detail complete
+[2026-05-03T18:48:15.952Z] Progress saved. recalls=1 imageMap=4 hashes=1
+[2026-05-03T18:48:15.980Z] DONE
+[2026-05-03T19:14:26.200Z] Loaded existing recalls: 0, unique sourceUrls: 0
+[2026-05-03T19:14:26.202Z] Limits: MAX_RECORDS=20, MAX_TOTAL=20, runLimit=20
+[2026-05-03T19:14:26.202Z] IMAGE_BASE_DIR: C:\Users\perso\recallsatlas\frontend\public\images\recalls
+[2026-05-03T19:14:26.202Z] Newest existing date: (none) (vs FDA table + sourceUrl)
+[2026-05-03T19:14:26.295Z] Opening FDA recalls listing...
+[2026-05-03T19:14:34.646Z] Delay 5165ms → after initial listing load
+[2026-05-03T19:14:40.838Z] Set DataTable page size to 100 and Terminated Recall filter to No
+[2026-05-03T19:14:40.841Z] Reading DataTable page 1 (enumerate new rows)…
+[2026-05-03T19:14:45.892Z] Rows found on page 1: 100
+[2026-05-03T19:14:45.894Z] Stopping scan: run limit (20) new rows queued.
+[2026-05-03T19:14:45.895Z] New recalls to ingest: 20 — sortOrder 1019 (FDA table top) … 1000 (oldest in batch)
+[2026-05-03T19:14:45.896Z] Detail [1/20] sortOrder=1019: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/second-nature-brands-issues-allergy-alert-undeclared-cashews-pistachois-and-cherries-keto-crunch
+[2026-05-03T19:14:46.302Z] Slug: keto-crunch-smart-mix-second-nature-recall-2026
+[2026-05-03T19:14:46.302Z] Folder: 1019-keto-crunch-smart-mix-second-nature-recall-2026
+[2026-05-03T19:14:58.408Z] Delay 7153ms → after editorial brief generation
+[2026-05-03T19:15:05.735Z] Reused hash-saved image: 1019-keto-crunch-smart-mix-second-nature-recall-2026/715b2193676909824da89e3d30f01706c9717fea021894c3ad0e518199368813.webp
+[2026-05-03T19:15:05.736Z] Delay 5158ms → between images
+[2026-05-03T19:15:11.015Z] Reused hash-saved image: 1019-keto-crunch-smart-mix-second-nature-recall-2026/a267458649528308775a44ec3894ef53e3cc2395533be35a9a81c9937d74dbc5.webp
+[2026-05-03T19:15:11.015Z] Delay 6695ms → between images
+[2026-05-03T19:15:17.722Z] Progress saved. recalls=1 imageMap=2 hashes=1
+[2026-05-03T19:15:17.723Z] Saved article 1/20 this run.
+[2026-05-03T19:15:17.739Z] Delay 5009ms → after detail complete
+[2026-05-03T19:15:22.764Z] Detail [2/20] sortOrder=1018: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/a2-platinum-usa-label-infant-formula-recalled-because-possible-health-risk
+[2026-05-03T19:15:23.223Z] Slug: a2-platinum-premium-infant-formula-0-12-months-usa-a2-recall-2026
+[2026-05-03T19:15:23.224Z] Folder: 1018-a2-platinum-premium-infant-formula-0-12-months-usa-a2-recall-2026
+[2026-05-03T19:15:36.774Z] Delay 5555ms → after editorial brief generation
+[2026-05-03T19:15:42.580Z] Saved image: 1018-a2-platinum-premium-infant-formula-0-12-months-usa-a2-recall-2026/4b27911c1fbb6743497e10c21c5bcd9feedff5a1288dbe6ff9356938efec7418.webp
+[2026-05-03T19:15:42.581Z] Delay 6335ms → between images
+[2026-05-03T19:15:49.138Z] Saved image: 1018-a2-platinum-premium-infant-formula-0-12-months-usa-a2-recall-2026/461f457f7e83c1d58dbedee8fe5507682c36a5f19ef3866bdefaf309b5eae42a.webp
+[2026-05-03T19:15:49.138Z] Delay 6588ms → between images
+[2026-05-03T19:15:55.740Z] Progress saved. recalls=2 imageMap=4 hashes=2
+[2026-05-03T19:15:55.748Z] Saved article 2/20 this run.
+[2026-05-03T19:15:55.768Z] Delay 5401ms → after detail complete
+[2026-05-03T19:16:01.180Z] Detail [3/20] sortOrder=1017: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/b-braun-medical-inc-issues-voluntary-nationwide-recall-lactated-ringers-injection-1l-e7500-due
+[2026-05-03T19:16:01.581Z] Slug: lactated-ringer-s-injection-e7500-1l-b-braun-recall-2026
+[2026-05-03T19:16:01.583Z] Folder: 1017-lactated-ringer-s-injection-e7500-1l-b-braun-recall-2026
+[2026-05-03T19:16:11.044Z] Delay 5439ms → after editorial brief generation
+[2026-05-03T19:16:16.809Z] Saved image: 1017-lactated-ringer-s-injection-e7500-1l-b-braun-recall-2026/b40f57035f62f1ad765050eb12aa8e1bec60968c20a2df55834105f4e4210535.webp
+[2026-05-03T19:16:16.810Z] Delay 6261ms → between images
+[2026-05-03T19:16:23.076Z] Progress saved. recalls=3 imageMap=5 hashes=3
+[2026-05-03T19:16:23.078Z] Saved article 3/20 this run.
+[2026-05-03T19:16:23.092Z] Delay 5463ms → after detail complete
+[2026-05-03T19:16:28.569Z] Detail [4/20] sortOrder=1016: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/ghirardelli-chocolate-company-recalls-powdered-beverage-mixes-because-possible-health-risk
+[2026-05-03T19:16:29.032Z] Slug: powdered-beverage-mixes-ghirardelli-recall-2026
+[2026-05-03T19:16:29.032Z] Folder: 1016-powdered-beverage-mixes-ghirardelli-recall-2026
+[2026-05-03T19:16:42.140Z] Delay 5397ms → after editorial brief generation
+[2026-05-03T19:16:47.716Z] Saved image: 1016-powdered-beverage-mixes-ghirardelli-recall-2026/bf6729f0dfb5093f66c2b4fb32025ea218d2bf83d7d080f147b96ef13a829d50.webp
+[2026-05-03T19:16:47.717Z] Delay 7914ms → between images
+[2026-05-03T19:16:55.801Z] Saved image: 1016-powdered-beverage-mixes-ghirardelli-recall-2026/0c13c9669a34d614f02237fb6c5a02152a7666f2b1042dafa04c530b6a0ef601.webp
+[2026-05-03T19:16:55.803Z] Delay 6182ms → between images
+[2026-05-03T19:17:06.219Z] Saved image: 1016-powdered-beverage-mixes-ghirardelli-recall-2026/d47036c74b28ba8f3f833163a4d964f8025f5aa0a27416dce668de2f24722a9b.webp
+[2026-05-03T19:17:06.220Z] Delay 6572ms → between images
+[2026-05-03T19:17:17.670Z] Saved image: 1016-powdered-beverage-mixes-ghirardelli-recall-2026/9b1e9a2c0a145e0252909c605ea74703703e14251d2744df6fab51205c443a12.webp
+[2026-05-03T19:17:17.671Z] Delay 7657ms → between images
+[2026-05-03T19:17:27.001Z] Saved image: 1016-powdered-beverage-mixes-ghirardelli-recall-2026/c67f1082b37b3d9fcc6ecfcedbafea8d234d2f57691d97bf5cc19db79d360da1.webp
+[2026-05-03T19:17:27.001Z] Delay 7775ms → between images
+[2026-05-03T19:17:37.556Z] Saved image: 1016-powdered-beverage-mixes-ghirardelli-recall-2026/dee295fa485ef0e5ef7c70e73cae99d12dab91c1ae1d509c3e00cc0d26ecf529.webp
+[2026-05-03T19:17:37.557Z] Delay 7012ms → between images
+[2026-05-03T19:17:47.497Z] Saved image: 1016-powdered-beverage-mixes-ghirardelli-recall-2026/fba2f23732642dbffe43fbdf21d4c166f99a4a627ada0b0fb894078632bdf8e8.webp
+[2026-05-03T19:17:47.498Z] Delay 6171ms → between images
+[2026-05-03T19:17:56.674Z] Saved image: 1016-powdered-beverage-mixes-ghirardelli-recall-2026/fb699450503663b83671b123287047dd56c525382c03654bbcef5321784eb0aa.webp
+[2026-05-03T19:17:56.680Z] Delay 6742ms → between images
+[2026-05-03T19:18:03.605Z] Saved image: 1016-powdered-beverage-mixes-ghirardelli-recall-2026/14f55287f2d4e96b9658bcd57ee9d15fbbbfc57126001c3b74876829eae91477.webp
+[2026-05-03T19:18:03.610Z] Delay 5055ms → between images
+[2026-05-03T19:18:08.781Z] Saved image: 1016-powdered-beverage-mixes-ghirardelli-recall-2026/ee689e1b1424bc4aa3b05975d039d4d0f9e219ad8993048ce86234968e34a91f.webp
+[2026-05-03T19:18:08.782Z] Delay 6318ms → between images
+[2026-05-03T19:18:18.029Z] Saved image: 1016-powdered-beverage-mixes-ghirardelli-recall-2026/3dfaac093c233d5124f38445ad62ed146b9ad3ac681ab41862b8fd478bc00a23.webp
+[2026-05-03T19:18:18.030Z] Delay 5542ms → between images
+[2026-05-03T19:18:26.535Z] Saved image: 1016-powdered-beverage-mixes-ghirardelli-recall-2026/9d9ac8a11f3cb0aa64a029a518808c9b8fc2c2abf7a32f45c4eecb96192733b6.webp
+[2026-05-03T19:18:26.543Z] Delay 6393ms → between images
+[2026-05-03T19:18:36.041Z] Saved image: 1016-powdered-beverage-mixes-ghirardelli-recall-2026/df8f671c6c280e7538219ba8ac5ba8208e5ae41c8c8499f2fb1d869aa979ac3d.webp
+[2026-05-03T19:18:36.043Z] Delay 6799ms → between images
+[2026-05-03T19:18:42.847Z] Progress saved. recalls=4 imageMap=18 hashes=4
+[2026-05-03T19:18:42.849Z] Saved article 4/20 this run.
+[2026-05-03T19:18:42.864Z] Delay 7330ms → after detail complete
+[2026-05-03T19:18:50.208Z] Detail [5/20] sortOrder=1015: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/we-r-nuts-issues-allergy-alert-undeclared-milk-soy-cashews-milk-chocolate-bridge-mix
+[2026-05-03T19:18:50.653Z] Slug: chocolate-covered-nuts-and-raisins-uncle-giuseppe-s-recall-2026
+[2026-05-03T19:18:50.653Z] Folder: 1015-chocolate-covered-nuts-and-raisins-uncle-giuseppe-s-recall-2026
+[2026-05-03T19:19:01.841Z] Delay 6851ms → after editorial brief generation
+[2026-05-03T19:19:08.848Z] Saved image: 1015-chocolate-covered-nuts-and-raisins-uncle-giuseppe-s-recall-2026/dcec1f61286d6da711bacf1af391d8b3f4b6d3be7579a5bdec9f3ddc45fc5647.webp
+[2026-05-03T19:19:08.848Z] Delay 5857ms → between images
+[2026-05-03T19:19:14.718Z] Progress saved. recalls=5 imageMap=19 hashes=5
+[2026-05-03T19:19:14.719Z] Checkpoint: saved after 5 recalls.
+[2026-05-03T19:19:14.720Z] Saved article 5/20 this run.
+[2026-05-03T19:19:14.732Z] Delay 5309ms → after detail complete
+[2026-05-03T19:19:20.052Z] Detail [6/20] sortOrder=1014: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/french-broad-chocolates-pbc-recalls-bettes-bake-sale-bonbons-due-undeclared-walnuts
+[2026-05-03T19:19:20.461Z] Slug: bette-s-bake-sale-bonbon-collection-in-6pc-2-5oz-french-broad-chocolate-recall-2
+[2026-05-03T19:19:20.461Z] Folder: 1014-bette-s-bake-sale-bonbon-collection-in-6pc-2-5oz-french-broad-chocolate-recall-2
+[2026-05-03T19:19:32.132Z] Delay 5797ms → after editorial brief generation
+[2026-05-03T19:19:38.145Z] Reused hash-saved image: 1014-bette-s-bake-sale-bonbon-collection-in-6pc-2-5oz-french-broad-chocolate-recall-2/4a00287b86a92dc003edfa77d58289ecd74e52b50188d47c29fc70ebfd5f8c8e.webp
+[2026-05-03T19:19:38.146Z] Delay 6841ms → between images
+[2026-05-03T19:19:45.181Z] Saved image: 1014-bette-s-bake-sale-bonbon-collection-in-6pc-2-5oz-french-broad-chocolate-recall-2/3a18a65153ba6aba4047f9e688a63cdc5e5dea8c0c25d7322e1c00a90cc6834a.webp
+[2026-05-03T19:19:45.183Z] Delay 7159ms → between images
+[2026-05-03T19:19:52.531Z] Saved image: 1014-bette-s-bake-sale-bonbon-collection-in-6pc-2-5oz-french-broad-chocolate-recall-2/030378c5d11a99a6a9dbc658478f2a5cd873d133d69a6c3ddf3ee15b1ed0be99.webp
+[2026-05-03T19:19:52.532Z] Delay 7277ms → between images
+[2026-05-03T19:19:59.822Z] Progress saved. recalls=6 imageMap=22 hashes=6
+[2026-05-03T19:19:59.822Z] Saved article 6/20 this run.
+[2026-05-03T19:19:59.831Z] Delay 5673ms → after detail complete
+[2026-05-03T19:20:05.509Z] Detail [7/20] sortOrder=1013: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/ferris-coffee-nut-co-issues-allergy-alert-undeclared-wheat-and-soy-frederiks-meijer-vanilla-bourbon
+[2026-05-03T19:20:05.990Z] Slug: vanilla-bourbon-trail-mix-frederik-s-by-meijer-recall-2026
+[2026-05-03T19:20:05.991Z] Folder: 1013-vanilla-bourbon-trail-mix-frederik-s-by-meijer-recall-2026
+[2026-05-03T19:20:15.675Z] Delay 5355ms → after editorial brief generation
+[2026-05-03T19:20:21.121Z] Reused hash-saved image: 1013-vanilla-bourbon-trail-mix-frederik-s-by-meijer-recall-2026/a8c3524ed1b733a4569bd4d85cef2a3f671d4278d6d3974a396a4add70d28ae3.webp
+[2026-05-03T19:20:21.122Z] Delay 5186ms → between images
+[2026-05-03T19:20:26.314Z] Progress saved. recalls=7 imageMap=23 hashes=7
+[2026-05-03T19:20:26.315Z] Saved article 7/20 this run.
+[2026-05-03T19:20:26.321Z] Delay 7373ms → after detail complete
+[2026-05-03T19:20:33.696Z] Detail [8/20] sortOrder=1012: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/windstone-medical-packaging-dba-aligned-medical-solutions-issues-nationwide-recall-namic
+[2026-05-03T19:20:34.105Z] Slug: angio-packs-ams6908e-and-ams6908f-aligned-medical-angio-pack-recall-2026
+[2026-05-03T19:20:34.105Z] Folder: 1012-angio-packs-ams6908e-and-ams6908f-aligned-medical-angio-pack-recall-2026
+[2026-05-03T19:20:51.628Z] Delay 6721ms → after editorial brief generation
+[2026-05-03T19:20:58.587Z] Reused hash-saved image: 1012-angio-packs-ams6908e-and-ams6908f-aligned-medical-angio-pack-recall-2026/21a34f16d3e2fe6908d31c2d275f597d0282ec739753cdb2ee203e7dd200c776.webp
+[2026-05-03T19:20:58.588Z] Delay 5445ms → between images
+[2026-05-03T19:21:04.128Z] Reused hash-saved image: 1012-angio-packs-ams6908e-and-ams6908f-aligned-medical-angio-pack-recall-2026/5c1d499f20814e6be08b1a88568b2ffbc71df571e4392bc9615b9d1558754ab5.webp
+[2026-05-03T19:21:04.128Z] Delay 6347ms → between images
+[2026-05-03T19:21:10.492Z] Progress saved. recalls=8 imageMap=25 hashes=8
+[2026-05-03T19:21:10.493Z] Saved article 8/20 this run.
+[2026-05-03T19:21:10.500Z] Delay 5987ms → after detail complete
+[2026-05-03T19:21:16.499Z] Detail [9/20] sortOrder=1011: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/revival-animal-health-llc-voluntarily-recalls-canine-milk-replacers-due-elevated-levels-vitamin-d
+[2026-05-03T19:21:16.970Z] Slug: canine-milk-replacer-breeder-s-edge-shelter-s-choice-recall-2026
+[2026-05-03T19:21:16.970Z] Folder: 1011-canine-milk-replacer-breeder-s-edge-shelter-s-choice-recall-2026
+[2026-05-03T19:21:29.311Z] Delay 5435ms → after editorial brief generation
+[2026-05-03T19:21:34.840Z] Reused hash-saved image: 1011-canine-milk-replacer-breeder-s-edge-shelter-s-choice-recall-2026/2f4bd7ac776f025dfb01a2a0eae69ce7326a09331b369e0a95dd7cfa7107081c.webp
+[2026-05-03T19:21:34.840Z] Delay 7891ms → between images
+[2026-05-03T19:21:42.877Z] Reused hash-saved image: 1011-canine-milk-replacer-breeder-s-edge-shelter-s-choice-recall-2026/fe182925a577a31be698b3f093394a3a9688c30642abc977beefb6b3dd05099c.webp
+[2026-05-03T19:21:42.877Z] Delay 7610ms → between images
+[2026-05-03T19:21:51.003Z] Reused hash-saved image: 1011-canine-milk-replacer-breeder-s-edge-shelter-s-choice-recall-2026/3210a4aa1ff8bc1a2bdf651beb1aa811b139b10cbaf3229e1a0f123985c48bfd.webp
+[2026-05-03T19:21:51.003Z] Delay 5208ms → between images
+[2026-05-03T19:21:56.227Z] Progress saved. recalls=9 imageMap=28 hashes=9
+[2026-05-03T19:21:56.227Z] Saved article 9/20 this run.
+[2026-05-03T19:21:56.234Z] Delay 5419ms → after detail complete
+[2026-05-03T19:22:01.659Z] Detail [10/20] sortOrder=1010: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/silver-moon-lp-dba-loards-ice-cream-issues-allergy-alert-undeclared-milk-eggs-tree-nuts-peanuts-soy
+[2026-05-03T19:22:02.155Z] Slug: ice-cream-loard-s-recall-2026
+[2026-05-03T19:22:02.155Z] Folder: 1010-ice-cream-loard-s-recall-2026
+[2026-05-03T19:22:12.722Z] Delay 6432ms → after editorial brief generation
+[2026-05-03T19:22:19.290Z] Reused hash-saved image: 1010-ice-cream-loard-s-recall-2026/7aae33aa17ec6cde69c831e2afc34686cb078b812094a46598db9934b575f9ed.webp
+[2026-05-03T19:22:19.291Z] Delay 7845ms → between images
+[2026-05-03T19:22:27.257Z] Reused hash-saved image: 1010-ice-cream-loard-s-recall-2026/e9dbf96d78224d54fcc35b88fe0e54d33ce0c029d61017b81dbcc170d6c4a132.webp
+[2026-05-03T19:22:27.262Z] Delay 7766ms → between images
+[2026-05-03T19:22:35.108Z] Reused hash-saved image: 1010-ice-cream-loard-s-recall-2026/53846fd2295b2c86f62747f1a46229b8f25d077f278003cc295cbe17f60138d3.webp
+[2026-05-03T19:22:35.108Z] Delay 5054ms → between images
+[2026-05-03T19:22:40.249Z] Reused hash-saved image: 1010-ice-cream-loard-s-recall-2026/ad6ce2380e3b00df2537ccb6da07b66db3a633652e0097218830f89aaeab3eb7.webp
+[2026-05-03T19:22:40.250Z] Delay 5130ms → between images
+[2026-05-03T19:22:45.461Z] Reused hash-saved image: 1010-ice-cream-loard-s-recall-2026/ebe3d0f0665664b2ae037da66fa0009e09162eb90dbdecceafef3b733075db13.webp
+[2026-05-03T19:22:45.461Z] Delay 5701ms → between images
+[2026-05-03T19:22:51.168Z] Progress saved. recalls=10 imageMap=33 hashes=10
+[2026-05-03T19:22:51.169Z] Checkpoint: saved after 10 recalls.
+[2026-05-03T19:22:51.169Z] Saved article 10/20 this run.
+[2026-05-03T19:22:51.181Z] Delay 5498ms → after detail complete
+[2026-05-03T19:22:56.684Z] Detail [11/20] sortOrder=1009: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/liquid-blenz-corp-recalls-product-due-possible-health-risk
+[2026-05-03T19:22:57.089Z] Slug: good-brain-tonic-16-oz-and-32-oz-good-brain-tonic-recall-2026
+[2026-05-03T19:22:57.089Z] Folder: 1009-good-brain-tonic-16-oz-and-32-oz-good-brain-tonic-recall-2026
+[2026-05-03T19:23:07.648Z] Delay 5880ms → after editorial brief generation
+[2026-05-03T19:23:13.614Z] Reused hash-saved image: 1009-good-brain-tonic-16-oz-and-32-oz-good-brain-tonic-recall-2026/a1a4f0a3bd0917267dde0d494203ef34696633b9392b58ddee3c245f1d8f7009.webp
+[2026-05-03T19:23:13.614Z] Delay 6168ms → between images
+[2026-05-03T19:23:19.797Z] Progress saved. recalls=11 imageMap=34 hashes=11
+[2026-05-03T19:23:19.798Z] Saved article 11/20 this run.
+[2026-05-03T19:23:19.804Z] Delay 7819ms → after detail complete
+[2026-05-03T19:23:27.636Z] Detail [12/20] sortOrder=1008: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/product-recall
+[2026-05-03T19:23:28.002Z] Slug: gel-nail-polish-remover-15ml-morovan-recall-2026
+[2026-05-03T19:23:28.002Z] Folder: 1008-gel-nail-polish-remover-15ml-morovan-recall-2026
+[2026-05-03T19:23:38.527Z] Delay 7890ms → after editorial brief generation
+[2026-05-03T19:23:47.291Z] Saved image: 1008-gel-nail-polish-remover-15ml-morovan-recall-2026/eae0a35738ea457325d8e9883b1d0317f99c38d0cf73fd019a327518ee170649.webp
+[2026-05-03T19:23:47.291Z] Delay 5779ms → between images
+[2026-05-03T19:23:53.084Z] Progress saved. recalls=12 imageMap=35 hashes=12
+[2026-05-03T19:23:53.084Z] Saved article 12/20 this run.
+[2026-05-03T19:23:53.093Z] Delay 7473ms → after detail complete
+[2026-05-03T19:24:00.567Z] Detail [13/20] sortOrder=1007: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/blueroot-health-expands-voluntary-allergy-alert-undeclared-egg-hazelnut-and-soy-vital-nutrients
+[2026-05-03T19:24:01.128Z] Slug: aller-c-dietary-supplement-vital-nutrient-recall-2026
+[2026-05-03T19:24:01.128Z] Folder: 1007-aller-c-dietary-supplement-vital-nutrient-recall-2026
+[2026-05-03T19:24:13.665Z] Delay 5625ms → after editorial brief generation
+[2026-05-03T19:24:19.306Z] Progress saved. recalls=13 imageMap=35 hashes=13
+[2026-05-03T19:24:19.307Z] Saved article 13/20 this run.
+[2026-05-03T19:24:19.315Z] Delay 7216ms → after detail complete
+[2026-05-03T19:24:26.545Z] Detail [14/20] sortOrder=1006: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/blaine-labs-inc-issues-voluntary-nationwide-recall-wound-care-gel-products-due-microbial
+[2026-05-03T19:24:26.938Z] Slug: antiseptic-wound-care-gel-bottles-and-tubes-revitaderm-tridergel-recall-2026
+[2026-05-03T19:24:26.939Z] Folder: 1006-antiseptic-wound-care-gel-bottles-and-tubes-revitaderm-tridergel-recall-2026
+[2026-05-03T19:24:41.887Z] Delay 6119ms → after editorial brief generation
+[2026-05-03T19:24:48.146Z] Reused hash-saved image: 1006-antiseptic-wound-care-gel-bottles-and-tubes-revitaderm-tridergel-recall-2026/283dcca6f90b40ecf494ae291209a2dbec152bef827f74f9ae0ac41b8a7da738.webp
+[2026-05-03T19:24:48.146Z] Delay 5198ms → between images
+[2026-05-03T19:24:53.421Z] Reused hash-saved image: 1006-antiseptic-wound-care-gel-bottles-and-tubes-revitaderm-tridergel-recall-2026/c4e73e681f82dcebc5f45a4d491062f62ed0fddf313a8b12b9a4777f45c16b4c.webp
+[2026-05-03T19:24:53.422Z] Delay 5287ms → between images
+[2026-05-03T19:24:58.724Z] Progress saved. recalls=14 imageMap=37 hashes=14
+[2026-05-03T19:24:58.725Z] Saved article 14/20 this run.
+[2026-05-03T19:24:58.733Z] Delay 5640ms → after detail complete
+[2026-05-03T19:25:04.375Z] Detail [15/20] sortOrder=1005: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/nalpac-issues-voluntary-nationwide-recall-dtf-sexual-chocolate-due-presence-pharmaceutical
+[2026-05-03T19:25:04.782Z] Slug: chocolate-dtf-sexual-chocolate-recall-2026
+[2026-05-03T19:25:04.783Z] Folder: 1005-chocolate-dtf-sexual-chocolate-recall-2026
+[2026-05-03T19:25:21.953Z] Delay 5966ms → after editorial brief generation
+[2026-05-03T19:25:28.035Z] Reused hash-saved image: 1005-chocolate-dtf-sexual-chocolate-recall-2026/49e00736b6d7c77a29da103dc8a971abb22a77eb94719cf5c1055c594dd26f3a.webp
+[2026-05-03T19:25:28.035Z] Delay 7532ms → between images
+[2026-05-03T19:25:35.572Z] Progress saved. recalls=15 imageMap=38 hashes=15
+[2026-05-03T19:25:35.572Z] Checkpoint: saved after 15 recalls.
+[2026-05-03T19:25:35.572Z] Saved article 15/20 this run.
+[2026-05-03T19:25:35.579Z] Delay 7026ms → after detail complete
+[2026-05-03T19:25:42.608Z] Detail [16/20] sortOrder=1004: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/wawa-issues-product-recall-16-oz-wawa-brand-iced-tea-lemon-iced-tea-diet-lemon-diet-lemonade-and
+[2026-05-03T19:25:42.940Z] Slug: iced-tea-lemon-iced-tea-diet-lemon-diet-wawa-recall-2026
+[2026-05-03T19:25:42.941Z] Folder: 1004-iced-tea-lemon-iced-tea-diet-lemon-diet-wawa-recall-2026
+[2026-05-03T19:25:55.575Z] Delay 7783ms → after editorial brief generation
+[2026-05-03T19:26:03.494Z] Reused hash-saved image: 1004-iced-tea-lemon-iced-tea-diet-lemon-diet-wawa-recall-2026/95f42f5e3abea09e316656e92700b1a64169d57d312b7583159ed5d644919d8c.webp
+[2026-05-03T19:26:03.495Z] Delay 5218ms → between images
+[2026-05-03T19:26:08.813Z] Reused hash-saved image: 1004-iced-tea-lemon-iced-tea-diet-lemon-diet-wawa-recall-2026/233afbb0e193e5463eb855b106c0f9ab81b816c5714a7ba9497afef599e991b0.webp
+[2026-05-03T19:26:08.814Z] Delay 7001ms → between images
+[2026-05-03T19:26:15.899Z] Reused hash-saved image: 1004-iced-tea-lemon-iced-tea-diet-lemon-diet-wawa-recall-2026/6aa1684079bff2a347f8c3f75f1639708652646a26d8fc30a10f58d6005d6c35.webp
+[2026-05-03T19:26:15.899Z] Delay 7535ms → between images
+[2026-05-03T19:26:23.490Z] Image failed (attempt 1/3) https://www.fda.gov/files/styles/recall_image_large/public/image_4_61.png → Input Buffer is empty
+[2026-05-03T19:26:23.490Z] Delay 5638ms → before image retry
+[2026-05-03T19:26:24.072Z] CTRL+C received. Exiting.
+[2026-05-03T19:29:53.719Z] Loaded existing recalls: 0, unique sourceUrls: 0
+[2026-05-03T19:29:53.720Z] Limits: MAX_RECORDS=20, MAX_TOTAL=20, backfillCapacity=20, runLimit=20
+[2026-05-03T19:29:53.720Z] IMAGE_BASE_DIR: C:\Users\perso\recallsatlas\frontend\public\images\recalls
+[2026-05-03T19:29:53.721Z] Newest existing date: (none) (vs FDA table + sourceUrl)
+[2026-05-03T19:29:53.813Z] Opening FDA recalls listing...
+[2026-05-03T19:29:55.696Z] CTRL+C received. Exiting.
+FDA RECALL SCRAPE
+Existing records : 0
+This run target  : 20
+Max records flag : 20
+Archive base     : 300
+Archive target   : 20
+Verbose logs     : on
+Image folder     : C:\Users\perso\recallsatlas\frontend\public\images\recalls
+[2026-05-03T19:34:59.173Z] Loaded unique sourceUrls: 0
+[2026-05-03T19:34:59.174Z] Backfill capacity: 20
+[2026-05-03T19:34:59.174Z] Newest existing date: (none) (vs FDA table + sourceUrl)
+[2026-05-03T19:34:59.266Z] Opening FDA recalls listing...
+[2026-05-03T19:35:04.874Z] Delay 6846ms -> after initial listing load
+[2026-05-03T19:35:12.607Z] Set DataTable page size to 100 and Terminated Recall filter to No
+[2026-05-03T19:35:12.607Z] Reading DataTable page 1 (enumerate new rows)...
+[2026-05-03T19:35:17.656Z] Rows found on page 1: 100
+[2026-05-03T19:35:17.658Z] Stopping scan: run limit (20) new rows queued.
+[2026-05-03T19:35:17.659Z] New recalls to ingest: 20 — sortOrder 300 (newest in run) … 281 (oldest in run)
+RECALL 1/20
+sortOrder : 300
+source    : https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/second-nature-brands-issues-allergy-alert-undeclared-cashews-pistachois-and-cherries-keto-crunch
+Title  : Second Nature Brands Issues Allergy Alert on Undeclared Cashews, Pistachois, and Cherries in Keto...
+Company: Second Nature Brands
+Product: Keto Crunch Smart Mix
+Reason : May contain undeclared Cashews, Pistachios, and Cherries
+Slug   : keto-crunch-smart-mix-second-nature-recall-2026
+Folder : 300-keto-crunch-smart-mix-second-nature-recall-2026
+[2026-05-03T19:35:32.133Z] Delay 7427ms -> after editorial brief generation
+[2026-05-03T19:35:39.765Z] Reused hash-saved image: 300-keto-crunch-smart-mix-second-nature-recall-2026/715b2193676909824da89e3d30f01706c9717fea021894c3ad0e518199368813.webp
+[2026-05-03T19:35:39.765Z] Delay 5056ms -> between images
+[2026-05-03T19:35:44.907Z] Reused hash-saved image: 300-keto-crunch-smart-mix-second-nature-recall-2026/a267458649528308775a44ec3894ef53e3cc2395533be35a9a81c9937d74dbc5.webp
+[2026-05-03T19:35:44.907Z] Delay 7019ms -> between images
+[2026-05-03T19:35:51.929Z] Progress saved. recalls=1 imageMap=2 hashes=1
+SAVED 1/20
+sortOrder : 300
+slug      : keto-crunch-smart-mix-second-nature-recall-2026
+images    : 2
+file total: 1
+[2026-05-03T19:35:51.957Z] Delay 7689ms -> after detail complete
+RECALL 2/20
+sortOrder : 299
+source    : https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/a2-platinum-usa-label-infant-formula-recalled-because-possible-health-risk
+Title  : a2 Platinum USA Label Infant Formula Recalled Because of Possible Health Risk
+Company: A2 Milk Company
+Product: a2 Platinum Premium Infant Formula 0-12 months USA label
+Reason : Presence of cereulide toxin produced by some strains of the bacterium Bacillus cereus
+Slug   : a2-platinum-premium-infant-formula-0-12-months-usa-a2-recall-2026
+Folder : 299-a2-platinum-premium-infant-formula-0-12-months-usa-a2-recall-2026
+[2026-05-03T19:36:24.384Z] Delay 6629ms -> after editorial brief generation
+[2026-05-03T19:36:31.129Z] Reused hash-saved image: 299-a2-platinum-premium-infant-formula-0-12-months-usa-a2-recall-2026/4b27911c1fbb6743497e10c21c5bcd9feedff5a1288dbe6ff9356938efec7418.webp
+[2026-05-03T19:36:31.130Z] Delay 5370ms -> between images
+[2026-05-03T19:36:36.572Z] Reused hash-saved image: 299-a2-platinum-premium-infant-formula-0-12-months-usa-a2-recall-2026/461f457f7e83c1d58dbedee8fe5507682c36a5f19ef3866bdefaf309b5eae42a.webp
+[2026-05-03T19:36:36.573Z] Delay 7698ms -> between images
+[2026-05-03T19:36:44.276Z] Progress saved. recalls=2 imageMap=4 hashes=2
+SAVED 2/20
+sortOrder : 299
+slug      : a2-platinum-premium-infant-formula-0-12-months-usa-a2-recall-2026
+images    : 2
+file total: 2
+[2026-05-03T19:36:44.285Z] Delay 7890ms -> after detail complete
+RECALL 3/20
+sortOrder : 298
+source    : https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/b-braun-medical-inc-issues-voluntary-nationwide-recall-lactated-ringers-injection-1l-e7500-due

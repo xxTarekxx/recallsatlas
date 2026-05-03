@@ -68,8 +68,14 @@ function resolveImageBaseDir() {
         }
     }
     const siteRoot = BACKEND_ROOT;
+    const repoRoot = path.resolve(BACKEND_ROOT, "..");
     const prodPublic = path.join(siteRoot, "public", "images", "recalls");
-    const devMonorepo = path.join(siteRoot, "frontend", "public", "images", "recalls");
+    const devMonorepo = path.join(repoRoot, "frontend", "public", "images", "recalls");
+    try {
+        if (fs.existsSync(path.join(repoRoot, "frontend", "public"))) {
+            return devMonorepo;
+        }
+    } catch (_) {}
     try {
         if (fs.existsSync(path.join(siteRoot, "public"))) {
             return prodPublic;
@@ -84,7 +90,9 @@ const IMAGE_MAP_PATH = path.join(DATA_ROOT, "image-map.json");
 const HASH_PATH = path.join(LOGS_ROOT, "fda-recalls-en-eeat.hashes.json");
 const LOG_PATH = path.join(LOGS_ROOT, "recalls-log.txt");
 
-const START_SORT_ORDER = 1000;
+// Initial archive anchor: a fresh 300-recall build numbers newest=300 and oldest=1.
+// Future newer recalls continue upward: 301, 302, ...
+const START_SORT_ORDER = readPositiveInt("SORT_ORDER_BASE", 300);
 const MAX_RECORDS = readPositiveInt("MAX_RECORDS", 100);  // max NEW recalls per run
 const MAX_TOTAL = readPositiveInt("MAX_TOTAL", 300);  // hard stop: never exceed this many total recalls
 /** First N FDA table rows (with URLs): if all are already in recalls.json, stop Pass 1 immediately. */
@@ -93,6 +101,7 @@ const MAX_RETRIES = 3;
 
 const MIN_DELAY_MS = readPositiveInt("MIN_DELAY_MS", 5000);
 const MAX_DELAY_MS = Math.max(MIN_DELAY_MS, readPositiveInt("MAX_DELAY_MS", 8000));
+const VERBOSE_LOGS = /^(1|true|yes)$/i.test(String(readOption("VERBOSE_LOGS") || ""));
 
 const NAV_TIMEOUT = 120000;
 const IMAGE_TIMEOUT = 60000;
@@ -151,8 +160,8 @@ const progress = {
         if (!isTTY) return;
         const pct = this.total > 0 ? Math.min(1, this.current / this.total) : 0;
         const filled = Math.round(PROGRESS_BAR_WIDTH * pct);
-        const bar = "█".repeat(filled) + "░".repeat(PROGRESS_BAR_WIDTH - filled);
-        const status = this.status ? `  ${this.status.slice(0, 38)}` : "";
+        const bar = "#".repeat(filled) + "-".repeat(PROGRESS_BAR_WIDTH - filled);
+        const status = this.status ? `  ${this.status.slice(0, 44)}` : "";
         const line = `  [${this.phase.padEnd(8)}] ${bar}  ${String(this.current).padStart(3)}/${this.total}${status}`;
         if (line !== this._lastLine) {
             process.stdout.write("\r" + line);
@@ -198,6 +207,85 @@ function log(message) {
     progress.render();
 }
 
+function verboseLog(message) {
+    if (VERBOSE_LOGS) log(message);
+}
+
+function terminalRule(char = "=") {
+    return char.repeat(Math.min(process.stdout.columns || 88, 88));
+}
+
+function cleanTerminalText(value, max = 96) {
+    const text = cleanText(value || "");
+    return text.length > max ? `${text.slice(0, max - 3)}...` : text;
+}
+
+function printBlock(lines, char = "=") {
+    progress.clear();
+    console.log("");
+    console.log(terminalRule(char));
+    for (const line of lines) {
+        console.log(line);
+    }
+    console.log(terminalRule(char));
+    fs.appendFileSync(LOG_PATH, lines.join("\n") + "\n");
+    progress.render();
+}
+
+function printRunSummary({ existingCount, maxRecords, maxTotal, runLimit, imageBaseDir }) {
+    printBlock(
+        [
+            "FDA RECALL SCRAPE",
+            `Existing records : ${existingCount}`,
+            `This run target  : ${runLimit}`,
+            `Max records flag : ${maxRecords}`,
+            `Archive base     : ${START_SORT_ORDER}`,
+            `Archive target   : ${maxTotal}`,
+            `Verbose logs     : ${VERBOSE_LOGS ? "on" : "off"}`,
+            `Image folder     : ${imageBaseDir}`,
+        ],
+        "="
+    );
+}
+
+function printRecallHeader({ step, total, sortOrder, detailUrl }) {
+    printBlock(
+        [
+            `RECALL ${step}/${total}`,
+            `sortOrder : ${sortOrder}`,
+            `source    : ${detailUrl}`,
+        ],
+        "-"
+    );
+}
+
+function printRecallIdentity({ title, slug, folderName, companyName, productDescription, reason }) {
+    printBlock(
+        [
+            `Title  : ${cleanTerminalText(title, 100)}`,
+            `Company: ${cleanTerminalText(companyName, 100)}`,
+            `Product: ${cleanTerminalText(productDescription, 100)}`,
+            `Reason : ${cleanTerminalText(reason, 100)}`,
+            `Slug   : ${slug}`,
+            `Folder : ${folderName}`,
+        ],
+        "-"
+    );
+}
+
+function printRecallDone({ step, total, sortOrder, slug, imageCount, totalSaved }) {
+    printBlock(
+        [
+            `SAVED ${step}/${total}`,
+            `sortOrder : ${sortOrder}`,
+            `slug      : ${slug}`,
+            `images    : ${imageCount}`,
+            `file total: ${totalSaved}`,
+        ],
+        "-"
+    );
+}
+
 function updateRecallStage(step, total, stage, detail = "") {
     const suffix = detail ? ` · ${detail}` : "";
     progress.update({
@@ -218,7 +306,7 @@ function randomInt(min, max) {
 
 async function randomDelay(label = "") {
     const ms = randomInt(MIN_DELAY_MS, MAX_DELAY_MS);
-    if (label) log(`Delay ${ms}ms → ${label}`);
+    if (label) verboseLog(`Delay ${ms}ms -> ${label}`);
     await sleep(ms);
 }
 
@@ -247,7 +335,7 @@ function saveAll(results, imageMap, processedHashes = null) {
     if (processedHashes) {
         writeJson(HASH_PATH, [...processedHashes].sort());
     }
-    log(
+    verboseLog(
         `Progress saved. recalls=${results.length} imageMap=${Object.keys(imageMap).length}` +
             (processedHashes ? ` hashes=${processedHashes.size}` : "")
     );
@@ -703,11 +791,11 @@ async function processImage(url, folderName, imageMap) {
                 const mappedPath = path.join(recallDir, mappedFilename);
                 if (fs.existsSync(mappedPath)) {
                     rememberImageFilename(mappedFilename, mappedPath);
-                    log(`Image cache hit (url map): ${url}`);
+                    verboseLog(`Image cache hit (url map): ${url}`);
                     return `/images/recalls/${folderName}/${mappedFilename}`;
                 }
                 if (await copyExistingImageIfAvailable(mappedFilename, mappedPath)) {
-                    log(`Image cache copy (url map): ${mappedFilename}`);
+                    verboseLog(`Image cache copy (url map): ${mappedFilename}`);
                     return `/images/recalls/${folderName}/${mappedFilename}`;
                 }
             }
@@ -719,7 +807,7 @@ async function processImage(url, folderName, imageMap) {
             const outputPath = path.join(recallDir, filename);
             if (!fs.existsSync(outputPath)) {
                 if (await copyExistingImageIfAvailable(filename, outputPath)) {
-                    log(`Reused hash-saved image: ${folderName}/${filename}`);
+                    verboseLog(`Reused hash-saved image: ${folderName}/${filename}`);
                 } else {
                     await sharp(buffer)
                         .rotate()
@@ -734,10 +822,10 @@ async function processImage(url, folderName, imageMap) {
                         })
                         .toFile(outputPath);
 
-                    log(`Saved image: ${folderName}/${filename}`);
+                    verboseLog(`Saved image: ${folderName}/${filename}`);
                 }
             } else {
-                log(`Image already exists: ${folderName}/${filename}`);
+                verboseLog(`Image already exists: ${folderName}/${filename}`);
             }
 
             rememberImageFilename(filename, outputPath);
@@ -832,7 +920,7 @@ function buildPrimaryImageObject(images, headline) {
     });
 }
 
-function buildAuthorityLinks(detailUrl, consumerWebsite, companyWebsite, lotCheckUrl) {
+function buildAuthorityLinks(detailUrl, consumerWebsite, companyWebsite, lotCheckUrl, reportingUrls = []) {
     const links = [];
 
     if (detailUrl) {
@@ -845,14 +933,38 @@ function buildAuthorityLinks(detailUrl, consumerWebsite, companyWebsite, lotChec
             `Check lot or replacement information <a href='${lotCheckUrl}' target='_blank' rel='noopener noreferrer'>on the company support page</a>.`
         );
     }
-    if (consumerWebsite) {
+    for (const reportingUrl of uniqueArray(reportingUrls || [])) {
+        const label = /safetyreporting\.hhs\.gov/i.test(reportingUrl)
+            ? "Report an adverse event through the FDA Safety Reporting Portal"
+            : /medwatch/i.test(reportingUrl)
+              ? "Report an adverse event through FDA MedWatch"
+              : "Report an adverse event";
         links.push(
-            `Review consumer support information <a href='${consumerWebsite}' target='_blank' rel='noopener noreferrer'>on the company website</a>.`
+            `${label} <a href='${reportingUrl}' target='_blank' rel='noopener noreferrer'>here</a>.`
         );
     }
-    if (companyWebsite && companyWebsite !== consumerWebsite && companyWebsite !== lotCheckUrl) {
+
+    if (consumerWebsite && !(reportingUrls || []).includes(consumerWebsite)) {
+        const label = /safetyreporting\.hhs\.gov/i.test(consumerWebsite)
+            ? "Report an adverse event through the FDA Safety Reporting Portal"
+            : /medwatch/i.test(consumerWebsite)
+              ? "Report an adverse event through FDA MedWatch"
+              : "Review consumer support information";
         links.push(
-            `Visit the company website <a href='${companyWebsite}' target='_blank' rel='noopener noreferrer'>for product details</a>.`
+            `${label} <a href='${consumerWebsite}' target='_blank' rel='noopener noreferrer'>here</a>.`
+        );
+    }
+    if (
+        companyWebsite &&
+        companyWebsite !== consumerWebsite &&
+        companyWebsite !== lotCheckUrl &&
+        !(reportingUrls || []).includes(companyWebsite)
+    ) {
+        const label = /fda\.gov\/medwatch|fda\.gov\/safety\/medwatch/i.test(companyWebsite)
+            ? "Report an adverse event through FDA MedWatch"
+            : "Visit the company website for product details";
+        links.push(
+            `${label} <a href='${companyWebsite}' target='_blank' rel='noopener noreferrer'>here</a>.`
         );
     }
 
@@ -884,6 +996,52 @@ async function callOpenAI(prompt, label) {
     }
 
     return "";
+}
+
+function stripCodeFences(text) {
+    return String(text || "")
+        .trim()
+        .replace(/^```(?:json)?\s*/i, "")
+        .replace(/\s*```$/i, "")
+        .trim();
+}
+
+function extractJsonObject(text) {
+    const stripped = stripCodeFences(text);
+    const first = stripped.indexOf("{");
+    const last = stripped.lastIndexOf("}");
+    if (first < 0 || last <= first) return "";
+    return stripped.slice(first, last + 1);
+}
+
+function parseOpenAIJson(text, fallback) {
+    const json = extractJsonObject(text);
+    if (!json) return fallback;
+    try {
+        return JSON.parse(json);
+    } catch {
+        return fallback;
+    }
+}
+
+function cleanHtmlFragment(value) {
+    const text = String(value || "").trim();
+    if (!text) return "";
+    return text
+        .replace(/```[\s\S]*?```/g, "")
+        .replace(/<script[\s\S]*?<\/script>/gi, "")
+        .replace(/<style[\s\S]*?<\/style>/gi, "")
+        .trim();
+}
+
+function normalizeMetaDescription(value, fallback) {
+    let text = cleanText(value || fallback || "");
+    text = text.replace(/\s*\.\.\.$/, "").replace(/\s+…$/, "");
+    if (text.length > 170) {
+        text = text.slice(0, 167).replace(/\s+\S*$/, "").replace(/[,:;–-]+$/g, "").trim();
+    }
+    if (text && !/[.!?]$/.test(text)) text += ".";
+    return text;
 }
 
 async function rewriteAnnouncementForSEO({
@@ -972,6 +1130,7 @@ async function rewriteAnnouncementForSEOv2({
     productType,
     reason,
     rawAnnouncement,
+    announcementTables = [],
 }) {
     if (!cleanText(rawAnnouncement) || cleanText(rawAnnouncement).length < 40) return "";
 
@@ -984,6 +1143,8 @@ Format rules:
 - When the source lists products, lot numbers, expiration dates, or UPCs: return an HTML <table> with <thead><tr><th>...</th></tr></thead> and <tbody><tr><td>...</td></tr></tbody>. One row per product or variant.
 - Keep 2-3 short <p> paragraphs for the main summary, then add the <table> for structured product data below when needed.
 - No invented facts. Preserve all important details such as lots, dates, UPCs, and quantities. For links use <a href="URL">text</a>.
+- If SOURCE_TABLES_JSON is provided, do not recreate, summarize, or replace it with a new table. The script will append exact source tables separately.
+- Never output placeholder rows such as "Batch 1", "not specified", or "N/A" unless that exact value appears in the source.
 
 Tone and content:
 - Neutral, factual tone. Keep it unique for SEO and useful for readers.
@@ -1001,6 +1162,9 @@ Brand: ${brandName}
 Product: ${productDescription}
 Product Type: ${productType}
 Reason: ${reason}
+
+SOURCE_TABLES_JSON:
+${JSON.stringify(announcementTables || [])}
 
 Source announcement:
 ${rawAnnouncement}
@@ -1044,6 +1208,199 @@ Lot or replacement URL: ${lotCheckUrl}
 `.trim();
 
     return await callOpenAI(prompt, "consumerAction");
+}
+
+function buildEditorialFallback(data, year) {
+    const entity = data.brandName || data.companyName || "The company";
+    const product = data.productDescription || "the affected product";
+    const reason = data.reason || "the recall issue described in the FDA notice";
+    const date = normalizeDate(data.fdaPublishDateTime || data.fdaPublishDateText) || year;
+    const contact = buildContactSectionText(data.contacts);
+    return {
+        title: makeSeoHeadline({
+            title: data.title,
+            companyName: data.companyName,
+            brandName: data.brandName,
+            productDescription: data.productDescription,
+            reason: data.reason,
+        }),
+        headline: makeSeoHeadline({
+            title: data.title,
+            companyName: data.companyName,
+            brandName: data.brandName,
+            productDescription: data.productDescription,
+            reason: data.reason,
+        }),
+        metaDescription: makeDescription({
+            companyName: data.companyName,
+            brandName: data.brandName,
+            productDescription: data.productDescription,
+            reason: data.reason,
+            year,
+        }),
+        quickAnswerHtml: `<p>${escapeHtml(entity)} recalled ${escapeHtml(product)} because ${escapeHtml(reason)}. The FDA notice was published on ${escapeHtml(date)}.</p>`,
+        recallSummaryHtml: `<p>${escapeHtml(entity)} announced a recall involving ${escapeHtml(product)}. The recall reason listed by FDA is ${escapeHtml(reason)}.</p>`,
+        riskOverviewHtml: `<p>The practical risk depends on whether a consumer has the affected product identified in the FDA notice. Check the product name, package details, batch or lot information, and expiration dates against the official recall details.</p>`,
+        whoIsAffectedHtml: `<p>People who bought, used, distributed, or care for someone using ${escapeHtml(product)} may be affected if their product matches the recalled details.</p>`,
+        howToIdentifyProductHtml: `<p>Compare the product label with the affected product table and the FDA notice. Look for brand, product name, package size, batch or lot number, UPC, and use-by or expiration date where provided.</p>`,
+        whatToDoHtml: `<p>Follow the company and FDA instructions in the official notice. Stop using the product if it matches the recalled details, keep packaging information available, and contact the company using the listed support details.${contact ? ` ${escapeHtml(contact)}` : ""}</p>`,
+        healthAndSafetyContextHtml: `<p>This page is informational and based on the FDA-posted company announcement. Consumers with symptoms, adverse reactions, or product-specific medical concerns should contact a qualified health professional or report the issue through FDA reporting channels when appropriate.</p>`,
+        sourceTransparencyHtml: `<p>Recalls Atlas summarized the FDA-posted company announcement, preserved the official affected-product table when available, and linked back to the original FDA source.</p>`,
+        faq: [
+            {
+                question: `What product is recalled?`,
+                answer: `${product} is listed in the FDA notice.`,
+            },
+            {
+                question: `Why was it recalled?`,
+                answer: reason,
+            },
+            {
+                question: `Where can I verify the recall?`,
+                answer: `Use the official FDA recall notice linked on this page.`,
+            },
+        ],
+    };
+}
+
+function buildSourceBasedEeatMeta({ data, detailUrl, publishedDate, fetchedAt }) {
+    return omitEmptyDeep({
+        type: "source-based recall brief",
+        editorialStandard:
+            "FDA/company recall facts are extracted from the official notice; reader-facing explanations are generated from those facts and checked against source fields by script constraints.",
+        factualBasis: "Official FDA recall notice and company announcement posted by FDA.",
+        officialSource: detailUrl,
+        sourceAuthority: "U.S. Food and Drug Administration (FDA)",
+        sourcePublishedAt: publishedDate,
+        sourceFetchedAt: fetchedAt,
+        lastVerifiedAt: fetchedAt,
+        exactDataPreserved: [
+            "FDA source URL",
+            "FDA publish date",
+            "company announcement date",
+            "company name",
+            "brand name",
+            "product description",
+            "recall reason",
+            "affected product tables",
+            "contact details",
+            "official links",
+        ],
+        sourceTableCount: Array.isArray(data.announcementTables) ? data.announcementTables.length : 0,
+        hasExactAffectedProductTable:
+            Array.isArray(data.announcementTables) && data.announcementTables.some((table) => table?.rows?.length),
+        limitations:
+            "This page is not independent product testing, medical advice, legal advice, or a human clinical review.",
+    });
+}
+
+async function generateEditorialRecallBrief({ data, detailUrl, year }) {
+    const fallback = buildEditorialFallback(data, year);
+    const source = {
+        title: data.title,
+        companyName: data.companyName,
+        brandName: data.brandName,
+        brandNames: data.brandNames,
+        productDescription: data.productDescription,
+        productType: data.productType,
+        regulatedProducts: data.regulatedProducts,
+        reason: data.reason,
+        fdaPublishDate: data.fdaPublishDateText,
+        fdaPublishDateTime: data.fdaPublishDateTime,
+        companyAnnouncementDate: data.companyAnnouncementDateText,
+        sourceUrl: detailUrl,
+        pageTypeLabel: data.pageTypeLabel,
+        disclaimer: data.disclaimer,
+        contacts: data.contacts,
+        lotCheckUrl: data.lotCheckUrl,
+        consumerWebsite: data.consumerWebsite,
+        companyWebsite: data.companyWebsite,
+        contentCurrentAsOf: data.contentCurrentAsOfText,
+        announcementParagraphs: data.announcementParagraphs,
+        announcementBullets: data.announcementBullets,
+        announcementTables: data.announcementTables,
+        rawAnnouncement: data.rawAnnouncement,
+    };
+
+    const prompt = `
+You create high-quality FDA recall briefs for a U.S. consumer safety website. This is YMYL content.
+Return STRICT JSON only. No markdown.
+
+Goal:
+- Make the page more useful than the FDA post while staying fully grounded in the FDA/company announcement.
+- Improve E-E-A-T through clarity, completeness, source transparency, practical identification guidance, and careful risk context.
+- Do not pretend there was a human medical review. Do not claim independent testing.
+
+Hard trust rules:
+- Use only SOURCE_JSON.
+- Do not invent lot numbers, UPCs, dates, states, illness counts, distribution channels, symptoms, batch numbers, contacts, or URLs.
+- Do not create tables. Exact FDA source tables are handled by code.
+- Do not output placeholder values like "Batch 1", "Not specified", "N/A", or "unknown" unless those exact values appear in SOURCE_JSON.
+- If the source lacks a detail, say how to verify it using the FDA notice or product label instead of filling it in.
+- Do not provide medical or legal advice. You may say to contact a healthcare professional when the source or risk context supports it.
+- Keep all HTML simple: <p>, <ul>, <li>, <strong>. No <table>, no headings, no scripts.
+
+Return this JSON shape exactly:
+{
+  "title": "",
+  "headline": "",
+  "metaDescription": "",
+  "quickAnswerHtml": "",
+  "recallSummaryHtml": "",
+  "riskOverviewHtml": "",
+  "whoIsAffectedHtml": "",
+  "howToIdentifyProductHtml": "",
+  "whatToDoHtml": "",
+  "healthAndSafetyContextHtml": "",
+  "sourceTransparencyHtml": "",
+  "faq": [
+    { "question": "", "answer": "" },
+    { "question": "", "answer": "" },
+    { "question": "", "answer": "" }
+  ]
+}
+
+Quality requirements:
+- title/headline: specific product + hazard, not generic.
+- metaDescription: 140-165 characters, complete sentence, no trailing ellipsis.
+- quickAnswerHtml: 1 concise paragraph that answers what happened.
+- recallSummaryHtml: 2-3 paragraphs explaining product, reason, distribution, reported illnesses/events if present.
+- riskOverviewHtml: explain why the hazard matters in plain English, without exaggeration.
+- whoIsAffectedHtml: who should check their product.
+- howToIdentifyProductHtml: explain exactly which label details to compare, based on source tables/fields.
+- whatToDoHtml: concrete consumer steps supported by source details.
+- healthAndSafetyContextHtml: general safety context tied to the hazard and product type.
+- sourceTransparencyHtml: explain that the page is based on the FDA-posted company announcement, include FDA publish date if present.
+- faq: 3-5 useful questions and answers, grounded in source facts.
+
+SOURCE_JSON:
+${JSON.stringify(source)}
+`.trim();
+
+    const text = await callOpenAI(prompt, "editorialRecallBrief");
+    const parsed = parseOpenAIJson(text, fallback);
+    const brief = { ...fallback, ...(parsed && typeof parsed === "object" ? parsed : {}) };
+    const faq = Array.isArray(brief.faq) ? brief.faq : fallback.faq;
+    return {
+        title: cleanText(brief.title || fallback.title),
+        headline: cleanText(brief.headline || fallback.headline),
+        metaDescription: normalizeMetaDescription(brief.metaDescription, fallback.metaDescription),
+        quickAnswerHtml: cleanHtmlFragment(brief.quickAnswerHtml || fallback.quickAnswerHtml),
+        recallSummaryHtml: cleanHtmlFragment(brief.recallSummaryHtml || fallback.recallSummaryHtml),
+        riskOverviewHtml: cleanHtmlFragment(brief.riskOverviewHtml || fallback.riskOverviewHtml),
+        whoIsAffectedHtml: cleanHtmlFragment(brief.whoIsAffectedHtml || fallback.whoIsAffectedHtml),
+        howToIdentifyProductHtml: cleanHtmlFragment(brief.howToIdentifyProductHtml || fallback.howToIdentifyProductHtml),
+        whatToDoHtml: cleanHtmlFragment(brief.whatToDoHtml || fallback.whatToDoHtml),
+        healthAndSafetyContextHtml: cleanHtmlFragment(brief.healthAndSafetyContextHtml || fallback.healthAndSafetyContextHtml),
+        sourceTransparencyHtml: cleanHtmlFragment(brief.sourceTransparencyHtml || fallback.sourceTransparencyHtml),
+        faq: faq
+            .map((item) => ({
+                question: cleanText(item?.question || ""),
+                answer: cleanText(item?.answer || ""),
+            }))
+            .filter((item) => item.question && item.answer)
+            .slice(0, 5),
+    };
 }
 
 // ======================================================
@@ -1350,25 +1707,39 @@ async function extractDetailPage(detailPage, detailUrl) {
                 });
             }
             function collectTable(tableEl) {
-                const headers = [...tableEl.querySelectorAll("thead th")]
-                    .map((th) => clean(th.innerText))
-                    .filter(Boolean);
-                const bodyRows = [...tableEl.querySelectorAll("tbody tr")]
-                    .map((tr) => [...tr.querySelectorAll("th, td")].map((td) => clean(td.innerText)))
+                const tableRows = [...tableEl.querySelectorAll("tr")];
+                const grid = [];
+                tableRows.forEach((tr, rowIndex) => {
+                    if (!grid[rowIndex]) grid[rowIndex] = [];
+                    let colIndex = 0;
+                    [...tr.querySelectorAll("th, td")].forEach((cell) => {
+                        while (grid[rowIndex][colIndex] !== undefined) colIndex++;
+                        const value = clean(cell.innerText);
+                        const rowspan = Math.max(1, Number.parseInt(cell.getAttribute("rowspan") || "1", 10) || 1);
+                        const colspan = Math.max(1, Number.parseInt(cell.getAttribute("colspan") || "1", 10) || 1);
+                        for (let r = 0; r < rowspan; r++) {
+                            const targetRow = rowIndex + r;
+                            if (!grid[targetRow]) grid[targetRow] = [];
+                            for (let c = 0; c < colspan; c++) {
+                                grid[targetRow][colIndex + c] = value;
+                            }
+                        }
+                        colIndex += colspan;
+                    });
+                });
+
+                const headerRowEl = tableEl.querySelector("thead tr") || tableRows.find((tr) => tr.querySelector("th"));
+                const headerIndex = headerRowEl ? tableRows.indexOf(headerRowEl) : 0;
+                let finalHeaders = (grid[headerIndex] || []).map(clean).filter(Boolean);
+                let rows = grid
+                    .filter((_row, i) => i !== headerIndex && i > headerIndex)
+                    .map((row) => (row || []).map(clean))
                     .filter((row) => row.some(Boolean));
-                const fallbackRows = bodyRows.length
-                    ? []
-                    : [...tableEl.querySelectorAll("tr")]
-                          .map((tr) => [...tr.querySelectorAll("th, td")].map((td) => clean(td.innerText)))
-                          .filter((row) => row.some(Boolean));
-                let finalHeaders = headers;
-                let rows = bodyRows;
-                if (!rows.length && fallbackRows.length) {
-                    finalHeaders = finalHeaders.length ? finalHeaders : fallbackRows[0];
-                    rows = finalHeaders === fallbackRows[0] ? fallbackRows.slice(1) : fallbackRows;
-                }
                 if (!finalHeaders.length && rows.length) {
                     finalHeaders = rows[0].map((_value, i) => `Column ${i + 1}`);
+                }
+                if (finalHeaders.length && rows.length) {
+                    rows = rows.map((row) => finalHeaders.map((_header, i) => clean(row[i] || "")));
                 }
                 if (finalHeaders.length && rows.length) {
                     announcementTables.push({ headers: finalHeaders, rows });
@@ -1555,9 +1926,20 @@ async function extractDetailPage(detailPage, detailUrl) {
             let lotCheckUrl = "";
             let consumerWebsite = "";
             let companyWebsite = "";
+            const reportingUrls = [];
 
             for (const href of allLinks) {
                 const lower = href.toLowerCase();
+                const isReportingUrl =
+                    /safetyreporting\.hhs\.gov|fda\.gov\/medwatch|fda\.gov\/safety\/medwatch|medwatch\/report/i.test(
+                        lower
+                    );
+
+                if (isReportingUrl) {
+                    reportingUrls.push(href);
+                    if (!consumerWebsite) consumerWebsite = href;
+                    continue;
+                }
 
                 if (!lotCheckUrl && /(check-pods|check|lot|replacement|recall|corrective-action)/i.test(lower)) {
                     lotCheckUrl = href;
@@ -1571,7 +1953,8 @@ async function extractDetailPage(detailPage, detailUrl) {
 
                 if (
                     !companyWebsite &&
-                    !/fda\.gov\/safety\/medwatch/i.test(lower) &&
+                    !/fda\.gov/i.test(lower) &&
+                    !/safetyreporting\.hhs\.gov/i.test(lower) &&
                     !/fda\.gov\/about-fda\/website-policies/i.test(lower)
                 ) {
                     companyWebsite = href;
@@ -1623,6 +2006,7 @@ async function extractDetailPage(detailPage, detailUrl) {
                 lotCheckUrl,
                 consumerWebsite,
                 companyWebsite,
+                reportingUrls: uniqueArray(reportingUrls),
 
                 contentCurrentAsOfText,
                 contentCurrentAsOfDateTime,
@@ -1687,6 +2071,7 @@ function mergeListAndDetailData(listRow, detailData) {
         lotCheckUrl: normalizeUrl(detailData.lotCheckUrl),
         consumerWebsite: normalizeUrl(detailData.consumerWebsite),
         companyWebsite: normalizeUrl(detailData.companyWebsite),
+        reportingUrls: uniqueArray(detailData.reportingUrls || []).map(normalizeUrl).filter(Boolean),
 
         contentCurrentAsOfText: cleanText(detailData.contentCurrentAsOfText),
         contentCurrentAsOfDateTime: cleanText(detailData.contentCurrentAsOfDateTime),
@@ -1749,18 +2134,62 @@ function buildContactSectionText(contacts) {
     return parts.filter(Boolean).join("\n");
 }
 
+function escapeHtml(value) {
+    return String(value || "")
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;");
+}
+
+function buildAnnouncementTablesHtml(tables) {
+    if (!Array.isArray(tables) || !tables.length) return "";
+    return tables
+        .map((table) => {
+            const headers = Array.isArray(table.headers) ? table.headers.map(cleanText).filter(Boolean) : [];
+            const rows = Array.isArray(table.rows)
+                ? table.rows
+                      .map((row) => (Array.isArray(row) ? row.map(cleanText) : []))
+                      .filter((row) => row.some(Boolean))
+                : [];
+            if (!headers.length || !rows.length) return "";
+            const thead = `<thead><tr>${headers.map((h) => `<th>${escapeHtml(h)}</th>`).join("")}</tr></thead>`;
+            const tbody = `<tbody>${rows
+                .map((row) => {
+                    const cells = headers.map((_h, i) => `<td>${escapeHtml(row[i] || "")}</td>`).join("");
+                    return `<tr>${cells}</tr>`;
+                })
+                .join("")}</tbody>`;
+            return `<table>${thead}${tbody}</table>`;
+        })
+        .filter(Boolean)
+        .join("\n");
+}
+
 function buildContentSections({
     data,
     rewrittenSummary,
     consumerActionText,
+    editorialBrief,
     authorityLinks,
 }) {
     const sections = [];
 
+    const exactTablesHtml = buildAnnouncementTablesHtml(data.announcementTables);
+    const quickAnswer = editorialBrief?.quickAnswerHtml || "";
+    const summaryText = editorialBrief?.recallSummaryHtml || rewrittenSummary || buildFallbackRecallSummary(data);
+    if (quickAnswer) {
+        sections.push(
+            omitEmptyDeep({
+                subtitle: "Quick Answer",
+                text: quickAnswer,
+            })
+        );
+    }
     sections.push(
         omitEmptyDeep({
             subtitle: "Recall Summary",
-            text: rewrittenSummary || buildFallbackRecallSummary(data),
+            text: exactTablesHtml ? `${summaryText}\n${exactTablesHtml}` : summaryText,
         })
     );
 
@@ -1770,6 +2199,7 @@ function buildContentSections({
         product: cleanText(data.productDescription || ""),
         productType: cleanText(data.productType || ""),
         reason: cleanText(data.reason || ""),
+        affectedProductTables: data.announcementTables,
     });
     if (Object.keys(recallFacts).length) {
         sections.push(
@@ -1780,11 +2210,20 @@ function buildContentSections({
         );
     }
 
-    if (consumerActionText) {
+    if (editorialBrief?.howToIdentifyProductHtml) {
+        sections.push(
+            omitEmptyDeep({
+                subtitle: "How to Identify the Recalled Product",
+                text: editorialBrief.howToIdentifyProductHtml,
+            })
+        );
+    }
+
+    if (editorialBrief?.whatToDoHtml || consumerActionText) {
         sections.push(
             omitEmptyDeep({
                 subtitle: "What You Should Do",
-                text: consumerActionText,
+                text: editorialBrief?.whatToDoHtml || consumerActionText,
             })
         );
     } else {
@@ -1814,6 +2253,33 @@ function buildContentSections({
         }
     }
 
+    if (editorialBrief?.riskOverviewHtml) {
+        sections.push(
+            omitEmptyDeep({
+                subtitle: "Risk Overview",
+                text: editorialBrief.riskOverviewHtml,
+            })
+        );
+    }
+
+    if (editorialBrief?.whoIsAffectedHtml) {
+        sections.push(
+            omitEmptyDeep({
+                subtitle: "Who May Be Affected",
+                text: editorialBrief.whoIsAffectedHtml,
+            })
+        );
+    }
+
+    if (editorialBrief?.healthAndSafetyContextHtml) {
+        sections.push(
+            omitEmptyDeep({
+                subtitle: "Health and Safety Context",
+                text: editorialBrief.healthAndSafetyContextHtml,
+            })
+        );
+    }
+
     const contactText = buildContactSectionText(data.contacts);
     if (contactText) {
         sections.push(
@@ -1833,13 +2299,24 @@ function buildContentSections({
         );
     }
 
+    if (Array.isArray(editorialBrief?.faq) && editorialBrief.faq.length) {
+        sections.push(
+            omitEmptyDeep({
+                subtitle: "Frequently Asked Questions",
+                faq: editorialBrief.faq,
+            })
+        );
+    }
+
     sections.push(
         omitEmptyDeep({
             subtitle: "Source and Verification",
-            text: cleanText(
-                `According to the U.S. Food and Drug Administration (FDA), this recall notice was published on ${normalizeDate(data.fdaPublishDateTime || data.fdaPublishDateText) || "the FDA recall page"
-                }.`
-            ),
+            text:
+                editorialBrief?.sourceTransparencyHtml ||
+                cleanText(
+                    `According to the U.S. Food and Drug Administration (FDA), this recall notice was published on ${normalizeDate(data.fdaPublishDateTime || data.fdaPublishDateText) || "the FDA recall page"
+                    }.`
+                ),
             authorityLinks,
         })
     );
@@ -1849,6 +2326,7 @@ function buildContentSections({
         .filter((section) =>
             cleanText(section.text) ||
             (section.facts && Object.keys(section.facts).length) ||
+            (Array.isArray(section.faq) && section.faq.length) ||
             (Array.isArray(section.authorityLinks) && section.authorityLinks.length)
         );
 }
@@ -1907,8 +2385,8 @@ function fdaFirstNRowsAllAlreadyStored(fdaRows, processedUrls, n) {
               ? Object.keys(storedHashes)
               : []
     );
-    const remainingCapacity = Math.max(0, MAX_TOTAL - results.length);
-    const runLimit = Math.min(MAX_RECORDS, remainingCapacity);
+    const backfillCapacity = Math.max(0, MAX_TOTAL - results.length);
+    const runLimit = results.length >= MAX_TOTAL ? MAX_RECORDS : Math.min(MAX_RECORDS, backfillCapacity);
 
     const processedUrls = new Set();
     for (const item of results) {
@@ -1923,7 +2401,8 @@ function fdaFirstNRowsAllAlreadyStored(fdaRows, processedUrls, n) {
         results.map((item) => item.id || item.slug).filter(Boolean)
     );
 
-    let maxSort = START_SORT_ORDER - 1;
+    let maxSort = START_SORT_ORDER;
+    let minSort = START_SORT_ORDER + 1;
     const sortOrders = new Set(
         results
             .map((item) => (typeof item.sortOrder === "number" ? item.sortOrder : null))
@@ -1931,7 +2410,7 @@ function fdaFirstNRowsAllAlreadyStored(fdaRows, processedUrls, n) {
     );
     if (sortOrders.size > 0) {
         maxSort = Math.max(...sortOrders);
-        const minSort = Math.min(...sortOrders);
+        minSort = Math.min(...sortOrders);
         const gaps = [];
         for (let i = minSort; i <= maxSort; i++) {
             if (!sortOrders.has(i)) gaps.push(i);
@@ -1949,12 +2428,18 @@ function fdaFirstNRowsAllAlreadyStored(fdaRows, processedUrls, n) {
         return d > best ? d : best;
     }, "");
 
-    log(`Loaded existing recalls: ${results.length}, unique sourceUrls: ${processedUrls.size}`);
-    log(`Limits: MAX_RECORDS=${MAX_RECORDS}, MAX_TOTAL=${MAX_TOTAL}, runLimit=${runLimit}`);
-    log(`IMAGE_BASE_DIR: ${IMAGE_BASE_DIR}`);
-    log(`Newest existing date: ${newestExistingDate || "(none)"} (vs FDA table + sourceUrl)`);
+    printRunSummary({
+        existingCount: results.length,
+        maxRecords: MAX_RECORDS,
+        maxTotal: MAX_TOTAL,
+        runLimit,
+        imageBaseDir: IMAGE_BASE_DIR,
+    });
+    verboseLog(`Loaded unique sourceUrls: ${processedUrls.size}`);
+    verboseLog(`Backfill capacity: ${backfillCapacity}`);
+    verboseLog(`Newest existing date: ${newestExistingDate || "(none)"} (vs FDA table + sourceUrl)`);
     if (runLimit <= 0) {
-        log(`MAX_TOTAL reached (${results.length}/${MAX_TOTAL}); no scrape needed.`);
+        log(`MAX_TOTAL reached (${results.length}/${MAX_TOTAL}); no backfill or newer scrape requested.`);
         saveAll(results, imageMap, processedHashes);
         progress.finish(`DONE · max total reached · ${results.length} total in file`);
         return;
@@ -1999,11 +2484,13 @@ function fdaFirstNRowsAllAlreadyStored(fdaRows, processedUrls, n) {
     await page.waitForSelector("#datatable tbody tr");
     log("Set DataTable page size to 100 and Terminated Recall filter to No");
 
-    // Pass 1: walk FDA table (newest → older). Collect rows that are not already in recalls.json
-    // by sourceUrl and are not older than our newest stored date. Pass 2 assigns sortOrder so the
-    // first table row (top) gets maxSort+N, …, last new row gets maxSort+1.
+    // Pass 1: walk FDA table newest → older. Before the first stored row, candidates are true
+    // new recalls and get sortOrder above maxSort. After stored rows, candidates are backfill
+    // rows and get sortOrder below minSort. For a fresh build, the top row starts at 300.
     const pendingCandidates = [];
     const queuedHashes = new Set();
+    const hasExistingResults = results.length > 0;
+    let seenStoredRecall = false;
     let pageIndex = 1;
     let hasNext = true;
 
@@ -2014,14 +2501,18 @@ function fdaFirstNRowsAllAlreadyStored(fdaRows, processedUrls, n) {
             total: runLimit,
             status: `Page ${pageIndex}…`,
         });
-        log(`Reading DataTable page ${pageIndex} (enumerate new rows)…`);
+        verboseLog(`Reading DataTable page ${pageIndex} (enumerate new rows)...`);
 
         await waitForDatatableReady(page);
 
         const rows = await extractListRows(page);
-        log(`Rows found on page ${pageIndex}: ${rows.length}`);
+        verboseLog(`Rows found on page ${pageIndex}: ${rows.length}`);
 
-        if (pageIndex === 1 && fdaFirstNRowsAllAlreadyStored(rows, processedUrls, EARLY_EXIT_TOP_N)) {
+        if (
+            pageIndex === 1 &&
+            backfillCapacity <= 0 &&
+            fdaFirstNRowsAllAlreadyStored(rows, processedUrls, EARLY_EXIT_TOP_N)
+        ) {
             log(
                 `FDA first ${EARLY_EXIT_TOP_N} row(s) (or full page if shorter) are already in recalls.json — nothing new, skipping table scan.`
             );
@@ -2029,7 +2520,7 @@ function fdaFirstNRowsAllAlreadyStored(fdaRows, processedUrls, n) {
             break;
         }
 
-        let hitOlderThanDb = false;
+        let hitBackfillLimit = false;
         for (const listRow of rows) {
             if (pendingCandidates.length >= runLimit) break;
 
@@ -2038,39 +2529,43 @@ function fdaFirstNRowsAllAlreadyStored(fdaRows, processedUrls, n) {
             if (!detailUrl) continue;
 
             if (newestExistingDate && !rowDate) {
-                log("Skip row with empty list date (recalls.json has a newest date).");
+                verboseLog("Skip row with empty list date (recalls.json has a newest date).");
                 continue;
             }
 
             const normalizedDetailUrl = normalizeSourceUrl(detailUrl);
             const recallHash = buildRecallHash(normalizedDetailUrl || detailUrl);
             if (normalizedDetailUrl && processedUrls.has(normalizedDetailUrl)) {
-                log(`Skip already stored (sourceUrl): ${detailUrl}`);
+                seenStoredRecall = true;
+                verboseLog(`Skip already stored (sourceUrl): ${detailUrl}`);
                 continue;
             }
             if (recallHash && processedHashes.has(recallHash)) {
-                log(`Skip already processed (hash): ${detailUrl}`);
+                seenStoredRecall = true;
+                verboseLog(`Skip already processed (hash): ${detailUrl}`);
                 continue;
             }
             if (recallHash && queuedHashes.has(recallHash)) {
-                log(`Skip duplicate queued this run: ${detailUrl}`);
+                verboseLog(`Skip duplicate queued this run: ${detailUrl}`);
                 continue;
             }
 
-            if (isRowOlderThanStored(rowDate, newestExistingDate)) {
-                hitOlderThanDb = true;
+            const candidateKind = !hasExistingResults ? "fresh" : seenStoredRecall ? "backfill" : "newer";
+            const backfillQueued = pendingCandidates.filter((item) => item.candidateKind !== "newer").length;
+            if (candidateKind === "backfill" && backfillQueued >= backfillCapacity) {
+                hitBackfillLimit = true;
                 break;
             }
 
-            pendingCandidates.push({ listRow, detailUrl, normalizedDetailUrl, recallHash });
+            pendingCandidates.push({ listRow, detailUrl, normalizedDetailUrl, recallHash, candidateKind });
             if (recallHash) queuedHashes.add(recallHash);
         }
 
-        if (hitOlderThanDb) {
+        if (hitBackfillLimit) {
             if (pendingCandidates.length === 0) {
-                log("Reached FDA rows older than newest in recalls.json; nothing new to add.");
+                log("Reached archive backfill limit; nothing new to add.");
             } else {
-                log("Reached older FDA rows; stopping table scan.");
+                log("Reached archive backfill limit; stopping table scan.");
             }
             hasNext = false;
             break;
@@ -2102,11 +2597,25 @@ function fdaFirstNRowsAllAlreadyStored(fdaRows, processedUrls, n) {
         return;
     }
 
-    for (let i = 0; i < N; i++) {
-        pendingCandidates[i].assignedSortOrder = maxSort + N - i;
+    const freshCandidates = pendingCandidates.filter((item) => item.candidateKind === "fresh");
+    const newerCandidates = pendingCandidates.filter((item) => item.candidateKind === "newer");
+    const backfillCandidates = pendingCandidates.filter((item) => item.candidateKind === "backfill");
+
+    for (let i = 0; i < freshCandidates.length; i++) {
+        freshCandidates[i].assignedSortOrder = START_SORT_ORDER - i;
     }
+    for (let i = 0; i < newerCandidates.length; i++) {
+        newerCandidates[i].assignedSortOrder = maxSort + newerCandidates.length - i;
+    }
+    for (let i = 0; i < backfillCandidates.length; i++) {
+        backfillCandidates[i].assignedSortOrder = minSort - 1 - i;
+    }
+
+    const assignedSortOrders = pendingCandidates
+        .map((item) => item.assignedSortOrder)
+        .filter((n) => typeof n === "number");
     log(
-        `New recalls to ingest: ${N} — sortOrder ${maxSort + N} (FDA table top) … ${maxSort + 1} (oldest in batch)`
+        `New recalls to ingest: ${N} — sortOrder ${Math.max(...assignedSortOrders)} (newest in run) … ${Math.min(...assignedSortOrders)} (oldest in run)`
     );
 
     let savedThisRun = 0;
@@ -2118,7 +2627,7 @@ function fdaFirstNRowsAllAlreadyStored(fdaRows, processedUrls, n) {
         const step = ci + 1;
         const shortUrl = detailUrl.replace(/^https?:\/\//, "").slice(0, 35);
         updateRecallStage(step, N, "Opening detail page", shortUrl + "…");
-        log(`Detail [${step}/${N}] sortOrder=${assignedSortOrder}: ${detailUrl}`);
+        printRecallHeader({ step, total: N, sortOrder: assignedSortOrder, detailUrl });
 
         const detailPage = await context.newPage();
         detailPage.setDefaultNavigationTimeout(NAV_TIMEOUT);
@@ -2153,34 +2662,23 @@ function fdaFirstNRowsAllAlreadyStored(fdaRows, processedUrls, n) {
             const slug = ensureUniqueSlug(slugBase, existingSlugs);
             const folderName = `${assignedSortOrder}-${slug}`;
 
-            log(`Slug: ${slug}`);
-            log(`Folder: ${folderName}`);
-
-            updateRecallStage(step, N, "Rewriting summary", slug);
-            const rewrittenSummary = await rewriteAnnouncementForSEOv2({
+            printRecallIdentity({
                 title: merged.title,
+                slug,
+                folderName,
                 companyName: merged.companyName,
-                brandName: merged.brandName,
-                productDescription: merged.productDescription,
-                productType: merged.productType,
-                reason: merged.reason,
-                rawAnnouncement: merged.rawAnnouncement,
-            });
-
-            await randomDelay("after rewrite");
-
-            updateRecallStage(step, N, "Writing action guidance", slug);
-            const consumerActionText = await generateConsumerActionTextV2({
-                companyName: merged.companyName,
-                brandName: merged.brandName,
                 productDescription: merged.productDescription,
                 reason: merged.reason,
-                consumerPhone: merged.contacts?.consumers?.phone || "",
-                consumerEmail: merged.contacts?.consumers?.email || "",
-                lotCheckUrl: merged.lotCheckUrl || "",
             });
 
-            await randomDelay("after consumer action generation");
+            updateRecallStage(step, N, "Generating editorial brief", slug);
+            const editorialBrief = await generateEditorialRecallBrief({
+                data: merged,
+                detailUrl,
+                year,
+            });
+
+            await randomDelay("after editorial brief generation");
 
             const savedImages = [];
             if (merged.images && merged.images.length > 0) {
@@ -2199,28 +2697,31 @@ function fdaFirstNRowsAllAlreadyStored(fdaRows, processedUrls, n) {
             }
 
             const canonicalUrl = makeCanonicalUrl(slug);
+            const fetchedAt = nowISO();
             const authorityLinks = buildAuthorityLinks(
                 detailUrl,
                 merged.consumerWebsite,
                 merged.companyWebsite,
-                merged.lotCheckUrl
+                merged.lotCheckUrl,
+                merged.reportingUrls
             );
 
             const contentSections = buildContentSections({
                 data: merged,
-                rewrittenSummary,
-                consumerActionText,
+                rewrittenSummary: editorialBrief.recallSummaryHtml,
+                consumerActionText: editorialBrief.whatToDoHtml,
+                editorialBrief,
                 authorityLinks,
             });
 
-            const description = makeDescription({
+            const description = editorialBrief.metaDescription || makeDescription({
                 companyName: merged.companyName,
                 brandName: merged.brandName,
                 productDescription: merged.productDescription,
                 reason: merged.reason,
                 year,
             });
-            const seoHeadline = makeSeoHeadline({
+            const seoHeadline = editorialBrief.headline || makeSeoHeadline({
                 title: merged.title,
                 companyName: merged.companyName,
                 brandName: merged.brandName,
@@ -2273,13 +2774,20 @@ function fdaFirstNRowsAllAlreadyStored(fdaRows, processedUrls, n) {
                 sourceUrl: detailUrl,
                 sourceAuthority: "FDA",
                 sourcePublishedAt: publishedDate,
-                sourceFetchedAt: nowISO(),
-                scrapedAt: nowISO(),
+                sourceFetchedAt: fetchedAt,
+                scrapedAt: fetchedAt,
+                eeatMeta: buildSourceBasedEeatMeta({
+                    data: merged,
+                    detailUrl,
+                    publishedDate,
+                    fetchedAt,
+                }),
 
                 pageTypeLabel: merged.pageTypeLabel,
                 disclaimer: merged.disclaimer,
 
-                title: merged.title,
+                title: editorialBrief.title || merged.title,
+                editorialBrief,
 
                 companyAnnouncementDate: merged.companyAnnouncementDateText,
                 companyAnnouncementDateTime: normalizeDateTime(merged.companyAnnouncementDateTime),
@@ -2303,11 +2811,13 @@ function fdaFirstNRowsAllAlreadyStored(fdaRows, processedUrls, n) {
                 lotCheckUrl: merged.lotCheckUrl,
                 consumerWebsite: merged.consumerWebsite,
                 companyWebsite: merged.companyWebsite,
+                reportingUrls: merged.reportingUrls,
 
                 contacts: merged.contacts,
 
                 contentCurrentAsOf: merged.contentCurrentAsOfText,
                 contentCurrentAsOfDateTime: normalizeDateTime(merged.contentCurrentAsOfDateTime),
+                sourceTables: merged.announcementTables,
 
                 images: savedImages,
                 rawImageSources: merged.images,
@@ -2327,7 +2837,14 @@ function fdaFirstNRowsAllAlreadyStored(fdaRows, processedUrls, n) {
             if (savedThisRun % 5 === 0) {
                 log(`Checkpoint: saved after ${savedThisRun} recalls.`);
             }
-            log(`Saved article ${savedThisRun}/${N} this run.`);
+            printRecallDone({
+                step,
+                total: N,
+                sortOrder: assignedSortOrder,
+                slug,
+                imageCount: savedImages.length,
+                totalSaved: results.length,
+            });
 
             await detailPage.close();
             await randomDelay("after detail complete");
