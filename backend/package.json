@@ -5,16 +5,8 @@
   "type": "commonjs",
   "scripts": {
     "test": "node -e \"require('./database/mongodb').getDb().then(() => console.log('MongoDB OK')).catch(e => { console.error(e); process.exit(1); })\"",
-    "merge-general-recalls": "node scripts/rewritingWithOpenAi/mergeDownloadsToJson.js",
-    "translate-general-recalls": "node scripts/rewritingWithOpenAi/translateGeneralRecallsSeo.js",
-    "translate-general-recalls:force": "node scripts/rewritingWithOpenAi/translateGeneralRecallsSeo.js --force",
-    "retry-failed-general-recalls-images": "node scripts/rewritingWithOpenAi/translateGeneralRecallsSeo.js --retry-failed",
-    "translate-general-recalls:retailers-only": "node scripts/rewritingWithOpenAi/translateGeneralRecallsSeo.js --retailers-only",
-    "migrate-general-recall-images": "node scripts/rewritingWithOpenAi/migrateGeneralRecallImageLayout.js",
-    "migrate-general-recall-images:dry-run": "node scripts/rewritingWithOpenAi/migrateGeneralRecallImageLayout.js --dry-run",
-    "strip-legacy-general-recall-seo": "node scripts/rewritingWithOpenAi/stripLegacySeoFromTranslated.js",
-    "strip-legacy-general-recall-seo:dry-run": "node scripts/rewritingWithOpenAi/stripLegacySeoFromTranslated.js --dry-run",
-    "translate-general-recalls-i18n": "node scripts/generalRecalls/openaiTranslating/translateGeneralRecallsI18n.js",
+    "fetch-general-recalls": "node generalRecalls/scripts/fetch/fetchGeneralRecalls.js",
+    "fetch-general-recalls:20": "node generalRecalls/scripts/fetch/fetchGeneralRecalls.js --max-records=20 --max-total=20",
     "enhance-recalls-eeat": "node scripts/translate/enhanceRecallEeat.js",
     "enhance-recalls-eeat:resume": "node scripts/translate/enhanceRecallEeat.js --resume"
   },
