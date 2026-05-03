@@ -85,6 +85,8 @@ function translatedDirCandidates(): string[] {
 function flattenedFileCandidates(): string[] {
   const cwd = process.cwd();
   return [
+    path.join(cwd, "backend", "generalRecalls", "data", "general-recalls-en-eeat.json"),
+    path.join(cwd, "..", "backend", "generalRecalls", "data", "general-recalls-en-eeat.json"),
     path.join(cwd, "backend", "generalRecalls", "data", "general_recalls.flattened.json"),
     path.join(cwd, "..", "backend", "generalRecalls", "data", "general_recalls.flattened.json"),
     path.join(cwd, "backend", "database", "generalRecalls", "general_recalls.flattened.json"),

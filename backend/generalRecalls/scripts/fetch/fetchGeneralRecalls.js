@@ -388,6 +388,12 @@ function normalizeMetaDescription(value, fallback) {
     if (text.length > 170) {
         text = text.slice(0, 167).replace(/\s+\S*$/, "").replace(/[,:;-]+$/g, "").trim();
     }
+    if (/\b(check|contact|email|request|return|seek|visit|call|follow|dispose|get|receive|obtain)\.?$/i.test(text)) {
+        text = cleanText(fallback || text);
+        if (text.length > 170) {
+            text = text.slice(0, 167).replace(/\s+\S*$/, "").replace(/[,:;-]+$/g, "").trim();
+        }
+    }
     if (text && !/[.!?]$/.test(text)) text += ".";
     return text;
 }

@@ -17,11 +17,36 @@ const extraLabels = {
   officialNotice: "Official notice",
 } as const;
 
+type EditorialSection = {
+  subtitle?: string;
+  text?: string;
+  faq?: { question?: string; answer?: string }[];
+  authorityLinks?: string[];
+};
+
 function normalizedValues(items: string[]) {
   return items
     .map((item) => item.trim().toLowerCase())
     .filter(Boolean)
     .sort();
+}
+
+function getEditorialSections(recall: GeneralRecall): EditorialSection[] {
+  const sections = recall.content;
+  if (!Array.isArray(sections)) return [];
+  return sections.filter((section): section is EditorialSection => {
+    if (!section || typeof section !== "object") return false;
+    const s = section as EditorialSection;
+    const subtitle = String(s.subtitle || "").toLowerCase();
+    if (subtitle.includes("recall summary")) return false;
+    if (subtitle.includes("what was recalled")) return false;
+    if (subtitle.includes("company contact")) return false;
+    return Boolean(s.text || s.faq?.length || s.authorityLinks?.length);
+  });
+}
+
+function hasHtml(value: unknown): value is string {
+  return typeof value === "string" && value.trim().length > 0;
 }
 
 type Props = {
@@ -50,6 +75,7 @@ export default function GeneralRecallDetail({ recall, lang }: Props) {
     remedyOptionNames.length > 0 &&
     JSON.stringify(normalizedValues(remedyNames)) !==
       JSON.stringify(normalizedValues(remedyOptionNames));
+  const editorialSections = getEditorialSections(recall);
 
   return (
     <div className="recall-detail-page">
@@ -258,6 +284,44 @@ export default function GeneralRecallDetail({ recall, lang }: Props) {
                 <p style={{ lineHeight: 1.6, color: "#334155" }}>{r.ConsumerContact}</p>
               </section>
             )}
+
+            {editorialSections.map((section, i) => (
+              <section key={`${section.subtitle || "section"}-${i}`} style={{ marginBottom: "1.5rem" }}>
+                {section.subtitle && (
+                  <h2 style={{ fontSize: "1.1rem", marginBottom: "0.75rem" }}>{section.subtitle}</h2>
+                )}
+                {hasHtml(section.text) && (
+                  <div
+                    style={{ lineHeight: 1.6, color: "#334155" }}
+                    dangerouslySetInnerHTML={{ __html: section.text }}
+                  />
+                )}
+                {section.faq?.length ? (
+                  <div style={{ display: "grid", gap: "0.85rem" }}>
+                    {section.faq.map((item, faqIndex) => (
+                      <div key={faqIndex}>
+                        <h3 style={{ fontSize: "1rem", margin: "0 0 0.25rem" }}>
+                          {item.question}
+                        </h3>
+                        <p style={{ margin: 0, lineHeight: 1.6, color: "#334155" }}>
+                          {item.answer}
+                        </p>
+                      </div>
+                    ))}
+                  </div>
+                ) : null}
+                {section.authorityLinks?.length ? (
+                  <ul style={listStyle}>
+                    {section.authorityLinks.map((link, linkIndex) => (
+                      <li
+                        key={linkIndex}
+                        dangerouslySetInnerHTML={{ __html: link }}
+                      />
+                    ))}
+                  </ul>
+                ) : null}
+              </section>
+            ))}
 
             {cpscUrl && (
               <p style={{ fontSize: "0.9rem", color: "#64748b" }}>
