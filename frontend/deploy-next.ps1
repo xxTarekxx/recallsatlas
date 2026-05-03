@@ -1,8 +1,15 @@
 #Requires -Version 5.1
 <#
+  Local machine -> VPS only (no copy from one server path to another).
   Local: remove .next, npm run build.
   Remote: remove .next, node_modules, next.config.mjs, package.json, package-lock.json;
-         upload package.json, package-lock.json, next.config.mjs; npm install; upload .next.
+         upload package.json, package-lock.json, next.config.mjs; npm install;
+         sync public/ with rsync --checksum (only missing/changed files; requires rsync on PATH);
+         upload .next.
+
+  Set DEPLOY_SKIP_PUBLIC_RSYNC=1 to skip the public/ step.
+  Set DEPLOY_PUBLIC_RSYNC_VERBOSE=1 to add rsync -v (more log output).
+  If rsync is not installed, public/ sync is skipped (see warning); install rsync for incremental uploads.
 
   Preferred: create deploy.env.ps1 (see deploy.env.ps1.example) with:
     $VPS_HOST = "user@host"
@@ -66,6 +73,23 @@ if ($VPS_SSH_KEY) { $SshBase += @("-i", $VPS_SSH_KEY.Trim()) }
 elseif ($env:DEPLOY_SSH_IDENTITY) { $SshBase += @("-i", $env:DEPLOY_SSH_IDENTITY) }
 if ($env:DEPLOY_SSH_EXTRA) { $SshBase += ($env:DEPLOY_SSH_EXTRA -split '\s+') }
 
+function Format-RsyncSshCommandLine {
+  param([string[]]$SshBaseArgs)
+  if (-not $SshBaseArgs -or $SshBaseArgs.Count -eq 0) { return "ssh" }
+  $parts = New-Object System.Collections.Generic.List[string]
+  [void]$parts.Add("ssh")
+  foreach ($a in $SshBaseArgs) {
+    $t = [string]$a
+    if ($t -match '\s') {
+      $escaped = ($t -replace '"', '\"')
+      [void]$parts.Add('"' + $escaped + '"')
+    } else {
+      [void]$parts.Add($t)
+    }
+  }
+  return ($parts -join " ")
+}
+
 function Invoke-RemoteClean {
   $bash = "rm -rf '$RemotePath/.next' '$RemotePath/node_modules' && rm -f '$RemotePath/next.config.mjs' '$RemotePath/package.json' '$RemotePath/package-lock.json'"
   & ssh @SshBase $SshTarget $bash
@@ -103,6 +127,36 @@ if ($LASTEXITCODE -ne 0) { throw "scp next.config.mjs failed (exit $LASTEXITCODE
 Write-Host "npm install on server (omit devDependencies)..."
 & ssh @SshBase $SshTarget "cd '$RemotePath' && npm install --omit=dev"
 if ($LASTEXITCODE -ne 0) { throw "ssh npm install failed (exit $LASTEXITCODE)" }
+
+if ($env:DEPLOY_SKIP_PUBLIC_RSYNC -ne "1" -and (Test-Path -LiteralPath "public")) {
+  $rsyncBin = Get-Command rsync -ErrorAction SilentlyContinue
+  if (-not $rsyncBin) {
+    Write-Warning 'rsync not found in PATH - skipping incremental public/ sync. Install rsync (cwRsync, Git Bash, etc.) for checksum-based uploads of public/.'
+  }
+  else {
+    $publicSrc = (Resolve-Path (Join-Path $PSScriptRoot "public")).Path
+    if (-not $publicSrc.EndsWith([IO.Path]::DirectorySeparatorChar) -and -not $publicSrc.EndsWith("/")) {
+      $publicSrc += [IO.Path]::DirectorySeparatorChar
+    }
+    Write-Host "Ensuring remote public/ directory exists..."
+    & ssh @SshBase $SshTarget "mkdir -p '$RemotePath/public'"
+    if ($LASTEXITCODE -ne 0) { throw "ssh mkdir public failed (exit $LASTEXITCODE)" }
+
+    $sshExeLine = (Format-RsyncSshCommandLine -SshBaseArgs $SshBase)
+    $rsyncArgs = @(
+      "--protect-args",
+      "-rltzc",
+      "--chmod=Du=rwx,Dgo=rx,Fu=rw,Fgo=r",
+      "--partial",
+      "-O",
+      "-e", $sshExeLine
+    )
+    if ($env:DEPLOY_PUBLIC_RSYNC_VERBOSE -eq "1") { $rsyncArgs = @("-v") + $rsyncArgs }
+    Write-Host 'Syncing public/ to VPS - rsync checksum mode (uploads new or changed files only)...'
+    & rsync @rsyncArgs $publicSrc "${SshTarget}:${RemotePath}/public/"
+    if ($LASTEXITCODE -ne 0) { throw "rsync public/ failed (exit $LASTEXITCODE)" }
+  }
+}
 
 Write-Host "Uploading .next (this may take a while)..."
 & scp @SshBase -r .next "${SshTarget}:${RemotePath}/"
