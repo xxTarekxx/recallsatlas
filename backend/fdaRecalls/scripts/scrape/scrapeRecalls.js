@@ -18,12 +18,30 @@ const sharp = require("sharp");
 const crypto = require("crypto");
 const OpenAI = require("openai");
 
+function readOption(name) {
+    const cliName = `--${name.toLowerCase().replace(/_/g, "-")}=`;
+    const cliValue = process.argv.find((arg) => arg.startsWith(cliName));
+    if (cliValue) return cliValue.slice(cliName.length);
+    return process.env[name];
+}
+
+function readPositiveInt(name, fallback) {
+    const raw = readOption(name);
+    if (raw == null || String(raw).trim() === "") return fallback;
+    const value = Number.parseInt(String(raw), 10);
+    return Number.isFinite(value) && value > 0 ? value : fallback;
+}
+
+function ensureDirSync(dirPath) {
+    if (!fs.existsSync(dirPath)) fs.mkdirSync(dirPath, { recursive: true });
+}
+
 // ======================================================
 // CONFIG
 // ======================================================
 
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
-const MODEL = "gpt-4.1-mini";
+const MODEL = readOption("OPENAI_MODEL") || "gpt-4.1-mini";
 
 const FDA_BASE_URL = "https://www.fda.gov";
 const FDA_LIST_URL =
@@ -61,25 +79,26 @@ function resolveImageBaseDir() {
 }
 
 const IMAGE_BASE_DIR = resolveImageBaseDir();
-const JSON_PATH = path.join(DATA_ROOT, "recalls.json");
+const JSON_PATH = path.join(DATA_ROOT, "fda-recalls-en-eeat.json");
 const IMAGE_MAP_PATH = path.join(DATA_ROOT, "image-map.json");
+const HASH_PATH = path.join(LOGS_ROOT, "fda-recalls-en-eeat.hashes.json");
 const LOG_PATH = path.join(LOGS_ROOT, "recalls-log.txt");
 
 const START_SORT_ORDER = 1000;
-const MAX_RECORDS = 100;  // max NEW recalls per run
-const MAX_TOTAL = 300;  // hard stop: never exceed this many total recalls
+const MAX_RECORDS = readPositiveInt("MAX_RECORDS", 100);  // max NEW recalls per run
+const MAX_TOTAL = readPositiveInt("MAX_TOTAL", 300);  // hard stop: never exceed this many total recalls
 /** First N FDA table rows (with URLs): if all are already in recalls.json, stop Pass 1 immediately. */
 const EARLY_EXIT_TOP_N = 5;
 const MAX_RETRIES = 3;
 
-const MIN_DELAY_MS = 5000;
-const MAX_DELAY_MS = 8000;
+const MIN_DELAY_MS = readPositiveInt("MIN_DELAY_MS", 5000);
+const MAX_DELAY_MS = Math.max(MIN_DELAY_MS, readPositiveInt("MAX_DELAY_MS", 8000));
 
 const NAV_TIMEOUT = 120000;
 const IMAGE_TIMEOUT = 60000;
 
 const IMAGE_MAX_WIDTH = 700;
-const IMAGE_WEBP_QUALITY = 38;
+const IMAGE_WEBP_QUALITY = 80;
 const IMAGE_WEBP_EFFORT = 6;
 
 /** Headless Playwright by default; set HEADLESS=false in scripts/.env (or backend/.env) to show the browser. */
@@ -101,7 +120,9 @@ if (!FIX_SORT_ORDER && !OPENAI_API_KEY) {
     process.exit(1);
 }
 
-if (!fs.existsSync(IMAGE_BASE_DIR)) fs.mkdirSync(IMAGE_BASE_DIR, { recursive: true });
+ensureDirSync(DATA_ROOT);
+ensureDirSync(LOGS_ROOT);
+ensureDirSync(IMAGE_BASE_DIR);
 
 let openai = null;
 if (!FIX_SORT_ORDER) {
@@ -214,15 +235,22 @@ function safeReadJson(filePath, fallback) {
 }
 
 function writeJson(filePath, data) {
+    ensureDirSync(path.dirname(filePath));
     fs.writeFileSync(filePath, JSON.stringify(data, null, 2), "utf8");
 }
 
-function saveAll(results, imageMap) {
+function saveAll(results, imageMap, processedHashes = null) {
     // Always write newest first (highest sortOrder at index 0)
     const sorted = [...results].sort((a, b) => (b.sortOrder ?? 0) - (a.sortOrder ?? 0));
     writeJson(JSON_PATH, sorted);
     writeJson(IMAGE_MAP_PATH, imageMap);
-    log(`Progress saved. recalls=${results.length} imageMap=${Object.keys(imageMap).length}`);
+    if (processedHashes) {
+        writeJson(HASH_PATH, [...processedHashes].sort());
+    }
+    log(
+        `Progress saved. recalls=${results.length} imageMap=${Object.keys(imageMap).length}` +
+            (processedHashes ? ` hashes=${processedHashes.size}` : "")
+    );
 }
 
 // ─── sortOrder repair (chronological 1→N, folders, Mongo) — run: --fix-sort-order [--apply] ───
@@ -297,14 +325,14 @@ function planSortOrderRepair(results) {
 
 async function runFixSortOrderMode(apply) {
     if (!fs.existsSync(JSON_PATH)) {
-        console.error("recalls.json not found at:", JSON_PATH);
+        console.error(`${path.basename(JSON_PATH)} not found at:`, JSON_PATH);
         process.exit(1);
     }
 
     const raw = fs.readFileSync(JSON_PATH, "utf8");
     const results = JSON.parse(raw);
     if (!Array.isArray(results)) {
-        console.error("recalls.json must be a JSON array.");
+        console.error(`${path.basename(JSON_PATH)} must be a JSON array.`);
         process.exit(1);
     }
 
@@ -361,7 +389,7 @@ async function runFixSortOrderMode(apply) {
 
     const newestFirst = [...sorted].reverse();
     writeJson(JSON_PATH, newestFirst);
-    log("[fix-sort-order] recalls.json updated (newest-first).");
+    log(`[fix-sort-order] ${path.basename(JSON_PATH)} updated (newest-first).`);
 
         const { getDb, close } = require("../../database/mongodb");
     const db = await getDb();
@@ -490,6 +518,13 @@ function normalizeUrl(url) {
     }
 }
 
+function buildRecallHash(value) {
+    return crypto
+        .createHash("sha256")
+        .update(String(value || "").trim().toLowerCase())
+        .digest("hex");
+}
+
 function omitEmptyDeep(value) {
     if (Array.isArray(value)) {
         const cleaned = value
@@ -590,6 +625,8 @@ function ensureUniqueSlug(base, existingSlugs) {
 // HASH / IMAGE HELPERS
 // ======================================================
 
+let imageFilenameIndexCache = null;
+
 function hashBuffer(buffer) {
     return crypto.createHash("sha256").update(buffer).digest("hex");
 }
@@ -613,6 +650,48 @@ async function downloadBuffer(url) {
     return Buffer.from(response.data);
 }
 
+function findExistingImageByFilename(filename) {
+    if (!filename || !fs.existsSync(IMAGE_BASE_DIR)) return null;
+
+    if (!imageFilenameIndexCache) {
+        imageFilenameIndexCache = new Map();
+        const stack = [IMAGE_BASE_DIR];
+        while (stack.length) {
+            const dir = stack.pop();
+            let entries = [];
+            try {
+                entries = fs.readdirSync(dir, { withFileTypes: true });
+            } catch {
+                continue;
+            }
+            for (const entry of entries) {
+                const full = path.join(dir, entry.name);
+                if (entry.isDirectory()) {
+                    stack.push(full);
+                } else if (entry.isFile() && !imageFilenameIndexCache.has(entry.name)) {
+                    imageFilenameIndexCache.set(entry.name, full);
+                }
+            }
+        }
+    }
+
+    return imageFilenameIndexCache.get(filename) || null;
+}
+
+function rememberImageFilename(filename, filePath) {
+    if (imageFilenameIndexCache && filename && filePath) {
+        imageFilenameIndexCache.set(filename, filePath);
+    }
+}
+
+async function copyExistingImageIfAvailable(filename, outputPath) {
+    const existingPath = findExistingImageByFilename(filename);
+    if (!existingPath || path.resolve(existingPath) === path.resolve(outputPath)) return false;
+    await fs.promises.copyFile(existingPath, outputPath);
+    rememberImageFilename(filename, outputPath);
+    return true;
+}
+
 async function processImage(url, folderName, imageMap) {
     for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
         try {
@@ -623,7 +702,12 @@ async function processImage(url, folderName, imageMap) {
                 const mappedFilename = imageMap[url];
                 const mappedPath = path.join(recallDir, mappedFilename);
                 if (fs.existsSync(mappedPath)) {
+                    rememberImageFilename(mappedFilename, mappedPath);
                     log(`Image cache hit (url map): ${url}`);
+                    return `/images/recalls/${folderName}/${mappedFilename}`;
+                }
+                if (await copyExistingImageIfAvailable(mappedFilename, mappedPath)) {
+                    log(`Image cache copy (url map): ${mappedFilename}`);
                     return `/images/recalls/${folderName}/${mappedFilename}`;
                 }
             }
@@ -634,24 +718,29 @@ async function processImage(url, folderName, imageMap) {
 
             const outputPath = path.join(recallDir, filename);
             if (!fs.existsSync(outputPath)) {
-                await sharp(buffer)
-                    .rotate()
-                    .resize({
-                        width: IMAGE_MAX_WIDTH,
-                        withoutEnlargement: true,
-                        fit: "inside",
-                    })
-                    .webp({
-                        quality: IMAGE_WEBP_QUALITY,
-                        effort: IMAGE_WEBP_EFFORT,
-                    })
-                    .toFile(outputPath);
+                if (await copyExistingImageIfAvailable(filename, outputPath)) {
+                    log(`Reused hash-saved image: ${folderName}/${filename}`);
+                } else {
+                    await sharp(buffer)
+                        .rotate()
+                        .resize({
+                            width: IMAGE_MAX_WIDTH,
+                            withoutEnlargement: true,
+                            fit: "inside",
+                        })
+                        .webp({
+                            quality: IMAGE_WEBP_QUALITY,
+                            effort: IMAGE_WEBP_EFFORT,
+                        })
+                        .toFile(outputPath);
 
-                log(`Saved image: ${folderName}/${filename}`);
+                    log(`Saved image: ${folderName}/${filename}`);
+                }
             } else {
                 log(`Image already exists: ${folderName}/${filename}`);
             }
 
+            rememberImageFilename(filename, outputPath);
             imageMap[url] = filename;
             return `/images/recalls/${folderName}/${filename}`;
         } catch (err) {
@@ -1230,6 +1319,7 @@ async function extractDetailPage(detailPage, detailUrl) {
             const announcementHeading = document.querySelector("#recall-announcement");
             const announcementParagraphs = [];
             const announcementBullets = [];
+            const announcementTables = [];
             const keptAnnouncementLinks = [];
             const rejectedParagraphs = [];
 
@@ -1258,6 +1348,31 @@ async function extractDetailPage(detailPage, detailUrl) {
                     const text = clean(a.innerText);
                     if (href) keptAnnouncementLinks.push({ href, text });
                 });
+            }
+            function collectTable(tableEl) {
+                const headers = [...tableEl.querySelectorAll("thead th")]
+                    .map((th) => clean(th.innerText))
+                    .filter(Boolean);
+                const bodyRows = [...tableEl.querySelectorAll("tbody tr")]
+                    .map((tr) => [...tr.querySelectorAll("th, td")].map((td) => clean(td.innerText)))
+                    .filter((row) => row.some(Boolean));
+                const fallbackRows = bodyRows.length
+                    ? []
+                    : [...tableEl.querySelectorAll("tr")]
+                          .map((tr) => [...tr.querySelectorAll("th, td")].map((td) => clean(td.innerText)))
+                          .filter((row) => row.some(Boolean));
+                let finalHeaders = headers;
+                let rows = bodyRows;
+                if (!rows.length && fallbackRows.length) {
+                    finalHeaders = finalHeaders.length ? finalHeaders : fallbackRows[0];
+                    rows = finalHeaders === fallbackRows[0] ? fallbackRows.slice(1) : fallbackRows;
+                }
+                if (!finalHeaders.length && rows.length) {
+                    finalHeaders = rows[0].map((_value, i) => `Column ${i + 1}`);
+                }
+                if (finalHeaders.length && rows.length) {
+                    announcementTables.push({ headers: finalHeaders, rows });
+                }
             }
 
             if (announcementHeading) {
@@ -1288,14 +1403,17 @@ async function extractDetailPage(detailPage, detailUrl) {
                         collectParagraph(node);
                     } else if (tag === "ul") {
                         collectList(node);
+                    } else if (tag === "table") {
+                        collectTable(node);
                     } else if (tag === "div") {
                         // All <p> and <ul> between announcement and #recall-photos (including nested, e.g. lot numbers, MedWatch)
-                        const allPAndUl = node.querySelectorAll("p, ul");
-                        allPAndUl.forEach((el) => {
+                        const allContentNodes = node.querySelectorAll("p, ul, table");
+                        allContentNodes.forEach((el) => {
                             if (el.closest("#recall-photos")) return;
                             const t = (el.tagName || "").toLowerCase();
                             if (t === "p") collectParagraph(el);
                             else if (t === "ul") collectList(el);
+                            else if (t === "table") collectTable(el);
                         });
                     }
 
@@ -1497,6 +1615,7 @@ async function extractDetailPage(detailPage, detailUrl) {
                 rawAnnouncement,
                 announcementBullets,
                 announcementParagraphs,
+                announcementTables,
                 aboutCompanyText,
 
                 contacts,
@@ -1560,6 +1679,7 @@ function mergeListAndDetailData(listRow, detailData) {
         rawAnnouncement: cleanText(detailData.rawAnnouncement),
         announcementBullets: uniqueArray(detailData.announcementBullets || []),
         announcementParagraphs: uniqueArray(detailData.announcementParagraphs || []),
+        announcementTables: Array.isArray(detailData.announcementTables) ? detailData.announcementTables : [],
         aboutCompanyText: cleanText(detailData.aboutCompanyText),
 
         contacts: detailData.contacts || {},
@@ -1740,7 +1860,14 @@ function buildContentSections({
 function normalizeSourceUrl(url) {
     if (!url || typeof url !== "string") return "";
     const u = url.trim().replace(/\/+$/, "");
-    return u || "";
+    if (!u) return "";
+    try {
+        const parsed = new URL(u);
+        parsed.hash = "";
+        return parsed.toString().replace(/\/+$/, "");
+    } catch {
+        return u;
+    }
 }
 
 /** True when list row date is strictly before newest date in recalls.json (ISO-like compare). */
@@ -1772,14 +1899,28 @@ function fdaFirstNRowsAllAlreadyStored(fdaRows, processedUrls, n) {
 
     const results = safeReadJson(JSON_PATH, []);
     const imageMap = safeReadJson(IMAGE_MAP_PATH, {});
+    const storedHashes = safeReadJson(HASH_PATH, []);
+    const processedHashes = new Set(
+        Array.isArray(storedHashes)
+            ? storedHashes
+            : storedHashes && typeof storedHashes === "object"
+              ? Object.keys(storedHashes)
+              : []
+    );
+    const remainingCapacity = Math.max(0, MAX_TOTAL - results.length);
+    const runLimit = Math.min(MAX_RECORDS, remainingCapacity);
 
     const processedUrls = new Set();
     for (const item of results) {
-        const u = normalizeSourceUrl(item.sourceUrl);
-        if (u) processedUrls.add(u);
+        const u = normalizeSourceUrl(item.sourceUrl || item.source_url);
+        if (u) {
+            processedUrls.add(u);
+            processedHashes.add(buildRecallHash(u));
+        }
+        if (item._contentHash) processedHashes.add(String(item._contentHash));
     }
     const existingSlugs = new Set(
-        results.map((item) => item.id).filter(Boolean)
+        results.map((item) => item.id || item.slug).filter(Boolean)
     );
 
     let maxSort = START_SORT_ORDER - 1;
@@ -1809,13 +1950,21 @@ function fdaFirstNRowsAllAlreadyStored(fdaRows, processedUrls, n) {
     }, "");
 
     log(`Loaded existing recalls: ${results.length}, unique sourceUrls: ${processedUrls.size}`);
+    log(`Limits: MAX_RECORDS=${MAX_RECORDS}, MAX_TOTAL=${MAX_TOTAL}, runLimit=${runLimit}`);
     log(`IMAGE_BASE_DIR: ${IMAGE_BASE_DIR}`);
     log(`Newest existing date: ${newestExistingDate || "(none)"} (vs FDA table + sourceUrl)`);
-    progress.update({ phase: "Start", current: 0, total: MAX_RECORDS, status: "Launching browser..." });
+    if (runLimit <= 0) {
+        log(`MAX_TOTAL reached (${results.length}/${MAX_TOTAL}); no scrape needed.`);
+        saveAll(results, imageMap, processedHashes);
+        progress.finish(`DONE · max total reached · ${results.length} total in file`);
+        return;
+    }
+
+    progress.update({ phase: "Start", current: 0, total: runLimit, status: "Launching browser..." });
 
     const browser = await chromium.launch({
         headless: HEADLESS,
-        slowMo: 150,
+        slowMo: HEADLESS ? 0 : 150,
     });
 
     const context = await browser.newContext({
@@ -1854,14 +2003,15 @@ function fdaFirstNRowsAllAlreadyStored(fdaRows, processedUrls, n) {
     // by sourceUrl and are not older than our newest stored date. Pass 2 assigns sortOrder so the
     // first table row (top) gets maxSort+N, …, last new row gets maxSort+1.
     const pendingCandidates = [];
+    const queuedHashes = new Set();
     let pageIndex = 1;
     let hasNext = true;
 
-    while (hasNext && pendingCandidates.length < MAX_RECORDS) {
+    while (hasNext && pendingCandidates.length < runLimit) {
         progress.update({
             phase: "Scan",
             current: pendingCandidates.length,
-            total: MAX_RECORDS,
+            total: runLimit,
             status: `Page ${pageIndex}…`,
         });
         log(`Reading DataTable page ${pageIndex} (enumerate new rows)…`);
@@ -1881,7 +2031,7 @@ function fdaFirstNRowsAllAlreadyStored(fdaRows, processedUrls, n) {
 
         let hitOlderThanDb = false;
         for (const listRow of rows) {
-            if (pendingCandidates.length >= MAX_RECORDS) break;
+            if (pendingCandidates.length >= runLimit) break;
 
             const rowDate = listRow.listDateTime || listRow.listDateText || "";
             const detailUrl = listRow.detailUrl;
@@ -1893,8 +2043,17 @@ function fdaFirstNRowsAllAlreadyStored(fdaRows, processedUrls, n) {
             }
 
             const normalizedDetailUrl = normalizeSourceUrl(detailUrl);
+            const recallHash = buildRecallHash(normalizedDetailUrl || detailUrl);
             if (normalizedDetailUrl && processedUrls.has(normalizedDetailUrl)) {
                 log(`Skip already stored (sourceUrl): ${detailUrl}`);
+                continue;
+            }
+            if (recallHash && processedHashes.has(recallHash)) {
+                log(`Skip already processed (hash): ${detailUrl}`);
+                continue;
+            }
+            if (recallHash && queuedHashes.has(recallHash)) {
+                log(`Skip duplicate queued this run: ${detailUrl}`);
                 continue;
             }
 
@@ -1903,7 +2062,8 @@ function fdaFirstNRowsAllAlreadyStored(fdaRows, processedUrls, n) {
                 break;
             }
 
-            pendingCandidates.push({ listRow, detailUrl, normalizedDetailUrl });
+            pendingCandidates.push({ listRow, detailUrl, normalizedDetailUrl, recallHash });
+            if (recallHash) queuedHashes.add(recallHash);
         }
 
         if (hitOlderThanDb) {
@@ -1916,8 +2076,8 @@ function fdaFirstNRowsAllAlreadyStored(fdaRows, processedUrls, n) {
             break;
         }
 
-        if (pendingCandidates.length >= MAX_RECORDS) {
-            log(`Stopping scan: MAX_RECORDS (${MAX_RECORDS}) new rows queued.`);
+        if (pendingCandidates.length >= runLimit) {
+            log(`Stopping scan: run limit (${runLimit}) new rows queued.`);
             hasNext = false;
             break;
         }
@@ -1935,7 +2095,7 @@ function fdaFirstNRowsAllAlreadyStored(fdaRows, processedUrls, n) {
     const N = pendingCandidates.length;
     if (N === 0) {
         log("No new recalls to ingest (list date + sourceUrl checks).");
-        saveAll(results, imageMap);
+        saveAll(results, imageMap, processedHashes);
         await browser.close();
         progress.finish(`DONE · 0 new · ${results.length} total in file`);
         log("DONE");
@@ -1954,7 +2114,7 @@ function fdaFirstNRowsAllAlreadyStored(fdaRows, processedUrls, n) {
 
     for (let ci = 0; ci < pendingCandidates.length; ci++) {
         const cand = pendingCandidates[ci];
-        const { listRow, detailUrl, normalizedDetailUrl, assignedSortOrder } = cand;
+        const { listRow, detailUrl, normalizedDetailUrl, assignedSortOrder, recallHash } = cand;
         const step = ci + 1;
         const shortUrl = detailUrl.replace(/^https?:\/\//, "").slice(0, 35);
         updateRecallStage(step, N, "Opening detail page", shortUrl + "…");
@@ -2085,6 +2245,7 @@ function fdaFirstNRowsAllAlreadyStored(fdaRows, processedUrls, n) {
 
                 id: slug,
                 slug,
+                _contentHash: recallHash,
                 sortOrder: assignedSortOrder,
                 canonicalUrl,
                 mainEntityOfPage: canonicalUrl,
@@ -2159,8 +2320,9 @@ function fdaFirstNRowsAllAlreadyStored(fdaRows, processedUrls, n) {
 
             results.push(article);
             if (normalizedDetailUrl) processedUrls.add(normalizedDetailUrl);
+            if (recallHash) processedHashes.add(recallHash);
             savedThisRun += 1;
-            saveAll(results, imageMap);
+            saveAll(results, imageMap, processedHashes);
             progress.update({ phase: "Scrape", current: step, total: N, status: `Saved ${slug}` });
             if (savedThisRun % 5 === 0) {
                 log(`Checkpoint: saved after ${savedThisRun} recalls.`);
@@ -2178,7 +2340,7 @@ function fdaFirstNRowsAllAlreadyStored(fdaRows, processedUrls, n) {
         }
     }
 
-    saveAll(results, imageMap);
+    saveAll(results, imageMap, processedHashes);
     await browser.close();
     progress.finish(`DONE · ${savedThisRun} saved this run, ${results.length} total`);
     log("DONE");

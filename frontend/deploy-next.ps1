@@ -5,7 +5,7 @@
   Remote: remove .next, node_modules, next.config.mjs, package.json, package-lock.json;
          upload package.json, package-lock.json, next.config.mjs; npm install;
          sync public/ with rsync --checksum (only missing/changed files; requires rsync on PATH);
-         upload .next.
+         upload .next without build cache or traced node_modules.
 
   Set DEPLOY_SKIP_PUBLIC_RSYNC=1 to skip the public/ step.
   Set DEPLOY_PUBLIC_RSYNC_VERBOSE=1 to add rsync -v (more log output).
@@ -158,9 +158,20 @@ if ($env:DEPLOY_SKIP_PUBLIC_RSYNC -ne "1" -and (Test-Path -LiteralPath "public")
   }
 }
 
-Write-Host "Uploading .next (this may take a while)..."
-& scp @SshBase -r .next "${SshTarget}:${RemotePath}/"
-if ($LASTEXITCODE -ne 0) { throw "scp .next failed (exit $LASTEXITCODE)" }
+Write-Host "Uploading .next production artifacts (excluding .next/cache and .next/node_modules)..."
+$tmpNextTar = Join-Path $env:TEMP ("next-deploy-" + [guid]::NewGuid().ToString("N") + ".tar")
+try {
+  & tar -cf $tmpNextTar --exclude=.next/cache --exclude=.next/node_modules .next
+  if ($LASTEXITCODE -ne 0) { throw "tar .next create failed (exit $LASTEXITCODE)" }
+
+  & scp @SshBase $tmpNextTar "${SshTarget}:${RemotePath}/.deploy-next.tar"
+  if ($LASTEXITCODE -ne 0) { throw "scp .next tar failed (exit $LASTEXITCODE)" }
+
+  & ssh @SshBase $SshTarget "cd '$RemotePath' && rm -rf .next && tar -xf .deploy-next.tar && rm -f .deploy-next.tar"
+  if ($LASTEXITCODE -ne 0) { throw "remote .next extract failed (exit $LASTEXITCODE)" }
+} finally {
+  if (Test-Path -LiteralPath $tmpNextTar) { Remove-Item -LiteralPath $tmpNextTar -Force }
+}
 
 Write-Host "PM2 restart $Pm2App on $SshTarget..."
 & ssh @SshBase $SshTarget "pm2 restart $Pm2App"

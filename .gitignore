@@ -92,10 +92,10 @@ backend/scripts/deploy/deploy-backend.env
 backend/scripts/deploy/deploy-backend.env.ps1
 
 # Large/generated assets (IMPORTANT for your scraper)
-public/images/
-backend/images/
-images/
-backend/database/generalRecalls/
+# public/images/
+# backend/images/
+# images/
+# backend/database/generalRecalls/
 
 # Search index
 lucene-index/
