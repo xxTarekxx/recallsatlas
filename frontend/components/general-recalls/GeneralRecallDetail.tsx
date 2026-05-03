@@ -49,6 +49,10 @@ function hasHtml(value: unknown): value is string {
   return typeof value === "string" && value.trim().length > 0;
 }
 
+function looksLikeHtml(value: string): boolean {
+  return /<\/?[a-z][\s\S]*>/i.test(value);
+}
+
 type Props = {
   recall: GeneralRecall;
   lang: SiteUiLang;
@@ -132,11 +136,18 @@ export default function GeneralRecallDetail({ recall, lang }: Props) {
           <div style={{ padding: "var(--spacing-lg)" }}>
             {r.Description && (
               <section style={{ marginBottom: "1.5rem" }}>
-                {r.Description.split(/\n\n+/).map((para, i) => (
-                  <p key={i} style={{ lineHeight: 1.6, marginBottom: "1rem", color: "#334155" }}>
-                    {para}
-                  </p>
-                ))}
+                {looksLikeHtml(r.Description) ? (
+                  <div
+                    style={{ lineHeight: 1.6, color: "#334155" }}
+                    dangerouslySetInnerHTML={{ __html: r.Description }}
+                  />
+                ) : (
+                  r.Description.split(/\n\n+/).map((para, i) => (
+                    <p key={i} style={{ lineHeight: 1.6, marginBottom: "1rem", color: "#334155" }}>
+                      {para}
+                    </p>
+                  ))
+                )}
               </section>
             )}
 
