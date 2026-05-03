@@ -5,6 +5,8 @@ node_modules/
 # Environment variables
 .env
 .env.*
+.envrc
+.direnv/
 
 # Allow examples
 !.env.example
@@ -62,6 +64,15 @@ coverage/
 *.kdbx
 *credentials*.json
 *secret*.json
+*.ovpn
+.npmrc
+.pypirc
+.netrc
+.terraform/
+*.tfstate
+*.tfstate.*
+.aws/
+.azure/
 id_rsa
 id_ed25519
 
