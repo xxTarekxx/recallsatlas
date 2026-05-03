@@ -5,7 +5,8 @@
   Remote: remove .next, node_modules, next.config.mjs, package.json, package-lock.json;
          upload package.json, package-lock.json, next.config.mjs; npm install;
          sync public/ with rsync --checksum (only missing/changed files; requires rsync on PATH);
-         upload .next without build cache or traced node_modules.
+         upload .next without build cache. Keep .next/node_modules because Next/Turbopack
+         can place small traced runtime packages there (for example hashed mongodb externals).
 
   Set DEPLOY_SKIP_PUBLIC_RSYNC=1 to skip the public/ step.
   Set DEPLOY_PUBLIC_RSYNC_VERBOSE=1 to add rsync -v (more log output).
@@ -158,10 +159,10 @@ if ($env:DEPLOY_SKIP_PUBLIC_RSYNC -ne "1" -and (Test-Path -LiteralPath "public")
   }
 }
 
-Write-Host "Uploading .next production artifacts (excluding .next/cache and .next/node_modules)..."
+Write-Host "Uploading .next production artifacts (excluding .next/cache)..."
 $tmpNextTar = Join-Path $env:TEMP ("next-deploy-" + [guid]::NewGuid().ToString("N") + ".tar")
 try {
-  & tar -cf $tmpNextTar --exclude=.next/cache --exclude=.next/node_modules .next
+  & tar -cf $tmpNextTar --exclude=.next/cache .next
   if ($LASTEXITCODE -ne 0) { throw "tar .next create failed (exit $LASTEXITCODE)" }
 
   & scp @SshBase $tmpNextTar "${SshTarget}:${RemotePath}/.deploy-next.tar"

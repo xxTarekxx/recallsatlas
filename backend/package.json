@@ -7,6 +7,8 @@
     "test": "node -e \"require('./database/mongodb').getDb().then(() => console.log('MongoDB OK')).catch(e => { console.error(e); process.exit(1); })\"",
     "fetch-general-recalls": "node generalRecalls/scripts/fetch/fetchGeneralRecalls.js",
     "fetch-general-recalls:20": "node generalRecalls/scripts/fetch/fetchGeneralRecalls.js --max-records=20 --max-total=20",
+    "import-recalls-clean": "node scripts/sync/importCleanRecallCollections.js",
+    "import-recalls-clean:replace": "node scripts/sync/importCleanRecallCollections.js --replace",
     "enhance-recalls-eeat": "node scripts/translate/enhanceRecallEeat.js",
     "enhance-recalls-eeat:resume": "node scripts/translate/enhanceRecallEeat.js --resume"
   },
