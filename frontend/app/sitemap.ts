@@ -179,13 +179,32 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   for (const lang of SITEMAP_LANGS) {
     const home = lang === "en" ? base : `${base}/${lang}`;
     const about = lang === "en" ? `${base}/about` : `${base}/${lang}/about`;
+    const methodology =
+      lang === "en" ? `${base}/methodology` : `${base}/${lang}/methodology`;
+    const guide =
+      lang === "en"
+        ? `${base}/how-to-check-recalls`
+        : `${base}/${lang}/how-to-check-recalls`;
+    const contact = lang === "en" ? `${base}/contact` : `${base}/${lang}/contact`;
+    const privacy = lang === "en" ? `${base}/privacy` : `${base}/${lang}/privacy`;
     const recallsList = lang === "en" ? `${base}/recalls` : `${base}/${lang}/recalls`;
     const carsList = lang === "en" ? `${base}/cars` : `${base}/${lang}/cars`;
+    const generalRecallsList =
+      lang === "en" ? `${base}/general-recalls` : `${base}/${lang}/general-recalls`;
+    const brandList = lang === "en" ? `${base}/brand` : `${base}/${lang}/brand`;
+    const yearList = lang === "en" ? `${base}/year` : `${base}/${lang}/year`;
     const staticPairs: { url: string; priority: number }[] = [
       { url: home, priority: STATIC_HOME_PRIORITY },
       { url: about, priority: STATIC_SECTION_PRIORITY },
+      { url: methodology, priority: STATIC_SECTION_PRIORITY },
+      { url: guide, priority: STATIC_SECTION_PRIORITY },
+      { url: contact, priority: STATIC_SECTION_PRIORITY },
+      { url: privacy, priority: STATIC_SECTION_PRIORITY },
       { url: recallsList, priority: STATIC_SECTION_PRIORITY },
       { url: carsList, priority: STATIC_SECTION_PRIORITY },
+      { url: generalRecallsList, priority: STATIC_SECTION_PRIORITY },
+      { url: brandList, priority: STATIC_SECTION_PRIORITY },
+      { url: yearList, priority: STATIC_SECTION_PRIORITY },
     ];
     for (const { url, priority } of staticPairs) {
       if (seen.has(url)) continue;

@@ -468,6 +468,13 @@ Quality requirements:
 - sourceTransparencyHtml: state that Recalls Atlas summarized the CPSC recall notice and link data is preserved separately.
 - faq: 3-5 useful questions grounded in source facts.
 
+Originality requirements:
+- Do not use the same paragraph openings, FAQ angles, or source-transparency wording across recalls.
+- Let SOURCE_JSON determine the editorial angle: product identification, remedy steps, hazard context, retailer/manufacturer details, or verification.
+- Vary sentence rhythm and section emphasis naturally while keeping a neutral consumer-safety tone.
+- Avoid generic boilerplate such as "Recalls Atlas has summarized this recall based on..." when a more specific CPSC/source sentence can be written from the facts.
+- The output should feel written for this exact recall, not like a template with swapped names.
+
 SOURCE_JSON:
 ${JSON.stringify(facts)}
 `.trim();

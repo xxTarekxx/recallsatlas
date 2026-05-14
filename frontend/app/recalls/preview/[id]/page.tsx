@@ -3,6 +3,15 @@ import { notFound } from "next/navigation";
 import SiteBrandLogoLink from "@/components/SiteBrandLogoLink";
 import path from "path";
 import fs from "fs";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Recall Preview",
+  robots: {
+    index: false,
+    follow: false,
+  },
+};
 
 interface PageProps {
   params: Promise<{ id: string }>;

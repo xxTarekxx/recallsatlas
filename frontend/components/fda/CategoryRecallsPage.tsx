@@ -7,6 +7,7 @@ import {
 } from "@/lib/recallCategoryFilter";
 import type { SiteUiLang } from "@/lib/siteLocale";
 import { withLangPath } from "@/lib/siteLocale";
+import { notFound } from "next/navigation";
 
 type Props = {
   categoryParam: string;
@@ -23,18 +24,18 @@ export default async function CategoryRecallsPage({ categoryParam, uiLang }: Pro
     .replace(/\s+/g, "-");
   const mongoFilter = isValidCategorySlug(slug) ? categorySlugToMongoFilter(slug) : null;
 
+  if (!mongoFilter) {
+    notFound();
+  }
+
   try {
     const db = await getDb();
-    if (!mongoFilter) {
-      recalls = [];
-    } else {
-      recalls = await db
-        .collection("recalls")
-        .find(mongoFilter)
-        .sort({ report_date: -1 })
-        .limit(200)
-        .toArray();
-    }
+    recalls = await db
+      .collection("recalls")
+      .find(mongoFilter)
+      .sort({ report_date: -1 })
+      .limit(200)
+      .toArray();
   } catch (err: unknown) {
     console.error("Error loading category recalls:", err);
     dbError = "Unable to load recalls for this category.";
@@ -42,6 +43,10 @@ export default async function CategoryRecallsPage({ categoryParam, uiLang }: Pro
 
   const hasRecalls = recalls.length > 0;
   const homeHref = withLangPath("/", uiLang);
+
+  if (!dbError && !hasRecalls) {
+    notFound();
+  }
 
   return (
     <div className="category-page">
@@ -52,14 +57,6 @@ export default async function CategoryRecallsPage({ categoryParam, uiLang }: Pro
         <h1>Category: {categoryParam}</h1>
 
         {dbError && <p className="error-message">{dbError}</p>}
-
-        {!mongoFilter && !dbError && (
-          <p className="placeholder-note">Unknown category. Use Drugs, Food, Medical Devices, or Supplements.</p>
-        )}
-
-        {!dbError && mongoFilter && !hasRecalls && (
-          <p className="placeholder-note">No recalls found for this category.</p>
-        )}
 
         {!dbError && hasRecalls && (
           <section className="recalls-grid">

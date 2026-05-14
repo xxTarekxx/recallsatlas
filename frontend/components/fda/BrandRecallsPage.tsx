@@ -3,6 +3,7 @@ import SiteBrandLogoLink from "@/components/SiteBrandLogoLink";
 import { getDb } from "@/lib/mongodb";
 import type { SiteUiLang } from "@/lib/siteLocale";
 import { withLangPath } from "@/lib/siteLocale";
+import { notFound } from "next/navigation";
 
 type Props = {
   brandParam: string;
@@ -29,6 +30,10 @@ export default async function BrandRecallsPage({ brandParam, uiLang }: Props) {
   const hasRecalls = recalls.length > 0;
   const homeHref = withLangPath("/", uiLang);
 
+  if (!dbError && !hasRecalls) {
+    notFound();
+  }
+
   return (
     <div className="brand-page">
       <header className="site-header">
@@ -38,10 +43,6 @@ export default async function BrandRecallsPage({ brandParam, uiLang }: Props) {
         <h1>Brand: {brandParam}</h1>
 
         {dbError && <p className="error-message">{dbError}</p>}
-
-        {!dbError && !hasRecalls && (
-          <p className="placeholder-note">No recalls found for this brand.</p>
-        )}
 
         {!dbError && hasRecalls && (
           <section className="recalls-grid">

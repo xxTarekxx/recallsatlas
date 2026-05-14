@@ -1373,6 +1373,13 @@ Quality requirements:
 - sourceTransparencyHtml: explain that the page is based on the FDA-posted company announcement, include FDA publish date if present.
 - faq: 3-5 useful questions and answers, grounded in source facts.
 
+Originality requirements:
+- Do not use the same paragraph openings, FAQ angles, or source-transparency wording across recalls.
+- Let SOURCE_JSON determine the editorial angle: affected product identification, consumer action, risk context, distribution/lot lookup, or verification.
+- Vary sentence rhythm and section emphasis naturally while keeping a neutral safety-news tone.
+- Avoid generic boilerplate such as "This recall brief is based entirely on..." when a more specific source sentence can be written from the FDA/company facts.
+- The output should feel written for this exact recall, not like a template with swapped names.
+
 SOURCE_JSON:
 ${JSON.stringify(source)}
 `.trim();
