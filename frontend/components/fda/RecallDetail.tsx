@@ -280,6 +280,20 @@ export default function RecallDetail({ recall, dbError = null, currentLang = "en
                         <p>{section.text}</p>
                       </div>
                     ))}
+                  {Array.isArray(section.faq) && section.faq.length > 0 && (
+                    <div className="recall-detail-faq-list">
+                      {section.faq.map((item: any, faqIndex: number) => (
+                        <div key={faqIndex} className="recall-detail-faq-item">
+                          {item?.question && (
+                            <h3 className="recall-detail-faq-question">{item.question}</h3>
+                          )}
+                          {item?.answer && (
+                            <p className="recall-detail-faq-answer">{item.answer}</p>
+                          )}
+                        </div>
+                      ))}
+                    </div>
+                  )}
                   {section.authorityLinks && section.authorityLinks.length > 0 && (
                     <div
                       className="recall-detail-authority-links"
