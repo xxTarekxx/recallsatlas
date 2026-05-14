@@ -338,7 +338,14 @@ export function getGeneralRecallSlugDateMap(): Map<string, Date> {
 }
 
 export function getGeneralRecallLastModified(recall: GeneralRecall): Date {
-  const candidates = [recall.lastTranslatedAt, recall.LastPublishDate, recall.RecallDate];
+  const candidates = [
+    recall.dateModified,
+    recall.lastTranslatedAt,
+    recall.sourceFetchedAt,
+    recall.scrapedAt,
+    recall.LastPublishDate,
+    recall.RecallDate,
+  ];
   for (const c of candidates) {
     if (typeof c === "string" && c.trim()) {
       const d = new Date(c);
