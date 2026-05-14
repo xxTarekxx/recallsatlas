@@ -5,6 +5,8 @@
   "type": "commonjs",
   "scripts": {
     "test": "node -e \"require('./database/mongodb').getDb().then(() => console.log('MongoDB OK')).catch(e => { console.error(e); process.exit(1); })\"",
+    "fetch-fda-recalls": "node fdaRecalls/scripts/scrape/scrapeRecalls.js",
+    "fetch-fda-recalls:10": "node fdaRecalls/scripts/scrape/scrapeRecalls.js --max-records=10 --max-total=10",
     "fetch-general-recalls": "node generalRecalls/scripts/fetch/fetchGeneralRecalls.js",
     "fetch-general-recalls:20": "node generalRecalls/scripts/fetch/fetchGeneralRecalls.js --max-records=20 --max-total=20",
     "import-recalls-clean": "node scripts/sync/importCleanRecallCollections.js",
