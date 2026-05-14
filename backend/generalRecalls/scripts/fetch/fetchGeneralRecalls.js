@@ -202,14 +202,14 @@ function slugify(value) {
 
 function buildSlug(record) {
     const product = record.Products?.[0]?.Name || "";
-    const title = record.Title || product || record.RecallNumber || record.RecallID || "general-recall";
+    const title = record.Title || record.title || product || record.RecallNumber || record.RecallID || "general-recall";
     const base = slugify(title.replace(/\brecalled?\b/gi, "recall"));
     return base.endsWith("-recall") ? base : `${base}-recall`;
 }
 
 function buildImageFolderName(sortOrder, record, slug) {
     const product = record.Products?.[0]?.Name || "";
-    const source = product || record.Title || slug || "general-recall";
+    const source = product || record.Title || record.title || slug || "general-recall";
     let shortSlug = slugify(source).slice(0, MAX_IMAGE_FOLDER_SLUG_LENGTH).replace(/-+$/g, "");
     if (!shortSlug) shortSlug = String(record.RecallNumber || record.RecallID || "general-recall");
     return `${sortOrder}-${shortSlug}`;
@@ -239,6 +239,7 @@ function parseArgs() {
         input: inputArg ? path.resolve(inputArg.slice("--input=".length)) : "",
         start,
         end,
+        backfillEditorial: args.includes("--backfill-editorial"),
     };
 }
 
@@ -328,9 +329,9 @@ function buildSourceFacts(record) {
         recallNumber: record.RecallNumber || "",
         recallDate: record.RecallDate || "",
         lastPublishDate: record.LastPublishDate || "",
-        title: record.Title || "",
-        description: record.Description || "",
-        url: record.URL || "",
+        title: record.Title || record.title || record.headline || "",
+        description: record.Description || record.description || "",
+        url: record.URL || record.sourceUrl || "",
         consumerContact: record.ConsumerContact || "",
         products: Array.isArray(record.Products) ? record.Products : [],
         hazards: plainList(record.Hazards),
@@ -405,6 +406,7 @@ function fallbackBrief(facts) {
     return {
         title: facts.title || `${product} recalled`,
         headline: facts.title || `${product} recalled`,
+        subtitle: buildRecallSubtitle(facts),
         metaDescription: normalizeMetaDescription(`${product} was recalled because ${hazard}. Check the official CPSC notice for product details and consumer instructions.`),
         quickAnswerHtml: `<p>${company} recalled ${product} because ${hazard}.</p>`,
         recallSummaryHtml: `<p>The U.S. Consumer Product Safety Commission posted a recall notice for ${product}. The notice identifies the hazard as ${hazard}.</p>`,
@@ -419,6 +421,45 @@ function fallbackBrief(facts) {
             { question: "Where can I verify this recall?", answer: "Use the official CPSC recall notice linked on this page." },
         ],
     };
+}
+
+function buildRecallSubtitle(facts = {}) {
+    const product = facts.products?.[0]?.Name || "the recalled product";
+    const hazard = facts.hazards?.[0] || "the reported hazard";
+    return `A practical CPSC recall brief covering ${product}, ${hazard}, product-identification details, remedy steps, and source verification.`;
+}
+
+function buildRecallReviewHtml(facts = {}) {
+    const published = normalizeDate(facts.recallDate);
+    const sourceDate = published ? ` published by CPSC on ${escapeHtml(published)}` : " published by CPSC";
+    const company = cleanText(
+        facts.importers?.[0] || facts.distributors?.[0] || facts.manufacturers?.[0] || "the recalling firm"
+    );
+    const product = cleanText(facts.products?.[0]?.Name || facts.title || "the recalled product");
+    const hazard = cleanText(facts.hazards?.[0] || "the hazard listed in the recall notice");
+    return [
+        `<p>Recalls Atlas reviewed the official CPSC recall notice${sourceDate} and organized the details readers are most likely to need: the affected product, recall number, hazard, remedy, identification details, and company contact information.</p>`,
+        `<p>For this notice, we checked the available CPSC fields for ${escapeHtml(company)}, ${escapeHtml(product)}, and ${escapeHtml(hazard)}. We preserved the official product, hazard, remedy, retailer, injury, and image fields where the source provided them.</p>`,
+        `<p>This review is an editorial summary of official recall information. It does not include independent product testing, medical advice, legal advice, or claims beyond the CPSC recall record.</p>`,
+    ].join("");
+}
+
+function buildSourceTransparencyHtml(facts = {}) {
+    const product = facts.products?.[0]?.Name || "the recalled product";
+    const recallNumber = facts.recallNumber ? `CPSC recall ${facts.recallNumber}` : "the CPSC recall record";
+    const recallDate = normalizeDate(facts.recallDate);
+    const dateText = recallDate ? ` dated ${escapeHtml(recallDate)}` : "";
+    const hazard = facts.hazards?.[0] || "the hazard described by CPSC";
+    const variants = [
+        `<p>This page was prepared from ${escapeHtml(recallNumber)}${dateText}. Recalls Atlas kept the official CPSC product, hazard, remedy, contact, retailer, injury, and image fields available separately from this editorial summary.</p>`,
+        `<p>The summary above is grounded in the official CPSC notice for ${escapeHtml(product)}${dateText}. Recalls Atlas uses the source record to preserve recall number, product details, reported hazard, remedy instructions, and verification links.</p>`,
+        `<p>Recalls Atlas reviewed the CPSC recall record for ${escapeHtml(product)} and used only the facts available in that notice, including ${escapeHtml(recallNumber)}, the listed hazard, remedy, company contact, and official source URL.</p>`,
+        `<p>For verification, this page links back to the official CPSC notice and keeps the source fields used to create the brief. The editorial text does not add facts beyond the CPSC record for ${escapeHtml(product)}.</p>`,
+        `<p>This recall brief is a source-based explanation of ${escapeHtml(recallNumber)}${dateText}. Product identification, hazard context, remedy details, and source links are derived from the CPSC record rather than independent testing.</p>`,
+    ];
+    const seed = Number.parseInt(String(facts.recallNumber || "").replace(/\D/g, ""), 10);
+    const index = Number.isFinite(seed) ? seed % variants.length : hashValue(product).charCodeAt(0) % variants.length;
+    return variants[index];
 }
 
 async function generateEditorialBrief(facts) {
@@ -442,6 +483,7 @@ Return exactly:
 {
   "title": "",
   "headline": "",
+  "subtitle": "",
   "metaDescription": "",
   "quickAnswerHtml": "",
   "recallSummaryHtml": "",
@@ -459,6 +501,7 @@ Return exactly:
 
 Quality requirements:
 - Target a useful 600-900 word page after facts/FAQ/sections are rendered.
+- subtitle: 18-30 words, reader-facing, describing the product, hazard, identification details, remedy, and source verification. Do not repeat the headline.
 - metaDescription: 140-165 characters, complete sentence, no trailing ellipsis.
 - quickAnswerHtml: one concise paragraph.
 - recallSummaryHtml: 2-3 paragraphs explaining product, hazard, units, dates, retailers, injury status if present.
@@ -491,6 +534,7 @@ ${JSON.stringify(facts)}
             return {
                 title: cleanText(brief.title || fallback.title),
                 headline: cleanText(brief.headline || fallback.headline),
+                subtitle: cleanText(brief.subtitle || fallback.subtitle),
                 metaDescription: normalizeMetaDescription(brief.metaDescription, fallback.metaDescription),
                 quickAnswerHtml: cleanHtmlFragment(brief.quickAnswerHtml || fallback.quickAnswerHtml),
                 recallSummaryHtml: cleanHtmlFragment(brief.recallSummaryHtml || fallback.recallSummaryHtml),
@@ -498,7 +542,7 @@ ${JSON.stringify(facts)}
                 whoIsAffectedHtml: cleanHtmlFragment(brief.whoIsAffectedHtml || fallback.whoIsAffectedHtml),
                 howToIdentifyProductHtml: cleanHtmlFragment(brief.howToIdentifyProductHtml || fallback.howToIdentifyProductHtml),
                 whatToDoHtml: cleanHtmlFragment(brief.whatToDoHtml || fallback.whatToDoHtml),
-                sourceTransparencyHtml: cleanHtmlFragment(brief.sourceTransparencyHtml || fallback.sourceTransparencyHtml),
+                sourceTransparencyHtml: buildSourceTransparencyHtml(facts),
                 faq: (Array.isArray(brief.faq) ? brief.faq : fallback.faq)
                     .map((item) => ({
                         question: cleanText(item?.question || ""),
@@ -559,6 +603,10 @@ function buildContentSections({ facts, brief, authorityLinks }) {
     const contact = contactText(facts);
     if (contact) sections.push({ subtitle: "Company Contact Information", text: escapeHtml(contact) });
     if (brief.faq?.length) sections.push({ subtitle: "Frequently Asked Questions", faq: brief.faq });
+    sections.push({
+        subtitle: "How This Recall Was Reviewed",
+        text: buildRecallReviewHtml(facts),
+    });
     sections.push({
         subtitle: "Source and Verification",
         text: brief.sourceTransparencyHtml,
@@ -723,6 +771,7 @@ function buildArticle({ record, facts, brief, slug, sortOrder, images, fetchedAt
             ? { "@type": "ImageObject", url: images[0].URL, caption: images[0].Caption || brief.headline }
             : undefined,
         description: brief.metaDescription,
+        subtitle: brief.subtitle,
         keywords: uniqueArray([
             "CPSC recall",
             facts.recallNumber ? `CPSC recall ${facts.recallNumber}` : "",
@@ -738,6 +787,8 @@ function buildArticle({ record, facts, brief, slug, sortOrder, images, fetchedAt
         scrapedAt: fetchedAt,
         eeatMeta: buildEeatMeta({ facts, fetchedAt }),
         title: brief.title,
+        Title: brief.title,
+        Description: brief.recallSummaryHtml,
         editorialBrief: brief,
         RecallID: record.RecallID,
         RecallNumber: record.RecallNumber,
@@ -763,6 +814,7 @@ function buildArticle({ record, facts, brief, slug, sortOrder, images, fetchedAt
             en: {
                 Title: brief.title,
                 Description: brief.recallSummaryHtml,
+                subtitle: brief.subtitle,
                 ConsumerContact: facts.consumerContact,
                 metaDescription: brief.metaDescription,
                 Products: facts.products,
@@ -813,8 +865,67 @@ function assignSortOrders(pending, results) {
     for (let i = 0; i < backfill.length; i++) backfill[i].sortOrder = minSort - 1 - i;
 }
 
+async function runBackfillEditorialMode() {
+    const results = safeReadJson(JSON_PATH, []);
+    const imageMap = safeReadJson(IMAGE_MAP_PATH, {});
+    const storedHashes = safeReadJson(HASH_PATH, []);
+    const processedHashes = new Set(Array.isArray(storedHashes) ? storedHashes : []);
+
+    if (!Array.isArray(results) || !results.length) {
+        log("No general recall records found to backfill.");
+        return;
+    }
+
+    const limit = Math.min(MAX_RECORDS, results.length);
+    block([
+        "GENERAL RECALLS EDITORIAL BACKFILL",
+        `Output          : ${JSON_PATH}`,
+        `Existing records: ${results.length}`,
+        `Run target      : ${limit}`,
+        "Images          : preserved; no download step",
+    ]);
+
+    for (let i = 0; i < limit; i++) {
+        const record = results[i];
+        const facts = buildSourceFacts(record);
+        const slug = record.slug || record.id || ensureUniqueSlug(buildSlug(record), new Set());
+        const sortOrder = typeof record.sortOrder === "number" ? record.sortOrder : SORT_ORDER_BASE - i;
+        const images = Array.isArray(record.Images) ? record.Images : [];
+        const recallHash = buildRecallHash(record);
+
+        block(
+            [
+                `BACKFILL ${i + 1}/${limit}`,
+                `sortOrder : ${sortOrder}`,
+                `recall no : ${record.RecallNumber || ""}`,
+                `title     : ${truncate(facts.title, 110)}`,
+                `source    : ${facts.url || ""}`,
+            ],
+            "-"
+        );
+
+        const brief = await generateEditorialBrief(facts);
+        const fetchedAt = record.sourceFetchedAt || record.scrapedAt || new Date().toISOString();
+        const article = buildArticle({ record, facts, brief, slug, sortOrder, images, fetchedAt, recallHash });
+        article._contentHash = contentHash(article);
+        results[i] = article;
+        processedHashes.add(recallHash);
+        processedHashes.add(article._contentHash);
+        saveAll(results, imageMap, processedHashes);
+        await randomDelay("after backfill");
+    }
+
+    saveAll(results, imageMap, processedHashes);
+    log(`DONE. Backfilled ${limit}; total records ${results.length}.`);
+}
+
 async function main() {
     const args = parseArgs();
+    if (args.backfillEditorial) {
+        await runBackfillEditorialMode();
+        return;
+    }
+
     const results = safeReadJson(JSON_PATH, []);
     const imageMap = safeReadJson(IMAGE_MAP_PATH, {});
     const storedHashes = safeReadJson(HASH_PATH, []);

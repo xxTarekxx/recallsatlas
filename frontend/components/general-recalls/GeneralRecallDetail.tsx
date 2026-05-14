@@ -53,6 +53,13 @@ function looksLikeHtml(value: string): boolean {
   return /<\/?[a-z][\s\S]*>/i.test(value);
 }
 
+function firstText(...values: unknown[]): string {
+  for (const value of values) {
+    if (typeof value === "string" && value.trim()) return value.trim();
+  }
+  return "";
+}
+
 type Props = {
   recall: GeneralRecall;
   lang: SiteUiLang;
@@ -68,7 +75,14 @@ export default function GeneralRecallDetail({ recall, lang }: Props) {
       ? recall.categorySlugs.find((value) => typeof value === "string" && value.trim()) || ""
       : "");
   const sec = GENERAL_RECALL_DETAIL_SECTIONS_UI[lang] ?? GENERAL_RECALL_DETAIL_SECTIONS_UI.en;
-  const title = r.Title || "Product recall";
+  const title = firstText(r.Title, r.title, recall.Title, recall.title) || "Product recall";
+  const description = firstText(r.Description, r.description, recall.Description, recall.description);
+  const subtitle = firstText(
+    r.subtitle,
+    recall.subtitle,
+    (r.editorialBrief as { subtitle?: unknown } | undefined)?.subtitle,
+    (recall.editorialBrief as { subtitle?: unknown } | undefined)?.subtitle
+  );
   const cpscUrl = typeof recall.URL === "string" ? recall.URL : "";
   const localImages = r.Images?.filter((im) => im.URL?.startsWith("/images/")) ?? [];
   const retailerHeading =
@@ -115,6 +129,7 @@ export default function GeneralRecallDetail({ recall, lang }: Props) {
               </p>
             )}
             <h1 className="recall-detail-title">{title}</h1>
+            {subtitle && <p className="recall-detail-hero-subtitle">{subtitle}</p>}
             <p className="recall-detail-byline">
               Published by{" "}
               <span className="recall-detail-byline-publisher">Recalls Atlas</span>
@@ -134,15 +149,15 @@ export default function GeneralRecallDetail({ recall, lang }: Props) {
           </div>
 
           <div style={{ padding: "var(--spacing-lg)" }}>
-            {r.Description && (
+            {description && (
               <section style={{ marginBottom: "1.5rem" }}>
-                {looksLikeHtml(r.Description) ? (
+                {looksLikeHtml(description) ? (
                   <div
                     style={{ lineHeight: 1.6, color: "#334155" }}
-                    dangerouslySetInnerHTML={{ __html: r.Description }}
+                    dangerouslySetInnerHTML={{ __html: description }}
                   />
                 ) : (
-                  r.Description.split(/\n\n+/).map((para, i) => (
+                  description.split(/\n\n+/).map((para, i) => (
                     <p key={i} style={{ lineHeight: 1.6, marginBottom: "1rem", color: "#334155" }}>
                       {para}
                     </p>
