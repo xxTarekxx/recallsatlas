@@ -1210,6 +1210,23 @@ Lot or replacement URL: ${lotCheckUrl}
     return await callOpenAI(prompt, "consumerAction");
 }
 
+function buildRecallSubtitle(data = {}) {
+    return "A practical summary of affected product details, recall reason, safety context, and consumer next steps from the FDA-posted company announcement.";
+}
+
+function buildRecallReviewHtml(data = {}) {
+    const published = normalizeDate(data.fdaPublishDateTime || data.fdaPublishDateText);
+    const sourceDate = published ? ` published by FDA on ${escapeHtml(published)}` : " posted by FDA";
+    const company = cleanText(data.companyName || "the recalling company");
+    const product = cleanText(data.productDescription || data.title || "the recalled product");
+    const reason = cleanText(data.reason || "the recall reason");
+    return [
+        `<p>Recalls Atlas reviewed the FDA-posted company announcement${sourceDate} and organized the details readers are most likely to need: the recalling company, affected product, recall reason, product-identification details, safety context, and consumer instructions.</p>`,
+        `<p>For this notice, we checked the available FDA fields and company announcement details for ${escapeHtml(company)}, ${escapeHtml(product)}, and ${escapeHtml(reason)}. We preserved official affected-product tables when the source provided them and linked back to the FDA notice so readers can verify the original source.</p>`,
+        `<p>This review is an editorial summary of official recall information. It does not include independent lab testing, medical advice, legal advice, or claims beyond the FDA-posted company announcement.</p>`,
+    ].join("");
+}
+
 function buildEditorialFallback(data, year) {
     const entity = data.brandName || data.companyName || "The company";
     const product = data.productDescription || "the affected product";
@@ -1231,6 +1248,7 @@ function buildEditorialFallback(data, year) {
             productDescription: data.productDescription,
             reason: data.reason,
         }),
+        subtitle: buildRecallSubtitle(data),
         metaDescription: makeDescription({
             companyName: data.companyName,
             brandName: data.brandName,
@@ -1344,6 +1362,7 @@ Return this JSON shape exactly:
 {
   "title": "",
   "headline": "",
+  "subtitle": "",
   "metaDescription": "",
   "quickAnswerHtml": "",
   "recallSummaryHtml": "",
@@ -1362,6 +1381,7 @@ Return this JSON shape exactly:
 
 Quality requirements:
 - title/headline: specific product + hazard, not generic.
+- subtitle: 18-30 words, reader-facing, describes product details, recall reason, safety context, and next steps. Do not repeat the headline.
 - metaDescription: 140-165 characters, complete sentence, no trailing ellipsis.
 - quickAnswerHtml: 1 concise paragraph that answers what happened.
 - recallSummaryHtml: 2-3 paragraphs explaining product, reason, distribution, reported illnesses/events if present.
@@ -1391,6 +1411,7 @@ ${JSON.stringify(source)}
     return {
         title: cleanText(brief.title || fallback.title),
         headline: cleanText(brief.headline || fallback.headline),
+        subtitle: cleanText(brief.subtitle || fallback.subtitle),
         metaDescription: normalizeMetaDescription(brief.metaDescription, fallback.metaDescription),
         quickAnswerHtml: cleanHtmlFragment(brief.quickAnswerHtml || fallback.quickAnswerHtml),
         recallSummaryHtml: cleanHtmlFragment(brief.recallSummaryHtml || fallback.recallSummaryHtml),
@@ -2317,6 +2338,13 @@ function buildContentSections({
 
     sections.push(
         omitEmptyDeep({
+            subtitle: "How This Recall Was Reviewed",
+            text: buildRecallReviewHtml(data),
+        })
+    );
+
+    sections.push(
+        omitEmptyDeep({
             subtitle: "Source and Verification",
             text:
                 editorialBrief?.sourceTransparencyHtml ||
@@ -2794,6 +2822,7 @@ function fdaFirstNRowsAllAlreadyStored(fdaRows, processedUrls, n) {
                 disclaimer: merged.disclaimer,
 
                 title: editorialBrief.title || merged.title,
+                subtitle: editorialBrief.subtitle || buildRecallSubtitle(merged),
                 editorialBrief,
 
                 companyAnnouncementDate: merged.companyAnnouncementDateText,

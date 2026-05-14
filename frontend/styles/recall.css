@@ -119,6 +119,14 @@
   margin: 0 0 var(--spacing-sm);
 }
 
+.recall-detail-hero-subtitle {
+  color: #475569;
+  font-size: 1rem;
+  line-height: 1.55;
+  margin: 0 0 var(--spacing-sm);
+  max-width: 60rem;
+}
+
 .recall-detail-byline {
   font-size: 0.8125rem;
   color: #64748b;

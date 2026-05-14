@@ -91,6 +91,7 @@ export default function RecallDetail({ recall, dbError = null, currentLang = "en
     typeof recall?.report_date === "string" ? recall.report_date.slice(0, 4) : "";
   const shortTitle = getShortRecallTitle(product, year);
   const fullTitle = activeLangObj?.title || recall?.title || shortTitle;
+  const subtitle = activeLangObj?.subtitle || recall?.subtitle || recall?.editorialBrief?.subtitle || "";
   const singleImage = typeof recall?.image === "object" ? recall?.image?.url : recall?.image;
   const imagesArray = Array.isArray(recall?.images) ? recall.images : [];
   const imageUrls = imagesArray.length > 0 ? imagesArray : (singleImage ? [singleImage] : []);
@@ -174,6 +175,7 @@ export default function RecallDetail({ recall, dbError = null, currentLang = "en
           <div className="recall-detail-hero">
             <p className="recall-detail-badge">{chromeUi.fdaBadge}</p>
             <h1 className="recall-detail-title">{fullTitle}</h1>
+            {subtitle && <p className="recall-detail-hero-subtitle">{subtitle}</p>}
             <p className="recall-detail-byline">
               Published by{" "}
               <span className="recall-detail-byline-publisher">Recalls Atlas</span>
