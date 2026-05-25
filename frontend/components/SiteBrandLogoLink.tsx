@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { BRAND_LOGO_SRC } from "@/lib/brand-assets";
 
 type Props = {
@@ -23,13 +24,13 @@ export default function SiteBrandLogoLink({
       lang="en"
       aria-label="Recalls Atlas — home"
     >
-      <img
+      <Image
         src={BRAND_LOGO_SRC}
         alt="Recalls Atlas globe logo"
         width={44}
         height={44}
         className={imgClassName}
-        decoding="async"
+        priority
       />
       <span className="site-brand-wordmark" aria-hidden="true">
         <span className="site-brand-wordmark-emphasis">Recalls</span> Atlas

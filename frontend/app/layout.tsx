@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Script from "next/script";
-import { Inter } from "next/font/google";
+import localFont from "next/font/local";
 import "../styles/globals.css";
 import "../styles/layout.css";
 import "../styles/recall.css";
@@ -13,7 +13,11 @@ import { BRAND_FAVICON_WEBP } from "@/lib/brand-assets";
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.recallsatlas.com";
 const GA_ID = "G-96QD0HTTH6";
-const inter = Inter({ subsets: ["latin"], display: "swap" });
+const inter = localFont({
+  src: "../assets/fonts/inter-latin.woff2",
+  display: "swap",
+  weight: "100 900",
+});
 
 export const metadata: Metadata = {
   title: {
@@ -58,9 +62,9 @@ export default function RootLayout({
       <head>
         <Script
           src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}
-          strategy="afterInteractive"
+          strategy="lazyOnload"
         />
-        <Script id="google-analytics" strategy="afterInteractive">
+        <Script id="google-analytics" strategy="lazyOnload">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}

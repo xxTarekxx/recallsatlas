@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import GeneralRecallCategoryTag from "@/components/general-recalls/GeneralRecallCategoryTag";
 import { RECALL_CARD_UI } from "@/lib/recallCardUi";
 import type { GeneralRecallListItem } from "@/lib/generalRecallListTypes";
@@ -87,12 +88,12 @@ export default function GeneralRecallCard({ item, uiLang = "en" }: Props) {
                 ) : null}
                 <p className="recall-card-media-title">{displayBrand}</p>
               </div>
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
+              <Image
                 src={item.imageUrl as string}
                 alt={displayTitle}
                 className="recall-card-image"
-                loading="lazy"
+                fill
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
               />
             </>
           ) : (

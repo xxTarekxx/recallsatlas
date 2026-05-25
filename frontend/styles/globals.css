@@ -1,10 +1,8 @@
 /* Recalls Atlas – Global styles
  * Design: modern, accessible, trust-first
- * Font: Inter (Google Fonts via next/font)
+ * Font: Inter (self-hosted via next/font/local)
  * Palette: Deep navy + bright blue + alert red + safe green
  */
-
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
 
 :root {
   /* ── Colors ─────────────────────────────────────── */

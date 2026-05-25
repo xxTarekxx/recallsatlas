@@ -1,6 +1,8 @@
+import "server-only";
 import fs from "fs";
 // Indirection prevents Turbopack from statically tracing dynamic runtime paths
-const readFileDynamic = (p: string): string => fs.readFileSync(p, { encoding: "utf8" });
+const readFileDynamic = (p: string): string =>
+  fs.readFileSync(/*turbopackIgnore: true*/ p, { encoding: "utf8" });
 import path from "path";
 import type { GeneralRecallListItem } from "@/lib/generalRecallListTypes";
 import { isRtlUiLang, isSiteUiLang, type SiteUiLang } from "@/lib/siteLocale";
@@ -73,24 +75,24 @@ export type GeneralRecallListPage = {
 };
 
 function translatedDirCandidates(): string[] {
-  const cwd = process.cwd();
+  const cwd = /*turbopackIgnore: true*/ process.cwd();
   return [
-    path.join(cwd, "backend", "scripts", "generalRecalls", "openaiTranslating", "translatedJson"),
-    path.join(cwd, "..", "backend", "scripts", "generalRecalls", "openaiTranslating", "translatedJson"),
-    path.join(cwd, "backend", "scripts", "generalRecalls", "generalRecallsTranslated"),
-    path.join(cwd, "..", "backend", "scripts", "generalRecalls", "generalRecallsTranslated"),
+    path.join(/*turbopackIgnore: true*/ cwd, "backend", "scripts", "generalRecalls", "openaiTranslating", "translatedJson"),
+    path.join(/*turbopackIgnore: true*/ cwd, "..", "backend", "scripts", "generalRecalls", "openaiTranslating", "translatedJson"),
+    path.join(/*turbopackIgnore: true*/ cwd, "backend", "scripts", "generalRecalls", "generalRecallsTranslated"),
+    path.join(/*turbopackIgnore: true*/ cwd, "..", "backend", "scripts", "generalRecalls", "generalRecallsTranslated"),
   ];
 }
 
 function flattenedFileCandidates(): string[] {
-  const cwd = process.cwd();
+  const cwd = /*turbopackIgnore: true*/ process.cwd();
   return [
-    path.join(cwd, "backend", "generalRecalls", "data", "general-recalls-en-eeat.json"),
-    path.join(cwd, "..", "backend", "generalRecalls", "data", "general-recalls-en-eeat.json"),
-    path.join(cwd, "backend", "generalRecalls", "data", "general_recalls.flattened.json"),
-    path.join(cwd, "..", "backend", "generalRecalls", "data", "general_recalls.flattened.json"),
-    path.join(cwd, "backend", "database", "generalRecalls", "general_recalls.flattened.json"),
-    path.join(cwd, "..", "backend", "database", "generalRecalls", "general_recalls.flattened.json"),
+    path.join(/*turbopackIgnore: true*/ cwd, "backend", "generalRecalls", "data", "general-recalls-en-eeat.json"),
+    path.join(/*turbopackIgnore: true*/ cwd, "..", "backend", "generalRecalls", "data", "general-recalls-en-eeat.json"),
+    path.join(/*turbopackIgnore: true*/ cwd, "backend", "generalRecalls", "data", "general_recalls.flattened.json"),
+    path.join(/*turbopackIgnore: true*/ cwd, "..", "backend", "generalRecalls", "data", "general_recalls.flattened.json"),
+    path.join(/*turbopackIgnore: true*/ cwd, "backend", "database", "generalRecalls", "general_recalls.flattened.json"),
+    path.join(/*turbopackIgnore: true*/ cwd, "..", "backend", "database", "generalRecalls", "general_recalls.flattened.json"),
   ];
 }
 
@@ -215,7 +217,7 @@ export function parseGeneralRecallListLang(param: string | null | undefined): Si
 
 function listTranslatedJsonFiles(dir: string): string[] {
   return fs
-    .readdirSync(dir)
+    .readdirSync(/*turbopackIgnore: true*/ dir)
     .filter((f) => f.endsWith(".json") && f !== "imageUrlMap.json")
     .sort();
 }

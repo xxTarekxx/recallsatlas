@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { RECALL_CARD_UI } from "@/lib/recallCardUi";
 import { getShortRecallTitle } from "@/lib/recall-utils";
 import { isRtlUiLang, withLangPath } from "@/lib/siteLocale";
@@ -107,12 +108,12 @@ export default function RecallCard({ recall, uiLang = "en" }) {
                 {productType ? <p className="recall-card-media-kicker">{productType}</p> : null}
                 <p className="recall-card-media-title">{displayBrand}</p>
               </div>
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
+              <Image
                 src={image}
                 alt={displayTitle}
                 className="recall-card-image"
-                loading="lazy"
+                fill
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
               />
             </>
           ) : (

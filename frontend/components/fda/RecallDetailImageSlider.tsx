@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useState, useCallback } from "react";
 
 interface RecallDetailImageSliderProps {
@@ -22,11 +23,14 @@ export default function RecallDetailImageSlider({ imageUrls, alt }: RecallDetail
     return (
       <div className="recall-detail-media">
         <div className="recall-slider">
-          <div className="recall-slider__track">
-            <img
+          <div className="recall-slider__viewport">
+            <Image
               src={imageUrls[0]}
               alt={alt}
               className="recall-slider__img"
+              fill
+              sizes="(max-width: 640px) 100vw, 560px"
+              priority
             />
           </div>
         </div>
@@ -54,10 +58,13 @@ export default function RecallDetailImageSlider({ imageUrls, alt }: RecallDetail
           >
             {imageUrls.map((src, i) => (
               <div key={i} className="recall-slider__slide">
-                <img
+                <Image
                   src={src}
                   alt={`${alt} (${i + 1} of ${len})`}
                   className="recall-slider__img"
+                  fill
+                  sizes="(max-width: 640px) 100vw, 560px"
+                  priority={i === 0}
                 />
               </div>
             ))}
