@@ -1,4 +1,5 @@
 import HomePageContent from "@/components/recallcommon/HomePageContent";
+import { getGeneralRecallSlugDateMap } from "@/lib/general-recalls-data";
 import { getDb } from "@/lib/mongodb";
 import type { Metadata } from "next";
 
@@ -7,7 +8,7 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.recallsatlas.co
 export const metadata: Metadata = {
   title: "Recalls Atlas | FDA, NHTSA & CPSC Recall Search",
   description:
-    "Browse FDA food, drug, and device recalls; NHTSA vehicle campaigns; and thousands of CPSC consumer product recalls—plain-language summaries with links to official notices.",
+    "Browse FDA food, drug, and device recalls; NHTSA vehicle campaigns; and CPSC consumer product recalls with plain-language summaries and links to official notices.",
   alternates: { canonical: siteUrl },
   openGraph: {
     title: "Recalls Atlas — FDA, vehicle & product recalls",
@@ -21,10 +22,14 @@ export const metadata: Metadata = {
 };
 
 export default async function HomePage() {
-  let recallsCountText = "239+";
+  let recallsCountText = "30+";
   try {
     const db = await getDb();
-    const recallsCount = await db.collection("recalls").countDocuments();
+    const [fdaCount, vehicleCount] = await Promise.all([
+      db.collection("recalls").countDocuments(),
+      db.collection("cars").countDocuments(),
+    ]);
+    const recallsCount = fdaCount + vehicleCount + getGeneralRecallSlugDateMap().size;
     recallsCountText = `${new Intl.NumberFormat("en-US").format(recallsCount)}+`;
   } catch {
     /* keep fallback */

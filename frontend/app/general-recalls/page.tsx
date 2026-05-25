@@ -8,7 +8,7 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.recallsatlas.co
 export const metadata: Metadata = {
   title: HOME_COPY.en.generalTitle,
   description:
-    "Browse thousands of U.S. Consumer Product Safety Commission (CPSC) recalls—toys, appliances, furniture, sports equipment, and more.",
+    "Browse U.S. Consumer Product Safety Commission (CPSC) recalls—toys, appliances, furniture, sports equipment, and more.",
   alternates: { canonical: `${siteUrl}/general-recalls` },
 };
 

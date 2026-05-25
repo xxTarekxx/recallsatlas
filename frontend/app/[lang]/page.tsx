@@ -1,4 +1,5 @@
 import HomePageContent from "@/components/recallcommon/HomePageContent";
+import { getGeneralRecallSlugDateMap } from "@/lib/general-recalls-data";
 import { getDb } from "@/lib/mongodb";
 import type { Metadata } from "next";
 import { isSiteUiLang, type SiteUiLang } from "@/lib/siteLocale";
@@ -30,10 +31,14 @@ export default async function LocalizedHomePage({
   const { lang: langParam } = await params;
   if (!isSiteUiLang(langParam) || langParam === "en") notFound();
   const lang = langParam as SiteUiLang;
-  let recallsCountText = "239+";
+  let recallsCountText = "30+";
   try {
     const db = await getDb();
-    const recallsCount = await db.collection("recalls").countDocuments();
+    const [fdaCount, vehicleCount] = await Promise.all([
+      db.collection("recalls").countDocuments(),
+      db.collection("cars").countDocuments(),
+    ]);
+    const recallsCount = fdaCount + vehicleCount + getGeneralRecallSlugDateMap().size;
     recallsCountText = `${new Intl.NumberFormat("en-US").format(recallsCount)}+`;
   } catch {
     /* keep fallback */
