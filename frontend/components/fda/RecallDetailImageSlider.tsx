@@ -30,7 +30,6 @@ export default function RecallDetailImageSlider({ imageUrls, alt }: RecallDetail
               className="recall-slider__img"
               fill
               sizes="(max-width: 640px) 100vw, 560px"
-              priority
             />
           </div>
         </div>
@@ -64,7 +63,6 @@ export default function RecallDetailImageSlider({ imageUrls, alt }: RecallDetail
                   className="recall-slider__img"
                   fill
                   sizes="(max-width: 640px) 100vw, 560px"
-                  priority={i === 0}
                 />
               </div>
             ))}

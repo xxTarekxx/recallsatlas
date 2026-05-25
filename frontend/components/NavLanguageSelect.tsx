@@ -12,7 +12,15 @@ import {
   type SiteUiLang,
 } from "@/lib/siteLocale";
 
-function LangFlag({ lang, className }: { lang: SiteUiLang; className?: string }) {
+function LangFlag({
+  lang,
+  className,
+  loading = "lazy",
+}: {
+  lang: SiteUiLang;
+  className?: string;
+  loading?: "eager" | "lazy";
+}) {
   return (
     <img
       src={SITE_UI_LANG_FLAG_SRC[lang]}
@@ -21,6 +29,7 @@ function LangFlag({ lang, className }: { lang: SiteUiLang; className?: string })
       height={16}
       className={className}
       decoding="async"
+      loading={loading}
     />
   );
 }
@@ -81,7 +90,7 @@ export default function NavLanguageSelect({ className = "" }: Props) {
         onClick={() => setOpen((v) => !v)}
       >
         <span className="sitenav-lang-trigger-inner">
-          <LangFlag lang={current} className="sitenav-lang-flag-img" />
+          <LangFlag lang={current} className="sitenav-lang-flag-img" loading="eager" />
           <span className="sitenav-lang-trigger-text">
             {SITE_UI_LANG_LABELS[current]}
           </span>
