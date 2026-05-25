@@ -1,0 +1,73 @@
+/* â”€â”€ Legacy site-header (individual pages that still have it) */
+/* Kept for backward compat â€” new pages use SiteNav from layout */
+.site-header {
+  display: none; /* SiteNav in layout.tsx replaces this */
+}
+
+/* â”€â”€ Main content wrapper â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+
+.main-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: var(--spacing-xl) var(--spacing-lg);
+  min-height: calc(100vh - 64px - 180px);
+}
+
+/* â”€â”€ Footer â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+
+.site-footer {
+  background: var(--color-primary);
+  color: rgba(255, 255, 255, 0.85);
+  padding: var(--spacing-xl) var(--spacing-lg);
+  text-align: center;
+  font-size: 0.875rem;
+}
+
+.site-footer-copy {
+  margin: 0 0 var(--spacing-sm);
+  font-weight: 600;
+  color: var(--color-white);
+}
+
+.site-footer-nav {
+  margin: 0 0 var(--spacing-md);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--spacing-sm);
+  flex-wrap: wrap;
+}
+
+.site-footer-nav-sep {
+  opacity: 0.35;
+  font-size: 0.75rem;
+}
+
+.site-footer-disclaimer {
+  margin: 0 auto;
+  max-width: 720px;
+  line-height: 1.65;
+  opacity: 0.7;
+  font-size: 0.8125rem;
+  text-align: left;
+}
+
+.site-footer-disclaimer p {
+  margin: 0 0 var(--spacing-sm);
+}
+
+.site-footer-disclaimer p:last-child {
+  margin-bottom: 0;
+}
+
+.site-footer-link {
+  color: rgba(255, 255, 255, 0.85);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.site-footer-link:hover {
+  color: var(--color-white);
+  opacity: 1;
+}
+

@@ -1,0 +1,43 @@
+import type { HomeCopy } from "./homeCopyTypes";
+
+export const homeCopyJa: HomeCopy = {
+    badge: "FDA.gov から毎日更新",
+    badgeNhtsa: "NHTSA 車両安全データ",
+    badgeCpsc: "CPSC 消費財リコール",
+    heroLine1: "米国リコールデータ、",
+    heroLine2: "明確に検索可能",
+    heroSub:
+      "FDA のリコールに加え、CPSC の多数の消費財リコール（玩具・家電・家具など）を掲載。車両は VIN または年式・メーカー・車種（NHTSA）。",
+    heroQuickFda: "FDA リコールを見る",
+    heroQuickVehicle: "車両リコールを確認",
+    heroQuickGeneral: "消費財リコール",
+    searchPlaceholder: "見出しまたは製品タイプで検索…",
+    statRecalls: "追跡中",
+    statSourcesValue: "3+",
+    statSources: "政府ソース",
+    statLangs: "言語",
+    statFree: "無料",
+    sectionBrowse: "ソース別",
+    sectionChoose: "カテゴリを選ぶ",
+    fdaTitle: "FDA リコール",
+    fdaBody: "医薬品・食品・医療機器・サプリメント・化粧品・生物製剤など FDA のリコール。",
+    fdaCta: "FDA リコールへ →",
+    vehicleTitle: "車両リコール",
+    vehicleBody: "VIN または車両情報で確認",
+    vehicleCta: "確認する",
+    generalTitle: "製品リコール（CPSC）",
+    generalBody:
+      "CPSC の消費財リコール：玩具・電子機器・住宅・家具・スポーツなど。",
+    generalCta: "CPSC リコールへ →",
+    generalIndexEmpty: "このビルドにはまだ CPSC データがありません。",
+    generalIndexMore: "その他のページはサイトマップと検索からご覧ください。",
+    aboutKicker: "このサイトについて",
+    aboutTitle: "Recalls Atlas について",
+    aboutP1:
+      "Recalls Atlas は FDA・NHTSA・CPSC の公開リコール情報をまとめます。ここから公式通知へ辿れます。",
+    aboutP2: "要約は簡易向けです。ロット番号・日付・手順はリンク先の公式情報で確認してください。",
+    aboutP3Start: "Recalls Atlas は",
+    aboutP3Strong: "独立の集約サイト",
+    aboutP3End: "であり FDA と NHTSA と提携していません。情報提供のみ。",
+    aboutLink: "詳しく見る →",
+  };

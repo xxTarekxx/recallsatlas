@@ -1,0 +1,299 @@
+/* Recall-specific styles â€“ Detail page, cards */
+
+/* ----- Redesigned detail page ----- */
+.recall-detail-page {
+  min-height: 100vh;
+  background: var(--color-bg, #f8fafc);
+}
+
+.site-header-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--spacing-md);
+}
+
+.site-header-back {
+  color: var(--color-white);
+  font-size: 0.9375rem;
+  opacity: 0.95;
+}
+
+.site-header-back:hover {
+  text-decoration: underline;
+}
+
+.recall-detail-main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: var(--spacing-lg);
+}
+
+.recall-detail-error {
+  background: #fef2f2;
+  color: #b91c1c;
+  padding: var(--spacing-md);
+  border-radius: var(--radius-md);
+  margin-bottom: var(--spacing-lg);
+}
+
+.recall-detail-article {
+  background: var(--color-white);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
+}
+
+.recall-detail-hero {
+  position: relative;
+  padding: calc(var(--spacing-xl) + 4px) var(--spacing-lg) var(--spacing-lg);
+  border-bottom: 1px solid var(--color-border, #e2e8f0);
+}
+
+.recall-detail-hero-badges {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35rem 0.5rem;
+  margin: 0 0 var(--spacing-sm);
+}
+
+.recall-detail-hero-badges .recall-detail-badge {
+  margin: 0;
+}
+
+.recall-detail-badge {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-primary);
+  margin: 0 0 var(--spacing-sm);
+}
+
+/* Consumer recall category (source JSON file stem) â€” hue set inline via --gr-cat-hue */
+.general-recall-category-tag {
+  display: inline-block;
+  max-width: 100%;
+  font-size: 0.625rem;
+  font-weight: 600;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 0.2rem 0.45rem;
+  border-radius: 999px;
+  border: 1px solid hsl(var(--gr-cat-hue, 210) 36% 78%);
+  background-color: hsl(var(--gr-cat-hue, 210) 38% 94%);
+  color: hsl(var(--gr-cat-hue, 210) 42% 22%);
+  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.05);
+}
+
+.recall-card-category-tag.general-recall-category-tag {
+  position: absolute;
+  top: var(--spacing-sm);
+  inset-inline-start: var(--spacing-md);
+  z-index: 2;
+  max-width: min(11rem, calc(100% - 5.5rem));
+  pointer-events: none;
+}
+
+.recall-detail-category-tag.general-recall-category-tag {
+  font-size: 0.6875rem;
+  padding: 0.22rem 0.5rem;
+  white-space: normal;
+  max-width: min(100%, 20rem);
+  line-height: 1.3;
+}
+
+.recall-detail-title {
+  font-size: clamp(1.375rem, 2.4vw, 1.875rem);
+  line-height: 1.22;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  color: var(--color-primary, #0f172a);
+  margin: 0 0 var(--spacing-sm);
+}
+
+.recall-detail-hero-subtitle {
+  color: #475569;
+  font-size: 1rem;
+  line-height: 1.55;
+  margin: 0 0 var(--spacing-sm);
+  max-width: 60rem;
+}
+
+.recall-detail-byline {
+  font-size: 0.8125rem;
+  color: #64748b;
+  margin: 0.25rem 0 0.75rem;
+  letter-spacing: 0;
+}
+
+.recall-detail-byline-publisher {
+  font-weight: 600;
+  color: #475569;
+}
+
+.recall-language-switcher {
+  margin: 0.65rem 0 0.35rem;
+  position: relative;
+  max-width: 360px;
+}
+
+.recall-language-switcher-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin-bottom: 0.45rem;
+}
+
+.recall-language-label {
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-text-muted, #64748b);
+}
+
+.recall-language-current {
+  font-size: 0.8rem;
+  color: var(--color-primary, #0f172a);
+  background: #eef2ff;
+  border: 1px solid #c7d2fe;
+  border-radius: 999px;
+  padding: 0.2rem 0.9rem;
+}
+
+.recall-language-current--hero {
+  position: absolute;
+  top: 0.35rem;
+  right: 1rem;
+}
+
+.recall-language-menu-trigger {
+  width: 100%;
+  border: 1px solid var(--color-border, #cbd5e1);
+  border-radius: 10px;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.92rem;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  cursor: pointer;
+}
+
+.recall-language-trigger-inner {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.recall-language-menu {
+  margin: 0.35rem 0 0;
+  padding: 0.35rem;
+  list-style: none;
+  border: 1px solid var(--color-border, #cbd5e1);
+  border-radius: 10px;
+  background: #fff;
+  max-height: 260px;
+  overflow: auto;
+  box-shadow: 0 8px 22px rgba(15, 23, 42, 0.14);
+}
+
+.recall-language-menu-item {
+  width: 100%;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  background: #fff;
+  padding: 0.42rem 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-align: left;
+  cursor: pointer;
+}
+
+.recall-language-menu-item:hover:not(:disabled) {
+  background: #f8fafc;
+  border-color: #e2e8f0;
+}
+
+.recall-language-menu-item--active {
+  background: #eef2ff;
+  border-color: #c7d2fe;
+}
+
+.recall-language-menu-item--disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.recall-language-menu-tag {
+  margin-left: auto;
+  font-size: 0.72rem;
+  color: #64748b;
+}
+
+.recall-language-note {
+  margin: 0.3rem 0 0.55rem;
+  color: #64748b;
+  font-size: 0.86rem;
+}
+
+.recall-language-flags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.42rem;
+  margin: 0 0 0.5rem;
+}
+
+.recall-language-flag-btn {
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  padding: 0.2rem;
+  background: #fff;
+  cursor: pointer;
+  line-height: 0;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease, transform 0.08s ease;
+}
+
+.recall-language-flag-btn:hover:not(:disabled) {
+  border-color: #475569;
+  box-shadow: 0 1px 4px rgba(15, 23, 42, 0.12);
+}
+
+.recall-language-flag-btn:active:not(:disabled) {
+  transform: translateY(1px);
+}
+
+.recall-language-flag-btn--active {
+  border-color: #0f172a;
+  box-shadow: 0 0 0 1px #0f172a inset;
+}
+
+.recall-language-flag-btn--disabled {
+  opacity: 0.45;
+  background: #f8fafc;
+  cursor: not-allowed;
+}
+
+.recall-detail-disclaimer {
+  font-size: 0.875rem;
+  color: var(--color-text-muted);
+  margin: 0;
+  line-height: 1.5;
+}
+
+.recall-detail-media {
+  padding: var(--spacing-lg);
+  background: var(--color-bg, #f8fafc);
+}
+

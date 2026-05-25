@@ -1,0 +1,280 @@
+/* Legacy detail (kept for any remaining references) */
+.recall-detail {
+  max-width: 800px;
+}
+
+.recall-detail-subtitle {
+  font-size: 0.9375rem;
+  color: var(--color-text-muted);
+  margin: 0 0 var(--spacing-lg);
+}
+
+.recall-field-product .recall-product-full {
+  font-size: 0.9375rem;
+  color: var(--color-text);
+  line-height: 1.5;
+}
+
+.recall-fields {
+  background-color: var(--color-white);
+  border-radius: var(--radius-md);
+  padding: var(--spacing-lg);
+  box-shadow: var(--shadow-sm);
+}
+
+.recall-fields p {
+  margin: 0 0 var(--spacing-md);
+  padding-bottom: var(--spacing-md);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.recall-fields p:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+/* List card â€” status badge (pill) */
+.recall-card-status {
+  position: absolute;
+  top: var(--spacing-sm);
+  inset-inline-end: var(--spacing-md);
+  z-index: 2;
+  font-size: 0.6875rem;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  pointer-events: none;
+  padding: 0.35rem 0.65rem;
+  border-radius: 999px;
+  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.06);
+}
+
+.recall-card-status--ongoing {
+  color: #991b1b;
+  background: #fef2f2;
+  border: 1px solid #fecaca;
+}
+
+.recall-card-status--terminated {
+  color: #14532d;
+  background: #f0fdf4;
+  border: 1px solid #bbf7d0;
+}
+
+/* Card body and summary */
+.recall-card-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.recall-card-brand {
+  font-size: 0.875rem;
+  color: var(--color-text-muted);
+  margin: 0 0 var(--spacing-xs);
+}
+
+.recall-card-summary {
+  font-size: 0.875rem;
+  line-height: 1.45;
+  color: var(--color-text);
+  margin: 0 0 var(--spacing-sm);
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.recall-card-summary--with-image {
+  -webkit-line-clamp: 3;
+}
+
+.recall-card-date {
+  font-size: 0.8125rem;
+  color: var(--color-text-muted);
+  margin: 0;
+}
+
+/* Card image area â€“ only rendered when has image */
+.recall-card-image-wrapper {
+  aspect-ratio: 4/3;
+  background-color: var(--color-border);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  margin-bottom: var(--spacing-md);
+}
+
+.recall-card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.recall-card-image.placeholder-image,
+.placeholder-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  min-height: 120px;
+  background-color: var(--color-border);
+  color: var(--color-text-muted);
+  font-size: 0.875rem;
+}
+
+/* Detail page image + placeholder */
+.recall-detail-image {
+  max-width: 300px;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  margin-bottom: var(--spacing-lg);
+  box-shadow: var(--shadow-sm);
+}
+
+.recall-detail-placeholder {
+  max-width: 300px;
+  aspect-ratio: 4/3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-border);
+  color: var(--color-text-muted);
+  border-radius: var(--radius-md);
+  margin-bottom: var(--spacing-lg);
+  font-size: 0.875rem;
+  text-align: center;
+  padding: var(--spacing-md);
+}
+
+.recall-image {
+  max-width: 300px;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  margin-bottom: var(--spacing-lg);
+}
+
+.recall-image img {
+  width: 100%;
+  height: auto;
+}
+
+.recall-source-link {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  padding: var(--spacing-sm) var(--spacing-md);
+  background-color: var(--color-accent);
+  color: var(--color-white);
+  border-radius: var(--radius-md);
+}
+
+.recall-source-link:hover {
+  opacity: 0.9;
+  text-decoration: none;
+}
+
+.recall-source-note {
+  font-size: 0.875rem;
+  color: var(--color-text-muted);
+}
+
+/* In-page pagination (recalls list) â€“ highly visible */
+.pagination-wrapper {
+  margin: var(--spacing-lg) 0;
+  padding: var(--spacing-lg);
+  background-color: #fff;
+  border: 2px solid var(--color-primary);
+  border-radius: var(--radius-md);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pagination {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-md);
+  row-gap: var(--spacing-sm);
+}
+
+.pagination-btn {
+  padding: 0.5rem 1rem;
+  min-width: 100px;
+  background-color: var(--color-primary);
+  color: #fff;
+  border: 2px solid var(--color-primary);
+  border-radius: var(--radius-md);
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.pagination-btn:hover:not(:disabled) {
+  opacity: 0.9;
+}
+
+.pagination-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.pagination-info {
+  font-size: 1rem;
+  color: var(--color-text);
+  padding: 0 0.25rem;
+}
+
+.pagination-info strong {
+  color: var(--color-primary);
+}
+
+.pagination-total {
+  margin-left: 0.25rem;
+  color: var(--color-text-muted);
+  font-weight: normal;
+}
+
+.pagination-numbers {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  flex-wrap: wrap;
+}
+
+.pagination-num {
+  min-width: 2.25rem;
+  padding: 0.4rem 0.5rem;
+  background-color: var(--color-white);
+  color: var(--color-primary);
+  border: 2px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  font-size: 0.9375rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.pagination-num:hover:not(:disabled) {
+  background-color: var(--color-primary);
+  color: #fff;
+  border-color: var(--color-primary);
+}
+
+.pagination-num--current {
+  background-color: var(--color-primary);
+  color: #fff;
+  border-color: var(--color-primary);
+}
+
+.pagination-num:disabled {
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+.pagination-ellipsis {
+  padding: 0 0.25rem;
+  color: var(--color-text-muted);
+  font-weight: 600;
+}
+

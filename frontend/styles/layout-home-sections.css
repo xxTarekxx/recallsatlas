@@ -1,0 +1,210 @@
+/* â”€â”€ Category section â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+
+.home-categories {
+  max-width: min(72rem, 100%);
+  margin: 0 auto;
+  padding: var(--spacing-2xl) var(--spacing-lg);
+}
+
+.home-section-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-blue);
+  margin-bottom: var(--spacing-sm);
+}
+
+.home-section-title {
+  font-size: 1.625rem;
+  font-weight: 800;
+  color: var(--color-primary);
+  letter-spacing: -0.02em;
+  margin-bottom: var(--spacing-xl);
+}
+
+.home-category-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: var(--spacing-lg);
+}
+
+.home-category-card {
+  display: flex;
+  flex-direction: column;
+  padding: var(--spacing-xl);
+  background: var(--color-surface);
+  border: 1.5px solid var(--color-border);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-sm);
+  text-decoration: none;
+  color: var(--color-text);
+  transition: border-color var(--transition-normal), box-shadow var(--transition-normal), transform var(--transition-normal);
+  position: relative;
+  overflow: hidden;
+}
+
+.home-category-card:hover {
+  border-color: var(--color-blue);
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-2px);
+  text-decoration: none;
+  color: var(--color-text);
+}
+
+.home-category-card--disabled {
+  opacity: 0.6;
+  cursor: default;
+  pointer-events: none;
+}
+
+.home-category-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: var(--radius-lg);
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  margin-bottom: var(--spacing-md);
+}
+
+.home-category-icon--fda {
+  background: var(--color-accent-light);
+  color: var(--color-accent);
+}
+
+.home-category-icon--nhtsa {
+  background: #eff6ff;
+  color: var(--color-blue);
+}
+
+.home-category-icon--cpsc {
+  background: #fffbeb;
+  color: #b45309;
+}
+
+.home-category-card h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--color-primary);
+  margin-bottom: var(--spacing-xs);
+}
+
+.home-category-card p {
+  font-size: 0.9375rem;
+  color: var(--color-text-muted);
+  line-height: 1.55;
+  flex: 1;
+}
+
+.home-category-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+  margin-top: var(--spacing-md);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--color-blue);
+}
+
+.home-category-pill--disabled {
+  color: var(--color-text-muted);
+}
+
+/* â”€â”€ About / intro section â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+
+.home-about {
+  background: var(--color-surface);
+  border-top: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border);
+  padding: var(--spacing-2xl) var(--spacing-lg);
+}
+
+.home-about-inner {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.home-about-inner p {
+  font-size: 0.9375rem;
+  color: var(--color-text-muted);
+  line-height: 1.75;
+  margin-bottom: var(--spacing-md);
+}
+
+.home-about-inner p:last-child {
+  margin-bottom: 0;
+}
+
+.home-about-inner strong {
+  color: var(--color-text);
+  font-weight: 600;
+}
+
+/* â”€â”€ General recalls index (/general-recalls) â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+
+.general-recalls-index {
+  padding: var(--spacing-2xl) var(--spacing-lg);
+}
+
+.general-recalls-index-inner {
+  max-width: min(52rem, 100%);
+  margin: 0 auto;
+}
+
+.general-recalls-index h1 {
+  font-size: clamp(1.5rem, 3vw, 1.85rem);
+  font-weight: 800;
+  color: var(--color-primary);
+  letter-spacing: -0.02em;
+  margin-bottom: var(--spacing-md);
+}
+
+.general-recalls-index-intro {
+  font-size: 0.9375rem;
+  color: var(--color-text-muted);
+  line-height: 1.65;
+  margin-bottom: var(--spacing-md);
+}
+
+.general-recalls-index-count {
+  font-size: 0.9375rem;
+  color: var(--color-text);
+  margin-bottom: var(--spacing-xl);
+}
+
+.general-recalls-index-empty {
+  font-size: 0.9375rem;
+  color: var(--color-text-muted);
+}
+
+.general-recalls-index-more {
+  margin-top: var(--spacing-lg);
+  font-size: 0.8125rem;
+  color: var(--color-text-muted);
+}
+
+.general-recalls-index-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 0.4rem 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr));
+}
+
+.general-recalls-index-list a {
+  color: var(--color-blue);
+  font-size: 0.875rem;
+  line-height: 1.45;
+  word-break: break-word;
+  text-decoration: none;
+}
+
+.general-recalls-index-list a:hover {
+  text-decoration: underline;
+}
+

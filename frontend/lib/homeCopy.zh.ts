@@ -1,0 +1,43 @@
+import type { HomeCopy } from "./homeCopyTypes";
+
+export const homeCopyZh: HomeCopy = {
+    badge: "每日更新（FDA.gov）",
+    badgeNhtsa: "NHTSA 车辆安全数据",
+    badgeCpsc: "CPSC 消费品召回",
+    heroLine1: "美国召回数据，",
+    heroLine2: "清晰可搜索",
+    heroSub:
+      "搜索 FDA 食品、药品、器械与补充剂召回，以及 CPSC 发布的大量消费品召回（玩具、家电、家具等）。车辆请按 VIN 或年款/品牌/车型查询（NHTSA）。",
+    heroQuickFda: "浏览 FDA 召回",
+    heroQuickVehicle: "车辆召回查询",
+    heroQuickGeneral: "浏览消费品召回",
+    searchPlaceholder: "按标题或产品类型搜索…",
+    statRecalls: "已收录召回",
+    statSourcesValue: "3+",
+    statSources: "政府机构",
+    statLangs: "语言",
+    statFree: "免费",
+    sectionBrowse: "按来源浏览",
+    sectionChoose: "选择类别",
+    fdaTitle: "FDA 召回",
+    fdaBody: "药品、食品、医疗器械、膳食补充剂、化妆品及生物制品等 FDA 召回信息。",
+    fdaCta: "浏览 FDA 召回 →",
+    vehicleTitle: "车辆召回",
+    vehicleBody: "使用 VIN 或车辆信息查询",
+    vehicleCta: "立即查询",
+    generalTitle: "消费品召回（CPSC）",
+    generalBody:
+      "美国消费品安全委员会发布的召回：玩具、电子、家居、家具、运动器材等。",
+    generalCta: "查看 CPSC 召回 →",
+    generalIndexEmpty: "当前版本尚无 CPSC 数据，同步后即可浏览。",
+    generalIndexMore: "更多召回页面可通过站点地图与搜索发现。",
+    aboutKicker: "关于本站",
+    aboutTitle: "关于 Recalls Atlas",
+    aboutP1:
+      "Recalls Atlas 汇总 FDA、NHTSA 与 CPSC 的公开召回信息。您可在此开始并跳转到官方完整公告。",
+    aboutP2: "摘要仅供快速了解。请务必在链接的 FDA/NHTSA 来源核实批号、日期与说明。",
+    aboutP3Start: "Recalls Atlas 为",
+    aboutP3Strong: "独立聚合网站",
+    aboutP3End: "，不隶属于 FDA 或 NHTSA。数据仅供参考。",
+    aboutLink: "了解更多 →",
+  };
