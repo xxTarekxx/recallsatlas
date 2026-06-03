@@ -1,6 +1,6 @@
 /**
- * Send one plain-text email via Resend (used by recallFlow.sh).
- * Same env as recallFlow.ps1: RESEND_API_KEY, ALERT_EMAIL, optional RESEND_FROM.
+ * Send one plain-text email via Resend for backend pipeline summaries.
+ * Env: RESEND_API_KEY, ALERT_EMAIL, optional RESEND_FROM.
  *
  *   node scripts/notify/pipelineSendResend.js --subject "..." --body-file /path/to.txt
  *
