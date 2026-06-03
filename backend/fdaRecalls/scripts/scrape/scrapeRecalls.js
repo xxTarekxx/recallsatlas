@@ -1211,7 +1211,9 @@ Lot or replacement URL: ${lotCheckUrl}
 }
 
 function buildRecallSubtitle(data = {}) {
-    return "A practical summary of affected product details, recall reason, safety context, and consumer next steps from the FDA-posted company announcement.";
+    const product = cleanText(data.productDescription || data.title || "the recalled product");
+    const reason = cleanText(data.reason || "the FDA-listed recall reason");
+    return `Compact FDA recall brief for ${product}: ${reason}.`;
 }
 
 function buildRecallReviewHtml(data = {}) {
@@ -1257,27 +1259,14 @@ function buildEditorialFallback(data, year) {
             year,
         }),
         quickAnswerHtml: `<p>${escapeHtml(entity)} recalled ${escapeHtml(product)} because ${escapeHtml(reason)}. The FDA notice was published on ${escapeHtml(date)}.</p>`,
-        recallSummaryHtml: `<p>${escapeHtml(entity)} announced a recall involving ${escapeHtml(product)}. The recall reason listed by FDA is ${escapeHtml(reason)}.</p>`,
-        riskOverviewHtml: `<p>The practical risk depends on whether a consumer has the affected product identified in the FDA notice. Check the product name, package details, batch or lot information, and expiration dates against the official recall details.</p>`,
-        whoIsAffectedHtml: `<p>People who bought, used, distributed, or care for someone using ${escapeHtml(product)} may be affected if their product matches the recalled details.</p>`,
+        recallSummaryHtml: `<p>${escapeHtml(entity)} recalled ${escapeHtml(product)} because ${escapeHtml(reason)}. Check the product label, package details, lot or date information, and the official FDA notice before using the product.</p>`,
+        riskOverviewHtml: "",
+        whoIsAffectedHtml: "",
         howToIdentifyProductHtml: `<p>Compare the product label with the affected product table and the FDA notice. Look for brand, product name, package size, batch or lot number, UPC, and use-by or expiration date where provided.</p>`,
-        whatToDoHtml: `<p>Follow the company and FDA instructions in the official notice. Stop using the product if it matches the recalled details, keep packaging information available, and contact the company using the listed support details.${contact ? ` ${escapeHtml(contact)}` : ""}</p>`,
-        healthAndSafetyContextHtml: `<p>This page is informational and based on the FDA-posted company announcement. Consumers with symptoms, adverse reactions, or product-specific medical concerns should contact a qualified health professional or report the issue through FDA reporting channels when appropriate.</p>`,
-        sourceTransparencyHtml: `<p>Recalls Atlas summarized the FDA-posted company announcement, preserved the official affected-product table when available, and linked back to the original FDA source.</p>`,
-        faq: [
-            {
-                question: `What product is recalled?`,
-                answer: `${product} is listed in the FDA notice.`,
-            },
-            {
-                question: `Why was it recalled?`,
-                answer: reason,
-            },
-            {
-                question: `Where can I verify the recall?`,
-                answer: `Use the official FDA recall notice linked on this page.`,
-            },
-        ],
+        whatToDoHtml: `<p>Follow the company and FDA instructions in the official notice. Do not eat or use the product if it matches the recalled details. Keep the package, receipt, photos, and lot information until you confirm return, disposal, refund, or replacement instructions.${contact ? ` ${escapeHtml(contact)}` : ""}</p>`,
+        healthAndSafetyContextHtml: "",
+        sourceTransparencyHtml: `<p>This compact brief is based on the FDA-posted company announcement and links back to the official FDA source.</p>`,
+        faq: [],
     };
 }
 
@@ -1341,12 +1330,12 @@ async function generateEditorialRecallBrief({ data, detailUrl, year }) {
     };
 
     const prompt = `
-You create high-quality FDA recall briefs for a U.S. consumer safety website. This is YMYL content.
+You create compact FDA recall briefs for a U.S. consumer safety website. This is YMYL content.
 Return STRICT JSON only. No markdown.
 
 Goal:
-- Make the page more useful than the FDA post while staying fully grounded in the FDA/company announcement.
-- Improve E-E-A-T through clarity, completeness, source transparency, practical identification guidance, and careful risk context.
+- Turn the FDA/company announcement into a short, practical consumer-action brief.
+- Stay fully grounded in the FDA/company announcement.
 - Do not pretend there was a human medical review. Do not claim independent testing.
 
 Hard trust rules:
@@ -1366,37 +1355,26 @@ Return this JSON shape exactly:
   "metaDescription": "",
   "quickAnswerHtml": "",
   "recallSummaryHtml": "",
-  "riskOverviewHtml": "",
-  "whoIsAffectedHtml": "",
   "howToIdentifyProductHtml": "",
   "whatToDoHtml": "",
-  "healthAndSafetyContextHtml": "",
-  "sourceTransparencyHtml": "",
-  "faq": [
-    { "question": "", "answer": "" },
-    { "question": "", "answer": "" },
-    { "question": "", "answer": "" }
-  ]
+  "sourceTransparencyHtml": ""
 }
 
 Quality requirements:
 - title/headline: specific product + hazard, not generic.
-- subtitle: 18-30 words, reader-facing, describes product details, recall reason, safety context, and next steps. Do not repeat the headline.
+- subtitle: 12-22 words, reader-facing, product + recall reason + what readers should check.
 - metaDescription: 140-165 characters, complete sentence, no trailing ellipsis.
-- quickAnswerHtml: 1 concise paragraph that answers what happened.
-- recallSummaryHtml: 2-3 paragraphs explaining product, reason, distribution, reported illnesses/events if present.
-- riskOverviewHtml: explain why the hazard matters in plain English, without exaggeration.
-- whoIsAffectedHtml: who should check their product.
-- howToIdentifyProductHtml: explain exactly which label details to compare, based on source tables/fields.
-- whatToDoHtml: concrete consumer steps supported by source details.
-- healthAndSafetyContextHtml: general safety context tied to the hazard and product type.
-- sourceTransparencyHtml: explain that the page is based on the FDA-posted company announcement, include FDA publish date if present.
-- faq: 3-5 useful questions and answers, grounded in source facts.
+- quickAnswerHtml: one sentence in one <p>.
+- recallSummaryHtml: 1-2 short <p> paragraphs, 90-150 words total.
+- howToIdentifyProductHtml: one short <p>, 45-80 words.
+- whatToDoHtml: one short <p>, 55-90 words. Mention refund, return, replacement, or disposal only when SOURCE_JSON supports it; otherwise tell readers to check the official notice/company instructions.
+- sourceTransparencyHtml: one short <p> saying the brief is based on the FDA-posted company announcement.
+- The full rendered page should be about 350-550 visible words including source facts and tables.
 
 Originality requirements:
-- Do not use the same paragraph openings, FAQ angles, or source-transparency wording across recalls.
+- Do not use the same paragraph openings across recalls.
 - Let SOURCE_JSON determine the editorial angle: affected product identification, consumer action, risk context, distribution/lot lookup, or verification.
-- Vary sentence rhythm and section emphasis naturally while keeping a neutral safety-news tone.
+- Keep a neutral safety-news tone.
 - Avoid generic boilerplate such as "This recall brief is based entirely on..." when a more specific source sentence can be written from the FDA/company facts.
 - The output should feel written for this exact recall, not like a template with swapped names.
 
@@ -1415,11 +1393,11 @@ ${JSON.stringify(source)}
         metaDescription: normalizeMetaDescription(brief.metaDescription, fallback.metaDescription),
         quickAnswerHtml: cleanHtmlFragment(brief.quickAnswerHtml || fallback.quickAnswerHtml),
         recallSummaryHtml: cleanHtmlFragment(brief.recallSummaryHtml || fallback.recallSummaryHtml),
-        riskOverviewHtml: cleanHtmlFragment(brief.riskOverviewHtml || fallback.riskOverviewHtml),
-        whoIsAffectedHtml: cleanHtmlFragment(brief.whoIsAffectedHtml || fallback.whoIsAffectedHtml),
+        riskOverviewHtml: "",
+        whoIsAffectedHtml: "",
         howToIdentifyProductHtml: cleanHtmlFragment(brief.howToIdentifyProductHtml || fallback.howToIdentifyProductHtml),
         whatToDoHtml: cleanHtmlFragment(brief.whatToDoHtml || fallback.whatToDoHtml),
-        healthAndSafetyContextHtml: cleanHtmlFragment(brief.healthAndSafetyContextHtml || fallback.healthAndSafetyContextHtml),
+        healthAndSafetyContextHtml: "",
         sourceTransparencyHtml: cleanHtmlFragment(brief.sourceTransparencyHtml || fallback.sourceTransparencyHtml),
         faq: faq
             .map((item) => ({
@@ -1427,7 +1405,7 @@ ${JSON.stringify(source)}
                 answer: cleanText(item?.answer || ""),
             }))
             .filter((item) => item.question && item.answer)
-            .slice(0, 5),
+            .slice(0, 0),
     };
 }
 
@@ -2204,20 +2182,11 @@ function buildContentSections({
     const sections = [];
 
     const exactTablesHtml = buildAnnouncementTablesHtml(data.announcementTables);
-    const quickAnswer = editorialBrief?.quickAnswerHtml || "";
     const summaryText = editorialBrief?.recallSummaryHtml || rewrittenSummary || buildFallbackRecallSummary(data);
-    if (quickAnswer) {
-        sections.push(
-            omitEmptyDeep({
-                subtitle: "Quick Answer",
-                text: quickAnswer,
-            })
-        );
-    }
     sections.push(
         omitEmptyDeep({
             subtitle: "Recall Summary",
-            text: exactTablesHtml ? `${summaryText}\n${exactTablesHtml}` : summaryText,
+            text: summaryText,
         })
     );
 
@@ -2234,6 +2203,15 @@ function buildContentSections({
             omitEmptyDeep({
                 subtitle: "What Was Recalled",
                 facts: recallFacts,
+            })
+        );
+    }
+
+    if (exactTablesHtml) {
+        sections.push(
+            omitEmptyDeep({
+                subtitle: "Affected Product Details",
+                text: exactTablesHtml,
             })
         );
     }
@@ -2280,81 +2258,6 @@ function buildContentSections({
             );
         }
     }
-
-    if (editorialBrief?.riskOverviewHtml) {
-        sections.push(
-            omitEmptyDeep({
-                subtitle: "Risk Overview",
-                text: editorialBrief.riskOverviewHtml,
-            })
-        );
-    }
-
-    if (editorialBrief?.whoIsAffectedHtml) {
-        sections.push(
-            omitEmptyDeep({
-                subtitle: "Who May Be Affected",
-                text: editorialBrief.whoIsAffectedHtml,
-            })
-        );
-    }
-
-    if (editorialBrief?.healthAndSafetyContextHtml) {
-        sections.push(
-            omitEmptyDeep({
-                subtitle: "Health and Safety Context",
-                text: editorialBrief.healthAndSafetyContextHtml,
-            })
-        );
-    }
-
-    const contactText = buildContactSectionText(data.contacts);
-    if (contactText) {
-        sections.push(
-            omitEmptyDeep({
-                subtitle: "Company Contact Information",
-                text: contactText,
-            })
-        );
-    }
-
-    if (data.aboutCompanyText) {
-        sections.push(
-            omitEmptyDeep({
-                subtitle: "About the Company",
-                text: data.aboutCompanyText,
-            })
-        );
-    }
-
-    if (Array.isArray(editorialBrief?.faq) && editorialBrief.faq.length) {
-        sections.push(
-            omitEmptyDeep({
-                subtitle: "Frequently Asked Questions",
-                faq: editorialBrief.faq,
-            })
-        );
-    }
-
-    sections.push(
-        omitEmptyDeep({
-            subtitle: "How This Recall Was Reviewed",
-            text: buildRecallReviewHtml(data),
-        })
-    );
-
-    sections.push(
-        omitEmptyDeep({
-            subtitle: "Source and Verification",
-            text:
-                editorialBrief?.sourceTransparencyHtml ||
-                cleanText(
-                    `According to the U.S. Food and Drug Administration (FDA), this recall notice was published on ${normalizeDate(data.fdaPublishDateTime || data.fdaPublishDateText) || "the FDA recall page"
-                    }.`
-                ),
-            authorityLinks,
-        })
-    );
 
     return sections
         .map((section) => omitEmptyDeep(section))

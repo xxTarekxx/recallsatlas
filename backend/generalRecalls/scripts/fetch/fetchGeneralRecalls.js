@@ -25,6 +25,7 @@ const SITE_BASE_URL = process.env.SITE_BASE_URL || "https://recallsatlas.com";
 const SITE_RECALLS_PATH = "/general-recalls";
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY || "";
 const MODEL = readOption("OPENAI_MODEL") || process.env.OPENAI_GENERAL_MODEL || "gpt-4.1-mini";
+const SOURCE_ONLY = process.argv.includes("--source-only");
 
 const JSON_PATH = path.join(DATA_ROOT, "general-recalls-en-eeat.json");
 const HASH_PATH = path.join(LOGS_ROOT, "general-recalls-en-eeat.hashes.json");
@@ -32,8 +33,8 @@ const IMAGE_MAP_PATH = path.join(DATA_ROOT, "general-recalls-image-map.json");
 const LOG_PATH = path.join(LOGS_ROOT, "general-recalls-log.txt");
 const IMAGE_BASE_DIR = resolveImageBaseDir();
 
-const MAX_RECORDS = readPositiveInt("MAX_RECORDS", 20);
-const MAX_TOTAL = readPositiveInt("MAX_TOTAL", 20);
+const MAX_RECORDS = readPositiveInt("MAX_RECORDS", 100);
+const MAX_TOTAL = readPositiveInt("MAX_TOTAL", 300);
 const SORT_ORDER_BASE = readPositiveInt("SORT_ORDER_BASE", 653);
 const MIN_DELAY_MS = readPositiveInt("MIN_DELAY_MS", 1500);
 const MAX_DELAY_MS = Math.max(MIN_DELAY_MS, readPositiveInt("MAX_DELAY_MS", 3000));
@@ -48,7 +49,7 @@ ensureDirSync(DATA_ROOT);
 ensureDirSync(LOGS_ROOT);
 ensureDirSync(IMAGE_BASE_DIR);
 
-if (!OPENAI_API_KEY) {
+if (!SOURCE_ONLY && !OPENAI_API_KEY) {
     console.error("Missing OPENAI_API_KEY in backend/scripts/.env or backend/.env");
     process.exit(1);
 }
@@ -167,13 +168,14 @@ function normalizeDateTime(value) {
 function normalizeSourceUrl(url) {
     const raw = cleanText(url);
     if (!raw) return "";
+    const repaired = raw.replace(/^https:\/(?!\/)/i, "https://").replace(/^http:\/(?!\/)/i, "http://");
     try {
-        const u = new URL(raw);
+        const u = new URL(repaired);
         u.hash = "";
         u.search = "";
         return u.toString().replace(/\/$/, "");
     } catch {
-        return raw.replace(/[?#].*$/, "").replace(/\/$/, "");
+        return repaired.replace(/[?#].*$/, "").replace(/\/$/, "");
     }
 }
 
@@ -240,6 +242,7 @@ function parseArgs() {
         start,
         end,
         backfillEditorial: args.includes("--backfill-editorial"),
+        sourceOnly: args.includes("--source-only"),
     };
 }
 
@@ -331,7 +334,7 @@ function buildSourceFacts(record) {
         lastPublishDate: record.LastPublishDate || "",
         title: record.Title || record.title || record.headline || "",
         description: record.Description || record.description || "",
-        url: record.URL || record.sourceUrl || "",
+        url: normalizeSourceUrl(record.URL || record.sourceUrl || ""),
         consumerContact: record.ConsumerContact || "",
         products: Array.isArray(record.Products) ? record.Products : [],
         hazards: plainList(record.Hazards),
@@ -409,24 +412,62 @@ function fallbackBrief(facts) {
         subtitle: buildRecallSubtitle(facts),
         metaDescription: normalizeMetaDescription(`${product} was recalled because ${hazard}. Check the official CPSC notice for product details and consumer instructions.`),
         quickAnswerHtml: `<p>${company} recalled ${product} because ${hazard}.</p>`,
-        recallSummaryHtml: `<p>The U.S. Consumer Product Safety Commission posted a recall notice for ${product}. The notice identifies the hazard as ${hazard}.</p>`,
-        riskOverviewHtml: `<p>The risk depends on whether a consumer has the affected product identified in the recall notice.</p>`,
-        whoIsAffectedHtml: `<p>Consumers who purchased or use the recalled product should compare their product details with the official recall notice.</p>`,
+        recallSummaryHtml: `<p>${company} recalled ${product} because ${hazard}. Compare your product details with the official CPSC notice before using the item.</p>`,
+        riskOverviewHtml: "",
+        whoIsAffectedHtml: "",
         howToIdentifyProductHtml: `<p>Check the product name, model, labels, date information, and any identifiers listed in the recall notice.</p>`,
         whatToDoHtml: `<p>Follow the remedy instructions provided by the CPSC notice and the recalling firm.</p>`,
         sourceTransparencyHtml: `<p>This page is based on the official CPSC recall notice.</p>`,
-        faq: [
-            { question: "What product was recalled?", answer: product },
-            { question: "Why was it recalled?", answer: hazard },
-            { question: "Where can I verify this recall?", answer: "Use the official CPSC recall notice linked on this page." },
-        ],
+        faq: [],
+    };
+}
+
+function buildSourceOnlyBrief(facts) {
+    const product = cleanText(facts.products?.[0]?.Name || facts.title || "the recalled product");
+    const company = cleanText(
+        facts.importers?.[0] || facts.distributors?.[0] || facts.manufacturers?.[0] || "The recalling firm"
+    );
+    const hazard = cleanText(facts.hazards?.[0] || "the hazard described in the official CPSC notice");
+    const remedy = cleanText(facts.remedies?.[0] || "follow the remedy instructions in the official recall notice");
+    const retailer = cleanText(facts.retailers?.[0] || "");
+    const injuries = cleanText(facts.injuries?.[0] || "");
+    const units = cleanText(facts.products?.[0]?.NumberOfUnits || "");
+    const model = cleanText(facts.products?.[0]?.Model || "");
+    const recallNumber = cleanText(facts.recallNumber || "");
+    const recallDate = normalizeDate(facts.recallDate);
+    const hazardSentence = cleanText(hazard).replace(/\.+$/g, "");
+    const remedySentence = cleanText(remedy).replace(/\.+$/g, "");
+
+    const title = cleanText(facts.title || `${product} recalled`);
+    const metaDescription = normalizeMetaDescription(
+        `${product} recall: ${hazard}. Review affected product details, remedy instructions, and the official CPSC source notice.`
+    );
+
+    const summaryParts = [
+        `<p>${escapeHtml(company)} recalled ${escapeHtml(product)}${units ? ` (${escapeHtml(units)})` : ""} because ${escapeHtml(hazardSentence)}.</p>`,
+        `<p>${retailer ? `The CPSC record says the product was sold at ${escapeHtml(retailer)} ` : "The official CPSC record lists the affected product details, hazard, remedy, and firm contact information. "}${model ? `Model or product information listed in the notice includes ${escapeHtml(model)}. ` : ""}${injuries ? `Reported incident or injury information: ${escapeHtml(injuries.replace(/\.+$/g, ""))}.` : "No additional incident summary is shown here unless it appears in the source record."}</p>`,
+    ];
+
+    return {
+        title,
+        headline: title,
+        subtitle: buildRecallSubtitle(facts),
+        metaDescription,
+        quickAnswerHtml: `<p>${escapeHtml(product)} was recalled because ${escapeHtml(hazardSentence)}. Use the product name, model, retailer, date, and remedy details below to check whether your item is included.</p>`,
+        recallSummaryHtml: summaryParts.join(""),
+        riskOverviewHtml: "",
+        whoIsAffectedHtml: "",
+        howToIdentifyProductHtml: `<p>Use the product name${model ? `, model information (${escapeHtml(model)})` : ""}, packaging details, images, and identifiers in the official CPSC record to check whether your item matches the recalled product.</p>`,
+        whatToDoHtml: `<p>${escapeHtml(remedySentence)}. ${facts.consumerContact ? `For help, use the company contact information preserved on this page from the CPSC notice.` : "Use the official CPSC notice link on this page for the full remedy instructions."}</p>`,
+        sourceTransparencyHtml: buildSourceTransparencyHtml(facts),
+        faq: [],
     };
 }
 
 function buildRecallSubtitle(facts = {}) {
     const product = facts.products?.[0]?.Name || "the recalled product";
     const hazard = facts.hazards?.[0] || "the reported hazard";
-    return `A practical CPSC recall brief covering ${product}, ${hazard}, product-identification details, remedy steps, and source verification.`;
+    return `Compact CPSC recall brief for ${product}: ${hazard}.`;
 }
 
 function buildRecallReviewHtml(facts = {}) {
@@ -465,11 +506,11 @@ function buildSourceTransparencyHtml(facts = {}) {
 async function generateEditorialBrief(facts) {
     const fallback = fallbackBrief(facts);
     const prompt = `
-You create high-quality consumer product recall briefs for Recalls Atlas. Return STRICT JSON only.
+You create compact consumer product recall briefs for Recalls Atlas. Return STRICT JSON only.
 
 Goal:
-- Make the page substantially more useful than raw CPSC fields while staying fully grounded in SOURCE_JSON.
-- Improve E-E-A-T through clear source attribution, practical identification guidance, risk context, and FAQ.
+- Turn raw CPSC fields into a short consumer-action brief while staying fully grounded in SOURCE_JSON.
+- Keep the generated content short because the site renders source facts, images, hazards, remedies, retailers, injuries, contacts, and source links separately.
 
 Hard rules:
 - Use only SOURCE_JSON.
@@ -487,34 +528,25 @@ Return exactly:
   "metaDescription": "",
   "quickAnswerHtml": "",
   "recallSummaryHtml": "",
-  "riskOverviewHtml": "",
-  "whoIsAffectedHtml": "",
   "howToIdentifyProductHtml": "",
   "whatToDoHtml": "",
-  "sourceTransparencyHtml": "",
-  "faq": [
-    { "question": "", "answer": "" },
-    { "question": "", "answer": "" },
-    { "question": "", "answer": "" }
-  ]
+  "sourceTransparencyHtml": ""
 }
 
 Quality requirements:
-- Target a useful 600-900 word page after facts/FAQ/sections are rendered.
-- subtitle: 18-30 words, reader-facing, describing the product, hazard, identification details, remedy, and source verification. Do not repeat the headline.
+- Target a useful 350-550 word page after source facts and sections are rendered.
+- subtitle: 12-22 words, reader-facing, describing product, hazard, and what readers should check.
 - metaDescription: 140-165 characters, complete sentence, no trailing ellipsis.
-- quickAnswerHtml: one concise paragraph.
-- recallSummaryHtml: 2-3 paragraphs explaining product, hazard, units, dates, retailers, injury status if present.
-- howToIdentifyProductHtml: explain exactly what label/model/product details to compare.
-- whatToDoHtml: concrete steps based on source remedy/contact fields.
-- riskOverviewHtml: explain the hazard in plain English without exaggeration.
-- sourceTransparencyHtml: state that Recalls Atlas summarized the CPSC recall notice and link data is preserved separately.
-- faq: 3-5 useful questions grounded in source facts.
+- quickAnswerHtml: one sentence in one <p>.
+- recallSummaryHtml: 1-2 short <p> paragraphs, 90-150 words total.
+- howToIdentifyProductHtml: one short <p>, 45-80 words, explaining what product details to compare.
+- whatToDoHtml: one short <p>, 55-90 words, based only on source remedy/contact fields.
+- sourceTransparencyHtml: one short <p> saying the brief is based on the official CPSC recall notice.
 
 Originality requirements:
-- Do not use the same paragraph openings, FAQ angles, or source-transparency wording across recalls.
+- Do not use the same paragraph openings across recalls.
 - Let SOURCE_JSON determine the editorial angle: product identification, remedy steps, hazard context, retailer/manufacturer details, or verification.
-- Vary sentence rhythm and section emphasis naturally while keeping a neutral consumer-safety tone.
+- Keep a neutral consumer-safety tone.
 - Avoid generic boilerplate such as "Recalls Atlas has summarized this recall based on..." when a more specific CPSC/source sentence can be written from the facts.
 - The output should feel written for this exact recall, not like a template with swapped names.
 
@@ -538,8 +570,8 @@ ${JSON.stringify(facts)}
                 metaDescription: normalizeMetaDescription(brief.metaDescription, fallback.metaDescription),
                 quickAnswerHtml: cleanHtmlFragment(brief.quickAnswerHtml || fallback.quickAnswerHtml),
                 recallSummaryHtml: cleanHtmlFragment(brief.recallSummaryHtml || fallback.recallSummaryHtml),
-                riskOverviewHtml: cleanHtmlFragment(brief.riskOverviewHtml || fallback.riskOverviewHtml),
-                whoIsAffectedHtml: cleanHtmlFragment(brief.whoIsAffectedHtml || fallback.whoIsAffectedHtml),
+                riskOverviewHtml: "",
+                whoIsAffectedHtml: "",
                 howToIdentifyProductHtml: cleanHtmlFragment(brief.howToIdentifyProductHtml || fallback.howToIdentifyProductHtml),
                 whatToDoHtml: cleanHtmlFragment(brief.whatToDoHtml || fallback.whatToDoHtml),
                 sourceTransparencyHtml: buildSourceTransparencyHtml(facts),
@@ -549,7 +581,7 @@ ${JSON.stringify(facts)}
                         answer: cleanText(item?.answer || ""),
                     }))
                     .filter((item) => item.question && item.answer)
-                    .slice(0, 5),
+                    .slice(0, 0),
             };
         } catch (err) {
             log(`OpenAI failed attempt ${attempt}/${MAX_RETRIES}: ${err.message}`);
@@ -592,26 +624,11 @@ function contactText(facts) {
 
 function buildContentSections({ facts, brief, authorityLinks }) {
     const sections = [
-        { subtitle: "Quick Answer", text: brief.quickAnswerHtml },
         { subtitle: "Recall Summary", text: brief.recallSummaryHtml },
         { subtitle: "What Was Recalled", facts: buildFactsSection(facts) },
         { subtitle: "How to Identify the Recalled Product", text: brief.howToIdentifyProductHtml },
         { subtitle: "What Consumers Should Do", text: brief.whatToDoHtml },
-        { subtitle: "Risk Overview", text: brief.riskOverviewHtml },
-        { subtitle: "Who May Be Affected", text: brief.whoIsAffectedHtml },
     ];
-    const contact = contactText(facts);
-    if (contact) sections.push({ subtitle: "Company Contact Information", text: escapeHtml(contact) });
-    if (brief.faq?.length) sections.push({ subtitle: "Frequently Asked Questions", faq: brief.faq });
-    sections.push({
-        subtitle: "How This Recall Was Reviewed",
-        text: buildRecallReviewHtml(facts),
-    });
-    sections.push({
-        subtitle: "Source and Verification",
-        text: brief.sourceTransparencyHtml,
-        authorityLinks,
-    });
     return sections.filter((section) => section.text || section.facts || section.faq || section.authorityLinks);
 }
 
@@ -742,6 +759,20 @@ async function processImages(images, folderName, imageMap) {
         await randomDelay("between images");
     }
     return saved;
+}
+
+function useSourceImageUrls(images) {
+    return (images || [])
+        .map((image) => {
+            const url = cleanText(image?.URL || image?.SourceImageURL || "");
+            if (!url) return null;
+            return {
+                URL: url,
+                Caption: cleanText(image?.Caption || ""),
+                SourceImageURL: url,
+            };
+        })
+        .filter(Boolean);
 }
 
 function buildArticle({ record, facts, brief, slug, sortOrder, images, fetchedAt, recallHash }) {
@@ -941,6 +972,7 @@ async function main() {
         `Output          : ${JSON_PATH}`,
         `Existing records: ${results.length}`,
         `Run target      : ${runLimit}`,
+        `Source-only     : ${args.sourceOnly ? "yes" : "no"}`,
         `Sort base       : ${SORT_ORDER_BASE}`,
         `Image folder    : ${IMAGE_BASE_DIR}`,
     ]);
@@ -994,9 +1026,11 @@ async function main() {
             "-"
         );
 
-        const brief = await generateEditorialBrief(facts);
-        await randomDelay("after editorial brief");
-        const images = await processImages(facts.images, folderName, imageMap);
+        const brief = args.sourceOnly ? buildSourceOnlyBrief(facts) : await generateEditorialBrief(facts);
+        if (!args.sourceOnly) await randomDelay("after editorial brief");
+        const images = args.sourceOnly
+            ? useSourceImageUrls(facts.images)
+            : await processImages(facts.images, folderName, imageMap);
         const fetchedAt = new Date().toISOString();
         const article = buildArticle({ record, facts, brief, slug, sortOrder, images, fetchedAt, recallHash });
         article._contentHash = contentHash(article);
