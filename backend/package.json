@@ -11,11 +11,9 @@
     "fetch-general-recalls:20": "node generalRecalls/scripts/fetch/fetchGeneralRecalls.js --max-records=20 --max-total=20",
     "fetch-general-recalls:source-only": "node generalRecalls/scripts/fetch/fetchGeneralRecalls.js --source-only --max-records=20 --max-total=20 --min-delay-ms=1 --max-delay-ms=1",
     "reset-generated-recalls": "node scripts/sync/resetGeneratedRecallData.js",
-    "audit:recall-content": "node scripts/audit/adsenseContentAudit.js",
+    "audit:recall-content": "node scripts/audit/recallContentAudit.js",
     "import-recalls-clean": "node scripts/sync/importCleanRecallCollections.js",
-    "import-recalls-clean:replace": "node scripts/sync/importCleanRecallCollections.js --replace",
-    "enhance-recalls-eeat": "node scripts/translate/enhanceRecallEeat.js",
-    "enhance-recalls-eeat:resume": "node scripts/translate/enhanceRecallEeat.js --resume"
+    "import-recalls-clean:replace": "node scripts/sync/importCleanRecallCollections.js --replace"
   },
   "dependencies": {
     "axios": "1.15.2",
