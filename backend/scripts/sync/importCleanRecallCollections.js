@@ -6,12 +6,16 @@ const { MongoClient } = require("mongodb");
 
 const BACKEND_ROOT = path.join(__dirname, "..", "..");
 const ENV_ROOT = path.join(BACKEND_ROOT, "scripts");
+const backendEnvPath = path.join(BACKEND_ROOT, ".env");
+const scriptsEnvPath = path.join(ENV_ROOT, ".env");
 
-require("dotenv").config({
-  path: fs.existsSync(path.join(ENV_ROOT, ".env"))
-    ? path.join(ENV_ROOT, ".env")
-    : path.join(BACKEND_ROOT, ".env"),
-});
+if (fs.existsSync(backendEnvPath)) {
+  require("dotenv").config({ path: backendEnvPath });
+}
+
+if (fs.existsSync(scriptsEnvPath)) {
+  require("dotenv").config({ path: scriptsEnvPath });
+}
 
 const MONGODB_URI = process.env.MONGODB_URI || process.env.MONGO_URI || "";
 const DB_NAME = process.env.MONGODB_DB || "recallsatlas";
@@ -24,6 +28,9 @@ const IMPORTS = [
       [{ slug: 1 }, { unique: true, name: "slug_unique" }],
       [{ sortOrder: -1 }, { name: "sortOrder_desc" }],
       [{ datePublished: -1 }, { name: "datePublished_desc" }],
+      [{ report_date: -1 }, { name: "report_date_desc" }],
+      [{ brandName: 1, report_date: -1 }, { name: "brandName_report_date_desc" }],
+      [{ browseCategory: 1, report_date: -1 }, { name: "browseCategory_report_date_desc" }],
     ],
   },
   {
@@ -84,7 +91,7 @@ async function replaceCollection(db, spec, rows) {
 
 async function main() {
   if (!MONGODB_URI) {
-    throw new Error("Missing MONGODB_URI or MONGO_URI in backend/scripts/.env or backend/.env");
+    throw new Error("Missing MONGODB_URI or MONGO_URI in backend/.env or backend/scripts/.env");
   }
 
   const replace = hasArg("--replace");
