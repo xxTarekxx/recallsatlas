@@ -1,0 +1,29 @@
+services:
+  recallgraph-postgres:
+    image: pgvector/pgvector:pg16
+    container_name: recallgraph-postgres
+    environment:
+      POSTGRES_DB: recallgraph
+      POSTGRES_USER: recallgraph
+      POSTGRES_PASSWORD: recallgraph_dev_password
+    ports:
+      - "54329:5432"
+    volumes:
+      - recallgraph-postgres-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U recallgraph -d recallgraph"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  recallgraph-redis:
+    image: redis:7-alpine
+    container_name: recallgraph-redis
+    ports:
+      - "6389:6379"
+    volumes:
+      - recallgraph-redis-data:/data
+
+volumes:
+  recallgraph-postgres-data:
+  recallgraph-redis-data:

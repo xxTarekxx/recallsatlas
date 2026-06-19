@@ -90,3 +90,18 @@ npm run scrape
 ## 🔗 Live
 
 https://recallsatlas.com
+
+---
+
+## RecallGraph MVP
+
+RecallGraph is being added as a modular AI/data layer inside RecallsAtlas. It keeps the existing MongoDB recall pages intact while adding normalized recall data, Postgres/pgvector schema, embeddings, related recall links, search evaluation, and new `/recallgraph` pages.
+
+Start with:
+
+```powershell
+cd backend
+npm run recallgraph:normalize
+```
+
+See `backend/recallgraph/README.md` and `RECALLGRAPH_IMPLEMENTATION.md` for the full local runbook.

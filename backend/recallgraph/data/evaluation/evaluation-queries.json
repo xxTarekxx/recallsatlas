@@ -1,0 +1,128 @@
+[
+  {
+    "query": "fire hazard from battery chargers",
+    "intent": "Find recalls involving chargers, batteries, overheating, or fire hazards.",
+    "expectedRecallIds": [],
+    "expectedSource": null,
+    "notes": "Starter query for semantic and keyword search coverage."
+  },
+  {
+    "query": "undeclared allergens in snacks",
+    "intent": "Find FDA food recalls involving undeclared allergens.",
+    "expectedRecallIds": [],
+    "expectedSource": "fda",
+    "notes": "Common FDA recall pattern."
+  },
+  {
+    "query": "children choking hazard",
+    "intent": "Find CPSC recalls involving small parts, toys, children, choking, or ingestion hazards.",
+    "expectedRecallIds": [],
+    "expectedSource": "cpsc",
+    "notes": "Common product safety recall pattern."
+  },
+  {
+    "query": "lithium battery overheating",
+    "intent": "Find electronics recalls involving lithium-ion batteries and overheating.",
+    "expectedRecallIds": [],
+    "expectedSource": null,
+    "notes": "Useful cross-source hazard query."
+  },
+  {
+    "query": "salmonella contamination",
+    "intent": "Find food, pet food, or supplement recalls involving salmonella.",
+    "expectedRecallIds": [],
+    "expectedSource": "fda",
+    "notes": "FDA contamination recall query."
+  },
+  {
+    "query": "fall hazard harness",
+    "intent": "Find product recalls involving harnesses and fall hazards.",
+    "expectedRecallIds": [],
+    "expectedSource": "cpsc",
+    "notes": "Should match CPSC climbing/work safety recall language."
+  },
+  {
+    "query": "low thiamine pet food",
+    "intent": "Find pet food recalls involving low vitamin B1 or thiamine.",
+    "expectedRecallIds": [],
+    "expectedSource": "fda",
+    "notes": "Based on migrated FDA pet food records."
+  },
+  {
+    "query": "infant product suffocation risk",
+    "intent": "Find recalls involving infant products and suffocation hazards.",
+    "expectedRecallIds": [],
+    "expectedSource": "cpsc",
+    "notes": "CPSC child safety query."
+  },
+  {
+    "query": "medical device sterility issue",
+    "intent": "Find FDA medical device recalls involving sterility or contamination issues.",
+    "expectedRecallIds": [],
+    "expectedSource": "fda",
+    "notes": "FDA medical device query."
+  },
+  {
+    "query": "electric shock hazard appliance",
+    "intent": "Find CPSC appliance recalls involving electrical shock.",
+    "expectedRecallIds": [],
+    "expectedSource": "cpsc",
+    "notes": "Product safety hazard query."
+  },
+  {
+    "query": "undeclared milk allergen",
+    "intent": "Find FDA recalls involving undeclared milk.",
+    "expectedRecallIds": [],
+    "expectedSource": "fda",
+    "notes": "Specific allergen query."
+  },
+  {
+    "query": "lead poisoning risk children",
+    "intent": "Find recalls involving lead exposure and children.",
+    "expectedRecallIds": [],
+    "expectedSource": "cpsc",
+    "notes": "Common CPSC hazard class."
+  },
+  {
+    "query": "possible listeria contamination",
+    "intent": "Find FDA food recalls involving Listeria.",
+    "expectedRecallIds": [],
+    "expectedSource": "fda",
+    "notes": "Food contamination query."
+  },
+  {
+    "query": "burn hazard portable heater",
+    "intent": "Find CPSC recalls involving heaters or burn hazards.",
+    "expectedRecallIds": [],
+    "expectedSource": "cpsc",
+    "notes": "Consumer product hazard query."
+  },
+  {
+    "query": "foreign material contamination",
+    "intent": "Find FDA food recalls involving foreign objects or material contamination.",
+    "expectedRecallIds": [],
+    "expectedSource": "fda",
+    "notes": "FDA contamination query."
+  },
+  {
+    "query": "tip over hazard furniture",
+    "intent": "Find CPSC furniture recalls involving tip-over risks.",
+    "expectedRecallIds": [],
+    "expectedSource": "cpsc",
+    "notes": "Product category and hazard query."
+  },
+  {
+    "query": "botulism risk canned food",
+    "intent": "Find FDA recalls involving botulism risks.",
+    "expectedRecallIds": [],
+    "expectedSource": "fda",
+    "notes": "Specific food safety query."
+  },
+  {
+    "query": "skin irritation chemical exposure",
+    "intent": "Find recalls involving skin irritation, chemicals, or exposure hazards.",
+    "expectedRecallIds": [],
+    "expectedSource": null,
+    "notes": "Cross-source hazard query."
+  }
+]

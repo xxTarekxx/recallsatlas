@@ -1,0 +1,336 @@
+.recallgraph-page {
+  width: min(1180px, calc(100% - 32px));
+  margin: 0 auto;
+  padding: 32px 0 56px;
+}
+
+.recallgraph-hero,
+.recallgraph-search-panel,
+.recallgraph-panel,
+.recallgraph-result,
+.recallgraph-related-item,
+.recallgraph-detail,
+.recallgraph-source-box,
+.recallgraph-empty {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+}
+
+.recallgraph-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 24px;
+  align-items: end;
+  padding: 28px;
+  margin-bottom: 22px;
+}
+
+.recallgraph-eyebrow {
+  display: inline-block;
+  color: var(--color-blue);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
+.recallgraph-hero h1,
+.recallgraph-section-heading h1,
+.recallgraph-detail h1 {
+  font-size: clamp(2rem, 4vw, 3.35rem);
+  max-width: 900px;
+}
+
+.recallgraph-hero p,
+.recallgraph-section-heading p,
+.recallgraph-lede {
+  color: var(--color-text-muted);
+  font-size: 1.05rem;
+  max-width: 820px;
+  margin-top: 10px;
+}
+
+.recallgraph-actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.recallgraph-actions a,
+.recallgraph-button,
+.recallgraph-demo-queries a {
+  border: 1px solid var(--color-border-strong);
+  border-radius: var(--radius-md);
+  color: var(--color-primary);
+  font-weight: 700;
+  padding: 10px 12px;
+  text-decoration: none;
+}
+
+.recallgraph-button {
+  background: var(--color-primary);
+  color: var(--color-white);
+  min-height: 46px;
+}
+
+.recallgraph-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 12px;
+  margin: 18px 0 24px;
+}
+
+.recallgraph-stat-card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: 16px;
+}
+
+.recallgraph-stat-card span {
+  color: var(--color-text-muted);
+  display: block;
+  font-size: 0.86rem;
+  font-weight: 700;
+}
+
+.recallgraph-stat-card strong {
+  color: var(--color-primary);
+  display: block;
+  font-size: 1.55rem;
+  line-height: 1.2;
+  margin-top: 4px;
+}
+
+.recallgraph-section-heading {
+  margin: 0 0 18px;
+}
+
+.recallgraph-search-panel {
+  padding: 18px;
+  margin-bottom: 22px;
+}
+
+.recallgraph-search-form {
+  display: grid;
+  grid-template-columns: minmax(260px, 2fr) repeat(3, minmax(140px, 1fr)) auto;
+  gap: 12px;
+  align-items: end;
+}
+
+.recallgraph-field {
+  display: grid;
+  gap: 6px;
+}
+
+.recallgraph-field span {
+  color: var(--color-text-muted);
+  font-size: 0.86rem;
+  font-weight: 700;
+}
+
+.recallgraph-field input,
+.recallgraph-field select {
+  border: 1px solid var(--color-border-strong);
+  border-radius: var(--radius-md);
+  min-height: 46px;
+  padding: 10px 12px;
+  width: 100%;
+}
+
+.recallgraph-demo-queries {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 14px;
+}
+
+.recallgraph-demo-queries a {
+  background: var(--color-blue-light);
+  color: var(--color-blue);
+  font-size: 0.9rem;
+  padding: 8px 10px;
+}
+
+.recallgraph-result-list,
+.recallgraph-related-list {
+  display: grid;
+  gap: 12px;
+}
+
+.recallgraph-result,
+.recallgraph-related-item {
+  padding: 18px;
+}
+
+.recallgraph-result h3,
+.recallgraph-related-item h3 {
+  font-size: 1.2rem;
+  margin: 8px 0 12px;
+}
+
+.recallgraph-result-meta {
+  color: var(--color-text-muted);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  font-size: 0.82rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.recallgraph-result-meta span {
+  background: var(--color-background);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  padding: 4px 7px;
+}
+
+.recallgraph-result-facts,
+.recallgraph-detail-facts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 10px;
+  margin: 12px 0;
+}
+
+.recallgraph-result-facts div,
+.recallgraph-detail-facts div {
+  border-left: 3px solid var(--color-blue);
+  padding-left: 10px;
+}
+
+.recallgraph-result-facts dt,
+.recallgraph-detail-facts dt {
+  color: var(--color-text-muted);
+  font-size: 0.78rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.recallgraph-result-facts dd,
+.recallgraph-detail-facts dd {
+  margin: 0;
+}
+
+.recallgraph-source-link {
+  display: inline-block;
+  font-weight: 700;
+  margin-top: 8px;
+}
+
+.recallgraph-dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 14px;
+}
+
+.recallgraph-panel {
+  padding: 18px;
+}
+
+.recallgraph-panel h2 {
+  font-size: 1.15rem;
+  margin-bottom: 12px;
+}
+
+.recallgraph-panel ol {
+  list-style: none;
+  padding: 0;
+}
+
+.recallgraph-panel li {
+  border-top: 1px solid var(--color-border);
+  display: flex;
+  gap: 12px;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.recallgraph-panel li:first-child {
+  border-top: 0;
+}
+
+.recallgraph-detail {
+  padding: 24px;
+  margin-bottom: 18px;
+}
+
+.recallgraph-image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  gap: 12px;
+  margin: 18px 0;
+}
+
+.recallgraph-image-grid img {
+  aspect-ratio: 4 / 3;
+  background: var(--color-background);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  object-fit: contain;
+  padding: 8px;
+  width: 100%;
+}
+
+.recallgraph-source-box,
+.recallgraph-empty {
+  padding: 18px;
+  margin-top: 16px;
+}
+
+.recallgraph-source-box a {
+  word-break: break-word;
+}
+
+.recallgraph-raw {
+  margin-top: 16px;
+}
+
+.recallgraph-raw pre,
+.recallgraph-report {
+  background: #111827;
+  border-radius: var(--radius-md);
+  color: var(--color-white);
+  overflow: auto;
+  padding: 14px;
+  white-space: pre-wrap;
+}
+
+.recallgraph-related-item p {
+  color: var(--color-text-muted);
+}
+
+@media (max-width: 900px) {
+  .recallgraph-hero {
+    grid-template-columns: 1fr;
+  }
+
+  .recallgraph-search-form {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .recallgraph-field--wide,
+  .recallgraph-button {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 640px) {
+  .recallgraph-page {
+    width: min(100% - 20px, 1180px);
+    padding-top: 20px;
+  }
+
+  .recallgraph-search-form {
+    grid-template-columns: 1fr;
+  }
+
+  .recallgraph-hero,
+  .recallgraph-detail {
+    padding: 18px;
+  }
+}

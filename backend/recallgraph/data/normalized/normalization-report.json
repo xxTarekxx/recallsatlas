@@ -1,0 +1,18 @@
+{
+  "generatedAt": "2026-06-19T21:57:57.239Z",
+  "startedAt": "2026-06-19T21:57:56.631Z",
+  "inputFiles": {
+    "fda": "C:\\Users\\perso\\recallsatlas\\backend\\recallgraph\\data\\imports\\dollarsandlife\\fda\\fda-recalls-en-eeat.json",
+    "general": "C:\\Users\\perso\\recallsatlas\\backend\\recallgraph\\data\\imports\\dollarsandlife\\general\\general-recalls-en-eeat.json"
+  },
+  "totalInputFdaRecords": 366,
+  "totalInputGeneralRecords": 753,
+  "totalOutputRecords": 1119,
+  "missingSourceUrls": 0,
+  "missingDates": 0,
+  "missingCompanyNames": 0,
+  "missingHazardsOrReasons": 0,
+  "duplicateSourceUrls": [],
+  "duplicateSlugs": [],
+  "examplesOfBadRecords": []
+}

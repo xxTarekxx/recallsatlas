@@ -15,7 +15,16 @@
     "restore-fda-seed-images": "node scripts/sync/restoreFdaSeedImages.js",
     "audit:recall-content": "node scripts/audit/recallContentAudit.js",
     "import-recalls-clean": "node scripts/sync/importCleanRecallCollections.js",
-    "import-recalls-clean:replace": "node scripts/sync/importCleanRecallCollections.js --replace"
+    "import-recalls-clean:replace": "node scripts/sync/importCleanRecallCollections.js --replace",
+    "recallgraph:normalize": "node recallgraph/src/scripts/normalize-recalls.js",
+    "recallgraph:db:up": "docker compose -p recallgraph -f ../docker-compose.recallgraph.yml up -d",
+    "recallgraph:db:migrate": "node recallgraph/src/scripts/db-migrate.js",
+    "recallgraph:db:status": "node recallgraph/src/scripts/db-status.js",
+    "recallgraph:import": "node recallgraph/src/scripts/import-normalized-to-postgres.js",
+    "recallgraph:embed": "node recallgraph/src/scripts/generate-embeddings.js",
+    "recallgraph:graph": "node recallgraph/src/scripts/build-related-recalls.js",
+    "recallgraph:evaluate": "node recallgraph/src/scripts/evaluate-search.js",
+    "recallgraph:build-all": "npm run recallgraph:normalize && npm run recallgraph:db:migrate && npm run recallgraph:import && npm run recallgraph:embed && npm run recallgraph:graph && npm run recallgraph:evaluate"
   },
   "dependencies": {
     "axios": "1.15.2",
@@ -25,6 +34,7 @@
     "fs-extra": "^11.3.4",
     "mongodb": "^6.10.0",
     "openai": "^6.35.0",
+    "pg": "^8.16.3",
     "playwright": "^1.59.1",
     "puppeteer": "^24.0.0",
     "sharp": "^0.34.5",

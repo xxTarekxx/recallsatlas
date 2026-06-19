@@ -5,6 +5,7 @@ import "../styles/globals.css";
 import "../styles/layout.css";
 import "../styles/recall.css";
 import "../styles/grid.css";
+import "../styles/recallgraph.css";
 import DocumentLang from "@/components/DocumentLang";
 import SiteNav from "@/components/SiteNav";
 import SiteBreadcrumbs from "@/components/SiteBreadcrumbs";
