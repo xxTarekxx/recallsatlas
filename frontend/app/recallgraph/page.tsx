@@ -19,6 +19,27 @@ export default async function RecallGraphHomePage() {
     getRecallGraphStats(),
     searchRecallGraph({ limit: 6 }),
   ]);
+  const embeddingCoverage = stats.totalRecalls
+    ? Math.round((stats.embeddingsCoverageCount / stats.totalRecalls) * 100)
+    : 0;
+  const sourceCounts = new Map(stats.recallsBySource.map((item) => [item.source, item.count]));
+  const fdaCount = sourceCounts.get("fda") ?? stats.totalFdaRecalls;
+  const cpscCount = sourceCounts.get("cpsc") ?? stats.totalCpscRecalls;
+  const latestRefresh = stats.latestIngestionOrImportTimestamp
+    ? new Intl.DateTimeFormat("en-US", { month: "short", day: "numeric", year: "numeric" }).format(
+        new Date(stats.latestIngestionOrImportTimestamp)
+      )
+    : "Not reported";
+  const rankingMode =
+    stats.databaseStatus === "ok" && stats.embeddingProvider === "openai"
+      ? "OpenAI embeddings + pgvector"
+      : `${stats.embeddingProvider} embeddings + ${stats.dataMode}`;
+  const searchExamples = [
+    "salmonella contamination",
+    "fire hazard from chargers",
+    "undeclared milk allergen",
+    "choking hazard in toys",
+  ];
   const pipeline = [
     "public recall data ingestion",
     "deterministic normalization",
@@ -53,19 +74,67 @@ export default async function RecallGraphHomePage() {
   return (
     <div className="recallgraph-page">
       <section className="recallgraph-hero">
-        <div>
-          <span className="recallgraph-eyebrow">AI recall intelligence</span>
-          <h1>RecallGraph: AI Recall Intelligence from Structured Public Safety Data</h1>
+        <div className="recallgraph-hero-copy">
+          <span className="recallgraph-eyebrow">RecallGraph semantic recall index</span>
+          <h1>Search FDA and CPSC recalls by hazard, product, or risk pattern.</h1>
           <p>
-            Search recalls by meaning, explore related hazards, analyze company and product
-            patterns, and inspect the data pipeline behind every result.
+            RecallGraph normalizes FDA and CPSC notices, embeds the canonical recall text, and
+            links related records so searches like overheating battery, undeclared allergen, or
+            toy choking hazard find the right safety context.
           </p>
+          <div className="recallgraph-hero-examples" aria-label="Example RecallGraph searches">
+            {searchExamples.map((query) => (
+              <Link key={query} href={`/recallgraph/search?q=${encodeURIComponent(query)}`}>
+                {query}
+              </Link>
+            ))}
+          </div>
+          <nav className="recallgraph-actions" aria-label="RecallGraph sections">
+            <Link className="recallgraph-action-primary" href="/recallgraph/search">Try Semantic Search</Link>
+            <Link href="/recallgraph/dashboard">View Data Dashboard</Link>
+            <Link href="/recallgraph/evaluation">See Search Evaluation</Link>
+          </nav>
         </div>
-        <nav className="recallgraph-actions" aria-label="RecallGraph sections">
-          <Link className="recallgraph-action-primary" href="/recallgraph/search">Try Semantic Search</Link>
-          <Link href="/recallgraph/dashboard">View Data Dashboard</Link>
-          <Link href="/recallgraph/evaluation">See Search Evaluation</Link>
-        </nav>
+        <aside className="recallgraph-hero-index" aria-label="Live RecallGraph index snapshot">
+          <div className="recallgraph-hero-index-header">
+            <span className="recallgraph-eyebrow">Live index snapshot</span>
+            <strong>{stats.dataMode}</strong>
+          </div>
+          <dl className="recallgraph-hero-index-grid">
+            <div>
+              <dt>Normalized recalls</dt>
+              <dd>{stats.totalRecalls.toLocaleString("en-US")}</dd>
+            </div>
+            <div>
+              <dt>Embedding coverage</dt>
+              <dd>{embeddingCoverage}%</dd>
+            </div>
+            <div>
+              <dt>Related links</dt>
+              <dd>{stats.relatedLinksCount.toLocaleString("en-US")}</dd>
+            </div>
+            <div>
+              <dt>Last refresh</dt>
+              <dd>{latestRefresh}</dd>
+            </div>
+          </dl>
+          <div className="recallgraph-hero-sources" aria-label="Indexed source counts">
+            <div>
+              <span>FDA</span>
+              <strong>{fdaCount.toLocaleString("en-US")}</strong>
+              <small>food, drugs, devices</small>
+            </div>
+            <div>
+              <span>CPSC</span>
+              <strong>{cpscCount.toLocaleString("en-US")}</strong>
+              <small>products, toys, electronics</small>
+            </div>
+          </div>
+          <p>
+            Ranking uses <strong>{rankingMode}</strong>; each result keeps its official source URL
+            for verification.
+          </p>
+        </aside>
       </section>
       <RuntimeStatus stats={stats} />
       <SearchBox />

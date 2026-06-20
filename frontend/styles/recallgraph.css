@@ -21,11 +21,35 @@
 
 .recallgraph-hero {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
-  gap: 24px;
-  align-items: end;
-  padding: 28px;
+  grid-template-columns: minmax(0, 1.15fr) minmax(320px, 420px);
+  gap: 30px;
+  align-items: stretch;
+  background:
+    linear-gradient(135deg, rgba(239, 246, 255, 0.96), rgba(255, 255, 255, 0.98) 48%, rgba(240, 253, 250, 0.92)),
+    var(--color-surface);
   margin-bottom: 22px;
+  overflow: hidden;
+  padding: 30px;
+  position: relative;
+}
+
+.recallgraph-hero::before {
+  background: linear-gradient(90deg, var(--color-blue), var(--color-safe), #f59e0b);
+  content: "";
+  height: 4px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.recallgraph-hero-copy {
+  align-content: center;
+  display: grid;
+  gap: 16px;
+  min-width: 0;
+  position: relative;
+  z-index: 1;
 }
 
 .recallgraph-eyebrow {
@@ -42,7 +66,12 @@
 .recallgraph-section-heading h1,
 .recallgraph-detail h1 {
   font-size: clamp(2rem, 4vw, 3.35rem);
-  max-width: 900px;
+  max-width: 760px;
+}
+
+.recallgraph-hero h1 {
+  font-size: clamp(2.05rem, 3.4vw, 3rem);
+  line-height: 1.08;
 }
 
 .recallgraph-hero p,
@@ -54,10 +83,134 @@
   margin-top: 10px;
 }
 
+.recallgraph-hero-copy p {
+  margin-top: 0;
+}
+
+.recallgraph-hero-examples {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.recallgraph-hero-examples a {
+  align-items: center;
+  background: rgba(255, 255, 255, 0.78);
+  border: 1px solid rgba(37, 99, 235, 0.18);
+  border-radius: var(--radius-full);
+  color: var(--color-primary);
+  display: inline-flex;
+  font-size: 0.84rem;
+  font-weight: 800;
+  min-height: 34px;
+  padding: 7px 11px;
+  text-decoration: none;
+}
+
+.recallgraph-hero-examples a:hover {
+  border-color: rgba(37, 99, 235, 0.36);
+  color: var(--color-blue);
+}
+
 .recallgraph-actions {
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
+}
+
+.recallgraph-hero-index {
+  border-left: 1px solid rgba(37, 99, 235, 0.18);
+  display: grid;
+  gap: 16px;
+  min-width: 0;
+  padding-left: 26px;
+  position: relative;
+  z-index: 1;
+}
+
+.recallgraph-hero-index-header {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.recallgraph-hero-index-header .recallgraph-eyebrow {
+  margin-bottom: 0;
+}
+
+.recallgraph-hero-index-header strong {
+  background: rgba(15, 23, 42, 0.08);
+  border: 1px solid rgba(15, 23, 42, 0.1);
+  border-radius: var(--radius-full);
+  color: var(--color-primary);
+  font-size: 0.74rem;
+  padding: 5px 9px;
+  text-transform: uppercase;
+}
+
+.recallgraph-hero-index-grid {
+  display: grid;
+  gap: 10px 16px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin: 0;
+}
+
+.recallgraph-hero-index-grid div,
+.recallgraph-hero-sources div {
+  border-top: 1px solid rgba(15, 23, 42, 0.12);
+  padding-top: 10px;
+}
+
+.recallgraph-hero-index-grid dt {
+  color: var(--color-text-muted);
+  font-size: 0.72rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.recallgraph-hero-index-grid dd {
+  color: var(--color-primary);
+  font-size: 1.35rem;
+  font-weight: 900;
+  line-height: 1.15;
+  margin: 3px 0 0;
+}
+
+.recallgraph-hero-sources {
+  display: grid;
+  gap: 10px;
+}
+
+.recallgraph-hero-sources div {
+  align-items: baseline;
+  display: grid;
+  gap: 8px;
+  grid-template-columns: auto auto minmax(0, 1fr);
+}
+
+.recallgraph-hero-sources span {
+  color: var(--color-blue);
+  font-size: 0.76rem;
+  font-weight: 900;
+}
+
+.recallgraph-hero-sources strong {
+  color: var(--color-primary);
+  font-size: 1rem;
+}
+
+.recallgraph-hero-sources small {
+  color: var(--color-text-muted);
+  font-weight: 700;
+}
+
+.recallgraph-hero-index p {
+  border-top: 1px solid rgba(15, 23, 42, 0.12);
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin: 0;
+  padding-top: 12px;
 }
 
 .recallgraph-actions a,
@@ -918,6 +1071,13 @@
     grid-template-columns: 1fr;
   }
 
+  .recallgraph-hero-index {
+    border-left: 0;
+    border-top: 1px solid rgba(37, 99, 235, 0.18);
+    padding-left: 0;
+    padding-top: 20px;
+  }
+
   .recallgraph-record-hero,
   .recallgraph-provenance,
   .recallgraph-record-grid,
@@ -953,6 +1113,10 @@
   .recallgraph-hero,
   .recallgraph-detail {
     padding: 18px;
+  }
+
+  .recallgraph-hero h1 {
+    font-size: 1.8rem;
   }
 
   .recallgraph-record-hero,
