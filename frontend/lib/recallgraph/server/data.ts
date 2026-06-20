@@ -2,6 +2,8 @@ import fs from "fs/promises";
 import path from "path";
 import type {
   RecallGraphEvaluationReport,
+  RecallGraphHealth,
+  RecallGraphPublicRecord,
   RecallGraphRecord,
   RecallGraphRelatedRecall,
   RecallGraphSearchParams,
@@ -45,9 +47,9 @@ function jaccard(a: string, b: string) {
   return overlap / (left.size + right.size - overlap);
 }
 
-function normalizeLimit(limit: number | undefined) {
-  const parsed = Number(limit || 10);
-  return Math.min(Math.max(Number.isFinite(parsed) ? parsed : 10, 1), 50);
+function normalizeLimit(limit: number | undefined, fallback = 10, max = 50) {
+  const parsed = Number(limit || fallback);
+  return Math.min(Math.max(Number.isFinite(parsed) ? parsed : fallback, 1), max);
 }
 
 async function loadNormalizedRecords() {
@@ -74,6 +76,13 @@ function toSearchResult(record: RecallGraphRecord, similarity = 0): RecallGraphS
     similarity,
     sourceUrl: record.sourceUrl,
   };
+}
+
+export function toPublicRecallGraphRecord(record: RecallGraphRecord): RecallGraphPublicRecord {
+  const { rawRecord, canonicalTextForEmbedding, ...safeRecord } = record;
+  void rawRecord;
+  void canonicalTextForEmbedding;
+  return safeRecord;
 }
 
 function rowToRecord(row: any): RecallGraphRecord {
@@ -424,6 +433,7 @@ export async function getRecallGraphRecallBySlug(slug: string) {
 }
 
 export async function getRecallGraphRelated(id: string, limit = 8): Promise<RecallGraphRelatedRecall[]> {
+  const safeLimit = normalizeLimit(limit, 8, 24);
   if (hasRecallGraphDatabase()) {
     try {
       const rows = await queryRecallGraph<any>(
@@ -438,7 +448,7 @@ export async function getRecallGraphRelated(id: string, limit = 8): Promise<Reca
           ORDER BY rr.score DESC
           LIMIT $2
         `,
-        [id, limit]
+        [id, safeLimit]
       );
       if (rows.length) {
         return rows.map((row) => ({
@@ -470,7 +480,7 @@ export async function getRecallGraphRelated(id: string, limit = 8): Promise<Reca
     })
     .filter(({ score }) => score >= 0.35)
     .sort((a, b) => b.score - a.score)
-    .slice(0, limit)
+    .slice(0, safeLimit)
     .map(({ record, score }) => ({
       ...toSearchResult(record, Number(score.toFixed(4))),
       linkType: score > 0.65 ? "same_company" : "semantic_related",
@@ -478,6 +488,42 @@ export async function getRecallGraphRelated(id: string, limit = 8): Promise<Reca
       reason: "Fallback match from shared company, hazard, product, or title text.",
       method: "normalized-json-fallback",
     }));
+}
+
+export async function getRecallGraphHealth(): Promise<RecallGraphHealth> {
+  if (!hasRecallGraphDatabase()) {
+    return {
+      ok: false,
+      database: "not_configured",
+      recallCount: 0,
+      embeddingCount: 0,
+      relatedLinkCount: 0,
+    };
+  }
+
+  try {
+    const [recalls, embeddings, related] = await Promise.all([
+      queryRecallGraph<{ count: number }>("SELECT count(*)::int AS count FROM recalls"),
+      queryRecallGraph<{ count: number }>("SELECT count(*)::int AS count FROM recall_embeddings"),
+      queryRecallGraph<{ count: number }>("SELECT count(*)::int AS count FROM related_recalls"),
+    ]);
+
+    return {
+      ok: true,
+      database: "ok",
+      recallCount: Number(recalls[0]?.count || 0),
+      embeddingCount: Number(embeddings[0]?.count || 0),
+      relatedLinkCount: Number(related[0]?.count || 0),
+    };
+  } catch {
+    return {
+      ok: false,
+      database: "error",
+      recallCount: 0,
+      embeddingCount: 0,
+      relatedLinkCount: 0,
+    };
+  }
 }
 
 export async function getRecallGraphEvaluation() {

@@ -4,7 +4,7 @@ const requireModule = createRequire(import.meta.url);
 let pool: any;
 
 function databaseUrl() {
-  return process.env.RECALLGRAPH_DATABASE_URL || process.env.DATABASE_URL || "";
+  return process.env.RECALLGRAPH_DATABASE_URL || "";
 }
 
 function loadPg() {

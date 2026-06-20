@@ -81,9 +81,20 @@ API routes:
 
 - `/api/recallgraph/search`
 - `/api/recallgraph/stats`
+- `/api/recallgraph/health`
 - `/api/recallgraph/recalls/[slug]`
 - `/api/recallgraph/related/[id]`
 - `/api/recallgraph/evaluation`
+
+## Production notes
+
+- Use `docker-compose.recallgraph.prod.yml` with `docker compose -p recallgraph-prod -f docker-compose.recallgraph.prod.yml up -d`.
+- Set `RECALLGRAPH_POSTGRES_PASSWORD` only in the VPS shell or a VPS-only env file before starting production Postgres.
+- The production Postgres bind is localhost-only: `127.0.0.1:54329:5432`.
+- Redis is not part of the production compose file because current RecallGraph scripts do not require it.
+- Copy `backend/recallgraph/.env.production.example` into the VPS environment as a reference, but do not commit real values.
+- Use `RECALLGRAPH_EMBEDDING_PROVIDER=openai` plus `OPENAI_API_KEY` for production/demo-quality semantic search.
+- Use `RECALLGRAPH_EMBEDDING_PROVIDER=mock` only for wiring tests; mock embeddings are deterministic but not semantically meaningful.
 
 ## Troubleshooting
 

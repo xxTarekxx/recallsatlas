@@ -5,5 +5,9 @@ export const dynamic = "force-dynamic";
 export const runtime = "nodejs";
 
 export async function GET() {
-  return NextResponse.json(await getRecallGraphStats());
+  try {
+    return NextResponse.json(await getRecallGraphStats());
+  } catch {
+    return NextResponse.json({ error: "RecallGraph stats unavailable" }, { status: 500 });
+  }
 }

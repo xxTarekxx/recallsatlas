@@ -33,6 +33,8 @@ export type RecallGraphRecord = {
   rawRecord?: unknown;
 };
 
+export type RecallGraphPublicRecord = Omit<RecallGraphRecord, "rawRecord" | "canonicalTextForEmbedding">;
+
 export type RecallGraphSearchParams = {
   q?: string;
   source?: string;
@@ -75,6 +77,14 @@ export type RecallGraphStats = {
   embeddingsCoverageCount: number;
   relatedLinksCount: number;
   dataMode: "postgres" | "normalized-json";
+};
+
+export type RecallGraphHealth = {
+  ok: boolean;
+  database: "ok" | "not_configured" | "error";
+  recallCount: number;
+  embeddingCount: number;
+  relatedLinkCount: number;
 };
 
 export type RecallGraphRelatedRecall = RecallGraphSearchResult & {

@@ -15,7 +15,7 @@ function getPg() {
 }
 
 function getDatabaseUrl() {
-  return process.env.RECALLGRAPH_DATABASE_URL || process.env.DATABASE_URL || "";
+  return process.env.RECALLGRAPH_DATABASE_URL || "";
 }
 
 function getPool() {
