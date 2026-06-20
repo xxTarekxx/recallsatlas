@@ -52,7 +52,7 @@ function normalizeCpscImages(record) {
 
 function normalizeGeneralRecall(record, normalizedAt) {
   const rawHash = hashJson(record);
-  const sourceRecordId = firstNonEmpty(record.RecallID, record.RecallNumber, record.id);
+  const sourceRecordId = firstNonEmpty(record.sourceRecordId, record.RecallID, record.RecallNumber, record.id, record.sourceHash);
   const products = pluckStrings(record.Products, ["Name", "Description", "Model", "Type"]);
   const productName = firstNonEmpty(...pluckStrings(record.Products, ["Name"]));
   const productDescription = firstNonEmpty(...products);

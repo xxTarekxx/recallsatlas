@@ -66,9 +66,16 @@ function normalizeFdaImages(record) {
 
 function normalizeFdaRecall(record, normalizedAt) {
   const rawHash = hashJson(record);
-  const sourceRecordId = firstNonEmpty(record.id, record._id, record.sourceUrl, record.canonicalUrl);
+  const sourceRecordId = firstNonEmpty(
+    record.sourceRecordId,
+    record.id,
+    record._id,
+    record.sourceUrl,
+    record.canonicalUrl,
+    record.sourceHash
+  );
   const title = firstNonEmpty(record.headline, record.title, record.subtitle, record.description, record.productDescription);
-  const description = firstNonEmpty(record.description, contentText(record.content), record.reason);
+  const description = firstNonEmpty(record.description, record.announcementText, record.rawAnnouncement, contentText(record.content), record.reason);
   const companyName = firstNonEmpty(record.companyName);
   const brandName = firstNonEmpty(record.brandName, ...valueArray(record.brandNames));
   const productDescription = firstNonEmpty(record.productDescription, record.label, record.productName);

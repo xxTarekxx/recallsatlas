@@ -1,11 +1,12 @@
 # RecallGraph MVP
 
-RecallGraph is the new modular AI/data layer inside RecallsAtlas. It does not rename the project, remove the existing MongoDB flow, change production deployment, or modify DollarsAndLife.
+RecallGraph is the new modular AI/data layer inside RecallsAtlas. It does not rename the project, remove the existing MongoDB flow, or change production deployment.
 
 ## Architecture
 
 ```text
-DollarsAndLife JSON copies
+raw source ingest
+  -> raw JSON files
   -> deterministic normalizers
   -> normalized canonical JSON
   -> Postgres plus pgvector
@@ -15,17 +16,18 @@ DollarsAndLife JSON copies
   -> /recallgraph dashboard, search, detail, evaluation pages
 ```
 
-Raw/source data, normalized records, embeddings, graph links, and evaluation output are intentionally separate. Scrapers and fetchers should collect factual source data only. AI enrichment and embeddings are separate jobs.
+Raw/source data, normalized records, embeddings, graph links, and evaluation output are intentionally separate. Scrapers and fetchers collect factual source data only. Embeddings, graph/evaluation, and any future enrichment are separate later stages.
 
 ## Data flow
 
-- Imports: `backend/recallgraph/data/imports/dollarsandlife`
-- Raw storage convention: `backend/recallgraph/data/raw`
+- Raw FDA output: `backend/recallgraph/data/raw/fda/fda-raw-latest.json`
+- Raw CPSC output: `backend/recallgraph/data/raw/cpsc/cpsc-raw-latest.json`
+- Legacy baseline imports: `backend/recallgraph/data/imports`
 - Normalized output: `backend/recallgraph/data/normalized/recalls.normalized.json`
 - Normalization report: `backend/recallgraph/data/normalized/normalization-report.json`
 - Evaluation queries and reports: `backend/recallgraph/data/evaluation`
 
-The MVP copies 366 FDA records and 753 CPSC/general product recall records from DollarsAndLife. DollarsAndLife remains read-only.
+The current baseline has 366 FDA records and 753 CPSC/general product recall records. New source pulls should use the raw ingest commands below and should not write over the old enriched frontend data files.
 
 ## Environment
 
@@ -51,6 +53,10 @@ The default embedding provider is deterministic `mock`, which keeps development 
 Run from `C:\Users\perso\recallsatlas\backend`:
 
 ```powershell
+npm run recallgraph:assert:raw-clean
+npm run recallgraph:ingest:fda -- --limit=10 --dry-run
+npm run recallgraph:ingest:cpsc -- --limit=10 --dry-run
+npm run recallgraph:ingest:raw
 npm run recallgraph:normalize
 npm run recallgraph:db:up
 $env:RECALLGRAPH_DATABASE_URL="postgres://recallgraph:recallgraph_dev_password@localhost:54329/recallgraph"
@@ -85,6 +91,21 @@ API routes:
 - `/api/recallgraph/recalls/[slug]`
 - `/api/recallgraph/related/[id]`
 - `/api/recallgraph/evaluation`
+
+## Raw ingest commands
+
+- FDA raw ingest: `npm run recallgraph:ingest:fda`
+- CPSC raw ingest: `npm run recallgraph:ingest:cpsc`
+- Both raw ingest jobs: `npm run recallgraph:ingest:raw`
+- Dry-run FDA sample: `npm run recallgraph:ingest:fda -- --limit=2 --dry-run`
+- Dry-run CPSC sample: `npm run recallgraph:ingest:cpsc -- --limit=2 --dry-run`
+
+The compatibility scripts remain:
+
+- `backend/fdaRecalls/scripts/scrape/scrapeRecalls.js`
+- `backend/generalRecalls/scripts/fetch/fetchGeneralRecalls.js`
+
+Those scripts are raw-only entrypoints. They do not generate article copy, SEO fields, localized output, or generated summaries.
 
 ## Production notes
 

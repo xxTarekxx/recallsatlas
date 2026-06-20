@@ -5,7 +5,7 @@ Date: 2026-06-19
 ## Implemented
 
 - Created the RecallGraph module under `backend/recallgraph`.
-- Copied DollarsAndLife recall JSON into RecallsAtlas migration/import folders.
+- Added legacy baseline recall JSON into RecallsAtlas migration/import folders.
 - Added deterministic FDA and CPSC/general normalizers with no OpenAI calls.
 - Generated normalized canonical JSON and a normalization quality report.
 - Added Postgres plus pgvector schema and Docker Compose services.
@@ -16,16 +16,19 @@ Date: 2026-06-19
 - Added `/recallgraph` frontend routes, API routes, server helpers, and compact UI components.
 - Repositioned RecallGraph as the AI recall intelligence layer: semantic recall search, related recall graph, data dashboard, evaluation reporting, and transparent pipeline pages.
 - Added runtime-mode reporting so production can distinguish Postgres/vector mode, static fallback mode, mock embeddings, and missing database configuration without exposing secrets.
+- Refactored the legacy FDA and CPSC/general main ingestion scripts into raw-source RecallGraph entrypoints.
+- Added raw FDA/CPSC output locations under `backend/recallgraph/data/raw`.
+- Added `recallgraph:assert:raw-clean` to keep the raw ingestion boundary free of AI/editorial behavior.
 - Added docs, environment example, import manifest, and this implementation note.
 
 ## Intentionally not changed
 
 - Existing MongoDB flow remains in place.
-- Existing FDA/CPSC scraper OpenAI code remains in place.
+- Existing FDA/CPSC main scraper entrypoints remain in place, but now run raw-source ingestion only.
 - Existing production deployment remains untouched.
 - VPS-level Docker/Postgres installation remains unapproved and has not been attempted.
 - RecallsAtlas has not been globally renamed.
-- DollarsAndLife was used only as a read-only migration source.
+- External related repos are not part of the active RecallGraph pipeline.
 
 ## Main commands
 
@@ -131,11 +134,9 @@ Frontend verification:
   - `lithium battery overheating`: 10 results
   - `salmonella contamination`: 10 results
 
-Read-only related project check:
+Related repository note:
 
-- Ran `git status` in `C:\Users\perso\dollarsandlife`.
-- DollarsAndLife was not modified.
-- Its only observed status entry was unrelated untracked `.codex-remote-attachments/`, which was left alone.
+- This cleanup phase does not use or inspect external related repos.
 
 Remaining blocked or skipped items:
 
@@ -147,6 +148,33 @@ Remaining blocked or skipped items:
 
 1. Review search results and populate expected recall IDs in the evaluation query set.
 2. Add real semantic embeddings when ready, either OpenAI or a local model, and compare results against the mock/keyword baseline.
-3. Split the live FDA and CPSC scrapers into raw-ingest and AI-enrichment jobs.
-4. Decide whether DollarsAndLife should consume RecallGraph exports or remove its duplicated recall pipeline.
+3. Decide whether legacy Mongo/static recall maintenance scripts should be archived after RecallGraph DB production is approved.
+4. Add real semantic embeddings after selecting managed Postgres/pgvector.
 5. Plan staging VPS deployment without changing production RecallsAtlas yet.
+
+## Raw ingestion cleanup
+
+Cleanup date: 2026-06-20
+
+The main FDA and CPSC/general product scripts were retained as compatibility entrypoints:
+
+- `backend/fdaRecalls/scripts/scrape/scrapeRecalls.js`
+- `backend/generalRecalls/scripts/fetch/fetchGeneralRecalls.js`
+
+They now call:
+
+- `backend/recallgraph/src/ingest/fda/scrapeFdaRaw.js`
+- `backend/recallgraph/src/ingest/cpsc/fetchCpscRaw.js`
+
+Raw output defaults:
+
+- `backend/recallgraph/data/raw/fda/fda-raw-latest.json`
+- `backend/recallgraph/data/raw/cpsc/cpsc-raw-latest.json`
+
+The deterministic normalizer keeps the current 1,119-record baseline and also reads the new raw latest files when present. Duplicate source URLs or source record IDs are skipped so future raw pulls can overlap the baseline safely.
+
+The old FDA standalone localization script was removed:
+
+- `backend/fdaRecalls/scripts/translate/recallTranslate.js`
+
+Legacy Mongo/static scripts, current `/recalls` and `/general-recalls` data files, and the Lucene skeleton were left for phase 2 decisions.
