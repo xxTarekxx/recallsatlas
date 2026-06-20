@@ -172,9 +172,11 @@ export default function HomePageContent({
                 </div>
               </div>
               <div className="home-ai-network" aria-hidden="true">
-                <span className="home-ai-line home-ai-line--1" />
-                <span className="home-ai-line home-ai-line--2" />
-                <span className="home-ai-line home-ai-line--3" />
+                <svg className="home-ai-network-lines" viewBox="0 0 100 100" preserveAspectRatio="none">
+                  <line x1="50" y1="50" x2="21" y2="29" />
+                  <line x1="50" y1="50" x2="82" y2="36" />
+                  <line x1="50" y1="50" x2="69" y2="72" />
+                </svg>
                 <span className="home-ai-node home-ai-node--center">risk</span>
                 <span className="home-ai-node home-ai-node--top">charger</span>
                 <span className="home-ai-node home-ai-node--right">toy</span>
