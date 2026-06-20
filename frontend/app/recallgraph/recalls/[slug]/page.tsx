@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
+import Link from "next/link";
 import RelatedRecalls from "@/components/recallgraph/RelatedRecalls";
 import {
   getRecallGraphHealth,
@@ -20,6 +21,21 @@ function formatDate(value: string | null) {
   );
 }
 
+function sourceLabel(source: string) {
+  if (source === "fda") return "FDA";
+  if (source === "cpsc") return "CPSC";
+  if (source === "nhtsa") return "NHTSA";
+  return source.toUpperCase();
+}
+
+function cleanList(values: Array<string | null | undefined>) {
+  return values.filter((value): value is string => Boolean(value && value.trim()));
+}
+
+function statusText(value: string) {
+  return value.replace(/_/g, " ");
+}
+
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { slug } = await params;
   const recall = await getRecallGraphRecallBySlug(slug);
@@ -37,65 +53,144 @@ export default async function RecallGraphDetailPage({ params }: PageProps) {
   if (!recall) notFound();
   const [related, health] = await Promise.all([getRecallGraphRelated(recall.id), getRecallGraphHealth()]);
   const embeddingCoverage = health.embeddingCount > 0 ? "available in configured database" : "not available in this runtime";
+  const recallDate = formatDate(recall.recallDate || recall.publishedAt);
+  const normalizedAt = recall.normalizedAt ? formatDate(recall.normalizedAt) : "Unknown";
+  const hazardText = recall.hazards.length ? recall.hazards.join("; ") : "Not specified";
+  const actionText = recall.consumerAction || recall.remedy || "Review the official source before taking action.";
+  const productText = recall.productName || recall.productDescription || "Not specified";
+  const categoryText = recall.productType || recall.category || "Not specified";
+  const brandCompany = cleanList([recall.brandName, recall.companyName]).join(" / ") || "Not specified";
+  const runtimeLabel = health.database === "ok" ? "Database-backed" : "Fallback mode";
 
   return (
     <div className="recallgraph-page">
-      <article className="recallgraph-detail">
-        <div className="recallgraph-result-meta">
-          <span>{recall.source.toUpperCase()}</span>
-          <span>{formatDate(recall.recallDate || recall.publishedAt)}</span>
-          <span>{recall.category || "uncategorized"}</span>
-        </div>
-        <h1>{recall.title}</h1>
-        <p className="recallgraph-lede">{recall.description}</p>
-        <div className="recallgraph-source-box recallgraph-source-box--inline">
-          <span className="recallgraph-eyebrow">Source-backed facts</span>
-          <p>
-            This page separates source-backed recall facts from AI ranking and related-recall
-            discovery. Always verify action details with the original source.
-          </p>
-        </div>
-        <dl className="recallgraph-detail-facts">
-          <div>
-            <dt>Company</dt>
-            <dd>{recall.companyName || "Unknown"}</dd>
+      <article className="recallgraph-record">
+        <header className="recallgraph-record-hero">
+          <div className="recallgraph-record-title">
+            <div className="recallgraph-result-meta">
+              <span>{sourceLabel(recall.source)}</span>
+              <span>{recallDate}</span>
+              <span>{recall.category || "uncategorized"}</span>
+            </div>
+            <h1>{recall.title}</h1>
+            <p className="recallgraph-lede">{recall.description}</p>
+            <div className="recallgraph-record-actions" aria-label="Recall actions">
+              {recall.sourceUrl ? (
+                <a className="recallgraph-action-primary" href={recall.sourceUrl} target="_blank" rel="noopener noreferrer">
+                  Official source
+                </a>
+              ) : null}
+              <Link href={`/recallgraph/search?q=${encodeURIComponent(recall.title)}`}>Search similar recalls</Link>
+              <Link href="/recallgraph">RecallGraph overview</Link>
+            </div>
           </div>
-          <div>
-            <dt>Brand</dt>
-            <dd>{recall.brandName || "Not specified"}</dd>
+          <aside className="recallgraph-record-status" aria-label="RecallGraph runtime status">
+            <span className="recallgraph-eyebrow">{runtimeLabel}</span>
+            <dl>
+              <div>
+                <dt>Database</dt>
+                <dd>{statusText(health.database)}</dd>
+              </div>
+              <div>
+                <dt>Embeddings</dt>
+                <dd>{health.embeddingProvider}</dd>
+              </div>
+              <div>
+                <dt>Related links</dt>
+                <dd>{related.length}</dd>
+              </div>
+            </dl>
+          </aside>
+        </header>
+
+        <section className="recallgraph-record-grid" aria-label="Recall summary">
+          <div className="recallgraph-record-panel recallgraph-record-panel--alert">
+            <span className="recallgraph-eyebrow">Primary concern</span>
+            <h2>Hazard or reason</h2>
+            <p>{hazardText}</p>
           </div>
-          <div>
-            <dt>Product</dt>
-            <dd>{recall.productName || recall.productDescription || "Not specified"}</dd>
+          <div className="recallgraph-record-panel recallgraph-record-panel--safe">
+            <span className="recallgraph-eyebrow">Recommended next step</span>
+            <h2>Consumer action</h2>
+            <p>{actionText}</p>
           </div>
-          <div>
-            <dt>Product / category</dt>
-            <dd>{recall.productType || recall.category || "Not specified"}</dd>
+        </section>
+
+        <section className="recallgraph-record-details" aria-label="Affected product details">
+          <div className="recallgraph-section-heading">
+            <span className="recallgraph-eyebrow">Affected product</span>
+            <h2>What this record says</h2>
           </div>
-          <div>
-            <dt>Hazard or reason</dt>
-            <dd>{recall.hazards.length ? recall.hazards.join("; ") : "Not specified"}</dd>
-          </div>
-          <div>
-            <dt>Remedy or consumer action</dt>
-            <dd>{recall.consumerAction || recall.remedy || "See the official source."}</dd>
-          </div>
-        </dl>
+          <dl className="recallgraph-detail-facts">
+            <div>
+              <dt>Company / brand</dt>
+              <dd>{brandCompany}</dd>
+            </div>
+            <div>
+              <dt>Product</dt>
+              <dd>{productText}</dd>
+            </div>
+            <div>
+              <dt>Product / category</dt>
+              <dd>{categoryText}</dd>
+            </div>
+            <div>
+              <dt>Source record ID</dt>
+              <dd>{recall.sourceRecordId || recall.id}</dd>
+            </div>
+          </dl>
+        </section>
+
         {recall.images.length ? (
-          <div className="recallgraph-image-grid">
-            {recall.images.slice(0, 4).map((image) => (
-              <img key={image.url} src={image.url} alt={image.alt || recall.title} />
-            ))}
-          </div>
+          <section className="recallgraph-record-media" aria-label="Recall images">
+            <div className="recallgraph-section-heading">
+              <span className="recallgraph-eyebrow">Product images</span>
+              <h2>Source imagery</h2>
+            </div>
+            <div className="recallgraph-image-grid">
+              {recall.images.slice(0, 4).map((image) => (
+                <figure key={image.url}>
+                  <img src={image.url} alt={image.alt || recall.title} />
+                  <figcaption>{image.alt || "Recall source image"}</figcaption>
+                </figure>
+              ))}
+            </div>
+          </section>
         ) : null}
-        <div className="recallgraph-source-box">
-          <h2>Official source</h2>
-          {recall.sourceUrl ? <a href={recall.sourceUrl}>{recall.sourceUrl}</a> : <p>No source URL recorded.</p>}
-          <p>
-            RecallGraph stores source-backed facts separately from AI enrichment. This page is not
-            official safety advice; always verify details with the original source.
-          </p>
-        </div>
+
+        <section className="recallgraph-provenance" aria-label="Source and AI metadata">
+          <div className="recallgraph-provenance-copy">
+            <span className="recallgraph-eyebrow">Source-backed facts</span>
+            <h2>Provenance and AI use</h2>
+            <p>
+              RecallGraph keeps source facts, vector ranking, and related-recall discovery separate.
+              Use this page for discovery, then verify instructions with the original source.
+            </p>
+          </div>
+          <dl>
+            <div>
+              <dt>Official source</dt>
+              <dd>
+                {recall.sourceUrl ? (
+                  <a href={recall.sourceUrl} target="_blank" rel="noopener noreferrer">
+                    View original notice
+                  </a>
+                ) : (
+                  "No source URL recorded"
+                )}
+              </dd>
+            </div>
+            <div>
+              <dt>Normalized</dt>
+              <dd>{normalizedAt}</dd>
+            </div>
+            <div>
+              <dt>Embedding coverage</dt>
+              <dd>{embeddingCoverage}</dd>
+            </div>
+          </dl>
+        </section>
+
         <details className="recallgraph-raw">
           <summary>Technical metadata</summary>
           <pre>{JSON.stringify({
