@@ -23,6 +23,14 @@ const semanticExamples = [
   "choking hazard in toys",
 ];
 
+const pipelineSteps = [
+  "Raw public data",
+  "normalization",
+  "embeddings",
+  "pgvector search",
+  "related recall graph",
+];
+
 export default function HomePageContent({
   lang,
   recallsCountText,
@@ -40,84 +48,140 @@ export default function HomePageContent({
     <div className="homepage">
       <section className="home-hero" aria-labelledby="hero-heading">
         <div className="home-hero-inner" dir={heroDir} lang={lang}>
-          <div className="home-hero-badges">
-            {semanticBadges.map((badge, index) => (
-              <div className="home-hero-badge" key={badge}>
-                <span
-                  className={`home-hero-badge-dot home-hero-badge-dot--${index + 1}`}
-                  aria-hidden="true"
-                />
-                {badge}
+          <div className="home-hero-grid">
+            <div className="home-hero-copy">
+              <div className="home-hero-badges">
+                {semanticBadges.map((badge, index) => (
+                  <div className="home-hero-badge" key={badge}>
+                    <span
+                      className={`home-hero-badge-dot home-hero-badge-dot--${index + 1}`}
+                      aria-hidden="true"
+                    />
+                    {badge}
+                  </div>
+                ))}
               </div>
-            ))}
+
+              <h1 id="hero-heading" className="home-hero-title">
+                AI Semantic Search for Public Recall Data
+              </h1>
+
+              <p className="home-hero-subtitle">
+                Find related recalls by hazard pattern, product type, company, ingredient,
+                failure mode, or consumer risk, even when the exact words do not match.
+              </p>
+
+              <form
+                className="home-hero-search"
+                action={recallGraphSearchHref}
+                method="get"
+                role="search"
+                aria-label="Search RecallGraph semantic recall data"
+              >
+                <label htmlFor="home-recallgraph-query" className="sr-only">
+                  Search public recall data by meaning, hazard pattern, product type, company, or
+                  risk
+                </label>
+                <input
+                  id="home-recallgraph-query"
+                  type="search"
+                  name="q"
+                  className="home-hero-search-input"
+                  placeholder="Try: battery overheating in children's products"
+                  autoComplete="off"
+                  dir="auto"
+                />
+                <button type="submit" className="home-hero-search-btn">
+                  Search by Meaning
+                </button>
+              </form>
+
+              <div className="home-semantic-examples" aria-label="Example semantic searches">
+                {semanticExamples.map((query) => (
+                  <Link
+                    key={query}
+                    href={`${recallGraphSearchHref}?q=${encodeURIComponent(query)}`}
+                  >
+                    {query}
+                  </Link>
+                ))}
+              </div>
+
+              <div className="home-pipeline-strip" aria-label="RecallGraph data pipeline">
+                {pipelineSteps.map((step, index) => (
+                  <span className="home-pipeline-step" key={step}>
+                    {step}
+                    {index < pipelineSteps.length - 1 ? (
+                      <span className="home-pipeline-arrow" aria-hidden="true">
+                        -&gt;
+                      </span>
+                    ) : null}
+                  </span>
+                ))}
+              </div>
+
+              <p className="home-semantic-note">
+                {semanticSearchReady
+                  ? "Semantic search powered by embeddings and pgvector."
+                  : "Semantic-search infrastructure is live. Production vector ranking activates when the pgvector database is connected."}
+              </p>
+
+              <div className="home-hero-quick">
+                <Link className="home-hero-quick-link" href={recallGraphSearchHref}>
+                  Semantic search
+                </Link>
+                <Link className="home-hero-quick-link" href="/recallgraph/dashboard">
+                  Data dashboard
+                </Link>
+                <Link className="home-hero-quick-link" href={recallsAction}>
+                  {t.heroQuickFda}
+                </Link>
+                <Link className="home-hero-quick-link" href={carsHref}>
+                  {t.heroQuickVehicle}
+                </Link>
+                <Link className="home-hero-quick-link" href={generalHref}>
+                  {t.heroQuickGeneral}
+                </Link>
+              </div>
+            </div>
+
+            <div className="home-ai-panel" aria-label="RecallGraph semantic search preview">
+              <div className="home-ai-panel-header">
+                <span className="home-ai-panel-kicker">semantic query console</span>
+                <span className="home-ai-panel-status">live pipeline</span>
+              </div>
+              <div className="home-ai-query">
+                <span>Query</span>
+                <strong>battery overheating in children's products</strong>
+              </div>
+              <div className="home-ai-matches" aria-label="Meaning match result rows">
+                <div className="home-ai-result-row home-ai-result-row--active">
+                  <span>Meaning match</span>
+                  <strong>hazard pattern match</strong>
+                  <p>Thermal runaway, overheating, burn risk, chargers, toys.</p>
+                </div>
+                <div className="home-ai-result-row">
+                  <span>embedding search</span>
+                  <strong>related recall graph</strong>
+                  <p>Finds neighboring recalls that share products, hazards, and remedies.</p>
+                </div>
+                <div className="home-ai-result-row">
+                  <span>source-backed results</span>
+                  <strong>public recall details</strong>
+                  <p>Each result links back to the public source record for verification.</p>
+                </div>
+              </div>
+              <div className="home-ai-network" aria-hidden="true">
+                <span className="home-ai-line home-ai-line--1" />
+                <span className="home-ai-line home-ai-line--2" />
+                <span className="home-ai-line home-ai-line--3" />
+                <span className="home-ai-node home-ai-node--center">risk</span>
+                <span className="home-ai-node home-ai-node--top">charger</span>
+                <span className="home-ai-node home-ai-node--right">toy</span>
+                <span className="home-ai-node home-ai-node--bottom">burn</span>
+              </div>
+            </div>
           </div>
-
-          <h1 id="hero-heading" className="home-hero-title">
-            RecallGraph AI
-            <br />
-            <span>Semantic Search</span>
-          </h1>
-
-          <p className="home-hero-subtitle">
-            Search public recall data by meaning, hazard pattern, product type, company, or
-            consumer risk, then explore related recalls, trends, and source-backed details.
-          </p>
-
-          <div className="home-hero-quick">
-            <Link className="home-hero-quick-link" href={recallGraphSearchHref}>
-              Semantic search
-            </Link>
-            <Link className="home-hero-quick-link" href="/recallgraph/dashboard">
-              Data dashboard
-            </Link>
-            <Link className="home-hero-quick-link" href={recallsAction}>
-              {t.heroQuickFda}
-            </Link>
-            <Link className="home-hero-quick-link" href={carsHref}>
-              {t.heroQuickVehicle}
-            </Link>
-            <Link className="home-hero-quick-link" href={generalHref}>
-              {t.heroQuickGeneral}
-            </Link>
-          </div>
-
-          <form
-            className="home-hero-search"
-            action={recallGraphSearchHref}
-            method="get"
-            role="search"
-            aria-label="Search RecallGraph semantic recall data"
-          >
-            <label htmlFor="home-recallgraph-query" className="sr-only">
-              Search public recall data by meaning, hazard pattern, product type, company, or risk
-            </label>
-            <input
-              id="home-recallgraph-query"
-              type="search"
-              name="q"
-              className="home-hero-search-input"
-              placeholder="Search by meaning: battery overheating in kids toys..."
-              autoComplete="off"
-              dir="auto"
-            />
-            <button type="submit" className="home-hero-search-btn">
-              Search RecallGraph
-            </button>
-          </form>
-
-          <div className="home-semantic-examples" aria-label="Example semantic searches">
-            {semanticExamples.map((query) => (
-              <Link key={query} href={`${recallGraphSearchHref}?q=${encodeURIComponent(query)}`}>
-                {query}
-              </Link>
-            ))}
-          </div>
-
-          <p className="home-semantic-note">
-            {semanticSearchReady
-              ? "Semantic ranking is connected for this environment; fallback search remains available for reliability."
-              : "RecallGraph is designed for semantic search with embeddings and vector ranking. The interface is live; fallback search remains available for reliability while production vector ranking is pending."}
-          </p>
 
           <div className="home-stats" aria-label="Site statistics">
             <div className="home-stat">
@@ -145,7 +209,7 @@ export default function HomePageContent({
           Browse by source
         </p>
         <h2 id="categories-heading" className="home-section-title">
-          Start with RecallGraph, or browse a source directly
+          Browse the source data
         </h2>
 
         <div className="home-category-grid">
@@ -157,7 +221,7 @@ export default function HomePageContent({
             <span className="home-category-icon home-category-icon--ai" aria-hidden="true">
               AI
             </span>
-            <h3>RecallGraph AI Intelligence</h3>
+            <h3>RecallGraph Intelligence</h3>
             <p>
               Search recalls by meaning, inspect related hazard patterns, and review the
               structured public data pipeline behind the results.

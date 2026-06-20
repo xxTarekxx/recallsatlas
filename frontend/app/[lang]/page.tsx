@@ -18,9 +18,9 @@ export async function generateMetadata({
   const lang = langParam as SiteUiLang;
   const canonical = `${siteUrl}/${lang}`;
   return {
-    title: "RecallGraph AI Recall Intelligence Platform | Semantic Recall Search",
+    title: "RecallGraph AI Semantic Recall Search | Public Recall Data Analysis",
     description:
-      "Search public recall data by meaning, hazard pattern, product type, company, and consumer risk with RecallGraph AI semantic search and source-backed recall details.",
+      "Use AI recall intelligence to search public recall data by meaning, analyze related recall graph patterns, and inspect source-backed recall details.",
     alternates: { canonical },
     openGraph: { url: canonical },
   };
@@ -29,7 +29,7 @@ export async function generateMetadata({
 async function getSemanticSearchReady() {
   try {
     const health = await getRecallGraphHealth();
-    return health.database === "ok" && health.embeddingProvider === "openai" && health.embeddingCount > 0;
+    return health.database === "ok" && health.embeddingCount > 0;
   } catch {
     return false;
   }

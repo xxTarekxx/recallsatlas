@@ -7,14 +7,14 @@ import type { Metadata } from "next";
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.recallsatlas.com";
 
 export const metadata: Metadata = {
-  title: "RecallGraph AI Recall Intelligence Platform | Semantic Recall Search",
+  title: "RecallGraph AI Semantic Recall Search | Public Recall Data Analysis",
   description:
-    "Search public recall data by meaning, hazard pattern, product type, company, and consumer risk with RecallGraph AI semantic search and source-backed recall details.",
+    "Use AI recall intelligence to search public recall data by meaning, analyze related recall graph patterns, and inspect source-backed recall details.",
   alternates: { canonical: siteUrl },
   openGraph: {
-    title: "RecallGraph AI Recall Intelligence Platform",
+    title: "RecallGraph AI Semantic Recall Search",
     description:
-      "Semantic recall search, related recall graph exploration, and public recall data analysis from structured FDA, NHTSA, and CPSC data.",
+      "AI recall intelligence, semantic recall search, related recall graph exploration, and public recall data analysis.",
     url: siteUrl,
     siteName: "Recalls Atlas",
     type: "website",
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
 async function getSemanticSearchReady() {
   try {
     const health = await getRecallGraphHealth();
-    return health.database === "ok" && health.embeddingProvider === "openai" && health.embeddingCount > 0;
+    return health.database === "ok" && health.embeddingCount > 0;
   } catch {
     return false;
   }
