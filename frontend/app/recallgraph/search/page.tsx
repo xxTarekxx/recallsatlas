@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import RuntimeStatus from "@/components/recallgraph/RuntimeStatus";
 import SearchBox from "@/components/recallgraph/SearchBox";
 import SearchResults from "@/components/recallgraph/SearchResults";
-import { getRecallGraphStats, searchRecallGraph } from "@/lib/recallgraph/server/data";
+import { getRecallGraphStats } from "@/lib/recallgraph/server/data";
 
 export const metadata: Metadata = {
   title: "Semantic Recall Search | RecallGraph",
@@ -25,18 +25,7 @@ type PageProps = {
 
 export default async function RecallGraphSearchPage({ searchParams }: PageProps) {
   const params = await searchParams;
-  const [stats, results] = await Promise.all([
-    getRecallGraphStats(),
-    searchRecallGraph({
-      q: params.q,
-      source: params.source,
-      category: params.category,
-      company: params.company,
-      from: params.from,
-      to: params.to,
-      limit: 20,
-    }),
-  ]);
+  const stats = await getRecallGraphStats();
 
   return (
     <div className="recallgraph-page">
@@ -55,7 +44,14 @@ export default async function RecallGraphSearchPage({ searchParams }: PageProps)
         initialCategory={params.category}
         initialCompany={params.company}
       />
-      <SearchResults query={params.q} results={results} />
+      <SearchResults
+        query={params.q}
+        source={params.source}
+        category={params.category}
+        company={params.company}
+        from={params.from}
+        to={params.to}
+      />
     </div>
   );
 }

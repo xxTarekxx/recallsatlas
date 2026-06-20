@@ -105,7 +105,7 @@ export default async function RecallGraphHomePage() {
           government advice and is not a medical, legal, or safety authority.
         </p>
       </section>
-      <SearchResults results={latest} />
+      <SearchResults initialResults={latest} />
     </div>
   );
 }
