@@ -2,6 +2,8 @@ import fs from "fs/promises";
 import path from "path";
 import type {
   RecallGraphDatabaseStatus,
+  RecallGraphDataMode,
+  RecallGraphEmbeddingStatus,
   RecallGraphEmbeddingProviderLabel,
   RecallGraphEvaluationReport,
   RecallGraphHealth,
@@ -67,6 +69,34 @@ function embeddingProviderLabel(): RecallGraphEmbeddingProviderLabel {
   const provider = String(process.env.RECALLGRAPH_EMBEDDING_PROVIDER || "mock").trim().toLowerCase();
   if (provider === "mock" || provider === "openai" || provider === "local") return provider;
   return provider ? "unknown" : "mock";
+}
+
+function embeddingStatusLabel(provider = embeddingProviderLabel()): RecallGraphEmbeddingStatus {
+  if (provider === "mock") return "demo";
+  if (provider === "openai" || provider === "local") return "configured";
+  return "unknown";
+}
+
+function dataModeLabel(mode: "postgres" | "normalized-json"): RecallGraphDataMode {
+  return mode === "postgres" ? "database-backed" : "static-fallback";
+}
+
+function sanitizeEvaluationReport(report: RecallGraphEvaluationReport | null) {
+  if (!report) return null;
+  return {
+    ...report,
+    searchMethod: report.fallback ? "fallback keyword evaluation" : "semantic retrieval evaluation",
+    embeddingProvider: undefined,
+    embeddingModel: undefined,
+  };
+}
+
+function sanitizeEvaluationMarkdown(markdown: string | null) {
+  if (!markdown) return null;
+  return markdown
+    .replace(/^Search method:.*$/m, "Search method: semantic retrieval evaluation")
+    .replace(/^Embedding provider:.*$/m, "Embedding status: configured")
+    .replace(/^Embedding model:.*$/m, "Embedding model: configured");
 }
 
 async function loadNormalizedRecords() {
@@ -334,6 +364,7 @@ export async function searchRecallGraphWithMeta(
   params: RecallGraphSearchParams = {}
 ): Promise<RecallGraphSearchResponse> {
   const provider = embeddingProviderLabel();
+  const embeddingStatus = embeddingStatusLabel(provider);
 
   if (hasRecallGraphDatabase()) {
     const configuredProvider = (process.env.RECALLGRAPH_EMBEDDING_PROVIDER || "mock").toLowerCase();
@@ -344,7 +375,7 @@ export async function searchRecallGraphWithMeta(
           results: vectorRows.map(rowToSearchResult),
           mode: "semantic",
           fallback: false,
-          embeddingProvider: provider,
+          embeddingStatus,
         };
       }
       const keywordRows = await searchDbKeyword(params);
@@ -352,7 +383,7 @@ export async function searchRecallGraphWithMeta(
         results: keywordRows.map(rowToSearchResult),
         mode: configuredProvider === "mock" ? "fallback" : "keyword",
         fallback: configuredProvider === "mock",
-        embeddingProvider: provider,
+        embeddingStatus,
         fallbackReason: configuredProvider === "mock" ? "embedding_provider_mock" : "empty_query",
       };
     } catch (error) {
@@ -361,7 +392,7 @@ export async function searchRecallGraphWithMeta(
         results: await searchJson(params),
         mode: "fallback",
         fallback: true,
-        embeddingProvider: provider,
+        embeddingStatus,
         fallbackReason: configuredProvider === "mock" ? "database_unavailable" : "embedding_provider_unavailable",
       };
     }
@@ -371,7 +402,7 @@ export async function searchRecallGraphWithMeta(
     results: await searchJson(params),
     mode: "fallback",
     fallback: true,
-    embeddingProvider: provider,
+    embeddingStatus,
     fallbackReason: "database_not_configured",
   };
 }
@@ -445,8 +476,8 @@ export async function getRecallGraphStats(): Promise<RecallGraphStats> {
         relatedLinksCount: Number(related[0]?.count || 0),
         evaluationQueryCount,
         databaseStatus: "ok",
-        embeddingProvider: embeddingProviderLabel(),
-        dataMode: "postgres",
+        embeddingStatus: embeddingStatusLabel(),
+        dataMode: dataModeLabel("postgres"),
       };
     } catch (error) {
       databaseStatus = "unreachable";
@@ -502,8 +533,8 @@ export async function getRecallGraphStats(): Promise<RecallGraphStats> {
     relatedLinksCount: 0,
     evaluationQueryCount,
     databaseStatus,
-    embeddingProvider: embeddingProviderLabel(),
-    dataMode: "normalized-json",
+    embeddingStatus: embeddingStatusLabel(),
+    dataMode: dataModeLabel("normalized-json"),
   };
 }
 
@@ -580,7 +611,7 @@ export async function getRecallGraphRelated(id: string, limit = 8): Promise<Reca
 
 export async function getRecallGraphHealth(): Promise<RecallGraphHealth> {
   const evaluationQueryCount = await getEvaluationQueryCount();
-  const embeddingProvider = embeddingProviderLabel();
+  const embeddingStatus = embeddingStatusLabel();
 
   if (!hasRecallGraphDatabase()) {
     const records = await loadNormalizedRecords();
@@ -591,7 +622,7 @@ export async function getRecallGraphHealth(): Promise<RecallGraphHealth> {
       embeddingCount: 0,
       relatedLinkCount: 0,
       evaluationQueryCount,
-      embeddingProvider,
+      embeddingStatus,
     };
   }
 
@@ -609,7 +640,7 @@ export async function getRecallGraphHealth(): Promise<RecallGraphHealth> {
       embeddingCount: Number(embeddings[0]?.count || 0),
       relatedLinkCount: Number(related[0]?.count || 0),
       evaluationQueryCount,
-      embeddingProvider,
+      embeddingStatus,
     };
   } catch {
     const records = await loadNormalizedRecords();
@@ -620,7 +651,7 @@ export async function getRecallGraphHealth(): Promise<RecallGraphHealth> {
       embeddingCount: 0,
       relatedLinkCount: 0,
       evaluationQueryCount,
-      embeddingProvider,
+      embeddingStatus,
     };
   }
 }
@@ -638,5 +669,8 @@ export async function getRecallGraphEvaluation() {
   } catch {
     markdown = null;
   }
-  return { report, markdown };
+  return {
+    report: sanitizeEvaluationReport(report),
+    markdown: sanitizeEvaluationMarkdown(markdown),
+  };
 }

@@ -17,7 +17,7 @@ export async function GET() {
         embeddingCount: 0,
         relatedLinkCount: 0,
         evaluationQueryCount: 0,
-        embeddingProvider: "unknown",
+        embeddingStatus: "unknown",
       },
       { status: 503 }
     );

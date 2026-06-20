@@ -6,10 +6,10 @@ type Props = {
 };
 
 function modeLabel(stats: RecallGraphStats) {
-  if (stats.databaseStatus === "ok" && stats.embeddingProvider === "openai") {
+  if (stats.databaseStatus === "ok" && stats.embeddingStatus === "configured") {
     return "Vector search ready";
   }
-  if (stats.databaseStatus === "ok" && stats.embeddingProvider === "mock") {
+  if (stats.databaseStatus === "ok" && stats.embeddingStatus === "demo") {
     return "Demo mode";
   }
   if (stats.databaseStatus === "not_configured") return "Database not configured";
@@ -18,7 +18,7 @@ function modeLabel(stats: RecallGraphStats) {
 }
 
 export default function RuntimeStatus({ stats, compact = false }: Props) {
-  const isMock = stats.embeddingProvider === "mock";
+  const isDemo = stats.embeddingStatus === "demo";
   const dbMissing = stats.databaseStatus === "not_configured";
   const dbUnreachable = stats.databaseStatus === "unreachable";
 
@@ -28,14 +28,14 @@ export default function RuntimeStatus({ stats, compact = false }: Props) {
         <span className="recallgraph-eyebrow">{modeLabel(stats)}</span>
         <h2>Runtime mode</h2>
         <p>
-          Database: <strong>{stats.databaseStatus.replace("_", " ")}</strong>. Embedding provider:{" "}
-          <strong>{stats.embeddingProvider}</strong>. Data mode: <strong>{stats.dataMode}</strong>.
+          Database: <strong>{stats.databaseStatus.replace("_", " ")}</strong>. Semantic ranking:{" "}
+          <strong>{stats.embeddingStatus}</strong>. Data mode: <strong>{stats.dataMode}</strong>.
         </p>
       </div>
-      {isMock ? (
+      {isDemo ? (
         <p className="recallgraph-notice">
-          Demo mode: embeddings are currently using the configured mock provider. Configure real
-          embeddings for production semantic ranking.
+          Demo mode: semantic ranking is running in infrastructure-test mode. Configure production
+          embeddings for full semantic quality.
         </p>
       ) : null}
       {dbMissing ? (

@@ -64,12 +64,14 @@ export type RecallGraphSearchResponse = {
   results: RecallGraphSearchResult[];
   mode: "semantic" | "keyword" | "fallback";
   fallback: boolean;
-  embeddingProvider: RecallGraphEmbeddingProviderLabel;
+  embeddingStatus: RecallGraphEmbeddingStatus;
   fallbackReason?: "database_not_configured" | "database_unavailable" | "embedding_provider_unavailable" | "embedding_provider_mock" | "empty_query";
 };
 
 export type RecallGraphDatabaseStatus = "ok" | "not_configured" | "unreachable";
 export type RecallGraphEmbeddingProviderLabel = "mock" | "openai" | "local" | "unknown";
+export type RecallGraphEmbeddingStatus = "configured" | "demo" | "unknown";
+export type RecallGraphDataMode = "database-backed" | "static-fallback";
 
 export type RecallGraphStats = {
   totalRecalls: number;
@@ -91,8 +93,8 @@ export type RecallGraphStats = {
   relatedLinksCount: number;
   evaluationQueryCount: number;
   databaseStatus: RecallGraphDatabaseStatus;
-  embeddingProvider: RecallGraphEmbeddingProviderLabel;
-  dataMode: "postgres" | "normalized-json";
+  embeddingStatus: RecallGraphEmbeddingStatus;
+  dataMode: RecallGraphDataMode;
 };
 
 export type RecallGraphHealth = {
@@ -102,7 +104,7 @@ export type RecallGraphHealth = {
   embeddingCount: number;
   relatedLinkCount: number;
   evaluationQueryCount: number;
-  embeddingProvider: RecallGraphEmbeddingProviderLabel;
+  embeddingStatus: RecallGraphEmbeddingStatus;
 };
 
 export type RecallGraphRelatedRecall = RecallGraphSearchResult & {
@@ -115,6 +117,9 @@ export type RecallGraphRelatedRecall = RecallGraphSearchResult & {
 export type RecallGraphEvaluationReport = {
   generatedAt: string;
   searchMethod: string;
+  embeddingProvider?: string;
+  embeddingModel?: string;
+  fallback?: boolean;
   queryCount: number;
   queriesWithResults: number;
   zeroResultQueries: number;

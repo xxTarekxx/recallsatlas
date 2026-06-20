@@ -100,8 +100,8 @@ export default async function RecallGraphDashboardPage() {
               <strong>{stats.evaluationQueryCount}</strong>
             </li>
             <li>
-              <span>Embedding provider</span>
-              <strong>{stats.embeddingProvider}</strong>
+              <span>Semantic ranking</span>
+              <strong>{stats.embeddingStatus}</strong>
             </li>
             <li>
               <span>Database status</span>
