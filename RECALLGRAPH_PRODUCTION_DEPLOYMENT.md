@@ -29,23 +29,107 @@ Date: 2026-06-19
 
 No VPS mutation was performed during discovery.
 
+## Production Semantic Search Deployment
+
+Deployment date: 2026-06-20
+
+Approved server change:
+
+- Docker Engine and Docker Compose plugin were installed on Ubuntu 22.04 from the official Docker apt repository.
+- Native Postgres was not installed.
+- Apache configuration was not changed.
+- DNS was not changed.
+- Only PM2 app `recallsatlas` was reloaded.
+- No unrelated PM2 apps were restarted.
+- No Docker prune, remove, `down`, or global cleanup commands were run.
+
+Docker versions after install:
+
+- Docker Engine: `29.6.0`
+- Docker Compose: `v5.1.4`
+
+RecallGraph production DB:
+
+- Docker Compose project: `recallgraph-prod`
+- Compose file: `/var/www/html/recallsatlas/docker-compose.recallgraph.prod.yml`
+- Container: `recallgraph-prod-postgres`
+- Image: `pgvector/pgvector:pg16`
+- Volume: `recallgraph_prod_pgdata`
+- Host bind: `127.0.0.1:54329->5432/tcp`
+- Redis: omitted because current RecallGraph scripts do not require it.
+- VPS-only env file: `/var/www/html/recallsatlas/.env.recallgraph.prod`
+
+Runtime environment:
+
+- `RECALLGRAPH_DATABASE_URL` is set only in VPS env files.
+- `RECALLGRAPH_EMBEDDING_PROVIDER=openai`
+- `RECALLGRAPH_OPENAI_EMBEDDING_MODEL=text-embedding-3-small`
+- `RECALLGRAPH_EMBEDDING_DIMENSIONS=1536`
+- `OPENAI_API_KEY` is present in the secure VPS environment and was not printed or committed.
+
+Production pipeline:
+
+```bash
+cd /var/www/html/recallsatlas
+docker compose --env-file .env.recallgraph.prod -p recallgraph-prod -f docker-compose.recallgraph.prod.yml up -d
+
+cd /var/www/html/recallsatlas/backend
+npm ci --omit=dev
+npm run recallgraph:db:migrate
+npm run recallgraph:import
+npm run recallgraph:embed
+npm run recallgraph:graph
+npm run recallgraph:evaluate
+npm run recallgraph:db:status
+```
+
+Results:
+
+- Migration passed; pgvector is enabled and `recall_embeddings.embedding` is `vector(1536)`.
+- Import passed with 1,119 recalls.
+- Embeddings passed with 1,119 OpenAI embeddings using `text-embedding-3-small`.
+- Related graph passed with 8,952 links:
+  - 5,505 deterministic rule links.
+  - 3,447 vector-similarity links.
+- Evaluation passed with `pgvector-openai-text-embedding-3-small`.
+  - 18 queries.
+  - 18 queries with results.
+  - 0 zero-result queries.
+
+Production health:
+
+```json
+{
+  "ok": true,
+  "database": "ok",
+  "embeddingProvider": "openai",
+  "recallCount": 1119,
+  "embeddingCount": 1119,
+  "relatedLinkCount": 8952,
+  "evaluationQueryCount": 18
+}
+```
+
+Production search now returns:
+
+- `mode=semantic`
+- `fallback=false`
+- `embeddingProvider=openai`
+
 ## Current Deployment Method
 
 The tracked frontend deployment script uses a local build and uploads production Next.js artifacts to `/var/www/html/recallsatlas`, then restarts only the PM2 app named `recallsatlas`.
 
 The tracked backend deployment script resets its remote backend target directory and is not appropriate for RecallGraph production work without narrowing its scope.
 
-## Proposed Deployment Plan
+## Deployment Plan
 
-Current approved path:
+Current deployed path:
 
-1. Do not install Docker or Postgres on the VPS without separate approval.
-2. Deploy the RecallGraph frontend/app UI through the existing RecallsAtlas PM2 and Apache path.
-3. Keep the UI honest about runtime mode:
-   - `database=not_configured` when no `RECALLGRAPH_DATABASE_URL` is present.
-   - `database=unreachable` when configuration exists but the database cannot be reached.
-   - `embeddingProvider=mock` when mock embeddings are configured.
-4. Build the frontend and reload only the RecallsAtlas PM2 app:
+1. Keep Apache proxying RecallsAtlas to PM2 app `recallsatlas` on `127.0.0.1:3001`.
+2. Run RecallGraph Postgres/pgvector in Docker project `recallgraph-prod`.
+3. Bind Postgres to localhost only.
+4. Deploy frontend through the existing RecallsAtlas PM2 path:
    ```bash
    cd /var/www/html/recallsatlas
    npm ci
@@ -54,17 +138,9 @@ Current approved path:
    ```
 5. Verify RecallGraph and legacy routes over HTTPS.
 
-Production database options for a later approved step:
-
-1. Managed Postgres with pgvector.
-2. Native Postgres plus pgvector installed on the VPS.
-3. Docker Engine plus Compose, then the isolated `recallgraph-prod` compose service.
-
-Whichever DB path is selected later, Postgres must bind to localhost or a private managed endpoint only. Do not expose Postgres publicly.
-
 ## Rollback Plan
 
-Previous production app state should be recorded immediately before deployment:
+Production app state should be recorded immediately before future deployments:
 
 ```bash
 pm2 list
@@ -78,20 +154,30 @@ If a deploy fails after the frontend changes:
    ```bash
    pm2 reload recallsatlas --update-env
    ```
-3. If a RecallGraph database is added later, leave it running if the frontend rollback succeeds, because it should be isolated and not publicly exposed.
-4. If Docker is approved later and RecallGraph services must be stopped, stop only the RecallGraph production compose project:
+3. Leave the RecallGraph DB running if the frontend rollback succeeds, because it is isolated and not publicly exposed.
+4. If RecallGraph services must be stopped, stop only the RecallGraph production compose project:
    ```bash
-   docker compose -p recallgraph-prod -f docker-compose.recallgraph.prod.yml stop
+   cd /var/www/html/recallsatlas
+   docker compose --env-file .env.recallgraph.prod -p recallgraph-prod -f docker-compose.recallgraph.prod.yml stop
    ```
 
-Do not use `docker compose down`, Docker prune commands, or global PM2 restarts without explicit approval.
+To restart only RecallGraph Postgres:
 
-## Current Blocker
+```bash
+cd /var/www/html/recallsatlas
+docker compose --env-file .env.recallgraph.prod -p recallgraph-prod -f docker-compose.recallgraph.prod.yml up -d
+```
 
-RecallGraph UI deployment can proceed through the existing frontend path. Full production semantic search remains blocked until one production DB path is approved:
+Do not use `docker compose down`, Docker prune commands, Docker remove commands, or global PM2 restarts without explicit approval.
 
-- managed Postgres/pgvector,
-- native Postgres/pgvector install,
-- or Docker/Compose install.
+## Current Status
 
-Until then, production must label the runtime as database-not-configured or demo/infrastructure mode and must not claim real semantic ranking.
+RecallGraph production semantic search is live and verified.
+
+- Production DB: `database=ok`
+- Embedding provider: `openai`
+- Search mode: `semantic`
+- Static fallback: disabled during healthy DB/OpenAI operation
+- Existing `/recalls` and `/general-recalls`: verified 200
+
+If RecallGraph DB becomes unavailable, the UI and APIs still retain safe fallback handling and must label fallback mode honestly.

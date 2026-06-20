@@ -9,6 +9,7 @@ import type {
   RecallGraphRecord,
   RecallGraphRelatedRecall,
   RecallGraphSearchParams,
+  RecallGraphSearchResponse,
   RecallGraphSearchResult,
   RecallGraphStats,
 } from "@/lib/recallgraph/types";
@@ -329,21 +330,55 @@ function rowToSearchResult(row: any): RecallGraphSearchResult {
   };
 }
 
-export async function searchRecallGraph(params: RecallGraphSearchParams = {}) {
+export async function searchRecallGraphWithMeta(
+  params: RecallGraphSearchParams = {}
+): Promise<RecallGraphSearchResponse> {
+  const provider = embeddingProviderLabel();
+
   if (hasRecallGraphDatabase()) {
+    const configuredProvider = (process.env.RECALLGRAPH_EMBEDDING_PROVIDER || "mock").toLowerCase();
     try {
-      const provider = (process.env.RECALLGRAPH_EMBEDDING_PROVIDER || "mock").toLowerCase();
-      if (provider !== "mock") {
+      if (configuredProvider !== "mock" && clean(params.q)) {
         const vectorRows = await searchDbVector(params);
-        if (vectorRows.length) return vectorRows.map(rowToSearchResult);
+        return {
+          results: vectorRows.map(rowToSearchResult),
+          mode: "semantic",
+          fallback: false,
+          embeddingProvider: provider,
+        };
       }
       const keywordRows = await searchDbKeyword(params);
-      return keywordRows.map(rowToSearchResult);
+      return {
+        results: keywordRows.map(rowToSearchResult),
+        mode: configuredProvider === "mock" ? "fallback" : "keyword",
+        fallback: configuredProvider === "mock",
+        embeddingProvider: provider,
+        fallbackReason: configuredProvider === "mock" ? "embedding_provider_mock" : "empty_query",
+      };
     } catch (error) {
       console.warn("RecallGraph DB search unavailable, using normalized JSON fallback.", error);
+      return {
+        results: await searchJson(params),
+        mode: "fallback",
+        fallback: true,
+        embeddingProvider: provider,
+        fallbackReason: configuredProvider === "mock" ? "database_unavailable" : "embedding_provider_unavailable",
+      };
     }
   }
-  return searchJson(params);
+
+  return {
+    results: await searchJson(params),
+    mode: "fallback",
+    fallback: true,
+    embeddingProvider: provider,
+    fallbackReason: "database_not_configured",
+  };
+}
+
+export async function searchRecallGraph(params: RecallGraphSearchParams = {}) {
+  const response = await searchRecallGraphWithMeta(params);
+  return response.results;
 }
 
 export async function getRecallGraphStats(): Promise<RecallGraphStats> {

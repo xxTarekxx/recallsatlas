@@ -35,6 +35,10 @@ async function main() {
       );
       created += 1;
     }
+
+    if (created > 0) {
+      await client.query("REINDEX INDEX recall_embeddings_embedding_idx");
+    }
   });
 
   console.log(

@@ -1,4 +1,5 @@
 const { closePool, withClient } = require("../lib/postgres");
+const { getEmbeddingProvider } = require("../embed/embeddingProvider");
 const { linkCandidates } = require("../graph/buildRelatedRecalls");
 
 async function loadRecords(client) {
@@ -18,11 +19,21 @@ async function loadRecords(client) {
 async function main() {
   await withClient(async (client) => {
     const records = await loadRecords(client);
-    const links = linkCandidates(records, Number(process.env.RECALLGRAPH_RELATED_LIMIT || 8));
+    const limitPerRecall = Number(process.env.RECALLGRAPH_RELATED_LIMIT || 8);
+    const provider = getEmbeddingProvider();
+    const ruleLinks = linkCandidates(records, limitPerRecall);
+    const vectorLinks = await loadVectorLinks(
+      client,
+      provider.model,
+      Number(process.env.RECALLGRAPH_VECTOR_RELATED_CANDIDATES || 12),
+      Number(process.env.RECALLGRAPH_VECTOR_RELATED_MIN_SIMILARITY || 0.45)
+    );
+    const links = mergeLinks(ruleLinks, vectorLinks, limitPerRecall);
     let inserted = 0;
 
     await client.query("BEGIN");
     try {
+      await client.query("DELETE FROM related_recalls");
       for (const link of links) {
         await client.query(
           `
@@ -53,8 +64,70 @@ async function main() {
       throw error;
     }
 
-    console.log(`Built ${inserted} related recall links from ${records.length} recalls.`);
+    console.log(
+      `Built ${inserted} related recall links from ${records.length} recalls. ` +
+        `rules=${ruleLinks.length}, vector=${vectorLinks.length}, model=${provider.model}.`
+    );
   });
+}
+
+async function loadVectorLinks(client, model, candidatesPerRecall, minSimilarity) {
+  const { rows } = await client.query(
+    `
+      WITH source_embeddings AS (
+        SELECT recall_id, embedding
+        FROM recall_embeddings
+        WHERE embedding_scope = 'canonical' AND model = $1
+      )
+      SELECT
+        source_recall_id AS "sourceRecallId",
+        target_recall_id AS "targetRecallId",
+        'semantic_related' AS "linkType",
+        round(score::numeric, 4)::float8 AS score,
+        'Nearest recall by vector embedding similarity' AS reason,
+        $4 AS method
+      FROM (
+        SELECT
+          source.recall_id AS source_recall_id,
+          target.recall_id AS target_recall_id,
+          1 - (source.embedding <=> target.embedding) AS score
+        FROM source_embeddings source
+        JOIN LATERAL (
+          SELECT recall_id, embedding
+          FROM source_embeddings candidate
+          WHERE candidate.recall_id <> source.recall_id
+          ORDER BY source.embedding <=> candidate.embedding
+          LIMIT $2
+        ) target ON true
+      ) ranked
+      WHERE score >= $3
+    `,
+    [model, candidatesPerRecall, minSimilarity, `recallgraph-vector-${model}`]
+  );
+
+  return rows;
+}
+
+function mergeLinks(ruleLinks, vectorLinks, limitPerRecall) {
+  const bySource = new Map();
+
+  for (const link of [...vectorLinks, ...ruleLinks]) {
+    const sourceLinks = bySource.get(link.sourceRecallId) || new Map();
+    const key = `${link.sourceRecallId}:${link.targetRecallId}`;
+    const existing = sourceLinks.get(key);
+    if (!existing || link.score > existing.score) {
+      sourceLinks.set(key, link);
+    }
+    bySource.set(link.sourceRecallId, sourceLinks);
+  }
+
+  return [...bySource.values()]
+    .flatMap((sourceLinks) =>
+      [...sourceLinks.values()]
+        .sort((a, b) => b.score - a.score || a.targetRecallId.localeCompare(b.targetRecallId))
+        .slice(0, limitPerRecall)
+    )
+    .filter((link) => link.score > 0);
 }
 
 if (require.main === module) {

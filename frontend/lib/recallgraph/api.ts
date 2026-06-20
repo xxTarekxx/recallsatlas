@@ -4,7 +4,7 @@ import type {
   RecallGraphRecord,
   RecallGraphRelatedRecall,
   RecallGraphSearchParams,
-  RecallGraphSearchResult,
+  RecallGraphSearchResponse,
   RecallGraphStats,
 } from "./types";
 
@@ -24,9 +24,7 @@ async function readJson<T>(url: string): Promise<T> {
 }
 
 export function searchRecallGraphApi(params: RecallGraphSearchParams) {
-  return readJson<{ results: RecallGraphSearchResult[] }>(
-    withQuery("/api/recallgraph/search", params)
-  );
+  return readJson<RecallGraphSearchResponse>(withQuery("/api/recallgraph/search", params));
 }
 
 export function getRecallGraphStatsApi() {

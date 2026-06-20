@@ -60,6 +60,14 @@ export type RecallGraphSearchResult = {
   relatedCount?: number | null;
 };
 
+export type RecallGraphSearchResponse = {
+  results: RecallGraphSearchResult[];
+  mode: "semantic" | "keyword" | "fallback";
+  fallback: boolean;
+  embeddingProvider: RecallGraphEmbeddingProviderLabel;
+  fallbackReason?: "database_not_configured" | "database_unavailable" | "embedding_provider_unavailable" | "embedding_provider_mock" | "empty_query";
+};
+
 export type RecallGraphDatabaseStatus = "ok" | "not_configured" | "unreachable";
 export type RecallGraphEmbeddingProviderLabel = "mock" | "openai" | "local" | "unknown";
 

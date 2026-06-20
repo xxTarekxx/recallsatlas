@@ -110,16 +110,21 @@ Those scripts are raw-only entrypoints. They do not generate article copy, SEO f
 ## Production notes
 
 - Current VPS deployment uses the existing RecallsAtlas frontend path: Apache proxies to the PM2 app `recallsatlas` on `127.0.0.1:3001`.
-- Docker and Postgres installation on the VPS are not approved by default. Do not install either without explicit approval.
+- Docker Engine was approved and installed on 2026-06-20 only for the isolated RecallGraph production pgvector service.
+- Native Postgres installation on the VPS is still not approved.
 - The production UI is designed to handle `RECALLGRAPH_DATABASE_URL` being absent. In that state it reports database-not-configured status instead of crashing.
-- Full production semantic search needs one later-approved database path: managed Postgres/pgvector, native Postgres/pgvector, or Docker/Compose with `docker-compose.recallgraph.prod.yml`.
-- If Docker is approved later, use `docker-compose.recallgraph.prod.yml` with `docker compose -p recallgraph-prod -f docker-compose.recallgraph.prod.yml up -d`.
+- Production semantic search currently uses Docker/Compose with `docker-compose.recallgraph.prod.yml`.
+- Start only the production RecallGraph service with `docker compose --env-file .env.recallgraph.prod -p recallgraph-prod -f docker-compose.recallgraph.prod.yml up -d`.
 - Set `RECALLGRAPH_POSTGRES_PASSWORD` only in the VPS shell or a VPS-only env file before starting production Postgres.
 - The compose production Postgres bind is localhost-only: `127.0.0.1:54329:5432`.
 - Redis is not part of the production compose file because current RecallGraph scripts do not require it.
 - Copy `backend/recallgraph/.env.production.example` into the VPS environment as a reference, but do not commit real values.
 - Use `RECALLGRAPH_EMBEDDING_PROVIDER=openai` plus `OPENAI_API_KEY` for production/demo-quality semantic search.
 - Use `RECALLGRAPH_EMBEDDING_PROVIDER=mock` only for wiring tests; mock embeddings are deterministic but not semantically meaningful.
+- Current production embedding model: `text-embedding-3-small`.
+- Current production counts: 1,119 recalls, 1,119 OpenAI embeddings, 8,952 related recall links.
+- Current production search API mode: `semantic`, `fallback=false`, `embeddingProvider=openai`.
+- The pgvector IVFFlat index must be reindexed after fresh embedding inserts. `npm run recallgraph:embed` handles this when it creates new rows.
 
 ## Troubleshooting
 

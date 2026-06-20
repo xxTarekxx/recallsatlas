@@ -25,8 +25,9 @@ Date: 2026-06-19
 
 - Existing MongoDB flow remains in place.
 - Existing FDA/CPSC main scraper entrypoints remain in place, but now run raw-source ingestion only.
-- Existing production deployment remains untouched.
-- VPS-level Docker/Postgres installation remains unapproved and has not been attempted.
+- Existing MongoDB and legacy recall pages remain in place.
+- VPS-level native Postgres installation has not been attempted.
+- Docker Engine was approved on 2026-06-20 only for the isolated RecallGraph production pgvector service.
 - RecallsAtlas has not been globally renamed.
 - External related repos are not part of the active RecallGraph pipeline.
 
@@ -55,7 +56,8 @@ npm run build
 ## Known limitations
 
 - The MVP can render from normalized JSON before Postgres is running. The local Postgres/pgvector path has also been verified with mock embeddings.
-- Production currently uses the existing PM2/Apache frontend deployment path. The RecallGraph production DB still needs an approved managed Postgres, native Postgres, or Docker/Compose decision.
+- Production uses the existing PM2/Apache frontend deployment path plus an isolated Docker Compose Postgres/pgvector service.
+- Production semantic search is now enabled with OpenAI `text-embedding-3-small` embeddings and pgvector.
 - If production has no `RECALLGRAPH_DATABASE_URL`, the UI reports database-not-configured status and does not claim real semantic search.
 - The default embedding provider is deterministic mock embeddings for local development. Set `RECALLGRAPH_EMBEDDING_PROVIDER=openai` and `OPENAI_API_KEY` to use OpenAI embeddings.
 - With `RECALLGRAPH_EMBEDDING_PROVIDER=mock`, the frontend/API uses Postgres keyword scoring for search ranking. Mock vectors verify the pgvector storage path, but they are not semantically meaningful.
@@ -142,7 +144,54 @@ Remaining blocked or skipped items:
 
 - `npm test` remains blocked by existing MongoDB auth failure: `bad auth : authentication failed`.
 - `npm run lint` remains blocked by the existing Next 16 `next lint` incompatibility.
-- OpenAI/real semantic embedding verification remains a future step because this pass intentionally used mock embeddings.
+- Local mock embeddings remain useful for wiring tests, but production search uses real OpenAI embeddings.
+
+## Production semantic search deployment
+
+Deployment date: 2026-06-20
+
+Approved production architecture:
+
+- Existing Apache reverse proxy and PM2 app `recallsatlas` remain the web deployment path.
+- Docker Engine and Compose were installed on the VPS after approval.
+- Native Postgres was not installed.
+- RecallGraph Postgres runs in the isolated Docker Compose project `recallgraph-prod`.
+- Container: `recallgraph-prod-postgres`.
+- Host bind: `127.0.0.1:54329->5432/tcp`.
+- Redis is not used.
+- VPS-only env file: `/var/www/html/recallsatlas/.env.recallgraph.prod`.
+- Real secrets and database URLs are not committed.
+
+Production pipeline results:
+
+- `npm run recallgraph:db:migrate`: passed; pgvector enabled and `recall_embeddings.embedding` is `vector(1536)`.
+- `npm run recallgraph:import`: imported 1,119 recalls.
+- `npm run recallgraph:embed`: created 1,119 OpenAI embeddings with model `text-embedding-3-small`.
+- `npm run recallgraph:graph`: built 8,952 related recall links.
+  - 5,505 rule-derived links.
+  - 3,447 vector-derived links.
+- `npm run recallgraph:evaluate`: passed with `pgvector-openai-text-embedding-3-small`, 18/18 queries with results, 0 zero-result queries.
+- `npm run recallgraph:db:status`:
+  - `recalls`: 1,119
+  - `recall_embeddings`: 1,119
+  - distinct recalls with embeddings: 1,119
+  - `related_recalls`: 8,952
+
+Production HTTP verification:
+
+- `https://www.recallsatlas.com/`: 200
+- `https://www.recallsatlas.com/recallgraph`: 200
+- `https://www.recallsatlas.com/recallgraph/search`: 200
+- `https://www.recallsatlas.com/recallgraph/dashboard`: 200
+- `https://www.recallsatlas.com/recallgraph/evaluation`: 200
+- `https://www.recallsatlas.com/recalls`: 200
+- `https://www.recallsatlas.com/general-recalls`: 200
+- `https://www.recallsatlas.com/api/recallgraph/health`: `ok=true`, `database=ok`, `embeddingProvider=openai`.
+- `https://www.recallsatlas.com/api/recallgraph/search?q=fire%20hazard`: `mode=semantic`, `fallback=false`.
+
+Important implementation fix:
+
+- The pgvector IVFFlat index must be built or reindexed after embeddings are inserted. The embedding job now runs `REINDEX INDEX recall_embeddings_embedding_idx` when it creates new embeddings.
 
 ## Next recommended phase
 

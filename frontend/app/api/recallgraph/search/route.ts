@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { searchRecallGraph } from "@/lib/recallgraph/server/data";
+import { searchRecallGraphWithMeta } from "@/lib/recallgraph/server/data";
 
 export const dynamic = "force-dynamic";
 export const runtime = "nodejs";
@@ -7,7 +7,7 @@ export const runtime = "nodejs";
 export async function GET(request: NextRequest) {
   try {
     const { searchParams } = new URL(request.url);
-    const results = await searchRecallGraph({
+    const response = await searchRecallGraphWithMeta({
       q: searchParams.get("q") || "",
       source: searchParams.get("source") || undefined,
       company: searchParams.get("company") || undefined,
@@ -17,7 +17,7 @@ export async function GET(request: NextRequest) {
       limit: Number(searchParams.get("limit") || 10),
     });
 
-    return NextResponse.json({ results });
+    return NextResponse.json(response);
   } catch {
     return NextResponse.json({ error: "RecallGraph search unavailable" }, { status: 500 });
   }
