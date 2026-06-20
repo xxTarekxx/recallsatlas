@@ -38,6 +38,10 @@ function sourceLabel(value: string | undefined) {
   return value.toUpperCase();
 }
 
+function formatMatchScore(value: number) {
+  return `${Math.round(Math.max(0, Math.min(value, 1)) * 100)}%`;
+}
+
 export default function SearchResults({
   query,
   source,
@@ -190,7 +194,7 @@ function SearchResultList({ results }: { results: RecallGraphSearchResult[] }) {
           <div className="recallgraph-result-meta">
             <span>{result.source.toUpperCase()}</span>
             <span>{formatDate(result.recallDate)}</span>
-            <span>Relevance {result.similarity.toFixed(2)}</span>
+            <span>Match {formatMatchScore(result.similarity)}</span>
             {typeof result.relatedCount === "number" ? <span>{result.relatedCount} related</span> : null}
           </div>
           <h3>

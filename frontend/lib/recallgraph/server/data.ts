@@ -16,6 +16,7 @@ import { hasRecallGraphDatabase, queryRecallGraph } from "./db";
 import { embedSearchQuery, vectorLiteral } from "./embeddings";
 
 let normalizedCache: RecallGraphRecord[] | null = null;
+const DEFAULT_MIN_QUERY_SIMILARITY = 0.5;
 
 const normalizedPath = path.resolve(
   process.cwd(),
@@ -60,6 +61,12 @@ function jaccard(a: string, b: string) {
 function normalizeLimit(limit: number | undefined, fallback = 10, max = 50) {
   const parsed = Number(limit || fallback);
   return Math.min(Math.max(Number.isFinite(parsed) ? parsed : fallback, 1), max);
+}
+
+function minQuerySimilarity() {
+  const configured = Number(process.env.RECALLGRAPH_MIN_SEARCH_SIMILARITY || DEFAULT_MIN_QUERY_SIMILARITY);
+  if (!Number.isFinite(configured)) return DEFAULT_MIN_QUERY_SIMILARITY;
+  return Math.min(Math.max(configured, 0), 1);
 }
 
 function embeddingProviderLabel(): RecallGraphEmbeddingProviderLabel {
@@ -170,6 +177,7 @@ async function searchJson(params: RecallGraphSearchParams): Promise<RecallGraphS
   const records = await loadNormalizedRecords();
   const q = clean(params.q).toLowerCase();
   const limit = normalizeLimit(params.limit);
+  const minimumSimilarity = minQuerySimilarity();
 
   return records
     .filter((record) => passesFilters(record, params))
@@ -188,7 +196,7 @@ async function searchJson(params: RecallGraphSearchParams): Promise<RecallGraphS
       const score = q ? Math.max(jaccard(q, text), text.toLowerCase().includes(q) ? 0.75 : 0) : 0.1;
       return { record, score };
     })
-    .filter(({ score }) => !q || score > 0)
+    .filter(({ score }) => !q || score >= minimumSimilarity)
     .sort((a, b) => {
       if (b.score !== a.score) return b.score - a.score;
       return String(b.record.publishedAt || b.record.recallDate || "").localeCompare(
@@ -203,8 +211,12 @@ async function searchDbVector(params: RecallGraphSearchParams) {
   const q = clean(params.q);
   if (!q) return [];
   const { model, embedding } = await embedSearchQuery(q);
-  const values: unknown[] = [vectorLiteral(embedding), model, normalizeLimit(params.limit)];
-  const filters: string[] = ["e.embedding_scope = 'canonical'", "e.model = $2"];
+  const values: unknown[] = [vectorLiteral(embedding), model, normalizeLimit(params.limit), minQuerySimilarity()];
+  const filters: string[] = [
+    "e.embedding_scope = 'canonical'",
+    "e.model = $2",
+    "(1 - (e.embedding <=> $1::vector)) >= $4",
+  ];
 
   if (params.source) {
     values.push(params.source);
@@ -270,6 +282,11 @@ async function searchDbKeyword(params: RecallGraphSearchParams) {
     values.push(`%${q.toLowerCase()}%`);
     filters.push(`${searchableText} LIKE $${values.length}`);
     scoreSql = `CASE WHEN ${searchableText} LIKE $${values.length} THEN 0.5 ELSE 0 END`;
+  }
+
+  if (q) {
+    values.push(minQuerySimilarity());
+    filters.push(`${scoreSql} >= $${values.length}`);
   }
 
   if (params.source) {
