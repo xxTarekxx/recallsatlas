@@ -1,5 +1,6 @@
 import type {
   RecallGraphEvaluationReport,
+  RecallGraphHealth,
   RecallGraphRecord,
   RecallGraphRelatedRecall,
   RecallGraphSearchParams,
@@ -30,6 +31,10 @@ export function searchRecallGraphApi(params: RecallGraphSearchParams) {
 
 export function getRecallGraphStatsApi() {
   return readJson<RecallGraphStats>("/api/recallgraph/stats");
+}
+
+export function getRecallGraphHealthApi() {
+  return readJson<RecallGraphHealth>("/api/recallgraph/health");
 }
 
 export function getRecallGraphRecallApi(slug: string) {

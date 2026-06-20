@@ -7,15 +7,17 @@ export const runtime = "nodejs";
 export async function GET() {
   try {
     const health = await getRecallGraphHealth();
-    return NextResponse.json(health, { status: health.ok ? 200 : 503 });
+    return NextResponse.json(health);
   } catch {
     return NextResponse.json(
       {
         ok: false,
-        database: "error",
+        database: "unreachable",
         recallCount: 0,
         embeddingCount: 0,
         relatedLinkCount: 0,
+        evaluationQueryCount: 0,
+        embeddingProvider: "unknown",
       },
       { status: 503 }
     );

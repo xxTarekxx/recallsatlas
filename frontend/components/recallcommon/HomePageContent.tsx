@@ -13,6 +13,7 @@ export default function HomePageContent({ lang, recallsCountText }: Props) {
   const t = HOME_COPY[lang];
   const fb = getRecallsFilterBarUi(lang);
   const recallsAction = withLangPath("/recalls", lang);
+  const recallGraphHref = "/recallgraph";
   const carsHref = withLangPath("/cars", lang);
   const generalHref = withLangPath("/general-recalls", lang);
   const heroDir = isRtlUiLang(lang) ? "rtl" : "ltr";
@@ -51,6 +52,12 @@ export default function HomePageContent({ lang, recallsCountText }: Props) {
           <p className="home-hero-subtitle">{t.heroSub}</p>
 
           <div className="home-hero-quick">
+            <Link className="home-hero-quick-link" href={recallGraphHref}>
+              RecallGraph AI Search
+            </Link>
+            <span className="home-hero-quick-sep" aria-hidden="true">
+              Â·
+            </span>
             <Link className="home-hero-quick-link" href={recallsAction}>
               {t.heroQuickFda}
             </Link>
@@ -117,6 +124,24 @@ export default function HomePageContent({ lang, recallsCountText }: Props) {
         </h2>
 
         <div className="home-category-grid">
+          <Link
+            href={recallGraphHref}
+            className="home-category-card"
+            aria-label="RecallGraph AI recall intelligence"
+          >
+            <span className="home-category-icon home-category-icon--fda" aria-hidden="true">
+              AI
+            </span>
+            <h3>RecallGraph AI Intelligence</h3>
+            <p>
+              Search recalls by meaning, inspect related hazard patterns, and review the
+              structured public data pipeline behind the results.
+            </p>
+            <span className="home-category-pill" aria-hidden="true">
+              Explore RecallGraph
+            </span>
+          </Link>
+
           <Link
             href={withLangPath("/recalls", lang)}
             className="home-category-card"

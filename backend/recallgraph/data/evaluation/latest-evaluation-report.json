@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-06-19T22:17:25.154Z",
+  "generatedAt": "2026-06-20T05:25:12.741Z",
   "searchMethod": "normalized-json-keyword-fallback",
   "queryCount": 18,
   "queriesWithResults": 18,
   "zeroResultQueries": 0,
-  "averageLatencyMs": 415,
+  "averageLatencyMs": 298.72,
   "metrics": {
     "recallAt5": null,
     "recallAt10": null,
@@ -17,7 +17,7 @@
       "intent": "Find recalls involving chargers, batteries, overheating, or fire hazards.",
       "notes": "Starter query for semantic and keyword search coverage.",
       "expectedRecallIds": [],
-      "latencyMs": 346,
+      "latencyMs": 289,
       "resultCount": 10,
       "topResults": [
         {
@@ -151,7 +151,7 @@
       "intent": "Find FDA food recalls involving undeclared allergens.",
       "notes": "Common FDA recall pattern.",
       "expectedRecallIds": [],
-      "latencyMs": 367,
+      "latencyMs": 313,
       "resultCount": 10,
       "topResults": [
         {
@@ -285,7 +285,7 @@
       "intent": "Find CPSC recalls involving small parts, toys, children, choking, or ingestion hazards.",
       "notes": "Common product safety recall pattern.",
       "expectedRecallIds": [],
-      "latencyMs": 308,
+      "latencyMs": 279,
       "resultCount": 10,
       "topResults": [
         {
@@ -419,7 +419,7 @@
       "intent": "Find electronics recalls involving lithium-ion batteries and overheating.",
       "notes": "Useful cross-source hazard query.",
       "expectedRecallIds": [],
-      "latencyMs": 337,
+      "latencyMs": 315,
       "resultCount": 10,
       "topResults": [
         {
@@ -553,7 +553,7 @@
       "intent": "Find food, pet food, or supplement recalls involving salmonella.",
       "notes": "FDA contamination recall query.",
       "expectedRecallIds": [],
-      "latencyMs": 288,
+      "latencyMs": 277,
       "resultCount": 10,
       "topResults": [
         {
@@ -687,7 +687,7 @@
       "intent": "Find product recalls involving harnesses and fall hazards.",
       "notes": "Should match CPSC climbing/work safety recall language.",
       "expectedRecallIds": [],
-      "latencyMs": 337,
+      "latencyMs": 317,
       "resultCount": 10,
       "topResults": [
         {
@@ -821,7 +821,7 @@
       "intent": "Find pet food recalls involving low vitamin B1 or thiamine.",
       "notes": "Based on migrated FDA pet food records.",
       "expectedRecallIds": [],
-      "latencyMs": 286,
+      "latencyMs": 281,
       "resultCount": 10,
       "topResults": [
         {
@@ -955,7 +955,7 @@
       "intent": "Find recalls involving infant products and suffocation hazards.",
       "notes": "CPSC child safety query.",
       "expectedRecallIds": [],
-      "latencyMs": 327,
+      "latencyMs": 316,
       "resultCount": 10,
       "topResults": [
         {
@@ -1089,7 +1089,7 @@
       "intent": "Find FDA medical device recalls involving sterility or contamination issues.",
       "notes": "FDA medical device query.",
       "expectedRecallIds": [],
-      "latencyMs": 281,
+      "latencyMs": 276,
       "resultCount": 10,
       "topResults": [
         {
@@ -1223,7 +1223,7 @@
       "intent": "Find CPSC appliance recalls involving electrical shock.",
       "notes": "Product safety hazard query.",
       "expectedRecallIds": [],
-      "latencyMs": 491,
+      "latencyMs": 315,
       "resultCount": 10,
       "topResults": [
         {
@@ -1357,7 +1357,7 @@
       "intent": "Find FDA recalls involving undeclared milk.",
       "notes": "Specific allergen query.",
       "expectedRecallIds": [],
-      "latencyMs": 479,
+      "latencyMs": 275,
       "resultCount": 10,
       "topResults": [
         {
@@ -1491,7 +1491,7 @@
       "intent": "Find recalls involving lead exposure and children.",
       "notes": "Common CPSC hazard class.",
       "expectedRecallIds": [],
-      "latencyMs": 495,
+      "latencyMs": 323,
       "resultCount": 10,
       "topResults": [
         {
@@ -1625,7 +1625,7 @@
       "intent": "Find FDA food recalls involving Listeria.",
       "notes": "Food contamination query.",
       "expectedRecallIds": [],
-      "latencyMs": 475,
+      "latencyMs": 278,
       "resultCount": 10,
       "topResults": [
         {
@@ -1759,7 +1759,7 @@
       "intent": "Find CPSC recalls involving heaters or burn hazards.",
       "notes": "Consumer product hazard query.",
       "expectedRecallIds": [],
-      "latencyMs": 555,
+      "latencyMs": 318,
       "resultCount": 10,
       "topResults": [
         {
@@ -1893,7 +1893,7 @@
       "intent": "Find FDA food recalls involving foreign objects or material contamination.",
       "notes": "FDA contamination query.",
       "expectedRecallIds": [],
-      "latencyMs": 502,
+      "latencyMs": 283,
       "resultCount": 10,
       "topResults": [
         {
@@ -2027,7 +2027,7 @@
       "intent": "Find CPSC furniture recalls involving tip-over risks.",
       "notes": "Product category and hazard query.",
       "expectedRecallIds": [],
-      "latencyMs": 545,
+      "latencyMs": 316,
       "resultCount": 10,
       "topResults": [
         {
@@ -2161,7 +2161,7 @@
       "intent": "Find FDA recalls involving botulism risks.",
       "notes": "Specific food safety query.",
       "expectedRecallIds": [],
-      "latencyMs": 491,
+      "latencyMs": 277,
       "resultCount": 10,
       "topResults": [
         {
@@ -2295,7 +2295,7 @@
       "intent": "Find recalls involving skin irritation, chemicals, or exposure hazards.",
       "notes": "Cross-source hazard query.",
       "expectedRecallIds": [],
-      "latencyMs": 560,
+      "latencyMs": 329,
       "resultCount": 10,
       "topResults": [
         {

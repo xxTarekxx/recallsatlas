@@ -14,6 +14,8 @@ Date: 2026-06-19
 - Added related recall matching and duplicate candidate infrastructure.
 - Added fallback search evaluation scripts and starter query set.
 - Added `/recallgraph` frontend routes, API routes, server helpers, and compact UI components.
+- Repositioned RecallGraph as the AI recall intelligence layer: semantic recall search, related recall graph, data dashboard, evaluation reporting, and transparent pipeline pages.
+- Added runtime-mode reporting so production can distinguish Postgres/vector mode, static fallback mode, mock embeddings, and missing database configuration without exposing secrets.
 - Added docs, environment example, import manifest, and this implementation note.
 
 ## Intentionally not changed
@@ -21,6 +23,7 @@ Date: 2026-06-19
 - Existing MongoDB flow remains in place.
 - Existing FDA/CPSC scraper OpenAI code remains in place.
 - Existing production deployment remains untouched.
+- VPS-level Docker/Postgres installation remains unapproved and has not been attempted.
 - RecallsAtlas has not been globally renamed.
 - DollarsAndLife was used only as a read-only migration source.
 
@@ -49,6 +52,8 @@ npm run build
 ## Known limitations
 
 - The MVP can render from normalized JSON before Postgres is running. The local Postgres/pgvector path has also been verified with mock embeddings.
+- Production currently uses the existing PM2/Apache frontend deployment path. The RecallGraph production DB still needs an approved managed Postgres, native Postgres, or Docker/Compose decision.
+- If production has no `RECALLGRAPH_DATABASE_URL`, the UI reports database-not-configured status and does not claim real semantic search.
 - The default embedding provider is deterministic mock embeddings for local development. Set `RECALLGRAPH_EMBEDDING_PROVIDER=openai` and `OPENAI_API_KEY` to use OpenAI embeddings.
 - With `RECALLGRAPH_EMBEDDING_PROVIDER=mock`, the frontend/API uses Postgres keyword scoring for search ranking. Mock vectors verify the pgvector storage path, but they are not semantically meaningful.
 - Related recall fallback in JSON mode is lexical/rule-based. In Postgres mode, the verified `related_recalls` table is used.

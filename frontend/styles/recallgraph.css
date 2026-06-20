@@ -11,7 +11,8 @@
 .recallgraph-related-item,
 .recallgraph-detail,
 .recallgraph-source-box,
-.recallgraph-empty {
+.recallgraph-empty,
+.recallgraph-status {
   background: var(--color-surface);
   border: 1px solid var(--color-border);
   border-radius: var(--radius-md);
@@ -61,13 +62,20 @@
 
 .recallgraph-actions a,
 .recallgraph-button,
-.recallgraph-demo-queries a {
+.recallgraph-demo-queries a,
+.recallgraph-detail-link {
   border: 1px solid var(--color-border-strong);
   border-radius: var(--radius-md);
   color: var(--color-primary);
   font-weight: 700;
   padding: 10px 12px;
   text-decoration: none;
+}
+
+.recallgraph-actions .recallgraph-action-primary {
+  background: var(--color-primary);
+  border-color: var(--color-primary);
+  color: var(--color-white);
 }
 
 .recallgraph-button {
@@ -109,9 +117,46 @@
   margin: 0 0 18px;
 }
 
+.recallgraph-status {
+  display: grid;
+  gap: 12px;
+  margin: 0 0 22px;
+  padding: 18px;
+}
+
+.recallgraph-status--compact {
+  margin-bottom: 16px;
+}
+
+.recallgraph-status h2,
+.recallgraph-search-intro h2 {
+  font-size: 1.1rem;
+  margin-bottom: 4px;
+}
+
+.recallgraph-status p,
+.recallgraph-search-intro p,
+.recallgraph-panel p,
+.recallgraph-source-box p {
+  color: var(--color-text-muted);
+}
+
+.recallgraph-notice {
+  background: #fff7ed;
+  border: 1px solid #fed7aa;
+  border-radius: var(--radius-md);
+  color: #7c2d12;
+  margin: 0;
+  padding: 10px 12px;
+}
+
 .recallgraph-search-panel {
   padding: 18px;
   margin-bottom: 22px;
+}
+
+.recallgraph-search-intro {
+  margin-bottom: 14px;
 }
 
 .recallgraph-search-form {
@@ -222,6 +267,11 @@
   margin-top: 8px;
 }
 
+.recallgraph-detail-link {
+  display: inline-block;
+  margin: 8px 0 0 8px;
+}
+
 .recallgraph-dashboard-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -259,6 +309,49 @@
   margin-bottom: 18px;
 }
 
+.recallgraph-pipeline {
+  margin: 26px 0;
+}
+
+.recallgraph-pipeline ol {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.recallgraph-pipeline li {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  display: grid;
+  gap: 8px;
+  min-height: 120px;
+  padding: 16px;
+}
+
+.recallgraph-pipeline li span {
+  align-items: center;
+  background: var(--color-blue-light);
+  border-radius: 999px;
+  color: var(--color-blue);
+  display: inline-flex;
+  font-size: 0.82rem;
+  font-weight: 900;
+  height: 30px;
+  justify-content: center;
+  width: 30px;
+}
+
+.recallgraph-feature-grid {
+  display: grid;
+  gap: 14px;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  margin-bottom: 22px;
+}
+
 .recallgraph-image-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
@@ -282,8 +375,17 @@
   margin-top: 16px;
 }
 
+.recallgraph-source-box--inline {
+  box-shadow: none;
+  margin: 18px 0;
+}
+
 .recallgraph-source-box a {
   word-break: break-word;
+}
+
+.recallgraph-evaluation-intro {
+  margin-bottom: 18px;
 }
 
 .recallgraph-raw {

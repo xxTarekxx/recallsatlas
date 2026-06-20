@@ -17,6 +17,7 @@ export default function SearchBox({
 }: Props) {
   const demoQueries = useMemo(
     () => [
+      "battery overheating in children's products",
       "fire hazard from battery chargers",
       "undeclared allergens in snacks",
       "children choking hazard",
@@ -28,14 +29,21 @@ export default function SearchBox({
 
   return (
     <section className="recallgraph-search-panel" aria-label="RecallGraph search">
+      <div className="recallgraph-search-intro">
+        <h2>Search by meaning, hazard, product, company, or consumer risk pattern.</h2>
+        <p>
+          RecallGraph ranks results through its vector/search pipeline with keyword fallback when
+          embeddings or database search are unavailable.
+        </p>
+      </div>
       <form className="recallgraph-search-form" action="/recallgraph/search">
         <label className="recallgraph-field recallgraph-field--wide">
-          <span>Search recalls</span>
+          <span>Semantic recall query</span>
           <input
             name="q"
             type="search"
             defaultValue={initialQuery}
-            placeholder="Search hazards, products, companies, or source facts"
+            placeholder="battery overheating in children's products"
           />
         </label>
         <label className="recallgraph-field">
@@ -55,7 +63,7 @@ export default function SearchBox({
           <input name="company" defaultValue={initialCompany} placeholder="Company name" />
         </label>
         <button className="recallgraph-button" type="submit">
-          Search
+          Search RecallGraph
         </button>
       </form>
       <div className="recallgraph-demo-queries" aria-label="Example searches">

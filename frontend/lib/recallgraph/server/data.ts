@@ -1,6 +1,8 @@
 import fs from "fs/promises";
 import path from "path";
 import type {
+  RecallGraphDatabaseStatus,
+  RecallGraphEmbeddingProviderLabel,
   RecallGraphEvaluationReport,
   RecallGraphHealth,
   RecallGraphPublicRecord,
@@ -19,14 +21,22 @@ const normalizedPath = path.resolve(
   process.cwd(),
   "../backend/recallgraph/data/normalized/recalls.normalized.json"
 );
-const evaluationJsonPath = path.resolve(
+const liveRootNormalizedPath = path.resolve(
   process.cwd(),
-  "../backend/recallgraph/data/evaluation/latest-evaluation-report.json"
+  "backend/recallgraph/data/normalized/recalls.normalized.json"
 );
-const evaluationMarkdownPath = path.resolve(
-  process.cwd(),
-  "../backend/recallgraph/data/evaluation/latest-evaluation-report.md"
-);
+const evaluationJsonPaths = [
+  path.resolve(process.cwd(), "../backend/recallgraph/data/evaluation/latest-evaluation-report.json"),
+  path.resolve(process.cwd(), "backend/recallgraph/data/evaluation/latest-evaluation-report.json"),
+];
+const evaluationQueriesPaths = [
+  path.resolve(process.cwd(), "../backend/recallgraph/data/evaluation/evaluation-queries.json"),
+  path.resolve(process.cwd(), "backend/recallgraph/data/evaluation/evaluation-queries.json"),
+];
+const evaluationMarkdownPaths = [
+  path.resolve(process.cwd(), "../backend/recallgraph/data/evaluation/latest-evaluation-report.md"),
+  path.resolve(process.cwd(), "backend/recallgraph/data/evaluation/latest-evaluation-report.md"),
+];
 
 function clean(value: string | null | undefined) {
   return String(value || "").trim();
@@ -52,15 +62,43 @@ function normalizeLimit(limit: number | undefined, fallback = 10, max = 50) {
   return Math.min(Math.max(Number.isFinite(parsed) ? parsed : fallback, 1), max);
 }
 
+function embeddingProviderLabel(): RecallGraphEmbeddingProviderLabel {
+  const provider = String(process.env.RECALLGRAPH_EMBEDDING_PROVIDER || "mock").trim().toLowerCase();
+  if (provider === "mock" || provider === "openai" || provider === "local") return provider;
+  return provider ? "unknown" : "mock";
+}
+
 async function loadNormalizedRecords() {
   if (normalizedCache) return normalizedCache;
   try {
-    const raw = await fs.readFile(normalizedPath, "utf8");
+    const raw = await readFirstFile([normalizedPath, liveRootNormalizedPath]);
     normalizedCache = JSON.parse(raw) as RecallGraphRecord[];
   } catch {
     normalizedCache = [];
   }
   return normalizedCache;
+}
+
+async function readFirstFile(paths: string[]) {
+  let lastError: unknown;
+  for (const candidate of paths) {
+    try {
+      return await fs.readFile(candidate, "utf8");
+    } catch (error) {
+      lastError = error;
+    }
+  }
+  throw lastError;
+}
+
+async function getEvaluationQueryCount() {
+  try {
+    const raw = await readFirstFile(evaluationQueriesPaths);
+    const parsed = JSON.parse(raw);
+    return Array.isArray(parsed) ? parsed.length : 0;
+  } catch {
+    return 0;
+  }
 }
 
 function toSearchResult(record: RecallGraphRecord, similarity = 0): RecallGraphSearchResult {
@@ -71,6 +109,7 @@ function toSearchResult(record: RecallGraphRecord, similarity = 0): RecallGraphS
     source: record.source,
     company: record.companyName,
     product: record.productName || record.productDescription,
+    category: record.category,
     hazard: record.hazards[0] || null,
     recallDate: record.recallDate,
     similarity,
@@ -192,7 +231,8 @@ async function searchDbVector(params: RecallGraphSearchParams) {
     `
       SELECT
         r.id, r.slug, r.title, r.source, r.company_name, r.product_name,
-        r.product_description, r.hazards_json, r.recall_date, r.source_url,
+        r.product_description, r.product_type, r.category, r.hazards_json, r.recall_date, r.source_url,
+        (SELECT count(*)::int FROM related_recalls rr WHERE rr.source_recall_id = r.id) AS related_count,
         1 - (e.embedding <=> $1::vector) AS similarity
       FROM recall_embeddings e
       JOIN recalls r ON r.id = e.recall_id
@@ -260,7 +300,8 @@ async function searchDbKeyword(params: RecallGraphSearchParams) {
     `
       SELECT
         r.id, r.slug, r.title, r.source, r.company_name, r.product_name,
-        r.product_description, r.hazards_json, r.recall_date, r.source_url,
+        r.product_description, r.product_type, r.category, r.hazards_json, r.recall_date, r.source_url,
+        (SELECT count(*)::int FROM related_recalls rr WHERE rr.source_recall_id = r.id) AS related_count,
         ${scoreSql} AS similarity
       FROM recalls r
       WHERE ${filters.join(" AND ")}
@@ -279,10 +320,12 @@ function rowToSearchResult(row: any): RecallGraphSearchResult {
     source: row.source,
     company: row.company_name ?? null,
     product: row.product_name || row.product_description || null,
+    category: row.category || row.product_type || null,
     hazard: Array.isArray(row.hazards_json) ? row.hazards_json[0] || null : null,
     recallDate: row.recall_date ? new Date(row.recall_date).toISOString() : null,
     similarity: Number(Number(row.similarity || 0).toFixed(4)),
     sourceUrl: row.source_url || "",
+    relatedCount: typeof row.related_count === "number" ? row.related_count : null,
   };
 }
 
@@ -304,6 +347,9 @@ export async function searchRecallGraph(params: RecallGraphSearchParams = {}) {
 }
 
 export async function getRecallGraphStats(): Promise<RecallGraphStats> {
+  let databaseStatus: RecallGraphDatabaseStatus = hasRecallGraphDatabase() ? "unreachable" : "not_configured";
+  const evaluationQueryCount = await getEvaluationQueryCount();
+
   if (hasRecallGraphDatabase()) {
     try {
       const [counts, topCompanies, topCategories, topHazards, byMonth, coverage, related, latest, missing] =
@@ -362,9 +408,13 @@ export async function getRecallGraphStats(): Promise<RecallGraphStats> {
           : null,
         embeddingsCoverageCount: Number(coverage[0]?.count || 0),
         relatedLinksCount: Number(related[0]?.count || 0),
+        evaluationQueryCount,
+        databaseStatus: "ok",
+        embeddingProvider: embeddingProviderLabel(),
         dataMode: "postgres",
       };
     } catch (error) {
+      databaseStatus = "unreachable";
       console.warn("RecallGraph DB stats unavailable, using normalized JSON fallback.", error);
     }
   }
@@ -415,6 +465,9 @@ export async function getRecallGraphStats(): Promise<RecallGraphStats> {
     latestIngestionOrImportTimestamp: records[0]?.normalizedAt || null,
     embeddingsCoverageCount: 0,
     relatedLinksCount: 0,
+    evaluationQueryCount,
+    databaseStatus,
+    embeddingProvider: embeddingProviderLabel(),
     dataMode: "normalized-json",
   };
 }
@@ -491,13 +544,19 @@ export async function getRecallGraphRelated(id: string, limit = 8): Promise<Reca
 }
 
 export async function getRecallGraphHealth(): Promise<RecallGraphHealth> {
+  const evaluationQueryCount = await getEvaluationQueryCount();
+  const embeddingProvider = embeddingProviderLabel();
+
   if (!hasRecallGraphDatabase()) {
+    const records = await loadNormalizedRecords();
     return {
       ok: false,
       database: "not_configured",
-      recallCount: 0,
+      recallCount: records.length,
       embeddingCount: 0,
       relatedLinkCount: 0,
+      evaluationQueryCount,
+      embeddingProvider,
     };
   }
 
@@ -514,14 +573,19 @@ export async function getRecallGraphHealth(): Promise<RecallGraphHealth> {
       recallCount: Number(recalls[0]?.count || 0),
       embeddingCount: Number(embeddings[0]?.count || 0),
       relatedLinkCount: Number(related[0]?.count || 0),
+      evaluationQueryCount,
+      embeddingProvider,
     };
   } catch {
+    const records = await loadNormalizedRecords();
     return {
       ok: false,
-      database: "error",
-      recallCount: 0,
+      database: "unreachable",
+      recallCount: records.length,
       embeddingCount: 0,
       relatedLinkCount: 0,
+      evaluationQueryCount,
+      embeddingProvider,
     };
   }
 }
@@ -530,12 +594,12 @@ export async function getRecallGraphEvaluation() {
   let report: RecallGraphEvaluationReport | null = null;
   let markdown: string | null = null;
   try {
-    report = JSON.parse(await fs.readFile(evaluationJsonPath, "utf8")) as RecallGraphEvaluationReport;
+    report = JSON.parse(await readFirstFile(evaluationJsonPaths)) as RecallGraphEvaluationReport;
   } catch {
     report = null;
   }
   try {
-    markdown = await fs.readFile(evaluationMarkdownPath, "utf8");
+    markdown = await readFirstFile(evaluationMarkdownPaths);
   } catch {
     markdown = null;
   }

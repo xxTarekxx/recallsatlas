@@ -21,6 +21,7 @@ export default function SiteNav() {
   const homeHref = withLangPath("/", lang);
 
   const links = [
+    { href: "/recallgraph", label: "RecallGraph" },
     { href: withLangPath("/recalls", lang), label: t.fda },
     { href: withLangPath("/cars", lang), label: t.cars },
     { href: withLangPath("/general-recalls", lang), label: t.consumerRecalls },

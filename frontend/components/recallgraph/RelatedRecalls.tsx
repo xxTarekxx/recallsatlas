@@ -10,7 +10,10 @@ export default function RelatedRecalls({ related }: Props) {
     return (
       <section className="recallgraph-empty">
         <h2>Related recalls</h2>
-        <p>No related recall links have been built for this record yet.</p>
+        <p>
+          No related recall links have been built for this record yet. This can happen when the
+          database or related recall graph is not configured in the current environment.
+        </p>
       </section>
     );
   }
@@ -19,7 +22,10 @@ export default function RelatedRecalls({ related }: Props) {
     <section className="recallgraph-related" aria-label="Related recalls">
       <div className="recallgraph-section-heading">
         <h2>Related recalls</h2>
-        <p>Connections come from shared companies, hazards, products, duplicate signals, or vector similarity.</p>
+        <p>
+          Why these recalls are related: connections come from shared companies, hazards, products,
+          duplicate signals, or vector similarity when embeddings are available.
+        </p>
       </div>
       <div className="recallgraph-related-list">
         {related.map((item) => (

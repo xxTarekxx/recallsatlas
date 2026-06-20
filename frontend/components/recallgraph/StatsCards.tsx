@@ -14,14 +14,19 @@ function NumberCard({ label, value }: { label: string; value: string | number })
 }
 
 export default function StatsCards({ stats }: Props) {
+  const embeddingCoverage =
+    stats.totalRecalls > 0
+      ? `${stats.embeddingsCoverageCount.toLocaleString("en-US")} / ${stats.totalRecalls.toLocaleString("en-US")}`
+      : stats.embeddingsCoverageCount.toLocaleString("en-US");
+
   return (
     <section className="recallgraph-stats" aria-label="RecallGraph statistics">
-      <NumberCard label="Total recalls" value={stats.totalRecalls.toLocaleString("en-US")} />
+      <NumberCard label="Dataset coverage" value={stats.totalRecalls.toLocaleString("en-US")} />
       <NumberCard label="FDA records" value={stats.totalFdaRecalls.toLocaleString("en-US")} />
-      <NumberCard label="CPSC records" value={stats.totalCpscRecalls.toLocaleString("en-US")} />
-      <NumberCard label="Embeddings" value={stats.embeddingsCoverageCount.toLocaleString("en-US")} />
-      <NumberCard label="Related links" value={stats.relatedLinksCount.toLocaleString("en-US")} />
-      <NumberCard label="Data mode" value={stats.dataMode} />
+      <NumberCard label="CPSC/general records" value={stats.totalCpscRecalls.toLocaleString("en-US")} />
+      <NumberCard label="Embedding coverage" value={embeddingCoverage} />
+      <NumberCard label="Related recall graph" value={stats.relatedLinksCount.toLocaleString("en-US")} />
+      <NumberCard label="Evaluation queries" value={stats.evaluationQueryCount.toLocaleString("en-US")} />
     </section>
   );
 }

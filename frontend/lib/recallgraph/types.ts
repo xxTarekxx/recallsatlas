@@ -52,11 +52,16 @@ export type RecallGraphSearchResult = {
   source: string;
   company: string | null;
   product: string | null;
+  category?: string | null;
   hazard: string | null;
   recallDate: string | null;
   similarity: number;
   sourceUrl: string;
+  relatedCount?: number | null;
 };
+
+export type RecallGraphDatabaseStatus = "ok" | "not_configured" | "unreachable";
+export type RecallGraphEmbeddingProviderLabel = "mock" | "openai" | "local" | "unknown";
 
 export type RecallGraphStats = {
   totalRecalls: number;
@@ -76,15 +81,20 @@ export type RecallGraphStats = {
   latestIngestionOrImportTimestamp: string | null;
   embeddingsCoverageCount: number;
   relatedLinksCount: number;
+  evaluationQueryCount: number;
+  databaseStatus: RecallGraphDatabaseStatus;
+  embeddingProvider: RecallGraphEmbeddingProviderLabel;
   dataMode: "postgres" | "normalized-json";
 };
 
 export type RecallGraphHealth = {
   ok: boolean;
-  database: "ok" | "not_configured" | "error";
+  database: RecallGraphDatabaseStatus;
   recallCount: number;
   embeddingCount: number;
   relatedLinkCount: number;
+  evaluationQueryCount: number;
+  embeddingProvider: RecallGraphEmbeddingProviderLabel;
 };
 
 export type RecallGraphRelatedRecall = RecallGraphSearchResult & {
