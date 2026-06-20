@@ -150,18 +150,145 @@
   padding: 10px 12px;
 }
 
-.recallgraph-search-panel {
+.recallgraph-search-hero {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  display: grid;
+  gap: 24px;
+  grid-template-columns: minmax(0, 1fr) minmax(300px, 420px);
+  margin-bottom: 18px;
+  overflow: hidden;
+  padding: 24px;
+  position: relative;
+}
+
+.recallgraph-search-hero::before {
+  background: var(--color-blue);
+  content: "";
+  height: 4px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.recallgraph-search-hero h1 {
+  font-size: 2.25rem;
+  line-height: 1.12;
+  max-width: 820px;
+}
+
+.recallgraph-search-hero p {
+  color: var(--color-text-muted);
+  font-size: 1rem;
+  margin-top: 10px;
+  max-width: 760px;
+}
+
+.recallgraph-search-metrics {
+  align-self: stretch;
+  background: var(--color-background);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  display: grid;
+  gap: 1px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin: 0;
+  overflow: hidden;
+}
+
+.recallgraph-search-metrics div {
+  background: var(--color-surface);
+  display: grid;
+  gap: 4px;
+  min-height: 92px;
+  padding: 14px;
+}
+
+.recallgraph-search-metrics dt {
+  color: var(--color-text-muted);
+  font-size: 0.75rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.recallgraph-search-metrics dd {
+  color: var(--color-primary);
+  font-size: 1.45rem;
+  font-weight: 900;
+  line-height: 1.1;
+  margin: 0;
+}
+
+.recallgraph-search-workspace {
+  align-items: start;
+  display: grid;
+  gap: 16px;
+  grid-template-columns: minmax(0, 1fr) minmax(240px, 300px);
+  margin-bottom: 20px;
+}
+
+.recallgraph-search-sidecar {
+  display: grid;
+  gap: 16px;
+}
+
+.recallgraph-search-sidecar .recallgraph-status {
+  margin: 0;
+}
+
+.recallgraph-search-signal-panel {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
   padding: 18px;
-  margin-bottom: 22px;
+}
+
+.recallgraph-search-signal-panel ul {
+  color: var(--color-text-muted);
+  display: grid;
+  gap: 8px;
+  list-style: none;
+  padding: 0;
+}
+
+.recallgraph-search-signal-panel li {
+  border-top: 1px solid var(--color-border);
+  padding-top: 8px;
+}
+
+.recallgraph-search-signal-panel li:first-child {
+  border-top: 0;
+  padding-top: 0;
+}
+
+.recallgraph-search-panel {
+  padding: 22px;
+  margin-bottom: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.recallgraph-search-panel::before {
+  background: var(--color-safe);
+  content: "";
+  height: 4px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 
 .recallgraph-search-intro {
-  margin-bottom: 14px;
+  margin-bottom: 16px;
 }
 
 .recallgraph-search-form {
   display: grid;
-  grid-template-columns: minmax(260px, 2fr) repeat(3, minmax(140px, 1fr)) auto;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
   gap: 12px;
   align-items: end;
 }
@@ -186,11 +313,41 @@
   width: 100%;
 }
 
+.recallgraph-field--wide {
+  grid-column: 1 / -1;
+}
+
+.recallgraph-field--wide input {
+  font-size: 1.05rem;
+  min-height: 54px;
+}
+
+.recallgraph-search-form .recallgraph-button {
+  grid-column: 4 / -1;
+  justify-self: end;
+  min-width: 220px;
+  width: 100%;
+}
+
+.recallgraph-demo-query-shell {
+  border-top: 1px solid var(--color-border);
+  margin-top: 16px;
+  padding-top: 14px;
+}
+
+.recallgraph-demo-query-shell > span {
+  color: var(--color-text-muted);
+  display: block;
+  font-size: 0.78rem;
+  font-weight: 900;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
 .recallgraph-demo-queries {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
-  margin-top: 14px;
 }
 
 .recallgraph-demo-queries a {
@@ -198,6 +355,71 @@
   color: var(--color-blue);
   font-size: 0.9rem;
   padding: 8px 10px;
+}
+
+.recallgraph-results {
+  margin-top: 8px;
+}
+
+.recallgraph-active-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.recallgraph-active-filters span {
+  background: var(--color-background);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  color: var(--color-primary);
+  font-size: 0.82rem;
+  font-weight: 800;
+  padding: 5px 8px;
+}
+
+.recallgraph-search-empty {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  margin-top: 8px;
+  padding: 22px;
+}
+
+.recallgraph-search-empty h2 {
+  font-size: 1.35rem;
+  margin-bottom: 8px;
+}
+
+.recallgraph-search-empty p {
+  color: var(--color-text-muted);
+  max-width: 760px;
+}
+
+.recallgraph-search-empty-grid {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin-top: 16px;
+}
+
+.recallgraph-search-empty-grid div {
+  background: var(--color-background);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  display: grid;
+  gap: 4px;
+  padding: 12px;
+}
+
+.recallgraph-search-empty-grid strong {
+  color: var(--color-primary);
+}
+
+.recallgraph-search-empty-grid span {
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
 }
 
 .recallgraph-result-list,
@@ -699,7 +921,10 @@
   .recallgraph-record-hero,
   .recallgraph-provenance,
   .recallgraph-record-grid,
-  .recallgraph-missing-grid {
+  .recallgraph-missing-grid,
+  .recallgraph-search-hero,
+  .recallgraph-search-workspace,
+  .recallgraph-search-empty-grid {
     grid-template-columns: 1fr;
   }
 
@@ -708,8 +933,10 @@
   }
 
   .recallgraph-field--wide,
-  .recallgraph-button {
+  .recallgraph-button,
+  .recallgraph-search-form .recallgraph-button {
     grid-column: 1 / -1;
+    min-width: 0;
   }
 }
 
@@ -737,11 +964,30 @@
   }
 
   .recallgraph-record-title h1,
-  .recallgraph-missing-record h1 {
-    font-size: 1.75rem;
+  .recallgraph-missing-record h1,
+  .recallgraph-search-hero h1 {
+    font-size: 1.6rem;
   }
 
   .recallgraph-record-actions a {
     width: 100%;
+  }
+
+  .recallgraph-search-panel {
+    padding: 18px;
+  }
+
+  .recallgraph-search-metrics {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .recallgraph-search-metrics div {
+    min-height: 76px;
+    padding: 12px;
+  }
+
+  .recallgraph-search-metrics dd {
+    font-size: 1.2rem;
+    overflow-wrap: anywhere;
   }
 }

@@ -233,7 +233,7 @@ export default function HomePageContent({
 
           <Link
             href={withLangPath("/recalls", lang)}
-            className="home-category-card"
+            className="home-category-card home-category-card--fda"
             aria-label={t.fdaTitle}
           >
             <span className="home-category-icon home-category-icon--fda" aria-hidden="true">
@@ -248,7 +248,7 @@ export default function HomePageContent({
 
           <Link
             href={generalHref}
-            className="home-category-card"
+            className="home-category-card home-category-card--cpsc"
             aria-label="Consumer Product Recalls"
           >
             <span className="home-category-icon home-category-icon--cpsc" aria-hidden="true">
@@ -263,7 +263,7 @@ export default function HomePageContent({
 
           <Link
             href={withLangPath("/cars", lang)}
-            className="home-category-card"
+            className="home-category-card home-category-card--nhtsa"
             aria-label={t.vehicleTitle}
           >
             <span className="home-category-icon home-category-icon--nhtsa" aria-hidden="true">

@@ -33,6 +33,11 @@ function clean(value: string | undefined) {
   return String(value || "").trim();
 }
 
+function sourceLabel(value: string | undefined) {
+  if (!value) return "";
+  return value.toUpperCase();
+}
+
 export default function SearchResults({
   query,
   source,
@@ -43,6 +48,13 @@ export default function SearchResults({
   initialResults = EMPTY_RESULTS,
 }: Props) {
   const normalizedQuery = clean(query);
+  const activeFilters = [
+    source ? `Source: ${sourceLabel(source)}` : "",
+    category ? `Category: ${category}` : "",
+    company ? `Company: ${company}` : "",
+    from ? `From: ${from}` : "",
+    to ? `To: ${to}` : "",
+  ].filter(Boolean);
   const searchUrl = useMemo(() => {
     if (!normalizedQuery) return "";
     const params = new URLSearchParams();
@@ -103,19 +115,35 @@ export default function SearchResults({
     }
 
     return (
-      <section className="recallgraph-empty">
-        <h2>Search by meaning to see results</h2>
+      <section className="recallgraph-search-empty">
+        <span className="recallgraph-eyebrow">Ready for a query</span>
+        <h2>Start with a risk pattern or product phrase.</h2>
         <p>
-          Submit a hazard, product, company, or consumer risk query. Query embeddings are generated
-          only through the RecallGraph search API for non-empty searches.
+          RecallGraph works best with the words a consumer would use: overheating battery,
+          undeclared milk, choking hazard, contaminated pet food, or a specific company name.
         </p>
+        <div className="recallgraph-search-empty-grid" aria-label="Search examples by intent">
+          <div>
+            <strong>Consumer risk</strong>
+            <span>fire hazard, choking, contamination</span>
+          </div>
+          <div>
+            <strong>Product context</strong>
+            <span>baby wipes, snack mix, pet food</span>
+          </div>
+          <div>
+            <strong>Source filters</strong>
+            <span>FDA, CPSC, date range, company</span>
+          </div>
+        </div>
       </section>
     );
   }
 
   if (state.loading) {
     return (
-      <section className="recallgraph-empty">
+      <section className="recallgraph-search-empty">
+        <span className="recallgraph-eyebrow">Searching</span>
         <h2>Searching RecallGraph</h2>
         <p>Matching the query against the RecallGraph search layer.</p>
       </section>
@@ -124,7 +152,8 @@ export default function SearchResults({
 
   if (state.error || !state.results.length) {
     return (
-      <section className="recallgraph-empty">
+      <section className="recallgraph-search-empty">
+        <span className="recallgraph-eyebrow">No results</span>
         <h2>No matching recalls yet</h2>
         <p>
           Try a broader hazard, product type, company, or source filter. If the database is not
@@ -137,8 +166,16 @@ export default function SearchResults({
   return (
     <section className="recallgraph-results" aria-label="RecallGraph search results">
       <div className="recallgraph-section-heading">
+        <span className="recallgraph-eyebrow">Search results</span>
         <h2>{`Results for "${normalizedQuery}"`}</h2>
         <p>{state.results.length} recalls returned from the RecallGraph search layer.</p>
+        {activeFilters.length ? (
+          <div className="recallgraph-active-filters" aria-label="Active filters">
+            {activeFilters.map((filter) => (
+              <span key={filter}>{filter}</span>
+            ))}
+          </div>
+        ) : null}
       </div>
       <SearchResultList results={state.results} />
     </section>

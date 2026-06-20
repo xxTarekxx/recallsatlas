@@ -26,24 +26,64 @@ type PageProps = {
 export default async function RecallGraphSearchPage({ searchParams }: PageProps) {
   const params = await searchParams;
   const stats = await getRecallGraphStats();
+  const embeddingCoverage = stats.totalRecalls
+    ? Math.round((stats.embeddingsCoverageCount / stats.totalRecalls) * 100)
+    : 0;
 
   return (
     <div className="recallgraph-page">
-      <div className="recallgraph-section-heading">
-        <span className="recallgraph-eyebrow">Semantic recall search</span>
-        <h1>Search by meaning, hazard, product, company, or consumer risk pattern.</h1>
-        <p>
-          RecallGraph ranks results through its vector/search pipeline with keyword fallback when
-          embeddings or database search are unavailable.
-        </p>
+      <section className="recallgraph-search-hero" aria-labelledby="recallgraph-search-title">
+        <div>
+          <span className="recallgraph-eyebrow">Semantic recall search</span>
+          <h1 id="recallgraph-search-title">Find recalls by risk pattern, product, company, or hazard.</h1>
+          <p>
+            Search source-backed FDA and CPSC records with vector ranking when embeddings are
+            available and keyword fallback when they are not.
+          </p>
+        </div>
+        <dl className="recallgraph-search-metrics" aria-label="RecallGraph search runtime">
+          <div>
+            <dt>Total recalls</dt>
+            <dd>{stats.totalRecalls.toLocaleString()}</dd>
+          </div>
+          <div>
+            <dt>Embedding coverage</dt>
+            <dd>{embeddingCoverage}%</dd>
+          </div>
+          <div>
+            <dt>Related links</dt>
+            <dd>{stats.relatedLinksCount.toLocaleString()}</dd>
+          </div>
+          <div>
+            <dt>Data mode</dt>
+            <dd>{stats.dataMode}</dd>
+          </div>
+        </dl>
+      </section>
+
+      <div className="recallgraph-search-workspace">
+        <SearchBox
+          initialQuery={params.q}
+          initialSource={params.source}
+          initialCategory={params.category}
+          initialCompany={params.company}
+          initialFrom={params.from}
+          initialTo={params.to}
+        />
+        <aside className="recallgraph-search-sidecar" aria-label="Search context">
+          <RuntimeStatus stats={stats} compact />
+          <section className="recallgraph-search-signal-panel">
+            <span className="recallgraph-eyebrow">Ranking signals</span>
+            <ul>
+              <li>Canonical recall text</li>
+              <li>Hazard, product, and company fields</li>
+              <li>Source and date filters</li>
+              <li>Related-recall graph context</li>
+            </ul>
+          </section>
+        </aside>
       </div>
-      <RuntimeStatus stats={stats} compact />
-      <SearchBox
-        initialQuery={params.q}
-        initialSource={params.source}
-        initialCategory={params.category}
-        initialCompany={params.company}
-      />
+
       <SearchResults
         query={params.q}
         source={params.source}
