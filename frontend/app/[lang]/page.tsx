@@ -1,6 +1,7 @@
 import HomePageContent from "@/components/recallcommon/HomePageContent";
 import { getGeneralRecallSlugDateMap } from "@/lib/general-recalls-data";
 import { getDb } from "@/lib/mongodb";
+import { getRecallGraphHealth } from "@/lib/recallgraph/server/data";
 import type { Metadata } from "next";
 import { isSiteUiLang, type SiteUiLang } from "@/lib/siteLocale";
 import { notFound } from "next/navigation";
@@ -17,10 +18,21 @@ export async function generateMetadata({
   const lang = langParam as SiteUiLang;
   const canonical = `${siteUrl}/${lang}`;
   return {
-    title: "Recalls Atlas | FDA, NHTSA & CPSC Recall Search",
+    title: "RecallGraph AI Recall Intelligence Platform | Semantic Recall Search",
+    description:
+      "Search public recall data by meaning, hazard pattern, product type, company, and consumer risk with RecallGraph AI semantic search and source-backed recall details.",
     alternates: { canonical },
     openGraph: { url: canonical },
   };
+}
+
+async function getSemanticSearchReady() {
+  try {
+    const health = await getRecallGraphHealth();
+    return health.database === "ok" && health.embeddingProvider === "openai" && health.embeddingCount > 0;
+  } catch {
+    return false;
+  }
 }
 
 export default async function LocalizedHomePage({
@@ -32,6 +44,7 @@ export default async function LocalizedHomePage({
   if (!isSiteUiLang(langParam) || langParam === "en") notFound();
   const lang = langParam as SiteUiLang;
   let recallsCountText = "30+";
+  const semanticSearchReady = await getSemanticSearchReady();
   try {
     const db = await getDb();
     const [fdaCount, vehicleCount] = await Promise.all([
@@ -43,5 +56,11 @@ export default async function LocalizedHomePage({
   } catch {
     /* keep fallback */
   }
-  return <HomePageContent lang={lang} recallsCountText={recallsCountText} />;
+  return (
+    <HomePageContent
+      lang={lang}
+      recallsCountText={recallsCountText}
+      semanticSearchReady={semanticSearchReady}
+    />
+  );
 }

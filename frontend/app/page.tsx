@@ -1,19 +1,20 @@
 import HomePageContent from "@/components/recallcommon/HomePageContent";
 import { getGeneralRecallSlugDateMap } from "@/lib/general-recalls-data";
 import { getDb } from "@/lib/mongodb";
+import { getRecallGraphHealth } from "@/lib/recallgraph/server/data";
 import type { Metadata } from "next";
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.recallsatlas.com";
 
 export const metadata: Metadata = {
-  title: "Recalls Atlas | FDA, NHTSA & CPSC Recall Search",
+  title: "RecallGraph AI Recall Intelligence Platform | Semantic Recall Search",
   description:
-    "Browse FDA food, drug, and device recalls; NHTSA vehicle campaigns; and CPSC consumer product recalls with plain-language summaries and links to official notices.",
+    "Search public recall data by meaning, hazard pattern, product type, company, and consumer risk with RecallGraph AI semantic search and source-backed recall details.",
   alternates: { canonical: siteUrl },
   openGraph: {
-    title: "Recalls Atlas — FDA, vehicle & product recalls",
+    title: "RecallGraph AI Recall Intelligence Platform",
     description:
-      "Search and browse U.S. food, drug, device, supplement, vehicle, and consumer product recalls from FDA, NHTSA, and CPSC.",
+      "Semantic recall search, related recall graph exploration, and public recall data analysis from structured FDA, NHTSA, and CPSC data.",
     url: siteUrl,
     siteName: "Recalls Atlas",
     type: "website",
@@ -21,8 +22,19 @@ export const metadata: Metadata = {
   },
 };
 
+async function getSemanticSearchReady() {
+  try {
+    const health = await getRecallGraphHealth();
+    return health.database === "ok" && health.embeddingProvider === "openai" && health.embeddingCount > 0;
+  } catch {
+    return false;
+  }
+}
+
 export default async function HomePage() {
   let recallsCountText = "30+";
+  const semanticSearchReady = await getSemanticSearchReady();
+
   try {
     const db = await getDb();
     const [fdaCount, vehicleCount] = await Promise.all([
@@ -34,5 +46,12 @@ export default async function HomePage() {
   } catch {
     /* keep fallback */
   }
-  return <HomePageContent lang="en" recallsCountText={recallsCountText} />;
+
+  return (
+    <HomePageContent
+      lang="en"
+      recallsCountText={recallsCountText}
+      semanticSearchReady={semanticSearchReady}
+    />
+  );
 }

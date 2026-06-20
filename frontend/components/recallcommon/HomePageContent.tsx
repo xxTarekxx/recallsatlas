@@ -1,19 +1,37 @@
 import Link from "next/link";
-import SearchSuggest from "./SearchSuggest";
 import { HOME_COPY } from "@/lib/homeCopy";
-import { getRecallsFilterBarUi } from "@/lib/recallsFilterBarUi";
 import { isRtlUiLang, withLangPath, type SiteUiLang } from "@/lib/siteLocale";
 
 type Props = {
   lang: SiteUiLang;
   recallsCountText: string;
+  semanticSearchReady?: boolean;
 };
 
-export default function HomePageContent({ lang, recallsCountText }: Props) {
+const semanticBadges = [
+  "AI semantic recall search",
+  "FDA + CPSC + NHTSA data",
+  "Related recall graph",
+  "Source-backed results",
+];
+
+const semanticExamples = [
+  "battery overheating in children's products",
+  "undeclared allergens in snacks",
+  "fire hazard from chargers",
+  "salmonella contamination",
+  "choking hazard in toys",
+];
+
+export default function HomePageContent({
+  lang,
+  recallsCountText,
+  semanticSearchReady = false,
+}: Props) {
   const t = HOME_COPY[lang];
-  const fb = getRecallsFilterBarUi(lang);
   const recallsAction = withLangPath("/recalls", lang);
   const recallGraphHref = "/recallgraph";
+  const recallGraphSearchHref = "/recallgraph/search";
   const carsHref = withLangPath("/cars", lang);
   const generalHref = withLangPath("/general-recalls", lang);
   const heroDir = isRtlUiLang(lang) ? "rtl" : "ltr";
@@ -23,76 +41,83 @@ export default function HomePageContent({ lang, recallsCountText }: Props) {
       <section className="home-hero" aria-labelledby="hero-heading">
         <div className="home-hero-inner" dir={heroDir} lang={lang}>
           <div className="home-hero-badges">
-            <div className="home-hero-badge" aria-label="FDA">
-              <span className="home-hero-badge-dot" aria-hidden="true" />
-              {t.badge}
-            </div>
-            <div className="home-hero-badge home-hero-badge--nhtsa" aria-label="NHTSA">
-              <span
-                className="home-hero-badge-dot home-hero-badge-dot--nhtsa"
-                aria-hidden="true"
-              />
-              {t.badgeNhtsa}
-            </div>
-            <div className="home-hero-badge home-hero-badge--cpsc" aria-label="CPSC">
-              <span
-                className="home-hero-badge-dot home-hero-badge-dot--cpsc"
-                aria-hidden="true"
-              />
-              {t.badgeCpsc}
-            </div>
+            {semanticBadges.map((badge, index) => (
+              <div className="home-hero-badge" key={badge}>
+                <span
+                  className={`home-hero-badge-dot home-hero-badge-dot--${index + 1}`}
+                  aria-hidden="true"
+                />
+                {badge}
+              </div>
+            ))}
           </div>
 
           <h1 id="hero-heading" className="home-hero-title">
-            {t.heroLine1}
+            RecallGraph AI
             <br />
-            <span>{t.heroLine2}</span>
+            <span>Semantic Search</span>
           </h1>
 
-          <p className="home-hero-subtitle">{t.heroSub}</p>
+          <p className="home-hero-subtitle">
+            Search public recall data by meaning, hazard pattern, product type, company, or
+            consumer risk, then explore related recalls, trends, and source-backed details.
+          </p>
 
           <div className="home-hero-quick">
-            <Link className="home-hero-quick-link" href={recallGraphHref}>
-              RecallGraph AI Search
+            <Link className="home-hero-quick-link" href={recallGraphSearchHref}>
+              Semantic search
             </Link>
-            <span className="home-hero-quick-sep" aria-hidden="true">
-              Â·
-            </span>
+            <Link className="home-hero-quick-link" href="/recallgraph/dashboard">
+              Data dashboard
+            </Link>
             <Link className="home-hero-quick-link" href={recallsAction}>
               {t.heroQuickFda}
             </Link>
-            <span className="home-hero-quick-sep" aria-hidden="true">
-              ·
-            </span>
             <Link className="home-hero-quick-link" href={carsHref}>
               {t.heroQuickVehicle}
             </Link>
-            <span className="home-hero-quick-sep" aria-hidden="true">
-              ·
-            </span>
             <Link className="home-hero-quick-link" href={generalHref}>
               {t.heroQuickGeneral}
             </Link>
           </div>
 
-          <SearchSuggest
-            action={recallsAction}
-            recallsDetailBase={recallsAction}
-            vehicleSearchUrl={carsHref}
-            vehicleSearchHint={t.heroQuickVehicle}
-            vehicleSearchMeta={fb.vinMeta}
-            wrapperClassName="home-hero-search"
-            inputClassName="home-hero-search-input"
-            buttonClassName="home-hero-search-btn"
-            placeholder={fb.searchPlaceholder}
-            ariaLabel={fb.searchAriaLabel}
-            buttonLabel={fb.searchButton}
-            loadingLabel={fb.loadingSuggestions}
-            suggestionsAriaLabel={fb.suggestionsAriaLabel}
-            fieldSrLabel={fb.searchFieldSrLabel}
-            submitAriaLabel={fb.searchSubmitAriaLabel}
-            inputDir="auto"
-          />
+          <form
+            className="home-hero-search"
+            action={recallGraphSearchHref}
+            method="get"
+            role="search"
+            aria-label="Search RecallGraph semantic recall data"
+          >
+            <label htmlFor="home-recallgraph-query" className="sr-only">
+              Search public recall data by meaning, hazard pattern, product type, company, or risk
+            </label>
+            <input
+              id="home-recallgraph-query"
+              type="search"
+              name="q"
+              className="home-hero-search-input"
+              placeholder="Search by meaning: battery overheating in kids toys..."
+              autoComplete="off"
+              dir="auto"
+            />
+            <button type="submit" className="home-hero-search-btn">
+              Search RecallGraph
+            </button>
+          </form>
+
+          <div className="home-semantic-examples" aria-label="Example semantic searches">
+            {semanticExamples.map((query) => (
+              <Link key={query} href={`${recallGraphSearchHref}?q=${encodeURIComponent(query)}`}>
+                {query}
+              </Link>
+            ))}
+          </div>
+
+          <p className="home-semantic-note">
+            {semanticSearchReady
+              ? "Semantic ranking is connected for this environment; fallback search remains available for reliability."
+              : "RecallGraph is designed for semantic search with embeddings and vector ranking. The interface is live; fallback search remains available for reliability while production vector ranking is pending."}
+          </p>
 
           <div className="home-stats" aria-label="Site statistics">
             <div className="home-stat">
@@ -117,19 +142,19 @@ export default function HomePageContent({ lang, recallsCountText }: Props) {
 
       <section className="home-categories" aria-labelledby="categories-heading">
         <p className="home-section-label" aria-hidden="true">
-          {t.sectionBrowse}
+          Browse by source
         </p>
         <h2 id="categories-heading" className="home-section-title">
-          {t.sectionChoose}
+          Start with RecallGraph, or browse a source directly
         </h2>
 
         <div className="home-category-grid">
           <Link
             href={recallGraphHref}
-            className="home-category-card"
+            className="home-category-card home-category-card--primary"
             aria-label="RecallGraph AI recall intelligence"
           >
-            <span className="home-category-icon home-category-icon--fda" aria-hidden="true">
+            <span className="home-category-icon home-category-icon--ai" aria-hidden="true">
               AI
             </span>
             <h3>RecallGraph AI Intelligence</h3>
@@ -150,10 +175,25 @@ export default function HomePageContent({ lang, recallsCountText }: Props) {
             <span className="home-category-icon home-category-icon--fda" aria-hidden="true">
               FDA
             </span>
-            <h3>{t.fdaTitle}</h3>
+            <h3>FDA Recalls</h3>
             <p>{t.fdaBody}</p>
             <span className="home-category-pill" aria-hidden="true">
-              {t.fdaCta}
+              Browse FDA recalls
+            </span>
+          </Link>
+
+          <Link
+            href={generalHref}
+            className="home-category-card"
+            aria-label="Consumer Product Recalls"
+          >
+            <span className="home-category-icon home-category-icon--cpsc" aria-hidden="true">
+              CPSC
+            </span>
+            <h3>Consumer Product Recalls</h3>
+            <p>{t.generalBody}</p>
+            <span className="home-category-pill" aria-hidden="true">
+              Browse product recalls
             </span>
           </Link>
 
@@ -169,21 +209,6 @@ export default function HomePageContent({ lang, recallsCountText }: Props) {
             <p>{t.vehicleBody}</p>
             <span className="home-category-pill" aria-hidden="true">
               {t.vehicleCta}
-            </span>
-          </Link>
-
-          <Link
-            href={generalHref}
-            className="home-category-card"
-            aria-label={t.generalTitle}
-          >
-            <span className="home-category-icon home-category-icon--cpsc" aria-hidden="true">
-              CPSC
-            </span>
-            <h3>{t.generalTitle}</h3>
-            <p>{t.generalBody}</p>
-            <span className="home-category-pill" aria-hidden="true">
-              {t.generalCta}
             </span>
           </Link>
         </div>
