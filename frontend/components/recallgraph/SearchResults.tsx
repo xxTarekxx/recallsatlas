@@ -21,6 +21,7 @@ type SearchState = {
 };
 
 const EMPTY_RESULTS: RecallGraphSearchResult[] = [];
+const MIN_VISIBLE_MATCH_SCORE = 0.5;
 
 function formatDate(value: string | null) {
   if (!value) return "Unknown date";
@@ -38,8 +39,10 @@ function sourceLabel(value: string | undefined) {
   return value.toUpperCase();
 }
 
-function formatMatchScore(value: number) {
-  return `${Math.round(Math.max(0, Math.min(value, 1)) * 100)}%`;
+function matchQualityLabel(value: number) {
+  if (value >= 0.8) return "Strong match";
+  if (value >= 0.65) return "Good match";
+  return "Related match";
 }
 
 export default function SearchResults({
@@ -194,7 +197,7 @@ function SearchResultList({ results }: { results: RecallGraphSearchResult[] }) {
           <div className="recallgraph-result-meta">
             <span>{result.source.toUpperCase()}</span>
             <span>{formatDate(result.recallDate)}</span>
-            <span>Match {formatMatchScore(result.similarity)}</span>
+            {result.similarity >= MIN_VISIBLE_MATCH_SCORE ? <span>{matchQualityLabel(result.similarity)}</span> : null}
             {typeof result.relatedCount === "number" ? <span>{result.relatedCount} related</span> : null}
           </div>
           <h3>
