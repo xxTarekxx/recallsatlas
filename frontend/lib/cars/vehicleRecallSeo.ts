@@ -4,6 +4,7 @@ import {
   defaultVehicleRecallSeo,
   getVehicleRecallSiteBaseUrl,
 } from "@/lib/cars/vehicleRecallSeoDefaults";
+import { recallDetailRobots } from "@/lib/recallNoindex";
 import { dedupeStrings, defaultOgImageAbsolute, toAbsoluteOgImage } from "@/lib/seoShareImage";
 
 /** Vehicle recall SEO languages (hreflang + routes). */
@@ -103,6 +104,7 @@ export async function buildVehicleRecallMetadata(
   return {
     title,
     description,
+    robots: recallDetailRobots,
     alternates,
     openGraph: {
       title,

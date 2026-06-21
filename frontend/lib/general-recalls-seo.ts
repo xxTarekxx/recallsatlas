@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import type { GeneralRecall } from "./general-recalls-data";
 import { getGeneralRecallSlug, mergeGeneralRecallForUiLang } from "./general-recalls-data";
+import { recallDetailRobots } from "./recallNoindex";
 import { isSiteUiLang, withLocalePath, type SiteUiLang } from "./siteLocale";
 
 const SITE = "https://www.recallsatlas.com";
@@ -68,6 +69,7 @@ export function buildGeneralRecallMetadata(
   return {
     title: titleText,
     description,
+    robots: recallDetailRobots,
     alternates: { canonical },
     openGraph,
     twitter,

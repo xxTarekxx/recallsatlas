@@ -1,7 +1,7 @@
 import HomePageContent from "@/components/recallcommon/HomePageContent";
 import { getGeneralRecallSlugDateMap } from "@/lib/general-recalls-data";
 import { getDb } from "@/lib/mongodb";
-import { getRecallGraphHealth } from "@/lib/recallgraph/server/data";
+import { getRecallGraphStats } from "@/lib/recallgraph/server/data";
 import type { Metadata } from "next";
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.recallsatlas.com";
@@ -22,29 +22,42 @@ export const metadata: Metadata = {
   },
 };
 
-async function getSemanticSearchReady() {
+async function getRecallGraphHomepageStats() {
   try {
-    const health = await getRecallGraphHealth();
-    return health.database === "ok" && health.embeddingCount > 0;
+    const stats = await getRecallGraphStats();
+    return {
+      recallCount: stats.totalRecalls,
+      semanticSearchReady: stats.databaseStatus === "ok" && stats.embeddingsCoverageCount > 0,
+    };
   } catch {
-    return false;
+    return {
+      recallCount: 0,
+      semanticSearchReady: false,
+    };
   }
 }
 
 export default async function HomePage() {
   let recallsCountText = "30+";
-  const semanticSearchReady = await getSemanticSearchReady();
+  const recallGraphStats = await getRecallGraphHomepageStats();
+  const semanticSearchReady = recallGraphStats.semanticSearchReady;
 
-  try {
-    const db = await getDb();
-    const [fdaCount, vehicleCount] = await Promise.all([
-      db.collection("recalls").countDocuments(),
-      db.collection("cars").countDocuments(),
-    ]);
-    const recallsCount = fdaCount + vehicleCount + getGeneralRecallSlugDateMap().size;
-    recallsCountText = `${new Intl.NumberFormat("en-US").format(recallsCount)}+`;
-  } catch {
-    /* keep fallback */
+  if (recallGraphStats.recallCount > 0) {
+    recallsCountText = `${new Intl.NumberFormat("en-US").format(recallGraphStats.recallCount)}+`;
+  }
+
+  if (recallGraphStats.recallCount <= 0) {
+    try {
+      const db = await getDb();
+      const [fdaCount, vehicleCount] = await Promise.all([
+        db.collection("recalls").countDocuments(),
+        db.collection("cars").countDocuments(),
+      ]);
+      const recallsCount = fdaCount + vehicleCount + getGeneralRecallSlugDateMap().size;
+      recallsCountText = `${new Intl.NumberFormat("en-US").format(recallsCount)}+`;
+    } catch {
+      /* keep fallback */
+    }
   }
 
   return (

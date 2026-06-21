@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import Link from "next/link";
 import RelatedRecalls from "@/components/recallgraph/RelatedRecalls";
+import { recallDetailRobots } from "@/lib/recallNoindex";
 import {
   getRecallGraphHealth,
   getRecallGraphRecallBySlug,
@@ -44,6 +45,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     description:
       recall?.description ||
       "RecallGraph source-backed recall detail with related recall graph context and public safety data metadata.",
+    robots: recallDetailRobots,
   };
 }
 

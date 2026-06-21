@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { getVehicleRecallSiteBaseUrl } from "@/lib/cars/vehicleRecallSeoDefaults";
+import { recallDetailRobots } from "@/lib/recallNoindex";
 import { getShortProductName } from "@/lib/recall-utils";
 import { dedupeStrings, defaultOgImageAbsolute, toAbsoluteOgImage } from "@/lib/seoShareImage";
 
@@ -104,6 +105,7 @@ export function buildFdaRecallMetadata(
   return {
     title,
     description,
+    robots: recallDetailRobots,
     alternates: { canonical },
     openGraph: {
       title,
