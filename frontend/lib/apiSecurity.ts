@@ -15,6 +15,10 @@ type LimitConfig = { max: number; windowMs: number };
 
 /** Per-route limits (per IP, sliding window). Tune via env if needed. */
 const ROUTES: Record<string, LimitConfig> = {
+  "__global-api": {
+    max: Math.max(1, parseInt(process.env.RATE_LIMIT_GLOBAL_API_MAX || "300", 10) || 300),
+    windowMs: 60_000,
+  },
   "cars-lookup": {
     max: Math.max(1, parseInt(process.env.RATE_LIMIT_CARS_LOOKUP_MAX || "40", 10) || 40),
     windowMs: 60_000,
@@ -41,6 +45,30 @@ const ROUTES: Record<string, LimitConfig> = {
   },
   "general-recalls-suggest": {
     max: Math.max(1, parseInt(process.env.RATE_LIMIT_GENERAL_RECALLS_SUGGEST_MAX || "100", 10) || 100),
+    windowMs: 60_000,
+  },
+  "recallgraph-search": {
+    max: Math.max(1, parseInt(process.env.RATE_LIMIT_RECALLGRAPH_SEARCH_MAX || "30", 10) || 30),
+    windowMs: 60_000,
+  },
+  "recallgraph-detail": {
+    max: Math.max(1, parseInt(process.env.RATE_LIMIT_RECALLGRAPH_DETAIL_MAX || "120", 10) || 120),
+    windowMs: 60_000,
+  },
+  "recallgraph-related": {
+    max: Math.max(1, parseInt(process.env.RATE_LIMIT_RECALLGRAPH_RELATED_MAX || "90", 10) || 90),
+    windowMs: 60_000,
+  },
+  "recallgraph-stats": {
+    max: Math.max(1, parseInt(process.env.RATE_LIMIT_RECALLGRAPH_STATS_MAX || "60", 10) || 60),
+    windowMs: 60_000,
+  },
+  "recallgraph-health": {
+    max: Math.max(1, parseInt(process.env.RATE_LIMIT_RECALLGRAPH_HEALTH_MAX || "60", 10) || 60),
+    windowMs: 60_000,
+  },
+  "recallgraph-evaluation": {
+    max: Math.max(1, parseInt(process.env.RATE_LIMIT_RECALLGRAPH_EVALUATION_MAX || "20", 10) || 20),
     windowMs: 60_000,
   },
 };
@@ -130,15 +158,54 @@ export function rateLimitExceededResponse(retryAfterSec: number): NextResponse {
   );
 }
 
+export function badRequestResponse(message: string): NextResponse {
+  return NextResponse.json(
+    { error: message },
+    { status: 400, headers: { "Cache-Control": "no-store" } }
+  );
+}
+
 /** Returns 429 NextResponse if over limit; otherwise null. */
 export function enforceRateLimit(req: Request, routeId: string): NextResponse | null {
   if (process.env.DISABLE_API_RATE_LIMIT === "1") {
     return null;
   }
   const ip = getClientIp(req);
+  const global = consumeRateLimit("__global-api", ip);
+  if (!global.ok) return rateLimitExceededResponse(global.retryAfterSec);
+
   const { ok, retryAfterSec } = consumeRateLimit(routeId, ip);
   if (!ok) return rateLimitExceededResponse(retryAfterSec);
   return null;
+}
+
+export function boundedIntegerParam(
+  searchParams: URLSearchParams,
+  key: string,
+  fallback: number,
+  min: number,
+  max: number
+): number {
+  const parsed = parseInt(searchParams.get(key) || String(fallback), 10);
+  const value = Number.isFinite(parsed) ? parsed : fallback;
+  return Math.min(max, Math.max(min, value));
+}
+
+export function boundedSearchParam(
+  searchParams: URLSearchParams,
+  key: string,
+  maxChars: number
+): { value: string | undefined; error: NextResponse | null } {
+  const raw = searchParams.get(key);
+  if (raw === null) return { value: undefined, error: null };
+  const value = raw.trim();
+  if (value.length > maxChars) {
+    return {
+      value: undefined,
+      error: badRequestResponse(`${key} is too long. Maximum length is ${maxChars} characters.`),
+    };
+  }
+  return { value: value || undefined, error: null };
 }
 
 export function jsonBodyTooLarge(req: Request, maxBytes = MAX_JSON_BODY_BYTES): boolean {

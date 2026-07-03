@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
+import { badRequestResponse, enforceRateLimit } from "@/lib/apiSecurity";
 import { getRecallGraphRecallBySlug, toPublicRecallGraphRecord } from "@/lib/recallgraph/server/data";
 
 export const dynamic = "force-dynamic";
@@ -9,8 +10,14 @@ type RouteContext = {
 };
 
 export async function GET(_request: NextRequest, { params }: RouteContext) {
+  const limited = enforceRateLimit(_request, "recallgraph-detail");
+  if (limited) return limited;
+
   try {
     const { slug } = await params;
+    if (!slug || slug.length > 220 || !/^[a-z0-9-]+$/i.test(slug)) {
+      return badRequestResponse("slug is invalid.");
+    }
     const recall = await getRecallGraphRecallBySlug(slug);
     if (!recall) return NextResponse.json({ error: "Recall not found" }, { status: 404 });
     return NextResponse.json(toPublicRecallGraphRecord(recall));

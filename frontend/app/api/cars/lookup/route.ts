@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import {
+  badRequestResponse,
   enforceRateLimit,
   jsonBodyTooLarge,
   payloadTooLargeResponse,
@@ -22,6 +23,7 @@ function clean(value: unknown): string {
 
 const inFlightCampaigns = new Set<string>();
 const URGENT_TERMS = ["fire", "injury", "crash", "death"];
+const VIN_RE = /^[A-HJ-NPR-Z0-9]{17}$/i;
 
 export async function POST(req: Request) {
   const limited = enforceRateLimit(req, "cars-lookup");
@@ -33,6 +35,9 @@ export async function POST(req: Request) {
     const vin = clean(body?.vin);
 
     if (vin) {
+      if (!VIN_RE.test(vin)) {
+        return badRequestResponse("VIN must be 17 valid characters.");
+      }
       const result = await getCarRecalls({ vin });
       const recalls = await mergeRecallsWithDb(result.recalls);
       return NextResponse.json({
@@ -50,6 +55,9 @@ export async function POST(req: Request) {
         { error: "Missing input. Provide vin OR year + make + model." },
         { status: 400 }
       );
+    }
+    if (!/^\d{4}$/.test(year) || make.length > 80 || model.length > 120) {
+      return badRequestResponse("Vehicle year, make, or model is invalid.");
     }
 
     const result = await getCarRecalls({ year, make, model });
@@ -199,4 +207,3 @@ function queueBackgroundSave(rawRecall: any) {
       inFlightCampaigns.delete(campaignNumber);
     });
 }
-

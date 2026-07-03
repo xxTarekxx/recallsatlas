@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import {
+  badRequestResponse,
   enforceRateLimit,
   jsonBodyTooLarge,
   payloadTooLargeResponse,
@@ -19,6 +20,10 @@ type TranslateBody = {
 
 function clean(v: unknown) {
   return String(v ?? "").trim();
+}
+
+function tooLong(value: string, max: number) {
+  return value.length > max;
 }
 
 function englishConsequence(recall: any, fallback: string) {
@@ -76,6 +81,9 @@ export async function POST(req: Request) {
         { status: 400 }
       );
     }
+    if (campaignNumber.length > 60 || lang.length > 12 || !/^[a-z]{2,3}(-[a-z0-9]{2,8})?$/i.test(lang)) {
+      return badRequestResponse("campaignNumber or lang is invalid.");
+    }
 
     let recall: any = null;
     try {
@@ -88,6 +96,15 @@ export async function POST(req: Request) {
     const fallbackRemedy = clean(body?.remedy);
     const fallbackConsequence = clean(body?.consequence);
     const fallbackComponent = clean(body?.component);
+
+    if (
+      tooLong(fallbackSummary, 2_500) ||
+      tooLong(fallbackRemedy, 2_500) ||
+      tooLong(fallbackConsequence, 2_500) ||
+      tooLong(fallbackComponent, 200)
+    ) {
+      return badRequestResponse("Translation input is too long.");
+    }
 
     if (!recall) {
       if (!fallbackSummary && !fallbackRemedy) {

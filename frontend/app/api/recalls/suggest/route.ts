@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { enforceRateLimit } from "@/lib/apiSecurity";
+import { boundedIntegerParam, boundedSearchParam, enforceRateLimit } from "@/lib/apiSecurity";
 import { getDb } from "@/lib/mongodb";
 
 export const dynamic = "force-dynamic";
@@ -15,8 +15,10 @@ export async function GET(request: NextRequest) {
 
   try {
     const { searchParams } = new URL(request.url);
-    const q = (searchParams.get("q") || "").trim();
-    const limit = Math.min(10, Math.max(1, parseInt(searchParams.get("limit") || "8", 10) || 8));
+    const qParam = boundedSearchParam(searchParams, "q", 120);
+    if (qParam.error) return qParam.error;
+    const q = qParam.value || "";
+    const limit = boundedIntegerParam(searchParams, "limit", 8, 1, 10);
 
     if (!q) {
       return NextResponse.json({ suggestions: [] });

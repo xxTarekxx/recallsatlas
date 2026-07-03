@@ -1,5 +1,9 @@
 import { NextRequest, NextResponse } from "next/server";
-import { enforceRateLimit } from "@/lib/apiSecurity";
+import {
+  boundedIntegerParam,
+  boundedSearchParam,
+  enforceRateLimit,
+} from "@/lib/apiSecurity";
 import {
   DEFAULT_RECALLS_PAGE,
   DEFAULT_RECALLS_PAGE_SIZE,
@@ -15,14 +19,19 @@ export async function GET(request: NextRequest) {
 
   try {
     const { searchParams } = new URL(request.url);
+    const q = boundedSearchParam(searchParams, "q", 160);
+    if (q.error) return q.error;
+    const category = boundedSearchParam(searchParams, "category", 80);
+    if (category.error) return category.error;
+    const lang = boundedSearchParam(searchParams, "lang", 8);
+    if (lang.error) return lang.error;
+
     const data = await loadRecallsListPage({
-      page: parseInt(searchParams.get("page") || String(DEFAULT_RECALLS_PAGE), 10) || 1,
-      limit:
-        parseInt(searchParams.get("limit") || String(DEFAULT_RECALLS_PAGE_SIZE), 10) ||
-        DEFAULT_RECALLS_PAGE_SIZE,
-      q: searchParams.get("q") || "",
-      category: searchParams.get("category"),
-      lang: searchParams.get("lang"),
+      page: boundedIntegerParam(searchParams, "page", DEFAULT_RECALLS_PAGE, 1, 10_000),
+      limit: boundedIntegerParam(searchParams, "limit", DEFAULT_RECALLS_PAGE_SIZE, 1, 100),
+      q: q.value || "",
+      category: category.value,
+      lang: lang.value,
     });
 
     if (process.env.NODE_ENV === "development") {
