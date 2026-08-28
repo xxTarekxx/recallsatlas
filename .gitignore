@@ -81,6 +81,9 @@ id_ed25519
 .idea/
 .cursor/
 
+# Local conversation attachments; preserve outside version control.
+/.codex-remote-attachments/
+
 # OS files
 .DS_Store
 Thumbs.db
